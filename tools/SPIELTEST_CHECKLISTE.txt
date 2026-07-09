@@ -1,0 +1,208 @@
+================================================================================
+POLISHED CRYSTAL DE — SPIELTEST-CHECKLISTE
+ROM: polishedcrystal-3.2.3.gbc
+Ziel: Von "sehr gut" zu "perfekt" — subjektive Qualität + Edge Cases
+================================================================================
+
+VORBEREITUNG
+------------
+[ ] Emulator: SameBoy, BGB oder mGBA (GBC-Modus)
+[ ] Test 1: Standardname (z.B. GOLD / KAI) — 3–4 Zeichen
+[ ] Test 2: Grenzname — 7 Zeichen (z.B. ALEXAND / MONSTER) — wichtig für <PLAYER>-Zeilen!
+[ ] Optional: Cheat/Save-State für schnellen Sprung zu Spätspiel
+
+Legende: [P]=Pflicht  [S]=Stichprobe  [E]=Edge Case / kürzlich gefixt
+
+
+================================================================================
+A) START & KERNSYSTEME
+================================================================================
+
+[P] Neuborkia — Intro, Lyra, Prof.Lind (ElmsLab.asm, NewBarkTown.asm)
+    - Stil: du, #mon, Prof.Lind
+    - Lyra-Ton: Hi/Oh erlaubt, aber natürlich?
+
+[P] #gear / Menü — Uhr, Karte, Radio, Telefon
+    - Optionen-Texte lesbar? (KP/AP/EP, #dex)
+
+[P] VM / Tasche / PC — Standardmeldungen (data/text/common.asm)
+    - "Deine #mon" am Satzanfang = korrekte Großschreibung
+
+[P] Kampf-UI — Attackennamen ENGLISCH, Statusmeldungen DEUTSCH
+    - KP/AP/EP, nicht HP/PP/EXP
+
+
+================================================================================
+B) #MON JOURNAL (Spezial: / Profi-Tipps!)
+================================================================================
+
+Stichprobe mindestens 5 verschiedene Orte:
+
+[P] Neuborkia VM — AzaleaPokeCenter1F.asm → "Spezial:"
+[P] Dukatia — GoldenrodPokecomCenter1F.asm → "Spezial:"
+[P] Profi-Tipps-Schild — z.B. AzaleaTown, EcruteakCity, VermilionCity
+    - Muss "Profi-Tipps!" heißen, NICHT "Advanced Tips!"
+
+[S] Weitere: BillsHouse, KurtsHouse, EarlsPokemonAcademy, Route29/31/32
+
+
+================================================================================
+C) TELEFON & POST
+================================================================================
+
+[P] Lyra anrufen (nach Nummer von Route 34 / DayCare)
+    [E] DayCare: "Du speicherst / Lyras Nummer." — Zeilenbreite OK?
+
+[P] Mutter anrufen — Geld-Meldungen
+
+[S] Ein Kontakt pro Kategorie testen:
+    - Prof.Lind (Elm) — "Hallo, <PLAYER>?"
+    - Bill — "Hi, <PLAYER>?" (Loanword OK?)
+    - Kurt — "KURT: Hallo," (Feinschliff geprüft)
+
+[S] Evoli-Mail in TEAK CITY VM — EcruteakPokeCenter1F
+    - "Bitte passe auf / Evoli gut auf!" — kein #mon in Mail (technisch)
+
+
+================================================================================
+D) ARENEN & STORY-HÖHEPUNKTE (je 1 Dialog nach Sieg/Niederlage)
+================================================================================
+
+[P] Viola City — Käfer-ARENA (AzaleaGym)
+[P] Dukatia — BIANKA weint / TM45 (GoldenrodGym)
+    [E] BIANKA-Zitat: „Ich brauche eine Radiokarte!"
+[P] TEAK CITY — Morty (EcruteakGym)
+[P] Oliviana — Jasmin / Leuchtturm (OlivineGym, Lighthouse6F)
+[P] Mahagonia — Pryce (MahoganyGym)
+[P] Eisberg — Lorina (BlackthornGym)
+[P] Prismania — Erika (CeladonGym)
+[P] Azuria — Misty (CeruleanGym)
+[P] Vertania — Blue (ViridianGym)
+
+[S] Kanto-ARENAEN: Fuchsania, Saffronia, Vermilion, Orania, Lavandia
+
+
+================================================================================
+E) POLISHED-CRYSTAL-EXKLUSIV
+================================================================================
+
+[P] Universität PRISMANIA — mindestens 1 Klassenzimmer + Bibliothek
+    - Deutsche Anführungszeichen „…" in Büchern lesbar?
+
+[P] Battle Tower (Dukatia) — Eintritt, Regeln, Sieg/Niederlage
+
+[P] Battle Factory — Leih-#mon-Dialoge
+
+[P] RADIOTURM Dukatia — Team-Rocket-Plot
+    [E] NPC: "Man kann deinen #COM modifizieren…"
+
+[P] Universität Shamouti / Ivy (post-game)
+    [E] "Ivy: Ach! Du bist / <PLAYER>, / der neue / Champion!"
+
+[P] Giovanni-Höhle / Embedded Tower (falls erreichbar)
+
+
+================================================================================
+F) DYNAMISCHE TEXTE (häufige Bug-Quelle)
+================================================================================
+
+Diese Dialoge bauen sich aus RAM-Strings + "?" / "." zusammen — im Spiel prüfen!
+
+[P] Spielhalle Preisraum PRISMANIA — Item/TM kaufen bestätigen
+    - "Du willst also [ITEM]?"
+
+[P] Dukatia — Glücks-Züchter (GoldenrodHappinessRater)
+    - "Lass mich dein [PKMN] sehen…"
+
+[P] Nationalpark Route 35 — Käferturnier-Anmeldung
+    - "Heute ist [Wochentag]."
+
+[P] Namen-Bewerter Dukatia — #mon umbenennen
+
+[S] Kaufhaus 4F Geschenke — CeladonDeptStore4F
+
+[S] Copycat-Haus — viele <PLAYER>-Zeilen (CopycatsHouse2F.asm)
+
+
+================================================================================
+G) SCHILDER & ORTSNAMEN (Stil-Konsistenz)
+================================================================================
+
+[P] Dukatia CITY — alle großen Schilder (Bahnhof, Kaufhaus, ARENA…)
+[P] Prismania — Kaufhaus-Schild
+    [E] "findest du alles, was dein Herz begehrt!" — informelles du
+[P] Route 34 — PENSION-Schild
+    [E] "Wir ziehen dein #mon für dich auf!"
+[P] Ortsnamen-Stil: Dukatia, Prismania, TEAK CITY, OLIVIANA, AZURIA CITY…
+
+
+================================================================================
+H) LANGE NAMEN — EDGE CASE (7-Zeichen-Name!)
+================================================================================
+
+Mit 7-Zeichen-Spielername diese Szenen NOCHMAL:
+
+[P] Shamouti VM — Ivy-Begrüßung
+[P] Copycat-Haus Saffronia
+[P] Hall of Fame / Credits-Einleitung
+[P] ElmsLab — alle <PLAYER>-Dialoge (viele!)
+[P] Radio Buena / Margit — RadioTower2F/4F
+[P] SS Aqua / Magnetzug — Hafen Dukatia
+
+
+================================================================================
+I) SPÄTSPIEL & KANTO
+================================================================================
+
+[S] SILBERBERG / Siegesstraße
+[S] #mon LIGA — TOP VIER + Lance (je 1 Dialog)
+[S] Champ-Rückkampf / Hall of Fame
+[S] Safari-Zone, Ruinen von Alph, Zinnober/Vulkan
+[S] Fahrt nach Kanto, Zeppelin/Schiff
+
+
+================================================================================
+J) BEKANNTE STIL-GRAUZONEN (notieren, nicht zwingend ändern)
+================================================================================
+
+- Hi/Oh bei Jugendlichen (Lyra, Copycat) — bewusst locker
+- Trainer / Sorry / okay — etabliertes Loanword-Deutsch
+- Attackennamen Englisch — Regel
+- O.K. statt OK — vereinzelt, nostalgisch
+- Aerodactyl ohne Umlaut — Speziesname
+- Credits Englisch — normal bei ROM-Hacks
+
+
+================================================================================
+FEHLER PROTOKOLL (Vorlage)
+================================================================================
+
+# | Ort / NPC | Was stimmt nicht? | Schwere (Text/Breite/Stil/EN)
+--|-----------|-------------------|----------------------------
+1 |
+2 |
+3 |
+
+Schwere:
+  TEXT    = Tippfehler / unverständlich / falscher Ton
+  BREITE  = Text ragt aus Box / umgebrochen falsch
+  STIL    = Sie statt du, falscher Ortsname, #mon fehlt
+  EN      = Englischer Satz/Fragment
+
+
+================================================================================
+SCHNELL-CHECK (~30 Min, Minimum vor Release)
+================================================================================
+
+1. Neuborkia → Erster Arenaleiter → Journal in VM lesen
+2. Dukatia → BIANKA → Radioturm → Journal #COM
+3. Route 34 Pension → Lyra-Nummer → anrufen
+4. Shamouti Ivy mit 7-Zeichen-Name
+5. Spielhalle: Preis kaufen (dynamischer Text)
+6. Eine Kanto-ARENA + Universität Prismania Kurzbesuch
+7. Hall of Fame mit langem Namen
+
+Wenn diese 7 Punkte sauber sind → Release-Qualität.
+Vollständiger Durchlauf (Alles oben) → "Perfekt"-Niveau.
+
+================================================================================

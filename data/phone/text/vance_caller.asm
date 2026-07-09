@@ -1,0 +1,63 @@
+VanceMonHasBecomeTougherText:
+	text "Mein "
+	text_ram wStringBuffer4
+	text " ist"
+	line "stärker geworden."
+
+	para "Wir heben ab!"
+	done
+
+VanceDefeatedMonText:
+	text "Wir besiegen "
+	text_ram wStringBuffer4
+	text "!"
+	line "leicht!"
+
+	para "…Häh? Du auch?"
+	line "Ist das nicht"
+	cont "toll?"
+	done
+
+VanceLostAMonText:
+	text "Aber ein wildes"
+	line ""
+	text_ram wStringBuffer4
+
+	para "entkam uns knapp."
+	line "Ich wollte Fly"
+	cont "hinterher…"
+	done
+
+VanceBattleRematchText:
+	text "Gerade bin ich"
+	line "auf"
+	line ""
+	text_ram wStringBuffer5
+	text "."
+
+	para "Weißt du, wo wir"
+	line "uns trafen?"
+
+	para "Lust zu kämpfen?"
+	line "Ich warte."
+	done
+
+VanceHangUpText:
+	text "OK, tschüss!"
+	done
+
+VanceLookingForwardText:
+	text "Ich freu mich auf"
+	line "unseren nächsten"
+	cont "Kampf!"
+	done
+
+VanceHurryHurryText:
+	text "Oh, <PLAYER>!"
+	line "Schnell, schnell!"
+
+	para ""
+	text_ram wStringBuffer5
+	text "!"
+	line "Fly her!"
+	done

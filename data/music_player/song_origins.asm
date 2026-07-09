@@ -1,0 +1,21 @@
+SongOrigins:
+	list_start
+	li "R/B"
+	li "Gelb"
+	li "G/S"
+	li "Kris."
+	li "Ru/SA/SM"
+	li "FR/BG"
+	li "D/P/Pt"
+	li "HG/SS"
+	li "S/W"
+	li "S2/W2"
+	li "X/Y"
+	li "OR/AS"
+	li "S/M"
+	li "Schw/Schild"
+	li "Stadium"
+	li "Go"
+	li "F02"
+	li "Prism"
+	assert_list_length NUM_SONG_ORIGINS

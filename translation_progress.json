@@ -1,0 +1,4870 @@
+{
+  "maps_total": 607,
+  "maps_done": 516,
+  "maps_partial": 0,
+  "maps_open": 0,
+  "maps_no_text": 91,
+  "dialogue_lines_total": 6005,
+  "english_lines_remaining": 0,
+  "dialogue_lines_translated_est": 6005,
+  "percent_maps_done": 85.0,
+  "percent_lines_done": 100.0,
+  "files": [
+    {
+      "file": "AzaleaGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "AzaleaMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "AzaleaPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "AzaleaTown.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BattleFactory1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 17,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BattleFactoryBattleRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "BattleFactoryHallway.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BattleTower1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 26,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BattleTower2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 38,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BattleTowerBattleRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BattleTowerElevator.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "BattleTowerHallway.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BattleTowerOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BeautifulBeach.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 20,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BeautifulBeachVilla.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BellchimeTrail.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BillsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BlackthornCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 23,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BlackthornDragonSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BlackthornEmysHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "BlackthornGym1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 16,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BlackthornGym2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BlackthornMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BlackthornPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 10,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BluesHouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BluesHouse2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "BrunosRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BurnedTower1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "BurnedTowerB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonCafe.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 21,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonChiefHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 28,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStore1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStore2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStore3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 32,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStore4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 12,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStore5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStore6F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonDeptStoreElevator.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "CeladonDevelopmentSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonGameCorner.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonGameCornerPrizeRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 23,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHomeDecorStore1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHomeDecorStore2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHomeDecorStore3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 18,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHomeDecorStore4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 16,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHotel1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHotel2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHotelPool.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHotelRoom1.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHotelRoom2.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonHotelRoom3.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonMansion1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonMansion2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonMansion3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonMansionRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonMansionRoofHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonOldManSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversity1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 17,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversity2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 21,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityCafeteria.asm",
+      "eng_lines": 0,
+      "ger_lines": 15,
+      "text_lines": 22,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityClassroom1.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityClassroom2.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityClassroom3.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityClassroom4.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 19,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityHyperTestRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 30,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityLibrary1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 15,
+      "text_lines": 23,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityLibrary2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 17,
+      "text_lines": 31,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityLounge.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 17,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityNursesOffice.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityPool.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityPrincipalsOffice.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityWestwoodsOffice.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeladonUniversityWillowsOffice.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanBerryPowderHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanBikeShop.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanCape.asm",
+      "eng_lines": 0,
+      "ger_lines": 16,
+      "text_lines": 34,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanCave1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "CeruleanCave2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "CeruleanCaveB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 18,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanCoupleHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 27,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanGymBadgeSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanPoliceStation.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanTradeSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CeruleanWaterShowSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CharcoalKiln.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CherrygroveBay.asm",
+      "eng_lines": 0,
+      "ger_lines": 11,
+      "text_lines": 24,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CherrygroveCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 11,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CherrygroveEvolutionSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CherrygroveGymSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CherrygroveMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CherrygrovePokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CianwoodCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 18,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CianwoodCityPhotoStudio.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CianwoodGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 24,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CianwoodLugiaSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CianwoodPharmacy.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CianwoodPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 8,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CinnabarIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CinnabarLab.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CinnabarPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CinnabarVolcano1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CinnabarVolcanoB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CinnabarVolcanoB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CliffCave.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "CliffEdgeGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Colosseum.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "CopycatsHouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "CopycatsHouse2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 16,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "DanceTheatre.asm",
+      "eng_lines": 0,
+      "ger_lines": 12,
+      "text_lines": 25,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "DarkCaveBlackthornEntrance.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "DarkCaveVioletEntrance.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "DayCare.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 18,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "DiglettsCave.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "DimCave1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "DimCave2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "DimCave3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "DimCave4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "DimCave5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 16,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "DragonsDen1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "DragonsDenB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 33,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "DragonShrine.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 26,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EarlsPokemonAcademy.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 21,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakCherishBallHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakDestinyKnotHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakItemfinderHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakLugiaSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 15,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakShrineInside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "EcruteakShrineOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ElmsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ElmsLab.asm",
+      "eng_lines": 0,
+      "ger_lines": 33,
+      "text_lines": 84,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "EmbeddedTower.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "EusinesHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 14,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "FarawayIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "FarawayJungle.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "FastShip1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FastShipB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 12,
+      "text_lines": 37,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FastShipCabins_NNW_NNE_NE.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 24,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FastShipCabins_SE_SSE_CaptainsCabin.asm",
+      "eng_lines": 0,
+      "ger_lines": 11,
+      "text_lines": 32,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FastShipCabins_SW_SSW_NW.asm",
+      "eng_lines": 0,
+      "ger_lines": 11,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FightingDojo.asm",
+      "eng_lines": 0,
+      "ger_lines": 19,
+      "text_lines": 60,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FireIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "FireIslandRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "FuchsiaBillSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "FuchsiaCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FuchsiaGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FuchsiaMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FuchsiaPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "FuchsiaSafariBallHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GiovannisCave.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodBandHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodBikeShop.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodBillsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 26,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 12,
+      "text_lines": 39,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStore1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStore2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStore3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStore4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStore5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStore6F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStoreB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodDeptStoreElevator.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "GoldenrodDeptStoreRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 24,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodFlowerShop.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 15,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodGameCorner.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodHappinessRater.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodHarbor.asm",
+      "eng_lines": 0,
+      "ger_lines": 14,
+      "text_lines": 37,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodHarborGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodHoneyHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodMagnetTrainStation.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodMuseum1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodMuseum2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 20,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodNameRater.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "GoldenrodNetBallHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodPokecomCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 26,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodPokecomCenterOffice.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 16,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodPPSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodUnderground.asm",
+      "eng_lines": 0,
+      "ger_lines": 16,
+      "text_lines": 50,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodUndergroundEntrances.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodUndergroundSwitchRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 26,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "GoldenrodUndergroundWarehouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 12,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "GuideGentsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "HallOfFame.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "HauntedRadioTower2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "HauntedRadioTower3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "HauntedRadioTower4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "HauntedRadioTower5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "HauntedRadioTower6F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "HiddenCaveGrotto.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "HiddenTreeGrotto.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "IceIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "IceIslandRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "IcePath1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IcePathB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IcePathB2FBlackthornSide.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "IcePathB2FMahoganySide.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IcePathB3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IlexForest.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IlexForestAzaleaGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IndigoPlateau.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "IndigoPlateauPokecenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "IvysHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "IvysLab.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 17,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "KarensRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "KogasRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "KurtsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LakeOfRage.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LakeOfRageHiddenPowerHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LakeOfRageMagikarpHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LancesRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 11,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LavenderMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LavenderNameRater.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "LavenderPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LavenderTown.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 12,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LavenderTownSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "LavRadioTower1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 10,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "LavRadioTower2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "LavRadioTower3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "LavRadioTower4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "LavRadioTower5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "LightningIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "LightningIslandRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "LuckyIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 22,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "LyrasHouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "LyrasHouse2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MagnetTunnelEast.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "MagnetTunnelInside.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 20,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MagnetTunnelWest.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "MahoganyGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MahoganyMart1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MahoganyPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MahoganyRedGyaradosSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MahoganyTown.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ManiasHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MountMoon1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 22,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MountMoonB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MountMoonB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MountMoonGiftShop.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MountMoonSquare.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MountMortar1FInside.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MountMortar1FOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MountMortar2FInside.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MountMortarB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 11,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MoveDeletersHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "MoveManiacsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MrFujisHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MrPokemonsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MrPsychicsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "MurkySwamp.asm",
+      "eng_lines": 0,
+      "ger_lines": 13,
+      "text_lines": 27,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "MystriStage.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "NationalPark.asm",
+      "eng_lines": 0,
+      "ger_lines": 10,
+      "text_lines": 36,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "NationalParkBugContest.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "NavelRockInside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "NavelRockOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "NavelRockRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "NewBarkTown.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "NoisyForest.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 26,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "OaksLab.asm",
+      "eng_lines": 0,
+      "ger_lines": 10,
+      "text_lines": 34,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineCafe.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 12,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineCityRoute35CoastDual.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "OlivineGoodRodHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineLighthouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineLighthouse2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineLighthouse3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineLighthouse4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineLighthouse5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineLighthouse6F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 11,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivinePokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 8,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivinePort.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivinePunishmentSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "OlivineTimsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "PalletTown.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PewterCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PewterGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PewterMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PewterMuseumOfScience1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 18,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "PewterMuseumOfScience2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "PewterNidoranSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PewterPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PewterSnoozeSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PlayersHouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PlayersHouse2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PlayersNeighborsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PokeCenter2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 12,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PokemonFanClub.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PokemonLeagueGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "PokemonMansion1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "PokemonMansionB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "PokemonTrainerFanClub.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "PowerPlant.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "PsychicInversHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "QuietCave1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 12,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "QuietCaveB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 16,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "QuietCaveB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "QuietCaveB3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RadioTower1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 36,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RadioTower2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 42,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RadioTower3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RadioTower4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RadioTower5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 17,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RedsHouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RedsHouse2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RocketHideoutB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RocketHideoutB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RocketHideoutB3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RocketHideoutB4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 36,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RocketHideoutElevator.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RockTunnel1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RockTunnel2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "RockTunnelB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RockyBeach.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 21,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RockyBeachHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "Route1.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route10North.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route10PokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route10South.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 10,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route11.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route11Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route11Gate2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route12Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route12Gate2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route12North.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route12South.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 25,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route12SuperRodHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route13.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 39,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route14.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route14LuckyIslandDual.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "Route15.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route15FuchsiaGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route15FuchsiaGate2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route1617Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route1617Gate2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route16East.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route16FuchsiaSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route16Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route16North.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "Route16West.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route17North.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route17South.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 37,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route18East.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route18Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route18Gate2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route18West.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route19.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route19BeachHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route19FuchsiaGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route1ViridianGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route20.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 38,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route21.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 36,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route22.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route22Past.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route23North.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route23South.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "Route24.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route25.asm",
+      "eng_lines": 0,
+      "ger_lines": 15,
+      "text_lines": 29,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route26.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route26DayofWeekSiblingsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route26HealSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route27.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route27RestHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route28.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route28FamousSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route29.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 16,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route2946Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route2Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route2North.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route2NuggetSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route2South.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route3.asm",
+      "eng_lines": 0,
+      "ger_lines": 14,
+      "text_lines": 35,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route30.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route30BerrySpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route31.asm",
+      "eng_lines": 0,
+      "ger_lines": 12,
+      "text_lines": 26,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route31VioletGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route32.asm",
+      "eng_lines": 0,
+      "ger_lines": 15,
+      "text_lines": 54,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route32Coast.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 36,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route32CoastHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route32PokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 12,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route32RuinsOfAlphGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route33.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route34.asm",
+      "eng_lines": 0,
+      "ger_lines": 13,
+      "text_lines": 48,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route34Coast.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 21,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route34IlexForestGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route35.asm",
+      "eng_lines": 0,
+      "ger_lines": 10,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route35CoastNorth.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route35CoastSouth.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 24,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route35GoldenrodGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 10,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route35NationalParkGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 26,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route36.asm",
+      "eng_lines": 0,
+      "ger_lines": 12,
+      "text_lines": 36,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route36NationalParkGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 16,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route36RuinsOfAlphGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route36VioletGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route37.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route38.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 21,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route38EcruteakGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 8,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route39.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 33,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route39Barn.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route39Farmhouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 11,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route39RuggedRoadGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route3PokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route4.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 30,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route40.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 29,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route40BattleTowerGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route41.asm",
+      "eng_lines": 0,
+      "ger_lines": 16,
+      "text_lines": 40,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route42.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route42EcruteakGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route43.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 39,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route43Gate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route43MahoganyGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route44.asm",
+      "eng_lines": 0,
+      "ger_lines": 14,
+      "text_lines": 32,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route45.asm",
+      "eng_lines": 0,
+      "ger_lines": 14,
+      "text_lines": 38,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route46.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 18,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route47.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 34,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route48.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route49.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 15,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route5.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route5CleanseTagSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route5SaffronCityGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "Route5UndergroundPathEntrance.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route6.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route6SaffronGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route6UndergroundPathEntrance.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "Route7.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route7SaffronGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route8.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 31,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route8SaffronGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "Route9.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 20,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuggedRoadNorth.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "RuggedRoadSouth.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphAerodactylChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphAerodactylItemRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphAerodactylWordRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphEntranceChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphHoOhChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphHoOhItemRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphHoOhWordRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphInnerChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphKabutoChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 6,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphKabutoItemRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphKabutoWordRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphOmanyteChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphOmanyteItemRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphOmanyteWordRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "RuinsOfAlphOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 18,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphResearchCenter.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "RuinsOfAlphSinjohChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneEast.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneEastRestHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SafariZoneFuchsiaGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneHub.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneHubRestHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneNorth.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 20,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneNorthRestHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SafariZoneWardensHome.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneWest.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 13,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SafariZoneWestRestHouse1.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SafariZoneWestRestHouse2.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SaffronBookSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SaffronCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 22,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SaffronGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 28,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SaffronHitmontopKidHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SaffronMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SaffronOrreSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SaffronPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SaffronRichSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SaffronTrainStation.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ScaryCave1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 8,
+      "text_lines": 29,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ScaryCaveB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ScaryCaveShipwreck.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SeafoamGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SeafoamIslands1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SeafoamIslandsB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SeafoamIslandsB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SeafoamIslandsB3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SeafoamIslandsB4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SeagallopFerryNavelGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SeagallopFerryShamoutiGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SeagallopFerryVermilionGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiCoast.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 21,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiHotel1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiHotel2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiHotel3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiHotelRestaurant.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiHotelRoom2A.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiHotelRoom2B.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiHotelRoom3B.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiHotelRoom3C.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiMerchant.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "ShamoutiPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiShrineRuins.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiTouristCenter.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ShamoutiTunnel.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 18,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SilphCo1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SilphCo2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 7,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SilphCo3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SilverCaveItemRooms.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "SilverCaveOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SilverCavePokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SilverCaveRoom1.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "SilverCaveRoom2.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "SilverCaveRoom3.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SinjohRuins.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SinjohRuinsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SlowpokeWellB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 16,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SlowpokeWellB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SlowpokeWellEntrance.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SnowtopMountainInside.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SnowtopMountainOutside.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SnowtopPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SoulHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 10,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SoulHouseB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SoulHouseB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "SoulHouseB3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "SproutTower1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SproutTower2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 7,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "SproutTower3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 19,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "StormyBeach.asm",
+      "eng_lines": 0,
+      "ger_lines": 10,
+      "text_lines": 14,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "TeamRocketBaseB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 13,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "TeamRocketBaseB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 28,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "TeamRocketBaseB3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 21,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "TinTower10F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": false,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "TinTower2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower4F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower5F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower6F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower7F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower8F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTower9F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TinTowerRoof.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "TohjoFalls.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TradeCenter.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "TrainerHouse1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "TrainerHouseB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "UndergroundPath.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "UnionCave1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 18,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "UnionCaveB1FNorth.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "UnionCaveB1FSouth.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 21,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "UnionCaveB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "UragaChannelEast.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 11,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "UragaChannelWest.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ValenciaHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ValenciaIsland.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ValenciaPort.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ValeriesHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VermilionCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 9,
+      "text_lines": 24,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VermilionGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 7,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VermilionHouseDiglettsCaveSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VermilionHouseFishingSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VermilionMagnetTrainSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VermilionMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VermilionPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VermilionPollutionSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VermilionPort.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 9,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VermilionSSAnneSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VictoryRoad1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VictoryRoad2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 10,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VictoryRoad3F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 3,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VioletCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 15,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VioletGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 14,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VioletMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VioletNicknameSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "VioletOnixTradeHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VioletOutskirts.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 2,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VioletOutskirtsHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "VioletPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 10,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ViridianCity.asm",
+      "eng_lines": 0,
+      "ger_lines": 4,
+      "text_lines": 16,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ViridianForest.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 21,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ViridianForestPewterGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ViridianForestViridianGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "ViridianGym.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 25,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ViridianMart.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 2,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ViridianNicknameSpeechHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 4,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ViridianPokeCenter1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "ViridianSchoolHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 5,
+      "text_lines": 9,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "WarmBeach.asm",
+      "eng_lines": 0,
+      "ger_lines": 11,
+      "text_lines": 18,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "WarmBeachHouse.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 6,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "WarmBeachShack.asm",
+      "eng_lines": 0,
+      "ger_lines": 3,
+      "text_lines": 8,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "WhirlIslandB1F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WhirlIslandB2F.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WhirlIslandCave.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WhirlIslandLugiaChamber.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 1,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "WhirlIslandNE.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WhirlIslandNW.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WhirlIslandSE.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WhirlIslandSW.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 0,
+      "ref_available": true,
+      "status": "no_text"
+    },
+    {
+      "file": "WillsRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 1,
+      "text_lines": 5,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "WiseTriosRoom.asm",
+      "eng_lines": 0,
+      "ger_lines": 2,
+      "text_lines": 15,
+      "ref_available": true,
+      "status": "done"
+    },
+    {
+      "file": "YellowForest.asm",
+      "eng_lines": 0,
+      "ger_lines": 6,
+      "text_lines": 30,
+      "ref_available": false,
+      "status": "done"
+    },
+    {
+      "file": "YellowForestGate.asm",
+      "eng_lines": 0,
+      "ger_lines": 0,
+      "text_lines": 4,
+      "ref_available": false,
+      "status": "done"
+    }
+  ]
+}

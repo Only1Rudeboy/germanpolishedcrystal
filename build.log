@@ -1,0 +1,53 @@
+In file included from bpp2png.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from fine_print.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from gfx.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from make_patch.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from png_dimensions.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from pokemon_animation.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from pokemon_animation_graphics.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from vwf.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+make[1]: Entering directory 'C:/Users/Rudeboy/Downloads/polishedcrystal-master/polishedcrystal-master/tools' gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o bankends bankends.c parsemap.o gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o bpp2png bpp2png.c lodepng/lodepng.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o bspcomp bsp/bspcomp.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o fine_print fine_print.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o gfx gfx.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -Wno-strict-overflow -Wno-sign-compare -o lzpcompress lzpcompress.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o make_patch make_patch.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o png_dimensions png_dimensions.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o pokemon_animation pokemon_animation.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o pokemon_animation_graphics pokemon_animation_graphics.c gcc -O3 -flto -std=c17 -Wall -Wextra -pedantic -Walloc-zero -Wcast-align -Wcast-qual -Wduplicated-branches -Wduplicated-cond -Wfloat-equal -Wformat=2 -Wformat-overflow=2 -Wformat-truncation=1 -Winline -Wlogical-op -Wnested-externs -Wno-sign-compare -Wnull-dereference -Wold-style-definition -Wshadow -Wshift-overflow=2 -Wstrict-overflow=2 -Wstrict-prototypes -Wstringop-overflow=4 -Wundef -Wuninitialized -Wunused -Wwrite-strings -o vwf vwf.c make[1]: Leaving directory 'C:/Users/Rudeboy/Downloads/polishedcrystal-master/polishedcrystal-master/tools'
+rgbds/rgbasm -Weverything -Wtruncation=1 -E -Q8 -P includes.asm -o home.o home.asm
+rgbds/rgblink -Weverything -Wtruncation=1 -M -n polishedcrystal-3.2.3.sym -m polishedcrystal-3.2.3.map -p 0xff -l layout.link -o polishedcrystal-3.2.3.gbc main.o home.o ram.o audio.o audio/music_player.o data/pokemon/dex_entries.o data/pokemon/egg_moves.o data/pokemon/evos_attacks.o data/maps/map_data.o data/text/common.o data/tilesets.o engine/movie/credits.o engine/overworld/events.o gfx/minis_icons.o gfx/pokemon.o gfx/sprites.o gfx/trainers.o gfx/items.o gfx/misc.o
+error: Cannot decrease the current address (from $0451 to $0100)
+    at layout.link(32)
+error: The linker script assigns section "Header" to address $0451, but it was already at $0100
+    at layout.link(33)
+error: Cannot decrease the current address (from $04a1 to $0150)
+    at layout.link(34)
+error: The linker script assigns section "Home" to address $04a1, but then it would overflow ROM0 by 56 bytes
+    at layout.link(35)
+Linking failed with 4 errors
+make: *** [Makefile:165: polishedcrystal-3.2.3.gbc] Error 1

@@ -1,0 +1,60 @@
+In file included from bpp2png.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from fine_print.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from gfx.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from make_patch.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from png_dimensions.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from pokemon_animation.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from pokemon_animation_graphics.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+In file included from vwf.c:4:
+common.h: In function 'read_stdin':
+common.h:114:25: warning: allocation of insufficient size '0' for type 'uint8_t' {aka 'unsigned char'} with size '1' [-Walloc-size]
+  114 |         uint8_t *data = malloc(0);
+      |                         ^~~~~~
+error: `JR` target must be between -128 and 127 bytes away, not 130; use `JP` instead
+    at engine/pokemon/party_menu.asm(218)
+    <- main.asm(296)
+warning: Value $102 is not 8-bit [-Wtruncation]
+    at macros/scripts/events.asm::iftruefwd(1356)
+    <- maps/BattleTower1F.asm(172)
+    <- data/maps/scripts.asm(62)
+    <- data/maps/map_data.asm(12)
+warning: Value $126 is not 8-bit [-Wtruncation]
+    at macros/scripts/events.asm::ifequalfwd(1342)
+    <- maps/BluesHouse1F.asm(48)
+    <- data/maps/scripts.asm(486)
+    <- data/maps/map_data.asm(12)
+warning: Value $12f is not 8-bit [-Wtruncation]
+    at macros/scripts/events.asm::iffalsefwd(1349)
+    <- maps/BluesHouse1F.asm(44)
+    <- data/maps/scripts.asm(486)
+    <- data/maps/map_data.asm(12)
+Linking failed with 1 error
+make: *** [Makefile:165: polishedcrystal-3.2.3.gbc] Error 1

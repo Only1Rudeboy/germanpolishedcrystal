@@ -1,0 +1,142 @@
+============================================================
+COMPREHENSIVE QC — POLISHED CRYSTAL DE
+============================================================
+
+## BUILD (2)
+----------------------------------------
+ROM: 4194304 bytes
+make crystal: OK
+
+## STATS (3)
+----------------------------------------
+dialog_strings=46594
+long_lines=0
+borderline_17=4352
+
+## SUSPICIOUS_SHORT (412)
+----------------------------------------
+maps/CeladonGameCornerPrizeRoom.asm:251: '?'
+maps/CeladonGameCornerPrizeRoom.asm:260: '?'
+maps/CeladonMansion1F.asm:151: '?'
+maps/CeladonMansion1F.asm:171: '!'
+maps/CeladonMansion1F.asm:182: '!'
+maps/CeladonMansion2F.asm:31: '…'
+maps/CeladonMansion2F.asm:59: '…'
+maps/CeladonMansion3F.asm:141: '…'
+maps/CeladonMansionRoofHouse.asm:102: '…'
+maps/CeladonMansionRoofHouse.asm:104: '…'
+maps/CeladonMansionRoofHouse.asm:112: '…'
+maps/CeruleanCape.asm:452: '…'
+maps/CeruleanCity.asm:161: '…'
+maps/CianwoodGym.asm:234: '…'
+maps/CianwoodGym.asm:347: '…'
+maps/CianwoodPharmacy.asm:41: '…'
+maps/CinnabarIsland.asm:124: '…'
+maps/DragonsDenB1F.asm:186: '…'
+maps/DragonsDenB1F.asm:217: '…'
+maps/DragonsDenB1F.asm:245: '…'
+maps/ElmsHouse.asm:109: '…'
+maps/ElmsLab.asm:1801: '!'
+maps/FightingDojo.asm:745: '…'
+maps/GiovannisCave.asm:156: '…'
+maps/GiovannisCave.asm:195: '…'
+maps/GoldenrodBillsHouse.asm:384: '?'
+maps/GoldenrodGameCorner.asm:360: '.'
+maps/HiddenTreeGrotto.asm:92: '!'
+maps/IlexForest.asm:1138: '…'
+maps/IndigoPlateauPokecenter1F.asm:226: '…'
+maps/IndigoPlateauPokecenter1F.asm:259: '…'
+maps/LakeOfRageHiddenPowerHouse.asm:45: '!'
+maps/MrPokemonsHouse.asm:425: '.'
+maps/MrPsychicsHouse.asm:56: '…'
+maps/MrPsychicsHouse.asm:58: '…'
+maps/MrPsychicsHouse.asm:60: '…'
+maps/NewBarkTown.asm:344: '…'
+maps/OaksLab.asm:607: '…'
+maps/OlivineCity.asm:200: '…'
+maps/OlivineCity.asm:244: '…'
+maps/PewterGym.asm:70: '…'
+maps/PlayersHouse1F.asm:272: '…'
+maps/RadioTower1F.asm:251: '.'
+maps/RadioTower1F.asm:264: '…'
+maps/RadioTower1F.asm:265: '…'
+maps/Route11.asm:113: '…'
+maps/Route11.asm:121: '…'
+maps/Route11.asm:129: '…'
+maps/Route23North.asm:163: '!'
+maps/Route24.asm:184: '…'
+maps/Route35NationalParkGate.asm:259: '.'
+maps/Route37.asm:95: '…'
+maps/Route4.asm:234: '…'
+maps/Route7.asm:80: '…'
+maps/RuinsOfAlphOutside.asm:294: '…'
+maps/ShamoutiPokeCenter1F.asm:204: '.'
+maps/ShamoutiTunnel.asm:74: '?'
+maps/SilverCavePokeCenter1F.asm:57: '!'
+maps/SilverCaveRoom3.asm:66: '…'
+maps/SproutTower3F.asm:152: '…'
+  ... +352 more
+
+## TEXT_STRUCTURE (884)
+----------------------------------------
+maps/BattleFactory1F.asm:63: text "Entschuldigung!"
+maps/BattleFactory1F.asm:109: text "Hoffentlich"
+maps/BattleFactory1F.asm:223: text "Zur KAMPF-FLÄCHE?"
+maps/BattleFactory1F.asm:241: text "Vor dem Betreten"
+maps/BattleFactoryHallway.asm:148: text "Lauf abbrechen?"
+maps/BattleTower1F.asm:69: text "Entschuldigung!"
+maps/BattleTower1F.asm:116: text "Hoffentlich"
+maps/BattleTower1F.asm:225: text "Möchtest du in"
+maps/BattleTower1F.asm:245: text "Wähle #mon"
+maps/BattleTower1F.asm:252: text "Ehe du einen"
+maps/CeladonGameCornerPrizeRoom.asm:251: text "?"
+maps/DarkCaveVioletEntrance.asm:140: text "Du musst mutig"
+maps/DarkCaveVioletEntrance.asm:148: text "Ich bin Falkner,"
+maps/GoldenrodHappinessRater.asm:133: text " sehen…"
+maps/MahoganyTown.asm:150: text "Die WUTKEKSE sind"
+maps/MoveManiacsHouse.asm:89: text "Braucht dein"
+maps/PokeCenter2F.asm:300: text "Bevor du die"
+maps/PokeCenter2F.asm:330: text "Komm später"
+maps/PokeCenter2F.asm:337: text "Komm doch herein."
+maps/PokeCenter2F.asm:352: text "Du bist mit einer"
+maps/PokeCenter2F.asm:360: text "Dein Spiel ist"
+maps/PokeCenter2F.asm:367: text "Eure"
+maps/PokeCenter2F.asm:381: text "Dein Spiel"
+maps/PokeCenter2F.asm:390: text "Das andere System"
+maps/PokeCenter2F.asm:396: text "Deine Spiel-"
+maps/PokeCenter2F.asm:406: text "Dein Freund hat"
+maps/PokeCenter2F.asm:415: text "Leider wird die"
+maps/Route35NationalParkGate.asm:259: text "."
+maps/Route39RuggedRoadGate.asm:78: text "Ach, du hast sie"
+maps/Route39RuggedRoadGate.asm:91: text "Oh-oh, deine"
+maps/TinTower1F.asm:504: text "Als der GONG-"
+data/options/initial_options_descriptions.asm:30: text "Fähigkeiten"
+data/options/initial_options_descriptions.asm:42: text "Attacken sind"
+data/options/initial_options_descriptions.asm:54: text "Basis-PS erhöhen"
+data/options/initial_options_descriptions.asm:77: text "Die alte EP-"
+data/options/initial_options_descriptions.asm:103: text "Deine #mon"
+data/options/initial_options_descriptions.asm:115: text "Nutze die"
+data/options/initial_options_descriptions.asm:133: text "Werte werden so"
+data/options/initial_options_descriptions.asm:143: text "Getauschte #mon"
+data/options/initial_options_descriptions.asm:153: text "Deine #mon können"
+data/options/initial_options_descriptions.asm:163: text "Einzelne #mon,"
+data/options/initial_options_descriptions.asm:184: text "Speichere deine"
+data/options/options_descriptions.asm:24: text "Text scrollt"
+data/options/options_descriptions.asm:32: text "Der Rahmen um"
+data/options/options_descriptions.asm:38: text "Die Schriftart"
+data/options/options_descriptions.asm:44: text "Das"
+data/options/options_descriptions.asm:51: text "Audioausgabe:"
+data/options/options_descriptions.asm:61: text "Attacken- und"
+data/options/options_descriptions.asm:67: text "Nach dem K.O."
+data/options/options_descriptions.asm:84: text "Ob neue #mon"
+data/options/options_descriptions.asm:90: text "B gedrückt"
+data/options/options_descriptions.asm:99: text "Wie schnell du"
+data/options/options_descriptions.asm:107: text "Das Uhrenformat:"
+data/options/options_descriptions.asm:113: text "#dex: Größe und"
+data/options/options_descriptions.asm:124: text "Optionen"
+data/phone/text/bill.asm:78: text "Hi, <PLAYER>?"
+data/phone/text/bill.asm:92: text "Wow, du hast"
+data/phone/text/bill.asm:139: text "Hey, Trainer!"
+data/phone/text/elm.asm:37: text "Hallo, <PLAYER>?"
+data/phone/text/elm.asm:48: text "Hallo, <PLAYER>?"
+  ... +824 more
