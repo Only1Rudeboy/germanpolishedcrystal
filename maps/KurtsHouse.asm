@@ -407,7 +407,7 @@ PokemonJournalProfWestwoodScript:
 
 	para "führte zur"
 	line "Entwicklung"
-	line "moderner #BÄLLE."
+	line "moderner #BÄLLE"
 	done
 
 KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:

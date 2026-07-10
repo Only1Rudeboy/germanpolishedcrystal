@@ -74,7 +74,7 @@ BattleText_EnemyFled:
 
 BattleText_EnemyCantEscape:
 	text "<USER>"
-	line "kann nicht fliehen!"
+	line "kommt nicht weg!"
 	prompt
 
 if DEF(DEBUG)
@@ -479,8 +479,8 @@ BattleText_UserFledUsingAStringBuffer1:
 	prompt
 
 BattleText_UserHurtBySpikes:
-	text "<USER>"
-	line "leidet an Stacheln!"
+	text "<USER> leidet"
+	line "an Stacheln!"
 	prompt
 
 RecoveredUsingText:
@@ -805,7 +805,7 @@ TurnedAwayText:
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
-	line "ignorierte Befehle!"
+	line "ignorierte Befehl!"
 	prompt
 
 IgnoredSleepingText:
@@ -1244,7 +1244,7 @@ DraggedOutText:
 ParalyzedText:
 	text "<TARGET>"
 	line "ist paralysiert!"
-	cont "Evtl. kein Angriff!"
+	cont "Evtl. kein Angriff"
 	prompt
 
 FullyParalyzedText:
@@ -1276,8 +1276,8 @@ RegainedStatsWithItem:
 	prompt
 
 CuredInfatuationWithItem:
-	text "<USER>"
-	line "heilte Verliebtheit"
+	text "<USER> heilte"
+	line "Verliebtheit"
 	cont "mit "
 	text_ram wStringBuffer1
 	text "!"
@@ -1363,7 +1363,7 @@ IdentifiedText:
 	prompt
 
 StartPerishSongText:
-	text "#mon, die hörten,"
+	text "Zuhörende #mon"
 	line "werden in 3 Zügen"
 	cont "besiegt!"
 	prompt
@@ -1427,7 +1427,8 @@ ShedLeechSeedText:
 
 BlewSpikesText:
 	text "<USER>"
-	line "blies Stacheln weg!"
+	line "blies"
+	cont "Stacheln weg!"
 	prompt
 
 BlewToxicSpikesText:
@@ -1460,13 +1461,13 @@ BellyDrumContraryText:
 
 ForesawAttackText:
 	text "<USER>"
-	line "ahnte einen Angriff"
-	cont "voraus!"
+	line "ahnte einen"
+	cont "Angriff voraus!"
 	prompt
 
 IgnoredOrders2Text:
 	text "<USER>"
-	line "ignorierte Befehle!"
+	line "ignorierte Befehl!"
 	prompt
 
 BecameHealthyText:
@@ -1478,16 +1479,16 @@ PlayerAffectionEndureText:
 	text "<USER>"
 	line "hielt durch, damit"
 
-	para "<PLAYER>"
-	line "nicht traurig wird!"
+	para "<PLAYER> nicht"
+	line "traurig wird!"
 	prompt
 
 EnemyAffectionEndureText:
 	text "<USER>"
 	line "hielt durch, damit"
 
-	para "<ENEMY>"
-	line "nicht traurig wird!"
+	para "<ENEMY> nicht"
+	line "traurig wird!"
 	prompt
 
 PlayerAffectionEvasionText:
@@ -1713,7 +1714,8 @@ FalknerFinalPkmnText:
 
 BugsyFinalPkmnText:
 	text "Auch wenn's mein"
-	line "letztes #mon ist,"
+	line "letztes #mon"
+	cont "ist,"
 
 	para "Käfer-#mon sind"
 	line "zäh!"
@@ -1749,7 +1751,7 @@ PryceFinalPkmnText:
 	prompt
 
 ClairFinalPkmnText:
-	text "Ein letztes #mon?"
+	text "Nur noch #mon?"
 	line "Jetzt beginnt der"
 	cont "wahre Kampf!"
 	prompt
@@ -1804,8 +1806,8 @@ LtSurgeFinalPkmnText:
 
 ErikaFinalPkmnText:
 	text "Sei nicht sanft zu"
-	line "mir. Gib mir"
-	cont "alles, was du hast!"
+	line "mir. Gib mir alles"
+	cont "was du hast!"
 	prompt
 
 JanineFinalPkmnText:
@@ -1841,8 +1843,8 @@ LeafFinalPkmnText:
 
 Rival1_1FinalPkmnText:
 	text "…Humph!"
-	line "Nicht schlecht"
-	cont "für einen Schwächl."
+	line "Nicht schlecht für"
+	cont "einen Schwächl."
 	prompt
 
 Rival1_2FinalPkmnText:
@@ -1874,9 +1876,9 @@ Rival1_5FinalPkmnText:
 	prompt
 
 Rival2_1FinalPkmnText:
-	text "Aha. Du kamst nicht"
-	line "nach Kanto, nur"
-	cont "um anzugeben…"
+	text "Aha. Du kamst"
+	line "nicht nach Kanto,"
+	cont "nur um anzugeben…"
 	prompt
 
 Rival2_2FinalPkmnText:
@@ -1887,7 +1889,8 @@ Rival2_2FinalPkmnText:
 Lyra1_1FinalPkmnText:
 	text "Du hattest wohl"
 	line "noch nie einen"
-	cont "#mon-Kampf, oder?"
+	cont "#mon-Kampf,"
+	cont "oder?"
 
 	para "Ich könnt's"
 	line "erklären, aber du"
@@ -2056,14 +2059,14 @@ RileyFinalPkmnText:
 	prompt
 
 BuckFinalPkmnText:
-	text "Jetzt aber! Das ist"
+	text "Jetzt aber! Es ist"
 	line "eine brandheiße"
 	cont "Situation!"
 	prompt
 
 MarleyFinalPkmnText:
-	text "…Meine Zeit mit dir"
-	line "neigt sich dem"
+	text "…Meine Zeit mit"
+	line "dir neigt sich dem"
 	cont "Ende zu."
 	prompt
 

@@ -280,8 +280,8 @@ BoarderRonaldBeatenText:
 
 
 BoarderBradSeenText:
-	text "Diese #mon-ARENA"
-	line "hat einen"
+	text "Diese #mon-"
+	line "ARENA hat einen"
 	cont "rutschi-"
 	cont "gen Boden. Das"
 	cont "ist"

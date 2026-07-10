@@ -275,7 +275,7 @@ _BTWinM16Text:
 	done
 
 _BTGreetingM17Text:
-	text "Meine #mon-Skills"
+	text "Meine #mon"
 	line "sind phänomenal!"
 	done
 
@@ -355,11 +355,11 @@ _BTGreetingM21Text:
 
 _BTLossM21Text:
 	text "Siehst du? Meine"
-	line "#mon waren stark."
+	line "#mon war stark."
 	done
 
 _BTWinM21Text:
-	text "Graa! Meine #mon"
+	text "Ha! Meine #mon"
 	line "waren totale"
 	cont "Schwächlinge!"
 	done
@@ -420,7 +420,7 @@ _BTGreetingM25Text:
 	done
 
 _BTLossM25Text:
-	text "Juhu! Meine #mon"
+	text "Jo! Meine #mon"
 	line "sind die Besten!"
 	done
 
@@ -445,7 +445,7 @@ _BTWinF1Text:
 	done
 
 _BTGreetingF2Text:
-	text "Schau! Meine #mon"
+	text "Hey! Meine #mon"
 	line "sind echt süß!"
 	done
 
@@ -507,8 +507,8 @@ _BTWinF5Text:
 
 _BTGreetingF6Text:
 	text "Willst du von"
-	line "meinen süßen #mon"
-	cont "hören?"
+	line "meinen süßen"
+	cont "#mon hören?"
 	done
 
 _BTLossF6Text:

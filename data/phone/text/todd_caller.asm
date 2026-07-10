@@ -1,9 +1,9 @@
 ToddLooksCuteLikeMeText:
-	text "Mein "
+	text "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text " sieht"
-	line "immer mehr wie"
-	cont "ich"
+	cont "sieht immer"
+	cont "mehr wie ich"
 
 	para "aus. Es wird"
 	line "süßer!"
@@ -16,7 +16,7 @@ ToddDefeatedMonText:
 	line "wir"
 	line ""
 	text_ram wStringBuffer4
-	text " leicht."
+	cont "leicht."
 
 	para "Ich sollte die"
 	line "Arena in Dukatia"
@@ -28,11 +28,11 @@ ToddLostAMonText:
 	line "Wir verpassten"
 	cont ""
 	text_ram wStringBuffer4
-	text " knapp."
+	cont "knapp."
 
-	para "Meine #mon-Level"
-	line "sind wohl noch"
-	cont "zu niedrig…"
+	para "Meine #mon-"
+	line "Level sind wohl"
+	cont "noch zu niedrig…"
 	done
 
 ToddBattleRematchText:

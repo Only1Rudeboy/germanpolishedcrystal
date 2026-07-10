@@ -239,7 +239,8 @@ TrainerSwimmerfTara:
 	cont "Rosalia."
 
 	para "Man sagt, seltene"
-	line "Vogel-#mon kommen"
+	line "Vogel-#mon"
+	cont "kommen"
 
 	para "von weit her, um"
 	line "dort zu nisten."
@@ -310,7 +311,8 @@ CherrygroveBayFisherText:
 CherrygroveBayHikerText:
 	text "Ich glaube nicht"
 	line "an Schöpfungs-"
-	cont "mythen mit #mon."
+	cont "mythen mit"
+	cont "#mon."
 
 	para "Johto entstand"
 	line "über"
@@ -322,7 +324,8 @@ CherrygroveBayHikerText:
 
 Text_CherrygroveBayTutorEarthPower:
 	text "Ich bringe deinem"
-	line "#mon Earth Power"
+	line "#mon Earth"
+	cont "Power"
 
 	para "bei — für ein"
 	line "Silberblatt."
@@ -331,6 +334,7 @@ Text_CherrygroveBayTutorEarthPower:
 
 Text_CherrygroveBayTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Earth Power"
+	line "#mon Earth"
+	cont "Power"
 	cont "beibringen?"
 	done

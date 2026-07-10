@@ -79,7 +79,8 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	cont "gefangen?!"
 
 	para "Lass mich deinen"
-	line "#dex sehen… Wow!"
+	line "#dex sehen…"
+	cont "Wow!"
 
 	para "Es muss dein"
 	line "Schicksal gewesen"

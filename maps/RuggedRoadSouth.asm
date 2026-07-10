@@ -71,8 +71,9 @@ RuggedRoadSouth_FinishBridge:
 RuggedRoadSouthAdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "K.O.-t dein #mon"
-	line "den Gegner und"
+	para "K.O.-t dein"
+	line "#mon den"
+	cont "Gegner und"
 
 	para "trägt es ein"
 	line "Kraftitem für"

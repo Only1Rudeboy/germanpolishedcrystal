@@ -183,7 +183,8 @@ EcruteakShrineInsideSageText:
 	para "Rei ist"
 	line "besonders. Sie"
 	cont "setzt Feuer- und"
-	cont "Psycho-#mon ein."
+	cont "Psycho-#mon"
+	cont "ein."
 	done
 
 EcruteakShrineInsideGrannyText:

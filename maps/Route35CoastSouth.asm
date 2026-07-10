@@ -166,9 +166,9 @@ Bird_keeperBryanBeatenText:
 	line "schnell genug!"
 	done
 SrandjrBeaandmay1SeenText:
-	text "Bea: Starke #mon"
-	line "mag ich lieber"
-	cont "als"
+	text "Bea: Starke"
+	line "#mon mag ich"
+	cont "lieber als"
 
 	para "niedliche #mon."
 

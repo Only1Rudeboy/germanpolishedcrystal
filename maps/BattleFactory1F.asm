@@ -104,7 +104,7 @@ Script_CommitBattleFactoryResult:
 .WeHopeToServeYouAgain:
 	writethistext
 		text "Wir hoffen, dich"
-		line "bald wiederzusehen."
+		line "bald wiederzusehen"
 		done
 	waitbutton
 	endtext
@@ -124,8 +124,8 @@ BattleFactory1FRulesScript:
 		text "Du bekommst sechs"
 		line "Leih-#mon."
 
-		para "Drei #mon dürfen"
-		line "kämpfen."
+		para "Drei #mon"
+		line "dürfen kämpfen."
 
 		para "Alle drei müssen"
 		line "verschieden sein."
@@ -198,7 +198,7 @@ BattleFactory1FReceptionistScript:
 		para "Um eine Sitzung zu"
 		line "unterbrechen,"
 
-		para "musst du speichern."
+		para "musst du speichern"
 		line "Sonst kannst du"
 
 		para "deinen Durchgang"
@@ -219,7 +219,7 @@ BattleFactory1FReceptionistScript:
 	ifequal $2, .Explanation
 	writethistext
 		text "Wir hoffen, dich"
-		line "bald wiederzusehen."
+		line "bald wiederzusehen"
 		prompt
 	endtext
 

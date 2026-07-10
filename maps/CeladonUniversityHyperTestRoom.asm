@@ -206,8 +206,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question1QuestionText:
-	text "Welches #mon hat"
-	line "diese Silhouette?"
+	text "Welches #mon"
+	line "hat diese"
+	cont "Silhouette?"
 	done
 
 .Question2IntroText:
@@ -235,8 +236,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question4QuestionText:
-	text "Welches #mon hat"
-	line "Trockenhaut?"
+	text "Welches #mon"
+	line "hat"
+	cont "Trockenhaut?"
 	done
 
 .Question5IntroText:

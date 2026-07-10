@@ -1,11 +1,12 @@
 BeverlyMadeMonEvenCuterText:
-	text "Ich hab mein "
+	text "Ich hab mein"
+	line ""
 	text_ram wStringBuffer4
-	line "verschönert und"
 
-	para "noch süßer"
-	line "gemacht"
-	line "als vorher!"
+	para "verschönert und"
+	line "noch süßer"
+	cont "gemacht"
+	cont "als vorher!"
 	done
 
 BeverlyDefeatedMonText:
@@ -66,7 +67,8 @@ BeverlyLetsChatAboutMonAgainText:
 	line "in Topform?"
 
 	para "Lass uns wieder"
-	line "über #mon reden!"
+	line "über #mon"
+	cont "reden!"
 	done
 
 BeverlyComePickUpText:
@@ -74,7 +76,8 @@ BeverlyComePickUpText:
 	line "Oh, das Nugget?"
 
 	para "Keine Eile. Komm"
-	line "nach "
+	line "nach"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 	done

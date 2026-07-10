@@ -239,7 +239,8 @@ SurfGuyLikeADanceText:
 	done
 SurfGuyElegantKimonoGirlsText:
 	text "Ich wünschte,"
-	line "meine #mon wären"
+	line "meine #mon"
+	cont "wären"
 
 	para "so elegant wie"
 	line "die Kimono Girls."

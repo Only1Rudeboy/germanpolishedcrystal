@@ -480,10 +480,11 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 
 BuenaPhonePokegearAnswerText:
 	text "Hey, <PLAYER>. Du"
-	line "nutzt #gear fürs"
+	line "nutzt #Com"
+	cont "fürs Radio,"
 
-	para "Radio, oder? Man"
-	line "kann damit auch"
+	para "oder? Man kann"
+	line "damit auch"
 
 	para "Stadtkarten"
 	line "zeigen."
@@ -491,7 +492,7 @@ BuenaPhonePokegearAnswerText:
 	cont "Sinn"
 
 	para "für Richtung…"
-	line "#gear"
+	line "#Com"
 	line "wäre praktisch…"
 
 	para "Danke fürs"

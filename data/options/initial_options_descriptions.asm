@@ -150,8 +150,9 @@ InitialOptionDescriptions:
 	prompt
 
 .EvolveInBattle:
-	text "Deine #mon können"
-	line "sich während"
+	text "Deine #mon"
+	line "können sich"
+	cont "während"
 	cont "Trainerkämpfen"
 	cont "entwickeln."
 

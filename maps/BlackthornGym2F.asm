@@ -70,8 +70,8 @@ GenericTrainerCooltrainermCody:
 	line "unseres Drachen-"
 	cont "Klans dürfen"
 
-	para "Drachen-#mon erst"
-	line "nutzen, wenn"
+	para "Drachen-#mon"
+	cont "erst nutzen, wenn"
 	cont "unser Meister es"
 
 	para "erlaubt."

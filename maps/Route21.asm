@@ -179,9 +179,9 @@ SwimmermSethBeatenText:
 GenericTrainerFisherMurphy:
 	generictrainer FISHER, MURPHY, EVENT_BEAT_FISHER_MURPHY, .SeenText, .BeatenText
 
-	text "Das #mon, das mir"
-	line "entwischte, war"
-	cont "riesig."
+	text "Das #mon, das"
+	line "mir entwischte,"
+	cont "war riesig."
 
 	para "Das ist die"
 	line "Wahrheit!"

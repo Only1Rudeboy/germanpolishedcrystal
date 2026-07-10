@@ -188,9 +188,10 @@ GenericTrainerSuperNerdStan:
 	line "sie erbaut hat."
 
 	para "Man weiß auch"
-	line "nicht, ob die #-"
-	cont "mon-Statuen eine"
-	cont "Bedeutung haben."
+	line "nicht, ob die"
+	cont "#-mon-Statuen"
+	cont "eine Bedeutung"
+	cont "haben."
 
 	para "Es bleibt ein"
 	line "großes Rätsel…"

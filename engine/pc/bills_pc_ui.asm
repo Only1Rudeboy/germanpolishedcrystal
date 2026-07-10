@@ -2529,7 +2529,8 @@ BillsPC_UpdateStorage_CheckMewtwo:
 
 BillsPC_CantPutMailIntoPackText:
 	text "Die Post würde"
-	line "den Text verlieren."
+	line "den Text"
+	cont "verlieren."
 	prompt
 
 BillsPC_PackFullText:
@@ -2846,8 +2847,9 @@ BillsPC_ReleaseAll:
 	done
 
 .CantRecallReleasedMons:
-	text "Freigelassene #mon"
-	line "kannst du nicht"
+	text "Freigelassene"
+	line "#mon kannst du"
+	cont "nicht"
 	cont "zurückholen."
 	cont "Bist du sicher?"
 	done
@@ -2858,8 +2860,8 @@ BillsPC_ReleaseAll:
 
 .NothingReleased:
 	text "Du kannst keine"
-	line "Eier oder #mon mit"
-	cont "VM-Attacken"
+	line "Eier oder #mon"
+	cont "mit VM-Attacken"
 	cont "freilassen."
 	prompt
 
@@ -2940,7 +2942,7 @@ BillsPC_Release:
 	text "Wirklich"
 	line ""
 	text_ram wTempMonNickname
-	text " freilassen?"
+	cont "freilassen?"
 	done
 
 .WasReleasedOutside:
@@ -3427,7 +3429,8 @@ BillsPC_SwapStorage:
 
 .CantStoreMail:
 	text "Post kann nicht"
-	line "eingelagert werden."
+	line "eingelagert"
+	cont "werden."
 	prompt
 
 BillsPC_LastPartyMon:

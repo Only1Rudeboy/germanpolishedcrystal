@@ -108,7 +108,8 @@ GenericTrainerSightseerfPilar:
 	generictrainer SIGHTSEERF, PILAR, EVENT_BEAT_SIGHTSEERF_PILAR, .SeenText, .BeatenText
 
 	text "Wow, ist dein"
-	line "#mon aber stark!"
+	line "#mon aber"
+	cont "stark!"
 
 	para "Du musst weit"
 	line "gereist sein, um"

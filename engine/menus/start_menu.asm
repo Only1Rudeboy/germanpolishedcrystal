@@ -177,7 +177,7 @@ StartMenu::
 .SaveString:     db "Sichern@"
 .OptionString:   db "Option@"
 .ExitString:     db "Ende@"
-.PokegearString: db "<PO><KE>gear@"
+.PokegearString: db "<PO><KE>Com@"
 .QuitString:     db "Beenden@"
 
 .OpenMenu:

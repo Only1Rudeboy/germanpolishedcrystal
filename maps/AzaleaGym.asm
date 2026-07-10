@@ -69,7 +69,7 @@ AzaleaGymBugsyScript:
 		line "Vorteile des"
 		cont "Insektordens?"
 
-		para "Damit gehorchen dir"
+		para "So gehorchen dir"
 		line "#mon bis <LV>30,"
 		cont "auch getauschte."
 
@@ -99,8 +99,8 @@ AzaleaGymBugsyScript:
 	para "dann wechselt es"
 	line "sofort aus."
 
-	para "Ist das nicht toll?"
-	line "Ich hab's entdeckt!"
+	para "Ist's nicht toll?"
+	line "Hab's entdeckt!"
 	done
 
 .SeenText:
@@ -155,7 +155,8 @@ AzaleaGymGuyScript:
 
 	para "Kai ist jung, aber"
 	line "sein Wissen über"
-	cont "Käfer-#mon ist echt."
+	cont "Käfer-#mon ist"
+	cont "wirklich echt."
 
 	para "Ohne meinen Rat"
 	line "wird's schwer."
@@ -195,7 +196,8 @@ GenericTrainerBug_catcherBenny:
 .SeenText:
 	text "Käfer-#mon"
 	line "entwickeln sich"
-	cont "jung. So werden sie"
+	cont "jung."
+	cont "So werden sie"
 
 	para "schneller stark."
 	done
@@ -210,7 +212,8 @@ GenericTrainerBug_catcherAl:
 
 	text "Sie sind so cool,"
 	line "aber die meisten"
-	cont "Mädchen mögen keine"
+	cont "Mädchen mögen"
+	cont "keine"
 
 	para "Käfer-#mon."
 
@@ -241,7 +244,8 @@ GenericTrainerBug_catcherJosh:
 .SeenText:
 	text "Du hast alle"
 	line "Flegmon gerettet?"
-	cont "Wow, du bist stark!"
+	cont "Wow, du bist"
+	cont "stark!"
 
 	para "Aber meine er-"
 	line "wachsenen #mon"

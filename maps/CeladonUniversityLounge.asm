@@ -182,7 +182,8 @@ CeladonUniversityLoungeCooltrainerfText:
 	cont "instink-"
 	cont "tiv in einen"
 
-	para "# Ball zu gehen."
+	para "# Ball zu"
+	line "gehen."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:

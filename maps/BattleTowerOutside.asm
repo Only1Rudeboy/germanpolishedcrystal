@@ -125,7 +125,8 @@ BattleTowerOutsideAnabelScript:
 
 	para "…Du bist <PLAYER>?"
 	line "Ich hörte einige"
-	cont "Gerüchte über dich…"
+	cont "Gerüchte über"
+	cont "dich…"
 
 	para "Zeig mir dein"
 	line "volles Talent…"
@@ -200,12 +201,14 @@ BattleTowerOutsideBeautyScript:
 
 	para "Nach dem Namen zu"
 	line "urteilen, sind es"
-	cont "wohl #mon-Kämpfe."
+	cont "wohl #mon-"
+	cont "Kämpfe."
 	done
 
 .OpenText:
 	text "Du darfst nur"
-	line "drei #mon nutzen."
+	line "drei #mon"
+	cont "nutzen."
 
 	para "Es ist so schwer,"
 	line "die drei"
@@ -217,7 +220,8 @@ BattleTowerOutsideBeautyScript:
 BattleTowerOutsideSailorText:
 	text "Hehehe, ich hab"
 	line "mich von der"
-	cont "Arbeit geschlichen."
+	cont "Arbeit"
+	cont "geschlichen."
 
 	para "Ich kann nicht"
 	line "aufgeben, bis ich"

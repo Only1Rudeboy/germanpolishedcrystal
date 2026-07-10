@@ -62,7 +62,8 @@ ReenaGenericText:
 	para "Was? Super?"
 	line "Ich verstehe…"
 
-	para "Was? Meine #mon?"
+	para "Was? Meine"
+	line "#mon?"
 
 	para "Natürlich geht es"
 	line "ihnen super! Was"

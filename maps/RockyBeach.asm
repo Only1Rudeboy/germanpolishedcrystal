@@ -156,7 +156,8 @@ GenericTrainerBreederBrenda:
 
 .SeenText:
 	text "Der Schlüssel zur"
-	line "guten #mon-Zucht"
+	line "guten #mon-"
+	cont "Zucht"
 
 	para "ist eine gute"
 	line "Umgebung."

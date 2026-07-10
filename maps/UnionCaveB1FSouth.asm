@@ -182,8 +182,9 @@ GenericTrainerRuin_maniacGlyn:
 	done
 
 .SeenText:
-	text "Meine #mon wurden"
-	line "aus Fossilien"
+	text "Meine #mon"
+	line "wurden aus"
+	cont "Fossilien"
 
 	para "geboren, die ich"
 	line "in dieser Höhle"

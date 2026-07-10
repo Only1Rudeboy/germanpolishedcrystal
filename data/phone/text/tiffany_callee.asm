@@ -40,7 +40,8 @@ TiffanyGreetText:
 TiffanyGreetDayText:
 	text "Bist du <PLAYER>?"
 
-	para "Hi, ich bin's, "
+	para "Hi, ich bin's,"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
@@ -59,16 +60,17 @@ TiffanyGenericText:
 	line "#mon gut?"
 
 	para "Bring sie täglich"
-	line "ins #mon-Center."
+	line "ins #mon-"
+	cont "Center."
 
 	para "Überanstrenge sie"
 	line "nicht."
 
-	para "Mein "
+	para "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text " ist"
-	line "niedlich und"
-	cont "munter,"
+	cont "ist niedlich"
+	cont "und munter,"
 
 	para "weil ich es"
 	line "täglich"

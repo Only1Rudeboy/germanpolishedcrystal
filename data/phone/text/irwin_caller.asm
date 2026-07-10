@@ -35,8 +35,9 @@ IrwinPlainBadgeGossipText:
 IrwinJasmineReturnedGossipText:
 	text "Hey, ich hörte!"
 
-	para "Du hast das #mon"
-	line "im Leuchtturm"
+	para "Du hast das"
+	line "#mon im"
+	cont "Leuchtturm"
 	cont "gerettet, oder?"
 
 	para "<PLAYER>, komm"

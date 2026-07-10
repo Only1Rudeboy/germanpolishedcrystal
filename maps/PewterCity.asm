@@ -141,7 +141,8 @@ PewterCityCooltrainerFText:
 PewterCityCooltrainermText:
 	text "Die denkt,"
 	line "Gesteins-"
-	line "#mon sind alles,"
+	line "#mon sind"
+	cont "alles,"
 
 	para "aber sie hat die"
 	line "meisten Schwächen"

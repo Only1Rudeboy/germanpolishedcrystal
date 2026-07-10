@@ -339,7 +339,8 @@ BakerSharynSeenText:
 	text "Während ich Brot"
 	line "backe, backe ich"
 
-	para "auch deine #mon!"
+	para "auch deine"
+	line "#mon!"
 	done
 
 BakerSharynBeatenText:

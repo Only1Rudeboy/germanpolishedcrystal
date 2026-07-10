@@ -63,8 +63,8 @@ Route46TutorRoute46Script:
 	jumpthisopenedtext
 
 	text "Fertig! Dein"
-	line "#mon hat Rollout"
-	cont "gelernt!"
+	line "#mon hat"
+	cont "Rollout gelernt!"
 	done
 
 GenericTrainerCamperTed:
@@ -270,7 +270,8 @@ Route46HikerText:
 
 Text_Route46TutorRollout:
 	text "Ich bringe deinem"
-	line "#mon Rollout bei"
+	line "#mon Rollout"
+	cont "bei"
 
 	para "für ein"
 	line "Silberblatt."
@@ -356,10 +357,11 @@ PicnickerErin1BeatenText:
 
 PicnickerErinAfterBattleText:
 	text "Ich war in vielen"
-	line "#mon-ARENEN, aber"
+	line "#mon-ARENEN,"
+	cont "aber"
 
-	para "die #mon-ARENA in"
-	line "DUKATIA CITY"
+	para "die #mon-ARENA"
+	line "in DUKATIA CITY"
 	cont "ist am schönsten."
 
 	para "Dort sind wunder-"

@@ -396,7 +396,8 @@ CowgirlDanielaBeatenText:
 
 GruntF6SeenText:
 	text "Warum sollten wir"
-	line "#mon wie normale"
+	line "#mon wie"
+	cont "normale"
 	cont "Trainer"
 	cont "aufziehen?"
 

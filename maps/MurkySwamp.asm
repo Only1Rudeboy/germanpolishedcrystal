@@ -343,8 +343,8 @@ GenericTrainerPokemaniacEnzo:
 
 	para "in den Bäumen,"
 	line "als"
-	line "ich seltene #mon"
-	cont "suchte!"
+	line "ich seltene"
+	cont "#mon suchte!"
 	done
 
 .BeatenText

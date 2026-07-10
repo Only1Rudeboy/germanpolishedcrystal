@@ -107,8 +107,8 @@ CeladonUniversity2FCooltrainermText:
 	text "Die Mensa wird oft"
 	line "ziemlich voll,"
 
-	para "drum ess ich lieber"
-	line "im Flur."
+	para "drum ess ich"
+	line "lieber im Flur."
 	done
 
 CeladonUniversity2FYoungster1Text:

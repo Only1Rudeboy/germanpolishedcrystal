@@ -288,7 +288,8 @@ BugCatchingContestant3BScript:
 
 	text "LARS: Gut"
 	line "gemacht! Ich"
-	cont "werde meine #MON"
+	cont "werde meine"
+	cont "#MON"
 	cont "besser trainieren."
 	done
 

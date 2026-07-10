@@ -74,6 +74,6 @@ ItemFinder:
 	special UpdateTimePals
 	jumpthisopenedtext
 
-	text "Nö! Hier ist nichts"
-	line "versteckt."
+	text "Nö! Hier ist"
+	line "nichts versteckt."
 	done

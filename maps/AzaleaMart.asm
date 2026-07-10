@@ -62,8 +62,9 @@ AzaleaMartRockerText:
 	line "Sympabälle fingen"
 	cont "nur gleich-"
 
-	para "geschlechtl. #mon,"
-	line "und Turbobälle"
+	para "geschlechtl."
+	line "#mon, und"
+	cont "Turbobälle"
 
 	para "funktionierten nur"
 	line "für drei #mon-"

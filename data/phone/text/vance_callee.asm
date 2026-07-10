@@ -67,13 +67,14 @@ VanceGreetNiteText:
 
 VanceGenericText:
 	text "Geht es dir und"
-	line "deinen #mon gut?"
+	line "deinen #mon"
+	cont "gut?"
 
-	para "Mein "
+	para "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text " wird"
-	line "stark genug für"
-	cont "die"
+	cont "wird stark"
+	cont "genug für die"
 
 	para "legendären Vogel-"
 	line "#mon!"

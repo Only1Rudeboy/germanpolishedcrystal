@@ -242,7 +242,7 @@ DayCareLyraForgotText:
 	line "Fast vergessen!"
 
 	para "Hier! Das ist"
-	line "meine #gear-"
+	line "meine #Com-"
 	cont "Nummer!"
 	done
 

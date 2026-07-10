@@ -93,8 +93,9 @@ INCLUDE "gfx/stats/egg_page.pal"
 	done
 
 .SoonString:
-	text "Es macht Geräusche."
-	next "Es wird bald"
+	text "Es macht"
+	next "Geräusche. Es"
+	next "wird bald"
 	next "schlüpfen!"
 	done
 

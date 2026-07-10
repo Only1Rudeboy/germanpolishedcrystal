@@ -383,7 +383,8 @@ FightingDojoRematch3Script:
 
 BrockText_Greeting:
 	text "Ich mag Gesteins-"
-	line "#mon am meisten."
+	line "#mon am"
+	cont "meisten."
 
 	para "Sie sind hart"
 	line "und rau, aber"
@@ -392,8 +393,9 @@ BrockText_Greeting:
 	para "Du wirst sehen,"
 	line "wie viel stärker"
 
-	para "meine Stein-#mon"
-	line "geworden sind!"
+	para "meine Stein-"
+	line "#mon geworden"
+	cont "sind!"
 	done
 
 MistyText_Greeting:

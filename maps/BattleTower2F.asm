@@ -67,9 +67,9 @@ BattleTower2FCherylScript:
 	writethistext
 		text "Ich sollte dich"
 		line "warnen, meine"
-		cont "#mon können recht"
+		cont "#mon können"
 
-		para "wild sein."
+		para "recht wild sein."
 		done
 	waitbutton
 	closetext
@@ -404,8 +404,8 @@ BattleTower2FAnabelScript:
 	line "gemacht…"
 
 	para "Noch nie hat mir"
-	line "ein #mon-Kampf so"
-	cont "viel Freude"
+	line "ein #mon-Kampf"
+	cont "so viel Freude"
 
 	para "bereitet…"
 	done
@@ -486,7 +486,8 @@ BattleTower2FYoungsterText:
 
 	para "Ich versteh's"
 	line "nicht, aber es"
-	cont "klingt tiefgründig."
+	cont "klingt"
+	cont "tiefgründig."
 	done
 
 BattleTower2FBlackbeltText:

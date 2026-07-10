@@ -218,7 +218,6 @@ GoldenrodDeptStoreRoofPokefanFText:
 
 
 
-
 GoldenrodDeptStoreRoofFisherText:
 	text "Bitte? Wer sagt,"
 	line "dass das nichts"
@@ -231,7 +230,6 @@ GoldenrodDeptStoreRoofFisherText:
 	para "alle Puppen zu"
 	line "bekommen!"
 	done
-
 
 
 
@@ -255,15 +253,13 @@ VoltorbDollSentText:
 
 GoldenrodDeptStoreRoofFisherCatchEmAllText:
 	text "I heard there are"
-	line "30 kinds of"
-	cont "dolls."
+	line "30 kinds of dolls."
 	done
 
 GoldenrodDeptStoreRoofTwinText:
 	text "Oft gibt es hier"
 	line "Sonderangebote."
 	done
-
 
 
 
@@ -275,13 +271,11 @@ GoldenrodDeptStoreRoofSuperNerdOhWowText:
 
 
 
-
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
 	text "Hörst du auf,"
 	line "mich"
 	line "zu belästigen?"
 	done
-
 
 
 
@@ -304,7 +298,6 @@ GoldenrodDeptStoreRoofPokefanMText:
 
 
 
-
 GoldenrodDeptStoreRoofTeacherText:
 	text "Ach, alles ist so"
 	line "billig!"
@@ -314,7 +307,6 @@ GoldenrodDeptStoreRoofTeacherText:
 	cont "mein"
 	cont "BEUTEL voll ist!"
 	done
-
 
 
 
@@ -337,7 +329,6 @@ GoldenrodDeptStoreRoofBugCatcherText:
 
 
 
-
 PokeDollVendingMachineText:
 	text "Ein Automat, an"
 	line "dem man #mon-"
@@ -353,10 +344,8 @@ PokeDollVendingMachineText:
 
 
 
-
 PokeDollVendingMachineNoMoneyText:
-	text "It costs too"
-	line "much!"
+	text "It costs too much!"
 	done
 
 PokeDollVendingMachineAlreadyBoughtText:

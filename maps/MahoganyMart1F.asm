@@ -294,8 +294,9 @@ Text_MahoganyMart1FTutorAgility:
 	text "Wenn du willst,"
 	line "bringe ich deinem"
 
-	para "#mon die Attacke"
-	line "Agility bei."
+	para "#mon die"
+	line "Attacke Agility"
+	cont "bei."
 	done
 
 Text_MahoganyMart1FTutorQuestion:
@@ -323,7 +324,7 @@ PokemonJournalWillScript:
 	line "arbeitete für"
 	cont "Team Rocket."
 
-	para "Das #mon Journal"
-	line "spekuliert nicht"
-	cont "darüber."
+	para "Das #mon"
+	line "Journal spekuliert"
+	cont "nicht darüber."
 	done

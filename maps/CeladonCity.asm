@@ -310,7 +310,8 @@ CeladonUniversitySignText:
 CeladonCityDeptStoreSignText:
 	text "Finde alles, was"
 	line "du brauchst - im"
-	cont "Prismania-Kaufhaus!"
+	cont "Prismania-"
+	cont "Kaufhaus!"
 	done
 
 CeladonCityHomeDecorStoreSignText:

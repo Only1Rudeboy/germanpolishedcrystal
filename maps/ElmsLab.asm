@@ -2068,7 +2068,8 @@ ElmsLabLyraText_YouLost:
 	done
 ElmsLabLyraThankYouText:
 	text "Danke für das"
-	line "#mon, Prof.Lind!"
+	line "#mon,"
+	cont "Prof.Lind!"
 	done
 ElmsLabLyraSeeYouText:
 	text "<PLAYER>, bis"

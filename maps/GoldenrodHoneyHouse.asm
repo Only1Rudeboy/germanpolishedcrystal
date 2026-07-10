@@ -54,8 +54,8 @@ endc
 	done
 
 .IntroText:
-	text "Mein #mon ist ein"
-	line "Experte beim"
+	text "Mein #mon ist"
+	line "ein Experte beim"
 
 	para "Sammeln von"
 if DEF(FAITHFUL)

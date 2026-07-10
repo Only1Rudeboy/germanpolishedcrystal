@@ -69,13 +69,15 @@ AzaleaPokeCenter1FCooltrainermScript:
 	line "befreundet mit"
 
 	para "Agatha, einem"
-	line "ehemaligen Mitglied"
+	line "ehemaligen"
+	cont "Mitglied"
 	cont "der Top Vier."
 	done
 
 AzaleaPokeCenter1FGentlemanText:
 	text "Kennen deine"
-	line "#mon VM-Attacken?"
+	line "#mon"
+	cont "VM-Attacken?"
 
 	para "Diese Attacken"
 	line "kann man selbst"

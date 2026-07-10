@@ -202,7 +202,8 @@ BrockFightDoneText:
 CamperJerrySeenText:
 	text "Die Trainer"
 	line "dieser"
-	line "#mon-ARENA setzen"
+	line "#mon-ARENA"
+	cont "setzen"
 	cont "Gestein-#mon"
 	cont "ein."
 

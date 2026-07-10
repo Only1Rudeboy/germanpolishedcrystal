@@ -48,7 +48,8 @@ ShamoutiIslandAlolanExeggutorScript:
 	text "Der seltsame Baum"
 	line "schläft… tief?"
 
-	para "Ist das ein #mon?"
+	para "Ist das ein"
+	line "#mon?"
 	done
 
 .Awake:
@@ -68,7 +69,7 @@ ShamoutiIslandAlolanExeggutorScript:
 	end
 
 .PokeFluteText:
-	text "Das #gear wurde"
+	text "Das #Com wurde"
 	line "neben den seltsa-"
 	cont "men Baum gelegt…"
 	done

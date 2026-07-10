@@ -74,8 +74,8 @@ CeladonUniversityLibrary1FGameboyKidScript:
 	end
 
 .Text:
-	text "Mein #dex hat ein"
-	line "Spiel-Upgrade."
+	text "Mein #dex hat"
+	line "ein Spiel-Upgrade."
 
 	para "Ich spiele"
 	line "Tetris!"
@@ -199,8 +199,9 @@ CeladonUniversityLibrary1FBookshelf3Text:
 	line "einen"
 	line "Mann, der seinem"
 
-	para "#mon ein Instru-"
-	line "ment beibrachte."
+	para "#mon ein"
+	line "Instrument"
+	cont "beibrachte."
 
 	para "Sie wirken wie"
 	line "beste Freunde."
@@ -208,7 +209,8 @@ CeladonUniversityLibrary1FBookshelf3Text:
 
 CeladonUniversityLibrary1FBookshelf4Text:
 	text "Ein Buch über"
-	line "#mon-Palindrome."
+	line "#mon-"
+	cont "Palindrome."
 
 	para "Auf dem Cover"
 	line "sind"
@@ -231,7 +233,8 @@ CeladonUniversityLibrary1FBookshelf5Text:
 CeladonUniversityLibrary1FBookshelf6Text:
 	text "Ein Buch über"
 	line "eine"
-	line "#mon-Marionette,"
+	line "#mon-"
+	cont "Marionette,"
 
 	para "die nicht lügen"
 	line "kann."
@@ -268,8 +271,8 @@ CeladonUniversityLibrary1FBookshelf8Text:
 
 CeladonUniversityLibrary1FBookshelf9Text:
 	text "Ein Handbuch zum"
-	line "#mon-Sammelkart-"
-	cont "enspiel."
+	line "#mon-Sammel-"
+	cont "kartenspiel."
 	done
 
 CeladonUniversityLibrary1FBookshelf10Text:
@@ -288,8 +291,9 @@ CeladonUniversityLibrary1FBookshelf11Text:
 	cont "Poffin."
 
 	para "Ein berühmter"
-	line "#mon-Züchter ist"
-	cont "auf dem Cover."
+	line "#mon-Züchter"
+	cont "ist auf dem"
+	cont "Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf12Text:

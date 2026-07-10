@@ -107,7 +107,8 @@ ScaryCave1FMiraScript:
 	line "so gut geworden,"
 
 	para "weil du immer bei"
-	line "deinen #mon bist?"
+	line "deinen #mon"
+	cont "bist?"
 
 	para "Ja! Das muss es"
 	line "sein!"

@@ -229,7 +229,7 @@ Route22PastLyraIlexForestDisappearedText:
 
 Route22PastLyraPokeGearText:
 	text "Lyra: <PLAYER>,"
-	line "mein #gear-"
+	line "mein #Com-"
 	cont "Radio"
 
 	para "zeigt ein Datum"
@@ -262,8 +262,9 @@ Route22PastLyraHearsSomeoneText:
 	done
 
 Route22PastRivalQuestionsGiovanniText:
-	text "<RIVAL>: Du hast"
-	line "mir gesagt… du"
+	text "<RIVAL>: Du"
+	line "hast mir"
+	cont "gesagt… du"
 
 	para "bist der Beste"
 	line "der Welt!"
@@ -348,8 +349,8 @@ Route22PastGiovanniGoodbyeText:
 	done
 
 Route22PastRivalRantText:
-	text "<RIVAL>: Ich will"
-	line "dich nicht"
+	text "<RIVAL>: Ich"
+	line "will dich nicht"
 	cont "verstehen!"
 
 	para "Ich werde nie"

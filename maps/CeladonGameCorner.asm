@@ -318,7 +318,7 @@ CeladonGameCornerFisherFullCoinCaseText:
 	cont "voll, Kleiner."
 
 	para "Du hast wohl auch"
-	line "eine Glückssträhne."
+	line "eine Glückssträhne"
 	done
 
 CeladonGameCornerReceived18CoinsText:

@@ -4,7 +4,8 @@ RalphAskNumber1Text:
 	line "nicht mehr?"
 
 	para "Ich sah seltene"
-	line "#mon beim Angeln…"
+	line "#mon beim"
+	cont "Angeln…"
 
 	para "Das mögt ihr,"
 	line "oder? Tauschen"
@@ -24,7 +25,8 @@ RalphAskNumber2Text:
 
 RalphNumberAcceptedText:
 	text "OK, ich ruf bei"
-	line "seltenen #mon an."
+	line "seltenen #mon"
+	cont "an."
 
 	para "Keine Sorge, ich"
 	line "vergess nicht!"
@@ -44,7 +46,7 @@ RalphPhoneFullText:
 	line "voll."
 
 	para "Junge Leute haben"
-	line "alle #gear."
+	line "alle #Com."
 	done
 
 RalphRematchText:

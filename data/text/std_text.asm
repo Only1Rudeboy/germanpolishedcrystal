@@ -63,7 +63,7 @@ PokeComNurseNiteText:
 
 NurseAskHealText:
 	text "Wir heilen deine"
-	line "#mon vollständig."
+	line "#mon voll."
 	cont ""
 
 	para "Sollen wir deine"
@@ -72,7 +72,7 @@ NurseAskHealText:
 
 NurseTrainerStarText:
 	text "Wir heilen deine"
-	line "#mon vollständig."
+	line "#mon voll."
 	cont ""
 
 	para "Sollen wir…"
@@ -242,21 +242,22 @@ TrashCanText:
 	done
 
 PokeCenterSignText:
-	text "Heile dein #mon!"
+	text "Heile dein #mon"
 	line "#mon Center"
 	done
 
 MartSignText:
 	text "Für alle deine"
-	line "#mon-Bedürfnisse"
+	line "#mon-"
+	cont "Bedürfnisse"
 
 	para "#mon Markt"
 	done
 
 ContestResults_ReadyToJudgeText:
 	text "Wir bewerten nun"
-	line "die #mon, die du"
-	cont "gefangen hast."
+	line "die #mon, die"
+	cont "du gefangen hast."
 
 	para "……"
 	line "……"
@@ -307,8 +308,8 @@ ContestResults_ReturnPartyText:
 ContestResults_PartyFullText:
 	text "Dein Team ist"
 	line "voll, also wurde"
-	cont "das #mon an Bills"
-	cont "PC geschickt."
+	cont "das #mon an"
+	cont "Bills PC gesandt."
 	done
 
 GymStatue_CityGymText:
@@ -413,8 +414,9 @@ HappinessText2:
 	done
 
 HappinessText1:
-	text "Du hast dein #mon"
-	line "nicht gezähmt."
+	text "Du hast dein"
+	line "#mon nicht"
+	cont "gezähmt."
 
 	para "Bist du nicht"
 	line "nett, schmollt es."

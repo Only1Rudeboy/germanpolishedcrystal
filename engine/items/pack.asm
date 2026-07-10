@@ -1378,8 +1378,8 @@ Text_NoEmptySlot:
 	text "Keine freien"
 	line "Registerplätze."
 
-	para "Entferne zuerst ein"
-	line "anderes Item."
+	para "Entferne zuerst"
+	line "ein anderes Item."
 	prompt
 
 Text_ThrowAwayHowMany:

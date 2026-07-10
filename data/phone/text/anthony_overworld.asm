@@ -17,8 +17,8 @@ AnthonyAskNumber1Text:
 
 AnthonyAskNumber2Text:
 	text "Ich rufe an, wenn"
-	line "ich seltene #mon"
-	cont "sehe."
+	line "ich seltene"
+	cont "#mon sehe."
 
 	para "Lust, Nummern"
 	line "auszutauschen?"
@@ -26,8 +26,8 @@ AnthonyAskNumber2Text:
 
 AnthonyNumberAcceptedText:
 	text "Geduld! Ich finde"
-	line "seltene #mon für"
-	cont "dich!"
+	line "seltene #mon"
+	cont "für dich!"
 	done
 
 AnthonyNumberDeclinedText:

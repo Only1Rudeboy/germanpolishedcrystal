@@ -5,9 +5,9 @@ ElmPhoneStartText:
 	line "nicht"
 	line "zu sehr."
 
-	para "Heile deine #mon,"
-	line "wenn sie verletzt"
-	cont "sind."
+	para "Heile deine"
+	line "#mon, wenn sie"
+	cont "verletzt sind."
 	done
 
 ElmPhoneSawMrPokemonText:
@@ -77,9 +77,9 @@ ElmPhoneEggHatchedText:
 	line "schlüpft? Wow!"
 	cont "Was"
 
-	para "für ein #mon ist"
-	line "es? Komm und zeig"
-	cont "es mir!"
+	para "für ein #mon"
+	line "ist es? Komm und"
+	cont "zeig es mir!"
 	prompt
 
 ElmPhoneDiscovery1Text:
@@ -120,8 +120,8 @@ ElmPhonePokerusText:
 	para "Anscheinend gibt"
 	line "es etwas namens"
 
-	para "#rus, das #mon"
-	line "befällt."
+	para "#rus, das"
+	line "#mon befällt."
 
 	para "Ja, wie ein"
 	line "Virus,"
@@ -131,8 +131,9 @@ ElmPhonePokerusText:
 	line "schnell und"
 	cont "befällt"
 
-	para "andere #mon. Aber"
-	line "das war's auch."
+	para "andere #mon."
+	line "Aber das war's"
+	cont "auch."
 
 	para "Es scheint nichts"
 	line "zu tun und geht"
@@ -305,7 +306,7 @@ ElmPhoneEvoText_Holding_MornDay:
 	para "mit einem"
 	line ""
 	text_ram wStringBuffer4
-	text ", aber"
+	cont ", aber"
 
 	para "nur morgens oder"
 	line "tagsüber."
@@ -320,7 +321,7 @@ ElmPhoneEvoText_Holding_EveNite:
 	para "mit einem"
 	line ""
 	text_ram wStringBuffer4
-	text ", aber"
+	cont ", aber"
 
 	para "nur abends oder"
 	line "nachts."
@@ -361,9 +362,9 @@ ElmPhoneEvoText_Stat:
 	cont "auf"
 	cont "Level "
 	text_decimal wStringBuffer4, 1, 3
-	text ", aber was"
+	cont ", aber"
 
-	para "daraus wird,"
+	para "was daraus wird,"
 	line "hängt"
 	line "von Angriff und"
 
@@ -392,7 +393,7 @@ ElmPhoneEvoText_Move:
 
 	para ""
 	text_ram wStringBuffer4
-	text " beherrscht."
+	line "beherrscht."
 	prompt
 
 ElmPhoneEvoText_Crit:

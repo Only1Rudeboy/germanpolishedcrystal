@@ -21,9 +21,9 @@ ArnieAskNumber2Text:
 	text "Ich will Leute"
 	line "informieren, wenn"
 
-	para "ich seltene #mon"
-	line "sehe. Gib mir"
-	cont "deine"
+	para "ich seltene"
+	line "#mon sehe. Gib"
+	cont "mir deine"
 	cont "Nummer!"
 	done
 

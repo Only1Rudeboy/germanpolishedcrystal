@@ -66,12 +66,14 @@ CeladonUniversity1FLassText:
 	para "Blumenstecken bis"
 	line "hin zu"
 
-	para "#mon-Psychologie!"
+	para "#mon-"
+	line "Psychologie!"
 	done
 
 CeladonUniversity1FCooltrainermText:
 	text "Hier ist jeder"
-	line "ein #mon-Trainer."
+	line "ein #mon-"
+	cont "Trainer."
 
 	para "Um hier"
 	line "aufgenommen zu"

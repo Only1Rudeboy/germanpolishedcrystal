@@ -92,7 +92,8 @@ GenericTrainerPokemaniacAidan:
 	generictrainer POKEMANIAC, AIDAN, EVENT_BEAT_POKEMANIAC_AIDAN, PokemaniacAidanSeenText, PokemaniacAidanBeatenText
 
 	text "Manchmal kennt"
-	line "ein #mon in einer"
+	line "ein #mon"
+	cont "in einer"
 
 	para "bestimmten Gegend"
 	line "eine seltene"

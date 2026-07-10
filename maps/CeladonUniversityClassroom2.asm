@@ -32,8 +32,9 @@ CeladonUniversityClassroom2BlancheText:
 	para "Wir müssen aus der"
 	line "Geschichte lernen,"
 
-	para "sonst sind wir dazu"
-	line "verdammt, sie zu"
+	para "sonst sind wir"
+	line "dazu verdammt,"
+	cont "sie zu"
 	cont "wiederholen."
 	done
 
@@ -122,11 +123,12 @@ CeladonUniversityClassroom2BlackboardText:
 
 	para "Vor drei Jahren:"
 	line "erstes virtuelles"
-	cont "#mon erschaffen."
+	cont "#mon"
+	cont "erschaffen."
 
-	para "“Hypothese: Technik"
-	line "wächst exponen-"
-	cont "tiell.”"
+	para "“Hypothese:"
+	line "Technik wächst"
+	cont "exponentiell.”"
 	done
 
 CeladonUniversityClassroom2Bookshelf1Text:

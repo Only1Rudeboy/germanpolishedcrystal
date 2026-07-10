@@ -89,7 +89,8 @@ HiddenPowerGuy:
 	cont "für Angriffe."
 
 	para "Merke dir: Der"
-	line "Typ hängt vom #-"
+	line "Typ hängt"
+	cont "vom #-"
 	cont "mon ab, das sie"
 	cont "einsetzt."
 	done

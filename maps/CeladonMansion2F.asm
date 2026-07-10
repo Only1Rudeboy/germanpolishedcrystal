@@ -45,8 +45,9 @@ CeladonMansion2FComputerText:
 	line "sich hier alles"
 	cont "verändert hat."
 
-	para "Du wirst auch viele"
-	line "#mon sehen, die"
+	para "Du wirst auch"
+	line "viele #mon"
+	cont "sehen, die"
 
 	para "nicht aus Johto"
 	line "stammen."

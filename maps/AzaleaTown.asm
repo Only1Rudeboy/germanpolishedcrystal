@@ -139,7 +139,8 @@ AzaleaTownRivalBattleTrigger2:
 
 	para "Du meinst das"
 	line "ernst? Dann zeig"
-	cont "mir, was du kannst."
+	cont "mir, was du"
+	cont "kannst."
 	done
 
 .WinText:
@@ -294,7 +295,8 @@ AzaleaTownAdvancedTipsSignText:
 
 	para "Der Wechsel-"
 	line "Kampfstil zeigt"
-	cont "dir, welches #mon"
+	cont "dir, welches"
+	cont "#mon"
 
 	para "der Gegner als"
 	line "Nächstes schickt,"
@@ -378,7 +380,7 @@ AzaleaTownTeacherScript:
 	line "Dank!"
 
 	para "Bitte nimm das,"
-	line "du hast's verdient!"
+	line "du hast's verdient"
 	done
 
 AzaleaTownWoosterText:
@@ -388,7 +390,8 @@ AzaleaTownWoosterText:
 AzaleaTownYoungsterText:
 	text "Schneide durch"
 	line "Azalea und du bist"
-	cont "im Steineichenwald."
+	cont "im"
+	cont "Steineichenwald."
 
 	para "Aber diese dünnen"
 	line "Bäume machen das"
@@ -396,7 +399,8 @@ AzaleaTownYoungsterText:
 
 	para "Das #mon vom"
 	line "Kohlenmann kann"
-	cont "Bäume zerschneiden."
+	cont "Bäume"
+	cont "zerschneiden."
 	done
 
 AzaleaTownRocket1Text:
@@ -413,7 +417,7 @@ AzaleaTownRocket2Text:
 	line "Flegmonschwanz? Er"
 	cont "soll lecker sein!"
 
-	para "Bist du nicht froh,"
+	para "Bist du nicht froh"
 	line "dass ich's dir"
 	cont "gesagt hab?"
 	done

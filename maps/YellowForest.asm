@@ -364,7 +364,8 @@ YellowForestWalkerSeenText:
 	done
 
 YellowForestWalkerBeatenText:
-	text "Meine Vogel-#mon…"
+	text "Meine Vogel-"
+	line "#mon… Besiegt!"
 	line "Besiegt!"
 	done
 

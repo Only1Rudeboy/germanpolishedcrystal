@@ -540,7 +540,8 @@ CantBeHeldText:
 	text_farend _ItemCantHeldText
 CantPlaceMailInStorageText:
 	text "Post kann nicht"
-	line "eingelagert werden."
+	line "eingelagert"
+	cont "werden."
 	prompt
 
 GetPartyItemLocation:

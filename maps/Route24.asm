@@ -169,8 +169,8 @@ Route24RocketAfterBattleText:
 	line "von mir,"
 	cont "versteckt"
 
-	para "in #mon-ARENA der"
-	line "AZURIA CITY."
+	para "in #mon-ARENA"
+	line "der AZURIA CITY."
 
 	para "Wasser sein gute"
 	line "Versteck. In"

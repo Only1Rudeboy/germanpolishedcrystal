@@ -355,7 +355,8 @@ SproutTower3FPaintingText:
 
 
 SproutTower3FStatueText:
-	text "Eine #mon-Statue…"
+	text "Eine #mon-"
+	line "Statue…"
 
 	para "Sie sieht sehr"
 	line "erhaben aus."

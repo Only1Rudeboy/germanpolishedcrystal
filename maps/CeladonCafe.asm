@@ -145,7 +145,8 @@ Fisher3Text_MunchMunch:
 Fisher3Text_GoldenrodIsBest:
 	text "Das Essen hier"
 	line "ist gut, aber in"
-	cont "Dukatia City gibt's"
+	cont "Dukatia City"
+	cont "gibt's"
 
 	para "das beste Essen"
 	line "überhaupt."

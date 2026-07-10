@@ -21,9 +21,10 @@ CeladonHotelRoom1CooltrainerMText:
 	line "gibt es keine"
 	cont "# Bälle."
 
-	para "Man nutzt Fang-"
-	line "Styler, um sich mit"
-	cont "#mon anzufreunden."
+	para "Man nutzt"
+	line "Fang-Styler, um"
+	cont "sich mit #mon"
+	cont "anzufreunden."
 	done
 
 CeladonHotelRoom1LassText:
@@ -33,5 +34,5 @@ CeladonHotelRoom1LassText:
 	cont "Tag zu Blumen."
 
 	para "Das sollte ich mir"
-	line "auch zeigen lassen."
+	line "auch zeigen lassen"
 	done

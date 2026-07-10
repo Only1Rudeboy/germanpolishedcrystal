@@ -142,7 +142,7 @@ OlivineCityYoungster1Script:
 
 	text "Dieses Ding da"
 	line "ist"
-	line "doch ein #gear."
+	line "doch ein #Com."
 	cont "Wow, das ist"
 	cont "cool!"
 	done

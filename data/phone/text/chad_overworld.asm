@@ -7,9 +7,9 @@ ChadAskNumber1Text:
 	para "Wirklich? Cool!"
 
 	para "Ich träume davon,"
-	line "#mon-Forscher wie"
-	cont "Prof.Eich zu"
-	cont "werden."
+	line "#mon-Forscher"
+	cont "wie Prof.Eich"
+	cont "zu werden."
 
 	para "Darf ich deine"
 	line "Nummer? Wir reden"

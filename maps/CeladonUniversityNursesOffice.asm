@@ -42,8 +42,8 @@ CeladonUniversityNursesOfficeNurseText:
 	done
 
 CeladonUniversityNursesOfficeSignText:
-	text "Ein gesundes #mon"
-	line "ist ein"
+	text "Ein gesundes"
+	line "#mon ist ein"
 	cont "glückliches"
 	cont "#mon!"
 

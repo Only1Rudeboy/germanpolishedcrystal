@@ -73,7 +73,8 @@ ProfOaksAide4Script:
 
 .ExplainText:
 	text "Das Glücks-Ei"
-	line "hilft einem #mon,"
+	line "hilft einem"
+	cont "#mon,"
 	cont "mehr Erfahrung"
 
 	para "als sonst zu"

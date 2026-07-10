@@ -28,7 +28,8 @@ CeladonUniversityClassroom3SparkText:
 	line "Spark. Ich lehre"
 	cont "Wissenschaft--"
 
-	para "gerade #biologie."
+	para "gerade"
+	line "#biologie."
 
 	para "Wir erforschen,"
 	line "wie sich #mon"
@@ -51,9 +52,9 @@ CeladonUniversityClassroom3TeacherText:
 	done
 
 CeladonUniversityClassroom3ChildText:
-	text "#mon in # Bällen"
-	line "werden zu"
-	cont "Lichtenergie,"
+	text "#mon in"
+	line "# Bällen werden"
+	cont "zu Lichtenergie,"
 
 	para "dann zurück in"
 	line "Materie verwan-"
@@ -98,15 +99,17 @@ CeladonUniversityClassroom3Super_nerdText:
 
 CeladonUniversityClassroom3BlackboardText:
 	text "“Phylogenetik”"
-	line "steht an der Tafel."
+	line "steht an der"
+	cont "Tafel."
 
-	para "“…#mon lassen sich"
-	line "in 14 “Ei-Gruppen”"
+	para "“…#mon lassen"
+	line "sich in 14"
+	cont "“Ei-Gruppen”"
 	cont "einteilen, plus"
 	cont "Ditto."
 
-	para "Baby-#mon können"
-	line "sich nicht"
+	para "Baby-#mon"
+	line "können sich nicht"
 	cont "fortpflanzen."
 
 	para "Legendäre #mon"
@@ -122,7 +125,7 @@ CeladonUniversityClassroom3Bookshelf1Text:
 	line "Geräte."
 
 	para "Hey! Ein früher"
-	line "#gear-Entwurf"
+	line "#Com-Entwurf"
 	cont "ist hier drin!"
 	done
 

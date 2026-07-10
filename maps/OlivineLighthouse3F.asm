@@ -217,7 +217,8 @@ Bird_keeperTheoFinalText:
 	cont "oben?"
 
 	para "Ich hörte, das"
-	line "kranke #mon geht"
+	line "kranke #mon"
+	cont "geht"
 
 	para "es wieder besser,"
 	line "aber ich schaffe"

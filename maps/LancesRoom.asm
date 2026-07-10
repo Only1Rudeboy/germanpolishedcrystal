@@ -260,8 +260,9 @@ LanceScript:
 	para "Als Trainer wirst"
 	line "du zusammen mit"
 
-	para "deinen #mon noch"
-	line "stärker werden."
+	para "deinen #mon"
+	line "noch stärker"
+	cont "werden."
 	done
 
 .MaryText1:

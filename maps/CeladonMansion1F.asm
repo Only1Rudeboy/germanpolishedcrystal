@@ -80,9 +80,9 @@ CeladonMansionManagerScript:
 	line "über heißen"
 	cont "Minztee."
 
-	para "Er kann die Wesens-"
-	line "art eines #mon"
-	cont "verändern!"
+	para "Er kann die"
+	line "Wesensart eines"
+	cont "#mon verändern!"
 	done
 
 .Egg:
@@ -107,8 +107,9 @@ CeladonMansionManagerScript:
 	para "lüde ich dich"
 	line "ein, mitzumachen."
 
-	para "#mon lieben Minze"
-	line "in ihrem Tee."
+	para "#mon lieben"
+	line "Minze in ihrem"
+	cont "Tee."
 
 	para "Sie verändert"
 	line "dauerhaft ihre"
@@ -137,7 +138,8 @@ CeladonMansionManagerScript:
 
 .AcceptedText:
 	text "Welches deiner"
-	line "#mon möchte Tee?"
+	line "#mon möchte"
+	cont "Tee?"
 	done
 
 .LikedFlavorText:

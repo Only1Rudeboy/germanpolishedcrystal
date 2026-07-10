@@ -162,7 +162,8 @@ CeladonUniversityClassroom4RaymondScript:
 CeladonUniversityClassroom4CandelaText:
 	text "Hallo! Ich bin"
 	line "Candela. Ich"
-	cont "lehre #mon-Kampf!"
+	cont "lehre #mon-"
+	cont "Kampf!"
 
 	para "Ich erforsche"
 	line "Wege, die"
@@ -180,7 +181,8 @@ CeladonUniversityClassroom4TeacherText:
 
 CeladonUniversityClassroom4Bug_catcherText:
 	text "Meine Dozentin"
-	line "sagte, mein #mon"
+	line "sagte, mein"
+	cont "#mon"
 
 	para "könnte es mit den"
 	line "Besten aufnehmen."
@@ -194,7 +196,8 @@ CeladonUniversityClassroom4Bug_catcherText:
 
 CeladonUniversityClassroom4FisherText:
 	text "Der Prof sagte,"
-	line "mein #mon ist ein"
+	line "mein #mon"
+	cont "ist ein"
 	cont "Wunder!"
 
 	para "Ein atemberauben-"
@@ -203,7 +206,8 @@ CeladonUniversityClassroom4FisherText:
 
 CeladonUniversityClassroom4LadyText:
 	text "Die Professorin"
-	line "sagte, mein #mon"
+	line "sagte, mein"
+	cont "#mon"
 
 	para "hat sie einfach"
 	line "verblüfft."
@@ -249,8 +253,9 @@ CeladonUniversityClassroom4Rich_boyScript:
 	line "kappe nicht"
 	cont "ändert."
 
-	para "Aber! Hat ein #-"
-	line "mon mit einer"
+	para "Aber! Hat"
+	line "ein #-"
+	cont "mon mit einer"
 
 	para "Fähigkeitskappe"
 	line "ein Ei, kann das"

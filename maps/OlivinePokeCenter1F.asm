@@ -76,8 +76,9 @@ BeautyCharlotteScript:
 
 	para "Mein"
 	line "einzigartiges"
-	line "und schönes #mon"
-	cont "ist wieder fit."
+	line "und schönes"
+	cont "#mon ist wieder"
+	cont "fit."
 
 	para "Willst du kämpfen"
 	line "und von meinem"

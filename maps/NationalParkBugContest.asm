@@ -53,7 +53,8 @@ BugCatchingContestant3AScript:
 
 	text "LARS: Ich"
 	line "trainiere schnelle"
-	cont "#mon für Kämpfe."
+	cont "#mon für"
+	cont "Kämpfe."
 	done
 
 BugCatchingContestant4AScript:
@@ -103,7 +104,8 @@ BugCatchingContestant8AScript:
 	jumpthistextfaceplayer
 
 	text "ENNO: Ich sammle"
-	line "Käfer-#mon schon,"
+	line "Käfer-#mon"
+	cont "schon,"
 
 	para "seit ich klein"
 	line "war."

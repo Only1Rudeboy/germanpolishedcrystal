@@ -38,7 +38,8 @@ CeladonUniversityWillowsOfficeWillowText:
 
 	para "Ich erforsche"
 	line "auch"
-	line "#mon-Lebensräume"
+	line "#mon-"
+	cont "Lebensräume"
 	cont "und Verbreitung."
 
 	para "Ich bin sehr"
@@ -90,7 +91,7 @@ CeladonUniversityWillowsOfficeBookshelf2Text:
 	cont "Zone."
 
 	para "Viele exotische"
-	line "#mon zieren ihn."
+	line "#mon zieren ihn"
 	done
 
 CeladonUniversityWillowsOfficeComputer:

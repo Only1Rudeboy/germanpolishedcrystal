@@ -131,8 +131,9 @@ DimCave5FRileyScript:
 	text "Kenne deinen"
 	line "Feind."
 
-	para "Wenn du die #mon"
-	line "und Attacken des"
+	para "Wenn du die"
+	line "#mon und"
+	cont "Attacken des"
 
 	para "Gegners kennst,"
 	line "steigen deine"
@@ -167,8 +168,8 @@ GenericTrainerSuper_nerdFoote:
 	text "Ein Leben retten"
 	line "oder fünf?"
 
-	para "Als #mon-Trainer"
-	line "hast du"
+	para "Als #mon-"
+	line "Trainer hast du"
 	cont "vielleicht"
 
 	para "die Kraft, alle"

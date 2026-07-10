@@ -40,9 +40,9 @@ CeladonHotelPoolSwimmerMScript:
 	line "Rückenschwimmen"
 	cont "brauch ich meine"
 
-	para "Schutzbrille nicht."
-	line "Du kannst sie"
-	cont "haben."
+	para "Schutzbrille"
+	line "nicht. Du kannst"
+	cont "sie haben."
 	done
 
 CeladonHotelPoolPokefanMText:

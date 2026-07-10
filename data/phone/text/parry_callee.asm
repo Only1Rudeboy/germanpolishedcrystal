@@ -61,13 +61,14 @@ ParryGreetNiteText:
 	done
 
 ParryGenericText:
-	text "Sehen deine #mon"
-	line "gut aus?"
+	text "Sehen deine"
+	line "#mon gut aus?"
 
-	para "Mein "
+	para "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text " und"
-	line "ich — wir sehen"
+	cont "und ich — wir"
+	cont "sehen"
 
 	para "super aus!"
 	line "Hahahah!"

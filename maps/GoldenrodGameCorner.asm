@@ -419,7 +419,8 @@ Text_GoldenrodGameCornerTutorPayDayQuestion:
 	line "Silberblatt,"
 
 	para "bring ich deinem"
-	line "#mon Pay Day bei."
+	line "#mon Pay Day"
+	cont "bei."
 	done
 
 

@@ -52,7 +52,7 @@ CeladonGymErikaScript:
 	setevent EVENT_GOT_TM19_GIGA_DRAIN
 	jumpthisopenedtext
 
-	text "Es ist Kraftsauger."
+	text "Es ist Kraftsauger"
 
 	para "Es ist eine tolle"
 	line "Attacke, die die"

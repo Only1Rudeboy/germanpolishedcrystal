@@ -47,14 +47,16 @@ GenericTrainerCamperAmos:
 
 	text "Ich durchkämme"
 	line "Land und Meer"
-	cont "nach neuen #mon."
+	cont "nach neuen"
+	cont "#mon."
 	done
 
 GenericTrainerTamerBrett:
 	generictrainer TAMER, BRETT, EVENT_BEAT_TAMER_BRETT, TamerBrettSeenText, TamerBrettBeatenText
 
-	text "Du musst #mon mit"
-	line "Selbstvertrauen"
+	text "Du musst #mon"
+	line "mit"
+	cont "Selbstvertrauen"
 	cont "kommandieren."
 
 	para "ORDEN zu sammeln"

@@ -166,7 +166,8 @@ SafariZoneNorthCooltrainerFText:
 
 Text_SafariZoneNorthTutorDoubleEdge:
 	text "Ich bringe deinem"
-	line "#mon Risikotackle"
+	line "#mon"
+	cont "Risikotackle"
 
 	para "bei — für ein"
 	line "Silberblatt."
@@ -175,7 +176,8 @@ Text_SafariZoneNorthTutorDoubleEdge:
 
 Text_SafariZoneNorthTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Risikotackle"
+	line "#mon"
+	cont "Risikotackle"
 	cont "beibringen?"
 	done
 

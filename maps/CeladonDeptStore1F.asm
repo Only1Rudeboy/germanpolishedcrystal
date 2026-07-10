@@ -22,7 +22,8 @@ CeladonDeptStore1F_MapScriptHeader:
 CeladonDeptStore1FReceptionistText:
 	text "Hallo!"
 	line "Willkommen im"
-	cont "Prismania-Kaufhaus!"
+	cont "Prismania-"
+	cont "Kaufhaus!"
 
 	para "Der Wegweiser ist"
 	line "an der Wand."

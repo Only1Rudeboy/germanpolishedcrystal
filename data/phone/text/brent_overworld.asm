@@ -48,12 +48,13 @@ BrentPhoneFullText:
 	text "Häh? Deine Liste"
 	line "ist voll."
 
-	para "Ein #Maniac muss"
-	line "ordentlicher"
+	para "Ein #Maniac"
+	line "muss ordentlicher"
 	cont "sein!"
 	done
 
 BrentRematchText:
 	text "Ich hab gewartet."
-	line "Schau meine #mon!"
+	line "Schau meine"
+	cont "#mon!"
 	done

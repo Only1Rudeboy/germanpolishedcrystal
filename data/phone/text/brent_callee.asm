@@ -68,10 +68,12 @@ BrentGenericText:
 	line "kommen."
 
 	para "Du heilst deine"
-	line "#mon regelmäßig."
+	line "#mon"
+	cont "regelmäßig."
 
 	para "Das beeindruckt"
-	line "mich. Heh, mein "
+	line "mich. Heh, mein"
+	cont ""
 	text_ram wStringBuffer4
 
 	para "ist so stark, es"

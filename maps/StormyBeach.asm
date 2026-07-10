@@ -63,7 +63,8 @@ GenericTrainerBird_keeperJulian:
 .SeenText:
 	text "Ich trainiere"
 	line "hier"
-	line "meine Flug-#mon."
+	line "meine"
+	cont "Flug-#mon."
 
 	para "Hilfst du mir?"
 	done

@@ -34,7 +34,8 @@ GenericTrainerLassConnie:
 	cont "wäre."
 
 	para "Ich bete für das"
-	line "#mon hier, damit"
+	line "#mon hier,"
+	cont "damit"
 
 	para "JASMIN wieder in"
 	line "die ARENA"
@@ -86,8 +87,8 @@ SailorKentBeatenText:
 
 
 SailorKentFinalText:
-	text "Das #mon hier ist"
-	line "wieder gesund."
+	text "Das #mon hier"
+	line "ist wieder gesund."
 
 	para "Die Anemonia-"
 	line "Apotheke hat"

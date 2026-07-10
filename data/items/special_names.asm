@@ -4,5 +4,5 @@ SpecialItemNames::
 	li "Karte"
 	li "Radio"
 	li "EP-Karte"
-	li "#gear"
+	li "#Com"
 	assert_list_length NUM_SPECIAL_ITEMS

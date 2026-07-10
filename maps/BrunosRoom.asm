@@ -142,7 +142,8 @@ BrunoScript:
 
 	para "Es würde mich"
 	line "stören, wenn du"
-	cont "meine Kampf-#mon"
+	cont "meine Kampf-"
+	cont "#mon"
 
 	para "unterschätzt."
 

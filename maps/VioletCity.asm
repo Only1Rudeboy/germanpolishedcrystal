@@ -269,9 +269,10 @@ VioletCityGrampsText:
 	line "ein großartiger"
 	cont "Trainer!"
 
-	para "Er hat die #mon-"
-	line "ARENA seines Va-"
-	cont "ters geerbt und"
+	para "Er hat die"
+	line "#mon-ARENA"
+	cont "seines Vaters"
+	cont "geerbt und"
 
 	para "hat dort sehr"
 	line "gute"

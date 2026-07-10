@@ -2114,8 +2114,8 @@ endc
 
 SECTION "_MaySmashText", ROMX
 _MaySmashText::
-	text "Vielleicht kann"
-	line "ein #mon das brech."
+	text "Ein #mon könnte"
+	line "dies zerbrechen."
 	done
 
 SECTION "_AskRockSmashText", ROMX
@@ -2276,8 +2276,8 @@ ForfeitToTrainerText::
 SECTION "_PoisonFaintText", ROMX
 _PoisonFaintText::
 	text_ram wStringBuffer3
-	line "wurde von der"
-	cont "Vergiftung geheilt!"
+	line "wurde vom Gift"
+	cont "geheilt!"
 	prompt
 
 SECTION "_UseSweetHoneyText", ROMX
@@ -2374,7 +2374,8 @@ UnregisteredItemText::
 SECTION "_CantRegisterText", ROMX
 _CantRegisterText::
 	text "Dieses Item kannst"
-	line "du nicht eintragen."
+	line "du nicht"
+	cont "eintragen."
 	prompt
 
 SECTION "_AskItemMoveText", ROMX
@@ -2385,8 +2386,8 @@ _AskItemMoveText::
 
 SECTION "Text_AreYouABoyOrAreYouAGirl", ROMX
 Text_AreYouABoyOrAreYouAGirl::
-	text "Welches Foto ist"
-	line "auf deinem Ausweis?"
+	text "Welches Foto zeigt"
+	line "dein Ausweis?"
 	done
 
 SECTION "Text_SoThisIsYou", ROMX
@@ -2545,8 +2546,8 @@ _EggSentToPCText::
 
 SECTION "_PCGottaHavePokemonText", ROMX
 _PCGottaHavePokemonText::
-	text "Du brauchst #mon,"
-	line "um anzurufen!"
+	text "Du brauchst ein"
+	line "#mon zum Anruf!"
 	prompt
 
 SECTION "_ContestCaughtMonText", ROMX
@@ -2803,7 +2804,7 @@ _PokecenterOaksPCText::
 	text "Prof. Eichs PC"
 	line "aufgerufen."
 
-	para "#dex-Bewertungs-"
+	para "#dex-Bewertung"
 	line "System geöffnet."
 	prompt
 
@@ -2861,8 +2862,8 @@ _OakRating03::
 
 SECTION "_OakRating04", ROMX
 _OakRating04::
-	text "Du musst den #dex"
-	line "noch füllen."
+	text "Fülle deinen"
+	line "#dex weiter!"
 
 	para "Fang verschiedene"
 	line "Arten von #mon!"
@@ -2999,8 +3000,9 @@ _OakRating19::
 
 SECTION "_OakPCText4", ROMX
 _OakPCText4::
-	text "Verbindung zu Prof."
-	line "Eichs PC beendet."
+	text "Verbindung zu"
+	line "Prof. Eichs PC"
+	cont "beendet."
 	done
 
 SECTION "_MemoryGameYeahText", ROMX
@@ -3015,8 +3017,9 @@ _MemoryGameDarnText::
 
 SECTION "_StartMenuContestEndText", ROMX
 _StartMenuContestEndText::
-	text "Willst du den"
-	line "Wettbewerb beenden?"
+	text "Willst du"
+	line "den Wettbewerb"
+	cont "beenden?"
 	done
 
 SECTION "_ItemsTossOutHowManyText", ROMX
@@ -3199,8 +3202,9 @@ _ElmText2::
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
-	text "Menschen und #mon"
-	line "leben zusammen,"
+	text "Menschen und"
+	line "#mon leben"
+	cont "zusammen,"
 
 	para "indem sie sich"
 	line "unterstützen."
@@ -3220,7 +3224,8 @@ _ElmText5::
 	line "Rätsel zu lösen."
 
 	para "Darum erforsche"
-	line "ich #mon täglich."
+	line "ich #mon"
+	cont "täglich."
 	prompt
 
 SECTION "_ElmText6", ROMX
@@ -3246,8 +3251,9 @@ if !DEF(DEBUG)
 	para "Eine Welt voller"
 	line "Träume und"
 
-	para "Abenteuer mit #mon"
-	line "wartet! Los geht's!"
+	para "Abenteuer und"
+	line "#mon warten"
+	cont "auf dich! Los!"
 endc
 
 	para "Wir sehen uns"
@@ -3267,7 +3273,8 @@ if !DEF(DEBUG)
 	cont "lassen können."
 
 	para "Bitte nutze einen"
-	line "genaueren Emulator,"
+	line "genaueren"
+	cont "Emulator,"
 
 	para "wie BGB, mGBA"
 	line "oder Gambatte."
@@ -3289,8 +3296,9 @@ _ClockTimeMayBeWrongText::
 
 SECTION "_ClockSetWithControlPadText", ROMX
 _ClockSetWithControlPadText::
-	text "Mit dem Steuerkreuz"
-	line "einstellen."
+	text "Mit dem"
+	line "Steuerkreuz"
+	cont "einstellen."
 
 	para "Bestätigen: A"
 	line "Abbrechen:  B"
@@ -3346,8 +3354,8 @@ _WouldYouLikeToSaveTheGameText::
 
 SECTION "_SavedTheGameText", ROMX
 _SavedTheGameText::
-	text "<PLAYER> speicherte"
-	line "das Spiel."
+	text "<PLAYER> hat das"
+	line "Spiel gespeichert."
 	done
 
 SECTION "_AnotherSaveFileText", ROMX
@@ -3421,7 +3429,7 @@ _CongratulationsYourPokemonText::
 
 SECTION "_EvolvedIntoText", ROMX
 _EvolvedIntoText::
-	para "entwickelte sich zu"
+	para "entwickelt sich zu"
 	line ""
 	text_ram wStringBuffer1
 	text "!"
@@ -3460,7 +3468,7 @@ _MartFinalPriceText::
 
 SECTION "_HerbShopLadyIntroText", ROMX
 _HerbShopLadyIntroText::
-	text "Hallo, mein Lieber."
+	text "Hallo, Lieber!"
 
 	para "Ich verkaufe"
 	line "billige Kräuter."
@@ -3488,7 +3496,7 @@ _HerbalLadyFinalPriceText::
 
 SECTION "_HerbalLadyThanksText", ROMX
 _HerbalLadyThanksText::
-	text "Danke, mein Lieber."
+	text "Danke, Lieber!"
 	line "Hehehehe…"
 	done
 
@@ -3518,7 +3526,7 @@ _BargainShopIntroText::
 	para "Ich verkaufe"
 	line "seltene Items, die"
 
-	para "sonst niemand hat--"
+	para "sonst niemand hat"
 	line "aber nur je eins."
 	done
 
@@ -3712,7 +3720,7 @@ BTMartCostsThisMuchText::
 
 SECTION "BTMartInsufficientFundsText", ROMX
 BTMartInsufficientFundsText::
-	text "Sorry, aber du hast"
+	text "Sorry, du hast"
 	line "nicht genug KP."
 	done
 
@@ -4012,14 +4020,16 @@ _BuenaComeAgainText::
 
 SECTION "_BallBrokeFreeText", ROMX
 _BallBrokeFreeText::
-	text "Oh nein! Das #mon"
-	line "riss sich los!"
+	text "Oh nein!"
+	line "Das #mon"
+	cont "riss sich los!"
 	prompt
 
 SECTION "_BallAppearedCaughtText", ROMX
 _BallAppearedCaughtText::
 	text "Ohh! Es sah aus,"
-	line "als wär's gefangen!"
+	line "als wär's"
+	cont "gefangen!"
 	prompt
 
 SECTION "_BallAlmostHadItText", ROMX
@@ -4069,7 +4079,7 @@ _NewDexDataText::
 	text_ram wEnemyMonNickname
 	text "s Daten"
 	line "wurden neu zum"
-	cont "#dex hinzugefügt."
+	cont "#dex ergänzt."
 	text_sound SFX_SLOT_MACHINE_START
 	text_promptbutton
 	text_end
@@ -4106,8 +4116,8 @@ _ItemStatRoseText::
 
 SECTION "_ItemCantUseOnMonText", ROMX
 _ItemCantUseOnMonText::
-	text "Das kann bei diesem"
-	line "#mon nicht"
+	text "Bei diesem #mon"
+	line "kann das nicht"
 	cont "benutzt werden."
 	prompt
 
@@ -4265,8 +4275,9 @@ _AskDeleteMoveText::
 
 SECTION "_DeleterForgotMoveText", ROMX
 _DeleterForgotMoveText::
-	text "Fertig! Dein #mon"
-	line "vergaß die Attacke."
+	text "Fertig! Dein"
+	line "#mon vergaß"
+	cont "die Attacke."
 	done
 
 SECTION "_DeleterEggText", ROMX
@@ -4293,10 +4304,12 @@ _DeleterIntroText::
 	line "bin der Vergesser."
 
 	para "Ich lasse #mon"
-	line "Attacken vergessen."
+	line "Attacken"
+	cont "vergessen."
 
-	para "Soll ich ein #mon"
-	line "vergessen lassen?"
+	para "Soll ich ein"
+	line "#mon vergessen"
+	cont "lassen?"
 	done
 
 SECTION "_DeleterAskWhichMonText", ROMX
@@ -4324,8 +4337,9 @@ _TimesetAskDSTText::
 
 SECTION "_TimesetDSTText", ROMX
 _TimesetDSTText::
-	text "Ich stellte die Uhr"
-	line "eine Stunde vor."
+	text "Ich stellte"
+	line "die Uhr eine"
+	cont "Stunde vor."
 	prompt
 
 SECTION "_TimesetAskNotDSTText", ROMX
@@ -4336,8 +4350,9 @@ _TimesetAskNotDSTText::
 
 SECTION "_TimesetNotDSTText", ROMX
 _TimesetNotDSTText::
-	text "Ich stellte die Uhr"
-	line "eine Stunde zurück."
+	text "Ich stellte"
+	line "die Uhr eine"
+	cont "Stunde zurück."
 	prompt
 
 SECTION "_TimesetAskAdjustDSTText", ROMX
@@ -4353,7 +4368,7 @@ SECTION "_MomLostGearBookletText", ROMX
 _MomLostGearBookletText::
 	text "Ich verlor die"
 	line "Anleitung für das"
-	cont "#gear."
+	cont "#Com."
 
 	para "Komm später"
 	line "nochmal wieder."
@@ -4368,7 +4383,8 @@ WonderTradeQuestionText::
 SECTION "WonderTradePromptText", ROMX
 WonderTradePromptText::
 	text "Welches #mon"
-	line "willst du tauschen?"
+	line "willst du"
+	cont "tauschen?"
 	prompt
 
 SECTION "WonderTradeCantTradeSpikyEaredPichuText", ROMX
@@ -4452,7 +4468,8 @@ AdventurerMartComeAgainText::
 SECTION "InformalMartIntroText", ROMX
 InformalMartIntroText::
 	text "Was gibt's?"
-	line "Brauchst du Vorrat?"
+	line "Brauchst du"
+	cont "Vorrat?"
 	done
 
 SECTION "BazaarMartIntroText", ROMX
@@ -4491,7 +4508,7 @@ AlreadyInThatBallTextData::
 SECTION "CantChangeTradedMonBallTextData", ROMX
 CantChangeTradedMonBallTextData::
 	text "Den Ball eines"
-	line "getauschten #mon"
-	cont "kannst du nicht"
-	cont "ändern."
+	line "getauschten"
+	cont "#mon kannst du"
+	cont "nicht ändern."
 	prompt

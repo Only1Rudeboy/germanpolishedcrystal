@@ -111,7 +111,7 @@ Script_CommitBattleTowerResult:
 .WeHopeToServeYouAgain:
 	writethistext
 		text "Wir hoffen, dich"
-		line "bald wiederzusehen."
+		line "bald wiederzusehen"
 		done
 	waitbutton
 	endtext
@@ -128,8 +128,8 @@ BattleTower1FRulesScript:
 	yesorno
 	iffalse_endtext
 	jumpthisopenedtext
-		text "Drei #mon dürfen"
-		line "kämpfen."
+		text "Drei #mon"
+		line "dürfen kämpfen."
 
 		para "Alle drei müssen"
 		line "verschieden sein."
@@ -204,7 +204,7 @@ BattleTower1FReceptionistScript:
 		para "Um eine Sitzung zu"
 		line "unterbrechen,"
 
-		para "musst du speichern."
+		para "musst du speichern"
 		line "Sonst kannst du"
 
 		para "deinen Raum-"
@@ -226,7 +226,7 @@ BattleTower1FReceptionistScript:
 	ifequal $2, .Explanation
 	writethistext
 		text "Wir hoffen, dich"
-		line "bald wiederzusehen."
+		line "bald wiederzusehen"
 		prompt
 	endtext
 
@@ -401,8 +401,8 @@ Text_BattleTowerBugCatcher:
 	para "komme."
 
 	para "Hoffentlich sind"
-	line "keine Feuer-#mon"
-	cont "dabei…"
+	line "keine Feuer-"
+	cont "#mon dabei…"
 	done
 
 PokemonJournalPalmerScript:

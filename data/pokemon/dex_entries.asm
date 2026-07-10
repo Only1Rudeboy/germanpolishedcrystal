@@ -499,8 +499,8 @@ DiglettPlainPokedexEntry::
 	next "Erde und nagt an"
 	next "Baumwurzeln."
 	page "Es kommt nur"
-	next "heraus, wenn die"
-	next "Sonne nicht scheint.@"
+	next "heraus, wenn keine"
+	next "Sonne scheint.@"
 
 SECTION "DugtrioPlainPokedexEntry", ROMX
 DugtrioPlainPokedexEntry::

@@ -131,8 +131,9 @@ EmptyDisplayText:
 
 TowerRelicText:
 	text "Ein uraltes Wand-"
-	line "gemälde mit einem"
-	cont "mysteriösen #mon."
+	line "gemälde mit"
+	cont "einem mysteriösen"
+	cont "#mon."
 	done
 
 GoldenrodMuseum2FSightseerMScript:

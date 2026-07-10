@@ -178,8 +178,8 @@ ClairPokemonLeagueDirectionsText:
 	line "ist sehr hart."
 
 	para "Wag es ja nicht,"
-	line "bei der #mon-Liga"
-	cont "zu verlieren!"
+	line "bei der #mon-"
+	cont "Liga zu verlieren!"
 
 	para "Sonst fühl ich"
 	line "mich noch"

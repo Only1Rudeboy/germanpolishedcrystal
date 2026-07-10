@@ -154,7 +154,8 @@ CeladonUniversityLibrary2FBookshelf2Text:
 	line "mehr lesbar,"
 
 	para "aber es zeigt ein"
-	line "#mon in schwerer"
+	line "#mon in"
+	cont "schwerer"
 	cont "Rüstung."
 	done
 
@@ -201,7 +202,8 @@ CeladonUniversityLibrary2FBookshelf6Text:
 
 CeladonUniversityLibrary2FBookshelf7Text:
 	text "Ein Buch über"
-	line "#mon-Wettbewerbe."
+	line "#mon-"
+	cont "Wettbewerbe."
 
 	para "Auf dem Cover ist"
 	line "ein"
@@ -224,7 +226,8 @@ CeladonUniversityLibrary2FBookshelf8Text:
 CeladonUniversityLibrary2FBookshelf9Text:
 	text "Ein Buch über"
 	line "eine"
-	line "Welt voller #mon!"
+	line "Welt voller"
+	cont "#mon!"
 
 	para "“Pikachus"
 	line "Abenteuer"
@@ -292,8 +295,9 @@ CeladonUniversityLibrary2FBookshelf15Text:
 	done
 
 CeladonUniversityLibrary2FBookshelf16Text:
-	text "“Alte #monopolis:"
-	line "Geschichte"
+	text "“Alte"
+	line "#monopolis:"
+	cont "Geschichte"
 
 	para "ausgestorbener"
 	line "#mon”"

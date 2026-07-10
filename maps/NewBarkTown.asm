@@ -472,8 +472,9 @@ Text_LyraGoodbye2:
 	line "viel"
 	line "Arbeit und Liebe"
 
-	para "du in deine #mon"
-	line "gesteckt hast."
+	para "du in deine"
+	line "#mon gesteckt"
+	cont "hast."
 
 	para "…Also, das ist"
 	line "Abschied."

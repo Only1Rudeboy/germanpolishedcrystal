@@ -172,9 +172,9 @@ Route27VeteranfScript:
 	line "den"
 	cont "Spezial-Angriff"
 
-	para "eines #mon, aber"
-	line "es kann nur eine"
-	cont "Attacke"
+	para "eines #mon,"
+	line "aber es kann nur"
+	cont "eine Attacke"
 	cont "einsetzen."
 
 	para "Nimm ein Paar"

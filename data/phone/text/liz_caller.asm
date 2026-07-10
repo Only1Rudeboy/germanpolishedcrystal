@@ -2,10 +2,11 @@ LizMonAlwaysWantsToNuzzleText:
 	text "Oh, das musst du"
 	line "hören."
 
-	para "Mein "
+	para "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text " ist"
-	line "so niedlich!"
+	cont "ist so"
+	cont "niedlich!"
 
 	para "Es will immer"
 	line "an mich"
@@ -16,9 +17,10 @@ LizDefeatedMonText:
 	text "Und, und! Ähm…"
 
 	para "Wir besiegten ein"
-	line "wildes "
+	line "wildes"
+	cont ""
 	text_ram wStringBuffer4
-	text " mit"
+	cont "mit"
 
 	para "einem Treffer vor"
 	line "kurzem. Schade"
@@ -138,8 +140,9 @@ LizEarlGossipText:
 LizSurfPikachuGossipText:
 	text "Hör mal, hör mal!"
 
-	para "Ich sammle #mon-"
-	line "Plüschtiere."
+	para "Ich sammle"
+	line "#mon-"
+	cont "Plüschtiere."
 
 	para "Aber kein Surf-"
 	line "Pikachu-Puppe."
@@ -260,10 +263,11 @@ LizForgotGossipText:
 LizFawningOverMonText:
 	text "Hör mal, hör mal!"
 
-	para "Mein "
+	para "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text "…"
-	line "so hübsch… und…"
+	cont "… so hübsch…"
+	cont "und…"
 
 	para "kicher… so toll…"
 	line "ja… aber… sehr…"

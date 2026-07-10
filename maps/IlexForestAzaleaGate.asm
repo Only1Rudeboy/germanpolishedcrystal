@@ -41,7 +41,8 @@ ProfOaksAide1Script:
 	jumpthisopenedtext
 
 	text "Der Exp.Share"
-	line "hilft einem #mon,"
+	line "hilft einem"
+	cont "#mon,"
 
 	para "EP zu sammeln,"
 	line "ohne zu kämpfen."
@@ -91,9 +92,9 @@ ProfOaksAide1HiText:
 	line "Prof.Linds"
 	cont "Gehilfe."
 
-	para "Wenn du 15 #mon-"
-	line "Arten gefangen"
-	cont "hast,"
+	para "Wenn du 15"
+	line "#mon-Arten"
+	cont "gefangen hast,"
 
 	para "soll ich dir ein"
 	line "Item geben."

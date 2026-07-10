@@ -57,11 +57,13 @@ MrHyperScript:
 	line "warum?"
 
 	para "Weil ich #mon"
-	line "beim Super-Spezial-"
+	line "beim Super-"
+	cont "Spezial-"
 	cont "training helfe!"
 
-	para "Es lässt ein #mon,"
-	line "dessen Fleiß-Werte"
+	para "Es lässt ein"
+	line "#mon, dessen"
+	cont "Fleiß-Werte"
 	cont "maximal sind, noch"
 	cont "stärker werden!"
 
@@ -72,14 +74,16 @@ MrHyperScript:
 	para "Wenn du willst,"
 	line "trainiere ich dein"
 	cont "#mon, bring mir"
-	cont "ein paar Kronkorken"
+	cont "ein paar"
+	cont "Kronkorken"
 	done
 
 .TextAskTrain:
 	text "Na, wie klingt's?"
 	line "Willst du mein"
 	cont "Super-Spezial-"
-	cont "training probieren?"
+	cont "training"
+	cont "probieren?"
 	done
 
 .TextNoBottleCaps:

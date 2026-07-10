@@ -214,7 +214,7 @@ else
 	line "ich es"
 	cont "vergessen! Dein"
 
-	para "#gear ist"
+	para "#Com ist"
 	line "von der Repa-"
 	cont "ratur"
 	cont "zurück."
@@ -226,9 +226,9 @@ else
 endc
 
 MomPokegearText:
-	text "#mon-COM oder"
-	line "einfach nur"
-	cont "#gear."
+	text "PokéCom, dein"
+	line "wichtigstes"
+	cont "Gerät."
 
 	para "Ein wichtiges"
 	line "Gerät auf deinem"

@@ -89,9 +89,9 @@ ProfOaksAide2HiText:
 	line "Prof.Linds"
 	cont "Gehilfe."
 
-	para "Wenn du 30 #mon-"
-	line "Arten gefangen"
-	cont "hast,"
+	para "Wenn du 30"
+	line "#mon-Arten"
+	cont "gefangen hast,"
 
 	para "soll ich dir ein"
 	line "Item geben."

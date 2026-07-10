@@ -234,10 +234,11 @@ SupernerdMerleBeatenText:
 BlaineIntroText:
 	text "PYRO: Wuah!"
 
-	para "Meine #mon-ARENA"
-	line "auf der ZINNOBER-"
-	cont "INSEL ist abge-"
-	cont "brannt. Meine"
+	para "Meine #mon-"
+	line "ARENA auf der"
+	cont "ZINNOBER-"
+	cont "INSEL ist"
+	cont "abgebrannt. Meine"
 
 	para "Feuer-#mon und"
 	line "ich sind wegen"

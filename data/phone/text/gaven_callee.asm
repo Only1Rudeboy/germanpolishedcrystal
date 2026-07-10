@@ -63,12 +63,13 @@ GavenGenericText:
 	text "Wie gehen deine"
 	line "#mon?"
 
-	para "Mein "
+	para "Mein"
+	line ""
 	text_ram wStringBuffer4
-	text " ist"
-	line "topfit wie immer."
+	cont "ist topfit wie"
+	cont "immer."
 
 	para "Weiter so, bis"
-	line "wir"
-	line "#mon-Champs sind!"
+	line "wir #mon-Champs"
+	cont "sind!"
 	done

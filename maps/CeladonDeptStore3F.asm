@@ -273,7 +273,8 @@ BoughtWiiText:
 CeladonDeptStore3FYoungsterText:
 	text "Ich kann mich"
 	line "nicht entscheiden,"
-	cont "bei welchem #mon"
+	cont "bei welchem"
+	cont "#mon"
 
 	para "ich diese VM"
 	line "einsetzen soll…"

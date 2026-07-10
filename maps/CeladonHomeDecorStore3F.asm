@@ -171,7 +171,7 @@ RedCarpetSentText:
 
 BoughtBlueCarpetText:
 	text "<PLAYER> kaufte"
-	line "den blauen Teppich."
+	line "den blauen Teppich"
 	done
 
 BlueCarpetSentText:
@@ -181,7 +181,7 @@ BlueCarpetSentText:
 
 BoughtYellowCarpetText:
 	text "<PLAYER> kaufte"
-	line "den gelben Teppich."
+	line "den gelben Teppich"
 	done
 
 YellowCarpetSentText:
@@ -191,7 +191,7 @@ YellowCarpetSentText:
 
 BoughtGreenCarpetText:
 	text "<PLAYER> kaufte"
-	line "den grünen Teppich."
+	line "den grünen Teppich"
 	done
 
 GreenCarpetSentText:
@@ -221,7 +221,8 @@ CeladonHomeDecorStore3FBeautyText:
 	done
 
 CeladonHomeDecorStore3FDirectoryText:
-	text "Farbenfrohe Eleganz"
+	text "Farbenfrohe"
+	line "Eleganz"
 
 	para "3F: Teppiche"
 	done

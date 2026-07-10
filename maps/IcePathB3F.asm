@@ -120,9 +120,9 @@ LoreleiRematchAfterText:
 	line "Team"
 	line "verbessern."
 
-	para "Ein #mon-Meister"
-	line "zu werden ist"
-	cont "Lebensarbeit."
+	para "Ein #mon-"
+	line "Meister zu werden"
+	cont "ist Lebensarbeit."
 	done
 
 LoreleiReintroductionScript:

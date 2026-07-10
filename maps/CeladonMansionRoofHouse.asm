@@ -108,7 +108,8 @@ CeladonMansionRoofHousePharmacistScript:
 	para "…"
 	line "Bum-bum, bum-bum!"
 
-	para "Weil du so geduldig"
-	line "zugehört hast,"
+	para "Weil du so"
+	line "geduldig"
+	cont "zugehört hast,"
 	cont "nimm dies--TM03!"
 	done

@@ -137,8 +137,9 @@ EcruteakCityLass1Text:
 
 
 EcruteakCityHexManiacText:
-	text "Geister von #mon"
-	line "spuken hier…"
+	text "Geister von"
+	line "#mon spuken"
+	cont "hier…"
 	done
 
 EcruteakCitySightseerMText:
@@ -269,8 +270,9 @@ EcruteakGymSign:
 EcruteakCityAdvancedTips:
 	text "Profi-Tipps!"
 
-	para "Manche #mon, die"
-	line "du triffst, haben"
+	para "Manche #mon,"
+	line "die du triffst,"
+	cont "haben"
 
 	para "eine seltene"
 	line "Fähigkeit, auch"

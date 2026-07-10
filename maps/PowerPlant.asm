@@ -242,7 +242,8 @@ PowerPlantTutorZapCannonScript:
 	jumpthisopenedtext
 
 	text "Jetzt kennt dein"
-	line "#mon Zap Cannon!"
+	line "#mon Zap"
+	cont "Cannon!"
 
 	para "Wahahah!"
 	done

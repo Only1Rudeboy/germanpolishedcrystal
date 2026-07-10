@@ -33,8 +33,8 @@ PokemonJournalKurtScript:
 
 	para "wenn er"
 
-	para "#Bälle fertigt —"
-	line "außer seiner"
+	para "#Bälle fertigt"
+	line "— außer seiner"
 
 	para "Enkelin Maizie."
 	done

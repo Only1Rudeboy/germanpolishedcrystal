@@ -207,7 +207,8 @@ CeladonGameCornerPokemonVendor:
 CeladonGameCornerPrizeRoomGentlemanText:
 	text "Ich wollte"
 	line "Porygon, doch mir"
-	cont "fehlten 100 Münzen…"
+	cont "fehlten 100"
+	cont "Münzen…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:

@@ -666,10 +666,10 @@ Route34LyraGoodWorkText:
 	text "Lyra: Gut"
 	line "gemacht, Opa!"
 
-	para "Die #mon, die du"
-	line "für mich aufge-"
-	cont "zogen hast, sind"
-	cont "topfit!"
+	para "Die #mon,"
+	line "die du für mich"
+	cont "aufgezogen hast,"
+	cont "sind topfit!"
 
 	para "Du siehst auch"
 	line "fit aus!"
@@ -685,8 +685,8 @@ Route34LyraIntroductionText:
 	line "mein Freund!"
 
 	para "<PLAYER> kann"
-	line "#mon ziemlich gut"
-	cont "aufziehen."
+	line "#mon ziemlich"
+	cont "gut aufziehen."
 
 	para "Na ja, nicht so"
 	line "gut wie du,"

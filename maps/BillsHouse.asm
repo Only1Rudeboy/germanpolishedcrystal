@@ -119,8 +119,9 @@ BillsHouseBillScript:
 	line "Legenden, gegen"
 	cont "die du kämpftest,"
 
-	para "mit meinen eigenen"
-	line "#mon vergleichen!"
+	para "mit meinen"
+	line "eigenen #mon"
+	cont "vergleichen!"
 	done
 
 .BeatenText:

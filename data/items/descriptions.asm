@@ -308,8 +308,8 @@ ExpCandyDescriptions:
 	assert_table_length NUM_CANDIES
 
 PokeBallDesc:
-	text "Ein Ball zum"
-	next "Fangen von #mon."
+	text "Ein Ball, um"
+	next "#mon zu fangen."
 	done
 
 GreatBallDesc:
@@ -675,8 +675,8 @@ PokeDollDesc:
 	done
 
 AbilityCapDesc:
-	text "Wechselt Fähig-"
-	next "keit eines #mon."
+	text "Wechselt Fähigk-"
+	next "eit eines #mon."
 	done
 
 LeafStoneDesc:
@@ -764,28 +764,28 @@ PomegBerryDesc:
 	done
 
 KelpsyBerryDesc:
-	text "Erhöht Freund-"
-	next "schaft, senkt Angr."
+	text "Erhöht Freunds-"
+	next "chaft, senkt Angr."
 	done
 
 QualotBerryDesc:
-	text "Erhöht Freund-"
-	next "schaft, senkt Vert."
+	text "Erhöht Freunds-"
+	next "chaft, senkt Vert."
 	done
 
 HondewBerryDesc:
-	text "Erhöht Freund-"
-	next "schaft, senkt SpAng"
+	text "Erhöht Freunds-"
+	next "chaft, senkt SpAng"
 	done
 
 GrepaBerryDesc:
-	text "Erhöht Freund-"
-	next "schaft, senkt SpVer"
+	text "Erhöht Freunds-"
+	next "chaft, senkt SpVer"
 	done
 
 TamatoBerryDesc:
-	text "Erhöht Freund-"
-	next "schaft, senkt Tempo"
+	text "Erhöht Freunds-"
+	next "chaft, senkt Tempo"
 	done
 
 LiechiBerryDesc:
@@ -1121,8 +1121,8 @@ ShellBellDesc:
 	done
 
 SootheBellDesc:
-	text "Beruhigt und"
-	next "stärkt Freundschft."
+	text "Beruhigt, stärkt"
+	next "Freundschaft."
 	done
 
 WeakPolicyDesc:
@@ -1282,7 +1282,7 @@ DubiousDiscDesc:
 
 ProtectorDesc:
 	text "Ein schützendes"
-	next "Item. Steif, schwer"
+	next "Item. Hart, schwer"
 	done
 
 ElectirizerDesc:
@@ -1296,8 +1296,8 @@ MagmarizerDesc:
 	done
 
 OvalStoneDesc:
-	text "Ein Stein, rund"
-	next "wie ein #mon-Ei."
+	text "Ein Stein in"
+	next "#mon-Ei-Form."
 	done
 
 OddSouvenirDesc:
@@ -1382,7 +1382,7 @@ BrickPieceDesc:
 
 RareBoneDesc:
 	text "Ein seltener"
-	next "Knochen. Wert hoch."
+	next "Knochen, wertvoll."
 	done
 
 SlowpokeTailDesc:
@@ -1523,12 +1523,12 @@ LoadedDiceDesc:
 
 BicycleDesc:
 	text "Ein faltbares Rad"
-	next "für schnelle Fahrt."
+	next "für rasche Fahrt."
 	done
 
 OldRodDesc:
-	text "Am Wasser nutzen,"
-	next "um #mon zu angeln."
+	text "Zum Angeln von"
+	next "#mon im Wasser."
 	done
 
 GoodRodDesc:
@@ -1558,7 +1558,7 @@ MysteryEggDesc:
 
 SquirtBottleDesc:
 	text "Eine Flasche zum"
-	next "Gießen von Pflanzn."
+	next "Pflanzengießen."
 	done
 
 GoGogglesDesc:
@@ -1567,8 +1567,8 @@ GoGogglesDesc:
 	done
 
 SecretPotionDesc:
-	text "Heilt jedes #mon"
-	next "vollständig."
+	text "Heilt jedes"
+	next "#mon voll."
 	done
 
 RedScaleDesc:
@@ -1601,8 +1601,8 @@ MachinePartDesc:
 	done
 
 LostItemDesc:
-	text "Die #-Puppe, ver-"
-	next "loren vom Kopierer."
+	text "Die #-Puppe von"
+	next "der Nachahmerin."
 	done
 
 RainbowWingDesc:
@@ -1637,13 +1637,13 @@ BlueCardDesc:
 
 OrangeTicketDesc:
 MysticTicketDesc:
-	text "Ein Ticket für"
-	next "die Seagallo-Fähre."
+	text "Ein Ticket für die"
+	next "Seagallo-Fähre."
 	done
 
 OldSeaMapDesc:
 	text "Eine alte Seekarte"
-	next "einer kleinen Insel"
+	next "der kleinen Insel."
 	done
 
 HarshLureDesc:
@@ -1668,7 +1668,7 @@ LiftKeyDesc:
 
 ShinyCharmDesc:
 	text "Ein Talisman für"
-	next "schillernde #mon."
+	next "glänzende #mon."
 	done
 
 OvalCharmDesc:
@@ -1677,8 +1677,8 @@ OvalCharmDesc:
 	done
 
 CatchCharmDesc:
-	text "Ein Talisman zum"
-	next "Fangen von #mon."
+	text "Ein Talisman, um"
+	next "#mon zu fangen."
 	done
 
 SilphScope2Desc:

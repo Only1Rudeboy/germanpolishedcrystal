@@ -148,8 +148,9 @@ CeladonUniversityClassroom1AndyText:
 	line "Prof.Andy und"
 	cont "liebe Kunst!"
 
-	para "Denk dran: Zeichne,"
-	line "was du siehst,"
+	para "Denk dran:"
+	line "Zeichne, was du"
+	cont "siehst,"
 
 	para "nicht was du zu"
 	line "sehen glaubst."
@@ -178,7 +179,8 @@ CeladonUniversityClassroom1LadyText:
 CeladonUniversityClassroom1Artist1Text:
 	text "Die Falten dieses"
 	line "Umhangs richtig zu"
-	cont "treffen ist schwer."
+	cont "treffen ist"
+	cont "schwer."
 	done
 
 CeladonUniversityClassroom1Artist2Text:

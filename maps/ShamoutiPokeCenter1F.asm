@@ -141,7 +141,8 @@ ShamoutiPokeCenter1FIvyScript:
 	cont "#mon."
 
 	para "Wusstest du, dass"
-	line "manche wilde #mon"
+	line "manche wilde"
+	cont "#mon"
 
 	para "Attacken kennen,"
 	line "die nur in ihrem"

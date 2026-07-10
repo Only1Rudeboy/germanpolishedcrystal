@@ -26,8 +26,8 @@ SaffronOrreSpeechHouseSilphEmployeeText:
 	cont "auf Menschen zu"
 	cont "zwingen."
 
-	para "Wie kann man #mon"
-	line "so etwas"
+	para "Wie kann man"
+	line "#mon so etwas"
 	cont "Schreckliches"
 	cont "antun?!"
 	done

@@ -121,8 +121,9 @@ Route45Dragon_tamerScript:
 	line "Zeit für ein"
 	cont "Duell:"
 
-	para "deine #mon gegen"
-	line "meine Drachen."
+	para "deine #mon"
+	line "gegen meine"
+	cont "Drachen."
 
 	para "Sollen wir jetzt"
 	line "anfangen?"
@@ -147,8 +148,8 @@ Route45Dragon_tamerScript:
 
 .BeatenText:
 	text "Wie mächtig!"
-	line "Meine #mon waren"
-	cont "dir nicht"
+	line "Meine #mon"
+	cont "waren dir nicht"
 	cont "gewachsen."
 	done
 

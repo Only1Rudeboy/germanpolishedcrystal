@@ -42,8 +42,9 @@ JudgeMachine:
 	jmp PrintText
 
 NewsMachineOffText:
-	text "Das ist die #mon-"
-	line "Bewertungs-"
+	text "Das ist die"
+	line "#mon-"
+	cont "Bewertungs-"
 	cont "maschine!"
 
 	para "Sie ist noch"
@@ -51,8 +52,9 @@ NewsMachineOffText:
 	done
 
 NewsMachineIntroText:
-	text "Das ist die #mon-"
-	line "Bewertungs-"
+	text "Das ist die"
+	line "#mon-"
+	cont "Bewertungs-"
 	cont "maschine!"
 
 	para "Soll ich die"

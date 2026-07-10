@@ -238,9 +238,10 @@ OakLabGiveStarterText:
 	line "#mon gab, mach"
 	cont "ich dasselbe!"
 
-	para "Dieses #mon sieht"
-	line "man in KANTO und"
-	cont "JOHTO selten."
+	para "Dieses #mon"
+	line "sieht man in"
+	cont "KANTO und JOHTO"
+	cont "selten."
 	done
 
 OakLabPartyAndBoxFullText:

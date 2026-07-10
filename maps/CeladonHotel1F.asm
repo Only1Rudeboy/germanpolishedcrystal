@@ -58,8 +58,9 @@ CeladonHotel1FLadyText:
 	line "erste Reise nach"
 	cont "Kanto."
 
-	para "Es gibt so viel zu"
-	line "sehen in Prismania!"
+	para "Es gibt so viel"
+	line "zu sehen in"
+	cont "Prismania!"
 	done
 
 CeladonHotel1FCooltrainerFText:

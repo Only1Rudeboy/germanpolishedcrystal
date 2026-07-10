@@ -87,8 +87,9 @@ CherrygrovePokeCenter1FGentlemanText:
 	cont "gung."
 	done
 CherrygrovePokeCenter1FLadyText:
-	text "Das #mon Journal"
-	line "hat so faszinie-"
+	text "Das #mon"
+	line "Journal hat so"
+	cont "faszinie-"
 	cont "rende Storys!"
 
 	para "Ich komme ins"

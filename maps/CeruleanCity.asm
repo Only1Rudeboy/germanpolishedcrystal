@@ -216,7 +216,7 @@ CeruleanCaveGuardText:
 	line "AZURIA-HOEHLE!"
 
 	para "Furchtbar starke"
-	line "#mon leben hier."
+	line "#mon leben hier"
 
 	para "Nur wer alle acht"
 	line "Kanto-Arenen"
