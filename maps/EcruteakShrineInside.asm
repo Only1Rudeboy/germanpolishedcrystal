@@ -176,8 +176,8 @@ EcruteakShrineInsideSageText:
 	cont "zu bekämpfen."
 
 	para "Rei ist besonders."
-	line "Sie setzt Feuer-"
-	cont "und Psycho-#mon"
+	line "Sie setzt Feuerund"
+	cont "Psycho-#mon"
 	cont "ein."
 	done
 

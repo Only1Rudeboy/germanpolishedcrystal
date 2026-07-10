@@ -184,8 +184,8 @@ KantoRadioStationSignText:
 
 	para "Deine"
 	line "Lieblingsprogramme"
-	cont "zu jeder Tages-"
-	cont "und Nachtzeit!"
+	cont "zu jeder Tagesund"
+	cont "Nachtzeit!"
 	done
 
 

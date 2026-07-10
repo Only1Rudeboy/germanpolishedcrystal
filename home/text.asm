@@ -949,5 +949,6 @@ CheckTerminatorChar:
 	ret z
 	cp '<DONE>'
 	ret z
+
 	cp '<PROMPT>'
 	ret
