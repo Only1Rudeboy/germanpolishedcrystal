@@ -197,8 +197,7 @@ PlateauRivalBattleTrigger2:
 PlateauRivalText1:
 	text "Moment noch!"
 
-	para "Akzeptierst du"
-	line "die"
+	para "Akzeptierst du die"
 	line "Herausforderung"
 
 	para "der #mon LIGA?"
@@ -206,9 +205,9 @@ PlateauRivalText1:
 	cont "passieren."
 
 	para "Meine perfekt"
-	line "trainierten #-"
-	cont "MON werden dich"
-	cont "zermalmen."
+	line "trainierten"
+	cont "#mon werden"
+	cont "dich zermalmen."
 
 	para "<PLAYER>!"
 
@@ -223,8 +222,7 @@ PlateauRivalText1:
 
 
 PlateauRivalWinText:
-	text "…"
-	line "O.K. - Ich habe"
+	text "… O.K. - Ich habe"
 
 	para "verloren…"
 	done
@@ -236,17 +234,15 @@ PlateauRivalWinText:
 
 
 PlateauRivalText2:
-	text "…Mist… Ich"
-	line "kann nicht"
-	cont "gewinnen…"
+	text "…Mist… Ich kann"
+	line "nicht gewinnen…"
 
-	para "Ich… ich muss"
-	line "mich"
+	para "Ich… ich muss mich"
 	line "mehr um meine"
 	cont "#mon kümmern…"
 
-	para "Versuche, nicht"
-	line "zu verlieren!"
+	para "Versuche, nicht zu"
+	line "verlieren!"
 	done
 
 
@@ -258,12 +254,10 @@ PlateauRivalText2:
 PlateauRivalLoseText:
 	text "…"
 
-	para "Wow…"
-	line "Mit meinen"
+	para "Wow… Mit meinen"
 
-	para "Partnern werde"
-	line "ich der CHAMP"
-	cont "sein!"
+	para "Partnern werde ich"
+	line "der CHAMP sein!"
 	done
 
 
@@ -281,25 +275,22 @@ PlateauLyraText1:
 	para "habe Orden"
 	line "gesammelt und"
 
-	para "mich immer"
-	line "weiter"
-	cont "verbessert."
+	para "mich immer weiter"
+	line "verbessert."
 
-	para "Das kennst du"
-	line "doch auch,"
-	cont "<PLAYER>."
+	para "Das kennst du doch"
+	line "auch, <PLAYER>."
 
 	para "Und jetzt…"
 
 	para "bin ich hier am"
 	line "Indigo-Plateau."
 
-	para "Weißt du, was"
-	line "das bedeutet?"
+	para "Weißt du, was das"
+	line "bedeutet?"
 
 	para "Ich darf dich"
-	line "fordern, nicht"
-	cont "nur"
+	line "fordern, nicht nur"
 	cont "als Freundin,"
 	done
 
@@ -310,9 +301,8 @@ PlateauLyraText2:
 	done
 
 PlateauLyraWinText:
-	text "Du bist immer"
-	line "noch stärker als"
-	cont "ich…"
+	text "Du bist immer noch"
+	line "stärker als ich…"
 	done
 
 PlateauLyraLoseText:
@@ -322,27 +312,25 @@ PlateauLyraLoseText:
 
 PlateauLyraText3:
 	text "Ich bin nicht"
-	line "sauer,"
-	line "dass ich verloren"
-	cont "habe."
+	line "sauer, dass ich"
+	cont "verloren habe."
 
 	para "Ich konnte Johto"
 	line "erkunden, neue"
-	cont "Leute"
-	cont "treffen, meine"
+	cont "Leute treffen,"
+	cont "meine"
 
 	para "#mon stärker"
 	line "machen, als ich"
 
-	para "gedacht hätte,"
-	line "sie"
+	para "gedacht hätte, sie"
 	line "werden könnten…"
 
 	para "Und ich konnte"
 	line "gegen dich"
 
-	para "kämpfen und"
-	line "alles geben."
+	para "kämpfen und alles"
+	line "geben."
 
 	para "Du hast mich"
 	line "besiegt."
@@ -373,12 +361,12 @@ PokemonJournalGiovanniScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Boss Giovanni!"
+	para "Spezial: Boss"
+	line "Giovanni!"
 
 	para "Bei der"
-	line "Durchsuchung"
-	cont "der verlassenen"
+	line "Durchsuchung der"
+	cont "verlassenen"
 	cont "#mon-ARENA in"
 	cont "VERTANIA CITY"
 
@@ -387,9 +375,8 @@ PokemonJournalGiovanniScript:
 	cont "Giovanni,"
 
 	para "der Arenaleiter,"
-	line "auch der Boss"
-	cont "von TEAM ROCKET"
-	cont "war."
+	line "auch der Boss von"
+	cont "TEAM ROCKET war."
 	done
 
 IndigoPlateauYellowScript:
@@ -443,14 +430,14 @@ IndigoPlateauYellowScript:
 	end
 
 .PartyAndBoxFullText:
-	text "Yellow: Ach…"
-	line "Du kannst kein"
+	text "Yellow: Ach… Du"
+	line "kannst kein"
 
 	para "weiteres #mon"
 	line "bei dir tragen…"
 
-	para "Und deine Box"
-	line "ist auch voll…"
+	para "Und deine Box ist"
+	line "auch voll…"
 	done
 
 .GreetingText:
@@ -458,21 +445,19 @@ IndigoPlateauYellowScript:
 	line "<PLAYER>!"
 
 	para "Ich hab mir den"
-	line "Kampf der"
-	line "TOP VIER"
+	line "Kampf der TOP VIER"
 	cont "angesehen."
 
 	para "Sie sind so"
-	line "intens…"
-	line "Und sie haben"
-	cont "so starke"
+	line "intens… Und sie"
+	cont "haben so starke"
 
-	para "Bindungen zu"
-	line "ihren #mon…"
+	para "Bindungen zu ihren"
+	line "#mon…"
 
 	para "Eines Tages"
-	line "erreiche ich"
-	cont "ihr Niveau."
+	line "erreiche ich ihr"
+	cont "Niveau."
 	done
 
 .QuestionText:
@@ -487,8 +472,8 @@ IndigoPlateauYellowScript:
 	cont "aufziehen kann,"
 	cont "und ich will"
 
-	para "es nicht im"
-	line "PC lassen."
+	para "es nicht im PC"
+	line "lassen."
 
 	para "Nimmst du es,"
 	line "bitte?"
@@ -496,14 +481,14 @@ IndigoPlateauYellowScript:
 
 .GiveStarterText:
 	text "Yellow: Danke,"
-	line "<PLAYER>! Hier"
-	cont "ist es!"
+	line "<PLAYER>! Hier ist"
+	cont "es!"
 	done
 
 .RefusedText:
-	text "Yellow: Ach…"
-	line "Aber was ist mit"
-	cont "dem #mon?"
+	text "Yellow: Ach… Aber"
+	line "was ist mit dem"
+	cont "#mon?"
 	done
 
 .GoodbyeText:
@@ -512,8 +497,7 @@ IndigoPlateauYellowScript:
 
 	para ""
 	text_ram wStringBuffer3
-	text ","
-	line "<PLAYER>!"
+	text ", <PLAYER>!"
 
 	para "Ich hoffe, wir"
 	line "sehen uns wieder."
@@ -550,27 +534,24 @@ IndigoPlateauTeleportGuyScript:
 	line "wirklich bereit?"
 
 	para "Wenn du mehr"
-	line "trainieren"
-	cont "willst,"
+	line "trainieren willst,"
 
-	para "kann dir mein"
-	line "ABRA helfen."
+	para "kann dir mein ABRA"
+	line "helfen."
 
-	para "Es kann dich"
-	line "nach Hause"
+	para "Es kann dich nach"
+	line "Hause"
 	cont "TELEPORTIEREN."
 
 	para "Möchtest du jetzt"
 	line "nach Hause?"
 	done
 .YesText:
-	text "O.K. Stell"
-	line "dir dein Haus"
-	cont "vor…"
+	text "O.K. Stell dir"
+	line "dein Haus vor…"
 	done
 .NoText:
-	text "O.K. Alles"
-	line "Gute!"
+	text "O.K. Alles Gute!"
 	done
 IndigoPlateauAbraText:
 	text "ABRA: Aabra…"

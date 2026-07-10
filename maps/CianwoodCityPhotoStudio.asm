@@ -64,17 +64,16 @@ CianwoodPhotoStudioFishingGuruScript:
 	jumpthisopenedtext
 
 	text "Ein Ei? Mein"
-	line "Talent"
-	line "ist mehr wert…"
+	line "Talent ist mehr"
+	cont "wert…"
 	done
 
 PhotoStudioGreetingText:
 	text "Ich bin Cameron"
 	line "der Fotograf."
 
-	para "Du hast wunder-"
-	line "bare #mon bei"
-	cont "dir."
+	para "Du hast wunderbare"
+	line "#mon bei dir."
 
 	para "Wie wäre es mit"
 	line "einem Foto als"
@@ -86,8 +85,8 @@ PhotoStudioWhichMonText:
 	line "Lächeln!"
 
 	para "Welches #mon"
-	line "soll ich foto-"
-	cont "grafieren?"
+	line "soll ich"
+	cont "fotografieren?"
 	done
 
 PhotoStudioHoldStillText:
@@ -105,8 +104,7 @@ PhotoStudioPrestoText:
 	done
 
 PhotoStudioAlreadyDoneText:
-	text "Ich habe dir"
-	line "heute"
+	text "Ich habe dir heute"
 	line "schon ein Foto"
 	cont "gemacht."
 
@@ -119,6 +117,5 @@ PhotoStudioRefusedText:
 	line "dachte, das wäre"
 
 	para "ein schönes"
-	line "Anden-"
-	line "ken…"
+	line "Andenken…"
 	done

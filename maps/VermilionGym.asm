@@ -99,8 +99,7 @@ GenericTrainerGentlemanGregory:
 	generictrainer GENTLEMAN, GREGORY, EVENT_BEAT_GENTLEMAN_GREGORY, GentlemanGregorySeenText, GentlemanGregoryBeatenText
 
 	text "Als ich noch bei"
-	line "der Armee war,"
-	cont "hat"
+	line "der Armee war, hat"
 
 	para "MAJOR BOB mein"
 	line "Leben gerettet."
@@ -108,8 +107,8 @@ GenericTrainerGentlemanGregory:
 GenericTrainerGuitaristmVincent:
 	generictrainer GUITARISTM, VINCENT, EVENT_BEAT_GUITARISTM_VINCENT, GuitaristmVincentSeenText, GuitaristmVincentBeatenText
 
-	text "MAJOR BOB ist"
-	line "von Stromzäunen"
+	text "MAJOR BOB ist von"
+	line "Stromzäunen"
 	cont "geschützt,"
 
 	para "damit du seine"
@@ -121,8 +120,7 @@ GenericTrainerJugglerHorton:
 	generictrainer JUGGLER, HORTON, EVENT_BEAT_JUGGLER_HORTON, JugglerHortonSeenText, JugglerHortonBeatenText
 
 	text "Lass dir den Sieg"
-	line "über mich nicht"
-	cont "zu"
+	line "über mich nicht zu"
 
 	para "Kopf steigen…"
 	line "MAJOR BOB ist"
@@ -134,9 +132,8 @@ GenericTrainerGuitaristfJanet:
 	text "MAJOR BOB hat"
 	line "beide Schalter"
 
-	para "für die Strom-"
-	line "zäune im Müll"
-	cont "versteckt."
+	para "für die Stromzäune"
+	line "im Müll versteckt."
 	done
 
 VermilionGymGuyScript:
@@ -147,8 +144,8 @@ VermilionGymGuyScript:
 	text "Yo! Zukünftiger"
 	line "Champ!"
 
-	para "MAJOR BOB ist"
-	line "sehr vorsichtig."
+	para "MAJOR BOB ist sehr"
+	line "vorsichtig."
 
 	para "Er hat"
 
@@ -161,8 +158,8 @@ VermilionGymGuyScript:
 	cont "vertraut!"
 
 	para "Du kommst ohne"
-	line "Probleme zu"
-	cont "MAJOR BOB."
+	line "Probleme zu MAJOR"
+	cont "BOB."
 	done
 
 VermilionGymTrashCanScript:
@@ -217,17 +214,16 @@ VermilionGymStatue:
 	jumpstd gymstatue2
 
 LtSurgeIntroText:
-	text "MAJOR BOB: Heh,"
-	line "du"
+	text "MAJOR BOB: Heh, du"
 	line "Windelpupser!"
 
 	para "Das muss ich dir"
 	line "lassen. Es ist"
 
 	para "nicht sehr weise,"
-	line "mich herauszufor-"
-	cont "dern, aber es ist"
-	cont "mutig!"
+	line "mich"
+	cont "herauszufordern,"
+	cont "aber es ist mutig!"
 
 	para "Wenn es um"
 	line "Elektro-#mon"
@@ -252,8 +248,7 @@ LtSurgeIntroText:
 
 
 LtSurgeWinLossText:
-	text "MAJOR BOB:"
-	line "Arrrgh!"
+	text "MAJOR BOB: Arrrgh!"
 	line "Du bist stark!"
 
 	para "O.K., Wicht. Du"
@@ -267,8 +262,7 @@ LtSurgeWinLossText:
 
 LtSurgeThunderBadgeText:
 	text "MAJOR BOB: Der"
-	line "DONNERORDEN"
-	cont "erhöht"
+	line "DONNERORDEN erhöht"
 
 	para "den INIT-Wert"
 	line "deiner #mon."
@@ -286,8 +280,8 @@ LtSurgeThunderBadgeText:
 
 LtSurgeFightDoneText:
 	text "MAJOR BOB: Zwerg!"
-	line "Immer noch bei"
-	cont "der Sache?"
+	line "Immer noch bei der"
+	cont "Sache?"
 
 	para "Meine #mon und"
 	line "ich sind noch"
@@ -321,8 +315,7 @@ GentlemanGregoryBeatenText:
 
 
 GuitaristmVincentSeenText:
-	text "MAJOR BOB hat"
-	line "mein"
+	text "MAJOR BOB hat mein"
 	line "Talent für"
 
 	para "Elektro-#mon"
@@ -339,8 +332,7 @@ GuitaristmVincentBeatenText:
 JugglerHortonSeenText:
 	text "Ich werde dich"
 	line "fertig machen! Du"
-	cont "wirst gleich"
-	cont "einen"
+	cont "wirst gleich einen"
 	cont "Schlag bekommen!"
 	done
 
@@ -379,8 +371,7 @@ VermilionGymGuyWinText:
 	done
 VermilionGymFoundSwitchText:
 	text "Ein geheimer"
-	line "Schalter unter"
-	cont "dem"
+	line "Schalter unter dem"
 	cont "Müll?"
 
 	para "Besser drücken."
@@ -388,30 +379,28 @@ VermilionGymFoundSwitchText:
 
 VermilionGymFoundFirstSwitchText:
 	text "Der erste"
-	line "Elektro-"
-	line "zaun ist offen!"
+	line "Elektrozaun ist"
+	cont "offen!"
 	done
 
 VermilionGymFoundSecondSwitchText:
 	text "Der zweite"
 	line "Elektrozaun"
 
-	para "ist offen! Der"
-	line "Weg"
+	para "ist offen! Der Weg"
 	line "ist frei!"
 	done
 
 VermilionGymResetSwitchesText:
 	text "Ach nein, der"
-	line "Elek-"
-	line "trozaun hat sich"
-	cont "wieder"
+	line "Elektrozaun hat"
+	cont "sich wieder"
 	cont "geschlossen!"
 	done
 
 VermilionGymTrashCanText:
-	text "Nein! Hier ist"
-	line "nur Müll."
+	text "Nein! Hier ist nur"
+	line "Müll."
 	done
 
 
@@ -419,8 +408,7 @@ VermilionGymTrashCanText:
 
 
 VermilionGymElectricFenceText:
-	text "Ein Elektro-"
-	line "zaun!"
+	text "Ein Elektrozaun!"
 
 	para "Finger weg!"
 	done

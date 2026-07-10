@@ -20,21 +20,18 @@ ElmsHouse_MapScriptHeader:
 
 ElmsWifeText:
 	text "Hallo, <PLAYER>!"
-	line "Mein"
-	line "Mann ist immer"
-	cont "so"
+	line "Mein Mann ist"
+	cont "immer so"
 
 	para "beschäftigt. Ich"
-	line "hoffe, es geht"
-	cont "ihm"
+	line "hoffe, es geht ihm"
 	cont "gut."
 
 	para "Wenn er sich in"
 	line "seine #mon-"
-	cont "Forschungen ver-"
-	cont "tieft, vergisst"
-	cont "er"
-	cont "sogar zu essen."
+	cont "Forschungen"
+	cont "vertieft, vergisst"
+	cont "er sogar zu essen."
 	done
 
 
@@ -42,14 +39,13 @@ ElmsWifeText:
 
 
 ElmsSonText:
-	text "Wenn ich groß"
-	line "bin,"
+	text "Wenn ich groß bin,"
 	line "helfe ich meinem"
 	cont "Papa!"
 
 	para "Ich werde ein"
-	line "großartiger #-"
-	cont "MON-Professor!"
+	line "großartiger"
+	cont "#mon-Professor!"
 	done
 
 
@@ -58,10 +54,8 @@ ElmsSonText:
 
 
 ElmsHouseLabFoodText: ; unreferenced
-	text "Hier ist etwas"
-	line "zu"
-	line "essen. Es muss"
-	cont "für"
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
 	cont "das LABOR sein."
 	done
 
@@ -71,10 +65,8 @@ ElmsHouseLabFoodText: ; unreferenced
 
 
 ElmsHousePokemonFoodText: ; unreferenced
-	text "Hier ist etwas"
-	line "zu"
-	line "essen. Es muss"
-	cont "für"
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
 	cont "die #mon sein."
 	done
 
@@ -83,10 +75,8 @@ ElmsHousePokemonFoodText: ; unreferenced
 
 
 ElmsHouseFridgeText:
-	text "Hier ist etwas"
-	line "zu"
-	line "essen. Es muss"
-	cont "für"
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
 	cont "die #mon sein."
 	done
 
@@ -96,25 +86,22 @@ ElmsHousePCText:
 
 	para "Wohin gehen sie?"
 
-	para "Warum war noch"
-	line "nie"
+	para "Warum war noch nie"
 	line "jemand Zeuge der"
 	cont "Geburt eines"
 	cont "#mon?"
 
-	para "Ich will es wis-"
-	line "sen. Ich werde"
+	para "Ich will es"
+	line "wissen. Ich werde"
 
-	para "mein Leben in"
-	line "den"
-	line "Dienst der #-"
-	cont "MON-Forschung"
+	para "mein Leben in den"
+	line "Dienst der"
+	cont "#mon-Forschung"
 	cont "stellen!"
 
 	para "…"
 
-	para "Dies ist ein"
-	line "Teil"
+	para "Dies ist ein Teil"
 	line "von PROF. LINDs"
 	cont "Aufzeichnungen."
 	done

@@ -293,8 +293,7 @@ BillsMom:
 	cont "BILL ist ein"
 	cont "Experte."
 
-	para "Er wurde gerade"
-	line "in"
+	para "Er wurde gerade in"
 	line "das #mon-CENTER"
 
 	para "von TEAK CITY"
@@ -303,8 +302,8 @@ BillsMom:
 	para "Mein Mann ging in"
 	line "die SPIELHALLE,"
 
-	para "ohne angerufen"
-	line "zu werden…"
+	para "ohne angerufen zu"
+	line "werden…"
 	done
 BillsSister:
 	faceplayer
@@ -324,14 +323,13 @@ BillsSister:
 .GotBillsNumber:
 	jumpthisopenedtext
 
-	text "Mein großer"
-	line "Bruder BILL hat"
+	text "Mein großer Bruder"
+	line "BILL hat"
 
-	para "das #-"
-	line "mon-Lagerungs-"
+	para "das"
+	line "#mon-Lagerungs-"
 
-	para "System"
-	line "erfunden."
+	para "System erfunden."
 	done
 
 .NoRoom:
@@ -352,8 +350,7 @@ BillsSister:
 
 BillsGrandpaIntroText:
 	text "Hm? Kennst du"
-	line "BILL?"
-	line "Er ist mein"
+	line "BILL? Er ist mein"
 	cont "Enkel."
 
 	para "Er ist in Kanto."
@@ -386,8 +383,8 @@ BillsGrandpaShownPokemonText:
 	para "Ist es nicht"
 	line "niedlich!"
 
-	para "Das ist aber"
-	line "lieb von dir!"
+	para "Das ist aber lieb"
+	line "von dir!"
 	done
 
 BillsGrandpaTokenOfAppreciationText:
@@ -398,24 +395,19 @@ BillsGrandpaTokenOfAppreciationText:
 	cont "Anerkennung."
 	done
 BillsGrandpaComeAgainText:
-	text "Besuche mich"
-	line "bitte"
+	text "Besuche mich bitte"
 	line "wieder."
 	done
 BillsGrandpaShownAllThePokemonText:
-	text "Danke, dass du"
-	line "mir"
-	line "so viele"
-	cont "niedliche"
+	text "Danke, dass du mir"
+	line "so viele niedliche"
 	cont "#mon gezeigt"
 	cont "hast."
 
 	para "Ich habe mich"
-	line "wirklich"
-	cont "amüsiert."
+	line "wirklich amüsiert."
 
-	para "Ich bin froh,"
-	line "dass"
+	para "Ich bin froh, dass"
 	line "ich das noch"
 	cont "erleben durfte."
 	done
@@ -424,8 +416,7 @@ BillsGrandpaSnubbullText:
 	line "erzählte mir von"
 
 	para "einem kleinen,"
-	line "rosa"
-	line "hundartigen"
+	line "rosa hundartigen"
 	cont "#mon mit blauen"
 	cont "Tupfen."
 	done
@@ -438,9 +429,8 @@ BillsGrandpaTogepiText:
 	line "roter und blauer"
 	cont "Dreiecke?"
 
-	para "Es soll ein"
-	line "Symbol für"
-	cont "Glück sein."
+	para "Es soll ein Symbol"
+	line "für Glück sein."
 	done
 
 BillsGrandpaMurkrowText:
@@ -455,8 +445,8 @@ BillsGrandpaMurkrowText:
 	para "Ich hörte, es"
 	line "erscheint NACHTs."
 
-	para "Ich würde es"
-	line "gerne sehen."
+	para "Ich würde es gerne"
+	line "sehen."
 	done
 
 BillsGrandpaOddishText:
@@ -465,8 +455,8 @@ BillsGrandpaOddishText:
 
 	para "rundes, blaues"
 	line "#mon mit"
-	cont "Blättern auf"
-	cont "dem Kopf."
+	cont "Blättern auf dem"
+	cont "Kopf."
 	done
 
 BillsGrandpaJigglypuffText:
@@ -498,18 +488,16 @@ BillsGrandpaStaryuText:
 	line "ein Stern!"
 
 	para "Ich hörte, es"
-	line "taucht NACHTs"
-	cont "auf."
+	line "taucht NACHTs auf."
 
-	para "Ich würde es"
-	line "gerne sehen."
+	para "Ich würde es gerne"
+	line "sehen."
 	done
 BillsGrandpaGrowlitheText:
 	text "BILL erzählte mir"
 	line "von einem #mon,"
 
-	para "das seinem"
-	line "Trainer"
+	para "das seinem Trainer"
 	line "gegenüber sehr"
 	cont "loyal ist."
 
@@ -530,24 +518,22 @@ BillsGrandpaPichuText:
 	para "Ich würde gerne"
 	line "sehen, wie es vor"
 
-	para "seiner"
-	line "Entwicklung"
+	para "seiner Entwicklung"
 	line "aussieht."
 	done
 BillsMomText_AfterEcruteak:
 	text "Mein Mann galt"
 	line "früher als"
 
-	para "#Maniac."
-	line "BILL hat wohl"
+	para "#Maniac. BILL"
+	line "hat wohl"
 
-	para "von seinem"
-	line "Vater geerbt."
+	para "von seinem Vater"
+	line "geerbt."
 
-	para "Aber jetzt"
-	line "will mein Mann"
-	line "nicht mehr"
-	cont "arbeiten."
+	para "Aber jetzt will"
+	line "mein Mann nicht"
+	cont "mehr arbeiten."
 
 	para "Er treibt den"
 	line "ganzen Tag nur"
@@ -560,13 +546,12 @@ BillsSisterUsefulNumberText:
 
 	para "Ich habe eine"
 	line "nützliche"
-	cont "Telefonnummer"
-	cont "für dich."
+	cont "Telefonnummer für"
+	cont "dich."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER>"
-	line "speichert"
+	text "<PLAYER> speichert"
 	line "BILLs Nummer."
 	done
 BillsSisterPhoneFullText:

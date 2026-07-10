@@ -17,9 +17,8 @@ Route15FuchsiaGate2F_MapScriptHeader:
 Route15FuchsiaGate2FBinoculars1:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
 	para "Die SAFARI-ZONE"
 	line "sieht üppig aus!"
@@ -28,10 +27,9 @@ Route15FuchsiaGate2FBinoculars1:
 Route15FuchsiaGate2FBinoculars2:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
-	para "Sieht aus wie"
-	line "eine Insel!"
+	para "Sieht aus wie eine"
+	line "Insel!"
 	done

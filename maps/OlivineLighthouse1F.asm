@@ -39,8 +39,7 @@ OlivineLighthouse1FSailorScript:
 	done
 
 .Text1:
-	text "Hier im"
-	line "Leuchtturm"
+	text "Hier im Leuchtturm"
 	line "trainieren alle"
 	cont "hart."
 
@@ -49,12 +48,12 @@ OlivineLighthouse1FSailorScript:
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "Früher haben #-"
-	line "MON nachts die"
+	text "Früher haben"
+	line "#mon nachts die"
 
 	para "Gewässer um"
-	line "OLIVIANA CITY er-"
-	cont "hellt."
+	line "OLIVIANA CITY"
+	cont "erhellt."
 
 	para "Der LEUCHTTURM"
 	line "wurde errichtet,"

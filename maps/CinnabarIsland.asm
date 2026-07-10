@@ -44,8 +44,8 @@ CinnabarIslandBlue:
 	jumpthisopenedtext
 
 	text "Willst du gegen"
-	line "mich kämpfen,"
-	cont "zeig mir"
+	line "mich kämpfen, zeig"
+	cont "mir"
 
 	para "wie viele KANTO-"
 	line "Orden du hast."
@@ -75,19 +75,17 @@ CinnabarIslandBlueText:
 
 	para "Ich heiße BLAU."
 
-	para "Ich war einmal"
-	line "ein"
+	para "Ich war einmal ein"
 	line "CHAMP, wenn auch"
 
 	para "nur für kurze"
 	line "Zeit…"
 
-	para "Dieser nervige"
-	line "ROT"
+	para "Dieser nervige ROT"
 	line "hat mich ganz"
 
-	para "schön fertig-"
-	line "gemacht…"
+	para "schön"
+	line "fertiggemacht…"
 
 	para "Wie dem auch sei,"
 	line "was willst du?"
@@ -101,48 +99,39 @@ CinnabarIslandBlueText:
 	para "habe gar keine"
 	line "Lust zu kämpfen."
 
-	para "Sieh dich gut"
-	line "um…"
+	para "Sieh dich gut um…"
 
 	para "Ein Vulkan bricht"
-	line "aus und"
-	cont "vernichtet"
+	line "aus und vernichtet"
 
 	para "auf einen Schlag"
 	line "eine ganze Stadt."
 
 	para "Wir werden"
-	line "weiter-"
-	line "hin mit unseren"
+	line "weiterhin mit"
+	cont "unseren"
 
 	para "#mon siegen"
 	line "oder verlieren."
 
-	para "Aber wenn sich"
-	line "die"
+	para "Aber wenn sich die"
 	line "Natur erhebt, ist"
-	cont "alles im Nu"
-	cont "dahin."
+	cont "alles im Nu dahin."
 
 	para "…"
 
-	para "So ist das"
-	line "eben…"
+	para "So ist das eben…"
 
 	para "Trotz allem bin"
-	line "ich immer noch"
-	cont "ein"
+	line "ich immer noch ein"
 	cont "Trainer."
 
 	para "Wenn ich einen"
 	line "starken Gegner"
-	cont "treffe, möchte"
-	cont "ich"
-	cont "gegen ihn"
-	cont "kämpfen."
+	cont "treffe, möchte ich"
+	cont "gegen ihn kämpfen."
 
-	para "Wenn du gegen"
-	line "mich"
+	para "Wenn du gegen mich"
 	line "kämpfen möchtest,"
 
 	para "dann besuche die"
@@ -164,13 +153,12 @@ CinnabarIslandBlueBattleText:
 
 CinnabarIslandBlueReadyText:
 	text "Willst du gegen"
-	line "mich kämpfen,"
-	cont "komm in die"
-	cont "Arena von"
+	line "mich kämpfen, komm"
+	cont "in die Arena von"
 	cont "VERTANIA CITY."
 
-	para "Dort nehm ich"
-	line "dich an."
+	para "Dort nehm ich dich"
+	line "an."
 	done
 
 
@@ -179,8 +167,7 @@ CinnabarIslandGymSignText:
 	line "Nachricht…"
 
 	para "Die #mon-ARENA"
-	line "der"
-	line "ZINNOBERINSEL"
+	line "der ZINNOBERINSEL"
 
 	para "wurde auf die"
 	line "SEESCHAUMINSELN"
@@ -207,6 +194,6 @@ CinnabarIslandVolcanoWarningSignText:
 	cont "ist aber aktiv!"
 
 	para "Betritt ihn nicht"
-	line "ohne Flucht-"
-	cont "möglichkeit!"
+	line "ohne"
+	cont "Fluchtmöglichkeit!"
 	done

@@ -52,9 +52,9 @@ ViridianGymBlueScript:
 	setevent EVENT_GOT_TM71_STONE_EDGE
 	jumpthisopenedtext
 
-	text "Er enthält"
-	line "Stone Edge. Nicht"
-	cont "nur für"
+	text "Er enthält Stone"
+	line "Edge. Nicht nur"
+	cont "für"
 
 	para "Gesteins-#mon,"
 	line "verstanden?"
@@ -65,19 +65,17 @@ ViridianGymBlueScript:
 	line "falsch. Du bist"
 
 	para "echt gut. Du bist"
-	line "ein guter"
-	line "Trainer."
+	line "ein guter Trainer."
 
-	para "Mit acht Orden"
-	line "aus Kanto kannst"
+	para "Mit acht Orden aus"
+	line "Kanto kannst"
 
 	para "du die Top Vier"
 	line "wieder"
-	line "herausfordern."
+	cont "herausfordern."
 
 	para "Die gehen nicht"
-	line "leicht mit dir"
-	cont "um,"
+	line "leicht mit dir um,"
 	cont "der zwei Regionen"
 	cont "schlug."
 
@@ -93,10 +91,9 @@ ViridianGymBlueScript:
 
 	para "Ich werde dich"
 	line "eines Tages"
-	line "schlagen."
+	cont "schlagen."
 
-	para "Vergiss das"
-	line "nicht!"
+	para "Vergiss das nicht!"
 	done
 
 ViridianGymGuyScript:
@@ -104,8 +101,8 @@ ViridianGymGuyScript:
 	iftrue_jumptextfaceplayer ViridianGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP"
-	line "in spe!"
+	text "He! Ein CHAMP in"
+	line "spe!"
 
 	para "Wie läuft es so?"
 	line "Du hast wohl"
@@ -121,8 +118,8 @@ ViridianGymGuyScript:
 	para "Das wird kein"
 	line "Kinderspiel!"
 
-	para "Gib alles, was"
-	line "du hast!"
+	para "Gib alles, was du"
+	line "hast!"
 	done
 GenericTrainerAceDuoAraandbela1:
 	generictrainer ACE_DUO, ARAANDBELA1, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela1SeenText, AceDuoAraandbela1BeatenText
@@ -136,9 +133,8 @@ GenericTrainerAceDuoAraandbela2:
 	generictrainer ACE_DUO, ARAANDBELA2, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela2SeenText, AceDuoAraandbela2BeatenText
 
 	text "Bela: Unsere"
-	line "Übungskämpfe"
-	line "haben uns nicht"
-	cont "darauf"
+	line "Übungskämpfe haben"
+	cont "uns nicht darauf"
 	cont "vorbereitet."
 	done
 
@@ -150,16 +146,15 @@ GenericTrainerCooltrainerfSalma:
 	cont "Welt,"
 
 	para "aber diese hier"
-	line "mag ich"
-	cont "besonders!"
+	line "mag ich besonders!"
 	done
 
 GenericTrainerCooltrainerfBonita:
 	generictrainer COOLTRAINERF, BONITA, EVENT_BEAT_COOLTRAINERF_BONITA, CooltrainerfBonitaSeenText, CooltrainerfBonitaBeatenText
 
 	text "Du hast wohl noch"
-	line "einiges an"
-	cont "Energie übrig."
+	line "einiges an Energie"
+	cont "übrig."
 	done
 
 GenericTrainerAceDuoElanandida1:
@@ -177,8 +172,8 @@ GenericTrainerAceDuoElanandida2:
 	line "allein reicht"
 	cont "nicht aus."
 
-	para "Strategie ist"
-	line "auch wichtig!"
+	para "Strategie ist auch"
+	line "wichtig!"
 	done
 
 ViridianGymStatue:
@@ -191,15 +186,13 @@ ViridianGymStatue:
 
 LeaderBlueBeforeText:
 	text "BLAU: He! Hast du"
-	line "es endlich"
-	cont "hierher"
+	line "es endlich hierher"
 	cont "geschafft?"
 
 	para "Auf den ZINNOBER-"
 	line "INSELN war mir"
 
-	para "nicht danach,"
-	line "aber"
+	para "nicht danach, aber"
 	line "jetzt können wir"
 	cont "kämpfen."
 
@@ -213,14 +206,12 @@ LeaderBlueBeforeText:
 	cont "JOHTO besiegt?"
 
 	para "He! Dann müssen"
-	line "die ARENALEITER"
-	cont "in"
+	line "die ARENALEITER in"
 	cont "JOHTO ziemliche"
-	cont "Jammerlappen"
-	cont "sein."
+	cont "Jammerlappen sein."
 
-	para "Aber - nur"
-	line "keine Bange."
+	para "Aber - nur keine"
+	line "Bange."
 
 	para "Ich werde dir"
 	line "sofort sagen, ob"
@@ -244,10 +235,9 @@ LeaderBlueWinText:
 
 	para "…"
 
-	para "Also gut…"
-	line "Hier, nimm das -"
-	cont "es ist der"
-	cont "ERDORDEN."
+	para "Also gut… Hier,"
+	line "nimm das es ist"
+	cont "der ERDORDEN."
 	done
 
 
@@ -260,8 +250,7 @@ LeaderBlueAfterText:
 	line "hatte Unrecht. Du"
 
 	para "bist nicht aus"
-	line "Watte, sondern"
-	cont "ein"
+	line "Watte, sondern ein"
 	cont "guter Trainer."
 
 	para "Aber eines Tages"
@@ -280,10 +269,8 @@ LeaderBlueEpilogueText:
 
 	para "Es bekommt dir"
 	line "besser, nicht zu"
-	cont "verlieren, bis"
-	cont "ich"
-	cont "dich besiegt"
-	cont "habe!"
+	cont "verlieren, bis ich"
+	cont "dich besiegt habe!"
 	cont "Klar?"
 	done
 
@@ -294,8 +281,7 @@ ViridianGymGuyWinText:
 	text "Junge, Junge! Du"
 	line "bist sehr stark…"
 
-	para "Das war"
-	line "vielleicht"
+	para "Das war vielleicht"
 	line "ein erfrischender"
 
 	para "Kampf. Er hat mir"
@@ -327,11 +313,9 @@ AceDuoAraandbela2BeatenText:
 CooltrainerfSalmaSeenText:
 	text "Was meinst du?"
 
-	para "So eine wunder-"
-	line "bare Arena hast"
-	cont "du"
-	cont "noch nie gesehen,"
-	cont "oder?"
+	para "So eine wunderbare"
+	line "Arena hast du noch"
+	cont "nie gesehen, oder?"
 	done
 
 CooltrainerfSalmaBeatenText:
@@ -341,7 +325,7 @@ CooltrainerfSalmaBeatenText:
 CooltrainerfBonitaSeenText:
 	text "Wenn du dich im"
 	line "Raum umsiehst,"
-	line "wird dir doch"
+	cont "wird dir doch"
 
 	para "auch schwindelig,"
 	line "oder?"
@@ -368,15 +352,14 @@ AceDuoElanandida1BeatenText:
 AceDuoElanandida2SeenText:
 	text "Ida: Ich bin Ida!"
 	line "Neben mir ist"
-	line "Elan!"
+	cont "Elan!"
 
-	para "Zusammen sind"
-	line "wir ein"
-	line "Ass-Duo!"
+	para "Zusammen sind wir"
+	line "ein Ass-Duo!"
 	done
 
 AceDuoElanandida2BeatenText:
 	text "Ida: Wow. Du bist"
-	line "echt etwas Beson-"
-	cont "deres."
+	line "echt etwas"
+	cont "Besonderes."
 	done

@@ -225,21 +225,19 @@ SeagallopFerryVermilionGateSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryWelcomeText:
-	text "Willkommen an"
-	line "Bord"
+	text "Willkommen an Bord"
 	line "der"
 	cont "Seagallop-Fähre!"
 	done
 
 SeagallopFerryGiveOrangeTicketText:
 	text "Der Mann, der"
-	line "gerade"
-	line "ging, sagte, er"
+	line "gerade ging,"
+	cont "sagte, er"
 
 	para "braucht dieses"
-	line "Ticket nicht."
-	cont "Du kannst es"
-	cont "haben."
+	line "Ticket nicht. Du"
+	cont "kannst es haben."
 	done
 
 
@@ -256,18 +254,16 @@ SeagallopFerryOrangeTicketQuestionText:
 
 SeagallopFerryMysticTicketQuestionText:
 	text "Ach! Das ist ein"
-	line "MysticTicket!"
-	cont "Das ist selten."
+	line "MysticTicket! Das"
+	cont "ist selten."
 
 	para "Wir bringen dich"
-	line "jederzeit gern"
-	cont "zum"
+	line "jederzeit gern zum"
 	cont "Navel Rock."
 	done
 
 SeagallopFerryOldSeaMapQuestionText:
-	text "Ach! Diese Old"
-	line "Sea"
+	text "Ach! Diese Old Sea"
 	line "Map, die du hast…"
 
 	para "Sie zeigt eine"

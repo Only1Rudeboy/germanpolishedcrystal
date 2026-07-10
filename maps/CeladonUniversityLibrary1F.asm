@@ -55,17 +55,16 @@ CeladonUniversityLibrary1FGentlemanText:
 	done
 
 CeladonUniversityLibrary1FCooltrainerfText:
-	text "Prof.Lind hat"
-	line "hier"
+	text "Prof.Lind hat hier"
 	line "früher gelehrt,"
 
 	para "deshalb hat die"
 	line "Bibliothek alle"
 	cont "seine Artikel."
 
-	para "Ich habe jeden"
-	line "von Anfang bis"
-	cont "Ende gelesen!"
+	para "Ich habe jeden von"
+	line "Anfang bis Ende"
+	cont "gelesen!"
 	done
 
 CeladonUniversityLibrary1FGameboyKidScript:
@@ -77,16 +76,14 @@ CeladonUniversityLibrary1FGameboyKidScript:
 	text "Mein #dex hat"
 	line "ein Spiel-Upgrade."
 
-	para "Ich spiele"
-	line "Tetris!"
+	para "Ich spiele Tetris!"
 	done
 
 CeladonUniversityLibrary1FPokefan_fText:
 	text "Wir haben eine"
 	line "Leihvereinbarung"
 
-	para "mit der"
-	line "Bibliothek"
+	para "mit der Bibliothek"
 	line "von Fleetburg in"
 	cont "Sinnoh."
 	done
@@ -104,12 +101,10 @@ CeladonUniversityLibrary1FCooltrainermScript:
 	jumpopenedtext .Text2
 
 .Text1:
-	text "Ich habe bald"
-	line "eine"
+	text "Ich habe bald eine"
 	line "große Prüfung,"
 
-	para "deshalb bleibe"
-	line "ich"
+	para "deshalb bleibe ich"
 	line "hier eine Weile."
 
 	para "Ich muss nur"
@@ -153,10 +148,8 @@ CeladonUniversityLibrary1FBookText:
 	done
 
 CeladonUniversityLibrary1FSignpost1Text:
-	text "Bitte die"
-	line "lesenden"
-	line "Studierenden"
-	cont "nicht"
+	text "Bitte die lesenden"
+	line "Studierenden nicht"
 	cont "stören."
 	done
 
@@ -174,8 +167,7 @@ CeladonUniversityLibrary1FBookshelf1Text:
 	cont "dieses Buch"
 	cont "gelegt."
 
-	para "Erika und ein"
-	line "Mann"
+	para "Erika und ein Mann"
 	line "mit sanftem"
 	cont "Lächeln"
 
@@ -196,8 +188,8 @@ CeladonUniversityLibrary1FBookshelf2Text:
 
 CeladonUniversityLibrary1FBookshelf3Text:
 	text "Ein Buch über"
-	line "einen"
-	line "Mann, der seinem"
+	line "einen Mann, der"
+	cont "seinem"
 
 	para "#mon ein"
 	line "Instrument"
@@ -212,8 +204,7 @@ CeladonUniversityLibrary1FBookshelf4Text:
 	line "#mon-"
 	cont "Palindrome."
 
-	para "Auf dem Cover"
-	line "sind"
+	para "Auf dem Cover sind"
 	line "Evoli und"
 	cont "Girafarig."
 	done
@@ -226,13 +217,11 @@ CeladonUniversityLibrary1FBookshelf5Text:
 	line "Wunderschlüssel"
 	cont "lebendig werden."
 
-	para "Sie sehen süß"
-	line "aus."
+	para "Sie sehen süß aus."
 	done
 
 CeladonUniversityLibrary1FBookshelf6Text:
-	text "Ein Buch über"
-	line "eine"
+	text "Ein Buch über eine"
 	line "#mon-"
 	cont "Marionette,"
 
@@ -244,14 +233,12 @@ CeladonUniversityLibrary1FBookshelf6Text:
 	done
 
 CeladonUniversityLibrary1FBookshelf7Text:
-	text "Ein Bu…"
-	line "Moment…"
+	text "Ein Bu… Moment…"
 
 	para "Das ist ein"
 	line "Videospiel!"
 
-	para "Auf der"
-	line "Verpackung"
+	para "Auf der Verpackung"
 	line "ist ein #mon-"
 	cont "Flipper."
 	done
@@ -264,9 +251,8 @@ CeladonUniversityLibrary1FBookshelf8Text:
 	line "Anfänger."
 
 	para "“Chancen und"
-	line "Ruten”"
-	line "steht auf dem"
-	cont "Cover."
+	line "Ruten” steht auf"
+	cont "dem Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf9Text:
@@ -278,7 +264,7 @@ CeladonUniversityLibrary1FBookshelf9Text:
 CeladonUniversityLibrary1FBookshelf10Text:
 	text "Ein Kochbuch"
 	line "voller"
-	line "#mon-Rezepte!"
+	cont "#mon-Rezepte!"
 
 	para "Pummeluff-Gelee,"
 	line "Glumanda-Chutney,"
@@ -292,14 +278,12 @@ CeladonUniversityLibrary1FBookshelf11Text:
 
 	para "Ein berühmter"
 	line "#mon-Züchter"
-	cont "ist auf dem"
-	cont "Cover."
+	cont "ist auf dem Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf12Text:
-	text "“Das geheime"
-	line "Leben"
+	text "“Das geheime Leben"
 	line "des Lachens” von"
-	cont "Joe King."
-	cont "Wortwitz pur!"
+	cont "Joe King. Wortwitz"
+	cont "pur!"
 	done

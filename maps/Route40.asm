@@ -44,16 +44,15 @@ MonicaCallback:
 GenericTrainerSwimmerfElaine:
 	generictrainer SWIMMERF, ELAINE, EVENT_BEAT_SWIMMERF_ELAINE, SwimmerfElaineSeenText, SwimmerfElaineBeatenText
 
-	text "Ich behaupte,"
-	line "dass ich besser"
+	text "Ich behaupte, dass"
+	line "ich besser"
 	cont "schwimme als du!"
 	done
 GenericTrainerSwimmerfPaula:
 	generictrainer SWIMMERF, PAULA, EVENT_BEAT_SWIMMERF_PAULA, SwimmerfPaulaSeenText, SwimmerfPaulaBeatenText
 
 	text "Ich lasse mich im"
-	line "Wasser treiben"
-	cont "und"
+	line "Wasser treiben und"
 	cont "von den Wellen"
 	cont "davontragen."
 	done
@@ -61,8 +60,8 @@ GenericTrainerSwimmermSimon:
 	generictrainer SWIMMERM, SIMON, EVENT_BEAT_SWIMMERM_SIMON, SwimmermSimonSeenText, SwimmermSimonBeatenText
 
 	text "ANEMONIA CITY ist"
-	line "ziemlich weit"
-	cont "weg von hier."
+	line "ziemlich weit weg"
+	cont "von hier."
 	done
 GenericTrainerSwimmermRandall:
 	generictrainer SWIMMERM, RANDALL, EVENT_BEAT_SWIMMERM_RANDALL, SwimmermRandallSeenText, SwimmermRandallBeatenText
@@ -119,8 +118,8 @@ Route40FisherScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Dann mach ich"
-	line "was anderes…"
+	text "Dann mach ich was"
+	line "anderes…"
 	done
 
 .IntroText:
@@ -131,13 +130,13 @@ Route40FisherScript:
 	para "meine Angel ins"
 	line "Wasser warfen!"
 
-	para "Wie fang ich"
-	line "jetzt noch was?"
+	para "Wie fang ich jetzt"
+	line "noch was?"
 
-	para "…Na gut, kann"
-	line "ich halt nicht"
-	cont "angeln--ich"
-	cont "bring halt bei."
+	para "…Na gut, kann ich"
+	line "halt nicht"
+	cont "angeln--ich bring"
+	cont "halt bei."
 	done
 
 .QuestionText:
@@ -157,8 +156,7 @@ Route40FisherScript:
 
 	text "Kein Blatt, keine"
 	line "Attacke. Meine"
-	cont "Zeit"
-	cont "ist nicht"
+	cont "Zeit ist nicht"
 	cont "umsonst."
 	done
 
@@ -170,10 +168,9 @@ Route40FisherScript:
 	line "ein getragenes"
 	cont "Item weg,"
 
-	para "sodass es im"
-	line "Kampf nicht mehr"
-	line "genutzt werden"
-	cont "kann."
+	para "sodass es im Kampf"
+	line "nicht mehr genutzt"
+	cont "werden kann."
 
 	para "Das ist so"
 	line "frustrierend!"
@@ -199,8 +196,8 @@ MonicaScript:
 	setevent EVENT_GOT_SHARP_BEAK_FROM_MONICA
 	jumpthisopenedtext
 
-	text "MONJA: Dieses"
-	line "Item verstärkt"
+	text "MONJA: Dieses Item"
+	line "verstärkt"
 
 	para "Flug-Attacken."
 
@@ -212,8 +209,7 @@ MonicaNotMondayScript:
 	jumpthistextfaceplayer
 
 	text "MONJA: Ich"
-	line "fürchte, heute"
-	cont "ist"
+	line "fürchte, heute ist"
 	cont "nicht Montag. Wie"
 	cont "schade…"
 	done
@@ -221,8 +217,7 @@ MonicaDoneScript:
 	end
 
 SwimmermSimonSeenText:
-	text "Du musst dich"
-	line "erst"
+	text "Du musst dich erst"
 	line "aufwärmen, bevor"
 	cont "du schwimmen"
 	cont "gehst."
@@ -258,8 +253,7 @@ SwimmermRandallSeenText:
 
 
 SwimmermRandallBeatenText:
-	text "Ach, ach. Ich"
-	line "habe"
+	text "Ach, ach. Ich habe"
 	line "verloren…"
 	done
 
@@ -304,8 +298,8 @@ SwimmerfPaulaSeenText:
 
 SwimmerfPaulaBeatenText:
 	text "Ach, ich fühle"
-	line "mich"
-	line "so schwindelig!"
+	line "mich so"
+	cont "schwindelig!"
 	done
 
 
@@ -332,32 +326,28 @@ Route40PokefanMText2:
 	para "Was? Was?"
 	done
 Route40PicnickerText:
-	text "Ich reiste mit"
-	line "dem"
+	text "Ich reiste mit dem"
 	line "Schiff nach"
 
 	para "OLIVIANA, um die"
-	line "Sehenswürdigkei-"
-	cont "ten"
+	line "Sehenswürdigkeiten"
 
-	para "und die"
-	line "Atmosphäre"
+	para "und die Atmosphäre"
 	line "zu genießen."
 
 	para "Da es eine Hafen-"
 	line "stadt ist, unter-"
 
 	para "scheidet sie sich"
-	line "von anderen"
-	cont "großen Städten."
+	line "von anderen großen"
+	cont "Städten."
 	done
 Route40BeachGuyText2:
 	text "Warst du schon am"
 	line "DUELLTURM?"
 
 	para "Ich denke, dass"
-	line "sich bereits"
-	cont "viele"
+	line "sich bereits viele"
 
 	para "starke Trainer"
 	line "dort versammeln."
@@ -365,16 +355,14 @@ Route40BeachGuyText2:
 	para "Da du so viele"
 	line "ORDEN besitzt,"
 
-	para "wirst du dich"
-	line "dort"
+	para "wirst du dich dort"
 	line "wacker schlagen."
 	done
 MeetMonicaText:
 	text "MONJA: Es freut"
 	line "mich, dich kennen"
 
-	para "zu lernen. Ich"
-	line "bin"
+	para "zu lernen. Ich bin"
 	line "MONJA von Montag."
 	done
 
@@ -384,10 +372,10 @@ MeetMonicaText:
 
 MonicaGivesGiftText:
 	text "Als Zeichen"
-	line "unserer Freund-"
-	cont "schaft schenke"
-	cont "ich"
-	cont "dir dies!"
+	line "unserer"
+	cont "Freundschaft"
+	cont "schenke ich dir"
+	cont "dies!"
 	done
 
 

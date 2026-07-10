@@ -22,21 +22,21 @@ Route19FuchsiaGateOfficerScript:
 	jumpthistextfaceplayer
 
 	text "Der Vulkan der"
-	line "ZINNOBERINSEL"
-	cont "ist ausgebrochen."
+	line "ZINNOBERINSEL ist"
+	cont "ausgebrochen."
 
 	para "Er schleuderte"
 	line "Felsbrocken, die"
 
-	para "ROUTE 19 auf un-"
-	line "bestimmte Zeit"
+	para "ROUTE 19 auf"
+	line "unbestimmte Zeit"
 	cont "blockieren."
 
 	para "Ich hoffe, den"
 	line "Leuten auf der"
 
-	para "ZINNOBERINSEL"
-	line "geht es gut…"
+	para "ZINNOBERINSEL geht"
+	line "es gut…"
 	done
 
 
@@ -45,8 +45,7 @@ Route19FuchsiaGateOfficerText_RocksCleared:
 	line "INSEL wurde"
 
 	para "niemand verletzt."
-	line "Das ist"
-	cont "großartig!"
+	line "Das ist großartig!"
 	done
 
 

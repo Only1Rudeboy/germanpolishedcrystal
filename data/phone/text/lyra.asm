@@ -4,8 +4,8 @@ LyraPhoneGreetingText_Morn:
 	prompt
 
 LyraPhoneGreetingText_Day:
-	text "Oh, <PLAYER>!"
-	line "Wie geht's dir?"
+	text "Oh, <PLAYER>! Wie"
+	line "geht's dir?"
 	prompt
 
 LyraPhoneGreetingText_Eve:
@@ -14,17 +14,16 @@ LyraPhoneGreetingText_Eve:
 	prompt
 
 LyraPhoneGreetingText_Nite:
-	text "…<PLAYER>!"
-	line "Guten Abend!"
+	text "…<PLAYER>! Guten"
+	line "Abend!"
 
-	para "Du bist spät"
-	line "wach."
+	para "Du bist spät wach."
 	prompt
 
 LyraPhoneLandmarkText:
 	text "Wo bist du"
 	line "gerade?"
-	line ""
+	cont ""
 	text_ram wStringBuffer4
 	text "?"
 	prompt
@@ -51,16 +50,15 @@ LyraPhoneNextMoveQuestionText:
 	text "Also, <PLAYER>…"
 
 	para "Soll ich dir"
-	line "sagen,"
-	line "wann dein #mon"
+	line "sagen, wann dein"
+	cont "#mon"
 
 	para "seine nächste"
 	line "Attacke lernt?"
 	done
 
 LyraPhoneNextMoveRefusedText:
-	text "Haha, dann"
-	line "verrate"
+	text "Haha, dann verrate"
 	line "ich's nicht!"
 	prompt
 
@@ -93,10 +91,8 @@ LyraPhoneNoEggMovesText:
 	prompt
 
 LyraPhoneEndText:
-	text "Jedenfalls…"
-	line "Schön,"
-	line "mal wieder mit"
-	cont "dir"
+	text "Jedenfalls… Schön,"
+	line "mal wieder mit dir"
 	cont "zu reden,"
 	cont "<PLAYER>."
 
@@ -105,8 +101,8 @@ LyraPhoneEndText:
 	done
 
 LyraPhoneSpecialText_YellowForest:
-	text "Hi, <PLAYER>!"
-	line "Wie geht's?"
+	text "Hi, <PLAYER>! Wie"
+	line "geht's?"
 
 	para "Warst du schon im"
 	line "Gelben Wald?"
@@ -114,13 +110,11 @@ LyraPhoneSpecialText_YellowForest:
 	para "Ich wollte hin,"
 	line "aber ich hörte,"
 
-	para "Team Rocket"
-	line "treibt"
+	para "Team Rocket treibt"
 	line "da Unfug."
 
 	para "Ich will mich da"
-	line "nicht"
-	cont "reinmischen!"
+	line "nicht reinmischen!"
 
 	para "Du hast Team"
 	line "Rocket schon mal"
@@ -145,13 +139,12 @@ LyraPhoneSpecialText_FirstBadge:
 	line "ist stark, aber"
 
 	para "meins hat"
-	line "gewonnen!"
-	line "Ich musste dir"
-	cont "das"
+	line "gewonnen! Ich"
+	cont "musste dir das"
 
 	para "erzählen,"
-	line "<PLAYER>."
-	line "Du hast deinen"
+	line "<PLAYER>. Du hast"
+	cont "deinen"
 
 	para "ersten Orden in"
 	line "Kanto? Super!"
@@ -180,32 +173,28 @@ LyraPhoneSpecialText_LyrasEgg:
 	line "im Hort bei Oma"
 
 	para "und Opa gelassen,"
-	line "und sie fanden"
-	cont "ein"
+	line "und sie fanden ein"
 	cont "Ei!"
 
 	para "Ist das nicht"
 	line "toll?"
 
 	para "Ich trainiere ein"
-	line "volles Team,"
-	cont "also…"
+	line "volles Team, also…"
 
 	para "wenn du es haben"
 	line "willst…"
 
-	para "Jedenfalls hab"
-	line "ich"
+	para "Jedenfalls hab ich"
 	line "das Ei im Hort"
 
-	para "gelassen, falls"
-	line "du es willst!"
+	para "gelassen, falls du"
+	line "es willst!"
 
-	para "Ich weiß, du"
-	line "wirst"
+	para "Ich weiß, du wirst"
 	line "gut darauf"
-	cont "aufpas-"
-	cont "sen, <PLAYER>."
+	cont "aufpassen,"
+	cont "<PLAYER>."
 
 	para "Tschüss!"
 	done

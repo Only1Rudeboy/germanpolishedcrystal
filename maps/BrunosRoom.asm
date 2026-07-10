@@ -114,9 +114,8 @@ BrunoScript:
 	done
 
 .BeatenText:
-	text "Warum? Wie"
-	line "konnten wir"
-	cont "verlieren?"
+	text "Warum? Wie konnten"
+	line "wir verlieren?"
 	done
 
 .AfterText:

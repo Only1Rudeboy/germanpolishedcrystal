@@ -1,6 +1,5 @@
 RalphAskNumber1Text:
-	text "Angeln junge"
-	line "Leute"
+	text "Angeln junge Leute"
 	line "nicht mehr?"
 
 	para "Ich sah seltene"
@@ -8,8 +7,7 @@ RalphAskNumber1Text:
 	cont "Angeln…"
 
 	para "Das mögt ihr,"
-	line "oder? Tauschen"
-	cont "wir"
+	line "oder? Tauschen wir"
 	cont "Nummern?"
 
 	para "Ich ruf an, wenn"
@@ -18,9 +16,9 @@ RalphAskNumber1Text:
 
 RalphAskNumber2Text:
 	text "Hm? Soll ich"
-	line "anrufen,"
-	line "wenn ich seltene"
-	cont "#mon sehe?"
+	line "anrufen, wenn ich"
+	cont "seltene #mon"
+	cont "sehe?"
 	done
 
 RalphNumberAcceptedText:
@@ -52,7 +50,6 @@ RalphPhoneFullText:
 RalphRematchText:
 	text "Hey, Kind!"
 
-	para "Heute verliere"
-	line "ich"
+	para "Heute verliere ich"
 	line "nicht!"
 	done

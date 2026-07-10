@@ -66,8 +66,8 @@ GenericTrainerFisherHall:
 GenericTrainerBakerMargaret:
 	generictrainer BAKER, MARGARET, EVENT_BEAT_BAKER_MARGARET, .SeenText, .BeatenText
 
-	text "Ich bin ei-"
-	line "rschöpft."
+	text "Ich bin"
+	line "eirschöpft."
 	done
 
 .SeenText:
@@ -79,8 +79,8 @@ GenericTrainerBakerMargaret:
 	done
 
 .BeatenText:
-	text "Dann bin wohl"
-	line "ich das Eiroll."
+	text "Dann bin wohl ich"
+	line "das Eiroll."
 	done
 
 GenericTrainerBakerOlga:
@@ -94,31 +94,28 @@ GenericTrainerBakerOlga:
 	done
 
 .SeenText:
-	text "Hallo, du!"
-	line "Isst du jeden Tag"
-	cont "ein gutes"
-	cont "Frühstück?"
+	text "Hallo, du! Isst du"
+	line "jeden Tag ein"
+	cont "gutes Frühstück?"
 	done
 
 .BeatenText:
-	text "Wow! Sieht so"
-	line "aus."
+	text "Wow! Sieht so aus."
 	done
 
 GenericTrainerArtistReina:
 	generictrainer ARTIST, REINA, EVENT_BEAT_ARTIST_REINA, .SeenText, .BeatenText
 
 	text "Ich male einen"
-	line "fröhlichen"
-	cont "kleinen"
+	line "fröhlichen kleinen"
 	cont "Baum drüber."
 	done
 
 .SeenText:
 	text "Diese sonnige"
-	line "Wiese"
-	line "wird ein wunder-"
-	cont "bares Gemälde!"
+	line "Wiese wird ein"
+	cont "wunderbares"
+	cont "Gemälde!"
 	done
 
 .BeatenText:
@@ -130,14 +127,12 @@ GenericTrainerArtistAlina:
 	generictrainer ARTIST, ALINA, EVENT_BEAT_ARTIST_ALINA, .SeenText, .BeatenText
 
 	text "Ich frage mich,"
-	line "warum diese"
-	cont "Insel"
+	line "warum diese Insel"
 	cont "auftauchte?"
 	done
 
 .SeenText:
-	text "Diese Insel"
-	line "taucht"
+	text "Diese Insel taucht"
 	line "kaum je auf."
 
 	para "Ich hatte so viel"
@@ -159,16 +154,15 @@ GenericTrainerSightseersLiandsu1:
 	done
 
 .SeenText:
-	text "Li: Was war"
-	line "zuerst da?"
+	text "Li: Was war zuerst"
+	line "da?"
 
 	para "Das #mon oder"
 	line "das Ei?"
 	done
 
 .BeatenText:
-	text "Li: Ich sage,"
-	line "das"
+	text "Li: Ich sage, das"
 	line "#mon!"
 	done
 
@@ -181,8 +175,8 @@ GenericTrainerSightseersLiandsu2:
 	done
 
 .SeenText:
-	text "Su: Was war"
-	line "zuerst da?"
+	text "Su: Was war zuerst"
+	line "da?"
 
 	para "Das #mon oder"
 	line "das Ei?"
@@ -190,8 +184,7 @@ GenericTrainerSightseersLiandsu2:
 
 .BeatenText:
 	text "Su: Ich glaube,"
-	line "das Ei war"
-	cont "zuerst!"
+	line "das Ei war zuerst!"
 	done
 
 LuckyIslandLuckyEgg:

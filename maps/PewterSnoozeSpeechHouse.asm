@@ -20,8 +20,7 @@ PewterSnoozeSpeechHouseGrampsText:
 	text "Ich mache gerne"
 	line "ein Nickerchen,"
 	cont "während das Radio"
-	cont "läuft…"
-	cont "…Zzzz…"
+	cont "läuft… …Zzzz…"
 	done
 
 

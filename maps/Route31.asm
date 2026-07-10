@@ -81,54 +81,44 @@ TrainerCooltrainermFinch:
 
 .AfterText2:
 	text "Du hast die"
-	line "Wirkung"
-	line "eines"
-	cont "Luftballons"
-	cont "im Kampf"
-	cont "gesehen."
+	line "Wirkung eines"
+	cont "Luftballons im"
+	cont "Kampf gesehen."
 
-	para "Vielleicht"
-	line "triffst"
-	line "du andere"
-	cont "Trainer"
+	para "Vielleicht triffst"
+	line "du andere Trainer"
 
-	para "wie mich in"
-	line "Johto."
-	line "Sie suchen"
-	cont "Stärke."
+	para "wie mich in Johto."
+	line "Sie suchen Stärke."
 
 	para "Fordere sie am"
 	line "besten heraus!"
 	done
 .IntroText:
 	text "Ich bin ein"
-	line "Trainer,"
-	line "der Luftballons"
-	cont "im"
+	line "Trainer, der"
+	cont "Luftballons im"
 	cont "Kampf nutzt."
 
 	para "Ich will von"
-	line "deiner"
-	line "Stärke überzeugt"
-	cont "werden…"
+	line "deiner Stärke"
+	cont "überzeugt werden…"
 
 	para "Besiege alle"
-	line "Trainer"
-	line "auf Route 30 und"
-	cont "31,"
+	line "Trainer auf Route"
+	cont "30 und 31,"
 
 	para "dann tritt mir"
 	line "gegenüber!"
 	done
 .QuestionText:
 	text "Du hast alle"
-	line "Trainer"
-	line "hier besiegt!"
+	line "Trainer hier"
+	cont "besiegt!"
 
 	para "Dann bist du"
-	line "bereit,"
-	line "mich herauszu-"
-	cont "fordern!"
+	line "bereit, mich"
+	cont "herauszufordern!"
 
 	para "Kämpfen wir?"
 	done
@@ -137,18 +127,15 @@ TrainerCooltrainermFinch:
 	line "Stärke nicht mit"
 	cont "meiner messen?"
 
-	para "Ich gebe dir"
-	line "mein"
-	line "Spezial-Item,"
-	cont "wenn"
+	para "Ich gebe dir mein"
+	line "Spezial-Item, wenn"
 	cont "du gewinnst…"
 	done
 .SeenText:
 	text "Freut mich! Ich"
 	line "stehe dir als"
 
-	para "Luftballon-Nu-"
-	line "tzer"
+	para "Luftballon-Nutzer"
 	line "entgegen!"
 	done
 .BeatenText:
@@ -156,8 +143,7 @@ TrainerCooltrainermFinch:
 	line "Boden gebracht…"
 	done
 .AfterText1:
-	text "Ein toller"
-	line "Kampf!"
+	text "Ein toller Kampf!"
 	line "Du bist ein"
 
 	para "aufstrebender"
@@ -322,8 +308,8 @@ Route31MailRecipientScript:
 
 	para "Wäre ich ein"
 	line "wildes #mon,"
-	cont "wäre ich leicht"
-	cont "zu fangen…"
+	cont "wäre ich leicht zu"
+	cont "fangen…"
 
 	para "…Zzzz…"
 	done
@@ -362,8 +348,7 @@ Route31MailRecipientScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Du hast aber"
-	line "kein"
+	text "Du hast aber kein"
 	line "Silberblatt…"
 	done
 
@@ -386,9 +371,8 @@ Route31MailRecipientScript:
 	jumpthisopenedtext
 
 	text "Was ist so"
-	line "beson-"
-	line "ders an diesem"
-	cont "#mon?"
+	line "besonders an"
+	cont "diesem #mon?"
 
 	para "Es trägt keinen"
 	line "BRIEF."
@@ -403,8 +387,8 @@ Route31MailRecipientScript:
 	jumpthisopenedtext
 
 	text "Wenn ich dir"
-	line "die-"
-	line "ses #mon weg-"
+	line "dieses #mon"
+	cont "weg-"
 
 	para "nehme, womit"
 	line "willst du dann"
@@ -420,33 +404,30 @@ ReceivedSpearowMailText:
 Bug_catcherWade1SeenText:
 	text "Ich habe einige"
 	line "#mon gefangen."
-	cont "Lass uns"
-	cont "kämpfen!"
+	cont "Lass uns kämpfen!"
 	done
 Bug_catcherWade1BeatenText:
 	text "Awwwww…"
 	done
 Bug_catcherWade1AfterText:
 	text "Du kannst #mon"
-	line "fangen, auch"
-	cont "wenn"
+	line "fangen, auch wenn"
 
 	para "du bereits sechs"
 	line "bei dir trägst."
 
 	para "Fängst du eines,"
-	line "wird es automa-"
-	cont "tisch auf die"
-	cont "BOX"
-	cont "im PC"
+	line "wird es"
+	cont "automatisch auf"
+	cont "die BOX im PC"
 	cont "übertragen."
 	done
 Text_Route31SleepyManGotMail:
 	text "…Zzzz… Häh?"
 
-	para "Was ist? Du"
-	line "hast einen BRIEF"
-	cont "für mich?"
+	para "Was ist? Du hast"
+	line "einen BRIEF für"
+	cont "mich?"
 	done
 
 
@@ -468,14 +449,12 @@ Text_Route31ReadingMail:
 
 	para "Gut zu wissen."
 
-	para "Danke, dass du"
-	line "mir"
+	para "Danke, dass du mir"
 	line "den BRIEF"
 	cont "brachtest."
 
 	para "Mein Freund ist"
-	line "ein netter"
-	cont "Mensch,"
+	line "ein netter Mensch,"
 	cont "genau wie du!"
 
 	para "Ich möchte mich"
@@ -512,19 +491,16 @@ Text_Route31TutorQuestion:
 
 
 Route31YoungsterText:
-	text "Ich habe ein"
-	line "gutes"
+	text "Ich habe ein gutes"
 	line "#mon in der"
 	cont "DUNKELHOEHLE"
 	cont "gefunden."
 
-	para "Ich ziehe es"
-	line "groß,"
+	para "Ich ziehe es groß,"
 	line "um später gegen"
 	cont "FALK anzutreten."
 
-	para "Er ist der"
-	line "ARENA-"
+	para "Er ist der ARENA-"
 	line "LEITER von VIOLA"
 	cont "CITY."
 	done

@@ -20,29 +20,26 @@ OlivineMartCooltrainerFText:
 	text "Können deine #-"
 	line "MON schon Leute"
 
-	para "übers Wasser tra-"
-	line "gen?"
+	para "übers Wasser"
+	line "tragen?"
 	done
 
 
 OlivineMartLassText:
 	text "Ich habe mein"
-	line "SMETTBO von"
-	cont "meinem"
-	cont "Freund aus"
-	cont "Übersee"
+	line "SMETTBO von meinem"
+	cont "Freund aus Übersee"
 	cont "bekommen."
 
 	para "Es hatte einen"
-	line "BRIEF von ihm da-"
-	cont "bei."
+	line "BRIEF von ihm"
+	cont "dabei."
 
 	para "Willst du wissen,"
 	line "was er schreibt?"
 
-	para "Mal sehen… Oh!"
-	line "Das ist ein Ge-"
-	cont "heimnis!"
+	para "Mal sehen… Oh! Das"
+	line "ist ein Geheimnis!"
 	done
 
 

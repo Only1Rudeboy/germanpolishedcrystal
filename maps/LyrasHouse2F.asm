@@ -23,8 +23,7 @@ LyrasHouseLyraText:
 	line "<PLAYER>!"
 
 	para "Hmm… Meine #mon"
-	line "nehmen"
-	cont "vielleicht"
+	line "nehmen vielleicht"
 
 	para "in letzter Zeit"
 	line "etwas zu…"
@@ -34,10 +33,8 @@ LyrasHousePidgeotText:
 	done
 
 LyrasHousePCText:
-	text "Du solltest"
-	line "nicht"
-	line "am PC von"
-	cont "anderen"
+	text "Du solltest nicht"
+	line "am PC von anderen"
 	cont "herumpfuschen!"
 	done
 LyrasHouseN64Text:

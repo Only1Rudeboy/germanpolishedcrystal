@@ -46,12 +46,10 @@ Route1617Gate2FTutorTrickRoomScript:
 
 	text "Aber ich brauche"
 	line "zuerst ein"
-	cont "Silber-"
-	cont "blatt,"
+	cont "Silberblatt,"
 
 	para "also komm wieder,"
-	line "wenn du eins"
-	cont "hast."
+	line "wenn du eins hast."
 	done
 
 .TeachMove
@@ -66,8 +64,7 @@ Route1617Gate2FTutorTrickRoomScript:
 Route1617Gate2FBinoculars1:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
+	text "Durch das Fernglas"
 	line "geschaut."
 
 	para "Das ist das Kauf-"
@@ -77,8 +74,7 @@ Route1617Gate2FBinoculars1:
 Route1617Gate2FBinoculars2:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
+	text "Durch das Fernglas"
 	line "geschaut."
 
 	para "Da ist ein langer"
@@ -87,21 +83,19 @@ Route1617Gate2FBinoculars2:
 
 Route1617Gate2FPsychicText:
 	text "Nicht weit von"
-	line "hier"
-	line "gibt es einen"
+	line "hier gibt es einen"
 	cont "Psycho,"
 
 	para "der in einem"
 	line "#mon-Kampf"
 	cont "seine"
 
-	para "Umgebung"
-	line "verändern"
+	para "Umgebung verändern"
 	line "kann."
 
 	para "Er ist mein"
-	line "Vorbild,"
-	line "deshalb habe ich"
+	line "Vorbild, deshalb"
+	cont "habe ich"
 
 	para "an meiner eigenen"
 	line "Technik"
@@ -111,21 +105,19 @@ Route1617Gate2FPsychicText:
 Text_Route1617Gate2FTutorTrickRoom:
 	text "Ich kann deinem"
 	line "#mon die"
-	cont "Attacke"
-	cont "Trick Room"
+	cont "Attacke Trick Room"
 	cont "beibringen."
 
 	para "Damit können"
-	line "lang-"
-	line "samere #mon"
+	line "langsamere #mon"
 
 	para "für eine Weile"
-	line "schnellere über-"
-	cont "holen."
+	line "schnellere"
+	cont "überholen."
 	done
 
 Text_Route1617Gate2FTutorQuestion:
 	text "Ist ein"
-	line "Silberblatt"
-	line "ein fairer Preis?"
+	line "Silberblatt ein"
+	cont "fairer Preis?"
 	done

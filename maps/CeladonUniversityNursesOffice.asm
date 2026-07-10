@@ -26,13 +26,12 @@ CeladonUniversityNursesOfficeNurseScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "Pass auf dich"
-	line "auf!"
+	text "Pass auf dich auf!"
 	done
 
 CeladonUniversityNursesOfficeNurseText:
-	text "Komm rein."
-	line "Geht es dir gut?"
+	text "Komm rein. Geht es"
+	line "dir gut?"
 
 	para "Oder sind deine"
 	line "#mon erschöpft?"
@@ -47,9 +46,7 @@ CeladonUniversityNursesOfficeSignText:
 	cont "glückliches"
 	cont "#mon!"
 
-	para "Lass deine"
-	line "Freunde"
+	para "Lass deine Freunde"
 	line "im Kampf nicht"
-	cont "ohnmächtig"
-	cont "werden!"
+	cont "ohnmächtig werden!"
 	done

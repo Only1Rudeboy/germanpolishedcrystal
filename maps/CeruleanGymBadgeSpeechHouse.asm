@@ -33,12 +33,10 @@ CeruleanGymBadgeSpeechHouseGentlemanScript:
 
 .Text1:
 	text "Vor ein paar"
-	line "Jahren gab's"
-	line "viele"
+	line "Jahren gab's viele"
 
-	para "Einbrüche,"
-	line "deshalb ist"
-	line "jetzt jeder"
+	para "Einbrüche, deshalb"
+	line "ist jetzt jeder"
 	cont "vorsichtig."
 
 	para "Wer bist du?"

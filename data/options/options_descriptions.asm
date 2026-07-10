@@ -22,57 +22,50 @@ OptionsDescriptions:
 
 .TextAutoscroll:
 	text "Text scrollt"
-	line "auto-"
-	line "matisch weiter,"
-	cont "wenn du Taste(n)"
-	cont "gedrückt hältst."
+	line "automatisch"
+	cont "weiter, wenn du"
+	cont "Taste(n) gedrückt"
+	cont "hältst."
 	prompt
 
 .Frame:
-	text "Der Rahmen um"
-	line "die meisten"
+	text "Der Rahmen um die"
+	line "meisten"
 	cont "Textfelder."
 	prompt
 
 .Typeface:
-	text "Die Schriftart"
-	line "für"
+	text "Die Schriftart für"
 	line "normalen Text."
 	prompt
 
 .Keyboard:
-	text "Das"
-	line "Tastaturlayout"
+	text "Das Tastaturlayout"
 	line "zum Eingeben von"
 	cont "Namen und Post."
 	prompt
 
 .Sound:
-	text "Audioausgabe:"
-	line "Mono (ein Kanal)"
+	text "Audioausgabe: Mono"
+	line "(ein Kanal)"
 
-	para "oder Stereo"
-	line "(zwei,"
-	line "links und"
-	cont "rechts)."
+	para "oder Stereo (zwei,"
+	line "links und rechts)."
 	prompt
 
 .BattleEffects:
 	text "Attacken- und"
-	line "Status-"
-	cont "animationen."
+	line "Statusanimationen."
 	prompt
 
 .BattleStyle:
 	text "Nach dem K.O."
-	line "eines"
-	line "Gegners:"
+	line "eines Gegners:"
 
 	para "Fest: Der nächste"
 	line "Gegner kommt."
 
-	para "Wechsel: Du"
-	line "kannst"
+	para "Wechsel: Du kannst"
 	line "zuerst wechseln."
 
 	para "Vorhersage: Zeigt"
@@ -87,8 +80,7 @@ OptionsDescriptions:
 	prompt
 
 .RunningShoes:
-	text "B gedrückt"
-	line "halten:"
+	text "B gedrückt halten:"
 	line "Mit Laufschuhen"
 
 	para "Aus: zum Laufen,"
@@ -96,11 +88,9 @@ OptionsDescriptions:
 	prompt
 
 .TurningSpeed:
-	text "Wie schnell du"
-	line "die"
+	text "Wie schnell du die"
 	line "Richtung in der"
-	cont "Spielwelt"
-	cont "änderst."
+	cont "Spielwelt änderst."
 	prompt
 
 .ClockFormat:
@@ -121,8 +111,7 @@ OptionsDescriptions:
 	prompt
 
 OptionsDoneDescription:
-	text "Optionen"
-	line "speichern"
+	text "Optionen speichern"
 	line "und Menü"
 	cont "verlassen."
 	prompt

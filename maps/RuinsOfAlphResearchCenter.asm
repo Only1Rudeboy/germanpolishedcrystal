@@ -88,8 +88,7 @@ RuinsOfAlphResearchCenterScientist3Script:
 	line "untersuchen."
 
 	para "Wir müssen darauf"
-	line "achten, die"
-	cont "Stätte"
+	line "achten, die Stätte"
 	cont "nicht zu stören."
 	done
 
@@ -171,15 +170,15 @@ RuinsOfAlphResearchCenterScientist1Script:
 
 	para "Aber man weiß"
 	line "nicht, warum oder"
-	cont "von wem sie"
-	cont "erbaut wurden."
+	cont "von wem sie erbaut"
+	cont "wurden."
 	done
 
 .UnownAppeared:
 	jumpthisopenedtext
 
-	text "Es gibt #mon"
-	line "in den RUINEN?"
+	text "Es gibt #mon in"
+	line "den RUINEN?"
 
 	para "Das sind unfass-"
 	line "bare Neuigkeiten!"
@@ -193,8 +192,7 @@ RuinsOfAlphResearchCenterScientist1Script:
 
 	text "Ich frage mich,"
 	line "wie viele #mon"
-	cont "wohl in den"
-	cont "RUINEN"
+	cont "wohl in den RUINEN"
 	cont "leben?"
 	done
 .GotAllUnown:
@@ -272,13 +270,12 @@ RuinsOfAlphResearchCenterScientist2Script:
 .ResearchOngoing:
 	jumpthisopenedtext
 
-	text "Wir glauben,"
-	line "etwas hat die"
+	text "Wir glauben, etwas"
+	line "hat die"
 
 	para "rätselhaften"
 	line "Muster in den"
-	cont "RUINEN"
-	cont "verursacht."
+	cont "RUINEN verursacht."
 
 	para "Wir konzentrieren"
 	line "unsere Forschung"
@@ -293,9 +290,8 @@ MapRuinsofAlphResearchCenterSignpost1Script:
 	iftruefwd .SkipChecking
 	jumpthisopenedtext
 
-	text "ALPH-RUINEN"
-	line "10."
-	cont "Forschungsjahr"
+	text "ALPH-RUINEN 10."
+	line "Forschungsjahr"
 	done
 
 .SkipChecking:
@@ -315,12 +311,10 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	para "Ich habe deinen"
 	line "#DEX erweitert."
 
-	para "Ich habe dir"
-	line "einen"
+	para "Ich habe dir einen"
 	line "optionalen #DEX"
 
-	para "extra für"
-	line "ICOGNITO"
+	para "extra für ICOGNITO"
 	line "eingebaut. Er"
 
 	para "speichert sie in"
@@ -339,13 +333,12 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 RuinsOfAlphResearchCenterScientist3Text:
 	text "Jedes ICOGNITO,"
 	line "das du fängst,"
-	cont "wird darin einge-"
-	cont "tragen."
+	cont "wird darin"
+	cont "eingetragen."
 
-	para "Schlage nach,"
-	line "um zu erfahren,"
-	cont "wie viele es"
-	cont "gibt."
+	para "Schlage nach, um"
+	line "zu erfahren, wie"
+	cont "viele es gibt."
 	done
 
 
@@ -358,8 +351,8 @@ RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	line "Spitzenleistung!"
 
 	para "Ich habe den"
-	line "Drucker aufge-"
-	cont "stellt, um"
+	line "Drucker"
+	cont "aufgestellt, um"
 	cont "ICOGNITOs Daten"
 	cont "auszudrucken."
 
@@ -403,16 +396,14 @@ RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	line "und deine Hilfe"
 
 	para "geben uns einen"
-	line "tiefen Einblick"
-	cont "in"
+	line "tiefen Einblick in"
 	cont "die RUINEN."
 
-	para "Es scheint, als"
-	line "ob"
+	para "Es scheint, als ob"
 	line "die RUINEN als"
 
-	para "Habitat für #-"
-	line "MON gebaut"
+	para "Habitat für"
+	line "#mon gebaut"
 	cont "wurden."
 	done
 
@@ -440,8 +431,8 @@ RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	text "Geheimnisvolles"
-	line "#mon"
-	cont "Name: ICOGNITO"
+	line "#mon Name:"
+	cont "ICOGNITO"
 
 	para "26 verschiedene"
 	line "gefunden."
@@ -459,8 +450,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "Ein Foto des"
 	line "FORSCHUNGS-"
 
-	para "ZENTRUMS-Gründe-"
-	line "rs,"
+	para "ZENTRUMS-Gründers,"
 	line "Prof.SEIDENBAUM."
 	done
 

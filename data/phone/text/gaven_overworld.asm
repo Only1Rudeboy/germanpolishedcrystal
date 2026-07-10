@@ -1,7 +1,7 @@
 GavenAskNumber1Text:
 	text "Wow, du bist"
-	line "stark."
-	line "Lange nicht so"
+	line "stark. Lange nicht"
+	cont "so"
 
 	para "ernst gekämpft."
 	line "Darf ich deine"
@@ -39,8 +39,7 @@ GavenNumberDeclinedText:
 	line "Aber wenn du es"
 
 	para "dir anders"
-	line "überlegst, ruf"
-	cont "an!"
+	line "überlegst, ruf an!"
 	done
 
 GavenPhoneFullText:

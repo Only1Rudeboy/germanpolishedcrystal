@@ -22,6 +22,5 @@ SaffronRichSpeechHouseRichBoyText:
 	line "will, braucht"
 
 	para "viel Geld oder"
-	line "einen"
-	cont "Mitbewohner."
+	line "einen Mitbewohner."
 	done

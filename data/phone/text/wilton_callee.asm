@@ -1,7 +1,7 @@
 WiltonAnswerPhoneText:
 	text "Hallo, Sie"
 	line "erreichen"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -11,7 +11,7 @@ WiltonAnswerPhoneText:
 WiltonAnswerPhoneDayText:
 	text "Hallo, Sie"
 	line "erreichen"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -22,12 +22,11 @@ WiltonAnswerPhoneDayText:
 WiltonAnswerPhoneNiteText:
 	text "Hallo, Sie"
 	line "erreichen"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ah, wenn das"
-	line "nicht"
+	para "Ah, wenn das nicht"
 	line "<PLAYER> ist."
 	done
 
@@ -64,6 +63,6 @@ WiltonGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "deutlich größer."
+	text " ist deutlich"
+	line "größer."
 	done

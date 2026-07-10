@@ -85,9 +85,8 @@ ElderLiScript:
 	line "selbst die"
 	cont "dunkelsten Orte."
 
-	para "Du musst es"
-	line "deinem #mon"
-	cont "nicht"
+	para "Du musst es deinem"
+	line "#mon nicht"
 
 	para "beibringen, wenn"
 	line "du Flash nicht im"
@@ -96,9 +95,9 @@ ElderLiScript:
 	line "willst. Drücke"
 	cont "einfach A"
 
-	para "in der"
-	line "Dunkelheit, und"
-	cont "ein #mon mit"
+	para "in der Dunkelheit,"
+	line "und ein #mon"
+	cont "mit"
 
 	para "Flash wird es"
 	line "nutzen, falls es"
@@ -110,8 +109,7 @@ GenericTrainerSageJin:
 
 	text "Je stärker die"
 	line "#mon werden,"
-	cont "desto stärker"
-	cont "wird"
+	cont "desto stärker wird"
 	cont "auch ihr Trainer."
 
 	para "Nein, warte! Je"
@@ -150,18 +148,17 @@ SproutTowerElderLecturesRivalText:
 	cont "begabter Trainer."
 
 	para "Wie abgemacht,"
-	line "be-"
-	line "kommst du die VM."
+	line "bekommst du die"
+	cont "VM."
 
-	para "Eines gebe ich"
-	line "dir"
+	para "Eines gebe ich dir"
 	line "noch mit: "
 
 	para "Behandle deine"
 	line "#mon besser."
 
-	para "Dein Kampfstil"
-	line "ist zu aggressiv."
+	para "Dein Kampfstil ist"
+	line "zu aggressiv."
 
 	para "#mon sind keine"
 	line "Kampfspielzeuge…"
@@ -172,20 +169,19 @@ SproutTowerElderLecturesRivalText:
 
 
 SproutTowerRivalOnlyCareAboutStrongText:
-	text "…"
-	line "…Hmpf!"
+	text "… …Hmpf!"
 
-	para "Er behauptet,"
-	line "ein WEISER zu"
-	cont "sein. Aber er ist"
+	para "Er behauptet, ein"
+	line "WEISER zu sein."
+	cont "Aber er ist"
 	cont "schwach."
 
 	para "Das muss noch"
 	line "geklärt werden."
 
-	para "Ich würde nie ge-"
-	line "gen so einen Nar-"
-	cont "ren verlieren,"
+	para "Ich würde nie"
+	line "gegen so einen"
+	cont "Narren verlieren,"
 	cont "der"
 
 	para "mir rät, meine"
@@ -197,8 +193,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	cont "#mon."
 
 	para "Schwache #mon"
-	line "interessieren"
-	cont "mich"
+	line "interessieren mich"
 	cont "gar nicht."
 	done
 
@@ -226,14 +221,13 @@ SageLiSeenText:
 	line "Trainer und"
 
 	para "#mon prüfen"
-	line "ihre"
-	cont "Freundschaft,"
+	line "ihre Freundschaft,"
 
 	para "um gemeinsam eine"
 	line "rosige Zukunft"
 
-	para "aufzubauen."
-	line "Und ich bin der"
+	para "aufzubauen. Und"
+	line "ich bin der"
 
 	para "letzte Test."
 	line "Erlaube, dass ich"
@@ -261,13 +255,12 @@ SageLiTakeThisFlashText:
 	text "Du und dein #-"
 	line "MON dürftet keine"
 
-	para "Probleme mit die-"
-	line "ser Attacke"
+	para "Probleme mit"
+	line "dieser Attacke"
 	cont "haben."
 
-	para "Nimm diese VM."
-	line "Sie enthält"
-	cont "BLITZ."
+	para "Nimm diese VM. Sie"
+	line "enthält BLITZ."
 	done
 
 
@@ -287,8 +280,8 @@ SageLiAfterBattleText:
 SageJinSeenText:
 	text "Ich trainiere, um"
 	line "durch #mon die"
-	cont "Erleuchtung"
-	cont "zu finden!"
+	cont "Erleuchtung zu"
+	cont "finden!"
 	done
 
 
@@ -306,8 +299,7 @@ SageJinBeatenText:
 
 SageTroySeenText:
 	text "Ich möchte sehen,"
-	line "wie sehr du"
-	cont "deinen"
+	line "wie sehr du deinen"
 	cont "#mon vertraust."
 	done
 

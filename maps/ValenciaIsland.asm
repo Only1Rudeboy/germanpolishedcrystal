@@ -32,8 +32,8 @@ ValenciaIslandCooltrainermText:
 	cont "starke Trainer."
 
 	para "Eine Mutter und"
-	line "ihre Tochter…"
-	cont "Oder ihr Sohn?"
+	line "ihre Tochter… Oder"
+	cont "ihr Sohn?"
 
 	para "Jedenfalls sind"
 	line "sie im Urlaub."
@@ -44,9 +44,9 @@ ValenciaIslandYoungsterScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Prof.Ivy ist"
-	line "echt heiß,"
-	cont "findest du nicht?"
+	text "Prof.Ivy ist echt"
+	line "heiß, findest du"
+	cont "nicht?"
 	done
 
 .Text2:
@@ -65,17 +65,16 @@ ValenciaIslandSignText:
 ValenciaIslandGoneFishingSignText:
 	text "Bin angeln"
 
-	para "(Im Urlaub"
-	line "in Alola!)"
+	para "(Im Urlaub in"
+	line "Alola!)"
 	done
 
 ValenciaIslandLockedDoorText:
-	text "Es ist"
-	line "verriegelt…"
+	text "Es ist verriegelt…"
 	done
 IvysLabSignText:
-	text "Ivy-Forschung"
-	line "Nr.2 Bayview"
+	text "Ivy-Forschung Nr.2"
+	line "Bayview"
 	done
 
 IvysHouseSignText:

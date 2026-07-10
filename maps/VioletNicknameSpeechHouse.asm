@@ -24,11 +24,10 @@ VioletNicknameSpeechHouseBirdScript:
 
 VioletNicknameSpeechHouseTeacherText:
 	text "Sie verwendet die"
-	line "Namen ihrer Lieb-"
-	cont "lingsspeisen,"
+	line "Namen ihrer"
+	cont "Lieblingsspeisen,"
 
-	para "als Spitznamen"
-	line "für"
+	para "als Spitznamen für"
 	line "ihre #mon,"
 	cont "meine ich."
 	done
@@ -49,19 +48,17 @@ VioletNicknameSpeechHouseLassText:
 VioletNicknameSpeechHouseGrampsText:
 	text "Das"
 	line "Zephyr-Abzeichen"
-	line "ist nach einem"
+	cont "ist nach einem"
 
 	para "alten Gott des"
-	line "Westwinds"
-	cont "benannt."
+	line "Westwinds benannt."
 
 	para "Passend für eine"
 	line "Flug-Arena."
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "ERDBEERE:"
-	line "Taubsii!"
+	text "ERDBEERE: Taubsii!"
 	done
 
 

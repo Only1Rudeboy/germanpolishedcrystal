@@ -89,17 +89,15 @@ endc
 	done
 
 .IntroText:
-	text "Hallo."
-	line "Ich bin Larry."
+	text "Hallo. Ich bin"
+	line "Larry."
 
-	para "Mein Chef hat"
-	line "mich geschäftlich"
-	line "hierher"
-	cont "geschickt,"
+	para "Mein Chef hat mich"
+	line "geschäftlich"
+	cont "hierher geschickt,"
 
-	para "aber ich nutze"
-	line "die Zeit zum"
-	cont "Genießen."
+	para "aber ich nutze die"
+	line "Zeit zum Genießen."
 
 	para "Ich aß gerade im"
 	line "Oasis Restaurant"
@@ -116,16 +114,15 @@ endc
 	text "Hallo wieder,"
 	line "<PLAYER>."
 
-	para "Du hast mich"
-	line "schon"
+	para "Du hast mich schon"
 	line "besiegt — dieser"
 
 	para "Kampf wird wohl"
 	line "keinen großen"
 	cont "Eindruck machen."
 
-	para "Trotzdem —"
-	line "sollen wir?"
+	para "Trotzdem — sollen"
+	line "wir?"
 	done
 
 .SeenText:
@@ -140,6 +137,6 @@ endc
 
 .RefusedText:
 	text "Vielleicht ein"
-	line "anderes Mal,"
-	line "wenn es passt."
+	line "anderes Mal, wenn"
+	cont "es passt."
 	done

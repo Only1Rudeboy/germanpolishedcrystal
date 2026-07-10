@@ -181,8 +181,8 @@ SnowtopMountainOutsideStopPanningMovement:
 	step_end
 
 SnowtopMountainOutsideOutlookText:
-	text "Von hier sieht"
-	line "man OLIVIANA"
+	text "Von hier sieht man"
+	line "OLIVIANA"
 
 	para "CITY!"
 

@@ -122,8 +122,8 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 
 DarkCaveVioletEntranceFalknerAttackText:
 	text "Falkner: Setz"
-	line "Flügelschlag"
-	cont "ein, Pidgeotto!"
+	line "Flügelschlag ein,"
+	cont "Pidgeotto!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
@@ -139,8 +139,7 @@ DarkCaveVioletEntranceFalknerIntroText:
 DarkCaveVioletEntranceFalknerDarkIntroText:
 	text "Du musst mutig"
 	line "sein, um hier in"
-	cont "stockdunkler"
-	cont "Nacht"
+	cont "stockdunkler Nacht"
 	cont "herzukommen."
 	prompt
 
@@ -149,14 +148,13 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	line "der Arenaleiter"
 	cont "von Viola City."
 
-	para "Ich erkunde"
-	line "Höhlen nicht zum"
-	cont "Spaß,"
+	para "Ich erkunde Höhlen"
+	line "nicht zum Spaß,"
 
 	para "aber dieses"
 	line "Ursaring hat"
-	cont "Trainer ange-"
-	cont "griffen,"
+	cont "Trainer"
+	cont "angegriffen,"
 
 	para "die sich nicht"
 	line "wehren konnten."
@@ -171,22 +169,19 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	para "Du willst also"
 	line "einen Orden?"
 
-	para "Dann triff mich"
-	line "in der #mon-"
-	cont "ARENA in Viola"
-	cont "City."
+	para "Dann triff mich in"
+	line "der #mon- ARENA"
+	cont "in Viola City."
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:
 	text "Falkner: Ist da"
 	line "jemand?"
 
-	para "Komm nicht"
-	line "näher!"
+	para "Komm nicht näher!"
 
-	para "Es ist zu"
-	line "dunkel, du"
-	line "könntest dich"
+	para "Es ist zu dunkel,"
+	line "du könntest dich"
 	cont "verletzen."
 	done
 
@@ -199,7 +194,7 @@ DarkCaveVioletEntranceFalknerProgressAnywayText:
 	cont "erkunden ist"
 	cont "leichtsinnig!"
 
-	para "Ich bin mitten"
-	line "im Kampf, also"
-	cont "halt Abstand!"
+	para "Ich bin mitten im"
+	line "Kampf, also halt"
+	cont "Abstand!"
 	done

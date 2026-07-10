@@ -44,20 +44,19 @@ RandyScript:
 .alreadyhavekenya
 	jumpthisopenedtext
 
-	text "Du darfst ihn le-"
-	line "sen, aber"
-	cont "verliere"
-	cont "ihn nicht!"
-	cont "ROUTE 31!"
+	text "Du darfst ihn"
+	line "lesen, aber"
+	cont "verliere ihn"
+	cont "nicht! ROUTE 31!"
 
 	para "Stimmt! Ein"
-	line "merkwürdiger"
-	cont "Baum hat die"
-	cont "Straße blockiert."
+	line "merkwürdiger Baum"
+	cont "hat die Straße"
+	cont "blockiert."
 
-	para "Ich frage mich,"
-	line "ob die Straße"
-	cont "jetzt frei ist."
+	para "Ich frage mich, ob"
+	line "die Straße jetzt"
+	cont "frei ist."
 	done
 
 .partyfull
@@ -71,9 +70,8 @@ RandyScript:
 .refused
 	jumpthisopenedtext
 
-	text "Oh… Dann"
-	line "geht das in"
-	cont "Ordnung…"
+	text "Oh… Dann geht das"
+	line "in Ordnung…"
 	done
 
 .questcomplete
@@ -109,8 +107,8 @@ Route35GoldenrodGatePokefanFScript:
 	jumpthisopenedtext
 
 	text "Ein merkwürdiger"
-	line "Baum blockiert"
-	cont "die Straße."
+	line "Baum blockiert die"
+	cont "Straße."
 
 	para "Er wackelt, wenn"
 	line "man mit ihm"
@@ -136,32 +134,30 @@ Route35GoldenrodGatePokefanFScript:
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	text "Entschuldige,"
-	line "bitte!"
-	cont "Könntest du mir"
-	cont "einen Gefallen"
+	line "bitte! Könntest du"
+	cont "mir einen Gefallen"
 	cont "tun?"
 
-	para "Könntest du"
-	line "dieses"
+	para "Könntest du dieses"
 	line "#mon, das einen"
-	cont "BRIEF trägt,"
-	cont "zu meinem Freund"
+	cont "BRIEF trägt, zu"
+	cont "meinem Freund"
 	cont "bringen?"
 
-	para "Du findest ihn"
-	line "auf ROUTE 31."
+	para "Du findest ihn auf"
+	line "ROUTE 31."
 	done
 
 
 Route35GoldenrodGateRandyThanksText:
 	text "Das würdest du"
-	line "tun? Super!"
-	cont "Vielen Dank!"
+	line "tun? Super! Vielen"
+	cont "Dank!"
 
 	para "Mein Freund ist"
-	line "ein Flegel!"
-	cont "Er schläft die"
-	cont "ganze Zeit."
+	line "ein Flegel! Er"
+	cont "schläft die ganze"
+	cont "Zeit."
 
 	para "Du wirst ihn"
 	line "sofort erkennen!"
@@ -178,11 +174,9 @@ Route35GoldenrodGatePlayerReceivedAMonWithMailText:
 
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Ich danke dir!"
-	line "Du hast die"
-	cont "Lieferung für"
-	cont "mich"
-	cont "erledigt!"
+	text "Ich danke dir! Du"
+	line "hast die Lieferung"
+	cont "für mich erledigt!"
 
 	para "Ich habe hier"
 	line "etwas für dich"
@@ -194,9 +188,8 @@ Route35GoldenrodGateRandySomethingForYourTroubleText:
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 	text "Mein Freund hat"
 	line "geschlafen, nicht"
-	cont "wahr? Na, was"
-	cont "habe ich dir"
-	cont "gesagt?"
+	cont "wahr? Na, was habe"
+	cont "ich dir gesagt?"
 	done
 
 
@@ -211,9 +204,9 @@ Route35GoldenrodGateFisherText:
 	line "hat PROF. EICH"
 
 	para "verlautbart, dass"
-	line "es 150 verschie-"
-	cont "dene Arten geben"
-	cont "soll."
+	line "es 150"
+	cont "verschiedene Arten"
+	cont "geben soll."
 	done
 
 

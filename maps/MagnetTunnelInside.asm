@@ -266,20 +266,17 @@ MagnetTunnelInsideMachineText1:
 	done
 
 MagnetTunnelInsideMachineText2:
-	text "Ping! Die"
-	line "Maschine"
+	text "Ping! Die Maschine"
 	line "ist an."
 	done
 
 MagnetTunnelInsideMachineText3:
-	text "Die Maschine"
-	line "läuft"
+	text "Die Maschine läuft"
 	line "reibungslos."
 	done
 
 MagnetTunnelInsideMachineText4:
-	text "Huh?! Etwas"
-	line "stimmt"
+	text "Huh?! Etwas stimmt"
 	line "nicht!"
 	done
 
@@ -288,24 +285,22 @@ MagnetTunnelInsideMachineText5:
 	line "läuft nicht"
 	cont "richtig!"
 
-	para "Mehrere WARNUNG-"
-	line "meldungen"
+	para "Mehrere"
+	line "WARNUNGmeldungen"
 	cont "flackern"
 
 	para "über den kleinen"
 	line "Bildschirm und"
 
 	para "ein Brandgeruch"
-	line "liegt in der"
-	cont "Luft."
+	line "liegt in der Luft."
 
 	para "Den Not-Aus-Knopf"
 	line "drücken?"
 	done
 
 MagnetTunnelInsideMachineText6:
-	text "Ding! Die"
-	line "Maschine"
+	text "Ding! Die Maschine"
 	line "ist aus."
 	done
 
@@ -326,8 +321,8 @@ MagnetTunnelInsideLodestoneText:
 	cont "warm."
 
 	para "Er hat eine"
-	line "leichte"
-	line "statische Aura."
+	line "leichte statische"
+	cont "Aura."
 	done
 
 MagnetTunnelInsideEngineerText1:
@@ -337,31 +332,26 @@ MagnetTunnelInsideEngineerText1:
 	cont "Magnetfeld."
 
 	para "Wir mussten"
-	line "Spezi-"
-	line "alausrüstung"
+	line "Spezialausrüstung"
 	cont "holen,"
 
 	para "um den Tunnel bis"
 	line "zur Frist des"
 	cont "Vorarbeiters"
-	cont "fertig"
-	cont "zu stellen."
+	cont "fertig zu stellen."
 
 	para "Unser Team stand"
 	line "unter großem"
-	cont "Druck,"
-	cont "pünktlich zu"
-	cont "liefern."
+	cont "Druck, pünktlich"
+	cont "zu liefern."
 	done
 
 MagnetTunnelInsideEngineerText2:
 	text "Seit wir mit dem"
-	line "Tunnelbau"
-	cont "begonnen"
+	line "Tunnelbau begonnen"
 
 	para "haben, hat sich"
-	line "die"
-	line "Zahl wilder"
+	line "die Zahl wilder"
 	cont "Elektro-"
 
 	para "#mon hier mehr"
@@ -370,8 +360,7 @@ MagnetTunnelInsideEngineerText2:
 
 MagnetTunnelInsideScientistText:
 	text "Jeden Tag kommen"
-	line "mehr Magnetilo"
-	cont "und"
+	line "mehr Magnetilo und"
 	cont "machen Ärger."
 
 	para "Der Vorarbeiter"
@@ -386,8 +375,8 @@ MagnetTunnelInsideScientistText:
 GenericTrainerEngineerGraden:
 	generictrainer ENGINEER, GRADEN, EVENT_BEAT_ENGINEER_GRADEN, .SeenText, .BeatenText
 
-	text "Ich bin der Vor-"
-	line "arbeiter hier."
+	text "Ich bin der"
+	line "Vorarbeiter hier."
 
 	para "Wir haben diesen"
 	line "Tunnel gegraben,"
@@ -407,13 +396,12 @@ GenericTrainerEngineerGraden:
 	text "Bewunderst du"
 	line "unser Werk?"
 
-	para "Haha!"
-	line "Bewundere das!"
+	para "Haha! Bewundere"
+	line "das!"
 	done
 
 .BeatenText:
-	text "Haha! Du hast"
-	line "Mut."
+	text "Haha! Du hast Mut."
 	line "Das gefällt mir!"
 	done
 
@@ -421,8 +409,7 @@ GenericTrainerEngineerGustav:
 	generictrainer ENGINEER, GUSTAV, EVENT_BEAT_ENGINEER_GUSTAV, .SeenText, .BeatenText
 
 	text "Ich hab versucht,"
-	line "sie zu"
-	cont "reparieren,"
+	line "sie zu reparieren,"
 	cont "aber es nützt"
 
 	para "nichts… Ich finde"
@@ -431,8 +418,8 @@ GenericTrainerEngineerGustav:
 	cont "ist!"
 
 	para "Wenn ich sie"
-	line "wieder"
-	line "anschalte, könnte"
+	line "wieder anschalte,"
+	cont "könnte"
 
 	para "die Maschine"
 	line "durchbrennen und"
@@ -447,8 +434,7 @@ GenericTrainerEngineerGustav:
 	done
 
 .BeatenText:
-	text "Durchgebrannt!"
-	line "Wie"
+	text "Durchgebrannt! Wie"
 	line "eine Sicherung…"
 	done
 
@@ -457,7 +443,7 @@ GenericTrainerEngineerNicolas:
 
 	text "Die Dinger"
 	line "erzeugen"
-	line "ernsthafte"
+	cont "ernsthafte"
 	cont "Spannung!"
 
 	para "Wenn sie an sind,"
@@ -466,8 +452,7 @@ GenericTrainerEngineerNicolas:
 	para "extrem starkes"
 	line "Magnetfeld."
 
-	para "Also Vorsicht"
-	line "hier"
+	para "Also Vorsicht hier"
 	line "drin, klar?"
 	done
 

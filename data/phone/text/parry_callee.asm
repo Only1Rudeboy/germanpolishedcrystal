@@ -1,6 +1,5 @@
 ParryAnswerPhoneText:
-	text "Jup, jup!"
-	line "Hier "
+	text "Jup, jup! Hier "
 	text_ram wStringBuffer3
 	text "!"
 
@@ -9,8 +8,7 @@ ParryAnswerPhoneText:
 	done
 
 ParryAnswerPhoneDayText:
-	text "Jup, jup!"
-	line "Hier "
+	text "Jup, jup! Hier "
 	text_ram wStringBuffer3
 	text "!"
 
@@ -19,8 +17,7 @@ ParryAnswerPhoneDayText:
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Jup, jup!"
-	line "Hier "
+	text "Jup, jup! Hier "
 	text_ram wStringBuffer3
 	text "!"
 
@@ -44,9 +41,8 @@ ParryGreetDayText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hast du richtig"
-	line "zu Mittag"
-	cont "gegessen?"
+	para "Hast du richtig zu"
+	line "Mittag gegessen?"
 	done
 
 ParryGreetNiteText:
@@ -55,9 +51,8 @@ ParryGreetNiteText:
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hast du richtig"
-	line "zu Abend"
-	cont "gegessen?"
+	para "Hast du richtig zu"
+	line "Abend gegessen?"
 	done
 
 ParryGenericText:

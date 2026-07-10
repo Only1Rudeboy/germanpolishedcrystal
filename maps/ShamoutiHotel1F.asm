@@ -33,9 +33,8 @@ ShamoutiHotel1FReceptionistText:
 	para "Leider sind alle"
 	line "Zimmer belegt,"
 
-	para "aber besuche"
-	line "unser Oasis-"
-	cont "Restaurant."
+	para "aber besuche unser"
+	line "Oasis- Restaurant."
 	done
 
 ShamoutiHotel1FArtistScript:
@@ -67,18 +66,17 @@ ShamoutiHotel1FArtistScript:
 	done
 
 .Text2:
-	text "Was?! <TRENDY>"
-	line "ist nicht das"
-	cont "Coolste?"
+	text "Was?! <TRENDY> ist"
+	line "nicht das Coolste?"
 
-	para "Na, was ist"
-	line "denn heutzutage"
-	cont "das Coolste?"
+	para "Na, was ist denn"
+	line "heutzutage das"
+	cont "Coolste?"
 	done
 
 .Text3:
-	text "Ach ja! Jetzt"
-	line "hab ich's!"
+	text "Ach ja! Jetzt hab"
+	line "ich's!"
 
 	para "<TRENDY> ist"
 	line "einfach das Beste"
@@ -92,17 +90,15 @@ ShamoutiHotel1FArtistScript:
 	done
 
 .Text5:
-	text "Du weißt es!"
-	line "Ich kann nicht"
-	cont "genug von"
-	cont "<TRENDY>"
+	text "Du weißt es! Ich"
+	line "kann nicht genug"
+	cont "von <TRENDY>"
 	cont "bekommen!"
 	done
 
 ShamoutiHotel1FCooltrainermText:
-	text "Also, <TRENDY>"
-	line "ist das neue"
-	cont "Ding?"
+	text "Also, <TRENDY> ist"
+	line "das neue Ding?"
 
 	cont "Das ist echt"
 	cont "cool!"
@@ -115,8 +111,8 @@ ShamoutiHotel1FLadyText:
 	cont "gefunden?"
 
 	para "In Alola, woher"
-	line "ich komme, gibt"
-	cont "es einen Mann,"
+	line "ich komme, gibt es"
+	cont "einen Mann,"
 
 	para "der deinem #mon"
 	line "Hyper-Training"

@@ -22,22 +22,20 @@ GoldenrodDeptStore6FLassText:
 	line "GLÜCKSKANAL?"
 
 	para "Möchtest du"
-	line "gewin-"
-	line "nen, tausche #-"
-	cont "MON mit so vielen"
+	line "gewinnen, tausche"
+	cont "#mon mit so"
+	cont "vielen"
 
-	para "Leuten wie mög-"
-	line "lich, um"
-	cont "verschie-"
-	cont "dene ID-Nummern"
-	cont "zu"
+	para "Leuten wie"
+	line "möglich, um"
+	cont "verschiedene"
+	cont "ID-Nummern zu"
 	cont "erhalten."
 	done
 
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "Wenn du müde"
-	line "bist,"
+	text "Wenn du müde bist,"
 	line "dann hol dir ein"
 	cont "Getränk aus dem"
 	cont "Automaten."
@@ -51,8 +49,8 @@ GoldenrodDeptStore6FDirectoryText:
 	text "Mach eine"
 	line "Einkaufspause!"
 
-	para "5S PLATZ DER"
-	line "   EWIGEN STILLE"
+	para "5S PLATZ DER   "
+	line "EWIGEN STILLE"
 	done
 
 

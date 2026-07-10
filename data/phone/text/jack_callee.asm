@@ -34,8 +34,7 @@ JackGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 JackGreetDayText:
@@ -43,8 +42,7 @@ JackGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Schönes Wetter!"
+	text ". Schönes Wetter!"
 	done
 
 JackGreetNiteText:
@@ -53,8 +51,7 @@ JackGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Hast du Zeit?"
+	text ". Hast du Zeit?"
 	done
 
 JackGenericText:
@@ -63,8 +60,8 @@ JackGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "so neugierig, das"
+	text " ist so neugierig,"
+	line "das"
 
 	para "ist ein Problem."
 	line "Vielleicht wie"

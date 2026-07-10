@@ -144,12 +144,10 @@ Route32CooltrainerMTrigger:
 	para "Das muss vom"
 	line "Training in"
 
-	para "VIOLA CITY"
-	line "kommen."
+	para "VIOLA CITY kommen."
 
 	para "Du solltest alle"
-	line "Trainer auf"
-	cont "dieser"
+	line "Trainer auf dieser"
 
 	para "Route problemlos"
 	line "besiegen können."
@@ -162,19 +160,18 @@ Route32CooltrainerMTrigger:
 
 .QuestionText:
 	text "Du hast"
-	line "anscheinend"
-	line "alle anderen hier"
+	line "anscheinend alle"
+	cont "anderen hier"
 	cont "besiegt."
 
 	para "Dein Training in"
 	line "der Arena muss"
 
-	para "besonders"
-	line "geholfen"
+	para "besonders geholfen"
 	line "haben."
 
-	para "Ich habe auch"
-	line "den Zephyr-Orden."
+	para "Ich habe auch den"
+	line "Zephyr-Orden."
 
 	para "Willst du gegen"
 	line "mich kämpfen?"
@@ -182,8 +179,8 @@ Route32CooltrainerMTrigger:
 
 .RefusedText:
 	text "Du möchtest also"
-	line "lieber weiter-"
-	cont "reisen…"
+	line "lieber"
+	cont "weiterreisen…"
 	done
 
 .SeenText:
@@ -193,8 +190,8 @@ Route32CooltrainerMTrigger:
 	para "übertraf sogar"
 	line "FALK. Mal sehen,"
 
-	para "wie du"
-	line "dagegen ankommst!"
+	para "wie du dagegen"
+	line "ankommst!"
 	done
 
 .BeatenText:
@@ -211,8 +208,7 @@ Route32CooltrainerMTrigger:
 	cont "nimm das."
 
 	para "Es verstärkt"
-	line "Pflanzen-Attacke-"
-	cont "n."
+	line "Pflanzen-Attacken."
 	done
 
 Route32CooltrainerMStopsYou:
@@ -309,35 +305,31 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	end
 
 .GreetingText:
-	text "<PLAYER>!"
-	line "Hallo!"
+	text "<PLAYER>! Hallo!"
 	done
 
 .NoEggText:
 	text "Prof.Lind sagte,"
 	line "sein Gehilfe"
-	cont "bringt dir ein"
-	cont "EI."
+	cont "bringt dir ein EI."
 
 	para "Trag es unbedingt"
 	line "bei dir. Ich bin"
 
 	para "so neugierig,"
-	line "welches"
-	cont "#mon es ist!"
+	line "welches #mon es"
+	cont "ist!"
 	done
 
 .HaveEggText:
-	text "Ach gut! Du"
-	line "trägst"
+	text "Ach gut! Du trägst"
 	line "dieses EI"
 
 	para "genau wie Prof."
 	line "Lind es wollte."
 
 	para "Ich bin so"
-	line "neugierig,"
-	cont "welches"
+	line "neugierig, welches"
 	cont "#mon es ist!"
 	done
 
@@ -393,14 +385,12 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 	cont "gehört."
 
 	para "Das ist eine"
-	line "Versteckte"
-	cont "Grotte!"
+	line "Versteckte Grotte!"
 
-	para "Versteckte"
-	line "Grotten findet"
-	cont "man zwischen"
-	cont "Bäumen und an"
-	cont "Klippen."
+	para "Versteckte Grotten"
+	line "findet man"
+	cont "zwischen Bäumen"
+	cont "und an Klippen."
 
 	para "Vielleicht"
 	line "versteckt sich"
@@ -480,17 +470,16 @@ GenericTrainerCamperRoland:
 
 	text "Wenn du nicht"
 	line "kämpfen möchtest,"
-	cont "vermeide Blick-"
-	cont "kontakt."
+	cont "vermeide"
+	cont "Blickkontakt."
 	done
 GenericTrainerFisherJustin:
 	generictrainer FISHER, JUSTIN, EVENT_BEAT_FISHER_JUSTIN, FisherJustinSeenText, FisherJustinBeatenText
 
-	text "Geduld…"
-	line "Die Voraussetzung"
+	text "Geduld… Die"
+	line "Voraussetzung"
 
-	para "für das Angeln"
-	line "und"
+	para "für das Angeln und"
 	line "für #mon ist"
 	cont "dieselbe."
 	done
@@ -590,8 +579,8 @@ TrainerFisherRalph1:
 	text "Eins, zwei, drei…"
 	line "Muahaha, was für"
 
-	para "ein Fang!"
-	line "Ich bin fertig!"
+	para "ein Fang! Ich bin"
+	line "fertig!"
 
 	para "Fang so viele du"
 	line "kannst, Kleiner!"
@@ -718,8 +707,7 @@ GenericTrainerYoungsterAlbert:
 
 	text "Ich versuche, mit"
 	line "meinen Lieblingen"
-	cont "der Beste zu"
-	cont "sein."
+	cont "der Beste zu sein."
 
 	para "Ich setze nicht"
 	line "auf zähe #mon,"
@@ -728,8 +716,8 @@ GenericTrainerYoungsterAlbert:
 GenericTrainerYoungsterGordon:
 	generictrainer YOUNGSTER, GORDON, EVENT_BEAT_YOUNGSTER_GORDON, YoungsterGordonSeenText, YoungsterGordonBeatenText
 
-	text "Im Gras findest"
-	line "du viele Dinge."
+	text "Im Gras findest du"
+	line "viele Dinge."
 	done
 GenericTrainerBird_keeperPeter:
 	generictrainer BIRD_KEEPER, PETER, EVENT_BEAT_BIRD_KEEPER_PETER, Bird_keeperPeterSeenText, Bird_keeperPeterBeatenText
@@ -762,8 +750,7 @@ FriedaScript:
 
 	text "FRIEDA: Gib es"
 	line "einem #mon, das"
-	cont "über"
-	cont "Gift-Attacken"
+	cont "über Gift-Attacken"
 	cont "verfügt."
 
 	para "Oh!"
@@ -796,8 +783,8 @@ Movement_Route32CooltrainerMReset:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Warte!"
-	line "Warum die Eile?"
+	text "Warte! Warum die"
+	line "Eile?"
 	done
 
 
@@ -828,8 +815,7 @@ Route32CooltrainerMText_VioletGym:
 
 	para "Dort kannst du"
 	line "deine #mon und"
-	cont "dich auf die"
-	cont "Probe"
+	cont "dich auf die Probe"
 	cont "stellen."
 
 	para "Es ist eine Art"
@@ -849,8 +835,7 @@ Text_MillionDollarSlowpokeTail:
 	line "FLEGMONRUTE"
 	cont "zubereitet haben?"
 
-	para "Für dich jetzt"
-	line "nur"
+	para "Für dich jetzt nur"
 	line "¥1,000,000!"
 
 	para "Möchtest du sie?"
@@ -863,10 +848,9 @@ Text_MillionDollarSlowpokeTail:
 FisherJustinSeenText:
 	text "Wow!"
 
-	para "Wegen dir habe"
-	line "ich"
-	line "den Fisch ver-"
-	cont "loren!"
+	para "Wegen dir habe ich"
+	line "den Fisch"
+	cont "verloren!"
 	done
 
 
@@ -883,8 +867,7 @@ FisherJustinBeatenText:
 
 FisherRalph1SeenText:
 	text "Ich beherrsche"
-	line "beides, Angeln"
-	cont "und"
+	line "beides, Angeln und"
 	cont "#mon."
 
 	para "Darum werde ich"
@@ -896,8 +879,8 @@ FisherRalph1SeenText:
 
 
 FisherRalph1BeatenText:
-	text "Ts! Ich wollte"
-	line "die Sache"
+	text "Ts! Ich wollte die"
+	line "Sache"
 	cont "beschleunigen…"
 	done
 
@@ -937,12 +920,11 @@ FisherHenryBeatenText:
 
 
 YoungsterAlbertSeenText:
-	text "Ich habe dich"
-	line "hier"
+	text "Ich habe dich hier"
 	line "noch nie gesehen."
 
-	para "Du denkst also,"
-	line "du bist stark?"
+	para "Du denkst also, du"
+	line "bist stark?"
 	done
 
 
@@ -959,12 +941,12 @@ YoungsterAlbertBeatenText:
 
 YoungsterGordonSeenText:
 	text "Ich habe gute"
-	line "#mon im"
-	cont "Gras gefunden!"
+	line "#mon im Gras"
+	cont "gefunden!"
 
 	para "Ich denke, sie"
-	line "passen ganz gut"
-	cont "zu mir!"
+	line "passen ganz gut zu"
+	cont "mir!"
 	done
 
 
@@ -982,8 +964,8 @@ YoungsterGordonBeatenText:
 
 
 CamperRolandSeenText:
-	text "Dieser Blick…"
-	line "Wie faszinierend."
+	text "Dieser Blick… Wie"
+	line "faszinierend."
 	done
 
 
@@ -1000,8 +982,8 @@ CamperRolandBeatenText:
 
 
 PicnickerLiz1SeenText:
-	text "A-ha. Ja,"
-	line "du weißt…"
+	text "A-ha. Ja, du"
+	line "weißt…"
 
 	para "Wie bitte? Kampf?"
 	line "Ich telefoniere."
@@ -1016,8 +998,7 @@ PicnickerLiz1SeenText:
 
 PicnickerLiz1BeatenText:
 	text "Ich muss meinem"
-	line "Ärger Luft"
-	cont "machen!"
+	line "Ärger Luft machen!"
 	done
 
 
@@ -1047,8 +1028,8 @@ Bird_keeperPeterBeatenText:
 	done
 
 Text_RoarIntro: ; text > text
-	text "BRÜLL!"
-	line "DIE LEUTE LAUFEN"
+	text "BRÜLL! DIE LEUTE"
+	line "LAUFEN"
 
 	para "DAVON, WENN ICH"
 	line "BRÜLLE! DU ABER"
@@ -1065,13 +1046,12 @@ Text_RoarIntro: ; text > text
 
 
 Text_RoarOutro: ; text > text
-	text "BRÜLL!"
-	line "ES IST BRÜLLER!"
+	text "BRÜLL! ES IST"
+	line "BRÜLLER!"
 
 	para "SOGAR #mon"
-	line "LAUFEN DAVON,"
-	cont "WENN DU IHN"
-	cont "EINSETZT!"
+	line "LAUFEN DAVON, WENN"
+	cont "DU IHN EINSETZT!"
 	done
 
 
@@ -1080,14 +1060,14 @@ Text_RoarOutro: ; text > text
 
 
 MeetFriedaText:
-	text "FRIEDA: Juhu!"
-	line "Es ist Freitag!"
+	text "FRIEDA: Juhu! Es"
+	line "ist Freitag!"
 
-	para "Ich bin FRIEDA"
-	line "von Freitag!"
+	para "Ich bin FRIEDA von"
+	line "Freitag!"
 
-	para "Schön dich"
-	line "kennen zu lernen!"
+	para "Schön dich kennen"
+	line "zu lernen!"
 	done
 
 
@@ -1109,14 +1089,12 @@ FriedaFridayText:
 	cont "hast du am"
 	cont "liebsten?"
 
-	para "Ich liebe"
-	line "Freitag."
+	para "Ich liebe Freitag."
 	line "Daran gibt es"
 	cont "keinen Zweifel!"
 
 	para "Denkst du nicht"
-	line "auch, dass"
-	cont "Freitag"
+	line "auch, dass Freitag"
 	cont "großartig ist?"
 	done
 
@@ -1166,10 +1144,10 @@ Route32AdvancedTips1Text:
 Route32AdvancedTips2Text:
 	text "Profi-Tipps!"
 
-	para "Verlierst du"
-	line "gegen einen"
-	cont "Trainer, zahlst"
-	cont "du ihm Geld -"
+	para "Verlierst du gegen"
+	line "einen Trainer,"
+	cont "zahlst du ihm Geld"
+	cont "-"
 
 	para "je nach Anzahl"
 	line "deiner Orden!"

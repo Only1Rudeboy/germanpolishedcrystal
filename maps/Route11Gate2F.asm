@@ -17,9 +17,8 @@ Route11Gate2F_MapScriptHeader:
 Route11Gate2FBinoculars1:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
 	para "Was für eine"
 	line "Aussicht!"
@@ -28,9 +27,8 @@ Route11Gate2FBinoculars1:
 Route11Gate2FBinoculars2:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
 	para "Von AZURIA CITY"
 	line "nach LAVANDIA"

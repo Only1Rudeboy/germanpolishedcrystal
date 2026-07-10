@@ -22,8 +22,8 @@ Route15FuchsiaGateOfficerText:
 	line "einem #DEX? Das"
 
 	para "ist doch schon"
-	line "etwas."
-	cont "Gib nicht auf!"
+	line "etwas. Gib nicht"
+	cont "auf!"
 	done
 
 

@@ -102,17 +102,15 @@ GenericTrainerMediumDoris:
 
 	text "Mist! Ich habe"
 	line "vergessen, dass"
-	cont "ich meine Nieder-"
-	cont "lage gegen dich"
-	cont "voraussah."
+	cont "ich meine"
+	cont "Niederlage gegen"
+	cont "dich voraussah."
 	done
 GenericTrainerPsychicLeon:
 	generictrainer PSYCHIC_T, LEON, EVENT_BEAT_PSYCHIC_LEON, PsychicLeonSeenText, PsychicLeonBeatenText
 
-	text "Sabrina's power"
-	line "is"
-	line "greater than"
-	cont "mine!"
+	text "Sabrina's power is"
+	line "greater than mine!"
 	done
 
 GenericTrainerPsychicJared:
@@ -142,16 +140,15 @@ GenericTrainerHexManiacLuna:
 GenericTrainerHexManiacNatalie:
 	generictrainer HEX_MANIAC, NATALIE, EVENT_BEAT_HEX_MANIAC_NATALIE, HexManiacNatalieSeenText, HexManiacNatalieBeatenText
 
-	text "Vielleicht bin"
-	line "ich nicht für Hex"
+	text "Vielleicht bin ich"
+	line "nicht für Hex"
 	cont "Maniacs gemacht…"
 	done
 
 GenericTrainerPsychicFranklin:
 	generictrainer PSYCHIC_T, FRANKLIN, EVENT_BEAT_PSYCHIC_FRANKLIN, PsychicFranklinSeenText, PsychicFranklinBeatenText
 
-	text "Du hast auch"
-	line "deine"
+	text "Du hast auch deine"
 	line "Seele gestärkt,"
 	cont "nicht nur deine"
 	cont "Fähigkeiten."
@@ -167,11 +164,11 @@ SaffronGymGuyScript:
 	iftrue_jumptextfaceplayer SaffronGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP"
-	line "in spe!"
+	text "He! Ein CHAMP in"
+	line "spe!"
 
-	para "Ein Trainer"
-	line "deines Kalibers"
+	para "Ein Trainer deines"
+	line "Kalibers"
 
 	para "braucht sicher"
 	line "keine Anweisung,"
@@ -180,8 +177,8 @@ SaffronGymGuyScript:
 	line "#mon umzugehen"
 	cont "ist, nicht wahr?"
 
-	para "Ich erwarte"
-	line "Großes von dir!"
+	para "Ich erwarte Großes"
+	line "von dir!"
 
 	para "Viel Glück!"
 	done
@@ -206,22 +203,19 @@ SabrinaIntroText:
 	line "ORDEN haben."
 
 	para "Ich habe keine"
-	line "Freude am"
-	cont "Kämpfen,"
+	line "Freude am Kämpfen,"
 
 	para "aber als LEITERIN"
 	line "ist es meine"
 
-	para "Pflicht, all"
-	line "denen"
+	para "Pflicht, all denen"
 	line "einen ORDEN zu"
 
 	para "geben, die sich"
 	line "als würdig"
 	cont "erwiesen haben."
 
-	para "Da du es"
-	line "wünschst,"
+	para "Da du es wünschst,"
 	line "werde ich dir"
 	cont "meine psychischen"
 	cont "Kräfte zeigen!"
@@ -246,9 +240,8 @@ SabrinaWinLossText:
 	line "sagen, was die"
 	cont "Zukunft bringt…"
 
-	para "Gut, du hast"
-	line "dir den"
-	cont "SUMPFORDEN"
+	para "Gut, du hast dir"
+	line "den SUMPFORDEN"
 	cont "verdient."
 	done
 
@@ -283,8 +276,8 @@ SabrinaMarshBadgeText:
 
 SabrinaFightDoneText:
 	text "SABRINA: Deine"
-	line "Zu-"
-	line "neigung zu deinen"
+	line "Zuneigung zu"
+	cont "deinen"
 
 	para "#mon hat meine"
 	line "Psychostärke"
@@ -303,9 +296,9 @@ SabrinaFightDoneText:
 
 
 MediumDorisSeenText:
-	text "Hehehehe…"
-	line "Ich habe es"
-	cont "deutlich vor mir."
+	text "Hehehehe… Ich habe"
+	line "es deutlich vor"
+	cont "mir."
 
 	para "Ich kann in deine"
 	line "Seele blicken!"
@@ -327,8 +320,7 @@ MediumDorisBeatenText:
 
 PsychicLeonSeenText:
 	text "Du kannst meiner"
-	line "Psycho-Kraft"
-	cont "nicht"
+	line "Psycho-Kraft nicht"
 	cont "widerstehen!"
 	done
 
@@ -339,11 +331,9 @@ PsychicLeonBeatenText:
 
 PsychicJaredSeenText:
 	text "Das KARATE DOJO"
-	line "nebenan war"
-	cont "früher"
+	line "nebenan war früher"
 	cont "die #mon-ARENA"
-	cont "der"
-	cont "Stadt."
+	cont "der Stadt."
 	done
 
 
@@ -351,8 +341,8 @@ PsychicJaredSeenText:
 
 
 PsychicJaredBeatenText:
-	text "Ich war leicht"
-	line "zu besiegen…"
+	text "Ich war leicht zu"
+	line "besiegen…"
 	done
 
 
@@ -365,8 +355,8 @@ HexManiacLunaSeenText:
 	done
 
 HexManiacLunaBeatenText:
-	text "Mein Fluch"
-	line "schlug fehl?"
+	text "Mein Fluch schlug"
+	line "fehl?"
 	done
 
 HexManiacNatalieSeenText:
@@ -390,8 +380,7 @@ PsychicFranklinSeenText:
 
 PsychicFranklinBeatenText:
 	text "Deine Seele ist"
-	line "stärker als"
-	cont "meine!"
+	line "stärker als meine!"
 	done
 
 
@@ -411,8 +400,8 @@ MediumRebeccaSeenText:
 
 
 MediumRebeccaBeatenText:
-	text "Stark…"
-	line "Viel zu stark…"
+	text "Stark… Viel zu"
+	line "stark…"
 	done
 
 
@@ -420,8 +409,7 @@ MediumRebeccaBeatenText:
 
 
 SaffronGymGuyWinText:
-	text "Das war wieder"
-	line "ein"
+	text "Das war wieder ein"
 	line "fantastischer"
 	cont "Kampf!"
 	done

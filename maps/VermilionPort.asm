@@ -208,10 +208,9 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "Wir legen bald"
-	line "ab."
-	line "Komm bitte"
-	cont "an Bord."
+	text "Wir legen bald ab."
+	line "Komm bitte an"
+	cont "Bord."
 	done
 
 
@@ -238,8 +237,8 @@ VermilionPortComeAgainText:
 
 
 VermilionPortSSTicketText:
-	text "<PLAYER> zeigt"
-	line "das BOOTSTICKET."
+	text "<PLAYER> zeigt das"
+	line "BOOTSTICKET."
 
 	para "In Ordnung."
 	line "Dankeschön!"
@@ -247,30 +246,27 @@ VermilionPortSSTicketText:
 
 
 VermilionPortNoTicketText:
-	text "<PLAYER> sucht"
-	line "das BOOTS-"
-	cont "TICKET…"
+	text "<PLAYER> sucht das"
+	line "BOOTS- TICKET…"
 
 	para "…Kein TICKET!"
 
-	para "Tut mir Leid!"
-	line "Du darfst nur"
+	para "Tut mir Leid! Du"
+	line "darfst nur"
 
-	para "mit TICKET"
-	line "an Bord."
+	para "mit TICKET an"
+	line "Bord."
 	done
 
 
 VermilionPortSailMondayText:
-	text "Wir legen"
-	line "nächsten"
+	text "Wir legen nächsten"
 	line "Mittwoch ab."
 	done
 
 
 VermilionPortSailSundayText:
-	text "Wir legen"
-	line "nächsten"
+	text "Wir legen nächsten"
 	line "Sonntag ab."
 	done
 

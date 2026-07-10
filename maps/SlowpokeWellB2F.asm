@@ -32,9 +32,9 @@ SlowpokeWellB2FGymGuideText:
 	cont "entwickelt."
 
 	para "Aufgrund meiner"
-	line "Beobachtungen"
-	cont "habe ich eine"
-	cont "neue Entdeckung"
+	line "Beobachtungen habe"
+	cont "ich eine neue"
+	cont "Entdeckung"
 	cont "gemacht."
 
 	para "Trägt FLEGMON"
@@ -44,20 +44,16 @@ SlowpokeWellB2FGymGuideText:
 	line "einem MUSCHAS"
 	cont "gebissen."
 
-	para "Hier, ich gebe"
-	line "dir einen von"
-	cont "meinen."
+	para "Hier, ich gebe dir"
+	line "einen von meinen."
 	done
 
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
-	text "Ich werde mich"
-	line "wie"
-	line "FLEGMON"
-	cont "verhalten."
+	text "Ich werde mich wie"
+	line "FLEGMON verhalten."
 
-	para "Ich werde"
-	line "geduldig"
+	para "Ich werde geduldig"
 	line "abwarten, bis es"
 	cont "sich entwickelt."
 	done

@@ -37,9 +37,8 @@ GoldenrodMuseum1FLodestoneSignpostScript:
 	jumpthistext
 
 	text "Magnetstein aus"
-	line "dem"
-	line "Bau des Magnet-"
-	cont "zug-Tunnels."
+	line "dem Bau des"
+	cont "Magnetzug-Tunnels."
 	done
 
 GoldenrodMuseum1FRocketScoutScript:
@@ -63,9 +62,9 @@ GoldenrodMuseumReceptionistText:
 
 	para "kostenlos."
 
-	para "Schau dich gern"
-	line "um und viel Spaß"
-	cont "beim Besuch!"
+	para "Schau dich gern um"
+	line "und viel Spaß beim"
+	cont "Besuch!"
 	done
 
 GoldenrodMuseumOfficerText:
@@ -103,20 +102,18 @@ GoldenrodMuseum1FHikerText:
 GoldenrodMuseum1FRadioDishText:
 	text "Eine"
 	line "Metall-Schüssel"
-	line "zum Senden von"
+	cont "zum Senden von"
 
 	para "Radiowellen."
 	done
 
 GoldenrodMuseum1FHarborText:
 	text "Ein Aquarium"
-	line "voller"
-	line "Karpador!"
+	line "voller Karpador!"
 	done
 
 GoldenrodMuseum1FBigPearlText:
-	text "Eine riesige"
-	line "Perle"
+	text "Eine riesige Perle"
 	line "aus dem Hafen von"
 	cont "Dukatia."
 	done
@@ -130,14 +127,14 @@ GoldenrodMuseum1FRocketScoutText1:
 	para "Aber wie kriege"
 	line "ich es hier raus,"
 
-	para "ohne erwischt"
-	line "zu werden?"
+	para "ohne erwischt zu"
+	line "werden?"
 	done
 
 GoldenrodMuseum1FRocketScoutText2:
 	text "Weißt du nicht,"
-	line "dass Starren un-"
-	cont "höflich ist?"
+	line "dass Starren"
+	cont "unhöflich ist?"
 	cont "Verschwinde,"
 	cont "Kleiner!"
 	done

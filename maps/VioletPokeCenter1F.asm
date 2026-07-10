@@ -30,11 +30,10 @@ PokemonJournalFalknerScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Leiter Falkner!"
+	para "Spezial: Leiter"
+	line "Falkner!"
 
-	para "Man sagt,"
-	line "Falkner"
+	para "Man sagt, Falkner"
 	line "verehrte seinen"
 	cont "Vater, der"
 
@@ -81,12 +80,11 @@ VioletPokeCenter1FElmsAideScript:
 
 .PartyAndBoxFull:
 	text "Ach nein. Du"
-	line "kannst"
-	line "keine #mon mehr"
-	cont "bei dir tragen."
+	line "kannst keine"
+	cont "#mon mehr bei"
+	cont "dir tragen."
 
-	para "In deiner Box"
-	line "ist"
+	para "In deiner Box ist"
 	line "auch kein Platz."
 
 	para "Ich warte hier,"
@@ -98,19 +96,17 @@ VioletPokeCenter1FElmsAideScript:
 	setevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
 	jumpthisopenedtext
 
-	text "A-Aber… PROF."
-	line "LIND hat nach"
-	cont "dir"
+	text "A-Aber… PROF. LIND"
+	line "hat nach dir"
 	cont "gefragt…"
 	done
 .IntroText:
 	text "<PLAYER>, lange"
 	line "nicht gesehen."
 
-	para "PROF.LIND hat"
-	line "mich gebeten,"
-	cont "nach dir zu"
-	cont "suchen."
+	para "PROF.LIND hat mich"
+	line "gebeten, nach dir"
+	cont "zu suchen."
 
 	para "Er hat noch eine"
 	line "Bitte an dich."
@@ -125,15 +121,13 @@ VioletPokeCenter1FElmsAideScript:
 	done
 
 .GoodbyeText:
-	text "Wir haben ent-"
-	line "deckt, dass ein"
+	text "Wir haben"
+	line "entdeckt, dass ein"
 
 	para "#mon erst"
-	line "schlüpft,"
-	cont "nachdem"
+	line "schlüpft, nachdem"
 
-	para "es im EI"
-	line "gewachsen"
+	para "es im EI gewachsen"
 	line "ist."
 
 	para "Außerdem muss es"
@@ -151,8 +145,7 @@ VioletPokeCenter1FElmsAideScript:
 	line "können."
 
 	para "Bitte ruf PROF."
-	line "LIND an, wenn"
-	cont "das"
+	line "LIND an, wenn das"
 	cont "EI so weit ist!"
 	done
 .WalkAroundMovement:
@@ -188,26 +181,23 @@ VioletPokeCenter1FGentlemanText:
 	text "Es war vor etwa"
 	line "drei Jahren."
 
-	para "TEAM ROCKET"
-	line "hatte"
+	para "TEAM ROCKET hatte"
 	line "etwas Übles mit"
 	cont "den #mon vor."
 
-	para "Aber die Gerech-"
-	line "tigkeit hat ge-"
-	cont "siegt! Ein"
-	cont "junger"
-	cont "Trainer hat sie"
-	cont "zerschlagen."
+	para "Aber die"
+	line "Gerechtigkeit hat"
+	cont "gesiegt! Ein"
+	cont "junger Trainer hat"
+	cont "sie zerschlagen."
 	done
 VioletPokeCenter1FSageText:
 	text "Manche Sonnkern"
 	line "tragen ein"
 	cont "Goldblatt."
 
-	para "Und manche"
-	line "Myrapla ein"
-	cont "Silberblatt."
+	para "Und manche Myrapla"
+	line "ein Silberblatt."
 
 	para "Das schätzen"
 	line "bestimmte Leute"
@@ -217,16 +207,13 @@ VioletPokeCenter1FSageText:
 VioletPokeCenter1FYoungsterText:
 	text "#mon sind"
 	line "schlau. Sie"
-	cont "gehor-"
-	cont "chen nur"
-	cont "Trainern,"
-	cont "vor denen sie"
-	cont "auch"
+	cont "gehorchen nur"
+	cont "Trainern, vor"
+	cont "denen sie auch"
 	cont "Respekt haben."
 
 	para "Hat der Trainer"
-	line "nicht genug"
-	cont "ORDEN,"
+	line "nicht genug ORDEN,"
 
 	para "machen sie, was"
 	line "sie wollen."

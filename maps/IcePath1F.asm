@@ -43,23 +43,21 @@ SkierMariaSeenText:
 	done
 
 SkierMariaBeatenText:
-	text "Deine"
-	line "Kampftechnik"
-	line "ist bewunderns-"
-	cont "wert!"
+	text "Deine Kampftechnik"
+	line "ist"
+	cont "bewundernswert!"
 	done
 
 BoarderStefanSeenText:
 	text "Brrr… So kalt!"
 
-	para "Lass uns mit"
-	line "einem #mon-"
-	cont "Kampf aufwärmen!"
+	para "Lass uns mit einem"
+	line "#mon- Kampf"
+	cont "aufwärmen!"
 	done
 
 BoarderStefanBeatenText:
 	text "Diese Kälte ist"
-	line "die"
-	line "Scham der Nieder-"
-	cont "lage…"
+	line "die Scham der"
+	cont "Niederlage…"
 	done

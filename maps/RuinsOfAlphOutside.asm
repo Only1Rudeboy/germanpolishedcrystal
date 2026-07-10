@@ -154,10 +154,9 @@ RuinsOfAlphOutsideYoungster1Script:
 	line "Arten von"
 	cont "Icognito,"
 
-	para "darum benutzen"
-	line "wir sie für"
-	cont "unsere Geheim-"
-	cont "codes."
+	para "darum benutzen wir"
+	line "sie für unsere"
+	cont "Geheimcodes."
 	done
 
 
@@ -172,16 +171,14 @@ GenericTrainerPsychicNathan:
 	generictrainer PSYCHIC_T, NATHAN, EVENT_BEAT_PSYCHIC_NATHAN, PsychicNathanSeenText, PsychicNathanBeatenText
 
 	text "Ich komme oft"
-	line "hierher, um nach-"
-	cont "zudenken."
+	line "hierher, um"
+	cont "nachzudenken."
 	done
 GenericTrainerSuperNerdStan:
 	generictrainer SUPER_NERD, STAN, EVENT_BEAT_SUPER_NERD_STAN, SuperNerdStanSeenText, SuperNerdStanBeatenText
 
-	text "Die Ruinen"
-	line "stammen"
-	line "aus einer Zeit"
-	cont "vor"
+	text "Die Ruinen stammen"
+	line "aus einer Zeit vor"
 	cont "etwa 1500 Jahren."
 
 	para "Niemand weiß, wer"
@@ -230,8 +227,8 @@ endr
 RuinsOfAlphOutsideScientistText:
 	text "Hm? Das ist doch"
 	line "ein #DEX, nicht"
-	cont "wahr? Darf ich"
-	cont "ihn sehen?"
+	cont "wahr? Darf ich ihn"
+	cont "sehen?"
 
 	para "Es gibt so viele"
 	line "unterschiedliche"
@@ -256,8 +253,8 @@ RuinsOfAlphOutsideScientistText:
 	cont "viel mehr davon."
 
 	para "Ich weiß! Lass"
-	line "mich deinen #-"
-	cont "DEX erweitern."
+	line "mich deinen"
+	cont "#dex erweitern."
 	cont "Mir nach!"
 	done
 
@@ -266,9 +263,9 @@ RuinsOfAlphOutsideScientistText:
 
 
 SuperNerdStanSeenText:
-	text "Was willst du?"
-	line "Ich lerne--"
-	cont "stör mich nicht!"
+	text "Was willst du? Ich"
+	line "lerne-stör mich"
+	cont "nicht!"
 	done
 
 
@@ -317,14 +314,13 @@ RuinsOfAlphOutsideMysteriousHallSignText:
 	text "Geheimnisvolle"
 	line "Halle"
 
-	para "Bitte pass auf,"
-	line "wo du hintrittst."
+	para "Bitte pass auf, wo"
+	line "du hintrittst."
 	done
 
 RuinsOfAlphSignText:
-	text "ALPH-RUINEN"
-	line "Fremde"
-	cont "willkommen!"
+	text "ALPH-RUINEN Fremde"
+	line "willkommen!"
 	done
 
 
@@ -336,8 +332,7 @@ RuinsOfAlphResearchCenterSignText:
 	line "FORSCHUNGSZENTRUM"
 
 	para "DIE AUTORITÄT IN"
-	line "SACHEN"
-	cont "ALPH-RUINEN"
+	line "SACHEN ALPH-RUINEN"
 	done
 
 
@@ -373,8 +368,7 @@ RuinsOfAlphOutsideFisherText1:
 	line "RUINEN haben wir"
 
 	para "plötzlich eine"
-	line "seltsame"
-	cont "Gegenwart"
+	line "seltsame Gegenwart"
 	cont "gespürt."
 
 	para "Alle hatten Angst"
@@ -411,15 +405,13 @@ RuinsofAlphScientistClimax1Text:
 RuinsofAlphScientistClimax2Text:
 	text "Unglaublich!"
 
-	para "Die ganze Zeit"
-	line "war hier eine"
-	cont "weitere Kammer"
-	cont "verborgen!"
+	para "Die ganze Zeit war"
+	line "hier eine weitere"
+	cont "Kammer verborgen!"
 
 	para "Wir könnten Jahre"
 	line "damit verbringen,"
-	cont "sie zu"
-	cont "erforschen!"
+	cont "sie zu erforschen!"
 
 	para "…Allerdings war"
 	line "das ein ziemlich"

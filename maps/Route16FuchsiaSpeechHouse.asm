@@ -31,9 +31,8 @@ Route16FuchsiaSpeechHouseLadyText:
 	cont "wohnte,"
 
 	para "ist vor drei"
-	line "Jahren"
-	cont "weggezogen."
+	line "Jahren weggezogen."
 
-	para "Ich frage mich,"
-	line "wo sie ist…"
+	para "Ich frage mich, wo"
+	line "sie ist…"
 	done

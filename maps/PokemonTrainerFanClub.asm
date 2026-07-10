@@ -21,17 +21,16 @@ PokemonJournalBrunoScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "TOP VIER Bruno!"
+	para "Spezial: TOP VIER"
+	line "Bruno!"
 
-	para "Bruno soll der"
-	line "TOP VIER aus"
+	para "Bruno soll der TOP"
+	line "VIER aus"
 
-	para "brennendem Ehr-"
-	line "geiz beigetreten"
-	cont "sein, um gegen"
+	para "brennendem Ehrgeiz"
+	line "beigetreten sein,"
+	cont "um gegen"
 
-	para "die besten"
-	line "Trainer zu"
-	cont "kämpfen."
+	para "die besten Trainer"
+	line "zu kämpfen."
 	done

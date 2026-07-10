@@ -16,8 +16,7 @@ PewterNidoranSpeechHouse_MapScriptHeader:
 	pokemon_event  4,  5, NIDORAN_M, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PURPLE, PewterNidoranText, -1
 
 PewterNidoranSpeechHouseSuperNerdText:
-	text "NIDORAN,"
-	line "schüttle!"
+	text "NIDORAN, schüttle!"
 	done
 
 

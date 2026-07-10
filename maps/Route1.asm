@@ -25,9 +25,8 @@ GenericTrainerSchoolboyDanny:
 	line "ungeschriebenes"
 
 	para "Gesetz, dass"
-	line "Trai-"
-	line "ner kämpfen, wenn"
-	cont "sie sich"
+	line "Trainer kämpfen,"
+	cont "wenn sie sich"
 	cont "begegnen."
 	done
 GenericTrainerSchoolboySherman:
@@ -41,10 +40,9 @@ GenericTrainerSchoolboySherman:
 GenericTrainerCooltrainermFrench:
 	generictrainer COOLTRAINERM, FRENCH, EVENT_BEAT_COOLTRAINERM_FRENCH, CooltrainermFrenchSeenText, CooltrainermFrenchBeatenText
 
-	text "Das war ein"
-	line "toller"
-	line "Kampf!"
-	cont "Findest du nicht?"
+	text "Das war ein toller"
+	line "Kampf! Findest du"
+	cont "nicht?"
 	done
 
 GenericTrainerCooltrainerfQuinn:
@@ -68,9 +66,8 @@ SchoolboyDannySeenText:
 
 
 SchoolboyDannyBeatenText:
-	text "Argh… Ich"
-	line "habe erneut"
-	cont "verloren…"
+	text "Argh… Ich habe"
+	line "erneut verloren…"
 	done
 
 
@@ -80,9 +77,8 @@ SchoolboyDannyBeatenText:
 
 SchoolboyShermanSeenText:
 	text "Direkt nach dem"
-	line "Unterricht"
-	line "gehe ich raus"
-	cont "und übe!"
+	line "Unterricht gehe"
+	cont "ich raus und übe!"
 	done
 
 SchoolboyShermanBeatenText:
@@ -94,8 +90,8 @@ CooltrainermFrenchSeenText:
 	text "Du!"
 
 	para "Ich habe auf"
-	line "jemanden wie"
-	cont "dich gewartet!"
+	line "jemanden wie dich"
+	cont "gewartet!"
 	done
 
 CooltrainermFrenchBeatenText:
@@ -104,9 +100,8 @@ CooltrainermFrenchBeatenText:
 	done
 
 CooltrainerfQuinnSeenText:
-	text "Du da!"
-	line "Willst du"
-	cont "kämpfen?"
+	text "Du da! Willst du"
+	line "kämpfen?"
 	done
 
 

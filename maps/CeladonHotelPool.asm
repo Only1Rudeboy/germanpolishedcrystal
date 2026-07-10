@@ -49,8 +49,8 @@ CeladonHotelPoolPokefanMText:
 	text "Nun, ich bin"
 	line "beeindruckt."
 
-	para "Die Anlagen"
-	line "dieses Hotels sind"
+	para "Die Anlagen dieses"
+	line "Hotels sind"
 	cont "unübertroffen!"
 	done
 

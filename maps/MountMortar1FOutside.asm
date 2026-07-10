@@ -29,16 +29,16 @@ GenericTrainerBattleGirlSubaru:
 	generictrainer BATTLE_GIRL, SUBARU, EVENT_BEAT_BATTLE_GIRL_SUBARU, BattleGirlSubaruSeenText, BattleGirlSubaruBeatenText
 
 	text "So viel Klettern"
-	line "und ich bin"
-	cont "immer noch nicht"
-	cont "der Stärkste…"
+	line "und ich bin immer"
+	cont "noch nicht der"
+	cont "Stärkste…"
 	done
 
 GenericTrainerBattleGirlDiane:
 	generictrainer BATTLE_GIRL, DIANE, EVENT_BEAT_BATTLE_GIRL_DIANE, BattleGirlDianeSeenText, BattleGirlDianeBeatenText
 
-	text "Ich verneige"
-	line "mich vor dir."
+	text "Ich verneige mich"
+	line "vor dir."
 	done
 
 BattleGirlSubaruSeenText:
@@ -54,6 +54,6 @@ BattleGirlDianeSeenText:
 	done
 
 BattleGirlDianeBeatenText:
-	text "Diese Runde"
-	line "geht an dich."
+	text "Diese Runde geht"
+	line "an dich."
 	done

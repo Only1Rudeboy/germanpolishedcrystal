@@ -6,10 +6,8 @@ DanaAskNumber1Text:
 	line "nach Kämpfen"
 	cont "Items,"
 
-	para "manchmal zu"
-	line "viele."
-	line "Nächstes Mal"
-	cont "teile"
+	para "manchmal zu viele."
+	line "Nächstes Mal teile"
 
 	para "ich mit dir. Gib"
 	line "mir deine Nummer."
@@ -17,16 +15,14 @@ DanaAskNumber1Text:
 
 DanaAskNumber2Text:
 	text "Ich teile meine"
-	line "Geschenke mit"
-	cont "dir."
+	line "Geschenke mit dir."
 
 	para "Gib mir deine"
 	line "Nummer."
 	done
 
 DanaNumberAcceptedText:
-	text "Wenn ein Junge"
-	line "mir"
+	text "Wenn ein Junge mir"
 	line "was gibt nach"
 	cont "einem"
 
@@ -37,8 +33,7 @@ DanaNumberAcceptedText:
 DanaNumberDeclinedText:
 	text "Ach… Du willst"
 	line "nichts? Aber es"
-	cont "ist"
-	cont "kostenlos…"
+	cont "ist kostenlos…"
 	done
 
 DanaPhoneFullText:
@@ -47,10 +42,8 @@ DanaPhoneFullText:
 	done
 
 DanaRematchText:
-	text "Du bist echt"
-	line "spät!"
-	line "Ich will"
-	cont "loslegen!"
+	text "Du bist echt spät!"
+	line "Ich will loslegen!"
 	done
 
 DanaGiftText:

@@ -1,6 +1,5 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Hör mal, der"
-	line "Stock"
+	text "Hör mal, der Stock"
 	line "meines "
 	text_ram wStringBuffer4
 
@@ -12,14 +11,13 @@ JoseMonsStickHasADeliciousAromaText:
 JoseDefeatedMonText:
 	text "Vor einer Weile"
 	line "besiegte"
-	cont "Farfetch'd"
-	cont "ein wildes "
+	cont "Farfetch'd ein"
+	cont "wildes "
 	text_ram wStringBuffer4
 	text "."
 
 	para "Du hättest sehen"
-	line "sollen, wie es"
-	cont "den"
+	line "sollen, wie es den"
 	cont "Stock schwang!"
 	done
 
@@ -46,11 +44,9 @@ JoseBattleRematchText:
 
 	para ""
 	text_ram wStringBuffer5
-	text " —"
-	line "da bin ich."
+	text " — da bin ich."
 
-	para "Pass auf mich"
-	line "auf!"
+	para "Pass auf mich auf!"
 	done
 
 JoseHangUpText:
@@ -76,8 +72,7 @@ JoseHaventGottenItemYetText:
 	line "Versprechen noch"
 	cont "nicht erfüllt."
 
-	para "Ich ruf an,"
-	line "sobald"
+	para "Ich ruf an, sobald"
 	line "ich was habe."
 
 	para "Kannst du noch"
@@ -86,19 +81,17 @@ JoseHaventGottenItemYetText:
 
 JoseReminderText:
 	text "<PLAYER>, kannst"
-	line "du schnell"
-	cont "kommen?"
+	line "du schnell kommen?"
 
 	para "Farfetch'd ist"
 	line "aufgeregt."
 
 	para "Wenn du nicht"
-	line "kommst, schlägt"
-	cont "es"
+	line "kommst, schlägt es"
 
 	para "mich mit dem"
 	line "Stock!"
-	line ""
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 

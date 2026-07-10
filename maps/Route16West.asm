@@ -27,9 +27,8 @@ GenericTrainerLassGina:
 	generictrainer LASS, GINA, EVENT_BEAT_LASS_GINA, .SeenText, .BeatenText
 
 	text "Meine Sandalen"
-	line "sehen aber"
-	line "total süß aus!"
-	cont "♥"
+	line "sehen aber total"
+	cont "süß aus! ♥"
 	done
 
 .SeenText:
@@ -40,15 +39,13 @@ GenericTrainerLassGina:
 .BeatenText:
 	text "Hätte ich lieber"
 	line "Tränke statt"
-	line "Klamotten"
-	cont "gekauft…"
+	cont "Klamotten gekauft…"
 	done
 
 GenericTrainerLassAlice:
 	generictrainer LASS, ALICE, EVENT_BEAT_LASS_ALICE, .SeenText, .BeatenText
 
-	text "Ich bin"
-	line "eigentlich"
+	text "Ich bin eigentlich"
 	line "ein Junge… Sag es"
 	cont "niemandem!"
 	done
@@ -57,32 +54,29 @@ GenericTrainerLassAlice:
 	text "Unsere Blicke"
 	line "trafen sich!"
 
-	para "Jetzt musst du"
-	line "mit mir ausgehen!"
-	cont "♥"
+	para "Jetzt musst du mit"
+	line "mir ausgehen! ♥"
 
-	para "Ach, ich meine--"
-	line "wir müssen"
-	cont "kämpfen!"
+	para "Ach, ich meine-wir"
+	line "müssen kämpfen!"
 	done
 
 .BeatenText:
-	text "Wie konntest du"
-	line "so grausam sein?"
+	text "Wie konntest du so"
+	line "grausam sein?"
 	done
 
 GenericTrainerCosplayerKuroko:
 	generictrainer COSPLAYER, KUROKO, EVENT_BEAT_COSPLAYER_KUROKO, .SeenText, .BeatenText
 
 	text "Ein Trainer hat"
-	line "mich mal mit"
-	line "einem #BALL"
-	cont "beworfen!"
+	line "mich mal mit einem"
+	cont "#BALL beworfen!"
 	done
 
 .SeenText:
-	text "Sieh mal, wie"
-	line "echt mein Cosplay"
+	text "Sieh mal, wie echt"
+	line "mein Cosplay"
 	cont "aussieht!"
 	done
 
@@ -99,7 +93,7 @@ GenericTrainerCooltrainerfSera:
 
 	para "doch das Outfit"
 	line "einer"
-	line "Ass-Trainerin ist"
+	cont "Ass-Trainerin ist"
 	cont "eindrucksvoller."
 	done
 
@@ -117,8 +111,8 @@ GenericTrainerBeautyNicole:
 	generictrainer BEAUTY, BEAUTY_NICOLE, EVENT_BEAT_BEAUTY_NICOLE, .SeenText, .BeatenText
 
 	text "Süße #mon"
-	line "können auch"
-	cont "stark sein!"
+	line "können auch stark"
+	cont "sein!"
 	done
 
 .SeenText:
@@ -129,8 +123,6 @@ GenericTrainerBeautyNicole:
 
 .BeatenText:
 	text "Sie sind sogar"
-	line "süß,"
-	line "wenn sie"
-	cont "ohnmächtig"
-	cont "sind…"
+	line "süß, wenn sie"
+	cont "ohnmächtig sind…"
 	done

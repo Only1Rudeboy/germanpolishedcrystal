@@ -67,17 +67,16 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "Der Radweg"
-	line "führt hier"
-	cont "bergauf."
+	text "Der Radweg führt"
+	line "hier bergauf."
 	done
 
 Route17Route18GateCannotPassText:
 	text "Warte! Hast du"
 	line "kein FAHRRAD?"
 
-	para "Der RADWEG"
-	line "beginnt da vorne."
+	para "Der RADWEG beginnt"
+	line "da vorne."
 
 	para "Ohne FAHRRAD"
 	line "darfst du ihn"

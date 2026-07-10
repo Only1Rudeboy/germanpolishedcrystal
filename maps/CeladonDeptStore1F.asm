@@ -20,9 +20,8 @@ CeladonDeptStore1F_MapScriptHeader:
 	object_event  5,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore1FTeacherText, -1
 
 CeladonDeptStore1FReceptionistText:
-	text "Hallo!"
-	line "Willkommen im"
-	cont "Prismania-"
+	text "Hallo! Willkommen"
+	line "im Prismania-"
 	cont "Kaufhaus!"
 
 	para "Der Wegweiser ist"
@@ -31,8 +30,8 @@ CeladonDeptStore1FReceptionistText:
 
 CeladonDeptStore1FGentlemanText:
 	text "Dieses Kaufhaus"
-	line "gehört zur"
-	cont "selben Kette wie"
+	line "gehört zur selben"
+	cont "Kette wie"
 
 	para "das in Dukatia"
 	line "City."
@@ -43,8 +42,8 @@ CeladonDeptStore1FGentlemanText:
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "Ich bin zum"
-	line "ersten Mal hier."
+	text "Ich bin zum ersten"
+	line "Mal hier."
 
 	para "Es ist so groß…"
 
@@ -53,19 +52,19 @@ CeladonDeptStore1FTeacherText:
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: Service-"
-	line "    schalter"
+	text "1F: Service-    "
+	line "schalter"
 
-	para "2F: Trainer-"
-	line "    Markt"
+	para "2F: Trainer-    "
+	line "Markt"
 
 	para "3F: Technik-Shop"
 
-	para "4F: Weisen-"
-	line "    Geschenke"
+	para "4F: Weisen-    "
+	line "Geschenke"
 
 	para "5F: Apotheke"
 
-	para "6F: Dach-"
-	line "    Atrium"
+	para "6F: Dach-    "
+	line "Atrium"
 	done

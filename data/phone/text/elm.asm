@@ -1,8 +1,7 @@
 ElmPhoneStartText:
 	text "Hallo, <PLAYER>?"
 
-	para "Übertreib es"
-	line "nicht"
+	para "Übertreib es nicht"
 	line "zu sehr."
 
 	para "Heile deine"
@@ -16,8 +15,7 @@ ElmPhoneSawMrPokemonText:
 	para "Hast du Mr.#mon"
 	line "getroffen? Toll!"
 
-	para "Komm sicher"
-	line "wieder"
+	para "Komm sicher wieder"
 	line "zurück!"
 	done
 
@@ -26,11 +24,10 @@ ElmPhonePokemonStolenText:
 	line "sehr aufgebracht."
 
 	para "Ein #mon wurde"
-	line "von uns"
-	cont "gestohlen."
+	line "von uns gestohlen."
 
-	para "Wie kann jemand"
-	line "so etwas tun?"
+	para "Wie kann jemand so"
+	line "etwas tun?"
 	prompt
 
 ElmPhoneCheckingEggText:
@@ -48,8 +45,8 @@ ElmPhoneAssistantText:
 	text "Hallo, <PLAYER>?"
 
 	para "Hast du meinen"
-	line "Assistenten gese-"
-	cont "hen? Er ist im"
+	line "Assistenten"
+	cont "gesehen? Er ist im"
 
 	para "#mon-Center in"
 	line "Viola City."
@@ -58,23 +55,20 @@ ElmPhoneAssistantText:
 ElmPhoneEggUnhatchedText:
 	text "Hallo, <PLAYER>?"
 
-	para "Wie geht's dem"
-	line "Ei?"
-	line "Hat sich was ge-"
-	cont "ändert?"
+	para "Wie geht's dem Ei?"
+	line "Hat sich was"
+	cont "geändert?"
 
-	para "Wenn was"
-	line "passiert,"
+	para "Wenn was passiert,"
 	line "ruf mich an."
 	prompt
 
 ElmPhoneEggHatchedText:
 	text "Hallo, <PLAYER>?"
-	line "Wie geht's dem"
-	cont "Ei?"
+	line "Wie geht's dem Ei?"
 
-	para "Was? Es ist ge-"
-	line "schlüpft? Wow!"
+	para "Was? Es ist"
+	line "geschlüpft? Wow!"
 	cont "Was"
 
 	para "für ein #mon"
@@ -86,8 +80,8 @@ ElmPhoneDiscovery1Text:
 	text "Hallo, <PLAYER>?"
 
 	para "Ich habe gerade"
-	line "etwas Neues ent-"
-	cont "deckt."
+	line "etwas Neues"
+	cont "entdeckt."
 
 	para "Die Zeit, bis ein"
 	line "Ei schlüpft,"
@@ -103,8 +97,8 @@ ElmPhoneDiscovery2Text:
 	line "Rätsel, welche"
 
 	para "Attacken"
-	line "geschlüpf-"
-	line "te #mon haben."
+	line "geschlüpfte"
+	cont "#mon haben."
 
 	para "Wir forschen"
 	line "gerade daran."
@@ -123,8 +117,7 @@ ElmPhonePokerusText:
 	para "#rus, das"
 	line "#mon befällt."
 
-	para "Ja, wie ein"
-	line "Virus,"
+	para "Ja, wie ein Virus,"
 	line "daher #rus."
 
 	para "Es vermehrt sich"
@@ -150,11 +143,9 @@ ElmPhonePokerusText:
 	done
 
 ElmPhoneDisasterText:
-	text "H-hallo?"
-	line "<PLAYER>?"
+	text "H-hallo? <PLAYER>?"
 	line "Das ist eine"
-	cont "Kata-"
-	cont "strophe!"
+	cont "Katastrophe!"
 
 	para "Äh, ähm, es ist"
 	line "schrecklich!"
@@ -168,14 +159,13 @@ ElmPhoneDisasterText:
 
 ElmPhoneEggAssistantText:
 	text "Hallo, <PLAYER>!"
-	line "Wir"
-	line "haben etwas über"
+	line "Wir haben etwas"
+	cont "über"
 
-	para "das Ei heraus-"
-	line "gefunden!"
+	para "das Ei"
+	line "herausgefunden!"
 
-	para "Mein Assistent"
-	line "ist"
+	para "Mein Assistent ist"
 	line "im #mon-Center"
 
 	para "in Viola City."
@@ -185,8 +175,7 @@ ElmPhoneEggAssistantText:
 
 ElmPhoneRocketText:
 	text "<PLAYER>, wie"
-	line "läuft"
-	line "es?"
+	line "läuft es?"
 
 	para "Ich rief an, weil"
 	line "etwas Seltsames"
@@ -198,14 +187,12 @@ ElmPhoneRocketText:
 	para "Sie sprachen von"
 	line "Team Rocket."
 
-	para "<PLAYER>, weißt"
-	line "du"
+	para "<PLAYER>, weißt du"
 	line "etwas darüber?"
 
 	para "Vielleicht ist"
-	line "Team"
-	line "Rocket zurück."
-	cont "Nein,"
+	line "Team Rocket"
+	cont "zurück. Nein,"
 
 	para "das kann nicht"
 	line "stimmen."
@@ -217,8 +204,8 @@ ElmPhoneRocketText:
 ElmPhoneGiftText:
 	text "Hallo, <PLAYER>?"
 
-	para "Ich habe etwas"
-	line "für dich."
+	para "Ich habe etwas für"
+	line "dich."
 
 	para "Kannst du in mein"
 	line "Labor kommen?"
@@ -232,8 +219,8 @@ ElmPhoneEvolutionQuestionText:
 	cont "du"
 
 	para "wissen, wie dein"
-	line "#mon sich ent-"
-	cont "wickelt?"
+	line "#mon sich"
+	cont "entwickelt?"
 	done
 
 ElmPhoneEvoText_None:
@@ -259,8 +246,7 @@ ElmPhoneEvoText_Item:
 	para "wenn es einem"
 	line ""
 	text_ram wStringBuffer4
-	text " aus-"
-	cont "gesetzt wird."
+	text " ausgesetzt wird."
 	prompt
 
 ElmPhoneEvoText_TradeNoItem:
@@ -340,9 +326,8 @@ ElmPhoneEvoText_Happiness_MornDay:
 	cont "wenn es sehr"
 
 	para "glücklich ist,"
-	line "aber"
-	line "nur morgens oder"
-	cont "tagsüber."
+	line "aber nur morgens"
+	cont "oder tagsüber."
 	prompt
 
 ElmPhoneEvoText_Happiness_EveNite:
@@ -351,9 +336,8 @@ ElmPhoneEvoText_Happiness_EveNite:
 	cont "wenn es sehr"
 
 	para "glücklich ist,"
-	line "aber"
-	line "nur abends oder"
-	cont "nachts."
+	line "aber nur abends"
+	cont "oder nachts."
 	prompt
 
 ElmPhoneEvoText_Stat:
@@ -365,8 +349,8 @@ ElmPhoneEvoText_Stat:
 	cont ", aber"
 
 	para "was daraus wird,"
-	line "hängt"
-	line "von Angriff und"
+	line "hängt von Angriff"
+	cont "und"
 
 	para "Verteidigung ab."
 	prompt
@@ -375,8 +359,7 @@ ElmPhoneEvoText_Location:
 	text_ram wStringBuffer3
 	line "entwickelt sich"
 
-	para "beim"
-	line "Levelaufstieg"
+	para "beim Levelaufstieg"
 	line "in "
 	text_ram wStringBuffer4
 	text "."
@@ -388,7 +371,7 @@ ElmPhoneEvoText_Move:
 
 	para "beim"
 	line "Levelaufstieg,"
-	line "wenn es die"
+	cont "wenn es die"
 	cont "Attacke"
 
 	para ""
@@ -401,9 +384,9 @@ ElmPhoneEvoText_Crit:
 	line "entwickelt sich,"
 
 	para "nachdem es in"
-	line "einem"
-	line "Kampf drei Voll-"
-	cont "treffer landet."
+	line "einem Kampf drei"
+	cont "Volltreffer"
+	cont "landet."
 	prompt
 
 ElmPhoneEvoText_Party:
@@ -415,8 +398,7 @@ ElmPhoneEvoText_Party:
 	para "wenn du ein"
 	line ""
 	text_ram wStringBuffer4
-	text " im"
-	cont "Team hast."
+	text " im Team hast."
 	prompt
 
 ElmPhoneEvoText_Egg:
@@ -430,8 +412,7 @@ ElmPhoneEvoText_Pikachu:
 	line "entwickelt sich"
 	cont "mit"
 
-	para "einem"
-	line "ThunderStone"
+	para "einem ThunderStone"
 	line "oder einem Odd"
 	cont "Souvenir."
 	prompt
@@ -468,8 +449,7 @@ ElmPhoneEvoText_SlowpokeGalarian:
 
 	para "King's Rock beim"
 	line "Tausch oder"
-	cont "Level-"
-	cont "aufstieg."
+	cont "Levelaufstieg."
 	prompt
 
 ElmPhoneEvoText_Magneton:
@@ -477,17 +457,14 @@ ElmPhoneEvoText_Magneton:
 	line "entwickelt sich"
 	cont "mit"
 
-	para "einem"
-	line "ThunderStone"
+	para "einem ThunderStone"
 	line "oder beim Level-"
 
 	para "aufstieg in einem"
-	line "magnetischen"
-	cont "Feld."
+	line "magnetischen Feld."
 
 	para "Magnettunnel und"
-	line "Dunkelgrotte"
-	cont "haben"
+	line "Dunkelgrotte haben"
 	cont "so etwas."
 	prompt
 
@@ -509,8 +486,7 @@ ElmPhoneEvoText_Koffing:
 
 	para "Charcoal beim"
 	line "Tausch oder"
-	cont "Level-"
-	cont "aufstieg."
+	cont "Levelaufstieg."
 	prompt
 
 ElmPhoneEvoText_Cubone:
@@ -530,8 +506,7 @@ ElmPhoneEvoText_Scyther:
 	cont "Levelaufstieg"
 
 	para "mit Metal Coat"
-	line "oder"
-	line "Hard Stone."
+	line "oder Hard Stone."
 
 	para "Metal Coat geht"
 	line "auch beim Tausch."
@@ -544,12 +519,10 @@ ElmPhoneEvoText_Eevee:
 	cont "so viele Arten!"
 
 	para "Mit acht"
-	line "verschie-"
-	line "denen Steinen"
-	cont "oder"
+	line "verschiedenen"
+	cont "Steinen oder"
 
-	para "beim"
-	line "Levelaufstieg"
+	para "beim Levelaufstieg"
 	line "bei einem Moss"
 	cont "Rock"
 
@@ -558,15 +531,14 @@ ElmPhoneEvoText_Eevee:
 	cont "und"
 
 	para "Eispfad soll es"
-	line "die"
-	line "geben. Aber Eevee"
+	line "die geben. Aber"
+	cont "Eevee"
 
 	para "entwickelt sich"
 	line "auch bei Sonne"
 	cont "oder"
 
-	para "Mond, wenn es"
-	line "sehr"
+	para "Mond, wenn es sehr"
 	line "glücklich ist!"
 	prompt
 
@@ -578,12 +550,10 @@ ElmPhoneEvoText_MimeJr:
 	para "einem Ice Stone"
 	line "oder beim Level-"
 
-	para "aufstieg bei"
-	line "einem"
+	para "aufstieg bei einem"
 	line "Ice Rock."
 
-	para "Im Eispfad soll"
-	line "es"
+	para "Im Eispfad soll es"
 	line "einen geben."
 	prompt
 
@@ -596,10 +566,9 @@ ElmPhoneEvoText_Stantler:
 	line "Sand."
 
 	para "Holprige Straße"
-	line "und"
-	line "Schneegipfel"
-	cont "haben"
-	cont "so ein Wetter."
+	line "und Schneegipfel"
+	cont "haben so ein"
+	cont "Wetter."
 	prompt
 
 ElmPhoneEvoText_AncientSinnoh:
@@ -617,8 +586,7 @@ ElmPhoneEvoText_AncientSinnoh:
 
 ElmPhoneEvoText_DunsparceSegments:
 	text "Manche werden"
-	line "länger als"
-	cont "andere."
+	line "länger als andere."
 
 	para "Das liegt einfach"
 	line "in ihren Genen."
@@ -630,6 +598,5 @@ ElmPhoneEvolutionRefusedText:
 	prompt
 
 ElmPhoneEndText:
-	text "Pass auf dich"
-	line "auf!"
+	text "Pass auf dich auf!"
 	done

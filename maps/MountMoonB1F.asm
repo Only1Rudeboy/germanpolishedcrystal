@@ -24,8 +24,7 @@ MountMoonB1F_MapScriptHeader:
 
 MountMoonB1FPokefanmText:
 	text "Ich grabe hier"
-	line "unter dem"
-	cont "Mondberg"
+	line "unter dem Mondberg"
 	cont "nach Fossilien."
 
 	para "Manchmal hilft"

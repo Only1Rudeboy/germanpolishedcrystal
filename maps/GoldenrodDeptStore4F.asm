@@ -26,14 +26,12 @@ GoldenrodDeptStore4FGameboyKidScript:
 
 GoldenrodDeptStore4FCooltrainerMText:
 	text "Hey! Ich mag"
-	line "star-"
-	line "ke #mon."
+	line "starke #mon."
 
 	para "Ich füttere sie"
 	line "mit PROTEIN, um"
 	cont "ihren ANGR zu"
-	cont "ver-"
-	cont "stärken."
+	cont "verstärken."
 	done
 
 
@@ -50,21 +48,18 @@ GoldenrodDeptStore4FGameboyKidText:
 	cont "nur durch Tausch."
 
 	para "Ich kenne vier:"
-	line "MASCHOCK,"
-	cont "KADABRA,"
+	line "MASCHOCK, KADABRA,"
 
 	para "ALPOLLO und"
 	line "GEOROK."
 
-	para "Ich hörte, es"
-	line "gibt"
+	para "Ich hörte, es gibt"
 	line "noch weitere."
 	done
 
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Wir kümmern uns"
-	line "um"
+	text "Wir kümmern uns um"
 	line "Ihre #mon!"
 
 	para "3S ARZNEI"

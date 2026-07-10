@@ -23,8 +23,8 @@ PokemonJournalKogaScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "TOP VIER Koga!"
+	para "Spezial: TOP VIER"
+	line "Koga!"
 
 	para "Koga soll über"
 	line "umfassende"
@@ -37,6 +37,5 @@ PokemonJournalKogaScript:
 	line "Medizin, um seine"
 
 	para "#mon wieder"
-	line "gesund zu"
-	cont "pflegen."
+	line "gesund zu pflegen."
 	done

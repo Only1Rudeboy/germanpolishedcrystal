@@ -57,28 +57,25 @@ FuchsiaSafariBallHouseOfficerScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Du hast nicht ge-"
-	line "nug Geld."
+	text "Du hast nicht"
+	line "genug Geld."
 	done
 .IntroText:
-	text "Früher leitete"
-	line "ich"
+	text "Früher leitete ich"
 	line "das Safari-Spiel."
 
 	para "Jetzt, wo es zu"
-	line "ist,"
-	line "muss ich auf"
+	line "ist, muss ich auf"
 
 	para "andere Weise Geld"
 	line "verdienen."
 
 	para "Willst du übrig"
-	line "gebliebene"
-	cont "Safari-"
+	line "gebliebene Safari-"
 	cont "Bälle kaufen?"
 
-	para "Sie sind Sammler-"
-	line "stücke!"
+	para "Sie sind"
+	line "Sammlerstücke!"
 	done
 
 .GoodbyeText:
@@ -87,8 +84,7 @@ FuchsiaSafariBallHouseOfficerScript:
 
 .BagFullText:
 	text "Du kannst sie"
-	line "nicht"
-	line "tragen!"
+	line "nicht tragen!"
 	done
 
 .MenuDataHeader:

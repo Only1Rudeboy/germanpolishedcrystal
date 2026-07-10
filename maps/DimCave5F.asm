@@ -88,15 +88,14 @@ DimCave5FRileyScript:
 	para "Okay, du bist"
 	line "<PLAYER>."
 
-	para "Ich bin Riley."
-	line "Ja,"
+	para "Ich bin Riley. Ja,"
 	line "ich bin Trainer."
 
 	para "Ich besitze eine"
 	line "Mine wie diese —"
 	cont "ein guter"
-	cont "Trainings-"
-	cont "platz für mich."
+	cont "Trainingsplatz für"
+	cont "mich."
 
 	para "Wenn du willst,"
 	line "können wir"
@@ -111,9 +110,9 @@ DimCave5FRileyScript:
 	done
 
 .NoText:
-	text "Na gut."
-	line "Dann trainieren"
-	cont "wir weiter hier."
+	text "Na gut. Dann"
+	line "trainieren wir"
+	cont "weiter hier."
 	done
 
 .BeatenText:
@@ -121,8 +120,7 @@ DimCave5FRileyScript:
 	line "mal kämpfen wir"
 	cont "zusammen."
 
-	para "Schön, wie"
-	line "Trainer"
+	para "Schön, wie Trainer"
 	line "miteinander"
 	cont "umgehen können."
 	done
@@ -177,23 +175,21 @@ GenericTrainerSuper_nerdFoote:
 	done
 
 .SeenText:
-	text "Ich hab ein"
-	line "Rätsel"
+	text "Ich hab ein Rätsel"
 	line "für dich!"
 
 	para "Würdest du ein"
 	line "#mon vor einen"
 
 	para "Lorenbahnwagen"
-	line "stoßen, um fünf"
-	cont "zu retten?"
+	line "stoßen, um fünf zu"
+	cont "retten?"
 	done
 
 .BeatenText:
-	text "Du hast ohne"
-	line "Worte"
-	line "geantwortet…"
-	cont "Wie zen!"
+	text "Du hast ohne Worte"
+	line "geantwortet… Wie"
+	cont "zen!"
 	done
 
 GenericTrainerEngineerHoward:
@@ -202,42 +198,37 @@ GenericTrainerEngineerHoward:
 	text "Das Wasser fließt"
 	line "vom Azuria-Kap"
 
-	para "südwärts und"
-	line "endet im"
-	cont "Kraftwerk."
+	para "südwärts und endet"
+	line "im Kraftwerk."
 	done
 
 .SeenText:
 	text "Dieser Wasserfall"
 	line "versorgt ganz"
-	cont "Kanto mit"
-	cont "Energie!"
+	cont "Kanto mit Energie!"
 	done
 
 .BeatenText:
-	text "Nein! Ein Black-"
-	line "out…"
+	text "Nein! Ein"
+	line "Blackout…"
 	done
 
 GenericTrainerSuper_nerdDave:
 	generictrainer SUPER_NERD, DAVE, EVENT_BEAT_SUPER_NERD_DAVE, .SeenText, .BeatenText
 
 	text "Zum Abbauen"
-	line "braucht"
-	line "man eine"
+	line "braucht man eine"
 	cont "Spitzhacke."
 
 	para "Hier in der Nähe"
-	line "bekommt man"
-	cont "keine."
+	line "bekommt man keine."
 	done
 
 .SeenText:
 	text "Meine Fähigkeiten"
 	line "in Bergbau,"
 
-	para "Juwelen,"
-	line "Schmelzen"
+	para "Juwelen, Schmelzen"
 	line "und Handwerk sind"
 	cont "auf Maximum!"
 	done

@@ -90,11 +90,9 @@ KogaScript:
 	para "VIER. Da ich ein"
 	line "Ninja bin, lebe"
 	cont "ich in der"
-	cont "Dunkel-"
-	cont "heit."
+	cont "Dunkelheit."
 
-	para "Mein"
-	line "komplizierter"
+	para "Mein komplizierter"
 	line "Stil wird dich"
 	cont "verwirren und"
 	cont "vernichten!"
@@ -112,31 +110,28 @@ KogaScript:
 	para "Bei #mon geht"
 	line "es nicht nur um"
 
-	para "Kraft allein -"
-	line "das"
+	para "Kraft allein das"
 	line "wirst du noch"
 	cont "herausfinden!"
 	done
 .BeatenText:
-	text "Ah!"
-	line "Du hast dich als"
-	cont "würdig erwiesen!"
+	text "Ah! Du hast dich"
+	line "als würdig"
+	cont "erwiesen!"
 	done
 .AfterText:
 	text "Ich habe alle"
 	line "meine Register"
 	cont "gezogen."
 
-	para "Alles war"
-	line "umsonst."
+	para "Alles war umsonst."
 	line "Ich muss meine"
 	cont "Fertigkeiten"
 	cont "verbessern."
 
 	para "Betritt den"
 	line "nächsten Raum und"
-	cont "stelle dein"
-	cont "Können"
+	cont "stelle dein Können"
 	cont "unter Beweis!"
 	done
 .SeenRematchText:
@@ -150,13 +145,11 @@ KogaScript:
 	para "Fwahahahaha!"
 
 	para "Meine Fertigkeit"
-	line "wird"
-	line "schwer zu"
-	cont "überwinden"
-	cont "sein!"
+	line "wird schwer zu"
+	cont "überwinden sein!"
 
-	para "Ich zeige dir,"
-	line "was ich meine!"
+	para "Ich zeige dir, was"
+	line "ich meine!"
 	done
 
 .AfterRematchText:
@@ -164,8 +157,7 @@ KogaScript:
 	line "jemanden wie dich"
 	cont "getroffen."
 
-	para "Ich muss mich"
-	line "ganz"
+	para "Ich muss mich ganz"
 	line "meinem Training"
 	cont "widmen."
 	done

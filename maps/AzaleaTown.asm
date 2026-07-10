@@ -163,7 +163,7 @@ AzaleaTownRivalBattleTrigger2:
 	text "Ich hasse"
 	line "Schwäche."
 
-	para "#mon, Trainer -"
+	para "#mon, Trainer"
 	line "es ist egal, wer"
 	cont "oder was."
 
@@ -217,8 +217,8 @@ AzaleaTown_CelebiTrigger:
 	promptbutton
 	turnobject AZALEATOWN_KURT, RIGHT
 	writethistext
-		text "<PLAYER>, hier"
-		line "ist dein GS-Ball"
+		text "<PLAYER>, hier ist"
+		line "dein GS-Ball"
 		cont "zurück!"
 		done
 	promptbutton
@@ -240,8 +240,8 @@ AzaleaTown_CelebiTrigger:
 	step_end
 
 AzaleaTownSignText:
-	text "Azalea City"
-	line "Wo Mensch und"
+	text "Azalea City Wo"
+	line "Mensch und"
 
 	para "#mon in"
 	line "Harmonie leben"
@@ -324,7 +324,7 @@ AzaleaTownGrampsScript:
 	text "Die Flegmon sind"
 	line "zurück."
 
-	para "Typisch für sie -"
+	para "Typisch für sie"
 	line "sie haben wohl nur"
 
 	para "irgendwo"
@@ -350,8 +350,8 @@ AzaleaTownTeacherScript:
 	line "verändert, aber"
 
 	para "für mich bleibt er"
-	line "immer mein"
-	cont "kleiner Wooster."
+	line "immer mein kleiner"
+	cont "Wooster."
 	done
 
 .Text1:
@@ -370,8 +370,8 @@ AzaleaTownTeacherScript:
 	cont "ist er entwickelt!"
 
 	para "Oh? Du hast die"
-	line "Flegmon zurück-"
-	cont "gebracht?"
+	line "Flegmon"
+	cont "zurückgebracht?"
 
 	para "Sie brachten den"
 	line "Regen mit!"
@@ -379,8 +379,8 @@ AzaleaTownTeacherScript:
 	para "Vielen, vielen"
 	line "Dank!"
 
-	para "Bitte nimm das,"
-	line "du hast's verdient"
+	para "Bitte nimm das, du"
+	line "hast's verdient"
 	done
 
 AzaleaTownWoosterText:
@@ -444,7 +444,7 @@ AzaleaTownKurtScript:
 AzaleaTownKurtText:
 	text "Könntest du"
 	line "nachsehen, warum"
-	cont "der Steineichen-"
-	cont "wald so unruhig"
-	cont "ist?"
+	cont "der"
+	cont "Steineichenwald so"
+	cont "unruhig ist?"
 	done

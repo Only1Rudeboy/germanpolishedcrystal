@@ -1,8 +1,8 @@
 BillPhoneMornGreetingText:
 	text "Guten Morgen!"
 
-	para "Hier ist der #-"
-	line "mon-Lagerungs-"
+	para "Hier ist der"
+	line "#mon-Lagerungs-"
 
 	para "System-Verwal-"
 	line "tungsdienst."
@@ -11,8 +11,8 @@ BillPhoneMornGreetingText:
 BillPhoneDayGreetingText:
 	text "Guten Tag!"
 
-	para "Hier ist der #-"
-	line "mon-Lagerungs-"
+	para "Hier ist der"
+	line "#mon-Lagerungs-"
 
 	para "System-Verwal-"
 	line "tungsdienst."
@@ -21,8 +21,8 @@ BillPhoneDayGreetingText:
 BillPhoneNiteGreetingText:
 	text "Guten Abend!"
 
-	para "Hier ist der #-"
-	line "mon-Lagerungs-"
+	para "Hier ist der"
+	line "#mon-Lagerungs-"
 
 	para "System-Verwal-"
 	line "tungsdienst."
@@ -34,17 +34,14 @@ BillPhoneGenericText:
 	para "<PLAYER>, bist"
 	line "du's? Moment…"
 
-	para "……"
-	line "……"
+	para "…… ……"
 	done
 
 BillPhoneNotFullText:
-	text "Danke fürs"
-	line "Warten!"
+	text "Danke fürs Warten!"
 
 	para "<PLAYER>, deine"
-	line "Datenbank hat"
-	cont "noch"
+	line "Datenbank hat noch"
 	cont "viel Platz."
 
 	para "Los, fülle sie"
@@ -52,22 +49,19 @@ BillPhoneNotFullText:
 	done
 
 BillPhoneNearlyFullText:
-	text "Danke fürs"
-	line "Warten!"
+	text "Danke fürs Warten!"
 
 	para "<PLAYER>, deine"
-	line "Datenbank ist"
-	cont "fast"
+	line "Datenbank ist fast"
 	cont "überlastet!"
 
 	para "Vielleicht"
-	line "solltest"
-	line "du speichern?"
+	line "solltest du"
+	cont "speichern?"
 	done
 
 BillPhoneFullText:
-	text "Danke fürs"
-	line "Warten!"
+	text "Danke fürs Warten!"
 
 	para "<PLAYER>, deine"
 	line "Datenbank ist"
@@ -75,53 +69,46 @@ BillPhoneFullText:
 	prompt
 
 BillPhoneNewlyFullText:
-	text "Hi, <PLAYER>?"
-	line "Ich bin's, Bill!"
+	text "Hi, <PLAYER>? Ich"
+	line "bin's, Bill!"
 
 	para "Danke, dass du"
 	line "mein Lagersystem"
 
 	para "benutzt. Das"
-	line "letzte"
-	line "#mon hat mein"
-	cont "System"
+	line "letzte #mon hat"
+	cont "mein System"
 	cont "überlastet!"
 	prompt
 
 BillWholePCFullText:
-	text "Wow, du hast"
-	line "einen"
+	text "Wow, du hast einen"
 	line "ganzen Server"
 	cont "voll."
 
 	para "Du musst #mon"
 	line "freilassen, um"
-	cont "Platz"
-	cont "zu schaffen."
+	cont "Platz zu schaffen."
 	done
 
 BillFlushBySaving:
 	text "Es muss erst"
-	line "aufgeräumt"
-	cont "werden,"
+	line "aufgeräumt werden,"
 
 	para "bevor du den PC"
 	line "weiter nutzen"
 	cont "kannst."
 
 	para "Speichere das"
-	line "Spiel,"
-	line "um den PC weiter"
-	cont "zu"
-	cont "nutzen."
+	line "Spiel, um den PC"
+	cont "weiter zu nutzen."
 
 	para "Willst du jetzt"
 	line "speichern?"
 	done
 
 BillThankYouText:
-	text "Danke, dass du"
-	line "das"
+	text "Danke, dass du das"
 	line "PC-Lagersystem"
 	cont "benutzt!"
 	done
@@ -136,13 +123,12 @@ BillCallMeToSwitch:
 	prompt
 
 BillPhoneSecondBadgeText:
-	text "Hey, Trainer!"
-	line "Ich bin's, Bill!"
+	text "Hey, Trainer! Ich"
+	line "bin's, Bill!"
 
 	para "Ich rufe an, um"
 	line "euch vor Wonder"
-	cont "Trading zu"
-	cont "warnen."
+	cont "Trading zu warnen."
 
 	para "Die Maschine war"
 	line "in letzter Zeit"
@@ -150,15 +136,12 @@ BillPhoneSecondBadgeText:
 	cont "meine"
 
 	para "Reparaturen sind"
-	line "noch nicht"
-	cont "fertig."
+	line "noch nicht fertig."
 
-	para "Wenn du in"
-	line "Dukatia"
+	para "Wenn du in Dukatia"
 	line "City bist,"
 
-	para "sei vorsichtig"
-	line "mit"
+	para "sei vorsichtig mit"
 	line "Wonder Trading."
 
 	para "Du könntest ein"

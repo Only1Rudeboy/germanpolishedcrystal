@@ -110,10 +110,9 @@ CianwoodCityChucksWife:
 	iftrue_jumptextfaceplayer ChucksWifeChubbyText
 	jumpthistextfaceplayer
 
-	text "Du bist übers"
-	line "Meer gekommen,"
-	cont "um herzu-"
-	cont "kommen?"
+	text "Du bist übers Meer"
+	line "gekommen, um"
+	cont "herzukommen?"
 
 	para "Das muss hart"
 	line "gewesen sein."
@@ -122,8 +121,7 @@ CianwoodCityChucksWife:
 	line "einfacher, wenn"
 
 	para "dein #mon"
-	line "Fliegen"
-	cont "könnte…"
+	line "Fliegen könnte…"
 	done
 
 CianwoodCitySuicuneApproachMovement:
@@ -157,16 +155,15 @@ CianwoodCityEusineDepartMovement:
 
 
 ChucksWifeChubbyText:
-	text "Mein Mann hat ge-"
-	line "gen dich"
-	cont "verloren."
-	cont "Also muss er här-"
-	cont "ter trainieren."
+	text "Mein Mann hat"
+	line "gegen dich"
+	cont "verloren. Also"
+	cont "muss er härter"
+	cont "trainieren."
 
 	para "Das ist auch gut"
 	line "so. Er hat in"
-	cont "letzter Zeit"
-	cont "etwas"
+	cont "letzter Zeit etwas"
 	cont "Speck angesetzt."
 	done
 
@@ -175,11 +172,9 @@ ChucksWifeChubbyText:
 CianwoodCityYoungsterText:
 	text "Setzt du FLIEGEN"
 	line "ein, kannst du"
-	cont "di-"
-	cont "rekt von hier aus"
-	cont "nach OLIVIANA"
-	cont "CITY"
-	cont "reisen."
+	cont "direkt von hier"
+	cont "aus nach OLIVIANA"
+	cont "CITY reisen."
 	done
 
 
@@ -190,16 +185,14 @@ CianwoodCityPokefanMText:
 	cont "können zerschmet-"
 	cont "tert werden."
 
-	para "Vielleicht"
-	line "findest"
+	para "Vielleicht findest"
 	line "du etwas unter"
 	cont "ihnen."
 
 	para "Deine #mon"
 	line "können ZERTRÜMME-"
 	cont "RER einsetzen, um"
-	cont "sie aus dem Weg"
-	cont "zu"
+	cont "sie aus dem Weg zu"
 	cont "räumen."
 	done
 
@@ -235,12 +228,11 @@ CianwoodCityFisherText:
 	text "Die APOTHEKE von"
 	line "ANEMONIA CITY"
 
-	para "ist seit über"
-	line "500 Jahren im"
+	para "ist seit über 500"
+	line "Jahren im"
 
-	para "Geschäft. Das"
-	line "muss ein Rekord"
-	cont "sein,"
+	para "Geschäft. Das muss"
+	line "ein Rekord sein,"
 	cont "oder?"
 	done
 
@@ -248,12 +240,10 @@ EusineSuicuneText:
 	text "EUSIN: Yo,"
 	line "<PLAYER>."
 
-	para "War das eben"
-	line "nicht"
+	para "War das eben nicht"
 	line "SUICUNE?"
 
-	para "Ich habe nur"
-	line "einen"
+	para "Ich habe nur einen"
 	line "Blick riskiert,"
 
 	para "aber ich dachte,"
@@ -265,26 +255,21 @@ EusineSuicuneText:
 	para "SUICUNE ist schön"
 	line "und fabelhaft."
 
-	para "Und es rennt"
-	line "durch"
-	line "Städte und"
-	cont "Straßen"
+	para "Und es rennt durch"
+	line "Städte und Straßen"
 
 	para "mit wahnsinniger"
 	line "Geschwindigkeit."
 
-	para "Es ist"
-	line "wundervoll…"
+	para "Es ist wundervoll…"
 
-	para "Ich möchte"
-	line "SUICUNE"
+	para "Ich möchte SUICUNE"
 	line "von nahem sehen…"
 
 	para "Ich habe mich"
 	line "entschieden."
 
-	para "Ich kämpfe wie"
-	line "ein"
+	para "Ich kämpfe wie ein"
 	line "Trainer, um mir"
 
 	para "SUICUNEs Respekt"
@@ -298,8 +283,7 @@ EusineSuicuneText:
 
 EusineBeatenText:
 	text "Ich hasse es, das"
-	line "zuzugeben, aber"
-	cont "du"
+	line "zuzugeben, aber du"
 	cont "hast gewonnen."
 	done
 
@@ -308,8 +292,8 @@ EusineBeatenText:
 EusineLossText:
 	text "Ja!"
 
-	para "Suicune wird"
-	line "meine Größe jetzt"
+	para "Suicune wird meine"
+	line "Größe jetzt"
 	cont "erkennen!"
 	done
 
@@ -328,8 +312,7 @@ EusineAfterText:
 	cont "suchen."
 
 	para "Ich bin sicher,"
-	line "dass ich ihm"
-	cont "eines"
+	line "dass ich ihm eines"
 	cont "Tages begegne."
 
 	para "Man sieht sich!"
@@ -341,8 +324,8 @@ CianwoodCitySignText:
 	text "ANEMONIA CITY"
 
 	para "Eine Hafenstadt"
-	line "Umgeben von Stür-"
-	cont "mischer See"
+	line "Umgeben von"
+	cont "Stürmischer See"
 	done
 
 
@@ -366,10 +349,8 @@ CianwoodPharmacySignText:
 	para "APOTHEKE von"
 	line "ANEMONIA CITY"
 
-	para "Gerne erwarten"
-	line "wir"
-	line "Ihre"
-	cont "medizinischen"
+	para "Gerne erwarten wir"
+	line "Ihre medizinischen"
 	cont "Fragen"
 	done
 
@@ -411,7 +392,7 @@ CianwoodAdvancedTipsSignText:
 	cont "ändern!"
 
 	para "Doch du bekommst"
-	line "den ursprüng-"
-	cont "lichen #-Ball"
-	cont "nicht zurück!"
+	line "den ursprünglichen"
+	cont "#-Ball nicht"
+	cont "zurück!"
 	done

@@ -52,13 +52,12 @@ VictoryRoadGateOfficerText:
 
 	para "Du hast die"
 	line "JOHTO-"
-	line "Arena-Heraus-"
+	cont "Arena-Heraus-"
 	cont "forderung"
 	cont "bestanden?"
 
-	para "Die Wachen"
-	line "prüfen deine"
-	cont "ORDEN."
+	para "Die Wachen prüfen"
+	line "deine ORDEN."
 
 	para "Geh weiter."
 	done
@@ -79,8 +78,6 @@ VictoryRoadGateRightBlackBeltText:
 	para "Die TOP VIER sind"
 	line "so stark, dass es"
 
-	para "einem Angst"
-	line "macht."
-	line "Sie erwarten"
-	cont "dich!"
+	para "einem Angst macht."
+	line "Sie erwarten dich!"
 	done

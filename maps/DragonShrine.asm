@@ -335,12 +335,11 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Schön, dass"
-	line "du da bist."
+	text "Hm… Schön, dass du"
+	line "da bist."
 
 	para "Du musst nicht"
-	line "er-"
-	line "klären, warum du"
+	line "erklären, warum du"
 	cont "hier bist."
 
 	para "SANDRA hat dich"
@@ -349,8 +348,7 @@ DragonShrineElderGreetingText:
 	para "Sie ist ein"
 	line "wirklich…"
 
-	para "Tut mir Leid,"
-	line "aber"
+	para "Tut mir Leid, aber"
 	line "ich muss dich"
 	cont "prüfen."
 
@@ -377,8 +375,7 @@ DragonShrineQuestion1Text:
 
 DragonShrineQuestion2Text:
 	text "Was hilft dir im"
-	line "Kampf zu"
-	cont "gewinnen?"
+	line "Kampf zu gewinnen?"
 	done
 
 
@@ -410,8 +407,7 @@ DragonShrineQuestion5Text:
 	text "Starke #mon."
 	line "Schwache #mon."
 
-	para "Was ist"
-	line "wichtiger?"
+	para "Was ist wichtiger?"
 	done
 
 
@@ -446,8 +442,7 @@ DragonShrineMustIInformLanceText:
 	text "SANDRA!"
 
 	para "Dieses Kind ist"
-	line "tadellos, in"
-	cont "Geist"
+	line "tadellos, in Geist"
 	cont "und Talent!"
 
 	para "Gestehe deine"
@@ -455,8 +450,7 @@ DragonShrineMustIInformLanceText:
 	cont "übergib den"
 	cont "DRACHENORDEN!"
 
-	para "…Oder soll ich"
-	line "das"
+	para "…Oder soll ich das"
 	line "SIEGFRIED"
 	cont "erzählen?"
 	done
@@ -480,8 +474,7 @@ DragonShrineElderScoldsClairText:
 
 
 DragonShrineComeAgainText:
-	text "Komme wieder,"
-	line "wenn"
+	text "Komme wieder, wenn"
 	line "du möchtest."
 	done
 
@@ -490,15 +483,13 @@ DragonShrineComeAgainText:
 
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Schön, dass"
-	line "du"
+	text "Hm… Schön, dass du"
 	line "hier bist."
 
 	para "Du kommst zur"
 	line "richtigen Zeit."
 
-	para "Ich habe etwas"
-	line "für"
+	para "Ich habe etwas für"
 	line "dich."
 
 	para "Nimm dieses"
@@ -523,8 +514,7 @@ DragonShrineSymbolicDragonText:
 	cont "unseres Klans."
 
 	para "Du hast bewiesen,"
-	line "dass man dir"
-	cont "eines"
+	line "dass man dir eines"
 
 	para "anvertrauen kann."
 	done
@@ -546,8 +536,7 @@ DragonShrineSilverIsInTrainingText:
 	done
 DragonShrineWrongAnswerText1:
 	text "Hah? Das habe ich"
-	line "nicht"
-	cont "mitbekommen…"
+	line "nicht mitbekommen…"
 	done
 
 
@@ -564,8 +553,7 @@ DragonShrineWrongAnswerText2:
 
 
 DragonShrineRightAnswerText:
-	text "Ach, ich"
-	line "verstehe…"
+	text "Ach, ich verstehe…"
 	done
 
 
@@ -573,8 +561,7 @@ DragonShrineRightAnswerText:
 
 
 DragonShrineElder2Text:
-	text "Es ist schon"
-	line "lange"
+	text "Es ist schon lange"
 	line "her, seit ein"
 
 	para "Trainer die Aner-"
@@ -582,8 +569,7 @@ DragonShrineElder2Text:
 	cont "MEISTERs bekam."
 
 	para "Der letzte war"
-	line "Meister"
-	cont "SIEGFRIED."
+	line "Meister SIEGFRIED."
 	done
 
 
@@ -596,8 +582,7 @@ DragonShrineElder3Text:
 	cont "SIEGFRIED?"
 
 	para "Er ähnelt so"
-	line "unserem MEISTER"
-	cont "in"
+	line "unserem MEISTER in"
 	cont "dessen Jugend."
 
 	para "Es liegt ihnen im"
@@ -672,12 +657,11 @@ DragonShrineRisingBadgeExplanationText:
 	para "Fähigkeit KASKADE"
 	line "einsetzen."
 
-	para "Ferner werden"
-	line "dich alle #mon"
+	para "Ferner werden dich"
+	line "alle #mon"
 
 	para "als Trainer"
-	line "anerkennen und"
-	cont "dir"
+	line "anerkennen und dir"
 
 	para "bedingungslos"
 	line "gehorchen."

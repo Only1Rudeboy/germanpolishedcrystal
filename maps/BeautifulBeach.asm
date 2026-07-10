@@ -56,8 +56,8 @@ GenericTrainerAromaLadyBryony:
 
 .BeatenText:
 	text "Hat dich der"
-	line "Inselduft zum"
-	cont "Sieg beflügelt?"
+	line "Inselduft zum Sieg"
+	cont "beflügelt?"
 	done
 
 GenericTrainerSightseermJaska:
@@ -71,9 +71,9 @@ GenericTrainerSightseermJaska:
 	done
 
 .SeenText:
-	text "Meine Glücks-"
-	line "socken beschützen"
-	cont "mich auf Reisen."
+	text "Meine Glückssocken"
+	line "beschützen mich"
+	cont "auf Reisen."
 	done
 
 .BeatenText:
@@ -106,8 +106,8 @@ GenericTrainerTamerVince:
 GenericTrainerSightseerfRosie:
 	generictrainer SIGHTSEERF, ROSIE, EVENT_BEAT_SIGHTSEERF_ROSIE, .SeenText, .BeatenText
 
-	text "Shamouti-Insel"
-	line "hat so viel"
+	text "Shamouti-Insel hat"
+	line "so viel"
 	cont "Geschichte!"
 
 	para "Ich kann's nicht"
@@ -117,9 +117,9 @@ GenericTrainerSightseerfRosie:
 
 .SeenText:
 	text "Der Schrein, die"
-	line "drei Tempel,"
-	cont "die alten Ruinen…"
-	cont "Wo zuerst hin?"
+	line "drei Tempel, die"
+	cont "alten Ruinen… Wo"
+	cont "zuerst hin?"
 	done
 
 .BeatenText:
@@ -147,8 +147,8 @@ TrainerSwimmerfRachel:
 	line "blaues Wasser…"
 
 	para "Schöner Strand"
-	line "macht seinem"
-	cont "Namen alle Ehre!"
+	line "macht seinem Namen"
+	cont "alle Ehre!"
 	done
 
 .BeatenText:
@@ -177,7 +177,6 @@ GenericTrainerArtistMarlene:
 	done
 
 .BeatenText:
-	text "Sie konnten"
-	line "keinen Kampf"
-	cont "gewinnen…"
+	text "Sie konnten keinen"
+	line "Kampf gewinnen…"
 	done

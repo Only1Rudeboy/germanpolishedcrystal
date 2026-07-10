@@ -45,10 +45,10 @@ OreManiacScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "Geschäft abge-"
-	line "schlossen! Ein"
-	cont "Erz,"
-	cont "das ich verehr!"
+	text "Geschäft"
+	line "abgeschlossen! Ein"
+	cont "Erz, das ich"
+	cont "verehr!"
 	done
 
 .GreetingText:
@@ -60,8 +60,8 @@ OreManiacScript:
 	cont "Erze."
 
 	para "Hast du kein Erz,"
-	line "das mein Herz"
-	cont "zum Beben bringt?"
+	line "das mein Herz zum"
+	cont "Beben bringt?"
 	done
 
 .OfferText:
@@ -77,10 +77,8 @@ OreManiacScript:
 .WrongItemText:
 	text "Huh? Was ist das"
 
-	para "denn? Mit so"
-	line "einem"
-	line "minderwertigen"
-	cont "Erz"
+	para "denn? Mit so einem"
+	line "minderwertigen Erz"
 
 	para "bringst du mein"
 	line "Herz nicht zum"
@@ -92,8 +90,8 @@ OreManiacScript:
 	line "bleibt kalt."
 
 	para "Hoffentlich"
-	line "verkaufst"
-	line "du mir mal eins."
+	line "verkaufst du mir"
+	cont "mal eins."
 	done
 
 GenericTrainerTamerOswald:
@@ -113,8 +111,7 @@ GenericTrainerTamerOswald:
 	text "Als Zirkusmensch"
 	line "geboren."
 
-	para "Jetzt bin ich"
-	line "auch"
+	para "Jetzt bin ich auch"
 	line "ein wilder"
 	cont "Kämpfer."
 	done
@@ -131,8 +128,7 @@ GenericTrainerFirebreatherTala:
 	text "Meine Feuer-"
 	line "spucknummer ist"
 
-	para "bei Touristen"
-	line "sehr"
+	para "bei Touristen sehr"
 	line "beliebt."
 
 	para "Manche spenden"
@@ -142,31 +138,26 @@ GenericTrainerFirebreatherTala:
 .SeenText:
 	text "Heran, heran zur"
 	line "spektakulären"
-	cont "Feuer-"
-	cont "spuck-Show!"
+	cont "Feuerspuck-Show!"
 	done
 
 .BeatenText:
-	text "Schon"
-	line "ausgebrannt!"
+	text "Schon ausgebrannt!"
 	done
 
 GenericTrainerSightseerfNoelle:
 	generictrainer SIGHTSEERF, NOELLE, EVENT_BEAT_SIGHTSEERF_NOELLE, .SeenText, .BeatenText
 
 	text "Ich mache ein"
-	line "Foto-"
-	line "album für meine"
-	cont "Eltern."
+	line "Fotoalbum für"
+	cont "meine Eltern."
 
-	para "Hey, nicht"
-	line "gucken!"
+	para "Hey, nicht gucken!"
 	line "Das ist privat!"
 	done
 
 .SeenText:
-	text "Ach du meine"
-	line "Güte!"
+	text "Ach du meine Güte!"
 	line "Du hast #mon,"
 
 	para "die ich noch nie"
@@ -180,35 +171,31 @@ GenericTrainerSightseerfNoelle:
 	text "Ach… verloren?"
 	line "Kein Problem!"
 
-	para "Selfie! ♥"
-	line "Klick!"
+	para "Selfie! ♥ Klick!"
 	done
 
 GenericTrainerSightseermChester:
 	generictrainer SIGHTSEERM, CHESTER, EVENT_BEAT_SIGHTSEERM_CHESTER, .SeenText, .BeatenText
 
 	text "Du kommst aus"
-	line "Johto?"
-	line "Da war ich noch"
-	cont "nicht!"
+	line "Johto? Da war ich"
+	cont "noch nicht!"
 
 	para "Vielleicht sehen"
-	line "wir uns im Kampf-"
-	cont "turnier."
+	line "wir uns im"
+	cont "Kampfturnier."
 	done
 
 .SeenText:
 	text "Ich reise um die"
 	line "Welt."
 
-	para "Welche Region"
-	line "soll ich als"
-	cont "Nächstes"
+	para "Welche Region soll"
+	line "ich als Nächstes"
 	cont "besuchen?"
 	done
 
 .BeatenText:
-	text "Was für ein"
-	line "tolles"
+	text "Was für ein tolles"
 	line "Erlebnis!"
 	done

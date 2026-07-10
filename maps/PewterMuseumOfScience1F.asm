@@ -46,8 +46,8 @@ Museum1FFossilScientistScript:
 	iftruefwd .ask_old_amber
 	jumpthisopenedtext
 
-	text "Hey! Du hast"
-	line "keine Fossilien."
+	text "Hey! Du hast keine"
+	line "Fossilien."
 	done
 
 .own_helix
@@ -112,8 +112,7 @@ Museum1FFossilScientistScript:
 
 	text "Sprich mich an,"
 	line "wenn du es dir"
-	cont "anders"
-	cont "überlegst."
+	cont "anders überlegst."
 	done
 
 HelixDomeMenuDataHeader:
@@ -189,8 +188,8 @@ FinishResurrect:
 	iffalse_jumpopenedtext NoRoomForFossilPokemonText
 	jumpthisopenedtext
 
-	text "Pass gut auf"
-	line "es auf!"
+	text "Pass gut auf es"
+	line "auf!"
 	done
 
 ResurrectAFossilScript:
@@ -222,8 +221,8 @@ Museum1FReceptionistScript:
 
 	text "Willkommen!"
 
-	para "Dank einer groß-"
-	line "zügigen Spende"
+	para "Dank einer"
+	line "großzügigen Spende"
 	cont "von Silph Co.,"
 
 	para "ist der Eintritt"
@@ -237,8 +236,8 @@ Museum1FReceptionistScript:
 	jumpthistextfaceplayer
 
 	text "Du kannst nicht"
-	line "hinten rein-"
-	cont "schleichen!"
+	line "hinten"
+	cont "reinschleichen!"
 	done
 
 KabutopsFossilSignpostScript:
@@ -276,16 +275,14 @@ AerodactylFossilSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Aerodactyl-"
-	line "Fossil"
+	text "Aerodactyl- Fossil"
 
 	para "Ein primitives,"
 	line "seltenes #mon."
 	done
 
 Museum1FScientistText:
-	text "Wir sind stolz"
-	line "auf"
+	text "Wir sind stolz auf"
 	line "drei Fossilien"
 
 	para "seltener, urzeit-"
@@ -300,31 +297,28 @@ Museum1FFossilScientistText:
 	text "Wusstest du, dass"
 	line "man aus Fossilien"
 
-	para "#mon"
-	line "herstellt?"
+	para "#mon herstellt?"
 
 	para "Wenn du das"
-	line "brauchst, über-"
-	cont "nehme ich das!"
+	line "brauchst,"
+	cont "übernehme ich das!"
 	done
 
 Museum1FGrampsText:
 	text "Das ist ein"
-	line "prächtiges"
-	cont "Fossil!"
+	line "prächtiges Fossil!"
 	done
 
 Museum1FYoungsterText:
-	text "Es gibt zwei"
-	line "Orte,"
+	text "Es gibt zwei Orte,"
 	line "die ich liebe!"
 
 	para "Einer sind die"
-	line "Ruinen von Alph"
-	cont "in Johto."
+	line "Ruinen von Alph in"
+	cont "Johto."
 
-	para "Das andere ist"
-	line "das Museum von"
+	para "Das andere ist das"
+	line "Museum von"
 	cont "Marmoria City!"
 
 	para "Beide haben so"
@@ -366,8 +360,7 @@ AskOldAmberText:
 
 
 ResurrectingPokemonText:
-	text "OK! Ich"
-	line "reanimiere"
+	text "OK! Ich reanimiere"
 	line "das #mon!"
 	done
 
@@ -375,6 +368,6 @@ NoRoomForFossilPokemonText:
 	text "Hey! Du kannst"
 	line "kein weiteres"
 	cont "#mon tragen,"
-	cont "und deine Box"
-	cont "ist auch voll!"
+	cont "und deine Box ist"
+	cont "auch voll!"
 	done

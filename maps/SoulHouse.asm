@@ -44,8 +44,7 @@ AgathaScript:
 AgathaAfterScript:
 	jumpthisopenedtext
 
-	text "Ich erwarte"
-	line "Großes"
+	text "Ich erwarte Großes"
 	line "von dir, wenn du"
 	cont "es dir wünschst."
 	done
@@ -73,19 +72,17 @@ MrFujiText:
 	line "deine #mon"
 
 	para "mit Sorgfalt und"
-	line "Liebe"
-	cont "aufzuziehen."
+	line "Liebe aufzuziehen."
 
-	para "Solche, die #-"
-	line "MON verehren,"
+	para "Solche, die"
+	line "#mon verehren,"
 
 	para "zollen hier den"
 	line "dahingegangenen"
 	cont "#mon ihren"
 	cont "Respekt."
 
-	para "Bekunde bitte"
-	line "dein"
+	para "Bekunde bitte dein"
 	line "Beileid für die"
 
 	para "Seelen der"
@@ -102,9 +99,8 @@ MrFujiText:
 
 
 MrFujiGiveSilphScopeText:
-	text "Hier, ich habe"
-	line "ein Geschenk für"
-	cont "dich."
+	text "Hier, ich habe ein"
+	line "Geschenk für dich."
 
 	para "Bitte, nimm es."
 	done
@@ -120,8 +116,7 @@ MrFujiUseThisText:
 
 SoulHouseTeacherText:
 	text "Ich glaube, hier"
-	line "liegen noch"
-	cont "andere"
+	line "liegen noch andere"
 	cont "#mon begraben."
 
 	para "Es gibt viele"
@@ -174,8 +169,8 @@ AgathaSeenText:
 	para "Bist du gekommen,"
 	line "einem #mon"
 
-	para "nachzutrauern?"
-	line "Es ist vielleicht"
+	para "nachzutrauern? Es"
+	line "ist vielleicht"
 
 	para "nicht mehr hier."
 
@@ -185,8 +180,7 @@ AgathaSeenText:
 	para "woanders, nachdem"
 	line "die Radiostation"
 
-	para "übernahm."
-	line "…………"
+	para "übernahm. …………"
 
 	para "Er hätte kämpfen"
 	line "können, um den"
@@ -194,23 +188,22 @@ AgathaSeenText:
 	para "Turm zu retten!"
 	line "Aber er mischte"
 
-	para "sich nicht ein."
-	line "Zu viel Angst,"
+	para "sich nicht ein. Zu"
+	line "viel Angst,"
 
-	para "seinen Einfluss"
-	line "zu missbrauchen."
+	para "seinen Einfluss zu"
+	line "missbrauchen."
 
 	para "Dieser alte Narr…"
 
-	para "Macht ist dazu"
-	line "da, genutzt zu"
+	para "Macht ist dazu da,"
+	line "genutzt zu"
 
-	para "werden!"
-	line "Du verstehst"
-	cont "mich."
+	para "werden! Du"
+	line "verstehst mich."
 
-	para "Ich zeige dir,"
-	line "was ein mächtiger"
+	para "Ich zeige dir, was"
+	line "ein mächtiger"
 	cont "Trainer kann!"
 	done
 
@@ -225,8 +218,8 @@ AgathaRewardText:
 	cont "Kind."
 
 	para "Ein starker"
-	line "Trainer"
-	line "mit einer tiefen"
+	line "Trainer mit einer"
+	cont "tiefen"
 
 	para "Verbindung zu"
 	line "deinen #mon."

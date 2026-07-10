@@ -248,8 +248,8 @@ BurnedTowerRival_LossText:
 BurnedTowerRival_AfterText2:
 	text "Pah!"
 
-	para "Warum fällst du"
-	line "in ein Loch? Ein"
+	para "Warum fällst du in"
+	line "ein Loch? Ein"
 	cont "echtes Genie"
 
 	para "bist du!"
@@ -259,8 +259,8 @@ BurnedTowerRival_AfterText2:
 	done
 
 BurnedTower1FEusineIntroText:
-	text "Eusine: Ich"
-	line "heiße Eusine."
+	text "Eusine: Ich heiße"
+	line "Eusine."
 
 	para "Ich bin einem"
 	line "#mon namens"
@@ -286,9 +286,9 @@ BurnedTower1FEusineIntroText:
 	done
 
 BurnedTower1FEusineText:
-	text "Eusine: Ich"
-	line "hörte, dass"
-	cont "Suicune in dieser"
+	text "Eusine: Ich hörte,"
+	line "dass Suicune in"
+	cont "dieser"
 
 	para "Turmruine ist,"
 	line "drum bin ich"
@@ -300,8 +300,8 @@ BurnedTower1FEusineText:
 
 BurnedTower1FMortyText:
 	text "Jens: Der"
-	line "Arenaleiter"
-	cont "Teaks muss die"
+	line "Arenaleiter Teaks"
+	cont "muss die"
 
 	para "legendären #mon"
 	line "studieren--"
@@ -318,8 +318,8 @@ BurnedTower1FMortyText:
 
 HexManiacTamaraSeenText:
 	text "Eine seltsame"
-	line "Kraft ist hier"
-	cont "zu spüren…"
+	line "Kraft ist hier zu"
+	cont "spüren…"
 	done
 
 HexManiacTamaraBeatenText:
@@ -340,9 +340,8 @@ FirebreatherNedBeatenText:
 	done
 
 FirebreatherDickBeforeText:
-	text "Hey, ich"
-	line "trainiere hier"
-	cont "heimlich!"
+	text "Hey, ich trainiere"
+	line "hier heimlich!"
 
 	para "Blamier mich"
 	line "nicht, indem du"
@@ -350,17 +349,15 @@ FirebreatherDickBeforeText:
 	done
 
 FirebreatherDickBeatenText:
-	text "Ich bin zu"
-	line "weißer Asche"
-	cont "verbrannt…"
+	text "Ich bin zu weißer"
+	line "Asche verbrannt…"
 	done
 
 FirebreatherDickAfterText:
-	text "Ich war so in"
-	line "mein Training"
-	cont "vertieft, dass"
+	text "Ich war so in mein"
+	line "Training vertieft,"
+	cont "dass"
 
-	para "ich in dieses"
-	line "Loch gefallen"
-	cont "bin."
+	para "ich in dieses Loch"
+	line "gefallen bin."
 	done

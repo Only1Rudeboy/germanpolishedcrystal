@@ -1,7 +1,7 @@
 WadeAnswerPhoneText:
 	text "Hallo? Hier"
 	line "spricht"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "."
 
@@ -12,7 +12,7 @@ WadeAnswerPhoneText:
 WadeAnswerPhoneDayText:
 	text "Hallo? Hier"
 	line "spricht"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "."
 
@@ -22,7 +22,7 @@ WadeAnswerPhoneDayText:
 WadeAnswerPhoneNiteText:
 	text "Hallo? Hier"
 	line "spricht"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "."
 
@@ -36,8 +36,7 @@ WadeGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Schönes Wetter!"
+	text ". Schönes Wetter!"
 	done
 
 WadeGreetDayText:
@@ -45,8 +44,7 @@ WadeGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Schönes Wetter!"
+	text ". Schönes Wetter!"
 	done
 
 WadeGreetNiteText:
@@ -55,8 +53,7 @@ WadeGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Warst du wach?"
+	text ". Warst du wach?"
 	done
 
 WadeGenericText:
@@ -68,9 +65,8 @@ WadeGenericText:
 
 	para "Besonders "
 	text_ram wStringBuffer4
-	text " ist"
-	line "schwer zu"
-	cont "handhaben."
+	text " ist schwer zu"
+	line "handhaben."
 
 	para "Das ist"
 	line "anstrengend."

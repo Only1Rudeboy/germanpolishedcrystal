@@ -28,10 +28,8 @@ WarmBeach_MapScriptHeader:
 GenericTrainerSightseermGareth:
 	generictrainer SIGHTSEERM, GARETH, EVENT_BEAT_SIGHTSEERM_GARETH, .SeenText, .BeatenText
 
-	text "Auch außerhalb"
-	line "von"
-	line "Kämpfen sind"
-	cont "diese"
+	text "Auch außerhalb von"
+	line "Kämpfen sind diese"
 
 	para "Items schöne"
 	line "Souvenirs."
@@ -54,8 +52,7 @@ GenericTrainerAromaLadyHolly:
 	generictrainer AROMA_LADY, HOLLY, EVENT_BEAT_AROMA_LADY_HOLLY, .SeenText, .BeatenText
 
 	text "Der Geruchssinn"
-	line "ist wichtig, um"
-	cont "in"
+	line "ist wichtig, um in"
 	cont "der Natur zu"
 	cont "leben."
 	done
@@ -77,8 +74,7 @@ WarmBeachCooltrainermText:
 	line "#mon, das"
 	cont "spricht!"
 
-	para "Ich würde es"
-	line "nicht"
+	para "Ich würde es nicht"
 	line "glauben, wenn ich"
 
 	para "es nicht selbst"
@@ -95,8 +91,7 @@ WarmBeachCooltrainerfText:
 	para "des Auserwählten"
 	line "spielen."
 
-	para "Ich bin nervös"
-	line "und"
+	para "Ich bin nervös und"
 	line "übe deshalb hier."
 	done
 
@@ -128,8 +123,8 @@ WarmBeachLassScript:
 	jumpthisopenedtext
 
 	text "Eine"
-	line "Muschelglocke,"
-	line "nur für dich!"
+	line "Muschelglocke, nur"
+	cont "für dich!"
 	done
 
 .NotEnoughMoney:
@@ -141,8 +136,8 @@ WarmBeachLassScript:
 
 .Text1:
 	text "Ich sammle"
-	line "Muscheln"
-	line "am Strand und"
+	line "Muscheln am Strand"
+	cont "und"
 
 	para "mache daraus"
 	line "Muschelglocken."
@@ -155,10 +150,8 @@ WarmBeachLassScript:
 	done
 
 .Text3:
-	text "Heute habe ich"
-	line "nur"
-	line "eine"
-	cont "Muschelglocke"
+	text "Heute habe ich nur"
+	line "eine Muschelglocke"
 	cont "gemacht…"
 	done
 
@@ -182,11 +175,10 @@ WarmBeachLadyText:
 	line "bezeichnet."
 
 	para "So steht es in"
-	line "dieser Broschüre"
-	cont "—"
+	line "dieser Broschüre —"
 
-	para "aber wozu sind"
-	line "sie da?"
+	para "aber wozu sind sie"
+	line "da?"
 	done
 
 WarmBeachShackSignText:

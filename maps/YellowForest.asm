@@ -99,8 +99,8 @@ GenericTrainerSchoolgirlSarah:
 	generictrainer SCHOOLGIRL, SARAH, EVENT_BEAT_SCHOOLGIRL_SARAH, SchoolgirlSarahSeenText, SchoolgirlSarahBeatenText
 
 	text "Wären wir in"
-	line "meiner"
-	line "Schule, hätte ich"
+	line "meiner Schule,"
+	cont "hätte ich"
 	cont "gewonnen!"
 	done
 
@@ -131,8 +131,8 @@ GenericTrainerBreederSophie:
 	text "Manchmal nutzen"
 	line "Pikachu ihre"
 
-	para "Elektroschocks,"
-	line "um ohnmächtige"
+	para "Elektroschocks, um"
+	line "ohnmächtige"
 
 	para "Artgenossen zu"
 	line "wecken. Wie süß!"
@@ -238,8 +238,7 @@ YellowForestTutorSeedBombScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Sag Bescheid,"
-	line "wenn"
+	text "Sag Bescheid, wenn"
 	line "du es dir anders"
 	cont "überlegst!"
 	done
@@ -256,8 +255,8 @@ YellowForestTutorSeedBombScript:
 	jumpthisopenedtext
 
 	text "So! Dein #mon"
-	line "kennt jetzt"
-	cont "Seed Bomb!"
+	line "kennt jetzt Seed"
+	cont "Bomb!"
 	done
 
 YellowForestSurfPikachuDoll:
@@ -270,8 +269,8 @@ YellowForestSurfPikachuDoll:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Surf-Pikachu"
-	line "wurde nach Hause"
+	text "Surf-Pikachu wurde"
+	line "nach Hause"
 	cont "geschickt."
 	done
 
@@ -281,9 +280,8 @@ SchoolgirlSarahSeenText:
 	done
 
 SchoolgirlSarahBeatenText:
-	text "Schnief…"
-	line "Du hast mich"
-	cont "besiegt!"
+	text "Schnief… Du hast"
+	line "mich besiegt!"
 	done
 
 SchoolgirlIsabelSeenText:
@@ -298,13 +296,11 @@ SchoolgirlIsabelBeatenText:
 	done
 
 TeacherKathrynSeenText:
-	text "Du da!"
-	line "Du bist Trainer?"
+	text "Du da! Du bist"
+	line "Trainer?"
 
-	para "Lass meine"
-	line "Schüler"
-	line "bloß nicht"
-	cont "weinen!"
+	para "Lass meine Schüler"
+	line "bloß nicht weinen!"
 	done
 
 TeacherKathrynBeatenText:
@@ -314,9 +310,9 @@ TeacherKathrynBeatenText:
 
 BreederSophieSeenText:
 	text "Wusstest du, dass"
-	line "Pikachu ein ent-"
-	cont "wickeltes #mon"
-	cont "ist?"
+	line "Pikachu ein"
+	cont "entwickeltes"
+	cont "#mon ist?"
 	done
 
 BreederSophieBeatenText:
@@ -324,8 +320,8 @@ BreederSophieBeatenText:
 	done
 
 YellowForestWalkerSeenText:
-	text "Hallo!"
-	line "Ich bin Walker."
+	text "Hallo! Ich bin"
+	line "Walker."
 
 	para "Früher war ich"
 	line "Arenaleiter von"
@@ -342,18 +338,16 @@ YellowForestWalkerSeenText:
 	line "Aussicht."
 
 	para "Walker: Du"
-	line "sammelst"
-	line "Orden, oder?"
+	line "sammelst Orden,"
+	cont "oder?"
 
-	para "Dann hat mein"
-	line "Sohn"
+	para "Dann hat mein Sohn"
 	line "gegen dich"
 	cont "verloren!"
 
 	para "Jetzt will ich"
 	line "deine Stärke"
-	cont "selbst"
-	cont "testen."
+	cont "selbst testen."
 
 	para "Ich hab keinen"
 	line "Orden, aber wenn"
@@ -366,13 +360,13 @@ YellowForestWalkerSeenText:
 YellowForestWalkerBeatenText:
 	text "Meine Vogel-"
 	line "#mon… Besiegt!"
-	line "Besiegt!"
+	cont "Besiegt!"
 	done
 
 YellowForestWalkerAfterText:
 	text "Walker: Ich"
-	line "verstehe,"
-	line "warum du gegen"
+	line "verstehe, warum du"
+	cont "gegen"
 
 	para "Falk gewonnen"
 	line "hast."
@@ -388,7 +382,7 @@ YellowForestWalkerAfterText:
 YellowForestWalkerFinalText:
 	text "Walker:"
 	line "Vogel-#mon"
-	line "fliegen durch den"
+	cont "fliegen durch den"
 
 	para "Himmel, weil sie"
 	line "das von ganzem"
@@ -407,21 +401,19 @@ YellowForestWalkerFinalText:
 	done
 
 YellowForestWalkerFlyText:
-	text "Panzaeron,"
-	line "auf, Fliegen!"
+	text "Panzaeron, auf,"
+	line "Fliegen!"
 	done
 
 YellowForestYellowGreetingText:
-	text "Yellow: Hi!"
-	line "Ich bin Yellow!"
+	text "Yellow: Hi! Ich"
+	line "bin Yellow!"
 
-	para "Dieser Wald"
-	line "voller"
+	para "Dieser Wald voller"
 	line "Pikachu…"
 
 	para "Er erinnert mich"
-	line "an meine Heimat"
-	cont "in"
+	line "an meine Heimat in"
 	cont "Kanto."
 
 	para "Dort hab ich mein"
@@ -439,8 +431,7 @@ YellowForestYellowGreetingText:
 	line "sie immer deine"
 	cont "Freunde!"
 
-	para "Ich spüre, dass"
-	line "du"
+	para "Ich spüre, dass du"
 	line "deine #mon"
 
 	para "liebst. Zeig mir,"
@@ -454,11 +445,10 @@ YellowForestYellowWinLossText:
 	done
 
 YellowForestYellowAfterText:
-	text "Yellow: Wow!"
-	line "Du bist wirklich"
+	text "Yellow: Wow! Du"
+	line "bist wirklich"
 
-	para "ein guter"
-	line "Trainer."
+	para "ein guter Trainer."
 	line "Hier, etwas für"
 
 	para "deine Freunde!"
@@ -508,8 +498,7 @@ Text_YellowForestTutorQuestion:
 YellowForestSuperNerdText:
 	text "In deinem Körper"
 	line "gibt es ein"
-	cont "Protein"
-	cont "namens"
+	cont "Protein namens"
 	cont "Pikachurin."
 
 	para "Was hat den Namen"

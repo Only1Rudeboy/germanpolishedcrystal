@@ -33,16 +33,15 @@ Route18WestBikeCheckScript:
 GenericTrainerBikerCharles:
 	generictrainer BIKER, CHARLES, EVENT_BEAT_BIKER_CHARLES, BikerCharlesSeenText, BikerCharlesBeatenText
 
-	text "Durch rücksichts-"
-	line "loses Fahren"
-	cont "passieren viele"
-	cont "Unfälle! Bleib"
-	cont "locker!"
+	text "Durch"
+	line "rücksichtsloses"
+	cont "Fahren passieren"
+	cont "viele Unfälle!"
+	cont "Bleib locker!"
 	done
 BikerCharlesSeenText:
 	text "Wir sind die"
-	line "furchtlosen"
-	cont "Helden"
+	line "furchtlosen Helden"
 	cont "des RADWEGs!"
 	done
 BikerCharlesBeatenText:

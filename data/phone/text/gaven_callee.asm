@@ -1,7 +1,7 @@
 GavenAnswerPhoneText:
 	text "Hallo, hier"
 	line "spricht"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -12,7 +12,7 @@ GavenAnswerPhoneText:
 GavenAnswerPhoneDayText:
 	text "Hallo, hier"
 	line "spricht"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -22,7 +22,7 @@ GavenAnswerPhoneDayText:
 GavenAnswerPhoneNiteText:
 	text "Hallo, hier"
 	line "spricht"
-	line ""
+	cont ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -36,8 +36,7 @@ GavenGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 GavenGreetDayText:
@@ -45,8 +44,7 @@ GavenGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 GavenGreetNiteText:
@@ -55,8 +53,7 @@ GavenGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 GavenGenericText:
@@ -69,7 +66,7 @@ GavenGenericText:
 	cont "ist topfit wie"
 	cont "immer."
 
-	para "Weiter so, bis"
-	line "wir #mon-Champs"
+	para "Weiter so, bis wir"
+	line "#mon-Champs"
 	cont "sind!"
 	done

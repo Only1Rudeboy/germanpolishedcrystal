@@ -47,7 +47,7 @@ OlivineCafeStrengthSailorScript:
 BakerChelsieAfterText:
 	text "Ich gebe meinem"
 	line "Brot immer"
-	line "Vitamine."
+	cont "Vitamine."
 
 	para "Sie machen meine"
 	line "#mon stärker."
@@ -85,8 +85,8 @@ OlivineCafeFishingGuruText:
 	line "CAFE gibt es nur"
 
 	para "delikate"
-	line "Seemanns-"
-	line "kost für MATROSEN"
+	line "Seemannskost für"
+	cont "MATROSEN"
 
 	para "auf dem"
 	line "Speiseplan!"
@@ -96,8 +96,7 @@ OlivineCafeFishingGuruText:
 
 OlivineCafeSailorText:
 	text "Immer wenn ich in"
-	line "diese Stadt"
-	cont "komme,"
+	line "diese Stadt komme,"
 
 	para "gehe ich ins"
 	line "OLIVIANA CITY-"
@@ -118,8 +117,8 @@ BakerChelsieGreetingText:
 	line "kommen in Form!"
 
 	para "Ich hab sie mit"
-	line "meinem Spezial-"
-	line "hefebrot"
+	line "meinem"
+	cont "Spezialhefebrot"
 	cont "aufgezogen!"
 
 	para "Willst du gegen"
@@ -129,7 +128,7 @@ BakerChelsieGreetingText:
 BakerChelsieSeenText:
 	text "Du wirst sehen,"
 	line "was mein Brot"
-	line "kann!"
+	cont "kann!"
 	done
 
 BakerChelsieBeatenText:
@@ -147,9 +146,9 @@ BakerChelsieNoBattleText:
 
 OlivineCafeLyraText1:
 	text "Lyra: Hallo,"
-	line "<PLAYER>!"
-	line "Probier mal das"
-	cont "Essen hier."
+	line "<PLAYER>! Probier"
+	cont "mal das Essen"
+	cont "hier."
 
 	para "Es ist echt"
 	line "lecker!"
@@ -158,18 +157,18 @@ OlivineCafeLyraText1:
 	line "zu viel essen"
 	cont "will…"
 
-	para "Ach, stimmt!"
-	line "Ich hab ein Item"
+	para "Ach, stimmt! Ich"
+	line "hab ein Item"
 
-	para "gefunden, das"
-	line "dir gefallen"
-	cont "könnte. Hier!"
+	para "gefunden, das dir"
+	line "gefallen könnte."
+	cont "Hier!"
 	done
 
 OlivineCafeLyraText2:
 	text "Ist es nicht"
-	line "hübsch?"
-	line "Und nützlich!"
+	line "hübsch? Und"
+	cont "nützlich!"
 
 	para "Na ja, ich muss"
 	line "los."
@@ -190,20 +189,19 @@ OlivineCafeOfficerText:
 	line "ein Klischee,"
 
 	para "aber ich komme"
-	line "immer hierher"
-	line "für Donuts."
+	line "immer hierher für"
+	cont "Donuts."
 
 	para "Ich kann nicht"
 	line "genug bekommen!"
 	done
 
 OlivineCafeYoungsterText:
-	text "Diese Donuts"
-	line "sind toll."
+	text "Diese Donuts sind"
+	line "toll."
 
-	para "Mit Marmelade"
-	line "sind sie mein"
-	cont "Favorit!"
+	para "Mit Marmelade sind"
+	line "sie mein Favorit!"
 
 	para "Nichts geht über"
 	line "einen Donut mit"
@@ -214,7 +212,6 @@ OlivineCafeFisherText:
 	text "Ich würde joggen"
 	line "gehen, aber ich"
 
-	para "will meine"
-	line "Figur nicht"
-	cont "ruinieren."
+	para "will meine Figur"
+	line "nicht ruinieren."
 	done

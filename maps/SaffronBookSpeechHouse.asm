@@ -26,16 +26,14 @@ SaffronBookSpeechHouseLassText:
 
 	para "Uni-Bibliothek in"
 	line "PRISMANIA"
-	line "ausgeliehen."
+	cont "ausgeliehen."
 	done
 
 SaffronBookSpeechHouseBookText:
 	text "Ein Stapel"
-	line "Geschichtenbüche-"
-	cont "r."
+	line "Geschichtenbücher."
 
-	para "Die Prinzessin"
-	line "und"
+	para "Die Prinzessin und"
 	line "das #mon,"
 
 	para "Edward Scherengo-"

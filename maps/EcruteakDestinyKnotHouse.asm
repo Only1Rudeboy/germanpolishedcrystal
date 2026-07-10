@@ -40,8 +40,8 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	line "Schicksals bindet"
 
 	para "dich an die"
-	line "legen-"
-	line "dären #mon…"
+	line "legendären"
+	cont "#mon…"
 
 	para "Bist du etwa eine"
 	line "Art Auserwählter?"
@@ -49,8 +49,8 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 
 .Text1:
 	text "Zwei mächtige"
-	line "Vogel-"
-	line "#mon in Johto,"
+	line "Vogel- #mon in"
+	cont "Johto,"
 
 	para "jeder bewacht ein"
 	line "Trio legendärer"
@@ -61,21 +61,18 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	done
 
 .Text2:
-	text "Was wäre, wenn"
-	line "ein"
+	text "Was wäre, wenn ein"
 	line "Trainer sie alle"
 	cont "fängt?"
 
 	para "Was für ein"
-	line "unwahrscheinli-"
-	cont "ches"
+	line "unwahrscheinliches"
 	cont "Schicksal!"
 	done
 
 .Text3:
 	text "Was? Du hast sie"
-	line "gesehen? Und"
-	cont "sogar"
+	line "gesehen? Und sogar"
 	cont "gefangen?!"
 
 	para "Lass mich deinen"
@@ -86,7 +83,6 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	line "Schicksal gewesen"
 	cont "sein."
 
-	para "Hier, das"
-	line "solltest"
+	para "Hier, das solltest"
 	line "du haben."
 	done

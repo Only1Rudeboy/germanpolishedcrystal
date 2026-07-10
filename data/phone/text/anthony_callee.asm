@@ -1,8 +1,7 @@
 AnthonyAnswerPhoneText:
 	text "Ja, "
 	text_ram wStringBuffer3
-	text ","
-	line "der Wanderer."
+	text ", der Wanderer."
 
 	para "Ah, <PLAYER>!"
 	done
@@ -10,8 +9,7 @@ AnthonyAnswerPhoneText:
 AnthonyAnswerPhoneDayText:
 	text "Ja, "
 	text_ram wStringBuffer3
-	text ","
-	line "der Wanderer."
+	text ", der Wanderer."
 
 	para "Ah, <PLAYER>,"
 	line "stimmt's?"
@@ -20,8 +18,7 @@ AnthonyAnswerPhoneDayText:
 AnthonyAnswerPhoneNiteText:
 	text "Ja, "
 	text_ram wStringBuffer3
-	text ","
-	line "der Wanderer."
+	text ", der Wanderer."
 
 	para "Ah, <PLAYER>,"
 	line "oder?"
@@ -32,8 +29,7 @@ AnthonyGreetText:
 
 	para "Hier ist "
 	text_ram wStringBuffer3
-	text ","
-	line "der Wanderer!"
+	text ", der Wanderer!"
 	done
 
 AnthonyGreetDayText:
@@ -42,8 +38,7 @@ AnthonyGreetDayText:
 
 	para "Hier ist "
 	text_ram wStringBuffer3
-	text ","
-	line "der Wanderer!"
+	text ", der Wanderer!"
 	done
 
 AnthonyGreetNiteText:
@@ -52,8 +47,7 @@ AnthonyGreetNiteText:
 
 	para "Hier ist "
 	text_ram wStringBuffer3
-	text ","
-	line "der Wanderer!"
+	text ", der Wanderer!"
 	done
 
 AnthonyGenericText:
@@ -63,15 +57,14 @@ AnthonyGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " und"
-	line "ich — wir haben"
+	text " und ich — wir"
+	line "haben"
 
-	para "Energie im Über-"
-	line "fluss. Wir"
+	para "Energie im"
+	line "Überfluss. Wir"
 	cont "wandern"
 
 	para "täglich auf"
-	line "Bergen,"
-	line "um uns"
+	line "Bergen, um uns"
 	cont "auszupowern."
 	done

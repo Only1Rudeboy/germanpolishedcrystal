@@ -39,13 +39,11 @@ Route5UndergroundPathSignText:
 Route5AdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "Rasereigen ist"
-	line "ein mächtiges"
-	cont "Item,"
+	para "Rasereigen ist ein"
+	line "mächtiges Item,"
 
-	para "aber es"
-	line "verursacht"
-	cont "Verwirrung."
+	para "aber es verursacht"
+	line "Verwirrung."
 
 	para "Ein #mon mit"
 	line "der Fähigkeit"

@@ -27,15 +27,13 @@ RockTunnel1F_MapScriptHeader:
 GenericTrainerHikerSeamus:
 	generictrainer HIKER, SEAMUS, EVENT_BEAT_HIKER_SEAMUS, HikerSeamusSeenText, HikerSeamusBeatenText
 
-	text "War der"
-	line "FELSTUNNEL"
-	cont "schon immer so"
+	text "War der FELSTUNNEL"
+	line "schon immer so"
 	cont "lang?"
 	done
 
 HikerSeamusSeenText:
-	text "Fast…"
-	line "geschafft…"
+	text "Fast… geschafft…"
 	done
 
 HikerSeamusBeatenText:

@@ -100,8 +100,7 @@ GenericTrainerSwimmerfMayu:
 	text "Mmph? Mmmph"
 	line "mmmmphh?"
 
-	para "Mmmmph"
-	line "mmmmmppphh!"
+	para "Mmmmph mmmmmppphh!"
 	done
 
 .BeatenText:
@@ -119,9 +118,9 @@ GenericTrainerSwimmerfLeona:
 	done
 
 .SeenText:
-	text "Schau! Mein"
-	line "bester Badeanzug"
-	line "und mein bestes"
+	text "Schau! Mein bester"
+	line "Badeanzug und mein"
+	cont "bestes"
 
 	para "#mon!"
 	done
@@ -182,8 +181,7 @@ GenericTrainerSwimmermElmo:
 	generictrainer SWIMMERM, ELMO, EVENT_BEAT_SWIMMERM_ELMO, .SeenText, .BeatenText
 
 	text "Vielleicht sollte"
-	line "ich wieder"
-	cont "angeln…"
+	line "ich wieder angeln…"
 	done
 
 .SeenText:
@@ -205,9 +203,8 @@ GenericTrainerPicnickerCheyenne:
 	generictrainer PICNICKER, CHEYENNE, EVENT_BEAT_PICNICKER_CHEYENNE, .SeenText, .BeatenText
 
 	text "Mit #mon"
-	line "verliere ich"
-	cont "nicht so"
-	cont "schlimm!"
+	line "verliere ich nicht"
+	cont "so schlimm!"
 	done
 
 .SeenText:
@@ -216,8 +213,8 @@ GenericTrainerPicnickerCheyenne:
 	cont "gespielt."
 
 	para "Jetzt spiel ich"
-	line "gern draußen"
-	line "mit #mon!"
+	line "gern draußen mit"
+	cont "#mon!"
 	done
 
 .BeatenText:
@@ -227,18 +224,15 @@ GenericTrainerPicnickerCheyenne:
 GenericTrainerPicnickerAdrian:
 	generictrainer PICNICKER, ADRIAN, EVENT_BEAT_PICNICKER_ADRIAN, .SeenText, .BeatenText
 
-	text "Obwohl ich"
-	line "verlor,"
+	text "Obwohl ich verlor,"
 	line "hatte ich Spaß!"
 	done
 
 .SeenText:
-	text "Hast du es"
-	line "eilig?"
+	text "Hast du es eilig?"
 
-	para "Wie wärs mit"
-	line "einer kurzen"
-	cont "Kampfpause?"
+	para "Wie wärs mit einer"
+	line "kurzen Kampfpause?"
 	done
 
 .BeatenText:
@@ -250,15 +244,15 @@ GenericTrainerCamperPedro:
 
 	text "Vergisst du deine"
 	line "Decke, kannst du"
-	line "dich an ein"
+	cont "dich an ein"
 
 	para "warmes #mon"
 	line "kuscheln!"
 	done
 
 .SeenText:
-	text "Warst du schon"
-	line "mal mit #mon"
+	text "Warst du schon mal"
+	line "mit #mon"
 	cont "campen?"
 	done
 
@@ -270,8 +264,8 @@ GenericTrainerCamperPedro:
 GenericTrainerBird_keeperBert:
 	generictrainer BIRD_KEEPER, BERT, EVENT_BEAT_BIRD_KEEPER_BERT, .SeenText, .BeatenText
 
-	text "Das war ein un-"
-	line "glaublicher"
+	text "Das war ein"
+	line "unglaublicher"
 	cont "Kampf!"
 
 	para "Ich habe"
@@ -281,14 +275,12 @@ GenericTrainerBird_keeperBert:
 .SeenText:
 	text "Gefunden! Ein"
 	line "Trainer, mit dem"
-	cont "ich gern"
-	cont "kämpfe!"
+	cont "ich gern kämpfe!"
 	done
 
 .BeatenText:
 	text "Ich verlor mit"
-	line "aller"
-	line "Kraft!"
+	line "aller Kraft!"
 	done
 
 GenericTrainerBird_keeperErnie:
@@ -300,8 +292,8 @@ GenericTrainerBird_keeperErnie:
 
 .SeenText:
 	text "Hallo, hallo."
-	line "Kämpfst du"
-	line "mit mir?"
+	line "Kämpfst du mit"
+	cont "mir?"
 	done
 
 .BeatenText:

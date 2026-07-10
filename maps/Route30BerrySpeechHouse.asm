@@ -28,8 +28,7 @@ Route30BerryHousePokefanMScript:
 	jumpthisopenedtext
 
 	text "I buy top-quality"
-	line "Mulch in"
-	cont "Goldenrod"
+	line "Mulch in Goldenrod"
 	cont "City."
 	done
 
@@ -38,8 +37,7 @@ Route30BerrySpeechHouseMonEatBerriesText:
 	line "essen Beeren."
 
 	para "Nach dem Pflücken"
-	line "brauchen sie"
-	cont "Zeit,"
+	line "brauchen sie Zeit,"
 	cont "um nachzuwachsen,"
 
 	para "aber Dünger auf"

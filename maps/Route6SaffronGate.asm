@@ -42,8 +42,7 @@ Route6SaffronGuardScript:
 
 Route6SaffronGuardMagnetTrainText:
 	text "Der MAGNETZUG ist"
-	line "das"
-	cont "Aushängeschild"
+	line "das Aushängeschild"
 
 	para "von SAFFRONIA"
 	line "CITY."

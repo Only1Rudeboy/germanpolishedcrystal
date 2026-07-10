@@ -36,8 +36,7 @@ SproutTower1FGrannyScript:
 	text "Ein über 30 m"
 	line "großes KNOFENSA…"
 
-	para "Man sagt, es"
-	line "wurde"
+	para "Man sagt, es wurde"
 	line "die Trägersäule"
 	cont "des Turmes."
 	done
@@ -45,10 +44,9 @@ SproutTower1FGrannyScript:
 	text "Ein über 30 m"
 	line "großes KNOFENSA…"
 
-	para "Man sagt, es"
-	line "wurde die"
-	line "Trägersäule des"
-	cont "Turmes."
+	para "Man sagt, es wurde"
+	line "die Trägersäule"
+	cont "des Turmes."
 	done
 
 GenericTrainerSageChow:
@@ -58,8 +56,8 @@ GenericTrainerSageChow:
 	line "Koexistenz ist"
 	cont "Zusammenarbeit."
 
-	para "Lasst uns dies"
-	line "nie vergessen!"
+	para "Lasst uns dies nie"
+	line "vergessen!"
 	done
 SageChowSeenText:
 	text "Wir bewachen"
@@ -87,11 +85,9 @@ SageChowBeatenText:
 
 
 SproutTower1FSage1Text:
-	text "Nur wenn du es"
-	line "bis"
+	text "Nur wenn du es bis"
 	line "ganz nach oben"
-	cont "schaffst,"
-	cont "erhältst"
+	cont "schaffst, erhältst"
 	cont "du eine VM."
 	done
 
@@ -117,12 +113,11 @@ SproutTower1FSage2Text:
 
 
 SproutTower1FTeacherText:
-	text "Siehst du, wie"
-	line "sie"
+	text "Siehst du, wie sie"
 	line "sich bewegt?"
 
-	para "Die Trainer fin-"
-	line "dest du oben."
+	para "Die Trainer"
+	line "findest du oben."
 	done
 
 
@@ -189,29 +184,27 @@ KimonoGirlMakoScript:
 	para "Ich bin ein"
 	line "KIMONO-GIRL."
 
-	para "Ich bin aus"
-	line "TEAK CITY durch"
-	line "Wald und Höhle"
-	line "hierher gekommen,"
+	para "Ich bin aus TEAK"
+	line "CITY durch Wald"
+	cont "und Höhle hierher"
+	cont "gekommen,"
 
-	para "um in diesem"
-	line "Turm zu"
-	line "trainieren."
+	para "um in diesem Turm"
+	line "zu trainieren."
 
 	para "Kennst du meine"
 	line "fünf tanzenden"
-	line "Cousinen in TEAK?"
+	cont "Cousinen in TEAK?"
 
 	para "Komm wieder und"
 	line "sag mir Bescheid!"
 	done
 
 .SeenText:
-	text "Ach, du hast"
-	line "meine fünf"
+	text "Ach, du hast meine"
+	line "fünf"
 
-	para "tanzenden"
-	line "Cousinen"
+	para "tanzenden Cousinen"
 	line "besiegt?"
 
 	para "Dann fordere ich"
@@ -226,10 +219,9 @@ KimonoGirlMakoScript:
 
 .AfterText:
 	text "Du hast einen"
-	line "tollen"
-	line "Kampfgeist!"
+	line "tollen Kampfgeist!"
 
 	para "Du weißt, was du"
 	line "damit anfangen"
-	line "sollst!"
+	cont "sollst!"
 	done

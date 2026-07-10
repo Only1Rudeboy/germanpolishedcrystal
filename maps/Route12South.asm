@@ -33,8 +33,8 @@ Route12South_MapScriptHeader:
 GenericTrainerFisherMartin:
 	generictrainer FISHER, MARTIN, EVENT_BEAT_FISHER_MARTIN, FisherMartinSeenText, FisherMartinBeatenText
 
-	text "Ich bin zu unge-"
-	line "duldig für das"
+	text "Ich bin zu"
+	line "ungeduldig für das"
 	cont "Angeln…"
 	done
 FisherMartinSeenText:
@@ -52,14 +52,12 @@ GenericTrainerFisherStephen:
 	text "Kennst du schon"
 	line "die Radiosender"
 
-	para "aus KANTO? Es"
-	line "gibt"
+	para "aus KANTO? Es gibt"
 	line "viele hier."
 	done
 FisherStephenSeenText:
 	text "Wenn ich beim"
-	line "Angeln Radio"
-	cont "hören"
+	line "Angeln Radio hören"
 	cont "kann, bin ich"
 	cont "glücklich."
 	done
@@ -73,8 +71,8 @@ GenericTrainerFisherBarney:
 	text "Meiner Meinung"
 	line "nach ist Strom"
 
-	para "das Wichtigste"
-	line "in unserem Leben."
+	para "das Wichtigste in"
+	line "unserem Leben."
 
 	para "Wenn dem nicht so"
 	line "wäre, hätten die"
@@ -84,14 +82,11 @@ GenericTrainerFisherBarney:
 
 	para "fabriziert, als"
 	line "das KRAFTWERK"
-	cont "außer Betrieb"
-	cont "war."
+	cont "außer Betrieb war."
 	done
 FisherBarneySeenText:
-	text "Was ist in"
-	line "unserem"
-	line "alltäglichen"
-	cont "Leben"
+	text "Was ist in unserem"
+	line "alltäglichen Leben"
 	cont "am wichtigsten?"
 	done
 FisherBarneyBeatenText:
@@ -158,9 +153,9 @@ GenericTrainerBird_keeperGail:
 GenericTrainerCoupleVicandtara1:
 	generictrainer COUPLE, VICANDTARA1, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Vic: Tara hat"
-	line "mich schon mal"
-	cont "blamiert gesehen…"
+	text "Vic: Tara hat mich"
+	line "schon mal blamiert"
+	cont "gesehen…"
 	done
 
 .SeenText:
@@ -172,8 +167,8 @@ GenericTrainerCoupleVicandtara1:
 	done
 
 .BeatenText:
-	text "Vic: Oh nein,"
-	line "mein Plan!"
+	text "Vic: Oh nein, mein"
+	line "Plan!"
 	done
 
 GenericTrainerCoupleVicandtara2:
@@ -196,11 +191,11 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 .BeatenText:
-	text "Tara: Oh nein,"
-	line "oh nein…"
+	text "Tara: Oh nein, oh"
+	line "nein…"
 	done
 
 Route12SignText:
-	text "ROUTE 12"
-	line "NORDEN: LAVANDIA"
+	text "ROUTE 12 NORDEN:"
+	line "LAVANDIA"
 	done

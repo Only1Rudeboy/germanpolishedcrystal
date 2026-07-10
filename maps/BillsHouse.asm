@@ -36,14 +36,13 @@ PokemonJournalBillScript:
 	para "Sein erstes"
 	line "gefangenes #mon"
 
-	para "war wohl ein"
-	line "Abra."
+	para "war wohl ein Abra."
 	done
 
 BillsHousePCText:
 	text "Hier dreht sich"
-	line "ein 3D-Modell"
-	cont "von einem Porygon."
+	line "ein 3D-Modell von"
+	cont "einem Porygon."
 	done
 
 BillsHouseBillScript:
@@ -66,12 +65,12 @@ BillsHouseBillScript:
 	jumpthistext
 
 .AfterText:
-	text "Das war ein"
-	line "geiler Kampf!"
+	text "Das war ein geiler"
+	line "Kampf!"
 
 	para "Jeder #-Maniac"
-	line "wäre begeistert"
-	cont "zu sehen, was du"
+	line "wäre begeistert zu"
+	cont "sehen, was du"
 
 	para "gefangen hast."
 	done
@@ -101,8 +100,8 @@ BillsHouseBillScript:
 
 .SeenText:
 	text "Du hast alle drei"
-	line "legendären"
-	cont "Bestien gefangen?"
+	line "legendären Bestien"
+	cont "gefangen?"
 
 	para "Das ist so cool,"
 	line "<PLAYER>!"
@@ -119,8 +118,8 @@ BillsHouseBillScript:
 	line "Legenden, gegen"
 	cont "die du kämpftest,"
 
-	para "mit meinen"
-	line "eigenen #mon"
+	para "mit meinen eigenen"
+	line "#mon"
 	cont "vergleichen!"
 	done
 

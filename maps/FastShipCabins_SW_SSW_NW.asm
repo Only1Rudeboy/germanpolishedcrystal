@@ -51,17 +51,14 @@ GenericTrainerBeautyCassie:
 	generictrainer BEAUTY, CASSIE, EVENT_BEAT_BEAUTY_CASSIE, BeautyCassieSeenText, BeautyCassieBeatenText
 
 	text "Eine Schiffsreise"
-	line "ist am besten,"
-	cont "um ein"
-	cont "gebrochenes"
-	cont "Herz zu"
-	cont "vergessen."
+	line "ist am besten, um"
+	cont "ein gebrochenes"
+	cont "Herz zu vergessen."
 
 	para "Aber eine Reise"
 	line "mit dem SCHNELL-"
-	cont "BOOT ist für"
-	cont "die Trauer zu"
-	cont "kurz."
+	cont "BOOT ist für die"
+	cont "Trauer zu kurz."
 	done
 TrainerGuitaristmClyde:
 	trainer GUITARISTM, CLYDE, EVENT_BEAT_GUITARISTM_CLYDE, GuitaristmClydeSeenText, GuitaristmClydeBeatenText, 0, GuitaristmClydeScript
@@ -84,15 +81,13 @@ GuitaristmClydeScript:
 	jumpthisopenedtext
 
 	text "Ich wollte mein"
-	line "Debut im"
-	cont "DUELLTURM"
+	line "Debut im DUELLTURM"
 	cont "geben…"
 
 	para "Ich sollte nach"
-	line "ORANIA CITY zu-"
-	cont "rückgehen und"
-	cont "härter"
-	cont "trainieren…"
+	line "ORANIA CITY"
+	cont "zurückgehen und"
+	cont "härter trainieren…"
 	done
 FastShipBed:
 	showtext FastShipBedText1
@@ -140,8 +135,8 @@ FirebreatherLyleSeenText:
 
 
 FirebreatherLyleBeatenText:
-	text "Zisch… Die"
-	line "Flamme ist klein…"
+	text "Zisch… Die Flamme"
+	line "ist klein…"
 	done
 
 
@@ -154,12 +149,11 @@ Bug_catcherKenSeenText:
 	cont "Käfer zu fangen!"
 	done
 Bug_catcherKenBeatenText:
-	text "Ach, wow."
-	line "Du bist stark!"
+	text "Ach, wow. Du bist"
+	line "stark!"
 	done
 RichBoyWinstonSeenText:
-	text "Du kannst dir"
-	line "kein"
+	text "Du kannst dir kein"
 	line "Ticket leisten."
 
 	para "Sieht aus, als"
@@ -200,8 +194,8 @@ GuitaristmClydeSeenText:
 	cont "vorspielen."
 	done
 GuitaristmClydeBeatenText:
-	text "Yowza!"
-	line "Total verzerrt!"
+	text "Yowza! Total"
+	line "verzerrt!"
 	done
 FastShipBedText1:
 	text "Ein weiches Bett!"
@@ -222,8 +216,8 @@ FastShipBedText2:
 
 
 FastShipArrivedOlivineText:
-	text "Die M.S. AQUA"
-	line "legt in"
+	text "Die M.S. AQUA legt"
+	line "in"
 
 	para "OLIVIANA CITY an."
 	done
@@ -233,8 +227,7 @@ FastShipArrivedOlivineText:
 
 
 FastShipArrivedVermilionText:
-	text "Die M.S. AQUA"
-	line "legt"
+	text "Die M.S. AQUA legt"
 	line "in"
 
 	para "ORANIA CITY an."

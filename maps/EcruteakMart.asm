@@ -17,9 +17,9 @@ EcruteakMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakMartGrannyText, -1
 
 EcruteakMartSuperNerdText:
-	text "Mein EVOLI ent-"
-	line "wickelte sich zu"
-	cont "einem PSIANA."
+	text "Mein EVOLI"
+	line "entwickelte sich"
+	cont "zu einem PSIANA."
 
 	para "Aber das EVOLI"
 	line "meines Freundes"
@@ -30,16 +30,14 @@ EcruteakMartSuperNerdText:
 	line "wieso? Wir haben"
 
 	para "unsere EVOLI"
-	line "gleich"
-	cont "aufgezogen…"
+	line "gleich aufgezogen…"
 	done
 
 
 EcruteakMartGrannyText:
 	text "Setzt du BELEBER"
 	line "ein, wacht ein"
-	cont "be-"
-	cont "siegtes #mon"
+	cont "besiegtes #mon"
 	cont "wieder auf."
 	done
 

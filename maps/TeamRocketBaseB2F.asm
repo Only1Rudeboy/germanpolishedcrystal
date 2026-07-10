@@ -211,8 +211,7 @@ GenericTrainerGruntM18:
 	generictrainer GRUNTM, 18, EVENT_BEAT_ROCKET_GRUNTM_18, GruntM18SeenText, GruntM18BeatenText
 
 	text "Meine letzte"
-	line "Mission wurde"
-	cont "auch"
+	line "Mission wurde auch"
 	cont "von einem Kind"
 	cont "vereitelt."
 
@@ -223,20 +222,19 @@ GenericTrainerGruntM18:
 	line "mit roten Haaren"
 
 	para "und fiesem Blick"
-	line "auf und hat"
-	cont "mich vermöbelt…"
+	line "auf und hat mich"
+	cont "vermöbelt…"
 	done
 GenericTrainerGruntM19:
 	generictrainer GRUNTM, 19, EVENT_BEAT_ROCKET_GRUNTM_19, GruntM19SeenText, GruntM19BeatenText
 
 	text "Heh, nur der Boss"
-	line "kennt das"
-	cont "Passwort"
+	line "kennt das Passwort"
 	cont "für diese Tür."
 
-	para "Wo er ist?"
-	line "Wer weiß? Schau"
-	cont "doch selbst nach."
+	para "Wo er ist? Wer"
+	line "weiß? Schau doch"
+	cont "selbst nach."
 	done
 RocketElectrode1:
 	cry ELECTRODE
@@ -367,8 +365,7 @@ TeamRocketBaseB2FTransmitterScript:
 .DeactivateTransmitterText:
 	text "Endlich wurde der"
 	line "unheimliche"
-	cont "Radio-"
-	cont "transmitter"
+	cont "Radiotransmitter"
 	cont "abgeschaltet."
 	done
 RocketBaseLanceLeavesAfterHealMovement:
@@ -565,12 +562,11 @@ RocketBaseExecutiveFHoldItText:
 RocketBaseBossFThrashText:
 	text "Wir können es"
 	line "nicht zulassen,"
-	cont "dass ein Balg"
-	cont "hier herumläuft."
+	cont "dass ein Balg hier"
+	cont "herumläuft."
 
-	para "Das schadet"
-	line "TEAM ROCKETs"
-	cont "Stolz."
+	para "Das schadet TEAM"
+	line "ROCKETs Stolz."
 
 	para "Wie stark du auch"
 	line "bist, du kannst"
@@ -580,8 +576,7 @@ RocketBaseBossFThrashText:
 
 	para "Tut uns Leid,"
 	line "Winzling! Jetzt"
-	cont "wirst du"
-	cont "zermalmt."
+	cont "wirst du zermalmt."
 	done
 
 
@@ -590,8 +585,8 @@ RocketBaseBossFThrashText:
 
 RocketBaseLanceShareFunText:
 	text "Heh! Sei nicht so"
-	line "egoistisch."
-	cont "Teile den Spaß."
+	line "egoistisch. Teile"
+	cont "den Spaß."
 	done
 
 
@@ -628,8 +623,8 @@ RocketBaseBossWinText:
 	para "Wenn du bei TEAM"
 	line "ROCKET einsteigen"
 
-	para "würdest, wärest"
-	line "du sofort im"
+	para "würdest, wärest du"
+	line "sofort im"
 	cont "VORSTAND."
 	done
 
@@ -646,22 +641,21 @@ RocketBaseBossRetreatText:
 	cont "war ein voller"
 	cont "Erfolg."
 
-	para "Es ist egal,"
-	line "was aus dem"
-	cont "Versteck wird."
+	para "Es ist egal, was"
+	line "aus dem Versteck"
+	cont "wird."
 
 	para "Wir haben höhere"
 	line "Ziele."
 
 	para "Schon bald wirst"
-	line "du die wahre"
-	cont "Macht"
+	line "du die wahre Macht"
 
 	para "von TEAM ROCKET"
 	line "würdigen."
 
-	para "Amüsiere dich,"
-	line "so lange du noch"
+	para "Amüsiere dich, so"
+	line "lange du noch"
 	cont "kannst…"
 
 	para "Fufufufu…"
@@ -682,8 +676,7 @@ RocketBaseLancePostBattleText:
 	para "Aber der Junge,"
 	line "auf den ich traf,"
 
-	para "macht mir"
-	line "wirklich"
+	para "macht mir wirklich"
 	line "Sorgen…"
 	done
 
@@ -693,19 +686,17 @@ RocketBaseLancePostBattleText:
 
 RocketBaseLancePowerOffText:
 	text "Tut mir leid,"
-	line "<PLAYER>."
-	line "Ich habe beobach-"
-	cont "tet, wie"
-	cont "geschickt"
-	cont "du bist. Daher"
-	cont "habe ich mich"
+	line "<PLAYER>. Ich habe"
+	cont "beobachtet, wie"
+	cont "geschickt du bist."
+	cont "Daher habe ich"
+	cont "mich"
 	cont "zurückgehalten."
 
 	para "Jetzt müssen wir"
 	line "nur noch dieses"
 
-	para "merkwürdige"
-	line "Signal"
+	para "merkwürdige Signal"
 	line "abschalten."
 	done
 
@@ -714,9 +705,9 @@ RocketBaseLancePowerOffText:
 
 
 RockerBaseLanceElectrodeFaintText:
-	text "Diese Maschine"
-	line "ist die Wurzel"
-	cont "allen Übels."
+	text "Diese Maschine ist"
+	line "die Wurzel allen"
+	cont "Übels."
 
 	para "Ich sehe leider"
 	line "keinen Schalter…"
@@ -740,9 +731,9 @@ RockerBaseLanceElectrodeFaintText:
 	para "daher fühle ich"
 	line "mich schuldig."
 
-	para "<PLAYER>,"
-	line "wir sollten uns"
-	cont "besser trennen."
+	para "<PLAYER>, wir"
+	line "sollten uns besser"
+	cont "trennen."
 	done
 
 
@@ -761,8 +752,7 @@ RocketBaseLancesSideText:
 
 RocketBaseLanceElectrodeDoneText:
 	text "SIEGFRIED: Das"
-	line "merkwürdige"
-	cont "Signal"
+	line "merkwürdige Signal"
 	cont "ist verschwunden."
 
 	para "Der SEE sollte"
@@ -800,8 +790,7 @@ RocketBaseReceivedHM06Text: ; unreferenced
 
 
 RocketBaseLanceWhirlpoolText:
-	text "Das ist"
-	line "WHIRLPOOL."
+	text "Das ist WHIRLPOOL."
 	line "Gib dies einem"
 
 	para "#mon, um"
@@ -813,8 +802,7 @@ RocketBaseLanceWhirlpoolText:
 
 	para "Du benötigst den"
 	line "ORDEN der #mon-"
-	cont "ARENA in"
-	cont "MAHAGONIA"
+	cont "ARENA in MAHAGONIA"
 
 	para "CITY, um die VM"
 	line "außerhalb eines"
@@ -837,16 +825,15 @@ RocketBaseLanceMonMasterText:
 	line "#mon-MEISTER."
 
 	para "Bist du bereit,"
-	line "diesen Weg"
-	cont "zu beschreiten?"
+	line "diesen Weg zu"
+	cont "beschreiten?"
 
 	para "…"
 
 	para "Ich verstehe. Du"
 	line "hast Recht."
 
-	para "Wenn du die"
-	line "Flinte"
+	para "Wenn du die Flinte"
 	line "so schnell ins"
 
 	para "Korn wirfst,"
@@ -865,17 +852,15 @@ RocketBaseLanceMonMasterText:
 
 
 LanceHealsText1:
-	text "SIEGFRIED: Bist"
-	line "du"
+	text "SIEGFRIED: Bist du"
 	line "in Ordnung?"
 
 	para "Deine #mon sind"
-	line "müde und"
-	cont "verletzt."
+	line "müde und verletzt."
 
-	para "Gib ihnen"
-	line "ein wenig von"
-	cont "meiner Medizin."
+	para "Gib ihnen ein"
+	line "wenig von meiner"
+	cont "Medizin."
 	done
 
 
@@ -900,9 +885,9 @@ GruntM17SeenText:
 	text "Die Türe öffnet"
 	line "sich nicht?"
 
-	para "Nun, oh."
-	line "Sie ist passwort-"
-	cont "geschützt. Nur"
+	para "Nun, oh. Sie ist"
+	line "passwortgeschützt."
+	cont "Nur"
 
 	para "TEAM ROCKET hat"
 	line "Zugriff."
@@ -922,13 +907,12 @@ GruntM17BeatenText:
 
 
 GruntM18SeenText:
-	text "Ach, ein Kind?"
-	line "Ich"
+	text "Ach, ein Kind? Ich"
 	line "mag das zwar"
 
 	para "nicht, aber ich"
-	line "muss dich aus-"
-	cont "schalten."
+	line "muss dich"
+	cont "ausschalten."
 	done
 
 
@@ -965,10 +949,8 @@ RocketBaseDoorNoPasswordText:
 	text "Die Tür ist"
 	line "verschlossen…"
 
-	para "Sie lässt sich"
-	line "nur"
-	line "mit einem"
-	cont "Passwort"
+	para "Sie lässt sich nur"
+	line "mit einem Passwort"
 	cont "öffnen."
 	done
 

@@ -125,9 +125,8 @@ RadioTower1FLuckyNumberManScript:
 
 RadioTower1FLuckyNumberManComeAgainText:
 	text "Versuche nächste"
-	line "Woche erneut"
-	cont "dein Glück bei"
-	cont "der"
+	line "Woche erneut dein"
+	cont "Glück bei der"
 	cont "GLÜCKSZAHLSHOW."
 	done
 
@@ -191,8 +190,8 @@ RadioTower1FRadioCardWomanScript:
 	playsound SFX_WRONG
 	jumpthisopenedtext
 
-	text "Ach, nein."
-	line "Das war leider"
+	text "Ach, nein. Das war"
+	line "leider"
 
 	para "falsch. Versuch's"
 	line "noch einmal!"
@@ -202,8 +201,7 @@ GenericTrainerGruntM3:
 
 	text "Du bist zu stark."
 
-	para "Du könntest"
-	line "unsere"
+	para "Du könntest unsere"
 	line "Pläne zerstören."
 	cont "Ich muss die"
 	cont "anderen warnen…"
@@ -261,8 +259,8 @@ RadioTower1FLuckyNumberManAskToPlayText:
 
 	para "Soll ich die"
 	line "ID-Nummern deiner"
-	cont "#mon über-"
-	cont "prüfen?"
+	cont "#mon"
+	cont "überprüfen?"
 
 	para "Wenn du Glück"
 	line "hast, gewinnst du"
@@ -284,22 +282,21 @@ ExplainLuckyNumberShowText:
 	line "Nummern deiner"
 	cont "#mon prüfen?"
 
-	para "Bei Glück"
-	line "gewinnst du einen"
-	cont "Preis."
+	para "Bei Glück gewinnst"
+	line "du einen Preis."
 	done
 
 RadioTower1FLuckyNumberManTodayIdIsText:
 	text "Die heutige"
-	line "Glücks-"
-	line "ID-Nummer ist "
+	line "Glücks- ID-Nummer"
+	cont "ist "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RadioTower1FLuckyNumberManCheckIfMatchText:
-	text "Mal sehen, ob"
-	line "du Glück hast."
+	text "Mal sehen, ob du"
+	line "Glück hast."
 	done
 
 
@@ -307,8 +304,7 @@ RadioTower1FLuckyNumberManCheckIfMatchText:
 
 
 RadioTower1FLuckyNumberManDotDotDotText:
-	text "…"
-	line "…"
+	text "… …"
 	done
 
 
@@ -329,8 +325,7 @@ WonFirstPlaceText:
 WonSecondPlaceText:
 	text "Hey! Du hast die"
 	line "letzten vier"
-	cont "Ziffern"
-	cont "getroffen!"
+	cont "Ziffern getroffen!"
 
 	para "Du gewinnst den"
 	line "zweiten Preis:"
@@ -340,8 +335,7 @@ WonSecondPlaceText:
 WonThirdPlaceText:
 	text "Hey! Du hast die"
 	line "letzten drei"
-	cont "Ziffern"
-	cont "getroffen!"
+	cont "Ziffern getroffen!"
 
 	para "Du gewinnst den"
 	line "dritten Preis:"
@@ -351,8 +345,7 @@ WonThirdPlaceText:
 WonFourthPlaceText:
 	text "Ach, du hast die"
 	line "letzten zwei"
-	cont "Ziffern"
-	cont "getroffen."
+	cont "Ziffern getroffen."
 
 	para "Du gewinnst den"
 	line "vierten Preis:"
@@ -377,8 +370,8 @@ RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
 	cont "tragen."
 
 	para "Schaffe Platz und"
-	line "komm gleich"
-	cont "wieder zurück."
+	line "komm gleich wieder"
+	cont "zurück."
 	done
 
 
@@ -393,8 +386,8 @@ RadioTower1FRadioCardWomanOfferQuizText:
 	para "Beantworte die"
 	line "fünf Fragen"
 	cont "richtig, um ein"
-	cont "RADIO-MODUL"
-	cont "zu gewinnen."
+	cont "RADIO-MODUL zu"
+	cont "gewinnen."
 
 	para "Stecke es in den"
 	line "#COM, um"
@@ -414,9 +407,9 @@ RadioTower1FRadioCardWomanOfferQuizText:
 RadioTower1FRadioCardWomanQuestion1Text:
 	text "Frage 1:"
 
-	para "Gibt es ein #-"
-	line "MON, das nur VOR-"
-	cont "MITTAGs"
+	para "Gibt es ein"
+	line "#mon, das nur"
+	cont "VOR- MITTAGs"
 	cont "erscheint?"
 	done
 
@@ -425,8 +418,7 @@ RadioTower1FRadioCardWomanQuestion1Text:
 
 
 RadioTower1FRadioCardWomanQuestion2Text:
-	text "Korrekt!"
-	line "Frage 2:"
+	text "Korrekt! Frage 2:"
 
 	para "Ist diese Aussage"
 	line "korrekt?"
@@ -441,8 +433,7 @@ RadioTower1FRadioCardWomanQuestion2Text:
 
 
 RadioTower1FRadioCardWomanQuestion3Text:
-	text "Richtig!"
-	line "Frage 3:"
+	text "Richtig! Frage 3:"
 
 	para "Ist VM01 BLITZ?"
 	done
@@ -452,8 +443,8 @@ RadioTower1FRadioCardWomanQuestion3Text:
 
 
 RadioTower1FRadioCardWomanQuestion4Text:
-	text "Nicht übel!"
-	line "Frage 4:"
+	text "Nicht übel! Frage"
+	line "4:"
 
 	para "Ist FALK der"
 	line "ARENALEITER von"
@@ -479,8 +470,8 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "von DUKATIA CITY"
 
 	para "ein GLUMANDA auf"
-	line "einer Rolle abge-"
-	cont "bildet?"
+	line "einer Rolle"
+	cont "abgebildet?"
 	done
 
 
@@ -492,8 +483,8 @@ RadioTower1FRadioCardWomanYouWinText:
 	line "Glückwunsch!"
 
 	para "Hier hast du"
-	line "deinen Preis:"
-	cont "ein RADIO-MODUL!"
+	line "deinen Preis: ein"
+	cont "RADIO-MODUL!"
 	done
 
 
@@ -503,8 +494,8 @@ RadioTower1FRadioCardWomanYouWinText:
 RadioTower1FPokegearIsARadioText:
 	text "<PLAYER>s #COM"
 	line "kann jetzt auch"
-	cont "als Radio ver-"
-	cont "wendet werden!"
+	cont "als Radio"
+	cont "verwendet werden!"
 	done
 
 
@@ -521,8 +512,7 @@ RadioTower1FRadioCardWomanTuneInText:
 
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
-	text "Ach. Ich"
-	line "verstehe."
+	text "Ach. Ich verstehe."
 	line "Komm wieder, wenn"
 	cont "du deine Meinung"
 	cont "geändert hast."
@@ -549,8 +539,8 @@ RadioTower1FYoungsterText:
 	text "Ich liebe MARGIT"
 	line "vom #mon-TALK."
 
-	para "Ich kenne aber"
-	line "nur ihre Stimme."
+	para "Ich kenne aber nur"
+	line "ihre Stimme."
 	done
 
 
@@ -562,15 +552,14 @@ GruntM3SeenText:
 	line "den RADIOTURM"
 	cont "besetzt!"
 
-	para "Nun wird jeder"
-	line "den TEAM ROCKET-"
+	para "Nun wird jeder den"
+	line "TEAM ROCKET-"
 
 	para "Terrorapparat"
 	line "kennenlernen!"
 
 	para "Wir zeigen euch,"
-	line "wie böse wir"
-	cont "sind!"
+	line "wie böse wir sind!"
 	done
 
 
@@ -604,27 +593,25 @@ RadioTower1FWhitney1Text:
 
 RadioTower1FWhitney2Text:
 	text "Whitney: Wow, du"
-	line "hast es"
-	cont "geschafft!"
+	line "hast es geschafft!"
 
 	para "Ich dachte, die"
 	line "vierte Antwort"
 	cont "wäre Aprikokos…"
 
 	para "Ups! Ich muss"
-	line "zurück zur"
-	line "ARENA!"
+	line "zurück zur ARENA!"
 	done
 
 RadioTower1FDirectoryText:
-	text "EG REZEPTION"
-	line "1S VERKAUF"
+	text "EG REZEPTION 1S"
+	line "VERKAUF"
 
-	para "2S PERSONAL"
-	line "3S PRODUKTION"
+	para "2S PERSONAL 3S"
+	line "PRODUKTION"
 
-	para "4S BÜRO DES"
-	line "   INTENDANTEN"
+	para "4S BÜRO DES   "
+	line "INTENDANTEN"
 	done
 
 

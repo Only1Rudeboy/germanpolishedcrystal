@@ -4,18 +4,15 @@ JoseAskNumber1Text:
 	line "was Hübsches"
 	cont "sieht,"
 
-	para "holt es das."
-	line "Magst du hübsche"
-	cont "Sachen?"
+	para "holt es das. Magst"
+	line "du hübsche Sachen?"
 
-	para "Ich teile, wenn"
-	line "es"
+	para "Ich teile, wenn es"
 	line "mehr findet."
 
 	para "Deine Nummer? Ich"
 	line "ruf an. Nicht zu"
-	cont "viel erwarten,"
-	cont "OK?"
+	cont "viel erwarten, OK?"
 	done
 
 JoseAskNumber2Text:
@@ -35,9 +32,9 @@ JoseNumberAcceptedText:
 
 JoseNumberDeclinedText:
 	text "Sicher? Sag"
-	line "Bescheid,"
-	line "wenn du es dir"
-	cont "anders überlegst."
+	line "Bescheid, wenn du"
+	cont "es dir anders"
+	cont "überlegst."
 	done
 
 JosePhoneFullText:
@@ -54,8 +51,7 @@ JoseRematchText:
 
 JoseGiftText:
 	text "Genug gewartet!"
-	line "Schau, das ist"
-	cont "es!"
+	line "Schau, das ist es!"
 
 	para "Sieht hübsch aus,"
 	line "oder?"
@@ -63,8 +59,7 @@ JoseGiftText:
 
 JosePackFullText:
 	text "Häh? Du hast"
-	line "keinen"
-	line "Platz."
+	line "keinen Platz."
 
 	para "Komm später"
 	line "wieder."

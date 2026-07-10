@@ -52,8 +52,7 @@ PharmacistGiveSecretpotionText:
 	para "…"
 
 	para "Dem #mon vom"
-	line "LEUCHTTURM geht"
-	cont "es"
+	line "LEUCHTTURM geht es"
 	cont "nicht gut?"
 
 	para "Ich hab's!"

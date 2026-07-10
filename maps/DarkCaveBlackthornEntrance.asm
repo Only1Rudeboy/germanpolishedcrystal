@@ -35,15 +35,14 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	done
 
 .PharmacistText1:
-	text "Whoa! Du hast"
-	line "mich erschreckt!"
+	text "Whoa! Du hast mich"
+	line "erschreckt!"
 
 	para "Ich hatte mein"
 	line "Schattenglas auf,"
 	cont "drum hab ich dich"
 
-	para "gar nicht"
-	line "bemerkt."
+	para "gar nicht bemerkt."
 
 	para "Was mach ich"
 	line "eigentlich hier?"
@@ -53,8 +52,8 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	cont "deswegen."
 
 	para "Ich geb dir ein"
-	line "Schattenglas,"
-	cont "also vergiss,"
+	line "Schattenglas, also"
+	cont "vergiss,"
 
 	para "dass du mich"
 	line "gesehen hast,"

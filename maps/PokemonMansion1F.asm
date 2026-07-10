@@ -35,17 +35,15 @@ GenericTrainerBurglarPete:
 	text "Einige wertvolle"
 	line "Gegenstände"
 
-	para "haben den"
-	line "Ausbruch wohl"
-	cont "überlebt."
+	para "haben den Ausbruch"
+	line "wohl überlebt."
 	done
 
 GenericTrainerBurglarLouis:
 	generictrainer BURGLAR, LOUIS, EVENT_BEAT_BURGLAR_LOUIS, BurglarLouisSeenText, BurglarLouisBeatenText
 
-	text "Ich will nur"
-	line "Beute finden"
-	cont "und wieder"
+	text "Ich will nur Beute"
+	line "finden und wieder"
 	cont "raus."
 	done
 
@@ -77,7 +75,6 @@ PokemonMansion1FMewtwoStatueText:
 	done
 
 PokemonMansion1FFlowerPotText:
-	text "Es ist gefüllt"
-	line "mit"
+	text "Es ist gefüllt mit"
 	line "Erde und Asche…"
 	done

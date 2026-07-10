@@ -137,9 +137,9 @@ RuinsOfAlphAerodactylChamberDescriptionText:
 	line "MON griff seine"
 
 	para "Beute mittels"
-	line "seiner sensen-"
-	cont "artigen Reißzähne"
-	cont "an."
+	line "seiner"
+	cont "sensenartigen"
+	cont "Reißzähne an."
 	done
 
 

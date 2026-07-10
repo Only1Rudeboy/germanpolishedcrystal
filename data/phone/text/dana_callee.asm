@@ -1,8 +1,7 @@
 DanaAnswerPhoneText:
 	text "Hi, "
 	text_ram wStringBuffer3
-	text " am"
-	line "Apparat."
+	text " am Apparat."
 
 	para "Hey! Du bist"
 	line "<PLAYER>!"
@@ -11,28 +10,26 @@ DanaAnswerPhoneText:
 DanaAnswerPhoneDayText:
 	text "Hi, "
 	text_ram wStringBuffer3
-	text " am"
-	line "Apparat."
+	text " am Apparat."
 
-	para "Ich weiß!"
-	line "Du bist <PLAYER>!"
+	para "Ich weiß! Du bist"
+	line "<PLAYER>!"
 	done
 
 DanaAnswerPhoneNiteText:
 	text "Hi, "
 	text_ram wStringBuffer3
-	text " am"
-	line "Apparat."
+	text " am Apparat."
 
-	para "<PLAYER>?"
-	line "Was gibt's?"
+	para "<PLAYER>? Was"
+	line "gibt's?"
 	done
 
 DanaGreetText:
 	text "Äh, <PLAYER>?"
 
-	para "Ich bin's!"
-	line "Ich bin's, "
+	para "Ich bin's! Ich"
+	line "bin's, "
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -40,8 +37,8 @@ DanaGreetText:
 DanaGreetDayText:
 	text "Äh, <PLAYER>?"
 
-	para "Ich bin's!"
-	line "Ich bin's, "
+	para "Ich bin's! Ich"
+	line "bin's, "
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -49,8 +46,8 @@ DanaGreetDayText:
 DanaGreetNiteText:
 	text "Äh, <PLAYER>?"
 
-	para "Ich bin's!"
-	line "Ich bin's, "
+	para "Ich bin's! Ich"
+	line "bin's, "
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -58,8 +55,8 @@ DanaGreetNiteText:
 DanaGenericText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " hat"
-	line "so viel Energie,"
+	text " hat so viel"
+	line "Energie,"
 
 	para "es ist fast"
 	line "gruselig."

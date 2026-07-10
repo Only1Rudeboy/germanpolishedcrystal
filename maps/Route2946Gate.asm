@@ -22,8 +22,7 @@ Route29Route46GateOfficerText:
 	line "Stufen nicht"
 	cont "hinaufklettern."
 
-	para "Du kannst sie"
-	line "aber"
+	para "Du kannst sie aber"
 	line "hinabspringen und"
 	cont "sie als Abkürzung"
 	cont "benutzen."
@@ -34,8 +33,8 @@ Route29Route46GateYoungsterText:
 	cont "hier auf."
 
 	para "Wenn du alle"
-	line "schnappen möch-"
-	cont "test, dann musst"
-	cont "du überall"
+	line "schnappen"
+	cont "möchtest, dann"
+	cont "musst du überall"
 	cont "suchen."
 	done

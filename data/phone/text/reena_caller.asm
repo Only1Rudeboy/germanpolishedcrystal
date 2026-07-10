@@ -1,6 +1,5 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Hör mal,"
-	line "Liebling…"
+	text "Hör mal, Liebling…"
 
 	para "Erinnerst du dich"
 	line "an mein "
@@ -40,10 +39,8 @@ ReenaLostAMonText:
 
 	para "ein wildes "
 	text_ram wStringBuffer4
-	text " ver-"
-	line "passen… Oh!"
-	cont "Vergiss"
-	cont "es!"
+	text " verpassen… Oh!"
+	line "Vergiss es!"
 	done
 
 ReenaBattleRematchText:
@@ -66,8 +63,8 @@ ReenaHangUpText:
 
 ReenaForwardText:
 	text "Sei nicht zu"
-	line "stolz,"
-	line "nur weil du mich"
+	line "stolz, nur weil du"
+	cont "mich"
 
 	para "besiegt hast… Das"
 	line "war Glück!"
@@ -76,8 +73,7 @@ ReenaForwardText:
 ReenaHurryText:
 	text "Was machst du?"
 
-	para "Ich sagte, der"
-	line "Ort"
+	para "Ich sagte, der Ort"
 	line "ist "
 	text_ram wStringBuffer5
 	text "!"

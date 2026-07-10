@@ -28,8 +28,7 @@ PalletTownFlyPoint:
 	endcallback
 
 PalletTownTeacherText:
-	text "Ich trainiere"
-	line "auch"
+	text "Ich trainiere auch"
 	line "#mon. Sie"
 
 	para "dienen mir als"
@@ -51,8 +50,8 @@ PalletTownFisherText:
 PalletTownYoungsterText:
 	text "Bis dann, Alter!"
 
-	para "…So redet man"
-	line "hier plötzlich,"
+	para "…So redet man hier"
+	line "plötzlich,"
 
 	para "aber wenn man's"
 	line "bedenkt, ist es"
@@ -74,8 +73,8 @@ RedsHouseSignText:
 
 
 OaksLabSignText:
-	text "PROF. EICH"
-	line "#mon LABOR"
+	text "PROF. EICH #mon"
+	line "LABOR"
 	done
 
 

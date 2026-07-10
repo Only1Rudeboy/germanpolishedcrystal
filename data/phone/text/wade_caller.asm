@@ -7,9 +7,8 @@ WadeAreYourMonGrowingText:
 
 	para ""
 	text_ram wStringBuffer4
-	text " wächst"
-	line "besonders"
-	cont "schnell."
+	text " wächst besonders"
+	line "schnell."
 
 	para "Es wird bestimmt"
 	line "stark."
@@ -17,14 +16,12 @@ WadeAreYourMonGrowingText:
 
 WadeDefeatedMonText:
 	text "Oh ja, wir"
-	line "besiegten"
-	line "ein wildes "
+	line "besiegten ein"
+	cont "wildes "
 	text_ram wStringBuffer4
 
-	para "mit einem"
-	line "Treffer."
-	line "Es ging so"
-	cont "leicht,"
+	para "mit einem Treffer."
+	line "Es ging so leicht,"
 
 	para "mir tat es fast"
 	line "leid."
@@ -37,8 +34,8 @@ WadeLostAMonText:
 	text " entkam"
 
 	para "in letzter"
-	line "Sekunde."
-	line "Es ist zwar"
+	line "Sekunde. Es ist"
+	cont "zwar"
 
 	para "häufig… aber es"
 	line "ärgert mich"
@@ -49,17 +46,14 @@ WadeBattleRematchText:
 	text "Lust auf einen"
 	line "#mon-Kampf?"
 
-	para "Diesmal anders"
-	line "als"
+	para "Diesmal anders als"
 	line "letztes Mal!"
 
 	para ""
 	text_ram wStringBuffer5
-	text " —"
-	line "da bin ich."
+	text " — da bin ich."
 
-	para "Sag Bescheid,"
-	line "wenn"
+	para "Sag Bescheid, wenn"
 	line "du da bist."
 	done
 
@@ -73,19 +67,18 @@ WadeBugCatchingContestText:
 	cont "Nationalpark."
 
 	para "Kommst du,"
-	line "<PLAYER>?"
-	line "Ich überlege"
-	cont "noch."
+	line "<PLAYER>? Ich"
+	cont "überlege noch."
 	done
 
 WadeFoundItemText:
 	text "Ich fand jede"
-	line "Menge"
-	line "Beeren. Wenn du"
+	line "Menge Beeren. Wenn"
+	cont "du"
 
 	para "willst, teile"
 	line "ich."
-	line "Ich warte auf"
+	cont "Ich warte auf"
 	cont ""
 	text_ram wStringBuffer5
 	text "."
@@ -108,22 +101,19 @@ WadeQuickBattleText:
 
 	para ""
 	text_ram wStringBuffer5
-	text " —"
-	line "da bin ich."
+	text " — da bin ich."
 
 	para "Komm so schnell"
 	line "wie möglich!"
 	done
 
 WadeComeQuickText:
-	text "Warum bist du"
-	line "noch"
+	text "Warum bist du noch"
 	line "nicht da?"
 
 	para ""
 	text_ram wStringBuffer5
-	text " —"
-	line "da bin ich."
+	text " — da bin ich."
 
 	para "Komm so schnell"
 	line "wie möglich!"

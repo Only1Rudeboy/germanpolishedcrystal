@@ -18,11 +18,11 @@ Route12Gate_MapScriptHeader:
 	object_event  0,  5, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route12GateOfficerText, -1
 
 Route12GateOfficerText:
-	text "Die Schweig-"
-	line "brücke hat ihren"
+	text "Die Schweigbrücke"
+	line "hat ihren"
 
-	para "Namen von all"
-	line "den Leuten, die"
+	para "Namen von all den"
+	line "Leuten, die"
 
 	para "darauf still"
 	line "angeln."

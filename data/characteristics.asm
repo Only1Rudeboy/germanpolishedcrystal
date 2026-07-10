@@ -33,115 +33,115 @@ Characteristics:
 	assert_table_length NUM_STATS * 5
 
 .Chara_HP0:
-	text  "Liebt es"
+	text "Liebt es"
 	next1 "zu essen"
 	done
 .Chara_HP1:
-	text  "Macht gern"
+	text "Macht gern"
 	next1 "ein Nickerchen"
 	done
 .Chara_HP2:
-	text  "Nickt gern"
+	text "Nickt gern"
 	next1 "ein"
 	done
 .Chara_HP3:
-	text  "Streut oft"
+	text "Streut oft"
 	next1 "Dinge herum"
 	done
 .Chara_HP4:
-	text  "Liebt es zu"
+	text "Liebt es zu"
 	next1 "entspannen"
 	done
 
 .Chara_Atk0:
-	text  "Stolz auf"
+	text "Stolz auf"
 	next1 "seine Stärke"
 	done
 .Chara_Atk1:
-	text  "Prügelt sich"
+	text "Prügelt sich"
 	next1 "gern"
 	done
 .Chara_Atk2:
-	text  "Erzürnt sich"
+	text "Erzürnt sich"
 	next1 "schnell"
 	done
 .Chara_Atk3:
-	text  "Liebt"
+	text "Liebt"
 	next1 "Kämpfe"
 	done
 .Chara_Atk4:
-	text  "Impulsiv"
+	text "Impulsiv"
 	done
 
 .Chara_Def0:
-	text  "Robuster"
+	text "Robuster"
 	next1 "Körper"
 	done
 .Chara_Def1:
-	text  "Kann Treffer"
+	text "Kann Treffer"
 	next1 "gut wegstecken"
 	done
 .Chara_Def2:
-	text  "Sehr"
+	text "Sehr"
 	next1 "ausdauernd"
 	done
 .Chara_Def3:
-	text  "Gute"
+	text "Gute"
 	next1 "Ausdauer"
 	done
 .Chara_Def4:
-	text  "Beharrlich"
+	text "Beharrlich"
 	done
 
 .Chara_SAt0:
-	text  "Sehr"
+	text "Sehr"
 	next1 "neugierig"
 	done
 .Chara_SAt1:
-	text  "Hinterhältig"
+	text "Hinterhältig"
 	done
 .Chara_SAt2:
-	text  "Raffiniert"
+	text "Raffiniert"
 	done
 .Chara_SAt3:
-	text  "Versponnen"
+	text "Versponnen"
 	done
 .Chara_SAt4:
-	text  "Müffelt gern"
+	text "Müffelt gern"
 	done
 
 .Chara_SDf0:
-	text  "Willensstark"
+	text "Willensstark"
 	done
 .Chara_SDf1:
-	text  "Etwas eitel"
+	text "Etwas eitel"
 	done
 .Chara_SDf2:
-	text  "Sehr trotzig"
+	text "Sehr trotzig"
 	done
 .Chara_SDf3:
-	text  "Hasst"
+	text "Hasst"
 	next1 "Niederlagen"
 	done
 .Chara_SDf4:
-	text  "Etwas stur"
+	text "Etwas stur"
 	done
 
 .Chara_Spe0:
-	text  "Rennt gern"
+	text "Rennt gern"
 	done
 .Chara_Spe1:
-	text  "Hört auf"
+	text "Hört auf"
 	next1 "Geräusche"
 	done
 .Chara_Spe2:
-	text  "Unüberlegt"
+	text "Unüberlegt"
 	next1 "und albern"
 	done
 .Chara_Spe3:
-	text  "Etwas albern"
+	text "Etwas albern"
 	done
 .Chara_Spe4:
-	text  "Flüchtet"
+	text "Flüchtet"
 	next1 "schnell"
 	done

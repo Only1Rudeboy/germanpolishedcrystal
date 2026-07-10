@@ -79,8 +79,7 @@ Museum2FMoonStoneSignpostScript:
 	jumpthistext
 
 	text "Meteorit, der auf"
-	line "den MONDBERG"
-	cont "fiel."
+	line "den MONDBERG fiel."
 	cont "(MONDSTEIN)"
 	done
 
@@ -121,8 +120,7 @@ Museum2FPokefanMImperialText:
 	line "trotzte der"
 	cont "Schwerkraft!"
 
-	para "Weißt du, was"
-	line "auch"
+	para "Weißt du, was auch"
 	line "der Schwerkraft"
 	cont "trotzt?"
 
@@ -134,15 +132,14 @@ Museum2FChildText:
 	text "Steine und Kram"
 	line "und Kram und"
 
-	para "Steine. Können"
-	line "wir endlich"
-	cont "gehen?"
+	para "Steine. Können wir"
+	line "endlich gehen?"
 	done
 
 Museum2FTeacherText:
 	text "Seufz… Mein Sohn"
-	line "hat so wenig"
-	line "Spaß im Museum,"
+	line "hat so wenig Spaß"
+	cont "im Museum,"
 
 	para "wie ich gehofft"
 	line "hatte."
@@ -158,9 +155,8 @@ Museum2FPokefanMMetricText:
 	line "trotzte der"
 	cont "Schwerkraft!"
 
-	para "Weißt du, was"
-	line "noch der"
-	line "Schwerkraft"
+	para "Weißt du, was noch"
+	line "der Schwerkraft"
 	cont "trotzen kann?"
 
 	para "Geowurf,"
@@ -195,9 +191,8 @@ PokemonJournalStevenScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Fels-Fan"
-	cont "Steven!"
+	para "Spezial: Fels-Fan"
+	line "Steven!"
 
 	para "Steven Stone soll"
 	line "die Devon"
@@ -223,8 +218,7 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	line "Forscherin"
 	cont "Cynthia!"
 
-	para "Cynthia soll"
-	line "viele"
+	para "Cynthia soll viele"
 	line "Legenden und"
 	cont "Mythen von ihrer"
 

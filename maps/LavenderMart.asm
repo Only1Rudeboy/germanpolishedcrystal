@@ -34,19 +34,17 @@ LavenderMartPokefanMText:
 
 
 LavenderMartRockerText:
-	text "Ich habe von"
-	line "einem"
+	text "Ich habe von einem"
 	line "Kunstschmied"
 
 	para "gehört, der maß-"
 	line "gefertigte #-"
 	cont "BÄLLE in AZALEA"
 
-	para "in JOHTO her-"
-	line "stellt. Ich"
+	para "in JOHTO"
+	line "herstellt. Ich"
 	cont "wünschte, ich"
-	cont "hätte auch"
-	cont "welche."
+	cont "hätte auch welche."
 	done
 
 

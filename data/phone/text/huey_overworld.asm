@@ -2,9 +2,8 @@ HueyAskNumber1Text:
 	text "Cool! Das erste"
 	line "Mal, dass ich"
 
-	para "verloren hab!"
-	line "Gib mir deine"
-	cont "Nummer."
+	para "verloren hab! Gib"
+	line "mir deine Nummer."
 
 	para "Mit dir kämpfen"
 	line "macht Spaß. Ich"
@@ -42,8 +41,7 @@ HueyPhoneFullText:
 	done
 
 HueyRematchText:
-	text "Hey! Ich hab"
-	line "genug"
+	text "Hey! Ich hab genug"
 	line "gewartet!"
 	done
 
@@ -57,8 +55,7 @@ HueyRematchGiftText:
 	line "stark wie immer!"
 
 	para "Ich hab so oft"
-	line "gekämpft, aber"
-	cont "nie"
+	line "gekämpft, aber nie"
 	cont "gewonnen."
 
 	para "Ich kaufte Items,"
@@ -71,7 +68,7 @@ HueyRematchGiftText:
 	line "reichen nicht."
 
 	para "Nimm das,"
-	line "<PLAYER>."
-	line "Ich brauch es"
-	cont "nicht mehr…"
+	line "<PLAYER>. Ich"
+	cont "brauch es nicht"
+	cont "mehr…"
 	done

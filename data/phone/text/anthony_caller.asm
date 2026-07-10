@@ -4,18 +4,15 @@ AnthonyMonAteSomeBerriesText:
 
 	para ""
 	text_ram wStringBuffer4
-	text " Beeren"
-	line "aß."
+	text " Beeren aß."
 
 	para "Es schien die"
 	line "Mahlzeit zu"
-	cont "genie-"
-	cont "ßen, also"
+	cont "genießen, also"
 	cont "probierte"
 
 	para "ich auch welche."
-	line "Lecker, obwohl"
-	cont "ich"
+	line "Lecker, obwohl ich"
 
 	para "nicht sicher bin,"
 	line "ob Menschen die"
@@ -28,24 +25,22 @@ AnthonyDefeatedMonText:
 
 	para "wilde "
 	text_ram wStringBuffer4
-	text "."
-	line "Die waren leicht"
-	cont "zu besiegen."
+	text ". Die waren leicht"
+	line "zu besiegen."
 	done
 
 AnthonyLostAMonText:
-	text "Oh ja, ich"
-	line "kämpfte"
+	text "Oh ja, ich kämpfte"
 	line "gegen ein wildes"
 
 	para ""
 	text_ram wStringBuffer4
-	text "… Es"
-	line "entkam, als ich"
+	text "… Es entkam, als"
+	line "ich"
 
 	para "von einer"
 	line "Schönheit"
-	line "abgelenkt wurde."
+	cont "abgelenkt wurde."
 
 	para "Lerne aus meinem"
 	line "Fehler — bleib"
@@ -66,36 +61,31 @@ AnthonyBattleRematchText:
 	done
 
 AnthonyHangUpText:
-	text "Alles klar!"
-	line "Mach's gut!"
+	text "Alles klar! Mach's"
+	line "gut!"
 	done
 
 AnthonySwarmText:
 	text "<PLAYER>!"
-	line "Unglaub-"
-	line "lich!"
+	line "Unglaublich!"
 
 	para "Gestern wanderte"
 	line "ich auf"
 
 	para ""
 	text_ram wStringBuffer5
-	text "…"
-	line "Da waren jede"
+	text "… Da waren jede"
 
 	para "Menge "
 	text_ram wStringBuffer4
-	text "!"
-	line "Das musst du"
-	cont "sehen!"
+	text "! Das musst du"
+	line "sehen!"
 
 	para "Ich hab das"
-	line "Gefühl,"
-	line "dass "
+	line "Gefühl, dass "
 	text_ram wStringBuffer4
 
-	para "scheu ist. Ich"
-	line "sah"
+	para "scheu ist. Ich sah"
 	line "keine, wo starke"
 	cont "#mon sind."
 	done
@@ -107,8 +97,8 @@ AnthonyWasntPayingAttentionText:
 	line "sehr aufs Wandern"
 
 	para "konzentriert und"
-	line "hab nicht aufge-"
-	cont "passt."
+	line "hab nicht"
+	cont "aufgepasst."
 	done
 
 AnthonyReminderText:
@@ -125,12 +115,10 @@ AnthonyReminderText:
 	done
 
 AnthonyHurryText:
-	text "Hallo? Was? Wo"
-	line "ist"
+	text "Hallo? Was? Wo ist"
 	line "Dunsparce?"
 
-	para "Dunkelhöhle!"
-	line "Beeil"
+	para "Dunkelhöhle! Beeil"
 	line "dich!"
 
 	para "Wie schon gesagt:"

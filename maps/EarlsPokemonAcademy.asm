@@ -43,8 +43,7 @@ AcademyEarl:
 	iffalse_jumpopenedtext AcademyEarlNoMoreToTeachText
 	jumpthisopenedtext
 
-	text "Gut! So lass"
-	line "misch"
+	text "Gut! So lass misch"
 	line "erklären!"
 
 	para "Selbst, wenn ein"
@@ -54,15 +53,13 @@ AcademyEarl:
 	line "teilnimmt, erhält"
 	cont "es einige EP."
 
-	para "Platziere"
-	line "schwache"
+	para "Platziere schwache"
 	line "#mon an der"
 
 	para "Spitze der Liste."
 	line "Tausche sie dann"
 
-	para "im Kampf gegen"
-	line "ein"
+	para "im Kampf gegen ein"
 	line "anderes #mon."
 
 	para "So können auch"
@@ -161,8 +158,8 @@ PokemonJournalWalkerScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Ex-Leiter Walker!"
+	para "Spezial: Ex-Leiter"
+	line "Walker!"
 
 	para "Man sagt, der"
 	line "Vater Walker"
@@ -204,8 +201,7 @@ AcademyEarlIntroText:
 	line "zu werden!"
 
 	para "Was möchtest du"
-	line "wissen? Willst"
-	cont "ein"
+	line "wissen? Willst ein"
 	cont "Gewinner du sein?"
 	done
 
@@ -214,21 +210,19 @@ AcademyEarlIntroText:
 
 
 AcademyEarlTeachHowToWinText:
-	text "Gut! So lass"
-	line "misch"
+	text "Gut! So lass misch"
 	line "dir erklären!"
 
 	para "Im Kampf wird das"
 	line "erste #mon auf"
-	cont "der Liste begin-"
-	cont "nen!"
+	cont "der Liste"
+	cont "beginnen!"
 
-	para "Ändere die Auf-"
-	line "stellung in der"
-	cont "Liste, um dich"
-	cont "den"
-	cont "Gegebenheiten an-"
-	cont "zupassen!"
+	para "Ändere die"
+	line "Aufstellung in der"
+	cont "Liste, um dich den"
+	cont "Gegebenheiten"
+	cont "anzupassen!"
 
 	para "Möschtest du noch"
 	line "mehr ören?"
@@ -253,11 +247,10 @@ AcademyEarlNoMoreToTeachText:
 	text "Ach! Du bist eine"
 	line "schlaue Schüler!"
 	cont "Isch kann dir nun"
-	cont "nischts mehr bei-"
-	cont "bringen."
+	cont "nischts mehr"
+	cont "beibringen."
 
-	para "Sei lieb zu"
-	line "deinen"
+	para "Sei lieb zu deinen"
 	line "#mon!"
 	done
 
@@ -266,14 +259,14 @@ AcademyEarlNoMoreToTeachText:
 
 
 EarlsPokemonAcademyYoungster1Text:
-	text "Ich mache mir No-"
-	line "tizen über die"
+	text "Ich mache mir"
+	line "Notizen über die"
 	cont "Ausführungen."
 
 	para "Besser, ich"
 	line "schreibe auch"
-	cont "alles von der Ta-"
-	cont "fel ab."
+	cont "alles von der"
+	cont "Tafel ab."
 	done
 
 
@@ -282,8 +275,8 @@ EarlsPokemonAcademyYoungster1Text:
 
 EarlsPokemonAcademyGameboyKid1Text:
 	text "Ich tauschte mein"
-	line "bestes #mon"
-	cont "mit diesem Kerl."
+	line "bestes #mon mit"
+	cont "diesem Kerl."
 	done
 
 
@@ -303,8 +296,7 @@ EarlsPokemonAcademyGameboyKid2Text:
 EarlsPokemonAcademyYoungster2Text:
 	text "Ein #mon, das"
 	line "eine BEERE hält,"
-	cont "wird sich im"
-	cont "Kampf"
+	cont "wird sich im Kampf"
 	cont "selbst heilen."
 
 	para "Noch viele andere"
@@ -312,8 +304,8 @@ EarlsPokemonAcademyYoungster2Text:
 	cont "#mon gehalten"
 	cont "werden…"
 
-	para "Es ist nicht ein-"
-	line "fach, sich all"
+	para "Es ist nicht"
+	line "einfach, sich all"
 	cont "diese Notizen zu"
 	cont "machen…"
 	done
@@ -325,13 +317,13 @@ EarlsPokemonAcademyYoungster2Text:
 AcademyBlackboardText:
 	text "Auf der Tafel"
 	line "wer-"
-	line "den die"
+	cont "den die"
 	cont "Statusver-"
 	cont "änderungen von"
 
 	para "#mon während"
-	line "eines Kampfes er-"
-	cont "klärt."
+	line "eines Kampfes"
+	cont "erklärt."
 	done
 
 
@@ -340,8 +332,7 @@ AcademyBlackboardText:
 
 
 AcademyBlackboardText2: ; unreferenced
-	text "Über welches"
-	line "Thema"
+	text "Über welches Thema"
 	line "willst du lesen?"
 	done
 
@@ -351,9 +342,9 @@ AcademyBlackboardText2: ; unreferenced
 
 AcademyPoisonText:
 	text "Wird ein #mon"
-	line "vergiftet, ver-"
-	cont "liert es ständig"
-	cont "KP."
+	line "vergiftet,"
+	cont "verliert es"
+	cont "ständig KP."
 
 	para "Die Vergiftung"
 	line "dauert auch nach"
@@ -363,8 +354,7 @@ AcademyPoisonText:
 	cont "weiterhin KP."
 
 	para "Um es zu heilen,"
-	line "musst du"
-	cont "GEGENGIFT"
+	line "musst du GEGENGIFT"
 	cont "einsetzen."
 	done
 
@@ -373,16 +363,15 @@ AcademyPoisonText:
 
 
 AcademyParalysisText:
-	text "Paralyse"
-	line "reduziert"
-	line "die Geschwindig-"
-	cont "keit und verhin-"
-	cont "dert eventuell"
-	cont "jede Bewegung."
+	text "Paralyse reduziert"
+	line "die"
+	cont "Geschwindigkeit"
+	cont "und verhindert"
+	cont "eventuell jede"
+	cont "Bewegung."
 
 	para "Sie dauert nach"
-	line "dem Kampf noch"
-	cont "an,"
+	line "dem Kampf noch an,"
 	cont "also setze einen"
 	cont "PARAHEILER ein."
 	done
@@ -392,18 +381,15 @@ AcademyParalysisText:
 
 
 AcademySleepText:
-	text "Schläft ein #-"
-	line "MON, kann es"
-	cont "nicht"
-	cont "angreifen."
+	text "Schläft ein"
+	line "#mon, kann es"
+	cont "nicht angreifen."
 
-	para "Es wacht auch"
-	line "nach"
+	para "Es wacht auch nach"
 	line "dem Kampf nicht"
 	cont "auf."
 
-	para "Wecke es mit"
-	line "Hilfe"
+	para "Wecke es mit Hilfe"
 	line "von AUFWECKER"
 	cont "wieder auf."
 	done
@@ -414,11 +400,10 @@ AcademySleepText:
 
 AcademyBurnText:
 	text "Eine Verbrennung"
-	line "lässt die KP ste-"
-	cont "tig sinken und"
-	cont "re-"
-	cont "duziert die An-"
-	cont "griffskraft."
+	line "lässt die KP"
+	cont "stetig sinken und"
+	cont "reduziert die"
+	cont "Angriffskraft."
 
 	para "Die Verbrennung"
 	line "bleibt nach dem"
@@ -441,11 +426,10 @@ AcademyFreezeText:
 	line "Handlung fähig."
 
 	para "Dieser Zustand"
-	line "hält auch nach"
-	cont "dem"
+	line "hält auch nach dem"
 
-	para "Kampf an."
-	line "Um es aufzutauen,"
+	para "Kampf an. Um es"
+	line "aufzutauen,"
 
 	para "verwende einen"
 	line "EISHEILER."
@@ -456,18 +440,17 @@ AcademyFreezeText:
 
 
 AcademyNotebookText:
-	text "Es ist das Notiz-"
-	line "buch dieses Kin-"
-	cont "des…"
+	text "Es ist das"
+	line "Notizbuch dieses"
+	cont "Kindes…"
 
-	para "Fange #mon"
-	line "mit #BÄLLEN."
+	para "Fange #mon mit"
+	line "#BÄLLEN."
 
-	para "Bis zu sechs kön-"
-	line "nen sich gleich-"
-	cont "zeitig im Team"
-	cont "be-"
-	cont "finden."
+	para "Bis zu sechs"
+	line "können sich"
+	cont "gleichzeitig im"
+	cont "Team befinden."
 
 	para "Weiterlesen?"
 	done
@@ -479,8 +462,8 @@ AcademyNotebookText:
 AcademyNotebookText1:
 	text "Bevor man den"
 	line "#BALL wirft,"
-	cont "muss das Ziel ge-"
-	cont "schwächt werden."
+	cont "muss das Ziel"
+	cont "geschwächt werden."
 
 	para "Ein vergiftetes"
 	line "oder verbranntes"
@@ -502,8 +485,8 @@ AcademyNotebookText2:
 
 	para "Ein verwirrtes"
 	line "#mon kann sich"
-	cont "auch selbst ver-"
-	cont "letzen."
+	cont "auch selbst"
+	cont "verletzen."
 
 	para "Nach einem Kampf"
 	line "endet auch die"
@@ -517,13 +500,12 @@ AcademyNotebookText2:
 
 
 AcademyNotebookText3:
-	text "Leute, die #-"
-	line "MON fangen und in"
+	text "Leute, die #mon"
+	line "fangen und in"
 
-	para "Kämpfen"
-	line "einsetzen,"
-	line "nennt man #-"
-	cont "MON-Trainer."
+	para "Kämpfen einsetzen,"
+	line "nennt man"
+	cont "#mon-Trainer."
 
 	para "Man erwartet von"
 	line "ihnen, dass sie"
@@ -539,8 +521,7 @@ AcademyNotebookText3:
 
 	para "Mehr habe ich"
 	line "nicht"
-	cont "aufgeschrie-"
-	cont "ben…"
+	cont "aufgeschrieben…"
 	done
 
 

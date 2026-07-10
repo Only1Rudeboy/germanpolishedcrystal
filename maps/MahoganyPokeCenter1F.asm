@@ -25,8 +25,8 @@ PokemonJournalPryceScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Leiter Pryce!"
+	para "Spezial: Leiter"
+	line "Pryce!"
 
 	para "Pryces zweiter"
 	line "Vorname lautet"
@@ -55,13 +55,13 @@ MahoganyPokeCenter1FPokefanmText:
 MahoganyPokeCenter1FYoungsterText:
 	text "Ich verhindere,"
 	line "dass sich meine"
-	cont "#mon zu"
-	cont "rasch entwickeln."
+	cont "#mon zu rasch"
+	cont "entwickeln."
 
 	para "Ich bringe ihnen"
 	line "verschiedene"
-	cont "Attacken bei, be-"
-	cont "vor ich sie sich"
+	cont "Attacken bei,"
+	cont "bevor ich sie sich"
 	cont "entwickeln lasse."
 	done
 MahoganyPokeCenter1FCooltrainerfText:
@@ -71,7 +71,6 @@ MahoganyPokeCenter1FCooltrainerfText:
 	para "sich entwickeln."
 	line "Aber sie erlernen"
 
-	para "neue Attacken"
-	line "auch"
+	para "neue Attacken auch"
 	line "langsamer."
 	done

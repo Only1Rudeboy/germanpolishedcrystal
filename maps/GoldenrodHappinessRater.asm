@@ -54,8 +54,8 @@ GoldenrodHappinessRaterTeacherScript:
 .Egg:
 	jumpthisopenedtext
 
-	text "Das ist ein EI."
-	line "Es hat noch keine"
+	text "Das ist ein EI. Es"
+	line "hat noch keine"
 	cont "Gefühle."
 	done
 
@@ -67,8 +67,8 @@ GoldenrodHappinessRaterTeacherScript:
 	cont "dich nicht mehr"
 	cont "lieben."
 
-	para "Schon beim"
-	line "Anblick werde ich"
+	para "Schon beim Anblick"
+	line "werde ich"
 	cont "glücklich! ♥"
 	done
 
@@ -94,18 +94,16 @@ GoldenrodHappinessRaterTeacherScript:
 .ReallyTrustsYou:
 	jumpthisopenedtext
 
-	text "Ich habe den Ein-"
-	line "druck, dass es"
-	cont "dir"
-	cont "wirklich"
+	text "Ich habe den"
+	line "Eindruck, dass es"
+	cont "dir wirklich"
 	cont "vertraut."
 	done
 .SortOfHappy:
 	jumpthisopenedtext
 
 	text "Es verhält sich"
-	line "dir gegenüber"
-	cont "sehr"
+	line "dir gegenüber sehr"
 	cont "freundlich. Es"
 	cont "muss glücklich"
 	cont "sein."
@@ -122,8 +120,8 @@ GoldenrodHappinessRaterTeacherScript:
 	text "Du solltest es"
 	line "besser behandeln."
 	cont "Es hat sich noch"
-	cont "nicht an dich ge-"
-	cont "wöhnt."
+	cont "nicht an dich"
+	cont "gewöhnt."
 	done
 .RefusedText:
 	text "Komm wieder, wenn"
@@ -135,9 +133,8 @@ GoldenrodHappinessRaterAskCheckText:
 	text "Wenn du deine"
 	line "#mon gut"
 
-	para "behandelst,"
-	line "lieben sie dich"
-	cont "zurück."
+	para "behandelst, lieben"
+	line "sie dich zurück."
 
 	para "Soll ich die"
 	line "Zuneigung deines"
@@ -149,11 +146,9 @@ GoldenrodHappinessRaterTeacherText:
 	line "deine #mon gut,"
 
 	para "werden sie dich"
-	line "regelrecht"
-	cont "lieben."
+	line "regelrecht lieben."
 
-	para "Oh! Lass mich"
-	line "dein"
+	para "Oh! Lass mich dein"
 	line "@"
 	text " sehen…"
 	done
@@ -165,12 +160,11 @@ GoldenrodHappinessRaterTeacherText:
 
 GoldenrodHappinessRaterPokefanMText:
 	text "Ständig verliere"
-	line "ich in Kämpfen"
-	cont "und"
+	line "ich in Kämpfen und"
 
 	para "meine #mon"
-	line "werden immer be-"
-	cont "siegt…"
+	line "werden immer"
+	cont "besiegt…"
 
 	para "Das mag der Grund"
 	line "sein, warum mich"

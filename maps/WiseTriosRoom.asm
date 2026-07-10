@@ -79,14 +79,13 @@ TrainerElderGaku:
 	para "ENTEI und RAIKOU"
 	line "während sie"
 
-	para "schliefen"
-	line "gesehen zu haben?"
+	para "schliefen gesehen"
+	line "zu haben?"
 
 	para "Unglaublich!"
 
 	para "Der Legende nach"
-	line "können sie"
-	cont "während"
+	line "können sie während"
 
 	para "des Schlafs nicht"
 	line "gesehen werden…"
@@ -98,8 +97,7 @@ TrainerElderMasa:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Früher gab es"
-	line "hier"
+	text "Früher gab es hier"
 	line "zwei neunstöckige"
 	cont "Türme."
 
@@ -115,8 +113,8 @@ endc
 	line "Schlaf wecken"
 	cont "sollte."
 
-	para "Der andere war"
-	line "der Glockenturm,"
+	para "Der andere war der"
+	line "Glockenturm,"
 
 	para "in dem #mon"
 	line "Ruhe fanden."
@@ -127,8 +125,7 @@ endc
 	para "muss großartig"
 	line "gewesen sein."
 
-	para "Zu jener Zeit"
-	line "soll"
+	para "Zu jener Zeit soll"
 	line "ein riesiges,"
 
 	para "silberfarbenes"
@@ -139,8 +136,7 @@ else
 	line "Gongturm sein"
 endc
 
-	para "Nest gehabt"
-	line "haben."
+	para "Nest gehabt haben."
 
 	para "Doch…"
 
@@ -202,8 +198,7 @@ WiseTriosRoomSageAllowsPassageMovement:
 WiseTriosRoomSage1Text:
 	text "Erstaunlich…"
 
-	para "SUICUNE, ENTEI"
-	line "und"
+	para "SUICUNE, ENTEI und"
 	line "RAIKOU sind aus"
 	cont "dem Schlaf"
 	cont "erwacht…"
@@ -219,21 +214,18 @@ WiseTriosRoomSage1Text:
 
 
 WiseTriosRoomSage2Text:
-	text "Wir trainieren"
-	line "bei"
+	text "Wir trainieren bei"
 	line "der TURMRUINE,"
 
-	para "aber wir haben"
-	line "nie"
+	para "aber wir haben nie"
 	line "von einem Loch"
-	cont "ge-"
-	cont "hört, das sich"
+	cont "gehört, das sich"
 	cont "dort geöffnet"
 
-	para "haben soll."
-	line "Jemand"
-	line "muss das absicht-"
-	cont "lich getan haben."
+	para "haben soll. Jemand"
+	line "muss das"
+	cont "absichtlich getan"
+	cont "haben."
 	done
 
 
@@ -250,12 +242,10 @@ WiseTriosRoomSage3BlocksExitText:
 	line "#mon-ARENA von"
 	cont "TEAK CITY tragen."
 
-	para "Da SUICUNE,"
-	line "RAIKOU"
+	para "Da SUICUNE, RAIKOU"
 	line "und ENTEI jetzt"
 
-	para "aber erwacht"
-	line "sind,"
+	para "aber erwacht sind,"
 	line "muss ich dich"
 
 	para "bitten, nicht"
@@ -284,14 +274,13 @@ WiseTriosRoomSage3Text:
 
 ElderGakuSeenText:
 	text "Die Legende"
-	line "besagt,"
-	line "dass bei einem"
+	line "besagt, dass bei"
+	cont "einem"
 
 	para "Trainer, der die"
 	line "Seelen der #mon"
 
-	para "berühren kann,"
-	line "ein"
+	para "berühren kann, ein"
 	line "#mon erscheint,"
 
 	para "um diesen Trainer"
@@ -309,7 +298,7 @@ ElderGakuSeenText:
 
 	para "Wir, das TRIO der"
 	line "WEISEN, werden"
-	line "prüfen, ob du"
+	cont "prüfen, ob du"
 
 	para "würdig bist,"
 	line "einzutreten!"
@@ -317,8 +306,7 @@ ElderGakuSeenText:
 
 ElderGakuBeatenText:
 	text "Stärker als wir"
-	line "dachten? Wer"
-	cont "weiß…"
+	line "dachten? Wer weiß…"
 	done
 ElderMasaSeenText:
 	text "Kann man dir die"
@@ -326,20 +314,18 @@ ElderMasaSeenText:
 	cont "anvertrauen?"
 
 	para "Ich muss prüfen,"
-	line "ob du würdig"
-	cont "bist."
+	line "ob du würdig bist."
 	done
 ElderMasaBeatenText:
-	text "…Ich sage dir"
-	line "die Wahrheit…"
+	text "…Ich sage dir die"
+	line "Wahrheit…"
 	done
 ElderKojiSeenText:
 	text "Beweise mir deine"
 	line "Kraft!"
 	done
 ElderKojiBeatenText:
-	text "Zu stark!"
-	line "Warum?"
+	text "Zu stark! Warum?"
 	done
 SageKojiAfterBattleQuestionText:
 	text "Du… bist du der"
@@ -360,23 +346,21 @@ SageKojiAfterBattleSpeechText:
 	text "Ich verstehe…"
 
 	para "Wir, das TRIO der"
-	line "WEISEN, sind ver-"
-	cont "antwortlich für"
+	line "WEISEN, sind"
+	cont "verantwortlich für"
 	cont "den Schutz der"
 
-	para "legendären #-"
-	line "MON. Wir"
+	para "legendären"
+	line "#mon. Wir"
 	cont "gestatten"
 
-	para "nur jenen"
-	line "Zutritt,"
+	para "nur jenen Zutritt,"
 	line "die eine reine"
 
 	para "Seele und wahre"
 	line "Kraft besitzen."
 
-	para "Schreite voran"
-	line "und"
+	para "Schreite voran und"
 	line "betritt den"
 	cont "ZINNTURM."
 

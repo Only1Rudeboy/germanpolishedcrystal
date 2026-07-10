@@ -185,9 +185,8 @@ TinTower1FSage4Script:
 	iftruefwd .FoughtHoOh
 	jumpthistextfaceplayer
 
-	text "Es scheint, als"
-	line "ob HO-OH vom"
-	cont "ZINNTURM"
+	text "Es scheint, als ob"
+	line "HO-OH vom ZINNTURM"
 
 	para "heruntergekommen"
 	line "ist!"
@@ -202,18 +201,14 @@ TinTower1FSage4Script:
 	para "die drei Mächte"
 	line "verkörpern…"
 
-	para "Die Blitze, die"
-	line "im"
+	para "Die Blitze, die im"
 	line "TURM einschlugen."
 
-	para "Das Feuer, das"
-	line "den"
+	para "Das Feuer, das den"
 	line "TURM zerstörte."
 
-	para "Und den Regen,"
-	line "der"
-	line "das Feuer"
-	cont "löschte…"
+	para "Und den Regen, der"
+	line "das Feuer löschte…"
 	done
 
 TinTower1FSage5Script:
@@ -250,8 +245,7 @@ TinTower1FSage5Script:
 	para "Diejenigen, die"
 	line "ihrem Aufstieg"
 
-	para "beiwohnten,"
-	line "wurden"
+	para "beiwohnten, wurden"
 	line "Zeugen ihres"
 	cont "Terrors."
 
@@ -279,19 +273,16 @@ TinTower1FSage6Script:
 	text "Ich glaube, du"
 	line "wirst geprüft."
 
-	para "Sprenge die"
-	line "Ketten"
+	para "Sprenge die Ketten"
 	line "der Unsicherheit"
-	cont "von deinem Ver-"
-	cont "stand und"
-	cont "schreite"
-	cont "voran."
+	cont "von deinem"
+	cont "Verstand und"
+	cont "schreite voran."
 	done
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
-	text "Von den"
-	line "legendären"
+	text "Von den legendären"
 	line "#mon soll"
 
 	para "SUICUNE die"
@@ -306,8 +297,7 @@ TinTower1FSage6Script:
 	cont "ICOGNITO gibt."
 
 	para "ICOGNITO muss"
-	line "einen"
-	cont "kooperativen"
+	line "einen kooperativen"
 
 	para "Bund mit SUICUNE"
 	line "haben."
@@ -424,25 +414,22 @@ TinTowerEusineSuicuneText:
 	para "Das hat mich sehr"
 	line "beeindruckt."
 
-	para "SUICUNE war"
-	line "stark,"
-	line "aber du warst"
-	cont "noch"
+	para "SUICUNE war stark,"
+	line "aber du warst noch"
 
 	para "unglaublicher,"
 	line "<PLAYER>."
 
 	para "Ich hörte, dass"
-	line "SUICUNEs"
-	cont "mystische"
+	line "SUICUNEs mystische"
 
-	para "Kraft ein regen-"
-	line "bogenfarbenes"
+	para "Kraft ein"
+	line "regenbogenfarbenes"
 	cont "#mon anlockt."
 
 	para "Vielleicht zeigt"
-	line "sich dieses #-"
-	cont "MON, nach dem,"
+	line "sich dieses"
+	cont "#mon, nach dem,"
 	cont "was"
 
 	para "sich heute"
@@ -462,33 +449,30 @@ TinTowerEusineSuicuneText:
 	line "<PLAYER>!"
 	done
 TinTower1FSage1Text:
-	text "Die Legende"
-	line "besagt"
+	text "Die Legende besagt"
 	line "…"
 
 	para "Kommunizieren die"
 	line "Seelen von #mon"
 
 	para "und Menschen,"
-	line "kommt ein regen-"
-	cont "bogenfarbenes"
+	line "kommt ein"
+	cont "regenbogenfarbenes"
 
 	para "#mon vom Himmel"
 	line "herab…"
 
-	para "Könnte das bedeu-"
-	line "ten, dass die"
+	para "Könnte das"
+	line "bedeuten, dass die"
 
 	para "legendären #mon"
 	line "uns Menschen auf"
-	cont "die Probe"
-	cont "stellen?"
+	cont "die Probe stellen?"
 	done
 
 
 TinTower1FSage2Text:
-	text "Als der"
-	line "BRONZETURM"
+	text "Als der BRONZETURM"
 	line "abbrannte, sollen"
 
 	para "drei namenlose"
@@ -513,8 +497,7 @@ TinTower1FSage2Text:
 
 	para "Es sind…"
 
-	para "SUICUNE, ENTEI"
-	line "und"
+	para "SUICUNE, ENTEI und"
 	line "RAIKOU."
 
 	para "So lautet die"
@@ -551,8 +534,7 @@ endc
 
 	para "Es sind…"
 
-	para "SUICUNE, ENTEI"
-	line "und"
+	para "SUICUNE, ENTEI und"
 	line "RAIKOU."
 
 	para "So lautet die"
@@ -570,17 +552,15 @@ TinTower1FSage3Text:
 	cont "zu festigen."
 
 	para "Das war vor 700"
-	line "Jahren, aber die-"
-	cont "se Maxime ist"
-	cont "noch"
+	line "Jahren, aber diese"
+	cont "Maxime ist noch"
 	cont "heute gültig."
 	done
 
 
 TinTower1FSage5Text1:
 	text "Dies wird dich"
-	line "schützen. Nimm"
-	cont "es!"
+	line "schützen. Nimm es!"
 	done
 
 
@@ -593,12 +573,11 @@ TinTowerEusineHoOhText:
 
 	para "regenbogenfarbene"
 	line "#mon sehen,"
-	line "<PLAYER>."
+	cont "<PLAYER>."
 
 	para "Es geschah genau"
-	line "so, wie ich es"
-	cont "mir vorgestellt"
-	cont "habe."
+	line "so, wie ich es mir"
+	cont "vorgestellt habe."
 
 	para "Meine Forschung"
 	line "ist gar nicht"
@@ -616,7 +595,7 @@ TinTowerEusineHoOhText:
 
 	para "bist, sagst du"
 	line "hallo zu meinem"
-	line "Opa?"
+	cont "Opa?"
 
 	para "Ihm würde die"
 	line "Gesellschaft gut"

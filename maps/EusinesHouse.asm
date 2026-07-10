@@ -64,8 +64,7 @@ CeladonEusine:
 	jumpthistext
 
 	text "Wenn du auch nur"
-	line "eins fängst,"
-	cont "hoffe"
+	line "eins fängst, hoffe"
 	cont "ich, dass du mir"
 	cont "Bescheid sagst."
 
@@ -141,8 +140,8 @@ ReceivedAbraDollText:
 	done
 
 AbraDollSentHomeText:
-	text "Abra-Puppe"
-	line "wurde nach Hause"
+	text "Abra-Puppe wurde"
+	line "nach Hause"
 	cont "geschickt."
 	done
 
@@ -151,10 +150,9 @@ CeladonEusineText1:
 
 	para "Ich komme gerade"
 	line "von meinem"
-	cont "Heimat-"
-	cont "ort zurück. Es"
-	cont "ist"
-	cont "schon lange her."
+	cont "Heimatort zurück."
+	cont "Es ist schon lange"
+	cont "her."
 	done
 EusineLeavesCeladonText:
 	text "<PLAYER>, hast du"
@@ -163,8 +161,8 @@ EusineLeavesCeladonText:
 	para "Es gibt neue"
 	line "Gerüchte über ein"
 
-	para "regenbogenfarbe-"
-	line "nes #mon am"
+	para "regenbogenfarbenes"
+	line "#mon am"
 	cont "Glockenturm."
 
 	para "Mein Team wurde"
@@ -182,16 +180,15 @@ EusineNoBeastsText:
 	line "<PLAYER>."
 
 	para "Hast du die"
-	line "legendären"
-	cont "Bestien"
+	line "legendären Bestien"
 	cont "gefangen?"
 
 	para "………………"
 
 	para "OK…"
 
-	para "Ich gebe dir"
-	line "meine Notizen."
+	para "Ich gebe dir meine"
+	line "Notizen."
 	done
 
 EusineShowsRaikouText:
@@ -213,8 +210,8 @@ EusinesHouseGrampsGrandsonHomeText:
 	line "nach Hause"
 	cont "gekommen!"
 
-	para "Ich bin über-"
-	line "glücklich!"
+	para "Ich bin"
+	line "überglücklich!"
 	done
 
 EusinesHouseGrampsEusineSearchingForSuicuneText:
@@ -224,10 +221,9 @@ EusinesHouseGrampsEusineSearchingForSuicuneText:
 	para "und sucht Suicune"
 	line "überall."
 
-	para "Ich habe ihm"
-	line "alles"
-	line "über die legend-"
-	cont "ären #mon"
+	para "Ich habe ihm alles"
+	line "über die"
+	cont "legendären #mon"
 	cont "beigebracht!"
 	done
 
@@ -240,8 +236,7 @@ EusinesHouseGrampsThankYouGiftText:
 	line "Das freut mich!"
 
 	para "Danke, dass du"
-	line "nach mir"
-	cont "schaust,"
+	line "nach mir schaust,"
 	cont "<PLAYER>!"
 
 	para "Nimm das hier als"
@@ -249,9 +244,9 @@ EusinesHouseGrampsThankYouGiftText:
 	done
 
 EusinesHouseGrampsEusineTravelingWorldText:
-	text "EUSIN ist unter-"
-	line "wegs und bereist"
-	cont "die Welt."
+	text "EUSIN ist"
+	line "unterwegs und"
+	cont "bereist die Welt."
 
 	para "Ich bin so stolz"
 	line "auf ihn!"

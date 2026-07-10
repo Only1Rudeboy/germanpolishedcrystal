@@ -46,16 +46,14 @@ MountMortarB1FTutorDefenseCurlScript:
 	jumpthisopenedtext
 
 	text "Ich warte genau"
-	line "hier"
-	line "auf dich."
+	line "hier auf dich."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
 	text "Schade, du hast"
-	line "kein"
-	cont "Silberblatt."
+	line "kein Silberblatt."
 	done
 
 .TeachMove
@@ -93,10 +91,8 @@ MountMortarB1FKiyoGotTyrogueText:
 	text "RABAUZ ist ein"
 	line "Kampf-#mon."
 
-	para "Es entwickelt"
-	line "sich"
-	line "zu einem"
-	cont "stärkeren"
+	para "Es entwickelt sich"
+	line "zu einem stärkeren"
 	cont "#mon."
 
 	para "Arbeite so hart"
@@ -120,26 +116,24 @@ endc
 	para "einen Felsen"
 	line "eingesetzt, aber"
 
-	para "er blieb ganz."
-	line "Es war ein"
-	cont "Georok, das"
-	cont "EINIGLER nutzte!"
+	para "er blieb ganz. Es"
+	line "war ein Georok,"
+	cont "das EINIGLER"
+	cont "nutzte!"
 	done
 
 Text_MountMortarB1FTutorDefenseCurl:
 	text "Ich bringe deinem"
 	line "#mon"
 
-	para "EINIGLER bei —"
-	line "für ein"
-	cont "Silberblatt."
+	para "EINIGLER bei — für"
+	line "ein Silberblatt."
 	done
 
 
 Text_MountMortarB1FTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon"
-	cont "EINIGLER"
+	line "#mon EINIGLER"
 	cont "beibringen?"
 	done
 
@@ -151,13 +145,11 @@ MountMortarB1FKiyoIntroText:
 	para "Ich bin der"
 	line "KARATE-MEISTER!"
 
-	para "Ich trainiere"
-	line "hier"
-	line "allein im"
-	cont "Dunkeln!"
+	para "Ich trainiere hier"
+	line "allein im Dunkeln!"
 
-	para "Du!"
-	line "Kämpfe mit mir!"
+	para "Du! Kämpfe mit"
+	line "mir!"
 
 	para "Arggh!"
 	done
@@ -165,9 +157,8 @@ MountMortarB1FKiyoIntroText:
 
 
 MountMortarB1FKiyoWinText:
-	text "Waaaarggh!"
-	line "Ich wurde"
-	cont "besiegt!"
+	text "Waaaarggh! Ich"
+	line "wurde besiegt!"
 	done
 
 
@@ -176,8 +167,7 @@ MountMortarB1FTyrogueRewardText:
 	text "Ich… ich bin am"
 	line "Boden zerstört…"
 
-	para "Ich habe nicht"
-	line "gut"
+	para "Ich habe nicht gut"
 	line "genug trainiert…"
 
 	para "Eine Niederlage"
@@ -196,7 +186,6 @@ MountMortarB1FTyrogueRewardText:
 
 
 MountMortarB1FKiyoFullPartyAndBoxText:
-	text "Kein Platz im"
-	line "Team oder in der"
-	line "Box!"
+	text "Kein Platz im Team"
+	line "oder in der Box!"
 	done

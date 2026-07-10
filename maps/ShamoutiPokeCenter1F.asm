@@ -26,9 +26,8 @@ PokemonJournalLoreleiScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Ex-TOP VIER"
-	cont "Lorelei!"
+	para "Spezial: Ex-TOP"
+	line "VIER Lorelei!"
 
 	para "Man sagt, Lorelei"
 	line "habe eine"
@@ -58,11 +57,10 @@ ShamoutiPokeCenter1FIvyScript:
 
 	text "Ivy: Hm, ich"
 	line "dachte, du wärst"
-	line "froh, ein"
-	cont "seltenes"
+	cont "froh, ein seltenes"
 
-	para "#mon großzu-"
-	line "ziehen…"
+	para "#mon"
+	line "großzuziehen…"
 	done
 
 .Bulbasaur:
@@ -114,8 +112,7 @@ ShamoutiPokeCenter1FIvyScript:
 	end
 
 .NoRoomText:
-	text "Schade, es"
-	line "scheint"
+	text "Schade, es scheint"
 	line "keinen Platz zu"
 	cont "geben — weder in"
 	cont "deinem Team noch"
@@ -124,8 +121,7 @@ ShamoutiPokeCenter1FIvyScript:
 
 .GreetingText:
 	text "Ivy: Ach! Du bist"
-	line "<PLAYER>,"
-	cont "der neue"
+	line "<PLAYER>, der neue"
 	cont "Champion!"
 
 	para "Freut mich, dich"
@@ -135,8 +131,7 @@ ShamoutiPokeCenter1FIvyScript:
 	line "#mon-Professor."
 
 	para "Ich erforsche"
-	line "lokale"
-	cont "Variationen"
+	line "lokale Variationen"
 	line "im Aussehen von"
 	cont "#mon."
 
@@ -153,15 +148,14 @@ ShamoutiPokeCenter1FIvyScript:
 	line "#mon derselben"
 
 	para "Art in einem"
-	line "Gebiet"
-	line "können verschie-"
-	cont "dene Farben"
-	cont "haben…"
+	line "Gebiet können"
+	cont "verschiedene"
+	cont "Farben haben…"
 
-	para "Ach, Entschuldi-"
-	line "gung, ich"
-	cont "schweife"
-	cont "oft ab."
+	para "Ach,"
+	line "Entschuldigung,"
+	cont "ich schweife oft"
+	cont "ab."
 	done
 
 .OfferText:
@@ -174,8 +168,7 @@ ShamoutiPokeCenter1FIvyScript:
 	cont "neuen Region…"
 
 	para "Aha! Warum gebe"
-	line "ich dir nicht"
-	cont "auch"
+	line "ich dir nicht auch"
 	cont "ein neues #mon?"
 
 	para "Welches möchtest"
@@ -183,8 +176,7 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .ChoseKantoStarterText:
-	text "Ivy: Das finde"
-	line "ich"
+	text "Ivy: Das finde ich"
 	line "auch ein tolles"
 	cont "#mon!"
 	done
@@ -212,8 +204,8 @@ ShamoutiPokeCenter1FIvyScript:
 	line "der Valencia-"
 	cont "Insel."
 
-	para "Grüß Prof.Oak"
-	line "von mir!"
+	para "Grüß Prof.Oak von"
+	line "mir!"
 	done
 
 .DownMovement:

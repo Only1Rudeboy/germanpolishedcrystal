@@ -37,8 +37,8 @@ RadioTower4FDJMaryScript:
 	jumpthisopenedtext
 
 	text "MARGIT: Warum?"
-	line "Warum muss ich"
-	cont "das durchmachen?"
+	line "Warum muss ich das"
+	cont "durchmachen?"
 
 	para "MAUZI, hilf mir!"
 	done
@@ -63,14 +63,13 @@ GenericTrainerGruntM10:
 	generictrainer GRUNTM, 10, EVENT_BEAT_ROCKET_GRUNTM_10, GruntM10SeenText, GruntM10BeatenText
 
 	text "Ich kann es nicht"
-	line "glauben, ich"
-	cont "wurde besiegt!"
+	line "glauben, ich wurde"
+	cont "besiegt!"
 	done
 GenericTrainerProton1:
 	generictrainer PROTON, PROTON1, EVENT_BEAT_PROTON_1, Proton1SeenText, Proton1BeatenText
 
-	text "Du hast dir"
-	line "meinen"
+	text "Du hast dir meinen"
 	line "Respekt verdient."
 	cont "Hier ist ein Tipp"
 	cont "für dich."
@@ -86,8 +85,8 @@ GenericTrainerGruntF4:
 	text "Ich liebe mein"
 	line "hübsches Äußeres!"
 
-	para "Wer schert sich"
-	line "um #mon?"
+	para "Wer schert sich um"
+	line "#mon?"
 	done
 GenericTrainerRocketScientistRich:
 	generictrainer ROCKET_SCIENTIST, RICH, EVENT_BEAT_ROCKET_SCIENTIST_RICH, RocketScientistRichSeenText, RocketScientistRichBeatenText
@@ -98,9 +97,9 @@ GenericTrainerRocketScientistRich:
 	cont "zu können?"
 	done
 RadioTower4FFisherText:
-	text "Als ich bei"
-	line "den RUINEN war,"
-	cont "hörte ich Radio."
+	text "Als ich bei den"
+	line "RUINEN war, hörte"
+	cont "ich Radio."
 
 	para "Ich empfing eine"
 	line "seltsame Sendung."
@@ -112,9 +111,9 @@ RadioTower4FFisherText:
 
 RadioTower4FDJMaryText_ClearedRockets:
 	text "MARGIT: Oh! Du"
-	line "hast mich geret-"
-	cont "tet! Nimm dies"
-	cont "als"
+	line "hast mich"
+	cont "gerettet! Nimm"
+	cont "dies als"
 
 	para "Zeichen meines"
 	line "Dankes!"
@@ -159,8 +158,7 @@ GruntM10SeenText:
 
 
 GruntM10BeatenText:
-	text "Nein!"
-	line "Unglaublich!"
+	text "Nein! Unglaublich!"
 	done
 
 
@@ -168,8 +166,7 @@ GruntM10BeatenText:
 
 
 Proton1SeenText:
-	text "Stopp! Ich bin"
-	line "als"
+	text "Stopp! Ich bin als"
 	line "TEAM ROCKET-"
 	cont "Festung bekannt!"
 
@@ -181,15 +178,13 @@ Proton1BeatenText:
 	line "gestürmt!"
 	done
 GruntF4SeenText:
-	text "Sind #mon"
-	line "nicht wirklich"
-	cont "niedlich?"
+	text "Sind #mon nicht"
+	line "wirklich niedlich?"
 
 	para "Ich denke, meine"
 	line "#mon sind"
 
-	para "niedlich -"
-	line "nachdem"
+	para "niedlich nachdem"
 	line "sie deine besiegt"
 	cont "haben!"
 	done
@@ -200,8 +195,8 @@ GruntF4SeenText:
 
 GruntF4BeatenText:
 	text "Ach, nein! Sie"
-	line "sind"
-	line "absolut unnütz!"
+	line "sind absolut"
+	cont "unnütz!"
 	done
 
 
@@ -212,9 +207,9 @@ RocketScientistRichSeenText:
 	text "Exzellent."
 
 	para "Mit dem RADIOTURM"
-	line "können wir"
-	cont "unser Vorhaben in"
-	cont "die Tat umsetzen."
+	line "können wir unser"
+	cont "Vorhaben in die"
+	cont "Tat umsetzen."
 	done
 RocketScientistRichBeatenText:
 	text "Hmmm…"

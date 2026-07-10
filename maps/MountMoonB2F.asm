@@ -47,8 +47,7 @@ GenericTrainerBird_keeperMick:
 	generictrainer BIRD_KEEPER, MICK, EVENT_BEAT_BIRD_KEEPER_MICK, Bird_keeperMickSeenText, Bird_keeperMickBeatenText
 
 	text "Gleich und gleich"
-	line "gesellt sich"
-	cont "gern."
+	line "gesellt sich gern."
 
 	para "Ich sollte mich"
 	line "mit anderen"
@@ -61,12 +60,12 @@ GenericTrainerBird_keeperMick:
 GenericTrainerHexManiacEsther:
 	generictrainer HEX_MANIAC, ESTHER, EVENT_BEAT_HEX_MANIAC_ESTHER, HexManiacEstherSeenText, HexManiacEstherBeatenText
 
-	text "Spieglein, Spieg-"
-	line "lein groß und"
+	text "Spieglein,"
+	line "Spieglein groß und"
 
 	para "weis, sah meine"
-	line "schnelle Nieder-"
-	cont "lage nicht"
+	line "schnelle"
+	cont "Niederlage nicht"
 	cont "voraus."
 	done
 
@@ -90,8 +89,7 @@ GenericTrainerSuperNerdMiguel:
 
 YoungsterJoshSeenText:
 	text "Du bist zum"
-	line "Erkun-"
-	line "den der Höhle"
+	line "Erkunden der Höhle"
 	cont "gekommen, oder?"
 
 	para "Vorsicht, du"
@@ -142,9 +140,8 @@ CooltrainermConnorBeatenText:
 
 SuperNerdMiguelSeenText:
 	text "Ich hab diese"
-	line "Fossilien"
-	cont "gefunden und"
-	cont "wiederbelebt!"
+	line "Fossilien gefunden"
+	cont "und wiederbelebt!"
 
 	para "Jetzt gehören sie"
 	line "mir!"

@@ -102,8 +102,8 @@ GenericTrainerSwimmerfDiana:
 	generictrainer SWIMMERF, DIANA, EVENT_BEAT_SWIMMERF_DIANA, SwimmerfDianaSeenText, SwimmerfDianaBeatenText
 
 	text "Ich werde in Ruhe"
-	line "vor mich hin-"
-	cont "schwimmen."
+	line "vor mich"
+	cont "hinschwimmen."
 	done
 GenericTrainerSwimmerfViola:
 	generictrainer SWIMMERF, VIOLA, EVENT_BEAT_SWIMMERF_VIOLA, SwimmerfViolaSeenText, SwimmerfViolaBeatenText
@@ -113,8 +113,8 @@ GenericTrainerSwimmerfViola:
 	cont "Gesundheit!"
 
 	para "Schau dir MISTY"
-	line "an, dann siehst"
-	cont "du es."
+	line "an, dann siehst du"
+	cont "es."
 	done
 
 GenericTrainerSwimmerfBriana:
@@ -157,8 +157,8 @@ CeruleanGymGuyScript:
 	iftrue_jumptextfaceplayer CeruleanGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Du CHAMP"
-	line "in spe!"
+	text "He! Du CHAMP in"
+	line "spe!"
 
 	para "Nachdem MISTY weg"
 	line "war, bin ich auch"
@@ -188,8 +188,7 @@ CeruleanGymStatue1:
 
 	text "Tut mir leid, ich"
 	line "bin eine Weile"
-	cont "weg."
-	cont "MISTY,"
+	cont "weg. MISTY,"
 	cont "Arenaleiterin"
 	done
 
@@ -198,9 +197,8 @@ CeruleanGymStatue2:
 	iffalsefwd CeruleanGymStatue
 	jumpthistext
 
-	text "Da MISTY weg"
-	line "ist, sind wir"
-	cont "auch weg."
+	text "Da MISTY weg ist,"
+	line "sind wir auch weg."
 	cont "Arenatrainer"
 	done
 
@@ -244,14 +242,11 @@ CeruleanGymGruntBacksAwayMovement:
 
 CeruleanGymGruntIntroText:
 	text "Ups! Tut ja so"
-	line "Leid mir! Du"
-	cont "nicht"
-	cont "verletzt, du"
-	cont "O.K.?"
+	line "Leid mir! Du nicht"
+	cont "verletzt, du O.K.?"
 
 	para "Ich schwer"
-	line "beschäftigt."
-	cont "Nicht"
+	line "beschäftigt. Nicht"
 	cont "Zeit für Reden."
 	cont "Nicht gut, wenn"
 	cont "ich gesehen"
@@ -266,8 +261,8 @@ CeruleanGymGruntBigMistakeText:
 	done
 
 CeruleanGymGruntByeText:
-	text "He, du! Du ver-"
-	line "gessen, dass du"
+	text "He, du! Du"
+	line "vergessen, dass du"
 
 	para "mich gesehen, ja?"
 	line "Du nichts sehen,"
@@ -283,12 +278,11 @@ MistyIntroText:
 	line "dich erwartet, du"
 	cont "Nervensäge!"
 
-	para "Du hast zwar"
-	line "viele ORDEN von"
+	para "Du hast zwar viele"
+	line "ORDEN von"
 
 	para "JOHTO, aber"
-	line "unter-"
-	line "schätze mich"
+	line "unterschätze mich"
 	cont "lieber nicht!"
 
 	para "Meine Wasser-"
@@ -312,8 +306,8 @@ MistyGiveTMText:
 	line "noch eine"
 	cont "Erinnerung an"
 
-	para "diesen Kampf."
-	line "Nimm sie!"
+	para "diesen Kampf. Nimm"
+	line "sie!"
 	done
 
 MistyFightDoneText:
@@ -323,8 +317,7 @@ MistyFightDoneText:
 	cont "in JOHTO?"
 
 	para "Eines Tages werde"
-	line "ich mich"
-	cont "aufmachen"
+	line "ich mich aufmachen"
 
 	para "und gegen einige"
 	line "ausgebildete"
@@ -349,21 +342,19 @@ SwimmerfViolaSeenText:
 	cont "Tempo!"
 
 	para "Es geht auch um"
-	line "Anmut und Schön-"
-	cont "heit!"
+	line "Anmut und"
+	cont "Schönheit!"
 	done
 
 SwimmerfViolaBeatenText:
-	text "Ich hab"
-	line "wunderbar"
-	cont "verloren…"
+	text "Ich hab wunderbar"
+	line "verloren…"
 	done
 
 SwimmerfBrianaSeenText:
 	text "Ich hoffe, meine"
 	line "elegante Art zu"
-	cont "schwimmen"
-	cont "zermürbt"
+	cont "schwimmen zermürbt"
 	cont "dich nicht."
 	done
 
@@ -396,8 +387,8 @@ SailorEddieBeatenText:
 
 
 CeruleanGymGuyWinText:
-	text "Oje, du bist"
-	line "ganz schön hart."
+	text "Oje, du bist ganz"
+	line "schön hart."
 
 	para "Das war wie immer"
 	line "ein super Kampf!"

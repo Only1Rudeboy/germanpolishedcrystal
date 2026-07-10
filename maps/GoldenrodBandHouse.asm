@@ -17,9 +17,8 @@ GoldenrodBandHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_DARK_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodBandHouseCooltrainerFText, -1
 
 GoldenrodBandHouseRocker1Text:
-	text "Ich spiele"
-	line "Gitarre in"
-	cont "unserer Cover-"
+	text "Ich spiele Gitarre"
+	line "in unserer Cover-"
 	cont "Band."
 
 	para "Hör uns im"

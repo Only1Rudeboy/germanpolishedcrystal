@@ -1,9 +1,7 @@
 IrwinAskNumber1Text:
-	text "Du bist der"
-	line "Beste,"
+	text "Du bist der Beste,"
 	line "den ich je"
-	cont "bekämpft"
-	cont "habe!"
+	cont "bekämpft habe!"
 
 	para "Häh? Du hast alle"
 	line "Flegmon gerettet?"
@@ -19,18 +17,15 @@ IrwinAskNumber1Text:
 	done
 
 IrwinAskNumber2Text:
-	text "Gibst du mir"
-	line "deine"
+	text "Gibst du mir deine"
 	line "Nummer?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Wow! Danke!"
-	line "Jetzt kann ich"
-	cont "dich"
+	text "Wow! Danke! Jetzt"
+	line "kann ich dich"
 
-	para "jederzeit"
-	line "anrufen,"
+	para "jederzeit anrufen,"
 	line "ob was los ist"
 	cont "oder nicht!"
 	done

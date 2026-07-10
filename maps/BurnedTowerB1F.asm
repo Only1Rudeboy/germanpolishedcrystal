@@ -183,8 +183,8 @@ BurnedTowerB1FEusineMovement1:
 
 BurnedTowerB1FEusineText:
 	text "Eusine: Ich hab"
-	line "hier auch ein"
-	cont "Loch gegraben…"
+	line "hier auch ein Loch"
+	cont "gegraben…"
 
 	para "Ich war geschockt!"
 
@@ -204,8 +204,8 @@ BurnedTowerB1FEusineText:
 	line "gerührt!"
 
 	para "<PLAYER>, das"
-	line "verdanke ich"
-	cont "alles dir!"
+	line "verdanke ich alles"
+	cont "dir!"
 
 	para "Danke!"
 

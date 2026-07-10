@@ -1,14 +1,12 @@
 ErinAskNumber1Text:
-	text "Es hat mich"
-	line "wütend"
+	text "Es hat mich wütend"
 	line "gemacht zu"
 	cont "verlieren."
 
 	para "Ich muss härter"
 	line "trainieren…"
 
-	para "Hier meine"
-	line "Nummer."
+	para "Hier meine Nummer."
 	line "Ich bin Erin —"
 
 	para "vergiss nicht!"
@@ -26,8 +24,7 @@ ErinAskNumber2Text:
 
 ErinNumberAcceptedText:
 	text "Ich ruf an, wenn"
-	line "ich wieder"
-	cont "kämpfen"
+	line "ich wieder kämpfen"
 	cont "will!"
 	done
 
@@ -53,8 +50,8 @@ ErinPackFullText:
 	text "Schade! Du hast"
 	line "keinen Platz…"
 
-	para "Ich geb's dir"
-	line "ein andermal."
+	para "Ich geb's dir ein"
+	line "andermal."
 	done
 
 ErinRematchGiftText:

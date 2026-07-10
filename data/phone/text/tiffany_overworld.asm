@@ -2,9 +2,8 @@ TiffanyAskNumber1Text:
 	text "Hey! Du magst"
 	line "Piepi auch?"
 
-	para "So süß, oder?"
-	line "Wir werden"
-	cont "Freunde!"
+	para "So süß, oder? Wir"
+	line "werden Freunde!"
 
 	para "Ich will deine"
 	line "Nummer! Reden wir"
@@ -26,9 +25,8 @@ TiffanyNumberAcceptedText:
 	done
 
 TiffanyNumberDeclinedText:
-	text "Ach… Na gut."
-	line "Such mich, wenn"
-	cont "du"
+	text "Ach… Na gut. Such"
+	line "mich, wenn du"
 
 	para "über Piepi reden"
 	line "willst."

@@ -1,6 +1,6 @@
 WadeAskNumber1Text:
-	text "Du bist toll!"
-	line "Ich mag dich!"
+	text "Du bist toll! Ich"
+	line "mag dich!"
 
 	para "Ich suche hier"
 	line "täglich #mon."
@@ -50,9 +50,8 @@ WadeRematchText:
 
 WadeGiftText:
 	text "Schön dich zu"
-	line "sehen!"
-	line "Schau, das hab"
-	cont "ich"
+	line "sehen! Schau, das"
+	cont "hab ich"
 
 	para "gefunden. Für"
 	line "dich!"

@@ -20,21 +20,19 @@ GoldenrodPPSpeechHouseFisherText:
 	text "Als ich einmal"
 	line "kämpfte, konnte"
 
-	para "mein #mon kei-"
-	line "ne Attacken mehr"
+	para "mein #mon keine"
+	line "Attacken mehr"
 	cont "ausführen."
 
 	para "Die ANGRIFFSPUNK-"
-	line "TE, oder AP, sei-"
-	cont "ner Attacken"
-	cont "waren"
-	cont "verbraucht."
+	line "TE, oder AP,"
+	cont "seiner Attacken"
+	cont "waren verbraucht."
 	done
 
 
 GoldenrodPPSpeechHouseLassText:
-	text "Manchmal kann"
-	line "auch"
+	text "Manchmal kann auch"
 	line "ein gesundes"
 
 	para "#mon nicht mehr"
@@ -42,8 +40,8 @@ GoldenrodPPSpeechHouseLassText:
 
 	para "In diesem Fall"
 	line "musst du es in"
-	cont "ei-"
-	cont "nem #mon-CENTER"
+	cont "einem"
+	cont "#mon-CENTER"
 	cont "oder mit einem"
 	cont "Item heilen."
 	done

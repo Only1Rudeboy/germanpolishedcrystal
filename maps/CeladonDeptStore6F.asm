@@ -49,9 +49,9 @@ CeladonDeptStore6FYoungsterText:
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "Ich tauschte"
-	line "mein #mon, als"
-	cont "es ein Up-Grade"
+	text "Ich tauschte mein"
+	line "#mon, als es"
+	cont "ein Up-Grade"
 
 	para "hielt."
 	done

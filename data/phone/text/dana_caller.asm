@@ -1,8 +1,8 @@
 DanaTakingPhotosText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " wird"
-	line "immer hübscher!"
+	text " wird immer"
+	line "hübscher!"
 
 	para "Ich mache jede"
 	line "Menge Fotos!"
@@ -17,8 +17,7 @@ DanaDefeatedMonText:
 
 	para "besiegen. Wohl"
 	line "wegen deiner"
-	cont "Kampf-"
-	cont "tipps letztes"
+	cont "Kampftipps letztes"
 	cont "Mal."
 	done
 
@@ -38,13 +37,12 @@ DanaLostAMonText:
 DanaBattleRematchText:
 	text "Gerade bin ich"
 	line "auf"
-	line ""
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 
 	para "Wenn du in der"
-	line "Nähe bist,"
-	cont "kämpfen"
+	line "Nähe bist, kämpfen"
 
 	para "wir! Ich warte!"
 	done
@@ -54,16 +52,14 @@ DanaHangUpText:
 	done
 
 DanaFoundItemText:
-	text "Weißt du was?"
-	line "Ich hab ein"
-	cont "tolles"
+	text "Weißt du was? Ich"
+	line "hab ein tolles"
 	cont "Geschenk!"
 
 	para "Wie versprochen,"
 	line "ist es deins!"
 
-	para "Du wirst es"
-	line "mögen."
+	para "Du wirst es mögen."
 	line "Hol es auf"
 
 	para ""
@@ -75,18 +71,16 @@ DanaCanYouWaitABitLongerText:
 	text "Oh! Du wolltest"
 	line "ein Geschenk?"
 
-	para "Ich hab eins,"
-	line "aber"
+	para "Ich hab eins, aber"
 	line "ich will es"
-	cont "behal-"
-	cont "ten. Kannst du"
-	cont "warten?"
+	cont "behalten. Kannst"
+	cont "du warten?"
 	done
 
 DanaReminderText:
 	text "Hi! Du hast"
-	line "unseren"
-	line "Kampf nicht"
+	line "unseren Kampf"
+	cont "nicht"
 
 	para "vergessen, oder?"
 	line "Ich warte auf"
@@ -104,8 +98,7 @@ DanaComePickUpText:
 	para "bald holst, geb"
 	line "ich's jemand"
 
-	para "anderem. Ich"
-	line "warte"
+	para "anderem. Ich warte"
 	line "auf "
 	text_ram wStringBuffer5
 	text "!"

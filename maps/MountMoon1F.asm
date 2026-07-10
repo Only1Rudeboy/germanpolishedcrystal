@@ -95,10 +95,10 @@ GenericTrainerBugManiacKenta:
 	line "hier früher"
 	cont "herumgelungert."
 
-	para "Ich frage mich,"
-	line "ob der rothaarige"
-	cont "Junge damit"
-	cont "etwas zu tun hat."
+	para "Ich frage mich, ob"
+	line "der rothaarige"
+	cont "Junge damit etwas"
+	cont "zu tun hat."
 	done
 
 GenericTrainerLassMiriam:
@@ -106,8 +106,8 @@ GenericTrainerLassMiriam:
 
 	text "Der Mondberg ist"
 	line "groß, aber du"
-	cont "gewöhnst dich"
-	cont "bald dran."
+	cont "gewöhnst dich bald"
+	cont "dran."
 	done
 
 GenericTrainerSuperNerdJovan:
@@ -115,7 +115,7 @@ GenericTrainerSuperNerdJovan:
 
 	text "Ich habe noch"
 	line "keine stärkeren"
-	line "#mon gefunden."
+	cont "#mon gefunden."
 
 	para "Wo könnten sie"
 	line "wohl sein?"
@@ -149,8 +149,8 @@ GenericTrainerHikerMarcos:
 
 	text "Vor langer Zeit"
 	line "wurde ich von"
-	cont "einem Kind wie"
-	cont "dir geschlagen."
+	cont "einem Kind wie dir"
+	cont "geschlagen."
 	done
 
 MountMoon1FRivalMovementBefore:
@@ -174,23 +174,22 @@ MountMoon1FRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "…… …… ……"
 
-	para "Es ist eine"
-	line "Weile her,"
-	line "<PLAYER>."
+	para "Es ist eine Weile"
+	line "her, <PLAYER>."
 
 	para "…Seit ich gegen"
 	line "dich verlor,"
 
 	para "hab ich überlegt,"
-	line "was meinen"
-	cont "#mon fehlte…"
+	line "was meinen #mon"
+	cont "fehlte…"
 
 	para "Und wir fanden"
 	line "eine Antwort."
 
 	para "<PLAYER>, jetzt"
 	line "zeigen wir dir,"
-	line "was wir können!"
+	cont "was wir können!"
 	done
 
 MountMoonRivalTextWin:
@@ -198,7 +197,7 @@ MountMoonRivalTextWin:
 
 	para "Ich dachte, ich"
 	line "hätte meine"
-	line "#mon bestens"
+	cont "#mon bestens"
 
 	para "trainiert…"
 
@@ -209,16 +208,14 @@ MountMoonRivalTextWin:
 MountMoonRivalTextAfter:
 	text "…… …… ……"
 
-	para "…Du hast fair"
-	line "und ehrlich"
-	cont "gewonnen."
+	para "…Du hast fair und"
+	line "ehrlich gewonnen."
 
-	para "Ich geb's zu."
-	line "Aber das ist"
-	cont "nicht das Ende."
+	para "Ich geb's zu. Aber"
+	line "das ist nicht das"
+	cont "Ende."
 
-	para "Nach mehr"
-	line "Training"
+	para "Nach mehr Training"
 	line "in der"
 	cont "Drachenhöhle…"
 
@@ -227,19 +224,17 @@ MountMoonRivalTextAfter:
 	cont "Trainer aller"
 	cont "Zeiten."
 
-	para "Denn diese"
-	line "hier stehen"
-	line "hinter mir."
+	para "Denn diese hier"
+	line "stehen hinter mir."
 
-	para "…Hör zu,"
-	line "<PLAYER>."
+	para "…Hör zu, <PLAYER>."
 
-	para "Eines Tages"
-	line "werde ich dir"
+	para "Eines Tages werde"
+	line "ich dir"
 
 	para "beweisen, wie gut"
-	line "ich bin, indem"
-	cont "ich dich schlage."
+	line "ich bin, indem ich"
+	cont "dich schlage."
 	done
 
 MountMoonRivalTextLoss:
@@ -252,21 +247,19 @@ MountMoonRivalTextLoss:
 	para "Mit meinen #mon"
 	line "werde ich den"
 
-	para "Champ schlagen"
-	line "und"
-	line "der größte"
-	cont "Trainer der Welt"
-	cont "werden."
+	para "Champ schlagen und"
+	line "der größte Trainer"
+	cont "der Welt werden."
 	done
 
 BugManiacKentaSeenText:
 	text "Ich sah einen"
-	line "rothaarigen"
-	line "Jungen hier"
+	line "rothaarigen Jungen"
+	cont "hier"
 
-	para "trainieren."
-	line "Hast du gegen"
-	cont "ihn gekämpft?"
+	para "trainieren. Hast"
+	line "du gegen ihn"
+	cont "gekämpft?"
 	done
 
 BugManiacKentaBeatenText:
@@ -288,10 +281,8 @@ LassMiriamBeatenText:
 	done
 
 SuperNerdJovanSeenText:
-	text "Was! Schleich"
-	line "dich"
-	line "nicht an mich"
-	cont "her!"
+	text "Was! Schleich dich"
+	line "nicht an mich her!"
 	done
 
 SuperNerdJovanBeatenText:
@@ -308,8 +299,7 @@ BugManiacRobbySeenText:
 	done
 
 BugManiacRobbyBeatenText:
-	text "Ich habe"
-	line "verloren…"
+	text "Ich habe verloren…"
 	done
 LassIrisSeenText:
 	text "Hast du ein Piepi"
@@ -332,6 +322,6 @@ HikerMarcosSeenText:
 	done
 
 HikerMarcosBeatenText:
-	text "Wah!"
-	line "Du bist stark!"
+	text "Wah! Du bist"
+	line "stark!"
 	done

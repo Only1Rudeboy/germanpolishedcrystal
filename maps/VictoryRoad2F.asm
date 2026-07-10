@@ -91,9 +91,8 @@ GenericTrainerVeteranfJoanne:
 GenericTrainerVeteranfJonet:
 	generictrainer VETERANF, JONET, EVENT_BEAT_VETERANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
 
-	text "Hat jemand"
-	line "Lavados schon"
-	cont "gefangen?"
+	text "Hat jemand Lavados"
+	line "schon gefangen?"
 	done
 
 VictoryRoadRivalBattleApproachMovement1:
@@ -122,11 +121,9 @@ VictoryRoadRivalBeforeText:
 	line "zum Lachen."
 
 	para "Du bist viel"
-	line "schwächer als"
-	cont "ich."
+	line "schwächer als ich."
 
-	para "Ich bin nicht"
-	line "mehr"
+	para "Ich bin nicht mehr"
 	line "so wie früher."
 
 	para "Nun habe ich die"
@@ -137,19 +134,18 @@ VictoryRoadRivalBeforeText:
 	cont "unschlagbar!"
 
 	para "<PLAYER>! Ich"
-	line "for-"
-	line "dere dich heraus!"
+	line "fordere dich"
+	cont "heraus!"
 	done
 VictoryRoadRivalDefeatText:
 	text "…Ich konnte nicht"
 	line "gewinnen…"
 
-	para "Ich habe"
-	line "alles gegeben…"
+	para "Ich habe alles"
+	line "gegeben…"
 
-	para "Was du besitzt"
-	line "und was mir"
-	cont "fehlt…"
+	para "Was du besitzt und"
+	line "was mir fehlt…"
 
 	para "Langsam begreife"
 	line "ich, was der"
@@ -175,20 +171,18 @@ VictoryRoadRivalAfterText:
 	line "bin, fordere ich"
 	cont "dich heraus."
 
-	para "Dann werde ich"
-	line "dir die Leviten"
-	cont "lesen."
+	para "Dann werde ich dir"
+	line "die Leviten lesen."
 
-	para "…Humpf! Bleib"
-	line "bis dahin dabei."
+	para "…Humpf! Bleib bis"
+	line "dahin dabei."
 	done
 VictoryRoadRivalVictoryText:
 	text "…Humpf!"
 
 	para "Wenn es darauf"
 	line "ankommt, gibt es"
-	cont "nichts, was"
-	cont "Stärke"
+	cont "nichts, was Stärke"
 	cont "Paroli bieten"
 	cont "kann."
 
@@ -207,17 +201,15 @@ VeteranfJoanneBeatenText:
 	done
 VeteranfJonetSeenText:
 	text "Hier soll"
-	line "angeblich"
-	line "ein Moltres"
-	cont "haust."
+	line "angeblich ein"
+	cont "Moltres haust."
 
 	para "Ich werde es"
 	line "fangen!"
 	done
 
 VeteranfJonetBeatenText:
-	text "Ich hätte"
-	line "gewonnen mit"
-	cont "einem Legendär-"
-	cont "#mon…"
+	text "Ich hätte gewonnen"
+	line "mit einem"
+	cont "Legendär- #mon…"
 	done

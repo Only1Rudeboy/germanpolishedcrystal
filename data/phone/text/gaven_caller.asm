@@ -4,8 +4,7 @@ GavenMonGreaterThanImaginedText:
 	line "ist vielleicht"
 
 	para "stärker als ich"
-	line "dachte. Besser"
-	cont "als"
+	line "dachte. Besser als"
 	cont "jedes andere "
 	text_ram wStringBuffer4
 	text "."
@@ -23,8 +22,7 @@ GavenDefeatedMonText:
 	cont "gesehen…"
 
 	para "Sei vorsichtig,"
-	line "auch bei"
-	cont "bekannten"
+	line "auch bei bekannten"
 	cont "#mon!"
 	done
 
@@ -56,8 +54,8 @@ GavenBattleRematchText:
 	done
 
 GavenHangUpText:
-	text "OK, wir reden"
-	line "bald wieder!"
+	text "OK, wir reden bald"
+	line "wieder!"
 	done
 
 GavenHangUpNotThursdayText:

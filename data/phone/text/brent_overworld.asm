@@ -3,8 +3,8 @@ BrentAskNumber1Text:
 	line "#Maniac, das"
 
 	para "merk ich. Aber"
-	line "dein"
-	line "Wissen ist noch"
+	line "dein Wissen ist"
+	cont "noch"
 
 	para "oberflächlich!"
 	line "Kennst du Bill?"

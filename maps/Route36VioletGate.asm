@@ -27,29 +27,26 @@ Route36VioletGateOfficerScript:
 	text "In letzter Zeit"
 	line "sehe ich kaum"
 
-	para "Leute aus"
-	line "Dukatia City."
+	para "Leute aus Dukatia"
+	line "City."
 	done
 
 .ClearedSudowoodo
 	jumpthisopenedtext
 
 	text "In letzter Zeit"
-	line "ist"
-	line "viel los, weil"
+	line "ist viel los, weil"
 
 	para "viele Leute aus"
 	line "Dukatia und"
 
-	para "Viola City"
-	line "kommen!"
+	para "Viola City kommen!"
 	done
 
 
 
 Route36VioletGateYoungsterText:
-	text "Pflanzen sind"
-	line "auch"
+	text "Pflanzen sind auch"
 	line "Lebewesen!"
 
 	para "Sie wollen sich"

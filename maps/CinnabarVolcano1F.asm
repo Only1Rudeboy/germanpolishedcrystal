@@ -116,40 +116,35 @@ CinnabarVolcano1FBuckScript:
 
 .ChallengeText:
 	text "Hallo! Ich bin"
-	line "Buck."
-	cont "Und du bist…"
+	line "Buck. Und du bist…"
 	cont "<PLAYER>?"
 
 	para "Sag nicht, du"
 	line "suchst auch nach"
 	cont "Schatz!"
 
-	para "Der STARKBERG"
-	line "bei mir zu Hause"
+	para "Der STARKBERG bei"
+	line "mir zu Hause"
 
 	para "hat tief innen"
-	line "einen Schatz,"
-	cont "also"
+	line "einen Schatz, also"
 	cont "glaube ich, dass"
 	cont "dieser Vulkan das"
 	cont "auch tut!"
 
-	para "Deshalb bin"
-	line "ich hier."
+	para "Deshalb bin ich"
+	line "hier."
 
 	para "Also, <PLAYER>,"
-	line "wie wäre es,"
-	line "wenn wir um den"
-	cont "Schatz"
-	cont "kämp-"
-	cont "fen?"
+	line "wie wäre es, wenn"
+	cont "wir um den Schatz"
+	cont "kämpfen?"
 	done
 
 .YesText:
 	text "OK! Ich sag dir"
-	line "schon jetzt:"
-	line "Ich bin echt"
-	cont "stark!"
+	line "schon jetzt: Ich"
+	cont "bin echt stark!"
 	done
 
 .NoText:
@@ -159,37 +154,33 @@ CinnabarVolcano1FBuckScript:
 	done
 
 .BeatenText:
-	text "Heeheehee!"
-	line "Du bist heiß!"
+	text "Heeheehee! Du bist"
+	line "heiß!"
 	done
 
 .ItemText:
 	text "Fweh! Zu heiß!"
 
 	para "Der Schatz dieses"
-	line "Vulkans ist"
-	cont "nichts"
+	line "Vulkans ist nichts"
 	cont "für mich…"
 
 	para "Aber hey,"
-	line "<PLAYER>!"
-	line "Du bist ein"
-	cont "toller"
+	line "<PLAYER>! Du bist"
+	cont "ein toller"
 	cont "Trainer!"
 
-	para "Das hier"
-	line "gefällt dir!"
+	para "Das hier gefällt"
+	line "dir!"
 	done
 
 .GoodbyeText:
 	text "Ich verbessere"
-	line "wohl mein Team"
-	line "in der Battle"
-	cont "Tower."
+	line "wohl mein Team in"
+	cont "der Battle Tower."
 
 	para "Bis bald,"
-	line "<PLAYER>!"
-	cont "Tschüss!"
+	line "<PLAYER>! Tschüss!"
 	done
 
 GenericTrainerScientistOskar:
@@ -218,8 +209,7 @@ GenericTrainerSuperNerdLuis:
 ScientistOskarSeenText:
 	text "Ich erforsche den"
 	line "Vulkan, um zu"
-	cont "erfahren, warum"
-	cont "er"
+	cont "erfahren, warum er"
 	cont "ausbrach."
 	done
 
@@ -240,7 +230,6 @@ SuperNerdLuisSeenText:
 	done
 
 SuperNerdLuisBeatenText:
-	text "Du hast mir"
-	line "gerade"
+	text "Du hast mir gerade"
 	line "was beigebracht…"
 	done

@@ -32,19 +32,17 @@ RockyBeachSign1Text:
 	done
 
 RockyBeachSign2Text:
-	text "Lauter Wald"
-	line "voraus"
+	text "Lauter Wald voraus"
 
 	para "Weg zu den"
-	line "Schrein-"
-	line "ruinen"
+	line "Schreinruinen"
 	done
 
 GenericTrainerSightseermBlaise:
 	generictrainer SIGHTSEERM, BLAISE, EVENT_BEAT_SIGHTSEERM_BLAISE, .SeenText, .BeatenText
 
-	text "Je fais le tour"
-	line "du monde avec mon"
+	text "Je fais le tour du"
+	line "monde avec mon"
 	cont "#mon."
 	done
 
@@ -59,21 +57,19 @@ GenericTrainerSightseermBlaise:
 GenericTrainerBeautyIoana:
 	generictrainer BEAUTY, IOANA, EVENT_BEAT_BEAUTY_IOANA, .SeenText, .BeatenText
 
-	text "Ich habe von"
-	line "Natur aus eine"
-	line "blasse Haut,"
+	text "Ich habe von Natur"
+	line "aus eine blasse"
+	cont "Haut,"
 
-	para "deshalb muss"
-	line "ich in der Sonne"
-	line "vorsichtig"
-	cont "sein."
+	para "deshalb muss ich"
+	line "in der Sonne"
+	cont "vorsichtig sein."
 	done
 
 .SeenText:
 	text "Ich komme jedes"
-	line "Jahr hierher,"
-	cont "um braun zu"
-	cont "werden."
+	line "Jahr hierher, um"
+	cont "braun zu werden."
 	done
 
 .BeatenText:
@@ -85,20 +81,19 @@ GenericTrainerSightseerfKamila:
 	generictrainer SIGHTSEERF, KAMILA, EVENT_BEAT_SIGHTSEERF_KAMILA, .SeenText, .BeatenText
 
 	text "Alola ist ein"
-	line "Archipel weit"
-	cont "von hier"
-	cont "entfernt."
+	line "Archipel weit von"
+	cont "hier entfernt."
 
-	para "Du solltest es"
-	line "mal besuchen!"
+	para "Du solltest es mal"
+	line "besuchen!"
 	done
 
 .SeenText:
 	text "Alola!"
 
-	para "So grüßen wir"
-	line "uns in meiner"
-	line "Heimatregion."
+	para "So grüßen wir uns"
+	line "in meiner"
+	cont "Heimatregion."
 	done
 
 .BeatenText:
@@ -110,34 +105,32 @@ GenericTrainerAromaLadyHeather:
 	generictrainer AROMA_LADY, HEATHER, EVENT_BEAT_AROMA_LADY_HEATHER, .SeenText, .BeatenText
 
 	text "Ich studierte"
-	line "Blumenarrange-"
-	line "ment bei Erika"
+	line "Blumenarrangement"
+	cont "bei Erika"
 
-	para "an der"
-	line "Universität von"
-	line "PRISMANIA."
+	para "an der Universität"
+	line "von PRISMANIA."
 
 	para "Sie lobte diese"
-	line "Insel wegen"
-	cont "ihrer einheim-"
-	cont "ischen Flora."
+	line "Insel wegen ihrer"
+	cont "einheimischen"
+	cont "Flora."
 	done
 
 .SeenText:
 	text "Eine tiefrote"
 	line "Blume wächst"
-	line "überall auf"
-	cont "dieser Insel."
+	cont "überall auf dieser"
+	cont "Insel."
 
 	para "Hast du es"
 	line "bemerkt?"
 	done
 
 .BeatenText:
-	text "Ein schöner"
-	line "Kampf, aber was"
-	cont "ist mit den"
-	cont "Blumen?"
+	text "Ein schöner Kampf,"
+	line "aber was ist mit"
+	cont "den Blumen?"
 	done
 
 GenericTrainerBreederBrenda:
@@ -145,12 +138,12 @@ GenericTrainerBreederBrenda:
 
 	text "Um ein Ei"
 	line "schlüpfen zu"
-	line "lassen, muss man"
+	cont "lassen, muss man"
 
 	para "viel laufen."
 
-	para "Wo besser als"
-	line "auf sonniger"
+	para "Wo besser als auf"
+	line "sonniger"
 	cont "Shamouti-Insel?"
 	done
 
@@ -178,24 +171,22 @@ GenericTrainerSwimmermEzra:
 	text "Ich tauche hier"
 	line "gerne."
 
-	para "Es ist toll,"
-	line "unter Wasser"
-	line "atmen zu"
+	para "Es ist toll, unter"
+	line "Wasser atmen zu"
 	cont "können!"
 	done
 
 .SeenText:
 	text "Hast du dich je"
 	line "gefragt, wie es"
-	line "ist, unter"
+	cont "ist, unter"
 
-	para "Wasser zu"
-	line "atmen?"
+	para "Wasser zu atmen?"
 	done
 
 .BeatenText:
-	text "Mir ging die"
-	line "Luft aus!"
+	text "Mir ging die Luft"
+	line "aus!"
 	done
 
 RockyBeachWilhomenaScript:
@@ -205,19 +196,17 @@ RockyBeachWilhomenaScript:
 	text "Ach nein. Ach"
 	line "nein…"
 
-	para "Mein armes"
-	line "Pikablu"
+	para "Mein armes Pikablu"
 	line "ist verschwunden."
 
 	para "Nein… Es kann"
 	line "nicht in den"
-	line "Lauten Wald"
+	cont "Lauten Wald"
 	cont "gelaufen sein."
 
-	para "Ich finde es"
-	line "nie in den"
-	cont "Bäumen…"
+	para "Ich finde es nie"
+	line "in den Bäumen…"
 
-	para "Ach, was soll"
-	line "ich nur tun…?"
+	para "Ach, was soll ich"
+	line "nur tun…?"
 	done

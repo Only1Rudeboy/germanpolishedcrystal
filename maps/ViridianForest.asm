@@ -51,8 +51,8 @@ GenericTrainerBug_maniacDion:
 	cont "verschiedene"
 	cont "Geräusche."
 
-	para "Für Käfer-Fans"
-	line "ist es wichtig,"
+	para "Für Käfer-Fans ist"
+	line "es wichtig,"
 
 	para "sie unterscheiden"
 	line "zu können!"
@@ -64,8 +64,7 @@ GenericTrainerBug_maniacStacey:
 	text "Hat dir schon mal"
 	line "jemand gesagt,"
 
-	para "dass du von"
-	line "hinten"
+	para "dass du von hinten"
 	line "wie ein VENONAT"
 	cont "aussiehst?"
 	done
@@ -99,8 +98,7 @@ BugManiacDaneSeenText:
 	done
 
 BugManiacDaneBeatenText:
-	text "Das ist"
-	line "wunderbar…"
+	text "Das ist wunderbar…"
 	done
 
 BugManiacDionSeenText:
@@ -117,9 +115,8 @@ BugManiacStaceySeenText:
 	text "Wow, das ist ein"
 	line "RIESIGES #mon!"
 
-	para "…"
-	line "…Was für ein"
-	cont "Trainer?!"
+	para "… …Was für ein"
+	line "Trainer?!"
 	done
 
 BugManiacStaceyBeatenText:
@@ -128,10 +125,10 @@ BugManiacStaceyBeatenText:
 	done
 
 BugManiacEllisSeenText:
-	text "Nichts ist effek-"
-	line "tiver und schöner"
-	cont "als ein Käfer-"
-	cont "#mon."
+	text "Nichts ist"
+	line "effektiver und"
+	cont "schöner als ein"
+	cont "Käfer- #mon."
 	done
 
 BugManiacEllisBeatenText:
@@ -143,9 +140,8 @@ BugManiacAbnerSeenText:
 	text "Viele mögen harte"
 	line "Käfer-#mon"
 
-	para "lieber als"
-	line "weiche Käfer-"
-	cont "#mon."
+	para "lieber als weiche"
+	line "Käfer- #mon."
 	done
 
 BugManiacAbnerBeatenText:
@@ -159,8 +155,8 @@ BugManiacAbnerBeatenText:
 ViridianForestSignText1:
 	text "VERTANIA-WALD"
 
-	para "Richtung"
-	line "MARMORIA CITY"
+	para "Richtung MARMORIA"
+	line "CITY"
 	done
 
 ViridianForestSignText2:

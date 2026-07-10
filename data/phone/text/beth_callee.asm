@@ -33,14 +33,13 @@ BethGreetText:
 
 	para "Hier ist "
 	text_ram wStringBuffer3
-	text "."
-	line "Warst du am"
-	cont "Schlafen?"
+	text ". Warst du am"
+	line "Schlafen?"
 	done
 
 BethGreetDayText:
-	text "<PLAYER>, hi!"
-	line "Hier ist "
+	text "<PLAYER>, hi! Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 
@@ -64,11 +63,10 @@ BethGenericText:
 	line "#mon-Center?"
 
 	para "Ich gehe täglich."
-	line "Auf die"
-	cont "Gesundheit"
+	line "Auf die Gesundheit"
 
 	para "deiner #mon zu"
-	line "achten ist Grund-"
-	cont "lage eines"
+	line "achten ist"
+	cont "Grundlage eines"
 	cont "Trainers."
 	done

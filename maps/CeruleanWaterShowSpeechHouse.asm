@@ -21,8 +21,8 @@ CeruleanWaterShowSpeechHouseCooltrainerMText:
 	cont "Wassershows in"
 	cont "ihrer ARENA auf."
 
-	para "Das ist ein"
-	line "wahrer Anblick!"
+	para "Das ist ein wahrer"
+	line "Anblick!"
 	done
 
 CeruleanWaterShowSpeechHouseSuperNerdText:
@@ -31,8 +31,7 @@ CeruleanWaterShowSpeechHouseSuperNerdText:
 	cont "PRISMANIA-ANLAGE"
 	cont "gemalt."
 
-	para "Hast du's"
-	line "gesehen? Es ist"
-	cont "etwas versteckt,"
-	cont "hehe…"
+	para "Hast du's gesehen?"
+	line "Es ist etwas"
+	cont "versteckt, hehe…"
 	done

@@ -92,19 +92,16 @@ EcruteakShrineInsideReiScript:
 .ReiCancel
 	jumpthisopenedtext
 
-	text "Rei: Komm"
-	line "wieder, wenn"
-	cont "du deine"
-	cont "Meinung"
-	cont "änderst."
+	text "Rei: Komm wieder,"
+	line "wenn du deine"
+	cont "Meinung änderst."
 	done
 
 .EggBlessing
 	jumpthisopenedtext
 
-	text "Rei: Ein EI"
-	line "kann ich nicht"
-	cont "segnen."
+	text "Rei: Ein EI kann"
+	line "ich nicht segnen."
 	done
 
 .ReiMenuDataHeader:
@@ -148,8 +145,8 @@ EcruteakShrineInsideReiBlessingText:
 
 EcruteakShrineInsideHappinessText:
 	text_ram wStringBuffer3
-	text " sieht"
-	line "zufrieden aus."
+	text " sieht zufrieden"
+	line "aus."
 	done
 EcruteakShrineInsideReiBattleText:
 	text "Rei: Sehr gut."
@@ -164,8 +161,7 @@ EcruteakShrineInsideReiBeatenText:
 
 
 EcruteakShrineInsideGrampsText:
-	text "Die"
-	line "Schreinjungfer"
+	text "Die Schreinjungfer"
 	line "hier ist meine"
 	cont "Enkelin."
 	done
@@ -173,23 +169,21 @@ EcruteakShrineInsideGrampsText:
 EcruteakShrineInsideSageText:
 	text "Die meisten hier"
 	line "im Schrein"
-	line "trainieren"
+	cont "trainieren"
 
 	para "HOOTHOOT und"
-	line "WIESOR, um"
-	cont "Geister zu"
-	cont "bekämpfen."
+	line "WIESOR, um Geister"
+	cont "zu bekämpfen."
 
-	para "Rei ist"
-	line "besonders. Sie"
-	cont "setzt Feuer- und"
-	cont "Psycho-#mon"
+	para "Rei ist besonders."
+	line "Sie setzt Feuer-"
+	cont "und Psycho-#mon"
 	cont "ein."
 	done
 
 EcruteakShrineInsideGrannyText:
-	text "Gott sei Dank"
-	line "gab es keinen"
+	text "Gott sei Dank gab"
+	line "es keinen"
 	cont "Magnetzug-Halt in"
 	cont "Viola City."
 

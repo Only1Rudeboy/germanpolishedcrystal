@@ -69,10 +69,9 @@ SafariZoneWestRestHouse2FlanneryScript:
 
 	para "Ich komme aus der"
 	line "HOENN-Region und"
-	line "mag Feuchtigkeit"
+	cont "mag Feuchtigkeit"
 
-	para "und heiße"
-	line "Quellen."
+	para "und heiße Quellen."
 
 	para "Die SAFARI-ZONE"
 	line "fühlt sich wie zu"
@@ -85,8 +84,7 @@ SafariZoneWestRestHouse2FlanneryScript:
 	done
 
 .RematchText:
-	text "Hallo,"
-	line "<PLAYER>!"
+	text "Hallo, <PLAYER>!"
 
 	para "Schön, dich"
 	line "wiederzusehen!"
@@ -110,28 +108,26 @@ SafariZoneWestRestHouse2FlanneryScript:
 	done
 
 .BeatenText:
-	text "Puh! Kurz vor"
-	line "dem Ausbruch!"
+	text "Puh! Kurz vor dem"
+	line "Ausbruch!"
 	done
 
 .AfterText:
 	text "Ich hab verloren,"
-	line "aber bin"
-	cont "völlig"
+	line "aber bin völlig"
 	cont "zufrieden."
 
 	para "So einen hitzigen"
 	line "Kampf erlebe ich"
 	cont "selten."
 
-	para "Lass uns irgend-"
-	line "wann noch mal so"
-	cont "kämpfen!"
+	para "Lass uns"
+	line "irgendwann noch"
+	cont "mal so kämpfen!"
 	done
 
 .RefusedText:
 	text "OK… Äh… Sei nicht"
 	line "schüchtern, wenn"
-	cont "du"
-	cont "wiederkommst!"
+	cont "du wiederkommst!"
 	done

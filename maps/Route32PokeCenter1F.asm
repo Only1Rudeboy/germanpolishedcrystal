@@ -25,11 +25,11 @@ PokemonJournalKurtScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Meister Kurt!"
+	para "Spezial: Meister"
+	line "Kurt!"
 
-	para "Kurt lässt"
-	line "niemand näher,"
+	para "Kurt lässt niemand"
+	line "näher,"
 
 	para "wenn er"
 
@@ -61,22 +61,22 @@ Route32Pokecenter1FFishingGuruScript:
 	line "hervorragender"
 	cont "Platz zum Angeln."
 
-	para "Du hast Leute"
-	line "beim Angeln"
+	para "Du hast Leute beim"
+	line "Angeln"
 
-	para "gesehen? Wie"
-	line "steht es mit dir?"
+	para "gesehen? Wie steht"
+	line "es mit dir?"
 
 	para "Hättest du gerne"
-	line "eine ANGEL"
-	cont "von mir?"
+	line "eine ANGEL von"
+	cont "mir?"
 	done
 .YesText:
 	text "He! Das höre ich"
 	line "wirklich gerne!"
 
-	para "Jetzt bist du"
-	line "auch ein Angler!"
+	para "Jetzt bist du auch"
+	line "ein Angler!"
 	done
 .AfterText:
 	text "Angeln ist toll!"
@@ -95,8 +95,7 @@ Route32Pokecenter1FFishingGuruScript:
 	line "ziemlich mager…"
 	done
 .DoneText:
-	text "Moin, lüttes"
-	line "Ding."
+	text "Moin, lüttes Ding."
 	line "Und beißen sie?"
 	done
 Route32PokeCenter1FPokefanMScript:
@@ -126,8 +125,7 @@ Route32PokeCenter1FPokefanMScript:
 	line "fertigte ihn aus"
 	cont "einer APRIKOKO."
 
-	para "Aprikokos,"
-	line "hurra!"
+	para "Aprikokos, hurra!"
 	done
 
 .NoRoom
@@ -140,17 +138,17 @@ Route32PokeCenter1FPokefanMScript:
 	done
 
 .Text2:
-	text "Nein? Was für"
-	line "eine Schande!"
+	text "Nein? Was für eine"
+	line "Schande!"
 
-	para "Ich zeige dir,"
-	line "wie toll Apriko-"
-	cont "kos sind!"
+	para "Ich zeige dir, wie"
+	line "toll Aprikokos"
+	cont "sind!"
 	done
 
 .Text3:
-	text "Youpi! Super!"
-	line "Ich fühle mich"
+	text "Youpi! Super! Ich"
+	line "fühle mich"
 
 	para "so toll, ich"
 	line "möchte dir das"
@@ -159,11 +157,10 @@ Route32PokeCenter1FPokefanMScript:
 
 .Text5:
 	text "KURT ist der Held"
-	line "aller APRIKOKO-"
-	cont "sammler."
+	line "aller"
+	cont "APRIKOKOsammler."
 
-	para "Aprikokos,"
-	line "hurra!"
+	para "Aprikokos, hurra!"
 	done
 
 Route32Pokecenter1FCooltrainerFText:

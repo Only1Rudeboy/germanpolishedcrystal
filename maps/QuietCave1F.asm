@@ -40,9 +40,9 @@ GenericTrainerCooltrainermHenri:
 	line "Team, das sich"
 
 	para "gegenseitig die"
-	line "Schwächen aus-"
-	cont "gleicht, ist der"
-	cont "Schlüssel."
+	line "Schwächen"
+	cont "ausgleicht, ist"
+	cont "der Schlüssel."
 	done
 
 GenericTrainerHikerGrady:
@@ -85,15 +85,13 @@ CooltrainermHenriSeenText:
 	done
 
 CooltrainermHenriBeatenText: ; text > text
-	text "Anscheinend"
-	line "schon!"
+	text "Anscheinend schon!"
 	done
 
 HikerGradySeenText:
 	text "Ich hab dich"
-	line "gehört,"
-	line "bevor ich dich"
-	cont "sah!"
+	line "gehört, bevor ich"
+	cont "dich sah!"
 	done
 
 HikerGradyBeatenText:

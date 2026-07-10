@@ -63,13 +63,11 @@ GenericTrainerScientistJoseph:
 	generictrainer SCIENTIST, JOSEPH, EVENT_BEAT_SCIENTIST_JOSEPH, .SeenText, .BeatenText
 
 	text "Unterirdisches"
-	line "Wasser"
-	cont "hinterlässt"
+	line "Wasser hinterlässt"
 	cont "Mineralien."
 
-	para "Menschen bauen"
-	line "sie ab, und"
-	cont "Mikroben"
+	para "Menschen bauen sie"
+	line "ab, und Mikroben"
 	cont "fressen sie."
 	done
 
@@ -77,24 +75,22 @@ GenericTrainerScientistJoseph:
 	text "Ich erforsche die"
 	line "alten Mikroben"
 
-	para "in diesen"
-	line "Felsen."
+	para "in diesen Felsen."
 	done
 
 .BeatenText:
-	text "Es tut gut,"
-	line "aus dem Labor"
-	cont "rauszukommen"
-	cont "und Feldarbeit"
-	cont "zu machen."
+	text "Es tut gut, aus"
+	line "dem Labor"
+	cont "rauszukommen und"
+	cont "Feldarbeit zu"
+	cont "machen."
 	done
 
 GenericTrainerScientistNigel:
 	generictrainer SCIENTIST, NIGEL, EVENT_BEAT_SCIENTIST_NIGEL, .SeenText, .BeatenText
 
 	text "Das fließende"
-	line "Wasser"
-	line "treibt ein"
+	line "Wasser treibt ein"
 	cont "Wasserrad"
 
 	para "an und versorgt"
@@ -114,23 +110,20 @@ GenericTrainerScientistNigel:
 	cont "Wasser?"
 
 	para "Ich verrate es"
-	line "dir,"
-	line "wenn du mich"
+	line "dir, wenn du mich"
 	cont "besiegst."
 	done
 
 .BeatenText:
-	text "Autsch! OK,"
-	line "ich verrate"
-	cont "es dir."
+	text "Autsch! OK, ich"
+	line "verrate es dir."
 	done
 
 DimCave4FSuper_nerdText:
 	text "Ich laufe die"
 	line "Schienen entlang,"
 
-	para "genau wie im"
-	line "Film!"
+	para "genau wie im Film!"
 
 	para "…Nur dass ich in"
 	line "einer Höhle bin…"

@@ -29,8 +29,7 @@ PokemonJournalJasmineScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Jasmine!"
+	para "Spezial: Jasmine!"
 
 	para "Man munkelt,"
 	line "Jasmine und Erika"
@@ -74,8 +73,7 @@ BeautyCharlotteScript:
 	para "Du kommst gerade"
 	line "recht!"
 
-	para "Mein"
-	line "einzigartiges"
+	para "Mein einzigartiges"
 	line "und schönes"
 	cont "#mon ist wieder"
 	cont "fit."
@@ -95,8 +93,7 @@ BeautyCharlotteScript:
 	done
 
 .SeenText:
-	text "Na gut!"
-	line "Ich komme!"
+	text "Na gut! Ich komme!"
 	done
 
 .BeatenText:
@@ -105,12 +102,10 @@ BeautyCharlotteScript:
 
 OlivinePokeCenter1FFisherText:
 	text "In Anemonia gibt"
-	line "es"
-	line "einen Typ, der"
+	line "es einen Typ, der"
 	cont "schwach aussieht,"
 
-	para "aber er hat"
-	line "meinem"
+	para "aber er hat meinem"
 	line "#mon STÄRKE"
 	cont "beigebracht."
 

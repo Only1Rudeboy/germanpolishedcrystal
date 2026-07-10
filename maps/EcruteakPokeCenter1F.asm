@@ -31,8 +31,7 @@ PokemonJournalMortyScript:
 	text "#mon Journal"
 
 	para "Spezial:"
-	line "ARENA-LEITER"
-	cont "JENS!"
+	line "ARENA-LEITER JENS!"
 
 	para "Jens behauptet,"
 	line "Entei einmal"
@@ -46,15 +45,15 @@ PokemonJournalMortyScript:
 	para "mich direkt an."
 
 	para "Ich werde seine"
-	line "Augen nie ver-"
-	cont "gessen. Es war,"
+	line "Augen nie"
+	cont "vergessen. Es war,"
 
 	para "als könnte es"
 	line "direkt durch mich"
 
 	para "bis in die Tiefen"
-	line "meines"
-	line "Herzens sehen…"
+	line "meines Herzens"
+	cont "sehen…"
 	done
 
 EcruteakPokeCenter1FBillScript:
@@ -102,25 +101,23 @@ EcruteakPokeCenter1FBillScript:
 	done
 .IntroText:
 	text "Hallo, ich bin"
-	line "Bill."
-	line "Und wer bist du?"
+	line "Bill. Und wer bist"
+	cont "du?"
 
-	para "Hmm, <PLAYER>,"
-	line "hm?"
+	para "Hmm, <PLAYER>, hm?"
 	line "Du kommst gerade"
 	cont "recht."
 
 	para "Die ZEITKAPSELN"
-	line "sind total"
-	cont "kaputt,"
+	line "sind total kaputt,"
 
 	para "und ich bräuchte"
 	line "deine Hilfe."
 	done
 
 .QuestionText:
-	text "BILL: Dieses"
-	line "EVOLI kam kurz"
+	text "BILL: Dieses EVOLI"
+	line "kam kurz"
 
 	para "bevor die ZEIT-"
 	line "KAPSEL ausfiel."
@@ -129,8 +126,8 @@ EcruteakPokeCenter1FBillScript:
 	line "darum kümmern,"
 
 	para "aber ich mag es"
-	line "nicht, draußen"
-	cont "zu sein."
+	line "nicht, draußen zu"
+	cont "sein."
 
 	para "Kann ich auf dich"
 	line "zählen, dass du"
@@ -142,16 +139,14 @@ EcruteakPokeCenter1FBillScript:
 	text "BILL: Ich wusste,"
 	line "dass du es"
 
-	para "schaffst! Noch"
-	line "ein"
+	para "schaffst! Noch ein"
 	line "kleines Stück! Du"
 	cont "bist einzigartig!"
 
 	para "O.K., ich zähle"
 	line "auf dich."
 
-	para "Pass auf dich"
-	line "auf!"
+	para "Pass auf dich auf!"
 	done
 .GoodbyeText:
 	text "BILL: PROF. LIND"
@@ -159,8 +154,7 @@ EcruteakPokeCenter1FBillScript:
 
 	para "könnte sich auf"
 	line "neue, unbekannte"
-	cont "Weise ent-"
-	cont "wickeln."
+	cont "Weise entwickeln."
 
 	para "Ich muss schnell"
 	line "nach DUKATIA CITY"
@@ -220,16 +214,14 @@ EcruteakPokeCenter1FPokefanMScript:
 	line "der KIMONO-GIRLS"
 
 	para "als auch die Art,"
-	line "wie sie ihre #-"
-	cont "MON einsetzen,"
-	cont "ist"
-	cont "wunderbar!"
+	line "wie sie ihre"
+	cont "#mon einsetzen,"
+	cont "ist wunderbar!"
 	done
 .SurfText:
 	text "Du hoffst, hier"
 	line "mehr Kämpfe zu"
-	cont "er-"
-	cont "leben, nicht"
+	cont "erleben, nicht"
 	cont "wahr?"
 
 	para "Es gibt offen-"
@@ -240,8 +232,8 @@ EcruteakPokeCenter1FPokefanMScript:
 
 	para "Wo, fragst du?"
 
-	para "Kurz nach"
-	line "OLIVIANA CITY."
+	para "Kurz nach OLIVIANA"
+	line "CITY."
 	done
 EcruteakPokeCenter1FLassScript:
 	faceplayer
@@ -258,8 +250,7 @@ EcruteakPokeCenter1FLassScript:
 
 	para "früher eine KIMO-"
 	line "NO-GIRL war."
-	cont "Viel-"
-	cont "leicht deshalb"
+	cont "Vielleicht deshalb"
 
 	para "besucht er diesen"
 	line "Ort so oft."
@@ -274,8 +265,8 @@ EcruteakPokeCenter1FLassScript:
 	done
 
 .QuestionText:
-	text "Weißt du, wer"
-	line "BILL ist?"
+	text "Weißt du, wer BILL"
+	line "ist?"
 	done
 
 .HereText:
@@ -296,8 +287,7 @@ EcruteakPokeCenter1FGymGuyText:
 	text "SEE DES ZORNS…"
 
 	para "Das Erscheinen"
-	line "ei-"
-	line "nes GARADOS-"
+	line "eines GARADOS-"
 	cont "Schwarms…"
 
 	para "Das riecht nach"

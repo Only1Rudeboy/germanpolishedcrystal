@@ -88,9 +88,9 @@ CeladonMansionManagerScript:
 .Egg:
 	jumpthisopenedtext
 
-	text "Erwartest du,"
-	line "dass ich daraus"
-	cont "ein Tee-Ei mache?"
+	text "Erwartest du, dass"
+	line "ich daraus ein"
+	cont "Tee-Ei mache?"
 	done
 
 .NoMintLeafText:
@@ -104,8 +104,8 @@ CeladonMansionManagerScript:
 	para "Hättest du ein"
 	line "Minzblatt,"
 
-	para "lüde ich dich"
-	line "ein, mitzumachen."
+	para "lüde ich dich ein,"
+	line "mitzumachen."
 
 	para "#mon lieben"
 	line "Minze in ihrem"
@@ -150,14 +150,14 @@ CeladonMansionManagerScript:
 	done
 
 .DislikedFlavorText:
-	text "Und welchen mag"
-	line "es nicht?"
+	text "Und welchen mag es"
+	line "nicht?"
 	done
 
 .NeutralTeaText:
-	text "Ein ungewöhn-"
-	line "licher Wunsch,"
-	cont "aber ich brau ihn!"
+	text "Ein ungewöhnlicher"
+	line "Wunsch, aber ich"
+	cont "brau ihn!"
 
 	para "Eine Tasse für"
 	line "dich, eine für"
@@ -179,9 +179,8 @@ CeladonMansionManagerScript:
 
 .MonLooksDifferentText:
 	text_ram wStringBuffer1
-	text " sieht"
-	line "irgendwie anders"
-	cont "aus!"
+	text " sieht irgendwie"
+	line "anders aus!"
 	done
 
 .MenuDataHeader:
@@ -205,8 +204,7 @@ CeladonMansion1FMeowthText:
 	done
 
 CeladonMansion1FClefairyText:
-	text "Piepi: Pip"
-	line "piep!"
+	text "Piepi: Pip piep!"
 	done
 
 CeladonMansion1FNidoranFText:

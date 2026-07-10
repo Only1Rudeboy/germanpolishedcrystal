@@ -28,9 +28,8 @@ GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
 
 	text "Mein #mon hat"
-	line "FLIEGEN im"
-	cont "Gelben Wald"
-	cont "gelernt."
+	line "FLIEGEN im Gelben"
+	cont "Wald gelernt."
 
 	para "Na ja, als"
 	line "Verlierer fliege"
@@ -44,8 +43,8 @@ GenericTrainerSailorErnest:
 	line "muss nicht nur"
 
 	para "stark sein. Auch"
-	line "Mitgefühl"
-	cont "zeichnet ihn aus."
+	line "Mitgefühl zeichnet"
+	cont "ihn aus."
 	done
 SailorErnestSeenText:
 	text "Ich hatte vor,"
@@ -67,11 +66,11 @@ Bird_keeperDenisSeenText:
 	text "Wir fliegen"
 	line "ziemlich hoch."
 
-	para "Meine Vogel-#-"
-	line "MON sind in"
-	cont "Bestform."
+	para "Meine"
+	line "Vogel-#mon sind"
+	cont "in Bestform."
 	done
 Bird_keeperDenisBeatenText:
-	text "Ups… Sie"
-	line "sind abgestürzt…"
+	text "Ups… Sie sind"
+	line "abgestürzt…"
 	done

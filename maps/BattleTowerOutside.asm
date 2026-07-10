@@ -133,8 +133,7 @@ BattleTowerOutsideAnabelScript:
 	done
 
 .YesText:
-	text "Fangen wir an,"
-	line "ja?"
+	text "Fangen wir an, ja?"
 	done
 
 .NoText:
@@ -173,18 +172,16 @@ BattleTowerOutsideYoungsterScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Wow, der"
-	line "Kampfturm ist"
-	cont "riesig! Mein"
+	text "Wow, der Kampfturm"
+	line "ist riesig! Mein"
 
 	para "Nacken tut vom"
 	line "Hochschauen weh."
 	done
 
 .OpenText:
-	text "Wow, der"
-	line "Kampfturm ist"
-	cont "riesig!"
+	text "Wow, der Kampfturm"
+	line "ist riesig!"
 
 	para "Da drin müssen"
 	line "viele Arten von"
@@ -196,8 +193,8 @@ BattleTowerOutsideBeautyScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Was macht man"
-	line "hier bloß?"
+	text "Was macht man hier"
+	line "bloß?"
 
 	para "Nach dem Namen zu"
 	line "urteilen, sind es"
@@ -206,9 +203,8 @@ BattleTowerOutsideBeautyScript:
 	done
 
 .OpenText:
-	text "Du darfst nur"
-	line "drei #mon"
-	cont "nutzen."
+	text "Du darfst nur drei"
+	line "#mon nutzen."
 
 	para "Es ist so schwer,"
 	line "die drei"

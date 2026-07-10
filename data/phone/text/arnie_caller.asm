@@ -4,20 +4,18 @@ ArnieMonIsSoCuteText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "Es ist so süß!"
-	line "Ich liebe es!"
+	para "Es ist so süß! Ich"
+	line "liebe es!"
 	done
 
 ArnieDefeatedMonText:
 	text "Apropos, ich sah"
-	line "zum ersten Mal"
-	cont "ein"
+	line "zum ersten Mal ein"
 
 	para ""
 	text_ram wStringBuffer4
-	text "."
-	line "Es war leicht zu"
-	cont "besiegen."
+	text ". Es war leicht zu"
+	line "besiegen."
 	done
 
 ArnieLostAMonText:
@@ -26,8 +24,7 @@ ArnieLostAMonText:
 
 	para ""
 	text_ram wStringBuffer4
-	text "?"
-	line "Ich kann keins"
+	text "? Ich kann keins"
 
 	para "fangen. Was ist"
 	line "seine Schwäche?"
@@ -37,12 +34,11 @@ ArnieBattleRematchText:
 	text "Hey, lass uns"
 	line "#mon kämpfen!"
 
-	para "Ich verliere"
-	line "nicht"
+	para "Ich verliere nicht"
 	line "im Kampf oder im"
 
-	para "Käferturnier!"
-	line "Ich bin auf"
+	para "Käferturnier! Ich"
+	line "bin auf"
 
 	para ""
 	text_ram wStringBuffer5
@@ -56,8 +52,8 @@ ArnieHangUpText:
 
 ArnieSwarmText:
 	text "Mann, bin ich"
-	line "froh,"
-	line "dich erwischt zu"
+	line "froh, dich"
+	cont "erwischt zu"
 
 	para "haben! Eine ganze"
 	line "Menge "
@@ -65,20 +61,17 @@ ArnieSwarmText:
 
 	para "sind bei "
 	text_ram wStringBuffer5
-	text "!"
-	line "Das musst du"
-	cont "sehen!"
+	text "! Das musst du"
+	line "sehen!"
 	done
 
 ArnieHaventSeenRareMonText:
 	text "Ich hatte kein"
-	line "Glück mit"
-	cont "seltenen"
+	line "Glück mit seltenen"
 	cont "#mon…"
 
-	para "Aber ich weiß,"
-	line "sie sind da"
-	cont "draußen!"
+	para "Aber ich weiß, sie"
+	line "sind da draußen!"
 	done
 
 ArnieReminderText:
@@ -95,8 +88,7 @@ ArnieHurryText:
 	text "Hallo? Kommst du"
 	line "oder was?"
 
-	para "Du verpasst"
-	line "Yanma!"
+	para "Du verpasst Yanma!"
 	line "Komm sofort auf"
 
 	para "Route 35!"

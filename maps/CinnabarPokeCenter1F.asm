@@ -24,8 +24,7 @@ PokemonJournalBlaineScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Pyro!"
+	para "Spezial: Pyro!"
 
 	para "Man sagt, Pyro"
 	line "ziehe seine"
@@ -42,14 +41,11 @@ CinnabarPokeCenter1FCooltrainerfText:
 
 	para "ZINNOBERINSEL,"
 	line "lebt in einer"
-	cont "Höh-"
-	cont "le auf den SEE-"
+	cont "Höhle auf den SEE-"
 	cont "SCHAUMINSELN…"
 	done
 CinnabarPokeCenter1FFisherText:
-	text "Der"
-	line "Vulkanausbruch"
-	line "ist jetzt ein"
-	cont "Jahr"
+	text "Der Vulkanausbruch"
+	line "ist jetzt ein Jahr"
 	cont "her."
 	done

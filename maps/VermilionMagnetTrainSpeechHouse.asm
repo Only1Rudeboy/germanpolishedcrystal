@@ -21,15 +21,14 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 	cont "gehört?"
 
 	para "Er fährt nach"
-	line "DUKATIA CITY"
-	cont "in JOHTO."
+	line "DUKATIA CITY in"
+	cont "JOHTO."
 	done
 
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
 	text "Ich möchte nach"
-	line "SAFFRONIA CITY,"
-	cont "um"
+	line "SAFFRONIA CITY, um"
 	cont "den MAGNETZUG zu"
 	cont "sehen."
 	done

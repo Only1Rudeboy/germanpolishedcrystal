@@ -40,9 +40,9 @@ BattleTower2F_MapScriptHeader:
 BattleTower2FTVScript:
 	jumpthistext
 
-	text "Im Fernsehen"
-	line "läuft ein"
-	cont "spannender Kampf."
+	text "Im Fernsehen läuft"
+	line "ein spannender"
+	cont "Kampf."
 	done
 
 BattleTower2FCherylScript:
@@ -145,9 +145,8 @@ BattleTower2FRileyScript:
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_RILEY_DONE_TODAY
 	writethistext
-		text "Kämpfen ist"
-		line "unsere Art der"
-		cont "Begrüßung!"
+		text "Kämpfen ist unsere"
+		line "Art der Begrüßung!"
 		done
 	waitbutton
 	closetext
@@ -173,8 +172,8 @@ BattleTower2FRileyScript:
 	line "der Düsterhöhle"
 	cont "gewesen…"
 
-	para "hätten wir uns"
-	line "nie getroffen."
+	para "hätten wir uns nie"
+	line "getroffen."
 
 	para "Oder wären wir uns"
 	line "woanders begegnet?"
@@ -192,8 +191,8 @@ BattleTower2FRileyScript:
 
 .RefuseText:
 	text "Oh, na gut. Dann"
-	line "warten wir, bis"
-	cont "du bereit bist."
+	line "warten wir, bis du"
+	cont "bereit bist."
 	done
 
 BattleTower2FBuckScript:
@@ -240,8 +239,8 @@ BattleTower2FBuckScript:
 	done
 
 .BeatenText:
-	text "Heeheehee! Du"
-	line "bist heiß!"
+	text "Heeheehee! Du bist"
+	line "heiß!"
 	done
 
 .RefuseText:
@@ -291,9 +290,8 @@ BattleTower2FMarleyScript:
 	line "gefällt mir"
 	cont "vielleicht."
 
-	para "…Nur ein"
-	line "bisschen. Nur"
-	cont "ganz wenig."
+	para "…Nur ein bisschen."
+	line "Nur ganz wenig."
 	done
 
 .BeatenText:
@@ -302,8 +300,8 @@ BattleTower2FMarleyScript:
 
 .RefuseText:
 	text "…Ach, du. Ich mag"
-	line "dich langsam"
-	cont "etwas weniger."
+	line "dich langsam etwas"
+	cont "weniger."
 	done
 
 BattleTower2FMiraScript:
@@ -312,9 +310,8 @@ BattleTower2FMiraScript:
 	faceplayer
 	opentext
 	writethistext
-		text "<PLAYER>! Mira"
-		line "ist jetzt"
-		cont "stärker!"
+		text "<PLAYER>! Mira ist"
+		line "jetzt stärker!"
 
 		para "Bitte! Kämpf mit"
 		line "Mira!"
@@ -387,8 +384,7 @@ BattleTower2FAnabelScript:
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_ANABEL_DONE_TODAY
 	writethistext
-		text "Fangen wir an,"
-		line "ja?"
+		text "Fangen wir an, ja?"
 		done
 	waitbutton
 	closetext
@@ -420,17 +416,17 @@ BattleTower2FAnabelScript:
 	done
 
 BattleTower2FCooltrainermText:
-	text "Ich muss los,"
-	line "aber ich kann"
-	cont "nicht aufhören,"
+	text "Ich muss los, aber"
+	line "ich kann nicht"
+	cont "aufhören,"
 
 	para "diesen Kampf"
 	line "anzuschauen!"
 	done
 
 BattleTower2FLadyText:
-	text "Was macht mich"
-	line "als Trainerin am"
+	text "Was macht mich als"
+	line "Trainerin am"
 	cont "glücklichsten?"
 
 	para "Dass #mon mir"
@@ -452,9 +448,8 @@ BattleTower2FTwinText:
 	done
 
 BattleTower2FSuperNerdText:
-	text "Hehe! Alle"
-	line "Trainer hier"
-	cont "wirken so"
+	text "Hehe! Alle Trainer"
+	line "hier wirken so"
 
 	para "erbärmlich!"
 
@@ -495,9 +490,9 @@ BattleTower2FBlackbeltText:
 	line "die Uniform der"
 	cont "Kämpfer!"
 
-	para "Nichts eignet"
-	line "sich besser für"
-	cont "den Kampfturm"
+	para "Nichts eignet sich"
+	line "besser für den"
+	cont "Kampfturm"
 
 	para "als das!"
 	done

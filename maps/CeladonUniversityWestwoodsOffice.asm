@@ -44,11 +44,9 @@ CeladonUniversityWestwoodsOfficeChildScript:
 
 	para "Wo ist sie?"
 
-	para "Ich bin so"
-	line "WÜTEND!"
+	para "Ich bin so WÜTEND!"
 
-	para "…Vielleicht"
-	line "sollte"
+	para "…Vielleicht sollte"
 	line "ich aufhören,"
 if DEF(FAITHFUL)
 	cont "Wutbonbons zu"
@@ -74,8 +72,8 @@ CeladonUniversityWestwoodsOfficeBookText:
 	line "nicht immer das"
 
 	para "Büro verlassen"
-	line "muss, um Erfolg"
-	cont "zu haben!"
+	line "muss, um Erfolg zu"
+	cont "haben!"
 
 	para "Berichte anderer"
 	line "reichen völlig."

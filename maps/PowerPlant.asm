@@ -70,12 +70,11 @@ PowerPlantOfficerScript:
 	iftrue_jumptextfaceplayer PowerPlantOfficer1CouldIAskForYourCooperationText
 	jumpthistextfaceplayer
 
-	text "Ein Dieb brach"
-	line "ins Kraftwerk"
-	cont "ein…"
+	text "Ein Dieb brach ins"
+	line "Kraftwerk ein…"
 
-	para "Wohin soll das"
-	line "nur noch führen?"
+	para "Wohin soll das nur"
+	line "noch führen?"
 	done
 
 
@@ -88,14 +87,13 @@ PowerPlantGymGuide1Script:
 	jumpthistextfaceplayer
 
 	text "Jemand hat ein"
-	line "wichtiges Teil"
-	cont "für den Genera-"
-	cont "tor gestohlen."
+	line "wichtiges Teil für"
+	cont "den Generator"
+	cont "gestohlen."
 
 	para "Ohne dieses Teil"
 	line "ist der neue"
-	cont "Generator"
-	cont "nutzlos!"
+	cont "Generator nutzlos!"
 	done
 
 
@@ -111,8 +109,8 @@ PowerPlantGymGuide2Script:
 	line "war früher außer"
 	cont "Betrieb."
 
-	para "Wir haben es wie-"
-	line "der in Gang"
+	para "Wir haben es"
+	line "wieder in Gang"
 
 	para "gebracht, um den"
 	line "MAGNETZUG mit"
@@ -265,8 +263,7 @@ PowerPlantOfficer1ReturnToPostMovement:
 
 
 PowerPlantOfficer1CeruleanShadyCharacterText:
-	text "Ich habe"
-	line "Nachricht"
+	text "Ich habe Nachricht"
 	line "aus AZURIA CITY."
 
 	para "Eine zwielichtige"
@@ -302,10 +299,10 @@ PowerPlantOfficer1HaveToBeefUpSecurityText:
 
 PowerPlantGymGuide1GeneratorUpAndRunningText:
 	text "Der Generator"
-	line "funktioniert wie-"
-	cont "der. Jetzt erzeu-"
-	cont "gen wir genügend"
-	cont "Energie."
+	line "funktioniert"
+	cont "wieder. Jetzt"
+	cont "erzeugen wir"
+	cont "genügend Energie."
 	done
 
 
@@ -322,8 +319,7 @@ PowerPlantGymGuide2GeneratorIsRunningAgainText:
 
 
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
-	text "Seit der"
-	line "Generator"
+	text "Seit der Generator"
 	line "wieder läuft, ist"
 
 	para "der DIREKTOR"
@@ -346,8 +342,7 @@ PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
 
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
-	text "DIREKTOR: Ich,"
-	line "ich"
+	text "DIREKTOR: Ich, ich"
 	line "werde ihm nie"
 	cont "verzeihen!"
 
@@ -371,18 +366,15 @@ PowerPlantManagerWhoWouldRuinMyGeneratorText:
 
 
 PowerPlantManagerIWontForgiveCulpritText:
-	text "DIREKTOR: Das"
-	line "kann"
+	text "DIREKTOR: Das kann"
 	line "ich ihm nicht"
 	cont "verzeihen!"
 
 	para "Der Schurke kann"
 	line "weinen und sich"
 
-	para "entschuldigen,"
-	line "ich"
-	line "werde ihn"
-	cont "trotzdem"
+	para "entschuldigen, ich"
+	line "werde ihn trotzdem"
 	cont "bestrafen!"
 
 	para "Uahahaha!"
@@ -393,15 +385,14 @@ PowerPlantManagerIWontForgiveCulpritText:
 
 
 PowerPlantManagerThatsThePartText:
-	text "DIREKTOR: Ah!"
-	line "Oh ja!"
+	text "DIREKTOR: Ah! Oh"
+	line "ja!"
 
 	para "Das ist die"
 	line "fehlende SPULE"
 	cont "meines geliebten"
 	cont "Generators! Du"
-	cont "hast sie"
-	cont "gefunden?"
+	cont "hast sie gefunden?"
 	done
 
 
@@ -434,8 +425,7 @@ Text_PowerPlantTutorZapCannon:
 
 Text_PowerPlantTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Zap"
-	cont "Cannon"
+	line "#mon Zap Cannon"
 	cont "beibringen?"
 	done
 
@@ -443,13 +433,11 @@ Text_PowerPlantTutorQuestion:
 
 PowerPlantForestText:
 	text "Magneton verhält"
-	line "sich im"
-	cont "Felstunnel"
+	line "sich im Felstunnel"
 	cont "seltsam."
 
-	para "Haben die"
-	line "Turbinen des"
-	line "Kraftwerks"
+	para "Haben die Turbinen"
+	line "des Kraftwerks"
 
 	para "damit etwas zu"
 	line "tun?"

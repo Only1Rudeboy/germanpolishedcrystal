@@ -34,14 +34,13 @@ BeverlyGreetText:
 
 	para "Hier ist "
 	text_ram wStringBuffer3
-	text "."
-	line "Warst du am"
-	cont "Schlafen?"
+	text ". Warst du am"
+	line "Schlafen?"
 	done
 
 BeverlyGreetDayText:
-	text "Hi, <PLAYER>."
-	line "Hier ist "
+	text "Hi, <PLAYER>. Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 
@@ -49,8 +48,8 @@ BeverlyGreetDayText:
 	done
 
 BeverlyGreetNiteText:
-	text "Hi, <PLAYER>."
-	line "Hier ist "
+	text "Hi, <PLAYER>. Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 
@@ -63,7 +62,7 @@ BeverlyGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "gesund. Es frisst"
-	cont "täglich viel."
+	text " ist gesund. Es"
+	line "frisst täglich"
+	cont "viel."
 	done

@@ -111,8 +111,8 @@ BoughtPinkBedText:
 	done
 
 PinkBedSentText:
-	text "Das rosa Bett"
-	line "kam nach Hause."
+	text "Das rosa Bett kam"
+	line "nach Hause."
 	done
 
 BoughtPolkaDotBedText:
@@ -136,13 +136,12 @@ PikachuBedSentText:
 	done
 
 CeladonHomeDecorStore2FNoMoneyText:
-	text "Das kannst du"
-	line "dir nicht leisten!"
+	text "Das kannst du dir"
+	line "nicht leisten!"
 	done
 
 CeladonHomeDecorStore2FAlreadyBoughtText:
-	text "Das hast du"
-	line "schon!"
+	text "Das hast du schon!"
 	done
 
 CeladonHomeDecorStore2FPokefanfText:

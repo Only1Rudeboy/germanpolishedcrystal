@@ -53,9 +53,8 @@ GenericTrainerPicnickerHeidi:
 GenericTrainerCamperSid:
 	generictrainer CAMPER, SID, EVENT_BEAT_CAMPER_SID, CamperSidSeenText, CamperSidBeatenText
 
-	text "Entschuldige!"
-	line "Ich habe mich"
-	cont "geirrt."
+	text "Entschuldige! Ich"
+	line "habe mich geirrt."
 	done
 GenericTrainerPicnickerEdna:
 	generictrainer PICNICKER, EDNA, EVENT_BEAT_PICNICKER_EDNA, PicnickerEdnaSeenText, PicnickerEdnaBeatenText
@@ -69,10 +68,8 @@ GenericTrainerPicnickerEdna:
 GenericTrainerHikerTim:
 	generictrainer HIKER, TIM, EVENT_BEAT_HIKER_TIM, HikerTimSeenText, HikerTimBeatenText
 
-	text "Bei Kämpfen"
-	line "spielt"
-	line "Konzentration"
-	cont "eine"
+	text "Bei Kämpfen spielt"
+	line "Konzentration eine"
 	cont "wichtige Rolle."
 	done
 GenericTrainerHikerSidney:
@@ -81,8 +78,8 @@ GenericTrainerHikerSidney:
 	text "Du musst einen"
 	line "kleinen Fluss"
 	cont "durchqueren, um"
-	cont "zum KRAFTWERK"
-	cont "zu gelangen."
+	cont "zum KRAFTWERK zu"
+	cont "gelangen."
 	done
 CamperDeanSeenText:
 	text "Ich möchte den"
@@ -123,9 +120,9 @@ PicnickerHeidiBeatenText:
 
 
 CamperSidSeenText:
-	text "Hey, du Lump!"
-	line "Wirf deinen Müll"
-	cont "nicht hier hin!"
+	text "Hey, du Lump! Wirf"
+	line "deinen Müll nicht"
+	cont "hier hin!"
 	done
 
 
@@ -134,8 +131,7 @@ CamperSidSeenText:
 
 CamperSidBeatenText:
 	text "Ich wollte nur"
-	line "klarstellen,"
-	cont "dass…"
+	line "klarstellen, dass…"
 	done
 
 
@@ -167,8 +163,7 @@ HikerTimSeenText:
 	line "kommt sie vom"
 	cont "SILBERBERG…"
 
-	para "Der SILBERBERG"
-	line "ist"
+	para "Der SILBERBERG ist"
 	line "in JOHTO, oder?"
 	done
 
@@ -190,8 +185,7 @@ HikerSidneySeenText:
 	text "Ich verrate dir"
 	line "ein Geheimnis."
 
-	para "Aber zuerst"
-	line "müssen"
+	para "Aber zuerst müssen"
 	line "wir kämpfen!"
 	done
 
@@ -200,9 +194,8 @@ HikerSidneySeenText:
 
 
 HikerSidneyBeatenText:
-	text "Ach, Mist!"
-	line "Ich habe"
-	cont "verloren…"
+	text "Ach, Mist! Ich"
+	line "habe verloren…"
 	done
 
 
@@ -231,10 +224,10 @@ Route9AdvancedTipsSignText:
 	line "Heiß-Orb"
 	cont "verbrannt."
 
-	para "Aber die Fähig-"
-	line "keit Adrenalin"
+	para "Aber die Fähigkeit"
+	line "Adrenalin"
 
 	para "macht das zum"
-	line "Vorteil und"
-	cont "stärkt Angriff!"
+	line "Vorteil und stärkt"
+	cont "Angriff!"
 	done

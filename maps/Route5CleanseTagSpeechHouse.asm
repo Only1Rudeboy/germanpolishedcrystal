@@ -46,8 +46,8 @@ Route5CleanseTagHouseGrannyText1:
 Route5CleanseTagHouseGrannyText2:
 	text "Du schwebtest in"
 	line "Lebensgefahr!"
-	cont "Jetzt bist du"
-	cont "in Sicherheit."
+	cont "Jetzt bist du in"
+	cont "Sicherheit."
 	done
 Route5CleanseTagHouseTeacherText:
 	text "Meine Oma befasst"

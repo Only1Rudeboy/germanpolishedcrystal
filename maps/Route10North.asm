@@ -248,11 +248,11 @@ Route10NorthElectrode:
 Route10NorthLawrenceGreetingText:
 	text "Lawrence: Wir"
 	line "treffen uns"
-	line "wieder,"
+	cont "wieder,"
 
-	para "<PLAYER>. Ich"
-	line "kam hierher auf"
-	line "der Suche nach"
+	para "<PLAYER>. Ich kam"
+	line "hierher auf der"
+	cont "Suche nach"
 
 	para "dem legendären"
 	line "Vogel des Feuers,"
@@ -269,15 +269,15 @@ Route10NorthLawrenceZapdosText:
 
 	para "Es muss vom"
 	line "Generator"
-	cont "angezogen"
-	cont "worden sein."
+	cont "angezogen worden"
+	cont "sein."
 
 	para "…War das dein"
 	line "Werk?"
 
 	para "In dem Fall lasse"
 	line "ich dir dieses"
-	line "legen-"
+	cont "legen-"
 
 	para "däre #mon zum"
 	line "Fangen."
@@ -294,30 +294,28 @@ Route10NorthLawrenceFlyText:
 
 Route10NorthLawrenceSpeechText:
 	text "Lawrence: Hallo"
-	line "wieder,"
-	line "<PLAYER>."
+	line "wieder, <PLAYER>."
 
-	para "Du wolltest"
-	line "Zapdos also"
-	line "doch?"
+	para "Du wolltest Zapdos"
+	line "also doch?"
 
-	para "Ich dachte"
-	line "schon, die"
+	para "Ich dachte schon,"
+	line "die"
 
-	para "Legenden wären"
-	line "dir egal."
+	para "Legenden wären dir"
+	line "egal."
 
 	para "…Was?! Du hast"
 	line "alle drei Vögel"
-	line "gefangen?"
+	cont "gefangen?"
 	cont "Unmöglich."
 
 	para "Selbst ich mit"
 	line "meinem Wissen und"
 
 	para "meinen Mitteln"
-	line "habe LAVADOS"
-	cont "nicht gefunden…"
+	line "habe LAVADOS nicht"
+	cont "gefunden…"
 
 	para "Warum hast du"
 	line "Erfolg, wo ich"
@@ -325,7 +323,7 @@ Route10NorthLawrenceSpeechText:
 
 	para "Kannst du die"
 	line "Majestät der"
-	line "geflügelten"
+	cont "geflügelten"
 	cont "Trugbilder"
 	cont "würdigen?"
 
@@ -338,14 +336,13 @@ Route10NorthLawrenceSpeechText:
 	line "inakzeptabel."
 
 	para "Triff mich am"
-	line "zerstörten"
-	cont "Schrein"
+	line "zerstörten Schrein"
 	cont "auf"
 	cont "Shamouti-Insel."
 
 	para "Ich zeige dir,"
 	line "dass ich diese"
-	line "#mon verdient"
+	cont "#mon verdient"
 	cont "habe."
 	done
 

@@ -1,6 +1,5 @@
 ArnieAnswerPhoneText:
-	text "Ja, hallo."
-	line "Hier "
+	text "Ja, hallo. Hier "
 	text_ram wStringBuffer3
 	text "."
 
@@ -44,8 +43,7 @@ ArnieGreetDayText:
 	text_ram wStringBuffer3
 	text " ruft an."
 
-	para "Wo bist du"
-	line "gerade,"
+	para "Wo bist du gerade,"
 	line "<PLAYER>?"
 	done
 

@@ -92,8 +92,8 @@ CeladonCityTutorSwaggerScript:
 	jumpthisopenedtext
 
 	text "…Du hast kein"
-	line "Silberblatt?"
-	cont "Wie schade."
+	line "Silberblatt? Wie"
+	cont "schade."
 	done
 
 .TeachMove
@@ -110,8 +110,8 @@ CeladonCityRichBoyText:
 	line "nicht blendend?"
 
 	para "Er lässt alle"
-	line "Köpfe drehen,"
-	cont "wenn ich"
+	line "Köpfe drehen, wenn"
+	cont "ich"
 
 	para "die Straße"
 	line "entlangstolziere!"
@@ -144,16 +144,16 @@ Text_CeladonCityTutorQuestion:
 
 
 CeladonCityFisherText:
-	text "Dieser Quappo"
-	line "ist mein Partner."
+	text "Dieser Quappo ist"
+	line "mein Partner."
 
 	para "Er war früher"
 	line "Sanft, aber die"
 	cont "Verwalterin im"
 
 	para "Wohnkomplex hier"
-	line "braute uns Tee"
-	cont "mit einem"
+	line "braute uns Tee mit"
+	cont "einem"
 
 	para "Minzblatt, das ihn"
 	line "froher machte!"
@@ -170,9 +170,9 @@ CeladonCityTeacher1Text:
 
 	para "verloren…"
 
-	para "Wir Mädchen"
-	line "zocken jetzt auch"
-	cont "an den Automaten."
+	para "Wir Mädchen zocken"
+	line "jetzt auch an den"
+	cont "Automaten."
 
 	para "Du solltest sie"
 	line "dir auch mal"
@@ -180,9 +180,8 @@ CeladonCityTeacher1Text:
 	done
 
 CeladonCityGramps1Text:
-	text "Sleimok tauchen"
-	line "in letzter Zeit"
-	cont "auf."
+	text "Sleimok tauchen in"
+	line "letzter Zeit auf."
 
 	para "Siehst du den"
 	line "Teich vor dem"
@@ -199,8 +198,8 @@ CeladonCityGramps2Text:
 	text "Nihihi! Diese"
 	line "Arena ist toll!"
 
-	para "Nur Mädchen"
-	line "dürfen hier rein!"
+	para "Nur Mädchen dürfen"
+	line "hier rein!"
 	done
 
 CeladonCityYoungster1Text:
@@ -261,8 +260,8 @@ CeladonCityLassText_PCC:
 	line "das #mon-Center"
 	cont "in Dukatia City"
 
-	para "viel größer"
-	line "gebaut wurde?"
+	para "viel größer gebaut"
+	line "wurde?"
 
 	para "Das ist so toll!"
 	line "Ich wünschte, wir"
@@ -285,8 +284,7 @@ CeladonCitySignText:
 	text "Prismania City"
 
 	para "Die Stadt der"
-	line "Regenbogen-"
-	cont "träume"
+	line "Regenbogenträume"
 	done
 
 CeladonGymSignText:
@@ -294,9 +292,8 @@ CeladonGymSignText:
 	line "#mon-Arena"
 	cont "Leiterin: Erika"
 
-	para "Die natur-"
-	line "liebende"
-	cont "Prinzessin"
+	para "Die naturliebende"
+	line "Prinzessin"
 	done
 
 CeladonUniversitySignText:
@@ -326,9 +323,8 @@ CeladonCityMansionSignText:
 	done
 
 CeladonCityGameCornerSignText:
-	text "Der Spielplatz"
-	line "für alle--"
-	cont "Prismanias"
+	text "Der Spielplatz für"
+	line "alle-- Prismanias"
 
 	para "Spielhalle"
 	done
@@ -343,8 +339,8 @@ CeladonCityCafeSignText:
 	text "Prismania-Diner"
 
 	para "Heute den ganzen"
-	line "Tag Fress-"
-	cont "wettbewerb!"
+	line "Tag"
+	cont "Fresswettbewerb!"
 	done
 
 CeladonCityHotelSignText:

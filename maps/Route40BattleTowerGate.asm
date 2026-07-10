@@ -36,9 +36,9 @@ Route40BattleTowerGateRockerScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Bist du auch"
-	line "wegen des"
-	cont "DUELLTURMS hier?"
+	text "Bist du auch wegen"
+	line "des DUELLTURMS"
+	cont "hier?"
 
 	para "Du kannst aber"
 	line "wohl noch nicht"
@@ -49,8 +49,8 @@ Route40BattleTowerGateRockerScript:
 	text "Der DUELLTURM ist"
 	line "offen."
 
-	para "Ich will hin,"
-	line "aber mir fehlt"
+	para "Ich will hin, aber"
+	line "mir fehlt"
 
 	para "cooler Spruch für"
 	line "den Sieg."
@@ -62,8 +62,8 @@ Route40BattleTowerGateTwinScript:
 	jumpthistextfaceplayer
 
 	text "Ich trainiere"
-	line "meine"
-	line "#mon, damit ich"
+	line "meine #mon,"
+	cont "damit ich"
 
 	para "für den Kampftur-"
 	line "nier bereit bin."
@@ -74,10 +74,9 @@ Route40BattleTowerGateTwinScript:
 	line "#mon, die ich"
 
 	para "einsetzen möchte,"
-	line "sind unter-"
-	cont "schiedlich."
+	line "sind"
+	cont "unterschiedlich."
 
-	para "Ich muss sie"
-	line "jetzt"
+	para "Ich muss sie jetzt"
 	line "trainieren!"
 	done

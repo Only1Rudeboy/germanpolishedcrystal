@@ -21,8 +21,8 @@ Route10South_MapScriptHeader:
 GenericTrainerHikerJim:
 	generictrainer HIKER, JIM, EVENT_BEAT_HIKER_JIM, HikerJimSeenText, HikerJimBeatenText
 
-	text "Ich habe Heu-"
-	line "schnupfen!"
+	text "Ich habe"
+	line "Heuschnupfen!"
 
 	para "Haha-hatschi!"
 	done
@@ -87,9 +87,8 @@ PokefanmRobertBeatenText:
 HexManiacAmySeenText:
 	text "LAVANDIA…"
 
-	para "Wo die Geister"
-	line "der #mon"
-	cont "schlafen…"
+	para "Wo die Geister der"
+	line "#mon schlafen…"
 	done
 
 HexManiacAmyBeatenText:

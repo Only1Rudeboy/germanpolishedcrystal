@@ -103,13 +103,12 @@ Route43SightseerfScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "Ich liebe es,"
-	line "neue Orte zu"
-	cont "besuchen"
+	text "Ich liebe es, neue"
+	line "Orte zu besuchen"
 
 	para "und dort jeden"
-	line "Trainer herauszu-"
-	cont "fordern."
+	line "Trainer"
+	cont "herauszufordern."
 
 	para "Ich suche weiter"
 	line "nach starken"
@@ -120,9 +119,8 @@ Route43SightseerfScript:
 	text "Ich suche starke"
 	line "Trainer in Johto,"
 
-	para "aber ich habe"
-	line "noch keinen"
-	cont "gefunden."
+	para "aber ich habe noch"
+	line "keinen gefunden."
 
 	para "Hmmm… Du siehst"
 	line "vielversprechend"
@@ -133,14 +131,13 @@ Route43SightseerfScript:
 	cont "sehen."
 
 	para "Lass uns"
-	line "kämpfen--"
-	line "aber zuerst will"
+	line "kämpfen-aber"
+	cont "zuerst will"
 
 	para "ich sehen, wie du"
 	line "diese Route"
 
-	para "eroberst, indem"
-	line "du"
+	para "eroberst, indem du"
 	line "alle anderen"
 	cont "besiegst."
 	done
@@ -151,8 +148,8 @@ Route43SightseerfScript:
 	cont "Strategie zu"
 	cont "testen…"
 
-	para "Bist du bereit"
-	line "für einen Kampf?"
+	para "Bist du bereit für"
+	line "einen Kampf?"
 	done
 
 .RefusedText:
@@ -182,8 +179,8 @@ Route43SightseerfScript:
 	line "ich gefunden, was"
 	cont "ich suchte!"
 
-	para "Ich gebe dir"
-	line "einen Flame Orb,"
+	para "Ich gebe dir einen"
+	line "Flame Orb,"
 
 	para "aber sei"
 	line "vorsichtig, wenn"
@@ -209,8 +206,8 @@ GenericTrainerSrandjrIvyandamy1:
 	generictrainer SR_AND_JR, IVYANDAMY1, EVENT_BEAT_SR_AND_JR_IVY_AND_AMY, SrandjrIvyandamy1SeenText, SrandjrIvyandamy1BeatenText
 
 	text "Ivy: Meine Junior"
-	line "soll nicht"
-	cont "denken, ich"
+	line "soll nicht denken,"
+	cont "ich"
 
 	para "könnte ihr nicht"
 	line "helfen."
@@ -231,8 +228,8 @@ GenericTrainerCamperSpencer:
 	generictrainer CAMPER, SPENCER, EVENT_BEAT_CAMPER_SPENCER, CamperSpencerSeenText, CamperSpencerBeatenText
 
 	text "Was geht da vor"
-	line "sich am"
-	cont "SEE DES ZORNS?"
+	line "sich am SEE DES"
+	cont "ZORNS?"
 
 	para "Wir wollen dort"
 	line "zelten."
@@ -240,10 +237,9 @@ GenericTrainerCamperSpencer:
 GenericTrainerPokemaniacBen:
 	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, PokemaniacBenSeenText, PokemaniacBenBeatenText
 
-	text "Du fragst, was"
-	line "ich"
-	line "außer #mon"
-	cont "noch mag?"
+	text "Du fragst, was ich"
+	line "außer #mon noch"
+	cont "mag?"
 
 	para "MARGIT vom Radio!"
 	line "Die ist bestimmt"
@@ -350,8 +346,7 @@ GenericTrainerPokemaniacRon:
 	generictrainer POKEMANIAC, RON, EVENT_BEAT_POKEMANIAC_RON, PokemaniacRonSeenText, PokemaniacRonBeatenText
 
 	text "Es ist okay, wenn"
-	line "Leute"
-	cont "verschiedene"
+	line "Leute verschiedene"
 	cont "#mon mögen."
 
 	para "Bei #mon geht"
@@ -365,14 +360,14 @@ GenericTrainerFisherMarvin:
 	text "KURTs KOEDERBALL"
 	line "eignet sich am"
 
-	para "besten, um #-"
-	line "MON, die an der"
-	cont "Angel hängen,"
+	para "besten, um"
+	line "#mon, die an"
+	cont "der Angel hängen,"
 	cont "einzufangen."
 
 	para "Er ist viel"
-	line "effektiver als"
-	cont "der HYPERBALL."
+	line "effektiver als der"
+	cont "HYPERBALL."
 	done
 TrainerPicnickerTiffany1:
 	trainer PICNICKER, TIFFANY1, EVENT_BEAT_PICNICKER_TIFFANY, PicnickerTiffany1SeenText, PicnickerTiffany1BeatenText, 0, PicnickerTiffany1Script
@@ -504,8 +499,8 @@ PokemaniacBenSeenText:
 	text "Ich liebe #mon!"
 
 	para "Deshalb habe ich"
-	line "angefangen, #-"
-	cont "MON zu sammeln"
+	line "angefangen,"
+	cont "#mon zu sammeln"
 	cont "und"
 
 	para "damit werde ich"
@@ -533,13 +528,12 @@ PokemaniacBrent1SeenText:
 	line "seltene #mon?"
 	done
 PokemaniacBrent1BeatenText:
-	text "Meine armen #-"
-	line "MON-Lieblinge!"
+	text "Meine armen"
+	line "#mon-Lieblinge!"
 	done
 PokemaniacBrentAfterBattleText:
 	text "Ich wäre schon"
-	line "froh, wenn ich"
-	cont "nur"
+	line "froh, wenn ich nur"
 	cont "ein einziges"
 	cont "seltenes #mon"
 	cont "hätte."
@@ -551,17 +545,16 @@ PokemaniacBrentAfterBattleText:
 
 
 PokemaniacRonSeenText:
-	text "Stell dir mal"
-	line "vor!"
+	text "Stell dir mal vor!"
 
 	para "So ein <RIVAL>"
-	line "hat sich über"
-	cont "mein #mon"
-	cont "lustig gemacht!"
+	line "hat sich über mein"
+	cont "#mon lustig"
+	cont "gemacht!"
 
 	para "Unverschämtheit!"
-	line "Mein #mon"
-	cont "ist toll!"
+	line "Mein #mon ist"
+	cont "toll!"
 	done
 
 
@@ -571,8 +564,8 @@ PokemaniacRonSeenText:
 
 PokemaniacRonBeatenText:
 	text "Mein NIDOKING hat"
-	line "sich wacker ge-"
-	cont "schlagen!"
+	line "sich wacker"
+	cont "geschlagen!"
 	done
 
 
@@ -582,8 +575,7 @@ PokemaniacRonBeatenText:
 
 FisherMarvinSeenText:
 	text "Ich bin gerade"
-	line "ziemlich am"
-	cont "Boden."
+	line "ziemlich am Boden."
 
 	para "Vielleicht liegt"
 	line "das an dem Item,"
@@ -600,8 +592,7 @@ FisherMarvinSeenText:
 
 
 FisherMarvinBeatenText:
-	text "Ich habe"
-	line "verloren,"
+	text "Ich habe verloren,"
 	line "aber ich fühle"
 	cont "mich trotzdem"
 	cont "besser."
@@ -615,10 +606,9 @@ FisherMarvinBeatenText:
 CamperSpencerSeenText:
 	text "Man kann so viel"
 	line "unternehmen mit"
-	cont "seinen #mon -"
-	cont "das macht"
-	cont "unheimlich viel"
-	cont "Spaß!"
+	cont "seinen #mon das"
+	cont "macht unheimlich"
+	cont "viel Spaß!"
 	done
 
 
@@ -672,16 +662,14 @@ BreederJodySeenText:
 	done
 
 BreederJodyBeatenText:
-	text "Trotzdem"
-	line "verloren!"
+	text "Trotzdem verloren!"
 	done
 
 SrandjrIvyandamy1SeenText:
 	text "Ivy: Ich zeige"
 	line "meiner Junior,"
 
-	para "wie man das"
-	line "macht!"
+	para "wie man das macht!"
 	done
 
 SrandjrIvyandamy1BeatenText:
@@ -770,8 +758,8 @@ Route43AdvancedTipsText:
 	cont "Vererbung"
 
 	para "weitergeben, wenn"
-	line "es einen"
-	cont "Everstone trägt!"
+	line "es einen Everstone"
+	cont "trägt!"
 
 	para "Ein Destiny Knot"
 	line "kann alle"
@@ -782,8 +770,8 @@ Route43AdvancedTipsText:
 	line "Items"
 
 	para "können das"
-	line "Potenzial in"
-	line "ihrem einen Wert"
+	line "Potenzial in ihrem"
+	cont "einen Wert"
 	cont "weitergeben!"
 
 	para "Und eine Ability"

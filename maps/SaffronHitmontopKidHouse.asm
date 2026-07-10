@@ -46,8 +46,8 @@ SaffronHitmontopKidHouseChildScript:
 
 .Text3:
 	text "Das ist ein"
-	line "HITMONTOP!"
-	cont "Boah! So toll!"
+	line "HITMONTOP! Boah!"
+	cont "So toll!"
 	done
 
 .SpinMovement:
@@ -84,28 +84,27 @@ SaffronHitmontopKidHouseTeacherScript:
 .Text3:
 	text "Mein Sohn hat"
 	line "endlich sein"
-	line "Lieblings-#mon"
+	cont "Lieblings-#mon"
 	cont "getroffen."
 	done
 
 .Text1:
-	text "Mein Sohn tut"
-	line "so, als wäre er"
-	cont "ein #mon."
+	text "Mein Sohn tut so,"
+	line "als wäre er ein"
+	cont "#mon."
 
 	para "Das ist manchmal"
 	line "echt peinlich."
 
 	para "Vielleicht würde"
 	line "er ruhig werden,"
-	cont "wenn er ein"
-	cont "echtes HITMON-"
-	cont "TOP sähe…"
+	cont "wenn er ein echtes"
+	cont "HITMON- TOP sähe…"
 	done
 
 .Text2:
-	text "Ach du meine!"
-	line "Du hast meinen"
+	text "Ach du meine! Du"
+	line "hast meinen"
 
 	para "Sohn so glücklich"
 	line "gemacht!"

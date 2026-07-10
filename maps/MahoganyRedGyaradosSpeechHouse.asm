@@ -21,8 +21,8 @@ MahoganyRedGyaradosSpeechHouseTeacherScript:
 	jumpthistextfaceplayer
 
 	text "Mein Lieblings-"
-	line "Radioprogramm?"
-	cont "Ich würde sagen"
+	line "Radioprogramm? Ich"
+	cont "würde sagen"
 	cont "#mon-Musik."
 	done
 
@@ -45,12 +45,11 @@ MahoganyRedGyaradosSpeechHouseBlackBeltText:
 
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "Ich habe"
-	line "Gelächter"
+	text "Ich habe Gelächter"
 	line "im Radio gehört…"
 
-	para "Das war unheim-"
-	line "lich."
+	para "Das war"
+	line "unheimlich."
 	done
 
 

@@ -176,15 +176,15 @@ VermilionGymBadgeGuy:
 	jumpthistextfaceplayer
 
 	text "Erfahrene Trainer"
-	line "versammeln sich"
-	cont "in KANTO."
+	line "versammeln sich in"
+	cont "KANTO."
 
 	para "ARENALEITER sind"
 	line "besonders stark."
 
 	para "Sie zu besiegen"
-	line "ist keine"
-	cont "leichte Aufgabe."
+	line "ist keine leichte"
+	cont "Aufgabe."
 	done
 
 
@@ -201,18 +201,17 @@ VermilionGymBadgeGuy:
 
 	para "Findest du nicht"
 	line "auch, dass die"
-	cont "Trainer hier"
-	cont "stark"
+	cont "Trainer hier stark"
 	cont "sind?"
 	done
 .MostBadges:
 	jumpthistextfaceplayer
 
 	text "Ich schätze, du"
-	line "hast diesen Wett-"
-	cont "kampf der ARENEN"
-	cont "in KANTO bald"
-	cont "beendet."
+	line "hast diesen"
+	cont "Wettkampf der"
+	cont "ARENEN in KANTO"
+	cont "bald beendet."
 
 	para "Lass mich wissen,"
 	line "wenn du alle acht"
@@ -238,8 +237,7 @@ VermilionMachokeOwnerScript:
 	line "bereiteten das"
 	cont "Land"
 
-	para "für dieses"
-	line "riesige"
+	para "für dieses riesige"
 	line "Gebäude vor!"
 
 	para "Schade, dass die"
@@ -259,8 +257,7 @@ VermilionCitySuperNerd2Script:
 	para "Aber sie braucht"
 	line "enorm viel Strom…"
 
-	para "Solange das"
-	line "KRAFT-"
+	para "Solange das KRAFT-"
 	line "WERK offline ist,"
 	cont "ist sie nutzlos!"
 	done
@@ -274,11 +271,9 @@ VermilionCityBadgeGuyBattleEdgeText:
 	cont "kämpfen lässt."
 
 	para "Ich bin sicher,"
-	line "dass die ORDEN"
-	cont "der"
+	line "dass die ORDEN der"
 	cont "ARENEN in KANTO"
-	cont "dir helfen"
-	cont "werden."
+	cont "dir helfen werden."
 	done
 
 
@@ -298,17 +293,16 @@ LawrenceOverheardText:
 
 LawrenceIntroText:
 	text "Lawrence: Bitte"
-	line "entschuldige,"
-	cont "dass ich dich"
+	line "entschuldige, dass"
+	cont "ich dich"
 	cont "angerempelt habe."
 
 	para "Ich eile, meine"
-	line "Sammlung"
-	cont "zu vervoll-"
-	cont "ständigen."
+	line "Sammlung zu"
+	cont "vervollständigen."
 
-	para "Ich bin"
-	line "Lawrence III."
+	para "Ich bin Lawrence"
+	line "III."
 
 	para "Und du bist der"
 	line "Liga-Champion?"
@@ -318,20 +312,19 @@ LawrenceIntroText:
 
 	para "Legendäre #mon"
 	line "sind schon immer"
-	cont "meine Leiden-"
-	cont "schaft."
+	cont "meine"
+	cont "Leidenschaft."
 
 	para "Ich fuhr mit der"
-	line "SEAGALLOP-"
-	line "Fähre zur"
+	line "SEAGALLOP- Fähre"
+	cont "zur"
 
 	para "Shamouti-Insel,"
 	line "fand aber nicht,"
 	cont "was ich suchte."
 
 	para "Ach, du hast"
-	line "#mon aus"
-	line "JOHTOs"
+	line "#mon aus JOHTOs"
 	cont "Legenden"
 	cont "getroffen?"
 
@@ -348,12 +341,12 @@ LawrenceIntroText:
 VermilionCityTeacherText:
 	text "Der HAFEN von"
 	line "ORANIA CITY ist"
-	cont "das Tor KANTOs"
-	cont "zum Meer."
+	cont "das Tor KANTOs zum"
+	cont "Meer."
 
-	para "Hier legen Luxus-"
-	line "dampfer aus aller"
-	cont "Welt an."
+	para "Hier legen"
+	line "Luxusdampfer aus"
+	cont "aller Welt an."
 	done
 
 
@@ -366,8 +359,7 @@ VermilionMachokeOwnerText:
 	line "bereiteten das"
 	cont "Land"
 
-	para "für dieses"
-	line "riesige"
+	para "für dieses riesige"
 	line "Gebäude vor!"
 
 	para "Vor drei Jahren"
@@ -375,8 +367,8 @@ VermilionMachokeOwnerText:
 	cont "MACHOLLO,"
 
 	para "aber die"
-	line "Anstrengung"
-	line "ließ es sich"
+	line "Anstrengung ließ"
+	cont "es sich"
 	cont "entwickeln!"
 	done
 
@@ -391,8 +383,8 @@ VermilionCitySuperNerdText:
 
 	para "Das große Gebäude"
 	line "ist die"
-	cont "#mon-ARENA"
-	cont "von ORANIA CITY."
+	cont "#mon-ARENA von"
+	cont "ORANIA CITY."
 	done
 
 
@@ -402,39 +394,36 @@ VermilionCitySuperNerdText:
 
 VermilionCitySuperNerd2Text:
 	text "Die Kampffabrik"
-	line "ist brandneu,"
-	cont "aber"
+	line "ist brandneu, aber"
 
-	para "Trainer aus"
-	line "fernen Regionen"
+	para "Trainer aus fernen"
+	line "Regionen"
 
 	para "kommen schon, um"
 	line "sich ihrer"
-	cont "Herausforderung"
-	cont "zu stellen!"
+	cont "Herausforderung zu"
+	cont "stellen!"
 	done
 
 VermilionCityOfficerFText:
 	text "Der Generator des"
 	line "KRAFTWERKS ist"
 
-	para "abgeschaltet,"
-	line "also"
+	para "abgeschaltet, also"
 	line "ist es nicht"
 	cont "sicher,"
 
-	para "die Kampffabrik"
-	line "zu öffnen."
+	para "die Kampffabrik zu"
+	line "öffnen."
 	done
 
 VermilionCityOfficerText:
 	text "Tut mir leid, die"
 	line "Kampffabrik ist"
 
-	para "geschlossen,"
-	line "bis das"
-	line "KRAFTWERK wieder"
-	cont "läuft."
+	para "geschlossen, bis"
+	line "das KRAFTWERK"
+	cont "wieder läuft."
 	done
 
 VermilionCitySailorText:
@@ -448,8 +437,7 @@ VermilionCityRadioNearSnorlaxText:
 	text "Der #COM wird"
 	line "in der Nähe des"
 	cont "schlafenden"
-	cont "RELAXOs"
-	cont "platziert…"
+	cont "RELAXOs platziert…"
 
 	para "…"
 
@@ -465,13 +453,11 @@ VermilionCityRadioNearSnorlaxText:
 VermilionCityBadgeGuyAllBadgesText:
 	text "Gratuliere!"
 
-	para "Du hast alle"
-	line "ORDEN"
+	para "Du hast alle ORDEN"
 	line "der ARENEN in"
 	cont "KANTO."
 
-	para "Ich habe hier"
-	line "eine"
+	para "Ich habe hier eine"
 	line "Belohnung für"
 	cont "deine"
 	cont "Anstrengungen."
@@ -499,8 +485,7 @@ VermilionGymSignText:
 	text "#mon-ARENA von"
 	line "ORANIA CITY"
 
-	para "LEITUNG: MAJOR"
-	line "BOB"
+	para "LEITUNG: MAJOR BOB"
 	line "Der Blitzschnelle"
 
 	para "Amerikaner"
@@ -545,9 +530,8 @@ VermilionCityPortSignText:
 VermilionCityAdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "Deine"
-	line "Trainerkarte hat"
-	cont "Platz für"
+	para "Deine Trainerkarte"
+	line "hat Platz für"
 	cont "sechzehn ORDEN!"
 	done
 

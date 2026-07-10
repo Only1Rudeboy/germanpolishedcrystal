@@ -4,8 +4,7 @@ BeverlyMadeMonEvenCuterText:
 	text_ram wStringBuffer4
 
 	para "verschönert und"
-	line "noch süßer"
-	cont "gemacht"
+	line "noch süßer gemacht"
 	cont "als vorher!"
 	done
 
@@ -15,14 +14,12 @@ BeverlyDefeatedMonText:
 	cont "Snubbull."
 
 	para "Mein Snubbull war"
-	line "viel süßer als"
-	cont "das"
+	line "viel süßer als das"
 	cont "wilde."
 	done
 
 BeverlyLostAMonText:
-	text "Ich sah ein"
-	line "wildes"
+	text "Ich sah ein wildes"
 	line "Marill… Oder"
 	cont "dachte"
 
@@ -31,16 +28,14 @@ BeverlyLostAMonText:
 
 	para ""
 	text_ram wStringBuffer4
-	text ". Ich"
-	line "war ziemlich"
-	cont "sauer."
+	text ". Ich war ziemlich"
+	line "sauer."
 	done
 
 BeverlyHangUpText:
 	text "Du kannst mit"
-	line "einem"
-	line "Anruf von mir"
-	cont "rechnen."
+	line "einem Anruf von"
+	cont "mir rechnen."
 	done
 
 BeverlyFoundItemText:
@@ -51,15 +46,12 @@ BeverlyFoundItemText:
 	line "kannst du eins"
 	cont "haben"
 
-	para "als Dank für"
-	line "deine"
-	line "Hilfe. Ich bin"
-	cont "auf"
+	para "als Dank für deine"
+	line "Hilfe. Ich bin auf"
 
 	para ""
 	text_ram wStringBuffer5
-	text "."
-	line "Komm vorbei!"
+	text ". Komm vorbei!"
 	done
 
 BeverlyLetsChatAboutMonAgainText:
@@ -72,8 +64,8 @@ BeverlyLetsChatAboutMonAgainText:
 	done
 
 BeverlyComePickUpText:
-	text "Bitte?"
-	line "Oh, das Nugget?"
+	text "Bitte? Oh, das"
+	line "Nugget?"
 
 	para "Keine Eile. Komm"
 	line "nach"

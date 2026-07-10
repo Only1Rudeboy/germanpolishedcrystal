@@ -185,8 +185,8 @@ CeladonGameCornerRichBoyTobin:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "Was schnüffelst"
-	line "du hier rum?"
+	text "Was schnüffelst du"
+	line "hier rum?"
 
 	para "Leg dich bloß"
 	line "nicht mit Team"
@@ -254,9 +254,9 @@ CeladonGameCornerReceptionistText:
 	done
 
 CeladonGameCornerPokefanMText:
-	text "Die Spiel-"
-	line "automaten sind"
-	cont "alle hochmodern."
+	text "Die Spielautomaten"
+	line "sind alle"
+	cont "hochmodern."
 	done
 
 CeladonGameCornerTeacherText:
@@ -272,8 +272,7 @@ CeladonGameCornerTeacherText:
 
 CeladonGameCornerFishingGuruText:
 	text "Ich glaub, dieser"
-	line "Automat zahlt"
-	cont "aus…"
+	line "Automat zahlt aus…"
 
 	para "Die Chancen"
 	line "variieren je"
@@ -288,8 +287,7 @@ CeladonGameCornerFisherText1:
 	cont "raus!"
 
 	para "Hm? Was, Kleiner?"
-	line "Willst du"
-	cont "spielen?"
+	line "Willst du spielen?"
 
 	para "Ich teil mein"
 	line "Glück mit dir!"
@@ -313,9 +311,8 @@ CeladonGameCornerFisherNoCoinCaseText:
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Hey, dein"
-	line "Münzkorb ist"
-	cont "voll, Kleiner."
+	text "Hey, dein Münzkorb"
+	line "ist voll, Kleiner."
 
 	para "Du hast wohl auch"
 	line "eine Glückssträhne"
@@ -339,21 +336,20 @@ FisherOfferText:
 	done
 
 FisherNotEnoughText:
-	text "Hey, dein"
-	line "Münzkorb ist fast"
-	cont "leer, Kleiner."
+	text "Hey, dein Münzkorb"
+	line "ist fast leer,"
+	cont "Kleiner."
 
-	para "Dein Glück"
-	line "scheint zu"
-	cont "versiegen."
+	para "Dein Glück scheint"
+	line "zu versiegen."
 	done
 
 CeladonGymGuyText:
 	text "Hey! Zukünftiger"
 	line "Champ!"
 
-	para "Spielst du auch"
-	line "an den Automaten?"
+	para "Spielst du auch an"
+	line "den Automaten?"
 
 	para "Ich versuch genug"
 	line "Münzen für ein"
@@ -390,9 +386,8 @@ CeladonGameCornerPosterScript:
 	end
 
 .AlreadyPushedText
-	text "Der Schalter"
-	line "wurde schon"
-	cont "gedrückt."
+	text "Der Schalter wurde"
+	line "schon gedrückt."
 	done
 
 .PushSwitchText

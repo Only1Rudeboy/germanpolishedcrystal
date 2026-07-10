@@ -5,35 +5,31 @@ GinaAskNumber1Text:
 	para "Anfeuerin sein."
 	line "Beim Spazieren"
 
-	para "finde ich"
-	line "manchmal"
+	para "finde ich manchmal"
 	line "Items. Wenn ich"
 	cont "was"
 
-	para "finde, bekommst"
-	line "du es! Gib mir"
-	cont "deine"
+	para "finde, bekommst du"
+	line "es! Gib mir deine"
 	cont "Nummer!"
 	done
 
 GinaAskNumber2Text:
 	text "Wenn ich was"
-	line "finde,"
-	line "bekommst du es!"
+	line "finde, bekommst du"
+	cont "es!"
 
 	para "Gib mir deine"
 	line "Nummer!"
 	done
 
 GinaNumberAcceptedText:
-	text "Ich ruf an,"
-	line "sobald"
+	text "Ich ruf an, sobald"
 	line "ich was habe!"
 	done
 
 GinaNumberDeclinedText:
-	text "Ach so? Ich"
-	line "feuere"
+	text "Ach so? Ich feuere"
 	line "dich trotzdem an!"
 	done
 
@@ -50,8 +46,7 @@ GinaRematchText:
 
 GinaGiftText:
 	text "Endlich bist du"
-	line "da!"
-	line "Das wird dir"
+	line "da! Das wird dir"
 	cont "gefallen."
 	done
 

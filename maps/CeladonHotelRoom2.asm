@@ -58,8 +58,8 @@ MrHyperScript:
 
 	para "Weil ich #mon"
 	line "beim Super-"
-	cont "Spezial-"
-	cont "training helfe!"
+	cont "Spezialtraining"
+	cont "helfe!"
 
 	para "Es lässt ein"
 	line "#mon, dessen"

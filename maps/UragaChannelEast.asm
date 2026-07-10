@@ -26,9 +26,9 @@ UragaChannelEast_MapScriptHeader:
 GenericTrainerSwimmerfWoda:
 	generictrainer SWIMMERF, WODA, EVENT_BEAT_SWIMMERF_WODA, .SeenText, .BeatenText
 
-	text "Die starken Strö-"
-	line "mungen hier sind"
-	cont "ideal zum"
+	text "Die starken"
+	line "Strömungen hier"
+	cont "sind ideal zum"
 	cont "Trainieren."
 	done
 
@@ -39,8 +39,7 @@ GenericTrainerSwimmerfWoda:
 
 .BeatenText:
 	text "Du brauchst kein"
-	line "weiteres"
-	cont "Training!"
+	line "weiteres Training!"
 	done
 
 GenericTrainerCooltrainermKieran:
@@ -49,9 +48,9 @@ GenericTrainerCooltrainermKieran:
 	text "Ich konnte mein"
 	line "#mon nicht"
 
-	para "auf Linie"
-	line "bringen. Ich muss"
-	cont "mich wieder"
+	para "auf Linie bringen."
+	line "Ich muss mich"
+	cont "wieder"
 	cont "fokussieren."
 	done
 
@@ -69,12 +68,12 @@ GenericTrainerBikerTyrone:
 
 	text "Ich bin beim"
 	line "Angeben auf der"
-	cont "RADWEG ins"
-	cont "Wasser gefallen."
+	cont "RADWEG ins Wasser"
+	cont "gefallen."
 
 	para "Dann haben mich"
-	line "starke Strö-"
-	cont "mungen hierher"
+	line "starke Strömungen"
+	cont "hierher"
 	cont "geschleppt."
 	done
 
@@ -91,8 +90,7 @@ UragaChannelSignText:
 	done
 
 ScaryCaveEastSignText:
-	text "Auf dem Schild"
-	line "ist"
+	text "Auf dem Schild ist"
 	line "Graffiti…"
 
 	para "“Diese Höhle ist"

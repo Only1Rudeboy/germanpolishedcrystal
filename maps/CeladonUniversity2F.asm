@@ -94,8 +94,8 @@ CeladonUniversity2FCooltrainerfScript:
 	done
 
 .Text4:
-	text "Vielen Dank!"
-	line "Hier, nimm das!"
+	text "Vielen Dank! Hier,"
+	line "nimm das!"
 	done
 
 .Text6:
@@ -175,13 +175,11 @@ CeladonUniversity2FPoolSignText:
 	done
 
 CeladonUniversity2FWillowsOfficeSignText:
-	text "Prof.Willows"
-	line "Büro"
+	text "Prof.Willows Büro"
 	done
 
 CeladonUniversity2FNursesOfficeSignText:
-	text "Schwestern-"
-	line "zimmer"
+	text "Schwesternzimmer"
 	done
 
 CeladonUniversity2FWestwoodsOfficeSignText:

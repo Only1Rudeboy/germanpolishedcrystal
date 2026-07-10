@@ -90,8 +90,7 @@ GenericTrainerSkierBecky:
 	done
 
 BoarderMaxSeenText:
-	text "Ebenholz City"
-	line "kann"
+	text "Ebenholz City kann"
 	line "nicht mehr weit"
 	cont "sein…"
 	done

@@ -30,7 +30,7 @@ Route49LadyText:
 
 	para "Valencia hat"
 	line "einzigartige"
-	line "Flora."
+	cont "Flora."
 	done
 
 Route49YoungsterText:
@@ -38,17 +38,17 @@ Route49YoungsterText:
 	line "fühlt sich an wie"
 
 	para "ein Abenteuer"
-	line "mitten"
-	line "im Dschungel!"
+	line "mitten im"
+	cont "Dschungel!"
 	done
 
 GenericTrainerSightseermHari:
 	generictrainer SIGHTSEERM, HARI, EVENT_BEAT_SIGHTSEERM_HARI, .SeenText, .BeatenText
 
-	text "Ich reise viel,"
-	line "um jeden"
-	line "#mon-Prof."
-	cont "zu treffen."
+	text "Ich reise viel, um"
+	line "jeden"
+	cont "#mon-Prof. zu"
+	cont "treffen."
 
 	para "Willst du meine"
 	line "Fotos sehen?"
@@ -61,8 +61,8 @@ GenericTrainerSightseermHari:
 	done
 
 .BeatenText:
-	text "Was? Du kennst"
-	line "sie schon?"
+	text "Was? Du kennst sie"
+	line "schon?"
 	done
 
 GenericTrainerTamerJordan:
@@ -78,9 +78,9 @@ GenericTrainerTamerJordan:
 	done
 
 .SeenText:
-	text "Vorsicht! #-"
-	line "mon hier können"
-	cont "echt wild sein!"
+	text "Vorsicht! #mon"
+	line "hier können echt"
+	cont "wild sein!"
 	done
 
 .BeatenText:
@@ -94,9 +94,8 @@ GenericTrainerAromaLadyPeony:
 	text "Meine Blubella"
 	line "liebt es hier auf"
 
-	para "dieser fried-"
-	line "lichen Insel"
-	line "zu leben."
+	para "dieser friedlichen"
+	line "Insel zu leben."
 	done
 
 .SeenText:
@@ -123,24 +122,23 @@ GenericTrainerGuitaristmGeddy:
 
 .SeenText:
 	text "Ich könnte mein"
-	line "Leben wohl"
-	cont "besser leben"
+	line "Leben wohl besser"
+	cont "leben"
 
 	para "als ich denke…"
 
 	para "Darum nennt man"
 	line "mich wohl…"
 
-	para "Man nennt mich"
-	line "den Arbeiter!"
+	para "Man nennt mich den"
+	line "Arbeiter!"
 	done
 
 .BeatenText:
 	text "Guter Kampf!"
 	line "Vielleicht"
-	cont "schrei-"
-	cont "be ich ein Lied"
-	cont "darüber."
+	cont "schreibe ich ein"
+	cont "Lied darüber."
 	done
 
 Route49SignText:

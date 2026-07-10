@@ -30,25 +30,22 @@ GoldenrodDeptStore2FClerk2Script:
 
 GoldenrodDeptStore2FYoungsterText:
 	text "Der #COM kann"
-	line "bis zu zehn Num-"
-	cont "mern speichern."
+	line "bis zu zehn"
+	cont "Nummern speichern."
 
 	para "Es ist schwer zu"
-	line "entscheiden, wel-"
-	cont "che Nummer man"
-	cont "be-"
-	cont "halten soll."
+	line "entscheiden,"
+	cont "welche Nummer man"
+	cont "behalten soll."
 	done
 
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "Ich habe mein"
-	line "ABRA"
+	text "Ich habe mein ABRA"
 	line "in der SPIELHALLE"
 
 	para "gewonnen. Jetzt"
-	line "ist es mein"
-	cont "bester"
+	line "ist es mein bester"
 
 	para "Partner."
 	done
@@ -62,18 +59,16 @@ GoldenrodDeptStore2FGentlemanText:
 	line "sehr große Stadt"
 	cont "ist."
 
-	para "Dieses Angebot"
-	line "ist"
+	para "Dieses Angebot ist"
 	line "unübertrefflich!"
 	done
 
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Ihr Reise-"
-	line "begleiter"
+	text "Ihr Reisebegleiter"
 
-	para "1S TRAINER-"
-	line "   MARKT"
+	para "1S TRAINER-   "
+	line "MARKT"
 	done
 
 

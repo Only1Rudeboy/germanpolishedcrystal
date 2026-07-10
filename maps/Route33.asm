@@ -134,17 +134,14 @@ TrainerSchoolgirlImogen:
 	jumpthistextfaceplayer
 
 	text "Ich strenge mich"
-	line "sehr an, damit"
-	cont "ich"
-	cont "der Star in"
-	cont "meiner Klasse"
-	cont "bin."
+	line "sehr an, damit ich"
+	cont "der Star in meiner"
+	cont "Klasse bin."
 	done
 HikerAnthony1SeenText:
 	text "Ich bin durch den"
 	line "Tunnel gegangen,"
-	cont "aber ich habe"
-	cont "noch"
+	cont "aber ich habe noch"
 
 	para "viel Energie"
 	line "übrig."
@@ -154,11 +151,9 @@ HikerAnthony1BeatenText:
 	line "Mumm als ich!"
 	done
 HikerAnthony1AfterText:
-	text "In den Bergen"
-	line "sind"
-	line "wir WANDERER"
-	cont "in unserem"
-	cont "Element."
+	text "In den Bergen sind"
+	line "wir WANDERER in"
+	cont "unserem Element."
 	done
 HikerAnthonyDunsparceText:
 	text "Heh, hast du ein"
@@ -177,12 +172,12 @@ HikerAnthonyDunsparceText:
 
 SchoolgirlImogenSeenText:
 	text "Ich bin der"
-	line "#mon-Experte"
-	cont "in meiner Klasse."
+	line "#mon-Experte in"
+	cont "meiner Klasse."
 	done
 SchoolgirlImogenBeatenText:
-	text "So there are bet-"
-	line "ter trainers…"
+	text "So there are"
+	line "better trainers…"
 	done
 
 Route33SignText:

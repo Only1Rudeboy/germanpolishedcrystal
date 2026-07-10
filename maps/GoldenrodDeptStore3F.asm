@@ -44,11 +44,10 @@ GoldenrodDeptStore3FRockerText:
 
 
 GoldenrodDeptStore3FDirectoryText:
-	text "Für Sieges-"
-	line "hungrige"
+	text "Für Siegeshungrige"
 
-	para "2S KAMPF-"
-	line "   KOLLEKTION"
+	para "2S KAMPF-   "
+	line "KOLLEKTION"
 	done
 
 

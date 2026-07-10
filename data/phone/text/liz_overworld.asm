@@ -5,8 +5,7 @@ LizAskNumber1Text:
 
 	para "Lass uns Freunde"
 	line "sein! Darf ich"
-	cont "deine"
-	cont "Nummer?"
+	cont "deine Nummer?"
 
 	para "Ich will alles"
 	line "hören, was du"
@@ -16,8 +15,7 @@ LizAskNumber1Text:
 LizAskNumber2Text:
 	text "Lass uns Freunde"
 	line "sein! Darf ich"
-	cont "deine"
-	cont "Nummer?"
+	cont "deine Nummer?"
 
 	para "Ich will alles"
 	line "hören, was du"
@@ -38,12 +36,11 @@ LizNumberDeclinedText:
 	done
 
 LizPhoneFullText:
-	text "Warte! Deine"
-	line "Liste"
+	text "Warte! Deine Liste"
 	line "ist voll!"
 	done
 
 LizRematchText:
-	text "Du bist spät!"
-	line "Los geht's!"
+	text "Du bist spät! Los"
+	line "geht's!"
 	done

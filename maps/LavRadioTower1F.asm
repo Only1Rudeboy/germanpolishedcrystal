@@ -47,8 +47,7 @@ LavRadioTower1FGentlemanScript:
 
 .GotExpnCardText:
 	text "Damit kannst du"
-	line "die"
-	cont "Radioprogramme"
+	line "die Radioprogramme"
 
 	para "in KANTO"
 	line "empfangen."
@@ -61,15 +60,13 @@ LavRadioTower1FGentlemanScript:
 	para "Wir sind nicht"
 	line "mehr auf Sendung,"
 
-	para "seit das"
-	line "KRAFTWERK"
+	para "seit das KRAFTWERK"
 	line "nicht mehr läuft."
 
 	para "Alle Bemühungen,"
 	line "diese Station zum"
 
-	para "Laufen zu"
-	line "bringen,"
+	para "Laufen zu bringen,"
 	line "sind vergebens,"
 	cont "wenn ich nichts"
 	cont "senden kann."
@@ -84,15 +81,12 @@ LavRadioTower1FGentlemanScript:
 	line "dem KRAFTWERK"
 	cont "gelöst?"
 
-	para "Dir habe ich es"
-	line "zu"
+	para "Dir habe ich es zu"
 	line "verdanken, dass"
 
 	para "ich nicht"
-	line "arbeits-"
-	line "los wurde! Du"
-	cont "bist"
-	cont "mein"
+	line "arbeitslos wurde!"
+	cont "Du bist mein"
 	cont "Lebensretter!"
 
 	para "Zum Dank gebe ich"
@@ -106,9 +100,8 @@ LavRadioTower1FSuperNerd2Script:
 	text "Hallo, mein"
 	line "Freund!"
 
-	para "Ich bin der"
-	line "tolle MUSIK-"
-	cont "REDAKTEUR!"
+	para "Ich bin der tolle"
+	line "MUSIK- REDAKTEUR!"
 
 	para "Häh? Dein #COM"
 	line "kann meine"
@@ -119,8 +112,8 @@ LavRadioTower1FSuperNerd2Script:
 
 	para "Mit einem"
 	line "ERWEITERUNGS-"
-	cont "MODUL könntest"
-	cont "du empfangen."
+	cont "MODUL könntest du"
+	cont "empfangen."
 
 	para "Besorg dir am"
 	line "besten eins!"
@@ -130,11 +123,11 @@ LavRadioTower1FSuperNerd2Script:
 
 
 LavRadioTower1FReceptionistText:
-	text "Willkommen!"
-	line "Schau dich auf"
+	text "Willkommen! Schau"
+	line "dich auf"
 
-	para "dieser Etage"
-	line "ruhig um."
+	para "dieser Etage ruhig"
+	line "um."
 	done
 
 
@@ -143,21 +136,19 @@ LavRadioTower1FReceptionistText:
 
 LavRadioTower1FOfficerText:
 	text "Du darfst leider"
-	line "nur das Erd-"
-	cont "geschoss"
+	line "nur das"
+	cont "Erdgeschoss"
 	cont "erkunden."
 
-	para "Seit der"
-	line "RADIOTURM"
-	line "in JOHTO von"
-	cont "einer"
+	para "Seit der RADIOTURM"
+	line "in JOHTO von einer"
 
 	para "Verbrechergang"
 	line "besetzt wurde,"
 
 	para "mussten wir"
 	line "unsere"
-	line "Sicherheitsmaß-"
+	cont "Sicherheitsmaß-"
 	cont "nahmen erhöhen."
 	done
 
@@ -167,14 +158,12 @@ LavRadioTower1FOfficerText:
 
 LavRadioTower1FSuperNerd1Text:
 	text "Viele Menschen"
-	line "arbeiten sehr"
-	cont "hart"
+	line "arbeiten sehr hart"
 	cont "im RADIOTURM."
 
 	para "Sie müssen ihr"
 	line "Bestes geben für"
-	cont "eine gute"
-	cont "Sendung."
+	cont "eine gute Sendung."
 	done
 
 
@@ -185,20 +174,19 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	text "Hallo, mein"
 	line "Freund!"
 
-	para "Ich bin der"
-	line "tolle MUSIK-"
-	cont "REDAKTEUR!"
+	para "Ich bin der tolle"
+	line "MUSIK- REDAKTEUR!"
 
-	para "Ich bin"
-	line "derjenige,"
-	line "der diese wunder-"
-	cont "vollen Melodien"
+	para "Ich bin derjenige,"
+	line "der diese"
+	cont "wundervollen"
+	cont "Melodien"
 
 	para "auf Sendung"
 	line "bringt."
 
-	para "Sei so frei"
-	line "und lausche der"
+	para "Sei so frei und"
+	line "lausche der"
 	cont "schönen Melodei!"
 	done
 
@@ -207,12 +195,11 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 
 
 LavRadioTower1FDirectoryText:
-	text "EG REZEPTION"
-	line "1S VERKAUF"
-	cont "2S PERSONAL"
-	cont "3S PRODUKTION"
-	cont "4S BÜRO DES"
-	cont "   INTENDANTEN"
+	text "EG REZEPTION 1S"
+	line "VERKAUF 2S"
+	cont "PERSONAL 3S"
+	cont "PRODUKTION 4S BÜRO"
+	cont "DES    INTENDANTEN"
 	done
 
 
@@ -221,13 +208,12 @@ LavRadioTower1FDirectoryText:
 
 LavRadioTower1FPokeFluteSignText:
 	text "Mach deine #mon"
-	line "mit den"
-	cont "Fröhlichen"
+	line "mit den Fröhlichen"
 
-	para "Melodien der #-"
-	line "FLOETE auf"
-	cont "PROGRAMM"
-	cont "20 wieder munter."
+	para "Melodien der"
+	line "#floete auf"
+	cont "PROGRAMM 20 wieder"
+	cont "munter."
 	done
 
 
@@ -238,8 +224,8 @@ LavRadioTower1FPokeFluteSignText:
 ; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
 	text "Wow! Ein ganzes"
-	line "Regal voller #-"
-	cont "MON CDs und"
+	line "Regal voller"
+	cont "#mon CDs und"
 	cont "Videos."
 
 	para "Das muss die"

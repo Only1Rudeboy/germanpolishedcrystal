@@ -364,18 +364,17 @@ PokemonJournalProfElmScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "#mon Prof.Lind!"
+	para "Spezial: #mon"
+	line "Prof.Lind!"
 
-	para "Prof.Lind war"
-	line "der"
-	line "beste Schüler"
-	cont "von Prof.Eich."
+	para "Prof.Lind war der"
+	line "beste Schüler von"
+	cont "Prof.Eich."
 
 	para "Man sagt, die"
 	line "beiden streiten"
-	cont "oft über For-"
-	cont "schung."
+	cont "oft über"
+	cont "Forschung."
 	done
 
 PlayersHousePC:
@@ -387,13 +386,11 @@ PlayersHousePC:
 	end
 
 InitialRadioText1:
-	text "PROF. EICHs #-"
-	line "MON-TALK!"
-	cont "Schalten"
-	cont "Sie auch das"
-	cont "nächste Mal"
-	cont "wieder"
-	cont "ein!"
+	text "PROF. EICHs"
+	line "#mon-TALK!"
+	cont "Schalten Sie auch"
+	cont "das nächste Mal"
+	cont "wieder ein!"
 	done
 InitialRadioText2:
 	text "#mon-PROGRAMM!"

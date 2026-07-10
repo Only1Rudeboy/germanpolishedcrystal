@@ -28,25 +28,25 @@ Route32RuinsOfAlphGateOfficerText:
 	para "Versuche, die"
 	line "schwenkbaren"
 
-	para "Steintafeln"
-	line "zu bewegen!"
+	para "Steintafeln zu"
+	line "bewegen!"
 	done
 
 
 Route32RuinsOfAlphGatePokefanMText:
-	text "Du untersuchst"
-	line "die RUINEN?"
+	text "Du untersuchst die"
+	line "RUINEN?"
 
 	para "Ich sehe einen"
-	line "Wissenschaftler"
-	cont "in spe."
+	line "Wissenschaftler in"
+	cont "spe."
 	done
 
 
 Route32RuinsOfAlphGateYoungsterText:
 	text "Auf den"
-	line "Steintafeln"
-	cont "sind Zeichnungen."
+	line "Steintafeln sind"
+	cont "Zeichnungen."
 
 	para "Ich versuchte, "
 	line "sie zu bewegen."

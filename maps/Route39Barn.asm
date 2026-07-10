@@ -194,17 +194,14 @@ Text_GaveSitrusBerry:
 
 Text_LittleHealthier:
 	text "MILTANK ist etwas"
-	line "gesünder"
-	cont "geworden!"
+	line "gesünder geworden!"
 	done
 Text_QuiteHealthy:
 	text "MILTANK ist viel"
-	line "gesünder"
-	cont "geworden!"
+	line "gesünder geworden!"
 	done
 Text_TotallyHealthy:
-	text "MILTANK ist"
-	line "völlig"
+	text "MILTANK ist völlig"
 	line "gesund geworden!"
 	done
 Text_NoBerries:

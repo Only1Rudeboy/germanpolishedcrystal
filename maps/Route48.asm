@@ -119,15 +119,14 @@ Route48JessieJamesSeenText:
 	cont "Wald lebt?"
 	cont "PIKACHU!"
 
-	para "Der Boss wird"
-	line "sich freuen, wenn"
+	para "Der Boss wird sich"
+	line "freuen, wenn"
 
 	para "wir ein starkes"
 	line "fangen!"
 
-	para "Gib auf, oder"
-	line "mach dich"
-	cont "kampfbereit!"
+	para "Gib auf, oder mach"
+	line "dich kampfbereit!"
 	done
 
 Route48JessieJamesBeatenText:
@@ -144,14 +143,14 @@ Archer2SeenText:
 	text "Du willst dich"
 	line "also wieder in"
 
-	para "Team Rockets"
-	line "Pläne einmischen."
+	para "Team Rockets Pläne"
+	line "einmischen."
 
 	para "Du mischst dich"
 	line "immer wieder ein,"
 
-	para "wo du nichts"
-	line "zu suchen hast."
+	para "wo du nichts zu"
+	line "suchen hast."
 
 	para "Wir verkaufen"
 	line "diese #mon,"
@@ -173,10 +172,8 @@ Archer2AfterText:
 	line "sich vorerst"
 	cont "zurück."
 
-	para "Unser anderer"
-	line "Plan"
-	line "läuft sowieso"
-	cont "gut…"
+	para "Unser anderer Plan"
+	line "läuft sowieso gut…"
 	done
 
 Route48NurseText1:
@@ -192,14 +189,12 @@ Route48NurseText1:
 	para "Vielen Dank!"
 
 	para "Deine #mon"
-	line "verdienen nach"
-	cont "all dem eine"
-	cont "Pause."
+	line "verdienen nach all"
+	cont "dem eine Pause."
 	done
 
 Route48NurseText2:
-	text "Ich entspanne"
-	line "mich"
+	text "Ich entspanne mich"
 	line "gern hier am Wald"
 
 	para "und schaue den"
@@ -215,6 +210,6 @@ Route48NurseText2:
 Route48YellowForestSignText:
 	text "ROUTE 48"
 
-	para "Norden:"
-	line "Gelber Wald"
+	para "Norden: Gelber"
+	line "Wald"
 	done

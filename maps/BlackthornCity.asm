@@ -73,9 +73,8 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "Haus des"
-	line "Attacken-"
-	cont "Verlerners"
+	text "Haus des Attacken-"
+	line "Verlerners"
 	done
 
 DragonDensSignText:
@@ -87,8 +86,8 @@ BlackthornCityTrainerTipsText:
 	text "Trainer-Tipps"
 
 	para "Ein #mon mit"
-	line "einer Prunus-"
-	cont "beere heilt sich"
+	line "einer Prunusbeere"
+	cont "heilt sich"
 
 	para "selbst von jedem"
 	line "Status-Problem."
@@ -137,8 +136,8 @@ SantosScript:
 
 	para "Es ist Samstag…"
 
-	para "Ich bin Santos"
-	line "vom Samstag…"
+	para "Ich bin Santos vom"
+	line "Samstag…"
 	done
 
 .GivesGiftText:
@@ -223,8 +222,8 @@ BlackthornBlackbeltScript:
 	text "Aroo! Stimmen in"
 	line "meinem Kopf!"
 
-	para "Hä? Ich hör ja"
-	line "nur Radio!"
+	para "Hä? Ich hör ja nur"
+	line "Radio!"
 	done
 
 BlackthornGramps1Text:
@@ -242,8 +241,8 @@ BlackthornGramps2Text:
 	line "erlaubt, erlaubt"
 	cont "es auch ihr"
 
-	para "Großvater--"
-	line "unser Meister."
+	para "Großvater-unser"
+	line "Meister."
 
 	para "Du darfst"
 	line "eintreten."
@@ -263,8 +262,7 @@ BlackthornYoungsterText:
 
 BlackthornCooltrainerF1Text:
 	text "Wow, du kamst"
-	line "durch den"
-	cont "Eispfad?"
+	line "durch den Eispfad?"
 
 	para "Du musst ein"
 	line "echter Ass-"
@@ -272,9 +270,9 @@ BlackthornCooltrainerF1Text:
 	done
 
 BlackthornCooltrainerF2Text:
-	text "Der Feen-Typ"
-	line "wurde erst"
-	cont "kürzlich entdeckt."
+	text "Der Feen-Typ wurde"
+	line "erst kürzlich"
+	cont "entdeckt."
 
 	para "Er schaltet"
 	line "Drachen-Typen"
@@ -283,8 +281,8 @@ BlackthornCooltrainerF2Text:
 
 BlackthornDragonTamer2Text:
 	text "Als unsere"
-	line "Arenaleiterin"
-	cont "noch ein junges"
+	line "Arenaleiterin noch"
+	cont "ein junges"
 
 	para "Mädchen war,"
 	line "trainierte sie"
@@ -295,8 +293,8 @@ BlackthornDragonTamer2Text:
 
 BlackthornDragonTamer3Text:
 	text "Ebenholz City ist"
-	line "die Heimat"
-	cont "vieler berühmter"
+	line "die Heimat vieler"
+	cont "berühmter"
 
 	para "Drachenbändiger,"
 	line "wie Siegfried."

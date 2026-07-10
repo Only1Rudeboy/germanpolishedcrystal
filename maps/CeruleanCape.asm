@@ -136,21 +136,20 @@ GenericTrainerSwimmermRomeo:
 	generictrainer SWIMMERM, ROMEO, EVENT_BEAT_SWIMMERM_ROMEO, .SeenText, .BeatenText
 
 	text "Ein guter"
-	line "Schwimm-"
-	line "er macht mich"
-	cont "noch keinen guten"
-	cont "Trainer…"
+	line "Schwimmer macht"
+	cont "mich noch keinen"
+	cont "guten Trainer…"
 	done
 
 .SeenText:
 	text "Bewundere meine"
-	line "Fitness! Mein"
-	cont "Sieg ist sicher!"
+	line "Fitness! Mein Sieg"
+	cont "ist sicher!"
 	done
 
 .BeatenText:
-	text "Ach! War das"
-	line "schon alles?"
+	text "Ach! War das schon"
+	line "alles?"
 	done
 
 TrainerSwimmermMalcolm:
@@ -170,8 +169,8 @@ TrainerSwimmermMalcolm:
 	text "Meine #mon und"
 	line "ich schwimmen"
 
-	para "zusammen, aber"
-	line "wir kämpfen auch!"
+	para "zusammen, aber wir"
+	line "kämpfen auch!"
 	done
 
 .BeatenText:
@@ -201,9 +200,8 @@ GenericTrainerSwimmermArmand:
 
 .BeatenText:
 	text "Die Gitarre"
-	line "brach-"
-	line "te mich aus dem"
-	cont "Takt!"
+	line "brachte mich aus"
+	cont "dem Takt!"
 	done
 
 GenericTrainerBeautyBridget:
@@ -218,15 +216,13 @@ GenericTrainerBeautyBridget:
 	done
 
 .SeenText:
-	text "Hey! Du ver-"
-	line "deckst meine"
-	cont "Aussicht!"
+	text "Hey! Du verdeckst"
+	line "meine Aussicht!"
 	done
 
 .BeatenText:
-	text "Ich wollte nur"
-	line "die Aussicht"
-	cont "genießen…"
+	text "Ich wollte nur die"
+	line "Aussicht genießen…"
 	done
 
 GenericTrainerBeautyVeronica:
@@ -236,8 +232,7 @@ GenericTrainerBeautyVeronica:
 	line "und ich sage dir,"
 	cont "wo du hin kannst!"
 
-	para "Vielleicht bin"
-	line "ich"
+	para "Vielleicht bin ich"
 	line "deshalb Single."
 	cont "…Haha!"
 	done
@@ -252,16 +247,15 @@ GenericTrainerBeautyVeronica:
 	done
 
 .BeatenText:
-	text "Kalt bleiben,"
-	line "dann bleibt das"
+	text "Kalt bleiben, dann"
+	line "bleibt das"
 	cont "Interesse, oder?"
 	done
 
 GenericTrainerGentlemanCamus:
 	generictrainer GENTLEMAN, CAMUS, EVENT_BEAT_GENTLEMAN_CAMUS, .SeenText, .BeatenText
 
-	text "Ich war einmal"
-	line "ein"
+	text "Ich war einmal ein"
 	line "talentierter"
 
 	para "Trainer, aber"
@@ -281,8 +275,8 @@ GenericTrainerGentlemanCamus:
 	done
 
 .BeatenText:
-	text "Was für ein"
-	line "wilder Kampf!"
+	text "Was für ein wilder"
+	line "Kampf!"
 	done
 
 GenericTrainerGentlemanGeoffrey:
@@ -303,9 +297,9 @@ GenericTrainerGentlemanGeoffrey:
 	done
 
 .BeatenText:
-	text "Trotz meines Al-"
-	line "ters bin ich noch"
-	cont "ein Anfänger."
+	text "Trotz meines"
+	line "Alters bin ich"
+	cont "noch ein Anfänger."
 	done
 
 GenericTrainerGuitaristfMorgan:
@@ -313,8 +307,8 @@ GenericTrainerGuitaristfMorgan:
 
 	text "Die Felsen am KAP"
 	line "machen es zum"
-	cont "perfekten Reso-"
-	cont "nanzkörper!"
+	cont "perfekten"
+	cont "Resonanzkörper!"
 	done
 
 .SeenText:
@@ -345,8 +339,8 @@ TrainerLadyJessica:
 	waitendtext
 
 .SeenText:
-	text "Ah! Du dort!"
-	line "Magst du mit mir"
+	text "Ah! Du dort! Magst"
+	line "du mit mir"
 	cont "kämpfen?"
 	done
 
@@ -359,20 +353,17 @@ TrainerLadyJessica:
 .AfterText1:
 	text "Ich muss mir ein"
 	line "stärkeres #mon"
-	cont "kaufen…"
-	cont "………………"
-	cont "Und ein neues"
-	cont "Kleid…"
+	cont "kaufen… ……………… Und"
+	cont "ein neues Kleid…"
 	done
 
 .AfterText2:
-	text "Warum bist du"
-	line "noch hier?"
+	text "Warum bist du noch"
+	line "hier?"
 
-	para "Hör auf, mich an-"
-	line "zustarren!"
-	cont "………………"
-	cont "Gruselig!"
+	para "Hör auf, mich"
+	line "anzustarren!"
+	cont "……………… Gruselig!"
 	done
 
 GenericTrainerFisherLeroy:
@@ -396,8 +387,8 @@ GenericTrainerFisherLeroy:
 	done
 
 .BeatenText:
-	text "Nichts klappt"
-	line "mehr für mich…"
+	text "Nichts klappt mehr"
+	line "für mich…"
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -437,13 +428,12 @@ Route25MistyDateText:
 	text "MISTY: Aww! Warum"
 	line "musst du jetzt"
 
-	para "auftauchen und"
-	line "uns"
+	para "auftauchen und uns"
 	line "stören?"
 
-	para "Weißt du, wie"
-	line "man Menschen wie"
-	cont "dich nennt?"
+	para "Weißt du, wie man"
+	line "Menschen wie dich"
+	cont "nennt?"
 
 	para "Plage! Du hast"
 	line "richtig gehört,"
@@ -456,10 +446,8 @@ Route25MistyDateText:
 	cont "das ARENA-ORDEN"
 	cont "aus JOHTO?"
 
-	para "Wenn du acht"
-	line "hast,"
-	line "musst du gut"
-	cont "sein."
+	para "Wenn du acht hast,"
+	line "musst du gut sein."
 
 	para "O.K. Komm in die"
 	line "PKMN-ARENA von"
@@ -469,14 +457,13 @@ Route25MistyDateText:
 	line "gegen dich zu"
 	cont "kämpfen."
 
-	para "Ich bin MISTY,"
-	line "die"
+	para "Ich bin MISTY, die"
 	line "ARENALEITERIN von"
 	cont "AZURIA CITY."
 	done
 BillsHouseSignText:
-	text "Meereshaus"
-	line "Bills Haus"
+	text "Meereshaus Bills"
+	line "Haus"
 	done
 
 CeruleanCapeSailboatText:

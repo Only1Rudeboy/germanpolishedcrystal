@@ -125,8 +125,7 @@ MystriStageBeatCynthiaScript:
 	para "Haben wir gerade"
 	line "den Moment"
 
-	para "miterlebt, als"
-	line "ein"
+	para "miterlebt, als ein"
 	line "Ei in diese Welt"
 	cont "kam?"
 
@@ -160,8 +159,7 @@ MystriStageCynthiaIntroText:
 
 	para "Und du?"
 
-	para "…Ich verstehe."
-	line "Die"
+	para "…Ich verstehe. Die"
 	line "Kraft der Unown"
 	cont "hat dich hierher"
 	cont "gebracht."
@@ -173,8 +171,7 @@ MystriStageCynthiaSpeechText:
 	cont "Ruinen."
 
 	para "Vor langer Zeit…"
-	line "kamen Menschen"
-	cont "aus"
+	line "kamen Menschen aus"
 
 	para "Sinnoh, meiner"
 	line "Heimatregion, um"
@@ -188,20 +185,18 @@ MystriStageCynthiaSpeechText:
 	cont "Traditionen zu"
 	cont "ehren."
 
-	para "Wir stehen auf"
-	line "der Mystri-"
-	cont "Bühne."
+	para "Wir stehen auf der"
+	line "Mystri- Bühne."
 
-	para "Früher feierte"
-	line "man hier mit"
-	cont "Musik"
-	cont "und Tanz."
+	para "Früher feierte man"
+	line "hier mit Musik und"
+	cont "Tanz."
 
 	para "Cynthia: Ich"
 	line "erforsche Mythen"
 
-	para "über alte Orte"
-	line "wie die Sinjoh-"
+	para "über alte Orte wie"
+	line "die Sinjoh-"
 	cont "Ruinen."
 
 	para "Einer behauptet,"
@@ -211,16 +206,16 @@ MystriStageCynthiaSpeechText:
 	line "Kraft der"
 	cont "Schöpfung."
 
-	para "Es heißt, wenn"
-	line "der Führer die"
+	para "Es heißt, wenn der"
+	line "Führer die"
 
 	para "Mystri-Bühne"
 	line "betritt…"
 	done
 
 MystriStageCynthiaLeadText2:
-	text "Cynthia: Was?"
-	line "Du hast diese"
+	text "Cynthia: Was? Du"
+	line "hast diese"
 
 	para "Phrase in den"
 	line "Alph-Ruinen"
@@ -236,8 +231,7 @@ MystriStageCynthiaLeadText2:
 
 MystriStageCynthiaIdeaText:
 	text "Cynthia: …Ich hab"
-	line "eine Idee. Nenn"
-	cont "es"
+	line "eine Idee. Nenn es"
 
 	para "Trainer-"
 	line "Intuition."
@@ -253,10 +247,9 @@ MystriStageCynthiaNotNowText:
 	text "Cynthia: Aber ich"
 	line "denke nicht, dass"
 
-	para "wir jetzt"
-	line "kämpfen sollten."
-	line "Du bist nicht"
-	cont "bereit."
+	para "wir jetzt kämpfen"
+	line "sollten. Du bist"
+	cont "nicht bereit."
 
 	para "Komm wieder, wenn"
 	line "du die TOP VIER"
@@ -276,8 +269,7 @@ MystriStageCynthiaNoText:
 	done
 
 MystriStageCynthiaYesText:
-	text "Cynthia: Bevor"
-	line "ich"
+	text "Cynthia: Bevor ich"
 	line "mein #mon"
 	cont "schicke,"
 
@@ -287,13 +279,11 @@ MystriStageCynthiaYesText:
 
 MystriStageCynthiaWinText:
 	text "Ich kann mich"
-	line "nicht"
-	line "erinnern, wann"
-	cont "ich"
+	line "nicht erinnern,"
+	cont "wann ich"
 
 	para "zuletzt so"
-	line "übertrumpft"
-	cont "wurde!"
+	line "übertrumpft wurde!"
 	done
 
 MystriStageCynthiaItemText:
@@ -313,26 +303,22 @@ MystriStageCynthiaItemText:
 	done
 
 MystriStageCynthiaAfterText:
-	text "Cynthia: Hat"
-	line "unser"
+	text "Cynthia: Hat unser"
 	line "Kampf die Mystri-"
-	cont "Bühne"
-	cont "beeinflusst?"
+	cont "Bühne beeinflusst?"
 	done
 
 
 MystriStageCynthiaFinalText:
 	text "Cynthia: Ein Ei"
-	line "ist"
-	line "die Wiege jedes"
-	cont "Lebewesens."
+	line "ist die Wiege"
+	cont "jedes Lebewesens."
 
 	para "Der Planet selbst"
 	line "ist gewissermaßen"
 	cont "ein Ei…"
 
-	para "Leben aus einem"
-	line "Ei"
+	para "Leben aus einem Ei"
 	line "wird einmal ein"
 
 	para "Ende finden… um"

@@ -232,21 +232,19 @@ GenericTrainerAceDuoThomandkae1:
 	generictrainer ACE_DUO, THOMANDKAE1, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae1SeenText, AceDuoThomandkae1BeatenText
 
 	text "Thom: Deine Kraft"
-	line "ist"
-	cont "unberechenbar!"
+	line "ist unberechenbar!"
 	done
 
 GenericTrainerAceDuoThomandkae2:
 	generictrainer ACE_DUO, THOMANDKAE2, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae2SeenText, AceDuoThomandkae2BeatenText
 
 	text "Kae: Ich dachte,"
-	line "du"
-	line "bist ein gewöhn-"
+	line "du bist ein"
+	cont "gewöhn-"
 
-	para "licher Einzel-"
-	line "trainer. Wie"
-	cont "falsch"
-	cont "lag ich!"
+	para "licher"
+	line "Einzeltrainer. Wie"
+	cont "falsch lag ich!"
 	done
 
 GenericTrainerCoupleDuffandeda1:
@@ -254,7 +252,7 @@ GenericTrainerCoupleDuffandeda1:
 
 	text "Duff: Danke für"
 	line "den"
-	line "beeindruckenden"
+	cont "beeindruckenden"
 	cont "Kampf!"
 	done
 
@@ -271,8 +269,8 @@ GenericTrainerCowgirlDaniela:
 
 	text "Hast du schon mal"
 	line "versucht, auf"
-	cont "einem"
-	cont "Tauros zu reiten?"
+	cont "einem Tauros zu"
+	cont "reiten?"
 	done
 
 GenericTrainerGruntF6:
@@ -304,8 +302,8 @@ GenericTrainerGruntM26:
 	done
 
 HikerDevinSeenText:
-	text "Kämpfe sind"
-	line "Kämpfe — los!"
+	text "Kämpfe sind Kämpfe"
+	line "— los!"
 	done
 
 HikerDevinBeatenText:
@@ -331,8 +329,7 @@ AceDuoThomandkae1SeenText:
 	line "eins ist zwei."
 
 	para "Aber wir beide"
-	line "zusammen sind"
-	cont "viel"
+	line "zusammen sind viel"
 	cont "stärker!"
 	done
 
@@ -343,10 +340,8 @@ AceDuoThomandkae1BeatenText:
 	done
 
 AceDuoThomandkae2SeenText:
-	text "Kae: Wir sind"
-	line "kein"
-	line "langweiliges"
-	cont "Paar!"
+	text "Kae: Wir sind kein"
+	line "langweiliges Paar!"
 	done
 
 AceDuoThomandkae2BeatenText:
@@ -363,25 +358,21 @@ CoupleDuffandeda1SeenText:
 	done
 
 CoupleDuffandeda1BeatenText:
-	text "Duff: Ich war"
-	line "kein"
+	text "Duff: Ich war kein"
 	line "Match für dich…"
 	done
 
 CoupleDuffandeda2SeenText:
-	text "Eda: Meine"
-	line "Gefühle"
+	text "Eda: Meine Gefühle"
 	line "für meinen Freund"
 
 	para "sind so weit und"
-	line "tief wie das"
-	cont "Meer."
+	line "tief wie das Meer."
 	done
 
 CoupleDuffandeda2BeatenText:
 	text "Eda: Du bist"
-	line "wirk-"
-	line "lich was"
+	line "wirklich was"
 	cont "Besonderes…"
 	done
 
@@ -397,8 +388,7 @@ CowgirlDanielaBeatenText:
 GruntF6SeenText:
 	text "Warum sollten wir"
 	line "#mon wie"
-	cont "normale"
-	cont "Trainer"
+	cont "normale Trainer"
 	cont "aufziehen?"
 
 	para "Wir sind Team"
@@ -410,16 +400,14 @@ GruntF6BeatenText:
 	done
 
 GruntM23SeenText:
-	text "Ach, willst du"
-	line "die"
-	line "niedlichen"
-	cont "kleinen"
+	text "Ach, willst du die"
+	line "niedlichen kleinen"
 	cont "#mon retten?"
 	done
 
 GruntM23BeatenText:
-	text "Ack!"
-	line "Du bist stark!"
+	text "Ack! Du bist"
+	line "stark!"
 	done
 
 GruntM26SeenText:
@@ -462,9 +450,8 @@ Route47AdvancedTipsSignText:
 	cont "Gebieten"
 
 	para "kennen eine"
-	line "Attacke,"
-	line "die nur dort"
-	cont "vorkommt!"
+	line "Attacke, die nur"
+	cont "dort vorkommt!"
 
 	para "Diese Attacken"
 	line "können aber nicht"

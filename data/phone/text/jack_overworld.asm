@@ -9,8 +9,7 @@ JackAskNumber1Text:
 	para "Ich ruf an bei"
 	line "guten Infos."
 
-	para "Gibst du mir"
-	line "deine"
+	para "Gibst du mir deine"
 	line "Nummer?"
 	done
 
@@ -21,8 +20,7 @@ JackAskNumber2Text:
 	para "Ich ruf an bei"
 	line "guten Infos."
 
-	para "Gibst du mir"
-	line "deine"
+	para "Gibst du mir deine"
 	line "Nummer?"
 	done
 
@@ -40,12 +38,10 @@ JackNumberDeclinedText:
 	done
 
 JackPhoneFullText:
-	text "Oh?"
-	line "Dein Telefon ist"
-	cont "voll."
+	text "Oh? Dein Telefon"
+	line "ist voll."
 
-	para "Meine Nummer"
-	line "passt"
+	para "Meine Nummer passt"
 	line "nicht rein."
 	done
 

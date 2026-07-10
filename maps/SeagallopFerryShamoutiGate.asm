@@ -119,8 +119,8 @@ SeagallopFerryShamoutiGateSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryShamoutiWhichIslandText:
-	text "Willkommen"
-	line "zurück! Wohin?"
+	text "Willkommen zurück!"
+	line "Wohin?"
 	done
 
 SeagallopFerryShamoutiToVermilionQuestionText:

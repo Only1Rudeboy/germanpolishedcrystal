@@ -36,38 +36,36 @@ GenericTrainerPokemaniacAndrew:
 	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, PokemaniacAndrewSeenText, PokemaniacAndrewBeatenText
 
 	text "Nur ich und meine"
-	line "#mon. Ich"
-	cont "bin"
+	line "#mon. Ich bin"
 	cont "überglücklich."
 	done
 PokemaniacAndrewSeenText:
 	text "Wer ist da?"
 
 	para "Lass mich und"
-	line "meine #mon"
-	cont "in Frieden!"
+	line "meine #mon in"
+	cont "Frieden!"
 	done
 PokemaniacAndrewBeatenText:
-	text "Verschwinde…"
-	line "Geh weg!!"
+	text "Verschwinde… Geh"
+	line "weg!!"
 	done
 GenericTrainerPokemaniacCalvin:
 	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, PokemaniacCalvinSeenText, PokemaniacCalvinBeatenText
 
 	text "Ich sollte meine"
-	line "Ergebnisse"
-	cont "sammeln"
+	line "Ergebnisse sammeln"
 	cont "und anschließend"
 	cont "veröffentlichen."
 
 	para "Vielleicht werde"
-	line "ich so berühmt"
-	cont "wie Prof.Lind."
+	line "ich so berühmt wie"
+	cont "Prof.Lind."
 	done
 PokemaniacCalvinSeenText:
 	text "Ich bin hierher"
-	line "gekommen, um"
-	cont "meine #mon-"
+	line "gekommen, um meine"
+	cont "#mon-"
 	cont "Forschungen"
 	cont "durchzuführen."
 
@@ -85,15 +83,14 @@ GenericTrainerHikerPhillip:
 	text "Ich bin lange"
 	line "herumgeirrt…"
 
-	para "Das hier macht"
-	line "mir"
+	para "Das hier macht mir"
 	line "nichts aus, aber"
 	cont "ich bin hungrig!"
 	done
 HikerPhillipSeenText:
 	text "Mir ist schon"
-	line "lange niemand"
-	cont "mehr begegnet."
+	line "lange niemand mehr"
+	cont "begegnet."
 
 	para "Hab keine Angst."
 	line "Lass uns kämpfen!"
@@ -108,15 +105,14 @@ GenericTrainerHikerLeonard:
 	line "unten."
 
 	para "Wenn du möchtest,"
-	line "kannst du bei"
-	cont "mir einziehen."
+	line "kannst du bei mir"
+	cont "einziehen."
 
 	para "Es ist noch"
 	line "genügend Platz."
 	done
 HikerLeonardSeenText:
-	text "Sieh mal einer"
-	line "an!"
+	text "Sieh mal einer an!"
 	line "Ein Besucher!"
 	done
 HikerLeonardBeatenText:
@@ -130,9 +126,9 @@ GenericTrainerFirebreatherJay:
 	line "Hut Feuer"
 	cont "gefangen."
 
-	para "Er sah aus wie"
-	line "ein Magmar… aber"
-	cont "tat weh!"
+	para "Er sah aus wie ein"
+	line "Magmar… aber tat"
+	cont "weh!"
 	done
 
 .SeenText:
@@ -143,8 +139,8 @@ GenericTrainerFirebreatherJay:
 	done
 
 .BeatenText:
-	text "Unser Feuer"
-	line "konnte dich nicht"
+	text "Unser Feuer konnte"
+	line "dich nicht"
 	cont "stoppen…"
 	done
 
@@ -165,9 +161,8 @@ GenericTrainerSuper_nerdRory:
 	done
 
 .BeatenText:
-	text "Vielleicht war"
-	line "ich etwas"
-	cont "daneben…"
+	text "Vielleicht war ich"
+	line "etwas daneben…"
 	done
 
 GenericTrainerRuin_maniacGlyn:

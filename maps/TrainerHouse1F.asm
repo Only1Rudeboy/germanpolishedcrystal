@@ -38,20 +38,17 @@ TrainerHouse1FReceptionistText:
 	line "die Besten der"
 
 	para "Besten antreten!"
-	line "Geh nur die"
-	cont "Treppe"
+	line "Geh nur die Treppe"
 	cont "hinunter."
 	done
 
 
 TrainerHouse1FCooltrainerMText:
 	text "VERTANIA CITY ist"
-	line "dem INDIGO"
-	cont "PLATEAU"
+	line "dem INDIGO PLATEAU"
 	cont "am nächsten."
 
-	para "Man hat diesen"
-	line "Ort"
+	para "Man hat diesen Ort"
 	line "erbaut, weil ihn"
 
 	para "so viele Trainer"
@@ -79,30 +76,26 @@ TrainerHouse1FYoungsterText:
 	text "Ich nehme an, du"
 	line "kannst nur dann"
 
-	para "CHAMP werden,"
-	line "wenn"
-	line "du viel herum-"
-	cont "kommst und so"
+	para "CHAMP werden, wenn"
+	line "du viel"
+	cont "herumkommst und so"
 
 	para "viele Kämpfe wie"
-	line "möglich"
-	cont "austrägst."
+	line "möglich austrägst."
 
 	para "Der CHAMP von"
-	line "ALABASTIA"
-	cont "bereiste"
+	line "ALABASTIA bereiste"
 
 	para "alle großen und"
-	line "kleinen Städte"
-	cont "in KANTO."
+	line "kleinen Städte in"
+	cont "KANTO."
 	done
 
 
 TrainerHouse1FGentlemanText:
-	text "Puh… Ich höre"
-	line "eine Zeit lang"
-	cont "auf"
-	cont "mit Kämpfen."
+	text "Puh… Ich höre eine"
+	line "Zeit lang auf mit"
+	cont "Kämpfen."
 	done
 
 
@@ -121,30 +114,28 @@ TrainerHouseSign1Text:
 
 TrainerHouseSign2Text:
 	text "Bei den"
-	line "Trainings-"
-	line "kämpfen gelten"
+	line "Trainingskämpfen"
+	cont "gelten"
 
 	para "keine Regeln oder"
 	line "Vorgaben. Wie bei"
 
 	para "den Feldkämpfen"
-	line "ist alles"
-	cont "erlaubt!"
+	line "ist alles erlaubt!"
 	done
 
 
 TrainerHouseIllegibleText:
-	text "…Was ist das?"
-	line "Eine strategische"
+	text "…Was ist das? Eine"
+	line "strategische"
 	cont "Notiz?"
 
 	para "Dieses Schrift-"
 	line "stück sieht aus"
 
-	para "wie die Spur"
-	line "eines"
-	line "ONIX…"
-	cont "Völlig unlesbar…"
+	para "wie die Spur eines"
+	line "ONIX… Völlig"
+	cont "unlesbar…"
 	done
 
 

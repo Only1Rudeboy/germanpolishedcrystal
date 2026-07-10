@@ -6,8 +6,8 @@ BethExhilaratingRideText:
 
 	para ""
 	text_ram wStringBuffer4
-	text " rennt"
-	line "sehr schnell."
+	text " rennt sehr"
+	line "schnell."
 
 	para "Auf seinem Rücken"
 	line "zu reiten ist ein"
@@ -23,8 +23,7 @@ BethDefeatedMonText:
 	para "Ich hab eins"
 	line "besiegt… Es war"
 
-	para "viel schneller"
-	line "als"
+	para "viel schneller als"
 	line "erwartet. Ich war"
 
 	para "etwas schockiert."
@@ -54,8 +53,7 @@ BethLostAMonText:
 	done
 
 BethBattleRematchText:
-	text "Willst du"
-	line "kämpfen?"
+	text "Willst du kämpfen?"
 	line "Diesmal gewinne"
 	cont "ich!"
 
@@ -77,14 +75,13 @@ BethLetsBattleAgainSometimeText:
 	done
 
 BethReminderText:
-	text "Ähm… <PLAYER>?"
-	line "Was ist los?"
+	text "Ähm… <PLAYER>? Was"
+	line "ist los?"
 
 	para "Hast du unseren"
 	line "Deal vergessen?"
 
 	para ""
 	text_ram wStringBuffer5
-	text "."
-	line "Da warte ich."
+	text ". Da warte ich."
 	done

@@ -61,12 +61,11 @@ NewGamePlus:
 	para "Geld, deine"
 	line "Kampfpunkte und"
 
-	para "alle #mon im"
-	line "PC gespeichert!"
+	para "alle #mon im PC"
+	line "gespeichert!"
 
 	para "Willst du wirklich"
-	line "New Game+"
-	cont "starten?"
+	line "New Game+ starten?"
 	done
 
 NewGame:

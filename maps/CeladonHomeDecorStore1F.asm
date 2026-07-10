@@ -134,8 +134,7 @@ CeladonHomeDecorStore1FReceptionistText:
 	line "Kaufhauses!"
 
 	para "Die Übersicht"
-	line "hängt an der"
-	cont "Wand."
+	line "hängt an der Wand."
 	done
 
 CeladonHomeDecorStore1FClerkText:
@@ -153,8 +152,8 @@ BoughtBulbasaurDollText:
 	done
 
 BulbasaurDollSentText:
-	text "Bisasam-Puppe"
-	line "kam nach Hause."
+	text "Bisasam-Puppe kam"
+	line "nach Hause."
 	done
 
 BoughtCharmanderDollText:
@@ -163,8 +162,8 @@ BoughtCharmanderDollText:
 	done
 
 CharmanderDollSentText:
-	text "Glumanda-Puppe"
-	line "kam nach Hause."
+	text "Glumanda-Puppe kam"
+	line "nach Hause."
 	done
 
 BoughtSquirtleDollText:
@@ -173,18 +172,17 @@ BoughtSquirtleDollText:
 	done
 
 SquirtleDollSentText:
-	text "Schiggy-Puppe"
-	line "kam nach Hause."
+	text "Schiggy-Puppe kam"
+	line "nach Hause."
 	done
 
 CeladonHomeDecorStore1FNoMoneyText:
-	text "Das kannst du"
-	line "dir nicht leisten!"
+	text "Das kannst du dir"
+	line "nicht leisten!"
 	done
 
 CeladonHomeDecorStore1FAlreadyBoughtText:
-	text "Das hast du"
-	line "schon!"
+	text "Das hast du schon!"
 	done
 
 CeladonHomeDecorStore1FCooltrainerfText:

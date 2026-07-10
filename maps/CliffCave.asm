@@ -31,8 +31,7 @@ GenericTrainerGruntM22:
 
 GruntM22SeenText:
 	text "Hey! Du bist an"
-	line "den Wachen"
-	cont "vorbei!"
+	line "den Wachen vorbei!"
 	done
 
 GruntM22BeatenText:
@@ -40,8 +39,7 @@ GruntM22BeatenText:
 	done
 
 CliffCaveRocketText:
-	text "Lauf nicht"
-	line "einfach herum"
-	cont "einer TEAM"
+	text "Lauf nicht einfach"
+	line "herum einer TEAM"
 	cont "ROCKET-Aktion!"
 	done

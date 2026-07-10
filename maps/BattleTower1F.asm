@@ -65,9 +65,9 @@ BattleTower1FContinueChallenge:
 .LeftWithoutSaving2:
 	opentext
 	writethistext
-		text "Entschuldige!"
-		line "Du hast nicht vor"
-		cont "dem Verlassen des"
+		text "Entschuldige! Du"
+		line "hast nicht vor dem"
+		cont "Verlassen des"
 
 		para "Kampfraums"
 		line "gespeichert."
@@ -147,8 +147,7 @@ BattleTower1FRulesScript:
 BattleTower1FStreakText:
 	text "Serie: "
 	text_decimal wBattleTowerCurStreak, 2, 5
-	text " Siege"
-	line "Rekord: "
+	text " Siege Rekord: "
 	text_decimal wBattleTowerTopStreak, 2, 5
 	text " Siege"
 	done
@@ -170,8 +169,8 @@ BattleTower1FReceptionistScript:
 	setevent EVENT_BATTLE_TOWER_INTRO
 	writethistext
 		text "Möchtest du mehr"
-		line "über den"
-		cont "Kampfturm hören?"
+		line "über den Kampfturm"
+		cont "hören?"
 		done
 	yesorno
 	iffalsefwd .BattleTowerMenu
@@ -216,8 +215,8 @@ BattleTower1FReceptionistScript:
 	; Setscene here in case the player aborted a quicksave prompted by challenge
 	setscene SCENE_BATTLETOWER1F_NOOP
 	writethistext
-		text "Willst du in"
-		line "einen Kampfraum?"
+		text "Willst du in einen"
+		line "Kampfraum?"
 		done
 	loadmenu MenuDataHeader_BattleInfoCancel
 	verticalmenu
@@ -238,8 +237,8 @@ BattleTower1FReceptionistScript:
 	special Special_BattleTower_SelectParticipants
 	iffalse .BattleTowerMenu
 	writethistext
-		text "Bevor du"
-		line "den Kampfraum"
+		text "Bevor du den"
+		line "Kampfraum"
 		cont "betrittst,"
 
 		para "wird dein"
@@ -328,9 +327,9 @@ BattleTowerPharmacistScript:
 	setevent EVENT_LISTENED_TO_TRICK_INTRO
 BattleTowerTutorTrickScript:
 	writethistext
-		text "Ich bringe"
-		line "deinem #mon"
-		cont "Täuscher bei…"
+		text "Ich bringe deinem"
+		line "#mon Täuscher"
+		cont "bei…"
 
 		para "für ein"
 		line "Silberblatt."
@@ -412,8 +411,7 @@ PokemonJournalPalmerScript:
 	text "#mon-Journal"
 
 	para "Spezialthema:"
-	line "Turm-Ass"
-	cont "Palmer!"
+	line "Turm-Ass Palmer!"
 
 	para "Palmer soll einen"
 	line "Sohn in der"

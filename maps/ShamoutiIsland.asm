@@ -112,8 +112,7 @@ ShamoutiIslandWilhomenaScript:
 	done
 
 .Text1:
-	text "Hallo wieder!"
-	line "Nimm"
+	text "Hallo wieder! Nimm"
 	line "dieses Andenken."
 	done
 

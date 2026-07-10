@@ -3,8 +3,7 @@ IrwinHangUpText:
 	line "auflegen zu"
 	cont "müssen!"
 
-	para "Ich ruf später"
-	line "an!"
+	para "Ich ruf später an!"
 	done
 
 IrwinRocketTakeoverRumorText:
@@ -13,11 +12,10 @@ IrwinRocketTakeoverRumorText:
 
 	para "Dukatias Funkturm"
 	line "wurde von Team"
-	cont "Rocket"
-	cont "übernommen!"
+	cont "Rocket übernommen!"
 
-	para "…Ähm… Was ist"
-	line "Team Rocket?"
+	para "…Ähm… Was ist Team"
+	line "Rocket?"
 	done
 
 IrwinPlainBadgeGossipText:
@@ -79,30 +77,25 @@ IrwinRisingBadgeGossipText:
 	para "Du gingst in die"
 	line "Drachenhöhle!"
 
-	para "Du hast"
-	line "bestanden!"
+	para "Du hast bestanden!"
 	line "Kein Grund,"
-	cont "beschei-"
-	cont "den zu sein!"
+	cont "bescheiden zu"
+	cont "sein!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Gestern war ich"
-	line "in"
+	text "Gestern war ich in"
 	line "Neuborkia. Da war"
 
-	para "eine Dame, die"
-	line "dir"
+	para "eine Dame, die dir"
 	line "ähnlich sah,"
 	cont "<PLAYER>."
 
-	para "Was? Das war"
-	line "deine"
+	para "Was? Das war deine"
 	line "Mama?"
 
 	para "Ich hätte mich"
-	line "vorstellen"
-	cont "sollen!"
+	line "vorstellen sollen!"
 
 	para "Deine Mama ist"
 	line "sicher stolz auf"
@@ -122,8 +115,7 @@ IrwinVermilionCityGossipText:
 	para "Du gingst auf ein"
 	line "Schiff, <PLAYER>!"
 
-	para "Du siehst toll"
-	line "aus"
+	para "Du siehst toll aus"
 	line "vor dem Meer!"
 	done
 
@@ -133,21 +125,18 @@ IrwinTrainPassGossipText:
 	para "Du hast eine"
 	line "Magnetbahn-Karte!"
 
-	para "Als du aufs"
-	line "Schiff"
+	para "Als du aufs Schiff"
 	line "gingst, war ich"
 
 	para "traurig, dich"
-	line "nicht"
-	line "mehr zu sehen."
+	line "nicht mehr zu"
+	cont "sehen."
 
 	para "Mit der Karte"
 	line "kannst du"
-	cont "jederzeit"
-	cont "zurück!"
+	cont "jederzeit zurück!"
 
-	para "Was? Du kannst"
-	line "mit"
+	para "Was? Du kannst mit"
 	line "Fly zurück? Was"
 	cont "ist Fly?"
 	done
@@ -162,19 +151,16 @@ IrwinSnorlaxGossipText:
 	line "weitem zu. Was"
 	cont "hast"
 
-	para "du gemacht?"
-	line "Eine Flöte? Wie"
-	cont "Magie!"
+	para "du gemacht? Eine"
+	line "Flöte? Wie Magie!"
 	done
 
 IrwinMtSilverGossipText:
 	text "Ich höre Gerüchte"
-	line "über dich"
-	cont "überall."
+	line "über dich überall."
 
 	para "Das macht mich"
-	line "seufzen,"
-	cont "<PLAYER>."
+	line "seufzen, <PLAYER>."
 
 	para "Wie wurdest du so"
 	line "stark?"
@@ -206,9 +192,8 @@ IrwinFogBadgeGossipText:
 	line "war an der Arena,"
 
 	para "um dich"
-	line "anzufeuern."
-	line "Aber alle"
-	cont "schwebten"
+	line "anzufeuern. Aber"
+	cont "alle schwebten"
 
 	para "und Geister waren"
 	line "überall! Ich bin"
@@ -220,8 +205,7 @@ IrwinMarshBadgeGossipText:
 	text "<PLAYER>, ich"
 	line "hörte!"
 
-	para "Du machst in"
-	line "Kanto"
+	para "Du machst in Kanto"
 	line "ordentlich Ärger!"
 
 	para "Was für ein"
@@ -232,16 +216,14 @@ IrwinMarshBadgeGossipText:
 
 IrwinYourEscapadesRockText:
 	text "Von deinen"
-	line "Abenteu-"
-	line "ern zu hören"
-	cont "rockt"
-	cont "meine Seele!"
+	line "Abenteuern zu"
+	cont "hören rockt meine"
+	cont "Seele!"
 	done
 
 IrwinGoodMatchText:
 	text "Ich freu mich,"
-	line "dass"
-	line "du angerufen"
+	line "dass du angerufen"
 	cont "hast!"
 
 	para "Ich wollte dich"
@@ -254,8 +236,8 @@ IrwinGoodMatchText:
 IrwinSoMuchToChatAboutText:
 	text "Wie geht's?"
 
-	para "Was machst du?"
-	line "Wo bist du?"
+	para "Was machst du? Wo"
+	line "bist du?"
 
 	para "Wie viele Orden?"
 	line "Wie viel Geld?"

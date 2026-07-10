@@ -53,11 +53,10 @@ GoldenRodDeptStoreUnblockCallback:
 	endcallback
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hey! Du"
-	line "hältst uns auf!"
+	text "Hey! Du hältst uns"
+	line "auf!"
 
-	para "Wir arbeiten"
-	line "stets"
+	para "Wir arbeiten stets"
 	line "im Hintergrund,"
 
 	para "damit uns niemand"
@@ -71,17 +70,16 @@ GoldenrodDeptStoreB1FBlackBelt2Text:
 	cont "wenn mir jemand"
 	cont "zusieht."
 
-	para "Hey, Gnom,"
-	line "zisch ab!"
+	para "Hey, Gnom, zisch"
+	line "ab!"
 	done
 
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
 	text "Oohah! Oohah!"
 
-	para "Das Zeug am"
-	line "Boden ist"
-	cont "Plunder."
+	para "Das Zeug am Boden"
+	line "ist Plunder."
 
 	para "Nimm es dir, wenn"
 	line "du möchtest!"

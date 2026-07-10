@@ -22,14 +22,11 @@ VioletKylesHousePokefanMText:
 	cont "wird schneller"
 	cont "wachsen."
 
-	para "Aber wenn du"
-	line "nicht"
+	para "Aber wenn du nicht"
 	line "im Besitz des"
-	cont "pas-"
-	cont "senden ORDENs"
+	cont "passenden ORDENs"
 
 	para "bist, gehorchen"
-	line "sie dir"
-	cont "vielleicht"
+	line "sie dir vielleicht"
 	cont "nicht."
 	done

@@ -67,8 +67,8 @@ CeladonMansionRoofHousePharmacistScript:
 	line "Fahrrad schenkte…"
 
 	para "Er wollte es"
-	line "sofort ausprobie-"
-	cont "ren…"
+	line "sofort"
+	cont "ausprobieren…"
 
 	para "Er hatte so viel"
 	line "Spaß, dass er"
@@ -105,11 +105,11 @@ CeladonMansionRoofHousePharmacistScript:
 	para "Der Junge fuhr den"
 	line "Radweg bergauf!"
 
-	para "…"
-	line "Bum-bum, bum-bum!"
+	para "… Bum-bum,"
+	line "bum-bum!"
 
 	para "Weil du so"
-	line "geduldig"
-	cont "zugehört hast,"
-	cont "nimm dies--TM03!"
+	line "geduldig zugehört"
+	cont "hast, nimm"
+	cont "dies--TM03!"
 	done

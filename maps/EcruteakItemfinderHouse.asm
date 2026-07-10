@@ -34,33 +34,29 @@ ItemfinderExplanationText:
 	text "Manchmal liegen"
 	line "Items herum, die"
 
-	para "man leicht über-"
-	line "sieht."
+	para "man leicht"
+	line "übersieht."
 
-	para "Setze den"
-	line "DETEKTOR"
+	para "Setze den DETEKTOR"
 	line "ein, um Items"
-	cont "auf-"
-	cont "zuspüren, die"
+	cont "aufzuspüren, die"
 	cont "sich"
 
 	para "in der Nähe"
-	line "befin-"
-	line "den."
+	line "befinden."
 
 	para "Den exakten Fund-"
 	line "ort musst du aber"
 
-	para "selbst herausfin-"
-	line "den."
+	para "selbst"
+	line "herausfinden."
 
 	para "Ich hörte auch,"
 	line "dass in der TURM-"
 	cont "RUINE von TEAK"
 
 	para "CITY Items zu"
-	line "fin-"
-	line "den wären."
+	line "finden wären."
 	done
 
 
@@ -74,8 +70,8 @@ EcruteakHistoryBook:
 	iffalse_endtext
 	jumpthisopenedtext
 
-	text "TEAK CITY war"
-	line "auch die Heimat"
+	text "TEAK CITY war auch"
+	line "die Heimat"
 
 	para "dreier #mon,"
 	line "die durch die"
@@ -84,9 +80,8 @@ EcruteakHistoryBook:
 	para "Man sagt, sie"
 	line "wurden aus"
 
-	para "Wasser, Blitz"
-	line "und Feuer"
-	cont "geboren."
+	para "Wasser, Blitz und"
+	line "Feuer geboren."
 
 	para "Doch sie konnten"
 	line "ihre gewaltige"
@@ -108,22 +103,19 @@ EcruteakItemfinderAdventureText:
 	cont "nach Abenteuern?"
 
 	para "Was wäre ein"
-	line "Aben-"
-	line "teuer ohne eine"
-	cont "Schatzsuche?"
+	line "Abenteuer ohne"
+	cont "eine Schatzsuche?"
 
-	para "Hab ich Recht"
-	line "oder"
+	para "Hab ich Recht oder"
 	line "hab ich Recht?"
 	done
 
 
 EcruteakItemfinderTrueSpiritText:
-	text "Gut! Du trägst"
-	line "den"
+	text "Gut! Du trägst den"
 	line "wahren"
-	cont "Abenteurer-"
-	cont "geist in dir."
+	cont "Abenteurergeist in"
+	cont "dir."
 
 	para "Das mag ich! Nimm"
 	line "dies mit dir."
@@ -148,19 +140,18 @@ EcruteakTwoTowersText:
 	text "In TEAK CITY gab"
 	line "es zwei Türme."
 
-	para "Jeder Turm war"
-	line "das"
+	para "Jeder Turm war das"
 	line "Zuhause mächtiger"
-	cont "fliegender #-"
-	cont "MON."
+	cont "fliegender"
+	cont "#mon."
 
 	para "Doch einer der"
 	line "Türme brannte ab."
 
 	para "Die beiden #mon"
 	line "wurden seitdem"
-	cont "nicht mehr gese-"
-	cont "hen…"
+	cont "nicht mehr"
+	cont "gesehen…"
 
 	para "Weiterlesen?"
 	done

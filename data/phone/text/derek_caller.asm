@@ -23,8 +23,7 @@ DerekDefeatedMonText:
 
 	para "Ein wildes "
 	text_ram wStringBuffer4
-	text ","
-	line "wirklich!"
+	text ", wirklich!"
 
 	para "Ist das nicht"
 	line "unglaublich?"
@@ -40,8 +39,7 @@ DerekLostAMonText:
 	text "."
 
 	para "Aber es war nicht"
-	line "süß, also ließ"
-	cont "ich"
+	line "süß, also ließ ich"
 
 	para "es… #mon müssen"
 	line "süß sein!"
@@ -54,8 +52,8 @@ DerekHangUpText:
 
 DerekBugCatchingContestText:
 	text "Hast du's"
-	line "vergessen?"
-	line "Heute ist das"
+	line "vergessen? Heute"
+	cont "ist das"
 	cont "Käferturnier."
 
 	para "Du kommst doch?"
@@ -67,12 +65,11 @@ DerekBugCatchingContestText:
 	done
 
 DerekFoundItemText:
-	text "Ich möchte dir"
-	line "ein"
+	text "Ich möchte dir ein"
 	line "Nugget geben."
 
-	para "Mein Pikachu"
-	line "liebt es."
+	para "Mein Pikachu liebt"
+	line "es."
 
 	para "Dein Pikachu wird"
 	line "es auch lieben!"

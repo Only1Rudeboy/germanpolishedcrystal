@@ -5,9 +5,8 @@ NurseMornText:
 	done
 
 NurseDayText:
-	text "Hallo!"
-	line "Willkommen im"
-	cont "#mon-Center."
+	text "Hallo! Willkommen"
+	line "im #mon-Center."
 	done
 
 NurseEveText:
@@ -17,8 +16,8 @@ NurseEveText:
 	done
 
 NurseNiteText:
-	text "Guten Abend!"
-	line "Du bist spät dran."
+	text "Guten Abend! Du"
+	line "bist spät dran."
 
 	para "Willkommen im"
 	line "#mon-Center."
@@ -80,8 +79,8 @@ NurseTrainerStarText:
 	para "Di-dieser"
 	line "Trainerausweis!"
 
-	para "Diese tolle"
-	line "Farbe! Und dieser"
+	para "Diese tolle Farbe!"
+	line "Und dieser"
 	cont "glänzende Stern!"
 
 	para "Du bist ein"
@@ -108,8 +107,7 @@ NurseTakePokemonText:
 	done
 
 NurseReturnPokemonText:
-	text "Danke fürs"
-	line "Warten."
+	text "Danke fürs Warten."
 
 	para "Deine #mon sind"
 	line "vollständig"
@@ -125,8 +123,8 @@ NursePokerusText:
 	text "Deine #mon"
 	line "scheinen von"
 
-	para "winzigen Lebe-"
-	line "wesen befallen."
+	para "winzigen Lebewesen"
+	line "befallen."
 
 	para "Deine #mon sind"
 	line "gesund und"
@@ -143,8 +141,8 @@ PokeComNursePokerusText:
 	text "Deine #mon"
 	line "scheinen von"
 
-	para "winzigen Lebe-"
-	line "wesen befallen."
+	para "winzigen Lebewesen"
+	line "befallen."
 
 	para "Deine #mon sind"
 	line "gesund und"
@@ -188,8 +186,7 @@ TeamRocketOathText:
 	done
 
 IncenseBurnerText:
-	text "Ein Räucher-"
-	line "gefäß!"
+	text "Ein Räuchergefäß!"
 	done
 
 MerchandiseShelfText:
@@ -259,8 +256,7 @@ ContestResults_ReadyToJudgeText:
 	line "die #mon, die"
 	cont "du gefangen hast."
 
-	para "……"
-	line "……"
+	para "…… ……"
 
 	para "Wir haben die"
 	line "Sieger gewählt!"
@@ -270,8 +266,7 @@ ContestResults_ReadyToJudgeText:
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>,"
-	line "Platz "
+	text "<PLAYER>, Platz "
 	text_ram wStringBuffer3
 	cont "gewinnt"
 	cont ""
@@ -328,20 +323,18 @@ GymStatue_WinningTrainersText:
 
 GymStatue_TwoWinningTrainersText:
 	text "Siegertrainer:"
-	line "<RIVAL>"
-	cont "<PLAYER>"
+	line "<RIVAL> <PLAYER>"
 	done
 
 GymStatue_ThreeWinningTrainersText:
 	text "Siegertrainer:"
-	line "<RIVAL>"
-	cont "<PLAYER>"
+	line "<RIVAL> <PLAYER>"
 	cont "Lyra"
 	done
 
 CoinVendor_WelcomeText:
-	text "Willkommen im"
-	line "Game Corner."
+	text "Willkommen im Game"
+	line "Corner."
 	done
 
 CoinVendor_NoCoinCaseText:
@@ -363,8 +356,8 @@ CoinVendor_IntroText:
 	done
 
 CoinVendor_Buy50CoinsText:
-	text "Danke!"
-	line "Hier: 50 Münzen."
+	text "Danke! Hier: 50"
+	line "Münzen."
 	done
 
 CoinVendor_Buy500CoinsText:

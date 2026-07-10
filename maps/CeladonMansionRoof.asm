@@ -34,6 +34,6 @@ CeladonMansionRoofFisherText:
 	para "Ich würd sagen,"
 	line "nur Rauch liebt"
 
-	para "Höhen genauso"
-	line "sehr wie ich!"
+	para "Höhen genauso sehr"
+	line "wie ich!"
 	done

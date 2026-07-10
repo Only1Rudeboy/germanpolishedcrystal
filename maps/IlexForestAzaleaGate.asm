@@ -55,13 +55,12 @@ ProfOaksAide1Script:
 	jumpthisopenedtext
 
 	text "Ach! Du hast"
-	line "keinen"
-	line "Platz dafür."
+	line "keinen Platz"
+	cont "dafür."
 	done
 
 IlexForestAzaleaGateOfficerText:
-	text "Vorsicht!"
-	line "Verlaufe"
+	text "Vorsicht! Verlaufe"
 	line "dich nicht! Der"
 	cont "STEINEICHENWALD"
 	cont "ist groß."
@@ -100,16 +99,15 @@ ProfOaksAide1HiText:
 	line "Item geben."
 
 	para "Also, <PLAYER>,"
-	line "hast du"
-	cont "mindestens"
+	line "hast du mindestens"
 
 	para "15 #mon-Arten"
 	line "gefangen?"
 	done
 
 ProfOaksAide1UhOhText:
-	text "Mal sehen…"
-	line "Oh! Du hast nur"
+	text "Mal sehen… Oh! Du"
+	line "hast nur"
 
 	para ""
 	text_decimal wTempDexOwn, 2, 3
@@ -122,8 +120,8 @@ ProfOaksAide1UhOhText:
 	done
 
 ProfOaksAide1HereYouGoText:
-	text "Mal sehen…"
-	line "Super! Du hast"
+	text "Mal sehen… Super!"
+	line "Du hast"
 
 	para ""
 	text_decimal wTempDexOwn, 2, 3
@@ -131,6 +129,6 @@ ProfOaksAide1HereYouGoText:
 
 	para "gefangen."
 
-	para "Glückwunsch!"
-	line "Hier, bitte!"
+	para "Glückwunsch! Hier,"
+	line "bitte!"
 	done

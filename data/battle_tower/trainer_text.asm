@@ -23,15 +23,13 @@ _BTGreetingM2Text:
 	done
 
 _BTLossM2Text:
-	text "Aber im Kampf"
-	line "geb ich auch"
-	cont "alles!"
+	text "Aber im Kampf geb"
+	line "ich auch alles!"
 	done
 
 _BTWinM2Text:
 	text "Ich bin viel zu"
-	line "beschäftigt"
-	cont "dafür!"
+	line "beschäftigt dafür!"
 	done
 
 _BTGreetingM3Text:
@@ -41,9 +39,8 @@ _BTGreetingM3Text:
 	done
 
 _BTLossM3Text:
-	text "Kinderspiel!"
-	line "Du warst zu"
-	cont "leicht!"
+	text "Kinderspiel! Du"
+	line "warst zu leicht!"
 	done
 
 _BTWinM3Text:
@@ -58,14 +55,14 @@ _BTGreetingM4Text:
 	done
 
 _BTLossM4Text:
-	text "Hey, hey, nein!"
-	line "Du kannst nicht"
+	text "Hey, hey, nein! Du"
+	line "kannst nicht"
 	cont "gewinnen!"
 	done
 
 _BTWinM4Text:
-	text "Ernsthaft?"
-	line "Das war brutal!"
+	text "Ernsthaft? Das war"
+	line "brutal!"
 	done
 
 _BTGreetingM5Text:
@@ -74,13 +71,13 @@ _BTGreetingM5Text:
 	done
 
 _BTLossM5Text:
-	text "Ich bin topfit,"
-	line "du aber nicht!"
+	text "Ich bin topfit, du"
+	line "aber nicht!"
 	done
 
 _BTWinM5Text:
-	text "Ist mir egal,"
-	line "dass ich verlor!"
+	text "Ist mir egal, dass"
+	line "ich verlor!"
 	done
 
 _BTGreetingM6Text:
@@ -89,14 +86,13 @@ _BTGreetingM6Text:
 	done
 
 _BTLossM6Text:
-	text "Ups, tut mir"
-	line "leid für die"
-	cont "Abreibung!"
+	text "Ups, tut mir leid"
+	line "für die Abreibung!"
 	done
 
 _BTWinM6Text:
-	text "Ups! Lass mich"
-	line "mal gewinnen!"
+	text "Ups! Lass mich mal"
+	line "gewinnen!"
 	done
 
 _BTGreetingM7Text:
@@ -105,9 +101,8 @@ _BTGreetingM7Text:
 	done
 
 _BTLossM7Text:
-	text "Hehehe, jetzt"
-	line "kenn ich dein"
-	cont "Level!"
+	text "Hehehe, jetzt kenn"
+	line "ich dein Level!"
 	done
 
 _BTWinM7Text:
@@ -123,8 +118,8 @@ _BTGreetingM8Text:
 	done
 
 _BTLossM8Text:
-	text "Wow, du nimmst"
-	line "das nicht ernst!"
+	text "Wow, du nimmst das"
+	line "nicht ernst!"
 	done
 
 _BTWinM8Text:
@@ -137,13 +132,12 @@ _BTGreetingM9Text:
 	line "Gegner."
 
 	para "Mach dich bereit!"
-	line "Ich vermöbel"
-	cont "dich!"
+	line "Ich vermöbel dich!"
 	done
 
 _BTLossM9Text:
-	text "Hahah! Das war"
-	line "ein Klacks!"
+	text "Hahah! Das war ein"
+	line "Klacks!"
 	done
 
 _BTWinM9Text:
@@ -153,14 +147,12 @@ _BTWinM9Text:
 	done
 
 _BTGreetingM10Text:
-	text "Hah!"
-	line "Los geht's!"
+	text "Hah! Los geht's!"
 	done
 
 _BTLossM10Text:
 	text "Wahahaha! Kein"
-	line "Schweiß"
-	cont "vergossen!"
+	line "Schweiß vergossen!"
 	done
 
 _BTWinM10Text:
@@ -169,27 +161,25 @@ _BTWinM10Text:
 	done
 
 _BTGreetingM11Text:
-	text "………………"
-	line "…………Kampf?"
+	text "……………… …………Kampf?"
 	done
 
 _BTLossM11Text:
-	text "………………"
-	line "…………Ich gewann?"
+	text "……………… …………Ich"
+	line "gewann?"
 	done
 
 _BTWinM11Text:
-	text "………………"
-	line "…………Ich verlor?"
+	text "……………… …………Ich"
+	line "verlor?"
 	done
 
 _BTGreetingM12Text:
-	text "Willst du"
-	line "Anführer"
+	text "Willst du Anführer"
 	line "werden?"
 
-	para "Dann kämpf"
-	line "gegen mich!"
+	para "Dann kämpf gegen"
+	line "mich!"
 	done
 
 _BTLossM12Text:
@@ -203,10 +193,10 @@ _BTLossM12Text:
 _BTWinM12Text:
 	text "Du bist"
 	line "unglaublich"
-	line "talentiert."
+	cont "talentiert."
 
-	para "Niemand kommt"
-	line "dir mehr nahe!"
+	para "Niemand kommt dir"
+	line "mehr nahe!"
 	done
 
 _BTGreetingM13Text:
@@ -247,8 +237,8 @@ _BTGreetingM15Text:
 	done
 
 _BTLossM15Text:
-	text "Dieser Kampf…"
-	line "so langweilig!"
+	text "Dieser Kampf… so"
+	line "langweilig!"
 	done
 
 _BTWinM15Text:
@@ -257,8 +247,8 @@ _BTWinM15Text:
 	done
 
 _BTGreetingM16Text:
-	text "Los geht's!"
-	line "Alles erlaubt!"
+	text "Los geht's! Alles"
+	line "erlaubt!"
 	done
 
 _BTLossM16Text:
@@ -268,36 +258,32 @@ _BTLossM16Text:
 	done
 
 _BTWinM16Text:
-	text "Wahah!"
-	line "Gratuliere!"
-	line "Besser geht"
-	cont "nicht!"
+	text "Wahah! Gratuliere!"
+	line "Besser geht nicht!"
 	done
 
 _BTGreetingM17Text:
-	text "Meine #mon"
-	line "sind phänomenal!"
+	text "Meine #mon sind"
+	line "phänomenal!"
 	done
 
 _BTLossM17Text:
-	text "Du hast noch"
-	line "weit zu gehen."
+	text "Du hast noch weit"
+	line "zu gehen."
 
 	para "Na, weiter so!"
 	line "Viel Glück!"
 	done
 
 _BTWinM17Text:
-	text "Ach… Verlier"
-	line "nicht"
+	text "Ach… Verlier nicht"
 	line "nachdem du mich"
 	cont "besiegt hast."
 	done
 
 _BTGreetingM18Text:
-	text "Wer bist du?"
-	line "Kenn ich dich"
-	cont "nicht…"
+	text "Wer bist du? Kenn"
+	line "ich dich nicht…"
 	done
 
 _BTLossM18Text:
@@ -309,8 +295,8 @@ _BTLossM18Text:
 	done
 
 _BTWinM18Text:
-	text "Wer bin ich?"
-	line "Ich weiß nicht…"
+	text "Wer bin ich? Ich"
+	line "weiß nicht…"
 	done
 
 _BTGreetingM19Text:
@@ -319,8 +305,8 @@ _BTGreetingM19Text:
 	done
 
 _BTLossM19Text:
-	text "Scheint nicht"
-	line "du zu sein…"
+	text "Scheint nicht du"
+	line "zu sein…"
 	done
 
 _BTWinM19Text:
@@ -329,8 +315,8 @@ _BTWinM19Text:
 	done
 
 _BTGreetingM20Text:
-	text "Ich hörte, du"
-	line "bist heiß!"
+	text "Ich hörte, du bist"
+	line "heiß!"
 	done
 
 _BTLossM20Text:
@@ -346,8 +332,7 @@ _BTWinM20Text:
 
 _BTGreetingM21Text:
 	text "Ich hab Angst vor"
-	line "dem, was"
-	cont "passiert."
+	line "dem, was passiert."
 
 	para "Meine #mon sind"
 	line "viel zu stark."
@@ -365,8 +350,8 @@ _BTWinM21Text:
 	done
 
 _BTGreetingM22Text:
-	text "Hey, du!"
-	line "Ich nehm dich!"
+	text "Hey, du! Ich nehm"
+	line "dich!"
 	done
 
 _BTLossM22Text:
@@ -386,9 +371,9 @@ _BTGreetingM23Text:
 	done
 
 _BTLossM23Text:
-	text "Ähm… Tut mir"
-	line "leid… Ich glaub"
-	cont "ich hab gewonnen."
+	text "Ähm… Tut mir leid…"
+	line "Ich glaub ich hab"
+	cont "gewonnen."
 	done
 
 _BTWinM23Text:
@@ -397,9 +382,8 @@ _BTWinM23Text:
 	done
 
 _BTGreetingM24Text:
-	text "Wrrooar!"
-	line "Ich verliere"
-	cont "nicht!"
+	text "Wrrooar! Ich"
+	line "verliere nicht!"
 	done
 
 _BTLossM24Text:
@@ -414,8 +398,8 @@ _BTWinM24Text:
 	done
 
 _BTGreetingM25Text:
-	text "Tut mir leid,"
-	line "aber ich werde"
+	text "Tut mir leid, aber"
+	line "ich werde"
 	cont "gewinnen."
 	done
 
@@ -430,8 +414,8 @@ _BTWinM25Text:
 	done
 
 _BTGreetingF1Text:
-	text "Na, jetzt wird"
-	line "es ernst!"
+	text "Na, jetzt wird es"
+	line "ernst!"
 	done
 
 _BTLossF1Text:
@@ -440,8 +424,7 @@ _BTLossF1Text:
 	done
 
 _BTWinF1Text:
-	text "Nein!"
-	line "Echt, nein!"
+	text "Nein! Echt, nein!"
 	done
 
 _BTGreetingF2Text:
@@ -455,14 +438,13 @@ _BTLossF2Text:
 	done
 
 _BTWinF2Text:
-	text "Tut mir leid,"
-	line "das ist alles"
-	cont "meine Schuld!"
+	text "Tut mir leid, das"
+	line "ist alles meine"
+	cont "Schuld!"
 	done
 
 _BTGreetingF3Text:
-	text "Lass uns"
-	line "kämpfen!"
+	text "Lass uns kämpfen!"
 	done
 
 _BTLossF3Text:
@@ -471,13 +453,13 @@ _BTLossF3Text:
 	done
 
 _BTWinF3Text:
-	text "Ooh, du bist"
-	line "eine andere Liga."
+	text "Ooh, du bist eine"
+	line "andere Liga."
 	done
 
 _BTGreetingF4Text:
-	text "Kämpfen wir?"
-	line "Los geht's!"
+	text "Kämpfen wir? Los"
+	line "geht's!"
 	done
 
 _BTLossF4Text:
@@ -486,8 +468,8 @@ _BTLossF4Text:
 	done
 
 _BTWinF4Text:
-	text "Wow! Bist du"
-	line "jetzt zufrieden?"
+	text "Wow! Bist du jetzt"
+	line "zufrieden?"
 	done
 
 _BTGreetingF5Text:
@@ -512,13 +494,13 @@ _BTGreetingF6Text:
 	done
 
 _BTLossF6Text:
-	text "Was hältst du"
-	line "von meinen Süßen?"
+	text "Was hältst du von"
+	line "meinen Süßen?"
 	done
 
 _BTWinF6Text:
-	text "Ach! Du bist"
-	line "ein furchtbarer"
+	text "Ach! Du bist ein"
+	line "furchtbarer"
 	cont "Trainer!"
 	done
 
@@ -534,8 +516,7 @@ _BTLossF7Text:
 
 _BTWinF7Text:
 	text "Ach, wie gemein!"
-	line "Warte aufs"
-	cont "nächste"
+	line "Warte aufs nächste"
 	cont "Mal!"
 	done
 
@@ -545,8 +526,8 @@ _BTGreetingF8Text:
 	done
 
 _BTLossF8Text:
-	text "Wow, danke!"
-	line "Du bist so nett!"
+	text "Wow, danke! Du"
+	line "bist so nett!"
 	done
 
 _BTWinF8Text:
@@ -561,29 +542,29 @@ _BTGreetingF9Text:
 	done
 
 _BTLossF9Text:
-	text "Na ja, Entschul-"
-	line "digung…"
+	text "Na ja,"
+	line "Entschuldigung…"
 	done
 
 _BTWinF9Text:
-	text "Schluchz… Das"
-	line "ist nicht fair!"
+	text "Schluchz… Das ist"
+	line "nicht fair!"
 	done
 
 _BTGreetingF10Text:
-	text "Ich bin gut!"
-	line "Du kannst nicht"
+	text "Ich bin gut! Du"
+	line "kannst nicht"
 	cont "gewinnen."
 	done
 
 _BTLossF10Text:
-	text "Gibst du auf?"
-	line "Du bist schwach!"
+	text "Gibst du auf? Du"
+	line "bist schwach!"
 	done
 
 _BTWinF10Text:
-	text "Das akzeptier"
-	line "ich nicht… Nein!"
+	text "Das akzeptier ich"
+	line "nicht… Nein!"
 	done
 
 _BTGreetingF11Text:
@@ -592,33 +573,31 @@ _BTGreetingF11Text:
 	done
 
 _BTLossF11Text:
-	text "Ach, tut mir"
-	line "leid! Sieht aus"
-	cont "als hätt ich"
-	cont "gewonnen!"
+	text "Ach, tut mir leid!"
+	line "Sieht aus als hätt"
+	cont "ich gewonnen!"
 	done
 
 _BTWinF11Text:
-	text "Ach, wie fies!"
-	line "Du warst ernst!"
+	text "Ach, wie fies! Du"
+	line "warst ernst!"
 	done
 
 _BTGreetingF12Text:
 	text "Ahahah! Ich nehm"
-	line "es leicht mit"
-	cont "dir!"
+	line "es leicht mit dir!"
 	done
 
 _BTLossF12Text:
-	text "Ups, tut mir"
-	line "leid! Aber ich"
-	cont "freu mich auch!"
+	text "Ups, tut mir leid!"
+	line "Aber ich freu mich"
+	cont "auch!"
 	done
 
 _BTWinF12Text:
 	text "Ach, ach,"
-	line "verloren!"
-	line "Danke. Tschüss!"
+	line "verloren! Danke."
+	cont "Tschüss!"
 	done
 
 _BTGreetingF13Text:
@@ -627,8 +606,8 @@ _BTGreetingF13Text:
 	done
 
 _BTLossF13Text:
-	text "Dir wird es"
-	line "schwer fallen."
+	text "Dir wird es schwer"
+	line "fallen."
 	done
 
 _BTWinF13Text:
@@ -657,8 +636,8 @@ _BTGreetingF15Text:
 	done
 
 _BTLossF15Text:
-	text "Siehst du, ich"
-	line "hab dich platt"
+	text "Siehst du, ich hab"
+	line "dich platt"
 	cont "gemacht!"
 	done
 
@@ -675,8 +654,7 @@ BattleTowerText_GreetingTycoon:
 	line "aus Neuborkia,"
 	cont "stimmt's?"
 
-	para "Ich hab schon"
-	line "viel"
+	para "Ich hab schon viel"
 	line "von dir gehört."
 
 	para "Zeig mir die"
@@ -684,8 +662,7 @@ BattleTowerText_GreetingTycoon:
 	cont "#mon."
 
 	para "Zeig mir, was du"
-	line "in"
-	line "Kämpfen gegen"
+	line "in Kämpfen gegen"
 
 	para "andere Trainer"
 	line "gelernt hast!"
@@ -698,8 +675,8 @@ BattleTowerText_LossTycoon:
 
 BattleTowerText_WinTycoon:
 	text "Gegen einen"
-	line "Trainer"
-	line "wie dich zu"
+	line "Trainer wie dich"
+	cont "zu"
 
 	para "verlieren macht"
 	line "mir nichts aus!"
@@ -718,14 +695,13 @@ BattleFactoryText_GreetingHead:
 	text "Bzweeeeep!"
 
 	para "Entschuldigung,"
-	line "ignorier mich."
-	cont "Ich bin Thorton."
+	line "ignorier mich. Ich"
+	cont "bin Thorton."
 
 	para "Ich nutze meinen"
 	line "Daten-Analyse-"
 	cont "Computer für"
-	cont "diesen"
-	cont "Kampf."
+	cont "diesen Kampf."
 
 	para "Aha! Er zeigt"
 	line ""

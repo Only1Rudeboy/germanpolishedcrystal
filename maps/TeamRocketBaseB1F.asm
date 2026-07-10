@@ -560,25 +560,24 @@ GenericTrainerRocketScientistJed:
 GenericTrainerGruntM16:
 	generictrainer GRUNTM, 16, EVENT_BEAT_ROCKET_GRUNTM_16, GruntM16SeenText, GruntM16BeatenText
 
-	text "Ich weiß nicht,"
-	line "wo die Fallen"
+	text "Ich weiß nicht, wo"
+	line "die Fallen"
 	cont "aufgestellt sind."
 
 	para "Du musst deinen"
 	line "ganzen Mut"
-	cont "zusammennehmen"
-	cont "und weitergehen."
+	cont "zusammennehmen und"
+	cont "weitergehen."
 	done
 TeamRocketBaseB1FSecurityCamera:
 	jumpthistext
 
 	text "Das ist eine"
-	line "SNOBILIKAT-Statu-"
-	cont "e…"
+	line "SNOBILIKAT-Statue…"
 
 	para "Es ist ein"
-	line "seltsamer Glanz"
-	cont "in ihren Augen."
+	line "seltsamer Glanz in"
+	cont "ihren Augen."
 	done
 TeamRocketBaseB1FSecretSwitch:
 	opentext
@@ -599,8 +598,8 @@ TeamRocketBaseB1FSecretSwitch:
 .SecretSwitchOff:
 	jumpthisopenedtext
 
-	text "Der Schalter"
-	line "steht auf AUS."
+	text "Der Schalter steht"
+	line "auf AUS."
 	done
 SecurityCameraMovement1:
 	run_step_right
@@ -691,9 +690,8 @@ SecurityCameraMovement9:
 	step_end
 
 CameraGrunt1SeenText:
-	text "Heh!"
-	line "Eindringling!"
-	cont "Alarm!"
+	text "Heh! Eindringling!"
+	line "Alarm!"
 	done
 
 
@@ -704,8 +702,8 @@ CameraGrunt1BeatenText:
 
 
 CameraGrunt2SeenText:
-	text "Ich bin dran!"
-	line "Es gibt kein"
+	text "Ich bin dran! Es"
+	line "gibt kein"
 	cont "Entkommen!"
 	done
 
@@ -717,8 +715,7 @@ CameraGrunt2BeatenText:
 	cont "wachungskameras"
 	cont "installiert."
 
-	para "Wir greifen"
-	line "weiter"
+	para "Wir greifen weiter"
 	line "an, bis du einen"
 	cont "Geheimschalter"
 	cont "betätigst."
@@ -727,14 +724,12 @@ CameraGrunt2BeatenText:
 
 RocketScientistJedSeenText:
 	text "Dies war einmal"
-	line "ein"
-	cont "Ninjaversteck."
+	line "ein Ninjaversteck."
 
 	para "Es wurden Fallen"
 	line "aufgestellt, um"
 	cont "Eindringlinge wie"
-	cont "dich zu"
-	cont "verwirren."
+	cont "dich zu verwirren."
 	done
 RocketScientistJedBeatenText:
 	text "Ich hab's…"
@@ -758,9 +753,9 @@ GruntM16BeatenText:
 
 
 TeamRocketBaseB1FSecretSwitchText:
-	text "Ein Geheimschal-"
-	line "ter! Betätige"
-	cont "ihn!"
+	text "Ein"
+	line "Geheimschalter!"
+	cont "Betätige ihn!"
 	done
 
 

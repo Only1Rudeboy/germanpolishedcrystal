@@ -23,15 +23,13 @@ PlayersNeighborsDaughterText:
 	cont "#mon."
 
 	para "PROF. LINDs"
-	line "Entdeckungen"
-	cont "sind wirklich"
+	line "Entdeckungen sind"
+	cont "wirklich"
 	cont "erstaunlich."
 
-	para "Er ist berühmt"
-	line "für"
+	para "Er ist berühmt für"
 	line "seine Forschungen"
-	cont "auf dem Gebiet"
-	cont "der"
+	cont "auf dem Gebiet der"
 	cont "#mon-Evolution."
 
 	para "…Seufz…"
@@ -51,16 +49,14 @@ PlayersNeighborsHusbandText:
 	done
 
 PlayersNeighborText:
-	text "Meine Tochter"
-	line "will"
+	text "Meine Tochter will"
 	line "unbedingt PROF."
 
 	para "LINDs Assistentin"
 	line "werden."
 
 	para "Sie liebt #mon"
-	line "von ganzem"
-	cont "Herzen!"
+	line "von ganzem Herzen!"
 
 	para "Aber ich auch!"
 	done

@@ -8,8 +8,8 @@ ChadAskNumber1Text:
 
 	para "Ich träume davon,"
 	line "#mon-Forscher"
-	cont "wie Prof.Eich"
-	cont "zu werden."
+	cont "wie Prof.Eich zu"
+	cont "werden."
 
 	para "Darf ich deine"
 	line "Nummer? Wir reden"
@@ -24,8 +24,7 @@ ChadAskNumber2Text:
 
 	para "Wir reden über"
 	line "Prof.Eich. Das"
-	cont "wird"
-	cont "toll!"
+	cont "wird toll!"
 	done
 
 ChadNumberAcceptedText:
@@ -37,8 +36,7 @@ ChadNumberAcceptedText:
 ChadNumberDeclinedText:
 	text "Oh… Ich wünschte,"
 	line "ich könnte"
-	cont "Prof.Eich"
-	cont "treffen…"
+	cont "Prof.Eich treffen…"
 	done
 
 ChadPhoneFullText:

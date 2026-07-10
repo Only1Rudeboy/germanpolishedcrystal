@@ -55,8 +55,7 @@ CeladonUniversity1FSuperNerdText:
 
 	para "#mon?"
 
-	para "Das wäre"
-	line "tragisch!"
+	para "Das wäre tragisch!"
 	done
 
 CeladonUniversity1FLassText:
@@ -71,9 +70,8 @@ CeladonUniversity1FLassText:
 	done
 
 CeladonUniversity1FCooltrainermText:
-	text "Hier ist jeder"
-	line "ein #mon-"
-	cont "Trainer."
+	text "Hier ist jeder ein"
+	line "#mon- Trainer."
 
 	para "Um hier"
 	line "aufgenommen zu"

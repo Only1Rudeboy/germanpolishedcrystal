@@ -59,9 +59,9 @@ BattleFactory1FContinueChallenge:
 .LeftWithoutSaving2:
 	opentext
 	writethistext
-		text "Entschuldige!"
-		line "Du hast nicht vor"
-		cont "dem Verlassen des"
+		text "Entschuldige! Du"
+		line "hast nicht vor dem"
+		cont "Verlassen des"
 
 		para "Kampfraums"
 		line "gespeichert."
@@ -143,11 +143,9 @@ BattleFactory1FRulesScript:
 BattleFactory1FStreakText:
 	text "Serie: "
 	text_decimal wBattleFactoryCurStreak, 2, 5
-	text " Siege"
-	line "Rekord: "
+	text " Siege Rekord: "
 	text_decimal wBattleFactoryTopStreak, 2, 5
-	text " Siege"
-	cont "Tausche: "
+	text " Siege Tausche: "
 	text_decimal wBattleFactorySwapCount, 1, 2
 	done
 
@@ -225,8 +223,8 @@ BattleFactory1FReceptionistScript:
 
 .Challenge:
 	writethistext
-		text "Bevor du"
-		line "das Kampffeld"
+		text "Bevor du das"
+		line "Kampffeld"
 		cont "betrittst,"
 
 		para "wird dein"

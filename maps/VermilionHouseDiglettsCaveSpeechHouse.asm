@@ -17,8 +17,7 @@ VermilionHouseDiglettsCaveSpeechHouse_MapScriptHeader:
 VermilionDiglettsCaveSpeechHouseGentlemanText:
 	text "Im Laufe vieler"
 	line "Jahre haben die"
-	cont "DIGDA einen"
-	cont "langen"
+	cont "DIGDA einen langen"
 	cont "Tunnel gebaut."
 
 	para "Dieser Tunnel"

@@ -24,9 +24,7 @@ LavenderSpeechHousePokefanFText:
 	para "In letzter Zeit"
 	line "ist sie durch den"
 
-	para "Bau des"
-	line "RADIOTURMs"
-	line "etwas"
-	cont "geschäftiger"
+	para "Bau des RADIOTURMs"
+	line "etwas geschäftiger"
 	cont "geworden."
 	done

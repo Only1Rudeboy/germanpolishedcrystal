@@ -20,26 +20,22 @@ OlivinePunishmentSpeechHouseDadText:
 	line "ANEMONIA CITY"
 
 	para "siehst du vier"
-	line "verlassene"
-	cont "Inseln."
+	line "verlassene Inseln."
 
 	para "Ungezogene Kinder"
 	line "werden zur"
-	cont "Bestra-"
-	cont "fung auf diese"
-	cont "In-"
-	cont "seln geschickt!"
+	cont "Bestrafung auf"
+	cont "diese Inseln"
+	cont "geschickt!"
 	done
 
 
 OlivinePunishmentSpeechHouseDaughterText:
-	text "Wenn ich"
-	line "ungezogen"
+	text "Wenn ich ungezogen"
 	line "bin, macht mir"
-	cont "Pa-"
-	cont "pa mit gruseligen"
-	cont "Geschichten"
-	cont "Angst."
+	cont "Papa mit"
+	cont "gruseligen"
+	cont "Geschichten Angst."
 	done
 
 

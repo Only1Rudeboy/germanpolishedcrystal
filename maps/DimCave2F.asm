@@ -50,8 +50,8 @@ GenericTrainerEngineerLang:
 	line "genommen, um den"
 	cont "Magnetzug"
 
-	para "nach JOHTO"
-	line "zu betreiben."
+	para "nach JOHTO zu"
+	line "betreiben."
 	done
 
 .SeenText:
@@ -79,8 +79,8 @@ GenericTrainerHikerDerrick:
 .SeenText:
 	text "♪ A-wandern gehn"
 	line "wir heut,"
-	cont "a-wandern gehn"
-	cont "wir heut… ♪"
+	cont "a-wandern gehn wir"
+	cont "heut… ♪"
 	done
 
 .BeatenText:

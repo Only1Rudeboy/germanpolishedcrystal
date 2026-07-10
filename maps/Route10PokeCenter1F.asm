@@ -25,17 +25,16 @@ PokemonJournalAgathaScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Ex-TOP VIER"
-	cont "Agatha!"
+	para "Spezial: Ex-TOP"
+	line "VIER Agatha!"
 
 	para "In ihrer Jugend"
 	line "rivalisierten"
 	cont "Agatha und"
 
 	para "Prof.Eich um die"
-	line "Vorherrschaft"
-	cont "als Trainer."
+	line "Vorherrschaft als"
+	cont "Trainer."
 	done
 
 Route10PokeCenter1FGymGuyScript:
@@ -50,8 +49,7 @@ Route10PokeCenter1FGymGuyScript:
 	line "#mon-Trainer."
 
 	para "Er braucht Hilfe"
-	line "bei der Suche"
-	cont "nach"
+	line "bei der Suche nach"
 
 	para "einem gestohlenen"
 	line "Gegenstand."
@@ -60,12 +58,10 @@ Route10PokeCenter1FGymGuyScript:
 	text "Ich hörte, dass"
 	line "TEAM ROCKET sich"
 
-	para "in JOHTO re-"
-	line "formierte, aber"
-	cont "kurz danach"
-	cont "wieder"
-	cont "zerschlagen"
-	cont "wurde."
+	para "in JOHTO"
+	line "reformierte, aber"
+	cont "kurz danach wieder"
+	cont "zerschlagen wurde."
 
 	para "Darüber weiß ich"
 	line "leider nichts."
@@ -82,8 +78,7 @@ Route10PokeCenter1FCooltrainerfText:
 	text "Wenn du das"
 	line "Gebäude verlässt,"
 
-	para "kannst du das"
-	line "Dach"
+	para "kannst du das Dach"
 	line "eines großen"
 	cont "Hauses sehen."
 

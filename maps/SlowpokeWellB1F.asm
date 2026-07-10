@@ -32,13 +32,11 @@ SlowpokeWellB1F_MapScriptHeader:
 GenericTrainerGruntM29:
 	generictrainer GRUNTM, 29, EVENT_BEAT_ROCKET_GRUNTM_29, GruntM29SeenText, GruntM29BeatenText
 
-	text "Klar haben wir"
-	line "den"
+	text "Klar haben wir den"
 	line "FLEGMON die"
 
 	para "RUTEN abgetrennt"
-	line "und dann"
-	cont "verkauft."
+	line "und dann verkauft."
 
 	para "Wir wollen nur"
 	line "Profit machen."
@@ -104,8 +102,8 @@ GenericTrainerGruntF1:
 	cont "nach!"
 
 	para "Was ist falsch"
-	line "daran, sie"
-	cont "zu verkaufen?"
+	line "daran, sie zu"
+	cont "verkaufen?"
 	done
 SlowpokeWellB1FSlowpokeWithMailScript:
 	faceplayer
@@ -145,8 +143,7 @@ KurtLeaveSlowpokeWellText:
 	para "TEAM ROCKET ist"
 	line "abgehauen."
 
-	para "Meinem Rücken"
-	line "geht"
+	para "Meinem Rücken geht"
 	line "es schon besser."
 	cont "Lass uns gehen."
 	done
@@ -158,13 +155,12 @@ KurtLeaveSlowpokeWellText:
 
 
 GruntM29SeenText:
-	text "Mist! Ich stand"
-	line "da oben Wache,"
-	cont "als"
+	text "Mist! Ich stand da"
+	line "oben Wache, als"
 
 	para "ein Verrückter"
-	line "vorbeikam und"
-	cont "mich anschrie."
+	line "vorbeikam und mich"
+	cont "anschrie."
 
 	para "Ich bin so"
 	line "erschrocken, dass"
@@ -172,8 +168,8 @@ GruntM29SeenText:
 	cont "gefallen bin."
 
 	para "Ich glaube, ich"
-	line "lasse meine Wut"
-	cont "an dir aus!"
+	line "lasse meine Wut an"
+	cont "dir aus!"
 	done
 
 
@@ -217,8 +213,8 @@ Proton2BeatenText:
 TrainerProton2WhenTalkText:
 	text "Ja, TEAM ROCKET"
 	line "wurde vor drei"
-	cont "Jahren zer-"
-	cont "schlagen."
+	cont "Jahren"
+	cont "zerschlagen."
 
 	para "Aber wir haben"
 	line "unsere Arbeit im"
@@ -227,19 +223,16 @@ TrainerProton2WhenTalkText:
 
 	para "Nun kannst du"
 	line "zusehen, wie wir"
-	cont "für Unruhe"
-	cont "sorgen!"
+	cont "für Unruhe sorgen!"
 	done
 GruntM2SeenText:
-	text "Wir sollen auf-"
-	line "hören, den"
-	cont "FLEGMON ihre"
-	cont "RUTEN"
+	text "Wir sollen"
+	line "aufhören, den"
+	cont "FLEGMON ihre RUTEN"
 	cont "abzutrennen?"
 
 	para "Wenn wir auf dich"
-	line "hören würden,"
-	cont "wäre"
+	line "hören würden, wäre"
 	cont "der Ruf von TEAM"
 	cont "ROCKET ruiniert!"
 	done
@@ -251,8 +244,7 @@ GruntM2SeenText:
 
 
 GruntM2BeatenText:
-	text "Du bist…"
-	line "zu stark…"
+	text "Du bist… zu stark…"
 	done
 
 
@@ -262,10 +254,9 @@ GruntM2BeatenText:
 
 
 GruntF1SeenText:
-	text "Wir sollen auf-"
-	line "hören, den"
-	cont "FLEGMON ihre"
-	cont "RUTEN"
+	text "Wir sollen"
+	line "aufhören, den"
+	cont "FLEGMON ihre RUTEN"
 	cont "abzutrennen?"
 
 	para "Ja, versuche, uns"
@@ -279,8 +270,7 @@ GruntF1SeenText:
 
 
 GruntF1BeatenText:
-	text "Du vorlautes"
-	line "Balg!"
+	text "Du vorlautes Balg!"
 	done
 
 
@@ -291,12 +281,11 @@ GruntF1BeatenText:
 
 SlowpokeWellB1FSlowpokeWithMailText:
 	text "Ein FLEGMON mit"
-	line "abgetrennter"
-	cont "RUTE…"
+	line "abgetrennter RUTE…"
 
 	para "Huh? Es trägt"
-	line "einen BRIEF."
-	cont "BRIEF lesen?"
+	line "einen BRIEF. BRIEF"
+	cont "lesen?"
 	done
 
 
@@ -306,13 +295,11 @@ SlowpokeWellB1FSlowpokeWithMailText:
 
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> liest"
-	line "den"
+	text "<PLAYER> liest den"
 	line "BRIEF."
 
 	para "Sei so lieb und"
-	line "kümmere dich"
-	cont "bitte"
+	line "kümmere dich bitte"
 
 	para "um Opa und das"
 	line "FLEGMON."
@@ -328,8 +315,7 @@ SlowpokeWellB1FSlowpokeMailText:
 
 SlowpokeWellB1FTaillessSlowpokeText:
 	text "Ein FLEGMON mit"
-	line "abgetrennter"
-	cont "RUTE…"
+	line "abgetrennter RUTE…"
 	done
 
 

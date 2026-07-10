@@ -16,11 +16,10 @@ CherrygroveEvolutionSpeechHouse_MapScriptHeader:
 	object_event  2,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, CherrygroveEvolutionSpeechHouseYoungsterText, -1
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#mon sammeln"
-	line "in Kämpfen Erfah-"
-	cont "rung und"
-	cont "verändern"
-	cont "ihre Gestalt."
+	text "#mon sammeln in"
+	line "Kämpfen Erfahrung"
+	cont "und verändern ihre"
+	cont "Gestalt."
 	done
 
 
@@ -28,10 +27,10 @@ CherrygroveEvolutionSpeechHouseLassText:
 	text "#mon, die die"
 	line "Gestalt wechseln?"
 
-	para "Ich wäre scho-"
-	line "ckiert, wenn"
-	cont "eines"
-	cont "das tun würde!"
+	para "Ich wäre"
+	line "schockiert, wenn"
+	cont "eines das tun"
+	cont "würde!"
 	done
 
 

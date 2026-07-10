@@ -24,8 +24,7 @@ EcruteakLugiaSpeechHouseGrampsText:
 	line "sich schwarz. Ein"
 
 	para "riesiges,"
-	line "fliegen-"
-	line "des #mon"
+	line "fliegendes #mon"
 
 	para "verdunkelte die"
 	line "Sonne."
@@ -40,8 +39,7 @@ EcruteakLugiaSpeechHouseGrampsText:
 
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Ob es wirklich"
-	line "ein"
+	text "Ob es wirklich ein"
 	line "so großes #mon"
 
 	para "gibt? Wenn ja, so"

@@ -29,8 +29,7 @@ VioletMartGrannyText:
 
 	para "Es ist wichtig,"
 	line "#mon sehr viel"
-	cont "Liebe zu"
-	cont "schenken."
+	cont "Liebe zu schenken."
 	done
 
 
@@ -40,13 +39,11 @@ VioletMartCooltrainerMText:
 	cont "und GEGENGIFT"
 	cont "tragen."
 
-	para "Aber offenbar"
-	line "sind"
+	para "Aber offenbar sind"
 	line "sie nicht in der"
 
 	para "Lage, künstlich"
-	line "hergestellte"
-	cont "Items"
+	line "hergestellte Items"
 
 	para "zu benutzen."
 	done

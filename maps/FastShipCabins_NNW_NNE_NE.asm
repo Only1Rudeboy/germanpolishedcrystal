@@ -28,8 +28,8 @@ FastShipCabins_NNW_NNE_NE_MapScriptHeader:
 GenericTrainerPILooker:
 	generictrainer PI, LOOKER, EVENT_BEAT_PI_LOOKER, PILookerSeenText, PILookerBeatenText
 
-	text "Mein Deckname"
-	line "ist Looker."
+	text "Mein Deckname ist"
+	line "Looker."
 
 	para "So nennt mich"
 	line "jeder."
@@ -39,8 +39,8 @@ GenericTrainerPILooker:
 	cont "Rocket-"
 	cont "Mitgliedern."
 
-	para "Was?! Du hast"
-	line "sie besiegt?"
+	para "Was?! Du hast sie"
+	line "besiegt?"
 
 	para "Bravo!"
 	done
@@ -58,8 +58,7 @@ GenericTrainerCooltrainerfCarol:
 	generictrainer COOLTRAINERF, CAROL, EVENT_BEAT_COOLTRAINERF_CAROL, CooltrainerfCarolSeenText, CooltrainerfCarolBeatenText
 
 	text "Eines Tages werde"
-	line "ich dich"
-	cont "besiegen!"
+	line "ich dich besiegen!"
 	done
 GenericTrainerPokemaniacEthan:
 	generictrainer POKEMANIAC, ETHAN, EVENT_BEAT_POKEMANIAC_ETHAN, PokemaniacEthanSeenText, PokemaniacEthanBeatenText
@@ -70,14 +69,12 @@ GenericTrainerPokemaniacEthan:
 
 	para "Ich möchte gerne"
 	line "alle Radiosender"
-	cont "von JOHTO"
-	cont "anhören!"
+	cont "von JOHTO anhören!"
 	done
 GenericTrainerHikerNoland:
 	generictrainer HIKER, NOLAND, EVENT_BEAT_HIKER_NOLAND, HikerNolandSeenText, HikerNolandBeatenText
 
-	text "Ich frage mich,"
-	line "ob"
+	text "Ich frage mich, ob"
 	line "es in KANTO Berge"
 
 	para "gibt, die eine"
@@ -88,17 +85,16 @@ GenericTrainerGentlemanEdward:
 	generictrainer GENTLEMAN, EDWARD, EVENT_BEAT_GENTLEMAN_EDWARD, GentlemanEdwardSeenText, GentlemanEdwardBeatenText
 
 	text "Ich gebe auf. Du"
-	line "musst nicht"
-	cont "danach"
+	line "musst nicht danach"
 
-	para "suchen. Vergiss"
-	line "es einfach!"
+	para "suchen. Vergiss es"
+	line "einfach!"
 	done
 GenericTrainerBurglarCorey:
 	generictrainer BURGLAR, COREY, EVENT_BEAT_BURGLAR_COREY, BurglarCoreySeenText, BurglarCoreyBeatenText
 
-	text "Ich habe hier"
-	line "eine tolle Münze"
+	text "Ich habe hier eine"
+	line "tolle Münze"
 
 	para "gefunden. Jemand"
 	line "muss sie verloren"
@@ -152,8 +148,8 @@ FastShipLazySailorLeavesMovement2:
 PILookerSeenText:
 	text "WAAAS?!"
 
-	para "…Wie hast du"
-	line "das gewusst?"
+	para "…Wie hast du das"
+	line "gewusst?"
 
 	para "Wie konntest du"
 	line "mich als IP-Mit-"
@@ -161,9 +157,9 @@ PILookerSeenText:
 	done
 
 PILookerBeatenText:
-	text "Sehr bewunderns-"
-	line "wert, das musst"
-	cont "du sein!"
+	text "Sehr"
+	line "bewundernswert,"
+	cont "das musst du sein!"
 	done
 
 CooltrainermSeanSeenText:
@@ -206,8 +202,7 @@ CooltrainerfCarolBeatenText:
 
 PokemaniacEthanSeenText:
 	text "Kennst du LILLY?"
-	line "Sie ist ein"
-	cont "klasse"
+	line "Sie ist ein klasse"
 	cont "DJ in KANTO."
 	done
 
@@ -250,12 +245,11 @@ SailorStanlySeenText:
 
 	para "Die Kabine war"
 	line "frei, darum habe"
-	cont "ich ein"
-	cont "Nickerchen"
+	cont "ich ein Nickerchen"
 	cont "gemacht!"
 
-	para "Was soll's!"
-	line "Lass uns kämpfen!"
+	para "Was soll's! Lass"
+	line "uns kämpfen!"
 	done
 
 
@@ -263,8 +257,7 @@ SailorStanlySeenText:
 
 
 SailorStanlyBeatenText:
-	text "Es war alles"
-	line "meine"
+	text "Es war alles meine"
 	line "Schuld!"
 	done
 
@@ -286,8 +279,8 @@ SailorStanlyAfterBattleText:
 GentlemanEdwardSeenText:
 	text "Ach, nein. Ich"
 	line "habe etwas sehr"
-	cont "Wichtiges ver-"
-	cont "loren."
+	cont "Wichtiges"
+	cont "verloren."
 	done
 
 
@@ -304,9 +297,8 @@ GentlemanEdwardBeatenText:
 
 
 BurglarCoreySeenText:
-	text "Juhu!"
-	line "Was für ein"
-	cont "Glück!"
+	text "Juhu! Was für ein"
+	line "Glück!"
 	done
 
 
@@ -314,9 +306,8 @@ BurglarCoreySeenText:
 
 
 BurglarCoreyBeatenText:
-	text "Pech gehabt!"
-	line "Ich habe"
-	cont "verloren!"
+	text "Pech gehabt! Ich"
+	line "habe verloren!"
 	done
 
 

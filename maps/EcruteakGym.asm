@@ -111,8 +111,7 @@ EcruteakGymMortyScript:
 	jumpthisopenedtext
 
 	text "Shadow Ball."
-	line "Verursacht"
-	cont "Schaden"
+	line "Verursacht Schaden"
 
 	para "und kann die"
 	line "Spezial-Vert"
@@ -176,8 +175,8 @@ EcruteakGymGuyScript:
 	jumpthistextfaceplayer
 
 	text "Die Trainer hier"
-	line "haben geheime Mo-"
-	cont "tive."
+	line "haben geheime"
+	cont "Motive."
 
 	para "Gewinnst du, so"
 	line "verraten sie dir"
@@ -205,52 +204,48 @@ EcruteakGymPlayerSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Gut, dass du ge-"
-	line "kommen bist."
+	text "Gut, dass du"
+	line "gekommen bist."
 
 	para "Hier in TEAK CITY"
 	line "werden #mon"
 	cont "verehrt."
 
 	para "Man sagt, dass"
-	line "le-"
-	line "gendäre #mon"
+	line "legendäre #mon"
 
 	para "nur wahrlich"
-	line "star-"
-	line "ken Trainern er-"
-	cont "scheinen werden."
+	line "starken Trainern"
+	cont "erscheinen werden."
 
 	para "Ich glaube an"
-	line "die-"
-	line "se Legende. Daher"
+	line "diese Legende."
+	cont "Daher"
 
 	para "habe ich mein"
-	line "gan-"
-	line "zes Leben lang im"
+	line "ganzes Leben lang"
+	cont "im"
 
-	para "Geheimen trai-"
-	line "niert."
+	para "Geheimen"
+	line "trainiert."
 
 	para "Als Resultat kann"
 	line "ich nun Dinge"
 
 	para "sehen, die andere"
-	line "nicht sehen kön-"
-	cont "nen."
+	line "nicht sehen"
+	cont "können."
 
 	para "Noch ein wenig…"
 
-	para "Mit ein wenig"
-	line "Mehr"
+	para "Mit ein wenig Mehr"
 	line "könnte ich eine"
 
 	para "Zukunft sehen, in"
 	line "der ich das"
-	cont "legen-"
-	cont "däre regenbogen-"
-	cont "farbene #mon"
-	cont "treffe."
+	cont "legendäre"
+	cont "regenbogenfarbene"
+	cont "#mon treffe."
 
 	para "Du könntest mir"
 	line "dabei helfen!"
@@ -258,8 +253,7 @@ MortyIntroText:
 
 
 MortyWinLossText:
-	text "Ich bin noch"
-	line "nicht"
+	text "Ich bin noch nicht"
 	line "gut genug…"
 
 	para "Dieser ORDEN soll"
@@ -268,8 +262,7 @@ MortyWinLossText:
 
 
 MortyText_FogBadgeSpeech:
-	text "Durch den"
-	line "PHANTOM-"
+	text "Durch den PHANTOM-"
 	line "ORDEN gehorchen"
 
 	para "dir #mon bis zu"
@@ -280,10 +273,8 @@ MortyText_FogBadgeSpeech:
 	cont "FER beherrschen,"
 
 	para "diesen auch"
-	line "außer-"
-	line "halb eines"
-	cont "Kampfes"
-	cont "einsetzen."
+	line "außerhalb eines"
+	cont "Kampfes einsetzen."
 
 	para "Bitte nimm auch"
 	line "dies an."
@@ -294,10 +285,9 @@ MortyFightDoneText:
 	text "Ich verstehe…"
 
 	para "Deine Reise hat"
-	line "dich an die ent-"
-	cont "legensten Orte"
-	cont "ge-"
-	cont "führt."
+	line "dich an die"
+	cont "entlegensten Orte"
+	cont "geführt."
 
 	para "Du hast viel mehr"
 	line "gesehen als ich."
@@ -309,29 +299,28 @@ MortyFightDoneText:
 
 SageJeffreySeenText:
 	text "Ich habe den"
-	line "Früh-"
-	line "ling mit meinen"
+	line "Frühling mit"
+	cont "meinen"
 
 	para "#mon verbracht."
 	line "Dann den Sommer,"
 
-	para "den Herbst und"
-	line "den"
+	para "den Herbst und den"
 	line "Winter…"
 
 	para "Dann kam wieder"
 	line "der Frühling. Wir"
 
 	para "haben viel Zeit"
-	line "miteinander ver-"
-	cont "bracht."
+	line "miteinander"
+	cont "verbracht."
 	done
 
 
 SageJeffreyBeatenText:
-	text "Siege und Nieder-"
-	line "lagen - ich hatte"
-	cont "beides."
+	text "Siege und"
+	line "Niederlagen - ich"
+	cont "hatte beides."
 	done
 
 
@@ -358,8 +347,8 @@ MediumMarthaBeatenText:
 
 
 MediumGraceSeenText:
-	text "Verwirrt dich un-"
-	line "ser unsichtbarer"
+	text "Verwirrt dich"
+	line "unser unsichtbarer"
 
 	para "Boden? Besiege"
 	line "mich und ich gebe"
@@ -373,14 +362,12 @@ MediumGraceBeatenText:
 
 
 EcruteakGymGuyWinText:
-	text "Wow, <PLAYER>."
-	line "Du warst großar-"
-	cont "tig!"
+	text "Wow, <PLAYER>. Du"
+	line "warst großartig!"
 
 	para "Vor lauter Angst"
 	line "habe ich mich in"
-	cont "die Ecke"
-	cont "gekauert!"
+	cont "die Ecke gekauert!"
 	done
 EcruteakGymClosedText:
 	text "JENS, der ARENA-"

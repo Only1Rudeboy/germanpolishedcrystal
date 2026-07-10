@@ -31,8 +31,7 @@ AnthonyNumberAcceptedText:
 	done
 
 AnthonyNumberDeclinedText:
-	text "Du bist kalt."
-	line "Dann"
+	text "Du bist kalt. Dann"
 	line "geh ich in die"
 	cont "Berge…"
 	done
@@ -41,8 +40,7 @@ AnthonyPhoneFullText:
 	text "Dein Telefon ist"
 	line "voll."
 
-	para "Meine Nummer"
-	line "passt"
+	para "Meine Nummer passt"
 	line "nicht rein."
 	done
 

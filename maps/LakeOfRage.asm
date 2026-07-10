@@ -146,8 +146,8 @@ LakeOfRageLanceScript:
 	jumpthisopenedtext
 
 	text "Oh… Solltest du"
-	line "deine Meinung än-"
-	cont "dern, dann hilf"
+	line "deine Meinung"
+	cont "ändern, dann hilf"
 	cont "mir bitte."
 	done
 .AskForHelpAgain:
@@ -161,55 +161,50 @@ LakeOfRageLanceScript:
 .OverheardText:
 	text "Dieser See ist"
 	line "voller GARADOS."
-	cont "Aber sonst gibt"
-	cont "es"
+	cont "Aber sonst gibt es"
 	cont "hier nichts…"
 
-	para "Die KARPADOR wer-"
-	line "den also gezwun-"
-	cont "gen, sich zu ent-"
-	cont "wickeln…"
+	para "Die KARPADOR"
+	line "werden also"
+	cont "gezwungen, sich zu"
+	cont "entwickeln…"
 	done
 .IntroText:
 	text "Bist du wegen der"
 	line "Gerüchte hier?"
 
 	para "Du bist <PLAYER>?"
-	line "Ich bin"
-	cont "SIEGFRIED,"
+	line "Ich bin SIEGFRIED,"
 
 	para "ein Trainer wie"
 	line "du."
 
 	para "Ich hörte einige"
-	line "Gerüchte. Also"
-	cont "kam"
+	line "Gerüchte. Also kam"
 
 	para "ich hierher, um"
-	line "einige Nachfor-"
-	cont "schungen"
-	cont "anzustel-"
-	cont "len…"
+	line "einige"
+	cont "Nachforschungen"
+	cont "anzustellen…"
 
 	para "Ich habe gesehen,"
 	line "wie du kämpfst,"
 	cont "<PLAYER>."
 
 	para "Man kann sagen,"
-	line "dass du ein Trai-"
-	cont "ner von"
-	cont "bemerkens-"
-	cont "wertem Format"
-	cont "bist."
+	line "dass du ein"
+	cont "Trainer von"
+	cont "bemerkenswertem"
+	cont "Format bist."
 
-	para "Würdest du mir"
-	line "bei"
-	line "meinen Nachfor-"
-	cont "schungen helfen?"
+	para "Würdest du mir bei"
+	line "meinen"
+	cont "Nachforschungen"
+	cont "helfen?"
 	done
 .YesText:
-	text "SIEGFRIED: Exzel-"
-	line "lent!"
+	text "SIEGFRIED:"
+	line "Exzellent!"
 
 	para "Es sieht so aus,"
 	line "als würde jemand"
@@ -224,27 +219,26 @@ LakeOfRageLanceScript:
 	para "Radiosignal aus"
 	line "MAHAGONIA CITY."
 
-	para "Ich werde auf"
-	line "dich"
+	para "Ich werde auf dich"
 	line "warten, <PLAYER>."
 	done
 .QuestionText:
 	text "SIEGFRIED: Na?"
-	line "Wirst du mir hel-"
-	cont "fen?"
+	line "Wirst du mir"
+	cont "helfen?"
 	done
 LakeOfRageEngineerText:
-	text "Ich bin Stadt-"
-	line "planer."
+	text "Ich bin"
+	line "Stadtplaner."
 
 	para "Ich habe große"
 	line "Pläne für diesen"
 	cont "Ort, warte nur!"
 
 	para "Es ist der"
-	line "perfekte"
-	line "Platz für mein"
-	cont "nächstes Projekt."
+	line "perfekte Platz für"
+	cont "mein nächstes"
+	cont "Projekt."
 	done
 
 LakeOfRageRedGyaradosScript:
@@ -276,8 +270,8 @@ LakeOfRageRedGyaradosScript:
 	text "GARADOS: Gashaa!"
 	done
 .RedScaleText:
-	text "<PLAYER> found"
-	line "Red Scale."
+	text "<PLAYER> found Red"
+	line "Scale."
 	done
 
 WesleyScript:
@@ -328,8 +322,7 @@ WesleyScript:
 .GivesGiftText:
 	text "Freut mich, dich"
 	line "kennen zu lernen."
-	cont "Nimm dir bitte"
-	cont "ein"
+	cont "Nimm dir bitte ein"
 	cont "Souvenir."
 	done
 .WednesdayText:
@@ -338,66 +331,56 @@ WesleyScript:
 
 	para "musst du meine"
 	line "Brüder und"
-	cont "Schwes-"
-	cont "tern getroffen"
-	cont "haben."
+	cont "Schwestern"
+	cont "getroffen haben."
 
 	para "Oder hattest du"
-	line "einfach nur"
-	cont "Glück?"
+	line "einfach nur Glück?"
 	done
 GenericTrainerCooltrainermAaron:
 	generictrainer COOLTRAINERM, AARON, EVENT_BEAT_COOLTRAINERM_AARON, .SeenText, .BeatenText
 
-	text "#mon und"
-	line "ihre Trainer wer-"
-	cont "den durch ständi-"
-	cont "ges Kämpfen immer"
+	text "#mon und ihre"
+	line "Trainer werden"
+	cont "durch ständiges"
+	cont "Kämpfen immer"
 	cont "stärker."
 	done
 .SeenText:
 
-	text "Trifft ein"
-	line "Trainer"
-	line "auf einen"
-	cont "anderen,"
+	text "Trifft ein Trainer"
+	line "auf einen anderen,"
 
 	para "so muss er ihn"
-	line "he-"
-	line "rausfordern."
+	line "herausfordern."
 
 	para "Das ist unsere"
-	line "Be-"
-	line "stimmung."
+	line "Bestimmung."
 	done
 
 .BeatenText:
 
-	text "Wow…"
-	line "Toller Kampf!"
+	text "Wow… Toller Kampf!"
 	done
 
 GenericTrainerCooltrainerfLois:
 	generictrainer COOLTRAINERF, LOIS, EVENT_BEAT_COOLTRAINERF_LOIS, .SeenText, .BeatenText
 
-	text "Stell dir vor,"
-	line "ich"
+	text "Stell dir vor, ich"
 	line "habe ein rosa"
 	cont "SMETTBO gesehen!"
 	done
 .SeenText:
 	text "Was geschah mit"
-	line "dem roten"
-	cont "GARADOS?"
+	line "dem roten GARADOS?"
 
 	para "Es ist fort?"
 
 	para "Oh, dann bin ich"
-	line "umsonst hergekom-"
-	cont "men."
+	line "umsonst"
+	cont "hergekommen."
 
-	para "Ich weiß was!"
-	line "Lass"
+	para "Ich weiß was! Lass"
 	line "uns kämpfen!"
 	done
 .BeatenText:
@@ -406,8 +389,7 @@ GenericTrainerCooltrainerfLois:
 GenericTrainerFisherAndre:
 	generictrainer FISHER, ANDRE, EVENT_BEAT_FISHER_ANDRE, FisherAndreSeenText, FisherAndreBeatenText
 
-	text "Ich werde mich"
-	line "als"
+	text "Ich werde mich als"
 	line "Angler beweisen."
 	cont "Ich werde tagein,"
 	cont "tagaus #mon"
@@ -416,8 +398,7 @@ GenericTrainerFisherAndre:
 FisherAndreSeenText:
 	text "Lass die #mon,"
 	line "die ich gerade"
-	cont "ge-"
-	cont "fangen habe,"
+	cont "gefangen habe,"
 	cont "kämpfen!"
 	done
 
@@ -427,8 +408,7 @@ FisherAndreSeenText:
 
 FisherAndreBeatenText:
 	text "Ich mag zwar ein"
-	line "guter Angler"
-	cont "sein,"
+	line "guter Angler sein,"
 
 	para "aber als Trainer"
 	line "habe ich versagt…"
@@ -442,15 +422,15 @@ GenericTrainerFisherRaymond:
 	generictrainer FISHER, RAYMOND, EVENT_BEAT_FISHER_RAYMOND, FisherRaymondSeenText, FisherRaymondBeatenText
 
 	text "Warum kann ich"
-	line "keine guten #-"
-	cont "MON fangen?"
+	line "keine guten"
+	cont "#mon fangen?"
 	done
 FisherRaymondSeenText:
 	text "Ich kann tun, was"
 	line "ich will. Ich"
-	cont "fan-"
-	cont "ge immer nur die"
-	cont "gleichen #mon…"
+	cont "fange immer nur"
+	cont "die gleichen"
+	cont "#mon…"
 	done
 
 
@@ -474,8 +454,8 @@ LakeOfRageGrampsScript:
 	text "Die GARADOS sind"
 	line "wütend!"
 
-	para "Das ist ein"
-	line "böses Omen!"
+	para "Das ist ein böses"
+	line "Omen!"
 	done
 
 .Text2:
@@ -484,19 +464,15 @@ LakeOfRageGrampsScript:
 	done
 LakeOfRageSuperNerdText:
 	text "Ich habe gehört,"
-	line "dieser See ent-"
-	cont "stand durch"
-	cont "wüten-"
-	cont "de GARADOS."
+	line "dieser See"
+	cont "entstand durch"
+	cont "wütende GARADOS."
 
-	para "Ich frage mich,"
-	line "ob"
-	line "da eine"
-	cont "Verbindung"
+	para "Ich frage mich, ob"
+	line "da eine Verbindung"
 
 	para "zu der momentanen"
-	line "Situation"
-	cont "besteht!"
+	line "Situation besteht!"
 	done
 
 
@@ -505,15 +481,14 @@ LakeOfRageSuperNerdText:
 
 LakeOfRageCooltrainerFText:
 	text "Täuschen mich"
-	line "mei-"
-	line "ne Augen? Ich sah"
+	line "meine Augen? Ich"
+	cont "sah"
 
 	para "ein rotes GARADOS"
 	line "im SEE…"
 
 	para "Aber ich dachte,"
-	line "GARADOS sind"
-	cont "blau!"
+	line "GARADOS sind blau!"
 	done
 
 

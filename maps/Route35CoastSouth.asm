@@ -27,8 +27,7 @@ Route35CoastSouth_MapScriptHeader:
 GenericTrainerSwimmermWalter:
 	generictrainer SWIMMERM, WALTER, EVENT_BEAT_SWIMMERM_WALTER, SwimmermWalterSeenText, SwimmermWalterBeatenText
 
-	text "Die Sonne"
-	line "spiegelt"
+	text "Die Sonne spiegelt"
 	line "sich im Wasser —"
 
 	para "und ich hab mich"
@@ -57,8 +56,7 @@ GenericTrainerBird_keeperBryan:
 	generictrainer BIRD_KEEPER, BRYAN, EVENT_BEAT_BIRD_KEEPER_BRYAN, Bird_keeperBryanSeenText, Bird_keeperBryanBeatenText
 
 	text "Manche #mon"
-	line "rennen sofort"
-	cont "weg."
+	line "rennen sofort weg."
 
 	para "Versuche, sie mit"
 	line "KURTs TURBOBALL"
@@ -70,26 +68,24 @@ GenericTrainerBird_keeperBryan:
 	cont "sie zu KURT."
 
 	para "Er macht dann"
-	line "daraus einen maß-"
-	cont "gefertigten"
+	line "daraus einen"
+	cont "maßgefertigten"
 	cont "#BALL."
 	done
 GenericTrainerSrandjrBeaandmay1:
 	generictrainer SR_AND_JR, BEAANDMAY1, EVENT_BEAT_SR_AND_JR_BEA_AND_MAY, SrandjrBeaandmay1SeenText, SrandjrBeaandmay1BeatenText
 
 	text "Bea: Ich bringe"
-	line "May"
-	line "bei, stärker zu"
-	cont "werden."
+	line "May bei, stärker"
+	cont "zu werden."
 	done
 
 GenericTrainerSrandjrBeaandmay2:
 	generictrainer SR_AND_JR, BEAANDMAY2, EVENT_BEAT_SR_AND_JR_BEA_AND_MAY, SrandjrBeaandmay2SeenText, SrandjrBeaandmay2BeatenText
 
 	text "May: Ich frage"
-	line "Bea,"
-	line "wie ich stärker"
-	cont "werde."
+	line "Bea, wie ich"
+	cont "stärker werde."
 	done
 
 GenericTrainerSailorHarvey:
@@ -98,9 +94,9 @@ GenericTrainerSailorHarvey:
 	text "Der Einzige, auf"
 	line "den du dich auf"
 
-	para "hoher See verlas-"
-	line "sen kannst, bist"
-	cont "du selbst!"
+	para "hoher See"
+	line "verlassen kannst,"
+	cont "bist du selbst!"
 
 	para "Ich bin so stolz"
 	line "auf mich selbst!"
@@ -109,12 +105,10 @@ GenericTrainerLassRose:
 	generictrainer LASS, ROSE, EVENT_BEAT_LASS_ROSE, LassRoseSeenText, LassRoseBeatenText
 
 	text "Du hast meine"
-	line "armen"
-	line "Welt-#mon"
+	line "armen Welt-#mon"
 	cont "verletzt!"
 
-	para "Heile sie in"
-	line "einem"
+	para "Heile sie in einem"
 	line "#mon-Center!"
 	done
 
@@ -122,8 +116,7 @@ SwimmermWalterSeenText:
 	text "Ich hab Sonnen-"
 	line "creme vergessen"
 
-	para "und verstecke"
-	line "mich"
+	para "und verstecke mich"
 	line "hinter diesen"
 	cont "Felsen."
 	done
@@ -147,9 +140,8 @@ SwimmerfLisaBeatenText:
 
 SwimmerfJillSeenText:
 	text "Stehe ich in"
-	line "diesem"
-	line "Bikini nicht gut"
-	cont "aus?"
+	line "diesem Bikini"
+	cont "nicht gut aus?"
 	done
 
 SwimmerfJillBeatenText:
@@ -158,8 +150,8 @@ SwimmerfJillBeatenText:
 
 Bird_keeperBryanSeenText:
 	text "Welche Art von"
-	line "#BALL"
-	cont "benutzt du?"
+	line "#BALL benutzt"
+	cont "du?"
 	done
 Bird_keeperBryanBeatenText:
 	text "Mist! Nicht"
@@ -172,10 +164,8 @@ SrandjrBeaandmay1SeenText:
 
 	para "niedliche #mon."
 
-	para "Zusammen haben"
-	line "wir"
-	line "aber niedliche"
-	cont "und"
+	para "Zusammen haben wir"
+	line "aber niedliche und"
 	cont "starke #mon!"
 	done
 
@@ -192,11 +182,9 @@ SrandjrBeaandmay2SeenText:
 	para "lieber als starke"
 	line "#mon."
 
-	para "Zusammen haben"
-	line "wir"
+	para "Zusammen haben wir"
 	line "starke und"
-	cont "niedliche"
-	cont "#mon!"
+	cont "niedliche #mon!"
 	done
 
 SrandjrBeaandmay2BeatenText:
@@ -221,13 +209,12 @@ SailorHarveyBeatenText:
 
 LassRoseSeenText:
 	text "Diese #mon habe"
-	line "ich aus aller"
-	cont "Welt"
+	line "ich aus aller Welt"
 	cont "gesammelt!"
 	done
 
 LassRoseBeatenText:
-	text "Ach nein!"
-	line "Dafür bin ich um"
-	cont "die Welt gereist!"
+	text "Ach nein! Dafür"
+	line "bin ich um die"
+	cont "Welt gereist!"
 	done

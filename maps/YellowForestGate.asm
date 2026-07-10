@@ -38,13 +38,12 @@ YellowForestGateNurseScript:
 
 YellowForestGateOfficerText:
 	text "Im Gelben Wald"
-	line "gibt"
-	line "es seltene"
+	line "gibt es seltene"
 	cont "#mon!"
 
 	para "Vergiss nicht,"
-	line "#bälle mitzu-"
-	cont "nehmen!"
+	line "#bälle"
+	cont "mitzunehmen!"
 
 	para "Der Typ dort"
 	line "verkauft welche."
@@ -52,11 +51,11 @@ YellowForestGateOfficerText:
 
 YellowForestGateNurseText:
 	text "Deine #mon"
-	line "sehen"
-	cont "mitgenommen aus."
+	line "sehen mitgenommen"
+	cont "aus."
 
-	para "Ich heile sie"
-	line "für dich."
+	para "Ich heile sie für"
+	line "dich."
 	done
 
 

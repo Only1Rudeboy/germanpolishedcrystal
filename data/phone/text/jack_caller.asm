@@ -36,15 +36,13 @@ JackBattleRematchText:
 	text "Lust zu kämpfen?"
 	line "Ich zeige dir"
 
-	para "logisches"
-	line "Kämpfen."
+	para "logisches Kämpfen."
 	line "Ich bin auf"
 
 	para ""
 	text_ram wStringBuffer5
-	text "."
-	line "Ruf, wenn du da"
-	cont "bist."
+	text ". Ruf, wenn du da"
+	line "bist."
 	done
 
 JackHangUpText:
@@ -70,8 +68,8 @@ JackSolarbeamTriviaText:
 	text "Wusstest du…?"
 
 	para "Bei starkem"
-	line "Sonnen-"
-	line "licht braucht"
+	line "Sonnenlicht"
+	cont "braucht"
 	cont "Solarstrahl keine"
 	cont "Aufladung."
 	done
@@ -89,22 +87,20 @@ JackGustTriviaText:
 
 	para "Gegen fliegende"
 	line "Gegner wird"
-	cont "Windstoß"
-	cont "viel stärker."
+	cont "Windstoß viel"
+	cont "stärker."
 	done
 
 JackKnockOffTriviaText:
 	text "Wusstest du…?"
 
 	para "Wenn der Gegner"
-	line "ein"
-	line "Item trägt, das"
+	line "ein Item trägt,"
+	cont "das"
 
-	para "Abschlag"
-	line "entfernen"
+	para "Abschlag entfernen"
 	line "kann, wird"
-	cont "Abschlag"
-	cont "stärker."
+	cont "Abschlag stärker."
 	done
 
 JackEarthquakeTriviaText:
@@ -136,10 +132,8 @@ JackSunnyDayTriviaText:
 	text "Wusstest du…?"
 
 	para "Bei starkem"
-	line "Sonnen-"
-	line "licht werden"
-	cont "Wasser-"
-	cont "Attacken"
+	line "Sonnenlicht werden"
+	cont "Wasser- Attacken"
 	cont "schwächer."
 	done
 
@@ -148,8 +142,7 @@ JackRainDanceTriviaText:
 
 	para "Bei Regen werden"
 	line "Feuer-Attacken"
-	cont "viel"
-	cont "schwächer."
+	cont "viel schwächer."
 	done
 
 JackHeardSomeGreatTipsText:
@@ -157,16 +150,14 @@ JackHeardSomeGreatTipsText:
 	line "tolle Tipps."
 
 	para "Er erzählt sie"
-	line "mir."
-	line "Dann ruf ich dich"
-	cont "sofort an."
+	line "mir. Dann ruf ich"
+	cont "dich sofort an."
 	done
 
 JackReminderText:
 	text "Hey, <PLAYER>!"
 
-	para "Erinnerst du"
-	line "dich?"
+	para "Erinnerst du dich?"
 	line "Wir wollten"
 	cont "kämpfen!"
 

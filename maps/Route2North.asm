@@ -27,13 +27,11 @@ Route2North_MapScriptHeader:
 GenericTrainerBug_maniacEd:
 	generictrainer BUG_MANIAC, ED, EVENT_BEAT_BUG_MANIAC_ED, Bug_maniacEdSeenText, Bug_maniacEdBeatenText
 
-	text "Sie stechen,"
-	line "wenn du ein Bad"
-	cont "nimmst."
+	text "Sie stechen, wenn"
+	line "du ein Bad nimmst."
 	done
 Bug_maniacEdSeenText:
-	text "Wenn du mit"
-	line "Shorts"
+	text "Wenn du mit Shorts"
 	line "in hohem Gras"
 
 	para "läufst, bekommst"
@@ -48,8 +46,8 @@ Route2NorthCooltrainermText:
 	line "eine Sackgasse."
 
 	para "Der Ausgang nach"
-	line "ORANIA CITY"
-	line "ist blockiert"
+	line "ORANIA CITY ist"
+	cont "blockiert"
 
 	para "von einem"
 	line "schlafenden"

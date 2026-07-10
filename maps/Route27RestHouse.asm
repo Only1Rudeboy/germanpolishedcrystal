@@ -31,8 +31,7 @@ Route27RestHouseGranny:
 	ifgreater FRIEND_BALL_HAPPINESS - 1, .Loyal
 	jumpthisopenedtext
 
-	text "Falls es dir"
-	line "nicht"
+	text "Falls es dir nicht"
 	line "mehr Vertrauen"
 
 	para "schenkt, wird es"
@@ -73,17 +72,16 @@ Route27RestHouseGranny:
 	line "eine Attacke,"
 
 	para "die deine"
-	line "Fähigkeit mit"
-	cont "der deines"
-	cont "Gegners tauscht."
+	line "Fähigkeit mit der"
+	cont "deines Gegners"
+	cont "tauscht."
 
-	para "Nur für"
-	line "erfahrene"
-	cont "Trainer!"
+	para "Nur für erfahrene"
+	line "Trainer!"
 
-	para "Nutze sie, wenn"
-	line "du dich traust."
-	cont "Viel Glück!"
+	para "Nutze sie, wenn du"
+	line "dich traust. Viel"
+	cont "Glück!"
 	done
 
 .IntroText:
@@ -93,8 +91,8 @@ Route27RestHouseGranny:
 	para "Zur #mon-Liga?"
 
 	para "Sind deine #mon"
-	line "treu genug für"
-	cont "den Sieg?"
+	line "treu genug für den"
+	cont "Sieg?"
 
 	para "Mal sehen…"
 	done
@@ -106,17 +104,15 @@ Route27RestHouseGranny:
 
 .QuestionText:
 	text "Ah! Dein #mon"
-	line "vertraut dir"
-	cont "sehr."
+	line "vertraut dir sehr."
 
-	para "Schön, einen"
-	line "guten Trainer"
-	cont "zu sehen."
+	para "Schön, einen guten"
+	line "Trainer zu sehen."
 
-	para "Ich kann ihm"
-	line "meine Geheim-"
-	cont "technik Skill"
-	cont "Swap beibringen."
+	para "Ich kann ihm meine"
+	line "Geheimtechnik"
+	cont "Skill Swap"
+	cont "beibringen."
 
 	para "Wenn du willst,"
 	line "natürlich."

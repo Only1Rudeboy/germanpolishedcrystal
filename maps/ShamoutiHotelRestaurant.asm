@@ -75,8 +75,7 @@ ShamoutiHotelRestaurantChallengeScript:
 	line "ein neues Menü."
 
 	para "Der Preis ist"
-	line "¥5000. Möchtest"
-	cont "du"
+	line "¥5000. Möchtest du"
 	cont "reinkommen?"
 	done
 
@@ -90,8 +89,8 @@ ShamoutiHotelRestaurantChallengeScript:
 	done
 
 .NeverMindText:
-	text "Verstehe."
-	line "Schönen Tag noch!"
+	text "Verstehe. Schönen"
+	line "Tag noch!"
 	done
 
 .NotEnoughMoneyText:
@@ -125,11 +124,11 @@ ShamoutiHotelRestaurantLeavingTrigger1:
 	done
 
 .GoodbyeText:
-	text "Danke für"
-	line "deinen Besuch."
+	text "Danke für deinen"
+	line "Besuch."
 
-	para "Komm morgen"
-	line "wieder vorbei!"
+	para "Komm morgen wieder"
+	line "vorbei!"
 	done
 
 ShamoutiHotelRestaurantLeaveScript:

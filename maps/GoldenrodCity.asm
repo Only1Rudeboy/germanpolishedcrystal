@@ -184,8 +184,8 @@ MoveTutor:
 	special Special_DisplayCoinCaseBalance
 	jumpthisopenedtext
 
-	text "Wahahah!"
-	line "Guten Tag, Kind!"
+	text "Wahahah! Guten"
+	line "Tag, Kind!"
 	done
 
 .NotEnoughMoney:
@@ -266,20 +266,18 @@ GoldenrodCityPanUpMovementData:
 	step_end
 
 GoldenrodCityPokefanMText:
-	text "Der neue"
-	line "RADIOTURM"
+	text "Der neue RADIOTURM"
 	line "wurde erbaut, um"
 
-	para "den alten zu er-"
-	line "setzen."
+	para "den alten zu"
+	line "ersetzen."
 	done
 
 
 
 GoldenrodCityYoungster1Text:
 	text "Es soll einen"
-	line "neu-"
-	line "en FAHRRADLADEN"
+	line "neuen FAHRRADLADEN"
 
 	para "geben, aber ich"
 	line "kann ihn nirgends"
@@ -305,15 +303,15 @@ GoldenrodCityCooltrainerF2Text:
 	line "DUKATIA CITY ist"
 	cont "ein Wahrzeichen."
 
-	para "Zurzeit läuft ge-"
-	line "rade eine Werbe-"
-	cont "kampagne."
+	para "Zurzeit läuft"
+	line "gerade eine"
+	cont "Werbekampagne."
 
 	para "Man kann deinen"
-	line "#COM modifi-"
-	cont "zieren, so dass"
-	cont "er"
-	cont "auch als Radio"
+	line "#COM"
+	cont "modifizieren, so"
+	cont "dass er auch als"
+	cont "Radio"
 
 	para "verwendet werden"
 	line "kann."
@@ -322,12 +320,11 @@ GoldenrodCityCooltrainerF2Text:
 
 
 GoldenrodCityCooltrainerFOlivineText:
-	text "Ich kam mit dem"
-	line "MS AQUA her."
+	text "Ich kam mit dem MS"
+	line "AQUA her."
 
 	para "Es ist langsamer"
-	line "als der"
-	cont "MAGNETZUG,"
+	line "als der MAGNETZUG,"
 
 	para "aber die Aussicht"
 	line "ist schöner."
@@ -339,22 +336,20 @@ GoldenrodCityYoungster2Text:
 	text "E-he-he-he…"
 
 	para "Ich habe Ärger"
-	line "be-"
-	line "kommen, weil ich"
+	line "bekommen, weil ich"
 
 	para "im Keller des"
-	line "KAUFHAUSes ge-"
-	cont "spielt habe."
+	line "KAUFHAUSes"
+	cont "gespielt habe."
 	done
 
 
 
 GoldenrodCityLassText:
-	text "Der Mann in"
-	line "diesem"
+	text "Der Mann in diesem"
 	line "Haus bewertet"
-	cont "dei-"
-	cont "ne #mon-Namen."
+	cont "deine"
+	cont "#mon-Namen."
 
 	para "Er kann deine"
 	line "#mon auch"
@@ -368,8 +363,7 @@ GoldenrodCityGrampsText:
 	line "große Stadt. Ich"
 
 	para "finde mich noch"
-	line "gar nicht"
-	cont "zurecht."
+	line "gar nicht zurecht."
 	done
 
 
@@ -390,19 +384,17 @@ GoldenrodCityRocketScoutText2:
 
 
 GoldenrodCityRocket1Text:
-	text "Aus dem Weg! Ver-"
-	line "schwinde!"
+	text "Aus dem Weg!"
+	line "Verschwinde!"
 	done
 
 
 
 GoldenrodCityRocket2Text:
 	text "Den RADIOTURM"
-	line "ein-"
-	line "nehmen…"
+	line "einnehmen…"
 
-	para "Was? Das geht"
-	line "dich"
+	para "Was? Das geht dich"
 	line "nichts an!"
 	done
 
@@ -420,9 +412,8 @@ GoldenrodCityRocket3Text:
 
 GoldenrodCityRocket4Text:
 	text "Bald wird sich"
-	line "un-"
-	line "ser Traum er-"
-	cont "füllen…"
+	line "unser Traum"
+	cont "erfüllen…"
 
 	para "So lange hat es"
 	line "schon gedauert…"
@@ -431,8 +422,7 @@ GoldenrodCityRocket4Text:
 
 
 GoldenrodCityRocket5Text:
-	text "Hey,"
-	line "Grünschnabel!"
+	text "Hey, Grünschnabel!"
 	line "Du hast hier"
 	cont "nichts zu suchen!"
 	done
@@ -454,8 +444,8 @@ GoldenrodCityGymLassText:
 	para "Sie rannte raus"
 	line "und rief:"
 
-	para "“Ich brauche"
-	line "eine Radiokarte!”"
+	para "“Ich brauche eine"
+	line "Radiokarte!”"
 	done
 
 GoldenrodCityStationSignText:
@@ -497,8 +487,8 @@ GoldenrodCitySignText:
 	text "DUKATIA CITY"
 
 	para "Die festliche"
-	line "Stadt mit opulen-"
-	cont "tem Charme"
+	line "Stadt mit"
+	cont "opulentem Charme"
 	done
 
 
@@ -524,8 +514,8 @@ GoldenrodCityNameRaterSignText:
 	text "NAMEN-BEWERTER"
 
 	para "Möchtest du deine"
-	line "Spitznamen bewer-"
-	cont "ten lassen?"
+	line "Spitznamen"
+	cont "bewerten lassen?"
 	done
 
 
@@ -535,8 +525,7 @@ GoldenrodCityUndergroundSignText:
 	line "EINGANG"
 	done
 PokeComCenterSignText:
-	text "Vernetze die"
-	line "Welt!"
+	text "Vernetze die Welt!"
 	line "#Com Center"
 	done
 
@@ -548,8 +537,8 @@ GoldenrodCityFlowerShopSignText:
 
 
 GoldenrodMuseumSignText:
-	text "Museum von"
-	line "DUKATIA CITY"
+	text "Museum von DUKATIA"
+	line "CITY"
 
 	para "Große Eröffnung!"
 
@@ -573,23 +562,21 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
 	text "Das kostet dich"
-	line "4000 Münzen."
-	cont "In Ordnung?"
+	line "4000 Münzen. In"
+	cont "Ordnung?"
 	done
 
 
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Uah… aber sie"
-	line "sind"
+	text "Uah… aber sie sind"
 	line "wirklich toll…"
 	done
 
 
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
-	text "Wahahah! Das"
-	line "wirst"
+	text "Wahahah! Das wirst"
 	line "du nicht bereuen!"
 
 	para "Welche Attacke"
@@ -599,8 +586,7 @@ GoldenrodCityMoveTutorWhichMoveShouldITeachText:
 
 
 GoldenrodCityMoveTutorHmTooBadText:
-	text "Hm, Mist. Ich"
-	line "muss"
+	text "Hm, Mist. Ich muss"
 	line "noch Geld von zu"
 	cont "Hause holen…"
 	done
@@ -608,8 +594,7 @@ GoldenrodCityMoveTutorHmTooBadText:
 
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "Wenn du"
-	line "verstehst,"
+	text "Wenn du verstehst,"
 	line "was an dieser"
 
 	para "Attacke so toll"

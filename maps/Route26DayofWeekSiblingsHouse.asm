@@ -47,8 +47,7 @@ DayOfWeekSiblingsHousePokedexText2:
 	cont "gib ihm etwas"
 	cont "Nützliches."
 
-	para "Eure"
-	line "MONJA"
+	para "Eure MONJA"
 
 	para "Weiterlesen?"
 	done
@@ -57,15 +56,13 @@ DayOfWeekSiblingsHousePokedexText3:
 	line "ROUTE 40"
 
 	para "Dienstag,"
-	line "DIETLINDE"
-	cont "ROUTE 29"
+	line "DIETLINDE ROUTE 29"
 
 	para "Mittwoch, MITKO"
 	line "SEE DES ZORNS"
 
 	para "Donnerstag,"
-	line "DONATUS"
-	cont "ROUTE 36"
+	line "DONATUS ROUTE 36"
 
 	para "Freitag, FRIEDA"
 	line "ROUTE 32"
@@ -73,7 +70,6 @@ DayOfWeekSiblingsHousePokedexText3:
 	para "Samstag, SAMSON"
 	line "EBENHOLZ CITY"
 
-	para "Sonntag,"
-	line "SONNFRIED"
+	para "Sonntag, SONNFRIED"
 	line "ROUTE 37"
 	done

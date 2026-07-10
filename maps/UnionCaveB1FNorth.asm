@@ -25,9 +25,9 @@ GenericTrainerRuin_maniacLeland:
 	generictrainer RUIN_MANIAC, LELAND, EVENT_BEAT_RUIN_MANIAC_LELAND, .SeenText, .BeatenText
 
 	text "Eines Tages"
-	line "entdecke ich"
-	cont "neue Ruinen und"
-	cont "werde berühmt."
+	line "entdecke ich neue"
+	cont "Ruinen und werde"
+	cont "berühmt."
 	done
 
 .SeenText:
@@ -51,9 +51,8 @@ GenericTrainerRuin_maniacPetry:
 
 	para "aber um sie"
 	line "richtig zu"
-	line "erforschen,"
-	cont "nutzen wir"
-	cont "moderne"
+	cont "erforschen, nutzen"
+	cont "wir moderne"
 	cont "Technik."
 	done
 
@@ -67,6 +66,6 @@ GenericTrainerRuin_maniacPetry:
 
 .BeatenText:
 	text "Was ist das"
-	line "Geheim-"
-	line "nis deiner Kraft?"
+	line "Geheimnis deiner"
+	cont "Kraft?"
 	done

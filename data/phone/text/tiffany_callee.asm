@@ -31,8 +31,8 @@ TiffanyAnswerPhoneNiteText:
 TiffanyGreetText:
 	text "Bist du <PLAYER>?"
 
-	para "Guten Morgen."
-	line "Hier ist "
+	para "Guten Morgen. Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 	done
@@ -49,8 +49,8 @@ TiffanyGreetDayText:
 TiffanyGreetNiteText:
 	text "Bist du <PLAYER>?"
 
-	para "Guten Abend."
-	line "Hier ist "
+	para "Guten Abend. Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 	done
@@ -73,7 +73,7 @@ TiffanyGenericText:
 	cont "und munter,"
 
 	para "weil ich es"
-	line "täglich"
-	line "ins #mon-Center"
+	line "täglich ins"
+	cont "#mon-Center"
 	cont "bringe."
 	done

@@ -20,8 +20,7 @@ FuchsiaMartFisherText:
 	text "Ich wollte einen"
 	line "Geschenkartikel"
 
-	para "in der"
-	line "SAFARI-ZONE"
+	para "in der SAFARI-ZONE"
 	line "kaufen, aber sie"
 	cont "ist geschlossen…"
 	done

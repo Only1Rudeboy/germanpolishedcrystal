@@ -73,9 +73,9 @@ OfficermKeithScript:
 GenericTrainerBugManiacLou:
 	generictrainer BUG_MANIAC, LOU, EVENT_BEAT_BUG_MANIAC_LOU, BugManiacLouSeenText, BugManiacLouBeatenText
 
-	text "Früher war ich"
-	line "nur ein Käfer-"
-	line "Sammler,"
+	text "Früher war ich nur"
+	line "ein Käfer-"
+	cont "Sammler,"
 
 	para "doch ich hab mich"
 	line "zum Käfer-Maniac"
@@ -86,16 +86,16 @@ GenericTrainerSchoolgirlEliza:
 	generictrainer SCHOOLGIRL, ELIZA, EVENT_BEAT_SCHOOLGIRL_ELIZA, SchoolgirlElizaSeenText, SchoolgirlElizaBeatenText
 
 	text "Das ist mir egal!"
-	line "Ich liebe"
-	cont "Myrapla trotzdem!"
+	line "Ich liebe Myrapla"
+	cont "trotzdem!"
 	done
 
 GenericTrainerSchoolboyJohnny:
 	generictrainer SCHOOLBOY, JOHNNY, EVENT_BEAT_SCHOOLBOY_JOHNNY, SchoolboyJohnnySeenText, SchoolboyJohnnyBeatenText
 
 	text "Na ja, ich mag"
-	line "Sonnkern"
-	cont "trotzdem lieber!"
+	line "Sonnkern trotzdem"
+	cont "lieber!"
 	done
 
 NationalParkGameboyKidScript:
@@ -272,8 +272,7 @@ PokefanfBeverly1Script:
 	line "liebenswert."
 
 	para "Ich hätte gerne"
-	line "selbst ein"
-	cont "MARILL…"
+	line "selbst ein MARILL…"
 	done
 
 .AskNumber1:
@@ -321,10 +320,9 @@ NationalParkLassText:
 
 
 NationalParkPokefanFText:
-	text "Das ist ein"
-	line "BRIEF von meiner"
-	cont "Tochter. Das"
-	cont "macht"
+	text "Das ist ein BRIEF"
+	line "von meiner"
+	cont "Tochter. Das macht"
 	cont "mir Freude."
 	done
 
@@ -351,12 +349,10 @@ NationalParkTeacher1Text:
 
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Gib die"
-	line "FLINKKLAUE"
+	text "Gib die FLINKKLAUE"
 	line "einem #mon."
 
-	para "Manchmal erhält"
-	line "es"
+	para "Manchmal erhält es"
 	line "durch sie die"
 	cont "Initiative."
 	done
@@ -387,12 +383,11 @@ SchoolboyJohnnyBeatenText:
 	done
 
 NationalParkTeacher2Text:
-	text "Ich gehe oft"
-	line "im PARK"
-	cont "spazieren,"
+	text "Ich gehe oft im"
+	line "PARK spazieren,"
 
-	para "aber ich meide"
-	line "das hohe Gras."
+	para "aber ich meide das"
+	line "hohe Gras."
 
 	para "Trainer möchten"
 	line "immer kämpfen…"
@@ -400,8 +395,7 @@ NationalParkTeacher2Text:
 
 
 NationalParkPersianText:
-	text "SNOBILIKAT:"
-	line "Fauch!"
+	text "SNOBILIKAT: Fauch!"
 	done
 
 
@@ -421,14 +415,12 @@ SchoolboyJack1SeenText:
 	text "Die #mon-Welt"
 	line "bietet dir viel."
 
-	para "Es gibt noch"
-	line "viele"
+	para "Es gibt noch viele"
 	line "Dinge, über die"
-	cont "wir nichts"
-	cont "wissen."
+	cont "wir nichts wissen."
 
-	para "Aber ich weiß"
-	line "mehr als du!"
+	para "Aber ich weiß mehr"
+	line "als du!"
 	done
 
 
@@ -438,14 +430,14 @@ SchoolboyJack1BeatenText:
 
 
 SchoolboyJackTradeMonText:
-	text "Man kann noch"
-	line "viel lernen."
+	text "Man kann noch viel"
+	line "lernen."
 
 	para "Zum Beispiel…"
 
 	para "Es gibt"
 	line "{d:NUM_TMS}"
-	line "verschiedene TMs."
+	cont "verschiedene TMs."
 
 	para "Getauschte #mon"
 	line "erhalten mehr"
@@ -483,8 +475,7 @@ PokefanmWilliamSeenText:
 	cont "auch wenn sie uns"
 	cont "nicht mögen."
 
-	para "Das macht eben"
-	line "den"
+	para "Das macht eben den"
 	line "wahren FAN aus."
 	done
 
@@ -496,8 +487,8 @@ PokefanmWilliamBeatenText:
 
 LassKriseSeenText:
 	text "Was ist? Warum"
-	line "starrst du mich"
-	cont "so an?"
+	line "starrst du mich so"
+	cont "an?"
 
 	para "Ach, ein Kampf?"
 	done
@@ -526,8 +517,8 @@ OfficermKeithSeenText:
 	done
 
 OfficermKeithWinText:
-	text "Du kannst dich"
-	line "gut wehren!"
+	text "Du kannst dich gut"
+	line "wehren!"
 	done
 
 OfficermKeithAfterText:
@@ -535,8 +526,8 @@ OfficermKeithAfterText:
 	line "nachts offen,"
 
 	para "weil Polizisten"
-	line "wie ich ihn"
-	cont "sicher halten!"
+	line "wie ich ihn sicher"
+	cont "halten!"
 	done
 
 OfficermKeithDaytimeText:
@@ -560,12 +551,11 @@ NationalParkBattleNoticeText:
 	text "Was steht denn"
 	line "hier?"
 
-	para "Kämpfe sind nur"
-	line "im Gras"
-	cont "gestattet."
+	para "Kämpfe sind nur im"
+	line "Gras gestattet."
 
-	para "NATIONALPARK"
-	line "BÜRO DES WÄCHTERs"
+	para "NATIONALPARK BÜRO"
+	line "DES WÄCHTERs"
 	done
 
 

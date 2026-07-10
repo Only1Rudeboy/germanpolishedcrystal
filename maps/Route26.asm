@@ -135,12 +135,10 @@ GenericTrainerCooltrainerfJoyce:
 	line "ARENALEITER, also"
 
 	para "hatte ich genug"
-	line "Selbstbewusstsei-"
-	cont "n."
+	line "Selbstbewusstsein."
 
 	para "Das nächste Mal"
-	line "muss ich mich"
-	cont "mehr"
+	line "muss ich mich mehr"
 	cont "anstrengen."
 	done
 TrainerCooltrainerfBeth1:
@@ -231,28 +229,26 @@ TrainerCooltrainerfBeth1:
 GenericTrainerPsychicRichard:
 	generictrainer PSYCHIC_T, RICHARD, EVENT_BEAT_PSYCHIC_RICHARD, PsychicRichardSeenText, PsychicRichardBeatenText
 
-	text "Menschen und #-"
-	line "MON wachsen mit"
-	cont "ihren"
+	text "Menschen und"
+	line "#mon wachsen"
+	cont "mit ihren"
 	cont "Erfahrungen."
 
 	para "Du darfst nicht"
 	line "faul und"
-	cont "selbstge-"
-	cont "fällig werden."
+	cont "selbstgefällig"
+	cont "werden."
 	done
 GenericTrainerBattleGirlRonda:
 	generictrainer BATTLE_GIRL, RONDA, EVENT_BEAT_BATTLE_GIRL_RONDA, BattleGirlRondaSeenText, BattleGirlRondaBeatenText
 
-	text "Hier kommen"
-	line "einige"
+	text "Hier kommen einige"
 	line "der stärksten"
 
 	para "Trainer der Welt"
 	line "vorbei."
 
-	para "Und ich darf"
-	line "gegen"
+	para "Und ich darf gegen"
 	line "alle kämpfen!"
 	done
 
@@ -272,17 +268,16 @@ GenericTrainerDragonTamerErick:
 	text "Die SIEGESSTRASSE"
 	line "ist hart."
 
-	para "Jeder Trainer"
-	line "muss seinen"
-	line "eigenen Weg"
+	para "Jeder Trainer muss"
+	line "seinen eigenen Weg"
 	cont "durch sie finden."
 	done
 
 DragonTamerKazuSeenText:
 	text "Ich treffe die"
-	line "letzten Vorberei-"
-	cont "tungen für die"
-	cont "#mon LIGA."
+	line "letzten"
+	cont "Vorbereitungen für"
+	cont "die #mon LIGA."
 	done
 DragonTamerKazuBeatenText:
 	text "Ich habe es"
@@ -290,13 +285,12 @@ DragonTamerKazuBeatenText:
 	done
 CooltrainermGaven1SeenText:
 	text "Wenn du harte"
-	line "Kämpfe bestrei-"
-	cont "test, wirst du"
-	cont "stärker."
+	line "Kämpfe"
+	cont "bestreitest, wirst"
+	cont "du stärker."
 	done
 CooltrainermGaven1BeatenText:
-	text "Gah! Das Leben"
-	line "ist"
+	text "Gah! Das Leben ist"
 	line "noch härter!"
 	done
 CooltrainermGavenAfterText:
@@ -321,12 +315,12 @@ CooltrainermGavenAfterText:
 CooltrainerfJoyceSeenText:
 	text "Da du es bis"
 	line "hierher geschafft"
-	cont "hast, musst du"
-	cont "gut sein."
+	cont "hast, musst du gut"
+	cont "sein."
 
 	para "Ich werde in"
-	line "diesem Kampf"
-	cont "alles geben!"
+	line "diesem Kampf alles"
+	cont "geben!"
 	done
 
 
@@ -334,9 +328,8 @@ CooltrainerfJoyceSeenText:
 
 
 CooltrainerfJoyceBeatenText:
-	text "Nein! Ich kann"
-	line "das nicht"
-	cont "glauben!"
+	text "Nein! Ich kann das"
+	line "nicht glauben!"
 	done
 
 
@@ -349,11 +342,11 @@ CooltrainerfBeth1SeenText:
 	cont "namens <RIVAL>"
 	cont "verloren."
 
-	para "Er war sehr"
-	line "stark, aber…"
+	para "Er war sehr stark,"
+	line "aber…"
 
-	para "Es schien, als"
-	line "sei er vom Siegen"
+	para "Es schien, als sei"
+	line "er vom Siegen"
 	cont "besessen."
 
 	para "Seine #mon"
@@ -389,8 +382,7 @@ PsychicRichardSeenText:
 	line "die ORDEN an! Ich"
 	cont "bin beeindruckt."
 
-	para "Aber es reicht"
-	line "dir"
+	para "Aber es reicht dir"
 	line "nicht, sie nur zu"
 
 	para "sammeln, oder?"
@@ -409,14 +401,13 @@ PsychicRichardBeatenText:
 
 
 BattleGirlRondaSeenText:
-	text "Halt! Ich"
-	line "fordere dich zum"
-	cont "Duell heraus!"
+	text "Halt! Ich fordere"
+	line "dich zum Duell"
+	cont "heraus!"
 	done
 
 BattleGirlRondaBeatenText:
-	text "Der Sieg ist"
-	line "dein!"
+	text "Der Sieg ist dein!"
 	done
 
 FisherScottSeenText:

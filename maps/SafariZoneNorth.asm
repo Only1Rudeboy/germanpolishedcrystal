@@ -46,18 +46,17 @@ GenericTrainerYoungsterTyler:
 	generictrainer YOUNGSTER, TYLER, EVENT_BEAT_YOUNGSTER_TYLER, YoungsterTylerSeenText, YoungsterTylerBeatenText
 
 	text "#mon springen"
-	line "hervor, wenn du"
-	cont "es am wenigsten"
+	line "hervor, wenn du es"
+	cont "am wenigsten"
 	cont "erwartest."
 	done
 
 GenericTrainerBeautyRachael:
 	generictrainer BEAUTY, RACHAEL, EVENT_BEAT_BEAUTY_RACHAEL, BeautyRachaelSeenText, BeautyRachaelBeatenText
 
-	text "Vor einem Jahr"
-	line "war"
+	text "Vor einem Jahr war"
 	line "ich noch"
-	line "Schwarzgurt."
+	cont "Schwarzgurt."
 
 	para "Die Kraft der"
 	line "Medizin ist"
@@ -126,14 +125,13 @@ YoungsterTylerSeenText:
 	line "überall!"
 
 	para "Im Gras, im"
-	line "Wasser,"
-	line "in Höhlen oder"
-	cont "auf Bäumen!"
+	line "Wasser, in Höhlen"
+	cont "oder auf Bäumen!"
 	done
 
 YoungsterTylerBeatenText:
-	text "Ich muss weiter-"
-	line "suchen!"
+	text "Ich muss"
+	line "weitersuchen!"
 	done
 
 BeautyRachaelSeenText:
@@ -149,11 +147,10 @@ BeautyRachaelBeatenText:
 
 SafariZoneNorthCooltrainerFText:
 	text "Ich hab ein"
-	line "Chaneira"
-	cont "gefangen!"
+	line "Chaneira gefangen!"
 
-	para "Was für ein"
-	line "Glück! Ich bringe"
+	para "Was für ein Glück!"
+	line "Ich bringe"
 
 	para "ihm einen ganz"
 	line "starken Tackle"
@@ -195,11 +192,10 @@ SafariZoneNorthRestHouseSignText:
 SafariZoneNorthTrainerTips1SignText:
 	text "Trainer-Tipps"
 
-	para "Attacken"
-	line "desselben"
+	para "Attacken desselben"
 	line "Typs können"
-	cont "physisch,"
-	cont "speziell oder"
+	cont "physisch, speziell"
+	cont "oder"
 	cont "Status-Attacken"
 	cont "sein."
 	done
@@ -213,8 +209,8 @@ SafariZoneNorthTrainerTips2SignText:
 
 	para "Lauf im Zickzack"
 	line "durchs Gras, um"
-	cont "sie aufzuscheu-"
-	cont "chen."
+	cont "sie"
+	cont "aufzuscheuchen."
 	done
 
 SafariZoneNorthTrainerTips3SignText:

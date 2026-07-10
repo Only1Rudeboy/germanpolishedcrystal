@@ -17,36 +17,34 @@ InitialOptionDescriptions:
 
 .Natures:
 	text "Wesen erhöhen"
-	line "einen"
-	line "Wert, senken aber"
-	cont "einen anderen um"
-	cont "10%."
+	line "einen Wert, senken"
+	cont "aber einen anderen"
+	cont "um 10%."
 
-	para "Eingeführt in"
-	line "Gen. 3."
+	para "Eingeführt in Gen."
+	line "3."
 	prompt
 
 .Abilities:
-	text "Fähigkeiten"
-	line "wirken"
+	text "Fähigkeiten wirken"
 	line "im Kampf und"
 
 	para "auch außerhalb"
 	line "davon."
 
-	para "Eingeführt in"
-	line "Gen. 3."
+	para "Eingeführt in Gen."
+	line "3."
 	prompt
 
 .PSS:
 	text "Attacken sind"
 	line "physisch oder"
 	cont "speziell"
-	cont "unabhängig"
-	cont "vom Typ."
+	cont "unabhängig vom"
+	cont "Typ."
 
-	para "Eingeführt in"
-	line "Gen. 4."
+	para "Eingeführt in Gen."
+	line "4."
 	prompt
 
 .EVs:
@@ -79,18 +77,15 @@ InitialOptionDescriptions:
 	cont "bis Gen. 4 war"
 	cont "unskaliert."
 
-	para "Die neue Formel"
-	line "ab"
+	para "Die neue Formel ab"
 	line "Gen. 5 (wieder in"
 	cont "Gen. 7) gibt mehr"
 	cont "EP für stärkere"
-	cont "Gegner und"
-	cont "weniger"
+	cont "Gegner und weniger"
 	cont "für schwächere."
 
 	para "EP-Zuwachs kann"
-	line "auch"
-	cont "ausgeschaltet"
+	line "auch ausgeschaltet"
 	cont "werden, aber"
 
 	para "EP-Bonbons und"
@@ -107,15 +102,15 @@ InitialOptionDescriptions:
 	para "gute Freunde mit"
 	line "dir sind."
 
-	para "Eingeführt in"
-	line "Gen. 6."
+	para "Eingeführt in Gen."
+	line "6."
 	prompt
 
 .RTC:
 	text "Nutze die"
-	line "Echtzeit-"
-	line "uhr, um die Zeit"
-	cont "zu verfolgen."
+	line "Echtzeituhr, um"
+	cont "die Zeit zu"
+	cont "verfolgen."
 
 	para "Wenn dein Modul"
 	line "oder Emulator die"
@@ -124,19 +119,17 @@ InitialOptionDescriptions:
 
 	assert 24 % NO_RTC_SPEEDUP == 0
 	para "deaktiviere dies,"
-	line "damit ein"
-	cont "Spieltag"
+	line "damit ein Spieltag"
 	cont STRFMT("%d Stunden dauert.", 24 / NO_RTC_SPEEDUP) ; 24 / 6 == 4
 	prompt
 
 .PerfectIVs:
 	text "Werte werden so"
 	line "berechnet, als"
-	cont "wären"
-	cont "die DVs perfekt"
-	cont "15,"
-	cont "für deine #mon"
-	cont "und Gegner."
+	cont "wären die DVs"
+	cont "perfekt 15, für"
+	cont "deine #mon und"
+	cont "Gegner."
 	prompt
 
 .TradedMon:
@@ -168,17 +161,16 @@ InitialOptionDescriptions:
 	cont "Farben."
 
 	para "Die Variation ist"
-	line "zufallsbasiert"
-	cont "und"
+	line "zufallsbasiert und"
 
 	para "nicht mit der"
 	line "Wertequalität"
 	cont "verbunden."
 
 	para "Inspiriert von"
-	line "Stadiums Farb-"
-	cont "variation durch"
-	cont "Spitznamen."
+	line "Stadiums"
+	cont "Farbvariation"
+	cont "durch Spitznamen."
 	prompt
 
 InitialOptionsDoneDescription:

@@ -1455,8 +1455,8 @@ ManageBoxes:
 	jmp .loop
 
 .ContinueBoxUse:
-	text "Weiter mit der"
-	line "Box arbeiten?"
+	text "Weiter mit der Box"
+	line "arbeiten?"
 	done
 
 .StorageMonMenu:
@@ -2528,9 +2528,8 @@ BillsPC_UpdateStorage_CheckMewtwo:
 	jmp PopBCDEHL
 
 BillsPC_CantPutMailIntoPackText:
-	text "Die Post würde"
-	line "den Text"
-	cont "verlieren."
+	text "Die Post würde den"
+	line "Text verlieren."
 	prompt
 
 BillsPC_PackFullText:
@@ -2849,8 +2848,7 @@ BillsPC_ReleaseAll:
 .CantRecallReleasedMons:
 	text "Freigelassene"
 	line "#mon kannst du"
-	cont "nicht"
-	cont "zurückholen."
+	cont "nicht zurückholen."
 	cont "Bist du sicher?"
 	done
 
@@ -3004,8 +3002,8 @@ BillsPC_Theme:
 	jmp BillsPC_RefreshTheme
 
 .PickAThemeText:
-	text "Bitte wähle"
-	line "ein Design."
+	text "Bitte wähle ein"
+	line "Design."
 	done
 
 .ThemeMenuDataHeader:
@@ -3084,8 +3082,8 @@ BillsPC_Change:
 	jr BillsPC_ChangeBox
 
 .PickABoxToChangeToText:
-	text "Wähle eine"
-	line "Box zum Wechseln."
+	text "Wähle eine Box zum"
+	line "Wechseln."
 	done
 
 .ChangeMenuDataHeader:

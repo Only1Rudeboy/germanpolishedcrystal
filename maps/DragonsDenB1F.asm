@@ -95,8 +95,7 @@ DragonsDenB1FClairTrigger:
 	text "SANDRA: Das tut"
 	line "mir Leid."
 
-	para "Hier, nimm das"
-	line "als"
+	para "Hier, nimm das als"
 	line "Entschuldigung."
 	done
 .DescribeDragonPulseText:
@@ -131,8 +130,7 @@ DragonsDenShrineSignText:
 
 	para "in der DRACHEN-"
 	line "HOEHLE gelebt"
-	cont "haben"
-	cont "sollen."
+	cont "haben sollen."
 	done
 DragonsDenB1FRivalScript:
 	playmusic MUSIC_RIVAL_ENCOUNTER
@@ -193,59 +191,52 @@ DragonsDenB1FRivalScript:
 	end
 
 .GiveEggText:
-	text "…"
-	line "Hör zu."
+	text "… Hör zu."
 
 	para "Das #mon, das"
 	line "ich… aus dem"
 	cont "Labor…"
 
-	para "mitnahm, hatte"
-	line "ein Ei. Ich"
-	cont "brauche es nicht."
+	para "mitnahm, hatte ein"
+	line "Ei. Ich brauche es"
+	cont "nicht."
 
 	para "Hier. Nimm es."
 	done
 
 .DescribeEggText:
-	text "Hmpf. Bist du"
-	line "hier durch?"
+	text "Hmpf. Bist du hier"
+	line "durch?"
 
-	para "Dann geh mir"
-	line "aus dem Weg."
+	para "Dann geh mir aus"
+	line "dem Weg."
 	done
 
 .PartyAndBoxFullText:
 	text "Hmpf. Du hast"
 	line "keinen Platz…"
-	cont "nicht"
-	cont "einmal in deiner"
-	cont "Box…"
+	cont "nicht einmal in"
+	cont "deiner Box…"
 	done
 
 .Training1Text:
-	text "…"
-	line "Was? <PLAYER>?"
+	text "… Was? <PLAYER>?"
 
-	para "…Nein, ich"
-	line "möchte jetzt"
-	cont "nicht"
-	cont "mit dir kämpfen…"
+	para "…Nein, ich möchte"
+	line "jetzt nicht mit"
+	cont "dir kämpfen…"
 
 	para "Meine #mon sind"
-	line "noch nicht"
-	cont "bereit,"
+	line "noch nicht bereit,"
 	cont "dich zu schlagen."
 
-	para "Ich darf sie"
-	line "nicht"
+	para "Ich darf sie nicht"
 	line "zu schroff"
 	cont "behandeln."
 
 	para "Ich muss"
-	line "diszipli-"
-	line "nierter sein,"
-	cont "wenn"
+	line "disziplinierter"
+	cont "sein, wenn"
 
 	para "ich der weltbeste"
 	line "#mon-Trainer"
@@ -257,8 +248,8 @@ DragonsDenB1FRivalScript:
 	para "Wow…"
 
 	para "Du musst lernen,"
-	line "mir aus dem Weg"
-	cont "zu gehen…"
+	line "mir aus dem Weg zu"
+	cont "gehen…"
 	done
 GenericTrainerDragonTamerDarin:
 	generictrainer DRAGON_TAMER, DARIN, EVENT_BEAT_DRAGON_TAMER_DARIN, .SeenText, .BeatenText
@@ -270,8 +261,7 @@ GenericTrainerDragonTamerDarin:
 	line "Drachenklans. Du"
 
 	para "darfst nicht"
-	line "einfach"
-	cont "eintreten!"
+	line "einfach eintreten!"
 	done
 .SeenText:
 
@@ -291,14 +281,12 @@ GenericTrainerDragonTamerAdam:
 	generictrainer DRAGON_TAMER, ADAM, EVENT_BEAT_DRAGON_TAMER_ADAM, .SeenText, .BeatenText
 
 	text "Nicht einmal die"
-	line "Kraft der"
-	line "Drachen konnte"
-	cont "dich aufhalten."
+	line "Kraft der Drachen"
+	cont "konnte dich"
+	cont "aufhalten."
 
-	para "Du bist"
-	line "vielleicht"
-	line "genau der"
-	cont "Trainer,"
+	para "Du bist vielleicht"
+	line "genau der Trainer,"
 
 	para "den unser MEISTER"
 	line "sucht."
@@ -323,10 +311,10 @@ GenericTrainerAceDuoDanandcara1:
 
 	para "die Erlaubnis,"
 	line "Drachen"
-	line "einzusetzen."
+	cont "einzusetzen."
 
-	para "Dann werde ich"
-	line "ein großartiger"
+	para "Dann werde ich ein"
+	line "großartiger"
 	cont "Drachen-Trainer"
 
 	para "und gewinne die"
@@ -335,28 +323,27 @@ GenericTrainerAceDuoDanandcara1:
 	done
 
 .SeenText:
-	text "Dan: Ich darf"
-	line "zwar keine"
-	cont "Drachen nutzen,"
+	text "Dan: Ich darf zwar"
+	line "keine Drachen"
+	cont "nutzen,"
 
 	para "aber ich bin"
 	line "trotzdem stark!"
 	done
 
 .BeatenText:
-	text "Dan: Du warst"
-	line "noch stärker!"
+	text "Dan: Du warst noch"
+	line "stärker!"
 	done
 
 GenericTrainerAceDuoDanandcara2:
 	generictrainer ACE_DUO, DANANDCARA2, EVENT_BEAT_ACE_DUO_DAN_AND_CARA, .SeenText, .BeatenText
 
-	text "Cara: Drachen"
-	line "sind"
+	text "Cara: Drachen sind"
 	line "schwer zu"
 
-	para "erziehen und"
-	line "sehr stark."
+	para "erziehen und sehr"
+	line "stark."
 
 	para "Sie sind nichts"
 	line "für jeden."
@@ -395,8 +382,7 @@ GenericTrainerTwinsLeaandpia1:
 GenericTrainerTwinsLeaandpia2:
 	generictrainer TWINS, LEAANDPIA1, EVENT_BEAT_TWINS_LEA_AND_PIA, .SeenText, .BeatenText
 
-	text "Wir verraten"
-	line "dich."
+	text "Wir verraten dich."
 
 	para "Der MEISTER wird"
 	line "erzürnt sein."
@@ -444,8 +430,8 @@ KimonoGirlMinaScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "Der Weg aus"
-	line "TEAK CITY hat"
+	text "Der Weg aus TEAK"
+	line "CITY hat"
 
 	para "sich gelohnt."
 
@@ -465,10 +451,9 @@ KimonoGirlMinaScript:
 	text "Ich bin ein"
 	line "KIMONO-GIRL."
 
-	para "Hast du meine"
-	line "fünf tanzenden"
-	cont "Cousinen in"
-	cont "TEAK CITY nicht"
+	para "Hast du meine fünf"
+	line "tanzenden Cousinen"
+	cont "in TEAK CITY nicht"
 	cont "getroffen?"
 
 	para "Sag mir Bescheid,"
@@ -492,8 +477,8 @@ KimonoGirlMinaScript:
 	done
 
 .AfterText:
-	text "Du bist ein"
-	line "echter Trainer."
+	text "Du bist ein echter"
+	line "Trainer."
 
 	para "Du bist dieses"
 	line "Item würdig!"

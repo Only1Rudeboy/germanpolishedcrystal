@@ -111,8 +111,7 @@ GenericTrainerGruntM9:
 	generictrainer GRUNTM, 9, EVENT_BEAT_ROCKET_GRUNTM_9, GruntM9SeenText, GruntM9BeatenText
 
 	text "Was?! Du bist an"
-	line "unseren Männern"
-	cont "im"
+	line "unseren Männern im"
 	cont "UNTERGRUND"
 	cont "vorbeigekommen?"
 
@@ -153,42 +152,39 @@ CardKeySlotScript::
 	end
 
 RadioTower3FSuperNerdText:
-	text "Wir haben die"
-	line "Rufe"
-	line "von allen bekann-"
-	cont "ten #mon auf"
+	text "Wir haben die Rufe"
+	line "von allen"
+	cont "bekannten #mon"
+	cont "auf"
 
-	para "Tonband."
-	line "Es sind zirka"
-	cont "200."
+	para "Tonband. Es sind"
+	line "zirka 200."
 	done
 
 
 RadioTower3FGymGuideText:
-	text "Bei uns gibt"
-	line "es rund um die"
-	cont "Uhr"
+	text "Bei uns gibt es"
+	line "rund um die Uhr"
 
 	para "Unterhaltungs-"
 	line "sendungen."
 
-	para "Ich versuche"
-	line "auch, rund um die"
-	cont "Uhr zu arbeiten!"
+	para "Ich versuche auch,"
+	line "rund um die Uhr zu"
+	cont "arbeiten!"
 	done
 
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
 	text "Hast du den"
-	line "INTENDANTEN"
-	cont "retten können?"
+	line "INTENDANTEN retten"
+	cont "können?"
 	done
 
 
 RadioTower3FCooltrainerFYoureMyHeroText:
-	text "Danke!"
-	line "Du bist mein"
-	cont "Held!"
+	text "Danke! Du bist"
+	line "mein Held!"
 
 	para "Dies ist ein"
 	line "Zeichen meiner"
@@ -200,8 +196,8 @@ RadioTower3FCooltrainerFItsAGBCSoundsText:
 	text "Das sind GBC"
 	line "Sounds."
 
-	para "Voller Songs,"
-	line "die du überall"
+	para "Voller Songs, die"
+	line "du überall"
 
 	para "hören kannst,"
 	line "sogar im Kampf."
@@ -225,8 +221,7 @@ RadioTower3FCooltrainerFYouWereMarvelousText:
 
 
 GruntM7SeenText:
-	text "Mir wurden"
-	line "strikte"
+	text "Mir wurden strikte"
 	line "Befehle erteilt."
 
 	para "Ich soll jeden,"
@@ -255,12 +250,11 @@ GruntM8BeatenText:
 
 
 GruntM9SeenText:
-	text "Warum hat sich"
-	line "der"
-	line "Rollladen geöff-"
-	cont "net? Hast du"
-	cont "etwas"
-	cont "damit zu tun?"
+	text "Warum hat sich der"
+	line "Rollladen"
+	cont "geöffnet? Hast du"
+	cont "etwas damit zu"
+	cont "tun?"
 	done
 
 
@@ -271,20 +265,19 @@ GruntM9BeatenText:
 
 RocketScientistMarcSeenText:
 	text "Was macht ein"
-	line "fremdes Kind"
-	cont "hier?"
+	line "fremdes Kind hier?"
 
 	para "Wer bist du?"
 	done
 RocketScientistMarcBeatenText:
-	text "Ts! Ich habe"
-	line "dich nicht"
-	cont "ernst genommen!"
+	text "Ts! Ich habe dich"
+	line "nicht ernst"
+	cont "genommen!"
 	done
 RadioTower3FCardKeySlotText:
 	text "Dies ist der"
-	line "Schlitz für"
-	cont "den TÜROEFFNER."
+	line "Schlitz für den"
+	cont "TÜROEFFNER."
 	done
 
 

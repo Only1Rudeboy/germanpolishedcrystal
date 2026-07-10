@@ -30,10 +30,9 @@ RocketHideoutB2FHexManiacCoryn:
 	done
 
 .SeenText:
-	text "Du hast"
-	line "vielleicht"
-	line "Potenzial für"
-	cont "Team Mystic."
+	text "Du hast vielleicht"
+	line "Potenzial für Team"
+	cont "Mystic."
 
 	para "Lass mich deine"
 	line "Grenzen testen."

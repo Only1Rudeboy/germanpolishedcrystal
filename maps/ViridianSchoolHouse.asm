@@ -26,22 +26,22 @@ ViridianSchoolHouseTeacherText:
 	text "Ich weiß, das ist"
 	line "viel Stoff,"
 
-	para "aber bitte"
-	line "pass gut auf!"
+	para "aber bitte pass"
+	line "gut auf!"
 	done
 
 ViridianSchoolHouseNotesText:
 	text "Die Seite ist"
 	line "voller"
-	line "Kritzeleien."
+	cont "Kritzeleien."
 	para "Ein Labyrinth,"
-	line "Blumen, der Buch-"
-	cont "stabe S…"
+	line "Blumen, der"
+	cont "Buchstabe S…"
 	done
 
 ViridianSchoolHouseLass1Text:
-	text "Moment! Ich"
-	line "dachte doch, alle"
+	text "Moment! Ich dachte"
+	line "doch, alle"
 
 	para "Feuer-Attacken"
 	line "sind Spezial-"
@@ -64,9 +64,8 @@ ViridianSchoolHouseYoungsterScript:
 	text "“Was ein #mon"
 	line "nicht K.O. macht,"
 
-	para "macht es"
-	line "stärker.” So"
-	cont "wirkt die"
+	para "macht es stärker.”"
+	line "So wirkt die"
 	cont "Schwächepol."
 	done
 
@@ -88,8 +87,7 @@ ViridianSchoolHouseGameBoyKidText:
 	line "am Handy!"
 
 	para "Ich faulenze"
-	line "nicht!"
-	line "Ehrlich!"
+	line "nicht! Ehrlich!"
 	done
 
 ViridianSchoolHouseLass2Text:
@@ -97,18 +95,18 @@ ViridianSchoolHouseLass2Text:
 	line "Platz des Helden!"
 
 	para "Warum ist mein"
-	line "Leben so lang-"
-	cont "weilig?"
+	line "Leben so"
+	cont "langweilig?"
 	done
 
 ViridianSchoolHouseBlackboardText:
-	text "Physische Atta-"
-	line "cken nutzen ANGR-"
-	cont "und VERT-Werte."
+	text "Physische Attacken"
+	line "nutzen ANGRund"
+	cont "VERT-Werte."
 
 	para "Spezial-Attacken"
-	line "nutzen SP.-ANG"
-	cont "und SP.-VERT."
+	line "nutzen SP.-ANG und"
+	cont "SP.-VERT."
 
 	para "Status-Attacken"
 	line "richten keinen"
@@ -123,8 +121,7 @@ PokemonJournalKiyoScript:
 	text "#mon Journal"
 
 	para "Spezial:"
-	line "Karate-König"
-	cont "Kiyo!"
+	line "Karate-König Kiyo!"
 
 	para "Kiyo soll unter"
 	line "dem Meister aus"
@@ -134,6 +131,5 @@ PokemonJournalKiyoScript:
 	line "Man munkelt, er"
 	cont "trainiert noch"
 
-	para "irgendwo in"
-	line "JOHTO."
+	para "irgendwo in JOHTO."
 	done

@@ -74,8 +74,8 @@ MurkySwampCherylScript:
 
 .ChallengeText:
 	text "Hallo, ich heiße"
-	line "Cheryl."
-	cont "Und du bist…?"
+	line "Cheryl. Und du"
+	cont "bist…?"
 
 	para "O.K., du heißt"
 	line "<PLAYER>."
@@ -84,8 +84,7 @@ MurkySwampCherylScript:
 	line "wirklich, dich"
 	cont "kennenzulernen."
 
-	para "Ich habe Angst"
-	line "vor"
+	para "Ich habe Angst vor"
 	line "den Geistern im"
 	cont "Sumpf, also wie"
 
@@ -102,23 +101,22 @@ MurkySwampCherylScript:
 
 .NoText:
 	text "Ach, aber meine"
-	line "#mon wollten"
-	cont "so gern kämpfen…"
+	line "#mon wollten so"
+	cont "gern kämpfen…"
 	done
 
 .BeatenText:
 	text "Die richtige"
-	line "Balance aus An-"
-	cont "griff und Vertei-"
-	cont "digung…"
+	line "Balance aus"
+	cont "Angriff und"
+	cont "Verteidigung…"
 
 	para "Das ist nicht"
 	line "leicht."
 	done
 
 .ItemText:
-	text "Danke,"
-	line "<PLAYER>!"
+	text "Danke, <PLAYER>!"
 
 	para "Jetzt komme ich"
 	line "sicher durch den"
@@ -171,8 +169,8 @@ MurkySwampNurseBeatriceScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "Alles wieder"
-	line "in Ordnung!"
+	text "Alles wieder in"
+	line "Ordnung!"
 	done
 
 .SeenText:
@@ -195,8 +193,7 @@ MurkySwampNurseBeatriceScript:
 	line "#mon wieder"
 
 	para "gesund zu machen—"
-	line "das ist mein"
-	cont "Ziel!"
+	line "das ist mein Ziel!"
 	done
 
 MurkySwampBloodmoonUrsaluna:
@@ -229,14 +226,13 @@ BloodmoonUrsalunaText:
 GenericTrainerBug_catcherOscar:
 	generictrainer BUG_CATCHER, OSCAR, EVENT_BEAT_BUG_CATCHER_OSCAR, .SeenText, .BeatenText
 
-	text "Ich bin hierher-"
-	line "gekommen, um"
-	cont "Käfer"
-	cont "zu finden!"
+	text "Ich bin"
+	line "hierhergekommen,"
+	cont "um Käfer zu"
+	cont "finden!"
 
 	para "Niemand warnte"
-	line "mich vor"
-	cont "Geistern!"
+	line "mich vor Geistern!"
 	done
 
 .SeenText:
@@ -265,8 +261,7 @@ GenericTrainerHex_maniacMatilda:
 	line "weit und tief,"
 
 	para "biete ich dir"
-	line "ewigen Schlaf"
-	cont "an."
+	line "ewigen Schlaf an."
 	done
 
 .BeatenText:
@@ -282,8 +277,7 @@ GenericTrainerFirebreatherOleg:
 
 .SeenText:
 	text "Ich möchte ein"
-	line "Feuer machen…"
-	cont "aber"
+	line "Feuer machen… aber"
 
 	para "zündet es das"
 	line "Sumpfgas und"
@@ -300,9 +294,9 @@ GenericTrainerFirebreatherOleg:
 GenericTrainerLassAbigail:
 	generictrainer LASS, ABIGAIL, EVENT_BEAT_LASS_ABIGAIL, .SeenText, .BeatenText
 
-	text "Das Gerücht:"
-	line "Eine seltsame"
-	cont "rote Kugel,"
+	text "Das Gerücht: Eine"
+	line "seltsame rote"
+	cont "Kugel,"
 
 	para "leuchtet wie ein"
 	line "Blutmond."
@@ -313,9 +307,8 @@ GenericTrainerLassAbigail:
 
 .SeenText:
 	text "Die Leute haben"
-	line "Angst, tief in"
-	cont "den Sumpf zu"
-	cont "gehen."
+	line "Angst, tief in den"
+	cont "Sumpf zu gehen."
 	done
 
 .BeatenText:
@@ -338,18 +331,17 @@ GenericTrainerPokemaniacEnzo:
 
 .SeenText
 	text "Ich sah ein"
-	line "seltsa-"
-	line "mes rotes Licht"
+	line "seltsames rotes"
+	cont "Licht"
 
-	para "in den Bäumen,"
-	line "als"
+	para "in den Bäumen, als"
 	line "ich seltene"
 	cont "#mon suchte!"
 	done
 
 .BeatenText
-	text "Du hast nichts"
-	line "zu befürchten."
+	text "Du hast nichts zu"
+	line "befürchten."
 	done
 
 MurkySwampPokemaniacText:

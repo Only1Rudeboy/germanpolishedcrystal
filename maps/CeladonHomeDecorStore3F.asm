@@ -122,8 +122,8 @@ CeladonHomeDecorStore3FClerk2Script:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Danke!"
-	line "Schönen Tag noch!"
+	text "Danke! Schönen Tag"
+	line "noch!"
 	done
 
 .NotEnoughMoney:
@@ -136,9 +136,9 @@ CeladonHomeDecorStore3FClerk1Text:
 	done
 
 CeladonHomeDecorStore3FClerk2Text:
-	text "Rundet ein"
-	line "Teppich nicht dein"
-	cont "Zimmer ab?"
+	text "Rundet ein Teppich"
+	line "nicht dein Zimmer"
+	cont "ab?"
 	done
 
 CeladonHomeDecorStore3FClerk2SaleText:
@@ -150,8 +150,8 @@ CeladonHomeDecorStore3FClerk2SaleText:
 	line "¥35.000 im"
 	cont "Angebot."
 
-	para "Möchtest du"
-	line "einen kaufen?"
+	para "Möchtest du einen"
+	line "kaufen?"
 	done
 
 
@@ -200,24 +200,22 @@ GreenCarpetSentText:
 	done
 
 CeladonHomeDecorStore3FNoMoneyText:
-	text "Das kannst du"
-	line "dir nicht leisten!"
+	text "Das kannst du dir"
+	line "nicht leisten!"
 	done
 
 CeladonHomeDecorStore3FAlreadyBoughtText:
-	text "Das hast du"
-	line "schon!"
+	text "Das hast du schon!"
 	done
 
 CeladonHomeDecorStore3FYoungsterText:
-	text "Dieser Teppich"
-	line "ist so flauschig!"
+	text "Dieser Teppich ist"
+	line "so flauschig!"
 	done
 
 CeladonHomeDecorStore3FBeautyText:
 	text "Manche Teppiche"
-	line "kommen aus"
-	cont "Kalos!"
+	line "kommen aus Kalos!"
 	done
 
 CeladonHomeDecorStore3FDirectoryText:

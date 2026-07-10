@@ -54,20 +54,18 @@ WarmBeachHouseBookScript:
 	cont "uralten Sphären."
 
 	para "Denn zwischen"
-	line "Leben"
-	line "und Tod wirst du"
+	line "Leben und Tod"
+	cont "wirst du"
 
 	para "den Unterschied"
 	line "machen."
 
-	para "Steig zum"
-	line "Schrein,"
+	para "Steig zum Schrein,"
 	line "um das Falsche zu"
 	cont "richten,"
 
 	para "und die Welt wird"
-	line "durch das Lied"
-	cont "des"
+	line "durch das Lied des"
 	cont "Wächters geheilt…"
 	done
 
@@ -87,7 +85,7 @@ WarmBeachHouseBookScript:
 
 	para "sonst bringen"
 	line "diese"
-	line "Titanen"
+	cont "Titanen"
 	cont "Zerstörung"
 	cont "über die Welt, in"
 	cont "der sie"
@@ -96,12 +94,11 @@ WarmBeachHouseBookScript:
 
 	para "Obwohl der große"
 	line "Wächter des"
-	cont "Wassers"
-	cont "erstehen wird, um"
+	cont "Wassers erstehen"
+	cont "wird, um"
 
 	para "den Kampf zu"
-	line "beenden, wird"
-	cont "sein"
+	line "beenden, wird sein"
 	cont "Lied allein"
 
 	para "scheitern, und so"

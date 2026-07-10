@@ -42,7 +42,7 @@ GenericTrainerBug_maniacKai:
 Bug_maniacKaiSeenText:
 	text "Mein Bluzuk"
 	line "entwickelte sich"
-	line "zu Omot?!"
+	cont "zu Omot?!"
 	done
 
 Bug_maniacKaiBeatenText:

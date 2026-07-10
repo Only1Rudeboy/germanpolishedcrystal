@@ -71,10 +71,8 @@ GenericTrainerCamperTed:
 	generictrainer CAMPER, TED, EVENT_BEAT_CAMPER_TED, CamperTedSeenText, CamperTedBeatenText
 
 	text "Ich habe mein"
-	line "Bestes gegeben"
-	cont "und"
-	cont "das reichte"
-	cont "leider"
+	line "Bestes gegeben und"
+	cont "das reichte leider"
 	cont "nicht."
 
 	para "Ich gebe ganz"
@@ -248,8 +246,7 @@ GenericTrainerHikerBailey:
 
 	text "Es ist vorbei."
 	line "Auch gut. Wir"
-	cont "WANDERER sind"
-	cont "eben"
+	cont "WANDERER sind eben"
 	cont "so."
 	done
 Route46HikerText:
@@ -263,9 +260,8 @@ Route46HikerText:
 	para "Trotzdem lernte"
 	line "ich etwas…"
 
-	para "Sei vorsichtig"
-	line "bei wütenden"
-	cont "#mon!"
+	para "Sei vorsichtig bei"
+	line "wütenden #mon!"
 	done
 
 Text_Route46TutorRollout:
@@ -300,8 +296,7 @@ HikerBaileySeenText:
 
 HikerBaileyBeatenText:
 	text "Gnade! Ich kenne"
-	line "jetzt deine"
-	cont "Kraft!"
+	line "jetzt deine Kraft!"
 	done
 
 
@@ -310,8 +305,7 @@ HikerBaileyBeatenText:
 
 
 CamperTedSeenText:
-	text "Ich trainiere"
-	line "auch"
+	text "Ich trainiere auch"
 	line "#mon!"
 
 	para "Möchtest du gegen"
@@ -333,8 +327,7 @@ CamperTedBeatenText:
 
 
 PicnickerErin1SeenText:
-	text "Ich trainiere"
-	line "auch"
+	text "Ich trainiere auch"
 	line "#mon!"
 
 	para "Trittst du gegen"
@@ -395,8 +388,8 @@ PicnickerErin2BeatenText:
 
 
 Route46SignText:
-	text "ROUTE 46"
-	line "BERGWEG VORAUS"
+	text "ROUTE 46 BERGWEG"
+	line "VORAUS"
 	done
 
 

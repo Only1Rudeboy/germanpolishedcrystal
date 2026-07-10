@@ -1,8 +1,8 @@
 VanceMonHasBecomeTougherText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "stärker geworden."
+	text " ist stärker"
+	line "geworden."
 
 	para "Wir heben ab!"
 	done
@@ -10,12 +10,10 @@ VanceMonHasBecomeTougherText:
 VanceDefeatedMonText:
 	text "Wir besiegen "
 	text_ram wStringBuffer4
-	text "!"
-	line "leicht!"
+	text "! leicht!"
 
-	para "…Häh? Du auch?"
-	line "Ist das nicht"
-	cont "toll?"
+	para "…Häh? Du auch? Ist"
+	line "das nicht toll?"
 	done
 
 VanceLostAMonText:
@@ -31,7 +29,7 @@ VanceLostAMonText:
 VanceBattleRematchText:
 	text "Gerade bin ich"
 	line "auf"
-	line ""
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 
@@ -58,6 +56,5 @@ VanceHurryHurryText:
 
 	para ""
 	text_ram wStringBuffer5
-	text "!"
-	line "Fly her!"
+	text "! Fly her!"
 	done

@@ -37,35 +37,31 @@ OfferGoodRodText:
 
 	para "Daher sollte man"
 	line "dort auch jede"
-	cont "Menge Fische fin-"
-	cont "den!"
+	cont "Menge Fische"
+	cont "finden!"
 
 	para "Ich fische hier"
 	line "seit 30 Jahren."
 
-	para "Willst du das"
-	line "Meer"
+	para "Willst du das Meer"
 	line "und die Fische"
 	cont "sehen?"
 	done
 
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "Und da haben wir"
-	cont "einen neuen"
-	cont "Angler!"
+	text "Ah, hahah! Und da"
+	line "haben wir einen"
+	cont "neuen Angler!"
 	done
 
 
 GaveGoodRodText:
 	text "Fische findet man"
-	line "nicht nur im"
-	cont "Meer."
+	line "nicht nur im Meer."
 
 	para "Sie sind überall,"
-	line "wo es Wasser"
-	cont "gibt."
+	line "wo es Wasser gibt."
 	done
 
 
@@ -78,8 +74,8 @@ DontWantGoodRodText:
 
 HaveGoodRodText:
 	text "Wie steht's? Den"
-	line "großen Fang ge-"
-	cont "macht?"
+	line "großen Fang"
+	cont "gemacht?"
 	done
 
 

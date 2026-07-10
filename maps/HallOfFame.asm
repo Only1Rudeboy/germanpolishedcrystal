@@ -112,10 +112,9 @@ HallOfFameEnterScene:
 	cont "ich zuletzt hier"
 	cont "war."
 
-	para "Hier ehren wir"
-	line "die LIGA-CHAMPS"
-	cont "für alle"
-	cont "Ewigkeit."
+	para "Hier ehren wir die"
+	line "LIGA-CHAMPS für"
+	cont "alle Ewigkeit."
 
 	para "Ihre mutigen"
 	line "#mon werden"
@@ -127,37 +126,32 @@ HallOfFameEnterScene:
 	text "Nimm dies als"
 	line "Andenken an das,"
 
-	para "was du heute"
-	line "hier erreicht"
-	cont "hast."
+	para "was du heute hier"
+	line "erreicht hast."
 	done
 
 .LanceText2:
 	text "Hier haben wir"
-	line "heute den"
-	cont "Aufstieg"
+	line "heute den Aufstieg"
 
 	para "eines neuen"
-	line "LIGA-CHAMPs"
-	cont "erlebt —"
+	line "LIGA-CHAMPs erlebt"
+	cont "—"
 
 	para "eines Trainers,"
-	line "der Mitgefühl"
-	cont "für und Vertrauen"
-	cont "in alle #mon"
-	cont "hat."
+	line "der Mitgefühl für"
+	cont "und Vertrauen in"
+	cont "alle #mon hat."
 
 	para "Ein Trainer, der"
-	line "durch Ausdauer"
-	cont "und Entschlossen-"
-	cont "heit triumphiert"
-	cont "hat."
+	line "durch Ausdauer und"
+	cont "Entschlossenheit"
+	cont "triumphiert hat."
 
 	para "Der neue"
 	line "LIGA-CHAMP, der"
-	cont "alles in sich"
-	cont "hat, um groß zu"
-	cont "werden!"
+	cont "alles in sich hat,"
+	cont "um groß zu werden!"
 
 	para "<PLAYER>, erlaube"
 	line "mir, dich und"
@@ -172,8 +166,8 @@ HallOfFameEnterScene:
 	done
 
 .GoldTrophySentText:
-	text "Gold-Pokal"
-	line "wurde nach Hause"
+	text "Gold-Pokal wurde"
+	line "nach Hause"
 	cont "geschickt."
 	done
 
@@ -183,7 +177,7 @@ HallOfFameEnterScene:
 	done
 
 .SilverTrophySentText:
-	text "Silber-Pok."
-	line "wurde nach Hause"
+	text "Silber-Pok. wurde"
+	line "nach Hause"
 	cont "geschickt."
 	done

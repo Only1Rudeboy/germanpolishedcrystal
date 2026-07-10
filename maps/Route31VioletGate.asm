@@ -18,8 +18,8 @@ Route31VioletGate_MapScriptHeader:
 	object_event  1,  2, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route31VioletGateCooltrainerFText, -1
 
 Route31VioletGateOfficerText:
-	text "Tach auch!"
-	line "Warst du im"
+	text "Tach auch! Warst"
+	line "du im"
 	cont "KNOFENSA-TURM?"
 	done
 

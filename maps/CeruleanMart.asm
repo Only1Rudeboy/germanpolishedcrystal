@@ -24,8 +24,8 @@ CeruleanMart_CooltrainerMText:
 	line "Trainer treffen."
 
 	para "Sie wollen"
-	line "heraus-"
-	line "finden, welche"
+	line "herausfinden,"
+	cont "welche"
 
 	para "Chance sie gegen"
 	line "andere Trainer"
@@ -34,12 +34,11 @@ CeruleanMart_CooltrainerMText:
 
 
 CeruleanMart_CooltrainerFText:
-	text "MISTY ist wahr-"
-	line "scheinlich die"
+	text "MISTY ist"
+	line "wahrscheinlich die"
 
 	para "Einzige, die die"
-	line "Trainer am KAP"
-	cont "bei"
+	line "Trainer am KAP bei"
 	cont "AZURIA CITY"
 	cont "besiegen kann."
 	done

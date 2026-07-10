@@ -65,8 +65,8 @@ LoreleiAfterScript:
 
 	text "Wenn du sie"
 	line "besiegst, triff"
-	cont "mich hier für"
-	cont "ein Rematch."
+	cont "mich hier für ein"
+	cont "Rematch."
 	done
 
 LoreleiRematchScript:
@@ -105,19 +105,16 @@ LoreleiGiveIcyRock:
 
 LoreleiRematchAfterText:
 	text "Deine Reise ist"
-	line "noch nicht"
-	cont "vorbei."
+	line "noch nicht vorbei."
 
-	para "Du kannst in"
-	line "Kanto"
+	para "Du kannst in Kanto"
 	line "mehr Orden"
 	cont "sammeln,"
 
 	para "neue #mon-Arten"
 	line "fangen,"
 
-	para "dich und dein"
-	line "Team"
+	para "dich und dein Team"
 	line "verbessern."
 
 	para "Ein #mon-"
@@ -132,41 +129,39 @@ LoreleiReintroductionScript:
 
 Text_IcePathB3FIceRock:
 	text "Der Felsbrocken"
-	line "ist"
-	line "mit Eis"
+	line "ist mit Eis"
 	cont "überzogen."
 
-	para "Er ist eiskalt"
-	line "zum Anfassen."
+	para "Er ist eiskalt zum"
+	line "Anfassen."
 	done
 
 LoreleiIntroText:
-	text "Lorelei: Hallo"
-	line "da, Trainer."
-	cont "Ich bin Lorelei."
+	text "Lorelei: Hallo da,"
+	line "Trainer. Ich bin"
+	cont "Lorelei."
 
 	para "Siehst du den"
-	line "eisigen Fels"
-	cont "dort drüben?"
+	line "eisigen Fels dort"
+	cont "drüben?"
 
 	para "Er sendet eine"
 	line "Energie aus, die"
-	line "ich in"
-	cont "Kanto noch"
+	cont "ich in Kanto noch"
 	cont "nie sah."
 
 	para "Als Expertin für"
 	line "Eis-#mon musste"
-	cont "ich das unter-"
-	cont "suchen."
+	cont "ich das"
+	cont "untersuchen."
 
-	para "Was machst du"
-	line "denn hier?"
+	para "Was machst du denn"
+	line "hier?"
 	done
 
 LoreleiAfterIntroText:
-	text "Lorelei: Du"
-	line "nimmst an der"
+	text "Lorelei: Du nimmst"
+	line "an der"
 
 	para "#mon-Liga-"
 	line "Herausforderung"
@@ -203,19 +198,18 @@ LoreleiRewardText:
 	line "mit Eis-#mon"
 	cont "umgeht."
 
-	para "Dann kannst du"
-	line "das hier nutzen."
+	para "Dann kannst du das"
+	line "hier nutzen."
 	done
 
 LoreleiRematchIntroAgainText:
 	text "Lorelei: Hallo"
-	line "wieder,"
-	cont "<PLAYER>."
+	line "wieder, <PLAYER>."
 	done
 
 LoreleiRematchSeenText:
-	text "Du hast also"
-	line "die Top Vier"
+	text "Du hast also die"
+	line "Top Vier"
 
 	para "besiegt? Ich"
 	line "hoffe, Melanie"
@@ -226,8 +220,8 @@ LoreleiRematchSeenText:
 	line "neue CHAMP."
 	cont "Beeindruckend."
 
-	para "Dann muss ich"
-	line "mich nicht"
+	para "Dann muss ich mich"
+	line "nicht"
 	cont "zurückhalten!"
 	done
 
@@ -240,15 +234,14 @@ LoreleiOneMoreBadgeText:
 	text "Geh nur weiter."
 	line "Mit einem Orden"
 
-	para "mehr kannst du"
-	line "die #mon-Liga"
+	para "mehr kannst du die"
+	line "#mon-Liga"
 	cont "herausfordern."
 	done
 
 LoreleiAllBadgesText:
-	text "Geh nur weiter."
-	line "Du hast genug"
-	cont "Orden,"
+	text "Geh nur weiter. Du"
+	line "hast genug Orden,"
 
 	para "um die #mon-"
 	line "Liga"

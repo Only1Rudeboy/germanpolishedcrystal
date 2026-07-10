@@ -17,20 +17,18 @@ Route18Gate2F_MapScriptHeader:
 Route18Gate2FBinoculars1:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
-	para "ALABASTIA liegt"
-	line "im Westen!"
+	para "ALABASTIA liegt im"
+	line "Westen!"
 	done
 
 Route18Gate2FBinoculars2:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
 	para "Da schwimmen"
 	line "Leute!"

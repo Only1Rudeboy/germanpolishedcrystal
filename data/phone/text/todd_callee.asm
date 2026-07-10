@@ -51,10 +51,9 @@ ToddGreetNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, tut"
-	line "mir leid"
-	line "für den späten"
-	cont "Anruf."
+	para "<PLAYER>, tut mir"
+	line "leid für den"
+	cont "späten Anruf."
 	done
 
 ToddGenericText:

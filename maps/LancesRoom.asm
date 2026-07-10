@@ -164,8 +164,7 @@ LanceScript:
 	para "Ich wusste, dass"
 	line "du mir aufgrund"
 
-	para "deiner"
-	line "Fähigkeiten"
+	para "deiner Fähigkeiten"
 	line "eines Tages"
 	cont "gegenüberstehen"
 	cont "würdest."
@@ -182,12 +181,12 @@ LanceScript:
 	para "Ich, der beste"
 	line "aller Trainer und"
 
-	para "CHAMP der"
-	line "#mon LIGA…"
+	para "CHAMP der #mon"
+	line "LIGA…"
 
-	para "Ich, SIEGFRIED"
-	line "der Drachenmeis-"
-	cont "ter, nehme deine"
+	para "Ich, SIEGFRIED der"
+	line "Drachenmeister,"
+	cont "nehme deine"
 
 	para "Herausforderung"
 	line "an!"
@@ -198,27 +197,24 @@ LanceScript:
 
 	para "Ich bin nicht"
 	line "wütend, dass ich"
-	cont "verloren habe."
-	cont "Ich"
+	cont "verloren habe. Ich"
 	cont "bin glücklich."
 
 	para "Glücklich, dass"
 	line "ich den Aufstieg"
 
-	para "eines neuen"
-	line "CHAMPs miterleben"
-	cont "durfte."
+	para "eines neuen CHAMPs"
+	line "miterleben durfte."
 	done
 .AfterText:
 	text "…Woa."
 
-	para "Du bist sehr"
-	line "stark geworden,"
+	para "Du bist sehr stark"
+	line "geworden,"
 	cont "<PLAYER>."
 
 	para "Deine #mon"
-	line "haben deine"
-	cont "starke"
+	line "haben deine starke"
 
 	para "und aufrechte"
 	line "Persönlichkeit"
@@ -235,8 +231,8 @@ LanceScript:
 	line "sind jetzt"
 	cont "überflüssig."
 
-	para "Wir kämpfen, um"
-	line "zu sehen, wer"
+	para "Wir kämpfen, um zu"
+	line "sehen, wer"
 
 	para "der Stärkere von"
 	line "uns beiden ist."
@@ -250,8 +246,8 @@ LanceScript:
 	done
 
 .AfterRematchText:
-	text "Genau wie ich"
-	line "es erwartet habe."
+	text "Genau wie ich es"
+	line "erwartet habe."
 
 	para "Du und deine"
 	line "#mon seid ein"
@@ -266,20 +262,19 @@ LanceScript:
 	done
 
 .MaryText1:
-	text "MARGIT: Ach,"
-	line "nein!"
+	text "MARGIT: Ach, nein!"
 	line "Alles ist vorbei!"
 
 	para "PROF. EICH, wenn"
-	line "du nicht so lang-"
-	cont "sam wärest…"
+	line "du nicht so"
+	cont "langsam wärest…"
 	done
 .OakSpeechText:
 	text "PROF. EICH: Ah,"
 	line "<PLAYER>!"
 
-	para "Es ist schon"
-	line "lange her."
+	para "Es ist schon lange"
+	line "her."
 
 	para "Du siehst"
 	line "erhabener aus."
@@ -288,20 +283,17 @@ LanceScript:
 	line "LIGA ist einfach"
 	cont "fantastisch!"
 
-	para "Deine Hingabe,"
-	line "das"
+	para "Deine Hingabe, das"
 	line "Vertrauen und die"
 
 	para "Liebe zu deinen"
-	line "#mon haben"
-	cont "dir dies er-"
-	cont "möglicht."
+	line "#mon haben dir"
+	cont "dies ermöglicht."
 
-	para "Auch deine #-"
-	line "MON waren super."
+	para "Auch deine #mon"
+	line "waren super."
 
-	para "Ihr Glaube an"
-	line "dich"
+	para "Ihr Glaube an dich"
 	line "hat sie all das"
 
 	para "durchstehen"
@@ -318,29 +310,26 @@ LanceScript:
 	line "der LIGA war ein-"
 	cont "fach fantastisch!"
 
-	para "Mir ist klar,"
-	line "dass"
+	para "Mir ist klar, dass"
 	line "du #mon tief"
 
 	para "verstehst, ihnen"
 	line "vertraust und sie"
 	cont "liebst."
 
-	para "Die herausragen-"
-	line "den Fähigkeiten"
-	cont "deines Teams"
+	para "Die herausragenden"
+	line "Fähigkeiten deines"
+	cont "Teams"
 
-	para "zeigen das deut-"
-	line "lich."
+	para "zeigen das"
+	line "deutlich."
 
-	para "Vielleicht bist"
-	line "du"
+	para "Vielleicht bist du"
 	line "wirklich in der"
 
-	para "Lage, eine"
-	line "gewisse gefähr-"
-	cont "liche Heraus-"
-	cont "forderung zu"
+	para "Lage, eine gewisse"
+	line "gefährliche"
+	cont "Herausforderung zu"
 	cont "meistern."
 
 	para "Komm danach in"
@@ -354,9 +343,8 @@ LanceScript:
 	done
 .LanceLeavingText:
 	text "SIEGFRIED: Das"
-	line "wird mir alles"
-	cont "ein wenig zu"
-	cont "laut…"
+	line "wird mir alles ein"
+	cont "wenig zu laut…"
 
 	para "<PLAYER>, kommst"
 	line "du mit mir?"

@@ -18,19 +18,16 @@ IvysHouse_MapScriptHeader:
 IvysHouseFaithText:
 	text "Faith: Ich"
 	line "trainiere"
-	line "Pflanzen-#mon"
+	cont "Pflanzen-#mon"
 
 	para "mit Prof.Ivy!"
-	line "Willst du"
-	cont "kämpfen?"
+	line "Willst du kämpfen?"
 	done
 
 IvysHouseCharityText:
-	text "Charity: Faith"
-	line "ist"
+	text "Charity: Faith ist"
 	line "meine Schwester."
 
-	para "Wir sind im"
-	line "Urlaub"
+	para "Wir sind im Urlaub"
 	line "bei Prof.Ivy!"
 	done

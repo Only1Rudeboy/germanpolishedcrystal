@@ -28,16 +28,14 @@ SeafoamIslandsB2F_MapScriptHeader:
 GenericTrainerSkierCady:
 	generictrainer SKIER, CADY, EVENT_BEAT_SKIER_CADY, SkierCadySeenText, SkierCadyBeatenText
 
-	text "Das war ein"
-	line "heißer"
+	text "Das war ein heißer"
 	line "Kampf!"
 	done
 
 GenericTrainerBoarderShaun:
 	generictrainer BOARDER, SHAUN, EVENT_BEAT_BOARDER_SHAUN, BoarderShaunSeenText, BoarderShaunBeatenText
 
-	text "Na gut,"
-	line "geh durch!"
+	text "Na gut, geh durch!"
 	done
 
 GenericTrainerBoarderBryce:
@@ -49,8 +47,8 @@ GenericTrainerBoarderBryce:
 
 SkierCadySeenText:
 	text "Gegen die Kälte:"
-	line "warme Kleidung"
-	cont "und ein heißes"
+	line "warme Kleidung und"
+	cont "ein heißes"
 	cont "Getränk!"
 	done
 

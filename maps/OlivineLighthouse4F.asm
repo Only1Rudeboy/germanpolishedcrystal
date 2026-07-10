@@ -38,8 +38,8 @@ GenericTrainerLassConnie:
 	cont "damit"
 
 	para "JASMIN wieder in"
-	line "die ARENA"
-	cont "kommen kann."
+	line "die ARENA kommen"
+	cont "kann."
 	done
 
 TrainerSailorKent:
@@ -51,14 +51,12 @@ SailorKentScript:
 	iftrue_jumptextfaceplayer SailorKentFinalText
 	jumpthistextfaceplayer
 
-	text "Apropos krank:"
-	line "Mir"
+	text "Apropos krank: Mir"
 	line "ist zu Ohren"
 
 	para "gekommen, dass es"
 	line "in ANEMONIA CITY"
-	cont "eine gute"
-	cont "APOTHEKE"
+	cont "eine gute APOTHEKE"
 	cont "geben soll."
 	done
 SailorKentSeenText:
@@ -76,10 +74,9 @@ SailorKentSeenText:
 
 
 SailorKentBeatenText:
-	text "Ich habe im"
-	line "Moment auch"
-	cont "nichts"
-	cont "zu lachen…"
+	text "Ich habe im Moment"
+	line "auch nichts zu"
+	cont "lachen…"
 	done
 
 
@@ -91,8 +88,7 @@ SailorKentFinalText:
 	line "ist wieder gesund."
 
 	para "Die Anemonia-"
-	line "Apotheke hat"
-	cont "ihren"
+	line "Apotheke hat ihren"
 	cont "Ruf bestätigt!"
 	done
 

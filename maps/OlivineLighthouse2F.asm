@@ -171,14 +171,12 @@ SailorHuey1SeenText:
 	cont "Kämpfe!"
 	done
 SailorHuey1BeatenText:
-	text "Uff!"
-	line "Verloren!"
+	text "Uff! Verloren!"
 	done
 
 GentlemanAlfredSeenText:
 	text "Hm? Dies ist kein"
-	line "Ort für"
-	cont "Spielchen."
+	line "Ort für Spielchen."
 	done
 
 
@@ -195,20 +193,18 @@ GentlemanAlfredFinalText:
 	cont "betreibt."
 
 	para "Du hast seine"
-	line "Krankheit"
-	cont "geheilt?"
+	line "Krankheit geheilt?"
 
 	para "Du hast uns"
-	line "wirklich"
-	cont "geholfen!"
+	line "wirklich geholfen!"
 	done
 
 SailorHueyGiveProteinText:
 	text "Wow! Du bist"
 	line "stark, wie immer!"
 
-	para "Egal, hier hast"
-	line "du die Medizin."
+	para "Egal, hier hast du"
+	line "die Medizin."
 	done
 
 

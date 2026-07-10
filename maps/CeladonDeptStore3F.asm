@@ -141,8 +141,8 @@ CeladonDeptStore3FGameCubeScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Der GameCube"
-	line "wurde nach Hause"
+	text "Der GameCube wurde"
+	line "nach Hause"
 	cont "geschickt."
 	done
 
@@ -164,15 +164,14 @@ CeladonDeptStore3FWiiScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Die Wii wurde"
-	line "nach Hause"
-	cont "geschickt."
+	text "Die Wii wurde nach"
+	line "Hause geschickt."
 	done
 
 CeladonDeptStore3FClerk2Text:
-	text "Es gibt eine"
-	line "coole Attacke"
-	cont "namens Konter."
+	text "Es gibt eine coole"
+	line "Attacke namens"
+	cont "Konter."
 
 	para "Nicht die Art"
 	line "Theke, an der ich"
@@ -180,9 +179,9 @@ CeladonDeptStore3FClerk2Text:
 	done
 
 Text_CeladonDeptStore3FTutorCounter:
-	text "Ich bringe"
-	line "deinem #mon"
-	cont "Konter bei,"
+	text "Ich bringe deinem"
+	line "#mon Konter"
+	cont "bei,"
 
 	para "wenn du mir ein"
 	line "Silberblatt gibst."
@@ -198,8 +197,8 @@ Text_CeladonDeptStore3FTutorQuestion:
 
 
 VideoGameClerkText:
-	text "Wir verkaufen"
-	line "neue und alte"
+	text "Wir verkaufen neue"
+	line "und alte"
 	cont "Spielsysteme!"
 
 	para "Probier sie doch"
@@ -207,9 +206,8 @@ VideoGameClerkText:
 	done
 
 VideoGameClerkNoSaleText:
-	text "Verkäufer: Na"
-	line "gut, wenn du"
-	cont "meinst."
+	text "Verkäufer: Na gut,"
+	line "wenn du meinst."
 	done
 
 
@@ -222,9 +220,9 @@ VideoGameClerkSellSnesText:
 	done
 
 VideoGameClerkSellN64Text:
-	text "Verkäufer: Das"
-	line "N64 gehört dir"
-	cont "für nur ¥25.000!"
+	text "Verkäufer: Das N64"
+	line "gehört dir für nur"
+	cont "¥25.000!"
 
 	para "Willst du eins?"
 	done
@@ -239,9 +237,9 @@ VideoGameClerkSellGameCubeText:
 	done
 
 VideoGameClerkSellWiiText:
-	text "Verkäufer: Die"
-	line "Wii gehört dir"
-	cont "für nur ¥40.000!"
+	text "Verkäufer: Die Wii"
+	line "gehört dir für nur"
+	cont "¥40.000!"
 
 	para "Willst du eins?"
 	done
@@ -299,35 +297,34 @@ CeladonDeptStore3FDirectoryText:
 CeladonDeptStore3FSnesText:
 	text "Ein Super NES!"
 
-	para "Ich hab so eins"
-	line "zu Hause!"
+	para "Ich hab so eins zu"
+	line "Hause!"
 	done
 
 CeladonDeptStore3FN64Text:
 	text "Ein N64!"
 
-	para "Ich hab so eins"
-	line "zu Hause!"
+	para "Ich hab so eins zu"
+	line "Hause!"
 	done
 
 CeladonDeptStore3FGameCubeText:
 	text "Ein GameCube!"
 
-	para "Ich hab so eins"
-	line "zu Hause!"
+	para "Ich hab so eins zu"
+	line "Hause!"
 	done
 
 CeladonDeptStore3FWiiText:
 	text "Eine Wii!"
 
-	para "Ich hab so eine"
-	line "zu Hause!"
+	para "Ich hab so eine zu"
+	line "Hause!"
 	done
 
 CeladonDeptStore3FRPGText:
-	text "Ein RPG! Dafür"
-	line "hab ich keine"
-	cont "Zeit!"
+	text "Ein RPG! Dafür hab"
+	line "ich keine Zeit!"
 	done
 
 CeladonDeptStore3FSportsGameText:

@@ -36,9 +36,8 @@ PokemonJournalMrFujiScript:
 	line "liebenswerter"
 	cont "Mann, den man in"
 
-	para "LAVANDIA"
-	line "verehrt und"
-	cont "schätzt."
+	para "LAVANDIA verehrt"
+	line "und schätzt."
 	done
 
 LavenderPokeCenter1FYoungsterScript:
@@ -52,23 +51,20 @@ LavenderPokeCenter1FYoungsterScript:
 	line "Funkturms war"
 	cont "sicher glücklich."
 
-	para "Er sagte, sie"
-	line "sind endlich"
-	cont "wieder"
-	cont "auf Sendung!"
+	para "Er sagte, sie sind"
+	line "endlich wieder auf"
+	cont "Sendung!"
 	done
 
 .NoMachinePartText:
-	text "Wenn das"
-	line "Kraftwerk"
+	text "Wenn das Kraftwerk"
 	line "nicht läuft,"
 
 	para "fährt auch der"
 	line "Magnetzug nicht…"
 
 	para "Und der Funkturm"
-	line "kann nicht"
-	cont "senden…"
+	line "kann nicht senden…"
 	done
 
 .NoExorcismText:
@@ -92,12 +88,10 @@ LavenderPokeCenter1FGentlemanText:
 	done
 LavenderPokeCenter1FTeacherText:
 	text "Es gibt ein"
-	line "Radio-"
-	line "programm mit"
+	line "Radioprogramm mit"
 	cont "#-Flöten-Musik."
 
 	para "Ach? Ah, dein"
-	line "Radio"
-	line "braucht eine"
+	line "Radio braucht eine"
 	cont "Expn.Card dafür."
 	done

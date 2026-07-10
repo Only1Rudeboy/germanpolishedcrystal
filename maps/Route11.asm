@@ -31,8 +31,7 @@ GenericTrainerYoungsterOwen:
 	generictrainer YOUNGSTER, OWEN, EVENT_BEAT_YOUNGSTER_OWEN, YoungsterOwenSeenText, YoungsterOwenBeatenText
 
 	text "Ich habe immer"
-	line "fair und"
-	cont "ehrenhaft"
+	line "fair und ehrenhaft"
 	cont "gekämpft."
 
 	para "Ich habe es noch"
@@ -71,8 +70,7 @@ YoungsterJasonSeenText:
 	line "sticht, wenn ich"
 
 	para "mit meinen Shorts"
-	line "durchs Gras"
-	cont "laufe."
+	line "durchs Gras laufe."
 	done
 
 
@@ -80,9 +78,8 @@ YoungsterJasonSeenText:
 
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "Ich bekam"
-	cont "Dresche!"
+	text "Aiyaaah! Ich bekam"
+	line "Dresche!"
 	done
 
 
@@ -103,8 +100,7 @@ GenericTrainerYoungsterAlfie:
 	done
 
 .BeatenText:
-	text "Spiel, Satz,"
-	cont "Sieg."
+	text "Spiel, Satz, Sieg."
 	done
 
 GenericTrainerPsychicHerman:
@@ -144,8 +140,7 @@ GenericTrainerPsychicFidel:
 	cont "#mon glaubst."
 	done
 PsychicFidelSeenText:
-	text "Ich kann es"
-	line "sehen…"
+	text "Ich kann es sehen…"
 
 	para "Ich kann alles"
 	line "über dich sehen…"
@@ -168,9 +163,8 @@ PsychicFidelBeatenText:
 GenericTrainerPsychicUri:
 	generictrainer PSYCHIC_T, URI, EVENT_BEAT_PSYCHIC_URI, .SeenText, .BeatenText
 
-	text "Prof.Lind gibt"
-	line "mir keinen"
-	cont "#DEX."
+	text "Prof.Lind gibt mir"
+	line "keinen #DEX."
 	cont "Ich frag mich"
 	cont "warum?"
 	done
@@ -183,22 +177,20 @@ GenericTrainerPsychicUri:
 	done
 
 .BeatenText:
-	text "Stadtlegende?"
-	line "Was ist das?"
+	text "Stadtlegende? Was"
+	line "ist das?"
 	done
 
 GenericTrainerEngineerBernie:
 	generictrainer ENGINEER, BERNIE, EVENT_BEAT_ENGINEER_BERNIE, .SeenText, .BeatenText
 
-	text "Verbreite das"
-	line "Wort zum"
-	cont "Energiesparen!"
+	text "Verbreite das Wort"
+	line "zum Energiesparen!"
 	done
 
 .SeenText:
-	text "Vorsicht!"
-	line "Ich verlege"
-	cont "Kabel!"
+	text "Vorsicht! Ich"
+	line "verlege Kabel!"
 	done
 
 .BeatenText:
@@ -220,8 +212,8 @@ GenericTrainerEngineerCamden:
 .SeenText:
 	text "Ingenieurwesen"
 	line "studierte ich an"
-	cont "der Universität"
-	cont "in PRISMANIA!"
+	cont "der Universität in"
+	cont "PRISMANIA!"
 	done
 
 .BeatenText:
@@ -245,8 +237,8 @@ GenericTrainerGuitaristmRoger:
 	done
 
 .BeatenText:
-	text "Strahle weiter,"
-	line "du verrückter"
+	text "Strahle weiter, du"
+	line "verrückter"
 	cont "Diamant!"
 	done
 
@@ -258,8 +250,8 @@ GenericTrainerGuitaristfRitsuko:
 	done
 
 .SeenText:
-	text "Hey ho,"
-	line "los geht's!"
+	text "Hey ho, los"
+	line "geht's!"
 	done
 
 .BeatenText:

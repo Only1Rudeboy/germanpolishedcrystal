@@ -19,7 +19,7 @@ ChadObservingWildText:
 ChadDefeatedMonText:
 	text "Oh ja, ich hab"
 	line "ein"
-	line "wildes"
+	cont "wildes"
 	cont ""
 	text_ram wStringBuffer4
 	text " besiegt."
@@ -36,18 +36,15 @@ ChadLostAMonText:
 	text_ram wStringBuffer4
 	text " gefangen."
 
-	para "Schon lange"
-	line "wollte"
+	para "Schon lange wollte"
 	line "ich "
 	text_ram wStringBuffer4
-	text " be-"
-	cont "obachten. Mist…"
+	text " beobachten. Mist…"
 	done
 
 ChadBattleRematchText:
 	text "Lust zu kämpfen?"
-	line "Ich muss ab und"
-	cont "zu"
+	line "Ich muss ab und zu"
 
 	para "kämpfen, sonst"
 	line "rostet man ein."
@@ -67,17 +64,14 @@ ChadBlueGossipText:
 
 	para "Er ist Prof.Eichs"
 	line "Enkel und"
-	cont "ehemali-"
-	cont "ger"
+	cont "ehemaliger"
 	cont "Liga-Champion!"
 
-	para "Ein super"
-	line "Trainer!"
+	para "Ein super Trainer!"
 	done
 
 ChadDaisyGossipText:
-	text "Prof.Eich hat"
-	line "eine"
+	text "Prof.Eich hat eine"
 	line "Enkelin namens"
 	cont "Daisy."
 
@@ -103,8 +97,8 @@ ChadProfElmGossipText:
 ChadProfOaksDreamGossipText:
 	text "Prof.Eichs Traum"
 	line "ist ein"
-	cont "vollständ-"
-	cont "iger #dex."
+	cont "vollständiger"
+	cont "#dex."
 
 	para "Ich beneide dich,"
 	line "dass du dabei"
@@ -119,8 +113,8 @@ ChadKurtGossipText:
 	line "kennen sich schon"
 	cont "lange."
 
-	para "Große Leute"
-	line "ziehen sich an!"
+	para "Große Leute ziehen"
+	line "sich an!"
 	done
 
 ChadLeagueGossipText:
@@ -128,8 +122,7 @@ ChadLeagueGossipText:
 	line "ist der große"
 
 	para "Treffpunkt aller"
-	line "Trainer, die"
-	cont "Champ"
+	line "Trainer, die Champ"
 
 	para "werden wollen."
 	line "Prof.Eich berät"
@@ -146,8 +139,7 @@ ChadPokemonTalkGossipText:
 	line "Talk ist eine"
 
 	para "beliebte Sendung,"
-	line "oder? Wusstest"
-	cont "du,"
+	line "oder? Wusstest du,"
 
 	para "er wollte sie"
 	line "zuerst ablehnen?"
@@ -176,22 +168,18 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof.Eich hat"
-	line "eine"
+	text "Prof.Eich hat eine"
 	line "Enkelin namens"
 	cont "Daisy."
 
-	para "Sie trinkt"
-	line "täglich"
-	line "eine Stunde Tee"
-	cont "ab"
+	para "Sie trinkt täglich"
+	line "eine Stunde Tee ab"
 
-	para "drei Uhr nach-"
-	line "mittags."
+	para "drei Uhr"
+	line "nachmittags."
 
 	para "Ich wünschte, ich"
-	line "könnte mit ihr"
-	cont "Tee"
+	line "könnte mit ihr Tee"
 
 	para "trinken und über"
 	line "Prof.Eich reden."
@@ -209,17 +197,14 @@ ChadProfOakTravelingGossipText:
 
 	para "Ich beneide ihn…"
 	line "Ich will auch"
-	cont "reisen und"
-	cont "lernen!"
+	cont "reisen und lernen!"
 	done
 
 ChadGoingToStudyHardText:
-	text "Ich lerne"
-	line "fleißig,"
+	text "Ich lerne fleißig,"
 	line "damit Prof.Eich"
 
-	para "mich als"
-	line "Assistent"
+	para "mich als Assistent"
 	line "nimmt!"
 	done
 

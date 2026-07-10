@@ -54,14 +54,11 @@ PewterGymBrockScript:
 GenericTrainerCamperJerry:
 	generictrainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, CamperJerrySeenText, CamperJerryBeatenText
 
-	text "He, du da!"
-	line "Trainer"
+	text "He, du da! Trainer"
 	line "aus JOHTO! ROCKO"
 
-	para "ist stark. Es"
-	line "wird"
-	line "dir übel"
-	cont "bekommen,"
+	para "ist stark. Es wird"
+	line "dir übel bekommen,"
 
 	para "wenn du ihn nicht"
 	line "ernst nimmst."
@@ -74,8 +71,7 @@ GenericTrainerHikerEdwin:
 	done
 
 HikerEdwinSeenText:
-	text "Ich wollte mir"
-	line "die"
+	text "Ich wollte mir die"
 	line "ARENA ansehen."
 	done
 HikerEdwinBeatenText:
@@ -87,22 +83,19 @@ PewterGymGuyScript:
 	iftrue_jumptextfaceplayer PewterGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP"
-	line "in spe!"
+	text "He! Ein CHAMP in"
+	line "spe!"
 
 	para "Das ist cool!"
 	line "Kämpfst du gegen"
 
-	para "die ARENALEITER"
-	line "in"
+	para "die ARENALEITER in"
 	line "KANTO?"
 
-	para "Sie sind stark"
-	line "und"
+	para "Sie sind stark und"
 	line "ambitioniert, wie"
 
-	para "die ARENALEITER"
-	line "in"
+	para "die ARENALEITER in"
 	line "JOHTO."
 	done
 PewterGymStatue:
@@ -118,17 +111,15 @@ BrockIntroText:
 	line "kommt nicht oft"
 
 	para "vor, dass wir von"
-	line "einem Heraus-"
-	cont "forderer aus"
-	cont "JOHTO"
-	cont "besucht werden."
+	line "einem"
+	cont "Herausforderer aus"
+	cont "JOHTO besucht"
+	cont "werden."
 
-	para "Ich bin ROCKO,"
-	line "der"
+	para "Ich bin ROCKO, der"
 	line "ARENALEITER von"
 
-	para "MARMORIA. Ich"
-	line "habe"
+	para "MARMORIA. Ich habe"
 	line "mich auf Gestein-"
 	cont "#mon"
 	cont "spezialisiert."
@@ -136,20 +127,19 @@ BrockIntroText:
 	para "Meine #mon sind"
 	line "gegen die meisten"
 
-	para "physischen Atta-"
-	line "cken immun. Es"
+	para "physischen"
+	line "Attacken immun. Es"
 	cont "wird dir schwer"
 
 	para "fallen, ihnen"
-	line "Schaden"
-	cont "zuzufügen."
+	line "Schaden zuzufügen."
 	cont "Na los!"
 	done
 
 
 BrockWinLossText:
-	text "ROCKO: Die mäch-"
-	line "tigen Attacken"
+	text "ROCKO: Die"
+	line "mächtigen Attacken"
 	cont "deiner #mon"
 	cont "haben meine"
 	cont "felsenfeste"
@@ -168,18 +158,16 @@ BrockBoulderBadgeText:
 	text "ROCKO: Danke,"
 	line "<PLAYER>. Es war"
 
-	para "eine Freude,"
-	line "gegen"
+	para "eine Freude, gegen"
 	line "dich zu kämpfen."
 
 	para "Auch wenn ich ein"
-	line "bisschen"
-	cont "beleidigt"
+	line "bisschen beleidigt"
 	cont "bin."
 
 	para "Dieser FELSORDEN"
-	line "wird deine #-"
-	cont "MON noch stärker"
+	line "wird deine #mon"
+	cont "noch stärker"
 	cont "machen."
 	done
 
@@ -189,8 +177,7 @@ BrockFightDoneText:
 	line "ist groß. Es gibt"
 
 	para "immer noch viele"
-	line "starke Trainer"
-	cont "wie"
+	line "starke Trainer wie"
 	cont "dich."
 
 	para "Warte nur ab. Ich"
@@ -200,8 +187,7 @@ BrockFightDoneText:
 
 
 CamperJerrySeenText:
-	text "Die Trainer"
-	line "dieser"
+	text "Die Trainer dieser"
 	line "#mon-ARENA"
 	cont "setzen"
 	cont "Gestein-#mon"
@@ -226,8 +212,8 @@ CamperJerryBeatenText:
 
 
 PewterGymGuyWinText:
-	text "He! Ein CHAMP"
-	line "in spe!"
+	text "He! Ein CHAMP in"
+	line "spe!"
 
 	para "Diese PKMN-ARENA"
 	line "stellte kein"
@@ -235,11 +221,9 @@ PewterGymGuyWinText:
 	para "Problem für dich"
 	line "dar."
 
-	para "Dein Einsatz"
-	line "ist wirklich"
+	para "Dein Einsatz ist"
+	line "wirklich"
 
-	para "beeindruckend."
-	line "Das"
-	line "meine ich"
-	cont "ehrlich."
+	para "beeindruckend. Das"
+	line "meine ich ehrlich."
 	done

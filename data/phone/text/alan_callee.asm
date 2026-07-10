@@ -46,8 +46,7 @@ AlanGreetNiteText:
 	done
 
 AlanGenericText:
-	text "<PLAYER>,"
-	line "züchtest"
+	text "<PLAYER>, züchtest"
 	line "du deine #mon"
 
 	para "richtig? In einem"
@@ -55,6 +54,6 @@ AlanGenericText:
 
 	para "soll jedes #mon"
 	line "mit Liebe und"
-	cont "Sorg-"
-	cont "falt aufziehen."
+	cont "Sorgfalt"
+	cont "aufziehen."
 	done

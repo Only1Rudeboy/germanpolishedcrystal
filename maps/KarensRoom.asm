@@ -84,18 +84,16 @@ KarenScript:
 
 .SeenText:
 	text "Ich bin MELANIE."
-	line "Nummer 4 der"
-	cont "TOP VIER."
+	line "Nummer 4 der TOP"
+	cont "VIER."
 
-	para "Du heißt"
-	line "<PLAYER>?"
+	para "Du heißt <PLAYER>?"
 	line "Sehr amüsant."
 
 	para "Ich liebe #mon"
 	line "des Typs Unlicht."
 
-	para "Ihr wilder,"
-	line "harter"
+	para "Ihr wilder, harter"
 	line "Ruf gefällt mir."
 
 	para "Und sie sind"
@@ -110,10 +108,9 @@ KarenScript:
 	para "Auf geht's."
 	done
 .BeatenText:
-	text "Nun, du bist"
-	line "gut. Das gefällt"
-	cont "mir an einem"
-	cont "Trainer."
+	text "Nun, du bist gut."
+	line "Das gefällt mir an"
+	cont "einem Trainer."
 	done
 .AfterText:
 	text "Starke #mon."
@@ -121,37 +118,33 @@ KarenScript:
 	para "Schwache #mon."
 
 	para "Das ist nur eine"
-	line "subjektive Ein-"
-	cont "schätzung anderer"
-	cont "Menschen."
+	line "subjektive"
+	cont "Einschätzung"
+	cont "anderer Menschen."
 
 	para "Wirklich begabte"
 	line "Trainer gewinnen"
 
-	para "mit ihren Lieb-"
-	line "lings-#mon."
+	para "mit ihren"
+	line "Lieblings-#mon."
 
 	para "Ich mag deinen"
 	line "Stil. Du weißt,"
 	cont "was wichtig ist."
 
 	para "Schreite voran!"
-	line "Der CHAMP"
-	cont "wartet."
+	line "Der CHAMP wartet."
 	done
 .SeenRematchText:
-	text "Du hast dich"
-	line "durch"
+	text "Du hast dich durch"
 	line "die Reihen"
-	cont "gekämpft,"
-	cont "um mich zu"
-	cont "erreichen."
+	cont "gekämpft, um mich"
+	cont "zu erreichen."
 
 	para "Ich bin"
-	line "beeindruckt."
-	line "Du hast ein"
-	cont "charmantes"
-	cont "Team"
+	line "beeindruckt. Du"
+	cont "hast ein"
+	cont "charmantes Team"
 	cont "zusammengestellt."
 
 	para "Unser Kampf wird"
@@ -166,7 +159,7 @@ KarenScript:
 	cont "abweichen."
 
 	para "Dragoran freut"
-	line "sich schon auf"
-	cont "ein Wiedersehen"
-	cont "mit dir."
+	line "sich schon auf ein"
+	cont "Wiedersehen mit"
+	cont "dir."
 	done

@@ -49,8 +49,8 @@ OfficerfJamieBeatenText:
 	done
 
 OfficerfJamieAfterText:
-	text "Nachts auf dem"
-	line "Rad unterwegs"
+	text "Nachts auf dem Rad"
+	line "unterwegs"
 
 	para "wirkt einfach"
 	line "verdächtig."
@@ -60,8 +60,7 @@ OfficerfJamieDaytimeText:
 	text "Biker und Rocker"
 	line "machen auf dieser"
 
-	para "Straße gern"
-	line "Ärger."
+	para "Straße gern Ärger."
 
 	para "Misch dich nicht"
 	line "ein, klar?"
@@ -70,7 +69,6 @@ OfficerfJamieDaytimeText:
 CyclingRoadSignText:
 	text "RADWEG"
 
-	para "Es geht den"
-	line "ganzen"
+	para "Es geht den ganzen"
 	line "Weg nur bergab!"
 	done

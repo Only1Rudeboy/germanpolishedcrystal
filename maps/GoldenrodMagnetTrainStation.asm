@@ -35,9 +35,9 @@ GoldenrodMagnetTrainStationOfficerScript:
 	cont "eingetroffen…"
 
 	para "Ich weiß! Ich"
-	line "trage die Passa-"
-	cont "giere auf meinem"
-	cont "Rücken!"
+	line "trage die"
+	cont "Passagiere auf"
+	cont "meinem Rücken!"
 
 	para "Das wird nicht"
 	line "klappen."
@@ -80,8 +80,8 @@ GoldenrodMagnetTrainStationCooltrainerfScript:
 	line "zoooom, byun!"
 	cont "Shuuu!"
 
-	para "Zumindest wenn"
-	line "er fährt…"
+	para "Zumindest wenn er"
+	line "fährt…"
 	done
 
 .PowerRestored
@@ -131,9 +131,9 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	text "Wir werden in"
-	line "Kür-"
-	line "ze nach SAFFRONIA"
-	cont "CITY abreisen."
+	line "Kürze nach"
+	cont "SAFFRONIA CITY"
+	cont "abreisen."
 
 	para "Kommst du mit?"
 	line ""
@@ -166,8 +166,8 @@ GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 	text "Wir sind in DUKA-"
-	line "TIA CITY angekom-"
-	cont "men."
+	line "TIA CITY"
+	cont "angekommen."
 
 	para "Beehre uns bald"
 	line "wieder!"
@@ -175,14 +175,13 @@ GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "Ich bin der"
-	line "PRÄSI-"
+	text "Ich bin der PRÄSI-"
 	line "DENT."
 
-	para "Mein Traum war"
-	line "es,"
-	line "einen Zug zu bau-"
-	cont "en, der schneller"
+	para "Mein Traum war es,"
+	line "einen Zug zu"
+	cont "bauen, der"
+	cont "schneller"
 
 	para "ist als jedes"
 	line "#mon."

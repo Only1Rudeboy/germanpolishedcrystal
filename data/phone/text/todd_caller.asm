@@ -14,7 +14,7 @@ ToddDefeatedMonText:
 
 	para "Jetzt besiegen"
 	line "wir"
-	line ""
+	cont ""
 	text_ram wStringBuffer4
 	cont "leicht."
 
@@ -54,9 +54,8 @@ ToddHangUpText:
 
 ToddDepartmentStoreBargainSaleText:
 	text "Jetzt ist es"
-	line "soweit"
-	line "— darauf haben"
-	cont "wir"
+	line "soweit — darauf"
+	cont "haben wir"
 	cont "gewartet!"
 
 	para "Schlussverkauf im"
@@ -65,13 +64,10 @@ ToddDepartmentStoreBargainSaleText:
 	para "Billig? Viel?"
 	line "Verpass es nicht!"
 
-	para "Häh? Kling ich"
-	line "wie"
-	line "ein"
-	cont "Marktschreier?"
+	para "Häh? Kling ich wie"
+	line "ein Marktschreier?"
 
-	para "Na ja, ich hab"
-	line "sie"
+	para "Na ja, ich hab sie"
 	line "nachgeahmt…"
 
 	para "Beeil dich!"
@@ -88,8 +84,7 @@ ToddLookingForwardToBattleText:
 	text "Wo bist du?"
 
 	para "Lass uns bald"
-	line "kämpfen! Ich"
-	cont "warte"
+	line "kämpfen! Ich warte"
 	cont "auf "
 	text_ram wStringBuffer5
 	text "."
@@ -100,10 +95,8 @@ ToddHaveYouGoneToDepartmentStoreText:
 	line "Kaufhaus Dukatia?"
 
 	para "Ich war schon da!"
-	line "Tolle"
-	cont "Schnäppchen."
+	line "Tolle Schnäppchen."
 
 	para "Du solltest"
-	line "schnell"
-	line "hingehen."
+	line "schnell hingehen."
 	done

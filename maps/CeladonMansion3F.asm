@@ -115,9 +115,8 @@ MapCeladonMansion3FSignpost3Script:
 
 	text "Es steckt voller"
 	line "Referenzmaterial."
-	cont "Sogar eine"
-	cont "# Puppe ist"
-	cont "dabei!"
+	cont "Sogar eine #"
+	cont "Puppe ist dabei!"
 	done
 
 GameFreakGameDesignerText:
@@ -133,8 +132,8 @@ GameFreakGameDesignerText:
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Exzellent!"
-	line "Du hast deinen"
+	text "Wow! Exzellent! Du"
+	line "hast deinen"
 	cont "#dex komplett!"
 
 	para "Glückwunsch!"
@@ -155,8 +154,8 @@ GameFreakGameDesignerGiveDiplomaText:
 	done
 
 GameFreakGameDesignerDiplomaSentText:
-	text "Das Diplom"
-	line "kam nach Hause."
+	text "Das Diplom kam"
+	line "nach Hause."
 	done
 
 
@@ -189,8 +188,8 @@ GameFreakGraphicArtistPrintDiplomaText:
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Sag Bescheid,"
-	line "wenn dein Diplom"
+	text "Sag Bescheid, wenn"
+	line "dein Diplom"
 	cont "gedruckt sein"
 	cont "soll."
 	done

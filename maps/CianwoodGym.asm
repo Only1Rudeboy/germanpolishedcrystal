@@ -191,17 +191,15 @@ GenericTrainerBlackbeltLao:
 GenericTrainerBlackbeltNob:
 	generictrainer BLACKBELT_T, NOB, EVENT_BEAT_BLACKBELT_NOB, BlackbeltNobSeenText, BlackbeltNobBeatenText
 
-	text "Ich habe"
-	line "verloren!"
-	line "Ich bin"
-	cont "sprachlos!"
+	text "Ich habe verloren!"
+	line "Ich bin sprachlos!"
 	done
 
 GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
-	text "Meine #mon ha-"
-	line "ben verloren…"
+	text "Meine #mon"
+	line "haben verloren…"
 	cont "Mein Stolz ist"
 	cont "zerstört…"
 	done
@@ -231,12 +229,11 @@ ChuckIntroText1:
 	text "WAHAHAH!"
 
 	para "Du hast es also"
-	line "bis hierher ge-"
-	cont "schafft!"
+	line "bis hierher"
+	cont "geschafft!"
 
 	para "Lass dir gesagt"
-	line "sein, dass ich"
-	cont "ein"
+	line "sein, dass ich ein"
 	cont "harter Brocken"
 	cont "bin."
 
@@ -250,8 +247,7 @@ ChuckIntroText1:
 
 
 ChuckIntroText2:
-	text "HARTWIG: Urggh!"
-	line "…"
+	text "HARTWIG: Urggh! …"
 
 	para "Oooarrgh!"
 	done
@@ -261,48 +257,43 @@ ChuckIntroText3:
 	text "Da! Jetzt hast du"
 	line "dich erschreckt!"
 
-	para "Wie?"
-	line "Es hat nichts mit"
+	para "Wie? Es hat nichts"
+	line "mit"
 
 	para "#mon zu tun?"
 	line "Das ist wahr!"
 
-	para "Komm her. Lass"
-	line "uns"
+	para "Komm her. Lass uns"
 	line "kämpfen!"
 	done
 
 
 ChuckLossText:
-	text "Wa…? Huch?"
-	line "Ich habe"
-	cont "verloren?"
+	text "Wa…? Huch? Ich"
+	line "habe verloren?"
 
 	para "Wie wär's damit?"
-	line "Du bist des"
-	cont "FAUST-"
+	line "Du bist des FAUST-"
 	cont "ORDENs würdig!"
 	done
 
 
 ChuckExplainBadgeText:
-	text "Durch den"
-	line "FAUSTOR-"
+	text "Durch den FAUSTOR-"
 	line "DEN gehorchen dir"
 
-	para "alle #mon"
-	line "bis LV 70. Dies"
+	para "alle #mon bis"
+	line "LV 70. Dies"
 
-	para "gilt auch für Ge-"
-	line "tauschte."
+	para "gilt auch für"
+	line "Getauschte."
 
 	para "Außerdem können"
 	line "deine #mon"
 
 	para "FLIEGEN auch"
 	line "außerhalb eines"
-	cont "Kampfes"
-	cont "einsetzen."
+	cont "Kampfes einsetzen."
 
 	para "Hier, nimm auch"
 	line "dies!"
@@ -311,16 +302,15 @@ ChuckExplainBadgeText:
 
 ChuckAfterText:
 	text "WAHAHAH! Es hat"
-	line "Spaß gemacht, ge-"
-	cont "gen dich zu kämp-"
-	cont "fen."
+	line "Spaß gemacht,"
+	cont "gegen dich zu"
+	cont "kämpfen."
 
-	para "Aber eine Nieder-"
-	line "lage bleibt eine"
-	cont "Niederlage!"
+	para "Aber eine"
+	line "Niederlage bleibt"
+	cont "eine Niederlage!"
 
-	para "Von jetzt an"
-	line "werde"
+	para "Von jetzt an werde"
 	line "ich 24 Stunden am"
 	cont "Tag trainieren!"
 	done
@@ -329,8 +319,7 @@ ChuckAfterText:
 BlackbeltYoshiSeenText:
 	text "Meine #mon und"
 	line "mich verbindet"
-	cont "un-"
-	cont "sere"
+	cont "unsere"
 	cont "Freundschaft."
 
 	para "Dieses Band wird"
@@ -339,8 +328,7 @@ BlackbeltYoshiSeenText:
 
 
 BlackbeltYoshiBeatenText:
-	text "Das ist"
-	line "unmöglich!"
+	text "Das ist unmöglich!"
 	done
 
 
@@ -370,38 +358,33 @@ BlackbeltNobBeatenText:
 
 BlackbeltLungSeenText:
 	text "Gegen die Wut"
-	line "mei-"
-	line "ner Fäuste können"
-	cont "deine #mon"
-	cont "nichts"
+	line "meiner Fäuste"
+	cont "können deine"
+	cont "#mon nichts"
 	cont "ausrichten!"
 	done
 
 
 BlackbeltLungBeatenText:
-	text "Ich wurde zer-"
-	line "schmettert!"
+	text "Ich wurde"
+	line "zerschmettert!"
 	done
 
 
 CianwoodGymBlackBeltText:
 	text "Der ARENA-Guide"
-	line "hat"
-	line "zu viel Angst vor"
-	cont "uns, um zu"
+	line "hat zu viel Angst"
+	cont "vor uns, um zu"
 	cont "bleiben."
 
 	para "Was für ein"
-	line "Weich-"
-	line "ling!"
+	line "Weichling!"
 	done
 CianwoodGymChuckTrainingText:
 	text "Er ist so in sein"
-	line "Training"
-	cont "vertieft,"
+	line "Training vertieft,"
 
-	para "dass er dich"
-	line "nicht"
+	para "dass er dich nicht"
 	line "bemerkt."
 	done
 CianwoodGymBoulderText:

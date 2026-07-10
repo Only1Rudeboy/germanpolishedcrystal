@@ -74,18 +74,16 @@ FastShipB1FSailorScript:
 	jumpthisopenedtext
 
 	text "Hey, du da."
-	line "Könntest du"
-	cont "meinen Kumpel"
-	cont "suchen?"
+	line "Könntest du meinen"
+	cont "Kumpel suchen?"
 
 	para "Er treibt sich"
 	line "irgendwo rum,"
-	cont "dieser faule"
-	cont "Sack!"
+	cont "dieser faule Sack!"
 
-	para "Ich würde ihn"
-	line "gern suchen, aber"
-	cont "ich hab Dienst."
+	para "Ich würde ihn gern"
+	line "suchen, aber ich"
+	cont "hab Dienst."
 	done
 
 .LazySailor:
@@ -102,16 +100,15 @@ FastShipB1FSailorScript:
 	line "Mädchen?"
 
 	para "Ich glaube, sie"
-	line "ist hier vorbei-"
-	cont "gekommen."
+	line "ist hier"
+	cont "vorbeigekommen."
 	done
 GenericTrainerSailorJeff:
 	generictrainer SAILOR, JEFF, EVENT_BEAT_SAILOR_JEFF, SailorJeffSeenText, SailorJeffBeatenText
 
 	text "Ich denke, ich"
 	line "werde nie"
-	cont "gewinnen, wenn"
-	cont "ich"
+	cont "gewinnen, wenn ich"
 	cont "die Sache nicht"
 	cont "ernst nehme."
 	done
@@ -119,30 +116,28 @@ GenericTrainerPicnickerDebra:
 	generictrainer PICNICKER, DEBRA, EVENT_BEAT_PICNICKER_DEBRA, PicnickerDebraSeenText, PicnickerDebraBeatenText
 
 	text "SAFFRONIA,"
-	line "PRISMANIA…"
-	cont "Ich habe gehört,"
+	line "PRISMANIA… Ich"
+	cont "habe gehört,"
 
 	para "es gibt viele"
-	line "große Städte"
-	cont "in KANTO."
+	line "große Städte in"
+	cont "KANTO."
 	done
 GenericTrainerJugglerFritz:
 	generictrainer JUGGLER, FRITZ, EVENT_BEAT_JUGGLER_FRITZ, JugglerFritzSeenText, JugglerFritzBeatenText
 
-	text "Ich reise nie"
-	line "mehr mit dem"
+	text "Ich reise nie mehr"
+	line "mit dem"
 
 	para "Schiff. Das"
 	line "nächste Mal nehme"
-	cont "ich den"
-	cont "MAGNETZUG."
+	cont "ich den MAGNETZUG."
 	done
 GenericTrainerBakerSharyn:
 	generictrainer BAKER, SHARYN, EVENT_BEAT_BAKER_SHARYN, BakerSharynSeenText, BakerSharynBeatenText
 
-	text "Ich bin"
-	line "vielleicht nicht"
-	cont "der beste im"
+	text "Ich bin vielleicht"
+	line "nicht der beste im"
 
 	para "Kampf, aber die"
 	line "Leute lieben mein"
@@ -158,8 +153,7 @@ TrainerSailorGarrett:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Wir bringen"
-	line "unsere"
+	text "Wir bringen unsere"
 	line "Passagiere von"
 
 	para "ORANIA CITY nach"
@@ -169,8 +163,7 @@ GenericTrainerFisherJonah:
 	generictrainer FISHER, JONAH, EVENT_BEAT_FISHER_JONAH, FisherJonahSeenText, FisherJonahBeatenText
 
 	text "Ich werde am Kai"
-	line "von ORANIA"
-	cont "angeln."
+	line "von ORANIA angeln."
 	done
 GenericTrainerBlackbeltWai:
 	generictrainer BLACKBELT_T, WAI, EVENT_BEAT_BLACKBELT_WAI, BlackbeltWaiSeenText, BlackbeltWaiBeatenText
@@ -187,8 +180,8 @@ GenericTrainerBlackbeltWai:
 GenericTrainerSailorKenneth:
 	generictrainer SAILOR, KENNETH, EVENT_BEAT_SAILOR_KENNETH, SailorKennethSeenText, SailorKennethBeatenText
 
-	text "Acht ORDEN!"
-	line "Das heißt, du"
+	text "Acht ORDEN! Das"
+	line "heißt, du"
 
 	para "hast die ARENA-"
 	line "LEITER besiegt."
@@ -201,15 +194,14 @@ GenericTrainerTeacherShirley:
 
 	text "Wir machen einen"
 	line "Ausflug zu den"
-	cont "RUINEN bei"
-	cont "VIOLA CITY."
+	cont "RUINEN bei VIOLA"
+	cont "CITY."
 	done
 GenericTrainerSchoolboyNate:
 	generictrainer SCHOOLBOY, NATE, EVENT_BEAT_SCHOOLBOY_NATE, SchoolboyNateSeenText, SchoolboyNateBeatenText
 
 	text "In den RUINEN"
-	line "empfängt das"
-	cont "Radio"
+	line "empfängt das Radio"
 	cont "seltsame Signale."
 	done
 GenericTrainerSchoolboyRicky:
@@ -219,8 +211,8 @@ GenericTrainerSchoolboyRicky:
 	line "stand, dass es in"
 
 	para "den RUINEN vier"
-	line "solcher Stein-"
-	cont "tafeln gibt."
+	line "solcher"
+	cont "Steintafeln gibt."
 	done
 
 FastShipB1FSailorBlocksRightMovement:
@@ -241,8 +233,8 @@ FastShipB1FSailorBlocksLeftMovement:
 FastShipB1FOnDutySailorRefusedText:
 	text "Ach, ach…"
 
-	para "Der KAPITÄN"
-	line "wird wütend sein…"
+	para "Der KAPITÄN wird"
+	line "wütend sein…"
 	done
 
 
@@ -250,8 +242,8 @@ FastShipB1FOnDutySailorRefusedText:
 
 
 FastShipB1FOnDutySailorThanksText:
-	text "Danke!"
-	line "Ich habe mit ihm"
+	text "Danke! Ich habe"
+	line "mit ihm"
 
 	para "geredet, er wird"
 	line "nicht mehr"
@@ -263,13 +255,12 @@ FastShipB1FOnDutySailorThanksText:
 
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "Der Speisesaal"
-	line "ist geradeaus."
+	text "Der Speisesaal ist"
+	line "geradeaus."
 
 	para "Die Treppen am"
-	line "Ende führen in"
-	cont "die KAPITÄNS-"
-	cont "KAJÜTE."
+	line "Ende führen in die"
+	cont "KAPITÄNS- KAJÜTE."
 	done
 
 
@@ -290,8 +281,7 @@ SailorJeffSeenText:
 SailorJeffBeatenText:
 	text "Sieg oder"
 	line "Niederlage, meine"
-	cont "Pause ist"
-	cont "vorüber!"
+	cont "Pause ist vorüber!"
 	done
 
 
@@ -299,9 +289,9 @@ SailorJeffBeatenText:
 
 
 PicnickerDebraSeenText:
-	text "Mir ist lang-"
-	line "weilig. Willst du"
-	cont "kämpfen?"
+	text "Mir ist"
+	line "langweilig. Willst"
+	cont "du kämpfen?"
 	done
 
 
@@ -318,8 +308,8 @@ PicnickerDebraBeatenText:
 
 
 JugglerFritzSeenText:
-	text "Uff…"
-	line "Ich bin seekrank!"
+	text "Uff… Ich bin"
+	line "seekrank!"
 	done
 
 
@@ -344,9 +334,8 @@ BakerSharynSeenText:
 	done
 
 BakerSharynBeatenText:
-	text "Zumindest ist"
-	line "mein Brot ein"
-	cont "Sieger."
+	text "Zumindest ist mein"
+	line "Brot ein Sieger."
 	done
 
 SailorGarrettSeenText:
@@ -369,10 +358,10 @@ SailorGarrettBeatenText:
 
 
 FisherJonahSeenText:
-	text "Auch wenn wir"
-	line "mit dem Schiff"
-	cont "fahren, kann ich"
-	cont "nicht angeln!"
+	text "Auch wenn wir mit"
+	line "dem Schiff fahren,"
+	cont "kann ich nicht"
+	cont "angeln!"
 
 	para "Wie langweilig!"
 	line "Lass uns kämpfen!"
@@ -393,8 +382,7 @@ FisherJonahBeatenText:
 
 BlackbeltWaiSeenText:
 	text "Ich trainiere"
-	line "meine Beine,"
-	cont "indem"
+	line "meine Beine, indem"
 
 	para "ich das Schaukeln"
 	line "des Schiffes"
@@ -406,8 +394,7 @@ BlackbeltWaiSeenText:
 
 
 BlackbeltWaiBeatenText:
-	text "Gestürzt und"
-	line "platt"
+	text "Gestürzt und platt"
 	line "gemacht!"
 	done
 
@@ -418,11 +405,9 @@ BlackbeltWaiBeatenText:
 SailorKennethSeenText:
 	text "Ich bin Matrose!"
 
-	para "Aber ich"
-	line "trainiere"
-	line "#mon, um"
-	cont "der CHAMP zu"
-	cont "werden!"
+	para "Aber ich trainiere"
+	line "#mon, um der"
+	cont "CHAMP zu werden!"
 	done
 
 
@@ -475,8 +460,7 @@ SchoolboyNateBeatenText:
 
 
 SchoolboyRickySeenText:
-	text "In den"
-	line "ALPH-RUINEN"
+	text "In den ALPH-RUINEN"
 	line "gibt es seltsame"
 	cont "Steinplatten."
 	done

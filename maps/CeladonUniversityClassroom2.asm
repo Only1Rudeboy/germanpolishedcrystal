@@ -33,9 +33,8 @@ CeladonUniversityClassroom2BlancheText:
 	line "Geschichte lernen,"
 
 	para "sonst sind wir"
-	line "dazu verdammt,"
-	cont "sie zu"
-	cont "wiederholen."
+	line "dazu verdammt, sie"
+	cont "zu wiederholen."
 	done
 
 CeladonUniversityClassroom2TeacherText:
@@ -48,8 +47,8 @@ CeladonUniversityClassroom2TeacherText:
 
 CeladonUniversityClassroom2YoungsterText:
 	text "Ich blätter durch"
-	line "meine Notizen"
-	cont "so schnell--AU!"
+	line "meine Notizen so"
+	cont "schnell--AU!"
 	cont "Papierschnitt…"
 	done
 
@@ -85,8 +84,7 @@ CeladonUniversityClassroom2CooltrainermScript:
 	end
 
 .Text1: ; text > text
-	text "…Zzz…"
-	line "Aah!"
+	text "…Zzz… Aah!"
 	done
 
 .Text2:
@@ -118,8 +116,7 @@ CeladonUniversityClassroom2BlackboardText:
 	cont "entwickelt."
 
 	para "Vor 27 Jahren:"
-	line "erste Mondlan-"
-	cont "dung."
+	line "erste Mondlandung."
 
 	para "Vor drei Jahren:"
 	line "erstes virtuelles"

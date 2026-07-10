@@ -209,26 +209,22 @@ DayCareLyraHelloText:
 	done
 
 DayCareLyraProtestText:
-	text "Lyra: Was?"
-	line "Oma…!"
+	text "Lyra: Was? Oma…!"
 
-	para "Wovon redest"
-	line "du?"
+	para "Wovon redest du?"
 
-	para "<PLAYER> wohnt"
-	line "nur in der Nähe…"
+	para "<PLAYER> wohnt nur"
+	line "in der Nähe…"
 
-	para "Oma: Hahaha."
-	line "Schon gut, schon"
-	cont "gut."
+	para "Oma: Hahaha. Schon"
+	line "gut, schon gut."
 
 	para ""
 	text_ram wStringBuffer4
 
 	para "Stimmt's,"
-	line "<PLAYER>?"
-	line "Komm uns mal"
-	cont "besuchen!"
+	line "<PLAYER>? Komm uns"
+	cont "mal besuchen!"
 	done
 
 DayCareLyraGoodbyeText:
@@ -238,8 +234,8 @@ DayCareLyraGoodbyeText:
 	done
 
 DayCareLyraForgotText:
-	text "Lyra: Ach!"
-	line "Fast vergessen!"
+	text "Lyra: Ach! Fast"
+	line "vergessen!"
 
 	para "Hier! Das ist"
 	line "meine #Com-"
@@ -252,12 +248,12 @@ GotLyrasNumberText:
 	done
 
 DayCareLyraHasInfoText:
-	text "Ruf mich an,"
-	line "wann du willst!"
+	text "Ruf mich an, wann"
+	line "du willst!"
 
-	para "Oma und Opa"
-	line "haben mir viel"
-	cont "über #mon"
+	para "Oma und Opa haben"
+	line "mir viel über"
+	cont "#mon"
 	cont "beigebracht,"
 
 	para "und das geb ich"
@@ -274,8 +270,8 @@ DayCareLyraEmbarassedText:
 	line "Trainer, und"
 
 	para "Trainer tauschen"
-	line "Nummern aus."
-	cont "Mehr nicht."
+	line "Nummern aus. Mehr"
+	cont "nicht."
 	done
 
 Text_GrampsLookingForYou:
@@ -302,8 +298,8 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	line "EI-TICKET, dass"
 
 	para "man gegen ein"
-	line "KURIOS-EI eintau-"
-	cont "schen kann."
+	line "KURIOS-EI"
+	cont "eintauschen kann."
 
 	para "Aber da wir eine"
 	line "PENSION leiten,"
@@ -322,21 +318,19 @@ DayCareManText_GiveOddEgg:
 	text "Ich bin der"
 	line "PENSIONSLEITER."
 
-	para "Kennst du dich"
-	line "mit EIERN aus?"
+	para "Kennst du dich mit"
+	line "EIERN aus?"
 
 	para "Ich habe #mon"
-	line "mit meiner"
-	cont "Frau aufgezogen."
+	line "mit meiner Frau"
+	cont "aufgezogen."
 
-	para "Wir waren ent-"
-	line "setzt, als wir"
-	cont "ein"
-	cont "EI fanden!"
+	para "Wir waren"
+	line "entsetzt, als wir"
+	cont "ein EI fanden!"
 
 	para "Das ist doch"
-	line "unglaublich,"
-	cont "oder?"
+	line "unglaublich, oder?"
 
 	para "Nun, möchtest du"
 	line "das EI? Gut, nimm"
@@ -368,17 +362,14 @@ DayCareText_GotOddEgg:
 
 
 DayCareText_DescribeOddEgg:
-	text "Ich fand dies,"
-	line "als"
+	text "Ich fand dies, als"
 	line "ich mich um ein"
 
 	para "#mon eines"
 	line "anderen Trainers"
 
-	para "kümmerte. Aber"
-	line "der"
-	line "Trainer wollte"
-	cont "das"
+	para "kümmerte. Aber der"
+	line "Trainer wollte das"
 
 	para "EI nicht, also"
 	line "habe ich es"
@@ -404,14 +395,13 @@ DayCareLadyText_DescribeLyrasEgg:
 	cont "#mon."
 
 	para "Sie muss dir als"
-	line "Trainerin wirk-"
-	cont "lich vertrauen."
+	line "Trainerin wirklich"
+	cont "vertrauen."
 	done
 
 DayCareText_PartyAndBoxFull:
 	text "Du hast keinen"
-	line "Platz dafür,"
-	cont "nicht"
+	line "Platz dafür, nicht"
 	cont "einmal in deiner"
 	cont "Box."
 	done

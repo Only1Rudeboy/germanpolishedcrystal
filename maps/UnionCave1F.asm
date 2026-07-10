@@ -50,8 +50,8 @@ GenericTrainerHikerRussell:
 GenericTrainerHikerDaniel:
 	generictrainer HIKER, DANIEL, EVENT_BEAT_HIKER_DANIEL, HikerDanielSeenText, HikerDanielBeatenText
 
-	text "Ich wurde ge-"
-	line "nötigt, eine"
+	text "Ich wurde"
+	line "genötigt, eine"
 	cont "FLEGMONRUTE zu"
 	cont "kaufen."
 
@@ -71,9 +71,8 @@ GenericTrainerFirebreatherRay:
 	generictrainer FIREBREATHER, RAY, EVENT_BEAT_FIREBREATHER_RAY, FirebreatherRaySeenText, FirebreatherRayBeatenText
 
 	text "Das Feuer meines"
-	line "#mon"
-	cont "erleuchtet diese"
-	cont "Höhle."
+	line "#mon erleuchtet"
+	cont "diese Höhle."
 	done
 GenericTrainerRuin_maniacJones:
 	generictrainer RUIN_MANIAC, JONES, EVENT_BEAT_RUIN_MANIAC_JONES, Ruin_maniacJonesSeenText, Ruin_maniacJonesBeatenText
@@ -90,8 +89,8 @@ HikerRussellSeenText:
 	cont "CITY, nicht wahr?"
 
 	para "Lass meine #mon"
-	line "entscheiden, ob"
-	cont "du eines Kampfes"
+	line "entscheiden, ob du"
+	cont "eines Kampfes"
 	cont "würdig bist."
 	done
 
@@ -116,8 +115,8 @@ PokemaniacLarrySeenText:
 	para "Suchst du auch"
 	line "nach #mon?"
 
-	para "Dann bist du"
-	line "mein Rivale!"
+	para "Dann bist du mein"
+	line "Rivale!"
 	done
 
 
@@ -134,13 +133,11 @@ PokemaniacLarryBeatenText:
 
 
 HikerDanielSeenText:
-	text "Whoa! Was für"
-	line "eine"
-	cont "Überraschung!"
+	text "Whoa! Was für eine"
+	line "Überraschung!"
 
 	para "Ich habe nicht"
-	line "erwartet, hier"
-	cont "auf"
+	line "erwartet, hier auf"
 	cont "jemanden zu"
 	cont "treffen!"
 	done
@@ -150,8 +147,8 @@ HikerDanielSeenText:
 
 
 HikerDanielBeatenText:
-	text "Whoa! Du hast"
-	line "es mir gegeben!"
+	text "Whoa! Du hast es"
+	line "mir gegeben!"
 	done
 
 
@@ -159,8 +156,7 @@ HikerDanielBeatenText:
 
 
 FirebreatherBillSeenText:
-	text "ZUBATs"
-	line "SUPERSCHALL"
+	text "ZUBATs SUPERSCHALL"
 	line "verwirrt mein"
 	cont "#mon noch"
 	cont "immer."
@@ -205,8 +201,8 @@ FirebreatherRayBeatenText:
 
 
 Ruin_maniacJonesSeenText:
-	text "Hast du die"
-	line "Ruinen von Alph"
+	text "Hast du die Ruinen"
+	line "von Alph"
 	cont "erforscht?"
 	done
 

@@ -59,8 +59,8 @@ ReenaGenericText:
 	text "Hey, wie gehen"
 	line "deine #mon?"
 
-	para "Was? Super?"
-	line "Ich verstehe…"
+	para "Was? Super? Ich"
+	line "verstehe…"
 
 	para "Was? Meine"
 	line "#mon?"

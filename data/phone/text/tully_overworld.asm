@@ -1,36 +1,31 @@
 TullyAskNumber1Text:
 	text "Hey, du willst"
-	line "auch"
-	line "der Ultimative"
+	line "auch der"
+	cont "Ultimative"
 
 	para "werden? Dann sind"
 	line "wir Kameraden!"
 
-	para "Wenn ich am"
-	line "Wasser"
+	para "Wenn ich am Wasser"
 	line "Items finde,"
 
 	para "geb ich dir"
-	line "welche."
-	line "Gib mir deine"
-	cont "Nummer."
+	line "welche. Gib mir"
+	cont "deine Nummer."
 	done
 
 TullyAskNumber2Text:
-	text "Wenn ich am"
-	line "Wasser"
+	text "Wenn ich am Wasser"
 	line "Items finde,"
 
 	para "geb ich dir"
-	line "welche."
-	line "Gib mir deine"
-	cont "Nummer."
+	line "welche. Gib mir"
+	cont "deine Nummer."
 	done
 
 TullyNumberAcceptedText:
 	text "Ich melde mich,"
-	line "wenn ich was"
-	cont "Gutes"
+	line "wenn ich was Gutes"
 	cont "finde."
 	done
 
@@ -50,8 +45,8 @@ TullyPhoneFullText:
 
 TullyRematchText:
 	text "Seit unserem"
-	line "Treffen"
-	line "hab ich mehr als"
+	line "Treffen hab ich"
+	cont "mehr als"
 
 	para "nur geangelt."
 	line "Überraschung!"

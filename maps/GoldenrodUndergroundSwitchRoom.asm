@@ -182,8 +182,8 @@ UndergroundRivalBattleScript2:
 	playmusic MUSIC_RIVAL_AFTER
 	jumpthistext
 
-	text "…Ich verstehe"
-	line "es nicht…"
+	text "…Ich verstehe es"
+	line "nicht…"
 
 	para "Ist es wahr, was"
 	line "dieser SIEGFRIED"
@@ -207,15 +207,15 @@ UndergroundRivalBattleScript2:
 	para "Ich… ich verstehe"
 	line "es nicht."
 
-	para "Aber es wird"
-	line "hier nicht enden."
+	para "Aber es wird hier"
+	line "nicht enden."
 
-	para "Nicht jetzt."
-	line "Nicht deswegen."
+	para "Nicht jetzt. Nicht"
+	line "deswegen."
 
 	para "Ich werde meinen"
-	line "Traum, der welt-"
-	cont "beste #mon-"
+	line "Traum, der"
+	cont "weltbeste #mon-"
 	cont "Trainer zu sein,"
 	cont "nicht aufgeben!"
 	done
@@ -240,8 +240,8 @@ GenericTrainerGruntM25:
 	line "Farb-Schalter,"
 
 	para "öffnen oder"
-	line "schließen sich"
-	cont "die Jalousien in"
+	line "schließen sich die"
+	cont "Jalousien in"
 	cont "dieser Farbe."
 	done
 	done
@@ -263,8 +263,8 @@ GenericTrainerBurglarOrson:
 	para "Warum möchtest du"
 	line "dorthin?"
 
-	para "Da unten wirst"
-	line "du nichts finden."
+	para "Da unten wirst du"
+	line "nichts finden."
 	done
 GenericTrainerGruntM13:
 	generictrainer GRUNTM, 13, EVENT_BEAT_ROCKET_GRUNTM_13, GruntM13SeenText, GruntM13BeatenText
@@ -349,27 +349,23 @@ UndergroundRivalBeforeText:
 	line "bin dir gefolgt."
 
 	para "Hör auf, mir"
-	line "nachzustellen,"
-	cont "ich"
+	line "nachzustellen, ich"
 
 	para "muss mich um TEAM"
 	line "ROCKET kümmern."
 
-	para "…Moment."
-	line "Du hast mich"
-	cont "schon"
+	para "…Moment. Du hast"
+	line "mich schon"
 	cont "besiegt, oder?"
 
-	para "Das war nur"
-	line "Dusel."
+	para "Das war nur Dusel."
 
 	para "Ich begleiche"
 	line "meine Rechnungen!"
 	done
 UndergroundRivalWinText:
-	text "…Warum…"
-	line "Warum habe ich"
-	cont "verloren?"
+	text "…Warum… Warum habe"
+	line "ich verloren?"
 
 	para "Ich habe die"
 	line "stärksten #mon"
@@ -383,8 +379,8 @@ UndergroundRivalWinText:
 	done
 UndergroundRivalLossText:
 	text "Hm. Das ist meine"
-	line "wahre Stärke,"
-	cont "du Schwächling."
+	line "wahre Stärke, du"
+	cont "Schwächling."
 
 	para "TEAM ROCKET wird"
 	line "dank mir nur noch"
@@ -396,9 +392,9 @@ UndergroundRivalLossText:
 	cont "zertreten."
 	done
 GruntM11SeenText:
-	text "Oeffne einen Roll-"
-	line "laden und ein an-"
-	cont "derer schließt."
+	text "Oeffne einen"
+	line "Rollladen und ein"
+	cont "anderer schließt."
 
 	para "Ich wette, du"
 	line "kommst nicht so"
@@ -407,16 +403,15 @@ GruntM11SeenText:
 	done
 GruntM11BeatenText:
 	text "Verflixt! Meine"
-	line "Unentschlossenhe-"
-	cont "it"
+	line "Unentschlossenheit"
 	cont "war mein Ruin!"
 	done
 GruntM25SeenText:
 	text "Uff!"
 
 	para "Wir sind von den"
-	line "Rollläden ver-"
-	cont "wirrt!"
+	line "Rollläden"
+	cont "verwirrt!"
 
 	para "Ich verrate dir"
 	line "ein Geheimnis,"
@@ -424,12 +419,12 @@ GruntM25SeenText:
 	cont "besiegst!"
 	done
 GruntM25BeatenText:
-	text "Arghh… Ich"
-	line "hab's vermasselt."
+	text "Arghh… Ich hab's"
+	line "vermasselt."
 	done
 BurglarDuncanSeenText:
-	text "Wirf deine"
-	line "Goodies herüber!"
+	text "Wirf deine Goodies"
+	line "herüber!"
 	done
 BurglarDuncanBeatenText:
 	text "Gnade!"
@@ -458,17 +453,14 @@ GruntM13SeenText:
 	done
 GruntM13BeatenText:
 	text "Urk! Du glaubst,"
-	line "du bist cool,"
-	cont "häh?"
+	line "du bist cool, häh?"
 	done
 GruntF3SeenText:
 	text "Hast du dich"
-	line "verirrt? Nein,"
-	cont "das"
+	line "verirrt? Nein, das"
 	cont "kann nicht sein."
 
-	para "Es ist keine"
-	line "Angst"
+	para "Es ist keine Angst"
 	line "in deinem Blick."
 
 	para "Ich zeige dir"

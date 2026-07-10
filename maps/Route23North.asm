@@ -64,8 +64,7 @@ Route23NorthHealOfficerScript:
 
 .IntroText:
 	text "Du musst bereit"
-	line "sein für alles"
-	cont "auf"
+	line "sein für alles auf"
 
 	para "der Siegesstraße."
 
@@ -141,9 +140,9 @@ Route23OfficerNoBadgeScript:
 	text_ram wStringBuffer3
 	text " noch nicht!"
 
-	para "Du brauchst es,"
-	line "um zur #mon-"
-	cont "Liga zu gelangen!"
+	para "Du brauchst es, um"
+	line "zur #mon- Liga"
+	cont "zu gelangen!"
 	done
 
 Route23OfficerHaveBadgeScript:
@@ -152,8 +151,8 @@ Route23OfficerHaveBadgeScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Na gut! Dann"
-	line "geh nur durch!"
+	text "Na gut! Dann geh"
+	line "nur durch!"
 	done
 
 .SeeBadgeText:
@@ -164,10 +163,8 @@ Route23OfficerHaveBadgeScript:
 	done
 
 Route23OfficerNeedBadgeText:
-	text "Du darfst hier"
-	line "nur"
-	line "passieren, wenn"
-	cont "du"
+	text "Du darfst hier nur"
+	line "passieren, wenn du"
 	cont "das "
 	text_ram wStringBuffer3
 	text " hast."

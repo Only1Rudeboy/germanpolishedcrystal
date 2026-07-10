@@ -43,12 +43,10 @@ ProfOaksAide2Script:
 	line "gibt manchen"
 
 	para "#mon ein Gefühl"
-	line "der"
-	cont "Verbundenheit,"
+	line "der Verbundenheit,"
 
 	para "das bei der"
-	line "Entwicklung"
-	cont "hilft."
+	line "Entwicklung hilft."
 
 	para "Nutze es, um den"
 	line "#dex zu füllen!"
@@ -58,8 +56,8 @@ ProfOaksAide2Script:
 	jumpthisopenedtext
 
 	text "Ach! Du hast"
-	line "keinen"
-	line "Platz dafür."
+	line "keinen Platz"
+	cont "dafür."
 	done
 
 Route38EcruteakGateOfficerText:
@@ -69,14 +67,13 @@ Route38EcruteakGateOfficerText:
 	para "Neuborkia?"
 
 	para "PROF. LIND wohnt"
-	line "dort,"
-	cont "nicht wahr?"
+	line "dort, nicht wahr?"
 
 	para "Du hast einen"
 	line "langen Weg auf"
 	cont "dich genommen, um"
-	cont "hierher zu ge-"
-	cont "langen."
+	cont "hierher zu"
+	cont "gelangen."
 	done
 
 
@@ -97,16 +94,15 @@ ProfOaksAide2HiText:
 	line "Item geben."
 
 	para "Also, <PLAYER>,"
-	line "hast du"
-	cont "mindestens"
+	line "hast du mindestens"
 
 	para "30 #mon-Arten"
 	line "gefangen?"
 	done
 
 ProfOaksAide2UhOhText:
-	text "Mal sehen…"
-	line "Oh! Du hast nur"
+	text "Mal sehen… Oh! Du"
+	line "hast nur"
 
 	para ""
 	text_decimal wTempDexOwn, 2, 3
@@ -119,8 +115,8 @@ ProfOaksAide2UhOhText:
 	done
 
 ProfOaksAide2HereYouGoText:
-	text "Mal sehen…"
-	line "Super! Du hast"
+	text "Mal sehen… Super!"
+	line "Du hast"
 
 	para ""
 	text_decimal wTempDexOwn, 2, 3
@@ -128,6 +124,6 @@ ProfOaksAide2HereYouGoText:
 
 	para "gefangen."
 
-	para "Glückwunsch!"
-	line "Hier, bitte!"
+	para "Glückwunsch! Hier,"
+	line "bitte!"
 	done

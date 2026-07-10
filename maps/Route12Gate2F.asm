@@ -17,9 +17,8 @@ Route12Gate2F_MapScriptHeader:
 Route12Gate2FBinoculars1:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
 	para "Ein Mann beim"
 	line "Angeln!"
@@ -28,9 +27,8 @@ Route12Gate2FBinoculars1:
 Route12Gate2FBinoculars2:
 	jumpthistext
 
-	text "Durch das"
-	line "Fernglas"
-	cont "geschaut."
+	text "Durch das Fernglas"
+	line "geschaut."
 
 	para "Das ist der"
 	line "FUNKTURM!"

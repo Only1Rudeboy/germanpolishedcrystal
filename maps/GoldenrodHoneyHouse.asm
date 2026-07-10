@@ -45,11 +45,10 @@ endc
 	line "hohes Gras."
 
 	para "#mon werden"
-	line "dadurch"
-	cont "angelockt."
+	line "dadurch angelockt."
 
-	para "Meist kommen #-"
-	line "mon auf deinem"
+	para "Meist kommen"
+	line "#mon auf deinem"
 	cont "Level!"
 	done
 
@@ -112,8 +111,7 @@ endc
 	jumpthisopenedtext
 
 	text "Du hast nicht"
-	line "genug Geld,"
-	cont "Süßer!"
+	line "genug Geld, Süßer!"
 	done
 
 .SellText:
@@ -126,8 +124,8 @@ if DEF(FAITHFUL)
 else
 	line "Süßen Honig"
 
-	para "kaufen, um #-"
-	line "mon anzulocken?"
+	para "kaufen, um #mon"
+	line "anzulocken?"
 endc
 	cont "Nur ¥1000 pro"
 	cont "Stück!"

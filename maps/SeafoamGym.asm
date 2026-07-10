@@ -55,7 +55,7 @@ TrainerScientistLinden:
 
 	text "Nicht alle"
 	line "Forscher helfen"
-	line "den Bösen."
+	cont "den Bösen."
 	done
 
 GenericTrainerSupernerdWaldo:
@@ -124,8 +124,8 @@ SeafoamGymBlaineScript:
 	cont "ZINNOBERINSEL"
 
 	para "wieder aufbaue,"
-	line "müssen wir"
-	line "nochmal kämpfen."
+	line "müssen wir nochmal"
+	cont "kämpfen."
 	done
 
 SeafoamGymGuyScript:
@@ -136,8 +136,7 @@ SeafoamGymGuyScript:
 
 	text "Yo!"
 
-	para "…Hä? Schon"
-	line "vorbei?"
+	para "…Hä? Schon vorbei?"
 
 	para "Entschuldigung!"
 
@@ -157,11 +156,10 @@ SeafoamGymGuyScript:
 	done
 
 ScientistLowellSeenText:
-	text "Dieser"
-	line "Laborkittel"
+	text "Dieser Laborkittel"
 	line "macht mich"
-	cont "irgend-"
-	cont "wie schlauer."
+	cont "irgendwie"
+	cont "schlauer."
 	done
 
 ScientistLowellBeatenText:
@@ -183,12 +181,11 @@ ScientistDennettBeatenText:
 	done
 
 SupernerdCarySeenText:
-	text "Wow, eine ARENA"
-	line "in so einer"
-	cont "Höhle?"
+	text "Wow, eine ARENA in"
+	line "so einer Höhle?"
 
-	para "Die würde ich"
-	line "gern erkunden."
+	para "Die würde ich gern"
+	line "erkunden."
 	done
 
 SupernerdCaryBeatenText:
@@ -199,7 +196,7 @@ SupernerdCaryBeatenText:
 ScientistLindenSeenText:
 	text "Wir verloren die"
 	line "ARENA auf der"
-	line "ZINNOBERINSEL,"
+	cont "ZINNOBERINSEL,"
 	cont "kamten aber hier."
 	done
 
@@ -222,9 +219,9 @@ SupernerdWaldoBeatenText:
 	done
 
 SupernerdMerleSeenText:
-	text "Ooh!"
-	line "Du siehst leicht"
-	cont "zu besiegen aus!"
+	text "Ooh! Du siehst"
+	line "leicht zu besiegen"
+	cont "aus!"
 	done
 
 SupernerdMerleBeatenText:
@@ -236,13 +233,12 @@ BlaineIntroText:
 
 	para "Meine #mon-"
 	line "ARENA auf der"
-	cont "ZINNOBER-"
-	cont "INSEL ist"
-	cont "abgebrannt. Meine"
+	cont "ZINNOBER- INSEL"
+	cont "ist abgebrannt."
+	cont "Meine"
 
 	para "Feuer-#mon und"
-	line "ich sind wegen"
-	cont "des"
+	line "ich sind wegen des"
 
 	para "Vulkanausbruchs"
 	line "obdachlos."
@@ -252,19 +248,16 @@ BlaineIntroText:
 	para "Aber ich führe"
 	line "meine Tätigkeit"
 
-	para "als ARENALEITER"
-	line "in"
+	para "als ARENALEITER in"
 	line "dieser Höhle"
 	cont "weiter aus."
 
 	para "Wenn du mich"
-	line "besiegst,"
-	cont "bekommst"
+	line "besiegst, bekommst"
 	cont "du einen ORDEN."
 
-	para "Es wäre besser,"
-	line "du hast"
-	cont "FEUERHEILER!"
+	para "Es wäre besser, du"
+	line "hast FEUERHEILER!"
 	done
 
 
@@ -275,8 +268,7 @@ BlaineIntroText:
 
 
 BlaineWinLossText:
-	text "PYRO: Gut"
-	line "gemacht."
+	text "PYRO: Gut gemacht."
 	line "Ich bin"
 	cont "ausgebrannt…"
 
@@ -292,10 +284,8 @@ BlaineWinLossText:
 
 
 BlaineAfterBattleText:
-	text "PYRO: Diesmal"
-	line "habe"
-	line "ich verloren,"
-	cont "aber"
+	text "PYRO: Diesmal habe"
+	line "ich verloren, aber"
 
 	para "beim nächsten Mal"
 	line "werde ich"
@@ -320,12 +310,10 @@ BlaineAfterBattleText:
 
 
 BlaineFightDoneText:
-	text "PYRO: Meine"
-	line "Feuer-"
+	text "PYRO: Meine Feuer-"
 	line "#mon werden"
 
-	para "noch stärker"
-	line "sein."
+	para "noch stärker sein."
 	line "Du wirst schon"
 	cont "sehen!"
 	done
@@ -339,11 +327,9 @@ BlaineFightDoneText:
 
 SeafoamGymGuyWinText2:
 	text "Eine PKMN-ARENA"
-	line "kann überall"
-	cont "sein,"
+	line "kann überall sein,"
 
-	para "solange der"
-	line "ARENA-"
+	para "solange der ARENA-"
 	line "LEITER dort ist."
 
 	para "Man braucht dafür"

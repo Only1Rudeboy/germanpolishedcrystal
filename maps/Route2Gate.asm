@@ -24,12 +24,11 @@ Route2GateScientistText:
 	cont "PROF. EICH."
 
 	para "Ich wusste nicht,"
-	line "dass du hier"
-	cont "bist."
+	line "dass du hier bist."
 
 	para "PROF. EICHs LABOR"
-	line "ist gleich hier"
-	cont "in ALABASTIA."
+	line "ist gleich hier in"
+	cont "ALABASTIA."
 	done
 
 

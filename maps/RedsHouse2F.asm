@@ -22,19 +22,19 @@ PokemonJournalProfOakScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "#mon Prof.Eich!"
+	para "Spezial: #mon"
+	line "Prof.Eich!"
 
 	para "Samuel Eichs"
 	line "Enkelkinder Blau"
 	cont "und SARAH"
 
-	para "wohnen in der"
-	line "Nähe seines Labs"
-	cont "in ALABASTIA."
+	para "wohnen in der Nähe"
+	line "seines Labs in"
+	cont "ALABASTIA."
 
-	para "Sein Cousin"
-	line "Samson soll in"
+	para "Sein Cousin Samson"
+	line "soll in"
 
 	para "weit entfernten"
 	line "Alola-Region"
@@ -52,10 +52,8 @@ RedsHouse2FPCText:
 
 RedsHouse2FSNESText:
 	text "<PLAYER> spielte"
-	line "am"
-	line "SNES."
+	line "am SNES."
 
-	para "Los, los--"
-	line "keine Zeit zu"
-	line "verlieren!"
+	para "Los, los-keine"
+	line "Zeit zu verlieren!"
 	done

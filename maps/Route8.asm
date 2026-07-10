@@ -39,8 +39,8 @@ TrainerBikerDwayne:
 
 	text "Die #mon-"
 	line "TRAINERGILDE aus"
-	cont "KANTO wird"
-	cont "immer existieren!"
+	cont "KANTO wird immer"
+	cont "existieren!"
 	done
 TrainerBikerHarris:
 	trainer BIKER, HARRIS, EVENT_BEAT_BIKER_HARRIS, BikerHarrisSeenText, BikerHarrisBeatenText, 0, .Script, TRAINERPAL_BIKER_HARRIS
@@ -60,9 +60,8 @@ TrainerBikerZeke:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Wir versuchen,"
-	line "ab jetzt"
-	cont "niemanden"
+	text "Wir versuchen, ab"
+	line "jetzt niemanden"
 	cont "mehr zu stören…"
 	done
 GenericTrainerSupernerdSam:
@@ -83,14 +82,12 @@ GenericTrainerSupernerdTom:
 GenericTrainerGentlemanMilton:
 	generictrainer GENTLEMAN, MILTON, EVENT_BEAT_GENTLEMAN_MILTON, GentlemanMiltonSeenText, GentlemanMiltonBeatenText
 
-	text "Auf der Straße"
-	line "für"
+	text "Auf der Straße für"
 	line "einen Kampf"
 	cont "anzuhalten ist"
 	cont "nicht unhöflich."
 
-	para "Egal was"
-	line "passiert,"
+	para "Egal was passiert,"
 	line "ich bin vor allem"
 	cont "ein Gentleman!"
 	done
@@ -99,27 +96,25 @@ GenericTrainerCoupleMoeandlulu1:
 	generictrainer COUPLE, MOEANDLULU1, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu1SeenText, CoupleMoeandlulu1BeatenText
 
 	text "Moe: Kurz gesagt,"
-	line "du bist einfach"
-	cont "zu stark…"
+	line "du bist einfach zu"
+	cont "stark…"
 	done
 
 GenericTrainerCoupleMoeandlulu2:
 	generictrainer COUPLE, MOEANDLULU2, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu2SeenText, CoupleMoeandlulu2BeatenText
 
 	text "Lulu: Nicht dass"
-	line "Moe schwach"
-	line "wäre, du bist"
+	line "Moe schwach wäre,"
+	cont "du bist"
 
-	para "einfach zu"
-	line "stark!"
+	para "einfach zu stark!"
 	done
 
 GenericTrainerLassMeadow:
 	generictrainer LASS, MEADOW, EVENT_BEAT_LASS_MEADOW, LassMeadowSeenText, LassMeadowBeatenText
 
 	text "Na ja, mir ist"
-	line "Spaß wichtiger"
-	cont "als"
+	line "Spaß wichtiger als"
 	cont "Wettbewerb."
 	done
 
@@ -144,8 +139,7 @@ Route8BikerZekeProtestText:
 	done
 
 BikerDwayneSeenText:
-	text "Wir"
-	line "repräsentieren"
+	text "Wir repräsentieren"
 	line "die #mon-"
 	cont "TRAINERGILDE aus"
 	cont "KANTO."
@@ -159,8 +153,7 @@ BikerDwayneSeenText:
 
 
 BikerDwayneBeatenText:
-	text "En-entschuldigu-"
-	line "ng!"
+	text "En-entschuldigung!"
 	done
 
 
@@ -172,10 +165,9 @@ BikerHarrisSeenText:
 	text "Das ORDNUNGSAMT"
 	line "hat unseren"
 
-	para "TUNNELPFAD zu-"
-	line "schütten lassen."
-	cont "Das ängstigt"
-	cont "mich!"
+	para "TUNNELPFAD"
+	line "zuschütten lassen."
+	cont "Das ängstigt mich!"
 	done
 
 
@@ -194,8 +186,7 @@ BikerZekeSeenText:
 	text "Wir sind die"
 	line "#mon-TRAINER-"
 	cont "GILDE aus KANTO!"
-	cont "Nimm dich in"
-	cont "Acht!"
+	cont "Nimm dich in Acht!"
 	done
 
 
@@ -203,8 +194,7 @@ BikerZekeSeenText:
 
 
 BikerZekeBeatenText:
-	text "Uah!"
-	line "Entschuldige!"
+	text "Uah! Entschuldige!"
 	done
 
 
@@ -221,8 +211,7 @@ SupernerdSamSeenText:
 
 
 SupernerdSamBeatenText:
-	text "Ich möchte nur"
-	line "den"
+	text "Ich möchte nur den"
 	line "MAGNETZUG sehen…"
 	done
 
@@ -231,8 +220,8 @@ SupernerdSamBeatenText:
 
 
 SupernerdTomSeenText:
-	text "Hm… Du hast"
-	line "viele ORDEN."
+	text "Hm… Du hast viele"
+	line "ORDEN."
 	done
 
 
@@ -240,8 +229,8 @@ SupernerdTomSeenText:
 
 
 SupernerdTomBeatenText:
-	text "Wie ich dachte…"
-	line "Du bist stark!"
+	text "Wie ich dachte… Du"
+	line "bist stark!"
 	done
 
 
@@ -250,8 +239,8 @@ SupernerdTomBeatenText:
 
 GentlemanMiltonSeenText:
 	text "Möchtest du mit"
-	line "mir"
-	line "einen schnellen"
+	line "mir einen"
+	cont "schnellen"
 	cont "Wettkampf?"
 	done
 
@@ -267,7 +256,7 @@ CoupleMoeandlulu1SeenText:
 
 	para "Wenn ich bei Lulu"
 	line "bin, hab ich"
-	line "hundertmal mehr"
+	cont "hundertmal mehr"
 	cont "Mut!"
 	done
 
@@ -289,8 +278,8 @@ CoupleMoeandlulu2BeatenText:
 	done
 
 LassMeadowSeenText:
-	text "Ich mag Röcke!"
-	line "Sie sind süß und"
+	text "Ich mag Röcke! Sie"
+	line "sind süß und"
 	cont "bequem!"
 	done
 
@@ -299,8 +288,7 @@ LassMeadowBeatenText:
 	done
 
 Route8LockedDoorText:
-	text "Es ist"
-	line "verriegelt…"
+	text "Es ist verriegelt…"
 	done
 
 

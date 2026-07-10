@@ -177,9 +177,8 @@ TrainerHouseB1FIntroText:
 
 
 TrainerHouseB1FYourOpponentIsText:
-	text " ist"
-	line "heute dein"
-	cont "Gegner."
+	text " ist heute dein"
+	line "Gegner."
 	done
 
 
@@ -200,8 +199,8 @@ TrainerHouseB1FGoRightInText:
 
 TrainerHouseB1FPleaseComeAgainText:
 	text "Nur die Trainer,"
-	line "die kämpfen dür-"
-	cont "fen, haben"
+	line "die kämpfen"
+	cont "dürfen, haben"
 	cont "Zutritt."
 	done
 
@@ -211,8 +210,7 @@ TrainerHouseB1FSecondChallengeDeniedText:
 	line "das wäre für dich"
 
 	para "heute der zweite"
-	line "Kampf. Es ist"
-	cont "aber"
+	line "Kampf. Es ist aber"
 
 	para "nur ein Kampf pro"
 	line "Tag erlaubt."
@@ -220,8 +218,7 @@ TrainerHouseB1FSecondChallengeDeniedText:
 
 
 TrainerHouseB1FOpponentBeatenText:
-	text "Ich habe"
-	line "verloren…"
+	text "Ich habe verloren…"
 	line "Mist…"
 	done
 TrainerHouseB1FOpponentBeforeText:
@@ -231,8 +228,8 @@ TrainerHouseB1FOpponentBeforeText:
 	cont "kämpfen."
 	done
 TrainerHouseB1FEarnedBattlePointText:
-	text "<PLAYER> earned"
-	line "1 BP!"
+	text "<PLAYER> earned 1"
+	line "BP!"
 	done
 
 GetDailyTrainerHouseOpponent:

@@ -22,8 +22,8 @@ MrFujisHouseSuperNerdText:
 	text "Hier wohnt MR."
 	line "FUJI, aber er ist"
 
-	para "jetzt nicht"
-	line "zu Hause."
+	para "jetzt nicht zu"
+	line "Hause."
 
 	para "Er müsste in der"
 	line "RUHESTÄTTE sein."
@@ -39,10 +39,9 @@ MrFujisHouseLassText:
 
 	para "Großvater nimmt"
 	line "die armen,"
-	cont "heimat-"
-	cont "losen #mon auf"
-	cont "und sorgt für"
-	cont "sie."
+	cont "heimatlosen"
+	cont "#mon auf und"
+	cont "sorgt für sie."
 	done
 
 

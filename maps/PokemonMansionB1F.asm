@@ -57,8 +57,7 @@ PokemonMansionDiaryText:
 	line "wurde ein neues"
 	cont "#mon entdeckt."
 
-	para "Tagebuch:"
-	line "10. Juli"
+	para "Tagebuch: 10. Juli"
 
 	para "Das neu entdeckte"
 	line "#mon wurde MEW"
@@ -70,14 +69,12 @@ PokemonMansionDiaryText:
 	line "Kind. Wir nannten"
 	cont "MEWTWO."
 
-	para "Tagebuch:"
-	line "1. Sept."
+	para "Tagebuch: 1. Sept."
 
-	para "MEWTWO ist viel"
-	line "zu mächtig."
+	para "MEWTWO ist viel zu"
+	line "mächtig."
 
 	para "Wir konnten seine"
 	line "wilden Triebe"
-	cont "nicht"
-	cont "bändigen…"
+	cont "nicht bändigen…"
 	done

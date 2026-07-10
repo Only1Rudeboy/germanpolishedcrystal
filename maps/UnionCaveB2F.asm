@@ -53,8 +53,7 @@ GenericTrainerCooltrainermNick:
 
 	text "Dein #mon-Stil"
 	line "ist imposant und"
-	cont "abwechslungsrei-"
-	cont "ch,"
+	cont "abwechslungsreich,"
 	cont "das gebe ich zu."
 
 	para "Du wirst immer"
@@ -70,10 +69,10 @@ GenericTrainerCooltrainerfGwen:
 GenericTrainerCooltrainerfEmma:
 	generictrainer COOLTRAINERF, EMMA, EVENT_BEAT_COOLTRAINERF_EMMA, CooltrainerfEmmaSeenText, CooltrainerfEmmaBeatenText
 
-	text "Nur einmal in"
-	line "der Woche kommt"
-	cont "ein #mon"
-	cont "ans Wasser."
+	text "Nur einmal in der"
+	line "Woche kommt ein"
+	cont "#mon ans"
+	cont "Wasser."
 
 	para "Dieses #mon"
 	line "hätte ich gerne"
@@ -81,12 +80,11 @@ GenericTrainerCooltrainerfEmma:
 	done
 CooltrainermNickSeenText:
 	text "Es gibt zwei"
-	line "verschiedene"
-	cont "Arten"
+	line "verschiedene Arten"
 	cont "von Menschen."
 
-	para "Jene mit Stil"
-	line "und jene ohne."
+	para "Jene mit Stil und"
+	line "jene ohne."
 
 	para "Zu welcher zählst"
 	line "du dich?"
@@ -107,8 +105,7 @@ CooltrainermNickBeatenText:
 
 CooltrainerfGwenSeenText:
 	text "Ich trainiere"
-	line "momentan."
-	cont "Möchtest"
+	line "momentan. Möchtest"
 	cont "du kämpfen?"
 	done
 
@@ -117,8 +114,7 @@ CooltrainerfGwenSeenText:
 
 
 CooltrainerfGwenBeatenText:
-	text "Ach, nein! Du"
-	line "bist"
+	text "Ach, nein! Du bist"
 	line "zu gut für mich."
 	done
 
@@ -127,14 +123,13 @@ CooltrainerfGwenBeatenText:
 
 
 CooltrainerfEmmaSeenText:
-	text "Für meine Lieb-"
-	line "lings-#mon"
+	text "Für meine"
+	line "Lieblings-#mon"
 	cont "würde ich überall"
 	cont "hingehen."
 
 	para "Das würde jeder"
-	line "wahre Trainer"
-	cont "tun."
+	line "wahre Trainer tun."
 	done
 
 

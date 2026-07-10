@@ -80,8 +80,7 @@ PsychicInverScript:
 	sjump .Reward
 
 PsychicInverGreetingText:
-	text "Oh. Hier hätte"
-	line "ich"
+	text "Oh. Hier hätte ich"
 	line "keinen Besucher"
 	cont "erwartet. Hmm…"
 
@@ -91,7 +90,7 @@ PsychicInverGreetingText:
 
 	para "Ich nenne das"
 	line "einen"
-	line "Invers-Kampf!"
+	cont "Invers-Kampf!"
 
 	para "Was meinst du?"
 	line "Möchtest du einen"
@@ -111,22 +110,22 @@ PsychicInverNoText:
 PsychicInverYesText:
 	text "Sehr effektive"
 	line "Attacken werden"
-	cont "kaum effektiv,"
-	cont "und umgekehrt."
+	cont "kaum effektiv, und"
+	cont "umgekehrt."
 	done
 
 PsychicInverBeatenText:
 	text "Dieser Kampf hat"
 	line "mich wohl noch"
 
-	para "mehr erschöpft"
-	line "als meine #mon…"
+	para "mehr erschöpft als"
+	line "meine #mon…"
 	done
 
 InverseBattle0PointRewardText:
-	text "Ich weiß nicht,"
-	line "ob du Invers-"
-	cont "Kämpfe verstehst…"
+	text "Ich weiß nicht, ob"
+	line "du Invers- Kämpfe"
+	cont "verstehst…"
 	done
 
 InverseBattle1_3PointRewardText:
@@ -148,12 +147,11 @@ InverseBattle7_9PointRewardText:
 
 InverseBattle10PointRewardText:
 	text "Du bist ein"
-	line "Exper-"
-	line "te bei Invers-"
-	cont "Kämpfen."
+	line "Experte bei"
+	cont "Invers- Kämpfen."
 
-	para "Ich bin kein"
-	line "Match für dich."
+	para "Ich bin kein Match"
+	line "für dich."
 	done
 
 PsychicInverZeroRewardText:
@@ -170,8 +168,8 @@ PsychicInverRewardText:
 	text "Für einen Gegner"
 	line "wie dich habe"
 
-	para "ich etwas!"
-	line "Hier, nimm!"
+	para "ich etwas! Hier,"
+	line "nimm!"
 	done
 
 PsychicInverTomorrowText:
@@ -181,8 +179,7 @@ PsychicInverTomorrowText:
 	para "verhältnisse"
 	line "umkehrt…"
 
-	para "Ich kann sie"
-	line "nicht"
+	para "Ich kann sie nicht"
 	line "oft einsetzen."
 
 	para "Komm bitte morgen"
@@ -194,13 +191,12 @@ PsychicInversHouseHexManiacText:
 	line "eine mysteriöse"
 	cont "Kraft!"
 
-	para "Er kann Typenver-"
-	line "hältnisse"
+	para "Er kann"
+	line "Typenverhältnisse"
 	cont "umkehren!"
 	cont "Verrückt, oder?"
 
-	para "Sehr effektive"
-	line "und"
+	para "Sehr effektive und"
 	line "kaum effektive"
 
 	para "Attacken werden"

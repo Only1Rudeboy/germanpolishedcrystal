@@ -37,8 +37,8 @@ GenericTrainerSwimmermFrank:
 	done
 
 .BeatenText:
-	text "Mir egal, ich"
-	line "bin im Urlaub!"
+	text "Mir egal, ich bin"
+	line "im Urlaub!"
 	done
 
 TrainerSwimmermNadar:
@@ -50,7 +50,7 @@ TrainerSwimmermNadar:
 
 	text "Schwimmen üben"
 	line "oder mit meinen"
-	line "#mon"
+	cont "#mon"
 	cont "trainieren?"
 
 	para "Was für ein"
@@ -59,17 +59,15 @@ TrainerSwimmermNadar:
 
 .SeenText:
 	text "Schwimmen ist"
-	line "meine"
-	line "Spezialität!"
+	line "meine Spezialität!"
 
 	para "#mon-Kämpfe"
 	line "auch!"
 	done
 
 .BeatenText:
-	text "Bei meiner"
-	line "eigenen"
-	cont "Spezialität"
+	text "Bei meiner eigenen"
+	line "Spezialität"
 	cont "verloren?"
 	done
 
@@ -86,8 +84,8 @@ GenericTrainerSwimmermConrad:
 
 .SeenText:
 	text "Creme drauf,"
-	line "Brille runter…"
-	line "Ich bin bereit"
+	line "Brille runter… Ich"
+	cont "bin bereit"
 
 	para "für die Wellen!"
 	done
@@ -148,16 +146,15 @@ GenericTrainerFisherFrancis:
 	text "Ob ich gewinne"
 	line "oder verliere,"
 
-	para "ist egal. Ich"
-	line "will Spaß haben"
-	cont "und angeln."
+	para "ist egal. Ich will"
+	line "Spaß haben und"
+	cont "angeln."
 	done
 
 .SeenText:
 	text "Ich angle gern"
 	line "nach #mon an"
-	cont "exotischen"
-	cont "Orten."
+	cont "exotischen Orten."
 	done
 
 .BeatenText:

@@ -67,8 +67,7 @@ CeladonUniversityPoolFergusScript:
 	line "Einer der vier"
 	cont "besten Trainer"
 
-	para "der"
-	line "Prismania-Uni."
+	para "der Prismania-Uni."
 
 	para "Man nennt uns die"
 	line "Prismanias Vier!"
@@ -118,8 +117,8 @@ CeladonUniversityPoolFergusScript:
 	para "Mit deiner Kraft"
 	line "solltest du die"
 
-	para "restlichen Pris-"
-	line "manias Vier"
+	para "restlichen"
+	line "Prismanias Vier"
 	cont "herausfordern!"
 	done
 
@@ -128,8 +127,8 @@ CeladonUniversityPoolFergusScript:
 	line "Vier verloren"
 	cont "gegen dich?"
 
-	para "Du bist echt"
-	line "was Besonderes!"
+	para "Du bist echt was"
+	line "Besonderes!"
 
 	para "Du hast dir das"
 	line "verdient!"
@@ -149,8 +148,7 @@ CeladonUniversityPoolFergusScript:
 CeladonUniversityPoolLassText:
 	text "Autsch!"
 
-	para "Ich massiere"
-	line "einen"
+	para "Ich massiere einen"
 	line "Krampf im Bein."
 	done
 
@@ -160,8 +158,8 @@ CeladonUniversityPoolSwimmer_girlText:
 	cont "gramm beworben,"
 
 	para "um auf den"
-	line "Seeschauminseln"
-	cont "zu studieren!"
+	line "Seeschauminseln zu"
+	cont "studieren!"
 
 	para "Ich muss mich auf"
 	line "hartes Schwimmen"

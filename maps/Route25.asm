@@ -126,12 +126,10 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
-	text "Besiege alle"
-	line "sechs"
+	text "Besiege alle sechs"
 	line "Trainer und du"
 	cont "erhältst einen"
-	cont "wunderbaren"
-	cont "Preis!"
+	cont "wunderbaren Preis!"
 
 	para "Glaubst du, du"
 	line "hast das Zeug"
@@ -161,8 +159,8 @@ LassEllenSeenText:
 
 
 LassEllenBeatenText:
-	text "Wie konnte ich"
-	line "nur verlieren?"
+	text "Wie konnte ich nur"
+	line "verlieren?"
 	done
 
 
@@ -188,8 +186,8 @@ SchoolboyJoeBeatenText:
 
 
 LassLauraSeenText:
-	text "Der Vierte!"
-	line "Bist du müde?"
+	text "Der Vierte! Bist"
+	line "du müde?"
 	done
 
 
@@ -207,8 +205,7 @@ LassLauraBeatenText:
 
 CamperLloydSeenText:
 	text "O.K.! Nummer 5."
-	line "Ich zermalme"
-	cont "dich!"
+	line "Ich zermalme dich!"
 	done
 
 
@@ -292,8 +289,8 @@ Route25SlowpokeText2:
 
 CooltrainermKevinNuggetText:
 	text "Du hast einen"
-	line "Kampf mehr be-"
-	cont "stritten, als du"
+	line "Kampf mehr"
+	cont "bestritten, als du"
 
 	para "erwartet hast."
 	line "Dennoch hast du"
@@ -309,11 +306,10 @@ CooltrainermKevinNuggetText:
 
 
 CooltrainermKevinSeenText:
-	text "Nachdem ich ge-"
-	line "sehen habe, wie"
+	text "Nachdem ich"
+	line "gesehen habe, wie"
 
-	para "du kämpfst,"
-	line "möchte"
+	para "du kämpfst, möchte"
 	line "ich sehen, wie es"
 	cont "mir ergeht."
 
@@ -340,8 +336,8 @@ CooltrainermKevinAfterBattleText:
 	text "Der Kampf war"
 	line "großartig!"
 
-	para "Du und deine #-"
-	line "MON seid ein"
+	para "Du und deine"
+	line "#mon seid ein"
 	cont "perfektes Team!"
 	done
 

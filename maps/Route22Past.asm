@@ -218,12 +218,12 @@ Route22PastLyraWhereAreWeText:
 
 Route22PastLyraIlexForestDisappearedText:
 	text "Lyra: Der"
-	line "Steinei-"
-	line "chenwald ist weg!"
+	line "Steineichenwald"
+	cont "ist weg!"
 
 	para "…So ist es nicht."
-	line "Wir wurden wo-"
-	cont "andershin"
+	line "Wir wurden"
+	cont "woandershin"
 	cont "versetzt…?"
 	done
 
@@ -239,11 +239,9 @@ Route22PastLyraPokeGearText:
 
 Route22PastLyraExplainsTimeTravelText:
 	text "Ist das… sehe ich"
-	line "da…"
-	cont "Celebi?"
+	line "da… Celebi?"
 
-	para "Das erklärt"
-	line "alles!"
+	para "Das erklärt alles!"
 	line "Celebi muss seine"
 
 	para "Kraft genutzt"
@@ -253,21 +251,19 @@ Route22PastLyraExplainsTimeTravelText:
 	done
 
 Route22PastLyraHearsSomeoneText:
-	text "<PLAYER>, ich"
-	line "höre noch"
-	line "jemanden."
+	text "<PLAYER>, ich höre"
+	line "noch jemanden."
 
-	para "Mal sehen, wer"
-	line "das ist!"
+	para "Mal sehen, wer das"
+	line "ist!"
 	done
 
 Route22PastRivalQuestionsGiovanniText:
-	text "<RIVAL>: Du"
-	line "hast mir"
-	cont "gesagt… du"
+	text "<RIVAL>: Du hast"
+	line "mir gesagt… du"
 
-	para "bist der Beste"
-	line "der Welt!"
+	para "bist der Beste der"
+	line "Welt!"
 
 	para "Willst du"
 	line "aufgeben?"
@@ -284,8 +280,7 @@ Route22PastGiovanniRivalArgumentText:
 	cont "anerkennen,"
 
 	para "bevor man"
-	line "weitermachen"
-	line "kann…"
+	line "weitermachen kann…"
 
 	para "Ich gehe vorerst"
 	line "allein…"
@@ -303,8 +298,8 @@ Route22PastGiovanniRivalArgumentText:
 	para "So viele sammeln"
 	line "und dann von"
 
-	para "einem Kind"
-	line "besiegt werden!"
+	para "einem Kind besiegt"
+	line "werden!"
 
 	para "…… …… ……"
 
@@ -320,15 +315,15 @@ Route22PastGiovanniRivalArgumentText:
 	para "Ich habe… das"
 	line "Potenzial meiner"
 
-	para "Untergebenen"
-	line "nicht genutzt…"
+	para "Untergebenen nicht"
+	line "genutzt…"
 
 	para "Aber eines Tages"
 	line "wirst du die"
 
-	para "Wiederkehr von"
-	line "mir und Team"
-	cont "Rocket erleben!"
+	para "Wiederkehr von mir"
+	line "und Team Rocket"
+	cont "erleben!"
 	done
 
 Route22PastRivalProtestsText:
@@ -336,9 +331,8 @@ Route22PastRivalProtestsText:
 	line "verstehe dich"
 	cont "nicht!"
 
-	para "Du ergibst"
-	line "einfach keinen"
-	cont "Sinn!"
+	para "Du ergibst einfach"
+	line "keinen Sinn!"
 	done
 
 Route22PastGiovanniGoodbyeText:
@@ -349,19 +343,18 @@ Route22PastGiovanniGoodbyeText:
 	done
 
 Route22PastRivalRantText:
-	text "<RIVAL>: Ich"
-	line "will dich nicht"
+	text "<RIVAL>: Ich will"
+	line "dich nicht"
 	cont "verstehen!"
 
-	para "Ich werde nie"
-	line "so werden wie"
-	cont "du!"
+	para "Ich werde nie so"
+	line "werden wie du!"
 
 	para "Alleine ein"
 	line "Feigling und"
 
-	para "vor anderen"
-	line "ein Tyrann!"
+	para "vor anderen ein"
+	line "Tyrann!"
 
 	para "Ich werde stark!"
 	line "Ganz alleine"
@@ -381,8 +374,7 @@ Route22PastLyraConclusionText:
 	text "Lyra: Wer glaubt"
 	line "er eigentlich?"
 
-	para "Das war"
-	line "unnötig!"
+	para "Das war unnötig!"
 
 	para "Aber sie sprachen"
 	line "von der"
@@ -393,9 +385,8 @@ Route22PastLyraConclusionText:
 	para "Team Rocket wurde"
 	line "vor drei Jahren"
 
-	para "von einem Kind"
-	line "aus KANTO"
-	cont "besiegt."
+	para "von einem Kind aus"
+	line "KANTO besiegt."
 
 	para "Das ist also"
 	line "wirklich die"
@@ -403,10 +394,8 @@ Route22PastLyraConclusionText:
 	done
 
 Route22PastLyraOhNoText:
-	text "Lyra: Ach nein!"
-	line "Es passiert"
-	cont "wieder…!"
+	text "Lyra: Ach nein! Es"
+	line "passiert wieder…!"
 
-	para "Celebis"
-	line "Zeitreise!"
+	para "Celebis Zeitreise!"
 	done

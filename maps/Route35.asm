@@ -150,8 +150,7 @@ GenericTrainerCamperIvan:
 GenericTrainerCoupleGailandeli1:
 	generictrainer COUPLE, GAILANDELI1, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli1SeenText, CoupleGailandeli1BeatenText
 
-	text "Eli: Ich wurde"
-	line "vor"
+	text "Eli: Ich wurde vor"
 	line "meiner Freundin"
 	cont "blamiert…"
 	done
@@ -162,18 +161,15 @@ GenericTrainerCoupleGailandeli2:
 	text "Gail: Auf meine"
 	line "#mon kann ich"
 	cont "mehr zählen als"
-	cont "auf meinen"
-	cont "Freund."
+	cont "auf meinen Freund."
 	done
 
 GenericTrainerPicnickerKim:
 	generictrainer PICNICKER, KIM, EVENT_BEAT_PICNICKER_KIM, PicnickerKimSeenText, PicnickerKimBeatenText
 
-	text "Die ORDEN"
-	line "sind hübsch."
-	cont "Deshalb sammle"
-	cont "ich"
-	cont "sie."
+	text "Die ORDEN sind"
+	line "hübsch. Deshalb"
+	cont "sammle ich sie."
 	done
 TrainerBug_catcherArnie1:
 	trainer BUG_CATCHER, ARNIE1, EVENT_BEAT_BUG_CATCHER_ARNIE, Bug_catcherArnie1SeenText, Bug_catcherArnie1BeatenText, 0, .Script
@@ -269,12 +265,12 @@ TrainerBug_catcherArnie1:
 .YanmaSwarming:
 	jumpthisopenedtext
 
-	text "Wow… Sieh, all"
-	line "die YANMA!"
+	text "Wow… Sieh, all die"
+	line "YANMA!"
 
-	para "Ich bin über-"
-	line "wältigt und kann"
-	cont "mich nicht"
+	para "Ich bin"
+	line "überwältigt und"
+	cont "kann mich nicht"
 	cont "rühren."
 	done
 GenericTrainerFirebreatherWalt:
@@ -307,13 +303,13 @@ TrainerOfficerDirk:
 .AfterBattle:
 	jumpthisopenedtext
 
-	text "Du weißt, dass"
-	line "die Nacht auf"
-	cont "ihre Weise"
-	cont "schön sein kann."
+	text "Du weißt, dass die"
+	line "Nacht auf ihre"
+	cont "Weise schön sein"
+	cont "kann."
 
-	para "Aber übertreibe"
-	line "es nicht, O.K.?"
+	para "Aber übertreibe es"
+	line "nicht, O.K.?"
 	done
 .NotNight:
 	jumpthisopenedtext
@@ -322,8 +318,8 @@ TrainerOfficerDirk:
 	line "sehen ziemlich"
 	cont "stark aus."
 
-	para "Du wärst über-"
-	line "all sicher."
+	para "Du wärst überall"
+	line "sicher."
 	done
 CamperIvanSeenText:
 	text "Ich habe aus dem"
@@ -356,8 +352,7 @@ CoupleGailandeli1SeenText:
 	done
 
 CoupleGailandeli1BeatenText:
-	text "Eli: Ich"
-	line "wünschte,"
+	text "Eli: Ich wünschte,"
 	line "du hättest für"
 	cont "mich verloren…"
 	done
@@ -372,13 +367,13 @@ CoupleGailandeli2SeenText:
 
 CoupleGailandeli2BeatenText:
 	text "Gail: Ach, du"
-	line "meine Güte!"
-	cont "Du bist so stark!"
+	line "meine Güte! Du"
+	cont "bist so stark!"
 	done
 
 PicnickerKimSeenText:
-	text "Gehst du auch"
-	line "zur #mon-ARENA?"
+	text "Gehst du auch zur"
+	line "#mon-ARENA?"
 	done
 
 
@@ -458,8 +453,8 @@ BugCatcherArnieAfterBattleText:
 	text "Mit meinem BLUZUK"
 	line "habe ich das"
 
-	para "Käferturnier"
-	line "im NATIONALPARK"
+	para "Käferturnier im"
+	line "NATIONALPARK"
 	cont "gewonnen."
 	done
 
@@ -520,12 +515,11 @@ Route35SignText:
 Route35AdvancedTipsSignText:
 	text "Prof-Tipps!"
 
-	para "Registriere bis"
-	line "zu vier"
-	cont "Schlüssel-"
+	para "Registriere bis zu"
+	line "vier Schlüssel-"
 	cont "Items!"
 
-	para "Über Select"
-	line "kannst du sie"
-	cont "schnell nutzen!"
+	para "Über Select kannst"
+	line "du sie schnell"
+	cont "nutzen!"
 	done

@@ -29,8 +29,7 @@ GenericTrainerKimono_girlNaoko:
 	assert !DEF(TRAINERPAL_NAOKO) ; the default TRAINERPAL_KIMONO_GIRL is hers
 	generictrainer KIMONO_GIRL, NAOKO, EVENT_BEAT_KIMONO_GIRL_NAOKO, Kimono_girlNaokoSeenText, Kimono_girlNaokoBeatenText
 
-	text "Das war ein"
-	line "toller"
+	text "Das war ein toller"
 	line "Kampf. Ich würde"
 	cont "dich gerne mal"
 	cont "wieder sehen."
@@ -42,8 +41,7 @@ GenericTrainerKimono_girlSayo:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Rhythmus ist"
-	line "nicht"
+	text "Rhythmus ist nicht"
 	line "nur zum Tanzen,"
 
 	para "sondern auch für"
@@ -56,12 +54,10 @@ GenericTrainerKimono_girlZuki:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Jeden Monat"
-	line "stecke"
+	text "Jeden Monat stecke"
 	line "ich mir eine"
-	cont "ande-"
-	cont "re Blume in die"
-	cont "Spange."
+	cont "andere Blume in"
+	cont "die Spange."
 	done
 GenericTrainerKimono_girlKuni:
 	trainer KIMONO_GIRL, KUNI, EVENT_BEAT_KIMONO_GIRL_KUNI, Kimono_girlKuniSeenText, Kimono_girlKuniBeatenText, 0, .Script, TRAINERPAL_KUNI
@@ -74,10 +70,8 @@ GenericTrainerKimono_girlKuni:
 	line "trainiert. Also"
 
 	para "dachte ich, ich"
-	line "wäre gut. Aber"
-	cont "ich"
-	cont "bin es wohl"
-	cont "nicht."
+	line "wäre gut. Aber ich"
+	cont "bin es wohl nicht."
 	done
 GenericTrainerKimono_girlMiki:
 	trainer KIMONO_GIRL, MIKI, EVENT_BEAT_KIMONO_GIRL_MIKI, Kimono_girlMikiSeenText, Kimono_girlMikiBeatenText, 0, .Script, TRAINERPAL_MIKI
@@ -87,12 +81,11 @@ GenericTrainerKimono_girlMiki:
 	jumpthistextfaceplayer
 
 	text "Ich werde nicht"
-	line "aufhören zu tan-"
-	cont "zen, solange es"
+	line "aufhören zu"
+	cont "tanzen, solange es"
 	cont "Leute gibt, denen"
 
-	para "ich dadurch"
-	line "Freude"
+	para "ich dadurch Freude"
 	line "bereite."
 
 	para "Auch meine #mon"
@@ -124,16 +117,16 @@ DanceTheaterSurfGuy:
 
 	text "Das ist SURFER."
 
-	para "Damit können #-"
-	line "MON jedes"
+	para "Damit können"
+	line "#mon jedes"
 	cont "Gewässer"
 	cont "überqueren."
 	done
 .KimonoGirlsUndefeated:
 	jumpthisopenedtext
 
-	text "Hey, Kleiner!"
-	line "Wenn du alle"
+	text "Hey, Kleiner! Wenn"
+	line "du alle"
 
 	para "Kimono Girls"
 	line "besiegst, schenke"
@@ -160,20 +153,20 @@ Kimono_girlNaokoBeatenText:
 	done
 Kimono_girlSayoSeenText:
 	text "Ich tanze immer"
-	line "mit meinen #-"
-	cont "MON. Natürlich"
+	line "mit meinen"
+	cont "#mon. Natürlich"
 
 	para "trainiere ich sie"
 	line "auch."
 	done
 Kimono_girlSayoBeatenText:
-	text "Ach, beinahe!"
-	line "Fast hätte ich"
-	cont "dich gehabt."
+	text "Ach, beinahe! Fast"
+	line "hätte ich dich"
+	cont "gehabt."
 	done
 Kimono_girlZukiSeenText:
-	text "Ist meine Haar-"
-	line "spange nicht"
+	text "Ist meine"
+	line "Haarspange nicht"
 	cont "hübsch?"
 
 	para "Oh, ein #mon-"
@@ -187,8 +180,7 @@ Kimono_girlZukiBeatenText:
 Kimono_girlKuniSeenText:
 	text "Ach, du scheinst"
 	line "nett zu sein."
-	cont "Willst du"
-	cont "kämpfen?"
+	cont "Willst du kämpfen?"
 	done
 Kimono_girlKuniBeatenText:
 	text "Du bist stärker"
@@ -209,41 +201,35 @@ SurfGuyNeverLeftAScratchText:
 	text "Die KIMONO-GIRLS"
 	line "sind nicht nur"
 
-	para "großartige"
-	line "Tänzer,"
-	line "sie sind auch"
-	cont "gute"
+	para "großartige Tänzer,"
+	line "sie sind auch gute"
 	cont "#mon-Trainer."
 
 	para "Ich fordere sie"
 	line "ständig heraus,"
 
 	para "konnte sie aber"
-	line "noch nie"
-	cont "besiegen…"
+	line "noch nie besiegen…"
 	done
 SurfGuyLikeADanceText:
 	text "Die Art wie du"
 	line "kämpfst, ist wie"
 	cont "ein Tanz."
 
-	para "So etwas sieht"
-	line "man"
+	para "So etwas sieht man"
 	line "nicht oft!"
 
 	para "Ich möchte dir"
-	line "et-"
-	line "was geben. Nur"
-	cont "zu!"
-	cont "Nimm es ruhig!"
+	line "etwas geben. Nur"
+	cont "zu! Nimm es ruhig!"
 	done
 SurfGuyElegantKimonoGirlsText:
 	text "Ich wünschte,"
 	line "meine #mon"
 	cont "wären"
 
-	para "so elegant wie"
-	line "die Kimono Girls."
+	para "so elegant wie die"
+	line "Kimono Girls."
 	done
 
 RhydonText:
@@ -252,8 +238,7 @@ RhydonText:
 	done
 DanceTheatreCooltrainerMText:
 	text "Dieser Mann hat"
-	line "immer sein"
-	cont "RIZEROS"
+	line "immer sein RIZEROS"
 	cont "dabei."
 
 	para "Er sagt, dass er"
@@ -262,8 +247,7 @@ DanceTheatreCooltrainerMText:
 	cont "und tanzen kann."
 
 	para "Versucht er etwa,"
-	line "ein"
-	cont "Mono-Synchron-"
+	line "ein Mono-Synchron-"
 	cont "Schwimm-#mon zu"
 	cont "besitzen?"
 	done
@@ -274,22 +258,20 @@ DanceTheatreGrannyText:
 	para "Aber sie müssen"
 	line "hart trainieren."
 
-	para "Und sie müssen"
-	line "so viele Dinge"
+	para "Und sie müssen so"
+	line "viele Dinge"
 
 	para "lernen, bevor sie"
 	line "öffentlich"
-	cont "auftre-"
-	cont "ten."
+	cont "auftreten."
 
-	para "Aber wenn du"
-	line "etwas"
+	para "Aber wenn du etwas"
 	line "liebst, ist alles"
 	cont "möglich."
 	done
 DanceTheatreLadyText:
-	text "Evoli kann sich"
-	line "zu Folipurba,"
+	text "Evoli kann sich zu"
+	line "Folipurba,"
 
 	para "Glaziola oder"
 	line "Feelinara"

@@ -49,14 +49,13 @@ ProfOaksAide4Script:
 	iftruefwd .HereYouGo
 	jumpthisopenedtext
 
-	text "Mal sehen…"
-	line "Oh je! Du hast"
+	text "Mal sehen… Oh je!"
+	line "Du hast"
 
 	para "erst "
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-	line "von #mon"
-	cont "gefangen."
+	text " Arten von #mon"
+	line "gefangen."
 
 	para "Komm wieder, wenn"
 	line "du 60 Arten"
@@ -74,8 +73,8 @@ ProfOaksAide4Script:
 .ExplainText:
 	text "Das Glücks-Ei"
 	line "hilft einem"
-	cont "#mon,"
-	cont "mehr Erfahrung"
+	cont "#mon, mehr"
+	cont "Erfahrung"
 
 	para "als sonst zu"
 	line "sammeln."
@@ -98,8 +97,8 @@ ProfOaksAide4Script:
 	line "Item geben."
 
 	para "Also, <PLAYER>,"
-	line "hast du"
-	cont "mindestens 60"
+	line "hast du mindestens"
+	cont "60"
 
 	para "Arten von #mon"
 	line "gefangen?"
@@ -111,17 +110,17 @@ ProfOaksAide4Script:
 
 	para "gefangen "
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-	line "von #mon."
+	text " Arten von"
+	line "#mon."
 
-	para "Glückwunsch!"
-	line "Hier bitte!"
+	para "Glückwunsch! Hier"
+	line "bitte!"
 	done
 
 .NoRoomText:
 	text "Oh! Du hast wohl"
-	line "keinen Platz"
-	cont "mehr dafür."
+	line "keinen Platz mehr"
+	cont "dafür."
 	done
 
 BlackthornPokeCenter1FGentlemanText:

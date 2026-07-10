@@ -182,11 +182,10 @@ KantoRadioStationSignText:
 	text "KANTO RADIO-"
 	line "STATION"
 
-	para "Deine Lieblings-"
-	line "programme zu"
-	cont "jeder"
-	cont "Tages- und Nacht-"
-	cont "zeit!"
+	para "Deine"
+	line "Lieblingsprogramme"
+	cont "zu jeder Tages-"
+	cont "und Nachtzeit!"
 	done
 
 
@@ -195,8 +194,8 @@ KantoRadioStationSignText:
 
 VolunteerPokemonHouseSignText:
 	text "WAISENHAUS für"
-	line "#mon"
-	cont "von LAVANDIA"
+	line "#mon von"
+	cont "LAVANDIA"
 	done
 
 
@@ -216,12 +215,11 @@ SoulHouseSignText:
 
 
 LavenderTownPokefanMText:
-	text "Ein recht beein-"
-	line "druckendes"
+	text "Ein recht"
+	line "beeindruckendes"
 	cont "Gebäude, nicht?"
 
-	para "Das ist der"
-	line "RADIO-"
+	para "Das ist der RADIO-"
 	line "TURM von KANTO."
 	done
 
@@ -232,8 +230,7 @@ LavenderTownPokefanMText:
 LavenderTownTeacherText:
 	text "In KANTO werden"
 	line "viele, gute"
-	cont "Radio-"
-	cont "programme"
+	cont "Radioprogramme"
 	cont "gesendet."
 	done
 
@@ -247,8 +244,8 @@ LavenderTownGrampsText:
 
 	para "um den Seelen"
 	line "dahingegangener"
-	cont "#mon Respekt"
-	cont "zu erweisen."
+	cont "#mon Respekt zu"
+	cont "erweisen."
 	done
 
 
@@ -256,13 +253,12 @@ LavenderTownGrampsText:
 
 
 LavenderTownYoungsterText:
-	text "Mit einer #-"
-	line "FLOETE weckst du"
-	cont "schlafende"
+	text "Mit einer"
+	line "#floete weckst"
+	cont "du schlafende"
 	cont "#mon."
 
-	para "Jeder Trainer"
-	line "muss"
+	para "Jeder Trainer muss"
 	line "das wissen!"
 	done
 

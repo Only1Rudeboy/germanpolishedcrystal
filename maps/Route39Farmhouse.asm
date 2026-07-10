@@ -73,17 +73,14 @@ FarmerMScript_SellMilk:
 
 	text "Du hast kein"
 	line "Interesse? Komm"
-	cont "aber wieder,"
-	cont "hörst"
+	cont "aber wieder, hörst"
 	cont "du?"
 	done
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Tut mir Leid,"
-	line "mein"
-	line "Kind. Wenn du"
-	cont "kein"
+	text "Tut mir Leid, mein"
+	line "Kind. Wenn du kein"
 	cont "Geld hast, kann"
 	cont "ich dir nichts"
 	cont "verkaufen!"
@@ -91,8 +88,8 @@ FarmerMScript_SellMilk:
 .BagFull:
 	jumpthisopenedtext
 
-	text "I reckon yer"
-	line "Bag's full."
+	text "I reckon yer Bag's"
+	line "full."
 	done
 
 .MenuDataHeader:
@@ -111,8 +108,8 @@ FarmerMScript_SellMilk:
 .Milking:
 	jumpthisopenedtext
 
-	text "Dann melke ich"
-	line "mal weiter."
+	text "Dann melke ich mal"
+	line "weiter."
 	done
 PokefanF_AcrobaticsFarmer:
 	faceplayer
@@ -158,8 +155,7 @@ PokefanF_AcrobaticsFarmer:
 
 FarmerMText_SickCow:
 	text "Mein MILTANK gibt"
-	line "keine Milch"
-	cont "mehr."
+	line "keine Milch mehr."
 
 	para "Diese FARM ist"
 	line "berühmt für die"
@@ -183,12 +179,12 @@ FarmerMText_SickCow:
 
 
 FarmerMText_BuyMilk:
-	text "Wie findest du"
-	line "die MILCH von"
-	cont "meinem MILTANK?"
+	text "Wie findest du die"
+	line "MILCH von meinem"
+	cont "MILTANK?"
 
-	para "Sie ist mein gan-"
-	line "zer Stolz."
+	para "Sie ist mein"
+	line "ganzer Stolz."
 
 	para "Gib sie einem"
 	line "#mon, um dessen"
@@ -204,9 +200,9 @@ FarmerMText_BuyMilk:
 
 
 FarmerMText_GotMilk:
-	text "Bitte sehr!"
-	line "Trink aus und"
-	cont "genieße es!"
+	text "Bitte sehr! Trink"
+	line "aus und genieße"
+	cont "es!"
 	done
 
 

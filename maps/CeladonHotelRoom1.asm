@@ -18,8 +18,8 @@ CeladonHotelRoom1_MapScriptHeader:
 
 CeladonHotelRoom1CooltrainerMText:
 	text "Wo ich herkomme,"
-	line "gibt es keine"
-	cont "# Bälle."
+	line "gibt es keine #"
+	cont "Bälle."
 
 	para "Man nutzt"
 	line "Fang-Styler, um"

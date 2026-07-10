@@ -11,8 +11,8 @@ BuenaPhoneMorningAnswerText:
 
 BuenaPhoneDayAnswerText:
 	text "Hi, hier ist"
-	line "Buena…"
-	line "Oh! Hi, <PLAYER>!"
+	line "Buena… Oh! Hi,"
+	cont "<PLAYER>!"
 
 	para "Hörst du Buenas"
 	line "Show im Radio?"
@@ -22,12 +22,10 @@ BuenaPhoneMidnightAnswerText:
 	text "Hier ist Buena."
 	line "Ich kann gerade"
 
-	para "nicht ans"
-	line "Telefon."
+	para "nicht ans Telefon."
 	line "Wenn du quatschen"
 
-	para "willst, hör"
-	line "Buenas"
+	para "willst, hör Buenas"
 	line "Passwort im Radio"
 
 	para "und ruf mich nach"
@@ -36,8 +34,8 @@ BuenaPhoneMidnightAnswerText:
 
 BuenaPhoneNiteAnswerText:
 	text "Hi, hier ist"
-	line "Buena…"
-	line "Oh! Hi, <PLAYER>!"
+	line "Buena… Oh! Hi,"
+	cont "<PLAYER>!"
 
 	para "Ich komme gerade"
 	line "von der Arbeit."
@@ -47,9 +45,8 @@ BuenaPhoneNiteAnswerText:
 	done
 
 BuenaPhoneMorningText:
-	text "<PLAYER>!"
-	line "Hi, ich bin's,"
-	cont "Buena!"
+	text "<PLAYER>! Hi, ich"
+	line "bin's, Buena!"
 
 	para "Ich bin früh auf,"
 	line "deswegen ruf ich"
@@ -57,33 +54,29 @@ BuenaPhoneMorningText:
 	done
 
 BuenaPhoneDayText:
-	text "<PLAYER>!"
-	line "Hi, ich bin's,"
-	cont "Buena!"
+	text "<PLAYER>! Hi, ich"
+	line "bin's, Buena!"
 
 	para "Ich brauchte"
-	line "jemand"
-	line "zum Quatschen!"
+	line "jemand zum"
+	cont "Quatschen!"
 	done
 
 BuenaPhoneMidnightText:
-	text "<PLAYER>!"
-	line "Hi, ich bin's,"
-	cont "Buena!"
+	text "<PLAYER>! Hi, ich"
+	line "bin's, Buena!"
 
 	para "Ich hab gerade"
 	line "Pause."
 	done
 
 BuenaPhoneNiteText:
-	text "<PLAYER>!"
-	line "Hi, ich bin's,"
-	cont "Buena!"
+	text "<PLAYER>! Hi, ich"
+	line "bin's, Buena!"
 
 	para "Ich konnte nicht"
 	line "schlafen, also"
-	cont "rief"
-	cont "ich an."
+	cont "rief ich an."
 	done
 
 BuenaPhoneRocketText:
@@ -95,8 +88,8 @@ BuenaPhoneRocketText:
 	line "keine Zeit für"
 
 	para "alberne"
-	line "Begrüßungen!"
-	line "Der Funkturm ist"
+	line "Begrüßungen! Der"
+	cont "Funkturm ist"
 
 	para "in großer Gefahr!"
 	line "<PLAYER>, pass"
@@ -108,8 +101,8 @@ BuenaPhoneWentOutWithBenText:
 	line "essen mit DJ Ben!"
 
 	para "Ist das nicht"
-	line "toll?"
-	line "Er fand die Musik"
+	line "toll? Er fand die"
+	cont "Musik"
 
 	para "in meiner Show"
 	line "cool!"
@@ -120,8 +113,7 @@ BuenaPhoneWentOutWithBenText:
 	para "…Ups, ich muss"
 	line "mich für meine"
 
-	para "Show"
-	line "fertigmachen!"
+	para "Show fertigmachen!"
 	line "Bis später!"
 	done
 
@@ -137,8 +129,8 @@ BuenaPhoneReceptionistText:
 	line "redseligste im"
 	cont "Funkturm."
 
-	para "Sie hält sich"
-	line "nur zurück."
+	para "Sie hält sich nur"
+	line "zurück."
 
 	para "Ist das nicht"
 	line "lustig? Bis"
@@ -146,13 +138,12 @@ BuenaPhoneReceptionistText:
 	done
 
 BuenaPhoneLuckyNumberShowText:
-	text "Sag mal,"
-	line "<PLAYER>."
+	text "Sag mal, <PLAYER>."
 	line "Hast du schon mal"
 
 	para "bei der"
-	line "Glückszahlen-"
-	line "Show gewonnen?"
+	line "Glückszahlen- Show"
+	cont "gewonnen?"
 
 	para "Reed jammert, er"
 	line "hätte nie"
@@ -160,8 +151,7 @@ BuenaPhoneLuckyNumberShowText:
 
 	para "und will die Show"
 	line "weitermachen, bis"
-	cont "er"
-	cont "gewinnt."
+	cont "er gewinnt."
 
 	para "Reden wir wieder!"
 	done
@@ -171,35 +161,32 @@ BuenaPhoneStressedFromWorkText:
 	line "Nacht…"
 
 	para "War ich so"
-	line "gestresst"
-	line "von der Arbeit,"
+	line "gestresst von der"
+	cont "Arbeit,"
 
 	para "dass ich Unmengen"
 	line "Junkfood fraß!"
 
 	para "Mary und ich"
-	line "wollen"
-	line "abnehmen…"
+	line "wollen abnehmen…"
 
 	para "Das geht nicht…"
 
-	para "Häh? Wie viel?"
-	line "Das ist geheim!"
+	para "Häh? Wie viel? Das"
+	line "ist geheim!"
 
 	para "Mary wiegt…"
 
 	para "Aiyee! M-Mary!"
 
-	para "Äh… Ähm… Ich…"
-	line "Tut mir leid,"
-	cont "falsche"
+	para "Äh… Ähm… Ich… Tut"
+	line "mir leid, falsche"
 	cont "Nummer!"
 	done
 
 BuenaPhoneProfessorOakText:
 	text "Gestern war Prof."
-	line "Eich im Studio"
-	cont "für"
+	line "Eich im Studio für"
 
 	para "seine Show. Ich"
 	line "stellte mich vor."
@@ -208,25 +195,21 @@ BuenaPhoneProfessorOakText:
 	line "Sendung!"
 
 	para "Oh! Prof.Eich"
-	line "kommt"
-	line "wieder!"
+	line "kommt wieder!"
 
 	para "Ich quatsche"
-	line "wieder"
-	line "mit ihm! Bis"
-	cont "später!"
+	line "wieder mit ihm!"
+	cont "Bis später!"
 	done
 
 BuenaPhoneGotAColdText:
 	text "…Hust, hust!"
 
-	para "Ähm sorry, ich"
-	line "hab"
+	para "Ähm sorry, ich hab"
 	line "ä Schnupfen."
 
 	para "Aber ich muss"
-	line "weiter"
-	cont "moderieren,"
+	line "weiter moderieren,"
 
 	para "damit's keiner"
 	line "merkt."
@@ -239,17 +222,14 @@ BuenaPhoneGotAColdText:
 	done
 
 BuenaPhoneRadioCardQuestionsText:
-	text "Hey, <PLAYER>."
-	line "Du hast die"
-	cont "Radio-"
+	text "Hey, <PLAYER>. Du"
+	line "hast die Radio-"
 
-	para "Karte beim Quiz"
-	line "am"
+	para "Karte beim Quiz am"
 	line "Empfang gewonnen,"
 
 	para "oder? Rate mal!"
-	line "Ich hab die"
-	cont "Fragen"
+	line "Ich hab die Fragen"
 
 	para "geschrieben!"
 	line "…Waren sie zu"
@@ -260,16 +240,15 @@ BuenaPhoneRadioCardQuestionsText:
 
 BuenaPhonePikachuFanClubText:
 	text "Ich freu mich,"
-	line "dass"
-	line "mehr Leute bei"
+	line "dass mehr Leute"
+	cont "bei"
 
 	para "meiner"
 	line "Passwort-Show"
-	line "mitmachen."
+	cont "mitmachen."
 
 	para "Als Pikachu das"
-	line "Passwort war…"
-	cont "puh…"
+	line "Passwort war… puh…"
 
 	para "überwältigend."
 	line "Fanclub-Leute"
@@ -281,19 +260,17 @@ BuenaPhonePikachuFanClubText:
 
 	para "so laut! Wer"
 	line "gerade"
-	line "einschaltete, war"
+	cont "einschaltete, war"
 
-	para "sicher"
-	line "schockiert!"
-	line "Zurück zur"
-	cont "Arbeit!"
+	para "sicher schockiert!"
+	line "Zurück zur Arbeit!"
 
 	para "Reden wir wieder!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Rate mal?"
-	line "Der Funkturm-"
+	text "Rate mal? Der"
+	line "Funkturm-"
 
 	para "Direktor ist ein"
 	line "großer TV-Fan!"
@@ -306,44 +283,37 @@ BuenaPhoneRadioTowerDirectorText:
 	cont "trägt"
 
 	para "er nur noch"
-	line "schwarz."
-	line "Geheim, dass er"
-	cont "TV"
+	line "schwarz. Geheim,"
+	cont "dass er TV"
 
 	para "mag — erwähne es"
-	line "nicht, wenn du"
-	cont "ihn"
+	line "nicht, wenn du ihn"
 
 	para "siehst! Oh, er"
-	line "kommt"
-	line "gleich! Bis"
+	line "kommt gleich! Bis"
 	cont "später!"
 
 	para "Hör meine Show!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
-	text "<PLAYER>, sag"
-	line "mal."
+	text "<PLAYER>, sag mal."
 
-	para "Wann entspannst"
-	line "du dich am"
-	cont "meisten?"
+	para "Wann entspannst du"
+	line "dich am meisten?"
 
 	para "Für mich nach der"
-	line "Show im Studio"
-	cont "mit"
+	line "Show im Studio mit"
 
 	para "einer Tasse Tee."
 	line "So angenehm, dass"
 
-	para "ich müde werde…"
-	line "…… …… ……"
+	para "ich müde werde… ……"
+	line "…… ……"
 
 	para "…… …… ……Zzz"
 
-	para "Ups,"
-	line "eingeschlafen"
+	para "Ups, eingeschlafen"
 	line "beim Nachdenken!"
 
 	para "Wie peinlich!"
@@ -356,27 +326,24 @@ BuenaPhoneStarterPokemonText:
 	line "#mon hast du"
 
 	para "als Erstes"
-	line "gefangen?"
-	line "…Oh, wirklich?"
+	line "gefangen? …Oh,"
+	cont "wirklich?"
 
 	para "Ich sehe viele"
 	line "#mon, hab aber"
 
-	para "nie eins"
-	line "gefangen."
+	para "nie eins gefangen."
 	line "Sollte ich mal."
 
-	para "Wusstest du,"
-	line "Marys"
+	para "Wusstest du, Marys"
 	line "erstes #mon war"
 
 	para "ein Traumato?"
-	line "Passt"
-	line "gar nicht zu ihr."
+	line "Passt gar nicht zu"
+	cont "ihr."
 
 	para "Ihr Traumato ließ"
-	line "sie bei der"
-	cont "Arbeit"
+	line "sie bei der Arbeit"
 
 	para "einschlafen, also"
 	line "tauschte sie mit"
@@ -395,16 +362,14 @@ BuenaPhoneCompanyVacationText:
 	line "Funkturm machen"
 
 	para "Betriebsausflug"
-	line "zum"
-	line "Funkturm in"
+	line "zum Funkturm in"
 	cont "Lavandia."
 
 	para "Urlaub in einem"
 	line "anderen Funkturm?"
 
 	para "Lieber ans Meer!"
-	line "<PLAYER>, hab"
-	cont "Spaß"
+	line "<PLAYER>, hab Spaß"
 
 	para "für uns beide auf"
 	line "deiner Reise!"
@@ -419,17 +384,14 @@ BuenaPhoneBenAndFernText:
 	line "telefonieren"
 	cont "stunden-"
 
-	para "lang über #-"
-	line "mon-Musik für"
+	para "lang über"
+	line "#mon-Musik für"
 
 	para "verschiedene"
-	line "Wochen-"
-	line "tage."
+	line "Wochentage."
 
-	para "Ferns"
-	line "Rap-Rhythmus"
-	line "wirkte seltsam"
-	cont "auf"
+	para "Ferns Rap-Rhythmus"
+	line "wirkte seltsam auf"
 
 	para "Ben. Wir mussten"
 	line "Bens albernen,"
@@ -446,23 +408,21 @@ BuenaPhoneGoingShoppingText:
 	line "Mary und Lily"
 
 	para "shoppen. Toll,"
-	line "wenn"
-	line "im Kaufhaus"
+	line "wenn im Kaufhaus"
 	cont "Dukatia"
 
 	para "Sale ist…"
 	line "<PLAYER>,"
 	cont "vielleicht"
 
-	para "kommst du mit!"
-	line "Bis später!"
+	para "kommst du mit! Bis"
+	line "später!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
 	text "Ich überlege,"
-	line "morgen"
-	line "ins Casino zu"
-	cont "gehen."
+	line "morgen ins Casino"
+	cont "zu gehen."
 
 	para "Schon lange nicht"
 	line "mehr da. Ich hab"
@@ -471,8 +431,7 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 	line "Automaten…"
 
 	para "Der zahlt viel"
-	line "aus!"
-	line "Häh? Geheim!"
+	line "aus! Häh? Geheim!"
 
 	para "Finde ihn selbst!"
 	line "Bis später!"
@@ -480,37 +439,32 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 
 BuenaPhonePokegearAnswerText:
 	text "Hey, <PLAYER>. Du"
-	line "nutzt #Com"
-	cont "fürs Radio,"
+	line "nutzt #Com fürs"
+	cont "Radio,"
 
 	para "oder? Man kann"
 	line "damit auch"
 
 	para "Stadtkarten"
-	line "zeigen."
-	line "Ich hab keinen"
-	cont "Sinn"
+	line "zeigen. Ich hab"
+	cont "keinen Sinn"
 
 	para "für Richtung…"
-	line "#Com"
-	line "wäre praktisch…"
+	line "#Com wäre"
+	cont "praktisch…"
 
 	para "Danke fürs"
-	line "Anrufen!"
-	line "Tschüss!"
+	line "Anrufen! Tschüss!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "Scheint die"
-	line "Sonne?"
+	text "Scheint die Sonne?"
 	line "Im Funkturm"
 	cont "verliert"
 
 	para "man den Bezug zur"
-	line "Außenwelt. Es"
-	cont "kann"
+	line "Außenwelt. Es kann"
 
-	para "langweilig"
-	line "werden."
+	para "langweilig werden."
 	line "Ruf wieder an!"
 	done

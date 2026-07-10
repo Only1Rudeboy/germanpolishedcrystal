@@ -58,8 +58,7 @@ OlivineGymGuyScript:
 	jumpthistextfaceplayer
 
 	text "JASMIN setzt den"
-	line "neu entdeckten"
-	cont "Typ"
+	line "neu entdeckten Typ"
 	cont "Stahl ein."
 
 	para "Ich weiß nicht"
@@ -88,8 +87,8 @@ OlivineGymLassConnie:
 	para "Viel Glück!"
 	done
 .AfterText:
-	text "Du bist toll…"
-	line "Mit so viel Po-"
+	text "Du bist toll… Mit"
+	line "so viel Po-"
 
 	para "tenzial solltest"
 	line "du noch höher"
@@ -109,23 +108,20 @@ OlivineGymGentlemanPreston:
 
 .SeenText:
 	text "Ich wusste, dass"
-	line "du kommen"
-	cont "würdest."
+	line "du kommen würdest."
 
-	para "Danke, dass du"
-	line "der"
-	line "ARENALEITERIN ge-"
-	cont "holfen hast,"
+	para "Danke, dass du der"
+	line "ARENALEITERIN"
+	cont "geholfen hast,"
 
-	para "aber ein Kampf"
-	line "ist etwas"
-	cont "anderes."
+	para "aber ein Kampf ist"
+	line "etwas anderes."
 
 	para "Los geht's!"
 	done
 .AfterText:
-	text "Beeindruckend!"
-	line "Hol dir noch mehr"
+	text "Beeindruckend! Hol"
+	line "dir noch mehr"
 
 	para "Orden mit so viel"
 	line "Können!"
@@ -148,31 +144,28 @@ OlivineGymStatue:
 
 Jasmine_SteelTypeIntro:
 	text "…Danke für deine"
-	line "Hilfe beim"
-	cont "LEUCHT-"
+	line "Hilfe beim LEUCHT-"
 	cont "TURM…"
 
 	para "Erlaube mir, mich"
 	line "vorstellen zu"
-	cont "dür-"
-	cont "fen!"
+	cont "dürfen!"
 
 	para "Ich bin JASMIN,"
 	line "eine ARENALEITE-"
 	cont "RIN. Ich setze"
 	cont "STAHL-#mon ein."
 
-	para "…Hast du von die-"
-	line "sem Typ schon ge-"
-	cont "hört?"
+	para "…Hast du von"
+	line "diesem Typ schon"
+	cont "gehört?"
 
 	para "Er wurde erst vor"
-	line "kurzer Zeit ent-"
-	cont "deckt."
+	line "kurzer Zeit"
+	cont "entdeckt."
 
 	para "…Ähm… Darf ich"
-	line "be-"
-	line "ginnen?"
+	line "beginnen?"
 	done
 
 
@@ -183,13 +176,11 @@ Jasmine_BetterTrainer:
 	para "ich. Das betrifft"
 	line "sowohl Geschick,"
 
-	para "als auch Fein-"
-	line "gefühl."
+	para "als auch"
+	line "Feingefühl."
 
-	para "In"
-	line "Übereinstimmung"
-	line "mit den Regeln"
-	cont "der"
+	para "In Übereinstimmung"
+	line "mit den Regeln der"
 
 	para "LIGA überreiche"
 	line "ich dir diesen"
@@ -216,37 +207,33 @@ Text_ReceivedTM09: ; unreferenced
 
 Jasmine_GoodLuck:
 	text "Ähm… Ich weiß"
-	line "nicht, wie ich"
-	cont "das"
+	line "nicht, wie ich das"
 	cont "sagen soll, aber…"
 	cont "Viel Glück!"
 	done
 
 
 OlivineGymGuyWinText:
-	text "Das war"
-	line "großartig!"
+	text "Das war großartig!"
 
 	para "Der Typ Stahl,"
 	line "was?"
 
-	para "Das war eine un-"
-	line "heimliche Begeg-"
-	cont "nung der unbe-"
-	cont "kannten Art."
+	para "Das war eine"
+	line "unheimliche"
+	cont "Begegnung der"
+	cont "unbekannten Art."
 	done
 OlivineGymGuyPreText:
 	text "JASMIN, die ARE-"
-	line "NALEITERIN, ist"
-	cont "im"
+	line "NALEITERIN, ist im"
 	cont "LEUCHTTURM."
 
 	para "Sie kümmert sich"
 	line "um ein krankes"
 	cont "#mon."
 
-	para "Ein starker Trai-"
-	line "ner muss auch"
-	cont "Mit-"
-	cont "gefühl zeigen."
+	para "Ein starker"
+	line "Trainer muss auch"
+	cont "Mitgefühl zeigen."
 	done

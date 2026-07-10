@@ -41,17 +41,16 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 
 .Text2:
 	text "Auf lange Sicht"
-	line "gewinnt immer"
-	cont "das Haus…"
+	line "gewinnt immer das"
+	cont "Haus…"
 	done
 
 .Text1:
 	text "Ich wollte dieses"
 	line "Item in der"
 
-	para "SPIELHALLE"
-	line "nutzen, aber sie"
-	cont "haben"
+	para "SPIELHALLE nutzen,"
+	line "aber sie haben"
 	cont "mich erwischt."
 
 	para "Nimm es lieber."
@@ -61,8 +60,7 @@ GoldenrodUndergroundEntrances_TeacherText:
 	text "Da unten gibt es"
 	line "Geschäfte…"
 
-	para "Aber da unten"
-	line "sind"
+	para "Aber da unten sind"
 	line "auch Trainer. Ich"
 
 	para "traue mich nicht"
@@ -70,9 +68,9 @@ GoldenrodUndergroundEntrances_TeacherText:
 	done
 GoldenrodUndergroundEntrances_SuperNerd1Text:
 	text "Dieser Tunnel"
-	line "wurde"
-	line "ursprünglich für"
-	cont "Lieferungen zum"
+	line "wurde ursprünglich"
+	cont "für Lieferungen"
+	cont "zum"
 
 	para "Kaufhaus gebaut."
 
@@ -82,13 +80,11 @@ GoldenrodUndergroundEntrances_SuperNerd1Text:
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd2Text:
-	text "Ich wurde da"
-	line "unten"
+	text "Ich wurde da unten"
 	line "zu einem Kampf"
 	cont "herausgefordert."
 
-	para "Da unten"
-	line "herrschen"
+	para "Da unten herrschen"
 	line "rauhe Sitten. Sei"
 	cont "auf der Hut."
 	done
@@ -96,9 +92,8 @@ GoldenrodUndergroundEntrances_BeautyText:
 	text "Ich war auf einer"
 	line "Führung durch den"
 
-	para "FUNK-TURM."
-	line "Ich sah alle drei"
-	cont "Studios"
+	para "FUNK-TURM. Ich sah"
+	line "alle drei Studios"
 
 	para "und aß sogar im"
 	line "Café."

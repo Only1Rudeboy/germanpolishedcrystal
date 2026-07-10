@@ -108,9 +108,8 @@ OlivineLighthouseAmphy:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Es atmet"
-	line "furchtbar"
-	cont "schwer…"
+	text "Es atmet furchtbar"
+	line "schwer…"
 	done
 
 .HealthyNow:
@@ -162,35 +161,30 @@ JasmineCianwoodPharmacyText:
 	line "erleuchtet."
 
 	para "…Aber plötzlich"
-	line "wurde es krank…"
-	cont "Es"
+	line "wurde es krank… Es"
 	cont "schnappt nach"
 	cont "Luft…"
 
-	para "…Ich weiß, dass"
-	line "es eine gut"
+	para "…Ich weiß, dass es"
+	line "eine gut"
 
-	para "sortierte"
-	line "APOTHEKE"
+	para "sortierte APOTHEKE"
 	line "in ANEMONIA CITY"
 	cont "gibt…"
 
 	para "Aber dafür musst"
 	line "du über das Meer…"
 
-	para "Und ich kann"
-	line "AMPHI"
+	para "Und ich kann AMPHI"
 	line "nicht"
-	cont "unbeaufsich-"
-	cont "tigt"
+	cont "unbeaufsichtigt"
 	cont "zurücklassen…"
 	done
 
 
 JasmineCureAmphyText:
 	text "JASMIN: …Wird"
-	line "diese Arznei"
-	cont "AMPHI"
+	line "diese Arznei AMPHI"
 	cont "helfen?"
 	done
 
@@ -203,21 +197,21 @@ PlayerHandedSecretpotionText:
 
 
 JasmineDontBeOffendedText:
-	text "JASMIN: …Hm,"
-	line "sei bitte nicht"
+	text "JASMIN: …Hm, sei"
+	line "bitte nicht"
 	cont "beleidigt…"
 
-	para "…AMPHI nimmt"
-	line "die Arznei nur"
-	cont "von mir…"
+	para "…AMPHI nimmt die"
+	line "Arznei nur von"
+	cont "mir…"
 	done
 
 
 JasmineAmphyHowAreYouFeelingText:
 	text "JASMIN: …"
 
-	para "AMPHI, wie geht"
-	line "es dir?"
+	para "AMPHI, wie geht es"
+	line "dir?"
 	done
 
 
@@ -238,8 +232,8 @@ JasmineThankYouText:
 
 
 JasmineISeeText:
-	text "JASMIN: …Ich ver-"
-	line "stehe…"
+	text "JASMIN: …Ich"
+	line "verstehe…"
 	done
 
 

@@ -58,8 +58,8 @@ GenericTrainerScientistDexter:
 
 .SeenText:
 	text "Ich bin zuerst"
-	line "Hydrologe und"
-	cont "dann Trainer."
+	line "Hydrologe und dann"
+	cont "Trainer."
 	done
 
 .BeatenText:
@@ -81,8 +81,8 @@ TrainerGuitaristmBiff:
 	done
 
 .SeenText:
-	text "Ich grabe Rock"
-	line "und grabe Fels!"
+	text "Ich grabe Rock und"
+	line "grabe Fels!"
 	done
 
 .BeatenText:

@@ -41,8 +41,7 @@ VanceGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "!"
-	line "Guten Morgen!"
+	text "! Guten Morgen!"
 	done
 
 VanceGreetDayText:
@@ -50,9 +49,8 @@ VanceGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "!"
-	line "Erinnerst du"
-	cont "dich?"
+	text "! Erinnerst du"
+	line "dich?"
 	done
 
 VanceGreetNiteText:
@@ -61,8 +59,7 @@ VanceGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "!"
-	line "Hast du Zeit?"
+	text "! Hast du Zeit?"
 	done
 
 VanceGenericText:

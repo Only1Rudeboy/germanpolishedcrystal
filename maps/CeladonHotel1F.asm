@@ -58,15 +58,15 @@ CeladonHotel1FLadyText:
 	line "erste Reise nach"
 	cont "Kanto."
 
-	para "Es gibt so viel"
-	line "zu sehen in"
+	para "Es gibt so viel zu"
+	line "sehen in"
 	cont "Prismania!"
 	done
 
 CeladonHotel1FCooltrainerFText:
-	text "Ahh, diesen"
-	line "Urlaub hatte ich"
-	cont "wirklich nötig!"
+	text "Ahh, diesen Urlaub"
+	line "hatte ich wirklich"
+	cont "nötig!"
 	done
 
 RichBoyGeraldGreetingText:
@@ -80,14 +80,14 @@ RichBoyGeraldGreetingText:
 	done
 
 RichBoyGeraldSeenText:
-	text "Bereite dich"
-	line "auf die Niederlage"
+	text "Bereite dich auf"
+	line "die Niederlage"
 	cont "vor!"
 	done
 
 RichBoyGeraldBeatenText:
-	text "Wenigstens bist"
-	line "du nicht öde."
+	text "Wenigstens bist du"
+	line "nicht öde."
 	done
 
 RichBoyGeraldAfterText:
@@ -120,6 +120,6 @@ CeladonHotel1FSignpost2Text:
 	done
 
 CeladonHotel1FSignpost3Text:
-	text "Suiten"
-	line "im Obergeschoss"
+	text "Suiten im"
+	line "Obergeschoss"
 	done

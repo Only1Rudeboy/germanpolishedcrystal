@@ -74,8 +74,7 @@ FastShip1FSailor1Script:
 
 	para "Wir machen eine"
 	line "Durchsage, wenn"
-	cont "wir dort"
-	cont "ankommen."
+	cont "wir dort ankommen."
 	done
 
 .Arrived:
@@ -126,9 +125,9 @@ FastShip1FSailor2Script:
 	text "Das ist deine"
 	line "Kabine."
 
-	para "Wenn deine"
-	line "#mon verletzt"
-	cont "sind, mach ein"
+	para "Wenn deine #mon"
+	line "verletzt sind,"
+	cont "mach ein"
 	cont "Nickerchen im"
 	cont "Bett."
 
@@ -214,8 +213,7 @@ FastShip1FSailor1Text_ToOlivine:
 
 	para "Wir machen eine"
 	line "Durchsage, wenn"
-	cont "wir dort"
-	cont "ankommen."
+	cont "wir dort ankommen."
 	done
 
 
@@ -226,14 +224,13 @@ FastShip1FSailor2Text:
 	para "Du kannst deine"
 	line "#mon heilen,"
 	cont "indem du ein"
-	cont "Nickerchen"
-	cont "machst."
+	cont "Nickerchen machst."
 
 	para "Das Schiff wird,"
 	line "während du"
 	cont "schläfst, im"
-	cont "Ziel-"
-	cont "hafen einlaufen."
+	cont "Zielhafen"
+	cont "einlaufen."
 	done
 
 
@@ -264,8 +261,7 @@ FastShip1FGrandpaText:
 
 
 FastShip1FSailor1Text_InOlivine:
-	text "Die M.S. AQUA"
-	line "legt"
+	text "Die M.S. AQUA legt"
 	line "in"
 
 	para "OLIVIANA CITY an."
@@ -273,8 +269,7 @@ FastShip1FSailor1Text_InOlivine:
 
 
 FastShip1FSailor1Text_InVermilion:
-	text "Die M.S. AQUA"
-	line "legt"
+	text "Die M.S. AQUA legt"
 	line "in"
 
 	para "ORANIA CITY an."

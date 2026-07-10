@@ -25,8 +25,8 @@ IcePathB2FMahoganySide_MapScriptHeader:
 	itemball_event  0,  2, MAX_POTION, 1, EVENT_ICE_PATH_B2F_MAHOGANY_SIDE_MAX_POTION
 
 IcePathB2FMahoganySideBoulderText:
-	text "Er steckt im"
-	line "Eis fest."
+	text "Er steckt im Eis"
+	line "fest."
 	done
 
 

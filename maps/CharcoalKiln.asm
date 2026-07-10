@@ -24,8 +24,8 @@ CharcoalKilnBoss:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Alle FLEGMON"
-	line "sind aus der Stadt"
+	text "Alle FLEGMON sind"
+	line "aus der Stadt"
 	cont "verschwunden."
 
 	para "Der Wächter des"
@@ -34,10 +34,9 @@ CharcoalKilnBoss:
 	cont "auf uns…"
 
 	para "Das könnte ein"
-	line "schlechtes"
-	cont "Omen sein. Wir"
-	cont "sollten drinnen"
-	cont "bleiben."
+	line "schlechtes Omen"
+	cont "sein. Wir sollten"
+	cont "drinnen bleiben."
 	done
 
 .Text2:
@@ -45,10 +44,8 @@ CharcoalKilnBoss:
 	text "Die FLEGMON sind"
 	line "zurückgekehrt…"
 
-	para "Aber mein"
-	line "LEHRLING"
-	line "kam noch nicht"
-	cont "aus"
+	para "Aber mein LEHRLING"
+	line "kam noch nicht aus"
 	cont "dem STEINEICHEN-"
 	cont "WALD zurück."
 
@@ -62,16 +59,13 @@ CharcoalKilnBoss:
 	text "Du hast TEAM"
 	line "ROCKET vertrieben"
 
-	para "und bist allein"
-	line "in"
+	para "und bist allein in"
 	line "den STEINEICHEN-"
 	cont "WALD gegangen?"
 
 	para "Du hast ja Mut!"
-	line "Das mag ich!"
-	cont "Komm,"
-	cont "trainiere mit"
-	cont "uns."
+	line "Das mag ich! Komm,"
+	cont "trainiere mit uns."
 	done
 
 CharcoalKilnApprentice:
@@ -94,24 +88,20 @@ CharcoalKilnApprentice:
 
 	para "Sind sie irgendwo"
 	line "zum Spielen"
-	cont "hinge-"
-	cont "gangen?"
+	cont "hingegangen?"
 	done
 .Text2:
 	text "Es tut mir Leid."
 	line "Ich habe dir noch"
 	cont "nicht gedankt."
 
-	para "Das ist"
-	line "HOLZKOHLE,"
+	para "Das ist HOLZKOHLE,"
 	line "die ich selbst"
-	cont "ge-"
-	cont "macht habe."
+	cont "gemacht habe."
 
 	para "Feuer-#mon"
 	line "wären froh, so"
-	cont "et-"
-	cont "was halten zu"
+	cont "etwas halten zu"
 	cont "dürfen."
 	done
 .Text3:

@@ -20,8 +20,7 @@ VermilionPollutionSpeechHouseBreederText:
 	line "wunderbarer Ort,"
 
 	para "aber in einem"
-	line "Hafen"
-	line "muss man auf"
+	line "Hafen muss man auf"
 	cont "Verschmutzung"
 	cont "achten!"
 	done
@@ -31,6 +30,6 @@ VermilionPollutionSpeechHouseCooltrainerMText:
 	line "Kreuzfahrtschiffe"
 
 	para "bekommen wir"
-	line "Besucher aus"
-	cont "aller Welt!"
+	line "Besucher aus aller"
+	cont "Welt!"
 	done

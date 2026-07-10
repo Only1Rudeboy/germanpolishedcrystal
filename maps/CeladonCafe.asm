@@ -117,8 +117,8 @@ Fisher1Text_Snarfle:
 	done
 
 Fisher1Text_Concentration:
-	text "Sprich mich"
-	line "nicht an!"
+	text "Sprich mich nicht"
+	line "an!"
 
 	para "Du störst meine"
 	line "Konzentration!"
@@ -134,8 +134,7 @@ Fisher2Text_Quantity:
 	cont "Qualität!"
 
 	para "Ich bin glücklich,"
-	line "wenn ich satt"
-	cont "bin!"
+	line "wenn ich satt bin!"
 	done
 
 Fisher3Text_MunchMunch:
@@ -143,8 +142,8 @@ Fisher3Text_MunchMunch:
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "Das Essen hier"
-	line "ist gut, aber in"
+	text "Das Essen hier ist"
+	line "gut, aber in"
 	cont "Dukatia City"
 	cont "gibt's"
 
@@ -165,11 +164,10 @@ TeacherText_NoCoinCase:
 	done
 
 TeacherText_KeepEating:
-	text "Knabber…"
-	line "Knabber…"
+	text "Knabber… Knabber…"
 
-	para "Ich kann noch"
-	line "mehr essen!"
+	para "Ich kann noch mehr"
+	line "essen!"
 	done
 
 TeacherText_MoreChef:
@@ -177,8 +175,8 @@ TeacherText_MoreChef:
 	done
 
 MayleneText1:
-	text "Hilda: Mampf"
-	line "mampf mampf…"
+	text "Hilda: Mampf mampf"
+	line "mampf…"
 	done
 
 MayleneText2:
@@ -206,11 +204,11 @@ MayleneText2:
 	done
 
 MayleneText3:
-	text "Ich werde"
-	line "langsam satt…"
+	text "Ich werde langsam"
+	line "satt…"
 
-	para "Ähm, willst du"
-	line "als Pause mit mir"
+	para "Ähm, willst du als"
+	line "Pause mit mir"
 	cont "kämpfen?"
 	done
 
@@ -239,8 +237,7 @@ MayleneBeatenText:
 	done
 
 MayleneAfterText:
-	text "Danke,"
-	line "<PLAYER>!"
+	text "Danke, <PLAYER>!"
 
 	para "Ich bin bereit,"
 	line "weiterzuessen!"
@@ -248,17 +245,16 @@ MayleneAfterText:
 
 CeladonCafeBakerText:
 	text "Ich arbeite hier,"
-	line "weil ich"
-	cont "jederzeit essen"
+	line "weil ich jederzeit"
+	cont "essen"
 
 	para "kann. Ganz"
 	line "einfach."
 	done
 
 EatathonContestPosterText:
-	text "Fresswett-"
-	line "bewerb! Kein"
-	cont "Zeitlimit!"
+	text "Fresswettbewerb!"
+	line "Kein Zeitlimit!"
 
 	para "Ein Kampf ohne"
 	line "Ende! Der größte"

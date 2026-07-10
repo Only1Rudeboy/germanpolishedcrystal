@@ -59,19 +59,18 @@ BlackthornGym2FBoulders:
 	jumpthistext
 
 	text "Der Felsbrocken"
-	line "ist durch-"
-	cont "gefallen!"
+	line "ist durchgefallen!"
 	done
 
 GenericTrainerCooltrainermCody:
 	generictrainer COOLTRAINERM, CODY, EVENT_BEAT_COOLTRAINERM_CODY, .SeenText, .BeatenText
 
-	text "Mitglieder"
-	line "unseres Drachen-"
-	cont "Klans dürfen"
+	text "Mitglieder unseres"
+	line "Drachen- Klans"
+	cont "dürfen"
 
 	para "Drachen-#mon"
-	cont "erst nutzen, wenn"
+	line "erst nutzen, wenn"
 	cont "unser Meister es"
 
 	para "erlaubt."
@@ -87,15 +86,14 @@ GenericTrainerCooltrainermCody:
 
 .BeatenText:
 	text "Mist! Hätte ich"
-	line "nur einen"
-	cont "Drachen!"
+	line "nur einen Drachen!"
 	done
 
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Uh-oh… Sandra"
-	line "wird sauer sein…"
+	text "Uh-oh… Sandra wird"
+	line "sauer sein…"
 	done
 
 .SeenText:

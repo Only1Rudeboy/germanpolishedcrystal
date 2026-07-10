@@ -10,8 +10,8 @@ BikeShopPhoneCallerText:
 	line "deiner Werbung,"
 
 	para "wenn du mit"
-	line "unserem"
-	line "Fahrrad unterwegs"
+	line "unserem Fahrrad"
+	cont "unterwegs"
 
 	para "bist. Als Dank"
 	line "behalte das Rad!"

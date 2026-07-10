@@ -194,10 +194,10 @@ MrPokemonIntroText1:
 	text "Hallo! Du musst"
 	line "<PLAYER> sein."
 
-	para "PROF. LIND"
-	line "sagte,"
-	line "dass du vorbei-"
-	cont "kommen würdest."
+	para "PROF. LIND sagte,"
+	line "dass du"
+	cont "vorbeikommen"
+	cont "würdest."
 	done
 
 
@@ -206,8 +206,8 @@ MrPokemonIntroText1:
 
 MrPokemonIntroText2:
 	text "PROF. LIND soll"
-	line "das hier unter-"
-	cont "suchen."
+	line "das hier"
+	cont "untersuchen."
 	done
 
 
@@ -220,21 +220,20 @@ MrPokemonIntroText3:
 	cont "#mon-PENSION "
 	cont "leitet."
 
-	para "Sie gaben mir"
-	line "das EI."
+	para "Sie gaben mir das"
+	line "EI."
 
 	para "Ich war derart"
 	line "fasziniert, dass"
 	cont "ich PROF. LIND"
-	cont "ei-"
-	cont "ne E-Mail"
+	cont "eine E-Mail"
 	cont "schrieb."
 
-	para "Was die Entwick-"
-	line "lung von #mon"
-	cont "betrifft, ist"
-	cont "PROF. LIND eine"
-	cont "Kapazität."
+	para "Was die"
+	line "Entwicklung von"
+	cont "#mon betrifft,"
+	cont "ist PROF. LIND"
+	cont "eine Kapazität."
 	done
 
 
@@ -243,8 +242,7 @@ MrPokemonIntroText3:
 
 MrPokemonIntroText4:
 	text "Sogar PROF. EICH"
-	line "schätzt ihn"
-	cont "sehr."
+	line "schätzt ihn sehr."
 	done
 
 
@@ -254,8 +252,7 @@ MrPokemonIntroText4:
 MrPokemonIntroText5:
 	text "Ich gehe davon"
 	line "aus, dass PROF."
-	cont "LIND mehr"
-	cont "darüber"
+	cont "LIND mehr darüber"
 	cont "weiß."
 	done
 
@@ -264,13 +261,12 @@ MrPokemonIntroText5:
 
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "Kehrst du zu"
-	line "PROF."
+	text "Kehrst du zu PROF."
 	line "LIND zurück?"
 
-	para "Dein #mon"
-	line "sieht müde aus."
-	cont "Du solltest eine"
+	para "Dein #mon sieht"
+	line "müde aus. Du"
+	cont "solltest eine"
 	cont "kurze Pause"
 	cont "einlegen."
 	done
@@ -288,8 +284,7 @@ MrPokemonText_OddSouvenir:
 	cont "zu den Orangen"
 	cont "Inseln bekommen."
 
-	para "Dort habe ich"
-	line "auch"
+	para "Dort habe ich auch"
 	line "seltsam geformte"
 	cont "#mon gesehen!"
 
@@ -318,8 +313,7 @@ MrPokemonText_AlwaysNewDiscoveries:
 	text "Das Leben ist"
 	line "schön! Es gibt"
 
-	para "immer etwas"
-	line "Neues"
+	para "immer etwas Neues"
 	line "zu entdecken!"
 	done
 
@@ -328,30 +322,24 @@ MrPokemonText_AlwaysNewDiscoveries:
 
 
 MrPokemonsHouse_OakText1:
-	text "EICH: Aha! Du"
-	line "bist"
+	text "EICH: Aha! Du bist"
 	line "also <PLAYER>!"
 
-	para "Mein Name"
-	line "ist PROF. EICH!"
-	cont "Ich bin von"
-	cont "Beruf"
+	para "Mein Name ist"
+	line "PROF. EICH! Ich"
+	cont "bin von Beruf"
 	cont "#mon-Forscher."
 
-	para "Ich besuche"
-	line "gerade"
+	para "Ich besuche gerade"
 	line "meinen alten"
-	cont "Freund MR. #-"
-	cont "MON."
+	cont "Freund MR."
+	cont "#mon."
 
-	para "Ich hörte, du"
-	line "hast"
+	para "Ich hörte, du hast"
 	line "etwas für PROF."
 
-	para "LIND besorgt,"
-	line "also"
-	line "habe ich"
-	cont "gewartet."
+	para "LIND besorgt, also"
+	line "habe ich gewartet."
 
 	para "Oh! Was ist das?"
 	line "Ein seltenes"
@@ -359,12 +347,10 @@ MrPokemonsHouse_OakText1:
 
 	para "Mal sehen…"
 
-	para "Hm, ich"
-	line "verstehe!"
+	para "Hm, ich verstehe!"
 
 	para "Ich weiß, warum"
-	line "PROF. LIND dir"
-	cont "ein"
+	line "PROF. LIND dir ein"
 
 	para "#mon für die"
 	line "Besorgung gab."
@@ -375,8 +361,7 @@ MrPokemonsHouse_OakText1:
 	para "mich sind #mon"
 	line "unsere Freunde."
 
-	para "Er erkannte,"
-	line "dass"
+	para "Er erkannte, dass"
 	line "du deine #mon"
 
 	para "liebevoll und"
@@ -386,8 +371,8 @@ MrPokemonsHouse_OakText1:
 	para "…Ah!"
 
 	para "Du scheinst"
-	line "zuver-"
-	line "lässig zu sein."
+	line "zuverlässig zu"
+	cont "sein."
 
 	para "Möchtest du mir"
 	line "auch helfen?"
@@ -397,13 +382,11 @@ MrPokemonsHouse_OakText1:
 	cont "des #DEX."
 
 	para "Er erfaßt"
-	line "automatisch"
-	cont "Daten"
+	line "automatisch Daten"
 
-	para "über #mon,"
-	line "die man gefangen"
-	cont "oder gesehen"
-	cont "hat!"
+	para "über #mon, die"
+	line "man gefangen oder"
+	cont "gesehen hat!"
 
 	para "Er ist eine Art"
 	line "Hi-Tech-Lexikon!"
@@ -426,8 +409,7 @@ MrPokemonsHouse_OakText2:
 
 	para "Ich muss nach"
 	line "DUKATIA CITY zu"
-	cont "meiner"
-	cont "Radioshow."
+	cont "meiner Radioshow."
 
 	para "<PLAYER>, ich"
 	line "zähle auf dich!"
@@ -439,24 +421,19 @@ MrPokemonsHouse_OakText2:
 
 MrPokemonText_GimmeTheScale:
 	text "Hm? Diese HAUT!"
-	line "Was ist das?"
-	cont "Ein rotes"
-	cont "GARADOS?"
+	line "Was ist das? Ein"
+	cont "rotes GARADOS?"
 
 	para "Das ist selten!"
-	line "Ich muss es"
-	cont "haben…"
+	line "Ich muss es haben…"
 
-	para "<PLAYER>,"
-	line "möchtest"
+	para "<PLAYER>, möchtest"
 	line "du es tauschen?"
 
 	para "Ich kann dir den"
-	line "EP-TEILER, den"
-	cont "mir"
+	line "EP-TEILER, den mir"
 
-	para "PROF. EICH"
-	line "gegeben"
+	para "PROF. EICH gegeben"
 	line "hat, anbieten."
 	done
 
@@ -466,8 +443,7 @@ MrPokemonText_GimmeTheScale:
 
 MrPokemonText_GotShinyDitto:
 	text "<PLAYER> erhält"
-	line "ein"
-	line "#mon."
+	line "ein #mon."
 	done
 MrPokemonText_SentToPC:
 	text "Das #mon wurde"
@@ -478,8 +454,7 @@ MrPokemonText_SentToPC:
 
 MrPokemonText_PartyAndBoxFull:
 	text "Du hast keinen"
-	line "Platz dafür,"
-	cont "nicht"
+	line "Platz dafür, nicht"
 	cont "einmal in deiner"
 	cont "Box!"
 	done
@@ -495,13 +470,13 @@ MrPokemonText_Disappointed:
 
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "Das sind auslän-"
-	line "dische"
+	text "Das sind"
+	line "ausländische"
 	cont "Zeitungen."
 
 	para "Ich kann die"
-	line "Schlagzeilen"
-	cont "nicht lesen…"
+	line "Schlagzeilen nicht"
+	cont "lesen…"
 	done
 
 
@@ -511,8 +486,7 @@ MrPokemonsHouse_ForeignMagazinesText:
 MrPokemonsHouse_BrokenComputerText:
 	text "Dies ist ein"
 	line "großer Computer."
-	cont "Hm, er ist"
-	cont "kaputt."
+	cont "Hm, er ist kaputt."
 	done
 
 
@@ -520,10 +494,8 @@ MrPokemonsHouse_BrokenComputerText:
 
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "Ein ganzer"
-	line "Stapel"
-	line "seltsamer"
-	cont "Münzen!"
+	text "Ein ganzer Stapel"
+	line "seltsamer Münzen!"
 
 	para "Vielleicht sind"
 	line "sie aus einem"
@@ -543,6 +515,6 @@ MrPokemonsHouse_CabinetText:
 
 MrPokemonsHouse_RedScaleCabinetText:
 	text "Eines davon ist"
-	line "die glänzende"
-	line "rote Schuppe!"
+	line "die glänzende rote"
+	cont "Schuppe!"
 	done

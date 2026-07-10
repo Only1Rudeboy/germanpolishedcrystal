@@ -69,8 +69,8 @@ GoldenrodHarborTutorHyperVoiceScript:
 	jumpthisopenedtext
 
 	text "So! Dein #mon"
-	line "kennt jetzt"
-	cont "Hyper Voice!"
+	line "kennt jetzt Hyper"
+	cont "Voice!"
 	done
 
 GenericTrainerFisherPaton:
@@ -88,26 +88,22 @@ TrainerSwimmerfKatie:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Warum ist das"
-	line "Meer"
+	text "Warum ist das Meer"
 	line "blau?"
 
 	para "Man sagt, es"
-	line "spie-"
-	line "gelt den Himmel…"
+	line "spiegelt den"
+	cont "Himmel…"
 
-	para "Aber warum ist"
-	line "der"
+	para "Aber warum ist der"
 	line "Himmel blau?"
 	done
 
 GenericTrainerSwimmermJames:
 	generictrainer SWIMMERM, JAMES, EVENT_BEAT_SWIMMERM_JAMES, SwimmermJamesSeenText, SwimmermJamesBeatenText
 
-	text "Kann ein"
-	line "Schwimmer"
-	line "nicht auch mal"
-	cont "ein"
+	text "Kann ein Schwimmer"
+	line "nicht auch mal ein"
 	cont "Ruderboot nehmen?"
 	done
 
@@ -115,8 +111,7 @@ GenericTrainerSwimmermJames:
 GoldenrodHarborMagikarpScript:
 	jumpthistext
 
-	text "Das ist ein"
-	line "Fisch-"
+	text "Das ist ein Fisch-"
 	line "#mon! Huh?"
 
 	para "Es ist nur eine"
@@ -298,8 +293,8 @@ GoldenrodHarborSailboatScript:
 	waitsfx
 	jumpthistext
 
-	text "Es ist ein Segel-"
-	line "boot namens"
+	text "Es ist ein"
+	line "Segelboot namens"
 	cont "SeaKing."
 	done
 
@@ -312,8 +307,8 @@ GoldenrodHarborFisherText:
 	cont "verscheucht."
 
 	para "Aber über die"
-	line "Wellen"
-	line "hinweg muss man"
+	line "Wellen hinweg muss"
+	cont "man"
 
 	para "schon laut sein,"
 	line "wenn man gehört"
@@ -338,8 +333,7 @@ Text_GoldenrodHarborTutorQuestion:
 
 
 FisherPatonSeenText:
-	text "Der Fisch, den"
-	line "ich"
+	text "Der Fisch, den ich"
 	line "gefangen habe,"
 	cont "hing"
 
@@ -353,12 +347,9 @@ FisherPatonBeatenText:
 	done
 
 SwimmerfKatieSeenText:
-	text "Im tiefblauen"
-	line "Meer"
-	line "zu schwimmen"
-	cont "fühlt"
-	cont "sich wunderbar"
-	cont "an!"
+	text "Im tiefblauen Meer"
+	line "zu schwimmen fühlt"
+	cont "sich wunderbar an!"
 	done
 
 SwimmerfKatieBeatenText:
@@ -369,20 +360,19 @@ SwimmerfKatieBeatenText:
 
 SwimmermJamesSeenText:
 	text "Ich kann"
-	line "schwimmen,"
-	line "aber auch rudern!"
+	line "schwimmen, aber"
+	cont "auch rudern!"
 	done
 
 SwimmermJamesBeatenText:
 	text "Vielleicht kann"
-	line "ich"
-	line "nicht kämpfen…"
+	line "ich nicht kämpfen…"
 	done
 
 GoldenrodHarborDollVendorText:
 	text "Willkommen! Ich"
-	line "hab"
-	line "niedliche Wasser-"
+	line "hab niedliche"
+	cont "Wasser-"
 
 	para "puppen zum"
 	line "Verkauf."
@@ -405,8 +395,8 @@ GoldenrodHarborMarillDollText:
 	done
 
 GoldenrodHarborMarillDollSentText:
-	text "Marill-Puppe"
-	line "wurde nach Hause"
+	text "Marill-Puppe wurde"
+	line "nach Hause"
 	cont "geschickt."
 	done
 
@@ -427,18 +417,16 @@ GoldenrodHarborNoMoneyText:
 	done
 
 GoldenrodHarborAlreadyBoughtText:
-	text "Das hast du"
-	line "schon!"
+	text "Das hast du schon!"
 	done
 
 GoldenrodHarborPlantVendorText:
 	text "Willkommen! Ich"
-	line "hab"
-	line "eine Auswahl"
+	line "hab eine Auswahl"
 
 	para "exotischer"
-	line "Pflanzen"
-	line "für dein Zuhause."
+	line "Pflanzen für dein"
+	cont "Zuhause."
 	done
 
 GoldenrodHarborMagnaPlantText:
@@ -497,8 +485,8 @@ GoldenrodHarborAdvancedTipsSignText:
 	para "Automaten und"
 	line "bekommst zwei"
 
-	para "Getränke zum"
-	line "Preis von einem!"
+	para "Getränke zum Preis"
+	line "von einem!"
 	done
 
 GoldenrodHarborCrateSignText:

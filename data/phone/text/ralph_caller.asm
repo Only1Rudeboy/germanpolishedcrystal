@@ -1,6 +1,5 @@
 RalphNeglectingKidsText:
-	text "Ich verbringe"
-	line "mehr"
+	text "Ich verbringe mehr"
 	line "Zeit mit "
 	text_ram wStringBuffer4
 
@@ -17,8 +16,7 @@ RalphDefeatedMonText:
 	text "."
 
 	para "Mein Kind lachte,"
-	line "es könnte das"
-	cont "auch"
+	line "es könnte das auch"
 	cont "leicht schaffen."
 
 	para "Es wird echt"
@@ -26,8 +24,7 @@ RalphDefeatedMonText:
 	done
 
 RalphLostAMonText:
-	text "Gestern entkam"
-	line "ein"
+	text "Gestern entkam ein"
 	line "wildes "
 	text_ram wStringBuffer4
 
@@ -45,26 +42,23 @@ RalphLostAMonText:
 
 RalphBattleRematchText:
 	text "Wie wär's mit"
-	line "einem"
-	line "Kampf?"
+	line "einem Kampf?"
 
 	para "Gut, du machst"
-	line "mit!"
-	line "Für ein Kind bist"
+	line "mit! Für ein Kind"
+	cont "bist"
 
 	para "du ziemlich"
 	line "einsichtig."
 
 	para ""
 	text_ram wStringBuffer5
-	text " —"
-	line "da treffen wir"
-	cont "uns!"
+	text " — da treffen wir"
+	line "uns!"
 	done
 
 RalphHangUpText:
-	text "Ruf auch mal"
-	line "deine"
+	text "Ruf auch mal deine"
 	line "Mama an!"
 	done
 
@@ -74,26 +68,23 @@ RalphItemText:
 
 	para "Tut mir leid!"
 	line "Sieh mal,"
-	line ""
+	cont ""
 	text_ram wStringBuffer4
 
 	para "beißen wie"
-	line "verrückt"
-	line "auf "
+	line "verrückt auf "
 	text_ram wStringBuffer5
 	text "!"
 
 	para "Aua! Eins hat"
-	line "mich!"
-	line "Gestochen!"
+	line "mich! Gestochen!"
 
 	para "Die sind richtig"
 	line "wild! <PLAYER>,"
 
 	para "du musst das"
-	line "sehen!"
-	line "Mach dich bereit"
-	cont "zum Angeln!"
+	line "sehen! Mach dich"
+	cont "bereit zum Angeln!"
 	done
 
 RalphNoItemText:
@@ -107,15 +98,13 @@ RalphNoItemText:
 	done
 
 RalphReminderText:
-	text "Wo bist du?"
-	line "Ich warte auf"
+	text "Wo bist du? Ich"
+	line "warte auf"
 
 	para ""
 	text_ram wStringBuffer5
-	text "."
-	line "Ältere nicht"
-	cont "warten"
-	cont "lassen!"
+	text ". Ältere nicht"
+	line "warten lassen!"
 	done
 
 RalphHurryText:

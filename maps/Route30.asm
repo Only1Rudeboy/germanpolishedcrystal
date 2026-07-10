@@ -183,24 +183,21 @@ TrainerYoungsterJoey:
 GenericTrainerYoungsterMikey:
 	generictrainer YOUNGSTER, MIKEY, EVENT_BEAT_YOUNGSTER_MIKEY, YoungsterMikeySeenText, YoungsterMikeyBeatenText
 
-	text "Ein guter"
-	line "Trainer"
+	text "Ein guter Trainer"
 	line "zu werden ist"
 	cont "nicht einfach."
 
 	para "Ich kämpfe gegen"
-	line "andere Trainer,"
-	cont "um"
-	cont "besser zu"
-	cont "werden."
+	line "andere Trainer, um"
+	cont "besser zu werden."
 	done
 GenericTrainerBug_catcherDon:
 	generictrainer BUG_CATCHER, DON, EVENT_BEAT_BUG_CATCHER_DON, Bug_catcherDonSeenText, Bug_catcherDonBeatenText
 
 	text "Mir sind während"
 	line "des Fangens die"
-	cont "#BÄLLE aus-"
-	cont "gegangen."
+	cont "#BÄLLE"
+	cont "ausgegangen."
 
 	para "Ich hätte mehr"
 	line "kaufen sollen…"
@@ -225,56 +222,48 @@ Text_UseTackle:
 
 Text_ThisIsABigBattle:
 	text "Was? Das ist ein"
-	line "harter Kampf!"
-	cont "Lass mich in"
-	cont "Ruhe!"
+	line "harter Kampf! Lass"
+	cont "mich in Ruhe!"
 	done
 
 
 
 YoungsterJoey1SeenText:
-	text "Ich habe"
-	line "verloren!"
-	line "Ich versuche,"
-	cont "mehr"
+	text "Ich habe verloren!"
+	line "Ich versuche, mehr"
 	cont "#mon zu finden."
 
 	para "Halt! Du siehst"
-	line "schwach aus!"
-	cont "Los,"
-	cont "lass uns"
-	cont "kämpfen!"
+	line "schwach aus! Los,"
+	cont "lass uns kämpfen!"
 	done
 
 
 
 YoungsterJoey1BeatenText:
-	text "Ahh! Wieder ver-"
-	line "loren! Mist!"
+	text "Ahh! Wieder"
+	line "verloren! Mist!"
 	done
 
 
 
 YoungsterJoey1AfterText:
-	text "Benötige ich"
-	line "noch"
+	text "Benötige ich noch"
 	line "mehr #mon, um"
 
 	para "noch besser zu"
 	line "kämpfen?"
 
-	para "Nein! Ich"
-	line "behalte"
-	line "dieses, egal,"
-	cont "was"
+	para "Nein! Ich behalte"
+	line "dieses, egal, was"
 	cont "passiert!"
 	done
 
 
 
 YoungsterMikeySeenText:
-	text "Du bist ein #-"
-	line "MON-Trainer,"
+	text "Du bist ein"
+	line "#mon-Trainer,"
 	cont "oder?"
 
 	para "Dann musst du"
@@ -293,13 +282,13 @@ YoungsterMikeyBeatenText:
 
 Bug_catcherDonSeenText:
 	text "Anstatt eines"
-	line "Käfer-#mon"
-	cont "traf ich auf"
-	cont "einen Trainer!"
+	line "Käfer-#mon traf"
+	cont "ich auf einen"
+	cont "Trainer!"
 	done
 Bug_catcherDonBeatenText:
-	text "Argh! Du bist"
-	line "zu stark!"
+	text "Argh! Du bist zu"
+	line "stark!"
 	done
 Route30YoungsterText:
 	text "Die Schienen"
@@ -315,10 +304,8 @@ Route30CooltrainerFText:
 	line "Trainer."
 
 	para "Wenn du einem in"
-	line "die Augen"
-	cont "siehst,"
-	cont "dann bereite"
-	cont "dich"
+	line "die Augen siehst,"
+	cont "dann bereite dich"
 	cont "auf einen Kampf"
 	cont "vor."
 	done
@@ -335,16 +322,16 @@ Route30SignText:
 
 
 MrPokemonsHouseDirectionsSignText:
-	text "Das Haus von"
-	line "MR. #mon?"
-	cont "Immer geradeaus."
+	text "Das Haus von MR."
+	line "#mon? Immer"
+	cont "geradeaus."
 	done
 
 
 
 MrPokemonsHouseSignText:
-	text "Das HAUS von"
-	line "MR. #mon"
+	text "Das HAUS von MR."
+	line "#mon"
 	done
 
 
@@ -355,8 +342,7 @@ BerryMastersHouseSignText:
 	done
 
 Route30TrainerTipsText:
-	text "TIPPS für"
-	line "TRAINER"
+	text "TIPPS für TRAINER"
 
 	para "Du sollst keine"
 	line "#mon stehlen!"
@@ -370,8 +356,7 @@ Route30TrainerTipsText:
 
 
 Route30AdvancedTipsText:
-	text "Erweiterte"
-	line "Tipps!"
+	text "Erweiterte Tipps!"
 
 	para "Drücke im Kampf"
 	line "SELECT, um das"
@@ -379,27 +364,24 @@ Route30AdvancedTipsText:
 	cont "wechseln!"
 
 	para "Drücke START, um"
-	line "ein Item erneut"
-	cont "zu nutzen!"
+	line "ein Item erneut zu"
+	cont "nutzen!"
 
-	para "Oder drücke B,"
-	line "um"
+	para "Oder drücke B, um"
 	line "zu fliehen oder"
 	cont "aufzugeben!"
 
 	para "Wenn du eine"
-	line "Attacke"
-	line "auswählst,"
+	line "Attacke auswählst,"
 
-	para "drücke SELECT,"
-	line "um sie mit einer"
+	para "drücke SELECT, um"
+	line "sie mit einer"
 	cont "anderen zu"
 	cont "tauschen, oder"
 
-	para "drücke START,"
-	line "um ihre"
-	line "Beschreibung zu"
-	cont "sehen!"
+	para "drücke START, um"
+	line "ihre Beschreibung"
+	cont "zu sehen!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
@@ -407,8 +389,7 @@ YoungsterJoeyText_GiveHPUpAfterBattle:
 	line "Bist du stark!"
 
 	para "Ach, fast vergaß"
-	line "ich, dass ich"
-	cont "dir"
+	line "ich, dass ich dir"
 	cont "das geben muss."
 
 	para "Werde damit noch"

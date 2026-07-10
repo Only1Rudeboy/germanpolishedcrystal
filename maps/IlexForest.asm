@@ -133,9 +133,9 @@ IlexForestCharcoalApprenticeScript:
 	setscene SCENE_ILEXFOREST_FARFETCHD_QUEST
 	jumpthistextfaceplayer
 
-	text "Oh nein… Mein"
-	line "Chef wird stink-"
-	cont "sauer sein…"
+	text "Oh nein… Mein Chef"
+	line "wird stinksauer"
+	cont "sein…"
 
 	para "Das PORENTA, das"
 	line "für die Holz-"
@@ -424,8 +424,8 @@ IlexForestTutorHeadbuttScript:
 	jumpthisopenedtext
 
 	text "Ach, aber du hast"
-	line "keine Silber-"
-	cont "blätter."
+	line "keine"
+	cont "Silberblätter."
 
 	para "Manchmal findest"
 	line "du sie bei wilden"
@@ -440,9 +440,9 @@ IlexForestTutorHeadbuttScript:
 
 	text "Benutze KOPFNUSS,"
 	line "um Bäume zu"
-	cont "schütteln. Manch-"
-	cont "mal fallen schla-"
-	cont "fende #mon"
+	cont "schütteln."
+	cont "Manchmal fallen"
+	cont "schlafende #mon"
 	cont "herunter."
 	done
 
@@ -450,8 +450,7 @@ GenericTrainerBugCatcherWayne:
 	generictrainer BUG_CATCHER, WAYNE, EVENT_BEAT_BUG_CATCHER_WAYNE, BugCatcherWayneSeenText, BugCatcherWayneBeatenText
 
 	text "Ein #mon, das"
-	line "ich noch nie"
-	cont "zuvor"
+	line "ich noch nie zuvor"
 
 	para "sah, fiel aus dem"
 	line "Baum, als ich"
@@ -900,24 +899,22 @@ Text_Kwaaaa:
 Text_CharcoalMasterIntro:
 	text "Ah! Mein PORENTA!"
 
-	para "Du hast es für"
-	line "uns"
+	para "Du hast es für uns"
 	line "gefunden?"
 
-	para "Wir können ohne"
-	line "es nicht den"
+	para "Wir können ohne es"
+	line "nicht den"
 
 	para "ZERSCHNEIDER"
-	line "einsetzen, mit"
-	cont "dem"
+	line "einsetzen, mit dem"
 	cont "wir Bäume fällen,"
 	cont "um Holzkohle zu"
 	cont "finden."
 
 	para "Danke!"
 
-	para "Wie kann ich"
-	line "dir danken…"
+	para "Wie kann ich dir"
+	line "danken…"
 
 	para "Ah genau! Nimm"
 	line "dies."
@@ -964,14 +961,14 @@ Text_CharcoalMasterTalkAfter:
 
 
 Text_HeadbuttIntro:
-	text "Was ich mache?"
-	line "Ich setze"
+	text "Was ich mache? Ich"
+	line "setze"
 
 	para "KOPFNUSS ein, um"
 	line "Bäume zu"
 
-	para "schütteln."
-	line "Das macht Spaß!"
+	para "schütteln. Das"
+	line "macht Spaß!"
 
 	para "Probier es doch"
 	line "auch einmal!"
@@ -983,9 +980,9 @@ Text_HeadbuttIntro:
 
 Text_HeadbuttIntro2:
 	text "Ach, und wenn"
-	line "keins"
-	line "deiner #mon"
-	cont "KOPFNUSS kann?"
+	line "keins deiner"
+	cont "#mon KOPFNUSS"
+	cont "kann?"
 
 	para "Kein Problem!"
 	done
@@ -1009,8 +1006,7 @@ Text_IlexForestTutorQuestion:
 
 
 Text_IlexForestLass:
-	text "Ist dem"
-	line "Waldpatron"
+	text "Ist dem Waldpatron"
 	line "etwas zugestoßen?"
 	done
 
@@ -1019,8 +1015,8 @@ Text_IlexForestLass:
 
 
 Text_IlexForestMossRock:
-	text "Der Felsen ist"
-	line "mit Moos bedeckt."
+	text "Der Felsen ist mit"
+	line "Moos bedeckt."
 
 	para "Er fühlt sich"
 	line "angenehm kühl an."
@@ -1028,12 +1024,10 @@ Text_IlexForestMossRock:
 
 IlexForestSignpost:
 	text "Der STEINEICHEN-"
-	line "WALD ist so"
-	cont "dicht,"
+	line "WALD ist so dicht,"
 
 	para "dass man den"
-	line "Himmel nicht"
-	cont "sehen"
+	line "Himmel nicht sehen"
 	cont "kann."
 
 	para "Halte Ausschau"
@@ -1043,9 +1037,9 @@ IlexForestSignpost:
 IlexForestTrainerTips:
 	text "Trainer-Tipps"
 
-	para "Solange du eine"
-	line "VM in deinem"
-	cont "RUCKSACK hast,"
+	para "Solange du eine VM"
+	line "in deinem RUCKSACK"
+	cont "hast,"
 
 	para "und ein #mon im"
 	line "Team, das die VM"
@@ -1053,9 +1047,8 @@ IlexForestTrainerTips:
 	para "einsetzen kann,"
 	line "kannst du sie"
 
-	para "auch außerhalb"
-	line "von Kämpfen"
-	cont "nutzen."
+	para "auch außerhalb von"
+	line "Kämpfen nutzen."
 
 	para "Du musst sie ihm"
 	line "nicht mal"
@@ -1089,8 +1082,7 @@ Text_ShrineCelebiEvent:
 	line "scheint, als ob"
 
 	para "der GS-BALL genau"
-	line "hier hinein"
-	cont "passt."
+	line "hier hinein passt."
 
 	para "Den GS-BALL hier"
 	line "hineinlegen?"
@@ -1121,11 +1113,9 @@ Text_KurtCaughtCelebi:
 	cont "waren doch wahr."
 
 	para "Ich fühle mich"
-	line "dadurch"
-	cont "beflügelt."
+	line "dadurch beflügelt."
 
-	para "Es spornt mich"
-	line "an,"
+	para "Es spornt mich an,"
 	line "bessere BÄLLE zu"
 	cont "fertigen!"
 
@@ -1144,23 +1134,23 @@ Text_CelebiDancedBeautifully:
 
 Text_IlexForestLyraHello:
 	text "Lyra: Hi,"
-	line "<PLAYER>."
-	line "Kennst du die"
+	line "<PLAYER>. Kennst"
+	cont "du die"
 
 	para "Legende vom"
 	line "SCHREIN?"
 
 	para "Man sagt, dass"
-	line "Leute verschwin-"
-	cont "den,"
+	line "Leute"
+	cont "verschwinden,"
 
 	para "wenn sie ihn"
 	line "stören."
 	done
 
 Text_IlexForestLyraWhatWasThat:
-	text "Lyra: …"
-	line "Was war das?"
+	text "Lyra: … Was war"
+	line "das?"
 	done
 
 Text_IlexForestLyraWorried:
@@ -1177,29 +1167,27 @@ Text_IlexForestLyraWorried:
 
 	para "Ich dachte, du"
 	line "bleibst für immer"
-	line "in der Vergangen-"
+	cont "in der Vergangen-"
 	cont "heit stecken!"
 
 	para "…"
 
 	para "Wenigstens sind"
 	line "wir beide wieder"
-	line "sicher in unserer"
+	cont "sicher in unserer"
 	cont "Zeit zurück."
 	done
 
 Text_IlexForestLyraArmorSuit:
 	text "Lyra: Was für ein"
 	line "seltsames"
-	line "Abenteuer hattest"
+	cont "Abenteuer hattest"
 	cont "du allein?"
 
-	para "Das hast du"
-	line "fallen"
-	line "lassen, als"
-	cont "Celebi"
-	cont "dich zurückbrach-"
-	cont "te…"
+	para "Das hast du fallen"
+	line "lassen, als Celebi"
+	cont "dich"
+	cont "zurückbrachte…"
 	done
 
 Text_IlexForestLyraGoodbye:
@@ -1207,8 +1195,7 @@ Text_IlexForestLyraGoodbye:
 	line "echt seltsamer"
 	cont "Tag."
 
-	para "Ich bin"
-	line "erschöpft,"
+	para "Ich bin erschöpft,"
 	line "ich gehe jetzt"
 	cont "besser."
 
@@ -1258,7 +1245,7 @@ endc
 	para "So lockt man"
 	line "#mon auf dem"
 
-	para "gleichen Level"
-	line "wie ich an, für"
-	cont "faire Kämpfe."
+	para "gleichen Level wie"
+	line "ich an, für faire"
+	cont "Kämpfe."
 	done

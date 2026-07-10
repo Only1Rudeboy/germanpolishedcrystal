@@ -20,6 +20,6 @@ ViridianForestPewterGateOfficerText:
 	text "Gehst du nach"
 	line "MARMORIA CITY?"
 
-	para "Schau unbedingt"
-	line "im Museum vorbei!"
+	para "Schau unbedingt im"
+	line "Museum vorbei!"
 	done

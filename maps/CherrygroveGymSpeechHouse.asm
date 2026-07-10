@@ -16,17 +16,17 @@ CherrygroveGymSpeechHouse_MapScriptHeader:
 	object_event  5,  5, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveGymSpeechHouseBugCatcherText, -1
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "Möchtest du he-"
-	line "rausfinden, wie"
+	text "Möchtest du"
+	line "herausfinden, wie"
 
 	para "gut du als #-"
 	line "MON-Trainer bist?"
 
 	para "Dann solltest du"
 	line "alle #mon ARE-"
-	cont "NEN in JOHTO auf-"
-	cont "suchen und ORDEN"
-	cont "sammeln."
+	cont "NEN in JOHTO"
+	cont "aufsuchen und"
+	cont "ORDEN sammeln."
 	done
 
 
@@ -39,8 +39,7 @@ CherrygroveGymSpeechHouseBugCatcherText:
 	para "Ich werde meine"
 	line "#mon gegen"
 
-	para "die meiner"
-	line "Freunde"
+	para "die meiner Freunde"
 	line "antreten lassen,"
 
 	para "damit sie stärker"

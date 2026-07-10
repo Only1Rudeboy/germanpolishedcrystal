@@ -80,10 +80,9 @@ KimonoGirlAmiScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "Meine Cousinen"
-	line "und ich tanzen"
-	line "in"
-	cont "TEAK CITY, aber"
+	text "Meine Cousinen und"
+	line "ich tanzen in TEAK"
+	cont "CITY, aber"
 
 	para "wir reisen auch"
 	line "gern umher."
@@ -95,12 +94,11 @@ KimonoGirlAmiScript:
 
 	para "Kennst du meine"
 	line "fünf tanzenden"
-	cont "Cousinen in"
-	cont "TEAK CITY?"
+	cont "Cousinen in TEAK"
+	cont "CITY?"
 
-	para "Sag Bescheid,"
-	line "wenn du sie"
-	cont "triffst."
+	para "Sag Bescheid, wenn"
+	line "du sie triffst."
 	done
 
 .SeenText:
@@ -125,8 +123,8 @@ KimonoGirlAmiScript:
 	line "ausgewogener"
 	cont "Trainer."
 
-	para "Bitte nutze"
-	line "dieses Item!"
+	para "Bitte nutze dieses"
+	line "Item!"
 	done
 
 SnowtopMountainInsideSkierScript:
@@ -164,8 +162,8 @@ SnowtopMountainInsideTutorIcyWindScript:
 	jumpthisopenedtext
 
 	text "OK! Dein #mon"
-	line "kennt jetzt"
-	cont "Icy Wind!"
+	line "kennt jetzt Icy"
+	cont "Wind!"
 	done
 
 SnowtopMountainInsideSkierText:
@@ -174,8 +172,7 @@ SnowtopMountainInsideSkierText:
 
 	para "können wehtun,"
 	line "wenn du nicht für"
-	cont "Eiswetter"
-	cont "gerüstet"
+	cont "Eiswetter gerüstet"
 	cont "bist."
 
 	para "Das könnte eine"
@@ -187,11 +184,10 @@ Text_SnowtopMountainInsideTutorIcyWind:
 	text "Ich bringe einem"
 	line "deiner #mon"
 
-	para "Icy Wind bei,"
-	line "wenn du mir ein"
+	para "Icy Wind bei, wenn"
+	line "du mir ein"
 
-	para "Silberblatt"
-	line "gibst."
+	para "Silberblatt gibst."
 	done
 
 

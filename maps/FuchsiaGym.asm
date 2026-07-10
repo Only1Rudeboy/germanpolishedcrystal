@@ -64,8 +64,8 @@ FuchsiaGymJanineScript:
 	jumpthisopenedtext
 
 	text "Das ist Poison"
-	line "Jab,"
-	line "eine starke Gift-"
+	line "Jab, eine starke"
+	cont "Gift-"
 
 	para "Attacke, die das"
 	line "Ziel vergiften"
@@ -177,8 +177,8 @@ FuchsiaGymGuyScript:
 	iftrue_jumptextfaceplayer FuchsiaGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP"
-	line "in spe!"
+	text "He! Ein CHAMP in"
+	line "spe!"
 
 	para "Nanu! Sieh dich"
 	line "mal um. Alle"
@@ -221,8 +221,8 @@ JanineText_DisappointYou:
 	line "dich enttäuschen"
 	cont "zu müssen…"
 
-	para "Ich mache"
-	line "nur Witze!"
+	para "Ich mache nur"
+	line "Witze!"
 
 	para "Jetzt geht es"
 	line "rund!"
@@ -248,15 +248,13 @@ JanineText_ToughOne:
 
 
 JanineText_ToxicSpeech:
-	text "JANINA: Du bist"
-	line "so"
+	text "JANINA: Du bist so"
 	line "stark! Ich habe"
 	cont "ein Geschenk für"
 	cont "dich!"
 
 	para "Es ist TOXIN, ein"
-	line "sehr starkes"
-	cont "Gift,"
+	line "sehr starkes Gift,"
 
 	para "das dem Opfer"
 	line "ständig KP"
@@ -284,8 +282,7 @@ LassAmandaBeforeText:
 	text "Hehehe!"
 
 	para "Ich bin JANINA,"
-	line "die"
-	cont "ARENALEITERIN!"
+	line "die ARENALEITERIN!"
 
 	para "Bin ich doch"
 	line "nicht! Reinge-"
@@ -326,10 +323,8 @@ LassLindaAfterText:
 PicnickerCindyBeforeText:
 	text "Ich bin JANINA!"
 
-	para "Woher wusstest"
-	line "du,"
-	line "dass ich die"
-	cont "Echte"
+	para "Woher wusstest du,"
+	line "dass ich die Echte"
 	cont "bin?"
 
 	para "Auf in den Kampf!"
@@ -338,8 +333,8 @@ PicnickerCindyBeforeText:
 
 
 PicnickerCindyBeatenText:
-	text "Mist! Ich"
-	line "wollte gewinnen!"
+	text "Mist! Ich wollte"
+	line "gewinnen!"
 	done
 
 
@@ -380,6 +375,6 @@ CamperBarryAfterText:
 FuchsiaGymGuyWinText:
 	text "Das war ein"
 	line "hervorragender"
-	cont "Kampf, Trainer"
-	cont "aus JOHTO!"
+	cont "Kampf, Trainer aus"
+	cont "JOHTO!"
 	done

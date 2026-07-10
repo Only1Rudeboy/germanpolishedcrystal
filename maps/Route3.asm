@@ -63,8 +63,7 @@ GenericTrainerYoungsterJimmy:
 	generictrainer YOUNGSTER, JIMMY, EVENT_BEAT_YOUNGSTER_JIMMY, .SeenText, .BeatenText
 
 	text "Ich trage das"
-	line "ganze Jahr"
-	cont "Shorts."
+	line "ganze Jahr Shorts."
 
 	para "Das ist meine"
 	line "Auffassung von"
@@ -95,8 +94,8 @@ GenericTrainerYoungsterWarren:
 .SeenText:
 
 	text "Hmmm… Ich weiß"
-	line "nicht, was ich"
-	cont "tun soll…"
+	line "nicht, was ich tun"
+	cont "soll…"
 	done
 
 .BeatenText:
@@ -108,21 +107,20 @@ GenericTrainerYoungsterWarren:
 GenericTrainerFirebreatherOtis:
 	generictrainer FIREBREATHER, OTIS, EVENT_BEAT_FIREBREATHER_OTIS, .SeenText, .BeatenText
 
-	text "Bei Regen ist"
-	line "eine Zündung sehr"
+	text "Bei Regen ist eine"
+	line "Zündung sehr"
 	cont "schwierig…"
 	done
 .SeenText:
 
-	text "Ah! Das Wetter"
-	line "ist so schön"
-	cont "wie immer."
+	text "Ah! Das Wetter ist"
+	line "so schön wie"
+	cont "immer."
 	done
 
 .BeatenText:
 
-	text "Die Sonne"
-	line "scheint,"
+	text "Die Sonne scheint,"
 	line "dennoch bin ich"
 	cont "nass…"
 	done
@@ -131,8 +129,8 @@ GenericTrainerFirebreatherBurt:
 	generictrainer FIREBREATHER, BURT, EVENT_BEAT_FIREBREATHER_BURT, .SeenText, .BeatenText
 
 	text "Ich bin der beste"
-	line "Feuerspucker"
-	cont "in KANTO."
+	line "Feuerspucker in"
+	cont "KANTO."
 
 	para "Aber nicht der"
 	line "beste Trainer…"
@@ -145,22 +143,19 @@ GenericTrainerFirebreatherBurt:
 
 .BeatenText:
 
-	text "Wow! Das ist"
-	line "heiß!"
+	text "Wow! Das ist heiß!"
 	done
 
 GenericTrainerBlackbeltManford:
 	generictrainer BLACKBELT_T, MANFORD, EVENT_BEAT_BLACKBELT_MANFORD, .SeenText, .BeatenText
 
-	text "Du musst bei"
-	line "einem bekannten"
-	cont "Meister trainiert"
-	cont "haben!"
+	text "Du musst bei einem"
+	line "bekannten Meister"
+	cont "trainiert haben!"
 	done
 
 .SeenText:
-	text "Langsamer! Gib"
-	line "mir"
+	text "Langsamer! Gib mir"
 	line "eine Chance, dich"
 	cont "zu besiegen!"
 	done
@@ -174,8 +169,7 @@ GenericTrainerBlackbeltManford:
 GenericTrainerBlackbeltAnder:
 	generictrainer BLACKBELT_T, ANDER, EVENT_BEAT_BLACKBELT_ANDER, .SeenText, .BeatenText
 
-	text "Du bist den"
-	line "ganzen"
+	text "Du bist den ganzen"
 	line "Weg aus Johto"
 	cont "gekommen?"
 
@@ -196,16 +190,13 @@ GenericTrainerBlackbeltAnder:
 GenericTrainerHikerBruce:
 	generictrainer HIKER, BRUCE, EVENT_BEAT_HIKER_BRUCE, .SeenText, .BeatenText
 
-	text "Na gut, ich"
-	line "sollte"
+	text "Na gut, ich sollte"
 	line "meine Tasche"
-	cont "wieder"
-	cont "tragen!"
+	cont "wieder tragen!"
 	done
 
 .SeenText:
-	text "Meine Tasche"
-	line "gräbt"
+	text "Meine Tasche gräbt"
 	line "sich in meine"
 	cont "Schultern!"
 
@@ -242,32 +233,30 @@ GenericTrainerHikerDwight:
 
 .BeatenText:
 	text "Frieden — auch"
-	line "wenn ich"
-	line "verloren hab!"
+	line "wenn ich verloren"
+	cont "hab!"
 	done
 
 GenericTrainerAceDuoZacandjen1:
 	generictrainer ACE_DUO, ZACANDJEN1, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
-	text "Zac: Deine"
-	line "Zukunft sieht"
-	cont "gut aus."
+	text "Zac: Deine Zukunft"
+	line "sieht gut aus."
 	done
 
 .SeenText:
 	text "Zac: Willst du"
-	line "wirklich gegen"
-	cont "uns kämpfen?"
+	line "wirklich gegen uns"
+	cont "kämpfen?"
 
 	para "Du hast viel Mut"
-	line "für jemanden,"
-	cont "der so jung"
-	cont "ist."
+	line "für jemanden, der"
+	cont "so jung ist."
 	done
 
 .BeatenText:
-	text "Zac: Du hast"
-	line "nicht geblufft…"
+	text "Zac: Du hast nicht"
+	line "geblufft…"
 	done
 
 GenericTrainerAceDuoZacandjen2:
@@ -276,27 +265,26 @@ GenericTrainerAceDuoZacandjen2:
 	text "Jen: Ich freue"
 	line "mich darauf,"
 
-	para "zu sehen, was"
-	line "für ein Trainer"
-	cont "du wirst."
+	para "zu sehen, was für"
+	line "ein Trainer du"
+	cont "wirst."
 	done
 
 .SeenText:
-	text "Jen: Hä? Du"
-	line "willst gegen uns"
-	cont "antreten?"
-	cont "Super!"
+	text "Jen: Hä? Du willst"
+	line "gegen uns"
+	cont "antreten? Super!"
 	done
 
 .BeatenText:
-	text "Jen: Du bist"
-	line "viel stärker, als"
-	cont "ich dachte."
+	text "Jen: Du bist viel"
+	line "stärker, als ich"
+	cont "dachte."
 	done
 
 Route3MeteoriteText:
-	text "So einen Stein"
-	line "hab ich noch nie"
+	text "So einen Stein hab"
+	line "ich noch nie"
 	cont "gesehen!"
 
 	para "Könnte das ein"

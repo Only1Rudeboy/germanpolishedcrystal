@@ -37,47 +37,44 @@ GenericTrainerPokemaniacMiller:
 	para "Karateka kämpfen."
 	line "Er war sehr gut."
 
-	para "Er hat uns"
-	line "richtig"
+	para "Er hat uns richtig"
 	line "verprügelt."
 
 	para "Er murmelte etwas"
 	line "von seinem"
 
 	para "Training. Ich"
-	line "frage mich, wie"
-	cont "es ihm geht?"
+	line "frage mich, wie es"
+	cont "ihm geht?"
 	done
 GenericTrainerSupernerdMarkus:
 	generictrainer SUPER_NERD, MARKUS, EVENT_BEAT_SUPER_NERD_MARKUS, SupernerdMarkusSeenText, SupernerdMarkusBeatenText
 
 	text "Ich wollte den"
-	line "KESSELBERG erkun-"
-	cont "den, aber ich"
+	line "KESSELBERG"
+	cont "erkunden, aber ich"
 	cont "habe"
 
 	para "meinen Kameraden"
 	line "verloren…"
 
 	para "Bist du einem"
-	line "Geg-"
-	line "ner begegnet, der"
+	line "Gegner begegnet,"
+	cont "der"
 
-	para "ein SEEMON ein-"
-	line "setzt, das"
+	para "ein SEEMON"
+	line "einsetzt, das"
 	cont "KASKADE"
 	cont "beherrscht?"
 	done
 PokemaniacMillerSeenText:
-	text "Heute verliere"
-	line "ich"
+	text "Heute verliere ich"
 	line "gewiß nicht!"
 	done
 
 
 PokemaniacMillerBeatenText:
-	text "Ich habe gegen"
-	line "ein"
+	text "Ich habe gegen ein"
 	line "Kind verloren…?"
 	done
 

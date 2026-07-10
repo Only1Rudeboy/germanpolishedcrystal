@@ -49,8 +49,7 @@ WarmBeachShackTutorBodySlamScript:
 	done
 
 WarmBeachShackBodySlamFisherText:
-	text "Bereit?"
-	line "Boing!"
+	text "Bereit? Boing!"
 
 	para "Wir machen ein"
 	line "Sumo-Match, wer"
@@ -58,9 +57,8 @@ WarmBeachShackBodySlamFisherText:
 	para "zuerst aufgibt."
 
 	para "Ich nutze Body"
-	line "Slam,"
-	line "und er hält mit"
-	cont "Endure durch!"
+	line "Slam, und er hält"
+	cont "mit Endure durch!"
 	done
 
 Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
@@ -102,13 +100,11 @@ WarmBeachShackTutorEndureScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Komm wieder!"
-	line "Nnnh!"
+	text "Komm wieder! Nnnh!"
 	done
 
 WarmBeachShackEndureFisherText:
-	text "Bereit?"
-	line "Nnnh!"
+	text "Bereit? Nnnh!"
 
 	para "Wir machen ein"
 	line "Sumo-Match, wer"
@@ -116,9 +112,9 @@ WarmBeachShackEndureFisherText:
 	para "zuerst aufgibt."
 
 	para "Er nutzt Body"
-	line "Slam,"
-	line "und ich halte mit"
-	cont "Endure durch!"
+	line "Slam, und ich"
+	cont "halte mit Endure"
+	cont "durch!"
 	done
 
 Text_WarmBeachShackEndureTutorEndureQuestion:
@@ -132,8 +128,7 @@ Text_WarmBeachShackEndureTutorEndureQuestion:
 
 
 Text_WarmBeachShackTutorsNoSilverLeaf:
-	text "Hä? Du hast"
-	line "keins!"
+	text "Hä? Du hast keins!"
 	done
 
 Text_WarmBeachShackTutorsRefused:

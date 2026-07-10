@@ -93,8 +93,8 @@ TrainerLassCathy:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Denken meine #-"
-	line "MON, dass ich"
+	text "Denken meine"
+	line "#mon, dass ich"
 	cont "niedlich bin?"
 	done
 WhitneyCriesScript:
@@ -111,8 +111,8 @@ GenericTrainerSrandjrJoandcath1:
 	generictrainer SR_AND_JR, JOANDCATH1, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath1SeenText, SrandjrJoandcath1BeatenText
 
 	text "Jo: Ich helfe"
-	line "mei-"
-	line "ner Junior Cath,"
+	line "meiner Junior"
+	cont "Cath,"
 
 	para "einen Orden von"
 	line "BIANKA zu holen."
@@ -124,13 +124,12 @@ GenericTrainerSrandjrJoandcath1:
 GenericTrainerSrandjrJoandcath2:
 	generictrainer SR_AND_JR, JOANDCATH2, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath2SeenText, SrandjrJoandcath2BeatenText
 
-	text "Cath: Ich"
-	line "verliere"
+	text "Cath: Ich verliere"
 	line "immer gegen"
 	cont "BIANKA."
 
-	para "Das ist deprimie-"
-	line "rend."
+	para "Das ist"
+	line "deprimierend."
 
 	para "Schon gut! Wenn"
 	line "ich verliere,"
@@ -154,7 +153,7 @@ GenericTrainerBeautySamantha:
 
 	text "Ich habe MAUZI"
 	line "die"
-	line "unterschiedlich-"
+	cont "unterschiedlich-"
 	cont "sten Attacken"
 	cont "bei-"
 	cont "gebracht…"
@@ -178,13 +177,11 @@ GoldenrodGymGuyScript:
 	para "Aber Vorsicht—"
 	line "Fee-#mon"
 
-	para "widerstehen"
-	line "Kampf-"
+	para "widerstehen Kampf-"
 	line "Attacken,"
 
-	para "und die setzen"
-	line "wir hier auch"
-	cont "ein!"
+	para "und die setzen wir"
+	line "hier auch ein!"
 	done
 
 GoldenrodGymStatue:
@@ -212,18 +209,16 @@ JoWalksAwayMovement:
 WhitneyBeforeText:
 	text "Ich bin BIANKA!"
 
-	para "Jeder hat sich"
-	line "für"
-	line "#mon inte-"
-	cont "ressiert, also"
-	cont "musste ich mit-"
-	cont "machen!"
+	para "Jeder hat sich für"
+	line "#mon"
+	cont "interessiert, also"
+	cont "musste ich"
+	cont "mitmachen!"
 
 	para "#mon sind"
 	line "superniedlich!"
 
-	para "Willst du"
-	line "kämpfen?"
+	para "Willst du kämpfen?"
 	line "Sei gewarnt, ich"
 	cont "bin gut!"
 	done
@@ -235,12 +230,11 @@ WhitneyBeforeText:
 WhitneyShouldntBeSoSeriousText:
 	text "Schluchz…"
 
-	para "…Waaaaaaah!"
-	line "Du bist gemein!"
+	para "…Waaaaaaah! Du"
+	line "bist gemein!"
 
 	para "Du solltest nicht"
-	line "so ernst sein!"
-	cont "Du,"
+	line "so ernst sein! Du,"
 	cont "du Kind, du!"
 	done
 
@@ -269,13 +263,10 @@ WhitneyPlainBadgeText:
 
 	para "deine #mon"
 	line "STÄRKE auch"
-	cont "außer-"
-	cont "halb eines"
-	cont "Kampfes"
-	cont "einsetzen."
+	cont "außerhalb eines"
+	cont "Kampfes einsetzen."
 
-	para "Außerdem erhöht"
-	line "er"
+	para "Außerdem erhöht er"
 	line "die INIT deiner"
 	cont "#mon."
 
@@ -290,8 +281,7 @@ WhitneyPlainBadgeText:
 
 WhitneyGoodCryText:
 	text "Ah, die Flennerei"
-	line "hat gut getan!"
-	cont "Be-"
+	line "hat gut getan! Be-"
 
 	para "suche mich mal"
 	line "wieder! Tschüssi!"
@@ -317,11 +307,11 @@ LassCathyBeatenText:
 	cont "schwach…"
 	done
 SrandjrJoandcath1SeenText:
-	text "Jo: Wenn du"
-	line "BIANKA willst,"
+	text "Jo: Wenn du BIANKA"
+	line "willst,"
 
-	para "musst du erst"
-	line "an mir vorbei!"
+	para "musst du erst an"
+	line "mir vorbei!"
 
 	para "Cath, klang das"
 	line "cool?"
@@ -347,16 +337,14 @@ JoWhitneyCriesText:
 	cont "gebracht."
 
 	para "Keine Sorge. Sie"
-	line "beruhigt sich"
-	cont "bald"
+	line "beruhigt sich bald"
 
 	para "wieder. Sie weint"
 	line "immer, wenn sie"
 	cont "verloren hat."
 	done
 BeautyVictoriaSeenText:
-	text "Ach, du musst"
-	line "wohl"
+	text "Ach, du musst wohl"
 	line "noch etwas"
 
 	para "wachsen! Ich mag"
@@ -400,10 +388,8 @@ BeautySamanthaBeatenText:
 
 GoldenrodGymGuyWinText:
 	text "Du hast gewonnen?"
-	line "Toll! Ich war da-"
-	cont "mit beschäftigt,"
-	cont "die hübschen"
-	cont "Damen"
-	cont "hier zu"
-	cont "bewundern."
+	line "Toll! Ich war"
+	cont "damit beschäftigt,"
+	cont "die hübschen Damen"
+	cont "hier zu bewundern."
 	done

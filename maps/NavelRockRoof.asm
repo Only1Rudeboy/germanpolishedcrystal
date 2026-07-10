@@ -130,8 +130,7 @@ Leaf:
 	end
 
 LeafText: ; text > text
-	text "…………"
-	line "…………!"
+	text "………… …………!"
 	done
 
 LeafWinLossText: ; text > text
@@ -139,8 +138,7 @@ LeafWinLossText: ; text > text
 	done
 
 LeafAfterText: ; text > text
-	text "…………"
-	line "…………"
+	text "………… …………"
 	done
 
 NavelRockRoofPanUpMovementData:

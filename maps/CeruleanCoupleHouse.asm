@@ -16,11 +16,10 @@ CeruleanCoupleHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanCoupleHousePokefanFText, -1
 
 CeruleanCoupleHousePokefanMText:
-	text "Ich hab meine"
-	line "Frau hier in"
-	cont "dieser Stadt"
-	cont "kennen-"
-	cont "gelernt."
+	text "Ich hab meine Frau"
+	line "hier in dieser"
+	cont "Stadt"
+	cont "kennengelernt."
 
 	para "Ihre Augen waren"
 	line "tief azurblau…"
@@ -29,8 +28,7 @@ CeruleanCoupleHousePokefanMText:
 CeruleanCoupleHousePokefanFText:
 	text "Die Sprache der"
 	line "Liebe braucht"
-	cont "keine"
-	cont "Übersetzung."
+	cont "keine Übersetzung."
 
 	para "Du wirst es eines"
 	line "Tages verstehen."

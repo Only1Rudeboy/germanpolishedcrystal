@@ -60,8 +60,7 @@ BrentGreetNiteText:
 
 BrentGenericText:
 	text "Oh ja, ich sah"
-	line "dich"
-	line "neulings aus"
+	line "dich neulings aus"
 	cont "einem"
 
 	para "#mon-Center"

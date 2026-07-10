@@ -2,8 +2,8 @@ DerekAnswerPhoneText:
 	text "Hi, <PLAYER>?"
 
 	para "Guten Morgen,"
-	line "pika."
-	line "Was gibt's, pika?"
+	line "pika. Was gibt's,"
+	cont "pika?"
 	done
 
 DerekAnswerPhoneDayText:
@@ -16,8 +16,7 @@ DerekAnswerPhoneDayText:
 DerekAnswerPhoneNiteText:
 	text "Hi, <PLAYER>?"
 
-	para "Guten Abend,"
-	line "pika,"
+	para "Guten Abend, pika,"
 	line "was gibt's, pika?"
 	done
 
@@ -27,8 +26,8 @@ DerekGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text ", wie"
-	line "geht's, pika?"
+	text ", wie geht's,"
+	line "pika?"
 	done
 
 DerekGreetDayText:
@@ -37,8 +36,8 @@ DerekGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text ", wie"
-	line "geht's, pika?"
+	text ", wie geht's,"
+	line "pika?"
 	done
 
 DerekGreetNiteText:
@@ -47,23 +46,20 @@ DerekGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text ". Warst"
-	line "du wach, pika?"
+	text ". Warst du wach,"
+	line "pika?"
 	done
 
 DerekGenericText:
 	text "Das musst du"
-	line "hören!"
-	line "Mein liebes"
+	line "hören! Mein liebes"
 
 	para ""
 	text_ram wStringBuffer4
-	text " hat"
-	line "mich angesehen"
-	cont "und"
+	text " hat mich"
+	line "angesehen und"
 	cont "gegrinst!"
 
 	para "Unsere Herzen"
-	line "schlagen als"
-	cont "eins!"
+	line "schlagen als eins!"
 	done

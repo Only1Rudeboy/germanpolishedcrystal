@@ -42,8 +42,8 @@ LugiaPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "  Der Leviathan"
-	line "    erwacht"
+	text "  Der Leviathan   "
+	line " erwacht"
 	done
 
 HoOhPaintingScript:
@@ -55,8 +55,8 @@ HoOhPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "   Der Phönix"
-	line "   steigt auf"
+	text "   Der Phönix   "
+	line "steigt auf"
 	done
 
 BellTowerPaintingScript:
@@ -68,8 +68,8 @@ BellTowerPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "  Freundschaft"
-	line "  und Hoffnung"
+	text "  Freundschaft  "
+	line "und Hoffnung"
 	done
 
 KabutoPuzzleScript:
@@ -130,8 +130,8 @@ EmptyDisplayText:
 	done
 
 TowerRelicText:
-	text "Ein uraltes Wand-"
-	line "gemälde mit"
+	text "Ein uraltes"
+	line "Wandgemälde mit"
 	cont "einem mysteriösen"
 	cont "#mon."
 	done
@@ -145,8 +145,7 @@ GoldenrodMuseum2FSightseerMScript:
 	iffalse_jumptextfaceplayer GoldenrodMuseum2FSightseerMNoPaintingText
 	jumpthistextfaceplayer
 
-	text "Diese Gemälde"
-	line "sind"
+	text "Diese Gemälde sind"
 	line "wunderschön!"
 
 	para "Eines Tages hängt"
@@ -158,9 +157,8 @@ GoldenrodMuseum2FSightseerMScript:
 
 GoldenrodMuseum2FSightseerMNoPaintingText:
 	text "Ach…! Farbblatt"
-	line "und"
-	line "ich kamen, weil"
-	cont "wir"
+	line "und ich kamen,"
+	cont "weil wir"
 
 	para "von einer Kunst-"
 	line "ausstellung zur"
@@ -173,8 +171,7 @@ GoldenrodMuseum2FSightseerMNoPaintingText:
 	cont "Gerüchte…"
 
 	para "Diese Galerie ist"
-	line "noch nicht"
-	cont "fertig!"
+	line "noch nicht fertig!"
 	done
 
 GoldenrodMuseum2FSmeargleText:
@@ -193,16 +190,13 @@ GoldenrodMuseum2FScientistScript:
 	jumpthistextfaceplayer
 
 	text "Diese Artefakte"
-	line "sind"
-	cont "faszinierend!"
+	line "sind faszinierend!"
 
 	para "Schade, dass es"
-	line "nur Repliken"
-	cont "sind…"
+	line "nur Repliken sind…"
 
 	para "Ich würde die"
-	line "echten Stücke"
-	cont "gern"
+	line "echten Stücke gern"
 	cont "aus nächster Nähe"
 	cont "studieren."
 	done
@@ -211,12 +205,10 @@ GoldenrodMuseum2FScientistNoArtifactsText:
 	text "Ich weiß, das"
 	line "Museum hat gerade"
 
-	para "eröffnet, aber"
-	line "ich"
+	para "eröffnet, aber ich"
 	line "hatte mehr"
 
-	para "Ausstellungsstü-"
-	line "cke"
+	para "Ausstellungsstücke"
 	line "erwartet…"
 
 	para "Wo ist alles?"
@@ -274,14 +266,12 @@ GoldenrodMuseum2FTutorIntroText:
 
 	para "Holzturm."
 
-	para "Dieses"
-	line "Wandgemälde"
+	para "Dieses Wandgemälde"
 	line "hing ursprünglich"
 	cont "dort."
 
 	para "Es hierher zu"
-	line "bringen war"
-	cont "nötig,"
+	line "bringen war nötig,"
 
 	para "um ein Stück"
 	line "Johtos Geschichte"

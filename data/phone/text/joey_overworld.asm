@@ -41,8 +41,7 @@ JoeyPhoneFullText:
 
 JoeyTopPercentageText:
 	text "Hey, erinnerst du"
-	line "dich an mein"
-	cont "super"
+	line "dich an mein super"
 	cont "cooles "
 	text_ram wStringBuffer4
 	text "?"
@@ -73,8 +72,7 @@ JoeyPackFullText:
 	text "Hey, warte! Deine"
 	line "Tasche ist voll!"
 
-	para "Dann beim"
-	line "nächsten"
+	para "Dann beim nächsten"
 	line "Mal."
 	done
 
@@ -86,9 +84,8 @@ JoeyRematchGiftText:
 	line "bist stark."
 
 	para "So oft zu"
-	line "verlieren"
-	line "fühlt sich gut"
-	cont "an!"
+	line "verlieren fühlt"
+	cont "sich gut an!"
 
 	para "Nimm das. Werde"
 	line "noch stärker —"

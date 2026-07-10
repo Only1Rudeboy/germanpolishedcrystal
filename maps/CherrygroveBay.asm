@@ -179,8 +179,8 @@ CherrygroveBayTutorEarthPowerScript:
 	jumpthisopenedtext
 
 	text "So! Dein #mon"
-	line "kennt jetzt"
-	cont "Earth Power!"
+	line "kennt jetzt Earth"
+	cont "Power!"
 	done
 
 GenericTrainerSwimmermThomas:
@@ -193,10 +193,9 @@ GenericTrainerSwimmermThomas:
 
 .SeenText:
 	text "Kannst du"
-	line "schwimmen?"
-	line "Ich bringe es dir"
-	cont "bei, wenn du"
-	cont "willst."
+	line "schwimmen? Ich"
+	cont "bringe es dir bei,"
+	cont "wenn du willst."
 	done
 
 .BeatenText:
@@ -207,15 +206,14 @@ GenericTrainerSwimmerfSally:
 	generictrainer SWIMMERF, SALLY, EVENT_BEAT_SWIMMERF_SALLY, .SeenText, .BeatenText
 
 	text "Ich treibe gern"
-	line "mit"
-	line "meinen #mon auf"
-	cont "den Wellen!"
+	line "mit meinen #mon"
+	cont "auf den Wellen!"
 	done
 
 .SeenText:
 	text "Diese Bucht mag"
-	line "ich."
-	line "Das Wasser ist"
+	line "ich. Das Wasser"
+	cont "ist"
 
 	para "viel ruhiger als"
 	line "auf offener See."
@@ -233,8 +231,7 @@ TrainerSwimmerfTara:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Nördlich liegt"
-	line "der"
+	text "Nördlich liegt der"
 	line "große Baum von"
 	cont "Rosalia."
 
@@ -248,10 +245,8 @@ TrainerSwimmerfTara:
 
 .SeenText:
 	text "Ah, zwischen"
-	line "Kirsch-"
-	line "blüten zu"
-	cont "schwimmen"
-	cont "ist so"
+	line "Kirschblüten zu"
+	cont "schwimmen ist so"
 	cont "entspannend!"
 	done
 
@@ -266,8 +261,7 @@ GenericTrainerHikerTony:
 	text "Nach einer langen"
 	line "Wanderung sah ich"
 
-	para "einen großen"
-	line "Vogel"
+	para "einen großen Vogel"
 	line "in diese Richtung"
 	cont "fliegen!"
 
@@ -275,9 +269,8 @@ GenericTrainerHikerTony:
 	done
 
 .SeenText:
-	text "Ich bin meilen-"
-	line "weit durch den"
-	cont "Wald"
+	text "Ich bin meilenweit"
+	line "durch den Wald"
 
 	para "gewandert, nur um"
 	line "das legendäre"
@@ -286,8 +279,7 @@ GenericTrainerHikerTony:
 	done
 
 .BeatenText:
-	text "Ich bin"
-	line "erschöpft…"
+	text "Ich bin erschöpft…"
 	done
 
 CherrygroveBayFisherText:
@@ -304,19 +296,19 @@ CherrygroveBayFisherText:
 
 	para "Ich glaube, sie"
 	line "flogen zu dem"
-	cont "großen"
-	cont "Baum dort drüben?"
+	cont "großen Baum dort"
+	cont "drüben?"
 	done
 
 CherrygroveBayHikerText:
 	text "Ich glaube nicht"
-	line "an Schöpfungs-"
-	cont "mythen mit"
-	cont "#mon."
+	line "an"
+	cont "Schöpfungsmythen"
+	cont "mit #mon."
 
 	para "Johto entstand"
-	line "über"
-	line "Millionen Jahre"
+	line "über Millionen"
+	cont "Jahre"
 
 	para "durch die Kraft"
 	line "der Erde!"
@@ -335,6 +327,5 @@ Text_CherrygroveBayTutorEarthPower:
 Text_CherrygroveBayTutorQuestion:
 	text "Soll ich deinem"
 	line "#mon Earth"
-	cont "Power"
-	cont "beibringen?"
+	cont "Power beibringen?"
 	done

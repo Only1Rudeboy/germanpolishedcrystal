@@ -70,8 +70,8 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "Ich bin Mira…"
-	line "Ich habe #mon"
+	text "Ich bin Mira… Ich"
+	line "habe #mon"
 
 	para "gefangen, aber"
 	line "diese Höhle ist"
@@ -79,16 +79,16 @@ ScaryCave1FMiraScript:
 
 	para "Ich will stärker"
 	line "werden, damit ich"
-	cont "keine Angsthas-"
-	cont "se mehr bin."
+	cont "keine Angsthasse"
+	cont "mehr bin."
 
-	para "Bitte! Bitte"
-	line "kämpf mit mir!"
+	para "Bitte! Bitte kämpf"
+	line "mit mir!"
 	done
 
 .YesText:
-	text "Ja! Mira zeigt"
-	line "dir ihre #mon!"
+	text "Ja! Mira zeigt dir"
+	line "ihre #mon!"
 	done
 
 .NoText:
@@ -113,11 +113,10 @@ ScaryCave1FMiraScript:
 	para "Ja! Das muss es"
 	line "sein!"
 
-	para "Mira fängt an,"
-	line "es zu verstehen!"
+	para "Mira fängt an, es"
+	line "zu verstehen!"
 
-	para "Danke,"
-	line "<PLAYER>!"
+	para "Danke, <PLAYER>!"
 
 	para "Mira möchte, dass"
 	line "du das hast!"
@@ -128,11 +127,9 @@ ScaryCave1FMiraScript:
 	line "wie du, <PLAYER>!"
 
 	para "Ich werde im"
-	line "DUELLTURM stär-"
-	cont "ker!"
+	line "DUELLTURM stärker!"
 
-	para "<PLAYER>,"
-	line "tschüss!"
+	para "<PLAYER>, tschüss!"
 	done
 
 ScaryCave1FPharmacistScript:
@@ -161,9 +158,9 @@ ScaryCave1FPharmacistScript:
 
 .IntroText:
 	text "Geister sind"
-	line "Meis-"
-	line "ter der hinter-"
-	cont "hältigen Attacke."
+	line "Meister der"
+	cont "hinterhältigen"
+	cont "Attacke."
 
 	para "Man muss sie"
 	line "zuerst treffen!"
@@ -194,8 +191,8 @@ ScaryCave1FPharmacistScript:
 	jumpthisopenedtext
 
 	text "Jetzt kannst du"
-	line "Sucker Punch nut-"
-	cont "zen!"
+	line "Sucker Punch"
+	cont "nutzen!"
 
 	para "Greift ein Gegner"
 	line "dich an, triffst"
@@ -205,8 +202,7 @@ ScaryCave1FPharmacistScript:
 GenericTrainerRuin_maniacSmilte:
 	generictrainer RUIN_MANIAC, SMILTE, EVENT_BEAT_RUIN_MANIAC_SMILTE, .SeenText, .BeatenText
 
-	text "Ich höre ein"
-	line "Echo."
+	text "Ich höre ein Echo."
 	line "In der Nähe gibt"
 	cont "es eine tiefere"
 	cont "Höhle!"
@@ -217,8 +213,8 @@ GenericTrainerRuin_maniacSmilte:
 	done
 
 .SeenText:
-	text "Ich stehe kurz"
-	line "vor einer großen"
+	text "Ich stehe kurz vor"
+	line "einer großen"
 	cont "Entdeckung!"
 
 	para "Ich spüre es!"
@@ -226,8 +222,8 @@ GenericTrainerRuin_maniacSmilte:
 
 .BeatenText:
 	text "Willst du meine"
-	line "Entdeckung steh-"
-	cont "len?!"
+	line "Entdeckung"
+	cont "stehlen?!"
 	done
 
 GenericTrainerSuper_nerdKouta:
@@ -236,21 +232,21 @@ GenericTrainerSuper_nerdKouta:
 	text "Selbst die besten"
 	line "Pläne können"
 
-	para "manchmal schei-"
-	line "tern."
+	para "manchmal"
+	line "scheitern."
 	done
 
 .SeenText:
 	text "Du kannst mich"
 	line "nicht schlagen!"
 
-	para "Ich habe den per-"
-	line "fekten Plan!"
+	para "Ich habe den"
+	line "perfekten Plan!"
 	done
 
 .BeatenText:
-	text "Mein Plan ist ge-"
-	line "scheitert?!"
+	text "Mein Plan ist"
+	line "gescheitert?!"
 
 	para "Zurück an die"
 	line "Zeichenbrett…"
@@ -274,8 +270,7 @@ TrainerCoupleJoeandjo1:
 
 .SeenText:
 	text "Joe: Ein Geist!"
-	line "Bleib nah bei"
-	cont "mir,"
+	line "Bleib nah bei mir,"
 	cont "meine liebe Jo!"
 	done
 
@@ -295,8 +290,8 @@ TrainerCoupleJoeandjo2:
 	line "viel Glück, dass"
 	cont "mein wunderbarer"
 
-	para "Joe alle gruseli-"
-	line "gen Geister"
+	para "Joe alle"
+	line "gruseligen Geister"
 	cont "vertreibt."
 	done
 
@@ -313,9 +308,9 @@ TrainerCoupleJoeandjo2:
 GenericTrainerHex_maniacBethany:
 	generictrainer HEX_MANIAC, BETHANY, EVENT_BEAT_HEX_MANIAC_BETHANY, .SeenText, .BeatenText
 
-	text "Die Angstatmo-"
-	line "sphäre in dieser"
-	cont "Höhle ist"
+	text "Die"
+	line "Angstatmosphäre in"
+	cont "dieser Höhle ist"
 	cont "herrlich…"
 	cont "Fufufufu…"
 	done
@@ -336,16 +331,15 @@ GenericTrainerScientistPiotr:
 	line "und färbt das"
 
 	para "Wasser trübe."
-	line "Davor brauchst"
-	cont "du keine Angst"
-	cont "zu haben!"
-	cont "…Oder?"
+	line "Davor brauchst du"
+	cont "keine Angst zu"
+	cont "haben! …Oder?"
 	done
 
 .SeenText:
 	text "Weißt du, warum"
-	line "das Wasser hier"
-	cont "so dunkel ist?"
+	line "das Wasser hier so"
+	cont "dunkel ist?"
 	done
 
 .BeatenText:

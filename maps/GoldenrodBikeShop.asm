@@ -42,8 +42,7 @@ GoldenrodBikeShopClerkScript:
 
 GoldenrodBikeShopClerkFirstRateBikesText:
 	text "Meine FAHRRÄDER"
-	line "sind erste"
-	cont "Klasse!"
+	line "sind erste Klasse!"
 
 	para "Du kannst sie"
 	line "überall fahren."
@@ -55,18 +54,15 @@ GoldenrodBikeShopClerkIntroText:
 	line "hierher gezogen,"
 
 	para "aber ich kann"
-	line "mei-"
-	line "ne FAHRRÄDER"
+	line "meine FAHRRÄDER"
 	cont "nicht"
 
 	para "verkaufen. Warum"
 	line "nur?"
 
 	para "Würdest du ein"
-	line "FAHRRAD fahren"
-	cont "und"
-	cont "so Werbung"
-	cont "machen?"
+	line "FAHRRAD fahren und"
+	cont "so Werbung machen?"
 	done
 
 
@@ -76,8 +72,7 @@ GoldenrodBikeShopClerkAgreedText:
 	para "Gib mir bitte"
 	line "Namen und Nummer."
 
-	para "Dann leihe ich"
-	line "dir"
+	para "Dann leihe ich dir"
 	line "ein FAHRRAD."
 	done
 
@@ -98,8 +93,8 @@ GoldenrodBikeShopBicycleText:
 GoldenrodBikeShopJustReleasedCompactBikeText:
 	text "Brandneu!"
 
-	para "Erste Klasse Kom-"
-	line "pakt-FAHRRÄDER!"
+	para "Erste Klasse"
+	line "Kompakt-FAHRRÄDER!"
 	done
 
 

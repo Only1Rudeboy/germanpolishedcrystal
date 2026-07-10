@@ -31,14 +31,11 @@ GenericTrainerSageNico:
 GenericTrainerSageEdmond:
 	generictrainer SAGE, EDMOND, EVENT_BEAT_SAGE_EDMOND, SageEdmondSeenText, SageEdmondBeatenText
 
-	text "Ich habe"
-	line "versucht,"
-	line "KNOFENSAs"
-	cont "elegante"
+	text "Ich habe versucht,"
+	line "KNOFENSAs elegante"
 
 	para "Bewegungen im"
-	line "Kampf"
-	cont "nachzuahmen…"
+	line "Kampf nachzuahmen…"
 
 	para "Aber ich habe"
 	line "nicht intensiv"
@@ -59,8 +56,8 @@ SageNicoBeatenText:
 
 
 SageEdmondSeenText:
-	text "…Wirble wie"
-	line "Laub im Wind…"
+	text "…Wirble wie Laub"
+	line "im Wind…"
 	done
 
 

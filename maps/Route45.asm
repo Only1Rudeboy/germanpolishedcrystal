@@ -82,10 +82,9 @@ Route45Dragon_tamerScript:
 
 .AfterText2:
 	text "Die Kunst,"
-	line "Drachen-"
-	line "#mon zu"
-	cont "trainieren,"
-	cont "ist einfach toll."
+	line "Drachen- #mon"
+	cont "zu trainieren, ist"
+	cont "einfach toll."
 
 	para "Du solltest auch"
 	line "ein"
@@ -94,22 +93,19 @@ Route45Dragon_tamerScript:
 	done
 
 .IntroText:
-	text "Ich trainiere"
-	line "hier"
+	text "Ich trainiere hier"
 	line "meine Drachen."
 
-	para "Hm? Ein Kampf?"
-	line "Ich will einen"
+	para "Hm? Ein Kampf? Ich"
+	line "will einen"
 
 	para "guten, also"
-	line "beweise"
-	line "mir, dass du"
-	cont "stark"
-	cont "bist."
+	line "beweise mir, dass"
+	cont "du stark bist."
 
 	para "Besiege alle"
-	line "Trainer"
-	line "auf dieser Route,"
+	line "Trainer auf dieser"
+	cont "Route,"
 
 	para "dann kämpfe ich"
 	line "gegen dich."
@@ -117,9 +113,8 @@ Route45Dragon_tamerScript:
 
 .QuestionText:
 	text "Ach, du bist"
-	line "bereit."
-	line "Zeit für ein"
-	cont "Duell:"
+	line "bereit. Zeit für"
+	cont "ein Duell:"
 
 	para "deine #mon"
 	line "gegen meine"
@@ -130,9 +125,8 @@ Route45Dragon_tamerScript:
 	done
 
 .RefusedText:
-	text "Kein Problem."
-	line "Ich trainiere"
-	cont "weiter."
+	text "Kein Problem. Ich"
+	line "trainiere weiter."
 	done
 
 .SeenText:
@@ -140,23 +134,20 @@ Route45Dragon_tamerScript:
 	line "mit dem unerbitt-"
 
 	para "lichen Fokus"
-	line "meiner"
-	line "Drachen"
-	cont "klarkommst."
-	cont "Los, Dragoran!"
+	line "meiner Drachen"
+	cont "klarkommst. Los,"
+	cont "Dragoran!"
 	done
 
 .BeatenText:
-	text "Wie mächtig!"
-	line "Meine #mon"
-	cont "waren dir nicht"
-	cont "gewachsen."
+	text "Wie mächtig! Meine"
+	line "#mon waren dir"
+	cont "nicht gewachsen."
 	done
 
 .AfterText1:
 	text "Deine Stärke"
-	line "gleicht"
-	line "meiner!"
+	line "gleicht meiner!"
 
 	para "Nimm das. Du hast"
 	line "es verdient."
@@ -216,8 +207,7 @@ BlackbeltKenji1Script:
 .Morning:
 	jumpthisopenedtext
 
-	text "Ich trainiere"
-	line "noch"
+	text "Ich trainiere noch"
 	line "ein wenig bis zur"
 	cont "Mittagspause."
 	done
@@ -337,17 +327,16 @@ GenericTrainerHikerErik:
 	text "Ich gehe zum"
 	line "EISPFAD bei"
 
-	para "EBENHOLZ CITY,"
-	line "um etwas mehr"
-	cont "zu trainieren."
+	para "EBENHOLZ CITY, um"
+	line "etwas mehr zu"
+	cont "trainieren."
 	done
 GenericTrainerHikerMichael:
 	generictrainer HIKER, MICHAEL, EVENT_BEAT_HIKER_MICHAEL, HikerMichaelSeenText, HikerMichaelBeatenText
 
 	text "Mensch, wie ich"
 	line "diese KP-PLUS"
-	cont "liebe! Mm,"
-	cont "lecker!"
+	cont "liebe! Mm, lecker!"
 
 	para "Ich trinke immer"
 	line "die von meinen"
@@ -445,8 +434,7 @@ GenericTrainerHikerTimothy:
 	generictrainer HIKER, TIMOTHY, EVENT_BEAT_HIKER_TIMOTHY, HikerTimothySeenText, HikerTimothyBeatenText
 
 	text "#mon zu"
-	line "entdecken, war"
-	cont "das"
+	line "entdecken, war das"
 
 	para "Beste, was mir"
 	line "passieren konnte."
@@ -473,11 +461,10 @@ GenericTrainerCooltrainerfKelly:
 	line "übermäßig starken"
 	cont "Attacken."
 
-	para "Ich will"
-	line "gewinnen,"
+	para "Ich will gewinnen,"
 	line "aber ich möchte"
-	cont "dabei keine #-"
-	cont "MON verletzen."
+	cont "dabei keine"
+	cont "#mon verletzen."
 	done
 GenericTrainerCamperQuentin:
 	generictrainer CAMPER, QUENTIN, EVENT_BEAT_CAMPER_QUENTIN, CamperQuentinSeenText, CamperQuentinBeatenText
@@ -495,8 +482,7 @@ BattleGirlNozomiSeenText:
 	done
 
 BattleGirlNozomiBeatenText:
-	text "Was für ein"
-	line "Kampf!"
+	text "Was für ein Kampf!"
 	done
 
 HikerErikSeenText:
@@ -527,8 +513,7 @@ HikerErikBeatenText:
 HikerMichaelSeenText:
 	text "He! Du hast Mumm"
 	line "in den Knochen!"
-	cont "Aber weißt du"
-	cont "was?"
+	cont "Aber weißt du was?"
 
 	para "Wenn es um echte"
 	line "Courage geht, bin"
@@ -542,8 +527,7 @@ HikerMichaelSeenText:
 
 HikerMichaelBeatenText:
 	text "Meine #mon"
-	line "waren leider"
-	cont "nicht"
+	line "waren leider nicht"
 	cont "couragiert genug!"
 	done
 
@@ -553,9 +537,8 @@ HikerMichaelBeatenText:
 
 
 HikerParry1SeenText:
-	text "Meine #mon"
-	line "sind voller"
-	cont "Energie!"
+	text "Meine #mon sind"
+	line "voller Energie!"
 	done
 HikerParry1BeatenText:
 	text "Ojemine! Ich bin"
@@ -568,8 +551,7 @@ HikerParryAfterBattleText:
 	cont "Denken betrifft,"
 	cont "weißt du?"
 
-	para "Deswegen setze"
-	line "ich"
+	para "Deswegen setze ich"
 	line "alles auf Kraft."
 	done
 
@@ -582,14 +564,12 @@ HikerTimothySeenText:
 	text "Warum ich auf"
 	line "Berge klettere?"
 
-	para "Weil es sie"
-	line "gibt."
+	para "Weil es sie gibt."
 
-	para "Warum ich"
-	line "#mon trainiere?"
+	para "Warum ich #mon"
+	line "trainiere?"
 
-	para "Weil es sie"
-	line "gibt!"
+	para "Weil es sie gibt!"
 	done
 
 
@@ -598,8 +578,8 @@ HikerTimothySeenText:
 
 
 HikerTimothyBeatenText:
-	text "Niederlagen…"
-	line "Die gibt es auch!"
+	text "Niederlagen… Die"
+	line "gibt es auch!"
 	done
 
 
@@ -630,9 +610,8 @@ HikerParryGivesIronText:
 
 
 BlackbeltKenji1SeenText:
-	text "Ich habe hier"
-	line "ganz allein"
-	cont "trainiert."
+	text "Ich habe hier ganz"
+	line "allein trainiert."
 
 	para "Sieh die Früchte"
 	line "meiner Arbeit!"
@@ -668,10 +647,8 @@ CooltrainermRyanSeenText:
 
 
 CooltrainermRyanBeatenText:
-	text "Du verdienst"
-	line "meine"
-	line "ganze"
-	cont "Hochachtung."
+	text "Du verdienst meine"
+	line "ganze Hochachtung."
 	done
 
 
@@ -680,15 +657,13 @@ CooltrainermRyanBeatenText:
 
 
 CooltrainerfKellySeenText:
-	text "Welche Kampf-"
-	line "technik"
-	cont "verwendest"
-	cont "du?"
+	text "Welche"
+	line "Kampftechnik"
+	cont "verwendest du?"
 
 	para "Setze starke"
 	line "Attacken nicht"
-	cont "völlig"
-	cont "willkürlich"
+	cont "völlig willkürlich"
 	cont "ein!"
 	done
 
@@ -698,8 +673,7 @@ CooltrainerfKellySeenText:
 
 
 CooltrainerfKellyBeatenText:
-	text "Gut. Dann habe"
-	line "ich"
+	text "Gut. Dann habe ich"
 	line "eben verloren."
 	done
 
@@ -719,10 +693,8 @@ CamperQuentinSeenText:
 
 
 CamperQuentinBeatenText:
-	text "Ich habe im"
-	line "DUELL-"
-	line "TURM gut"
-	cont "gekämpft…"
+	text "Ich habe im DUELL-"
+	line "TURM gut gekämpft…"
 	done
 
 
@@ -731,8 +703,8 @@ CamperQuentinBeatenText:
 
 
 Route45SignText:
-	text "ROUTE 45"
-	line "BERGWEG VORAUS"
+	text "ROUTE 45 BERGWEG"
+	line "VORAUS"
 	done
 
 

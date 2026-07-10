@@ -19,13 +19,11 @@ BeautifulBeachVilla_MapScriptHeader:
 	object_event 11,  4, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << NITE), 0, OBJECTTYPE_COMMAND, jumptext, DarachsBookText, -1
 
 DarachMornDayText:
-	text "DARACH: Guten"
-	line "Tag."
+	text "DARACH: Guten Tag."
 	line "Fräulein CAITLIN"
 
 	para "und ich genießen"
-	line "unseren Urlaub"
-	cont "auf"
+	line "unseren Urlaub auf"
 	cont "der"
 	cont "Shamouti-Insel."
 	done
@@ -61,7 +59,6 @@ CaitlinNiteScript:
 	done
 
 DarachsBookText:
-	text "Ein Tagebuch"
-	line "mit Urlaubs-"
-	cont "notizen."
+	text "Ein Tagebuch mit"
+	line "Urlaubsnotizen."
 	done

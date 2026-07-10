@@ -114,8 +114,8 @@ PosterClerkNoMoneyText:
 	done
 
 PosterClerkAlreadyBoughtText:
-	text "Das hast du"
-	line "schon gekauft."
+	text "Das hast du schon"
+	line "gekauft."
 	done
 
 BoughtMarillPosterText:
@@ -125,9 +125,9 @@ BoughtMarillPosterText:
 	done
 
 MarillPosterSentText:
-	text "Das Marill-"
-	line "Poster wurde nach"
-	cont "Hause geschickt."
+	text "Das Marill- Poster"
+	line "wurde nach Hause"
+	cont "geschickt."
 	done
 
 BoughtClefairyPosterText:
@@ -173,6 +173,6 @@ CeladonDeptStore4FDirectoryText:
 	text "Drück dich mit"
 	line "Geschenken aus!"
 
-	para "4F: Weisen-"
-	line "    Geschenke"
+	para "4F: Weisen-    "
+	line "Geschenke"
 	done

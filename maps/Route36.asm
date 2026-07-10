@@ -131,34 +131,32 @@ Route36FloriaScript:
 	iftrue_jumptextfaceplayer FloriaTextAfterSquirtBottle
 	jumpthistextfaceplayer
 
-	text "Ich bin FLORA"
-	line "vom BLUMENLADEN!"
+	text "Ich bin FLORA vom"
+	line "BLUMENLADEN!"
 
 	para "Stell dir vor:"
 
 	para "Als ich den"
-	line "wacke-"
-	line "ligen Baum mit"
+	line "wackeligen Baum"
+	cont "mit"
 
 	para "Wasser benetzte,"
-	line "ist er hoch-"
-	cont "geschreckt!"
+	line "ist er"
+	cont "hochgeschreckt!"
 
 	para "Es muss einfach"
 	line "ein #mon sein."
 
-	para "Ich wette, es"
-	line "gibt"
+	para "Ich wette, es gibt"
 	line "seine Verkleidung"
 
 	para "auf, wenn man es"
 	line "gießt!"
 
-	para "Genau! Ich sage"
-	line "es"
+	para "Genau! Ich sage es"
 	line "meiner Schwester"
-	cont "und leihe mir"
-	cont "ihre Gießkanne!"
+	cont "und leihe mir ihre"
+	cont "Gießkanne!"
 	done
 Route36RockSmashGuyScript:
 	faceplayer
@@ -203,8 +201,7 @@ endc
 	para "gezielten Schlag"
 	line "zertrümmern."
 
-	para "Wenn Felsen im"
-	line "Weg"
+	para "Wenn Felsen im Weg"
 	line "sind, dann"
 if DEF(FAITHFUL)
 	cont "zertrümmere sie!"
@@ -227,8 +224,8 @@ Route36LassScript:
 	line "riesige #mon-"
 
 	para "CENTER ansehen,"
-	line "das gerade eröff-"
-	cont "net wurde…"
+	line "das gerade"
+	cont "eröffnet wurde…"
 	done
 
 TrainerSchoolboyAlan1:
@@ -394,19 +391,19 @@ Route36CooltrainerfChiaraScript:
 .IntroText:
 	text "Ich sah, wie du"
 	line "das Mogelbaum"
-	line "aufgeweckt hast."
+	cont "aufgeweckt hast."
 
 	para "Klasse gemacht!"
 
 	para "Und du hast den"
-	line "Knirpsorden."
-	cont "Ich auch!"
+	line "Knirpsorden. Ich"
+	cont "auch!"
 
-	para "Wie wär's:"
-	line "Besiege alle"
+	para "Wie wär's: Besiege"
+	line "alle"
 
-	para "Trainer auf"
-	line "Route 36 und 37."
+	para "Trainer auf Route"
+	line "36 und 37."
 
 	para "Dann kämpfe ich"
 	line "gegen dich!"
@@ -418,15 +415,14 @@ Route36CooltrainerfChiaraScript:
 	cont "Gegend besiegt."
 
 	para "Dann ist es Zeit"
-	line "für unser"
-	line "Duell!"
+	line "für unser Duell!"
 
 	para "Ich nutze ein"
 	line "Klammerband für"
 	cont "meinen Vorteil."
 
-	para "Bist du bereit"
-	line "für mich?"
+	para "Bist du bereit für"
+	line "mich?"
 	done
 
 .RefusedText:
@@ -438,24 +434,20 @@ Route36CooltrainerfChiaraScript:
 .SeenText:
 	text "Gegen meine"
 	line "Technik hältst du"
-	cont "nicht lange"
-	cont "durch!"
+	cont "nicht lange durch!"
 	done
 
 .BeatenText:
 	text "Ich war es, der"
-	line "nicht"
-	cont "durchhielt?!"
+	line "nicht durchhielt?!"
 	done
 
 .AfterText1:
 	text "Du hast meine"
-	line "Technik"
-	cont "beobachtet"
+	line "Technik beobachtet"
 	cont "und kontert."
 
-	para "Warum probierst"
-	line "du"
+	para "Warum probierst du"
 	line "sie nicht selbst?"
 
 	para "Hier, für dich!"
@@ -473,8 +465,8 @@ GenericTrainerPsychicMark:
 GenericTrainerSchoolgirlMolly:
 	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
 
-	text "Ich muss noch"
-	line "viel lernen."
+	text "Ich muss noch viel"
+	line "lernen."
 	done
 
 ArthurScript:
@@ -518,10 +510,9 @@ ArthurScript:
 ArthurNotThursdayScript:
 	jumpthisopenedtext
 
-	text "DONATUS: Heute"
-	line "ist nicht"
-	cont "Donnerstag. Wie"
-	cont "enttäuschend."
+	text "DONATUS: Heute ist"
+	line "nicht Donnerstag."
+	cont "Wie enttäuschend."
 	done
 
 WeirdTreeMovement_Flee:
@@ -564,8 +555,8 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "Das ist ein merk-"
-	line "würdiger Baum."
+	text "Das ist ein"
+	line "merkwürdiger Baum."
 	cont "Möchtest du die"
 	cont "SCHIGGYKANNE"
 	cont "benutzen?"
@@ -593,8 +584,7 @@ SudowoodoAttackedText:
 
 
 FloriaTextAfterSquirtBottle:
-	text "Ich bin Floria"
-	line "vom"
+	text "Ich bin Floria vom"
 	line "BLUMENLADEN!"
 
 	para "Als ich meiner"
@@ -623,11 +613,11 @@ FloriaTextAfterSquirtBottle:
 
 FloriaTextAfterSudowoodo:
 	text "Ich wusste, der"
-	line "wackelige Baum"
-	cont "ist ein #mon!"
+	line "wackelige Baum ist"
+	cont "ein #mon!"
 
-	para "Ich wollte ihn"
-	line "aus seiner"
+	para "Ich wollte ihn aus"
+	line "seiner"
 
 	para "Verkleidung"
 	line "schocken, aber du"
@@ -635,7 +625,7 @@ FloriaTextAfterSudowoodo:
 
 	para "Na gut, ich geh"
 	line "zurück zum"
-	line "BLUMENLADEN."
+	cont "BLUMENLADEN."
 
 	para "Ich bin übrigens"
 	line "Floria."
@@ -666,8 +656,7 @@ Text_ReceivedTM08: ; unreferenced
 
 
 Route36LassText_ClearedSudowoodo:
-	text "Dieser"
-	line "merkwürdige"
+	text "Dieser merkwürdige"
 	line "Baum ist spurlos"
 	cont "verschwunden."
 
@@ -687,8 +676,7 @@ PsychicMarkSeenText:
 
 
 PsychicMarkBeatenText:
-	text "Ich habe mich"
-	line "wohl"
+	text "Ich habe mich wohl"
 	line "bei dir verlesen!"
 	done
 
@@ -715,9 +703,8 @@ SchoolboyAlan1SeenText:
 
 
 SchoolboyAlan1BeatenText:
-	text "Ups! Ein Fehler"
-	line "in der"
-	cont "Berechnung?"
+	text "Ups! Ein Fehler in"
+	line "der Berechnung?"
 	done
 
 
@@ -759,8 +746,8 @@ ArthurThursdayText:
 	para "Donnerstag. Ich"
 	line "bin der zweite"
 
-	para "Sohn von"
-	line "sieben Kindern."
+	para "Sohn von sieben"
+	line "Kindern."
 	done
 
 
@@ -785,8 +772,8 @@ Route36TrainerTips1Text:
 	para "#mon ist unter-"
 	line "schiedlich, sogar"
 
-	para "innerhalb der-"
-	line "selben Spezies."
+	para "innerhalb"
+	line "derselben Spezies."
 
 	para "Zu Beginn ist er"
 	line "vielleicht noch"
@@ -813,13 +800,12 @@ Route36TrainerTips2Text:
 	line "zurückzugelangen."
 
 	para "Das ist sehr"
-	line "nütz-"
-	line "lich beim"
+	line "nützlich beim"
 	cont "Erkunden"
 
 	para "von Höhlen und"
-	line "an-"
-	line "deren Umgebungen."
+	line "anderen"
+	cont "Umgebungen."
 	done
 
 

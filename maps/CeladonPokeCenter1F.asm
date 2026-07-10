@@ -54,9 +54,9 @@ CeladonPokeCenter1FPharmacistText:
 	done
 
 CeladonPokeCenter1FCooltrainerfText:
-	text "Erika ist Meiste-"
-	line "rin der Pflanzen-"
-	cont "#mon."
+	text "Erika ist"
+	line "Meisterin der"
+	cont "Pflanzen- #mon."
 
 	para "Sie lässt dich"
 	line "büßen, wenn du"
@@ -68,6 +68,6 @@ CeladonPokeCenter1FLassText:
 	line "nur Arenaleiterin."
 
 	para "Sie hält auch"
-	line "Vorlesungen an"
-	cont "der Uni."
+	line "Vorlesungen an der"
+	cont "Uni."
 	done

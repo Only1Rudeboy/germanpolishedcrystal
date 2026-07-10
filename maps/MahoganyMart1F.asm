@@ -93,8 +93,8 @@ MahoganyMart1FBlackBeltScript:
 	iftrue_jumptextfaceplayer MahoganyMart1FBlackBeltText_LanceEntered
 	jumpthistextfaceplayer
 
-	text "Heheh! Das Expe-"
-	line "riment hat wie"
+	text "Heheh! Das"
+	line "Experiment hat wie"
 	cont "am Schnürchen"
 	cont "geklappt."
 
@@ -132,8 +132,8 @@ MahoganyMart1FTutorAgilityScript:
 	jumpthisopenedtext
 
 	text "Na gut. Komm"
-	line "wieder, wenn du"
-	cont "es dir anders"
+	line "wieder, wenn du es"
+	cont "dir anders"
 	cont "überlegst."
 	done
 
@@ -199,8 +199,8 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… Du hast"
-	line "die Geheimtreppe"
+	text "Arrgh… Du hast die"
+	line "Geheimtreppe"
 	cont "gefunden…"
 	done
 
@@ -239,8 +239,7 @@ MahoganyMart1FLanceRadioText:
 	line "gleich gedacht."
 
 	para "Die merkwürdigen"
-	line "Radiowellen"
-	cont "kommen"
+	line "Radiowellen kommen"
 	cont "von hier."
 	done
 
@@ -249,8 +248,8 @@ MahoganyMart1FLanceRadioText:
 
 
 MahoganyMart1FLanceStairsText:
-	text "Die Treppe"
-	line "ist hier."
+	text "Die Treppe ist"
+	line "hier."
 	done
 
 
@@ -262,11 +261,9 @@ MahoganyMart1FLanceSplitUpText:
 	line "<PLAYER>,"
 
 	para "wir sollten uns"
-	line "trennen, um"
-	cont "diesen"
+	line "trennen, um diesen"
 
-	para "Ort zu"
-	line "erforschen."
+	para "Ort zu erforschen."
 	line "Ich gehe zuerst."
 	done
 
@@ -276,8 +273,8 @@ MahoganyMart1FLanceSplitUpText:
 
 MahoganyMart1FVeteranFText:
 	text "Unser Keller war"
-	line "früher ein Ninja-"
-	cont "versteck."
+	line "früher ein"
+	cont "Ninjaversteck."
 
 	para "Einige ihrer"
 	line "Künste haben bis"
@@ -321,8 +318,8 @@ PokemonJournalWillScript:
 	cont "TOP VIER kam."
 
 	para "Manche sagen, er"
-	line "arbeitete für"
-	cont "Team Rocket."
+	line "arbeitete für Team"
+	cont "Rocket."
 
 	para "Das #mon"
 	line "Journal spekuliert"

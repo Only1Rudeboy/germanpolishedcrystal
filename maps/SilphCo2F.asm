@@ -46,8 +46,8 @@ SilphCo2FEmployee1Script:
 	para "Weil du so weit"
 	line "gekommen bist,"
 
-	para "nimm dieses"
-	line "kleine Andenken."
+	para "nimm dieses kleine"
+	line "Andenken."
 	done
 
 .Text2:
@@ -59,24 +59,23 @@ SilphCo2FEmployee1Script:
 	cont "gends zu kaufen."
 	done
 SilphCo2FSilphEmployee2Text:
-	text "Früher nutzten"
-	line "wir Teleporter"
+	text "Früher nutzten wir"
+	line "Teleporter"
 
 	para "Hin- und Herkom-"
 	line "men, aber sie"
 
-	para "wurden abge-"
-	line "schaltet."
+	para "wurden"
+	line "abgeschaltet."
 
 	para "Gut, dass ich im"
-	line "zweiten Stock"
-	cont "bin!"
+	line "zweiten Stock bin!"
 	done
 
 SilphCo2FScientist1Text:
 	text "Wir arbeiten"
-	line "ständig"
-	line "an neuen TMs."
+	line "ständig an neuen"
+	cont "TMs."
 
 	para "Manche wurden"
 	line "eingestellt, aber"
@@ -85,8 +84,8 @@ SilphCo2FScientist1Text:
 	line "beliebt, dass sie"
 
 	para "seit über 30"
-	line "Jahren"
-	line "unverändert sind!"
+	line "Jahren unverändert"
+	cont "sind!"
 	done
 
 SilphCo2FScientist2Text:

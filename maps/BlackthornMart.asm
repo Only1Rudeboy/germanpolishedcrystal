@@ -41,8 +41,7 @@ BlackthornMartBlackbeltText:
 	cont "von dir fern."
 
 	para "Er wirkt am"
-	line "längsten von"
-	cont "allen"
+	line "längsten von allen"
 
 	para "Schutzsprays."
 	done

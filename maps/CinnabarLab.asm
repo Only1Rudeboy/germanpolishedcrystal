@@ -377,29 +377,27 @@ CinnabarLabRoom4SignText:
 	text "Projekt Amber"
 	line "Prüfraum"
 
-	para "KEIN ZUTRITT"
-	line "OHNE FREIGABE"
-	cont "STUFE 5"
+	para "KEIN ZUTRITT OHNE"
+	line "FREIGABE STUFE 5"
 	done
 
 CinnabarLabLockedDoorText:
-	text "Es ist"
-	line "verriegelt…"
+	text "Es ist verriegelt…"
 	done
 CinnabarLabContinueTestingText:
 	text "Setzt die Tests"
 	line "fort."
 
-	para "Eure Schöpfung"
-	line "hat sich bisher"
-	cont "sehr gut"
-	cont "bewährt, Dr.Fu--"
+	para "Eure Schöpfung hat"
+	line "sich bisher sehr"
+	cont "gut bewährt,"
+	cont "Dr.Fu--"
 	done
 
 CinnabarLabGiovanniWhoAreYouText:
-	text "Wer bist du?!"
-	line "Du gehörst nicht"
-	cont "zu Team Rocket."
+	text "Wer bist du?! Du"
+	line "gehörst nicht zu"
+	cont "Team Rocket."
 
 	para "Bist du ein Spion"
 	line "der Polizei?"
@@ -415,8 +413,7 @@ CinnabarLabGiovanniWhoAreYouText:
 	done
 
 CinnabarLabGiovanniAttackText:
-	text "Giovanni:"
-	line "Angriff!"
+	text "Giovanni: Angriff!"
 	done
 
 CinnabarLabGiovanniBeatenText:

@@ -26,17 +26,16 @@ SafariZoneEast_MapScriptHeader:
 GenericTrainerCowgirlApril:
 	generictrainer COWGIRL, APRIL, EVENT_BEAT_COWGIRL_APRIL, CowgirlAprilSeenText, CowgirlAprilBeatenText
 
-	text "Manchmal siehst"
-	line "du 10 gleiche"
+	text "Manchmal siehst du"
+	line "10 gleiche"
 
-	para "#mon hinter-"
-	line "einander!"
+	para "#mon"
+	line "hintereinander!"
 	done
 
 CowgirlAprilSeenText:
-	text "Juhu!"
-	line "Ich habe gerade"
-	cont "eine ganze"
+	text "Juhu! Ich habe"
+	line "gerade eine ganze"
 	cont "Herde #mon"
 	cont "gefangen!"
 	done

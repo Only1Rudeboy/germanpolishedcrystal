@@ -18,9 +18,9 @@ CeladonHotelRoom3_MapScriptHeader:
 CeladonHotelRoom3GrampsText:
 	text "Ich komme schon,"
 	line "seit ich ein"
-	cont "Knirps war,"
-	cont "jedes Jahr in"
-	cont "dieses Hotel."
+	cont "Knirps war, jedes"
+	cont "Jahr in dieses"
+	cont "Hotel."
 
 	para "Es fühlt sich fast"
 	line "wie ein zweites"

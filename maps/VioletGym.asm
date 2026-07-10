@@ -74,15 +74,13 @@ VioletGymFalknerScript:
 	line "lernen."
 
 	para "Eine VM kannst du"
-	line "so oft nutzen,"
-	cont "wie"
+	line "so oft nutzen, wie"
 	cont "du willst."
 
 	para "VM51 enthält"
 	line "Roost."
 
-	para "Es landet am"
-	line "Boden"
+	para "Es landet am Boden"
 	line "und stellt die"
 	cont "Hälfte der max KP"
 	cont "wieder her."
@@ -92,21 +90,20 @@ GenericTrainerBird_keeperRod:
 	generictrainer BIRD_KEEPER, ROD, EVENT_BEAT_BIRD_KEEPER_ROD, Bird_keeperRodSeenText, Bird_keeperRodBeatenText
 
 	text "FALKs Fähigkeiten"
-	line "sind unübertreff-"
-	cont "lich!"
+	line "sind"
+	cont "unübertrefflich!"
 
 	para "Du solltest dich"
-	line "nicht überschät-"
-	cont "zen, nur weil du"
-	cont "mich geschlagen"
-	cont "hast!"
+	line "nicht"
+	cont "überschätzen, nur"
+	cont "weil du mich"
+	cont "geschlagen hast!"
 	done
 GenericTrainerBird_keeperAbe:
 	generictrainer BIRD_KEEPER, ABE, EVENT_BEAT_BIRD_KEEPER_ABE, Bird_keeperAbeSeenText, Bird_keeperAbeBeatenText
 
 	text "Das ist peinlich!"
-	line "Von einem"
-	cont "Anfänger"
+	line "Von einem Anfänger"
 	cont "besiegt…"
 	done
 VioletGymGuyScript:
@@ -115,18 +112,17 @@ VioletGymGuyScript:
 	jumpthistextfaceplayer
 
 	text "Hey! Zwar bin ich"
-	line "kein Trainer,"
-	cont "aber"
+	line "kein Trainer, aber"
 	cont "ich kann dir gute"
 	cont "Tipps geben!"
 
-	para "Glaube mir!"
-	line "Wenn du es tust,"
+	para "Glaube mir! Wenn"
+	line "du es tust,"
 
 	para "kann dein Traum"
-	line "von der Meister-"
-	cont "schaft in Erfül-"
-	cont "lung gehen."
+	line "von der"
+	cont "Meisterschaft in"
+	cont "Erfüllung gehen."
 
 	para "Du glaubst mir?"
 	line "Dann pass auf!"
@@ -134,8 +130,7 @@ VioletGymGuyScript:
 	para "Typ Pflanze ist"
 	line "schwach gegen Typ"
 
-	para "Flug. Das"
-	line "solltest"
+	para "Flug. Das solltest"
 	line "du dir merken."
 	done
 VioletGymStatue:
@@ -155,23 +150,19 @@ FalknerIntroText:
 	line "ARENALEITER von"
 	cont "VIOLA CITY!"
 
-	para "Man sagt, dass"
-	line "man"
+	para "Man sagt, dass man"
 	line "die Flügel von"
 
 	para "Flug-#mon mit"
-	line "einem"
-	cont "elektrischen"
+	line "einem elektrischen"
 
 	para "Blitz stutzen"
 	line "kann…"
 
-	para "So etwas werde"
-	line "ich"
+	para "So etwas werde ich"
 	line "niemals zulassen!"
 
-	para "Ich werde dich"
-	line "die"
+	para "Ich werde dich die"
 	line "wahre Kraft der"
 
 	para "Flug-#mon"
@@ -185,14 +176,13 @@ FalknerWinLossText:
 	line "Vater hat Flug-"
 	cont "#mon geliebt…"
 
-	para "Also gut."
-	line "Nimm dies!"
+	para "Also gut. Nimm"
+	line "dies!"
 
-	para "Es ist der offi-"
-	line "zielle"
-	cont "FLÜGELORDEN"
-	cont "der #mon"
-	cont "LIGA."
+	para "Es ist der"
+	line "offizielle"
+	cont "FLÜGELORDEN der"
+	cont "#mon LIGA."
 	done
 
 
@@ -200,8 +190,8 @@ FalknerWinLossText:
 FalknerZephyrBadgeText:
 	text "Der FLÜGELORDEN"
 	line "stärkt den ANGR-"
-	cont "Wert deiner #-"
-	cont "MON."
+	cont "Wert deiner"
+	cont "#mon."
 
 	para "Außerdem können"
 	line "deine #mon"
@@ -226,8 +216,7 @@ FalknerFightDoneText:
 	cont "ARENEN beweisen."
 
 	para "Ich werde noch"
-	line "härter"
-	cont "trainieren,"
+	line "härter trainieren,"
 
 	para "um der größte Vo-"
 	line "gel-Experte aller"
@@ -240,13 +229,11 @@ Bird_keeperRodSeenText:
 	text "Das Motto lautet:"
 	line "Courage!"
 
-	para "Sie alle hier"
-	line "üben"
+	para "Sie alle hier üben"
 	line "Tag und Nacht,"
 
 	para "um Vogel-Meister-"
-	line "Trainer zu"
-	cont "werden."
+	line "Trainer zu werden."
 
 	para "Komm schon!"
 	done
@@ -254,25 +241,21 @@ Bird_keeperRodBeatenText:
 	text "Gaaah!"
 	done
 Bird_keeperAbeSeenText:
-	text "Lass mich heraus-"
-	line "finden, ob du gut"
-	cont "genug bist, um"
-	cont "ge-"
-	cont "gen FALK anzutre-"
-	cont "ten!"
+	text "Lass mich"
+	line "herausfinden, ob"
+	cont "du gut genug bist,"
+	cont "um gegen FALK"
+	cont "anzutreten!"
 	done
 Bird_keeperAbeBeatenText:
 	text "Das kann nicht"
 	line "wahr sein!"
 	done
 VioletGymGuyWinText:
-	text "Netter Kampf!"
-	line "Mach"
-	line "weiter so und"
-	cont "bald"
+	text "Netter Kampf! Mach"
+	line "weiter so und bald"
 
-	para "schon wirst du"
-	line "der"
+	para "schon wirst du der"
 	line "CHAMP sein!"
 	done
 VioletGymGuyFalknerAwayText:
@@ -284,8 +267,8 @@ VioletGymGuyFalknerAwayText:
 	line "DUNKELHOEHLE und"
 	cont "bändigt einen"
 
-	para "URSARING, das ei-"
-	line "nen jungen"
+	para "URSARING, das"
+	line "einen jungen"
 	cont "Trainer"
 	cont "angegriffen hat."
 

@@ -126,8 +126,7 @@ Oak:
 .NoShinyCharm
 	jumpthisopenedtext
 
-	text "Wenn du mal"
-	line "wieder"
+	text "Wenn du mal wieder"
 	line "in der Gegend"
 	cont "bist, dann schau"
 	cont "doch wieder rein."
@@ -195,8 +194,7 @@ EeveeDollScript:
 	jumpthisopenedtext
 
 	text "Prof.Eich: Stell"
-	line "es"
-	line "hin, wo du es"
+	line "es hin, wo du es"
 	cont "oft siehst!"
 	done
 
@@ -205,15 +203,14 @@ OakWelcomeKantoText:
 	line "Schön, dass du"
 
 	para "den weiten Weg"
-	line "nach KANTO"
-	cont "gemacht"
+	line "nach KANTO gemacht"
 	cont "hast."
 
 	para "Was hältst du von"
 	line "den Trainern hier"
 
-	para "draußen?"
-	line "Ziemlich stark,"
+	para "draußen? Ziemlich"
+	line "stark,"
 
 	para "was?"
 	done
@@ -239,16 +236,14 @@ OakLabGiveStarterText:
 	cont "ich dasselbe!"
 
 	para "Dieses #mon"
-	line "sieht man in"
-	cont "KANTO und JOHTO"
-	cont "selten."
+	line "sieht man in KANTO"
+	cont "und JOHTO selten."
 	done
 
 OakLabPartyAndBoxFullText:
-	text "Hm, du hast"
-	line "keinen"
+	text "Hm, du hast keinen"
 	line "Platz dafür und"
-	line "deine Box ist"
+	cont "deine Box ist"
 	cont "voll."
 	done
 
@@ -287,13 +282,12 @@ OakLabCatchCharmText:
 	para "Dann wird der"
 	line "#BALL genau"
 
-	para "geworfen und"
-	line "fängt eher!"
+	para "geworfen und fängt"
+	line "eher!"
 	done
 
 OakLabSeenAllText:
-	text "Du triffst"
-	line "ständig"
+	text "Du triffst ständig"
 	line "neue #mon,"
 
 	para "nicht wahr?"
@@ -307,8 +301,7 @@ OakLabOvalCharmText:
 	text "Mit einem Oval-"
 	line "Glücksbringer"
 
-	para "steigt die"
-	line "Chance,"
+	para "steigt die Chance,"
 	line "in der ZUCHT ein"
 	cont "Ei zu finden."
 	done
@@ -322,12 +315,11 @@ OakLabCaughtAllText:
 	para "Er zeugt von"
 	line "deinem Einsatz…"
 
-	para "Und von der"
-	line "Hilfe vieler…"
+	para "Und von der Hilfe"
+	line "vieler…"
 
-	para "Und von den"
-	line "Banden zu deinen"
-	cont "#mon!"
+	para "Und von den Banden"
+	line "zu deinen #mon!"
 
 	para "Nimm das als"
 	line "Belohnung für"
@@ -338,32 +330,28 @@ OakLabShinyCharmText:
 	text "Mit einem Shiny-"
 	line "Glücksbringer"
 
-	para "steigt die"
-	line "Chance,"
+	para "steigt die Chance,"
 	line "ein schillerndes"
 	cont "#mon zu finden!"
 	done
 
 
 OakMightBeReadyText:
-	text "EICH:"
-	line "Unglaublich,"
+	text "EICH: Unglaublich,"
 	line "<PLAYER>!"
 
 	para "Du hast die TOP"
 	line "VIER ein zweites"
 	cont "Mal besiegt!"
 
-	para "Vielleicht bist"
-	line "du"
+	para "Vielleicht bist du"
 	line "bereit für den"
 	cont "SILBERBERG."
 	done
 
 OakChallengeText:
 	text "EICH: Der SILBER-"
-	line "BERG ist ein"
-	cont "hoher"
+	line "BERG ist ein hoher"
 
 	para "Berg mit vielen"
 	line "wilden #mon."
@@ -375,25 +363,23 @@ OakChallengeText:
 	line "und verboten."
 
 	para "Ich muss deine"
-	line "Fähigkeiten"
-	cont "selbst"
+	line "Fähigkeiten selbst"
 	cont "prüfen."
 
-	para "Bist du bereit"
-	line "für einen Kampf?"
+	para "Bist du bereit für"
+	line "einen Kampf?"
 	done
 
 OakRefusedText:
-	text "EICH: Komm"
-	line "wieder,"
+	text "EICH: Komm wieder,"
 	line "wenn du bereit"
 	cont "bist."
 	done
 
 OakSeenText:
 	text "EICH: Gib in"
-	line "diesem"
-	line "Kampf alles!"
+	line "diesem Kampf"
+	cont "alles!"
 	done
 
 OakWinText:
@@ -403,13 +389,11 @@ OakWinText:
 	done
 
 OakOpenMtSilverText:
-	text "EICH: Wow! Das"
-	line "ist"
+	text "EICH: Wow! Das ist"
 	line "hervorragend!"
 
 	para "Du hast die ORDEN"
-	line "der ARENALEITER"
-	cont "in"
+	line "der ARENALEITER in"
 	cont "KANTO erkämpft."
 	cont "Gut gemacht!"
 
@@ -420,15 +404,13 @@ OakOpenMtSilverText:
 	para "Weißt du was,"
 	line "<PLAYER>? Ich"
 
-	para "werde es so ein-"
-	line "richten, dass du"
-	cont "zum SILBERBERG"
+	para "werde es so"
+	line "einrichten, dass"
+	cont "du zum SILBERBERG"
 	cont "gehen kannst."
 
-	para "Der SILBERBERG"
-	line "ist"
-	line "ein großes"
-	cont "Habitat"
+	para "Der SILBERBERG ist"
+	line "ein großes Habitat"
 
 	para "für viele wilde"
 	line "#mon."
@@ -440,8 +422,7 @@ OakOpenMtSilverText:
 	line "schnittstrainer."
 
 	para "Deshalb ist es"
-	line "verboten. Aber"
-	cont "für"
+	line "verboten. Aber für"
 	cont "dich, <PLAYER>,"
 	cont "können wir eine"
 	cont "Ausnahme machen."
@@ -449,8 +430,8 @@ OakOpenMtSilverText:
 	para "Steige auf das"
 	line "INDIGO PLATEAU."
 
-	para "Von dort kannst"
-	line "du den SILBERBERG"
+	para "Von dort kannst du"
+	line "den SILBERBERG"
 	cont "erreichen."
 	done
 
@@ -462,16 +443,14 @@ OakNoKantoBadgesText:
 	text "EICH: Hm? Du hast"
 	line "keine ORDEN der"
 
-	para "#mon-ARENEN"
-	line "in KANTO?"
+	para "#mon-ARENEN in"
+	line "KANTO?"
 
-	para "Die ARENALEITER"
-	line "in"
-	line "KANTO sind"
-	cont "genauso"
+	para "Die ARENALEITER in"
+	line "KANTO sind genauso"
 
-	para "stark wie die"
-	line "in JOHTO."
+	para "stark wie die in"
+	line "JOHTO."
 
 	para "Ich schlage vor,"
 	line "du forderst sie"
@@ -483,13 +462,12 @@ OakNoKantoBadgesText:
 
 
 OakNoEliteFourRematchText:
-	text "EICH: Wow! Das"
-	line "ist"
+	text "EICH: Wow! Das ist"
 	line "hervorragend!"
 
 	para "Du hast die ORDEN"
-	line "der ARENALEITER"
-	cont "in KANTO."
+	line "der ARENALEITER in"
+	cont "KANTO."
 
 	para "Jetzt kannst du"
 	line "die TOP VIER mit"
@@ -502,30 +480,26 @@ OakNoEliteFourRematchText:
 
 OakYesKantoBadgesText:
 	text "EICH: Ah, du"
-	line "sammelst ORDEN"
-	cont "der"
+	line "sammelst ORDEN der"
 	cont "ARENALEITER von"
 	cont "KANTO."
 
 	para "Ich kann mir"
 	line "vorstellen, dass"
 
-	para "es schwer für"
-	line "dich"
+	para "es schwer für dich"
 	line "ist, aber du"
-	cont "sammelst"
-	cont "wertvolle"
+	cont "sammelst wertvolle"
 	cont "Erfahrungen."
 
 	para "Besuche mich"
 	line "wieder, wenn du"
 
-	para "sie alle hast."
-	line "Ich gebe dir dann"
-	cont "ein Geschenk."
+	para "sie alle hast. Ich"
+	line "gebe dir dann ein"
+	cont "Geschenk."
 
-	para "Streng dich"
-	line "weiter"
+	para "Streng dich weiter"
 	line "so an, <PLAYER>!"
 	done
 
@@ -541,8 +515,7 @@ OaksAssistant1Text:
 	line "Radio gesendet."
 
 	para "Das ist schade."
-	line "Ich würde es"
-	cont "gerne"
+	line "Ich würde es gerne"
 	cont "hören."
 	done
 
@@ -553,8 +526,7 @@ OaksAssistant1Text:
 OaksAssistant2Text:
 	text "Die Forschungen"
 	line "des PROFESSORs"
-	cont "kommen dank"
-	cont "deiner"
+	cont "kommen dank deiner"
 
 	para "Arbeit am #DEX"
 	line "sehr gut voran."
@@ -588,8 +560,7 @@ OaksLabPoster1Text:
 
 
 OaksLabPoster2Text:
-	text "Möchtest du"
-	line "deinen"
+	text "Möchtest du deinen"
 	line "Spielstand von"
 
 	para "Zeit zu Zeit"
@@ -608,11 +579,9 @@ OaksLabPCText:
 
 	para "…"
 
-	para "Wie kommen Sie"
-	line "mit Ihren"
-	cont "Forschungen"
-	cont "voran,"
-	cont "PROF. EICH?"
+	para "Wie kommen Sie mit"
+	line "Ihren Forschungen"
+	cont "voran, PROF. EICH?"
 
 	para "Nun, ich ackere"
 	line "weiter."
@@ -621,11 +590,9 @@ OaksLabPCText:
 	line "gehört, dass"
 
 	para "sich <PLAYER>"
-	line "einen Namen"
-	cont "macht."
+	line "einen Namen macht."
 
-	para "Es freut mich,"
-	line "das"
+	para "Es freut mich, das"
 	line "zu hören."
 
 	para "PROF. LIND in"
@@ -637,9 +604,9 @@ OaksLabPCText:
 
 
 ProfOakEeveeDollTradeText:
-	text "EICH: Ach, bewun-"
-	line "derst du meine"
-	cont "Evoli-Puppe?"
+	text "EICH: Ach,"
+	line "bewunderst du"
+	cont "meine Evoli-Puppe?"
 
 	para "Ich tausche sie"
 	line "gegen einen"
@@ -676,7 +643,6 @@ EeveeDollSentText:
 
 
 OaksLabPokedexText:
-	text "Das ist"
-	line "Prof.Linds"
+	text "Das ist Prof.Linds"
 	line "#dex."
 	done

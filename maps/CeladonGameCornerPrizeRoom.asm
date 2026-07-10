@@ -214,8 +214,8 @@ CeladonGameCornerPrizeRoomGentlemanText:
 CeladonGameCornerPrizeRoomPharmacistText:
 	text "Puh…"
 
-	para "Ich muss ruhig"
-	line "und cool bleiben…"
+	para "Ich muss ruhig und"
+	line "cool bleiben…"
 
 	para "Verlier ich die"
 	line "Fassung, verlier"
@@ -226,8 +226,8 @@ CeladonPrizeRoom_PrizeVendorIntroText:
 	text "Willkommen!"
 
 	para "Wir tauschen deine"
-	line "Münzen gegen"
-	cont "tolle Preise!"
+	line "Münzen gegen tolle"
+	cont "Preise!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
@@ -274,6 +274,6 @@ CeladonPrizeRoom_ComeAgainText:
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? Du hast"
-	line "keinen Münzkorb."
+	text "Oh? Du hast keinen"
+	line "Münzkorb."
 	done

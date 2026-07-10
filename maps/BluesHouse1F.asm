@@ -30,8 +30,8 @@ DaisyScript:
 	para "in Vertania City."
 
 	para "Aber er ist so oft"
-	line "weg, das macht"
-	cont "den Trainern"
+	line "weg, das macht den"
+	cont "Trainern"
 
 	para "Probleme."
 	done
@@ -64,11 +64,10 @@ DaisyScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Daisy: So,"
-	line "fertig!"
+	text "Daisy: So, fertig!"
 
-	para "Sieht's nicht"
-	line "toll aus?"
+	para "Sieht's nicht toll"
+	line "aus?"
 
 	para "So ein süßes"
 	line "#mon."
@@ -117,15 +116,14 @@ DaisyScript:
 	done
 
 .OkayText:
-	text "Daisy: Okay, im"
-	line "Nu sieht's"
-	cont "toll aus."
+	text "Daisy: Okay, im Nu"
+	line "sieht's toll aus."
 	done
 
 .LooksContentText:
 	text_ram wStringBuffer3
-	text " sieht"
-	line "zufrieden aus."
+	text " sieht zufrieden"
+	line "aus."
 	done
 
 .EggMassage:

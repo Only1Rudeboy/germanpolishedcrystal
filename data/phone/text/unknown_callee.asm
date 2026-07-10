@@ -7,8 +7,7 @@ UnknownGenericText:
 
 	para ""
 	text_ram wStringBuffer4
-	text ","
-	line "besonders."
+	text ", besonders."
 
 	para "Immer wenn es"
 	line "einen Trainer"
@@ -24,9 +23,8 @@ UnknownGenericText:
 UnknownTougherThanEverText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " sieht"
-	line "taffer aus als"
-	cont "je."
+	text " sieht taffer aus"
+	line "als je."
 
 	para "Sogar taffer als"
 	line "ich!"

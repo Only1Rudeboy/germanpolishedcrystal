@@ -17,13 +17,12 @@ SaffronOrreSpeechHouse_MapScriptHeader:
 
 SaffronOrreSpeechHouseSilphEmployeeText:
 	text "Ich hörte von"
-	line "einer Methode,"
-	cont "das Herz eines"
-	cont "#mon"
+	line "einer Methode, das"
+	cont "Herz eines #mon"
 
 	para "zu versiegeln und"
-	line "es zum Angriff"
-	cont "auf Menschen zu"
+	line "es zum Angriff auf"
+	cont "Menschen zu"
 	cont "zwingen."
 
 	para "Wie kann man"

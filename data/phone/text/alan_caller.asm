@@ -1,26 +1,23 @@
 AlanGettingStrongerText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " wird"
-	line "stärker, genau"
-	cont "wie"
+	text " wird stärker,"
+	line "genau wie"
 
 	para "ich berechnet"
 	line "habe!"
 	done
 
 AlanDefeatedMonText:
-	text "Übrigens haben"
-	line "wir"
+	text "Übrigens haben wir"
 	line "ein wildes"
 
 	para ""
 	text_ram wStringBuffer4
-	text " vor"
-	line "ein paar Tagen"
+	text " vor ein paar"
+	line "Tagen"
 
-	para "besiegt. Vorher"
-	line "zu"
+	para "besiegt. Vorher zu"
 	line "lernen hat sich"
 	cont "gelohnt!"
 	done
@@ -45,9 +42,8 @@ AlanBattleRematchText:
 
 	para ""
 	text_ram wStringBuffer5
-	text "."
-	line "Kommst du zum"
-	cont "Kampf?"
+	text ". Kommst du zum"
+	line "Kampf?"
 	done
 
 AlanHangUpText:
@@ -60,19 +56,16 @@ AlanFoundItemText:
 	cont "gefunden!"
 
 	para "Du kannst es"
-	line "haben!"
-	line "Komm nach"
+	line "haben! Komm nach"
 
 	para ""
 	text_ram wStringBuffer5
-	text " und"
-	line "hol es ab!"
+	text " und hol es ab!"
 	done
 
 AlanHaventPickedUpAnythingText:
 	text "Ich hab noch"
-	line "nichts"
-	line "gefunden."
+	line "nichts gefunden."
 
 	para "Ich ruf an, wenn"
 	line "ich was finde."
@@ -92,9 +85,9 @@ AlanReminderText:
 	done
 
 AlanComePickUpGiftText:
-	text "Ich muss Hausauf-"
-	line "gaben machen,"
-	cont "also"
+	text "Ich muss"
+	line "Hausaufgaben"
+	cont "machen, also"
 
 	para "hol dein Geschenk"
 	line "gleich ab! Ich"

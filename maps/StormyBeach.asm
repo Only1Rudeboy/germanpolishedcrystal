@@ -31,14 +31,12 @@ StormyBeach_MapScriptHeader:
 GenericTrainerSwimmerfBarbara:
 	generictrainer SWIMMERF, BARBARA, EVENT_BEAT_SWIMMERF_BARBARA, .SeenText, .BeatenText
 
-	text "Die Strömung"
-	line "zieht"
+	text "Die Strömung zieht"
 	line "mich mit…"
 	done
 
 .SeenText:
-	text "Ich habe mich"
-	line "kurz"
+	text "Ich habe mich kurz"
 	line "ausgeruht, aber"
 
 	para "bin immer bereit"
@@ -55,14 +53,12 @@ GenericTrainerBird_keeperJulian:
 	generictrainer BIRD_KEEPER, JULIAN, EVENT_BEAT_BIRD_KEEPER_JULIAN, .SeenText, .BeatenText
 
 	text "An stürmischen"
-	line "Orten wie hier"
-	cont "ist"
+	line "Orten wie hier ist"
 	cont "Fliegen schwerer."
 	done
 
 .SeenText:
-	text "Ich trainiere"
-	line "hier"
+	text "Ich trainiere hier"
 	line "meine"
 	cont "Flug-#mon."
 
@@ -88,8 +84,8 @@ GenericTrainerCamperFelix:
 
 .SeenText:
 	text "Ich suche"
-	line "Brennholz."
-	cont "Hilfst du mir?"
+	line "Brennholz. Hilfst"
+	cont "du mir?"
 	done
 
 .BeatenText:
@@ -100,11 +96,11 @@ GenericTrainerCamperFelix:
 GenericTrainerPicnickerLily:
 	generictrainer PICNICKER, LILY, EVENT_BEAT_PICNICKER_LILY, .SeenText, .BeatenText
 
-	text "Ich kam zum Pick-"
-	line "nick, habe aber"
-	cont "das Essen"
-	cont "vergessen!"
-	cont "Wie peinlich!"
+	text "Ich kam zum"
+	line "Picknick, habe"
+	cont "aber das Essen"
+	cont "vergessen! Wie"
+	cont "peinlich!"
 	done
 
 .SeenText:
@@ -112,15 +108,13 @@ GenericTrainerPicnickerLily:
 	done
 
 .BeatenText:
-	text "Ich hab mit"
-	line "leerem"
+	text "Ich hab mit leerem"
 	line "Magen gekämpft!"
 	done
 
 StormyBeachSwimmermText:
 	text "Wir sind zum"
-	line "Campen"
-	line "hier,"
+	line "Campen hier,"
 
 	para "aber das Wetter"
 	line "sieht nicht gut"
@@ -129,12 +123,11 @@ StormyBeachSwimmermText:
 
 StormyBeachGrampsText:
 	text "Spürst du es in"
-	line "der"
-	line "Luft? Ein Sturm"
-	cont "zieht auf."
+	line "der Luft? Ein"
+	cont "Sturm zieht auf."
 
-	para "Ein passendes"
-	line "Omen für alle,"
+	para "Ein passendes Omen"
+	line "für alle,"
 
 	para "die den Sumpf"
 	line "erkunden wollen."

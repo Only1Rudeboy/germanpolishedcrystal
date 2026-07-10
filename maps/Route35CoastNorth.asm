@@ -22,8 +22,8 @@ Route35CoastNorth_MapScriptHeader:
 Route35CoastNorthAdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "Du kannst auch"
-	line "vom Rücken eines"
+	para "Du kannst auch vom"
+	line "Rücken eines"
 
 	para "surfenden #mon"
 	line "aus angeln!"

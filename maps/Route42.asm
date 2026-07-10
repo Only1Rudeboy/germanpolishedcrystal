@@ -276,11 +276,10 @@ FisherTully1Script:
 GenericTrainerHikerBenjamin:
 	generictrainer HIKER, BENJAMIN, EVENT_BEAT_HIKER_BENJAMIN, HikerBenjaminSeenText, HikerBenjaminBeatenText
 
-	text "Schaut man auf,"
-	line "in dieses"
-	cont "überwäl-"
-	cont "tigend schöne"
-	cont "Blau"
+	text "Schaut man auf, in"
+	line "dieses"
+	cont "überwältigend"
+	cont "schöne Blau"
 
 	para "des Himmels, dann"
 	line "verliert eine"
@@ -290,8 +289,7 @@ GenericTrainerHikerBenjamin:
 GenericTrainerPokemaniacShane:
 	generictrainer POKEMANIAC, SHANE, EVENT_BEAT_POKEMANIAC_SHANE, PokemaniacShaneSeenText, PokemaniacShaneBeatenText
 
-	text "Du erstellst"
-	line "einen"
+	text "Du erstellst einen"
 	line "#dex?"
 
 	para "Wow, du kennst"
@@ -299,8 +297,7 @@ GenericTrainerPokemaniacShane:
 	cont "sehr seltene"
 	cont "#mon!"
 
-	para "Darf ich bitte"
-	line "mal"
+	para "Darf ich bitte mal"
 	line "eines sehen?"
 	done
 MovementData_Route42LyraApproach4:
@@ -345,12 +342,11 @@ Route42LyraGreetingText:
 	para "Was für ein"
 	line "Zufall. Ich hab"
 
-	para "gerade die Aus-"
-	line "wirkungen der"
+	para "gerade die"
+	line "Auswirkungen der"
 
-	para "letzten Lawine"
-	line "auf wilde"
-	cont "#mon"
+	para "letzten Lawine auf"
+	line "wilde #mon"
 	cont "untersucht."
 
 	para "Du gehst nach"
@@ -360,18 +356,15 @@ Route42LyraGreetingText:
 	line "ORDEN?"
 
 	para "Dann hab ich ein"
-	line "Geschenk für"
-	cont "dich!"
+	line "Geschenk für dich!"
 
-	para "Aber du musst"
-	line "mich erst"
-	cont "besiegen!"
+	para "Aber du musst mich"
+	line "erst besiegen!"
 	done
 
 Route42LyraWinText:
 	text "Du hast dir das"
-	line "Geschenk"
-	line "verdient!"
+	line "Geschenk verdient!"
 	done
 
 Route42LyraLossText:
@@ -381,15 +374,15 @@ Route42LyraLossText:
 
 Route42LyraPresentText:
 	text "Lyra: Wow, du"
-	line "wirst echt"
-	cont "stark, <PLAYER>!"
+	line "wirst echt stark,"
+	cont "<PLAYER>!"
 
-	para "Ich bin sicher,"
-	line "du schaffst die"
+	para "Ich bin sicher, du"
+	line "schaffst die"
 	cont "MAHAGONIA-ARENA."
 
-	para "Und dann kannst"
-	line "du das hier"
+	para "Und dann kannst du"
+	line "das hier"
 	cont "einsetzen!"
 	done
 
@@ -399,25 +392,21 @@ Route42LyraWhirlpoolText:
 
 	para "Bring es einem"
 	line "#mon bei, um"
-	cont "wildes Wasser"
-	cont "zu"
+	cont "wildes Wasser zu"
 	cont "überqueren."
 
-	para "Ich muss los."
-	line "War schön, dich"
-	cont "zu sehen,"
-	cont "<PLAYER>!"
+	para "Ich muss los. War"
+	line "schön, dich zu"
+	cont "sehen, <PLAYER>!"
 
 	para "Tschüss!"
 	done
 
 FisherTully1SeenText:
-	text "Jetzt"
-	line "demonstriere"
+	text "Jetzt demonstriere"
 	line "ich dir die Kraft"
-	cont "des #mon,"
-	cont "das ich gefangen"
-	cont "habe!"
+	cont "des #mon, das"
+	cont "ich gefangen habe!"
 	done
 FisherTully1BeatenText:
 	text "Was? Das kann"
@@ -440,8 +429,7 @@ FisherTullyAfterBattleText:
 HikerBenjaminSeenText:
 	text "Ach, ist das"
 	line "schön, im Freien"
-	cont "zu sein! Ich"
-	cont "fühle"
+	cont "zu sein! Ich fühle"
 	cont "mich so frei!"
 	done
 
@@ -466,25 +454,23 @@ PokemaniacShaneSeenText:
 
 PokemaniacShaneBeatenText:
 	text "Ich hätte meinen"
-	line "MONDSTEIN"
-	cont "benutzen"
+	line "MONDSTEIN benutzen"
 	cont "sollen…"
 	done
 
 
 
 Route42OfficerText:
-	text "Tut mir leid,"
-	line "du kannst hier"
-	cont "nicht durch."
+	text "Tut mir leid, du"
+	line "kannst hier nicht"
+	cont "durch."
 
 	para "Auf dem KESSEL-"
 	line "BERG gab es eine"
 	cont "Lawine."
 
 	para "Wir räumen noch"
-	line "den Schutt"
-	cont "auf."
+	line "den Schutt auf."
 	done
 
 Route42Sign1Text:

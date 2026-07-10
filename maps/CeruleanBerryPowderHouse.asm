@@ -28,9 +28,8 @@ CeruleanBerryPowderHouseGrampsScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Medizin zu"
-	line "mischen war ein"
-	line "schöner"
+	text "Medizin zu mischen"
+	line "war ein schöner"
 
 	para "Job, aber ich"
 	line "verdiene eine"
@@ -38,8 +37,8 @@ CeruleanBerryPowderHouseGrampsScript:
 	done
 
 .Text1:
-	text "Beerenpulver?"
-	line "Tut mir leid, ich"
+	text "Beerenpulver? Tut"
+	line "mir leid, ich"
 
 	para "bin im Ruhestand."
 	line "Aber ich hab noch"

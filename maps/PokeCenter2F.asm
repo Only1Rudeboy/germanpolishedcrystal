@@ -262,8 +262,7 @@ Text_BattleReceptionistIntro:
 	cont "KOLOSSEUM."
 
 	para "Du kannst hier"
-	line "gegen einen"
-	cont "Freund"
+	line "gegen einen Freund"
 	cont "antreten."
 
 	para "Möchtest du gerne"
@@ -287,8 +286,7 @@ Text_TradeReceptionistIntro:
 
 Text_FriendNotReady:
 	text "Dein Freund ist"
-	line "noch nicht"
-	cont "fertig."
+	line "noch nicht fertig."
 	prompt
 
 Text_MustSaveGame:
@@ -308,12 +306,10 @@ Text_PleaseWait:
 Text_LinkTimedOut:
 	text "Die Verbindung"
 	line "wurde aufgrund"
-	cont "fehlender"
-	cont "Aktionen"
+	cont "fehlender Aktionen"
 	cont "abgebrochen."
 
-	para "Nimm bitte"
-	line "Kontakt"
+	para "Nimm bitte Kontakt"
 	line "mit deinem Freund"
 	cont "auf und komm dann"
 	cont "wieder."
@@ -361,7 +357,7 @@ Text_WrongGameID:
 Text_WrongVersion:
 	text "Eure"
 	line "Spielversionen"
-	line "stimmen nicht"
+	cont "stimmen nicht"
 	cont "überein."
 
 	para "Um im Link-"
@@ -373,11 +369,9 @@ Text_WrongVersion:
 	prompt
 
 Text_WrongMinVersion:
-	text "Dein Spiel"
-	line "erfüllt"
+	text "Dein Spiel erfüllt"
 	line "nicht die"
-	cont "Mindest-"
-	cont "version des"
+	cont "Mindestversion des"
 	cont "anderen Spiels."
 	prompt
 
@@ -388,8 +382,8 @@ Text_OtherPlayerWrongMinVersion:
 	prompt
 
 Text_WrongOptions:
-	text "Deine Spiel-"
-	line "einstellungen"
+	text "Deine"
+	line "Spieleinstellungen"
 	cont "sind"
 
 	para "nicht kompatibel"
@@ -399,8 +393,7 @@ Text_WrongOptions:
 
 Text_IncompatibleRooms:
 	text "Dein Freund hat"
-	line "einen anderen"
-	cont "Raum"
+	line "einen anderen Raum"
 	cont "gewählt."
 	prompt
 

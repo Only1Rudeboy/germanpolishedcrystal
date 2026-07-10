@@ -33,8 +33,7 @@ GoldenrodDeptStore1FGentlemanText:
 	cont "Auswahl."
 
 	para "Aber einige Items"
-	line "erhält man nur"
-	cont "als"
+	line "erhält man nur als"
 
 	para "Preis in der"
 	line "SPIELHALLE."
@@ -43,16 +42,15 @@ GoldenrodDeptStore1FGentlemanText:
 
 GoldenrodDeptStore1FPokefanFText:
 	text "Ich freue mich"
-	line "heute schon"
-	cont "wieder"
+	line "heute schon wieder"
 	cont "aufs Einkaufen!"
 	done
 
 
 GoldenrodDeptStore1FBugCatcherText:
 	text "Mama ist sehr gut"
-	line "im Schnäppchen-"
-	cont "finden."
+	line "im"
+	cont "Schnäppchenfinden."
 
 	para "Sie kauft ständig"
 	line "Waren unter dem"
@@ -63,18 +61,18 @@ GoldenrodDeptStore1FBugCatcherText:
 GoldenrodDeptStore1FDirectoryText:
 	text "EG INFO-SCHALTER"
 
-	para "1S TRAINER-"
-	line "   MARKT"
+	para "1S TRAINER-   "
+	line "MARKT"
 
-	para "2S KAMPF-"
-	line "   KOLLEKTION"
+	para "2S KAMPF-   "
+	line "KOLLEKTION"
 
 	para "3S ARZNEI"
 
 	para "4S TM-ECKE"
 
-	para "5S PLATZ DER"
-	line "   EWIGEN STILLE"
+	para "5S PLATZ DER   "
+	line "EWIGEN STILLE"
 
 	para "DACHTERRASSEN"
 	line "AUSSICHTSPLATTFO-"

@@ -68,7 +68,6 @@ ValenciaPortFisherText:
 	para "Diese Gewässer"
 	line "unterscheiden"
 
-	para "sich von denen"
-	line "in KANTO und"
-	cont "JOHTO."
+	para "sich von denen in"
+	line "KANTO und JOHTO."
 	done

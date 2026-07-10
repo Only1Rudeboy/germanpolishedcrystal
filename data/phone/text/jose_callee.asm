@@ -60,8 +60,8 @@ JoseGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " hat"
-	line "zu viel Energie."
+	text " hat zu viel"
+	line "Energie."
 
 	para "Wenn es losläuft,"
 	line "kommt es lange"

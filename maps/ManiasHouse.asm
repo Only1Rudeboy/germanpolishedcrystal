@@ -56,8 +56,7 @@ ManiaScript:
 .refusetotakeshuckie
 	jumpthisopenedtext
 
-	text "Ach nein… was"
-	line "soll"
+	text "Ach nein… was soll"
 	line "ich nur tun, wenn"
 	cont "er zurückkommt?"
 	done
@@ -97,8 +96,7 @@ ManiaScript:
 
 	text "Ach, nein, nein…"
 	line "das ist so, als"
-	cont "würde man"
-	cont "beraubt."
+	cont "würde man beraubt."
 	done
 
 .nothingleft
@@ -113,8 +111,8 @@ ManiaScript:
 .default_postevent
 	jumpthisopenedtext
 
-	text "Für #mon ist"
-	line "es das höchste"
+	text "Für #mon ist es"
+	line "das höchste"
 
 	para "Glück, wenn sie"
 	line "bei jemandem sein"
@@ -133,25 +131,24 @@ ManiaText_AskLookAfterShuckie:
 	text "Ich… ich bin"
 	line "schockiert!"
 
-	para "Ein Junge in dei-"
-	line "nem Alter mit"
+	para "Ein Junge in"
+	line "deinem Alter mit"
 
 	para "stechenden Augen"
 	line "und langen Haaren"
 	cont "kam hier rein."
 
-	para "Er hat mich ge-"
-	line "zwungen, ihm"
+	para "Er hat mich"
+	line "gezwungen, ihm"
 	cont "meine"
 	cont "preisgekrönten"
 	cont "#mon zu geben!"
 
-	para "Ich habe zwar"
-	line "noch"
+	para "Ich habe zwar noch"
 	line "eines übrig, aber"
 	cont "was soll ich tun,"
-	cont "wenn er zurück-"
-	cont "kommt?"
+	cont "wenn er"
+	cont "zurückkommt?"
 
 	para "Du siehst stark"
 	line "aus. Würdest du"
@@ -164,13 +161,11 @@ ManiaText_TakeCareOfShuckie:
 	line "dir!"
 
 	para "Bitte pass gut"
-	line "da-"
-	line "rauf auf!"
+	line "darauf auf!"
 	done
 ManiaText_GotShuckie:
 	text "<PLAYER> erhält"
-	line "ein"
-	line "#mon."
+	line "ein #mon."
 	done
 ManiaText_ShuckieSentToPC:
 	text "Das #mon wurde"
@@ -187,14 +182,13 @@ ManiaText_PartyAndBoxFull:
 
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hallo! Wie geht"
-	line "es"
+	text "Hallo! Wie geht es"
 	line "meinem #mon?"
 
 	para "Ich glaube, ich"
 	line "bin jetzt sicher."
-	cont "Kann ich es zu-"
-	cont "rück haben?"
+	cont "Kann ich es zurück"
+	cont "haben?"
 	done
 
 
@@ -213,9 +207,8 @@ ManiaText_ShuckieLikesYou:
 	cont "mögen."
 
 	para "Na gut, dann"
-	line "sollst du es be-"
-	cont "halten. Aber ver-"
-	cont "sprich mir, es"
-	cont "gut"
-	cont "zu behandeln."
+	line "sollst du es"
+	cont "behalten. Aber"
+	cont "versprich mir, es"
+	cont "gut zu behandeln."
 	done

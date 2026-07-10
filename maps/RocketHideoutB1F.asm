@@ -66,9 +66,9 @@ RocketHideoutB1FBlackBeltRylan:
 .Text
 	text "Du hast Mut…"
 
-	para "Vielleicht soll-"
-	line "test du Team"
-	line "Valor beitreten."
+	para "Vielleicht"
+	line "solltest du Team"
+	cont "Valor beitreten."
 	done
 
 .BeatenText:
@@ -84,18 +84,17 @@ RocketHideoutB1FScientistSanders:
 	cont "Strategin."
 
 	para "Sie entscheidet,"
-	line "wo wir"
-	line "stationiert sind."
+	line "wo wir stationiert"
+	cont "sind."
 	done
 
 .SeenText:
 	text "Team Mystic"
-	line "schätzt"
-	cont "Strategie."
+	line "schätzt Strategie."
 
 	para "Nur ein starker"
-	line "Verstand"
-	line "kann hier siegen."
+	line "Verstand kann hier"
+	cont "siegen."
 	done
 
 .BeatenText:
@@ -111,19 +110,18 @@ RocketHideoutB1FPicnickerZane:
 
 	para "Mal sehen, ob du"
 	line "weitermachen"
-	line "kannst!"
+	cont "kannst!"
 	done
 
 .SeenText:
 	text "Team Instinct"
-	line "bedeutet,"
-	cont "deinem Bauch-"
-	cont "gefühl zu"
+	line "bedeutet, deinem"
+	cont "Bauchgefühl zu"
 	cont "vertrauen."
 
 	para "Keine Zeit zum"
-	line "Denken,"
-	line "nur handeln!"
+	line "Denken, nur"
+	cont "handeln!"
 	done
 
 .BeatenText:
@@ -137,12 +135,11 @@ RocketHideoutB1FBattleGirlSasha:
 	generictrainer BATTLE_GIRL, SASHA, EVENT_BEAT_BATTLE_GIRL_SASHA, .SeenText, .BeatenText
 
 	text "Die Flamme von"
-	line "Valor"
-	line "brennt in dir."
+	line "Valor brennt in"
+	cont "dir."
 
 	para "Candelas Prüfung"
-	line "wird deine"
-	cont "Grenzen"
+	line "wird deine Grenzen"
 	cont "testen."
 	done
 
@@ -157,19 +154,18 @@ RocketHideoutB1FBattleGirlSasha:
 	done
 
 .BeatenText:
-	text "Deine Flamme…"
-	line "Zu hell!"
+	text "Deine Flamme… Zu"
+	line "hell!"
 	done
 
 RocketHideoutB1FLassMavis:
 	generictrainer LASS, MAVIS, EVENT_BEAT_LASS_MAVIS, .SeenText, .BeatenText
 
-	text "Sparks Kämpfe"
-	line "sind"
-	cont "unberechenbar."
+	text "Sparks Kämpfe sind"
+	line "unberechenbar."
 
-	para "Deshalb mische"
-	line "ich es!"
+	para "Deshalb mische ich"
+	line "es!"
 	done
 
 .SeenText:
@@ -181,6 +177,6 @@ RocketHideoutB1FLassMavis:
 
 .BeatenText:
 	text "Dein Instinkt ist"
-	line "wohl besser"
-	cont "als meiner."
+	line "wohl besser als"
+	cont "meiner."
 	done

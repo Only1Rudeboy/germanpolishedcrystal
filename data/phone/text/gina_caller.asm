@@ -1,8 +1,8 @@
 GinaGettingInSyncWithMonText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " und"
-	line "ich harmonieren"
+	text " und ich"
+	line "harmonieren"
 
 	para "immer besser."
 	done
@@ -10,16 +10,14 @@ GinaGettingInSyncWithMonText:
 GinaDefeatedMonText:
 	text "Wir kämpften"
 	line "gegen"
-	line "ein wildes"
+	cont "ein wildes"
 	cont ""
 	text_ram wStringBuffer4
 	text " und"
 
 	para "besiegten es"
-	line "knapp."
-	line "Wir finden"
-	cont "unseren"
-	cont "Rhythmus!"
+	line "knapp. Wir finden"
+	cont "unseren Rhythmus!"
 	done
 
 GinaLostAMonText:
@@ -27,8 +25,8 @@ GinaLostAMonText:
 
 	para "Ich hab "
 	text_ram wStringBuffer4
-	text " noch"
-	line "nicht gefangen."
+	text " noch nicht"
+	line "gefangen."
 
 	para "Das wird echt"
 	line "frustrierend…"
@@ -36,8 +34,7 @@ GinaLostAMonText:
 
 GinaBattleRematchText:
 	text "Willst du wieder"
-	line "mein"
-	cont "Übungspartner"
+	line "mein Übungspartner"
 	cont "sein?"
 
 	para "Ich warte auf"
@@ -46,14 +43,12 @@ GinaBattleRematchText:
 	text "."
 
 	para "…Könntest du mich"
-	line "nächstes Mal"
-	cont "etwas"
+	line "nächstes Mal etwas"
 	cont "schonen?"
 	done
 
 GinaHangUpText:
-	text "Tschüss! Reden"
-	line "wir"
+	text "Tschüss! Reden wir"
 	line "wieder!"
 	done
 
@@ -77,8 +72,7 @@ GinaFoundItemText:
 
 	para "Du sollst es"
 	line "haben, deshalb"
-	cont "rief"
-	cont "ich an!"
+	cont "rief ich an!"
 
 	para "Du kommst doch?"
 	line ""
@@ -87,20 +81,18 @@ GinaFoundItemText:
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, noch"
-	line "nichts"
+	text "Sorry, noch nichts"
 	line "Nützliches"
 	cont "gefunden…"
 
 	para "Wenn ich was"
-	line "finde,"
-	line "bekommst du es!"
+	line "finde, bekommst du"
+	cont "es!"
 	done
 
 GinaReminderText:
-	text "Oh, <PLAYER>!"
-	line "Wann kommst du"
-	cont "zum"
+	text "Oh, <PLAYER>! Wann"
+	line "kommst du zum"
 	cont "Kampf?"
 
 	para "Vergiss nicht"
@@ -111,8 +103,8 @@ GinaReminderText:
 
 GinaComePickUpText:
 	text "Ich werde"
-	line "ungeduldig"
-	line "mit dem Geschenk!"
+	line "ungeduldig mit dem"
+	cont "Geschenk!"
 
 	para "Beeil dich nach"
 	line ""

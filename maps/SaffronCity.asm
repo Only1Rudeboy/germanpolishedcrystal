@@ -67,16 +67,15 @@ SaffronCityLass1Script:
 	text "Hier lebt ein"
 	line "kleines Mädchen,"
 
-	para "das darin exzel-"
-	line "liert, andere"
+	para "das darin"
+	line "exzelliert, andere"
 	cont "nachzuahmen."
 
-	para "Sie ahmt sogar"
-	line "die Person nach,"
+	para "Sie ahmt sogar die"
+	line "Person nach,"
 
-	para "mit der sie"
-	line "gerade spricht."
-	line "Das ist"
+	para "mit der sie gerade"
+	line "spricht. Das ist"
 	cont "verwirrend."
 	done
 
@@ -90,9 +89,9 @@ SaffronCityPokefanMScript:
 
 	para "Du kannst schnell"
 	line "nach Hause"
-	cont "zurückkehren,"
-	cont "wenn der MAGNET-"
-	cont "ZUG fährt."
+	cont "zurückkehren, wenn"
+	cont "der MAGNET- ZUG"
+	cont "fährt."
 	done
 
 
@@ -105,8 +104,7 @@ SaffronCityFisherScript:
 
 	para "Wie ich höre,"
 	line "braut sich da"
-	cont "etwas im"
-	cont "KRAFTWERK"
+	cont "etwas im KRAFTWERK"
 	cont "zusammen."
 
 	para "Mampf… Mampf…"
@@ -134,8 +132,8 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 
 	para "Mit dem MAGNETZUG"
 	line "bist du ganz"
-	cont "schnell wieder"
-	cont "zu Hause."
+	cont "schnell wieder zu"
+	cont "Hause."
 	done
 
 
@@ -145,10 +143,9 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 
 SaffronCityCooltrainerMText:
 	text "Ich ging zur"
-	line "#mon-"
-	line "ARENA, weil ich"
-	cont "unbedingt kämpfen"
-	cont "wollte…"
+	line "#mon- ARENA,"
+	cont "weil ich unbedingt"
+	cont "kämpfen wollte…"
 
 	para "Wie sich heraus-"
 	line "stellte, bin ich"
@@ -174,8 +171,7 @@ SaffronCityCooltrainerFText:
 	cont "ihre #mon-"
 	cont "Artikel."
 
-	para "TEAM ROCKET"
-	line "wollte"
+	para "TEAM ROCKET wollte"
 	line "sie wegen dieser"
 
 	para "Waren für sich"
@@ -192,13 +188,11 @@ SaffronCityFisherText_ReturnedMachinePart:
 
 	para "Wie ich höre,"
 	line "braute sich da"
-	cont "etwas im"
-	cont "KRAFTWERK"
+	cont "etwas im KRAFTWERK"
 	cont "zusammen."
 
-	para "Mampf… Mampf…"
-	line "Aah, ich bin"
-	cont "satt!"
+	para "Mampf… Mampf… Aah,"
+	line "ich bin satt!"
 	done
 
 
@@ -210,8 +204,7 @@ SaffronCityYoungster1Text:
 	text "Ich finde es"
 	line "unheimlich, wenn"
 
-	para "ich zum ersten"
-	line "Mal"
+	para "ich zum ersten Mal"
 	line "einen engen Gang"
 	cont "betrete."
 	done
@@ -228,8 +221,7 @@ SaffronCityYoungster2Text:
 	para "für TRAINER. Dort"
 	line "treffen sich"
 
-	para "Trainer der"
-	line "ganzen"
+	para "Trainer der ganzen"
 	line "Welt."
 	done
 
@@ -240,12 +232,10 @@ SaffronCityYoungster2Text:
 
 SaffronCityLass2Text:
 	text "Über unsere Stadt"
-	line "wurde mal im"
-	cont "Radio"
+	line "wurde mal im Radio"
 	cont "berichtet."
 
-	para "Es ist schön,"
-	line "dass"
+	para "Es ist schön, dass"
 	line "für deine Stadt"
 
 	para "geworben wird,"
@@ -260,12 +250,12 @@ SaffronCityLass2Text:
 
 
 SaffronCityBlackBelt1Text:
-	text "Jeden Morgen,"
-	line "wenn ich"
-	line "aufwache, laufe"
+	text "Jeden Morgen, wenn"
+	line "ich aufwache,"
+	cont "laufe"
 
-	para "ich zwei Runden"
-	line "um die Stadt."
+	para "ich zwei Runden um"
+	line "die Stadt."
 
 	para "So starte ich"
 	line "perfekt in den"
@@ -274,11 +264,10 @@ SaffronCityBlackBelt1Text:
 
 SaffronCityBlackBelt2Text:
 	text "Wär ich ein Item,"
-	line "wär ich"
-	cont "X-Angriff."
+	line "wär ich X-Angriff."
 
-	para "Ich strotze"
-	line "nur so vor Kraft,"
+	para "Ich strotze nur so"
+	line "vor Kraft,"
 
 	para "das X klingt"
 	line "einfach cool."
@@ -308,29 +297,26 @@ SaffronCityScientistText:
 	para "arbeiten wir"
 	line "unermüdlich an"
 	cont "seinem"
-	cont "Nachfolger--"
-	cont "dem SILPH-SCOPE2!"
+	cont "Nachfolger-dem"
+	cont "SILPH-SCOPE2!"
 	done
 
 SaffronCitySilphEmployeeText:
 	text "SILPH ist nach"
 	line "einem mythischen"
-	cont "Luftgeist"
-	cont "benannt."
+	cont "Luftgeist benannt."
 
 	para "Was das mit dem"
-	line "Geschäft der"
-	cont "Firma"
+	line "Geschäft der Firma"
 
-	para "zu tun hat,"
-	line "weiß ich nicht."
+	para "zu tun hat, weiß"
+	line "ich nicht."
 	done
 
 SaffronCitySignText:
 	text "SAFFRONIA CITY"
 
-	para "Golden"
-	line "Schimmernde"
+	para "Golden Schimmernde"
 	line "Stadt des Handels"
 	done
 
@@ -354,8 +340,8 @@ SaffronGymSignText:
 
 
 FightingDojoSignText:
-	text "Willkommen!"
-	line "KARATE DOJO"
+	text "Willkommen! KARATE"
+	line "DOJO"
 	done
 
 
@@ -374,8 +360,8 @@ SilphCoSignText:
 
 
 MrPsychicsHouseSignText:
-	text "HAUS von"
-	line "MR. PSYCHO"
+	text "HAUS von MR."
+	line "PSYCHO"
 	done
 
 
@@ -385,8 +371,7 @@ MrPsychicsHouseSignText:
 
 SaffronCityMagnetTrainStationSignText:
 	text "SAFFRONIA CITY"
-	line "MAGNETZUG-"
-	cont "BAHNHOF"
+	line "MAGNETZUG- BAHNHOF"
 	done
 
 
@@ -399,8 +384,8 @@ PokemonTrainerFanClubSignText:
 	line "Fan-Club"
 
 	para "Viele Trainer"
-	line "haben hier"
-	line "ihre Namen"
+	line "haben hier ihre"
+	cont "Namen"
 	cont "hinterlassen…"
 	done
 
@@ -419,8 +404,7 @@ SaffronTrainerTips2Text:
 
 	para "Nutze Flottbälle"
 	line "früh im Kampf."
-	cont "Später"
-	cont "Timerbälle."
+	cont "Später Timerbälle."
 
 	para "Sie kosten mehr"
 	line "als #BÄLLE,"

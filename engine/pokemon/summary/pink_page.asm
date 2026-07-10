@@ -257,7 +257,7 @@ INCLUDE "gfx/stats/pink_page.pal"
 	done
 
 .Rental_OT:
-	text  "Leih-"
+	text "Leih-"
 	next1 "  #mon"
 	done
 

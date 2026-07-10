@@ -50,12 +50,10 @@ FuchsiaCityFlyPoint:
 	endcallback
 
 FuchsiaCityYoungsterText:
-	text "Einer der TOP"
-	line "VIER"
+	text "Einer der TOP VIER"
 	line "war früher einmal"
 
-	para "der ARENALEITER"
-	line "in"
+	para "der ARENALEITER in"
 	line "FUCHSANIA CITY."
 	done
 
@@ -89,17 +87,16 @@ FuchsiaCityTeacherText:
 
 
 FuchsiaCityPokefanFText:
-	text "Als der WÄRTER"
-	line "der SAFARI-ZONE"
-	line "weg war,"
+	text "Als der WÄRTER der"
+	line "SAFARI-ZONE weg"
+	cont "war,"
 
-	para "gab es keinen"
-	line "mehr für den Zoo."
+	para "gab es keinen mehr"
+	line "für den Zoo."
 
 	para "Also wurden die"
 	line "#mon in die"
-	cont "Wildnis"
-	cont "entlassen."
+	cont "Wildnis entlassen."
 	done
 
 FuchsiaCitySignText:
@@ -140,12 +137,11 @@ SafariZoneOfficeSignText:
 
 
 SafariZoneOfficeClosedSignText:
-	text "Es ist"
-	line "verriegelt…"
+	text "Es ist verriegelt…"
 	done
 WardensHomeSignText:
-	text "SAFARI-ZONE"
-	line "HAUS DES WÄRTERs"
+	text "SAFARI-ZONE HAUS"
+	line "DES WÄRTERs"
 	done
 
 
@@ -156,22 +152,19 @@ SafariZoneClosedSignText:
 	line "verreist. Deshalb"
 
 	para "ist die SAFARI-"
-	line "ZONE"
-	cont "geschlossen."
+	line "ZONE geschlossen."
 	done
 
 
 
 
 NoLitteringSignText:
-	text "Verunreinigung"
-	line "des"
+	text "Verunreinigung des"
 	line "Parks ist"
 	cont "verboten."
 
-	para "Hinterlasse"
-	line "bitte keinen"
-	cont "Abfall."
+	para "Hinterlasse bitte"
+	line "keinen Abfall."
 	done
 
 
@@ -185,8 +178,7 @@ SafariZoneExhibitSignText:
 HouseForSaleSignText:
 	text "Was ist das?"
 
-	para "Haus zu"
-	line "verkaufen…"
+	para "Haus zu verkaufen…"
 	line "Hier wohnt"
 	cont "niemand."
 	done

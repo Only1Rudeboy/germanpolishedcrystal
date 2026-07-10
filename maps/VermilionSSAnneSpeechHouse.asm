@@ -38,11 +38,10 @@ VermilionSSAnneSpeechHouseGrampsText:
 	done
 
 VermilionSSAnneSpeechHouseBeautyText:
-	text "Ich hab ein"
-	line "Modell der"
-	line "M.S. Anne"
+	text "Ich hab ein Modell"
+	line "der M.S. Anne"
 
-	para "in einem Ozean-"
-	line "museum weit weg"
-	cont "gesehen."
+	para "in einem"
+	line "Ozeanmuseum weit"
+	cont "weg gesehen."
 	done

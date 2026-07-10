@@ -25,8 +25,7 @@ PewterMartYoungsterText:
 	line "KARPADOR auf-"
 	cont "gezogen. Kaum zu"
 
-	para "glauben, wie"
-	line "stark"
+	para "glauben, wie stark"
 	line "es geworden ist."
 	done
 
@@ -35,8 +34,7 @@ PewterMartYoungsterText:
 PewterMartSuperNerdText:
 	text "Es gab mal einen"
 	line "komischen, alten"
-	cont "Mann, der"
-	cont "KARPADOR"
+	cont "Mann, der KARPADOR"
 	cont "verkaufte."
 
 	para "Er sagte immer,"

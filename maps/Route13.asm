@@ -35,20 +35,19 @@ Route13GrampsScript:
 	iftruefwd .lucky
 	jumpthistextfaceplayer
 
-	text "Heute kann ich"
-	line "die Glücks-Insel"
-	cont "nicht sehen…"
+	text "Heute kann ich die"
+	line "Glücks-Insel nicht"
+	cont "sehen…"
 
-	para "Aber ich weiß,"
-	line "sie war schon"
-	cont "mal da!"
+	para "Aber ich weiß, sie"
+	line "war schon mal da!"
 	done
 
 .lucky
 	jumpthistextfaceplayer
 
-	text "Heute kann ich"
-	line "die Glücks-Insel"
+	text "Heute kann ich die"
+	line "Glücks-Insel"
 	cont "sehen!"
 
 	para "Was für ein"
@@ -58,24 +57,21 @@ Route13GrampsScript:
 GenericTrainerCamperClark:
 	generictrainer CAMPER, CLARK, EVENT_BEAT_CAMPER_CLARK, .SeenText, .BeatenText
 
-	text "Es ist egal,"
-	line "wie gut du dich"
-	cont "vorbereitet"
-	cont "hast."
+	text "Es ist egal, wie"
+	line "gut du dich"
+	cont "vorbereitet hast."
 
-	para "Wenn du"
-	line "verlierst,"
+	para "Wenn du verlierst,"
 	line "verlierst du."
 	done
 
 .SeenText:
 	text "Wasser sammeln!"
 	line "Lass das Feuer"
-	cont "nicht"
-	cont "ausgehen!"
+	cont "nicht ausgehen!"
 
-	para "Achtung vor"
-	line "wilden #mon!"
+	para "Achtung vor wilden"
+	line "#mon!"
 
 	para "Los geht's,"
 	line "Campfire!"
@@ -98,8 +94,7 @@ GenericTrainerPicnickerGinger:
 
 .SeenText:
 	text "Warum bekomme ich"
-	line "draußen immer"
-	cont "Lust"
+	line "draußen immer Lust"
 	cont "zu pfeifen?"
 	done
 
@@ -116,9 +111,9 @@ GenericTrainerBird_keeperPerry:
 	done
 Bird_keeperPerrySeenText:
 	text "Agilität ist die"
-	line "wichtigste Eigen-"
-	cont "schaft von Vogel-"
-	cont "#mon."
+	line "wichtigste"
+	cont "Eigenschaft von"
+	cont "Vogel- #mon."
 	done
 Bird_keeperPerryBeatenText:
 	text "Du hast mich"
@@ -131,8 +126,7 @@ GenericTrainerBird_keeperBret:
 
 	text "Wenn du deine"
 	line "#mon pflegst,"
-	cont "sind sie"
-	cont "fröhlich."
+	cont "sind sie fröhlich."
 	done
 Bird_keeperBretSeenText:
 	text "Schau dir meine"
@@ -142,8 +136,8 @@ Bird_keeperBretSeenText:
 	line "ihr Gefieder."
 	done
 Bird_keeperBretBeatenText:
-	text "Verflixt!"
-	line "Nicht gut genug!"
+	text "Verflixt! Nicht"
+	line "gut genug!"
 	done
 GenericTrainerCamperTanner:
 	generictrainer CAMPER, TANNER, EVENT_BEAT_CAMPER_TANNER, .SeenText, .BeatenText
@@ -167,16 +161,14 @@ GenericTrainerCamperTanner:
 GenericTrainerPicnickerPiper:
 	generictrainer PICNICKER, PIPER, EVENT_BEAT_PICNICKER_PIPER, .SeenText, .BeatenText
 
-	text "Deine Art zu"
-	line "gehen"
+	text "Deine Art zu gehen"
 	line "ließ mich denken,"
 	cont "ich könnte"
 	cont "gewinnen."
 	done
 
 .SeenText:
-	text "Wie wäre es,"
-	line "deine"
+	text "Wie wäre es, deine"
 	line "#mon und meine"
 
 	para "für einen Kampf"
@@ -200,11 +192,10 @@ GenericTrainerCoupleTimandsue1:
 .SeenText:
 	text "Tim: Ich geb dir"
 	line "einen kleinen"
-	line "Tipp."
+	cont "Tipp."
 
-	para "Meine Freundin"
-	line "ist stärker als"
-	cont "ich!"
+	para "Meine Freundin ist"
+	line "stärker als ich!"
 	done
 
 .BeatenText:
@@ -216,11 +207,10 @@ GenericTrainerCoupleTimandsue2:
 	generictrainer COUPLE, TIMANDSUE2, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
 	text "Sue: Diese Stärke"
-	line "von dir…"
-	cont "Ich hab's!"
+	line "von dir… Ich"
+	cont "hab's!"
 
-	para "Bist du"
-	line "verliebt?"
+	para "Bist du verliebt?"
 	done
 
 .SeenText:
@@ -228,8 +218,8 @@ GenericTrainerCoupleTimandsue2:
 	line "die Liebe nicht"
 
 	para "ernst nehmen,"
-	line "könnten"
-	cont "verletzt werden."
+	line "könnten verletzt"
+	cont "werden."
 	done
 
 .BeatenText:
@@ -239,16 +229,13 @@ GenericTrainerCoupleTimandsue2:
 GenericTrainerPokefanmAlex:
 	generictrainer POKEFANM, ALEX, EVENT_BEAT_POKEFANM_ALEX, PokefanmAlexSeenText, PokefanmAlexBeatenText
 
-	text "Möchte nicht"
-	line "jeder"
-	line "eines Tages"
-	cont "einmal"
+	text "Möchte nicht jeder"
+	line "eines Tages einmal"
 	cont "König sein?"
 	done
 PokefanmAlexSeenText:
 	text "Verbeuge dich vor"
-	line "meinen"
-	cont "königlichen"
+	line "meinen königlichen"
 	cont "#mon!"
 	done
 
@@ -257,8 +244,8 @@ PokefanmAlexSeenText:
 
 
 PokefanmAlexBeatenText:
-	text "Wie… wie kannst"
-	line "du es wagen, die"
+	text "Wie… wie kannst du"
+	line "es wagen, die"
 	cont "Monarchie zu"
 	cont "verspotten?"
 	done
@@ -273,10 +260,8 @@ GenericTrainerPokefanmJoshua:
 	text "Es scheint, dass"
 	line "du viele #mon"
 
-	para "hast, aber"
-	line "PIKACHU"
-	line "ist immer noch"
-	cont "das"
+	para "hast, aber PIKACHU"
+	line "ist immer noch das"
 	cont "Beste."
 	done
 PokefanmJoshuaSeenText:
@@ -302,10 +287,10 @@ GenericTrainerHikerKenny:
 	generictrainer HIKER, KENNY, EVENT_BEAT_HIKER_KENNY, HikerKennySeenText, HikerKennyBeatenText
 
 	text "Es scheint, als"
-	line "würden sich geo-"
-	cont "logische Gegeben-"
-	cont "heiten nicht"
-	cont "ändern."
+	line "würden sich"
+	cont "geologische"
+	cont "Gegebenheiten"
+	cont "nicht ändern."
 
 	para "Aber sie ändern"
 	line "sich, langsam,"
@@ -323,8 +308,7 @@ HikerKennySeenText:
 
 
 HikerKennyBeatenText:
-	text "Ich habe"
-	line "verloren…"
+	text "Ich habe verloren…"
 	done
 
 
@@ -342,8 +326,8 @@ Route13TrainerTips2Text:
 	text "TIPPS für TRAINER"
 
 	para "Manche #mon"
-	line "brauchen Items,"
-	cont "um sich zu"
+	line "brauchen Items, um"
+	cont "sich zu"
 	cont "entwickeln."
 
 	para "Mit etwas Glück"

@@ -93,7 +93,7 @@ WillScript:
 
 	para "trainiert und"
 	line "meine"
-	line "Psycho-#mon"
+	cont "Psycho-#mon"
 	cont "gestärkt."
 
 	para "Endlich wurde ich"
@@ -104,20 +104,18 @@ WillScript:
 	line "stärker werden!"
 
 	para "Verlieren ist"
-	line "keine"
-	line "Option!"
+	line "keine Option!"
 	done
 
 .BeatenText:
-	text "Ich… ich kann…"
-	line "es nicht glauben…"
+	text "Ich… ich kann… es"
+	line "nicht glauben…"
 	done
 .AfterText:
 	text "Auch wenn ich"
 	line "besiegt wurde,"
 	cont "werde ich an"
-	cont "meiner"
-	cont "Überzeugung"
+	cont "meiner Überzeugung"
 	cont "festhalten."
 
 	para "Ich werde weiter"
@@ -127,8 +125,7 @@ WillScript:
 	line "alle anderen"
 	cont "Trainer!"
 
-	para "<PLAYER>,"
-	line "schreite"
+	para "<PLAYER>, schreite"
 	line "voran und lerne"
 
 	para "die Grausamkeit"
@@ -144,8 +141,8 @@ WillScript:
 	line "Kampftechnik"
 	cont "beobachtet."
 
-	para "Ich bin bereit"
-	line "für dich!"
+	para "Ich bin bereit für"
+	line "dich!"
 
 	para "In Ordnung."
 
@@ -154,9 +151,8 @@ WillScript:
 	done
 
 .AfterRematchText:
-	text "Ich habe all"
-	line "meine Kraft"
-	cont "verbraucht."
+	text "Ich habe all meine"
+	line "Kraft verbraucht."
 
 	para "Ich bereue nicht,"
 	line "so zu verlieren."

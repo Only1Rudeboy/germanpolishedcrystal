@@ -47,8 +47,8 @@ NewsMachineOffText:
 	cont "Bewertungs-"
 	cont "maschine!"
 
-	para "Sie ist noch"
-	line "nicht in Betrieb…"
+	para "Sie ist noch nicht"
+	line "in Betrieb…"
 	done
 
 NewsMachineIntroText:

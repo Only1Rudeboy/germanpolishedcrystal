@@ -286,11 +286,10 @@ BugCatchingContestant3BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant3BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "LARS: Gut"
-	line "gemacht! Ich"
-	cont "werde meine"
-	cont "#MON"
-	cont "besser trainieren."
+	text "LARS: Gut gemacht!"
+	line "Ich werde meine"
+	cont "#MON besser"
+	cont "trainieren."
 	done
 
 
@@ -317,9 +316,8 @@ BugCatchingContestant5BScript:
 	jumpthistextfaceplayer
 
 	text "AXEL: Glückwunsch!"
-	line "Du hast dir"
-	cont "meinen Respekt"
-	cont "verdient!"
+	line "Du hast dir meinen"
+	cont "Respekt verdient!"
 	done
 
 
@@ -417,8 +415,8 @@ Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
 	text "Gut. Warte bitte"
 	line "hier auf die"
 
-	para "Bekanntgabe"
-	line "der Sieger."
+	para "Bekanntgabe der"
+	line "Sieger."
 	done
 
 
@@ -438,8 +436,7 @@ Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
 BugCatchingContestant1BStillCompetingText:
 	text "ULI: Glück spielt"
 	line "natürlich eine"
-	cont "große Rolle"
-	cont "dabei."
+	cont "große Rolle dabei."
 
 	para "Man weiß nie,"
 	line "welches #mon"
@@ -464,8 +461,7 @@ BugCatchingContestant3BStillCompetingText:
 	text "LARS: Vielleicht"
 	line "erhältst du eine"
 
-	para "höhere Wertung"
-	line "für"
+	para "höhere Wertung für"
 	line "ein #mon mit"
 	cont "ungewöhnlicher"
 	cont "Farbe."
@@ -476,8 +472,7 @@ BugCatchingContestant3BStillCompetingText:
 
 
 BugCatchingContestant4BStillCompetingText:
-	text "WILHELM: Also,"
-	line "ich"
+	text "WILHELM: Also, ich"
 	line "bin zufrieden,"
 
 	para "denn ich habe ein"
@@ -492,10 +487,8 @@ BugCatchingContestant4BStillCompetingText:
 
 BugCatchingContestant5BStillCompetingText:
 	text "AXEL: Ich habe"
-	line "vorher ein"
-	cont "SICHLOR"
-	cont "gefangen. Aber"
-	cont "ich"
+	line "vorher ein SICHLOR"
+	cont "gefangen. Aber ich"
 	cont "konnte nicht"
 	cont "siegen."
 	done
@@ -509,8 +502,7 @@ BugCatchingContestant6BStillCompetingText:
 	line "Käfer-#mon, das"
 
 	para "einen hohen Level"
-	line "hat, steigen"
-	cont "deine"
+	line "hat, steigen deine"
 	cont "Gewinnchancen."
 
 	para "Ich glaube aber,"
@@ -558,8 +550,7 @@ BugCatchingContestant9BStillCompetingText:
 
 BugCatchingContestant10BStillCompetingText:
 	text "MICHEL: Ich habe"
-	line "viel gelernt,"
-	cont "aber"
+	line "viel gelernt, aber"
 
 	para "noch nicht genug,"
 	line "um zu siegen."
@@ -572,10 +563,9 @@ BugCatchingContestant10BStillCompetingText:
 
 UnusedSilphScope2Text: ; unreferenced
 	text "Ich habe gehört,"
-	line "dass es ein #-"
-	cont "MON gibt, das"
-	cont "aus-"
-	cont "sieht wie ein"
+	line "dass es ein"
+	cont "#mon gibt, das"
+	cont "aussieht wie ein"
 
 	para "Baum. Du kannst"
 	line "seine Identität"
@@ -591,10 +581,9 @@ UnusedSilphScope2Text: ; unreferenced
 ; This text is referring to Sudowoodo.
 ; The SILPHSCOPE2 was later reworked into the SQUIRTBOTTLE.
 	text "Ich habe gehört,"
-	line "dass es ein #-"
-	cont "MON gibt, das"
-	cont "aus-"
-	cont "sieht wie ein"
+	line "dass es ein"
+	cont "#mon gibt, das"
+	cont "aussieht wie ein"
 
 	para "Baum. Du kannst"
 	line "seine Identität"
@@ -623,8 +612,7 @@ Route36NationalParkGateOfficer1HeresThePrizeText:
 	text "<PLAYER>?"
 
 	para "Hier ist der"
-	line "Preis, den wir"
-	cont "für"
+	line "Preis, den wir für"
 	cont "dich aufbewahrt"
 	cont "haben."
 	done

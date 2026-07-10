@@ -42,10 +42,10 @@ BugCatchingContestant1AScript:
 BugCatchingContestant2AScript:
 	jumpthistextfaceplayer
 
-	text "ALAN: Mein"
-	line "PARASEK versetzt"
-	cont "#mon mit Sporo"
-	cont "in Schlaf."
+	text "ALAN: Mein PARASEK"
+	line "versetzt #mon"
+	cont "mit Sporo in"
+	cont "Schlaf."
 	done
 
 BugCatchingContestant3AScript:
@@ -75,8 +75,7 @@ BugCatchingContestant5AScript:
 	line "verscheuchst noch"
 	cont "SICHLOR."
 
-	para "Wir reden"
-	line "später."
+	para "Wir reden später."
 	done
 
 BugCatchingContestant6AScript:

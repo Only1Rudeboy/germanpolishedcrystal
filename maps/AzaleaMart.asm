@@ -43,20 +43,20 @@ AzaleaMartBugCatcherText:
 
 AzaleaMartLadyText:
 	text "Ich kann in"
-	line "Dukatia City"
-	cont "viele Items"
-	cont "kaufen, aber für"
+	line "Dukatia City viele"
+	cont "Items kaufen, aber"
+	cont "für"
 
-	para "Feuer-Attacken"
-	line "ist nichts besser"
+	para "Feuer-Attacken ist"
+	line "nichts besser"
 
 	para "als Azalias"
 	line "Holzkohle!"
 	done
 
 AzaleaMartRockerText:
-	text "Die Prototypen"
-	line "von Kurts Bällen"
+	text "Die Prototypen von"
+	line "Kurts Bällen"
 
 	para "hatten Probleme."
 	line "Sympabälle fingen"

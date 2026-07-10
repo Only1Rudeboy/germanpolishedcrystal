@@ -44,8 +44,8 @@ SilphCoOfficerScript:
 	para "Der Strom fällt"
 	line "aus, und der Chef"
 
-	para "will für den Not-"
-	line "fall hohe"
+	para "will für den"
+	line "Notfall hohe"
 	cont "Sicherheit."
 
 	para "Das haben wir vor"
@@ -57,8 +57,8 @@ SilphCoOfficerScript:
 	jumpthisopenedtext
 
 	text "Du hast die"
-	line "Strom-"
-	line "versorgung wieder"
+	line "Stromversorgung"
+	cont "wieder"
 	cont "hergestellt?"
 
 	para "Danke! Jetzt kann"
@@ -72,8 +72,8 @@ SilphCoOfficerScript:
 SilphCoReceptionistText:
 	text "Willkommen. Das"
 	line "ist das BÜRO-"
-	cont "GEBÄUDE der"
-	cont "SILPH CO."
+	cont "GEBÄUDE der SILPH"
+	cont "CO."
 	done
 
 
@@ -83,23 +83,22 @@ SilphCo1FGentlemanText:
 	text "Ich habe einen"
 	line "Termin mit dem"
 
-	para "Chefingenieur"
-	line "hier in der"
-	cont "SILPH CO."
+	para "Chefingenieur hier"
+	line "in der SILPH CO."
 	done
 
 SilphCo1FCooltrainerfText:
-	text "Ich versuche,"
-	line "den Mut aufzu-"
-	cont "bringen, die"
+	text "Ich versuche, den"
+	line "Mut aufzubringen,"
+	cont "die"
 
 	para "Rezeptionistin"
-	line "nach einem Date"
-	cont "zu fragen."
+	line "nach einem Date zu"
+	cont "fragen."
 
-	para "Sobald sie mit"
-	line "dem Telefon"
-	cont "fertig ist…"
+	para "Sobald sie mit dem"
+	line "Telefon fertig"
+	cont "ist…"
 	done
 
 SilphCoElevatorText:

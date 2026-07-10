@@ -1,7 +1,7 @@
 ArnieAskNumber1Text:
 	text "Hast du das"
-	line "Gefühl,"
-	line "dass es mehr"
+	line "Gefühl, dass es"
+	cont "mehr"
 
 	para "seltene #mon"
 	line "gibt? Ich bin"
@@ -10,8 +10,8 @@ ArnieAskNumber1Text:
 	line "ständig."
 
 	para "Wenn ich eins"
-	line "finde,"
-	line "will ich's allen"
+	line "finde, will ich's"
+	cont "allen"
 
 	para "erzählen. Gib mir"
 	line "deine Nummer!"
@@ -23,8 +23,7 @@ ArnieAskNumber2Text:
 
 	para "ich seltene"
 	line "#mon sehe. Gib"
-	cont "mir deine"
-	cont "Nummer!"
+	cont "mir deine Nummer!"
 	done
 
 ArnieNumberAcceptedText:
@@ -37,8 +36,8 @@ ArnieNumberAcceptedText:
 ArnieNumberDeclinedText:
 	text "Ach! Ich will"
 	line "jemandem von"
-	cont "meinen"
-	cont "Funden erzählen!"
+	cont "meinen Funden"
+	cont "erzählen!"
 	done
 
 ArniePhoneFullText:
@@ -50,8 +49,7 @@ ArniePhoneFullText:
 	done
 
 ArnieRematchText:
-	text "Jetzt bin ich"
-	line "dran"
+	text "Jetzt bin ich dran"
 	line "zu gewinnen!"
 
 	para "Ich fang neu an!"

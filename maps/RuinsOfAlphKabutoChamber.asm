@@ -144,14 +144,12 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	cont "ten, die ein #-"
 	cont "MON darstellen,"
 
-	para "das aus der"
-	line "Antike"
+	para "das aus der Antike"
 	line "stammt."
 
 	para "Verschiebe die"
 	line "Platten so, dass"
-	cont "ein Bild"
-	cont "entsteht."
+	cont "ein Bild entsteht."
 
 	para "Rechts findest du"
 	line "eine Beschreibung"
@@ -159,9 +157,8 @@ RuinsOfAlphKabutoChamberReceptionistText:
 
 	para "Die Forscher im"
 	line "Hintergrund"
-	cont "unter-"
-	cont "suchen neu ent-"
-	cont "deckte Muster."
+	cont "untersuchen neu"
+	cont "entdeckte Muster."
 	done
 
 
@@ -170,11 +167,9 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 	line "seltsame Muster"
 	cont "aufgetaucht."
 
-	para "Es ist"
-	line "merkwürdig."
+	para "Es ist merkwürdig."
 	line "Vor kurzem waren"
-	cont "sie noch nicht"
-	cont "da…"
+	cont "sie noch nicht da…"
 
 	para "Wirf einen Blick"
 	line "auf die Wände."
@@ -185,8 +180,7 @@ RuinsOfAlphKabutoChamberScientistHoleText:
 	text "Ah! Hier ist noch"
 	line "ein großes Loch!"
 
-	para "Es ist groß"
-	line "genug,"
+	para "Es ist groß genug,"
 	line "um durchzugehen!"
 	done
 
@@ -195,8 +189,7 @@ RuinsOfAlphKabutoChamberScientistTremorText:
 	text "Das Beben war"
 	line "Furcht erregend!"
 
-	para "Aber die Wand"
-	line "hier"
+	para "Aber die Wand hier"
 	line "macht mir mehr"
 	cont "Sorgen…"
 	done
@@ -206,22 +199,20 @@ RuinsOfAlphKabutoChamberScientistTremorText:
 RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
 	text "Die Muster an der"
 	line "Wand sind"
-	cont "tatsäch-"
-	cont "lich Worte!"
+	cont "tatsächlich Worte!"
 
 	para "Und die"
-	line "verschieb-"
-	line "baren"
+	line "verschiebbaren"
 	cont "Steinplatten"
 
 	para "scheinen ein"
 	line "Signal zu sein."
 
 	para "Ich glaube sie"
-	line "veranlassen #-"
-	cont "MON sich zu zei-"
-	cont "gen, aber das ist"
-	cont "noch nicht"
+	line "veranlassen"
+	cont "#mon sich zu"
+	cont "zeigen, aber das"
+	cont "ist noch nicht"
 	cont "sicher…"
 	done
 
@@ -234,8 +225,8 @@ RuinsOfAlphKabutoChamberDescriptionText:
 	para "und mit seinen"
 	line "Augen auf dem"
 
-	para "Rücken die Um-"
-	line "gebung genau"
+	para "Rücken die"
+	line "Umgebung genau"
 	cont "beobachtete."
 	done
 

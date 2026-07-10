@@ -65,8 +65,7 @@ SinjohRuinsHouseCynthiaAfterText:
 	line "großartiger"
 	cont "Trainer, und es"
 
-	para "würde mich"
-	line "freuen,"
+	para "würde mich freuen,"
 	line "dich wieder zu"
 	cont "sehen."
 	done
@@ -84,9 +83,8 @@ SinjohRuinsHousePokefanmText:
 	cont "mächtige #mon"
 	cont "entstanden,"
 
-	para "und diese"
-	line "Legenden"
-	cont "verbreiteten sich"
+	para "und diese Legenden"
+	line "verbreiteten sich"
 	cont "in andere"
 	cont "Regionen."
 
@@ -102,8 +100,8 @@ SinjohRuinsHousePokefanmText:
 	done
 
 SinjohRuinsHouseGrampsText:
-	text "Du wirkst so"
-	line "fehl am Platz —"
+	text "Du wirkst so fehl"
+	line "am Platz —"
 
 	para "du weißt nicht"
 	line "einmal, warum du"
@@ -115,13 +113,11 @@ SinjohRuinsHouseGrampsText:
 	done
 
 SinjohRuinsHouseGrampsYesText:
-	text "O.K. Stell"
-	line "dir dein Haus"
-	cont "vor…"
+	text "O.K. Stell dir"
+	line "dein Haus vor…"
 	done
 SinjohRuinsHouseGrampsNoText:
-	text "O.K. Alles"
-	line "Gute!"
+	text "O.K. Alles Gute!"
 	done
 SinjohRuinsHouseAbraText:
 	text "ABRA: Aabra…"
@@ -138,8 +134,7 @@ SinjohRuinsHouseCynthiaChallengeText:
 	cont "besiegt! Gut"
 	cont "gemacht!"
 
-	para "Ich bin"
-	line "neugierig,"
+	para "Ich bin neugierig,"
 	line "was du seit"
 
 	para "unserem letzten"
@@ -160,8 +155,8 @@ SinjohRuinsHouseCynthiaNoText:
 	done
 
 SinjohRuinsHouseCynthiaYesText:
-	text "Cynthia: Bevor"
-	line "ich mein #mon"
+	text "Cynthia: Bevor ich"
+	line "mein #mon"
 	cont "schicke,"
 
 	para "beginnt mein Herz"

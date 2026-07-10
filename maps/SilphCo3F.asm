@@ -38,8 +38,8 @@ SilphCo3FSilphEmployeeScript:
 
 .Text2:
 	text "Das ist ein sehr"
-	line "seltener #-"
-	cont "BALL-Typ."
+	line "seltener"
+	cont "#ball-Typ."
 
 	para "Verschwende ihn"
 	line "nicht!"
@@ -48,7 +48,7 @@ SilphCo3FSilphEmployeeScript:
 .Text1:
 	text "Ich komme aus"
 	line "einer"
-	line "Familie von #-"
+	cont "Familie von #-"
 	cont "ball-Herstellern."
 
 	para "Mein Vater Kurt"
@@ -74,46 +74,43 @@ SilphCo3FSilphEmployeeScript:
 SilphCo3FScientist1Text:
 	text "Silph ist eine"
 	line "Partnerschaft mit"
-	cont "Devon eingegan-"
-	cont "gen."
+	cont "Devon eingegangen."
 
-	para "Wir haben"
-	line "Produkte"
-	cont "voneinander"
+	para "Wir haben Produkte"
+	line "voneinander"
 	cont "lizenziert."
 	done
 
 SilphCo3FScientist2Text:
 	text "#Bälle"
-	line "funktionieren"
-	cont "nach dem"
-	cont "gleichen Prinzip"
+	line "funktionieren nach"
+	cont "dem gleichen"
+	cont "Prinzip"
 
-	para "wie das #-"
-	line "MON-Lager-"
+	para "wie das"
+	line "#mon-Lager-"
 	cont "System."
 
 	para "#mon werden in"
 	line "digitale Daten"
 	cont "umgewandelt und"
 
-	para "an einem neuen"
-	line "Ort wieder"
-	cont "aufgebaut."
+	para "an einem neuen Ort"
+	line "wieder aufgebaut."
 	done
 
 SilphCo3FOfficerText:
 	text "Ich darf dich"
 	line "nicht in die"
-	cont "oberen Stock-"
-	cont "werke lassen,"
+	cont "oberen Stockwerke"
+	cont "lassen,"
 
 	para "auch wenn du"
 	line "vertrauenswürdig"
 	cont "bist."
 
-	para "Tut mir leid,"
-	line "aber das sind die"
+	para "Tut mir leid, aber"
+	line "das sind die"
 	cont "Regeln."
 	done
 
@@ -130,15 +127,14 @@ SilphCo3FGentlemanText:
 	done
 
 SilphCo3FDeptSignText:
-	text "Silph Co. 3F"
-	line "# Ball Tech"
+	text "Silph Co. 3F #"
+	line "Ball Tech"
 	done
 
 SilphCo3FPhotoText:
 	text "Das ist ein Foto"
 	line "des Silph-Chefs."
 
-	para "Er sieht"
-	line "verärgert"
+	para "Er sieht verärgert"
 	line "aus."
 	done

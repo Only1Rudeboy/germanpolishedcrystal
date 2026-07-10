@@ -30,13 +30,12 @@ Route21_MapScriptHeader:
 GenericTrainerSwimmerfNikki:
 	generictrainer SWIMMERF, NIKKI, EVENT_BEAT_SWIMMERF_NIKKI, SwimmerfNikkiSeenText, SwimmerfNikkiBeatenText
 
-	text "Ich muss mich"
-	line "vor Hautreizungen"
-	cont "in Acht nehmen."
+	text "Ich muss mich vor"
+	line "Hautreizungen in"
+	cont "Acht nehmen."
 	done
 SwimmerfNikkiSeenText:
-	text "Falls ich"
-	line "gewinne,"
+	text "Falls ich gewinne,"
 	line "musst du mich mit"
 	cont "der Sonnencreme"
 	cont "einreiben!"
@@ -47,10 +46,8 @@ SwimmerfNikkiSeenText:
 
 
 SwimmerfNikkiBeatenText:
-	text "Ich habe Angst"
-	line "vor"
-	line "einem"
-	cont "Sonnenbrand…"
+	text "Ich habe Angst vor"
+	line "einem Sonnenbrand…"
 	done
 
 
@@ -66,12 +63,11 @@ GenericTrainerSwimmerfChelan:
 	done
 
 .SeenText:
-	text "Ich liebe"
-	line "Bikinis!"
+	text "Ich liebe Bikinis!"
 
 	para "Hätte ich einen"
 	line "elektrischen"
-	line "Bikini,"
+	cont "Bikini,"
 
 	para "könnte ich ihn"
 	line "sogar im Winter"
@@ -92,10 +88,9 @@ GenericTrainerSwimmerfKendra:
 	done
 
 .SeenText:
-	text "Hey, Trainer!"
-	line "Zieh doch auch"
-	cont "einen Badeanzug"
-	cont "an!"
+	text "Hey, Trainer! Zieh"
+	line "doch auch einen"
+	cont "Badeanzug an!"
 	done
 
 .BeatenText:
@@ -108,14 +103,13 @@ GenericTrainerSwimmermEsteban:
 	generictrainer SWIMMERM, ESTEBAN, EVENT_BEAT_SWIMMERM_ESTEBAN, .SeenText, .BeatenText
 
 	text "Wir nannten"
-	line "unseren"
-	line "Lehrer Professor"
+	line "unseren Lehrer"
+	cont "Professor"
 	cont "Quaputzi!"
 	done
 
 .SeenText:
-	text "Mein"
-	line "Schwimmlehrer"
+	text "Mein Schwimmlehrer"
 	line "hatte ein Gesicht"
 	cont "wie ein Quaputzi."
 	done
@@ -129,10 +123,8 @@ GenericTrainerSwimmermDuane:
 	generictrainer SWIMMERM, DUANE, EVENT_BEAT_SWIMMERM_DUANE, .SeenText, .BeatenText
 
 	text "Um mehr zu"
-	line "gewinnen,"
-	line "muss ich an"
-	cont "meiner"
-	cont "Ausdauer"
+	line "gewinnen, muss ich"
+	cont "an meiner Ausdauer"
 	cont "arbeiten!"
 	done
 
@@ -147,8 +139,7 @@ GenericTrainerSwimmermDuane:
 
 .BeatenText:
 	text "Meine #mon und"
-	line "ich"
-	line "haben keine"
+	line "ich haben keine"
 	cont "Kraft…"
 	done
 
@@ -188,8 +179,7 @@ GenericTrainerFisherMurphy:
 	done
 
 .SeenText:
-	text "Hä? Ich habe"
-	line "einen"
+	text "Hä? Ich habe einen"
 	line "Trainer statt"
 	cont "eines #mon"
 	cont "gefangen!"
@@ -197,8 +187,7 @@ GenericTrainerFisherMurphy:
 
 .BeatenText:
 	text "Meine Angelschnur"
-	line "wurde"
-	cont "durchtrennt!"
+	line "wurde durchtrennt!"
 	done
 
 GenericTrainerFisherArnold:
@@ -239,8 +228,7 @@ GenericTrainerFisherLiam:
 .SeenText:
 	text "Wau! Ein Biss!"
 
-	para "…Hä?"
-	line "Ein Kampf?"
+	para "…Hä? Ein Kampf?"
 
 	para "OK, los geht's!"
 	done
@@ -249,8 +237,7 @@ GenericTrainerFisherLiam:
 	text "Jagst du zwei"
 	line "#mon,"
 
-	para "fängst du"
-	line "keins!"
+	para "fängst du keins!"
 	done
 
 GenericTrainerFisherGideon:
@@ -264,13 +251,12 @@ GenericTrainerFisherGideon:
 
 .SeenText:
 	text "Bin ich Angler"
-	line "geworden, weil"
-	cont "ich geduldig bin,"
+	line "geworden, weil ich"
+	cont "geduldig bin,"
 
 	para "oder wurde ich"
-	line "geduldiger,"
-	cont "weil ich Angler"
-	cont "bin?"
+	line "geduldiger, weil"
+	cont "ich Angler bin?"
 	done
 
 .BeatenText:
@@ -287,8 +273,8 @@ GenericTrainerBird_keeperKinsley:
 
 .SeenText:
 	text "Vielleicht kann"
-	line "ich irgendwann"
-	line "wie meine Vogel-"
+	line "ich irgendwann wie"
+	cont "meine Vogel-"
 	cont "#mon fliegen!"
 	done
 
@@ -305,8 +291,8 @@ GenericTrainerBird_keeperEaston:
 
 	para "Aber irgendwann"
 	line "haben die #mon"
-	line "angefangen, uns"
-	cont "zu nutzen…"
+	cont "angefangen, uns zu"
+	cont "nutzen…"
 	done
 
 .SeenText:

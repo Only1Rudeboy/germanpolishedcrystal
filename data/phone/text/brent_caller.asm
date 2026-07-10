@@ -1,23 +1,20 @@
 BrentRareTradeText:
-	text "Oh ja, ich hab"
-	line "vor"
+	text "Oh ja, ich hab vor"
 	line "einiger Zeit ein"
 
 	para "extrem seltenes"
 	line "#mon getauscht."
 
 	para "Willst du wissen,"
-	line "welches? Hehe,"
-	cont "das"
+	line "welches? Hehe, das"
 	cont "bleibt mein"
-	cont "Geheim-"
-	cont "nis!"
+	cont "Geheimnis!"
 	done
 
 BrentDefeatedMonText:
 	text "Oh ja, ich hab"
 	line "ein"
-	line "wildes"
+	cont "wildes"
 	cont ""
 	text_ram wStringBuffer4
 	text " besiegt."
@@ -28,8 +25,7 @@ BrentDefeatedMonText:
 	done
 
 BrentLostAMonText:
-	text "Oh ja, ich sah"
-	line "vor"
+	text "Oh ja, ich sah vor"
 	line "einer Stunde ein"
 
 	para "seltenes #mon."
@@ -75,28 +71,26 @@ BrentGrandpaGossipText:
 	text "Wusstest du…?"
 	line "Bills Großvater"
 
-	para "ist angeblich"
-	line "kein"
+	para "ist angeblich kein"
 	line "#Maniac."
 	done
 
 BrentGoldenrodGossipText:
-	text "Wusstest du…?"
-	line "Bill kommt aus"
-	cont "Dukatia City."
+	text "Wusstest du…? Bill"
+	line "kommt aus Dukatia"
+	cont "City."
 	done
 
 BrentRoute25GossipText:
-	text "Wusstest du…?"
-	line "Bill wohnt auf"
+	text "Wusstest du…? Bill"
+	line "wohnt auf"
 
-	para "Route 25 in"
-	line "Kanto."
+	para "Route 25 in Kanto."
 	done
 
 BrentAbraGossipText:
-	text "Wusstest du…?"
-	line "Abra war Bills"
+	text "Wusstest du…? Abra"
+	line "war Bills"
 
 	para "erstes #mon,"
 	line "sagt man."
@@ -112,26 +106,24 @@ BrentSisterGossipText:
 	done
 
 BrentMilkGossipText:
-	text "Wusstest du…?"
-	line "Bill hasst Milch"
+	text "Wusstest du…? Bill"
+	line "hasst Milch"
 
-	para "und kann sie"
-	line "nicht"
+	para "und kann sie nicht"
 	line "trinken."
 	done
 
 BrentBattlingGossipText:
-	text "Wusstest du…?"
-	line "Bill ist"
-	cont "angeblich"
+	text "Wusstest du…? Bill"
+	line "ist angeblich"
 
 	para "nicht gut im"
 	line "Kämpfen."
 	done
 
 BrentFlowerShopGossipText:
-	text "Wusstest du…?"
-	line "Bill mag die Dame"
+	text "Wusstest du…? Bill"
+	line "mag die Dame"
 
 	para "im Blumenladen."
 	done

@@ -45,14 +45,13 @@ TrainerTeacherHillary:
 	text "Lernen ist sehr"
 	line "wichtig, aber"
 	cont "Bewegung ist"
-	cont "genauso essen-"
-	cont "tiell."
+	cont "genauso"
+	cont "essentiell."
 	done
 GenericTrainerSchoolboyKipp:
 	generictrainer SCHOOLBOY, KIPP, EVENT_BEAT_SCHOOLBOY_KIP, SchoolboyKippSeenText, SchoolboyKippBeatenText
 
-	text "Meine Mutter"
-	line "macht"
+	text "Meine Mutter macht"
 	line "sich immer große"
 
 	para "Sorgen um mich."
@@ -62,8 +61,7 @@ GenericTrainerSchoolboyKipp:
 GenericTrainerSchoolboyTommy:
 	generictrainer SCHOOLBOY, TOMMY, EVENT_BEAT_SCHOOLBOY_TOMMY, SchoolboyTommySeenText, SchoolboyTommyBeatenText
 
-	text "Sayonara! Das"
-	line "habe"
+	text "Sayonara! Das habe"
 	line "ich in meinem"
 	cont "Japanischkurs"
 	cont "gelernt."
@@ -82,14 +80,13 @@ GenericTrainerSchoolgirlFaith:
 
 	text "Ich bin müde vom"
 	line "Laufen. Ich muss"
-	cont "eine Pause"
-	cont "machen."
+	cont "eine Pause machen."
 	done
 GenericTrainerPokefanfBoone:
 	generictrainer POKEFANF, BOONE, EVENT_BEAT_POKEFANF_BOONE, PokefanfBooneSeenText, PokefanfBooneBeatenText
 
-	text "Beim Kämpfen"
-	line "sieht man #mon,"
+	text "Beim Kämpfen sieht"
+	line "man #mon,"
 
 	para "man noch nie"
 	line "gesehen hat."
@@ -110,8 +107,8 @@ GenericTrainerPokefanfEleanor:
 GenericTrainerTwinsKayandtia1:
 	generictrainer TWINS, KAYANDTIA1, EVENT_BEAT_TWINS_KAY_AND_TIA, TwinsKayandtia1SeenText, TwinsKayandtia1BeatenText
 
-	text "Die Wahrheit:"
-	line "Ich bin Kay!"
+	text "Die Wahrheit: Ich"
+	line "bin Kay!"
 
 	para "Vielleicht…"
 	done
@@ -140,16 +137,13 @@ TeacherColetteBeatenText:
 
 
 TeacherHillarySeenText:
-	text "Bei schönem"
-	line "Wetter"
+	text "Bei schönem Wetter"
 	line "würden die Kinder"
 
-	para "lieber im"
-	line "Schulhof"
+	para "lieber im Schulhof"
 	line "spielen, als in"
 
-	para "den"
-	line "Klassenzimmern"
+	para "den Klassenzimmern"
 	line "zu lernen."
 	done
 
@@ -172,8 +166,7 @@ SchoolboyKippSeenText:
 
 SchoolboyKippBeatenText:
 	text "Tut mir Leid,"
-	line "Mutter!"
-	cont "Ich wurde"
+	line "Mutter! Ich wurde"
 	cont "besiegt!"
 	done
 
@@ -197,8 +190,7 @@ SchoolboyTommyBeatenText:
 
 SchoolgirlFaithSeenText:
 	text "Wir machen einen"
-	line "Ausflug zum"
-	cont "RADIO-"
+	line "Ausflug zum RADIO-"
 	cont "TURM in LAVANDIA,"
 
 	para "um dort etwas in"
@@ -206,8 +198,7 @@ SchoolgirlFaithSeenText:
 	cont "lernen."
 	done
 SchoolgirlFaithBeatenText:
-	text "Du bist"
-	line "unheimlich"
+	text "Du bist unheimlich"
 	line "stark!"
 	done
 SchoolboyBillySeenText:
@@ -218,9 +209,8 @@ SchoolboyBillySeenText:
 
 
 SchoolboyBillyBeatenText:
-	text "Ach, nein!"
-	line "Wie konnte ich"
-	cont "nur"
+	text "Ach, nein! Wie"
+	line "konnte ich nur"
 
 	para "verlieren?"
 	done
@@ -231,8 +221,8 @@ PokefanfBooneSeenText:
 	text "Hey, deine"
 	line "#mon…"
 
-	para "Zeig sie mir."
-	line "Zeig sie mir!"
+	para "Zeig sie mir. Zeig"
+	line "sie mir!"
 	done
 
 PokefanfBooneBeatenText:
@@ -241,9 +231,9 @@ PokefanfBooneBeatenText:
 	done
 
 PokefanfEleanorSeenText:
-	text "Na gut,"
-	line "#mon, Zeit für"
-	cont "einen Kampf!"
+	text "Na gut, #mon,"
+	line "Zeit für einen"
+	cont "Kampf!"
 	done
 
 PokefanfEleanorBeatenText:
@@ -252,8 +242,8 @@ PokefanfEleanorBeatenText:
 
 TwinsKayandtia1SeenText:
 	text "Wir sind die"
-	line "Zwillinge Kay"
-	cont "und Tia!"
+	line "Zwillinge Kay und"
+	cont "Tia!"
 
 	para "Weißt du, welche"
 	line "von uns ich bin?"
@@ -266,8 +256,8 @@ TwinsKayandtia1BeatenText:
 
 TwinsKayandtia2SeenText:
 	text "Wir sind die"
-	line "Zwillinge Kay"
-	cont "und Tia!"
+	line "Zwillinge Kay und"
+	cont "Tia!"
 
 	para "Weißt du, welche"
 	line "von uns ich bin?"

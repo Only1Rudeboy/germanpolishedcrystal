@@ -47,8 +47,8 @@ MoveReminderIntroText::
 	para "Ich bringe deinem"
 	line "#mon eine"
 
-	para "Attacke wieder"
-	line "in Erinnerung,"
+	para "Attacke wieder in"
+	line "Erinnerung,"
 
 	para "wenn du mir ein"
 	line "Goldblatt gibst!"

@@ -24,15 +24,13 @@ ErinLostAMonText:
 	text_ram wStringBuffer4
 
 	para "ist mir wieder"
-	line "entkommen. Das"
-	cont "ist"
+	line "entkommen. Das ist"
 	cont "nicht fair!"
 	done
 
 ErinBattleRematchText:
 	text "Ich bin Erin."
-	line "Willst"
-	line "du wieder"
+	line "Willst du wieder"
 	cont "kämpfen?"
 
 	para "Diesmal verliere"
@@ -49,8 +47,7 @@ ErinHangUpText:
 	done
 
 ErinWorkingHardText:
-	text "Ich trainiere"
-	line "hart"
+	text "Ich trainiere hart"
 	line "meine #mon!"
 
 	para "Komm wieder zum"

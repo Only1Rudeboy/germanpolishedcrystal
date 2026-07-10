@@ -26,8 +26,7 @@ PokemonJournalChuckScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Chuck!"
+	para "Spezial: Chuck!"
 
 	para "Man sagt, Chuck"
 	line "liebe süße"
@@ -63,36 +62,34 @@ CianwoodGymGuyScript:
 	waitendtext
 
 .Text:
-	text "Die Trainer in"
-	line "der PKMN-ARENA"
+	text "Die Trainer in der"
+	line "PKMN-ARENA"
 
 	para "sind richtige"
 	line "Schlägertypen."
 
 	para "Wenn ich dort"
-	line "rum-"
-	line "stehe, schnappen"
-	cont "sie mich."
+	line "rumstehe,"
+	cont "schnappen sie"
+	cont "mich."
 
-	para "Ein Tipp: Der"
-	line "LEI-"
+	para "Ein Tipp: Der LEI-"
 	line "TER setzt gerne"
 
-	para "Kampf-#mon"
-	line "ein."
+	para "Kampf-#mon ein."
 
 	para "Du solltest ihn"
-	line "mit Psycho-#-"
-	cont "MON überraschen."
+	line "mit Psycho-#mon"
+	cont "überraschen."
 
 	para "Besiege seine"
 	line "#mon, bevor sie"
 
-	para "ihre Kraft ein-"
-	line "setzen können."
+	para "ihre Kraft"
+	line "einsetzen können."
 
-	para "Und die Felsen"
-	line "in der Mitte der"
+	para "Und die Felsen in"
+	line "der Mitte der"
 	cont "PKMN-ARENA?"
 
 	para "Räume sie aus dem"
@@ -111,8 +108,7 @@ CianwoodGymGuyScript:
 	line "Felsen nicht"
 	cont "wegstoßen?"
 
-	para "Nimm das und"
-	line "bring"
+	para "Nimm das und bring"
 	line "deinem #mon"
 	cont "Strength bei!"
 	done
@@ -122,18 +118,18 @@ CianwoodGymGuyScript:
 	done
 
 .WinText:
-	text "<PLAYER>! Du"
-	line "hast gewonnen!"
+	text "<PLAYER>! Du hast"
+	line "gewonnen!"
 
 	para "Das sah ich dir"
-	line "schon von"
-	cont "weitem an!"
+	line "schon von weitem"
+	cont "an!"
 	done
 
 CianwoodPokeCenter1FLassText:
 	text "Hast du schon den"
-	line "#MANIAC getrof-"
-	cont "fen?"
+	line "#MANIAC"
+	cont "getroffen?"
 
 	para "Er gibt immer mit"
 	line "seinen seltenen"
@@ -141,15 +137,13 @@ CianwoodPokeCenter1FLassText:
 	done
 CianwoodPokeCenter1FSuperNerdText:
 	text "Ich liebe es, mit"
-	line "meinen"
-	cont "trainierten"
+	line "meinen trainierten"
 
 	para "#mon anzugeben."
 	line "Du etwa nicht?"
 
 	para "Ich werde einige"
-	line "Kämpfe"
-	cont "bestreiten,"
+	line "Kämpfe bestreiten,"
 
 	para "um mit meinen"
 	line "#mon anzugeben!"
@@ -160,7 +154,7 @@ CianwoodPokeCenter1FRichBoyText:
 	cont "Markt,"
 
 	para "deshalb"
-	line "importieren"
-	line "wir Waren über"
-	cont "das Meer."
+	line "importieren wir"
+	cont "Waren über das"
+	cont "Meer."
 	done

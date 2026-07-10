@@ -26,8 +26,7 @@ PokemonJournalBrockScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Rocko!"
+	para "Spezial: Rocko!"
 
 	para "Rocko lacht"
 	line "selten, aber man"
@@ -48,8 +47,7 @@ PewterJigglypuffText:
 
 PewterPokeCenter1FTeacherText:
 	text "…Ja, und die"
-	line "PKMN-ARENA auf"
-	cont "der"
+	line "PKMN-ARENA auf der"
 
 	para "ZINNOBERINSEL ist"
 	line "verschwunden. Das"
@@ -58,13 +56,12 @@ PewterPokeCenter1FTeacherText:
 	line "merkwürdig."
 
 	para "…Ja? Ich"
-	line "telefoniere!"
-	cont "Lass mich in"
-	cont "Ruhe!"
+	line "telefoniere! Lass"
+	cont "mich in Ruhe!"
 	done
 PewterPokeCenter1FChildText:
-	text "Die meisten #-"
-	line "MON werden"
+	text "Die meisten"
+	line "#mon werden"
 	cont "schläfrig, wenn"
 	cont "PUMMELUFF singt."
 

@@ -53,23 +53,21 @@ KukuiScript:
 	jumpthistext
 
 .AfterText:
-	text "Krass! Ich bin"
-	line "mit voller Wucht"
-	cont "auf dich los,"
+	text "Krass! Ich bin mit"
+	line "voller Wucht auf"
+	cont "dich los,"
 
 	para "und du hast"
-	line "trotzdem"
-	line "gewonnen!"
+	line "trotzdem gewonnen!"
 
 	para "Kein Wunder, dass"
-	line "du der Champ"
-	cont "bist!"
+	line "du der Champ bist!"
 
 	para "Ich muss härter"
 	line "trainieren, bevor"
 
-	para "ich bereit für"
-	line "die Liga bin."
+	para "ich bereit für die"
+	line "Liga bin."
 
 	para "Und dann fordere"
 	line "ich dich wieder"
@@ -77,8 +75,8 @@ KukuiScript:
 	done
 
 .IntroText:
-	text "Hallo!"
-	line "Ich bin Kukui."
+	text "Hallo! Ich bin"
+	line "Kukui."
 
 	para "Du heißt also"
 	line "<PLAYER>? Alles"
@@ -91,19 +89,18 @@ KukuiScript:
 	para "Dort gibt's keine"
 	line "#mon-Liga, also"
 
-	para "bin ich nach"
-	line "Kanto gekommen,"
-	line "um die Top Vier"
+	para "bin ich nach Kanto"
+	line "gekommen, um die"
+	cont "Top Vier"
 
-	para "hier zu"
-	line "fordern, ja!"
+	para "hier zu fordern,"
+	line "ja!"
 
 	para "Hä? Du bist der"
 	line "neue Champ?"
 
-	para "Juhu, kein"
-	line "Wunder, dass du"
-	line "so cool"
+	para "Juhu, kein Wunder,"
+	line "dass du so cool"
 	cont "aussiehst!"
 
 	para "Mein Team und ich"
@@ -111,23 +108,22 @@ KukuiScript:
 
 	para "Wie wär's, wir"
 	line "lassen die Liga"
-	line "aus und fordern"
+	cont "aus und fordern"
 
-	para "dich gleich"
-	line "jetzt heraus?"
+	para "dich gleich jetzt"
+	line "heraus?"
 	done
 
 .RematchText:
-	text "Hallo,"
-	line "<PLAYER>!"
+	text "Hallo, <PLAYER>!"
 
 	para "Seit unserem"
-	line "letzten Kampf"
-	line "hab ich hart"
+	line "letzten Kampf hab"
+	cont "ich hart"
 
-	para "trainiert, ja!"
-	line "Du siehst auch"
-	line "stärker aus!"
+	para "trainiert, ja! Du"
+	line "siehst auch"
+	cont "stärker aus!"
 
 	para "Wie wär's mit"
 	line "einer Revanche?"
@@ -135,11 +131,10 @@ KukuiScript:
 
 .SeenText:
 	text "Lass uns einen"
-	line "Kampf führen,"
-	line "der dieser"
+	line "Kampf führen, der"
+	cont "dieser"
 
-	para "Stunde würdig"
-	line "ist!"
+	para "Stunde würdig ist!"
 	done
 
 .BeatenText:
@@ -151,7 +146,7 @@ KukuiScript:
 .RefusedText:
 	text "Voll auf deine"
 	line "eigene Quest"
-	line "fokussiert, ja?"
+	cont "fokussiert, ja?"
 
 	para "Das respektiere"
 	line "ich!"
@@ -164,8 +159,7 @@ Route22CooltrainerfText:
 
 	para "Die Barriere muss"
 	line "wohl der"
-	cont "Silberberg"
-	cont "sein."
+	cont "Silberberg sein."
 	done
 
 VictoryRoadEntranceSignText:

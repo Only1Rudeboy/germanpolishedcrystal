@@ -39,9 +39,8 @@ GoldenrodNetBallHouseYoungsterScript:
 	done
 
 .Text1:
-	text "Ich habe"
-	line "Netzbälle"
-	cont "gekauft, um"
+	text "Ich habe Netzbälle"
+	line "gekauft, um"
 
 	para "ein Tannza zu"
 	line "fangen, aber beim"

@@ -67,15 +67,12 @@ SaffronMagnetTrainStationGymGuideScript:
 	line "zität und Magnete"
 
 	para "nutzt, um"
-	line "unglaub-"
-	line "liche"
-	cont "Geschwindig-"
-	cont "keit zu"
+	line "unglaubliche"
+	cont "Geschwindigkeit zu"
 	cont "erreichen."
 
-	para "Ohne Strom"
-	line "fährt er aber"
-	cont "nicht…"
+	para "Ohne Strom fährt"
+	line "er aber nicht…"
 	done
 
 SaffronMagnetTrainStationOfficerApproachTrainDoorMovement:
@@ -114,8 +111,7 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
 	text "Es tut mir Leid,"
-	line "aber der"
-	cont "MAGNETZUG"
+	line "aber der MAGNETZUG"
 	cont "ist im Moment"
 	cont "nicht in Betrieb."
 	done
@@ -138,19 +134,18 @@ SaffronMagnetTrainStationOfficerRightThisWayText:
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
 	text "Es tut mir Leid,"
 	line "aber du hast"
-	cont "keinen"
-	cont "FAHRSCHEIN."
+	cont "keinen FAHRSCHEIN."
 	done
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "Beehre uns"
-	line "bald wieder."
+	text "Beehre uns bald"
+	line "wieder."
 	done
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
 	text "Ankunft in"
 	line "SAFFRONIA CITY."
 
-	para "Beehre uns"
-	line "bald wieder."
+	para "Beehre uns bald"
+	line "wieder."
 	done
 SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
 	text "Puh…"
@@ -163,8 +158,7 @@ SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
 	done
 SaffronMagnetTrainStationTeacherText:
 	text "Bevor der MAGNET-"
-	line "ZUG-BAHNHOF"
-	cont "erbaut"
+	line "ZUG-BAHNHOF erbaut"
 
 	para "wurde, stand dort"
 	line "ein Haus."

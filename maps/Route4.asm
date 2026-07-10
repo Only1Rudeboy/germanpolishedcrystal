@@ -42,8 +42,8 @@ GenericTrainerLassJennifer:
 	generictrainer LASS, JENNIFER, EVENT_BEAT_LASS_JENNIFER, LassJenniferSeenText, LassJenniferBeatenText
 
 	text "#mon machen so"
-	line "viel Spaß."
-	cont "Findest du nicht?"
+	line "viel Spaß. Findest"
+	cont "du nicht?"
 	done
 
 GenericTrainerBird_keeperHank:
@@ -53,13 +53,11 @@ GenericTrainerBird_keeperHank:
 	line "zielles #mon,"
 
 	para "das du trainieren"
-	line "möchtest, setze"
-	cont "es"
+	line "möchtest, setze es"
 
 	para "an die erste"
-	line "Stel-"
-	line "le und tausche es"
-	cont "sofort aus."
+	line "Stelle und tausche"
+	cont "es sofort aus."
 
 	para "So funktioniert"
 	line "das."
@@ -76,8 +74,8 @@ GenericTrainerPicnickerHope:
 GenericTrainerPicnickerSharon:
 	generictrainer PICNICKER, SHARON, EVENT_BEAT_PICNICKER_SHARON, PicnickerSharonSeenText, PicnickerSharonBeatenText
 
-	text "……Ich sollte"
-	line "wohl noch mehr"
+	text "……Ich sollte wohl"
+	line "noch mehr"
 	cont "trainieren…"
 	done
 Route4SuperNerd1Script:
@@ -103,8 +101,7 @@ Route4TutorIronHeadScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Aber es ist"
-	line "besser"
+	text "Aber es ist besser"
 	line "als Aqua Tail!"
 	done
 
@@ -116,8 +113,8 @@ Route4TutorIronHeadScript:
 	jumpthisopenedtext
 
 	text "So! Dein #mon"
-	line "kennt jetzt"
-	cont "Iron Head!"
+	line "kennt jetzt Iron"
+	cont "Head!"
 	done
 
 Route4SuperNerd2Script:
@@ -143,8 +140,7 @@ Route4TutorAquaTailScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Aber es ist"
-	line "besser"
+	text "Aber es ist besser"
 	line "als Iron Head!"
 	done
 
@@ -156,8 +152,8 @@ Route4TutorAquaTailScript:
 	jumpthisopenedtext
 
 	text "So! Dein #mon"
-	line "kennt jetzt"
-	cont "Aqua Tail!"
+	line "kennt jetzt Aqua"
+	cont "Tail!"
 	done
 
 Route4EngineerScript:
@@ -182,8 +178,8 @@ LassJenniferSeenText:
 	line "immer ich kann,"
 
 	para "nur um Zeit mit"
-	line "meinen #mon"
-	line "zu verbringen."
+	line "meinen #mon zu"
+	cont "verbringen."
 	done
 
 LassJenniferBeatenText:
@@ -201,11 +197,10 @@ Bird_keeperHankBeatenText:
 	done
 PicnickerHopeSeenText:
 	text "Ich spüre, dass"
-	line "ich gewinnen"
-	cont "kann."
+	line "ich gewinnen kann."
 
-	para "Mal sehen, ob"
-	line "das stimmt!"
+	para "Mal sehen, ob das"
+	line "stimmt!"
 	done
 
 
@@ -222,8 +217,7 @@ PicnickerHopeBeatenText:
 
 
 PicnickerSharonSeenText:
-	text "Ähm…"
-	line "Ich…"
+	text "Ähm… Ich…"
 	done
 
 
@@ -300,8 +294,8 @@ Text_Route4Tutor2Question:
 
 Route4EngineerText1:
 	text "Zieht die"
-	line "Schrauben"
-	line "fester an!"
+	line "Schrauben fester"
+	cont "an!"
 	done
 
 Route4EngineerText2:
@@ -313,8 +307,7 @@ Route4EngineerText2:
 	line "repariert haben,"
 
 	para "ist der MONDBERG-"
-	line "PLATZ"
-	cont "geschlossen."
+	line "PLATZ geschlossen."
 	done
 
 MtMoonSignText:

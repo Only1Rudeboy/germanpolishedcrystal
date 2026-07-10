@@ -30,8 +30,8 @@ GenericTrainerFirebreatherCyd:
 	line "BLITZ ist"
 
 	para "hilfreich in"
-	line "dunklen Höhlen"
-	cont "wie dieser."
+	line "dunklen Höhlen wie"
+	cont "dieser."
 	done
 
 GenericTrainerHexManiacVivian:

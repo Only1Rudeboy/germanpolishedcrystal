@@ -67,8 +67,7 @@ GenericTrainerPokefanmAllan:
 	cont "dahinschmilzt."
 	done
 PokefanmAllanSeenText:
-	text "Mein TEDDIURSA"
-	line "ist"
+	text "Mein TEDDIURSA ist"
 	line "das niedlichste"
 	cont "der ganzen Welt."
 	done
@@ -95,8 +94,8 @@ GenericTrainerTwinsDayanddani1:
 	done
 
 TwinsDayanddani1SeenText:
-	text "Day: Willst du"
-	line "uns besiegen?"
+	text "Day: Willst du uns"
+	line "besiegen?"
 	done
 
 TwinsDayanddani1BeatenText:
@@ -111,9 +110,8 @@ GenericTrainerTwinsDayanddani2:
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: Wir"
-	line "schlagen dich"
-	cont "um!"
+	text "Dani: Wir schlagen"
+	line "dich um!"
 	done
 
 TwinsDayanddani2BeatenText:
@@ -147,8 +145,8 @@ GenericTrainerGuitaristfWanda:
 	done
 
 .SeenText:
-	text "Du solltest"
-	line "lieber rennen!"
+	text "Du solltest lieber"
+	line "rennen!"
 	done
 
 .BeatenText:
@@ -195,8 +193,8 @@ OfficerfJennyScript:
 	done
 
 .AfterText:
-	text "Tut mir leid,"
-	line "dich zu stören."
+	text "Tut mir leid, dich"
+	line "zu stören."
 
 	para "Nachts werde ich"
 	line "leicht nervös."
@@ -243,7 +241,7 @@ Route6AdvancedTipsSignText:
 	line "Attacke Trick"
 
 	para "kann der Träger"
-	line "sein Item mit"
-	cont "dem des Gegners"
+	line "sein Item mit dem"
+	cont "des Gegners"
 	cont "tauschen!"
 	done

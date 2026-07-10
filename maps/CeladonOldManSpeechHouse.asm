@@ -16,9 +16,8 @@ CeladonOldManSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonOldManSpeechHouseLadyText, -1
 
 CeladonOldManSpeechHouseGrampsText:
-	text "Wasnwas?"
-	line "#-mon?"
-	cont "Nie gehört."
+	text "Wasnwas? #-mon?"
+	line "Nie gehört."
 	done
 
 CeladonOldManSpeechHouseLadyText:

@@ -77,9 +77,8 @@ AzaleaGymBugsyScript:
 		line "Zerschneider"
 		cont "kennen, dürfen ihn"
 
-		para "auch außerhalb"
-		line "von Kämpfen"
-		cont "nutzen."
+		para "auch außerhalb von"
+		line "Kämpfen nutzen."
 
 		para "Hier, das möchte"
 		line "ich dir auch noch"
@@ -104,8 +103,8 @@ AzaleaGymBugsyScript:
 	done
 
 .SeenText:
-	text "Ich bin Kai!"
-	line "Bei Käfer-#mon"
+	text "Ich bin Kai! Bei"
+	line "Käfer-#mon"
 	cont "verliere ich nie."
 
 	para "Meine Forschung"
@@ -150,8 +149,8 @@ AzaleaGymGuyScript:
 	iftrue_jumptextfaceplayer .WinText
 	jumpthistextfaceplayer
 
-	text "Yo, Heraus-"
-	line "forderer!"
+	text "Yo,"
+	line "Herausforderer!"
 
 	para "Kai ist jung, aber"
 	line "sein Wissen über"
@@ -196,8 +195,8 @@ GenericTrainerBug_catcherBenny:
 .SeenText:
 	text "Käfer-#mon"
 	line "entwickeln sich"
-	cont "jung."
-	cont "So werden sie"
+	cont "jung. So werden"
+	cont "sie"
 
 	para "schneller stark."
 	done

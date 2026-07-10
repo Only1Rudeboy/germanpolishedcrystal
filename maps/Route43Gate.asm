@@ -209,20 +209,19 @@ RocketText_MakingABundle:
 	para "Jeder möchte"
 	line "wissen, was los"
 
-	para "ist am"
-	line "SEE DES ZORNS."
+	para "ist am SEE DES"
+	line "ZORNS."
 	done
 
 
 OfficerText_FoundTM:
-	text "Diese Schläger-"
-	line "typen in Schwarz"
-	cont "haben mich von"
-	cont "meinem Posten"
+	text "Diese"
+	line "Schlägertypen in"
+	cont "Schwarz haben mich"
+	cont "von meinem Posten"
 	cont "verjagt."
 
-	para "Sie haben das"
-	line "hier"
+	para "Sie haben das hier"
 	line "zurückgelassen."
 
 	para "Ich bekomme bei"

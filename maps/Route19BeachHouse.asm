@@ -46,8 +46,7 @@ Route19BeachHouseVictorScript:
 .NoPikachu:
 	jumpthisopenedtext
 
-	text "Du kannst es"
-	line "auch!"
+	text "Du kannst es auch!"
 	line "Los, finde ein"
 
 	para "Surf-Pikachu!"
@@ -61,13 +60,12 @@ Route19BeachHouseVictorScript:
 	jumpopenedtext .NoBattleText
 
 .GreetingText:
-	text "Hey, Kumpel!"
-	line "Ich bin Victor."
+	text "Hey, Kumpel! Ich"
+	line "bin Victor."
 
 	para "Ich liebe Surfen,"
-	line "und Puka auch."
-	cont "Das ist mein"
-	cont "Pikachu!"
+	line "und Puka auch. Das"
+	cont "ist mein Pikachu!"
 	done
 
 .ChallengeText:
@@ -75,11 +73,9 @@ Route19BeachHouseVictorScript:
 
 	para "Dein Pikachu kann"
 	line "Surfen! Ich bin"
-	cont "also nicht"
-	cont "allein…"
+	cont "also nicht allein…"
 
-	para "Super! Du hast"
-	line "dir"
+	para "Super! Du hast dir"
 	line "einen Surf-Kampf"
 
 	para "mit mir und Puka"
@@ -91,8 +87,8 @@ Route19BeachHouseVictorScript:
 
 .SeenText:
 	text "Das Meer vereint"
-	line "alle Surfer!"
-	cont "Los geht's!"
+	line "alle Surfer! Los"
+	cont "geht's!"
 	done
 
 .BeatenText:
@@ -124,8 +120,8 @@ Route19BeachHouseVictorScript:
 
 .NoBattleText:
 	text "Schade. Komm"
-	line "jeder-"
-	line "zeit zum Surfen!"
+	line "jederzeit zum"
+	cont "Surfen!"
 	done
 
 Route19BeachHouseSurfingPikachuScript:

@@ -62,8 +62,8 @@ CeladonGymErikaScript:
 	line "dein #mon zu"
 	cont "heilen."
 
-	para "Nutze sie, wenn"
-	line "es dir gefällt…"
+	para "Nutze sie, wenn es"
+	line "dir gefällt…"
 	done
 
 GenericTrainerLassMichelle:
@@ -128,9 +128,8 @@ ErikaBeforeBattleText:
 	text "Erika: Hallo…"
 	line "Schönes Wetter,"
 
-	para "nicht wahr?"
-	line "Es ist so"
-	cont "angenehm…"
+	para "nicht wahr? Es ist"
+	line "so angenehm…"
 
 	para "…Ich fürchte, ich"
 	line "nicke gleich ein…"
@@ -156,8 +155,8 @@ ErikaBeforeBattleText:
 	done
 
 ErikaBeatenText:
-	text "Erika: Oh!"
-	line "Ich gebe auf…"
+	text "Erika: Oh! Ich"
+	line "gebe auf…"
 
 	para "Du bist wirklich"
 	line "stark…"
@@ -167,9 +166,8 @@ ErikaBeatenText:
 	done
 
 ErikaExplainTMText:
-	text "Erika: Das war"
-	line "ein herrlicher"
-	cont "Kampf."
+	text "Erika: Das war ein"
+	line "herrlicher Kampf."
 
 	para "Ich fühlte mich"
 	line "inspiriert. Bitte"
@@ -223,14 +221,13 @@ BeautyJuliaBeatenText:
 	done
 
 Aroma_ladyDahliaSeenText:
-	text "Ein faszinieren-"
-	line "der Duft umgibt"
-	cont "dich…"
+	text "Ein faszinierender"
+	line "Duft umgibt dich…"
 	done
 
 Aroma_ladyDahliaBeatenText:
-	text "Der üble Duft"
-	line "der Niederlage…"
+	text "Der üble Duft der"
+	line "Niederlage…"
 	done
 
 TwinsJoandzoe1SeenText:

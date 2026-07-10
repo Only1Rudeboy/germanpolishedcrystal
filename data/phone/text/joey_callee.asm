@@ -26,33 +26,30 @@ JoeyAnswerPhoneNiteText:
 	done
 
 JoeyGreetText:
-	text "Yo, <PLAYER>!"
-	line "Wie läuft's?"
+	text "Yo, <PLAYER>! Wie"
+	line "läuft's?"
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text ","
-	line "hast du Zeit?"
+	text ", hast du Zeit?"
 	done
 
 JoeyGreetDayText:
-	text "Yo, <PLAYER>!"
-	line "Wie geht's?"
+	text "Yo, <PLAYER>! Wie"
+	line "geht's?"
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Hast du Zeit?"
+	text ". Hast du Zeit?"
 	done
 
 JoeyGreetNiteText:
-	text "Yo, <PLAYER>!"
-	line "Wie läuft's?"
+	text "Yo, <PLAYER>! Wie"
+	line "läuft's?"
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text ","
-	line "hast du Zeit?"
+	text ", hast du Zeit?"
 	done
 
 JoeyGenericText:
@@ -61,12 +58,11 @@ JoeyGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "wie immer bereit!"
+	text " ist wie immer"
+	line "bereit!"
 
 	para "Es ist mein"
-	line "einziges."
-	line "Damit werde ich"
-	cont "ein"
+	line "einziges. Damit"
+	cont "werde ich ein"
 	cont "großer Trainer!"
 	done

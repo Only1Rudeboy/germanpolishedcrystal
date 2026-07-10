@@ -697,7 +697,7 @@ VerifyGameVersion:
 	jr .infinite_loop
 
 .SaveUpgradeScreen:
-	text  "Dein Spielstand"
+	text "Dein Spielstand"
 	next1 "passt nicht zur"
 	next1 "Version dieses"
 	next1 "ROMs."

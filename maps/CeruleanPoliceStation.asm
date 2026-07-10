@@ -19,17 +19,15 @@ CeruleanPoliceStation_MapScriptHeader:
 CeruleanPoliceStationFishingGuruText:
 	text "Ich habe gehört,"
 	line "dass ein"
-	cont "zwielich-"
-	cont "tiger Typ herum-"
-	cont "schleichen soll."
+	cont "zwielichtiger Typ"
+	cont "herumschleichen"
+	cont "soll."
 
 	para "Ich werde nicht"
-	line "still halten,"
-	cont "wenn"
-	cont "sich"
-	cont "herausstellt,"
-	cont "dass er ein"
-	cont "Dieb ist."
+	line "still halten, wenn"
+	cont "sich herausstellt,"
+	cont "dass er ein Dieb"
+	cont "ist."
 	done
 
 

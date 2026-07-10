@@ -24,29 +24,27 @@ SlowpokeWellEntranceKurtText:
 	cont "weggelaufen, als"
 	cont "ich sie anschrie."
 
-	para "Aber dann bin"
-	line "ich in den"
-	cont "BRUNNEN gefallen."
+	para "Aber dann bin ich"
+	line "in den BRUNNEN"
+	cont "gefallen."
 
 	para "Ich bin so hart "
 	line "auf meinem Rücken"
-	cont "gelandet, dass"
-	cont "ich"
+	cont "gelandet, dass ich"
 	cont "mich nicht mehr"
 	cont "bewegen kann."
 
-	para "Mist! Wenn ich"
-	line "fit wäre, würden"
+	para "Mist! Wenn ich fit"
+	line "wäre, würden"
 
-	para "meine #mon"
-	line "sie bestrafen…"
+	para "meine #mon sie"
+	line "bestrafen…"
 
 	para "Ah, mir ist nicht"
 	line "zu helfen."
 
 	para "<PLAYER>, zeig"
 	line "ihnen, wie mutig"
-	cont "du bist. Tu es"
-	cont "für"
+	cont "du bist. Tu es für"
 	cont "mich!"
 	done

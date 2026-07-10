@@ -105,9 +105,9 @@ GoldenrodGameCornerTutorPayDayScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Pay Day bringt"
-	line "dir nach einem"
-	cont "Kampf mehr Geld!"
+	text "Pay Day bringt dir"
+	line "nach einem Kampf"
+	cont "mehr Geld!"
 
 	para "Nutze es oft und"
 	line "wirst reich!"
@@ -346,8 +346,7 @@ GoldenrodGameCornerCardFlipMachineScript:
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "Willkommen!"
 
-	para "Wir tauschen"
-	line "deine"
+	para "Wir tauschen deine"
 	line "Spielmünzen gegen"
 	cont "tolle Preise!"
 	done
@@ -362,8 +361,7 @@ GoldenrodGameCornerPrizeVendorWhichPrizeText:
 
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
-	text "."
-	line "Ist das O.K.?"
+	text ". Ist das O.K.?"
 	done
 
 
@@ -375,8 +373,8 @@ GoldenrodGameCornerPrizeVendorHereYouGoText:
 
 
 GoldenrodGameCornerPrizeVendorAlreadyHaveTMText:
-	text "Aber du hast"
-	line "diese VM schon!"
+	text "Aber du hast diese"
+	line "VM schon!"
 	done
 
 
@@ -396,22 +394,20 @@ GoldenrodGameCornerPrizeVendorQuitText:
 
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? Du hast"
-	line "keinen"
+	text "Oh? Du hast keinen"
 	line "MÜNZKORB."
 	done
 
 
 
 GoldenrodGameCornerFisherText:
-	text "Heute ist"
-	line "Zahltag! Zeit zu"
-	cont "feiern"
-	cont "an den Automaten!"
+	text "Heute ist Zahltag!"
+	line "Zeit zu feiern an"
+	cont "den Automaten!"
 
 	para "…Weißt du, #mon"
-	line "bekommen auch"
-	cont "Pay Day."
+	line "bekommen auch Pay"
+	cont "Day."
 	done
 
 Text_GoldenrodGameCornerTutorPayDayQuestion:
@@ -444,10 +440,9 @@ GoldenrodGameCornerPokefanM1Text:
 
 	para "Er stellt eine"
 	line "größere"
-	cont "Herausfor-"
-	cont "derung dar als"
-	cont "jene in PRISMANIA"
-	cont "CITY."
+	cont "Herausforderung"
+	cont "dar als jene in"
+	cont "PRISMANIA CITY."
 	done
 
 
@@ -468,19 +463,16 @@ GoldenrodGameCornerPokefanFText:
 	
 	para "weil man seine"
 	line "Chancen besser"
-	cont "ab-"
-	cont "schätzen kann."
+	cont "abschätzen kann."
 	
 	para "Aber der Gewinn"
-	line "ist viel"
-	cont "geringer."
+	line "ist viel geringer."
 	done
 
 
 
 GoldenrodGameCornerCooltrainerFText:
-	text "Ich höre erst"
-	line "auf,"
+	text "Ich höre erst auf,"
 	line "wenn ich gewinne!"
 	done
 
@@ -492,14 +484,12 @@ GoldenrodGameCornerGentlemanText:
 	cont "beigebracht."
 
 	para "Es hat zwar"
-	line "gedau-"
-	line "ert, bis ich"
+	line "gedauert, bis ich"
 	cont "genug"
 
-	para "Münzen hatte,"
-	line "aber"
-	line "es hat sich ge-"
-	cont "lohnt."
+	para "Münzen hatte, aber"
+	line "es hat sich"
+	cont "gelohnt."
 	done
 
 
@@ -514,19 +504,17 @@ GoldenrodGameCornerPokefanM2Text:
 	para "auch nicht anders"
 	line "aus…"
 
-	para "Ich war so"
-	line "zornig,"
+	para "Ich war so zornig,"
 	line "dass ich meinen"
 
 	para "MÜNZKORB in den"
-	line "UNTERGRUND gewor-"
-	cont "fen habe."
+	line "UNTERGRUND"
+	cont "geworfen habe."
 	done
 
 
 
 GoldenrodGameCornerPokefanM3Text:
-	text "Wahaha! Die"
-	line "Münzen"
+	text "Wahaha! Die Münzen"
 	line "fallen weiter!"
 	done

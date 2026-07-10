@@ -77,8 +77,8 @@ RageCandyBarMerchantScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Du hast nicht ge-"
-	line "nug Geld."
+	text "Du hast nicht"
+	line "genug Geld."
 	done
 MahoganyTownGrampsScript:
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
@@ -86,8 +86,8 @@ MahoganyTownGrampsScript:
 	jumpthistextfaceplayer
 
 	text "Willst du dir das"
-	line "wütende GARADOS"
-	cont "am See ansehen?"
+	line "wütende GARADOS am"
+	cont "See ansehen?"
 	done
 
 
@@ -97,8 +97,7 @@ MahoganyTownSouvenirShopSign:
 	iftrue_jumptext MahoganyTownSouvenirShopSignText1
 	jumpthistext
 
-	text "Omas"
-	line "Souvenirladen"
+	text "Omas Souvenirladen"
 	done
 
 MahoganyTownRageCandyBarMerchantBlocksYouMovement:
@@ -118,15 +117,14 @@ RageCandyBarMerchantTryOneText:
 	para "Ich sehe, du bist"
 	line "neu in MAHAGONIA."
 
-	para "Du musst"
-	line "unbedingt"
+	para "Du musst unbedingt"
 	line "einen WUTKEKS"
 	cont "probieren!"
 
 	para "Ich habe einen"
-	line "da-"
-	line "bei. Für nur ¥300"
-	cont "gehört er dir."
+	line "dabei. Für nur"
+	cont "¥300 gehört er"
+	cont "dir."
 	done
 
 
@@ -184,9 +182,8 @@ MahoganyTownGrampsText_ClearedRocketHideout:
 	cont "zurückgekehrt."
 
 	para "Das sind gute"
-	line "Neu-"
-	line "igkeiten für die"
-	cont "Angler."
+	line "Neuigkeiten für"
+	cont "die Angler."
 	done
 
 
@@ -199,12 +196,11 @@ MahoganyTownFisherText:
 	line "weit gekommen"
 
 	para "bist, solltest du"
-	line "dir die Zeit neh-"
-	cont "men, um etwas"
+	line "dir die Zeit"
+	cont "nehmen, um etwas"
 
 	para "Sightseeing zu"
-	line "un-"
-	line "ternehmen."
+	line "unternehmen."
 
 	para "Geh nach Norden"
 	line "und sieh dir den"
@@ -222,8 +218,8 @@ MahoganyTownLassText:
 	line "ters Laden. Sie"
 
 	para "verkauft Artikel,"
-	line "die du sonst nir-"
-	cont "gends bekommen"
+	line "die du sonst"
+	cont "nirgends bekommen"
 	cont "kannst."
 	done
 

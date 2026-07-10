@@ -22,8 +22,8 @@ Route11GateOfficerText:
 	line "#mon fängst,"
 
 	para "fällt es schwer,"
-	line "Namen zu"
-	cont "finden, oder?"
+	line "Namen zu finden,"
+	cont "oder?"
 
 	para "In LAVANDIA gibt"
 	line "es einen Mann,"

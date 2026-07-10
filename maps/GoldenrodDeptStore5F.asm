@@ -50,8 +50,7 @@ GoldenrodDeptStore5FReceptionistScript:
 	ifgreater FRIEND_BALL_HAPPINESS - 1, .VeryHappy
 	jumpthisopenedtext
 
-	text "Es ist"
-	line "entzückend!"
+	text "Es ist entzückend!"
 
 	para "Du solltest ihm"
 	line "gute VM-Attacken"
@@ -71,8 +70,8 @@ GoldenrodDeptStore5FReceptionistScript:
 	jumpthisopenedtext
 
 	text "Es gibt für jedes"
-	line "#mon passen-"
-	cont "de TMs."
+	line "#mon passende"
+	cont "TMs."
 	done
 GoldenrodDeptStore5FTwinScript:
 	checkflag ENGINE_DAILY_MYSTERY_GIFT
@@ -91,8 +90,7 @@ GoldenrodDeptStore5FTwinScript:
 
 .ComeBackText:
 	text "Morgen gibt es"
-	line "wieder eine"
-	cont "Beere."
+	line "wieder eine Beere."
 	done
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
@@ -122,20 +120,17 @@ GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
 
 
 MysteryGiftGirl_NoRoomText:
-	text "Aber du kannst"
-	line "es nicht"
-	cont "tragen…"
+	text "Aber du kannst es"
+	line "nicht tragen…"
 	done
 
 GoldenrodDeptStore5FLassText:
 	text "Sonntags kommt"
-	line "eine Dame, um"
-	cont "nach"
+	line "eine Dame, um nach"
 	cont "den #mon zu"
 	cont "sehen."
 
-	para "Sie verteilt"
-	line "sogar"
+	para "Sie verteilt sogar"
 	line "TMs!"
 	done
 
@@ -158,8 +153,8 @@ GoldenrodDeptStore5FPokefanMText:
 
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Rüste deine #-"
-	line "MON auf."
+	text "Rüste deine"
+	line "#mon auf."
 
 	para "4S TM-ECKE"
 	done

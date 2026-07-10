@@ -29,16 +29,14 @@ EcruteakCherishBallHouseGrampsScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Ich werde die"
-	line "Zeit mit #mon"
-	cont "immer in Ehren"
-	cont "halten."
+	text "Ich werde die Zeit"
+	line "mit #mon immer"
+	cont "in Ehren halten."
 	done
 
 .Text1:
-	text "Ich hab ein"
-	line "langes Leben"
-	line "gelebt und"
+	text "Ich hab ein langes"
+	line "Leben gelebt und"
 
 	para "Erinnerungen, die"
 	line "ich für immer"

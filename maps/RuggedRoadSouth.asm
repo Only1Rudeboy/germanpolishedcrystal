@@ -72,12 +72,12 @@ RuggedRoadSouthAdvancedTipsSignText:
 	text "Profi-Tipps!"
 
 	para "K.O.-t dein"
-	line "#mon den"
-	cont "Gegner und"
+	line "#mon den Gegner"
+	cont "und"
 
 	para "trägt es ein"
-	line "Kraftitem für"
-	cont "mehr EP-Gewinn,"
+	line "Kraftitem für mehr"
+	cont "EP-Gewinn,"
 
 	para "profitieren alle"
 	line "#mon im Kampf"

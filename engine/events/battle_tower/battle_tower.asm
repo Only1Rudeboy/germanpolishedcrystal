@@ -474,8 +474,8 @@ Special_BattleTower_NextRentalBattle:
 	cont "und bieten dir 6"
 	cont "Leih-#mon an."
 
-	para "Wähle #mon"
-	line "für den Kampf."
+	para "Wähle #mon für"
+	line "den Kampf."
 	prompt
 
 .TradeBeforeBattle:

@@ -24,8 +24,8 @@ PokemonJournalLanceScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Champ Dragoran!"
+	para "Spezial: Champ"
+	line "Dragoran!"
 
 	para "Dragoran wurde"
 	line "beim Einkaufen"
@@ -53,7 +53,7 @@ SilverCavePokeCenterGrampsScript:
 
 	para "Nicht schlecht,"
 	line "aber ich habe"
-	line "{d:NUM_POKEMON_JOURNALS}"
+	cont "{d:NUM_POKEMON_JOURNALS}"
 	cont "!"
 	done
 
@@ -64,12 +64,10 @@ SilverCavePokeCenterGrampsScript:
 	line "gelesen? Schade."
 
 	para "In #mon-Centern"
-	line "stehen die"
-	cont "meisten"
+	line "stehen die meisten"
 
 	para "im Regal, aber"
-	line "echte Fans wie"
-	cont "ich"
+	line "echte Fans wie ich"
 	cont "suchen die"
 	cont "seltenen."
 	done
@@ -93,17 +91,16 @@ SilverCavePokeCenterGrampsScript:
 
 .GreetingText:
 	text "In meiner Jugend"
-	line "war ich selbst"
-	cont "ein talentierter"
+	line "war ich selbst ein"
+	cont "talentierter"
 	cont "Trainer."
 
-	para "Heute lese ich"
-	line "nur im #mon"
-	cont "Journal"
+	para "Heute lese ich nur"
+	line "im #mon Journal"
 	cont "über andere."
 
-	para "Liest du auch"
-	line "das Journal?"
+	para "Liest du auch das"
+	line "Journal?"
 	done
 
 .ReadAllText:
@@ -124,12 +121,10 @@ SilverCavePokeCenter1FGrannyText:
 	text "Trainer, die nach"
 	line "Stärke streben,"
 
-	para "erklimmen den"
-	line "SIL-"
+	para "erklimmen den SIL-"
 	line "BERBERG trotz"
-	cont "sei-"
-	cont "ner vielen Gefah-"
-	cont "ren…"
+	cont "seiner vielen"
+	cont "Gefahren…"
 
 	para "Durch ihre treuen"
 	line "#mon haben"

@@ -70,8 +70,8 @@ AzaleaPokeCenter1FCooltrainermScript:
 
 	para "Agatha, einem"
 	line "ehemaligen"
-	cont "Mitglied"
-	cont "der Top Vier."
+	cont "Mitglied der Top"
+	cont "Vier."
 	done
 
 AzaleaPokeCenter1FGentlemanText:
@@ -101,9 +101,8 @@ AzaleaPokeCenter1FSightseermText:
 	done
 
 AzaleaPokeCenter1FPokefanfText:
-	text "Kennst du dich"
-	line "mit Aprikokos"
-	cont "aus?"
+	text "Kennst du dich mit"
+	line "Aprikokos aus?"
 
 	para "Man knackt eine"
 	line "auf, höhlt sie aus"

@@ -28,8 +28,8 @@ PokemonJournalJanineScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Leiter Janina!"
+	para "Spezial: Leiter"
+	line "Janina!"
 
 	para "Man sagt, Janina"
 	line "war als Kind ein"
@@ -77,8 +77,8 @@ FuchsiaPokeCenter1FCooltrainerMText:
 	line "völlig neuen"
 	cont "#dex!"
 
-	para "Hat PROF. EICH"
-	line "dir den gegeben?"
+	para "Hat PROF. EICH dir"
+	line "den gegeben?"
 	done
 FuchsiaPokeCenter1FCooltrainerFText:
 	text "Ich habe mich in"

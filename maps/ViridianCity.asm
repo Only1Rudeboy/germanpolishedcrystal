@@ -73,8 +73,7 @@ ViridianCityGrampsNearGym:
 
 	para "wurde der neue"
 	line "LEITER, aber er"
-	cont "ist oft"
-	cont "unterwegs."
+	cont "ist oft unterwegs."
 	done
 
 
@@ -126,18 +125,15 @@ ViridianCityTutorDreamEaterScript:
 
 ViridianCityCoffeeGrampsQuestionText:
 	text "He, Kurzbein! Ich"
-	line "hatte gerade"
-	cont "einen"
+	line "hatte gerade einen"
 
-	para "doppelten"
-	line "Espresso"
-	line "und ich bin"
-	cont "total aufgedreht!"
+	para "doppelten Espresso"
+	line "und ich bin total"
+	cont "aufgedreht!"
 
 	para "Ich brauche jetzt"
-	line "jemanden zum"
-	cont "Reden und zwar"
-	cont "dich!"
+	line "jemanden zum Reden"
+	cont "und zwar dich!"
 
 	para "Man sieht es mir"
 	line "jetzt vielleicht"
@@ -160,8 +156,7 @@ ViridianCityCoffeeGrampsDoubtedText:
 	line "Frechdachs!"
 
 	para "Wenn ich etwas"
-	line "jünger wäre,"
-	cont "würde"
+	line "jünger wäre, würde"
 
 	para "ich dir schon das"
 	line "eine oder andere"
@@ -179,8 +174,7 @@ ViridianCityGrampsNearGymBlueReturnedText:
 	cont "herausfordern?"
 
 	para "Viel Glück! Du"
-	line "wirst es"
-	cont "brauchen."
+	line "wirst es brauchen."
 	done
 
 
@@ -204,18 +198,17 @@ ViridianCityDreamEaterFisherText:
 	para "fressen wollte."
 	line "Das ist doch"
 
-	para "merkwürdig,"
-	line "nicht wahr?"
+	para "merkwürdig, nicht"
+	line "wahr?"
 
-	para "Nanu!"
-	line "Was ist das?"
+	para "Nanu! Was ist das?"
 
 	para "Wo ist diese TM"
 	line "hergekommen?"
 
-	para "Unheimlich!"
-	line "Hier, du kannst"
-	cont "die TM behalten."
+	para "Unheimlich! Hier,"
+	line "du kannst die TM"
+	cont "behalten."
 	done
 
 
@@ -226,12 +219,10 @@ ViridianCityDreamEaterFisherText:
 Text_ViridianCityTutorDreamEater:
 	text "Ich bringe deinem"
 	line "#mon bei,"
-	cont "Träume zu"
-	cont "fressen."
+	cont "Träume zu fressen."
 
-	para "Dafür will ich"
-	line "nur ein"
-	cont "Silberblatt."
+	para "Dafür will ich nur"
+	line "ein Silberblatt."
 	done
 
 
@@ -251,8 +242,7 @@ ViridianCityYoungsterText:
 	text "Ich habe gehört,"
 	line "dass man viele"
 
-	para "Items im"
-	line "VERTANIA-"
+	para "Items im VERTANIA-"
 	line "WALD findet."
 	done
 
@@ -312,7 +302,7 @@ ViridianCityTrainerTips1Text:
 
 	para "Je mehr du hast,"
 	line "desto leichter"
-	line "wird der Kampf!"
+	cont "wird der Kampf!"
 	done
 
 ViridianCityTrainerTips2Text:
@@ -326,9 +316,8 @@ ViridianCityTrainerTips2Text:
 	cont "FLIEGEN — schau"
 	cont "dich um!"
 
-	para "Du findest"
-	line "neue, aufregende"
-	cont "Dinge!"
+	para "Du findest neue,"
+	line "aufregende Dinge!"
 	done
 
 TrainerHouseSignText:

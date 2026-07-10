@@ -42,10 +42,10 @@ SSAquaCaptain:
 	line "du mitgekommen"
 	cont "bist."
 
-	para "Das kleine"
-	line "Mädchen bei"
-	cont "Laune zu halten"
-	cont "war anstrengend."
+	para "Das kleine Mädchen"
+	line "bei Laune zu"
+	cont "halten war"
+	cont "anstrengend."
 	done
 
 SSAquaGranddaughterBefore:
@@ -115,12 +115,10 @@ SSAquaMachoBraceAndDocking:
 	endtext
 
 .NoRoomForMachoBrace:
-	text "Aber du kannst"
-	line "es nicht"
-	line "tragen! Ich"
-	cont "bewahre es für"
-	cont "die nächste"
-	cont "Fahrt auf."
+	text "Aber du kannst es"
+	line "nicht tragen! Ich"
+	cont "bewahre es für die"
+	cont "nächste Fahrt auf."
 	done
 
 SSAquaFoundGranddaughter:
@@ -144,8 +142,8 @@ GenericTrainerTwinsMegandpeg1:
 	generictrainer TWINS, MEGANDPEG1, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg1SeenText, TwinsMegandpeg1BeatenText
 
 	text "“Baby” ist kein"
-	line "schöner Name"
-	cont "für Mädchen!"
+	line "schöner Name für"
+	cont "Mädchen!"
 	done
 GenericTrainerTwinsMegandpeg2:
 	generictrainer TWINS, MEGANDPEG2, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg2SeenText, TwinsMegandpeg2BeatenText
@@ -224,8 +222,8 @@ SSAquaCantFindGranddaughterText:
 	cont "finden."
 
 	para "Wenn sie an Bord"
-	line "ist, ist alles"
-	cont "in Ordnung."
+	line "ist, ist alles in"
+	cont "Ordnung."
 
 	para "Sie ist ein"
 	line "Energiebündel und"
@@ -240,8 +238,7 @@ SSAquaCantFindGranddaughterText:
 
 SSAquaEntertainedGranddaughterText:
 	text "<PLAYER>, oder?"
-	line "Ich"
-	line "hörte, du hast"
+	line "Ich hörte, du hast"
 	cont "meine Enkelin bei"
 	cont "Laune gehalten."
 
@@ -259,8 +256,8 @@ SSAquaGrandpaHaveThisText:
 
 
 SSAquaGrandpaTravellingText:
-	text "Wir reisen um"
-	line "die Welt."
+	text "Wir reisen um die"
+	line "Welt."
 	done
 
 
@@ -269,22 +266,21 @@ SSAquaGranddaughterCaptainPlayWithMeText:
 	text "KAPITÄN, spielst"
 	line "du mit mir?"
 
-	para "Mir ist langwei-"
-	line "lig! Ich möchte"
-	cont "spielen!"
+	para "Mir ist"
+	line "langweilig! Ich"
+	cont "möchte spielen!"
 	done
 
 
 
 SSAquaGranddaughterHasToFindGrandpaText:
 	text "Hallo! Willst du"
-	line "mit mir"
-	cont "spielen?"
+	line "mit mir spielen?"
 
 	para "…Oh!"
 
-	para "Opa sorgt sich"
-	line "um mich?"
+	para "Opa sorgt sich um"
+	line "mich?"
 
 	para "Ich muss los!"
 
@@ -295,8 +291,7 @@ SSAquaGranddaughterHasToFindGrandpaText:
 
 
 SSAquaGranddaughterWasPlayingText:
-	text "Opa, hier bin"
-	line "ich!"
+	text "Opa, hier bin ich!"
 	line "Ich habe mit dem"
 
 	para "Kapitän und dem"
@@ -326,10 +321,9 @@ PokefanmColinBeatenText:
 
 
 TwinsMegandpeg1SeenText:
-	text "Du denkst, ich"
-	line "bin noch ein"
-	cont "Baby?"
-	cont "Das ist gemein!"
+	text "Du denkst, ich bin"
+	line "noch ein Baby? Das"
+	cont "ist gemein!"
 	done
 
 
@@ -342,8 +336,7 @@ TwinsMegandpeg1BeatenText:
 
 
 TwinsMegandpeg2SeenText:
-	text "Ich bin kein"
-	line "Baby!"
+	text "Ich bin kein Baby!"
 
 	para "So etwas sagt man"
 	line "nicht zu einer"
@@ -361,8 +354,8 @@ TwinsMegandpeg2BeatenText:
 
 PsychicRodneySeenText:
 	text "Ssh! Mein Gehirn"
-	line "empfängt Radio-"
-	cont "wellen!"
+	line "empfängt"
+	cont "Radiowellen!"
 	done
 
 
@@ -405,9 +398,8 @@ PokefanfGeorgiaBeatenText:
 
 
 SupernerdShawnSeenText:
-	text "Was für #-"
-	line "BÄLLE hast du"
-	cont "dabei?"
+	text "Was für #bälle"
+	line "hast du dabei?"
 	done
 
 
@@ -420,8 +412,7 @@ SupernerdShawnBeatenText:
 
 
 SSAquaHasArrivedVermilionText:
-	text "Die M.S. AQUA"
-	line "legt"
+	text "Die M.S. AQUA legt"
 	line "in"
 
 	para "ORANIA CITY an."

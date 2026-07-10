@@ -3,8 +3,8 @@ ReenaAskNumber1Text:
 	line "Mich zu schlagen,"
 
 	para "selbst aus"
-	line "Versehen…"
-	line "Du gefällst mir!"
+	line "Versehen… Du"
+	cont "gefällst mir!"
 
 	para "Gib mir deine"
 	line "Nummer! Du wirst"
@@ -28,8 +28,7 @@ ReenaNumberAcceptedText:
 
 ReenaNumberDeclinedText:
 	text "Unfassbar! Du"
-	line "wirst"
-	line "es bereuen!"
+	line "wirst es bereuen!"
 	done
 
 ReenaPhoneFullText:

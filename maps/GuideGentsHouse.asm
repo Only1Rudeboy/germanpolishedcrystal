@@ -16,19 +16,17 @@ GuideGentsHouse_MapScriptHeader:
 
 GuideGentsHouseGuideGentText:
 	text "Als ich noch ein"
-	line "Junge war, war"
-	cont "ich"
+	line "Junge war, war ich"
 	cont "ein richtiger"
 	cont "Heißsporn!"
 
-	para "Ich gebe dir"
-	line "einen"
+	para "Ich gebe dir einen"
 	line "Rat: Fange viele"
 	cont "#mon!"
 
 	para "Behandle sie alle"
-	line "mit Freundlich-"
-	cont "keit!"
+	line "mit"
+	cont "Freundlichkeit!"
 	done
 
 

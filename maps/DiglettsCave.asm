@@ -64,9 +64,8 @@ DiglettsCaveFossilManiacScript:
 
 .GreetingText:
 	text "Hey, schau mal."
-	line "Ich hab ein"
-	cont "super Angebot"
-	cont "für dich!"
+	line "Ich hab ein super"
+	cont "Angebot für dich!"
 
 	para "Weißt du, wie"
 	line "#mon-Fossilien"
@@ -74,28 +73,27 @@ DiglettsCaveFossilManiacScript:
 	cont "vorkommen?"
 
 	para "Wenn du eines"
-	line "findest, bring"
-	cont "es mir."
+	line "findest, bring es"
+	cont "mir."
 
-	para "Es lohnt sich"
-	line "für dich."
+	para "Es lohnt sich für"
+	line "dich."
 	done
 
 .OfferText:
-	text "Hey, super!"
-	line "Mal sehen."
+	text "Hey, super! Mal"
+	line "sehen."
 
-	para "Ich geb dir"
-	line "¥"
+	para "Ich geb dir ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text " dafür."
-	cont "Einverstanden?"
+	line "Einverstanden?"
 	done
 
 .WrongItemText:
 	text "Nein, das taugt"
-	line "nichts. Lohnt"
-	cont "sich nicht."
+	line "nichts. Lohnt sich"
+	cont "nicht."
 	done
 
 .NoItemText:
@@ -115,15 +113,14 @@ GenericTrainerHikerGerard:
 	line "mich so nervös."
 
 	para "Was, wenn ein"
-	line "Digda mich aus"
-	cont "dem"
+	line "Digda mich aus dem"
 	cont "Nichts angreift?"
 	done
 
 .SeenText:
 	text "Aah! Ich glaub,"
-	line "der Fels hat"
-	cont "sich bewegt!"
+	line "der Fels hat sich"
+	cont "bewegt!"
 	done
 
 .BeatenText:
@@ -135,8 +132,8 @@ GenericTrainerHikerDent:
 	generictrainer HIKER, DENT, EVENT_BEAT_HIKER_DENT, .SeenText, .BeatenText
 
 	text "Ich passe perfekt"
-	line "zur Muskel-"
-	cont "Truppe der"
+	line "zur Muskel- Truppe"
+	cont "der"
 	cont "MARMORIA-ARENA."
 	cont "Hohoh!"
 	done
@@ -145,17 +142,15 @@ GenericTrainerHikerDent:
 	text "Ich gehe nach"
 	line "MARMORIA."
 
-	para "Die"
-	line "Gesteins-Arena"
+	para "Die Gesteins-Arena"
 	line "ist perfekt für"
 	cont "einen Kerl wie"
 	cont "mich!"
 	done
 
 .BeatenText:
-	text "Hohoh!"
-	line "Jemand ist"
-	cont "stärker als ich!"
+	text "Hohoh! Jemand ist"
+	line "stärker als ich!"
 	done
 
 GenericTrainerBlackbeltInigo:
@@ -189,8 +184,8 @@ GenericTrainerEngineerSmith:
 	done
 
 .SeenText:
-	text "Wie hat Digda"
-	line "so einen langen"
+	text "Wie hat Digda so"
+	line "einen langen"
 	cont "Tunnel gegraben?"
 	done
 
@@ -213,8 +208,8 @@ DiglettsCavePokefanMText:
 	line "plötzlich vor mir"
 
 	para "aufgetaucht! Ich"
-	line "habe mich er-"
-	cont "schreckt."
+	line "habe mich"
+	cont "erschreckt."
 	done
 
 

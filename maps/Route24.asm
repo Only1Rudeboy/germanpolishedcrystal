@@ -123,12 +123,11 @@ Route24RocketSeenText:
 	cont "ROCKET."
 
 	para "Sein aus fremde"
-	line "Land, Trainer"
-	cont "eins"
+	line "Land, Trainer eins"
 	cont "ich sein!"
 
-	para "Geglaubt, wenn"
-	line "nix Energie mehr,"
+	para "Geglaubt, wenn nix"
+	line "Energie mehr,"
 
 	para "mache viel Panik"
 	line "bei Leute!"
@@ -138,12 +137,10 @@ Route24RocketSeenText:
 	cont "dir nix verraten!"
 
 	para "Doch! Wenn mich"
-	line "besiegen, ich"
-	cont "sein"
+	line "besiegen, ich sein"
 
 	para "lieb und dir"
-	line "verrate"
-	cont "Geheimnis."
+	line "verrate Geheimnis."
 
 	para "Du, Kind! Kämpfen"
 	line "lass uns!"
@@ -151,9 +148,8 @@ Route24RocketSeenText:
 
 
 Route24RocketBeatenText:
-	text "Uff! Nein,"
-	line "glauben nicht ich"
-	cont "kann!"
+	text "Uff! Nein, glauben"
+	line "nicht ich kann!"
 
 	para "Stark sehr du"
 	line "sein! Ich nix"
@@ -166,8 +162,7 @@ Route24RocketAfterBattleText:
 	line "meine Geheimnis."
 
 	para "SPULE, gestohlen"
-	line "von mir,"
-	cont "versteckt"
+	line "von mir, versteckt"
 
 	para "in #mon-ARENA"
 	line "der AZURIA CITY."
@@ -176,8 +171,7 @@ Route24RocketAfterBattleText:
 	line "Versteck. In"
 
 	para "Mitte von #mon-"
-	line "ARENA Wasser"
-	cont "sein."
+	line "ARENA Wasser sein."
 
 	para "Kind, du mich"
 	line "vergessen nicht!"
@@ -196,25 +190,22 @@ Route24RocketAfterBattleText:
 Route24RocketDisappearsText:
 	text "…"
 
-	para "Was du sagen?"
-	line "TEAM"
+	para "Was du sagen? TEAM"
 	line "ROCKET nix mehr"
 
 	para "gibt? Kaputt"
-	line "gemacht, du"
-	cont "sagen?"
+	line "gemacht, du sagen?"
 
-	para "Oh, nein! Was"
-	line "soll ich jetzt"
-	cont "machen?"
+	para "Oh, nein! Was soll"
+	line "ich jetzt machen?"
 	done
 
 
 Route24AdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "Die Fähigkeit"
-	line "Rohe Gewalt"
+	para "Die Fähigkeit Rohe"
+	line "Gewalt"
 
 	para "hebt Nebeneffekte"
 	line "von Attacken auf,"
@@ -226,6 +217,6 @@ Route24AdvancedTipsSignText:
 	line "Schaden durch"
 
 	para "einen getragenen"
-	line "Leben-Orb"
-	line "wird ignoriert!"
+	line "Leben-Orb wird"
+	cont "ignoriert!"
 	done

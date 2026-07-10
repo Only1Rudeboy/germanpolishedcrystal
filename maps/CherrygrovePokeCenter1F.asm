@@ -30,8 +30,7 @@ PokemonJournalRedScript:
 	line "#mon-Trainer"
 	cont "Rot!"
 
-	para "Man sagt, Rot"
-	line "hat"
+	para "Man sagt, Rot hat"
 	line "seinen Rivalen"
 
 	para "Blau besiegt und"
@@ -49,19 +48,17 @@ CherrygrovePokeCenter1FTeacherScript:
 	jumpthistextfaceplayer
 
 	text "Das KOMMUNI-"
-	line "KATIONS-CENTER"
-	cont "im"
+	line "KATIONS-CENTER im"
 	cont "ersten Stock ist"
 	cont "gerade fertig."
 
-	para "Aber der Fein-"
-	line "schliff fehlt"
+	para "Aber der"
+	line "Feinschliff fehlt"
 	cont "noch."
 	done
 .Text2:
 	text "Das KOMMUNI-"
-	line "KATIONS-CENTER"
-	cont "im"
+	line "KATIONS-CENTER im"
 	cont "ersten Stock ist"
 	cont "gerade fertig."
 
@@ -69,35 +66,30 @@ CherrygrovePokeCenter1FTeacherScript:
 	line "#mon getauscht!"
 	done
 CherrygrovePokeCenter1FFisherText:
-	text "Das ist toll!"
-	line "Ich"
+	text "Das ist toll! Ich"
 	line "kann so viele"
 
 	para "#mon lagern,"
-	line "wie ich will,"
-	cont "und"
+	line "wie ich will, und"
 	cont "das umsonst!"
 	done
 CherrygrovePokeCenter1FGentlemanText:
 	text "Dieser PC steht"
 	line "jedem Trainer"
-	cont "kos-"
-	cont "tenfrei zur"
-	cont "Verfü-"
-	cont "gung."
+	cont "kostenfrei zur"
+	cont "Verfügung."
 	done
 CherrygrovePokeCenter1FLadyText:
 	text "Das #mon"
 	line "Journal hat so"
-	cont "faszinie-"
-	cont "rende Storys!"
+	cont "faszinierende"
+	cont "Storys!"
 
 	para "Ich komme ins"
 	line "#mon-CENTER für"
 
 	para "die neuesten"
-	line "Aus-"
-	line "gaben, aber"
+	line "Ausgaben, aber"
 
 	para "man kann es auch"
 	line "anderswo"

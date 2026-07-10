@@ -63,8 +63,7 @@ GenericTrainerSwimmerfDawn:
 	text "Es ist nur eine"
 	line "kurze Distanz"
 
-	para "zwischen"
-	line "FUCHSANIA"
+	para "zwischen FUCHSANIA"
 	line "CITY und den"
 	cont "SEESCHAUMINSELN…"
 
@@ -79,15 +78,14 @@ GenericTrainerSwimmermTucker:
 
 	text "Ich… bat meine"
 	line "Freundin nach"
-	cont "FUCHSANIA CITY…"
-	cont "zu schwimmen…"
+	cont "FUCHSANIA CITY… zu"
+	cont "schwimmen…"
 	done
 GenericTrainerSwimmermJerome:
 	generictrainer SWIMMERM, JEROME, EVENT_BEAT_SWIMMERM_JEROME, SwimmermJeromeSeenText, SwimmermJeromeBeatenText
 
 	text "Schwimmen mag"
-	line "nicht meine"
-	cont "Stärke"
+	line "nicht meine Stärke"
 	cont "sein, dennoch"
 	cont "liebe ich das"
 	cont "Meer."
@@ -107,8 +105,8 @@ GenericTrainerCosplayerBrooke:
 
 	text "Ich habe dieses"
 	line "Kostüm für eine"
-	line "Maskerade"
-	cont "gemacht, aber ich"
+	cont "Maskerade gemacht,"
+	cont "aber ich"
 
 	para "liebe es so sehr,"
 	line "dass ich es auch"
@@ -121,8 +119,8 @@ Route19Fisher1Script:
 	jumpthistextfaceplayer
 
 	text "Ich bin ganz"
-	line "verschwitzt."
-	cont "Zeit für ein Bad!"
+	line "verschwitzt. Zeit"
+	cont "für ein Bad!"
 	done
 
 Route19Fisher2Script:
@@ -153,11 +151,10 @@ SwimmerfDawnBeatenText:
 
 
 SwimmermTuckerSeenText:
-	text "Uff, uff…"
-	line "Nur… noch… ein"
+	text "Uff, uff… Nur…"
+	line "noch… ein"
 
-	para "kleines Stück…"
-	line "bis"
+	para "kleines Stück… bis"
 	line "…FUCHSANIA CITY…"
 	done
 
@@ -168,8 +165,7 @@ SwimmermTuckerBeatenText:
 
 
 SwimmermJeromeSeenText:
-	text "Schwimmen? Ich"
-	line "bin"
+	text "Schwimmen? Ich bin"
 	line "ein miserabler"
 	cont "Schwimmer."
 
@@ -198,38 +194,36 @@ SwimmermHaroldBeatenText:
 
 
 CosplayerBrookeSeenText:
-	text "Verkleiden"
-	line "macht Spaß!"
+	text "Verkleiden macht"
+	line "Spaß!"
 	done
 
 CosplayerBrookeBeatenText:
 	text "Hoffentlich hast"
 	line "du mein Kostüm"
-	cont "nicht"
-	cont "beschädigt!"
+	cont "nicht beschädigt!"
 	done
 
 Route19Fisher1Text:
-	text "Tut mir Leid."
-	line "Die Straße ist"
-	cont "aufgrund von Bau-"
-	cont "arbeiten"
+	text "Tut mir Leid. Die"
+	line "Straße ist"
+	cont "aufgrund von"
+	cont "Bauarbeiten"
 	cont "gesperrt."
 
 	para "Wenn du zu der"
 	line "ZINNOBERINSEL"
 
-	para "möchtest, gehst"
-	line "du von ALABASTIA"
-	cont "gen Süden."
+	para "möchtest, gehst du"
+	line "von ALABASTIA gen"
+	cont "Süden."
 	done
 
 
 Route19EngineerText1:
 	text "Es würde zu lange"
 	line "dauern, diesen"
-	cont "Felsen zu"
-	cont "bewegen…"
+	cont "Felsen zu bewegen…"
 	done
 Route19SignText:
 	text "ROUTE 19"

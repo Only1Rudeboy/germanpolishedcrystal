@@ -105,13 +105,12 @@ MomEventScript:
 	end
 
 PlayersHouse1FFridgeText:
-	text "Mal sehen, was"
-	line "im Kühlschrank"
-	cont "zu finden ist…"
+	text "Mal sehen, was im"
+	line "Kühlschrank zu"
+	cont "finden ist…"
 
-	para "TAFELWASSER"
-	line "und leckere"
-	cont "LIMONADE!"
+	para "TAFELWASSER und"
+	line "leckere LIMONADE!"
 	done
 
 
@@ -130,8 +129,7 @@ PlayersHouse1FSinkText:
 
 
 PlayersHouse1FStoveText:
-	text "Mamas"
-	line "Spezialität!"
+	text "Mamas Spezialität!"
 
 	para "ZINNOBER-VULKAN-"
 	line "BURGER!"
@@ -144,13 +142,12 @@ PlayersHouse1FStoveText:
 PlayersHouse1FTVScript:
 	jumpthistext
 
-	text "Es läuft ein"
-	line "Film im TV."
+	text "Es läuft ein Film"
+	line "im TV."
 
 	para "Die Sterne"
-	line "leuchten und"
-	cont "zwei Jungen"
-	cont "fahren Zug…"
+	line "leuchten und zwei"
+	cont "Jungen fahren Zug…"
 
 	para "Ich sollte mich"
 	line "auch in Bewegung"
@@ -171,8 +168,8 @@ MomScript:
 	iftrue_jumpopenedtext MomErrandText
 	jumpthisopenedtext
 
-	text "PROF. LIND"
-	line "wartet auf dich."
+	text "PROF. LIND wartet"
+	line "auf dich."
 
 	para "Beeil dich,"
 	line "Schatz!"
@@ -197,46 +194,41 @@ if DEF(DEBUG)
 	cont "zu nutzen!"
 	done
 else
-	text "Ach, <PLAYER>!"
-	line "Du bist wach."
+	text "Ach, <PLAYER>! Du"
+	line "bist wach."
 
 	para "Deine Freundin"
-	line "LYRA"
-	line "war gerade hier."
+	line "LYRA war gerade"
+	cont "hier."
 
 	para "Sie sagte, unser"
 	line "Nachbar, PROF."
 
-	para "LIND, sucht"
-	line "nach dir."
+	para "LIND, sucht nach"
+	line "dir."
 
-	para "Oh! Fast hätte"
-	line "ich es"
-	cont "vergessen! Dein"
+	para "Oh! Fast hätte ich"
+	line "es vergessen! Dein"
 
-	para "#Com ist"
-	line "von der Repa-"
-	cont "ratur"
+	para "#Com ist von"
+	line "der Reparatur"
 	cont "zurück."
 
-	para "Hier, bitte"
-	line "sehr!"
+	para "Hier, bitte sehr!"
 	done
 
 endc
 
 MomPokegearText:
 	text "PokéCom, dein"
-	line "wichtigstes"
-	cont "Gerät."
+	line "wichtigstes Gerät."
 
 	para "Ein wichtiges"
 	line "Gerät auf deinem"
 	cont "Trainer-Pfad."
 
-	para "Oh, der Wochen-"
-	line "tag ist noch"
-	cont "nicht"
+	para "Oh, der Wochentag"
+	line "ist noch nicht"
 	cont "eingestellt."
 
 	para "Das darfst du"
@@ -252,9 +244,8 @@ MomRunningShoesText:
 	cont "Sommerzeit"
 	cont "einzustellen."
 
-	para "Weißt du"
-	line "übrigens, wie"
-	cont "man die"
+	para "Weißt du übrigens,"
+	line "wie man die"
 
 	para "neuen Laufschuhe"
 	line "benutzt?"
@@ -264,10 +255,8 @@ MomInstructionsText:
 	text "Ich lese die"
 	line "Anleitung vor."
 
-	para "Halte die"
-	line "B-Taste"
-	cont "gedrückt,"
-	cont "um zu"
+	para "Halte die B-Taste"
+	line "gedrückt, um zu"
 
 	para "laufen--drinnen"
 	line "und draußen."
@@ -276,8 +265,7 @@ MomInstructionsText:
 	line "Option, um immer"
 
 	para "zu laufen, und"
-	line "halte B zum"
-	cont "Gehen."
+	line "halte B zum Gehen."
 	done
 
 MomOutroText:
@@ -292,16 +280,14 @@ MomErrandText:
 	para "…"
 
 	para "Das klingt nach"
-	line "einer wahren He-"
-	cont "rausforderung."
+	line "einer wahren"
+	cont "Herausforderung."
 
 	para "Aber du kannst"
-	line "stolz darauf"
-	cont "sein,"
+	line "stolz darauf sein,"
 	cont "dass sich die"
-	cont "Leu-"
-	cont "te auf dich ver-"
-	cont "lassen!"
+	cont "Leute auf dich"
+	cont "verlassen!"
 	done
 MomDoItText:
 	text "<PLAYER>, du"
@@ -347,33 +333,28 @@ NeighborScript:
 	text "Guten Morgen,"
 	line "<PLAYER>!"
 
-	para "Ich bin zu"
-	line "Besuch!"
+	para "Ich bin zu Besuch!"
 	done
 .DayIntroText:
 	text "Hallo, <PLAYER>!"
-	line "Ich bin zu"
-	cont "Besuch!"
+	line "Ich bin zu Besuch!"
 	done
 .NiteIntroText:
 	text "Guten Abend,"
 	line "<PLAYER>!"
 
-	para "Ich bin zu"
-	line "Besuch!"
+	para "Ich bin zu Besuch!"
 	done
 .NeighborText:
-	text "<PLAYER>, hast"
-	line "du schon gehört?"
+	text "<PLAYER>, hast du"
+	line "schon gehört?"
 
-	para "Meine Tochter"
-	line "will"
+	para "Meine Tochter will"
 	line "unbedingt PROF."
 
-	para "LINDs Assis-"
-	line "tentin werden."
+	para "LINDs Assistentin"
+	line "werden."
 
 	para "Sie liebt #mon"
-	line "von ganzem"
-	cont "Herzen!"
+	line "von ganzem Herzen!"
 	done

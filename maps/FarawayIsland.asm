@@ -138,16 +138,15 @@ FarawayIslandSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryFarawayToVermilionQuestionText:
-	text "Zurück nach"
-	line "ORANIA CITY?"
+	text "Zurück nach ORANIA"
+	line "CITY?"
 	done
 
 SeagallopFerryFarawayToVermilionText:
 	text "Alles klar!"
 
-	para "Alle an Bord"
-	line "der Seegallop-"
-	cont "Fähre!"
+	para "Alle an Bord der"
+	line "Seegallop- Fähre!"
 	done
 
 SeagallopFerryFarawayIslandRefusedText:
@@ -155,39 +154,37 @@ SeagallopFerryFarawayIslandRefusedText:
 	done
 
 FarawayIslandLawrenceText1:
-	text "Lawrence: Nun,"
-	line "das ist wirklich"
+	text "Lawrence: Nun, das"
+	line "ist wirklich"
 
-	para "eine Freude,"
-	line "wenn auch eine"
+	para "eine Freude, wenn"
+	line "auch eine"
 	cont "unerwartete."
 
 	para "Ich kam her, um"
 	line "mich zu erinnern,"
 
-	para "wie meine"
-	line "Sammlung begann…"
+	para "wie meine Sammlung"
+	line "begann…"
 
 	para "mit einer Mew-"
 	line "Schnitzerei, die"
-	cont "auf dieser"
-	cont "Insel gefunden"
-	cont "wurde."
+	cont "auf dieser Insel"
+	cont "gefunden wurde."
 
 	para "…Ich hab über"
 	line "unseren letzten"
-	cont "Kampf"
-	cont "nachgedacht."
+	cont "Kampf nachgedacht."
 
 	para "Ich möchte die"
-	line "Bindung verste-"
-	cont "hen, die du zu"
+	line "Bindung verstehen,"
+	cont "die du zu"
 
 	para "deiner Sammlung"
 	line "hast."
 
-	para "Willst du noch"
-	line "mal gegen mich"
+	para "Willst du noch mal"
+	line "gegen mich"
 	cont "kämpfen?"
 	done
 
@@ -206,22 +203,20 @@ FarawayIslandLawrenceBeatenText:
 
 FarawayIslandLawrenceText2:
 	text "Lawrence: …Ich"
-	line "sehe. Ich hab"
-	cont "noch weit zu"
-	cont "gehen,"
+	line "sehe. Ich hab noch"
+	cont "weit zu gehen,"
 
 	para "ehe ich eine noch"
-	line "bessere"
-	cont "Sammlung aufbauen"
-	cont "kann."
+	line "bessere Sammlung"
+	cont "aufbauen kann."
 
 	para "Lebewohl."
 	done
 
 FarawayIslandSignText:
-	text "Die Schrift ver-"
-	line "blasst, als wäre"
-	cont "sie"
+	text "Die Schrift"
+	line "verblasst, als"
+	cont "wäre sie"
 
 	para "vor langer Zeit"
 	line "geschrieben…"
@@ -229,16 +224,13 @@ FarawayIslandSignText:
 	para "“…ber, 6. Tag"
 
 	para "Sollte je ein"
-	line "Mensch"
-	line "wieder hierher"
-	cont "kommen… möge es"
-	cont "ein"
-	cont "gutherziger"
-	cont "Mensch"
+	line "Mensch wieder"
+	cont "hierher kommen…"
+	cont "möge es ein"
+	cont "gutherziger Mensch"
 
 	para "…mit dieser"
-	line "Hoffnung"
-	line "gehe ich…"
+	line "Hoffnung gehe ich…"
 
 	para "…ji"
 	done

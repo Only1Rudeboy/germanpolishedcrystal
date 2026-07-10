@@ -40,39 +40,37 @@ ProfOaksAide3Script:
 	jumpthisopenedtext
 
 	text "Das Machoband"
-	line "hilft"
-	line "einem #mon beim"
+	line "hilft einem"
+	cont "#mon beim"
 
-	para "Kämpfen stärker"
-	line "zu"
+	para "Kämpfen stärker zu"
 	line "werden,"
-	cont "verlangsamt"
-	cont "es aber."
+	cont "verlangsamt es"
+	cont "aber."
 	done
 
 .NoRoom
 	jumpthisopenedtext
 
 	text "Ach! Du hast"
-	line "keinen"
-	line "Platz dafür."
+	line "keinen Platz"
+	cont "dafür."
 	done
 
 GenericTrainerGruntM12:
 	generictrainer GRUNTM, 12, EVENT_BEAT_ROCKET_GRUNTM_12, GruntM12SeenText, GruntM12BeatenText
 
 	text "Im Gelben Wald"
-	line "gibt"
-	line "es viele seltene"
-	cont "#mon."
+	line "gibt es viele"
+	cont "seltene #mon."
 
 	para "Wir schnappen sie"
 	line "uns alle!"
 	done
 
 CliffEdgeGateReceptionistText:
-	text "Der Gelbe Wald"
-	line "ist hier entlang!"
+	text "Der Gelbe Wald ist"
+	line "hier entlang!"
 
 	para "Ein beliebtes"
 	line "Ausflugsziel!"
@@ -91,16 +89,15 @@ ProfOaksAide3HiText:
 	line "Item geben."
 
 	para "Also, <PLAYER>,"
-	line "hast du"
-	cont "mindestens"
+	line "hast du mindestens"
 
 	para "45 #mon-Arten"
 	line "gefangen?"
 	done
 
 ProfOaksAide3UhOhText:
-	text "Mal sehen…"
-	line "Oh! Du hast nur"
+	text "Mal sehen… Oh! Du"
+	line "hast nur"
 
 	para ""
 	text_decimal wTempDexOwn, 2, 3
@@ -113,8 +110,8 @@ ProfOaksAide3UhOhText:
 	done
 
 ProfOaksAide3HereYouGoText:
-	text "Mal sehen…"
-	line "Super! Du hast"
+	text "Mal sehen… Super!"
+	line "Du hast"
 
 	para ""
 	text_decimal wTempDexOwn, 2, 3
@@ -122,8 +119,8 @@ ProfOaksAide3HereYouGoText:
 
 	para "gefangen."
 
-	para "Glückwunsch!"
-	line "Hier, bitte!"
+	para "Glückwunsch! Hier,"
+	line "bitte!"
 	done
 
 

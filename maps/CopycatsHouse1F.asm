@@ -23,12 +23,10 @@ CopycatsHouse1FPokefanMText:
 	cont "Menschen nach."
 
 	para "Dieses Hobby hat"
-	line "ihr den"
-	cont "Spitznamen"
+	line "ihr den Spitznamen"
 
 	para "NACHAHMERIN"
-	line "einge-"
-	line "bracht."
+	line "eingebracht."
 	done
 
 
@@ -38,16 +36,14 @@ CopycatsHouse1FPokefanFScript:
 	jumpthistextfaceplayer
 
 	text "Meine Tochter ist"
-	line "so egozen-"
-	cont "trisch…"
+	line "so egozentrisch…"
 
-	para "Sie hat nur"
-	line "wenige Freunde."
+	para "Sie hat nur wenige"
+	line "Freunde."
 	done
 
 .Text2:
-	text "Vor kurzem hat"
-	line "sie"
+	text "Vor kurzem hat sie"
 	line "ihre #PUPPE,"
 
 	para "die ihr ein Junge"

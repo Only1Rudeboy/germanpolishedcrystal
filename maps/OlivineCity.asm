@@ -140,11 +140,9 @@ OlivineCityYoungster1Script:
 	iffalse_jumptextfaceplayer OlivineCityStandingYoungsterPokedexText
 	jumpthistextfaceplayer
 
-	text "Dieses Ding da"
-	line "ist"
+	text "Dieses Ding da ist"
 	line "doch ein #Com."
-	cont "Wow, das ist"
-	cont "cool!"
+	cont "Wow, das ist cool!"
 	done
 OlivineCityPokefanMScript:
 	checkevent EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
@@ -202,43 +200,39 @@ OlivineCityRivalGymText:
 	para "Du schon wieder?"
 
 	para "Kein Grund zur"
-	line "Pa-"
-	line "nik. Mit Verlie-"
-	cont "rern wie dir gebe"
-	cont "ich mich nicht"
-	cont "ab."
+	line "Panik. Mit"
+	cont "Verlierern wie dir"
+	cont "gebe ich mich"
+	cont "nicht ab."
 
-	para "Apropos"
-	line "Verlierer:"
+	para "Apropos Verlierer:"
 	line "die ARENALEITERIN"
 
 	para "dieser Stadt ist"
 	line "nicht hier."
 
 	para "Sie kümmert sich"
-	line "wohl gerade um"
-	cont "ein"
+	line "wohl gerade um ein"
 
 	para "krankes #mon im"
 	line "LEUCHTTURM."
 
-	para "Hmpf! Bu-Huu!"
-	line "Wozu soll das nur"
-	cont "gut sein?"
+	para "Hmpf! Bu-Huu! Wozu"
+	line "soll das nur gut"
+	cont "sein?"
 
 	para "Ein #mon, das"
 	line "nicht kämpfen"
-	cont "kann, ist"
-	cont "wertlos!"
+	cont "kann, ist wertlos!"
 
 	para "Warum trainierst"
 	line "du nicht im"
 	cont "LEUCHTTURM?"
 
-	para "Wer weiß, viel-"
-	line "leicht wirst du"
-	cont "dadurch ein wenig"
-	cont "stärker!"
+	para "Wer weiß,"
+	line "vielleicht wirst"
+	cont "du dadurch ein"
+	cont "wenig stärker!"
 	done
 OlivineCityRivalLighthouseText:
 	text "…"
@@ -246,48 +240,43 @@ OlivineCityRivalLighthouseText:
 	para "Du schon wieder?"
 
 	para "Kein Grund zur"
-	line "Pa-"
-	line "nik. Mit Verlie-"
-	cont "rern wie dir gebe"
-	cont "ich mich nicht"
-	cont "ab."
+	line "Panik. Mit"
+	cont "Verlierern wie dir"
+	cont "gebe ich mich"
+	cont "nicht ab."
 
-	para "Apropos"
-	line "Verlierer:"
+	para "Apropos Verlierer:"
 	line "die ARENALEITERIN"
 
 	para "dieser Stadt ist"
 	line "nicht hier."
 
 	para "Sie kümmert sich"
-	line "wohl gerade um"
-	cont "ein"
+	line "wohl gerade um ein"
 
 	para "krankes #mon im"
 	line "LEUCHTTURM."
 
-	para "Hmpf! Bu-Huu!"
-	line "Wozu soll das nur"
-	cont "gut sein?"
+	para "Hmpf! Bu-Huu! Wozu"
+	line "soll das nur gut"
+	cont "sein?"
 
 	para "Ein #mon, das"
 	line "nicht kämpfen"
-	cont "kann, ist"
-	cont "wertlos!"
+	cont "kann, ist wertlos!"
 
 	para "Warum trainierst"
 	line "du nicht im"
 	cont "LEUCHTTURM?"
 
-	para "Wer weiß, viel-"
-	line "leicht wirst du"
-	cont "dadurch ein wenig"
-	cont "stärker!"
+	para "Wer weiß,"
+	line "vielleicht wirst"
+	cont "du dadurch ein"
+	cont "wenig stärker!"
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, du hast"
-	line "einen"
+	text "Wow, du hast einen"
 	line "#DEX!"
 
 	para "Das ist so toll!"
@@ -298,23 +287,20 @@ OlivineCityStandingYoungsterPokedexText:
 
 
 OlivineCitySailor1Text:
-	text "Nachts sind"
-	line "dunkle"
-	line "Straßen gefähr-"
-	cont "lich."
+	text "Nachts sind dunkle"
+	line "Straßen"
+	cont "gefährlich."
 
 	para "Auch das Meer"
 	line "wirkt viel"
-	cont "bedroh-"
-	cont "licher in der"
+	cont "bedrohlicher in"
+	cont "der"
 
 	para "pechschwarzen"
 	line "Finsternis!"
 
-	para "Ohne das Licht"
-	line "des"
-	line "LEUCHTTURMs"
-	cont "könnte"
+	para "Ohne das Licht des"
+	line "LEUCHTTURMs könnte"
 
 	para "kein Schiff das"
 	line "Meer bereisen."
@@ -325,12 +311,10 @@ OlivineCitySailor1Text:
 
 
 OlivineCitySailor2Text:
-	text "Die See ist"
-	line "schön!"
+	text "Die See ist schön!"
 
 	para "Sonnenuntergänge"
-	line "über dem Meer"
-	cont "sind"
+	line "über dem Meer sind"
 	cont "wundervoll!"
 
 	para "Sing mit mir!"
@@ -352,14 +336,13 @@ OlivineCityFisherText:
 
 	para "Vater in einer"
 	line "anderen Region"
-	cont "Arenaleiter"
-	cont "wurde."
+	cont "Arenaleiter wurde."
 	done
 
 OlivineCitySailor3Text:
 	text "Nachts, wenn der"
 	line "LEUCHTTURM das"
-	line "Meer erhellt -"
+	cont "Meer erhellt -"
 
 	para "das ist"
 	line "wunderschön!"
@@ -368,7 +351,7 @@ OlivineCitySailor3Text:
 OlivineCityPokefanFText:
 	text "Warst du schon im"
 	line "OLIVIANA CITY-"
-	line "CAFE?"
+	cont "CAFE?"
 
 	para "Das Essen ist"
 	line "köstlich."
@@ -377,8 +360,7 @@ OlivineCityPokefanFText:
 OlivineCityPokefanMText:
 	text "Die meisten"
 	line "Trainer in"
-	line "OLIVIANA"
-	cont "gehen"
+	cont "OLIVIANA gehen"
 
 	para "direkt zum"
 	line "DUELLTURM."
@@ -395,15 +377,15 @@ OlivineCitySailor4Text:
 	cont "ganz ohne Streit,"
 
 	para "du strahlst so"
-	line "hell,"
-	line "OLIVIANA CITY!… ♪"
+	line "hell, OLIVIANA"
+	cont "CITY!… ♪"
 	done
 
 OlivineCitySailor5Text:
 	text "Wir Matrosen"
 	line "lieben ein"
-	cont "Schifferlied."
-	cont "Sing mit!"
+	cont "Schifferlied. Sing"
+	cont "mit!"
 
 	para "♪ Von der Planke"
 	line "sprang er dann,"
@@ -411,8 +393,8 @@ OlivineCitySailor5Text:
 	para "und sang dabei"
 	line "sein Lied,"
 
-	para "la la la la"
-	line "la la la… ♪"
+	para "la la la la la la"
+	line "la… ♪"
 	done
 
 OlivineCityLass1Text:
@@ -425,24 +407,22 @@ OlivineCityLass1Text:
 
 OlivineCityYoungster2Text:
 	text "Matrosen und"
-	line "Camper haben"
-	cont "etwas gemein:"
+	line "Camper haben etwas"
+	cont "gemein:"
 
 	para "Wir singen gern!"
 	line "Aber die Lieder"
-	line "der Matrosen"
-	cont "sind echt…"
-	cont "anders."
+	cont "der Matrosen sind"
+	cont "echt… anders."
 	done
 
 OlivineCityLass2Text:
 	text "Jasmin, unsere"
-	line "ARENALEITERIN,"
-	line "ist ein schü-"
-	cont "chternes Mädchen."
+	line "ARENALEITERIN, ist"
+	cont "ein schüchternes"
+	cont "Mädchen."
 
-	para "Aber sie ist"
-	line "keine"
+	para "Aber sie ist keine"
 	line "Leichtigkeit!"
 	done
 
@@ -458,8 +438,7 @@ OlivineCitySignText:
 
 
 OlivineCityPortSignText:
-	text "HAFEN von"
-	line "OLIVIANA"
+	text "HAFEN von OLIVIANA"
 	line "CITY"
 	cont "SCHNELLBOOT-PIER"
 	done
@@ -495,8 +474,8 @@ OlivineLighthouseSignText:
 	
 OlivineCityBattleTowerSignText:
 	text "DUELLTURM"
-	line "Geradeaus"
-	line "Jetzt geöffnet!"
+	line "Geradeaus Jetzt"
+	cont "geöffnet!"
 	done
 
 OlivineCityCafeSignText:

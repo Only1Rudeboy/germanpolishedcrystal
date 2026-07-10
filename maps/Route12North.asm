@@ -21,17 +21,15 @@ GenericTrainerFisherKyle:
 	text "Der Ruck an der"
 	line "Angel, wenn du"
 
-	para "ein #mon"
-	line "gehakt hast…"
+	para "ein #mon gehakt"
+	line "hast…"
 	done
 
 FisherKyleSeenText:
-	text "Erinnerst du"
-	line "dich?"
+	text "Erinnerst du dich?"
 	done
 FisherKyleBeatenText:
-	text "Du erinnerst"
-	line "dich?"
+	text "Du erinnerst dich?"
 	done
 FishingSpotSignText:
 	text "ANGELPLATZ"

@@ -67,16 +67,15 @@ Route16GateCannotPassMovement:
 	step_end
 
 Route1617GateOfficerText:
-	text "Der RADWEG"
-	line "fängt hier an."
+	text "Der RADWEG fängt"
+	line "hier an."
 
 	para "Es geht nur"
 	line "bergab, darum ist"
 	cont "die Fahrt so"
 	cont "erfrischend."
 
-	para "Dieses Gefühl"
-	line "kann"
+	para "Dieses Gefühl kann"
 	line "dir kein Schiff"
 
 	para "oder Zug"

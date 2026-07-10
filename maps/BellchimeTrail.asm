@@ -224,12 +224,10 @@ BellchimeTrailValerieScript:
 
 .BeatenText:
 	text "Ich hoffe, morgen"
-	line "scheint die"
-	cont "Sonne…"
+	line "scheint die Sonne…"
 
 	para "Das wäre Grund"
-	line "genug zu"
-	cont "lächeln."
+	line "genug zu lächeln."
 	done
 
 .RewardText:
@@ -238,8 +236,8 @@ BellchimeTrailValerieScript:
 	cont "Kampf."
 
 	para "Ich belohne dich"
-	line "für diesen"
-	cont "großen Sieg."
+	line "für diesen großen"
+	cont "Sieg."
 
 	para "Betrachte dies"
 	line "bitte als"
@@ -250,8 +248,8 @@ BellchimeTrailValerieScript:
 
 .FarewellText:
 	text "Valerie: Oh? Was"
-	line "für ein"
-	cont "seltsames Gefühl…"
+	line "für ein seltsames"
+	cont "Gefühl…"
 
 	para "Ich kann mich"
 	line "nicht erinnern,"
@@ -266,26 +264,25 @@ BellchimeTrailValerieScript:
 	line "ein fesselnder"
 	cont "Kampf."
 
-	para "Vielleicht bin"
-	line "ich von dir"
-	cont "gefesselt."
+	para "Vielleicht bin ich"
+	line "von dir gefesselt."
 
 	para "Bis wir uns"
-	line "wiedersehen,"
-	cont "leb wohl."
+	line "wiedersehen, leb"
+	cont "wohl."
 	done
 
 .RematchText:
-	text "Valerie: Oh,"
-	line "sieh an, mein"
-	cont "junger Trainer…"
+	text "Valerie: Oh, sieh"
+	line "an, mein junger"
+	cont "Trainer…"
 
 	para "Wie schön, dich so"
 	line "wiederzusehen."
 
 	para "Dann hast du dir"
-	line "wohl das Recht"
-	cont "auf einen Kampf"
+	line "wohl das Recht auf"
+	cont "einen Kampf"
 
 	para "verdient."
 
@@ -312,13 +309,12 @@ BellchimeTrailValerieScript:
 	line "ein fesselnder"
 	cont "Kampf."
 
-	para "Vielleicht bin"
-	line "ich von dir"
-	cont "gefesselt."
+	para "Vielleicht bin ich"
+	line "von dir gefesselt."
 
 	para "Bis wir uns"
-	line "wiedersehen,"
-	cont "leb wohl."
+	line "wiedersehen, leb"
+	cont "wohl."
 	done
 
 .ValerieGoesAroundMovement:

@@ -80,8 +80,7 @@ Route44VeteranmScript:
 	line "ruhiger Mensch."
 
 	para "Hat dir das schon"
-	line "mal jemand"
-	cont "gesagt?"
+	line "mal jemand gesagt?"
 	done
 
 .IntroText:
@@ -94,8 +93,7 @@ Route44VeteranmScript:
 	para "OK, dann musst du"
 	line "zuerst jeden"
 
-	para "Trainer auf"
-	line "dieser"
+	para "Trainer auf dieser"
 	line "Route besiegen."
 	done
 
@@ -111,8 +109,7 @@ Route44VeteranmScript:
 
 .RefusedText:
 	text "Du hast TEAM"
-	line "ROCKET besiegt"
-	cont "und"
+	line "ROCKET besiegt und"
 	cont "hast Angst vor"
 	cont "mir?"
 
@@ -140,8 +137,8 @@ Route44VeteranmScript:
 	line "Steinhüte."
 
 	para "Du kannst ihn"
-	line "genauso gut"
-	cont "nutzen wie ich."
+	line "genauso gut nutzen"
+	cont "wie ich."
 	done
 
 TrainerBird_keeperVance1:
@@ -309,8 +306,7 @@ GenericTrainerPsychicPhil:
 
 	text "Es ist wichtig,"
 	line "von sich selbst"
-	cont "überzeugt zu"
-	cont "sein."
+	cont "überzeugt zu sein."
 	done
 TrainerFisherWilton1:
 	trainer FISHER, WILTON1, EVENT_BEAT_FISHER_WILTON, FisherWilton1SeenText, FisherWilton1BeatenText, 0, FisherWilton1Script
@@ -415,8 +411,7 @@ FisherWilton1Script:
 GenericTrainerFisherEdgar:
 	generictrainer FISHER, EDGAR, EVENT_BEAT_FISHER_EDGAR, FisherEdgarSeenText, FisherEdgarBeatenText
 
-	text "Das sind 100"
-	line "Siege"
+	text "Das sind 100 Siege"
 	line "und 101 verlorene"
 	cont "Kämpfe."
 
@@ -430,15 +425,14 @@ GenericTrainerCooltrainerfCybil:
 	text "Mit den Kämpfen"
 	line "steigen unsere"
 	cont "Erfahrungen und"
-	cont "wir werden"
-	cont "besser."
+	cont "wir werden besser."
 
 	para "Ich habe viele"
-	line "Kämpfe ausge-"
-	cont "tragen, um das zu"
-	cont "werden, was ich"
-	cont "heute bin - ein"
-	cont "Profi."
+	line "Kämpfe"
+	cont "ausgetragen, um"
+	cont "das zu werden, was"
+	cont "ich heute bin -"
+	cont "ein Profi."
 	done
 GenericTrainerPokemaniacZach:
 	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, PokemaniacZachSeenText, PokemaniacZachBeatenText
@@ -447,13 +441,12 @@ GenericTrainerPokemaniacZach:
 	line "dessen Färbung"
 
 	para "sich von der"
-	line "normalen unter-"
-	cont "scheidet, ist"
+	line "normalen"
+	cont "unterscheidet, ist"
 	cont "wertvoller."
 
 	para "Was? Willst du"
-	line "behaupten, das"
-	cont "sei"
+	line "behaupten, das sei"
 	cont "nicht wahr?"
 	done
 GenericTrainerCooltrainermAllen:
@@ -465,8 +458,8 @@ GenericTrainerCooltrainermAllen:
 	para "Kein Wunder, dass"
 	line "du so stark bist."
 
-	para "Ich frage mich,"
-	line "ob JENS, der"
+	para "Ich frage mich, ob"
+	line "JENS, der"
 
 	para "ARENALEITER von"
 	line "TEAK CITY, noch"
@@ -482,8 +475,8 @@ FisherWilton1SeenText:
 	cont "QUAPSEL verloren!"
 
 	para "Was wirst du"
-	line "deswegen unter-"
-	cont "nehmen?"
+	line "deswegen"
+	cont "unternehmen?"
 	done
 
 
@@ -521,20 +514,19 @@ FisherEdgarSeenText:
 	line "lange, bis ich"
 	cont "nicht mehr kann."
 
-	para "Und ich kämpfe"
-	line "bis zum Umfallen."
+	para "Und ich kämpfe bis"
+	line "zum Umfallen."
 
-	para "So gehe ich"
-	line "auch mit meinen"
-	cont "#mon um."
+	para "So gehe ich auch"
+	line "mit meinen #mon"
+	cont "um."
 	done
 
 
 
 
 FisherEdgarBeatenText:
-	text "Hmm…"
-	line "Das ist nicht"
+	text "Hmm… Das ist nicht"
 
 	para "richtig."
 	done
@@ -549,14 +541,13 @@ Bird_keeperVance1SeenText:
 	cont "gehört?"
 	done
 Bird_keeperVance1BeatenText:
-	text "Puh! Du bist"
-	line "nicht"
+	text "Puh! Du bist nicht"
 	line "von schlechten"
 	cont "Eltern."
 	done
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARKTOS, ZAPDOS"
-	line "und LAVADOS sind"
+	text "ARKTOS, ZAPDOS und"
+	line "LAVADOS sind"
 
 	para "die drei"
 	line "legendären Vogel-"
@@ -575,8 +566,7 @@ BirdKeeperVance2BeatenText:
 	line "dich nicht"
 	cont "besiegen?"
 
-	para "Ach ja, hier."
-	line "Das"
+	para "Ach ja, hier. Das"
 	line "ist das Geschenk,"
 
 	para "das ich dir das"
@@ -596,9 +586,8 @@ PsychicPhilSeenText:
 
 
 PsychicPhilBeatenText:
-	text "Aah… Das ist"
-	line "eine"
-	cont "schockierende"
+	text "Aah… Das ist eine"
+	line "schockierende"
 	cont "Niederlage…"
 	done
 
@@ -606,9 +595,9 @@ PsychicPhilBeatenText:
 
 
 PokemaniacZachSeenText:
-	text "Ich tue alles,"
-	line "um seltene #mon"
-	cont "in die Finger zu"
+	text "Ich tue alles, um"
+	line "seltene #mon in"
+	cont "die Finger zu"
 	cont "bekommen!"
 	done
 
@@ -628,11 +617,9 @@ CooltrainermAllenSeenText:
 	line "dass du ein guter"
 	cont "Trainer bist."
 
-	para "Ich kenne mich"
-	line "gut"
+	para "Ich kenne mich gut"
 	line "mit #mon aus"
-	cont "und ich sehe,"
-	cont "dass"
+	cont "und ich sehe, dass"
 	cont "du das auch tust."
 	done
 
@@ -671,8 +658,8 @@ CooltrainerfCybilBeatenText:
 
 
 Route44Sign1Text:
-	text "ROUTE 44"
-	line "EISPFAD VORAUS"
+	text "ROUTE 44 EISPFAD"
+	line "VORAUS"
 	done
 
 

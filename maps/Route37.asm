@@ -52,20 +52,20 @@ GenericTrainerTwinsToriandtil2:
 
 	text "Tori: Wir fühlen"
 	line "das Gleiche wie"
-	line "unsere #mon."
+	cont "unsere #mon."
 	done
 
 GenericTrainerPsychicGreg:
 	generictrainer PSYCHIC_T, GREG, EVENT_BEAT_PSYCHIC_GREG, PsychicGregSeenText, PsychicGregBeatenText
 
-	text "Im Kampf stellt"
-	line "es eine gute"
-	cont "Taktik dar, die"
-	cont "gegnerischen #-"
-	cont "MON in Schlaf zu"
-	cont "versetzen oder"
-	cont "sie"
-	cont "zu paralysieren."
+	text "Im Kampf stellt es"
+	line "eine gute Taktik"
+	cont "dar, die"
+	cont "gegnerischen"
+	cont "#mon in Schlaf"
+	cont "zu versetzen oder"
+	cont "sie zu"
+	cont "paralysieren."
 	done
 SunnyScript:
 	faceplayer
@@ -92,8 +92,8 @@ SunnyScript:
 
 	para "Ähm…"
 
-	para "…Was war das"
-	line "noch mal…"
+	para "…Was war das noch"
+	line "mal…"
 
 	para "…"
 
@@ -101,15 +101,14 @@ SunnyScript:
 	line "ich wieder!"
 
 	para "Ein #mon, das"
-	line "Elektro-"
-	cont "Attacken kann,"
+	line "Elektro- Attacken"
+	cont "kann,"
 
 	para "soll es tragen."
 
 	para "Meine Schwester"
 	line "MONJA sagte, es"
-	line "verstärkt"
-	cont "Elektro-"
+	cont "verstärkt Elektro-"
 	cont "Attacken!"
 	done
 
@@ -140,8 +139,7 @@ GenericTrainerBeautyCallie:
 	generictrainer BEAUTY, CALLIE, EVENT_BEAT_BEAUTY_CALLIE, BeautyCallieSeenText, BeautyCallieBeatenText
 
 	text "Wow, du bist süß"
-	line "und auch noch"
-	cont "gut!"
+	line "und auch noch gut!"
 	done
 
 TrainerBeautyCassandra:
@@ -159,8 +157,7 @@ TrainerBeautyCassandra:
 
 TwinsToriandtil1SeenText:
 	text "Til: Tori und ich"
-	line "kämpfen"
-	cont "zusammen!"
+	line "kämpfen zusammen!"
 	done
 
 TwinsToriandtil1BeatenText:
@@ -172,20 +169,18 @@ TwinsToriandtil2BeatenText:
 
 TwinsToriandtil2SeenText:
 	text "Tori: Til und ich"
-	line "kämpfen"
-	cont "zusammen!"
+	line "kämpfen zusammen!"
 	done
 
 PsychicGregSeenText:
 	text "#mon können"
 	line "nicht agieren,"
-	cont "wenn sie"
-	cont "schlafen."
+	cont "wenn sie schlafen."
 
 	para "Ich werde dir"
-	line "zei-"
-	line "gen, wie furcht-"
-	cont "erregend das ist!"
+	line "zeigen, wie"
+	cont "furchterregend das"
+	cont "ist!"
 	done
 
 
@@ -194,9 +189,8 @@ PsychicGregSeenText:
 
 
 PsychicGregBeatenText:
-	text "Ich habe"
-	line "verloren. Wie"
-	cont "betrüblich…"
+	text "Ich habe verloren."
+	line "Wie betrüblich…"
 	done
 
 
@@ -228,12 +222,10 @@ SunnyGivesGiftText:
 	done
 SunnySundayText:
 	text "SONNFRIED: Meine"
-	line "Geschwister"
-	cont "heißen"
+	line "Geschwister heißen"
 	cont "MONJA, DIETLINDE,"
 	cont "MITKO, DONATUS,"
-	cont "FRIEDA und"
-	cont "SAMSON."
+	cont "FRIEDA und SAMSON."
 
 	para "Sie sind alle"
 	line "älter als ich!"

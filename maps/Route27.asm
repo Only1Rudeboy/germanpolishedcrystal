@@ -131,22 +131,21 @@ Route27VeteranfScript:
 	line "anderen auf Route"
 	cont "26 und 27."
 
-	para "Ich warte hier"
-	line "auf dich."
+	para "Ich warte hier auf"
+	line "dich."
 	done
 
 .QuestionText:
 	text "Hm. Du warst"
 	line "schneller als"
 
-	para "ich dachte."
-	line "Lass uns"
-	cont "trainieren."
+	para "ich dachte. Lass"
+	line "uns trainieren."
 	done
 
 .RefusedText:
-	text "Schon gut."
-	line "Ich kann warten."
+	text "Schon gut. Ich"
+	line "kann warten."
 	done
 
 .SeenText:
@@ -160,16 +159,14 @@ Route27VeteranfScript:
 	done
 
 .BeatenText:
-	text "Du bist bereit"
-	line "für die #mon"
-	cont "Liga, da bin ich"
-	cont "sicher!"
+	text "Du bist bereit für"
+	line "die #mon Liga,"
+	cont "da bin ich sicher!"
 	done
 
 .AfterText1:
 	text "Wahlbrillen"
-	line "erhöhen"
-	line "den"
+	line "erhöhen den"
 	cont "Spezial-Angriff"
 
 	para "eines #mon,"
@@ -177,8 +174,8 @@ Route27VeteranfScript:
 	cont "eine Attacke"
 	cont "einsetzen."
 
-	para "Nimm ein Paar"
-	line "für dich."
+	para "Nimm ein Paar für"
+	line "dich."
 	done
 
 GenericTrainerPsychicGilbert:
@@ -306,8 +303,7 @@ GenericTrainerCooltrainermBlake:
 
 	para "Entschuldigung,"
 	line "ich wollte nur"
-	cont "etwas"
-	cont "Geistreiches"
+	cont "etwas Geistreiches"
 	cont "sagen."
 	done
 GenericTrainerAceDuoJakeandbri1:
@@ -429,10 +425,8 @@ GenericTrainerCooltrainerfMegan:
 	cont "stärker."
 
 	para "Sie lernen die"
-	line "Attacken aber"
-	cont "erst"
-	cont "mit höherem"
-	cont "Level."
+	line "Attacken aber erst"
+	cont "mit höherem Level."
 	done
 Route27FisherStepLeftTwiceMovement:
 	step_left
@@ -448,15 +442,13 @@ Route27FisherHeyText:
 
 Route27FisherText:
 	text "Weißt du, was du"
-	line "gerade getan"
-	cont "hast?"
+	line "gerade getan hast?"
 
 	para "Du hast deinen"
 	line "ersten Schritt in"
 	cont "KANTO gemacht."
 
-	para "Sieh auf die"
-	line "KARTE"
+	para "Sieh auf die KARTE"
 	line "in deinem #COM."
 	done
 
@@ -488,9 +480,8 @@ AceDuoJakeandbri1BeatenText:
 	done
 
 AceDuoJakeandbri2SeenText:
-	text "Bri: Zu zweit"
-	line "sind wir"
-	cont "unaufhaltbar!"
+	text "Bri: Zu zweit sind"
+	line "wir unaufhaltbar!"
 	done
 
 AceDuoJakeandbri2BeatenText:
@@ -504,21 +495,20 @@ CooltrainerfReena1SeenText:
 	line "wilden #mon,"
 
 	para "die hier leben,"
-	line "nicht unter-"
-	cont "schätzen."
+	line "nicht"
+	cont "unterschätzen."
 	done
 CooltrainerfReena1BeatenText:
-	text "Ach! Du bist"
-	line "viel zu stark!"
+	text "Ach! Du bist viel"
+	line "zu stark!"
 	done
 CooltrainerfReenaAfterBattleText:
 	text "Du bist zwar nur"
-	line "ein Kind, aber"
-	cont "man"
+	line "ein Kind, aber man"
 
 	para "darf dich auch"
-	line "nicht unter-"
-	cont "schätzen."
+	line "nicht"
+	cont "unterschätzen."
 	done
 
 
@@ -529,8 +519,7 @@ CooltrainerfMeganSeenText:
 	cont "vorbei."
 
 	para "Trainierst du"
-	line "vollkommen"
-	cont "allein?"
+	line "vollkommen allein?"
 	done
 
 
@@ -577,8 +566,8 @@ BirdKeeperJose2AfterBattleText:
 
 	para "Vogelstimmen, um"
 	line "dadurch den"
-	cont "#mon Befehle"
-	cont "zu erteilen."
+	cont "#mon Befehle zu"
+	cont "erteilen."
 	done
 
 
@@ -587,8 +576,8 @@ TohjoFallsSignText:
 	text "TOHJO-FÄLLE"
 
 	para "Die Verbindung"
-	line "zwischen"
-	cont "KANTO und JOHTO"
+	line "zwischen KANTO und"
+	cont "JOHTO"
 	done
 
 

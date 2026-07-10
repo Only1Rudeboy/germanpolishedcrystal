@@ -25,11 +25,11 @@ PokemonJournalLtSurgeScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Major Bob!"
+	para "Spezial: Major"
+	line "Bob!"
 
-	para "Man munkelt,"
-	line "Major Bob"
+	para "Man munkelt, Major"
+	line "Bob"
 
 	para "war in Amerika"
 	line "Pilot."
@@ -47,30 +47,28 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "Vor DIGDAs"
-	line "HOEHLE liegt ein"
-	cont "schlafendes #-"
-	cont "MON."
+	text "Vor DIGDAs HOEHLE"
+	line "liegt ein"
+	cont "schlafendes"
+	cont "#mon."
 
 	para "Das wäre eine"
 	line "fantastische"
-	cont "Gele-"
-	cont "genheit, es zu"
+	cont "Gelegenheit, es zu"
 
 	para "fangen! Aber wie"
 	line "weckt man es auf?"
 	done
 .SnorlaxText:
-	text "Vor DIGDAs"
-	line "HOEHLE lag ein"
+	text "Vor DIGDAs HOEHLE"
+	line "lag ein"
 
-	para "schlafendes #-"
-	line "MON."
+	para "schlafendes"
+	line "#mon."
 
-	para "Aber jetzt"
-	line "scheint"
-	line "es verschwunden"
-	cont "zu sein."
+	para "Aber jetzt scheint"
+	line "es verschwunden zu"
+	cont "sein."
 	done
 VermilionPokeCenter1FSailorText:
 	text "Auf dem SCHNELL-"
@@ -86,8 +84,7 @@ VermilionPokeCenter1FBugCatcherText:
 	cont "ich noch nie"
 	cont "gesehen habe."
 
-	para "Ah, jetzt"
-	line "begreife"
+	para "Ah, jetzt begreife"
 	line "ich es. Du hast"
 
 	para "sie in JOHTO"

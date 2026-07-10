@@ -88,8 +88,8 @@ BlackthornGymClairScript:
 	para "aufnehmen."
 
 	para "Willst du dich"
-	line "immer noch mit"
-	cont "mir messen?"
+	line "immer noch mit mir"
+	cont "messen?"
 
 	para "…Gut. Dann los!"
 
@@ -101,8 +101,7 @@ BlackthornGymClairScript:
 	done
 
 .WinText:
-	text "Ich habe"
-	line "verloren?"
+	text "Ich habe verloren?"
 
 	para "Das glaub ich"
 	line "nicht. Das muss"
@@ -110,8 +109,8 @@ BlackthornGymClairScript:
 	done
 
 .GoToDragonsDenText:
-	text "Das gebe ich"
-	line "nicht zu."
+	text "Das gebe ich nicht"
+	line "zu."
 
 	para "Ich habe"
 	line "vielleicht"
@@ -188,8 +187,8 @@ ClairPokemonLeagueDirectionsText:
 	para "ich gegen dich"
 	line "verloren hab!"
 
-	para "Gib alles, was"
-	line "du hast."
+	para "Gib alles, was du"
+	line "hast."
 	done
 
 BlackthornGymGuyScript:
@@ -208,8 +207,8 @@ BlackthornGymGuyScript:
 	line "mich!"
 
 	para "Sandra nutzt"
-	line "mythische,"
-	cont "heilige Drachen-"
+	line "mythische, heilige"
+	cont "Drachen-"
 
 	para "#mon."
 
@@ -217,8 +216,8 @@ BlackthornGymGuyScript:
 	line "nicht leicht"
 	cont "schaden."
 
-	para "Aber weißt du,"
-	line "sie sollen schwach"
+	para "Aber weißt du, sie"
+	line "sollen schwach"
 	cont "gegen Eis-"
 
 	para "Attacken sein."
@@ -244,8 +243,8 @@ GenericTrainerDragonTamerPaul:
 	generictrainer DRAGON_TAMER, PAUL, EVENT_BEAT_DRAGON_TAMER_PAUL, .SeenText, .BeatenText
 
 	text "Siegfried sagte,"
-	line "er würde dich"
-	cont "gern wiedersehen?"
+	line "er würde dich gern"
+	cont "wiedersehen?"
 
 	para "Auf keinen Fall!"
 	done
@@ -270,9 +269,8 @@ GenericTrainerCooltrainermMike:
 	text "Jetzt kenne ich"
 	line "meine Schwächen."
 
-	para "Danke, dass du"
-	line "sie mir gezeigt"
-	cont "hast!"
+	para "Danke, dass du sie"
+	line "mir gezeigt hast!"
 	done
 
 .SeenText:

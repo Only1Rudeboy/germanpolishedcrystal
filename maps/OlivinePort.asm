@@ -263,9 +263,8 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "Wir legen bald"
-	line "ab! Geh an"
-	cont "Bord."
+	text "Wir legen bald ab!"
+	line "Geh an Bord."
 	done
 
 
@@ -294,26 +293,25 @@ OlivinePortComeAgainText:
 
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> zeigt"
-	line "das BOOTSTICKET."
+	text "<PLAYER> zeigt das"
+	line "BOOTSTICKET."
 
-	para "In Ordnung."
-	line "Danke schön!"
+	para "In Ordnung. Danke"
+	line "schön!"
 	done
 
 
 OlivinePortNoTicketText:
-	text "<PLAYER> sucht"
-	line "das BOOTS-"
-	cont "TICKET…"
+	text "<PLAYER> sucht das"
+	line "BOOTS- TICKET…"
 
 	para "…Kein TICKET!"
 
-	para "Tut mir Leid!"
-	line "Du darfst nur"
+	para "Tut mir Leid! Du"
+	line "darfst nur"
 
-	para "mit TICKET"
-	line "an Bord."
+	para "mit TICKET an"
+	line "Bord."
 	done
 
 
@@ -335,8 +333,7 @@ OlivinePortFishingGuru1Text:
 	text "Hier kannst du"
 	line "MUSCHAS leicht"
 
-	para "fangen. An"
-	line "anderen"
+	para "fangen. An anderen"
 	line "Orten sind sie"
 	cont "seltener."
 	done
@@ -355,10 +352,9 @@ OlivinePortFishingGuru2Text:
 
 OlivinePortYoungsterText:
 	text "M.S. AQUA benutzt"
-	line "Spezialdüsen,"
-	cont "um über die"
-	cont "Wellen"
-	cont "zu gleiten!"
+	line "Spezialdüsen, um"
+	cont "über die Wellen zu"
+	cont "gleiten!"
 	done
 
 
@@ -373,8 +369,7 @@ OlivinePortCooltrainerFText:
 
 OlivinePortSailorBeforeHOFText:
 	text "Wir wollen nicht,"
-	line "dass du ins"
-	cont "Wasser"
+	line "dass du ins Wasser"
 
 	para "fällst. Darum"
 	line "lassen wir dich"

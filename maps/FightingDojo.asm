@@ -178,8 +178,7 @@ FightingDojoBlackBelt:
 	line "MEISTER, der"
 
 	para "Leiter des KARATE"
-	line "DOJO, übt in"
-	cont "einer"
+	line "DOJO, übt in einer"
 	cont "Höhle in JOHTO."
 	done
 MapFightingDojoSignpost2Script:
@@ -234,15 +233,13 @@ MapFightingDojoSignpost2Script:
 	iftruefwd .saturday_agatha
 	jumpthisopenedtext
 
-	text "Saturday:"
-	line "Whitney,"
+	text "Saturday: Whitney,"
 	line "Chuck, ???"
 	done
 .saturday_agatha
 	jumpthisopenedtext
 
-	text "Saturday:"
-	line "Whitney,"
+	text "Saturday: Whitney,"
 	line "Chuck, Agatha"
 	done
 
@@ -386,9 +383,9 @@ BrockText_Greeting:
 	line "#mon am"
 	cont "meisten."
 
-	para "Sie sind hart"
-	line "und rau, aber"
-	cont "trotzdem spröde."
+	para "Sie sind hart und"
+	line "rau, aber trotzdem"
+	cont "spröde."
 
 	para "Du wirst sehen,"
 	line "wie viel stärker"
@@ -399,13 +396,11 @@ BrockText_Greeting:
 	done
 
 MistyText_Greeting:
-	text "Ich hab viel"
-	line "Gutes"
+	text "Ich hab viel Gutes"
 	line "über dich gehört"
 
 	para "seit unserem"
-	line "letz-"
-	line "ten Kampf."
+	line "letzten Kampf."
 
 	para "Lass mich testen,"
 	line "wie gut du bist!"
@@ -419,13 +414,12 @@ SurgeText_Greeting:
 
 	para "Ich bin heiß auf"
 	line "einen"
-	cont "elektrisier-"
-	cont "enden Kampf!"
+	cont "elektrisierenden"
+	cont "Kampf!"
 	done
 
 ErikaText_Greeting:
-	text "Schön, dich"
-	line "wieder"
+	text "Schön, dich wieder"
 	line "zu sehen!"
 
 	para "Wie geht's dir?"
@@ -442,11 +436,11 @@ JanineText_Greeting:
 	text "Ich kann meine"
 	line "Ninja-Technik"
 
-	para "nicht nutzen,"
-	line "aber ich lasse"
+	para "nicht nutzen, aber"
+	line "ich lasse"
 
-	para "dich nicht gewin-"
-	line "nen!"
+	para "dich nicht"
+	line "gewinnen!"
 	done
 
 SabrinaText_Greeting:
@@ -461,8 +455,7 @@ SabrinaText_Greeting:
 	done
 
 BlaineText_Greeting:
-	text "Meine ARENA"
-	line "gibt's"
+	text "Meine ARENA gibt's"
 	line "noch nicht. Also"
 
 	para "halten wir unser"
@@ -487,15 +480,12 @@ FalknerText_Greeting:
 
 	para "Es ist schön,"
 	line "wieder gegen dich"
-	cont "kämpfen zu"
-	cont "dürfen!"
+	cont "kämpfen zu dürfen!"
 	done
 
 BugsyText_Greeting:
-	text "Schön, dich"
-	line "wieder"
-	line "zu sehen! Sieh"
-	cont "dir"
+	text "Schön, dich wieder"
+	line "zu sehen! Sieh dir"
 	cont "meine Käfer-"
 	cont "Forschung an!"
 	done
@@ -518,8 +508,7 @@ MortyText_Greeting:
 	para "Aber das heißt"
 	line "nicht, dass mir"
 
-	para "die Zukunft"
-	line "fehlt."
+	para "die Zukunft fehlt."
 	line "Lass uns kämpfen!"
 	done
 
@@ -528,7 +517,7 @@ ChuckText_Greeting:
 
 	para "Koste mein"
 	line "24-Stun-"
-	line "den-Training!"
+	cont "den-Training!"
 	done
 
 JasmineText_Greeting:
@@ -543,18 +532,17 @@ JasmineText_Greeting:
 
 PryceText_Greeting:
 	text "Worte sind nicht"
-	line "nötig. Ein #-"
-	cont "mon-Kampf ist"
+	line "nötig. Ein"
+	cont "#mon-Kampf ist"
 
-	para "unser Weg, uns"
-	line "zu verständigen."
+	para "unser Weg, uns zu"
+	line "verständigen."
 	done
 
 ClairText_Greeting:
 	text "…Also bist du da."
 
-	para "Jetzt kämpfen"
-	line "wir!"
+	para "Jetzt kämpfen wir!"
 	done
 
 PalmerText_Greeting:
@@ -565,8 +553,7 @@ PalmerText_Greeting:
 	para "Als Turm-Tycoon"
 	line "werde ich dir"
 
-	para "mein Bestes"
-	line "geben."
+	para "mein Bestes geben."
 
 	para "So zeigen die"
 	line "besten Trainer"
@@ -576,19 +563,16 @@ PalmerText_Greeting:
 	para "Indem sie als"
 	line "echte #-mon-"
 
-	para "Schüler mit"
-	line "vollem Einsatz"
-	cont "kämpfen!"
+	para "Schüler mit vollem"
+	line "Einsatz kämpfen!"
 	done
 
 LoreleiText_Greeting:
 	text "Hallo wieder,"
 	line "<PLAYER>."
 
-	para "Jetzt sind wir"
-	line "auf"
-	line "meinem Heim-"
-	cont "revier."
+	para "Jetzt sind wir auf"
+	line "meinem Heimrevier."
 
 	para "Ich werde nicht"
 	line "verlieren!"
@@ -634,8 +618,8 @@ YellowText_Greeting:
 	cont "deine #mon!"
 
 	para "Du bist stärker"
-	line "geworden, aber"
-	cont "ich auch!"
+	line "geworden, aber ich"
+	cont "auch!"
 	done
 
 BrockText_WinLoss:
@@ -658,9 +642,8 @@ SurgeText_WinLoss:
 	line "stark!"
 
 	para "Aber ich werde"
-	line "meine Schuld"
-	cont "eines Tages"
-	cont "begleichen!"
+	line "meine Schuld eines"
+	cont "Tages begleichen!"
 	done
 
 ErikaText_WinLoss:
@@ -684,8 +667,8 @@ SabrinaText_WinLoss:
 
 BlaineText_WinLoss:
 	text "Waaah! Ich bin"
-	line "wieder ausge-"
-	cont "brannt!"
+	line "wieder"
+	cont "ausgebrannt!"
 	done
 
 BlueText_WinLoss:
@@ -699,8 +682,8 @@ BlueText_WinLoss:
 
 FalknerText_WinLoss:
 	text "Mmm… Bis zum"
-	line "besten Trainer"
-	cont "ist es noch weit…"
+	line "besten Trainer ist"
+	cont "es noch weit…"
 	done
 
 BugsyText_WinLoss:
@@ -743,8 +726,7 @@ PryceText_WinLoss:
 	done
 
 ClairText_WinLoss:
-	text "Nicht schlecht."
-	line "…"
+	text "Nicht schlecht. …"
 
 	para "Jetzt gib alles!"
 	done
@@ -756,8 +738,7 @@ PalmerText_WinLoss:
 	done
 
 LoreleiText_WinLoss:
-	text "Wie kannst du"
-	line "nur!"
+	text "Wie kannst du nur!"
 	done
 
 AgathaText_WinLoss:
@@ -800,8 +781,8 @@ YellowText_Done:
 	done
 
 FightingDojoScheduleQuestionText:
-	text "Ein Trainings-"
-	line "plan! Lesen?"
+	text "Ein Trainingsplan!"
+	line "Lesen?"
 	done
 
 FightingDojoScheduleSundayText:
@@ -835,25 +816,21 @@ FightingDojoScheduleWednesdayText:
 	done
 
 FightingDojoScheduleThursdayText:
-	text "Donnerstag:"
-	line "Bugsy,"
+	text "Donnerstag: Bugsy,"
 	line "???, Morty"
 	done
 
 FightingDojoScheduleThursdayPalmerText:
-	text "Donnerstag:"
-	line "Bugsy,"
+	text "Donnerstag: Bugsy,"
 	line "Palmer, Morty"
 	done
 
 FightingDojoScheduleFridayText:
-	text "Freitag:"
-	line "Lt.Surge,"
+	text "Freitag: Lt.Surge,"
 	line "???, Clair"
 	done
 
 FightingDojoScheduleFridayYellowText:
-	text "Freitag:"
-	line "Lt.Surge,"
+	text "Freitag: Lt.Surge,"
 	line "Yellow, Clair"
 	done

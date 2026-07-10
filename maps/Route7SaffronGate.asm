@@ -26,19 +26,18 @@ Route7SaffronGuardScript:
 	line "Unfall im KRAFT-"
 	cont "WERK gehört?"
 
-	para "Es liegt im"
-	line "Osten, in der"
-	cont "Nähe von"
+	para "Es liegt im Osten,"
+	line "in der Nähe von"
 	cont "AMARANT CITY."
 	done
 
 Route7SaffronGuardSeriousText:
 	text "Ich nehme meinen"
-	line "Posten als"
-	cont "Wache ernst."
+	line "Posten als Wache"
+	cont "ernst."
 
-	para "Hey! Du hast"
-	line "einen #DEX."
+	para "Hey! Du hast einen"
+	line "#DEX."
 
 	para "O.K. Du darfst"
 	line "passieren."

@@ -67,8 +67,7 @@ GenericTrainerAriana1:
 	line "weiß die Größe"
 
 	para "von TEAM ROCKET"
-	line "nicht zu"
-	cont "würdigen."
+	line "nicht zu würdigen."
 
 	para "Das ist schade."
 	line "Ich bewundere"
@@ -191,8 +190,7 @@ FakeDirectorTextBefore1:
 
 
 FakeDirectorTextBefore2:
-	text "Ist es das, was"
-	line "du"
+	text "Ist es das, was du"
 	line "erwartet hast?"
 
 	para "Falsch! Ich bin"
@@ -204,15 +202,14 @@ FakeDirectorTextBefore2:
 	para "unsere Übernahme"
 	line "vorzubereiten."
 
-	para "Möchtest du wis-"
-	line "sen, wo wir den"
-	cont "echten"
-	cont "INTENDANTEN"
+	para "Möchtest du"
+	line "wissen, wo wir den"
+	cont "echten INTENDANTEN"
 	cont "versteckt haben?"
 
 	para "Ich werde es dir"
-	line "verraten, wenn"
-	cont "du mich besiegst!"
+	line "verraten, wenn du"
+	cont "mich besiegst!"
 	done
 
 
@@ -237,27 +234,25 @@ FakeDirectorTextBefore3:
 	done
 
 FakeDirectorWinText:
-	text "O.K. Ich sage"
-	line "dir, wo er ist."
+	text "O.K. Ich sage dir,"
+	line "wo er ist."
 	done
 
 
 FakeDirectorTextAfter:
 	text "Wir haben den"
-	line "echten"
-	cont "INTENDANTEN"
+	line "echten INTENDANTEN"
 
-	para "in das"
-	line "UNTERGRUND-"
+	para "in das UNTERGRUND-"
 	line "LAGERHAUS"
 	cont "verschleppt."
 
-	para "Es ist am Ende"
-	line "des UNTERGRUNDs."
+	para "Es ist am Ende des"
+	line "UNTERGRUNDs."
 
 	para "Ich bezweifle"
-	line "aber, dass du"
-	cont "so weit kommst."
+	line "aber, dass du so"
+	cont "weit kommst."
 	done
 
 
@@ -268,8 +263,7 @@ Ariana1SeenText:
 	cont "MAHAGONIA CITY?"
 
 	para "Damals habe ich"
-	line "verloren, aber"
-	cont "das"
+	line "verloren, aber das"
 
 	para "wird heute nicht"
 	line "passieren."
@@ -283,13 +277,12 @@ Ariana1BeatenText:
 	cont "dennoch verloren…"
 	done
 RadioTower5FRocketBossBeforeText:
-	text "Oh? Du bist"
-	line "so weit gekommen?"
+	text "Oh? Du bist so"
+	line "weit gekommen?"
 
-	para "Du musst ein aus-"
-	line "gezeichneter"
-	cont "Trai-"
-	cont "ner sein."
+	para "Du musst ein"
+	line "ausgezeichneter"
+	cont "Trainer sein."
 
 	para "Wir planen, die"
 	line "RADIOSTATION zu"
@@ -298,8 +291,7 @@ RadioTower5FRocketBossBeforeText:
 	line "unsere Rückkehr"
 	cont "bekanntzugeben."
 
-	para "Das sollte"
-	line "unseren"
+	para "Das sollte unseren"
 	line "Anführer GIOVANNI"
 
 	para "überzeugen, sein"
@@ -307,8 +299,7 @@ RadioTower5FRocketBossBeforeText:
 	cont "abzubrechen und"
 	cont "zurückzukehren."
 
-	para "Wir werden"
-	line "unseren"
+	para "Wir werden unseren"
 	line "früheren Ruhm"
 	cont "wiedererlangen."
 
@@ -326,19 +317,18 @@ RadioTower5FRocketBossWinText:
 
 
 RadioTower5FRocketBossAfterText:
-	text "Wie kann das"
-	line "sein?"
+	text "Wie kann das sein?"
 
 	para "Unsere Träume"
-	line "wur-"
-	line "den zerschlagen."
+	line "wurden"
+	cont "zerschlagen."
 
 	para "Ich konnte meine"
 	line "Aufgabe nicht"
 	cont "erfüllen."
 
-	para "Wie GIOVANNI"
-	line "werde ich TEAM"
+	para "Wie GIOVANNI werde"
+	line "ich TEAM"
 
 	para "ROCKET hier und"
 	line "heute auflösen."
@@ -349,8 +339,8 @@ RadioTower5FRocketBossAfterText:
 
 RadioTower5FDirectorThankYouText:
 	text "INTENDANT:"
-	line "<PLAYER>!"
-	cont "Vielen Dank!"
+	line "<PLAYER>! Vielen"
+	cont "Dank!"
 
 	para "Dein couragiertes"
 	line "Handeln hat die"
@@ -365,22 +355,18 @@ RadioTower5FDirectorThankYouText:
 
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "Früher gab es"
-	line "hier"
+	text "Früher gab es hier"
 	line "einen Turm in"
 	cont "DUKATIA CITY."
 
 	para "Aber er war alt"
 	line "und baufällig."
 
-	para "Also haben wir"
-	line "ihn"
+	para "Also haben wir ihn"
 	line "durch unseren"
-	cont "RADIOTURM"
-	cont "ersetzt."
+	cont "RADIOTURM ersetzt."
 
-	para "Beim Bau haben"
-	line "wir"
+	para "Beim Bau haben wir"
 	line "diese Glocke"
 	cont "gefunden."
 
@@ -401,8 +387,7 @@ RadioTower5FDirectorDescribeClearBellText:
 
 	para "Ah!"
 
-	para "Das erinnert"
-	line "mich…"
+	para "Das erinnert mich…"
 
 	para "Ich habe TEAM"
 	line "ROCKET zufällig"
@@ -416,10 +401,10 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "Ich habe keine"
 	line "Ahnung, was vor"
 
-	para "sich geht. Viel-"
-	line "leicht solltest"
-	cont "du"
-	cont "es überprüfen."
+	para "sich geht."
+	line "Vielleicht"
+	cont "solltest du es"
+	cont "überprüfen."
 
 	para "O.K., ich gehe in"
 	line "mein BÜRO zurück."
@@ -436,13 +421,11 @@ RadioTower5FDirectorText:
 	para "Ich errichtete"
 	line "diesen RADIOTURM,"
 
-	para "um meiner Liebe"
-	line "zu"
+	para "um meiner Liebe zu"
 	line "#mon Ausdruck"
 	cont "zu verleihen."
 
-	para "Es wäre"
-	line "wunderbar,"
+	para "Es wäre wunderbar,"
 	line "wenn die Menschen"
 	cont "unsere Sendungen"
 	cont "liebten."
@@ -456,8 +439,8 @@ BenText:
 
 
 SignpostRadioTower5FOffice:
-	text "4S BÜRO DES"
-	line "   INTENDANTEN"
+	text "4S BÜRO DES   "
+	line "INTENDANTEN"
 	done
 SignpostRadioTower5FStudio:
 	text "4S STUDIO 1"

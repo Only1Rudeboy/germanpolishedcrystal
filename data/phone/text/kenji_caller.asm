@@ -25,23 +25,20 @@ KenjiCallMeBackAnotherTimeText:
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "Tut mir leid,"
-	line "beim"
-	line "Training"
-	line "hab ich keine"
-	cont "Zeit"
-	cont "zu quatschen!"
+	text "Tut mir leid, beim"
+	line "Training hab ich"
+	cont "keine Zeit zu"
+	cont "quatschen!"
 
 	para "Morgen hab ich"
-	line "Zeit!"
-	line "Yiiihah!"
+	line "Zeit! Yiiihah!"
 	done
 
 KenjiHangUpMorningText:
 	text "Ich mache"
-	line "Mittags-"
-	line "pause, komm dann"
-	cont "vorbei! Ayiiiyah!"
+	line "Mittagspause, komm"
+	cont "dann vorbei!"
+	cont "Ayiiiyah!"
 	done
 
 KenjiTakingABreakText:

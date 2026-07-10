@@ -46,6 +46,6 @@ VioletOutskirtsCemeterySignText:
 	done
 
 VioletOutskirtsHeadstoneText:
-	text "Zu verblasen,"
-	line "um es zu lesen…"
+	text "Zu verblasen, um"
+	line "es zu lesen…"
 	done

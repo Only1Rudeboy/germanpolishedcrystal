@@ -20,10 +20,9 @@ GenericTrainerBird_keeperBoris:
 	generictrainer BIRD_KEEPER, BORIS, EVENT_BEAT_BIRD_KEEPER_BORIS, Bird_keeperBorisSeenText, Bird_keeperBorisBeatenText
 
 	text "Da du so stark"
-	line "bist, muss es"
-	cont "Spaß machen,"
-	cont "gegen"
-	cont "dich zu kämpfen."
+	line "bist, muss es Spaß"
+	cont "machen, gegen dich"
+	cont "zu kämpfen."
 	done
 GenericTrainerBird_keeperBob:
 	generictrainer BIRD_KEEPER, BOB, EVENT_BEAT_BIRD_KEEPER_BOB, Bird_keeperBobSeenText, Bird_keeperBobBeatenText
@@ -39,8 +38,8 @@ Bird_keeperBorisSeenText:
 	text "Wenn du nach"
 	line "#mon suchst,"
 
-	para "musst du ins"
-	line "hohe Gras gehen."
+	para "musst du ins hohe"
+	line "Gras gehen."
 	done
 Bird_keeperBorisBeatenText:
 	text "Yippi!"

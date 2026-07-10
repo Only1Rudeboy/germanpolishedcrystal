@@ -74,8 +74,7 @@ Route7Snorlax:
 	text "Der #Com wird"
 	line "in der Nähe des"
 	cont "schlafenden"
-	cont "RELAXOs"
-	cont "platziert…"
+	cont "RELAXOs platziert…"
 
 	para "…"
 
@@ -106,8 +105,7 @@ Route7UndergroundPathSignText:
 
 
 Route7LockedDoorText:
-	text "Es ist"
-	line "verriegelt…"
+	text "Es ist verriegelt…"
 	done
 
 

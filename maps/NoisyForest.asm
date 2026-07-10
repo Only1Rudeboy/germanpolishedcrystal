@@ -45,14 +45,14 @@ GenericTrainerBug_maniacPierre:
 	text "Bzzz… Bzzz…"
 
 	para "Dieses Geräusch"
-	line "hängt mir im"
-	line "Kopf fest…"
+	line "hängt mir im Kopf"
+	cont "fest…"
 	done
 
 .SeenText:
 	text "Meine #mon"
 	line "lieben diesen"
-	line "Wald."
+	cont "Wald."
 
 	para "Hier summen sie"
 	line "pausenlos!"
@@ -74,9 +74,8 @@ GenericTrainerBug_maniacDylan:
 
 .SeenText:
 	text "So glücklich hab"
-	line "ich meine"
-	line "Käfer noch nie"
-	cont "gesehen!"
+	line "ich meine Käfer"
+	cont "noch nie gesehen!"
 	done
 
 .BeatenText:
@@ -89,18 +88,15 @@ GenericTrainerGuitaristfJaclyn:
 	generictrainer GUITARISTF, JACLYN, EVENT_BEAT_GUITARISTF_JACLYN, .SeenText, .BeatenText
 
 	text "Warte! Ich bin"
-	line "noch nicht"
-	line "fertig mit"
-	cont "Singen!"
+	line "noch nicht fertig"
+	cont "mit Singen!"
 	done
 
 .SeenText:
-	text "Lass meine"
-	line "Gitarre"
+	text "Lass meine Gitarre"
 	line "heulen!"
 
-	para "Hör mich"
-	line "schreien!"
+	para "Hör mich schreien!"
 	done
 
 .BeatenText:
@@ -111,11 +107,10 @@ GenericTrainerGuitaristmEzekiel:
 	generictrainer GUITARISTM, EZEKIEL, EVENT_BEAT_GUITARISTM_EZEKIEL, .SeenText, .BeatenText
 
 	text "Wenn du genau"
-	line "hinhörst,"
-	cont "kannst du"
+	line "hinhörst, kannst"
+	cont "du"
 
-	para "den Rhythmus"
-	line "des"
+	para "den Rhythmus des"
 	line "Waldesummens"
 	cont "hören."
 	done
@@ -134,11 +129,11 @@ GenericTrainerHikerLester:
 
 	text "Was, darf ein"
 	line "Wanderer keinen"
-	line "Wald erkunden,"
+	cont "Wald erkunden,"
 
 	para "statt immer nur"
 	line "Berge zu"
-	line "besteigen?"
+	cont "besteigen?"
 	done
 
 .SeenText:
@@ -156,14 +151,13 @@ GenericTrainerBird_keeperTrent:
 	generictrainer BIRD_KEEPER, TRENT, EVENT_BEAT_BIRD_KEEPER_TRENT, .SeenText, .BeatenText
 
 	text "Ich stehe jeden"
-	line "Tag früh auf,"
-	cont "um hier meine"
-	cont "Vögel zu"
-	cont "trainieren."
+	line "Tag früh auf, um"
+	cont "hier meine Vögel"
+	cont "zu trainieren."
 
-	para "Der Lärm gehört"
-	line "zu unserem"
-	line "Training dazu."
+	para "Der Lärm gehört zu"
+	line "unserem Training"
+	cont "dazu."
 	done
 
 .SeenText:
@@ -172,27 +166,26 @@ GenericTrainerBird_keeperTrent:
 	done
 
 .BeatenText:
-	text "Sieht so aus,"
-	line "als wär ich der"
-	cont "Wurm…"
+	text "Sieht so aus, als"
+	line "wär ich der Wurm…"
 	done
 
 NoisyForestTeacherText:
 	text "Ich komme hier"
 	line "morgens zum"
-	line "Spazieren."
+	cont "Spazieren."
 
 	para "Ich hab sogar"
-	line "einen Schritt-"
-	line "zähler, der"
+	line "einen"
+	cont "Schrittzähler, der"
 	cont "meine Schritte"
 	cont "zählt!"
 	done
 
 NoisyForestChildText:
 	text "Gah! Dieser Ort"
-	line "ist ohren-"
-	cont "betäubend!"
+	line "ist"
+	cont "ohrenbetäubend!"
 	done
 
 NoisyForestPikabluScript:
@@ -234,13 +227,13 @@ NoisyForestPikabluScript:
 .OwnerText2:
 	text "Nimm dies als"
 	line "kleines"
-	line "Dankeschön."
+	cont "Dankeschön."
 	done
 
 .OwnerText3:
 	text "Ein Souvenir"
 	line "deiner Zeit auf"
-	line "der Shamouti-"
+	cont "der Shamouti-"
 	cont "Insel!"
 
 	para "Sieht es nicht"
@@ -256,8 +249,8 @@ NoisyForestPikabluScript:
 	cont "tragen."
 
 	para "Komm zum #mon-"
-	line "Center, wenn du"
-	cont "es willst."
+	line "Center, wenn du es"
+	cont "willst."
 	done
 
 .WalkToYou:

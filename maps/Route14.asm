@@ -29,17 +29,16 @@ GenericTrainerPokefanmTrevor:
 	generictrainer POKEFANM, TREVOR, EVENT_BEAT_POKEFANM_TREVOR, PokefanmTrevorSeenText, PokefanmTrevorBeatenText
 
 	text "Wenn es nur eine"
-	line "einfache Mög-"
-	line "lichkeit gäbe,"
+	line "einfache"
+	cont "Möglichkeit gäbe,"
 
-	para "herauszufinden,"
-	line "wo ich mein"
-	line "#mon gefangen"
-	cont "habe…"
+	para "herauszufinden, wo"
+	line "ich mein #mon"
+	cont "gefangen habe…"
 
-	para "Ach! Ich kann"
-	line "ja seine Werte"
-	line "nachschauen!"
+	para "Ach! Ich kann ja"
+	line "seine Werte"
+	cont "nachschauen!"
 	done
 
 PokefanmTrevorSeenText:
@@ -60,8 +59,7 @@ PokefanmTrevorSeenText:
 
 
 PokefanmTrevorBeatenText:
-	text "Wo traf ich"
-	line "dieses"
+	text "Wo traf ich dieses"
 	line "ENTON?"
 	done
 
@@ -76,20 +74,16 @@ GenericTrainerPokefanmCarter:
 	text "SCHIGGY, GLUMANDA"
 	line "und BISASAM…"
 
-	para "Ich denke, das"
-	line "ist"
-	line "ein"
-	cont "ausgeglichenes"
+	para "Ich denke, das ist"
+	line "ein ausgeglichenes"
 	cont "Team."
 	done
 PokefanmCarterSeenText:
-	text "Eines kann ich"
-	line "dir"
+	text "Eines kann ich dir"
 	line "sagen! Es war"
 
 	para "harte Arbeit,"
-	line "mei-"
-	line "ne prämierten"
+	line "meine prämierten"
 	cont "#mon zu fangen."
 	done
 
@@ -118,8 +112,8 @@ GenericTrainerBird_keeperRoy:
 	done
 Bird_keeperRoySeenText:
 	text "Ich träume davon,"
-	line "mit meinen ge-"
-	cont "liebten Vogel-"
+	line "mit meinen"
+	cont "geliebten Vogel-"
 	cont "#mon zu"
 	cont "fliegen."
 	done
@@ -133,8 +127,7 @@ GenericTrainerBird_keeperJosh:
 
 	text "Vielleicht sollt"
 	line "ich lügen und"
-	line "sagen, ich bin"
-	cont "im"
+	cont "sagen, ich bin im"
 	cont "Schwergewicht…"
 	done
 
@@ -145,9 +138,8 @@ GenericTrainerBird_keeperJosh:
 	cont "wicht-Klasse!"
 
 	para "…Was? Du meinst,"
-	line "das klingt"
-	line "nicht sehr"
-	cont "stark?"
+	line "das klingt nicht"
+	cont "sehr stark?"
 	done
 
 .BeatenText:
@@ -168,11 +160,11 @@ GenericTrainerSchoolboyConnor:
 	done
 
 .SeenText:
-	text "Ich kann es"
-	line "kaum erwarten,"
-	line "nach Hause zu"
-	cont "kommen und mein"
-	cont "ITEM abzulegen!"
+	text "Ich kann es kaum"
+	line "erwarten, nach"
+	cont "Hause zu kommen"
+	cont "und mein ITEM"
+	cont "abzulegen!"
 	done
 
 .BeatenText:
@@ -183,10 +175,10 @@ GenericTrainerSchoolboyConnor:
 GenericTrainerSchoolboyTorin:
 	generictrainer SCHOOLBOY, TORIN, EVENT_BEAT_SCHOOLBOY_TORIN, .SeenText, .BeatenText
 
-	text "Alles klar! Näch-"
-	line "stes Mal mache"
-	cont "ich keine"
-	cont "Fehler mehr!"
+	text "Alles klar!"
+	line "Nächstes Mal mache"
+	cont "ich keine Fehler"
+	cont "mehr!"
 	done
 
 .SeenText:
@@ -211,8 +203,8 @@ GenericTrainerSchoolboyTravis:
 
 .SeenText:
 	text "Hast du auch"
-	line "Nachhilfe nach"
-	line "der Schule?"
+	line "Nachhilfe nach der"
+	cont "Schule?"
 	done
 
 .BeatenText:
@@ -223,26 +215,25 @@ GenericTrainerTeacherClarice:
 	generictrainer TEACHER_F, CLARICE, EVENT_BEAT_TEACHER_CLARICE, .SeenText, .BeatenText
 
 	text "Entspann dich"
-	line "nicht nur, weil"
-	line "du gewonnen hast."
+	line "nicht nur, weil du"
+	cont "gewonnen hast."
 
 	para "Wenn du zu Hause"
-	line "bist, solltest"
-	line "du alles noch"
-	cont "einmal durch-"
-	cont "gehen!"
+	line "bist, solltest du"
+	cont "alles noch einmal"
+	cont "durchgehen!"
 	done
 
 .SeenText:
 	text "Gut, fangen wir"
-	line "mit dem #mon-"
-	cont "kampf an!"
+	line "mit dem"
+	cont "#monkampf an!"
 	done
 
 .BeatenText:
-	text "Gut! Damit ist"
-	line "der heutige"
-	cont "Kampf beendet."
+	text "Gut! Damit ist der"
+	line "heutige Kampf"
+	cont "beendet."
 	done
 
 Route14SignText:

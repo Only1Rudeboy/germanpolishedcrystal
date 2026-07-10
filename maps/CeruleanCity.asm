@@ -59,8 +59,7 @@ CeruleanCityCooltrainerMScript:
 	iftrue_jumptextfaceplayer CeruleanCityCooltrainerMText2
 	jumpthistextfaceplayer
 
-	text "Kantos Kraft-"
-	line "werk?"
+	text "Kantos Kraftwerk?"
 
 	para "Es liegt am Ende"
 	line "der Route 9, der"
@@ -140,12 +139,10 @@ CeruleanCityCooltrainerMText2:
 
 CeruleanCitySuperNerdText:
 	text "Am KAP im Norden"
-	line "treffen sich"
-	cont "viele"
+	line "treffen sich viele"
 
 	para "Pärchen. Gerade"
-	line "Mädchen gehen"
-	cont "dort"
+	line "Mädchen gehen dort"
 	cont "gerne hin!"
 	done
 
@@ -160,8 +157,7 @@ CeruleanCityCooltrainerFText1:
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "LAHMUS, mach"
-	line "deine"
+	text "LAHMUS, mach deine"
 	line "KONFUSION vor!"
 	done
 
@@ -170,29 +166,23 @@ CeruleanCityCooltrainerFText3: ; text > text
 	done
 
 CeruleanCityFisherText:
-	text "Ich bin ein"
-	line "großer"
-	line "Fan von der"
-	cont "ARENA-"
-	cont "LEITERIN in"
-	cont "AZURIA"
-	cont "CITY. Ihr Name"
-	cont "ist"
+	text "Ich bin ein großer"
+	line "Fan von der ARENA-"
+	cont "LEITERIN in AZURIA"
+	cont "CITY. Ihr Name ist"
 	cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
 	text "Ich habe so einen"
 	line "zwielichtigen Typ"
-	cont "zum KAP bei"
-	cont "AZURIA"
+	cont "zum KAP bei AZURIA"
 	cont "CITY gehen sehen."
 	done
 
 CeruleanCityYoungsterText1:
 	text "Hier soll es mal"
-	line "eine Höhle"
-	cont "gegeben"
+	line "eine Höhle gegeben"
 
 	para "haben, in der"
 	line "mächtige und"
@@ -248,8 +238,8 @@ CeruleanBikeShopSignText:
 
 	para "Der FAHRRADLADEN"
 	line "ist jetzt in"
-	cont "JOHTO, in"
-	cont "DUKATIA CITY…"
+	cont "JOHTO, in DUKATIA"
+	cont "CITY…"
 	done
 
 CeruleanPoliceSignText:
@@ -261,8 +251,7 @@ CeruleanPoliceSignText:
 
 	para "aus dieser Stadt"
 	line "einen Ort, an dem"
-	cont "man sicher ist"
-	cont "und"
+	cont "man sicher ist und"
 	cont "gerne lebt!"
 
 	para "ORDNUNGSAMT VON"

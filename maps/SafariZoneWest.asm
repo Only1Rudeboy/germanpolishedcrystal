@@ -38,17 +38,15 @@ GenericTrainerLassDuplica:
 	line "ich Arenaleiterin"
 	cont "in FUCHSANIA und"
 
-	para "imitiere"
-	line "Janine."
+	para "imitiere Janine."
 	done
 
 GenericTrainerCamperAmos:
 	generictrainer CAMPER, AMOS, EVENT_BEAT_CAMPER_AMOS, CamperAmosSeenText, CamperAmosBeatenText
 
 	text "Ich durchkämme"
-	line "Land und Meer"
-	cont "nach neuen"
-	cont "#mon."
+	line "Land und Meer nach"
+	cont "neuen #mon."
 	done
 
 GenericTrainerTamerBrett:
@@ -60,8 +58,7 @@ GenericTrainerTamerBrett:
 	cont "kommandieren."
 
 	para "ORDEN zu sammeln"
-	line "kann dabei"
-	cont "helfen."
+	line "kann dabei helfen."
 	done
 
 LassDuplicaSeenText:
@@ -72,8 +69,8 @@ LassDuplicaSeenText:
 	done
 
 LassDuplicaBeatenText:
-	text "Ich muss noch"
-	line "viel lernen."
+	text "Ich muss noch viel"
+	line "lernen."
 	done
 
 CamperAmosSeenText:
@@ -81,8 +78,8 @@ CamperAmosSeenText:
 	line "ZONE leben viele"
 	cont "#mon."
 
-	para "Ich will sie"
-	line "alle fangen!"
+	para "Ich will sie alle"
+	line "fangen!"
 	done
 
 CamperAmosBeatenText:
@@ -93,8 +90,8 @@ CamperAmosBeatenText:
 
 TamerBrettSeenText:
 	text "Weißt du, wie man"
-	line "aggressive"
-	cont "#mon handhabt?"
+	line "aggressive #mon"
+	cont "handhabt?"
 	done
 
 TamerBrettBeatenText:
@@ -103,8 +100,7 @@ TamerBrettBeatenText:
 
 SafariZoneWestAreaSignText:
 	text "SAFARI-ZONE"
-	line "Westlicher"
-	cont "Bereich"
+	line "Westlicher Bereich"
 	done
 
 SafariZoneWestRestHouseSignText:
@@ -129,8 +125,8 @@ SafariZoneWestTrainerTips1SignText:
 SafariZoneWestTrainerTips2SignText:
 	text "TIPPS für TRAINER"
 
-	para "Bei einem Sand-"
-	line "sturm erhalten"
+	para "Bei einem"
+	line "Sandsturm erhalten"
 
 	para "Gestein-#mon"
 	line "erhalten einen"

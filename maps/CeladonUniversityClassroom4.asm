@@ -76,8 +76,7 @@ CeladonUniversityClassroom4RaymondScript:
 
 	para "Ich bin einer der"
 	line "vier besten"
-	cont "Trainer"
-	cont "der"
+	cont "Trainer der"
 	cont "Prismania-Uni."
 
 	para "Wir sind die"
@@ -88,8 +87,8 @@ CeladonUniversityClassroom4RaymondScript:
 
 	para "Lass uns kämpfen!"
 	line "Außer du hast"
-	cont "Angst"
-	cont "zu verlieren."
+	cont "Angst zu"
+	cont "verlieren."
 	done
 
 .IntroText2:
@@ -100,14 +99,13 @@ CeladonUniversityClassroom4RaymondScript:
 	para "Ich bin einer der"
 	line "Prismanias Vier!"
 
-	para "Du willst uns"
-	line "alle"
+	para "Du willst uns alle"
 	line "herausfordern?"
 
 	para "Lass uns kämpfen!"
 	line "Außer du hast"
-	cont "Angst"
-	cont "zu verlieren."
+	cont "Angst zu"
+	cont "verlieren."
 	done
 
 .NoBattleText:
@@ -124,15 +122,13 @@ CeladonUniversityClassroom4RaymondScript:
 	done
 
 .AfterText1:
-	text "Wie kann das"
-	line "sein?"
+	text "Wie kann das sein?"
 	line "Ich bin einer der"
 	cont "Prismanias Vier!"
 
 	para "Ich hab zwar"
 	line "verloren, aber"
-	cont "meine"
-	cont "drei Freunde"
+	cont "meine drei Freunde"
 
 	para "rächen mich!"
 
@@ -161,9 +157,8 @@ CeladonUniversityClassroom4RaymondScript:
 
 CeladonUniversityClassroom4CandelaText:
 	text "Hallo! Ich bin"
-	line "Candela. Ich"
-	cont "lehre #mon-"
-	cont "Kampf!"
+	line "Candela. Ich lehre"
+	cont "#mon- Kampf!"
 
 	para "Ich erforsche"
 	line "Wege, die"
@@ -187,18 +182,15 @@ CeladonUniversityClassroom4Bug_catcherText:
 	para "könnte es mit den"
 	line "Besten aufnehmen."
 
-	para "Sein Potenzial"
-	line "war"
-	line "das beste, das"
-	cont "sie"
+	para "Sein Potenzial war"
+	line "das beste, das sie"
 	cont "je gesehen hat!"
 	done
 
 CeladonUniversityClassroom4FisherText:
 	text "Der Prof sagte,"
-	line "mein #mon"
-	cont "ist ein"
-	cont "Wunder!"
+	line "mein #mon ist"
+	cont "ein Wunder!"
 
 	para "Ein atemberauben-"
 	line "des #mon."
@@ -235,9 +227,9 @@ CeladonUniversityClassroom4Rich_boyScript:
 	line "#mon-Fähig-"
 	cont "keiten."
 
-	para "Manche Arten"
-	line "haben mehr als"
-	cont "eine Fähigkeit."
+	para "Manche Arten haben"
+	line "mehr als eine"
+	cont "Fähigkeit."
 
 	para "Damit kannst du"
 	line "zwischen ihnen"
@@ -249,13 +241,12 @@ CeladonUniversityClassroom4Rich_boyScript:
 	line "“versteckte"
 	cont "Fähigkeiten“, die"
 
-	para "eine Fähigkeits-"
-	line "kappe nicht"
-	cont "ändert."
+	para "eine"
+	line "Fähigkeitskappe"
+	cont "nicht ändert."
 
-	para "Aber! Hat"
-	line "ein #-"
-	cont "mon mit einer"
+	para "Aber! Hat ein"
+	line "#mon mit einer"
 
 	para "Fähigkeitskappe"
 	line "ein Ei, kann das"

@@ -61,12 +61,12 @@ EcruteakCityLass2Script:
 	iftrue_jumptextfaceplayer EcruteakCityLass2Text_ReleasedBeasts
 	jumpthistextfaceplayer
 
-	text "Der Turm, der"
-	line "hier mal stand…"
+	text "Der Turm, der hier"
+	line "mal stand…"
 
 	para "Meine Oma sagte,"
-	line "er war früher"
-	cont "viel höher."
+	line "er war früher viel"
+	cont "höher."
 	done
 
 EcruteakCityFisherScript:
@@ -89,9 +89,9 @@ EcruteakCityFisherScript:
 
 EcruteakCityGramps1Text:
 	text "Es gab zwei Türme"
-	line "in TEAK CITY. Ei-"
-	cont "nen im Osten, ei-"
-	cont "nen im Westen."
+	line "in TEAK CITY."
+	cont "Einen im Osten,"
+	cont "einen im Westen."
 	done
 
 
@@ -100,18 +100,16 @@ EcruteakCityGramps1Text:
 
 
 EcruteakCityGramps2Text:
-	text "Na, Kröte?"
-	line "Hast du gelernt"
-	cont "zu"
+	text "Na, Kröte? Hast du"
+	line "gelernt zu"
 
 	para "tanzen wie die"
 	line "KIMONO-GIRLS?"
 
 	para "Ich habe gehört,"
-	line "dass dir ein ei-"
-	cont "genartiger Mann"
-	cont "etwas Nettes"
-	cont "geben"
+	line "dass dir ein"
+	cont "eigenartiger Mann"
+	cont "etwas Nettes geben"
 
 	para "wird, wenn du zu"
 	line "ihrem TANZTHEATER"
@@ -125,8 +123,8 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "Ich möchte im"
-	line "TANZ-"
-	line "THEATER üben."
+	line "TANZ- THEATER"
+	cont "üben."
 
 	para "Kommst du mit?"
 	done
@@ -160,10 +158,10 @@ EcruteakCitySmeargleText:
 
 EcruteakCityLass2Text_ReleasedBeasts:
 	text "Drei große #mon"
-	line "sind in verschie-"
-	cont "dene Richtungen"
-	cont "davongelaufen!"
-	cont "Was"
+	line "sind in"
+	cont "verschiedene"
+	cont "Richtungen"
+	cont "davongelaufen! Was"
 	cont "waren das für"
 	cont "welche?"
 	done
@@ -177,14 +175,12 @@ EcruteakCityFisherText_JasmineReturned:
 	text "Das #mon im"
 	line "LEUCHTTURM von"
 	cont "OLIVIANA CITY"
-	cont "wur-"
-	cont "de geheilt."
+	cont "wurde geheilt."
 
 	para "Jetzt können die"
 	line "Schiffe wieder"
-	cont "ge-"
-	cont "fahrlos nachts in"
-	cont "See stechen."
+	cont "gefahrlos nachts"
+	cont "in See stechen."
 	done
 
 
@@ -197,10 +193,8 @@ EcruteakCityYoungsterText:
 	line "#mon am SEE DES"
 
 	para "ZORNS Unruhe"
-	line "stif-"
-	line "ten. Das würde"
-	cont "ich"
-	cont "gerne sehen."
+	line "stiften. Das würde"
+	cont "ich gerne sehen."
 	done
 
 
@@ -223,25 +217,22 @@ EcruteakCityGramps3Text:
 
 	para "kam herab und"
 	line "hauchte ihnen"
-	cont "wie-"
-	cont "der Leben ein…"
+	cont "wieder Leben ein…"
 
-	para "Diese Legende"
-	line "wird"
+	para "Diese Legende wird"
 	line "von jedem LEITER"
 
 	para "der #mon-ARENA"
-	line "von"
-	line "TEAK CITY an den"
+	line "von TEAK CITY an"
+	cont "den"
 
 	para "nächsten"
 	line "weitergegeben."
 
 	para "Ich?"
 
-	para "Damals war ich"
-	line "ein Trainer."
-	cont "Hohoho!"
+	para "Damals war ich ein"
+	line "Trainer. Hohoho!"
 	done
 
 
@@ -250,22 +241,21 @@ EcruteakCityGramps3Text:
 
 
 EcruteakCitySign:
-	text "TEAK CITY"
-	line "Eine historische"
+	text "TEAK CITY Eine"
+	line "historische"
 
-	para "Stadt, wo Vergan-"
-	line "genheit und"
-	cont "Gegen-"
-	cont "wart aufeinander-"
-	cont "treffen"
+	para "Stadt, wo"
+	line "Vergangenheit und"
+	cont "Gegenwart"
+	cont "aufeinandertreffen"
 	done
 EcruteakGymSign:
 	text "PKMN-ARENA von"
-	line "TEAK CITY"
-	cont "LEITUNG: JENS"
+	line "TEAK CITY LEITUNG:"
+	cont "JENS"
 
-	para "Der mystische Se-"
-	line "her der Zukunft"
+	para "Der mystische"
+	line "Seher der Zukunft"
 	done
 EcruteakCityAdvancedTips:
 	text "Profi-Tipps!"
@@ -277,16 +267,16 @@ EcruteakCityAdvancedTips:
 	para "eine seltene"
 	line "Fähigkeit, auch"
 
-	para "versteckte Fähig-"
-	line "keit genannt!"
+	para "versteckte"
+	line "Fähigkeit genannt!"
 
 	para "Ein geschlüpftes"
 	line "#mon hat auch"
 
 	para "eine geringe"
 	line "Chance auf eine"
-	cont "versteckte Fähig-"
-	cont "keit."
+	cont "versteckte"
+	cont "Fähigkeit."
 	done
 
 EcruteakDanceTheaterSign:
@@ -296,28 +286,25 @@ EcruteakDanceTheaterSign:
 BurnedTowerSign:
 	text "TURMRUINE"
 
-	para "Er wurde durch"
-	line "ein"
+	para "Er wurde durch ein"
 	line "mysteriöses Feuer"
 	cont "zerstört."
 
 	para "Bitte nicht"
-	line "betre-"
-	line "ten!"
+	line "betreten!"
 	done
 EcruteakShrineSign:
 	text "Ecruteak-Schrein"
 
 	para "“Das Leben ist"
-	line "eine Lampe vor"
-	cont "dem Wind.”"
+	line "eine Lampe vor dem"
+	cont "Wind.”"
 	done
 
 EcruteakBarrierStationSign:
 	text "Barrierenstation"
 	line "zum Glockenturm"
 
-	para "Unwürdigen ist"
-	line "der Zutritt"
-	cont "verboten!"
+	para "Unwürdigen ist der"
+	line "Zutritt verboten!"
 	done

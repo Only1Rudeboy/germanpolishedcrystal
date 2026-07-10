@@ -23,15 +23,13 @@ ParryLostAMonText:
 	text_ram wStringBuffer4
 	text "."
 
-	para "Wir überlegten,"
-	line "ob fangen oder"
+	para "Wir überlegten, ob"
+	line "fangen oder"
 	cont "kämpfen."
 
 	para "Dann kam ein"
-	line "anderer"
-	line "und fing es! Na"
-	cont "so"
-	cont "was!"
+	line "anderer und fing"
+	cont "es! Na so was!"
 	done
 
 ParryBattleRematchText:
@@ -39,15 +37,13 @@ ParryBattleRematchText:
 	line "kämpfen, oder?"
 
 	para "Stimmt! Wir"
-	line "treffen"
-	line "uns auf "
+	line "treffen uns auf "
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ParryHangUpText:
-	text "OK, ruf wieder"
-	line "an!"
+	text "OK, ruf wieder an!"
 	done
 
 ParryBattleWithMeText:
@@ -56,13 +52,12 @@ ParryBattleWithMeText:
 	done
 
 ParryHaventYouGottenToText:
-	text "Bist du noch"
-	line "nicht"
+	text "Bist du noch nicht"
 	line "auf "
 	text_ram wStringBuffer5
 	text "?"
 
 	para "Warten ist OK,"
-	line "aber"
-	line "ich will kämpfen!"
+	line "aber ich will"
+	cont "kämpfen!"
 	done

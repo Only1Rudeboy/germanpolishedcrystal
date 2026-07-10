@@ -27,17 +27,14 @@ Celebrity:
 	endtext
 
 CelebrityText1:
-	text "Ach, du hast"
-	line "mich gefunden."
+	text "Ach, du hast mich"
+	line "gefunden."
 
 	para "Bitte erzähl"
-	line "niemandem von"
-	cont "mir."
+	line "niemandem von mir."
 
-	para "Ich gebe dir"
-	line "dies,"
-	line "wenn du mich"
-	cont "nicht"
+	para "Ich gebe dir dies,"
+	line "wenn du mich nicht"
 	cont "verrätst. Bitte?"
 	done
 CelebrityText2:
@@ -45,8 +42,7 @@ CelebrityText2:
 	line "berühmt zu sein."
 
 	para "Wo immer ich auch"
-	line "hingehe, die"
-	cont "Leute"
+	line "hingehe, die Leute"
 	cont "folgen mir."
 
 	para "Ich möchte nur"

@@ -53,8 +53,8 @@ CianwoodHouseBlackBeltText2:
 	line "hart trainieren"
 
 	para "und mir einen"
-	line "Platz in der"
-	cont "ARENA verdienen!"
+	line "Platz in der ARENA"
+	cont "verdienen!"
 	done
 
 CianwoodLugiaSpeechHouseTeacherText:
@@ -63,12 +63,11 @@ CianwoodLugiaSpeechHouseTeacherText:
 
 	para "Hast du auf dem"
 	line "Weg hierher die"
-	cont "vier Inseln ge-"
-	cont "sehen?"
+	cont "vier Inseln"
+	cont "gesehen?"
 
 	para "Ich habe gehört,"
-	line "dass sich dort"
-	cont "ein"
+	line "dass sich dort ein"
 	cont "mythisches Wesen"
 	cont "verstecken soll."
 	done
@@ -90,18 +89,15 @@ CianwoodLugiaSpeechHouseLassText:
 
 CianwoodLugiaSpeechHouseTwinText:
 	text "Ich hörte, dass"
-	line "die Strudel um"
-	cont "die"
+	line "die Strudel um die"
 
 	para "Inseln von der"
 	line "Meereskreatur"
-	cont "verursacht"
-	cont "werden."
+	cont "verursacht werden."
 
 	para "Es könnte einer"
 	line "Spezialattacke"
-	cont "be-"
-	cont "dürfen, um sie"
+	cont "bedürfen, um sie"
 	cont "zu passieren."
 	done
 

@@ -159,8 +159,7 @@ CherrygroveYoungsterScript:
 
 	text "Das Haus von"
 	line "Mr.#mon ist"
-	cont "noch weiter"
-	cont "vorne."
+	cont "noch weiter vorne."
 	done
 
 MysticWaterGuy:
@@ -282,13 +281,11 @@ GuideGentIntroText:
 
 	para "Das ist O.K.! Es"
 	line "ist noch kein"
-	cont "Meister vom"
-	cont "Himmel"
+	cont "Meister vom Himmel"
 	cont "gefallen!"
 
 	para "Wenn du willst,"
-	line "bringe ich dir"
-	cont "ein"
+	line "bringe ich dir ein"
 	cont "paar Tricks bei."
 	done
 
@@ -304,20 +301,17 @@ GuideGentPokeCenterText:
 	para "Du wirst diese"
 	line "Dienste sehr oft"
 
-	para "in Anspruch"
-	line "nehmen"
+	para "in Anspruch nehmen"
 	line "müssen."
 	done
 GuideGentMartText:
 	text "Das ist ein"
 	line "#mon-"
-	line "SUPERMARKT."
+	cont "SUPERMARKT."
 
-	para "Hier werden"
-	line "BÄLLE"
+	para "Hier werden BÄLLE"
 	line "verkauft, mit"
-	cont "de-"
-	cont "nen du #mon"
+	cont "denen du #mon"
 	cont "fangen kannst."
 
 	para "Außerdem findest"
@@ -328,14 +322,11 @@ GuideGentMartText:
 
 
 GuideGentRoute30Text:
-	text "Zur ROUTE 30"
-	line "geht"
+	text "Zur ROUTE 30 geht"
 	line "es hier entlang."
 
-	para "Du wirst dort"
-	line "auf"
-	line "viele Trainer"
-	cont "und"
+	para "Du wirst dort auf"
+	line "viele Trainer und"
 
 	para "ihre #mon"
 	line "treffen."
@@ -344,12 +335,9 @@ GuideGentRoute30Text:
 
 
 GuideGentAdvancedTipsText:
-	text "Erweiterte"
-	line "Tipps!"
-	line "Schilder sehen"
-	cont "so"
-	cont "ungewöhnlich"
-	cont "aus."
+	text "Erweiterte Tipps!"
+	line "Schilder sehen so"
+	cont "ungewöhnlich aus."
 
 	para "Sie sind voll"
 	line "nützlicher"
@@ -364,8 +352,7 @@ GuideGentSeaText:
 	line "Meer."
 
 	para "Manche #mon"
-	line "findet man nur"
-	cont "im"
+	line "findet man nur im"
 	cont "Wasser."
 	done
 
@@ -374,15 +361,12 @@ GuideGentSeaText:
 GuideGentGiftText:
 	text "Hier…"
 
-	para "Das ist mein"
-	line "Haus!"
-	line "Danke, dass du"
-	cont "mir"
+	para "Das ist mein Haus!"
+	line "Danke, dass du mir"
 	cont "Gesellschaft"
 	cont "geleistet hast."
 
-	para "Lass mich dir"
-	line "ein"
+	para "Lass mich dir ein"
 	line "kleines Präsent"
 	cont "geben!"
 	done
@@ -400,10 +384,8 @@ GotMapCardText:
 
 GuideGentPokegearText:
 	text "Der #COM wird"
-	line "vielseitiger,"
-	cont "wenn"
-	cont "du ihn mit"
-	cont "MODULEN"
+	line "vielseitiger, wenn"
+	cont "du ihn mit MODULEN"
 	cont "erweiterst."
 
 	para "Ich wünsche dir"
@@ -416,28 +398,24 @@ GuideGentPokegearText:
 CherrygroveRivalText_Seen:
 	text "… … …"
 
-	para "Du hast ein #-"
-	line "MON aus dem"
+	para "Du hast ein"
+	line "#mon aus dem"
 	cont "LABOR."
 
-	para "Welch eine Ver-"
-	line "schwendung für"
-	cont "ei-"
-	cont "nen Schwächling"
+	para "Welch eine"
+	line "Verschwendung für"
+	cont "einen Schwächling"
 	cont "wie dich."
 
 	para "… … …"
 
 	para "Hast du kapiert,"
-	line "wovon ich"
-	cont "spreche?"
+	line "wovon ich spreche?"
 
-	para "Auch ich habe"
-	line "ein"
+	para "Auch ich habe ein"
 	line "gutes #mon."
 
-	para "Ich zeige dir,"
-	line "was"
+	para "Ich zeige dir, was"
 	line "ich meine!"
 	done
 
@@ -445,19 +423,15 @@ CherrygroveRivalText_Seen:
 
 RivalCherrygroveWinText:
 	text "Hmpf. Bist du"
-	line "we-"
-	line "nigstens froh"
-	cont "über"
-	cont "deinen Sieg?"
+	line "wenigstens froh"
+	cont "über deinen Sieg?"
 	done
 
 
 
 RivalCherrygroveLossText:
-	text "Hmpf. Das war"
-	line "pure"
-	line "Zeitverschwendu-"
-	cont "ng."
+	text "Hmpf. Das war pure"
+	line "Zeitverschwendung."
 	done
 
 
@@ -465,13 +439,12 @@ RivalCherrygroveLossText:
 CherrygroveRivalTextAfter1:
 	text "…… …… ……"
 
-	para "Du willst"
-	line "wissen,"
+	para "Du willst wissen,"
 	line "wer ich bin?"
 
 	para "Ich werde der"
-	line "größte #-"
-	cont "MON-Trainer"
+	line "größte"
+	cont "#mon-Trainer"
 	cont "der Welt."
 	done
 
@@ -482,8 +455,7 @@ CherrygroveRivalTextAfter2:
 	para "Hey! Gib sie"
 	line "zurück!"
 
-	para "Ach nein… Du"
-	line "hast"
+	para "Ach nein… Du hast"
 	line "meinen Namen"
 	cont "gesehen…"
 	done
@@ -491,27 +463,23 @@ CherrygroveRivalTextAfter2:
 CherrygroveTeacherText_HaveMapCard:
 	text "Du kannst gehen,"
 	line "wohin du willst"
-	cont "-"
 	cont "solange du mit"
 	cont "#mon unterwegs"
 	cont "bist, wird es"
-	cont "immer lustig"
-	cont "sein."
+	cont "immer lustig sein."
 	done
 
 
 
 CherrygroveYoungsterText_HavePokedex:
-	text "Ich habe gegen"
-	line "die"
+	text "Ich habe gegen die"
 	line "Trainer auf der"
 	cont "Straße gekämpft."
 
 	para "Meine #mon"
 	line "haben verloren!"
 
-	para "Ich muss sie"
-	line "rasch"
+	para "Ich muss sie rasch"
 	line "in ein #mon-"
 	cont "CENTER bringen."
 	done
@@ -520,18 +488,15 @@ CherrygroveYoungsterText_HavePokedex:
 
 MysticWaterGuyTextBefore:
 	text "Ich habe ein"
-	line "#mon gefan-"
-	cont "gen, das ein"
-	cont "Item"
+	line "#mon gefangen,"
+	cont "das ein Item"
 
 	para "bei sich hatte."
-	line "Ich glaube, es"
-	cont "war"
+	line "Ich glaube, es war"
 	cont "ZAUBERWASSER."
 
 	para "Ich brauche es"
-	line "nicht. Möchtest"
-	cont "du"
+	line "nicht. Möchtest du"
 	cont "es haben?"
 	done
 
@@ -557,16 +522,13 @@ GuideGentsHouseSignText:
 
 
 CherrygroveCityAdvancedTipsSignText:
-	text "Erweiterte"
-	line "Tipps!"
+	text "Erweiterte Tipps!"
 
 	para "In #mon-Märkten"
-	line "bekommst du"
-	cont "einen"
+	line "bekommst du einen"
 
 	para "Gratis einen"
-	line "Premierball,"
-	cont "wenn"
+	line "Premierball, wenn"
 	line "du zehn"
 	cont "#BÄLLE kaufst!"
 	done

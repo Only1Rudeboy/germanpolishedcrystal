@@ -32,8 +32,7 @@ ErinGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "!"
-	line "Guten Morgen!"
+	text "! Guten Morgen!"
 	done
 
 ErinGreetDayText:
@@ -41,9 +40,8 @@ ErinGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "!"
-	line "Arbeitest du"
-	cont "hart?"
+	text "! Arbeitest du"
+	line "hart?"
 	done
 
 ErinGreetNiteText:
@@ -51,8 +49,7 @@ ErinGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "!"
-	line "Warst du wach?"
+	text "! Warst du wach?"
 	done
 
 ErinGenericText:
@@ -63,6 +60,5 @@ ErinGenericText:
 	text_ram wStringBuffer3
 	text "s "
 	text_ram wStringBuffer4
-	text " sieht"
-	cont "gut aus!"
+	text " sieht gut aus!"
 	done

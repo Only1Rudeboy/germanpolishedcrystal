@@ -99,8 +99,8 @@ CeladonUniversityLoungeNeeshaScript:
 
 .NoBattleText:
 	text "Keine Lust auf"
-	line "eine Herausfor-"
-	cont "derung?"
+	line "eine"
+	cont "Herausforderung?"
 	done
 
 .SeenText:
@@ -143,8 +143,8 @@ CeladonUniversityLoungeNeeshaScript:
 	text "Selten fordert"
 	line "jemand uns"
 
-	para "Prismanias Vier"
-	line "so heraus."
+	para "Prismanias Vier so"
+	line "heraus."
 
 	para "Ich vergesse dich"
 	line "nicht, Trainer!"
@@ -176,23 +176,21 @@ CeladonUniversityLoungeCooltrainerfText:
 	text "#mon mit"
 	line "geringerer"
 
-	para "körperlicher"
-	line "Kraft"
+	para "körperlicher Kraft"
 	line "versuchen"
-	cont "instink-"
-	cont "tiv in einen"
+	cont "instinktiv in"
+	cont "einen"
 
 	para "# Ball zu"
 	line "gehen."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:
-	text "Was entsteht,"
-	line "wenn man einen"
+	text "Was entsteht, wenn"
+	line "man einen"
 
 	para "Witz mit einer"
-	line "rhetorischen"
-	cont "Frage"
+	line "rhetorischen Frage"
 	cont "kreuzt?"
 
 	para "………………………………"
@@ -203,8 +201,7 @@ CeladonUniversityLoungeSuper_nerd2Text:
 	line "Skripte für ein"
 	cont "Spiel."
 
-	para "Benutze kein"
-	line "ASM!"
+	para "Benutze kein ASM!"
 	done
 
 CeladonUniversityLoungeBookshelf1Text:
@@ -229,8 +226,7 @@ CeladonUniversityLoungeBookshelf2:
 
 .Text1:
 	text "Dieses Buch hat"
-	line "ein"
-	line "Geheimfach, wo"
+	line "ein Geheimfach, wo"
 
 	para "die Seiten sein"
 	line "sollten!"
@@ -247,6 +243,5 @@ CeladonUniversityLoungeComputer:
 	text "Eine Spielfigur"
 	line "rennt durch eine"
 
-	para "2D-Prismania"
-	line "City."
+	para "2D-Prismania City."
 	done

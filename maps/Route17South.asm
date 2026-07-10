@@ -38,14 +38,12 @@ Route17SouthAlwaysOnBikeCallback:
 GenericTrainerBikerReilly:
 	generictrainer BIKER, REILLY, EVENT_BEAT_BIKER_REILLY, BikerReillySeenText, BikerReillyBeatenText
 
-	text "Werd' nicht"
-	line "frech,"
-	line "du Null aus"
-	cont "JOHTO!"
+	text "Werd' nicht frech,"
+	line "du Null aus JOHTO!"
 	done
 BikerReillySeenText:
-	text "Heh, du! Bist"
-	line "du aus JOHTO?"
+	text "Heh, du! Bist du"
+	line "aus JOHTO?"
 	done
 BikerReillyBeatenText:
 	text "Boah, du legst"
@@ -54,12 +52,10 @@ BikerReillyBeatenText:
 GenericTrainerBikerJoel:
 	generictrainer BIKER, JOEL, EVENT_BEAT_BIKER_JOEL, BikerJoelSeenText, BikerJoelBeatenText
 
-	text "Ich sehe zwar"
-	line "cool"
+	text "Ich sehe zwar cool"
 	line "aus, bin aber"
 	cont "schwach, also bin"
-	cont "ich nicht"
-	cont "wirklich"
+	cont "ich nicht wirklich"
 	cont "cool."
 
 	para "Ich muss härter"
@@ -78,17 +74,17 @@ GenericTrainerBikerGlenn:
 	generictrainer BIKER, GLENN, EVENT_BEAT_BIKER_GLENN, BikerGlennSeenText, BikerGlennBeatenText
 
 	text "Freihändig fahren"
-	line "gilt als cool"
-	cont "auf dem RADWEG."
+	line "gilt als cool auf"
+	cont "dem RADWEG."
 	done
 BikerGlennSeenText:
-	text "Hey! Wie wäre"
-	line "es mit einem"
+	text "Hey! Wie wäre es"
+	line "mit einem"
 	cont "Schnellkampf?"
 	done
 BikerGlennBeatenText:
-	text "Ups! Du hast"
-	line "ganz schön Kraft!"
+	text "Ups! Du hast ganz"
+	line "schön Kraft!"
 	done
 GenericTrainerBikerDale:
 	generictrainer BIKER, DALE, EVENT_BEAT_BIKER_DALE, BikerDaleSeenText, BikerDaleBeatenText
@@ -100,15 +96,14 @@ GenericTrainerBikerDale:
 
 BikerDaleSeenText:
 	text "Du wirst"
-	line "verlieren!"
-	line "Ich habe ein"
-	cont "Gefühl!"
+	line "verlieren! Ich"
+	cont "habe ein Gefühl!"
 	done
 
 BikerDaleBeatenText:
 	text "Vielleicht lag"
-	line "mein"
-	line "Gefühl falsch…"
+	line "mein Gefühl"
+	cont "falsch…"
 	done
 
 GenericTrainerBikerJacob:
@@ -121,8 +116,8 @@ GenericTrainerBikerJacob:
 
 BikerJacobSeenText:
 	text "Mein FAHRRAD"
-	line "aufzupimpen"
-	line "kostet viel Geld!"
+	line "aufzupimpen kostet"
+	cont "viel Geld!"
 
 	para "Ich brauche einen"
 	line "Job!"
@@ -139,10 +134,9 @@ GenericTrainerBikerAiden:
 	line "Buwaribaribari…!"
 
 	para "Dort, meine"
-	line "Motor-"
-	cont "nachahmung hat"
-	cont "sich weiter-"
-	cont "entwickelt!"
+	line "Motornachahmung"
+	cont "hat sich"
+	cont "weiterentwickelt!"
 	done
 
 BikerAidenSeenText:
@@ -150,26 +144,24 @@ BikerAidenSeenText:
 	line "Baribaribaribari!"
 
 	para "Was hältst du von"
-	line "meiner Motor-"
-	cont "nachahmung?"
+	line "meiner"
+	cont "Motornachahmung?"
 	done
 
 BikerAidenBeatenText:
-	text "Hnnff… hnnff…"
-	line "Ich bin außer"
-	cont "Atem…"
+	text "Hnnff… hnnff… Ich"
+	line "bin außer Atem…"
 	done
 
 GenericTrainerBikerDan:
 	generictrainer BIKER, DAN, EVENT_BEAT_BIKER_DAN, BikerDanSeenText, BikerDanBeatenText
 
 	text "Ich liebe diese"
-	line "melan-"
-	line "cholische"
+	line "melancholische"
 	cont "Melodie."
 
-	para "Sie passt gut"
-	line "zu mir…"
+	para "Sie passt gut zu"
+	line "mir…"
 	done
 
 BikerDanSeenText:
@@ -178,8 +170,8 @@ BikerDanSeenText:
 
 	para "Meine Hupe hat"
 	line "einen tollen"
-	cont "Klang,"
-	cont "findest du nicht?"
+	cont "Klang, findest du"
+	cont "nicht?"
 	done
 
 BikerDanBeatenText:
@@ -198,8 +190,8 @@ GenericTrainerBikerTeddy:
 
 BikerTeddySeenText:
 	text "Hey, cooles"
-	line "FAHRRAD,"
-	line "das du fährst!"
+	line "FAHRRAD, das du"
+	cont "fährst!"
 	done
 
 BikerTeddyBeatenText:
@@ -209,9 +201,8 @@ BikerTeddyBeatenText:
 GenericTrainerRoughneckBrian:
 	generictrainer ROUGHNECK, BRIAN, EVENT_BEAT_ROUGHNECK_BRIAN, RoughneckBrianSeenText, RoughneckBrianBeatenText
 
-	text "Bis später!"
-	line "Komm jederzeit"
-	cont "wieder!"
+	text "Bis später! Komm"
+	line "jederzeit wieder!"
 	done
 
 RoughneckBrianSeenText:
@@ -230,15 +221,14 @@ GenericTrainerRoughneckTheron:
 	text "Willst du meinem"
 	line "Team beitreten?"
 
-	para "Willst du es"
-	line "nicht mal"
-	cont "probieren?"
+	para "Willst du es nicht"
+	line "mal probieren?"
 	done
 
 RoughneckTheronSeenText:
 	text "Ich mache dich"
-	line "härter. Komm,"
-	cont "geh mit mir."
+	line "härter. Komm, geh"
+	cont "mit mir."
 	done
 
 RoughneckTheronBeatenText:
@@ -256,8 +246,8 @@ GenericTrainerRoughneckMarkey:
 	done
 
 RoughneckMarkeySeenText:
-	text "Hey hey hey!"
-	line "Du stehst im Weg!"
+	text "Hey hey hey! Du"
+	line "stehst im Weg!"
 
 	para "IM WEG!"
 	done
@@ -270,8 +260,8 @@ Route17SouthNotice1Text:
 	text "Das ist ein"
 	line "Hinweis."
 
-	para "Vorsicht vor"
-	line "weg geworfenen"
+	para "Vorsicht vor weg"
+	line "geworfenen"
 	cont "Gegenständen!"
 	done
 
@@ -286,19 +276,18 @@ Route17SouthTrainerTips1Text:
 	cont "Stufe können"
 
 	para "anders aussehen,"
-	line "sich verhalten"
-	cont "und wachsen."
+	line "sich verhalten und"
+	cont "wachsen."
 	done
 
 Route17SouthTrainerTips2Text:
 	text "Trainer-Tipps"
 
 	para "Oeffne das START-"
-	line "Menü, um an"
-	cont "einer Steigung"
+	line "Menü, um an einer"
+	cont "Steigung"
 
-	para "stehen zu"
-	line "bleiben."
+	para "stehen zu bleiben."
 	done
 
 Route17SouthNotice2Text:

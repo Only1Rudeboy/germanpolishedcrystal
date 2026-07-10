@@ -42,13 +42,12 @@ Route39RuggedRoadGateSwimmerScript:
 	jumpthisopenedtext
 
 	text "Behalte die"
-	line "Brille."
-	line "Nochmal danke!"
+	line "Brille. Nochmal"
+	cont "danke!"
 	done
 
 .LovelyDay:
-	text "Schöner Tag"
-	line "heute,"
+	text "Schöner Tag heute,"
 	line "nicht wahr?"
 
 	para "Ich habe gehört,"
@@ -58,15 +57,14 @@ Route39RuggedRoadGateSwimmerScript:
 
 .BadDay:
 	text "Argh! Ein"
-	line "Bootswächter"
-	line "hat mich vom"
+	line "Bootswächter hat"
+	cont "mich vom"
 
 	para "Hafen vertrieben,"
 	line "als ich am Boot"
 	cont "vorbeischwamm."
 
-	para "Und ich habe"
-	line "meine"
+	para "Und ich habe meine"
 	line "Go-Brille"
 	cont "verloren…"
 
@@ -82,16 +80,14 @@ Route39RuggedRoadGateSwimmerScript:
 	line "schon neue"
 	cont "gekauft…"
 
-	para "Hier, nimm das"
-	line "als"
+	para "Hier, nimm das als"
 	line "Dankeschön!"
 	prompt
 
 .NoRoom:
 	text "Oh-oh, deine"
-	line "Tasche"
-	line "ist ziemlich"
-	cont "voll…"
+	line "Tasche ist"
+	cont "ziemlich voll…"
 	done
 
 
@@ -136,31 +132,28 @@ Route39RuggedRoadGateCannotPassMovement:
 	step_end
 
 Route39RuggedRoadGateOfficerCannotPassText:
-	text "Whoa, wohin"
-	line "willst"
+	text "Whoa, wohin willst"
 	line "du?"
 
 	para "Der Rugged Road"
-	line "zum"
-	line "Snowtop Mountain"
-	cont "ist wirklich"
-	cont "hart!"
+	line "zum Snowtop"
+	cont "Mountain ist"
+	cont "wirklich hart!"
 
 	para "Ohne Go-Brille"
-	line "darf"
-	line "ich dich nicht"
-	cont "da durchlassen."
+	line "darf ich dich"
+	cont "nicht da"
+	cont "durchlassen."
 	done
 
 Route39RuggedRoadGateOfficerText:
 	text "Der Weg zum"
-	line "Snowtop"
-	line "Mountain kann"
+	line "Snowtop Mountain"
+	cont "kann"
 
 	para "gefährlich sein!"
 
-	para "Deshalb wurde"
-	line "dort"
+	para "Deshalb wurde dort"
 	line "ein #mon-Center"
 	cont "gebaut."
 	done

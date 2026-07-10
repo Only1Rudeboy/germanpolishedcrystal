@@ -44,8 +44,8 @@ TullyGreetDayText:
 	text_ram wStringBuffer3
 	text " hier…"
 
-	para "Perfekter Tag"
-	line "zum Angeln!"
+	para "Perfekter Tag zum"
+	line "Angeln!"
 	done
 
 TullyGreetNiteText:

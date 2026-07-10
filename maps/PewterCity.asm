@@ -59,8 +59,7 @@ PewterCityYoungsterScript:
 	jumpthisopenedtext
 
 	text "Du hast die Arena"
-	line "besiegt? Dann"
-	cont "bist"
+	line "besiegt? Dann bist"
 	cont "du auch hart wie"
 	cont "Stein!"
 	done
@@ -97,10 +96,9 @@ PewterCityPokefanMScript:
 	done
 
 .Text2:
-	text "Danke!"
-	line "Sie sind sehr"
-	cont "hart,"
-	cont "also pass auf!"
+	text "Danke! Sie sind"
+	line "sehr hart, also"
+	cont "pass auf!"
 	done
 
 .Text3:
@@ -123,12 +121,10 @@ PewterCityPokefanMScript:
 PewterCityCooltrainerFText:
 	text "Warst du schon in"
 	line "der #mon-ARENA"
-	cont "von"
-	cont "MARMORIA CITY?"
+	cont "von MARMORIA CITY?"
 
 	para "Der LEITER dort"
-	line "verwendet"
-	cont "Gestein-"
+	line "verwendet Gestein-"
 	cont "#mon."
 	done
 
@@ -140,18 +136,16 @@ PewterCityCooltrainerFText:
 
 PewterCityCooltrainermText:
 	text "Die denkt,"
-	line "Gesteins-"
-	line "#mon sind"
-	cont "alles,"
+	line "Gesteins- #mon"
+	cont "sind alles,"
 
 	para "aber sie hat die"
 	line "meisten Schwächen"
 	cont "aller Typen."
 
 	para "Ich habe aber"
-	line "nicht"
-	line "das Herz, es ihr"
-	cont "zu sagen."
+	line "nicht das Herz, es"
+	cont "ihr zu sagen."
 	done
 
 PewterCityBugCatcherText:
@@ -171,20 +165,19 @@ PewterCityBugCatcherText:
 
 PewterCityGrampsText:
 	text "Ach, du bist den"
-	line "ganzen Weg "
-	cont "von JOHTO bis"
-	cont "hierher gekommen?"
+	line "ganzen Weg  von"
+	cont "JOHTO bis hierher"
+	cont "gekommen?"
 
 	para "Das weckt"
 	line "Erinnerungen. Als"
 
-	para "ich noch jung"
-	line "war,"
+	para "ich noch jung war,"
 	line "habe ich in JOHTO"
 	cont "oft trainiert."
 
-	para "Du erinnerst"
-	line "mich an mich"
+	para "Du erinnerst mich"
+	line "an mich"
 
 	para "selbst als junger"
 	line "Mann."
@@ -203,14 +196,13 @@ PewterCityGrampsText:
 
 
 PewterCityGrampsText_GotSilverWing:
-	text "Neue und un-"
-	line "bekannte Orte zu"
+	text "Neue und"
+	line "unbekannte Orte zu"
 	cont "erforschen und"
 	cont "fremde Menschen"
 	cont "kennen zu lernen…"
 
-	para "Das ist das"
-	line "Schöne"
+	para "Das ist das Schöne"
 	line "am Reisen."
 	done
 
@@ -221,11 +213,9 @@ PewterCityGrampsText_GotSilverWing:
 
 
 PewterCityYoungsterText1:
-	text "Die"
-	line "MARMORIA-Arena"
+	text "Die MARMORIA-Arena"
 	line "ist so rau und"
-	cont "hart"
-	cont "wie Stein."
+	cont "hart wie Stein."
 
 	para "Sei dort"
 	line "vorsichtig."
@@ -233,9 +223,8 @@ PewterCityYoungsterText1:
 
 
 PewterCitySignText:
-	text "MARMORIA CITY"
-	line "Eine Steingraue"
-	cont "Stadt"
+	text "MARMORIA CITY Eine"
+	line "Steingraue Stadt"
 	done
 
 
@@ -269,8 +258,8 @@ PewterCityMtMoonGiftShopSignText:
 	line "Nachricht…"
 
 	para "SOUVENIRLADEN AM"
-	line "MONDBERG"
-	cont "Jetzt geöffnet!"
+	line "MONDBERG Jetzt"
+	cont "geöffnet!"
 	done
 
 
@@ -285,8 +274,7 @@ PewterCityTrainerTipsText:
 	para "Ein #mon mit"
 	line "Fähigkeitskappe"
 
-	para "hat eher Nach-"
-	line "wuchs mit einer"
-	cont "seltenen Fähig-"
-	cont "keit."
+	para "hat eher Nachwuchs"
+	line "mit einer seltenen"
+	cont "Fähigkeit."
 	done

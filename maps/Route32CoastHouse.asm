@@ -45,8 +45,7 @@ GourmetManiacScript:
 	done
 
 .GreetingText:
-	text "Hallo! Ich bin"
-	line "ein"
+	text "Hallo! Ich bin ein"
 	line "Gourmet-Bäcker!"
 
 	para "Ich koche wunder-"
@@ -56,13 +55,12 @@ GourmetManiacScript:
 
 	para "Hast du Zutaten,"
 	line "die du mir"
-	cont "verkau-"
-	cont "fen willst?"
+	cont "verkaufen willst?"
 	done
 
 .OfferText:
-	text "Ach, das riecht"
-	line "so gut!"
+	text "Ach, das riecht so"
+	line "gut!"
 
 	para "Nimmst du ¥"
 	text_decimal hMoneyTemp, 3, 7
@@ -76,6 +74,6 @@ GourmetManiacScript:
 	done
 
 .NoItemText:
-	text "Ach… Na ja,"
-	line "schon gut."
+	text "Ach… Na ja, schon"
+	line "gut."
 	done

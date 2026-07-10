@@ -1,7 +1,6 @@
 ParryAskNumber1Text:
 	text "Mann, wie du"
-	line "angriffst! Das"
-	cont "war"
+	line "angriffst! Das war"
 
 	para "was! Wir sollten"
 	line "uns wieder"
@@ -30,14 +29,12 @@ ParryNumberDeclinedText:
 	line "kann man"
 	cont "verkraften!"
 
-	para "Ich bin hier,"
-	line "wenn"
+	para "Ich bin hier, wenn"
 	line "du bereit bist."
 	done
 
 ParryPhoneFullText:
-	text "Oh? Kein Platz"
-	line "für"
+	text "Oh? Kein Platz für"
 	line "meine Nummer."
 	done
 
@@ -55,8 +52,8 @@ ParryPackFullText:
 	line "voll!"
 
 	para "Du kannst das"
-	line "jetzt"
-	line "nicht nehmen."
+	line "jetzt nicht"
+	cont "nehmen."
 	done
 
 ParryRematchGiftText:
@@ -64,8 +61,8 @@ ParryRematchGiftText:
 	line "besonders."
 
 	para "Hätte ich früher"
-	line "mit #mon ange-"
-	cont "fangen…"
+	line "mit #mon"
+	cont "angefangen…"
 
 	para "Erfolg für uns"
 	line "beide. Nimm das!"

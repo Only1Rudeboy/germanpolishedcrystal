@@ -20,8 +20,7 @@ FishingDudeText:
 	line "LER, der Ältere"
 	cont "der ANGLERBRÜDER."
 
-	para "Hast du den"
-	line "PROFI-"
+	para "Hast du den PROFI-"
 	line "ANGLER am SEE DES"
 	cont "ZORNS getroffen?"
 

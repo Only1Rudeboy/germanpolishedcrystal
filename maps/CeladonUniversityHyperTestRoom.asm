@@ -147,13 +147,13 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	line "falsch!"
 
 	para "Du kannst den"
-	line "Hyper-Test mor-"
-	cont "gen wiederholen."
+	line "Hyper-Test morgen"
+	cont "wiederholen."
 	done
 
 .GreetingText:
-	text "Prof.Westwood?"
-	line "Das bin ich."
+	text "Prof.Westwood? Das"
+	line "bin ich."
 	done
 
 .IntroText:
@@ -161,8 +161,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	line "Weltrang!"
 
 	para "Meine Forschung"
-	line "ist"
-	cont "unübertroffen."
+	line "ist unübertroffen."
 
 	para "Bald bekomme ich"
 	line "sicher eine"
@@ -170,8 +169,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .QuestionText:
-	text "Ähem. Was war"
-	line "das?"
+	text "Ähem. Was war das?"
 
 	para "Du willst den"
 	line "Hyper-Test der"
@@ -181,8 +179,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .BeginText:
 	text "Ausgezeichnet!"
 
-	para "Der Hyper-Test"
-	line "hat"
+	para "Der Hyper-Test hat"
 	line "sechs Fragen und"
 	cont "testet alle Sinne"
 
@@ -191,8 +188,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	para "Wenn du bestehst,"
 	line "gibt es einen"
 
-	para "Preis, der"
-	line "unserer"
+	para "Preis, der unserer"
 	line "Uni würdig ist!"
 	done
 
@@ -201,8 +197,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question1IntroText:
-	text "Frage 1:"
-	line "Schau genau hin!"
+	text "Frage 1: Schau"
+	line "genau hin!"
 	done
 
 .Question1QuestionText:
@@ -212,8 +208,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question2IntroText:
-	text "Frage 2:"
-	line "Hör genau hin!"
+	text "Frage 2: Hör genau"
+	line "hin!"
 	done
 
 .Question2QuestionText:
@@ -226,8 +222,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question3QuestionText:
-	text "Welches"
-	line "Medikament"
+	text "Welches Medikament"
 	line "schmeckt bitter?"
 	done
 
@@ -237,8 +232,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 .Question4QuestionText:
 	text "Welches #mon"
-	line "hat"
-	cont "Trockenhaut?"
+	line "hat Trockenhaut?"
 	done
 
 .Question5IntroText:
@@ -251,8 +245,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question6IntroText:
-	text "Frage 6:"
-	line "Denk gut nach!"
+	text "Frage 6: Denk gut"
+	line "nach!"
 	done
 
 .Question6QuestionText:
@@ -266,11 +260,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 	para "Du hast den"
 	line "Hyper-Test mit"
-	cont "Bravour"
-	cont "bestanden!"
+	cont "Bravour bestanden!"
 
-	para "Hier dein Preis--"
-	line "ein speziell"
+	para "Hier dein"
+	line "Preis-ein speziell"
 
 	para "gezüchteter"
 	line "Karpador mit"
@@ -281,8 +274,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	text "Unsere Studenten"
 	line "haben die Zähig-"
 
-	para "keit eines Kar-"
-	line "pador, der sich"
+	para "keit eines"
+	line "Karpador, der sich"
 	cont "entwickeln will."
 
 	para "Und du auch!"
@@ -290,9 +283,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 .PartyAndBoxFullText:
 	text "Ach nein! Dein"
-	line "Team"
-	line "und die Box sind"
-	cont "voll…"
+	line "Team und die Box"
+	cont "sind voll…"
 	done
 
 .RefusedText:
@@ -395,8 +387,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db "Prof.Westwood@"
 
 CeladonUniversityHyperTestRoomScientistText:
-	text "Der Hyper-Test"
-	line "ist"
+	text "Der Hyper-Test ist"
 	line "ein Ritual für"
 	cont "alle"
 
@@ -416,8 +407,7 @@ CeladonUniversityHyperTestRoomTwin1Text:
 
 CeladonUniversityHyperTestRoomTwin2Text:
 	text "Nein, ich bestehe"
-	line "den Hyper-Test"
-	cont "vor"
+	line "den Hyper-Test vor"
 	cont "dir!"
 	done
 
@@ -435,8 +425,8 @@ CeladonUniversityHyperTestRoomMagikarpSign:
 
 CeladonUniversityHyperTestRoomBookshelf1Text:
 	text "In diesem Buch"
-	line "steckt ein Lese-"
-	cont "zeichen."
+	line "steckt ein"
+	cont "Lesezeichen."
 
 	para "Jemand ist noch"
 	line "nicht fertig!"

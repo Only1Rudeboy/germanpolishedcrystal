@@ -35,15 +35,13 @@ WardensGranddaughter:
 	text "Viele Leute waren"
 	line "traurig, dass die"
 
-	para "SAFARI-ZONE ge-"
-	line "schlossen wurde."
-	cont "Aber Großvater"
-	cont "ist"
+	para "SAFARI-ZONE"
+	line "geschlossen wurde."
+	cont "Aber Großvater ist"
 	cont "so stur…"
 	done
 WardensGranddaughterText1:
-	text "Mein Großvater"
-	line "ist"
+	text "Mein Großvater ist"
 	line "der WÄRTER in der"
 	cont "SAFARI-ZONE."
 
@@ -57,9 +55,9 @@ WardensGranddaughterText1:
 	line "verreist, ganz"
 	cont "allein."
 
-	para "Er hat einfach"
-	line "so die SAFARI-"
-	cont "ZONE verlassen."
+	para "Er hat einfach so"
+	line "die SAFARI- ZONE"
+	cont "verlassen."
 	done
 
 
@@ -71,8 +69,7 @@ WardenPhotoText:
 	text "Das Foto zeigt"
 	line "einen lächelnden,"
 
-	para "alten Mann"
-	line "umgeben"
+	para "alten Mann umgeben"
 	line "von #mon."
 	done
 
@@ -97,8 +94,8 @@ SafariZonePhotoText:
 
 WardensHouseCuriosText:
 	text "Eine Vitrine"
-	line "voller"
-	line "Fossilien und"
+	line "voller Fossilien"
+	cont "und"
 
 	para "alter #mon-"
 	line "Souvenirs."

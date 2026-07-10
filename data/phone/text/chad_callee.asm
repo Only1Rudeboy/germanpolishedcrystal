@@ -34,8 +34,7 @@ ChadGreetText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 ChadGreetDayText:
@@ -44,8 +43,7 @@ ChadGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 ChadGreetNiteText:
@@ -54,8 +52,7 @@ ChadGreetNiteText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text "."
-	line "Wie geht's?"
+	text ". Wie geht's?"
 	done
 
 ChadGenericText:
@@ -63,8 +60,8 @@ ChadGenericText:
 	line "#mon?"
 
 	para "Du kennst"
-	line "Prof.Eich,"
-	line "also sind deine"
+	line "Prof.Eich, also"
+	cont "sind deine"
 
 	para "#mon bestimmt"
 	line "top! Meine auch."

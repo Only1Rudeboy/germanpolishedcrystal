@@ -80,19 +80,17 @@ EmbeddedTowerSteven2Script:
 
 EmbeddedTowerSteven1IntroText:
 	text "Hallo! Ich bin"
-	line "Steven."
-	line "Seltene Steine"
-	cont "sind meine"
-	cont "Leiden-"
-	cont "schaft."
+	line "Steven. Seltene"
+	cont "Steine sind meine"
+	cont "Leidenschaft."
 
 	para "Ich komme aus der"
-	line "Hoenn-Region."
-	line "Ein schöner Ort,"
+	line "Hoenn-Region. Ein"
+	cont "schöner Ort,"
 
 	para "mit dem klarsten"
-	line "Meer, das man"
-	line "sich vorstellen"
+	line "Meer, das man sich"
+	cont "vorstellen"
 
 	para "kann."
 
@@ -102,53 +100,50 @@ EmbeddedTowerSteven1IntroText:
 
 EmbeddedTowerSteven1TowerText:
 	text "Steven: Ich bin"
-	line "hier auf der"
-	line "Suche nach"
-	cont "Steinen"
-	cont "für meine"
-	cont "Sammlung."
+	line "hier auf der Suche"
+	cont "nach Steinen für"
+	cont "meine Sammlung."
 
 	para "Das ist der"
 	line "Embedded Tower."
 
 	para "Er wurde von"
 	line "Leuten aus Hoenn"
-	line "erbaut,"
+	cont "erbaut,"
 
-	para "um Meer, Land"
-	line "und Himmel zu"
+	para "um Meer, Land und"
+	line "Himmel zu"
 	cont "vereinen."
 	done
 
 EmbeddedTowerSteven1NotNowText:
 	text "Steven: Deine"
-	line "#mon sehen"
-	cont "gut aus."
+	line "#mon sehen gut"
+	cont "aus."
 
 	para "Wenn du die TOP"
 	line "VIER besiegen"
 
 	para "kannst, komm"
-	line "wieder und"
-	line "kämpfe mit mir."
+	line "wieder und kämpfe"
+	cont "mit mir."
 	done
 
 EmbeddedTowerSteven1ChallengeText:
 	text "Steven: Deine"
-	line "#mon sehen"
-	cont "gut aus."
+	line "#mon sehen gut"
+	cont "aus."
 
 	para "Da wir beide hier"
 	line "sind, warum"
-	cont "kämpfen wir"
-	cont "nicht?"
+	cont "kämpfen wir nicht?"
 	done
 
 EmbeddedTowerSteven1NoText:
 EmbeddedTowerSteven2NoText:
-	text "Steven: Hmm."
-	line "Wenn du deine"
-	line "Meinung änderst,"
+	text "Steven: Hmm. Wenn"
+	line "du deine Meinung"
+	cont "änderst,"
 
 	para "bin ich gleich"
 	line "hier."
@@ -158,22 +153,22 @@ EmbeddedTowerSteven1YesText:
 EmbeddedTowerSteven2YesText:
 	text "Steven: Ich will,"
 	line "dass du alles"
-	line "gibst!"
+	cont "gibst!"
 
-	para "Also, zeig was"
-	line "du kannst!"
+	para "Also, zeig was du"
+	line "kannst!"
 	done
 
 EmbeddedTowerSteven1WinText:
 EmbeddedTowerSteven2WinText:
-	text "Du bist ein wirk-"
-	line "lich edler"
+	text "Du bist ein"
+	line "wirklich edler"
 	cont "#mon-Trainer!"
 	done
 
 EmbeddedTowerSteven1ItemText:
-	text "Steven: Glück-"
-	line "wunsch!"
+	text "Steven:"
+	line "Glückwunsch!"
 
 	para "Die Gefühle, die"
 	line "du für deine"
@@ -192,20 +187,17 @@ EmbeddedTowerSteven1ItemText:
 	para "eine noch größere"
 	line "Kraft."
 
-	para "So konntest du"
-	line "den Sieg"
-	cont "erringen!"
+	para "So konntest du den"
+	line "Sieg erringen!"
 
 	para "Dieses Item wird"
-	line "dir sicher"
-	cont "helfen."
+	line "dir sicher helfen."
 	done
 
 EmbeddedTowerSteven1AfterText:
-	text "Steven: Mögen"
-	line "sich"
-	line "unsere Wege"
-	cont "wieder kreuzen."
+	text "Steven: Mögen sich"
+	line "unsere Wege wieder"
+	cont "kreuzen."
 	done
 
 EmbeddedTowerSteven2ChallengeText:
@@ -215,8 +207,7 @@ EmbeddedTowerSteven2ChallengeText:
 
 	para "Ich hab tolle"
 	line "Steine für meine"
-	cont "Sammlung"
-	cont "gefunden."
+	cont "Sammlung gefunden."
 
 	para "Was hast du"
 	line "gemacht?"
@@ -231,16 +222,15 @@ EmbeddedTowerSteven2ChallengeText:
 
 EmbeddedTowerSteven2AfterText:
 	text "Steven: Am Ende"
-	line "bist du doch"
-	cont "der Stärkste."
+	line "bist du doch der"
+	cont "Stärkste."
 
-	para "Aber ich"
-	line "bereue unseren"
-	line "Kampf nicht."
+	para "Aber ich bereue"
+	line "unseren Kampf"
+	cont "nicht."
 
 	para "Denn jedes Mal,"
-	line "wenn wir"
-	cont "kämpfen,"
+	line "wenn wir kämpfen,"
 
 	para "lerne ich mehr"
 	line "über #mon!"

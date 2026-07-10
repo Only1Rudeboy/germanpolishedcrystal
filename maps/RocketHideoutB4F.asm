@@ -122,15 +122,15 @@ RocketHideoutB4FMeetLeadersScript:
 	line "dir, rohe Kraft"
 	cont "gewinnt immer!"
 
-	para "Training soll"
-	line "hart sein, wie"
-	cont "ein Kampf!"
+	para "Training soll hart"
+	line "sein, wie ein"
+	cont "Kampf!"
 	done
 
 .BlancheIntro1Text:
 	text "Blanche: Stärke"
-	line "ist nutzlos"
-	cont "ohne Strategie."
+	line "ist nutzlos ohne"
+	cont "Strategie."
 
 	para "Kluge Planung"
 	line "gewinnt immer."
@@ -142,19 +142,15 @@ RocketHideoutB4FMeetLeadersScript:
 	cont "Punkt!"
 
 	para "Instinkt ist"
-	line "alles--"
-	cont "vertrau ihm!"
+	line "alles-vertrau ihm!"
 	done
 
 .CandelaIntro2Text:
-	text "Candela:"
-	line "Instinkt?"
-	line "Das ist nur"
-	cont "Raten!"
+	text "Candela: Instinkt?"
+	line "Das ist nur Raten!"
 
 	para "Echte Trainer"
-	line "setzen auf"
-	cont "Stärke!"
+	line "setzen auf Stärke!"
 	done
 
 .BlancheIntro2Text:
@@ -163,15 +159,13 @@ RocketHideoutB4FMeetLeadersScript:
 	cont "nicht der Moment!"
 
 	para "Was ist mit dem"
-	line "Großen Baum-"
-	cont "projekt?"
+	line "Großen"
+	cont "Baumprojekt?"
 	done
 
 .SparkIntro2Text:
-	text "Spark: Stimmt!"
-	line "Der"
-	line "große Kirsch-"
-	cont "baum--"
+	text "Spark: Stimmt! Der"
+	line "große Kirschbaum--"
 	done
 
 .SparkIntro3Text:
@@ -231,9 +225,9 @@ RocketHideoutB4FSparkScript:
 
 .GreetingText:
 	text "Spark: Hey!"
-	line "Bereit,"
-	line "deinem Instinkt"
-	cont "zu vertrauen?"
+	line "Bereit, deinem"
+	cont "Instinkt zu"
+	cont "vertrauen?"
 	done
 
 .SeenText:
@@ -243,11 +237,11 @@ RocketHideoutB4FSparkScript:
 	done
 
 .BeatenText:
-	text "Wow, du warst"
-	line "echt klasse!"
+	text "Wow, du warst echt"
+	line "klasse!"
 
-	para "Dein Instinkt"
-	line "hat recht gehabt!"
+	para "Dein Instinkt hat"
+	line "recht gehabt!"
 	done
 
 .AfterText1:
@@ -260,18 +254,16 @@ RocketHideoutB4FSparkScript:
 	line "nutzt kühne"
 	cont "Energie."
 
-	para "So wecke ich"
-	line "etwas Kreativi-"
-	cont "tät!"
+	para "So wecke ich etwas"
+	line "Kreativität!"
 
 	para "Nutze ihn mutig!"
 	done
 
 .RefusedText:
-	text "Ach, schade!"
-	line "Lass dich nicht"
-	cont "von Angst"
-	cont "bremsen!"
+	text "Ach, schade! Lass"
+	line "dich nicht von"
+	cont "Angst bremsen!"
 
 	para "Komm wieder, wenn"
 	line "du bereit bist."
@@ -322,11 +314,11 @@ RocketHideoutB4FCandelaScript:
 
 .BeatenText:
 	text "Okay, du hast"
-	line "heute deine"
-	cont "Stärke bewiesen."
+	line "heute deine Stärke"
+	cont "bewiesen."
 
-	para "Ich gebe zu:"
-	line "Du hast gewonnen."
+	para "Ich gebe zu: Du"
+	line "hast gewonnen."
 	done
 
 .AfterText1:
@@ -335,8 +327,7 @@ RocketHideoutB4FCandelaScript:
 	done
 
 .AfterText2:
-	text "Candela: Der"
-	line "Harsh"
+	text "Candela: Der Harsh"
 	line "Lure zieht wilde"
 	cont "Kraft an."
 
@@ -395,9 +386,8 @@ RocketHideoutB4FBlancheScript:
 	done
 
 .SeenText:
-	text "Sehr gut, zeig"
-	line "mir deine"
-	cont "Technik!"
+	text "Sehr gut, zeig mir"
+	line "deine Technik!"
 	done
 
 .BeatenText:
@@ -422,13 +412,12 @@ RocketHideoutB4FBlancheScript:
 	line "trag zum Erfolg."
 
 	para "Nutze ihn"
-	line "vorsich-"
-	line "tig."
+	line "vorsichtig."
 	done
 
 .RefusedText:
-	text "Hmm, nicht"
-	line "so selbstsicher?"
+	text "Hmm, nicht so"
+	line "selbstsicher?"
 
 	para "Komm wieder, wenn"
 	line "du bereit bist,"
@@ -473,8 +462,8 @@ RocketHideoutB4FYoungsterArdenScript:
 	text "Ach nein, der"
 	line "Aufzugsschlüssel!"
 
-	para "Candela wird"
-	line "sauer sein!"
+	para "Candela wird sauer"
+	line "sein!"
 	done
 
 RocketHideoutB4FTeacherSerena:
@@ -516,8 +505,7 @@ RocketHideoutB4FTeacherSerena:
 
 .SeenText:
 	text "Mal sehen, ob du"
-	line "schlau genug"
-	cont "bist,"
+	line "schlau genug bist,"
 
 	para "es mit den"
 	line "Anführern"
@@ -559,16 +547,15 @@ RocketHideoutB4FSuperNerdNolan:
 
 .AfterText
 	text "Die Anführer"
-	line "streiten"
-	line "oft, aber sie"
-	cont "sind"
-	cont "gute Freunde."
+	line "streiten oft, aber"
+	cont "sie sind gute"
+	cont "Freunde."
 	done
 
 .SeenText:
 	text "Willst du die"
-	line "Anführer heraus-"
-	cont "fordern?"
+	line "Anführer"
+	cont "herausfordern?"
 
 	para "Dann musst du"
 	line "zuerst mich"
@@ -638,13 +625,10 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	line "Generationen"
 	cont "versammelt."
 
-	para "Der Baum"
-	line "verstärkt"
-	line "den Ruf der"
-	cont "Lures."
+	para "Der Baum verstärkt"
+	line "den Ruf der Lures."
 
-	para "Spark: Wenn du"
-	line "sie"
+	para "Spark: Wenn du sie"
 	line "dort einsetzt,"
 
 	para "wer weiß, was"

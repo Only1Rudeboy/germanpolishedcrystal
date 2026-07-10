@@ -1,6 +1,5 @@
 BeverlyAskNumber1Text:
-	text "Dein Marill ist"
-	line "so"
+	text "Dein Marill ist so"
 	line "süß und niedlich!"
 
 	para "Du liebst #mon"
@@ -12,8 +11,7 @@ BeverlyAskNumber1Text:
 	done
 
 BeverlyAskNumber2Text:
-	text "Dein Marill ist"
-	line "so"
+	text "Dein Marill ist so"
 	line "süß! Wir sollten"
 
 	para "quatschen. Darf"
@@ -40,8 +38,8 @@ BeverlyPhoneFullText:
 	done
 
 BeverlyGiftText:
-	text "Oh? <PLAYER>?"
-	line "Ich hab auf dich"
+	text "Oh? <PLAYER>? Ich"
+	line "hab auf dich"
 
 	para "gewartet. Ich hab"
 	line "ein kleines"
@@ -49,9 +47,8 @@ BeverlyGiftText:
 	done
 
 BeverlyPackFullText:
-	text "Oh?"
-	line "Du hast keinen"
-	cont "Platz."
+	text "Oh? Du hast keinen"
+	line "Platz."
 
 	para "Komm später"
 	line "wieder."

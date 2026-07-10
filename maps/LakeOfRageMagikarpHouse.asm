@@ -72,12 +72,12 @@ MagikarpLengthRaterScript:
 	line "riesig!"
 
 	para "…Zumindest würde"
-	line "ich das gerne sa-"
-	cont "gen, aber ich"
+	line "ich das gerne"
+	cont "sagen, aber ich"
 	cont "habe"
 
-	para "schon größere ge-"
-	line "sehen."
+	para "schon größere"
+	line "gesehen."
 	done
 .Refused:
 	jumpthisopenedtext
@@ -86,15 +86,12 @@ MagikarpLengthRaterScript:
 	line "keines, das es"
 
 	para "wert wäre, mir zu"
-	line "zeigen?"
-	cont "Vielleicht"
-	cont "beim nächsten"
-	cont "Mal."
+	line "zeigen? Vielleicht"
+	cont "beim nächsten Mal."
 	done
 MagikarpLengthRaterText_LakeOfRageHistory:
 	text "Der SEE DES ZORNS"
-	line "ist eigentlich"
-	cont "ein"
+	line "ist eigentlich ein"
 
 	para "Krater, der durch"
 	line "wütende GARADOS"
@@ -102,23 +99,20 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 
 	para "Der Krater füllte"
 	line "sich mit"
-	cont "Regenwas-"
-	cont "ser und so ent-"
-	cont "stand der See."
+	cont "Regenwasser und so"
+	cont "entstand der See."
 
 	para "Diese Geschichte"
 	line "erzählte schon"
 
-	para "der"
-	line "Ur-Urgroßvater"
-	line "meines"
-	cont "Großvaters."
+	para "der Ur-Urgroßvater"
+	line "meines Großvaters."
 
 	para "Früher konnte man"
 	line "hier"
-	cont "quicklebendi-"
-	cont "ge KARPADOR fan-"
-	cont "gen, aber…"
+	cont "quicklebendige"
+	cont "KARPADOR fangen,"
+	cont "aber…"
 
 	para "Ich verstehe"
 	line "nicht, was hier"
@@ -131,15 +125,13 @@ MagikarpLengthRaterText_MenInBlack:
 	line "verändert, seit"
 
 	para "diese Männer in"
-	line "Schwarz hier"
-	cont "sind."
+	line "Schwarz hier sind."
 	done
 
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
 	text "Der SEE DES ZORNS"
-	line "ist wieder"
-	cont "normal."
+	line "ist wieder normal."
 
 	para "Die KARPADOR sind"
 	line "wieder zurück."
@@ -148,8 +140,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	line "nun mein Traum in"
 	cont "Erfüllung, das"
 	cont "größte KARPADOR"
-	cont "der Welt zu"
-	cont "sehen!"
+	cont "der Welt zu sehen!"
 
 	para "Hast du eine"
 	line "ANGEL? Wenn ja,"
@@ -160,8 +151,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
 	text "Ah, du hast ein"
-	line "KARPADOR! Lass"
-	cont "uns"
+	line "KARPADOR! Lass uns"
 
 	para "sehen, wie groß"
 	line "das Kleine ist."
@@ -175,8 +165,8 @@ MagikarpLengthRaterText_Memento:
 	para "Ich ziehe meinen"
 	line "Hut vor dir!"
 
-	para "Nimm das als An-"
-	line "denken!"
+	para "Nimm das als"
+	line "Andenken!"
 	done
 
 

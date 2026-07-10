@@ -25,13 +25,13 @@ PokemonJournalBlueScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Leiter Blau!"
+	para "Spezial: Leiter"
+	line "Blau!"
 
 	para "Man sagt, Blau"
-	line "besucht jedes"
-	cont "Jahr seine lieb-"
-	cont "sten #mon im"
+	line "besucht jedes Jahr"
+	cont "seine liebsten"
+	cont "#mon im"
 
 	para "Seelenhaus."
 	done
@@ -45,15 +45,13 @@ ViridianPokeCenter1FCooltrainermScript:
 	line "Willen ist der"
 
 	para "ARENALEITER von"
-	line "VERTANIA? Ich"
-	cont "will"
-	cont "ihn"
-	cont "herausfordern."
+	line "VERTANIA? Ich will"
+	cont "ihn herausfordern."
 	done
 .BlueText:
 	text "In der"
-	line "Orania-Arena"
-	line "gibt es starke"
+	line "Orania-Arena gibt"
+	cont "es starke"
 	cont "Arena-Trainer."
 
 	para "Eines Tages werde"

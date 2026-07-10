@@ -97,15 +97,14 @@ RuinsOfAlphInnerChamberFisherText:
 
 
 RuinsOfAlphInnerChamberTeacherText:
-	text "Dieser Ort"
-	line "strahlt"
+	text "Dieser Ort strahlt"
 	line "eine eigenartige"
 	cont "Mystik aus."
 
-	para "Man könnte es"
-	line "fast"
-	line "schon als äthe-"
-	cont "risch bezeichnen."
+	para "Man könnte es fast"
+	line "schon als"
+	cont "ätherisch"
+	cont "bezeichnen."
 	done
 
 
@@ -115,8 +114,7 @@ RuinsOfAlphInnerChamberTeacherText:
 
 
 RuinsOfAlphInnerChamberGrampsText:
-	text "Antike Bauten"
-	line "sind"
+	text "Antike Bauten sind"
 	line "oft Grabstätten"
 	cont "für Könige."
 
@@ -132,14 +130,13 @@ RuinsOfAlphInnerChamberGrampsText:
 
 RuinsOfAlphInnerChamberScientistText:
 	text "Die Muster an der"
-	line "Wand sehen aus"
-	cont "wie"
+	line "Wand sehen aus wie"
 	cont "Worte!"
 
 	para "Und diese"
 	line "schiebenden"
-	cont "Stein-"
-	cont "platten scheinen"
+	cont "Steinplatten"
+	cont "scheinen"
 
 	para "so etwas wie"
 	line "Signale zu sein."

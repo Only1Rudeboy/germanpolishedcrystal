@@ -67,34 +67,32 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "Im Kolosseum"
-	line "oben gibt es"
+	text "Im Kolosseum oben"
+	line "gibt es"
 	cont "Link-Kämpfe."
 
 	para "Die Ergebnisse"
 	line "hängen an der"
 
-	para "Wand—ich kann"
-	line "mir keinen Ver-"
-	cont "lust leisten."
+	para "Wand—ich kann mir"
+	line "keinen Verlust"
+	cont "leisten."
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "Ein starkes #-"
-	line "MON muss nicht"
-	cont "zwingend"
-	cont "gewinnen."
+	text "Ein starkes"
+	line "#mon muss nicht"
+	cont "zwingend gewinnen."
 
 	para "Meist entscheidet"
 	line "der Vor- oder"
-	cont "Nachteil des"
-	cont "Typs."
+	cont "Nachteil des Typs."
 
 	para "Ich glaube nicht,"
-	line "dass es ein #-"
-	cont "MON gibt, das al-"
-	cont "len anderen über-"
-	cont "legen ist."
+	line "dass es ein"
+	cont "#mon gibt, das"
+	cont "allen anderen"
+	cont "überlegen ist."
 	done
 GoldenrodPokecenter1FPokefanF:
 	checkevent EVENT_GOT_EVIOLITE_IN_GOLDENROD
@@ -118,8 +116,7 @@ GoldenrodPokecenter1FPokefanF:
 	setevent EVENT_GOT_EVIOLITE_IN_GOLDENROD
 	jumpthisopenedtext
 
-	text "Meine Tochter"
-	line "wird"
+	text "Meine Tochter wird"
 	line "entzückt sein!"
 	done
 .NoRoomForEviolite:
@@ -135,8 +132,8 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	cont "schwer!"
 
 	para "Oh! Hast du"
-	line "zufäl-"
-	line "lig etwas namens"
+	line "zufällig etwas"
+	cont "namens"
 	cont "ANARA-BRIEF?"
 
 	para "Meine Tochter"
@@ -155,8 +152,8 @@ GoldenrodPokecenter1FPokefanFThisIsForYouText:
 	text "Ach, großartig!"
 	line "Danke, Schatz!"
 
-	para "Hier, als Aus-"
-	line "gleich sollst"
+	para "Hier, als"
+	line "Ausgleich sollst"
 	cont "du das haben!"
 	done
 GoldenrodPokecenter1FPokefanFTooBadText:
@@ -171,8 +168,7 @@ GoldenrodPokecenter1FPokefanFGotEvioliteText:
 	text "Danke für den"
 	line "ANARA-BRIEF!"
 
-	para "Meine Tochter"
-	line "wird"
+	para "Meine Tochter wird"
 	line "entzückt sein!"
 	done
 
@@ -206,8 +202,8 @@ WonderTradeReceptionistScript:
 .done
 	jumpthisopenedtext
 
-	text "Beehre uns"
-	line "bald wieder."
+	text "Beehre uns bald"
+	line "wieder."
 	done
 WonderTradeIntroText:
 	text "Hallo! Willkommen"
@@ -217,19 +213,18 @@ WonderTradeIntroText:
 
 IntroduceTealaText:
 	text "Ich bin Teala,"
-	line "deine Tausch-"
-	cont "begleiterin."
+	line "deine"
+	cont "Tauschbegleiterin."
 	done
 
 WonderTradeExplanationText:
 	text "Du kannst #mon"
-	line "mit fernen Train-"
-	cont "ern tauschen."
+	line "mit fernen"
+	cont "Trainern tauschen."
 	done
 
 WonderTradeCompleteText:
-	text "Das ist dein"
-	line "neuer"
+	text "Das ist dein neuer"
 	line "Partner."
 
 	para "Bitte passe gut"
@@ -238,12 +233,11 @@ WonderTradeCompleteText:
 
 
 WonderTradeForGSBallPichuText:
-	text "…Aber was ist"
-	line "das? Stimmt et-"
-	cont "was nicht mit"
+	text "…Aber was ist das?"
+	line "Stimmt etwas nicht"
+	cont "mit"
 
-	para "der"
-	line "Wunder-Tausch-"
+	para "der Wunder-Tausch-"
 	line "Maschine?"
 
 	para "Es sieht so aus,"
@@ -257,13 +251,12 @@ WonderTradeForGSBallPichuText:
 	line "sein… Du kannst"
 
 	para "nicht an zwei"
-	line "Orten"
-	cont "gleichzeitig"
+	line "Orten gleichzeitig"
 	cont "sein."
 
-	para "Außerdem kommu-"
-	line "niziert die Ma-"
-	cont "schine durch den"
+	para "Außerdem"
+	line "kommuniziert die"
+	cont "Maschine durch den"
 
 	para "Raum, nicht durch"
 	line "die Zeit…"
@@ -272,32 +265,29 @@ WonderTradeForGSBallPichuText:
 	line "für ein seltsamer"
 	cont "Ball, den es"
 
-	para "trägt? Ist das"
-	line "ein"
+	para "trägt? Ist das ein"
 	line "Aprikoko-Ball?"
 
 	para "Hier, schau mal…"
 	done
 
 WonderTradeForGSBallPichuText2:
-	text "Es mag ungewöhn-"
-	line "lich sein, aber"
-	cont "ein"
-	cont "#mon ist ein"
-	cont "#mon."
+	text "Es mag"
+	line "ungewöhnlich sein,"
+	cont "aber ein #mon"
+	cont "ist ein #mon."
 
-	para "Bitte pass gut"
-	line "auf es auf."
+	para "Bitte pass gut auf"
+	line "es auf."
 	done
 
 InfoSignScript:
 	jumpthistext
 
-	text "#Com Center"
-	line "1F Informationen"
+	text "#Com Center 1F"
+	line "Informationen"
 
-	para "Links:"
-	line "Verwaltung"
+	para "Links: Verwaltung"
 
 	para "Mitte:"
 	line "Wunder-Tausch"
@@ -313,8 +303,8 @@ PokemonJournalWhitneyScript:
 	text "#mon Journal"
 
 	para "Spezial:"
-	line "Arenalei-"
-	line "terin Whitney!"
+	line "Arenaleiterin"
+	cont "Whitney!"
 
 	para "Man sagt, Whitney"
 	line "bewundere Bruno"
@@ -327,8 +317,8 @@ JudgeMachineScript:
 	waitendtext
 
 GoldenrodPokecenter1FSuperNerdText:
-	text "Wow, dieses #-"
-	line "mon Center ist"
+	text "Wow, dieses"
+	line "#mon Center ist"
 	cont "riesig."
 
 	para "Es wurde gerade"
@@ -340,35 +330,31 @@ GoldenrodPokecenter1FSuperNerdText:
 	done
 
 GoldenrodPokecenter1FLassText_PidgeyMail:
-	text "Mir ist was"
-	line "Tolles"
+	text "Mir ist was Tolles"
 	line "für den Wunder-"
-	cont "Tausch eingefal-"
-	cont "len!"
+	cont "Tausch"
+	cont "eingefallen!"
 
 	para "Ich lasse einen"
-	line "Taubsi einen"
-	cont "Brief"
+	line "Taubsi einen Brief"
 
-	para "tragen und"
-	line "tausche"
-	line "es gegen ein an-"
-	cont "deres!"
+	para "tragen und tausche"
+	line "es gegen ein"
+	cont "anderes!"
 
 	para "Wenn das alle"
 	line "machten, könnten"
 
 	para "Briefe mit vielen"
-	line "Menschen"
-	cont "getauscht"
+	line "Menschen getauscht"
 	cont "werden!"
 
 	para "Ich nenne es"
 	line "Taubsi-Brief!"
 
 	para "Wird es populär,"
-	line "finde ich viel-"
-	cont "leicht neue"
+	line "finde ich"
+	cont "vielleicht neue"
 	cont "Freunde!"
 	done
 
@@ -401,9 +387,8 @@ JudgeMachineEngineerWorkingText:
 	text "Die #mon-"
 	line "Richter-Maschine…"
 
-	para "Das ist mein"
-	line "Traum seit lan-"
-	cont "gem."
+	para "Das ist mein Traum"
+	line "seit langem."
 
 	para "Mit dem Geld des"
 	line "#Com Centers"
@@ -420,8 +405,8 @@ JudgeMachineEngineerWorkingText:
 	line "nützlich das für"
 	cont "Züchter ist, die"
 
-	para "viele Eier aus-"
-	line "brüten!"
+	para "viele Eier"
+	line "ausbrüten!"
 
 	para "Ich bin fast"
 	line "fertig…"
@@ -435,9 +420,8 @@ JudgeMachineEngineerFinishedText:
 	line "Mein Traum wurde"
 	cont "Wirklichkeit!"
 
-	para "Was ist das?"
-	line "Eine Maschine,"
-	cont "die"
+	para "Was ist das? Eine"
+	line "Maschine, die"
 
 	para "die Werte jedes"
 	line "#mon bewertet!"
@@ -449,8 +433,7 @@ JudgeMachineEngineerFinishedText:
 	line "Potenzial und"
 
 	para "den Einsatz eines"
-	line "#mon zu mes-"
-	cont "sen."
+	line "#mon zu messen."
 
 	para "Die perfekte Art,"
 	line "die Kraft eines"
@@ -460,8 +443,8 @@ JudgeMachineEngineerFinishedText:
 	line "Sie ist absolut"
 	cont "sicher."
 
-	para "Ich mache erst"
-	line "mal Urlaub!"
+	para "Ich mache erst mal"
+	line "Urlaub!"
 	done
 
 JudgeMachineEngineerLeavesMovement:
@@ -484,8 +467,7 @@ GoldenrodPokecenter1FPokefanFText_Sunflora:
 	done
 
 GoldenrodPokecenter1FRockerText:
-	text "Die Maschinen"
-	line "hier"
+	text "Die Maschinen hier"
 	line "sind noch nicht"
 	cont "alle nutzbar."
 

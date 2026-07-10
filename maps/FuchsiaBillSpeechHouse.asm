@@ -17,9 +17,8 @@ FuchsiaBillSpeechHouse_MapScriptHeader:
 
 BillsBrotherText:
 	text "Mein Opa ist bei"
-	line "meinem Bruder"
-	cont "BILL in DUKATIA"
-	cont "CITY."
+	line "meinem Bruder BILL"
+	cont "in DUKATIA CITY."
 	done
 
 BillsBrothersHouseYoungsterText:

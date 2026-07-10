@@ -26,17 +26,14 @@ GenericTrainerSupernerdHugh:
 
 	text "Ich erkunde den"
 	line "KESSELBERG, aber"
-	cont "mein Kamerad"
-	cont "fehlt"
+	cont "mein Kamerad fehlt"
 	cont "unentschuldigt."
 
-	para "Bist du hier"
-	line "einem"
+	para "Bist du hier einem"
 	line "Trainer begegnet,"
 
 	para "dessen FLEGMON"
-	line "STÄRKE"
-	cont "beherrscht?"
+	line "STÄRKE beherrscht?"
 	done
 SupernerdHughSeenText:
 	text "Yo! URBAN!"

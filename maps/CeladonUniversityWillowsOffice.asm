@@ -21,9 +21,8 @@ CeladonUniversityWillowsOffice_MapScriptHeader:
 	object_event  4,  3, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityWillowsOfficeScientistText, -1
 
 CeladonUniversityWillowsOfficeWillowText:
-	text "Hallo!"
-	line "Ich bin"
-	cont "Prof.Willow."
+	text "Hallo! Ich bin"
+	line "Prof.Willow."
 
 	para "Ich betreue"
 	line "Candela, Blanche"
@@ -36,11 +35,10 @@ CeladonUniversityWillowsOfficeWillowText:
 	line "vielleicht im"
 	cont "Unterricht."
 
-	para "Ich erforsche"
-	line "auch"
+	para "Ich erforsche auch"
 	line "#mon-"
-	cont "Lebensräume"
-	cont "und Verbreitung."
+	cont "Lebensräume und"
+	cont "Verbreitung."
 
 	para "Ich bin sehr"
 	line "beschäftigt, aber"
@@ -59,17 +57,16 @@ CeladonUniversityWillowsOfficeScientistText:
 	cont "gen auf Route 7."
 
 	para "Heute sah ich 42"
-	line "Rattfratz und"
-	cont "37 Tauboga…"
-	cont "und ein Vulpix!"
+	line "Rattfratz und 37"
+	cont "Tauboga… und ein"
+	cont "Vulpix!"
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:
 	text "Jemand schrieb"
 	line "“NICHT LOESCHEN”"
 
-	para "mit einem Pfeil"
-	line "zu"
+	para "mit einem Pfeil zu"
 	line "einer"
 	cont "unleserlichen"
 	cont "Kritzelei…"

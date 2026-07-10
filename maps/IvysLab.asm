@@ -98,19 +98,16 @@ ProfIvyScript:
 	jumpthisopenedtext
 
 .NoBerryText:
-	text "Ivy: Ich"
-	line "verstehe…"
+	text "Ivy: Ich verstehe…"
 
-	para "Du hast keine"
-	line "drei"
-	line "LIECHI-BEEREN"
-	cont "zum Spenden."
+	para "Du hast keine drei"
+	line "LIECHI-BEEREN zum"
+	cont "Spenden."
 	done
 
 .RequestText:
 	text "Ivy: Hallo"
-	line "nochmal,"
-	line "<PLAYER>!"
+	line "nochmal, <PLAYER>!"
 
 	para "Kann ich dich um"
 	line "einen Gefallen"
@@ -120,12 +117,11 @@ ProfIvyScript:
 	line "ist krank und"
 	cont "meine"
 
-	para "LUM-BEEREN"
-	line "helfen nicht."
+	para "LUM-BEEREN helfen"
+	line "nicht."
 
 	para "Findest du bitte"
-	line "drei"
-	cont "LIECHI-BEEREN"
+	line "drei LIECHI-BEEREN"
 	cont "für es?"
 	done
 
@@ -142,8 +138,7 @@ ProfIvyScript:
 	line "<PLAYER>!"
 
 	para "Nidorino sieht"
-	line "viel"
-	line "gesünder aus!"
+	line "viel gesünder aus!"
 
 	para "Nimm das als"
 	line "Dankeschön."
@@ -151,20 +146,19 @@ ProfIvyScript:
 
 .ChallengeText:
 	text "Ivy: Ich könnte"
-	line "eine"
-	line "Pause vom"
-	line "Forschen"
+	line "eine Pause vom"
+	cont "Forschen"
 	cont "gebrauchen."
 
 	para "Wie wär's mit"
-	line "einem"
-	line "schnellen Kampf?"
+	line "einem schnellen"
+	cont "Kampf?"
 	done
 
 .NoText:
 	text "Na gut, dann"
 	line "forsche ich"
-	line "einfach weiter."
+	cont "einfach weiter."
 	done
 
 .SeenText:
@@ -174,14 +168,13 @@ ProfIvyScript:
 	done
 
 .BeatenText:
-	text "Keine Über-"
-	line "raschung!"
+	text "Keine"
+	line "Überraschung!"
 	done
 
 .AfterText:
 	text "Ivy: Das war ein"
-	line "aufregender"
-	cont "Kampf!"
+	line "aufregender Kampf!"
 	done
 
 IvysLabHopeScript:
@@ -267,16 +260,14 @@ PokemonJournalProfIvyScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Prof.Ivy!"
+	para "Spezial: Prof.Ivy!"
 
 	para "Philena Ivy"
 	line "arbeitete mit"
-	line "Brock aus"
-	cont "MARMORIA"
+	cont "Brock aus MARMORIA"
 
-	para "an einem glänzen-"
-	line "den Onix und"
-	cont "seinem Kristall-"
-	cont "körper."
+	para "an einem"
+	line "glänzenden Onix"
+	cont "und seinem"
+	cont "Kristallkörper."
 	done

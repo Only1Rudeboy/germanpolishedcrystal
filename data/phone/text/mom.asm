@@ -17,8 +17,8 @@ MomPhoneLandmarkText:
 
 	para ""
 	text_ram wStringBuffer4
-	text " ist?"
-	line "Warst du dort?"
+	text " ist? Warst du"
+	line "dort?"
 	done
 
 MomPhoneGenericAreaText:
@@ -48,10 +48,9 @@ MomPhoneCherrygroveText:
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Wie wär's, wenn"
-	line "du"
-	line "mal wieder heim-"
-	cont "kommst?"
+	para "Wie wär's, wenn du"
+	line "mal wieder"
+	cont "heimkommst?"
 	done
 
 MomOtherAreaText:
@@ -70,11 +69,9 @@ MomDeterminedText:
 	line "schwer."
 
 	para "Aber, <PLAYER>,"
-	line "ich"
-	line "weiß, du bist"
+	line "ich weiß, du bist"
 
-	para "sehr"
-	line "entschlossen."
+	para "sehr entschlossen."
 	line "Du schaffst das!"
 	done
 
@@ -94,8 +91,8 @@ MomImportantToSaveText:
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>,"
-	line "du sparst gar"
+	text "Oh, <PLAYER>, du"
+	line "sparst gar"
 
 	para "nichts. Willst du"
 	line "jetzt sparen?"
@@ -112,14 +109,12 @@ MomYouveSavedText:
 	done
 
 MomOKIllSaveText:
-	text "OK. Ich spare"
-	line "dein"
+	text "OK. Ich spare dein"
 	line "Geld für dich."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. Ich spare"
-	line "dein"
+	text "OK. Ich spare dein"
 	line "Geld nicht."
 	done
 
@@ -151,8 +146,7 @@ MomPhoneNoPokedexText:
 MomPhoneNoGymQuestText:
 	text "Hallo?"
 
-	para "Hi, <PLAYER>!"
-	line "Wenn"
+	para "Hi, <PLAYER>! Wenn"
 	line "dein Auftrag"
 	cont "fertig"
 
@@ -166,8 +160,8 @@ MomPhoneLectureText:
 	para "……<PLAYER>?"
 	line "Prof.Lind sagte,"
 
-	para "du seist auf"
-	line "eine lange Reise."
+	para "du seist auf eine"
+	line "lange Reise."
 
 	para "Ich wünschte, du"
 	line "hättest's mir"

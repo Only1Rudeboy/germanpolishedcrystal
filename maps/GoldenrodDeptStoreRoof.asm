@@ -81,15 +81,14 @@ GoldenrodDeptStoreRoofSuperNerdScript:
 Binoculars1:
 	jumpthistext
 
-	text "Mit diesem Fern-"
-	line "glas kann ich"
+	text "Mit diesem"
+	line "Fernglas kann ich"
 	cont "weit"
 
 	para "sehen. Vielleicht"
 	line "sogar mein Haus."
 
-	para "Ist es das mit"
-	line "dem"
+	para "Ist es das mit dem"
 	line "grünen Dach?"
 	done
 Binoculars2:
@@ -102,8 +101,7 @@ Binoculars2:
 	para "Ein #mon schoss"
 	line "mit Blättern!"
 
-	para "Wenn ich das"
-	line "sehe,"
+	para "Wenn ich das sehe,"
 	line "will ich sofort"
 	cont "kämpfen!"
 	done
@@ -204,8 +202,7 @@ PokeDollVendingMachine:
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Puh, bin ich"
-	line "müde."
+	text "Puh, bin ich müde."
 
 	para "Manchmal gehe ich"
 	line "auf die Dach-"
@@ -236,9 +233,8 @@ GoldenrodDeptStoreRoofFisherText:
 
 GoldenrodDeptStoreRoofFisherDuplicateText:
 	text "Das ist ein"
-	line "Duplikat. Hier,"
-	cont "du kannst es"
-	cont "haben."
+	line "Duplikat. Hier, du"
+	cont "kannst es haben."
 	done
 
 GotVoltorbDollText:
@@ -247,8 +243,8 @@ GotVoltorbDollText:
 	done
 
 VoltorbDollSentText:
-	text "Voltorb Doll"
-	line "was sent home."
+	text "Voltorb Doll was"
+	line "sent home."
 	done
 
 GoldenrodDeptStoreRoofFisherCatchEmAllText:
@@ -272,8 +268,7 @@ GoldenrodDeptStoreRoofSuperNerdOhWowText:
 
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Hörst du auf,"
-	line "mich"
+	text "Hörst du auf, mich"
 	line "zu belästigen?"
 	done
 
@@ -281,8 +276,7 @@ GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
 
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "Es gibt etwas,"
-	line "das"
+	text "Es gibt etwas, das"
 	line "ich unbedingt"
 
 	para "möchte, aber mir"
@@ -290,8 +284,7 @@ GoldenrodDeptStoreRoofPokefanMText:
 	cont "Kleingeld…"
 
 	para "Soll ich meine"
-	line "gesammelten"
-	cont "BEEREN"
+	line "gesammelten BEEREN"
 	cont "verkaufen…"
 	done
 
@@ -303,8 +296,7 @@ GoldenrodDeptStoreRoofTeacherText:
 	line "billig!"
 
 	para "Ich habe soviel"
-	line "gekauft, dass"
-	cont "mein"
+	line "gekauft, dass mein"
 	cont "BEUTEL voll ist!"
 	done
 
@@ -312,11 +304,11 @@ GoldenrodDeptStoreRoofTeacherText:
 
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "Meine #mon"
-	line "sind immer para-"
-	cont "lysiert oder ver-"
-	cont "giftet, wenn es"
-	cont "darauf ankommt…"
+	text "Meine #mon sind"
+	line "immer paralysiert"
+	cont "oder vergiftet,"
+	cont "wenn es darauf"
+	cont "ankommt…"
 
 	para "Daher möchte ich"
 	line "HYPERHEILER"
@@ -369,8 +361,8 @@ BoughtDittoDollText:
 	done
 
 DittoDollSentText:
-	text "Ditto Doll"
-	line "was sent home."
+	text "Ditto Doll was"
+	line "sent home."
 	done
 
 BoughtMeowthDollText:
@@ -379,6 +371,6 @@ BoughtMeowthDollText:
 	done
 
 MeowthDollSentText:
-	text "Meowth Doll"
-	line "was sent home."
+	text "Meowth Doll was"
+	line "sent home."
 	done

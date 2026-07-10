@@ -2321,7 +2321,7 @@ ApricornBox:
 	db 0 ; default option
 
 .Text
-	text  " Rot   Bla"
+	text " Rot   Bla"
 	next1 "   ×     ×"
 	next1 " Gel   Grü"
 	next1 "   ×     ×"

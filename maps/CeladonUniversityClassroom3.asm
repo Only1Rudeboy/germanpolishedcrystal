@@ -47,19 +47,19 @@ CeladonUniversityClassroom3SparkText:
 CeladonUniversityClassroom3TeacherText:
 	text "Suchst du Spark?"
 
-	para "Er ist morgen"
-	line "früh wieder da."
+	para "Er ist morgen früh"
+	line "wieder da."
 	done
 
 CeladonUniversityClassroom3ChildText:
-	text "#mon in"
-	line "# Bällen werden"
-	cont "zu Lichtenergie,"
+	text "#mon in #"
+	line "Bällen werden zu"
+	cont "Lichtenergie,"
 
 	para "dann zurück in"
-	line "Materie verwan-"
-	cont "delt, wenn sie"
-	cont "rauskommen."
+	line "Materie"
+	cont "verwandelt, wenn"
+	cont "sie rauskommen."
 
 	para "Keine Sorge, das"
 	line "tut ihnen kein"

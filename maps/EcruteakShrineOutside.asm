@@ -34,7 +34,7 @@ EcruteakShrineOutsideHoothootText:
 EcruteakShrineOutsideSageText:
 	text "An Silvester"
 	line "besuchen Leute"
-	line "diesen Schrein"
+	cont "diesen Schrein"
 
 	para "und wünschen sich"
 	line "etwas für ihre"

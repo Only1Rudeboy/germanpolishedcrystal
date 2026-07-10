@@ -41,8 +41,8 @@ SoulHouseB3FMrFujiScript:
 	end
 
 .Text1:
-	text "MR. FUJI: Ach,"
-	line "du bist hierher"
+	text "MR. FUJI: Ach, du"
+	line "bist hierher"
 	cont "gekommen."
 
 	para "Nimm dieses"
@@ -51,8 +51,8 @@ SoulHouseB3FMrFujiScript:
 
 .Text2:
 	text "Benutze es, um"
-	line "ruhelose #-"
-	cont "mon-Seelen zu"
+	line "ruhelose"
+	cont "#mon-Seelen zu"
 	cont "beruhigen."
 	done
 

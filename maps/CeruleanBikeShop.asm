@@ -24,28 +24,25 @@ CeruleanBikeShopClerkText:
 	line "fuhr ein cooler"
 	cont "Junge"
 
-	para "mit meinem"
-	line "Fahrrad herum,"
+	para "mit meinem Fahrrad"
+	line "herum,"
 
 	para "löste einen"
 	line "Fahrradboom aus."
 
-	para "Dann eröffnete"
-	line "ich eine"
-	cont "Filiale in"
+	para "Dann eröffnete ich"
+	line "eine Filiale in"
 	cont "DUKATIA CITY."
 
-	para "Die gingen weg"
-	line "wie heiße"
-	cont "Semmeln!"
+	para "Die gingen weg wie"
+	line "heiße Semmeln!"
 
 	para "Aber in diesen"
 	line "Laden kommt"
 	cont "niemand mehr."
 
-	para "Übrig ist nur"
-	line "noch eine"
-	cont "Fahrradpumpe…"
+	para "Übrig ist nur noch"
+	line "eine Fahrradpumpe…"
 
 	para "Soll ich"
 	line "Schlauchboote"

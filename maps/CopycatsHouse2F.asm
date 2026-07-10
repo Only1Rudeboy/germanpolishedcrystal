@@ -180,8 +180,8 @@ CopycatRetortScript:
 	line "Das Nachahmen"
 	cont "aufgeben?"
 
-	para "Aber das ist"
-	line "meine liebste"
+	para "Aber das ist meine"
+	line "liebste"
 	cont "Beschäftigung!"
 	done
 CopycatWorriedScript:
@@ -195,13 +195,11 @@ CopycatWorriedScript:
 	text "NACHAHMERIN:"
 	line "Bitte?"
 
-	para "Ich soll dir"
-	line "nicht"
+	para "Ich soll dir nicht"
 	line "sagen, was du zu"
 	cont "tun hast?"
 
-	para "Aber ich mache"
-	line "mir"
+	para "Aber ich mache mir"
 	line "wirklich Sorgen…"
 	cont "Was, wenn jemand"
 	cont "sie findet?"
@@ -221,11 +219,11 @@ CopycatFoundLostItemScript:
 	line "Das ist meine"
 	cont "PIEPI-#PUPPE!"
 
-	para "Siehst du die"
-	line "Naht am rechten"
+	para "Siehst du die Naht"
+	line "am rechten"
 
-	para "Bein? Das ist"
-	line "der Beweis!"
+	para "Bein? Das ist der"
+	line "Beweis!"
 	done
 CopycatReturnedLostItemScript:
 	opentext
@@ -238,28 +236,22 @@ CopycatGivePassScript:
 	jumpthisopenedtext
 
 	text "NACHAHMERIN: Das"
-	line "ist der"
-	cont "FAHRSCHEIN"
-	cont "für den"
-	cont "MAGNETZUG."
+	line "ist der FAHRSCHEIN"
+	cont "für den MAGNETZUG."
 
 	para "Der Mann von der"
 	line "Eisenbahn gab mir"
 
-	para "das, als sie"
-	line "unser"
+	para "das, als sie unser"
 	line "altes Haus"
-	cont "nieder-"
-	cont "rissen, um den"
-	cont "BAHNHOF zu bauen."
+	cont "niederrissen, um"
+	cont "den BAHNHOF zu"
+	cont "bauen."
 	done
 .GivePassText:
-	text "Also gut. Hier"
-	line "ist"
-	line "der FAHRSCHEIN"
-	cont "für"
-	cont "den MAGNETZUG!"
-	cont "Wie"
+	text "Also gut. Hier ist"
+	line "der FAHRSCHEIN für"
+	cont "den MAGNETZUG! Wie"
 	cont "versprochen."
 	done
 CopycatFinalScript:
@@ -275,40 +267,37 @@ CopycatFinalScript:
 	done
 CopycatGreeting1Text:
 	text "<PLAYER>: Hi!"
-	line "Magst"
-	line "du #mon?"
+	line "Magst du #mon?"
 
 	para "<PLAYER>: Äh,"
-	line "nein,"
-	line "ich frage dich."
+	line "nein, ich frage"
+	cont "dich."
 
-	para "<PLAYER>: Was?"
-	line "Du bist komisch!"
+	para "<PLAYER>: Was? Du"
+	line "bist komisch!"
 	done
 CopycatLostDoll1Text:
-	text "<PLAYER>: Hi!"
-	line "Ich habe gehört,"
+	text "<PLAYER>: Hi! Ich"
+	line "habe gehört,"
 
 	para "dass du deine"
 	line "Lieblings-"
-	cont "#PUPPE"
-	cont "verloren hast."
+	cont "#PUPPE verloren"
+	cont "hast."
 
-	para "<PLAYER>: Gibst"
-	line "du"
+	para "<PLAYER>: Gibst du"
 	line "mir einen FAHR-"
 	cont "SCHEIN, wenn ich"
 	cont "sie finde?"
 
 	para "<PLAYER>: Ich"
-	line "suche"
-	line "sie für dich."
+	line "suche sie für"
+	cont "dich."
 
 	para "Du glaubst, sie"
 	line "auf dem Weg nach"
 	cont "ORANIA CITY"
-	cont "verloren zu"
-	cont "haben?"
+	cont "verloren zu haben?"
 	done
 CopycatThanks1Text:
 	text "<PLAYER>: Hi!"
@@ -329,21 +318,19 @@ CopycatGreeting2Text:
 
 	para "<PLAYER>: Nein,"
 	line "nicht ich. Ich"
-	cont "habe dich"
-	cont "gefragt."
+	cont "habe dich gefragt."
 
 	para "<PLAYER>: Bitte?"
 	line "Du bist seltsam!"
 	done
 CopycatLostDoll2Text:
-	text "<PLAYER>: Hi."
-	line "Hast du wirklich"
-	cont "deine #PUPPE"
+	text "<PLAYER>: Hi. Hast"
+	line "du wirklich deine"
+	cont "#PUPPE"
 	cont "verloren?"
 
-	para "<PLAYER>: Du"
-	line "gibst mir"
-	cont "wirklich"
+	para "<PLAYER>: Du gibst"
+	line "mir wirklich"
 
 	para "einen FAHRSCHEIN,"
 	line "falls ich sie"
@@ -353,27 +340,24 @@ CopycatLostDoll2Text:
 	line "ich halte die"
 	cont "Augen offen!"
 
-	para "Du denkst, du"
-	line "hast"
-	line "sie in ORANIA"
-	cont "CITY"
+	para "Du denkst, du hast"
+	line "sie in ORANIA CITY"
 	cont "verloren?"
 	done
 CopycatThanks2Text:
 	text "<PLAYER>: Danke"
-	line "für"
-	line "den FAHRSCHEIN!"
+	line "für den"
+	cont "FAHRSCHEIN!"
 
 	para "<PLAYER>: …Bitte?"
 
-	para "<PLAYER>: Macht"
-	line "es wirklich so"
+	para "<PLAYER>: Macht es"
+	line "wirklich so"
 
 	para "viel Spaß mir"
-	line "alles nachzu-"
-	cont "sprechen und"
-	cont "alles"
-	cont "nachzuahmen?"
+	line "alles"
+	cont "nachzusprechen und"
+	cont "alles nachzuahmen?"
 	done
 CopycatSpinMovement:
 rept 2

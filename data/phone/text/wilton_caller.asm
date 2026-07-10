@@ -1,8 +1,7 @@
 WiltonMonHasGrownText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "beeindruckend"
+	text " ist beeindruckend"
 
 	para "gewachsen! Meine"
 	line "Angelfähigkeiten"
@@ -17,8 +16,8 @@ WiltonDefeatedMonText:
 
 	para "Angeln macht mir"
 	line "mehr Spaß als"
-	cont "wilde"
-	cont "#mon schlagen."
+	cont "wilde #mon"
+	cont "schlagen."
 	done
 
 WiltonLostAMonText:
@@ -63,16 +62,15 @@ WiltonFoundItemText:
 
 WiltonHaventFoundAnythingText:
 	text "Nein, noch nichts"
-	line "gefunden, das"
-	cont "sich"
+	line "gefunden, das sich"
 
-	para "lohnt. Geduld"
-	line "ist nötig."
+	para "lohnt. Geduld ist"
+	line "nötig."
 	done
 
 WiltonNotBitingText:
-	text "Seufz…"
-	line "Sie beißen nicht"
+	text "Seufz… Sie beißen"
+	line "nicht"
 
 	para "mehr auf "
 	text_ram wStringBuffer5
@@ -82,14 +80,11 @@ WiltonNotBitingText:
 	done
 
 WiltonWantThisText:
-	text "Willst du das"
-	line "Item"
+	text "Willst du das Item"
 	line "nicht?"
 
 	para "Häh? Wo? "
 	text_ram wStringBuffer5
-	text "…"
-	line "Von Mahagonia"
-	cont "Richtung"
-	cont "Eispfad!"
+	text "… Von Mahagonia"
+	line "Richtung Eispfad!"
 	done

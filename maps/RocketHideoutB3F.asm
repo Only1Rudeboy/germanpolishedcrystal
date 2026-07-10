@@ -46,9 +46,8 @@ RocketHideoutB3FCosplayerLyric:
 RocketHideoutB3FCoolDudeDaric:
 	generictrainer COOLTRAINERM, DARIC, EVENT_BEAT_COOL_DUDE_DARIC, .SeenText, .BeatenText
 
-	text "Anführerin"
-	line "Blanche erwartet"
-	cont "nichts"
+	text "Anführerin Blanche"
+	line "erwartet nichts"
 
 	para "weniger als"
 	line "volle Einsatz-"
@@ -59,9 +58,8 @@ RocketHideoutB3FCoolDudeDaric:
 	text "Emotionen trüben"
 	line "das Urteil."
 
-	para "Mal sehen, ob"
-	line "dein Fokus"
-	cont "gut ist."
+	para "Mal sehen, ob dein"
+	line "Fokus gut ist."
 	done
 
 .BeatenText:

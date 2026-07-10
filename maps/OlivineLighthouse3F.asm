@@ -75,13 +75,12 @@ OlivineLighthouse3FBattleGirlEmy:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "Bruno von der"
-	line "TOP VIER ist ein"
+	text "Bruno von der TOP"
+	line "VIER ist ein"
 	cont "Kämpfer wie ich."
 
 	para "So stark wie er"
-	line "werden--mein"
-	cont "Ziel!"
+	line "werden--mein Ziel!"
 	done
 
 .IntroText:
@@ -115,9 +114,8 @@ OlivineLighthouse3FBattleGirlEmy:
 	done
 
 .RefusedText:
-	text "Dann trainiere"
-	line "ich allein"
-	cont "weiter…"
+	text "Dann trainiere ich"
+	line "allein weiter…"
 	done
 
 .SeenText:
@@ -142,14 +140,12 @@ OlivineLighthouse3FBattleGirlEmy:
 	cont "werden."
 
 	para "Mit diesen"
-	line "Schutz-"
-	line "polstern kannst"
-	cont "du"
+	line "Schutzpolstern"
+	cont "kannst du"
 
 	para "deinen Gegner"
 	line "berühren, ohne"
-	cont "Schaden zu"
-	cont "nehmen."
+	cont "Schaden zu nehmen."
 	done
 
 TrainerBird_keeperTheo:
@@ -168,8 +164,7 @@ Bird_keeperTheoScript:
 	para "Ich möchte das"
 	line "kranke #mon"
 
-	para "besuchen, aber"
-	line "ich"
+	para "besuchen, aber ich"
 	line "schaffe es nicht"
 	cont "bis nach oben…"
 	done
@@ -183,14 +178,14 @@ GenericTrainerGentlemanPreston:
 GenericTrainerSailorTerrell:
 	generictrainer SAILOR, TERRELL, EVENT_BEAT_SAILOR_TERRELL, SailorTerrellSeenText, SailorTerrellBeatenText
 
-	text "Jedes Mal wenn"
-	line "ich nach OLIVIANA"
+	text "Jedes Mal wenn ich"
+	line "nach OLIVIANA"
 
 	para "CITY komme, gehe"
 	line "ich in die PKMN-"
 
-	para "ARENA. Der #-"
-	line "MON-Typ der"
+	para "ARENA. Der"
+	line "#mon-Typ der"
 	cont "ARENA-"
 
 	para "LEITERIN hat sich"
@@ -227,9 +222,9 @@ Bird_keeperTheoFinalText:
 	done
 
 SailorTerrellSeenText:
-	text "Matrosen sind"
-	line "nett und stark."
-	cont "Wie bist du?"
+	text "Matrosen sind nett"
+	line "und stark. Wie"
+	cont "bist du?"
 	done
 
 

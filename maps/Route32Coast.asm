@@ -45,17 +45,16 @@ GenericTrainerSwimmermMichel:
 	done
 
 .SeenText:
-	text "Ich habe auf"
-	line "dich gewartet!"
+	text "Ich habe auf dich"
+	line "gewartet!"
 
-	para "Lass uns"
-	line "kämpfen! Jetzt!"
+	para "Lass uns kämpfen!"
+	line "Jetzt!"
 	done
 
 .BeatenText:
-	text "Ach, au!"
-	line "Ich habe einen"
-	cont "Krampf!"
+	text "Ach, au! Ich habe"
+	line "einen Krampf!"
 	done
 
 TrainerSwimmermLucas:
@@ -67,23 +66,22 @@ TrainerSwimmermLucas:
 
 	text "Regenbögen durch"
 	line "Sonnenlicht"
-	line "erscheinen"
+	cont "erscheinen"
 
 	para "der Sonne"
 	line "gegenüber am"
-	line "Himmel."
+	cont "Himmel."
 
-	para "Interessant,"
-	line "oder?"
+	para "Interessant, oder?"
 	done
 
 .SeenText:
 	text "Licht reflektiert"
 	line "und bricht in"
 
-	para "Wassertropfen"
-	line "und erzeugt"
-	cont "einen Regenbogen."
+	para "Wassertropfen und"
+	line "erzeugt einen"
+	cont "Regenbogen."
 	done
 
 .BeatenText:
@@ -94,8 +92,7 @@ TrainerSwimmermLucas:
 GenericTrainerSwimmerfAlison:
 	generictrainer SWIMMERF, ALISON, EVENT_BEAT_SWIMMERF_ALISON, .SeenText, .BeatenText
 
-	text "Ein…"
-	line "Aus…"
+	text "Ein… Aus…"
 
 	para "Ist das nicht"
 	line "erfrischend?"
@@ -143,8 +140,8 @@ TrainerBird_keeperPowell:
 	line "können Fliegen,"
 	cont "auch ohnmächtig,"
 
-	para "damit ich"
-	line "nach Hause komm."
+	para "damit ich nach"
+	line "Hause komm."
 
 	para "Praktisch, oder?"
 	done
@@ -176,9 +173,8 @@ GenericTrainerCosplayerChloe:
 	done
 
 .BeatenText:
-	text "Das war wohl"
-	line "nicht sehr"
-	cont "effektiv…"
+	text "Das war wohl nicht"
+	line "sehr effektiv…"
 	done
 
 GenericTrainerFisherKiley:
@@ -198,9 +194,8 @@ GenericTrainerFisherKiley:
 	done
 
 .BeatenText:
-	text "Uff. Diesmal"
-	line "hatte ich kein"
-	cont "Glück."
+	text "Uff. Diesmal hatte"
+	line "ich kein Glück."
 	done
 
 GenericTrainerCamperCraig:
@@ -210,13 +205,13 @@ GenericTrainerCamperCraig:
 	line "außerhalb des"
 	cont "Zelts!"
 
-	para "Also raus und"
-	line "viel Spaß haben!"
+	para "Also raus und viel"
+	line "Spaß haben!"
 	done
 
 .SeenText:
-	text "Nichts schlägt"
-	line "die Natur!"
+	text "Nichts schlägt die"
+	line "Natur!"
 	done
 
 .BeatenText:
@@ -229,9 +224,9 @@ GenericTrainerLassLayla:
 	generictrainer LASS, LAYLA, EVENT_BEAT_LASS_LAYLA, .SeenText, .BeatenText
 
 	text "Wenn du einen"
-	line "Wunsch sagst,"
-	cont "geht er nicht"
-	cont "in Erfüllung!"
+	line "Wunsch sagst, geht"
+	cont "er nicht in"
+	cont "Erfüllung!"
 	done
 
 .SeenText:
@@ -242,23 +237,22 @@ GenericTrainerLassLayla:
 
 .BeatenText:
 	text "Sag mir deinen"
-	line "Wunsch aber"
-	line "nicht!"
+	line "Wunsch aber nicht!"
 	done
 
 GenericTrainerCoupleFoxandrae1:
 	generictrainer COUPLE, FOXANDRAE1, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Fox: Unser Team-"
-	line "work als Paar"
+	text "Fox: Unser"
+	line "Teamwork als Paar"
 	cont "reichte diesmal"
 	cont "nicht."
 	done
 
 .SeenText:
 	text "Fox: Komm schon,"
-	line "Rae,"
-	line "lass uns kämpfen!"
+	line "Rae, lass uns"
+	cont "kämpfen!"
 	done
 
 .BeatenText:
@@ -270,21 +264,21 @@ GenericTrainerCoupleFoxandrae2:
 	generictrainer COUPLE, FOXANDRAE2, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
 	text "Rae: Wir haben"
-	line "verloren, aber"
-	cont "wir sind noch ein"
+	line "verloren, aber wir"
+	cont "sind noch ein"
 	cont "glückliches Paar."
 	done
 
 .SeenText:
-	text "Rae: Hey Fox,"
-	line "wie wär's mit"
-	cont "einem Kampf?"
+	text "Rae: Hey Fox, wie"
+	line "wär's mit einem"
+	cont "Kampf?"
 	done
 
 .BeatenText:
 	text "Rae: Wie konntest"
 	line "du Fox und mich"
-	line "schlagen?"
+	cont "schlagen?"
 	done
 
 Route32CoastLassText:
@@ -312,8 +306,7 @@ Route32CoastTrainerTipsText:
 	line "Aufheber kann"
 
 	para "nach einem Kampf"
-	line "ein Item"
-	line "halten!"
+	line "ein Item halten!"
 	done
 
 Route32CoastUnionCaveSignText:

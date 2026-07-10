@@ -128,8 +128,8 @@ CeladonUniversityClassroom1ImakuniScript:
 
 .Text4:
 	text "Auch wenn ich"
-	line "verlor, ist das"
-	cont "so schlimm?"
+	line "verlor, ist das so"
+	cont "schlimm?"
 	done
 
 .Text5:
@@ -225,8 +225,8 @@ CeladonUniversityClassroom1Bookshelf1Text:
 
 CeladonUniversityClassroom1Bookshelf2Text:
 	text "Eine Broschüre"
-	line "über Kunst aus"
-	cont "dem Seegrasulb-"
+	line "über Kunst aus dem"
+	cont "Seegrasulb-"
 
 	para "Museum."
 	done

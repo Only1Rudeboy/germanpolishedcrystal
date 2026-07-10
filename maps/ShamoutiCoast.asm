@@ -27,12 +27,11 @@ GenericTrainerArtistRin:
 	generictrainer ARTIST, RIN, EVENT_BEAT_ARTIST_RIN, .SeenText, .BeatenText
 
 	text "Von diesen Inseln"
-	line "geht eine"
-	cont "seltsame Kraft"
-	cont "aus."
+	line "geht eine seltsame"
+	cont "Kraft aus."
 
-	para "Ich möchte das"
-	line "in meinem Bild"
+	para "Ich möchte das in"
+	line "meinem Bild"
 	cont "festhalten."
 	done
 
@@ -40,16 +39,14 @@ GenericTrainerArtistRin:
 	text "Ich male die drei"
 	line "Inseln!"
 
-	para "Bitte versperr"
-	line "mir nicht die"
-	cont "Sicht!"
+	para "Bitte versperr mir"
+	line "nicht die Sicht!"
 	done
 
 .BeatenText:
 	text "Ich kann nicht"
-	line "gleichzeitig"
-	cont "malen und"
-	cont "kämpfen."
+	line "gleichzeitig malen"
+	cont "und kämpfen."
 	done
 
 TrainerSwimmerfMarina:
@@ -84,9 +81,8 @@ TrainerSwimmerfMarina:
 GenericTrainerFisherDallas:
 	generictrainer FISHER, DALLAS, EVENT_BEAT_FISHER_DALLAS, .SeenText, .BeatenText
 
-	text "Egal wo ich"
-	line "angle, ich hole"
-	cont "immer nur"
+	text "Egal wo ich angle,"
+	line "ich hole immer nur"
 	cont "Kronkorken raus."
 
 	para "Das macht mich"
@@ -99,8 +95,8 @@ GenericTrainerFisherDallas:
 	done
 
 .BeatenText:
-	text "Hm? Oh, du nicht--"
-	line "du bist in"
+	text "Hm? Oh, du"
+	line "nicht-du bist in"
 	cont "Ordnung."
 	done
 
@@ -119,9 +115,8 @@ GenericTrainerSightseerfPilar:
 	done
 
 .SeenText:
-	text "Hallo! Ich bin"
-	line "von weit her"
-	cont "gekommen."
+	text "Hallo! Ich bin von"
+	line "weit her gekommen."
 
 	para "Wie wäre es mit"
 	line "einem Kampf?"
@@ -142,9 +137,8 @@ GenericTrainerSightseersCyandvi1:
 	done
 
 .SeenText:
-	text "Cy: Lust auf"
-	line "einen kleinen"
-	cont "Kampf?"
+	text "Cy: Lust auf einen"
+	line "kleinen Kampf?"
 	done
 
 .BeatenText:
@@ -166,9 +160,8 @@ GenericTrainerSightseersCyandvi2:
 	done
 
 .BeatenText:
-	text "Vi: Tja, das"
-	line "war's dann"
-	cont "wohl."
+	text "Vi: Tja, das war's"
+	line "dann wohl."
 	done
 
 TrainerSwimmermAshe:
@@ -183,21 +176,19 @@ TrainerSwimmermAshe:
 	cont "gar nicht"
 	cont "schwimmen."
 
-	para "Jetzt mache ich"
-	line "es so oft, dass"
-	cont "ich mich kaum"
-	cont "noch an früher"
-	cont "erinnere. Haha!"
+	para "Jetzt mache ich es"
+	line "so oft, dass ich"
+	cont "mich kaum noch an"
+	cont "früher erinnere."
+	cont "Haha!"
 	done
 
 .SeenText:
 	text "Schwimmen? Ich?"
-	line "Ja, das liebe"
-	cont "ich."
+	line "Ja, das liebe ich."
 	done
 
 .BeatenText:
-	text "Ich habe da so"
-	line "ein flaues"
-	cont "Gefühl…"
+	text "Ich habe da so ein"
+	line "flaues Gefühl…"
 	done

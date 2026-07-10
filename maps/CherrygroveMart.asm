@@ -33,8 +33,8 @@ CherrygroveMartCooltrainerMScript:
 	line "sind gerade"
 	cont "ausverkauft!"
 
-	para "Wann bekommen"
-	line "sie wohl neue?"
+	para "Wann bekommen sie"
+	line "wohl neue?"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
@@ -52,14 +52,12 @@ CherrygroveMartYoungsterText:
 	para "hat ein Käfer-"
 	line "#mon mein"
 
-	para "#mon ver-"
-	line "giftet!"
+	para "#mon vergiftet!"
 
 	para "Ich ging einfach"
 	line "weiter, aber dann"
-	cont "wurde mein #-"
-	cont "MON plötzlich be-"
-	cont "siegt."
+	cont "wurde mein #mon"
+	cont "plötzlich besiegt."
 
 	para "Du solltest stän-"
 	line "dig ein GEGENGIFT"

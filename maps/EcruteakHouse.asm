@@ -110,8 +110,7 @@ EcruteakTinTowerEntranceSageScript:
 	line "Augenblick."
 
 	para "Entschuldigung,"
-	line "aber ich muss"
-	cont "dich"
+	line "aber ich muss dich"
 	cont "bitten zu gehen."
 
 	para "…Was lindert"
@@ -121,8 +120,8 @@ EcruteakTinTowerEntranceSageScript:
 	line "WEISEN sagt stets"
 
 	para "Dinge, die sehr"
-	line "schwierig zu ver-"
-	cont "stehen sind…"
+	line "schwierig zu"
+	cont "verstehen sind…"
 	done
 .RingClearBell:
 	writetext EcruteakTinTowerEntranceSageText_HearsClearBell
@@ -141,8 +140,7 @@ EcruteakTinTowerEntranceWanderingSageScript:
 
 	text "Der Glockenturm"
 	line "dort ist ein"
-	cont "neun-"
-	cont "stöckiger Turm"
+	cont "neunstöckiger Turm"
 
 	para "von göttlicher"
 	line "Schönheit."
@@ -177,9 +175,8 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 
 	para "Ah!"
 
-	para "Der Orden von"
-	line "TEAK CITY! Bitte,"
-	cont "geh"
+	para "Der Orden von TEAK"
+	line "CITY! Bitte, geh"
 	cont "einfach durch."
 	done
 
@@ -222,8 +219,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	line "vielleicht durch"
 	cont "den Glockenturm."
 
-	para "Bitte, geh"
-	line "weiter."
+	para "Bitte, geh weiter."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
@@ -241,8 +237,7 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	line "vielleicht durch"
 	cont "den Glockenturm."
 
-	para "Bitte, geh"
-	line "weiter."
+	para "Bitte, geh weiter."
 	done
 
 
@@ -256,15 +251,14 @@ EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Zwei Türme…"
-	line "Zwei #mon…"
+	text "Zwei Türme… Zwei"
+	line "#mon…"
 
 	para "Aber als einer"
 	line "niederbrannte,"
 
-	para "flogen beide #-"
-	line "MON fort und"
-	cont "kamen"
-	cont "nie wieder"
+	para "flogen beide"
+	line "#mon fort und"
+	cont "kamen nie wieder"
 	cont "zurück."
 	done

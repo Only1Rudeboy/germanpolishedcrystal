@@ -97,8 +97,7 @@ GiovannisCaveRadioScript:
 
 	text "Hier steht ein"
 	line "Radio, das nicht"
-	cont "mehr"
-	cont "funktioniert…"
+	cont "mehr funktioniert…"
 	done
 
 GiovannisCaveRadioAfterTimeTravelText:
@@ -159,8 +158,7 @@ GiovannisCaveGiovanniIntroText:
 	line "warum du hierher"
 
 	para "gekommen bist,"
-	line "aber ich muss"
-	cont "dich"
+	line "aber ich muss dich"
 
 	para "warnen: Das ist"
 	line "kein Ort für Kids"
@@ -189,14 +187,13 @@ GiovannisCaveGiovanniMemoriesText:
 	cont "unsere"
 
 	para "Probleme von"
-	line "Anfang an verur-"
-	cont "sacht!"
+	line "Anfang an"
+	cont "verursacht!"
 
 	para "…"
 
 	para "Ich bin auf dem"
-	line "Weg"
-	line "nach Dukatia"
+	line "Weg nach Dukatia"
 	cont "City,"
 
 	para "um dem Ruf zu"
@@ -206,8 +203,8 @@ GiovannisCaveGiovanniMemoriesText:
 	line "treffen."
 
 	para "Willst du mir"
-	line "wieder in den"
-	cont "Weg kommen?"
+	line "wieder in den Weg"
+	cont "kommen?"
 	done
 
 GiovannisCaveLyraQuestionsText:
@@ -232,28 +229,24 @@ GiovannisCaveLyraRecognizesGiovanniText:
 	done
 
 GiovannisCaveBroadcastText:
-	text "“… …Ähem, wir"
-	line "sind"
-	line "Team Rocket!"
-	cont "Nach drei Jahren"
+	text "“… …Ähem, wir sind"
+	line "Team Rocket! Nach"
+	cont "drei Jahren"
 	cont "Vorbereitung sind"
 	cont "wir aus der Asche"
 	cont "auferstanden!"
-	cont "Giovanni! Hörst"
-	cont "du"
+	cont "Giovanni! Hörst du"
 	cont "uns? Wir haben es"
 	cont "geschafft! Wo ist"
 	cont "unser Boss? Hört"
-	cont "er"
-	cont "zu?”"
+	cont "er zu?”"
 
 	para "Lyra: Team Rocket"
 	line "hat gerade den"
 
 	para "Funkturm besetzt…"
 
-	para "Du bist dort,"
-	line "aber"
+	para "Du bist dort, aber"
 	line "auch hier…"
 	done
 
@@ -302,23 +295,20 @@ GiovannisCaveGiovanniAfterText:
 	para "Wie kann ein Kind"
 	line "wie du meinen"
 
-	para "Traum schon"
-	line "wieder"
+	para "Traum schon wieder"
 	line "zerstören?"
 	done
 
 GiovannisCaveBroadcastAfterText:
 	text "“… …Hey! Wo ist"
-	line "Giovanni hin?"
-	cont "Ob er unseren"
-	cont "Sendung zuhört…"
-	cont "…”"
+	line "Giovanni hin? Ob"
+	cont "er unseren Sendung"
+	cont "zuhört… …”"
 	done
 
 GiovannisCaveLyraFeelsSorryText:
 	text "Lyra: Sie rufen"
-	line "ständig nach"
-	cont "ihrem"
+	line "ständig nach ihrem"
 	cont "Boss."
 
 	para "Es tut mir leid,"

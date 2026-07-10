@@ -160,9 +160,8 @@ NewBarkTownTeacherScript:
 	iftrue_jumptextfaceplayer Text_YourMonIsAdorable
 	jumpthistextfaceplayer
 
-	text "Hier weht immer"
-	line "so eine"
-	cont "erfrischende"
+	text "Hier weht immer so"
+	line "eine erfrischende"
 	cont "Brise."
 	done
 
@@ -245,9 +244,8 @@ Movement_LyraSaysGoodbye3_NBT:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, dein #COM"
-	line "ist"
-	cont "beeindruckend!"
+	text "Wow, dein #Com"
+	line "ist beeindruckend!"
 
 	para "Hast du den von"
 	line "Mama bekommen?"
@@ -277,11 +275,9 @@ Text_WhatDoYouThinkYoureDoing:
 
 
 Text_ItsDangerousToGoAlone:
-	text "Es ist"
-	line "gefährlich,"
+	text "Es ist gefährlich,"
 	line "ohne #mon das"
-	cont "Haus zu"
-	cont "verlassen!"
+	cont "Haus zu verlassen!"
 
 	para "Auf dem Weg zur"
 	line "nächsten Stadt"
@@ -301,10 +297,8 @@ Text_YourMonIsAdorable:
 	text "Ach! Dein #mon"
 	line "ist bezaubernd!"
 
-	para "Ich wünschte,"
-	line "ich"
-	line "hätte auch"
-	cont "eines."
+	para "Ich wünschte, ich"
+	line "hätte auch eines."
 	done
 
 
@@ -317,8 +311,7 @@ Text_TellMomIfLeaving:
 	line "Du gehst schon?"
 
 	para "Gib deiner Mama"
-	line "Bescheid, wenn"
-	cont "du"
+	line "Bescheid, wenn du"
 	cont "gehst."
 	done
 
@@ -328,9 +321,8 @@ Text_TellMomIfLeaving:
 
 
 Text_CallMomOnGear:
-	text "Ruf deine Mama"
-	line "mit"
-	line "dem #COM an,"
+	text "Ruf deine Mama mit"
+	line "dem #Com an,"
 
 	para "damit sie weiß,"
 	line "was du machst."
@@ -382,56 +374,47 @@ Text_LyraIntro:
 	text "Lyra: Oh, hallo"
 	line "<PLAYER>!"
 
-	para "Ich war vorhin"
-	line "bei"
+	para "Ich war vorhin bei"
 	line "dir zu Hause,"
 
-	para "aber du hast"
-	line "noch"
+	para "aber du hast noch"
 	line "geschlafen."
 
 	para "Ich helfe"
 	line "Prof.Lind"
-	line "manchmal, weißt"
+	cont "manchmal, weißt"
 
 	para "du noch? Er"
-	line "startet"
-	line "neue #mon-"
+	line "startet neue"
+	cont "#mon-"
 
 	para "Forschung und"
-	line "möchte,"
-	line "dass wir beide"
+	line "möchte, dass wir"
+	cont "beide"
 
-	para "helfen. Komm,"
-	line "wir"
-	line "schauen mal"
-	cont "nach!"
+	para "helfen. Komm, wir"
+	line "schauen mal nach!"
 	done
 Text_LyraGoodbye1:
 	text "Lyra: <PLAYER>!"
 
 	para "Ich habe gehört,"
-	line "du"
-	line "hast alle Orden"
-	cont "in"
-	cont "Johto."
+	line "du hast alle Orden"
+	cont "in Johto."
 
-	para "…Du bist"
-	line "wirklich"
-	line "etwas"
-	cont "Besonderes,"
+	para "…Du bist wirklich"
+	line "etwas Besonderes,"
 	cont "<PLAYER>."
 
 	para "Dass wir beide"
-	line "hier"
-	line "unsere Reise"
+	line "hier unsere Reise"
 
 	para "begonnen haben…"
 	line ""
 
 	para "Ich helfe"
-	line "Prof.Lind"
-	line "so gut ich kann,"
+	line "Prof.Lind so gut"
+	cont "ich kann,"
 
 	para "aber gegen den"
 	line "Liga-Champion"
@@ -443,34 +426,29 @@ Text_LyraGoodbye1:
 	line ""
 
 	para "Wie wäre es mit"
-	line "noch einem"
-	cont "Kampf?"
+	line "noch einem Kampf?"
 
 	para "Ich will sehen,"
-	line "was"
-	line "für ein Trainer"
-	cont "du"
+	line "was für ein"
+	cont "Trainer du"
 	cont "geworden bist!"
 	done
 Text_LyraGoodbyeWin:
 	text "Du bist so"
-	line "talentiert"
-	line "wie ich erwartet"
-	cont "habe!"
+	line "talentiert wie ich"
+	cont "erwartet habe!"
 	done
 Text_LyraGoodbyeLoss:
 	text "Hoffentlich hast"
-	line "du"
-	line "mich nicht"
-	cont "gewähren"
-	cont "lassen…"
+	line "du mich nicht"
+	cont "gewähren lassen…"
 	done
 Text_LyraGoodbye2:
 	text "…Danke, <PLAYER>."
 
 	para "Man merkt, wie"
-	line "viel"
-	line "Arbeit und Liebe"
+	line "viel Arbeit und"
+	cont "Liebe"
 
 	para "du in deine"
 	line "#mon gesteckt"
@@ -489,10 +467,9 @@ Text_LyraGoodbye2:
 NewBarkTownSignText:
 	text "Neuborkia"
 
-	para "Die Stadt, in"
-	line "der"
-	line "der Wind der Er-"
-	cont "neuerung weht"
+	para "Die Stadt, in der"
+	line "der Wind der"
+	cont "Erneuerung weht"
 	done
 
 

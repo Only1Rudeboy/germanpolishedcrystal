@@ -113,27 +113,23 @@ MoltresText:
 
 CinnabarVolcanoB2FLawrenceSpeechText:
 	text "Lawrence: Hallo"
-	line "wieder,"
-	line "<PLAYER>."
+	line "wieder, <PLAYER>."
 
 	para "Du suchst hier"
 	line "also auch nach"
-	line "LAVADOS?"
-	cont "Habe ich dich"
-	cont "inspiriert?"
+	cont "LAVADOS? Habe ich"
+	cont "dich inspiriert?"
 
-	para "…Was?! Du hast"
-	line "es schon"
-	line "gefangen?"
+	para "…Was?! Du hast es"
+	line "schon gefangen?"
 	cont "Unmöglich."
 
-	para "Ich habe Jahre"
-	line "in der Sieges-"
-	line "straße und auf"
+	para "Ich habe Jahre in"
+	line "der Siegesstraße"
+	cont "und auf"
 
-	para "den Inseln süd-"
-	line "lich von Kanto"
-	cont "gejagt…"
+	para "den Inseln südlich"
+	line "von Kanto gejagt…"
 
 	para "Warum hast du"
 	line "Erfolg, wo ich"
@@ -141,7 +137,7 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 
 	para "Kannst du die"
 	line "Majestät der"
-	line "geflügelten"
+	cont "geflügelten"
 	cont "Trugbilder"
 	cont "würdigen?"
 
@@ -154,14 +150,13 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 	line "inakzeptabel."
 
 	para "Triff mich am"
-	line "zerstörten"
-	cont "Schrein"
+	line "zerstörten Schrein"
 	cont "auf"
 	cont "Shamouti-Insel."
 
 	para "Ich zeige dir,"
 	line "dass ich diese"
-	line "#mon verdient"
+	cont "#mon verdient"
 	cont "habe."
 	done
 

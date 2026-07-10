@@ -89,8 +89,8 @@ CeladonUniversityCafeteriaCoreyScript:
 	para "Lass mich zeigen,"
 	line "wie wir den Titel"
 
-	para "mit einem"
-	line "Kampf verdienten!"
+	para "mit einem Kampf"
+	line "verdienten!"
 	done
 
 .IntroText2:
@@ -270,9 +270,8 @@ CeladonUniversityCafeteriaBakerScript:
 	done
 
 .Text3:
-	text "Heute gibt's"
-	line "keine Überreste"
-	cont "mehr."
+	text "Heute gibt's keine"
+	line "Überreste mehr."
 	done
 
 .Text4:

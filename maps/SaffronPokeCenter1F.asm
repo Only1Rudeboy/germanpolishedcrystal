@@ -25,8 +25,8 @@ PokemonJournalSabrinaScript:
 
 	text "#mon Journal"
 
-	para "Spezial:"
-	line "Leiter Sabrina!"
+	para "Spezial: Leiter"
+	line "Sabrina!"
 
 	para "Man sagt, Sabrina"
 	line "kann im Kampf"
@@ -46,19 +46,16 @@ SaffronPokeCenter1FFisherScript:
 	line "durch den FELS-"
 	cont "TUNNEL gekommen."
 
-	para "Da war"
-	line "irgendetwas"
+	para "Da war irgendetwas"
 	line "im Gange beim"
 	cont "KRAFTWERK."
 	done
 .Text2:
-	text "Die Höhlen"
-	line "stürzen"
+	text "Die Höhlen stürzen"
 	line "leicht ein."
 
 	para "In letzter Zeit"
-	line "sind einige"
-	cont "Höhlen"
+	line "sind einige Höhlen"
 
 	para "verschwunden. Wie"
 	line "die Höhle vor"
@@ -74,14 +71,12 @@ SaffronPokeCenter1FTeacherText:
 	cont "JOHTO aus?"
 
 	para "…Oh, aha. Sie"
-	line "unterscheiden"
-	cont "sich"
+	line "unterscheiden sich"
 
-	para "kaum von denen"
-	line "in KANTO."
+	para "kaum von denen in"
+	line "KANTO."
 
-	para "Ich kann also"
-	line "nach"
+	para "Ich kann also nach"
 	line "JOHTO gehen, ohne"
 	cont "mich zu sorgen!"
 	done
@@ -90,8 +85,7 @@ SaffronPokeCenter1FYoungsterText:
 	line "SILPH CO. und der"
 
 	para "MAGNETZUG-BAHNHOF"
-	line "sind"
-	cont "sehenswürdige"
+	line "sind sehenswürdige"
 
 	para "Orte in SAFFRONIA"
 	line "CITY."

@@ -37,8 +37,7 @@ AdminRangiText:
 	cont "Spiel!"
 
 	para "Wir hatten Mühe,"
-	line "alle Daten für"
-	cont "es"
+	line "alle Daten für es"
 	cont "unterzubringen."
 
 	para "Es gab kaum noch"
@@ -49,8 +48,8 @@ AdminRangiText:
 RangiComputerScript:
 	jumpthistext
 
-	text "Optimieren…"
-	line "blinkt auf dem"
+	text "Optimieren… blinkt"
+	line "auf dem"
 	cont "Bildschirm."
 
 	para "Es scheint eine"
@@ -59,9 +58,8 @@ RangiComputerScript:
 
 AdminLunaText:
 	text "Luna: Warst du"
-	line "beim"
-	line "ersten Mal per"
-	cont "Wunder-Tausch"
+	line "beim ersten Mal"
+	cont "per Wunder-Tausch"
 
 	para "mit jemand aus"
 	line "einer anderen"
@@ -70,19 +68,16 @@ AdminLunaText:
 
 	para "Ich habe das"
 	line "ursprüngliche"
-	cont "System direkt"
-	cont "hier in Dukatia"
-	cont "gebaut!"
+	cont "System direkt hier"
+	cont "in Dukatia gebaut!"
 	done
 
 LunaComputerScript:
 	jumpthistext
 
 	text "Ein Bildschirm"
-	line "voller"
-	line "dichter Notizen"
-	cont "und"
-	cont "Karten"
+	line "voller dichter"
+	cont "Notizen und Karten"
 
 	para "unbekannter Orte"
 	line "und ein"
@@ -93,8 +88,7 @@ LunaComputerScript:
 	done
 
 AdminFredrikText:
-	text "Fredrik: Bills"
-	line "PC-"
+	text "Fredrik: Bills PC-"
 	line "#mon-Lagerungs-"
 	cont "System ist"
 	cont "quelloffen,"
@@ -110,8 +104,8 @@ FredrikComputerScript:
 	jumpthistext
 
 	text "Ein Dutzend"
-	line "Fenster"
-	line "sind gleichzeitig"
+	line "Fenster sind"
+	cont "gleichzeitig"
 	cont "offen,"
 
 	para "jedes zu einer"
@@ -119,8 +113,7 @@ FredrikComputerScript:
 	done
 
 AdminEmiText:
-	text "Emi: Hast du"
-	line "schon"
+	text "Emi: Hast du schon"
 	line "die Daten deines"
 	cont "#mon gesehen?"
 
@@ -131,8 +124,7 @@ AdminEmiText:
 	line "Oberflächen nach"
 	cont "Johto!"
 
-	para "Sag Hallo, wenn"
-	line "du"
+	para "Sag Hallo, wenn du"
 	line "mal in Amethyst"
 	cont "Town bist!"
 	done
@@ -140,8 +132,7 @@ AdminEmiText:
 EmiComputerScript:
 	jumpthistext
 
-	text "Viel Code wird"
-	line "von"
+	text "Viel Code wird von"
 	line "einem Solitär-"
 	cont "Spiel verdeckt."
 	done
@@ -164,9 +155,8 @@ AizawaComputerScript:
 	jumpthistext
 
 	text "Ein Programm"
-	line "namens"
-	line "Polished Map++"
-	cont "zeigt eine"
+	line "namens Polished"
+	cont "Map++ zeigt eine"
 
 	para "halb gezeichnete"
 	line "tropische Insel."
@@ -174,13 +164,12 @@ AizawaComputerScript:
 
 AdminVulcanText:
 	text "Vulcan: Wie ist"
-	line "das"
-	line "Wetter?"
+	line "das Wetter?"
 
 	para "Das ist kein"
-	line "leeres"
-	line "Geschwätz… Ich"
-	cont "hab's umgesetzt!"
+	line "leeres Geschwätz…"
+	cont "Ich hab's"
+	cont "umgesetzt!"
 
 	para "Wir dachten, es"
 	line "ging nicht…"
@@ -202,8 +191,7 @@ VulcanComputerScript:
 	done
 
 AdminSourText:
-	text "Sour: Wie"
-	line "gefallen"
+	text "Sour: Wie gefallen"
 	line "dir die Attack-"
 	cont "Animationen im"
 	cont "Kampf?"

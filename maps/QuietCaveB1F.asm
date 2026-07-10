@@ -53,8 +53,8 @@ QuietCaveB1FNurseKeikoScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "Sieh mal, wie"
-	line "fit deine #mon"
+	text "Sieh mal, wie fit"
+	line "deine #mon"
 	cont "wieder sind!"
 	done
 
@@ -62,14 +62,14 @@ QuietCaveB1FNurseKeikoScript:
 	text "Brauchst du eine"
 	line "Schwester?"
 
-	para "Klar, wenn du"
-	line "mich besiegst,"
-	cont "heile ich dich!"
+	para "Klar, wenn du mich"
+	line "besiegst, heile"
+	cont "ich dich!"
 	done
 
 .BeatenText:
-	text "Brauchst du wirk-"
-	line "lich Heilung?"
+	text "Brauchst du"
+	line "wirklich Heilung?"
 	done
 
 .AfterText:
@@ -81,9 +81,8 @@ QuietCaveB1FNurseKeikoScript:
 GenericTrainerBattleGirlKagami:
 	generictrainer BATTLE_GIRL, KAGAMI, EVENT_BEAT_BATTLE_GIRL_KAGAMI, BattleGirlKagamiSeenText, BattleGirlKagamiBeatenText
 
-	text "Ich komme"
-	line "hierher, um in"
-	cont "Ruhe und"
+	text "Ich komme hierher,"
+	line "um in Ruhe und"
 	cont "Einsamkeit zu"
 	cont "trainieren."
 	done
@@ -91,9 +90,8 @@ GenericTrainerBattleGirlKagami:
 GenericTrainerPokemaniacAidan:
 	generictrainer POKEMANIAC, AIDAN, EVENT_BEAT_POKEMANIAC_AIDAN, PokemaniacAidanSeenText, PokemaniacAidanBeatenText
 
-	text "Manchmal kennt"
-	line "ein #mon"
-	cont "in einer"
+	text "Manchmal kennt ein"
+	line "#mon in einer"
 
 	para "bestimmten Gegend"
 	line "eine seltene"
@@ -105,12 +103,11 @@ GenericTrainerHikerSteve:
 
 	text "Höhlenforschung"
 	line "heißt auch"
-	cont "Spelun-"
-	cont "king."
+	cont "Spelunking."
 
 	para "Das bedeutet,"
-	line "Höhlen zu erkun-"
-	cont "den!"
+	line "Höhlen zu"
+	cont "erkunden!"
 	done
 
 GenericTrainerPsychicVirgil:
@@ -122,8 +119,8 @@ GenericTrainerPsychicVirgil:
 	done
 
 BattleGirlKagamiSeenText:
-	text "Stör mein"
-	line "Training nicht!"
+	text "Stör mein Training"
+	line "nicht!"
 	done
 
 BattleGirlKagamiBeatenText:
@@ -133,8 +130,7 @@ BattleGirlKagamiBeatenText:
 PokemaniacAidanSeenText:
 	text "Meine #mon!"
 
-	para "Ich zeige sie"
-	line "dir!"
+	para "Ich zeige sie dir!"
 	done
 
 PokemaniacAidanBeatenText: ; text > text
@@ -159,7 +155,6 @@ PsychicVirgilSeenText:
 	done
 
 PsychicVirgilBeatenText:
-	text "Warum muss"
-	line "Kämpfen"
+	text "Warum muss Kämpfen"
 	line "so laut sein?"
 	done

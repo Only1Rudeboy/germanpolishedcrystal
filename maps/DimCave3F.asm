@@ -78,8 +78,7 @@ GenericTrainerEngineerHugo:
 
 .BeatenText:
 	text "Ach, du hast"
-	line "gerade"
-	line "einen Fels"
+	line "gerade einen Fels"
 	cont "geschoben!"
 	done
 
@@ -92,8 +91,7 @@ GenericTrainerBlackbeltTakeo:
 	done
 
 .SeenText:
-	text "Ich trainiere"
-	line "hier"
+	text "Ich trainiere hier"
 	line "allein mit meinen"
 	cont "#mon."
 
@@ -102,9 +100,8 @@ GenericTrainerBlackbeltTakeo:
 	done
 
 .BeatenText:
-	text "Ich brauche"
-	line "noch mehr"
-	cont "Training…"
+	text "Ich brauche noch"
+	line "mehr Training…"
 	done
 
 GenericTrainerHikerFloyd:
@@ -114,8 +111,7 @@ GenericTrainerHikerFloyd:
 	line "verloren hier!"
 
 	para "Ich sollte lieber"
-	line "draußen"
-	cont "wandern."
+	line "draußen wandern."
 	done
 
 .SeenText:
@@ -127,8 +123,7 @@ GenericTrainerHikerFloyd:
 	done
 
 .BeatenText:
-	text "Von so einem"
-	line "Kind"
+	text "Von so einem Kind"
 	line "besiegt!"
 	done
 
@@ -140,13 +135,12 @@ DimCave3FPokefanmScript:
 	iftrue_jumpopenedtext .YesText
 	jumpthisopenedtext
 
-	text "Was?! Hast du"
-	line "eine Karte?"
+	text "Was?! Hast du eine"
+	line "Karte?"
 	done
 
 .QuestionText:
-	text "Bist du"
-	line "verloren?"
+	text "Bist du verloren?"
 	done
 
 .YesText:
@@ -156,6 +150,5 @@ DimCave3FPokefanmScript:
 	line "stört meinen"
 
 	para "Kompass, und ich"
-	line "habe keine"
-	cont "Karte."
+	line "habe keine Karte."
 	done

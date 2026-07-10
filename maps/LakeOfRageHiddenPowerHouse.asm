@@ -58,17 +58,16 @@ HiddenPowerGuy:
 	jumpthisopenedtext
 
 	text "Ein EI hat noch"
-	line "keine Kraft-"
-	cont "reserve"
+	line "keine Kraftreserve"
 	cont "entwickelt…"
 	done
 
 .Text1:
-	text "…Du bist viel he-"
-	line "rumgekommen…"
+	text "…Du bist viel"
+	line "herumgekommen…"
 
-	para "Ich habe hier me-"
-	line "ditiert. In mir"
+	para "Ich habe hier"
+	line "meditiert. In mir"
 
 	para "ist eine neue"
 	line "Kraft zum Leben"
@@ -88,10 +87,9 @@ HiddenPowerGuy:
 	line "Kraft von #mon"
 	cont "für Angriffe."
 
-	para "Merke dir: Der"
-	line "Typ hängt"
-	cont "vom #-"
-	cont "mon ab, das sie"
+	para "Merke dir: Der Typ"
+	line "hängt vom #mon"
+	cont "ab, das sie"
 	cont "einsetzt."
 	done
 

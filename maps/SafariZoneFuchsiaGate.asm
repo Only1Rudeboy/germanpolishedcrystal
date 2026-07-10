@@ -23,8 +23,7 @@ SafariZoneFuchsiaGateOfficerText:
 	line "weg, also gibt es"
 
 	para "gerade kein"
-	line "Safari-"
-	line "Spiel."
+	line "Safari- Spiel."
 
 	para "Du musst eigene"
 	line "#BÄLLE"

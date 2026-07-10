@@ -87,8 +87,8 @@ VioletOutskirtsHouseCaretakerScript:
 	para "Du hast meinen"
 	line "Freund gefunden…"
 
-	para "Er führte ver-"
-	line "storbene Seelen"
+	para "Er führte"
+	line "verstorbene Seelen"
 	cont "ins Jenseits…"
 
 	para "Während ich ihre"
@@ -96,26 +96,24 @@ VioletOutskirtsHouseCaretakerScript:
 
 	para "…… ……"
 
-	para "Das war vor"
-	line "langer Zeit…"
+	para "Das war vor langer"
+	line "Zeit…"
 
-	para "Niemand kommt"
-	line "mehr vorbei…"
+	para "Niemand kommt mehr"
+	line "vorbei…"
 
 	para "Die Gräber liegen"
 	line "verlassen…"
 
 	para "Aber du… bist"
-	line "trotzdem"
-	cont "gekommen…"
+	line "trotzdem gekommen…"
 
 	para "…… ……"
 
 	para "Danke…"
 
-	para "Bitte kümmere"
-	line "dich um meinen…"
-	cont "Freund…"
+	para "Bitte kümmere dich"
+	line "um meinen… Freund…"
 	done
 
 VioletOutskirtsHouseOldShrineText:
@@ -134,21 +132,19 @@ VioletOutskirtsHouseAhText:
 VioletOutskirtsHouseCaretakerThankYouText:
 	text "…… ……"
 
-	para "Danke…"
-	line "mein Lieber…"
+	para "Danke… mein"
+	line "Lieber…"
 	done
 
 VioletOutskirtsHouseStillAPresenceText:
-	text "Der Geist ist"
-	line "weg,"
+	text "Der Geist ist weg,"
 	line "aber etwas ist"
 	cont "noch da…"
 	done
 
 VioletOutskirtsHouseNotSafeHereText:
 	text "Es ist noch eine"
-	line "starke Präsenz"
-	cont "da."
+	line "starke Präsenz da."
 
 	para "Hier ist es nicht"
 	line "sicher!"
@@ -168,7 +164,6 @@ VioletOutskirtsHouseDustText:
 
 VioletOutskirtsHouseNotAloneText:
 	text "Du hast das"
-	line "Gefühl,"
-	line "dass dich etwas"
-	cont "beobachtet…"
+	line "Gefühl, dass dich"
+	cont "etwas beobachtet…"
 	done

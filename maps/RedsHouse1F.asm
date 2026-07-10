@@ -32,16 +32,15 @@ RedsMom:
 
 	para "also weiß ich"
 	line "nicht, wo er ist"
-	cont "oder was er"
-	cont "macht."
+	cont "oder was er macht."
 
 	para "Man sagt, keine"
 	line "Nachricht sei"
 
-	para "eine gute Nach-"
-	line "richt, aber ich"
-	cont "mache mir Sorgen"
-	cont "um ihn."
+	para "eine gute"
+	line "Nachricht, aber"
+	cont "ich mache mir"
+	cont "Sorgen um ihn."
 	done
 .Text2:
 	text "Ich habe Angst,"
@@ -51,19 +50,16 @@ RedsMom:
 	line "krank wird. Aber"
 
 	para "er ist ein Junge"
-	line "und ich bin"
-	cont "stolz,"
+	line "und ich bin stolz,"
 
-	para "dass er macht,"
-	line "was"
+	para "dass er macht, was"
 	line "ihm gefällt."
 	done
 RedsHouse1FTVScript:
 	jumpthistext
 
 	text "Sie haben"
-	line "Programme, die"
-	cont "man"
+	line "Programme, die man"
 	cont "in JOHTO nicht"
 	cont "empfängt…"
 	done

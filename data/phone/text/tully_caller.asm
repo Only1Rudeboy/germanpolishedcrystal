@@ -1,19 +1,18 @@
 TullyMonHasGrownText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist"
-	line "wieder gewachsen."
+	text " ist wieder"
+	line "gewachsen."
 
-	para "Beim Fangen war"
-	line "es"
+	para "Beim Fangen war es"
 	line "so klein, jetzt"
 	cont "viel größer."
 	done
 
 TullyDefeatedMonText:
 	text "Oh ja, ich"
-	line "besiegte"
-	line "ein wildes "
+	line "besiegte ein"
+	cont "wildes "
 	text_ram wStringBuffer4
 	text "."
 
@@ -52,14 +51,12 @@ TullyBattleRematchText:
 	done
 
 TullyHangUpText:
-	text "Na dann, bis"
-	line "bald."
+	text "Na dann, bis bald."
 	done
 
 TullyFoundItemText:
 	text "Ich fand was"
-	line "Nettes"
-	line "am Wasser."
+	line "Nettes am Wasser."
 
 	para "Wie versprochen,"
 	line "ist es deins."
@@ -83,8 +80,8 @@ TullyNoItemText:
 TullyForwardText:
 	text "Jup, Tully hier…"
 
-	para "<PLAYER>? Was?"
-	line "Du bist verloren?"
+	para "<PLAYER>? Was? Du"
+	line "bist verloren?"
 
 	para "Unser Kampf ist"
 	line "auf "

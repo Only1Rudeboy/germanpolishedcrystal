@@ -74,8 +74,8 @@ Route34IlexForestGateTeacher_GotSweetScent:
 	line "wo #mon"
 	cont "auftauchen."
 
-	para "#mon werden"
-	line "von dem Duft"
+	para "#mon werden von"
+	line "dem Duft"
 	cont "angezogen."
 	done
 
@@ -95,12 +95,10 @@ Route34IlexForestGateTeacherReturnsMovement:
 
 Route34IlexForestGateTeacherText:
 	text "Ach, interessant."
-	line "Du erstellst"
-	cont "einen"
+	line "Du erstellst einen"
 	cont "#DEX?"
 
-	para "Das muss"
-	line "schwierig"
+	para "Das muss schwierig"
 	line "sein, wenn du"
 	cont "keine #mon"
 
@@ -113,8 +111,7 @@ Route34IlexForestGateTeacherText:
 
 
 Route34IlexForestGateTeacher_ForestIsRestless:
-	text "Etwas stimmt"
-	line "nicht"
+	text "Etwas stimmt nicht"
 	line "im STEINEICHEN-"
 	cont "WALD!"
 

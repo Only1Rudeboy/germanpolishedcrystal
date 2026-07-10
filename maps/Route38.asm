@@ -26,8 +26,8 @@ Route38_MapScriptHeader:
 GenericTrainerBird_keeperToby:
 	generictrainer BIRD_KEEPER, TOBY, EVENT_BEAT_BIRD_KEEPER_TOBY, Bird_keeperTobySeenText, Bird_keeperTobyBeatenText
 
-	text "Ich will im"
-	line "Gelben Wald"
+	text "Ich will im Gelben"
+	line "Wald"
 
 	para "trainieren und"
 	line "meinem #mon Fly"
@@ -258,10 +258,9 @@ TrainerSchoolboyChad1:
 GenericTrainerBeautyValencia:
 	generictrainer BEAUTY, VALENCIA, EVENT_BEAT_BEAUTY_VALENCIA, BeautyValenciaSeenText, BeautyValenciaBeatenText
 
-	text "Wenn ich #-"
-	line "MON sehe, scheint"
-	cont "mich das zu"
-	cont "entspannen."
+	text "Wenn ich #mon"
+	line "sehe, scheint mich"
+	cont "das zu entspannen."
 	done
 GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
@@ -271,29 +270,25 @@ GenericTrainerBeautyOlivia:
 	cont "and health."
 
 	para "I like to buy a"
-	line "dozen bottles at"
-	cont "a time!"
+	line "dozen bottles at a"
+	cont "time!"
 	done
 
 Bird_keeperTobySeenText:
-	text "Fliege hoch in"
-	line "die"
+	text "Fliege hoch in die"
 	line "Luft, mein"
 	cont "herrliches"
 	cont "Vogel-#mon!"
 	done
 Bird_keeperTobyBeatenText:
 	text "Ich fühle mich,"
-	line "als würde ich"
-	cont "mich"
+	line "als würde ich mich"
 	cont "selbst in die"
 	cont "Lüfte erheben."
 	done
 SchoolboyChad1SeenText:
-	text "Jetzt probiere"
-	line "ich"
-	line "etwas aus, das"
-	cont "ich"
+	text "Jetzt probiere ich"
+	line "etwas aus, das ich"
 	cont "heute gelernt"
 	cont "habe."
 	done
@@ -319,8 +314,8 @@ SchoolboyChadSoManyTestsText:
 	para "Wenn ich also mal"
 	line "Zeit zum Spielen"
 	cont "habe, dann"
-	cont "konzen-"
-	cont "triere ich mich."
+	cont "konzentriere ich"
+	cont "mich."
 	done
 
 
@@ -330,10 +325,8 @@ LassDana1SeenText:
 	line "mit #mon"
 	cont "auszukennen."
 
-	para "Gibst du mir"
-	line "bitte"
-	line "einige"
-	cont "Ratschläge?"
+	para "Gibst du mir bitte"
+	line "einige Ratschläge?"
 	done
 
 
@@ -347,8 +340,7 @@ LassDana1BeatenText:
 
 LassDanaMoomooMilkText:
 	text "Ich kenne etwas"
-	line "sehr"
-	cont "Bekömmliches!"
+	line "sehr Bekömmliches!"
 
 	para "Die Milch von der"
 	line "KUHMUH-FARM ist"
@@ -366,14 +358,13 @@ BeautyValenciaSeenText:
 	line "deine #mon?"
 	done
 BeautyValenciaBeatenText:
-	text "Ich bin froh,"
-	line "dass"
+	text "Ich bin froh, dass"
 	line "ich deine #mon"
 	cont "sehen durfte!"
 	done
 SailorHarrySeenText:
-	text "Ich war im Aus-"
-	line "land. Deswegen"
+	text "Ich war im"
+	line "Ausland. Deswegen"
 
 	para "kenne ich alle"
 	line "#mon-Arten!"
@@ -383,24 +374,24 @@ SailorHarrySeenText:
 
 SailorHarryBeatenText:
 	text "Deine Fähigkeiten"
-	line "sind Spitzen-"
-	cont "klasse!"
+	line "sind"
+	cont "Spitzenklasse!"
 	done
 
 
 
 BeautyOliviaSeenText:
 	text "Meine #mon und"
-	line "ich sind wunder-"
-	cont "schön, nicht"
+	line "ich sind"
+	cont "wunderschön, nicht"
 	cont "wahr?"
 	done
 
 
 
 BeautyOliviaBeatenText:
-	text "Wir trinken täg-"
-	line "lich"
+	text "Wir trinken"
+	line "täglich"
 	cont "KUHMUH-MILCH."
 	done
 
@@ -419,21 +410,20 @@ Route38TrainerTipsText:
 	text "TIPPS für TRAINER"
 	line "Wenn sich ein"
 
-	para "#mon weiter-"
-	line "entwickelt,"
+	para "#mon"
+	line "weiterentwickelt,"
 	cont "kannst"
 
 	para "du diesen Prozess"
 	line "aufhalten."
 
-	para "Drücke während"
-	line "der Entwicklung"
-	cont "den B-Knopf."
+	para "Drücke während der"
+	line "Entwicklung den"
+	cont "B-Knopf."
 
-	para "So wird das #-"
-	line "MON erschreckt"
-	cont "und"
-	cont "es bricht die"
+	para "So wird das"
+	line "#mon erschreckt"
+	cont "und es bricht die"
 	cont "Entwicklung ab."
 	done
 
@@ -449,12 +439,12 @@ Route38AdvancedTipsText:
 	line "Box-Namen zu"
 	cont "fokussieren!"
 
-	para "Du kannst Name"
-	line "und Design jeder"
-	cont "Box ändern!"
+	para "Du kannst Name und"
+	line "Design jeder Box"
+	cont "ändern!"
 
-	para "Drücke Select,"
-	line "um die A-Taste-"
+	para "Drücke Select, um"
+	line "die A-Taste-"
 	cont "Funktion für"
 	cont "#mon zu ändern!"
 	done

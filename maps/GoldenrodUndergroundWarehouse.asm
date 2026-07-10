@@ -26,9 +26,8 @@ GenericTrainerGruntM24:
 	generictrainer GRUNTM, 24, EVENT_BEAT_ROCKET_GRUNTM_24, GruntM24SeenText, GruntM24BeatenText
 
 	text "TEAM ROCKET wird"
-	line "weitermachen."
-	cont "Sie warten auf"
-	cont "die"
+	line "weitermachen. Sie"
+	cont "warten auf die"
 	cont "Rückkehr von"
 	cont "GIOVANNI."
 
@@ -38,8 +37,7 @@ GenericTrainerGruntM24:
 GenericTrainerGruntM14:
 	generictrainer GRUNTM, 14, EVENT_BEAT_ROCKET_GRUNTM_14, GruntM14SeenText, GruntM14BeatenText
 
-	text "Ich habe"
-	line "verloren…"
+	text "Ich habe verloren…"
 
 	para "Bitte vergib mir,"
 	line "GIOVANNI!"
@@ -47,8 +45,7 @@ GenericTrainerGruntM14:
 GenericTrainerGruntM15:
 	generictrainer GRUNTM, 15, EVENT_BEAT_ROCKET_GRUNTM_15, GruntM15SeenText, GruntM15BeatenText
 
-	text "Hiuck-hiuck-hiu-"
-	line "ck!"
+	text "Hiuck-hiuck-hiuck!"
 	line "Das war grandios!"
 	cont "Ich werde dich"
 	cont "nicht vergessen!"
@@ -70,11 +67,10 @@ GoldenrodUndergroundWarehouseDirectorScript:
 	jumpopenedtext DirectorAfterText
 
 GruntM24SeenText:
-	text "Wie bist du"
-	line "so weit gekommen?"
+	text "Wie bist du so"
+	line "weit gekommen?"
 
-	para "Ich denke, es"
-	line "gibt"
+	para "Ich denke, es gibt"
 	line "keine andere"
 	cont "Lösung, um dich"
 	cont "loszuwerden."
@@ -82,21 +78,18 @@ GruntM24SeenText:
 
 
 GruntM24BeatenText:
-	text "Er wurde mich"
-	line "los…"
+	text "Er wurde mich los…"
 	done
 
 
 GruntM14SeenText:
-	text "Weiter kommst"
-	line "du nicht!"
+	text "Weiter kommst du"
+	line "nicht!"
 
 	para "Ich habe niemals"
-	line "Mitleid mit"
-	cont "meinen"
+	line "Mitleid mit meinen"
 	cont "Gegnern, auch"
-	cont "nicht mit"
-	cont "Kindern!"
+	cont "nicht mit Kindern!"
 	done
 
 
@@ -106,20 +99,17 @@ GruntM14BeatenText:
 
 
 GruntM15SeenText:
-	text "Hiuck-hiuck-hiu-"
-	line "ck!"
+	text "Hiuck-hiuck-hiuck!"
 	line "Ich kenne dich!"
 
 	para "Du hast mich in"
 	line "unserem Versteck"
-	cont "richtig"
-	cont "vermöbelt!"
+	cont "richtig vermöbelt!"
 	done
 
 
 GruntM15BeatenText:
-	text "Hiuck-hiuck-hiu-"
-	line "ck!"
+	text "Hiuck-hiuck-hiuck!"
 	line "So ist das also?"
 	done
 
@@ -153,29 +143,26 @@ DirectorCardKeyText:
 
 
 DirectorAfterText:
-	text "Ich flehe dich"
-	line "an,"
+	text "Ich flehe dich an,"
 	line "uns zu helfen."
 
 	para "Niemand weiß, was"
-	line "sie vorhaben,"
-	cont "wenn"
+	line "sie vorhaben, wenn"
 
-	para "sie erst"
-	line "Kontrolle"
-	line "über den Trans-"
-	cont "mitter erlangen."
+	para "sie erst Kontrolle"
+	line "über den"
+	cont "Transmitter"
+	cont "erlangen."
 
 	para "Sie könnten sogar"
 	line "mit einem"
-	cont "Spezial-"
-	cont "signal alle #-"
-	cont "MON"
+	cont "Spezialsignal alle"
+	cont "#mon"
 	cont "kontrollieren!"
 
-	para "Bitte hilf mir!"
-	line "Du bist meine"
-	cont "letzte Rettung."
+	para "Bitte hilf mir! Du"
+	line "bist meine letzte"
+	cont "Rettung."
 
 	para "Bitte rette den"
 	line "RADIOTURM…"

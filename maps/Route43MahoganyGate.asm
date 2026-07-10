@@ -22,9 +22,9 @@ Route43MahoganyGateOfficer:
 	jumpthistextfaceplayer
 
 	text "Zuletzt sind hier"
-	line "nur Leute durch-"
-	cont "gekommen, die zum"
-	cont "SEE DES ZORNS"
+	line "nur Leute"
+	cont "durchgekommen, die"
+	cont "zum SEE DES ZORNS"
 	cont "wollten."
 	done
 
@@ -32,8 +32,7 @@ Route43MahoganyGateOfficer:
 Route43MahoganyGateOfficerRocketsClearedText:
 	text "In letzter Zeit"
 	line "geht niemand mehr"
-	cont "zum SEE DES"
-	cont "ZORNS."
+	cont "zum SEE DES ZORNS."
 	done
 
 

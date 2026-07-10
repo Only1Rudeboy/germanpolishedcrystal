@@ -32,8 +32,8 @@ Route12SuperRodHouseFishingGuruScript:
 .GaveSuperRodText:
 
 	text "Wirf sie aus und"
-	line "angle, wo immer"
-	cont "es Wasser gibt."
+	line "angle, wo immer es"
+	cont "Wasser gibt."
 
 	para "Denk daran - du"
 	line "kannst mit ver-"
@@ -51,17 +51,14 @@ Route12SuperRodHouseFishingGuruScript:
 
 OfferSuperRodText:
 	text "Ich bin der"
-	line "jüngere Bruder"
-	cont "des"
+	line "jüngere Bruder des"
 	cont "PROFI-ANGLERs."
 
 	para "Wie ich sehe,"
 	line "macht dir Angeln"
 
-	para "Spaß. Darüber"
-	line "gibt"
-	line "es keinen"
-	cont "Zweifel!"
+	para "Spaß. Darüber gibt"
+	line "es keinen Zweifel!"
 
 	para "Na? Das stimmt"
 	line "doch, oder?"
@@ -69,8 +66,7 @@ OfferSuperRodText:
 
 
 GiveSuperRodText:
-	text "Jawohl! Genau,"
-	line "wie"
+	text "Jawohl! Genau, wie"
 	line "ich dachte!"
 
 	para "Hier, Angelfreak!"
