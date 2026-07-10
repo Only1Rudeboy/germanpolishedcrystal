@@ -281,8 +281,8 @@ StoneEdgeDescription:
 if !DEF(FAITHFUL)
 XScissorDescription:
 endc
-	text "Hohe Volltref-"
-	next "ferquote."
+	text "Hohe"
+	next "Volltrefferquote."
 	done
 
 SwiftDescription:
@@ -324,8 +324,8 @@ PinMissileDescription:
 	done
 
 IcicleSpearDescription:
-	text "Verschießt Eis-"
-	next "zapfen 2-5 Mal."
+	text "Verschießt"
+	next "Eiszapfen 2-5 Mal."
 	done
 
 RockBlastDescription:
@@ -458,8 +458,8 @@ IronTailDescription:
 	done
 
 BubbleBeamDescription:
-	text "Kann das Tempo"
-	next "d. Gegners senken."
+	text "Kann das Tempo d."
+	next "Gegners senken."
 	done
 
 BulldozeDescription:
@@ -473,8 +473,8 @@ IcyWindDescription:
 	done
 
 MoonblastDescription:
-	text "Kann den SpAng"
-	next "d. Gegners senken."
+	text "Kann den SpAng d."
+	next "Gegners senken."
 	done
 
 AcidDescription:
@@ -485,13 +485,13 @@ EarthPowerDescription:
 EnergyBallDescription:
 FlashCannonDescription:
 FocusBlastDescription:
-	text "Kann den SpVer"
-	next "d. Gegners senken."
+	text "Kann den SpVer d."
+	next "Gegners senken."
 	done
 
 MudSlapDescription:
-	text "Senkt die Treffer-"
-	next "sicherheit."
+	text "Senkt die"
+	next "Treffersicherheit."
 	done
 
 OctazookaDescription:
@@ -602,28 +602,28 @@ MinimizeDescription:
 	done
 
 GrowthDescription:
-	text "Erhöht Angriff"
-	next "und SpAng."
+	text "Erhöht Angriff und"
+	next "SpAng."
 	done
 
 BulkUpDescription:
-	text "Erhöht Angriff"
-	next "und Verteidigung."
+	text "Erhöht Angriff und"
+	next "Verteidigung."
 	done
 
 CalmMindDescription:
-	text "Erhöht SpAng"
-	next "und SpVer."
+	text "Erhöht SpAng und"
+	next "SpVer."
 	done
 
 DragonDanceDescription:
-	text "Erhöht Angriff"
-	next "und Tempo."
+	text "Erhöht Angriff und"
+	next "Tempo."
 	done
 
 HoneClawsDescription:
-	text "Erhöht Angriff"
-	next "und Treffsicherh."
+	text "Erhöht Angriff und"
+	next "Treffsicherh."
 	done
 
 GrowlDescription:
@@ -790,8 +790,8 @@ HailDescription:
 
 UTurnDescription:
 VoltSwitchDescription:
-	text "Wechselt nach"
-	next "dem Angriff aus."
+	text "Wechselt nach dem"
+	next "Angriff aus."
 	done
 
 FirePunchDescription:
@@ -942,8 +942,8 @@ DisableDescription:
 	done
 
 WaterGunDescription:
-	text "Spritzt Wasser"
-	next "zum Angriff."
+	text "Spritzt Wasser zum"
+	next "Angriff."
 	done
 
 SurfDescription:
@@ -1062,8 +1062,8 @@ SubstituteDescription:
 	done
 
 StruggleDescription:
-	text "Nur wenn alle"
-	next "AP verbr. sind."
+	text "Nur wenn alle AP"
+	next "verbr. sind."
 	done
 
 SketchDescription:
@@ -1162,8 +1162,8 @@ AttractDescription:
 	done
 
 SleepTalkDescription:
-	text "Greift zufällig"
-	next "im Schlaf an."
+	text "Greift zufällig im"
+	next "Schlaf an."
 	done
 
 HealBellDescription:
@@ -1242,8 +1242,8 @@ HiddenPowerDescription:
 	done
 
 FutureSightDescription:
-	text "Trifft erst in"
-	next "der 3. Runde."
+	text "Trifft erst in der"
+	next "3. Runde."
 	done
 
 GyroBallDescription:

@@ -313,13 +313,13 @@ PokeBallDesc:
 	done
 
 GreatBallDesc:
-	text "Ein Ball mit"
-	next "guter Fangrate."
+	text "Ein Ball mit guter"
+	next "Fangrate."
 	done
 
 UltraBallDesc:
-	text "Ein Ball mit"
-	next "hoher Fangrate."
+	text "Ein Ball mit hoher"
+	next "Fangrate."
 	done
 
 MasterBallDesc:
@@ -403,8 +403,8 @@ LuxuryBallDesc:
 	done
 
 HealBallDesc:
-	text "Ein heilender"
-	next "Ball für #mon."
+	text "Ein heilender Ball"
+	next "für #mon."
 	done
 
 QuickBallDesc:
@@ -433,23 +433,23 @@ CherishBallDesc:
 	done
 
 PotionDesc:
-	text "Heilt 20 KP"
-	next "eines #mon."
+	text "Heilt 20 KP eines"
+	next "#mon."
 	done
 
 SuperPotionDesc:
-	text "Heilt 60 KP"
-	next "eines #mon."
+	text "Heilt 60 KP eines"
+	next "#mon."
 	done
 
 HyperPotionDesc:
-	text "Heilt 120 KP"
-	next "eines #mon."
+	text "Heilt 120 KP eines"
+	next "#mon."
 	done
 
 MaxPotionDesc:
-	text "Heilt die KP"
-	next "voll auf."
+	text "Heilt die KP voll"
+	next "auf."
 	done
 
 AntidoteDesc:
@@ -540,13 +540,13 @@ CarbosDesc:
 	done
 
 CalciumDesc:
-	text "Erhöht SpAng"
-	next "eines #mon."
+	text "Erhöht SpAng eines"
+	next "#mon."
 	done
 
 ZincDesc:
-	text "Erhöht SpVer"
-	next "eines #mon."
+	text "Erhöht SpVer eines"
+	next "#mon."
 	done
 
 RareCandyDesc:
@@ -565,23 +565,23 @@ PPMaxDesc:
 	done
 
 FreshWaterDesc:
-	text "Heilt 30 KP"
-	next "eines #mon."
+	text "Heilt 30 KP eines"
+	next "#mon."
 	done
 
 SodaPopDesc:
-	text "Heilt 50 KP"
-	next "eines #mon."
+	text "Heilt 50 KP eines"
+	next "#mon."
 	done
 
 LemonadeDesc:
-	text "Heilt 70 KP"
-	next "eines #mon."
+	text "Heilt 70 KP eines"
+	next "#mon."
 	done
 
 MoomooMilkDesc:
-	text "Heilt 100 KP"
-	next "eines #mon."
+	text "Heilt 100 KP eines"
+	next "#mon."
 	done
 
 SacredAshDesc:
@@ -610,28 +610,28 @@ RevivalHerbDesc:
 	done
 
 XAttackDesc:
-	text "Erhöht Angriff."
-	next "(1 Kampf)"
+	text "Erhöht Angriff. (1"
+	next "Kampf)"
 	done
 
 XDefendDesc:
-	text "Erhöht Verteid."
-	next "(1 Kampf)"
+	text "Erhöht Verteid. (1"
+	next "Kampf)"
 	done
 
 XSpeedDesc:
-	text "Erhöht Tempo."
-	next "(1 Kampf)"
+	text "Erhöht Tempo. (1"
+	next "Kampf)"
 	done
 
 XSpAtkDesc:
-	text "Erhöht SpAng."
-	next "(1 Kampf)"
+	text "Erhöht SpAng. (1"
+	next "Kampf)"
 	done
 
 XSpDefDesc:
-	text "Erhöht SpVer."
-	next "(1 Kampf)"
+	text "Erhöht SpVer. (1"
+	next "Kampf)"
 	done
 
 DireHitDesc:
@@ -650,18 +650,18 @@ XAccuracyDesc:
 	done
 
 RepelDesc:
-	text "Vertreibt schwa-"
-	next "che #mon (100)."
+	text "Vertreibt schwache"
+	next "#mon (100)."
 	done
 
 SuperRepelDesc:
-	text "Vertreibt schwa-"
-	next "che #mon (200)."
+	text "Vertreibt schwache"
+	next "#mon (200)."
 	done
 
 MaxRepelDesc:
-	text "Vertreibt schwa-"
-	next "che #mon (250)."
+	text "Vertreibt schwache"
+	next "#mon (250)."
 	done
 
 EscapeRopeDesc:
@@ -675,8 +675,8 @@ PokeDollDesc:
 	done
 
 AbilityCapDesc:
-	text "Wechselt Fähigk-"
-	next "eit eines #mon."
+	text "Wechselt Fähigkeit"
+	next "eines #mon."
 	done
 
 LeafStoneDesc:
@@ -689,8 +689,8 @@ DuskStoneDesc:
 ShinyStoneDesc:
 IceStoneDesc:
 LinkingCordDesc:
-	text "Entwickelt gewis-"
-	next "se #mon-Arten."
+	text "Entwickelt gewisse"
+	next "#mon-Arten."
 	done
 
 EverstoneDesc:
@@ -699,8 +699,8 @@ EverstoneDesc:
 	done
 
 ExpShareDesc:
-	text "Teilt EP-Punkte"
-	next "im Kampf. (Halten)"
+	text "Teilt EP-Punkte im"
+	next "Kampf. (Halten)"
 	done
 
 CheriBerryDesc:
@@ -789,28 +789,28 @@ TamatoBerryDesc:
 	done
 
 LiechiBerryDesc:
-	text "Erhöht Angriff"
-	next "in Notlage."
+	text "Erhöht Angriff in"
+	next "Notlage."
 	done
 
 GanlonBerryDesc:
-	text "Erhöht Verteid."
-	next "in Notlage."
+	text "Erhöht Verteid. in"
+	next "Notlage."
 	done
 
 SalacBerryDesc:
-	text "Erhöht Tempo"
-	next "in Notlage."
+	text "Erhöht Tempo in"
+	next "Notlage."
 	done
 
 PetayaBerryDesc:
-	text "Erhöht SpAng"
-	next "in Notlage."
+	text "Erhöht SpAng in"
+	next "Notlage."
 	done
 
 ApicotBerryDesc:
-	text "Erhöht SpVer"
-	next "in Notlage."
+	text "Erhöht SpVer in"
+	next "Notlage."
 	done
 
 LansatBerryDesc:
@@ -829,8 +829,8 @@ EnigmaBerryDesc:
 	done
 
 CustapBerryDesc:
-	text "Handelt zuerst"
-	next "in Notlage."
+	text "Handelt zuerst in"
+	next "Notlage."
 	done
 
 JabocaBerryDesc:
@@ -1066,8 +1066,8 @@ DestinyKnotDesc:
 	done
 
 ExpertBeltDesc:
-	text "Erhöht sehr effek-"
-	next "tive Treffer."
+	text "Erhöht sehr"
+	next "effektive Treffer."
 	done
 
 FocusSashDesc:
@@ -1096,8 +1096,8 @@ MetronomeIDesc:
 	done
 
 ProtectPadsDesc:
-	text "Schützt vor Kon-"
-	next "takteffekten."
+	text "Schützt vor"
+	next "Kontakteffekten."
 	done
 
 RockyHelmetDesc:
@@ -1106,8 +1106,8 @@ RockyHelmetDesc:
 	done
 
 SafeGogglesDesc:
-	text "Schützt vor Wet-"
-	next "terschäden."
+	text "Schützt vor"
+	next "Wetterschäden."
 	done
 
 ShedShellDesc:
@@ -1146,13 +1146,13 @@ MentalHerbDesc:
 	done
 
 PowerHerbDesc:
-	text "Überspringt Auf-"
-	next "laden. (Halten)"
+	text "Überspringt"
+	next "Aufladen. (Halten)"
 	done
 
 WhiteHerbDesc:
-	text "Heilt selbst ge-"
-	next "senkte Werte."
+	text "Heilt selbst"
+	next "gesenkte Werte."
 	done
 
 DampRockDesc:
@@ -1166,8 +1166,8 @@ HeatRockDesc:
 	done
 
 SmoothRockDesc:
-	text "Verlängert Sand-"
-	next "sturm."
+	text "Verlängert"
+	next "Sandsturm."
 	done
 
 IcyRockDesc:
@@ -1181,13 +1181,13 @@ ChoiceBandDesc:
 	done
 
 ChoiceScarfDesc:
-	text "Erhöht Tempo,"
-	next "nur 1 Attacke."
+	text "Erhöht Tempo, nur"
+	next "1 Attacke."
 	done
 
 ChoiceSpecsDesc:
-	text "Erhöht SpAng,"
-	next "nur 1 Attacke."
+	text "Erhöht SpAng, nur"
+	next "1 Attacke."
 	done
 
 FlameOrbDesc:
@@ -1196,8 +1196,8 @@ FlameOrbDesc:
 	done
 
 ToxicOrbDesc:
-	text "Verursacht schwe-"
-	next "re Vergift.(Halt.)"
+	text "Verursacht schwere"
+	next "Vergift.(Halt.)"
 	done
 
 BlackSludgeDesc:
@@ -1386,8 +1386,8 @@ RareBoneDesc:
 	done
 
 SlowpokeTailDesc:
-	text "Sehr lecker."
-	next "Wert: hoch."
+	text "Sehr lecker. Wert:"
+	next "hoch."
 	done
 
 HelixFossilDesc:
@@ -1492,8 +1492,8 @@ CovertCloakDesc:
 	done
 
 EjectPackDesc:
-	text "Wechselt bei ge-"
-	next "senkten Werten."
+	text "Wechselt bei"
+	next "gesenkten Werten."
 	done
 
 RoomServiceDesc:
@@ -1586,13 +1586,13 @@ BasementKeyDesc:
 	done
 
 SSTicketDesc:
-	text "Ein Ticket für"
-	next "die S.S. Aqua."
+	text "Ein Ticket für die"
+	next "S.S. Aqua."
 	done
 
 PassDesc:
-	text "Ein Ticket für"
-	next "den Magnetzug."
+	text "Ein Ticket für den"
+	next "Magnetzug."
 	done
 
 MachinePartDesc:
@@ -1631,8 +1631,8 @@ GBCSoundsDesc:
 	done
 
 BlueCardDesc:
-	text "Karte zum"
-	next "Punkte sammeln."
+	text "Karte zum Punkte"
+	next "sammeln."
 	done
 
 OrangeTicketDesc:

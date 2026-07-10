@@ -229,8 +229,8 @@ ObliviousDescription:
 	done
 
 CloudNineDescription:
-	text "Hebt alle Wetter-"
-	next "effekte auf."
+	text "Hebt alle"
+	next "Wettereffekte auf."
 	done
 
 CompoundEyesDescription:
@@ -256,8 +256,8 @@ FlashFireDescription:
 	done
 
 ShieldDustDescription:
-	text "Blockt Zusatz-"
-	next "effekte."
+	text "Blockt"
+	next "Zusatzeffekte."
 	done
 
 OwnTempoDescription:
@@ -312,8 +312,8 @@ LightningRodDescription:
 	done
 
 SereneGraceDescription:
-	text "Erhöht die Rate"
-	next "an Zusatzeffekten."
+	text "Erhöht die Rate an"
+	next "Zusatzeffekten."
 	done
 
 SwiftSwimDescription:
@@ -607,8 +607,8 @@ MoldBreakerDescription:
 	done
 
 SuperLuckDescription:
-	text "Erhöht die Rate"
-	next "an Volltreffern."
+	text "Erhöht die Rate an"
+	next "Volltreffern."
 	done
 
 AftermathDescription:
@@ -667,8 +667,8 @@ endc
 	done
 
 FriskDescription:
-	text "Zeigt das Item"
-	next "des Gegners."
+	text "Zeigt das Item des"
+	next "Gegners."
 	done
 
 RecklessDescription:
@@ -772,8 +772,8 @@ AnalyticDescription:
 	done
 
 ImposterDescription:
-	text "Verwandelt sich"
-	next "in den Gegner."
+	text "Verwandelt sich in"
+	next "den Gegner."
 	done
 
 InfiltratorDescription:
@@ -837,8 +837,8 @@ CompetitiveDescription:
 	done
 
 MegaLauncherDescription:
-	text "Verstärkt Aura-"
-	next "und Puls-Attacken."
+	text "Verstärkt Auraund"
+	next "Puls-Attacken."
 	done
 
 ToughClawsDescription:
@@ -897,8 +897,8 @@ NeutralizingGasDescription:
 	done
 
 QuickDrawDescription:
-	text "Manchmal zuerst"
-	next "am Zug."
+	text "Manchmal zuerst am"
+	next "Zug."
 	done
 
 WindRiderDescription:
