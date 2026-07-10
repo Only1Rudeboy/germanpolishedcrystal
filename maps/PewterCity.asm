@@ -165,7 +165,7 @@ PewterCityBugCatcherText:
 
 PewterCityGrampsText:
 	text "Ach, du bist den"
-	line "ganzen Weg  von"
+	line "ganzen Weg von"
 	cont "JOHTO bis hierher"
 	cont "gekommen?"
 

@@ -483,6 +483,6 @@ GoldenrodPokecenter1FGrampsText:
 	text "Schon alle diese"
 	line "neuen Sachen"
 
-	para "lassen mich mich"
-	line "jung fühlen!"
+	para "lassen mich jung"
+	line "fühlen!"
 	done
