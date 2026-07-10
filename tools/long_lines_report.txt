@@ -1,3 +1,0 @@
-Files with long lines: 0
-Total long lines: 0
-

@@ -1,8 +1,0 @@
-Lines over 18 display width: 6
-
-data/natures.asm:103 disp=20 chars=20: ↑<NEXT><NEXT><NEXT>↓@
-data/natures.asm:105 disp=20 chars=20: ↓<NEXT><NEXT><NEXT>↑@
-data/natures.asm:106 disp=26 chars=26: ↑<NEXT><NEXT><NEXT><NEXT>↓@
-data/natures.asm:107 disp=26 chars=26: ↓<NEXT><NEXT><NEXT><NEXT>↑
-data/text/battle.asm:961 disp=19 chars=18: <USER> will seinen
-data/trainers/macros.asm:339 disp=19 chars=22: {_tr_pk{d:p}_nickname}@
