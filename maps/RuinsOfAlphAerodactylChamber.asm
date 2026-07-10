@@ -1,0 +1,146 @@
+RuinsOfAlphAerodactylChamber_MapScriptHeader:
+	def_scene_scripts
+	scene_script RuinsOfAlphAerodactylChamberCheckWallScene, SCENE_RUINSOFALPHAERODACTYLCHAMBER_CHECK_WALL
+	scene_const SCENE_RUINSOFALPHAERODACTYLCHAMBER_NOOP
+
+	def_callbacks
+	callback MAPCALLBACK_TILES, RuinsOfAlphAerodactylChamberHiddenDoorsCallback
+
+	def_warp_events
+	warp_event  3,  9, RUINS_OF_ALPH_OUTSIDE, 4
+	warp_event  4,  9, RUINS_OF_ALPH_OUTSIDE, 4
+	warp_event  3,  3, RUINS_OF_ALPH_INNER_CHAMBER, 8
+	warp_event  4,  3, RUINS_OF_ALPH_INNER_CHAMBER, 9
+	warp_event  4,  0, RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM, 1
+
+	def_coord_events
+
+	def_bg_events
+	bg_event  2,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
+	bg_event  5,  3, BGEVENT_JUMPTEXT, RuinsofAlphStatueText
+	bg_event  3,  2, BGEVENT_UP, MapRuinsofAlphAerodactylChamberSignpost2Script
+	bg_event  4,  2, BGEVENT_UP, MapRuinsofAlphAerodactylChamberSignpost3Script
+	bg_event  3,  0, BGEVENT_UP, MapRuinsofAlphAerodactylChamberSignpost4Script
+	bg_event  4,  0, BGEVENT_UP, MapRuinsofAlphAerodactylChamberSignpost5Script
+
+	def_object_events
+
+RuinsOfAlphAerodactylChamberCheckWallScene:
+	checkevent EVENT_WALL_OPENED_IN_AERODACTYL_CHAMBER
+	iffalsefwd .End
+	sdefer RuinsOfAlphAerodactylChamberWallOpenScript
+.End
+	end
+
+RuinsOfAlphAerodactylChamberHiddenDoorsCallback:
+	checkevent EVENT_WALL_OPENED_IN_AERODACTYL_CHAMBER
+	iftruefwd .WallOpen
+	changeblock 4, 0, $24
+.WallOpen:
+	checkevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	iffalsefwd .FloorClosed
+	endcallback
+
+.FloorClosed:
+	changeblock 2, 2, $1
+	changeblock 4, 2, $2
+	endcallback
+
+RuinsOfAlphAerodactylChamberWallOpenScript:
+	end
+
+
+
+
+MapRuinsofAlphAerodactylChamberSignpost2Script:
+	reanchormap
+	setval $2
+	special Special_UnownPuzzle
+	closetext
+	iftruefwd .PuzzleComplete
+	end
+
+.PuzzleComplete:
+	setevent EVENT_RUINS_OF_ALPH_INNER_CHAMBER_TOURISTS
+	setevent EVENT_SOLVED_AERODACTYL_PUZZLE
+	setflag ENGINE_UNLOCKED_UNOWNS_R_TO_W
+	setmapscene RUINS_OF_ALPH_INNER_CHAMBER, SCENE_RUINSOFALPHINNERCHAMBER_STRANGE_PRESENCE
+	earthquake 30
+	showemote EMOTE_SHOCK, PLAYER, 15
+	changeblock 2, 2, $14
+	changeblock 4, 2, $15
+	refreshmap
+	playsound SFX_STRENGTH
+	earthquake 80
+	applyonemovement PLAYER, skyfall_top
+	playsound SFX_KINESIS
+	waitsfx
+	pause 20
+	warpcheck
+	end
+
+MapRuinsofAlphAerodactylChamberSignpost3Script:
+	opentext
+	unowntypeface
+	writetext RuinsOfAlphAerodactylChamberDescriptionText
+	waitbutton
+	closetext
+	restoretypeface
+	special RefreshSprites
+	end
+
+MapRuinsofAlphAerodactylChamberSignpost5Script:
+	checkevent EVENT_WALL_OPENED_IN_AERODACTYL_CHAMBER
+	iftrue_jumptext RuinsOfAlphAerodactylChamberWallHoleText
+MapRuinsofAlphAerodactylChamberSignpost4Script:
+	opentext
+	checkevent EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
+	iftruefwd .unsolved
+	writetext RuinsOfAlphChambersItsUnownText
+	sjumpfwd .unownwords
+.unsolved
+	writetext RuinsOfAlphAerodactylChamberWallPatternLeftText
+.unownwords
+	setval $1
+	special Special_DisplayUnownWords
+	endtext
+
+RuinsOfAlphAerodactylChamberWallPatternLeftText:
+	text "Es sind Muster an"
+	line "den Wänden…"
+	done
+
+
+
+
+RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
+	text "Es ist"
+	line "ICOGNITO-Schrift!"
+	done
+
+
+
+RuinsOfAlphChambersItsUnownText:
+	text "Das ist Unown-"
+	line "Schrift!"
+	done
+
+RuinsOfAlphAerodactylChamberWallHoleText:
+	text "Da ist ein großes"
+	line "Loch in der Wand!"
+	done
+
+
+
+RuinsOfAlphAerodactylChamberDescriptionText:
+	text "Dieses Flug-#-"
+	line "MON griff seine"
+
+	para "Beute mittels"
+	line "seiner"
+	cont "sensenartigen"
+	cont "Reißzähne an."
+	done
+
+
+
