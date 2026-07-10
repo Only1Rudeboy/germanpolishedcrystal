@@ -308,7 +308,7 @@ GoldenrodCityCooltrainerF2Text:
 	cont "Werbekampagne."
 
 	para "Man kann deinen"
-	line "#COM"
+	line "#Com"
 	cont "modifizieren, so"
 	cont "dass er auch als"
 	cont "Radio"

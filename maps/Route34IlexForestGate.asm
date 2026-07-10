@@ -96,7 +96,7 @@ Route34IlexForestGateTeacherReturnsMovement:
 Route34IlexForestGateTeacherText:
 	text "Ach, interessant."
 	line "Du erstellst einen"
-	cont "#DEX?"
+	cont "#dex?"
 
 	para "Das muss schwierig"
 	line "sein, wenn du"

@@ -449,7 +449,7 @@ Route27FisherText:
 	cont "KANTO gemacht."
 
 	para "Sieh auf die KARTE"
-	line "in deinem #COM."
+	line "in deinem #Com."
 	done
 
 

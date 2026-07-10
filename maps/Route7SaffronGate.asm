@@ -37,7 +37,7 @@ Route7SaffronGuardSeriousText:
 	cont "ernst."
 
 	para "Hey! Du hast einen"
-	line "#DEX."
+	line "#dex."
 
 	para "O.K. Du darfst"
 	line "passieren."

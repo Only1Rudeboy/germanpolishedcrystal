@@ -103,7 +103,7 @@ LavRadioTower1FSuperNerd2Script:
 	para "Ich bin der tolle"
 	line "MUSIK- REDAKTEUR!"
 
-	para "Häh? Dein #COM"
+	para "Häh? Dein #Com"
 	line "kann meine"
 
 	para "Sendungen nicht"

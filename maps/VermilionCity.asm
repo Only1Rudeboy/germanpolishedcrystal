@@ -434,7 +434,7 @@ VermilionCitySailorText:
 
 
 VermilionCityRadioNearSnorlaxText:
-	text "Der #COM wird"
+	text "Der #Com wird"
 	line "in der Nähe des"
 	cont "schlafenden"
 	cont "RELAXOs platziert…"

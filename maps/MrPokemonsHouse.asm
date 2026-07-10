@@ -379,7 +379,7 @@ MrPokemonsHouse_OakText1:
 
 	para "Dies ist die"
 	line "neueste Version"
-	cont "des #DEX."
+	cont "des #dex."
 
 	para "Er erfaßt"
 	line "automatisch Daten"
@@ -402,7 +402,7 @@ MrPokemonsHouse_OakText2:
 	cont "MON und vervoll-"
 
 	para "ständige den"
-	line "#DEX!"
+	line "#dex!"
 
 	para "Ich bin schon zu"
 	line "lange hier."

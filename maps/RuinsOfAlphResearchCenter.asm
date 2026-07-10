@@ -309,10 +309,10 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	text "Geschafft!"
 
 	para "Ich habe deinen"
-	line "#DEX erweitert."
+	line "#dex erweitert."
 
 	para "Ich habe dir einen"
-	line "optionalen #DEX"
+	line "optionalen #dex"
 
 	para "extra für ICOGNITO"
 	line "eingebaut. Er"
@@ -325,7 +325,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>s #DEX"
+	text "<PLAYER>s #dex"
 	line "wurde erweitert."
 	done
 

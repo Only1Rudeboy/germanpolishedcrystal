@@ -1337,7 +1337,7 @@ ElmAfterTheftText5:
 	text "LIND: Wie?!?"
 
 	para "PROF. EICH hat dir"
-	line "einen #DEX"
+	line "einen #dex"
 	cont "gegeben?"
 
 	para "<PLAYER>, ist das"

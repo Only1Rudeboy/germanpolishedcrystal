@@ -390,7 +390,7 @@ RadioTower1FRadioCardWomanOfferQuizText:
 	cont "gewinnen."
 
 	para "Stecke es in den"
-	line "#COM, um"
+	line "#Com, um"
 
 	para "überall und zu"
 	line "jeder Zeit Radio"
@@ -492,7 +492,7 @@ RadioTower1FRadioCardWomanYouWinText:
 
 
 RadioTower1FPokegearIsARadioText:
-	text "<PLAYER>s #COM"
+	text "<PLAYER>s #Com"
 	line "kann jetzt auch"
 	cont "als Radio"
 	cont "verwendet werden!"

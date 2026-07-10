@@ -19,7 +19,7 @@ Route15FuchsiaGate_MapScriptHeader:
 
 Route15FuchsiaGateOfficerText:
 	text "Du arbeitest an"
-	line "einem #DEX? Das"
+	line "einem #dex? Das"
 
 	para "ist doch schon"
 	line "etwas. Gib nicht"

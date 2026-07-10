@@ -29,7 +29,7 @@ GoldenrodDeptStore2FClerk2Script:
 	pokemart MARTTYPE_STANDARD, MART_GOLDENROD_2F_2_EEVEE
 
 GoldenrodDeptStore2FYoungsterText:
-	text "Der #COM kann"
+	text "Der #Com kann"
 	line "bis zu zehn"
 	cont "Nummern speichern."
 

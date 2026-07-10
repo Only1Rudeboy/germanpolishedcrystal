@@ -164,7 +164,7 @@ GenericTrainerPsychicUri:
 	generictrainer PSYCHIC_T, URI, EVENT_BEAT_PSYCHIC_URI, .SeenText, .BeatenText
 
 	text "Prof.Lind gibt mir"
-	line "keinen #DEX."
+	line "keinen #dex."
 	cont "Ich frag mich"
 	cont "warum?"
 	done

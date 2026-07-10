@@ -277,7 +277,7 @@ OlivineCityRivalLighthouseText:
 
 OlivineCityStandingYoungsterPokedexText:
 	text "Wow, du hast einen"
-	line "#DEX!"
+	line "#dex!"
 
 	para "Das ist so toll!"
 	done

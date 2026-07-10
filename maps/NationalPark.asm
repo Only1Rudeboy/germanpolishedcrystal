@@ -313,7 +313,7 @@ NationalParkLassText:
 	para "Ich habe meine"
 	line "Lieblinge aus dem"
 
-	para "#DEX gedruckt"
+	para "#dex gedruckt"
 	line "und auf meine"
 	cont "Tasche geklebt."
 	done
@@ -401,7 +401,7 @@ NationalParkPersianText:
 
 NationalParkGameboyKidText:
 	text "Ich drucke meinen"
-	line "#DEX aus."
+	line "#dex aus."
 
 	para "Du kannst auch"
 	line "BRIEFE oder"

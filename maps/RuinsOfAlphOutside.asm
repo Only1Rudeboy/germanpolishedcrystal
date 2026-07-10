@@ -226,7 +226,7 @@ endr
 
 RuinsOfAlphOutsideScientistText:
 	text "Hm? Das ist doch"
-	line "ein #DEX, nicht"
+	line "ein #dex, nicht"
 	cont "wahr? Darf ich ihn"
 	cont "sehen?"
 

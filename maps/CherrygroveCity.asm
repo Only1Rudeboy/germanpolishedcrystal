@@ -374,7 +374,7 @@ GuideGentGiftText:
 
 
 GotMapCardText:
-	text "Der #COM von"
+	text "Der #Com von"
 	line "<PLAYER> verfügt"
 	cont "nun über eine"
 	cont "KARTE!"
@@ -383,7 +383,7 @@ GotMapCardText:
 
 
 GuideGentPokegearText:
-	text "Der #COM wird"
+	text "Der #Com wird"
 	line "vielseitiger, wenn"
 	cont "du ihn mit MODULEN"
 	cont "erweiterst."

@@ -249,7 +249,7 @@ OakLabPartyAndBoxFullText:
 
 OakLabDexCheckText:
 	text "Wie geht es mit"
-	line "dem #DEX voran?"
+	line "dem #dex voran?"
 
 	para "Mal sehen…"
 	done
@@ -264,7 +264,7 @@ OakLabCatchMoreText:
 
 	para "Hilfe beim"
 	line "Ausfüllen des"
-	cont "#DEX."
+	cont "#dex."
 
 	para "Nimm das als"
 	line "Belohnung für"
@@ -308,7 +308,7 @@ OakLabOvalCharmText:
 
 OakLabCaughtAllText:
 	text "Ich hatte recht,"
-	line "dir den #DEX"
+	line "dir den #dex"
 
 	para "zu geben."
 
@@ -528,7 +528,7 @@ OaksAssistant2Text:
 	line "des PROFESSORs"
 	cont "kommen dank deiner"
 
-	para "Arbeit am #DEX"
+	para "Arbeit am #dex"
 	line "sehr gut voran."
 	done
 
