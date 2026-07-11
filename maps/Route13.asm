@@ -341,7 +341,7 @@ Route13TrainerTips2Text:
 Route13SignText:
 	text "ROUTE 13"
 
-	para "NOERDLICH ZUR"
+	para "NÖRDLICH ZUR"
 	line "SCHWEIGEBRÜCKE"
 	done
 

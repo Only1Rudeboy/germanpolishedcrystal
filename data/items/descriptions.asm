@@ -1577,12 +1577,12 @@ RedScaleDesc:
 	done
 
 CardKeyDesc:
-	text "Oeffnet Rollläden"
+	text "Öffnet Rollläden"
 	next "im Radioturm."
 	done
 
 BasementKeyDesc:
-	text "Oeffnet Türen."
+	text "Öffnet Türen."
 	done
 
 SSTicketDesc:

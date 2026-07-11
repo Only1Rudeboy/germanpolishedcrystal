@@ -2047,7 +2047,7 @@ ElmsLabTravelTip3Text:
 
 	para "Reise-Tipp 3:"
 
-	para "Oeffne deinen"
+	para "Öffne deinen"
 	line "BEUTEL und drücke"
 	cont "SELECT, um deine"
 	cont "Items zu"

@@ -192,7 +192,7 @@ BossDoor:
 	text "Die Tür ist"
 	line "verschlossen…"
 
-	para "Zum Oeffnen werden"
+	para "Zum Öffnen werden"
 	line "zwei Passwörter"
 	cont "benötigt."
 	done

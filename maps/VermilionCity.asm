@@ -241,7 +241,7 @@ VermilionMachokeOwnerScript:
 	line "Gebäude vor!"
 
 	para "Schade, dass die"
-	line "Oeffentlichkeit"
+	line "Öffentlichkeit"
 	cont "noch nicht rein"
 	cont "darf…"
 	done
