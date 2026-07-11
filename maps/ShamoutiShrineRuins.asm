@@ -131,7 +131,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	line "die drei"
 	cont "geflügelten"
 
-	para "Trugbilder-die"
+	para "Trugbilder, die"
 	line "Vögel aus Feuer,"
 
 	para "Eis und Blitz--"

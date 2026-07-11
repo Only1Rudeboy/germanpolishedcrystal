@@ -244,8 +244,8 @@ AcademyEarlTeachMoreText:
 
 
 AcademyEarlNoMoreToTeachText:
-	text "Ach! Du bist eine"
-	line "schlaue Schüler!"
+	text "Ach! Du bist ein"
+	line "schlauer Schüler!"
 	cont "Isch kann dir nun"
 	cont "nischts mehr"
 	cont "beibringen."

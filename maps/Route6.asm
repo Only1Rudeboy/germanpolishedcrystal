@@ -110,7 +110,7 @@ GenericTrainerTwinsDayanddani2:
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: Wir schlagen"
+	text "Dani: Wir hauen"
 	line "dich um!"
 	done
 

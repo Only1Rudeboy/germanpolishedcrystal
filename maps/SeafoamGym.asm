@@ -197,7 +197,7 @@ ScientistLindenSeenText:
 	text "Wir verloren die"
 	line "ARENA auf der"
 	cont "ZINNOBERINSEL,"
-	cont "kamten aber hier."
+	cont "kamen aber hier."
 	done
 
 ScientistLindenBeatenText:

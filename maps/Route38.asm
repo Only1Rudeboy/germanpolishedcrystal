@@ -265,13 +265,13 @@ GenericTrainerBeautyValencia:
 GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
 
-	text "Moomoo Milk is"
-	line "good for beauty"
-	cont "and health."
+	text "Kuhmuh-Milch tut"
+	line "Schönheit und"
+	cont "Gesundheit gut."
 
-	para "I like to buy a"
-	line "dozen bottles at a"
-	cont "time!"
+	para "Am liebsten kaufe"
+	line "ich gleich ein"
+	cont "Dutzend Flaschen!"
 	done
 
 Bird_keeperTobySeenText:

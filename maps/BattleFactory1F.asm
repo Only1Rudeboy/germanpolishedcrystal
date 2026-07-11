@@ -196,8 +196,9 @@ BattleFactory1FReceptionistScript:
 		para "Um eine Sitzung zu"
 		line "unterbrechen,"
 
-		para "musst du speichern"
-		line "Sonst kannst du"
+		para "musst du"
+		line "speichern. Sonst"
+		cont "kannst du"
 
 		para "deinen Durchgang"
 		line "nicht fortsetzen."

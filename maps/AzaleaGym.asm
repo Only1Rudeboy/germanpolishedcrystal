@@ -172,7 +172,7 @@ AzaleaGymGuyScript:
 .WinText:
 	text "Gut gemacht! Das"
 	line "war ein toller"
-	cont "Kampf junger,"
+	cont "Kampf, junger,"
 
 	para "talentierter"
 	line "Trainer."

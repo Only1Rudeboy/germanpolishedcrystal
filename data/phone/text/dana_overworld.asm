@@ -23,11 +23,11 @@ DanaAskNumber2Text:
 
 DanaNumberAcceptedText:
 	text "Wenn ein Junge mir"
-	line "was gibt nach"
-	cont "einem"
+	line "nach einem Kampf"
+	cont "was gibt,"
 
-	para "Kampf, teile ich!"
-	line "Ist das schlimm?"
+	para "teile ich! Ist das"
+	line "schlimm?"
 	done
 
 DanaNumberDeclinedText:

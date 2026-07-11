@@ -111,9 +111,9 @@ Route19BeachHouseVictorScript:
 	para "Ich fand Puka vor"
 	line "Jahren angespült"
 	cont "am Strand, und"
-	cont "seit"
+	cont "seitdem"
 
-	para "dem sind wir"
+	para "sind wir"
 	line "Partner."
 	done
 

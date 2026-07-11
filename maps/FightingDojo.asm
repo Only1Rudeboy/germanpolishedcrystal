@@ -561,7 +561,7 @@ PalmerText_Greeting:
 	para "einander Respekt."
 
 	para "Indem sie als"
-	line "echte #-mon-"
+	line "echte #mon-"
 
 	para "Schüler mit vollem"
 	line "Einsatz kämpfen!"

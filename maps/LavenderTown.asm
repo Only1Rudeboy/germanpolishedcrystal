@@ -184,8 +184,8 @@ KantoRadioStationSignText:
 
 	para "Deine"
 	line "Lieblingsprogramme"
-	cont "zu jeder Tagesund"
-	cont "Nachtzeit!"
+	cont "zu jeder Tages-"
+	cont "und Nachtzeit!"
 	done
 
 
@@ -207,7 +207,7 @@ SoulHouseSignText:
 
 	para "Mögen die Seelen"
 	line "der #mon hier"
-	cont "in Frieden Ruhen"
+	cont "in Frieden ruhen"
 	done
 
 

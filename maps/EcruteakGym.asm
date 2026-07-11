@@ -114,7 +114,8 @@ EcruteakGymMortyScript:
 	line "Verursacht Schaden"
 
 	para "und kann die"
-	line "Spezial-Vert"
+	line "Spezial-"
+	cont "Verteidigung"
 
 	para "senken. Nutze es,"
 	line "wenn es dir"

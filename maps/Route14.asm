@@ -125,7 +125,7 @@ Bird_keeperRoyBeatenText:
 GenericTrainerBird_keeperJosh:
 	generictrainer BIRD_KEEPER, BIRD_KEEPER_JOSH, EVENT_BEAT_BIRD_KEEPER_JOSH, .SeenText, .BeatenText
 
-	text "Vielleicht sollt"
+	text "Vielleicht sollte"
 	line "ich lügen und"
 	cont "sagen, ich bin im"
 	cont "Schwergewicht…"
@@ -195,7 +195,7 @@ GenericTrainerSchoolboyTorin:
 GenericTrainerSchoolboyTravis:
 	generictrainer SCHOOLBOY, TRAVIS, EVENT_BEAT_SCHOOLBOY_TRAVIS, .SeenText, .BeatenText
 
-	text "Vielleicht sollt"
+	text "Vielleicht sollte"
 	line "ich zu deinen"
 	cont "Lerngruppen"
 	cont "kommen!"

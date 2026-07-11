@@ -92,7 +92,7 @@ AzaleaPokeCenter1FSightseermText:
 	line "das System zum"
 
 	para "Aufbewahren von"
-	line "#mon in einer"
+	line "#mon in einem"
 	cont "PC entwickelt."
 
 	para "Bills PC kann bis"

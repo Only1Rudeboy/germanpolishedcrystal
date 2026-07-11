@@ -23,7 +23,7 @@ PokemonJournalProfWillowScript:
 	text "#mon Journal"
 
 	para "Spezial:"
-	line "Prof.Willow!"
+	line "Prof. Willow!"
 
 	para "Man sagt, Prof."
 	line "Willows Traum sei"

@@ -46,8 +46,8 @@ ScientistBraydonSeenText:
 	done
 
 ScientistBraydonBeatenText:
-	text "Whew!"
-	line "Overwhelming!"
+	text "Puh!"
+	line "Überwältigend!"
 	done
 
 PokemonMansionDiaryText:

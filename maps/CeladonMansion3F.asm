@@ -198,7 +198,7 @@ GameFreakProgrammerText:
 	text "Wer, ich? Ich bin"
 	line "der Programmierer."
 
-	para "Nutzt das"
+	para "Nutze das"
 	line "Wundertausch-"
 	cont "Terminal!"
 	done

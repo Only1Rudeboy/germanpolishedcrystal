@@ -118,7 +118,7 @@ CeladonUniversityLibrary1FCooltrainermScript:
 	text "Willst du, dass"
 	line "deine #mon"
 
-	para "durchhalten, gib"
+	para "durchhalten? Gib"
 	line "ihnen dieses"
 	cont "Fokusband."
 	done

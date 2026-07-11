@@ -39,10 +39,10 @@ BethLostAMonText:
 	text "."
 
 	para "Ich wollte es"
-	line "fangen, aber mir"
+	line "fangen, aber ich"
 
-	para "waren keine #"
-	line "Bälle mehr da."
+	para "hatte keine #"
+	line "Bälle mehr."
 
 	para "Prüf deine Items,"
 	line "sonst fehlen sie"

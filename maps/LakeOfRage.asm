@@ -270,8 +270,8 @@ LakeOfRageRedGyaradosScript:
 	text "GARADOS: Gashaa!"
 	done
 .RedScaleText:
-	text "<PLAYER> found Red"
-	line "Scale."
+	text "<PLAYER> fand Rote"
+	line "Schuppe."
 	done
 
 WesleyScript:

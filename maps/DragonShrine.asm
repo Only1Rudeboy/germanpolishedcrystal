@@ -640,7 +640,7 @@ DragonShrineIUnderstandText:
 
 
 DragonShrineHereRisingBadgeText:
-	text "Hier das ist der"
+	text "Hier, das ist der"
 	line "DRACHENORDEN…"
 
 	para "Jetzt nimm schon!"

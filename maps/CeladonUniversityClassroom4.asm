@@ -158,7 +158,7 @@ CeladonUniversityClassroom4RaymondScript:
 CeladonUniversityClassroom4CandelaText:
 	text "Hallo! Ich bin"
 	line "Candela. Ich lehre"
-	cont "#mon- Kampf!"
+	cont "#mon-Kampf!"
 
 	para "Ich erforsche"
 	line "Wege, die"

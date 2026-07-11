@@ -175,21 +175,21 @@ MoomooHappyMooText:
 
 
 Text_AskGiveBerry:
-	text "Give an Oran or"
-	line "Sitrus Berry to"
-	cont "Miltank?"
+	text "MILTANK eine"
+	line "Oranbeere oder"
+	cont "Sitrusbeere geben?"
 	done
 
 Text_GaveOranBerry:
-	text "<PLAYER> gave an"
-	line "Oran Berry to"
-	cont "Miltank."
+	text "<PLAYER> gibt"
+	line "MILTANK eine"
+	cont "Oranbeere."
 	done
 
 Text_GaveSitrusBerry:
-	text "<PLAYER> gave a"
-	line "Sitrus Berry to"
-	cont "Miltank."
+	text "<PLAYER> gibt"
+	line "MILTANK eine"
+	cont "Sitrusbeere."
 	done
 
 Text_LittleHealthier:
@@ -205,9 +205,9 @@ Text_TotallyHealthy:
 	line "gesund geworden!"
 	done
 Text_NoBerries:
-	text "<PLAYER> has no"
-	line "Oran or Sitrus"
-	cont "Berries…"
+	text "<PLAYER> hat keine"
+	line "Oranbeere oder"
+	cont "Sitrusbeere…"
 	done
 
 Text_RefusedToGiveBerry:

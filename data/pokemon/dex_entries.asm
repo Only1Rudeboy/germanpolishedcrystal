@@ -482,8 +482,8 @@ VenomothPokedexEntry::
 	next "es verstreut,"
 	next "lähmen jeden,"
 	page "der sie berührt und"
-	next "muss sich"
-	next "hinsetzen.@"
+	next "sich hinsetzen"
+	next "muss.@"
 
 SECTION "DiglettPlainPokedexEntry", ROMX
 DiglettPlainPokedexEntry::
@@ -1206,9 +1206,11 @@ MrMimePlainPokedexEntry::
 	text "Es setzt die"
 	next "mystische Kraft"
 	next "seiner Finger ein,"
-	page "um durch Kompres-"
-	next "sion eine Wand aus"
-	next "unsichtbarer Luft.@"
+	page "um durch"
+	next "Kompression eine"
+	next "Wand aus"
+	next "unsichtbarer Luft"
+	next "zu bilden.@"
 
 SECTION "ScytherPokedexEntry", ROMX
 ScytherPokedexEntry::
@@ -1228,7 +1230,8 @@ JynxPokedexEntry::
 	next "Rufe aus."
 	page "Es scheint, dass"
 	next "jeder Ruf eine"
-	next "andere Bedeutung.@"
+	next "andere Bedeutung"
+	next "hat.@"
 
 SECTION "ElectabuzzPokedexEntry", ROMX
 ElectabuzzPokedexEntry::
@@ -2872,7 +2875,7 @@ SandshrewAlolanPokedexEntry::
 	next "Stahl-"
 	page "panzer ist so hart,"
 	next "dass es sich nicht"
-	next "rollen.@"
+	next "rollen kann.@"
 
 SECTION "SandslashAlolanPokedexEntry", ROMX
 SandslashAlolanPokedexEntry::
@@ -3050,7 +3053,7 @@ if DEF(FAITHFUL)
 else
 	db "Hocker@"
 endc
-	text "Ein Muschas- Biss"
+	text "Ein Muschas-Biss"
 	next "löste eine"
 	next "chemische"
 	page "Reaktion aus, die"
@@ -3218,8 +3221,9 @@ TaurosPaldeanFirePokedexEntry::
 	db "Wildstier@"
 	text "Die Hörner der"
 	next "“Feuerrasse” errei-"
-	page "chen über 1800 Grad"
-	next "das verbrennt!@"
+	page "chen über 1800"
+	next "Grad, das"
+	next "verbrennt!@"
 
 SECTION "TaurosPaldeanWaterPokedexEntry", ROMX
 TaurosPaldeanWaterPokedexEntry::

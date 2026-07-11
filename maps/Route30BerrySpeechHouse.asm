@@ -27,8 +27,9 @@ Route30BerryHousePokefanMScript:
 .GotMulch:
 	jumpthisopenedtext
 
-	text "I buy top-quality"
-	line "Mulch in Goldenrod"
+	text "Ich kaufe"
+	line "erstklassigen"
+	cont "Dünger in Dukatia"
 	cont "City."
 	done
 

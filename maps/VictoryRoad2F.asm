@@ -211,5 +211,5 @@ VeteranfJonetSeenText:
 VeteranfJonetBeatenText:
 	text "Ich hätte gewonnen"
 	line "mit einem"
-	cont "Legendär- #mon…"
+	cont "Legendär-#mon…"
 	done

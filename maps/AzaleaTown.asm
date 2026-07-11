@@ -163,7 +163,7 @@ AzaleaTownRivalBattleTrigger2:
 	text "Ich hasse"
 	line "Schwäche."
 
-	para "#mon, Trainer"
+	para "#mon, Trainer,"
 	line "es ist egal, wer"
 	cont "oder was."
 
@@ -174,8 +174,8 @@ AzaleaTownRivalBattleTrigger2:
 	para "Das gilt auch für"
 	line "Team Rocket."
 
-	para "Sie geben groß an"
-	line "in der Gruppe."
+	para "Sie geben in der"
+	line "Gruppe groß an."
 
 	para "Doch allein sind"
 	line "sie schwach."
@@ -324,7 +324,7 @@ AzaleaTownGrampsScript:
 	text "Die Flegmon sind"
 	line "zurück."
 
-	para "Typisch für sie"
+	para "Typisch für sie,"
 	line "sie haben wohl nur"
 
 	para "irgendwo"
@@ -417,9 +417,9 @@ AzaleaTownRocket2Text:
 	line "Flegmonschwanz? Er"
 	cont "soll lecker sein!"
 
-	para "Bist du nicht froh"
-	line "dass ich's dir"
-	cont "gesagt hab?"
+	para "Bist du nicht"
+	line "froh, dass ich's"
+	cont "dir gesagt hab?"
 	done
 
 AzaleaTownSlowpokeScript:

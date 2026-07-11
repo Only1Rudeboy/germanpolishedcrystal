@@ -297,7 +297,7 @@ SaffronCityScientistText:
 	para "arbeiten wir"
 	line "unermüdlich an"
 	cont "seinem"
-	cont "Nachfolger-dem"
+	cont "Nachfolger, dem"
 	cont "SILPH-SCOPE2!"
 	done
 

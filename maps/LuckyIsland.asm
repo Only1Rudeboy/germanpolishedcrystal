@@ -209,5 +209,5 @@ LuckyIslandLuckyEgg:
 
 .Text:
 	text "<PLAYER> fand"
-	line "Lucky Egg!"
+	line "Glücks-Ei!"
 	done

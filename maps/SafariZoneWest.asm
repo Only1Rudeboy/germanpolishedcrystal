@@ -129,7 +129,6 @@ SafariZoneWestTrainerTips2SignText:
 	line "Sandsturm erhalten"
 
 	para "Gestein-#mon"
-	line "erhalten einen"
-	cont "Bonus auf ihre"
-	cont "Spezial-Vert."
+	line "einen Bonus auf"
+	cont "ihre Spezial-Vert."
 	done

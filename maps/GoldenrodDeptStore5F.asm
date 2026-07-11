@@ -147,7 +147,7 @@ GoldenrodDeptStore5FPokefanMText:
 	line "die Gefühle des"
 
 	para "Original-Trainers"
-	line "wieder."
+	line "wider."
 	done
 
 

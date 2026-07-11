@@ -71,7 +71,7 @@ CeladonUniversity1FLassText:
 
 CeladonUniversity1FCooltrainermText:
 	text "Hier ist jeder ein"
-	line "#mon- Trainer."
+	line "#mon-Trainer."
 
 	para "Um hier"
 	line "aufgenommen zu"

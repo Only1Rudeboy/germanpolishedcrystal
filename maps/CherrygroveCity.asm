@@ -462,8 +462,8 @@ CherrygroveRivalTextAfter2:
 
 CherrygroveTeacherText_HaveMapCard:
 	text "Du kannst gehen,"
-	line "wohin du willst"
-	cont "solange du mit"
+	line "wohin du willst."
+	cont "Solange du mit"
 	cont "#mon unterwegs"
 	cont "bist, wird es"
 	cont "immer lustig sein."
@@ -516,7 +516,7 @@ CherrygroveCitySignText:
 
 GuideGentsHouseSignText:
 	text "HAUS DES"
-	line "FREMDENFÜHRERs"
+	line "FREMDENFÜHRERS"
 	done
 
 
@@ -525,9 +525,9 @@ CherrygroveCityAdvancedTipsSignText:
 	text "Erweiterte Tipps!"
 
 	para "In #mon-Märkten"
-	line "bekommst du einen"
+	line "bekommst du"
 
-	para "Gratis einen"
+	para "gratis einen"
 	line "Premierball, wenn"
 	cont "du zehn #BÄLLE"
 	cont "kaufst!"

@@ -431,7 +431,7 @@ GenericTrainerCooltrainerfCybil:
 	line "Kämpfe"
 	cont "ausgetragen, um"
 	cont "das zu werden, was"
-	cont "ich heute bin ein"
+	cont "ich heute bin: ein"
 	cont "Profi."
 	done
 GenericTrainerPokemaniacZach:

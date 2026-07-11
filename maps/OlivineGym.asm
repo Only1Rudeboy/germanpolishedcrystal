@@ -46,7 +46,7 @@ OlivineGymJasmineScript:
 	jumpthisopenedtext
 
 	text "…Mit dieser TM"
-	line "kannst du deinen"
+	line "kannst du dein"
 	cont "#mon EISEN-"
 	cont "SCHWEIF lehren."
 	done
@@ -148,8 +148,7 @@ Jasmine_SteelTypeIntro:
 	cont "TURM…"
 
 	para "Erlaube mir, mich"
-	line "vorstellen zu"
-	cont "dürfen!"
+	line "vorzustellen!"
 
 	para "Ich bin JASMIN,"
 	line "eine ARENALEITE-"

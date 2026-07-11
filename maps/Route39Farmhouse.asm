@@ -88,8 +88,8 @@ FarmerMScript_SellMilk:
 .BagFull:
 	jumpthisopenedtext
 
-	text "I reckon yer Bag's"
-	line "full."
+	text "Ich schätz, dein"
+	line "BEUTEL ist voll."
 	done
 
 .MenuDataHeader:

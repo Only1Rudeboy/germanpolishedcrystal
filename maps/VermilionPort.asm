@@ -215,7 +215,7 @@ VermilionPortDepartingText:
 
 
 VermilionPortAskBoardingText:
-	text "Willkommen auf "
+	text "Willkommen auf"
 	line "dem SCHNELLBOOT"
 	cont "M.S. AQUA."
 
@@ -247,7 +247,7 @@ VermilionPortSSTicketText:
 
 VermilionPortNoTicketText:
 	text "<PLAYER> sucht das"
-	line "BOOTS- TICKET…"
+	line "BOOTSTICKET…"
 
 	para "…Kein TICKET!"
 

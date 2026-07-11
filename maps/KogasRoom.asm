@@ -110,7 +110,7 @@ KogaScript:
 	para "Bei #mon geht"
 	line "es nicht nur um"
 
-	para "Kraft allein das"
+	para "Kraft allein. Das"
 	line "wirst du noch"
 	cont "herausfinden!"
 	done

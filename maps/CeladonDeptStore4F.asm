@@ -125,7 +125,7 @@ BoughtMarillPosterText:
 	done
 
 MarillPosterSentText:
-	text "Das Marill- Poster"
+	text "Das Marill-Poster"
 	line "wurde nach Hause"
 	cont "geschickt."
 	done
@@ -155,8 +155,8 @@ PikachuPosterSentText:
 
 CeladonDeptStore4FSuperNerdText:
 	text "Ich bin hier, um"
-	line "Herzbrief für"
-	cont "meine Freundin"
+	line "einen Herzbrief"
+	cont "für meine Freundin"
 
 	para "zu kaufen."
 	done

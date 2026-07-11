@@ -10,7 +10,7 @@ VanceMonHasBecomeTougherText:
 VanceDefeatedMonText:
 	text "Wir besiegen "
 	text_ram wStringBuffer4
-	text "! leicht!"
+	text " leicht!"
 
 	para "…Häh? Du auch? Ist"
 	line "das nicht toll?"

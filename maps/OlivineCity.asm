@@ -422,8 +422,8 @@ OlivineCityLass2Text:
 	cont "ein schüchternes"
 	cont "Mädchen."
 
-	para "Aber sie ist keine"
-	line "Leichtigkeit!"
+	para "Aber sie ist kein"
+	line "Leichtgewicht!"
 	done
 
 OlivineCitySignText:

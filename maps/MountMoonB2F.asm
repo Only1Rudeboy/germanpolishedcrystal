@@ -63,7 +63,7 @@ GenericTrainerHexManiacEsther:
 	text "Spieglein,"
 	line "Spieglein groß und"
 
-	para "weis, sah meine"
+	para "weiß, sah meine"
 	line "schnelle"
 	cont "Niederlage nicht"
 	cont "voraus."

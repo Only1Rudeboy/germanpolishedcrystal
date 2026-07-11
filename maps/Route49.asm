@@ -55,7 +55,7 @@ GenericTrainerSightseermHari:
 	done
 
 .SeenText:
-	text "Hey! Ich bin her,"
+	text "Hey! Ich bin hier,"
 	line "um Prof.Ivy zu"
 	cont "treffen!"
 	done
@@ -92,7 +92,7 @@ GenericTrainerAromaLadyPeony:
 	generictrainer AROMA_LADY, PEONY, EVENT_BEAT_AROMA_LADY_PEONY, .SeenText, .BeatenText
 
 	text "Meine Blubella"
-	line "liebt es hier auf"
+	line "liebt es, hier auf"
 
 	para "dieser friedlichen"
 	line "Insel zu leben."
@@ -123,7 +123,7 @@ GenericTrainerGuitaristmGeddy:
 .SeenText:
 	text "Ich könnte mein"
 	line "Leben wohl besser"
-	cont "leben"
+	cont "leben,"
 
 	para "als ich denke…"
 

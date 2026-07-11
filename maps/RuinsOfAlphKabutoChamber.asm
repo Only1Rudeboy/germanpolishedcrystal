@@ -208,7 +208,7 @@ RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
 	para "scheinen ein"
 	line "Signal zu sein."
 
-	para "Ich glaube sie"
+	para "Ich glaube, sie"
 	line "veranlassen"
 	cont "#mon sich zu"
 	cont "zeigen, aber das"

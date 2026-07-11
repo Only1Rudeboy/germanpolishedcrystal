@@ -196,9 +196,9 @@ PokeDollVendingMachine:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Jigglypuff  ¥2400@"
+	db "Pummeluff   ¥2400@"
 	db "Ditto       ¥2400@"
-	db "Meowth      ¥2400@"
+	db "Mauzi       ¥2400@"
 	db "Cancel@"
 
 GoldenrodDeptStoreRoofPokefanFText:
@@ -238,18 +238,20 @@ GoldenrodDeptStoreRoofFisherDuplicateText:
 	done
 
 GotVoltorbDollText:
-	text "<PLAYER> received"
-	line "Voltorb Doll."
+	text "<PLAYER> erhält"
+	line "Voltobal-Puppe."
 	done
 
 VoltorbDollSentText:
-	text "Voltorb Doll was"
-	line "sent home."
+	text "Voltobal-Puppe"
+	line "wurde nach Hause"
+	cont "geschickt."
 	done
 
 GoldenrodDeptStoreRoofFisherCatchEmAllText:
-	text "I heard there are"
-	line "30 kinds of dolls."
+	text "Ich habe gehört,"
+	line "es gibt 30"
+	cont "Puppenarten."
 	done
 
 GoldenrodDeptStoreRoofTwinText:
@@ -337,7 +339,8 @@ PokeDollVendingMachineText:
 
 
 PokeDollVendingMachineNoMoneyText:
-	text "It costs too much!"
+	text "Das kannst du dir"
+	line "nicht leisten!"
 	done
 
 PokeDollVendingMachineAlreadyBoughtText:
@@ -346,31 +349,34 @@ PokeDollVendingMachineAlreadyBoughtText:
 	done
 
 BoughtJigglypuffDollText:
-	text "<PLAYER> bought"
-	line "Jigglypuff Doll."
+	text "<PLAYER> kaufte"
+	line "Pummeluff-Puppe."
 	done
 
 JigglypuffDollSentText:
-	text "Jigglypuff Doll"
-	line "was sent home."
+	text "Pummeluff-Puppe"
+	line "wurde nach Hause"
+	cont "geschickt."
 	done
 
 BoughtDittoDollText:
-	text "<PLAYER> bought"
-	line "Ditto Doll."
+	text "<PLAYER> kaufte"
+	line "Ditto-Puppe."
 	done
 
 DittoDollSentText:
-	text "Ditto Doll was"
-	line "sent home."
+	text "Ditto-Puppe wurde"
+	line "nach Hause"
+	cont "geschickt."
 	done
 
 BoughtMeowthDollText:
-	text "<PLAYER> bought"
-	line "Meowth Doll."
+	text "<PLAYER> kaufte"
+	line "Mauzi-Puppe."
 	done
 
 MeowthDollSentText:
-	text "Meowth Doll was"
-	line "sent home."
+	text "Mauzi-Puppe wurde"
+	line "nach Hause"
+	cont "geschickt."
 	done

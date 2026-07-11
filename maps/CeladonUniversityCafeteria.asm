@@ -84,7 +84,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	cont "Prismania-Uni."
 
 	para "Man kennt uns als"
-	line "Prismania-Vier!"
+	line "Prismanias Vier!"
 
 	para "Lass mich zeigen,"
 	line "wie wir den Titel"
@@ -96,7 +96,7 @@ CeladonUniversityCafeteriaCoreyScript:
 .IntroText2:
 	text "Ich bin Corey!"
 	line "Einer der"
-	cont "Prismania-Vier!"
+	cont "Prismanias Vier!"
 
 	para "Du forderst uns"
 	line "alle vier heraus?"
@@ -129,7 +129,7 @@ CeladonUniversityCafeteriaCoreyScript:
 
 	para "Aber ich bin nur"
 	line "einer der"
-	cont "Prismania-Vier."
+	cont "Prismanias Vier."
 
 	para "Sucht die anderen,"
 	line "um deine Stärke"
@@ -140,7 +140,7 @@ CeladonUniversityCafeteriaCoreyScript:
 
 .AfterText2:
 	text "Du hast alle vier"
-	line "Prismania-Vier"
+	line "Prismanias Vier"
 	cont "besiegt?"
 
 	para "Glückwunsch!"

@@ -101,7 +101,7 @@ ViridianSchoolHouseLass2Text:
 
 ViridianSchoolHouseBlackboardText:
 	text "Physische Attacken"
-	line "nutzen ANGRund"
+	line "nutzen ANGR und"
 	cont "VERT-Werte."
 
 	para "Spezial-Attacken"

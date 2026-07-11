@@ -151,7 +151,7 @@ HikerSteveBeatenText:
 	done
 
 PsychicVirgilSeenText:
-	text "Shh! Be quiet!"
+	text "Pst! Sei leise!"
 	done
 
 PsychicVirgilBeatenText:

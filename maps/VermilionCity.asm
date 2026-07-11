@@ -316,7 +316,7 @@ LawrenceIntroText:
 	cont "Leidenschaft."
 
 	para "Ich fuhr mit der"
-	line "SEAGALLOP- Fähre"
+	line "SEAGALLOP-Fähre"
 	cont "zur"
 
 	para "Shamouti-Insel,"

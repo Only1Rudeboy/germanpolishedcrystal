@@ -228,8 +228,8 @@ TrainerHouseB1FOpponentBeforeText:
 	cont "kämpfen."
 	done
 TrainerHouseB1FEarnedBattlePointText:
-	text "<PLAYER> earned 1"
-	line "BP!"
+	text "<PLAYER> erhält 1"
+	line "Kampfpunkt!"
 	done
 
 GetDailyTrainerHouseOpponent:

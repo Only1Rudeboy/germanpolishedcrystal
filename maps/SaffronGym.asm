@@ -109,8 +109,8 @@ GenericTrainerMediumDoris:
 GenericTrainerPsychicLeon:
 	generictrainer PSYCHIC_T, LEON, EVENT_BEAT_PSYCHIC_LEON, PsychicLeonSeenText, PsychicLeonBeatenText
 
-	text "Sabrina's power is"
-	line "greater than mine!"
+	text "Sabrinas Kraft ist"
+	line "stärker als meine!"
 	done
 
 GenericTrainerPsychicJared:

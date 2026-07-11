@@ -286,9 +286,9 @@ EcruteakDanceTheaterSign:
 BurnedTowerSign:
 	text "TURMRUINE"
 
-	para "Er wurde durch ein"
-	line "mysteriöses Feuer"
-	cont "zerstört."
+	para "Sie wurde durch"
+	line "ein mysteriöses"
+	cont "Feuer zerstört."
 
 	para "Bitte nicht"
 	line "betreten!"

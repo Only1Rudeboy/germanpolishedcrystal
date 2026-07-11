@@ -34,8 +34,9 @@ ViridianNicknameSpeechHousePokefanMText:
 
 
 ViridianNicknameSpeechHouseLassText:
-	text "Das sind HABBI-ein"
-	line "HABITAK--und"
+	text "Das sind"
+	line "HABBI--ein"
+	cont "HABITAK--und"
 	cont "FRATZI--ein"
 	cont "RATTFRATZ."
 	done

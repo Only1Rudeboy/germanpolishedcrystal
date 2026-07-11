@@ -2760,7 +2760,7 @@ _PokecenterPlayersPCText::
 	text "Eigenen PC"
 	line "aufgerufen."
 
-	para "Item-Depot- System"
+	para "Item-Depot-System"
 	line "geöffnet."
 	prompt
 

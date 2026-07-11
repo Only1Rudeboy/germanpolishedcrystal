@@ -131,10 +131,10 @@ NursePokerusText:
 	cont "scheinen fit."
 
 	para "Aber wir können"
-	line "nicht mehr sagen"
+	line "dir in einem"
 
-	para "in einem #mon"
-	line "Center."
+	para "#mon-Center"
+	line "nicht mehr sagen."
 	done
 
 PokeComNursePokerusText:

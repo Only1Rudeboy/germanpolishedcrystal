@@ -511,6 +511,7 @@ else
 	text "Als der GONG-"
 endc
 	line "TURM abbrannte,"
+	cont "sollen"
 
 	para "drei namenlose"
 	line "#mon im Feuer"

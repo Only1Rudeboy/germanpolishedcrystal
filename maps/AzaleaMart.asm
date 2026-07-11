@@ -50,7 +50,7 @@ AzaleaMartLadyText:
 	para "Feuer-Attacken ist"
 	line "nichts besser"
 
-	para "als Azalias"
+	para "als Azaleas"
 	line "Holzkohle!"
 	done
 

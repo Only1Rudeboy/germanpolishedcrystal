@@ -128,7 +128,7 @@ BugManiacEllisSeenText:
 	text "Nichts ist"
 	line "effektiver und"
 	cont "schöner als ein"
-	cont "Käfer- #mon."
+	cont "Käfer-#mon."
 	done
 
 BugManiacEllisBeatenText:
@@ -141,7 +141,7 @@ BugManiacAbnerSeenText:
 	line "Käfer-#mon"
 
 	para "lieber als weiche"
-	line "Käfer- #mon."
+	line "Käfer-#mon."
 	done
 
 BugManiacAbnerBeatenText:

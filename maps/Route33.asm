@@ -176,8 +176,8 @@ SchoolgirlImogenSeenText:
 	cont "meiner Klasse."
 	done
 SchoolgirlImogenBeatenText:
-	text "So there are"
-	line "better trainers…"
+	text "Es gibt also doch"
+	line "bessere Trainer…"
 	done
 
 Route33SignText:

@@ -241,7 +241,7 @@ BlackthornGramps2Text:
 	line "erlaubt, erlaubt"
 	cont "es auch ihr"
 
-	para "Großvater-unser"
+	para "Großvater, unser"
 	line "Meister."
 
 	para "Du darfst"
