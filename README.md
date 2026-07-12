@@ -32,26 +32,35 @@ Die vorherige offizielle Version war [v3.1.1](https://github.com/Rangi42/polishe
 
 ## Was wurde übersetzt?
 
-Die komplette deutsche Lokalisierung umfasst alle sichtbaren Spieltexte: Dialoge auf allen Karten, Item-, Attacken- und Fähigkeitsbeschreibungen, Pokédex-Einträge, Kampftexte, Telefon-/Mail-Texte sowie das komplette Menü- und UI-System (Taschenmenü, PC-Box, Pokémon-Zusammenfassung, Optionen, Startbildschirm-Einstellungen usw.).
+Die komplette deutsche Lokalisierung umfasst alle sichtbaren Spieltexte: Dialoge auf allen Karten, Item-, Attacken- und Fähigkeitsbeschreibungen, Pokédex-Einträge, Kampftexte, Telefon-/Mail-Texte sowie das komplette Menü- und UI-System (Taschenmenü, PC-Box, Pokémon-Zusammenfassung, Optionen, Startbildschirm-Einstellungen usw.). Im Folgenden eine vollständige, chronologische Übersicht über die Arbeit, die seit Projektbeginn in die Übersetzung geflossen ist.
 
-Kurzer Überblick über die wichtigsten Arbeitsschritte:
+**Ersttexterstellung.** Der gesamte Spieltext wurde von Grund auf ins Deutsche übersetzt, inklusive aller Karten (`maps/`) und sämtlicher Datentabellen (`data/`) – also Item-Beschreibungen, Attacken- und Fähigkeitstexte, Pokédex-Einträge und mehr. Das war die Grundlage, auf der alle weiteren Runden aufgebaut haben.
 
-- **Vollständige Ersttexterstellung** des gesamten Spieltexts ins Deutsche, inklusive aller Karten (`maps/`) und Datentabellen (`data/`).
-- **Mehrere unabhängige Korrekturlese-Runden** (Grammatik, Rechtschreibung, Zeichensetzung), bei denen jeder Änderungsvorschlag gegen eine Liste von über 1.370 offiziellen Eigennamen und dokumentierten Stil-Konventionen geprüft wurde – damit absichtliche Design-Entscheidungen (Sprechweisen einzelner Charaktere, knapper Menü-Stil, feste GROSSSCHREIBUNG bei Spielbegriffen) nicht versehentlich "korrigiert" werden.
-- **Nachträgliche Vollabdeckung des Programmcodes (`engine/`)**: Das komplette Menü- und System-UI war in den ursprünglichen Korrekturrunden nie erfasst worden. Diese Lücke wurde geschlossen und dabei mehrere echte Fehler gefunden und behoben.
-- **Gezielte Suche nach übrig gebliebenem, unübersetztem Englisch** im gesamten Text-Corpus – u. a. ein komplett unübersetztes Museumsschild in Marmoria City und unübersetzter Mail-Item-Text wurden dabei gefunden und nachträglich übersetzt.
-- **Technische Anpassungen**, die für eine korrekte deutsche Darstellung nötig waren:
-  - Neuer Zeichensatz-Eintrag für ein großes „Ö“, das im Original-Font fehlte.
-  - Breitenanpassung der Ja/Nein-Dialogbox, damit „Nein“ nicht abgeschnitten wird.
-  - Behebung eines Kompressions-Bugs (Zeichensatz-Ngram-Unstimmigkeit zwischen Englisch und Deutsch), der zu fehlerhaft dargestelltem Text führen konnte.
-  - Zahlreiche Zeilenumbruch-Anpassungen, da deutsche Wörter im Schnitt länger sind als die englischen Originale und die feste Zeichenbreite pro Textzeile (18–19 Zeichen, je nach Textbox-Typ) sonst überschritten worden wäre.
-  - Korrektur von Groß-/Kleinschreibungs-Inkonsistenzen bei den `#DEX`/`#COM`-Platzhaltern.
-  - Behebung mehrerer UI-Textüberläufe, z. B. zu lange Beschriftungen im „Neues Spiel“-Einstellungsmenü.
-- **„Pokegear“** wurde durchgängig zu **„PokéCom“** umbenannt.
-- Ein kleiner Startbildschirm-Hinweis wurde ergänzt: „DE VERSION: ONLY1_RUDEBOY“, ohne die bestehende Copyright-Zeile zu verändern.
-- Jede Änderung wurde vor der Veröffentlichung mit zwei unabhängigen, komplett neu kompilierten ROM-Builds gegengeprüft (identischer MD5-Hash), um sicherzustellen, dass keine Änderung versehentlich etwas anderes kaputt macht.
+**Zeilenlängen- und Layout-Korrektur.** Deutsche Wörter sind im Schnitt deutlich länger als ihre englischen Originale, wodurch viele Textzeilen die feste Zeichenbreite pro Zeile (18–19 Zeichen, je nach Textbox-Typ) überschritten und abgeschnitten wurden. Diese Überläufe wurden in mehreren Durchgängen aufgespürt und behoben – zunächst 119 gefundene Verstöße, danach eine zweite Batch mit 23 weiteren betroffenen Dateien, gefolgt von einem projektweiten Rescan, der am Ende auf null verbleibende Verstöße kam.
 
-Was die Übersetzung **nicht** anfasst: offizielle Eigennamen, feststehende Spielbegriffe und bewusste stilistische Entscheidungen der Originalübersetzung bleiben unverändert – das Ziel ist eine Übersetzung, die sich liest, als wäre sie offiziell, nicht eine, die alles "eindeutscht".
+**Vollständiger Text-Reflow.** Über den reinen Zeilenlängen-Fix hinaus wurde der komplette Spieltext noch einmal systematisch neu umgebrochen, damit Sätze nicht nur technisch passen, sondern auch natürlich lesbar sind. Getestet wurde das Verfahren zunächst an einer einzelnen Pilotregion (Neubach City/New Bark Town), bevor es aufs gesamte Spiel ausgerollt wurde; dabei wurde auch ein Bug im `line`/`cont`-Textmakro-System gefunden und behoben. Anschließend wurden separat noch einmal gezielt alle Item-, Attacken- und Fähigkeitsbeschreibungen umgebrochen und dabei nebenbei Grammatikfehler korrigiert.
+
+**Zeichensatz- und Encoding-Fixes.** Der ursprüngliche Zeichensatz des Spiels enthielt kein großes „Ö” – dieser Font-Eintrag wurde neu ergänzt. Außerdem wurde ein Kompressions-Bug im Zeichensatz-System gefunden: Ein Unterschied zwischen den für Englisch und Deutsch verwendeten „Ngram”-Tabellen (Zeichenfolgen-Kürzel zur Textkompression) konnte zu fehlerhaft dargestelltem Text führen. Der erste Korrekturversuch stellte sich als unzureichend heraus und musste zurückgenommen werden; erst eine zweite, gründlichere Untersuchung fand die tatsächliche Ursache und behob sie sauber.
+
+**Ja/Nein-Dialogbox.** Das deutsche Wort „Nein” wurde in der Ja/Nein-Auswahlbox abgeschnitten dargestellt. Ein erster, oberflächlicher Patch verbreiterte nur die Box, behob aber nicht die eigentliche Ursache; die spätere, tiefere Untersuchung fand den echten Bug in der Positionierungs-Routine der Box (`GetYesNoBoxPosition`) und behob ihn dort direkt.
+
+**Namenskonsistenz.** „Pokegear” wurde projektweit durchgängig zu „PokéCom” umbenannt (Menütexte, Dialoge, Item-Referenzen). Zusätzlich wurden Groß-/Kleinschreibungs-Inkonsistenzen bei den `#DEX`/`#COM`-Platzhaltern vereinheitlicht.
+
+**Aufbau von Korrekturlese-Infrastruktur.** Für konsistente, nachvollziehbare Korrekturrunden wurde eine Whitelist mit über 1.370 offiziellen Eigennamen sowie ein Dokument mit festgelegten Stil-Konventionen (z. B. absichtliche GROSSSCHREIBUNG bei Spielbegriffen, knapper Menü-Stil, feste Sprechweisen einzelner Charaktere) erstellt. Jeder Korrekturvorschlag wird seitdem gegen diese Liste geprüft, damit bewusste Design-Entscheidungen nicht versehentlich “korrigiert” werden. Zusätzlich wurde ein eigenes Skript gebaut, das Text direkt aus den `.asm`-Dateien extrahiert und in prüfbare Sätze zerlegt, sowie die Verfügbarkeit von LanguageTool (ein Grammatikprüf-Tool) für Stichprobenkontrollen evaluiert.
+
+**Mehrstufige Korrekturlese-Runden.** Der komplette Text wurde in mehreren voneinander unabhängigen Runden gegengelesen: zunächst zehn parallele, KI-gestützte Korrekturdurchgänge („Muttersprachler-Stil”-Prüfung) mit insgesamt 97 gemeldeten Fundstellen, von denen jede einzelne manuell geprüft und nur bei tatsächlicher Berechtigung übernommen wurde. Es folgte ein rein deterministischer, skriptbasierter Scan des gesamten Text-Corpus (kein Sprachmodell, reines Mustersuchen) kombiniert mit LanguageTool-Stichproben, dann eine zweite, komplett unabhängige weitere Korrekturrunde, deren Ergebnisse mit der ersten zusammengeführt und erneut manuell trianiert wurden. Danach folgte eine dritte Runde mit gezieltem Tiefen-Review der textlich umfangreichsten Dateien.
+
+**Schließen der Programmcode-Lücke.** Das komplette Menü- und System-UI (`engine/`-Verzeichnis: Taschenmenü, PC-Box, Zusammenfassungs-Bildschirm, Optionsmenüs usw.) war in den ursprünglichen Korrekturrunden nie erfasst worden, da sich diese auf die Karten- und Datentexte konzentriert hatten. Diese Lücke wurde in einer eigenen Runde vollständig geschlossen und dabei zwei echte Fehler gefunden: ein unvollständiger Satz in der PC-Box-Beschreibung („Der Rest sind Eier oder kennt VM.” – fehlendes Wort) und ein fehlender Artikel in der Emulator-Kompatibilitätsmeldung.
+
+**Gezielte Suche nach Restenglisch.** Ein deterministischer Scan nach unübersetzten englischen Textresten im gesamten Corpus fand zwei komplett unübersetzte Stellen: ein Museumsschild in Marmoria City („Pewter Museum of Science”) sowie ein doppelt vorkommender Mail-Item-Text („Dark Cave leads to another road”), der an zwei Stellen im Code dupliziert war und daher beide Male gefixt werden musste.
+
+**UI-Textüberläufe (aus Spieltests gemeldet).** Zwei Layout-Bugs, die sich erst beim tatsächlichen Spielen zeigten, wurden nach Rückmeldung mit Screenshot behoben: Im „Neues Spiel”-Optionsmenü liefen die Beschriftungen „Getauschte Pokemon” und „Entwicklung im Kampf” über ihre Textbox hinaus und wurden zu „Tausch-#mon” bzw. „Entw. im Kampf” gekürzt.
+
+**Startbildschirm-Anpassung.** Ein zusätzlicher Hinweis „DE VERSION: ONLY1_RUDEBOY” wurde auf dem Startbildschirm ergänzt, ohne die bestehende Copyright-Zeile („© 2026 Rangi42 v3.2.3”) zu verändern. Dafür wurde die VRAM- und Tile-Grafikpipeline des Titelbildschirms tiefergehend untersucht, um ungenutzten Grafikspeicher zu finden. Eine erste Version war in normaler Groß-/Kleinschreibung mit engem Zeichenabstand kaum lesbar; nach Rückmeldung wurde der Text auf reine Großschreibung mit normalem Zeichenabstand umgestellt.
+
+**Build-Verifikation.** Jede einzelne Änderungsrunde wurde vor Auslieferung mit zwei unabhängigen, komplett neu kompilierten ROM-Builds gegengeprüft (identischer MD5-Hash zwischen beiden Builds sowie korrekte Dateigröße), um sicherzustellen, dass eine Änderung nicht versehentlich etwas anderes kaputt macht.
+
+Was die Übersetzung **nicht** anfasst: offizielle Eigennamen, feststehende Spielbegriffe und bewusste stilistische Entscheidungen der Originalübersetzung bleiben unverändert – das Ziel ist eine Übersetzung, die sich liest, als wäre sie offiziell, nicht eine, die alles “eindeutscht”.
 
 Falls dir beim Spielen ein abgeschnittener Text, ein Layout-Fehler oder ein verbliebener Tippfehler auffällt: Bitte als Issue melden (siehe unten) – Rückmeldungen aus dem tatsächlichen Spielen sind die zuverlässigste Fehlerquelle, die es für dieses Projekt gibt.
 
