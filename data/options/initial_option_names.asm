@@ -30,8 +30,8 @@ InitialOptionNames:
 .PerfectStats:
 	db "Perfekte Werte@"
 .TradedMon:
-	db "Getauschte #mon@"
+	db "Tausch-#mon@"
 .EvolveInBattle:
-	db "Entwickl. im Kampf@"
+	db "Entw. im Kampf@"
 .ColorVariation:
 	db "Farbvariation@"
