@@ -303,11 +303,11 @@ OlivinePortFlashTicketText:
 
 OlivinePortNoTicketText:
 	text "<PLAYER> sucht das"
-	line "BOOTS- TICKET…"
+	line "BOOTSTICKET…"
 
 	para "…Kein TICKET!"
 
-	para "Tut mir Leid! Du"
+	para "Tut mir leid! Du"
 	line "darfst nur"
 
 	para "mit TICKET an"
@@ -344,7 +344,7 @@ OlivinePortFishingGuru2Text:
 	line "hast du?"
 
 	para "Mit verschiedenen"
-	line "ANGELN, fängst du"
+	line "ANGELN fängst du"
 	cont "verschiedene"
 	cont "#mon."
 	done

@@ -47,7 +47,7 @@ PokemonCenterPC:
 
 .String_PlayersPC:  db "<PLAYER>s PC@"
 .String_BillsPC:    db "Bills PC@"
-.String_OaksPC:     db "Prof.Eichs PC@"
+.String_OaksPC:     db "Prof. Eichs PC@"
 .String_HallOfFame: db "Ruhmeshalle@"
 .String_TurnOff:    db "Ausschalten@"
 

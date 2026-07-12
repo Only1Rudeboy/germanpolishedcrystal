@@ -217,7 +217,7 @@ Movement_NinjaSpin:
 JanineText_DisappointYou:
 	text "Hehehehe…"
 
-	para "Es tut mir Leid,"
+	para "Es tut mir leid,"
 	line "dich enttäuschen"
 	cont "zu müssen…"
 

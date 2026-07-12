@@ -41,6 +41,6 @@ GruntM22BeatenText:
 CliffCaveRocketText:
 	text "Lauf nicht einfach"
 	line "in einer TEAM"
-	cont "ROCKET-Aktion!"
+	cont "ROCKET-Aktion"
 	cont "herum!"
 	done

@@ -283,7 +283,7 @@ Route17SouthTrainerTips1Text:
 Route17SouthTrainerTips2Text:
 	text "Trainer-Tipps"
 
-	para "Oeffne das START-"
+	para "Öffne das START-"
 	line "Menü, um an einer"
 	cont "Steigung"
 

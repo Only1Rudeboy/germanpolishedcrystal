@@ -90,7 +90,7 @@ PokemonJournalGreenScript:
 	para "Neben ihrer Stärke"
 	line "als Trainerin soll"
 
-	para "Leaf soll eine"
+	para "Leaf eine"
 	line "Faszination für"
 	cont "legendäre #mon"
 	cont "haben."

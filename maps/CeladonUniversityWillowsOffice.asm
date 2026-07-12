@@ -22,7 +22,7 @@ CeladonUniversityWillowsOffice_MapScriptHeader:
 
 CeladonUniversityWillowsOfficeWillowText:
 	text "Hallo! Ich bin"
-	line "Prof.Willow."
+	line "Prof. Willow."
 
 	para "Ich betreue"
 	line "Candela, Blanche"
@@ -50,7 +50,7 @@ CeladonUniversityWillowsOfficeWillowText:
 CeladonUniversityWillowsOfficeScientistText:
 	text "Ich arbeite als"
 	line "Assistent von"
-	cont "Prof.Willow!"
+	cont "Prof. Willow!"
 
 	para "Ich katalogisiere"
 	line "meine Beobachtun-"
@@ -64,7 +64,7 @@ CeladonUniversityWillowsOfficeScientistText:
 
 CeladonUniversityWillowsOfficeBlackboardText:
 	text "Jemand schrieb"
-	line "“NICHT LOESCHEN”"
+	line "“NICHT LÖSCHEN”"
 
 	para "mit einem Pfeil zu"
 	line "einer"

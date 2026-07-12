@@ -57,8 +57,9 @@ GenericTrainerLassAlice:
 	para "Jetzt musst du mit"
 	line "mir ausgehen! ♥"
 
-	para "Ach, ich meine-wir"
-	line "müssen kämpfen!"
+	para "Ach, ich meine,"
+	line "wir müssen"
+	cont "kämpfen!"
 	done
 
 .BeatenText:

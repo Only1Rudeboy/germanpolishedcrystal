@@ -274,7 +274,7 @@ MomOutroText:
 
 MomErrandText:
 	text "Wie lautete"
-	line "Prof.Linds"
+	line "Prof. Linds"
 	cont "Auftrag?"
 
 	para "…"

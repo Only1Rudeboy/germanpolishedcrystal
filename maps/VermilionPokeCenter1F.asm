@@ -47,7 +47,7 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "Vor DIGDAs HOEHLE"
+	text "Vor DIGDAs HÖHLE"
 	line "liegt ein"
 	cont "schlafendes"
 	cont "#mon."
@@ -60,7 +60,7 @@ VermilionPokeCenter1FSightseerMScript:
 	line "weckt man es auf?"
 	done
 .SnorlaxText:
-	text "Vor DIGDAs HOEHLE"
+	text "Vor DIGDAs HÖHLE"
 	line "lag ein"
 
 	para "schlafendes"

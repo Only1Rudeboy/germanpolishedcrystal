@@ -260,7 +260,7 @@ FastShipB1FOnDutySailorDirectionsText:
 
 	para "Die Treppen am"
 	line "Ende führen in die"
-	cont "KAPITÄNS- KAJÜTE."
+	cont "KAPITÄNS-KAJÜTE."
 	done
 
 

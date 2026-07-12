@@ -22,7 +22,7 @@ Route1ViridianGateOfficerText:
 	line "ALABASTIA."
 
 	para "Dort wohnt"
-	line "Prof.Eich."
+	line "Prof. Eich."
 	done
 
 Route1ViridianGateRockerText:

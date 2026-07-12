@@ -41,8 +41,8 @@ VioletOutskirtsAvalanche:
 	endcallback
 
 VioletOutskirtsCemeterySignText:
-	text "Violet Cemetery"
-	line "Caretaker's House"
+	text "Viola Friedhof"
+	line "Wärterhaus"
 	done
 
 VioletOutskirtsHeadstoneText:

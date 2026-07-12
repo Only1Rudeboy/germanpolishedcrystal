@@ -165,7 +165,7 @@ SchoolboyKippSeenText:
 
 
 SchoolboyKippBeatenText:
-	text "Tut mir Leid,"
+	text "Tut mir leid,"
 	line "Mutter! Ich wurde"
 	cont "besiegt!"
 	done

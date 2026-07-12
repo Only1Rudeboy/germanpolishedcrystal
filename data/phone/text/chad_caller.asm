@@ -12,7 +12,7 @@ ChadObservingWildText:
 	line "könnte bald ein"
 
 	para "#mon-Forscher"
-	line "wie Prof.Eich"
+	line "wie Prof. Eich"
 	cont "werden."
 	done
 
@@ -62,7 +62,7 @@ ChadHangUpText:
 ChadBlueGossipText:
 	text "Kennst du Blau?"
 
-	para "Er ist Prof.Eichs"
+	para "Er ist Prof. Eichs"
 	line "Enkel und"
 	cont "ehemaliger"
 	cont "Liga-Champion!"
@@ -71,7 +71,7 @@ ChadBlueGossipText:
 	done
 
 ChadDaisyGossipText:
-	text "Prof.Eich hat eine"
+	text "Prof. Eich hat eine"
 	line "Enkelin namens"
 	cont "Daisy."
 
@@ -84,18 +84,18 @@ ChadDaisyGossipText:
 
 ChadProfElmGossipText:
 	text "Alle reden über"
-	line "Prof.Lind."
+	line "Prof. Lind."
 
 	para "Er war Assistent"
 	line "des großen"
-	cont "Prof.Eich!"
+	cont "Prof. Eich!"
 
 	para "So cool! Ich"
 	line "beneide ihn!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "Prof.Eichs Traum"
+	text "Prof. Eichs Traum"
 	line "ist ein"
 	cont "vollständiger"
 	cont "#dex."
@@ -109,7 +109,7 @@ ChadKurtGossipText:
 	text "Kennst du Kurt,"
 	line "den Ballmacher?"
 
-	para "Er und Prof.Eich"
+	para "Er und Prof. Eich"
 	line "kennen sich schon"
 	cont "lange."
 
@@ -125,7 +125,7 @@ ChadLeagueGossipText:
 	line "Trainer, die Champ"
 
 	para "werden wollen."
-	line "Prof.Eich berät"
+	line "Prof. Eich berät"
 
 	para "den Hauptsitz der"
 	line "#mon-Liga."
@@ -135,7 +135,7 @@ ChadLeagueGossipText:
 	done
 
 ChadPokemonTalkGossipText:
-	text "Prof.Eichs #mon"
+	text "Prof. Eichs #mon"
 	line "Talk ist eine"
 
 	para "beliebte Sendung,"
@@ -153,7 +153,7 @@ ChadPokemonTalkGossipText:
 	done
 
 ChadProfOakTrainerGossipText:
-	text "Prof.Eich war"
+	text "Prof. Eich war"
 	line "früher Trainer."
 
 	para "Aber #mon"
@@ -168,7 +168,7 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof.Eich hat eine"
+	text "Prof. Eich hat eine"
 	line "Enkelin namens"
 	cont "Daisy."
 
@@ -182,12 +182,12 @@ ChadDaisyTeaGossipText:
 	line "könnte mit ihr Tee"
 
 	para "trinken und über"
-	line "Prof.Eich reden."
+	line "Prof. Eich reden."
 	done
 
 ChadProfOakTravelingGossipText:
 	text "Wusstest du?"
-	line "Prof.Eich reiste"
+	line "Prof. Eich reiste"
 
 	para "in seiner Jugend"
 	line "um die Welt."
@@ -202,7 +202,7 @@ ChadProfOakTravelingGossipText:
 
 ChadGoingToStudyHardText:
 	text "Ich lerne fleißig,"
-	line "damit Prof.Eich"
+	line "damit Prof. Eich"
 
 	para "mich als Assistent"
 	line "nimmt!"

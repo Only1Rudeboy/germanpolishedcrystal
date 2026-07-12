@@ -42,7 +42,7 @@ Bug_maniacEdBeatenText:
 	text "Au, Aua, Aua!"
 	done
 Route2NorthCooltrainermText:
-	text "DIGDAs HOEHLE ist"
+	text "DIGDAs HÖHLE ist"
 	line "eine Sackgasse."
 
 	para "Der Ausgang nach"
@@ -55,5 +55,5 @@ Route2NorthCooltrainermText:
 	done
 
 Route2DiglettsCaveSignText:
-	text "DIGDAs HOEHLE"
+	text "DIGDAs HÖHLE"
 	done

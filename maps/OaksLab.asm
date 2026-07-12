@@ -193,7 +193,7 @@ EeveeDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Prof.Eich: Stell"
+	text "Prof. Eich: Stell"
 	line "es hin, wo du es"
 	cont "oft siehst!"
 	done
@@ -643,6 +643,6 @@ EeveeDollSentText:
 
 
 OaksLabPokedexText:
-	text "Das ist Prof.Linds"
+	text "Das ist Prof. Linds"
 	line "#dex."
 	done

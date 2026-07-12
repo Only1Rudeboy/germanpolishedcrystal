@@ -141,7 +141,7 @@ Route23OfficerNoBadgeScript:
 	text " noch nicht!"
 
 	para "Du brauchst es, um"
-	line "zur #mon- Liga"
+	line "zur #mon-Liga"
 	cont "zu gelangen!"
 	done
 

@@ -236,7 +236,7 @@ LeaderBlueWinText:
 	para "…"
 
 	para "Also gut… Hier,"
-	line "nimm das es ist"
+	line "nimm das. Es ist"
 	cont "der ERDORDEN."
 	done
 

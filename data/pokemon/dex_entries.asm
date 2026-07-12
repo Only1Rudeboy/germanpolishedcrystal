@@ -589,7 +589,7 @@ SECTION "PoliwagPokedexEntry", ROMX
 PoliwagPokedexEntry::
 	db "Kaulquappe@"
 	text "Der Kreisel auf"
-	next "seinem Bauch sind"
+	next "seinem Bauch ist"
 	next "seine Innereien,"
 	page "die durchscheinen."
 	next "Isst es, werden sie"

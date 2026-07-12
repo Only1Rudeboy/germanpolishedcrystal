@@ -56,7 +56,7 @@ GenericTrainerSightseermHari:
 
 .SeenText:
 	text "Hey! Ich bin hier,"
-	line "um Prof.Ivy zu"
+	line "um Prof. Ivy zu"
 	cont "treffen!"
 	done
 

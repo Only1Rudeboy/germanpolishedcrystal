@@ -168,8 +168,8 @@ NoAbilityDescription:
 	done
 
 StenchDescription:
-	text "Kann den Gegner"
-	next "zum Zittern."
+	text "Kann Gegner zum"
+	next "Zittern bringen."
 	done
 
 DrizzleDescription:
@@ -837,7 +837,7 @@ CompetitiveDescription:
 	done
 
 MegaLauncherDescription:
-	text "Verstärkt Auraund"
+	text "Verstärkt Aura- und"
 	next "Puls-Attacken."
 	done
 

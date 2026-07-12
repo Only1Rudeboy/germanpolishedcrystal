@@ -170,7 +170,7 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	line "einen Orden?"
 
 	para "Dann triff mich in"
-	line "der #mon- ARENA"
+	line "der #mon-ARENA"
 	cont "in Viola City."
 	done
 

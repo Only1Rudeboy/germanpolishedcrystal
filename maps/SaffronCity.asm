@@ -90,7 +90,7 @@ SaffronCityPokefanMScript:
 	para "Du kannst schnell"
 	line "nach Hause"
 	cont "zurückkehren, wenn"
-	cont "der MAGNET- ZUG"
+	cont "der MAGNETZUG"
 	cont "fährt."
 	done
 
@@ -143,7 +143,7 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 
 SaffronCityCooltrainerMText:
 	text "Ich ging zur"
-	line "#mon- ARENA,"
+	line "#mon-ARENA,"
 	cont "weil ich unbedingt"
 	cont "kämpfen wollte…"
 
@@ -371,7 +371,7 @@ MrPsychicsHouseSignText:
 
 SaffronCityMagnetTrainStationSignText:
 	text "SAFFRONIA CITY"
-	line "MAGNETZUG- BAHNHOF"
+	line "MAGNETZUG-BAHNHOF"
 	done
 
 

@@ -359,8 +359,8 @@ ExtrasensoryDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
-	text "Kann den Gegner"
-	next "zum Zittern."
+	text "Kann Gegner zum"
+	next "Zittern bringen."
 	done
 
 PoisonStingDescription:

@@ -101,7 +101,7 @@ SunnyScript:
 	line "ich wieder!"
 
 	para "Ein #mon, das"
-	line "Elektro- Attacken"
+	line "Elektro-Attacken"
 	cont "kann,"
 
 	para "soll es tragen."

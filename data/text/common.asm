@@ -355,7 +355,7 @@ _MomFoundAnItemText::
 
 SECTION "_MomBoughtWithYourMoneyText", ROMX
 _MomBoughtWithYourMoneyText::
-	text "und hab's mit dein"
+	text "hab's mit deinem"
 	line "Geld gekauft."
 	prompt
 
@@ -3261,7 +3261,7 @@ _ClockSetWithControlPadText::
 	cont "einstellen."
 
 	para "Bestätigen: A"
-	line "Abbrechen:  B"
+	line "Abbrechen: B"
 	done
 
 SECTION "_ClockIsThisOKText", ROMX

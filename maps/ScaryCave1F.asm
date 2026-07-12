@@ -79,7 +79,7 @@ ScaryCave1FMiraScript:
 
 	para "Ich will stärker"
 	line "werden, damit ich"
-	cont "keine Angsthasse"
+	cont "keine Angsthase"
 	cont "mehr bin."
 
 	para "Bitte! Bitte kämpf"

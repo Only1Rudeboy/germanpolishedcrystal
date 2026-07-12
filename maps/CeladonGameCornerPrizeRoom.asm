@@ -199,7 +199,7 @@ CeladonGameCornerPokemonVendor:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Mr.Mime    {d:CELADONGAMECORNERPRIZEROOM_MR__MIME_COINS}@"
+	db "Mr. Mime   {d:CELADONGAMECORNERPRIZEROOM_MR__MIME_COINS}@"
 	db "Evoli      {d:CELADONGAMECORNERPRIZEROOM_EEVEE_COINS}@"
 	db "Porygon    {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "Abbrechen@"

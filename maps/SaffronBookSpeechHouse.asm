@@ -37,6 +37,6 @@ SaffronBookSpeechHouseBookText:
 	line "das #mon,"
 
 	para "Edward Scherengo-"
-	line "hands, Dr.Jekyll"
-	cont "& Mr.Mime…"
+	line "hands, Dr. Jekyll"
+	cont "& Mr. Mime…"
 	done

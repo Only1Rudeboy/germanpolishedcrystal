@@ -57,7 +57,7 @@ Route5CleanseTagHouseTeacherText:
 	line "wie sie sagt,"
 	cont "bösen Geistern."
 
-	para "Es tut mir Leid,"
+	para "Es tut mir leid,"
 	line "dass sie dich"
 	cont "erschreckt hat."
 	done

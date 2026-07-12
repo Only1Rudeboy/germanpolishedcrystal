@@ -66,7 +66,7 @@ GenericTrainerCooltrainermCody:
 	generictrainer COOLTRAINERM, CODY, EVENT_BEAT_COOLTRAINERM_CODY, .SeenText, .BeatenText
 
 	text "Mitglieder unseres"
-	line "Drachen- Klans"
+	line "Drachen-Klans"
 	cont "dürfen"
 
 	para "Drachen-#mon"

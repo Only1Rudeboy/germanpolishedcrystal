@@ -20,7 +20,7 @@ IvysHouseFaithText:
 	line "trainiere"
 	cont "Pflanzen-#mon"
 
-	para "mit Prof.Ivy!"
+	para "mit Prof. Ivy!"
 	line "Willst du kämpfen?"
 	done
 
@@ -29,5 +29,5 @@ IvysHouseCharityText:
 	line "meine Schwester."
 
 	para "Wir sind im Urlaub"
-	line "bei Prof.Ivy!"
+	line "bei Prof. Ivy!"
 	done

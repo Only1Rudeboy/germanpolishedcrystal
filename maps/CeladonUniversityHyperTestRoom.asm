@@ -152,7 +152,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .GreetingText:
-	text "Prof.Westwood? Das"
+	text "Prof. Westwood? Das"
 	line "bin ich."
 	done
 
@@ -381,10 +381,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question6MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Prof.Eich@"
-	db "Prof.Lind@"
-	db "Prof.Willow@"
-	db "Prof.Westwood@"
+	db "Prof. Eich@"
+	db "Prof. Lind@"
+	db "Prof. Willow@"
+	db "Prof. Westwood@"
 
 CeladonUniversityHyperTestRoomScientistText:
 	text "Der Hyper-Test ist"

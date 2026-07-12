@@ -203,7 +203,7 @@ CeruleanCaveGuardText:
 	text "Das ist…"
 
 	para "Die berüchtigte"
-	line "AZURIA-HOEHLE!"
+	line "AZURIA-HÖHLE!"
 
 	para "Furchtbar starke"
 	line "#mon leben hier"

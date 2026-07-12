@@ -288,7 +288,7 @@ ExplainLuckyNumberShowText:
 
 RadioTower1FLuckyNumberManTodayIdIsText:
 	text "Die heutige"
-	line "Glücks- ID-Nummer"
+	line "Glücks-ID-Nummer"
 	cont "ist "
 	text_ram wStringBuffer3
 	text "."
@@ -409,7 +409,7 @@ RadioTower1FRadioCardWomanQuestion1Text:
 
 	para "Gibt es ein"
 	line "#mon, das nur"
-	cont "VOR- MITTAGs"
+	cont "vormittags"
 	cont "erscheint?"
 	done
 

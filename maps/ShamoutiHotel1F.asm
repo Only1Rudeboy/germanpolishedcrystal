@@ -34,7 +34,7 @@ ShamoutiHotel1FReceptionistText:
 	line "Zimmer belegt,"
 
 	para "aber besuche unser"
-	line "Oasis- Restaurant."
+	line "Oasis-Restaurant."
 	done
 
 ShamoutiHotel1FArtistScript:

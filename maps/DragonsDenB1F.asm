@@ -129,7 +129,7 @@ DragonsDenShrineSignText:
 	cont "MON, die früher"
 
 	para "in der DRACHEN-"
-	line "HOEHLE gelebt"
+	line "HÖHLE gelebt"
 	cont "haben sollen."
 	done
 DragonsDenB1FRivalScript:
@@ -435,7 +435,7 @@ KimonoGirlMinaScript:
 
 	para "sich gelohnt."
 
-	para "Die DRACHENHOEHLE"
+	para "Die DRACHENHÖHLE"
 	line "ist ein idealer"
 	cont "Ort zum"
 	cont "Trainieren."

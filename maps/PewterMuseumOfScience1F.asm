@@ -275,7 +275,7 @@ AerodactylFossilSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Aerodactyl- Fossil"
+	text "Aerodactyl-Fossil"
 
 	para "Ein primitives,"
 	line "seltenes #mon."

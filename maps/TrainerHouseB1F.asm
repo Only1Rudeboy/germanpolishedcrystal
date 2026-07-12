@@ -206,7 +206,7 @@ TrainerHouseB1FPleaseComeAgainText:
 
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "Es tut mir Leid,"
+	text "Es tut mir leid,"
 	line "das wäre für dich"
 
 	para "heute der zweite"

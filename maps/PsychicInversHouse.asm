@@ -124,7 +124,7 @@ PsychicInverBeatenText:
 
 InverseBattle0PointRewardText:
 	text "Ich weiß nicht, ob"
-	line "du Invers- Kämpfe"
+	line "du Invers-Kämpfe"
 	cont "verstehst…"
 	done
 
@@ -148,7 +148,7 @@ InverseBattle7_9PointRewardText:
 InverseBattle10PointRewardText:
 	text "Du bist ein"
 	line "Experte bei"
-	cont "Invers- Kämpfen."
+	cont "Invers-Kämpfen."
 
 	para "Ich bin kein Match"
 	line "für dich."

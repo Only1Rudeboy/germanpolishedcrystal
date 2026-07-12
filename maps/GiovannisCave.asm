@@ -302,7 +302,7 @@ GiovannisCaveGiovanniAfterText:
 GiovannisCaveBroadcastAfterText:
 	text "“… …Hey! Wo ist"
 	line "Giovanni hin? Ob"
-	cont "er unseren Sendung"
+	cont "er unserer Sendung"
 	cont "zuhört… …”"
 	done
 

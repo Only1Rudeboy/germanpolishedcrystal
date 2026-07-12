@@ -91,7 +91,7 @@ CharcoalKilnApprentice:
 	cont "hingegangen?"
 	done
 .Text2:
-	text "Es tut mir Leid."
+	text "Es tut mir leid."
 	line "Ich habe dir noch"
 	cont "nicht gedankt."
 

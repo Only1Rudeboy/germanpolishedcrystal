@@ -348,7 +348,7 @@ DragonShrineElderGreetingText:
 	para "Sie ist ein"
 	line "wirklich…"
 
-	para "Tut mir Leid, aber"
+	para "Tut mir leid, aber"
 	line "ich muss dich"
 	cont "prüfen."
 

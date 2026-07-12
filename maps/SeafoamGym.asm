@@ -233,7 +233,7 @@ BlaineIntroText:
 
 	para "Meine #mon-"
 	line "ARENA auf der"
-	cont "ZINNOBER- INSEL"
+	cont "ZINNOBER-INSEL"
 	cont "ist abgebrannt."
 	cont "Meine"
 

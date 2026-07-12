@@ -485,7 +485,7 @@ Route42Sign1Text:
 MtMortarSign1Text:
 	text "KESSELBERG"
 
-	para "WASSERFALL-HOEHLE"
+	para "WASSERFALL-HÖHLE"
 	line "Geradeaus"
 	done
 
@@ -494,7 +494,7 @@ MtMortarSign1Text:
 MtMortarSign2Text:
 	text "KESSELBERG"
 
-	para "WASSERFALL-HOEHLE"
+	para "WASSERFALL-HÖHLE"
 	line "Voraus"
 	done
 

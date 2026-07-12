@@ -1374,7 +1374,7 @@ ElmAfterTheftText5:
 	line "annehmen."
 
 	para "Die nächste"
-	line "#mon- ARENA"
+	line "#mon-ARENA"
 	cont "befindet sich in"
 	cont "VIOLA."
 	done
@@ -1568,13 +1568,13 @@ AideText_ThiefReturnedMon:
 	line "mal!"
 
 	para "Der Junge, der"
-	line "Prof.Linds #mon"
+	line "Prof. Linds #mon"
 	cont "gestohlen hat…"
 
 	para "…kam zurück, um es"
 	line "zurückzugeben!"
 
-	para "Aber Prof.Lind"
+	para "Aber Prof. Lind"
 	line "sagte zu ihm…"
 
 	para "Es scheint, als ob"
@@ -1635,7 +1635,7 @@ ElmGiveMasterBallText2:
 
 	para "Er wird nur"
 	line "anerkannten"
-	cont "#mon- Forschern"
+	cont "#mon-Forschern"
 	cont "überreicht."
 
 	para "Aber ich glaube,"
@@ -1731,7 +1731,7 @@ LyraAnnouncesGymChallengeText:
 	para "Ich will sehen,"
 	line "was ich kann."
 
-	para "Prof.Lind, es tut"
+	para "Prof. Lind, es tut"
 	line "mir leid, dass ich"
 
 	para "hier nicht mehr"
@@ -1741,7 +1741,7 @@ LyraAnnouncesGymChallengeText:
 	line "Arenen in Johto"
 
 	para "heraus und will in"
-	line "die #mon- Liga!"
+	line "die #mon-Liga!"
 
 	para "Wünsch mir Glück!"
 	line "Bis später!"
@@ -1756,7 +1756,7 @@ ElmAfterTicketText:
 	para "Ob sie die Liga"
 	line "zuerst erreicht?"
 
-	para "Grüß Prof.Eich in"
+	para "Grüß Prof. Eich in"
 	line "Kanto von mir!"
 	done
 ElmBeforeBattleText:
@@ -1959,7 +1959,7 @@ ElmsLabLyraText_YouLost:
 ElmsLabLyraThankYouText:
 	text "Danke für das"
 	line "#mon,"
-	cont "Prof.Lind!"
+	cont "Prof. Lind!"
 	done
 ElmsLabLyraSeeYouText:
 	text "<PLAYER>, bis"

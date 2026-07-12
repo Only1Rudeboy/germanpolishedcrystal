@@ -18,7 +18,7 @@ NonTrainerCallerNames:
 	next1 "   #maniac"
 	done
 .elm:
-	text "Prof.Lind:"
+	text "Prof. Lind:"
 	next1 "   #-Prof."
 	done
 .bikeshop:

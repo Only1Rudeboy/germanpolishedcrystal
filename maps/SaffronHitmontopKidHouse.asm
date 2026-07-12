@@ -99,7 +99,7 @@ SaffronHitmontopKidHouseTeacherScript:
 	para "Vielleicht würde"
 	line "er ruhig werden,"
 	cont "wenn er ein echtes"
-	cont "HITMON- TOP sähe…"
+	cont "HITMONTOP sähe…"
 	done
 
 .Text2:

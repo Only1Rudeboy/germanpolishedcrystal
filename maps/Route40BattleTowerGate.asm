@@ -52,7 +52,7 @@ Route40BattleTowerGateRockerScript:
 	para "Ich will hin, aber"
 	line "mir fehlt"
 
-	para "cooler Spruch für"
+	para "ein cooler Spruch"
 	line "den Sieg."
 	done
 

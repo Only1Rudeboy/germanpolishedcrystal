@@ -101,7 +101,7 @@ LavRadioTower1FSuperNerd2Script:
 	line "Freund!"
 
 	para "Ich bin der tolle"
-	line "MUSIK- REDAKTEUR!"
+	line "MUSIK-REDAKTEUR!"
 
 	para "Häh? Dein #Com"
 	line "kann meine"
@@ -175,7 +175,7 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	line "Freund!"
 
 	para "Ich bin der tolle"
-	line "MUSIK- REDAKTEUR!"
+	line "MUSIK-REDAKTEUR!"
 
 	para "Ich bin derjenige,"
 	line "der diese"

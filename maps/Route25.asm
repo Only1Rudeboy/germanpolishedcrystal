@@ -79,7 +79,7 @@ GenericTrainerLassShannon:
 GenericTrainerSupernerdPat:
 	generictrainer SUPER_NERD, PAT, EVENT_BEAT_SUPER_NERD_PAT, SupernerdPatSeenText, SupernerdPatBeatenText
 
-	text "Tut mir Leid… Ich"
+	text "Tut mir leid… Ich"
 	line "werde nicht mehr"
 	cont "mogeln…"
 	done

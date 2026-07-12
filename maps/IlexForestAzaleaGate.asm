@@ -40,7 +40,7 @@ ProfOaksAide1Script:
 .Explain
 	jumpthisopenedtext
 
-	text "Der Exp.Share"
+	text "Der EP-Teiler"
 	line "hilft einem"
 	cont "#mon,"
 
@@ -88,7 +88,7 @@ IlexForestAzaleaGateGrannyText:
 
 ProfOaksAide1HiText:
 	text "Hallo! Ich bin"
-	line "Prof.Linds"
+	line "Prof. Linds"
 	cont "Gehilfe."
 
 	para "Wenn du 15"

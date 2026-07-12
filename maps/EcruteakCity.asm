@@ -123,7 +123,7 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "Ich möchte im"
-	line "TANZ- THEATER"
+	line "TANZ-THEATER"
 	cont "üben."
 
 	para "Kommst du mit?"

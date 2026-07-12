@@ -56,7 +56,7 @@ WardensGranddaughterText1:
 	cont "allein."
 
 	para "Er hat einfach so"
-	line "die SAFARI- ZONE"
+	line "die SAFARI-ZONE"
 	cont "verlassen."
 	done
 

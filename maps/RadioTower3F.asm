@@ -277,13 +277,13 @@ RocketScientistMarcBeatenText:
 RadioTower3FCardKeySlotText:
 	text "Dies ist der"
 	line "Schlitz für den"
-	cont "TÜROEFFNER."
+	cont "TÜRÖFFNER."
 	done
 
 
 InsertedTheCardKeyText:
 	text "<PLAYER> benutzt"
-	line "den TÜROEFFNER."
+	line "den TÜRÖFFNER."
 	done
 
 

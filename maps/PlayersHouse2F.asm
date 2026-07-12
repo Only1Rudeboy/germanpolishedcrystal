@@ -365,11 +365,11 @@ PokemonJournalProfElmScript:
 	text "#mon Journal"
 
 	para "Spezial: #mon"
-	line "Prof.Lind!"
+	line "Prof. Lind!"
 
-	para "Prof.Lind war der"
+	para "Prof. Lind war der"
 	line "beste Schüler von"
-	cont "Prof.Eich."
+	cont "Prof. Eich."
 
 	para "Man sagt, die"
 	line "beiden streiten"

@@ -379,7 +379,7 @@ BeautySamanthaSeenText:
 
 BeautySamanthaBeatenText:
 	text "Nein! Oh, MAUZI,"
-	line "es tut mir Leid!"
+	line "es tut mir leid!"
 	done
 
 

@@ -146,7 +146,7 @@ SeagallopFerryFarawayToVermilionText:
 	text "Alles klar!"
 
 	para "Alle an Bord der"
-	line "Seegallop- Fähre!"
+	line "Seegallop-Fähre!"
 	done
 
 SeagallopFerryFarawayIslandRefusedText:

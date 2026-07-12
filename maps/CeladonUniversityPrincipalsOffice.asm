@@ -60,14 +60,14 @@ CeladonUniversityPrincipalsOfficeMatsumotoScript:
 	done
 
 CeladonUniversityPrincipalsOfficeSignpost1Text:
-	text "Prof.Matsumotos"
+	text "Prof. Matsumotos"
 	line "Abschluss in"
 	cont "Pädagogik."
 	done
 
 CeladonUniversityPrincipalsOfficeSignpost2Text:
 	text "Ein Foto von"
-	line "Prof.Matsumoto vor"
+	line "Prof. Matsumoto vor"
 
 	para "einer"
 	line "Abschlussklasse."

@@ -130,7 +130,7 @@ DirectorIntroText:
 	line "besetzt?"
 
 	para "Hier, nimm diesen"
-	line "TÜROEFFNER."
+	line "TÜRÖFFNER."
 	done
 
 

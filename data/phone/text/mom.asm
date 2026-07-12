@@ -128,7 +128,7 @@ MomPhoneNoPokemonText:
 	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Wartet Prof.Lind"
+	line "Wartet Prof. Lind"
 	cont "nicht auf dich?"
 	done
 
@@ -139,7 +139,7 @@ MomPhoneNoPokedexText:
 	line "Du hast einen"
 
 	para "Auftrag von"
-	line "Prof.Lind? Sei"
+	line "Prof. Lind? Sei"
 	cont "brav!"
 	done
 
@@ -158,7 +158,7 @@ MomPhoneLectureText:
 	text "Hallo?"
 
 	para "……<PLAYER>?"
-	line "Prof.Lind sagte,"
+	line "Prof. Lind sagte,"
 
 	para "du seist auf eine"
 	line "lange Reise."

@@ -142,7 +142,7 @@ BuenaPhoneLuckyNumberShowText:
 	line "Hast du schon mal"
 
 	para "bei der"
-	line "Glückszahlen- Show"
+	line "Glückszahlen-Show"
 	cont "gewonnen?"
 
 	para "Reed jammert, er"
@@ -194,7 +194,7 @@ BuenaPhoneProfessorOakText:
 	para "Er hört meine"
 	line "Sendung!"
 
-	para "Oh! Prof.Eich"
+	para "Oh! Prof. Eich"
 	line "kommt wieder!"
 
 	para "Ich quatsche"

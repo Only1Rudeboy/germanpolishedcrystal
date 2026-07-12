@@ -392,7 +392,7 @@ UndergroundRivalLossText:
 	cont "zertreten."
 	done
 GruntM11SeenText:
-	text "Oeffne einen"
+	text "Öffne einen"
 	line "Rollladen und ein"
 	cont "anderer schließt."
 

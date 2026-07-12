@@ -443,7 +443,7 @@ Text_Route31HandOverMailMon:
 Text_Route31ReadingMail:
 	text "Mal sehen…"
 
-	para "…die DUNKELHOEHLE"
+	para "…die DUNKELHÖHLE"
 	line "führt zu einem"
 	cont "anderen Weg…"
 
@@ -493,7 +493,7 @@ Text_Route31TutorQuestion:
 Route31YoungsterText:
 	text "Ich habe ein gutes"
 	line "#mon in der"
-	cont "DUNKELHOEHLE"
+	cont "DUNKELHÖHLE"
 	cont "gefunden."
 
 	para "Ich ziehe es groß,"
@@ -517,7 +517,7 @@ Route31SignText:
 
 
 DarkCaveSignText:
-	text "DUNKELHOEHLE"
+	text "DUNKELHÖHLE"
 	done
 
 

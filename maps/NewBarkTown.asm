@@ -381,7 +381,7 @@ Text_LyraIntro:
 	line "geschlafen."
 
 	para "Ich helfe"
-	line "Prof.Lind"
+	line "Prof. Lind"
 	cont "manchmal, weißt"
 
 	para "du noch? Er"
@@ -413,7 +413,7 @@ Text_LyraGoodbye1:
 	line ""
 
 	para "Ich helfe"
-	line "Prof.Lind so gut"
+	line "Prof. Lind so gut"
 	cont "ich kann,"
 
 	para "aber gegen den"

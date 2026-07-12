@@ -110,7 +110,7 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
-	text "Es tut mir Leid,"
+	text "Es tut mir leid,"
 	line "aber der MAGNETZUG"
 	cont "ist im Moment"
 	cont "nicht in Betrieb."
@@ -132,7 +132,7 @@ SaffronMagnetTrainStationOfficerRightThisWayText:
 	line "lang, bitte."
 	done
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
-	text "Es tut mir Leid,"
+	text "Es tut mir leid,"
 	line "aber du hast"
 	cont "keinen FAHRSCHEIN."
 	done

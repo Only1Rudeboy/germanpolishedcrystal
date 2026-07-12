@@ -23,7 +23,7 @@ PokemonJournalProfOakScript:
 	text "#mon Journal"
 
 	para "Spezial: #mon"
-	line "Prof.Eich!"
+	line "Prof. Eich!"
 
 	para "Samuel Eichs"
 	line "Enkelkinder Blau"
@@ -54,6 +54,6 @@ RedsHouse2FSNESText:
 	text "<PLAYER> spielte"
 	line "am SNES."
 
-	para "Los, los-keine"
+	para "Los, los, keine"
 	line "Zeit zu verlieren!"
 	done

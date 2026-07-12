@@ -85,7 +85,7 @@ GoldenrodUndergroundEntrances_SuperNerd2Text:
 	cont "herausgefordert."
 
 	para "Da unten herrschen"
-	line "rauhe Sitten. Sei"
+	line "raue Sitten. Sei"
 	cont "auf der Hut."
 	done
 GoldenrodUndergroundEntrances_BeautyText:

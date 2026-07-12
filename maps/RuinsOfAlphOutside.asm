@@ -264,7 +264,7 @@ RuinsOfAlphOutsideScientistText:
 
 SuperNerdStanSeenText:
 	text "Was willst du? Ich"
-	line "lerne-stör mich"
+	line "lerne, stör mich"
 	cont "nicht!"
 	done
 

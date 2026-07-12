@@ -585,7 +585,7 @@ AgathaText_Greeting:
 	line "einen #dex für"
 
 	para "den alten"
-	line "Prof.Lind?"
+	line "Prof. Lind?"
 
 	para "#mon sind zum"
 	line "Kämpfen da!"
@@ -826,11 +826,11 @@ FightingDojoScheduleThursdayPalmerText:
 	done
 
 FightingDojoScheduleFridayText:
-	text "Freitag: Lt.Surge,"
+	text "Freitag: Lt. Surge,"
 	line "???, Clair"
 	done
 
 FightingDojoScheduleFridayYellowText:
-	text "Freitag: Lt.Surge,"
+	text "Freitag: Lt. Surge,"
 	line "Yellow, Clair"
 	done

@@ -451,7 +451,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	line "FORSCHUNGS-"
 
 	para "ZENTRUMS-Gründers,"
-	line "Prof.SEIDENBAUM."
+	line "Prof. SEIDENBAUM."
 	done
 
 

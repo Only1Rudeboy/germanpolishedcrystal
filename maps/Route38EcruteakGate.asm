@@ -83,7 +83,7 @@ Route38EcruteakGateOfficerText:
 
 ProfOaksAide2HiText:
 	text "Hallo! Ich bin"
-	line "Prof.Linds"
+	line "Prof. Linds"
 	cont "Gehilfe."
 
 	para "Wenn du 30"

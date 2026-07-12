@@ -133,7 +133,7 @@ JackSunnyDayTriviaText:
 
 	para "Bei starkem"
 	line "Sonnenlicht werden"
-	cont "Wasser- Attacken"
+	cont "Wasser-Attacken"
 	cont "schwächer."
 	done
 

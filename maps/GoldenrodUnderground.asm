@@ -798,7 +798,7 @@ GoldenrodUndergroundTheDoorIsOpenText:
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
 	text "Mit dem KELLER-"
-	line "OEFFNER wird die"
+	line "ÖFFNER wird die"
 	cont "Tür entriegelt."
 	done
 

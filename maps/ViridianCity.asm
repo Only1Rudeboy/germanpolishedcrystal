@@ -132,8 +132,9 @@ ViridianCityCoffeeGrampsQuestionText:
 	cont "aufgedreht!"
 
 	para "Ich brauche jetzt"
-	line "jemanden zum Reden"
-	cont "und zwar dich!"
+	line "jemanden zum"
+	cont "Reden, und zwar"
+	cont "dich!"
 
 	para "Man sieht es mir"
 	line "jetzt vielleicht"

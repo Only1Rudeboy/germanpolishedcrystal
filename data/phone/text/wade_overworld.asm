@@ -26,7 +26,7 @@ WadeNumberAcceptedText:
 	text "Ich melde mich,"
 	line "sobald ich was"
 
-	para "Finde, das dir"
+	para "finde, das dir"
 	line "gefällt."
 	done
 

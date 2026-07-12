@@ -115,7 +115,7 @@ GenericTrainerSwimmermEsteban:
 	done
 
 .BeatenText:
-	text "Tut mir Leid,"
+	text "Tut mir leid,"
 	line "Lehrer…"
 	done
 

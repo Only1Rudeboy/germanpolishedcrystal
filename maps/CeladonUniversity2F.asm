@@ -127,7 +127,7 @@ CeladonUniversity2FCowgirlText:
 	done
 
 CeladonUniversity2FBug_catcherText:
-	text "Prof.Willow"
+	text "Prof. Willow"
 	line "schickt seine"
 	cont "Assistenten los,"
 
@@ -151,7 +151,7 @@ CeladonUniversity2FLassText:
 	done
 
 CeladonUniversity2FYoungster2Text:
-	text "Prof.Westwood ist"
+	text "Prof. Westwood ist"
 	line "etwas exzentrisch."
 
 	para "Manchmal"
@@ -175,7 +175,7 @@ CeladonUniversity2FPoolSignText:
 	done
 
 CeladonUniversity2FWillowsOfficeSignText:
-	text "Prof.Willows Büro"
+	text "Prof. Willows Büro"
 	done
 
 CeladonUniversity2FNursesOfficeSignText:
@@ -183,7 +183,7 @@ CeladonUniversity2FNursesOfficeSignText:
 	done
 
 CeladonUniversity2FWestwoodsOfficeSignText:
-	text "Prof.Westwoods"
+	text "Prof. Westwoods"
 	line "Büro"
 	done
 

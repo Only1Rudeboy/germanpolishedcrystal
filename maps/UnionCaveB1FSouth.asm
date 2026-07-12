@@ -60,7 +60,7 @@ GenericTrainerPokemaniacCalvin:
 
 	para "Vielleicht werde"
 	line "ich so berühmt wie"
-	cont "Prof.Lind."
+	cont "Prof. Lind."
 	done
 PokemaniacCalvinSeenText:
 	text "Ich bin hierher"

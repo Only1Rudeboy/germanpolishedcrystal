@@ -32,7 +32,7 @@ PokemonJournalAgathaScript:
 	line "rivalisierten"
 	cont "Agatha und"
 
-	para "Prof.Eich um die"
+	para "Prof. Eich um die"
 	line "Vorherrschaft als"
 	cont "Trainer."
 	done

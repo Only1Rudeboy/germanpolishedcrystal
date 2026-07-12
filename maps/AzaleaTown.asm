@@ -380,7 +380,7 @@ AzaleaTownTeacherScript:
 	line "Dank!"
 
 	para "Bitte nimm das, du"
-	line "hast's verdient"
+	line "hast's verdient!"
 	done
 
 AzaleaTownWoosterText:

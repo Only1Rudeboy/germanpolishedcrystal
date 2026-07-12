@@ -325,7 +325,7 @@ MistyFightDoneText:
 	done
 
 SwimmerfDianaSeenText:
-	text "Es tut mir Leid,"
+	text "Es tut mir leid,"
 	line "dass ich so lange"
 	cont "weg war. Lass uns"
 	cont "anfangen!"

@@ -186,7 +186,7 @@ MystriStageCynthiaSpeechText:
 	cont "ehren."
 
 	para "Wir stehen auf der"
-	line "Mystri- Bühne."
+	line "Mystri-Bühne."
 
 	para "Früher feierte man"
 	line "hier mit Musik und"

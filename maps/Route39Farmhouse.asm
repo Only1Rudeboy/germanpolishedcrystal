@@ -79,7 +79,7 @@ FarmerMScript_SellMilk:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Tut mir Leid, mein"
+	text "Tut mir leid, mein"
 	line "Kind. Wenn du kein"
 	cont "Geld hast, kann"
 	cont "ich dir nichts"

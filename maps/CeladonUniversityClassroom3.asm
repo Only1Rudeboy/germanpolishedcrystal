@@ -35,7 +35,7 @@ CeladonUniversityClassroom3SparkText:
 	line "wie sich #mon"
 	cont "fortpflanzen."
 
-	para "Prof.Elm hat das"
+	para "Prof. Elm hat das"
 	line "Feld begründet."
 
 	para "Oh, du kennst ihn!"
@@ -131,7 +131,7 @@ CeladonUniversityClassroom3Bookshelf1Text:
 
 CeladonUniversityClassroom3Bookshelf2Text:
 	text "Ein Aufsatz von"
-	line "Prof.Silktree."
+	line "Prof. Silktree."
 
 	para "“Alph-Ruinen"
 	line "Untersuchungs-"

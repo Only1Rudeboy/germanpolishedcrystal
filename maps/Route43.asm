@@ -131,7 +131,7 @@ Route43SightseerfScript:
 	cont "sehen."
 
 	para "Lass uns"
-	line "kämpfen-aber"
+	line "kämpfen, aber"
 	cont "zuerst will"
 
 	para "ich sehen, wie du"
@@ -357,7 +357,7 @@ GenericTrainerPokemaniacRon:
 GenericTrainerFisherMarvin:
 	generictrainer FISHER, MARVIN, EVENT_BEAT_FISHER_MARVIN, FisherMarvinSeenText, FisherMarvinBeatenText
 
-	text "KURTs KOEDERBALL"
+	text "KURTs KÖDERBALL"
 	line "eignet sich am"
 
 	para "besten, um"

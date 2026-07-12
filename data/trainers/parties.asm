@@ -1022,7 +1022,7 @@ SECTION "LtSurgeGroup", ROMX
 LtSurgeGroup:
 
 	def_trainer_class LT_SURGE
-	def_trainer 1, "Lt.Surge"
+	def_trainer 1, "Lt. Surge"
 	tr_mon 58, RAICHU, MALE
 		tr_extra STATIC
 		tr_evs 36 Spe, 252 Atk
@@ -1053,7 +1053,7 @@ endc
 		tr_moves ICE_PUNCH, THUNDERPUNCH, FIRE_PUNCH, CROSS_CHOP
 	end_trainer
 
-	def_trainer 2, "Lt.Surge"
+	def_trainer 2, "Lt. Surge"
 	tr_mon 74, ELECTIVIRE @ AIR_BALLOON, MALE
 		tr_extra VITAL_SPIRIT, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe

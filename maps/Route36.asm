@@ -390,7 +390,7 @@ Route36CooltrainerfChiaraScript:
 
 .IntroText:
 	text "Ich sah, wie du"
-	line "das Mogelbaum"
+	line "den Mogelbaum"
 	cont "aufgeweckt hast."
 
 	para "Klasse gemacht!"
@@ -683,7 +683,7 @@ PsychicMarkBeatenText:
 
 
 SchoolgirlMollySeenText:
-	text "Mr.Earl hat mir"
+	text "Mr. Earl hat mir"
 	line "beigebracht, mit"
 	cont "#mon zu"
 	cont "kämpfen!"

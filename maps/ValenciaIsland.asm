@@ -44,14 +44,14 @@ ValenciaIslandYoungsterScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Prof.Ivy ist echt"
+	text "Prof. Ivy ist echt"
 	line "heiß, findest du"
 	cont "nicht?"
 	done
 
 .Text2:
 	text "Du bist zwar süß,"
-	line "aber Prof.Ivy ist"
+	line "aber Prof. Ivy ist"
 	cont "echt heiß!"
 	done
 

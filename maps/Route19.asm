@@ -205,7 +205,7 @@ CosplayerBrookeBeatenText:
 	done
 
 Route19Fisher1Text:
-	text "Tut mir Leid. Die"
+	text "Tut mir leid. Die"
 	line "Straße ist"
 	cont "aufgrund von"
 	cont "Bauarbeiten"

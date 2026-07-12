@@ -380,7 +380,7 @@ CopycatsDodrioScript:
 	line "LEIN AN DER WAND,"
 
 	para "WER IST DIE"
-	line "SCHOENSTE IM"
+	line "SCHÖNSTE IM"
 	cont "GANZEN"
 
 	para "LAND?"

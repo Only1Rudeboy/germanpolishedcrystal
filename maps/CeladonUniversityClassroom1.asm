@@ -145,7 +145,7 @@ CeladonUniversityClassroom1ImakuniScript:
 
 CeladonUniversityClassroom1AndyText:
 	text "Hallo! Ich bin"
-	line "Prof.Andy und"
+	line "Prof. Andy und"
 	cont "liebe Kunst!"
 
 	para "Denk dran:"

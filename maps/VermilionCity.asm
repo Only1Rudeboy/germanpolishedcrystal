@@ -509,7 +509,7 @@ PokemonFanClubSignText:
 
 
 VermilionCityDiglettsCaveSignText:
-	text "DIGDAs HOEHLE"
+	text "DIGDAs HÖHLE"
 	done
 
 

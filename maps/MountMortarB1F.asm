@@ -62,7 +62,8 @@ MountMortarB1FTutorDefenseCurlScript:
 
 	text "So! Jetzt kann"
 	line "dein #mon"
-	cont "EINIGLER!"
+	cont "EINIGLER"
+	cont "nutzen!"
 	done
 
 MountMortarB1FKiyoScript:

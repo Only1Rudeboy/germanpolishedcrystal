@@ -91,7 +91,7 @@ Route41MarlonScript:
 
 	para "Meine #mon und"
 	line "ich schwammen aus"
-	cont "der EINALL- REGION"
+	cont "der EINALL-REGION"
 	cont "her!"
 	done
 

@@ -93,5 +93,5 @@ LavenderPokeCenter1FTeacherText:
 
 	para "Ach? Ah, dein"
 	line "Radio braucht eine"
-	cont "Expn.Card dafür."
+	cont "EP-Karte dafür."
 	done

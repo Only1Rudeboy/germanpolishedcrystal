@@ -264,7 +264,7 @@ VioletGymGuyFalknerAwayText:
 	cont "herausfordern."
 
 	para "Er ist in der"
-	line "DUNKELHOEHLE und"
+	line "DUNKELHÖHLE und"
 	cont "bändigt einen"
 
 	para "URSARING, das"

@@ -251,7 +251,7 @@ VermilionPortNoTicketText:
 
 	para "…Kein TICKET!"
 
-	para "Tut mir Leid! Du"
+	para "Tut mir leid! Du"
 	line "darfst nur"
 
 	para "mit TICKET an"

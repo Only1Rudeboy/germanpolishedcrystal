@@ -182,11 +182,11 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .GoodbyeText:
-	text "Ivy: Prof.Elm hat"
+	text "Ivy: Prof. Elm hat"
 	line "dir ein #mon"
 	cont "anvertraut, und"
 
-	para "Prof.Oak hat dir"
+	para "Prof. Oak hat dir"
 	line "einen #dex"
 	cont "gegeben, also"
 
@@ -204,7 +204,7 @@ ShamoutiPokeCenter1FIvyScript:
 	line "der Valencia-"
 	cont "Insel."
 
-	para "Grüß Prof.Oak von"
+	para "Grüß Prof. Oak von"
 	line "mir!"
 	done
 

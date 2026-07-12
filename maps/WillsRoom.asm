@@ -121,7 +121,7 @@ WillScript:
 	para "Ich werde weiter"
 	line "kämpfen, bis ich"
 
-	para "besser bin, als"
+	para "besser bin als"
 	line "alle anderen"
 	cont "Trainer!"
 

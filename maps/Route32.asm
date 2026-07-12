@@ -309,7 +309,7 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	done
 
 .NoEggText:
-	text "Prof.Lind sagte,"
+	text "Prof. Lind sagte,"
 	line "sein Gehilfe"
 	cont "bringt dir ein EI."
 
@@ -1037,7 +1037,7 @@ Text_RoarIntro: ; text > text
 	cont "SEHEN!"
 
 	para "DAS GEFÄLLT MIR!"
-	line "HIER BITTE SCHOEN!"
+	line "HIER BITTE SCHÖN!"
 	done
 
 

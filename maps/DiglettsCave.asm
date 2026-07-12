@@ -132,7 +132,7 @@ GenericTrainerHikerDent:
 	generictrainer HIKER, DENT, EVENT_BEAT_HIKER_DENT, .SeenText, .BeatenText
 
 	text "Ich passe perfekt"
-	line "zur Muskel- Truppe"
+	line "zur Muskel-Truppe"
 	cont "der"
 	cont "MARMORIA-ARENA."
 	cont "Hohoh!"
