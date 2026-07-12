@@ -2871,7 +2871,8 @@ BillsPC_ReleaseAll:
 
 .TheRestWasnt:
 	text "Der Rest sind Eier"
-	line "oder kennt VM."
+	line "oder kennt"
+	cont "VM-Attacken."
 	prompt
 
 BillsPC_Release:

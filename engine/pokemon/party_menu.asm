@@ -1304,7 +1304,7 @@ UseOnWhichPKMNString:
 WhichPKMNString:
 	db "Welches <PK><MN>?@"
 TeachWhichPKMNString:
-	db "Welchem <PK><MN> lehren?@"
+	db "Welches <PK><MN> lehren?@"
 TutorWhichPKMNString:
 	db "Welchem <PK><MN> zeigen?@"
 Choose3MonString:
