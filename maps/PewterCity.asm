@@ -249,8 +249,8 @@ PewterGymSignText:
 
 
 PewterMuseumOfScienceSignText:
-	text "Pewter Museum of"
-	line "Science"
+	text "MARMORIA-MUSEUM"
+	line "DER WISSENSCHAFT"
 	done
 
 PewterCityMtMoonGiftShopSignText:

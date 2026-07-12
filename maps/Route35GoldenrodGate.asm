@@ -89,8 +89,8 @@ RandyScript:
 GiftSpearowMail:
 	db   FLOWER_MAIL
 	setcharmap no_ngrams
-	db   "Dark Cave leads"
-	next "to another road@"
+	db   "DUNKELHÖHLE führt"
+	next "zu anderem Weg@"
 	setcharmap default
 
 GiftSpearowName:
@@ -208,5 +208,3 @@ Route35GoldenrodGateFisherText:
 	cont "verschiedene Arten"
 	cont "geben soll."
 	done
-
-

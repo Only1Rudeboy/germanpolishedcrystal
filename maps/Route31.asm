@@ -397,8 +397,8 @@ Route31MailRecipientScript:
 	done
 ReceivedSpearowMailText:
 	setcharmap no_ngrams
-	db   "Dark Cave leads"
-	next "to another road@"
+	db   "DUNKELHÖHLE führt"
+	next "zu anderem Weg@"
 	setcharmap default
 
 Bug_catcherWade1SeenText:
