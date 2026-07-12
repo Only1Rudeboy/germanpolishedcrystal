@@ -30,6 +30,11 @@ _TitleScreen:
 	ld de, vTiles1
 	call Decompress
 
+; Decompress DE subtitle gfx (placed after the Unown gfx in the same tile block)
+	ld hl, TitleSubtitleGFX
+	ld de, vTiles1 + 52 * 16
+	call Decompress
+
 ; Clear screen palettes
 	hlbgcoord 0, 0
 	ld bc, SCREEN_WIDTH * TILEMAP_WIDTH
@@ -47,6 +52,12 @@ _TitleScreen:
 	rst ByteFill
 
 ; BG Map 0:
+
+; line 1 (DE subtitle, uses bank 1 gfx like the Suicune/Unown box below)
+	hlbgcoord 0, 1
+	ld bc, TILEMAP_WIDTH
+	ld a, 7 | BG_BANK1
+	rst ByteFill
 
 ; Apply logo gradient:
 
@@ -108,6 +119,12 @@ _TitleScreen:
 	hlcoord 1, 3
 	lb bc, 7, 18
 	lb de, $80, 18
+	call DrawTitleGraphic
+
+; Draw DE subtitle
+	hlcoord 0, 1
+	lb bc, 1, SCREEN_WIDTH
+	lb de, $80 + 52, 0
 	call DrawTitleGraphic
 
 ; Draw copyright text
@@ -390,6 +407,9 @@ INCBIN "gfx/title/logo.2bpp.lzp"
 
 TitleVersionGFX:
 INCBIN "gfx/title/version.2bpp.lzp"
+
+TitleSubtitleGFX:
+INCBIN "gfx/title/subtitle.2bpp.lzp"
 
 TitleCrystalGFX:
 INCBIN "gfx/title/crystal.2bpp.lzp"
