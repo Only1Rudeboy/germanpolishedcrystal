@@ -106,7 +106,7 @@ VBABSODMessage:
 	next1 " Polished Crystal"
 	next  "       FEHLER"
 	next1 "------------------"
-	next  "Bitte nutze"
+	next  "Bitte nutze einen"
 	next1 "genaueren Emulator"
 	next1 "BGB, mGBA oder"
 	next1 "Gambatte."
