@@ -67,7 +67,8 @@ CeladonUniversityPrincipalsOfficeSignpost1Text:
 
 CeladonUniversityPrincipalsOfficeSignpost2Text:
 	text "Ein Foto von"
-	line "Prof. Matsumoto vor"
+	line "Prof. Matsumoto"
+	cont "vor"
 
 	para "einer"
 	line "Abschlussklasse."

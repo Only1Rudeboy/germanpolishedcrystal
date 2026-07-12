@@ -55,8 +55,9 @@ CeladonUniversityLibrary1FGentlemanText:
 	done
 
 CeladonUniversityLibrary1FCooltrainerfText:
-	text "Prof. Lind hat hier"
-	line "früher gelehrt,"
+	text "Prof. Lind hat"
+	line "hier früher"
+	cont "gelehrt,"
 
 	para "deshalb hat die"
 	line "Bibliothek alle"

@@ -643,6 +643,6 @@ EeveeDollSentText:
 
 
 OaksLabPokedexText:
-	text "Das ist Prof. Linds"
-	line "#dex."
+	text "Das ist"
+	line "Prof. Linds #dex."
 	done

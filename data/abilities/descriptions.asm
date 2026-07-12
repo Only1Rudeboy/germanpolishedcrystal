@@ -452,7 +452,7 @@ MarvelScaleDescription:
 	done
 
 LiquidOozeDescription:
-	text "Schadet dem Gegner"
+	text "Schadet Gegner bei"
 	next "Absauge-Attacken."
 	done
 
@@ -818,12 +818,12 @@ SandForceDescription:
 
 IronBarbsDescription:
 	text "Schadet dem Gegner"
-	next "Berührung."
+	next "bei Berührung."
 	done
 
 FurCoatDescription:
-	text "Halbiert Schaden"
-	next "phys. Attacken."
+	text "Halbiert phys."
+	next "Angriffsschaden."
 	done
 
 BulletproofDescription:
@@ -837,8 +837,8 @@ CompetitiveDescription:
 	done
 
 MegaLauncherDescription:
-	text "Verstärkt Aura- und"
-	next "Puls-Attacken."
+	text "Verstärkt Aura-"
+	next "und Puls-Attacken."
 	done
 
 ToughClawsDescription:

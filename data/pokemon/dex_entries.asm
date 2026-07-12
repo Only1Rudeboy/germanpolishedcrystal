@@ -2330,7 +2330,7 @@ SmoochumPokedexEntry::
 	next "entsteht"
 	page "zuerst. Damit"
 	next "erkundet es"
-	next "unbekanntes.@"
+	next "Unbekanntes.@"
 
 SECTION "ElekidPokedexEntry", ROMX
 ElekidPokedexEntry::

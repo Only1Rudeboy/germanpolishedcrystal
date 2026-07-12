@@ -35,8 +35,8 @@ ChadNumberAcceptedText:
 
 ChadNumberDeclinedText:
 	text "Oh… Ich wünschte,"
-	line "ich könnte"
-	cont "Prof. Eich treffen…"
+	line "ich könnte Prof."
+	cont "Eich treffen…"
 	done
 
 ChadPhoneFullText:

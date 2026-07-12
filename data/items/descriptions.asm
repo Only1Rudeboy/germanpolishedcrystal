@@ -1021,7 +1021,7 @@ ThickClubDesc:
 	done
 
 LuckyPunchDesc:
-	text "Erhöht Pummelufs"
+	text "Erhöht Pummeluffs"
 	next "Volltrefferquote."
 	done
 
@@ -1321,8 +1321,8 @@ MintLeafDesc:
 	done
 
 BottleCapDesc:
-	text "Ein glänzender,"
-	next "seltener Kronkork."
+	text "Glänzender, selt-"
+	next "ener Kronkorken."
 	done
 
 NuggetDesc:
@@ -1682,7 +1682,7 @@ CatchCharmDesc:
 	done
 
 SilphScope2Desc:
-	text "Ein Skop für un-"
+	text "Ein Scope für un-"
 	next "sichtbare #mon."
 	done
 

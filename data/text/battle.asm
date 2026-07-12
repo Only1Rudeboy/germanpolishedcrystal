@@ -1202,8 +1202,9 @@ DraggedOutText:
 
 ParalyzedText:
 	text "<TARGET> ist"
-	line "paralysiert! Evtl."
-	cont "kein Angriff"
+	line "paralysiert!"
+	cont "Evtl. kein"
+	cont "Angriff möglich!"
 	prompt
 
 FullyParalyzedText:

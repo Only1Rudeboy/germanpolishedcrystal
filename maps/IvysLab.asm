@@ -260,7 +260,8 @@ PokemonJournalProfIvyScript:
 
 	text "#mon Journal"
 
-	para "Spezial: Prof. Ivy!"
+	para "Spezial:"
+	line "Prof. Ivy!"
 
 	para "Philena Ivy"
 	line "arbeitete mit"

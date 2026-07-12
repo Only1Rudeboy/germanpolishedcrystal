@@ -826,11 +826,13 @@ FightingDojoScheduleThursdayPalmerText:
 	done
 
 FightingDojoScheduleFridayText:
-	text "Freitag: Lt. Surge,"
-	line "???, Clair"
+	text "Freitag:"
+	line "Lt. Surge, ???,"
+	cont "Clair"
 	done
 
 FightingDojoScheduleFridayYellowText:
-	text "Freitag: Lt. Surge,"
-	line "Yellow, Clair"
+	text "Freitag:"
+	line "Lt. Surge, Yellow,"
+	cont "Clair"
 	done

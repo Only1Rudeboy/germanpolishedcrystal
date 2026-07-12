@@ -152,8 +152,8 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .GreetingText:
-	text "Prof. Westwood? Das"
-	line "bin ich."
+	text "Prof. Westwood?"
+	line "Das bin ich."
 	done
 
 .IntroText:

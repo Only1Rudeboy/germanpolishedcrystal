@@ -71,9 +71,9 @@ ChadBlueGossipText:
 	done
 
 ChadDaisyGossipText:
-	text "Prof. Eich hat eine"
-	line "Enkelin namens"
-	cont "Daisy."
+	text "Prof. Eich hat"
+	line "eine Enkelin"
+	cont "namens Daisy."
 
 	para "Wenn sie da ist,"
 	line "beruhigen sich"
@@ -168,9 +168,9 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof. Eich hat eine"
-	line "Enkelin namens"
-	cont "Daisy."
+	text "Prof. Eich hat"
+	line "eine Enkelin"
+	cont "namens Daisy."
 
 	para "Sie trinkt täglich"
 	line "eine Stunde Tee ab"

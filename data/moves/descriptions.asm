@@ -689,12 +689,12 @@ RecoverDescription:
 
 FreshSnackDescription:
 	text "Heilt die Hälfte"
-	next "der eigenen max.KP"
+	next "der max. KP."
 	done
 
 RoostDescription:
 	text "Landet, heilt die"
-	next "Hälfte der max.KP."
+	next "halbe max. KP."
 	done
 
 ThrashDescription:
@@ -1132,8 +1132,8 @@ PowerGemDescription:
 	done
 
 RolloutDescription:
-	text "Greift 5 Runden an"
-	next "wird stärker."
+	text "Greift 5 Runden"
+	next "an, wird stärker."
 	done
 
 SwaggerDescription:
@@ -1172,7 +1172,7 @@ HealBellDescription:
 	done
 
 ReturnDescription:
-	text "Ein Angriff, der"
+	text "Attacke basierend"
 	next "auf Freundschaft."
 	done
 
