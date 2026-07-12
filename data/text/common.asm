@@ -4465,4 +4465,6 @@ SECTION "CantChangeTradedMonBallTextData", ROMX
 CantChangeTradedMonBallTextData::
 	text "Den Ball eines"
 	line "getauschten"
-	cont "#mon k
+	cont "#mon kannst du"
+	cont "nicht ändern."
+	prompt

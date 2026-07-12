@@ -2116,4 +2116,7 @@ LawrenceFinalPkmnText:
 	prompt
 
 ReiFinalPkmnText:
-	text "Ich 
+	text "Ich bin noch nicht"
+	line "fertig."
+	prompt
+
