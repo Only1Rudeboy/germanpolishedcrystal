@@ -49,13 +49,13 @@ PokemonFellFromTreeText:
 	prompt
 
 WantsToBattleText::
-	text "<ENEMY> will"
-	line "kämpfen!"
+	text "<ENEMY>"
+	line "will kämpfen!"
 	prompt
 
 WantToBattleText::
-	text "<ENEMY> wollen"
-	line "kämpfen!"
+	text "<ENEMY>"
+	line "wollen kämpfen!"
 	prompt
 
 BattleText_WildFled:
@@ -336,18 +336,19 @@ GotMoneyForWinningText:
 	prompt
 
 BattleText_EnemyWasDefeated:
-	text "<ENEMY> wurde"
-	line "besiegt!"
+	text "<ENEMY>"
+	line "wurde besiegt!"
 	prompt
 
 BattleText_EnemyWereDefeated:
-	text "<ENEMY> wurden"
-	line "besiegt!"
+	text "<ENEMY>"
+	line "wurden besiegt!"
 	prompt
 
 TiedAgainstText:
 	text "Unentschieden"
-	line "gegen <ENEMY>!"
+	line "gegen"
+	cont "<ENEMY>!"
 	prompt
 
 SentSomeToMomText:
@@ -403,17 +404,17 @@ BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn:
 	done
 
 BattleText_EnemyIsAboutToSwitchWillPlayerSwitchPkmn:
-	text "<ENEMY> wechselt"
-	line "gleich das"
-	cont "#mon."
+	text "<ENEMY>"
+	line "wechselt gleich"
+	cont "das #mon."
 
 	para "#mon wechseln?"
 	done
 
 BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn:
-	text "<ENEMY> wechseln"
-	line "gleich das"
-	cont "#mon."
+	text "<ENEMY>"
+	line "wechseln gleich"
+	cont "das #mon."
 
 	para "#mon wechseln?"
 	done
@@ -1435,8 +1436,9 @@ EnemyAffectionEndureText:
 	text "<USER> hielt"
 	line "durch, damit"
 
-	para "<ENEMY> nicht"
-	line "traurig wird!"
+	para "<ENEMY>"
+	line "nicht traurig"
+	cont "wird!"
 	prompt
 
 PlayerAffectionEvasionText:
@@ -1451,7 +1453,8 @@ EnemyAffectionEvasionText:
 	text "<USER> wich der"
 	line "Attacke aus"
 
-	para "dank <ENEMY>s Ruf!"
+	para "dank <ENEMY>s"
+	line "Ruf!"
 	prompt
 
 PlayerAffectionSelfCureText:
@@ -1466,8 +1469,9 @@ EnemyAffectionSelfCureText:
 	text "<USER> wurde"
 	line "gesund, damit"
 
-	para "<ENEMY> sich nicht"
-	line "sorgt!"
+	para "<ENEMY>"
+	line "sich nicht"
+	cont "sorgt!"
 	prompt
 
 AffectionCriticalText: ; same for both player and enemy
@@ -1623,7 +1627,8 @@ BattleText_WentBackToPlayer:
 
 BattleText_WentBackToEnemy:
 	text "<USER> kehrte"
-	line "zurück zu <ENEMY>!"
+	line "zurück zu"
+	cont "<ENEMY>!"
 	prompt
 
 ScaredText:
@@ -2111,6 +2116,4 @@ LawrenceFinalPkmnText:
 	prompt
 
 ReiFinalPkmnText:
-	text "Ich bin noch nicht"
-	line "fertig."
-	prompt
+	text "Ich 

@@ -1039,16 +1039,21 @@ _BuenaOffTheAirText::
 
 SECTION "Text_EnemyUsed", ROMX
 Text_EnemyUsed::
-	text "<ENEMY> setzt "
+	text "<ENEMY>"
+	line "setzt"
+	cont ""
 	text_ram wMonOrItemNameBuffer
 	text " ein!"
 	prompt
 
 SECTION "Text_EnemyUsedOn", ROMX
 Text_EnemyUsedOn::
-	text "<ENEMY> setzt "
+	text "<ENEMY>"
+	line "setzt"
+	cont ""
 	text_ram wMonOrItemNameBuffer
-	cont "an "
+	text " an"
+	cont ""
 	text_ram wEnemyMonNickname
 	text " ein!"
 	prompt
@@ -4460,6 +4465,4 @@ SECTION "CantChangeTradedMonBallTextData", ROMX
 CantChangeTradedMonBallTextData::
 	text "Den Ball eines"
 	line "getauschten"
-	cont "#mon kannst du"
-	cont "nicht ändern."
-	prompt
+	cont "#mon k
