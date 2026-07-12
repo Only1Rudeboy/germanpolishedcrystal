@@ -1,59 +1,96 @@
-# Pokémon Polished Crystal
+# Pokémon Polished Crystal (Deutsche Übersetzung)
 
-This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
+Das ist die deutsche Version von dem Pokémon-Spiel Polished Crystal, basierend auf [der Pokémon Crystal Disassembly](https://github.com/pret/pokecrystal).
 
-My goal is to create what the title says: an improved, polished version of Pokémon Crystal. It fixes bugs, takes into account the official game changes since 2001, and adds some new ideas of my own. Many features restore what was removed from R/B/Y, or original to HG/SS.
+Die deutsche Version ist vollständig durchgespielbar: **alle Spieltexte sind übersetzt** und wurden über mehrere Runden hinweg gegengeprüft (siehe [Was wurde übersetzt?](#was-wurde-übersetzt) unten).
 
-I've had vague plans to make a Pokémon game for years. I'm very impressed by the effort that's gone into disassembling Pokémon Crystal and making the code so well-organized. Thanks to making it open-source (and to the ROM hackers that inspired me), I'm finally making this game a reality.
+Größten Dank gehen an Rangi42, der das Spiel decompiled hat.
 
-> There are many ways to create games but the way we work at Game Freak may be a little different from other companies. That is, we constantly change and tweak what we have come up with. To make a fun game even more fun and polish it up, we take what we have made and start thinking about it from scratch. And to make the game the most fun to play we make endless changes and tweaks no matter how long it takes. It may not be the best way, but I think these tweaks are important to make our games fun and better.
+---
+
+Übersetzung des originalen Posts von https://github.com/Rangi42
+
+Mein Ziel ist es, genau das zu schaffen, was der Titel verspricht: eine verbesserte, polierte Version von Pokémon Crystal. Es behebt Bugs, berücksichtigt offizielle Änderungen seit 2001 und fügt einige eigene neue Ideen hinzu. Viele Features stellen Inhalte wieder her, die aus R/B/Y entfernt wurden, oder sind ursprünglich aus HG/SS.
+
+Ich hatte schon seit Jahren vage Pläne, ein eigenes Pokémon-Spiel zu machen. Ich bin sehr beeindruckt von der Arbeit, die in die Disassembly von Pokémon Crystal und die Organisation des Codes geflossen ist. Dank der Open-Source-Veröffentlichung (und den ROM-Hackern, die mich inspiriert haben) wird dieses Projekt endlich Realität.
+
+> Es gibt viele Wege, Spiele zu entwickeln, aber die Art, wie wir bei Game Freak arbeiten, unterscheidet sich vielleicht etwas von anderen Unternehmen. Wir ändern und verfeinern ständig, was wir uns ausgedacht haben. Um ein bereits gutes Spiel noch besser und polierter zu machen, nehmen wir das, was wir haben, und denken es komplett neu. Und um das Spiel so spaßig wie möglich zu machen, führen wir endlose Änderungen und Anpassungen durch – egal, wie lange es dauert. Es ist vielleicht nicht der beste Weg, aber ich glaube, diese Feinarbeit ist wichtig, damit unsere Spiele wirklich Spaß machen und besser werden.
 >
 > — Junichi Masuda, "[HIDDEN POWER of masuda No. 7](https://www.gamefreak.co.jp/blog/dir_english/?p=21)"
 
-## Download and Play
+## Download und Spielen
 
-The **current official release** is **v3.2.3** (the “Polished Crystal” release). It's fully playable from start to finish and includes major overhauls to gameplay, mechanics, and quality of life. A more detailed changelog is forthcoming, but you can find the major highlights below.
+Die **aktuelle offizielle Version** ist **v3.2.3** („Polished Crystal“-Release). Das Spiel ist von Anfang bis Ende komplett spielbar und enthält umfangreiche Überarbeitungen der Spielmechaniken und der Quality-of-Life-Features.
 
-- **[Download v3.2.3 here](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3)**
+- **[v3.2.3 (Englisch) hier herunterladen](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3)**
 
-The previous official version was [v3.1.1](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.1.1) (February 1, 2025).
+Die vorherige offizielle Version war [v3.1.1](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.1.1) (1. Februar 2025).
 
-*If you have any questions about playing or patching, [read the FAQ](FAQ.md)!*
+*Falls du Fragen zum Spielen oder Patchen hast, lies bitte zuerst die [FAQ](FAQ.md) (Englisch)!*
 
-## What’s New in v3.2.3
+**Deutsche Übersetzung:** Um die deutsche ROM zu bekommen, baue das Projekt selbst mit `make` (siehe [INSTALL.md](INSTALL.md)) oder frag im Repository nach der aktuellsten gebauten Version. Die ROM-Datei selbst wird nicht im Git-Repository mitgeführt.
 
-Below is a brief summary of the major changes and additions. A more detailed changelog will be released soon.
+## Was wurde übersetzt?
 
-- **Customizable New Game Setup:** You can now toggle Natures and Abilities on/off, choose how EVs work (classic no-limit, modern 510 limit, or disabled), and configure various other gameplay options before starting a new adventure.
-- **DVs No Longer Determine Natures/Shininess/Gender/Unown Form:** DVs still affect color variation (slightly different hues for the same species), but everything else is now handled separately.
-- **Overhauled Battle Engine and HUD:**
-  - Abilities are now supported.
-  - Moves have been updated to behave more like their modern counterparts.
-  - Minor HUD improvements make battles more streamlined.
-- **Revamped Move Animations:** Many moves have updated animations.
-- **Optimized Engine and 60fps Overworld:** The game engine has been heavily optimized for smoother performance, and the overworld now runs at 60 frames per second.
-- **Storage System Redesign:** The PC storage interface is more like modern Pokémon games. You can switch boxes, move Pokémon around, and manage your party with minimal saving hassles.
-- **HGSS-Inspired Pokédex:** The new Pokédex includes base stats, egg groups, and a more comprehensive encounter map showing *all* methods of obtaining Pokémon.
-- **Enhanced Overworld Weather:** Instead of just darkening the screen, you’ll now see proper rain, snow, or sandstorms in applicable areas.
-- **Revamped Summary Screen:** Replaces the vanilla stats screen. Shows nature, abilities, seen and caught data, and more.
+Die komplette deutsche Lokalisierung umfasst alle sichtbaren Spieltexte: Dialoge auf allen Karten, Item-, Attacken- und Fähigkeitsbeschreibungen, Pokédex-Einträge, Kampftexte, Telefon-/Mail-Texte sowie das komplette Menü- und UI-System (Taschenmenü, PC-Box, Pokémon-Zusammenfassung, Optionen, Startbildschirm-Einstellungen usw.).
+
+Kurzer Überblick über die wichtigsten Arbeitsschritte:
+
+- **Vollständige Ersttexterstellung** des gesamten Spieltexts ins Deutsche, inklusive aller Karten (`maps/`) und Datentabellen (`data/`).
+- **Mehrere unabhängige Korrekturlese-Runden** (Grammatik, Rechtschreibung, Zeichensetzung), bei denen jeder Änderungsvorschlag gegen eine Liste von über 1.370 offiziellen Eigennamen und dokumentierten Stil-Konventionen geprüft wurde – damit absichtliche Design-Entscheidungen (Sprechweisen einzelner Charaktere, knapper Menü-Stil, feste GROSSSCHREIBUNG bei Spielbegriffen) nicht versehentlich "korrigiert" werden.
+- **Nachträgliche Vollabdeckung des Programmcodes (`engine/`)**: Das komplette Menü- und System-UI war in den ursprünglichen Korrekturrunden nie erfasst worden. Diese Lücke wurde geschlossen und dabei mehrere echte Fehler gefunden und behoben.
+- **Gezielte Suche nach übrig gebliebenem, unübersetztem Englisch** im gesamten Text-Corpus – u. a. ein komplett unübersetztes Museumsschild in Marmoria City und unübersetzter Mail-Item-Text wurden dabei gefunden und nachträglich übersetzt.
+- **Technische Anpassungen**, die für eine korrekte deutsche Darstellung nötig waren:
+  - Neuer Zeichensatz-Eintrag für ein großes „Ö“, das im Original-Font fehlte.
+  - Breitenanpassung der Ja/Nein-Dialogbox, damit „Nein“ nicht abgeschnitten wird.
+  - Behebung eines Kompressions-Bugs (Zeichensatz-Ngram-Unstimmigkeit zwischen Englisch und Deutsch), der zu fehlerhaft dargestelltem Text führen konnte.
+  - Zahlreiche Zeilenumbruch-Anpassungen, da deutsche Wörter im Schnitt länger sind als die englischen Originale und die feste Zeichenbreite pro Textzeile (18–19 Zeichen, je nach Textbox-Typ) sonst überschritten worden wäre.
+  - Korrektur von Groß-/Kleinschreibungs-Inkonsistenzen bei den `#DEX`/`#COM`-Platzhaltern.
+  - Behebung mehrerer UI-Textüberläufe, z. B. zu lange Beschriftungen im „Neues Spiel“-Einstellungsmenü.
+- **„Pokegear“** wurde durchgängig zu **„PokéCom“** umbenannt.
+- Ein kleiner Startbildschirm-Hinweis wurde ergänzt: „DE VERSION: ONLY1_RUDEBOY“, ohne die bestehende Copyright-Zeile zu verändern.
+- Jede Änderung wurde vor der Veröffentlichung mit zwei unabhängigen, komplett neu kompilierten ROM-Builds gegengeprüft (identischer MD5-Hash), um sicherzustellen, dass keine Änderung versehentlich etwas anderes kaputt macht.
+
+Was die Übersetzung **nicht** anfasst: offizielle Eigennamen, feststehende Spielbegriffe und bewusste stilistische Entscheidungen der Originalübersetzung bleiben unverändert – das Ziel ist eine Übersetzung, die sich liest, als wäre sie offiziell, nicht eine, die alles "eindeutscht".
+
+Falls dir beim Spielen ein abgeschnittener Text, ein Layout-Fehler oder ein verbliebener Tippfehler auffällt: Bitte als Issue melden (siehe unten) – Rückmeldungen aus dem tatsächlichen Spielen sind die zuverlässigste Fehlerquelle, die es für dieses Projekt gibt.
+
+## Was ist neu in v3.2.3?
+
+Hier eine kurze Zusammenfassung der wichtigsten Änderungen und Neuerungen aus dem englischen Original-Projekt (Gameplay, nicht Übersetzung). Ein detaillierter Changelog erscheint bald.
+
+- **Anpassbare Neue-Spiel-Einstellungen:** Du kannst nun Natures und Abilities ein-/ausschalten, die EV-Mechanik wählen (klassisch ohne Limit, modernes 510-Limit oder deaktiviert) und weitere Spieloptionen vor dem Start konfigurieren.
+- **DVs bestimmen nicht mehr Nature, Shininess, Geschlecht oder Unown-Form:** DVs beeinflussen weiterhin leichte Farbvariationen, alles andere wird jetzt separat gehandhabt.
+- **Überarbeitete Kampf-Engine und HUD:**
+  - Abilities werden jetzt vollständig unterstützt.
+  - Attacken verhalten sich näher an ihren modernen Gegenstücken.
+  - Kleinere HUD-Verbesserungen für flüssigere Kämpfe.
+- **Überarbeitete Attacken-Animationen:** Viele Attacken haben neue Animationen.
+- **Optimierte Engine und 60 fps Overworld:** Die Engine wurde stark optimiert, die Oberwelt läuft jetzt mit 60 Bildern pro Sekunde.
+- **Neues Pokémon-Lager-System:** Die PC-Oberfläche ähnelt modernen Pokémon-Spielen. Du kannst Boxen wechseln, Pokémon verschieben und dein Team verwalten – mit minimalen Speicherproblemen.
+- **HGSS-inspirierter Pokédex:** Der neue Pokédex zeigt Basiswerte, Ei-Gruppen und eine detaillierte Fundort-Karte mit *allen* Fangmethoden.
+- **Verbessertes Wetter in der Oberwelt:** Statt nur Abdunkelung siehst du jetzt echten Regen, Schnee oder Sandstürme.
+- **Überarbeiteter Zusammenfassungs-Bildschirm:** Ersetzt den alten Status-Bildschirm. Zeigt Nature, Abilities, gesehene und gefangene Pokémon und mehr.
 
 ## Features
 
-A full list of features is in [FEATURES.md](FEATURES.md). Some highlights:
+Eine vollständige Liste findest du in [FEATURES.md](FEATURES.md) (Englisch). Einige Highlights:
 
-- **289 Pokémon species**, including some new evolutions, plus **56 cosmetic forms** (e.g., Magikarp patterns, Pikachu Fly/Surf, Arbok patterns, Unown Forms) and **46 variants** (Alolan, Galarian, Hisuian, etc.)—for a total of **391 unique Pokémon**.
-- **73 new moves** (72 on faithful builds), **75 TMs**, and **31 move tutors**.
-- Modern mechanics, such as the **Fairy type**, **Physical/Special split**, **Natures**, **Abilities**, and more.
-- **Unlimited TMs** and quality-of-life features like **Running Shoes** and continuous **Repel**.
-- **New/Revamped Maps**: Some from R/B/Y, some devamped from HG/SS, plus original locations.
-- **New Characters** including Lorelei and Agatha (R/B/Y), Lyra and the Team Rocket Executives (HG/SS), and others.
-- **More Post-Game Content**: Gym Leader rematches, a new event after battling Red, and more.
-- **Improved Level Curve** with steadily increasing challenges.
-- **Music and Graphics** devamped from newer generations.
+- **289 Pokémon-Arten**, inklusive neuer Entwicklungen, plus **56 kosmetische Formen** (z. B. Magikarp-Muster, Pikachu Fly/Surf, Arbok-Muster, Unown-Formen) und **46 Varianten** (Alola, Galar, Hisui usw.) → insgesamt **391 einzigartige Pokémon**.
+- **73 neue Attacken** (72 in der treuen Variante), **75 TMs** und **31 Attacken-Lehrer**.
+- Moderne Mechaniken wie **Fairy-Typ**, **Physisch/Spezial-Split**, **Natures**, **Abilities** und vieles mehr.
+- **Unbegrenzte TMs** sowie Quality-of-Life-Features wie **Laufschuhe** und permanenter **Repel**.
+- **Neue/überarbeitete Karten**: Einige aus R/B/Y, einige aus HG/SS angepasst, plus originale Orte.
+- **Neue Charaktere** wie Lorelei und Agatha (R/B/Y), Lyra und die Team Rocket Executives (HG/SS) und weitere.
+- **Mehr Post-Game-Inhalte**: Rematches gegen Arenaleiter, ein neues Event nach dem Kampf gegen Red und mehr.
+- **Verbesserte Levelkurve** mit stetig steigender Herausforderung.
+- **Musik und Grafiken** aus neueren Generationen übernommen.
 
-## Discussion
+## Diskussion
 
-If you have questions or comments, please check or post on any of these sites. (Read the [FAQ](FAQ.md) first if you have general questions!)
+Fragen oder Anmerkungen zur **deutschen Übersetzung** gerne direkt hier im Repository als Issue melden.
+
+Für allgemeine Fragen zum Original-Spiel (Gameplay, Mechaniken) kannst du dich an die englischsprachige Community wenden (lies zuerst die [FAQ](FAQ.md), falls du allgemeine Fragen hast!):
 
 - [Discord](https://discord.gg/ZK5pqK8)
 - [Skeetendo](https://hax.iimarckus.org/topic/6874/)
@@ -63,42 +100,44 @@ If you have questions or comments, please check or post on any of these sites. (
 - [Nuzlocke Forums](http://s7.zetaboards.com/Nuzlocke_Forum/topic/11003710/)
 - [Pokémon Hackers Online](http://www.pokemonhackersonline.com/showthread.php?t=15811)
 
-Additional resource:
+Zusätzliche Ressource:
 
-- [PolishedDex](https://www.polisheddex.app/) — An online companion for Polished Crystal. PolishedDex provides a searchable Pokédex, move list, item list, locations, abilities, special events, and a team builder. It also includes a FAQ and links to the official ROM releases, making it a convenient reference while playing.
+- [PolishedDex](https://www.polisheddex.app/) — Ein praktischer Online-Begleiter für Polished Crystal mit durchsuchbarem Pokédex, Attacken-Liste, Item-Liste, Fundorten, Abilities, Events und Team-Builder.
 
 ## Screenshots
+
+*Die folgenden Screenshots zeigen teilweise noch die englische Originalversion.*
 
 ![title-screen](screenshots/title-screen.png)
 ![which-photo](screenshots/which-photo.png)
 ![running-shoes](screenshots/running-shoes.png)
 ![town-map](screenshots/town-map.png)
-  
+
 ![lyra](screenshots/lyra.png)
 ![cherrygrove-city](screenshots/cherrygrove-city.png)
 ![pokemon-center](screenshots/pokemon-center.png)
 ![bag](screenshots/bag.png)
-  
+
 ![oaks-aide](screenshots/oaks-aide.png)
 ![move-tutor](screenshots/move-tutor.png)
 ![moss-rock](screenshots/moss-rock.png)
 ![rich-boy](screenshots/rich-boy.png)
-  
+
 ![tm43](screenshots/tm43.png)
 ![game-corner-prizes](screenshots/game-corner-prizes.png)
 ![goldenrod-move-tutor](screenshots/goldenrod-move-tutor.png)
 ![eviolite](screenshots/eviolite.png)
-  
+
 ![wonder-trade](screenshots/wonder-trade.png)
 ![ecruteak-shrine](screenshots/ecruteak-shrine.png)
 ![cowgirl](screenshots/cowgirl.png)
 ![olivine-city](screenshots/olivine-city.png)
-  
+
 ![remoraid](screenshots/remoraid.png)
 ![team-rocket](screenshots/team-rocket.png)
 ![steelix](screenshots/steelix.png)
 ![custom-map](screenshots/custom-map.png)
-  
+
 ![ice-rock](screenshots/ice-rock.png)
 ![hex-maniac](screenshots/hex-maniac.png)
 ![route-45](screenshots/route-45.png)
@@ -108,22 +147,22 @@ Additional resource:
 ![regional-forms](screenshots/regional-forms.png)
 ![move-reminder](screenshots/move-reminder.png)
 ![moves](screenshots/moves.png)
-  
+
 ![sylveon-moonblast](screenshots/sylveon-moonblast.png)
 ![togetic-fairy-wind](screenshots/togetic-fairy-wind.png)
 ![aerodactyl-fossil](screenshots/aerodactyl-fossil.png)
 ![cerulean-city](screenshots/cerulean-city.png)
-  
+
 ![celadon-city](screenshots/celadon-city.png)
 ![weather](screenshots/weather.png)
 ![viridian-forest](screenshots/viridian-forest.png)
 ![mismagius](screenshots/mismagius.png)
-  
+
 ![fighting-dojo](screenshots/fighting-dojo.png)
 ![silph-co](screenshots/silph-co.png)
 ![stormy-beach](screenshots/stormy-beach.png)
 ![rock-tunnel](screenshots/rock-tunnel.png)
-  
+
 ![safari-zone](screenshots/safari-zone.png)
 ![soul-house](screenshots/soul-house.png)
 ![cinnabar-island](screenshots/cinnabar-island.png)
