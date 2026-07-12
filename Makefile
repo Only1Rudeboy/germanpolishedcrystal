@@ -264,7 +264,7 @@ gfx/title/version.2bpp: Makefile tools/fine_print.c
 	$Qtools/fine_print -e 20 '$(COPYRIGHT)' $@
 
 gfx/title/subtitle.2bpp: Makefile tools/fine_print.c
-	$Qtools/fine_print -e 20 -s 0 'Deutsche Version: Only1_Rudeboy' $@
+	$Qtools/fine_print -e 20 'DE VERSION: ONLY1_RUDEBOY' $@
 
 gfx/title/suicune_unowns.2bpp: RGBGFXFLAGS += --unique-tiles --nb-tiles 127,127 --base-tiles 0,128
 gfx/title/suicune_unowns.tilemap: RGBGFXFLAGS += --unique-tiles --nb-tiles 127,127 --base-tiles 0,128
