@@ -93,8 +93,7 @@ ProfOaksAide2HiText:
 
 ProfOaksAide2UhOhText:
 	text "Mal sehen… Oh! Du"
-	line "hast nur"
-	done
+	line "hast nur "
 	text_decimal wTempDexOwn, 2, 3
 	text "Arten"
 	para "gefangen."
@@ -104,8 +103,7 @@ ProfOaksAide2UhOhText:
 
 ProfOaksAide2HereYouGoText:
 	text "Mal sehen… Super!"
-	line "Du hast"
-	done
+	line "Du hast "
 	text_decimal wTempDexOwn, 2, 3
 	text "Arten"
 	para "gefangen."

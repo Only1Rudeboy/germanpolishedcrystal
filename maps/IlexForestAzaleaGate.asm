@@ -105,8 +105,7 @@ ProfOaksAide1HiText:
 
 ProfOaksAide1UhOhText:
 	text "Mal sehen … Oh! Du"
-	line "hast nur"
-	done
+	line "hast nur "
 	text_decimal wTempDexOwn, 2, 3
 	text "Arten"
 	para "gefangen."
@@ -116,8 +115,7 @@ ProfOaksAide1UhOhText:
 
 ProfOaksAide1HereYouGoText:
 	text "Mal sehen … Super!"
-	line "Du hast"
-	done
+	line "Du hast "
 	text_decimal wTempDexOwn, 2, 3
 	text "Arten"
 	para "gefangen."

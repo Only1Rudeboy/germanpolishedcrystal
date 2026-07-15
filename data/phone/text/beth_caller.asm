@@ -56,8 +56,7 @@ BethBattleRematchText:
 	text "Willst du"
 	line "kämpfen? Diesmal"
 	cont "gewinne ich!"
-	para "Ich warte auf"
-	done
+	para "Ich warte auf "
 	text_ram wStringBuffer5
 	text "."
 

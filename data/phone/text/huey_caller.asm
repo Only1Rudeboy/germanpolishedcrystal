@@ -3,7 +3,6 @@ HueyBattleRematchText:
 	line "dich zum Kampf!"
 	para "Diesmal anders"
 	line "als letztes Mal!"
-	done
 	text_ram wStringBuffer5
 	text " - da warte ich."
 

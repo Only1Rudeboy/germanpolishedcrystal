@@ -2,8 +2,7 @@ ReenaMonsIsAPerfectMatchText:
 	text "Hör mal, Liebling"
 	line "…"
 	para "Erinnerst du dich"
-	line "an mein"
-	done
+	line "an mein "
 	text_ram wStringBuffer4
 	text "?"
 
@@ -73,8 +72,7 @@ ReenaForwardText:
 ReenaHurryText:
 	text "Was machst du?"
 	para "Ich sagte, der"
-	line "Ort ist"
-	done
+	line "Ort ist "
 	text_ram wStringBuffer5
 	text "!"
 

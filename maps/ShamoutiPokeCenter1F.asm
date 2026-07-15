@@ -178,8 +178,7 @@ ShamoutiPokeCenter1FIvyScript:
 	line "einen #dex"
 	cont "gegeben, also"
 	para "weiß ich, dass du"
-	line "gut auf"
-	done
+	line "gut auf "
 	text_ram wStringBuffer3
 	text "."
 	para "Na ja, ich muss"

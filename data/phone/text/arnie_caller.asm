@@ -10,8 +10,7 @@ ArnieMonIsSoCuteText:
 ArnieDefeatedMonText:
 	text "Apropos, ich sah"
 	line "zum ersten Mal"
-	cont "ein"
-	done
+	cont "ein "
 	text_ram wStringBuffer4
 	text ". Es war leicht"
 	line "zu besiegen."
@@ -36,8 +35,7 @@ ArnieBattleRematchText:
 	line "nicht im Kampf"
 	cont "oder im"
 	para "Käferturnier! Ich"
-	line "bin auf"
-	done
+	line "bin auf "
 	text_ram wStringBuffer5
 	text "!"
 	done

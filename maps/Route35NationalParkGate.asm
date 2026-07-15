@@ -61,10 +61,8 @@ Route35NationalParkGate_IsContestDay:
 	endcallback
 
 Route35NationalParkGateLeaveContestEarlyScene:
+	sdefer .Script
 	end
-
-
-
 
 .Script:
 	applymovement PLAYER, Route35NationalParkGatePlayerApproachOfficer1Movement

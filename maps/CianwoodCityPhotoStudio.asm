@@ -94,8 +94,7 @@ PhotoStudioHoldStillText:
 
 PhotoStudioPrestoText:
 	text "Presto! Fertig!"
-	para "Dein"
-	done
+	para "Dein "
 	text_ram wStringBuffer3
 	line "sieht fröhlicher"
 	cont "aus!"

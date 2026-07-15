@@ -37,8 +37,7 @@ GinaBattleRematchText:
 	line "mein"
 	cont "Übungspartner"
 	cont "sein?"
-	para "Ich warte auf"
-	done
+	para "Ich warte auf "
 	text_ram wStringBuffer5
 	text "."
 	para "… Könntest du"
@@ -103,8 +102,7 @@ GinaComePickUpText:
 	text "Ich werde"
 	line "ungeduldig mit"
 	cont "dem Geschenk!"
-	para "Beeil dich nach"
-	done
+	para "Beeil dich nach "
 	text_ram wStringBuffer5
 	text "!"
 	done

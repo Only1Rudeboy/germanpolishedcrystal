@@ -29,9 +29,8 @@ LancesRoom_MapScriptHeader:
 	const LANCESROOM_OAK
 
 LancesRoomLockDoorScene:
+	sdefer .Script
 	end
-
-
 
 .Script:
 	applymovement PLAYER, WalkIntoEliteFourRoomMovement

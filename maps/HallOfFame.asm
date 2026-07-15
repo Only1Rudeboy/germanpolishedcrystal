@@ -20,9 +20,8 @@ HallOfFame_MapScriptHeader:
 	const HALLOFFAME_LANCE
 
 HallOfFameEnterScene:
+	sdefer .Script
 	end
-
-
 
 .Script:
 	follow HALLOFFAME_LANCE, PLAYER

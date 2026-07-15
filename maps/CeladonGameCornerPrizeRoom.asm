@@ -234,15 +234,13 @@ CeladonPrizeRoom_AskWhichPrizeText:
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "Ach, du wolltest"
-	done
+	text "Ach, du wolltest "
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_ConfirmTMPurchaseText:
-	text "Ach, du wolltest"
-	done
+	text "Ach, du wolltest "
 	text_ram wStringBuffer3
 	text "?"
 	done

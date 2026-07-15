@@ -6,8 +6,7 @@ GavenAskNumber1Text:
 	line "Darf ich deine"
 	cont "Nummer?"
 	para "Ich will wieder"
-	line "kämpfen, wenn"
-	done
+	line "kämpfen, wenn "
 	text_ram wStringBuffer4
 
 	para "und mein Team"

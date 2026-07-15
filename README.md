@@ -18,7 +18,8 @@
 | Datum | Änderung |
 |---|---|
 | **2026-07-15** | **Bugfix:** „LYRA erhält“ ohne Pokémon-Name (frühes `done` vor `text_ram`). |
-| **2026-07-15** | **Bugfix (kritisch):** Intro in Prof. Linds Labor startete nicht – `ElmsLabMeetElmScene` endete sofort ohne `sdefer .Script` (kein Lauf zu LIND, keine Intro-Dialoge). Script-Ablauf wiederhergestellt; doppelter `ElmDirectionsScript`-Block entfernt. Starter-Ball-Logik mit Upstream abgeglichen. Intro-Text inkl. LYRA-Anrede an Polished angeglichen. |
+| **2026-07-15** | **Bugfix (kritisch):** Intro in Prof. Linds Labor startete nicht – `ElmsLabMeetElmScene` endete sofort ohne `sdefer .Script`. Script-Ablauf + Intro-Text (LYRA) repariert. |
+| **2026-07-15** | **Globaler Script-Bug-Scan:** 11× fehlendes `sdefer .Script` (Hall of Fame, Top Vier, Fast Ship, Mahagonia-Mart, Alph-Ruinen, Nationalpark-Tore, …) und 68× vorzeitiges `done` vor `text_ram`/`text_decimal` (Maps + Phone) behoben; Leerzeichen vor dynamischen Namen ergänzt. ROM **3.2.3.009**. |
 
 ---
 

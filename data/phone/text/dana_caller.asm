@@ -56,8 +56,7 @@ DanaFoundItemText:
 	para "Wie versprochen,"
 	line "ist es deins!"
 	para "Du wirst es"
-	line "mögen. Hol es auf"
-	done
+	line "mögen. Hol es auf "
 	text_ram wStringBuffer5
 	text " ab!"
 	done
@@ -90,8 +89,7 @@ DanaComePickUpText:
 	para "bald holst, geb"
 	line "ich's jemand"
 	para "anderem. Ich"
-	line "warte auf"
-	done
+	line "warte auf "
 	text_ram wStringBuffer5
 	text "!"
 	done

@@ -77,12 +77,8 @@ Route36NationalParkGateCheckIfContestAvailable:
 	endcallback
 
 Route36NationalParkGateLeaveContestEarlyScene:
+	sdefer .Script
 	end
-
-
-
-
-
 
 .Script:
 	turnobject PLAYER, UP

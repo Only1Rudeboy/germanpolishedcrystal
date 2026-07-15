@@ -95,8 +95,7 @@ MrHyperScript:
 
 .TextGotStronger:
 	text "Fertig! Das"
-	line "Training steigerte"
-	done
+	line "Training steigerte "
 	text_ram wStringBuffer1
 	text "s Werte!"
 	done

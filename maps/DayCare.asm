@@ -192,27 +192,38 @@ DayCareMovementData_LyraLeaves:
 
 DayCareLyraHelloText:
 	text "LYRA: Oma!"
+
 	para "Lass mich dir"
 	line "jemanden"
 	cont "vorstellen."
+
 	para "Das ist <PLAYER>!"
+
 	para "Oma: Aha."
-	para "Das ist wohl dein"
-	done
+
+	para "Das ist dein"
+	line ""
 	text_ram wStringBuffer3
+	text "-Freund."
 
 	para "Verstehe. Hmm."
 	done
 
 DayCareLyraProtestText:
 	text "LYRA: Was? Oma …!"
+
 	para "Wovon redest du?"
+
 	para "<PLAYER> wohnt nur"
 	line "in der Nähe …"
+
 	para "Oma: Hahaha. Schon"
 	line "gut, schon gut."
-	done
+
+	para ""
 	text_ram wStringBuffer4
+	text " hat bestimmt"
+	line "Talent."
 
 	para "Stimmt's,"
 	line "<PLAYER>? Komm uns"

@@ -468,8 +468,7 @@ IndigoPlateauYellowScript:
 
 .GoodbyeText:
 	text "YELLOW: Pass gut"
-	line "auf"
-	done
+	line "auf "
 	text_ram wStringBuffer3
 	text ", <PLAYER>!"
 

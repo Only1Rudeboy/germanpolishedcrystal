@@ -38,12 +38,8 @@ MahoganyMart1FStaircaseCallback:
 	endcallback
 
 MahoganyMart1FLanceUncoversStairsScene:
+	sdefer .Script
 	end
-
-
-
-
-
 
 .Script:
 	turnobject MAHOGANYMART1F_BLACK_BELT, RIGHT

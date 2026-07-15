@@ -39,9 +39,8 @@ RuinsOfAlphResearchCenterScientistCallback:
 	endcallback
 
 RuinsOfAlphResearchCenterGetUnownDexScene:
+	sdefer .Script
 	end
-
-
 
 .Script:
 	applymovement RUINSOFALPHRESEARCHCENTER_SCIENTIST3, RuinsOfAlphResearchCenterApproachesComputerMovement

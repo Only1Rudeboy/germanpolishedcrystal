@@ -69,7 +69,6 @@ OreManiacScript:
 	line "erschüttert mich!"
 	para "Verkaufst du es"
 	line "für ¥"
-	done
 	text_decimal hMoneyTemp, 3, 7
 	text "?"
 	done

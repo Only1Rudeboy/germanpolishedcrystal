@@ -1,7 +1,6 @@
 JoseMonsStickHasADeliciousAromaText:
 	text "Hör mal, der"
-	line "Stock meines"
-	done
+	line "Stock meines "
 	text_ram wStringBuffer4
 
 	para "riecht so lecker."
@@ -90,7 +89,6 @@ JoseReminderText:
 	cont "es"
 	para "mich mit dem"
 	line "Stock!"
-	done
 	text_ram wStringBuffer5
 	text "!"
 

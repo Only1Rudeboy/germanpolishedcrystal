@@ -37,9 +37,8 @@ FastShip1F_MapScriptHeader:
 	const FASTSHIP1F_GENTLEMAN
 
 FastShip1FEnterShipScene:
+	sdefer .Script
 	end
-
-
 
 .Script:
 	applymovement FASTSHIP1F_SAILOR1, FastShip1F_SailorStepAsideMovement

@@ -134,8 +134,7 @@ Route23OfficerNoBadgeScript:
 	end
 
 .NoBadgeText:
-	text "Du hast das"
-	done
+	text "Du hast das "
 	text_ram wStringBuffer3
 	text "noch nicht!"
 	para "Du brauchst es, um"
@@ -154,8 +153,7 @@ Route23OfficerHaveBadgeScript:
 	done
 
 .SeeBadgeText:
-	text "Ach! Das ist das"
-	done
+	text "Ach! Das ist das "
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -163,8 +161,7 @@ Route23OfficerHaveBadgeScript:
 Route23OfficerNeedBadgeText:
 	text "Du darfst hier nur"
 	line "passieren, wenn du"
-	cont "das"
-	done
+	cont "das "
 	text_ram wStringBuffer3
 	text "hast."
 	done

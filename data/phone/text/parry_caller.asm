@@ -52,8 +52,7 @@ ParryBattleWithMeText:
 
 ParryHaventYouGottenToText:
 	text "Bist du noch"
-	line "nicht auf"
-	done
+	line "nicht auf "
 	text_ram wStringBuffer5
 	text "?"
 

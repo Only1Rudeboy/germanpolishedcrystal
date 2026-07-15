@@ -53,8 +53,7 @@ DerekGreetNiteText:
 DerekGenericText:
 	text "Das musst du"
 	line "hören! Mein"
-	cont "liebes"
-	done
+	cont "liebes "
 	text_ram wStringBuffer4
 	text "hat mich"
 	line "angesehen und"

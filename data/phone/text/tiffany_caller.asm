@@ -81,8 +81,7 @@ TiffanyFoundItemText:
 	para "für mein Piepi."
 	line "Zu viele - eins"
 	para "für dich! Hol es"
-	line "auf"
-	done
+	line "auf "
 	text_ram wStringBuffer5
 	text " ab."
 	done

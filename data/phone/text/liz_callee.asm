@@ -59,8 +59,7 @@ LizGenericText:
 	line "und rief dich an."
 	para "Wie gehen deine"
 	line "#mon?"
-	para "Ich bring mein"
-	done
+	para "Ich bring mein "
 	text_ram wStringBuffer4
 	text "täglich"
 	para "ins #mon-Center"

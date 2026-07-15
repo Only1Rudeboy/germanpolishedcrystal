@@ -36,8 +36,7 @@ ChadLostAMonText:
 	text_ram wStringBuffer4
 	text "gefangen."
 	para "Schon lange"
-	line "wollte ich"
-	done
+	line "wollte ich "
 	text_ram wStringBuffer4
 	text "beobachten. Mist"
 	line "…"
@@ -49,8 +48,7 @@ ChadBattleRematchText:
 	cont "zu"
 	para "kämpfen, sonst"
 	line "rostet man ein."
-	para "Ich bin auf"
-	done
+	para "Ich bin auf "
 	text_ram wStringBuffer5
 	text "!"
 	done

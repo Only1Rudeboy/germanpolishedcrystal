@@ -259,8 +259,7 @@ LizReminderText:
 	line "Zeit!"
 	para "Lass uns sofort"
 	line "kämpfen! Ich"
-	cont "warte auf"
-	done
+	cont "warte auf "
 	text_ram wStringBuffer5
 	text "!"
 	done

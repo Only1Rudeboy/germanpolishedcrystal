@@ -22,8 +22,7 @@ BeverlyLostAMonText:
 	line "wildes Marill …"
 	cont "Oder dachte"
 	para "es. Bei näherem"
-	line "Hinsehen war es"
-	done
+	line "Hinsehen war es "
 	text_ram wStringBuffer4
 	text ". Ich war"
 	line "ziemlich sauer."
@@ -43,8 +42,7 @@ BeverlyFoundItemText:
 	cont "haben"
 	para "als Dank für"
 	line "deine Hilfe. Ich"
-	cont "bin auf"
-	done
+	cont "bin auf "
 	text_ram wStringBuffer5
 	text ". Komm vorbei!"
 	done

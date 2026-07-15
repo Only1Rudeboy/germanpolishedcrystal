@@ -31,8 +31,7 @@ TiffanyAnswerPhoneNiteText:
 TiffanyGreetText:
 	text "Bist du <PLAYER>?"
 	para "Guten Morgen."
-	line "Hier ist"
-	done
+	line "Hier ist "
 	text_ram wStringBuffer3
 	text "."
 	done

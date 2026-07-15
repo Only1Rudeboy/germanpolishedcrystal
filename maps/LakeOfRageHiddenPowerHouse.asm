@@ -44,8 +44,7 @@ HiddenPowerGuy:
 	jumpthisopenedtext
 
 	text "Ich spür es…"
-	para "Dein"
-	done
+	para "Dein "
 	text_ram wStringBuffer3
 	line "hat eine"
 	cont "Kraftreserve"

@@ -24,8 +24,7 @@ JoeyDefeatedMonText:
 
 JoeyLostAMonText:
 	text "Oh ja, ich sah"
-	line "ein wildes"
-	done
+	line "ein wildes "
 	text_ram wStringBuffer4
 	text "!"
 	para "Ich dachte dran,"
@@ -70,8 +69,7 @@ JoeyReminderText:
 	line "auf, <PLAYER>!"
 	para "Lass uns endlich"
 	line "kämpfen! Ich"
-	cont "warte auf"
-	done
+	cont "warte auf "
 	text_ram wStringBuffer5
 	text "!"
 	done

@@ -82,7 +82,6 @@ WiltonWantThisText:
 	text "Willst du das"
 	line "Item nicht?"
 	para "Häh? Wo?"
-	done
 	text_ram wStringBuffer5
 	text "… Von Mahagonia"
 	line "Richtung Eispfad!"

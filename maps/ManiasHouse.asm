@@ -165,8 +165,7 @@ ManiaText_GotShuckie:
 	done
 ManiaText_ShuckieSentToPC:
 	text "Das #mon wurde"
-	line "nach"
-	done
+	line "nach "
 	text_ram wStringBuffer1
 	text "geschickt."
 	done

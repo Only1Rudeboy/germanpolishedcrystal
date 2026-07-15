@@ -20,12 +20,8 @@ KarensRoom_MapScriptHeader:
 	object_event  5,  7, SPRITE_KAREN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, KarenScript, -1
 
 KarensRoomLockDoorScene:
+	sdefer .Script
 	end
-
-
-
-
-
 
 .Script:
 	applymovement PLAYER, WalkIntoEliteFourRoomMovement

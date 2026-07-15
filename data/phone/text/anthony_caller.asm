@@ -31,8 +31,7 @@ AnthonyDefeatedMonText:
 AnthonyLostAMonText:
 	text "Oh ja, ich"
 	line "kämpfte gegen ein"
-	cont "wildes"
-	done
+	cont "wildes "
 	text_ram wStringBuffer4
 	text "… Es entkam, als"
 	line "ich"

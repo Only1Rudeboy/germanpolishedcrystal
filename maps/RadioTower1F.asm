@@ -289,8 +289,7 @@ ExplainLuckyNumberShowText:
 RadioTower1FLuckyNumberManTodayIdIsText:
 	text "Die heutige"
 	line "Glücks-ID-Nummer"
-	cont "ist"
-	done
+	cont "ist "
 	text_ram wStringBuffer3
 	text "."
 	done

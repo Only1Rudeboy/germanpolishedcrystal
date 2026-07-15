@@ -1,7 +1,6 @@
 RalphNeglectingKidsText:
 	text "Ich verbringe"
-	line "mehr Zeit mit"
-	done
+	line "mehr Zeit mit "
 	text_ram wStringBuffer4
 
 	para "als mit meinen"
@@ -25,8 +24,7 @@ RalphDefeatedMonText:
 
 RalphLostAMonText:
 	text "Gestern entkam"
-	line "ein wildes"
-	done
+	line "ein wildes "
 	text_ram wStringBuffer4
 
 	para "vor meinem Kind."

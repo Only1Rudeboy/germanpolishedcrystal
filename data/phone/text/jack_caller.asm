@@ -37,8 +37,7 @@ JackBattleRematchText:
 	line "Ich zeige dir"
 	para "logisches"
 	line "Kämpfen. Ich bin"
-	cont "auf"
-	done
+	cont "auf "
 	text_ram wStringBuffer5
 	text ". Ruf, wenn du da"
 	line "bist."
@@ -157,8 +156,7 @@ JackReminderText:
 	para "Erinnerst du"
 	line "dich? Wir wollten"
 	cont "kämpfen!"
-	para "Ich bin auf"
-	done
+	para "Ich bin auf "
 	text_ram wStringBuffer5
 	text "."
 	done

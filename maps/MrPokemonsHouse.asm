@@ -423,8 +423,7 @@ MrPokemonText_GotShinyDitto:
 	done
 MrPokemonText_SentToPC:
 	text "Das #mon wurde"
-	line "nach"
-	done
+	line "nach "
 	text_ram wStringBuffer1
 	text "."
 	done

@@ -42,8 +42,7 @@ JoeyPhoneFullText:
 JoeyTopPercentageText:
 	text "Hey, erinnerst du"
 	line "dich an mein"
-	cont "super cooles"
-	done
+	cont "super cooles "
 	text_ram wStringBuffer4
 	text "?"
 

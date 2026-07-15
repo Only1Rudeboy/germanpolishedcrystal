@@ -47,7 +47,6 @@ WadeBattleRematchText:
 	line "#mon-Kampf?"
 	para "Diesmal anders"
 	line "als letztes Mal!"
-	done
 	text_ram wStringBuffer5
 	text "- da bin ich."
 	para "Sag Bescheid,"
@@ -74,8 +73,7 @@ WadeFoundItemText:
 	cont "Wenn du"
 	para "willst, teile"
 	line "ich. Ich warte"
-	cont "auf"
-	done
+	cont "auf "
 	text_ram wStringBuffer5
 	text "."
 	done
@@ -106,7 +104,6 @@ WadeQuickBattleText:
 WadeComeQuickText:
 	text "Warum bist du"
 	line "noch nicht da?"
-	done
 	text_ram wStringBuffer5
 	text " - da bin ich."
 

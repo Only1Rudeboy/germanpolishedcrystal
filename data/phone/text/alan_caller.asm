@@ -10,8 +10,7 @@ AlanGettingStrongerText:
 
 AlanDefeatedMonText:
 	text "Übrigens haben"
-	line "wir ein wildes"
-	done
+	line "wir ein wildes "
 	text_ram wStringBuffer4
 	text "vor ein paar"
 	line "Tagen"

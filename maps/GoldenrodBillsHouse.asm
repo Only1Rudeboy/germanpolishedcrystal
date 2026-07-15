@@ -368,8 +368,7 @@ BillsGrandpaYouDontHaveItTextText:
 	line "Das ist schade…"
 	done
 BillsGrandpaShownPokemonText:
-	text "Ah, also das ist"
-	done
+	text "Ah, also das ist "
 	text_ram wStringBuffer3
 	text "?"
 

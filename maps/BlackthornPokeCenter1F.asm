@@ -51,8 +51,7 @@ ProfOaksAide4Script:
 
 	text "Mal sehen… Oh je!"
 	line "Du hast"
-	para "erst"
-	done
+	para "erst "
 	text_decimal wTempDexOwn, 2, 3
 	text "Arten von #mon"
 	line "gefangen."
@@ -102,8 +101,7 @@ ProfOaksAide4Script:
 .HereYouGoText:
 	text "Mal sehen… Gut"
 	line "gemacht! Du hast"
-	para "gefangen"
-	done
+	para "gefangen "
 	text_decimal wTempDexOwn, 2, 3
 	text "Arten von #mon."
 	para "Glückwunsch! Hier"
