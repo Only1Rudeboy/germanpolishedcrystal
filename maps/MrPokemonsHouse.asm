@@ -299,6 +299,7 @@ MrPokemonText_ImDependingOnYou:
 
 
 MrPokemonText_AlwaysNewDiscoveries:
+	; GSC-DE Dump
 	text "Das Leben ist"
 	line "schön! Es gibt"
 
@@ -368,18 +369,23 @@ MrPokemonsHouse_OakText1:
 
 
 MrPokemonsHouse_OakText2:
+	; GSC-DE Dump
 	text "Triff auf viele"
-	line "verschiedene"
-	cont "#mon und"
-	cont "vervollständige"
-	cont "den #DEX!"
+	line "verschiedene #-"
+	cont "MON und vervoll-"
+
+	para "ständige den"
+	line "#DEX!"
+
 	para "Ich bin schon zu"
 	line "lange hier."
+
 	para "Ich muss nach"
 	line "DUKATIA CITY zu"
 	cont "meiner Radioshow."
-	para "<PLAYER>, ich zähle"
-	line "auf dich!"
+
+	para "<PLAYER>, ich"
+	line "zähle auf dich!"
 	done
 
 

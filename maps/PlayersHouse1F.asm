@@ -173,7 +173,7 @@ MomScript:
 	line "auf dich."
 
 	para "Beeile dich,"
-	line "Baby!"
+	line "Schatz!"
 	done
 
 

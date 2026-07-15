@@ -293,23 +293,33 @@ GuideGentIntroText:
 	done
 
 GuideGentPokeCenterText:
-	text "Das ist ein"
-	line "#mon-Center."
-	para "Hier kannst du"
-	line "deine #mon"
-	cont "heilen."
-	para "Das wirst du sehr"
-	line "oft brauchen."
+	; GSC-DE Dump
+	text "Das ist ein #-"
+	line "MON-CENTER. Hier"
+
+	para "kannst du deine"
+	line "#MON heilen."
+
+	para "Du wirst diese"
+	line "Dienste sehr oft"
+
+	para "in Anspruch nehmen"
+	line "müssen."
 	done
 
 GuideGentMartText:
-	text "Das ist ein"
-	line "#mon-Markt."
-	para "Hier gibt es"
-	line "Bälle, mit denen"
-	cont "du #mon fängst."
-	para "Und viele andere"
-	line "nützliche Items."
+	; GSC-DE Dump
+	text "Das ist ein PKMN-"
+	line "SUPERMARKT."
+
+	para "Hier werden BÄLLE"
+	line "verkauft, mit de-"
+	cont "nen du #MON"
+	cont "fangen kannst."
+
+	para "Außerdem findest"
+	line "du hier viele"
+	cont "nützliche Items."
 	done
 
 GuideGentRoute30Text:
@@ -353,11 +363,14 @@ GuideGentSeaText:
 
 
 GuideGentGiftText:
-	text "Hier …"
+	; GSC-DE Dump
+	text "Hier…"
+
 	para "Das ist mein Haus!"
 	line "Danke, dass du mir"
 	cont "Gesellschaft"
 	cont "geleistet hast."
+
 	para "Lass mich dir ein"
 	line "kleines Präsent"
 	cont "geben!"
@@ -391,36 +404,42 @@ GuideGentPokegearText:
 
 
 CherrygroveRivalText_Seen:
-	text "… … …"
-	para "Du hast ein"
-	line "#mon aus dem"
-	cont "LABOR."
-	para "Welch eine"
-	line "Verschwendung für"
-	cont "einen Schwächling"
+	; GSC-DE Dump
+	text "…"
+	line "…"
+	cont "…"
+
+	para "Du hast ein #-"
+	line "MON aus dem LABOR."
+
+	para "Welch eine Ver-"
+	line "schwendung für ei-"
+	cont "nen Schwächling"
 	cont "wie dich."
-	para "… … …"
+
+	para "…"
+	line "…"
+	cont "…"
+
 	para "Hast du kapiert,"
 	line "wovon ich spreche?"
+
 	para "Auch ich habe ein"
-	line "gutes #mon."
+	line "gutes #MON."
+
 	para "Ich zeige dir, was"
 	line "ich meine!"
 	done
 
-
-
-
 RivalCherrygroveWinText:
-	text "Hmpf. Bist du"
-	line "wenigstens froh"
-	cont "über deinen Sieg?"
+	; GSC-DE Dump
+	text "Hmpf. Bist du we-"
+	line "nigstens froh über"
+	cont "deinen Sieg?"
 	done
 
-
-
-
 RivalCherrygroveLossText:
+	; GSC-DE Dump
 	text "Hmpf. Das war pure"
 	line "Zeitverschwendung."
 	done
