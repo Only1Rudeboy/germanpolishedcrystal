@@ -17,7 +17,8 @@
 
 | Datum | Änderung |
 |---|---|
-| **2026-07-15** | **Bugfix:** In Prof. Linds Labor zeigte „LYRA erhält“ den Pokémon-Namen nicht (frühes `done` vor `text_ram`). Korrigiert zu „LYRA erhält / [Art]!“. Zusätzlich dieselben Strukturfehler bei Kampfturm/Kampffabrik (KP-Text, nächster Gegner, Serien-Anzeige) behoben. |
+| **2026-07-15** | **Bugfix:** „LYRA erhält“ ohne Pokémon-Name (frühes `done` vor `text_ram`). |
+| **2026-07-15** | **Bugfix (kritisch):** Intro in Prof. Linds Labor startete nicht – `ElmsLabMeetElmScene` endete sofort ohne `sdefer .Script` (kein Lauf zu LIND, keine Intro-Dialoge). Script-Ablauf wiederhergestellt; doppelter `ElmDirectionsScript`-Block entfernt. Starter-Ball-Logik mit Upstream abgeglichen. Intro-Text inkl. LYRA-Anrede an Polished angeglichen. |
 
 ---
 

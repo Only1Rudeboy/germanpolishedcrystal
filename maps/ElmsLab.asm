@@ -69,12 +69,8 @@ ElmsLabCallback_MoveElm:
 	endcallback
 
 ElmsLabMeetElmScene:
+	sdefer .Script
 	end
-
-
-
-
-
 
 .Script:
 	follow PLAYER, ELMSLAB_LYRA
@@ -91,7 +87,7 @@ ElmsLabMeetElmScene:
 	sjump .Loop
 
 ElmsLab_ElmGetsEmail:
-if!DEF(DEBUG)
+if !DEF(DEBUG)
 	writetext ElmText_Accepted
 	promptbutton
 	writetext ElmText_ResearchAmbitions
@@ -160,7 +156,9 @@ ProfElmScript:
 	line "dachte, etwas wäre"
 	cont "aus dem EI"
 	cont "geschlüpft."
-	para "Wo ist #mon?"
+
+	para "Wo ist das"
+	line "#mon?"
 	done
 ElmEggHatchedScript:
 	setmonval TOGEPI
@@ -327,26 +325,7 @@ ChikoritaPokeBallScript:
 
 ElmDirectionsScript:
 	turnobject PLAYER, UP
-if!DEF(DEBUG)
-	showtext ElmDirectionsText1
-endc
-	addcellnum PHONE_ELM
-	opentext
-	writetext GotElmsNumberText
-	playsound SFX_REGISTER_PHONE_NUMBER
-	waitsfx
-	waitbutton
-	closetext
-	turnobject ELMSLAB_ELM, LEFT
-	showtext ElmDirectionsText2
-	turnobject ELMSLAB_ELM, DOWN
-	showtext ElmDirectionsText3
-	setevent EVENT_GOT_A_POKEMON_FROM_ELM
-	setevent EVENT_RIVAL_CHERRYGROVE_CITY
-	setscene SCENE_ELMSLAB_LYRA_BATTLE
-	end
-
-if!DEF(DEBUG)
+if !DEF(DEBUG)
 	showtext ElmDirectionsText1
 endc
 	addcellnum PHONE_ELM
@@ -967,30 +946,31 @@ AfterChikoritaMovement:
 ElmText_Intro:
 	text "LIND: <PLAYER>! Da"
 	line "bist du ja!"
-	para "Ich muss dich um"
+
+	para "Hallo auch an"
+	line "dich, LYRA."
+
+	para "Ich muss euch um"
 	line "etwas bitten."
-	para "Ich führe gerade"
-	line "neue"
-	cont "#mon-Forschung"
-	cont "durch."
-	para "Ich habe mich"
-	line "gefragt, ob du mir"
-	cont "dabei hilfst,"
-	cont "<PLAYER>."
+
 	para "Verstehst du …"
+
 	para "Ich schreibe an"
 	line "etwas, das ich bei"
 	cont "einer Konferenz"
 	cont "vorlegen möchte."
+
 	para "Aber da sind noch"
 	line "einige Dinge, die"
 	cont "ich nicht ganz"
 	cont "verstehe."
+
 	para "Darum!"
+
 	para "Ich möchte, dass"
-	line "du ein #mon"
-	cont "trainierst, das"
-	cont "ich vor kurzem"
+	line "ihr #mon"
+	cont "trainiert, die ich"
+	cont "vor kurzem"
 	cont "gefangen habe."
 	done
 
