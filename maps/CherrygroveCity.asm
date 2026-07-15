@@ -313,12 +313,15 @@ GuideGentMartText:
 	done
 
 GuideGentRoute30Text:
-	text "Zur Route 30 geht"
+	; GSC-DE Dump
+	text "Zur ROUTE 30 geht"
 	line "es hier entlang."
 
-	para "Dort triffst du"
+	para "Du wirst dort auf"
 	line "viele Trainer und"
-	cont "ihre #mon."
+
+	para "ihre #MON"
+	line "treffen."
 	done
 
 

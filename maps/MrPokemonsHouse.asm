@@ -193,50 +193,38 @@ MrPokemonsHouse_OakExits:
 MrPokemonIntroText1:
 	text "Hallo! Du musst"
 	line "<PLAYER> sein."
+
 	para "PROF. LIND sagte,"
-	line "dass du"
-	cont "vorbeikommen"
-	cont "würdest."
+	line "dass du vorbei-"
+	cont "kommen würdest."
 	done
-
-
-
-
-
 
 MrPokemonIntroText2:
 	text "PROF. LIND soll"
-	line "das hier"
-	cont "untersuchen."
+	line "das hier unter-"
+	cont "suchen."
 	done
-
-
-
-
-
 
 MrPokemonIntroText3:
 	text "Ich kenne ein"
 	line "Paar, das eine"
-	cont "#mon-PENSION"
+	cont "#MON-PENSION"
 	cont "leitet."
+
 	para "Sie gaben mir"
-	line "dieses EI."
-	para "Ich war so"
+	line "das EI."
+
+	para "Ich war derart"
 	line "fasziniert, dass"
-	cont "ich PROF. LIND"
-	cont "eine E-Mail"
-	cont "schrieb."
-	para "Was die"
-	line "Entwicklung von"
-	cont "#mon betrifft,"
-	cont "ist PROF. LIND"
-	cont "eine Kapazität."
+	cont "ich PROF. LIND ei-"
+	cont "ne E-Mail schrieb."
+
+	para "Was die Entwick-"
+	line "lung von #MON"
+	cont "betrifft, ist"
+	cont "PROF. LIND eine"
+	cont "Kapazität."
 	done
-
-
-
-
 
 
 MrPokemonIntroText4:
@@ -262,11 +250,13 @@ MrPokemonIntroText5:
 
 
 MrPokemonsHouse_MrPokemonHealText:
+	; GSC-DE Dump
 	text "Kehrst du zu PROF."
 	line "LIND zurück?"
-	para "Dein #mon sieht"
-	line "müde aus. Du"
-	cont "solltest eine"
+
+	para "Dein #MON"
+	line "sieht müde aus."
+	cont "Du solltest eine"
 	cont "kurze Pause"
 	cont "einlegen."
 	done

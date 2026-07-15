@@ -193,12 +193,14 @@ GenericTrainerYoungsterMikey:
 GenericTrainerBug_catcherDon:
 	generictrainer BUG_CATCHER, DON, EVENT_BEAT_BUG_CATCHER_DON, Bug_catcherDonSeenText, Bug_catcherDonBeatenText
 
+	; GSC-DE Dump
 	text "Mir sind während"
 	line "des Fangens die"
-	cont "#BÄLLE"
-	cont "ausgegangen."
+	cont "#BÄLLE aus-"
+	cont "gegangen."
+
 	para "Ich hätte mehr"
-	line "kaufen sollen …"
+	line "kaufen sollen…"
 	done
 Route30_JoeysRattataAttacksMovement:
 	run_step_up
@@ -234,15 +236,16 @@ YoungsterJoey1SeenText:
 	cont "#mon zu finden."
 	para "Halt! Du siehst"
 	line "schwach aus! Los,"
-	cont "kämpfen wir!"
+	cont "lass uns kämpfen!"
 	done
 
 
 
 
 YoungsterJoey1BeatenText:
-	text "Ahh! Wieder"
-	line "verloren! Mist!"
+	; GSC-DE Dump
+	text "Ahh! Wieder ver-"
+	line "loren! Mist!"
 	done
 
 
@@ -281,10 +284,11 @@ YoungsterMikeyBeatenText:
 
 
 Bug_catcherDonSeenText:
+	; GSC-DE Dump
 	text "Anstatt eines"
-	line "Käfer-#mon traf"
-	cont "ich auf einen"
-	cont "Trainer!"
+	line "Käfer-#MON"
+	cont "traf ich auf"
+	cont "einen Trainer!"
 	done
 Bug_catcherDonBeatenText:
 	text "Argh! Du bist zu"
@@ -314,18 +318,21 @@ Route30CooltrainerFText:
 
 
 Route30SignText:
+	; GSC-DE Dump
 	text "ROUTE 30"
-	para "VIOLA CITY"
-	line "-ROSALIA CITY"
+
+	para "VIOLA CITY -"
+	line "ROSALIA CITY"
 	done
 
 
 
 
 MrPokemonsHouseDirectionsSignText:
-	text "Das Haus von MR."
-	line "#mon? Immer"
-	cont "geradeaus."
+	; GSC-DE Dump
+	text "Das Haus von"
+	line "MR. #MON?"
+	cont "Immer geradeaus."
 	done
 
 
