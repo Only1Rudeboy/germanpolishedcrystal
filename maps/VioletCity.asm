@@ -252,16 +252,20 @@ VioletCityCooltrainerFText:
 	done
 
 VioletCityGrampsText:
+	; GSC-DE Dump
 	text "FALK von der"
-	line "#mon-Arena in"
-	cont "Viola City ist"
-	para "ein großartiger"
-	line "Trainer!"
-	para "Er hat die Arena"
-	line "seines Vaters"
-	cont "geerbt und dort"
-	para "sehr gute Arbeit"
-	line "geleistet."
+	line "PKMN-ARENA in"
+
+	para "VIOLA CITY ist"
+	line "ein großartiger"
+	cont "Trainer!"
+
+	para "Er hat die PKMN-"
+	line "ARENA seines Va-"
+	cont "ters geerbt und"
+
+	para "hat dort sehr gute"
+	line "Arbeit geleistet."
 	done
 
 
