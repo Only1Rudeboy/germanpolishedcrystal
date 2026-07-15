@@ -1,8 +1,15 @@
 # Pokémon Polished Crystal — deutsche GSC-Kanon-Lokalisierung
 
 > **Hinweis: Dies ist eine Übersetzung / ein Übersetzungs-Fork.**  
-> Dieses Repository enthält **keine eigenständige Neuentwicklung von Polished Crystal**, sondern eine **vollständige deutsche Lokalisierung** von [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) (Version **3.2.3**).  
-> Spielinhalt, Mechanik und Features stammen vom Originalprojekt. Hier wurde der **gesamte spielbare Text-Layer** ins Deutsche gebracht — im Stil der offiziellen **Pokémon Kristall (GSC-DE)**-Lokalisierung, soweit das möglich und sinnvoll ist.
+> Dieses Repository enthält **keine eigenständige Neuentwicklung von Polished Crystal**, sondern eine **deutsche Lokalisierung** von [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) (Version **3.2.3**).  
+> Spielinhalt, Mechanik und Features stammen vom Originalprojekt. Hier wurde der **spielbare Text-Layer** ins Deutsche gebracht — im Stil der offiziellen **Pokémon Kristall (GSC-DE)**-Lokalisierung, soweit das möglich und sinnvoll ist.
+
+### Status: Work in Progress (WIP)
+
+> **Dieses Projekt ist noch WIP.**  
+> Die Lokalisierung wurde mit Unterstützung von **Grok 4.5** (xAI) erstellt und überarbeitet. Trotz umfangreicher QC-Scans und Rest-Passes können **weiterhin Fehler, unsaubere Zeilenumbrüche, Inkonsistenzen oder vereinzelte englische/unidiomatische Stellen** auftreten.  
+>  
+> **Feedback ist ausdrücklich erwünscht** — gerne zu Tippfehlern, zu langen Zeilen, falschen Orts-/Attackennamen, stilistisch unpassenden Dialogen oder allem, was sich „nicht nach GSC-DE“ anfühlt. Issues und Pull Requests auf GitHub helfen sehr.
 
 **Original:** [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) · **Basis-Disassembly:** [pret/pokecrystal](https://github.com/pret/pokecrystal)
 
@@ -62,7 +69,8 @@ Polished Crystal ist **größer** als das Original von 2001. Deshalb:
 
 - **Originalspiel / Engine / Features:** Rangi42 und alle Polished-Crystal-Mitwirkenden  
 - **Disassembly-Basis:** pret / pokecrystal  
-- **Deutsche GSC-Kanon-Lokalisierung dieses Forks:** Only1Rudeboy (und zugehörige Werkzeuge/QC)
+- **Deutsche GSC-Kanon-Lokalisierung dieses Forks:** Only1Rudeboy  
+- **KI-Unterstützung:** Grok 4.5 (xAI) — WIP, Fehler möglich; Feedback willkommen  
 
 ---
 
