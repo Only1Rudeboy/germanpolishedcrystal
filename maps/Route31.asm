@@ -489,9 +489,11 @@ Route31YoungsterText:
 
 
 Route31SignText:
+	; GSC-DE Dump
 	text "ROUTE 31"
-	para "VIOLA CITY"
-	line "-ROSALIA CITY"
+
+	para "VIOLA CITY -"
+	line "ROSALIA CITY"
 	done
 
 

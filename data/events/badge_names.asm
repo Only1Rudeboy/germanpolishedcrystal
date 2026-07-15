@@ -1,7 +1,7 @@
 BadgeNames:
 	list_start
-	; Johto GSC-DE: Zephyr, Horniss, Plan, Nebel, Sturm, Mineral, Gletscher, Legende
-	li "Zephyr"
+	; Johto GSC-DE (Dump: FLÜGELORDEN → Kurzname Flügel)
+	li "Flügel"
 	li "Horniss"
 	li "Plan"
 	li "Nebel"

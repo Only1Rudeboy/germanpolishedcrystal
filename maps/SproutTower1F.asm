@@ -33,15 +33,18 @@ SproutTower1FGrannyScript:
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump (grosses)
 	text "Ein über 30 m"
-	line "großes KNOFENSA …"
+	line "grosses KNOFENSA…"
+
 	para "Man sagt, es wurde"
 	line "die Trägersäule"
 	cont "des Turmes."
 	done
 .MetricText:
 	text "Ein über 30 m"
-	line "großes KNOFENSA …"
+	line "grosses KNOFENSA…"
+
 	para "Man sagt, es wurde"
 	line "die Trägersäule"
 	cont "des Turmes."
@@ -99,9 +102,11 @@ SproutTower1FSage1Text:
 
 
 SproutTower1FSage2Text:
+	; GSC-DE Dump
 	text "Der KNOFENSA-TURM"
 	line "wurde vor langer"
-	para "Zeit als #mon-"
+
+	para "Zeit als #MON-"
 	line "Trainingsstätte"
 	cont "errichtet."
 	done

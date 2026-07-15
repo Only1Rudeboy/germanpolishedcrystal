@@ -324,10 +324,12 @@ VioletCitySignText:
 VioletGymSignText:
 	text "PKMN-ARENA von"
 	line "VIOLA CITY"
-	cont "LEITUNG: FALK"
-	para "Der elegante"
-	line "Meister der Flug-"
-	cont "#mon"
+
+	para "LEITUNG: FALK"
+	line "Der elegante"
+
+	para "Meister der Flug-"
+	line "#MON"
 	done
 
 
@@ -340,7 +342,7 @@ SproutTowerSignText:
 	text "KNOFENSA-TURM"
 
 	para "Erfahre die Art"
-	line "der #mon"
+	line "der #MON"
 	done
 
 
@@ -350,8 +352,8 @@ SproutTowerSignText:
 
 
 EarlsPokemonAcademySignText:
-	text "EARLs"
-	line "#mon-AKADEMIE"
+	text "EARLs #-"
+	line "MON-AKADEMIE"
 	done
 
 

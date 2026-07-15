@@ -108,21 +108,28 @@ VioletGymGuyScript:
 	iftrue_jumptextfaceplayer VioletGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Hey! Ich bin kein"
-	line "Trainer, aber ich"
-	cont "gebe gute Tipps!"
-	para "Glaube mir! Dann"
-	line "kann dein"
-	para "Traum von der"
-	line "Meisterschaft wahr"
-	cont "werden."
+	; GSC-DE Dump
+	text "Hey! Zwar bin ich"
+	line "kein Trainer, aber"
+	cont "ich kann dir gute"
+	cont "Tipps geben!"
+
+	para "Glaube mir!"
+	line "Wenn du es tust,"
+
+	para "kann dein Traum"
+	line "von der Meister-"
+	cont "schaft in Erfül-"
+	cont "lung gehen."
+
 	para "Du glaubst mir?"
 	line "Dann pass auf!"
+
 	para "Typ Pflanze ist"
 	line "schwach gegen Typ"
-	cont "Flug."
-	para "Das solltest du"
-	line "dir merken!"
+
+	para "Flug. Das solltest"
+	line "du dir merken."
 	done
 
 VioletGymStatue:
@@ -138,67 +145,79 @@ VioletGymStatue:
 	jumpstd gymstatue3
 
 FalknerIntroText:
+	; GSC-DE Dump
 	text "Ich bin FALK, der"
-	line "Arenaleiter von"
-	cont "Viola City!"
-	para "Man sagt, man"
-	line "könne die Flügel"
-	cont "von Flug-#mon"
-	para "mit einem Blitz"
-	line "stutzen …"
-	para "Das lasse ich"
-	line "niemals zu!"
-	para "Ich zeige dir die"
+	line "ARENALEITER von"
+	cont "VIOLA CITY!"
+
+	para "Man sagt, dass man"
+	line "die Flügel von"
+
+	para "Flug-#MON mit"
+	line "einem elektrischen"
+
+	para "Blitz stutzen"
+	line "kann…"
+
+	para "So etwas werde ich"
+	line "niemals zulassen!"
+
+	para "Ich werde dich die"
 	line "wahre Kraft der"
-	cont "Flug-#mon!"
+
+	para "Flug-#MON"
+	line "spüren lassen!"
 	done
 
 FalknerWinLossText:
-	text "… Verflixt! Mein"
-	line "Vater liebte"
-	cont "Flug-#mon …"
-	para "Also gut. Nimm"
-	line "dies!"
-	para "Das ist der"
-	line "offizielle"
-	cont "Zephyrorden der"
-	cont "#mon-Liga."
+	; GSC-DE Dump: FLÜGELORDEN
+	text "…Verflixt! Mein"
+	line "Vater hat Flug-"
+	cont "#MON geliebt…"
+
+	para "Also gut."
+	line "Nimm dies!"
+
+	para "Es ist der offi-"
+	line "zielle FLÜGELORDEN"
+	cont "der #MON"
+	cont "LIGA."
 	done
 
-
-
-
 FalknerZephyrBadgeText:
-	text "Der Zephyrorden"
-	line "stärkt den"
-	cont "ANGR-Wert deiner"
-	cont "#mon."
+	; GSC-DE Dump
+	text "Der FLÜGELORDEN"
+	line "stärkt den ANGR-"
+	cont "Wert deiner #-"
+	cont "MON."
+
 	para "Außerdem können"
-	line "deine #mon"
-	cont "jederzeit BLITZ"
-	cont "einsetzen."
+	line "deine #MON"
+
+	para "jederzeit BLITZ"
+	line "einsetzen."
+
 	para "Hier - ich habe"
 	line "noch etwas für"
 	cont "dich."
 	done
 
-
-
-
 FalknerFightDoneText:
+	; GSC-DE Dump
 	text "In so mancher"
 	line "Stadt warten noch"
-	cont "Arenen auf dich."
+	cont "ARENEN auf dich."
+
 	para "Du solltest dein"
-	line "Können dort"
-	cont "beweisen."
+	line "Können in diesen"
+	cont "ARENEN beweisen."
+
 	para "Ich werde noch"
 	line "härter trainieren,"
-	cont "um der"
-	para "größte"
-	line "Vogel-Experte"
-	cont "aller Zeiten zu"
-	cont "werden!"
+
+	para "um der größte Vo-"
+	line "gel-Experte aller"
+	cont "Zeiten zu werden!"
 	done
 
 
