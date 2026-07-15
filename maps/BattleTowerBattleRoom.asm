@@ -51,9 +51,9 @@ Script_BattleRoomLoop:
 	opentext
 	writethistext
 		text "<PLAYER> erhält"
-		done
+		line ""
 		text_ram wStringBuffer1
-		text "KP!"
+		text " KP!"
 		done
 	waitsfx
 	specialsound
@@ -63,8 +63,7 @@ Script_BattleRoomLoop:
 .AskNextBattle:
 	writethistext
 		text "Nächster Gegner"
-		line "Nr."
-		done
+		line "Nr. "
 		text_decimal wStringBuffer3, 2, 5
 		text ". Bereit?"
 		done

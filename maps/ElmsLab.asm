@@ -1830,7 +1830,7 @@ LyraChoosesStarterText:
 	done
 LyraReceivedStarterText:
 	text "LYRA erhält"
-	done
+	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done

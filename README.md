@@ -13,6 +13,12 @@
 
 **Original:** [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) · **Basis-Disassembly:** [pret/pokecrystal](https://github.com/pret/pokecrystal)
 
+### Updates / Changelog (Lokalisierung)
+
+| Datum | Änderung |
+|---|---|
+| **2026-07-15** | **Bugfix:** In Prof. Linds Labor zeigte „LYRA erhält“ den Pokémon-Namen nicht (frühes `done` vor `text_ram`). Korrigiert zu „LYRA erhält / [Art]!“. Zusätzlich dieselben Strukturfehler bei Kampfturm/Kampffabrik (KP-Text, nächster Gegner, Serien-Anzeige) behoben. |
+
 ---
 
 ## Was in diesem Übersetzungsprojekt gemacht wurde
