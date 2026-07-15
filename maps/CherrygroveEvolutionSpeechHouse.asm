@@ -23,14 +23,15 @@ CherrygroveEvolutionSpeechHouseYoungsterText:
 	done
 
 
+
 CherrygroveEvolutionSpeechHouseLassText:
 	text "#mon, die die"
 	line "Gestalt wechseln?"
-
 	para "Ich wäre"
 	line "schockiert, wenn"
 	cont "eines das tun"
 	cont "würde!"
 	done
+
 
 

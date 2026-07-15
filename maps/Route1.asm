@@ -120,7 +120,6 @@ CooltrainerfQuinnBeatenText:
 
 Route1SignText:
 	text "ROUTE 1"
-
 	para "ALABASTIA -"
 	line "VERTANIA CITY"
 	done

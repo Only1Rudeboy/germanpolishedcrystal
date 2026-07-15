@@ -48,6 +48,7 @@ GenericTrainerSwimmerfElaine:
 	line "ich besser"
 	cont "schwimme als du!"
 	done
+
 GenericTrainerSwimmerfPaula:
 	generictrainer SWIMMERF, PAULA, EVENT_BEAT_SWIMMERF_PAULA, SwimmerfPaulaSeenText, SwimmerfPaulaBeatenText
 
@@ -56,6 +57,7 @@ GenericTrainerSwimmerfPaula:
 	cont "von den Wellen"
 	cont "davontragen."
 	done
+
 GenericTrainerSwimmermSimon:
 	generictrainer SWIMMERM, SIMON, EVENT_BEAT_SWIMMERM_SIMON, SwimmermSimonSeenText, SwimmermSimonBeatenText
 
@@ -63,6 +65,7 @@ GenericTrainerSwimmermSimon:
 	line "ziemlich weit weg"
 	cont "von hier."
 	done
+
 GenericTrainerSwimmermRandall:
 	generictrainer SWIMMERM, RANDALL, EVENT_BEAT_SWIMMERM_RANDALL, SwimmermRandallSeenText, SwimmermRandallBeatenText
 
@@ -71,6 +74,7 @@ GenericTrainerSwimmermRandall:
 	cont "Körper fit und"
 	cont "gesund."
 	done
+
 Route40PokefanMScript:
 	checkevent EVENT_BATTLE_TOWER_OPEN
 	iftrue_jumptextfaceplayer Route40PokefanMText2
@@ -126,14 +130,11 @@ Route40FisherScript:
 	text "Ich angelte, als"
 	line "plötzlich #mon"
 	cont "aufsprangen und"
-
 	para "meine Angel ins"
 	line "Wasser warfen!"
-
 	para "Wie fang ich jetzt"
 	line "noch was?"
-
-	para "…Na gut, kann ich"
+	para "… Na gut, kann ich"
 	line "halt nicht"
 	cont "angeln--ich bring"
 	cont "halt bei."
@@ -167,11 +168,9 @@ Route40FisherScript:
 	text "Knock Off schlägt"
 	line "ein getragenes"
 	cont "Item weg,"
-
 	para "sodass es im Kampf"
 	line "nicht mehr genutzt"
 	cont "werden kann."
-
 	para "Das ist so"
 	line "frustrierend!"
 	done
@@ -198,9 +197,7 @@ MonicaScript:
 
 	text "MONJA: Dieses Item"
 	line "verstärkt"
-
 	para "Flug-Attacken."
-
 	para "Damit solltest du"
 	line "ein Vogel-#mon"
 	cont "ausstatten."
@@ -211,7 +208,7 @@ MonicaNotMondayScript:
 	text "MONJA: Ich"
 	line "fürchte, heute ist"
 	cont "nicht Montag. Wie"
-	cont "schade…"
+	cont "schade …"
 	done
 MonicaDoneScript:
 	end
@@ -221,10 +218,10 @@ SwimmermSimonSeenText:
 	line "aufwärmen, bevor"
 	cont "du schwimmen"
 	cont "gehst."
-
 	para "Das ist"
 	line "Grundwissen."
 	done
+
 
 
 
@@ -234,6 +231,7 @@ SwimmermSimonBeatenText:
 	text "O.K.! Onkel! Ich"
 	line "gebe auf!"
 	done
+
 
 
 
@@ -252,10 +250,12 @@ SwimmermRandallSeenText:
 
 
 
+
 SwimmermRandallBeatenText:
-	text "Ach, ach. Ich habe"
+	text "Oh, oh. Ich habe"
 	line "verloren…"
 	done
+
 
 
 
@@ -274,6 +274,7 @@ SwimmerfElaineSeenText:
 
 
 
+
 SwimmerfElaineBeatenText:
 	text "Diesmal habe ich"
 	line "verloren!"
@@ -283,24 +284,26 @@ SwimmerfElaineBeatenText:
 
 
 
+
 SwimmerfPaulaSeenText:
 	text "Ich habe keine"
 	line "Schwimmreifen."
-
 	para "Ich halte mich an"
-	line "einem Wasser-"
-	cont "#mon fest!"
+	line "einem"
+	cont "Wasser-#mon"
+	cont "fest!"
 	done
+
 
 
 
 
 
 SwimmerfPaulaBeatenText:
-	text "Ach, ich fühle"
-	line "mich so"
-	cont "schwindelig!"
+	text "Oh, ich fühle mich"
+	line "so schwindelig!"
 	done
+
 
 
 
@@ -328,16 +331,13 @@ Route40PokefanMText2:
 Route40PicnickerText:
 	text "Ich reiste mit dem"
 	line "Schiff nach"
-
 	para "OLIVIANA, um die"
 	line "Sehenswürdigkeiten"
-
 	para "und die Atmosphäre"
 	line "zu genießen."
-
-	para "Da es eine Hafen-"
-	line "stadt ist, unter-"
-
+	para "Da es eine"
+	line "Hafenstadt ist,"
+	cont "unter-"
 	para "scheidet sie sich"
 	line "von anderen großen"
 	cont "Städten."
@@ -345,26 +345,22 @@ Route40PicnickerText:
 Route40BeachGuyText2:
 	text "Warst du schon am"
 	line "DUELLTURM?"
-
 	para "Ich denke, dass"
 	line "sich bereits viele"
-
 	para "starke Trainer"
 	line "dort versammeln."
-
 	para "Da du so viele"
 	line "ORDEN besitzt,"
-
 	para "wirst du dich dort"
 	line "wacker schlagen."
 	done
 MeetMonicaText:
 	text "MONJA: Es freut"
 	line "mich, dich kennen"
-
 	para "zu lernen. Ich bin"
 	line "MONJA von Montag."
 	done
+
 
 
 
@@ -377,6 +373,7 @@ MonicaGivesGiftText:
 	cont "schenke ich dir"
 	cont "dies!"
 	done
+
 
 
 
@@ -397,12 +394,13 @@ MonicaMondayText:
 
 
 
+
 Route40SignText:
 	text "ROUTE 40"
-
-	para "ANEMONIA CITY -"
-	line "OLIVIANA CITY"
+	para "ANEMONIA CITY"
+	line "-OLIVIANA CITY"
 	done
+
 
 
 

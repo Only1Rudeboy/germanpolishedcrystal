@@ -31,10 +31,9 @@ CeladonMansionRoofHousePharmacistScript:
 
 .CurseText:
 	text "TM03 ist Fluch."
-
-	para "Eine furchtein-"
-	line "flößende Attacke,"
-
+	para "Eine"
+	line "furchteinflößende"
+	cont "Attacke,"
 	para "die die KP des"
 	line "Opfers langsam"
 	cont "aufzehrt."
@@ -42,8 +41,9 @@ CeladonMansionRoofHousePharmacistScript:
 
 .IntroText:
 	text "Lass mich eine"
-	line "gruselige Ge-"
-	cont "schichte erzählen…"
+	line "gruselige"
+	cont "Geschichte"
+	cont "erzählen …"
 	done
 
 .NotNiteText:
@@ -56,60 +56,44 @@ CeladonMansionRoofHousePharmacistScript:
 
 	para "Komm nach"
 	line "Sonnenuntergang"
-	cont "wieder, OK?"
+	cont "wieder, O.K.?"
 	done
 
 .StoryText:
 	text "Es war einmal ein"
 	line "kleiner Junge, dem"
-
 	para "man ein neues"
-	line "Fahrrad schenkte…"
-
+	line "Fahrrad schenkte …"
 	para "Er wollte es"
 	line "sofort"
-	cont "ausprobieren…"
-
+	cont "ausprobieren …"
 	para "Er hatte so viel"
 	line "Spaß, dass er"
 	cont "nicht bemerkte,"
-
 	para "wie die Sonne"
-	line "unterging…"
-
+	line "unterging …"
 	para "Auf der dunklen"
 	line "Heimfahrt wurde"
 	cont "das Rad plötzlich"
-
 	para "langsamer!"
-
 	para "Die Pedale wurden"
 	line "so schwer!"
-
 	para "Als er aufhörte zu"
 	line "treten, rollte das"
 	cont "Rad rückwärts!"
-
 	para "Es war, als sei"
 	line "das Rad verflucht"
 	cont "und wollte ihn"
-
 	para "ins Nichts ziehen!"
-
 	para "…"
-
 	para "…"
-
 	para "KREEEEEISCH!"
-
 	para "Der Junge fuhr den"
 	line "Radweg bergauf!"
-
 	para "… Bum-bum,"
 	line "bum-bum!"
-
 	para "Weil du so"
 	line "geduldig zugehört"
-	cont "hast, nimm"
-	cont "dies--TM03!"
+	cont "hast, nimm dies:"
+	cont "TM03!"
 	done

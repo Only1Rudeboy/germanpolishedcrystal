@@ -45,29 +45,19 @@ CianwoodPharmacist:
 PharmacistGiveSecretpotionText:
 	text "Deinen #mon"
 	line "scheint es gut zu"
-
-	para "gehen. Bedrückt"
-	line "dich etwas?"
-
+	cont "gehen. Bedrückt"
+	cont "dich etwas?"
 	para "…"
-
 	para "Dem #mon vom"
 	line "LEUCHTTURM geht es"
 	cont "nicht gut?"
-
 	para "Ich hab's!"
-
 	para "Das sollte das"
 	line "Problem lösen."
 	done
-
-
 PharmacistDescribeSecretpotionText:
 	text "Mein GEHEIMTRANK"
 	line "ist sehr stark."
-
 	para "Ich biete ihn nur"
 	line "in Notfällen an."
 	done
-
-

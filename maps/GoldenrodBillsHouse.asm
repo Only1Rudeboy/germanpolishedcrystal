@@ -292,18 +292,14 @@ BillsMom:
 	line "#mon? Mein Sohn"
 	cont "BILL ist ein"
 	cont "Experte."
-
 	para "Er wurde gerade in"
 	line "das #mon-CENTER"
-
 	para "von TEAK CITY"
 	line "gerufen."
-
 	para "Mein Mann ging in"
 	line "die SPIELHALLE,"
-
 	para "ohne angerufen zu"
-	line "werden…"
+	line "werden …"
 	done
 BillsSister:
 	faceplayer
@@ -325,10 +321,8 @@ BillsSister:
 
 	text "Mein großer Bruder"
 	line "BILL hat"
-
 	para "das"
 	line "#mon-Lagerungs-"
-
 	para "System erfunden."
 	done
 
@@ -339,10 +333,9 @@ BillsSister:
 	jumpthisopenedtext
 
 	text "Mein Bruder hat"
-	line "das #-"
-	cont "mon-Lagerungs-"
-	cont "system erfunden."
-
+	line "das #-mon-"
+	cont "Lagerungssystem"
+	cont "erfunden."
 	para "Ich wollte dir"
 	line "gerade BILLs"
 	cont "Nummer geben…"
@@ -376,7 +369,7 @@ BillsGrandpaYouDontHaveItTextText:
 	done
 BillsGrandpaShownPokemonText:
 	text "Ah, also das ist"
-	line ""
+	done
 	text_ram wStringBuffer3
 	text "?"
 
@@ -403,10 +396,8 @@ BillsGrandpaShownAllThePokemonText:
 	line "so viele niedliche"
 	cont "#mon gezeigt"
 	cont "hast."
-
 	para "Ich habe mich"
 	line "wirklich amüsiert."
-
 	para "Ich bin froh, dass"
 	line "ich das noch"
 	cont "erleben durfte."
@@ -424,11 +415,9 @@ BillsGrandpaSnubbullText:
 BillsGrandpaTogepiText:
 	text "Kennst du ein"
 	line "#mon mit einer"
-
 	para "Schale voller"
 	line "roter und blauer"
 	cont "Dreiecke?"
-
 	para "Es soll ein Symbol"
 	line "für Glück sein."
 	done
@@ -436,15 +425,12 @@ BillsGrandpaTogepiText:
 BillsGrandpaMurkrowText:
 	text "Kennst du ein"
 	line "Vogel-#mon mit"
-
 	para "einem krummen"
 	line "gelben Schnabel"
 	cont "und schwarzem"
 	cont "Gefieder?"
-
 	para "Ich hörte, es"
 	line "erscheint NACHTs."
-
 	para "Ich würde es gerne"
 	line "sehen."
 	done
@@ -480,27 +466,21 @@ BillsGrandpaBellsproutText:
 BillsGrandpaStaryuText:
 	text "Kennst du ein"
 	line "Wasser-#mon"
-
 	para "mit einer roten"
 	line "Kugel im Körper?"
-
 	para "Es sieht aus wie"
 	line "ein Stern!"
-
 	para "Ich hörte, es"
 	line "taucht NACHTs auf."
-
 	para "Ich würde es gerne"
 	line "sehen."
 	done
 BillsGrandpaGrowlitheText:
 	text "BILL erzählte mir"
 	line "von einem #mon,"
-
 	para "das seinem Trainer"
 	line "gegenüber sehr"
 	cont "loyal ist."
-
 	para "Es scheint ein"
 	line "guter BRÜLLER zu"
 	cont "sein."
@@ -509,15 +489,12 @@ BillsGrandpaPichuText:
 	text "Kennst du dieses"
 	line "sehr beliebte"
 	cont "#mon?"
-
 	para "Das #mon, mit"
 	line "dem gelben Körper"
 	cont "und den roten"
 	cont "Wangen."
-
 	para "Ich würde gerne"
 	line "sehen, wie es vor"
-
 	para "seiner Entwicklung"
 	line "aussieht."
 	done

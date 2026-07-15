@@ -158,113 +158,81 @@ LanceScript:
 	text "SIEGFRIED: Ich"
 	line "habe dich"
 	cont "erwartet."
-
 	para "<PLAYER>!"
-
 	para "Ich wusste, dass"
 	line "du mir aufgrund"
-
-	para "deiner Fähigkeiten"
-	line "eines Tages"
+	cont "deiner Fähigkeiten"
+	cont "eines Tages"
 	cont "gegenüberstehen"
 	cont "würdest."
-
 	para "Worte sind hier"
-	line "fehl am Platze."
-
-	para "Ein Kampf wird"
-	line "zeigen, wer"
-
-	para "der Stärkere von"
-	line "uns beiden ist."
-
+	line "fehl am Platz."
+	para "Ein Kampf zeigt,"
+	line "wer der Stärkere"
+	cont "von uns ist."
 	para "Ich, der beste"
 	line "aller Trainer und"
-
-	para "CHAMP der #mon"
-	line "LIGA…"
-
+	cont "CHAMP der"
+	cont "#mon-Liga…"
 	para "Ich, SIEGFRIED der"
 	line "Drachenmeister,"
 	cont "nehme deine"
-
-	para "Herausforderung"
-	line "an!"
+	cont "Herausforderung"
+	cont "an!"
 	done
 .BeatenText:
 	text "Das ist ein"
 	line "seltsames Gefühl."
-
 	para "Ich bin nicht"
 	line "wütend, dass ich"
 	cont "verloren habe. Ich"
 	cont "bin glücklich."
-
 	para "Glücklich, dass"
 	line "ich den Aufstieg"
-
-	para "eines neuen CHAMPs"
-	line "miterleben durfte."
+	cont "eines neuen CHAMPs"
+	cont "miterleben durfte."
 	done
 .AfterText:
 	text "…Woa."
-
 	para "Du bist sehr stark"
-	line "geworden,"
-	cont "<PLAYER>."
-
+	line "geworden, <PLAYER>."
 	para "Deine #mon"
 	line "haben deine starke"
-
-	para "und aufrechte"
-	line "Persönlichkeit"
+	cont "und aufrechte"
+	cont "Persönlichkeit"
 	cont "akzeptiert."
-
 	para "Auch du wirst"
 	line "zusammen mit"
-
-	para "deinen #mon"
-	line "stärker werden."
+	cont "deinen #mon"
+	cont "stärker werden."
 	done
 .SeenRematchText:
 	text "SIEGFRIED: Worte"
 	line "sind jetzt"
 	cont "überflüssig."
-
 	para "Wir kämpfen, um zu"
-	line "sehen, wer"
-
-	para "der Stärkere von"
-	line "uns beiden ist."
-
-	para "Ich, SIEGFRIED,"
-	line "der Drachenmeis-"
-	cont "ter, nehme deine"
-
-	para "Herausforderung"
-	line "an!"
+	line "sehen, wer der"
+	cont "Stärkere ist."
+	para "Ich, SIEGFRIED der"
+	line "Drachenmeister,"
+	cont "nehme deine"
+	cont "Herausforderung"
+	cont "an!"
 	done
-
 .AfterRematchText:
 	text "Genau wie ich es"
 	line "erwartet habe."
-
 	para "Du und deine"
 	line "#mon seid ein"
 	cont "tolles Team."
-
 	para "Als Trainer wirst"
-	line "du zusammen mit"
-
-	para "deinen #mon"
-	line "noch stärker"
-	cont "werden."
+	line "du mit deinen"
+	cont "#mon noch"
+	cont "stärker werden."
 	done
-
 .MaryText1:
-	text "MARGIT: Ach, nein!"
+	text "MARGIT: Ach nein!"
 	line "Alles ist vorbei!"
-
 	para "PROF. EICH, wenn"
 	line "du nicht so"
 	cont "langsam wärest…"
@@ -272,88 +240,69 @@ LanceScript:
 .OakSpeechText:
 	text "PROF. EICH: Ah,"
 	line "<PLAYER>!"
-
 	para "Es ist schon lange"
 	line "her."
-
 	para "Du siehst"
 	line "erhabener aus."
-
 	para "Dein Sieg in der"
 	line "LIGA ist einfach"
 	cont "fantastisch!"
-
 	para "Deine Hingabe, das"
 	line "Vertrauen und die"
-
-	para "Liebe zu deinen"
-	line "#mon haben dir"
+	cont "Liebe zu deinen"
+	cont "#mon haben dir"
 	cont "dies ermöglicht."
-
 	para "Auch deine #mon"
 	line "waren super."
-
 	para "Ihr Glaube an dich"
 	line "hat sie all das"
-
-	para "durchstehen"
-	line "lassen."
-
+	cont "durchstehen"
+	cont "lassen."
 	para "Glückwunsch,"
 	line "<PLAYER>!"
 	done
 .OakRematchSpeechText:
 	text "PROF. EICH: Ah,"
 	line "<PLAYER>!"
-
 	para "Dein Rückkampf in"
-	line "der LIGA war ein-"
-	cont "fach fantastisch!"
-
+	line "der LIGA war"
+	cont "einfach"
+	cont "fantastisch!"
 	para "Mir ist klar, dass"
 	line "du #mon tief"
-
-	para "verstehst, ihnen"
-	line "vertraust und sie"
+	cont "verstehst, ihnen"
+	cont "vertraust und sie"
 	cont "liebst."
-
 	para "Die herausragenden"
 	line "Fähigkeiten deines"
-	cont "Teams"
-
-	para "zeigen das"
-	line "deutlich."
-
+	cont "Teams zeigen das"
+	cont "deutlich."
 	para "Vielleicht bist du"
-	line "wirklich in der"
-
-	para "Lage, eine gewisse"
-	line "gefährliche"
-	cont "Herausforderung zu"
-	cont "meistern."
-
-	para "Komm danach in"
-	line "mein Labor!"
+	line "bereit für den"
+	cont "SILBERBERG - dort"
+	cont "warten mächtige"
+	cont "#mon."
+	para "Aber sei"
+	line "vorsichtig."
+	cont "Glückwunsch"
+	cont "nochmals!"
 	done
-
 .MaryText2:
-	text "MARGIT: Ein"
-	line "Interview mit dem"
-	cont "neuen CHAMP!"
+	text "MARGIT: Wir sind"
+	line "zu spät…"
+	para "Aber was für ein"
+	line "unglaublicher"
+	cont "Kampf!"
 	done
 .LanceLeavingText:
-	text "SIEGFRIED: Das"
-	line "wird mir alles ein"
-	cont "wenig zu laut…"
-
-	para "<PLAYER>, kommst"
-	line "du mit mir?"
+	text "SIEGFRIED: Komm"
+	line "mit. Die"
+	cont "RUHMESHALLE"
+	cont "wartet."
 	done
 .MaryText3:
-	text "MARGIT: Moment!"
-	line "Wir haben das"
-	cont "Interview fast"
-	cont "vergessen!"
+	text "MARGIT: Wartet!"
+	line "Ich will auch mit!"
 	done
 .RushInMovement:
 	run_step_up

@@ -29,10 +29,9 @@ CherrygroveMartCooltrainerMScript:
 	iftrue_jumptextfaceplayer CherrygroveMartCooltrainerMText_PokeBallsInStock
 	jumpthistextfaceplayer
 
-	text "Die # Bälle"
-	line "sind gerade"
+	text "Die #Bälle sind"
+	line "gerade"
 	cont "ausverkauft!"
-
 	para "Wann bekommen sie"
 	line "wohl neue?"
 	done
@@ -45,23 +44,22 @@ CherrygroveMartCooltrainerMText_PokeBallsInStock:
 	done
 
 
+
 CherrygroveMartYoungsterText:
 	text "Als ich durch das"
 	line "Gras spazierte,"
-
-	para "hat ein Käfer-"
-	line "#mon mein"
-
+	para "hat ein"
+	line "Käfer-#mon mein"
 	para "#mon vergiftet!"
-
 	para "Ich ging einfach"
 	line "weiter, aber dann"
 	cont "wurde mein #mon"
 	cont "plötzlich besiegt."
-
-	para "Du solltest stän-"
-	line "dig ein GEGENGIFT"
-	cont "mit dir führen."
+	para "Du solltest"
+	line "ständig ein"
+	cont "GEGENGIFT mit dir"
+	cont "führen."
 	done
+
 
 

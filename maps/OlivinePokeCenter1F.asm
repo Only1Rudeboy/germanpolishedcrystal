@@ -28,15 +28,12 @@ PokemonJournalJasmineScript:
 	jumpthistext
 
 	text "#mon Journal"
-
-	para "Spezial: Jasmine!"
-
+	para "Spezial: JASMIN!"
 	para "Man munkelt,"
-	line "Jasmine und Erika"
-
-	para "von der Dukatia-"
-	line "ARENA tauschen"
-
+	line "JASMIN und ERIKA"
+	para "von der"
+	line "Dukatia-ARENA"
+	cont "tauschen"
 	para "sich über Mode"
 	line "aus."
 	done
@@ -69,15 +66,12 @@ BeautyCharlotteScript:
 .GreetingText:
 	text "Ach, bist du ein"
 	line "Trainer?"
-
 	para "Du kommst gerade"
 	line "recht!"
-
 	para "Mein einzigartiges"
 	line "und schönes"
 	cont "#mon ist wieder"
 	cont "fit."
-
 	para "Willst du kämpfen"
 	line "und von meinem"
 	cont "#mon begeistert"
@@ -104,22 +98,20 @@ OlivinePokeCenter1FFisherText:
 	text "In Anemonia gibt"
 	line "es einen Typ, der"
 	cont "schwach aussieht,"
-
 	para "aber er hat meinem"
 	line "#mon STÄRKE"
 	cont "beigebracht."
-
 	para "Jetzt kann es"
 	line "große Felsen"
 	cont "bewegen."
 	done
 
 OlivinePokeCenter1FTeacherText:
-	text "Da gibt es jeman-"
-	line "den in ANEMONIA"
-	cont "CITY jenseits des"
+	text "Da gibt es"
+	line "jemanden in"
+	cont "ANEMONIA CITY"
+	cont "jenseits des"
 	cont "Meeres."
-
 	para "Ich habe gehört,"
 	line "wie er mit seinen"
 	cont "seltenen #mon"

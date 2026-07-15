@@ -66,8 +66,8 @@ QuietCaveB3FMarleyScript:
 	done
 
 .YesText:
-	text "…OK. Ich gebe mein"
-	line "Bestes."
+	text "… O.K.. Ich gebe"
+	line "mein Bestes."
 	done
 
 .NoText:
@@ -79,18 +79,15 @@ QuietCaveB3FMarleyScript:
 	done
 
 .ItemText:
-	text "Ich… ich rede"
-	line "nicht gern…"
-
+	text "Ich … ich rede"
+	line "nicht gern …"
 	para "Ich wähle meine"
 	line "Worte sorgfältig,"
-
 	para "aber sie können"
 	line "trotzdem jemandem"
-	cont "wehtun…"
-
+	cont "wehtun …"
 	para "Also danke ich auf"
-	line "andere Weise…"
+	line "andere Weise …"
 	done
 
 .GoodbyeText:

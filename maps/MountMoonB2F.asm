@@ -48,10 +48,8 @@ GenericTrainerBird_keeperMick:
 
 	text "Gleich und gleich"
 	line "gesellt sich gern."
-
 	para "Ich sollte mich"
 	line "mit anderen"
-
 	para "Vogel-Sammlern an"
 	line "einem sinnvollen"
 	cont "Ort treffen."
@@ -62,7 +60,6 @@ GenericTrainerHexManiacEsther:
 
 	text "Spieglein,"
 	line "Spieglein groß und"
-
 	para "weiß, sah meine"
 	line "schnelle"
 	cont "Niederlage nicht"
@@ -91,7 +88,6 @@ YoungsterJoshSeenText:
 	text "Du bist zum"
 	line "Erkunden der Höhle"
 	cont "gekommen, oder?"
-
 	para "Vorsicht, du"
 	line "könntest dich"
 	cont "verlaufen."
@@ -118,9 +114,9 @@ Bird_keeperMickBeatenText:
 	done
 
 HexManiacEstherSeenText:
-	text "Spieglein, Spieg-"
-	line "lein an der Wand,"
-
+	text "Spieglein,"
+	line "Spieglein an der"
+	cont "Wand,"
 	para "wer wirft den"
 	line "#BALL?"
 	done
@@ -135,14 +131,13 @@ CooltrainermConnorSeenText:
 	done
 
 CooltrainermConnorBeatenText:
-	text "Wow! Du hast es!"
+	text "Toll! Du hast es!"
 	done
 
 SuperNerdMiguelSeenText:
 	text "Ich hab diese"
 	line "Fossilien gefunden"
 	cont "und wiederbelebt!"
-
 	para "Jetzt gehören sie"
 	line "mir!"
 	done

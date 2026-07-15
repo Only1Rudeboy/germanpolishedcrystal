@@ -56,10 +56,8 @@ GenericTrainerCamperJerry:
 
 	text "He, du da! Trainer"
 	line "aus JOHTO! ROCKO"
-
 	para "ist stark. Es wird"
 	line "dir übel bekommen,"
-
 	para "wenn du ihn nicht"
 	line "ernst nimmst."
 	done
@@ -85,16 +83,12 @@ PewterGymGuyScript:
 
 	text "He! Ein CHAMP in"
 	line "spe!"
-
 	para "Das ist cool!"
 	line "Kämpfst du gegen"
-
 	para "die ARENALEITER in"
 	line "KANTO?"
-
 	para "Sie sind stark und"
 	line "ambitioniert, wie"
-
 	para "die ARENALEITER in"
 	line "JOHTO."
 	done
@@ -107,99 +101,60 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "ROCKO: Wow, es"
-	line "kommt nicht oft"
-
-	para "vor, dass wir von"
-	line "einem"
-	cont "Herausforderer aus"
-	cont "JOHTO besucht"
-	cont "werden."
-
-	para "Ich bin ROCKO, der"
+	text "Ich bin ROCKO!"
 	line "ARENALEITER von"
-
-	para "MARMORIA. Ich habe"
-	line "mich auf Gestein-"
-	cont "#mon"
-	cont "spezialisiert."
-
-	para "Meine #mon sind"
-	line "gegen die meisten"
-
-	para "physischen"
-	line "Attacken immun. Es"
-	cont "wird dir schwer"
-
-	para "fallen, ihnen"
-	line "Schaden zuzufügen."
-	cont "Na los!"
+	cont "MARMORIA CITY!"
+	para "Ich glaube an"
+	line "Felsen-und"
+	cont "Boden-#monihre"
+	cont "Härte und"
+	cont "Ausdauer!"
+	para "Deshalb trainieren"
+	line "meine #mon so"
+	cont "hart!"
+	para "Zeig mir, was du"
+	line "kannst!"
 	done
-
-
 BrockWinLossText:
-	text "ROCKO: Die"
-	line "mächtigen Attacken"
-	cont "deiner #mon"
-	cont "haben meine"
-	cont "felsenfeste"
-	cont "Verteidigung"
-	cont "überwunden…"
-
-	para "Du bist stärker,"
-	line "als ich dachte…"
-
-	para "Komm - Nimm dir"
-	line "diesen ORDEN."
+	text "Ich habe"
+	line "unterschätzt, wie"
+	cont "stark deine"
+	cont "#mon sind…"
+	para "Als Beweis deiner"
+	line "Stärke nimm den"
+	cont "FELSORDEN!"
 	done
-
-
 BrockBoulderBadgeText:
-	text "ROCKO: Danke,"
-	line "<PLAYER>. Es war"
-
-	para "eine Freude, gegen"
-	line "dich zu kämpfen."
-
-	para "Auch wenn ich ein"
-	line "bisschen beleidigt"
-	cont "bin."
-
-	para "Dieser FELSORDEN"
-	line "wird deine #mon"
-	cont "noch stärker"
-	cont "machen."
+	text "Der FELSORDEN"
+	line "macht #mon"
+	cont "gehorsamer."
+	para "Außerdem können"
+	line "#mon, die BLITZ"
+	cont "kennen, ihn"
+	cont "jederzeit nutzen."
+	para "Nimm auch diese"
+	line "TM. Sie enthält"
+	cont "STEINHAGEL!"
 	done
-
-
 BrockFightDoneText:
-	text "ROCKO: Die Welt"
-	line "ist groß. Es gibt"
-
-	para "immer noch viele"
-	line "starke Trainer wie"
-	cont "dich."
-
-	para "Warte nur ab. Ich"
-	line "werde auch noch"
-	cont "viel stärker."
+	text "In der Welt warten"
+	line "noch viele starke"
+	cont "Trainer."
+	para "Trainiere weiter"
+	line "-und werde der"
+	cont "Größte!"
 	done
-
-
 CamperJerrySeenText:
 	text "Die Trainer dieser"
-	line "#mon-ARENA"
+	line "PKMN-ARENA"
 	cont "setzen"
 	cont "Gestein-#mon"
 	cont "ein."
-
 	para "Gestein-#mon"
 	line "haben hohe"
 	cont "VERT-Werte."
-
 	para "Die Kämpfe können"
 	line "sehr lange"
-
 	para "dauern. Bist du"
 	line "bereit dafür?"
 	done
@@ -214,16 +169,12 @@ CamperJerryBeatenText:
 PewterGymGuyWinText:
 	text "He! Ein CHAMP in"
 	line "spe!"
-
 	para "Diese PKMN-ARENA"
 	line "stellte kein"
-
 	para "Problem für dich"
 	line "dar."
-
 	para "Dein Einsatz ist"
 	line "wirklich"
-
 	para "beeindruckend. Das"
 	line "meine ich ehrlich."
 	done

@@ -1,36 +1,34 @@
 GinaAskNumber1Text:
 	text "Bei starken"
 	line "Trainern will ich"
-
 	para "Anfeuerin sein."
 	line "Beim Spazieren"
-
-	para "finde ich manchmal"
-	line "Items. Wenn ich"
-	cont "was"
-
-	para "finde, bekommst du"
-	line "es! Gib mir deine"
-	cont "Nummer!"
+	para "finde ich"
+	line "manchmal Items."
+	cont "Wenn ich was"
+	para "finde, bekommst"
+	line "du es! Gib mir"
+	cont "deine Nummer!"
 	done
 
 GinaAskNumber2Text:
 	text "Wenn ich was"
-	line "finde, bekommst du"
-	cont "es!"
-
+	line "finde, bekommst"
+	cont "du es!"
 	para "Gib mir deine"
 	line "Nummer!"
 	done
 
 GinaNumberAcceptedText:
-	text "Ich ruf an, sobald"
-	line "ich was habe!"
+	text "Ich ruf an,"
+	line "sobald ich was"
+	cont "habe!"
 	done
 
 GinaNumberDeclinedText:
-	text "Ach so? Ich feuere"
-	line "dich trotzdem an!"
+	text "Ach so? Ich"
+	line "feuere dich"
+	cont "trotzdem an!"
 	done
 
 GinaPhoneFullText:

@@ -62,17 +62,15 @@ SaffronMagnetTrainStationGymGuideScript:
 
 	text "Der Magnetzug ist"
 	line "ein supermoderner"
-
-	para "Zug, der Elektri-"
-	line "zität und Magnete"
-
+	para "Zug, der"
+	line "Elektrizität und"
+	cont "Magnete"
 	para "nutzt, um"
 	line "unglaubliche"
 	cont "Geschwindigkeit zu"
 	cont "erreichen."
-
 	para "Ohne Strom fährt"
-	line "er aber nicht…"
+	line "er aber nicht …"
 	done
 
 SaffronMagnetTrainStationOfficerApproachTrainDoorMovement:
@@ -157,16 +155,16 @@ SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
 	line "gefahren?"
 	done
 SaffronMagnetTrainStationTeacherText:
-	text "Bevor der MAGNET-"
-	line "ZUG-BAHNHOF erbaut"
-
+	text "Bevor der"
+	line "MAGNET-ZUG-BAHNHOF"
+	cont "erbaut"
 	para "wurde, stand dort"
 	line "ein Haus."
-
 	para "Ein kleines"
-	line "Mädchen, NACH-"
-	cont "AHMERIN genannt,"
-	cont "lebte dort."
+	line "Mädchen,"
+	cont "NACH-AHMERIN"
+	cont "genannt, lebte"
+	cont "dort."
 	done
 SaffronMagnetTrainStationLassText:
 	text "Hi. Hast du einen"

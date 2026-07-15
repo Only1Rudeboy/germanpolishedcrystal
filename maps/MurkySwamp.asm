@@ -75,19 +75,15 @@ MurkySwampCherylScript:
 .ChallengeText:
 	text "Hallo, ich heiße"
 	line "Cheryl. Und du"
-	cont "bist…?"
-
+	cont "bist …?"
 	para "O.K., du heißt"
 	line "<PLAYER>."
-
 	para "Ich freue mich"
 	line "wirklich, dich"
 	cont "kennenzulernen."
-
 	para "Ich habe Angst vor"
 	line "den Geistern im"
 	cont "Sumpf, also wie"
-
 	para "wäre es mit einem"
 	line "Kampf, um sie zu"
 	cont "vertreiben?"
@@ -175,11 +171,9 @@ MurkySwampNurseBeatriceScript:
 
 .SeenText:
 	text "Ich bin eine"
-	line "Schwester!"
-
-	line "Besiege mich und"
-	cont "ich heile deine"
-	cont "#mon!"
+	line "Schwester! Besiege"
+	cont "mich und ich heile"
+	cont "deine #mon!"
 	done
 
 .BeatenText:
@@ -191,9 +185,9 @@ MurkySwampNurseBeatriceScript:
 .AfterText:
 	text "Ich bin hier, um"
 	line "#mon wieder"
-
-	para "gesund zu machen—"
-	line "das ist mein Ziel!"
+	para "gesund zu"
+	line "machendas ist mein"
+	cont "Ziel!"
 	done
 
 MurkySwampBloodmoonUrsaluna:
@@ -230,7 +224,6 @@ GenericTrainerBug_catcherOscar:
 	line "hierhergekommen,"
 	cont "um Käfer zu"
 	cont "finden!"
-
 	para "Niemand warnte"
 	line "mich vor Geistern!"
 	done
@@ -277,12 +270,11 @@ GenericTrainerFirebreatherOleg:
 
 .SeenText:
 	text "Ich möchte ein"
-	line "Feuer machen… aber"
-
+	line "Feuer machen …"
+	cont "aber"
 	para "zündet es das"
 	line "Sumpfgas und"
 	cont "explodiert alles?"
-
 	para "Zu riskant!"
 	done
 
@@ -333,7 +325,6 @@ GenericTrainerPokemaniacEnzo:
 	text "Ich sah ein"
 	line "seltsames rotes"
 	cont "Licht"
-
 	para "in den Bäumen, als"
 	line "ich seltene"
 	cont "#mon suchte!"
@@ -347,13 +338,11 @@ GenericTrainerPokemaniacEnzo:
 MurkySwampPokemaniacText:
 	text "So nah an der"
 	line "Küste wird das"
-
 	para "Land mit Wasser"
 	line "durchtränkt."
-
 	para "Aber die seltenen"
 	line "#mon hier"
-
-	para "machen die Erkun-"
-	line "dung lohnenswert!"
+	para "machen die"
+	line "Erkundung"
+	cont "lohnenswert!"
 	done

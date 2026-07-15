@@ -48,10 +48,9 @@ AdminRangiText:
 RangiComputerScript:
 	jumpthistext
 
-	text "Optimieren… blinkt"
-	line "auf dem"
+	text "Optimieren …"
+	line "blinkt auf dem"
 	cont "Bildschirm."
-
 	para "Es scheint eine"
 	line "Weile zu dauern."
 	done
@@ -60,12 +59,10 @@ AdminLunaText:
 	text "Luna: Warst du"
 	line "beim ersten Mal"
 	cont "per Wunder-Tausch"
-
 	para "mit jemand aus"
 	line "einer anderen"
 	cont "Region nicht"
 	cont "beeindruckt?"
-
 	para "Ich habe das"
 	line "ursprüngliche"
 	cont "System direkt hier"
@@ -78,21 +75,18 @@ LunaComputerScript:
 	text "Ein Bildschirm"
 	line "voller dichter"
 	cont "Notizen und Karten"
-
 	para "unbekannter Orte"
 	line "und ein"
-
 	para "Bild von Johto,"
 	line "bedeckt mit"
 	cont "Schnee."
 	done
 
 AdminFredrikText:
-	text "Fredrik: Bills PC-"
-	line "#mon-Lagerungs-"
-	cont "System ist"
-	cont "quelloffen,"
-
+	text "Fredrik: BILLs"
+	line "PC-#mon-"
+	cont "Lagerungs-System"
+	cont "ist quelloffen,"
 	para "also konnte ich"
 	line "seine Datenbank"
 	cont "komplett neu"
@@ -116,14 +110,11 @@ AdminEmiText:
 	text "Emi: Hast du schon"
 	line "die Daten deines"
 	cont "#mon gesehen?"
-
 	para "Ich komme aus der"
 	line "Beria-Region"
-
 	para "und bringe solche"
 	line "Oberflächen nach"
 	cont "Johto!"
-
 	para "Sag Hallo, wenn du"
 	line "mal in Amethyst"
 	cont "Town bist!"
@@ -133,20 +124,18 @@ EmiComputerScript:
 	jumpthistext
 
 	text "Viel Code wird von"
-	line "einem Solitär-"
-	cont "Spiel verdeckt."
+	line "einem"
+	cont "Solitär-Spiel"
+	cont "verdeckt."
 	done
 
 AdminAizawaText:
 	text "Aizawa: Dialoge,"
 	line "Karten-Designs,"
-	cont "Charakter-"
-	cont "Sprites,"
+	cont "Charakter-Sprites,"
 	cont "Trainer-Teams…"
-
 	para "Game Freak in"
 	line "Kanto hat Glück,"
-
 	para "eine ganze Firma"
 	line "dafür zu haben!"
 	done
@@ -192,10 +181,9 @@ VulcanComputerScript:
 
 AdminSourText:
 	text "Sour: Wie gefallen"
-	line "dir die Attack-"
-	cont "Animationen im"
-	cont "Kampf?"
-
+	line "dir die"
+	cont "Attack-Animationen"
+	cont "im Kampf?"
 	para "Ich will jede"
 	line "Attacke zum"
 	cont "Vergnügen machen!"

@@ -86,7 +86,6 @@ GenericTrainerGentlemanMilton:
 	line "einen Kampf"
 	cont "anzuhalten ist"
 	cont "nicht unhöflich."
-
 	para "Egal was passiert,"
 	line "ich bin vor allem"
 	cont "ein Gentleman!"
@@ -97,7 +96,7 @@ GenericTrainerCoupleMoeandlulu1:
 
 	text "Moe: Kurz gesagt,"
 	line "du bist einfach zu"
-	cont "stark…"
+	cont "stark …"
 	done
 
 GenericTrainerCoupleMoeandlulu2:
@@ -143,7 +142,6 @@ BikerDwayneSeenText:
 	line "die #mon-"
 	cont "TRAINERGILDE aus"
 	cont "KANTO."
-
 	para "Hier kommst du"
 	line "unter die Räder!"
 	done
@@ -153,7 +151,7 @@ BikerDwayneSeenText:
 
 
 BikerDwayneBeatenText:
-	text "En-entschuldigung!"
+	text "Enentschuldigung"
 	done
 
 
@@ -164,7 +162,6 @@ Route8BikerHarrisProtestText:
 BikerHarrisSeenText:
 	text "Das ORDNUNGSAMT"
 	line "hat unseren"
-
 	para "TUNNELPFAD"
 	line "zuschütten lassen."
 	cont "Das ängstigt mich!"
@@ -212,7 +209,7 @@ SupernerdSamSeenText:
 
 SupernerdSamBeatenText:
 	text "Ich möchte nur den"
-	line "MAGNETZUG sehen…"
+	line "MAGNETZUG sehen …"
 	done
 
 
@@ -229,8 +226,8 @@ SupernerdTomSeenText:
 
 
 SupernerdTomBeatenText:
-	text "Wie ich dachte… Du"
-	line "bist stark!"
+	text "Wie ich dachte …"
+	line "Du bist stark!"
 	done
 
 
@@ -288,7 +285,8 @@ LassMeadowBeatenText:
 	done
 
 Route8LockedDoorText:
-	text "Es ist verriegelt…"
+	text "Es ist verriegelt"
+	line "…"
 	done
 
 

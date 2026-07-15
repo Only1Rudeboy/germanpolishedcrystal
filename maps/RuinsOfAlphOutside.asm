@@ -147,13 +147,13 @@ RuinsOfAlphOutsideFisherText2:
 
 
 
+
 RuinsOfAlphOutsideYoungster1Script:
 	jumpthistextfaceplayer
 
 	text "Es gibt viele"
 	line "Arten von"
 	cont "Icognito,"
-
 	para "darum benutzen wir"
 	line "sie für unsere"
 	cont "Geheimcodes."
@@ -174,25 +174,23 @@ GenericTrainerPsychicNathan:
 	line "hierher, um"
 	cont "nachzudenken."
 	done
+
 GenericTrainerSuperNerdStan:
 	generictrainer SUPER_NERD, STAN, EVENT_BEAT_SUPER_NERD_STAN, SuperNerdStanSeenText, SuperNerdStanBeatenText
 
-	text "Die Ruinen stammen"
-	line "aus einer Zeit vor"
-	cont "etwa 1500 Jahren."
-
+	text "Die RUINEN sind"
+	line "ungefähr 1500"
+	cont "Jahre alt."
 	para "Niemand weiß, wer"
-	line "sie erbaut hat."
-
-	para "Man weiß auch"
-	line "nicht, ob die"
-	cont "#-mon-Statuen"
-	cont "eine Bedeutung"
-	cont "haben."
-
-	para "Es bleibt ein"
-	line "großes Rätsel…"
+	line "sie erbaute."
+	para "Die Bedeutung der"
+	line "#mon-Statuen"
+	cont "ist auch noch"
+	cont "nicht geklärt."
+	para "Das Ganze ist ein"
+	line "großes Rätsel …"
 	done
+
 
 RuinsOfAlphOutsideScientistWalkToLabMovement:
 rept 7
@@ -226,37 +224,33 @@ endr
 
 RuinsOfAlphOutsideScientistText:
 	text "Hm? Das ist doch"
-	line "ein #dex, nicht"
+	line "ein #DEX, nicht"
 	cont "wahr? Darf ich ihn"
 	cont "sehen?"
-
 	para "Es gibt so viele"
 	line "unterschiedliche"
 	cont "#mon."
-
 	para "Hm? Was ist das?"
-
 	para "Was ist das für"
 	line "ein #mon?"
-
 	para "Es sieht aus wie"
 	line "die merkwürdigen"
-
 	para "Zeichen an den"
 	line "Wänden in den"
 	cont "RUINEN."
-
-	para "Falls diese Zei-"
-	line "chen tatsächlich "
+	para "Falls diese"
+	line "Zeichen"
+	cont "tatsächlich"
 	cont "#mon sind, dann"
-	cont "gibt es noch"
-	cont "viel mehr davon."
-
+	cont "gibt es noch viel"
+	cont "mehr davon."
 	para "Ich weiß! Lass"
 	line "mich deinen"
-	cont "#dex erweitern."
-	cont "Mir nach!"
+	cont "#-DEX"
+	cont "erweitern. Mir"
+	cont "nach!"
 	done
+
 
 
 
@@ -264,9 +258,10 @@ RuinsOfAlphOutsideScientistText:
 
 SuperNerdStanSeenText:
 	text "Was willst du? Ich"
-	line "lerne, stör mich"
+	line "lerne--stör mich"
 	cont "nicht!"
 	done
+
 
 
 
@@ -284,6 +279,7 @@ SuperNerdStanBeatenText:
 
 
 
+
 PsychicNathanSeenText:
 	text "Hm… Dies ist ein"
 	line "merkwürdiger Ort."
@@ -293,9 +289,11 @@ PsychicNathanSeenText:
 
 
 
+
 PsychicNathanBeatenText:
 	text "…"
 	done
+
 
 
 
@@ -310,10 +308,10 @@ RuinsOfAlphOutsideMysteryChamberSignText:
 
 
 
+
 RuinsOfAlphOutsideMysteriousHallSignText:
 	text "Geheimnisvolle"
 	line "Halle"
-
 	para "Bitte pass auf, wo"
 	line "du hintrittst."
 	done
@@ -327,13 +325,14 @@ RuinsOfAlphSignText:
 
 
 
+
 RuinsOfAlphResearchCenterSignText:
 	text "ALPH-RUINEN"
 	line "FORSCHUNGSZENTRUM"
-
 	para "DIE AUTORITÄT IN"
 	line "SACHEN ALPH-RUINEN"
 	done
+
 
 
 
@@ -366,17 +365,15 @@ MapRuinsofAlphOutsideSealedCaveSign:
 RuinsOfAlphOutsideFisherText1:
 	text "Beim Erkunden der"
 	line "RUINEN haben wir"
-
 	para "plötzlich eine"
 	line "seltsame Gegenwart"
 	cont "gespürt."
-
 	para "Alle hatten Angst"
 	line "und liefen davon."
-
 	para "Du solltest auch"
 	line "vorsichtig sein."
 	done
+
 
 
 
@@ -396,6 +393,7 @@ RuinsOfAlphOutsideYoungster2Text:
 
 
 
+
 RuinsofAlphScientistClimax1Text:
 	text "Das klang, als"
 	line "käme es von hier"
@@ -404,25 +402,19 @@ RuinsofAlphScientistClimax1Text:
 
 RuinsofAlphScientistClimax2Text:
 	text "Unglaublich!"
-
 	para "Die ganze Zeit war"
 	line "hier eine weitere"
 	cont "Kammer verborgen!"
-
 	para "Wir könnten Jahre"
 	line "damit verbringen,"
 	cont "sie zu erforschen!"
-
-	para "…Allerdings war"
+	para "… Allerdings war"
 	line "das ein ziemlich"
 	cont "lautes Beben."
-
 	para "Könnte sich eine"
 	line "andere Kammer"
-
 	para "weit von hier"
 	line "geöffnet haben?"
-
 	para "Ich muss meinen"
 	line "Kollegen davon"
 	cont "berichten!"

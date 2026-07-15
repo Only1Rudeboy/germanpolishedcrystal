@@ -41,7 +41,6 @@ SSAquaCaptain:
 	text "Puh! Danke, dass"
 	line "du mitgekommen"
 	cont "bist."
-
 	para "Das kleine Mädchen"
 	line "bei Laune zu"
 	cont "halten war"
@@ -141,7 +140,7 @@ GenericTrainerPokefanmColin:
 GenericTrainerTwinsMegandpeg1:
 	generictrainer TWINS, MEGANDPEG1, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg1SeenText, TwinsMegandpeg1BeatenText
 
-	text "“Baby” ist kein"
+	text "'Baby' ist kein"
 	line "schöner Name für"
 	cont "Mädchen!"
 	done
@@ -156,10 +155,11 @@ GenericTrainerPsychicRodney:
 	generictrainer PSYCHIC_T, RODNEY, EVENT_BEAT_PSYCHIC_RODNEY, PsychicRodneySeenText, PsychicRodneyBeatenText
 
 	text "Ich verstehe! Man"
-	line "kann den Radio-"
-	cont "sender aus JOHTO"
-	cont "auf dem SCHNELL-"
-	cont "BOOT hören."
+	line "kann den"
+	cont "Radiosender aus"
+	cont "JOHTO auf dem"
+	cont "SCHNELL-BOOT"
+	cont "hören."
 	done
 GenericTrainerPokefanmJeremy:
 	generictrainer POKEFANM, JEREMY, EVENT_BEAT_POKEFANM_JEREMY, PokefanmJeremySeenText, PokefanmJeremyBeatenText
@@ -237,11 +237,10 @@ SSAquaCantFindGranddaughterText:
 
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAYER>, oder?"
-	line "Ich hörte, du hast"
+	text "<PLAYER>, oder? Ich"
+	line "hörte, du hast"
 	cont "meine Enkelin bei"
 	cont "Laune gehalten."
-
 	para "Ich möchte dir"
 	line "dafür danken."
 	done
@@ -293,7 +292,6 @@ SSAquaGranddaughterHasToFindGrandpaText:
 SSAquaGranddaughterWasPlayingText:
 	text "Opa, hier bin ich!"
 	line "Ich habe mit dem"
-
 	para "Kapitän und dem"
 	line "großen Kind"
 	cont "gespielt!"
@@ -337,7 +335,6 @@ TwinsMegandpeg1BeatenText:
 
 TwinsMegandpeg2SeenText:
 	text "Ich bin kein Baby!"
-
 	para "So etwas sagt man"
 	line "nicht zu einer"
 	cont "Dame!"
@@ -414,7 +411,6 @@ SupernerdShawnBeatenText:
 SSAquaHasArrivedVermilionText:
 	text "Die M.S. AQUA legt"
 	line "in"
-
 	para "ORANIA CITY an."
 	done
 

@@ -10,10 +10,11 @@ DEF NUM_MONMENUVALUES EQU const_value - 1
 
 MonMenuOptionStrings:
 	list_start
-	li "Übersicht"
-	li "Tauschen"
+	; GSC-DE: STATUS / TAUSCH / ITEM / ZURÜCK
+	li "Status"
+	li "Tausch"
 	li "Item"
-	li "Abbrechen"
+	li "Zurück"
 	li "Brief"
 	li "Fehler!"
 	assert_list_length NUM_MONMENUVALUES

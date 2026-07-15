@@ -35,11 +35,10 @@ JackLostAMonText:
 JackBattleRematchText:
 	text "Lust zu kämpfen?"
 	line "Ich zeige dir"
-
-	para "logisches Kämpfen."
-	line "Ich bin auf"
-
-	para ""
+	para "logisches"
+	line "Kämpfen. Ich bin"
+	cont "auf"
+	done
 	text_ram wStringBuffer5
 	text ". Ruf, wenn du da"
 	line "bist."
@@ -92,15 +91,14 @@ JackGustTriviaText:
 	done
 
 JackKnockOffTriviaText:
-	text "Wusstest du…?"
-
+	text "Wusstest du …?"
 	para "Wenn der Gegner"
 	line "ein Item trägt,"
 	cont "das"
-
-	para "Abschlag entfernen"
-	line "kann, wird"
-	cont "Abschlag stärker."
+	para "Abschlag"
+	line "entfernen kann,"
+	cont "wird Abschlag"
+	cont "stärker."
 	done
 
 JackEarthquakeTriviaText:
@@ -129,10 +127,10 @@ JackSandstormTriviaText:
 	done
 
 JackSunnyDayTriviaText:
-	text "Wusstest du…?"
-
+	text "Wusstest du …?"
 	para "Bei starkem"
-	line "Sonnenlicht werden"
+	line "Sonnenlicht"
+	cont "werden"
 	cont "Wasser-Attacken"
 	cont "schwächer."
 	done
@@ -156,13 +154,11 @@ JackHeardSomeGreatTipsText:
 
 JackReminderText:
 	text "Hey, <PLAYER>!"
-
-	para "Erinnerst du dich?"
-	line "Wir wollten"
+	para "Erinnerst du"
+	line "dich? Wir wollten"
 	cont "kämpfen!"
-
 	para "Ich bin auf"
-	line ""
+	done
 	text_ram wStringBuffer5
 	text "."
 	done

@@ -84,10 +84,8 @@ Binoculars1:
 	text "Mit diesem"
 	line "Fernglas kann ich"
 	cont "weit"
-
 	para "sehen. Vielleicht"
 	line "sogar mein Haus."
-
 	para "Ist es das mit dem"
 	line "grünen Dach?"
 	done
@@ -97,10 +95,8 @@ Binoculars2:
 	text "Heh! Einige"
 	line "Trainer kämpfen"
 	cont "auf dem Weg!"
-
 	para "Ein #mon schoss"
 	line "mit Blättern!"
-
 	para "Wenn ich das sehe,"
 	line "will ich sofort"
 	cont "kämpfen!"
@@ -203,14 +199,14 @@ PokeDollVendingMachine:
 
 GoldenrodDeptStoreRoofPokefanFText:
 	text "Puh, bin ich müde."
-
 	para "Manchmal gehe ich"
-	line "auf die Dach-"
-	cont "terrasse, um eine"
-
+	line "auf die"
+	cont "Dachterrasse, um"
+	cont "eine"
 	para "Einkaufspause"
 	line "einzulegen."
 	done
+
 
 
 
@@ -227,6 +223,7 @@ GoldenrodDeptStoreRoofFisherText:
 	para "alle Puppen zu"
 	line "bekommen!"
 	done
+
 
 
 
@@ -262,9 +259,11 @@ GoldenrodDeptStoreRoofTwinText:
 
 
 
+
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text "Ach, wow!"
+	text "Oh, wow!"
 	done
+
 
 
 
@@ -277,30 +276,30 @@ GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
 
 
 
+
 GoldenrodDeptStoreRoofPokefanMText:
 	text "Es gibt etwas, das"
 	line "ich unbedingt"
-
 	para "möchte, aber mir"
 	line "fehlt das nötige"
-	cont "Kleingeld…"
-
+	cont "Kleingeld …"
 	para "Soll ich meine"
 	line "gesammelten BEEREN"
-	cont "verkaufen…"
+	cont "verkaufen …"
 	done
+
 
 
 
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Ach, alles ist so"
+	text "Oh, alles ist so"
 	line "billig!"
-
 	para "Ich habe soviel"
 	line "gekauft, dass mein"
 	cont "BEUTEL voll ist!"
 	done
+
 
 
 
@@ -311,11 +310,9 @@ GoldenrodDeptStoreRoofBugCatcherText:
 	cont "oder vergiftet,"
 	cont "wenn es darauf"
 	cont "ankommt…"
-
 	para "Daher möchte ich"
 	line "HYPERHEILER"
 	cont "kaufen."
-
 	para "Hoffentlich gibt"
 	line "es noch welche?"
 	done
@@ -323,17 +320,17 @@ GoldenrodDeptStoreRoofBugCatcherText:
 
 
 
+
 PokeDollVendingMachineText:
 	text "Ein Automat, an"
-	line "dem man #mon-"
-	cont "Puppen kaufen"
-	cont "kann."
-
+	line "dem man"
+	cont "#mon-Puppen"
+	cont "kaufen kann."
 	para "Wirf Geld ein und"
 	line "dreh die Kurbel…"
-
 	para "Er ist fast leer…"
 	done
+
 
 
 

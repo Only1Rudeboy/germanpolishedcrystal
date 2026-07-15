@@ -48,10 +48,8 @@ PokemonFanClubChairmanScript:
 	text "Das SONDERBONBON"
 	line "macht #mon"
 	cont "stärker."
-
 	para "Meine #mon"
 	line "sollen lieber"
-
 	para "durch ihre Kämpfe"
 	line "stärker werden. Du"
 	cont "kannst es haben."
@@ -82,14 +80,11 @@ PokemonJournalGreenScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial:"
 	line "#mon-Trainer"
 	cont "Leaf!"
-
 	para "Neben ihrer Stärke"
 	line "als Trainerin soll"
-
 	para "Leaf eine"
 	line "Faszination für"
 	cont "legendäre #mon"
@@ -101,7 +96,6 @@ ClefairyDollScript:
 
 	text "Das ist ein PIEPI!"
 	line "Was?"
-
 	para "Ach so! Das ist"
 	line "eine #PUPPE von"
 	cont "PIEPI."
@@ -110,15 +104,12 @@ PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	text "Ich bin der"
 	line "VORSITZENDE des"
 	cont "#mon-FANCLUB."
-
 	para "Ich habe über 150"
 	line "#mon"
 	cont "aufgezogen."
-
-	para "Ich bin sehr "
+	para "Ich bin sehr"
 	line "kleinlich, was"
 	cont "#mon betrifft."
-
 	para "Bist du extra"
 	line "hierher gekommen,"
 	cont "um etwas über"
@@ -130,27 +121,27 @@ PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 PokemonFanClubChairmanRapidashText:
 	text "Sehr schön! Dann"
 	line "hör gut zu!"
-
-	para "Also… am liebsten"
-	line "habe ich GALLOPA…"
-
-	para "Es ist… süß… lieb…"
-	line "klug… anmutig…"
-	cont "und… wunderbar…"
-	cont "nicht wahr?… Zu"
-	cont "sehr… wild… schön…"
-	cont "liebenswert …Ich"
+	para "Also … am liebsten"
+	line "habe ich GALLOPA …"
+	para "Es ist … süß …"
+	line "lieb … klug …"
+	cont "anmutig … und …"
+	cont "wunderbar … nicht"
+	cont "wahr? … Zu sehr …"
+	cont "wild … schön …"
+	cont "liebenswert … Ich"
 	cont "verehre es!"
-
-	para "Knuddle es… wenn…"
-	line "es schläft… warm"
-	cont "und weich… Oh, und"
-	cont "sensationell…"
-	cont "großartig… einfach"
-	cont "göttlich… Ups! Wie"
-	cont "die Zeit vergeht!"
-	cont "Ich habe dich zu"
-	cont "lange aufgehalten!"
+	para "Knuddle es … wenn"
+	line "… es schläft …"
+	cont "warm und weich …"
+	cont "Oh, und"
+	cont "sensationell …"
+	cont "großartig …"
+	cont "einfach göttlich …"
+	cont "Ups! Wie die Zeit"
+	cont "vergeht! Ich habe"
+	cont "dich zu lange"
+	cont "aufgehalten!"
 	done
 
 
@@ -164,14 +155,13 @@ PokemonFanClubChairmanIWantYouToHaveThisText:
 
 PokemonFanClubChairmanMoreTalesToTellText:
 	text "Hallo, <PLAYER>!"
-
 	para "Besuchst du mich"
 	line "wieder wegen"
 	cont "meiner #mon?"
-
-	para "Nein? Oh… Ich"
+	para "Nein? Oh … Ich"
 	line "hätte noch so"
-	cont "viele Geschichten…"
+	cont "viele Geschichten"
+	cont "…"
 	done
 
 
@@ -190,7 +180,7 @@ PokemonFanClubReceptionistText:
 	text "Unser VORSITZENDER"
 	line "ist sehr redselig"
 	cont "in Bezug auf"
-	cont "#mon…"
+	cont "#mon …"
 	done
 
 
@@ -209,10 +199,8 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	text "Ich mag PIEPI,"
 	line "aber ich könnte"
-
 	para "nie eines fangen."
 	line "Die #PUPPE,"
-
 	para "die ich fand, muss"
 	line "mir genügen."
 	done
@@ -221,21 +209,16 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Ah, jetzt verstehe"
 	line "ich. Das Mädchen,"
-
-	para "das diese"
-	line "#puppe verloren"
-	cont "hat, ist traurig…"
-
+	para "das diese #"
+	line "puppe verloren"
+	cont "hat, ist traurig …"
 	para "Könntest du dann"
 	line "die #PUPPE"
-
 	para "zu diesem armen,"
 	line "kleinen Mädchen"
 	cont "zurückbringen?"
-
 	para "Eines Tages werde"
 	line "ich mich mit einem"
-
 	para "echten PIEPI"
 	line "anfreunden. Keine"
 	cont "Bange!"
@@ -245,7 +228,6 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
 	text "Du wirst schon"
 	line "sehen. Ich freunde"
-
 	para "mich noch mit"
 	line "einem echten PIEPI"
 	cont "an."
@@ -255,7 +237,6 @@ PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
 PokemonFanClubTeacherText:
 	text "Schau dir mein"
 	line "süßes LORBLATT an!"
-
 	para "Das Blatt auf"
 	line "seinem Kopf ist so"
 	cont "goldig!"

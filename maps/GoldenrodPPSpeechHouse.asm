@@ -19,25 +19,23 @@ GoldenrodPPSpeechHouse_MapScriptHeader:
 GoldenrodPPSpeechHouseFisherText:
 	text "Als ich einmal"
 	line "kämpfte, konnte"
-
-	para "mein #mon keine"
-	line "Attacken mehr"
-	cont "ausführen."
-
-	para "Die ANGRIFFSPUNK-"
-	line "TE, oder AP,"
-	cont "seiner Attacken"
-	cont "waren verbraucht."
+	para "mein #mon"
+	line "keine Attacken"
+	cont "mehr ausführen."
+	para "Die"
+	line "ANGRIFFSPUNKTE,"
+	cont "oder AP, seiner"
+	cont "Attacken waren"
+	cont "verbraucht."
 	done
+
 
 
 GoldenrodPPSpeechHouseLassText:
 	text "Manchmal kann auch"
 	line "ein gesundes"
-
 	para "#mon nicht mehr"
 	line "angreifen."
-
 	para "In diesem Fall"
 	line "musst du es in"
 	cont "einem"
@@ -45,5 +43,6 @@ GoldenrodPPSpeechHouseLassText:
 	cont "oder mit einem"
 	cont "Item heilen."
 	done
+
 
 

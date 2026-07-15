@@ -28,19 +28,20 @@ GenericTrainerSageNico:
 	para "ist der TURM"
 	line "erdbebensicher."
 	done
+
 GenericTrainerSageEdmond:
 	generictrainer SAGE, EDMOND, EVENT_BEAT_SAGE_EDMOND, SageEdmondSeenText, SageEdmondBeatenText
 
 	text "Ich habe versucht,"
 	line "KNOFENSAs elegante"
-
-	para "Bewegungen im"
-	line "Kampf nachzuahmen…"
-
+	cont "Bewegungen im"
+	cont "Kampf nachzuahmen"
+	cont "…"
 	para "Aber ich habe"
 	line "nicht intensiv"
 	cont "genug trainiert."
 	done
+
 SageNicoSeenText:
 	text "Wie hart wir auch"
 	line "kämpfen, der TURM"
@@ -48,17 +49,21 @@ SageNicoSeenText:
 	done
 
 
+
 SageNicoBeatenText:
 	text "Ich kämpfte hart,"
-	line "aber ich bin ein-"
-	cont "fach zu schwach."
+	line "aber ich bin"
+	cont "einfach zu"
+	cont "schwach."
 	done
+
 
 
 SageEdmondSeenText:
-	text "…Wirble wie Laub"
-	line "im Wind…"
+	text "… Wirble wie Laub"
+	line "im Wind …"
 	done
+
 
 
 SageEdmondBeatenText:
@@ -66,12 +71,13 @@ SageEdmondBeatenText:
 	done
 
 
-SproutTower2FStatueText:
-	text "Eine #mon-"
-	line "Statue…"
 
+SproutTower2FStatueText:
+	text "Eine"
+	line "#mon-Statue …"
 	para "Sie sieht sehr"
 	line "erhaben aus."
 	done
+
 
 

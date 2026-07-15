@@ -66,8 +66,9 @@ GenericTrainerScientistCarl:
 
 HexManiacAshleySeenText:
 	text "Die Geister haben"
-	line "mir deine Nieder-"
-	cont "lage gezeigt!"
+	line "mir deine"
+	cont "Niederlage"
+	cont "gezeigt!"
 	done
 
 HexManiacAshleyBeatenText:

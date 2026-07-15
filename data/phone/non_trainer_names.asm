@@ -14,21 +14,21 @@ NonTrainerCallerNames:
 	text "Mama:"
 	done
 .bill:
-	text "Bill:"
+	text "BILL:"
 	next1 "   #maniac"
 	done
 .elm:
-	text "Prof. Lind:"
+	text "PROF. LIND:"
 	next1 "   #-Prof."
 	done
 .bikeshop:
 	text "Wunder-Radladen:"
 	done
 .lyra:
-	text "Lyra:"
+	text "LYRA:"
 	next1 "   <PK><MN>-Trainer"
 	done
 .buena:
-	text "Buena:"
-	next1 "   Disc Jockey"
+	text "BUENA:"
+	next1 "   Moderatorin"
 	done

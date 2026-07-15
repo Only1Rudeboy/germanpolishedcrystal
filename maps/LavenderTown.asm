@@ -169,23 +169,16 @@ LavenderTownFinishExpositionScript:
 
 LavenderTownSignText:
 	text "LAVANDIA"
-
 	para "Die Liebliche"
 	line "Lilafarbene Stadt"
 	done
-
-
-
-
-
 KantoRadioStationSignText:
 	text "KANTO RADIO-"
 	line "STATION"
-
-	para "Deine"
-	line "Lieblingsprogramme"
-	cont "zu jeder Tages-"
-	cont "und Nachtzeit!"
+	para "Deine Lieblings-"
+	line "programme zu jeder"
+	cont "Tages- und"
+	cont "Nachtzeit!"
 	done
 
 
@@ -218,9 +211,9 @@ LavenderTownPokefanMText:
 	text "Ein recht"
 	line "beeindruckendes"
 	cont "Gebäude, nicht?"
-
-	para "Das ist der RADIO-"
-	line "TURM von KANTO."
+	para "Das ist der"
+	line "RADIO-TURM von"
+	cont "KANTO."
 	done
 
 
@@ -253,11 +246,9 @@ LavenderTownGrampsText:
 
 
 LavenderTownYoungsterText:
-	text "Mit einer"
-	line "#floete weckst"
-	cont "du schlafende"
-	cont "#mon."
-
+	text "Mit #floete"
+	line "weckst du"
+	cont "schlafende #mon"
 	para "Jeder Trainer muss"
 	line "das wissen!"
 	done

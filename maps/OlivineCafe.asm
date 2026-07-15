@@ -81,34 +81,32 @@ OlivineCafeMovementData_LyraLeaves:
 	step_end
 
 OlivineCafeFishingGuruText:
-	text "Im OLIVIANA CITY-"
-	line "CAFE gibt es nur"
-
+	text "Im OLIVIANA"
+	line "CITY-CAFE gibt es"
+	cont "nur"
 	para "delikate"
-	line "Seemannskost für"
+	line "Seemanns-kost für"
 	cont "MATROSEN"
-
 	para "auf dem"
 	line "Speiseplan!"
 	done
 
 
 
+
 OlivineCafeSailorText:
 	text "Immer wenn ich in"
 	line "diese Stadt komme,"
-
 	para "gehe ich ins"
-	line "OLIVIANA CITY-"
-	cont "CAFE."
-
+	line "OLIVIANA"
+	cont "CITY-CAFE."
 	para "Jedes Gericht auf"
 	line "der Karte stärkt"
-
 	para "mich. Ich kann"
 	line "nicht aufhören zu"
 	cont "essen!"
 	done
+
 
 
 
@@ -145,7 +143,7 @@ BakerChelsieNoBattleText:
 	done
 
 OlivineCafeLyraText1:
-	text "Lyra: Hallo,"
+	text "LYRA: Hallo,"
 	line "<PLAYER>! Probier"
 	cont "mal das Essen"
 	cont "hier."
@@ -169,19 +167,14 @@ OlivineCafeLyraText2:
 	text "Ist es nicht"
 	line "hübsch? Und"
 	cont "nützlich!"
-
 	para "Na ja, ich muss"
 	line "los."
-
 	para "Ich will den"
 	line "Gelben Wald in"
-
 	para "ANEMONIA CITY"
 	line "sehen, bevor ich"
 	cont "nach Hause geh."
-
-	para "Bis bald,"
-	line "<PLAYER>!"
+	para "Bis bald, <PLAYER>!"
 	done
 
 OlivineCafeOfficerText:
@@ -199,10 +192,8 @@ OlivineCafeOfficerText:
 OlivineCafeYoungsterText:
 	text "Diese Donuts sind"
 	line "toll."
-
 	para "Mit Marmelade sind"
 	line "sie mein Favorit!"
-
 	para "Nichts geht über"
 	line "einen Donut mit"
 	cont "Marmelade."

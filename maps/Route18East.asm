@@ -55,7 +55,6 @@ Bird_keeperBobBeatenText:
 	done
 Route18SignText:
 	text "ROUTE 18"
-
 	para "PRISMANIA CITY -"
 	line "FUCHSANIA CITY"
 	done

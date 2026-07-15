@@ -109,7 +109,7 @@ OlivineLighthouseAmphy:
 	jumpthisopenedtext
 
 	text "Es atmet furchtbar"
-	line "schwer…"
+	line "schwer …"
 	done
 
 .HealthyNow:
@@ -155,97 +155,66 @@ OlivineLighthouseJasmineLeavesRightMovement:
 
 JasmineCianwoodPharmacyText:
 	text "JASMIN: …Dieses"
-	line "#mon hat"
-
-	para "das Meer immer"
-	line "erleuchtet."
-
+	line "#mon hat das"
+	cont "Meer immer"
+	cont "erleuchtet."
 	para "…Aber plötzlich"
 	line "wurde es krank… Es"
 	cont "schnappt nach"
 	cont "Luft…"
-
-	para "…Ich weiß, dass es"
-	line "eine gut"
-
-	para "sortierte APOTHEKE"
-	line "in ANEMONIA CITY"
-	cont "gibt…"
-
+	para "…Ich weiß, es gibt"
+	line "eine gut sortierte"
+	cont "APOTHEKE in"
+	cont "ANEMONIA CITY…"
 	para "Aber dafür musst"
-	line "du über das Meer…"
-
+	line "du übers Meer…"
 	para "Und ich kann AMPHI"
-	line "nicht"
-	cont "unbeaufsichtigt"
-	cont "zurücklassen…"
+	line "nicht allein"
+	cont "lassen…"
 	done
-
-
 JasmineCureAmphyText:
 	text "JASMIN: …Wird"
 	line "diese Arznei AMPHI"
 	cont "helfen?"
 	done
-
-
 PlayerHandedSecretpotionText:
 	text "<PLAYER> übergibt"
 	line "JASMIN den"
 	cont "GEHEIMTRANK."
 	done
-
-
 JasmineDontBeOffendedText:
 	text "JASMIN: …Hm, sei"
 	line "bitte nicht"
 	cont "beleidigt…"
-
 	para "…AMPHI nimmt die"
 	line "Arznei nur von"
 	cont "mir…"
 	done
-
-
 JasmineAmphyHowAreYouFeelingText:
 	text "JASMIN: …"
-
 	para "AMPHI, wie geht es"
 	line "dir?"
 	done
-
-
 JasmineThankYouText:
 	text "JASMIN: …Oh, ich"
 	line "bin erleichtert…"
-
 	para "Das ist einfach"
 	line "wundervoll…"
-
 	para "Ich danke dir"
 	line "vielmals."
-
 	para "…Ich kehre in die"
-	line "#mon-ARENA"
+	line "PKMN-ARENA"
 	cont "zurück."
 	done
-
-
 JasmineISeeText:
 	text "JASMIN: …Ich"
 	line "verstehe…"
 	done
-
-
 AmphyPalPalooText:
 	text "AMPHI: …"
-	line "…Pa…Paluu…"
+	para "…Pa…Paluu…"
 	done
-
-
 AmphyPaluPaluluText:
 	text "AMPHI: Palu!"
 	line "Palulu!"
 	done
-
-

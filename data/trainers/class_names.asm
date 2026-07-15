@@ -4,27 +4,28 @@ TrainerClassNames::
 	li "<PK><MN>-Trainer" ; CARRIE
 	li "<PK><MN>-Trainer" ; JACKY
 	li "<PK><MN>-Trainer" ; EUNA
-	li "Arena-Leiter"      ; FALKNER
-	li "Arena-Leiter"      ; BUGSY
-	li "Arena-Leiter"      ; WHITNEY
-	li "Arena-Leiter"      ; MORTY
-	li "Arena-Leiter"      ; CHUCK
-	li "Arena-Leiter"      ; JASMINE
-	li "Arena-Leiter"      ; PRYCE
-	li "Arena-Leiter"      ; CLAIR
+	; GSC-DE / PokéWiki: Arenaleiter, Top Vier, Champ, Käfersammler, …
+	li "Arenaleiter"       ; FALKNER
+	li "Arenaleiter"       ; BUGSY
+	li "Arenaleiterin"     ; WHITNEY
+	li "Arenaleiter"       ; MORTY
+	li "Arenaleiter"       ; CHUCK
+	li "Arenaleiterin"     ; JASMINE
+	li "Arenaleiter"       ; PRYCE
+	li "Arenaleiterin"     ; CLAIR
 	li "Top Vier"          ; WILL
 	li "Top Vier"          ; KOGA
 	li "Top Vier"          ; BRUNO
 	li "Top Vier"          ; KAREN
-	li "Champion"          ; CHAMPION
-	li "Arena-Leiter"      ; BROCK
-	li "Arena-Leiter"      ; MISTY
-	li "Arena-Leiter"      ; LT_SURGE
-	li "Arena-Leiter"      ; ERIKA
-	li "Arena-Leiter"      ; JANINE
-	li "Arena-Leiter"      ; SABRINA
-	li "Arena-Leiter"      ; BLAINE
-	li "Arena-Leiter"      ; BLUE
+	li "Champ"             ; CHAMPION
+	li "Arenaleiter"       ; BROCK
+	li "Arenaleiterin"     ; MISTY
+	li "Arenaleiter"       ; LT_SURGE
+	li "Arenaleiterin"     ; ERIKA
+	li "Arenaleiterin"     ; JANINE
+	li "Arenaleiterin"     ; SABRINA
+	li "Arenaleiter"       ; BLAINE
+	li "Arenaleiter"       ; BLUE
 	li "<PK><MN>-Trainer" ; RED
 	li "<PK><MN>-Trainer" ; LEAF
 	li "Fremder"           ; RIVAL0
@@ -33,32 +34,32 @@ TrainerClassNames::
 	li "<PK><MN>-Trainer" ; LYRA1
 	li "<PK><MN>-Trainer" ; LYRA2
 	li "Knirps"            ; YOUNGSTER
-	li "Käferfan"          ; BUG_CATCHER
+	li "Käfersammler"      ; BUG_CATCHER
 	li "Camper"            ; CAMPER
 	li "Picknicker"        ; PICNICKER
 	li "Zwillinge"         ; TWINS
 	li "Angler"            ; FISHER
-	li "Vogel-Profi"       ; BIRD_KEEPER
+	li "Vogelprofi"        ; BIRD_KEEPER
 	li "Wanderer"          ; HIKER
 	li "Rüpel"             ; GRUNTM
 	li "Rüpel"             ; GRUNTF
-	li "#fan"              ; POKEFANM
+	li "#fan"              ; POKEFANM  → Pokéfan
 	li "#fan"              ; POKEFANF
 	li "Polizist"          ; OFFICERM
 	li "Polizistin"        ; OFFICERF
 	li "Krankenschw."      ; NURSE
-	li "#maniac"           ; POKEMANIAC
-	li "Cosplayer"         ; COSPLAYER
+	li "#maniac"           ; POKEMANIAC → Pokémaniac
+	li "Cosplayer"         ; COSPLAYER (Polished)
 	li "Streber"           ; SUPER_NERD
 	li "Göre"              ; LASS
 	li "Schönheit"         ; BEAUTY
 	li "Käfer-Profi"       ; BUG_MANIAC
-	li "Ruinen-Profi"      ; RUIN_MANIAC
+	li "Ruinenmaniac"      ; RUIN_MANIAC
 	li "Feuerspeier"       ; FIREBREATHER
 	li "Jongleur"          ; JUGGLER
 	li "Schüler"           ; SCHOOLBOY
-	li "Schülerin"        ; SCHOOLGIRL
-	li "Medium"            ; PSYCHIC_T
+	li "Schülerin"         ; SCHOOLGIRL
+	li "Psycho"            ; PSYCHIC_T
 	li "Hexe"              ; HEX_MANIAC
 	li "Weiser"            ; SAGE
 	li "Seherin"           ; MEDIUM
@@ -71,25 +72,25 @@ TrainerClassNames::
 	li "Lady"              ; LADY
 	li "Züchter"           ; BREEDER
 	li "Bäcker"            ; BAKER
-	li "Cowgirl"           ; COWGIRL
+	li "Cowgirl"           ; COWGIRL (Polished)
 	li "Matrose"           ; SAILOR
 	li "Schwimmer"         ; SWIMMERM
 	li "Schwimmerin"       ; SWIMMERF
 	li "Dieb"              ; BURGLAR
-	li "Agent"             ; PI
-	li "Wissenschaftler"   ; SCIENTIST
-	li "Wissenschaftler"   ; ROCKET_SCIENTIST
-	li "Snowboarder"       ; BOARDER
-	li "Skifahrer"         ; SKIER
+	li "Detektiv"          ; PI
+	li "Forscher"          ; SCIENTIST
+	li "Forscher"          ; ROCKET_SCIENTIST
+	li "Boarder"           ; BOARDER
+	li "Skifahrerin"       ; SKIER
 	li "Schwarzgurt"       ; BLACKBELT_T
 	li "Kämpferin"         ; BATTLE_GIRL
-	li "Drachen-Profi"     ; DRAGON_TAMER
+	li "Drachentamer"      ; DRAGON_TAMER
 	li "Elektriker"        ; ENGINEER
 	li "Lehrerin"          ; TEACHER_F
 	li "Lehrer"            ; TEACHER_M
 	li "Gitarrist"         ; GUITARISTM
 	li "Gitarristin"       ; GUITARISTF
-	li "Rowdy"             ; BIKER
+	li "Biker"             ; BIKER
 	li "Raufbold"          ; ROUGHNECK
 	li "Dompteur"          ; TAMER
 	li "Künstler"          ; ARTIST
@@ -105,15 +106,15 @@ TrainerClassNames::
 	li "Ass-Duo"           ; ACE_DUO
 	li "Veteran"           ; VETERANM
 	li "Veteranin"         ; VETERANF
-	li "Executive"         ; PROTON
-	li "Executive"         ; PETREL
-	li "Executive"         ; ARCHER
-	li "Executive"         ; ARIANA
+	li "Vorstand"          ; PROTON
+	li "Vorstand"          ; PETREL
+	li "Vorstand"          ; ARCHER
+	li "Vorstand"          ; ARIANA
 	li "Boss"              ; GIOVANNI
-	li "#-Prof."            ; PROF_OAK
-	li "#-Prof."            ; PROF_ELM
-	li "#-Prof."            ; PROF_IVY
-	li "Mysteriös"         ; MYSTICALMAN
+	li "#-Prof."           ; PROF_OAK
+	li "#-Prof."           ; PROF_ELM
+	li "#-Prof."           ; PROF_IVY
+	li "Mystiker"          ; MYSTICALMAN
 	li "Karate-König"      ; KARATE_KING
 	li "Turm-Tycoon"       ; TOWERTYCOON
 	li "Fabrikchef"        ; FACTORYHEAD

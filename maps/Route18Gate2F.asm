@@ -19,7 +19,6 @@ Route18Gate2FBinoculars1:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "ALABASTIA liegt im"
 	line "Westen!"
 	done
@@ -29,7 +28,6 @@ Route18Gate2FBinoculars2:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Da schwimmen"
 	line "Leute!"
 	done

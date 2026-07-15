@@ -21,20 +21,15 @@ PokemonJournalProfWillowScript:
 	jumpthistext
 
 	text "#mon Journal"
-
-	para "Spezial:"
-	line "Prof. Willow!"
-
+	para "Spezial: Prof."
+	line "Willow!"
 	para "Man sagt, Prof."
 	line "Willows Traum sei"
 	cont "es,"
-
 	para "unbekannte Länder"
 	line "zu erforschen und"
-
 	para "unentdeckte"
 	line "#mon-Arten in"
-
 	para "ihrem natürlichen"
 	line "Lebensraum zu"
 	cont "dokumentieren."

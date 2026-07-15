@@ -113,18 +113,14 @@ Archer2Script:
 Route48JessieJamesSeenText:
 	text "Bleib stehen,"
 	line "Balg!"
-
 	para "Weißt du, welches"
 	line "#mon in dem"
 	cont "Wald lebt?"
 	cont "PIKACHU!"
-
 	para "Der Boss wird sich"
 	line "freuen, wenn"
-
 	para "wir ein starkes"
 	line "fangen!"
-
 	para "Gib auf, oder mach"
 	line "dich kampfbereit!"
 	done
@@ -142,19 +138,14 @@ Route48JessieJamesAfterText:
 Archer2SeenText:
 	text "Du willst dich"
 	line "also wieder in"
-
 	para "Team Rockets Pläne"
 	line "einmischen."
-
 	para "Du mischst dich"
 	line "immer wieder ein,"
-
 	para "wo du nichts zu"
 	line "suchen hast."
-
 	para "Wir verkaufen"
 	line "diese #mon,"
-
 	para "und du kannst"
 	line "nichts dagegen"
 	cont "tun!"
@@ -166,28 +157,24 @@ Archer2BeatenText:
 	done
 
 Archer2AfterText:
-	text "…Na gut."
-
-	para "Team Rocket zieht"
+	text "… Na gut."
+	para "TEAM ROCKET zieht"
 	line "sich vorerst"
 	cont "zurück."
-
 	para "Unser anderer Plan"
-	line "läuft sowieso gut…"
+	line "läuft sowieso gut"
+	cont "…"
 	done
 
 Route48NurseText1:
 	text "Ich hab deinen"
 	line "Kampf vom Fenster"
 	cont "aus gesehen!"
-
 	para "Du hast Team"
 	line "Rocket vertrieben"
 	cont "und das PIKACHU"
 	cont "gerettet!"
-
 	para "Vielen Dank!"
-
 	para "Deine #mon"
 	line "verdienen nach all"
 	cont "dem eine Pause."
@@ -196,14 +183,11 @@ Route48NurseText1:
 Route48NurseText2:
 	text "Ich entspanne mich"
 	line "gern hier am Wald"
-
 	para "und schaue den"
 	line "#mon beim"
 	cont "Spielen zu."
-
 	para "Ich heile deine"
 	line "#mon jederzeit!"
-
 	para "Nochmals danke!"
 	done
 

@@ -66,7 +66,7 @@ GavenGenericText:
 	cont "ist topfit wie"
 	cont "immer."
 
-	para "Weiter so, bis wir"
+	para "Weiter so, bis"
 	line "#mon-Champs"
 	cont "sind!"
 	done

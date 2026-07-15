@@ -1474,7 +1474,8 @@ ManageBoxes:
 
 .PartyMonMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 4, 19, 17
+	; wider for "Mitnehmen" (9)
+	menu_coords 9, 4, 19, 17
 	dw .PartyMenuData2
 	db 1 ; default option
 
@@ -1487,7 +1488,7 @@ ManageBoxes:
 
 .BoxMenu:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 6, 19, 17
+	menu_coords 9, 6, 19, 17
 	dw .BoxMenuData2
 	db 1 ; default option
 
@@ -1528,12 +1529,12 @@ ManageBoxes:
 	db -1
 
 BillsPC_MenuStrings:
-	db "Abbrechen@"
-	; pokémon management options
-	db "Entnehmen@"
-	db "Einlagern@"
-	db "Übersicht@"
-	db "Wechseln@"
+	db "Zurück@"
+	; pokémon management options (GSC-DE: Mitnehmen / Ablegen)
+	db "Mitnehmen@"
+	db "Ablegen@"
+	db "Status@"
+	db "Tausch@"
 	db "Item@"
 	db "Freilas.@"
 	; box options
@@ -1546,7 +1547,7 @@ BillsPC_MenuStrings:
 	db "Lesen@"
 	; holding an item
 	db "Bewegen@"
-	db "Tasche@"
+	db "Beutel@"
 	; doesn't hold an item
 	db "Geben@"
 
@@ -2713,9 +2714,9 @@ BillsPC_CanReleaseMon:
 	bit MON_IS_EGG_F, a
 	jr z, .not_egg
 
-	; Allow release of Bad Eggs.
+	; Allow release of Bad Eggs (DE: "Schl. Ei"; normal eggs are "Ei").
 	ld a, [wTempMonNickname]
-	cp 'B' ; Assume "Bad Egg" (since the only alternative is "Egg").
+	cp "S" ; "Schl. Ei" (Canon); normal egg nickname starts with "E"
 	ld a, RELEASE_EGG
 	ret nz
 

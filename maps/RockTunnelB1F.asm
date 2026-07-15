@@ -28,7 +28,6 @@ GenericTrainerFirebreatherCyd:
 
 	text "Ein #mon mit"
 	line "BLITZ ist"
-
 	para "hilfreich in"
 	line "dunklen Höhlen wie"
 	cont "dieser."

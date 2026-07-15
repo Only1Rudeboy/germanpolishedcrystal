@@ -36,7 +36,6 @@ CeruleanMart_CooltrainerMText:
 CeruleanMart_CooltrainerFText:
 	text "MISTY ist"
 	line "wahrscheinlich die"
-
 	para "Einzige, die die"
 	line "Trainer am KAP bei"
 	cont "AZURIA CITY"

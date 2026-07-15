@@ -50,7 +50,7 @@ BattleGirlSubaruBeatenText:
 	done
 
 BattleGirlDianeSeenText:
-	text "Hii-yaah!"
+	text "Hiiyaah!"
 	done
 
 BattleGirlDianeBeatenText:

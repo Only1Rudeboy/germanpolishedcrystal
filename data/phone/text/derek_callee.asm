@@ -15,9 +15,9 @@ DerekAnswerPhoneDayText:
 
 DerekAnswerPhoneNiteText:
 	text "Hi, <PLAYER>?"
-
-	para "Guten Abend, pika,"
-	line "was gibt's, pika?"
+	para "Guten Abend,"
+	line "pika, was gibt's,"
+	cont "pika?"
 	done
 
 DerekGreetText:
@@ -52,14 +52,14 @@ DerekGreetNiteText:
 
 DerekGenericText:
 	text "Das musst du"
-	line "hören! Mein liebes"
-
-	para ""
+	line "hören! Mein"
+	cont "liebes"
+	done
 	text_ram wStringBuffer4
-	text " hat mich"
+	text "hat mich"
 	line "angesehen und"
 	cont "gegrinst!"
-
 	para "Unsere Herzen"
-	line "schlagen als eins!"
+	line "schlagen als"
+	cont "eins!"
 	done

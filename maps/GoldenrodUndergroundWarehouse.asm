@@ -30,26 +30,28 @@ GenericTrainerGruntM24:
 	cont "warten auf die"
 	cont "Rückkehr von"
 	cont "GIOVANNI."
-
 	para "Wir werden alles"
 	line "dafür geben."
 	done
+
 GenericTrainerGruntM14:
 	generictrainer GRUNTM, 14, EVENT_BEAT_ROCKET_GRUNTM_14, GruntM14SeenText, GruntM14BeatenText
 
-	text "Ich habe verloren…"
-
+	text "Ich habe verloren"
+	line "…"
 	para "Bitte vergib mir,"
 	line "GIOVANNI!"
 	done
+
 GenericTrainerGruntM15:
 	generictrainer GRUNTM, 15, EVENT_BEAT_ROCKET_GRUNTM_15, GruntM15SeenText, GruntM15BeatenText
 
-	text "Hiuck-hiuck-hiuck!"
+	text "Hiuck-hiuck-hiuck"
 	line "Das war grandios!"
 	cont "Ich werde dich"
 	cont "nicht vergessen!"
 	done
+
 GoldenrodUndergroundWarehouseDirectorScript:
 	checkevent EVENT_RECEIVED_CARD_KEY
 	iftrue_jumptextfaceplayer DirectorAfterText
@@ -69,7 +71,6 @@ GoldenrodUndergroundWarehouseDirectorScript:
 GruntM24SeenText:
 	text "Wie bist du so"
 	line "weit gekommen?"
-
 	para "Ich denke, es gibt"
 	line "keine andere"
 	cont "Lösung, um dich"
@@ -77,15 +78,17 @@ GruntM24SeenText:
 	done
 
 
+
 GruntM24BeatenText:
-	text "Er wurde mich los…"
+	text "Er wurde mich los"
+	line "…"
 	done
+
 
 
 GruntM14SeenText:
 	text "Weiter kommst du"
 	line "nicht!"
-
 	para "Ich habe niemals"
 	line "Mitleid mit meinen"
 	cont "Gegnern, auch"
@@ -93,25 +96,29 @@ GruntM14SeenText:
 	done
 
 
+
 GruntM14BeatenText:
 	text "Verdammt!"
 	done
 
 
+
 GruntM15SeenText:
-	text "Hiuck-hiuck-hiuck!"
+	text "Hiuck-hiuck-hiuck"
 	line "Ich kenne dich!"
 
 	para "Du hast mich in"
 	line "unserem Versteck"
-	cont "richtig vermöbelt!"
+	cont "richtig"
 	done
+
 
 
 GruntM15BeatenText:
-	text "Hiuck-hiuck-hiuck!"
+	text "Hiuck-hiuck-hiuck"
 	line "So ist das also?"
 	done
+
 
 
 DirectorIntroText:
@@ -134,6 +141,7 @@ DirectorIntroText:
 	done
 
 
+
 DirectorCardKeyText:
 	text "INTENDANT: Damit"
 	line "kannst du den"
@@ -142,33 +150,29 @@ DirectorCardKeyText:
 	done
 
 
+
 DirectorAfterText:
 	text "Ich flehe dich an,"
 	line "uns zu helfen."
-
 	para "Niemand weiß, was"
 	line "sie vorhaben, wenn"
-
 	para "sie erst Kontrolle"
 	line "über den"
-	cont "Transmitter"
+	cont "Trans-mitter"
 	cont "erlangen."
-
 	para "Sie könnten sogar"
 	line "mit einem"
-	cont "Spezialsignal alle"
-	cont "#mon"
+	cont "Spezial-signal"
+	cont "alle #mon"
 	cont "kontrollieren!"
-
 	para "Bitte hilf mir! Du"
 	line "bist meine letzte"
 	cont "Rettung."
-
 	para "Bitte rette den"
-	line "RADIOTURM…"
-
+	line "RADIOTURM …"
 	para "Und alle #mon"
 	line "in diesem Land!"
 	done
+
 
 

@@ -1,16 +1,13 @@
 KenjiAskNumber1Text:
 	text "Unser Kampf war"
 	line "bemerkenswert!"
-
-	para "Ich will etwas zur"
-	line "Erinnerung!"
-
+	para "Ich will etwas"
+	line "zur Erinnerung!"
 	para "Vielleicht deine"
 	line "Nummer? Training"
-
 	para "lässt wenig Zeit"
 	line "zum Quatschen,"
-	cont "aber…"
+	cont "aber …"
 	done
 
 KenjiAskNumber2Text:
@@ -23,8 +20,8 @@ KenjiAskNumber2Text:
 
 KenjiNumberAcceptedText:
 	text "Ich muss härter"
-	line "trainieren, um der"
-	cont "Stärkste zu"
+	line "trainieren, um"
+	cont "der Stärkste zu"
 	cont "werden!"
 	done
 
@@ -36,7 +33,8 @@ KenjiNumberDeclinedText:
 
 KenjiPhoneFullText:
 	text "Dein Telefon ist"
-	line "voll. Komm später!"
+	line "voll. Komm"
+	cont "später!"
 	done
 
 KenjiGiftText:
@@ -53,10 +51,10 @@ KenjiGiftText:
 	done
 
 KenjiPackFullText:
-	text "Deine Stärke lässt"
-	line "dich nichts mehr"
-	cont "tragen!"
-
+	text "Deine Stärke"
+	line "lässt dich nichts"
+	cont "mehr tragen!"
 	para "Ich behalte es,"
-	line "bis du Platz hast!"
+	line "bis du Platz"
+	cont "hast!"
 	done

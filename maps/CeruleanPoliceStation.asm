@@ -22,7 +22,6 @@ CeruleanPoliceStationFishingGuruText:
 	cont "zwielichtiger Typ"
 	cont "herumschleichen"
 	cont "soll."
-
 	para "Ich werde nicht"
 	line "still halten, wenn"
 	cont "sich herausstellt,"

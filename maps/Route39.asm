@@ -121,8 +121,9 @@ GenericTrainerPokefanfRuth:
 	cont "Bescheid?"
 
 	para "Die sind bestimmt"
-	line "super-süß!"
+	line "supersüß!"
 	done
+
 Route39CowgirlAnnieScript:
 	checkevent EVENT_GOT_PP_MAX_FROM_ROUTE_39_LEADER
 	iftrue_jumptextfaceplayer .AfterText2
@@ -182,21 +183,16 @@ Route39CowgirlAnnieScript:
 .IntroText:
 	text "Hey! Erschreck die"
 	line "MILTANK nicht!"
-
-	para "…Ach, du willst"
+	para "… Ach, du willst"
 	line "kämpfen?"
-
 	para "Ich arbeite gerade"
-	line "auf dem Hof…"
-
+	line "auf dem Hof …"
 	para "Pass auf: Besieg"
 	line "alle anderen von"
 	cont "TEAK CITY bis"
 	cont "OLIVIANA CITY,"
-
 	para "dann kämpfe ich"
 	line "gegen dich."
-
 	para "Manche wollen nur"
 	line "nachts kämpfen."
 	done
@@ -204,17 +200,13 @@ Route39CowgirlAnnieScript:
 .QuestionText:
 	text "Ich bin mit meinen"
 	line "Pflichten fertig,"
-
 	para "und du hast diese"
 	line "Routen geräumt."
-
 	para "Mein Team hat JENS"
 	line "besiegt,"
-
 	para "und ich glaube,"
 	line "wir schaffen es"
 	cont "auch gegen dich."
-
 	para "Was meinst du?"
 	done
 
@@ -251,26 +243,26 @@ GenericTrainerSailorEugene:
 	text "Meine #mon"
 	line "wurden eingefangen"
 	cont "und sind im"
-	cont "Ausland aufgezogen"
-	cont "worden."
-
+	cont "Ausland"
+	cont "aufgezogen worden."
 	para "Sie begleiten mich"
 	line "auf meinen langen"
 	cont "Reisen."
 	done
+
 GenericTrainerPsychicNorman:
 	generictrainer PSYCHIC_T, NORMAN, EVENT_BEAT_PSYCHIC_NORMAN, PsychicNormanSeenText, PsychicNormanBeatenText
 
 	text "Du weißt von den"
 	line "unterschiedlichen"
 	cont "#-Fähigkeiten?"
-
 	para "Bei den Menschen"
 	line "ist das ganz"
 	cont "ähnlich. Jeder hat"
 	cont "unterschiedliche"
 	cont "Talente."
 	done
+
 TrainerPokefanfJaime:
 	faceplayer
 	opentext
@@ -294,28 +286,24 @@ TrainerPokefanfJaime:
 	text "Ich traf MAUZI"
 	line "NACHTs, genau hier"
 	cont "auf ROUTE 39."
-
 	para "Ich weiß nicht"
 	line "warum, aber es"
-
 	para "scheint es zu"
 	line "mögen, wenn ich"
 	cont "hier trainiere."
-
 	para "Es scheint mich"
 	line "durch das Training"
-
 	para "hier mehr zu"
 	line "mögen, als wenn"
-
 	para "ich woanders"
 	line "trainiere."
 	done
 .NotNight:
 	jumpthisopenedtext
 
-	text "Ufu… Ich hoffe, es"
-	line "wird bald dunkel."
+	text "Ufu … Ich hoffe,"
+	line "es wird bald"
+	cont "dunkel."
 	done
 Route39MiltankText:
 	text "MILTANK: Muh!"
@@ -326,15 +314,16 @@ Route39MiltankText:
 
 
 
+
 SailorEugeneSeenText:
 	text "Ich bin gerade"
 	line "wieder in OLIVIANA"
 	cont "angekommen."
-
 	para "Wie steht es nun"
-	line "mit dem #mon-"
-	cont "Kampf?"
+	line "mit dem"
+	cont "#mon-Kampf?"
 	done
+
 
 
 
@@ -344,6 +333,7 @@ SailorEugeneSeenText:
 SailorEugeneBeatenText:
 	text "Aah!"
 	done
+
 
 
 
@@ -364,10 +354,8 @@ PokefanMDerekText_NotBragging:
 	text "Ich höre mir deine"
 	line "Prahlerei gar"
 	cont "nicht an!"
-
-	para "Wir #-FANS"
+	para "Wir # -FANS"
 	line "haben ein Gelübde,"
-
 	para "das uns verbietet,"
 	line "Leuten beim"
 	cont "Prahlen zuzuhören!"
@@ -378,15 +366,15 @@ PokefanMDerekText_NotBragging:
 
 
 
+
 PokefanfRuthSeenText:
 	text "Was für süße"
-	line "#mon!"
-
 	para "Zeigen wir uns"
 	line "gegenseitig unsere"
 	cont "#mon, und zwar"
 	cont "gleichzeitig!"
 	done
+
 
 
 
@@ -404,6 +392,7 @@ PokefanfRuthBeatenText:
 
 
 
+
 PsychicNormanSeenText:
 	text "Zeig doch mal, was"
 	line "deine #mon"
@@ -415,10 +404,12 @@ PsychicNormanSeenText:
 
 
 
+
 PsychicNormanBeatenText:
 	text "He, deine #mon"
 	line "sind sehr fähig!"
 	done
+
 
 
 
@@ -437,8 +428,9 @@ PokefanfJaimeSeenText:
 
 
 
+
 PokefanfJaimeBeatenText:
-	text "Ach, wie"
+	text "Oh, wie"
 	line "ernüchternd…"
 	done
 
@@ -447,16 +439,15 @@ PokefanfJaimeBeatenText:
 
 
 
+
 Route39BeautyText:
 	text "Was ist höher: der"
-	line "Glockenturm in"
-	cont "ECRUTEAK CITY,"
-
+	line "Zinnturm in"
+	cont "TEAK CITY,"
 	para "oder der"
 	line "Leuchtturm in"
 	cont "OLIVIANA CITY?"
-
-	para "Der Glockenturm,"
+	para "Der Zinnturm,"
 	line "ohne Zweifel!"
 	done
 
@@ -465,36 +456,30 @@ Route39HikerText:
 	line "OLIVIANA CITY"
 	cont "liegt Johtos"
 	cont "Grenze!"
-
 	para "Ein harter Marsch"
 	line "durch raues"
 	cont "Gelände, dann"
-
 	para "einen eisigen Berg"
-	line "erklimmen…"
-
+	line "erklimmen …"
 	para "Ich hab gehört,"
 	line "manche #mon"
-
 	para "haben sich an das"
 	line "raue Klima"
 	cont "angepasst."
-
 	para "Aber ohne"
 	line "Go-Brille zur"
 	cont "Sicherheit"
-
 	para "kann ich die"
 	line "Wanderung nicht"
-	cont "mal anfangen…"
+	cont "mal anfangen …"
 	done
 
 Route39SignText:
 	text "ROUTE 39"
-
-	para "OLIVIANA CITY -"
-	line "TEAK CITY"
+	para "OLIVIANA CITY"
+	line "-TEAK CITY"
 	done
+
 
 
 
@@ -503,11 +488,9 @@ Route39SignText:
 
 Route39AdvancedTips1Text:
 	text "PROFI-TIPPS!"
-
 	para "Sandstürme erhöhen"
 	line "die Spezial-Vert."
 	cont "von Stein-#mon!"
-
 	para "Und Hagel erhöht"
 	line "die Verteidigung"
 	cont "von Eis-#mon!"
@@ -515,27 +498,23 @@ Route39AdvancedTips1Text:
 
 Route39AdvancedTips2Text:
 	text "PROFI-TIPPS!"
-
 	para "Ein #mon mit"
 	line "Facettenauge"
-
 	para "oder einem"
 	line "Münzamulett trifft"
-
 	para "eher auf wilde"
 	line "#mon mit Item!"
 	done
 
 RuggedRoadAheadSignText:
-	text "Rugged Road voraus"
-
-	para "Norden zum Snowtop"
-	line "Mountain"
+	text "Holprige Straße"
+	line "voraus"
+	para "Norden zum"
+	line "Schneegipfel"
 	done
 
 MoomooFarmSignText:
 	text "KUHMUH-FARM"
-
 	para "Unsere Bekömmliche"
 	line "Milch Ist Sehr"
 	cont "Erfrischend"
@@ -546,22 +525,21 @@ MoomooFarmSignText:
 
 
 
+
 Route39TrainerTipsText:
 	text "TIPPS für TRAINER"
 	line "Benutze KOPFNUSS,"
-
 	para "um #mon aus den"
 	line "Bäumen zu"
 	cont "schütteln."
-
 	para "Auf den Bäumen"
 	line "leben verschiedene"
 	cont "Arten von #mon."
-
 	para "Benutze KOPFNUSS"
 	line "an jedem Baum, den"
 	cont "du siehst!"
 	done
+
 
 
 

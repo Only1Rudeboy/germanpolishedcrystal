@@ -168,12 +168,13 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Allo! Bist du ein"
-
-	para "Trainer? Hast du"
-	line "den ARENALEITER"
-	cont "besiegt?"
+	text "Allo! Bist du eine"
+	para "Trainer? Ast du"
+	line "gewonnen in dem"
+	para "Kampf gegen den"
+	line "ARENALEITER?"
 	done
+
 
 
 
@@ -185,6 +186,7 @@ Text_FollowEarl:
 	line "sollst du! Folge"
 	cont "mir!"
 	done
+
 
 
 
@@ -203,11 +205,11 @@ Text_HereTeacherIAm:
 
 
 
+
 Text_EarlsTypeChart:
 	text "Im Kampf musst du"
 	line "Typen-Vorteile"
 	cont "kennen!"
-
 	para "Schau jederzeit"
 	line "auf diese Tabelle!"
 	done
@@ -216,11 +218,9 @@ VioletCityLassText:
 	text "Man sagt, dass im"
 	line "KNOFENSA-TURM"
 	cont "Geister umgehen."
-
 	para "#mon-Attacken"
 	line "des Typs Normal"
 	cont "zeigen bei"
-
 	para "Geistern keine"
 	line "Wirkung."
 	done
@@ -230,15 +230,14 @@ VioletCityLassText:
 
 
 
+
 VioletCityCooltrainerM1Text:
 	text "Hey, bist du ein"
 	line "#mon-Trainer?"
-
 	para "Schlägst du den"
-	line "hiesigen ARENA-"
-	cont "LEITER, dann"
+	line "hiesigen"
+	cont "ARENA-LEITER, dann"
 	cont "darfst du dich"
-
 	para "bald zur Elite"
 	line "zählen!"
 	done
@@ -246,30 +245,25 @@ VioletCityCooltrainerFText:
 	text "Knofensa ist ein"
 	line "beliebtes #mon"
 	cont "in dieser Stadt."
-
 	para "Gegen unseren"
 	line "Arenaleiter"
-
 	para "kommt er aber"
-	line "nicht gut an…"
+	line "nicht gut an …"
 	done
 
 VioletCityGrampsText:
 	text "FALK von der"
-	line "#mon-ARENA in"
-
-	para "VIOLA CITY ist ein"
-	line "großartiger"
-	cont "Trainer!"
-
-	para "Er hat die"
-	line "#mon-ARENA"
-	cont "seines Vaters"
-	cont "geerbt und"
-
-	para "hat dort sehr gute"
-	line "Arbeit geleistet."
+	line "#mon-Arena in"
+	cont "Viola City ist"
+	para "ein großartiger"
+	line "Trainer!"
+	para "Er hat die Arena"
+	line "seines Vaters"
+	cont "geerbt und dort"
+	para "sehr gute Arbeit"
+	line "geleistet."
 	done
+
 
 
 
@@ -280,7 +274,6 @@ VioletCityYoungsterText:
 	text "Ich habe einen"
 	line "wackeligen Baum"
 	cont "gesehen!"
-
 	para "Wenn du ihn"
 	line "berührst, windet"
 	cont "er sich und tanzt!"
@@ -292,28 +285,27 @@ VioletCityYoungsterText:
 
 
 
+
 VioletCityFisherText:
 	text "Wie kann so ein"
 	line "wackeliges Gebäude"
-
-	para "ein Erdbeben"
-	line "überstehen? Ich"
-	cont "muss was"
-	cont "übersehen."
+	cont "ein Erdbeben"
+	cont "überstehen?"
+	para "Ich muss was"
+	line "übersehen."
 	done
 
 VioletCityCooltrainerM2Text:
 	text "Uns liegt viel an"
 	line "den alten Gebäuden"
 	cont "hier."
-
-	para "Selbst der"
-	line "#markt und das"
-	cont "#MON-CENTER"
-
-	para "sind gedämpft"
-	line "angemalt, damit"
-	cont "sie sich einfügen."
+	para "Selbst der Markt"
+	line "und das"
+	cont "#mon-Center"
+	cont "sind"
+	para "gedämpft bemalt,"
+	line "damit sie sich"
+	cont "einfügen."
 	done
 
 VioletCitySignText:
@@ -328,16 +320,16 @@ VioletCitySignText:
 
 
 
+
 VioletGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "VIOLA CITY"
-
-	para "LEITUNG: FALK Der"
-	line "elegante"
-
-	para "Meister der Flug-"
-	line "#mon"
+	cont "LEITUNG: FALK"
+	para "Der elegante"
+	line "Meister der Flug-"
+	cont "#mon"
 	done
+
 
 
 
@@ -356,10 +348,12 @@ SproutTowerSignText:
 
 
 
+
 EarlsPokemonAcademySignText:
 	text "EARLs"
 	line "#mon-AKADEMIE"
 	done
+
 
 
 

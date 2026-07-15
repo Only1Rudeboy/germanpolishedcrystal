@@ -55,13 +55,12 @@ GoldenRodDeptStoreUnblockCallback:
 GoldenrodDeptStoreB1FBlackBelt1Text:
 	text "Hey! Du hältst uns"
 	line "auf!"
-
 	para "Wir arbeiten stets"
 	line "im Hintergrund,"
-
 	para "damit uns niemand"
 	line "sieht!"
 	done
+
 
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
@@ -69,25 +68,25 @@ GoldenrodDeptStoreB1FBlackBelt2Text:
 	line "Lust am Arbeiten,"
 	cont "wenn mir jemand"
 	cont "zusieht."
-
 	para "Hey, Gnom, zisch"
 	line "ab!"
 	done
 
 
+
 GoldenrodDeptStoreB1FBlackBelt3Text:
 	text "Oohah! Oohah!"
-
 	para "Das Zeug am Boden"
 	line "ist Plunder."
-
 	para "Nimm es dir, wenn"
 	line "du möchtest!"
 	done
 
 
+
 GoldenrodDeptStoreB1FMachokeText:
 	text "MASCHOCK: Mascho!"
 	done
+
 
 

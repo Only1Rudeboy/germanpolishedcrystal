@@ -76,121 +76,92 @@ BlackthornGymClairScript:
 	end
 
 .IntroText:
-	text "Ich bin Sandra."
-
+	text "Ich bin SANDRA."
 	para "Die weltbeste"
-	line "Drachenmeisterin."
-
-	para "Ich kann es sogar"
-	line "mit der Top Vier"
-	cont "der #mon-Liga"
-
-	para "aufnehmen."
-
-	para "Willst du dich"
-	line "immer noch mit mir"
-	cont "messen?"
-
-	para "…Gut. Dann los!"
-
-	para "Als Arenaleiterin"
-	line "setze ich meine"
-	cont "volle Kraft gegen"
-
-	para "jeden Gegner ein!"
+	line "Drachen-Trainerin!"
+	para "Ich kann mich als"
+	line "ARENALEITERIN von"
+	cont "EBENHOLZ CITY"
+	cont "sehen lassen."
+	para "…Soll ich dir"
+	line "etwas erzählen?"
+	para "Drachen-#mon"
+	line "sind heilig. Sie"
+	cont "sind schwer zu"
+	cont "fangen und zu"
+	cont "erziehen."
+	para "Bist du sicher,"
+	line "dass du bereit"
+	cont "bist?"
+	para "Nun gut. Ich zeige"
+	line "dir die Kraft der"
+	cont "Drachen!"
 	done
-
 .WinText:
 	text "Ich habe verloren?"
-
-	para "Das glaub ich"
-	line "nicht. Das muss"
-	cont "ein Irrtum sein…"
+	para "Das… das darf"
+	line "nicht sein. Das"
+	cont "muss ein Irrtum"
+	cont "sein…"
 	done
-
 .GoToDragonsDenText:
 	text "Das gebe ich nicht"
 	line "zu."
-
 	para "Ich habe"
 	line "vielleicht"
 	cont "verloren, aber du"
-
-	para "bist noch nicht"
-	line "bereit für die"
+	cont "bist noch nicht"
+	cont "bereit für die"
 	cont "#mon-Liga."
-
-	para "Ich weiß. Du"
+	para "Ich weiß: Du"
 	line "solltest die"
 	cont "Drachenmeister-"
-
-	para "Prüfung wagen."
-
+	cont "Prüfung wagen."
 	para "Hinter dieser"
-	line "Arena liegt ein"
-	cont "Ort namens"
-
-	para "Drachenhöhle."
-
+	line "Arena liegt die"
+	cont "DRACHENHÖHLE."
 	para "In ihrer Mitte"
-	line "gibt es einen"
-	cont "kleinen Schrein."
-
+	line "steht ein kleiner"
+	cont "Schrein."
 	para "Geh dorthin."
-
 	para "Wenn du beweist,"
 	line "dass du deine"
 	cont "faulen Ideale"
-
-	para "abgelegt hast,"
-	line "erkenne ich dich"
-
-	para "als würdigen"
-	line "Trainer für einen"
-
-	para "Arenaorden an!"
+	cont "abgelegt hast,"
+	cont "erkenne ich dich"
+	cont "als würdigen"
+	cont "Trainer für einen"
+	cont "Arenaorden an!"
 	done
-
 .TooMuchToExpectText:
 	text "Was ist los?"
-
 	para "Ist das zu viel"
 	line "von dir verlangt?"
 	done
-
 ClairPokemonLeagueDirectionsText:
 	text "Was ist los?"
-
 	para "Willst du nicht"
 	line "zur #mon-Liga?"
-
 	para "Weißt du, wie man"
 	line "dahin kommt?"
-
 	para "Von hier aus geh"
-	line "nach Neuborkia."
+	line "nach NEUBORKIA."
 	cont "Dann surf nach"
-
-	para "Osten."
-
+	cont "Osten."
 	para "Der Weg dorthin"
 	line "ist sehr hart."
-
 	para "Wag es ja nicht,"
-	line "bei der #mon-"
-	cont "Liga zu verlieren!"
-
-	para "Sonst fühl ich"
+	line "bei der"
+	cont "#mon-Liga zu"
+	cont "verlieren!"
+	para "Sonst fühle ich"
 	line "mich noch"
 	cont "schlechter, dass"
-
-	para "ich gegen dich"
-	line "verloren hab!"
-
+	cont "ich gegen dich"
+	cont "verloren habe!"
 	para "Gib alles, was du"
 	line "hast."
 	done
-
 BlackthornGymGuyScript:
 	checkevent EVENT_BEAT_CLAIR
 	iftrue_jumptextfaceplayer .WinText
@@ -198,54 +169,42 @@ BlackthornGymGuyScript:
 
 	text "Yo! Zukünftiger"
 	line "Champ!"
-
 	para "Es war eine lange"
 	line "Reise, aber wir"
 	cont "sind fast fertig!"
-
 	para "Verlass dich auf"
 	line "mich!"
-
-	para "Sandra nutzt"
+	para "SANDRA nutzt"
 	line "mythische, heilige"
-	cont "Drachen-"
-
-	para "#mon."
-
+	cont "Drachen-#mon."
 	para "Denen kann man"
 	line "nicht leicht"
 	cont "schaden."
-
-	para "Aber weißt du, sie"
+	para "Aber weißt du -sie"
 	line "sollen schwach"
-	cont "gegen Eis-"
-
-	para "Attacken sein."
+	cont "gegen Eis-Attacken"
+	cont "sein."
 	done
 
 .WinText:
 	text "Toll, dass du"
-	line "Sandra besiegt"
+	line "SANDRA besiegt"
 	cont "hast!"
-
 	para "Übrig bleibt nur"
-	line "noch die #mon-"
-	cont "Liga."
-
+	line "noch die"
+	cont "#mon-Liga."
 	para "Du bist auf dem"
-	line "Weg, #mon-"
-	cont "Champion zu"
-
-	para "werden!"
+	line "Weg,"
+	cont "#mon-Champion"
+	cont "zu werden!"
 	done
 
 GenericTrainerDragonTamerPaul:
 	generictrainer DRAGON_TAMER, PAUL, EVENT_BEAT_DRAGON_TAMER_PAUL, .SeenText, .BeatenText
 
-	text "Siegfried sagte,"
+	text "SIEGFRIED sagte,"
 	line "er würde dich gern"
 	cont "wiedersehen?"
-
 	para "Auf keinen Fall!"
 	done
 
@@ -258,30 +217,34 @@ GenericTrainerDragonTamerPaul:
 	done
 
 .BeatenText:
-	text "Meine Drachen-"
-	line "#mon haben"
-	cont "verloren?"
+	text "Meine"
+	line "Drachen-#mon"
+	cont "haben verloren?"
 	done
 
 GenericTrainerCooltrainermMike:
 	generictrainer COOLTRAINERM, MIKE, EVENT_BEAT_COOLTRAINERM_MIKE, .SeenText, .BeatenText
 
-	text "Jetzt kenne ich"
-	line "meine Schwächen."
-
-	para "Danke, dass du sie"
-	line "mir gezeigt hast!"
+	text "Ich kenne jetzt"
+	line "meine"
+	cont "Schwachstel-len."
+	cont "Danke für den"
+	cont "Hinweis!"
 	done
+
 
 .SeenText:
-	text "Meine Chance zu"
-	line "verlieren? Nicht"
-	cont "mal ein Prozent!"
+	text "Die Chancen, gegen"
+	line "dich zu verlieren?"
+	cont "Nicht mal ein"
+	cont "Prozent!"
 	done
 
+
 .BeatenText:
-	text "Seltsam."
+	text "Hm, eigenartig."
 	done
+
 
 GenericTrainerCooltrainerfLola:
 	generictrainer COOLTRAINERF, LOLA, EVENT_BEAT_COOLTRAINERF_LOLA, .SeenText, .BeatenText
@@ -291,20 +254,20 @@ GenericTrainerCooltrainerfLola:
 	cont "Drachen-Attacken."
 	done
 
+
 .SeenText:
 	text "Drachen sind"
 	line "heilige #mon."
-
-	para "Sie stecken voller"
+	para "Sie sind voller"
 	line "Lebensenergie."
-
 	para "Wenn du es nicht"
-	line "ernst meinst,"
-	cont "wirst du sie nicht"
-
-	para "besiegen können."
+	line "ernst meinst, dann"
+	para "wirst du sie nicht"
+	line "besiegen können."
 	done
+
 
 .BeatenText:
-	text "Gut gemacht!"
+	text "Großartig!"
 	done
+

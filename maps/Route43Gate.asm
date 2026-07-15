@@ -191,9 +191,11 @@ RocketText_TollFee:
 	done
 
 
+
 RocketText_ThankYou:
 	text "Vielen Dank!"
 	done
+
 
 
 RocketText_AllYouGot:
@@ -202,16 +204,16 @@ RocketText_AllYouGot:
 	done
 
 
+
 RocketText_MakingABundle:
 	text "Ha, ha, ha. Wir"
 	line "machen viel Geld."
-
 	para "Jeder möchte"
 	line "wissen, was los"
-
 	para "ist am SEE DES"
 	line "ZORNS."
 	done
+
 
 
 OfficerText_FoundTM:
@@ -220,10 +222,8 @@ OfficerText_FoundTM:
 	cont "Schwarz haben mich"
 	cont "von meinem Posten"
 	cont "verjagt."
-
 	para "Sie haben das hier"
 	line "zurückgelassen."
-
 	para "Ich bekomme bei"
 	line "diesem Ding eine"
 	cont "Gänsehaut. Kannst"
@@ -233,10 +233,12 @@ OfficerText_FoundTM:
 
 
 
+
 Text_ReceivedTM30: ; unreferenced
 	text "<PLAYER> erhält"
 	line "TM30."
 	done
+
 
 
 OfficerText_AvoidGrass:
@@ -244,5 +246,6 @@ OfficerText_AvoidGrass:
 	line "Tor. Dann meidest"
 	cont "du das Gras."
 	done
+
 
 

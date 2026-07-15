@@ -1,4 +1,4 @@
-; Huffman-Baum fuer Textkompression — wird beim Assemblieren erzeugt.
+; Huffman-Baum fuer Textkompression - wird beim Assemblieren erzeugt.
 ; Nicht manuell bearbeiten! Nach Aenderungen an ngrams/charmap: `make` ausfuehren.
 
 DEF num_parent_nodes = ROOT_NODE_ID

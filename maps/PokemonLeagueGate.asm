@@ -49,35 +49,29 @@ VictoryRoadGateOfficerText:
 	line "sich bewiesen"
 	cont "haben, dürfen"
 	cont "passieren."
-
 	para "Du hast die"
-	line "JOHTO-"
-	cont "Arena-Heraus-"
-	cont "forderung"
+	line "JOHTO-Arena-"
+	cont "Herausforderung"
 	cont "bestanden?"
-
 	para "Die Wachen prüfen"
 	line "deine ORDEN."
-
 	para "Geh weiter."
 	done
 
 VictoryRoadGateLeftBlackBeltText:
 	text "Dieser Weg führt"
 	line "zum SILBERBERG."
-
-	para "Dir werden be-"
-	line "ängstigend starke"
-	cont "#mon begegnen."
+	para "Dir werden"
+	line "beängstigend"
+	cont "starke #mon"
+	cont "begegnen."
 	done
 VictoryRoadGateRightBlackBeltText:
 	text "Du bist auf dem"
 	line "Weg zur #mon"
 	cont "LIGA, nicht wahr?"
-
 	para "Die TOP VIER sind"
 	line "so stark, dass es"
-
 	para "einem Angst macht."
 	line "Sie erwarten dich!"
 	done

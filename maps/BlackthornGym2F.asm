@@ -66,49 +66,53 @@ GenericTrainerCooltrainermCody:
 	generictrainer COOLTRAINERM, CODY, EVENT_BEAT_COOLTRAINERM_CODY, .SeenText, .BeatenText
 
 	text "Mitglieder unseres"
-	line "Drachen-Klans"
-	cont "dürfen"
-
-	para "Drachen-#mon"
-	line "erst nutzen, wenn"
-	cont "unser Meister es"
-
-	para "erlaubt."
+	line "Drachenklans"
+	para "dürfen"
+	line "Drachen-#mon"
+	cont "erst"
+	para "einsetzen, wenn es"
+	line "unser MEISTER"
+	cont "erlaubt."
 	done
+
 
 .SeenText:
 	text "Es ist nicht so,"
-	line "dass wir alle"
+	line "als würden wir"
+	cont "alle"
 	cont "Drachen-#mon"
-
-	para "nutzen."
+	cont "einsetzen."
 	done
+
 
 .BeatenText:
-	text "Mist! Hätte ich"
-	line "nur einen Drachen!"
+	text "Mist! Wenn ich"
+	line "doch nur einen"
+	cont "Drachen hätte!"
 	done
+
 
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Uh-oh… Sandra wird"
-	line "sauer sein…"
+	text "Oh-oh… SANDRA wird"
+	line "durchdrehen…"
 	done
+
 
 .SeenText:
-	text "Ich kann keinen"
-	line "unbekannten"
-	cont "Trainer vor-"
-
-	para "beilassen!"
-
-	para "Sandra wäre"
-	line "stinksauer, wenn"
-	cont "ich's täte!"
+	text "Ich kann es nicht"
+	line "zulassen, dass ein"
+	para "unwichtiger"
+	line "Trainer an mir"
+	cont "vorbei-kommt!"
+	para "SANDRA wäre außer"
+	line "sich, wenn ich"
+	cont "dies zulasse!"
 	done
+
 
 .BeatenText:
-	text "Ohh… ich hab"
-	line "verloren…"
+	text "Awww… verloren…"
 	done
+

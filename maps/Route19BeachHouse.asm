@@ -48,9 +48,7 @@ Route19BeachHouseVictorScript:
 
 	text "Du kannst es auch!"
 	line "Los, finde ein"
-
 	para "Surf-Pikachu!"
-
 	para "Zeig mir, dass du"
 	line "Surfen genauso"
 	cont "liebst wie ich!"
@@ -62,25 +60,21 @@ Route19BeachHouseVictorScript:
 .GreetingText:
 	text "Hey, Kumpel! Ich"
 	line "bin Victor."
-
 	para "Ich liebe Surfen,"
 	line "und Puka auch. Das"
 	cont "ist mein Pikachu!"
 	done
 
 .ChallengeText:
-	text "Whoa!"
-
+	text "Huch!"
 	para "Dein Pikachu kann"
 	line "Surfen! Ich bin"
-	cont "also nicht allein…"
-
+	cont "also nicht allein"
+	cont "…"
 	para "Super! Du hast dir"
 	line "einen Surf-Kampf"
-
 	para "mit mir und Puka"
 	line "verdient!"
-
 	para "Willst du es"
 	line "versuchen?"
 	done
@@ -100,21 +94,16 @@ Route19BeachHouseVictorScript:
 	text "Ich habe gehört,"
 	line "dass manche"
 	cont "Pikachu"
-
 	para "in Johto Surfen"
 	line "selbst gelernt"
 	cont "haben."
-
 	para "Vielleicht kommt"
 	line "meins von dort."
-
 	para "Ich fand Puka vor"
 	line "Jahren angespült"
 	cont "am Strand, und"
 	cont "seitdem"
-
-	para "sind wir"
-	line "Partner."
+	para "sind wir Partner."
 	done
 
 

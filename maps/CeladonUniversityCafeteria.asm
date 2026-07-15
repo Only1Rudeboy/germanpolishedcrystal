@@ -69,9 +69,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	text "Du wärst ein"
 	line "Star-Student, wenn"
 	cont "du dich hier"
-
 	para "einschreibst."
-
 	para "Aber du hast"
 	line "andere Ziele,"
 	cont "oder?"
@@ -97,14 +95,11 @@ CeladonUniversityCafeteriaCoreyScript:
 	text "Ich bin Corey!"
 	line "Einer der"
 	cont "Prismanias Vier!"
-
 	para "Du forderst uns"
 	line "alle vier heraus?"
-
 	para "Klar, ich bin hier"
 	line "eh fertig mit"
 	cont "Essen."
-
 	para "Bereit für den"
 	line "Kampf?"
 	done
@@ -126,14 +121,11 @@ CeladonUniversityCafeteriaCoreyScript:
 
 .AfterText1:
 	text "Du bist stark!"
-
 	para "Aber ich bin nur"
 	line "einer der"
 	cont "Prismanias Vier."
-
 	para "Sucht die anderen,"
 	line "um deine Stärke"
-
 	para "wirklich zu"
 	line "testen!"
 	done
@@ -156,13 +148,12 @@ CeladonUni_NoRoomText:
 
 CeladonUniversityCafeteriaCooltrainerfText:
 	text "Hier gibt's die"
-	line "besten Hamburger-"
-	cont "Steaks im"
-
+	line "besten"
+	cont "Hamburger-Steaks"
+	cont "im"
 	para "Zinnober-Stil"
 	line "diesseits von"
 	cont "Kanto!"
-
 	para "Fühlt sich an wie"
 	line "zuhause."
 	done
@@ -182,7 +173,6 @@ CeladonUniversityCafeteriaYoungster1Text:
 	text "Ich bat die Mensa,"
 	line "Stratos-Eis zu"
 	cont "führen."
-
 	para "Es erinnert mich"
 	line "an daheim, und"
 	cont "schmeckt lecker!"
@@ -258,7 +248,7 @@ CeladonUniversityCafeteriaBakerScript:
 	text "Was denn,"
 	line "Schätzchen?"
 
-	para "Sorry, das"
+	para "Tut mir leid, das"
 	line "Abendessen ist"
 	cont "vorbei."
 

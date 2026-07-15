@@ -55,7 +55,6 @@ GenericTrainerCooltrainermNick:
 	line "ist imposant und"
 	cont "abwechslungsreich,"
 	cont "das gebe ich zu."
-
 	para "Du wirst immer"
 	line "besser!"
 	done
@@ -82,10 +81,8 @@ CooltrainermNickSeenText:
 	text "Es gibt zwei"
 	line "verschiedene Arten"
 	cont "von Menschen."
-
 	para "Jene mit Stil und"
 	line "jene ohne."
-
 	para "Zu welcher zählst"
 	line "du dich?"
 	done
@@ -127,7 +124,6 @@ CooltrainerfEmmaSeenText:
 	line "Lieblings-#mon"
 	cont "würde ich überall"
 	cont "hingehen."
-
 	para "Das würde jeder"
 	line "wahre Trainer tun."
 	done

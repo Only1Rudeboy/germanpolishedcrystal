@@ -101,7 +101,7 @@ CeladonCafeFisher3:
 	end
 
 ChefText_Eatathon:
-	text "Hi!"
+	text "Hallo!"
 
 	para "Wir veranstalten"
 	line "gerade einen"
@@ -109,7 +109,8 @@ ChefText_Eatathon:
 
 	para "Wir können dich"
 	line "jetzt nicht"
-	cont "bedienen. Sorry."
+	cont "bedienen."
+	para "Tut mir leid."
 	done
 
 Fisher1Text_Snarfle:
@@ -132,7 +133,6 @@ Fisher2Text_Quantity:
 	text "Mir ist Menge"
 	line "wichtiger als"
 	cont "Qualität!"
-
 	para "Ich bin glücklich,"
 	line "wenn ich satt bin!"
 	done
@@ -146,7 +146,6 @@ Fisher3Text_GoldenrodIsBest:
 	line "gut, aber in"
 	cont "Dukatia City"
 	cont "gibt's"
-
 	para "das beste Essen"
 	line "überhaupt."
 	done
@@ -164,8 +163,8 @@ TeacherText_NoCoinCase:
 	done
 
 TeacherText_KeepEating:
-	text "Knabber… Knabber…"
-
+	text "Knabber … Knabber"
+	line "…"
 	para "Ich kann noch mehr"
 	line "essen!"
 	done
@@ -176,37 +175,30 @@ TeacherText_MoreChef:
 
 MayleneText1:
 	text "Hilda: Mampf mampf"
-	line "mampf…"
+	line "mampf …"
 	done
 
 MayleneText2:
 	text "Der"
 	line "Fresswettbewerb!"
-
 	para "Ich hätte nie von"
 	line "so etwas"
 	cont "Wunderbarem"
-
 	para "geträumt."
-
 	para "Nach strenger Diät"
 	line "im Training kann"
 	cont "ich wie ein"
-
 	para "Relaxo essen."
-
 	para "Die Gewinnerin"
 	line "isst auch noch"
 	cont "umsonst."
-
 	para "Das ist ein wahr"
 	line "gewordener Traum!"
 	done
 
 MayleneText3:
 	text "Ich werde langsam"
-	line "satt…"
-
+	line "satt …"
 	para "Ähm, willst du als"
 	line "Pause mit mir"
 	cont "kämpfen?"
@@ -247,7 +239,6 @@ CeladonCafeBakerText:
 	text "Ich arbeite hier,"
 	line "weil ich jederzeit"
 	cont "essen"
-
 	para "kann. Ganz"
 	line "einfach."
 	done

@@ -90,11 +90,9 @@ TrainerSwimmerfKatie:
 
 	text "Warum ist das Meer"
 	line "blau?"
-
 	para "Man sagt, es"
 	line "spiegelt den"
-	cont "Himmel…"
-
+	cont "Himmel …"
 	para "Aber warum ist der"
 	line "Himmel blau?"
 	done
@@ -111,11 +109,11 @@ GenericTrainerSwimmermJames:
 GoldenrodHarborMagikarpScript:
 	jumpthistext
 
-	text "Das ist ein Fisch-"
-	line "#mon! Huh?"
-
+	text "Das ist ein"
+	line "Fisch-#mon!"
+	cont "Huh?"
 	para "Es ist nur eine"
-	line "Puppe…"
+	line "Puppe …"
 	done
 
 GoldenrodHarborPokefanmScript:
@@ -301,15 +299,12 @@ GoldenrodHarborSailboatScript:
 GoldenrodHarborFisherText:
 	text "Beim Angeln muss"
 	line "man leise sein,"
-
 	para "damit man die"
 	line "#mon nicht"
 	cont "verscheucht."
-
 	para "Aber über die"
 	line "Wellen hinweg muss"
 	cont "man"
-
 	para "schon laut sein,"
 	line "wenn man gehört"
 	cont "werden will!"
@@ -319,7 +314,7 @@ Text_GoldenrodHarborTutorHyperVoice:
 	text "Ich bringe deinem"
 	line "#mon Hyper"
 
-	para "Voice bei — für"
+	para "Voice bei - für"
 	line "ein Silberblatt."
 	done
 
@@ -336,7 +331,6 @@ FisherPatonSeenText:
 	text "Der Fisch, den ich"
 	line "gefangen habe,"
 	cont "hing"
-
 	para "an einem anderen"
 	line "#mon!"
 	done
@@ -366,7 +360,8 @@ SwimmermJamesSeenText:
 
 SwimmermJamesBeatenText:
 	text "Vielleicht kann"
-	line "ich nicht kämpfen…"
+	line "ich nicht kämpfen"
+	cont "…"
 	done
 
 GoldenrodHarborDollVendorText:
@@ -478,13 +473,10 @@ GoldenrodHarborSignText:
 
 GoldenrodHarborAdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Manchmal hast du"
 	line "Glück an einem"
-
 	para "Automaten und"
 	line "bekommst zwei"
-
 	para "Getränke zum Preis"
 	line "von einem!"
 	done

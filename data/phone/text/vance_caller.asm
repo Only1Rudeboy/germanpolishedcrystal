@@ -10,10 +10,10 @@ VanceMonHasBecomeTougherText:
 VanceDefeatedMonText:
 	text "Wir besiegen "
 	text_ram wStringBuffer4
-	text " leicht!"
-
-	para "…Häh? Du auch? Ist"
-	line "das nicht toll?"
+	text "leicht!"
+	para "… Häh? Du auch?"
+	line "Ist das nicht"
+	cont "toll?"
 	done
 
 VanceLostAMonText:
@@ -41,7 +41,7 @@ VanceBattleRematchText:
 	done
 
 VanceHangUpText:
-	text "OK, tschüss!"
+	text "O.K., tschüss!"
 	done
 
 VanceLookingForwardText:

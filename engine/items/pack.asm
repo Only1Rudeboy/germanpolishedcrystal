@@ -289,7 +289,7 @@ MenuDataHeader_UseGiveToss:
 	db 4 ; items
 	db "Nutz@"
 	db "Geb.@"
-	db "Wurf@"
+	db "Weg@"
 	db "Ende@"
 
 Jumptable_UseGiveTossQuit:
@@ -357,7 +357,7 @@ MenuDataHeader_GiveToss:
 	db $c0 ; flags
 	db 3 ; items
 	db "Geb.@"
-	db "Wurf@"
+	db "Weg@"
 	db "Ende@"
 
 Jumptable_GiveTossQuit:
@@ -1370,13 +1370,12 @@ Tutorial_BallsPocketMenuDataHeader:
 	assert_table_length 3 ; just ITEM, MEDICINE, and BALL pockets
 
 Text_SortItemsHow:
-	text "Wie sollen Items"
-	line "sortiert werden?"
+	text "Wie sortieren?"
 	done
 
 Text_NoEmptySlot:
 	text "Keine freien"
-	line "Registerplätze."
+	line "Plätze."
 
 	para "Entferne zuerst"
 	line "ein anderes Item."

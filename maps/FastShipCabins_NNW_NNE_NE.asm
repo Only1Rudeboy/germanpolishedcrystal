@@ -66,7 +66,6 @@ GenericTrainerPokemaniacEthan:
 	text "LILLY ist gut,"
 	line "aber MARGIT ist"
 	cont "die Beste!"
-
 	para "Ich möchte gerne"
 	line "alle Radiosender"
 	cont "von JOHTO anhören!"
@@ -76,7 +75,6 @@ GenericTrainerHikerNoland:
 
 	text "Ich frage mich, ob"
 	line "es in KANTO Berge"
-
 	para "gibt, die eine"
 	line "Besteigung wert"
 	cont "sind?"
@@ -86,7 +84,6 @@ GenericTrainerGentlemanEdward:
 
 	text "Ich gebe auf. Du"
 	line "musst nicht danach"
-
 	para "suchen. Vergiss es"
 	line "einfach!"
 	done
@@ -95,10 +92,9 @@ GenericTrainerBurglarCorey:
 
 	text "Ich habe hier eine"
 	line "tolle Münze"
-
 	para "gefunden. Jemand"
 	line "muss sie verloren"
-	cont "haben…"
+	cont "haben …"
 	done
 FastShipLazySailorScript:
 	special SaveMusic
@@ -147,13 +143,12 @@ FastShipLazySailorLeavesMovement2:
 
 PILookerSeenText:
 	text "WAAAS?!"
-
 	para "…Wie hast du das"
 	line "gewusst?"
-
 	para "Wie konntest du"
-	line "mich als IP-Mit-"
-	cont "glied entlarven?!"
+	line "mich als"
+	cont "IP-Mitglied"
+	cont "entlarven?!"
 	done
 
 PILookerBeatenText:
@@ -192,8 +187,9 @@ CooltrainerfCarolSeenText:
 
 
 CooltrainerfCarolBeatenText:
-	text "Worin unter-"
-	line "scheiden wir uns?"
+	text "Worin"
+	line "unterscheiden wir"
+	cont "uns?"
 	done
 
 
@@ -239,15 +235,12 @@ HikerNolandBeatenText:
 SailorStanlySeenText:
 	text "Richtig, ich bin"
 	line "ein Matrose."
-
 	para "Ich habe nicht"
 	line "gefaulenzt!"
-
 	para "Die Kabine war"
 	line "frei, darum habe"
 	cont "ich ein Nickerchen"
 	cont "gemacht!"
-
 	para "Was soll's! Lass"
 	line "uns kämpfen!"
 	done

@@ -28,7 +28,6 @@ GenericTrainerCowgirlApril:
 
 	text "Manchmal siehst du"
 	line "10 gleiche"
-
 	para "#mon"
 	line "hintereinander!"
 	done

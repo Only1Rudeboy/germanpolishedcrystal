@@ -23,9 +23,8 @@ Route7SaffronGuardScript:
 	jumpthistextfaceplayer
 
 	text "Hast du von dem"
-	line "Unfall im KRAFT-"
-	cont "WERK gehört?"
-
+	line "Unfall im"
+	cont "KRAFT-WERK gehört?"
 	para "Es liegt im Osten,"
 	line "in der Nähe von"
 	cont "AMARANT CITY."
@@ -35,10 +34,8 @@ Route7SaffronGuardSeriousText:
 	text "Ich nehme meinen"
 	line "Posten als Wache"
 	cont "ernst."
-
 	para "Hey! Du hast einen"
 	line "#dex."
-
 	para "O.K. Du darfst"
 	line "passieren."
 	done
@@ -51,7 +48,7 @@ Route7SaffronGuardSeriousText:
 
 
 Route7SaffronGateSilphEmployeeText:
-	text "Bruno von der Top"
+	text "BRUNO von der Top"
 	line "Vier hat früher"
 
 	para "in Saffronia"

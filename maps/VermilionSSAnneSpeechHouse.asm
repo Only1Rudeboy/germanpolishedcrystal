@@ -33,14 +33,13 @@ VermilionSSAnneSpeechHouseGrampsText:
 	line "und das Schiff"
 
 	para "versank tief im"
-	line "Meer — für immer"
+	line "Meer - für immer"
 	cont "verschwunden."
 	done
 
 VermilionSSAnneSpeechHouseBeautyText:
 	text "Ich hab ein Modell"
 	line "der M.S. Anne"
-
 	para "in einem"
 	line "Ozeanmuseum weit"
 	cont "weg gesehen."

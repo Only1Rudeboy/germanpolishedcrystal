@@ -1,13 +1,11 @@
 HueyBattleRematchText:
 	text "Hey, ich fordere"
 	line "dich zum Kampf!"
-
-	para "Diesmal anders als"
-	line "letztes Mal!"
-
-	para ""
+	para "Diesmal anders"
+	line "als letztes Mal!"
+	done
 	text_ram wStringBuffer5
-	text " — da warte ich."
+	text " - da warte ich."
 
 	para "Komm schnell!"
 	done

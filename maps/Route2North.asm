@@ -33,7 +33,6 @@ GenericTrainerBug_maniacEd:
 Bug_maniacEdSeenText:
 	text "Wenn du mit Shorts"
 	line "in hohem Gras"
-
 	para "läufst, bekommst"
 	line "du dann Schrammen"
 	cont "an deinen Beinen?"

@@ -48,9 +48,9 @@ BattleFactoryHallwayEnterScene:
 	opentext
 	writethistext
 		text "<PLAYER> erhält"
-		line ""
+		done
 		text_ram wStringBuffer1
-		text " KP!"
+		text "KP!"
 		done
 	waitsfx
 	specialsound
@@ -61,7 +61,8 @@ BattleFactoryHallwayEnterScene:
 .AskNextBattle:
 	writethistext
 		text "Nächster Gegner"
-		line "Nr. "
+		line "Nr."
+		done
 		text_decimal wStringBuffer3, 2, 5
 		text ". Bereit?"
 		done
@@ -69,16 +70,14 @@ BattleFactoryHallwayEnterScene:
 .WarnAboutHead:
 	writethistext
 		text "Glückwunsch zu"
-		line "deiner Sieges-"
-		cont "serie, Trainer!"
-
+		line "deiner"
+		cont "Siegesserie,"
+		cont "Trainer!"
 		para "Der Fabrikleiter"
 		line "lässt ausrichten,"
-
 		para "dass er einen"
 		line "Kampf mit dir"
 		cont "fordert."
-
 		para "Bist du bereit,"
 		line "gegen den"
 		cont "Fabrikleiter zu"
@@ -110,7 +109,6 @@ BattleFactoryHallwayEnterScene:
 		text "Kampffeld-"
 		line "Durchgang"
 		cont "abbrechen?"
-
 		para "Achtung, das zählt"
 		line "als Niederlage."
 		done

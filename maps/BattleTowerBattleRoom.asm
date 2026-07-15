@@ -51,9 +51,9 @@ Script_BattleRoomLoop:
 	opentext
 	writethistext
 		text "<PLAYER> erhält"
-		line ""
+		done
 		text_ram wStringBuffer1
-		text " KP!"
+		text "KP!"
 		done
 	waitsfx
 	specialsound
@@ -63,7 +63,8 @@ Script_BattleRoomLoop:
 .AskNextBattle:
 	writethistext
 		text "Nächster Gegner"
-		line "Nr. "
+		line "Nr."
+		done
 		text_decimal wStringBuffer3, 2, 5
 		text ". Bereit?"
 		done
@@ -71,16 +72,14 @@ Script_BattleRoomLoop:
 .WarnAboutTycoon
 	writethistext
 		text "Glückwunsch zu"
-		line "deiner Sieges-"
-		cont "serie, Trainer!"
-
+		line "deiner"
+		cont "Siegesserie,"
+		cont "Trainer!"
 		para "Das Turm-Ass lässt"
 		line "ausrichten, dass"
-
 		para "es von deinem"
 		line "Können beeindruckt"
 		cont "ist."
-
 		para "Bist du bereit,"
 		line "gegen das Turm-Ass"
 		cont "zu kämpfen?"
@@ -112,7 +111,6 @@ Script_BattleRoomLoop:
 		text "Kampfraum-"
 		line "Durchgang"
 		cont "abbrechen?"
-
 		para "Achtung, das zählt"
 		line "als Niederlage."
 		done

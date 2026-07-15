@@ -19,14 +19,11 @@ ElmsHouse_MapScriptHeader:
 	object_event  4,  5, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ElmsSonText, -1
 
 ElmsWifeText:
-	text "Hallo, <PLAYER>!"
-	line "Mein Mann ist"
-	cont "immer so"
-
+	text "Hi, <PLAYER>! Mein"
+	line "Mann ist immer so"
 	para "beschäftigt. Ich"
 	line "hoffe, es geht ihm"
 	cont "gut."
-
 	para "Wenn er sich in"
 	line "seine #mon-"
 	cont "Forschungen"
@@ -38,15 +35,16 @@ ElmsWifeText:
 
 
 
+
 ElmsSonText:
 	text "Wenn ich groß bin,"
 	line "helfe ich meinem"
 	cont "Papa!"
-
 	para "Ich werde ein"
 	line "großartiger"
 	cont "#mon-Professor!"
 	done
+
 
 
 
@@ -64,11 +62,13 @@ ElmsHouseLabFoodText: ; unreferenced
 
 
 
+
 ElmsHousePokemonFoodText: ; unreferenced
 	text "Hier ist etwas zu"
 	line "essen. Es muss für"
 	cont "die #mon sein."
 	done
+
 
 
 
@@ -83,28 +83,23 @@ ElmsHouseFridgeText:
 ElmsHousePCText:
 	text "#mon. Woher"
 	line "kommen sie?"
-
 	para "Wohin gehen sie?"
-
 	para "Warum war noch nie"
 	line "jemand Zeuge der"
 	cont "Geburt eines"
 	cont "#mon?"
-
 	para "Ich will es"
 	line "wissen. Ich werde"
-
 	para "mein Leben in den"
 	line "Dienst der"
 	cont "#mon-Forschung"
 	cont "stellen!"
-
 	para "…"
-
 	para "Dies ist ein Teil"
 	line "von PROF. LINDs"
 	cont "Aufzeichnungen."
 	done
+
 
 
 

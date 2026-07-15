@@ -67,7 +67,7 @@ if DEF(DEBUG)
 	setflag ENGINE_JUDGE_MACHINE
 	; all key items
 for x, 1, NUM_KEY_ITEMS + 1
-if x != MACHINE_PART
+if x!= MACHINE_PART
 	givekeyitem x
 endc
 endr
@@ -77,7 +77,7 @@ for x, NUM_TMS + NUM_HMS
 endr
 	; useful items
 for x, POKE_BALL, CHERISH_BALL + 1
-if x != PARK_BALL && x != SAFARI_BALL
+if x!= PARK_BALL && x!= SAFARI_BALL
 	giveitem x, 99
 endc
 endr
@@ -363,14 +363,11 @@ PokemonJournalProfElmScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: #mon"
-	line "Prof. Lind!"
-
-	para "Prof. Lind war der"
+	line "PROF. LIND!"
+	para "PROF. LIND war der"
 	line "beste Schüler von"
-	cont "Prof. Eich."
-
+	cont "PROF. EICH."
 	para "Man sagt, die"
 	line "beiden streiten"
 	cont "oft über"
@@ -397,10 +394,10 @@ InitialRadioText2:
 	done
 InitialRadioText3:
 	text "Hier ist DJ"
-	line "MARGIT, Ihr Co-"
-	cont "Moderator!"
+	line "MARGIT, Ihr"
+	cont "Co-Moderator!"
 	done
 InitialRadioText4:
 	text "#mon!"
-	line "#mon-PROGRAMM…"
+	line "#mon-PROGRAMM …"
 	done

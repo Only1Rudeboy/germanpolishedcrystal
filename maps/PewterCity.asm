@@ -120,12 +120,11 @@ PewterCityPokefanMScript:
 
 PewterCityCooltrainerFText:
 	text "Warst du schon in"
-	line "der #mon-ARENA"
+	line "der PKMN-ARENA"
 	cont "von MARMORIA CITY?"
-
 	para "Der LEITER dort"
-	line "verwendet Gestein-"
-	cont "#mon."
+	line "verwendet"
+	cont "Gestein-#mon."
 	done
 
 
@@ -136,13 +135,11 @@ PewterCityCooltrainerFText:
 
 PewterCityCooltrainermText:
 	text "Die denkt,"
-	line "Gesteins- #mon"
+	line "Gesteins-#mon"
 	cont "sind alles,"
-
 	para "aber sie hat die"
 	line "meisten Schwächen"
 	cont "aller Typen."
-
 	para "Ich habe aber"
 	line "nicht das Herz, es"
 	cont "ihr zu sagen."
@@ -168,20 +165,15 @@ PewterCityGrampsText:
 	line "ganzen Weg von"
 	cont "JOHTO bis hierher"
 	cont "gekommen?"
-
 	para "Das weckt"
 	line "Erinnerungen. Als"
-
 	para "ich noch jung war,"
 	line "habe ich in JOHTO"
 	cont "oft trainiert."
-
 	para "Du erinnerst mich"
 	line "an mich"
-
 	para "selbst als junger"
 	line "Mann."
-
 	para "Hier. Ich möchte,"
 	line "dass du dieses"
 	cont "Item, das ich in"
@@ -200,8 +192,7 @@ PewterCityGrampsText_GotSilverWing:
 	line "unbekannte Orte zu"
 	cont "erforschen und"
 	cont "fremde Menschen"
-	cont "kennen zu lernen…"
-
+	cont "kennen zu lernen …"
 	para "Das ist das Schöne"
 	line "am Reisen."
 	done
@@ -216,25 +207,18 @@ PewterCityYoungsterText1:
 	text "Die MARMORIA-Arena"
 	line "ist so rau und"
 	cont "hart wie Stein."
-
 	para "Sei dort"
 	line "vorsichtig."
 	done
 
 
 PewterCitySignText:
-	text "MARMORIA CITY Eine"
-	line "Steingraue Stadt"
+	text "MARMORIA CITY"
+	line "Eine Steingraue"
+	cont "Stadt"
 	done
-
-
-
-
-
-
-
 PewterGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "MARMORIA CITY"
 	cont "LEITUNG: ROCKO"
 
@@ -249,7 +233,7 @@ PewterGymSignText:
 
 
 PewterMuseumOfScienceSignText:
-	text "MARMORIA-MUSEUM"
+	text "MARMORIAS MUSEUM"
 	line "DER WISSENSCHAFT"
 	done
 
@@ -270,10 +254,8 @@ PewterCityMtMoonGiftShopSignText:
 
 PewterCityTrainerTipsText:
 	text "Profi-Tipps!"
-
 	para "Ein #mon mit"
 	line "Fähigkeitskappe"
-
 	para "hat eher Nachwuchs"
 	line "mit einer seltenen"
 	cont "Fähigkeit."

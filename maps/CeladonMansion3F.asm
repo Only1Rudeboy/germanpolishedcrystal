@@ -55,7 +55,6 @@ GameFreakGameDesignerScript:
 	text "Der Grafikdesigner"
 	line "druckt dir ein"
 	cont "Diplom aus."
-
 	para "Das solltest du"
 	line "herumzeigen!"
 	done
@@ -132,10 +131,9 @@ GameFreakGameDesignerText:
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Exzellent! Du"
-	line "hast deinen"
+	text "Toll! Exzellent!"
+	line "Du hast deinen"
 	cont "#dex komplett!"
-
 	para "Glückwunsch!"
 	done
 
@@ -149,7 +147,7 @@ GameFreakGameDesignerPauseForDiplomaText:
 	done
 
 GameFreakGameDesignerGiveDiplomaText:
-	text "<PLAYER> erhielt"
+	text "<PLAYER> erhält"
 	line "ein Diplom!"
 	done
 
@@ -179,10 +177,8 @@ GameFreakGraphicArtistText:
 GameFreakGraphicArtistPrintDiplomaText:
 	text "Ich bin der"
 	line "Grafikdesigner."
-
 	para "Oh, du hast deinen"
 	line "#dex komplett?"
-
 	para "Soll ich dein"
 	line "Diplom drucken?"
 	done
@@ -197,17 +193,16 @@ GameFreakGraphicArtistRefusedText:
 GameFreakProgrammerText:
 	text "Wer, ich? Ich bin"
 	line "der Programmierer."
-
 	para "Nutze das"
 	line "Wundertausch-"
 	cont "Terminal!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Ist Lyra nicht"
+	text "Ist LYRA nicht"
 	line "süß?"
 
-	para "Jasmine ist auch"
+	para "JASMIN ist auch"
 	line "hübsch."
 
 	para "Ich liebe die"

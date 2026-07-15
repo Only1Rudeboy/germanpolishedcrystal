@@ -102,7 +102,7 @@ SECTION "FalknerGroup", ROMX
 FalknerGroup:
 
 	def_trainer_class FALKNER
-	def_trainer 1, "Falkner"
+	def_trainer 1, "FALK"
 	tr_mon 10, NATU, MALE
 		tr_extra SYNCHRONIZE
 		tr_evs 32 HP
@@ -117,7 +117,7 @@ FalknerGroup:
 		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
 	end_trainer
 
-	def_trainer 2, "Falkner"
+	def_trainer 2, "FALK"
 	tr_mon 73, NOCTOWL @ WIDE_LENS, MALE
 		tr_extra TINTED_LENS, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SAt
@@ -153,7 +153,7 @@ SECTION "BugsyGroup", ROMX
 BugsyGroup:
 
 	def_trainer_class BUGSY
-	def_trainer 1, "Bugsy"
+	def_trainer 1, "KAI"
 	tr_mon 17, SCYTHER, FEMALE
 		tr_extra SWARM
 		tr_evs 64 Atk
@@ -171,7 +171,7 @@ BugsyGroup:
 		tr_moves FORESIGHT, QUICK_ATTACK, DOUBLE_TEAM, SONIC_BOOM
 	end_trainer
 
-	def_trainer 2, "Bugsy"
+	def_trainer 2, "KAI"
 	tr_mon 71, LEDIAN @ LIGHT_CLAY, FEMALE
 		tr_extra IRON_FIST, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
@@ -207,7 +207,7 @@ SECTION "WhitneyGroup", ROMX
 WhitneyGroup:
 
 	def_trainer_class WHITNEY
-	def_trainer 1, "Whitney"
+	def_trainer 1, "BIANKA"
 	tr_mon 19, CLEFAIRY, FEMALE
 		tr_extra CUTE_CHARM
 		tr_evs 96 HP
@@ -226,7 +226,7 @@ WhitneyGroup:
 		tr_moves DEFENSE_CURL, STOMP, FRESH_SNACK, ROLLOUT
 	end_trainer
 
-	def_trainer 2, "Whitney"
+	def_trainer 2, "BIANKA"
 	tr_mon 71, LICKILICKY @ LEFTOVERS, FEMALE
 		tr_extra OBLIVIOUS, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
@@ -258,7 +258,7 @@ SECTION "MortyGroup", ROMX
 MortyGroup:
 
 	def_trainer_class MORTY
-	def_trainer 1, "Morty"
+	def_trainer 1, "JENS"
 	tr_mon 24, HAUNTER, MALE
 		tr_extra LEVITATE
 		tr_evs 64 Atk, 64 Spe
@@ -288,7 +288,7 @@ endc
 		tr_moves HYPNOSIS, THUNDERBOLT, SHADOW_BALL, DREAM_EATER
 	end_trainer
 
-	def_trainer 2, "Morty"
+	def_trainer 2, "JENS"
 	tr_mon 70, CURSOLA @ EJECT_BUTTON, MALE
 		tr_extra PERISH_BODY, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
@@ -327,7 +327,7 @@ SECTION "ChuckGroup", ROMX
 ChuckGroup:
 
 	def_trainer_class CHUCK
-	def_trainer 1, "Chuck"
+	def_trainer 1, "HARTWIG"
 	tr_mon 30, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
@@ -350,7 +350,7 @@ endc
 		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
 	end_trainer
 
-	def_trainer 2, "Chuck"
+	def_trainer 2, "HARTWIG"
 	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
 if DEF(FAITHFUL)
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
@@ -386,7 +386,7 @@ SECTION "JasmineGroup", ROMX
 JasmineGroup:
 
 	def_trainer_class JASMINE
-	def_trainer 1, "Jasmine"
+	def_trainer 1, "JASMIN"
 	tr_mon 34, SKARMORY, FEMALE
 		tr_extra STURDY
 		tr_evs 192 HP
@@ -409,7 +409,7 @@ JasmineGroup:
 		tr_moves BODY_SLAM, BULLDOZE, ROCK_SLIDE, IRON_TAIL
 	end_trainer
 
-	def_trainer 2, "Jasmine"
+	def_trainer 2, "JASMIN"
 	tr_mon 73, FORRETRESS @ LIGHT_CLAY, FEMALE
 		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
@@ -444,7 +444,7 @@ SECTION "PryceGroup", ROMX
 PryceGroup:
 
 	def_trainer_class PRYCE
-	def_trainer 1, "Pryce"
+	def_trainer 1, "NORBERT"
 	tr_mon 39, DEWGONG @ CHESTO_BERRY, MALE
 		tr_extra HYDRATION
 		tr_evs 224 HP
@@ -467,7 +467,7 @@ PryceGroup:
 		tr_moves MAGNITUDE, ANCIENTPOWER, AVALANCHE, FURY_STRIKES
 	end_trainer
 
-	def_trainer 2, "Pryce"
+	def_trainer 2, "NORBERT"
 	tr_mon 73, NINETALES @ ICY_ROCK, MALE | ALOLAN_FORM
 		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -509,7 +509,7 @@ SECTION "ClairGroup", ROMX
 ClairGroup:
 
 	def_trainer_class CLAIR
-	def_trainer 1, "Clair"
+	def_trainer 1, "SANDRA"
 	tr_mon 43, GYARADOS, FEMALE
 		tr_extra INTIMIDATE
 		tr_evs 4 Atk, 252 Spe
@@ -540,7 +540,7 @@ endc
 		tr_moves SMOKESCREEN, HYPER_BEAM, DRAGON_PULSE, SURF
 	end_trainer
 
-	def_trainer 2, "Clair"
+	def_trainer 2, "SANDRA"
 	tr_mon 72, GYARADOS @ LEFTOVERS, FEMALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -579,7 +579,7 @@ SECTION "WillGroup", ROMX
 WillGroup:
 
 	def_trainer_class WILL
-	def_trainer 1, "Will"
+	def_trainer 1, "WILLI"
 	tr_mon 48, WYRDEER @ TWISTEDSPOON, MALE
 		tr_extra INTIMIDATE
 		tr_evs 252 HP, 36 Spe
@@ -606,7 +606,7 @@ WillGroup:
 		tr_moves AIR_SLASH, CONFUSE_RAY, GIGA_DRAIN, FUTURE_SIGHT
 	end_trainer
 
-	def_trainer 2, "Will"
+	def_trainer 2, "WILLI"
 	tr_mon 67, WYRDEER @ ASSAULT_VEST, MALE
 		tr_extra INTIMIDATE, SATK_UP_SPE_DOWN
 		tr_evs 252 HP, 4 Atk, 252 SAt
@@ -638,7 +638,7 @@ SECTION "KogaGroup", ROMX
 KogaGroup:
 
 	def_trainer_class KOGA
-	def_trainer 1, "Koga"
+	def_trainer 1, "KOGA"
 	tr_mon 50, VENOMOTH @ SILVERPOWDER, MALE
 		tr_extra TINTED_LENS
 		tr_evs 252 SAt, 68 Spe
@@ -665,7 +665,7 @@ KogaGroup:
 		tr_moves DOUBLE_TEAM, POISON_JAB, SUPER_FANG, TOXIC
 	end_trainer
 
-	def_trainer 2, "Koga"
+	def_trainer 2, "KOGA"
 	tr_mon 69, TENTACRUEL @ BLACK_SLUDGE, MALE
 		tr_extra LIQUID_OOZE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -697,7 +697,7 @@ SECTION "BrunoGroup", ROMX
 BrunoGroup:
 
 	def_trainer_class BRUNO
-	def_trainer 1, "Bruno"
+	def_trainer 1, "BRUNO"
 	tr_mon 51, HITMONTOP @ QUICK_CLAW, MALE
 		tr_extra INTIMIDATE
 		tr_evs 176 Atk, 176 Spe
@@ -724,7 +724,7 @@ BrunoGroup:
 		tr_moves ROCK_SLIDE, FORESIGHT, CROSS_CHOP, BULK_UP
 	end_trainer
 
-	def_trainer 2, "Bruno"
+	def_trainer 2, "BRUNO"
 	tr_mon 70, HITMONTOP @ QUICK_CLAW, MALE
 		tr_extra INTIMIDATE, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 Atk
@@ -755,7 +755,7 @@ SECTION "KarenGroup", ROMX
 KarenGroup:
 
 	def_trainer_class KAREN
-	def_trainer 1, "Karen"
+	def_trainer 1, "MELANIE"
 	tr_mon 53, UMBREON @ LEFTOVERS, FEMALE
 		tr_extra SYNCHRONIZE
 		tr_evs 252 HP, 132 Def
@@ -782,7 +782,7 @@ KarenGroup:
 		tr_moves ROAR, PURSUIT, FLAMETHROWER, DARK_PULSE
 	end_trainer
 
-	def_trainer 2, "Karen"
+	def_trainer 2, "MELANIE"
 	tr_mon 71, UMBREON @ LEFTOVERS, FEMALE
 if DEF(FAITHFUL)
 		tr_extra SYNCHRONIZE, DEF_UP_ATK_DOWN
@@ -830,7 +830,7 @@ SECTION "ChampionGroup", ROMX
 ChampionGroup:
 
 	def_trainer_class CHAMPION
-	def_trainer LANCE, "Lance"
+	def_trainer LANCE, "SIEGFRIED"
 	tr_mon 57, GYARADOS @ MUSCLE_BAND, MALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
@@ -861,7 +861,7 @@ endc
 		tr_moves SUBSTITUTE, DRAGON_DANCE, FLY, EXTREMESPEED
 	end_trainer
 
-	def_trainer LANCE2, "Lance"
+	def_trainer LANCE2, "SIEGFRIED"
 	tr_mon 75, GYARADOS @ LIFE_ORB, MALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -900,7 +900,7 @@ SECTION "BrockGroup", ROMX
 BrockGroup:
 
 	def_trainer_class BROCK
-	def_trainer 1, "Brock"
+	def_trainer 1, "ROCKO"
 	tr_mon 64, GOLEM, MALE
 		tr_extra STURDY
 		tr_evs 252 HP, 196 Atk
@@ -931,7 +931,7 @@ endc
 		tr_moves AERIAL_ACE, ROCK_SLIDE, CRUNCH, DOUBLE_EDGE
 	end_trainer
 
-	def_trainer 2, "Brock"
+	def_trainer 2, "ROCKO"
 	tr_mon 74, ONIX @ CUSTAP_BERRY, MALE
 		tr_extra STURDY, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -963,7 +963,7 @@ SECTION "MistyGroup", ROMX
 MistyGroup:
 
 	def_trainer_class MISTY
-	def_trainer 1, "Misty"
+	def_trainer 1, "MISTY"
 	tr_mon 61, GOLDUCK, FEMALE
 		tr_extra CLOUD_NINE
 		tr_evs 100 HP, 252 SAt
@@ -990,7 +990,7 @@ MistyGroup:
 		tr_moves SCALD, PSYCHIC_M, RECOVER, ICE_BEAM
 	end_trainer
 
-	def_trainer 2, "Misty"
+	def_trainer 2, "MISTY"
 	tr_mon 73, GOLDUCK @ DAMP_ROCK, FEMALE
 		tr_extra SWIFT_SWIM, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -1022,7 +1022,7 @@ SECTION "LtSurgeGroup", ROMX
 LtSurgeGroup:
 
 	def_trainer_class LT_SURGE
-	def_trainer 1, "Lt. Surge"
+	def_trainer 1, "MAJOR BOB"
 	tr_mon 58, RAICHU, MALE
 		tr_extra STATIC
 		tr_evs 36 Spe, 252 Atk
@@ -1053,7 +1053,7 @@ endc
 		tr_moves ICE_PUNCH, THUNDERPUNCH, FIRE_PUNCH, CROSS_CHOP
 	end_trainer
 
-	def_trainer 2, "Lt. Surge"
+	def_trainer 2, "MAJOR BOB"
 	tr_mon 74, ELECTIVIRE @ AIR_BALLOON, MALE
 		tr_extra VITAL_SPIRIT, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -1089,7 +1089,7 @@ SECTION "ErikaGroup", ROMX
 ErikaGroup:
 
 	def_trainer_class ERIKA
-	def_trainer 1, "Erika"
+	def_trainer 1, "ERIKA"
 	tr_mon 61, SUNFLORA, FEMALE
 		tr_extra CHLOROPHYLL
 		tr_evs 192 SAt, 192 Spe
@@ -1123,7 +1123,7 @@ endc
 		tr_moves SUNNY_DAY, HEALINGLIGHT, MOONBLAST, SOLAR_BEAM
 	end_trainer
 
-	def_trainer 2, "Erika"
+	def_trainer 2, "ERIKA"
 	tr_mon 72, SUNFLORA @ HEAT_ROCK, FEMALE
 		tr_extra CHLOROPHYLL, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -1166,7 +1166,7 @@ SECTION "JanineGroup", ROMX
 JanineGroup:
 
 	def_trainer_class JANINE
-	def_trainer 1, "Janine"
+	def_trainer 1, "JANINA"
 	tr_mon 64, CROBAT, FEMALE
 		tr_extra INNER_FOCUS
 		tr_evs 252 Atk, 164 Spe
@@ -1193,7 +1193,7 @@ JanineGroup:
 		tr_moves SLUDGE_BOMB, DOUBLE_TEAM, BUG_BUZZ, PSYCHIC_M
 	end_trainer
 
-	def_trainer 2, "Janine"
+	def_trainer 2, "JANINA"
 	tr_mon 73, CROBAT @ CHOICE_BAND, FEMALE
 		tr_extra INNER_FOCUS, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -1221,11 +1221,11 @@ JanineGroup:
 	end_trainer
 
 
-SECTION "SabrinaGroup", ROMX
+SECTION "SABRINAGroup", ROMX
 SabrinaGroup:
 
 	def_trainer_class SABRINA
-	def_trainer 1, "Sabrina"
+	def_trainer 1, "SABRINA"
 	tr_mon 61, ESPEON, FEMALE
 		tr_extra SYNCHRONIZE
 		tr_evs 252 SAt, 68 Spe
@@ -1252,7 +1252,7 @@ SabrinaGroup:
 		tr_moves RECOVER, FUTURE_SIGHT, PSYCHIC_M, REFLECT
 	end_trainer
 
-	def_trainer 2, "Sabrina"
+	def_trainer 2, "SABRINA"
 	tr_mon 74, ESPEON @ LIGHT_CLAY, FEMALE
 		tr_extra MAGIC_BOUNCE, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 Spe
@@ -1284,7 +1284,7 @@ SECTION "BlaineGroup", ROMX
 BlaineGroup:
 
 	def_trainer_class BLAINE
-	def_trainer 1, "Blaine"
+	def_trainer 1, "PYRO"
 	tr_mon 65, NINETALES @ HEAT_ROCK, MALE
 		tr_extra DROUGHT
 		tr_evs 252 Spe, 228 SAt
@@ -1314,7 +1314,7 @@ endc
 	end_trainer
 
 
-	def_trainer 2, "Blaine"
+	def_trainer 2, "PYRO"
 	tr_mon 71, MAGCARGO @ FOCUS_SASH, MALE
 		tr_extra WEAK_ARMOR, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Speed
@@ -1353,7 +1353,7 @@ SECTION "BlueGroup", ROMX
 BlueGroup:
 
 	def_trainer_class BLUE
-	def_trainer 1, "Blue"
+	def_trainer 1, "BLAU"
 	tr_mon 67, PIDGEOT @ FOCUS_SASH, MALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 4 HP, 252 SAt, 252 Spe
@@ -1388,7 +1388,7 @@ else
 endc
 	end_trainer
 
-	def_trainer 2, "Blue"
+	def_trainer 2, "BLAU"
 	tr_mon 73, PIDGEOT @ FOCUS_SASH, MALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 4 HP, 252 SAt, 252 Spe
@@ -1424,7 +1424,7 @@ SECTION "RedGroup", ROMX
 RedGroup:
 
 	def_trainer_class RED
-	def_trainer 1, "Red"
+	def_trainer 1, "ROT"
 	tr_mon 86, LAPRAS @ WHITE_HERB, MALE
 		tr_extra WATER_ABSORB, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2024,19 +2024,19 @@ SECTION "Lyra1Group", ROMX
 Lyra1Group:
 
 	def_trainer_class LYRA1
-	def_trainer LYRA1_1, "Lyra"
+	def_trainer LYRA1_1, "LYRA"
 	tr_mon 5, "Chicory", CHIKORITA
 	end_trainer
 
-	def_trainer LYRA1_2, "Lyra"
+	def_trainer LYRA1_2, "LYRA"
 	tr_mon 5, "Cinder", CYNDAQUIL
 	end_trainer
 
-	def_trainer LYRA1_3, "Lyra"
+	def_trainer LYRA1_3, "LYRA"
 	tr_mon 5, "Toto", TOTODILE
 	end_trainer
 
-	def_trainer LYRA1_4, "Lyra"
+	def_trainer LYRA1_4, "LYRA"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 		tr_moves TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
@@ -2051,7 +2051,7 @@ Lyra1Group:
 		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
 	end_trainer
 
-	def_trainer LYRA1_5, "Lyra"
+	def_trainer LYRA1_5, "LYRA"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, SUNKERN
@@ -2062,7 +2062,7 @@ Lyra1Group:
 		tr_evs 72 Spe
 	end_trainer
 
-	def_trainer LYRA1_6, "Lyra"
+	def_trainer LYRA1_6, "LYRA"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, GROWLITHE
@@ -2073,7 +2073,7 @@ Lyra1Group:
 		tr_evs 72 Atk
 	end_trainer
 
-	def_trainer LYRA1_7, "Lyra"
+	def_trainer LYRA1_7, "LYRA"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, GROWLITHE
@@ -2086,7 +2086,7 @@ Lyra1Group:
 		tr_evs 200 HP
 	end_trainer
 
-	def_trainer LYRA1_8, "Lyra"
+	def_trainer LYRA1_8, "LYRA"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
@@ -2099,7 +2099,7 @@ Lyra1Group:
 		tr_evs 200 Spe
 	end_trainer
 
-	def_trainer LYRA1_9, "Lyra"
+	def_trainer LYRA1_9, "LYRA"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
@@ -2112,7 +2112,7 @@ Lyra1Group:
 		tr_evs 200 Atk
 	end_trainer
 
-	def_trainer LYRA1_10, "Lyra"
+	def_trainer LYRA1_10, "LYRA"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2127,7 +2127,7 @@ Lyra1Group:
 		tr_evs 252 HP, 12 SAt
 	end_trainer
 
-	def_trainer LYRA1_11, "Lyra"
+	def_trainer LYRA1_11, "LYRA"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2142,7 +2142,7 @@ Lyra1Group:
 		tr_evs 12 Atk, 252 Spe
 	end_trainer
 
-	def_trainer LYRA1_12, "Lyra"
+	def_trainer LYRA1_12, "LYRA"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2162,7 +2162,7 @@ SECTION "Lyra2Group", ROMX
 Lyra2Group:
 
 	def_trainer_class LYRA2
-	def_trainer 1, "Lyra"
+	def_trainer 1, "LYRA"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2193,7 +2193,7 @@ endc
 		tr_moves GIGA_DRAIN, MOONBLAST, EARTH_POWER, HEALINGLIGHT
 	end_trainer
 
-	def_trainer 2, "Lyra"
+	def_trainer 2, "LYRA"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2220,7 +2220,7 @@ endc
 		tr_moves FLAMETHROWER, SOLAR_BEAM, EARTH_POWER, SUNNY_DAY
 	end_trainer
 
-	def_trainer 3, "Lyra"
+	def_trainer 3, "LYRA"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -3691,7 +3691,7 @@ PokefanMGroup:
 	tr_mon 36, PIKACHU @ SITRUS_BERRY
 	end_trainer
 
-	def_trainer WILLIAM, "William"
+	def_trainer WILLIAM, "WILLIam"
 	tr_mon 16, RAICHU @ ORAN_BERRY
 	end_trainer
 
@@ -4404,7 +4404,7 @@ BugManiacGroup:
 	tr_mon 55, BUTTERFREE
 	end_trainer
 
-	def_trainer KAI, "Kai"
+	def_trainer KAI, "KAI"
 	tr_mon LEVEL_FROM_BADGES + 7, VENONAT
 	tr_mon LEVEL_FROM_BADGES + 9, VENOMOTH
 	end_trainer
@@ -4467,7 +4467,7 @@ FirebreatherGroup:
 	tr_mon 61, MAGCARGO
 	end_trainer
 
-	def_trainer BILL, "Bill"
+	def_trainer BILL, "BILL"
 	tr_mon 8, KOFFING
 	tr_mon 8, KOFFING
 	end_trainer
@@ -5663,7 +5663,7 @@ SwimmerFGroup:
 		tr_moves DRAGON_RAGE, SMOKESCREEN, LEER, BUBBLE_BEAM
 	end_trainer
 
-	def_trainer MARY, "Mary"
+	def_trainer MARY, "MARY"
 	tr_mon 20, GYARADOS
 	end_trainer
 
@@ -7459,14 +7459,14 @@ SECTION "GiovanniGroup", ROMX
 GiovanniGroup:
 
 	def_trainer_class GIOVANNI
-	def_trainer GIOVANNI1, "Giovanni"
+	def_trainer GIOVANNI1, "GIOVANNI"
 	tr_mon LEVEL_FROM_BADGES + 24, "?????", MEWTWO @ ARMOR_SUIT, MALE | MEWTWO_ARMORED_FORM
 		tr_extra INSOMNIA, SATK_UP_ATK_DOWN
 		tr_moves SHADOW_BALL, PSYSTRIKE, NASTY_PLOT, AURA_SPHERE
 	end_trainer
 
 
-	def_trainer GIOVANNI2, "Giovanni"
+	def_trainer GIOVANNI2, "GIOVANNI"
 	tr_mon 64, NIDOKING @ LIFE_ORB, MALE
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
 		tr_evs 252 Spe, 164 SAt
@@ -7508,7 +7508,7 @@ SECTION "ProfOakGroup", ROMX
 ProfOakGroup:
 
 	def_trainer_class PROF_OAK
-	def_trainer 1, "Oak"
+	def_trainer 1, "EICH"
 	tr_mon 78, TAUROS @ CHOICE_SCARF, MALE
 		tr_extra ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -7544,7 +7544,7 @@ SECTION "ProfElmGroup", ROMX
 ProfElmGroup:
 
 	def_trainer_class PROF_ELM
-	def_trainer 1, "Elm"
+	def_trainer 1, "LIND"
 	tr_mon LEVEL_FROM_BADGES + 3, HOOTHOOT
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
 	tr_mon LEVEL_FROM_BADGES + 5, CYNDAQUIL
@@ -7552,7 +7552,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, TOTODILE
 	end_trainer
 
-	def_trainer 2, "Elm"
+	def_trainer 2, "LIND"
 	tr_mon LEVEL_FROM_BADGES + 3, AIPOM
 	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 5, QUILAVA
@@ -7560,7 +7560,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, CROCONAW
 	end_trainer
 
-	def_trainer 3, "Elm"
+	def_trainer 3, "LIND"
 	tr_mon LEVEL_FROM_BADGES + 4, AMBIPOM
 	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 6, TYPHLOSION
@@ -7568,7 +7568,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 6, FERALIGATR
 	end_trainer
 
-	def_trainer 4, "Elm"
+	def_trainer 4, "LIND"
 	tr_mon LEVEL_FROM_BADGES + 7, AMBIPOM
 	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS
@@ -7614,7 +7614,7 @@ SECTION "MysticalmanGroup", ROMX
 MysticalmanGroup:
 
 	def_trainer_class MYSTICALMAN
-	def_trainer EUSINE, "Eusine"
+	def_trainer EUSINE, "EUSIN"
 	tr_mon 27, DROWZEE @ EVIOLITE, MALE
 		tr_extra INSOMNIA
 		tr_evs 160 HP
@@ -7727,7 +7727,7 @@ SECTION "LoreleiGroup", ROMX
 LoreleiGroup:
 
 	def_trainer_class LORELEI
-	def_trainer 1, "Lorelei"
+	def_trainer 1, "LORELEI"
 	tr_mon 39, GLACEON, FEMALE
 		tr_extra ICE_BODY
 		tr_evs 240 SAt
@@ -7754,7 +7754,7 @@ LoreleiGroup:
 		tr_moves ICE_BEAM, ANCIENTPOWER, CONFUSE_RAY, SURF
 	end_trainer
 
-	def_trainer 2, "Lorelei"
+	def_trainer 2, "LORELEI"
 	tr_mon 73, DEWGONG @ LEFTOVERS, FEMALE
 		tr_extra THICK_FAT, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def
@@ -7788,7 +7788,7 @@ endc
 		tr_moves ICE_BEAM, SURF, SHELL_SMASH, PSYCHIC_M
 	end_trainer
 
-	def_trainer 3, "Lorelei"
+	def_trainer 3, "LORELEI"
 	tr_mon 58, DEWGONG @ LEFTOVERS, FEMALE
 		tr_extra THICK_FAT, SDEF_UP_SPE_DOWN
 		tr_evs 160 HP, 160 SDf
@@ -9079,7 +9079,7 @@ SECTION "BillGroup", ROMX
 BillGroup:
 
 	def_trainer_class BILL_T
-	def_trainer 1, "Bill"
+	def_trainer 1, "BILL"
 	tr_mon 62, VAPOREON @ MYSTIC_WATER, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 252 HP, 100 SAt
@@ -9111,7 +9111,7 @@ SECTION "YellowGroup", ROMX
 YellowGroup:
 
 	def_trainer_class YELLOW
-	def_trainer 1, "Yellow"
+	def_trainer 1, "YELLOW"
 	tr_mon LEVEL_FROM_BADGES + 5, "Ratty", RATTATA @ SITRUS_BERRY, FEMALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_evs 240 Atk
@@ -9138,7 +9138,7 @@ YellowGroup:
 		tr_moves SURF, FLY, THUNDERBOLT, QUICK_ATTACK
 	end_trainer
 
-	def_trainer 2, "Yellow"
+	def_trainer 2, "YELLOW"
 	tr_mon 72, "Omny", OMASTAR @ FOCUS_SASH, FEMALE
 		tr_extra SHELL_ARMOR, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -9170,7 +9170,7 @@ SECTION "WalkerGroup", ROMX
 WalkerGroup:
 
 	def_trainer_class WALKER
-	def_trainer 1, "Walker"
+	def_trainer 1, "WALKER"
 	tr_mon LEVEL_FROM_BADGES + 5, NOCTOWL, MALE
 		tr_extra INSOMNIA
 		tr_evs 184 Spe
@@ -9189,7 +9189,7 @@ WalkerGroup:
 		tr_moves METAL_CLAW, FURY_STRIKES, DRILL_PECK, SWIFT
 	end_trainer
 
-	def_trainer 2, "Walker"
+	def_trainer 2, "WALKER"
 	tr_mon 75, SKARMORY @ ROCKY_HELMET, MALE
 		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def

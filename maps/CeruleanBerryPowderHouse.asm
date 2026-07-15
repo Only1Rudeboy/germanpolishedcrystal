@@ -30,7 +30,6 @@ CeruleanBerryPowderHouseGrampsScript:
 .Text2:
 	text "Medizin zu mischen"
 	line "war ein schöner"
-
 	para "Job, aber ich"
 	line "verdiene eine"
 	cont "Pause."

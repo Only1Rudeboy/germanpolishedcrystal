@@ -23,16 +23,13 @@ DaisyScript:
 	iftrue .After
 	jumpthistextfaceplayer
 
-	text "Daisy: Hi! Mein"
+	text "Daisy: Hallo! Mein"
 	line "kleiner Bruder ist"
 	cont "der Arenaleiter"
-
 	para "in Vertania City."
-
 	para "Aber er ist so oft"
 	line "weg, das macht den"
 	cont "Trainern"
-
 	para "Probleme."
 	done
 
@@ -65,16 +62,13 @@ DaisyScript:
 	jumpthisopenedtext
 
 	text "Daisy: So, fertig!"
-
 	para "Sieht's nicht toll"
 	line "aus?"
-
 	para "So ein süßes"
-	line "#mon."
 	done
 
 .IntroText:
-	text "Daisy: Hi! Gute"
+	text "Daisy: Hallo! Gute"
 	line "Zeit. Ich trink"
 	cont "gerade Tee."
 
@@ -122,14 +116,14 @@ DaisyScript:
 
 .LooksContentText:
 	text_ram wStringBuffer3
-	text " sieht zufrieden"
+	text "sieht zufrieden"
 	line "aus."
 	done
 
 .EggMassage:
 	jumpthistext
 
-	text "Daisy: Oh, sorry."
-	line "Ein Ei kann ich"
-	cont "nicht pflegen."
+	text "Daisy: Oh, tut mir"
+	line "leid. Ein Ei kann"
+	cont "ich nicht pflegen."
 	done

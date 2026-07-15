@@ -18,7 +18,6 @@ VermilionPollutionSpeechHouse_MapScriptHeader:
 VermilionPollutionSpeechHouseBreederText:
 	text "Orania ist ein"
 	line "wunderbarer Ort,"
-
 	para "aber in einem"
 	line "Hafen muss man auf"
 	cont "Verschmutzung"
@@ -28,7 +27,6 @@ VermilionPollutionSpeechHouseBreederText:
 VermilionPollutionSpeechHouseCooltrainerMText:
 	text "Dank all der"
 	line "Kreuzfahrtschiffe"
-
 	para "bekommen wir"
 	line "Besucher aus aller"
 	cont "Welt!"

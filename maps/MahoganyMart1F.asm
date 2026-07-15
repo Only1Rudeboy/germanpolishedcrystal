@@ -97,10 +97,8 @@ MahoganyMart1FBlackBeltScript:
 	line "Experiment hat wie"
 	cont "am Schnürchen"
 	cont "geklappt."
-
 	para "KARPADOR sind"
 	line "wertlos, aber"
-
 	para "GARADOS bringen"
 	line "das große Geld."
 	done
@@ -203,90 +201,47 @@ MahoganyMart1FPharmacistText_LanceEntered:
 	line "Geheimtreppe"
 	cont "gefunden…"
 	done
-
-
-
-
-
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
-
-	para "Seine Drachen-"
-	line "#mon sind"
-	cont "stark…"
+	para "Seine"
+	line "Drachen-#mon"
+	cont "sind unschlagbar…"
 	done
-
-
-
-
-
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "SIEGFRIED:"
 	line "DRAGORAN,"
-
-	para "HYPERSTRAHL!"
+	cont "HYPERSTRAHL!"
 	done
-
-
-
-
-
 MahoganyMart1FLanceRadioText:
 	text "Wo bleibst du,"
 	line "<PLAYER>?"
-
 	para "Das habe ich mir"
-	line "gleich gedacht."
-
-	para "Die merkwürdigen"
-	line "Radiowellen kommen"
-	cont "von hier."
+	line "gedacht. Die"
+	cont "Funkwellen, die"
+	cont "die #mon"
+	cont "verrückt machen,"
+	cont "kommen von hier!"
 	done
-
-
-
-
-
 MahoganyMart1FLanceStairsText:
 	text "Die Treppe ist"
 	line "hier."
 	done
-
-
-
-
-
 MahoganyMart1FLanceSplitUpText:
 	text "SIEGFRIED:"
-	line "<PLAYER>,"
-
-	para "wir sollten uns"
-	line "trennen, um diesen"
-
-	para "Ort zu erforschen."
-	line "Ich gehe zuerst."
+	line "<PLAYER>, wir"
+	cont "sollten uns"
+	cont "trennen."
+	para "Ich nehme den"
+	line "einen Weg - du den"
+	cont "anderen."
 	done
-
-
-
-
-
 MahoganyMart1FVeteranFText:
 	text "Unser Keller war"
 	line "früher ein"
 	cont "Ninjaversteck."
-
-	para "Einige ihrer"
-	line "Künste haben bis"
-
-	para "heute überlebt."
-
-	para "Eine Kunst"
-	line "steigert ihr"
-	cont "Schritttempo"
-	cont "enorm."
+	para "Jetzt ist es still"
+	line "- zum Glück."
 	done
-
 Text_MahoganyMart1FTutorAgility:
 	text "Wenn du willst,"
 	line "bringe ich deinem"
@@ -306,21 +261,16 @@ PokemonJournalWillScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Top Vier"
-	line "Will!"
-
-	para "Will redet nicht"
+	line "WILLI!"
+	para "WILLI redet nicht"
 	line "über seine"
-
 	para "Vergangenheit,"
 	line "bevor er zu den"
 	cont "TOP VIER kam."
-
 	para "Manche sagen, er"
 	line "arbeitete für Team"
 	cont "Rocket."
-
 	para "Das #mon"
 	line "Journal spekuliert"
 	cont "nicht darüber."

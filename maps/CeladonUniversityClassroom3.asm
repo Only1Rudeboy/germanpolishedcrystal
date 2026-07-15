@@ -27,17 +27,13 @@ CeladonUniversityClassroom3SparkText:
 	text "Hey! Ich bin"
 	line "Spark. Ich lehre"
 	cont "Wissenschaft--"
-
-	para "gerade"
-	line "#biologie."
-
+	para "gerade #"
+	line "biologie."
 	para "Wir erforschen,"
 	line "wie sich #mon"
 	cont "fortpflanzen."
-
-	para "Prof. Elm hat das"
+	para "PROF. LIND hat das"
 	line "Feld begründet."
-
 	para "Oh, du kennst ihn!"
 	line "Stimmt es, dass er"
 	cont "wirklich in seinem"
@@ -46,7 +42,6 @@ CeladonUniversityClassroom3SparkText:
 
 CeladonUniversityClassroom3TeacherText:
 	text "Suchst du Spark?"
-
 	para "Er ist morgen früh"
 	line "wieder da."
 	done
@@ -69,14 +64,11 @@ CeladonUniversityClassroom3ChildText:
 CeladonUniversityClassroom3LassText:
 	text "Mein Lehrer sagte,"
 	line "Magneton sei eine"
-
 	para "Vereinigung von"
 	line "drei Magnetilo,"
-
 	para "aber Magneton ist"
 	line "10-mal schwerer"
 	cont "als Magnetilo."
-
 	para "Wie geht das?!"
 	done
 
@@ -86,11 +78,11 @@ CeladonUniversityClassroom3Super_nerdText:
 	cont "Voltilamm?"
 
 	para "Sein englischer"
-	line "Name “Mareep”"
+	line "Name 'Mareep'"
 	cont "kommt von der"
 
 	para "Stromeinheit"
-	line "“Ampere.”"
+	line "'Ampere.'"
 
 	para "Vertausch die"
 	line "Buchstaben, dann"
@@ -98,13 +90,13 @@ CeladonUniversityClassroom3Super_nerdText:
 	done
 
 CeladonUniversityClassroom3BlackboardText:
-	text "“Phylogenetik”"
+	text "'Phylogenetik'"
 	line "steht an der"
 	cont "Tafel."
 
-	para "“…#mon lassen"
+	para "'…#mon lassen"
 	line "sich in 14"
-	cont "“Ei-Gruppen”"
+	cont "'Ei-Gruppen'"
 	cont "einteilen, plus"
 	cont "Ditto."
 
@@ -114,7 +106,7 @@ CeladonUniversityClassroom3BlackboardText:
 
 	para "Legendäre #mon"
 	line "wurden nicht"
-	cont "erforscht.”"
+	cont "erforscht.'"
 	done
 
 CeladonUniversityClassroom3Bookshelf1Text:
@@ -131,9 +123,8 @@ CeladonUniversityClassroom3Bookshelf1Text:
 
 CeladonUniversityClassroom3Bookshelf2Text:
 	text "Ein Aufsatz von"
-	line "Prof. Silktree."
-
-	para "“Alph-Ruinen"
-	line "Untersuchungs-"
-	cont "bericht”…"
+	line "PROF. SILKTREE."
+	para "'Alph-Ruinen"
+	line "Untersuchungsberi-"
+	cont "cht'…"
 	done

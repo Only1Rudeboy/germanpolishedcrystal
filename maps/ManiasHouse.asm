@@ -56,9 +56,10 @@ ManiaScript:
 .refusetotakeshuckie
 	jumpthisopenedtext
 
-	text "Ach nein… was soll"
-	line "ich nur tun, wenn"
-	cont "er zurückkommt?"
+	text "Ach nein … was"
+	line "soll ich nur tun,"
+	cont "wenn er"
+	cont "zurückkommt?"
 	done
 
 .returnshuckie
@@ -94,7 +95,7 @@ ManiaScript:
 .refused
 	jumpthisopenedtext
 
-	text "Ach, nein, nein…"
+	text "Ach, nein, nein …"
 	line "das ist so, als"
 	cont "würde man beraubt."
 	done
@@ -103,9 +104,10 @@ ManiaScript:
 	jumpthisopenedtext
 
 	text "Wenn ich mein"
-	line "#mon zurück-"
-	cont "nehme, wer soll"
-	cont "für dich kämpfen?"
+	line "#mon"
+	cont "zurücknehme, wer"
+	cont "soll für dich"
+	cont "kämpfen?"
 	done
 
 .default_postevent
@@ -128,31 +130,25 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "Ich… ich bin"
+	text "Ich … ich bin"
 	line "schockiert!"
-
 	para "Ein Junge in"
 	line "deinem Alter mit"
-
 	para "stechenden Augen"
 	line "und langen Haaren"
 	cont "kam hier rein."
-
 	para "Er hat mich"
 	line "gezwungen, ihm"
 	cont "meine"
 	cont "preisgekrönten"
 	cont "#mon zu geben!"
-
 	para "Ich habe zwar noch"
 	line "eines übrig, aber"
 	cont "was soll ich tun,"
 	cont "wenn er"
 	cont "zurückkommt?"
-
 	para "Du siehst stark"
 	line "aus. Würdest du"
-
 	para "auf mein #mon"
 	line "aufpassen?"
 	done
@@ -164,14 +160,15 @@ ManiaText_TakeCareOfShuckie:
 	line "darauf auf!"
 	done
 ManiaText_GotShuckie:
-	text "<PLAYER> erhält"
-	line "ein #mon."
+	text "<PLAYER> erhält ein"
+	line "#mon."
 	done
 ManiaText_ShuckieSentToPC:
 	text "Das #mon wurde"
-	line "nach "
+	line "nach"
+	done
 	text_ram wStringBuffer1
-	text " geschickt."
+	text "geschickt."
 	done
 
 ManiaText_PartyAndBoxFull:
@@ -182,9 +179,8 @@ ManiaText_PartyAndBoxFull:
 
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hallo! Wie geht es"
-	line "meinem #mon?"
-
+	text "Hallo! Wie geht"
+	line "es meinem #mon?"
 	para "Ich glaube, ich"
 	line "bin jetzt sicher."
 	cont "Kann ich es zurück"
@@ -194,9 +190,11 @@ ManiaText_CanIHaveMyMonBack:
 
 
 
+
 ManiaText_ThankYou:
 	text "Danke!"
 	done
+
 
 
 

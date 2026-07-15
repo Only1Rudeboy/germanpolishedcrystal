@@ -121,7 +121,6 @@ RocketHideoutB4FMeetLeadersScript:
 	text "Candela: Ich sag"
 	line "dir, rohe Kraft"
 	cont "gewinnt immer!"
-
 	para "Training soll hart"
 	line "sein, wie ein"
 	cont "Kampf!"
@@ -140,7 +139,6 @@ RocketHideoutB4FMeetLeadersScript:
 	text "Spark: Ihr beiden"
 	line "verpasst den"
 	cont "Punkt!"
-
 	para "Instinkt ist"
 	line "alles-vertrau ihm!"
 	done
@@ -148,7 +146,6 @@ RocketHideoutB4FMeetLeadersScript:
 .CandelaIntro2Text:
 	text "Candela: Instinkt?"
 	line "Das ist nur Raten!"
-
 	para "Echte Trainer"
 	line "setzen auf Stärke!"
 	done
@@ -239,7 +236,6 @@ RocketHideoutB4FSparkScript:
 .BeatenText:
 	text "Wow, du warst echt"
 	line "klasse!"
-
 	para "Dein Instinkt hat"
 	line "recht gehabt!"
 	done
@@ -253,10 +249,8 @@ RocketHideoutB4FSparkScript:
 	text "Der Malign Lure"
 	line "nutzt kühne"
 	cont "Energie."
-
 	para "So wecke ich etwas"
 	line "Kreativität!"
-
 	para "Nutze ihn mutig!"
 	done
 
@@ -316,7 +310,6 @@ RocketHideoutB4FCandelaScript:
 	text "Okay, du hast"
 	line "heute deine Stärke"
 	cont "bewiesen."
-
 	para "Ich gebe zu: Du"
 	line "hast gewonnen."
 	done
@@ -330,10 +323,9 @@ RocketHideoutB4FCandelaScript:
 	text "Candela: Der Harsh"
 	line "Lure zieht wilde"
 	cont "Kraft an."
-
-	para "Das ist mein Bei-"
-	line "trag zum Projekt."
-
+	para "Das ist mein"
+	line "Beitrag zum"
+	cont "Projekt."
 	para "Nutze ihn weise."
 	done
 
@@ -407,10 +399,9 @@ RocketHideoutB4FBlancheScript:
 	text "Der Potent Lure"
 	line "verstärkt seine"
 	cont "Präzision."
-
-	para "Das ist mein Bei-"
-	line "trag zum Erfolg."
-
+	para "Das ist mein"
+	line "Beitrag zum"
+	cont "Erfolg."
 	para "Nutze ihn"
 	line "vorsichtig."
 	done
@@ -461,7 +452,6 @@ RocketHideoutB4FYoungsterArdenScript:
 .AfterText:
 	text "Ach nein, der"
 	line "Aufzugsschlüssel!"
-
 	para "Candela wird sauer"
 	line "sein!"
 	done
@@ -506,7 +496,6 @@ RocketHideoutB4FTeacherSerena:
 .SeenText:
 	text "Mal sehen, ob du"
 	line "schlau genug bist,"
-
 	para "es mit den"
 	line "Anführern"
 	cont "aufzunehmen!"
@@ -582,55 +571,41 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	text "Candela: Du bist"
 	line "stärker als ich"
 	cont "dachte."
-
 	para "Die Sprays, die"
 	line "wir dir gaben,"
 	cont "sind mehr als sie"
 	cont "wirken."
-
 	para "Blanche: Jeder"
 	line "Lure enthält die"
-
 	para "Essenz eines"
-	line "legendären Vogel-"
-	cont "#mon."
-
+	line "legendären"
+	cont "Vogel-#mon."
 	para "Sie wurden"
 	line "erschaffen, um"
 	cont "andere ihrer Art"
 	cont "anzurufen."
-
 	para "Spark: Aber sie"
 	line "nützen nur am"
 	cont "richtigen Ort."
-
 	para "Deshalb ist der"
 	line "Große Baum so"
 	cont "wichtig."
-
 	para "Candela: Der Baum"
 	line "ist uralt,"
-
 	para "ein heiliger Ort"
 	line "zum Schlafen."
-
 	para "Er ist verbunden"
 	line "mit der Energie"
 	cont "der Region."
-
 	para "Blanche: Mächtige"
 	line "Vögel haben sich"
-
 	para "dort seit"
 	line "Generationen"
 	cont "versammelt."
-
 	para "Der Baum verstärkt"
 	line "den Ruf der Lures."
-
 	para "Spark: Wenn du sie"
 	line "dort einsetzt,"
-
 	para "wer weiß, was"
 	line "erscheinen mag!"
 	done

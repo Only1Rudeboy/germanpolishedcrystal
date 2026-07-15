@@ -56,42 +56,39 @@ BlackthornCitySantosCallback:
 	endcallback
 
 BlackthornCitySignText:
-	text "Ebenholz City"
-
-	para "Ein ruhiger"
-	line "Bergrückzugsort"
+	text "EBENHOLZ CITY"
+	para "Ein ruhiger Ort"
+	line "in den Bergen"
 	done
-
 BlackthornGymSignText:
-	text "Ebenholz City"
-	line "#mon-Arena"
-	cont "Leiterin: Sandra"
-
-	para "Die Gesegnete"
-	line "Nutzerin von"
-	cont "Drachen-#mon"
+	text "PKMN-ARENA von"
+	line "EBENHOLZ CITY"
+	cont "LEITUNG: SANDRA"
+	para "Die gesegnete Dra-"
+	line "chen-#mon-"
+	cont "Trainerin"
 	done
-
 MoveDeletersHouseSignText:
-	text "Haus des Attacken-"
-	line "Verlerners"
+	text "ATTACKEN-VERLERNER"
+	para "Die"
+	line "#mon-Attacken-"
+	cont "Klinik"
 	done
-
 DragonDensSignText:
-	text "Drachenhöhle"
-	line "Voraus"
+	text "DRACHENHÖHLE"
+	para "Vorsicht -Drachen-"
+	line "Territorium!"
 	done
-
 BlackthornCityTrainerTipsText:
-	text "Trainer-Tipps"
-
-	para "Ein #mon mit"
-	line "einer Prunusbeere"
-	cont "heilt sich"
-
-	para "selbst von jedem"
-	line "Status-Problem."
+	text "TIPPS FÜR TRAINER"
+	para "Ein #mon, das"
+	line "eine WUNDERBEERE"
+	para "trägt, kann von"
+	line "sich aus"
+	cont "Statusveränderung-"
+	cont "en heilen."
 	done
+
 
 SantosScript:
 	checkevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
@@ -133,11 +130,9 @@ SantosScript:
 
 .MeetText:
 	text "Santos: …"
-
-	para "Es ist Samstag…"
-
+	para "Es ist Samstag …"
 	para "Ich bin Santos vom"
-	line "Samstag…"
+	line "Samstag …"
 	done
 
 .GivesGiftText:
@@ -164,7 +159,7 @@ BlackthornDragonTamer1Script:
 
 	text "Es tut mir leid."
 
-	para "Clair, unsere"
+	para "SANDRA, unsere"
 	line "Arenaleiterin,"
 	cont "betrat die"
 
@@ -179,7 +174,7 @@ BlackthornDragonTamer1Script:
 	done
 
 .ClairIsInText:
-	text "Clair, unsere"
+	text "SANDRA, unsere"
 	line "Arenaleiterin,"
 	cont "wartet auf dich."
 
@@ -191,7 +186,7 @@ BlackthornDragonTamer1Script:
 	done
 
 .ClairIsBeatenText:
-	text "Du hast Clair"
+	text "Du hast SANDRA"
 	line "besiegt?"
 
 	para "Das ist"
@@ -201,7 +196,7 @@ BlackthornDragonTamer1Script:
 	line "nie, dass sie"
 	cont "außer gegen ihren"
 
-	para "Cousin Siegfried"
+	para "Cousin SIEGFRIED"
 	line "verlor."
 	done
 
@@ -221,7 +216,6 @@ BlackthornBlackbeltScript:
 .Text2:
 	text "Aroo! Stimmen in"
 	line "meinem Kopf!"
-
 	para "Hä? Ich hör ja nur"
 	line "Radio!"
 	done
@@ -237,7 +231,7 @@ BlackthornGramps1Text:
 	done
 
 BlackthornGramps2Text:
-	text "Wenn Clair es"
+	text "Wenn SANDRA es"
 	line "erlaubt, erlaubt"
 	cont "es auch ihr"
 
@@ -255,39 +249,38 @@ BlackthornLassText:
 	done
 
 BlackthornYoungsterText:
-	text "Alle Drachen-"
-	line "meister stammen"
-	cont "aus Ebenholz City."
+	text "Alle"
+	line "Drachenmeister"
+	cont "kommen aus"
+	cont "EBENHOLZ CITY."
 	done
+
 
 BlackthornCooltrainerF1Text:
-	text "Wow, du kamst"
-	line "durch den Eispfad?"
-
-	para "Du musst ein"
-	line "echter Ass-"
-	cont "Trainer sein!"
+	text "Willst du, dass"
+	line "deine #mon"
+	cont "einige Attacken"
+	cont "vergessen?"
 	done
+
 
 BlackthornCooltrainerF2Text:
-	text "Der Feen-Typ wurde"
-	line "erst kürzlich"
-	cont "entdeckt."
-
-	para "Er schaltet"
-	line "Drachen-Typen"
-	cont "komplett aus."
+	text "Wow, du bist über"
+	line "den EISPFAD"
+	cont "gekommen?"
+	para "Du musst ein"
+	line "rich-tiger"
+	cont "Heißsporn sein!"
 	done
+
 
 BlackthornDragonTamer2Text:
 	text "Als unsere"
 	line "Arenaleiterin noch"
 	cont "ein junges"
-
 	para "Mädchen war,"
 	line "trainierte sie"
 	cont "ständig in der"
-
 	para "Drachenhöhle."
 	done
 
@@ -297,7 +290,7 @@ BlackthornDragonTamer3Text:
 	cont "berühmter"
 
 	para "Drachenbändiger,"
-	line "wie Siegfried."
+	line "wie SIEGFRIED."
 
 	para "Er ist der Cousin"
 	line "unserer"

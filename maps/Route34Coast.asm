@@ -32,7 +32,7 @@ GenericTrainerSwimmermFrank:
 .SeenText:
 	text "Ich mache Urlaub"
 	line "mit meiner Frau,"
-	cont "aber OK-- ich"
+	cont "aber O.K.-- ich"
 	cont "kämpfe mit dir."
 	done
 
@@ -60,7 +60,6 @@ TrainerSwimmermNadar:
 .SeenText:
 	text "Schwimmen ist"
 	line "meine Spezialität!"
-
 	para "#mon-Kämpfe"
 	line "auch!"
 	done
@@ -84,9 +83,8 @@ GenericTrainerSwimmermConrad:
 
 .SeenText:
 	text "Creme drauf,"
-	line "Brille runter… Ich"
-	cont "bin bereit"
-
+	line "Brille runter …"
+	cont "Ich bin bereit"
 	para "für die Wellen!"
 	done
 
@@ -145,7 +143,6 @@ GenericTrainerFisherFrancis:
 
 	text "Ob ich gewinne"
 	line "oder verliere,"
-
 	para "ist egal. Ich will"
 	line "Spaß haben und"
 	cont "angeln."

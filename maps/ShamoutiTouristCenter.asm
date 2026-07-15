@@ -68,15 +68,13 @@ LarryScript:
 .RewardText:
 	text "Für mich ist das"
 	line "Beste am Reisen"
-
 	para "die lokalen"
 	line "Speisen."
-
 	para "Das Restaurant"
 	line "nebenan macht"
-
 	para "ein himmlisches"
 	line "Dessert"
+	done
 if DEF(FAITHFUL)
 	line "mit Honig."
 else
@@ -91,37 +89,29 @@ endc
 .IntroText:
 	text "Hallo. Ich bin"
 	line "Larry."
-
 	para "Mein Chef hat mich"
 	line "geschäftlich"
 	cont "hierher geschickt,"
-
 	para "aber ich nutze die"
 	line "Zeit zum Genießen."
-
 	para "Ich aß gerade im"
 	line "Oasis Restaurant"
 	cont "im Hotel."
-
 	para "Das machte Lust"
 	line "auf einen noch"
 	cont "härteren Kampf."
-
 	para "Willst du mit?"
 	done
 
 .RematchText:
 	text "Hallo wieder,"
 	line "<PLAYER>."
-
 	para "Du hast mich schon"
-	line "besiegt — dieser"
-
+	line "besiegt -dieser"
 	para "Kampf wird wohl"
 	line "keinen großen"
 	cont "Eindruck machen."
-
-	para "Trotzdem — sollen"
+	para "Trotzdem - sollen"
 	line "wir?"
 	done
 

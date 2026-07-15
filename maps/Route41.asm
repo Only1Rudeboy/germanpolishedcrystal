@@ -98,7 +98,6 @@ Route41MarlonScript:
 .ChallengeText:
 	text "Du siehst stark"
 	line "aus! Mist!"
-
 	para "Wir sollten"
 	line "unbedingt kämpfen!"
 	done
@@ -127,7 +126,6 @@ Route41MarlonScript:
 .BeatenText:
 	text "Du hast das total"
 	line "gerockt!"
-
 	para "Du beherrschst das"
 	line "Trainer-Ding!"
 	done
@@ -137,7 +135,6 @@ Route41MarlonScript:
 	line "nur stark aus, du"
 	cont "bist auch echt"
 	cont "stark!"
-
 	para "Eh, ich wurde auch"
 	line "weggefegt!"
 	done
@@ -146,14 +143,14 @@ GenericTrainerSwimmerfKaylee:
 	generictrainer SWIMMERF, KAYLEE, EVENT_BEAT_SWIMMERF_KAYLEE, SwimmerfKayleeSeenText, SwimmerfKayleeBeatenText
 
 	text "Tief versteckt auf"
-	line "den STRUDEL-"
-	cont "INSELN soll ein"
-	cont "großes #mon"
-	cont "leben."
-
-	para "Was für ein #-"
-	line "MON das wohl ist?"
+	line "den STRUDEL-INSELN"
+	cont "soll ein großes"
+	cont "#mon leben."
+	para "Was für ein"
+	line "#mon das wohl"
+	cont "ist?"
 	done
+
 GenericTrainerSwimmerfSusie:
 	generictrainer SWIMMERF, SUSIE, EVENT_BEAT_SWIMMERF_SUSIE, SwimmerfSusieSeenText, SwimmerfSusieBeatenText
 
@@ -164,20 +161,20 @@ GenericTrainerSwimmerfSusie:
 	cont "der auf einem"
 	cont "LAPRAS ritt?"
 	done
+
 GenericTrainerSwimmerfDenise:
 	generictrainer SWIMMERF, DENISE, EVENT_BEAT_SWIMMERF_DENISE, SwimmerfDeniseSeenText, SwimmerfDeniseBeatenText
 
 	text "Ein Sonnenbrand"
 	line "ist sehr schlecht"
 	cont "für die Haut."
-
 	para "Aber ich benutze"
 	line "keine Sonnencreme."
-
 	para "Ich möchte das"
 	line "Wasser nicht"
 	cont "verschmutzen."
 	done
+
 GenericTrainerSwimmerfKara:
 	generictrainer SWIMMERF, KARA, EVENT_BEAT_SWIMMERF_KARA, SwimmerfKaraSeenText, SwimmerfKaraBeatenText
 
@@ -186,18 +183,19 @@ GenericTrainerSwimmerfKara:
 	cont "STRUDELINSELN ein"
 	cont "Brüllen gehört."
 	done
+
 GenericTrainerSwimmerfWendy:
 	generictrainer SWIMMERF, WENDY, EVENT_BEAT_SWIMMERF_WENDY, SwimmerfWendySeenText, SwimmerfWendyBeatenText
 
 	text "In der Gruppe"
 	line "fangen STERNDU an"
 	cont "zu leuchten."
-
 	para "Das ist"
 	line "wunderschön und"
 	cont "beängstigend"
 	cont "zugleich."
 	done
+
 GenericTrainerSwimmermCharlie:
 	generictrainer SWIMMERM, CHARLIE, EVENT_BEAT_SWIMMERM_CHARLIE, SwimmermCharlieSeenText, SwimmermCharlieBeatenText
 
@@ -206,19 +204,19 @@ GenericTrainerSwimmermCharlie:
 	cont "auf dem Wasser"
 	cont "treiben zu lassen?"
 	done
+
 GenericTrainerSwimmermGeorge:
 	generictrainer SWIMMERM, GEORGE, EVENT_BEAT_SWIMMERM_GEORGE, SwimmermGeorgeSeenText, SwimmermGeorgeBeatenText
 
 	text "ANEMONIA CITY ist"
 	line "noch so weit weg."
-
 	para "Aber der Rückweg"
 	line "nach OLIVIANA CITY"
 	cont "ist auch nicht"
 	cont "viel kürzer."
-
 	para "Was soll ich tun?"
 	done
+
 GenericTrainerSwimmermBerke:
 	generictrainer SWIMMERM, BERKE, EVENT_BEAT_SWIMMERM_BERKE, SwimmermBerkeSeenText, SwimmermBerkeBeatenText
 
@@ -236,6 +234,7 @@ GenericTrainerSwimmermBerke:
 	cont "fielen ein paar"
 	cont "Federn."
 	done
+
 GenericTrainerSwimmermKirk:
 	generictrainer SWIMMERM, KIRK, EVENT_BEAT_SWIMMERM_KIRK, SwimmermKirkSeenText, SwimmermKirkBeatenText
 
@@ -244,15 +243,17 @@ GenericTrainerSwimmermKirk:
 	cont "die Insel nicht"
 	cont "erreichen."
 	done
+
 GenericTrainerSwimmermMathew:
 	generictrainer SWIMMERM, MATHEW, EVENT_BEAT_SWIMMERM_MATHEW, SwimmermMathewSeenText, SwimmermMathewBeatenText
 
 	text "Ein Geheimnis der"
-	line "STRUDELINSELN…"
-
-	para "Es ist kohlraben-"
-	line "schwarz darinnen!"
+	line "STRUDELINSELN …"
+	para "Es ist"
+	line "kohlrabenschwarz"
+	cont "darinnen!"
 	done
+
 GenericTrainerSwimmermLewis:
 	generictrainer SWIMMERM, LEWIS, EVENT_BEAT_SWIMMERM_LEWIS, SwimmermLewisSeenText, SwimmermLewisBeatenText
 
@@ -268,10 +269,10 @@ SwimmermCharlieSeenText:
 	line "schön warm. Ich"
 	cont "bin also sehr"
 	cont "locker und gelenk."
-
 	para "Natürlich trete"
 	line "ich gegen dich an!"
 	done
+
 
 
 
@@ -280,6 +281,7 @@ SwimmermCharlieBeatenText:
 	text "Oje! Ich habe eine"
 	line "Gänsehaut!"
 	done
+
 
 
 
@@ -294,9 +296,11 @@ SwimmermGeorgeSeenText:
 
 
 
+
 SwimmermGeorgeBeatenText:
 	text "Keuch, japs…"
 	done
+
 
 
 
@@ -315,11 +319,13 @@ SwimmermBerkeSeenText:
 
 
 
+
 SwimmermBerkeBeatenText:
 	text "Was ist das"
 	line "Geheimnis deiner"
 	cont "Stärke?"
 	done
+
 
 
 
@@ -335,9 +341,11 @@ SwimmermKirkSeenText:
 
 
 
+
 SwimmermKirkBeatenText:
 	text "Ich bin besiegt!"
 	done
+
 
 
 
@@ -351,10 +359,12 @@ SwimmermMathewSeenText:
 
 
 
+
 SwimmermMathewBeatenText:
 	text "Ach. Du hast viel"
 	line "Ausdauer!"
 	done
+
 
 
 
@@ -373,7 +383,6 @@ SwimmerfKayleeSeenText:
 	text "Ich bin auf dem"
 	line "Weg zu den"
 	cont "STRUDELINSELN."
-
 	para "Ich gehe mit"
 	line "meinen Kameraden"
 	cont "auf"
@@ -383,9 +392,11 @@ SwimmerfKayleeSeenText:
 
 
 
+
 SwimmerfKayleeBeatenText:
 	text "Ist es so richtig?"
 	done
+
 
 
 
@@ -399,10 +410,12 @@ SwimmerfSusieSeenText:
 
 
 
+
 SwimmerfSusieBeatenText:
 	text "Ich bin"
 	line "geschlagen…"
 	done
+
 
 
 
@@ -416,9 +429,11 @@ SwimmerfDeniseSeenText:
 
 
 
+
 SwimmerfDeniseBeatenText:
 	text "Ohhh!"
 	done
+
 
 
 
@@ -430,10 +445,8 @@ SwimmerfKaraSeenText:
 	cont "über Wasser und"
 	cont "paddle mit den"
 	cont "Füßen."
-
 	para "Auf diese Weise"
 	line "legst du eine"
-
 	para "Ruhepause ein und"
 	line "sammelst Energie."
 	done
@@ -441,10 +454,13 @@ SwimmerfKaraSeenText:
 
 
 
+
 SwimmerfKaraBeatenText:
-	text "Ach! Du bist aus-"
-	line "geruhter als ich."
+	text "Oh! Du bist"
+	line "ausgeruhter als"
+	cont "ich."
 	done
+
 
 
 
@@ -459,9 +475,11 @@ SwimmerfWendySeenText:
 
 
 
+
 SwimmerfWendyBeatenText:
 	text "Oje…"
 	done
+
 
 
 

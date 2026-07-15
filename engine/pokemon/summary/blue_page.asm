@@ -114,7 +114,7 @@ INCLUDE "gfx/stats/blue_page.pal"
 INCLUDE "gfx/stats/blue_hp_bars.pal"
 
 .HPString:
-	db "HP@"
+	db "KP@"
 
 .AbilityTiles:
 	db '<BOLDH>', '1', '2', '<BOLDH>'

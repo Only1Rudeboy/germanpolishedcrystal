@@ -1,31 +1,28 @@
 BethAskNumber1Text:
 	text "Es ist schon eine"
 	line "Weile her, dass"
-
-	para "ich verloren hab…"
-	line "Du kämpfst toll."
-
-	para "Wir sollten wieder"
-	line "kämpfen. Gegen"
-
+	para "ich verloren hab"
+	line "… Du kämpfst"
+	cont "toll."
+	para "Wir sollten"
+	line "wieder kämpfen."
+	cont "Gegen"
 	para "einen starken"
 	line "Trainer wie dich"
-
 	para "werde ich auch"
-	line "besser. Wie wär's?"
-
-	para "Gibst du mir deine"
-	line "Nummer?"
+	line "besser. Wie"
+	cont "wär's?"
+	para "Gibst du mir"
+	line "deine Nummer?"
 	done
 
 BethAskNumber2Text:
 	text "Gegen einen"
 	line "starken Trainer"
 	cont "wie dich"
-
 	para "werde ich besser."
-	line "Gibst du mir deine"
-	cont "Nummer?"
+	line "Gibst du mir"
+	cont "deine Nummer?"
 	done
 
 BethNumberAcceptedText:
@@ -34,11 +31,10 @@ BethNumberAcceptedText:
 	done
 
 BethNumberDeclinedText:
-	text "Schade…"
-
-	para "Sag Bescheid, wenn"
-	line "du es dir anders"
-	cont "überlegst."
+	text "Schade …"
+	para "Sag Bescheid,"
+	line "wenn du es dir"
+	cont "anders überlegst."
 	done
 
 BethPhoneFullText:
@@ -48,6 +44,6 @@ BethPhoneFullText:
 
 BethRematchText:
 	text "Du hast mich"
-	line "warten lassen! Los"
-	cont "geht's!"
+	line "warten lassen!"
+	cont "Los geht's!"
 	done

@@ -100,7 +100,6 @@ GenericTrainerGentlemanGregory:
 
 	text "Als ich noch bei"
 	line "der Armee war, hat"
-
 	para "MAJOR BOB mein"
 	line "Leben gerettet."
 	done
@@ -121,8 +120,7 @@ GenericTrainerJugglerHorton:
 
 	text "Lass dir den Sieg"
 	line "über mich nicht zu"
-
-	para "Kopf steigen…"
+	para "Kopf steigen …"
 	line "MAJOR BOB ist"
 	cont "stark."
 	done
@@ -131,7 +129,6 @@ GenericTrainerGuitaristfJanet:
 
 	text "MAJOR BOB hat"
 	line "beide Schalter"
-
 	para "für die Stromzäune"
 	line "im Müll versteckt."
 	done
@@ -143,20 +140,15 @@ VermilionGymGuyScript:
 
 	text "Yo! Zukünftiger"
 	line "Champ!"
-
 	para "MAJOR BOB ist sehr"
 	line "vorsichtig."
-
 	para "Er hat"
-
 	para "überall in der"
 	line "ARENA Fallen"
 	cont "aufgestellt."
-
 	para "Aber Arenarätsel"
 	line "sind dir doch"
 	cont "vertraut!"
-
 	para "Du kommst ohne"
 	line "Probleme zu MAJOR"
 	cont "BOB."
@@ -214,84 +206,40 @@ VermilionGymStatue:
 	jumpstd gymstatue2
 
 LtSurgeIntroText:
-	text "MAJOR BOB: Heh, du"
-	line "Windelpupser!"
-
-	para "Das muss ich dir"
-	line "lassen. Es ist"
-
-	para "nicht sehr weise,"
-	line "mich"
-	cont "herauszufordern,"
-	cont "aber es ist mutig!"
-
-	para "Wenn es um"
-	line "Elektro-#mon"
-	cont "geht, bin ich die"
-	cont "Nummer eins!"
-
-	para "Ich habe das"
-	line "Schlachtfeld nie"
-
-	para "als Verlierer"
-	line "verlassen."
-
-	para "Ich grille dich,"
-	line "wie ich es mit"
-
-	para "meinen Feinden im"
-	line "Krieg tat!"
+	text "Hey! Schock dich!"
+	line "Ich bin MAJOR BOB!"
+	para "ARENALEITER von"
+	line "ORANIA CITY!"
+	para "Ich habe im Krieg"
+	line "mit"
+	cont "Elektro-#mon"
+	cont "trainiert!"
+	para "Ich werde dich"
+	line "elektrisieren!"
 	done
-
-
-
-
-
 LtSurgeWinLossText:
-	text "MAJOR BOB: Arrrgh!"
-	line "Du bist stark!"
-
-	para "O.K., Wicht. Du"
-	line "erhältst den"
-	cont "DONNERORDEN!"
+	text "Arrgh! Du bist"
+	line "stark!"
+	para "O.K., nimm den"
+	line "DONNERORDEN!"
 	done
-
-
-
-
-
 LtSurgeThunderBadgeText:
-	text "MAJOR BOB: Der"
-	line "DONNERORDEN erhöht"
-
-	para "den INIT-Wert"
-	line "deiner #mon."
-
-	para "Du darfst stolz"
-	line "darauf sein, mich"
-
-	para "besiegt zu haben,"
-	line "hörst du?"
+	text "Der DONNERORDEN"
+	line "erhöht das TEMPO"
+	cont "deiner #mon."
+	para "Außerdem können"
+	line "#mon FLIEGEN"
+	cont "jederzeit nutzen."
+	para "Und hier - TM"
+	line "DONNERBLITZ!"
 	done
-
-
-
-
-
 LtSurgeFightDoneText:
-	text "MAJOR BOB: Zwerg!"
-	line "Immer noch bei der"
-	cont "Sache?"
-
-	para "Meine #mon und"
-	line "ich sind noch"
-	cont "dabei!"
+	text "In der ganzen Welt"
+	line "gibt es starke"
+	cont "Trainer."
+	para "Trainiere weiter,"
+	line "Schockkopf!"
 	done
-
-
-
-
-
 GentlemanGregorySeenText:
 	text "Du willst MAJOR"
 	line "BOB besiegen?"
@@ -317,10 +265,8 @@ GentlemanGregoryBeatenText:
 GuitaristmVincentSeenText:
 	text "MAJOR BOB hat mein"
 	line "Talent für"
-
 	para "Elektro-#mon"
 	line "erkannt."
-
 	para "Glaubst du, du"
 	line "kannst mich"
 	cont "besiegen?"
@@ -373,7 +319,6 @@ VermilionGymFoundSwitchText:
 	text "Ein geheimer"
 	line "Schalter unter dem"
 	cont "Müll?"
-
 	para "Besser drücken."
 	done
 
@@ -386,7 +331,6 @@ VermilionGymFoundFirstSwitchText:
 VermilionGymFoundSecondSwitchText:
 	text "Der zweite"
 	line "Elektrozaun"
-
 	para "ist offen! Der Weg"
 	line "ist frei!"
 	done

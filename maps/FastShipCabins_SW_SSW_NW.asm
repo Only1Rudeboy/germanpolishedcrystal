@@ -54,11 +54,11 @@ GenericTrainerBeautyCassie:
 	line "ist am besten, um"
 	cont "ein gebrochenes"
 	cont "Herz zu vergessen."
-
 	para "Aber eine Reise"
-	line "mit dem SCHNELL-"
-	cont "BOOT ist für die"
-	cont "Trauer zu kurz."
+	line "mit dem"
+	cont "SCHNELL-BOOT ist"
+	cont "für die Trauer zu"
+	cont "kurz."
 	done
 TrainerGuitaristmClyde:
 	trainer GUITARISTM, CLYDE, EVENT_BEAT_GUITARISTM_CLYDE, GuitaristmClydeSeenText, GuitaristmClydeBeatenText, 0, GuitaristmClydeScript
@@ -70,9 +70,8 @@ GuitaristmClydeScript:
 	iffalsefwd .BattleTower
 	jumpthisopenedtext
 
-	text "Apropos RADIO-"
-	line "STATION: Wie "
-
+	text "Apropos"
+	line "RADIO-STATION: Wie"
 	para "lauten die"
 	line "Glückszahlen für"
 	cont "diese Woche?"
@@ -82,12 +81,12 @@ GuitaristmClydeScript:
 
 	text "Ich wollte mein"
 	line "Debut im DUELLTURM"
-	cont "geben…"
-
+	cont "geben …"
 	para "Ich sollte nach"
 	line "ORANIA CITY"
 	cont "zurückgehen und"
-	cont "härter trainieren…"
+	cont "härter trainieren"
+	cont "…"
 	done
 FastShipBed:
 	showtext FastShipBedText1
@@ -155,14 +154,13 @@ Bug_catcherKenBeatenText:
 RichBoyWinstonSeenText:
 	text "Du kannst dir kein"
 	line "Ticket leisten."
-
 	para "Sieht aus, als"
 	line "hätten wir einen"
 	cont "Blindpassagier!"
 	done
 
 RichBoyWinstonBeatenText:
-	text "Wow! Wo hast du"
+	text "Toll! Wo hast du"
 	line "deine #mon her?"
 	done
 
@@ -218,7 +216,6 @@ FastShipBedText2:
 FastShipArrivedOlivineText:
 	text "Die M.S. AQUA legt"
 	line "in"
-
 	para "OLIVIANA CITY an."
 	done
 
@@ -229,7 +226,6 @@ FastShipArrivedOlivineText:
 FastShipArrivedVermilionText:
 	text "Die M.S. AQUA legt"
 	line "in"
-
 	para "ORANIA CITY an."
 	done
 

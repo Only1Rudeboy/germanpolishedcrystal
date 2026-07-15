@@ -48,21 +48,17 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 .Text1:
 	text "Ich wollte dieses"
 	line "Item in der"
-
 	para "SPIELHALLE nutzen,"
 	line "aber sie haben"
 	cont "mich erwischt."
-
 	para "Nimm es lieber."
 	done
 
 GoldenrodUndergroundEntrances_TeacherText:
 	text "Da unten gibt es"
-	line "Geschäfte…"
-
+	line "Geschäfte …"
 	para "Aber da unten sind"
 	line "auch Trainer. Ich"
-
 	para "traue mich nicht"
 	line "hinunter."
 	done
@@ -71,9 +67,7 @@ GoldenrodUndergroundEntrances_SuperNerd1Text:
 	line "wurde ursprünglich"
 	cont "für Lieferungen"
 	cont "zum"
-
 	para "Kaufhaus gebaut."
-
 	para "Er ist auch eine"
 	line "schöne Abkürzung"
 	cont "durch die Stadt."
@@ -83,7 +77,6 @@ GoldenrodUndergroundEntrances_SuperNerd2Text:
 	text "Ich wurde da unten"
 	line "zu einem Kampf"
 	cont "herausgefordert."
-
 	para "Da unten herrschen"
 	line "raue Sitten. Sei"
 	cont "auf der Hut."
@@ -91,10 +84,8 @@ GoldenrodUndergroundEntrances_SuperNerd2Text:
 GoldenrodUndergroundEntrances_BeautyText:
 	text "Ich war auf einer"
 	line "Führung durch den"
-
 	para "FUNK-TURM. Ich sah"
 	line "alle drei Studios"
-
 	para "und aß sogar im"
 	line "Café."
 	done

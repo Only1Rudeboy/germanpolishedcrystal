@@ -147,12 +147,13 @@ GenericTrainerCamperIvan:
 	cont "die Stimmung von"
 	cont "wilden #mon."
 	done
+
 GenericTrainerCoupleGailandeli1:
 	generictrainer COUPLE, GAILANDELI1, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli1SeenText, CoupleGailandeli1BeatenText
 
 	text "Eli: Ich wurde vor"
 	line "meiner Freundin"
-	cont "blamiert…"
+	cont "blamiert …"
 	done
 
 GenericTrainerCoupleGailandeli2:
@@ -171,6 +172,7 @@ GenericTrainerPicnickerKim:
 	line "hübsch. Deshalb"
 	cont "sammle ich sie."
 	done
+
 TrainerBug_catcherArnie1:
 	trainer BUG_CATCHER, ARNIE1, EVENT_BEAT_BUG_CATCHER_ARNIE, Bug_catcherArnie1SeenText, Bug_catcherArnie1BeatenText, 0, .Script
 
@@ -265,9 +267,8 @@ TrainerBug_catcherArnie1:
 .YanmaSwarming:
 	jumpthisopenedtext
 
-	text "Wow… Sieh, all die"
-	line "YANMA!"
-
+	text "Wow … Sieh, all"
+	line "die YANMA!"
 	para "Ich bin"
 	line "überwältigt und"
 	cont "kann mich nicht"
@@ -276,11 +277,11 @@ TrainerBug_catcherArnie1:
 GenericTrainerFirebreatherWalt:
 	generictrainer FIREBREATHER, WALT, EVENT_BEAT_FIREBREATHER_WALT, FirebreatherWaltSeenText, FirebreatherWaltBeatenText
 
-	text "Der #mon-"
-	line "Marsch im Radio"
-	cont "lockt wilde"
-	cont "#mon an."
+	text "Der #mon-Marsch"
+	line "im Radio lockt"
+	cont "wilde #mon an."
 	done
+
 TrainerOfficerDirk:
 	faceplayer
 	opentext
@@ -307,7 +308,6 @@ TrainerOfficerDirk:
 	line "Nacht auf ihre"
 	cont "Weise schön sein"
 	cont "kann."
-
 	para "Aber übertreibe es"
 	line "nicht, O.K.?"
 	done
@@ -323,9 +323,9 @@ TrainerOfficerDirk:
 	done
 CamperIvanSeenText:
 	text "Ich habe aus dem"
-	line "Radio #mon-"
-	cont "Daten erhalten."
-
+	line "Radio"
+	cont "#mon-Daten"
+	cont "erhalten."
 	para "Ich glaube, ich"
 	line "bin gut."
 	done
@@ -335,9 +335,11 @@ CamperIvanSeenText:
 
 
 
+
 CamperIvanBeatenText:
 	text "Ich teile aus!"
 	done
+
 
 
 
@@ -354,7 +356,7 @@ CoupleGailandeli1SeenText:
 CoupleGailandeli1BeatenText:
 	text "Eli: Ich wünschte,"
 	line "du hättest für"
-	cont "mich verloren…"
+	cont "mich verloren …"
 	done
 
 CoupleGailandeli2SeenText:
@@ -373,8 +375,9 @@ CoupleGailandeli2BeatenText:
 
 PicnickerKimSeenText:
 	text "Gehst du auch zur"
-	line "#mon-ARENA?"
+	line "PKMN-ARENA?"
 	done
+
 
 
 
@@ -382,9 +385,10 @@ PicnickerKimSeenText:
 
 
 PicnickerKimBeatenText:
-	text "Ach, ich habe"
+	text "Oh, ich habe"
 	line "verloren…"
 	done
+
 
 
 
@@ -413,10 +417,12 @@ JugglerIrwin1SeenText:
 
 
 
+
 JugglerIrwin1BeatenText:
 	text "Puh, das war ein"
 	line "Ruck!"
 	done
+
 
 
 
@@ -440,10 +446,12 @@ JugglerIrwinAfterBattleText:
 
 
 
+
 Bug_catcherArnie1SeenText:
-	text "Ich gehe überall-"
-	line "hin, wo es Käfer-"
-	cont "#mon gibt."
+	text "Ich gehe"
+	line "überallhin, wo es"
+	cont "Käfer-#mon"
+	cont "gibt."
 	done
 Bug_catcherArnie1BeatenText:
 	text "Ich hätte nicht"
@@ -452,7 +460,6 @@ Bug_catcherArnie1BeatenText:
 BugCatcherArnieAfterBattleText:
 	text "Mit meinem BLUZUK"
 	line "habe ich das"
-
 	para "Käferturnier im"
 	line "NATIONALPARK"
 	cont "gewonnen."
@@ -463,10 +470,12 @@ BugCatcherArnieAfterBattleText:
 
 
 
+
 FirebreatherWaltSeenText:
 	text "Ich übe mich im"
 	line "Feuerspucken."
 	done
+
 
 
 
@@ -484,10 +493,12 @@ FirebreatherWaltBeatenText:
 
 
 
+
 OfficerDirkSeenText:
 	text "Bei Nacht lauern"
 	line "Gefahren!"
 	done
+
 
 
 
@@ -503,6 +514,7 @@ OfficerDirkBeatenText:
 
 
 
+
 Route35SignText:
 	text "ROUTE 35"
 	done
@@ -512,13 +524,12 @@ Route35SignText:
 
 
 
+
 Route35AdvancedTipsSignText:
 	text "Prof-Tipps!"
-
 	para "Registriere bis zu"
-	line "vier Schlüssel-"
-	cont "Items!"
-
+	line "vier"
+	cont "Schlüssel-Items!"
 	para "Über Select kannst"
 	line "du sie schnell"
 	cont "nutzen!"

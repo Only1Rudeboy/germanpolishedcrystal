@@ -6,7 +6,7 @@ JoeyAskNumber1Text:
 	line "Kämpfen an."
 
 	para "Ich bin auch"
-	line "Anfänger — gute"
+	line "Anfänger - gute"
 	cont "Motivation!"
 	done
 
@@ -18,7 +18,7 @@ JoeyAskNumber2Text:
 	line "wieder verlieren!"
 
 	para "Wir müssen wieder"
-	line "kämpfen, OK?"
+	line "kämpfen, O.K.?"
 	done
 
 JoeyNumberAcceptedText:
@@ -41,8 +41,9 @@ JoeyPhoneFullText:
 
 JoeyTopPercentageText:
 	text "Hey, erinnerst du"
-	line "dich an mein super"
-	cont "cooles "
+	line "dich an mein"
+	cont "super cooles"
+	done
 	text_ram wStringBuffer4
 	text "?"
 
@@ -71,16 +72,15 @@ JoeyRematchText:
 JoeyPackFullText:
 	text "Hey, warte! Deine"
 	line "Tasche ist voll!"
-
-	para "Dann beim nächsten"
-	line "Mal."
+	para "Dann beim"
+	line "nächsten Mal."
 	done
 
 JoeyRematchGiftText:
 	text "Und wieder"
 	line "verloren…"
 
-	para "Kein Zweifel — du"
+	para "Kein Zweifel - du"
 	line "bist stark."
 
 	para "So oft zu"
@@ -88,7 +88,7 @@ JoeyRematchGiftText:
 	cont "sich gut an!"
 
 	para "Nimm das. Werde"
-	line "noch stärker —"
+	line "noch stärker -"
 
 	para "das macht mich"
 	line "auch stärker!"

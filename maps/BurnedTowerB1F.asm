@@ -182,49 +182,36 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "Eusine: Ich hab"
+	text "EUSIN: Ich habe"
 	line "hier auch ein Loch"
 	cont "gegraben…"
-
 	para "Ich war geschockt!"
-
-	para "Suicune raste wie"
-	line "ein Blitz direkt"
-	cont "vor meinen Augen"
-
-	para "vorbei!"
-
-	para "Zehn Jahre lang"
-	line "jagte ich Suicune,"
-
-	para "und endlich hab"
-	line "ich es gesehen."
-
-	para "Ich bin ganz"
-	line "gerührt!"
-
-	para "<PLAYER>, das"
-	line "verdanke ich alles"
-	cont "dir!"
-
-	para "Danke!"
-
-	para "Ich hörte, dass"
-	line "die legendären"
-	cont "#mon von Teak"
-
-	para "auserwählte"
-	line "Menschen testen,"
-	cont "indem sie sie nah"
-
-	para "herankommen"
-	line "lassen."
-
-	para "Ich werde Suicune"
-	line "weiter verfolgen."
-
-	para "<PLAYER>, lass uns"
-	line "wiedersehen!"
-
+	para "SUICUNE raste an"
+	line "mir vorbei wie ein"
+	cont "Blitz - direkt vor"
+	cont "meinen Augen!"
+	para "Zehn Jahre habe"
+	line "ich SUICUNE"
+	cont "verfolgt, und"
+	cont "endlich habe ich"
+	cont "es gesehen!"
+	para "Ich bin"
+	line "überwältigt!"
+	para "<PLAYER>, all das"
+	line "verdanke ich dir!"
+	cont "Vielen Dank!"
+	para "Man sagt, die"
+	line "legendären #mon"
+	cont "von TEAK CITY"
+	cont "prüfen"
+	cont "Auserwählte, indem"
+	cont "sie sie nahe"
+	cont "heranlassen."
+	para "Ich setze die"
+	line "Suche nach SUICUNE"
+	cont "fort."
+	para "<PLAYER>, wir"
+	line "müssen uns wieder"
+	cont "treffen!"
 	para "Leb wohl!"
 	done

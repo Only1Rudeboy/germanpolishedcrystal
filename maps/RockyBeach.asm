@@ -33,7 +33,6 @@ RockyBeachSign1Text:
 
 RockyBeachSign2Text:
 	text "Lauter Wald voraus"
-
 	para "Weg zu den"
 	line "Schreinruinen"
 	done
@@ -60,7 +59,6 @@ GenericTrainerBeautyIoana:
 	text "Ich habe von Natur"
 	line "aus eine blasse"
 	cont "Haut,"
-
 	para "deshalb muss ich"
 	line "in der Sonne"
 	cont "vorsichtig sein."
@@ -83,7 +81,6 @@ GenericTrainerSightseerfKamila:
 	text "Alola ist ein"
 	line "Archipel weit von"
 	cont "hier entfernt."
-
 	para "Du solltest es mal"
 	line "besuchen!"
 	done
@@ -106,11 +103,9 @@ GenericTrainerAromaLadyHeather:
 
 	text "Ich studierte"
 	line "Blumenarrangement"
-	cont "bei Erika"
-
+	cont "bei ERIKA"
 	para "an der Universität"
 	line "von PRISMANIA."
-
 	para "Sie lobte diese"
 	line "Insel wegen ihrer"
 	cont "einheimischen"
@@ -122,7 +117,6 @@ GenericTrainerAromaLadyHeather:
 	line "Blume wächst"
 	cont "überall auf dieser"
 	cont "Insel."
-
 	para "Hast du es"
 	line "bemerkt?"
 	done
@@ -149,12 +143,10 @@ GenericTrainerBreederBrenda:
 
 .SeenText:
 	text "Der Schlüssel zur"
-	line "guten #mon-"
-	cont "Zucht"
-
+	line "guten"
+	cont "#mon-Zucht"
 	para "ist eine gute"
 	line "Umgebung."
-
 	para "Besser als hier"
 	line "gibt es keinen"
 	cont "Ort!"
@@ -170,7 +162,6 @@ GenericTrainerSwimmermEzra:
 
 	text "Ich tauche hier"
 	line "gerne."
-
 	para "Es ist toll, unter"
 	line "Wasser atmen zu"
 	cont "können!"
@@ -193,20 +184,16 @@ RockyBeachWilhomenaScript:
 	generictrainer 0, 0, EVENT_TOLD_ABOUT_PIKABLU, .Text1, 0
 
 .Text1
-	text "Ach nein. Ach"
-	line "nein…"
-
+	text "Ach nein. Ach nein"
+	line "…"
 	para "Mein armes Pikablu"
 	line "ist verschwunden."
-
-	para "Nein… Es kann"
+	para "Nein … Es kann"
 	line "nicht in den"
 	cont "Lauten Wald"
 	cont "gelaufen sein."
-
 	para "Ich finde es nie"
-	line "in den Bäumen…"
-
+	line "in den Bäumen …"
 	para "Ach, was soll ich"
-	line "nur tun…?"
+	line "nur tun …?"
 	done

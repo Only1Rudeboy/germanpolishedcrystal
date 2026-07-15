@@ -78,20 +78,15 @@ LakeOfRageFloodScript:
 	endcallback
 
 LakeOfRageSignText:
-	text "SEE DES ZORNS,"
-	line "auch bekannt als"
-	cont "GARADOS-SEE"
+	text "SEE DES ZORNS"
+	para "Auch bekannt als"
+	line "GARADOS-SEE"
 	done
-
-
-
-
-
 LakeOfRageAdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Kraftreserve kann"
 	line "jeden Typ anneh-"
+	done
 if DEF(FAITHFUL)
 	cont "men, außer dem"
 else
@@ -116,8 +111,8 @@ LakeOfRageFishingGuruSign:
 
 .Text:
 
-	text "HAUS DES PROFI-"
-	line "ANGLERs"
+	text "HAUS DES"
+	line "PROFI-ANGLERs"
 	done
 LakeOfRageLanceScript:
 	checkevent EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
@@ -161,80 +156,39 @@ LakeOfRageLanceScript:
 .OverheardText:
 	text "Dieser See ist"
 	line "voller GARADOS."
-	cont "Aber sonst gibt es"
-	cont "hier nichts…"
-
-	para "Die KARPADOR"
-	line "werden also"
-	cont "gezwungen, sich zu"
-	cont "entwickeln…"
+	para "Etwas stört sie…"
+	line "und ich vermute,"
+	cont "TEAM ROCKET steckt"
+	cont "dahinter."
 	done
 .IntroText:
-	text "Bist du wegen der"
-	line "Gerüchte hier?"
-
-	para "Du bist <PLAYER>?"
-	line "Ich bin SIEGFRIED,"
-
-	para "ein Trainer wie"
-	line "du."
-
-	para "Ich hörte einige"
-	line "Gerüchte. Also kam"
-
-	para "ich hierher, um"
-	line "einige"
-	cont "Nachforschungen"
-	cont "anzustellen…"
-
-	para "Ich habe gesehen,"
-	line "wie du kämpfst,"
-	cont "<PLAYER>."
-
-	para "Man kann sagen,"
-	line "dass du ein"
-	cont "Trainer von"
-	cont "bemerkenswertem"
-	cont "Format bist."
-
-	para "Würdest du mir bei"
-	line "meinen"
-	cont "Nachforschungen"
-	cont "helfen?"
+	text "Bist du wegen des"
+	line "roten GARADOS"
+	cont "hier?"
+	para "Ich bin SIEGFRIED"
+	line "- ich untersuche,"
+	cont "was hier vor sich"
+	cont "geht."
+	para "Hilfst du mir?"
 	done
 .YesText:
-	text "SIEGFRIED:"
-	line "Exzellent!"
-
-	para "Es sieht so aus,"
-	line "als würde jemand"
-
-	para "die KARPADOR im"
-	line "SEE zwingen, sich"
-	cont "zu entwickeln."
-
-	para "Die Ursache ist"
-	line "das mysteriöse"
-
-	para "Radiosignal aus"
-	line "MAHAGONIA CITY."
-
-	para "Ich werde auf dich"
-	line "warten, <PLAYER>."
+	text "SIEGFRIED: Gut!"
+	para "Dann treffen wir"
+	line "uns in MAHAGONIA"
+	cont "CITY im"
+	cont "Souvenirladen."
 	done
 .QuestionText:
 	text "SIEGFRIED: Na?"
-	line "Wirst du mir"
-	cont "helfen?"
+	line "Hilfst du mir"
+	cont "jetzt?"
 	done
 LakeOfRageEngineerText:
 	text "Ich bin"
 	line "Stadtplaner."
-
 	para "Ich habe große"
 	line "Pläne für diesen"
 	cont "Ort, warte nur!"
-
 	para "Es ist der"
 	line "perfekte Platz für"
 	cont "mein nächstes"
@@ -270,8 +224,8 @@ LakeOfRageRedGyaradosScript:
 	text "GARADOS: Gashaa!"
 	done
 .RedScaleText:
-	text "<PLAYER> fand Rote"
-	line "Schuppe."
+	text "<PLAYER> findet"
+	line "Rote Schuppe."
 	done
 
 WesleyScript:
@@ -296,10 +250,9 @@ WesleyScript:
 
 	text "Wesley: Der"
 	line "Schwarzgurt"
-
 	para "verstärkt die"
-	line "Kraft von Kampf-"
-	cont "Attacken."
+	line "Kraft von"
+	cont "Kampf-Attacken."
 	done
 
 .NotWednesday:
@@ -328,12 +281,10 @@ WesleyScript:
 .WednesdayText:
 	text "MITKO: Da du mich"
 	line "gefunden hast,"
-
 	para "musst du meine"
 	line "Brüder und"
 	cont "Schwestern"
 	cont "getroffen haben."
-
 	para "Oder hattest du"
 	line "einfach nur Glück?"
 	done
@@ -346,22 +297,26 @@ GenericTrainerCooltrainermAaron:
 	cont "Kämpfen immer"
 	cont "stärker."
 	done
+
 .SeenText:
 
-	text "Trifft ein Trainer"
-	line "auf einen anderen,"
-
-	para "so muss er ihn"
-	line "herausfordern."
-
-	para "Das ist unsere"
-	line "Bestimmung."
+	text "#mon und ihre"
+	line "Trainer werden"
+	cont "durch ständiges"
+	cont "Kämpfen immer"
+	cont "stärker."
 	done
+
 
 .BeatenText:
 
-	text "Wow… Toller Kampf!"
+	text "#mon und ihre"
+	line "Trainer werden"
+	cont "durch ständiges"
+	cont "Kämpfen immer"
+	cont "stärker."
 	done
+
 
 GenericTrainerCooltrainerfLois:
 	generictrainer COOLTRAINERF, LOIS, EVENT_BEAT_COOLTRAINERF_LOIS, .SeenText, .BeatenText
@@ -370,22 +325,22 @@ GenericTrainerCooltrainerfLois:
 	line "habe ein rosa"
 	cont "SMETTBO gesehen!"
 	done
+
 .SeenText:
 	text "Was geschah mit"
 	line "dem roten GARADOS?"
-
 	para "Es ist fort?"
-
 	para "Oh, dann bin ich"
 	line "umsonst"
 	cont "hergekommen."
-
 	para "Ich weiß was! Lass"
 	line "uns kämpfen!"
 	done
+
 .BeatenText:
 	text "Der war gut!"
 	done
+
 GenericTrainerFisherAndre:
 	generictrainer FISHER, ANDRE, EVENT_BEAT_FISHER_ANDRE, FisherAndreSeenText, FisherAndreBeatenText
 
@@ -395,6 +350,7 @@ GenericTrainerFisherAndre:
 	cont "tagaus #mon"
 	cont "fangen."
 	done
+
 FisherAndreSeenText:
 	text "Lass die #mon,"
 	line "die ich gerade"
@@ -406,13 +362,14 @@ FisherAndreSeenText:
 
 
 
+
 FisherAndreBeatenText:
 	text "Ich mag zwar ein"
 	line "guter Angler sein,"
-
 	para "aber als Trainer"
-	line "habe ich versagt…"
+	line "habe ich versagt …"
 	done
+
 
 
 
@@ -425,13 +382,15 @@ GenericTrainerFisherRaymond:
 	line "keine guten"
 	cont "#mon fangen?"
 	done
+
 FisherRaymondSeenText:
 	text "Ich kann tun, was"
 	line "ich will. Ich"
 	cont "fange immer nur"
 	cont "die gleichen"
-	cont "#mon…"
+	cont "#mon …"
 	done
+
 
 
 
@@ -441,6 +400,7 @@ FisherRaymondBeatenText:
 	text "Meine Schnur hat"
 	line "sich verheddert…"
 	done
+
 
 
 
@@ -459,39 +419,21 @@ LakeOfRageGrampsScript:
 	done
 
 .Text2:
-	text "Haha! Die KARPA-"
-	line "DOR beißen!"
+	text "Haha! Die"
+	line "KARPA-DOR beißen!"
 	done
 LakeOfRageSuperNerdText:
 	text "Ich habe gehört,"
-	line "dieser See"
-	cont "entstand durch"
-	cont "wütende GARADOS."
-
-	para "Ich frage mich, ob"
-	line "da eine Verbindung"
-
-	para "zu der momentanen"
-	line "Situation besteht!"
+	line "TEAM ROCKET steckt"
+	cont "hinter dem"
+	cont "wütenden roten"
+	cont "GARADOS…"
 	done
-
-
-
-
-
 LakeOfRageCooltrainerFText:
-	text "Täuschen mich"
-	line "meine Augen? Ich"
-	cont "sah"
-
-	para "ein rotes GARADOS"
-	line "im SEE…"
-
-	para "Aber ich dachte,"
-	line "GARADOS sind blau!"
+	text "Bist du wegen des"
+	line "roten GARADOS"
+	cont "hier?"
+	para "Es soll"
+	line "unglaublich stark"
+	cont "sein!"
 	done
-
-
-
-
-

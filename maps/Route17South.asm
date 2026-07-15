@@ -57,12 +57,11 @@ GenericTrainerBikerJoel:
 	cont "schwach, also bin"
 	cont "ich nicht wirklich"
 	cont "cool."
-
 	para "Ich muss härter"
-	line "trainieren…"
+	line "trainieren …"
 	done
 BikerJoelSeenText:
-	text "Wow! Das ist ein"
+	text "Toll! Das ist ein"
 	line "tolles FAHRRAD!"
 	done
 BikerJoelBeatenText:
@@ -118,7 +117,6 @@ BikerJacobSeenText:
 	text "Mein FAHRRAD"
 	line "aufzupimpen kostet"
 	cont "viel Geld!"
-
 	para "Ich brauche einen"
 	line "Job!"
 	done
@@ -220,7 +218,6 @@ GenericTrainerRoughneckTheron:
 
 	text "Willst du meinem"
 	line "Team beitreten?"
-
 	para "Willst du es nicht"
 	line "mal probieren?"
 	done
@@ -267,14 +264,11 @@ Route17SouthNotice1Text:
 
 Route17SouthTrainerTips1Text:
 	text "Trainer-Tipps"
-
 	para "Alle #mon sind"
 	line "einzigartig."
-
 	para "Zwei #mon"
 	line "derselben Art und"
 	cont "Stufe können"
-
 	para "anders aussehen,"
 	line "sich verhalten und"
 	cont "wachsen."
@@ -282,11 +276,9 @@ Route17SouthTrainerTips1Text:
 
 Route17SouthTrainerTips2Text:
 	text "Trainer-Tipps"
-
-	para "Öffne das START-"
-	line "Menü, um an einer"
-	cont "Steigung"
-
+	para "Öffne das"
+	line "START-Menü, um an"
+	cont "einer Steigung"
 	para "stehen zu bleiben."
 	done
 

@@ -100,7 +100,6 @@ RuinsOfAlphInnerChamberTeacherText:
 	text "Dieser Ort strahlt"
 	line "eine eigenartige"
 	cont "Mystik aus."
-
 	para "Man könnte es fast"
 	line "schon als"
 	cont "ätherisch"
@@ -117,7 +116,6 @@ RuinsOfAlphInnerChamberGrampsText:
 	text "Antike Bauten sind"
 	line "oft Grabstätten"
 	cont "für Könige."
-
 	para "Wie zum Beispiel"
 	line "die Pyramiden."
 	done
@@ -132,19 +130,15 @@ RuinsOfAlphInnerChamberScientistText:
 	text "Die Muster an der"
 	line "Wand sehen aus wie"
 	cont "Worte!"
-
 	para "Und diese"
 	line "schiebenden"
 	cont "Steinplatten"
 	cont "scheinen"
-
 	para "so etwas wie"
 	line "Signale zu sein."
-
 	para "Ich glaube, sie"
 	line "lassen #mon"
-
 	para "erscheinen, aber"
 	line "das ist noch"
-	cont "unklar…"
+	cont "unklar …"
 	done

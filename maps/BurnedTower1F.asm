@@ -189,133 +189,94 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "…… …… ……"
-
+	text "………"
 	para "…Oh, du bist es."
-
 	para "Ich suchte nach"
-	line "einem legendären"
-	cont "#mon, das hier"
-
-	para "nisten soll."
-
+	line "legendären"
+	cont "#mon, die"
+	cont "angeblich hier"
+	cont "leben."
 	para "Aber hier ist"
 	line "nichts!"
-
-	para "Nichts, nach der"
-	line "ganzen Mühe, in"
-	cont "diese Bruchbude"
-
-	para "zu kommen? Auf"
-	line "keinen Fall!"
-
+	para "Nichts, das den"
+	line "Weg hierher"
+	cont "rechtfertigt."
+	cont "Absolut nichts."
 	para "Das ist alles"
 	line "deine Schuld!"
 	done
-
 BurnedTowerRival_WinText:
-	text "…Pah!"
-
-	para "Deshalb hasse ich"
-	line "Kämpfe gegen"
-	cont "Schwächlinge."
-
-	para "Das ist keine"
+	text "…Humpf!"
+	para "Darum hasse ich"
+	line "es, gegen"
+	cont "Schwächlinge"
+	cont "anzutreten."
+	para "Es ist keine"
 	line "Herausforderung."
 	done
-
 BurnedTowerRival_AfterText1:
-	text "…Ach, was soll's."
-
-	para "Du könntest"
-	line "sowieso nie ein"
+	text "…Ach, egal!"
+	para "Du wärst sowieso"
+	line "nicht fähig, ein"
 	cont "legendäres #mon"
-
-	para "fangen."
+	cont "zu fangen."
 	done
-
 BurnedTowerRival_LossText:
-	text "…Pah!"
-
-	para "Deshalb hasse ich"
-	line "Kämpfe gegen"
-	cont "Schwächlinge."
-
-	para "Das ist reine"
-	line "Zeitverschwendung."
+	text "…Humpf!"
+	para "Ich hasse es,"
+	line "gegen Schwächlinge"
+	cont "anzutreten."
+	cont "Zeitverschwendung."
 	done
-
 BurnedTowerRival_AfterText2:
-	text "Pah!"
-
-	para "Warum fällst du in"
-	line "ein Loch? Ein"
-	cont "echtes Genie"
-
-	para "bist du!"
-
-	para "Geschieht dir"
+	text "Humpf!"
+	para "Was hast du dir"
+	line "dabei gedacht,"
+	cont "einfach in ein"
+	cont "Loch zu fallen? Du"
+	cont "Genie!"
+	para "Das geschieht dir"
 	line "recht!"
 	done
-
 BurnedTower1FEusineIntroText:
-	text "Eusine: Ich heiße"
-	line "Eusine."
-
-	para "Ich bin einem"
+	text "EUSIN: Ich heiße"
+	line "EUSIN."
+	para "Ich suche ein"
 	line "#mon namens"
-	cont "Suicune auf der"
-
-	para "Spur."
-
-	para "Und du bist…?"
-
-	para "<PLAYER>? Freut"
-	line "mich!"
-
-	para "Ich hörte"
-	line "Gerüchte, dass"
-	cont "Suicune in dieser"
-
-	para "Turmruine ist,"
-	line "drum bin ich"
-	cont "hergekommen."
-
-	para "Aber wo genau"
-	line "könnte es sein?"
+	cont "SUICUNE."
+	para "Und wer bist du?"
+	line "<PLAYER>? Schön,"
+	cont "dich"
+	cont "kennenzulernen!"
+	para "Ich hörte, SUICUNE"
+	line "sei hier in der"
+	cont "TURMRUINE -deshalb"
+	cont "bin ich gekommen."
+	para "Aber wo genau ist"
+	line "es?"
 	done
-
 BurnedTower1FEusineText:
-	text "Eusine: Ich hörte,"
-	line "dass Suicune in"
-	cont "dieser"
-
-	para "Turmruine ist,"
-	line "drum bin ich"
-	cont "hergekommen."
-
-	para "Aber wo genau"
-	line "könnte es sein?"
+	text "Ich hörte, SUICUNE"
+	line "sei hier in der"
+	cont "TURMRUINE -deshalb"
+	cont "wollte ich es"
+	cont "sehen."
+	para "Aber wo genau ist"
+	line "es?"
 	done
-
 BurnedTower1FMortyText:
-	text "Jens: Der"
-	line "Arenaleiter Teaks"
-	cont "muss die"
-
-	para "legendären #mon"
-	line "studieren--"
-	cont "Suicune, Entei"
-
-	para "und Raikou."
-
-	para "Eusine ist hier,"
-	line "drum untersuche"
-	cont "ich den Turm mit"
-
-	para "ihm."
+	text "JENS: Als"
+	line "ARENALEITER von"
+	cont "TEAK CITY muss ich"
+	cont "die legendären"
+	cont "#mon studieren"
+	cont "- SUICUNE, ENTEI"
+	cont "und RAIKOU."
+	para "EUSIN ist"
+	line "gekommen, also"
+	cont "untersuche ich den"
+	cont "TURM mit ihm."
 	done
-
 HexManiacTamaraSeenText:
 	text "Eine seltsame"
 	line "Kraft ist hier zu"
@@ -342,7 +303,6 @@ FirebreatherNedBeatenText:
 FirebreatherDickBeforeText:
 	text "Hey, ich trainiere"
 	line "hier heimlich!"
-
 	para "Blamier mich"
 	line "nicht, indem du"
 	cont "zuschaust!"
@@ -357,7 +317,6 @@ FirebreatherDickAfterText:
 	text "Ich war so in mein"
 	line "Training vertieft,"
 	cont "dass"
-
 	para "ich in dieses Loch"
 	line "gefallen bin."
 	done

@@ -168,8 +168,8 @@ NoAbilityDescription:
 	done
 
 StenchDescription:
-	text "Kann Gegner zum"
-	next "Zittern bringen."
+	text "Kann Gegner"
+	next "zurückschrecken."
 	done
 
 DrizzleDescription:
@@ -195,7 +195,7 @@ SturdyDescription:
 
 DampDescription:
 	text "Verhindert Selbst-"
-	next "zerstörungszüge."
+	next "zerstörung."
 	done
 
 LimberDescription:
@@ -204,8 +204,8 @@ LimberDescription:
 	done
 
 SandVeilDescription:
-	text "Erhöht Ausweich-"
-	next "chance im Sturm."
+	text "Höhere Flucht-"
+	next "werte im Sand."
 	done
 
 StaticDescription:
@@ -287,18 +287,18 @@ LevitateDescription:
 
 EffectSporeDescription:
 	text "Berührung kann"
-	next "Status auslösen."
+	next "Status verleihen."
 	done
 
 SynchronizeDescription:
 	text "Gibt eigenen"
-	next "Status an Gegner."
+	next "Status weiter."
 	done
 
 ClearBodyDescription:
 WhiteSmokeDescription:
-	text "Schützt vor Senken"
-	next "eigener Werte."
+	text "Schützt vor dem"
+	next "Senken der Werte."
 	done
 
 NaturalCureDescription:
@@ -308,7 +308,7 @@ NaturalCureDescription:
 
 LightningRodDescription:
 	text "Elektro-Attacken"
-	next "erhöhen SpAng."
+	next "erhöhen Sp.Ang."
 	done
 
 SereneGraceDescription:
@@ -348,7 +348,7 @@ PoisonPointDescription:
 
 InnerFocusDescription:
 	text "Schützt vor"
-	next "Zittern."
+	next "Zurückschrecken."
 	done
 
 MagmaArmorDescription:
@@ -508,7 +508,7 @@ RivalryDescription:
 
 SteadfastDescription:
 	text "Erhöht Tempo bei"
-	next "eigenem Zittern."
+	next "Zurückschrecken."
 	done
 
 SnowCloakDescription:
@@ -567,7 +567,7 @@ HydrationDescription:
 	done
 
 SolarPowerDescription:
-	text "Erhöht SpAng,"
+	text "Erhöht Sp.Ang.,"
 	next "senkt KP in Sonne."
 	done
 
@@ -832,7 +832,7 @@ BulletproofDescription:
 	done
 
 CompetitiveDescription:
-	text "Erhöht SpAng bei"
+	text "Erhöht Sp.Ang. bei"
 	next "Wertsenkung."
 	done
 
@@ -857,7 +857,7 @@ ParentalBondDescription:
 	done
 
 BerserkDescription:
-	text "Erhöht SpAng bei"
+	text "Erhöht Sp.Ang. bei"
 	next "über 50% Schaden."
 	done
 

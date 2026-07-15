@@ -94,14 +94,12 @@ Route34IlexForestGateTeacherReturnsMovement:
 	step_end
 
 Route34IlexForestGateTeacherText:
-	text "Ach, interessant."
+	text "Oh, interessant."
 	line "Du erstellst einen"
-	cont "#dex?"
-
+	cont "#DEX?"
 	para "Das muss schwierig"
 	line "sein, wenn du"
 	cont "keine #mon"
-
 	para "triffst. Versuche"
 	line "es mit dieser TM."
 	done
@@ -110,11 +108,11 @@ Route34IlexForestGateTeacherText:
 
 
 
+
 Route34IlexForestGateTeacher_ForestIsRestless:
 	text "Etwas stimmt nicht"
-	line "im STEINEICHEN-"
-	cont "WALD!"
-
+	line "im"
+	cont "STEINEICHEN-WALD!"
 	para "Geh nicht hinein!"
 	done
 
@@ -129,17 +127,17 @@ Route34IlexForestGateHeracrossText:
 Route34IlexForestGateLassText:
 	text "Hast du den"
 	line "Schrein gesehen,"
-	cont "der dem Schutz-"
-	cont "patron huldigt?"
-
+	cont "der dem"
+	cont "Schutzpatron"
+	cont "huldigt?"
 	para "Er wacht über den"
 	line "WALD, aus einer"
 	cont "anderen Zeit."
-
 	para "Ich glaube, das"
 	line "ist ein"
 	cont "Pflanzen-#mon."
 	done
+
 
 
 

@@ -382,72 +382,49 @@ CinnabarLabRoom4SignText:
 	done
 
 CinnabarLabLockedDoorText:
-	text "Es ist verriegelt…"
+	text "Es ist verriegelt"
+	line "…"
 	done
 CinnabarLabContinueTestingText:
 	text "Setzt die Tests"
 	line "fort."
-
 	para "Eure Schöpfung hat"
 	line "sich bisher sehr"
-	cont "gut bewährt,"
-	cont "Dr. Fu--"
+	cont "gut bewährt, Dr."
+	cont "Fu--"
 	done
 
 CinnabarLabGiovanniWhoAreYouText:
-	text "Wer bist du?! Du"
-	line "gehörst nicht zu"
-	cont "Team Rocket."
-
-	para "Bist du ein Spion"
-	line "der Polizei?"
-
-	para "…Gut. Du willst"
-	line "was über Team"
-	cont "Rockets Geschäfte"
-	cont "wissen? Ich zeige"
-	cont "es dir."
-
-	para "Die mächtigsten"
-	line "#mon der Welt…"
+	text "…Wer bist du?"
+	para "Ich bin GIOVANNI."
+	line "Früher Boss von"
+	cont "TEAM ROCKET."
+	para "Verschwinde. Dies"
+	line "ist nicht dein"
+	cont "Ort."
 	done
-
 CinnabarLabGiovanniAttackText:
-	text "Giovanni: Angriff!"
+	text "Du willst kämpfen?"
+	line "Dann zeige ich dir"
+	cont "meine wahre Macht!"
 	done
-
 CinnabarLabGiovanniBeatenText:
-	text "Giovanni: Was?!"
-	line "Unmöglich!"
+	text "Wieder… besiegt…"
 	done
-
 CinnabarLabGiovanniAfterText:
-	text "Giovanni: Wie"
-	line "konnte ein Kind"
-
-	para "wie du das"
-	line "perfekte #mon"
-	cont "besiegen?"
-
-	para "Es wurde"
-	line "erschaffen, um"
-
-	para "für mich zu"
-	line "kämpfen! Es darf"
-
-	para "doch nicht so"
-	line "nutzlos sein!"
+	text "Ich werde im"
+	line "Schatten bleiben"
+	cont "und trainieren."
+	para "Eines Tages…"
 	done
-
 CinnabarLabMewtwoText:
 	text "???: Myuu!"
 	done
 
 CinnabarLabGiovanniStopText:
-	text "Giovanni: Hör"
-	line "sofort auf!"
+	text "Halt! Nicht"
+	line "weiter!"
 	done
-
 CinnabarLabCelebiText:
 	text "Celebi: Biii!"
 	done

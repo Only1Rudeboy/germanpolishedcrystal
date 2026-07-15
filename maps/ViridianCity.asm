@@ -67,10 +67,8 @@ ViridianCityGrampsNearGym:
 	line "bis vor kurzem"
 	cont "keinen"
 	cont "ARENALEITER."
-
 	para "Ein junger Mann"
 	line "aus ALABASTIA"
-
 	para "wurde der neue"
 	line "LEITER, aber er"
 	cont "ist oft unterwegs."
@@ -126,24 +124,19 @@ ViridianCityTutorDreamEaterScript:
 ViridianCityCoffeeGrampsQuestionText:
 	text "He, Kurzbein! Ich"
 	line "hatte gerade einen"
-
 	para "doppelten Espresso"
 	line "und ich bin total"
 	cont "aufgedreht!"
-
 	para "Ich brauche jetzt"
 	line "jemanden zum"
 	cont "Reden, und zwar"
 	cont "dich!"
-
 	para "Man sieht es mir"
 	line "jetzt vielleicht"
-
 	para "nicht mehr an,"
 	line "aber ich war ein"
 	cont "Experte im Fangen"
 	cont "von #mon."
-
 	para "Glaubst du mir?"
 	done
 
@@ -155,10 +148,8 @@ ViridianCityCoffeeGrampsQuestionText:
 ViridianCityCoffeeGrampsDoubtedText:
 	text "Was? Du kleiner"
 	line "Frechdachs!"
-
 	para "Wenn ich etwas"
 	line "jünger wäre, würde"
-
 	para "ich dir schon das"
 	line "eine oder andere"
 	cont "zeigen! Grummel."
@@ -173,7 +164,6 @@ ViridianCityGrampsNearGymBlueReturnedText:
 	text "Wirst du den"
 	line "ARENALEITER"
 	cont "herausfordern?"
-
 	para "Viel Glück! Du"
 	line "wirst es brauchen."
 	done
@@ -185,28 +175,20 @@ ViridianCityGrampsNearGymBlueReturnedText:
 
 ViridianCityDreamEaterFisherText:
 	text "Gähn!"
-
 	para "Ich bin wohl in"
 	line "der Sonne"
 	cont "eingeschlafen."
-
-	para "…Ich hatte diesen"
+	para "… Ich hatte diesen"
 	line "Traum von einem"
-
 	para "TRAUMATO, das"
 	line "meinen Traum"
-
 	para "fressen wollte."
 	line "Das ist doch"
-
 	para "merkwürdig, nicht"
 	line "wahr?"
-
 	para "Nanu! Was ist das?"
-
 	para "Wo ist diese TM"
 	line "hergekommen?"
-
 	para "Unheimlich! Hier,"
 	line "du kannst die TM"
 	cont "behalten."
@@ -221,7 +203,6 @@ Text_ViridianCityTutorDreamEater:
 	text "Ich bringe deinem"
 	line "#mon bei,"
 	cont "Träume zu fressen."
-
 	para "Dafür will ich nur"
 	line "ein Silberblatt."
 	done
@@ -235,16 +216,16 @@ Text_ViridianCityTutorQuestion:
 	done
 
 Text_ViridianCityTutorRefused: ; text > text
-	text "OK…"
+	text "O.K.…"
 	done
 
 
 ViridianCityYoungsterText:
 	text "Ich habe gehört,"
 	line "dass man viele"
-
-	para "Items im VERTANIA-"
-	line "WALD findet."
+	para "Items im"
+	line "VERTANIA-WALD"
+	cont "findet."
 	done
 
 
@@ -270,23 +251,16 @@ ViridianCityYoungster2Text:
 
 ViridianCitySignText:
 	text "VERTANIA CITY"
-
 	para "Das Immergrüne"
 	line "Paradies"
 	done
-
-
-
-
-
-
 ViridianGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "VERTANIA CITY"
 	cont "LEITUNG: …"
-
-	para "Der Rest des Tex-"
-	line "tes ist unlesbar…"
+	para "Der Rest des"
+	line "Textes ist"
+	cont "unlesbar…"
 	done
 
 
@@ -314,7 +288,7 @@ ViridianCityTrainerTips2Text:
 
 	para "Lauf nicht nur"
 	line "herum oder nutze"
-	cont "FLIEGEN — schau"
+	cont "FLIEGEN - schau"
 	cont "dich um!"
 
 	para "Du findest neue,"

@@ -51,7 +51,6 @@ GoldenrodDeptStore5FReceptionistScript:
 	jumpthisopenedtext
 
 	text "Es ist entzückend!"
-
 	para "Du solltest ihm"
 	line "gute VM-Attacken"
 	cont "beibringen."
@@ -100,6 +99,7 @@ GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
 
 
 
+
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
 	text "Es hängt sehr an"
 	line "dir."
@@ -111,11 +111,13 @@ GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
 
 
 
+
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
 	text "Die GEHEIMGABE"
 	line "erfordert einen"
 	cont "Game Boy Color."
 	done
+
 
 
 
@@ -129,10 +131,10 @@ GoldenrodDeptStore5FLassText:
 	line "eine Dame, um nach"
 	cont "den #mon zu"
 	cont "sehen."
-
 	para "Sie verteilt sogar"
 	line "TMs!"
 	done
+
 
 
 
@@ -147,17 +149,18 @@ GoldenrodDeptStore5FPokefanMText:
 	line "die Gefühle des"
 
 	para "Original-Trainers"
-	line "wider."
+	line "wieder."
 	done
+
 
 
 
 GoldenrodDeptStore5FDirectoryText:
 	text "Rüste deine"
 	line "#mon auf."
-
 	para "4S TM-ECKE"
 	done
+
 
 
 

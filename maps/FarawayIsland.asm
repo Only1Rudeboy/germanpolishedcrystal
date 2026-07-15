@@ -156,33 +156,26 @@ SeagallopFerryFarawayIslandRefusedText:
 FarawayIslandLawrenceText1:
 	text "Lawrence: Nun, das"
 	line "ist wirklich"
-
 	para "eine Freude, wenn"
 	line "auch eine"
 	cont "unerwartete."
-
 	para "Ich kam her, um"
 	line "mich zu erinnern,"
-
 	para "wie meine Sammlung"
-	line "begann…"
-
-	para "mit einer Mew-"
-	line "Schnitzerei, die"
-	cont "auf dieser Insel"
-	cont "gefunden wurde."
-
-	para "…Ich hab über"
+	line "begann …"
+	para "mit einer"
+	line "Mew-Schnitzerei,"
+	cont "die auf dieser"
+	cont "Insel gefunden"
+	cont "wurde."
+	para "… Ich hab über"
 	line "unseren letzten"
 	cont "Kampf nachgedacht."
-
 	para "Ich möchte die"
 	line "Bindung verstehen,"
 	cont "die du zu"
-
 	para "deiner Sammlung"
 	line "hast."
-
 	para "Willst du noch mal"
 	line "gegen mich"
 	cont "kämpfen?"
@@ -202,14 +195,12 @@ FarawayIslandLawrenceBeatenText:
 	done
 
 FarawayIslandLawrenceText2:
-	text "Lawrence: …Ich"
+	text "Lawrence: … Ich"
 	line "sehe. Ich hab noch"
 	cont "weit zu gehen,"
-
 	para "ehe ich eine noch"
 	line "bessere Sammlung"
 	cont "aufbauen kann."
-
 	para "Lebewohl."
 	done
 
@@ -217,20 +208,16 @@ FarawayIslandSignText:
 	text "Die Schrift"
 	line "verblasst, als"
 	cont "wäre sie"
-
 	para "vor langer Zeit"
-	line "geschrieben…"
-
-	para "“…ber, 6. Tag"
-
+	line "geschrieben …"
+	para "' … ber, 6. Tag"
 	para "Sollte je ein"
 	line "Mensch wieder"
-	cont "hierher kommen…"
+	cont "hierher kommen …"
 	cont "möge es ein"
 	cont "gutherziger Mensch"
-
-	para "…mit dieser"
-	line "Hoffnung gehe ich…"
-
-	para "…ji"
+	para "… mit dieser"
+	line "Hoffnung gehe ich"
+	cont "…"
+	para "… ji"
 	done

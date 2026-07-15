@@ -57,7 +57,7 @@ AnthonyGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " und ich — wir"
+	text " und ich - wir"
 	line "haben"
 
 	para "Energie im"

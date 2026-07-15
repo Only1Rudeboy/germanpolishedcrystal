@@ -96,21 +96,16 @@ CeladonMansionManagerScript:
 .NoMintLeafText:
 	text "Oh, hallo,"
 	line "Schätzchen."
-
 	para "Ich trinke Tee mit"
 	line "meinem lieben"
 	cont "#mon."
-
 	para "Hättest du ein"
 	line "Minzblatt,"
-
 	para "lüde ich dich ein,"
 	line "mitzumachen."
-
 	para "#mon lieben"
 	line "Minze in ihrem"
 	cont "Tee."
-
 	para "Sie verändert"
 	line "dauerhaft ihre"
 	cont "Wesensart!"
@@ -144,7 +139,8 @@ CeladonMansionManagerScript:
 
 .LikedFlavorText:
 	text "Was für einen"
-	line "Geschmack mag "
+	line "Geschmack mag"
+	done
 	text_ram wStringBuffer1
 	cont "wohl?"
 	done
@@ -158,10 +154,9 @@ CeladonMansionManagerScript:
 	text "Ein ungewöhnlicher"
 	line "Wunsch, aber ich"
 	cont "brau ihn!"
-
 	para "Eine Tasse für"
 	line "dich, eine für"
-	cont ""
+	done
 	text_ram wStringBuffer1
 	text "!"
 	done
@@ -169,17 +164,16 @@ CeladonMansionManagerScript:
 .TeaIsReadyText:
 	text "Okay! Hier ist"
 	line "dein Tee."
-
 	para "Eine Tasse für"
 	line "dich, eine für"
-	cont ""
+	done
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 .MonLooksDifferentText:
 	text_ram wStringBuffer1
-	text " sieht irgendwie"
+	text "sieht irgendwie"
 	line "anders aus!"
 	done
 

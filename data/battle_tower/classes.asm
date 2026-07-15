@@ -10,7 +10,7 @@ BattleTowerTrainers:
 	rawchar "Hare@@@@@", RUIN_MANIAC
 	rawchar "Murray@@@", SAILOR
 	rawchar "Suh@@@@@@", ELDER
-	rawchar "Siegfried", TAMER
+	rawchar "SIEGFRIED", TAMER
 	rawchar "Scipio@@@", BURGLAR
 	rawchar "Walter@@@", ELDER
 	rawchar "Eleni@@@@", BATTLE_GIRL

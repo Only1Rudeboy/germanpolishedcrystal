@@ -42,7 +42,6 @@ ProfOaksAide3Script:
 	text "Das Machoband"
 	line "hilft einem"
 	cont "#mon beim"
-
 	para "Kämpfen stärker zu"
 	line "werden,"
 	cont "verlangsamt es"
@@ -71,26 +70,21 @@ GenericTrainerGruntM12:
 CliffEdgeGateReceptionistText:
 	text "Der Gelbe Wald ist"
 	line "hier entlang!"
-
 	para "Ein beliebtes"
 	line "Ausflugsziel!"
 	done
 
 ProfOaksAide3HiText:
 	text "Hallo! Ich bin"
-	line "Prof. Linds"
+	line "PROF. LINDs"
 	cont "Gehilfe."
-
 	para "Wenn du 45"
 	line "#mon-Arten"
 	cont "gefangen hast,"
-
 	para "soll ich dir ein"
 	line "Item geben."
-
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
-
 	para "45 #mon-Arten"
 	line "gefangen?"
 	done
@@ -98,13 +92,10 @@ ProfOaksAide3HiText:
 ProfOaksAide3UhOhText:
 	text "Mal sehen… Oh! Du"
 	line "hast nur"
-
-	para ""
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-
+	text "Arten"
 	para "gefangen."
-
 	para "Komm wieder, wenn"
 	line "du 45 Arten hast."
 	done
@@ -112,13 +103,10 @@ ProfOaksAide3UhOhText:
 ProfOaksAide3HereYouGoText:
 	text "Mal sehen… Super!"
 	line "Du hast"
-
-	para ""
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-
+	text "Arten"
 	para "gefangen."
-
 	para "Glückwunsch! Hier,"
 	line "bitte!"
 	done

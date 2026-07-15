@@ -44,8 +44,8 @@ HiddenPowerGuy:
 	jumpthisopenedtext
 
 	text "Ich spür es…"
-
-	para "Dein "
+	para "Dein"
+	done
 	text_ram wStringBuffer3
 	line "hat eine"
 	cont "Kraftreserve"
@@ -59,7 +59,7 @@ HiddenPowerGuy:
 
 	text "Ein EI hat noch"
 	line "keine Kraftreserve"
-	cont "entwickelt…"
+	cont "entwickelt …"
 	done
 
 .Text1:
@@ -82,11 +82,9 @@ HiddenPowerGuy:
 .Text2:
 	text "Siehst du es? Das"
 	line "ist Kraftreserve!"
-
 	para "Sie nutzt die"
 	line "Kraft von #mon"
 	cont "für Angriffe."
-
 	para "Merke dir: Der Typ"
 	line "hängt vom #mon"
 	cont "ab, das sie"

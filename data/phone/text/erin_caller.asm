@@ -24,7 +24,7 @@ ErinLostAMonText:
 	text_ram wStringBuffer4
 
 	para "ist mir wieder"
-	line "entkommen. Das ist"
+	line "entkommen. Das"
 	cont "nicht fair!"
 	done
 
@@ -47,9 +47,9 @@ ErinHangUpText:
 	done
 
 ErinWorkingHardText:
-	text "Ich trainiere hart"
-	line "meine #mon!"
-
+	text "Ich trainiere"
+	line "hart meine"
+	cont "#mon!"
 	para "Komm wieder zum"
 	line "Kämpfen!"
 	done

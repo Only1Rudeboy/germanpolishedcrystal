@@ -234,11 +234,9 @@ TrainerSwimmerfTara:
 	text "Nördlich liegt der"
 	line "große Baum von"
 	cont "Rosalia."
-
 	para "Man sagt, seltene"
 	line "Vogel-#mon"
 	cont "kommen"
-
 	para "von weit her, um"
 	line "dort zu nisten."
 	done
@@ -260,18 +258,15 @@ GenericTrainerHikerTony:
 
 	text "Nach einer langen"
 	line "Wanderung sah ich"
-
 	para "einen großen Vogel"
 	line "in diese Richtung"
 	cont "fliegen!"
-
 	para "Wohin und warum?"
 	done
 
 .SeenText:
 	text "Ich bin meilenweit"
 	line "durch den Wald"
-
 	para "gewandert, nur um"
 	line "das legendäre"
 	cont "Vogel-#mon zu"
@@ -279,7 +274,8 @@ GenericTrainerHikerTony:
 	done
 
 .BeatenText:
-	text "Ich bin erschöpft…"
+	text "Ich bin erschöpft"
+	line "…"
 	done
 
 CherrygroveBayFisherText:
@@ -319,7 +315,7 @@ Text_CherrygroveBayTutorEarthPower:
 	line "#mon Earth"
 	cont "Power"
 
-	para "bei — für ein"
+	para "bei - für ein"
 	line "Silberblatt."
 	done
 

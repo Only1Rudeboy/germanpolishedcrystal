@@ -180,10 +180,12 @@ GentlemanAlfredSeenText:
 	done
 
 
+
 GentlemanAlfredBeatenText:
 	text "Ah! Ich sehe, du"
 	line "meinst es ernst."
 	done
+
 
 
 GentlemanAlfredFinalText:
@@ -191,20 +193,18 @@ GentlemanAlfredFinalText:
 	line "#mon, das den"
 	cont "LEUCHTTURM"
 	cont "betreibt."
-
 	para "Du hast seine"
 	line "Krankheit geheilt?"
-
 	para "Du hast uns"
 	line "wirklich geholfen!"
 	done
 
 SailorHueyGiveProteinText:
-	text "Wow! Du bist"
+	text "Toll! Du bist"
 	line "stark, wie immer!"
-
 	para "Egal, hier hast du"
 	line "die Medizin."
 	done
+
 
 

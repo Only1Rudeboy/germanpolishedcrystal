@@ -83,77 +83,58 @@ WillScript:
 	text "Willkommen in der"
 	line "#mon-Liga,"
 	cont "<PLAYER>."
-
 	para "Erlaube mir, mich"
 	line "vorzustellen. Ich"
-	cont "bin Will."
-
+	cont "bin WILLI."
 	para "Ich habe auf der"
 	line "ganzen Welt"
-
-	para "trainiert und"
-	line "meine"
+	cont "trainiert und"
+	cont "meine"
 	cont "Psycho-#mon"
 	cont "gestärkt."
-
 	para "Endlich wurde ich"
-	line "in die Top Vier"
+	line "in die TOP VIER"
 	cont "aufgenommen."
-
 	para "Ich kann nur noch"
 	line "stärker werden!"
-
 	para "Verlieren ist"
 	line "keine Option!"
 	done
-
 .BeatenText:
-	text "Ich… ich kann… es"
+	text "Ich… ich kann es"
 	line "nicht glauben…"
 	done
 .AfterText:
 	text "Auch wenn ich"
 	line "besiegt wurde,"
-	cont "werde ich an"
+	cont "halte ich an"
 	cont "meiner Überzeugung"
-	cont "festhalten."
-
-	para "Ich werde weiter"
-	line "kämpfen, bis ich"
-
-	para "besser bin als"
-	line "alle anderen"
+	cont "fest."
+	para "Ich kämpfe weiter,"
+	line "bis ich besser bin"
+	cont "als alle anderen"
 	cont "Trainer!"
-
 	para "<PLAYER>, schreite"
 	line "voran und lerne"
-
-	para "die Grausamkeit"
-	line "der TOP VIER"
+	cont "die Grausamkeit"
+	cont "der TOP VIER"
 	cont "kennen."
 	done
 .SeenRematchText:
 	text "So, du bist"
 	line "endlich"
 	cont "erschienen."
-
-	para "Ich hab deine"
+	para "Ich habe deine"
 	line "Kampftechnik"
-	cont "beobachtet."
-
-	para "Ich bin bereit für"
-	line "dich!"
-
-	para "In Ordnung."
-
-	para "Mach dich bereit"
-	line "zum Kampf!"
+	cont "beobachtet. Ich"
+	cont "bin bereit!"
+	para "In Ordnung. Mach"
+	line "dich bereit zum"
+	cont "Kampf!"
 	done
-
 .AfterRematchText:
 	text "Ich habe all meine"
 	line "Kraft verbraucht."
-
 	para "Ich bereue nicht,"
 	line "so zu verlieren."
 	done

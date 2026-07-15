@@ -19,17 +19,15 @@ LyrasHouse2F_MapScriptHeader:
 	object_event  6,  2, SPRITE_N64, SPRITEMOVEDATA_STILL, 0, 0, -1, PAL_NPC_N64, OBJECTTYPE_COMMAND, jumptext, LyrasHouseN64Text, -1
 
 LyrasHouseLyraText:
-	text "Lyra: Hi,"
-	line "<PLAYER>!"
-
-	para "Hmm… Meine #mon"
-	line "nehmen vielleicht"
-
+	text "LYRA: Hi, <PLAYER>!"
+	para "Hmm … Meine"
+	line "#mon nehmen"
+	cont "vielleicht"
 	para "in letzter Zeit"
-	line "etwas zu…"
+	line "etwas zu …"
 	done
 LyrasHousePidgeotText:
-	text "Pidgeot: Pijiii!"
+	text "TAUBOSS: Pijiii!"
 	done
 
 LyrasHousePCText:

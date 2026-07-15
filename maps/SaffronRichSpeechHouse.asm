@@ -17,10 +17,8 @@ SaffronRichSpeechHouse_MapScriptHeader:
 SaffronRichSpeechHouseRichBoyText:
 	text "Häuser sind teuer"
 	line "in Saffronia."
-
 	para "Wer hier wohnen"
 	line "will, braucht"
-
 	para "viel Geld oder"
 	line "einen Mitbewohner."
 	done

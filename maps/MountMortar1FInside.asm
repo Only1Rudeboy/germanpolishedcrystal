@@ -33,20 +33,17 @@ GenericTrainerPokemaniacMiller:
 
 	text "Vor geraumer Zeit"
 	line "wollte dieser"
-
 	para "Karateka kämpfen."
 	line "Er war sehr gut."
-
 	para "Er hat uns richtig"
 	line "verprügelt."
-
 	para "Er murmelte etwas"
 	line "von seinem"
-
 	para "Training. Ich"
 	line "frage mich, wie es"
 	cont "ihm geht?"
 	done
+
 GenericTrainerSupernerdMarkus:
 	generictrainer SUPER_NERD, MARKUS, EVENT_BEAT_SUPER_NERD_MARKUS, SupernerdMarkusSeenText, SupernerdMarkusBeatenText
 
@@ -54,29 +51,29 @@ GenericTrainerSupernerdMarkus:
 	line "KESSELBERG"
 	cont "erkunden, aber ich"
 	cont "habe"
-
 	para "meinen Kameraden"
-	line "verloren…"
-
+	line "verloren …"
 	para "Bist du einem"
 	line "Gegner begegnet,"
 	cont "der"
-
 	para "ein SEEMON"
 	line "einsetzt, das"
 	cont "KASKADE"
 	cont "beherrscht?"
 	done
+
 PokemaniacMillerSeenText:
 	text "Heute verliere ich"
 	line "gewiß nicht!"
 	done
 
 
+
 PokemaniacMillerBeatenText:
 	text "Ich habe gegen ein"
-	line "Kind verloren…?"
+	line "Kind verloren …?"
 	done
+
 
 
 SupernerdMarkusSeenText:
@@ -84,9 +81,11 @@ SupernerdMarkusSeenText:
 	done
 
 
+
 SupernerdMarkusBeatenText:
 	text "Ich habe dich"
 	line "verwechselt…"
 	done
+
 
 

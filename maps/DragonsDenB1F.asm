@@ -94,19 +94,16 @@ DragonsDenB1FClairTrigger:
 .GiveTMText:
 	text "SANDRA: Das tut"
 	line "mir Leid."
-
 	para "Hier, nimm das als"
 	line "Entschuldigung."
 	done
 .DescribeDragonPulseText:
 	text "Darin ist"
 	line "Drachenpuls."
-
 	para "Wenn du es nicht"
 	line "willst, musst du"
 	cont "es nicht nehmen."
 	done
-
 .WalksToYouMovement:
 	slow_step_right
 	slow_step_right
@@ -123,14 +120,13 @@ DragonsDenB1FClairTrigger:
 
 DragonsDenShrineSignText:
 	text "DRACHENSCHREIN"
-
 	para "Der Schrein ehrt"
-	line "die Drachen #-"
-	cont "MON, die früher"
-
-	para "in der DRACHEN-"
-	line "HÖHLE gelebt"
-	cont "haben sollen."
+	line "die #mon, die"
+	cont "früher"
+	para "in der"
+	line "DRACHEN-HÖHLE"
+	cont "gelebt haben"
+	cont "sollen."
 	done
 DragonsDenB1FRivalScript:
 	playmusic MUSIC_RIVAL_ENCOUNTER
@@ -192,22 +188,18 @@ DragonsDenB1FRivalScript:
 
 .GiveEggText:
 	text "… Hör zu."
-
 	para "Das #mon, das"
-	line "ich… aus dem"
-	cont "Labor…"
-
+	line "ich … aus dem"
+	cont "Labor …"
 	para "mitnahm, hatte ein"
 	line "Ei. Ich brauche es"
 	cont "nicht."
-
 	para "Hier. Nimm es."
 	done
 
 .DescribeEggText:
 	text "Hmpf. Bist du hier"
 	line "durch?"
-
 	para "Dann geh mir aus"
 	line "dem Weg."
 	done
@@ -220,33 +212,26 @@ DragonsDenB1FRivalScript:
 	done
 
 .Training1Text:
-	text "… Was? <PLAYER>?"
-
+	text "…Was? <PLAYER>?"
 	para "…Nein, ich möchte"
 	line "jetzt nicht mit"
 	cont "dir kämpfen…"
-
 	para "Meine #mon sind"
 	line "noch nicht bereit,"
 	cont "dich zu schlagen."
-
 	para "Ich darf sie nicht"
 	line "zu schroff"
 	cont "behandeln."
-
 	para "Ich muss"
 	line "disziplinierter"
-	cont "sein, wenn"
-
-	para "ich der weltbeste"
-	line "#mon-Trainer"
-	cont "werden möchte…"
+	cont "sein, wenn ich der"
+	cont "weltbeste"
+	cont "#mon-Trainer"
+	cont "werden will…"
 	done
 .Training2Text:
 	text "…"
-
 	para "Wow…"
-
 	para "Du musst lernen,"
 	line "mir aus dem Weg zu"
 	cont "gehen…"
@@ -256,10 +241,8 @@ GenericTrainerDragonTamerDarin:
 
 	text "In dem SCHREIN da"
 	line "vorne lebt der"
-
 	para "MEISTER unseres"
 	line "Drachenklans. Du"
-
 	para "darfst nicht"
 	line "einfach eintreten!"
 	done
@@ -284,10 +267,8 @@ GenericTrainerDragonTamerAdam:
 	line "Kraft der Drachen"
 	cont "konnte dich"
 	cont "aufhalten."
-
 	para "Du bist vielleicht"
 	line "genau der Trainer,"
-
 	para "den unser MEISTER"
 	line "sucht."
 	done
@@ -308,15 +289,12 @@ GenericTrainerAceDuoDanandcara1:
 
 	text "Dan: Bald bekomme"
 	line "ich vom MEISTER"
-
 	para "die Erlaubnis,"
 	line "Drachen"
 	cont "einzusetzen."
-
 	para "Dann werde ich ein"
 	line "großartiger"
 	cont "Drachen-Trainer"
-
 	para "und gewinne die"
 	line "Anerkennung"
 	cont "unseres MEISTERs."
@@ -326,7 +304,6 @@ GenericTrainerAceDuoDanandcara1:
 	text "Dan: Ich darf zwar"
 	line "keine Drachen"
 	cont "nutzen,"
-
 	para "aber ich bin"
 	line "trotzdem stark!"
 	done
@@ -341,10 +318,8 @@ GenericTrainerAceDuoDanandcara2:
 
 	text "Cara: Drachen sind"
 	line "schwer zu"
-
 	para "erziehen und sehr"
 	line "stark."
-
 	para "Sie sind nichts"
 	line "für jeden."
 	done
@@ -368,34 +343,48 @@ GenericTrainerTwinsLeaandpia1:
 	cont "gegen SIEGFRIED"
 	cont "kämpfen."
 	done
+
 .SeenText:
 
-	text "Ein Fremder, den"
-	line "wir nicht kennen."
+	text "Es kam mir vor,"
+	line "als würde ich"
+	cont "gegen SIEGFRIED"
+	cont "kämpfen."
 	done
+
 
 .BeatenText:
 
-	text "Aua!"
+	text "Es kam mir vor,"
+	line "als würde ich"
+	cont "gegen SIEGFRIED"
+	cont "kämpfen."
 	done
+
 
 GenericTrainerTwinsLeaandpia2:
 	generictrainer TWINS, LEAANDPIA1, EVENT_BEAT_TWINS_LEA_AND_PIA, .SeenText, .BeatenText
 
 	text "Wir verraten dich."
-
 	para "Der MEISTER wird"
 	line "erzürnt sein."
 	done
+
 .SeenText:
 
-	text "Wer bist du?"
+	text "Wir verraten dich."
+	para "Der MEISTER wird"
+	line "erzürnt sein."
 	done
+
 
 .BeatenText:
 
-	text "Fiesling."
+	text "Wir verraten dich."
+	para "Der MEISTER wird"
+	line "erzürnt sein."
 	done
+
 
 KimonoGirlMinaScript:
 	checkevent EVENT_GOT_ABILITYPATCH_FROM_KIMONO_GIRL_MINA
@@ -450,12 +439,10 @@ KimonoGirlMinaScript:
 .IntroText:
 	text "Ich bin ein"
 	line "KIMONO-GIRL."
-
 	para "Hast du meine fünf"
 	line "tanzenden Cousinen"
 	cont "in TEAK CITY nicht"
 	cont "getroffen?"
-
 	para "Sag mir Bescheid,"
 	line "wenn du sie"
 	cont "triffst."
@@ -479,7 +466,6 @@ KimonoGirlMinaScript:
 .AfterText:
 	text "Du bist ein echter"
 	line "Trainer."
-
 	para "Du bist dieses"
 	line "Item würdig!"
 	done

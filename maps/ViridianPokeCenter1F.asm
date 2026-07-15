@@ -24,15 +24,12 @@ PokemonJournalBlueScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Leiter"
-	line "Blau!"
-
-	para "Man sagt, Blau"
+	line "BLAU!"
+	para "Man sagt, BLAU"
 	line "besucht jedes Jahr"
 	cont "seine liebsten"
 	cont "#mon im"
-
 	para "Seelenhaus."
 	done
 
@@ -43,7 +40,6 @@ ViridianPokeCenter1FCooltrainermScript:
 
 	text "Wo um Himmels"
 	line "Willen ist der"
-
 	para "ARENALEITER von"
 	line "VERTANIA? Ich will"
 	cont "ihn herausfordern."
@@ -60,11 +56,10 @@ ViridianPokeCenter1FCooltrainermScript:
 
 ViridianPokeCenter1FCooltrainerfText:
 	text "Ich habe gehört,"
-	line "dass die PKMN-"
-	cont "ARENA auf der"
+	line "dass die"
+	cont "PKMN-ARENA auf der"
 	cont "ZINNOBERINSEL"
 	cont "verschwunden ist."
-
 	para "Ich frage mich,"
 	line "was aus PYRO, dem"
 	cont "ARENALEITER"
@@ -72,6 +67,7 @@ ViridianPokeCenter1FCooltrainerfText:
 	done
 ViridianPokeCenter1FBugCatcherText:
 	text "Mein großer Traum"
-	line "ist es, ARENA-"
-	cont "LEITER zu werden."
+	line "ist es,"
+	cont "ARENA-LEITER zu"
+	cont "werden."
 	done

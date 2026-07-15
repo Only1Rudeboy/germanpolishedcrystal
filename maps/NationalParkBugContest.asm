@@ -128,9 +128,9 @@ BugCatchingContestant10AScript:
 	jumpthistextfaceplayer
 
 	text "MICHEL: Ich habe"
-	line "viel über Käfer-"
-	cont "#mon gelernt."
-
+	line "viel über"
+	cont "Käfer-#mon"
+	cont "gelernt."
 	para "Ich werde ganz"
 	line "sicher gewinnen."
 	done

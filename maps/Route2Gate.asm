@@ -18,14 +18,11 @@ Route2Gate_MapScriptHeader:
 
 Route2GateScientistText:
 	text "Bist du <PLAYER>?"
-
 	para "Ich bin der"
 	line "ASSISTENT von"
 	cont "PROF. EICH."
-
 	para "Ich wusste nicht,"
 	line "dass du hier bist."
-
 	para "PROF. EICHs LABOR"
 	line "ist gleich hier in"
 	cont "ALABASTIA."

@@ -80,7 +80,7 @@ GenericTrainerHikerDerrick:
 	text "♪ A-wandern gehn"
 	line "wir heut,"
 	cont "a-wandern gehn wir"
-	cont "heut… ♪"
+	cont "heut … ♪"
 	done
 
 .BeatenText:

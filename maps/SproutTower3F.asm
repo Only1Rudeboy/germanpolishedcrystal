@@ -81,27 +81,20 @@ ElderLiScript:
 	setevent EVENT_BEAT_ELDER_LI
 	jumpthisopenedtext
 
-	text "Flash erhellt"
+	text "BLITZ erhellt"
 	line "selbst die"
 	cont "dunkelsten Orte."
-
 	para "Du musst es deinem"
 	line "#mon nicht"
-
-	para "beibringen, wenn"
-	line "du Flash nicht im"
-
-	para "Kampf nutzen"
-	line "willst. Drücke"
-	cont "einfach A"
-
-	para "in der Dunkelheit,"
-	line "und ein #mon"
-	cont "mit"
-
-	para "Flash wird es"
-	line "nutzen, falls es"
-	cont "kann."
+	cont "beibringen, wenn"
+	para "du es nicht im"
+	line "Kampf nutzt."
+	para "Drücke einfach A"
+	line "in der Dunkelheit,"
+	cont "und ein"
+	para "#mon mit BLITZ"
+	line "wird es nutzen,"
+	cont "wenn es kann."
 	done
 
 GenericTrainerSageJin:
@@ -111,25 +104,28 @@ GenericTrainerSageJin:
 	line "#mon werden,"
 	cont "desto stärker wird"
 	cont "auch ihr Trainer."
-
 	para "Nein, warte! Je"
-	line "stärker der Trai-"
-	cont "ner wird, desto"
-	cont "stärker werden"
-	cont "auch die #mon."
+	line "stärker der"
+	cont "Trainer wird,"
+	cont "desto stärker"
+	cont "werden auch die"
+	cont "#mon."
 	done
+
 GenericTrainerSageTroy:
 	generictrainer SAGE, TROY, EVENT_BEAT_SAGE_TROY, SageTroySeenText, SageTroyBeatenText
 
 	text "Du triffst bald"
 	line "auf den WEISEN."
 	done
+
 GenericTrainerSageNeal:
 	generictrainer SAGE, NEAL, EVENT_BEAT_SAGE_NEAL, SageNealSeenText, SageNealBeatenText
 
 	text "Möge dein Weg"
 	line "erleuchtet sein."
 	done
+
 SproutTower3FPlayerApproachesRivalMovement:
 	step_up
 	step_up
@@ -143,59 +139,48 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "WEISER: Du bist "
+	text "WEISER: Du bist"
 	line "wirklich ein"
 	cont "begabter Trainer."
-
 	para "Wie abgemacht,"
 	line "bekommst du die"
 	cont "VM."
-
 	para "Eines gebe ich dir"
-	line "noch mit: "
-
+	line "noch mit:"
 	para "Behandle deine"
 	line "#mon besser."
-
 	para "Dein Kampfstil ist"
 	line "zu aggressiv."
-
 	para "#mon sind keine"
-	line "Kampfspielzeuge…"
+	line "Kampfspielzeuge …"
 	done
+
 
 
 
 
 
 SproutTowerRivalOnlyCareAboutStrongText:
-	text "… …Hmpf!"
-
+	text "… Hmpf!"
 	para "Er behauptet, ein"
 	line "WEISER zu sein."
 	cont "Aber er ist"
 	cont "schwach."
-
 	para "Das muss noch"
 	line "geklärt werden."
-
 	para "Ich würde nie"
 	line "gegen so einen"
 	cont "Narren verlieren,"
-	cont "der"
-
-	para "mir rät, meine"
+	para "der mir rät, meine"
 	line "#mon gut zu"
 	cont "behandeln."
-
 	para "Für mich zählen"
-	line "nur starke"
-	cont "#mon."
-
+	line "nur #mon."
 	para "Schwache #mon"
 	line "interessieren mich"
 	cont "gar nicht."
 	done
+
 
 
 
@@ -210,34 +195,29 @@ SproutTowerRivalUsedEscapeRopeText:
 
 
 
+
 SageLiSeenText:
 	text "Schön, dass du"
 	line "gekommen bist!"
-
 	para "Der KNOFENSA-TURM"
 	line "ist eine"
-
-	para "Trainingsstätte."
-	line "Trainer und"
-
-	para "#mon prüfen"
-	line "ihre Freundschaft,"
-
+	cont "Trainingsstätte."
+	para "Trainer und"
+	line "#mon prüfen"
+	cont "hier ihre"
+	cont "Freundschaft,"
 	para "um gemeinsam eine"
 	line "rosige Zukunft"
-
-	para "aufzubauen. Und"
-	line "ich bin der"
-
-	para "letzte Test."
-	line "Erlaube, dass ich"
-
-	para "die Freundschaft"
-	line "zwischen dir und"
-
-	para "deinen #mon"
-	line "überprüfe!"
+	cont "aufzubauen."
+	para "Und ich bin der"
+	line "letzte Test."
+	para "Erlaube mir, die"
+	line "Freundschaft"
+	cont "zwischen dir und"
+	cont "deinen #mon zu"
+	cont "prüfen!"
 	done
+
 
 
 
@@ -251,17 +231,17 @@ SageLiBeatenText:
 
 
 
+
 SageLiTakeThisFlashText:
-	text "Du und dein #-"
-	line "MON dürftet keine"
-
-	para "Probleme mit"
-	line "dieser Attacke"
+	text "Du und dein"
+	line "#mon dürften"
+	cont "keine Probleme mit"
+	cont "dieser Attacke"
 	cont "haben."
-
 	para "Nimm diese VM. Sie"
 	line "enthält BLITZ."
 	done
+
 
 
 
@@ -272,6 +252,7 @@ SageLiAfterBattleText:
 	line "lernst viel auf"
 	cont "deiner Reise."
 	done
+
 
 
 
@@ -288,20 +269,23 @@ SageJinSeenText:
 
 
 
+
 SageJinBeatenText:
 	text "Mein Training ist"
-	line "unvollständig…"
+	line "unvollständig …"
 	done
+
 
 
 
 
 
 SageTroySeenText:
-	text "Ich möchte sehen,"
+	text "Ich will sehen,"
 	line "wie sehr du deinen"
 	cont "#mon vertraust."
 	done
+
 
 
 
@@ -311,6 +295,7 @@ SageTroyBeatenText:
 	text "Ja, du vertraust"
 	line "ihnen wirklich!"
 	done
+
 
 
 
@@ -327,6 +312,7 @@ SageNealSeenText:
 
 
 
+
 SageNealBeatenText:
 	text "Denken ist eben"
 	line "meine Stärke!"
@@ -336,23 +322,26 @@ SageNealBeatenText:
 
 
 
+
 SproutTower3FPaintingText:
-	text "Dies ist ein dy-"
-	line "namisches Gemälde"
-	cont "von KNOFENSA."
+	text "Dies ist ein"
+	line "dynamisches"
+	cont "Gemälde von"
+	cont "KNOFENSA."
 	done
+
 
 
 
 
 
 SproutTower3FStatueText:
-	text "Eine #mon-"
-	line "Statue…"
-
+	text "Eine"
+	line "#mon-Statue …"
 	para "Sie sieht sehr"
 	line "erhaben aus."
 	done
+
 
 
 

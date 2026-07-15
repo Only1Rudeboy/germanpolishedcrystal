@@ -21,7 +21,6 @@ CeladonHotelRoom3GrampsText:
 	cont "Knirps war, jedes"
 	cont "Jahr in dieses"
 	cont "Hotel."
-
 	para "Es fühlt sich fast"
 	line "wie ein zweites"
 	cont "Zuhause an!"

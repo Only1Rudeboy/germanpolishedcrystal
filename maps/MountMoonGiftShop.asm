@@ -18,8 +18,9 @@ MountMoonGiftShop_MapScriptHeader:
 	object_event  5,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, (1 << DAY), PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MountMoonGiftShopLassText, -1
 
 MountMoonGiftShopLassText:
-	text "Bei Sonnenunter-"
-	line "gang kommen PIEPI"
+	text "Bei"
+	line "Sonnenuntergang"
+	cont "kommen PIEPI"
 	cont "heraus, um zu"
 	cont "spielen."
 	done

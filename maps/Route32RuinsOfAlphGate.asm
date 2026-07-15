@@ -20,14 +20,11 @@ Route32RuinsOfAlphGate_MapScriptHeader:
 
 Route32RuinsOfAlphGateOfficerText:
 	text "ALPH-RUINEN"
-
-	para "Eine Besichti-"
-	line "gungsstätte"
-	cont "für Touristen."
-
+	para "Eine"
+	line "Besichtigungsstät-"
+	cont "te für Touristen."
 	para "Versuche, die"
 	line "schwenkbaren"
-
 	para "Steintafeln zu"
 	line "bewegen!"
 	done
@@ -36,7 +33,6 @@ Route32RuinsOfAlphGateOfficerText:
 Route32RuinsOfAlphGatePokefanMText:
 	text "Du untersuchst die"
 	line "RUINEN?"
-
 	para "Ich sehe einen"
 	line "Wissenschaftler in"
 	cont "spe."
@@ -47,11 +43,9 @@ Route32RuinsOfAlphGateYoungsterText:
 	text "Auf den"
 	line "Steintafeln sind"
 	cont "Zeichnungen."
-
-	para "Ich versuchte, "
-	line "sie zu bewegen."
-
-	para "Ich frage mich, "
+	para "Ich versuchte, sie"
+	line "zu bewegen."
+	para "Ich frage mich,"
 	line "was sie"
 	cont "darstellen."
 	done

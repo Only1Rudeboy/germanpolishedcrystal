@@ -24,24 +24,19 @@ PokemonJournalPryceScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Leiter"
-	line "Pryce!"
-
+	line "NORBERT!"
 	para "Pryces zweiter"
 	line "Vorname lautet"
 	cont "Willow."
-
 	para "Sein Kampfstil"
 	line "soll so flexibel"
-
 	para "sein wie ein"
 	line "Weidenbaum im"
 	cont "Winter."
-
 	para "Daher nennt man"
-	line "ihn den Winter-"
-	cont "Trainer."
+	line "ihn den"
+	cont "Winter-Trainer."
 	done
 
 MahoganyPokeCenter1FPokefanmText:
@@ -57,7 +52,6 @@ MahoganyPokeCenter1FYoungsterText:
 	line "dass sich meine"
 	cont "#mon zu rasch"
 	cont "entwickeln."
-
 	para "Ich bringe ihnen"
 	line "verschiedene"
 	cont "Attacken bei,"
@@ -67,10 +61,8 @@ MahoganyPokeCenter1FYoungsterText:
 MahoganyPokeCenter1FCooltrainerfText:
 	text "#mon werden"
 	line "stärker, wenn sie"
-
 	para "sich entwickeln."
 	line "Aber sie erlernen"
-
 	para "neue Attacken auch"
 	line "langsamer."
 	done

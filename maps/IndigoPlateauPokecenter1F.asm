@@ -196,21 +196,16 @@ PlateauRivalBattleTrigger2:
 
 PlateauRivalText1:
 	text "Moment noch!"
-
 	para "Akzeptierst du die"
 	line "Herausforderung"
-
 	para "der #mon LIGA?"
 	line "Das wird nicht"
 	cont "passieren."
-
 	para "Meine perfekt"
 	line "trainierten"
 	cont "#mon werden"
 	cont "dich zermalmen."
-
 	para "<PLAYER>!"
-
 	para "Ich fordere dich"
 	line "heraus!"
 	done
@@ -221,9 +216,9 @@ PlateauRivalText1:
 
 
 
+
 PlateauRivalWinText:
 	text "… O.K. - Ich habe"
-
 	para "verloren…"
 	done
 
@@ -233,14 +228,13 @@ PlateauRivalWinText:
 
 
 
+
 PlateauRivalText2:
-	text "…Mist… Ich kann"
-	line "nicht gewinnen…"
-
-	para "Ich… ich muss mich"
-	line "mehr um meine"
-	cont "#mon kümmern…"
-
+	text "… Mist … Ich kann"
+	line "nicht gewinnen …"
+	para "Ich … ich muss"
+	line "mich mehr um meine"
+	cont "#mon kümmern …"
 	para "Versuche, nicht zu"
 	line "verlieren!"
 	done
@@ -251,11 +245,10 @@ PlateauRivalText2:
 
 
 
+
 PlateauRivalLoseText:
 	text "…"
-
 	para "Wow… Mit meinen"
-
 	para "Partnern werde ich"
 	line "der CHAMP sein!"
 	done
@@ -266,29 +259,22 @@ PlateauRivalLoseText:
 
 
 
+
 PlateauLyraText1:
 	text "<PLAYER>!"
-
 	para "Ich bin durch"
 	line "Johto gereist,"
-
 	para "habe Orden"
 	line "gesammelt und"
-
 	para "mich immer weiter"
 	line "verbessert."
-
 	para "Das kennst du doch"
 	line "auch, <PLAYER>."
-
-	para "Und jetzt…"
-
+	para "Und jetzt …"
 	para "bin ich hier am"
 	line "Indigo-Plateau."
-
 	para "Weißt du, was das"
 	line "bedeutet?"
-
 	para "Ich darf dich"
 	line "fordern, nicht nur"
 	cont "als Freundin,"
@@ -302,7 +288,7 @@ PlateauLyraText2:
 
 PlateauLyraWinText:
 	text "Du bist immer noch"
-	line "stärker als ich…"
+	line "stärker als ich …"
 	done
 
 PlateauLyraLoseText:
@@ -314,27 +300,20 @@ PlateauLyraText3:
 	text "Ich bin nicht"
 	line "sauer, dass ich"
 	cont "verloren habe."
-
 	para "Ich konnte Johto"
 	line "erkunden, neue"
 	cont "Leute treffen,"
 	cont "meine"
-
 	para "#mon stärker"
 	line "machen, als ich"
-
 	para "gedacht hätte, sie"
-	line "werden könnten…"
-
+	line "werden könnten …"
 	para "Und ich konnte"
 	line "gegen dich"
-
 	para "kämpfen und alles"
 	line "geben."
-
 	para "Du hast mich"
 	line "besiegt."
-
 	para "Besieg jetzt die"
 	line "#mon Liga!"
 	done
@@ -362,17 +341,17 @@ PokemonJournalGiovanniScript:
 	text "#mon Journal"
 
 	para "Spezial: Boss"
-	line "Giovanni!"
+	line "GIOVANNI!"
 
 	para "Bei der"
 	line "Durchsuchung der"
 	cont "verlassenen"
-	cont "#mon-ARENA in"
+	cont "PKMN-ARENA in"
 	cont "VERTANIA CITY"
 
 	para "stellte sich"
 	line "heraus, dass"
-	cont "Giovanni,"
+	cont "GIOVANNI,"
 
 	para "der Arenaleiter,"
 	line "auch der Boss von"
@@ -430,7 +409,7 @@ IndigoPlateauYellowScript:
 	end
 
 .PartyAndBoxFullText:
-	text "Yellow: Ach… Du"
+	text "YELLOW: Ach… Du"
 	line "kannst kein"
 
 	para "weiteres #mon"
@@ -441,27 +420,23 @@ IndigoPlateauYellowScript:
 	done
 
 .GreetingText:
-	text "Yellow: Hallo,"
+	text "YELLOW: Hallo,"
 	line "<PLAYER>!"
-
 	para "Ich hab mir den"
 	line "Kampf der TOP VIER"
 	cont "angesehen."
-
-	para "Sie sind so"
-	line "intens… Und sie"
-	cont "haben so starke"
-
+	para "Sie sind so intens"
+	line "… Und sie haben so"
+	cont "starke"
 	para "Bindungen zu ihren"
-	line "#mon…"
-
+	line "#mon …"
 	para "Eines Tages"
 	line "erreiche ich ihr"
 	cont "Niveau."
 	done
 
 .QuestionText:
-	text "Yellow: <PLAYER>,"
+	text "YELLOW: <PLAYER>,"
 	line "kannst du mir"
 	cont "einen Gefallen"
 	cont "tun?"
@@ -480,22 +455,21 @@ IndigoPlateauYellowScript:
 	done
 
 .GiveStarterText:
-	text "Yellow: Danke,"
+	text "YELLOW: Danke,"
 	line "<PLAYER>! Hier ist"
 	cont "es!"
 	done
 
 .RefusedText:
-	text "Yellow: Ach… Aber"
+	text "YELLOW: Ach… Aber"
 	line "was ist mit dem"
 	cont "#mon?"
 	done
 
 .GoodbyeText:
-	text "Yellow: Pass gut"
+	text "YELLOW: Pass gut"
 	line "auf"
-
-	para ""
+	done
 	text_ram wStringBuffer3
 	text ", <PLAYER>!"
 
@@ -529,20 +503,15 @@ IndigoPlateauTeleportGuyScript:
 .Text:
 	text "Ah! Du forderst"
 	line "also die TOP VIER"
-
 	para "heraus? Bist du"
 	line "wirklich bereit?"
-
 	para "Wenn du mehr"
 	line "trainieren willst,"
-
 	para "kann dir mein ABRA"
 	line "helfen."
-
 	para "Es kann dich nach"
 	line "Hause"
 	cont "TELEPORTIEREN."
-
 	para "Möchtest du jetzt"
 	line "nach Hause?"
 	done

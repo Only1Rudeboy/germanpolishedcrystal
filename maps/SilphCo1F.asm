@@ -71,9 +71,9 @@ SilphCoOfficerScript:
 
 SilphCoReceptionistText:
 	text "Willkommen. Das"
-	line "ist das BÜRO-"
-	cont "GEBÄUDE der SILPH"
-	cont "CO."
+	line "ist das"
+	cont "BÜRO-GEBÄUDE der"
+	cont "SILPH CO."
 	done
 
 
@@ -82,7 +82,6 @@ SilphCoReceptionistText:
 SilphCo1FGentlemanText:
 	text "Ich habe einen"
 	line "Termin mit dem"
-
 	para "Chefingenieur hier"
 	line "in der SILPH CO."
 	done
@@ -91,14 +90,12 @@ SilphCo1FCooltrainerfText:
 	text "Ich versuche, den"
 	line "Mut aufzubringen,"
 	cont "die"
-
 	para "Rezeptionistin"
 	line "nach einem Date zu"
 	cont "fragen."
-
 	para "Sobald sie mit dem"
-	line "Telefon fertig"
-	cont "ist…"
+	line "Telefon fertig ist"
+	cont "…"
 	done
 
 SilphCoElevatorText:

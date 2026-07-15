@@ -22,20 +22,16 @@ PokemonJournalBillScript:
 	jumpthistext
 
 	text "#mon-Journal"
-
 	para "Spezialthema:"
-	line "#-Maniac Bill!"
-
-	para "Bill erfand das"
-	line "#mon-Lager-"
-	cont "system für seine"
-
-	para "riesige #mon-"
-	line "Sammlung."
-
+	line "#-Maniac BILL!"
+	para "BILL erfand das"
+	line "#mon-"
+	cont "Lagersystem für"
+	cont "seine"
+	para "riesige"
+	line "#mon-Sammlung."
 	para "Sein erstes"
 	line "gefangenes #mon"
-
 	para "war wohl ein Abra."
 	done
 
@@ -67,57 +63,45 @@ BillsHouseBillScript:
 .AfterText:
 	text "Das war ein geiler"
 	line "Kampf!"
-
 	para "Jeder #-Maniac"
 	line "wäre begeistert zu"
 	cont "sehen, was du"
-
 	para "gefangen hast."
 	done
 
 .IntroText:
-	text "Bill: Evoli ist so"
+	text "BILL: Evoli ist so"
 	line "ein faszinierendes"
 	cont "#mon."
-
 	para "Manche sagen, die"
 	line "drei legendären"
-
 	para "Bestien Johtos"
 	line "waren einst drei"
-
 	para "#mon, die sich"
 	line "aus Evoli"
 	cont "entwickeln."
-
 	para "Aber das könnte"
 	line "nur ein Gerücht"
 	cont "sein."
-
 	para "Trotzdem würd ich"
-	line "sie gern sehen…"
+	line "sie gern sehen …"
 	done
 
 .SeenText:
 	text "Du hast alle drei"
 	line "legendären Bestien"
 	cont "gefangen?"
-
 	para "Das ist so cool,"
 	line "<PLAYER>!"
-
 	para "Denkst du, sie"
 	line "waren mal mit"
 	cont "Evoli verwandt?"
-
 	para "Mann, jetzt muss"
 	line "ich dir mein Team"
 	cont "zeigen!"
-
 	para "Du kannst die drei"
 	line "Legenden, gegen"
 	cont "die du kämpftest,"
-
 	para "mit meinen eigenen"
 	line "#mon"
 	cont "vergleichen!"

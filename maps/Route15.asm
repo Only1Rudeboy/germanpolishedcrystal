@@ -53,7 +53,6 @@ GenericTrainerSchoolboyKipp:
 
 	text "Meine Mutter macht"
 	line "sich immer große"
-
 	para "Sorgen um mich."
 	line "Ständig muss ich"
 	cont "sie anrufen."
@@ -87,10 +86,8 @@ GenericTrainerPokefanfBoone:
 
 	text "Beim Kämpfen sieht"
 	line "man #mon,"
-
 	para "man noch nie"
 	line "gesehen hat."
-
 	para "Das ist so toll!"
 	done
 
@@ -139,10 +136,8 @@ TeacherColetteBeatenText:
 TeacherHillarySeenText:
 	text "Bei schönem Wetter"
 	line "würden die Kinder"
-
 	para "lieber im Schulhof"
 	line "spielen, als in"
-
 	para "den Klassenzimmern"
 	line "zu lernen."
 	done
@@ -190,9 +185,9 @@ SchoolboyTommyBeatenText:
 
 SchoolgirlFaithSeenText:
 	text "Wir machen einen"
-	line "Ausflug zum RADIO-"
-	cont "TURM in LAVANDIA,"
-
+	line "Ausflug zum"
+	cont "RADIO-TURM in"
+	cont "LAVANDIA,"
 	para "um dort etwas in"
 	line "Sozialkunde zu"
 	cont "lernen."
@@ -218,9 +213,8 @@ SchoolboyBillyBeatenText:
 
 
 PokefanfBooneSeenText:
-	text "Hey, deine"
-	line "#mon…"
-
+	text "Hey, deine #mon"
+	line "…"
 	para "Zeig sie mir. Zeig"
 	line "sie mir!"
 	done
@@ -270,7 +264,6 @@ TwinsKayandtia2BeatenText:
 
 Route15SignText:
 	text "ROUTE 15"
-
 	para "FUCHSANIA CITY -"
 	line "LAVANDIA"
 	done

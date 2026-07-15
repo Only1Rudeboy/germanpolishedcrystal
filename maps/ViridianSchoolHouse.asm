@@ -42,10 +42,9 @@ ViridianSchoolHouseNotesText:
 ViridianSchoolHouseLass1Text:
 	text "Moment! Ich dachte"
 	line "doch, alle"
-
 	para "Feuer-Attacken"
-	line "sind Spezial-"
-	cont "Attacken?"
+	line "sind"
+	cont "Spezial-Attacken?"
 	done
 
 ViridianSchoolHouseYoungsterScript:
@@ -61,10 +60,9 @@ ViridianSchoolHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "“Was ein #mon"
+	text "'Was ein #mon"
 	line "nicht K.O. macht,"
-
-	para "macht es stärker.”"
+	para "macht es stärker.'"
 	line "So wirkt die"
 	cont "Schwächepol."
 	done
@@ -103,11 +101,9 @@ ViridianSchoolHouseBlackboardText:
 	text "Physische Attacken"
 	line "nutzen ANGR und"
 	cont "VERT-Werte."
-
 	para "Spezial-Attacken"
 	line "nutzen SP.-ANG und"
 	cont "SP.-VERT."
-
 	para "Status-Attacken"
 	line "richten keinen"
 	cont "direkten Schaden"
@@ -119,17 +115,13 @@ PokemonJournalKiyoScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial:"
 	line "Karate-König Kiyo!"
-
 	para "Kiyo soll unter"
 	line "dem Meister aus"
 	cont "ANEMONIA CITY"
-
 	para "trainiert haben."
 	line "Man munkelt, er"
 	cont "trainiert noch"
-
 	para "irgendwo in JOHTO."
 	done

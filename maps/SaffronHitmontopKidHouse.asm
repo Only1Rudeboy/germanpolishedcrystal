@@ -92,14 +92,12 @@ SaffronHitmontopKidHouseTeacherScript:
 	text "Mein Sohn tut so,"
 	line "als wäre er ein"
 	cont "#mon."
-
 	para "Das ist manchmal"
 	line "echt peinlich."
-
 	para "Vielleicht würde"
 	line "er ruhig werden,"
 	cont "wenn er ein echtes"
-	cont "HITMONTOP sähe…"
+	cont "HITMONTOP sähe …"
 	done
 
 .Text2:
@@ -109,7 +107,7 @@ SaffronHitmontopKidHouseTeacherScript:
 	para "Sohn so glücklich"
 	line "gemacht!"
 
-	para "Als Dank — nicht"
+	para "Als Dank - nicht"
 	line "viel, aber nimm"
 	cont "das hier."
 	done

@@ -7,7 +7,7 @@ TiffanyMonIsAdorableText:
 	para "du nicht? Ich"
 	line "schlafe immer"
 
-	para "damit — so"
+	para "damit - so"
 	line "flauschig und"
 	cont "warm!"
 	done
@@ -34,12 +34,10 @@ TiffanyLostAMonText:
 	line "gegen ein wildes"
 	cont ""
 	text_ram wStringBuffer4
-	text " kämpfen…"
-
+	text "kämpfen …"
 	para "Mein Piepi hatte"
-	line "Angst, wir rannten"
-	cont "weg!"
-
+	line "Angst, wir"
+	cont "rannten weg!"
 	para "Ich muss mein"
 	line "Piepi beschützen."
 	done
@@ -65,8 +63,9 @@ TiffanyItsAwfulText:
 	para "Mein Piepi… Häh?"
 	line "<PLAYER>?"
 
-	para "Oh, sorry! Ich"
-	line "hatte es eilig…"
+	para "Oh, tut mir leid!"
+	line "Ich hatte es"
+	cont "eilig…"
 
 	para "Ich muss los!"
 	line "Tschüss!"
@@ -79,19 +78,18 @@ TiffanyHangUpText:
 TiffanyFoundItemText:
 	text "Ich kaufte Pink"
 	line "Bows in Dukatia"
-
-	para "für mein Piepi. Zu"
-	line "viele — eins"
-
+	para "für mein Piepi."
+	line "Zu viele - eins"
 	para "für dich! Hol es"
-	line "auf "
+	line "auf"
+	done
 	text_ram wStringBuffer5
 	text " ab."
 	done
 
 TiffanyNoItemText:
-	text "Ich liebe es, mein"
-	line "Piepi zu"
+	text "Ich liebe es,"
+	line "mein Piepi zu"
 	cont "verzieren!"
 	done
 

@@ -111,73 +111,59 @@ HallOfFameEnterScene:
 	line "lange her, seit"
 	cont "ich zuletzt hier"
 	cont "war."
-
 	para "Hier ehren wir die"
-	line "LIGA-CHAMPS für"
+	line "LIGA-CHAMPs für"
 	cont "alle Ewigkeit."
-
 	para "Ihre mutigen"
 	line "#mon werden"
 	cont "ebenfalls"
 	cont "aufgenommen."
 	done
-
 .LanceTrophyText:
 	text "Nimm dies als"
 	line "Andenken an das,"
-
-	para "was du heute hier"
-	line "erreicht hast."
+	cont "was du heute"
+	cont "erreicht hast."
 	done
-
 .LanceText2:
 	text "Hier haben wir"
 	line "heute den Aufstieg"
-
-	para "eines neuen"
-	line "LIGA-CHAMPs erlebt"
-	cont "—"
-
+	cont "eines neuen"
+	cont "LIGA-CHAMPs erlebt"
+	cont "-"
 	para "eines Trainers,"
-	line "der Mitgefühl für"
-	cont "und Vertrauen in"
-	cont "alle #mon hat."
-
+	line "der Mitgefühl und"
+	cont "Vertrauen in alle"
+	cont "#mon hat."
 	para "Ein Trainer, der"
 	line "durch Ausdauer und"
 	cont "Entschlossenheit"
 	cont "triumphiert hat."
-
 	para "Der neue"
 	line "LIGA-CHAMP, der"
 	cont "alles in sich hat,"
 	cont "um groß zu werden!"
-
 	para "<PLAYER>, erlaube"
 	line "mir, dich und"
 	cont "deine Partner als"
 	cont "CHAMPs"
 	cont "einzutragen!"
 	done
-
 .GoldTrophyText:
 	text "<PLAYER> erhält"
 	line "Gold-Pokal."
 	done
-
 .GoldTrophySentText:
 	text "Gold-Pokal wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done
-
 .SilverTrophyText:
 	text "<PLAYER> erhält"
-	line "Silber-Pok."
+	line "Silber-Pokal."
 	done
-
 .SilverTrophySentText:
-	text "Silber-Pok. wurde"
+	text "Silber-Pokal wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done

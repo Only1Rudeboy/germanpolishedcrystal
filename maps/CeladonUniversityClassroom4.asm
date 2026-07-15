@@ -95,13 +95,10 @@ CeladonUniversityClassroom4RaymondScript:
 	text "Hey! Ich bin"
 	line "Raymond! Ruf mich"
 	cont "Ray."
-
 	para "Ich bin einer der"
 	line "Prismanias Vier!"
-
 	para "Du willst uns alle"
 	line "herausfordern?"
-
 	para "Lass uns kämpfen!"
 	line "Außer du hast"
 	cont "Angst zu"
@@ -125,13 +122,10 @@ CeladonUniversityClassroom4RaymondScript:
 	text "Wie kann das sein?"
 	line "Ich bin einer der"
 	cont "Prismanias Vier!"
-
 	para "Ich hab zwar"
 	line "verloren, aber"
 	cont "meine drei Freunde"
-
 	para "rächen mich!"
-
 	para "Such sie selbst!"
 	done
 
@@ -159,10 +153,8 @@ CeladonUniversityClassroom4CandelaText:
 	text "Hallo! Ich bin"
 	line "Candela. Ich lehre"
 	cont "#mon-Kampf!"
-
 	para "Ich erforsche"
 	line "Wege, die"
-
 	para "natürliche Kraft"
 	line "von #mon zu"
 	cont "steigern."
@@ -178,10 +170,8 @@ CeladonUniversityClassroom4Bug_catcherText:
 	text "Meine Dozentin"
 	line "sagte, mein"
 	cont "#mon"
-
 	para "könnte es mit den"
 	line "Besten aufnehmen."
-
 	para "Sein Potenzial war"
 	line "das beste, das sie"
 	cont "je gesehen hat!"
@@ -191,9 +181,9 @@ CeladonUniversityClassroom4FisherText:
 	text "Der Prof sagte,"
 	line "mein #mon ist"
 	cont "ein Wunder!"
-
-	para "Ein atemberauben-"
-	line "des #mon."
+	para "Ein"
+	line "atemberaubendes"
+	cont "#mon."
 	done
 
 CeladonUniversityClassroom4LadyText:
@@ -224,13 +214,11 @@ CeladonUniversityClassroom4Rich_boyScript:
 
 .Text1:
 	text "Wir lernen über"
-	line "#mon-Fähig-"
-	cont "keiten."
-
+	line "#mon-"
+	cont "Fähigkeiten."
 	para "Manche Arten haben"
 	line "mehr als eine"
 	cont "Fähigkeit."
-
 	para "Damit kannst du"
 	line "zwischen ihnen"
 	cont "wechseln!"
@@ -238,8 +226,8 @@ CeladonUniversityClassroom4Rich_boyScript:
 
 .Text2:
 	text "Es gibt seltene"
-	line "“versteckte"
-	cont "Fähigkeiten“, die"
+	line "'versteckte"
+	cont "Fähigkeiten', die"
 
 	para "eine"
 	line "Fähigkeitskappe"
@@ -259,20 +247,15 @@ CeladonUniversityClassroom4Rich_boyScript:
 CeladonUniversityClassroom4BlackboardText:
 	text "Beachte im Kampf:"
 	line "- Typen-Chart"
-	cont "-"
-	cont "Attacken-Effekte"
-	cont "-"
-	cont "Attacken-Katego-"
-	cont "ri-"
-	cont "en"
-	cont "- Status"
+	cont "-Attacken-Effekte"
+	cont "-Attacken-"
+	cont "Kategorien -Status"
 	cont "- Getragene Items"
-	cont "- Basis-Werte"
-	cont "- EP-Werte"
-	cont "- Wesen"
-	cont "- Fähigkeiten"
-	cont "- Wetter"
-	cont "- Sonstiges?"
+	cont "-Basis-Werte"
+	cont "-EP-Werte - Wesen"
+	cont "-Fähigkeiten"
+	cont "-Wetter"
+	cont "-Sonstiges?"
 	done
 
 CeladonUniversityClassroom4Bookshelf1:
@@ -302,9 +285,8 @@ CeladonUniversityClassroom4Bookshelf1:
 	done
 
 CeladonUniversityClassroom4Bookshelf2Text:
-	text "Ein #mon-"
-	line "Malbuch."
-
+	text "Ein"
+	line "#mon-Malbuch."
 	para "Was macht das"
 	line "hier?"
 	done

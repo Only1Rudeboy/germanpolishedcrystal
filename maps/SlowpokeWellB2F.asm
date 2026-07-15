@@ -30,32 +30,29 @@ SlowpokeWellB2FGymGuideText:
 	text "Ich warte darauf,"
 	line "dass sich FLEGMON"
 	cont "entwickelt."
-
 	para "Aufgrund meiner"
 	line "Beobachtungen habe"
 	cont "ich eine neue"
 	cont "Entdeckung"
 	cont "gemacht."
-
 	para "Trägt FLEGMON"
 	line "einen KING-STEIN"
-
 	para "wird es oft von"
 	line "einem MUSCHAS"
 	cont "gebissen."
-
 	para "Hier, ich gebe dir"
 	line "einen von meinen."
 	done
 
 
+
 SlowpokeWellB2FGymGuideText_GotKingsRock:
 	text "Ich werde mich wie"
 	line "FLEGMON verhalten."
-
 	para "Ich werde geduldig"
 	line "abwarten, bis es"
 	cont "sich entwickelt."
 	done
+
 
 

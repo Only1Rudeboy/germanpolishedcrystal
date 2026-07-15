@@ -66,7 +66,6 @@ GenericTrainerSightseermJaska:
 	text "Ich weiß, es ist"
 	line "albern, aber ein"
 	cont "Glücksbringer gibt"
-
 	para "mir Sicherheit."
 	done
 
@@ -109,7 +108,6 @@ GenericTrainerSightseerfRosie:
 	text "Shamouti-Insel hat"
 	line "so viel"
 	cont "Geschichte!"
-
 	para "Ich kann's nicht"
 	line "erwarten, sie zu"
 	cont "fotografieren."
@@ -144,8 +142,7 @@ TrainerSwimmerfRachel:
 
 .SeenText:
 	text "Weißer Sand und"
-	line "blaues Wasser…"
-
+	line "blaues Wasser …"
 	para "Schöner Strand"
 	line "macht seinem Namen"
 	cont "alle Ehre!"
@@ -178,5 +175,5 @@ GenericTrainerArtistMarlene:
 
 .BeatenText:
 	text "Sie konnten keinen"
-	line "Kampf gewinnen…"
+	line "Kampf gewinnen …"
 	done

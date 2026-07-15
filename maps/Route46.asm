@@ -74,11 +74,11 @@ GenericTrainerCamperTed:
 	line "Bestes gegeben und"
 	cont "das reichte leider"
 	cont "nicht."
-
 	para "Ich gebe ganz"
 	line "offen zu - ich"
 	cont "habe verloren."
 	done
+
 TrainerPicnickerErin1:
 	trainer PICNICKER, ERIN1, EVENT_BEAT_PICNICKER_ERIN, PicnickerErin1SeenText, PicnickerErin1BeatenText, 0, PicnickerErin1Script
 
@@ -249,17 +249,15 @@ GenericTrainerHikerBailey:
 	cont "WANDERER sind eben"
 	cont "so."
 	done
+
 Route46HikerText:
 	text "Ein DONPHAN"
 	line "stürmte auf mich"
 	cont "zu und ich"
-
 	para "rollte den ganzen"
 	line "Weg hier runter!"
-
 	para "Trotzdem lernte"
-	line "ich etwas…"
-
+	line "ich etwas …"
 	para "Sei vorsichtig bei"
 	line "wütenden #mon!"
 	done
@@ -285,9 +283,10 @@ Text_Route46TutorQuestion:
 HikerBaileySeenText:
 	text "Also gut! Ich"
 	line "zeige dir die"
-	cont "Kraft von Berg-"
-	cont "#mon!"
+	cont "Kraft von"
+	cont "Berg-#mon!"
 	done
+
 
 
 
@@ -304,13 +303,14 @@ HikerBaileyBeatenText:
 
 
 
+
 CamperTedSeenText:
 	text "Ich trainiere auch"
 	line "#mon!"
-
 	para "Möchtest du gegen"
 	line "mich kämpfen?"
 	done
+
 
 
 
@@ -326,10 +326,10 @@ CamperTedBeatenText:
 
 
 
+
 PicnickerErin1SeenText:
 	text "Ich trainiere auch"
 	line "#mon!"
-
 	para "Trittst du gegen"
 	line "mich an?"
 	done
@@ -339,9 +339,11 @@ PicnickerErin1SeenText:
 
 
 
+
 PicnickerErin1BeatenText:
-	text "Ach, Mistkerle!"
+	text "Oh, Mistkerle!"
 	done
+
 
 
 
@@ -352,14 +354,14 @@ PicnickerErinAfterBattleText:
 	text "Ich war in vielen"
 	line "#mon-ARENEN,"
 	cont "aber"
-
-	para "die #mon-ARENA"
+	para "die PKMN-ARENA"
 	line "in DUKATIA CITY"
 	cont "ist am schönsten."
-
-	para "Dort sind wunder-"
-	line "schöne Blumen!"
+	para "Dort sind"
+	line "wunderschöne"
+	cont "Blumen!"
 	done
+
 
 
 
@@ -387,10 +389,12 @@ PicnickerErin2BeatenText:
 
 
 
+
 Route46SignText:
 	text "ROUTE 46 BERGWEG"
 	line "VORAUS"
 	done
+
 
 
 

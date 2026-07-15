@@ -21,15 +21,15 @@ WiltonAskNumber2Text:
 	done
 
 WiltonNumberAcceptedText:
-	text "Wenn ich was Gutes"
-	line "fange, sag ich"
-	cont "Bescheid."
+	text "Wenn ich was"
+	line "Gutes fange, sag"
+	cont "ich Bescheid."
 	done
 
 WiltonNumberDeclinedText:
-	text "Alles klar… Komm"
-	line "wieder, wenn du es"
-	cont "dir anders"
+	text "Alles klar … Komm"
+	line "wieder, wenn du"
+	cont "es dir anders"
 	cont "überlegst."
 	done
 

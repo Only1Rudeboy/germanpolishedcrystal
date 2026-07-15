@@ -142,10 +142,8 @@ CeladonUniversityLoungeNeeshaScript:
 .FinalText:
 	text "Selten fordert"
 	line "jemand uns"
-
 	para "Prismanias Vier so"
 	line "heraus."
-
 	para "Ich vergesse dich"
 	line "nicht, Trainer!"
 	done
@@ -175,25 +173,21 @@ CeladonUniversityLoungeRichBoyText:
 CeladonUniversityLoungeCooltrainerfText:
 	text "#mon mit"
 	line "geringerer"
-
 	para "körperlicher Kraft"
 	line "versuchen"
 	cont "instinktiv in"
 	cont "einen"
-
-	para "# Ball zu"
-	line "gehen."
+	para "#Ball zu gehen."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:
 	text "Was entsteht, wenn"
 	line "man einen"
-
 	para "Witz mit einer"
 	line "rhetorischen Frage"
 	cont "kreuzt?"
-
-	para "………………………………"
+	para "… … … … … … … … …"
+	line "… … …"
 	done
 
 CeladonUniversityLoungeSuper_nerd2Text:
@@ -227,7 +221,6 @@ CeladonUniversityLoungeBookshelf2:
 .Text1:
 	text "Dieses Buch hat"
 	line "ein Geheimfach, wo"
-
 	para "die Seiten sein"
 	line "sollten!"
 	done
@@ -242,6 +235,5 @@ CeladonUniversityLoungeComputer:
 
 	text "Eine Spielfigur"
 	line "rennt durch eine"
-
 	para "2D-Prismania City."
 	done

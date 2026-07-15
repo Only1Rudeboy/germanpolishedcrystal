@@ -62,13 +62,10 @@ GenericTrainerAriana1:
 	generictrainer ARIANA, ARIANA1, EVENT_BEAT_ARIANA_1, Ariana1SeenText, Ariana1BeatenText
 
 	text "<PLAYER>, oder?"
-
 	para "Ein Balg wie du"
 	line "weiß die Größe"
-
 	para "von TEAM ROCKET"
 	line "nicht zu würdigen."
-
 	para "Das ist schade."
 	line "Ich bewundere"
 	cont "deine Stärke."
@@ -187,73 +184,57 @@ FakeDirectorTextBefore1:
 	line "gekommen, um mich"
 	cont "zu retten?"
 	done
-
-
 FakeDirectorTextBefore2:
 	text "Ist es das, was du"
 	line "erwartet hast?"
-
 	para "Falsch! Ich bin"
 	line "ein Betrüger!"
-
 	para "Ich gebe vor, der"
 	line "Echte zu sein, um"
-
-	para "unsere Übernahme"
-	line "vorzubereiten."
-
-	para "Möchtest du"
-	line "wissen, wo wir den"
-	cont "echten INTENDANTEN"
-	cont "versteckt haben?"
-
-	para "Ich werde es dir"
-	line "verraten, wenn du"
-	cont "mich besiegst!"
+	cont "unsere Übernahme"
+	cont "vorzubereiten."
+	para "Willst du wissen,"
+	line "wo der echte"
+	cont "INTENDANT ist?"
+	para "Ich verrate es"
+	line "-wenn du mich"
+	cont "besiegst!"
 	done
+
 
 
 FakeDirectorTextBefore3:
 	text "Ich gab vor, der"
 	line "Echte zu sein, um"
-
-	para "unsere Übernahme"
-	line "vorzubereiten."
-
+	cont "unsere Übernahme"
+	cont "vorzubereiten."
 	para "Willst du wissen,"
 	line "wo wir den echten"
-
-	para "INTENDANTEN"
-	line "versteckt haben?"
-
+	cont "INTENDANTEN"
+	cont "versteckt haben?"
 	para "Klar, ich sag's"
-	line "dir — aber nur,"
-
-	para "wenn du mich"
-	line "besiegst!"
+	line "dir - aber nur,"
+	cont "wenn du mich"
+	cont "besiegst!"
 	done
 
 FakeDirectorWinText:
 	text "O.K. Ich sage dir,"
 	line "wo er ist."
 	done
-
-
 FakeDirectorTextAfter:
 	text "Wir haben den"
 	line "echten INTENDANTEN"
-
-	para "in das UNTERGRUND-"
-	line "LAGERHAUS"
+	cont "ins UNTERGRUND-"
+	cont "LAGERHAUS"
 	cont "verschleppt."
-
-	para "Es ist am Ende des"
-	line "UNTERGRUNDs."
-
-	para "Ich bezweifle"
-	line "aber, dass du so"
-	cont "weit kommst."
+	para "Es liegt am Ende"
+	line "des UNTERGRUNDS."
+	para "Aber ich"
+	line "bezweifle, dass du"
+	cont "so weit kommst."
 	done
+
 
 
 Ariana1SeenText:
@@ -261,175 +242,129 @@ Ariana1SeenText:
 	line "noch aus dem"
 	cont "VERSTECK in"
 	cont "MAHAGONIA CITY?"
-
 	para "Damals habe ich"
-	line "verloren, aber das"
-
-	para "wird heute nicht"
-	line "passieren."
+	line "verloren - aber"
+	cont "das wird heute"
+	cont "nicht passieren."
 	done
 Ariana1BeatenText:
 	text "Das darf nicht"
 	line "wahr sein!"
-
 	para "Ich habe mich so"
 	line "angestrengt und"
-	cont "dennoch verloren…"
+	cont "trotzdem verloren…"
 	done
 RadioTower5FRocketBossBeforeText:
 	text "Oh? Du bist so"
 	line "weit gekommen?"
-
 	para "Du musst ein"
 	line "ausgezeichneter"
 	cont "Trainer sein."
-
-	para "Wir planen, die"
-	line "RADIOSTATION zu"
-
-	para "annektieren und"
-	line "unsere Rückkehr"
-	cont "bekanntzugeben."
-
-	para "Das sollte unseren"
+	para "Wir wollen den"
+	line "RADIOTURM"
+	cont "übernehmen und"
+	cont "unsere Rückkehr"
+	cont "verkünden."
+	para "Dann kehrt unser"
 	line "Anführer GIOVANNI"
-
-	para "überzeugen, sein"
-	line "Solo-Training"
-	cont "abzubrechen und"
-	cont "zurückzukehren."
-
-	para "Wir werden unseren"
-	line "früheren Ruhm"
-	cont "wiedererlangen."
-
-	para "Ich werde nicht"
-	line "zulassen, dass du"
-	cont "unsere Pläne"
-	cont "durchkreuzt."
+	cont "aus seinem"
+	cont "Solo-Training"
+	cont "zurück."
+	para "Wir erlangen"
+	line "unseren früheren"
+	cont "Ruhm zurück!"
+	para "Ich lasse nicht"
+	line "zu, dass du unsere"
+	cont "Pläne durchkreuzt."
 	done
+
 
 
 RadioTower5FRocketBossWinText:
 	text "Nein! Vergib mir,"
 	line "GIOVANNI!"
 	done
-
-
 RadioTower5FRocketBossAfterText:
 	text "Wie kann das sein?"
-
-	para "Unsere Träume"
+	para "Unsere Träume…"
 	line "wurden"
 	cont "zerschlagen."
-
 	para "Ich konnte meine"
 	line "Aufgabe nicht"
 	cont "erfüllen."
-
-	para "Wie GIOVANNI werde"
-	line "ich TEAM"
-
-	para "ROCKET hier und"
-	line "heute auflösen."
-
+	para "Wie GIOVANNI löse"
+	line "ich TEAM ROCKET"
+	cont "hier und heute"
+	cont "auf."
 	para "Leb wohl."
 	done
+
 
 
 RadioTower5FDirectorThankYouText:
 	text "INTENDANT:"
 	line "<PLAYER>! Vielen"
 	cont "Dank!"
-
-	para "Dein couragiertes"
-	line "Handeln hat die"
-
-	para "#mon im ganzen"
-	line "Land gerettet."
-
-	para "Ich weiß, es ist"
-	line "nicht viel, aber"
-	cont "nimm dies bitte."
+	para "Dein Mut hat die"
+	line "#mon im ganzen"
+	cont "Land gerettet."
+	para "Es ist nicht viel,"
+	line "aber bitte nimm"
+	cont "dies."
 	done
+
 
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "Früher gab es hier"
-	line "einen Turm in"
-	cont "DUKATIA CITY."
-
-	para "Aber er war alt"
-	line "und baufällig."
-
-	para "Also haben wir ihn"
-	line "durch unseren"
-	cont "RADIOTURM ersetzt."
-
-	para "Beim Bau haben wir"
-	line "diese Glocke"
-	cont "gefunden."
-
-	para "Ich hörte, dass"
-	line "früher viele ver-"
-	cont "schiedene #mon"
-
-	para "in DUKATIA CITY"
-	line "lebten."
-
-	para "Vielleicht…"
-
-	para "…hat diese Glocke"
-	line "etwas mit dem"
-
-	para "ZINNTURM in TEAK"
-	line "CITY zu tun…"
-
-	para "Ah!"
-
-	para "Das erinnert mich…"
-
-	para "Ich habe TEAM"
-	line "ROCKET zufällig"
-	cont "flüstern hören."
-
-	para "Es scheint, als"
-	line "führten sie etwas"
-	cont "am ZINNTURM im"
-	cont "Schilde."
-
-	para "Ich habe keine"
-	line "Ahnung, was vor"
-
-	para "sich geht."
-	line "Vielleicht"
-	cont "solltest du es"
-	cont "überprüfen."
-
-	para "O.K., ich gehe in"
-	line "mein BÜRO zurück."
+	text "Früher stand in"
+	line "DUKATIA CITY ein"
+	cont "alter Turm."
+	para "Er war baufällig"
+	line "-also bauten wir"
+	cont "diesen RADIOTURM."
+	para "Beim Bau fanden"
+	line "wir diese Glocke."
+	para "Man sagt, früher"
+	line "lebten viele"
+	cont "#mon in DUKATIA"
+	cont "CITY."
+	para "Vielleicht… hat"
+	line "diese Glocke mit"
+	cont "dem ZINNTURM in"
+	cont "TEAK CITY zu tun…"
+	para "Ah! Das erinnert"
+	line "mich…"
+	para "Ich hörte TEAM"
+	line "ROCKET flüstern."
+	para "Sie scheinen am"
+	line "ZINNTURM etwas im"
+	cont "Schilde zu führen."
+	para "Ich weiß nicht,"
+	line "was - vielleicht"
+	cont "solltest du"
+	cont "nachsehen."
+	para "O.K., ich gehe"
+	line "zurück in mein"
+	cont "BÜRO."
 	done
+
 
 
 RadioTower5FDirectorText:
 	text "INTENDANT: Hallo,"
 	line "<PLAYER>!"
-
 	para "Du weißt, ich"
 	line "liebe #mon."
-
 	para "Ich errichtete"
 	line "diesen RADIOTURM,"
-
-	para "um meiner Liebe zu"
-	line "#mon Ausdruck"
-	cont "zu verleihen."
-
+	cont "um meiner Liebe"
+	cont "Ausdruck zu geben."
 	para "Es wäre wunderbar,"
 	line "wenn die Menschen"
 	cont "unsere Sendungen"
 	cont "liebten."
 	done
+
 
 
 BenText:
@@ -438,8 +373,9 @@ BenText:
 	done
 
 
+
 SignpostRadioTower5FOffice:
-	text "4S BÜRO DES   "
+	text "4S BÜRO DES"
 	line "INTENDANTEN"
 	done
 SignpostRadioTower5FStudio:

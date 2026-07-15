@@ -563,18 +563,18 @@ GenericTrainerGruntM16:
 	text "Ich weiß nicht, wo"
 	line "die Fallen"
 	cont "aufgestellt sind."
-
 	para "Du musst deinen"
 	line "ganzen Mut"
 	cont "zusammennehmen und"
 	cont "weitergehen."
 	done
+
 TeamRocketBaseB1FSecurityCamera:
 	jumpthistext
 
 	text "Das ist eine"
-	line "SNOBILIKAT-Statue…"
-
+	line "SNOBILIKAT-Statue"
+	cont "…"
 	para "Es ist ein"
 	line "seltsamer Glanz in"
 	cont "ihren Augen."
@@ -695,10 +695,12 @@ CameraGrunt1SeenText:
 	done
 
 
+
 CameraGrunt1BeatenText:
 	text "Mist… Ich habe"
 	line "versagt…"
 	done
+
 
 
 CameraGrunt2SeenText:
@@ -708,13 +710,13 @@ CameraGrunt2SeenText:
 	done
 
 
-CameraGrunt2BeatenText:
-	text "In den #mon-"
-	line "Statuen sind"
-	cont "Über-"
-	cont "wachungskameras"
-	cont "installiert."
 
+CameraGrunt2BeatenText:
+	text "In den"
+	line "#mon-Statuen"
+	cont "sind"
+	cont "Überwachungskamer-"
+	cont "as installiert."
 	para "Wir greifen weiter"
 	line "an, bis du einen"
 	cont "Geheimschalter"
@@ -722,10 +724,10 @@ CameraGrunt2BeatenText:
 	done
 
 
+
 RocketScientistJedSeenText:
 	text "Dies war einmal"
 	line "ein Ninjaversteck."
-
 	para "Es wurden Fallen"
 	line "aufgestellt, um"
 	cont "Eindringlinge wie"
@@ -747,9 +749,11 @@ GruntM16SeenText:
 	done
 
 
+
 GruntM16BeatenText:
 	text "Kawumm!"
 	done
+
 
 
 TeamRocketBaseB1FSecretSwitchText:
@@ -757,5 +761,6 @@ TeamRocketBaseB1FSecretSwitchText:
 	line "Geheimschalter!"
 	cont "Betätige ihn!"
 	done
+
 
 

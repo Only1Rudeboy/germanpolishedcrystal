@@ -42,9 +42,8 @@ EcruteakShrineOutsideSageText:
 	done
 
 EcruteakShrineOutsideStatueText:
-	text "Eine #mon-"
-	line "Statue…"
-
+	text "Eine"
+	line "#mon-Statue…"
 	para "Sie wirkt sehr"
 	line "gelassen."
 	done

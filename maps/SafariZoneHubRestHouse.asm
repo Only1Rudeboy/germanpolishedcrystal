@@ -22,20 +22,15 @@ PokemonJournalKogaScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: TOP VIER"
-	line "Koga!"
-
-	para "Koga soll über"
+	line "KOGA!"
+	para "KOGA soll über"
 	line "umfassende"
-
 	para "medizinische"
 	line "Kenntnisse"
 	cont "verfügen."
-
 	para "Er braut sogar"
 	line "Medizin, um seine"
-
 	para "#mon wieder"
 	line "gesund zu pflegen."
 	done

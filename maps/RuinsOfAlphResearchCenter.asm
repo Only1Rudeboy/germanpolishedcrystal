@@ -83,10 +83,8 @@ RuinsOfAlphResearchCenterScientist3Script:
 
 	text "Wir werden die"
 	line "geöffnete Kammer"
-
 	para "nach und nach"
 	line "untersuchen."
-
 	para "Wir müssen darauf"
 	line "achten, die Stätte"
 	cont "nicht zu stören."
@@ -167,7 +165,6 @@ RuinsOfAlphResearchCenterScientist1Script:
 	text "Die RUINEN sind"
 	line "etwa 1.500 Jahre"
 	cont "alt."
-
 	para "Aber man weiß"
 	line "nicht, warum oder"
 	cont "von wem sie erbaut"
@@ -179,10 +176,9 @@ RuinsOfAlphResearchCenterScientist1Script:
 
 	text "Es gibt #mon in"
 	line "den RUINEN?"
-
-	para "Das sind unfass-"
-	line "bare Neuigkeiten!"
-
+	para "Das sind"
+	line "unfassbare"
+	cont "Neuigkeiten!"
 	para "Das müssen wir"
 	line "erforschen."
 	done
@@ -211,12 +207,11 @@ RuinsOfAlphResearchCenterScientist2Script:
 	iftruefwd .UnownAppeared
 	jumpthisopenedtext
 
-	text "Es gibt merk-"
-	line "würdige Muster an"
-
+	text "Es gibt"
+	line "merkwürdige Muster"
+	cont "an"
 	para "den Wänden der"
 	line "RUINEN."
-
 	para "Sie müssen der"
 	line "Schlüssel zur"
 	cont "Lösung des Rätsels"
@@ -253,10 +248,9 @@ RuinsOfAlphResearchCenterScientist2Script:
 
 	text "Warum sind diese"
 	line "antiken Muster"
-
-	para "jetzt an den Wän-"
-	line "den aufgetaucht?"
-
+	para "jetzt an den"
+	line "Wänden"
+	cont "aufgetaucht?"
 	para "Das wird immer"
 	line "geheimnisvoller…"
 	done
@@ -272,11 +266,9 @@ RuinsOfAlphResearchCenterScientist2Script:
 
 	text "Wir glauben, etwas"
 	line "hat die"
-
 	para "rätselhaften"
 	line "Muster in den"
 	cont "RUINEN verursacht."
-
 	para "Wir konzentrieren"
 	line "unsere Forschung"
 	cont "darauf."
@@ -307,16 +299,12 @@ RuinsOfAlphResearchCenterApproachesComputerMovement:
 
 RuinsOfAlphResearchCenterModifiedDexText:
 	text "Geschafft!"
-
 	para "Ich habe deinen"
-	line "#dex erweitert."
-
+	line "#DEX erweitert."
 	para "Ich habe dir einen"
-	line "optionalen #dex"
-
+	line "optionalen #DEX"
 	para "extra für ICOGNITO"
 	line "eingebaut. Er"
-
 	para "speichert sie in"
 	line "der Reihenfolge,"
 	cont "in der du sie"
@@ -324,10 +312,12 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	done
 
 
+
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>s #dex"
+	text "<PLAYER>s #DEX"
 	line "wurde erweitert."
 	done
+
 
 
 RuinsOfAlphResearchCenterScientist3Text:
@@ -335,11 +325,11 @@ RuinsOfAlphResearchCenterScientist3Text:
 	line "das du fängst,"
 	cont "wird darin"
 	cont "eingetragen."
-
 	para "Schlage nach, um"
 	line "zu erfahren, wie"
 	cont "viele es gibt."
 	done
+
 
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
@@ -363,7 +353,7 @@ RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 
 
 GotUnownDollText:
-	text "<PLAYER> erhielt"
+	text "<PLAYER> erhält"
 	line "ICOGNITO-Puppe."
 	done
 
@@ -394,18 +384,16 @@ RuinsofAlphResearchCenterScientistShockedText:
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	text "Unsere Forschung"
 	line "und deine Hilfe"
-
 	para "geben uns einen"
 	line "tiefen Einblick in"
 	cont "die RUINEN."
-
 	para "Es scheint, als ob"
 	line "die RUINEN als"
-
 	para "Habitat für"
 	line "#mon gebaut"
 	cont "wurden."
 	done
+
 
 
 RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
@@ -433,10 +421,10 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	text "Geheimnisvolles"
 	line "#mon Name:"
 	cont "ICOGNITO"
-
 	para "26 verschiedene"
 	line "gefunden."
 	done
+
 
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
@@ -446,13 +434,16 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	done
 
 
-RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "Ein Foto des"
-	line "FORSCHUNGS-"
 
-	para "ZENTRUMS-Gründers,"
-	line "Prof. SEIDENBAUM."
+RuinsOfAlphResearchCenterProfSilktreePhotoText:
+	text "Ein Foto vom"
+	line "Gründer des"
+
+	para "FORSCHUNGS-"
+	line "ZENTRUMS,"
+	cont "PROF. SILKTREE."
 	done
+
 
 
 RuinsOfAlphResearchCenterAcademicBooksText:
@@ -464,5 +455,6 @@ RuinsOfAlphResearchCenterAcademicBooksText:
 	line "Geheimnisse der"
 	cont "Antike…"
 	done
+
 
 

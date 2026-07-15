@@ -48,7 +48,6 @@ GenericTrainerRuin_maniacPetry:
 	text "Alte Geschichte"
 	line "ist meine"
 	cont "Leidenschaft,"
-
 	para "aber um sie"
 	line "richtig zu"
 	cont "erforschen, nutzen"

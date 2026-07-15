@@ -76,11 +76,9 @@ FastShipB1FSailorScript:
 	text "Hey, du da."
 	line "Könntest du meinen"
 	cont "Kumpel suchen?"
-
 	para "Er treibt sich"
 	line "irgendwo rum,"
 	cont "dieser faule Sack!"
-
 	para "Ich würde ihn gern"
 	line "suchen, aber ich"
 	cont "hab Dienst."
@@ -128,7 +126,6 @@ GenericTrainerJugglerFritz:
 
 	text "Ich reise nie mehr"
 	line "mit dem"
-
 	para "Schiff. Das"
 	line "nächste Mal nehme"
 	cont "ich den MAGNETZUG."
@@ -138,7 +135,6 @@ GenericTrainerBakerSharyn:
 
 	text "Ich bin vielleicht"
 	line "nicht der beste im"
-
 	para "Kampf, aber die"
 	line "Leute lieben mein"
 	cont "Gebäck."
@@ -155,7 +151,6 @@ TrainerSailorGarrett:
 
 	text "Wir bringen unsere"
 	line "Passagiere von"
-
 	para "ORANIA CITY nach"
 	line "OLIVIANA CITY."
 	done
@@ -182,10 +177,9 @@ GenericTrainerSailorKenneth:
 
 	text "Acht ORDEN! Das"
 	line "heißt, du"
-
-	para "hast die ARENA-"
-	line "LEITER besiegt."
-
+	para "hast die"
+	line "ARENA-LEITER"
+	cont "besiegt."
 	para "Kein Wunder, dass"
 	line "du so stark bist!"
 	done
@@ -257,7 +251,6 @@ FastShipB1FOnDutySailorThanksText:
 FastShipB1FOnDutySailorDirectionsText:
 	text "Der Speisesaal ist"
 	line "geradeaus."
-
 	para "Die Treppen am"
 	line "Ende führen in die"
 	cont "KAPITÄNS-KAJÜTE."
@@ -270,8 +263,8 @@ FastShipB1FOnDutySailorDirectionsText:
 SailorJeffSeenText:
 	text "In den Pausen ist"
 	line "Kämpfen meine"
-	cont "Lieblingsbeschäf-"
-	cont "tigung."
+	cont "Lieblingsbeschäft-"
+	cont "igung."
 	done
 
 
@@ -362,7 +355,6 @@ FisherJonahSeenText:
 	line "dem Schiff fahren,"
 	cont "kann ich nicht"
 	cont "angeln!"
-
 	para "Wie langweilig!"
 	line "Lass uns kämpfen!"
 	done
@@ -383,7 +375,6 @@ FisherJonahBeatenText:
 BlackbeltWaiSeenText:
 	text "Ich trainiere"
 	line "meine Beine, indem"
-
 	para "ich das Schaukeln"
 	line "des Schiffes"
 	cont "ausgleiche!"
@@ -404,7 +395,6 @@ BlackbeltWaiBeatenText:
 
 SailorKennethSeenText:
 	text "Ich bin Matrose!"
-
 	para "Aber ich trainiere"
 	line "#mon, um der"
 	cont "CHAMP zu werden!"
@@ -415,8 +405,9 @@ SailorKennethSeenText:
 
 
 SailorKennethBeatenText:
-	text "Mein Trainings-"
-	line "rückstand ist"
+	text "Mein"
+	line "Trainingsrückstand"
+	cont "ist"
 	cont "offensichtlich…"
 	done
 

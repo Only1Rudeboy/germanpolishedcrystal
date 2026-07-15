@@ -140,7 +140,6 @@ CeruleanCityCooltrainerMText2:
 CeruleanCitySuperNerdText:
 	text "Am KAP im Norden"
 	line "treffen sich viele"
-
 	para "Pärchen. Gerade"
 	line "Mädchen gehen dort"
 	cont "gerne hin!"
@@ -152,8 +151,9 @@ CeruleanCitySlowbroText:
 
 CeruleanCityCooltrainerFText1:
 	text "Mein LAHMUS und"
-	line "ich sind ein un-"
-	cont "schlagbares Team!"
+	line "ich sind ein"
+	cont "unschlagbares"
+	cont "Team!"
 	done
 
 CeruleanCityCooltrainerFText2:
@@ -167,10 +167,10 @@ CeruleanCityCooltrainerFText3: ; text > text
 
 CeruleanCityFisherText:
 	text "Ich bin ein großer"
-	line "Fan von der ARENA-"
-	cont "LEITERIN in AZURIA"
-	cont "CITY. Ihr Name ist"
-	cont "MISTY."
+	line "Fan von der"
+	cont "ARENA-LEITERIN in"
+	cont "AZURIA CITY. Ihr"
+	cont "Name ist MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
@@ -183,7 +183,6 @@ CeruleanCityFisherRocketTipText:
 CeruleanCityYoungsterText1:
 	text "Hier soll es mal"
 	line "eine Höhle gegeben"
-
 	para "haben, in der"
 	line "mächtige und"
 	cont "grässliche #mon"
@@ -217,14 +216,12 @@ CeruleanCaveGuardText:
 
 CeruleanCitySignText:
 	text "AZURIA CITY"
-
 	para "Umgeben Von Einer"
 	line "Mystischen Blauen"
 	cont "Aura"
 	done
-
 CeruleanGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "AZURIA CITY"
 	cont "LEITUNG: MISTY"
 
@@ -244,16 +241,14 @@ CeruleanBikeShopSignText:
 
 CeruleanPoliceSignText:
 	text "Hier ist eine"
-	line "Nachricht…"
-
-	para "Stoppt die Krimi-"
-	line "nalität und macht"
-
+	line "Nachricht …"
+	para "Stoppt die"
+	line "Kriminalität und"
+	cont "macht"
 	para "aus dieser Stadt"
 	line "einen Ort, an dem"
 	cont "man sicher ist und"
 	cont "gerne lebt!"
-
 	para "ORDNUNGSAMT VON"
 	line "AZURIA CITY"
 	done

@@ -28,20 +28,21 @@ GenericTrainerSupernerdHugh:
 	line "KESSELBERG, aber"
 	cont "mein Kamerad fehlt"
 	cont "unentschuldigt."
-
 	para "Bist du hier einem"
 	line "Trainer begegnet,"
-
 	para "dessen FLEGMON"
 	line "STÄRKE beherrscht?"
 	done
+
 SupernerdHughSeenText:
 	text "Yo! URBAN!"
 	done
 
 
+
 SupernerdHughBeatenText:
 	text "… mein Fehler."
 	done
+
 
 

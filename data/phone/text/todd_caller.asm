@@ -54,22 +54,18 @@ ToddHangUpText:
 
 ToddDepartmentStoreBargainSaleText:
 	text "Jetzt ist es"
-	line "soweit — darauf"
+	line "soweit - darauf"
 	cont "haben wir"
 	cont "gewartet!"
-
 	para "Schlussverkauf im"
 	line "Kaufhaus Dukatia!"
-
 	para "Billig? Viel?"
 	line "Verpass es nicht!"
-
-	para "Häh? Kling ich wie"
-	line "ein Marktschreier?"
-
-	para "Na ja, ich hab sie"
-	line "nachgeahmt…"
-
+	para "Häh? Kling ich"
+	line "wie ein"
+	cont "Marktschreier?"
+	para "Na ja, ich hab"
+	line "sie nachgeahmt …"
 	para "Beeil dich!"
 	done
 
@@ -82,10 +78,10 @@ ToddSavingUpForBargainSaleText:
 
 ToddLookingForwardToBattleText:
 	text "Wo bist du?"
-
 	para "Lass uns bald"
-	line "kämpfen! Ich warte"
-	cont "auf "
+	line "kämpfen! Ich"
+	cont "warte auf"
+	done
 	text_ram wStringBuffer5
 	text "."
 	done
@@ -93,10 +89,9 @@ ToddLookingForwardToBattleText:
 ToddHaveYouGoneToDepartmentStoreText:
 	text "Warst du im"
 	line "Kaufhaus Dukatia?"
-
 	para "Ich war schon da!"
-	line "Tolle Schnäppchen."
-
+	line "Tolle"
+	cont "Schnäppchen."
 	para "Du solltest"
 	line "schnell hingehen."
 	done

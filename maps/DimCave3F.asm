@@ -94,7 +94,6 @@ GenericTrainerBlackbeltTakeo:
 	text "Ich trainiere hier"
 	line "allein mit meinen"
 	cont "#mon."
-
 	para "Verschwinde"
 	line "sofort!"
 	done

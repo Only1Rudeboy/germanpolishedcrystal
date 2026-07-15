@@ -26,18 +26,16 @@ CeruleanGymBadgeSpeechHouseGentlemanScript:
 
 .Text2:
 	text "Sammelst du die"
-	line "Orden der Kanto-"
-	cont "Arenen? Viel"
+	line "Orden der"
+	cont "Kanto-Arenen? Viel"
 	cont "Glück!"
 	done
 
 .Text1:
 	text "Vor ein paar"
 	line "Jahren gab's viele"
-
 	para "Einbrüche, deshalb"
 	line "ist jetzt jeder"
 	cont "vorsichtig."
-
 	para "Wer bist du?"
 	done

@@ -19,19 +19,16 @@ UragaChannelWestEngineerText:
 	text "Die Strömung spült"
 	line "allerlei Treibgut"
 	cont "an."
-
 	para "Ich suche mit"
 	line "einem"
 	cont "Metalldetektor"
 	cont "versteckte Items."
-
 	para "Ein Itemfinder"
-	line "wäre besser…"
+	line "wäre besser …"
 	done
 
 ScaryCaveWestSignText:
 	text "Uraga-Kanal voraus"
-
 	para "Betrete ihn nur"
 	line "von Route 18 im"
 	cont "Westen!"

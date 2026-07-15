@@ -53,17 +53,14 @@ CeladonGymErikaScript:
 	jumpthisopenedtext
 
 	text "Es ist Kraftsauger"
-
 	para "Es ist eine tolle"
 	line "Attacke, die die"
 	cont "Hälfte des"
-
 	para "Schadens nutzt, um"
 	line "dein #mon zu"
 	cont "heilen."
-
 	para "Nutze sie, wenn es"
-	line "dir gefällt…"
+	line "dir gefällt …"
 	done
 
 GenericTrainerLassMichelle:
@@ -88,7 +85,7 @@ GenericTrainerBeautyJulia:
 
 	text "Wie werde ich nur"
 	line "so damenhaft wie"
-	cont "Erika?"
+	cont "ERIKA?"
 	done
 
 GenericTrainerAroma_ladyDahlia:
@@ -97,7 +94,7 @@ GenericTrainerAroma_ladyDahlia:
 	text "Myrapla verströmt"
 	line "üblen Gestank,"
 
-	para "doch Erika macht"
+	para "doch ERIKA macht"
 	line "daraus ein süßes"
 	cont "Parfüm."
 	done
@@ -105,14 +102,14 @@ GenericTrainerAroma_ladyDahlia:
 GenericTrainerTwinsJoandzoe1:
 	generictrainer TWINS, JOANDZOE1, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe1SeenText, TwinsJoandzoe1BeatenText
 
-	text "Erika wird sich"
+	text "ERIKA wird sich"
 	line "für uns rächen!"
 	done
 
 GenericTrainerTwinsJoandzoe2:
 	generictrainer TWINS, JOANDZOE2, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe2SeenText, TwinsJoandzoe2BeatenText
 
-	text "Erika ist viel,"
+	text "ERIKA ist viel,"
 	line "viel stärker!"
 	done
 
@@ -125,75 +122,47 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Erika: Hallo…"
-	line "Schönes Wetter,"
-
-	para "nicht wahr? Es ist"
-	line "so angenehm…"
-
-	para "…Ich fürchte, ich"
-	line "nicke gleich ein…"
-
-	para "Mein Name ist"
-	line "Erika. Ich leite"
-	cont "die Arena hier."
-
-	para "…Oh? Den weiten"
-	line "Weg von Johto,"
-	cont "sagst du? Nett…"
-
-	para "Oh, tut mir leid,"
-	line "ich wusste nicht,"
-
-	para "dass du mich"
-	line "herausfordern"
-	cont "willst."
-
-	para "Nun gut, aber ich"
-	line "werde nicht"
-	cont "verlieren."
+	text "Hallo… Schönes"
+	line "Wetter, nicht"
+	cont "wahr?"
+	para "Ich bin ERIKA,"
+	line "ARENALEITERIN von"
+	cont "PRISMANIA CITY."
+	para "Ich liebe Blumen"
+	line "und"
+	cont "Pflanzen-#mon…"
+	para "…Oh? Du willst"
+	line "kämpfen? Nun gut…"
 	done
-
 ErikaBeatenText:
-	text "Erika: Oh! Ich"
-	line "gebe auf…"
-
-	para "Du bist wirklich"
-	line "stark…"
-
-	para "Ich gebe dir den"
-	line "Regenbogenorden…"
+	text "Oh! Ich gebe mich"
+	line "geschlagen…"
+	para "Du bist"
+	line "bemerkenswert."
+	cont "Hier ist der"
+	cont "REGENBOGENORDEN."
 	done
-
 ErikaExplainTMText:
-	text "Erika: Das war ein"
-	line "herrlicher Kampf."
-
-	para "Ich fühlte mich"
-	line "inspiriert. Bitte"
-	cont "nimm dieses TM."
+	text "Der"
+	line "REGENBOGENORDEN"
+	cont "lässt #mon bis"
+	cont "LV 70 gehorchen."
+	para "Nimm auch diese TM"
+	line "- GIGASAUGER."
 	done
-
-
 ErikaAfterBattleText:
-	text "Erika: Verlieren"
-	line "hinterlässt einen"
-	cont "bitteren"
-
-	para "Nachgeschmack…"
-
-	para "Doch zu wissen,"
-	line "dass es starke"
-
-	para "Trainer gibt,"
-	line "spornt mich an,"
-	cont "besser zu werden…"
+	text "Verlieren macht"
+	line "einen so"
+	cont "deprimiert…"
+	para "Aber der Duft der"
+	line "Blumen erheitert"
+	cont "mich wieder."
 	done
-
 LassMichelleSeenText:
 	text "Findest du eine"
-	line "reine Mädchen-"
-	cont "Arena selten?"
+	line "reine"
+	cont "Mädchen-Arena"
+	cont "selten?"
 	done
 
 LassMichelleBeatenText:
@@ -203,7 +172,7 @@ LassMichelleBeatenText:
 PicnickerTanyaSeenText:
 	text "Oh, ein Kampf?"
 	line "Etwas gruselig,"
-	cont "aber OK!"
+	cont "aber O.K.!"
 	done
 
 PicnickerTanyaBeatenText:
@@ -222,7 +191,7 @@ BeautyJuliaBeatenText:
 
 Aroma_ladyDahliaSeenText:
 	text "Ein faszinierender"
-	line "Duft umgibt dich…"
+	line "Duft umgibt dich …"
 	done
 
 Aroma_ladyDahliaBeatenText:
@@ -233,7 +202,7 @@ Aroma_ladyDahliaBeatenText:
 TwinsJoandzoe1SeenText:
 	text "Wir zeigen dir"
 	line "#mon-Attacken,"
-	cont "die uns Erika"
+	cont "die uns ERIKA"
 
 	para "beigebracht hat!"
 	done
@@ -244,7 +213,7 @@ TwinsJoandzoe1BeatenText:
 
 TwinsJoandzoe2SeenText:
 	text "Wir beschützen"
-	line "Erika!"
+	line "ERIKA!"
 	done
 
 TwinsJoandzoe2BeatenText:

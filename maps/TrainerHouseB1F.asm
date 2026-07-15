@@ -177,7 +177,7 @@ TrainerHouseB1FIntroText:
 
 
 TrainerHouseB1FYourOpponentIsText:
-	text " ist heute dein"
+	text "ist heute dein"
 	line "Gegner."
 	done
 
@@ -208,18 +208,16 @@ TrainerHouseB1FPleaseComeAgainText:
 TrainerHouseB1FSecondChallengeDeniedText:
 	text "Es tut mir leid,"
 	line "das wäre für dich"
-
 	para "heute der zweite"
 	line "Kampf. Es ist aber"
-
 	para "nur ein Kampf pro"
 	line "Tag erlaubt."
 	done
 
 
 TrainerHouseB1FOpponentBeatenText:
-	text "Ich habe verloren…"
-	line "Mist…"
+	text "Ich habe verloren"
+	line "… Mist …"
 	done
 TrainerHouseB1FOpponentBeforeText:
 	text "Ich bin nur"

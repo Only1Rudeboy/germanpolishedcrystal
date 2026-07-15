@@ -36,8 +36,8 @@ LizNumberDeclinedText:
 	done
 
 LizPhoneFullText:
-	text "Warte! Deine Liste"
-	line "ist voll!"
+	text "Warte! Deine"
+	line "Liste ist voll!"
 	done
 
 LizRematchText:

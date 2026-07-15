@@ -44,7 +44,8 @@ LizLostAMonText:
 	done
 
 LizBattleRematchText:
-	text "Hi! Hast du Zeit?"
+	text "Hallo! Hast du"
+	line "Zeit?"
 
 	para "Ich hab jede"
 	line "Menge. Lust auf"
@@ -54,59 +55,50 @@ LizBattleRematchText:
 	line ""
 	text_ram wStringBuffer5
 	text "."
-
-	para "Sag Bescheid, wenn"
-	line "du da bist!"
+	para "Sag Bescheid,"
+	line "wenn du da bist!"
 	done
 
 LizWrongNumberText:
 	text "Hi, Tania. Wie"
-	line "geht's? Ich bin's,"
-	cont "Liz."
-
+	line "geht's? Ich"
+	cont "bin's, Liz."
 	para "Mir geht's gut,"
 	line "aber mir ist"
 	cont "langweilig!"
-
-	para "Häh… Falsche"
+	para "Häh … Falsche"
 	line "Nummer? Ups! Tut"
 	cont "mir leid!"
 	done
 
 LizHangUpText:
-	text "Na, ich ruf später"
-	line "an!"
+	text "Na, ich ruf"
+	line "später an!"
 	done
 
 LizRuinsOfAlphGossipText:
 	text "Hör mal, hör mal!"
-
-	para "In den Alph-Ruinen"
-	line "hörte ich Radio,"
-
+	para "In den"
+	line "Alph-Ruinen hörte"
+	cont "ich Radio,"
 	para "da kam plötzlich"
 	line "eine seltsame"
 	cont "Sendung."
-
 	para "Was war das? So"
 	line "merkwürdig!"
 	done
 
 LizFalknerGossipText:
 	text "Hör mal, hör mal!"
-
-	para "Findest du Falkner"
-	line "von Viola City"
-	cont "nicht"
-
+	para "Findest du"
+	line "FALK von Viola"
+	cont "City nicht"
 	para "cool und hübsch?"
 	line "Sein Vater, der"
-
 	para "unterwegs"
 	line "trainiert, soll"
 	cont "noch cooler und"
 	cont "hübscher sein!"
-
 	para "Ich wünschte, ich"
 	line "könnte ihn"
 	cont "treffen!"
@@ -129,19 +121,15 @@ LizEarlGossipText:
 
 LizSurfPikachuGossipText:
 	text "Hör mal, hör mal!"
-
 	para "Ich sammle"
-	line "#mon-"
-	cont "Plüschtiere."
-
+	line "#mon-Plüsch-"
+	cont "tiere."
 	para "Aber kein Surf-"
 	line "Pikachu-Puppe."
 	cont "Keiner"
-
-	para "meiner Freunde hat"
-	line "eine. Total"
+	para "meiner Freunde"
+	line "hat eine. Total"
 	cont "selten!"
-
 	para "Damit könntest du"
 	line "prahlen!"
 	done
@@ -166,28 +154,25 @@ LizMooMooMilkGossipText:
 
 LizSalonGossipText:
 	text "Hör mal, hör mal!"
-
 	para "In Dukatia City"
 	line "gibt's einen"
 	cont "#mon-Salon mit"
 	cont "zwei Brüdern."
-
 	para "Der Ältere ist"
 	line "gut, der Jüngere"
 	cont "nicht."
-
-	para "Manchmal macht der"
-	line "Jüngere es besser."
-
+	para "Manchmal macht"
+	line "der Jüngere es"
+	cont "besser."
 	para "Ich kann mich nie"
 	line "entscheiden, wen"
-	cont "ich nehmen soll…"
+	cont "ich nehmen soll …"
 	done
 
 LizWhitneyGossipText:
 	text "Hör mal, hör mal!"
 
-	para "Whitney von"
+	para "BIANKA von"
 	line "Dukatia kämpft"
 	cont "erst seit"
 
@@ -233,12 +218,10 @@ LizBeautifulMonGossipText:
 
 LizForgotGossipText:
 	text "Hör mal, hör mal!"
-
-	para "Äh… Ähm… Ups!"
-
-	para "Ich hab vergessen,"
-	line "was ich sagen"
-	cont "wollte!"
+	para "Äh … Ähm … Ups!"
+	para "Ich hab"
+	line "vergessen, was"
+	cont "ich sagen wollte!"
 	done
 
 LizFawningOverMonText:
@@ -257,7 +240,7 @@ LizFawningOverMonText:
 	line "viel!"
 
 	para "…Kuscheln…"
-	line "schlafen… richtig…"
+	line "schlafen…"
 
 	para "hübsch… seufz… So"
 	line "schön… Süß…"
@@ -266,7 +249,7 @@ LizFawningOverMonText:
 	line "Zeit! Zu lang"
 	cont "gequatscht!"
 
-	para "Entschuldigung für"
+	para "Entschuldigung"
 	line "die Zeit! Ich"
 	cont "liebe Quatschen!"
 	done
@@ -274,10 +257,10 @@ LizFawningOverMonText:
 LizReminderText:
 	text "Ich hab zu viel"
 	line "Zeit!"
-
 	para "Lass uns sofort"
-	line "kämpfen! Ich warte"
-	cont "auf "
+	line "kämpfen! Ich"
+	cont "warte auf"
+	done
 	text_ram wStringBuffer5
 	text "!"
 	done

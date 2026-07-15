@@ -109,16 +109,16 @@ GenericTrainerMediumDoris:
 GenericTrainerPsychicLeon:
 	generictrainer PSYCHIC_T, LEON, EVENT_BEAT_PSYCHIC_LEON, PsychicLeonSeenText, PsychicLeonBeatenText
 
-	text "Sabrinas Kraft ist"
+	text "SABRINAs Kraft ist"
 	line "stärker als meine!"
 	done
 
 GenericTrainerPsychicJared:
 	generictrainer PSYCHIC_T, JARED, EVENT_BEAT_PSYCHIC_JARED, PsychicJaredSeenText, PsychicJaredBeatenText
 
-	text "Der KARATE-"
-	line "MEISTER, Leiter"
-
+	text "Der"
+	line "KARATE-MEISTER,"
+	cont "Leiter"
 	para "des KARATE DOJO,"
 	line "ist gerade von"
 	cont "SABRINA besiegt"
@@ -142,7 +142,7 @@ GenericTrainerHexManiacNatalie:
 
 	text "Vielleicht bin ich"
 	line "nicht für Hex"
-	cont "Maniacs gemacht…"
+	cont "Maniacs gemacht …"
 	done
 
 GenericTrainerPsychicFranklin:
@@ -166,20 +166,16 @@ SaffronGymGuyScript:
 
 	text "He! Ein CHAMP in"
 	line "spe!"
-
 	para "Ein Trainer deines"
 	line "Kalibers"
-
 	para "braucht sicher"
 	line "keine Anweisung,"
-
-	para "wie mit Psycho-"
-	line "#mon umzugehen"
-	cont "ist, nicht wahr?"
-
+	para "wie mit"
+	line "Psycho-#mon"
+	cont "umzugehen ist,"
+	cont "nicht wahr?"
 	para "Ich erwarte Großes"
 	line "von dir!"
-
 	para "Viel Glück!"
 	done
 SaffronGymStatue:
@@ -191,115 +187,50 @@ SaffronGymStatue:
 	jumpstd gymstatue2
 
 SabrinaIntroText:
-	text "SABRINA: Ich"
-	line "wusste, dass du"
-	cont "kommen würdest…"
-
-	para "Vor drei Jahren"
-	line "sah ich dich in"
-	cont "einer Vision."
-
-	para "Du willst meinen"
-	line "ORDEN haben."
-
-	para "Ich habe keine"
-	line "Freude am Kämpfen,"
-
-	para "aber als LEITERIN"
-	line "ist es meine"
-
-	para "Pflicht, all denen"
-	line "einen ORDEN zu"
-
-	para "geben, die sich"
-	line "als würdig"
-	cont "erwiesen haben."
-
-	para "Da du es wünschst,"
-	line "werde ich dir"
-	cont "meine psychischen"
-	cont "Kräfte zeigen!"
+	text "Ich habe deine"
+	line "Ankunft"
+	cont "vorausgesehen…"
+	para "Ich bin SABRINA,"
+	line "ARENALEITERIN von"
+	cont "SAFFRONIA CITY."
+	para "Meine"
+	line "Psycho-#mon und"
+	cont "ich lesen"
+	cont "Gedanken."
+	para "Kämpfe hat für"
+	line "mich keinen Sinn"
+	cont "-aber Regeln sind"
+	cont "Regeln."
 	done
-
-
-
-
-
 SabrinaWinLossText:
-	text "SABRINA: Deine"
-	line "Stärke…"
-
-	para "übertrifft meine"
-	line "Vorahnungen bei"
-	cont "weitem…"
-
-	para "Vielleicht ist es"
-	line "nicht möglich,"
-
-	para "alles vorherzu-"
-	line "sagen, was die"
-	cont "Zukunft bringt…"
-
-	para "Gut, du hast dir"
-	line "den SUMPFORDEN"
-	cont "verdient."
+	text "Diese Niederlage…"
+	line "ich habe sie nicht"
+	cont "vorausgesehen."
+	para "Nimm den"
+	line "SUMPFORDEN."
 	done
-
-
-
-
-
 SabrinaMarshBadgeText:
-	text "SABRINA: Der"
-	line "SUMPFORDEN"
-
-	para "aktiviert deine"
-	line "unterbewussten"
-	cont "Kräfte…"
-
-	para "Obwohl ich nicht"
-	line "in der Lage war,"
-	cont "deine Stärke"
-	cont "vorauszusehen,"
-	cont "weiß ich das ganz"
-	cont "sicher."
-
-	para "Du wirst ein"
-	line "gefeierter und"
-	cont "beliebter CHAMP"
-	cont "werden!"
+	text "Der SUMPFORDEN"
+	line "erhöht die"
+	cont "SPEZ-VERT."
+	para "Außerdem können"
+	line "#mon KASKADE"
+	cont "nutzen."
+	para "Hier - TM"
+	line "PSYCHOKINESE."
 	done
-
-
-
-
-
 SabrinaFightDoneText:
-	text "SABRINA: Deine"
-	line "Zuneigung zu"
-	cont "deinen"
-
-	para "#mon hat meine"
-	line "Psychostärke"
-	cont "übertroffen…"
-
-	para "Die Kraft der"
-	line "Liebe ist meiner"
-
-	para "Ansicht nach auch"
-	line "eine Art von"
-	cont "Psychostärke…"
+	text "Die Kraft der"
+	line "Psycho-#mon ist"
+	cont "geheimnisvoll…"
+	para "Du hast dein"
+	line "eigenes Schicksal"
+	cont "in der Hand."
 	done
-
-
-
-
-
 MediumDorisSeenText:
-	text "Hehehehe… Ich habe"
-	line "es deutlich vor"
-	cont "mir."
-
+	text "Hehehehe … Ich"
+	line "habe es deutlich"
+	cont "vor mir."
 	para "Ich kann in deine"
 	line "Seele blicken!"
 	done
@@ -332,7 +263,7 @@ PsychicLeonBeatenText:
 PsychicJaredSeenText:
 	text "Das KARATE DOJO"
 	line "nebenan war früher"
-	cont "die #mon-ARENA"
+	cont "die PKMN-ARENA"
 	cont "der Stadt."
 	done
 

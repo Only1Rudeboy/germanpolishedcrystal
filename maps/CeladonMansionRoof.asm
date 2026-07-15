@@ -30,10 +30,8 @@ MapCeladonMansionRoofSignpost0Script:
 CeladonMansionRoofFisherText:
 	text "Hohe Orte--ich"
 	line "liebe sie so sehr!"
-
 	para "Ich würd sagen,"
 	line "nur Rauch liebt"
-
 	para "Höhen genauso sehr"
 	line "wie ich!"
 	done

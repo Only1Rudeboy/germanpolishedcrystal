@@ -25,16 +25,12 @@ PokemonJournalBugsyScript:
 	jumpthistext
 
 	text "#mon-Journal"
-
 	para "Spezialthema:"
-	line "Leiter Kai!"
-
+	line "Leiter KAI!"
 	para "Berichten zufolge"
-	line "gewann Kai den"
-
+	line "gewann KAI den"
 	para "Käferfänger-"
 	line "Wettbewerb so oft,"
-
 	para "dass er nicht mehr"
 	line "teilnimmt."
 	done
@@ -45,10 +41,10 @@ AzaleaPokeCenter1FCooltrainermScript:
 	jumpthistextfaceplayer
 
 	text "Für einen Mann,"
-	line "der # Bälle"
+	line "der #Bälle"
 
 	para "herstellt, ist"
-	line "Kurt kein großer"
+	line "KURT kein großer"
 
 	para "Trainer."
 
@@ -60,7 +56,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	done
 
 .NiteText:
-	text "Kurt und Prof."
+	text "KURT und Prof."
 	line "Eich sind alte"
 
 	para "Freunde."
@@ -88,14 +84,14 @@ AzaleaPokeCenter1FGentlemanText:
 	done
 
 AzaleaPokeCenter1FSightseermText:
-	text "Dieser Bill hat"
+	text "Dieser BILL hat"
 	line "das System zum"
 
 	para "Aufbewahren von"
 	line "#mon in einem"
 	cont "PC entwickelt."
 
-	para "Bills PC kann bis"
+	para "BILLs PC kann bis"
 	line "zu 20 #mon pro"
 	cont "Box lagern."
 	done
@@ -103,19 +99,14 @@ AzaleaPokeCenter1FSightseermText:
 AzaleaPokeCenter1FPokefanfText:
 	text "Kennst du dich mit"
 	line "Aprikokos aus?"
-
 	para "Man knackt eine"
 	line "auf, höhlt sie aus"
-
 	para "und baut ein"
 	line "Spezialgerät ein."
-
 	para "Damit kann man"
 	line "#mon fangen."
-
 	para "Bevor #BÄLLE"
 	line "erfunden wurden,"
-
 	para "benutzte jeder"
 	line "Aprikokos."
 	done

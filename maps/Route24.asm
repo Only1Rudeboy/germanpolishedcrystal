@@ -121,27 +121,20 @@ Route24RocketSeenText:
 	text "Hey, Minimensch!"
 	line "Ich sein von TEAM"
 	cont "ROCKET."
-
 	para "Sein aus fremde"
 	line "Land, Trainer eins"
 	cont "ich sein!"
-
 	para "Geglaubt, wenn nix"
 	line "Energie mehr,"
-
 	para "mache viel Panik"
 	line "bei Leute!"
-
 	para "Geheim mein"
 	line "Auftrag sein, ich"
 	cont "dir nix verraten!"
-
 	para "Doch! Wenn mich"
 	line "besiegen, ich sein"
-
 	para "lieb und dir"
 	line "verrate Geheimnis."
-
 	para "Du, Kind! Kämpfen"
 	line "lass uns!"
 	done
@@ -150,7 +143,6 @@ Route24RocketSeenText:
 Route24RocketBeatenText:
 	text "Uff! Nein, glauben"
 	line "nicht ich kann!"
-
 	para "Stark sehr du"
 	line "sein! Ich nix"
 	cont "Gegner für dich!"
@@ -160,28 +152,21 @@ Route24RocketBeatenText:
 Route24RocketAfterBattleText:
 	text "O.K. Verraten dir"
 	line "meine Geheimnis."
-
 	para "SPULE, gestohlen"
 	line "von mir, versteckt"
-
-	para "in #mon-ARENA"
+	para "in PKMN-ARENA"
 	line "der AZURIA CITY."
-
 	para "Wasser sein gute"
 	line "Versteck. In"
-
-	para "Mitte von #mon-"
-	line "ARENA Wasser sein."
-
+	para "Mitte von"
+	line "PKMN-ARENA"
+	cont "Wasser sein."
 	para "Kind, du mich"
 	line "vergessen nicht!"
-
 	para "Besiege dir wird"
 	line "TEAM ROCKET tun."
-
 	para "Werden kommen aus"
 	line "JOHTO, mein"
-
 	para "Freunde. Rächen"
 	line "sie werden tun."
 	done
@@ -189,13 +174,10 @@ Route24RocketAfterBattleText:
 
 Route24RocketDisappearsText:
 	text "…"
-
 	para "Was du sagen? TEAM"
 	line "ROCKET nix mehr"
-
 	para "gibt? Kaputt"
 	line "gemacht, du sagen?"
-
 	para "Oh, nein! Was soll"
 	line "ich jetzt machen?"
 	done
@@ -203,19 +185,14 @@ Route24RocketDisappearsText:
 
 Route24AdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Die Fähigkeit Rohe"
 	line "Gewalt"
-
 	para "hebt Nebeneffekte"
 	line "von Attacken auf,"
-
 	para "aber auch andere"
 	line "Effekte!"
-
 	para "Besonders der"
 	line "Schaden durch"
-
 	para "einen getragenen"
 	line "Leben-Orb wird"
 	cont "ignoriert!"

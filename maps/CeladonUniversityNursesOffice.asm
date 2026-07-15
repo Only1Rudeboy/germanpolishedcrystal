@@ -32,20 +32,16 @@ CeladonUniversityNursesOfficeNurseScript:
 CeladonUniversityNursesOfficeNurseText:
 	text "Komm rein. Geht es"
 	line "dir gut?"
-
 	para "Oder sind deine"
 	line "#mon erschöpft?"
-
 	para "Ruh dich hier"
 	line "etwas aus!"
 	done
 
 CeladonUniversityNursesOfficeSignText:
-	text "Ein gesundes"
-	line "#mon ist ein"
-	cont "glückliches"
-	cont "#mon!"
-
+	text "Ein #mon ist"
+	line "ein glückliches"
+	cont "#mon."
 	para "Lass deine Freunde"
 	line "im Kampf nicht"
 	cont "ohnmächtig werden!"

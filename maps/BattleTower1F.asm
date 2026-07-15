@@ -68,13 +68,10 @@ BattleTower1FContinueChallenge:
 		text "Entschuldige! Du"
 		line "hast nicht vor dem"
 		cont "Verlassen des"
-
 		para "Kampfraums"
 		line "gespeichert."
-
 		para "Es tut mir leid,"
 		line "aber dein Versuch"
-
 		para "wird für ungültig"
 		line "erklärt."
 		done
@@ -145,11 +142,13 @@ BattleTower1FRulesScript:
 		done
 
 BattleTower1FStreakText:
-	text "Serie: "
+	text "Serie:"
+	done
 	text_decimal wBattleTowerCurStreak, 2, 5
-	text " Siege Rekord: "
+	text "Siege Rekord:"
+	done
 	text_decimal wBattleTowerTopStreak, 2, 5
-	text " Siege"
+	text "Siege"
 	done
 
 BattleTower1FReceptionistScript:
@@ -157,7 +156,6 @@ BattleTower1FReceptionistScript:
 	writethistext
 		text "Willkommen im"
 		line "Kampfturm!"
-
 		para "Ich zeige dir gern"
 		line "einen Kampfraum."
 		done
@@ -180,36 +178,28 @@ BattleTower1FReceptionistScript:
 		text "Der Kampfturm ist"
 		line "eine Stätte für"
 		cont "#mon-Kämpfe."
-
-		para "Zahllose #mon-"
-		line "Trainer versammeln"
-
+		para "Zahllose"
+		line "#mon-Trainer"
+		cont "versammeln"
 		para "sich von überall"
 		line "zum Kämpfen in"
-
 		para "eigens gestalteten"
 		line "Kampfräumen."
-
 		para "Es gibt viele"
 		line "Kampfräume im"
 		cont "Kampfturm."
-
 		para "Jeder Raum hat"
 		line "sieben Trainer."
-
 		para "Besiege alle für"
 		line "Kampfpunkte."
-
 		para "Um eine Sitzung zu"
 		line "unterbrechen,"
-
 		para "musst du"
 		line "speichern. Sonst"
 		cont "kannst du"
-
-		para "deinen Raum-"
-		line "Durchgang nicht"
-		cont "fortsetzen."
+		para "deinen"
+		line "Raum-Durchgang"
+		cont "nicht fortsetzen."
 		prompt
 	; fallthrough
 .BattleTowerMenu:
@@ -315,11 +305,9 @@ BattleTowerPharmacistScript:
 		text "Die Trainer hier"
 		line "setzen gezielt"
 		cont "Items ein."
-
 		para "Aber ich hab auch"
 		line "einen Trick auf"
 		cont "Lager--ich tausche"
-
 		para "ihre Items mit"
 		line "Täuscher gegen"
 		cont "meine!"
@@ -397,12 +385,11 @@ Text_BattleTowerBugCatcher:
 	text "Ich will sehen,"
 	line "wie weit ich nur"
 	cont "mit Käfer-#mon"
-
 	para "komme."
-
 	para "Hoffentlich sind"
-	line "keine Feuer-"
-	cont "#mon dabei…"
+	line "keine"
+	cont "Feuer-#mon"
+	cont "dabei…"
 	done
 
 PokemonJournalPalmerScript:

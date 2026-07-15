@@ -33,7 +33,6 @@ RocketHideoutB2FHexManiacCoryn:
 	text "Du hast vielleicht"
 	line "Potenzial für Team"
 	cont "Mystic."
-
 	para "Lass mich deine"
 	line "Grenzen testen."
 	done

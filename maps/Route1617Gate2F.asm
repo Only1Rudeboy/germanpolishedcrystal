@@ -47,7 +47,6 @@ Route1617Gate2FTutorTrickRoomScript:
 	text "Aber ich brauche"
 	line "zuerst ein"
 	cont "Silberblatt,"
-
 	para "also komm wieder,"
 	line "wenn du eins hast."
 	done
@@ -66,9 +65,9 @@ Route1617Gate2FBinoculars1:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
-	para "Das ist das Kauf-"
-	line "haus in Dukatia!"
+	para "Das ist das"
+	line "Kaufhaus in"
+	cont "Dukatia!"
 	done
 
 Route1617Gate2FBinoculars2:
@@ -76,7 +75,6 @@ Route1617Gate2FBinoculars2:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Da ist ein langer"
 	line "Weg über Wasser!"
 	done
@@ -85,18 +83,14 @@ Route1617Gate2FPsychicText:
 	text "Nicht weit von"
 	line "hier gibt es einen"
 	cont "Psycho,"
-
 	para "der in einem"
 	line "#mon-Kampf"
 	cont "seine"
-
 	para "Umgebung verändern"
 	line "kann."
-
 	para "Er ist mein"
 	line "Vorbild, deshalb"
 	cont "habe ich"
-
 	para "an meiner eigenen"
 	line "Technik"
 	cont "gearbeitet."
@@ -107,10 +101,8 @@ Text_Route1617Gate2FTutorTrickRoom:
 	line "#mon die"
 	cont "Attacke Trick Room"
 	cont "beibringen."
-
 	para "Damit können"
 	line "langsamere #mon"
-
 	para "für eine Weile"
 	line "schnellere"
 	cont "überholen."

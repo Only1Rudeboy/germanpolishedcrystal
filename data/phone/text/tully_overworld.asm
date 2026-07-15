@@ -2,22 +2,20 @@ TullyAskNumber1Text:
 	text "Hey, du willst"
 	line "auch der"
 	cont "Ultimative"
-
 	para "werden? Dann sind"
 	line "wir Kameraden!"
-
-	para "Wenn ich am Wasser"
-	line "Items finde,"
-
+	para "Wenn ich am"
+	line "Wasser Items"
+	cont "finde,"
 	para "geb ich dir"
 	line "welche. Gib mir"
 	cont "deine Nummer."
 	done
 
 TullyAskNumber2Text:
-	text "Wenn ich am Wasser"
-	line "Items finde,"
-
+	text "Wenn ich am"
+	line "Wasser Items"
+	cont "finde,"
 	para "geb ich dir"
 	line "welche. Gib mir"
 	cont "deine Nummer."
@@ -25,8 +23,8 @@ TullyAskNumber2Text:
 
 TullyNumberAcceptedText:
 	text "Ich melde mich,"
-	line "wenn ich was Gutes"
-	cont "finde."
+	line "wenn ich was"
+	cont "Gutes finde."
 	done
 
 TullyNumberDeclinedText:

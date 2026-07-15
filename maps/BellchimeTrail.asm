@@ -80,7 +80,7 @@ BellchimeTrailPanUpTrigger:
 	step_end
 
 TinTowerSignText:
-	text "Glockenturm"
+	text "Zinnturm"
 
 	para "Ein legendäres"
 	line "#mon soll hier"
@@ -165,29 +165,21 @@ BellchimeTrailValerieScript:
 	text "Sieh an, der"
 	line "Trainer, der"
 	cont "Suicune gegen-"
-
-	para "überstand…"
-
+	para "überstand …"
 	para "Ich bin Valerie."
 	line "Ich komme hierher,"
-
 	para "um mich von seiner"
 	line "Schönheit"
 	cont "verzaubern zu"
-
 	para "lassen."
-
 	para "Heute hatte ich"
 	line "das Glück, deinen"
 	cont "Kampf mit einer"
-
-	para "Legende zu"
-	line "erleben…"
-
+	para "Legende zu erleben"
+	line "…"
 	para "Ich würde gern"
 	line "gegen jemanden"
 	cont "antreten, der das"
-
 	para "Auge eines"
 	line "legendären #mon"
 	cont "auf sich zog."
@@ -224,8 +216,8 @@ BellchimeTrailValerieScript:
 
 .BeatenText:
 	text "Ich hoffe, morgen"
-	line "scheint die Sonne…"
-
+	line "scheint die Sonne"
+	cont "…"
 	para "Das wäre Grund"
 	line "genug zu lächeln."
 	done
@@ -249,24 +241,18 @@ BellchimeTrailValerieScript:
 .FarewellText:
 	text "Valerie: Oh? Was"
 	line "für ein seltsames"
-	cont "Gefühl…"
-
+	cont "Gefühl …"
 	para "Ich kann mich"
 	line "nicht erinnern,"
 	cont "welche Attacke"
-
 	para "in dieser VM ist."
-
 	para "Ich hoffe, du"
 	line "verzeihst mir."
-
 	para "Das war wirklich"
 	line "ein fesselnder"
 	cont "Kampf."
-
 	para "Vielleicht bin ich"
 	line "von dir gefesselt."
-
 	para "Bis wir uns"
 	line "wiedersehen, leb"
 	cont "wohl."
@@ -275,24 +261,18 @@ BellchimeTrailValerieScript:
 .RematchText:
 	text "Valerie: Oh, sieh"
 	line "an, mein junger"
-	cont "Trainer…"
-
+	cont "Trainer …"
 	para "Wie schön, dich so"
 	line "wiederzusehen."
-
 	para "Dann hast du dir"
 	line "wohl das Recht auf"
 	cont "einen Kampf"
-
 	para "verdient."
-
 	para "Der schwer"
 	line "fassbare Feen-Typ"
 	cont "mag zart wie die"
-
 	para "Brise und die"
 	line "Blüte wirken,"
-
 	para "doch er ist stark."
 	done
 
@@ -308,10 +288,8 @@ BellchimeTrailValerieScript:
 	text "Das war wirklich"
 	line "ein fesselnder"
 	cont "Kampf."
-
 	para "Vielleicht bin ich"
 	line "von dir gefesselt."
-
 	para "Bis wir uns"
 	line "wiedersehen, leb"
 	cont "wohl."

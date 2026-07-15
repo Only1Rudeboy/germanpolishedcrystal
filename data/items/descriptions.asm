@@ -423,13 +423,13 @@ DreamBallDesc:
 	done
 
 PremierBallDesc:
-	text "Ein seltener"
-	next "Erinnerungsball."
+	text "Ein seltener,"
+	next "schöner Ball."
 	done
 
 CherishBallDesc:
 	text "Ein sehr seltener"
-	next "Erinnerungsball."
+	next "Sonder-Ball."
 	done
 
 PotionDesc:
@@ -486,17 +486,17 @@ PewterCrunchDesc:
 
 FullRestoreDesc:
 	text "Heilt KP und"
-	next "Status voll."
+	next "alle Status."
 	done
 
 ReviveDesc:
-	text "Belebt ohnmächt."
-	next "#mon, halbe KP."
+	text "Belebt K.O.-"
+	next "#mon halb."
 	done
 
 MaxReviveDesc:
-	text "Belebt ohnmächt."
-	next "#mon voll auf."
+	text "Belebt ein K.O.-"
+	next "#mon voll."
 	done
 
 EtherDesc:
@@ -530,7 +530,7 @@ ProteinDesc:
 	done
 
 IronDesc:
-	text "Erhöht Verteid."
+	text "Erhöht Vert."
 	next "eines #mon."
 	done
 
@@ -540,13 +540,13 @@ CarbosDesc:
 	done
 
 CalciumDesc:
-	text "Erhöht SpAng eines"
-	next "#mon."
+	text "Erhöht Sp.Ang."
+	next "eines #mon."
 	done
 
 ZincDesc:
-	text "Erhöht SpVer eines"
-	next "#mon."
+	text "Erhöht Sp.Vert."
+	next "eines #mon."
 	done
 
 RareCandyDesc:
@@ -586,7 +586,7 @@ MoomooMilkDesc:
 
 SacredAshDesc:
 	text "Belebt alle"
-	next "ohnmächt. #mon."
+	next "K.O.-#mon."
 	done
 
 EnergyPowderDesc:
@@ -605,48 +605,48 @@ HealPowderDesc:
 	done
 
 RevivalHerbDesc:
-	text "Belebt ohnmächt."
+	text "Belebt K.O.-"
 	next "#mon. Bitter."
 	done
 
 XAttackDesc:
-	text "Erhöht Angriff. (1"
-	next "Kampf)"
+	text "Hebt den Angriff"
+	next "für 1 Kampf."
 	done
 
 XDefendDesc:
-	text "Erhöht Verteid. (1"
-	next "Kampf)"
+	text "Hebt die Vert."
+	next "für 1 Kampf."
 	done
 
 XSpeedDesc:
-	text "Erhöht Tempo. (1"
-	next "Kampf)"
+	text "Hebt das Tempo"
+	next "für 1 Kampf."
 	done
 
 XSpAtkDesc:
-	text "Erhöht SpAng. (1"
-	next "Kampf)"
+	text "Hebt den Sp.Ang."
+	next "für 1 Kampf."
 	done
 
 XSpDefDesc:
-	text "Erhöht SpVer. (1"
-	next "Kampf)"
+	text "Hebt den Sp.Vert."
+	next "für 1 Kampf."
 	done
 
 DireHitDesc:
-	text "Erhöht Volltref-"
-	next "ferquote.(1 Kampf)"
+	text "Hebt die Voll-"
+	next "trefferquote."
 	done
 
 GuardSpecDesc:
-	text "Verhindert Wert-"
-	next "senkung. (1 Kampf)"
+	text "Schützt vor Wert-"
+	next "senkung (1 Kampf)."
 	done
 
 XAccuracyDesc:
-	text "Erhöht Treffer-"
-	next "chance. (1 Kampf)"
+	text "Hebt die Genauig-"
+	next "keit für 1 Kampf."
 	done
 
 RepelDesc:
@@ -695,57 +695,57 @@ LinkingCordDesc:
 
 EverstoneDesc:
 	text "Stoppt Entwick-"
-	next "lung. (Halten)"
+	next "lung. (halten)"
 	done
 
 ExpShareDesc:
 	text "Teilt EP-Punkte im"
-	next "Kampf. (Halten)"
+	next "Kampf. (halten)"
 	done
 
 CheriBerryDesc:
 	text "Heilt selbst"
-	next "Paralyse. (Halten)"
+	next "Paralyse. (halten)"
 	done
 
 ChestoBerryDesc:
 	text "Weckt sich selbst"
-	next "auf. (Halten)"
+	next "auf. (halten)"
 	done
 
 PechaBerryDesc:
 	text "Heilt selbst"
-	next "Vergift. (Halten)"
+	next "Vergift. (halten)"
 	done
 
 RawstBerryDesc:
 	text "Heilt selbst"
-	next "Verbrenn.(Halten)"
+	next "Verbrenn. (halten)"
 	done
 
 AspearBerryDesc:
 	text "Heilt selbst"
-	next "Erfrieren.(Halten)"
+	next "Erfr. (halten)"
 	done
 
 LeppaBerryDesc:
 	text "Selbstheilung:"
-	next "10<BOLDP><BOLDP> (Halten)"
+	next "10 AP (halten)"
 	done
 
 OranBerryDesc:
 	text "Selbstheilung:"
-	next "10KP (Halten)"
+	next "10KP (halten)"
 	done
 
 PersimBerryDesc:
 	text "Heilt selbst"
-	next "Verwirrung.(Halt.)"
+	next "Verwirr. (halten)"
 	done
 
 LumBerryDesc:
 	text "Heilt alle"
-	next "Probleme. (Halten)"
+	next "Probleme. (halten)"
 	done
 
 SitrusBerryDesc:
@@ -775,12 +775,12 @@ QualotBerryDesc:
 
 HondewBerryDesc:
 	text "Erhöht Freunds-"
-	next "chaft, senkt SpAng"
+	next "chaft, Sp.Ang.-"
 	done
 
 GrepaBerryDesc:
 	text "Erhöht Freunds-"
-	next "chaft, senkt SpVer"
+	next "chaft, Sp.Vert.-"
 	done
 
 TamatoBerryDesc:
@@ -794,7 +794,7 @@ LiechiBerryDesc:
 	done
 
 GanlonBerryDesc:
-	text "Erhöht Verteid. in"
+	text "Erhöht Vert. in"
 	next "Notlage."
 	done
 
@@ -804,12 +804,12 @@ SalacBerryDesc:
 	done
 
 PetayaBerryDesc:
-	text "Erhöht SpAng in"
+	text "Erhöht Sp.Ang. in"
 	next "Notlage."
 	done
 
 ApicotBerryDesc:
-	text "Erhöht SpVer in"
+	text "Erhöht Sp.Vert. in"
 	next "Notlage."
 	done
 
@@ -844,13 +844,13 @@ RowapBerryDesc:
 	done
 
 KeeBerryDesc:
-	text "Erhöht Verteid."
+	text "Erhöht Vert."
 	next "bei phys. Treffer."
 	done
 
 MarangaBerryDesc:
-	text "Erhöht SpVer bei"
-	next "Spezial-Treffer."
+	text "Erhöht Sp.Vert."
+	next "bei Sp.-Treffer."
 	done
 
 BerryJuiceDesc:
@@ -860,144 +860,144 @@ BerryJuiceDesc:
 
 SilkScarfDesc:
 	text "Verstärkt Normal-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 BlackBeltDesc:
 	text "Verstärkt Kampf-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 SharpBeakDesc:
 	text "Verstärkt Flug-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 PoisonBarbDesc:
 	text "Verstärkt Gift-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 SoftSandDesc:
 	text "Verstärkt Boden-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 HardStoneDesc:
 	text "Verstärkt Gestein-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 SilverPowderDesc:
 	text "Verstärkt Käfer-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 SpellTagDesc:
 	text "Verstärkt Geister-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 MetalCoatDesc:
 	text "Verstärkt Stahl-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 CharcoalDesc:
 	text "Verstärkt Feuer-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 MysticWaterDesc:
 	text "Verstärkt Wasser-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 MiracleSeedDesc:
 	text "Verstärkt Pflanz-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 MagnetDesc:
 	text "Verstärkt Elektro-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 TwistedSpoonDesc:
 	text "Verstärkt Psycho-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 NeverMeltIceDesc:
 	text "Verstärkt Eis-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 DragonFangDesc:
 	text "Verstärkt Drachen-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 BlackGlassesDesc:
 	text "Verstärkt Unlicht-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 FairyFeatherDesc:
 	text "Verstärkt Feen-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 BrightPowderDesc:
 	text "Senkt die Treffer-"
-	next "chance. (Halten)"
+	next "chance. (halten)"
 	done
 
 ScopeLensDesc:
 RazorClawDesc:
 	text "Erhöht Volltref-"
-	next "ferquote.(Halten)"
+	next "ferquote. (halten)"
 	done
 
 QuickClawDesc:
 	text "Erhöht Chance auf"
-	next "1. Zug. (Halten)"
+	next "1. Zug. (halten)"
 	done
 
 KingsRockDesc:
 RazorFangDesc:
-	text "Kann Gegner zum"
-	next "Zittern bringen."
+	text "Kann Gegner"
+	next "zurückschrecken."
 	done
 
 FocusBandDesc:
-	text "Kann K.o. ver-"
-	next "hindern. (Halten)"
+	text "Kann K.O. ver-"
+	next "hindern. (halten)"
 	done
 
 LeftoversDesc:
-	text "Heilt KP während"
-	next "des Kampfs.(Halt.)"
+	text "Heilt KP im Kampf."
+	next "(halten)"
 	done
 
 LuckyEggDesc:
 	text "Bringt mehr EP-"
-	next "Punkte. (Halten)"
+	next "Punkte. (halten)"
 	done
 
 AmuletCoinDesc:
 	text "Verdoppelt das"
-	next "Geld. (Halten)"
+	next "Geld. (halten)"
 	done
 
 CleanseTagDesc:
 	text "Hält wilde #mon"
-	next "fern. (Halten)"
+	next "fern. (halten)"
 	done
 
 SmokeBallDesc:
 	text "Flucht vor wilden"
-	next "#mon. (Halten)"
+	next "#mon. (halten)"
 	done
 
 BerserkGeneDesc:
@@ -1007,7 +1007,7 @@ BerserkGeneDesc:
 
 LightBallDesc:
 	text "Erhöht Pikachus"
-	next "Angriff und SpAng."
+	next "Angr. und Sp.Ang."
 	done
 
 LeekDesc:
@@ -1027,12 +1027,12 @@ LuckyPunchDesc:
 
 MetalPowderDesc:
 	text "Erhöht Dittos"
-	next "Verteid. (Halten)"
+	next "Vert. (halten)"
 	done
 
 QuickPowderDesc:
 	text "Erhöht Dittos"
-	next "Tempo. (Halten)"
+	next "Tempo. (halten)"
 	done
 
 ArmorSuitDesc:
@@ -1046,23 +1046,23 @@ AirBalloonDesc:
 	done
 
 AssaultVestDesc:
-	text "Erhöht SpVer,"
+	text "Erhöht Sp.Vert.,"
 	next "verbietet Status."
 	done
 
 BigRootDesc:
 	text "Verstärkt Entzug-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 BindingBandDesc:
 	text "Verstärkt Fessel-"
-	next "Attacken.(Halten)"
+	next "Attacken. (halten)"
 	done
 
 DestinyKnotDesc:
 	text "Verliebt Gegner"
-	next "zurück. (Halten)"
+	next "zurück. (halten)"
 	done
 
 ExpertBeltDesc:
@@ -1071,7 +1071,7 @@ ExpertBeltDesc:
 	done
 
 FocusSashDesc:
-	text "Übersteht K.o.-"
+	text "Übersteht K.O.-"
 	next "Treffer bei v. KP."
 	done
 
@@ -1102,7 +1102,7 @@ ProtectPadsDesc:
 
 RockyHelmetDesc:
 	text "Schadet Gegner bei"
-	next "Kontakt.(Halten)"
+	next "Kontakt. (halten)"
 	done
 
 SafeGogglesDesc:
@@ -1112,7 +1112,7 @@ SafeGogglesDesc:
 
 ShedShellDesc:
 	text "Ermöglicht Wechsel"
-	next "(Halten)"
+	next "(halten)"
 	done
 
 ShellBellDesc:
@@ -1132,7 +1132,7 @@ WeakPolicyDesc:
 
 WideLensDesc:
 	text "Erhöht leicht die"
-	next "Genauigk.(Halten)"
+	next "Genauigk. (halten)"
 	done
 
 ZoomLensDesc:
@@ -1147,7 +1147,7 @@ MentalHerbDesc:
 
 PowerHerbDesc:
 	text "Überspringt"
-	next "Aufladen. (Halten)"
+	next "Aufladen. (halten)"
 	done
 
 WhiteHerbDesc:
@@ -1157,12 +1157,12 @@ WhiteHerbDesc:
 
 DampRockDesc:
 	text "Verlängert Regen."
-	next "(Halten)"
+	next "(halten)"
 	done
 
 HeatRockDesc:
 	text "Verlängert Sonne."
-	next "(Halten)"
+	next "(halten)"
 	done
 
 SmoothRockDesc:
@@ -1172,7 +1172,7 @@ SmoothRockDesc:
 
 IcyRockDesc:
 	text "Verlängert Hagel."
-	next "(Halten)"
+	next "(halten)"
 	done
 
 ChoiceBandDesc:
@@ -1186,18 +1186,18 @@ ChoiceScarfDesc:
 	done
 
 ChoiceSpecsDesc:
-	text "Erhöht SpAng, nur"
-	next "1 Attacke."
+	text "Erhöht Sp.Ang.,"
+	next "nur 1 Attacke."
 	done
 
 FlameOrbDesc:
 	text "Verursacht"
-	next "Verbrennung.(Halt)"
+	next "Verbren. (halten)"
 	done
 
 ToxicOrbDesc:
 	text "Verursacht schwere"
-	next "Vergift.(Halt.)"
+	next "Vergift. (halten)"
 	done
 
 BlackSludgeDesc:
@@ -1226,13 +1226,13 @@ PowerBeltDesc:
 	done
 
 PowerLensDesc:
-	text "Erhöht SpAng-Zu-"
+	text "Erhöht Sp.Ang.-Zu-"
 	next "wachs, senkt Tempo"
 	done
 
 PowerBandDesc:
-	text "Erhöht SpVer-Zu-"
-	next "wachs, senkt Tempo"
+	text "Erhöht Sp.Vert.-"
+	next "Zuwachs, Tempo-"
 	done
 
 PowerAnkletDesc:
@@ -1252,7 +1252,7 @@ SweetHoneyDesc:
 
 EvioliteDesc:
 	text "Erhöht Vert. und"
-	next "SpVer von Vorstuf."
+	next "Sp.Vert. (Vorst.)"
 	done
 
 MuscleBandDesc:
@@ -1403,17 +1403,17 @@ OldAmberDesc:
 
 FlowerMailDesc:
 	text "Post mit Blumen-"
-	next "muster.(Halten)"
+	next "muster. (halten)"
 	done
 
 SurfMailDesc:
 	text "Post mit Lapras-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 LiteBlueMailDesc:
 	text "Post mit Dratini-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 PortraitMailDesc:
@@ -1423,52 +1423,52 @@ PortraitMailDesc:
 
 LovelyMailDesc:
 	text "Post mit Herz-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 EonMailDesc:
 	text "Post mit Evoli-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 MorphMailDesc:
 	text "Post mit Ditto-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 BlueSkyMailDesc:
 	text "Post mit Himmel-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 MusicMailDesc:
 	text "Post mit Natu-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 MirageMailDesc:
 	text "Post mit Mew-"
-	next "Muster.(Halten)"
+	next "Muster. (halten)"
 	done
 
 EjectButtonDesc:
 	text "Wechselt bei"
-	next "Treffer.(Halten)"
+	next "Treffer. (halten)"
 	done
 
 LaggingTailDesc:
 	text "Handelt immer"
-	next "zuletzt. (Halten)"
+	next "zuletzt. (halten)"
 	done
 
 IronBallDesc:
 	text "Senkt Tempo, erdet"
-	next "#mon. (Halten)"
+	next "#mon. (halten)"
 	done
 
 RedCardDesc:
 	text "Wechselt Gegner"
-	next "bei Treffer.(Halt)"
+	next "bei Treffer."
 	done
 
 ClearAmuletDesc:
@@ -1498,7 +1498,7 @@ EjectPackDesc:
 
 RoomServiceDesc:
 	text "Senkt Tempo im"
-	next "Wall-Wall.(Halten)"
+	next "Raumteiler."
 	done
 
 BlundrPolicyDesc:
@@ -1507,13 +1507,13 @@ BlundrPolicyDesc:
 	done
 
 ThroatSprayDesc:
-	text "Erhöht SpAng bei"
+	text "Erhöht Sp.Ang. bei"
 	next "Sound-Attacke."
 	done
 
 HeavyBootsDesc:
 	text "Schützt vor"
-	next "Fallen. (Halten)"
+	next "Fallen. (halten)"
 	done
 
 LoadedDiceDesc:

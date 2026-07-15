@@ -67,82 +67,74 @@ AzaleaGymBugsyScript:
 	writethistext
 		text "Kennst du die"
 		line "Vorteile des"
-		cont "Insektordens?"
-
+		cont "Hornissordens?"
 		para "So gehorchen dir"
-		line "#mon bis <LV>30,"
+		line "#mon bis <LV> 30,"
 		cont "auch getauschte."
-
 		para "#mon, die"
 		line "Zerschneider"
-		cont "kennen, dürfen ihn"
-
-		para "auch außerhalb von"
-		line "Kämpfen nutzen."
-
-		para "Hier, das möchte"
-		line "ich dir auch noch"
-		cont "geben."
+		cont "können, dürfen ihn"
+		cont "auch außerhalb von"
+		cont "Kämpfen nutzen."
+		para "Hier, ich habe"
+		line "noch etwas für"
+		cont "dich."
 		done
 	promptbutton
 	verbosegivetmhm TM_U_TURN
 	setevent EVENT_GOT_TM69_U_TURN
 	jumpthisopenedtext
 
-	text "VM69 enthält"
+	text "TM69 enthält"
 	line "Kehrtwende."
 
-	para "Damit greift dein"
-	line "#mon an,"
+	para "Dein #mon"
+	line "greift an und"
+	cont "wechselt dann"
+	cont "sofort aus."
 
-	para "dann wechselt es"
-	line "sofort aus."
-
-	para "Ist's nicht toll?"
-	line "Hab's entdeckt!"
+	para "Ist das nicht"
+	line "toll? Hab ich"
+	cont "entdeckt!"
 	done
 
 .SeenText:
-	text "Ich bin Kai! Bei"
+	text "Ich bin KAI! Bei"
 	line "Käfer-#mon"
 	cont "verliere ich nie."
-
 	para "Meine Forschung"
 	line "macht mich zur"
-
-	para "Autorität für"
-	line "Käfer-#mon!"
-
+	cont "Autorität auf"
+	cont "diesem Gebiet!"
 	para "Lass mich zeigen,"
 	line "was ich gelernt"
-	cont "habe."
+	cont "habe!"
 	done
+
 
 .BeatenText:
-	text "Wow, unglaublich!"
-	line "Du bist ein"
+	text "Erstaunlich! Du"
+	line "bist ein wahrer"
 	cont "#mon-Experte!"
-
 	para "Meine Forschung"
 	line "ist noch nicht"
-	cont "fertig."
-
-	para "Okay, du gewinnst."
-	line "Nimm diesen Orden."
+	cont "abgeschlossen."
+	para "O.K., du gewinnst."
+	line "Nimm diesen ORDEN."
 	done
+
 
 .AfterText:
 	text "Käfer-#mon sind"
-	line "vielschichtig."
-
-	para "Es gibt viele"
-	line "Geheimnisse zu"
-	cont "entdecken."
-
+	line "ein weites Feld."
+	cont "Es gibt noch viele"
+	cont "Geheimnisse zu"
+	cont "ergründen."
 	para "Studiere deine"
-	line "Favoriten"
-	cont "gründlich."
+	line "Lieblinge"
+	cont "gründlich!"
 	done
+
 
 AzaleaGymGuyScript:
 	checkevent EVENT_BEAT_BUGSY
@@ -151,19 +143,15 @@ AzaleaGymGuyScript:
 
 	text "Yo,"
 	line "Herausforderer!"
-
-	para "Kai ist jung, aber"
+	para "KAI ist jung, aber"
 	line "sein Wissen über"
 	cont "Käfer-#mon ist"
-	cont "wirklich echt."
-
+	cont "echt."
 	para "Ohne meinen Rat"
-	line "wird's schwer."
-
-	para "Mal sehen… Käfer-"
-	line "#mon mögen kein"
-	cont "Feuer."
-
+	line "wird es schwer."
+	para "Mal sehen …"
+	line "Käfer-#mon"
+	cont "mögen kein Feuer."
 	para "Flug-Attacken sind"
 	line "auch sehr"
 	cont "effektiv."
@@ -171,16 +159,15 @@ AzaleaGymGuyScript:
 
 .WinText:
 	text "Gut gemacht! Das"
-	line "war ein toller"
-	cont "Kampf, junger,"
-
-	para "talentierter"
-	line "Trainer."
-
+	line "war ein"
+	cont "Musterkampf zweier"
+	cont "junger Trainer."
 	para "Mit Leuten wie dir"
-	line "ist die Zukunft"
-	cont "der #mon rosig!"
+	line "sieht die Zukunft"
+	cont "der #mon rosig"
+	cont "aus!"
 	done
+
 
 GenericTrainerBug_catcherBenny:
 	generictrainer BUG_CATCHER, BENNY, EVENT_BEAT_BUG_CATCHER_BENNY, .SeenText, .BeatenText
@@ -188,23 +175,25 @@ GenericTrainerBug_catcherBenny:
 	text "#mon werden"
 	line "stärker, wenn sie"
 	cont "sich entwickeln."
-
-	para "Echt wahr!"
+	cont "Wirklich!"
 	done
+
 
 .SeenText:
 	text "Käfer-#mon"
 	line "entwickeln sich"
-	cont "jung. So werden"
-	cont "sie"
-
-	para "schneller stark."
+	cont "sehr früh. Das"
+	cont "heißt, sie werden"
+	cont "auch schnell"
+	cont "stärker."
 	done
+
 
 .BeatenText:
-	text "Nur Entwickeln"
-	line "reicht nicht!"
+	text "Entwicklung allein"
+	line "ist nicht genug!"
 	done
+
 
 GenericTrainerBug_catcherAl:
 	generictrainer BUG_CATCHER, AL, EVENT_BEAT_BUG_CATCHER_AL, .SeenText, .BeatenText
@@ -213,81 +202,93 @@ GenericTrainerBug_catcherAl:
 	line "aber die meisten"
 	cont "Mädchen mögen"
 	cont "keine"
-
-	para "Käfer-#mon."
-
+	cont "Käfer-#mon."
 	para "Ich weiß nicht,"
-	line "warum…"
+	line "wieso…"
 	done
+
 
 .SeenText:
 	text "Käfer-#mon sind"
-	line "cool und stark!"
-
-	para "Ich beweis's dir!"
+	line "cool und tough!"
+	cont "Ich beweise es"
+	cont "dir!"
 	done
+
 
 .BeatenText:
 	text "Du hast bewiesen,"
-	line "wie stark du bist…"
+	line "wie tough du bist"
+	cont "…"
 	done
+
 
 GenericTrainerBug_catcherJosh:
 	generictrainer BUG_CATCHER, JOSH, EVENT_BEAT_BUG_CATCHER_JOSH, .SeenText, .BeatenText
 
-	text "Ich sollte ihnen"
-	line "wohl bessere"
-	cont "Attacken zeigen…"
+	text "Vielleicht sollte"
+	line "ich sie ein wenig"
+	cont "besser trainieren"
+	cont "…"
 	done
+
 
 .SeenText:
-	text "Du hast alle"
-	line "Flegmon gerettet?"
-	cont "Wow, du bist"
+	text "Du hast die"
+	line "FLEGMON gerettet?"
+	cont "Oh Mann, bist du"
 	cont "stark!"
-
-	para "Aber meine er-"
-	line "wachsenen #mon"
-	cont "sind auch stark!"
+	para "Aber meine"
+	line "ausgewachsenen"
+	cont "#mon sind auch"
+	cont "sehr stark!"
 	done
+
 
 .BeatenText:
 	text "Urrgggh!"
 	done
 
+
 GenericTrainerTwinsAmyandmimi1:
 	generictrainer TWINS, AMYANDMIMI1, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
-	text "Amy: Du bist"
+	text "EVA: Du bist"
 	line "wirklich stark!"
 	done
 
+
 .SeenText:
-	text "Amy: Hi! Forderst"
-	line "du den Leiter"
-	cont "heraus? Niemals!"
+	text "EVA: Hallo!"
+	line "Forderst du den"
+	cont "LEITER heraus?"
+	cont "Unmöglich!"
 	done
+
 
 GenericTrainerTwinsAmyandmimi2:
 	generictrainer TWINS, AMYANDMIMI2, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
-	text "Mimi: Unser"
-	line "Käfer-#mon hat"
-	cont "verloren!"
-
-	para "Oh, wie schade."
+	text "UTE: Unsere"
+	line "Käfer-#mon"
+	cont "haben verloren!"
+	cont "Was für eine"
+	cont "Schande!"
 	done
+
 
 .SeenText:
-	text "Mimi: Du willst"
-	line "zum Leiter? Wir"
-	cont "sind zuerst dran!"
+	text "UTE: Du möchtest"
+	line "zum LEITER? Erst"
+	cont "sind wir dran!"
 	done
 
+
 TrainerTwinsAmyandmimiBeatenText:
-	text "Amy & Mimi: Oh,"
-	line "doppelt bitter!"
+	text "EVA & UTE: Oh, um"
+	line "Himmels Willen!"
 	done
+
 
 SpinarakCartStartUpScript:
 	applymovement PLAYER, .Movement

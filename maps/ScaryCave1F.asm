@@ -70,18 +70,15 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "Ich bin Mira… Ich"
+	text "Ich bin Mira … Ich"
 	line "habe #mon"
-
 	para "gefangen, aber"
 	line "diese Höhle ist"
-	cont "mir zu gruselig…"
-
+	cont "mir zu gruselig …"
 	para "Ich will stärker"
 	line "werden, damit ich"
 	cont "keine Angsthase"
 	cont "mehr bin."
-
 	para "Bitte! Bitte kämpf"
 	line "mit mir!"
 	done
@@ -125,10 +122,8 @@ ScaryCave1FMiraScript:
 .GoodbyeText:
 	text "Mira versucht es"
 	line "wie du, <PLAYER>!"
-
 	para "Ich werde im"
 	line "DUELLTURM stärker!"
-
 	para "<PLAYER>, tschüss!"
 	done
 
@@ -206,17 +201,15 @@ GenericTrainerRuin_maniacSmilte:
 	line "In der Nähe gibt"
 	cont "es eine tiefere"
 	cont "Höhle!"
-
 	para "Vielleicht finde"
 	line "ich dort meine"
-	cont "große Entdeckung…"
+	cont "große Entdeckung …"
 	done
 
 .SeenText:
 	text "Ich stehe kurz vor"
 	line "einer großen"
 	cont "Entdeckung!"
-
 	para "Ich spüre es!"
 	done
 
@@ -289,7 +282,6 @@ TrainerCoupleJoeandjo2:
 	text "Jo: Ich hab so"
 	line "viel Glück, dass"
 	cont "mein wunderbarer"
-
 	para "Joe alle"
 	line "gruseligen Geister"
 	cont "vertreibt."
@@ -311,8 +303,8 @@ GenericTrainerHex_maniacBethany:
 	text "Die"
 	line "Angstatmosphäre in"
 	cont "dieser Höhle ist"
-	cont "herrlich…"
-	cont "Fufufufu…"
+	cont "herrlich …"
+	cont "Fufufufu …"
 	done
 
 .SeenText: ; text > text

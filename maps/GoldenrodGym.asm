@@ -127,13 +127,10 @@ GenericTrainerSrandjrJoandcath2:
 	text "Cath: Ich verliere"
 	line "immer gegen"
 	cont "BIANKA."
-
 	para "Das ist"
 	line "deprimierend."
-
 	para "Schon gut! Wenn"
 	line "ich verliere,"
-
 	para "versuche ich es"
 	line "beim nächsten Mal"
 	cont "nochmal!"
@@ -148,16 +145,16 @@ GenericTrainerBeautyVictoria:
 	cont "schlagen. Mach"
 	cont "weiter so!"
 	done
+
 GenericTrainerBeautySamantha:
 	generictrainer BEAUTY, SAMANTHA, EVENT_BEAT_BEAUTY_SAMANTHA, BeautySamanthaSeenText, BeautySamanthaBeatenText
 
-	text "Ich habe MAUZI"
-	line "die"
-	cont "unterschiedlich-"
-	cont "sten Attacken"
-	cont "bei-"
-	cont "gebracht…"
+	text "Ich habe MAUZI die"
+	line "unterschiedlichst-"
+	cont "en Attacken"
+	cont "beigebracht…"
 	done
+
 GoldenrodGymGuyScript:
 	checkevent EVENT_BEAT_WHITNEY
 	iftrue_jumptextfaceplayer GoldenrodGymGuyWinText
@@ -174,11 +171,10 @@ GoldenrodGymGuyScript:
 	line "Kampf-#mon"
 	cont "einzusetzen."
 
-	para "Aber Vorsicht—"
+	para "Aber Vorsicht:"
 	line "Fee-#mon"
-
-	para "widerstehen Kampf-"
-	line "Attacken,"
+	cont "widerstehen"
+	cont "Kampf-Attacken,"
 
 	para "und die setzen wir"
 	line "hier auch ein!"
@@ -208,16 +204,13 @@ JoWalksAwayMovement:
 
 WhitneyBeforeText:
 	text "Ich bin BIANKA!"
-
 	para "Jeder hat sich für"
 	line "#mon"
 	cont "interessiert, also"
 	cont "musste ich"
 	cont "mitmachen!"
-
 	para "#mon sind"
 	line "superniedlich!"
-
 	para "Willst du kämpfen?"
 	line "Sei gewarnt, ich"
 	cont "bin gut!"
@@ -227,16 +220,16 @@ WhitneyBeforeText:
 
 
 
+
 WhitneyShouldntBeSoSeriousText:
 	text "Schluchz…"
-
 	para "…Waaaaaaah! Du"
 	line "bist gemein!"
-
 	para "Du solltest nicht"
 	line "so ernst sein! Du,"
 	cont "du Kind, du!"
 	done
+
 
 
 
@@ -250,26 +243,23 @@ WhitneyWhatDoYouWantText:
 
 	para "Oh, stimmt, ich"
 	line "vergaß. Hier ist"
-	cont "der BASISORDEN."
+	cont "der PLANORDEN."
 	done
 
 
 
 
 
+
 WhitneyPlainBadgeText:
-	text "Mit Hilfe des BA-"
-	line "SISORDENs können"
-
-	para "deine #mon"
-	line "STÄRKE auch"
-	cont "außerhalb eines"
-	cont "Kampfes einsetzen."
-
+	text "Mit dem PLANORDEN"
+	line "können deine"
+	cont "#mon STÄRKE"
+	cont "auch außerhalb des"
+	cont "Kampfs einsetzen."
 	para "Außerdem erhöht er"
 	line "die INIT deiner"
 	cont "#mon."
-
 	para "Oh, das hier"
 	line "kannst du auch"
 	cont "haben!"
@@ -279,13 +269,15 @@ WhitneyPlainBadgeText:
 
 
 
+
 WhitneyGoodCryText:
 	text "Ah, die Flennerei"
-	line "hat gut getan! Be-"
+	line "hat gut getan!"
 
-	para "suche mich mal"
+	para "Besuche mich mal"
 	line "wieder! Tschüssi!"
 	done
+
 
 
 
@@ -309,10 +301,8 @@ LassCathyBeatenText:
 SrandjrJoandcath1SeenText:
 	text "Jo: Wenn du BIANKA"
 	line "willst,"
-
 	para "musst du erst an"
 	line "mir vorbei!"
-
 	para "Cath, klang das"
 	line "cool?"
 	done
@@ -335,16 +325,14 @@ JoWhitneyCriesText:
 	text "Ach nein. Du hast"
 	line "BIANKA zum Weinen"
 	cont "gebracht."
-
 	para "Keine Sorge. Sie"
 	line "beruhigt sich bald"
-
 	para "wieder. Sie weint"
 	line "immer, wenn sie"
 	cont "verloren hat."
 	done
 BeautyVictoriaSeenText:
-	text "Ach, du musst wohl"
+	text "Oh, du musst wohl"
 	line "noch etwas"
 
 	para "wachsen! Ich mag"
@@ -358,10 +346,12 @@ BeautyVictoriaSeenText:
 
 
 
+
 BeautyVictoriaBeatenText:
 	text "Mal sehen… Ups,"
 	line "schon vorbei?"
 	done
+
 
 
 
@@ -377,10 +367,12 @@ BeautySamanthaSeenText:
 
 
 
+
 BeautySamanthaBeatenText:
 	text "Nein! Oh, MAUZI,"
-	line "es tut mir leid!"
+	line "es tut mir Leid!"
 	done
+
 
 
 

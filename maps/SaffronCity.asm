@@ -66,14 +66,11 @@ SaffronCityLass1Script:
 
 	text "Hier lebt ein"
 	line "kleines Mädchen,"
-
 	para "das darin"
 	line "exzelliert, andere"
 	cont "nachzuahmen."
-
 	para "Sie ahmt sogar die"
 	line "Person nach,"
-
 	para "mit der sie gerade"
 	line "spricht. Das ist"
 	cont "verwirrend."
@@ -86,7 +83,6 @@ SaffronCityPokefanMScript:
 
 	text "Du kommst aus"
 	line "JOHTO?"
-
 	para "Du kannst schnell"
 	line "nach Hause"
 	cont "zurückkehren, wenn"
@@ -100,25 +96,22 @@ SaffronCityFisherScript:
 	iftrue_jumptextfaceplayer SaffronCityFisherText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "Mampf… Mampf…"
-
+	text "Mampf … Mampf …"
 	para "Wie ich höre,"
 	line "braut sich da"
 	cont "etwas im KRAFTWERK"
 	cont "zusammen."
-
-	para "Mampf… Mampf…"
+	para "Mampf … Mampf …"
 	done
 
 
 SaffronCityLass1Text_ReturnedMachinePart:
 	text "Die NACHAHMERIN"
 	line "sieht unglücklich"
-
 	para "aus. Sie hat ihre"
 	line "Lieblings-#-"
-	cont "PUPPE - PIEPI -"
-	cont "verloren."
+	cont "PUPPE - PIEPI"
+	cont "-verloren."
 	done
 
 
@@ -143,19 +136,16 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 
 SaffronCityCooltrainerMText:
 	text "Ich ging zur"
-	line "#mon-ARENA,"
+	line "PKMN-ARENA,"
 	cont "weil ich unbedingt"
-	cont "kämpfen wollte…"
-
-	para "Wie sich heraus-"
-	line "stellte, bin ich"
-
+	cont "kämpfen wollte …"
+	para "Wie sich"
+	line "herausstellte, bin"
+	cont "ich"
 	para "ausgerechnet in"
 	line "der verlassenen"
-
-	para "#mon-ARENA"
+	para "PKMN-ARENA"
 	line "gelandet."
-
 	para "War mir das"
 	line "peinlich!"
 	done
@@ -168,12 +158,10 @@ SaffronCityCooltrainerMText:
 SaffronCityCooltrainerFText:
 	text "Das ist die SILPH"
 	line "CO., berühmt für"
-	cont "ihre #mon-"
-	cont "Artikel."
-
+	cont "ihre"
+	cont "#mon-Artikel."
 	para "TEAM ROCKET wollte"
 	line "sie wegen dieser"
-
 	para "Waren für sich"
 	line "nutzen."
 	done
@@ -184,15 +172,13 @@ SaffronCityCooltrainerFText:
 
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Mampf… Mampf…"
-
+	text "Mampf … Mampf …"
 	para "Wie ich höre,"
 	line "braute sich da"
 	cont "etwas im KRAFTWERK"
 	cont "zusammen."
-
-	para "Mampf… Mampf… Aah,"
-	line "ich bin satt!"
+	para "Mampf … Mampf …"
+	line "Aah, ich bin satt!"
 	done
 
 
@@ -203,7 +189,6 @@ SaffronCityFisherText_ReturnedMachinePart:
 SaffronCityYoungster1Text:
 	text "Ich finde es"
 	line "unheimlich, wenn"
-
 	para "ich zum ersten Mal"
 	line "einen engen Gang"
 	cont "betrete."
@@ -217,10 +202,8 @@ SaffronCityYoungster1Text:
 SaffronCityYoungster2Text:
 	text "In VERTANIA CITY"
 	line "gibt es ein HAUS"
-
 	para "für TRAINER. Dort"
 	line "treffen sich"
-
 	para "Trainer der ganzen"
 	line "Welt."
 	done
@@ -234,10 +217,8 @@ SaffronCityLass2Text:
 	text "Über unsere Stadt"
 	line "wurde mal im Radio"
 	cont "berichtet."
-
 	para "Es ist schön, dass"
 	line "für deine Stadt"
-
 	para "geworben wird,"
 	line "aber es ist auch"
 	cont "ein bisschen"
@@ -253,10 +234,8 @@ SaffronCityBlackBelt1Text:
 	text "Jeden Morgen, wenn"
 	line "ich aufwache,"
 	cont "laufe"
-
 	para "ich zwei Runden um"
 	line "die Stadt."
-
 	para "So starte ich"
 	line "perfekt in den"
 	cont "Tag!"
@@ -265,10 +244,8 @@ SaffronCityBlackBelt1Text:
 SaffronCityBlackBelt2Text:
 	text "Wär ich ein Item,"
 	line "wär ich X-Angriff."
-
 	para "Ich strotze nur so"
 	line "vor Kraft,"
-
 	para "das X klingt"
 	line "einfach cool."
 	done
@@ -293,40 +270,29 @@ SaffronCityScientistText:
 	text "Das ursprüngliche"
 	line "SILPH-SCOPE hatte"
 	cont "Fehler, deshalb"
-
 	para "arbeiten wir"
 	line "unermüdlich an"
-	cont "seinem"
-	cont "Nachfolger, dem"
-	cont "SILPH-SCOPE2!"
+	cont "seinem Nachfolger,"
+	cont "dem SILPH-SCOPE2!"
 	done
 
 SaffronCitySilphEmployeeText:
 	text "SILPH ist nach"
 	line "einem mythischen"
 	cont "Luftgeist benannt."
-
 	para "Was das mit dem"
 	line "Geschäft der Firma"
-
 	para "zu tun hat, weiß"
 	line "ich nicht."
 	done
 
 SaffronCitySignText:
 	text "SAFFRONIA CITY"
-
 	para "Golden Schimmernde"
 	line "Stadt des Handels"
 	done
-
-
-
-
-
-
 SaffronGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "SAFFRONIA CITY"
 	cont "LEITUNG: SABRINA"
 
@@ -360,8 +326,8 @@ SilphCoSignText:
 
 
 MrPsychicsHouseSignText:
-	text "HAUS von MR."
-	line "PSYCHO"
+	text "HAUS von"
+	line "MR. PSYCHO"
 	done
 
 
@@ -391,24 +357,20 @@ PokemonTrainerFanClubSignText:
 
 SaffronTrainerTips1Text:
 	text "TIPPS für TRAINER"
-
-	para "Das neue SILPH-"
-	line "SCOPE2 erkennt"
-
+	para "Das neue"
+	line "SILPH-SCOPE2"
+	cont "erkennt"
 	para "selbst perfekt"
 	line "getarnte #mon!"
 	done
 
 SaffronTrainerTips2Text:
 	text "TIPPS für TRAINER"
-
 	para "Nutze Flottbälle"
 	line "früh im Kampf."
 	cont "Später Timerbälle."
-
 	para "Sie kosten mehr"
 	line "als #BÄLLE,"
-
 	para "sind aber"
 	line "praktischer."
 	done

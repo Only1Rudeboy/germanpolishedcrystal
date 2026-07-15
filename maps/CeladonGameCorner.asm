@@ -187,7 +187,6 @@ CeladonGameCornerRichBoyTobin:
 .SeenText:
 	text "Was schnüffelst du"
 	line "hier rum?"
-
 	para "Leg dich bloß"
 	line "nicht mit Team"
 	cont "Valor an!"
@@ -272,8 +271,8 @@ CeladonGameCornerTeacherText:
 
 CeladonGameCornerFishingGuruText:
 	text "Ich glaub, dieser"
-	line "Automat zahlt aus…"
-
+	line "Automat zahlt aus"
+	cont "…"
 	para "Die Chancen"
 	line "variieren je"
 	cont "Automat."
@@ -281,14 +280,11 @@ CeladonGameCornerFishingGuruText:
 
 CeladonGameCornerFisherText1:
 	text "Gahahaha!"
-
 	para "Die Münzen"
 	line "sprudeln nur so"
 	cont "raus!"
-
 	para "Hm? Was, Kleiner?"
 	line "Willst du spielen?"
-
 	para "Ich teil mein"
 	line "Glück mit dir!"
 	done
@@ -313,13 +309,12 @@ CeladonGameCornerFisherNoCoinCaseText:
 CeladonGameCornerFisherFullCoinCaseText:
 	text "Hey, dein Münzkorb"
 	line "ist voll, Kleiner."
-
 	para "Du hast wohl auch"
 	line "eine Glückssträhne"
 	done
 
 CeladonGameCornerReceived18CoinsText:
-	text "<PLAYER> erhielt"
+	text "<PLAYER> erhält"
 	line "18 Münzen!"
 	done
 
@@ -339,7 +334,6 @@ FisherNotEnoughText:
 	text "Hey, dein Münzkorb"
 	line "ist fast leer,"
 	cont "Kleiner."
-
 	para "Dein Glück scheint"
 	line "zu versiegen."
 	done
@@ -347,27 +341,22 @@ FisherNotEnoughText:
 CeladonGymGuyText:
 	text "Hey! Zukünftiger"
 	line "Champ!"
-
 	para "Spielst du auch an"
 	line "den Automaten?"
-
 	para "Ich versuch genug"
 	line "Münzen für ein"
 	cont "Preis-#mon zu"
-
 	para "bekommen."
-
 	para "Aber ich hab noch"
-	line "nicht genug"
-	cont "Münzen…"
+	line "nicht genug Münzen"
+	cont "…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hmmm… Die Chancen"
+	text "Hmmm … Die Chancen"
 	line "sind sicher besser"
 	cont "bei Pikachus"
-
-	para "Reihe, aber… Was"
+	para "Reihe, aber … Was"
 	line "soll ich tun?"
 	done
 

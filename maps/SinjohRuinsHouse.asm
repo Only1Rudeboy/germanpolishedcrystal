@@ -60,11 +60,9 @@ SinjohRuinsHouseCynthiaAfterText:
 	text "Cynthia: Was für"
 	line "ein unglaublicher"
 	cont "Kampf!"
-
 	para "Du bist ein"
 	line "großartiger"
 	cont "Trainer, und es"
-
 	para "würde mich freuen,"
 	line "dich wieder zu"
 	cont "sehen."
@@ -73,27 +71,20 @@ SinjohRuinsHouseCynthiaAfterText:
 SinjohRuinsHousePokefanmText:
 	text "Vor langer Zeit"
 	line "hatten Menschen"
-
 	para "eine engere"
-	line "Bindung zu"
-	cont "#mon."
-
+	line "Bindung #mon."
 	para "Mythen und"
 	line "Legenden über"
 	cont "mächtige #mon"
 	cont "entstanden,"
-
 	para "und diese Legenden"
 	line "verbreiteten sich"
 	cont "in andere"
 	cont "Regionen."
-
 	para "Die Ruinen hier"
 	line "wurden von den"
-
 	para "Ureinwohnern von"
 	line "Alph in Johto und"
-
 	para "der Lanzen-Säule"
 	line "in Sinnoh"
 	cont "beeinflusst."
@@ -101,7 +92,7 @@ SinjohRuinsHousePokefanmText:
 
 SinjohRuinsHouseGrampsText:
 	text "Du wirkst so fehl"
-	line "am Platz —"
+	line "am Platz -"
 
 	para "du weißt nicht"
 	line "einmal, warum du"
@@ -125,22 +116,17 @@ SinjohRuinsHouseAbraText:
 SinjohRuinsHouseCynthiaChallengeText:
 	text "Cynthia: Hallo,"
 	line "<PLAYER>."
-
 	para "Bist du gut in"
 	line "Form geblieben?"
-
 	para "Du hast die TOP"
 	line "VIER im Rückkampf"
 	cont "besiegt! Gut"
 	cont "gemacht!"
-
 	para "Ich bin neugierig,"
 	line "was du seit"
-
 	para "unserem letzten"
 	line "Treffen gelernt"
 	cont "hast."
-
 	para "Sollen wir noch"
 	line "einmal kämpfen,"
 	cont "<PLAYER>?"
@@ -158,9 +144,8 @@ SinjohRuinsHouseCynthiaYesText:
 	text "Cynthia: Bevor ich"
 	line "mein #mon"
 	cont "schicke,"
-
 	para "beginnt mein Herz"
-	line "immer zu rasen…"
+	line "immer zu rasen …"
 	done
 
 SinjohRuinsHouseCynthiaWinText:

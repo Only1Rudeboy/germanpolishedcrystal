@@ -244,12 +244,12 @@ Movement_LyraSaysGoodbye3_NBT:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, dein #Com"
+	text "Wow, dein #COM"
 	line "ist beeindruckend!"
-
 	para "Hast du den von"
 	line "Mama bekommen?"
 	done
+
 
 
 
@@ -265,9 +265,11 @@ Text_WaitPlayer:
 
 
 
+
 Text_WhatDoYouThinkYoureDoing:
 	text "Was hast du vor?"
 	done
+
 
 
 
@@ -278,14 +280,11 @@ Text_ItsDangerousToGoAlone:
 	text "Es ist gefährlich,"
 	line "ohne #mon das"
 	cont "Haus zu verlassen!"
-
 	para "Auf dem Weg zur"
 	line "nächsten Stadt"
-
 	para "können jederzeit"
 	line "wilde #mon"
-
-	para "auftauchen."
+	cont "auftauchen."
 	done
 
 
@@ -293,8 +292,9 @@ Text_ItsDangerousToGoAlone:
 
 
 
+
 Text_YourMonIsAdorable:
-	text "Ach! Dein #mon"
+	text "Oh! Dein #mon"
 	line "ist bezaubernd!"
 
 	para "Ich wünschte, ich"
@@ -306,10 +306,10 @@ Text_YourMonIsAdorable:
 
 
 
-Text_TellMomIfLeaving:
-	text "Hallo, <PLAYER>!"
-	line "Du gehst schon?"
 
+Text_TellMomIfLeaving:
+	text "Hi, <PLAYER>! Du"
+	line "gehst schon?"
 	para "Gib deiner Mama"
 	line "Bescheid, wenn du"
 	cont "gehst."
@@ -320,13 +320,15 @@ Text_TellMomIfLeaving:
 
 
 
+
 Text_CallMomOnGear:
 	text "Ruf deine Mama mit"
-	line "dem #Com an,"
-
-	para "damit sie weiß,"
-	line "was du machst."
+	line "dem #Com"
+	para "an, damit sie"
+	line "weiß, was du"
+	cont "machst."
 	done
+
 
 
 
@@ -347,12 +349,12 @@ Text_ElmDiscoveredNewMon:
 
 
 
+
 NewBarkTownRivalText1:
 	text "…"
-
 	para "Das ist also das"
-	line "berühmte LIND-"
-	cont "#mon-LABOR…"
+	line "berühmte Labor von"
+	cont "PROF. LIND …"
 	done
 
 
@@ -360,8 +362,9 @@ NewBarkTownRivalText1:
 
 
 
+
 NewBarkTownRivalText2:
-	text "…Was starrst du"
+	text "… Was starrst du"
 	line "so?"
 	done
 
@@ -370,64 +373,44 @@ NewBarkTownRivalText2:
 
 
 
-Text_LyraIntro:
-	text "Lyra: Oh, hallo"
-	line "<PLAYER>!"
 
+Text_LyraIntro:
+	text "LYRA: Oh, hallo"
+	line "<PLAYER>!"
 	para "Ich war vorhin bei"
 	line "dir zu Hause,"
-
 	para "aber du hast noch"
 	line "geschlafen."
-
-	para "Ich helfe"
-	line "Prof. Lind"
-	cont "manchmal, weißt"
-
-	para "du noch? Er"
-	line "startet neue"
-	cont "#mon-"
-
-	para "Forschung und"
-	line "möchte, dass wir"
-	cont "beide"
-
-	para "helfen. Komm, wir"
-	line "schauen mal nach!"
+	para "Ich helfe PROF."
+	line "LIND manchmal,"
+	cont "weißt du noch?"
+	para "Er startet neue"
+	line "#mon-Forschung"
+	para "und möchte, dass"
+	line "wir beide helfen."
+	para "Komm, wir schauen"
+	line "mal nach!"
 	done
 Text_LyraGoodbye1:
-	text "Lyra: <PLAYER>!"
-
+	text "LYRA: <PLAYER>!"
 	para "Ich habe gehört,"
 	line "du hast alle Orden"
 	cont "in Johto."
-
-	para "…Du bist wirklich"
+	para "… Du bist wirklich"
 	line "etwas Besonderes,"
 	cont "<PLAYER>."
-
 	para "Dass wir beide"
 	line "hier unsere Reise"
-
-	para "begonnen haben…"
-	line ""
-
-	para "Ich helfe"
-	line "Prof. Lind so gut"
-	cont "ich kann,"
-
+	cont "begonnen haben …"
+	para "Ich helfe PROF."
+	line "LIND so gut ich"
+	cont "kann,"
 	para "aber gegen den"
-	line "Liga-Champion"
-
-	para "käme ich nie an."
-	line ""
-
-	para "…Bevor du gehst…"
-	line ""
-
+	line "Liga-Champion käme"
+	cont "ich nie an."
+	para "… Bevor du gehst …"
 	para "Wie wäre es mit"
 	line "noch einem Kampf?"
-
 	para "Ich will sehen,"
 	line "was für ein"
 	cont "Trainer du"
@@ -441,36 +424,30 @@ Text_LyraGoodbyeWin:
 Text_LyraGoodbyeLoss:
 	text "Hoffentlich hast"
 	line "du mich nicht"
-	cont "gewähren lassen…"
+	cont "gewähren lassen …"
 	done
 Text_LyraGoodbye2:
-	text "…Danke, <PLAYER>."
-
+	text "… Danke, <PLAYER>."
 	para "Man merkt, wie"
 	line "viel Arbeit und"
-	cont "Liebe"
-
-	para "du in deine"
-	line "#mon gesteckt"
+	cont "Liebe du in deine"
+	cont "#mon gesteckt"
 	cont "hast."
-
-	para "…Also, das ist"
+	para "… Also, das ist"
 	line "Abschied."
-
 	para "Du schaffst die"
 	line "#mon-Liga!"
-
 	para "Du wirst ein"
 	line "großartiger"
 	cont "Champion!"
 	done
 NewBarkTownSignText:
-	text "Neuborkia"
-
+	text "NEUBORKIA"
 	para "Die Stadt, in der"
 	line "der Wind der"
 	cont "Erneuerung weht"
 	done
+
 
 
 
@@ -484,5 +461,5 @@ ElmsLabSignText:
 	text "LIND-#mon-LABOR"
 	done
 LyrasHouseSignText:
-	text "Lyras Haus"
+	text "LYRAs Haus"
 	done

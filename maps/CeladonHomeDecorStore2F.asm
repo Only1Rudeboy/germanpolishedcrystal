@@ -106,8 +106,8 @@ CeladonHomeDecorStore2FClerkText:
 	done
 
 BoughtPinkBedText:
-	text "<PLAYER> kaufte"
-	line "das rosa Bett."
+	text "<PLAYER> kaufte das"
+	line "rosa Bett."
 	done
 
 PinkBedSentText:
@@ -116,8 +116,8 @@ PinkBedSentText:
 	done
 
 BoughtPolkaDotBedText:
-	text "<PLAYER> kaufte"
-	line "das Punkte-Bett."
+	text "<PLAYER> kaufte das"
+	line "Punkte-Bett."
 	done
 
 PolkaDotBedSentText:
@@ -126,8 +126,8 @@ PolkaDotBedSentText:
 	done
 
 BoughtPikachuBedText:
-	text "<PLAYER> kaufte"
-	line "das Pikachu-Bett."
+	text "<PLAYER> kaufte das"
+	line "Pikachu-Bett."
 	done
 
 PikachuBedSentText:
@@ -148,13 +148,12 @@ CeladonHomeDecorStore2FPokefanfText:
 	text "Markenartikel"
 	line "kosten mehr als"
 	cont "generische."
-
-	para "Aber das Pikachu-"
-	line "Bett ist so süß…"
+	para "Aber das"
+	line "Pikachu-Bett ist"
+	cont "so süß…"
 	done
 
 CeladonHomeDecorStore2FDirectoryText:
 	text "Weich & flauschig!"
-
 	para "2F: Betten"
 	done

@@ -133,26 +133,19 @@ Route36FloriaScript:
 
 	text "Ich bin FLORA vom"
 	line "BLUMENLADEN!"
-
 	para "Stell dir vor:"
-
 	para "Als ich den"
 	line "wackeligen Baum"
 	cont "mit"
-
 	para "Wasser benetzte,"
 	line "ist er"
 	cont "hochgeschreckt!"
-
 	para "Es muss einfach"
 	line "ein #mon sein."
-
 	para "Ich wette, es gibt"
 	line "seine Verkleidung"
-
 	para "auf, wenn man es"
 	line "gießt!"
-
 	para "Genau! Ich sage es"
 	line "meiner Schwester"
 	cont "und leihe mir ihre"
@@ -168,13 +161,10 @@ Route36RockSmashGuyScript:
 	jumpthisopenedtext
 
 	text "Ha!"
-
 	para "Ich wollte diesen"
 	line "Baum mit meinem"
-
 	para "geraden Schlag"
 	line "zerschmettern."
-
 	para "Aber ich konnte"
 	line "nicht! Ich bin ein"
 	cont "Versager!"
@@ -189,6 +179,7 @@ Route36RockSmashGuyScript:
 	jumpthisopenedtext
 
 	text "Das ist"
+	done
 if DEF(FAITHFUL)
 	line "ZERTRÜMMERER."
 else
@@ -201,7 +192,7 @@ endc
 	para "gezielten Schlag"
 	line "zertrümmern."
 
-	para "Wenn Felsen im Weg"
+	para "Wenn Felsen im"
 	line "sind, dann"
 if DEF(FAITHFUL)
 	cont "zertrümmere sie!"
@@ -219,13 +210,11 @@ Route36LassScript:
 	line "Baum blockiert den"
 	cont "Weg nach DUKATIA"
 	cont "CITY."
-
 	para "Ich wollte mir das"
 	line "riesige #mon-"
-
 	para "CENTER ansehen,"
 	line "das gerade"
-	cont "eröffnet wurde…"
+	cont "eröffnet wurde …"
 	done
 
 TrainerSchoolboyAlan1:
@@ -383,28 +372,23 @@ Route36CooltrainerfChiaraScript:
 .AfterText2:
 	text "Mit deinem Können"
 	line "bist du nicht der"
-	cont "einzige Top-"
-	cont "Trainer, der dich"
-	cont "testen will."
+	cont "einzige"
+	cont "Top-Trainer, der"
+	cont "dich testen will."
 	done
 
 .IntroText:
 	text "Ich sah, wie du"
 	line "den Mogelbaum"
 	cont "aufgeweckt hast."
-
 	para "Klasse gemacht!"
-
 	para "Und du hast den"
 	line "Knirpsorden. Ich"
 	cont "auch!"
-
 	para "Wie wär's: Besiege"
 	line "alle"
-
 	para "Trainer auf Route"
 	line "36 und 37."
-
 	para "Dann kämpfe ich"
 	line "gegen dich!"
 	done
@@ -413,14 +397,11 @@ Route36CooltrainerfChiaraScript:
 	text "Du hast alle"
 	line "anderen in der"
 	cont "Gegend besiegt."
-
 	para "Dann ist es Zeit"
 	line "für unser Duell!"
-
 	para "Ich nutze ein"
 	line "Klammerband für"
 	cont "meinen Vorteil."
-
 	para "Bist du bereit für"
 	line "mich?"
 	done
@@ -446,10 +427,8 @@ Route36CooltrainerfChiaraScript:
 	text "Du hast meine"
 	line "Technik beobachtet"
 	cont "und kontert."
-
 	para "Warum probierst du"
 	line "sie nicht selbst?"
-
 	para "Hier, für dich!"
 	done
 
@@ -457,11 +436,11 @@ GenericTrainerPsychicMark:
 	generictrainer PSYCHIC_T, MARK, EVENT_BEAT_PSYCHIC_MARK, PsychicMarkSeenText, PsychicMarkBeatenText
 
 	text "Ich wäre wirklich"
-	line "stark, wenn ich "
-
+	line "stark, wenn ich"
 	para "wüsste, was mein"
 	line "Gegner denkt."
 	done
+
 GenericTrainerSchoolgirlMolly:
 	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
 
@@ -564,10 +543,12 @@ UseSquirtbottleText:
 
 
 
+
 UsedSquirtbottleText:
 	text "<PLAYER> benutzt"
 	line "SCHIGGYKANNE."
 	done
+
 
 
 
@@ -583,31 +564,25 @@ SudowoodoAttackedText:
 
 
 
+
 FloriaTextAfterSquirtBottle:
 	text "Ich bin Floria vom"
 	line "BLUMENLADEN!"
-
 	para "Als ich meiner"
 	line "Schwester vom"
-
 	para "wackeligen Baum"
 	line "erzählte, sagte"
-
 	para "sie, er sei"
 	line "gefährlich."
-
 	para "Ach, sie hat dir"
 	line "ihre Gießkanne"
 	cont "geliehen?"
-
 	para "Dann musst du ein"
 	line "guter Trainer"
 	cont "sein!"
-
 	para "Ich überlasse dir"
 	line "den merkwürdigen"
 	cont "Baum."
-
 	para "Tschüss!"
 	done
 
@@ -615,21 +590,16 @@ FloriaTextAfterSudowoodo:
 	text "Ich wusste, der"
 	line "wackelige Baum ist"
 	cont "ein #mon!"
-
 	para "Ich wollte ihn aus"
 	line "seiner"
-
 	para "Verkleidung"
 	line "schocken, aber du"
 	cont "warst schneller!"
-
 	para "Na gut, ich geh"
 	line "zurück zum"
 	cont "BLUMENLADEN."
-
 	para "Ich bin übrigens"
 	line "Floria."
-
 	para "Tschüss!"
 	done
 
@@ -648,6 +618,7 @@ RockSmashGuyText2:
 
 
 
+
 Text_ReceivedTM08: ; unreferenced
 	text "<PLAYER> erhält"
 	line "TM08."
@@ -655,15 +626,16 @@ Text_ReceivedTM08: ; unreferenced
 
 
 
+
 Route36LassText_ClearedSudowoodo:
 	text "Dieser merkwürdige"
 	line "Baum ist spurlos"
 	cont "verschwunden."
-
 	para "Ach! Der Baum war"
 	line "in Wirklichkeit"
 	cont "ein #mon?"
 	done
+
 
 
 
@@ -675,10 +647,12 @@ PsychicMarkSeenText:
 
 
 
+
 PsychicMarkBeatenText:
 	text "Ich habe mich wohl"
 	line "bei dir verlesen!"
 	done
+
 
 
 
@@ -702,10 +676,12 @@ SchoolboyAlan1SeenText:
 
 
 
+
 SchoolboyAlan1BeatenText:
 	text "Ups! Ein Fehler in"
 	line "der Berechnung?"
 	done
+
 
 
 
@@ -722,6 +698,7 @@ SchoolboyAlanBooksText:
 
 
 
+
 MeetArthurText:
 	text "DONATUS: Wer bist"
 	line "du?"
@@ -732,6 +709,7 @@ MeetArthurText:
 
 
 
+
 ArthurGivesGiftText:
 	text "Hier bitte. Das"
 	line "kannst du haben."
@@ -739,22 +717,23 @@ ArthurGivesGiftText:
 
 
 
+
 ArthurThursdayText:
 	text "DONATUS: Ich bin"
 	line "DONATUS von"
-
 	para "Donnerstag. Ich"
 	line "bin der zweite"
-
 	para "Sohn von sieben"
 	line "Kindern."
 	done
 
 
 
+
 Route36SignText:
 	text "ROUTE 36"
 	done
+
 
 
 
@@ -765,23 +744,21 @@ RuinsOfAlphNorthSignText:
 
 
 
+
 Route36TrainerTips1Text:
 	text "TIPPS für TRAINER"
 	line "Der Status der"
-
-	para "#mon ist unter-"
-	line "schiedlich, sogar"
-
+	para "#mon ist"
+	line "unterschiedlich,"
+	cont "sogar"
 	para "innerhalb"
 	line "derselben Spezies."
-
 	para "Zu Beginn ist er"
 	line "vielleicht noch"
 	cont "ähnlich."
-
-	para "Doch die Unter-"
-	line "schiede werden "
-
+	para "Doch die"
+	line "Unterschiede"
+	cont "werden"
 	para "deutlicher, wenn"
 	line "die #mon"
 	cont "heranwachsen."
@@ -789,24 +766,22 @@ Route36TrainerTips1Text:
 
 
 
+
 Route36TrainerTips2Text:
 	text "TIPPS für TRAINER"
 	line "Setze den"
-
 	para "SCHAUFLER ein, um"
 	line "an den Eingang"
-
 	para "eines Ortes"
 	line "zurückzugelangen."
-
 	para "Das ist sehr"
-	line "nützlich beim"
+	line "nütz-lich beim"
 	cont "Erkunden"
-
 	para "von Höhlen und"
 	line "anderen"
 	cont "Umgebungen."
 	done
+
 
 
 
@@ -823,12 +798,10 @@ Route36AdvancedTips1Text:
 
 Route36AdvancedTips2Text:
 	text "Prof-Tipps!"
-
 	para "Haarschnitte,"
 	line "Segnungen oder"
-
 	para "Massagen erhöhen"
-	line "die Zuneigung —"
-	cont "deine #mon"
+	line "die Zuneigung"
+	cont "-deine #mon"
 	cont "kämpfen besser!"
 	done

@@ -97,7 +97,8 @@ GiovannisCaveRadioScript:
 
 	text "Hier steht ein"
 	line "Radio, das nicht"
-	cont "mehr funktioniert…"
+	cont "mehr funktioniert"
+	cont "…"
 	done
 
 GiovannisCaveRadioAfterTimeTravelText:
@@ -105,7 +106,7 @@ GiovannisCaveRadioAfterTimeTravelText:
 	line "Radio nicht"
 	cont "einschalten."
 
-	para "Giovanni muss es"
+	para "GIOVANNI muss es"
 	line "hier gelassen"
 	cont "haben…"
 	done
@@ -153,20 +154,15 @@ GiovannisCave_CelebiFloatsMovementData:
 
 GiovannisCaveGiovanniIntroText:
 	text "…"
-
 	para "Ich weiß nicht,"
 	line "warum du hierher"
-
 	para "gekommen bist,"
 	line "aber ich muss dich"
-
 	para "warnen: Das ist"
 	line "kein Ort für Kids"
 	cont "wie dich."
-
-	para "Lyra: Hä? Das ist"
+	para "LYRA: Hä? Das ist"
 	line "der Typ, mit dem"
-
 	para "wir gerade"
 	line "gestritten haben!"
 	done
@@ -208,7 +204,7 @@ GiovannisCaveGiovanniMemoriesText:
 	done
 
 GiovannisCaveLyraQuestionsText:
-	text "Lyra: Vor drei"
+	text "LYRA: Vor drei"
 	line "Jahren…? Dukatia"
 	cont "City…?"
 	done
@@ -216,65 +212,52 @@ GiovannisCaveLyraQuestionsText:
 GiovannisCaveLyraRecognizesGiovanniText:
 	text "Das ist der, den"
 	line "Team Rocket"
-
 	para "erreichen wollte!"
-
 	para "Ihr Boss,"
-	line "Giovanni!"
-
-	para "<PLAYER>, wann"
-	line "hast du Giovanni"
-	cont "schon mal"
-	cont "getroffen…?"
+	line "GIOVANNI!"
+	para "<PLAYER>, wann hast"
+	line "du GIOVANNI schon"
+	cont "mal getroffen…?"
 	done
 
 GiovannisCaveBroadcastText:
-	text "“… …Ähem, wir sind"
-	line "Team Rocket! Nach"
-	cont "drei Jahren"
+	text "' … … Ähem, wir"
+	line "sind Team Rocket!"
+	cont "Nach drei Jahren"
 	cont "Vorbereitung sind"
 	cont "wir aus der Asche"
 	cont "auferstanden!"
-	cont "Giovanni! Hörst du"
+	cont "GIOVANNI! Hörst du"
 	cont "uns? Wir haben es"
 	cont "geschafft! Wo ist"
 	cont "unser Boss? Hört"
-	cont "er zu?”"
-
-	para "Lyra: Team Rocket"
+	cont "er zu?'"
+	para "LYRA: Team Rocket"
 	line "hat gerade den"
-
-	para "Funkturm besetzt…"
-
+	para "Funkturm besetzt …"
 	para "Du bist dort, aber"
-	line "auch hier…"
+	line "auch hier …"
 	done
 
 GiovannisCaveGiovanniIMustGoText:
-	text "Giovanni: Meine"
+	text "GIOVANNI: Meine"
 	line "alten Verbündeten"
 	cont "brauchen mich…"
-
 	para "Wir werden den"
 	line "Fehler von vor"
 	cont "drei Jahren nicht"
 	cont "wiederholen!"
-
 	para "Team Rocket wird"
 	line "wiedergeboren!"
-
-	para "Lyra: Hah!"
-	line "<PLAYER> hat dich"
-	cont "schon gestoppt!"
-	cont "…Wird stoppen."
-
+	para "LYRA: Hah! <PLAYER>"
+	line "hat dich schon"
+	cont "gestoppt! …Wird"
+	cont "stoppen."
 	para "Wird gestoppt"
 	line "haben…?"
-
 	para "…Zeitreisen ist"
 	line "verwirrend!"
-
-	para "Giovanni: Genug"
+	para "GIOVANNI: Genug"
 	line "Geschwätz! Aus"
 	cont "meinem Weg!"
 	done
@@ -285,45 +268,39 @@ GiovannisCaveGiovanniBeatenText:
 	done
 
 GiovannisCaveGiovanniAfterText:
-	text "Giovanni: Wie ist"
-	line "das möglich…?"
-
+	text "GIOVANNI: Wie ist"
+	line "das möglich …?"
 	para "Die letzten drei"
 	line "Jahre waren"
-	cont "umsonst…?"
-
+	cont "umsonst …?"
 	para "Wie kann ein Kind"
 	line "wie du meinen"
-
 	para "Traum schon wieder"
 	line "zerstören?"
 	done
 
 GiovannisCaveBroadcastAfterText:
-	text "“… …Hey! Wo ist"
-	line "Giovanni hin? Ob"
+	text "' … … Hey! Wo ist"
+	line "GIOVANNI hin? Ob"
 	cont "er unserer Sendung"
-	cont "zuhört… …”"
+	cont "zuhört … … '"
 	done
 
 GiovannisCaveLyraFeelsSorryText:
-	text "Lyra: Sie rufen"
+	text "LYRA: Sie rufen"
 	line "ständig nach ihrem"
 	cont "Boss."
-
 	para "Es tut mir leid,"
 	line "dass sie nicht"
 	cont "wissen, dass er"
-
 	para "nicht kommt."
-
 	para "Aber gerade"
 	line "besiegst du sie,"
 	cont "<PLAYER>!"
 	done
 
 GiovannisCaveLyraWantsToLeaveText:
-	text "Lyra: Nicht schon"
+	text "LYRA: Nicht schon"
 	line "wieder…! Ich hab"
 
 	para "genug! Bitte lass"

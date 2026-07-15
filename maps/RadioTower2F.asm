@@ -39,19 +39,20 @@ RadioTower2FTeacherScript:
 	jumpthistextfaceplayer
 
 	text "Schlaflieder im"
-	line "Radio können #-"
-	cont "MON einschläfern."
+	line "Radio können"
+	cont "#-MON"
+	cont "einschläfern."
 	done
 
 
 GenericTrainerGruntM4:
 	generictrainer GRUNTM, 4, EVENT_BEAT_ROCKET_GRUNTM_4, GruntM4SeenText, GruntM4BeatenText
 
-	text "Wir lassen es"
-	line "nicht zu, dass du"
-	cont "unsere Pläne"
-	cont "durchkreuzt!"
+	text "Wir lassen nicht"
+	line "zu, dass du unsere"
+	cont "Pläne durchkreuzt!"
 	done
+
 GenericTrainerGruntM5:
 	generictrainer GRUNTM, 5, EVENT_BEAT_ROCKET_GRUNTM_5, GruntM5SeenText, GruntM5BeatenText
 
@@ -60,26 +61,28 @@ GenericTrainerGruntM5:
 	cont "tun nur, wonach"
 	cont "uns ist."
 	done
+
 GenericTrainerGruntM6:
 	generictrainer GRUNTM, 6, EVENT_BEAT_ROCKET_GRUNTM_6, GruntM6SeenText, GruntM6BeatenText
 
 	text "Unsere VORSTÄNDE"
 	line "wollen die Macht"
 	cont "an sich reißen."
-
 	para "Sie haben Großes"
 	line "vor. Ich frage"
 	cont "mich, was das wohl"
 	cont "ist?"
 	done
+
 GenericTrainerGruntF2:
 	generictrainer GRUNTF, 2, EVENT_BEAT_ROCKET_GRUNTF_2, GruntF2SeenText, GruntF2BeatenText
 
 	text "Du hast mich"
-	line "besiegt. Das werde"
-	cont "ich nicht"
-	cont "vergessen!"
+	line "besiegt. Das"
+	cont "vergesse ich"
+	cont "nicht!"
 	done
+
 Buena:
 	checkflag ENGINE_ROCKETS_IN_RADIO_TOWER
 	iftrue_jumptextfaceplayer RadioTower2FBuenaPasswordIsHelpText
@@ -289,27 +292,26 @@ RadioTower2FSuperNerdText:
 
 
 
+
 RadioTower2FRockerText:
 	text "Gleich kommt ein"
 	line "Radio-Interview"
-
 	para "für meinen neuen"
 	line "Song."
-
 	para "Vor großem"
 	line "Publikum war"
-
 	para "ich schon oft,"
 	line "aber ich hab"
-
 	para "echt Lampenfieber!"
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Warum möchten sie"
-	line "den RADIOTURM"
+	text "Warum will TEAM"
+	line "ROCKET den"
+	cont "RADIOTURM"
 	cont "besetzen?"
 	done
+
 
 
 
@@ -319,14 +321,13 @@ RadioTowerJigglypuffText:
 
 
 
+
 RadioTower2FBlackBelt1Text:
 	text "Zutritt nur für"
 	line "autorisiertes"
 	cont "Personal."
-
 	para "Das war nicht"
 	line "immer so."
-
 	para "Mit unserem"
 	line "INTENDANTEN stimmt"
 	cont "irgendetwas nicht…"
@@ -334,27 +335,27 @@ RadioTower2FBlackBelt1Text:
 
 
 
+
 RadioTower2FBlackBelt2Text:
 	text "Schau dich in Ruhe"
 	line "um."
-
 	para "Der INTENDANT ist"
-	line "wieder nett. So,"
-	cont "wie er früher war."
+	line "wieder nett - so"
+	cont "wie früher."
 	done
+
 
 
 
 GruntM4SeenText:
 	text "Vor drei Jahren"
-	line "war das TEAM"
-	cont "ROCKET gezwungen,"
-	cont "sich aufzulösen."
-
-	para "Wir arbeiten hier"
-	line "gerade an einem"
+	line "musste sich TEAM"
+	cont "ROCKET auflösen."
+	para "Hier arbeiten wir"
+	line "an unserem"
 	cont "Comeback!"
 	done
+
 
 
 
@@ -363,109 +364,99 @@ GruntM4BeatenText:
 	line "für"
 	cont "Sentimentalitäten!"
 	done
-
-
-
 GruntM5SeenText:
 	text "Wir sind TEAM"
-	line "ROCKET, die"
+	line "ROCKET - die"
 	cont "#mon-Ausbeuter!"
-
 	para "Wir lieben es,"
-	line "Böses zu tun! "
-	cont "Hast du Angst?"
+	line "Böses zu tun! Hast"
+	cont "du Angst?"
 	done
+
 
 
 
 GruntM5BeatenText:
-	text "Du glaubst, du"
-	line "bist ein Held?"
+	text "Du glaubst wohl,"
+	line "du bist ein Held?"
 	done
+
 
 
 
 GruntM6SeenText:
-	text "Hey! Halte dich"
-	line "aus unseren Ange-"
-	cont "legenheiten raus!"
+	text "Hey! Halt dich aus"
+	line "unseren"
+	cont "Angelegenheiten"
+	cont "raus!"
 	done
+
 
 
 
 GruntM6BeatenText:
-	text "Uff. Ich gebe auf."
+	text "Uff… Ich gebe auf."
 	done
+
 
 
 
 GruntF2SeenText:
 	text "Hahaha!"
-
-	para "Wie langweilig. Es"
-	line "war viel zu"
-
-	para "leicht, hier das"
-	line "Ruder zu"
-	cont "übernehmen!"
-
+	para "Wie langweilig."
+	line "Den Turm zu"
+	cont "übernehmen war"
+	cont "viel zu leicht!"
 	para "Komm schon!"
 	line "Heitere mich auf!"
 	done
 
 
 
+
 GruntF2BeatenText:
 	text "We-Wer bist du?"
 	done
-
-
-
 RadioTower2FBuenaShowIntroductionText:
-	text "BUENA: Hallo! Ich"
-	line "bin BUENA!"
-
+	text "BUENA: Hallo!"
+	line "Ich bin BUENA!"
 	para "Hast du schon von"
 	line "der Radiosendung"
 	cont "PASSWORT gehört?"
-
 	para "Wenn du mir das"
 	line "Passwort aus der"
-
 	para "Sendung nennen"
 	line "kannst, erhältst"
 	cont "du Punkte."
-
 	para "Sammle die Punkte"
 	line "und tausche sie"
-
 	para "bei diesem netten"
 	line "Mädchen da drüben"
-
 	para "gegen einen Preis"
 	line "deiner Wahl ein!"
-
 	para "Bitte schön!"
-
-	para "Das ist deine ei-"
-	line "gene Punktekarte!"
+	para "Das ist deine"
+	line "eigene"
+	cont "Punktekarte!"
 	done
+
 
 
 
 RadioTower2FBuenaTuneInToMyShowText:
 	text "BUENA: Höre dir"
-	line "meine PASSWORT-"
-	cont "SENDUNG an!"
+	line "meine"
+	cont "PASSWORT-SENDUNG"
+	cont "an!"
 	done
 
 
 
-RadioTower2FBuenaDoYouKnowPasswordText:
-	text "BUENA: Hallo! Hast"
-	line "du meine Sendung"
-	cont "gehört?"
 
+RadioTower2FBuenaDoYouKnowPasswordText:
+	text "BUENA: Hallo!"
+	line "Hast du meine"
+	cont "Sendung gehört?"
 	para "Kannst du dich an"
 	line "das Passwort von"
 	cont "heute erinnern?"
@@ -473,95 +464,89 @@ RadioTower2FBuenaDoYouKnowPasswordText:
 
 
 
+
 RadioTower2FBuenaJoinTheShowText:
 	text "BUENA: Oh, wow!"
 	line "Danke!"
-
 	para "Wie war dein Name"
 	line "doch gleich?"
-
-	para "…<PLAYER>, na!"
-
-	para "Auf, <PLAYER>."
-	line "Mach bei der"
-	cont "Sendung mit!"
+	para "…<PLAYER>, O.K.!"
+	para "Auf, <PLAYER>. Mach"
+	line "bei der Sendung"
+	cont "mit!"
 	done
+
 
 
 
 RadioTower2FBuenaEveryoneSayPasswordText:
 	text "BUENA: Alle"
 	line "fertig?"
-
 	para "Schreit das"
 	line "heutige Passwort"
 	cont "für"
-
 	para "<PLAYER> laut"
 	line "heraus!"
 	done
 
 
 
+
 RadioTower2FBuenaComeBackAfterListeningText:
 	text "BUENA: Hör dir die"
 	line "Sendung an und"
-
 	para "komme dann wieder!"
 	line "Bis später!"
 	done
 
 
 
+
 RadioTower2FBuenaAlreadyPlayedText:
 	text "BUENA: Tut mir"
-	line "leid…"
-
+	line "leid …"
 	para "Du hast pro Tag"
 	line "nur einen Versuch."
-
 	para "Probiere morgen"
 	line "wieder dein Glück!"
 	done
 
 
 
+
 RadioTower2FBuenaCorrectAnswerText:
 	text "BUENA: Juhuu! Das"
 	line "ist richtig!"
-
 	para "Du hast zugehört!"
 	line "Ich bin glücklich!"
-
 	para "Du hast dir einen"
 	line "Punkt verdient!"
 	done
 
 
 
+
 RadioTower2FBuenaDidYouForgetText:
 	text "BUENA: Argh… Das"
 	line "ist falsch…"
-
-	para "Hast du das Pass-"
-	line "wort vergessen?"
+	para "Hast du das"
+	line "Passwort"
+	cont "vergessen?"
 	done
+
 
 
 
 RadioTower2FBuenaThanksForComingText:
-	text "BUENA: Jo!"
-	line "<PLAYER>"
-
+	text "BUENA: Yo! <PLAYER>"
 	para "hat teilgenommen."
 	line "Danke dafür!"
-
 	para "Ich hoffe, dass"
 	line "alle Zuhörer auch"
-
 	para "teilnehmen! Ich"
 	line "warte!"
 	done
+
 
 
 
@@ -574,10 +559,10 @@ RadioTower2FBuenaPasswordIsHelpText:
 
 
 
+
 RadioTower2FBuenaCardIsFullText:
 	text "BUENA: Deine BLAUE"
 	line "KARTE ist voll."
-
 	para "Hol dir einen"
 	line "fantastischen"
 	cont "Preis!"
@@ -585,16 +570,16 @@ RadioTower2FBuenaCardIsFullText:
 
 
 
+
 RadioTower2FBuenaTuneInAfterSixText:
 	text "BUENA: Hört die"
 	line "PASSWORTSENDUNG"
-
 	para "täglich von sechs"
 	line "bis Mitternacht!"
-
 	para "Hört zu und"
 	line "besucht mich dann!"
 	done
+
 
 
 
@@ -602,7 +587,6 @@ RadioTower2FBuenaNoBlueCardText:
 	text "BUENA: Oh? Du hast"
 	line "deine BLAUE KARTE"
 	cont "vergessen?"
-
 	para "Ich kann dir keine"
 	line "Punkte geben, wenn"
 	cont "du sie nicht hast."
@@ -610,32 +594,27 @@ RadioTower2FBuenaNoBlueCardText:
 
 
 
-RadioTower2FBuenaOfferPhoneNumberText:
-	text "BUENA: Oh! Du"
-	line "hast"
-	cont "{d:BLUE_CARD_POINT_CAP}"
-	cont "Punkte auf"
-	cont "deiner BLAUEN"
-	cont "KARTE!"
-	cont "Das ist toll!"
 
-	para "Hmm… Es gibt zwar"
+RadioTower2FBuenaOfferPhoneNumberText:
+	text "BUENA: Oh! Du hast"
+	line "{d:BLUE_CARD_POINT_CAP} Punkte auf"
+	cont "deiner BLAUEN"
+	cont "KARTE! Das ist"
+	cont "toll!"
+	para "Hmm … Es gibt zwar"
 	line "keinen Preis für"
 	cont "das Erreichen von"
-	cont "{d:BLUE_CARD_POINT_CAP}"
-	cont "Punkten, aber…"
-
+	cont "{d:BLUE_CARD_POINT_CAP} Punkten, aber …"
 	para "Du hast mich so"
 	line "oft besucht,"
-
-	para "<PLAYER>. Ich"
-	line "mache dir ein"
+	para "<PLAYER>. Ich mache"
+	line "dir ein"
 	cont "spezielles"
 	cont "Angebot!"
-
 	para "Möchtest du meine"
 	line "Telefonnummer?"
 	done
+
 
 
 
@@ -649,10 +628,12 @@ RadioTower2FBuenaOfferNumberAgainText:
 
 
 
+
 RadioTower2FRegisteredBuenasNumberText:
 	text "<PLAYER> speichert"
 	line "BUENAs Nummer."
 	done
+
 
 
 
@@ -664,6 +645,7 @@ RadioTower2FBuenaCallMeText:
 
 
 
+
 RadioTower2FBuenaSadRejectedText:
 	text "BUENA: Argh… Ein"
 	line "Spezialpreis…"
@@ -671,13 +653,15 @@ RadioTower2FBuenaSadRejectedText:
 
 
 
+
 RadioTower2FBuenaYourPhoneIsFullText:
-	text "BUENA: <PLAYER>,"
-	line "In deinem"
-	cont "Nummernspeicher"
+	text "BUENA: <PLAYER>, In"
+	line "deinem"
+	cont "Nummern-speicher"
 	cont "ist kein Platz für"
-	cont "mich…"
+	cont "mich …"
 	done
+
 
 
 
@@ -686,10 +670,10 @@ RadioTower2FBuenaReceptionistNoCardText:
 	line "KARTE kannst du"
 	cont "keine Punkte"
 	cont "eintauschen."
-
 	para "Vergiss deine"
 	line "BLAUE KARTE nicht!"
 	done
+
 
 
 
@@ -699,13 +683,14 @@ RadioTower2FSalesSignText:
 
 
 
+
 RadioTower2FOaksPKMNTalkSignText:
 	text "PROF. EICHs"
-	line "#mon-TALK"
-
+	line "#-MON-TALK"
 	para "Die beste Show am"
 	line "Äther!"
 	done
+
 
 
 
@@ -713,6 +698,7 @@ RadioTower2FPokemonRadioSignText:
 	text "Überall, jederzeit"
 	line "#mon Radio"
 	done
+
 
 
 

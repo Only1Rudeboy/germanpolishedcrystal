@@ -179,14 +179,12 @@ FuchsiaGymGuyScript:
 
 	text "He! Ein CHAMP in"
 	line "spe!"
-
 	para "Nanu! Sieh dich"
 	line "mal um. Alle"
-
 	para "Trainer sehen aus"
-	line "wie die ARENA-"
-	cont "LEITERIN JANINA."
-
+	line "wie die"
+	cont "ARENA-LEITERIN"
+	cont "JANINA."
 	para "Welche davon ist"
 	line "die echte JANINA?"
 	done
@@ -215,78 +213,43 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Hehehehe…"
-
-	para "Es tut mir leid,"
-	line "dich enttäuschen"
-	cont "zu müssen…"
-
-	para "Ich mache nur"
-	line "Witze!"
-
-	para "Jetzt geht es"
-	line "rund!"
-
-	para "Ich bin JANINA,"
-	line "ARENALEITERIN von"
-
-	para "FUCHSANIA CITY!"
+	text "Fufufu… Ich bin"
+	line "JANINA,"
+	cont "ARENALEITERIN von"
+	cont "FUCHSANIA!"
+	para "Mein Vater KOGA"
+	line "ist bei den TOP"
+	cont "VIER…"
+	para "Aber ich bin auch"
+	line "stark! Bereit?"
 	done
-
-
-
 JanineText_ToughOne:
-	text "JANINA: Du bist"
-	line "recht stark. Ein"
-	cont "klarer Sieg für"
-	cont "dich…"
-
-	para "Nimm jetzt den"
-	line "SEELENORDEN."
+	text "Wow… du bist gut!"
+	para "Hier, der"
+	line "SEELENORDEN!"
 	done
-
-
-
 JanineText_ToxicSpeech:
-	text "JANINA: Du bist so"
-	line "stark! Ich habe"
-	cont "ein Geschenk für"
-	cont "dich!"
-
-	para "Es ist TOXIN, ein"
-	line "sehr starkes Gift,"
-
-	para "das dem Opfer"
-	line "ständig KP"
-	cont "entzieht."
+	text "Der SEELENORDEN"
+	line "lässt #mon"
+	cont "gehorsamer werden."
+	para "Nimm auch diese TM"
+	line "- TOXIN!"
 	done
-
-
-
 JanineText_ApplyMyself:
-	text "JANINA: Ich werde"
-	line "mich jetzt mehr"
-
-	para "anstrengen und"
-	line "meine Fähigkeiten"
-	cont "optimieren."
-
-	para "Ich möchte meinen"
-	line "Vater und dich"
-	cont "übertreffen!"
+	text "Ich werde noch"
+	line "härter trainieren!"
+	para "Besuche uns"
+	line "wieder, wenn du"
+	cont "magst!"
 	done
-
-
-
 LassAmandaBeforeText:
 	text "Hehehe!"
-
 	para "Ich bin JANINA,"
 	line "die ARENALEITERIN!"
-
 	para "Bin ich doch"
-	line "nicht! Reinge-"
-	cont "fallen, Blödmann!"
+	line "nicht!"
+	cont "Reingefallen,"
+	cont "Blödmann!"
 	done
 LassAmandaBeatenText:
 	text "Ich habe dich"
@@ -322,11 +285,9 @@ LassLindaAfterText:
 
 PicnickerCindyBeforeText:
 	text "Ich bin JANINA!"
-
 	para "Woher wusstest du,"
 	line "dass ich die Echte"
 	cont "bin?"
-
 	para "Auf in den Kampf!"
 	done
 

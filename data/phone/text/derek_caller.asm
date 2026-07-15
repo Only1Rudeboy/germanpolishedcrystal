@@ -37,12 +37,11 @@ DerekLostAMonText:
 	line "wildes "
 	text_ram wStringBuffer4
 	text "."
-
 	para "Aber es war nicht"
-	line "süß, also ließ ich"
-
-	para "es… #mon müssen"
-	line "süß sein!"
+	line "süß, also ließ"
+	cont "ich"
+	para "es … #mon"
+	line "müssen süß sein!"
 	done
 
 DerekHangUpText:
@@ -65,12 +64,10 @@ DerekBugCatchingContestText:
 	done
 
 DerekFoundItemText:
-	text "Ich möchte dir ein"
-	line "Nugget geben."
-
-	para "Mein Pikachu liebt"
-	line "es."
-
+	text "Ich möchte dir"
+	line "ein Nugget geben."
+	para "Mein Pikachu"
+	line "liebt es."
 	para "Dein Pikachu wird"
 	line "es auch lieben!"
 	done

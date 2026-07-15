@@ -189,13 +189,13 @@ INCLUDE "data/player/sprite_anims.asm"
 	db "Wie heißt du?@"
 
 .RivalNameString:
-	db "Rivalenname?@"
+	db "Wie heißt Rivale?@"
 
 .TrendyPhraseString:
 	db "Trendwort?@"
 
 .BoxNameString:
-	db "Boxname?@"
+	db "Name der Box?@"
 
 NamingScreen_InitText:
 	call WaitTop
@@ -1092,4 +1092,4 @@ NamingScreen_DrawBorders:
 	db NAMINGSCREEN_BORDER + 7
 
 .ShiftDelEnd:
-	db "Shift  Del   End@"
+	db "Groß  Lösch Ende@"

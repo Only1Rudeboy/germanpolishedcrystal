@@ -1,8 +1,9 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Hör mal, Liebling…"
-
+	text "Hör mal, Liebling"
+	line "…"
 	para "Erinnerst du dich"
-	line "an mein "
+	line "an mein"
+	done
 	text_ram wStringBuffer4
 	text "?"
 
@@ -63,18 +64,17 @@ ReenaHangUpText:
 
 ReenaForwardText:
 	text "Sei nicht zu"
-	line "stolz, nur weil du"
-	cont "mich"
-
-	para "besiegt hast… Das"
-	line "war Glück!"
+	line "stolz, nur weil"
+	cont "du mich"
+	para "besiegt hast …"
+	line "Das war Glück!"
 	done
 
 ReenaHurryText:
 	text "Was machst du?"
-
-	para "Ich sagte, der Ort"
-	line "ist "
+	para "Ich sagte, der"
+	line "Ort ist"
+	done
 	text_ram wStringBuffer5
 	text "!"
 

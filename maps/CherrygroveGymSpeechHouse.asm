@@ -18,32 +18,30 @@ CherrygroveGymSpeechHouse_MapScriptHeader:
 CherrygroveGymSpeechHousePokefanMText:
 	text "Möchtest du"
 	line "herausfinden, wie"
-
-	para "gut du als #-"
-	line "MON-Trainer bist?"
-
+	para "gut du als"
+	line "#mon-Trainer"
+	cont "bist?"
 	para "Dann solltest du"
-	line "alle #mon ARE-"
-	cont "NEN in JOHTO"
+	line "alle #mon-"
+	cont "ARENEN in JOHTO"
 	cont "aufsuchen und"
 	cont "ORDEN sammeln."
 	done
 
 
+
 CherrygroveGymSpeechHouseBugCatcherText:
 	text "Wenn ich älter"
 	line "bin, werde ich"
-	cont "auch ein ARENA-"
-	cont "LEITER!"
-
+	cont "auch ein"
+	cont "ARENA-LEITER!"
 	para "Ich werde meine"
 	line "#mon gegen"
-
 	para "die meiner Freunde"
 	line "antreten lassen,"
-
 	para "damit sie stärker"
 	line "werden!"
 	done
+
 
 

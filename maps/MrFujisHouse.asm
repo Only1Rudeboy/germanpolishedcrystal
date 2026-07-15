@@ -31,12 +31,12 @@ MrFujisHouseSuperNerdText:
 
 
 MrFujisHouseLassText:
-	text "Es gibt kalt-"
-	line "herzige Menschen,"
-	cont "die einfach ihre"
+	text "Es gibt"
+	line "kaltherzige"
+	cont "Menschen, die"
+	cont "einfach ihre"
 	cont "#mon im Stich"
 	cont "lassen."
-
 	para "Großvater nimmt"
 	line "die armen,"
 	cont "heimatlosen"

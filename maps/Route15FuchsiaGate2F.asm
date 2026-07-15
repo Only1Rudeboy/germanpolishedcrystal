@@ -19,7 +19,6 @@ Route15FuchsiaGate2FBinoculars1:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Die SAFARI-ZONE"
 	line "sieht üppig aus!"
 	done
@@ -29,7 +28,6 @@ Route15FuchsiaGate2FBinoculars2:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Sieht aus wie eine"
 	line "Insel!"
 	done

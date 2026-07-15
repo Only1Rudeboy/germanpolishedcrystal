@@ -49,7 +49,7 @@ MrPokemonsHouseMeetMrPokemonScene:
 	verbosegivekeyitem MYSTERY_EGG
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	blackoutmod CHERRYGROVE_CITY
-if !DEF(DEBUG)
+if!DEF(DEBUG)
 	writetext MrPokemonIntroText3
 	promptbutton
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, RIGHT
@@ -193,12 +193,12 @@ MrPokemonsHouse_OakExits:
 MrPokemonIntroText1:
 	text "Hallo! Du musst"
 	line "<PLAYER> sein."
-
 	para "PROF. LIND sagte,"
 	line "dass du"
 	cont "vorbeikommen"
 	cont "würdest."
 	done
+
 
 
 
@@ -214,21 +214,19 @@ MrPokemonIntroText2:
 
 
 
+
 MrPokemonIntroText3:
 	text "Ich kenne ein"
 	line "Paar, das eine"
-	cont "#mon-PENSION "
+	cont "#mon-PENSION"
 	cont "leitet."
-
-	para "Sie gaben mir das"
-	line "EI."
-
-	para "Ich war derart"
+	para "Sie gaben mir"
+	line "dieses EI."
+	para "Ich war so"
 	line "fasziniert, dass"
 	cont "ich PROF. LIND"
 	cont "eine E-Mail"
 	cont "schrieb."
-
 	para "Was die"
 	line "Entwicklung von"
 	cont "#mon betrifft,"
@@ -240,10 +238,12 @@ MrPokemonIntroText3:
 
 
 
+
 MrPokemonIntroText4:
 	text "Sogar PROF. EICH"
 	line "schätzt ihn sehr."
 	done
+
 
 
 
@@ -260,10 +260,10 @@ MrPokemonIntroText5:
 
 
 
+
 MrPokemonsHouse_MrPokemonHealText:
 	text "Kehrst du zu PROF."
 	line "LIND zurück?"
-
 	para "Dein #mon sieht"
 	line "müde aus. Du"
 	cont "solltest eine"
@@ -275,35 +275,34 @@ MrPokemonsHouse_MrPokemonHealText:
 
 
 
+
 MrPokemonText_OddSouvenir:
 	text "Ach! Dieses"
 	line "Souvenir!"
-
 	para "So eins habe ich"
 	line "auf meiner Reise"
-	cont "zu den Orangen"
-	cont "Inseln bekommen."
-
+	cont "zu den"
+	cont "Orangeninseln"
+	cont "bekommen."
 	para "Dort habe ich auch"
 	line "seltsam geformte"
 	cont "#mon gesehen!"
-
-	para "Hmm… Ich frage"
-	line "mich…"
-
+	para "Hmm … Ich frage"
+	line "mich …"
 	para "Gibt es einen"
 	line "Zusammenhang"
-
-	para "zwischen diesem"
-	line "Souvenir und"
-	cont "diesen ungewöhn-"
-	cont "lichen #mon?"
+	cont "zwischen diesem"
+	cont "Souvenir und"
+	para "diesen"
+	line "ungewöhnlichen"
+	cont "#mon?"
 	done
 
 MrPokemonText_ImDependingOnYou:
 	text "Ich bin auf dich"
 	line "angewiesen!"
 	done
+
 
 
 
@@ -321,73 +320,54 @@ MrPokemonText_AlwaysNewDiscoveries:
 
 
 
+
 MrPokemonsHouse_OakText1:
 	text "EICH: Aha! Du bist"
 	line "also <PLAYER>!"
-
 	para "Mein Name ist"
 	line "PROF. EICH! Ich"
 	cont "bin von Beruf"
 	cont "#mon-Forscher."
-
 	para "Ich besuche gerade"
 	line "meinen alten"
 	cont "Freund MR."
 	cont "#mon."
-
 	para "Ich hörte, du hast"
 	line "etwas für PROF."
-
-	para "LIND besorgt, also"
-	line "habe ich gewartet."
-
+	cont "LIND besorgt, also"
+	cont "habe ich gewartet."
 	para "Oh! Was ist das?"
 	line "Ein seltenes"
 	cont "#mon!"
-
 	para "Mal sehen…"
-
 	para "Hm, ich verstehe!"
-
 	para "Ich weiß, warum"
 	line "PROF. LIND dir ein"
-
-	para "#mon für die"
-	line "Besorgung gab."
-
+	cont "#mon für die"
+	cont "Besorgung gab."
 	para "Für Forscher wie"
 	line "PROF. LIND und"
-
-	para "mich sind #mon"
-	line "unsere Freunde."
-
+	cont "mich sind #mon"
+	cont "unsere Freunde."
 	para "Er erkannte, dass"
 	line "du deine #mon"
-
-	para "liebevoll und"
-	line "umsichtig"
+	cont "liebevoll und"
+	cont "umsichtig"
 	cont "umsorgst."
-
 	para "…Ah!"
-
 	para "Du scheinst"
 	line "zuverlässig zu"
 	cont "sein."
-
 	para "Möchtest du mir"
 	line "auch helfen?"
-
 	para "Dies ist die"
 	line "neueste Version"
-	cont "des #dex."
-
-	para "Er erfaßt"
+	cont "des #DEX."
+	para "Er erfasst"
 	line "automatisch Daten"
-
-	para "über #mon, die"
-	line "man gefangen oder"
-	cont "gesehen hat!"
-
+	cont "über #mon, die"
+	para "man gefangen oder"
+	line "gesehen hat!"
 	para "Er ist eine Art"
 	line "Hi-Tech-Lexikon!"
 	done
@@ -396,24 +376,22 @@ MrPokemonsHouse_OakText1:
 
 
 
+
 MrPokemonsHouse_OakText2:
 	text "Triff auf viele"
-	line "verschiedene #-"
-	cont "MON und vervoll-"
-
-	para "ständige den"
-	line "#dex!"
-
+	line "verschiedene"
+	cont "#mon und"
+	cont "vervollständige"
+	cont "den #DEX!"
 	para "Ich bin schon zu"
 	line "lange hier."
-
 	para "Ich muss nach"
 	line "DUKATIA CITY zu"
 	cont "meiner Radioshow."
-
-	para "<PLAYER>, ich"
-	line "zähle auf dich!"
+	para "<PLAYER>, ich zähle"
+	line "auf dich!"
 	done
+
 
 
 
@@ -423,31 +401,30 @@ MrPokemonText_GimmeTheScale:
 	text "Hm? Diese HAUT!"
 	line "Was ist das? Ein"
 	cont "rotes GARADOS?"
-
 	para "Das ist selten!"
-	line "Ich muss es haben…"
-
+	line "Ich muss es haben"
+	cont "…"
 	para "<PLAYER>, möchtest"
 	line "du es tauschen?"
-
 	para "Ich kann dir den"
-	line "EP-TEILER, den mir"
-
-	para "PROF. EICH gegeben"
-	line "hat, anbieten."
+	line "EP-TEILER"
+	cont "anbieten, den mir"
+	cont "PROF. EICH gab."
 	done
+
 
 
 
 
 
 MrPokemonText_GotShinyDitto:
-	text "<PLAYER> erhält"
-	line "ein #mon."
+	text "<PLAYER> erhält ein"
+	line "#mon."
 	done
 MrPokemonText_SentToPC:
 	text "Das #mon wurde"
-	line "nach "
+	line "nach"
+	done
 	text_ram wStringBuffer1
 	text "."
 	done
@@ -469,15 +446,16 @@ MrPokemonText_Disappointed:
 
 
 
+
 MrPokemonsHouse_ForeignMagazinesText:
 	text "Das sind"
 	line "ausländische"
 	cont "Zeitungen."
-
 	para "Ich kann die"
 	line "Schlagzeilen nicht"
-	cont "lesen…"
+	cont "lesen …"
 	done
+
 
 
 
@@ -493,14 +471,15 @@ MrPokemonsHouse_BrokenComputerText:
 
 
 
+
 MrPokemonsHouse_StrangeCoinsText:
 	text "Ein ganzer Stapel"
 	line "seltsamer Münzen!"
-
 	para "Vielleicht sind"
 	line "sie aus einem"
-	cont "anderen Land…"
+	cont "anderen Land …"
 	done
+
 
 
 

@@ -43,10 +43,9 @@ RadioTower3FGymGuideScript:
 	text "Für Trainer sind"
 	line "#mon geliebte"
 	cont "Partner."
-
-	para "Es ist schreck-"
-	line "lich, wie TEAM"
-
+	para "Es ist"
+	line "schrecklich, wie"
+	cont "TEAM"
 	para "ROCKET versucht,"
 	line "#mon zu"
 	cont "kontrollieren."
@@ -64,13 +63,11 @@ RadioTower3FCooltrainerFScript:
 	text "Der Boss von TEAM"
 	line "ROCKET hat sich"
 	cont "eingeschlossen."
-
-	para "Aber der INTEN-"
-	line "DANT kann öffnen."
-
+	para "Aber der"
+	line "INTEN-DANT kann"
+	cont "öffnen."
 	para "Er ist oben im"
 	line "fünften Stock."
-
 	para "Bitte rette ihn!"
 	done
 
@@ -98,6 +95,7 @@ GenericTrainerGruntM7:
 	para "Ich werde dafür"
 	line "bezahlen müssen…"
 	done
+
 GenericTrainerGruntM8:
 	generictrainer GRUNTM, 8, EVENT_BEAT_ROCKET_GRUNTM_8, GruntM8SeenText, GruntM8BeatenText
 
@@ -107,6 +105,7 @@ GenericTrainerGruntM8:
 	para "Mist! Ich hasse"
 	line "unfähige #mon!"
 	done
+
 GenericTrainerGruntM9:
 	generictrainer GRUNTM, 9, EVENT_BEAT_ROCKET_GRUNTM_9, GruntM9SeenText, GruntM9BeatenText
 
@@ -114,10 +113,10 @@ GenericTrainerGruntM9:
 	line "unseren Männern im"
 	cont "UNTERGRUND"
 	cont "vorbeigekommen?"
-
 	para "Wie hast du das"
 	line "fertiggebracht?"
 	done
+
 GenericTrainerRocketScientistMarc:
 	generictrainer ROCKET_SCIENTIST, MARC, EVENT_BEAT_ROCKET_SCIENTIST_MARC, RocketScientistMarcSeenText, RocketScientistMarcBeatenText
 
@@ -155,24 +154,23 @@ RadioTower3FSuperNerdText:
 	text "Wir haben die Rufe"
 	line "von allen"
 	cont "bekannten #mon"
-	cont "auf"
-
-	para "Tonband. Es sind"
-	line "zirka 200."
+	cont "auf Tonband. Es"
+	cont "sind zirka 200."
 	done
+
 
 
 RadioTower3FGymGuideText:
 	text "Bei uns gibt es"
 	line "rund um die Uhr"
-
-	para "Unterhaltungs-"
-	line "sendungen."
+	cont "Unterhaltungssend-"
+	cont "ungen."
 
 	para "Ich versuche auch,"
 	line "rund um die Uhr zu"
 	cont "arbeiten!"
 	done
+
 
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
@@ -182,14 +180,15 @@ RadioTower3FCooltrainerFIsDirectorSafeText:
 	done
 
 
+
 RadioTower3FCooltrainerFYoureMyHeroText:
 	text "Danke! Du bist"
 	line "mein Held!"
-
-	para "Dies ist ein"
+	para "Nimm das als"
 	line "Zeichen meiner"
 	cont "Wertschätzung."
 	done
+
 
 
 RadioTower3FCooltrainerFItsAGBCSoundsText:
@@ -205,7 +204,7 @@ RadioTower3FCooltrainerFItsAGBCSoundsText:
 	para "Spezialfunktionen"
 	line "für Tonhöhe und"
 
-	para "Tempo — die"
+	para "Tempo - die"
 	line "Steuerung ist"
 
 	para "etwas knifflig."
@@ -220,15 +219,16 @@ RadioTower3FCooltrainerFYouWereMarvelousText:
 	done
 
 
+
 GruntM7SeenText:
 	text "Mir wurden strikte"
 	line "Befehle erteilt."
-
-	para "Ich soll jeden,"
-	line "der TEAM ROCKET"
+	para "Jeden, der TEAM"
+	line "ROCKET"
 	cont "herausfordert,"
-	cont "pulverisieren!"
+	cont "pulverisiere ich!"
 	done
+
 
 
 GruntM7BeatenText:
@@ -236,12 +236,14 @@ GruntM7BeatenText:
 	done
 
 
+
 GruntM8SeenText:
-	text "Es ist ein tolles"
-	line "Gefühl, #mon"
-	cont "für Verbrechen"
-	cont "einzusetzen."
+	text "Es fühlt sich toll"
+	line "an, #mon für"
+	cont "Verbrechen"
+	cont "einzusetzen!"
 	done
+
 
 
 GruntM8BeatenText:
@@ -249,13 +251,14 @@ GruntM8BeatenText:
 	done
 
 
+
 GruntM9SeenText:
-	text "Warum hat sich der"
-	line "Rollladen"
-	cont "geöffnet? Hast du"
-	cont "etwas damit zu"
-	cont "tun?"
+	text "Warum ist der"
+	line "Rollladen offen?"
+	cont "Hast du etwas"
+	cont "damit zu tun?"
 	done
+
 
 
 GruntM9BeatenText:
@@ -263,10 +266,10 @@ GruntM9BeatenText:
 	done
 
 
+
 RocketScientistMarcSeenText:
 	text "Was macht ein"
 	line "fremdes Kind hier?"
-
 	para "Wer bist du?"
 	done
 RocketScientistMarcBeatenText:
@@ -275,10 +278,11 @@ RocketScientistMarcBeatenText:
 	cont "genommen!"
 	done
 RadioTower3FCardKeySlotText:
-	text "Dies ist der"
-	line "Schlitz für den"
-	cont "TÜRÖFFNER."
+	text "Hier steckt man"
+	line "den TÜRÖFFNER"
+	cont "hinein."
 	done
+
 
 
 InsertedTheCardKeyText:
@@ -287,14 +291,17 @@ InsertedTheCardKeyText:
 	done
 
 
+
 RadioTower3FPersonnelSignText:
 	text "2S PERSONAL"
 	done
+
 
 
 RadioTower3FPokemonMusicSignText:
 	text "#mon-MUSIK mit"
 	line "DJ BEN"
 	done
+
 
 

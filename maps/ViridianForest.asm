@@ -50,10 +50,8 @@ GenericTrainerBug_maniacDion:
 	line "machen viele"
 	cont "verschiedene"
 	cont "Geräusche."
-
 	para "Für Käfer-Fans ist"
 	line "es wichtig,"
-
 	para "sie unterscheiden"
 	line "zu können!"
 	done
@@ -63,7 +61,6 @@ GenericTrainerBug_maniacStacey:
 
 	text "Hat dir schon mal"
 	line "jemand gesagt,"
-
 	para "dass du von hinten"
 	line "wie ein VENONAT"
 	cont "aussiehst?"
@@ -83,7 +80,7 @@ GenericTrainerBug_maniacAbner:
 	generictrainer BUG_MANIAC, ABNER, EVENT_BEAT_BUG_MANIAC_ABNER, BugManiacAbnerSeenText, BugManiacAbnerBeatenText
 
 	text "Egal welches"
-	line "#mon —"
+	line "#mon-"
 
 	para "wenn du es magst,"
 	line "sieht es süß aus."
@@ -98,7 +95,8 @@ BugManiacDaneSeenText:
 	done
 
 BugManiacDaneBeatenText:
-	text "Das ist wunderbar…"
+	text "Das ist wunderbar"
+	line "…"
 	done
 
 BugManiacDionSeenText:
@@ -176,7 +174,7 @@ ViridianForestSignText3:
 	para "Pflanzen-#mon"
 	line "sind immun gegen"
 
-	para "Pulver- und"
+	para "Pulver-und"
 	line "Sporen-Attacken!"
 	done
 

@@ -1,8 +1,7 @@
 WiltonMonHasGrownText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist beeindruckend"
-
+	text "ist beeindruckend"
 	para "gewachsen! Meine"
 	line "Angelfähigkeiten"
 	cont "auch!"
@@ -41,7 +40,7 @@ WiltonBattleRematchText:
 	line "nichts."
 
 	para "Vertreib mir die"
-	line "Zeit — komm zum"
+	line "Zeit - komm zum"
 	cont "Kampf."
 	done
 
@@ -62,8 +61,8 @@ WiltonFoundItemText:
 
 WiltonHaventFoundAnythingText:
 	text "Nein, noch nichts"
-	line "gefunden, das sich"
-
+	line "gefunden, das"
+	cont "sich"
 	para "lohnt. Geduld ist"
 	line "nötig."
 	done
@@ -80,10 +79,10 @@ WiltonNotBitingText:
 	done
 
 WiltonWantThisText:
-	text "Willst du das Item"
-	line "nicht?"
-
-	para "Häh? Wo? "
+	text "Willst du das"
+	line "Item nicht?"
+	para "Häh? Wo?"
+	done
 	text_ram wStringBuffer5
 	text "… Von Mahagonia"
 	line "Richtung Eispfad!"

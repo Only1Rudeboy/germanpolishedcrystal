@@ -32,13 +32,12 @@ GenericTrainerSwimmerfBarbara:
 	generictrainer SWIMMERF, BARBARA, EVENT_BEAT_SWIMMERF_BARBARA, .SeenText, .BeatenText
 
 	text "Die Strömung zieht"
-	line "mich mit…"
+	line "mich mit …"
 	done
 
 .SeenText:
 	text "Ich habe mich kurz"
 	line "ausgeruht, aber"
-
 	para "bin immer bereit"
 	line "zu kämpfen!"
 	done
@@ -61,7 +60,6 @@ GenericTrainerBird_keeperJulian:
 	text "Ich trainiere hier"
 	line "meine"
 	cont "Flug-#mon."
-
 	para "Hilfst du mir?"
 	done
 
@@ -125,10 +123,8 @@ StormyBeachGrampsText:
 	text "Spürst du es in"
 	line "der Luft? Ein"
 	cont "Sturm zieht auf."
-
 	para "Ein passendes Omen"
 	line "für alle,"
-
 	para "die den Sumpf"
 	line "erkunden wollen."
 	done

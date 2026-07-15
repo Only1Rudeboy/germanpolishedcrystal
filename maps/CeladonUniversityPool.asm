@@ -66,16 +66,12 @@ CeladonUniversityPoolFergusScript:
 	text "Ich bin Fergus!"
 	line "Einer der vier"
 	cont "besten Trainer"
-
 	para "der Prismania-Uni."
-
 	para "Man nennt uns die"
 	line "Prismanias Vier!"
-
 	para "Ich beweise dir"
 	line "mit einem Kampf,"
 	cont "dass ich es"
-
 	para "verdient habe!"
 	done
 
@@ -147,26 +143,24 @@ CeladonUniversityPoolFergusScript:
 
 CeladonUniversityPoolLassText:
 	text "Autsch!"
-
 	para "Ich massiere einen"
 	line "Krampf im Bein."
 	done
 
 CeladonUniversityPoolSwimmer_girlText:
 	text "Ich habe mich für"
-	line "ein Spezialpro-"
-	cont "gramm beworben,"
-
+	line "ein"
+	cont "Spezialprogramm"
+	cont "beworben,"
 	para "um auf den"
 	line "Seeschauminseln zu"
 	cont "studieren!"
-
 	para "Ich muss mich auf"
 	line "hartes Schwimmen"
 	cont "vorbereiten."
 	done
 
 CeladonUniversityPoolTeacherText:
-	text "OK, noch fünf"
+	text "O.K., noch fünf"
 	line "Runden!"
 	done

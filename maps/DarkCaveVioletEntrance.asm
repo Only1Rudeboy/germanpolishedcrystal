@@ -121,7 +121,7 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Setz"
+	text "FALK: Setz"
 	line "Flügelschlag ein,"
 	cont "Pidgeotto!"
 	done
@@ -141,41 +141,34 @@ DarkCaveVioletEntranceFalknerDarkIntroText:
 	line "sein, um hier in"
 	cont "stockdunkler Nacht"
 	cont "herzukommen."
-	prompt
+	done
 
 DarkCaveVioletEntranceFalknerExplanationText:
-	text "Ich bin Falkner,"
-	line "der Arenaleiter"
-	cont "von Viola City."
-
+	text "Ich bin FALK, der"
+	line "Arenaleiter von"
+	cont "Viola City."
 	para "Ich erkunde Höhlen"
 	line "nicht zum Spaß,"
-
 	para "aber dieses"
 	line "Ursaring hat"
 	cont "Trainer"
 	cont "angegriffen,"
-
 	para "die sich nicht"
 	line "wehren konnten."
-
 	para "Als Arenaleiter"
 	line "ist es meine"
 	cont "Pflicht,"
-
 	para "so etwas zu"
 	line "regeln."
-
 	para "Du willst also"
 	line "einen Orden?"
-
 	para "Dann triff mich in"
-	line "der #mon-ARENA"
+	line "der PKMN-ARENA"
 	cont "in Viola City."
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:
-	text "Falkner: Ist da"
+	text "FALK: Ist da"
 	line "jemand?"
 
 	para "Komm nicht näher!"
@@ -186,7 +179,7 @@ DarkCaveVioletEntranceFalknerDarknessText:
 	done
 
 DarkCaveVioletEntranceFalknerProgressAnywayText:
-	text "Falkner: Ist da"
+	text "FALK: Ist da"
 	line "jemand?"
 
 	para "Ohne Licht die"

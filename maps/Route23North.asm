@@ -41,7 +41,8 @@ Route23North_MapScriptHeader:
 	const ROUTE23NORTH_OFFICER8
 
 VictoryRoadSignText:
-	text "Victory Road"
+	text "SIEGESSTRASSE"
+	line "EINGANG"
 	done
 
 Route23NorthHealOfficerScript:
@@ -59,15 +60,13 @@ Route23NorthHealOfficerScript:
 	line "erwartet dich!"
 
 	para "Gib einfach nicht"
-	line "auf, OK?"
+	line "auf, O.K.?"
 	done
 
 .IntroText:
 	text "Du musst bereit"
 	line "sein für alles auf"
-
 	para "der Siegesstraße."
-
 	para "Lass mich dir ein"
 	line "wenig Mut"
 	cont "zusprechen!"
@@ -136,10 +135,9 @@ Route23OfficerNoBadgeScript:
 
 .NoBadgeText:
 	text "Du hast das"
-	line ""
+	done
 	text_ram wStringBuffer3
-	text " noch nicht!"
-
+	text "noch nicht!"
 	para "Du brauchst es, um"
 	line "zur #mon-Liga"
 	cont "zu gelangen!"
@@ -157,7 +155,7 @@ Route23OfficerHaveBadgeScript:
 
 .SeeBadgeText:
 	text "Ach! Das ist das"
-	line ""
+	done
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -165,7 +163,8 @@ Route23OfficerHaveBadgeScript:
 Route23OfficerNeedBadgeText:
 	text "Du darfst hier nur"
 	line "passieren, wenn du"
-	cont "das "
+	cont "das"
+	done
 	text_ram wStringBuffer3
-	text " hast."
+	text "hast."
 	done

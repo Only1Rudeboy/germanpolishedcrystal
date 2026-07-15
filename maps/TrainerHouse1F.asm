@@ -25,18 +25,14 @@ TrainerHouse1F_MapScriptHeader:
 TrainerHouse1FReceptionistText:
 	text "Willkommen im"
 	line "TRAINER-HAUS, dem"
-
 	para "neuesten und"
 	line "erlebnisreichsten"
 	cont "Ort von VERTANIA"
 	cont "CITY."
-
 	para "Nur Trainer haben"
 	line "hier Zutritt."
-
 	para "Du kannst gegen"
 	line "die Besten der"
-
 	para "Besten antreten!"
 	line "Geh nur die Treppe"
 	cont "hinunter."
@@ -45,16 +41,13 @@ TrainerHouse1FReceptionistText:
 
 TrainerHouse1FCooltrainerMText:
 	text "VERTANIA CITY ist"
-	line "dem INDIGO PLATEAU"
+	line "dem INDIGO-PLATEAU"
 	cont "am nächsten."
-
 	para "Man hat diesen Ort"
 	line "erbaut, weil ihn"
-
 	para "so viele Trainer"
 	line "auf ihrem Weg zum"
-
-	para "INDIGO PLATEAU "
+	para "INDIGO-PLATEAU"
 	line "passieren."
 	done
 
@@ -75,17 +68,13 @@ TrainerHouse1FCooltrainerFText:
 TrainerHouse1FYoungsterText:
 	text "Ich nehme an, du"
 	line "kannst nur dann"
-
 	para "CHAMP werden, wenn"
 	line "du viel"
 	cont "herumkommst und so"
-
 	para "viele Kämpfe wie"
 	line "möglich austrägst."
-
 	para "Der CHAMP von"
 	line "ALABASTIA bereiste"
-
 	para "alle großen und"
 	line "kleinen Städte in"
 	cont "KANTO."
@@ -93,9 +82,9 @@ TrainerHouse1FYoungsterText:
 
 
 TrainerHouse1FGentlemanText:
-	text "Puh… Ich höre eine"
-	line "Zeit lang auf mit"
-	cont "Kämpfen."
+	text "Puh … Ich höre"
+	line "eine Zeit lang auf"
+	cont "mit Kämpfen."
 	done
 
 
@@ -116,26 +105,23 @@ TrainerHouseSign2Text:
 	text "Bei den"
 	line "Trainingskämpfen"
 	cont "gelten"
-
 	para "keine Regeln oder"
 	line "Vorgaben. Wie bei"
-
 	para "den Feldkämpfen"
 	line "ist alles erlaubt!"
 	done
 
 
 TrainerHouseIllegibleText:
-	text "…Was ist das? Eine"
-	line "strategische"
+	text "… Was ist das?"
+	line "Eine strategische"
 	cont "Notiz?"
-
-	para "Dieses Schrift-"
-	line "stück sieht aus"
-
+	para "Dieses"
+	line "Schriftstück sieht"
+	cont "aus"
 	para "wie die Spur eines"
-	line "ONIX… Völlig"
-	cont "unlesbar…"
+	line "ONIX … Völlig"
+	cont "unlesbar …"
 	done
 
 

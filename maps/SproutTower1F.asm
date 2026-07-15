@@ -34,16 +34,14 @@ SproutTower1FGrannyScript:
 	jumpthistextfaceplayer
 
 	text "Ein über 30 m"
-	line "großes KNOFENSA…"
-
+	line "großes KNOFENSA …"
 	para "Man sagt, es wurde"
 	line "die Trägersäule"
 	cont "des Turmes."
 	done
 .MetricText:
 	text "Ein über 30 m"
-	line "großes KNOFENSA…"
-
+	line "großes KNOFENSA …"
 	para "Man sagt, es wurde"
 	line "die Trägersäule"
 	cont "des Turmes."
@@ -55,18 +53,19 @@ GenericTrainerSageChow:
 	text "Die Basis jeder"
 	line "Koexistenz ist"
 	cont "Zusammenarbeit."
-
 	para "Lasst uns dies nie"
 	line "vergessen!"
 	done
+
 SageChowSeenText:
 	text "Wir bewachen"
 	line "diesen Turm."
-
-	para "In tiefster Dank-"
-	line "barkeit ehren wir"
-	cont "hier alle #mon."
+	para "In tiefster"
+	line "Dankbarkeit ehren"
+	cont "wir hier alle"
+	cont "#mon."
 	done
+
 
 
 
@@ -77,6 +76,7 @@ SageChowSeenText:
 SageChowBeatenText:
 	text "Da-Danke!"
 	done
+
 
 
 
@@ -97,10 +97,10 @@ SproutTower1FSage1Text:
 
 
 
+
 SproutTower1FSage2Text:
 	text "Der KNOFENSA-TURM"
 	line "wurde vor langer"
-
 	para "Zeit als #mon-"
 	line "Trainingsstätte"
 	cont "errichtet."
@@ -112,10 +112,10 @@ SproutTower1FSage2Text:
 
 
 
+
 SproutTower1FTeacherText:
 	text "Siehst du, wie sie"
 	line "sich bewegt?"
-
 	para "Die Trainer"
 	line "findest du oben."
 	done
@@ -126,13 +126,14 @@ SproutTower1FTeacherText:
 
 
 
-SproutTower1FStatueText:
-	text "Eine #mon-"
-	line "Statue…"
 
+SproutTower1FStatueText:
+	text "Eine"
+	line "#mon-Statue …"
 	para "Sie sieht sehr"
 	line "erhaben aus."
 	done
+
 
 
 
@@ -203,10 +204,8 @@ KimonoGirlMakoScript:
 .SeenText:
 	text "Ach, du hast meine"
 	line "fünf"
-
 	para "tanzenden Cousinen"
 	line "besiegt?"
-
 	para "Dann fordere ich"
 	line "dich und deine"
 	cont "#mon heraus!"
@@ -214,13 +213,12 @@ KimonoGirlMakoScript:
 
 .BeatenText:
 	text "Ach, du bist"
-	line "wirklich stark…"
+	line "wirklich stark …"
 	done
 
 .AfterText:
 	text "Du hast einen"
 	line "tollen Kampfgeist!"
-
 	para "Du weißt, was du"
 	line "damit anfangen"
 	cont "sollst!"

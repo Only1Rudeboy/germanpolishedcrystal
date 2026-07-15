@@ -19,7 +19,6 @@ Route12Gate2FBinoculars1:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Ein Mann beim"
 	line "Angeln!"
 	done
@@ -29,7 +28,6 @@ Route12Gate2FBinoculars2:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Das ist der"
 	line "FUNKTURM!"
 	done

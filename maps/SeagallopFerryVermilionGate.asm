@@ -256,7 +256,6 @@ SeagallopFerryMysticTicketQuestionText:
 	text "Ach! Das ist ein"
 	line "MysticTicket! Das"
 	cont "ist selten."
-
 	para "Wir bringen dich"
 	line "jederzeit gern zum"
 	cont "Navel Rock."
@@ -264,11 +263,9 @@ SeagallopFerryMysticTicketQuestionText:
 
 SeagallopFerryOldSeaMapQuestionText:
 	text "Ach! Diese Old Sea"
-	line "Map, die du hast…"
-
+	line "Map, die du hast …"
 	para "Sie zeigt eine"
 	line "ferne Insel."
-
 	para "Wir bringen dich"
 	line "jederzeit gern"
 	cont "dorthin."

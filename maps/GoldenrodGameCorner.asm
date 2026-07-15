@@ -108,7 +108,6 @@ GoldenrodGameCornerTutorPayDayScript:
 	text "Pay Day bringt dir"
 	line "nach einem Kampf"
 	cont "mehr Geld!"
-
 	para "Nutze es oft und"
 	line "wirst reich!"
 	done
@@ -345,7 +344,6 @@ GoldenrodGameCornerCardFlipMachineScript:
 
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "Willkommen!"
-
 	para "Wir tauschen deine"
 	line "Spielmünzen gegen"
 	cont "tolle Preise!"
@@ -353,10 +351,12 @@ GoldenrodGameCornerPrizeVendorIntroText:
 
 
 
+
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
 	text "Welchen Preis"
 	line "möchtest du?"
 	done
+
 
 
 
@@ -369,6 +369,7 @@ GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 GoldenrodGameCornerPrizeVendorHereYouGoText:
 	text "Hier, bitte!"
 	done
+
 
 
 
@@ -385,11 +386,13 @@ GoldenrodGameCornerPrizeVendorNoMoreRoomText:
 
 
 
+
 GoldenrodGameCornerPrizeVendorQuitText:
 	text "Sammle ein paar"
 	line "Münzen und komm"
 	cont "dann wieder!"
 	done
+
 
 
 
@@ -400,14 +403,14 @@ GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 
 
 
+
 GoldenrodGameCornerFisherText:
 	text "Heute ist Zahltag!"
 	line "Zeit zu feiern an"
 	cont "den Automaten!"
-
-	para "…Weißt du, #mon"
-	line "bekommen auch Pay"
-	cont "Day."
+	para "… Weißt du,"
+	line "#mon bekommen"
+	cont "auch Pay Day."
 	done
 
 Text_GoldenrodGameCornerTutorPayDayQuestion:
@@ -434,16 +437,17 @@ GoldenrodGameCornerPharmacistText:
 
 
 
+
 GoldenrodGameCornerPokefanM1Text:
 	text "Ich liebe diesen"
 	line "neuen Automaten."
-
 	para "Er stellt eine"
 	line "größere"
-	cont "Herausforderung"
+	cont "Herausfor-derung"
 	cont "dar als jene in"
 	cont "PRISMANIA CITY."
 	done
+
 
 
 
@@ -456,18 +460,18 @@ GoldenrodGameCornerCooltrainerMText:
 
 
 
+
 GoldenrodGameCornerPokefanFText:
-	text "Karten…"
+	text "Karten …"
 	para "Ich ziehe sie den"
 	line "Automaten vor,"
-	
 	para "weil man seine"
 	line "Chancen besser"
 	cont "abschätzen kann."
-	
 	para "Aber der Gewinn"
 	line "ist viel geringer."
 	done
+
 
 
 
@@ -478,15 +482,14 @@ GoldenrodGameCornerCooltrainerFText:
 
 
 
+
 GoldenrodGameCornerGentlemanText:
 	text "Ich habe meinen"
 	line "#mon BLIZZARD"
 	cont "beigebracht."
-
 	para "Es hat zwar"
 	line "gedauert, bis ich"
 	cont "genug"
-
 	para "Münzen hatte, aber"
 	line "es hat sich"
 	cont "gelohnt."
@@ -494,23 +497,21 @@ GoldenrodGameCornerGentlemanText:
 
 
 
+
 GoldenrodGameCornerPokefanM2Text:
 	text "Ich hatte an den"
 	line "Automaten kein"
-
 	para "Glück. Bei den"
 	line "Karten sieht es"
-
 	para "auch nicht anders"
-	line "aus…"
-
+	line "aus …"
 	para "Ich war so zornig,"
 	line "dass ich meinen"
-
 	para "MÜNZKORB in den"
 	line "UNTERGRUND"
 	cont "geworfen habe."
 	done
+
 
 
 

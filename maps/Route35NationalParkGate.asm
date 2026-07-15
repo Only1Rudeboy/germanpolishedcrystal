@@ -234,7 +234,6 @@ Route35NationalParkGateTutorCharmScript:
 
 	text "Tut mir leid, aber"
 	line "ohne ein Silber-"
-
 	para "blatt kann ich die"
 	line "Attacke nicht"
 	cont "beibringen."
@@ -249,24 +248,20 @@ Route35NationalParkGateTutorCharmScript:
 	done
 
 Route35NationalParkGateOfficer1AskToParticipateText:
-	text "Heute ist @"
-	text ". Das heißt, heute"
-
-	para "findet das Käfer-"
-	line "turnier statt."
-
+	text "Heute ist @. Das"
+	line "heißt, heute"
+	para "findet das"
+	line "Käferturnier"
+	cont "statt."
 	para "Die Regeln sind"
 	line "einfach."
-
-	para "Fange ein Käfer-"
-	line "#mon mit einem"
-	cont "deiner eigenen"
-	cont "#mon."
-
+	para "Fange ein"
+	line "Käfer-#mon mit"
+	cont "einem deiner"
+	cont "eigenen #mon."
 	para "Das Käfer-#mon"
 	line "wird dann von der"
 	cont "Jury bewertet."
-
 	para "Möchtest du es"
 	line "versuchen?"
 	done
@@ -281,39 +276,36 @@ Route35NationalParkGateOfficer1GiveParkBallsText:
 
 
 
+
 Route35NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> erhält"
-	line "{d:BUG_CONTEST_BALLS}"
-	cont "PARKBÄLLE."
+	text "<PLAYER> erhält {d:BUG_CONTEST_BALLS}"
+	line "PARKBÄLLE."
 	done
+
 
 
 
 Route35NationalParkGateOfficer1ExplainsRulesText:
 	text "Wer das stärkste"
 	line "Käfer-#mon"
-	cont "fängt, hat "
+	cont "fängt, hat"
 	cont "gewonnen."
-
-	para "Du hast"
-	line "{d:BUG_CONTEST_MINUTES}"
-	cont "Minuten Zeit."
-
+	para "Du hast {d:BUG_CONTEST_MINUTES} Minuten"
+	line "Zeit."
 	para "Wenn du keine"
 	line "PARKBÄLLE mehr"
 	cont "hast, ist das"
 	cont "Turnier beendet."
-
 	para "Du darfst das"
 	line "letzte #mon,"
 	cont "das du gefangen"
 	cont "hast, behalten."
-
 	para "Los! Fang das"
-	line "stärkste Käfer-"
-	cont "#mon, das du"
-	cont "finden kannst!"
+	line "stärkste"
+	cont "Käfer-#mon, das"
+	cont "du finden kannst!"
 	done
+
 
 
 
@@ -343,24 +335,26 @@ Route35NationalParkGateOfficer1WellHoldYourMonText:
 
 
 
+
 Route35NationalParkGatePlayersMonLeftWithHelperText:
 	text "Die #mon von"
-	line "<PLAYER> wurden"
-	cont "dem TURNIERHELFER"
+	line "<PLAYER> wurden dem"
+	cont "TURNIERHELFER"
 	cont "übergeben."
 	done
+
 
 
 
 Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
 	text "Wähle bitte das"
 	line "#mon, mit dem"
-
 	para "du im Turnier"
 	line "antreten möchtest,"
 	cont "aus und komm dann"
 	cont "wieder."
 	done
+
 
 
 
@@ -374,41 +368,35 @@ Route35NationalParkGateOfficer1TakePartInFutureText:
 
 
 
-Route35NationalParkGateOfficer1FirstMonCantBattleText:
-	text "Ach, ach… Das"
-	line "erste #mon"
 
+Route35NationalParkGateOfficer1FirstMonCantBattleText:
+	text "Oh, oh … Das erste"
+	line "#mon"
 	para "deines Teams kann"
 	line "nicht am Turnier"
 	cont "teilnehmen."
-
 	para "Tausche es bitte"
 	line "mit dem #mon"
-
 	para "aus, das am"
 	line "Turnier teilnehmen"
-
 	para "soll und komm dann"
 	line "wieder."
 	done
 
 
 
-Route35NationalParkGateOfficer1MakeRoomText:
-	text "Ach, ach… Dein"
-	line "Team und"
 
+Route35NationalParkGateOfficer1MakeRoomText:
+	text "Oh, oh… Dein Team"
+	line "und"
 	para "deine PC-BOX sind"
 	line "voll besetzt."
-
 	para "Du hast keinen"
 	line "Platz für ein"
 	cont "Käfer-#mon, das"
 	cont "du fängst."
-
 	para "Schaffe Platz in"
 	line "deinem Team oder"
-
 	para "in deiner PC-BOX"
 	line "und komm dann"
 	cont "wieder."
@@ -416,22 +404,20 @@ Route35NationalParkGateOfficer1MakeRoomText:
 
 
 
-Route35NationalParkGateOfficer1EggAsFirstMonText:
-	text "Ach, ach… Ein EI"
-	line "ist an"
 
+Route35NationalParkGateOfficer1EggAsFirstMonText:
+	text "Oh, oh … Ein EI"
+	line "ist an"
 	para "erster Stelle in"
 	line "deinem Team."
-
 	para "Tausche es bitte"
 	line "mit dem #mon,"
-
 	para "das du im Turnier"
 	line "einsetzen möchtest"
-
 	para "und komm dann"
 	line "wieder."
 	done
+
 
 
 
@@ -455,6 +441,7 @@ Route35NationalParkGateOfficer1WaitAtNorthGateText:
 
 
 
+
 Route35NationalParkGateOfficer1OkGoFinishText:
 	text "Gut. Geh bitte"
 	line "wieder zurück nach"
@@ -464,16 +451,17 @@ Route35NationalParkGateOfficer1OkGoFinishText:
 
 
 
+
 Route35NationalParkGateOfficer1ContestIsOverText:
 	text "Das heutige"
 	line "Turnier ist"
 	cont "beendet. Wir"
 	cont "hoffen,"
-
 	para "dass du wieder"
 	line "daran teilnehmen"
 	cont "wirst."
 	done
+
 
 
 
@@ -486,25 +474,23 @@ Route35NationalParkGateYoungsterText:
 
 
 
+
 BugCatchingContestExplanationText:
 	text "Das Käferturnier"
 	line "findet jeden"
-
 	para "Dienstag,"
 	line "Donnerstag und"
 	cont "Samstag statt."
-
 	para "Du erhältst nicht"
 	line "nur einen Preis"
-
 	para "allein für die"
 	line "Teilnahme, sondern"
-
-	para "auch ein Käfer-"
-	line "#mon, das du"
-
+	para "auch ein"
+	line "Käfer-#mon, das"
+	cont "du"
 	para "dort fängst."
 	done
+
 
 
 
@@ -513,12 +499,11 @@ Route35NationalParkGatePokefanFText:
 	line "kommen mit ihren"
 	cont "Trainern in den"
 	cont "Nationalpark."
-
 	para "Und sie sind alle"
 	line "so, so süß!"
-
-	para "Ja, die Käfer-"
-	line "#mon auch!"
+	para "Ja, die"
+	line "Käfer-#mon"
+	cont "auch!"
 	done
 
 Text_Route35NationalParkGateTutorCharm:
@@ -526,7 +511,6 @@ Text_Route35NationalParkGateTutorCharm:
 	line "#mon mit der"
 	cont "Attacke Charme"
 	cont "noch süßer machen."
-
 	para "Gegnerische"
 	line "#mon treffen es"
 	cont "danach auch"
@@ -536,7 +520,6 @@ Text_Route35NationalParkGateTutorCharm:
 Text_Route35NationalParkGateTutorQuestion:
 	text "Ich brauche nur"
 	line "ein Silberblatt,"
-
 	para "darf ich Charme"
 	line "beibringen? Bitte,"
 	cont "bitte?"

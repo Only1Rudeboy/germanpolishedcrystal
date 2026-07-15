@@ -21,7 +21,6 @@ BeautifulBeachVilla_MapScriptHeader:
 DarachMornDayText:
 	text "DARACH: Guten Tag."
 	line "Fräulein CAITLIN"
-
 	para "und ich genießen"
 	line "unseren Urlaub auf"
 	cont "der"

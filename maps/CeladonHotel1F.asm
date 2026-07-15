@@ -57,7 +57,6 @@ CeladonHotel1FLadyText:
 	text "Das ist meine"
 	line "erste Reise nach"
 	cont "Kanto."
-
 	para "Es gibt so viel zu"
 	line "sehen in"
 	cont "Prismania!"

@@ -25,6 +25,7 @@ Route36RuinsOfAlphGateOfficerText:
 	done
 
 
+
 Route36RuinsOfAlphGateGrampsText:
 	text "Hast du diesen"
 	line "merkwürdigen Baum"
@@ -41,5 +42,6 @@ Route36RuinsOfAlphGateGrampsText:
 	para "ALPH-RUINEN"
 	line "besuchen."
 	done
+
 
 

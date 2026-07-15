@@ -113,15 +113,12 @@ CianwoodCityChucksWife:
 	text "Du bist übers Meer"
 	line "gekommen, um"
 	cont "herzukommen?"
-
 	para "Das muss hart"
 	line "gewesen sein."
-
 	para "Es wäre viel"
 	line "einfacher, wenn"
-
 	para "dein #mon"
-	line "Fliegen könnte…"
+	line "Fliegen könnte …"
 	done
 
 CianwoodCitySuicuneApproachMovement:
@@ -160,7 +157,6 @@ ChucksWifeChubbyText:
 	cont "verloren. Also"
 	cont "muss er härter"
 	cont "trainieren."
-
 	para "Das ist auch gut"
 	line "so. Er hat in"
 	cont "letzter Zeit etwas"
@@ -169,46 +165,28 @@ ChucksWifeChubbyText:
 
 
 
+
 CianwoodCityYoungsterText:
-	text "Setzt du FLIEGEN"
-	line "ein, kannst du"
-	cont "direkt von hier"
-	cont "aus nach OLIVIANA"
-	cont "CITY reisen."
+	text "Wenn du krank"
+	line "bist, geh zur"
+	cont "APOTHEKE."
+	para "Sie hat Medizin"
+	line "für alles!"
 	done
-
-
-
 CianwoodCityPokefanMText:
-	text "Die Felsen nörd-"
-	line "lich der Stadt"
-	cont "können zerschmet-"
-	cont "tert werden."
-
-	para "Vielleicht findest"
-	line "du etwas unter"
-	cont "ihnen."
-
-	para "Deine #mon"
-	line "können ZERTRÜMME-"
-	cont "RER einsetzen, um"
-	cont "sie aus dem Weg zu"
-	cont "räumen."
+	text "Die Felsen um die"
+	line "Stadt… Die"
+	cont "ARENALEITER räumen"
+	cont "sie manchmal mit"
+	cont "roher Kraft"
+	cont "beiseite!"
 	done
-
-
-
 CianwoodCityLassText:
-	text "HARTWIG, der ARE-"
-	line "NALEITER steigt"
-
-	para "gerne mit seinen"
-	line "#mon in den"
-	cont "Ring."
+	text "HAST du schon"
+	line "HARTWIG in der"
+	cont "ARENA getroffen?"
+	para "Er ist so laut…"
 	done
-
-
-
 CianwoodCityRocketText:
 	text "Hier ist der Weg"
 	line "gesperrt!"
@@ -219,154 +197,65 @@ CianwoodCityRocketText:
 	done
 
 CianwoodCitySailorText:
-	text "Diese Höhle ist"
-	line "der einzige Weg"
-	cont "zur ROUTE 47."
+	text "Der LEUCHTTURM von"
+	line "OLIVIANA CITY"
+	cont "leuchtet über das"
+	cont "ganze Meer."
 	done
-
 CianwoodCityFisherText:
-	text "Die APOTHEKE von"
-	line "ANEMONIA CITY"
-
-	para "ist seit über 500"
-	line "Jahren im"
-
-	para "Geschäft. Das muss"
-	line "ein Rekord sein,"
-	cont "oder?"
+	text "Der Ozean ist"
+	line "rauh. Nimm genug"
+	cont "Items mit!"
 	done
-
 EusineSuicuneText:
-	text "EUSIN: Yo,"
-	line "<PLAYER>."
-
-	para "War das eben nicht"
-	line "SUICUNE?"
-
-	para "Ich habe nur einen"
-	line "Blick riskiert,"
-
-	para "aber ich dachte,"
-	line "ich hätte SUICUNE"
-
-	para "auf den Wellen"
-	line "rennen sehen."
-
-	para "SUICUNE ist schön"
-	line "und fabelhaft."
-
-	para "Und es rennt durch"
-	line "Städte und Straßen"
-
-	para "mit wahnsinniger"
-	line "Geschwindigkeit."
-
-	para "Es ist wundervoll…"
-
-	para "Ich möchte SUICUNE"
-	line "von nahem sehen…"
-
-	para "Ich habe mich"
-	line "entschieden."
-
-	para "Ich kämpfe wie ein"
-	line "Trainer, um mir"
-
-	para "SUICUNEs Respekt"
-	line "zu verdienen!"
-
-	para "Auf, <PLAYER>."
-	line "Lass uns kämpfen!"
+	text "EUSIN: SUICUNE…"
+	line "Ich habe es"
+	cont "verfolgt."
+	para "Aber du hast es"
+	line "gesehen, nicht"
+	cont "wahr? Erzähl mir"
+	cont "davon!"
 	done
-
-
-
 EusineBeatenText:
-	text "Ich hasse es, das"
-	line "zuzugeben, aber du"
-	cont "hast gewonnen."
+	text "Unglaublich… Du"
+	line "bist stark!"
 	done
-
-
-
 EusineLossText:
-	text "Ja!"
-
-	para "Suicune wird meine"
-	line "Größe jetzt"
-	cont "erkennen!"
+	text "Haha! SUICUNE"
+	line "bleibt mein Ziel!"
 	done
-
 EusineAfterText:
-	text "Du bist Wahnsinn,"
+	text "EUSIN: Ich werde"
+	line "SUICUNE weiter"
+	cont "folgen."
+	para "Wir sehen uns,"
 	line "<PLAYER>!"
-
-	para "Darum sind dir"
-	line "#mon so"
-	cont "zugetan."
-
-	para "Jetzt weiß ich's."
-
-	para "Ich werde weiter"
-	line "nach SUICUNE"
-	cont "suchen."
-
-	para "Ich bin sicher,"
-	line "dass ich ihm eines"
-	cont "Tages begegne."
-
-	para "Man sieht sich!"
 	done
-
-
-
 CianwoodCitySignText:
 	text "ANEMONIA CITY"
-
 	para "Eine Hafenstadt"
-	line "Umgeben von"
-	cont "Stürmischer See"
+	line "Umgeben von Stür-"
+	cont "mischer See"
 	done
-
-
-
 CianwoodGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "ANEMONIA CITY"
-
-	para "LEITUNG: HARTWIG"
-	line "Er spricht durch"
-
-	para "seine Fäuste"
+	cont "LEITUNG: HARTWIG"
+	para "Er spricht durch"
+	line "seine Fäuste"
 	done
-
-
-
 CianwoodPharmacySignText:
-	text "500 Jahre voller"
-	line "Tradition."
-
-	para "APOTHEKE von"
+	text "APOTHEKE von"
 	line "ANEMONIA CITY"
-
-	para "Gerne erwarten wir"
-	line "Ihre medizinischen"
-	cont "Fragen"
+	para "Für alle deine"
+	line "medizinischen"
+	cont "Bedürfnisse"
 	done
-
-
-
 CianwoodPhotoStudioSignText:
-	text "FOTOSTUDIO von"
-	line "ANEMONIA CITY"
-
-	para "Mach dir einen"
-	line "Schnappschuss zur"
-	cont "Erinnerung!"
+	text "FOTO-STUDIO"
+	para "Nimm eine"
+	line "Erinnerung mit!"
 	done
-
-
-
 CianwoodCliffEdgeGateSignText:
 	text "Steilklippen-Tor"
 
@@ -382,15 +271,12 @@ CianwoodMoveManiacSignText:
 
 CianwoodAdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Du kannst einen"
 	line "#-Ball auf ein"
-
 	para "gefangenes #mon"
 	line "anwenden, um"
 	cont "seinen Ball zu"
 	cont "ändern!"
-
 	para "Doch du bekommst"
 	line "den ursprünglichen"
 	cont "#-Ball nicht"

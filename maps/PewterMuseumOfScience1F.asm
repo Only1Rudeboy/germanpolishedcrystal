@@ -220,14 +220,11 @@ Museum1FReceptionistScript:
 	jumpthistextfaceplayer
 
 	text "Willkommen!"
-
 	para "Dank einer"
 	line "großzügigen Spende"
 	cont "von Silph Co.,"
-
 	para "ist der Eintritt"
 	line "frei!"
-
 	para "Bitte schau dich"
 	line "um."
 	done
@@ -284,10 +281,9 @@ AerodactylFossilSignpostScript:
 Museum1FScientistText:
 	text "Wir sind stolz auf"
 	line "drei Fossilien"
-
-	para "seltener, urzeit-"
-	line "licher #mon."
-
+	para "seltener,"
+	line "urzeitlicher"
+	cont "#mon."
 	para "Ich habe beim"
 	line "Zusammenbau"
 	cont "geholfen!"
@@ -296,9 +292,7 @@ Museum1FScientistText:
 Museum1FFossilScientistText:
 	text "Wusstest du, dass"
 	line "man aus Fossilien"
-
 	para "#mon herstellt?"
-
 	para "Wenn du das"
 	line "brauchst,"
 	cont "übernehme ich das!"
@@ -312,15 +306,12 @@ Museum1FGrampsText:
 Museum1FYoungsterText:
 	text "Es gibt zwei Orte,"
 	line "die ich liebe!"
-
 	para "Einer sind die"
 	line "Ruinen von Alph in"
 	cont "Johto."
-
 	para "Das andere ist das"
 	line "Museum von"
 	cont "Marmoria City!"
-
 	para "Beide haben so"
 	line "viel Geschichte!"
 	done
@@ -328,12 +319,10 @@ Museum1FYoungsterText:
 Museum1FBookshelfSignpostText:
 	text "Dicke, gut"
 	line "gelesene Bücher!"
-
-	para "Archäologie-Man-"
-	line "ual, Verlorene"
+	para "Archäologie-"
+	line "Manual, Verlorene"
 	cont "#mon,"
 	cont "#mon-Vorfahren,"
-
 	para "Pflege der"
 	line "Lehmschicht von"
 	cont "Kanto…"
@@ -360,8 +349,8 @@ AskOldAmberText:
 
 
 ResurrectingPokemonText:
-	text "OK! Ich reanimiere"
-	line "das #mon!"
+	text "O.K.! Ich reani-"
+	line "miere das #mon!"
 	done
 
 NoRoomForFossilPokemonText:

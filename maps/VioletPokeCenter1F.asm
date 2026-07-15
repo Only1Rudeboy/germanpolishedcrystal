@@ -29,17 +29,13 @@ PokemonJournalFalknerScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Leiter"
-	line "Falkner!"
-
-	para "Man sagt, Falkner"
+	line "FALK!"
+	para "Man sagt, FALK"
 	line "verehrte seinen"
-	cont "Vater, der"
-
-	para "früher die ARENA"
-	line "in VIOLA CITY"
-	cont "leitete."
+	cont "Vater, der früher"
+	para "die ARENA in VIOLA"
+	line "CITY leitete."
 	done
 
 VioletPokeCenter1FElmsAideScript:
@@ -96,54 +92,45 @@ VioletPokeCenter1FElmsAideScript:
 	setevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
 	jumpthisopenedtext
 
-	text "A-Aber… PROF. LIND"
-	line "hat nach dir"
-	cont "gefragt…"
+	text "A-Aber … PROF."
+	line "LIND hat nach dir"
+	cont "gefragt …"
 	done
 .IntroText:
 	text "<PLAYER>, lange"
 	line "nicht gesehen."
-
 	para "PROF.LIND hat mich"
 	line "gebeten, nach dir"
 	cont "zu suchen."
-
 	para "Er hat noch eine"
 	line "Bitte an dich."
-
 	para "Nimm bitte das"
 	line "#mon-EI!"
 	done
 
 .QuestionText:
-	text "<PLAYER>, nimmst"
-	line "du das EI?"
+	text "<PLAYER>, nimmst du"
+	line "das EI?"
 	done
 
 .GoodbyeText:
 	text "Wir haben"
 	line "entdeckt, dass ein"
-
 	para "#mon erst"
 	line "schlüpft, nachdem"
-
 	para "es im EI gewachsen"
 	line "ist."
-
 	para "Außerdem muss es"
 	line "sich in der Nähe"
-
 	para "anderer #mon"
 	line "befinden, um zu"
 	cont "schlüpfen."
-
 	para "<PLAYER>, du bist"
-	line "die einzige Per-"
-	cont "son, auf die wir"
-
+	line "die einzige"
+	cont "Person, auf die"
+	cont "wir"
 	para "uns verlassen"
 	line "können."
-
 	para "Bitte ruf PROF."
 	line "LIND an, wenn das"
 	cont "EI so weit ist!"
@@ -172,7 +159,6 @@ VioletPokeCenter1FElmsAideScript:
 VioletPokeCenter1FGameboyKidText:
 	text "Ein Typ namens"
 	line "BILL hat das"
-
 	para "#mon-Lager-"
 	line "System gebaut."
 	done
@@ -180,11 +166,9 @@ VioletPokeCenter1FGameboyKidText:
 VioletPokeCenter1FGentlemanText:
 	text "Es war vor etwa"
 	line "drei Jahren."
-
 	para "TEAM ROCKET hatte"
 	line "etwas Übles mit"
 	cont "den #mon vor."
-
 	para "Aber die"
 	line "Gerechtigkeit hat"
 	cont "gesiegt! Ein"
@@ -195,10 +179,8 @@ VioletPokeCenter1FSageText:
 	text "Manche Sonnkern"
 	line "tragen ein"
 	cont "Goldblatt."
-
 	para "Und manche Myrapla"
 	line "ein Silberblatt."
-
 	para "Das schätzen"
 	line "bestimmte Leute"
 	cont "sehr."
@@ -211,10 +193,8 @@ VioletPokeCenter1FYoungsterText:
 	cont "Trainern, vor"
 	cont "denen sie auch"
 	cont "Respekt haben."
-
 	para "Hat der Trainer"
 	line "nicht genug ORDEN,"
-
 	para "machen sie, was"
 	line "sie wollen."
 	done

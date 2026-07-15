@@ -26,11 +26,11 @@ VioletNicknameSpeechHouseTeacherText:
 	text "Sie verwendet die"
 	line "Namen ihrer"
 	cont "Lieblingsspeisen,"
-
 	para "als Spitznamen für"
 	line "ihre #mon,"
 	cont "meine ich."
 	done
+
 
 
 
@@ -45,14 +45,13 @@ VioletNicknameSpeechHouseLassText:
 
 
 
+
 VioletNicknameSpeechHouseGrampsText:
 	text "Das"
 	line "Zephyr-Abzeichen"
 	cont "ist nach einem"
-
 	para "alten Gott des"
 	line "Westwinds benannt."
-
 	para "Passend für eine"
 	line "Flug-Arena."
 	done
@@ -60,6 +59,7 @@ VioletNicknameSpeechHouseGrampsText:
 VioletNicknameSpeechHouseBirdText:
 	text "ERDBEERE: Taubsii!"
 	done
+
 
 
 

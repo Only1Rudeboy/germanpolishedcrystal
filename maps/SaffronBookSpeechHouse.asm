@@ -32,11 +32,10 @@ SaffronBookSpeechHouseLassText:
 SaffronBookSpeechHouseBookText:
 	text "Ein Stapel"
 	line "Geschichtenbücher."
-
 	para "Die Prinzessin und"
 	line "das #mon,"
-
-	para "Edward Scherengo-"
-	line "hands, Dr. Jekyll"
-	cont "& Mr. Mime…"
+	para "Edward"
+	line "Scherengohands,"
+	cont "Dr. Jekyll & Mr."
+	cont "Mime …"
 	done

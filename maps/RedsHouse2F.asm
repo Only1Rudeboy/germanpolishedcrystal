@@ -21,21 +21,16 @@ PokemonJournalProfOakScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: #mon"
-	line "Prof. Eich!"
-
+	line "PROF. EICH!"
 	para "Samuel Eichs"
-	line "Enkelkinder Blau"
+	line "Enkelkinder BLAU"
 	cont "und SARAH"
-
 	para "wohnen in der Nähe"
 	line "seines Labs in"
 	cont "ALABASTIA."
-
 	para "Sein Cousin Samson"
 	line "soll in"
-
 	para "weit entfernten"
 	line "Alola-Region"
 	cont "leben."
@@ -51,9 +46,8 @@ RedsHouse2FPCText:
 
 
 RedsHouse2FSNESText:
-	text "<PLAYER> spielte"
-	line "am SNES."
-
+	text "<PLAYER> spielte am"
+	line "SNES."
 	para "Los, los, keine"
 	line "Zeit zu verlieren!"
 	done

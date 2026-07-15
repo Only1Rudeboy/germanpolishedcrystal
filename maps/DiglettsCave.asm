@@ -83,10 +83,10 @@ DiglettsCaveFossilManiacScript:
 .OfferText:
 	text "Hey, super! Mal"
 	line "sehen."
-
 	para "Ich geb dir ¥"
+	done
 	text_decimal hMoneyTemp, 3, 7
-	text " dafür."
+	text "dafür."
 	line "Einverstanden?"
 	done
 
@@ -111,7 +111,6 @@ GenericTrainerHikerGerard:
 
 	text "Dieser Ort macht"
 	line "mich so nervös."
-
 	para "Was, wenn ein"
 	line "Digda mich aus dem"
 	cont "Nichts angreift?"
@@ -141,7 +140,6 @@ GenericTrainerHikerDent:
 .SeenText:
 	text "Ich gehe nach"
 	line "MARMORIA."
-
 	para "Die Gesteins-Arena"
 	line "ist perfekt für"
 	cont "einen Kerl wie"

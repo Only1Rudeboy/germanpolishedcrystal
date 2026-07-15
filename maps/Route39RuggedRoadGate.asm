@@ -49,7 +49,6 @@ Route39RuggedRoadGateSwimmerScript:
 .LovelyDay:
 	text "Schöner Tag heute,"
 	line "nicht wahr?"
-
 	para "Ich habe gehört,"
 	line "die Aussicht vom"
 	cont "Gipfel ist toll!"
@@ -59,30 +58,25 @@ Route39RuggedRoadGateSwimmerScript:
 	text "Argh! Ein"
 	line "Bootswächter hat"
 	cont "mich vom"
-
 	para "Hafen vertrieben,"
 	line "als ich am Boot"
 	cont "vorbeischwamm."
-
 	para "Und ich habe meine"
-	line "Go-Brille"
-	cont "verloren…"
-
+	line "Go-Brille verloren"
+	cont "…"
 	para "Mann, heute läuft"
 	line "einfach nichts!"
-	prompt
+	done
 
 .FoundGoggles:
 	text "Ach, du hast sie"
 	line "gefunden!"
-
 	para "Ich habe aber"
-	line "schon neue"
-	cont "gekauft…"
-
+	line "schon neue gekauft"
+	cont "…"
 	para "Hier, nimm das als"
 	line "Dankeschön!"
-	prompt
+	done
 
 .NoRoom:
 	text "Oh-oh, deine"
@@ -132,14 +126,12 @@ Route39RuggedRoadGateCannotPassMovement:
 	step_end
 
 Route39RuggedRoadGateOfficerCannotPassText:
-	text "Whoa, wohin willst"
+	text "Huch, wohin willst"
 	line "du?"
-
-	para "Der Rugged Road"
-	line "zum Snowtop"
-	cont "Mountain ist"
+	para "Die Holprige"
+	line "Straße zum"
+	cont "Schneegipfel ist"
 	cont "wirklich hart!"
-
 	para "Ohne Go-Brille"
 	line "darf ich dich"
 	cont "nicht da"
@@ -148,11 +140,8 @@ Route39RuggedRoadGateOfficerCannotPassText:
 
 Route39RuggedRoadGateOfficerText:
 	text "Der Weg zum"
-	line "Snowtop Mountain"
-	cont "kann"
-
-	para "gefährlich sein!"
-
+	line "Schneegipfel kann"
+	cont "gefährlich sein!"
 	para "Deshalb wurde dort"
 	line "ein #mon-Center"
 	cont "gebaut."

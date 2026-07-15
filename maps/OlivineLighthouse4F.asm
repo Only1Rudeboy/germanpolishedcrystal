@@ -53,7 +53,6 @@ SailorKentScript:
 
 	text "Apropos krank: Mir"
 	line "ist zu Ohren"
-
 	para "gekommen, dass es"
 	line "in ANEMONIA CITY"
 	cont "eine gute APOTHEKE"
@@ -73,11 +72,13 @@ SailorKentSeenText:
 
 
 
+
 SailorKentBeatenText:
 	text "Ich habe im Moment"
 	line "auch nichts zu"
-	cont "lachen…"
+	cont "lachen …"
 	done
+
 
 
 
@@ -86,10 +87,10 @@ SailorKentBeatenText:
 SailorKentFinalText:
 	text "Das #mon hier"
 	line "ist wieder gesund."
-
-	para "Die Anemonia-"
-	line "Apotheke hat ihren"
-	cont "Ruf bestätigt!"
+	para "Die"
+	line "Anemonia-Apotheke"
+	cont "hat ihren Ruf"
+	cont "bestätigt!"
 	done
 
 LassConnieSeenText:

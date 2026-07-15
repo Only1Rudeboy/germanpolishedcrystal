@@ -19,15 +19,13 @@ IvysHouseFaithText:
 	text "Faith: Ich"
 	line "trainiere"
 	cont "Pflanzen-#mon"
-
-	para "mit Prof. Ivy!"
+	para "mit PROF. IVY!"
 	line "Willst du kämpfen?"
 	done
 
 IvysHouseCharityText:
 	text "Charity: Faith ist"
 	line "meine Schwester."
-
 	para "Wir sind im Urlaub"
-	line "bei Prof. Ivy!"
+	line "bei PROF. IVY!"
 	done

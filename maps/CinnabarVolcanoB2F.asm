@@ -114,46 +114,35 @@ MoltresText:
 CinnabarVolcanoB2FLawrenceSpeechText:
 	text "Lawrence: Hallo"
 	line "wieder, <PLAYER>."
-
 	para "Du suchst hier"
 	line "also auch nach"
 	cont "LAVADOS? Habe ich"
 	cont "dich inspiriert?"
-
-	para "…Was?! Du hast es"
+	para "… Was?! Du hast es"
 	line "schon gefangen?"
 	cont "Unmöglich."
-
 	para "Ich habe Jahre in"
 	line "der Siegesstraße"
 	cont "und auf"
-
 	para "den Inseln südlich"
-	line "von Kanto gejagt…"
-
+	line "von Kanto gejagt …"
 	para "Warum hast du"
 	line "Erfolg, wo ich"
 	cont "scheiterte?"
-
 	para "Kannst du die"
 	line "Majestät der"
 	cont "geflügelten"
 	cont "Trugbilder"
 	cont "würdigen?"
-
 	para "Hast du je vom"
 	line "Wächter des"
-
 	para "Meeres gehört?"
-
 	para "Das ist"
 	line "inakzeptabel."
-
 	para "Triff mich am"
 	line "zerstörten Schrein"
 	cont "auf"
 	cont "Shamouti-Insel."
-
 	para "Ich zeige dir,"
 	line "dass ich diese"
 	cont "#mon verdient"

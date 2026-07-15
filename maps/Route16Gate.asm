@@ -21,15 +21,12 @@ Route16Gate_MapScriptHeader:
 Route16GateOfficerText:
 	text "Der RADWEG fängt"
 	line "hier an."
-
 	para "Es geht nur"
 	line "bergab, darum ist"
 	cont "die Fahrt so"
 	cont "erfrischend."
-
 	para "Dieses Gefühl kann"
 	line "dir kein Schiff"
-
 	para "oder Zug"
 	line "vermitteln."
 	done

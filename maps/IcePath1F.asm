@@ -49,8 +49,7 @@ SkierMariaBeatenText:
 	done
 
 BoarderStefanSeenText:
-	text "Brrr… So kalt!"
-
+	text "Brrr … So kalt!"
 	para "Lass uns mit einem"
 	line "#mon-Kampf"
 	cont "aufwärmen!"

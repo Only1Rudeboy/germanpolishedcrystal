@@ -27,12 +27,10 @@ CharcoalKilnBoss:
 	text "Alle FLEGMON sind"
 	line "aus der Stadt"
 	cont "verschwunden."
-
 	para "Der Wächter des"
 	line "Waldes ist"
 	cont "vielleicht böse"
-	cont "auf uns…"
-
+	cont "auf uns …"
 	para "Das könnte ein"
 	line "schlechtes Omen"
 	cont "sein. Wir sollten"
@@ -42,13 +40,12 @@ CharcoalKilnBoss:
 .Text2:
 
 	text "Die FLEGMON sind"
-	line "zurückgekehrt…"
-
-	para "Aber mein LEHRLING"
-	line "kam noch nicht aus"
-	cont "dem STEINEICHEN-"
-	cont "WALD zurück."
-
+	line "zurückgekehrt …"
+	para "Aber mein"
+	line "LEHR-LING kam noch"
+	cont "nicht aus dem"
+	cont "STEINEICHENWALD"
+	cont "zurück."
 	para "Wo in aller Welt"
 	line "steckt der faule"
 	cont "Kerl?"
@@ -58,11 +55,10 @@ CharcoalKilnBoss:
 
 	text "Du hast TEAM"
 	line "ROCKET vertrieben"
-
 	para "und bist allein in"
-	line "den STEINEICHEN-"
-	cont "WALD gegangen?"
-
+	line "den"
+	cont "STEIN-EICHENWALD"
+	cont "gegangen?"
 	para "Du hast ja Mut!"
 	line "Das mag ich! Komm,"
 	cont "trainiere mit uns."
@@ -94,15 +90,13 @@ CharcoalKilnApprentice:
 	text "Es tut mir leid."
 	line "Ich habe dir noch"
 	cont "nicht gedankt."
-
-	para "Das ist HOLZKOHLE,"
-	line "die ich selbst"
-	cont "gemacht habe."
-
+	para "Das ist"
+	line "HOLZ-KOHLE, die"
+	cont "ich selbst gemacht"
+	cont "habe."
 	para "Feuer-#mon"
 	line "wären froh, so"
-	cont "etwas halten zu"
-	cont "dürfen."
+	cont "etwas zu halten."
 	done
 .Text3:
 	text "Die FLEGMON sind"

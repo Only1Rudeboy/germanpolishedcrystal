@@ -4,16 +4,14 @@ AnthonyMonAteSomeBerriesText:
 
 	para ""
 	text_ram wStringBuffer4
-	text " Beeren aß."
-
+	text "Beeren aß."
 	para "Es schien die"
 	line "Mahlzeit zu"
 	cont "genießen, also"
 	cont "probierte"
-
 	para "ich auch welche."
-	line "Lecker, obwohl ich"
-
+	line "Lecker, obwohl"
+	cont "ich"
 	para "nicht sicher bin,"
 	line "ob Menschen die"
 	cont "essen sollten!"
@@ -25,15 +23,16 @@ AnthonyDefeatedMonText:
 
 	para "wilde "
 	text_ram wStringBuffer4
-	text ". Die waren leicht"
-	line "zu besiegen."
+	text ". Die waren"
+	line "leicht zu"
+	cont "besiegen."
 	done
 
 AnthonyLostAMonText:
-	text "Oh ja, ich kämpfte"
-	line "gegen ein wildes"
-
-	para ""
+	text "Oh ja, ich"
+	line "kämpfte gegen ein"
+	cont "wildes"
+	done
 	text_ram wStringBuffer4
 	text "… Es entkam, als"
 	line "ich"
@@ -43,12 +42,12 @@ AnthonyLostAMonText:
 	cont "abgelenkt wurde."
 
 	para "Lerne aus meinem"
-	line "Fehler — bleib"
+	line "Fehler - bleib"
 	cont "konzentriert!"
 	done
 
 AnthonyBattleRematchText:
-	text "Komm — lass uns"
+	text "Komm - lass uns"
 	line "jetzt kämpfen!"
 
 	para "Ich bin auf"
@@ -61,8 +60,8 @@ AnthonyBattleRematchText:
 	done
 
 AnthonyHangUpText:
-	text "Alles klar! Mach's"
-	line "gut!"
+	text "Alles klar!"
+	line "Mach's gut!"
 	done
 
 AnthonySwarmText:
@@ -85,7 +84,7 @@ AnthonySwarmText:
 	line "Gefühl, dass "
 	text_ram wStringBuffer4
 
-	para "scheu ist. Ich sah"
+	para "scheu ist. Ich"
 	line "keine, wo starke"
 	cont "#mon sind."
 	done
@@ -93,11 +92,11 @@ AnthonySwarmText:
 AnthonyWasntPayingAttentionText:
 	text "Seltene #mon?"
 
-	para "Sorry! Ich war zu"
-	line "sehr aufs Wandern"
+	para "Tut mir leid! Ich"
+	line "war zu sehr aufs"
 
-	para "konzentriert und"
-	line "hab nicht"
+	para "Wandern fixiert"
+	line "und hab nicht"
 	cont "aufgepasst."
 	done
 
@@ -115,15 +114,12 @@ AnthonyReminderText:
 	done
 
 AnthonyHurryText:
-	text "Hallo? Was? Wo ist"
-	line "Dunsparce?"
-
-	para "Dunkelhöhle! Beeil"
-	line "dich!"
-
+	text "Hallo? Was? Wo"
+	line "ist Dunsparce?"
+	para "Dunkelhöhle!"
+	line "Beeil dich!"
 	para "Wie schon gesagt:"
 	line "Dunsparce tauchen"
-
 	para "nicht auf, wenn"
 	line "starke #mon da"
 	cont "sind."

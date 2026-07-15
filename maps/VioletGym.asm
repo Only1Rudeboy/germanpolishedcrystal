@@ -67,23 +67,19 @@ VioletGymFalknerScript:
 	setevent EVENT_GOT_TM31_ROOST
 	jumpthisopenedtext
 
-	text "Mit einer VM kann"
-	line "ein #mon sofort"
-
-	para "eine neue Attacke"
-	line "lernen."
-
-	para "Eine VM kannst du"
+	text "Mit einer TM kann"
+	line "ein #mon eine"
+	cont "neue Attacke"
+	cont "lernen."
+	para "Eine TM kannst du"
 	line "so oft nutzen, wie"
 	cont "du willst."
-
-	para "VM51 enthält"
-	line "Roost."
-
-	para "Es landet am Boden"
-	line "und stellt die"
-	cont "Hälfte der max KP"
-	cont "wieder her."
+	para "TM51 enthält"
+	line "Rastplatz."
+	para "Es landet und"
+	line "stellt die Hälfte"
+	cont "der max. KP wieder"
+	cont "her."
 	done
 
 GenericTrainerBird_keeperRod:
@@ -92,47 +88,43 @@ GenericTrainerBird_keeperRod:
 	text "FALKs Fähigkeiten"
 	line "sind"
 	cont "unübertrefflich!"
-
 	para "Du solltest dich"
 	line "nicht"
 	cont "überschätzen, nur"
 	cont "weil du mich"
 	cont "geschlagen hast!"
 	done
+
 GenericTrainerBird_keeperAbe:
 	generictrainer BIRD_KEEPER, ABE, EVENT_BEAT_BIRD_KEEPER_ABE, Bird_keeperAbeSeenText, Bird_keeperAbeBeatenText
 
 	text "Das ist peinlich!"
 	line "Von einem Anfänger"
-	cont "besiegt…"
+	cont "besiegt …"
 	done
+
 VioletGymGuyScript:
 	checkevent EVENT_BEAT_FALKNER
 	iftrue_jumptextfaceplayer VioletGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Hey! Zwar bin ich"
-	line "kein Trainer, aber"
-	cont "ich kann dir gute"
-	cont "Tipps geben!"
-
-	para "Glaube mir! Wenn"
-	line "du es tust,"
-
-	para "kann dein Traum"
-	line "von der"
-	cont "Meisterschaft in"
-	cont "Erfüllung gehen."
-
+	text "Hey! Ich bin kein"
+	line "Trainer, aber ich"
+	cont "gebe gute Tipps!"
+	para "Glaube mir! Dann"
+	line "kann dein"
+	para "Traum von der"
+	line "Meisterschaft wahr"
+	cont "werden."
 	para "Du glaubst mir?"
 	line "Dann pass auf!"
-
 	para "Typ Pflanze ist"
 	line "schwach gegen Typ"
-
-	para "Flug. Das solltest"
-	line "du dir merken."
+	cont "Flug."
+	para "Das solltest du"
+	line "dir merken!"
 	done
+
 VioletGymStatue:
 	gettrainername FALKNER, 1, STRING_BUFFER_4
 	checkflag ENGINE_ZEPHYRBADGE
@@ -147,58 +139,44 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "Ich bin FALK, der"
-	line "ARENALEITER von"
-	cont "VIOLA CITY!"
-
-	para "Man sagt, dass man"
-	line "die Flügel von"
-
-	para "Flug-#mon mit"
-	line "einem elektrischen"
-
-	para "Blitz stutzen"
-	line "kann…"
-
-	para "So etwas werde ich"
-	line "niemals zulassen!"
-
-	para "Ich werde dich die"
+	line "Arenaleiter von"
+	cont "Viola City!"
+	para "Man sagt, man"
+	line "könne die Flügel"
+	cont "von Flug-#mon"
+	para "mit einem Blitz"
+	line "stutzen …"
+	para "Das lasse ich"
+	line "niemals zu!"
+	para "Ich zeige dir die"
 	line "wahre Kraft der"
-
-	para "Flug-#mon"
-	line "spüren lassen!"
+	cont "Flug-#mon!"
 	done
-
-
 
 FalknerWinLossText:
-	text "…Verflixt! Mein"
-	line "Vater hat Flug-"
-	cont "#mon geliebt…"
-
+	text "… Verflixt! Mein"
+	line "Vater liebte"
+	cont "Flug-#mon …"
 	para "Also gut. Nimm"
 	line "dies!"
-
-	para "Es ist der"
+	para "Das ist der"
 	line "offizielle"
-	cont "FLÜGELORDEN der"
-	cont "#mon LIGA."
+	cont "Zephyrorden der"
+	cont "#mon-Liga."
 	done
+
 
 
 
 FalknerZephyrBadgeText:
-	text "Der FLÜGELORDEN"
-	line "stärkt den ANGR-"
-	cont "Wert deiner"
+	text "Der Zephyrorden"
+	line "stärkt den"
+	cont "ANGR-Wert deiner"
 	cont "#mon."
-
 	para "Außerdem können"
 	line "deine #mon"
-
-	para "jederzeit BLITZ"
-	line "einsetzen."
-
+	cont "jederzeit BLITZ"
+	cont "einsetzen."
 	para "Hier - ich habe"
 	line "noch etwas für"
 	cont "dich."
@@ -206,35 +184,33 @@ FalknerZephyrBadgeText:
 
 
 
+
 FalknerFightDoneText:
 	text "In so mancher"
 	line "Stadt warten noch"
-	cont "ARENEN auf dich."
-
+	cont "Arenen auf dich."
 	para "Du solltest dein"
-	line "Können in diesen"
-	cont "ARENEN beweisen."
-
+	line "Können dort"
+	cont "beweisen."
 	para "Ich werde noch"
 	line "härter trainieren,"
-
-	para "um der größte Vo-"
-	line "gel-Experte aller"
-	cont "Zeiten zu werden!"
+	cont "um der"
+	para "größte"
+	line "Vogel-Experte"
+	cont "aller Zeiten zu"
+	cont "werden!"
 	done
+
 
 
 
 Bird_keeperRodSeenText:
 	text "Das Motto lautet:"
 	line "Courage!"
-
 	para "Sie alle hier üben"
 	line "Tag und Nacht,"
-
 	para "um Vogel-Meister-"
 	line "Trainer zu werden."
-
 	para "Komm schon!"
 	done
 Bird_keeperRodBeatenText:
@@ -253,25 +229,21 @@ Bird_keeperAbeBeatenText:
 	done
 VioletGymGuyWinText:
 	text "Netter Kampf! Mach"
-	line "weiter so und bald"
-
-	para "schon wirst du der"
-	line "CHAMP sein!"
+	line "weiter so bald"
+	cont "wirst du der Champ"
+	cont "sein!"
 	done
 VioletGymGuyFalknerAwayText:
 	text "Hey! Du kannst"
 	line "FALK gerade nicht"
 	cont "herausfordern."
-
 	para "Er ist in der"
 	line "DUNKELHÖHLE und"
 	cont "bändigt einen"
-
 	para "URSARING, das"
 	line "einen jungen"
 	cont "Trainer"
 	cont "angegriffen hat."
-
 	para "Komm später"
 	line "wieder."
 	done

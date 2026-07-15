@@ -94,7 +94,6 @@ GenericTrainerBugManiacKenta:
 	text "Team Rocket hat"
 	line "hier früher"
 	cont "herumgelungert."
-
 	para "Ich frage mich, ob"
 	line "der rothaarige"
 	cont "Junge damit etwas"
@@ -206,47 +205,36 @@ MountMoonRivalTextWin:
 	done
 
 MountMoonRivalTextAfter:
-	text "…… …… ……"
-
-	para "…Du hast fair und"
+	text "… … … … … …"
+	para "… Du hast fair und"
 	line "ehrlich gewonnen."
-
 	para "Ich geb's zu. Aber"
 	line "das ist nicht das"
 	cont "Ende."
-
 	para "Nach mehr Training"
 	line "in der"
-	cont "Drachenhöhle…"
-
+	cont "Drachenhöhle …"
 	para "werde ich der"
-	line "größte #mon-"
-	cont "Trainer aller"
-	cont "Zeiten."
-
+	line "größte"
+	cont "#mon-Trainer"
+	cont "aller Zeiten."
 	para "Denn diese hier"
 	line "stehen hinter mir."
-
-	para "…Hör zu, <PLAYER>."
-
+	para "… Hör zu, <PLAYER>."
 	para "Eines Tages werde"
 	line "ich dir"
-
 	para "beweisen, wie gut"
 	line "ich bin, indem ich"
 	cont "dich schlage."
 	done
 
 MountMoonRivalTextLoss:
-	text "…… …… ……"
-
+	text "… … … … … …"
 	para "Ich habe meine"
 	line "Schuld bei dir"
 	cont "beglichen."
-
 	para "Mit meinen #mon"
 	line "werde ich den"
-
 	para "Champ schlagen und"
 	line "der größte Trainer"
 	cont "der Welt werden."
@@ -256,7 +244,6 @@ BugManiacKentaSeenText:
 	text "Ich sah einen"
 	line "rothaarigen Jungen"
 	cont "hier"
-
 	para "trainieren. Hast"
 	line "du gegen ihn"
 	cont "gekämpft?"
@@ -299,7 +286,8 @@ BugManiacRobbySeenText:
 	done
 
 BugManiacRobbyBeatenText:
-	text "Ich habe verloren…"
+	text "Ich habe verloren"
+	line "…"
 	done
 LassIrisSeenText:
 	text "Hast du ein Piepi"

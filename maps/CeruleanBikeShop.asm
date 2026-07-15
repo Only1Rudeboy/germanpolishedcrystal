@@ -23,27 +23,21 @@ CeruleanBikeShopClerkText:
 	text "Vor langer Zeit"
 	line "fuhr ein cooler"
 	cont "Junge"
-
 	para "mit meinem Fahrrad"
 	line "herum,"
-
 	para "löste einen"
 	line "Fahrradboom aus."
-
 	para "Dann eröffnete ich"
 	line "eine Filiale in"
 	cont "DUKATIA CITY."
-
 	para "Die gingen weg wie"
 	line "heiße Semmeln!"
-
 	para "Aber in diesen"
 	line "Laden kommt"
 	cont "niemand mehr."
-
 	para "Übrig ist nur noch"
-	line "eine Fahrradpumpe…"
-
+	line "eine Fahrradpumpe"
+	cont "…"
 	para "Soll ich"
 	line "Schlauchboote"
 	cont "verkaufen?"

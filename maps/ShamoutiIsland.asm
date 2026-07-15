@@ -70,8 +70,9 @@ ShamoutiIslandAlolanExeggutorScript:
 
 .PokeFluteText:
 	text "Das #Com wurde"
-	line "neben den seltsa-"
-	cont "men Baum gelegt…"
+	line "neben den"
+	cont "seltsamen Baum"
+	cont "gelegt…"
 	done
 
 .WokeUpText:
@@ -145,6 +146,6 @@ ShamoutiHotelSignText:
 	done
 
 ShamoutiTouristCenterSignText:
-	text "Shamouti Tourist"
-	line "Center"
+	text "Shamouti"
+	line "Touristen-Info"
 	done

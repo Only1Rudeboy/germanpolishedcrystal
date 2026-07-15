@@ -19,7 +19,6 @@ Route11Gate2FBinoculars1:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Was für eine"
 	line "Aussicht!"
 	done
@@ -29,10 +28,8 @@ Route11Gate2FBinoculars2:
 
 	text "Durch das Fernglas"
 	line "geschaut."
-
 	para "Von AZURIA CITY"
 	line "nach LAVANDIA"
-
 	para "führt nur der"
 	line "FELSTUNNEL."
 	done

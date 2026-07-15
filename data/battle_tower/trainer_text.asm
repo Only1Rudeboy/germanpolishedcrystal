@@ -468,8 +468,8 @@ _BTLossF4Text:
 	done
 
 _BTWinF4Text:
-	text "Wow! Bist du jetzt"
-	line "zufrieden?"
+	text "Toll! Bist du"
+	line "jetzt zufrieden?"
 	done
 
 _BTGreetingF5Text:
@@ -601,7 +601,7 @@ _BTWinF12Text:
 	done
 
 _BTGreetingF13Text:
-	text "Kampfturnier ist"
+	text "Kampfturm ist"
 	line "ein harter Ort!"
 	done
 
@@ -722,6 +722,6 @@ BattleFactoryText_LossHead:
 	done
 
 BattleFactoryText_WinHead:
-	text "Wow! Du hast mir"
+	text "Toll! Du hast mir"
 	line "viel gezeigt!"
 	done

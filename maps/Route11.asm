@@ -33,7 +33,6 @@ GenericTrainerYoungsterOwen:
 	text "Ich habe immer"
 	line "fair und ehrenhaft"
 	cont "gekämpft."
-
 	para "Ich habe es noch"
 	line "nie bedauert."
 	done
@@ -68,7 +67,6 @@ GenericTrainerYoungsterJason:
 YoungsterJasonSeenText:
 	text "Es juckt und"
 	line "sticht, wenn ich"
-
 	para "mit meinen Shorts"
 	line "durchs Gras laufe."
 	done
@@ -140,10 +138,10 @@ GenericTrainerPsychicFidel:
 	cont "#mon glaubst."
 	done
 PsychicFidelSeenText:
-	text "Ich kann es sehen…"
-
+	text "Ich kann es sehen"
+	line "…"
 	para "Ich kann alles"
-	line "über dich sehen…"
+	line "über dich sehen …"
 	done
 
 
@@ -163,10 +161,10 @@ PsychicFidelBeatenText:
 GenericTrainerPsychicUri:
 	generictrainer PSYCHIC_T, URI, EVENT_BEAT_PSYCHIC_URI, .SeenText, .BeatenText
 
-	text "Prof. Lind gibt"
-	line "mir keinen #dex."
-	cont "Ich frag mich,"
-	cont "warum?"
+	text "PROF. LIND gibt"
+	line "mir keinen #"
+	cont "dex. Ich frag"
+	cont "mich, warum?"
 	done
 
 .SeenText:

@@ -347,10 +347,10 @@ BugCatchingContestant7BScript:
 	text "CINDY: Du hast"
 	line "gewonnen? Das ist"
 	cont "toll!"
-
 	para "Hast du Lust, mit"
-	line "mir nach Käfer-"
-	cont "#mon zu suchen?"
+	line "mir nach"
+	cont "Käfer-#mon zu"
+	cont "suchen?"
 	done
 
 
@@ -414,10 +414,10 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
 	text "Gut. Warte bitte"
 	line "hier auf die"
-
 	para "Bekanntgabe der"
 	line "Sieger."
 	done
+
 
 
 
@@ -433,15 +433,16 @@ Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
 
 
 
+
 BugCatchingContestant1BStillCompetingText:
 	text "ULI: Glück spielt"
 	line "natürlich eine"
 	cont "große Rolle dabei."
-
 	para "Man weiß nie,"
 	line "welches #mon"
 	cont "auftauchen wird."
 	done
+
 
 
 
@@ -457,10 +458,10 @@ BugCatchingContestant2BStillCompetingText:
 
 
 
+
 BugCatchingContestant3BStillCompetingText:
 	text "LARS: Vielleicht"
 	line "erhältst du eine"
-
 	para "höhere Wertung für"
 	line "ein #mon mit"
 	cont "ungewöhnlicher"
@@ -471,15 +472,16 @@ BugCatchingContestant3BStillCompetingText:
 
 
 
+
 BugCatchingContestant4BStillCompetingText:
 	text "WILHELM: Also, ich"
 	line "bin zufrieden,"
-
 	para "denn ich habe ein"
 	line "#mon gefangen,"
 	cont "das ich haben"
 	cont "wollte."
 	done
+
 
 
 
@@ -497,20 +499,20 @@ BugCatchingContestant5BStillCompetingText:
 
 
 
+
 BugCatchingContestant6BStillCompetingText:
 	text "TILL: Mit einem"
 	line "Käfer-#mon, das"
-
 	para "einen hohen Level"
 	line "hat, steigen deine"
 	cont "Gewinnchancen."
-
 	para "Ich glaube aber,"
 	line "dass auch noch"
 	cont "andere Kriterien"
 	cont "in die Bewertung"
 	cont "eingehen."
 	done
+
 
 
 
@@ -525,12 +527,14 @@ BugCatchingContestant7BStillCompetingText:
 
 
 
+
 BugCatchingContestant8BStillCompetingText:
 	text "ENNO: Ich hörte,"
 	line "dass jemand mit"
 	cont "einem RAUPY"
 	cont "gewonnen hat!"
 	done
+
 
 
 
@@ -548,13 +552,14 @@ BugCatchingContestant9BStillCompetingText:
 
 
 
+
 BugCatchingContestant10BStillCompetingText:
 	text "MICHEL: Ich habe"
 	line "viel gelernt, aber"
-
 	para "noch nicht genug,"
 	line "um zu siegen."
 	done
+
 
 
 
@@ -592,7 +597,7 @@ UnusedSilphScope2Text: ; unreferenced
 	cont "erkennen."
 	done
 Route36NationalParkGateOfficer1WellHoldPrizeText:
-	text "Ach, ach… Dein"
+	text "Oh, oh… Dein"
 	line "BEUTEL ist voll."
 
 	para "Wir bewahren"
@@ -608,14 +613,15 @@ Route36NationalParkGateOfficer1WellHoldPrizeText:
 
 
 
+
 Route36NationalParkGateOfficer1HeresThePrizeText:
 	text "<PLAYER>?"
-
 	para "Hier ist der"
 	line "Preis, den wir für"
 	cont "dich aufbewahrt"
 	cont "haben."
 	done
+
 
 
 

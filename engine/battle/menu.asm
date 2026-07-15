@@ -37,14 +37,17 @@ _BattleMenuCommon:
 
 BattleMenuDataHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 8, 12, 19, 17
+	; Wider box for DE labels (Kampf/Beutel/Flucht) + cursor.
+	; left=4 → text starts at x=6 (bit7 cursor pad), spacing 7 →
+	; col2 at x=13; "Flucht"/"Beutel" (6) end at x=18 inside right border.
+	menu_coords 4, 12, 19, 17
 	dw .MenuData2
 	db 1 ; default option
 
 .MenuData2:
-	db $87 ; flags
+	db $87 ; flags (bit7 = extra left room for ▶)
 	dn 2, 2 ; rows, columns
-	db 6 ; spacing
+	db 7 ; spacing (was 6; too tight for 6-letter DE words)
 	dba .Strings
 	dbw BANK(.MenuData2), 0
 
@@ -56,7 +59,7 @@ BattleMenuDataHeader:
 
 ContestBattleMenuDataHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 5, 12, 19, 17
+	menu_coords 4, 12, 19, 17
 	dw .MenuData2
 	db 1 ; default option
 
@@ -74,7 +77,8 @@ ContestBattleMenuDataHeader:
 	db "Flucht@"
 
 ShowParkBallsRemaining:
-	hlcoord 12, 16
+	; "Ball×  @" starts at text_x = left+2 = 6; digits overwrite the two spaces after ×
+	hlcoord 11, 16
 	ld de, wParkBallsRemaining
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	jmp PrintNum

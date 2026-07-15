@@ -83,17 +83,13 @@ EmbeddedTowerSteven1IntroText:
 	line "Steven. Seltene"
 	cont "Steine sind meine"
 	cont "Leidenschaft."
-
 	para "Ich komme aus der"
 	line "Hoenn-Region. Ein"
 	cont "schöner Ort,"
-
 	para "mit dem klarsten"
 	line "Meer, das man sich"
 	cont "vorstellen"
-
 	para "kann."
-
 	para "Du solltest sie"
 	line "mal besuchen."
 	done
@@ -103,14 +99,11 @@ EmbeddedTowerSteven1TowerText:
 	line "hier auf der Suche"
 	cont "nach Steinen für"
 	cont "meine Sammlung."
-
 	para "Das ist der"
 	line "Embedded Tower."
-
 	para "Er wurde von"
 	line "Leuten aus Hoenn"
 	cont "erbaut,"
-
 	para "um Meer, Land und"
 	line "Himmel zu"
 	cont "vereinen."
@@ -133,7 +126,6 @@ EmbeddedTowerSteven1ChallengeText:
 	text "Steven: Deine"
 	line "#mon sehen gut"
 	cont "aus."
-
 	para "Da wir beide hier"
 	line "sind, warum"
 	cont "kämpfen wir nicht?"
@@ -169,27 +161,20 @@ EmbeddedTowerSteven2WinText:
 EmbeddedTowerSteven1ItemText:
 	text "Steven:"
 	line "Glückwunsch!"
-
 	para "Die Gefühle, die"
-	line "du für deine"
-	cont "#mon hast…"
-
+	line "du für #mon"
+	cont "hast …"
 	para "Und die #mon,"
 	line "die mit aller"
-
 	para "Kraft auf diese"
-	line "Gefühle"
-	cont "reagierten…"
-
+	line "Gefühle reagierten"
+	cont "…"
 	para "Sie wurden eins"
 	line "und schufen"
-
 	para "eine noch größere"
 	line "Kraft."
-
 	para "So konntest du den"
 	line "Sieg erringen!"
-
 	para "Dieses Item wird"
 	line "dir sicher helfen."
 	done
@@ -204,18 +189,14 @@ EmbeddedTowerSteven2ChallengeText:
 	text "Steven: Wir sehen"
 	line "uns wieder,"
 	cont "<PLAYER>!"
-
 	para "Ich hab tolle"
 	line "Steine für meine"
 	cont "Sammlung gefunden."
-
 	para "Was hast du"
 	line "gemacht?"
-
 	para "Du hast die TOP"
 	line "VIER wieder"
 	cont "besiegt? Toll!"
-
 	para "Warum nicht noch"
 	line "ein Kampf?"
 	done

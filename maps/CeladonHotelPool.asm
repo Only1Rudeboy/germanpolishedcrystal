@@ -32,7 +32,8 @@ CeladonHotelPoolSwimmerMScript:
 
 .Text2:
 	text "Das ist ein sehr"
-	line "entspannendes Bad…"
+	line "entspannendes Bad"
+	cont "…"
 	done
 
 .Text1:
@@ -48,7 +49,6 @@ CeladonHotelPoolSwimmerMScript:
 CeladonHotelPoolPokefanMText:
 	text "Nun, ich bin"
 	line "beeindruckt."
-
 	para "Die Anlagen dieses"
 	line "Hotels sind"
 	cont "unübertroffen!"

@@ -29,7 +29,6 @@ GenericTrainerArtistRin:
 	text "Von diesen Inseln"
 	line "geht eine seltsame"
 	cont "Kraft aus."
-
 	para "Ich möchte das in"
 	line "meinem Bild"
 	cont "festhalten."
@@ -38,7 +37,6 @@ GenericTrainerArtistRin:
 .SeenText:
 	text "Ich male die drei"
 	line "Inseln!"
-
 	para "Bitte versperr mir"
 	line "nicht die Sicht!"
 	done
@@ -59,8 +57,7 @@ TrainerSwimmerfMarina:
 	text "Wäre ich auf einer"
 	line "einsamen Insel"
 	cont "gestrandet, würde"
-	cont "ich…"
-
+	cont "ich …"
 	para "natürlich meine"
 	line "#mon mitnehmen!"
 	done
@@ -84,7 +81,6 @@ GenericTrainerFisherDallas:
 	text "Egal wo ich angle,"
 	line "ich hole immer nur"
 	cont "Kronkorken raus."
-
 	para "Das macht mich"
 	line "wahnsinnig!"
 	done
@@ -117,7 +113,6 @@ GenericTrainerSightseerfPilar:
 .SeenText:
 	text "Hallo! Ich bin von"
 	line "weit her gekommen."
-
 	para "Wie wäre es mit"
 	line "einem Kampf?"
 	done
@@ -175,7 +170,6 @@ TrainerSwimmermAshe:
 	line "konnte ich noch"
 	cont "gar nicht"
 	cont "schwimmen."
-
 	para "Jetzt mache ich es"
 	line "so oft, dass ich"
 	cont "mich kaum noch an"
@@ -190,5 +184,5 @@ TrainerSwimmermAshe:
 
 .BeatenText:
 	text "Ich habe da so ein"
-	line "flaues Gefühl…"
+	line "flaues Gefühl …"
 	done

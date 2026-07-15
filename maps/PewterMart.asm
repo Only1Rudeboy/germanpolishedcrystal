@@ -20,11 +20,10 @@ PewterMartYoungsterText:
 	text "Hallo! Mach doch"
 	line "Bekanntschaft mit"
 	cont "meinem GARADOS!"
-
 	para "Ich habe es als"
-	line "KARPADOR auf-"
-	cont "gezogen. Kaum zu"
-
+	line "KARPADOR"
+	cont "aufgezogen. Kaum"
+	cont "zu"
 	para "glauben, wie stark"
 	line "es geworden ist."
 	done
@@ -36,10 +35,8 @@ PewterMartSuperNerdText:
 	line "komischen, alten"
 	cont "Mann, der KARPADOR"
 	cont "verkaufte."
-
 	para "Er sagte immer,"
 	line "die KARPADOR im"
-
 	para "SEE DES ZORNS"
 	line "seien"
 	cont "außergewöhnlich."

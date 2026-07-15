@@ -156,18 +156,14 @@ PokefanF_AcrobaticsFarmer:
 FarmerMText_SickCow:
 	text "Mein MILTANK gibt"
 	line "keine Milch mehr."
-
 	para "Diese FARM ist"
 	line "berühmt für die"
 	cont "Milch, die hier"
 	cont "produziert wird."
-
 	para "Fast jeder trinkt"
 	line "sie gern."
-
 	para "Es würde mir viel"
 	line "Milch geben, wenn"
-
 	para "ich es mit vielen"
 	line "BEEREN füttern"
 	cont "würde. Glaube ich"
@@ -178,22 +174,20 @@ FarmerMText_SickCow:
 
 
 
+
 FarmerMText_BuyMilk:
 	text "Wie findest du die"
 	line "MILCH von meinem"
 	cont "MILTANK?"
-
 	para "Sie ist mein"
 	line "ganzer Stolz."
-
 	para "Gib sie einem"
 	line "#mon, um dessen"
 	cont "KP aufzufrischen!"
-
 	para "Ich gebe sie dir"
-	line "für nur ¥"
-	cont "{d:ROUTE39FARMHOUSE_MILK_PRICE}."
+	line "für nur ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
 	done
+
 
 
 
@@ -204,6 +198,7 @@ FarmerMText_GotMilk:
 	line "aus und genieße"
 	cont "es!"
 	done
+
 
 
 
@@ -225,10 +220,12 @@ FarmerFText_HealedMiltank:
 
 
 
+
 Text_ReceivedTM13: ; unreferenced
 	text "<PLAYER> erhält"
 	line "TM13."
 	done
+
 
 
 

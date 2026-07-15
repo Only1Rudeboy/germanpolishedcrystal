@@ -28,8 +28,7 @@ GenericTrainerSwimmermWalter:
 	generictrainer SWIMMERM, WALTER, EVENT_BEAT_SWIMMERM_WALTER, SwimmermWalterSeenText, SwimmermWalterBeatenText
 
 	text "Die Sonne spiegelt"
-	line "sich im Wasser —"
-
+	line "sich im Wasser -"
 	para "und ich hab mich"
 	line "trotzdem"
 	cont "verbrannt!"
@@ -57,16 +56,13 @@ GenericTrainerBird_keeperBryan:
 
 	text "Manche #mon"
 	line "rennen sofort weg."
-
 	para "Versuche, sie mit"
 	line "KURTs TURBOBALL"
-	cont "einzufangen. "
-
+	cont "einzufangen."
 	para "Sobald ich eine"
 	line "APRIKOKO WSS"
 	cont "finde, bringe ich"
 	cont "sie zu KURT."
-
 	para "Er macht dann"
 	line "daraus einen"
 	cont "maßgefertigten"
@@ -107,15 +103,14 @@ GenericTrainerLassRose:
 	text "Du hast meine"
 	line "armen Welt-#mon"
 	cont "verletzt!"
-
 	para "Heile sie in einem"
 	line "#mon-Center!"
 	done
 
 SwimmermWalterSeenText:
-	text "Ich hab Sonnen-"
-	line "creme vergessen"
-
+	text "Ich hab"
+	line "Sonnencreme"
+	cont "vergessen"
 	para "und verstecke mich"
 	line "hinter diesen"
 	cont "Felsen."
@@ -161,9 +156,7 @@ SrandjrBeaandmay1SeenText:
 	text "Bea: Starke"
 	line "#mon mag ich"
 	cont "lieber als"
-
 	para "niedliche #mon."
-
 	para "Zusammen haben wir"
 	line "aber niedliche und"
 	cont "starke #mon!"
@@ -178,10 +171,8 @@ SrandjrBeaandmay1BeatenText:
 SrandjrBeaandmay2SeenText:
 	text "May: Niedliche"
 	line "#mon mag ich"
-
 	para "lieber als starke"
 	line "#mon."
-
 	para "Zusammen haben wir"
 	line "starke und"
 	cont "niedliche #mon!"

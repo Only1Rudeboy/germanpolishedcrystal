@@ -12,7 +12,7 @@ ChadObservingWildText:
 	line "könnte bald ein"
 
 	para "#mon-Forscher"
-	line "wie Prof. Eich"
+	line "wie PROF. EICH"
 	cont "werden."
 	done
 
@@ -34,23 +34,23 @@ ChadLostAMonText:
 	line "fast ein wildes"
 	cont ""
 	text_ram wStringBuffer4
-	text " gefangen."
-
-	para "Schon lange wollte"
-	line "ich "
+	text "gefangen."
+	para "Schon lange"
+	line "wollte ich"
+	done
 	text_ram wStringBuffer4
-	text " beobachten. Mist…"
+	text "beobachten. Mist"
+	line "…"
 	done
 
 ChadBattleRematchText:
 	text "Lust zu kämpfen?"
-	line "Ich muss ab und zu"
-
+	line "Ich muss ab und"
+	cont "zu"
 	para "kämpfen, sonst"
 	line "rostet man ein."
-
 	para "Ich bin auf"
-	line ""
+	done
 	text_ram wStringBuffer5
 	text "!"
 	done
@@ -60,18 +60,17 @@ ChadHangUpText:
 	done
 
 ChadBlueGossipText:
-	text "Kennst du Blau?"
-
-	para "Er ist Prof. Eichs"
-	line "Enkel und"
+	text "Kennst du BLAU?"
+	para "Er ist Prof."
+	line "Eichs Enkel und"
 	cont "ehemaliger"
 	cont "Liga-Champion!"
-
-	para "Ein super Trainer!"
+	para "Ein super"
+	line "Trainer!"
 	done
 
 ChadDaisyGossipText:
-	text "Prof. Eich hat"
+	text "PROF. EICH hat"
 	line "eine Enkelin"
 	cont "namens Daisy."
 
@@ -84,18 +83,18 @@ ChadDaisyGossipText:
 
 ChadProfElmGossipText:
 	text "Alle reden über"
-	line "Prof. Lind."
+	line "PROF. LIND."
 
 	para "Er war Assistent"
 	line "des großen"
-	cont "Prof. Eich!"
+	cont "PROF. EICH!"
 
 	para "So cool! Ich"
 	line "beneide ihn!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "Prof. Eichs Traum"
+	text "PROF. EICHs Traum"
 	line "ist ein"
 	cont "vollständiger"
 	cont "#dex."
@@ -106,54 +105,46 @@ ChadProfOaksDreamGossipText:
 	done
 
 ChadKurtGossipText:
-	text "Kennst du Kurt,"
+	text "Kennst du KURT,"
 	line "den Ballmacher?"
-
-	para "Er und Prof. Eich"
+	para "Er und PROF. EICH"
 	line "kennen sich schon"
 	cont "lange."
-
-	para "Große Leute ziehen"
-	line "sich an!"
+	para "Große Leute"
+	line "ziehen sich an!"
 	done
 
 ChadLeagueGossipText:
 	text "Die #mon-Liga"
 	line "ist der große"
-
 	para "Treffpunkt aller"
-	line "Trainer, die Champ"
-
+	line "Trainer, die"
+	cont "Champ"
 	para "werden wollen."
-	line "Prof. Eich berät"
-
+	line "PROF. EICH berät"
 	para "den Hauptsitz der"
 	line "#mon-Liga."
-
 	para "Er ist wirklich"
 	line "großartig."
 	done
 
 ChadPokemonTalkGossipText:
-	text "Prof. Eichs #mon"
-	line "Talk ist eine"
-
+	text "PROF. EICHs"
+	line "#mon Talk ist"
 	para "beliebte Sendung,"
-	line "oder? Wusstest du,"
-
+	line "oder? Wusstest"
+	cont "du,"
 	para "er wollte sie"
 	line "zuerst ablehnen?"
-
-	para "Marys Energie und"
+	para "MARYs Energie und"
 	line "Hartnäckigkeit"
-
 	para "überzeugten ihn."
 	line "Wir verdanken es"
-	cont "Mary!"
+	cont "MARY!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "Prof. Eich war"
+	text "PROF. EICH war"
 	line "früher Trainer."
 
 	para "Aber #mon"
@@ -168,44 +159,40 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof. Eich hat"
+	text "PROF. EICH hat"
 	line "eine Enkelin"
 	cont "namens Daisy."
-
-	para "Sie trinkt täglich"
-	line "eine Stunde Tee ab"
-
+	para "Sie trinkt"
+	line "täglich eine"
+	cont "Stunde Tee ab"
 	para "drei Uhr"
 	line "nachmittags."
-
 	para "Ich wünschte, ich"
-	line "könnte mit ihr Tee"
-
+	line "könnte mit ihr"
+	cont "Tee"
 	para "trinken und über"
-	line "Prof. Eich reden."
+	line "PROF. EICH reden."
 	done
 
 ChadProfOakTravelingGossipText:
 	text "Wusstest du?"
-	line "Prof. Eich reiste"
-
+	line "PROF. EICH reiste"
 	para "in seiner Jugend"
 	line "um die Welt."
-
 	para "Dabei lernte er"
 	line "viel über #mon."
-
-	para "Ich beneide ihn…"
+	para "Ich beneide ihn …"
 	line "Ich will auch"
-	cont "reisen und lernen!"
+	cont "reisen und"
+	cont "lernen!"
 	done
 
 ChadGoingToStudyHardText:
-	text "Ich lerne fleißig,"
-	line "damit Prof. Eich"
-
-	para "mich als Assistent"
-	line "nimmt!"
+	text "Ich lerne"
+	line "fleißig, damit"
+	cont "PROF. EICH"
+	para "mich als"
+	line "Assistent nimmt!"
 	done
 
 ChadReminderText:
@@ -217,6 +204,6 @@ ChadReminderText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Beeil dich — ich"
+	para "Beeil dich - ich"
 	line "warte!"
 	done

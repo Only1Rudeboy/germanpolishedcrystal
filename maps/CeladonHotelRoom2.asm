@@ -52,37 +52,31 @@ MrHyperScript:
 .TextIntro:
 	text "Ich bin Mr."
 	line "Super-Spezial!"
-
 	para "Weißt du auch"
 	line "warum?"
-
 	para "Weil ich #mon"
 	line "beim Super-"
 	cont "Spezialtraining"
 	cont "helfe!"
-
 	para "Es lässt ein"
 	line "#mon, dessen"
 	cont "Fleiß-Werte"
 	cont "maximal sind, noch"
 	cont "stärker werden!"
-
 	para "Dieses Training"
 	line "verbessert ihre"
 	cont "Statuswerte."
-
 	para "Wenn du willst,"
 	line "trainiere ich dein"
-	cont "#mon, bring mir"
-	cont "ein paar"
-	cont "Kronkorken"
+	cont "#mon, mir ein"
+	cont "paar Kronkorken"
 	done
 
 .TextAskTrain:
 	text "Na, wie klingt's?"
 	line "Willst du mein"
-	cont "Super-Spezial-"
-	cont "training"
+	cont "Super-"
+	cont "Spezialtraining"
 	cont "probieren?"
 	done
 
@@ -102,7 +96,7 @@ MrHyperScript:
 .TextGotStronger:
 	text "Fertig! Das"
 	line "Training steigerte"
-	cont ""
+	done
 	text_ram wStringBuffer1
 	text "s Werte!"
 	done

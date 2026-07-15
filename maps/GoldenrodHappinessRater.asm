@@ -66,7 +66,6 @@ GoldenrodHappinessRaterTeacherScript:
 	line "dich! Es könnte"
 	cont "dich nicht mehr"
 	cont "lieben."
-
 	para "Schon beim Anblick"
 	line "werde ich"
 	cont "glücklich! ♥"
@@ -132,10 +131,8 @@ GoldenrodHappinessRaterTeacherScript:
 GoldenrodHappinessRaterAskCheckText:
 	text "Wenn du deine"
 	line "#mon gut"
-
 	para "behandelst, lieben"
 	line "sie dich zurück."
-
 	para "Soll ich die"
 	line "Zuneigung deines"
 	cont "#mon prüfen?"
@@ -144,13 +141,10 @@ GoldenrodHappinessRaterAskCheckText:
 GoldenrodHappinessRaterTeacherText:
 	text "Behandelst du"
 	line "deine #mon gut,"
-
 	para "werden sie dich"
 	line "regelrecht lieben."
-
 	para "Oh! Lass mich dein"
-	line "@"
-	text " sehen…"
+	line "@ sehen …"
 	done
 
 
@@ -161,16 +155,15 @@ GoldenrodHappinessRaterTeacherText:
 GoldenrodHappinessRaterPokefanMText:
 	text "Ständig verliere"
 	line "ich in Kämpfen und"
-
 	para "meine #mon"
 	line "werden immer"
-	cont "besiegt…"
-
+	cont "besiegt …"
 	para "Das mag der Grund"
 	line "sein, warum mich"
 	cont "meine #mon"
-	cont "nicht mögen…"
+	cont "nicht mögen …"
 	done
+
 
 
 
@@ -183,6 +176,7 @@ GoldenrodHappinessRaterTwinText:
 	cont "gebe, dann freut"
 	cont "es sich!"
 	done
+
 
 
 

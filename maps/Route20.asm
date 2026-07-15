@@ -99,7 +99,6 @@ GenericTrainerSwimmerfMayu:
 .SeenText:
 	text "Mmph? Mmmph"
 	line "mmmmphh?"
-
 	para "Mmmmph mmmmmppphh!"
 	done
 
@@ -110,18 +109,17 @@ GenericTrainerSwimmerfMayu:
 GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
-	text "Deine #mon--"
-	line "folgst du dem"
-
-	para "neuesten Team-"
-	line "Trend?"
+	text "Deine"
+	line "#mon--folgst du"
+	cont "dem"
+	para "neuesten"
+	line "Team-Trend?"
 	done
 
 .SeenText:
 	text "Schau! Mein bester"
 	line "Badeanzug und mein"
 	cont "bestes"
-
 	para "#mon!"
 	done
 
@@ -161,8 +159,8 @@ GenericTrainerSwimmermLuis:
 
 	text "Alles klar!"
 	line "Nächstes Mal trag"
-	cont "ich Party-"
-	cont "Badeshorts!"
+	cont "ich"
+	cont "Party-Badeshorts!"
 	done
 
 .SeenText:
@@ -181,7 +179,8 @@ GenericTrainerSwimmermElmo:
 	generictrainer SWIMMERM, ELMO, EVENT_BEAT_SWIMMERM_ELMO, .SeenText, .BeatenText
 
 	text "Vielleicht sollte"
-	line "ich wieder angeln…"
+	line "ich wieder angeln"
+	cont "…"
 	done
 
 .SeenText:
@@ -230,7 +229,6 @@ GenericTrainerPicnickerAdrian:
 
 .SeenText:
 	text "Hast du es eilig?"
-
 	para "Wie wärs mit einer"
 	line "kurzen Kampfpause?"
 	done
@@ -305,7 +303,7 @@ CinnabarGymSignText:
 	text "Was steht auf"
 	line "diesem Schild?"
 
-	para "#mon-ARENA der"
+	para "PKMN-ARENA der"
 	line "ZINNOBERINSEL"
 
 	para "LEITUNG: PYRO"

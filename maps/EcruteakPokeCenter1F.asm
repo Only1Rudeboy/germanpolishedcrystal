@@ -29,31 +29,24 @@ PokemonJournalMortyScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial:"
 	line "ARENA-LEITER JENS!"
-
-	para "Jens behauptet,"
+	para "JENS behauptet,"
 	line "Entei einmal"
-
 	para "gesehen zu haben."
 	line "Er sagt:"
-
-	para "“Es war unglaub-"
-	line "lich. Entei sah"
-
+	para "'Es war"
+	line "unglaublich. Entei"
+	cont "sah"
 	para "mich direkt an."
-
 	para "Ich werde seine"
 	line "Augen nie"
 	cont "vergessen. Es war,"
-
 	para "als könnte es"
 	line "direkt durch mich"
-
 	para "bis in die Tiefen"
 	line "meines Herzens"
-	cont "sehen…"
+	cont "sehen …"
 	done
 
 EcruteakPokeCenter1FBillScript:
@@ -101,16 +94,13 @@ EcruteakPokeCenter1FBillScript:
 	done
 .IntroText:
 	text "Hallo, ich bin"
-	line "Bill. Und wer bist"
+	line "BILL. Und wer bist"
 	cont "du?"
-
 	para "Hmm, <PLAYER>, hm?"
 	line "Du kommst gerade"
 	cont "recht."
-
 	para "Die ZEITKAPSELN"
 	line "sind total kaputt,"
-
 	para "und ich bräuchte"
 	line "deine Hilfe."
 	done
@@ -118,17 +108,14 @@ EcruteakPokeCenter1FBillScript:
 .QuestionText:
 	text "BILL: Dieses EVOLI"
 	line "kam kurz"
-
-	para "bevor die ZEIT-"
-	line "KAPSEL ausfiel."
-
+	para "bevor die"
+	line "ZEIT-KAPSEL"
+	cont "ausfiel."
 	para "Jemand muss sich"
 	line "darum kümmern,"
-
 	para "aber ich mag es"
 	line "nicht, draußen zu"
 	cont "sein."
-
 	para "Kann ich auf dich"
 	line "zählen, dass du"
 	cont "mit ihm spielst,"
@@ -138,14 +125,11 @@ EcruteakPokeCenter1FBillScript:
 .YesText:
 	text "BILL: Ich wusste,"
 	line "dass du es"
-
 	para "schaffst! Noch ein"
 	line "kleines Stück! Du"
 	cont "bist einzigartig!"
-
 	para "O.K., ich zähle"
 	line "auf dich."
-
 	para "Pass auf dich auf!"
 	done
 .GoodbyeText:
@@ -201,7 +185,7 @@ EcruteakPokeCenter1FBillScript:
 	jmp CloseSRAM
 
 .EeveeMailOTID:
-	rawchar "Prof.Oak@@"
+	rawchar "PROF. EICH@@"
 	bigdw 00001
 .EeveeMailOTIDEnd
 
@@ -223,15 +207,12 @@ EcruteakPokeCenter1FPokefanMScript:
 	line "mehr Kämpfe zu"
 	cont "erleben, nicht"
 	cont "wahr?"
-
-	para "Es gibt offen-"
-	line "sichtlich einen"
-
+	para "Es gibt"
+	line "offensichtlich"
+	cont "einen"
 	para "Ort, an dem sich"
 	line "Trainer treffen."
-
 	para "Wo, fragst du?"
-
 	para "Kurz nach OLIVIANA"
 	line "CITY."
 	done
@@ -247,11 +228,9 @@ EcruteakPokeCenter1FLassScript:
 
 	text "Ich hörte einmal,"
 	line "dass BILLs Mutter"
-
-	para "früher eine KIMO-"
-	line "NO-GIRL war."
+	para "früher eine"
+	line "KIMO-NO-GIRL war."
 	cont "Vielleicht deshalb"
-
 	para "besucht er diesen"
 	line "Ort so oft."
 	done
@@ -276,20 +255,17 @@ EcruteakPokeCenter1FLassScript:
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "JENS, der ARENA-"
-	line "LEITER, ist soooo"
-	cont "cool."
-
+	text "JENS, der"
+	line "ARENA-LEITER, ist"
+	cont "soooo cool."
 	para "Auch seine #mon"
 	line "sind sehr stark."
 	done
 EcruteakPokeCenter1FGymGuyText:
 	text "SEE DES ZORNS…"
-
 	para "Das Erscheinen"
-	line "eines GARADOS-"
-	cont "Schwarms…"
-
+	line "eines"
+	cont "GARADOS-Schwarms…"
 	para "Das riecht nach"
 	line "Verschwörung!"
 	done

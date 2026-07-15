@@ -142,13 +142,14 @@ StartMenu::
 
 .MenuDataHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 0, 19, 17
+	; Wider for DE: "Optionen"(8), "Sichern"(7), "Beenden"(7) + cursor
+	menu_coords 8, 0, 19, 17
 	dw .MenuData
 	db 1 ; default selection
 
 .ContestMenuDataHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 10, 2, 19, 17
+	menu_coords 8, 2, 19, 17
 	dw .MenuData
 	db 1 ; default selection
 
@@ -175,7 +176,7 @@ StartMenu::
 .PackString:     db "Beutel@"
 .StatusString:   db "<PLAYER>@"
 .SaveString:     db "Sichern@"
-.OptionString:   db "Option@"
+.OptionString:   db "Optionen@"
 .ExitString:     db "Ende@"
 .PokegearString: db "<PO><KE>Com@"
 .QuitString:     db "Beenden@"
@@ -443,10 +444,10 @@ ClearSpritesUnderStartMenu:
 	ld l, e
 	ld c, OAM_COUNT
 .loop
-	; Check if XCoord >= 10 * TILE_WIDTH,
+	; Check if XCoord >= 8 * TILE_WIDTH,
 	; which is the starting x-coord of the start menu.
 	ld a, [hl]
-	cp 10 * TILE_WIDTH
+	cp 8 * TILE_WIDTH
 	jr nc, .clear_sprite
 ; fallthrough
 .next

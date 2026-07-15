@@ -51,7 +51,6 @@ CianwoodHouseBlackBeltText1:
 CianwoodHouseBlackBeltText2:
 	text "Gut. Ich werde"
 	line "hart trainieren"
-
 	para "und mir einen"
 	line "Platz in der ARENA"
 	cont "verdienen!"
@@ -60,12 +59,10 @@ CianwoodHouseBlackBeltText2:
 CianwoodLugiaSpeechHouseTeacherText:
 	text "Du kommst von"
 	line "OLIVIANA CITY?"
-
 	para "Hast du auf dem"
 	line "Weg hierher die"
 	cont "vier Inseln"
 	cont "gesehen?"
-
 	para "Ich habe gehört,"
 	line "dass sich dort ein"
 	cont "mythisches Wesen"
@@ -73,32 +70,31 @@ CianwoodLugiaSpeechHouseTeacherText:
 	done
 
 
+
 CianwoodLugiaSpeechHouseLassText:
 	text "Man sagt auch,"
 	line "dass man es nur"
-
 	para "sehen kann, wenn"
-	line "man einen SILBER-"
-	cont "FLÜGEL hat."
-
+	line "man einen"
+	cont "SILBER-FLÜGEL hat."
 	para "Er muss denselben"
 	line "Geruch wie diese"
 	cont "Kreatur haben."
 	done
 
 
+
 CianwoodLugiaSpeechHouseTwinText:
 	text "Ich hörte, dass"
 	line "die Strudel um die"
-
 	para "Inseln von der"
 	line "Meereskreatur"
 	cont "verursacht werden."
-
 	para "Es könnte einer"
 	line "Spezialattacke"
 	cont "bedürfen, um sie"
 	cont "zu passieren."
 	done
+
 
 

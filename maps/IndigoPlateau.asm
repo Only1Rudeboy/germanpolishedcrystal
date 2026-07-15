@@ -20,7 +20,7 @@ IndigoPlateauFlyPoint:
 	endcallback
 
 IndigoPlateauSignText:
-	text "INDIGO PLATEAU"
+	text "INDIGO-PLATEAU"
 
 	para "Das Ultimative"
 	line "Ziel Aller"

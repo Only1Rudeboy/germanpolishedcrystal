@@ -179,7 +179,6 @@ CopycatRetortScript:
 	text "NACHAHMERIN: Hm?"
 	line "Das Nachahmen"
 	cont "aufgeben?"
-
 	para "Aber das ist meine"
 	line "liebste"
 	cont "Beschäftigung!"
@@ -194,13 +193,11 @@ CopycatWorriedScript:
 
 	text "NACHAHMERIN:"
 	line "Bitte?"
-
 	para "Ich soll dir nicht"
 	line "sagen, was du zu"
 	cont "tun hast?"
-
 	para "Aber ich mache mir"
-	line "wirklich Sorgen…"
+	line "wirklich Sorgen …"
 	cont "Was, wenn jemand"
 	cont "sie findet?"
 	done
@@ -218,10 +215,8 @@ CopycatFoundLostItemScript:
 	text "NACHAHMERIN: Jaa!"
 	line "Das ist meine"
 	cont "PIEPI-#PUPPE!"
-
 	para "Siehst du die Naht"
 	line "am rechten"
-
 	para "Bein? Das ist der"
 	line "Beweis!"
 	done
@@ -238,10 +233,8 @@ CopycatGivePassScript:
 	text "NACHAHMERIN: Das"
 	line "ist der FAHRSCHEIN"
 	cont "für den MAGNETZUG."
-
 	para "Der Mann von der"
 	line "Eisenbahn gab mir"
-
 	para "das, als sie unser"
 	line "altes Haus"
 	cont "niederrissen, um"
@@ -261,46 +254,38 @@ CopycatFinalScript:
 	special RefreshSprites
 	jumpthistext
 
-	text "NACHAHMERIN: "
+	text "NACHAHMERIN:"
 	line "Darauf kannst du"
 	cont "wetten!"
 	done
 CopycatGreeting1Text:
-	text "<PLAYER>: Hi!"
+	text "<PLAYER>: Hallo!"
 	line "Magst du #mon?"
-
-	para "<PLAYER>: Äh,"
-	line "nein, ich frage"
-	cont "dich."
-
+	para "<PLAYER>: Äh, nein,"
+	line "ich frage dich."
 	para "<PLAYER>: Was? Du"
 	line "bist komisch!"
 	done
 CopycatLostDoll1Text:
-	text "<PLAYER>: Hi! Ich"
-	line "habe gehört,"
-
+	text "<PLAYER>: Hallo!"
+	line "Ich habe gehört,"
 	para "dass du deine"
-	line "Lieblings-"
-	cont "#PUPPE verloren"
+	line "Lieblings- #"
+	cont "PUPPE verloren"
 	cont "hast."
-
 	para "<PLAYER>: Gibst du"
-	line "mir einen FAHR-"
-	cont "SCHEIN, wenn ich"
-	cont "sie finde?"
-
-	para "<PLAYER>: Ich"
-	line "suche sie für"
-	cont "dich."
-
+	line "mir einen"
+	cont "FAHR-SCHEIN, wenn"
+	cont "ich sie finde?"
+	para "<PLAYER>: Ich suche"
+	line "sie für dich."
 	para "Du glaubst, sie"
 	line "auf dem Weg nach"
 	cont "ORANIA CITY"
 	cont "verloren zu haben?"
 	done
 CopycatThanks1Text:
-	text "<PLAYER>: Hi!"
+	text "<PLAYER>: Hallo!"
 	line "Vielen Dank für"
 	cont "den FAHRSCHEIN!"
 
@@ -315,45 +300,35 @@ CopycatGreeting2Text:
 	text "<PLAYER>: Hi. Du"
 	line "musst #mon"
 	cont "mögen."
-
 	para "<PLAYER>: Nein,"
 	line "nicht ich. Ich"
 	cont "habe dich gefragt."
-
-	para "<PLAYER>: Bitte?"
-	line "Du bist seltsam!"
+	para "<PLAYER>: Bitte? Du"
+	line "bist seltsam!"
 	done
 CopycatLostDoll2Text:
 	text "<PLAYER>: Hi. Hast"
 	line "du wirklich deine"
 	cont "#PUPPE"
 	cont "verloren?"
-
 	para "<PLAYER>: Du gibst"
 	line "mir wirklich"
-
 	para "einen FAHRSCHEIN,"
 	line "falls ich sie"
 	cont "finde?"
-
 	para "<PLAYER>: Gewiss,"
 	line "ich halte die"
 	cont "Augen offen!"
-
 	para "Du denkst, du hast"
 	line "sie in ORANIA CITY"
 	cont "verloren?"
 	done
 CopycatThanks2Text:
-	text "<PLAYER>: Danke"
-	line "für den"
-	cont "FAHRSCHEIN!"
-
-	para "<PLAYER>: …Bitte?"
-
+	text "<PLAYER>: Danke für"
+	line "den FAHRSCHEIN!"
+	para "<PLAYER>: … Bitte?"
 	para "<PLAYER>: Macht es"
 	line "wirklich so"
-
 	para "viel Spaß mir"
 	line "alles"
 	cont "nachzusprechen und"
@@ -376,13 +351,11 @@ CopycatsDodrioScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "SPIEGLEIN, SPIEG-"
-	line "LEIN AN DER WAND,"
-
+	text "SPIEGLEIN,"
+	line "SPIEG-LEIN AN DER"
+	cont "WAND,"
 	para "WER IST DIE"
-	line "SCHÖNSTE IM"
-	cont "GANZEN"
-
+	line "SCHÖNSTE IM GANZEN"
 	para "LAND?"
 	done
 .Text1:

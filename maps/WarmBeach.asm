@@ -30,7 +30,6 @@ GenericTrainerSightseermGareth:
 
 	text "Auch außerhalb von"
 	line "Kämpfen sind diese"
-
 	para "Items schöne"
 	line "Souvenirs."
 	done
@@ -38,9 +37,9 @@ GenericTrainerSightseermGareth:
 .SeenText:
 	text "Ich hab gerade"
 	line "nützliche Items"
-
-	para "auf dem Freiluft-"
-	line "markt gekauft!"
+	para "auf dem"
+	line "Freiluftmarkt"
+	cont "gekauft!"
 	done
 
 .BeatenText:
@@ -73,10 +72,8 @@ WarmBeachCooltrainermText:
 	text "Hier gibt es ein"
 	line "#mon, das"
 	cont "spricht!"
-
 	para "Ich würde es nicht"
 	line "glauben, wenn ich"
-
 	para "es nicht selbst"
 	line "gesehen hätte!"
 	done
@@ -84,13 +81,10 @@ WarmBeachCooltrainermText:
 WarmBeachCooltrainerfText:
 	text "Ich wurde als"
 	line "Festmaid dieses"
-
 	para "Jahrs gewählt und"
 	line "muss die Melodie"
-
 	para "des Auserwählten"
 	line "spielen."
-
 	para "Ich bin nervös und"
 	line "übe deshalb hier."
 	done
@@ -138,13 +132,10 @@ WarmBeachLassScript:
 	text "Ich sammle"
 	line "Muscheln am Strand"
 	cont "und"
-
 	para "mache daraus"
 	line "Muschelglocken."
-
 	para "Man sagt, ihr"
 	line "Klang heilt."
-
 	para "Sie kosten ¥4000."
 	line "Willst du eine?"
 	done
@@ -152,7 +143,7 @@ WarmBeachLassScript:
 .Text3:
 	text "Heute habe ich nur"
 	line "eine Muschelglocke"
-	cont "gemacht…"
+	cont "gemacht …"
 	done
 
 .Text4:
@@ -167,16 +158,12 @@ WarmBeachLassScript:
 WarmBeachLadyText:
 	text "Die Inseln drüben"
 	line "werden als Tempel"
-
 	para "des Feuers, des"
 	line "Eises und des"
-
 	para "Blitzes"
 	line "bezeichnet."
-
 	para "So steht es in"
-	line "dieser Broschüre —"
-
+	line "dieser Broschüre -"
 	para "aber wozu sind sie"
 	line "da?"
 	done

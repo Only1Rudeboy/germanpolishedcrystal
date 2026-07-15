@@ -113,7 +113,6 @@ Route29CooltrainerMScript:
 
 	text "Ich warte auf"
 	line "#mon, die nur"
-
 	para "abends oder nachts"
 	line "auftauchen."
 	done
@@ -142,10 +141,8 @@ TuscanyScript:
 	line "du nicht auch,"
 	cont "dass es elegant"
 	cont "ist?"
-
 	para "Es verstärkt"
 	line "Normal-Attacken."
-
 	para "Ich bin sicher, es"
 	line "wird nützlich"
 	cont "sein."
@@ -157,7 +154,7 @@ TuscanyNotTuesdayScript:
 	text "DIETLINDE: Heute"
 	line "ist nicht"
 	cont "Dienstag. Das ist"
-	cont "bedauerlich…"
+	cont "bedauerlich …"
 	done
 
 LyraMovementData1a:
@@ -198,10 +195,10 @@ LyraMovementData3:
 CatchingTutorialIntroText:
 	text "Ich habe dich"
 	line "schon mehrmals"
-	cont "gesehen. Wie viele"
+	cont "gesehen."
 
-	para "#mon hast du"
-	line "gefangen?"
+	para "Wie viele #mon"
+	line "hast du gefangen?"
 
 	para "Soll ich dir"
 	line "zeigen, wie man"
@@ -210,57 +207,55 @@ CatchingTutorialIntroText:
 
 
 
+
 CatchingTutorialDebriefText:
 	text "So geht das!"
-
 	para "Wenn du sie zuerst"
-	line "schwächst, kannst"
-	cont "du sie leichter"
-	cont "fangen."
+	line "schwächst,"
+	para "kannst du sie"
+	line "leichter fangen."
 	done
+
 
 
 
 CatchingTutorialRefusedText:
-	text "Schade… Ich wollte"
-	line "mal mein"
-	cont "Fangkönnen zeigen…"
-
+	text "Schade … Ich"
+	line "wollte mal mein"
+	cont "Fangkönnen zeigen"
+	cont "…"
 	para "Na ja, nimm das"
 	line "hier. Viel Glück!"
 	done
 CatchingTutorialGoodbyeText:
-	text "Lyra: Bis bald!"
+	text "LYRA: Bis bald!"
 	done
 Route29YoungsterText:
 	text "Yo. Wie geht es"
 	line "deinen #mon?"
-
 	para "Sind sie schwach"
-	line "und nicht bereit"
-
-	para "zu kämpfen, halte"
-	line "dich vom Gras"
-	cont "fern."
+	line "und nicht"
+	cont "kampfbereit, bleib"
+	para "vom hohen Gras"
+	line "fern."
 	done
+
 
 
 
 Route29TeacherText:
 	text "Siehst du die"
 	line "Stufen hier?"
-
 	para "Du kannst nicht"
 	line "hinaufklettern,"
-	cont "dafür aber"
-	cont "herunterspringen!"
-
-	para "Du kannst nach"
-	line "Neuborkia gehen,"
-
-	para "ohne durch das"
-	line "Gras zu laufen."
+	cont "aber"
+	cont "hinunterspringen!"
+	para "So kommst du nach"
+	line "Neuborkia, ohne"
+	para "durchs Gras zu"
+	line "laufen."
 	done
+
 
 
 
@@ -272,6 +267,7 @@ Route29FisherText:
 	line "meinen Spielstand"
 	cont "abgespeichert."
 	done
+
 
 
 
@@ -293,16 +289,14 @@ Text_WaitingForMorning:
 MeetTuscanyText:
 	text "DIETLINDE: Ich"
 	line "glaube, wir"
-
 	para "begegnen uns zum"
 	line "ersten Mal!"
-
 	para "Darf ich mich"
 	line "vorstellen? Ich"
-
 	para "bin DIETLINDE von"
 	line "Dienstag."
 	done
+
 
 
 
@@ -316,16 +310,15 @@ TuscanyGivesGiftText:
 
 
 
+
 TuscanyTuesdayText:
 	text "DIETLINDE: Bist du"
 	line "MONJA meiner"
 	cont "älteren Schwester"
 	cont "schon begegnet?"
-
 	para "Oder meinem"
 	line "kleinen Bruder"
 	cont "MITKO?"
-
 	para "Ich bin das zweite"
 	line "von sieben"
 	cont "Kindern."
@@ -333,33 +326,31 @@ TuscanyTuesdayText:
 
 
 
+
 Route29Sign1Text:
 	text "ROUTE 29"
-
-	para "ROSALIA CITY -"
-	line "Neuborkia"
+	para "ROSALIA CITY"
+	line "-NEUBORKIA"
 	done
+
 
 
 
 Route29Sign2Text:
 	text "ROUTE 29"
-
-	para "ROSALIA CITY -"
-	line "Neuborkia"
+	para "ROSALIA CITY"
+	line "-NEUBORKIA"
 	done
+
 
 
 
 Route29AdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Drücke Unten+B im"
 	line "Titelbildschirm,"
-
 	para "um die Uhr"
 	line "zurückzusetzen!"
-
 	para "Drücke Links+B, um"
 	line "die Startoptionen"
 	cont "zurückzusetzen!"

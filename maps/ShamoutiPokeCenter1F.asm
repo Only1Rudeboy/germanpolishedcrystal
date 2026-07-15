@@ -27,9 +27,9 @@ PokemonJournalLoreleiScript:
 	text "#mon Journal"
 
 	para "Spezial: Ex-TOP"
-	line "VIER Lorelei!"
+	line "VIER LORELEI!"
 
-	para "Man sagt, Lorelei"
+	para "Man sagt, LORELEI"
 	line "habe eine"
 	cont "komplette"
 
@@ -58,9 +58,8 @@ ShamoutiPokeCenter1FIvyScript:
 	text "Ivy: Hm, ich"
 	line "dachte, du wärst"
 	cont "froh, ein seltenes"
-
 	para "#mon"
-	line "großzuziehen…"
+	line "großzuziehen …"
 	done
 
 .Bulbasaur:
@@ -114,44 +113,35 @@ ShamoutiPokeCenter1FIvyScript:
 .NoRoomText:
 	text "Schade, es scheint"
 	line "keinen Platz zu"
-	cont "geben — weder in"
+	cont "geben -weder in"
 	cont "deinem Team noch"
-	cont "in deiner Box…"
+	cont "in deiner Box …"
 	done
 
 .GreetingText:
 	text "Ivy: Ach! Du bist"
 	line "<PLAYER>, der neue"
 	cont "Champion!"
-
 	para "Freut mich, dich"
 	line "kennenzulernen!"
-
 	para "Ich bin Ivy, ein"
 	line "#mon-Professor."
-
 	para "Ich erforsche"
 	line "lokale Variationen"
 	cont "im Aussehen von"
-	cont "#mon."
-
 	para "Wusstest du, dass"
 	line "manche wilde"
 	cont "#mon"
-
 	para "Attacken kennen,"
 	line "die nur in ihrem"
 	cont "Lebensraum"
 	cont "vorkommen?"
-
 	para "Und selbst zwei"
 	line "#mon derselben"
-
 	para "Art in einem"
 	line "Gebiet können"
 	cont "verschiedene"
-	cont "Farben haben…"
-
+	cont "Farben haben …"
 	para "Ach,"
 	line "Entschuldigung,"
 	cont "ich schweife oft"
@@ -162,15 +152,13 @@ ShamoutiPokeCenter1FIvyScript:
 	text "Ivy: Du machst"
 	line "also eine ganz"
 	cont "neue"
-
-	para "Arena-Herausfor-"
-	line "derung in einer"
-	cont "neuen Region…"
-
+	para "Arena-"
+	line "Herausforderung in"
+	cont "einer neuen Region"
+	cont "…"
 	para "Aha! Warum gebe"
 	line "ich dir nicht auch"
 	cont "ein neues #mon?"
-
 	para "Welches möchtest"
 	line "du?"
 	done
@@ -182,30 +170,26 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .GoodbyeText:
-	text "Ivy: Prof. Elm hat"
-	line "dir ein #mon"
+	text "Ivy: PROF. LIND"
+	line "hat dir ein"
+	cont "#mon"
 	cont "anvertraut, und"
-
-	para "Prof. Oak hat dir"
+	para "PROF. EICH hat dir"
 	line "einen #dex"
 	cont "gegeben, also"
-
 	para "weiß ich, dass du"
 	line "gut auf"
-	cont ""
+	done
 	text_ram wStringBuffer3
 	text "."
-
 	para "Na ja, ich muss"
 	line "zurück mit der"
 	cont "Fähre"
-
 	para "in mein Labor auf"
-	line "der Valencia-"
-	cont "Insel."
-
-	para "Grüß Prof. Oak von"
-	line "mir!"
+	line "der"
+	cont "Valencia-Insel."
+	para "Grüß PROF. EICH"
+	line "von mir!"
 	done
 
 .DownMovement:

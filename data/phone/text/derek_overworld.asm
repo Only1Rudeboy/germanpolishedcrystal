@@ -1,11 +1,10 @@
 DerekAskNumber1Text:
 	text "Oh, wow! Pikachu!"
 	line "So weich und süß!"
-
 	para "Lass uns Freunde"
-	line "sein! Pikachu-Fans"
-	cont "sind nette Leute!"
-
+	line "sein!"
+	cont "Pikachu-Fans sind"
+	cont "nette Leute!"
 	para "Reden wir über"
 	line "Pikachu! Darf ich"
 	cont "deine Nummer?"
@@ -22,9 +21,8 @@ DerekAskNumber2Text:
 DerekNumberAcceptedText:
 	text "Pikachu ist das"
 	line "Beste! Bei was"
-
-	para "auch immer ruf ich"
-	line "dich an."
+	para "auch immer ruf"
+	line "ich dich an."
 	done
 
 DerekNumberDeclinedText:
@@ -42,10 +40,9 @@ DerekPhoneFullText:
 DerekGiftText:
 	text "Ich hab dich"
 	line "gesucht! Schau!"
-
 	para "Dein Pikachu wird"
-	line "mein Geschenk auch"
-	cont "lieben!"
+	line "mein Geschenk"
+	cont "auch lieben!"
 	done
 
 DerekPackFullText:

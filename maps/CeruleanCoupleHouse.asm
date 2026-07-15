@@ -20,16 +20,14 @@ CeruleanCoupleHousePokefanMText:
 	line "hier in dieser"
 	cont "Stadt"
 	cont "kennengelernt."
-
 	para "Ihre Augen waren"
-	line "tief azurblau…"
+	line "tief azurblau …"
 	done
 
 CeruleanCoupleHousePokefanFText:
 	text "Die Sprache der"
 	line "Liebe braucht"
 	cont "keine Übersetzung."
-
 	para "Du wirst es eines"
 	line "Tages verstehen."
 	done

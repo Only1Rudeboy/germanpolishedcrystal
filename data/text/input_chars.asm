@@ -40,7 +40,7 @@ MailEntry_Lowercase:
 	rawchar "t"
 	rawchar "uvwxyz -.,"
 	rawchar "äöüß()    "
-	rawchar "“”'%↑↓№★♥♪"
+	rawchar "'''%↑↓№★♥♪"
 	assert_table_length 10 * 5
 
 NameInputLowerQwerty:
@@ -78,5 +78,5 @@ MailEntryQwerty_Lowercase:
 	rawchar "asdfghjkl-"
 	rawchar "zxcvbnm,. "
 	rawchar "äöüß()    "
-	rawchar "“”'%↑↓№★♥♪"
+	rawchar "'''%↑↓№★♥♪"
 	assert_table_length 10 * 5

@@ -1,33 +1,30 @@
 DanaAskNumber1Text:
 	text "Du bist echt gut"
 	line "mit #mon!"
-
 	para "Jungs geben mir"
 	line "nach Kämpfen"
 	cont "Items,"
-
-	para "manchmal zu viele."
-	line "Nächstes Mal teile"
-
+	para "manchmal zu"
+	line "viele. Nächstes"
+	cont "Mal teile"
 	para "ich mit dir. Gib"
 	line "mir deine Nummer."
 	done
 
 DanaAskNumber2Text:
 	text "Ich teile meine"
-	line "Geschenke mit dir."
-
+	line "Geschenke mit"
+	cont "dir."
 	para "Gib mir deine"
 	line "Nummer."
 	done
 
 DanaNumberAcceptedText:
-	text "Wenn ein Junge mir"
-	line "nach einem Kampf"
-	cont "was gibt,"
-
-	para "teile ich! Ist das"
-	line "schlimm?"
+	text "Wenn ein Junge"
+	line "mir nach einem"
+	cont "Kampf was gibt,"
+	para "teile ich! Ist"
+	line "das schlimm?"
 	done
 
 DanaNumberDeclinedText:
@@ -42,14 +39,15 @@ DanaPhoneFullText:
 	done
 
 DanaRematchText:
-	text "Du bist echt spät!"
-	line "Ich will loslegen!"
+	text "Du bist echt"
+	line "spät! Ich will"
+	cont "loslegen!"
 	done
 
 DanaGiftText:
-	text "Hi! Bist du wegen"
-	line "deinem Geschenk"
-	cont "da?"
+	text "Hallo! Bist du"
+	line "wegen deinem"
+	cont "Geschenk da?"
 
 	para "Das wird dir"
 	line "gefallen!"

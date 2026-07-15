@@ -63,17 +63,14 @@ FuchsiaSafariBallHouseOfficerScript:
 .IntroText:
 	text "Früher leitete ich"
 	line "das Safari-Spiel."
-
 	para "Jetzt, wo es zu"
 	line "ist, muss ich auf"
-
 	para "andere Weise Geld"
 	line "verdienen."
-
 	para "Willst du übrig"
-	line "gebliebene Safari-"
-	cont "Bälle kaufen?"
-
+	line "gebliebene"
+	cont "Safari-Bälle"
+	cont "kaufen?"
 	para "Sie sind"
 	line "Sammlerstücke!"
 	done

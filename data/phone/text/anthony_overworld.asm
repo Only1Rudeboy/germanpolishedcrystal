@@ -31,17 +31,16 @@ AnthonyNumberAcceptedText:
 	done
 
 AnthonyNumberDeclinedText:
-	text "Du bist kalt. Dann"
-	line "geh ich in die"
-	cont "Berge…"
+	text "Du bist kalt."
+	line "Dann geh ich in"
+	cont "die Berge …"
 	done
 
 AnthonyPhoneFullText:
 	text "Dein Telefon ist"
 	line "voll."
-
-	para "Meine Nummer passt"
-	line "nicht rein."
+	para "Meine Nummer"
+	line "passt nicht rein."
 	done
 
 AnthonyRematchText:

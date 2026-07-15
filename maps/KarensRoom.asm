@@ -86,25 +86,19 @@ KarenScript:
 	text "Ich bin MELANIE."
 	line "Nummer 4 der TOP"
 	cont "VIER."
-
 	para "Du heißt <PLAYER>?"
 	line "Sehr amüsant."
-
-	para "Ich liebe #mon"
-	line "des Typs Unlicht."
-
+	para "Ich liebe"
+	line "Unlicht-#mon."
 	para "Ihr wilder, harter"
 	line "Ruf gefällt mir."
-
-	para "Und sie sind"
-	line "wirklich stark."
-
+	cont "Und sie sind"
+	cont "wirklich stark."
 	para "Glaubst du, du"
 	line "kannst es mit uns"
 	cont "aufnehmen? Los,"
 	cont "ich will mich"
 	cont "amüsieren."
-
 	para "Auf geht's."
 	done
 .BeatenText:
@@ -114,24 +108,18 @@ KarenScript:
 	done
 .AfterText:
 	text "Starke #mon."
-
-	para "Schwache #mon."
-
+	line "Schwache #mon."
 	para "Das ist nur eine"
 	line "subjektive"
 	cont "Einschätzung"
 	cont "anderer Menschen."
-
 	para "Wirklich begabte"
 	line "Trainer gewinnen"
-
-	para "mit ihren"
-	line "Lieblings-#mon."
-
+	cont "mit ihren"
+	cont "Lieblings-#mon."
 	para "Ich mag deinen"
 	line "Stil. Du weißt,"
 	cont "was wichtig ist."
-
 	para "Schreite voran!"
 	line "Der CHAMP wartet."
 	done
@@ -140,25 +128,18 @@ KarenScript:
 	line "die Reihen"
 	cont "gekämpft, um mich"
 	cont "zu erreichen."
-
 	para "Ich bin"
 	line "beeindruckt. Du"
 	cont "hast ein"
-	cont "charmantes Team"
-	cont "zusammengestellt."
-
+	cont "charmantes Team."
 	para "Unser Kampf wird"
-	line "ein guter werden."
-
-	para "Los geht's!"
+	line "gut. Los geht's!"
 	done
-
 .AfterRematchText:
 	text "Ich werde nicht"
 	line "von meinem Weg"
 	cont "abweichen."
-
-	para "Dragoran freut"
+	para "DRAGORAN freut"
 	line "sich schon auf ein"
 	cont "Wiedersehen mit"
 	cont "dir."

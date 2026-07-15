@@ -241,7 +241,6 @@ GenericTrainerAceDuoThomandkae2:
 	text "Kae: Ich dachte,"
 	line "du bist ein"
 	cont "gewöhn-"
-
 	para "licher"
 	line "Einzeltrainer. Wie"
 	cont "falsch lag ich!"
@@ -303,7 +302,7 @@ GenericTrainerGruntM26:
 
 HikerDevinSeenText:
 	text "Kämpfe sind Kämpfe"
-	line "— los!"
+	line "- los!"
 	done
 
 HikerDevinBeatenText:
@@ -327,7 +326,6 @@ CamperGrantBeatenText:
 AceDuoThomandkae1SeenText:
 	text "Thom: Eins plus"
 	line "eins ist zwei."
-
 	para "Aber wir beide"
 	line "zusammen sind viel"
 	cont "stärker!"
@@ -359,13 +357,12 @@ CoupleDuffandeda1SeenText:
 
 CoupleDuffandeda1BeatenText:
 	text "Duff: Ich war kein"
-	line "Match für dich…"
+	line "Match für dich …"
 	done
 
 CoupleDuffandeda2SeenText:
 	text "Eda: Meine Gefühle"
 	line "für meinen Freund"
-
 	para "sind so weit und"
 	line "tief wie das Meer."
 	done

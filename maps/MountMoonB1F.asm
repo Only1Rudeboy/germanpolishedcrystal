@@ -26,9 +26,8 @@ MountMoonB1FPokefanmText:
 	text "Ich grabe hier"
 	line "unter dem Mondberg"
 	cont "nach Fossilien."
-
 	para "Manchmal hilft"
-	line "Rocko von der"
+	line "ROCKO von der"
 	cont "Marmoria-Arena"
 	cont "mit."
 	done

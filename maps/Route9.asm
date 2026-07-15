@@ -29,16 +29,14 @@ GenericTrainerCamperDean:
 
 	text "Meine #mon"
 	line "wurden verletzt,"
-
 	para "obwohl ich den"
 	line "FELSTUNNEL noch"
 	cont "nicht betreten"
 	cont "hatte."
-
 	para "Ich bringe sie"
 	line "besser sofort in"
-	cont "ein #mon-"
-	cont "CENTER."
+	cont "ein"
+	cont "#mon-CENTER."
 	done
 GenericTrainerPicnickerHeidi:
 	generictrainer PICNICKER, HEIDI, EVENT_BEAT_PICNICKER_HEIDI, PicnickerHeidiSeenText, PicnickerHeidiBeatenText
@@ -131,7 +129,8 @@ CamperSidSeenText:
 
 CamperSidBeatenText:
 	text "Ich wollte nur"
-	line "klarstellen, dass…"
+	line "klarstellen, dass"
+	cont "…"
 	done
 
 
@@ -161,8 +160,7 @@ PicnickerEdnaBeatenText:
 HikerTimSeenText:
 	text "Wenn sie kommt,"
 	line "kommt sie vom"
-	cont "SILBERBERG…"
-
+	cont "SILBERBERG …"
 	para "Der SILBERBERG ist"
 	line "in JOHTO, oder?"
 	done
@@ -184,7 +182,6 @@ HikerTimBeatenText:
 HikerSidneySeenText:
 	text "Ich verrate dir"
 	line "ein Geheimnis."
-
 	para "Aber zuerst müssen"
 	line "wir kämpfen!"
 	done
@@ -204,7 +201,6 @@ HikerSidneyBeatenText:
 
 Route9SignText:
 	text "ROUTE 9"
-
 	para "AZURIA CITY -"
 	line "FELSTUNNEL"
 	done
@@ -215,18 +211,14 @@ Route9SignText:
 
 Route9AdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Ein #mon mit"
 	line "einem Toxik-Orb"
 	cont "wird vergiftet,"
-
 	para "eines mit einem"
 	line "Heiß-Orb"
 	cont "verbrannt."
-
 	para "Aber die Fähigkeit"
 	line "Adrenalin"
-
 	para "macht das zum"
 	line "Vorteil und stärkt"
 	cont "Angriff!"

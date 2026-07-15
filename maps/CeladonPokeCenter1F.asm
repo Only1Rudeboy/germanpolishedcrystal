@@ -28,10 +28,10 @@ PokemonJournalErikaScript:
 
 	para "Sonderbericht:"
 	line "Arenaleiterin"
-	cont "Erika!"
+	cont "ERIKA!"
 
 	para "Gerüchten zufolge"
-	line "sieht man Erika"
+	line "sieht man ERIKA"
 	cont "oft in der"
 
 	para "Prismania-Arena"
@@ -54,9 +54,9 @@ CeladonPokeCenter1FPharmacistText:
 	done
 
 CeladonPokeCenter1FCooltrainerfText:
-	text "Erika ist"
+	text "ERIKA ist"
 	line "Meisterin der"
-	cont "Pflanzen- #mon."
+	cont "Pflanzen-#mon."
 
 	para "Sie lässt dich"
 	line "büßen, wenn du"
@@ -64,9 +64,8 @@ CeladonPokeCenter1FCooltrainerfText:
 	done
 
 CeladonPokeCenter1FLassText:
-	text "Erika ist nicht"
+	text "ERIKA ist nicht"
 	line "nur Arenaleiterin."
-
 	para "Sie hält auch"
 	line "Vorlesungen an der"
 	cont "Uni."

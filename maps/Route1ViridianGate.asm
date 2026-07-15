@@ -20,9 +20,8 @@ Route1ViridianGate_MapScriptHeader:
 Route1ViridianGateOfficerText:
 	text "Im Süden liegt"
 	line "ALABASTIA."
-
-	para "Dort wohnt"
-	line "Prof. Eich."
+	para "Dort wohnt Prof."
+	line "Eich."
 	done
 
 Route1ViridianGateRockerText:

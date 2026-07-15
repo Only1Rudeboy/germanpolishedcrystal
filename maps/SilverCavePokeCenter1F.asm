@@ -47,14 +47,14 @@ SilverCavePokeCenterGrampsScript:
 	ifequalfwd NUM_POKEMON_JOURNALS, .ReadThemAll
 	jumpthisopenedtext
 
-	text "Ach, du hast "
+	text "Ach, du hast"
+	done
 	text_decimal hScriptVar, 1, 2
 	line " gelesen?"
 
 	para "Nicht schlecht,"
 	line "aber ich habe"
-	cont "{d:NUM_POKEMON_JOURNALS}"
-	cont "!"
+	cont "{d:NUM_POKEMON_JOURNALS}!"
 	done
 
 .ReadNone:
@@ -62,10 +62,8 @@ SilverCavePokeCenterGrampsScript:
 
 	text "Du hast keine"
 	line "gelesen? Schade."
-
 	para "In #mon-Centern"
 	line "stehen die meisten"
-
 	para "im Regal, aber"
 	line "echte Fans wie ich"
 	cont "suchen die"
@@ -94,11 +92,9 @@ SilverCavePokeCenterGrampsScript:
 	line "war ich selbst ein"
 	cont "talentierter"
 	cont "Trainer."
-
 	para "Heute lese ich nur"
 	line "im #mon Journal"
 	cont "über andere."
-
 	para "Liest du auch das"
 	line "Journal?"
 	done
@@ -106,12 +102,10 @@ SilverCavePokeCenterGrampsScript:
 .ReadAllText:
 	text "Du hast alle"
 	line "gelesen?"
-
 	para "Dann bist"
-
-	para "du ein Journal-"
-	line "Experte wie ich!"
-
+	para "du ein"
+	line "Journal-Experte"
+	cont "wie ich!"
 	para "Nimm das als"
 	line "Beweis deiner"
 	cont "Fan-Treue!"
@@ -120,17 +114,13 @@ SilverCavePokeCenterGrampsScript:
 SilverCavePokeCenter1FGrannyText:
 	text "Trainer, die nach"
 	line "Stärke streben,"
-
-	para "erklimmen den SIL-"
-	line "BERBERG trotz"
+	para "erklimmen den"
+	line "SIL-BERBERG trotz"
 	cont "seiner vielen"
-	cont "Gefahren…"
-
+	cont "Gefahren …"
 	para "Durch ihre treuen"
 	line "#mon haben"
-
 	para "sie das Gefühl,"
 	line "überall hinkommen"
-
-	para "zu können…"
+	para "zu können …"
 	done

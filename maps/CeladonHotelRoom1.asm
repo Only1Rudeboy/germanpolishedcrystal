@@ -32,7 +32,6 @@ CeladonHotelRoom1LassText:
 	line "faltet unsere"
 	cont "Handtücher jeden"
 	cont "Tag zu Blumen."
-
 	para "Das sollte ich mir"
 	line "auch zeigen lassen"
 	done

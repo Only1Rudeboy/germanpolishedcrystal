@@ -41,7 +41,8 @@ GinaGreetDayText:
 
 	para "Ich bin's, "
 	text_ram wStringBuffer3
-	text ". Ungelegene Zeit?"
+	text ". Ungelegene"
+	line "Zeit?"
 	done
 
 GinaGreetNiteText:

@@ -48,12 +48,10 @@ RandyScript:
 	line "lesen, aber"
 	cont "verliere ihn"
 	cont "nicht! ROUTE 31!"
-
 	para "Stimmt! Ein"
 	line "merkwürdiger Baum"
 	cont "hat die Straße"
 	cont "blockiert."
-
 	para "Ich frage mich, ob"
 	line "die Straße jetzt"
 	cont "frei ist."
@@ -109,27 +107,25 @@ Route35GoldenrodGatePokefanFScript:
 	text "Ein merkwürdiger"
 	line "Baum blockiert die"
 	cont "Straße."
-
 	para "Er wackelt, wenn"
 	line "man mit ihm"
 	cont "spricht."
-
 	para "Ich hörte, er"
 	line "wurde wild, als"
-
 	para "jemand ihn mit"
-	line "einer SCHIGGY-"
-	cont "KANNE gegossen"
-	cont "hat."
+	line "einer"
+	cont "SCHIGGY-KANNE"
+	cont "gegossen hat."
 	done
 
 .aftersudowoodo
 	jumpthisopenedtext
 
-	text "Ich mag das #-"
-	line "MON-Schlaflied,"
-	cont "das im Radio"
-	cont "gespielt wird."
+	text "Ich mag das"
+	line "#mon-"
+	cont "Schlaflied, das im"
+	cont "Radio gespielt"
+	cont "wird."
 	done
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
@@ -137,31 +133,29 @@ Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	line "bitte! Könntest du"
 	cont "mir einen Gefallen"
 	cont "tun?"
-
 	para "Könntest du dieses"
 	line "#mon, das einen"
 	cont "BRIEF trägt, zu"
 	cont "meinem Freund"
 	cont "bringen?"
-
 	para "Du findest ihn auf"
 	line "ROUTE 31."
 	done
+
 
 
 Route35GoldenrodGateRandyThanksText:
 	text "Das würdest du"
 	line "tun? Super! Vielen"
 	cont "Dank!"
-
 	para "Mein Freund ist"
 	line "ein Flegel! Er"
 	cont "schläft die ganze"
 	cont "Zeit."
-
 	para "Du wirst ihn"
 	line "sofort erkennen!"
 	done
+
 
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
@@ -173,16 +167,18 @@ Route35GoldenrodGatePlayerReceivedAMonWithMailText:
 	done
 
 
+
 Route35GoldenrodGateRandySomethingForYourTroubleText:
 	text "Ich danke dir! Du"
 	line "hast die Lieferung"
 	cont "für mich erledigt!"
-
 	para "Ich habe hier"
 	line "etwas für dich"
-	cont "wegen der Un-"
-	cont "annehmlichkeiten!"
+	cont "wegen der"
+	cont "Unannehmlichkeite-"
+	cont "n!"
 	done
+
 
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
@@ -193,16 +189,14 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 	done
 
 
+
 Route35GoldenrodGateFisherText:
 	text "Ich frage mich,"
 	line "wie viele Arten"
-
 	para "von #mon es"
 	line "wohl geben mag."
-
 	para "Vor drei Jahren"
 	line "hat PROF. EICH"
-
 	para "verlautbart, dass"
 	line "es 150"
 	cont "verschiedene Arten"

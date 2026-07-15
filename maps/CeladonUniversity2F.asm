@@ -58,7 +58,6 @@ CeladonUniversity2FCooltrainerfScript:
 	text "Gegengifte heilen"
 	line "Vergiftungen bei"
 	cont "#mon, aber ein"
-
 	para "Mensch würde davon"
 	line "krank werden."
 	done
@@ -106,7 +105,6 @@ CeladonUniversity2FCooltrainerfScript:
 CeladonUniversity2FCooltrainermText:
 	text "Die Mensa wird oft"
 	line "ziemlich voll,"
-
 	para "drum ess ich"
 	line "lieber im Flur."
 	done
@@ -127,7 +125,7 @@ CeladonUniversity2FCowgirlText:
 	done
 
 CeladonUniversity2FBug_catcherText:
-	text "Prof. Willow"
+	text "PROF. WILLOW"
 	line "schickt seine"
 	cont "Assistenten los,"
 
@@ -141,7 +139,7 @@ CeladonUniversity2FLassText:
 	line "als Prismania-"
 	cont "Arenaleiterin,"
 
-	para "war Erika hier an"
+	para "war ERIKA hier an"
 	line "der Uni die Beste"
 	cont "ihrer Klasse."
 
@@ -151,13 +149,11 @@ CeladonUniversity2FLassText:
 	done
 
 CeladonUniversity2FYoungster2Text:
-	text "Prof. Westwood ist"
+	text "PROF. WESTWOOD ist"
 	line "etwas exzentrisch."
-
 	para "Manchmal"
 	line "entschuldigt er"
 	cont "sich bei den"
-
 	para "Porträts seiner"
 	line "Vorfahren."
 	done
@@ -175,7 +171,7 @@ CeladonUniversity2FPoolSignText:
 	done
 
 CeladonUniversity2FWillowsOfficeSignText:
-	text "Prof. Willows Büro"
+	text "PROF. WILLOWs Büro"
 	done
 
 CeladonUniversity2FNursesOfficeSignText:
@@ -183,7 +179,7 @@ CeladonUniversity2FNursesOfficeSignText:
 	done
 
 CeladonUniversity2FWestwoodsOfficeSignText:
-	text "Prof. Westwoods"
+	text "PROF. WESTWOODs"
 	line "Büro"
 	done
 

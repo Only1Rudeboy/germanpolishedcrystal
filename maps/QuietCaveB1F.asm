@@ -61,7 +61,6 @@ QuietCaveB1FNurseKeikoScript:
 .SeenText:
 	text "Brauchst du eine"
 	line "Schwester?"
-
 	para "Klar, wenn du mich"
 	line "besiegst, heile"
 	cont "ich dich!"
@@ -92,7 +91,6 @@ GenericTrainerPokemaniacAidan:
 
 	text "Manchmal kennt ein"
 	line "#mon in einer"
-
 	para "bestimmten Gegend"
 	line "eine seltene"
 	cont "Attacke."
@@ -129,7 +127,6 @@ BattleGirlKagamiBeatenText:
 
 PokemaniacAidanSeenText:
 	text "Meine #mon!"
-
 	para "Ich zeige sie dir!"
 	done
 

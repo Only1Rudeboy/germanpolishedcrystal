@@ -19,12 +19,10 @@ SaffronOrreSpeechHouseSilphEmployeeText:
 	text "Ich hörte von"
 	line "einer Methode, das"
 	cont "Herz eines #mon"
-
 	para "zu versiegeln und"
 	line "es zum Angriff auf"
 	cont "Menschen zu"
 	cont "zwingen."
-
 	para "Wie kann man"
 	line "#mon so etwas"
 	cont "Schreckliches"
@@ -34,13 +32,11 @@ SaffronOrreSpeechHouseSilphEmployeeText:
 SaffronOrreSpeechHouseCooltrainerMText:
 	text "Wir kamen gerade"
 	line "von einem Freund"
-
 	para "aus einer anderen"
 	line "Region zurück."
-
-	para "Zwei Verbrecher-"
-	line "banden machten"
-
+	para "Zwei"
+	line "Verbrecherbanden"
+	cont "machten"
 	para "viel Ärger, aber"
 	line "ein talentierter"
 	cont "Trainer rettete"

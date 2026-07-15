@@ -71,6 +71,7 @@ IlexForestAzaleaGateOfficerText:
 
 
 
+
 IlexForestAzaleaGateGrannyText:
 	text "Der WALD wird von"
 	line "seinem"
@@ -86,49 +87,40 @@ IlexForestAzaleaGateGrannyText:
 
 
 
+
 ProfOaksAide1HiText:
 	text "Hallo! Ich bin"
-	line "Prof. Linds"
+	line "PROF. LINDs"
 	cont "Gehilfe."
-
 	para "Wenn du 15"
 	line "#mon-Arten"
 	cont "gefangen hast,"
-
 	para "soll ich dir ein"
 	line "Item geben."
-
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
-
 	para "15 #mon-Arten"
 	line "gefangen?"
 	done
 
 ProfOaksAide1UhOhText:
-	text "Mal sehen… Oh! Du"
+	text "Mal sehen … Oh! Du"
 	line "hast nur"
-
-	para ""
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-
+	text "Arten"
 	para "gefangen."
-
 	para "Komm wieder, wenn"
 	line "du 15 Arten hast."
 	done
 
 ProfOaksAide1HereYouGoText:
-	text "Mal sehen… Super!"
+	text "Mal sehen … Super!"
 	line "Du hast"
-
-	para ""
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-
+	text "Arten"
 	para "gefangen."
-
 	para "Glückwunsch! Hier,"
 	line "bitte!"
 	done

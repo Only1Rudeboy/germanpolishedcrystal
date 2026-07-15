@@ -28,8 +28,8 @@ PokeComNurseMornText:
 
 	para "Dies ist das"
 	line "#mon-Kommunika-"
-	cont "tionscenter--oder"
-	cont "#Com Center."
+	cont "tionscenter - oder"
+	cont "#Com-Center."
 	done
 
 PokeComNurseDayText:
@@ -37,8 +37,8 @@ PokeComNurseDayText:
 
 	para "Dies ist das"
 	line "#mon-Kommunika-"
-	cont "tionscenter--oder"
-	cont "#Com Center."
+	cont "tionscenter - oder"
+	cont "#Com-Center."
 	done
 
 PokeComNurseEveText:
@@ -46,8 +46,8 @@ PokeComNurseEveText:
 
 	para "Dies ist das"
 	line "#mon-Kommunika-"
-	cont "tionscenter--oder"
-	cont "#Com Center."
+	cont "tionscenter - oder"
+	cont "#Com-Center."
 	done
 
 PokeComNurseNiteText:
@@ -56,8 +56,8 @@ PokeComNurseNiteText:
 
 	para "Dies ist das"
 	line "#mon-Kommunika-"
-	cont "tionscenter--oder"
-	cont "#Com Center."
+	cont "tionscenter - oder"
+	cont "#Com-Center."
 	done
 
 NurseAskHealText:
@@ -72,21 +72,15 @@ NurseAskHealText:
 NurseTrainerStarText:
 	text "Wir heilen deine"
 	line "#mon voll."
-	cont ""
-
-	para "Sollen wir…"
-
-	para "Di-dieser"
+	para "Sollen wir …"
+	para "Didieser"
 	line "Trainerausweis!"
-
-	para "Diese tolle Farbe!"
-	line "Und dieser"
+	para "Diese tolle"
+	line "Farbe! Und dieser"
 	cont "glänzende Stern!"
-
 	para "Du bist ein"
 	line "beeindruckender"
 	cont "Trainer."
-
 	para "Bitte, <PLAYER>,"
 	line "darf ich deine"
 	cont "#mon heilen?"
@@ -102,13 +96,14 @@ NurseTheUsualText:
 	done
 
 NurseTakePokemonText:
-	text "OK, darf ich deine"
-	line "#mon sehen?"
+	text "O.K., darf ich"
+	line "deine #mon"
+	cont "sehen?"
 	done
 
 NurseReturnPokemonText:
-	text "Danke fürs Warten."
-
+	text "Danke fürs"
+	line "Warten."
 	para "Deine #mon sind"
 	line "vollständig"
 	cont "geheilt."
@@ -122,17 +117,14 @@ NurseGoodbyeText:
 NursePokerusText:
 	text "Deine #mon"
 	line "scheinen von"
-
-	para "winzigen Lebewesen"
-	line "befallen."
-
+	para "winzigen"
+	line "Lebewesen"
+	cont "befallen."
 	para "Deine #mon sind"
 	line "gesund und"
 	cont "scheinen fit."
-
 	para "Aber wir können"
 	line "dir in einem"
-
 	para "#mon-Center"
 	line "nicht mehr sagen."
 	done
@@ -140,21 +132,20 @@ NursePokerusText:
 PokeComNursePokerusText:
 	text "Deine #mon"
 	line "scheinen von"
-
-	para "winzigen Lebewesen"
-	line "befallen."
-
+	para "winzigen"
+	line "Lebewesen"
+	cont "befallen."
 	para "Deine #mon sind"
 	line "gesund und"
 	cont "scheinen fit."
-
 	para "Aber mehr können"
 	line "wir nicht sagen."
 	done
 
 DifficultBookshelfText:
-	text "Voller schwieriger"
-	line "Bücher."
+	text "Voller"
+	line "schwieriger"
+	cont "Bücher."
 	done
 
 PictureBookshelfText:
@@ -165,10 +156,10 @@ PictureBookshelfText:
 
 MagazineBookshelfText:
 	text "#mon-Magazine…"
-	line "#mon Pal,"
+	line "#mon-Freund,"
 
-	para "#mon Handbuch,"
-	line "#mon Graph…"
+	para "#mon-Handbuch,"
+	line "#mon-Graph…"
 	done
 
 TeamRocketOathText:
@@ -304,7 +295,7 @@ ContestResults_PartyFullText:
 	text "Dein Team ist"
 	line "voll, also wurde"
 	cont "das #mon an"
-	cont "Bills PC gesandt."
+	cont "BILLs PC gesandt."
 	done
 
 GymStatue_CityGymText:
@@ -329,21 +320,20 @@ GymStatue_TwoWinningTrainersText:
 GymStatue_ThreeWinningTrainersText:
 	text "Siegertrainer:"
 	line "<RIVAL> <PLAYER>"
-	cont "Lyra"
+	cont "LYRA"
 	done
 
 CoinVendor_WelcomeText:
-	text "Willkommen im Game"
-	line "Corner."
+	text "Willkommen in der"
+	line "SPIELHALLE."
 	done
 
 CoinVendor_NoCoinCaseText:
 	text "Brauchst du"
 	line "Spielmünzen?"
-
-	para "Oh, du hast keinen"
-	line "Münzbeutel für"
-	cont "deine Münzen."
+	para "Oh, du hast"
+	line "keinen Münzbeutel"
+	cont "für deine Münzen."
 	done
 
 CoinVendor_IntroText:
@@ -378,22 +368,21 @@ CoinVendor_CoinCaseFullText:
 
 CoinVendor_CancelText:
 	text "Keine Münzen für"
-	line "dich? Komm wieder!"
+	line "dich? Komm"
+	cont "wieder!"
 	done
 
 BugContestPrizeNoRoomText:
 	text "Oh? Deine Tasche"
 	line "ist voll."
-
 	para "Wir heben es für"
 	line "dich auf, komm"
-
-	para "wieder, wenn Platz"
-	line "frei ist."
+	para "wieder, wenn"
+	line "Platz frei ist."
 	done
 
 HappinessText3:
-	text "Wow! Du und dein"
+	text "Toll! Du und dein"
 	line "#mon seid euch"
 	cont "sehr nah!"
 	done
@@ -410,7 +399,6 @@ HappinessText1:
 	text "Du hast dein"
 	line "#mon nicht"
 	cont "gezähmt."
-
 	para "Bist du nicht"
 	line "nett, schmollt es."
 	done

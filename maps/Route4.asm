@@ -49,16 +49,14 @@ GenericTrainerLassJennifer:
 GenericTrainerBird_keeperHank:
 	generictrainer BIRD_KEEPER, HANK, EVENT_BEAT_BIRD_KEEPER_HANK, Bird_keeperHankSeenText, Bird_keeperHankBeatenText
 
-	text "Hast du ein spe-"
-	line "zielles #mon,"
-
+	text "Hast du ein"
+	line "spezielles"
+	cont "#mon,"
 	para "das du trainieren"
 	line "möchtest, setze es"
-
 	para "an die erste"
 	line "Stelle und tausche"
 	cont "es sofort aus."
-
 	para "So funktioniert"
 	line "das."
 	done
@@ -198,7 +196,6 @@ Bird_keeperHankBeatenText:
 PicnickerHopeSeenText:
 	text "Ich spüre, dass"
 	line "ich gewinnen kann."
-
 	para "Mal sehen, ob das"
 	line "stimmt!"
 	done
@@ -302,12 +299,11 @@ Route4EngineerText2:
 	text "Die Seilbahn ist"
 	line "gerade außer"
 	cont "Betrieb."
-
 	para "Bis wir sie"
 	line "repariert haben,"
-
-	para "ist der MONDBERG-"
-	line "PLATZ geschlossen."
+	para "ist der"
+	line "MONDBERG-PLATZ"
+	cont "geschlossen."
 	done
 
 MtMoonSignText:

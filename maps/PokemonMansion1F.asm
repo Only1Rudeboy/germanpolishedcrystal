@@ -34,7 +34,6 @@ GenericTrainerBurglarPete:
 
 	text "Einige wertvolle"
 	line "Gegenstände"
-
 	para "haben den Ausbruch"
 	line "wohl überlebt."
 	done
@@ -67,14 +66,13 @@ BurglarLouisBeatenText:
 	done
 
 PokemonMansion1FMewtwoStatueText:
-	text "Eine #mon-"
-	line "Statue…"
-
+	text "Eine"
+	line "#mon-Statue…"
 	para "Sie wirkt sehr"
 	line "bedrohlich."
 	done
 
 PokemonMansion1FFlowerPotText:
 	text "Es ist gefüllt mit"
-	line "Erde und Asche…"
+	line "Erde und Asche …"
 	done

@@ -17,13 +17,10 @@ LavenderTownSpeechHouse_MapScriptHeader:
 LavenderSpeechHousePokefanFText:
 	text "LAVANDIA ist eine"
 	line "ruhige, kleine"
-
 	para "Stadt am Fuße der"
 	line "Berge."
-
 	para "In letzter Zeit"
 	line "ist sie durch den"
-
 	para "Bau des RADIOTURMs"
 	line "etwas geschäftiger"
 	cont "geworden."

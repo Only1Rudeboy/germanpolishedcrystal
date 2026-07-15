@@ -130,7 +130,6 @@ SchoolboyDudleySeenText:
 	line "Trainer und du"
 	cont "erhältst einen"
 	cont "wunderbaren Preis!"
-
 	para "Glaubst du, du"
 	line "hast das Zeug"
 	cont "dazu?"
@@ -141,7 +140,7 @@ SchoolboyDudleySeenText:
 
 
 SchoolboyDudleyBeatenText:
-	text "Wow! Gut gemacht."
+	text "Toll! Gut gemacht."
 	done
 
 
@@ -291,11 +290,9 @@ CooltrainermKevinNuggetText:
 	text "Du hast einen"
 	line "Kampf mehr"
 	cont "bestritten, als du"
-
 	para "erwartet hast."
 	line "Dennoch hast du"
 	cont "gewonnen."
-
 	para "Wie versprochen,"
 	line "hier ist der"
 	cont "Preis."
@@ -308,11 +305,9 @@ CooltrainermKevinNuggetText:
 CooltrainermKevinSeenText:
 	text "Nachdem ich"
 	line "gesehen habe, wie"
-
 	para "du kämpfst, möchte"
 	line "ich sehen, wie es"
 	cont "mir ergeht."
-
 	para "Wie sieht's aus?"
 	line "Ich fordere dich"
 	cont "heraus."

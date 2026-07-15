@@ -33,10 +33,8 @@ Route27RestHouseGranny:
 
 	text "Falls es dir nicht"
 	line "mehr Vertrauen"
-
 	para "schenkt, wird es"
 	line "schwer für dich."
-
 	para "Vertrauen ist der"
 	line "Bund zwischen"
 	cont "#mon und den"
@@ -70,15 +68,12 @@ Route27RestHouseGranny:
 
 	text "Skill Swap ist"
 	line "eine Attacke,"
-
 	para "die deine"
 	line "Fähigkeit mit der"
 	cont "deines Gegners"
 	cont "tauscht."
-
 	para "Nur für erfahrene"
 	line "Trainer!"
-
 	para "Nutze sie, wenn du"
 	line "dich traust. Viel"
 	cont "Glück!"
@@ -87,14 +82,11 @@ Route27RestHouseGranny:
 .IntroText:
 	text "Wohin geht die"
 	line "Reise mit #mon?"
-
 	para "Zur #mon-Liga?"
-
 	para "Sind deine #mon"
 	line "treu genug für den"
 	cont "Sieg?"
-
-	para "Mal sehen…"
+	para "Mal sehen …"
 	done
 
 .HeardIntroText:
@@ -105,15 +97,12 @@ Route27RestHouseGranny:
 .QuestionText:
 	text "Ah! Dein #mon"
 	line "vertraut dir sehr."
-
 	para "Schön, einen guten"
 	line "Trainer zu sehen."
-
 	para "Ich kann ihm meine"
 	line "Geheimtechnik"
 	cont "Skill Swap"
 	cont "beibringen."
-
 	para "Wenn du willst,"
 	line "natürlich."
 	done

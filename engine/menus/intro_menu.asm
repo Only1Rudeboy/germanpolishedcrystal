@@ -55,7 +55,7 @@ NewGamePlus:
 	jr _NewGame_FinishSetup
 
 .text
-	text "New Game+ behält"
+	text "Neues Spiel+ behält"
 	line "dein bisheriges"
 
 	para "Geld, deine"
@@ -65,7 +65,8 @@ NewGamePlus:
 	line "gespeichert!"
 
 	para "Willst du wirklich"
-	line "New Game+ starten?"
+	line "Neues Spiel+"
+	cont "starten?"
 	done
 
 NewGame:
@@ -509,10 +510,13 @@ Continue_LoadMenuHeader:
 .MenuData2_Dex:
 	db $00 ; flags
 	db 4 ; items
-	db "Spieler@"
+	; Labels must stay short: values are drawn at fixed EN coords
+	; (name @8,2; badges @13,4; dex @12,6; time @9,8).
+	; "Spieler"/"Spielzeit" overflow → "SpielerRudii", "Spielzei0:".
+	db "Name@"
 	db "Orden@"
 	db "#dex@"
-	db "Spielzeit@"
+	db "Zeit@"
 
 .MenuDataHeader_NoDex:
 	db MENU_BACKUP_TILES
@@ -523,10 +527,12 @@ Continue_LoadMenuHeader:
 .MenuData2_NoDex:
 	db $00 ; flags
 	db 4 ; items
-	db "Spieler <PLAYER>@"
+	; Do NOT embed <PLAYER> here — Continue_DisplayBadgesDexPlayerName
+	; already draws the name at decoord 8,2. Embedding caused "RuRudi".
+	db "Name@"
 	db "Orden@"
 	db " @"
-	db "Spielzeit@"
+	db "Zeit@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile

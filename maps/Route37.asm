@@ -67,6 +67,7 @@ GenericTrainerPsychicGreg:
 	cont "sie zu"
 	cont "paralysieren."
 	done
+
 SunnyScript:
 	faceplayer
 	opentext
@@ -88,28 +89,21 @@ SunnyScript:
 	jumpthisopenedtext
 
 	text "SONNFRIED: Das"
-	line "Ding…"
-
-	para "Ähm…"
-
-	para "…Was war das noch"
-	line "mal…"
-
+	line "Ding …"
+	para "Ähm …"
+	para "… Was war das noch"
+	line "mal …"
 	para "…"
-
 	para "Ach! Jetzt weiß"
 	line "ich wieder!"
-
 	para "Ein #mon, das"
 	line "Elektro-Attacken"
 	cont "kann,"
-
 	para "soll es tragen."
-
 	para "Meine Schwester"
 	line "MONJA sagte, es"
-	cont "verstärkt Elektro-"
-	cont "Attacken!"
+	cont "verstärkt"
+	cont "Elektro-Attacken!"
 	done
 
 SunnySundayScript:
@@ -176,12 +170,12 @@ PsychicGregSeenText:
 	text "#mon können"
 	line "nicht agieren,"
 	cont "wenn sie schlafen."
-
 	para "Ich werde dir"
 	line "zeigen, wie"
-	cont "furchterregend das"
-	cont "ist!"
+	cont "furcht-erregend"
+	cont "das ist!"
 	done
+
 
 
 
@@ -192,6 +186,7 @@ PsychicGregBeatenText:
 	text "Ich habe verloren."
 	line "Wie betrüblich…"
 	done
+
 
 
 
@@ -212,10 +207,11 @@ MeetSunnyText:
 
 
 
-SunnyGivesGiftText:
-	text "Mir wurde aufge-"
-	line "tragen, dir das"
 
+SunnyGivesGiftText:
+	text "Mir wurde"
+	line "aufgetragen, dir"
+	cont "das"
 	para "zu überreichen,"
 	line "wenn ich dich"
 	cont "treffe!"
@@ -226,10 +222,10 @@ SunnySundayText:
 	cont "MONJA, DIETLINDE,"
 	cont "MITKO, DONATUS,"
 	cont "FRIEDA und SAMSON."
-
 	para "Sie sind alle"
 	line "älter als ich!"
 	done
+
 
 
 
@@ -267,6 +263,7 @@ BeautyCassandraBeatenText:
 Route37SignText:
 	text "ROUTE 37"
 	done
+
 
 
 

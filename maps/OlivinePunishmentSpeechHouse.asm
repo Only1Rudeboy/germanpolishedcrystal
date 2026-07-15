@@ -18,10 +18,8 @@ OlivinePunishmentSpeechHouse_MapScriptHeader:
 OlivinePunishmentSpeechHouseDadText:
 	text "Auf dem Weg nach"
 	line "ANEMONIA CITY"
-
 	para "siehst du vier"
 	line "verlassene Inseln."
-
 	para "Ungezogene Kinder"
 	line "werden zur"
 	cont "Bestrafung auf"

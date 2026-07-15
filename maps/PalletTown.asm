@@ -30,7 +30,6 @@ PalletTownFlyPoint:
 PalletTownTeacherText:
 	text "Ich trainiere auch"
 	line "#mon. Sie"
-
 	para "dienen mir als"
 	line "Leibwächter."
 	done
@@ -49,10 +48,8 @@ PalletTownFisherText:
 
 PalletTownYoungsterText:
 	text "Bis dann, Alter!"
-
-	para "…So redet man hier"
-	line "plötzlich,"
-
+	para "… So redet man"
+	line "hier plötzlich,"
 	para "aber wenn man's"
 	line "bedenkt, ist es"
 	cont "echt seltsam."
@@ -73,8 +70,8 @@ RedsHouseSignText:
 
 
 OaksLabSignText:
-	text "PROF. EICH #mon"
-	line "LABOR"
+	text "PROF. EICH"
+	line "#mon LABOR"
 	done
 
 

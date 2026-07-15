@@ -75,10 +75,9 @@ OlivineLighthouse3FBattleGirlEmy:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "Bruno von der TOP"
+	text "BRUNO von der TOP"
 	line "VIER ist ein"
 	cont "Kämpfer wie ich."
-
 	para "So stark wie er"
 	line "werden--mein Ziel!"
 	done
@@ -104,18 +103,15 @@ OlivineLighthouse3FBattleGirlEmy:
 	text "Du hast also den"
 	line "ganzen Turm"
 	cont "gemeistert?"
-
 	para "Dann bleibt nur"
-	line "noch einer--"
-	cont "Chucks Schülerin:"
-	cont "ich!"
-
+	line "noch einer--Chucks"
+	cont "Schülerin: ich!"
 	para "Bereit zum Kampf?"
 	done
 
 .RefusedText:
 	text "Dann trainiere ich"
-	line "allein weiter…"
+	line "allein weiter …"
 	done
 
 .SeenText:
@@ -134,15 +130,12 @@ OlivineLighthouse3FBattleGirlEmy:
 .AfterText1:
 	text "Dein Team ist"
 	line "beeindruckend!"
-
 	para "Aber du kannst"
 	line "noch stärker"
 	cont "werden."
-
 	para "Mit diesen"
 	line "Schutzpolstern"
 	cont "kannst du"
-
 	para "deinen Gegner"
 	line "berühren, ohne"
 	cont "Schaden zu nehmen."
@@ -160,40 +153,38 @@ Bird_keeperTheoScript:
 	text "Wie, zum Geier,"
 	line "bist du hier"
 	cont "hochgekommen?"
-
 	para "Ich möchte das"
 	line "kranke #mon"
-
 	para "besuchen, aber ich"
 	line "schaffe es nicht"
-	cont "bis nach oben…"
+	cont "bis nach oben …"
 	done
 GenericTrainerGentlemanPreston:
 	generictrainer GENTLEMAN, PRESTON, EVENT_BEAT_GENTLEMAN_PRESTON, GentlemanPrestonSeenText, GentlemanPrestonBeatenText
 
 	text "JASMIN trainierte"
-	line "früher Gestein-"
-	cont "#mon wie ONIX."
+	line "früher"
+	cont "Gestein-#mon"
+	cont "wie ONIX."
 	done
+
 GenericTrainerSailorTerrell:
 	generictrainer SAILOR, TERRELL, EVENT_BEAT_SAILOR_TERRELL, SailorTerrellSeenText, SailorTerrellBeatenText
 
 	text "Jedes Mal wenn ich"
 	line "nach OLIVIANA"
-
 	para "CITY komme, gehe"
-	line "ich in die PKMN-"
-
+	line "ich in die"
+	cont "#mon-"
 	para "ARENA. Der"
 	line "#mon-Typ der"
 	cont "ARENA-"
-
 	para "LEITERIN hat sich"
 	line "geändert, ohne"
-
 	para "dass ich es"
 	line "bemerkte."
 	done
+
 Bird_keeperTheoSeenText:
 	text "Warum bist du"
 	line "gekommen? Bist du"
@@ -231,10 +222,12 @@ SailorTerrellSeenText:
 
 
 
+
 SailorTerrellBeatenText:
 	text "Du bist auch nett"
 	line "und stark…"
 	done
+
 
 
 
@@ -253,10 +246,12 @@ GentlemanPrestonSeenText:
 
 
 
+
 GentlemanPrestonBeatenText:
 	text "…Seufz… Ich muss"
 	line "mehr trainieren…"
 	done
+
 
 
 

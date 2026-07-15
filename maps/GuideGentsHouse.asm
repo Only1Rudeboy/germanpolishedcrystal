@@ -19,14 +19,13 @@ GuideGentsHouseGuideGentText:
 	line "Junge war, war ich"
 	cont "ein richtiger"
 	cont "Heißsporn!"
-
 	para "Ich gebe dir einen"
 	line "Rat: Fange viele"
 	cont "#mon!"
-
 	para "Behandle sie alle"
 	line "mit"
 	cont "Freundlichkeit!"
 	done
+
 
 

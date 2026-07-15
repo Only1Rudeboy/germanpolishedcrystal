@@ -44,27 +44,18 @@ CeladonDeptStore1FGentlemanText:
 CeladonDeptStore1FTeacherText:
 	text "Ich bin zum ersten"
 	line "Mal hier."
-
-	para "Es ist so groß…"
-
+	para "Es ist so groß …"
 	para "Ich fürchte, ich"
 	line "verlaufe mich."
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: Service-    "
-	line "schalter"
-
-	para "2F: Trainer-    "
-	line "Markt"
-
+	text "1F:"
+	line "Serviceschalter"
+	para "2F: Trainer-Markt"
 	para "3F: Technik-Shop"
-
-	para "4F: Weisen-    "
-	line "Geschenke"
-
+	para "4F:"
+	line "Weisen-Geschenke"
 	para "5F: Apotheke"
-
-	para "6F: Dach-    "
-	line "Atrium"
+	para "6F: Dach-Atrium"
 	done

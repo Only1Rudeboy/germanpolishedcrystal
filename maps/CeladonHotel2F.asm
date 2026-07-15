@@ -23,10 +23,9 @@ CeladonHotel2FTeacherText:
 	text "Ich besuche"
 	line "überraschend"
 	cont "meinen Sohn an der"
-
 	para "Uni! Hoffentlich"
 	line "ist es ihm nicht"
-	cont "zu peinlich…"
+	cont "zu peinlich …"
 	done
 
 CeladonHotel2FRoom1Text:

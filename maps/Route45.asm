@@ -82,10 +82,9 @@ Route45Dragon_tamerScript:
 
 .AfterText2:
 	text "Die Kunst,"
-	line "Drachen- #mon"
-	cont "zu trainieren, ist"
+	line "Drachen-#mon zu"
+	cont "trainieren, ist"
 	cont "einfach toll."
-
 	para "Du solltest auch"
 	line "ein"
 	cont "Drachenbändiger"
@@ -95,18 +94,14 @@ Route45Dragon_tamerScript:
 .IntroText:
 	text "Ich trainiere hier"
 	line "meine Drachen."
-
 	para "Hm? Ein Kampf? Ich"
 	line "will einen"
-
 	para "guten, also"
 	line "beweise mir, dass"
 	cont "du stark bist."
-
 	para "Besiege alle"
 	line "Trainer auf dieser"
 	cont "Route,"
-
 	para "dann kämpfe ich"
 	line "gegen dich."
 	done
@@ -157,8 +152,7 @@ GenericTrainerBattleGirlNozomi:
 	generictrainer BATTLE_GIRL, NOZOMI, EVENT_BEAT_BATTLE_GIRL_NOZOMI, BattleGirlNozomiSeenText, BattleGirlNozomiBeatenText
 
 	text "Danke für das"
-	line "Training,"
-	cont "<PLAYER>!"
+	line "Training, <PLAYER>!"
 	done
 
 TrainerBlackbeltKenji:
@@ -326,25 +320,24 @@ GenericTrainerHikerErik:
 
 	text "Ich gehe zum"
 	line "EISPFAD bei"
-
 	para "EBENHOLZ CITY, um"
 	line "etwas mehr zu"
 	cont "trainieren."
 	done
+
 GenericTrainerHikerMichael:
 	generictrainer HIKER, MICHAEL, EVENT_BEAT_HIKER_MICHAEL, HikerMichaelSeenText, HikerMichaelBeatenText
 
 	text "Mensch, wie ich"
 	line "diese KP-PLUS"
 	cont "liebe! Mm, lecker!"
-
 	para "Ich trinke immer"
 	line "die von meinen"
 	cont "#mon!"
-
 	para "Ich kann nichts"
 	line "dagegen tun!"
 	done
+
 TrainerHikerParry:
 	trainer HIKER, PARRY1, EVENT_BEAT_HIKER_PARRY, HikerParry1SeenText, HikerParry1BeatenText, 0, HikerParry1Script
 
@@ -435,10 +428,10 @@ GenericTrainerHikerTimothy:
 
 	text "#mon zu"
 	line "entdecken, war das"
-
 	para "Beste, was mir"
 	line "passieren konnte."
 	done
+
 GenericTrainerCooltrainermRyan:
 	generictrainer COOLTRAINERM, RYAN, EVENT_BEAT_COOLTRAINERM_RYAN, CooltrainermRyanSeenText, CooltrainermRyanBeatenText
 
@@ -454,18 +447,19 @@ GenericTrainerCooltrainermRyan:
 	cont "Situationen"
 	cont "retten."
 	done
+
 GenericTrainerCooltrainerfKelly:
 	generictrainer COOLTRAINERF, KELLY, EVENT_BEAT_COOLTRAINERF_KELLY, CooltrainerfKellySeenText, CooltrainerfKellyBeatenText
 
 	text "Ich mag keine"
 	line "übermäßig starken"
 	cont "Attacken."
-
 	para "Ich will gewinnen,"
 	line "aber ich möchte"
 	cont "dabei keine"
 	cont "#mon verletzen."
 	done
+
 GenericTrainerCamperQuentin:
 	generictrainer CAMPER, QUENTIN, EVENT_BEAT_CAMPER_QUENTIN, CamperQuentinSeenText, CamperQuentinBeatenText
 
@@ -475,6 +469,7 @@ GenericTrainerCamperQuentin:
 	para "Ich verliere dort"
 	line "niemals, aber…"
 	done
+
 BattleGirlNozomiSeenText:
 	text "Hier hat kein"
 	line "schwaches #mon"
@@ -500,10 +495,12 @@ HikerErikSeenText:
 
 
 
+
 HikerErikBeatenText:
-	text "Ach, ich habe"
+	text "Oh, ich habe"
 	line "verloren!"
 	done
+
 
 
 
@@ -514,11 +511,11 @@ HikerMichaelSeenText:
 	text "He! Du hast Mumm"
 	line "in den Knochen!"
 	cont "Aber weißt du was?"
-
 	para "Wenn es um echte"
 	line "Courage geht, bin"
 	cont "ich der Mann!"
 	done
+
 
 
 
@@ -530,6 +527,7 @@ HikerMichaelBeatenText:
 	line "waren leider nicht"
 	cont "couragiert genug!"
 	done
+
 
 
 
@@ -550,7 +548,6 @@ HikerParryAfterBattleText:
 	line "langsam, was das"
 	cont "Denken betrifft,"
 	cont "weißt du?"
-
 	para "Deswegen setze ich"
 	line "alles auf Kraft."
 	done
@@ -560,17 +557,16 @@ HikerParryAfterBattleText:
 
 
 
+
 HikerTimothySeenText:
 	text "Warum ich auf"
 	line "Berge klettere?"
-
 	para "Weil es sie gibt."
-
 	para "Warum ich #mon"
 	line "trainiere?"
-
 	para "Weil es sie gibt!"
 	done
+
 
 
 
@@ -581,6 +577,7 @@ HikerTimothyBeatenText:
 	text "Niederlagen… Die"
 	line "gibt es auch!"
 	done
+
 
 
 
@@ -609,10 +606,10 @@ HikerParryGivesIronText:
 
 
 
+
 BlackbeltKenji1SeenText:
 	text "Ich habe hier ganz"
 	line "allein trainiert."
-
 	para "Sieh die Früchte"
 	line "meiner Arbeit!"
 	done
@@ -636,10 +633,12 @@ BlackbeltKenjiAfterBattleText:
 
 
 
+
 CooltrainermRyanSeenText:
 	text "Was hältst du vom"
 	line "#mon-Training?"
 	done
+
 
 
 
@@ -656,16 +655,17 @@ CooltrainermRyanBeatenText:
 
 
 
+
 CooltrainerfKellySeenText:
 	text "Welche"
 	line "Kampftechnik"
 	cont "verwendest du?"
-
 	para "Setze starke"
 	line "Attacken nicht"
 	cont "völlig willkürlich"
 	cont "ein!"
 	done
+
 
 
 
@@ -682,6 +682,7 @@ CooltrainerfKellyBeatenText:
 
 
 
+
 CamperQuentinSeenText:
 	text "Ich bin wirklich"
 	line "stark!"
@@ -692,10 +693,13 @@ CamperQuentinSeenText:
 
 
 
+
 CamperQuentinBeatenText:
-	text "Ich habe im DUELL-"
-	line "TURM gut gekämpft…"
+	text "Ich habe im"
+	line "DUELL-TURM gut"
+	cont "gekämpft …"
 	done
+
 
 
 
@@ -706,6 +710,7 @@ Route45SignText:
 	text "ROUTE 45 BERGWEG"
 	line "VORAUS"
 	done
+
 
 
 

@@ -265,7 +265,7 @@ INCLUDE "gfx/stats/pink_page.pal"
 	db "Erfahrung@"
 
 .LevelUpStr:
-	db "Bis Level@"
+	db "Nächst. Lv@"
 
 .ToStr:
 	db "zu@"

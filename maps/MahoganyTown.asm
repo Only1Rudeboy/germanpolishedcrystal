@@ -112,20 +112,18 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Hallo, Zwerg!"
-
+	text "Hi, Zwerg!"
 	para "Ich sehe, du bist"
 	line "neu in MAHAGONIA."
-
 	para "Du musst unbedingt"
 	line "einen WUTKEKS"
 	cont "probieren!"
-
 	para "Ich habe einen"
 	line "dabei. Für nur"
 	cont "¥300 gehört er"
 	cont "dir."
 	done
+
 
 
 
@@ -141,10 +139,12 @@ RageCandyBarMerchantRefusedText:
 
 
 
+
 RageCandyBarMerchantNoRoomText:
 	text "Du hast keinen"
 	line "Platz mehr."
 	done
+
 
 
 
@@ -165,10 +165,13 @@ RageCandyBarMerchantSoldOutText:
 
 
 
+
 if DEF(FAITHFUL)
 	text "Die WUTKEKSE sind"
+	done
 else
 	text "Die WUTKEKSE sind"
+	done
 endc
 	line "ausverkauft."
 
@@ -177,69 +180,34 @@ endc
 	cont "Kind."
 	done
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "Die KARPADOR sind"
-	line "zum SEE DES ZORNS"
-	cont "zurückgekehrt."
-
-	para "Das sind gute"
-	line "Neuigkeiten für"
-	cont "die Angler."
+	text "Die verdächtigen"
+	line "Männer sind"
+	cont "verschwunden…"
+	para "Vielleicht war es"
+	line "doch besser, dass"
+	cont "du dich"
+	cont "eingemischt hast."
 	done
-
-
-
-
-
-
 MahoganyTownFisherText:
-	text "Wenn du schon so"
-	line "weit gekommen"
-
-	para "bist, solltest du"
-	line "dir die Zeit"
-	cont "nehmen, um etwas"
-
-	para "Sightseeing zu"
-	line "unternehmen."
-
-	para "Geh nach Norden"
-	line "und sieh dir den"
-
-	para "SEE DES ZORNS an."
+	text "Bist du auf dem"
+	line "Weg zum SEE DES"
+	cont "ZORNS?"
+	para "Die Leute sagen,"
+	line "dort wütet ein"
+	cont "rotes GARADOS."
 	done
-
-
-
-
-
-
 MahoganyTownLassText:
-	text "Besuche Großmut-"
-	line "ters Laden. Sie"
-
-	para "verkauft Artikel,"
-	line "die du sonst"
-	cont "nirgends bekommen"
-	cont "kannst."
+	text "Pass auf die"
+	line "Touristen auf, die"
+	cont "die"
+	cont "RAGECANDY-RIEGEL"
+	cont "verkaufen."
 	done
-
-
-
-
-
-
 MahoganyTownSignText:
 	text "MAHAGONIA CITY"
-
 	para "Willkommen in der"
 	line "Stadt der Ninja"
 	done
-
-
-
-
-
-
 MahoganyTownSouvenirShopSignText1:
 	text "Nur ein"
 	line "Souvenirladen"
@@ -252,17 +220,9 @@ MahoganyTownSouvenirShopSignText1:
 	done
 
 MahoganyGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "MAHAGONIA CITY"
-
-	para "LEITUNG: NORBERT"
-	line "Der Lehrer der"
-
-	para "Härte des Winters"
+	cont "LEITUNG: NORBERT"
+	para "Der Lehrer der"
+	line "Härte des Winters"
 	done
-
-
-
-
-
-

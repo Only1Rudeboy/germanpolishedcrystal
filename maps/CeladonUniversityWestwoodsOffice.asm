@@ -41,13 +41,12 @@ CeladonUniversityWestwoodsOfficeChildScript:
 	text "Man sagte mir,"
 	line "hier gäbe es"
 	cont "gratis Pizza!"
-
 	para "Wo ist sie?"
-
 	para "Ich bin so WÜTEND!"
-
-	para "…Vielleicht sollte"
-	line "ich aufhören,"
+	para "… Vielleicht"
+	line "sollte ich"
+	cont "aufhören,"
+	done
 if DEF(FAITHFUL)
 	cont "Wutbonbons zu"
 	cont "knabbern."
@@ -62,22 +61,16 @@ endc
 
 CeladonUniversityWestwoodsOfficeBookText:
 	text "Liebes Tagebuch,"
-
 	para "Meine Arbeit am"
 	line "#dex wird gut"
-
 	para "aufgenommen."
-
 	para "Beweis, dass man"
 	line "nicht immer das"
-
 	para "Büro verlassen"
 	line "muss, um Erfolg zu"
 	cont "haben!"
-
 	para "Berichte anderer"
 	line "reichen völlig."
-
 	para "Damit erledigt"
 	line "sich alles."
 	done

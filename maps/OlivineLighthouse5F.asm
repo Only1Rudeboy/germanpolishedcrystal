@@ -28,24 +28,28 @@ GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
 
 	text "Mein #mon hat"
-	line "FLIEGEN im Gelben"
-	cont "Wald gelernt."
+	line "das FLIEGEN in"
+	cont "ANEMONIA CITY"
+	cont "gelernt."
 
-	para "Na ja, als"
-	line "Verlierer fliege"
-	cont "ich übers Meer…"
+	para "Da ich ein"
+	line "Verlierer bin,"
+	cont "fliege ich nun"
+	cont "fort, über das"
+	cont "Meer…"
 	done
+
 
 GenericTrainerSailorErnest:
 	generictrainer SAILOR, ERNEST, EVENT_BEAT_SAILOR_ERNEST, SailorErnestSeenText, SailorErnestBeatenText
 
 	text "Ein ARENALEITER"
 	line "muss nicht nur"
-
 	para "stark sein. Auch"
 	line "Mitgefühl zeichnet"
 	cont "ihn aus."
 	done
+
 SailorErnestSeenText:
 	text "Ich hatte vor,"
 	line "gegen JASMIN zu"
@@ -56,10 +60,12 @@ SailorErnestSeenText:
 	done
 
 
+
 SailorErnestBeatenText:
 	text "Wow, du hast mich"
 	line "überwältigt!"
 	done
+
 
 
 Bird_keeperDenisSeenText:

@@ -29,10 +29,8 @@ Route16FuchsiaSpeechHouseLadyText:
 	text "Die Person, die"
 	line "hier früher"
 	cont "wohnte,"
-
 	para "ist vor drei"
 	line "Jahren weggezogen."
-
 	para "Ich frage mich, wo"
-	line "sie ist…"
+	line "sie ist …"
 	done

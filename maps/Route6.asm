@@ -195,7 +195,6 @@ OfficerfJennyScript:
 .AfterText:
 	text "Tut mir leid, dich"
 	line "zu stören."
-
 	para "Nachts werde ich"
 	line "leicht nervös."
 	done
@@ -216,7 +215,6 @@ Route6PokefanMText:
 
 Route6UndergroundPathSignText:
 	text "TUNNELPFAD"
-
 	para "AZURIA CITY -"
 	line "ORANIA CITY"
 	done

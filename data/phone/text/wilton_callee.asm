@@ -25,9 +25,9 @@ WiltonAnswerPhoneNiteText:
 	cont ""
 	text_ram wStringBuffer3
 	text "…"
-
-	para "Ah, wenn das nicht"
-	line "<PLAYER> ist."
+	para "Ah, wenn das"
+	line "nicht <PLAYER>"
+	cont "ist."
 	done
 
 WiltonGreetText:
@@ -53,8 +53,8 @@ WiltonGreetNiteText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Sorry für den"
-	line "späten Anruf."
+	para "Tut mir leid für"
+	line "den späten Anruf."
 	done
 
 WiltonGenericText:

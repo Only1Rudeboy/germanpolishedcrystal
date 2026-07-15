@@ -126,17 +126,14 @@ AzaleaTownRivalBattleTrigger2:
 	end
 
 .SeenText:
-	text "…Sag mir mal"
+	text "… Sag mir mal"
 	line "etwas."
-
 	para "Stimmt es, dass"
-	line "Team Rocket"
-	cont "zurückkam?"
-
+	line "TEAM ROCKET zurück"
+	cont "ist?"
 	para "Was? Du hast sie"
 	line "besiegt? Ha! Hör"
 	cont "auf zu lügen."
-
 	para "Du meinst das"
 	line "ernst? Dann zeig"
 	cont "mir, was du"
@@ -144,50 +141,39 @@ AzaleaTownRivalBattleTrigger2:
 	done
 
 .WinText:
-	text "…Pah! Nutzlose"
+	text "… Pah! Nutzlose"
 	line "#mon!"
-
 	para "Hör zu. Du hast"
-	line "nur gewonnen,"
-
-	para "weil meine #mon"
-	line "schwach waren."
+	line "nur gewonnen, weil"
+	cont "meine #mon"
+	cont "schwach waren."
 	done
 
 .LossText:
-	text "…Pah! Ich wusste"
+	text "… Pah! Ich wusste,"
 	line "dass du lügst."
 	done
 
 .AfterText:
 	text "Ich hasse"
 	line "Schwäche."
-
-	para "#mon, Trainer,"
-	line "es ist egal, wer"
-	cont "oder was."
-
+	para "#mon, Trainer"
+	line "egal wer oder was."
 	para "Ich werde stark"
 	line "und lösche die"
 	cont "Schwachen aus."
-
 	para "Das gilt auch für"
-	line "Team Rocket."
-
-	para "Sie geben in der"
-	line "Gruppe groß an."
-
-	para "Doch allein sind"
-	line "sie schwach."
-
+	line "TEAM ROCKET."
+	para "In der Gruppe"
+	line "geben sie groß an."
+	cont "Allein sind sie"
+	cont "schwach."
 	para "Ich hasse sie"
 	line "alle."
-
 	para "Geh mir aus dem"
 	line "Weg. Ein"
-
-	para "Schwächling wie du"
-	line "lenkt nur ab."
+	cont "Schwächling wie du"
+	cont "lenkt nur ab."
 	done
 
 .ApproachMovement:
@@ -209,16 +195,16 @@ AzaleaTown_CelebiTrigger:
 	applymovement PLAYER, .WalkOutOfKurtsHouseMovement
 	opentext
 	writethistext
-		text "Der Steineichen-"
-		line "wald ist unruhig!"
-
+		text "Der"
+		line "STEINEICHEN-WALD"
+		cont "ist unruhig!"
 		para "Was ist los?"
 		done
 	promptbutton
 	turnobject AZALEATOWN_KURT, RIGHT
 	writethistext
 		text "<PLAYER>, hier ist"
-		line "dein GS-Ball"
+		line "dein GS-BALL"
 		cont "zurück!"
 		done
 	promptbutton
@@ -240,68 +226,69 @@ AzaleaTown_CelebiTrigger:
 	step_end
 
 AzaleaTownSignText:
-	text "Azalea City Wo"
-	line "Mensch und"
-
-	para "#mon in"
-	line "Harmonie leben"
+	text "AZALEA CITY"
+	line "Hier leben Men-"
+	cont "schen und #mon"
+	cont "in Harmonie"
 	done
+
 
 KurtsHouseSignText:
-	text "Kurts Haus"
+	text "KURTs HAUS"
 	done
+
 
 AzaleaGymSignText:
-	text "Azalea City"
-	line "#mon-Arena"
-	cont "Leiter: Kai"
-
-	para "Das wandelnde"
-	line "Käfer-#mon-"
-	cont "Lexikon"
+	text "PKMN-ARENA von"
+	line "AZALEA CITY"
+	cont "LEITUNG: KAI"
+	para "Die lebende Käfer-"
+	line "#mon-Enzyklo-"
+	cont "pädie"
 	done
+
 
 SlowpokeWellSignText:
-	text "Flegmon-Brunnen"
-
-	para "Auch bekannt als"
-	line "Regenmacher-"
-	cont "Brunnen."
-
-	para "Man glaubt, ein"
-	line "Gähnen von Flegmon"
-	cont "bringt Regen."
-
-	para "Aufzeichnungen"
-	line "zeigen: Ein Gähnen"
-
-	para "beendete vor 400"
-	line "Jahren eine Dürre."
+	text "Der FLEGMON-BRUN-"
+	line "NEN ist auch be-"
+	cont "kannt als REGEN-"
+	cont "MACHERQUELLE."
+	para "Die Leute hier"
+	line "glauben, dass das"
+	cont "Gähnen eines FLEG-"
+	cont "MONs Regen er-"
+	cont "zeugt."
+	para "Laut den Aufzeich-"
+	line "nungen soll das"
+	para "Gähnen eines FLEG-"
+	line "MONS vor 400 Jah-"
+	cont "ren eine Dürre be-"
+	cont "endet haben."
 	done
+
 
 CharcoalKilnSignText:
-	text "Kohlenmeiler"
+	text "HOLZKOHLE-OFEN"
 	done
+
 
 AzaleaTownIlexForestSignText:
-	text "Steineichenwald"
+	text "STEINEICHENWALD"
 
-	para "Betritt ihn durchs"
-	line "Tor."
+	para "Tritt durch das"
+	line "Tor"
 	done
+
 
 AzaleaTownAdvancedTipsSignText:
 	text "Profi-Tipps!"
-
-	para "Der Wechsel-"
-	line "Kampfstil zeigt"
-	cont "dir, welches"
+	para "Der"
+	line "Wechsel-Kampfstil"
+	cont "zeigt, welches"
 	cont "#mon"
-
 	para "der Gegner als"
-	line "Nächstes schickt,"
-
-	para "aber der"
+	line "Nächstes schickt."
+	para "Der"
 	line "Vorhersage-Stil"
 	cont "zeigt das nicht!"
 	done
@@ -311,24 +298,22 @@ AzaleaTownGrampsScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Die Flegmon sind"
+	text "Die FLEGMON sind"
 	line "aus der Stadt"
-	cont "verschwunden…"
-
+	cont "verschwunden …"
 	para "Ich hörte, ihre"
 	line "Schwänze werden"
 	cont "irgendwo verkauft."
 	done
 
 .Text2:
-	text "Die Flegmon sind"
+	text "Die FLEGMON sind"
 	line "zurück."
 
-	para "Typisch für sie,"
-	line "sie haben wohl nur"
-
-	para "irgendwo"
-	line "rumgetrödelt."
+	para "Typisch für sie."
+	line "Sie haben wohl"
+	cont "irgendwo nur"
+	cont "rumgetrödelt."
 	done
 
 AzaleaTownTeacherScript:
@@ -348,90 +333,89 @@ AzaleaTownTeacherScript:
 .Text2:
 	text "Er hat sich"
 	line "verändert, aber"
-
-	para "für mich bleibt er"
-	line "immer mein kleiner"
-	cont "Wooster."
+	cont "für mich bleibt er"
+	cont "immer mein kleiner"
+	cont "WOOSTER."
 	done
 
 .Text1:
-	text "Seit die Flegmon"
+	text "Seit die FLEGMON"
 	line "verschwanden, hat"
 	cont "es nicht geregnet."
-
-	para "Mein armer Wooster"
+	para "Mein armer WOOSTER"
 	line "kommt bei diesem"
-	cont "Wetter nicht klar…"
+	cont "Wetter nicht klar"
+	cont "…"
 	done
 
 .Text3:
 	text "In einem"
 	line "plötzlichen Regen"
-	cont "ist er entwickelt!"
-
+	cont "hat er sich"
+	cont "entwickelt!"
 	para "Oh? Du hast die"
-	line "Flegmon"
+	line "FLEGMON"
 	cont "zurückgebracht?"
-
 	para "Sie brachten den"
 	line "Regen mit!"
-
 	para "Vielen, vielen"
 	line "Dank!"
-
 	para "Bitte nimm das, du"
-	line "hast's verdient!"
+	line "hast es verdient!"
 	done
 
 AzaleaTownWoosterText:
-	text "Wooster: Gugyoo…"
+	text "WOOSTER: Gugyoo …"
 	done
 
 AzaleaTownYoungsterText:
-	text "Schneide durch"
-	line "Azalea und du bist"
-	cont "im"
-	cont "Steineichenwald."
-
-	para "Aber diese dünnen"
-	line "Bäume machen das"
-	cont "unmöglich."
-
-	para "Das #mon vom"
-	line "Kohlenmann kann"
-	cont "Bäume"
-	cont "zerschneiden."
+	text "Geh durch AZALEA"
+	line "CITY und du"
+	cont "landest im"
+	cont "STEINEICHENWALD."
+	para "Aber diese dürren"
+	line "Bäume machen es"
+	cont "unmöglich,"
+	cont "weiterzukommen."
+	para "Die #mon des"
+	line "KÖHLERS können die"
+	cont "Bäume mit"
+	cont "Zerschneider"
+	cont "fällen."
 	done
+
 
 AzaleaTownRocket1Text:
-	text "Da reinzugehen ist"
-	line "gefährlich, drum"
-	cont "halte ich Wache."
-
+	text "Es ist gefährlich,"
+	line "da hineinzugehen."
+	cont "Darum stehe ich"
+	cont "hier Wache."
 	para "Bin ich nicht ein"
-	line "guter Samariter?"
+	line "barmherziger"
+	cont "Samariter?"
 	done
+
 
 AzaleaTownRocket2Text:
-	text "Kennst du den"
-	line "Flegmonschwanz? Er"
-	cont "soll lecker sein!"
-
-	para "Bist du nicht"
-	line "froh, dass ich's"
-	cont "dir gesagt hab?"
+	text "Hast du schon mal"
+	line "eine FLEGMONRUTE"
+	cont "probiert? Sie soll"
+	cont "sehr lecker sein."
+	para "Du bist sicher"
+	line "froh, dass ich dir"
+	cont "das gesagt habe."
 	done
+
 
 AzaleaTownSlowpokeScript:
 	opentext
 	writethistext
-		text "Flegmon: …"
-
-		para "…… …… ……"
+		text "FLEGMON: …"
+		para "… … … … … …"
 		done
 	pause 60
 	writethistext
-		text "…… ……Gähn?"
+		text "… … … … Gähn?"
 		done
 	cry SLOWPOKE
 	waitendtext
@@ -445,6 +429,6 @@ AzaleaTownKurtText:
 	text "Könntest du"
 	line "nachsehen, warum"
 	cont "der"
-	cont "Steineichenwald so"
+	cont "STEINEICHENWALD so"
 	cont "unruhig ist?"
 	done

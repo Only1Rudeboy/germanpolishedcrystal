@@ -187,7 +187,6 @@ TinTower1FSage4Script:
 
 	text "Es scheint, als ob"
 	line "HO-OH vom ZINNTURM"
-
 	para "heruntergekommen"
 	line "ist!"
 	done
@@ -197,18 +196,15 @@ TinTower1FSage4Script:
 
 	text "Die legendären"
 	line "#mon sollen"
-
 	para "die drei Mächte"
-	line "verkörpern…"
-
+	line "verkörpern …"
 	para "Die Blitze, die im"
 	line "TURM einschlugen."
-
 	para "Das Feuer, das den"
 	line "TURM zerstörte."
-
 	para "Und den Regen, der"
-	line "das Feuer löschte…"
+	line "das Feuer löschte"
+	cont "…"
 	done
 
 TinTower1FSage5Script:
@@ -240,25 +236,20 @@ TinTower1FSage5Script:
 	jumpthisopenedtext
 
 	text "Als das legendäre"
-	line "#mon erschien…"
-
+	line "#mon erschien …"
 	para "Diejenigen, die"
 	line "ihrem Aufstieg"
-
 	para "beiwohnten, wurden"
 	line "Zeugen ihres"
 	cont "Terrors."
-
-	para "Und…"
-
+	para "Und …"
 	para "Einige griffen zu"
 	line "sinnlosen"
 	cont "Attacken."
-
 	para "Die legendären"
-	line "#mon, wohl-"
-	cont "wissend ob ihrer"
-
+	line "#mon,"
+	cont "wohlwissend ob"
+	cont "ihrer"
 	para "Kraft, flohen und"
 	line "ignorierten die"
 	cont "geängstigten"
@@ -272,7 +263,6 @@ TinTower1FSage6Script:
 
 	text "Ich glaube, du"
 	line "wirst geprüft."
-
 	para "Sprenge die Ketten"
 	line "der Unsicherheit"
 	cont "von deinem"
@@ -284,21 +274,17 @@ TinTower1FSage6Script:
 
 	text "Von den legendären"
 	line "#mon soll"
-
 	para "SUICUNE die"
 	line "stärkste Bindung"
 	cont "zu HO-OH haben."
-
 	para "Ich habe gehört,"
 	line "dass es auch eine"
-
-	para "Verbindung zu ei-"
-	line "nem #mon namens"
-	cont "ICOGNITO gibt."
-
+	para "Verbindung zu"
+	line "einem #mon"
+	cont "namens ICOGNITO"
+	cont "gibt."
 	para "ICOGNITO muss"
 	line "einen kooperativen"
-
 	para "Bund mit SUICUNE"
 	line "haben."
 	done
@@ -406,109 +392,85 @@ TinTower1FSage3EntersMovement:
 TinTowerEusineSuicuneText:
 	text "EUSIN: Wahnsinn!"
 	line "Einfach Wahnsinn!"
-
 	para "Einen derartigen"
 	line "Kampf habe ich"
 	cont "noch nie gesehen."
-
 	para "Das hat mich sehr"
 	line "beeindruckt."
-
 	para "SUICUNE war stark,"
 	line "aber du warst noch"
-
 	para "unglaublicher,"
 	line "<PLAYER>."
-
 	para "Ich hörte, dass"
 	line "SUICUNEs mystische"
-
 	para "Kraft ein"
 	line "regenbogenfarbenes"
-	cont "#mon anlockt."
-
+	cont "#mon"
 	para "Vielleicht zeigt"
-	line "sich dieses"
-	cont "#mon, nach dem,"
-	cont "was"
-
+	line "sich #mon, nach"
+	cont "dem, was"
 	para "sich heute"
 	line "ereignete."
-
 	para "Ich werde diese"
 	line "Legende noch"
 	cont "einmal nachlesen."
-
 	para "Danke, dass ich"
 	line "diesem Spitzen-"
-
 	para "kampf beiwohnen"
 	line "durfte."
-
 	para "Bis dann,"
-	line "<PLAYER>!"
 	done
 TinTower1FSage1Text:
 	text "Die Legende besagt"
 	line "…"
-
 	para "Kommunizieren die"
 	line "Seelen von #mon"
-
 	para "und Menschen,"
 	line "kommt ein"
 	cont "regenbogenfarbenes"
-
 	para "#mon vom Himmel"
-	line "herab…"
-
+	line "herab …"
 	para "Könnte das"
 	line "bedeuten, dass die"
-
 	para "legendären #mon"
 	line "uns Menschen auf"
 	cont "die Probe stellen?"
 	done
 
 
+
 TinTower1FSage2Text:
 	text "Als der BRONZETURM"
 	line "abbrannte, sollen"
-
 	para "drei namenlose"
 	line "#mon im Feuer"
-
 	para "umgekommen sein."
 	line "Eine Tragödie."
-
-	para "Jedoch…"
-
-	para "Ein regenbogen-"
-	line "farbenes #mon…"
-
-	para "Genauer gesagt…"
-
+	para "Jedoch …"
+	para "Ein"
+	line "regenbogenfarbenes"
+	cont "#mon …"
+	para "Genauer gesagt …"
 	para "HO-OH kam vom"
 	line "Himmel herab und"
-
 	para "erweckte die drei"
 	line "#mon wieder zum"
 	cont "Leben."
-
-	para "Es sind…"
-
+	para "Es sind …"
 	para "SUICUNE, ENTEI und"
 	line "RAIKOU."
-
 	para "So lautet die"
 	line "Legende."
 	done
 
 
+
 if DEF(FAITHFUL)
 	text "Als der BRONZE-"
+	done
 else
 	text "Als der GONG-"
+	done
 endc
 	line "TURM abbrannte,"
 	cont "sollen"
@@ -535,7 +497,7 @@ endc
 
 	para "Es sind…"
 
-	para "SUICUNE, ENTEI und"
+	para "SUICUNE, ENTEI"
 	line "RAIKOU."
 
 	para "So lautet die"
@@ -544,19 +506,17 @@ endc
 TinTower1FSage3Text:
 	text "Die beiden TÜRME"
 	line "wurden errichtet,"
-
 	para "um Freundschaft"
 	line "und Hoffnung"
-
 	para "zwischen #mon"
 	line "und den Menschen"
 	cont "zu festigen."
-
 	para "Das war vor 700"
 	line "Jahren, aber diese"
 	cont "Maxime ist noch"
 	cont "heute gültig."
 	done
+
 
 
 TinTower1FSage5Text1:
@@ -565,44 +525,34 @@ TinTower1FSage5Text1:
 	done
 
 
+
 TinTowerEusineHoOhText:
 	text "EUSIN: Ich wusste"
 	line "es."
-
 	para "Ich wusste, du"
 	line "würdest das"
-
 	para "regenbogenfarbene"
 	line "#mon sehen,"
 	cont "<PLAYER>."
-
 	para "Es geschah genau"
 	line "so, wie ich es mir"
 	cont "vorgestellt habe."
-
 	para "Meine Forschung"
 	line "ist gar nicht"
 	cont "schlecht, würde"
 	cont "ich sagen."
-
 	para "Ich werde #mon"
 	line "weiter studieren"
-
 	para "und ein berühmter"
 	line "#Maniac werden!"
-
 	para "Wenn du mal in"
 	line "PRISMANIA CITY"
-
 	para "bist, sagst du"
 	line "hallo zu meinem"
 	cont "Opa?"
-
 	para "Ihm würde die"
 	line "Gesellschaft gut"
 	cont "tun, während ich"
 	cont "weg bin."
-
 	para "Bis dann,"
-	line "<PLAYER>!"
 	done

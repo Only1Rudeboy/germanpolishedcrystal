@@ -95,7 +95,6 @@ GenericTrainerGuitaristfJaclyn:
 .SeenText:
 	text "Lass meine Gitarre"
 	line "heulen!"
-
 	para "Hör mich schreien!"
 	done
 
@@ -154,7 +153,6 @@ GenericTrainerBird_keeperTrent:
 	line "Tag früh auf, um"
 	cont "hier meine Vögel"
 	cont "zu trainieren."
-
 	para "Der Lärm gehört zu"
 	line "unserem Training"
 	cont "dazu."
@@ -174,7 +172,6 @@ NoisyForestTeacherText:
 	text "Ich komme hier"
 	line "morgens zum"
 	cont "Spazieren."
-
 	para "Ich hab sogar"
 	line "einen"
 	cont "Schrittzähler, der"
@@ -233,12 +230,10 @@ NoisyForestPikabluScript:
 .OwnerText3:
 	text "Ein Souvenir"
 	line "deiner Zeit auf"
-	cont "der Shamouti-"
-	cont "Insel!"
-
+	cont "der"
+	cont "Shamouti-Insel!"
 	para "Sieht es nicht"
 	line "seltsam aus?"
-
 	para "Tschüss und"
 	line "nochmal danke!"
 	done
@@ -247,10 +242,9 @@ NoisyForestPikabluScript:
 	text "Ach, du kannst es"
 	line "gerade nicht"
 	cont "tragen."
-
-	para "Komm zum #mon-"
-	line "Center, wenn du es"
-	cont "willst."
+	para "Komm zum"
+	line "#mon-Center,"
+	cont "wenn du es willst."
 	done
 
 .WalkToYou:

@@ -202,10 +202,10 @@ GoldenrodCityCooltrainerF1Script:
 
 	text "Ist der Mann in"
 	line "Schwarz als"
-
 	para "TEAM-ROCKET-"
-	line "Mitglied verkle-"
-	cont "idet? Wie albern!"
+	line "Mitglied"
+	cont "verkleidet? Wie"
+	cont "albern!"
 	done
 
 GoldenrodCityCooltrainerF2Script:
@@ -268,21 +268,22 @@ GoldenrodCityPanUpMovementData:
 GoldenrodCityPokefanMText:
 	text "Der neue RADIOTURM"
 	line "wurde erbaut, um"
-
 	para "den alten zu"
 	line "ersetzen."
 	done
 
 
 
+
 GoldenrodCityYoungster1Text:
 	text "Es soll einen"
-	line "neuen FAHRRADLADEN"
-
+	line "neuen"
+	cont "FAHRRADLADEN"
 	para "geben, aber ich"
 	line "kann ihn nirgends"
 	cont "finden."
 	done
+
 
 
 
@@ -298,34 +299,31 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 
 
 
+
 GoldenrodCityCooltrainerF2Text:
 	text "Der RADIOTURM in"
 	line "DUKATIA CITY ist"
 	cont "ein Wahrzeichen."
-
 	para "Zurzeit läuft"
 	line "gerade eine"
 	cont "Werbekampagne."
-
-	para "Man kann deinen"
-	line "#Com"
+	para "Sie können deinen"
+	line "#COM"
 	cont "modifizieren, so"
 	cont "dass er auch als"
 	cont "Radio"
-
 	para "verwendet werden"
 	line "kann."
 	done
 
 
 
+
 GoldenrodCityCooltrainerFOlivineText:
 	text "Ich kam mit dem MS"
 	line "AQUA her."
-
 	para "Es ist langsamer"
 	line "als der MAGNETZUG,"
-
 	para "aber die Aussicht"
 	line "ist schöner."
 	done
@@ -333,15 +331,15 @@ GoldenrodCityCooltrainerFOlivineText:
 
 
 GoldenrodCityYoungster2Text:
-	text "E-he-he-he…"
-
+	text "E-he-he-he …"
 	para "Ich habe Ärger"
-	line "bekommen, weil ich"
-
+	line "bekommen, weil"
+	cont "ich"
 	para "im Keller des"
 	line "KAUFHAUSes"
 	cont "gespielt habe."
 	done
+
 
 
 
@@ -350,7 +348,6 @@ GoldenrodCityLassText:
 	line "Haus bewertet"
 	cont "deine"
 	cont "#mon-Namen."
-
 	para "Er kann deine"
 	line "#mon auch"
 	cont "umbenennen."
@@ -358,13 +355,14 @@ GoldenrodCityLassText:
 
 
 
-GoldenrodCityGrampsText:
-	text "Wow! Das ist eine"
-	line "große Stadt. Ich"
 
+GoldenrodCityGrampsText:
+	text "Toll! Das ist eine"
+	line "große Stadt. Ich"
 	para "finde mich noch"
 	line "gar nicht zurecht."
 	done
+
 
 
 
@@ -372,6 +370,7 @@ GoldenrodCityRocketScoutText1:
 	text "Das ist also der"
 	line "RADIOTURM…"
 	done
+
 
 
 
@@ -383,6 +382,7 @@ GoldenrodCityRocketScoutText2:
 
 
 
+
 GoldenrodCityRocket1Text:
 	text "Aus dem Weg!"
 	line "Verschwinde!"
@@ -390,13 +390,14 @@ GoldenrodCityRocket1Text:
 
 
 
+
 GoldenrodCityRocket2Text:
 	text "Den RADIOTURM"
-	line "einnehmen…"
-
+	line "einnehmen …"
 	para "Was? Das geht dich"
 	line "nichts an!"
 	done
+
 
 
 
@@ -410,14 +411,15 @@ GoldenrodCityRocket3Text:
 
 
 
+
 GoldenrodCityRocket4Text:
 	text "Bald wird sich"
 	line "unser Traum"
-	cont "erfüllen…"
-
+	cont "erfüllen …"
 	para "So lange hat es"
-	line "schon gedauert…"
+	line "schon gedauert …"
 	done
+
 
 
 
@@ -429,11 +431,13 @@ GoldenrodCityRocket5Text:
 
 
 
+
 GoldenrodCityRocket6Text:
 	text "Komm und werde"
 	line "Zeuge der Macht"
 	cont "von TEAM ROCKET!"
 	done
+
 
 
 
@@ -444,8 +448,8 @@ GoldenrodCityGymLassText:
 	para "Sie rannte raus"
 	line "und rief:"
 
-	para "“Ich brauche eine"
-	line "Radiokarte!”"
+	para "'Ich brauche eine"
+	line "Radiokarte!'"
 	done
 
 GoldenrodCityStationSignText:
@@ -455,10 +459,12 @@ GoldenrodCityStationSignText:
 
 
 
+
 GoldenrodCityRadioTowerSignText:
 	text "DUKATIA CITY"
 	line "RADIOTURM"
 	done
+
 
 
 
@@ -472,8 +478,9 @@ GoldenrodDeptStoreSignText:
 
 
 
+
 GoldenrodGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "DUKATIA CITY"
 	cont "LEITUNG: BIANKA"
 
@@ -483,13 +490,14 @@ GoldenrodGymSignText:
 
 
 
+
 GoldenrodCitySignText:
 	text "DUKATIA CITY"
-
 	para "Die festliche"
 	line "Stadt mit"
 	cont "opulentem Charme"
 	done
+
 
 
 
@@ -498,6 +506,7 @@ GoldenrodCityBikeShopSignText:
 	line "Radweg!"
 	cont "FAHRRADLADEN"
 	done
+
 
 
 
@@ -510,9 +519,9 @@ GoldenrodCityGameCornerSignText:
 
 
 
+
 GoldenrodCityNameRaterSignText:
 	text "NAMEN-BEWERTER"
-
 	para "Möchtest du deine"
 	line "Spitznamen"
 	cont "bewerten lassen?"
@@ -520,9 +529,9 @@ GoldenrodCityNameRaterSignText:
 
 
 
+
 GoldenrodCityUndergroundSignText:
-	text "UNTERGRUND-"
-	line "EINGANG"
+	text "UNTERGRUND-EINGANG"
 	done
 PokeComCenterSignText:
 	text "Vernetze die Welt!"
@@ -536,12 +545,11 @@ GoldenrodCityFlowerShopSignText:
 
 
 
+
 GoldenrodMuseumSignText:
 	text "Museum von DUKATIA"
 	line "CITY"
-
 	para "Große Eröffnung!"
-
 	para "Entdecke Johtos"
 	line "Geschichte!"
 	done
@@ -560,55 +568,59 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 
 
 
+
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
 	text "Das kostet dich"
-	line "4000 Münzen. In"
-	cont "Ordnung?"
+	line "4000 Münzen. Okay?"
 	done
+
 
 
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Uah… aber sie sind"
-	line "wirklich toll…"
+	text "Uah … aber sie"
+	line "sind wirklich toll"
+	cont "…"
 	done
+
 
 
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
 	text "Wahahah! Das wirst"
 	line "du nicht bereuen!"
-
 	para "Welche Attacke"
 	line "erlernen?"
 	done
 
 
 
+
 GoldenrodCityMoveTutorHmTooBadText:
 	text "Hm, Mist. Ich muss"
 	line "noch Geld von zu"
-	cont "Hause holen…"
+	cont "Hause holen …"
 	done
+
 
 
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
 	text "Wenn du verstehst,"
 	line "was an dieser"
-
 	para "Attacke so toll"
 	line "ist, dann darfst"
-
 	para "du dich einen"
 	line "Trainer nennen."
 	done
 
 
 
+
 GoldenrodCityMoveTutorBButText:
 	text "A-aber…"
 	done
+
 
 
 

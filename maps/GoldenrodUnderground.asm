@@ -139,6 +139,7 @@ GenericTrainerSupernerdEric:
 	line "ich lieber fair"
 	cont "spielen sollte…"
 	done
+
 GenericTrainerSupernerdTeru:
 	generictrainer SUPER_NERD, TERU, EVENT_BEAT_SUPER_NERD_TERU, SupernerdTeruSeenText, SupernerdTeruBeatenText
 
@@ -146,11 +147,11 @@ GenericTrainerSupernerdTeru:
 	line "Stärken und"
 	cont "Schwächen meiner"
 	cont "#mon."
-
 	para "Aber ich setze nur"
 	line "einen #mon-Typ"
 	cont "ein."
 	done
+
 GenericTrainerPokemaniacIssac:
 	generictrainer POKEMANIAC, ISSAC, EVENT_BEAT_POKEMANIAC_ISSAC, PokemaniacIssacSeenText, PokemaniacIssacBeatenText
 
@@ -160,22 +161,22 @@ GenericTrainerPokemaniacIssac:
 	para "wenn du sie zum"
 	line "Coiffeur bringst."
 	done
+
 GenericTrainerPokemaniacDonald:
 	generictrainer POKEMANIAC, DONALD, EVENT_BEAT_POKEMANIAC_DONALD, PokemaniacDonaldSeenText, PokemaniacDonaldBeatenText
 
 	text "Erstellst du einen"
-	line "#dex? Ich habe"
+	line "#DEX? Ich habe"
 	cont "einen heißen Tipp"
 	cont "für dich."
-
 	para "WANDERER TOM auf"
 	line "ROUTE 33 ist sehr"
 	cont "freundlich."
-
 	para "Er ruft dich an,"
 	line "wenn er seltene"
 	cont "#mon sieht."
 	done
+
 GenericTrainerCosplayerClara:
 	generictrainer COSPLAYER, CLARA, EVENT_BEAT_COSPLAYER_CLARA, CosplayerClaraSeenText, CosplayerClaraBeatenText
 
@@ -446,18 +447,14 @@ GoldenrodUndergroundCandyManScript:
 .GiveCandyJarText2:
 	text "Das ist ein"
 	line "Bonbonglas."
-
 	para "Du brauchst es, um"
 	line "meine, äh,"
 	cont "speziellen Bonbons"
 	cont "aufzubewahren."
-
 	para "Das erste geht auf"
 	line "mich! Probier es."
-
-	para "…Für deine"
-	line "#mon,"
-	cont "natürlich."
+	para "… Für #mon,"
+	line "natürlich."
 	done
 
 PiersScript:
@@ -545,25 +542,19 @@ PiersRematchAfterText:
 	text "Ich hab eine"
 	line "kleine Schwester."
 	cont "Sie heißt Marnie."
-
 	para "Sie ist so süß,"
 	line "wie man es nur"
 	cont "sich vorstellt."
-
 	para "Wenn sie älter"
 	line "ist, weiß ich"
-
 	para "nicht, ob sie"
 	line "singen, Musik"
-
 	para "machen oder mit"
 	line "#mon kämpfen"
 	cont "will, oder was"
 	cont "ganz Neues."
-
 	para "Aber was auch"
 	line "immer sie wählt,"
-
 	para "ich hoffe, sie hat"
 	line "so viel"
 	cont "Leidenschaft wie"
@@ -575,15 +566,12 @@ PiersIntroText:
 	line "bescheidener"
 	cont "Sänger kann nur"
 	cont "bescheidene Lieder"
-	cont "singen… ♪"
-
+	cont "singen … ♪"
 	para "Ich bin Piers. Ich"
 	line "komme nicht aus"
 	cont "Johto,"
-
 	para "aber ich kam her,"
 	line "um im Radio"
-
 	para "zu singen und alle"
 	line "in meiner Heimat"
 	cont "zum Lächeln zu"
@@ -603,8 +591,9 @@ PiersAfterIntroText:
 	done
 
 PiersNoBattleText:
-	text "Seufz… Meine Seele"
-	line "weint förmlich."
+	text "Seufz … Meine"
+	line "Seele weint"
+	cont "förmlich."
 	done
 
 PiersSeenText:
@@ -625,14 +614,11 @@ PiersRewardText:
 	text "Ich bin froh, dass"
 	line "wir kämpfen"
 	cont "konnten."
-
 	para "Meine #mon"
 	line "fühlen wohl"
 	cont "genauso."
-
 	para "Hier, etwas, damit"
 	line "du beim nächsten"
-
 	para "Mal noch härter"
 	line "rockst!"
 	done
@@ -645,18 +631,14 @@ PiersRematchIntroAgainText:
 PiersRematchSeenText:
 	text "Hah! Du bist also"
 	line "der neue Champ."
-
 	para "Du bist jetzt ein"
 	line "großer Fisch!"
-
 	para "Und ich sing immer"
 	line "noch meine"
 	cont "bescheidenen"
-	cont "Lieder…"
-
+	cont "Lieder …"
 	para "Willst du eine"
 	line "Zugabe?"
-
 	para "Für dich mache ich"
 	line "eine Ausnahme, nur"
 	cont "dieses Mal!"
@@ -671,11 +653,12 @@ SupernerdEricSeenText:
 	text "Ich wurde aus der"
 	line "SPIELHALLE"
 	cont "hinausgeworfen."
-
 	para "Ich habe versucht,"
 	line "mit Hilfe meines"
-	cont "#mon zu mogeln…"
+	cont "#mon zu mogeln"
+	cont "…"
 	done
+
 
 
 
@@ -691,14 +674,14 @@ SupernerdEricBeatenText:
 
 
 
+
 SupernerdTeruSeenText:
 	text "Beschränkst du"
 	line "dich beim Kämpfen"
 	cont "nur auf einen Typ?"
-
-	para "Wenn du die Stär-"
-	line "ken deiner Typen"
-
+	para "Wenn du die"
+	line "Stärken deiner"
+	cont "Typen"
 	para "kennst, hast du im"
 	line "Kampf Vorteile."
 	done
@@ -708,9 +691,11 @@ SupernerdTeruSeenText:
 
 
 
+
 SupernerdTeruBeatenText:
-	text "Ach, ach, ach!"
+	text "Oh, oh, oh!"
 	done
+
 
 
 
@@ -721,7 +706,6 @@ PokemaniacIssacSeenText:
 	text "Meine #mon"
 	line "kommen gerade vom"
 	cont "Coiffeur!"
-
 	para "Ich zeige dir, wie"
 	line "stark sie sind!"
 	done
@@ -731,9 +715,11 @@ PokemaniacIssacSeenText:
 
 
 
+
 PokemaniacIssacBeatenText:
 	text "Arghhh!"
 	done
+
 
 
 
@@ -753,11 +739,13 @@ PokemaniacDonaldSeenText:
 
 
 
+
 PokemaniacDonaldBeatenText:
 	text "Guah! Ich habe"
 	line "verloren! Ich dreh"
 	cont "durch!"
 	done
+
 
 
 
@@ -786,6 +774,7 @@ GoldenrodUndergroundTheDoorsLockedText:
 
 
 
+
 GoldenrodUndergroundTheDoorIsOpenText:
 	text "Die Tür ist"
 	line "entriegelt."
@@ -796,11 +785,14 @@ GoldenrodUndergroundTheDoorIsOpenText:
 
 
 
+
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "Mit dem KELLER-"
-	line "ÖFFNER wird die"
-	cont "Tür entriegelt."
+	text "Mit dem"
+	line "KELLER-ÖFFNER wird"
+	cont "die Tür"
+	cont "entriegelt."
 	done
+
 
 
 
@@ -809,23 +801,20 @@ GoldenrodUndergroundBasementKeyOpenedDoorText:
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	text "Willkommen!"
-
 	para "Ich leite den"
 	line "#mon-SALON!"
-
 	para "Ich bin der ältere"
 	line "und bessere der"
-	cont "beiden COIFFEUR-"
-	cont "BRÜDER."
-
+	cont "beiden"
+	cont "COIFFEUR-BRÜDER."
 	para "Ich verleihe"
 	line "deinen #mon ein"
 	cont "schöneres Äußeres"
 	cont "für nur ¥500."
-
 	para "Soll ich damit"
 	line "anfangen?"
 	done
+
 
 
 
@@ -843,10 +832,12 @@ GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
 
 
 
+
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
 	text "O.K.! Sieh her,"
 	line "wie schön es wird!"
 	done
+
 
 
 
@@ -862,22 +853,21 @@ GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
 
 
 
+
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	text "Willkommen im"
 	line "#mon-SALON!"
-
 	para "Ich bin der"
 	line "jüngere und"
 	cont "preiswertere der"
-	cont "beiden COIFFEUR-"
-	cont "BRÜDER."
-
+	cont "beiden"
+	cont "COIFFEUR-BRÜDER."
 	para "Ich verschönere"
 	line "deine #mon für"
 	cont "nur ¥300."
-
 	para "Also? Wie wär's?"
 	done
+
 
 
 
@@ -895,10 +885,12 @@ GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
 
 
 
+
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
 	text "O.K.! Es wird cool"
 	line "aussehen!"
 	done
+
 
 
 
@@ -915,8 +907,9 @@ GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
 
 
 
+
 HaircutBrosText_SlightlyHappier:
-	text " sieht fröhlicher"
+	text "sieht fröhlicher"
 	line "aus."
 	done
 
@@ -926,7 +919,7 @@ HaircutBrosText_SlightlyHappier:
 
 
 HaircutBrosText_Happier:
-	text " sieht glücklich"
+	text "sieht glücklich"
 	line "aus."
 	done
 
@@ -954,10 +947,12 @@ GoldenrodUndergroundWeAreNotOpenTodayText:
 
 
 
+
 GoldenrodUndergroundNoEntryText:
 	text "BIS HIERHER UND"
 	line "NICHT WEITER"
 	done
+
 
 
 

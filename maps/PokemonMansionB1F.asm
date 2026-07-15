@@ -41,8 +41,7 @@ GenericTrainerScientistBraydon:
 
 ScientistBraydonSeenText:
 	text "Ich vermisse das"
-	line "alte ZINNOBER-"
-	cont "LAB…"
+	line "alte ZINNOBER-LAB…"
 	done
 
 ScientistBraydonBeatenText:
@@ -52,29 +51,21 @@ ScientistBraydonBeatenText:
 
 PokemonMansionDiaryText:
 	text "Tagebuch: 5. Juli"
-
 	para "Tief im Dschungel"
 	line "wurde ein neues"
 	cont "#mon entdeckt."
-
 	para "Tagebuch: 10. Juli"
-
 	para "Das neu entdeckte"
 	line "#mon wurde MEW"
 	cont "getauft."
-
 	para "Tagebuch: 6. Feb."
-
 	para "MEW gebar ein"
 	line "Kind. Wir nannten"
 	cont "MEWTWO."
-
 	para "Tagebuch: 1. Sept."
-
 	para "MEWTWO ist viel zu"
 	line "mächtig."
-
 	para "Wir konnten seine"
 	line "wilden Triebe"
-	cont "nicht bändigen…"
+	cont "nicht bändigen …"
 	done

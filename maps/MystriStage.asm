@@ -120,15 +120,12 @@ MystriStageBeatCynthiaScript:
 	jumpthistextfaceplayer
 
 	text "Cynthia: Könnte"
-	line "das… ein Ei sein?"
-
+	line "das … ein Ei sein?"
 	para "Haben wir gerade"
 	line "den Moment"
-
 	para "miterlebt, als ein"
 	line "Ei in diese Welt"
 	cont "kam?"
-
 	para "Ein Moment, den"
 	line "noch niemand"
 	cont "gesehen hat?"
@@ -156,61 +153,45 @@ MystriStageCynthiaIntroText:
 	text "Mein Name ist"
 	line "Cynthia. Ich bin"
 	cont "#mon-Trainerin."
-
 	para "Und du?"
-
-	para "…Ich verstehe. Die"
-	line "Kraft der Unown"
-	cont "hat dich hierher"
-	cont "gebracht."
+	para "… Ich verstehe."
+	line "Die Kraft der"
+	cont "Unown hat dich"
+	cont "hierher gebracht."
 	done
 
 MystriStageCynthiaSpeechText:
 	text "Cynthia: Das sind"
-	line "die Sinjoh-"
-	cont "Ruinen."
-
-	para "Vor langer Zeit…"
+	line "die Sinjoh-Ruinen."
+	para "Vor langer Zeit …"
 	line "kamen Menschen aus"
-
 	para "Sinnoh, meiner"
 	line "Heimatregion, um"
 	cont "hier zu leben."
-
 	para "Sie sehnten sich"
 	line "wohl nach Hause,"
-
 	para "und bauten diesen"
 	line "Tempel, um ihre"
 	cont "Traditionen zu"
 	cont "ehren."
-
 	para "Wir stehen auf der"
 	line "Mystri-Bühne."
-
 	para "Früher feierte man"
 	line "hier mit Musik und"
 	cont "Tanz."
-
 	para "Cynthia: Ich"
 	line "erforsche Mythen"
-
 	para "über alte Orte wie"
-	line "die Sinjoh-"
-	cont "Ruinen."
-
+	line "die Sinjoh-Ruinen."
 	para "Einer behauptet,"
 	line "diese Bühne sei"
-
 	para "erfüllt von der"
 	line "Kraft der"
 	cont "Schöpfung."
-
 	para "Es heißt, wenn der"
 	line "Führer die"
-
 	para "Mystri-Bühne"
-	line "betritt…"
+	line "betritt …"
 	done
 
 MystriStageCynthiaLeadText2:
@@ -230,15 +211,11 @@ MystriStageCynthiaLeadText2:
 	done
 
 MystriStageCynthiaIdeaText:
-	text "Cynthia: …Ich hab"
+	text "Cynthia: … Ich hab"
 	line "eine Idee. Nenn es"
-
-	para "Trainer-"
-	line "Intuition."
-
+	para "Trainer-Intuition."
 	para "Wenn du und ich"
 	line "hier kämpfen,"
-
 	para "wird etwas"
 	line "passieren."
 	done
@@ -272,16 +249,14 @@ MystriStageCynthiaYesText:
 	text "Cynthia: Bevor ich"
 	line "mein #mon"
 	cont "schicke,"
-
 	para "beginnt mein Herz"
-	line "immer zu rasen…"
+	line "immer zu rasen …"
 	done
 
 MystriStageCynthiaWinText:
 	text "Ich kann mich"
 	line "nicht erinnern,"
 	cont "wann ich"
-
 	para "zuletzt so"
 	line "übertrumpft wurde!"
 	done
@@ -304,8 +279,9 @@ MystriStageCynthiaItemText:
 
 MystriStageCynthiaAfterText:
 	text "Cynthia: Hat unser"
-	line "Kampf die Mystri-"
-	cont "Bühne beeinflusst?"
+	line "Kampf die"
+	cont "Mystri-Bühne"
+	cont "beeinflusst?"
 	done
 
 
@@ -313,29 +289,26 @@ MystriStageCynthiaFinalText:
 	text "Cynthia: Ein Ei"
 	line "ist die Wiege"
 	cont "jedes Lebewesens."
-
 	para "Der Planet selbst"
 	line "ist gewissermaßen"
-	cont "ein Ei…"
-
+	cont "ein Ei …"
 	para "Leben aus einem Ei"
 	line "wird einmal ein"
-
-	para "Ende finden… um"
+	para "Ende finden … um"
 	line "von neuem zu"
-	cont "beginnen…"
+	cont "beginnen …"
 	done
 
 MystriStageEggText:
-	text "<PLAYER> fand ein"
-	line "mysteriöses Ei!"
+	text "<PLAYER> findet"
+	line "ein mysteriöses"
+	cont "Ei!"
 	done
 
 MystriStageNoRoomText:
 	text "Du hast keinen"
-	line "Platz dafür —"
-	cont "nicht mal in der"
-	cont "Box!"
+	line "Platz dafür -nicht"
+	cont "mal in der Box!"
 	done
 
 MystriStageMovementData_CynthiaStepsUp:

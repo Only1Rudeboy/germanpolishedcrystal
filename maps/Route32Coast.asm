@@ -67,11 +67,9 @@ TrainerSwimmermLucas:
 	text "Regenbögen durch"
 	line "Sonnenlicht"
 	cont "erscheinen"
-
 	para "der Sonne"
 	line "gegenüber am"
 	cont "Himmel."
-
 	para "Interessant, oder?"
 	done
 
@@ -174,7 +172,7 @@ GenericTrainerCosplayerChloe:
 
 .BeatenText:
 	text "Das war wohl nicht"
-	line "sehr effektiv…"
+	line "sehr effektiv …"
 	done
 
 GenericTrainerFisherKiley:
@@ -204,7 +202,6 @@ GenericTrainerCamperCraig:
 	text "Abenteuer wartet"
 	line "außerhalb des"
 	cont "Zelts!"
-
 	para "Also raus und viel"
 	line "Spaß haben!"
 	done
@@ -283,20 +280,16 @@ GenericTrainerCoupleFoxandrae2:
 
 Route32CoastLassText:
 	text "Hechel, keuch…"
-
 	para "Endlich habe ich"
 	line "es durch diese"
 	cont "Höhle geschafft!"
-
 	para "Sie war größer,"
 	line "als ich annahm."
-
-	para "Ich war zu er-"
-	line "schöpft, um alles"
-
+	para "Ich war zu"
+	line "erschöpft, um"
+	cont "alles"
 	para "zu erkunden, also"
 	line "habe ich sie"
-
 	para "verlassen."
 	done
 Route32CoastTrainerTipsText:

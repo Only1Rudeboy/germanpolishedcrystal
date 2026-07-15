@@ -23,10 +23,8 @@ CeladonDeptStore2FPokefanMText:
 	text "Ich bin erst"
 	line "kürzlich Trainer"
 	cont "geworden."
-
 	para "Mein Sohn hat mich"
 	line "dazu ermutigt."
-
 	para "Die Auswahl an"
 	line "praktischen Items"
 	cont "beeindruckt mich."
@@ -36,15 +34,12 @@ CeladonDeptStore2FYoungsterText:
 	text "Mein Papa tut sich"
 	line "schwer, die Namen"
 	cont "der Items"
-
 	para "und ihre Nutzung"
-	line "zu lernen…"
+	line "zu lernen …"
 	done
 
 CeladonDeptStore2FDirectoryText:
 	text "Erstklassige Items"
 	line "für Trainer!"
-
-	para "2F: Trainer-    "
-	line "Markt"
+	para "2F: Trainer-Markt"
 	done

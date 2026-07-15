@@ -38,7 +38,7 @@ GenericTrainerLassDuplica:
 	line "ich Arenaleiterin"
 	cont "in FUCHSANIA und"
 
-	para "imitiere Janine."
+	para "imitiere JANINA."
 	done
 
 GenericTrainerCamperAmos:
@@ -56,7 +56,6 @@ GenericTrainerTamerBrett:
 	line "mit"
 	cont "Selbstvertrauen"
 	cont "kommandieren."
-
 	para "ORDEN zu sammeln"
 	line "kann dabei helfen."
 	done
@@ -74,10 +73,9 @@ LassDuplicaBeatenText:
 	done
 
 CamperAmosSeenText:
-	text "In der SAFARI-"
-	line "ZONE leben viele"
+	text "In der SAFARI-ZONE"
+	line "leben viele"
 	cont "#mon."
-
 	para "Ich will sie alle"
 	line "fangen!"
 	done
@@ -124,10 +122,8 @@ SafariZoneWestTrainerTips1SignText:
 
 SafariZoneWestTrainerTips2SignText:
 	text "TIPPS für TRAINER"
-
 	para "Bei einem"
 	line "Sandsturm erhalten"
-
 	para "Gestein-#mon"
 	line "einen Bonus auf"
 	cont "ihre Spezial-Vert."

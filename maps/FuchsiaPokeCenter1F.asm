@@ -27,16 +27,13 @@ PokemonJournalJanineScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Leiter"
-	line "Janina!"
-
-	para "Man sagt, Janina"
+	line "JANINA!"
+	para "Man sagt, JANINA"
 	line "war als Kind ein"
-
-	para "Fan des #mon-"
-	line "Zoos in FUCHSANIA"
-	cont "CITY."
+	para "Fan des"
+	line "#mon-Zoos in"
+	cont "FUCHSANIA CITY."
 	done
 
 JanineImpersonatorScript:
@@ -76,7 +73,6 @@ FuchsiaPokeCenter1FCooltrainerMText:
 	text "He! Du hast einen"
 	line "völlig neuen"
 	cont "#dex!"
-
 	para "Hat PROF. EICH dir"
 	line "den gegeben?"
 	done

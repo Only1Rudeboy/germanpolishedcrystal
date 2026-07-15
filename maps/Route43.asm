@@ -105,11 +105,9 @@ Route43SightseerfScript:
 .AfterText2:
 	text "Ich liebe es, neue"
 	line "Orte zu besuchen"
-
 	para "und dort jeden"
 	line "Trainer"
 	cont "herauszufordern."
-
 	para "Ich suche weiter"
 	line "nach starken"
 	cont "Trainern wie dir."
@@ -118,25 +116,18 @@ Route43SightseerfScript:
 .IntroText:
 	text "Ich suche starke"
 	line "Trainer in Johto,"
-
 	para "aber ich habe noch"
 	line "keinen gefunden."
-
-	para "Hmmm… Du siehst"
+	para "Hmmm … Du siehst"
 	line "vielversprechend"
 	cont "aus."
-
 	para "Ich kann es in"
 	line "deinen Augen"
 	cont "sehen."
-
-	para "Lass uns"
-	line "kämpfen, aber"
-	cont "zuerst will"
-
+	para "Lass uns kämpfen,"
+	line "aber zuerst will"
 	para "ich sehen, wie du"
 	line "diese Route"
-
 	para "eroberst, indem du"
 	line "alle anderen"
 	cont "besiegst."
@@ -146,8 +137,7 @@ Route43SightseerfScript:
 	text "Ausgezeichnet!"
 	line "Zeit, meine neue"
 	cont "Strategie zu"
-	cont "testen…"
-
+	cont "testen …"
 	para "Bist du bereit für"
 	line "einen Kampf?"
 	done
@@ -175,13 +165,11 @@ Route43SightseerfScript:
 	done
 
 .AfterText1:
-	text "Wow! Endlich hab"
+	text "Toll! Endlich hab"
 	line "ich gefunden, was"
 	cont "ich suchte!"
-
 	para "Ich gebe dir einen"
 	line "Flame Orb,"
-
 	para "aber sei"
 	line "vorsichtig, wenn"
 	cont "du ihn einem"
@@ -208,7 +196,6 @@ GenericTrainerSrandjrIvyandamy1:
 	text "Ivy: Meine Junior"
 	line "soll nicht denken,"
 	cont "ich"
-
 	para "könnte ihr nicht"
 	line "helfen."
 	done
@@ -230,21 +217,21 @@ GenericTrainerCamperSpencer:
 	text "Was geht da vor"
 	line "sich am SEE DES"
 	cont "ZORNS?"
-
 	para "Wir wollen dort"
 	line "zelten."
 	done
+
 GenericTrainerPokemaniacBen:
 	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, PokemaniacBenSeenText, PokemaniacBenBeatenText
 
 	text "Du fragst, was ich"
 	line "außer #mon noch"
 	cont "mag?"
-
 	para "MARGIT vom Radio!"
 	line "Die ist bestimmt"
 	cont "süß!"
 	done
+
 TrainerPokemaniacBrent1:
 	trainer POKEMANIAC, BRENT1, EVENT_BEAT_POKEMANIAC_BRENT, PokemaniacBrent1SeenText, PokemaniacBrent1BeatenText, 0, PokemaniacBrent1Script
 
@@ -345,30 +332,34 @@ PokemaniacBrent1Script:
 GenericTrainerPokemaniacRon:
 	generictrainer POKEMANIAC, RON, EVENT_BEAT_POKEMANIAC_RON, PokemaniacRonSeenText, PokemaniacRonBeatenText
 
-	text "Es ist okay, wenn"
-	line "Leute verschiedene"
-	cont "#mon mögen."
-
-	para "Bei #mon geht"
-	line "es nicht nur um"
-	cont "das Stärkste."
+	text "Für die meisten"
+	line "Menschen ist es"
+	para "ganz natürlich,"
+	line "unterschiedliche"
+	para "Arten von #mon"
+	line "zu mögen."
+	para "Es geht bei"
+	line "#mon nicht"
+	para "darum, das"
+	line "Stärkste von allen"
+	cont "zu haben."
 	done
+
 
 GenericTrainerFisherMarvin:
 	generictrainer FISHER, MARVIN, EVENT_BEAT_FISHER_MARVIN, FisherMarvinSeenText, FisherMarvinBeatenText
 
 	text "KURTs KÖDERBALL"
 	line "eignet sich am"
-
-	para "besten, um"
-	line "#mon, die an"
-	cont "der Angel hängen,"
+	para "besten, #mon,"
+	line "die an der Angel"
+	cont "hängen,"
 	cont "einzufangen."
-
 	para "Er ist viel"
 	line "effektiver als der"
 	cont "HYPERBALL."
 	done
+
 TrainerPicnickerTiffany1:
 	trainer PICNICKER, TIFFANY1, EVENT_BEAT_PICNICKER_TIFFANY, PicnickerTiffany1SeenText, PicnickerTiffany1BeatenText, 0, PicnickerTiffany1Script
 
@@ -497,12 +488,10 @@ PicnickerTiffany1Script:
 
 PokemaniacBenSeenText:
 	text "Ich liebe #mon!"
-
 	para "Deshalb habe ich"
 	line "angefangen,"
 	cont "#mon zu sammeln"
 	cont "und"
-
 	para "damit werde ich"
 	line "auch nicht mehr"
 	cont "aufhören!"
@@ -513,10 +502,12 @@ PokemaniacBenSeenText:
 
 
 
+
 PokemaniacBenBeatenText:
 	text "Wie konntest du"
 	line "mir das antun?"
 	done
+
 
 
 
@@ -544,18 +535,18 @@ PokemaniacBrentAfterBattleText:
 
 
 
+
 PokemaniacRonSeenText:
 	text "Stell dir mal vor!"
-
-	para "So ein <RIVAL>"
-	line "hat sich über mein"
+	para "So ein <RIVAL> hat"
+	line "sich über mein"
 	cont "#mon lustig"
 	cont "gemacht!"
-
 	para "Unverschämtheit!"
 	line "Mein #mon ist"
 	cont "toll!"
 	done
+
 
 
 
@@ -573,18 +564,18 @@ PokemaniacRonBeatenText:
 
 
 
+
 FisherMarvinSeenText:
 	text "Ich bin gerade"
 	line "ziemlich am Boden."
-
 	para "Vielleicht liegt"
 	line "das an dem Item,"
 	cont "das ich benutze."
-
 	para "Kämpfen wir! Das"
 	line "hebt vielleicht"
 	cont "meine Laune!"
 	done
+
 
 
 
@@ -603,13 +594,15 @@ FisherMarvinBeatenText:
 
 
 
+
 CamperSpencerSeenText:
 	text "Man kann so viel"
 	line "unternehmen mit"
-	cont "seinen #mon das"
+	cont "seinen #mondas"
 	cont "macht unheimlich"
 	cont "viel Spaß!"
 	done
+
 
 
 
@@ -621,6 +614,7 @@ CamperSpencerBeatenText:
 	line "überhaupt keinen"
 	cont "Spaß…"
 	done
+
 
 
 
@@ -653,6 +647,7 @@ PicnickerTiffanyWantsPicnicText:
 
 
 
+
 BreederJodySeenText:
 	text "Ich habe #mon"
 	line "gezüchtet, damit"
@@ -668,7 +663,6 @@ BreederJodyBeatenText:
 SrandjrIvyandamy1SeenText:
 	text "Ivy: Ich zeige"
 	line "meiner Junior,"
-
 	para "wie man das macht!"
 	done
 
@@ -694,10 +688,10 @@ SrandjrIvyandamy2BeatenText:
 
 Route43Sign1Text:
 	text "ROUTE 43"
-
-	para "SEE DES ZORNS -"
-	line "MAHAGONIA CITY"
+	para "SEE DES ZORNS"
+	line "-MAHAGONIA CITY"
 	done
+
 
 
 
@@ -706,10 +700,10 @@ Route43Sign1Text:
 
 Route43Sign2Text:
 	text "ROUTE 43"
-
-	para "SEE DES ZORNS -"
-	line "MAHAGONIA CITY"
+	para "SEE DES ZORNS"
+	line "-MAHAGONIA CITY"
 	done
+
 
 
 
@@ -750,33 +744,27 @@ Route43TrainerTipsText:
 
 
 
+
 Route43AdvancedTipsText:
 	text "Profi-Tipps!"
-
 	para "Ein #mon kann"
 	line "sein Wesen per"
 	cont "Vererbung"
-
 	para "weitergeben, wenn"
 	line "es einen Everstone"
 	cont "trägt!"
-
 	para "Ein Destiny Knot"
 	line "kann alle"
 	cont "Potenziale"
 	cont "weitergeben!"
-
-	para "Die sechs Power-"
-	line "Items"
-
+	para "Die sechs"
+	line "Power-Items"
 	para "können das"
 	line "Potenzial in ihrem"
 	cont "einen Wert"
 	cont "weitergeben!"
-
 	para "Und eine Ability"
 	line "Cap kann die"
-
 	para "Chance erhöhen,"
 	line "dass Nachkommen"
 	cont "eine versteckte"

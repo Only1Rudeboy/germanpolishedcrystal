@@ -24,18 +24,15 @@ PokemonJournalMrFujiScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Redaktion: Der"
 	line "schüchterne MR."
 	cont "FUJI lehnte"
-
-	para "unser Interview-"
-	line "gesuch ab."
-
+	para "unser"
+	line "Interviewgesuch"
+	cont "ab."
 	para "Er ist ein"
 	line "liebenswerter"
 	cont "Mann, den man in"
-
 	para "LAVANDIA verehrt"
 	line "und schätzt."
 	done
@@ -50,7 +47,6 @@ LavenderPokeCenter1FYoungsterScript:
 	text "Der Direktor des"
 	line "Funkturms war"
 	cont "sicher glücklich."
-
 	para "Er sagte, sie sind"
 	line "endlich wieder auf"
 	cont "Sendung!"
@@ -59,12 +55,11 @@ LavenderPokeCenter1FYoungsterScript:
 .NoMachinePartText:
 	text "Wenn das Kraftwerk"
 	line "nicht läuft,"
-
 	para "fährt auch der"
-	line "Magnetzug nicht…"
-
+	line "Magnetzug nicht …"
 	para "Und der Funkturm"
-	line "kann nicht senden…"
+	line "kann nicht senden"
+	cont "…"
 	done
 
 .NoExorcismText:
@@ -90,7 +85,6 @@ LavenderPokeCenter1FTeacherText:
 	text "Es gibt ein"
 	line "Radioprogramm mit"
 	cont "#-Flöten-Musik."
-
 	para "Ach? Ah, dein"
 	line "Radio braucht eine"
 	cont "EP-Karte dafür."

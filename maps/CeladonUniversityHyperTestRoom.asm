@@ -152,25 +152,22 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .GreetingText:
-	text "Prof. Westwood?"
+	text "PROF. WESTWOOD?"
 	line "Das bin ich."
 	done
 
 .IntroText:
 	text "Ein Forscher von"
 	line "Weltrang!"
-
 	para "Meine Forschung"
 	line "ist unübertroffen."
-
 	para "Bald bekomme ich"
 	line "sicher eine"
-	cont "Auszeichnung…"
+	cont "Auszeichnung …"
 	done
 
 .QuestionText:
 	text "Ähem. Was war das?"
-
 	para "Du willst den"
 	line "Hyper-Test der"
 	cont "Prismania-Uni?"
@@ -178,16 +175,12 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 .BeginText:
 	text "Ausgezeichnet!"
-
 	para "Der Hyper-Test hat"
 	line "sechs Fragen und"
 	cont "testet alle Sinne"
-
 	para "unter Druck!"
-
 	para "Wenn du bestehst,"
 	line "gibt es einen"
-
 	para "Preis, der unserer"
 	line "Uni würdig ist!"
 	done
@@ -257,14 +250,11 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 .CongratulationsText:
 	text "Glückwunsch!"
-
 	para "Du hast den"
 	line "Hyper-Test mit"
 	cont "Bravour bestanden!"
-
 	para "Hier dein"
 	line "Preis-ein speziell"
-
 	para "gezüchteter"
 	line "Karpador mit"
 	cont "Drachenwut!"
@@ -273,11 +263,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .TestOverText:
 	text "Unsere Studenten"
 	line "haben die Zähig-"
-
 	para "keit eines"
 	line "Karpador, der sich"
 	cont "entwickeln will."
-
 	para "Und du auch!"
 	done
 
@@ -381,19 +369,17 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question6MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Prof. Eich@"
-	db "Prof. Lind@"
-	db "Prof. Willow@"
-	db "Prof. Westwood@"
+	db "PROF. EICH@"
+	db "PROF. LIND@"
+	db "PROF. WILLOW@"
+	db "PROF. WESTWOOD@"
 
 CeladonUniversityHyperTestRoomScientistText:
 	text "Der Hyper-Test ist"
 	line "ein Ritual für"
 	cont "alle"
-
 	para "Absolventen der"
 	line "Prismania-Uni."
-
 	para "Er testet alle"
 	line "Fähigkeiten bis"
 	cont "zum Äußersten!"

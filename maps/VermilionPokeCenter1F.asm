@@ -24,19 +24,14 @@ PokemonJournalLtSurgeScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Major"
 	line "Bob!"
-
 	para "Man munkelt, Major"
 	line "Bob"
-
 	para "war in Amerika"
 	line "Pilot."
-
 	para "Er nutzte die"
 	line "Elektrizität von"
-
 	para "#mon, um sein"
 	line "Flugzeug"
 	cont "anzutreiben."
@@ -51,29 +46,25 @@ VermilionPokeCenter1FSightseerMScript:
 	line "liegt ein"
 	cont "schlafendes"
 	cont "#mon."
-
 	para "Das wäre eine"
 	line "fantastische"
 	cont "Gelegenheit, es zu"
-
 	para "fangen! Aber wie"
 	line "weckt man es auf?"
 	done
 .SnorlaxText:
 	text "Vor DIGDAs HÖHLE"
 	line "lag ein"
-
-	para "schlafendes"
-	line "#mon."
-
+	cont "schlafendes"
+	cont "#mon."
 	para "Aber jetzt scheint"
 	line "es verschwunden zu"
 	cont "sein."
 	done
 VermilionPokeCenter1FSailorText:
-	text "Auf dem SCHNELL-"
-	line "BOOT findet man"
-
+	text "Auf dem"
+	line "SCHNELL-BOOT"
+	cont "findet man"
 	para "viele Trainer,"
 	line "gegen die man"
 	cont "kämpfen kann."
@@ -83,10 +74,8 @@ VermilionPokeCenter1FBugCatcherText:
 	line "einige ORDEN, die"
 	cont "ich noch nie"
 	cont "gesehen habe."
-
 	para "Ah, jetzt begreife"
 	line "ich es. Du hast"
-
 	para "sie in JOHTO"
 	line "erhalten."
 	done

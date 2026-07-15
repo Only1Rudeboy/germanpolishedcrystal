@@ -78,8 +78,7 @@ GenericTrainerRuin_maniacJones:
 	generictrainer RUIN_MANIAC, JONES, EVENT_BEAT_RUIN_MANIAC_JONES, Ruin_maniacJonesSeenText, Ruin_maniacJonesBeatenText
 
 	text "Die Ruinen"
-	line "verbergen etwas…"
-
+	line "verbergen etwas …"
 	para "Das spüre ich!"
 	done
 
@@ -87,7 +86,6 @@ HikerRussellSeenText:
 	text "Du bist auf dem"
 	line "Weg nach AZALEA"
 	cont "CITY, nicht wahr?"
-
 	para "Lass meine #mon"
 	line "entscheiden, ob du"
 	cont "eines Kampfes"
@@ -125,7 +123,7 @@ PokemaniacLarrySeenText:
 
 PokemaniacLarryBeatenText:
 	text "Uff. Mein armes"
-	line "#mon…"
+	line "#mon …"
 	done
 
 
@@ -133,9 +131,8 @@ PokemaniacLarryBeatenText:
 
 
 HikerDanielSeenText:
-	text "Whoa! Was für eine"
+	text "Huch! Was für eine"
 	line "Überraschung!"
-
 	para "Ich habe nicht"
 	line "erwartet, hier auf"
 	cont "jemanden zu"
@@ -147,7 +144,7 @@ HikerDanielSeenText:
 
 
 HikerDanielBeatenText:
-	text "Whoa! Du hast es"
+	text "Huch! Du hast es"
 	line "mir gegeben!"
 	done
 
@@ -160,7 +157,6 @@ FirebreatherBillSeenText:
 	line "verwirrt mein"
 	cont "#mon noch"
 	cont "immer."
-
 	para "Das ärgert mich"
 	line "wirklich sehr!"
 	done

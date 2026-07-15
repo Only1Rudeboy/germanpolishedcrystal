@@ -18,31 +18,24 @@ SlowpokeWellEntrance_MapScriptHeader:
 SlowpokeWellEntranceKurtText:
 	text "KURT: Hallo!"
 	line "<PLAYER>!"
-
 	para "Die Wache ganz"
 	line "oben ist"
 	cont "weggelaufen, als"
 	cont "ich sie anschrie."
-
 	para "Aber dann bin ich"
 	line "in den BRUNNEN"
 	cont "gefallen."
-
-	para "Ich bin so hart "
+	para "Ich bin so hart"
 	line "auf meinem Rücken"
 	cont "gelandet, dass ich"
 	cont "mich nicht mehr"
 	cont "bewegen kann."
-
 	para "Mist! Wenn ich fit"
 	line "wäre, würden"
-
 	para "meine #mon sie"
-	line "bestrafen…"
-
+	line "bestrafen …"
 	para "Ah, mir ist nicht"
 	line "zu helfen."
-
 	para "<PLAYER>, zeig"
 	line "ihnen, wie mutig"
 	cont "du bist. Tu es für"

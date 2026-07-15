@@ -1,14 +1,12 @@
 ErinAskNumber1Text:
-	text "Es hat mich wütend"
-	line "gemacht zu"
+	text "Es hat mich"
+	line "wütend gemacht zu"
 	cont "verlieren."
-
 	para "Ich muss härter"
-	line "trainieren…"
-
-	para "Hier meine Nummer."
-	line "Ich bin Erin —"
-
+	line "trainieren …"
+	para "Hier meine"
+	line "Nummer. Ich bin"
+	cont "Erin -"
 	para "vergiss nicht!"
 	line "Willst du wieder"
 	cont "kämpfen?"
@@ -24,8 +22,8 @@ ErinAskNumber2Text:
 
 ErinNumberAcceptedText:
 	text "Ich ruf an, wenn"
-	line "ich wieder kämpfen"
-	cont "will!"
+	line "ich wieder"
+	cont "kämpfen will!"
 	done
 
 ErinNumberDeclinedText:
@@ -33,7 +31,7 @@ ErinNumberDeclinedText:
 	line "Wenn du kämpfen"
 
 	para "willst, such Erin"
-	line "— das bin ich!"
+	line "- das bin ich!"
 	done
 
 ErinPhoneFullText:

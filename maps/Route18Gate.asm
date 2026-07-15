@@ -74,10 +74,8 @@ Route17Route18GateOfficerText:
 Route17Route18GateCannotPassText:
 	text "Warte! Hast du"
 	line "kein FAHRRAD?"
-
 	para "Der RADWEG beginnt"
 	line "da vorne."
-
 	para "Ohne FAHRRAD"
 	line "darfst du ihn"
 	cont "nicht benutzen."

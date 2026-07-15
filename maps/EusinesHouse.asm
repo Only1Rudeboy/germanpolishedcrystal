@@ -67,7 +67,6 @@ CeladonEusine:
 	line "eins fängst, hoffe"
 	cont "ich, dass du mir"
 	cont "Bescheid sagst."
-
 	para "Ich zähle auf"
 	line "dich, <PLAYER>!"
 	done
@@ -115,7 +114,7 @@ EusinesHouseGrampsScript:
 	para "neuen Abenteuer."
 	line "Er ging zum"
 
-	para "Glockenturm in"
+	para "Zinnturm in"
 	line "TEAK CITY."
 	done
 
@@ -135,7 +134,7 @@ EusinesHouseGrampsScript:
 	end
 
 ReceivedAbraDollText:
-	text "<PLAYER> erhielt"
+	text "<PLAYER> erhält"
 	line "Abra-Puppe."
 	done
 
@@ -147,7 +146,6 @@ AbraDollSentHomeText:
 
 CeladonEusineText1:
 	text "EUSIN: Hallo!"
-
 	para "Ich komme gerade"
 	line "von meinem"
 	cont "Heimatort zurück."
@@ -161,9 +159,9 @@ EusineLeavesCeladonText:
 	para "Es gibt neue"
 	line "Gerüchte über ein"
 
-	para "regenbogenfarbenes"
+	para "regenbogenfarbene"
 	line "#mon am"
-	cont "Glockenturm."
+	cont "Zinnturm."
 
 	para "Mein Team wurde"
 	line "gerade geheilt,"
@@ -178,15 +176,11 @@ EusineLeavesCeladonText:
 EusineNoBeastsText:
 	text "Ach, übrigens,"
 	line "<PLAYER>."
-
 	para "Hast du die"
 	line "legendären Bestien"
 	cont "gefangen?"
-
-	para "………………"
-
-	para "OK…"
-
+	para "… … … … … …"
+	para "O.K. …"
 	para "Ich gebe dir meine"
 	line "Notizen."
 	done
@@ -217,10 +211,8 @@ EusinesHouseGrampsGrandsonHomeText:
 EusinesHouseGrampsEusineSearchingForSuicuneText:
 	text "Mein Enkel EUSIN"
 	line "ist in JOHTO"
-
 	para "und sucht Suicune"
 	line "überall."
-
 	para "Ich habe ihm alles"
 	line "über die"
 	cont "legendären #mon"

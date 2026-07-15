@@ -17,15 +17,13 @@ VioletOnixTradeHouse_MapScriptHeader:
 
 VioletKylesHousePokefanMText:
 	text "Ein #mon, das"
-	line "du durch Tausch"
+	line "durch Tausch"
 	cont "erhalten hast,"
 	cont "wird schneller"
 	cont "wachsen."
-
 	para "Aber wenn du nicht"
 	line "im Besitz des"
 	cont "passenden ORDENs"
-
 	para "bist, gehorchen"
 	line "sie dir vielleicht"
 	cont "nicht."

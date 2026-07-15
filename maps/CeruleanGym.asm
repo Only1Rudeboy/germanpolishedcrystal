@@ -111,7 +111,6 @@ GenericTrainerSwimmerfViola:
 	text "Schwimmen ist gut"
 	line "für Schönheit und"
 	cont "Gesundheit!"
-
 	para "Schau dir MISTY"
 	line "an, dann siehst du"
 	cont "es."
@@ -123,12 +122,11 @@ GenericTrainerSwimmerfBriana:
 	text "Freue dich nicht"
 	line "zu sehr über"
 	cont "deinen Sieg."
-
 	para "MISTY wird dich"
 	line "fertig machen,"
-
-	para "wenn du selbst-"
-	line "gefällig wirst."
+	para "wenn du"
+	line "selbstgefällig"
+	cont "wirst."
 	done
 GenericTrainerSailorParker:
 	generictrainer SAILOR, PARKER, EVENT_BEAT_SAILOR_PARKER, SailorParkerSeenText, SailorParkerBeatenText
@@ -244,7 +242,6 @@ CeruleanGymGruntIntroText:
 	text "Ups! Tut ja so"
 	line "Leid mir! Du nicht"
 	cont "verletzt, du O.K.?"
-
 	para "Ich schwer"
 	line "beschäftigt. Nicht"
 	cont "Zeit für Reden."
@@ -255,75 +252,63 @@ CeruleanGymGruntIntroText:
 
 CeruleanGymGruntBigMistakeText:
 	text "Ach nein! Du mich"
-	line "schon hast gese-"
-	cont "hen! Ich großes"
-	cont "Fehler gemacht!"
+	line "schon hast"
+	cont "gesehen! Ich"
+	cont "großes Fehler"
+	cont "gemacht!"
 	done
 
 CeruleanGymGruntByeText:
 	text "He, du! Du"
 	line "vergessen, dass du"
-
 	para "mich gesehen, ja?"
 	line "Du nichts sehen,"
-
 	para "hören und wissen!"
 	line "Tschüss!"
-
 	para "Und Tschüss!"
 	done
 
 MistyIntroText:
-	text "MISTY: Ich habe"
-	line "dich erwartet, du"
-	cont "Nervensäge!"
-
-	para "Du hast zwar viele"
-	line "ORDEN von"
-
-	para "JOHTO, aber"
-	line "unterschätze mich"
-	cont "lieber nicht!"
-
-	para "Meine Wasser-"
-	line "#mon sind hart!"
+	text "Ich bin MISTY!"
+	line "ARENALEITERIN von"
+	cont "AZURIA CITY!"
+	para "Meine Richtlinie:"
+	line "Angriff mit"
+	cont "Wasser-#mon!"
+	para "Du siehst stark"
+	line "aus… aber kannst"
+	cont "du gegen meine"
+	cont "Wellen bestehen?"
 	done
-
 MistyWinLossText:
-	text "MISTY: Du bist"
-	line "wirklich gut…"
-
-	para "Ich gebe zu, dass"
-	line "du sehr geschickt"
-	cont "bist…"
-
-	para "Hier hast du den"
-	line "QUELLORDEN."
+	text "Toll! Du bist"
+	line "stark!"
+	para "O.K. - hier ist"
+	line "der QUELLORDEN!"
 	done
-
 MistyGiveTMText:
-	text "MISTY: Hier ist"
-	line "noch eine"
-	cont "Erinnerung an"
-
-	para "diesen Kampf. Nimm"
-	line "sie!"
+	text "Der QUELLORDEN"
+	line "erhöht die"
+	cont "SPEZ-VERT deiner"
+	cont "#mon."
+	para "Außerdem können"
+	line "#mon, die"
+	cont "SURFER"
+	cont "beherrschen, ihn"
+	cont "außerhalb des"
+	cont "Kampfs nutzen."
+	para "Nimm auch diese"
+	line "TM. Sie enthält"
+	cont "AQUAWELLE!"
 	done
-
 MistyFightDoneText:
-	text "MISTY: Gibt es"
-	line "viele starke"
-	cont "Trainer wie dich"
-	cont "in JOHTO?"
-
-	para "Eines Tages werde"
-	line "ich mich aufmachen"
-
-	para "und gegen einige"
-	line "ausgebildete"
-	cont "Trainer kämpfen."
+	text "Es gibt viele"
+	line "starke Trainer im"
+	cont "Land."
+	para "Ich werde weiter"
+	line "trainieren - und"
+	cont "du auch!"
 	done
-
 SwimmerfDianaSeenText:
 	text "Es tut mir leid,"
 	line "dass ich so lange"
@@ -360,8 +345,9 @@ SwimmerfBrianaSeenText:
 
 SwimmerfBrianaBeatenText:
 	text "Ach, du hast mich"
-	line "ohne viel Auf-"
-	cont "hebens erledigt…"
+	line "ohne viel"
+	cont "Aufhebens"
+	cont "erledigt…"
 	done
 
 SailorParkerSeenText:
@@ -394,7 +380,7 @@ CeruleanGymGuyWinText:
 	line "ein super Kampf!"
 	done
 CeruleanGymFoundMachinePartText:
-	text "<PLAYER> fand"
+	text "<PLAYER> findet"
 	line "Maschinenteil!"
 	done
 

@@ -119,9 +119,8 @@ PosterClerkAlreadyBoughtText:
 	done
 
 BoughtMarillPosterText:
-	text "<PLAYER> kaufte"
-	line "ein Marill-"
-	cont "Poster."
+	text "<PLAYER> kaufte ein"
+	line "Marill-Poster."
 	done
 
 MarillPosterSentText:
@@ -131,8 +130,8 @@ MarillPosterSentText:
 	done
 
 BoughtClefairyPosterText:
-	text "<PLAYER> kaufte"
-	line "ein Pixi-Poster."
+	text "<PLAYER> kaufte ein"
+	line "Pixi-Poster."
 	done
 
 ClefairyPosterSentText:
@@ -142,22 +141,20 @@ ClefairyPosterSentText:
 	done
 
 BoughtPikachuPosterText:
-	text "<PLAYER> kaufte"
-	line "ein Pikachu-"
-	cont "Poster."
+	text "<PLAYER> kaufte ein"
+	line "Pikachu-Poster."
 	done
 
 PikachuPosterSentText:
-	text "Das Pikachu-"
-	line "Poster wurde nach"
-	cont "Hause geschickt."
+	text "Das Pikachu-Poster"
+	line "wurde nach Hause"
+	cont "geschickt."
 	done
 
 CeladonDeptStore4FSuperNerdText:
 	text "Ich bin hier, um"
 	line "einen Herzbrief"
 	cont "für meine Freundin"
-
 	para "zu kaufen."
 	done
 
@@ -172,7 +169,6 @@ CeladonDeptStore4FYoungsterText:
 CeladonDeptStore4FDirectoryText:
 	text "Drück dich mit"
 	line "Geschenken aus!"
-
-	para "4F: Weisen-    "
-	line "Geschenke"
+	para "4F:"
+	line "Weisen-Geschenke"
 	done

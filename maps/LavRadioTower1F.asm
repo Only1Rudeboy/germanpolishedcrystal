@@ -48,47 +48,36 @@ LavRadioTower1FGentlemanScript:
 .GotExpnCardText:
 	text "Damit kannst du"
 	line "die Radioprogramme"
-
 	para "in KANTO"
 	line "empfangen."
-
 	para "Hahahahaha!"
 	done
 .OffTheAirText:
 	text "Nein, nein, nein!"
-
 	para "Wir sind nicht"
 	line "mehr auf Sendung,"
-
 	para "seit das KRAFTWERK"
 	line "nicht mehr läuft."
-
 	para "Alle Bemühungen,"
 	line "diese Station zum"
-
 	para "Laufen zu bringen,"
 	line "sind vergebens,"
 	cont "wenn ich nichts"
 	cont "senden kann."
-
 	para "Ich bin ruiniert!"
 	done
 .ReturnedMachinePartText:
 	text "Ah! Dann bist du"
 	line "<PLAYER>. Du hast"
-
 	para "das Problem mit"
 	line "dem KRAFTWERK"
 	cont "gelöst?"
-
 	para "Dir habe ich es zu"
 	line "verdanken, dass"
-
 	para "ich nicht"
 	line "arbeitslos wurde!"
 	cont "Du bist mein"
 	cont "Lebensretter!"
-
 	para "Zum Dank gebe ich"
 	line "dir das hier."
 	done
@@ -99,22 +88,17 @@ LavRadioTower1FSuperNerd2Script:
 
 	text "Hallo, mein"
 	line "Freund!"
-
 	para "Ich bin der tolle"
 	line "MUSIK-REDAKTEUR!"
-
 	para "Häh? Dein #Com"
 	line "kann meine"
-
 	para "Sendungen nicht"
 	line "empfangen. Wie"
 	cont "unglücklich!"
-
 	para "Mit einem"
-	line "ERWEITERUNGS-"
-	cont "MODUL könntest du"
+	line "ERWEITERUNGS-MODUL"
+	cont "könntest du"
 	cont "empfangen."
-
 	para "Besorg dir am"
 	line "besten eins!"
 	done
@@ -125,7 +109,6 @@ LavRadioTower1FSuperNerd2Script:
 LavRadioTower1FReceptionistText:
 	text "Willkommen! Schau"
 	line "dich auf"
-
 	para "dieser Etage ruhig"
 	line "um."
 	done
@@ -139,17 +122,13 @@ LavRadioTower1FOfficerText:
 	line "nur das"
 	cont "Erdgeschoss"
 	cont "erkunden."
-
 	para "Seit der RADIOTURM"
 	line "in JOHTO von einer"
-
 	para "Verbrechergang"
 	line "besetzt wurde,"
-
-	para "mussten wir"
-	line "unsere"
-	cont "Sicherheitsmaß-"
-	cont "nahmen erhöhen."
+	para "mussten wir unsere"
+	line "Sicherheitsmaßnah-"
+	cont "men erhöhen."
 	done
 
 
@@ -160,7 +139,6 @@ LavRadioTower1FSuperNerd1Text:
 	text "Viele Menschen"
 	line "arbeiten sehr hart"
 	cont "im RADIOTURM."
-
 	para "Sie müssen ihr"
 	line "Bestes geben für"
 	cont "eine gute Sendung."
@@ -173,18 +151,14 @@ LavRadioTower1FSuperNerd1Text:
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	text "Hallo, mein"
 	line "Freund!"
-
 	para "Ich bin der tolle"
 	line "MUSIK-REDAKTEUR!"
-
 	para "Ich bin derjenige,"
 	line "der diese"
 	cont "wundervollen"
 	cont "Melodien"
-
 	para "auf Sendung"
 	line "bringt."
-
 	para "Sei so frei und"
 	line "lausche der"
 	cont "schönen Melodei!"
@@ -199,7 +173,7 @@ LavRadioTower1FDirectoryText:
 	line "VERKAUF 2S"
 	cont "PERSONAL 3S"
 	cont "PRODUKTION 4S BÜRO"
-	cont "DES    INTENDANTEN"
+	cont "DES INTENDANTEN"
 	done
 
 
@@ -209,7 +183,6 @@ LavRadioTower1FDirectoryText:
 LavRadioTower1FPokeFluteSignText:
 	text "Mach deine #mon"
 	line "mit den Fröhlichen"
-
 	para "Melodien der"
 	line "#floete auf"
 	cont "PROGRAMM 20 wieder"
@@ -223,7 +196,7 @@ LavRadioTower1FPokeFluteSignText:
 
 ; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! Ein ganzes"
+	text "Toll! Ein ganzes"
 	line "Regal voller"
 	cont "#mon CDs und"
 	cont "Videos."

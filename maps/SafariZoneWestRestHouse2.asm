@@ -60,23 +60,17 @@ SafariZoneWestRestHouse2FlanneryScript:
 
 .IntroText:
 	text "Hallo!"
-
 	para "Schön, jemanden"
 	line "anderen hier zu"
 	cont "treffen!"
-
 	para "Ich bin Flannery."
-
 	para "Ich komme aus der"
 	line "HOENN-Region und"
 	cont "mag Feuchtigkeit"
-
 	para "und heiße Quellen."
-
 	para "Die SAFARI-ZONE"
 	line "fühlt sich wie zu"
 	cont "Hause an!"
-
 	para "Lass uns in einem"
 	line "Kampf heiße"
 	cont "Attacken"
@@ -127,7 +121,8 @@ SafariZoneWestRestHouse2FlanneryScript:
 	done
 
 .RefusedText:
-	text "OK… Äh… Sei nicht"
-	line "schüchtern, wenn"
-	cont "du wiederkommst!"
+	text "O.K.… Äh… Sei"
+	line "nicht schüchtern,"
+	cont "wenn du wieder-"
+	cont "kommst!"
 	done

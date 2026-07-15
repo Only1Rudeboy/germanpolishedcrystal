@@ -20,8 +20,8 @@ WadeDefeatedMonText:
 	cont "wildes "
 	text_ram wStringBuffer4
 
-	para "mit einem Treffer."
-	line "Es ging so leicht,"
+	para "mit einem"
+	line "Es ging so"
 
 	para "mir tat es fast"
 	line "leid."
@@ -45,16 +45,13 @@ WadeLostAMonText:
 WadeBattleRematchText:
 	text "Lust auf einen"
 	line "#mon-Kampf?"
-
-	para "Diesmal anders als"
-	line "letztes Mal!"
-
-	para ""
+	para "Diesmal anders"
+	line "als letztes Mal!"
+	done
 	text_ram wStringBuffer5
-	text " — da bin ich."
-
-	para "Sag Bescheid, wenn"
-	line "du da bist."
+	text "- da bin ich."
+	para "Sag Bescheid,"
+	line "wenn du da bist."
 	done
 
 WadeHangUpText:
@@ -73,13 +70,12 @@ WadeBugCatchingContestText:
 
 WadeFoundItemText:
 	text "Ich fand jede"
-	line "Menge Beeren. Wenn"
-	cont "du"
-
+	line "Menge Beeren."
+	cont "Wenn du"
 	para "willst, teile"
-	line "ich."
-	cont "Ich warte auf"
-	cont ""
+	line "ich. Ich warte"
+	cont "auf"
+	done
 	text_ram wStringBuffer5
 	text "."
 	done
@@ -87,8 +83,8 @@ WadeFoundItemText:
 WadeNoBerriesText:
 	text "Häh? Beeren?"
 
-	para "Sorry, noch keine"
-	line "gefunden."
+	para "Tut mir leid, noch"
+	line "keine gefunden."
 
 	para "Ich ruf an, wenn"
 	line "ich welche finde."
@@ -101,19 +97,18 @@ WadeQuickBattleText:
 
 	para ""
 	text_ram wStringBuffer5
-	text " — da bin ich."
+	text " - da bin ich."
 
 	para "Komm so schnell"
 	line "wie möglich!"
 	done
 
 WadeComeQuickText:
-	text "Warum bist du noch"
-	line "nicht da?"
-
-	para ""
+	text "Warum bist du"
+	line "noch nicht da?"
+	done
 	text_ram wStringBuffer5
-	text " — da bin ich."
+	text " - da bin ich."
 
 	para "Komm so schnell"
 	line "wie möglich!"

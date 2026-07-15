@@ -385,14 +385,16 @@ _PlaceBattleNickname:
 	jr PlaceCommandCharacter
 
 .EnemyText:
-	db "Foe" ; fallthrough, no " @"
+	; GSC-DE canon: "Gegn. NAME" / "ben. ATTACKE!"
+	; (later gens: "NAME (Gegner) setzt ATTACKE ein")
+	db "Gegn." ; fallthrough → + SpaceText
 SpaceText::
 	db " " ; fallthrough, no "@"
 EmptyString::
 	db "@"
 
 GhostNicknameText:
-	db "Ghost@"
+	db "Geist@"
 
 PlaceEnemysName::
 	push de

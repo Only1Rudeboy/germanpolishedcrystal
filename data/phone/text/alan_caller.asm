@@ -9,17 +9,15 @@ AlanGettingStrongerText:
 	done
 
 AlanDefeatedMonText:
-	text "Übrigens haben wir"
-	line "ein wildes"
-
-	para ""
+	text "Übrigens haben"
+	line "wir ein wildes"
+	done
 	text_ram wStringBuffer4
-	text " vor ein paar"
+	text "vor ein paar"
 	line "Tagen"
-
-	para "besiegt. Vorher zu"
-	line "lernen hat sich"
-	cont "gelohnt!"
+	para "besiegt. Vorher"
+	line "zu lernen hat"
+	cont "sich gelohnt!"
 	done
 
 AlanLostAMonText:

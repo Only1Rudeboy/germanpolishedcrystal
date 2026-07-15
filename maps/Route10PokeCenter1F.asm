@@ -32,7 +32,7 @@ PokemonJournalAgathaScript:
 	line "rivalisierten"
 	cont "Agatha und"
 
-	para "Prof. Eich um die"
+	para "PROF. EICH um die"
 	line "Vorherrschaft als"
 	cont "Trainer."
 	done
@@ -44,25 +44,20 @@ Route10PokeCenter1FGymGuyScript:
 
 	text "Der DIREKTOR des"
 	line "KRAFTWERKs sucht"
-
 	para "einen starken"
 	line "#mon-Trainer."
-
 	para "Er braucht Hilfe"
 	line "bei der Suche nach"
-
 	para "einem gestohlenen"
 	line "Gegenstand."
 	done
 .Text2:
 	text "Ich hörte, dass"
 	line "TEAM ROCKET sich"
-
 	para "in JOHTO"
 	line "reformierte, aber"
 	cont "kurz danach wieder"
 	cont "zerschlagen wurde."
-
 	para "Darüber weiß ich"
 	line "leider nichts."
 	done
@@ -77,11 +72,9 @@ Route10PokeCenter1FGentlemanText:
 Route10PokeCenter1FCooltrainerfText:
 	text "Wenn du das"
 	line "Gebäude verlässt,"
-
 	para "kannst du das Dach"
 	line "eines großen"
 	cont "Hauses sehen."
-
 	para "Das ist das"
 	line "KRAFTWERK."
 	done

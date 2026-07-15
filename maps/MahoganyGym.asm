@@ -63,14 +63,11 @@ MahoganyGymPryceScript:
 
 	text "Diese VM enthält"
 	line "Avalanche."
-
 	para "Sie richtet mehr"
 	line "Schaden an, wenn"
-
 	para "der Anwender"
 	line "zuerst getroffen"
 	cont "wurde."
-
 	para "So zeigt sie die"
 	line "Härte des Winters."
 	done
@@ -80,54 +77,57 @@ GenericTrainerSkierRoxanne:
 
 	text "Wenn du nicht"
 	line "genau rutschst,"
-
 	para "kommst du in"
-	line "dieser PKMN-ARENA"
+	line "dieser"
+	cont "PKMN-ARENA"
 	cont "nicht weit."
 	done
+
 GenericTrainerSkierClarissa:
 	generictrainer SKIER, CLARISSA, EVENT_BEAT_SKIER_CLARISSA, SkierClarissaSeenText, SkierClarissaBeatenText
 
 	text "Ich hätte mit"
-	line "meinen Ski-Künsten"
-	cont "nicht so angeben"
-	cont "sollen…"
+	line "meinen"
+	cont "Ski-Künsten nicht"
+	cont "so angeben sollen"
+	cont "…"
 	done
+
 GenericTrainerBoarderRonald:
 	generictrainer BOARDER, RONALD, EVENT_BEAT_BOARDER_RONALD, BoarderRonaldSeenText, BoarderRonaldBeatenText
 
 	text "Ich glaube, es"
 	line "gibt eine Attacke,"
-
 	para "die #mon auch"
 	line "ausführen"
-
 	para "können, wenn sie"
 	line "gefroren sind."
 	done
+
 GenericTrainerBoarderBrad:
 	generictrainer BOARDER, BRAD, EVENT_BEAT_BOARDER_BRAD, BoarderBradSeenText, BoarderBradBeatenText
 
-	text "Diese PKMN-ARENA"
-	line "ist toll. Ich"
-	cont "liebe es, mit"
-	cont "meinen #mon"
-	cont "hier zu"
+	text "Diese"
+	line "PKMN-ARENA ist"
+	cont "toll. Ich liebe"
+	cont "es, mit meinen"
+	cont "#mon hier zu"
 	cont "snowboarden!"
 	done
+
 GenericTrainerBoarderDouglas:
 	generictrainer BOARDER, DOUGLAS, EVENT_BEAT_BOARDER_DOUGLAS, BoarderDouglasSeenText, BoarderDouglasBeatenText
 
 	text "Das Geheimnis von"
 	line "NORBERTs Kraft…"
-
-	para "Er meditiert täg-"
-	line "lich unter einem"
-
+	para "Er meditiert"
+	line "täglich unter"
+	cont "einem"
 	para "Wasserfall, um"
 	line "Geist und Körper"
 	cont "zu stärken."
 	done
+
 MahoganyGymGuyScript:
 	checkevent EVENT_BEAT_PRYCE
 	iftrue_jumptextfaceplayer MahoganyGymGuyWinText
@@ -135,20 +135,15 @@ MahoganyGymGuyScript:
 
 	text "NORBERT ist ein"
 	line "Veteran, der seine"
-
 	para "#mon schon seit"
 	line "fast 50 Jahren"
 	cont "trainiert."
-
 	para "Angeblich friert"
 	line "er seine Gegner"
-
-	para "gerne mit Eis-"
-	line "Attacken ein."
-
+	para "gerne mit"
+	line "Eis-Attacken ein."
 	para "Das heißt, du"
 	line "solltest ihn mit"
-
 	para "deinem brennenden"
 	line "Ehrgeiz schmelzen!"
 	done
@@ -167,89 +162,65 @@ MahoganyGymStatue:
 PryceText_Intro:
 	text "#mon machen in"
 	line "ihrem Leben viele"
-
-	para "Erfahrungen. Genau"
-	line "wie Menschen."
-
+	cont "Erfahrungen. Genau"
+	cont "wie Menschen."
 	para "Auch ich habe in"
 	line "meinem Leben viel"
 	cont "gesehen und"
 	cont "erlitten."
-
 	para "Da ich der Ältere"
 	line "bin, lass mich dir"
 	cont "zeigen, was ich"
 	cont "meine."
-
 	para "Ich war schon mit"
 	line "#mon zusammen,"
-
-	para "bevor du geboren"
-	line "wurdest."
-
+	cont "bevor du geboren"
+	cont "wurdest."
 	para "Ich verliere nicht"
 	line "gerne."
-
 	para "Ich, NORBERT, der"
 	line "Wintertrainer,"
-
-	para "werde meine Macht"
-	line "demonstrieren!"
+	cont "werde meine Macht"
+	cont "demonstrieren!"
 	done
-
-
 PryceText_Impressed:
 	text "Ich bin von deinem"
 	line "Können"
 	cont "beeindruckt."
-
 	para "Mit deinem starken"
-	line "Willen, wirst du"
-
-	para "alle Widrigkeiten"
-	line "in deinem Leben"
+	line "Willen wirst du"
+	cont "alle Widrigkeiten"
 	cont "überstehen."
-
 	para "Du bist dieses"
-	line "ORDENS würdig!"
+	line "ORDENs würdig!"
 	done
-
-
 PryceText_GlacierBadgeSpeech:
-	text "Dieser ORDEN hebt"
-	line "den SPEZ-Wert"
+	text "Dieser"
+	line "GLETSCHERORDEN"
+	cont "hebt den SPEZ-Wert"
 	cont "deiner #mon."
-
 	para "Außerdem können"
 	line "deine #mon"
 	cont "WHIRLPOOL"
 	cont "einsetzen, um"
 	cont "echte Strudel zu"
 	cont "überwinden."
-
 	para "Und dies… dies ist"
 	line "ein Geschenk von"
 	cont "mir!"
 	done
-
-
 PryceText_CherishYourPokemon:
 	text "Wenn Eis und"
 	line "Schnee geschmolzen"
 	cont "sind, kehrt der"
 	cont "Frühling wieder."
-
 	para "Du und deine"
-	line "#mon werden"
-
-	para "noch viele Jahre"
-	line "zusammen sein."
-
+	line "#mon werdet"
+	cont "noch viele Jahre"
+	cont "zusammen sein."
 	para "Genießt eure"
 	line "gemeinsame Zeit!"
 	done
-
-
 BoarderRonaldSeenText:
 	text "Ich werde deine"
 	line "#mon"
@@ -260,23 +231,25 @@ BoarderRonaldSeenText:
 	done
 
 
+
 BoarderRonaldBeatenText:
 	text "Mist! Ich konnte"
 	line "nichts tun."
 	done
 
 
-BoarderBradSeenText:
-	text "Diese #mon-"
-	line "ARENA hat einen"
-	cont "rutschigen Boden."
-	cont "Das ist doch"
-	cont "lustig, oder?"
 
+BoarderBradSeenText:
+	text "Diese"
+	line "PKMN-ARENA hat"
+	cont "einen rutschigen"
+	cont "Boden. Das ist"
+	cont "doch lustig, oder?"
 	para "Aber wir sind"
 	line "nicht hier, um zu"
 	cont "spielen!"
 	done
+
 
 
 BoarderBradBeatenText:
@@ -286,10 +259,12 @@ BoarderBradBeatenText:
 	done
 
 
+
 BoarderDouglasSeenText:
 	text "Ich kenne NORBERTs"
 	line "Geheimnis."
 	done
+
 
 
 BoarderDouglasBeatenText:
@@ -299,15 +274,16 @@ BoarderDouglasBeatenText:
 	done
 
 
+
 SkierRoxanneSeenText:
 	text "Um zu NORBERT,"
 	line "unserem"
 	cont "ARENALEITER,"
-
 	para "zu gelangen, musst"
 	line "du denken, bevor"
 	cont "du loslegst."
 	done
+
 
 
 SkierRoxanneBeatenText:
@@ -318,11 +294,13 @@ SkierRoxanneBeatenText:
 	done
 
 
+
 SkierClarissaSeenText:
 	text "Sieh dir meinen"
 	line "Parallelschwung"
 	cont "an!"
 	done
+
 
 
 SkierClarissaBeatenText:
@@ -331,14 +309,13 @@ SkierClarissaBeatenText:
 	done
 
 
+
 MahoganyGymGuyWinText:
 	text "NORBERT ist nicht"
 	line "übel, aber du bist"
 	cont "noch besser!"
-
 	para "Das war ein heißer"
 	line "Kampf, der die"
-
 	para "Kluft zwischen den"
 	line "Generationen"
 	cont "überwunden hat."

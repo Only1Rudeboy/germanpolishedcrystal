@@ -130,10 +130,8 @@ GenericTrainerBreederSophie:
 
 	text "Manchmal nutzen"
 	line "Pikachu ihre"
-
 	para "Elektroschocks, um"
 	line "ohnmächtige"
-
 	para "Artgenossen zu"
 	line "wecken. Wie süß!"
 	done
@@ -298,7 +296,6 @@ SchoolgirlIsabelBeatenText:
 TeacherKathrynSeenText:
 	text "Du da! Du bist"
 	line "Trainer?"
-
 	para "Lass meine Schüler"
 	line "bloß nicht weinen!"
 	done
@@ -321,66 +318,53 @@ BreederSophieBeatenText:
 
 YellowForestWalkerSeenText:
 	text "Hallo! Ich bin"
-	line "Walker."
-
+	line "WALKER."
 	para "Früher war ich"
 	line "Arenaleiter von"
-
 	para "Viola City, aber"
 	line "das überließ ich"
-
 	para "meinem Sohn."
-
 	para "Jetzt wandere ich"
 	line "durch Johto und"
-
 	para "genieße die"
 	line "Aussicht."
-
-	para "Walker: Du"
+	para "WALKER: Du"
 	line "sammelst Orden,"
 	cont "oder?"
-
 	para "Dann hat mein Sohn"
 	line "gegen dich"
 	cont "verloren!"
-
 	para "Jetzt will ich"
 	line "deine Stärke"
 	cont "selbst testen."
-
 	para "Ich hab keinen"
 	line "Orden, aber wenn"
-
 	para "du gewinnst,"
 	line "bekommst du etwas"
 	cont "Schönes!"
 	done
 
 YellowForestWalkerBeatenText:
-	text "Meine Vogel-"
-	line "#mon… Besiegt!"
-	cont "Besiegt!"
+	text "Meine"
+	line "Vogel-#mon…"
+	cont "Besiegt! Besiegt!"
 	done
 
 YellowForestWalkerAfterText:
-	text "Walker: Ich"
+	text "WALKER: Ich"
 	line "verstehe, warum du"
 	cont "gegen"
-
-	para "Falk gewonnen"
+	para "FALK gewonnen"
 	line "hast."
-
 	para "Du kennst deine"
-	line "#mon in- und"
+	line "#mon inund"
 	cont "auswendig!"
-
 	para "Du hast dir diese"
 	line "VM verdient."
 	done
 
 YellowForestWalkerFinalText:
-	text "Walker:"
+	text "WALKER:"
 	line "Vogel-#mon"
 	cont "fliegen durch den"
 
@@ -406,34 +390,25 @@ YellowForestWalkerFlyText:
 	done
 
 YellowForestYellowGreetingText:
-	text "Yellow: Hi! Ich"
-	line "bin Yellow!"
-
+	text "YELLOW: Hallo! Ich"
+	line "bin YELLOW!"
 	para "Dieser Wald voller"
-	line "Pikachu…"
-
+	line "Pikachu …"
 	para "Er erinnert mich"
 	line "an meine Heimat in"
 	cont "Kanto."
-
 	para "Dort hab ich mein"
 	line "erstes #mon"
-
 	para "gefangen."
-
 	para "Der Trainer, der"
 	line "mir half, sagte:"
-
 	para "Wenn du dich von"
 	line "Herzen um #mon"
-
 	para "kümmerst, bleiben"
 	line "sie immer deine"
 	cont "Freunde!"
-
 	para "Ich spüre, dass du"
 	line "deine #mon"
-
 	para "liebst. Zeig mir,"
 	line "was deine Freunde"
 	cont "können!"
@@ -445,34 +420,30 @@ YellowForestYellowWinLossText:
 	done
 
 YellowForestYellowAfterText:
-	text "Yellow: Wow! Du"
+	text "YELLOW: Toll! Du"
 	line "bist wirklich"
-
 	para "ein guter Trainer."
 	line "Hier, etwas für"
-
 	para "deine Freunde!"
 	done
 
 YellowForestYellowGoodbyeText:
-	text "Yellow: Gib den"
+	text "YELLOW: Gib den"
 	line "Knuddelball einem"
 
-	para "Pikachu — er"
+	para "Pikachu - er"
 	line "steigert seine"
 	cont "Kraft."
 	done
 
 YellowForestCooltrainerMText:
-	text "Samen sind über-"
-	line "raschend mächtig."
-
+	text "Samen sind"
+	line "überraschend"
+	cont "mächtig."
 	para "Über viele Jahre"
 	line "wird aus einem"
-
 	para "kleinen Samen ein"
 	line "riesiger Baum."
-
 	para "Und ein großer"
 	line "Samen kann dich"
 	cont "einfach treffen!"
@@ -482,7 +453,7 @@ Text_YellowForestTutorSeedBomb:
 	text "Ich bringe deinem"
 	line "#mon Seed Bomb"
 
-	para "bei — für ein"
+	para "bei - für ein"
 	line "Silberblatt."
 	done
 
@@ -509,6 +480,6 @@ YellowForestSuperNerdText:
 	done
 
 YellowForestSurfPikachuDollText:
-	text "<PLAYER> fand"
+	text "<PLAYER> findet"
 	line "Surf-Pikachu."
 	done

@@ -212,19 +212,17 @@ CeladonGameCornerPrizeRoomGentlemanText:
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
-	text "Puh…"
-
+	text "Puh …"
 	para "Ich muss ruhig und"
-	line "cool bleiben…"
-
+	line "cool bleiben …"
 	para "Verlier ich die"
 	line "Fassung, verlier"
-	cont "ich all mein Geld…"
+	cont "ich all mein Geld"
+	cont "…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
 	text "Willkommen!"
-
 	para "Wir tauschen deine"
 	line "Münzen gegen tolle"
 	cont "Preise!"
@@ -237,14 +235,14 @@ CeladonPrizeRoom_AskWhichPrizeText:
 
 CeladonPrizeRoom_ConfirmPurchaseText:
 	text "Ach, du wolltest"
-	line ""
+	done
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_ConfirmTMPurchaseText:
 	text "Ach, du wolltest"
-	line ""
+	done
 	text_ram wStringBuffer3
 	text "?"
 	done
@@ -262,7 +260,6 @@ CeladonPrizeRoom_AlreadyHaveTMText:
 CeladonPrizeRoom_NotEnoughRoomText:
 	text "Moment, du hast"
 	line "keinen Platz mehr."
-
 	para "Ich geb dir deine"
 	line "Münzen zurück."
 	done

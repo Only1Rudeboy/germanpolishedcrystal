@@ -186,7 +186,6 @@ GenericTrainerYoungsterMikey:
 	text "Ein guter Trainer"
 	line "zu werden ist"
 	cont "nicht einfach."
-
 	para "Ich kämpfe gegen"
 	line "andere Trainer, um"
 	cont "besser zu werden."
@@ -198,9 +197,8 @@ GenericTrainerBug_catcherDon:
 	line "des Fangens die"
 	cont "#BÄLLE"
 	cont "ausgegangen."
-
 	para "Ich hätte mehr"
-	line "kaufen sollen…"
+	line "kaufen sollen …"
 	done
 Route30_JoeysRattataAttacksMovement:
 	run_step_up
@@ -220,6 +218,7 @@ Text_UseTackle:
 
 
 
+
 Text_ThisIsABigBattle:
 	text "Was? Das ist ein"
 	line "harter Kampf! Lass"
@@ -228,15 +227,16 @@ Text_ThisIsABigBattle:
 
 
 
+
 YoungsterJoey1SeenText:
 	text "Ich habe verloren!"
 	line "Ich versuche, mehr"
 	cont "#mon zu finden."
-
 	para "Halt! Du siehst"
 	line "schwach aus! Los,"
-	cont "lass uns kämpfen!"
+	cont "kämpfen wir!"
 	done
+
 
 
 
@@ -247,17 +247,16 @@ YoungsterJoey1BeatenText:
 
 
 
+
 YoungsterJoey1AfterText:
-	text "Benötige ich noch"
+	text "Brauche ich noch"
 	line "mehr #mon, um"
-
-	para "noch besser zu"
-	line "kämpfen?"
-
+	cont "besser zu kämpfen?"
 	para "Nein! Ich behalte"
-	line "dieses, egal, was"
+	line "dieses, egal was"
 	cont "passiert!"
 	done
+
 
 
 
@@ -265,10 +264,10 @@ YoungsterMikeySeenText:
 	text "Du bist ein"
 	line "#mon-Trainer,"
 	cont "oder?"
-
 	para "Dann musst du"
 	line "kämpfen!"
 	done
+
 
 
 
@@ -277,6 +276,7 @@ YoungsterMikeyBeatenText:
 	line "Davor habe ich"
 	cont "gewonnen."
 	done
+
 
 
 
@@ -312,12 +312,13 @@ Route30CooltrainerFText:
 
 
 
+
 Route30SignText:
 	text "ROUTE 30"
-
-	para "VIOLA CITY -"
-	line "ROSALIA CITY"
+	para "VIOLA CITY"
+	line "-ROSALIA CITY"
 	done
+
 
 
 
@@ -329,10 +330,12 @@ MrPokemonsHouseDirectionsSignText:
 
 
 
+
 MrPokemonsHouseSignText:
 	text "Das HAUS von MR."
 	line "#mon"
 	done
+
 
 
 
@@ -355,49 +358,40 @@ Route30TrainerTipsText:
 
 
 
+
 Route30AdvancedTipsText:
 	text "Erweiterte Tipps!"
-
 	para "Drücke im Kampf"
 	line "SELECT, um das"
 	cont "#mon zu"
 	cont "wechseln!"
-
 	para "Drücke START, um"
 	line "ein Item erneut zu"
 	cont "nutzen!"
-
 	para "Oder drücke B, um"
 	line "zu fliehen oder"
 	cont "aufzugeben!"
-
-	para "Wenn du eine"
-	line "Attacke auswählst,"
-
-	para "drücke SELECT, um"
-	line "sie mit einer"
-	cont "anderen zu"
-	cont "tauschen, oder"
-
-	para "drücke START, um"
-	line "ihre Beschreibung"
-	cont "zu sehen!"
+	para "Wählst du eine"
+	line "Attacke, drücke"
+	cont "SELECT, um sie"
+	para "mit einer anderen"
+	line "zu tauschen."
+	para "Drücke START für"
+	line "die Beschreibung!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "Wieder verloren…"
+	text "Wieder verloren …"
 	line "Bist du stark!"
-
-	para "Ach, fast vergaß"
+	para "Oh, fast vergaß"
 	line "ich, dass ich dir"
 	cont "das geben muss."
-
 	para "Werde damit noch"
 	line "stärker, O.K.?"
-
 	para "Ich werde auch"
 	line "noch stärker."
 	done
+
 
 
 

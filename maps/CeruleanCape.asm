@@ -168,7 +168,6 @@ TrainerSwimmermMalcolm:
 .SeenText:
 	text "Meine #mon und"
 	line "ich schwimmen"
-
 	para "zusammen, aber wir"
 	line "kämpfen auch!"
 	done
@@ -222,7 +221,8 @@ GenericTrainerBeautyBridget:
 
 .BeatenText:
 	text "Ich wollte nur die"
-	line "Aussicht genießen…"
+	line "Aussicht genießen"
+	cont "…"
 	done
 
 GenericTrainerBeautyVeronica:
@@ -231,10 +231,9 @@ GenericTrainerBeautyVeronica:
 	text "Sei kalt zu mir"
 	line "und ich sage dir,"
 	cont "wo du hin kannst!"
-
 	para "Vielleicht bin ich"
-	line "deshalb Single."
-	cont "…Haha!"
+	line "deshalb Single. …"
+	cont "Haha!"
 	done
 
 .SeenText:
@@ -257,12 +256,10 @@ GenericTrainerGentlemanCamus:
 
 	text "Ich war einmal ein"
 	line "talentierter"
-
 	para "Trainer, aber"
 	line "jetzt bin ich nur"
 	cont "noch ein alter"
-
-	para "Has-Been. Genieße"
+	para "Versager. Genieße"
 	line "es, solange du"
 	cont "jung bist."
 	done
@@ -353,17 +350,17 @@ TrainerLadyJessica:
 .AfterText1:
 	text "Ich muss mir ein"
 	line "stärkeres #mon"
-	cont "kaufen… ……………… Und"
-	cont "ein neues Kleid…"
+	cont "kaufen … … … … … …"
+	cont "… Und ein neues"
+	cont "Kleid …"
 	done
 
 .AfterText2:
 	text "Warum bist du noch"
 	line "hier?"
-
 	para "Hör auf, mich"
-	line "anzustarren!"
-	cont "……………… Gruselig!"
+	line "anzustarren! … … …"
+	cont "… … … Gruselig!"
 	done
 
 GenericTrainerFisherLeroy:
@@ -388,7 +385,7 @@ GenericTrainerFisherLeroy:
 
 .BeatenText:
 	text "Nichts klappt mehr"
-	line "für mich…"
+	line "für mich …"
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -425,49 +422,40 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Warum"
+	text "MISTY: Ach! Warum"
 	line "musst du jetzt"
-
 	para "auftauchen und uns"
 	line "stören?"
-
 	para "Weißt du, wie man"
 	line "Menschen wie dich"
 	cont "nennt?"
-
 	para "Plage! Du hast"
 	line "richtig gehört,"
 	cont "Plage!"
-
 	para "…"
-
-	para "…Oh? Die ORDEN,"
-	line "die du hast… Sind"
+	para "… Oh? Die ORDEN,"
+	line "die du hast … Sind"
 	cont "das ARENA-ORDEN"
 	cont "aus JOHTO?"
-
 	para "Wenn du acht hast,"
 	line "musst du gut sein."
-
 	para "O.K. Komm in die"
 	line "PKMN-ARENA von"
 	cont "AZURIA CITY."
-
 	para "Ich freue mich,"
 	line "gegen dich zu"
 	cont "kämpfen."
-
 	para "Ich bin MISTY, die"
 	line "ARENALEITERIN von"
 	cont "AZURIA CITY."
 	done
 BillsHouseSignText:
-	text "Meereshaus Bills"
+	text "Meereshaus BILLs"
 	line "Haus"
 	done
 
 CeruleanCapeSailboatText:
 	text "Ein Segelboot mit"
-	line "dem Namen Friend-"
-	cont "Ship."
+	line "dem Namen"
+	cont "Freund-Schiff."
 	done

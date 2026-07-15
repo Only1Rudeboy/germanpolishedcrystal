@@ -116,33 +116,28 @@ CinnabarVolcano1FBuckScript:
 
 .ChallengeText:
 	text "Hallo! Ich bin"
-	line "Buck. Und du bist…"
-	cont "<PLAYER>?"
-
+	line "Buck. Und du bist"
+	cont "… <PLAYER>?"
 	para "Sag nicht, du"
 	line "suchst auch nach"
 	cont "Schatz!"
-
 	para "Der STARKBERG bei"
 	line "mir zu Hause"
-
 	para "hat tief innen"
 	line "einen Schatz, also"
 	cont "glaube ich, dass"
 	cont "dieser Vulkan das"
 	cont "auch tut!"
-
 	para "Deshalb bin ich"
 	line "hier."
-
-	para "Also, <PLAYER>,"
-	line "wie wäre es, wenn"
-	cont "wir um den Schatz"
+	para "Also, <PLAYER>, wie"
+	line "wäre es, wenn wir"
+	cont "um den Schatz"
 	cont "kämpfen?"
 	done
 
 .YesText:
-	text "OK! Ich sag dir"
+	text "O.K.! Ich sag dir"
 	line "schon jetzt: Ich"
 	cont "bin echt stark!"
 	done
@@ -150,7 +145,7 @@ CinnabarVolcano1FBuckScript:
 .NoText:
 	text "Ich frage so"
 	line "lange, bis du"
-	cont "“Ja!” sagst!"
+	cont "'Ja!' sagst!"
 	done
 
 .BeatenText:
@@ -160,16 +155,12 @@ CinnabarVolcano1FBuckScript:
 
 .ItemText:
 	text "Fweh! Zu heiß!"
-
 	para "Der Schatz dieses"
 	line "Vulkans ist nichts"
-	cont "für mich…"
-
-	para "Aber hey,"
-	line "<PLAYER>! Du bist"
-	cont "ein toller"
+	cont "für mich …"
+	para "Aber hey, <PLAYER>!"
+	line "Du bist ein toller"
 	cont "Trainer!"
-
 	para "Das hier gefällt"
 	line "dir!"
 	done
@@ -177,10 +168,9 @@ CinnabarVolcano1FBuckScript:
 .GoodbyeText:
 	text "Ich verbessere"
 	line "wohl mein Team in"
-	cont "der Battle Tower."
-
-	para "Bis bald,"
-	line "<PLAYER>! Tschüss!"
+	cont "dem Kampfturm."
+	para "Bis bald, <PLAYER>!"
+	line "Tschüss!"
 	done
 
 GenericTrainerScientistOskar:
@@ -198,10 +188,10 @@ GenericTrainerScientistOskar:
 GenericTrainerSuperNerdLuis:
 	generictrainer SUPER_NERD, LUIS, EVENT_BEAT_SUPER_NERD_LUIS, SuperNerdLuisSeenText, SuperNerdLuisBeatenText
 
-	text "Es ist so auf-"
-	line "regend, in einem"
-	cont "Vulkan zu sein!"
-
+	text "Es ist so"
+	line "aufregend, in"
+	cont "einem Vulkan zu"
+	cont "sein!"
 	para "Aber gleichzeitig"
 	line "auch gruselig."
 	done
@@ -221,15 +211,14 @@ ScientistOskarBeatenText:
 SuperNerdLuisSeenText:
 	text "Wusstest du, dass"
 	line "Magma erst dann"
-
 	para "Lava heißt, wenn"
 	line "es durch einen"
-
-	para "Vulkan die Ober-"
-	line "fläche erreicht?"
+	para "Vulkan die"
+	line "Oberfläche"
+	cont "erreicht?"
 	done
 
 SuperNerdLuisBeatenText:
 	text "Du hast mir gerade"
-	line "was beigebracht…"
+	line "was beigebracht …"
 	done

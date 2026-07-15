@@ -1,13 +1,12 @@
 BrentRareTradeText:
-	text "Oh ja, ich hab vor"
-	line "einiger Zeit ein"
-
+	text "Oh ja, ich hab"
+	line "vor einiger Zeit"
+	cont "ein"
 	para "extrem seltenes"
 	line "#mon getauscht."
-
 	para "Willst du wissen,"
-	line "welches? Hehe, das"
-	cont "bleibt mein"
+	line "welches? Hehe,"
+	cont "das bleibt mein"
 	cont "Geheimnis!"
 	done
 
@@ -25,16 +24,14 @@ BrentDefeatedMonText:
 	done
 
 BrentLostAMonText:
-	text "Oh ja, ich sah vor"
-	line "einer Stunde ein"
-
+	text "Oh ja, ich sah"
+	line "vor einer Stunde"
+	cont "ein"
 	para "seltenes #mon."
 	line "Mein erster Fund!"
-
 	para "Aber ich hatte"
-	line "keine # Bälle…"
-
-	para "Würde Bill über"
+	line "keine #Bälle …"
+	para "Würde BILL über"
 	line "meine Fehler"
 	cont "lachen?"
 	done
@@ -61,44 +58,42 @@ BrentHangUpText:
 
 BrentFatherGossipText:
 	text "Wusstest du…?"
-	line "Bills Vater soll"
+	line "BILLs Vater soll"
 
 	para "ein großer"
 	line "#Maniac sein."
 	done
 
 BrentGrandpaGossipText:
-	text "Wusstest du…?"
-	line "Bills Großvater"
-
-	para "ist angeblich kein"
-	line "#Maniac."
+	text "Wusstest du …?"
+	line "BILLs Großvater"
+	para "ist angeblich"
+	line "kein #Maniac."
 	done
 
 BrentGoldenrodGossipText:
-	text "Wusstest du…? Bill"
-	line "kommt aus Dukatia"
-	cont "City."
+	text "Wusstest du …?"
+	line "BILL kommt aus"
+	cont "Dukatia City."
 	done
 
 BrentRoute25GossipText:
-	text "Wusstest du…? Bill"
-	line "wohnt auf"
-
-	para "Route 25 in Kanto."
+	text "Wusstest du …?"
+	line "BILL wohnt auf"
+	para "Route 25 in"
+	line "Kanto."
 	done
 
 BrentAbraGossipText:
-	text "Wusstest du…? Abra"
-	line "war Bills"
-
+	text "Wusstest du …?"
+	line "Abra war BILLs"
 	para "erstes #mon,"
 	line "sagt man."
 	done
 
 BrentSisterGossipText:
 	text "Wusstest du…?"
-	line "Bills jüngere"
+	line "BILLs jüngere"
 
 	para "Schwester kann"
 	line "angeblich nicht"
@@ -106,42 +101,41 @@ BrentSisterGossipText:
 	done
 
 BrentMilkGossipText:
-	text "Wusstest du…? Bill"
-	line "hasst Milch"
-
-	para "und kann sie nicht"
-	line "trinken."
+	text "Wusstest du …?"
+	line "BILL hasst Milch"
+	para "und kann sie"
+	line "nicht trinken."
 	done
 
 BrentBattlingGossipText:
-	text "Wusstest du…? Bill"
-	line "ist angeblich"
-
+	text "Wusstest du …?"
+	line "BILL ist"
+	cont "angeblich"
 	para "nicht gut im"
 	line "Kämpfen."
 	done
 
 BrentFlowerShopGossipText:
-	text "Wusstest du…? Bill"
-	line "mag die Dame"
-
+	text "Wusstest du …?"
+	line "BILL mag die Dame"
 	para "im Blumenladen."
 	done
 
 BrentKimonoGirlGossipText:
 	text "Wusstest du…?"
-	line "Bills Mutter soll"
+	line "BILLs Mutter soll"
 
-	para "eine Kimono Girl"
-	line "gewesen sein."
+	para "eine Kimono-"
+	line "Tänzerin gewesen"
+	cont "sein."
 	done
 
 BrentSorryImTooBusyText:
 	text "Du wolltest von"
-	line "Bill hören?"
+	line "BILL hören?"
 
-	para "Sorry, ich hab"
-	line "keine Zeit."
+	para "Tut mir leid, ich"
+	line "hab keine Zeit."
 
 	para "Ich ruf an, wenn"
 	line "ich Zeit habe."

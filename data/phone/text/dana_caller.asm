@@ -13,12 +13,11 @@ DanaDefeatedMonText:
 	line "einen Moment, ein"
 	cont "wildes "
 	text_ram wStringBuffer4
-	text " zu"
-
+	text "zu"
 	para "besiegen. Wohl"
 	line "wegen deiner"
-	cont "Kampftipps letztes"
-	cont "Mal."
+	cont "Kampftipps"
+	cont "letztes Mal."
 	done
 
 DanaLostAMonText:
@@ -40,10 +39,9 @@ DanaBattleRematchText:
 	cont ""
 	text_ram wStringBuffer5
 	text "."
-
 	para "Wenn du in der"
-	line "Nähe bist, kämpfen"
-
+	line "Nähe bist,"
+	cont "kämpfen"
 	para "wir! Ich warte!"
 	done
 
@@ -55,14 +53,11 @@ DanaFoundItemText:
 	text "Weißt du was? Ich"
 	line "hab ein tolles"
 	cont "Geschenk!"
-
 	para "Wie versprochen,"
 	line "ist es deins!"
-
-	para "Du wirst es mögen."
-	line "Hol es auf"
-
-	para ""
+	para "Du wirst es"
+	line "mögen. Hol es auf"
+	done
 	text_ram wStringBuffer5
 	text " ab!"
 	done
@@ -70,15 +65,14 @@ DanaFoundItemText:
 DanaCanYouWaitABitLongerText:
 	text "Oh! Du wolltest"
 	line "ein Geschenk?"
-
-	para "Ich hab eins, aber"
-	line "ich will es"
+	para "Ich hab eins,"
+	line "aber ich will es"
 	cont "behalten. Kannst"
 	cont "du warten?"
 	done
 
 DanaReminderText:
-	text "Hi! Du hast"
+	text "Hallo! Du hast"
 	line "unseren Kampf"
 	cont "nicht"
 
@@ -91,15 +85,13 @@ DanaReminderText:
 
 DanaComePickUpText:
 	text "Hallo?"
-
 	para "Wenn du dein"
 	line "Geschenk nicht"
-
 	para "bald holst, geb"
 	line "ich's jemand"
-
-	para "anderem. Ich warte"
-	line "auf "
+	para "anderem. Ich"
+	line "warte auf"
+	done
 	text_ram wStringBuffer5
 	text "!"
 	done

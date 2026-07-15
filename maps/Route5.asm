@@ -30,7 +30,6 @@ Route5PokefanMText:
 
 Route5UndergroundPathSignText:
 	text "TUNNELPFAD"
-
 	para "AZURIA CITY -"
 	line "ORANIA CITY"
 	done
@@ -38,17 +37,13 @@ Route5UndergroundPathSignText:
 
 Route5AdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Rasereigen ist ein"
 	line "mächtiges Item,"
-
 	para "aber es verursacht"
 	line "Verwirrung."
-
 	para "Ein #mon mit"
 	line "der Fähigkeit"
 	cont "Gleichmut"
-
 	para "wird aber nicht"
 	line "verwirrt!"
 	done

@@ -18,17 +18,16 @@ GoldenrodBandHouse_MapScriptHeader:
 
 GoldenrodBandHouseRocker1Text:
 	text "Ich spiele Gitarre"
-	line "in unserer Cover-"
-	cont "Band."
-
+	line "in unserer"
+	cont "Cover-Band."
 	para "Hör uns im"
 	line "Musik-Kanal zu!"
 	done
 
 GoldenrodBandHouseRocker2Text:
-	text "Musik und Leiden-"
-	line "schaft sind immer"
-
+	text "Musik und"
+	line "Leidenschaft sind"
+	cont "immer"
 	para "modern. Vergiss"
 	line "das nicht!"
 	done

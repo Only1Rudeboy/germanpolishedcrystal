@@ -19,32 +19,29 @@ EcruteakLugiaSpeechHouse_MapScriptHeader:
 EcruteakLugiaSpeechHouseGrampsText:
 	text "Dies geschah, als"
 	line "ich jung war."
-
 	para "Der Himmel färbte"
 	line "sich schwarz. Ein"
-
 	para "riesiges,"
-	line "fliegendes #mon"
-
+	line "fliegendes"
+	cont "#mon"
 	para "verdunkelte die"
 	line "Sonne."
-
 	para "Ich frage mich,"
 	line "was das für ein"
-
 	para "#mon war. Es"
 	line "war wie ein Vogel"
 	cont "und ein Drache."
 	done
 
 
+
 EcruteakLugiaSpeechHouseYoungsterText:
 	text "Ob es wirklich ein"
 	line "so großes #mon"
-
 	para "gibt? Wenn ja, so"
 	line "muss es unfassbar"
 	cont "mächtig sein."
 	done
+
 
 

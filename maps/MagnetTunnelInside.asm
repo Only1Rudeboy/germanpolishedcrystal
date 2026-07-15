@@ -284,17 +284,13 @@ MagnetTunnelInsideMachineText5:
 	text "Diese Maschine"
 	line "läuft nicht"
 	cont "richtig!"
-
 	para "Mehrere"
 	line "WARNUNGmeldungen"
 	cont "flackern"
-
 	para "über den kleinen"
 	line "Bildschirm und"
-
 	para "ein Brandgeruch"
 	line "liegt in der Luft."
-
 	para "Den Not-Aus-Knopf"
 	line "drücken?"
 	done
@@ -330,16 +326,13 @@ MagnetTunnelInsideEngineerText1:
 	line "hier erzeugt ein"
 	cont "starkes"
 	cont "Magnetfeld."
-
 	para "Wir mussten"
 	line "Spezialausrüstung"
 	cont "holen,"
-
 	para "um den Tunnel bis"
 	line "zur Frist des"
 	cont "Vorarbeiters"
 	cont "fertig zu stellen."
-
 	para "Unser Team stand"
 	line "unter großem"
 	cont "Druck, pünktlich"
@@ -349,11 +342,9 @@ MagnetTunnelInsideEngineerText1:
 MagnetTunnelInsideEngineerText2:
 	text "Seit wir mit dem"
 	line "Tunnelbau begonnen"
-
 	para "haben, hat sich"
 	line "die Zahl wilder"
 	cont "Elektro-"
-
 	para "#mon hier mehr"
 	line "als verdoppelt."
 	done
@@ -362,13 +353,10 @@ MagnetTunnelInsideScientistText:
 	text "Jeden Tag kommen"
 	line "mehr Magnetilo und"
 	cont "machen Ärger."
-
 	para "Der Vorarbeiter"
 	line "meint, sie werden"
-
 	para "vom Magnetstein"
 	line "angezogen."
-
 	para "Aber warum?"
 	done
 
@@ -411,19 +399,16 @@ GenericTrainerEngineerGustav:
 	text "Ich hab versucht,"
 	line "sie zu reparieren,"
 	cont "aber es nützt"
-
-	para "nichts… Ich finde"
+	para "nichts … Ich finde"
 	line "einfach nicht"
 	cont "heraus, was los"
 	cont "ist!"
-
 	para "Wenn ich sie"
 	line "wieder anschalte,"
 	cont "könnte"
-
 	para "die Maschine"
 	line "durchbrennen und"
-	cont "kaputt sein…"
+	cont "kaputt sein …"
 	done
 
 .SeenText:
@@ -435,7 +420,7 @@ GenericTrainerEngineerGustav:
 
 .BeatenText:
 	text "Durchgebrannt! Wie"
-	line "eine Sicherung…"
+	line "eine Sicherung …"
 	done
 
 GenericTrainerEngineerNicolas:
@@ -445,13 +430,10 @@ GenericTrainerEngineerNicolas:
 	line "erzeugen"
 	cont "ernsthafte"
 	cont "Spannung!"
-
 	para "Wenn sie an sind,"
 	line "entsteht ein"
-
 	para "extrem starkes"
 	line "Magnetfeld."
-
 	para "Also Vorsicht hier"
 	line "drin, klar?"
 	done

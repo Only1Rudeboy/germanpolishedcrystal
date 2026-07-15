@@ -41,11 +41,9 @@ GoldenrodNetBallHouseYoungsterScript:
 .Text1:
 	text "Ich habe Netzbälle"
 	line "gekauft, um"
-
 	para "ein Tannza zu"
 	line "fangen, aber beim"
 	cont "ersten Wurf"
-
 	para "hat's geklappt!"
 	line "Den Rest brauch"
 	cont "ich nicht mehr."
@@ -54,10 +52,8 @@ GoldenrodNetBallHouseYoungsterScript:
 GoldenrodNetBallHouseBugCatcherText:
 	text "Im NATIONALPARK"
 	line "auf ROUTE 35"
-
-	para "gibt es Käfer-"
-	line "fang-Wettbewerbe."
-
+	para "gibt es Käferfang-"
+	line "Wettbewerbe."
 	para "Manchmal kämpft"
-	line "sogar Bugsy mit!"
+	line "sogar KAI mit!"
 	done

@@ -84,13 +84,10 @@ TrainerCooltrainermFinch:
 	line "Wirkung eines"
 	cont "Luftballons im"
 	cont "Kampf gesehen."
-
 	para "Vielleicht triffst"
 	line "du andere Trainer"
-
 	para "wie mich in Johto."
 	line "Sie suchen Stärke."
-
 	para "Fordere sie am"
 	line "besten heraus!"
 	done
@@ -99,15 +96,12 @@ TrainerCooltrainermFinch:
 	line "Trainer, der"
 	cont "Luftballons im"
 	cont "Kampf nutzt."
-
 	para "Ich will von"
 	line "deiner Stärke"
-	cont "überzeugt werden…"
-
+	cont "überzeugt werden …"
 	para "Besiege alle"
 	line "Trainer auf Route"
 	cont "30 und 31,"
-
 	para "dann tritt mir"
 	line "gegenüber!"
 	done
@@ -126,10 +120,9 @@ TrainerCooltrainermFinch:
 	text "Du willst deine"
 	line "Stärke nicht mit"
 	cont "meiner messen?"
-
 	para "Ich gebe dir mein"
 	line "Spezial-Item, wenn"
-	cont "du gewinnst…"
+	cont "du gewinnst …"
 	done
 .SeenText:
 	text "Freut mich! Ich"
@@ -140,7 +133,7 @@ TrainerCooltrainermFinch:
 	done
 .BeatenText:
 	text "Du hast mich zu"
-	line "Boden gebracht…"
+	line "Boden gebracht …"
 	done
 .AfterText1:
 	text "Ein toller Kampf!"
@@ -296,22 +289,18 @@ Route31MailRecipientScript:
 	iftruefwd .TryGiveKenya
 	jumpthisopenedtext
 
-	text "…Hnngh… Häh?"
-
+	text "… Hnngh … Häh?"
 	para "Ich bin heute zu"
 	line "weit gelaufen, auf"
 	cont "der Suche nach"
 	cont "#mon."
-
 	para "Meine Füße tun weh"
-	line "und ich bin müde…"
-
+	line "und ich bin müde …"
 	para "Wäre ich ein"
 	line "wildes #mon,"
 	cont "wäre ich leicht zu"
-	cont "fangen…"
-
-	para "…Zzzz…"
+	cont "fangen …"
+	para "… Zzzz …"
 	done
 
 .TryGiveKenya:
@@ -342,14 +331,14 @@ Route31MailRecipientScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Na gut…"
+	text "Na gut …"
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
 	text "Du hast aber kein"
-	line "Silberblatt…"
+	line "Silberblatt …"
 	done
 
 .TeachMove
@@ -388,12 +377,9 @@ Route31MailRecipientScript:
 
 	text "Wenn ich dir"
 	line "dieses #mon"
-	cont "weg-"
-
-	para "nehme, womit"
-	line "willst du dann"
-
-	para "kämpfen?"
+	cont "wegnehme, womit"
+	cont "willst du dann"
+	cont "kämpfen?"
 	done
 ReceivedSpearowMailText:
 	setcharmap no_ngrams
@@ -407,7 +393,7 @@ Bug_catcherWade1SeenText:
 	cont "Lass uns kämpfen!"
 	done
 Bug_catcherWade1BeatenText:
-	text "Awwwww…"
+	text "Awwwww …"
 	done
 Bug_catcherWade1AfterText:
 	text "Du kannst #mon"
@@ -423,12 +409,12 @@ Bug_catcherWade1AfterText:
 	cont "übertragen."
 	done
 Text_Route31SleepyManGotMail:
-	text "…Zzzz… Häh?"
-
+	text "… Zzzz … Häh?"
 	para "Was ist? Du hast"
 	line "einen BRIEF für"
 	cont "mich?"
 	done
+
 
 
 
@@ -440,31 +426,27 @@ Text_Route31HandOverMailMon:
 
 
 
+
 Text_Route31ReadingMail:
-	text "Mal sehen…"
-
-	para "…die DUNKELHÖHLE"
+	text "Mal sehen …"
+	para "… die DUNKELHÖHLE"
 	line "führt zu einem"
-	cont "anderen Weg…"
-
+	cont "anderen Weg …"
 	para "Gut zu wissen."
-
 	para "Danke, dass du mir"
 	line "den BRIEF"
 	cont "brachtest."
-
 	para "Mein Freund ist"
 	line "ein netter Mensch,"
 	cont "genau wie du!"
-
 	para "Ich möchte mich"
 	line "bei dir dafür"
 	cont "revanchieren!"
-
 	para "Ich hab's! Ich"
 	line "möchte dir das"
 	cont "hier geben!"
 	done
+
 
 
 
@@ -480,7 +462,7 @@ Text_Route31TutorSleepTalk:
 
 Text_Route31TutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Sleep Talk"
+	line "#mon Schlafrede"
 	cont "beibringen?"
 	done
 
@@ -493,32 +475,32 @@ Text_Route31TutorQuestion:
 Route31YoungsterText:
 	text "Ich habe ein gutes"
 	line "#mon in der"
-	cont "DUNKELHÖHLE"
+	cont "DUNKEL-HÖHLE"
 	cont "gefunden."
-
 	para "Ich ziehe es groß,"
 	line "um später gegen"
 	cont "FALK anzutreten."
-
-	para "Er ist der ARENA-"
-	line "LEITER von VIOLA"
-	cont "CITY."
+	para "Er ist der"
+	line "Arenaleiter von"
+	cont "VIOLA CITY."
 	done
+
 
 
 
 Route31SignText:
 	text "ROUTE 31"
-
-	para "VIOLA CITY -"
-	line "ROSALIA CITY"
+	para "VIOLA CITY"
+	line "-ROSALIA CITY"
 	done
+
 
 
 
 DarkCaveSignText:
 	text "DUNKELHÖHLE"
 	done
+
 
 
 

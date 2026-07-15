@@ -83,20 +83,16 @@ DimCave5FRileyScript:
 	end
 
 .ChallengeText:
-	text "…Wer bist du?"
-
+	text "… Wer bist du?"
 	para "Okay, du bist"
 	line "<PLAYER>."
-
 	para "Ich bin Riley. Ja,"
 	line "ich bin Trainer."
-
 	para "Ich besitze eine"
-	line "Mine wie diese —"
-	cont "ein guter"
+	line "Mine wie diese"
+	cont "-ein guter"
 	cont "Trainingsplatz für"
 	cont "mich."
-
 	para "Wenn du willst,"
 	line "können wir"
 	cont "kämpfen."
@@ -119,7 +115,6 @@ DimCave5FRileyScript:
 	text "Mal kämpfen wir,"
 	line "mal kämpfen wir"
 	cont "zusammen."
-
 	para "Schön, wie Trainer"
 	line "miteinander"
 	cont "umgehen können."
@@ -152,7 +147,7 @@ DimCave5FRileyScript:
 
 	para "Jetzt teste ich"
 	line "meine Fähigkeiten"
-	cont "im Kampfturnier."
+	cont "im Kampfturm."
 
 	para "Bis bald!"
 
@@ -165,11 +160,9 @@ GenericTrainerSuper_nerdFoote:
 
 	text "Ein Leben retten"
 	line "oder fünf?"
-
-	para "Als #mon-"
-	line "Trainer hast du"
-	cont "vielleicht"
-
+	para "Als"
+	line "#mon-Trainer"
+	cont "hast du vielleicht"
 	para "die Kraft, alle"
 	line "sechs zu retten!"
 	done
@@ -177,10 +170,8 @@ GenericTrainerSuper_nerdFoote:
 .SeenText:
 	text "Ich hab ein Rätsel"
 	line "für dich!"
-
 	para "Würdest du ein"
 	line "#mon vor einen"
-
 	para "Lorenbahnwagen"
 	line "stoßen, um fünf zu"
 	cont "retten?"
@@ -188,7 +179,7 @@ GenericTrainerSuper_nerdFoote:
 
 .BeatenText:
 	text "Du hast ohne Worte"
-	line "geantwortet… Wie"
+	line "geantwortet … Wie"
 	cont "zen!"
 	done
 
@@ -197,7 +188,6 @@ GenericTrainerEngineerHoward:
 
 	text "Das Wasser fließt"
 	line "vom Azuria-Kap"
-
 	para "südwärts und endet"
 	line "im Kraftwerk."
 	done
@@ -219,7 +209,6 @@ GenericTrainerSuper_nerdDave:
 	text "Zum Abbauen"
 	line "braucht man eine"
 	cont "Spitzhacke."
-
 	para "Hier in der Nähe"
 	line "bekommt man keine."
 	done
@@ -227,7 +216,6 @@ GenericTrainerSuper_nerdDave:
 .SeenText:
 	text "Meine Fähigkeiten"
 	line "in Bergbau,"
-
 	para "Juwelen, Schmelzen"
 	line "und Handwerk sind"
 	cont "auf Maximum!"

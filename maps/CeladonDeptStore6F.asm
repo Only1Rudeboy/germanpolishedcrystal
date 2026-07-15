@@ -60,16 +60,12 @@ CeladonDeptStore3FGameboyKid2Text:
 	text "Juhu! Endlich"
 	line "bekomme ich ein"
 	cont "Porygon!"
-
 	para "Ich bin schlecht"
 	line "an den Automaten,"
 	cont "drum reichten"
-
 	para "meine Münzen nie…"
-
 	para "Ich entwickle es"
-	line "mit einem Up-"
-	cont "Grade!"
+	line "mit einem UpGrade!"
 	done
 
 CeladonDeptStore6FDirectoryText:

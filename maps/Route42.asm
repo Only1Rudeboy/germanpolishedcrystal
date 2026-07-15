@@ -278,28 +278,27 @@ GenericTrainerHikerBenjamin:
 
 	text "Schaut man auf, in"
 	line "dieses"
-	cont "überwältigend"
+	cont "überwäl-tigend"
 	cont "schöne Blau"
-
 	para "des Himmels, dann"
 	line "verliert eine"
 	cont "Niederlage völlig"
 	cont "an Bedeutung!"
 	done
+
 GenericTrainerPokemaniacShane:
 	generictrainer POKEMANIAC, SHANE, EVENT_BEAT_POKEMANIAC_SHANE, PokemaniacShaneSeenText, PokemaniacShaneBeatenText
 
 	text "Du erstellst einen"
-	line "#dex?"
-
+	line "#DEX?"
 	para "Wow, du kennst"
 	line "bestimmt einige"
 	cont "sehr seltene"
 	cont "#mon!"
-
 	para "Darf ich bitte mal"
 	line "eines sehen?"
 	done
+
 MovementData_Route42LyraApproach4:
 	step_down
 MovementData_Route42LyraApproach3:
@@ -336,28 +335,21 @@ Route42SuicuneMovement:
 	step_end
 
 Route42LyraGreetingText:
-	text "Lyra: Hallo,"
+	text "LYRA: Hallo,"
 	line "<PLAYER>!"
-
 	para "Was für ein"
 	line "Zufall. Ich hab"
-
 	para "gerade die"
 	line "Auswirkungen der"
-
 	para "letzten Lawine auf"
 	line "wilde #mon"
 	cont "untersucht."
-
 	para "Du gehst nach"
 	line "MAHAGONIA CITY"
-
 	para "für einen neuen"
 	line "ORDEN?"
-
 	para "Dann hab ich ein"
 	line "Geschenk für dich!"
-
 	para "Aber du musst mich"
 	line "erst besiegen!"
 	done
@@ -373,21 +365,19 @@ Route42LyraLossText:
 	done
 
 Route42LyraPresentText:
-	text "Lyra: Wow, du"
+	text "LYRA: Wow, du"
 	line "wirst echt stark,"
 	cont "<PLAYER>!"
-
 	para "Ich bin sicher, du"
 	line "schaffst die"
 	cont "MAHAGONIA-ARENA."
-
 	para "Und dann kannst du"
 	line "das hier"
 	cont "einsetzen!"
 	done
 
 Route42LyraWhirlpoolText:
-	text "Lyra: Das ist"
+	text "LYRA: Das ist"
 	line "Strudel."
 
 	para "Bring es einem"
@@ -426,6 +416,7 @@ FisherTullyAfterBattleText:
 
 
 
+
 HikerBenjaminSeenText:
 	text "Ach, ist das"
 	line "schön, im Freien"
@@ -435,9 +426,11 @@ HikerBenjaminSeenText:
 
 
 
+
 HikerBenjaminBeatenText:
 	text "Hahaha!"
 	done
+
 
 
 
@@ -452,11 +445,13 @@ PokemaniacShaneSeenText:
 
 
 
+
 PokemaniacShaneBeatenText:
 	text "Ich hätte meinen"
 	line "MONDSTEIN benutzen"
-	cont "sollen…"
+	cont "sollen …"
 	done
+
 
 
 
@@ -464,21 +459,19 @@ Route42OfficerText:
 	text "Tut mir leid, du"
 	line "kannst hier nicht"
 	cont "durch."
-
-	para "Auf dem KESSEL-"
-	line "BERG gab es eine"
-	cont "Lawine."
-
+	para "Auf dem"
+	line "KESSEL-BERG gab es"
+	cont "eine Lawine."
 	para "Wir räumen noch"
 	line "den Schutt auf."
 	done
 
 Route42Sign1Text:
 	text "ROUTE 42"
-
-	para "TEAK CITY -"
-	line "MAHAGONIA CITY"
+	para "TEAK CITY"
+	line "-MAHAGONIA CITY"
 	done
+
 
 
 
@@ -491,6 +484,7 @@ MtMortarSign1Text:
 
 
 
+
 MtMortarSign2Text:
 	text "KESSELBERG"
 
@@ -500,12 +494,13 @@ MtMortarSign2Text:
 
 
 
+
 Route42Sign2Text:
 	text "ROUTE 42"
-
-	para "TEAK CITY -"
-	line "MAHAGONIA CITY"
+	para "TEAK CITY"
+	line "-MAHAGONIA CITY"
 	done
+
 
 
 

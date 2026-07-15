@@ -27,9 +27,9 @@ PokemonJournalClairScript:
 	text "#mon-Journal"
 
 	para "Spezialthema:"
-	line "Leiterin Sandra!"
+	line "Leiterin SANDRA!"
 
-	para "Sandras leuchtend"
+	para "SANDRAs leuchtend"
 	line "blaues Outfit und"
 	cont "Cape machten sie"
 
@@ -51,12 +51,11 @@ ProfOaksAide4Script:
 
 	text "Mal sehen… Oh je!"
 	line "Du hast"
-
-	para "erst "
+	para "erst"
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten von #mon"
+	text "Arten von #mon"
 	line "gefangen."
-
 	para "Komm wieder, wenn"
 	line "du 60 Arten"
 	cont "gefangen hast."
@@ -86,20 +85,16 @@ ProfOaksAide4Script:
 
 .HiText:
 	text "Hallo! Ich bin"
-	line "Prof. Eichs"
+	line "PROF. EICHs"
 	cont "Assistent."
-
 	para "Wenn du 60 Arten"
 	line "von #mon"
 	cont "gefangen hast,"
-
 	para "soll ich dir ein"
 	line "Item geben."
-
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
 	cont "60"
-
 	para "Arten von #mon"
 	line "gefangen?"
 	done
@@ -107,12 +102,10 @@ ProfOaksAide4Script:
 .HereYouGoText:
 	text "Mal sehen… Gut"
 	line "gemacht! Du hast"
-
-	para "gefangen "
+	para "gefangen"
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten von"
-	line "#mon."
-
+	text "Arten von #mon."
 	para "Glückwunsch! Hier"
 	line "bitte!"
 	done
@@ -127,13 +120,10 @@ BlackthornPokeCenter1FGentlemanText:
 	text "Tief im fernen"
 	line "Indigo-Plateau"
 	cont "liegt die #mon-"
-
 	para "Liga."
-
 	para "Ich hörte, die"
 	line "besten Trainer aus"
 	cont "dem ganzen Land"
-
 	para "versammeln sich"
 	line "dort."
 	done
@@ -142,13 +132,10 @@ BlackthornPokeCenter1FTwinText:
 	text "Da gab's diese"
 	line "Attacke, die mein"
 	cont "#mon unbedingt"
-
 	para "lernen musste."
-
 	para "Also ließ ich vom"
-	line "Attacken-"
-	cont "Verlerner eine"
-
+	line "Attacken-Verlerner"
+	cont "eine"
 	para "VM-Attacke"
 	line "vergessen."
 	done

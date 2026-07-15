@@ -30,7 +30,7 @@ PewterSnoozeSpeechHouseGrampsText:
 
 
 PewterSnoozeSpeechHouseGrannyText:
-	text "Rocko ist das"
+	text "ROCKO ist das"
 	line "älteste von zehn"
 	cont "Kindern."
 

@@ -41,8 +41,8 @@ HueyPhoneFullText:
 	done
 
 HueyRematchText:
-	text "Hey! Ich hab genug"
-	line "gewartet!"
+	text "Hey! Ich hab"
+	line "genug gewartet!"
 	done
 
 HueyPackFullText:
@@ -53,22 +53,17 @@ HueyPackFullText:
 HueyRematchGiftText:
 	text "Mann! Du bist so"
 	line "stark wie immer!"
-
 	para "Ich hab so oft"
-	line "gekämpft, aber nie"
-	cont "gewonnen."
-
+	line "gekämpft, aber"
+	cont "nie gewonnen."
 	para "Ich kaufte Items,"
 	line "um meine #mon"
-
 	para "stärker zu machen"
-	line "— nutzlos…"
-
+	line "- nutzlos …"
 	para "Items allein"
 	line "reichen nicht."
-
 	para "Nimm das,"
 	line "<PLAYER>. Ich"
 	cont "brauch es nicht"
-	cont "mehr…"
+	cont "mehr …"
 	done

@@ -299,8 +299,8 @@ BT_PartySelect:
 	db $c0 ; flags
 	db 3 ; items
 	db "Eintreten@"
-	db "Übersicht@"
-	db "Abbrechen@"
+	db "Status@"
+	db "Zurück@"
 
 .BannedMenuHeader:
 	db $00 ; flags
@@ -311,8 +311,8 @@ BT_PartySelect:
 .BannedMenuData:
 	db $c0 ; flags
 	db 2 ; items
-	db "Übersicht@"
-	db "Abbrechen@"
+	db "Status@"
+	db "Zurück@"
 
 BTText_EnterBattle:
 	db "Kampf beginnen?@"

@@ -14,10 +14,10 @@ LyraPhoneGreetingText_Eve:
 	prompt
 
 LyraPhoneGreetingText_Nite:
-	text "…<PLAYER>! Guten"
+	text "… <PLAYER>! Guten"
 	line "Abend!"
-
-	para "Du bist spät wach."
+	para "Du bist spät"
+	line "wach."
 	prompt
 
 LyraPhoneLandmarkText:
@@ -43,7 +43,7 @@ LyraPhoneIslandsText:
 
 LyraPhoneJohtoText_Generic:
 	text "Erzähl mir später"
-	line "alles, OK?"
+	line "alles, O.K.?"
 	prompt
 
 LyraPhoneNextMoveQuestionText:
@@ -58,8 +58,9 @@ LyraPhoneNextMoveQuestionText:
 	done
 
 LyraPhoneNextMoveRefusedText:
-	text "Haha, dann verrate"
-	line "ich's nicht!"
+	text "Haha, dann"
+	line "verrate ich's"
+	cont "nicht!"
 	prompt
 
 LyraPhoneNextMoveLevelText:
@@ -91,11 +92,10 @@ LyraPhoneNoEggMovesText:
 	prompt
 
 LyraPhoneEndText:
-	text "Jedenfalls… Schön,"
-	line "mal wieder mit dir"
-	cont "zu reden,"
+	text "Jedenfalls …"
+	line "Schön, mal wieder"
+	cont "mit dir zu reden,"
 	cont "<PLAYER>."
-
 	para "Ruf mich wieder"
 	line "an!"
 	done
@@ -103,39 +103,32 @@ LyraPhoneEndText:
 LyraPhoneSpecialText_YellowForest:
 	text "Hi, <PLAYER>! Wie"
 	line "geht's?"
-
 	para "Warst du schon im"
 	line "Gelben Wald?"
-
 	para "Ich wollte hin,"
 	line "aber ich hörte,"
-
-	para "Team Rocket treibt"
-	line "da Unfug."
-
+	para "Team Rocket"
+	line "treibt da Unfug."
 	para "Ich will mich da"
-	line "nicht reinmischen!"
-
+	line "nicht"
+	cont "reinmischen!"
 	para "Du hast Team"
 	line "Rocket schon mal"
-
 	para "besiegt, oder"
 	line "<PLAYER>?"
-
 	para "Das ist so mutig"
 	line "von dir!"
-
 	para "Viel Glück auf"
 	line "deiner Reise!"
 	done
 
 LyraPhoneSpecialText_FirstBadge:
-	text "<PLAYER>! Hi!"
+	text "<PLAYER>! Hallo!"
 
 	para "Ich habe meinen"
 	line "ersten Orden!"
 
-	para "Falkners Tauboss"
+	para "FALKs Tauboss"
 	line "ist stark, aber"
 
 	para "meins hat"
@@ -158,7 +151,7 @@ LyraPhoneSpecialText_FirstBadge:
 	done
 
 LyraPhoneSpecialText_LyrasEgg:
-	text "<PLAYER>! Hi!"
+	text "<PLAYER>! Hallo!"
 
 	para "Geht's dir gut"
 	line "gegen Kantos"
@@ -173,25 +166,25 @@ LyraPhoneSpecialText_LyrasEgg:
 	line "im Hort bei Oma"
 
 	para "und Opa gelassen,"
-	line "und sie fanden ein"
+	line "und sie fanden"
 	cont "Ei!"
 
 	para "Ist das nicht"
 	line "toll?"
 
 	para "Ich trainiere ein"
-	line "volles Team, also…"
+	line "volles Team,"
 
 	para "wenn du es haben"
 	line "willst…"
 
-	para "Jedenfalls hab ich"
+	para "Jedenfalls hab"
 	line "das Ei im Hort"
 
-	para "gelassen, falls du"
+	para "gelassen, falls"
 	line "es willst!"
 
-	para "Ich weiß, du wirst"
+	para "Ich weiß, du"
 	line "gut darauf"
 	cont "aufpassen,"
 	cont "<PLAYER>."

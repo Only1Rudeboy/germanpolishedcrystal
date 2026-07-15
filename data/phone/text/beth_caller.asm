@@ -23,7 +23,7 @@ BethDefeatedMonText:
 	para "Ich hab eins"
 	line "besiegt… Es war"
 
-	para "viel schneller als"
+	para "viel schneller"
 	line "erwartet. Ich war"
 
 	para "etwas schockiert."
@@ -53,20 +53,19 @@ BethLostAMonText:
 	done
 
 BethBattleRematchText:
-	text "Willst du kämpfen?"
-	line "Diesmal gewinne"
-	cont "ich!"
-
+	text "Willst du"
+	line "kämpfen? Diesmal"
+	cont "gewinne ich!"
 	para "Ich warte auf"
-	line ""
+	done
 	text_ram wStringBuffer5
 	text "."
 
-	para "Such mich, OK?"
+	para "Such mich, O.K.?"
 	done
 
 BethHangUpText:
-	text "OK, tschüss!"
+	text "O.K., tschüss!"
 	done
 
 BethLetsBattleAgainSometimeText:

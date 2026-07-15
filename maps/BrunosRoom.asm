@@ -79,79 +79,56 @@ BrunoScript:
 	end
 
 .SeenText:
-	text "Ich bin Bruno von"
-	line "der Top Vier."
-
+	text "Ich bin BRUNO von"
+	line "den TOP VIER."
 	para "Ich trainiere"
 	line "immer bis zum"
 	cont "Äußersten, weil"
-
-	para "ich an unser"
-	line "Potenzial glaube."
-
+	cont "ich an unser"
+	cont "Potenzial glaube."
 	para "So sind wir stark"
 	line "geworden."
-
 	para "Kannst du unserer"
 	line "Kraft standhalten?"
-
-	para "Hm? Ich seh keine"
+	para "Hm? Ich sehe keine"
 	line "Angst in dir. Du"
 	cont "wirkst"
-
-	para "entschlossen."
-	line "Perfekt für einen"
+	cont "entschlossen."
+	cont "Perfekt für einen"
 	cont "Kampf!"
-
 	para "Bereit, <PLAYER>?"
 	line "Du wirst dich"
 	cont "unserer"
-
-	para "überwältigenden"
-	line "Kraft beugen!"
-
+	cont "überwältigenden"
+	cont "Kraft beugen!"
 	para "Hoo hah!"
 	done
-
 .BeatenText:
 	text "Warum? Wie konnten"
 	line "wir verlieren?"
 	done
-
 .AfterText:
 	text "Nach dieser"
 	line "Niederlage steht"
-	cont "mir kein Wort"
-
-	para "mehr zu…"
-
+	cont "mir kein Wort mehr"
+	cont "zu…"
 	para "Stell dich deiner"
 	line "nächsten"
 	cont "Herausforderung!"
 	done
-
 .SeenRematchText:
 	text "Hallo, wieder da."
-
 	para "Als Mitglied der"
-	line "Top Vier stelle"
+	line "TOP VIER stelle"
 	cont "ich mich deiner"
-
-	para "Herausforderung!"
-
-	para "Es würde mich"
-	line "stören, wenn du"
-	cont "meine Kampf-"
-	cont "#mon"
-
-	para "unterschätzt."
-
+	cont "Herausforderung!"
+	para "Unterschätze meine"
+	line "Kampf-#mon"
+	cont "nicht."
 	para "Mach dich bereit!"
 	done
-
 .AfterRematchText:
 	text "Wir haben's"
 	line "versucht."
-
 	para "Mach weiter!"
 	done

@@ -75,7 +75,7 @@ PokeCenter2FLinkRecordSign:
 	endtext
 
 LinkReceptionistScript_Trade:
-if !DEF(DEBUG)
+if!DEF(DEBUG)
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iffalsefwd Script_TradeCenterClosed
 endc
@@ -187,7 +187,7 @@ Script_TradeCenterClosed:
 	done
 
 LinkReceptionistScript_Battle:
-if !DEF(DEBUG)
+if!DEF(DEBUG)
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iffalsefwd .BattleRoomClosed
 endc
@@ -260,11 +260,9 @@ Text_BattleReceptionistIntro:
 	text "Willkommen im"
 	line "#KOM-CLUB-"
 	cont "KOLOSSEUM."
-
 	para "Du kannst hier"
 	line "gegen einen Freund"
 	cont "antreten."
-
 	para "Möchtest du gerne"
 	line "kämpfen?"
 	done
@@ -287,13 +285,14 @@ Text_TradeReceptionistIntro:
 Text_FriendNotReady:
 	text "Dein Freund ist"
 	line "noch nicht fertig."
-	prompt
+	done
 
 Text_MustSaveGame:
 	text "Bevor du die"
-	line "Verbindung her-"
-	cont "stellst, musst du"
-	cont "deinen Spielstand"
+	line "Verbindung"
+	cont "herstellst, musst"
+	cont "du deinen"
+	cont "Spielstand"
 	cont "speichern."
 	done
 
@@ -308,12 +307,11 @@ Text_LinkTimedOut:
 	line "wurde aufgrund"
 	cont "fehlender Aktionen"
 	cont "abgebrochen."
-
 	para "Nimm bitte Kontakt"
 	line "mit deinem Freund"
 	cont "auf und komm dann"
 	cont "wieder."
-	prompt
+	done
 
 
 
@@ -359,10 +357,8 @@ Text_WrongVersion:
 	line "Spielversionen"
 	cont "stimmen nicht"
 	cont "überein."
-
-	para "Um im Link-"
-	line "Kolosseum zu"
-
+	para "Um im"
+	line "Link-Kolosseum zu"
 	para "spielen, müssen"
 	line "eure Versionen"
 	cont "übereinstimmen."
@@ -373,7 +369,7 @@ Text_WrongMinVersion:
 	line "nicht die"
 	cont "Mindestversion des"
 	cont "anderen Spiels."
-	prompt
+	done
 
 Text_OtherPlayerWrongMinVersion:
 	text "Das andere System"
@@ -385,17 +381,16 @@ Text_WrongOptions:
 	text "Deine"
 	line "Spieleinstellungen"
 	cont "sind"
-
 	para "nicht kompatibel"
 	line "mit dem anderen"
 	cont "Spieler."
-	prompt
+	done
 
 Text_IncompatibleRooms:
 	text "Dein Freund hat"
 	line "einen anderen Raum"
 	cont "gewählt."
-	prompt
+	done
 
 
 

@@ -52,7 +52,6 @@ FuchsiaCityFlyPoint:
 FuchsiaCityYoungsterText:
 	text "Einer der TOP VIER"
 	line "war früher einmal"
-
 	para "der ARENALEITER in"
 	line "FUCHSANIA CITY."
 	done
@@ -62,9 +61,9 @@ FuchsiaCityYoungsterText:
 
 FuchsiaCityPokefanMText:
 	text "KOGAs Tochter ist"
-	line "jetzt ARENA-"
-	cont "LEITERIN, nachdem"
-
+	line "jetzt"
+	cont "ARENA-LEITERIN,"
+	cont "nachdem"
 	para "ihr Vater den TOP"
 	line "VIER beigetreten"
 	cont "ist."
@@ -76,10 +75,10 @@ FuchsiaCityPokefanMText:
 FuchsiaCityTeacherText:
 	text "Schade, dass die"
 	line "SAFARI-ZONE"
-
 	para "geschlossen ist…"
-	line "Das ist schließ-"
-	cont "lich FUCHSANIAs"
+	line "Das ist"
+	cont "schließlich"
+	cont "FUCHSANIAs"
 	cont "Hauptattraktion."
 	done
 
@@ -90,10 +89,8 @@ FuchsiaCityPokefanFText:
 	text "Als der WÄRTER der"
 	line "SAFARI-ZONE weg"
 	cont "war,"
-
 	para "gab es keinen mehr"
 	line "für den Zoo."
-
 	para "Also wurden die"
 	line "#mon in die"
 	cont "Wildnis entlassen."
@@ -101,17 +98,12 @@ FuchsiaCityPokefanFText:
 
 FuchsiaCitySignText:
 	text "FUCHSANIA CITY"
-
 	para "Sieh nur! Die"
 	line "Rosarote"
 	cont "Lieblichkeit!"
 	done
-
-
-
-
 FuchsiaGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "FUCHSANIA CITY"
 	cont "LEITUNG: JANINA"
 
@@ -137,7 +129,8 @@ SafariZoneOfficeSignText:
 
 
 SafariZoneOfficeClosedSignText:
-	text "Es ist verriegelt…"
+	text "Es ist verriegelt"
+	line "…"
 	done
 WardensHomeSignText:
 	text "SAFARI-ZONE HAUS"
@@ -150,9 +143,9 @@ WardensHomeSignText:
 SafariZoneClosedSignText:
 	text "Der WÄRTER ist"
 	line "verreist. Deshalb"
-
-	para "ist die SAFARI-"
-	line "ZONE geschlossen."
+	para "ist die"
+	line "SAFARI-ZONE"
+	cont "geschlossen."
 	done
 
 
@@ -162,7 +155,6 @@ NoLitteringSignText:
 	text "Verunreinigung des"
 	line "Parks ist"
 	cont "verboten."
-
 	para "Hinterlasse bitte"
 	line "keinen Abfall."
 	done
@@ -177,9 +169,8 @@ SafariZoneExhibitSignText:
 
 HouseForSaleSignText:
 	text "Was ist das?"
-
-	para "Haus zu verkaufen…"
-	line "Hier wohnt"
+	para "Haus zu verkaufen"
+	line "… Hier wohnt"
 	cont "niemand."
 	done
 FuchsiaCityCarefulSwimmingSignText:

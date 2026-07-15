@@ -65,7 +65,6 @@ GenericTrainerScientistJoseph:
 	text "Unterirdisches"
 	line "Wasser hinterlässt"
 	cont "Mineralien."
-
 	para "Menschen bauen sie"
 	line "ab, und Mikroben"
 	cont "fressen sie."
@@ -92,14 +91,12 @@ GenericTrainerScientistNigel:
 	text "Das fließende"
 	line "Wasser treibt ein"
 	cont "Wasserrad"
-
 	para "an und versorgt"
 	line "Generatoren,"
-
-	para "die Bewegungs-"
-	line "energie in Strom"
+	para "die"
+	line "Bewegungsenergie"
+	cont "in Strom"
 	cont "umwandeln."
-
 	para "Faszinierend,"
 	line "oder?"
 	done
@@ -115,20 +112,17 @@ GenericTrainerScientistNigel:
 	done
 
 .BeatenText:
-	text "Autsch! OK, ich"
+	text "Autsch! O.K., ich"
 	line "verrate es dir."
 	done
 
 DimCave4FSuper_nerdText:
 	text "Ich laufe die"
 	line "Schienen entlang,"
-
 	para "genau wie im Film!"
-
-	para "…Nur dass ich in"
-	line "einer Höhle bin…"
-	cont "ganz allein…"
-
-	para "…Das macht keinen"
+	para "… Nur dass ich in"
+	line "einer Höhle bin …"
+	cont "ganz allein …"
+	para "… Das macht keinen"
 	line "Spaß mehr."
 	done

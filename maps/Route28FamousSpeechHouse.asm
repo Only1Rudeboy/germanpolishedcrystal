@@ -29,10 +29,8 @@ Celebrity:
 CelebrityText1:
 	text "Ach, du hast mich"
 	line "gefunden."
-
 	para "Bitte erzähl"
 	line "niemandem von mir."
-
 	para "Ich gebe dir dies,"
 	line "wenn du mich nicht"
 	cont "verrätst. Bitte?"
@@ -40,13 +38,11 @@ CelebrityText1:
 CelebrityText2:
 	text "Es ist hart, so"
 	line "berühmt zu sein."
-
 	para "Wo immer ich auch"
 	line "hingehe, die Leute"
 	cont "folgen mir."
-
 	para "Ich möchte nur"
-	line "meine Ruhe haben…"
+	line "meine Ruhe haben …"
 	done
 CelebritysSkarmoryText:
 	text "Skarmory: Scree!"

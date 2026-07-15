@@ -121,8 +121,8 @@ RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
 
 
 RuinsOfAlphChambersItsUnownText:
-	text "Das ist Unown-"
-	line "Schrift!"
+	text "Das ist"
+	line "Unown-Schrift!"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:
@@ -133,9 +133,9 @@ RuinsOfAlphAerodactylChamberWallHoleText:
 
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "Dieses Flug-#-"
-	line "MON griff seine"
-
+	text "Dieses"
+	line "Flug-#-MON"
+	cont "griff seine"
 	para "Beute mittels"
 	line "seiner"
 	cont "sensenartigen"

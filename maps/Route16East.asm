@@ -17,5 +17,5 @@ Route16East_MapScriptHeader:
 	def_object_events
 
 Route16SignpostText:
-	text "Route 16"
+	text "ROUTE 16"
 	done

@@ -1,6 +1,7 @@
 RalphNeglectingKidsText:
-	text "Ich verbringe mehr"
-	line "Zeit mit "
+	text "Ich verbringe"
+	line "mehr Zeit mit"
+	done
 	text_ram wStringBuffer4
 
 	para "als mit meinen"
@@ -14,18 +15,18 @@ RalphDefeatedMonText:
 	line "wildes "
 	text_ram wStringBuffer4
 	text "."
-
 	para "Mein Kind lachte,"
-	line "es könnte das auch"
-	cont "leicht schaffen."
-
+	line "es könnte das"
+	cont "auch leicht"
+	cont "schaffen."
 	para "Es wird echt"
-	line "frech…"
+	line "frech …"
 	done
 
 RalphLostAMonText:
-	text "Gestern entkam ein"
-	line "wildes "
+	text "Gestern entkam"
+	line "ein wildes"
+	done
 	text_ram wStringBuffer4
 
 	para "vor meinem Kind."
@@ -53,13 +54,13 @@ RalphBattleRematchText:
 
 	para ""
 	text_ram wStringBuffer5
-	text " — da treffen wir"
+	text " - da treffen wir"
 	line "uns!"
 	done
 
 RalphHangUpText:
-	text "Ruf auch mal deine"
-	line "Mama an!"
+	text "Ruf auch mal"
+	line "deine Mama an!"
 	done
 
 RalphItemText:
@@ -75,16 +76,14 @@ RalphItemText:
 	line "verrückt auf "
 	text_ram wStringBuffer5
 	text "!"
-
 	para "Aua! Eins hat"
 	line "mich! Gestochen!"
-
 	para "Die sind richtig"
 	line "wild! <PLAYER>,"
-
 	para "du musst das"
 	line "sehen! Mach dich"
-	cont "bereit zum Angeln!"
+	cont "bereit zum"
+	cont "Angeln!"
 	done
 
 RalphNoItemText:

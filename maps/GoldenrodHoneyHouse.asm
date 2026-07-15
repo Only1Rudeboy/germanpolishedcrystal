@@ -33,6 +33,7 @@ GoldenrodHoneyHousePokefanFScript:
 .AfterText:
 	text "Mein kleiner"
 	line "Bruder"
+	done
 if DEF(FAITHFUL)
 	line "nimmt Honig und"
 
@@ -45,7 +46,7 @@ endc
 	line "hohes Gras."
 
 	para "#mon werden"
-	line "dadurch angelockt."
+	line "dadurch"
 
 	para "Meist kommen"
 	line "#mon auf deinem"
@@ -55,8 +56,8 @@ endc
 .IntroText:
 	text "Mein #mon ist"
 	line "ein Experte beim"
-
 	para "Sammeln von"
+	done
 if DEF(FAITHFUL)
 	line "Honig."
 else
@@ -116,6 +117,7 @@ endc
 
 .SellText:
 	text "Möchtest du"
+	done
 if DEF(FAITHFUL)
 	line "Honig kaufen,"
 

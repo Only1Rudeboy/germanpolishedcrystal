@@ -29,10 +29,8 @@ Route2NuggetSpeechHouseFisherScript:
 .Text2:
 	text "Das ist ein"
 	line "NUGGET."
-
 	para "Ich kann dir keine"
 	line "weisen Ratschläge"
-
 	para "mitgeben, das hier"
 	line "muss ausreichen!"
 	done

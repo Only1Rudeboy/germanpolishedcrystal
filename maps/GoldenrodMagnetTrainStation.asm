@@ -134,10 +134,9 @@ GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	line "Kürze nach"
 	cont "SAFFRONIA CITY"
 	cont "abreisen."
-
 	para "Kommst du mit?"
-	line ""
 	done
+
 
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
@@ -151,11 +150,14 @@ GoldenrodMagnetTrainStationOfficerRightThisWayText:
 
 
 
+
+
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
 	text "Verzeihung, aber"
 	line "du hast keinen"
 	cont "FAHRSCHEIN."
 	done
+
 
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
@@ -164,31 +166,30 @@ GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
 	done
 
 
-GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "Wir sind in DUKA-"
-	line "TIA CITY"
-	cont "angekommen."
 
+GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
+	text "Wir sind in"
+	line "DUKA-TIA CITY"
+	cont "angekommen."
 	para "Beehre uns bald"
 	line "wieder!"
 	done
 
 
-GoldenrodMagnetTrainStationGentlemanText:
-	text "Ich bin der PRÄSI-"
-	line "DENT."
 
+GoldenrodMagnetTrainStationGentlemanText:
+	text "Ich bin der"
+	line "PRÄSI-DENT."
 	para "Mein Traum war es,"
 	line "einen Zug zu"
 	cont "bauen, der"
 	cont "schneller"
-
 	para "ist als jedes"
 	line "#mon."
-
 	para "Dadurch würden"
 	line "JOHTO und KANTO"
 	cont "näher rücken."
 	done
+
 
 

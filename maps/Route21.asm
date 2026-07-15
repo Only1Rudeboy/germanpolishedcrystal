@@ -47,7 +47,8 @@ SwimmerfNikkiSeenText:
 
 SwimmerfNikkiBeatenText:
 	text "Ich habe Angst vor"
-	line "einem Sonnenbrand…"
+	line "einem Sonnenbrand"
+	cont "…"
 	done
 
 
@@ -64,11 +65,9 @@ GenericTrainerSwimmerfChelan:
 
 .SeenText:
 	text "Ich liebe Bikinis!"
-
 	para "Hätte ich einen"
 	line "elektrischen"
 	cont "Bikini,"
-
 	para "könnte ich ihn"
 	line "sogar im Winter"
 	cont "tragen!"
@@ -130,9 +129,8 @@ GenericTrainerSwimmermDuane:
 
 .SeenText:
 	text "Schwimmen ist"
-	line "Ganzkörpertraini-"
-	cont "ng."
-
+	line "Ganzkörpertrainin-"
+	cont "g."
 	para "Es macht dich"
 	line "wirklich stark!"
 	done
@@ -230,7 +228,7 @@ GenericTrainerFisherLiam:
 
 	para "…Hä? Ein Kampf?"
 
-	para "OK, los geht's!"
+	para "O.K., los geht's!"
 	done
 
 .BeatenText:
@@ -253,7 +251,6 @@ GenericTrainerFisherGideon:
 	text "Bin ich Angler"
 	line "geworden, weil ich"
 	cont "geduldig bin,"
-
 	para "oder wurde ich"
 	line "geduldiger, weil"
 	cont "ich Angler bin?"
@@ -274,8 +271,9 @@ GenericTrainerBird_keeperKinsley:
 .SeenText:
 	text "Vielleicht kann"
 	line "ich irgendwann wie"
-	cont "meine Vogel-"
-	cont "#mon fliegen!"
+	cont "meine"
+	cont "Vogel-#mon"
+	cont "fliegen!"
 	done
 
 .BeatenText:
@@ -288,11 +286,10 @@ GenericTrainerBird_keeperEaston:
 
 	text "Wir glauben, wir"
 	line "nutzen #mon."
-
 	para "Aber irgendwann"
 	line "haben die #mon"
 	cont "angefangen, uns zu"
-	cont "nutzen…"
+	cont "nutzen …"
 	done
 
 .SeenText:

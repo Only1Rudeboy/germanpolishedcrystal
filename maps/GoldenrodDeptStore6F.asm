@@ -20,18 +20,17 @@ GoldenrodDeptStore6F_MapScriptHeader:
 GoldenrodDeptStore6FLassText:
 	text "Hörst du den"
 	line "GLÜCKSKANAL?"
-
 	para "Möchtest du"
 	line "gewinnen, tausche"
 	cont "#mon mit so"
 	cont "vielen"
-
 	para "Leuten wie"
 	line "möglich, um"
-	cont "verschiedene"
+	cont "verschie-dene"
 	cont "ID-Nummern zu"
 	cont "erhalten."
 	done
+
 
 
 GoldenrodDeptStore6FSuperNerdText:
@@ -39,18 +38,18 @@ GoldenrodDeptStore6FSuperNerdText:
 	line "dann hol dir ein"
 	cont "Getränk aus dem"
 	cont "Automaten."
-
 	para "Auch deine #mon"
 	line "werden sie mögen."
 	done
 
 
+
 GoldenrodDeptStore6FDirectoryText:
 	text "Mach eine"
 	line "Einkaufspause!"
-
-	para "5S PLATZ DER   "
+	para "5S PLATZ DER"
 	line "EWIGEN STILLE"
 	done
+
 
 

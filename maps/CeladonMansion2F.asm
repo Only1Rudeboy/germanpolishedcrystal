@@ -28,31 +28,22 @@ CeladonMansion2FSign:
 CeladonMansion2FComputerText:
 	text "<PLAYER> schaltete"
 	line "den PC ein."
-
 	para "…"
-
 	para "Jemand schrieb"
 	line "gerade an einer"
 	cont "E-Mail."
-
-	para "…Ich hoffe, du"
+	para "… Ich hoffe, du"
 	line "besuchst Kanto."
-
 	para "Ich glaube, du"
 	line "wirst überrascht"
-
 	para "sein, wie sehr"
 	line "sich hier alles"
 	cont "verändert hat."
-
 	para "Du wirst auch"
 	line "viele #mon"
 	cont "sehen, die"
-
 	para "nicht aus Johto"
 	line "stammen."
-
 	para "An den Produzenten"
-
 	para "…"
 	done

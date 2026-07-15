@@ -64,4 +64,22 @@ bank_ends.txt
 
 # local tools
 rgbds/
+rgbds_linux/
 deploy.sh
+
+# local work / backups / build noise (do not publish)
+maps_backup_*/
+*_backup*/
+*.bak_*
+*.bak
+_upstream_extract/
+master.zip
+build*.log
+build_*.log
+*.log.old.*
+*.gbc.*
+*.gbc.build*
+*.gbc.omega*
+*.gbc.pass*
+*.gbc.superseded*
+translation_progress.json

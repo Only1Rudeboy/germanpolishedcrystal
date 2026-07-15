@@ -32,6 +32,7 @@ GoldenrodDeptStore3FSuperNerdText:
 	done
 
 
+
 GoldenrodDeptStore3FRockerText:
 	text "Hey! Setzt du im"
 	line "Kampf X-SPEZIAL"
@@ -43,11 +44,12 @@ GoldenrodDeptStore3FRockerText:
 	done
 
 
+
 GoldenrodDeptStore3FDirectoryText:
 	text "Für Siegeshungrige"
-
-	para "2S KAMPF-   "
-	line "KOLLEKTION"
+	para "2S"
+	line "KAMPF-KOLLEKTION"
 	done
+
 
 

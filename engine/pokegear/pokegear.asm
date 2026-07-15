@@ -1091,7 +1091,7 @@ LoadStation_BuenasPassword:
 	ld a, BUENAS_PASSWORD
 	jr LoadRadioStation
 
-BuenasPasswordName: db "Buenas Passwort@"
+BuenasPasswordName: db "BUENAs Passwort@"
 
 LoadStation_UnownRadio:
 	ld a, UNOWN_RADIO
@@ -1630,7 +1630,7 @@ TownMapBubble:
 	ret
 
 .PokemonLeagueFlyName:
-	rawchar "Pokémon League@"
+	rawchar "Pokémon-Liga@"
 
 GetMapCursorCoordinates:
 	ld a, [wTownMapPlayerIconLandmark]

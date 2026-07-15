@@ -36,10 +36,8 @@ Route36VioletGateOfficerScript:
 
 	text "In letzter Zeit"
 	line "ist viel los, weil"
-
 	para "viele Leute aus"
 	line "Dukatia und"
-
 	para "Viola City kommen!"
 	done
 
@@ -48,7 +46,6 @@ Route36VioletGateOfficerScript:
 Route36VioletGateYoungsterText:
 	text "Pflanzen sind auch"
 	line "Lebewesen!"
-
 	para "Sie wollen sich"
 	line "auch mal bewegen!"
 	done

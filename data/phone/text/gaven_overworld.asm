@@ -1,14 +1,13 @@
 GavenAskNumber1Text:
 	text "Wow, du bist"
-	line "stark. Lange nicht"
-	cont "so"
-
+	line "stark. Lange"
+	cont "nicht so"
 	para "ernst gekämpft."
 	line "Darf ich deine"
 	cont "Nummer?"
-
 	para "Ich will wieder"
-	line "kämpfen, wenn "
+	line "kämpfen, wenn"
+	done
 	text_ram wStringBuffer4
 
 	para "und mein Team"
@@ -35,11 +34,11 @@ GavenNumberAcceptedText:
 	done
 
 GavenNumberDeclinedText:
-	text "OK… Ich verstehe…"
-	line "Aber wenn du es"
-
-	para "dir anders"
-	line "überlegst, ruf an!"
+	text "O.K. … Ich"
+	line "verstehe … Aber"
+	para "wenn du es dir"
+	line "anders überlegst,"
+	cont "ruf an!"
 	done
 
 GavenPhoneFullText:
@@ -52,7 +51,7 @@ GavenPhoneFullText:
 	done
 
 GavenRematchText:
-	text "Hi! Ich hab auf"
+	text "Hallo! Ich hab auf"
 	line "dich gewartet!"
 
 	para "Diesmal gewinne"

@@ -20,7 +20,6 @@ Route5SaffronCityGate_MapScriptHeader:
 Route5SaffronCityGateOfficerText:
 	text "Du kommst aus"
 	line "JOHTO, nicht wahr?"
-
 	para "Wie gefällt dir"
 	line "KANTO? Schön hier,"
 	cont "oder nicht?"
@@ -45,14 +44,11 @@ Route5SaffronCityGateBlackBeltScript:
 .Text1:
 	text "Sieh dir diese"
 	line "Muskeln an!"
-
 	para "Beeindruckend,"
 	line "nicht wahr?"
-
 	para "Du bist ziemlich"
 	line "dünn, also wenn du"
 	cont "so groß werden"
-
 	para "willst, brauchst"
 	line "du etwas davon."
 	done

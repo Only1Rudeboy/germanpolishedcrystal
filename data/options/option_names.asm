@@ -18,7 +18,7 @@ OptionNames:
 .TextSpeed:
 	db "Texttempo@"
 .TextAutoscroll:
-	db "Text-Autoscroll@"
+	db "Auto-Text@"
 .Frame:
 	db "Rahmen@"
 .Typeface:

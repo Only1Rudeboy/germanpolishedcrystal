@@ -25,9 +25,8 @@ ViridianMartLassText:
 
 ViridianMartCooltrainerMText:
 	text "Warst du schon auf"
-	line "der ZINNOBER-"
-	cont "INSEL?"
-
+	line "der"
+	cont "ZINNOBER-INSEL?"
 	para "Es ist gleich die"
 	line "nächste Insel"
 	cont "südlich von hier."

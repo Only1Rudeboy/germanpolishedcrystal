@@ -41,10 +41,9 @@ ArnieGreetDayText:
 	text "Ja, hallo?"
 	line ""
 	text_ram wStringBuffer3
-	text " ruft an."
-
-	para "Wo bist du gerade,"
-	line "<PLAYER>?"
+	text "ruft an."
+	para "Wo bist du"
+	line "gerade, <PLAYER>?"
 	done
 
 ArnieGreetNiteText:

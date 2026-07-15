@@ -28,10 +28,9 @@ WarmBeachHouseGrampsText:
 WarmBeachHouseGrannyText:
 	text "Wenn Feuer, Eis"
 	line "und Blitz"
-
-	para "nicht im Gleich-"
-	line "gewicht sind,"
-
+	para "nicht im"
+	line "Gleichgewicht"
+	cont "sind,"
 	para "kann die Welt"
 	line "untergehen…"
 	done
@@ -52,21 +51,17 @@ WarmBeachHouseBookScript:
 	text "Von den drei"
 	line "Inseln nimm die"
 	cont "uralten Sphären."
-
 	para "Denn zwischen"
 	line "Leben und Tod"
 	cont "wirst du"
-
 	para "den Unterschied"
 	line "machen."
-
 	para "Steig zum Schrein,"
 	line "um das Falsche zu"
 	cont "richten,"
-
 	para "und die Welt wird"
 	line "durch das Lied des"
-	cont "Wächters geheilt…"
+	cont "Wächters geheilt …"
 	done
 
 .Text0:
@@ -82,29 +77,23 @@ WarmBeachHouseBookScript:
 	line "Gleichgewicht von"
 	cont "Feuer, Eis oder"
 	cont "Blitz,"
-
 	para "sonst bringen"
-	line "diese"
-	cont "Titanen"
-	cont "Zerstörung"
-	cont "über die Welt, in"
-	cont "der sie"
-	cont "aufeinander-"
-	cont "treffen."
-
+	line "diese Titanen"
+	cont "Zerstörung über"
+	cont "die Welt, in der"
+	cont "sie"
+	cont "aufeinandertreffe-"
+	cont "n."
 	para "Obwohl der große"
 	line "Wächter des"
 	cont "Wassers erstehen"
 	cont "wird, um"
-
 	para "den Kampf zu"
 	line "beenden, wird sein"
 	cont "Lied allein"
-
 	para "scheitern, und so"
 	line "wird die Erde zu"
 	cont "Asche werden."
-
 	para "Weiterlesen?"
 	done
 

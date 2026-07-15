@@ -108,17 +108,13 @@ CeladonCityTutorSwaggerScript:
 CeladonCityRichBoyText:
 	text "Ist mein Anzug"
 	line "nicht blendend?"
-
 	para "Er lässt alle"
 	line "Köpfe drehen, wenn"
 	cont "ich"
-
 	para "die Straße"
 	line "entlangstolziere!"
-
 	para "Die Leute lieben"
 	line "mich!"
-
 	para "Ich bin heute"
 	line "großzügig"
 	cont "gestimmt."
@@ -146,15 +142,12 @@ Text_CeladonCityTutorQuestion:
 CeladonCityFisherText:
 	text "Dieser Quappo ist"
 	line "mein Partner."
-
 	para "Er war früher"
 	line "Sanft, aber die"
 	cont "Verwalterin im"
-
 	para "Wohnkomplex hier"
 	line "braute uns Tee mit"
 	cont "einem"
-
 	para "Minzblatt, das ihn"
 	line "froher machte!"
 	done
@@ -167,13 +160,10 @@ CeladonCityTeacher1Text:
 	text "Ich hab schon"
 	line "wieder an den"
 	cont "Automaten"
-
-	para "verloren…"
-
+	para "verloren …"
 	para "Wir Mädchen zocken"
 	line "jetzt auch an den"
 	cont "Automaten."
-
 	para "Du solltest sie"
 	line "dir auch mal"
 	cont "ansehen."
@@ -182,22 +172,18 @@ CeladonCityTeacher1Text:
 CeladonCityGramps1Text:
 	text "Sleimok tauchen in"
 	line "letzter Zeit auf."
-
 	para "Siehst du den"
 	line "Teich vor dem"
 	cont "Haus? Dort leben"
-
 	para "jetzt Sleimok."
-
 	para "Woher kommen die"
 	line "bloß? Das ist ein"
-	cont "ernstes Problem…"
+	cont "ernstes Problem …"
 	done
 
 CeladonCityGramps2Text:
 	text "Nihihi! Diese"
 	line "Arena ist toll!"
-
 	para "Nur Mädchen dürfen"
 	line "hier rein!"
 	done
@@ -255,19 +241,15 @@ CeladonCityLassText_PCC:
 	text "Ich liebe es, von"
 	line "hohen Gebäuden"
 	cont "umgeben zu sein!"
-
 	para "Stimmt es, dass"
 	line "das #mon-Center"
 	cont "in Dukatia City"
-
 	para "viel größer gebaut"
 	line "wurde?"
-
 	para "Das ist so toll!"
 	line "Ich wünschte, wir"
 	cont "hätten sowas auch"
-
-	para "in Kanto…"
+	para "in Kanto …"
 	done
 
 CeladonCityLassText:
@@ -281,52 +263,48 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "Prismania City"
-
+	text "PRISMANIA CITY"
 	para "Die Stadt der"
-	line "Regenbogenträume"
+	line "Regenbogen-Träume"
 	done
-
 CeladonGymSignText:
-	text "Prismania City"
-	line "#mon-Arena"
-	cont "Leiterin: Erika"
-
-	para "Die naturliebende"
-	line "Prinzessin"
+	text "PKMN-ARENA von"
+	line "PRISMANIA CITY"
+	cont "LEITUNG: ERIKA"
+	para "Die Prinzessin mit"
+	line "Herz für die Natur"
 	done
 
 CeladonUniversitySignText:
 	text "Prismania-"
 	line "Universität"
 
-	para "“Wachstum durch"
-	line "Lernen”"
+	para "'Wachstum durch"
+	line "Lernen'"
 	done
 
 CeladonCityDeptStoreSignText:
 	text "Finde alles, was"
 	line "du brauchst - im"
-	cont "Prismania-"
+	cont "PRISMANIA-"
 	cont "Kaufhaus!"
 	done
 
 CeladonCityHomeDecorStoreSignText:
-	text "Prismania-Kaufhaus"
-	line "Wohndeko-"
-	cont "Abteilung"
+	text "PRISMANIA-Kaufhaus"
+	line "Wohndeko-Abt."
 	done
 
 CeladonCityMansionSignText:
-	text "Prismania-"
+	text "PRISMANIA-"
 	line "Wohnkomplex"
 	done
 
 CeladonCityGameCornerSignText:
-	text "Der Spielplatz für"
-	line "alle-- Prismanias"
-
-	para "Spielhalle"
+	text "Der Spielplatz"
+	line "Für Jedermann --"
+	para "SPIELHALLE von"
+	line "PRISMANIA"
 	done
 
 CeladonCityPrizeExchangeSignText:
@@ -352,6 +330,7 @@ CeladonCityHotelSignText:
 
 CeladonCityTrainerTips1Text:
 	text "Trainer-Tipps"
+	done
 
 if DEF(FAITHFUL)
 	para "Schutzplus"
@@ -370,16 +349,13 @@ endc
 
 CeladonCityTrainerTips2Text:
 	text "Trainer-Tipps"
-
 	para "Evoli ist ein"
 	line "#mon voller"
 	cont "Potenzial."
-
 	para "Probier es an"
 	line "vielen Orten, zu"
 	cont "verschiedenen"
-
 	para "Zeiten und mit"
-	line "Entwicklungs-"
-	cont "steinen."
+	line "Entwicklungsstein-"
+	cont "en."
 	done

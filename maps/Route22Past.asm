@@ -212,12 +212,12 @@ Route22Past_CelebiFloatsMovementData:
 	step_end
 
 Route22PastLyraWhereAreWeText:
-	text "Lyra: Wo sind"
+	text "LYRA: Wo sind"
 	line "wir…?"
 	done
 
 Route22PastLyraIlexForestDisappearedText:
-	text "Lyra: Der"
+	text "LYRA: Der"
 	line "Steineichenwald"
 	cont "ist weg!"
 
@@ -228,22 +228,18 @@ Route22PastLyraIlexForestDisappearedText:
 	done
 
 Route22PastLyraPokeGearText:
-	text "Lyra: <PLAYER>,"
-	line "mein #Com-"
-	cont "Radio"
-
+	text "LYRA: <PLAYER>,"
+	line "mein #Com-Radio"
 	para "zeigt ein Datum"
 	line "von vor drei"
 	cont "Jahren!"
 	done
 
 Route22PastLyraExplainsTimeTravelText:
-	text "Ist das… sehe ich"
-	line "da… Celebi?"
-
+	text "Ist das … sehe ich"
+	line "da … Celebi?"
 	para "Das erklärt alles!"
 	line "Celebi muss seine"
-
 	para "Kraft genutzt"
 	line "haben, um uns in"
 	cont "die Vergangenheit"
@@ -253,74 +249,56 @@ Route22PastLyraExplainsTimeTravelText:
 Route22PastLyraHearsSomeoneText:
 	text "<PLAYER>, ich höre"
 	line "noch jemanden."
-
 	para "Mal sehen, wer das"
 	line "ist!"
 	done
 
 Route22PastRivalQuestionsGiovanniText:
 	text "<RIVAL>: Du hast"
-	line "mir gesagt… du"
-
+	line "mir gesagt … du"
 	para "bist der Beste der"
 	line "Welt!"
-
 	para "Willst du"
 	line "aufgeben?"
-
 	para "Was willst du"
 	line "jetzt tun?"
 	done
 
 Route22PastGiovanniRivalArgumentText:
-	text "…… …… ……"
-
+	text "… … … … … …"
 	para "Man muss seine"
 	line "Niederlage"
 	cont "anerkennen,"
-
 	para "bevor man"
-	line "weitermachen kann…"
-
+	line "weitermachen kann"
+	cont "…"
 	para "Ich gehe vorerst"
-	line "allein…"
-
+	line "allein …"
 	para "Damit ich eines"
 	line "Tages eine"
-
-	para "stärkere Organi-"
-	line "sation gründe!"
-
+	para "stärkere"
+	line "Organisation"
+	cont "gründe!"
 	para "<RIVAL>: Was an"
 	line "dir war denn"
 	cont "Nummer eins?"
-
 	para "So viele sammeln"
 	line "und dann von"
-
 	para "einem Kind besiegt"
 	line "werden!"
-
-	para "…… …… ……"
-
+	para "… … … … … …"
 	para "Das Potenzial"
 	line "vieler vereinen"
-
-	para "ergibt große"
-	line "Macht…"
-
+	para "ergibt große Macht"
+	line "…"
 	para "So ist eine"
 	line "Organisation!"
-
-	para "Ich habe… das"
+	para "Ich habe … das"
 	line "Potenzial meiner"
-
 	para "Untergebenen nicht"
-	line "genutzt…"
-
+	line "genutzt …"
 	para "Aber eines Tages"
 	line "wirst du die"
-
 	para "Wiederkehr von mir"
 	line "und Team Rocket"
 	cont "erleben!"
@@ -330,7 +308,6 @@ Route22PastRivalProtestsText:
 	text "<RIVAL>: Ich"
 	line "verstehe dich"
 	cont "nicht!"
-
 	para "Du ergibst einfach"
 	line "keinen Sinn!"
 	done
@@ -371,31 +348,24 @@ Route22PastRivalInsultText:
 	done
 
 Route22PastLyraConclusionText:
-	text "Lyra: Wer glaubt"
+	text "LYRA: Wer glaubt"
 	line "er eigentlich?"
-
 	para "Das war unnötig!"
-
 	para "Aber sie sprachen"
 	line "von der"
-
 	para "Wiederkehr von"
-	line "Team Rocket…"
-
-	para "Team Rocket wurde"
+	line "TEAM ROCKET …"
+	para "TEAM ROCKET wurde"
 	line "vor drei Jahren"
-
 	para "von einem Kind aus"
 	line "KANTO besiegt."
-
 	para "Das ist also"
 	line "wirklich die"
 	cont "Vergangenheit!"
 	done
 
 Route22PastLyraOhNoText:
-	text "Lyra: Ach nein! Es"
-	line "passiert wieder…!"
-
+	text "LYRA: Ach nein! Es"
+	line "passiert wieder …!"
 	para "Celebis Zeitreise!"
 	done

@@ -82,16 +82,13 @@ PsychicInverScript:
 PsychicInverGreetingText:
 	text "Oh. Hier hätte ich"
 	line "keinen Besucher"
-	cont "erwartet. Hmm…"
-
+	cont "erwartet. Hmm …"
 	para "Sollen wir einen"
 	line "etwas seltsamen"
 	cont "Kampf führen?"
-
 	para "Ich nenne das"
 	line "einen"
 	cont "Invers-Kampf!"
-
 	para "Was meinst du?"
 	line "Möchtest du einen"
 	cont "Invers-Kampf"
@@ -117,15 +114,14 @@ PsychicInverYesText:
 PsychicInverBeatenText:
 	text "Dieser Kampf hat"
 	line "mich wohl noch"
-
 	para "mehr erschöpft als"
-	line "meine #mon…"
+	line "meine #mon …"
 	done
 
 InverseBattle0PointRewardText:
 	text "Ich weiß nicht, ob"
 	line "du Invers-Kämpfe"
-	cont "verstehst…"
+	cont "verstehst …"
 	done
 
 InverseBattle1_3PointRewardText:
@@ -149,7 +145,6 @@ InverseBattle10PointRewardText:
 	text "Du bist ein"
 	line "Experte bei"
 	cont "Invers-Kämpfen."
-
 	para "Ich bin kein Match"
 	line "für dich."
 	done
@@ -175,13 +170,10 @@ PsychicInverRewardText:
 PsychicInverTomorrowText:
 	text "Diese seltsame"
 	line "Kraft, die Typen-"
-
 	para "verhältnisse"
-	line "umkehrt…"
-
+	line "umkehrt …"
 	para "Ich kann sie nicht"
 	line "oft einsetzen."
-
 	para "Komm bitte morgen"
 	line "wieder."
 	done
@@ -190,15 +182,12 @@ PsychicInversHouseHexManiacText:
 	text "Mein Bruder hat"
 	line "eine mysteriöse"
 	cont "Kraft!"
-
 	para "Er kann"
 	line "Typenverhältnisse"
 	cont "umkehren!"
 	cont "Verrückt, oder?"
-
 	para "Sehr effektive und"
 	line "kaum effektive"
-
 	para "Attacken werden"
 	line "vertauscht!"
 	done

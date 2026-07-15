@@ -86,7 +86,7 @@ EcruteakTinTowerEntranceSageScript:
 	iftrue_jumpopenedtext EcruteakTinTowerEntranceSageText_GotFogBadge
 	jumpthisopenedtext
 
-	text "Der Glockenturm"
+	text "Der Zinnturm"
 	line "ist für alle ohne"
 
 	para "den Orden der"
@@ -108,20 +108,16 @@ EcruteakTinTowerEntranceSageScript:
 
 	text "Ein denkwürdiger"
 	line "Augenblick."
-
 	para "Entschuldigung,"
 	line "aber ich muss dich"
 	cont "bitten zu gehen."
-
-	para "…Was lindert"
-	line "Seelenschmerzen…"
-
+	para "… Was lindert"
+	line "Seelenschmerzen …"
 	para "Das TRIO der"
 	line "WEISEN sagt stets"
-
 	para "Dinge, die sehr"
 	line "schwierig zu"
-	cont "verstehen sind…"
+	cont "verstehen sind …"
 	done
 .RingClearBell:
 	writetext EcruteakTinTowerEntranceSageText_HearsClearBell
@@ -138,13 +134,11 @@ EcruteakTinTowerEntranceWanderingSageScript:
 	iftrue_jumptextfaceplayer EcruteakTinTowerEntranceWanderingSageText_GotClearBell
 	jumpthistextfaceplayer
 
-	text "Der Glockenturm"
+	text "Der Zinnturm"
 	line "dort ist ein"
 	cont "neunstöckiger Turm"
-
 	para "von göttlicher"
 	line "Schönheit."
-
 	para "Er beruhigt die"
 	line "Seele aller, die"
 	cont "ihn sehen."
@@ -166,15 +160,12 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "Der Glockenturm"
+	text "Der Zinnturm"
 	line "ist für alle ohne"
-
 	para "den Orden der"
 	line "ARENA von TEAK"
 	cont "CITY tabu."
-
 	para "Ah!"
-
 	para "Der Orden von TEAK"
 	line "CITY! Bitte, geh"
 	cont "einfach durch."
@@ -184,41 +175,29 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 EcruteakTinTowerEntranceSageText_HearsClearBell:
 	text "Ein denkwürdiger"
 	line "Moment ist"
-
 	para "eingetroffen."
-
 	para "Verzeihung, aber"
 	line "ich muss dich"
-
 	para "bitten zu gehen."
-
-	para "………………"
-
+	para "… … … … … …"
 	para "Ah!"
-
 	para "Der Klang der"
 	line "Klarglocke!"
-
-	para "Er… er ist"
+	para "Er … er ist"
 	line "erhaben!"
-
-	para "So einen wunder-"
-	line "schönen Klang hab"
-
+	para "So einen"
+	line "wunderschönen"
+	cont "Klang hab"
 	para "ich noch nie"
 	line "gehört!"
-
 	para "Der Klang dieser"
 	line "Glocke spiegelt"
 	cont "die Seele des"
 	cont "Trägers wider."
-
-	para "Du…"
-
+	para "Du …"
 	para "Du schaffst es"
 	line "vielleicht durch"
-	cont "den Glockenturm."
-
+	cont "den Zinnturm."
 	para "Bitte, geh weiter."
 	done
 
@@ -230,19 +209,16 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	line "Glocke spiegelt"
 	cont "die Seele des"
 	cont "Trägers wider."
-
-	para "Du…"
-
+	para "Du …"
 	para "Du schaffst es"
 	line "vielleicht durch"
-	cont "den Glockenturm."
-
+	cont "den Zinnturm."
 	para "Bitte, geh weiter."
 	done
 
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "Der Glockenturm"
+	text "Der Zinnturm"
 	line "hat gebebt! Ein"
 
 	para "#mon muss oben"

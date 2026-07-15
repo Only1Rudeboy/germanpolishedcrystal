@@ -79,10 +79,9 @@ BattleTowerOutsidePanUpHelperScript:
 
 BattleTowerOutsideSignText:
 	text "Kampfturm"
-
 	para "Die ultimative"
-	line "Trainer-Heraus-"
-	cont "forderung!"
+	line "Trainer-"
+	cont "Herausforderung!"
 	done
 
 BattleTowerOutsideAnabelScript:
@@ -157,14 +156,12 @@ BattleTowerOutsideAnabelScript:
 	text "Ich bitte dich,"
 	line "weiter zu kämpfen"
 	cont "und zu siegen."
-
 	para "Ich werde hier im"
 	line "Kampfturm auf dich"
 	cont "warten."
-
 	para "Bis wir uns das"
 	line "nächste Mal"
-	cont "treffen…"
+	cont "treffen …"
 	done
 
 BattleTowerOutsideYoungsterScript:
@@ -174,7 +171,6 @@ BattleTowerOutsideYoungsterScript:
 
 	text "Wow, der Kampfturm"
 	line "ist riesig! Mein"
-
 	para "Nacken tut vom"
 	line "Hochschauen weh."
 	done
@@ -182,7 +178,6 @@ BattleTowerOutsideYoungsterScript:
 .OpenText:
 	text "Wow, der Kampfturm"
 	line "ist riesig!"
-
 	para "Da drin müssen"
 	line "viele Arten von"
 	cont "#mon sein!"
@@ -195,22 +190,19 @@ BattleTowerOutsideBeautyScript:
 
 	text "Was macht man hier"
 	line "bloß?"
-
 	para "Nach dem Namen zu"
 	line "urteilen, sind es"
-	cont "wohl #mon-"
-	cont "Kämpfe."
+	cont "wohl"
+	cont "#mon-Kämpfe."
 	done
 
 .OpenText:
 	text "Du darfst nur drei"
 	line "#mon nutzen."
-
 	para "Es ist so schwer,"
 	line "die drei"
 	cont "auszuwählen, die"
-
-	para "kämpfen sollen…"
+	para "kämpfen sollen …"
 	done
 
 BattleTowerOutsideSailorText:

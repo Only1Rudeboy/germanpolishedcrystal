@@ -61,10 +61,9 @@ BethGreetNiteText:
 BethGenericText:
 	text "Gehst du oft in"
 	line "#mon-Center?"
-
 	para "Ich gehe täglich."
-	line "Auf die Gesundheit"
-
+	line "Auf die"
+	cont "Gesundheit"
 	para "deiner #mon zu"
 	line "achten ist"
 	cont "Grundlage eines"

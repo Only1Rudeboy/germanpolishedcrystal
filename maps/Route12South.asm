@@ -35,7 +35,7 @@ GenericTrainerFisherMartin:
 
 	text "Ich bin zu"
 	line "ungeduldig für das"
-	cont "Angeln…"
+	cont "Angeln …"
 	done
 FisherMartinSeenText:
 	text "Geduld ist das"
@@ -51,7 +51,6 @@ GenericTrainerFisherStephen:
 
 	text "Kennst du schon"
 	line "die Radiosender"
-
 	para "aus KANTO? Es gibt"
 	line "viele hier."
 	done
@@ -70,16 +69,12 @@ GenericTrainerFisherBarney:
 
 	text "Meiner Meinung"
 	line "nach ist Strom"
-
 	para "das Wichtigste in"
 	line "unserem Leben."
-
 	para "Wenn dem nicht so"
 	line "wäre, hätten die"
-
 	para "Leute nicht so"
 	line "einen Aufstand"
-
 	para "fabriziert, als"
 	line "das KRAFTWERK"
 	cont "außer Betrieb war."
@@ -155,7 +150,7 @@ GenericTrainerCoupleVicandtara1:
 
 	text "Vic: Tara hat mich"
 	line "schon mal blamiert"
-	cont "gesehen…"
+	cont "gesehen …"
 	done
 
 .SeenText:
@@ -196,6 +191,6 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 Route12SignText:
-	text "ROUTE 12 NORDEN:"
-	line "LAVANDIA"
+	text "ROUTE 12"
+	line "NORDEN: LAVANDIA"
 	done

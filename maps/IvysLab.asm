@@ -98,8 +98,8 @@ ProfIvyScript:
 	jumpthisopenedtext
 
 .NoBerryText:
-	text "Ivy: Ich verstehe…"
-
+	text "Ivy: Ich verstehe"
+	line "…"
 	para "Du hast keine drei"
 	line "LIECHI-BEEREN zum"
 	cont "Spenden."
@@ -108,18 +108,14 @@ ProfIvyScript:
 .RequestText:
 	text "Ivy: Hallo"
 	line "nochmal, <PLAYER>!"
-
 	para "Kann ich dich um"
 	line "einen Gefallen"
 	cont "bitten?"
-
 	para "Dieses Nidorino"
 	line "ist krank und"
 	cont "meine"
-
 	para "LUM-BEEREN helfen"
 	line "nicht."
-
 	para "Findest du bitte"
 	line "drei LIECHI-BEEREN"
 	cont "für es?"
@@ -136,10 +132,8 @@ ProfIvyScript:
 .ThanksText:
 	text "Ivy: Danke,"
 	line "<PLAYER>!"
-
 	para "Nidorino sieht"
 	line "viel gesünder aus!"
-
 	para "Nimm das als"
 	line "Dankeschön."
 	done
@@ -163,7 +157,7 @@ ProfIvyScript:
 
 .SeenText:
 	text "Professor gegen"
-	line "Champion—los"
+	line "Champion-los"
 	cont "geht's!"
 	done
 
@@ -182,7 +176,7 @@ IvysLabHopeScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Hope: Prof. Ivy"
+	text "Hope: PROF. IVY"
 	line "kümmert sich um"
 
 	para "die #mon auf"
@@ -259,14 +253,11 @@ PokemonJournalProfIvyScript:
 	jumpthistext
 
 	text "#mon Journal"
-
-	para "Spezial:"
-	line "Prof. Ivy!"
-
+	para "Spezial: Prof."
+	line "Ivy!"
 	para "Philena Ivy"
 	line "arbeitete mit"
-	cont "Brock aus MARMORIA"
-
+	cont "ROCKO aus MARMORIA"
 	para "an einem"
 	line "glänzenden Onix"
 	cont "und seinem"

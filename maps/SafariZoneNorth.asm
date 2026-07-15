@@ -57,10 +57,8 @@ GenericTrainerBeautyRachael:
 	text "Vor einem Jahr war"
 	line "ich noch"
 	cont "Schwarzgurt."
-
 	para "Die Kraft der"
 	line "Medizin ist"
-
 	para "erstaunlich,"
 	line "findest du nicht?"
 	done
@@ -148,14 +146,11 @@ BeautyRachaelBeatenText:
 SafariZoneNorthCooltrainerFText:
 	text "Ich hab ein"
 	line "Chaneira gefangen!"
-
 	para "Was für ein Glück!"
 	line "Ich bringe"
-
 	para "ihm einen ganz"
 	line "starken Tackle"
 	cont "bei."
-
 	para "Lass mich mein"
 	line "Glück mit dir"
 	cont "teilen!"
@@ -166,7 +161,7 @@ Text_SafariZoneNorthTutorDoubleEdge:
 	line "#mon"
 	cont "Risikotackle"
 
-	para "bei — für ein"
+	para "bei - für ein"
 	line "Silberblatt."
 	done
 
@@ -191,7 +186,6 @@ SafariZoneNorthRestHouseSignText:
 
 SafariZoneNorthTrainerTips1SignText:
 	text "Trainer-Tipps"
-
 	para "Attacken desselben"
 	line "Typs können"
 	cont "physisch, speziell"

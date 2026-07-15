@@ -22,27 +22,21 @@ CeladonUniversityWillowsOffice_MapScriptHeader:
 
 CeladonUniversityWillowsOfficeWillowText:
 	text "Hallo! Ich bin"
-	line "Prof. Willow."
-
+	line "PROF. WILLOW."
 	para "Ich betreue"
 	line "Candela, Blanche"
 	cont "und Spark bei"
-
 	para "Lehre und"
 	line "Forschung."
-
 	para "Du triffst sie"
 	line "vielleicht im"
 	cont "Unterricht."
-
 	para "Ich erforsche auch"
 	line "#mon-"
 	cont "Lebensräume und"
 	cont "Verbreitung."
-
 	para "Ich bin sehr"
 	line "beschäftigt, aber"
-
 	para "meine Assistenten"
 	line "helfen mir."
 	done
@@ -50,12 +44,11 @@ CeladonUniversityWillowsOfficeWillowText:
 CeladonUniversityWillowsOfficeScientistText:
 	text "Ich arbeite als"
 	line "Assistent von"
-	cont "Prof. Willow!"
-
+	cont "PROF. WILLOW!"
 	para "Ich katalogisiere"
-	line "meine Beobachtun-"
-	cont "gen auf Route 7."
-
+	line "meine"
+	cont "Beobachtungen auf"
+	cont "Route 7."
 	para "Heute sah ich 42"
 	line "Rattfratz und 37"
 	cont "Tauboga… und ein"
@@ -64,12 +57,11 @@ CeladonUniversityWillowsOfficeScientistText:
 
 CeladonUniversityWillowsOfficeBlackboardText:
 	text "Jemand schrieb"
-	line "“NICHT LÖSCHEN”"
-
+	line "'NICHT LÖSCHEN'"
 	para "mit einem Pfeil zu"
 	line "einer"
 	cont "unleserlichen"
-	cont "Kritzelei…"
+	cont "Kritzelei …"
 	done
 
 CeladonUniversityWillowsOfficeBookshelf1Text:
@@ -84,9 +76,8 @@ CeladonUniversityWillowsOfficeBookshelf1Text:
 
 CeladonUniversityWillowsOfficeBookshelf2Text:
 	text "Ein Werbe-Flyer"
-	line "für die Safari-"
-	cont "Zone."
-
+	line "für die"
+	cont "Safari-Zone."
 	para "Viele exotische"
 	line "#mon zieren ihn"
 	done
@@ -94,7 +85,7 @@ CeladonUniversityWillowsOfficeBookshelf2Text:
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "“#mon-Transfer-"
-	line "System” steht auf"
+	text "'#mon-Transfer-"
+	line "System' steht auf"
 	cont "dem Bildschirm."
 	done

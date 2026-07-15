@@ -65,21 +65,19 @@ OreManiacScript:
 	done
 
 .OfferText:
-	text "Dieses Erz — es"
+	text "Dieses Erz - es"
 	line "erschüttert mich!"
-
 	para "Verkaufst du es"
 	line "für ¥"
+	done
 	text_decimal hMoneyTemp, 3, 7
 	text "?"
 	done
 
 .WrongItemText:
 	text "Huh? Was ist das"
-
 	para "denn? Mit so einem"
 	line "minderwertigen Erz"
-
 	para "bringst du mein"
 	line "Herz nicht zum"
 	cont "Beben!"
@@ -110,7 +108,6 @@ GenericTrainerTamerOswald:
 .SeenText:
 	text "Als Zirkusmensch"
 	line "geboren."
-
 	para "Jetzt bin ich auch"
 	line "ein wilder"
 	cont "Kämpfer."
@@ -125,12 +122,11 @@ GenericTrainerTamerOswald:
 GenericTrainerFirebreatherTala:
 	generictrainer FIREBREATHER, TALA, EVENT_BEAT_FIREBREATHER_TALA, .SeenText, .BeatenText
 
-	text "Meine Feuer-"
-	line "spucknummer ist"
-
+	text "Meine"
+	line "Feuerspucknummer"
+	cont "ist"
 	para "bei Touristen sehr"
 	line "beliebt."
-
 	para "Manche spenden"
 	line "sogar!"
 	done
@@ -151,7 +147,6 @@ GenericTrainerSightseerfNoelle:
 	text "Ich mache ein"
 	line "Fotoalbum für"
 	cont "meine Eltern."
-
 	para "Hey, nicht gucken!"
 	line "Das ist privat!"
 	done
@@ -159,10 +154,8 @@ GenericTrainerSightseerfNoelle:
 .SeenText:
 	text "Ach du meine Güte!"
 	line "Du hast #mon,"
-
 	para "die ich noch nie"
 	line "gesehen habe!"
-
 	para "Darf ich ein Foto"
 	line "machen?"
 	done
@@ -183,13 +176,12 @@ GenericTrainerSightseermChester:
 
 	para "Vielleicht sehen"
 	line "wir uns im"
-	cont "Kampfturnier."
+	cont "Kampfturm."
 	done
 
 .SeenText:
 	text "Ich reise um die"
 	line "Welt."
-
 	para "Welche Region soll"
 	line "ich als Nächstes"
 	cont "besuchen?"

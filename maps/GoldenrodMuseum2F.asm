@@ -42,8 +42,8 @@ LugiaPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "  Der Leviathan   "
-	line " erwacht"
+	text "Der Leviathan"
+	line "erwacht"
 	done
 
 HoOhPaintingScript:
@@ -55,8 +55,8 @@ HoOhPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "   Der Phönix   "
-	line "steigt auf"
+	text "Der Phönix steigt"
+	line "auf"
 	done
 
 BellTowerPaintingScript:
@@ -68,8 +68,8 @@ BellTowerPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "  Freundschaft  "
-	line "und Hoffnung"
+	text "Freundschaft und"
+	line "Hoffnung"
 	done
 
 KabutoPuzzleScript:
@@ -147,29 +147,24 @@ GoldenrodMuseum2FSightseerMScript:
 
 	text "Diese Gemälde sind"
 	line "wunderschön!"
-
 	para "Eines Tages hängt"
 	line "vielleicht meine"
-
 	para "Kunst auch in"
 	line "einem Museum."
 	done
 
 GoldenrodMuseum2FSightseerMNoPaintingText:
-	text "Ach…! Farbblatt"
+	text "Ach …! Farbblatt"
 	line "und ich kamen,"
 	cont "weil wir"
-
-	para "von einer Kunst-"
-	line "ausstellung zur"
-
+	para "von einer"
+	line "Kunstausstellung"
+	cont "zur"
 	para "Eröffnung gehört"
 	line "haben."
-
 	para "Aber anscheinend"
-	line "waren das"
-	cont "Gerüchte…"
-
+	line "waren das Gerüchte"
+	cont "…"
 	para "Diese Galerie ist"
 	line "noch nicht fertig!"
 	done
@@ -191,10 +186,9 @@ GoldenrodMuseum2FScientistScript:
 
 	text "Diese Artefakte"
 	line "sind faszinierend!"
-
 	para "Schade, dass es"
-	line "nur Repliken sind…"
-
+	line "nur Repliken sind"
+	cont "…"
 	para "Ich würde die"
 	line "echten Stücke gern"
 	cont "aus nächster Nähe"
@@ -205,10 +199,10 @@ GoldenrodMuseum2FScientistNoArtifactsText:
 	text "Ich weiß, das"
 	line "Museum hat gerade"
 
-	para "eröffnet, aber ich"
+	para "eröffnet, aber"
 	line "hatte mehr"
 
-	para "Ausstellungsstücke"
+	para "Ausstellungsstück"
 	line "erwartet…"
 
 	para "Wo ist alles?"
@@ -260,26 +254,19 @@ GoldenrodMuseum2FTutorBatonPassScript:
 GoldenrodMuseum2FTutorIntroText:
 	text "Bevor der neue"
 	line "Funkturm gebaut"
-
 	para "wurde, stand hier"
 	line "ein alter"
-
 	para "Holzturm."
-
 	para "Dieses Wandgemälde"
 	line "hing ursprünglich"
 	cont "dort."
-
 	para "Es hierher zu"
 	line "bringen war nötig,"
-
 	para "um ein Stück"
 	line "Johtos Geschichte"
 	cont "zu bewahren."
-
 	para "Sogar #mon"
 	line "verstehen den"
-
 	para "Wert der"
 	line "Erhaltung!"
 	done
@@ -288,7 +275,7 @@ GoldenrodMuseum2FTutorBatonPassText:
 	text "Ich bringe deinem"
 	line "#mon Stafette"
 
-	para "bei — für ein"
+	para "bei - für ein"
 	line "Silberblatt."
 	done
 

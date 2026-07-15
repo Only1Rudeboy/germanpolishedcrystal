@@ -115,15 +115,12 @@ Museum2FLassText:
 Museum2FPokefanMImperialText:
 	text "Dieses Raumschiff"
 	line "flog einst 250 km"
-
 	para "über der Erde und"
 	line "trotzte der"
 	cont "Schwerkraft!"
-
 	para "Weißt du, was auch"
 	line "der Schwerkraft"
 	cont "trotzt?"
-
 	para "Geowurf,"
 	line "natürlich!"
 	done
@@ -131,7 +128,6 @@ Museum2FPokefanMImperialText:
 Museum2FChildText:
 	text "Steine und Kram"
 	line "und Kram und"
-
 	para "Steine. Können wir"
 	line "endlich gehen?"
 	done
@@ -150,15 +146,12 @@ Museum2FTeacherText:
 Museum2FPokefanMMetricText:
 	text "Dieses Raumschiff"
 	line "flog einst 250 km"
-
 	para "über der Erde und"
 	line "trotzte der"
 	cont "Schwerkraft!"
-
 	para "Weißt du, was noch"
 	line "der Schwerkraft"
 	cont "trotzen kann?"
-
 	para "Geowurf,"
 	line "natürlich!"
 	done
@@ -167,7 +160,7 @@ Text_Museum2FTutorSeismicToss:
 	text "Ich bringe deinem"
 	line "#mon Geowurf"
 
-	para "bei — für ein"
+	para "bei - für ein"
 	line "Silberblatt."
 	done
 
@@ -213,15 +206,12 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial:"
 	line "Forscherin"
 	cont "Cynthia!"
-
 	para "Cynthia soll viele"
 	line "Legenden und"
 	cont "Mythen von ihrer"
-
 	para "Großmutter in"
 	line "Sinnoh gelernt"
 	cont "haben."

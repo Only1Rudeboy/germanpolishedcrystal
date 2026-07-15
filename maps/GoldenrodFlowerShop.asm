@@ -95,8 +95,9 @@ FlowerShopTeacherScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Ähm… Entschuldige,"
-	line "aber du hast nicht"
+	text "Ähm …"
+	line "Entschuldige, aber"
+	cont "du hast nicht"
 	cont "genug Geld."
 	done
 
@@ -130,19 +131,18 @@ FlowerShopFloriaScript:
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	text "Hast du den"
-	line "wackeligen Baum"
+	line "wacke-ligen Baum"
 	cont "auf ROUTE 36"
 	cont "gesehen?"
-
 	para "Meine kleine"
 	line "Schwester war"
 	cont "aufgeregt und"
 	cont "wollte ihn sich"
-	cont "ansehen…"
-
-	para "Ich bin besorgt…"
+	cont "ansehen …"
+	para "Ich bin besorgt …"
 	line "Ist das riskant?"
 	done
+
 
 
 
@@ -150,14 +150,11 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 GoldenrodFlowerShopTeacherStopMySisterText:
 	text "Meine kleine"
 	line "Schwester war auf-"
-
 	para "geregt und wollte"
 	line "den wackeligen"
-	cont "Baum sehen…"
-
-	para "Ich bin besorgt…"
+	cont "Baum sehen …"
+	para "Ich bin besorgt …"
 	line "Kannst du sie"
-
 	para "bitte davor"
 	line "bewahren, verletzt"
 	cont "zu werden?"
@@ -169,7 +166,6 @@ GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
 	cont "ausleihen? Ich"
 	cont "werde nicht"
 	cont "zulassen,"
-
 	para "dass du etwas"
 	line "Gefährliches damit"
 	cont "anstellst."
@@ -178,31 +174,29 @@ GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
 
 
 
+
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
 	text "Ach, du bist"
 	line "besser als BIANKA."
-
 	para "Kennst du den"
 	line "wackeligen Baum?"
-
 	para "Wenn du ihn mit"
 	line "einer Gießkanne"
 	cont "nässest, greift er"
 	cont "an."
-
 	para "Aber mit ein paar"
 	line "ORDEN solltest du"
 	cont "in Ordnung sein."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Ach, du bist"
-	line "besser als BIANKA…"
-
+	text "Oh, du bist besser"
+	line "als BIANKA …"
 	para "Dann bist du in"
 	line "Ordnung. Hier, die"
 	cont "SCHIGGYKANNE!"
 	done
+
 
 
 
@@ -215,22 +209,21 @@ GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
 
 
 
+
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	text "Als ich meiner"
 	line "Schwester von dem"
-
 	para "wackeligen Baum"
 	line "erzählte, sagte"
-
 	para "sie mir, dass er"
 	line "gefährlich sei."
-
 	para "Ich frage mich, ob"
 	line "sie mir ihre"
 	cont "Gießkanne leiht,"
 	cont "wenn ich BIANKA"
-	cont "besiege…"
+	cont "besiege …"
 	done
+
 
 
 
@@ -243,10 +236,10 @@ GoldenrodFlowerShopFloriaYouBeatWhitneyText:
 
 
 
+
 WoukdYouLikeMulchText:
 	text "Möchtest du Dünger"
 	line "kaufen?"
-
 	para "Er lässt Beeren"
 	line "schneller wachsen!"
 	done
@@ -262,10 +255,8 @@ NoRoomForMulchText:
 DescribeMulchText:
 	text "Unser Dünger ist"
 	line "eine Mischung aus"
-
 	para "hochwertiger Erde"
-	line "und #mon-… äh…"
-
+	line "und #mon-… äh …"
 	para "du weißt schon."
 	line "Voller Nährstoffe!"
 	done

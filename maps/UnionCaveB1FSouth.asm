@@ -57,10 +57,9 @@ GenericTrainerPokemaniacCalvin:
 	line "Ergebnisse sammeln"
 	cont "und anschließend"
 	cont "veröffentlichen."
-
 	para "Vielleicht werde"
 	line "ich so berühmt wie"
-	cont "Prof. Lind."
+	cont "PROF. LIND."
 	done
 PokemaniacCalvinSeenText:
 	text "Ich bin hierher"
@@ -68,7 +67,6 @@ PokemaniacCalvinSeenText:
 	cont "#mon-"
 	cont "Forschungen"
 	cont "durchzuführen."
-
 	para "Ich zeige dir"
 	line "meine Ergebnisse"
 	cont "in einem Kampf!"
@@ -81,8 +79,7 @@ GenericTrainerHikerPhillip:
 	generictrainer HIKER, PHILLIP, EVENT_BEAT_HIKER_PHILLIP, HikerPhillipSeenText, HikerPhillipBeatenText
 
 	text "Ich bin lange"
-	line "herumgeirrt…"
-
+	line "herumgeirrt …"
 	para "Das hier macht mir"
 	line "nichts aus, aber"
 	cont "ich bin hungrig!"
@@ -91,7 +88,6 @@ HikerPhillipSeenText:
 	text "Mir ist schon"
 	line "lange niemand mehr"
 	cont "begegnet."
-
 	para "Hab keine Angst."
 	line "Lass uns kämpfen!"
 	done
@@ -125,9 +121,8 @@ GenericTrainerFirebreatherJay:
 	text "Einmal hat mein"
 	line "Hut Feuer"
 	cont "gefangen."
-
 	para "Er sah aus wie ein"
-	line "Magmar… aber tat"
+	line "Magmar … aber tat"
 	cont "weh!"
 	done
 
@@ -140,8 +135,8 @@ GenericTrainerFirebreatherJay:
 
 .BeatenText:
 	text "Unser Feuer konnte"
-	line "dich nicht"
-	cont "stoppen…"
+	line "dich nicht stoppen"
+	cont "…"
 	done
 
 GenericTrainerSuper_nerdRory:
@@ -162,7 +157,7 @@ GenericTrainerSuper_nerdRory:
 
 .BeatenText:
 	text "Vielleicht war ich"
-	line "etwas daneben…"
+	line "etwas daneben …"
 	done
 
 GenericTrainerRuin_maniacGlyn:

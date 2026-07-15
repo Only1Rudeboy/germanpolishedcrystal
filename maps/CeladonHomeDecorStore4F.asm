@@ -105,7 +105,6 @@ BigDollClerkText:
 	text "Sind unsere"
 	line "Riesenpuppen nicht"
 	cont "beeindruckend?"
-
 	para "Sie sind so groß,"
 	line "sie passen kaum"
 	cont "ins Zimmer."
@@ -119,49 +118,44 @@ BigDollClerkNoSaleText:
 
 BigDollClerkSellLaprasText:
 	text "Verkäufer: Magst"
-	line "du die Lapras-"
-	cont "Puppe?"
-
+	line "du die"
+	cont "Lapras-Puppe?"
 	para "Das kostet dich"
 	line "¥300.000."
 	done
 
 BigDollClerkSellSnorlaxText:
 	text "Verkäufer: Magst"
-	line "du die Relaxo-"
-	cont "Puppe?"
-
+	line "du die"
+	cont "Relaxo-Puppe?"
 	para "Das kostet dich"
 	line "¥200.000."
 	done
 
 BigDollClerkSellOnixText:
 	text "Verkäufer: Magst"
-	line "du die Onix-"
-	cont "Puppe?"
-
+	line "du die Onix-Puppe?"
 	para "Das kostet dich"
 	line "¥250.000."
 	done
 
 BoughtBigLaprasDollText:
-	text "<PLAYER> kaufte"
-	line "die Riesen-Lapras-"
+	text "<PLAYER> kaufte die"
+	line "Riesen-Lapras-"
 	cont "Puppe."
 	done
 
 
 BoughtBigSnorlaxDollText:
-	text "<PLAYER> kaufte"
-	line "die Riesen-Relaxo-"
+	text "<PLAYER> kaufte die"
+	line "Riesen-Relaxo-"
 	cont "Puppe."
 	done
 
 
 BoughtBigOnixDollText:
-	text "<PLAYER> kaufte"
-	line "die Riesen-Onix-"
-	cont "Puppe."
+	text "<PLAYER> kaufte die"
+	line "Riesen-Onix-Puppe."
 	done
 
 

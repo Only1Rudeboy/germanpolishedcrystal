@@ -38,31 +38,29 @@ BillPhoneGenericText:
 	done
 
 BillPhoneNotFullText:
-	text "Danke fürs Warten!"
-
+	text "Danke fürs"
+	line "Warten!"
 	para "<PLAYER>, deine"
-	line "Datenbank hat noch"
-	cont "viel Platz."
-
+	line "Datenbank hat"
+	cont "noch viel Platz."
 	para "Los, fülle sie"
 	line "auf!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Danke fürs Warten!"
-
+	text "Danke fürs"
+	line "Warten!"
 	para "<PLAYER>, deine"
-	line "Datenbank ist fast"
-	cont "überlastet!"
-
+	line "Datenbank ist"
+	cont "fast überlastet!"
 	para "Vielleicht"
 	line "solltest du"
 	cont "speichern?"
 	done
 
 BillPhoneFullText:
-	text "Danke fürs Warten!"
-
+	text "Danke fürs"
+	line "Warten!"
 	para "<PLAYER>, deine"
 	line "Datenbank ist"
 	cont "überlastet."
@@ -70,7 +68,7 @@ BillPhoneFullText:
 
 BillPhoneNewlyFullText:
 	text "Hi, <PLAYER>? Ich"
-	line "bin's, Bill!"
+	line "bin's, BILL!"
 
 	para "Danke, dass du"
 	line "mein Lagersystem"
@@ -82,39 +80,38 @@ BillPhoneNewlyFullText:
 	prompt
 
 BillWholePCFullText:
-	text "Wow, du hast einen"
-	line "ganzen Server"
-	cont "voll."
-
+	text "Wow, du hast"
+	line "einen ganzen"
+	cont "Server voll."
 	para "Du musst #mon"
 	line "freilassen, um"
-	cont "Platz zu schaffen."
+	cont "Platz zu"
+	cont "schaffen."
 	done
 
 BillFlushBySaving:
 	text "Es muss erst"
-	line "aufgeräumt werden,"
-
+	line "aufgeräumt"
+	cont "werden,"
 	para "bevor du den PC"
 	line "weiter nutzen"
 	cont "kannst."
-
 	para "Speichere das"
 	line "Spiel, um den PC"
 	cont "weiter zu nutzen."
-
 	para "Willst du jetzt"
 	line "speichern?"
 	done
 
 BillThankYouText:
-	text "Danke, dass du das"
-	line "PC-Lagersystem"
+	text "Danke, dass du"
+	line "das"
+	cont "PC-Lagersystem"
 	cont "benutzt!"
 	done
 
 BillCallMeToSwitch:
-	text "OK, ich lass es"
+	text "O.K., ich lass es"
 	line "so."
 
 	para "Speichere, falls"
@@ -124,30 +121,27 @@ BillCallMeToSwitch:
 
 BillPhoneSecondBadgeText:
 	text "Hey, Trainer! Ich"
-	line "bin's, Bill!"
-
+	line "bin's, BILL!"
 	para "Ich rufe an, um"
 	line "euch vor Wonder"
-	cont "Trading zu warnen."
-
+	cont "Trading zu"
+	cont "warnen."
 	para "Die Maschine war"
 	line "in letzter Zeit"
 	cont "instabil, und"
 	cont "meine"
-
 	para "Reparaturen sind"
-	line "noch nicht fertig."
-
-	para "Wenn du in Dukatia"
-	line "City bist,"
-
-	para "sei vorsichtig mit"
-	line "Wonder Trading."
-
+	line "noch nicht"
+	cont "fertig."
+	para "Wenn du in"
+	line "Dukatia City"
+	cont "bist,"
+	para "sei vorsichtig"
+	line "mit Wonder"
+	cont "Trading."
 	para "Du könntest ein"
 	line "seltsames #mon"
 	cont "bekommen."
-
 	para "Das war's."
 	line "Tschüss!"
 	done

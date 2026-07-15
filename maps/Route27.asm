@@ -114,23 +114,19 @@ Route27VeteranfScript:
 
 .AfterText2:
 	text "Viel Glück! Grüß"
-	line "LANCE von mir."
+	line "SIEGFRIED von mir."
 	done
 
 .IntroText:
 	text "Hm! Wenn du hier"
 	line "bist, musst du"
-
 	para "zur #mon Liga"
 	line "unterwegs sein."
-
 	para "Willst du mit mir"
 	line "trainieren?"
-
 	para "Dann besieg alle"
 	line "anderen auf Route"
 	cont "26 und 27."
-
 	para "Ich warte hier auf"
 	line "dich."
 	done
@@ -188,6 +184,7 @@ GenericTrainerPsychicGilbert:
 
 	para "Ich spüre das."
 	done
+
 TrainerBird_keeperJose1:
 	trainer BIRD_KEEPER, JOSE1, EVENT_BEAT_BIRD_KEEPER_JOSE, Bird_keeperJose1SeenText, Bird_keeperJose1BeatenText, 0, Bird_keeperJose1Script
 
@@ -295,17 +292,17 @@ GenericTrainerCooltrainermBlake:
 	generictrainer COOLTRAINERM, BLAKE, EVENT_BEAT_COOLTRAINERM_BLAKE, CooltrainermBlakeSeenText, CooltrainermBlakeBeatenText
 
 	text "Wenn du das hier"
-	line "erfolgreich über-"
-	cont "stehst, wirst du"
-
+	line "erfolgreich"
+	cont "überstehst, wirst"
+	cont "du"
 	para "die Wahrheit"
 	line "erkennen!"
-
 	para "Entschuldigung,"
 	line "ich wollte nur"
 	cont "etwas Geistreiches"
 	cont "sagen."
 	done
+
 GenericTrainerAceDuoJakeandbri1:
 	generictrainer ACE_DUO, JAKEANDBRI1, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri1SeenText, AceDuoJakeandbri1BeatenText
 
@@ -414,20 +411,19 @@ CooltrainerfReena1Script:
 GenericTrainerCooltrainerfMegan:
 	generictrainer COOLTRAINERF, MEGAN, EVENT_BEAT_COOLTRAINERF_MEGAN, CooltrainerfMeganSeenText, CooltrainerfMeganBeatenText
 
-	text "Ich teste"
-	line "#mon in deren"
+	text "Ich teste #mon"
+	line "in deren"
 	cont "verschiedenen"
-	cont "Entwicklungs-"
-	cont "stufen."
-
+	cont "Entwicklungsstufe-"
+	cont "n."
 	para "Entwickelte"
 	line "#mon sind"
 	cont "stärker."
-
 	para "Sie lernen die"
 	line "Attacken aber erst"
 	cont "mit höherem Level."
 	done
+
 Route27FisherStepLeftTwiceMovement:
 	step_left
 	step_left
@@ -440,17 +436,17 @@ Route27FisherHeyText:
 
 
 
+
 Route27FisherText:
 	text "Weißt du, was du"
 	line "gerade getan hast?"
-
 	para "Du hast deinen"
 	line "ersten Schritt in"
 	cont "KANTO gemacht."
-
 	para "Sieh auf die KARTE"
-	line "in deinem #Com."
+	line "in deinem #COM."
 	done
+
 
 
 
@@ -463,9 +459,11 @@ CooltrainermBlakeSeenText:
 
 
 
+
 CooltrainermBlakeBeatenText:
 	text "Juhu!"
 	done
+
 
 
 
@@ -505,7 +503,6 @@ CooltrainerfReena1BeatenText:
 CooltrainerfReenaAfterBattleText:
 	text "Du bist zwar nur"
 	line "ein Kind, aber man"
-
 	para "darf dich auch"
 	line "nicht"
 	cont "unterschätzen."
@@ -513,21 +510,23 @@ CooltrainerfReenaAfterBattleText:
 
 
 
+
 CooltrainerfMeganSeenText:
 	text "Hier kommen nur"
 	line "selten Menschen"
 	cont "vorbei."
-
 	para "Trainierst du"
 	line "vollkommen allein?"
 	done
 
 
 
+
 CooltrainerfMeganBeatenText:
-	text "Ach! Du bist"
+	text "Oh! Du bist"
 	line "wirklich stark!"
 	done
+
 
 
 
@@ -547,9 +546,11 @@ PsychicGilbertSeenText:
 
 
 
+
 PsychicGilbertBeatenText:
 	text "Das ist zuviel!"
 	done
+
 
 
 
@@ -563,7 +564,6 @@ Bird_keeperJose1BeatenText:
 BirdKeeperJose2AfterBattleText:
 	text "VOGELFÄNGER wie"
 	line "ich, imitieren"
-
 	para "Vogelstimmen, um"
 	line "dadurch den"
 	cont "#mon Befehle zu"
@@ -572,13 +572,14 @@ BirdKeeperJose2AfterBattleText:
 
 
 
+
 TohjoFallsSignText:
 	text "TOHJO-FÄLLE"
-
 	para "Die Verbindung"
 	line "zwischen KANTO und"
 	cont "JOHTO"
 	done
+
 
 
 

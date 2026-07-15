@@ -49,14 +49,13 @@ GenericTrainerSightseermHari:
 	line "jeden"
 	cont "#mon-Prof. zu"
 	cont "treffen."
-
 	para "Willst du meine"
 	line "Fotos sehen?"
 	done
 
 .SeenText:
 	text "Hey! Ich bin hier,"
-	line "um Prof. Ivy zu"
+	line "um PROF. IVY zu"
 	cont "treffen!"
 	done
 
@@ -93,7 +92,6 @@ GenericTrainerAromaLadyPeony:
 
 	text "Meine Blubella"
 	line "liebt es, hier auf"
-
 	para "dieser friedlichen"
 	line "Insel zu leben."
 	done
@@ -124,12 +122,9 @@ GenericTrainerGuitaristmGeddy:
 	text "Ich könnte mein"
 	line "Leben wohl besser"
 	cont "leben,"
-
-	para "als ich denke…"
-
+	para "als ich denke …"
 	para "Darum nennt man"
-	line "mich wohl…"
-
+	line "mich wohl …"
 	para "Man nennt mich den"
 	line "Arbeiter!"
 	done

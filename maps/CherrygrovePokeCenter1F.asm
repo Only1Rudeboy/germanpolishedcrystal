@@ -25,17 +25,13 @@ PokemonJournalRedScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial:"
 	line "#mon-Trainer"
-	cont "Rot!"
-
-	para "Man sagt, Rot hat"
+	cont "ROT!"
+	para "Man sagt, ROT hat"
 	line "seinen Rivalen"
-
-	para "Blau besiegt und"
+	para "BLAU besiegt und"
 	line "den Titel des"
-
 	para "#mon-Liga-"
 	line "Champions in"
 	cont "Rekordzeit"
@@ -47,21 +43,21 @@ CherrygrovePokeCenter1FTeacherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Das KOMMUNI-"
-	line "KATIONS-CENTER im"
-	cont "ersten Stock ist"
-	cont "gerade fertig."
-
+	text "Das"
+	line "KOMMUNI-KATIONS-"
+	cont "CENTER im ersten"
+	cont "Stock ist gerade"
+	cont "fertig."
 	para "Aber der"
 	line "Feinschliff fehlt"
 	cont "noch."
 	done
 .Text2:
-	text "Das KOMMUNI-"
-	line "KATIONS-CENTER im"
-	cont "ersten Stock ist"
-	cont "gerade fertig."
-
+	text "Das"
+	line "KOMMUNI-KATIONS-"
+	cont "CENTER im ersten"
+	cont "Stock ist gerade"
+	cont "fertig."
 	para "Ich habe schon"
 	line "#mon getauscht!"
 	done
@@ -84,13 +80,10 @@ CherrygrovePokeCenter1FLadyText:
 	line "Journal hat so"
 	cont "faszinierende"
 	cont "Storys!"
-
 	para "Ich komme ins"
 	line "#mon-CENTER für"
-
 	para "die neuesten"
 	line "Ausgaben, aber"
-
 	para "man kann es auch"
 	line "anderswo"
 	cont "abonnieren."

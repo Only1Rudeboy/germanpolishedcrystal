@@ -75,20 +75,15 @@ TrainerElderGaku:
 
 	text "Ah, du behauptest"
 	line "also, SUICUNE,"
-
 	para "ENTEI und RAIKOU"
 	line "während sie"
-
 	para "schliefen gesehen"
 	line "zu haben?"
-
 	para "Unglaublich!"
-
 	para "Der Legende nach"
 	line "können sie während"
-
 	para "des Schlafs nicht"
-	line "gesehen werden…"
+	line "gesehen werden …"
 	done
 TrainerElderMasa:
 	trainer ELDER, MASA, EVENT_BEAT_ELDER_MASA, ElderMasaSeenText, ElderMasaBeatenText, 0, .Script, TRAINERPAL_MASA
@@ -100,6 +95,7 @@ TrainerElderMasa:
 	text "Früher gab es hier"
 	line "zwei neunstöckige"
 	cont "Türme."
+	done
 
 if DEF(FAITHFUL)
 	para "Der eine war der"
@@ -113,8 +109,8 @@ endc
 	line "Schlaf wecken"
 	cont "sollte."
 
-	para "Der andere war der"
-	line "Glockenturm,"
+	para "Der andere war"
+	line "Zinnturm,"
 
 	para "in dem #mon"
 	line "Ruhe fanden."
@@ -125,7 +121,7 @@ endc
 	para "muss großartig"
 	line "gewesen sein."
 
-	para "Zu jener Zeit soll"
+	para "Zu jener Zeit"
 	line "ein riesiges,"
 
 	para "silberfarbenes"
@@ -136,7 +132,7 @@ else
 	line "Gongturm sein"
 endc
 
-	para "Nest gehabt haben."
+	para "Nest gehabt"
 
 	para "Doch…"
 
@@ -196,13 +192,11 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Erstaunlich…"
-
+	text "Erstaunlich …"
 	para "SUICUNE, ENTEI und"
 	line "RAIKOU sind aus"
-	cont "dem Schlaf"
-	cont "erwacht…"
-
+	cont "dem Schlaf erwacht"
+	cont "…"
 	para "Wird die Legende"
 	line "wahr?"
 	done
@@ -213,18 +207,17 @@ WiseTriosRoomSage1Text:
 
 
 
+
 WiseTriosRoomSage2Text:
 	text "Wir trainieren bei"
 	line "der TURMRUINE,"
-
 	para "aber wir haben nie"
 	line "von einem Loch"
 	cont "gehört, das sich"
 	cont "dort geöffnet"
-
 	para "haben soll. Jemand"
 	line "muss das"
-	cont "absichtlich getan"
+	cont "absicht-lich getan"
 	cont "haben."
 	done
 
@@ -234,20 +227,18 @@ WiseTriosRoomSage2Text:
 
 
 
+
 WiseTriosRoomSage3BlocksExitText:
-	text "Zutritt zum ZINN-"
-	line "TURM haben jene,"
-
+	text "Zutritt zum"
+	line "ZINN-TURM haben"
+	cont "jene,"
 	para "die den ORDEN der"
-	line "#mon-ARENA von"
+	line "PKMN-ARENA von"
 	cont "TEAK CITY tragen."
-
 	para "Da SUICUNE, RAIKOU"
 	line "und ENTEI jetzt"
-
 	para "aber erwacht sind,"
 	line "muss ich dich"
-
 	para "bitten, nicht"
 	line "einzutreten!"
 	done
@@ -258,13 +249,15 @@ WiseTriosRoomSage3BlocksExitText:
 
 
 
+
 WiseTriosRoomSage3Text:
 	text "Wir, das TRIO der"
 	line "WEISEN, sind die"
-
-	para "Hüter der legen-"
-	line "dären #mon."
+	para "Hüter der"
+	line "legendären"
+	cont "#mon."
 	done
+
 
 
 
@@ -276,43 +269,35 @@ ElderGakuSeenText:
 	text "Die Legende"
 	line "besagt, dass bei"
 	cont "einem"
-
 	para "Trainer, der die"
 	line "Seelen der #mon"
-
 	para "berühren kann, ein"
 	line "#mon erscheint,"
-
 	para "um diesen Trainer"
 	line "auf die Probe zu"
-
 	para "stellen am"
-	line "Glockenturm."
-
+	line "Zinnturm."
 	para "Die Legende ist"
 	line "wahr geworden!"
-
 	para "Das legendäre"
 	line "#mon SUICUNE"
 	cont "ist erschienen!"
-
 	para "Wir, das TRIO der"
 	line "WEISEN, werden"
 	cont "prüfen, ob du"
-
 	para "würdig bist,"
 	line "einzutreten!"
 	done
 
 ElderGakuBeatenText:
 	text "Stärker als wir"
-	line "dachten? Wer weiß…"
+	line "dachten? Wer weiß"
+	cont "…"
 	done
 ElderMasaSeenText:
 	text "Kann man dir die"
 	line "Wahrheit"
 	cont "anvertrauen?"
-
 	para "Ich muss prüfen,"
 	line "ob du würdig bist."
 	done
@@ -342,31 +327,26 @@ SageKojiAfterBattleQuestionText:
 
 
 
-SageKojiAfterBattleSpeechText:
-	text "Ich verstehe…"
 
+SageKojiAfterBattleSpeechText:
+	text "Ich verstehe …"
 	para "Wir, das TRIO der"
 	line "WEISEN, sind"
 	cont "verantwortlich für"
 	cont "den Schutz der"
-
-	para "legendären"
-	line "#mon. Wir"
-	cont "gestatten"
-
+	para "legendären #mon"
+	line "Wir gestatten"
 	para "nur jenen Zutritt,"
 	line "die eine reine"
-
 	para "Seele und wahre"
 	line "Kraft besitzen."
-
 	para "Schreite voran und"
 	line "betritt den"
 	cont "ZINNTURM."
-
 	para "SUICUNE wird dich"
 	line "prüfen."
 	done
+
 
 
 
@@ -380,6 +360,7 @@ SageKojiAfterBattleFinalText:
 	para "SUICUNE wird dich"
 	line "prüfen."
 	done
+
 
 
 

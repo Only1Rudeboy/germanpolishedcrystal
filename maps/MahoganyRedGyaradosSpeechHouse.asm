@@ -44,12 +44,13 @@ MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	done
 
 
+
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
 	text "Ich habe Gelächter"
-	line "im Radio gehört…"
-
+	line "im Radio gehört …"
 	para "Das war"
 	line "unheimlich."
 	done
+
 
 

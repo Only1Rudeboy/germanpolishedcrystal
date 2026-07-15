@@ -39,7 +39,6 @@ Route40BattleTowerGateRockerScript:
 	text "Bist du auch wegen"
 	line "des DUELLTURMS"
 	cont "hier?"
-
 	para "Du kannst aber"
 	line "wohl noch nicht"
 	cont "rein."
@@ -48,10 +47,8 @@ Route40BattleTowerGateRockerScript:
 .OpenText:
 	text "Der DUELLTURM ist"
 	line "offen."
-
 	para "Ich will hin, aber"
 	line "mir fehlt"
-
 	para "ein cooler Spruch"
 	line "den Sieg."
 	done
@@ -64,19 +61,17 @@ Route40BattleTowerGateTwinScript:
 	text "Ich trainiere"
 	line "meine #mon,"
 	cont "damit ich"
-
-	para "für den Kampftur-"
-	line "nier bereit bin."
+	para "für den"
+	line "Kampfturm"
+	cont "bereit bin."
 	done
 
 .OpenText:
 	text "Die Level der"
 	line "#mon, die ich"
-
 	para "einsetzen möchte,"
 	line "sind"
 	cont "unterschiedlich."
-
 	para "Ich muss sie jetzt"
 	line "trainieren!"
 	done

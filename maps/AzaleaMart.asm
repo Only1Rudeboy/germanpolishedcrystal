@@ -21,55 +21,48 @@ AzaleaMart_MapScriptHeader:
 AzaleaMartCooltrainermText:
 	text "Hier gibt es keine"
 	line "Superbälle. #"
-
 	para "Bälle müssen"
 	line "reichen."
-
-	para "Ich wünschte, Kurt"
+	para "Ich wünschte, KURT"
 	line "gäbe mir einige"
 	cont "seiner Bälle."
 	done
 
 AzaleaMartBugCatcherText:
-	text "Ein Superball ist"
-	line "besser um #mon"
-	cont "zu fangen als ein"
-	cont "# Ball."
-
-	para "Aber Kurts Bälle"
-	line "sind manchmal"
+	text "Ein SUPERBALL"
+	line "eignet sich"
+	cont "besser zum Fangen"
+	cont "von #mon als"
+	cont "ein #BALL."
+	para "Aber manchmal sind"
+	line "KURTs BÄLLE"
 	cont "besser."
 	done
+
 
 AzaleaMartLadyText:
 	text "Ich kann in"
 	line "Dukatia City viele"
 	cont "Items kaufen, aber"
 	cont "für"
-
 	para "Feuer-Attacken ist"
 	line "nichts besser"
-
 	para "als Azaleas"
 	line "Holzkohle!"
 	done
 
 AzaleaMartRockerText:
 	text "Die Prototypen von"
-	line "Kurts Bällen"
-
+	line "KURTs Bällen"
 	para "hatten Probleme."
 	line "Sympabälle fingen"
-	cont "nur gleich-"
-
-	para "geschlechtl."
-	line "#mon, und"
+	cont "nur"
+	cont "gleichgeschlechtl."
+	cont "#mon, und"
 	cont "Turbobälle"
-
 	para "funktionierten nur"
-	line "für drei #mon-"
-	cont "Arten."
-
+	line "für drei"
+	cont "#mon-Arten."
 	para "Zum Glück wurden"
 	line "diese Probleme"
 	cont "behoben!"

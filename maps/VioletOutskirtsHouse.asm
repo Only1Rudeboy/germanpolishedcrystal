@@ -82,38 +82,29 @@ VioletOutskirtsHouseCaretakerScript:
 	setevent EVENT_TALKED_TO_VIOLET_CEMETERY_CARETAKER
 	jumpthistextfaceplayer
 
-	text "…… ……"
-
+	text "… … … …"
 	para "Du hast meinen"
-	line "Freund gefunden…"
-
+	line "Freund gefunden …"
 	para "Er führte"
 	line "verstorbene Seelen"
-	cont "ins Jenseits…"
-
+	cont "ins Jenseits …"
 	para "Während ich ihre"
-	line "Gräber pflegte…"
-
-	para "…… ……"
-
+	line "Gräber pflegte …"
+	para "… … … …"
 	para "Das war vor langer"
-	line "Zeit…"
-
+	line "Zeit …"
 	para "Niemand kommt mehr"
-	line "vorbei…"
-
+	line "vorbei …"
 	para "Die Gräber liegen"
-	line "verlassen…"
-
-	para "Aber du… bist"
-	line "trotzdem gekommen…"
-
-	para "…… ……"
-
-	para "Danke…"
-
+	line "verlassen …"
+	para "Aber du … bist"
+	line "trotzdem gekommen"
+	cont "…"
+	para "… … … …"
+	para "Danke …"
 	para "Bitte kümmere dich"
-	line "um meinen… Freund…"
+	line "um meinen … Freund"
+	cont "…"
 	done
 
 VioletOutskirtsHouseOldShrineText:
@@ -139,13 +130,12 @@ VioletOutskirtsHouseCaretakerThankYouText:
 VioletOutskirtsHouseStillAPresenceText:
 	text "Der Geist ist weg,"
 	line "aber etwas ist"
-	cont "noch da…"
+	cont "noch da …"
 	done
 
 VioletOutskirtsHouseNotSafeHereText:
 	text "Es ist noch eine"
 	line "starke Präsenz da."
-
 	para "Hier ist es nicht"
 	line "sicher!"
 	done

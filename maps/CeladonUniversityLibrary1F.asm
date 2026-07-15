@@ -55,14 +55,12 @@ CeladonUniversityLibrary1FGentlemanText:
 	done
 
 CeladonUniversityLibrary1FCooltrainerfText:
-	text "Prof. Lind hat"
+	text "PROF. LIND hat"
 	line "hier früher"
 	cont "gelehrt,"
-
 	para "deshalb hat die"
 	line "Bibliothek alle"
 	cont "seine Artikel."
-
 	para "Ich habe jeden von"
 	line "Anfang bis Ende"
 	cont "gelesen!"
@@ -76,14 +74,12 @@ CeladonUniversityLibrary1FGameboyKidScript:
 .Text:
 	text "Mein #dex hat"
 	line "ein Spiel-Upgrade."
-
 	para "Ich spiele Tetris!"
 	done
 
 CeladonUniversityLibrary1FPokefan_fText:
 	text "Wir haben eine"
 	line "Leihvereinbarung"
-
 	para "mit der Bibliothek"
 	line "von Fleetburg in"
 	cont "Sinnoh."
@@ -104,13 +100,10 @@ CeladonUniversityLibrary1FCooltrainermScript:
 .Text1:
 	text "Ich habe bald eine"
 	line "große Prüfung,"
-
 	para "deshalb bleibe ich"
 	line "hier eine Weile."
-
 	para "Ich muss nur"
 	line "durchhalten."
-
 	para "Dabei hilft mir"
 	line "das hier."
 	done
@@ -126,14 +119,11 @@ CeladonUniversityLibrary1FCooltrainermScript:
 
 CeladonUniversityLibrary1FTeacherText:
 	text "Ich bin die"
-	line "Oberbibliotheka-"
-	cont "ri-"
+	line "Oberbibliothekari-"
 	cont "n."
-
 	para "Wenn du etwas"
 	line "brauchst, sag"
 	cont "Bescheid."
-
 	para "Aber leise. Das"
 	line "ist eine"
 	cont "Bibliothek."
@@ -141,9 +131,8 @@ CeladonUniversityLibrary1FTeacherText:
 
 CeladonUniversityLibrary1FBookText:
 	text "Ein Buch über"
-	line "Blumenarrangeme-"
-	cont "nts."
-
+	line "Blumenarrangement-"
+	cont "s."
 	para "Auf dem Cover ist"
 	line "ein Sonnflora."
 	done
@@ -167,11 +156,9 @@ CeladonUniversityLibrary1FBookshelf1Text:
 	line "ein altes Foto in"
 	cont "dieses Buch"
 	cont "gelegt."
-
-	para "Erika und ein Mann"
+	para "ERIKA und ein Mann"
 	line "mit sanftem"
 	cont "Lächeln"
-
 	para "posieren fröhlich"
 	line "neben einem"
 	cont "Myrapla."
@@ -179,12 +166,12 @@ CeladonUniversityLibrary1FBookshelf1Text:
 
 CeladonUniversityLibrary1FBookshelf2Text:
 	text "Ein Fotoalbum mit"
-	line "vielen #mon-"
-	cont "Bildern."
-
-	para "“Todd Snaps Foto-"
-	line "sammlung” steht"
-	cont "auf dem Cover."
+	line "vielen"
+	cont "#mon-Bildern."
+	para "'Todd Snaps"
+	line "Fotosammlung'"
+	cont "steht auf dem"
+	cont "Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf3Text:
@@ -204,7 +191,6 @@ CeladonUniversityLibrary1FBookshelf4Text:
 	text "Ein Buch über"
 	line "#mon-"
 	cont "Palindrome."
-
 	para "Auf dem Cover sind"
 	line "Evoli und"
 	cont "Girafarig."
@@ -213,11 +199,9 @@ CeladonUniversityLibrary1FBookshelf4Text:
 CeladonUniversityLibrary1FBookshelf5Text:
 	text "Ein Buch über"
 	line "Spielzeug-#mon,"
-
 	para "die durch einen"
 	line "Wunderschlüssel"
 	cont "lebendig werden."
-
 	para "Sie sehen süß aus."
 	done
 
@@ -225,23 +209,19 @@ CeladonUniversityLibrary1FBookshelf6Text:
 	text "Ein Buch über eine"
 	line "#mon-"
 	cont "Marionette,"
-
 	para "die nicht lügen"
 	line "kann."
-
-	para "“Pinpokéo” steht"
+	para "'Pinpokéo' steht"
 	line "auf dem Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf7Text:
-	text "Ein Bu… Moment…"
-
+	text "Ein Bu … Moment …"
 	para "Das ist ein"
 	line "Videospiel!"
-
 	para "Auf der Verpackung"
-	line "ist ein #mon-"
-	cont "Flipper."
+	line "ist ein"
+	cont "#mon-Flipper."
 	done
 
 CeladonUniversityLibrary1FBookshelf8Text:
@@ -251,15 +231,15 @@ CeladonUniversityLibrary1FBookshelf8Text:
 	para "Tipps für"
 	line "Anfänger."
 
-	para "“Chancen und"
-	line "Ruten” steht auf"
+	para "'Chancen und"
+	line "Ruten' steht auf"
 	cont "dem Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf9Text:
 	text "Ein Handbuch zum"
-	line "#mon-Sammel-"
-	cont "kartenspiel."
+	line "#mon-"
+	cont "Sammelkartenspiel."
 	done
 
 CeladonUniversityLibrary1FBookshelf10Text:
@@ -276,15 +256,14 @@ CeladonUniversityLibrary1FBookshelf11Text:
 	text "Ein Leitfaden zum"
 	line "Mischen von"
 	cont "Poffin."
-
 	para "Ein berühmter"
 	line "#mon-Züchter"
 	cont "ist auf dem Cover."
 	done
 
 CeladonUniversityLibrary1FBookshelf12Text:
-	text "“Das geheime Leben"
-	line "des Lachens” von"
+	text "'Das geheime Leben"
+	line "des Lachens' von"
 	cont "Joe King. Wortwitz"
 	cont "pur!"
 	done

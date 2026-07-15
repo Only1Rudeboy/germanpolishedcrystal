@@ -50,14 +50,14 @@ CianwoodPhotoStudioFishingGuruScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Komm wieder, OK?"
+	text "Komm wieder, O.K.?"
 	done
 
 .NoPicture:
 	jumpthisopenedtext
 
 	text "Ach, kein Bild?"
-	line "Komm wieder, OK?"
+	line "Komm wieder, O.K.?"
 	done
 
 .EggPicture:
@@ -71,17 +71,15 @@ CianwoodPhotoStudioFishingGuruScript:
 PhotoStudioGreetingText:
 	text "Ich bin Cameron"
 	line "der Fotograf."
-
 	para "Du hast wunderbare"
 	line "#mon bei dir."
-
 	para "Wie wäre es mit"
 	line "einem Foto als"
 	cont "Andenken?"
 	done
 
 PhotoStudioWhichMonText:
-	text "OK! Größtes"
+	text "O.K.! Größtes"
 	line "Lächeln!"
 
 	para "Welches #mon"
@@ -96,8 +94,8 @@ PhotoStudioHoldStillText:
 
 PhotoStudioPrestoText:
 	text "Presto! Fertig!"
-
-	para "Dein "
+	para "Dein"
+	done
 	text_ram wStringBuffer3
 	line "sieht fröhlicher"
 	cont "aus!"
@@ -107,7 +105,6 @@ PhotoStudioAlreadyDoneText:
 	text "Ich habe dir heute"
 	line "schon ein Foto"
 	cont "gemacht."
-
 	para "Komm morgen"
 	line "wieder."
 	done

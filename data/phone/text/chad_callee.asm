@@ -60,7 +60,7 @@ ChadGenericText:
 	line "#mon?"
 
 	para "Du kennst"
-	line "Prof. Eich, also"
+	line "PROF. EICH, also"
 	cont "sind deine"
 
 	para "#mon bestimmt"

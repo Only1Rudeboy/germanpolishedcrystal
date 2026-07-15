@@ -1,18 +1,15 @@
 AlanAskNumber1Text:
-	text "Bücher lesen lohnt"
-	line "sich ab und zu."
-
+	text "Bücher lesen"
+	line "lohnt sich ab und"
+	cont "zu."
 	para "Beim Lesen und"
 	line "Gehen muss ich"
-
 	para "nach unten"
 	line "schauen. So finde"
 	cont "ich Items"
-
-	para "am Boden. Wenn ich"
-	line "was finde, geb"
-	cont "ich's"
-
+	para "am Boden. Wenn"
+	line "ich was finde,"
+	cont "geb ich's"
 	para "dir. Darf ich"
 	line "deine Nummer"
 	cont "haben?"
@@ -28,9 +25,9 @@ AlanAskNumber2Text:
 	done
 
 AlanNumberAcceptedText:
-	text "Ich ruf an, sobald"
-	line "ich was finde."
-
+	text "Ich ruf an,"
+	line "sobald ich was"
+	cont "finde."
 	para "Darauf kannst du"
 	line "zählen!"
 	done
@@ -63,10 +60,9 @@ AlanGiftText:
 
 AlanPackFullText:
 	text "Ups!"
-
 	para "Du kannst keine"
-	line "Items mehr tragen!"
-
-	para "Ich behalte es bis"
-	line "nächstes Mal."
+	line "Items mehr"
+	cont "tragen!"
+	para "Ich behalte es"
+	line "bis nächstes Mal."
 	done

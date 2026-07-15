@@ -94,11 +94,9 @@ BattleTower2FCherylScript:
 .AfterText:
 	text "Trainer zu sein"
 	line "ist nicht leicht."
-
 	para "Je mehr du"
 	line "kämpfst, desto"
 	cont "mehr entdeckst du."
-
 	para "Aber weißt du was?"
 	line "Genau dafür liebe"
 	cont "ich #mon auch!"
@@ -166,15 +164,12 @@ BattleTower2FRileyScript:
 .AfterText:
 	text "Wäre ich nicht in"
 	line "der Düsterhöhle"
-	cont "gewesen…"
-
+	cont "gewesen …"
 	para "wärst du nicht in"
 	line "der Düsterhöhle"
-	cont "gewesen…"
-
+	cont "gewesen …"
 	para "hätten wir uns nie"
 	line "getroffen."
-
 	para "Oder wären wir uns"
 	line "woanders begegnet?"
 	done
@@ -203,7 +198,6 @@ BattleTower2FBuckScript:
 	writethistext
 		text "Ehehehe! Endlich"
 		line "bist du da!"
-
 		para "Kämpfen wir jetzt?"
 		done
 	yesorno
@@ -286,12 +280,12 @@ BattleTower2FMarleyScript:
 	jumpthistext
 
 .AfterText:
-	text "…Kämpfen mit dir"
+	text "… Kämpfen mit dir"
 	line "gefällt mir"
 	cont "vielleicht."
-
-	para "…Nur ein bisschen."
-	line "Nur ganz wenig."
+	para "… Nur ein"
+	line "bisschen. Nur ganz"
+	cont "wenig."
 	done
 
 .BeatenText:
@@ -299,7 +293,7 @@ BattleTower2FMarleyScript:
 	done
 
 .RefuseText:
-	text "…Ach, du. Ich mag"
+	text "… Ach, du. Ich mag"
 	line "dich langsam etwas"
 	cont "weniger."
 	done
@@ -419,7 +413,6 @@ BattleTower2FCooltrainermText:
 	text "Ich muss los, aber"
 	line "ich kann nicht"
 	cont "aufhören,"
-
 	para "diesen Kampf"
 	line "anzuschauen!"
 	done
@@ -428,7 +421,6 @@ BattleTower2FLadyText:
 	text "Was macht mich als"
 	line "Trainerin am"
 	cont "glücklichsten?"
-
 	para "Dass #mon mir"
 	line "viele Freunde"
 	cont "bringen!"
@@ -450,15 +442,11 @@ BattleTower2FTwinText:
 BattleTower2FSuperNerdText:
 	text "Hehe! Alle Trainer"
 	line "hier wirken so"
-
 	para "erbärmlich!"
-
-	para "…Aber genau diese"
+	para "… Aber genau diese"
 	line "Einstellung lässt"
 	cont "dich mit einem"
-
 	para "Treffer verlieren!"
-
 	para "Lass nicht nach,"
 	line "Pikachu!"
 	done
@@ -489,10 +477,8 @@ BattleTower2FBlackbeltText:
 	text "Der Karate-Gi ist"
 	line "die Uniform der"
 	cont "Kämpfer!"
-
 	para "Nichts eignet sich"
 	line "besser für den"
 	cont "Kampfturm"
-
 	para "als das!"
 	done

@@ -48,16 +48,14 @@ RocketHideoutB3FCoolDudeDaric:
 
 	text "Anführerin Blanche"
 	line "erwartet nichts"
-
-	para "weniger als"
-	line "volle Einsatz-"
-	cont "bereitschaft!"
+	para "weniger als volle"
+	line "Einsatzbereitscha-"
+	cont "ft!"
 	done
 
 .SeenText:
 	text "Emotionen trüben"
 	line "das Urteil."
-
 	para "Mal sehen, ob dein"
 	line "Fokus gut ist."
 	done

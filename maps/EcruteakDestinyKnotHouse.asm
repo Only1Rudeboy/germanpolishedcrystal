@@ -49,7 +49,7 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 
 .Text1:
 	text "Zwei mächtige"
-	line "Vogel- #mon in"
+	line "Vogel-#mon in"
 	cont "Johto,"
 
 	para "jeder bewacht ein"
@@ -64,7 +64,6 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	text "Was wäre, wenn ein"
 	line "Trainer sie alle"
 	cont "fängt?"
-
 	para "Was für ein"
 	line "unwahrscheinliches"
 	cont "Schicksal!"
@@ -74,15 +73,12 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	text "Was? Du hast sie"
 	line "gesehen? Und sogar"
 	cont "gefangen?!"
-
 	para "Lass mich deinen"
-	line "#dex sehen…"
-	cont "Wow!"
-
+	line "#dex sehen …"
+	cont "Toll!"
 	para "Es muss dein"
 	line "Schicksal gewesen"
 	cont "sein."
-
 	para "Hier, das solltest"
 	line "du haben."
 	done

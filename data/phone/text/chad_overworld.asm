@@ -1,20 +1,20 @@
 ChadAskNumber1Text:
 	text "Häh? Ist das ein"
 	line "#dex? Hast du"
-	cont "Prof. Eich"
+	cont "PROF. EICH"
 	cont "getroffen?"
 
 	para "Wirklich? Cool!"
 
 	para "Ich träume davon,"
 	line "#mon-Forscher"
-	cont "wie Prof. Eich zu"
+	cont "wie PROF. EICH zu"
 	cont "werden."
 
 	para "Darf ich deine"
 	line "Nummer? Wir reden"
 
-	para "über Prof. Eich."
+	para "über PROF. EICH."
 	line "Das wird toll!"
 	done
 
@@ -23,14 +23,15 @@ ChadAskNumber2Text:
 	line "Nummer?"
 
 	para "Wir reden über"
-	line "Prof. Eich. Das"
+	line "PROF. EICH. Das"
 	cont "wird toll!"
 	done
 
 ChadNumberAcceptedText:
 	text "Du hörst doch"
-	line "Prof. Eichs #mon"
-	cont "Talk, oder?"
+	line "PROF. EICHs"
+	cont "#mon Talk,"
+	cont "oder?"
 	done
 
 ChadNumberDeclinedText:

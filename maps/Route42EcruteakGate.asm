@@ -19,10 +19,10 @@ Route42EcruteakGate_MapScriptHeader:
 Route42EcruteakGateOfficerText:
 	text "Der KESSELBERG ist"
 	line "wie ein"
-
 	para "Irrgarten, also"
 	line "verlaufe dich"
 	cont "nicht."
 	done
+
 
 

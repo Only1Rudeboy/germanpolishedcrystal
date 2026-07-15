@@ -56,12 +56,9 @@ GoldenrodMuseumReceptionistText:
 	text "Willkommen im"
 	line "Dukatia City"
 	cont "Museum."
-
 	para "Zur Eröffnung ist"
 	line "der Eintritt"
-
 	para "kostenlos."
-
 	para "Schau dich gern um"
 	line "und viel Spaß beim"
 	cont "Besuch!"

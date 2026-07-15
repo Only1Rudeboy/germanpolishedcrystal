@@ -29,8 +29,7 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "Hallo, <PLAYER>!"
-	line "Lyra ist nicht da."
-
+	line "LYRA ist nicht da."
 	para "Sie hilft dem"
 	line "Professor."
 	done
@@ -39,7 +38,7 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "Hallo, <PLAYER>!"
-	line "Lyra ist oben."
+	line "LYRA ist oben."
 
 	para "Sie spielt wie"
 	line "immer mit ihren"
@@ -50,8 +49,7 @@ LyrasDadScript:
 	jumpthisopenedtext
 
 	text "Hallo, <PLAYER>!"
-	line "Lyra ist nicht da."
-
+	line "LYRA ist nicht da."
 	para "Sie sammelt ORDEN"
 	line "in ganz JOHTO!"
 	done
@@ -63,8 +61,7 @@ LyrasFridgeScript:
 	jumpthistext
 
 	text "Mal sehen, was im"
-	line "Kühlschrank ist…"
-
+	line "Kühlschrank ist …"
 	para "Frisches Wasser"
 	line "und Reisbällchen!"
 	done
@@ -82,11 +79,9 @@ LyrasTVScript:
 
 	text "Im TV läuft ein"
 	line "Film: Ein Mädchen"
-
 	para "mit Zöpfen geht"
 	line "einen Backsteinweg"
 	cont "entlang."
-
 	para "Ich sollte auch"
 	line "losgehen!"
 	done

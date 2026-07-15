@@ -24,26 +24,22 @@ Route19FuchsiaGateOfficerScript:
 	text "Der Vulkan der"
 	line "ZINNOBERINSEL ist"
 	cont "ausgebrochen."
-
 	para "Er schleuderte"
 	line "Felsbrocken, die"
-
 	para "ROUTE 19 auf"
 	line "unbestimmte Zeit"
 	cont "blockieren."
-
 	para "Ich hoffe, den"
 	line "Leuten auf der"
-
 	para "ZINNOBERINSEL geht"
-	line "es gut…"
+	line "es gut …"
 	done
 
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "Auf der ZINNOBER-"
-	line "INSEL wurde"
-
+	text "Auf der"
+	line "ZINNOBER-INSEL"
+	cont "wurde"
 	para "niemand verletzt."
 	line "Das ist großartig!"
 	done

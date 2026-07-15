@@ -132,7 +132,7 @@ EcruteakShrineInsideReiGreetingText:
 	done
 
 EcruteakShrineInsideReiBlessText:
-	text "Rei: OK, welches"
+	text "Rei: O.K., welches"
 	line "#mon soll ich"
 	cont "segnen?"
 	done
@@ -145,7 +145,7 @@ EcruteakShrineInsideReiBlessingText:
 
 EcruteakShrineInsideHappinessText:
 	text_ram wStringBuffer3
-	text " sieht zufrieden"
+	text "sieht zufrieden"
 	line "aus."
 	done
 EcruteakShrineInsideReiBattleText:
@@ -170,14 +170,13 @@ EcruteakShrineInsideSageText:
 	text "Die meisten hier"
 	line "im Schrein"
 	cont "trainieren"
-
 	para "HOOTHOOT und"
 	line "WIESOR, um Geister"
 	cont "zu bekämpfen."
-
 	para "Rei ist besonders."
-	line "Sie setzt Feuer-"
-	cont "und Psycho-#mon"
+	line "Sie setzt"
+	cont "Feuer-und"
+	cont "Psycho-#mon"
 	cont "ein."
 	done
 

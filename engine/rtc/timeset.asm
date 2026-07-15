@@ -627,5 +627,7 @@ PrintHoursMins:
 	rst PlaceString
 	ret
 
-.String_AM: db "AM@"
-.String_PM: db "PM@"
+; 12h labels (only if CLOCK_FORMAT is 12h). EN used AM/PM.
+; DE: short Latin form still common; full "vorm./nachm." overflows the box.
+.String_AM: db "a.m.@"
+.String_PM: db "p.m.@"

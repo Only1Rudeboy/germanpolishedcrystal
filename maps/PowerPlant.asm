@@ -71,8 +71,7 @@ PowerPlantOfficerScript:
 	jumpthistextfaceplayer
 
 	text "Ein Dieb brach ins"
-	line "Kraftwerk ein…"
-
+	line "Kraftwerk ein …"
 	para "Wohin soll das nur"
 	line "noch führen?"
 	done
@@ -90,7 +89,6 @@ PowerPlantGymGuide1Script:
 	line "wichtiges Teil für"
 	cont "den Generator"
 	cont "gestohlen."
-
 	para "Ohne dieses Teil"
 	line "ist der neue"
 	cont "Generator nutzlos!"
@@ -265,10 +263,8 @@ PowerPlantOfficer1ReturnToPostMovement:
 PowerPlantOfficer1CeruleanShadyCharacterText:
 	text "Ich habe Nachricht"
 	line "aus AZURIA CITY."
-
 	para "Eine zwielichtige"
 	line "Figur treibt sich"
-
 	para "dort in der"
 	line "Umgebung herum."
 	done
@@ -279,8 +275,9 @@ PowerPlantOfficer1CeruleanShadyCharacterText:
 
 PowerPlantOfficer1CouldIAskForYourCooperationText:
 	text "Kann ich mit"
-	line "deiner Unter-"
-	cont "stützung rechnen?"
+	line "deiner"
+	cont "Unterstützung"
+	cont "rechnen?"
 	done
 
 
@@ -321,7 +318,6 @@ PowerPlantGymGuide2GeneratorIsRunningAgainText:
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
 	text "Seit der Generator"
 	line "wieder läuft, ist"
-
 	para "der DIREKTOR"
 	line "wieder fröhlich."
 	done
@@ -331,9 +327,8 @@ PowerPlantOfficer2ManagerHasBeenCheerfulText:
 
 
 PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
-	text "O.K. Der MAGNET-"
-	line "ZUG fährt"
-
+	text "O.K. Der"
+	line "MAGNET-ZUG fährt"
 	para "wieder."
 	done
 
@@ -345,17 +340,13 @@ PowerPlantManagerWhoWouldRuinMyGeneratorText:
 	text "DIREKTOR: Ich, ich"
 	line "werde ihm nie"
 	cont "verzeihen!"
-
 	para "Wer wagt es,"
 	line "meinen Generator"
 	cont "zu demolieren?"
-
 	para "Ich habe so lange"
 	line "daran gearbeitet!"
-
 	para "Wenn ich den"
 	line "erwische, dann"
-
 	para "lernt er meine"
 	line "BLITZKANONE"
 	cont "kennen!"
@@ -369,14 +360,11 @@ PowerPlantManagerIWontForgiveCulpritText:
 	text "DIREKTOR: Das kann"
 	line "ich ihm nicht"
 	cont "verzeihen!"
-
 	para "Der Schurke kann"
 	line "weinen und sich"
-
 	para "entschuldigen, ich"
 	line "werde ihn trotzdem"
 	cont "bestrafen!"
-
 	para "Uahahaha!"
 	done
 
@@ -387,7 +375,6 @@ PowerPlantManagerIWontForgiveCulpritText:
 PowerPlantManagerThatsThePartText:
 	text "DIREKTOR: Ah! Oh"
 	line "ja!"
-
 	para "Das ist die"
 	line "fehlende SPULE"
 	cont "meines geliebten"
@@ -435,10 +422,8 @@ PowerPlantForestText:
 	text "Magneton verhält"
 	line "sich im Felstunnel"
 	cont "seltsam."
-
 	para "Haben die Turbinen"
 	line "des Kraftwerks"
-
 	para "damit etwas zu"
 	line "tun?"
 	done

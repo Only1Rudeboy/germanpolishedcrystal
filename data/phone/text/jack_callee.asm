@@ -60,10 +60,9 @@ JackGenericText:
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " ist so neugierig,"
+	text "ist so neugierig,"
 	line "das"
-
 	para "ist ein Problem."
 	line "Vielleicht wie"
-	cont "ich…"
+	cont "ich …"
 	done

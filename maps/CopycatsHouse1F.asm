@@ -21,10 +21,8 @@ CopycatsHouse1FPokefanMText:
 	text "Meine Tochter"
 	line "macht gerne"
 	cont "Menschen nach."
-
 	para "Dieses Hobby hat"
 	line "ihr den Spitznamen"
-
 	para "NACHAHMERIN"
 	line "eingebracht."
 	done
@@ -36,8 +34,7 @@ CopycatsHouse1FPokefanFScript:
 	jumpthistextfaceplayer
 
 	text "Meine Tochter ist"
-	line "so egozentrisch…"
-
+	line "so egozentrisch …"
 	para "Sie hat nur wenige"
 	line "Freunde."
 	done
@@ -45,17 +42,14 @@ CopycatsHouse1FPokefanFScript:
 .Text2:
 	text "Vor kurzem hat sie"
 	line "ihre #PUPPE,"
-
 	para "die ihr ein Junge"
 	line "vor drei Jahren"
-
 	para "geschenkt hat,"
 	line "verloren."
-
 	para "Ihre Nachahmerei"
 	line "ist seitdem sogar"
 	cont "noch besser"
-	cont "geworden…"
+	cont "geworden …"
 	done
 CopycatsHouse1FBlisseyText:
 	text "HEITEIRA: Teirii!"

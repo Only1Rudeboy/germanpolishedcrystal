@@ -100,7 +100,8 @@ GenericTrainerBakerOlga:
 	done
 
 .BeatenText:
-	text "Wow! Sieht so aus."
+	text "Toll! Sieht so"
+	line "aus."
 	done
 
 GenericTrainerArtistReina:
@@ -134,7 +135,6 @@ GenericTrainerArtistAlina:
 .SeenText:
 	text "Diese Insel taucht"
 	line "kaum je auf."
-
 	para "Ich hatte so viel"
 	line "Glück, sie zu"
 	cont "finden!"
@@ -156,7 +156,6 @@ GenericTrainerSightseersLiandsu1:
 .SeenText:
 	text "Li: Was war zuerst"
 	line "da?"
-
 	para "Das #mon oder"
 	line "das Ei?"
 	done
@@ -177,7 +176,6 @@ GenericTrainerSightseersLiandsu2:
 .SeenText:
 	text "Su: Was war zuerst"
 	line "da?"
-
 	para "Das #mon oder"
 	line "das Ei?"
 	done
@@ -208,6 +206,6 @@ LuckyIslandLuckyEgg:
 	endtext
 
 .Text:
-	text "<PLAYER> fand"
+	text "<PLAYER> findet"
 	line "Glücks-Ei!"
 	done

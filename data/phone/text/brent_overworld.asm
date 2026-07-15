@@ -7,7 +7,7 @@ BrentAskNumber1Text:
 	cont "noch"
 
 	para "oberflächlich!"
-	line "Kennst du Bill?"
+	line "Kennst du BILL?"
 
 	para "Er ist ein toller"
 	line "#Maniac. Ich"
@@ -15,20 +15,20 @@ BrentAskNumber1Text:
 	para "verehr ihn. Ich"
 	line "lehre dich alles"
 
-	para "über Bill — gib"
+	para "über BILL - gib"
 	line "mir deine Nummer."
 	done
 
 BrentAskNumber2Text:
 	text "Ich lehre dich"
-	line "alles über Bill."
+	line "alles über BILL."
 
 	para "Gib mir deine"
 	line "Nummer."
 	done
 
 BrentNumberAcceptedText:
-	text "Bill — er ist"
+	text "BILL - er ist"
 	line "unglaublich!"
 
 	para "Eines Tages will"

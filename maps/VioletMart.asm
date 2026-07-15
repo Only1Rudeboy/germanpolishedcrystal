@@ -21,16 +21,15 @@ VioletMartGrannyText:
 	line "#mon, ist es"
 	cont "vermutlich sehr"
 	cont "schwach."
-
 	para "Aber letztendlich"
 	line "wird es wachsen"
 	cont "und stärker"
 	cont "werden."
-
 	para "Es ist wichtig,"
 	line "#mon sehr viel"
 	cont "Liebe zu schenken."
 	done
+
 
 
 VioletMartCooltrainerMText:
@@ -38,14 +37,12 @@ VioletMartCooltrainerMText:
 	line "Items wie TRANK"
 	cont "und GEGENGIFT"
 	cont "tragen."
-
 	para "Aber offenbar sind"
 	line "sie nicht in der"
-
 	para "Lage, künstlich"
 	line "hergestellte Items"
-
 	para "zu benutzen."
 	done
+
 
 

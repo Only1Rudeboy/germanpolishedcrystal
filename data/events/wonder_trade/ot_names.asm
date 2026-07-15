@@ -1,9 +1,9 @@
 WonderTradeOTNames1:
 	table_width PLAYER_NAME_LENGTH - 1
-	rawchar "Red@@@@" ; $00
-	rawchar "Blue@@@" ; $01
+	rawchar "ROT@@@@" ; $00
+	rawchar "BLAU@@@" ; $01
 	rawchar "Green@@" ; $02
-	rawchar "Yellow@" ; $03
+	rawchar "YELLOW@" ; $03
 	rawchar "Orange@" ; $04
 	rawchar "Gold@@@" ; $05
 	rawchar "Silver@" ; $06
@@ -37,7 +37,7 @@ WonderTradeOTNames1:
 	rawchar "Gary@@@" ; $22
 	rawchar "Leaf@@@" ; $23
 	rawchar "Ethan@@" ; $24
-	rawchar "Lyra@@@" ; $25
+	rawchar "LYRA@@@" ; $25
 	rawchar "Hiro@@@" ; $26
 	rawchar "Kris@@@" ; $27
 	rawchar "Brendan" ; $28
@@ -64,8 +64,8 @@ WonderTradeOTNames1:
 	rawchar "Wes@@@@" ; $3d
 	rawchar "Michael" ; $3e
 	rawchar "Todd@@@" ; $3f
-	rawchar "Oak@@@@" ; $40
-	rawchar "Elm@@@@" ; $41
+	rawchar "EICH@@@" ; $40
+	rawchar "LIND@@@" ; $41
 	rawchar "Ivy@@@@" ; $42
 	rawchar "Birch@@" ; $43
 	rawchar "Rowan@@" ; $44
@@ -82,7 +82,7 @@ WonderTradeOTNames1:
 	rawchar "Burnet@" ; $4f
 	rawchar "Mohn@@@" ; $50
 	rawchar "Krane@@" ; $51
-	rawchar "Bill@@@" ; $52
+	rawchar "BILL@@@" ; $52
 	rawchar "Lanette" ; $53
 	rawchar "Brigett" ; $54
 	rawchar "Celio@@" ; $55
@@ -90,34 +90,34 @@ WonderTradeOTNames1:
 	rawchar "Amanita" ; $57
 	rawchar "Cassius" ; $58
 	rawchar "Molayne" ; $59
-	rawchar "Brock@@" ; $5a
-	rawchar "Misty@@" ; $5b
-	rawchar "Surge@@" ; $5c
-	rawchar "Erika@@" ; $5d
-	rawchar "Janine@" ; $5e
-	rawchar "Sabrina" ; $5f
-	rawchar "Blaine@" ; $60
-	rawchar "Giovani" ; $61
-	rawchar "Lorelei" ; $62
-	rawchar "Bruno@@" ; $63
+	rawchar "ROCKO@@" ; $5a
+	rawchar "MISTY@@" ; $5b
+	rawchar "MAJ.BOB" ; $5c
+	rawchar "ERIKA@@" ; $5d
+	rawchar "JANINA@" ; $5e
+	rawchar "SABRINA" ; $5f
+	rawchar "PYRO@@@" ; $60
+	rawchar "GIOVANI" ; $61
+	rawchar "LORELEI" ; $62
+	rawchar "BRUNO@@" ; $63
 	rawchar "Agatha@" ; $64
-	rawchar "Lance@@" ; $65
+	rawchar "SIEGFRI" ; $65
 	rawchar "Cissy@@" ; $66
 	rawchar "Danny@@" ; $67
 	rawchar "Rudy@@@" ; $68
 	rawchar "Luana@@" ; $69
 	rawchar "Prima@@" ; $6a
-	rawchar "Falkner" ; $6b
-	rawchar "Bugsy@@" ; $6c
-	rawchar "Whitney" ; $6d
-	rawchar "Morty@@" ; $6e
-	rawchar "Chuck@@" ; $6f
-	rawchar "Jasmine" ; $70
-	rawchar "Pryce@@" ; $71
-	rawchar "Clair@@" ; $72
-	rawchar "Will@@@" ; $73
-	rawchar "Koga@@@" ; $74
-	rawchar "Karen@@" ; $75
+	rawchar "FALK@@@" ; $6b
+	rawchar "KAI@@@@" ; $6c
+	rawchar "BIANKA@" ; $6d
+	rawchar "JENS@@@" ; $6e
+	rawchar "HARTWIG" ; $6f
+	rawchar "JASMIN@" ; $70
+	rawchar "NORBERT" ; $71
+	rawchar "SANDRA@" ; $72
+	rawchar "WILLI@@" ; $73
+	rawchar "KOGA@@@" ; $74
+	rawchar "MELANIE" ; $75
 	rawchar "Roxanne" ; $76
 	rawchar "Brawly@" ; $77
 	rawchar "Wattson" ; $78
@@ -290,7 +290,7 @@ WonderTradeOTNames2:
 	rawchar "Delia@@" ; $1b
 	rawchar "Daisy@@" ; $1c
 	rawchar "Fuji@@@" ; $1d
-	rawchar "Baoba@@" ; $1e
+	rawchar "BAOBA@@" ; $1e
 	rawchar "Copycat" ; $1f
 	rawchar "Primo@@" ; $20
 	rawchar "Lostele" ; $21
@@ -300,16 +300,16 @@ WonderTradeOTNames2:
 	rawchar "Cal@@@@" ; $25
 	rawchar "Carrie@" ; $26
 	rawchar "Mr.<PK><MN>@@" ; $27
-	rawchar "Eusine@" ; $28
+	rawchar "EUSIN@@" ; $28
 	rawchar "Cameron" ; $29
 	rawchar "Earl@@@" ; $2a
-	rawchar "Kurt@@@" ; $2b
+	rawchar "KURT@@@" ; $2b
 	rawchar "Ben@@@@" ; $2c
-	rawchar "Mary@@@" ; $2d
+	rawchar "MARY@@@" ; $2d
 	rawchar "Reed@@@" ; $2e
 	rawchar "Fern@@@" ; $2f
 	rawchar "Lily@@@" ; $30
-	rawchar "Buena@@" ; $31
+	rawchar "BUENA@@" ; $31
 	rawchar "Randy@@" ; $32
 	rawchar "Maximo@" ; $33
 	rawchar "Felicty" ; $34
@@ -382,14 +382,14 @@ WonderTradeOTNames2:
 	rawchar "Duplica" ; $77
 	rawchar "Casey@@" ; $78
 	rawchar "Giselle" ; $79
-	rawchar "Melanie" ; $7a
+	rawchar "MELANIE" ; $7a
 	rawchar "Damian@" ; $7b
 	rawchar "Alain@@" ; $7c
 	rawchar "Reiko@@" ; $7d
 	rawchar "Aya@@@@" ; $7e
 	rawchar "Rainer@" ; $7f
 	rawchar "Sparky@" ; $80
-	rawchar "Pyro@@@" ; $81
+	rawchar "PYRO@@@" ; $81
 	rawchar "Mikey@@" ; $82
 	rawchar "Orville" ; $83
 	rawchar "A.J.@@@" ; $84

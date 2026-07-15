@@ -46,7 +46,7 @@ CatchTutorial::
 	ret
 
 .Dude:
-	db "Lyra@"
+	db "LYRA@"
 .DudeItems:
 	db 2, REPEL, 1, GOLD_LEAF, 1, -1
 .DudeMedicine:

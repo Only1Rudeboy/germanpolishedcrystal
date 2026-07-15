@@ -26,13 +26,14 @@ Route38_MapScriptHeader:
 GenericTrainerBird_keeperToby:
 	generictrainer BIRD_KEEPER, TOBY, EVENT_BEAT_BIRD_KEEPER_TOBY, Bird_keeperTobySeenText, Bird_keeperTobyBeatenText
 
-	text "Ich will im Gelben"
-	line "Wald"
-
-	para "trainieren und"
-	line "meinem #mon Fly"
-	cont "beibringen."
+	text "Ich habe vor, in"
+	line "ANEMONIA CITY"
+	para "zu trainieren und"
+	line "meinen #mon das"
+	cont "Fliegen"
+	cont "beizubringen."
 	done
+
 
 TrainerSailorHarry:
 	trainer SAILOR, HARRY, EVENT_BEAT_SAILOR_HARRY, SailorHarrySeenText, SailorHarryBeatenText, 0, .Script, TRAINERPAL_DARK_SAILOR
@@ -265,14 +266,14 @@ GenericTrainerBeautyValencia:
 GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
 
-	text "Kuhmuh-Milch tut"
-	line "Schönheit und"
-	cont "Gesundheit gut."
-
-	para "Am liebsten kaufe"
-	line "ich gleich ein"
-	cont "Dutzend Flaschen!"
+	text "KUHMUH-MLCH ist"
+	line "gut für Schönheit"
+	para "und Gesundheit,"
+	line "aber leider kann"
+	para "man immer nur eine"
+	line "Flasche kaufen."
 	done
+
 
 Bird_keeperTobySeenText:
 	text "Fliege hoch in die"
@@ -295,6 +296,7 @@ SchoolboyChad1SeenText:
 
 
 
+
 SchoolboyChad1BeatenText:
 	text "Ich fürchte, ich"
 	line "habe noch nicht"
@@ -303,20 +305,20 @@ SchoolboyChad1BeatenText:
 
 
 
+
 SchoolboyChadSoManyTestsText:
 	text "Ich habe so viele"
 	line "Prüfungen, dass"
-
 	para "ich nicht viel"
 	line "Zeit für #mon"
 	cont "habe."
-
 	para "Wenn ich also mal"
 	line "Zeit zum Spielen"
 	cont "habe, dann"
-	cont "konzentriere ich"
+	cont "konzen-triere ich"
 	cont "mich."
 	done
+
 
 
 
@@ -324,10 +326,10 @@ LassDana1SeenText:
 	text "Du scheinst dich"
 	line "mit #mon"
 	cont "auszukennen."
-
 	para "Gibst du mir bitte"
 	line "einige Ratschläge?"
 	done
+
 
 
 
@@ -338,15 +340,16 @@ LassDana1BeatenText:
 
 
 
+
 LassDanaMoomooMilkText:
 	text "Ich kenne etwas"
 	line "sehr Bekömmliches!"
-
 	para "Die Milch von der"
 	line "KUHMUH-FARM ist"
 	cont "bekannt für ihren"
 	cont "guten Geschmack."
 	done
+
 
 
 
@@ -365,10 +368,10 @@ BeautyValenciaBeatenText:
 SailorHarrySeenText:
 	text "Ich war im"
 	line "Ausland. Deswegen"
-
 	para "kenne ich alle"
 	line "#mon-Arten!"
 	done
+
 
 
 
@@ -377,6 +380,7 @@ SailorHarryBeatenText:
 	line "sind"
 	cont "Spitzenklasse!"
 	done
+
 
 
 
@@ -389,6 +393,7 @@ BeautyOliviaSeenText:
 
 
 
+
 BeautyOliviaBeatenText:
 	text "Wir trinken"
 	line "täglich"
@@ -397,30 +402,27 @@ BeautyOliviaBeatenText:
 
 
 
+
 Route38SignText:
 	text "ROUTE 38"
-
-	para "OLIVIANA CITY -"
-	line "TEAK CITY"
+	para "OLIVIANA CITY"
+	line "-TEAK CITY"
 	done
+
 
 
 
 Route38TrainerTipsText:
 	text "TIPPS für TRAINER"
 	line "Wenn sich ein"
-
 	para "#mon"
 	line "weiterentwickelt,"
 	cont "kannst"
-
 	para "du diesen Prozess"
 	line "aufhalten."
-
 	para "Drücke während der"
 	line "Entwicklung den"
 	cont "B-Knopf."
-
 	para "So wird das"
 	line "#mon erschreckt"
 	cont "und es bricht die"
@@ -429,22 +431,20 @@ Route38TrainerTipsText:
 
 
 
+
 Route38AdvancedTipsText:
 	text "Profi-Tipps!"
-
 	para "Drücke Start im"
 	line "#mon-Lager,"
-
 	para "um schnell den"
 	line "Box-Namen zu"
 	cont "fokussieren!"
-
 	para "Du kannst Name und"
 	line "Design jeder Box"
 	cont "ändern!"
-
 	para "Drücke Select, um"
-	line "die A-Taste-"
-	cont "Funktion für"
-	cont "#mon zu ändern!"
+	line "die"
+	cont "A-Taste-Funktion"
+	cont "für #mon zu"
+	cont "ändern!"
 	done

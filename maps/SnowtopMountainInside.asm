@@ -83,7 +83,6 @@ KimonoGirlAmiScript:
 	text "Meine Cousinen und"
 	line "ich tanzen in TEAK"
 	cont "CITY, aber"
-
 	para "wir reisen auch"
 	line "gern umher."
 	done
@@ -91,12 +90,10 @@ KimonoGirlAmiScript:
 .IntroText:
 	text "Ich bin ein"
 	line "Kimono-Girl."
-
 	para "Kennst du meine"
 	line "fünf tanzenden"
 	cont "Cousinen in TEAK"
 	cont "CITY?"
-
 	para "Sag Bescheid, wenn"
 	line "du sie triffst."
 	done
@@ -122,7 +119,6 @@ KimonoGirlAmiScript:
 	text "Du bist ein"
 	line "ausgewogener"
 	cont "Trainer."
-
 	para "Bitte nutze dieses"
 	line "Item!"
 	done
@@ -161,7 +157,7 @@ SnowtopMountainInsideTutorIcyWindScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "OK! Dein #mon"
+	text "O.K.! Dein #mon"
 	line "kennt jetzt Icy"
 	cont "Wind!"
 	done
@@ -169,12 +165,10 @@ SnowtopMountainInsideTutorIcyWindScript:
 SnowtopMountainInsideSkierText:
 	text "Wind und Hagel in"
 	line "dieser Schlucht"
-
 	para "können wehtun,"
 	line "wenn du nicht für"
 	cont "Eiswetter gerüstet"
 	cont "bist."
-
 	para "Das könnte eine"
 	line "gute Technik für"
 	cont "ein #mon sein!"
@@ -183,10 +177,8 @@ SnowtopMountainInsideSkierText:
 Text_SnowtopMountainInsideTutorIcyWind:
 	text "Ich bringe einem"
 	line "deiner #mon"
-
 	para "Icy Wind bei, wenn"
 	line "du mir ein"
-
 	para "Silberblatt gibst."
 	done
 

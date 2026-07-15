@@ -68,7 +68,7 @@ MagikarpLengthRaterScript:
 .TooShort:
 	jumpthisopenedtext
 
-	text "Wow! Das ist ja"
+	text "Toll! Das ist ja"
 	line "riesig!"
 
 	para "…Zumindest würde"
@@ -82,9 +82,8 @@ MagikarpLengthRaterScript:
 .Refused:
 	jumpthisopenedtext
 
-	text "Oh… Du hast also"
+	text "Oh … Du hast also"
 	line "keines, das es"
-
 	para "wert wäre, mir zu"
 	line "zeigen? Vielleicht"
 	cont "beim nächsten Mal."
@@ -92,56 +91,49 @@ MagikarpLengthRaterScript:
 MagikarpLengthRaterText_LakeOfRageHistory:
 	text "Der SEE DES ZORNS"
 	line "ist eigentlich ein"
-
 	para "Krater, der durch"
 	line "wütende GARADOS"
 	cont "erschaffen wurde."
-
 	para "Der Krater füllte"
 	line "sich mit"
-	cont "Regenwasser und so"
-	cont "entstand der See."
-
+	cont "Regenwas-ser und"
+	cont "so entstand der"
+	cont "See."
 	para "Diese Geschichte"
 	line "erzählte schon"
-
 	para "der Ur-Urgroßvater"
 	line "meines Großvaters."
-
 	para "Früher konnte man"
 	line "hier"
 	cont "quicklebendige"
 	cont "KARPADOR fangen,"
-	cont "aber…"
-
+	cont "aber …"
 	para "Ich verstehe"
 	line "nicht, was hier"
 	cont "geschieht."
 	done
 
 
+
 MagikarpLengthRaterText_MenInBlack:
 	text "Der SEE hat sich"
 	line "verändert, seit"
-
 	para "diese Männer in"
 	line "Schwarz hier sind."
 	done
 
 
+
 MagikarpLengthRaterText_WorldsLargestMagikarp:
 	text "Der SEE DES ZORNS"
 	line "ist wieder normal."
-
 	para "Die KARPADOR sind"
 	line "wieder zurück."
-
 	para "Vielleicht geht"
 	line "nun mein Traum in"
 	cont "Erfüllung, das"
 	cont "größte KARPADOR"
 	cont "der Welt zu sehen!"
-
 	para "Hast du eine"
 	line "ANGEL? Wenn ja,"
 	cont "dann hilf mir"
@@ -149,25 +141,25 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	done
 
 
+
 MagikarpLengthRaterText_YouHaveAMagikarp:
 	text "Ah, du hast ein"
 	line "KARPADOR! Lass uns"
-
 	para "sehen, wie groß"
 	line "das Kleine ist."
 	done
 
 
-MagikarpLengthRaterText_Memento:
-	text "Wow! Das ist ja"
-	line "riesig!"
 
+MagikarpLengthRaterText_Memento:
+	text "Toll! Das ist ja"
+	line "riesig!"
 	para "Ich ziehe meinen"
 	line "Hut vor dir!"
-
 	para "Nimm das als"
 	line "Andenken!"
 	done
+
 
 
 MagikarpLengthRaterText_Bonus:
@@ -179,9 +171,11 @@ MagikarpLengthRaterText_Bonus:
 	done
 
 
+
 MagikarpLengthRaterText_NotMagikarp:
 	text "Was? Das ist kein"
 	line "KARPADOR!"
 	done
+
 
 

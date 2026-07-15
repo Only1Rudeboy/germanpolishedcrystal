@@ -268,14 +268,15 @@ OlivinePortSailorGetOnBoardText:
 	done
 
 
-OlivinePortAskBoardText:
-	text "Willkommen auf "
-	line "dem SCHNELLBOOT"
-	cont "M.S. AQUA."
 
+OlivinePortAskBoardText:
+	text "Willkommen auf dem"
+	line "SCHNELLBOOT M.S."
+	cont "AQUA."
 	para "Trittst du heute"
 	line "deine Reise an?"
 	done
+
 
 
 OlivinePortAskTicketText:
@@ -286,33 +287,33 @@ OlivinePortAskTicketText:
 	done
 
 
+
 OlivinePortComeAgainText:
 	text "Komm jederzeit"
 	line "wieder vorbei!"
 	done
 
 
+
 OlivinePortFlashTicketText:
 	text "<PLAYER> zeigt das"
 	line "BOOTSTICKET."
-
 	para "In Ordnung. Danke"
 	line "schön!"
 	done
 
 
+
 OlivinePortNoTicketText:
 	text "<PLAYER> sucht das"
-	line "BOOTSTICKET…"
-
+	line "BOOTS-TICKET…"
 	para "…Kein TICKET!"
-
-	para "Tut mir leid! Du"
+	para "Tut mir Leid! Du"
 	line "darfst nur"
-
 	para "mit TICKET an"
 	line "Bord."
 	done
+
 
 
 OlivinePortMondayShipText:
@@ -322,6 +323,7 @@ OlivinePortMondayShipText:
 	done
 
 
+
 OlivinePortFridayShipText:
 	text "Das SCHNELLBOOT"
 	line "legt nächsten"
@@ -329,14 +331,15 @@ OlivinePortFridayShipText:
 	done
 
 
+
 OlivinePortFishingGuru1Text:
 	text "Hier kannst du"
 	line "MUSCHAS leicht"
-
 	para "fangen. An anderen"
 	line "Orten sind sie"
 	cont "seltener."
 	done
+
 
 
 OlivinePortFishingGuru2Text:
@@ -344,10 +347,11 @@ OlivinePortFishingGuru2Text:
 	line "hast du?"
 
 	para "Mit verschiedenen"
-	line "ANGELN fängst du"
+	line "ANGELN, fängst du"
 	cont "verschiedene"
 	cont "#mon."
 	done
+
 
 
 OlivinePortYoungsterText:
@@ -356,6 +360,7 @@ OlivinePortYoungsterText:
 	cont "über die Wellen zu"
 	cont "gleiten!"
 	done
+
 
 
 OlivinePortCooltrainerFText:
@@ -367,13 +372,14 @@ OlivinePortCooltrainerFText:
 	done
 
 
+
 OlivinePortSailorBeforeHOFText:
 	text "Wir wollen nicht,"
 	line "dass du ins Wasser"
-
 	para "fällst. Darum"
 	line "lassen wir dich"
 	cont "nicht herein."
 	done
+
 
 

@@ -20,17 +20,13 @@ PokemonJournalBrunoScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: TOP VIER"
-	line "Bruno!"
-
-	para "Bruno soll der TOP"
+	line "BRUNO!"
+	para "BRUNO soll der TOP"
 	line "VIER aus"
-
 	para "brennendem Ehrgeiz"
 	line "beigetreten sein,"
 	cont "um gegen"
-
 	para "die besten Trainer"
 	line "zu kämpfen."
 	done

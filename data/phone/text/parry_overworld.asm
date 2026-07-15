@@ -1,11 +1,10 @@
 ParryAskNumber1Text:
 	text "Mann, wie du"
-	line "angriffst! Das war"
-
+	line "angriffst! Das"
+	cont "war"
 	para "was! Wir sollten"
 	line "uns wieder"
 	cont "treffen!"
-
 	para "Gib mir deine"
 	line "Nummer?"
 	done
@@ -23,19 +22,18 @@ ParryNumberAcceptedText:
 	done
 
 ParryNumberDeclinedText:
-	text "Nein? Ist OK."
-
+	text "Nein? Ist O.K.."
 	para "Ein klares Nein"
 	line "kann man"
 	cont "verkraften!"
-
-	para "Ich bin hier, wenn"
-	line "du bereit bist."
+	para "Ich bin hier,"
+	line "wenn du bereit"
+	cont "bist."
 	done
 
 ParryPhoneFullText:
-	text "Oh? Kein Platz für"
-	line "meine Nummer."
+	text "Oh? Kein Platz"
+	line "für meine Nummer."
 	done
 
 ParryRematchText:

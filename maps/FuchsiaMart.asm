@@ -19,10 +19,9 @@ FuchsiaMart_MapScriptHeader:
 FuchsiaMartFisherText:
 	text "Ich wollte einen"
 	line "Geschenkartikel"
-
 	para "in der SAFARI-ZONE"
 	line "kaufen, aber sie"
-	cont "ist geschlossen…"
+	cont "ist geschlossen …"
 	done
 
 

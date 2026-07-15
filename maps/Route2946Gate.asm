@@ -21,7 +21,6 @@ Route29Route46GateOfficerText:
 	text "Du kannst die"
 	line "Stufen nicht"
 	cont "hinaufklettern."
-
 	para "Du kannst sie aber"
 	line "hinabspringen und"
 	cont "sie als Abkürzung"

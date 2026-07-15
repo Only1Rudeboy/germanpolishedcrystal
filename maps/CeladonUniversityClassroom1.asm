@@ -89,26 +89,18 @@ CeladonUniversityClassroom1ImakuniScript:
 .Text1:
 	text "Hä? W...wer bist"
 	line "du?"
-
 	para "Wer? Ich? Du"
 	line "kennst mich nicht?"
-
 	para "Ich bin der super"
 	line "Musikstar,"
 	cont "Imakuni!"
-
-	para "Ich sing den"
-	line "#-Rap--du"
-	cont "tanzt!"
-
+	para "Ich sing den #"
+	line "-Rap--du tanzt!"
 	para "♪ La di da di da,"
-	line "La di da di da… ♪"
-
+	line "La di da di da … ♪"
 	para "Hey! Beweg die"
 	line "Füße!"
-
 	para "Was? #mon?"
-
 	para "Du willst gegen"
 	line "mich kämpfen?"
 	done
@@ -122,8 +114,9 @@ CeladonUniversityClassroom1ImakuniScript:
 	done
 
 .Text3:
-	text "OK, aber wenn ich"
-	line "gewinne, tanzt du!"
+	text "O.K., aber wenn"
+	line "ich gewinne,"
+	cont "tanzt du!"
 	done
 
 .Text4:
@@ -140,24 +133,22 @@ CeladonUniversityClassroom1ImakuniScript:
 	line "Beere, aber sag"
 
 	para "niemandem, dass"
-	line "ich verlor, OK?"
+	line "ich verlor, O.K.?"
 	done
 
 CeladonUniversityClassroom1AndyText:
 	text "Hallo! Ich bin"
-	line "Prof. Andy und"
+	line "PROF. ANDY und"
 	cont "liebe Kunst!"
-
 	para "Denk dran:"
 	line "Zeichne, was du"
 	cont "siehst,"
-
 	para "nicht was du zu"
 	line "sehen glaubst."
-
-	para "Lass alte Vorstel-"
-	line "lungen los, wie"
-	cont "Dinge aussehen."
+	para "Lass alte"
+	line "Vorstel-lungen"
+	cont "los, wie Dinge"
+	cont "aussehen."
 	done
 
 CeladonUniversityClassroom1Dragon_tamerText:
@@ -170,7 +161,6 @@ CeladonUniversityClassroom1LadyText:
 	text "Man trifft"
 	line "einzigartige Leute"
 	cont "im Kunstkurs,"
-
 	para "aber der Typ im"
 	line "schwarzen Kostüm"
 	cont "ist echt suspekt!"
@@ -185,14 +175,12 @@ CeladonUniversityClassroom1Artist1Text:
 
 CeladonUniversityClassroom1Artist2Text:
 	text "Hatschi!"
-
 	para "Ugh. Wir hatten"
-	line "einen Blumen-"
-	cont "steckkurs, aber"
-
+	line "einen"
+	cont "Blumensteckkurs,"
+	cont "aber"
 	para "jetzt muss ich"
 	line "ständig niesen."
-
 	para "Ich bin wohl"
 	line "allergisch…"
 	done
@@ -227,6 +215,5 @@ CeladonUniversityClassroom1Bookshelf2Text:
 	text "Eine Broschüre"
 	line "über Kunst aus dem"
 	cont "Seegrasulb-"
-
 	para "Museum."
 	done

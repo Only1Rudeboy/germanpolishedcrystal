@@ -20,18 +20,17 @@ EcruteakMartSuperNerdText:
 	text "Mein EVOLI"
 	line "entwickelte sich"
 	cont "zu einem PSIANA."
-
 	para "Aber das EVOLI"
 	line "meines Freundes"
 	cont "wurde zu einem"
 	cont "NACHTARA."
-
 	para "Ich frage mich,"
 	line "wieso? Wir haben"
-
 	para "unsere EVOLI"
-	line "gleich aufgezogen…"
+	line "gleich aufgezogen"
+	cont "…"
 	done
+
 
 
 EcruteakMartGrannyText:
@@ -40,5 +39,6 @@ EcruteakMartGrannyText:
 	cont "besiegtes #mon"
 	cont "wieder auf."
 	done
+
 
 

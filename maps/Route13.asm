@@ -37,8 +37,7 @@ Route13GrampsScript:
 
 	text "Heute kann ich die"
 	line "Glücks-Insel nicht"
-	cont "sehen…"
-
+	cont "sehen …"
 	para "Aber ich weiß, sie"
 	line "war schon mal da!"
 	done
@@ -49,7 +48,6 @@ Route13GrampsScript:
 	text "Heute kann ich die"
 	line "Glücks-Insel"
 	cont "sehen!"
-
 	para "Was für ein"
 	line "Anblick!"
 	done
@@ -60,7 +58,6 @@ GenericTrainerCamperClark:
 	text "Es ist egal, wie"
 	line "gut du dich"
 	cont "vorbereitet hast."
-
 	para "Wenn du verlierst,"
 	line "verlierst du."
 	done
@@ -69,10 +66,8 @@ GenericTrainerCamperClark:
 	text "Wasser sammeln!"
 	line "Lass das Feuer"
 	cont "nicht ausgehen!"
-
 	para "Achtung vor wilden"
 	line "#mon!"
-
 	para "Los geht's,"
 	line "Campfire!"
 	done
@@ -113,7 +108,7 @@ Bird_keeperPerrySeenText:
 	text "Agilität ist die"
 	line "wichtigste"
 	cont "Eigenschaft von"
-	cont "Vogel- #mon."
+	cont "Vogel-#mon."
 	done
 Bird_keeperPerryBeatenText:
 	text "Du hast mich"
@@ -170,7 +165,6 @@ GenericTrainerPicnickerPiper:
 .SeenText:
 	text "Wie wäre es, deine"
 	line "#mon und meine"
-
 	para "für einen Kampf"
 	line "herauszuholen?"
 	done
@@ -193,7 +187,6 @@ GenericTrainerCoupleTimandsue1:
 	text "Tim: Ich geb dir"
 	line "einen kleinen"
 	cont "Tipp."
-
 	para "Meine Freundin ist"
 	line "stärker als ich!"
 	done
@@ -244,8 +237,8 @@ PokefanmAlexSeenText:
 
 
 PokefanmAlexBeatenText:
-	text "Wie… wie kannst du"
-	line "es wagen, die"
+	text "Wie … wie kannst"
+	line "du es wagen, die"
 	cont "Monarchie zu"
 	cont "verspotten?"
 	done
@@ -259,7 +252,6 @@ GenericTrainerPokefanmJoshua:
 
 	text "Es scheint, dass"
 	line "du viele #mon"
-
 	para "hast, aber PIKACHU"
 	line "ist immer noch das"
 	cont "Beste."
@@ -308,7 +300,8 @@ HikerKennySeenText:
 
 
 HikerKennyBeatenText:
-	text "Ich habe verloren…"
+	text "Ich habe verloren"
+	line "…"
 	done
 
 
@@ -324,18 +317,16 @@ Route13TrainerTips1Text:
 	done
 Route13TrainerTips2Text:
 	text "TIPPS für TRAINER"
-
 	para "Manche #mon"
 	line "brauchen Items, um"
 	cont "sich zu"
 	cont "entwickeln."
-
 	para "Mit etwas Glück"
 	line "trägt ein wildes"
-
 	para "#mon sein"
-	line "eigenes Evoluti-"
-	cont "onsitem bei sich!"
+	line "eigenes"
+	cont "Evoluti-onsitem"
+	cont "bei sich!"
 	done
 
 Route13SignText:

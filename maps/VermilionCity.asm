@@ -178,10 +178,8 @@ VermilionGymBadgeGuy:
 	text "Erfahrene Trainer"
 	line "versammeln sich in"
 	cont "KANTO."
-
 	para "ARENALEITER sind"
 	line "besonders stark."
-
 	para "Sie zu besiegen"
 	line "ist keine leichte"
 	cont "Aufgabe."
@@ -198,7 +196,6 @@ VermilionGymBadgeGuy:
 	text "Du sammelst ORDEN"
 	line "der ARENEN in"
 	cont "KANTO?"
-
 	para "Findest du nicht"
 	line "auch, dass die"
 	cont "Trainer hier stark"
@@ -236,14 +233,12 @@ VermilionMachokeOwnerScript:
 	text "Meine #mon"
 	line "bereiteten das"
 	cont "Land"
-
 	para "für dieses riesige"
 	line "Gebäude vor!"
-
 	para "Schade, dass die"
 	line "Öffentlichkeit"
 	cont "noch nicht rein"
-	cont "darf…"
+	cont "darf …"
 	done
 
 VermilionCitySuperNerd2Script:
@@ -253,23 +248,22 @@ VermilionCitySuperNerd2Script:
 
 	text "Die Kampffabrik"
 	line "ist brandneu!"
-
 	para "Aber sie braucht"
-	line "enorm viel Strom…"
-
-	para "Solange das KRAFT-"
-	line "WERK offline ist,"
-	cont "ist sie nutzlos!"
+	line "enorm viel Strom …"
+	para "Solange das"
+	line "KRAFT-WERK offline"
+	cont "ist, ist sie"
+	cont "nutzlos!"
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Es ist vorteil-"
-	line "haft, wenn du"
-
-	para "#mon verschie-"
-	line "dener Elemente"
-	cont "kämpfen lässt."
-
+	text "Es ist"
+	line "vorteilhaft, wenn"
+	cont "du"
+	para "#mon"
+	line "verschiedener"
+	cont "Elemente kämpfen"
+	cont "lässt."
 	para "Ich bin sicher,"
 	line "dass die ORDEN der"
 	cont "ARENEN in KANTO"
@@ -296,43 +290,33 @@ LawrenceIntroText:
 	line "entschuldige, dass"
 	cont "ich dich"
 	cont "angerempelt habe."
-
 	para "Ich eile, meine"
 	line "Sammlung zu"
 	cont "vervollständigen."
-
 	para "Ich bin Lawrence"
 	line "III."
-
 	para "Und du bist der"
 	line "Liga-Champion?"
-
-	para "…Nun, der Schein"
+	para "… Nun, der Schein"
 	line "trügt manchmal."
-
 	para "Legendäre #mon"
 	line "sind schon immer"
 	cont "meine"
 	cont "Leidenschaft."
-
 	para "Ich fuhr mit der"
 	line "SEAGALLOP-Fähre"
 	cont "zur"
-
 	para "Shamouti-Insel,"
 	line "fand aber nicht,"
 	cont "was ich suchte."
-
 	para "Ach, du hast"
 	line "#mon aus JOHTOs"
 	cont "Legenden"
 	cont "getroffen?"
-
 	para "Dann kreuzen sich"
 	line "unsere Wege"
 	cont "vielleicht wieder"
 	cont "als Sammler."
-
 	para "Doch ich muss"
 	line "weiter. Auf"
 	cont "Wiedersehen!"
@@ -343,7 +327,6 @@ VermilionCityTeacherText:
 	line "ORANIA CITY ist"
 	cont "das Tor KANTOs zum"
 	cont "Meer."
-
 	para "Hier legen"
 	line "Luxusdampfer aus"
 	cont "aller Welt an."
@@ -358,14 +341,11 @@ VermilionMachokeOwnerText:
 	text "Meine #mon"
 	line "bereiteten das"
 	cont "Land"
-
 	para "für dieses riesige"
 	line "Gebäude vor!"
-
 	para "Vor drei Jahren"
 	line "war es noch ein"
 	cont "MACHOLLO,"
-
 	para "aber die"
 	line "Anstrengung ließ"
 	cont "es sich"
@@ -383,7 +363,7 @@ VermilionCitySuperNerdText:
 
 	para "Das große Gebäude"
 	line "ist die"
-	cont "#mon-ARENA von"
+	cont "PKMN-ARENA von"
 	cont "ORANIA CITY."
 	done
 
@@ -395,10 +375,8 @@ VermilionCitySuperNerdText:
 VermilionCitySuperNerd2Text:
 	text "Die Kampffabrik"
 	line "ist brandneu, aber"
-
 	para "Trainer aus fernen"
 	line "Regionen"
-
 	para "kommen schon, um"
 	line "sich ihrer"
 	cont "Herausforderung zu"
@@ -408,11 +386,9 @@ VermilionCitySuperNerd2Text:
 VermilionCityOfficerFText:
 	text "Der Generator des"
 	line "KRAFTWERKS ist"
-
 	para "abgeschaltet, also"
 	line "ist es nicht"
 	cont "sicher,"
-
 	para "die Kampffabrik zu"
 	line "öffnen."
 	done
@@ -437,10 +413,9 @@ VermilionCityRadioNearSnorlaxText:
 	text "Der #Com wird"
 	line "in der Nähe des"
 	cont "schlafenden"
-	cont "RELAXOs platziert…"
-
+	cont "RELAXOs platziert"
+	cont "…"
 	para "…"
-
 	para "RELAXO ist"
 	line "aufgewacht!"
 	done
@@ -452,11 +427,9 @@ VermilionCityRadioNearSnorlaxText:
 
 VermilionCityBadgeGuyAllBadgesText:
 	text "Gratuliere!"
-
 	para "Du hast alle ORDEN"
 	line "der ARENEN in"
 	cont "KANTO."
-
 	para "Ich habe hier eine"
 	line "Belohnung für"
 	cont "deine"
@@ -470,25 +443,16 @@ VermilionCityBadgeGuyAllBadgesText:
 
 VermilionCitySignText:
 	text "ORANIA CITY"
-
 	para "Der Hafen Der"
 	line "Stimmungsvollen"
 	cont "Sonnenuntergänge"
 	done
-
-
-
-
-
-
 VermilionGymSignText:
-	text "#mon-ARENA von"
+	text "PKMN-ARENA von"
 	line "ORANIA CITY"
-
 	para "LEITUNG: MAJOR BOB"
 	line "Der Blitzschnelle"
-
-	para "Amerikaner"
+	cont "Amerikaner"
 	done
 
 
@@ -529,7 +493,6 @@ VermilionCityPortSignText:
 
 VermilionCityAdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Deine Trainerkarte"
 	line "hat Platz für"
 	cont "sechzehn ORDEN!"

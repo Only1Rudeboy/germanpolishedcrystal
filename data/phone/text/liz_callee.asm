@@ -55,22 +55,19 @@ LizGreetNiteText:
 	done
 
 LizGenericText:
-	text "Ich hatte Zeit und"
-	line "rief dich an."
-
+	text "Ich hatte Zeit"
+	line "und rief dich an."
 	para "Wie gehen deine"
 	line "#mon?"
-
-	para "Ich bring mein "
+	para "Ich bring mein"
+	done
 	text_ram wStringBuffer4
-	text " täglich"
-
+	text "täglich"
 	para "ins #mon-Center"
-	line "in Viola City —"
-
-	para "es geht ihm super!"
-	line "Ich bin mit der"
-
+	line "in Viola City -"
+	para "es geht ihm"
+	line "super! Ich bin"
+	cont "mit der"
 	para "Rezeptionistin"
 	line "befreundet!"
 	done

@@ -41,13 +41,10 @@ ProfOaksAide2Script:
 
 	text "Das Linking Cord"
 	line "gibt manchen"
-
 	para "#mon ein Gefühl"
 	line "der Verbundenheit,"
-
 	para "das bei der"
 	line "Entwicklung hilft."
-
 	para "Nutze es, um den"
 	line "#dex zu füllen!"
 	done
@@ -63,12 +60,9 @@ ProfOaksAide2Script:
 Route38EcruteakGateOfficerText:
 	text "Wo sagtest du,"
 	line "kommst du her?"
-
-	para "Neuborkia?"
-
+	para "NEUBORKIA?"
 	para "PROF. LIND wohnt"
 	line "dort, nicht wahr?"
-
 	para "Du hast einen"
 	line "langen Weg auf"
 	cont "dich genommen, um"
@@ -81,21 +75,18 @@ Route38EcruteakGateOfficerText:
 
 
 
+
 ProfOaksAide2HiText:
 	text "Hallo! Ich bin"
-	line "Prof. Linds"
+	line "PROF. LINDs"
 	cont "Gehilfe."
-
 	para "Wenn du 30"
 	line "#mon-Arten"
 	cont "gefangen hast,"
-
 	para "soll ich dir ein"
 	line "Item geben."
-
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
-
 	para "30 #mon-Arten"
 	line "gefangen?"
 	done
@@ -103,13 +94,10 @@ ProfOaksAide2HiText:
 ProfOaksAide2UhOhText:
 	text "Mal sehen… Oh! Du"
 	line "hast nur"
-
-	para ""
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-
+	text "Arten"
 	para "gefangen."
-
 	para "Komm wieder, wenn"
 	line "du 30 Arten hast."
 	done
@@ -117,13 +105,10 @@ ProfOaksAide2UhOhText:
 ProfOaksAide2HereYouGoText:
 	text "Mal sehen… Super!"
 	line "Du hast"
-
-	para ""
+	done
 	text_decimal wTempDexOwn, 2, 3
-	text " Arten"
-
+	text "Arten"
 	para "gefangen."
-
 	para "Glückwunsch! Hier,"
 	line "bitte!"
 	done

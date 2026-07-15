@@ -56,19 +56,14 @@ KukuiScript:
 	text "Krass! Ich bin mit"
 	line "voller Wucht auf"
 	cont "dich los,"
-
 	para "und du hast"
 	line "trotzdem gewonnen!"
-
 	para "Kein Wunder, dass"
 	line "du der Champ bist!"
-
 	para "Ich muss härter"
 	line "trainieren, bevor"
-
 	para "ich bereit für die"
 	line "Liga bin."
-
 	para "Und dann fordere"
 	line "ich dich wieder"
 	cont "heraus! Juhu!"
@@ -77,39 +72,29 @@ KukuiScript:
 .IntroText:
 	text "Hallo! Ich bin"
 	line "Kukui."
-
 	para "Du heißt also"
 	line "<PLAYER>? Alles"
 	cont "klar, Kumpel!"
-
 	para "Ich komme aus der"
 	line "fernen Region"
 	cont "Alola!"
-
 	para "Dort gibt's keine"
 	line "#mon-Liga, also"
-
 	para "bin ich nach Kanto"
 	line "gekommen, um die"
 	cont "Top Vier"
-
 	para "hier zu fordern,"
 	line "ja!"
-
 	para "Hä? Du bist der"
 	line "neue Champ?"
-
 	para "Juhu, kein Wunder,"
 	line "dass du so cool"
 	cont "aussiehst!"
-
 	para "Mein Team und ich"
 	line "sind bereit."
-
 	para "Wie wär's, wir"
 	line "lassen die Liga"
 	cont "aus und fordern"
-
 	para "dich gleich jetzt"
 	line "heraus?"
 	done
@@ -133,7 +118,6 @@ KukuiScript:
 	text "Lass uns einen"
 	line "Kampf führen, der"
 	cont "dieser"
-
 	para "Stunde würdig ist!"
 	done
 
@@ -153,9 +137,9 @@ KukuiScript:
 	done
 
 Route22CooltrainerfText:
-	text "Der Name “Kanto”"
-	line "bedeutet “östlich"
-	cont "der Barriere”."
+	text "Der Name 'Kanto'"
+	line "bedeutet 'östlich"
+	cont "der Barriere'."
 
 	para "Die Barriere muss"
 	line "wohl der"

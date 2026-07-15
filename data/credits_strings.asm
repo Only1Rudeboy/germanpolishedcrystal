@@ -181,7 +181,7 @@ CreditsStringsPointers:
 .KazuyoshiOsawa:      text "  Kazuyoshi Osawa@"
 .KimikoNakamichi:     text "  Kimiko Nakamichi@"
 .Staff:               text "      #mon"
-                      next "  Crystal Version"
+                      next " Kristall-Version"
                       next "       Team@"
 .Director:            text "      Regie@"
 .CoDirector:          text "    Co-Regie@"

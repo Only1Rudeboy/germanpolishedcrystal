@@ -64,7 +64,6 @@ GenericTrainerYoungsterJimmy:
 
 	text "Ich trage das"
 	line "ganze Jahr Shorts."
-
 	para "Das ist meine"
 	line "Auffassung von"
 	cont "Mode."
@@ -93,9 +92,9 @@ GenericTrainerYoungsterWarren:
 	done
 .SeenText:
 
-	text "Hmmm… Ich weiß"
+	text "Hmmm … Ich weiß"
 	line "nicht, was ich tun"
-	cont "soll…"
+	cont "soll …"
 	done
 
 .BeatenText:
@@ -109,7 +108,7 @@ GenericTrainerFirebreatherOtis:
 
 	text "Bei Regen ist eine"
 	line "Zündung sehr"
-	cont "schwierig…"
+	cont "schwierig …"
 	done
 .SeenText:
 
@@ -122,7 +121,7 @@ GenericTrainerFirebreatherOtis:
 
 	text "Die Sonne scheint,"
 	line "dennoch bin ich"
-	cont "nass…"
+	cont "nass …"
 	done
 
 GenericTrainerFirebreatherBurt:
@@ -143,7 +142,8 @@ GenericTrainerFirebreatherBurt:
 
 .BeatenText:
 
-	text "Wow! Das ist heiß!"
+	text "Toll! Das ist"
+	line "heiß!"
 	done
 
 GenericTrainerBlackbeltManford:
@@ -172,7 +172,6 @@ GenericTrainerBlackbeltAnder:
 	text "Du bist den ganzen"
 	line "Weg aus Johto"
 	cont "gekommen?"
-
 	para "Du musst sehr"
 	line "hartnäckig sein!"
 	done
@@ -199,7 +198,6 @@ GenericTrainerHikerBruce:
 	text "Meine Tasche gräbt"
 	line "sich in meine"
 	cont "Schultern!"
-
 	para "Ich mache Pause"
 	line "und kämpfe!"
 	done
@@ -232,7 +230,7 @@ GenericTrainerHikerDwight:
 	done
 
 .BeatenText:
-	text "Frieden — auch"
+	text "Frieden - auch"
 	line "wenn ich verloren"
 	cont "hab!"
 	done
@@ -248,7 +246,6 @@ GenericTrainerAceDuoZacandjen1:
 	text "Zac: Willst du"
 	line "wirklich gegen uns"
 	cont "kämpfen?"
-
 	para "Du hast viel Mut"
 	line "für jemanden, der"
 	cont "so jung ist."
@@ -256,7 +253,7 @@ GenericTrainerAceDuoZacandjen1:
 
 .BeatenText:
 	text "Zac: Du hast nicht"
-	line "geblufft…"
+	line "geblufft …"
 	done
 
 GenericTrainerAceDuoZacandjen2:
@@ -286,7 +283,6 @@ Route3MeteoriteText:
 	text "So einen Stein hab"
 	line "ich noch nie"
 	cont "gesehen!"
-
 	para "Könnte das ein"
 	line "Meteorit aus dem"
 	cont "Weltraum sein?"
@@ -295,8 +291,8 @@ Route3MeteoriteText:
 Route3MtMoonSquareSignText:
 	text "MONDBERGPLATZ"
 
-	para "Geh einfach die"
-	line "Treppe hoch"
+	para "Schutt abladen"
+	line "verboten"
 	done
 
 

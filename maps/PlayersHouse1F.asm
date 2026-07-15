@@ -105,13 +105,13 @@ MomEventScript:
 	end
 
 PlayersHouse1FFridgeText:
-	text "Mal sehen, was im"
-	line "Kühlschrank zu"
-	cont "finden ist…"
-
+	text "Mal sehen, was da"
+	line "im Kühlschrank zu"
+	cont "finden ist …"
 	para "TAFELWASSER und"
-	line "leckere LIMONADE!"
+	line "leckere LIMO-NADE!"
 	done
+
 
 
 
@@ -128,6 +128,7 @@ PlayersHouse1FSinkText:
 
 
 
+
 PlayersHouse1FStoveText:
 	text "Mamas Spezialität!"
 
@@ -139,16 +140,16 @@ PlayersHouse1FStoveText:
 
 
 
+
 PlayersHouse1FTVScript:
 	jumpthistext
 
 	text "Es läuft ein Film"
 	line "im TV."
-
 	para "Die Sterne"
 	line "leuchten und zwei"
-	cont "Jungen fahren Zug…"
-
+	cont "Jungen fahren Zug"
+	cont "…"
 	para "Ich sollte mich"
 	line "auch in Bewegung"
 	cont "setzen!"
@@ -196,76 +197,62 @@ if DEF(DEBUG)
 else
 	text "Ach, <PLAYER>! Du"
 	line "bist wach."
-
 	para "Deine Freundin"
 	line "LYRA war gerade"
 	cont "hier."
-
 	para "Sie sagte, unser"
-	line "Nachbar, PROF."
-
-	para "LIND, sucht nach"
-	line "dir."
-
+	line "Nachbar PROF. LIND"
+	cont "sucht nach dir."
 	para "Oh! Fast hätte ich"
 	line "es vergessen! Dein"
-
-	para "#Com ist von"
-	line "der Reparatur"
-	cont "zurück."
-
+	cont "#Com"
+	para "ist von der"
+	line "Reparatur zurück."
 	para "Hier, bitte sehr!"
 	done
 
 endc
 
 MomPokegearText:
-	text "PokéCom, dein"
-	line "wichtigstes Gerät."
-
-	para "Ein wichtiges"
-	line "Gerät auf deinem"
-	cont "Trainer-Pfad."
-
+	text "Das ist dein"
+	line "#Com - dein"
+	cont "wichtigstes Gerät."
+	para "Du brauchst es auf"
+	line "deinem Weg als"
+	cont "Trainer."
 	para "Oh, der Wochentag"
 	line "ist noch nicht"
 	cont "eingestellt."
-
 	para "Das darfst du"
 	line "nicht vergessen!"
 	done
+
 MomDSTText:
 	text "Haben wir"
 	line "Sommerzeit?"
 	done
+
 MomRunningShoesText:
 	text "Komm nach Hause,"
 	line "um die Uhr auf"
 	cont "Sommerzeit"
 	cont "einzustellen."
-
-	para "Weißt du übrigens,"
-	line "wie man die"
-
-	para "neuen Laufschuhe"
-	line "benutzt?"
+	para "Weißt du, wie man"
+	line "die neuen"
+	cont "Laufschuhe"
+	cont "benutzt?"
 	done
 
 MomInstructionsText:
 	text "Ich lese die"
 	line "Anleitung vor."
-
-	para "Halte die B-Taste"
-	line "gedrückt, um zu"
-
-	para "laufen--drinnen"
-	line "und draußen."
-
-	para "Oder nutze die"
-	line "Option, um immer"
-
-	para "zu laufen, und"
-	line "halte B zum Gehen."
+	para "Halte B, um"
+	line "drinnen und"
+	cont "draußen zu laufen."
+	para "Oder stell die"
+	line "Option auf immer"
+	cont "laufen und halte B"
+	cont "zum Gehen."
 	done
 
 MomOutroText:
@@ -273,29 +260,23 @@ MomOutroText:
 	done
 
 MomErrandText:
-	text "Wie lautete"
-	line "Prof. Linds"
-	cont "Auftrag?"
-
+	text "Wie lautete PROF."
+	line "LINDs Auftrag?"
 	para "…"
-
 	para "Das klingt nach"
-	line "einer wahren"
+	line "einer echten"
 	cont "Herausforderung."
-
-	para "Aber du kannst"
-	line "stolz darauf sein,"
-	cont "dass sich die"
-	cont "Leute auf dich"
-	cont "verlassen!"
+	para "Aber sei stolz,"
+	line "dass man sich auf"
+	cont "dich verlässt!"
 	done
+
 MomDoItText:
 	text "<PLAYER>, du"
 	line "schaffst es!"
 
-	para "Ich werde dir"
-	line "immer zur Seite"
-	cont "stehen!"
+	para "Ich stehe dir"
+	line "immer zur Seite!"
 	done
 NeighborScript:
 	faceplayer
@@ -332,7 +313,6 @@ NeighborScript:
 .MornIntroText:
 	text "Guten Morgen,"
 	line "<PLAYER>!"
-
 	para "Ich bin zu Besuch!"
 	done
 .DayIntroText:
@@ -342,19 +322,15 @@ NeighborScript:
 .NiteIntroText:
 	text "Guten Abend,"
 	line "<PLAYER>!"
-
 	para "Ich bin zu Besuch!"
 	done
 .NeighborText:
 	text "<PLAYER>, hast du"
 	line "schon gehört?"
-
 	para "Meine Tochter will"
 	line "unbedingt PROF."
-
-	para "LINDs Assistentin"
-	line "werden."
-
+	cont "LINDs Assistentin"
+	cont "werden."
 	para "Sie liebt #mon"
 	line "von ganzem Herzen!"
 	done

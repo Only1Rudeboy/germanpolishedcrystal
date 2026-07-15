@@ -183,9 +183,7 @@ SnowtopMountainOutsideStopPanningMovement:
 SnowtopMountainOutsideOutlookText:
 	text "Von hier sieht man"
 	line "OLIVIANA"
-
 	para "CITY!"
-
 	para "Willst du"
 	line "rundschauen?"
 	done

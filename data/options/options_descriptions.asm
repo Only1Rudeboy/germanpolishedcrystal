@@ -103,8 +103,8 @@ OptionsDescriptions:
 	text "#dex: Größe und"
 	line "Gewicht in:"
 
-	para "Imperial: Fuß,"
-	line "Zoll und Pfund."
+	para "Anglo: Fuß, Zoll"
+	line "und Pfund."
 
 	para "Metrisch: Meter"
 	line "und Kilogramm."

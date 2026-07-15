@@ -26,9 +26,9 @@ PokemonJournalChuckScript:
 
 	text "#mon Journal"
 
-	para "Spezial: Chuck!"
+	para "Spezial: HARTWIG!"
 
-	para "Man sagt, Chuck"
+	para "Man sagt, HARTWIG"
 	line "liebe süße"
 
 	para "Nachspeisen."
@@ -64,50 +64,40 @@ CianwoodGymGuyScript:
 .Text:
 	text "Die Trainer in der"
 	line "PKMN-ARENA"
-
 	para "sind richtige"
 	line "Schlägertypen."
-
 	para "Wenn ich dort"
 	line "rumstehe,"
 	cont "schnappen sie"
 	cont "mich."
-
-	para "Ein Tipp: Der LEI-"
-	line "TER setzt gerne"
-
+	para "Ein Tipp: Der"
+	line "LEI-TER setzt"
+	cont "gerne"
 	para "Kampf-#mon ein."
-
 	para "Du solltest ihn"
 	line "mit Psycho-#mon"
 	cont "überraschen."
-
 	para "Besiege seine"
 	line "#mon, bevor sie"
-
 	para "ihre Kraft"
 	line "einsetzen können."
-
 	para "Und die Felsen in"
 	line "der Mitte der"
 	cont "PKMN-ARENA?"
-
 	para "Räume sie aus dem"
 	line "Weg, denn sonst"
-
 	para "wirst du den"
 	line "ARENALEITER nie"
 	cont "erreichen."
-
-	para "Hast du dich ver-"
-	line "schoben, verlasse"
-	cont "die PKMN-ARENA."
+	para "Hast du dich"
+	line "verschoben,"
+	cont "verlasse die"
+	cont "PKMN-ARENA."
 	done
 .StrengthText1:
 	text "Du kannst die"
 	line "Felsen nicht"
 	cont "wegstoßen?"
-
 	para "Nimm das und bring"
 	line "deinem #mon"
 	cont "Strength bei!"
@@ -138,13 +128,10 @@ CianwoodPokeCenter1FLassText:
 CianwoodPokeCenter1FSuperNerdText:
 	text "Ich liebe es, mit"
 	line "meinen trainierten"
-
 	para "#mon anzugeben."
 	line "Du etwa nicht?"
-
 	para "Ich werde einige"
 	line "Kämpfe bestreiten,"
-
 	para "um mit meinen"
 	line "#mon anzugeben!"
 	done

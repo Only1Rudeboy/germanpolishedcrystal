@@ -47,7 +47,6 @@ GenericTrainerCooltrainermKieran:
 
 	text "Ich konnte mein"
 	line "#mon nicht"
-
 	para "auf Linie bringen."
 	line "Ich muss mich"
 	cont "wieder"
@@ -91,8 +90,7 @@ UragaChannelSignText:
 
 ScaryCaveEastSignText:
 	text "Auf dem Schild ist"
-	line "Graffiti…"
-
-	para "“Diese Höhle ist"
-	line "gruselig!”"
+	line "Graffiti …"
+	para "'Diese Höhle ist"
+	line "gruselig!'"
 	done

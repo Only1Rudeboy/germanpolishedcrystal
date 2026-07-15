@@ -1,12 +1,12 @@
 TullyMonHasGrownText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist wieder"
+	text "ist wieder"
 	line "gewachsen."
-
-	para "Beim Fangen war es"
-	line "so klein, jetzt"
-	cont "viel größer."
+	para "Beim Fangen war"
+	line "es so klein,"
+	cont "jetzt viel"
+	cont "größer."
 	done
 
 TullyDefeatedMonText:
@@ -51,7 +51,8 @@ TullyBattleRematchText:
 	done
 
 TullyHangUpText:
-	text "Na dann, bis bald."
+	text "Na dann, bis"
+	line "bald."
 	done
 
 TullyFoundItemText:

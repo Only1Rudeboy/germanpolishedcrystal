@@ -2,27 +2,26 @@ IrwinHangUpText:
 	text "Ich hasse es,"
 	line "auflegen zu"
 	cont "müssen!"
-
-	para "Ich ruf später an!"
+	para "Ich ruf später"
+	line "an!"
 	done
 
 IrwinRocketTakeoverRumorText:
 	text "<PLAYER>, hast du"
 	line "es gehört?"
-
 	para "Dukatias Funkturm"
 	line "wurde von Team"
-	cont "Rocket übernommen!"
-
-	para "…Ähm… Was ist Team"
-	line "Rocket?"
+	cont "Rocket"
+	cont "übernommen!"
+	para "… Ähm … Was ist"
+	line "Team Rocket?"
 	done
 
 IrwinPlainBadgeGossipText:
 	text "<PLAYER>, ich"
 	line "hörte!"
 
-	para "Du hast Whitney"
+	para "Du hast BIANKA"
 	line "besiegt?"
 
 	para "Ich bin stolz,"
@@ -73,36 +72,30 @@ IrwinRadioTowerGossipText:
 
 IrwinRisingBadgeGossipText:
 	text "Ich sah, ich sah!"
-
 	para "Du gingst in die"
 	line "Drachenhöhle!"
-
-	para "Du hast bestanden!"
-	line "Kein Grund,"
-	cont "bescheiden zu"
-	cont "sein!"
+	para "Du hast"
+	line "bestanden! Kein"
+	cont "Grund, bescheiden"
+	cont "zu sein!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Gestern war ich in"
-	line "Neuborkia. Da war"
-
-	para "eine Dame, die dir"
-	line "ähnlich sah,"
+	text "Gestern war ich"
+	line "in Neuborkia. Da"
+	cont "war"
+	para "eine Dame, die"
+	line "dir ähnlich sah,"
 	cont "<PLAYER>."
-
-	para "Was? Das war deine"
-	line "Mama?"
-
+	para "Was? Das war"
+	line "deine Mama?"
 	para "Ich hätte mich"
-	line "vorstellen sollen!"
-
+	line "vorstellen"
+	cont "sollen!"
 	para "Deine Mama ist"
 	line "sicher stolz auf"
-
 	para "alles, was du"
 	line "geschafft hast."
-
 	para "Ich wäre auch"
 	line "stolz, wenn ich"
 	cont "deine Mama wäre!"
@@ -111,34 +104,28 @@ IrwinEliteFourGossipText:
 IrwinVermilionCityGossipText:
 	text "Ich sah, ich sah,"
 	line "ich sah!"
-
 	para "Du gingst auf ein"
 	line "Schiff, <PLAYER>!"
-
-	para "Du siehst toll aus"
-	line "vor dem Meer!"
+	para "Du siehst toll"
+	line "aus vor dem Meer!"
 	done
 
 IrwinTrainPassGossipText:
 	text "Ich hörte, hörte!"
-
 	para "Du hast eine"
 	line "Magnetbahn-Karte!"
-
-	para "Als du aufs Schiff"
-	line "gingst, war ich"
-
+	para "Als du aufs"
+	line "Schiff gingst,"
+	cont "war ich"
 	para "traurig, dich"
 	line "nicht mehr zu"
 	cont "sehen."
-
 	para "Mit der Karte"
 	line "kannst du"
 	cont "jederzeit zurück!"
-
-	para "Was? Du kannst mit"
-	line "Fly zurück? Was"
-	cont "ist Fly?"
+	para "Was? Du kannst"
+	line "mit Fly zurück?"
+	cont "Was ist Fly?"
 	done
 
 IrwinSnorlaxGossipText:
@@ -157,17 +144,15 @@ IrwinSnorlaxGossipText:
 
 IrwinMtSilverGossipText:
 	text "Ich höre Gerüchte"
-	line "über dich überall."
-
+	line "über dich"
+	cont "überall."
 	para "Das macht mich"
-	line "seufzen, <PLAYER>."
-
+	line "seufzen,"
+	cont "<PLAYER>."
 	para "Wie wurdest du so"
 	line "stark?"
-
 	para "Streb die Welt-"
 	line "meisterschaft an!"
-
 	para "Ich feuere dich"
 	line "immer an!"
 	done
@@ -185,7 +170,7 @@ IrwinFogBadgeGossipText:
 	line "hörte!"
 
 	para "Du besiegtest"
-	line "Morty in Teak"
+	line "JENS in Teak"
 	cont "City!"
 
 	para "Unglaublich! Ich"
@@ -204,13 +189,11 @@ IrwinFogBadgeGossipText:
 IrwinMarshBadgeGossipText:
 	text "<PLAYER>, ich"
 	line "hörte!"
-
-	para "Du machst in Kanto"
-	line "ordentlich Ärger!"
-
+	para "Du machst in"
+	line "Kanto ordentlich"
+	cont "Ärger!"
 	para "Was für ein"
 	line "Spektakel!"
-
 	para "Du rockst!"
 	done
 

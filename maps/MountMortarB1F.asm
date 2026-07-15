@@ -62,8 +62,7 @@ MountMortarB1FTutorDefenseCurlScript:
 
 	text "So! Jetzt kann"
 	line "dein #mon"
-	cont "EINIGLER"
-	cont "nutzen!"
+	cont "EINIGLER nutzen!"
 	done
 
 MountMortarB1FKiyoScript:
@@ -91,23 +90,22 @@ MountMortarB1FKiyoScript:
 MountMortarB1FKiyoGotTyrogueText:
 	text "RABAUZ ist ein"
 	line "Kampf-#mon."
-
 	para "Es entwickelt sich"
 	line "zu einem stärkeren"
 	cont "#mon."
-
 	para "Arbeite so hart"
 	line "weiter. Ich werde"
 	cont "auch weiterhin"
 	cont "trainieren."
-
 	para "Lebe wohl!"
 	done
 
 
 
+
 MountMortarB1FHikerText:
 	text "Mein #mon hat"
+	done
 if DEF(FAITHFUL)
 	line "Felsbrecher auf"
 else
@@ -126,8 +124,7 @@ endc
 Text_MountMortarB1FTutorDefenseCurl:
 	text "Ich bringe deinem"
 	line "#mon"
-
-	para "EINIGLER bei — für"
+	para "EINIGLER bei -für"
 	line "ein Silberblatt."
 	done
 
@@ -142,18 +139,15 @@ Text_MountMortarB1FTutorQuestion:
 
 MountMortarB1FKiyoIntroText:
 	text "Heh!"
-
 	para "Ich bin der"
 	line "KARATE-MEISTER!"
-
 	para "Ich trainiere hier"
 	line "allein im Dunkeln!"
-
 	para "Du! Kämpfe mit"
 	line "mir!"
-
 	para "Arggh!"
 	done
+
 
 
 
@@ -164,25 +158,23 @@ MountMortarB1FKiyoWinText:
 
 
 
+
 MountMortarB1FTyrogueRewardText:
-	text "Ich… ich bin am"
-	line "Boden zerstört…"
-
+	text "Ich … ich bin am"
+	line "Boden zerstört …"
 	para "Ich habe nicht gut"
-	line "genug trainiert…"
-
+	line "genug trainiert …"
 	para "Eine Niederlage"
 	line "ist nun mal eine"
 	cont "Niederlage. Das"
 	cont "gebe ich zu."
-
 	para "Als Beweis für"
 	line "deinen Sieg gebe"
-
 	para "ich dir dieses"
-	line "seltene Kampf-"
-	cont "#mon."
+	line "seltene"
+	cont "Kampf-#mon."
 	done
+
 
 
 

@@ -145,11 +145,9 @@ CeladonHomeDecorStore3FClerk2SaleText:
 	text "Unser importierter"
 	line "Königsblauer"
 	cont "Teppich"
-
 	para "ist gerade für"
 	line "¥35.000 im"
 	cont "Angebot."
-
 	para "Möchtest du einen"
 	line "kaufen?"
 	done
@@ -160,8 +158,8 @@ CeladonHomeDecorStore3FClerk2NoText:
 	done
 
 BoughtRedCarpetText:
-	text "<PLAYER> kaufte"
-	line "den roten Teppich."
+	text "<PLAYER> kaufte den"
+	line "roten Teppich."
 	done
 
 RedCarpetSentText:
@@ -170,8 +168,8 @@ RedCarpetSentText:
 	done
 
 BoughtBlueCarpetText:
-	text "<PLAYER> kaufte"
-	line "den blauen Teppich"
+	text "<PLAYER> kaufte den"
+	line "blauen Teppich"
 	done
 
 BlueCarpetSentText:
@@ -180,8 +178,8 @@ BlueCarpetSentText:
 	done
 
 BoughtYellowCarpetText:
-	text "<PLAYER> kaufte"
-	line "den gelben Teppich"
+	text "<PLAYER> kaufte den"
+	line "gelben Teppich"
 	done
 
 YellowCarpetSentText:
@@ -190,8 +188,8 @@ YellowCarpetSentText:
 	done
 
 BoughtGreenCarpetText:
-	text "<PLAYER> kaufte"
-	line "den grünen Teppich"
+	text "<PLAYER> kaufte den"
+	line "grünen Teppich"
 	done
 
 GreenCarpetSentText:

@@ -38,21 +38,20 @@ GourmetManiacScript:
 	jumpthisopenedtext
 
 	text "Merci! Danke!"
-
 	para "Damit kann ich"
-	line "etwas Hervorra-"
-	cont "gendes kreieren."
+	line "etwas"
+	cont "Hervorragendes"
+	cont "kreieren."
 	done
 
 .GreetingText:
 	text "Hallo! Ich bin ein"
 	line "Gourmet-Bäcker!"
-
-	para "Ich koche wunder-"
-	line "bare Gerichte nur"
-	cont "mit den feinsten"
+	para "Ich koche"
+	line "wunderbare"
+	cont "Gerichte nur mit"
+	cont "den feinsten"
 	cont "Zutaten!"
-
 	para "Hast du Zutaten,"
 	line "die du mir"
 	cont "verkaufen willst?"
@@ -61,10 +60,10 @@ GourmetManiacScript:
 .OfferText:
 	text "Ach, das riecht so"
 	line "gut!"
-
 	para "Nimmst du ¥"
+	done
 	text_decimal hMoneyTemp, 3, 7
-	text " dafür?"
+	text "dafür?"
 	done
 
 .WrongItemText:

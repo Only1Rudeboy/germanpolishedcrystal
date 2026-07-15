@@ -28,7 +28,6 @@ BluesHouse2FPCText:
 BluesHouse2FSNESText:
 	text "<PLAYER> hat das"
 	line "SNES gespielt."
-
 	para "Besser los--keine"
 	line "Zeit zu verlieren!"
 	done

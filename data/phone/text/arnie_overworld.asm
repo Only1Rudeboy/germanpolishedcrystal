@@ -49,8 +49,7 @@ ArniePhoneFullText:
 	done
 
 ArnieRematchText:
-	text "Jetzt bin ich dran"
-	line "zu gewinnen!"
-
+	text "Jetzt bin ich"
+	line "dran zu gewinnen!"
 	para "Ich fang neu an!"
 	done

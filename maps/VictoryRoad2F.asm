@@ -111,81 +111,63 @@ VictoryRoadRivalBattleExitMovement1:
 
 VictoryRoadRivalBeforeText:
 	text "Moment."
-
-	para "…Wirst du das"
-	line "#mon LIGA-"
-	cont "Abenteuer"
+	para "… Wirst du das"
+	line "#mon"
+	cont "LIGA-Abenteuer"
 	cont "bestreiten?"
-
-	para "…Bring mich nicht"
+	para "… Bring mich nicht"
 	line "zum Lachen."
-
 	para "Du bist viel"
 	line "schwächer als ich."
-
 	para "Ich bin nicht mehr"
 	line "so wie früher."
-
 	para "Nun habe ich die"
 	line "besten und"
-
 	para "stärksten #mon."
 	line "Ich bin"
 	cont "unschlagbar!"
-
 	para "<PLAYER>! Ich"
 	line "fordere dich"
 	cont "heraus!"
 	done
 VictoryRoadRivalDefeatText:
-	text "…Ich konnte nicht"
-	line "gewinnen…"
-
+	text "… Ich konnte nicht"
+	line "gewinnen …"
 	para "Ich habe alles"
-	line "gegeben…"
-
+	line "gegeben …"
 	para "Was du besitzt und"
-	line "was mir fehlt…"
-
+	line "was mir fehlt …"
 	para "Langsam begreife"
 	line "ich, was der"
-
 	para "Drachenmeister zu"
-	line "mir sagte…"
+	line "mir sagte …"
 	done
 VictoryRoadRivalAfterText:
-	text "…Ich habe nicht"
+	text "… Ich habe nicht"
 	line "aufgegeben, der"
 	cont "weltbeste Trainer"
-	cont "zu werden…"
-
+	cont "zu werden …"
 	para "Ich werde"
 	line "herausfinden,"
-
 	para "warum ich nicht"
 	line "gewinnen kann und"
 	cont "dann werde ich"
-	cont "stärker…"
-
+	cont "stärker …"
 	para "Wenn ich soweit"
 	line "bin, fordere ich"
 	cont "dich heraus."
-
 	para "Dann werde ich dir"
 	line "die Leviten lesen."
-
-	para "…Humpf! Bleib bis"
+	para "… Humpf! Bleib bis"
 	line "dahin dabei."
 	done
 VictoryRoadRivalVictoryText:
-	text "…Humpf!"
-
+	text "… Humpf!"
 	para "Wenn es darauf"
 	line "ankommt, gibt es"
 	cont "nichts, was Stärke"
 	cont "Paroli bieten"
 	cont "kann."
-
 	para "Mehr brauche ich"
 	line "nicht."
 	done
@@ -211,5 +193,5 @@ VeteranfJonetSeenText:
 VeteranfJonetBeatenText:
 	text "Ich hätte gewonnen"
 	line "mit einem"
-	cont "Legendär-#mon…"
+	cont "Legendär-#mon …"
 	done

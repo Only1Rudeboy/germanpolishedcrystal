@@ -39,7 +39,6 @@ RadioTower4FDJMaryScript:
 	text "MARGIT: Warum?"
 	line "Warum muss ich das"
 	cont "durchmachen?"
-
 	para "MAUZI, hilf mir!"
 	done
 
@@ -66,6 +65,7 @@ GenericTrainerGruntM10:
 	line "glauben, ich wurde"
 	cont "besiegt!"
 	done
+
 GenericTrainerProton1:
 	generictrainer PROTON, PROTON1, EVENT_BEAT_PROTON_1, Proton1SeenText, Proton1BeatenText
 
@@ -73,7 +73,6 @@ GenericTrainerProton1:
 	line "Respekt verdient."
 	cont "Hier ist ein Tipp"
 	cont "für dich."
-
 	para "Es ist noch nicht"
 	line "zu spät. Noch"
 	cont "kannst du"
@@ -84,10 +83,10 @@ GenericTrainerGruntF4:
 
 	text "Ich liebe mein"
 	line "hübsches Äußeres!"
-
 	para "Wer schert sich um"
 	line "#mon?"
 	done
+
 GenericTrainerRocketScientistRich:
 	generictrainer ROCKET_SCIENTIST, RICH, EVENT_BEAT_ROCKET_SCIENTIST_RICH, RocketScientistRichSeenText, RocketScientistRichBeatenText
 
@@ -100,7 +99,6 @@ RadioTower4FFisherText:
 	text "Als ich bei den"
 	line "RUINEN war, hörte"
 	cont "ich Radio."
-
 	para "Ich empfing eine"
 	line "seltsame Sendung."
 	done
@@ -109,15 +107,16 @@ RadioTower4FFisherText:
 
 
 
+
 RadioTower4FDJMaryText_ClearedRockets:
 	text "MARGIT: Oh! Du"
 	line "hast mich"
-	cont "gerettet! Nimm"
-	cont "dies als"
-
-	para "Zeichen meines"
-	line "Dankes!"
+	cont "gerettet!"
+	para "Nimm dies als"
+	line "Zeichen meines"
+	cont "Dankes!"
 	done
+
 
 
 
@@ -125,11 +124,11 @@ RadioTower4FDJMaryText_ClearedRockets:
 
 RadioTower4FDJMaryText_After:
 	text "MARGIT: Wir hören"
-	line "uns in PROF."
-
-	para "EICHs #mon-"
-	line "TALKSHOW wieder."
+	line "uns in PROF. EICHs"
+	cont "#mon-TALKSHOW"
+	cont "wieder."
 	done
+
 
 
 
@@ -143,15 +142,16 @@ RadioTowerMeowthText:
 
 
 
-GruntM10SeenText:
-	text "Du hast vor, den"
-	line "INTENDANTEN zu"
-	cont "retten?"
 
-	para "Dies wird nicht"
-	line "möglich sein, da"
-	cont "ich dich besiege!"
+GruntM10SeenText:
+	text "Du willst den"
+	line "INTENDANTEN"
+	cont "retten?"
+	para "Das wird dir nicht"
+	line "gelingen - ich"
+	cont "besiege dich!"
 	done
+
 
 
 
@@ -165,39 +165,36 @@ GruntM10BeatenText:
 
 
 
-Proton1SeenText:
-	text "Stopp! Ich bin als"
-	line "TEAM ROCKET-"
-	cont "Festung bekannt!"
 
+Proton1SeenText:
+	text "Stopp! Man nennt"
+	line "mich die Festung"
+	cont "von TEAM ROCKET!"
 	para "Keinen Schritt"
 	line "weiter!"
 	done
 Proton1BeatenText:
-	text "Die Festung wurde"
+	text "Die Festung… wurde"
 	line "gestürmt!"
 	done
 GruntF4SeenText:
 	text "Sind #mon nicht"
 	line "wirklich niedlich?"
-
-	para "Ich denke, meine"
-	line "#mon sind"
-
-	para "niedlich nachdem"
-	line "sie deine besiegt"
-	cont "haben!"
+	para "Meine sind es"
+	line "-nachdem sie deine"
+	cont "besiegt haben!"
 	done
+
 
 
 
 
 
 GruntF4BeatenText:
-	text "Ach, nein! Sie"
-	line "sind absolut"
-	cont "unnütz!"
+	text "Oh nein! Sie sind"
+	line "absolut unnütz!"
 	done
+
 
 
 
@@ -205,15 +202,12 @@ GruntF4BeatenText:
 
 RocketScientistRichSeenText:
 	text "Exzellent."
-
 	para "Mit dem RADIOTURM"
-	line "können wir unser"
-	cont "Vorhaben in die"
-	cont "Tat umsetzen."
+	line "können wir unseren"
+	cont "Plan umsetzen."
 	done
 RocketScientistRichBeatenText:
 	text "Hmmm…"
-
 	para "Jeder große Plan"
 	line "hat einen Haken."
 	done
@@ -225,9 +219,11 @@ RadioTower4FProductionSignText:
 
 
 
+
 RadioTower4FStudio2SignText:
 	text "3S STUDIO 2"
 	done
+
 
 
 

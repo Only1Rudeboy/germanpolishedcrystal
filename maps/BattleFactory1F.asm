@@ -62,13 +62,10 @@ BattleFactory1FContinueChallenge:
 		text "Entschuldige! Du"
 		line "hast nicht vor dem"
 		cont "Verlassen des"
-
 		para "Kampfraums"
 		line "gespeichert."
-
 		para "Es tut mir leid,"
 		line "aber dein Versuch"
-
 		para "wird für ungültig"
 		line "erklärt."
 		done
@@ -115,7 +112,6 @@ BattleFactory1FRulesScript:
 		text "Die Regeln der"
 		line "Kampffabrik stehen"
 		cont "hier geschrieben."
-
 		para "Regeln lesen?"
 		done
 	yesorno
@@ -141,11 +137,14 @@ BattleFactory1FRulesScript:
 		done
 
 BattleFactory1FStreakText:
-	text "Serie: "
+	text "Serie:"
+	done
 	text_decimal wBattleFactoryCurStreak, 2, 5
-	text " Siege Rekord: "
+	text "Siege Rekord:"
+	done
 	text_decimal wBattleFactoryTopStreak, 2, 5
-	text " Siege Tausche: "
+	text "Siege Tausche:"
+	done
 	text_decimal wBattleFactorySwapCount, 1, 2
 	done
 
@@ -154,7 +153,6 @@ BattleFactory1FReceptionistScript:
 	writethistext
 		text "Willkommen in der"
 		line "Kampffabrik!"
-
 		para "Ich zeige dir gern"
 		line "das Kampffeld."
 		done
@@ -176,30 +174,25 @@ BattleFactory1FReceptionistScript:
 	writethistext
 		text "Die Kampffabrik"
 		line "ist eine Stätte,"
-		cont "wo du mit Leih-"
-		cont "#mon kämpfst."
-
-		para "Zahllose #mon-"
-		line "Trainer versammeln"
-
+		cont "wo du mit"
+		cont "Leih-#mon"
+		cont "kämpfst."
+		para "Zahllose"
+		line "#mon-Trainer"
+		cont "versammeln"
 		para "sich von überall,"
 		line "um auf dem"
 		cont "Kampffeld zu"
 		cont "kämpfen."
-
 		para "Jeder Durchgang"
 		line "hat 7 Trainer."
-
 		para "Besiege alle für"
 		line "Kampfpunkte."
-
 		para "Um eine Sitzung zu"
 		line "unterbrechen,"
-
 		para "musst du"
 		line "speichern. Sonst"
 		cont "kannst du"
-
 		para "deinen Durchgang"
 		line "nicht fortsetzen."
 		prompt

@@ -24,8 +24,9 @@ GenericTrainerBug_maniacRob:
 	generictrainer BUG_MANIAC, ROB, EVENT_BEAT_BUG_MANIAC_ROB, Bug_maniacRobSeenText, Bug_maniacRobBeatenText
 
 	text "Ich werde mir"
-	line "stärkere Käfer-"
-	cont "#mon suchen."
+	line "stärkere"
+	cont "Käfer-#mon"
+	cont "suchen."
 	done
 GenericTrainerBug_maniacDoug:
 	generictrainer BUG_MANIAC, DOUG, EVENT_BEAT_BUG_MANIAC_DOUG, Bug_maniacDougSeenText, Bug_maniacDougBeatenText
@@ -41,9 +42,10 @@ GenericTrainerBug_maniacDoug:
 	line "Gefühl!"
 	done
 Bug_maniacRobSeenText:
-	text "Meine Käfer-#-"
-	line "MON sind zäh. Du"
-	cont "wirst verlieren!"
+	text "Meine"
+	line "Käfer-#-MON"
+	cont "sind zäh. Du wirst"
+	cont "verlieren!"
 	done
 Bug_maniacRobBeatenText:
 	text "Ich wurde"
@@ -59,7 +61,6 @@ Bug_maniacDougBeatenText:
 	done
 Route2SignText:
 	text "ROUTE 2"
-
 	para "VERTANIA CITY -"
 	line "MARMORIA CITY"
 	done

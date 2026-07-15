@@ -215,10 +215,9 @@ VermilionPortDepartingText:
 
 
 VermilionPortAskBoardingText:
-	text "Willkommen auf"
-	line "dem SCHNELLBOOT"
-	cont "M.S. AQUA."
-
+	text "Willkommen auf dem"
+	line "SCHNELLBOOT M.S."
+	cont "AQUA."
 	para "Trittst du heute"
 	line "deine Reise an?"
 	done

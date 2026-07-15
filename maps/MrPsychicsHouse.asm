@@ -73,8 +73,7 @@ MrPsychicText:
 Text_MrPsychicsHouseTutorZenHeadbutt:
 	text "Ich bringe deinem"
 	line "#mon Zen"
-
-	para "Headbutt bei — für"
+	para "Headbutt bei -für"
 	line "ein Silberblatt."
 	done
 

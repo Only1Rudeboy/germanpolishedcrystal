@@ -28,10 +28,8 @@ CeladonUniversityClassroom2BlancheText:
 	text "Ich bin Blanche."
 	line "Ich unterrichte"
 	cont "hier Geschichte."
-
 	para "Wir müssen aus der"
 	line "Geschichte lernen,"
-
 	para "sonst sind wir"
 	line "dazu verdammt, sie"
 	cont "zu wiederholen."
@@ -40,7 +38,6 @@ CeladonUniversityClassroom2BlancheText:
 CeladonUniversityClassroom2TeacherText:
 	text "Blanche ist leider"
 	line "nicht da."
-
 	para "Sie unterrichtet"
 	line "nur tagsüber."
 	done
@@ -55,14 +52,11 @@ CeladonUniversityClassroom2YoungsterText:
 CeladonUniversityClassroom2ChildText:
 	text "Wir hatten gerade"
 	line "eine Vorlesung"
-
 	para "über Prof."
 	line "Westwoods Beiträge"
 	cont "zum #dex."
-
 	para "Ich hörte, dass er"
 	line "gegen Ende"
-
 	para "faul wurde und"
 	line "sich manches nur"
 	cont "ausgedacht hat!"
@@ -89,47 +83,41 @@ CeladonUniversityClassroom2CooltrainermScript:
 
 .Text2:
 	text "Ähem."
-
 	para "Entschuldige--du"
 	line "hast mich"
 	cont "erschreckt."
-
 	para "Ich war bis spät"
 	line "auf, um eine"
-
-	para "Aufgabe fertigzu-"
-	line "stellen, drum bin"
-	cont "ich erschöpft."
+	para "Aufgabe"
+	line "fertigzustellen,"
+	cont "drum bin ich"
+	cont "erschöpft."
 	done
 
 CeladonUniversityClassroom2BlackboardText:
 	text "Eine Zeitleiste"
 	line "der jüngeren"
 	cont "Geschichte."
-
 	para "Vor 400 Jahren:"
 	line "Attacke Toxin"
 	cont "erfunden."
-
 	para "Vor 71 Jahren:"
-	line "moderner # Ball"
+	line "moderner #Ball"
 	cont "entwickelt."
-
 	para "Vor 27 Jahren:"
 	line "erste Mondlandung."
-
 	para "Vor drei Jahren:"
 	line "erstes virtuelles"
 	cont "#mon"
 	cont "erschaffen."
-
-	para "“Hypothese:"
+	para "'Hypothese:"
 	line "Technik wächst"
-	cont "exponentiell.”"
+	cont "exponentiell.'"
 	done
 
 CeladonUniversityClassroom2Bookshelf1Text:
 	text "Ein Buch darüber,"
+	done
 if DEF(FAITHFUL)
 	line "wie der Messing-"
 	cont "turm in TEAK"

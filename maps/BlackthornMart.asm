@@ -39,10 +39,8 @@ BlackthornMartBlackbeltText:
 	text "Top-Schutz hält"
 	line "schwache #mon"
 	cont "von dir fern."
-
 	para "Er wirkt am"
 	line "längsten von allen"
-
 	para "Schutzsprays."
 	done
 

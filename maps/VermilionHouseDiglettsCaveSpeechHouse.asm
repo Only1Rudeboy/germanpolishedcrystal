@@ -19,7 +19,6 @@ VermilionDiglettsCaveSpeechHouseGentlemanText:
 	line "Jahre haben die"
 	cont "DIGDA einen langen"
 	cont "Tunnel gebaut."
-
 	para "Dieser Tunnel"
 	line "führt zu einer"
 	cont "weit entfernten"

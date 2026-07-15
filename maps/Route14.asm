@@ -31,11 +31,9 @@ GenericTrainerPokefanmTrevor:
 	text "Wenn es nur eine"
 	line "einfache"
 	cont "Möglichkeit gäbe,"
-
 	para "herauszufinden, wo"
 	line "ich mein #mon"
-	cont "gefangen habe…"
-
+	cont "gefangen habe …"
 	para "Ach! Ich kann ja"
 	line "seine Werte"
 	cont "nachschauen!"
@@ -72,8 +70,7 @@ GenericTrainerPokefanmCarter:
 	generictrainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, PokefanmCarterSeenText, PokefanmCarterBeatenText
 
 	text "SCHIGGY, GLUMANDA"
-	line "und BISASAM…"
-
+	line "und BISASAM …"
 	para "Ich denke, das ist"
 	line "ein ausgeglichenes"
 	cont "Team."
@@ -81,7 +78,6 @@ GenericTrainerPokefanmCarter:
 PokefanmCarterSeenText:
 	text "Eines kann ich dir"
 	line "sagen! Es war"
-
 	para "harte Arbeit,"
 	line "meine prämierten"
 	cont "#mon zu fangen."
@@ -113,8 +109,8 @@ GenericTrainerBird_keeperRoy:
 Bird_keeperRoySeenText:
 	text "Ich träume davon,"
 	line "mit meinen"
-	cont "geliebten Vogel-"
-	cont "#mon zu"
+	cont "geliebten"
+	cont "Vogel-#mon zu"
 	cont "fliegen."
 	done
 Bird_keeperRoyBeatenText:
@@ -133,10 +129,9 @@ GenericTrainerBird_keeperJosh:
 
 .SeenText:
 	text "Mein Gewicht"
-	line "bringt mich in"
-	cont "die Federge-"
-	cont "wicht-Klasse!"
-
+	line "bringt mich in die"
+	cont "Federgewicht-"
+	cont "Klasse!"
 	para "…Was? Du meinst,"
 	line "das klingt nicht"
 	cont "sehr stark?"
@@ -217,7 +212,6 @@ GenericTrainerTeacherClarice:
 	text "Entspann dich"
 	line "nicht nur, weil du"
 	cont "gewonnen hast."
-
 	para "Wenn du zu Hause"
 	line "bist, solltest du"
 	cont "alles noch einmal"
@@ -238,7 +232,6 @@ GenericTrainerTeacherClarice:
 
 Route14SignText:
 	text "ROUTE 14"
-
 	para "FUCHSANIA CITY -"
 	line "LAVANDIA"
 	done

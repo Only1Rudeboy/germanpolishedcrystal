@@ -335,15 +335,15 @@ RockBlastDescription:
 
 TakeDownDescription:
 DoubleEdgeDescription:
-	text "Eine Tackle, die"
-	next "schadet auch sich."
+	text "Starke Attacke,"
+	next "Rückstoß-Schaden."
 	done
 
 FlareBlitzDescription:
 WildChargeDescription:
 BraveBirdDescription:
-	text "Eine Ladung, die"
-	next "schadet auch sich."
+	text "Starke Ladung,"
+	next "Rückstoß-Schaden."
 	done
 
 StompDescription:
@@ -359,8 +359,8 @@ ExtrasensoryDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
-	text "Kann Gegner zum"
-	next "Zittern bringen."
+	text "Kann Gegner"
+	next "zurückschrecken."
 	done
 
 PoisonStingDescription:
@@ -422,7 +422,7 @@ MetalClawDescription:
 
 SteelWingDescription:
 	text "Kann die eigene"
-	next "Verteid. erhöhen."
+	next "Vert. erhöhen."
 	done
 
 FlameChargeDescription:
@@ -437,13 +437,13 @@ AncientpowerDescription:
 
 CloseCombatDescription:
 	text "Senkt die eigene"
-	next "Vert. und SpVer."
+	next "Vert. und Sp.Vert."
 	done
 
 AuroraBeamDescription:
 PlayRoughDescription:
-	text "Kann den Angriff"
-	next "d. Gegners senken."
+	text "Kann Angriff des"
+	next "Gegners senken."
 	done
 
 RockSmashDescription:
@@ -453,8 +453,8 @@ RockSmashDescription:
 
 CrunchDescription:
 IronTailDescription:
-	text "Kann die Verteid."
-	next "d. Gegners senken."
+	text "Kann die Vert. des"
+	next "Gegners senken."
 	done
 
 BubbleBeamDescription:
@@ -473,7 +473,7 @@ IcyWindDescription:
 	done
 
 MoonblastDescription:
-	text "Kann den SpAng d."
+	text "Kann Sp.Ang. des"
 	next "Gegners senken."
 	done
 
@@ -485,7 +485,7 @@ EarthPowerDescription:
 EnergyBallDescription:
 FlashCannonDescription:
 FocusBlastDescription:
-	text "Kann den SpVer d."
+	text "Kann Sp.Vert. des"
 	next "Gegners senken."
 	done
 
@@ -578,7 +578,7 @@ SwordsDanceDescription:
 
 BarrierDescription:
 	text "Erhöht die eigene"
-	next "Verteid. stark."
+	next "Vert. stark."
 	done
 
 AgilityDescription:
@@ -588,12 +588,12 @@ AgilityDescription:
 
 NastyPlotDescription:
 	text "Erhöht den eigenen"
-	next "SpAng stark."
+	next "Sp.Ang. stark."
 	done
 
 AmnesiaDescription:
 	text "Erhöht die eigene"
-	next "SpVer stark."
+	next "Sp.Vert. stark."
 	done
 
 MinimizeDescription:
@@ -603,7 +603,7 @@ MinimizeDescription:
 
 GrowthDescription:
 	text "Erhöht Angriff und"
-	next "SpAng."
+	next "Sp.Ang."
 	done
 
 BulkUpDescription:
@@ -612,8 +612,8 @@ BulkUpDescription:
 	done
 
 CalmMindDescription:
-	text "Erhöht SpAng und"
-	next "SpVer."
+	text "Erhöht Sp.Ang. und"
+	next "Sp.Vert."
 	done
 
 DragonDanceDescription:
@@ -632,7 +632,7 @@ GrowlDescription:
 	done
 
 LeerDescription:
-	text "Senkt die Verteid."
+	text "Senkt die Vert."
 	next "des Gegners."
 	done
 
@@ -653,7 +653,7 @@ CharmDescription:
 	done
 
 ScreechDescription:
-	text "Senkt die Verteid."
+	text "Senkt die Vert."
 	next "des Gegners stark."
 	done
 
@@ -673,13 +673,13 @@ SafeguardDescription:
 	done
 
 ReflectDescription:
-	text "Erhöht Verteid."
+	text "Erhöht Vert."
 	next "durch Barriere."
 	done
 
 LightScreenDescription:
-	text "Erhöht SpVer mit"
-	next "einer Lichtwand."
+	text "Erhöht Sp.Vert."
+	next "mit Lichtwand."
 	done
 
 RecoverDescription:
@@ -1142,7 +1142,7 @@ SwaggerDescription:
 	done
 
 ShellSmashDescription:
-	text "Senkt die Verteid."
+	text "Senkt die Vert."
 	next "erhöht Offensive."
 	done
 

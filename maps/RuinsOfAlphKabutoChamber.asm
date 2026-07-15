@@ -138,23 +138,19 @@ MapRuinsofAlphKabutoChamberSignpost4Script:
 RuinsOfAlphKabutoChamberReceptionistText:
 	text "Willkommen in"
 	line "diesem Raum."
-
-	para "Hier gibt es ver-"
-	line "schiebbare Plat-"
-	cont "ten, die ein #-"
-	cont "MON darstellen,"
-
+	para "Hier gibt es"
+	line "verschiebbare"
+	cont "Platten, die ein"
+	cont "#-MON"
+	cont "darstellen,"
 	para "das aus der Antike"
 	line "stammt."
-
 	para "Verschiebe die"
 	line "Platten so, dass"
 	cont "ein Bild entsteht."
-
 	para "Rechts findest du"
 	line "eine Beschreibung"
 	cont "des #mon."
-
 	para "Die Forscher im"
 	line "Hintergrund"
 	cont "untersuchen neu"
@@ -166,11 +162,10 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 	text "Neulich sind"
 	line "seltsame Muster"
 	cont "aufgetaucht."
-
 	para "Es ist merkwürdig."
 	line "Vor kurzem waren"
-	cont "sie noch nicht da…"
-
+	cont "sie noch nicht da"
+	cont "…"
 	para "Wirf einen Blick"
 	line "auf die Wände."
 	done
@@ -179,7 +174,6 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 RuinsOfAlphKabutoChamberScientistHoleText:
 	text "Ah! Hier ist noch"
 	line "ein großes Loch!"
-
 	para "Es ist groß genug,"
 	line "um durchzugehen!"
 	done
@@ -188,10 +182,9 @@ RuinsOfAlphKabutoChamberScientistHoleText:
 RuinsOfAlphKabutoChamberScientistTremorText:
 	text "Das Beben war"
 	line "Furcht erregend!"
-
 	para "Aber die Wand hier"
 	line "macht mir mehr"
-	cont "Sorgen…"
+	cont "Sorgen …"
 	done
 
 
@@ -200,31 +193,27 @@ RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
 	text "Die Muster an der"
 	line "Wand sind"
 	cont "tatsächlich Worte!"
-
 	para "Und die"
 	line "verschiebbaren"
 	cont "Steinplatten"
-
 	para "scheinen ein"
 	line "Signal zu sein."
-
 	para "Ich glaube, sie"
 	line "veranlassen"
 	cont "#mon sich zu"
 	cont "zeigen, aber das"
 	cont "ist noch nicht"
-	cont "sicher…"
+	cont "sicher …"
 	done
 
 
 RuinsOfAlphKabutoChamberDescriptionText:
 	text "Ein #mon, das"
-	line "sich am Meeres-"
-	cont "grund versteckte"
-
+	line "sich am"
+	cont "Meeresgrund"
+	cont "versteckte"
 	para "und mit seinen"
 	line "Augen auf dem"
-
 	para "Rücken die"
 	line "Umgebung genau"
 	cont "beobachtete."

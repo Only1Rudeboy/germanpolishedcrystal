@@ -74,7 +74,7 @@ GoldenrodPokecenter1FGameboyKidText:
 	para "Die Ergebnisse"
 	line "hängen an der"
 
-	para "Wand—ich kann mir"
+	para "Wand. Ich kann mir"
 	line "keinen Verlust"
 	cont "leisten."
 	done
@@ -83,11 +83,9 @@ GoldenrodPokecenter1FLassText:
 	text "Ein starkes"
 	line "#mon muss nicht"
 	cont "zwingend gewinnen."
-
 	para "Meist entscheidet"
 	line "der Vor- oder"
 	cont "Nachteil des Typs."
-
 	para "Ich glaube nicht,"
 	line "dass es ein"
 	cont "#mon gibt, das"
@@ -167,7 +165,6 @@ GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
 GoldenrodPokecenter1FPokefanFGotEvioliteText:
 	text "Danke für den"
 	line "ANARA-BRIEF!"
-
 	para "Meine Tochter wird"
 	line "entzückt sein!"
 	done
@@ -226,57 +223,45 @@ WonderTradeExplanationText:
 WonderTradeCompleteText:
 	text "Das ist dein neuer"
 	line "Partner."
-
 	para "Bitte passe gut"
 	line "auf ihn auf."
 	done
 
 
 WonderTradeForGSBallPichuText:
-	text "…Aber was ist das?"
-	line "Stimmt etwas nicht"
-	cont "mit"
-
+	text "… Aber was ist"
+	line "das? Stimmt etwas"
+	cont "nicht mit"
 	para "der Wunder-Tausch-"
 	line "Maschine?"
-
 	para "Es sieht so aus,"
 	line "als hättest du"
-
 	para "gerade ein #mon"
 	line "mit dir selbst"
 	cont "getauscht."
-
 	para "Das kann nicht"
-	line "sein… Du kannst"
-
+	line "sein … Du kannst"
 	para "nicht an zwei"
 	line "Orten gleichzeitig"
 	cont "sein."
-
 	para "Außerdem"
 	line "kommuniziert die"
 	cont "Maschine durch den"
-
 	para "Raum, nicht durch"
-	line "die Zeit…"
-
+	line "die Zeit …"
 	para "Und was ist das"
 	line "für ein seltsamer"
 	cont "Ball, den es"
-
 	para "trägt? Ist das ein"
 	line "Aprikoko-Ball?"
-
-	para "Hier, schau mal…"
+	para "Hier, schau mal …"
 	done
 
 WonderTradeForGSBallPichuText2:
 	text "Es mag"
 	line "ungewöhnlich sein,"
 	cont "aber ein #mon"
-	cont "ist ein #mon."
-
+	cont "ist ein"
 	para "Bitte pass gut auf"
 	line "es auf."
 	done
@@ -286,12 +271,9 @@ InfoSignScript:
 
 	text "#Com Center 1F"
 	line "Informationen"
-
 	para "Links: Verwaltung"
-
 	para "Mitte:"
 	line "Wunder-Tausch"
-
 	para "Rechts:"
 	line "<PK><MN>-Richter"
 	done
@@ -304,10 +286,10 @@ PokemonJournalWhitneyScript:
 
 	para "Spezial:"
 	line "Arenaleiterin"
-	cont "Whitney!"
+	cont "BIANKA!"
 
-	para "Man sagt, Whitney"
-	line "bewundere Bruno"
+	para "Man sagt, BIANKA"
+	line "bewundere BRUNO"
 	cont "der TOP VIER."
 	done
 
@@ -331,27 +313,21 @@ GoldenrodPokecenter1FSuperNerdText:
 
 GoldenrodPokecenter1FLassText_PidgeyMail:
 	text "Mir ist was Tolles"
-	line "für den Wunder-"
-	cont "Tausch"
+	line "für den"
+	cont "Wunder-Tausch"
 	cont "eingefallen!"
-
 	para "Ich lasse einen"
 	line "Taubsi einen Brief"
-
 	para "tragen und tausche"
 	line "es gegen ein"
 	cont "anderes!"
-
 	para "Wenn das alle"
 	line "machten, könnten"
-
 	para "Briefe mit vielen"
 	line "Menschen getauscht"
 	cont "werden!"
-
 	para "Ich nenne es"
 	line "Taubsi-Brief!"
-
 	para "Wird es populär,"
 	line "finde ich"
 	cont "vielleicht neue"
@@ -384,65 +360,52 @@ JudgeMachineEngineerScript:
 	end
 
 JudgeMachineEngineerWorkingText:
-	text "Die #mon-"
-	line "Richter-Maschine…"
-
+	text "Die"
+	line "#mon-Richter-"
+	cont "Maschine …"
 	para "Das ist mein Traum"
 	line "seit langem."
-
 	para "Mit dem Geld des"
 	line "#Com Centers"
-
-	para "kann er Wirklich-"
-	line "keit werden,"
-
+	para "kann er"
+	line "Wirklichkeit"
+	cont "werden,"
 	para "auch wenn der"
 	line "Computer so groß"
 	cont "ist wie ein"
 	cont "Zimmer!"
-
 	para "Denk nur, wie"
 	line "nützlich das für"
 	cont "Züchter ist, die"
-
 	para "viele Eier"
 	line "ausbrüten!"
-
 	para "Ich bin fast"
-	line "fertig…"
+	line "fertig …"
 	done
 
 JudgeMachineEngineerFinishedText:
-	text "Die #mon-"
-	line "Richter-Maschine…"
-
+	text "Die"
+	line "#mon-Richter-"
+	cont "Maschine …"
 	para "Sie ist fertig!"
 	line "Mein Traum wurde"
 	cont "Wirklichkeit!"
-
 	para "Was ist das? Eine"
 	line "Maschine, die"
-
 	para "die Werte jedes"
 	line "#mon bewertet!"
-
 	para "Sie nutzt moderne"
 	line "KI-Technik, um"
-
 	para "das angeborene"
 	line "Potenzial und"
-
 	para "den Einsatz eines"
 	line "#mon zu messen."
-
 	para "Die perfekte Art,"
 	line "die Kraft eines"
 	cont "#mon zu prüfen!"
-
 	para "Probiere sie aus."
 	line "Sie ist absolut"
 	cont "sicher."
-
 	para "Ich mache erst mal"
 	line "Urlaub!"
 	done
@@ -470,10 +433,8 @@ GoldenrodPokecenter1FRockerText:
 	text "Die Maschinen hier"
 	line "sind noch nicht"
 	cont "alle nutzbar."
-
 	para "Trotzdem ist es"
 	line "schön, vor allen"
-
 	para "anderen an einen"
 	line "trendigen Ort zu"
 	cont "kommen."

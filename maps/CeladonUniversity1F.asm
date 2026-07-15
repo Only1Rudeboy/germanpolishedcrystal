@@ -45,26 +45,20 @@ CeladonUniversity1F_MapScriptHeader:
 CeladonUniversity1FSuperNerdText:
 	text "Manche Akademiker"
 	line "glauben, es gäbe"
-
 	para "andere Universen"
 	line "parallel zu"
 	cont "unserem."
-
 	para "Heißt das, es gibt"
 	line "ein Universum ohne"
-
 	para "#mon?"
-
 	para "Das wäre tragisch!"
 	done
 
 CeladonUniversity1FLassText:
 	text "Hier gibt es Kurse"
 	line "in allem, von"
-
 	para "Blumenstecken bis"
 	line "hin zu"
-
 	para "#mon-"
 	line "Psychologie!"
 	done
@@ -72,11 +66,9 @@ CeladonUniversity1FLassText:
 CeladonUniversity1FCooltrainermText:
 	text "Hier ist jeder ein"
 	line "#mon-Trainer."
-
 	para "Um hier"
 	line "aufgenommen zu"
 	cont "werden, muss man"
-
 	para "eine Reihe von"
 	line "#mon-Kämpfen"
 	cont "bestehen."
@@ -111,17 +103,13 @@ CeladonUniversity1FPokefanmText:
 CeladonUniversity1FReceptionistText:
 	text "Willkommen an der"
 	line "Prismania-Uni!"
-
 	para "Klassenzimmer und"
 	line "das Rektorat sind"
 	cont "den Flur entlang."
-
 	para "Die Bibliothek ist"
 	line "rechts, der"
-
 	para "Aufenthaltsraum"
 	line "links."
-
 	para "Mensa, Pool und"
 	line "Krankenstation"
 	cont "sind oben."

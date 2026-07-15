@@ -34,19 +34,17 @@ GoodRodGuru:
 OfferGoodRodText:
 	text "OLIVIANA CITY"
 	line "liegt am Meer!"
-
 	para "Daher sollte man"
 	line "dort auch jede"
 	cont "Menge Fische"
 	cont "finden!"
-
 	para "Ich fische hier"
 	line "seit 30 Jahren."
-
 	para "Willst du das Meer"
 	line "und die Fische"
 	cont "sehen?"
 	done
+
 
 
 GiveGoodRodText:
@@ -56,13 +54,14 @@ GiveGoodRodText:
 	done
 
 
+
 GaveGoodRodText:
 	text "Fische findet man"
 	line "nicht nur im Meer."
-
 	para "Sie sind überall,"
 	line "wo es Wasser gibt."
 	done
+
 
 
 DontWantGoodRodText:
@@ -72,10 +71,12 @@ DontWantGoodRodText:
 	done
 
 
+
 HaveGoodRodText:
 	text "Wie steht's? Den"
 	line "großen Fang"
 	cont "gemacht?"
 	done
+
 
 

@@ -4,7 +4,7 @@ GavenMonGreaterThanImaginedText:
 	line "ist vielleicht"
 
 	para "stärker als ich"
-	line "dachte. Besser als"
+	line "dachte. Besser"
 	cont "jedes andere "
 	text_ram wStringBuffer4
 	text "."
@@ -15,15 +15,13 @@ GavenDefeatedMonText:
 	line "knapp ein wildes"
 	cont ""
 	text_ram wStringBuffer4
-	text " besiegt."
-
+	text "besiegt."
 	para "So stark hab ich"
 	line "noch keins"
-	cont "gesehen…"
-
+	cont "gesehen …"
 	para "Sei vorsichtig,"
-	line "auch bei bekannten"
-	cont "#mon!"
+	line "auch bei"
+	cont "bekannten #mon!"
 	done
 
 GavenLostAMonText:
@@ -54,8 +52,8 @@ GavenBattleRematchText:
 	done
 
 GavenHangUpText:
-	text "OK, wir reden bald"
-	line "wieder!"
+	text "O.K., wir reden"
+	line "bald wieder!"
 	done
 
 GavenHangUpNotThursdayText:

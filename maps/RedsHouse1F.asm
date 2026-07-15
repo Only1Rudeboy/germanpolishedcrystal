@@ -23,20 +23,15 @@ RedsMom:
 	jumpthistextfaceplayer
 
 	text "Hallo!"
-
 	para "ROT ist schon so"
 	line "lange weg."
-
 	para "Er hat sich auch"
 	line "nicht gemeldet,"
-
 	para "also weiß ich"
 	line "nicht, wo er ist"
 	cont "oder was er macht."
-
 	para "Man sagt, keine"
 	line "Nachricht sei"
-
 	para "eine gute"
 	line "Nachricht, aber"
 	cont "ich mache mir"
@@ -45,13 +40,10 @@ RedsMom:
 .Text2:
 	text "Ich habe Angst,"
 	line "dass sich ROT"
-
 	para "verletzt oder"
 	line "krank wird. Aber"
-
 	para "er ist ein Junge"
 	line "und ich bin stolz,"
-
 	para "dass er macht, was"
 	line "ihm gefällt."
 	done
@@ -61,5 +53,5 @@ RedsHouse1FTVScript:
 	text "Sie haben"
 	line "Programme, die man"
 	cont "in JOHTO nicht"
-	cont "empfängt…"
+	cont "empfängt …"
 	done

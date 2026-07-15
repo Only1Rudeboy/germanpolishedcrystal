@@ -182,49 +182,40 @@ UndergroundRivalBattleScript2:
 	playmusic MUSIC_RIVAL_AFTER
 	jumpthistext
 
-	text "…Ich verstehe es"
-	line "nicht…"
-
+	text "… Ich verstehe es"
+	line "nicht …"
 	para "Ist es wahr, was"
 	line "dieser SIEGFRIED"
 	cont "erzählt?"
-
 	para "Dass ich meine"
 	line "#mon nicht"
 	cont "richtig behandle?"
-
-	para "Liebe…"
-
-	para "Vertrauen…"
-
+	para "Liebe …"
+	para "Vertrauen …"
 	para "Fehlt mir das"
 	line "wirklich?"
-
 	para "Verhindern diese"
 	line "Mängel, dass ich"
 	cont "gewinne?"
-
-	para "Ich… ich verstehe"
+	para "Ich … ich verstehe"
 	line "es nicht."
-
 	para "Aber es wird hier"
 	line "nicht enden."
-
 	para "Nicht jetzt. Nicht"
 	line "deswegen."
-
 	para "Ich werde meinen"
 	line "Traum, der"
-	cont "weltbeste #mon-"
-	cont "Trainer zu sein,"
-	cont "nicht aufgeben!"
+	cont "weltbeste"
+	cont "#mon-Trainer zu"
+	cont "sein, nicht"
+	cont "aufgeben!"
 	done
 GenericTrainerGruntM11:
 	generictrainer GRUNTM, 11, EVENT_BEAT_ROCKET_GRUNTM_11, GruntM11SeenText, GruntM11BeatenText
 
-	text "Ich bin auch ver-"
-	line "wirrt… Der grüne"
-
+	text "Ich bin auch"
+	line "verwirrt… Der"
+	cont "grüne"
 	para "Schalter muss als"
 	line "letztes gedrückt"
 	cont "werden, aber…"
@@ -235,15 +226,12 @@ GenericTrainerGruntM25:
 
 	text "Also gut. Ein"
 	line "Tipp!"
-
 	para "Drückst du einen"
 	line "Farb-Schalter,"
-
 	para "öffnen oder"
 	line "schließen sich die"
 	cont "Jalousien in"
 	cont "dieser Farbe."
-	done
 	done
 
 GenericTrainerBurglarDuncan:
@@ -344,36 +332,27 @@ UndergroundRivalRetreatMovement:
 
 UndergroundRivalBeforeText:
 	text "Stehen bleiben!"
-
 	para "Ich sah dich und"
 	line "bin dir gefolgt."
-
 	para "Hör auf, mir"
 	line "nachzustellen, ich"
-
 	para "muss mich um TEAM"
 	line "ROCKET kümmern."
-
-	para "…Moment. Du hast"
+	para "… Moment. Du hast"
 	line "mich schon"
 	cont "besiegt, oder?"
-
 	para "Das war nur Dusel."
-
 	para "Ich begleiche"
 	line "meine Rechnungen!"
 	done
 UndergroundRivalWinText:
-	text "…Warum… Warum habe"
-	line "ich verloren?"
-
+	text "… Warum … Warum"
+	line "habe ich verloren?"
 	para "Ich habe die"
 	line "stärksten #mon"
 	cont "zusammengetragen."
-
 	para "Ich habe mich so"
 	line "angestrengt."
-
 	para "Warum habe ich"
 	line "bloß verloren?"
 	done
@@ -431,10 +410,10 @@ BurglarDuncanBeatenText:
 	done
 BurglarOrsonSeenText:
 	text "Sie haben das"
-	line "Projekt abge-"
-	cont "brochen, noch ehe"
-	cont "sie fertig waren."
-
+	line "Projekt"
+	cont "abgebrochen, noch"
+	cont "ehe sie fertig"
+	cont "waren."
 	para "Ich suche nach"
 	line "Überresten der"
 	cont "Beute."
@@ -459,10 +438,8 @@ GruntF3SeenText:
 	text "Hast du dich"
 	line "verirrt? Nein, das"
 	cont "kann nicht sein."
-
 	para "Es ist keine Angst"
 	line "in deinem Blick."
-
 	para "Ich zeige dir"
 	line "etwas, das dir"
 	cont "Angst macht!"

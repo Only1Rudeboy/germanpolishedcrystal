@@ -27,17 +27,17 @@ GoldenrodDeptStore1FReceptionistText:
 	done
 
 
+
 GoldenrodDeptStore1FGentlemanText:
 	text "Das KAUFHAUS"
 	line "bietet eine große"
 	cont "Auswahl."
-
 	para "Aber einige Items"
 	line "erhält man nur als"
-
 	para "Preis in der"
 	line "SPIELHALLE."
 	done
+
 
 
 GoldenrodDeptStore1FPokefanFText:
@@ -47,36 +47,31 @@ GoldenrodDeptStore1FPokefanFText:
 	done
 
 
+
 GoldenrodDeptStore1FBugCatcherText:
 	text "Mama ist sehr gut"
 	line "im"
 	cont "Schnäppchenfinden."
-
 	para "Sie kauft ständig"
 	line "Waren unter dem"
 	cont "Normalpreis."
 	done
 
 
+
 GoldenrodDeptStore1FDirectoryText:
 	text "EG INFO-SCHALTER"
-
-	para "1S TRAINER-   "
-	line "MARKT"
-
-	para "2S KAMPF-   "
-	line "KOLLEKTION"
-
+	para "1S TRAINER-MARKT"
+	para "2S"
+	line "KAMPF-KOLLEKTION"
 	para "3S ARZNEI"
-
 	para "4S TM-ECKE"
-
-	para "5S PLATZ DER   "
+	para "5S PLATZ DER"
 	line "EWIGEN STILLE"
-
 	para "DACHTERRASSEN"
 	line "AUSSICHTSPLATTFO-"
 	cont "RM"
 	done
+
 
 

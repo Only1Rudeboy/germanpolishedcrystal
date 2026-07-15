@@ -172,7 +172,6 @@ CeladonDeptStore3FClerk2Text:
 	text "Es gibt eine coole"
 	line "Attacke namens"
 	cont "Konter."
-
 	para "Nicht die Art"
 	line "Theke, an der ich"
 	cont "hier lehne!"
@@ -182,7 +181,6 @@ Text_CeladonDeptStore3FTutorCounter:
 	text "Ich bringe deinem"
 	line "#mon Konter"
 	cont "bei,"
-
 	para "wenn du mir ein"
 	line "Silberblatt gibst."
 	done
@@ -200,7 +198,6 @@ VideoGameClerkText:
 	text "Wir verkaufen neue"
 	line "und alte"
 	cont "Spielsysteme!"
-
 	para "Probier sie doch"
 	line "selbst aus!"
 	done
@@ -223,7 +220,6 @@ VideoGameClerkSellN64Text:
 	text "Verkäufer: Das N64"
 	line "gehört dir für nur"
 	cont "¥25.000!"
-
 	para "Willst du eins?"
 	done
 
@@ -240,19 +236,18 @@ VideoGameClerkSellWiiText:
 	text "Verkäufer: Die Wii"
 	line "gehört dir für nur"
 	cont "¥40.000!"
-
 	para "Willst du eins?"
 	done
 
 BoughtSnesText:
-	text "<PLAYER> kaufte"
-	line "ein Super NES."
+	text "<PLAYER> kaufte ein"
+	line "Super NES."
 	done
 
 
 BoughtN64Text:
-	text "<PLAYER> kaufte"
-	line "ein Nintendo 64."
+	text "<PLAYER> kaufte ein"
+	line "Nintendo 64."
 	done
 
 
@@ -273,10 +268,8 @@ CeladonDeptStore3FYoungsterText:
 	line "nicht entscheiden,"
 	cont "bei welchem"
 	cont "#mon"
-
 	para "ich diese VM"
-	line "einsetzen soll…"
-
+	line "einsetzen soll …"
 	para "Gut, dass sie"
 	line "nicht ausgeht."
 	done
@@ -296,28 +289,24 @@ CeladonDeptStore3FDirectoryText:
 
 CeladonDeptStore3FSnesText:
 	text "Ein Super NES!"
-
 	para "Ich hab so eins zu"
 	line "Hause!"
 	done
 
 CeladonDeptStore3FN64Text:
 	text "Ein N64!"
-
 	para "Ich hab so eins zu"
 	line "Hause!"
 	done
 
 CeladonDeptStore3FGameCubeText:
 	text "Ein GameCube!"
-
 	para "Ich hab so eins zu"
 	line "Hause!"
 	done
 
 CeladonDeptStore3FWiiText:
 	text "Eine Wii!"
-
 	para "Ich hab so eine zu"
 	line "Hause!"
 	done

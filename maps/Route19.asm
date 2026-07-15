@@ -62,24 +62,21 @@ GenericTrainerSwimmerfDawn:
 
 	text "Es ist nur eine"
 	line "kurze Distanz"
-
 	para "zwischen FUCHSANIA"
 	line "CITY und den"
-	cont "SEESCHAUMINSELN…"
-
+	cont "SEESCHAUMINSELN …"
 	para "Uah, mein Freund"
 	line "ist so groß und"
-
 	para "dennoch ein"
 	line "Schwächling!"
 	done
 GenericTrainerSwimmermTucker:
 	generictrainer SWIMMERM, TUCKER, EVENT_BEAT_SWIMMERM_TUCKER, SwimmermTuckerSeenText, SwimmermTuckerBeatenText
 
-	text "Ich… bat meine"
+	text "Ich … bat meine"
 	line "Freundin nach"
-	cont "FUCHSANIA CITY… zu"
-	cont "schwimmen…"
+	cont "FUCHSANIA CITY …"
+	cont "zu schwimmen …"
 	done
 GenericTrainerSwimmermJerome:
 	generictrainer SWIMMERM, JEROME, EVENT_BEAT_SWIMMERM_JEROME, SwimmermJeromeSeenText, SwimmermJeromeBeatenText
@@ -107,7 +104,6 @@ GenericTrainerCosplayerBrooke:
 	line "Kostüm für eine"
 	cont "Maskerade gemacht,"
 	cont "aber ich"
-
 	para "liebe es so sehr,"
 	line "dass ich es auch"
 	cont "sonst trage."
@@ -151,11 +147,11 @@ SwimmerfDawnBeatenText:
 
 
 SwimmermTuckerSeenText:
-	text "Uff, uff… Nur…"
-	line "noch… ein"
-
-	para "kleines Stück… bis"
-	line "…FUCHSANIA CITY…"
+	text "Uff, uff … Nur …"
+	line "noch … ein"
+	para "kleines Stück …"
+	line "bis … FUCHSANIA"
+	cont "CITY …"
 	done
 
 
@@ -168,7 +164,6 @@ SwimmermJeromeSeenText:
 	text "Schwimmen? Ich bin"
 	line "ein miserabler"
 	cont "Schwimmer."
-
 	para "Ich plansche"
 	line "lieber in dieser"
 	cont "Riesenpfütze."
@@ -210,10 +205,8 @@ Route19Fisher1Text:
 	cont "aufgrund von"
 	cont "Bauarbeiten"
 	cont "gesperrt."
-
 	para "Wenn du zu der"
 	line "ZINNOBERINSEL"
-
 	para "möchtest, gehst du"
 	line "von ALABASTIA gen"
 	cont "Süden."
@@ -223,11 +216,11 @@ Route19Fisher1Text:
 Route19EngineerText1:
 	text "Es würde zu lange"
 	line "dauern, diesen"
-	cont "Felsen zu bewegen…"
+	cont "Felsen zu bewegen"
+	cont "…"
 	done
 Route19SignText:
 	text "ROUTE 19"
-
 	para "FUCHSANIA CITY -"
 	line "SEESCHAUMINSELN"
 	done

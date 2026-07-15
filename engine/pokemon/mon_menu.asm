@@ -511,7 +511,8 @@ _UpdateMewtwoForm:
 
 GiveTakeItemMenuData:
 	db MENU_BACKUP_TILES | MENU_SPRITE_ANIMS
-	menu_coords 13, 10, 19, 17
+	; slightly wider for "Tausch"
+	menu_coords 12, 10, 19, 17
 	dw .Items
 	db 1 ; default option
 
@@ -520,7 +521,7 @@ GiveTakeItemMenuData:
 	db 3 ; # items
 	db "Geb.@"
 	db "Nimm@"
-	db "Wech@"
+	db "Tausch@"
 
 TookAndMadeHoldText:
 	text_farend _PokemonSwapItemText
@@ -539,9 +540,8 @@ SwitchAlreadyHoldingText:
 CantBeHeldText:
 	text_farend _ItemCantHeldText
 CantPlaceMailInStorageText:
-	text "Post kann nicht"
-	line "eingelagert"
-	cont "werden."
+	text "Post kann man"
+	line "nicht ablegen."
 	prompt
 
 GetPartyItemLocation:

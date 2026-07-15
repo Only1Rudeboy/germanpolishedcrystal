@@ -110,16 +110,14 @@ EcruteakGymMortyScript:
 	setevent EVENT_GOT_TM30_SHADOW_BALL
 	jumpthisopenedtext
 
-	text "Shadow Ball."
+	text "Schattenball."
 	line "Verursacht Schaden"
+	cont "und kann die"
+	cont "Spezial-Vert."
+	cont "senken."
 
-	para "und kann die"
-	line "Spezial-"
-	cont "Verteidigung"
-
-	para "senken. Nutze es,"
-	line "wenn es dir"
-	cont "gefällt."
+	para "Nutze es, wenn es"
+	line "dir gefällt."
 	done
 
 EcruteakGymClosed:
@@ -142,6 +140,7 @@ GenericTrainerSageJeffrey:
 	text "Woher kommen"
 	line "#mon?"
 	done
+
 GenericTrainerSagePing:
 	generictrainer SAGE, PING, EVENT_BEAT_SAGE_PING, SagePingSeenText, SagePingBeatenText
 
@@ -152,12 +151,14 @@ GenericTrainerSagePing:
 	line "zeigen bei ihnen"
 	cont "keine Wirkung!"
 	done
+
 GenericTrainerMediumMartha:
 	generictrainer MEDIUM, MARTHA, EVENT_BEAT_MEDIUM_MARTHA, MediumMarthaSeenText, MediumMarthaBeatenText
 
 	text "Wer siegen will,"
 	line "wird es auch tun!"
 	done
+
 GenericTrainerMediumGrace:
 	generictrainer MEDIUM, GRACE, EVENT_BEAT_MEDIUM_GRACE, MediumGraceSeenText, MediumGraceBeatenText
 
@@ -170,6 +171,7 @@ GenericTrainerMediumGrace:
 	para "Der Weg liegt vor"
 	line "unseren Augen!"
 	done
+
 EcruteakGymGuyScript:
 	checkevent EVENT_BEAT_MORTY
 	iftrue_jumptextfaceplayer EcruteakGymGuyWinText
@@ -207,115 +209,80 @@ EcruteakGymPlayerSlowStepDownMovement:
 MortyIntroText:
 	text "Gut, dass du"
 	line "gekommen bist."
-
 	para "Hier in TEAK CITY"
 	line "werden #mon"
 	cont "verehrt."
-
-	para "Man sagt, dass"
+	para "Man sagt,"
 	line "legendäre #mon"
-
-	para "nur wahrlich"
-	line "starken Trainern"
-	cont "erscheinen werden."
-
+	cont "erscheinen nur"
+	cont "wirklich starken"
+	cont "Trainern."
 	para "Ich glaube an"
 	line "diese Legende."
-	cont "Daher"
-
-	para "habe ich mein"
-	line "ganzes Leben lang"
-	cont "im"
-
-	para "Geheimen"
-	line "trainiert."
-
-	para "Als Resultat kann"
-	line "ich nun Dinge"
-
-	para "sehen, die andere"
-	line "nicht sehen"
+	cont "Deshalb trainiere"
+	cont "ich seit jeher im"
+	cont "Geheimen."
+	para "Als Resultat sehe"
+	line "ich Dinge, die"
+	cont "andere nicht sehen"
 	cont "können."
-
 	para "Noch ein wenig…"
-
-	para "Mit ein wenig Mehr"
-	line "könnte ich eine"
-
-	para "Zukunft sehen, in"
-	line "der ich das"
-	cont "legendäre"
-	cont "regenbogenfarbene"
-	cont "#mon treffe."
-
+	para "Mit etwas mehr"
+	line "Kraft sehe ich"
+	cont "vielleicht eine"
+	cont "Zukunft, in der"
+	cont "ich dem"
+	cont "regenbogenfarbenen"
+	cont "#mon begegne."
 	para "Du könntest mir"
 	line "dabei helfen!"
 	done
-
-
 MortyWinLossText:
 	text "Ich bin noch nicht"
 	line "gut genug…"
-
 	para "Dieser ORDEN soll"
 	line "dir gehören."
 	done
-
-
 MortyText_FogBadgeSpeech:
-	text "Durch den PHANTOM-"
-	line "ORDEN gehorchen"
-
-	para "dir #mon bis zu"
-	line "LV 50."
-
+	text "Durch den"
+	line "NEBELORDEN"
+	cont "gehorchen dir"
+	cont "#mon bis LV 50."
 	para "Außerdem können"
-	line "#mon, die SUR-"
-	cont "FER beherrschen,"
-
-	para "diesen auch"
-	line "außerhalb eines"
-	cont "Kampfes einsetzen."
-
+	line "#mon, die"
+	cont "SURFER"
+	cont "beherrschen, ihn"
+	cont "auch außerhalb des"
+	cont "Kampfs einsetzen."
 	para "Bitte nimm auch"
 	line "dies an."
 	done
-
-
 MortyFightDoneText:
 	text "Ich verstehe…"
-
 	para "Deine Reise hat"
 	line "dich an die"
 	cont "entlegensten Orte"
 	cont "geführt."
-
 	para "Du hast viel mehr"
 	line "gesehen als ich."
-
 	para "Dafür beneide ich"
 	line "dich…"
 	done
-
-
 SageJeffreySeenText:
 	text "Ich habe den"
 	line "Frühling mit"
 	cont "meinen"
-
 	para "#mon verbracht."
 	line "Dann den Sommer,"
-
 	para "den Herbst und den"
-	line "Winter…"
-
+	line "Winter …"
 	para "Dann kam wieder"
 	line "der Frühling. Wir"
-
 	para "haben viel Zeit"
 	line "miteinander"
 	cont "verbracht."
 	done
+
 
 
 SageJeffreyBeatenText:
@@ -325,10 +292,12 @@ SageJeffreyBeatenText:
 	done
 
 
+
 SagePingSeenText:
 	text "Hältst du unseren"
 	line "#mon stand?"
 	done
+
 
 
 SagePingBeatenText:
@@ -336,9 +305,11 @@ SagePingBeatenText:
 	done
 
 
+
 MediumMarthaSeenText:
 	text "Ich werde siegen!"
 	done
+
 
 
 MediumMarthaBeatenText:
@@ -347,14 +318,15 @@ MediumMarthaBeatenText:
 	done
 
 
+
 MediumGraceSeenText:
 	text "Verwirrt dich"
 	line "unser unsichtbarer"
-
 	para "Boden? Besiege"
 	line "mich und ich gebe"
 	cont "dir einen Tipp!"
 	done
+
 
 
 MediumGraceBeatenText:
@@ -362,23 +334,22 @@ MediumGraceBeatenText:
 	done
 
 
+
 EcruteakGymGuyWinText:
 	text "Wow, <PLAYER>. Du"
 	line "warst großartig!"
-
 	para "Vor lauter Angst"
 	line "habe ich mich in"
 	cont "die Ecke gekauert!"
 	done
 EcruteakGymClosedText:
-	text "JENS, der ARENA-"
-	line "LEITER ist nicht"
-	cont "hier."
-
+	text "JENS, der"
+	line "ARENA-LEITER ist"
+	cont "nicht hier."
 	para "Du musst leider"
 	line "wieder gehen."
-
 	para "Hohohoho."
 	done
+
 
 

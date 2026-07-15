@@ -362,8 +362,7 @@ KurtsGranddaughter1:
 	jumpthistext
 
 	text "Die FLEGMON sind"
-	line "weg… Wurden sie"
-
+	line "weg … Wurden sie"
 	para "von bösen Menschen"
 	line "mitgenommen?"
 	done
@@ -392,18 +391,14 @@ PokemonJournalProfWestwoodScript:
 	jumpthistext
 
 	text "#mon Journal"
-
-	para "Spezial:"
-	line "Prof. Westwood!"
-
-	para "Prof. Westwood V."
+	para "Spezial: Prof."
+	line "Westwood!"
+	para "PROF. WESTWOOD V."
 	line "lehrt an der"
 	cont "Prismania-Uni."
-
 	para "Die Forschung"
 	line "seines Urahnen im"
 	cont "Jahr 1925"
-
 	para "führte zur"
 	line "Entwicklung"
 	cont "moderner #BÄLLE"
@@ -446,46 +441,34 @@ KurtsHouseStepAwayFromKurt_MovementData:
 
 KurtsHouseKurtMakingBallsMustWaitText:
 	text "Hm? Wer bist du?"
-
 	para "<PLAYER>, was? Du"
 	line "willst, dass ich"
 	cont "ein paar BÄLLE"
 	cont "mache?"
-
 	para "Verzeih, aber das"
 	line "muss warten."
-
 	para "Kennst du TEAM"
 	line "ROCKET? Egal, ich"
-
-	para "erzähle dir"
-	line "ohnehin darüber."
-
+	cont "erzähle dir"
+	cont "ohnehin darüber."
 	para "TEAM ROCKET ist"
 	line "eine üble Bande,"
-
-	para "die #mon für"
-	line "ihre Zwecke"
+	cont "die #mon für"
+	cont "ihre Zwecke"
 	cont "einsetzt."
-
-	para "Man sagt, dass sie"
-	line "sich vor drei"
-	cont "Jahren aufgelöst"
-	cont "haben."
-
+	para "Man sagt, sie"
+	line "hätten sich vor"
+	cont "drei Jahren"
+	cont "aufgelöst."
 	para "Aber jetzt sind"
 	line "sie am BRUNNEN"
-
-	para "und schneiden die"
-	line "RUTEN von FLEGMON"
-
-	para "ab, um sie zu"
-	line "verkaufen!"
-
+	para "und schneiden den"
+	line "FLEGMON die Ruten"
+	cont "ab, um sie zu"
+	cont "verkaufen!"
 	para "Also werde ich"
 	line "ihnen eine Lektion"
 	cont "erteilen!"
-
 	para "Haltet durch,"
 	line "FLEGMON! Der alte"
 	cont "KURT ist auf dem"
@@ -493,53 +476,48 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	done
 
 
-KurtsHouseKurtHonoredToMakeBallsText:
-	text "KURT: Hallo,"
-	line "<PLAYER>!"
 
+KurtsHouseKurtHonoredToMakeBallsText:
+	text "KURT: Hi, <PLAYER>!"
 	para "Du hast dich am"
 	line "BRUNNEN wie ein"
 	cont "wahrer Held"
 	cont "benommen."
-
 	para "Ich mag deinen"
 	line "Stil!"
-
 	para "Es wäre mir eine"
 	line "Ehre, für einen"
-
-	para "Trainer wie dich"
-	line "BÄLLE"
+	cont "Trainer wie dich"
+	cont "BÄLLE"
 	cont "anzufertigen."
-
 	para "Das ist alles, was"
 	line "ich habe. Aber"
 	cont "bitte nimm es!"
 	done
 
 
+
 KurtsHouseKurtBallsFromApricornsText:
 	text "KURT: Ich mache"
-	line "BÄLLE aus APRIKO-"
-	cont "KOS."
-
+	line "BÄLLE aus"
+	cont "APRIKOKOS."
 	para "Pflücke sie von"
 	line "Bäumen und bring"
 	cont "sie zu mir."
-
 	para "Ich fertige daraus"
 	line "BÄLLE an."
 	done
 
 
+
 KurtsHouseKurtAskYouHaveAnApricornText:
 	text "KURT: Hast du eine"
 	line "APRIKOKO für mich?"
-
 	para "Schön! Ich werde"
 	line "einen BALL daraus"
 	cont "machen."
 	done
+
 
 
 KurtsHouseKurtGetStartedText:
@@ -552,16 +530,18 @@ KurtsHouseKurtItWillTakeADayText:
 	line "einen Tag"
 	cont "brauchen, um einen"
 	cont "BALL zu machen."
-
 	para "Komm später"
 	line "wieder!"
 	done
 
 
+
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Oh… Du lässt"
-	line "mich im Stich?"
+	text "KURT: Oh … Du"
+	line "lässt mich im"
+	cont "Stich?"
 	done
+
 
 
 KurtsHouseKurtDontBotherMeText:
@@ -570,33 +550,35 @@ KurtsHouseKurtDontBotherMeText:
 	done
 
 
+
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: Ah,"
-	line "<PLAYER>! Ich bin"
-	cont "gerade fertig"
-	cont "geworden. Hier"
-	cont "hast du den BALL!"
+	text "KURT: Ah, <PLAYER>!"
+	line "Ich bin gerade"
+	cont "fertig geworden."
+	cont "Hier hast du den"
+	cont "BALL!"
 	done
+
 
 
 KurtsHouseKurtTurnedOutGreatText:
 	text "KURT: Er ist"
-	line "großartig"
+	line "groß-artig"
 	cont "geworden."
-
 	para "Versuche, ein"
 	line "#mon damit zu"
 	cont "fangen."
 	done
 
 
+
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
 	text "KURT: Da mir meine"
 	line "Enkelin jetzt"
-
 	para "hilft, bin ich"
 	line "schneller."
 	done
+
 
 
 KurtsHouseKurtWhatIsThatText:
@@ -617,16 +599,19 @@ KurtsHouseKurtWhatIsThatText:
 	done
 
 
+
 KurtsHouseKurtImCheckingItNowText:
 	text "Ich überprüfe es"
 	line "gerade."
 	done
 
 
+
 KurtsHouseKurtAhHaISeeText:
 	text "Ah-ha! Verstehe!"
-	line "So ist das…"
+	line "So ist das …"
 	done
+
 
 
 KurtsHouseKurtThisBallStartedToShakeText:
@@ -642,23 +627,24 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	done
 
 
+
 KurtsGranddaughterLonelyText:
-	text "Großvater ist"
-	line "fort… Ich fühle"
-	cont "mich so einsam…"
+	text "Großvater ist fort"
+	line "… Ich fühle mich"
+	cont "so einsam …"
 	done
+
 
 
 KurtsGranddaughterSlowpokeBackText:
 	text "Das FLEGMON, das"
 	line "mir mein Vater"
-
 	para "gab, ist wieder"
 	line "da. Auch seine"
-
 	para "RUTE wächst wieder"
 	line "nach!"
 	done
+
 
 
 KurtsGranddaughterDadText:
@@ -666,7 +652,6 @@ KurtsGranddaughterDadText:
 	line "SILPH CO., wo er"
 	cont "#BÄLLE"
 	cont "analysiert."
-
 	para "Ich muss mit"
 	line "Großvater und"
 	cont "FLEGMON zu Hause"
@@ -674,15 +659,16 @@ KurtsGranddaughterDadText:
 	done
 
 
+
 KurtsGranddaughterHelpText:
 	text "Ich muss jetzt Opa"
 	line "helfen!"
-
 	para "Wir machen dir"
 	line "einen"
 	cont "hervorragenden"
 	cont "BALL, warte mal!"
 	done
+
 
 
 KurtsGranddaughterFunText:
@@ -691,13 +677,14 @@ KurtsGranddaughterFunText:
 	done
 
 
+
 KurtsGranddaughterGSBallText:
 	text "Opa überprüft"
 	line "gerade einen BALL."
-
 	para "Ich warte, bis er"
 	line "fertig ist."
 	done
+
 
 
 KurtsHouseSlowpokeText:
@@ -705,15 +692,18 @@ KurtsHouseSlowpokeText:
 	done
 
 
+
 KurtsHouseOakPhotoText:
-	text "…Ein junger PROF."
+	text "… Ein junger PROF."
 	line "EICH?"
 	done
+
 
 
 KurtsHouseCelebiStatueText:
 	text "Eine Statue des"
 	line "Waldpatrons."
 	done
+
 
 

@@ -24,7 +24,7 @@ GenericTrainerHikerJim:
 	text "Ich habe"
 	line "Heuschnupfen!"
 
-	para "Haha-hatschi!"
+	para "Hahahatschi!"
 	done
 GenericTrainerPokefanmRobert:
 	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
@@ -85,10 +85,9 @@ PokefanmRobertBeatenText:
 
 
 HexManiacAmySeenText:
-	text "LAVANDIA…"
-
+	text "LAVANDIA …"
 	para "Wo die Geister der"
-	line "#mon schlafen…"
+	line "#mon schlafen …"
 	done
 
 HexManiacAmyBeatenText:
@@ -99,7 +98,6 @@ HexManiacAmyBeatenText:
 
 Route10SignText:
 	text "ROUTE 10"
-
 	para "AZURIA CITY -"
 	line "LAVANDIA"
 	done

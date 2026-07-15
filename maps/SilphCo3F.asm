@@ -47,26 +47,21 @@ SilphCo3FSilphEmployeeScript:
 
 .Text1:
 	text "Ich komme aus"
-	line "einer"
-	cont "Familie von #-"
-	cont "ball-Herstellern."
-
-	para "Mein Vater Kurt"
+	line "einer Familie von"
+	cont "#-ball-"
+	cont "Herstellern."
+	para "Mein Vater KURT"
 	line "lehrt meine"
 	cont "Tochter"
-
 	para "Aprikoko-Bälle,"
 	line "während ich hier"
 	cont "arbeite."
-
 	para "Du hast ihnen in"
-	line "Azalea City"
+	line "AZALEA CITY"
 	cont "geholfen? Toll!"
-
 	para "Freut mich, dass"
 	line "es Maizie gut"
 	cont "geht."
-
 	para "Nimm das als"
 	line "Dankeschön!"
 	done
@@ -75,7 +70,6 @@ SilphCo3FScientist1Text:
 	text "Silph ist eine"
 	line "Partnerschaft mit"
 	cont "Devon eingegangen."
-
 	para "Wir haben Produkte"
 	line "voneinander"
 	cont "lizenziert."
@@ -86,15 +80,12 @@ SilphCo3FScientist2Text:
 	line "funktionieren nach"
 	cont "dem gleichen"
 	cont "Prinzip"
-
 	para "wie das"
 	line "#mon-Lager-"
 	cont "System."
-
 	para "#mon werden in"
 	line "digitale Daten"
 	cont "umgewandelt und"
-
 	para "an einem neuen Ort"
 	line "wieder aufgebaut."
 	done
@@ -104,11 +95,9 @@ SilphCo3FOfficerText:
 	line "nicht in die"
 	cont "oberen Stockwerke"
 	cont "lassen,"
-
 	para "auch wenn du"
 	line "vertrauenswürdig"
 	cont "bist."
-
 	para "Tut mir leid, aber"
 	line "das sind die"
 	cont "Regeln."
@@ -118,23 +107,21 @@ SilphCo3FGentlemanText:
 	text "Ich bin von der"
 	line "Devon Corporation"
 	cont "zu Besuch."
-
 	para "Wir arbeiten"
 	line "zusammen, um die"
 	cont "#ball-Technik"
-	cont "weiterzuentwicke-"
-	cont "ln!"
+	cont "weiterzuentwickel-"
+	cont "n!"
 	done
 
 SilphCo3FDeptSignText:
-	text "Silph Co. 3F #"
+	text "SILPH CO. 3S #"
 	line "Ball Tech"
 	done
 
 SilphCo3FPhotoText:
 	text "Das ist ein Foto"
 	line "des Silph-Chefs."
-
 	para "Er sieht verärgert"
 	line "aus."
 	done

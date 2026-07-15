@@ -142,12 +142,11 @@ HikerAnthony1SeenText:
 	text "Ich bin durch den"
 	line "Tunnel gegangen,"
 	cont "aber ich habe noch"
-
 	para "viel Energie"
 	line "übrig."
 	done
 HikerAnthony1BeatenText:
-	text "Wow! Du hast mehr"
+	text "Toll! Du hast mehr"
 	line "Mumm als ich!"
 	done
 HikerAnthony1AfterText:
@@ -170,6 +169,7 @@ HikerAnthonyDunsparceText:
 
 
 
+
 SchoolgirlImogenSeenText:
 	text "Ich bin der"
 	line "#mon-Experte in"
@@ -177,12 +177,13 @@ SchoolgirlImogenSeenText:
 	done
 SchoolgirlImogenBeatenText:
 	text "Es gibt also doch"
-	line "bessere Trainer…"
+	line "bessere Trainer …"
 	done
 
 Route33SignText:
 	text "ROUTE 33"
 	done
+
 
 
 

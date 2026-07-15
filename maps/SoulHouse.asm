@@ -67,28 +67,21 @@ MrFujiScript:
 MrFujiText:
 	text "MR. FUJI: Sei"
 	line "willkommen."
-
-	para "Hm… Du scheinst"
+	para "Hm … Du scheinst"
 	line "deine #mon"
-
 	para "mit Sorgfalt und"
 	line "Liebe aufzuziehen."
-
 	para "Solche, die"
 	line "#mon verehren,"
-
 	para "zollen hier den"
 	line "dahingegangenen"
 	cont "#mon ihren"
 	cont "Respekt."
-
 	para "Bekunde bitte dein"
 	line "Beileid für die"
-
 	para "Seelen der"
 	line "dahingegangenen"
 	cont "#mon."
-
 	para "Ich bin sicher,"
 	line "das macht sie"
 	cont "glücklich."
@@ -101,7 +94,6 @@ MrFujiText:
 MrFujiGiveSilphScopeText:
 	text "Hier, ich habe ein"
 	line "Geschenk für dich."
-
 	para "Bitte, nimm es."
 	done
 
@@ -118,7 +110,6 @@ SoulHouseTeacherText:
 	text "Ich glaube, hier"
 	line "liegen noch andere"
 	cont "#mon begraben."
-
 	para "Es gibt viele"
 	line "Kammern, die nur"
 	cont "MR. FUJI betreten"
@@ -156,53 +147,36 @@ SoulHouseGrannyText:
 AgathaSeenText:
 	text "Agatha: Hallo,"
 	line "Kind."
-
 	para "Mein Name ist"
 	line "Agatha."
-
 	para "Jahrelang kämpfte"
 	line "ich als Mitglied"
 	cont "der TOP VIER."
-
-	para "…………"
-
+	para "… … … …"
 	para "Bist du gekommen,"
 	line "einem #mon"
-
 	para "nachzutrauern? Es"
 	line "ist vielleicht"
-
 	para "nicht mehr hier."
-
 	para "MR. FUJI verlegte"
 	line "viele Gräber"
-
 	para "woanders, nachdem"
 	line "die Radiostation"
 	cont "das Gelände"
-
-	para "übernahm. …………"
-
+	para "übernahm. … … … …"
 	para "Er hätte kämpfen"
 	line "können, um den"
-
 	para "Turm zu retten!"
 	line "Aber er mischte"
-
 	para "sich nicht ein. Zu"
 	line "viel Angst,"
-
 	para "seinen Einfluss zu"
 	line "missbrauchen."
-
-	para "Dieser alte Narr…"
-
+	para "Dieser alte Narr …"
 	para "Macht ist dazu da,"
 	line "genutzt zu"
-
 	para "werden! Du"
 	line "verstehst mich."
-
 	para "Ich zeige dir, was"
 	line "ein mächtiger"
 	cont "Trainer kann!"

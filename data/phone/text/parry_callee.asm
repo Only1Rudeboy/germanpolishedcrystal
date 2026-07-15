@@ -40,9 +40,9 @@ ParryGreetDayText:
 	line ""
 	text_ram wStringBuffer3
 	text "!"
-
-	para "Hast du richtig zu"
-	line "Mittag gegessen?"
+	para "Hast du richtig"
+	line "zu Mittag"
+	cont "gegessen?"
 	done
 
 ParryGreetNiteText:
@@ -50,9 +50,9 @@ ParryGreetNiteText:
 	line ""
 	text_ram wStringBuffer3
 	text "!"
-
-	para "Hast du richtig zu"
-	line "Abend gegessen?"
+	para "Hast du richtig"
+	line "zu Abend"
+	cont "gegessen?"
 	done
 
 ParryGenericText:
@@ -62,7 +62,7 @@ ParryGenericText:
 	para "Mein"
 	line ""
 	text_ram wStringBuffer4
-	cont "und ich — wir"
+	cont "und ich - wir"
 	cont "sehen"
 
 	para "super aus!"

@@ -484,28 +484,22 @@ Route34RichBoyIrvingScript:
 .IntroText:
 	text "Ich muss nicht um"
 	line "Münzen zocken."
-
 	para "Ich bin reich und"
 	line "habe meine #mon"
 	cont "mit Bargeld"
 	cont "gekauft!"
-
 	para "Sie sind so stark,"
 	line "dass wir die"
 	cont "Azalea-Arena"
 	cont "besiegten!"
-
 	para "Du willst gegen"
 	line "sie kämpfen? Na"
 	cont "gut--"
-
 	para "besiege zuerst"
 	line "alle anderen hier!"
-
 	para "Selbst die"
 	line "Polizistin, obwohl"
 	cont "sie vielleicht"
-
 	para "erst nachts gegen"
 	line "dich kämpft."
 	done
@@ -546,10 +540,8 @@ Route34RichBoyIrvingScript:
 	text "Du hast dir dieses"
 	line "Item wirklich"
 	cont "verdient."
-
 	para "Verkaufe es und"
 	line "geh shoppen,"
-
 	para "oder behalte es"
 	line "als Erinnerung an"
 	cont "unseren Kampf."
@@ -563,7 +555,6 @@ GenericTrainerPokefanmBrandon:
 	cont "von denen ich"
 	cont "nicht wusste, dass"
 	cont "es sie hat."
-
 	para "Das war überaus"
 	line "erstaunlich!"
 	done
@@ -612,18 +603,17 @@ TrainerCooltrainerfKate:
 	jumpthisopenedtext
 
 CooltrainerfKateAfterText:
-	text "EDNA: Bitte "
+	text "EDNA: Bitte"
 	line "entschuldige, dass"
 	cont "wir dich"
 	cont "überfallen haben."
-
 	para "Wir hätten nicht"
 	line "gedacht, dass uns"
-
 	para "hier jemand"
 	line "findet. Du hast"
 	cont "uns überrascht."
 	done
+
 
 
 
@@ -649,25 +639,22 @@ Route34MovementData_LyraEntersDayCare:
 	step_end
 
 Route34LyraText_Grandpa:
-	text "Lyra: Opa!"
+	text "LYRA: Opa!"
 	done
 
 Route34LyraGoodWorkText:
-	text "Lyra: Gut gemacht,"
+	text "LYRA: Gut gemacht,"
 	line "Opa!"
-
 	para "Die #mon, die"
-	line "du für mich"
+	line "für mich"
 	cont "aufgezogen hast,"
 	cont "sind topfit!"
-
 	para "Du siehst auch fit"
 	line "aus!"
 	done
 
 Route34LyraGreetingText:
-	text "Lyra: Hi,"
-	line "<PLAYER>!"
+	text "LYRA: Hi, <PLAYER>!"
 	done
 
 Route34LyraIntroductionText:
@@ -701,14 +688,14 @@ Route34LyraLossText:
 	done
 
 Route34LyraFollowMeText:
-	text "Lyra: Ich stelle"
+	text "LYRA: Ich stelle"
 	line "dich auch Oma vor!"
 	done
 
 BreederJulieSeenText:
 	text "Hier trainiere ich"
-	line "meine Baby-"
-	cont "#mon!"
+	line "meine"
+	cont "Baby-#mon!"
 	done
 
 BreederJulieBeatenText:
@@ -721,10 +708,10 @@ CamperTodd1SeenText:
 	text "Ich weiß, dass ich"
 	line "#mon gut"
 	cont "aufziehen kann."
-
 	para "Möchtest du dich"
 	line "davon überzeugen?"
 	done
+
 
 
 
@@ -736,6 +723,7 @@ CamperTodd1BeatenText:
 	text "Habe ich falsch"
 	line "trainiert?"
 	done
+
 
 
 
@@ -759,10 +747,10 @@ CamperTodd1AfterText:
 
 
 
+
 CamperToddSaleText:
 	text "Einkaufen unter"
 	line "freiem Himmel!"
-
 	para "Es ist schön auf"
 	line "einem Dach."
 	done
@@ -773,10 +761,10 @@ CamperToddSaleText:
 
 
 
+
 PicnickerGina1SeenText:
 	text "Bist du ein"
 	line "Trainer?"
-
 	para "Hast du Lust auf"
 	line "einen Übungskampf?"
 	done
@@ -787,10 +775,13 @@ PicnickerGina1SeenText:
 
 
 
+
 PicnickerGina1BeatenText:
-	text "Ach nein! Ich habe"
-	line "noch nie gewonnen…"
+	text "Oh nein! Ich habe"
+	line "noch nie gewonnen"
+	cont "…"
 	done
+
 
 
 
@@ -811,6 +802,7 @@ PicnickerGina1AfterText:
 
 
 
+
 OfficerfMaraSeenText:
 	text "Wer ist da? Was"
 	line "ist dein Begehr?"
@@ -824,7 +816,6 @@ OfficerfMaraAfterText:
 	text "Ja, heute sehe ich"
 	line "nichts"
 	cont "Verdächtiges."
-
 	para "Sei brav und mach"
 	line "keinen Ärger."
 	done
@@ -840,11 +831,11 @@ PokefanmBrandonSeenText:
 	line "mein #mon aus"
 	cont "der PENSION wieder"
 	cont "abgeholt."
-
 	para "Sehen wir mal, wie"
 	line "stark es geworden"
 	cont "ist!"
 	done
+
 
 
 
@@ -863,10 +854,12 @@ PokefanmBrandonBeatenText:
 
 
 
+
 CooltrainerfIreneSeenText:
 	text "LOLA: Uargh! Wir"
 	line "sind entdeckt!"
 	done
+
 
 
 
@@ -885,14 +878,15 @@ CooltrainerfIreneBeatenText:
 
 
 
+
 CooltrainerfIreneAfterText2:
 	text "LOLA: Ist dieser"
 	line "Strand nicht"
 	cont "herrlich?"
-
 	para "Er ist unsere"
 	line "geheime Zuflucht!"
 	done
+
 
 
 
@@ -912,6 +906,7 @@ CooltrainerfJennSeenText:
 
 
 
+
 CooltrainerfJennBeatenText:
 	text "ELSE: Es tut mir"
 	line "so Leid,"
@@ -924,11 +919,13 @@ CooltrainerfJennBeatenText:
 
 
 
+
 CooltrainerfJennAfterText2:
 	text "ELSE: Sonnenlicht"
 	line "kräftigt deinen"
 	cont "Körper."
 	done
+
 
 
 
@@ -949,12 +946,14 @@ CooltrainerfKateSeenText:
 
 
 
+
 CooltrainerfKateBeatenText:
 	text "EDNA: Nein! Ich"
 	line "kann nicht"
 	cont "glauben, dass ich"
 	cont "verloren habe."
 	done
+
 
 
 
@@ -972,14 +971,13 @@ CooltrainerfKateOfferPowerHerbText:
 	done
 Route34SignText:
 	text "ROUTE 34"
-
-	para "DUKATIA CITY -"
-	line "AZALEA CITY"
-
+	para "DUKATIA CITY"
+	line "-AZALEA CITY"
 	para "STEINEICHENWALD"
 	line "Irgendwo"
 	cont "dazwischen"
 	done
+
 
 
 
@@ -1005,19 +1003,16 @@ Route34TrainerTipsText:
 
 
 
+
 Route34AdvancedTipsSignText:
 	text "Profi-Tipps!"
-
 	para "Manche #mon"
 	line "haben von Natur"
-
 	para "aus mehr Potenzial"
 	line "als andere!"
-
 	para "Aber alle #mon"
 	line "können im Kampf"
 	cont "Einsatz zeigen"
-
 	para "oder Vitamine"
 	line "nehmen, um stärker"
 	cont "zu werden!"
@@ -1025,11 +1020,11 @@ Route34AdvancedTipsSignText:
 
 DayCareSignText:
 	text "PENSION"
-
-	para "Wir ziehen dein"
-	line "#mon für dich"
-	cont "auf!"
+	para "Wir Ziehen Dein"
+	line "#mon Für Dich"
+	cont "Auf!"
 	done
+
 
 
 

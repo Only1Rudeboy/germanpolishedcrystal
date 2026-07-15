@@ -109,7 +109,7 @@ RuinsOfAlphHoOhChamberDescriptionText:
 	text "Ein #mon, das"
 	line "mittels"
 
-	para "regenbogenfarbener"
+	para "regenbogenfarbene"
 	line "Schwingen grazil"
 	cont "durch die Lüfte"
 	cont "schwebte."

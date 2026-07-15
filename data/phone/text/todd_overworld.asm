@@ -1,15 +1,13 @@
 ToddAskNumber1Text:
-	text "Von hier sieht man"
-	line "das Kaufhaus"
-
+	text "Von hier sieht"
+	line "man das Kaufhaus"
 	para "Dukatia. Auf dem"
-	line "Dach gibt's ab und"
-
+	line "Dach gibt's ab"
+	cont "und"
 	para "zu"
 	line "Schlussverkäufe."
 	cont "Darf ich deine"
 	cont "Nummer?"
-
 	para "Ich ruf an beim"
 	line "nächsten Sale."
 	done
@@ -24,8 +22,8 @@ ToddAskNumber2Text:
 
 ToddNumberAcceptedText:
 	text "Ich checke das"
-	line "Kaufhaus täglich —"
-
+	line "Kaufhaus täglich"
+	cont "-"
 	para "ich weiß, wann"
 	line "Sale ist."
 	done
@@ -43,7 +41,8 @@ ToddNumberDeclinedText:
 
 ToddPhoneFullText:
 	text "Dein Telefon hat"
-	line "keinen Platz mehr."
+	line "keinen Platz"
+	cont "mehr."
 	done
 
 ToddRematchText:

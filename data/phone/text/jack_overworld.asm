@@ -1,27 +1,22 @@
 JackAskNumber1Text:
 	text "Dein Wissen ist"
 	line "beeindruckend!"
-
 	para "Das gefällt mir!"
 	line "Tauschen wir"
 	cont "Kampftipps?"
-
 	para "Ich ruf an bei"
 	line "guten Infos."
-
-	para "Gibst du mir deine"
-	line "Nummer?"
+	para "Gibst du mir"
+	line "deine Nummer?"
 	done
 
 JackAskNumber2Text:
 	text "Tauschen wir"
 	line "Kampftipps?"
-
 	para "Ich ruf an bei"
 	line "guten Infos."
-
-	para "Gibst du mir deine"
-	line "Nummer?"
+	para "Gibst du mir"
+	line "deine Nummer?"
 	done
 
 JackNumberAcceptedText:
@@ -30,7 +25,7 @@ JackNumberAcceptedText:
 	done
 
 JackNumberDeclinedText:
-	text "Oh, OK. Schade…"
+	text "Oh, O.K.. Schade…"
 
 	para "Wenn du meine"
 	line "Nummer willst,"
@@ -40,9 +35,8 @@ JackNumberDeclinedText:
 JackPhoneFullText:
 	text "Oh? Dein Telefon"
 	line "ist voll."
-
-	para "Meine Nummer passt"
-	line "nicht rein."
+	para "Meine Nummer"
+	line "passt nicht rein."
 	done
 
 JackRematchText:

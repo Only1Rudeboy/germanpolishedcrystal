@@ -136,19 +136,14 @@ IlexForestCharcoalApprenticeScript:
 	text "Oh nein… Mein Chef"
 	line "wird stinksauer"
 	cont "sein…"
-
 	para "Das PORENTA, das"
-	line "für die Holz-"
-
-	para "kohle Bäume"
-	line "zerschneidet, ist"
+	line "für die Holzkohle"
+	cont "Bäume"
+	cont "zerschneidet, ist"
 	cont "mir abgehauen."
-
-	para "Ich kann hier im"
-	line "STEINEICHEN-WALD"
-	cont "nicht nach ihm"
-	cont "suchen."
-
+	para "Im STEINEICHENWALD"
+	line "kann ich nicht"
+	cont "nach ihm suchen."
 	para "Er ist mir zu"
 	line "groß, dunkel und"
 	cont "gruselig…"
@@ -451,17 +446,16 @@ GenericTrainerBugCatcherWayne:
 
 	text "Ein #mon, das"
 	line "ich noch nie zuvor"
-
 	para "sah, fiel aus dem"
 	line "Baum, als ich"
 	cont "KOPFNUSS"
 	cont "einsetzte."
-
 	para "Ich sollte"
 	line "KOPFNUSS auch an"
 	cont "anderen Stellen"
 	cont "einsetzen."
 	done
+
 IlexForestShrineScript:
 	checkevent EVENT_FOREST_IS_RESTLESS
 	iffalsefwd .DontDoCelebiEvent
@@ -863,31 +857,17 @@ MovementData_IlexForestLyraLeaves:
 
 
 IlexForestApprenticeAfterText:
-	text "Wow! Vielen Dank"
-	line "auch!"
-
-	para "Die #mon von"
-	line "meinem Boss"
-	cont "gehorchen mir"
-	cont "nicht, da ich"
-	cont "keinen ORDEN"
-	cont "besitze."
+	text "Toll! Vielen Dank!"
+	para "Die #mon meines"
+	line "Chefs gehorchen"
+	cont "mir nicht - ich"
+	cont "habe keinen ORDEN."
 	done
-
-
-
-
-
 Text_ItsTheMissingPokemon:
 	text "Das ist das"
 	line "verschollene"
 	cont "#mon!"
 	done
-
-
-
-
-
 Text_Kwaaaa:
 	text "PORENTA: Quack!"
 	done
@@ -896,55 +876,34 @@ Text_Kwaaaa:
 
 
 
+
 Text_CharcoalMasterIntro:
 	text "Ah! Mein PORENTA!"
-
 	para "Du hast es für uns"
 	line "gefunden?"
-
-	para "Wir können ohne es"
-	line "nicht den"
-
-	para "ZERSCHNEIDER"
-	line "einsetzen, mit dem"
-	cont "wir Bäume fällen,"
-	cont "um Holzkohle zu"
-	cont "finden."
-
+	para "Ohne es können wir"
+	line "ZERSCHNEIDER nicht"
+	cont "nutzen, um Bäume"
+	cont "zu fällen."
 	para "Danke!"
-
 	para "Wie kann ich dir"
 	line "danken…"
-
-	para "Ah genau! Nimm"
+	para "Ah, genau! Nimm"
 	line "dies."
 	done
-
-
-
-
-
 Text_CharcoalMasterOutro:
 	text "Diese VM enthält"
 	line "ZERSCHNEIDER."
-
 	para "Bring sie einem"
 	line "#mon bei, um"
 	cont "kleine Sträucher"
 	cont "zu zerschneiden."
-
-	para "Du benötigst noch"
-	line "den ORDEN aus der"
-
-	para "#mon-ARENA von"
-	line "AZALEA CITY, um"
+	para "Du brauchst den"
+	line "ORDEN aus der"
+	cont "PKMN-ARENA von"
+	cont "AZALEA CITY, um"
 	cont "sie einzusetzen."
 	done
-
-
-
-
-
 Text_CharcoalMasterTalkAfter:
 	text "Soll ich dich"
 	line "lehren, wie man"
@@ -960,19 +919,18 @@ Text_CharcoalMasterTalkAfter:
 
 
 
+
 Text_HeadbuttIntro:
 	text "Was ich mache? Ich"
 	line "setze"
-
 	para "KOPFNUSS ein, um"
 	line "Bäume zu"
-
 	para "schütteln. Das"
 	line "macht Spaß!"
-
 	para "Probier es doch"
 	line "auch einmal!"
 	done
+
 
 
 
@@ -1014,164 +972,111 @@ Text_IlexForestLass:
 
 
 
+
 Text_IlexForestMossRock:
 	text "Der Felsen ist mit"
 	line "Moos bedeckt."
-
 	para "Er fühlt sich"
 	line "angenehm kühl an."
 	done
 
 IlexForestSignpost:
-	text "Der STEINEICHEN-"
-	line "WALD ist so dicht,"
-
-	para "dass man den"
-	line "Himmel nicht sehen"
-	cont "kann."
-
+	text "Der"
+	line "STEINEICHENWALD"
+	cont "ist so dicht, dass"
+	cont "man den Himmel"
+	cont "nicht sieht."
 	para "Halte Ausschau"
 	line "nach verlorenen"
 	cont "Gegenständen."
 	done
 IlexForestTrainerTips:
 	text "Trainer-Tipps"
-
 	para "Solange du eine VM"
-	line "in deinem RUCKSACK"
-	cont "hast,"
-
-	para "und ein #mon im"
-	line "Team, das die VM"
-
-	para "einsetzen kann,"
-	line "kannst du sie"
-
-	para "auch außerhalb von"
-	line "Kämpfen nutzen."
-
+	line "im Beutel hast und"
+	cont "ein #mon im"
+	cont "Team, das sie"
+	cont "einsetzen kann,"
+	para "kannst du sie auch"
+	line "außerhalb von"
+	cont "Kämpfen nutzen."
 	para "Du musst sie ihm"
-	line "nicht mal"
+	line "nicht einmal"
 	cont "beibringen!"
 	done
-
 Text_IlexForestShrine:
 	text "STEINEICHENWALD-"
 	line "SCHREIN…"
-
 	para "Er wurde zu Ehren"
 	line "des Waldpatrons"
 	cont "aufgestellt…"
 	done
-
-
-
-
-
 Text_ShrineCelebiEvent:
 	text "STEINEICHENWALD-"
 	line "SCHREIN…"
-
 	para "Er wurde zu Ehren"
 	line "des Waldpatrons"
 	cont "aufgestellt…"
-
-	para "Ach? Was ist das?"
-
-	para "Ein Loch. Es"
-	line "scheint, als ob"
-
-	para "der GS-BALL genau"
-	line "hier hinein passt."
-
+	para "Oh? Was ist das?"
+	para "Ein Loch. Der"
+	line "GS-BALL passt"
+	cont "genau hinein."
 	para "Den GS-BALL hier"
 	line "hineinlegen?"
 	done
-
-
-
-
-
 Text_InsertGSBall:
 	text "<PLAYER> legt den"
 	line "GS-BALL hinein."
 	done
-
-
-
-
-
 Text_KurtCaughtCelebi:
-	text "Wow, das war doch"
-	line "schon etwas!"
-
+	text "Wow, das war schon"
+	line "etwas!"
 	para "<PLAYER>, das war"
 	line "klasse. Danke!"
-
 	para "Die Legenden um"
 	line "diesen SCHREIN"
 	cont "waren doch wahr."
-
 	para "Ich fühle mich"
 	line "dadurch beflügelt."
-
-	para "Es spornt mich an,"
-	line "bessere BÄLLE zu"
-	cont "fertigen!"
-
-	para "Ich gehe!"
 	done
-
-
-
-
-
 Text_CelebiDancedBeautifully:
-	text "Celebi hat"
+	text "CELEBI hat"
 	line "wunderschön"
 	cont "getanzt!"
 	done
 
 Text_IlexForestLyraHello:
-	text "Lyra: Hi,"
-	line "<PLAYER>. Kennst"
-	cont "du die"
-
+	text "LYRA: Hi, <PLAYER>."
+	line "Kennst du die"
 	para "Legende vom"
 	line "SCHREIN?"
-
 	para "Man sagt, dass"
 	line "Leute"
 	cont "verschwinden,"
-
 	para "wenn sie ihn"
 	line "stören."
 	done
 
 Text_IlexForestLyraWhatWasThat:
-	text "Lyra: … Was war"
+	text "LYRA: … Was war"
 	line "das?"
 	done
 
 Text_IlexForestLyraWorried:
-	text "Lyra: …<PLAYER>?"
-	line "Du bist wirklich"
+	text "LYRA: …<PLAYER>? Du"
+	line "bist wirklich"
 	cont "zurück?"
-
 	para "Ich hab dich so"
 	line "vermisst! Celebi"
-
 	para "hat mich hierher"
 	line "geschickt und du"
 	cont "warst weg…"
-
 	para "Ich dachte, du"
 	line "bleibst für immer"
-	cont "in der Vergangen-"
-	cont "heit stecken!"
-
+	cont "in der"
+	cont "Vergangenheit"
+	cont "stecken!"
 	para "…"
-
 	para "Wenigstens sind"
 	line "wir beide wieder"
 	cont "sicher in unserer"
@@ -1179,30 +1084,26 @@ Text_IlexForestLyraWorried:
 	done
 
 Text_IlexForestLyraArmorSuit:
-	text "Lyra: Was für ein"
+	text "LYRA: Was für ein"
 	line "seltsames"
 	cont "Abenteuer hattest"
 	cont "du allein?"
-
 	para "Das hast du fallen"
 	line "lassen, als Celebi"
-	cont "dich"
-	cont "zurückbrachte…"
+	cont "dich zurückbrachte"
+	cont "…"
 	done
 
 Text_IlexForestLyraGoodbye:
-	text "Lyra: Das war ein"
+	text "LYRA: Das war ein"
 	line "echt seltsamer"
 	cont "Tag."
-
 	para "Ich bin erschöpft,"
 	line "ich gehe jetzt"
 	cont "besser."
-
 	para "Du solltest dich"
 	line "auch ausruhen,"
 	cont "<PLAYER>."
-
 	para "Bis bald!"
 	done
 
@@ -1218,6 +1119,7 @@ BugCatcherWayneSeenText:
 
 
 
+
 BugCatcherWayneBeatenText:
 	text "Dieses #mon"
 	line "habe ich noch nie"
@@ -1228,8 +1130,10 @@ BugCatcherWayneBeatenText:
 
 
 
+
 IlexForestHoneyBoyText:
 	text "Ich schmiere"
+	done
 if DEF(FAITHFUL)
 	line "Honig auf den"
 	cont "Boden."
@@ -1245,7 +1149,7 @@ endc
 	para "So lockt man"
 	line "#mon auf dem"
 
-	para "gleichen Level wie"
+	para "gleichen Level"
 	line "ich an, für faire"
 	cont "Kämpfe."
 	done

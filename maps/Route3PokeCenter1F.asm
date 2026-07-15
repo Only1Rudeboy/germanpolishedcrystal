@@ -24,16 +24,12 @@ PokemonJournalKarenScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Top Vier"
-	line "Melanie!"
-
-	para "Melanie soll mit"
+	line "MELANIE!"
+	para "MELANIE soll mit"
 	line "Unlicht-#mon"
-
 	para "trainiert haben,"
 	line "um ihren düsteren"
-
 	para "Ruf zu überwinden."
 	done
 
@@ -62,12 +58,9 @@ Route3PokeCenter1FPokefanM1Text:
 
 Route3PokeCenter1FPokefanM2Text:
 	text "Ich erinnere mich:"
-
 	para "Als ich den Berg"
-
 	para "bestieg, stand"
 	line "hier noch nichts."
-
 	para "Heute ist alles"
 	line "bequemer."
 	done
@@ -75,10 +68,8 @@ Route3PokeCenter1FPokefanM2Text:
 Route3PokeCenter1FYoungsterText:
 	text "Viele Trainer sind"
 	line "am Berg."
-
 	para "Und viele wilde"
 	line "#mon auch."
-
 	para "Man weiß nie, wen"
 	line "oder was man"
 	cont "trifft."

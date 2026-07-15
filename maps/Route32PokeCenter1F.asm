@@ -24,18 +24,13 @@ PokemonJournalKurtScript:
 	jumpthistext
 
 	text "#mon Journal"
-
 	para "Spezial: Meister"
-	line "Kurt!"
-
-	para "Kurt lässt niemand"
+	line "KURT!"
+	para "KURT lässt niemand"
 	line "näher,"
-
 	para "wenn er"
-
 	para "#Bälle fertigt"
-	line "— außer seiner"
-
+	line "- außer seiner"
 	para "Enkelin Maizie."
 	done
 
@@ -60,13 +55,10 @@ Route32Pokecenter1FFishingGuruScript:
 	text "Das ist ein"
 	line "hervorragender"
 	cont "Platz zum Angeln."
-
 	para "Du hast Leute beim"
 	line "Angeln"
-
 	para "gesehen? Wie steht"
 	line "es mit dir?"
-
 	para "Hättest du gerne"
 	line "eine ANGEL von"
 	cont "mir?"
@@ -74,7 +66,6 @@ Route32Pokecenter1FFishingGuruScript:
 .YesText:
 	text "He! Das höre ich"
 	line "wirklich gerne!"
-
 	para "Jetzt bist du auch"
 	line "ein Angler!"
 	done
@@ -92,7 +83,7 @@ Route32Pokecenter1FFishingGuruScript:
 	done
 .NoText:
 	text "Na, das ist aber"
-	line "ziemlich mager…"
+	line "ziemlich mager …"
 	done
 .DoneText:
 	text "Moin, lüttes Ding."
@@ -140,7 +131,6 @@ Route32PokeCenter1FPokefanMScript:
 .Text2:
 	text "Nein? Was für eine"
 	line "Schande!"
-
 	para "Ich zeige dir, wie"
 	line "toll Aprikokos"
 	cont "sind!"
@@ -166,12 +156,10 @@ Route32PokeCenter1FPokefanMScript:
 Route32Pokecenter1FCooltrainerFText:
 	text "Was soll mein"
 	line "#mon tragen?"
-
 	para "Vielleicht ein"
 	line "Item, das seinen"
-
 	para "ANGR-Wert"
-	line "verstärkt…"
+	line "verstärkt …"
 	done
 
 

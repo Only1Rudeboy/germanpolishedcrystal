@@ -29,14 +29,12 @@ CeladonDevelopmentSpeechHouseCooltrainermText:
 
 CeladonDevelopmentSpeechHouseBeautyText:
 	text "Diese Stadt war"
-	line "mal ein Zufluchts-"
-	cont "ort für Team"
-
+	line "mal ein"
+	cont "Zufluchts-ort für"
+	cont "Team"
 	para "Rocket."
-
 	para "Ich hatte Angst,"
 	line "das Haus zu"
 	cont "verlassen, solange"
-
 	para "sie hier lauerten!"
 	done

@@ -34,22 +34,21 @@ GinaLostAMonText:
 
 GinaBattleRematchText:
 	text "Willst du wieder"
-	line "mein Übungspartner"
+	line "mein"
+	cont "Übungspartner"
 	cont "sein?"
-
 	para "Ich warte auf"
-	line ""
+	done
 	text_ram wStringBuffer5
 	text "."
-
-	para "…Könntest du mich"
-	line "nächstes Mal etwas"
-	cont "schonen?"
+	para "… Könntest du"
+	line "mich nächstes Mal"
+	cont "etwas schonen?"
 	done
 
 GinaHangUpText:
-	text "Tschüss! Reden wir"
-	line "wieder!"
+	text "Tschüss! Reden"
+	line "wir wieder!"
 	done
 
 GinaRocketTakeoverRumorText:
@@ -81,13 +80,12 @@ GinaFoundItemText:
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, noch nichts"
-	line "Nützliches"
-	cont "gefunden…"
-
+	text "Tut mir leid, noch"
+	line "nichts Nützliches"
+	cont "gefunden …"
 	para "Wenn ich was"
-	line "finde, bekommst du"
-	cont "es!"
+	line "finde, bekommst"
+	cont "du es!"
 	done
 
 GinaReminderText:
@@ -103,11 +101,10 @@ GinaReminderText:
 
 GinaComePickUpText:
 	text "Ich werde"
-	line "ungeduldig mit dem"
-	cont "Geschenk!"
-
+	line "ungeduldig mit"
+	cont "dem Geschenk!"
 	para "Beeil dich nach"
-	line ""
+	done
 	text_ram wStringBuffer5
 	text "!"
 	done

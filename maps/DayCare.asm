@@ -191,35 +191,27 @@ DayCareMovementData_LyraLeaves:
 	step_end
 
 DayCareLyraHelloText:
-	text "Lyra: Oma!"
-
+	text "LYRA: Oma!"
 	para "Lass mich dir"
 	line "jemanden"
 	cont "vorstellen."
-
 	para "Das ist <PLAYER>!"
-
 	para "Oma: Aha."
-
 	para "Das ist wohl dein"
-	line ""
+	done
 	text_ram wStringBuffer3
 
 	para "Verstehe. Hmm."
 	done
 
 DayCareLyraProtestText:
-	text "Lyra: Was? Oma…!"
-
+	text "LYRA: Was? Oma …!"
 	para "Wovon redest du?"
-
 	para "<PLAYER> wohnt nur"
-	line "in der Nähe…"
-
+	line "in der Nähe …"
 	para "Oma: Hahaha. Schon"
 	line "gut, schon gut."
-
-	para ""
+	done
 	text_ram wStringBuffer4
 
 	para "Stimmt's,"
@@ -228,23 +220,22 @@ DayCareLyraProtestText:
 	done
 
 DayCareLyraGoodbyeText:
-	text "Lyra: Ich sollte"
+	text "LYRA: Ich sollte"
 	line "jetzt gehen…"
 	cont "Tschüss!"
 	done
 
 DayCareLyraForgotText:
-	text "Lyra: Ach! Fast"
+	text "LYRA: Ach! Fast"
 	line "vergessen!"
-
 	para "Hier! Das ist"
-	line "meine #Com-"
-	cont "Nummer!"
+	line "meine"
+	cont "#Com-Nummer!"
 	done
 
 GotLyrasNumberText:
 	text "Du speicherst"
-	line "Lyras Nummer."
+	line "LYRAs Nummer."
 	done
 
 DayCareLyraHasInfoText:
@@ -262,7 +253,7 @@ DayCareLyraHasInfoText:
 	done
 
 DayCareLyraEmbarassedText:
-	text "Lyra: Oma!"
+	text "LYRA: Oma!"
 
 	para "Hör auf damit!"
 
@@ -284,31 +275,26 @@ Text_GrampsLookingForYou:
 
 
 
+
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	text "Ich bin der"
 	line "PENSIONSLEITER."
-
 	para "In DUKATIA CITY"
 	line "gibt es etwas"
-
 	para "Neues, das man"
 	line "TAUSCHECKE nennt."
-
 	para "Ich erhielt ein"
-	line "EI-TICKET, das"
-
+	line "EI-TICKET, dass"
 	para "man gegen ein"
 	line "KURIOS-EI"
 	cont "eintauschen kann."
-
 	para "Aber da wir eine"
 	line "PENSION leiten,"
-
 	para "brauchen wir es"
 	line "nicht. Du kannst"
-
 	para "es haben."
 	done
+
 
 
 
@@ -317,27 +303,22 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 DayCareManText_GiveOddEgg:
 	text "Ich bin der"
 	line "PENSIONSLEITER."
-
 	para "Kennst du dich mit"
 	line "EIERN aus?"
-
 	para "Ich habe #mon"
 	line "mit meiner Frau"
 	cont "aufgezogen."
-
 	para "Wir waren"
 	line "entsetzt, als wir"
 	cont "ein EI fanden!"
-
 	para "Das ist doch"
 	line "unglaublich, oder?"
-
 	para "Nun, möchtest du"
 	line "das EI? Gut, nimm"
-
 	para "es, du darfst es"
 	line "behalten!"
 	done
+
 
 
 
@@ -352,6 +333,7 @@ DayCareText_ComeAgain: ; unreferenced
 
 
 
+
 DayCareText_GotOddEgg:
 	text "<PLAYER> erhält"
 	line "KURIOS-EI!"
@@ -361,16 +343,14 @@ DayCareText_GotOddEgg:
 
 
 
+
 DayCareText_DescribeOddEgg:
 	text "Ich fand dies, als"
 	line "ich mich um ein"
-
 	para "#mon eines"
 	line "anderen Trainers"
-
 	para "kümmerte. Aber der"
 	line "Trainer wollte das"
-
 	para "EI nicht, also"
 	line "habe ich es"
 	cont "behalten."
@@ -380,10 +360,11 @@ DayCareText_DescribeOddEgg:
 
 
 
+
 DayCareLadyText_GiveLyrasEgg:
 	text "Hallo, mein Kind."
 
-	para "Lyra hat mir"
+	para "LYRA hat mir"
 	line "gesagt, dieses EI"
 	cont "ist ein Geschenk"
 	cont "für dich. Bitte!"
@@ -393,7 +374,6 @@ DayCareLadyText_DescribeLyrasEgg:
 	text "Das EI stammt von"
 	line "ihrem ersten"
 	cont "#mon."
-
 	para "Sie muss dir als"
 	line "Trainerin wirklich"
 	cont "vertrauen."

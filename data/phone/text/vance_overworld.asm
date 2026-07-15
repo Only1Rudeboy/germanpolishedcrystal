@@ -1,24 +1,20 @@
 VanceAskNumber1Text:
 	text "Du bist echt"
 	line "stark."
-
 	para "Aber ich will"
 	line "nicht einfach"
-
-	para "weggehen… Darf ich"
-	line "deine Nummer?"
-
+	para "weggehen … Darf"
+	line "ich deine Nummer?"
 	para "Lass uns öfter"
 	line "kämpfen!"
 	done
 
 VanceAskNumber2Text:
-	text "Ich will oft gegen"
-	line "starke Trainer"
-
+	text "Ich will oft"
+	line "gegen starke"
+	cont "Trainer"
 	para "kämpfen! Darf ich"
 	line "deine Nummer?"
-
 	para "Lass uns öfter"
 	line "kämpfen!"
 	done
@@ -30,10 +26,10 @@ VanceNumberAcceptedText:
 	done
 
 VanceNumberDeclinedText:
-	text "Ein Vogel-Trainer-"
-	line "Freund wäre nicht"
-	cont "schlecht…"
-
+	text "Ein"
+	line "Vogel-Trainer-"
+	cont "Freund wäre nicht"
+	cont "schlecht …"
 	para "Überlegst du's"
 	line "nochmal?"
 	done
@@ -53,18 +49,17 @@ VanceRematchText:
 VancePackFullText:
 	text "Oh, schade. Kein"
 	line "Platz."
-
-	para "Beim nächsten Mal!"
+	para "Beim nächsten"
+	line "Mal!"
 	done
 
 VanceRematchGiftText:
-	text "Du bist echt, echt"
-	line "stark!"
-
+	text "Du bist echt,"
+	line "echt stark!"
 	para "Danke für die"
-	line "vielen Kämpfe —"
+	line "vielen Kämpfe -"
 	cont "ich hab"
-
-	para "viel gelernt. Nimm"
-	line "das als Dank!"
+	para "viel gelernt."
+	line "Nimm das als"
+	cont "Dank!"
 	done

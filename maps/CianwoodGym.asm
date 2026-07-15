@@ -163,12 +163,10 @@ CianwoodGymChuckScript:
 	setevent EVENT_GOT_TM01_DYNAMICPUNCH
 	jumpthisopenedtext
 
-	text "Das ist WUCHT-"
-	line "SCHLAG."
-
+	text "Das ist"
+	line "WUCHT-SCHLAG."
 	para "Er trifft zwar"
 	line "nicht immer, aber"
-
 	para "wenn er es tut,"
 	line "verwirrt er den"
 	cont "Gegner!"
@@ -227,109 +225,80 @@ CianwoodGymMovement_ChuckChucksBoulder:
 
 ChuckIntroText1:
 	text "WAHAHAH!"
-
 	para "Du hast es also"
 	line "bis hierher"
 	cont "geschafft!"
-
 	para "Lass dir gesagt"
-	line "sein, dass ich ein"
-	cont "harter Brocken"
-	cont "bin."
-
+	line "sein: Ich bin ein"
+	cont "harter Brocken."
 	para "Meine #mon"
 	line "werden dich in"
 	cont "Grund und Boden"
 	cont "rammen!"
-
 	para "Pass auf!"
 	done
-
-
 ChuckIntroText2:
 	text "HARTWIG: Urggh! …"
-
 	para "Oooarrgh!"
 	done
-
-
 ChuckIntroText3:
 	text "Da! Jetzt hast du"
 	line "dich erschreckt!"
-
 	para "Wie? Es hat nichts"
-	line "mit"
-
-	para "#mon zu tun?"
-	line "Das ist wahr!"
-
+	line "mit #mon zu"
+	cont "tun? Das ist wahr!"
 	para "Komm her. Lass uns"
 	line "kämpfen!"
 	done
-
-
 ChuckLossText:
 	text "Wa…? Huch? Ich"
 	line "habe verloren?"
-
 	para "Wie wär's damit?"
-	line "Du bist des FAUST-"
-	cont "ORDENs würdig!"
+	line "Du bist des"
+	cont "STURMORDENs"
+	cont "würdig!"
 	done
-
-
 ChuckExplainBadgeText:
-	text "Durch den FAUSTOR-"
-	line "DEN gehorchen dir"
-
-	para "alle #mon bis"
-	line "LV 70. Dies"
-
-	para "gilt auch für"
-	line "Getauschte."
-
+	text "Durch den"
+	line "STURMORDEN"
+	cont "gehorchen dir alle"
+	cont "#mon bis LV 70"
+	cont "- auch getauschte."
 	para "Außerdem können"
 	line "deine #mon"
-
-	para "FLIEGEN auch"
-	line "außerhalb eines"
-	cont "Kampfes einsetzen."
-
+	cont "FLIEGEN auch"
+	cont "außerhalb des"
+	cont "Kampfs einsetzen."
 	para "Hier, nimm auch"
 	line "dies!"
 	done
-
-
 ChuckAfterText:
 	text "WAHAHAH! Es hat"
 	line "Spaß gemacht,"
 	cont "gegen dich zu"
 	cont "kämpfen."
-
 	para "Aber eine"
 	line "Niederlage bleibt"
 	cont "eine Niederlage!"
-
-	para "Von jetzt an werde"
-	line "ich 24 Stunden am"
-	cont "Tag trainieren!"
+	para "Von jetzt an"
+	line "trainiere ich 24"
+	cont "Stunden am Tag!"
 	done
-
-
 BlackbeltYoshiSeenText:
 	text "Meine #mon und"
 	line "mich verbindet"
 	cont "unsere"
 	cont "Freundschaft."
-
 	para "Dieses Band wird"
 	line "nie zerreißen!"
 	done
 
 
+
 BlackbeltYoshiBeatenText:
 	text "Das ist unmöglich!"
 	done
+
 
 
 BlackbeltLaoSeenText:
@@ -339,21 +308,26 @@ BlackbeltLaoSeenText:
 	done
 
 
+
 BlackbeltLaoBeatenText:
 	text "Schockierend!"
 	done
 
 
+
 BlackbeltNobSeenText:
-	text "Worte sind nutz-"
-	line "los. Lass deine"
-	cont "Fäuste sprechen!"
+	text "Worte sind"
+	line "nutzlos. Lass"
+	cont "deine Fäuste"
+	cont "sprechen!"
 	done
+
 
 
 BlackbeltNobBeatenText:
 	text "…"
 	done
+
 
 
 BlackbeltLungSeenText:
@@ -365,10 +339,12 @@ BlackbeltLungSeenText:
 	done
 
 
+
 BlackbeltLungBeatenText:
 	text "Ich wurde"
 	line "zerschmettert!"
 	done
+
 
 
 CianwoodGymBlackBeltText:
@@ -383,7 +359,6 @@ CianwoodGymBlackBeltText:
 CianwoodGymChuckTrainingText:
 	text "Er ist so in sein"
 	line "Training vertieft,"
-
 	para "dass er dich nicht"
 	line "bemerkt."
 	done

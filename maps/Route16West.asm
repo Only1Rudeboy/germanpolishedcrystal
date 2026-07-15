@@ -39,24 +39,23 @@ GenericTrainerLassGina:
 .BeatenText:
 	text "Hätte ich lieber"
 	line "Tränke statt"
-	cont "Klamotten gekauft…"
+	cont "Klamotten gekauft"
+	cont "…"
 	done
 
 GenericTrainerLassAlice:
 	generictrainer LASS, ALICE, EVENT_BEAT_LASS_ALICE, .SeenText, .BeatenText
 
 	text "Ich bin eigentlich"
-	line "ein Junge… Sag es"
+	line "ein Junge … Sag es"
 	cont "niemandem!"
 	done
 
 .SeenText:
 	text "Unsere Blicke"
 	line "trafen sich!"
-
 	para "Jetzt musst du mit"
 	line "mir ausgehen! ♥"
-
 	para "Ach, ich meine,"
 	line "wir müssen"
 	cont "kämpfen!"

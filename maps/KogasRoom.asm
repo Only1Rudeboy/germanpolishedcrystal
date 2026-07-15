@@ -83,36 +83,26 @@ KogaScript:
 
 .SeenText:
 	text "Fwahahahaha!"
-
 	para "Ich bin KOGA."
 	line "Einer der TOP"
-
-	para "VIER. Da ich ein"
-	line "Ninja bin, lebe"
-	cont "ich in der"
-	cont "Dunkelheit."
-
-	para "Mein komplizierter"
-	line "Stil wird dich"
-	cont "verwirren und"
+	cont "VIER."
+	para "Als Ninja lebe ich"
+	line "in der Dunkelheit."
+	para "Mein Stil wird"
+	line "dich verwirren und"
 	cont "vernichten!"
-
 	para "Verwirrung,"
 	line "Schlaf, Gift…"
-
-	para "Auch du wirst ein"
+	para "Auch du wirst"
 	line "Opfer meiner"
 	cont "hinterhältigen"
 	cont "Strategie!"
-
 	para "Fwahahahaha!"
-
 	para "Bei #mon geht"
 	line "es nicht nur um"
-
-	para "Kraft allein. Das"
-	line "wirst du noch"
-	cont "herausfinden!"
+	cont "Kraft allein. Das"
+	cont "wirst du noch"
+	cont "merken!"
 	done
 .BeatenText:
 	text "Ah! Du hast dich"
@@ -121,43 +111,34 @@ KogaScript:
 	done
 .AfterText:
 	text "Ich habe alle"
-	line "meine Register"
-	cont "gezogen."
-
-	para "Alles war umsonst."
-	line "Ich muss meine"
-	cont "Fertigkeiten"
+	line "Register gezogen."
+	cont "Alles umsonst."
+	para "Ich muss meine"
+	line "Fertigkeiten"
 	cont "verbessern."
-
 	para "Betritt den"
 	line "nächsten Raum und"
-	cont "stelle dein Können"
-	cont "unter Beweis!"
+	cont "beweise dein"
+	cont "Können!"
 	done
 .SeenRematchText:
 	text "Deine Ankunft ist"
-	line "wirklich"
-	cont "beeindruckend,"
-	cont "genauso wie dein"
+	line "beeindruckend"
+	cont "-genauso wie dein"
 	cont "entschlossener"
 	cont "Blick."
-
 	para "Fwahahahaha!"
-
 	para "Meine Fertigkeit"
 	line "wird schwer zu"
 	cont "überwinden sein!"
-
 	para "Ich zeige dir, was"
 	line "ich meine!"
 	done
-
 .AfterRematchText:
 	text "Noch nie habe ich"
 	line "jemanden wie dich"
 	cont "getroffen."
-
 	para "Ich muss mich ganz"
-	line "meinem Training"
+	line "dem Training"
 	cont "widmen."
 	done

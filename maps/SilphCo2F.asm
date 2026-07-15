@@ -42,10 +42,8 @@ SilphCo2FEmployee1Script:
 .Text1:
 	text "Du bist aus Johto"
 	line "hierher gereist?"
-
 	para "Weil du so weit"
 	line "gekommen bist,"
-
 	para "nimm dieses kleine"
 	line "Andenken."
 	done
@@ -53,21 +51,18 @@ SilphCo2FEmployee1Script:
 .Text2:
 	text "Das ist das"
 	line "neueste Produkt"
-
 	para "der SILPH CO. Das"
-	line "gibt es noch nir-"
-	cont "gends zu kaufen."
+	line "gibt es noch"
+	cont "nirgends zu"
+	cont "kaufen."
 	done
 SilphCo2FSilphEmployee2Text:
 	text "Früher nutzten wir"
 	line "Teleporter"
-
-	para "Hin- und Herkom-"
-	line "men, aber sie"
-
+	para "Hin- und Her-"
+	line "kommen, aber sie"
 	para "wurden"
 	line "abgeschaltet."
-
 	para "Gut, dass ich im"
 	line "zweiten Stock bin!"
 	done
@@ -76,13 +71,10 @@ SilphCo2FScientist1Text:
 	text "Wir arbeiten"
 	line "ständig an neuen"
 	cont "TMs."
-
 	para "Manche wurden"
 	line "eingestellt, aber"
-
 	para "andere sind so"
 	line "beliebt, dass sie"
-
 	para "seit über 30"
 	line "Jahren unverändert"
 	cont "sind!"
@@ -94,7 +86,7 @@ SilphCo2FScientist2Text:
 	done
 
 SilphCo2FDeptSignText:
-	text "Silph Co. 2F"
+	text "SILPH CO. 2S"
 	line "Software-Entw."
 	done
 

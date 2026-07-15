@@ -46,14 +46,13 @@ CinnabarIslandBlue:
 	text "Willst du gegen"
 	line "mich kämpfen, zeig"
 	cont "mir"
-
-	para "wie viele KANTO-"
-	line "Orden du hast."
-
-	para "Weniger als"
-	line "sieben… Du bist"
-	cont "noch nicht bereit"
-	cont "für mich."
+	para "wie viele"
+	line "KANTO-Orden du"
+	cont "hast."
+	para "Weniger als sieben"
+	line "… Du bist noch"
+	cont "nicht bereit für"
+	cont "mich."
 	done
 
 .Ready
@@ -67,132 +66,40 @@ CinnabarIslandBlue:
 	end
 
 CinnabarIslandBlueText:
-	text "Wer bist du?"
-
-	para "Na, du bist"
-	line "augenscheinlich"
-	cont "ein Trainer…"
-
-	para "Ich heiße BLAU."
-
-	para "Ich war einmal ein"
-	line "CHAMP, wenn auch"
-
-	para "nur für kurze"
-	line "Zeit…"
-
-	para "Dieser nervige ROT"
-	line "hat mich ganz"
-
-	para "schön"
-	line "fertiggemacht…"
-
-	para "Wie dem auch sei,"
-	line "was willst du?"
-
-	para "Willst du gegen"
-	line "mich kämpfen?"
-
-	para "…Ich sage es nur"
-	line "ungern, aber ich"
-
-	para "habe gar keine"
-	line "Lust zu kämpfen."
-
-	para "Sieh dich gut um…"
-
-	para "Ein Vulkan bricht"
-	line "aus und vernichtet"
-
-	para "auf einen Schlag"
-	line "eine ganze Stadt."
-
-	para "Wir werden"
-	line "weiterhin mit"
-	cont "unseren"
-
-	para "#mon siegen"
-	line "oder verlieren."
-
-	para "Aber wenn sich die"
-	line "Natur erhebt, ist"
-	cont "alles im Nu dahin."
-
-	para "…"
-
-	para "So ist das eben…"
-
-	para "Trotz allem bin"
-	line "ich immer noch ein"
-	cont "Trainer."
-
-	para "Wenn ich einen"
-	line "starken Gegner"
-	cont "treffe, möchte ich"
-	cont "gegen ihn kämpfen."
-
-	para "Wenn du gegen mich"
-	line "kämpfen möchtest,"
-
-	para "dann besuche die"
-	line "#mon-ARENA in"
-	cont "VERTANIA CITY."
-
-	para "Dort werde ich"
-	line "mich deiner"
-	cont "annehmen."
+	text "Yo! Ich bin BLAU,"
+	line "ARENALEITER von"
+	cont "VERTANIA!"
+	para "Die Arena hier ist"
+	line "im Vulkan…"
 	done
-
-
 CinnabarIslandBlueBattleText:
-	text "Seh ich einen"
-	line "starken Gegner,"
-	cont "will ich sofort"
-	cont "kämpfen."
+	text "Bereit für einen"
+	line "harten Kampf?"
 	done
-
 CinnabarIslandBlueReadyText:
-	text "Willst du gegen"
-	line "mich kämpfen, komm"
-	cont "in die Arena von"
-	cont "VERTANIA CITY."
-
-	para "Dort nehm ich dich"
-	line "an."
+	text "Komm nach"
+	line "VERTANIA, wenn du"
+	cont "mich herausfordern"
+	cont "willst!"
 	done
-
-
 CinnabarIslandGymSignText:
-	text "Hier ist eine"
-	line "Nachricht…"
-
-	para "Die #mon-ARENA"
-	line "der ZINNOBERINSEL"
-
-	para "wurde auf die"
-	line "SEESCHAUMINSELN"
-	cont "verlegt."
-
-	para "PYRO"
+	text "PKMN-ARENA von"
+	line "ZINNOBERINSEL"
+	para "Der Vulkan hält"
+	line "sie verborgen…"
 	done
-
-
 CinnabarIslandSignText:
 	text "ZINNOBERINSEL"
-
 	para "Die Feurige Stadt"
 	line "Brennender"
 	cont "Begierde"
 	done
-
-
 CinnabarIslandVolcanoWarningSignText:
 	text "ACHTUNG"
-
-	para "Der Zinnober-"
-	line "Vulkan schläft,"
-	cont "ist aber aktiv!"
-
+	para "Der"
+	line "Zinnober-Vulkan"
+	cont "schläft, ist aber"
+	cont "aktiv!"
 	para "Betritt ihn nicht"
 	line "ohne"
 	cont "Fluchtmöglichkeit!"

@@ -24,10 +24,10 @@ PokemonJournalMistyScript:
 
 	text "#mon Journal"
 
-	para "Spezial: Misty!"
+	para "Spezial: MISTY!"
 
-	para "Man sagt, Misty"
-	line "verehre Lorelei,"
+	para "Man sagt, MISTY"
+	line "verehre LORELEI,"
 
 	para "ein ehemaliges"
 	line "Mitglied der TOP"
@@ -39,16 +39,14 @@ CeruleanPokeCenter1FGymGuyScript:
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
 
-	text "Mit einer Ge-"
-	line "schwindigkeit von"
-
+	text "Mit einer"
+	line "Geschwindigkeit"
+	cont "von"
 	para "über 340 mph reist"
 	line "der MAGNETZUG in"
-
 	para "null Komma nichts"
 	line "zwischen KANTO und"
 	cont "JOHTO hin und her."
-
 	para "Dadurch ist JOHTO"
 	line "ganz nah."
 	done
@@ -56,13 +54,10 @@ CeruleanPokeCenter1FGymGuyScript:
 	text "Der Magnetzug"
 	line "fährt über 550"
 	cont "km/h."
-
 	para "Er verbindet Kanto"
 	line "und"
-
 	para "Johto in kürzester"
 	line "Zeit."
-
 	para "Johto ist so gut"
 	line "erreichbar."
 	done

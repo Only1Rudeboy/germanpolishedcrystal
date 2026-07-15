@@ -47,13 +47,12 @@ GenericTrainerScientistDexter:
 
 	text "Ich arbeite im"
 	line "Kraftwerk."
-
 	para "Wir nutzen den"
 	line "Wasserfall aus"
-
 	para "dieser Höhle für"
-	line "saubere, erneuer-"
-	cont "bare Energie!"
+	line "saubere,"
+	cont "erneuerbare"
+	cont "Energie!"
 	done
 
 .SeenText:

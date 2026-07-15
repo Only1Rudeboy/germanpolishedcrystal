@@ -82,7 +82,6 @@ RocketHideoutB1FScientistSanders:
 	text "Leiterin Blanche"
 	line "ist eine"
 	cont "Strategin."
-
 	para "Sie entscheidet,"
 	line "wo wir stationiert"
 	cont "sind."
@@ -91,7 +90,6 @@ RocketHideoutB1FScientistSanders:
 .SeenText:
 	text "Team Mystic"
 	line "schätzt Strategie."
-
 	para "Nur ein starker"
 	line "Verstand kann hier"
 	cont "siegen."
@@ -126,7 +124,7 @@ RocketHideoutB1FPicnickerZane:
 
 .BeatenText:
 	text "Du hast diesen"
-	line "“Funken”."
+	line "'Funken'."
 
 	para "Behalte ihn!"
 	done
@@ -137,7 +135,6 @@ RocketHideoutB1FBattleGirlSasha:
 	text "Die Flamme von"
 	line "Valor brennt in"
 	cont "dir."
-
 	para "Candelas Prüfung"
 	line "wird deine Grenzen"
 	cont "testen."
@@ -163,7 +160,6 @@ RocketHideoutB1FLassMavis:
 
 	text "Sparks Kämpfe sind"
 	line "unberechenbar."
-
 	para "Deshalb mische ich"
 	line "es!"
 	done
