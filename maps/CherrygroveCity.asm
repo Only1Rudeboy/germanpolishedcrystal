@@ -157,9 +157,10 @@ CherrygroveYoungsterScript:
 	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HavePokedex
 	jumpthistextfaceplayer
 
-	text "Das Haus von Mr."
-	line "#mon ist noch"
-	cont "weiter vorne."
+	; GSC-DE Dump
+	text "Das Haus von"
+	line "MR. #mon ist"
+	cont "gleich da vorne!"
 	done
 
 MysticWaterGuy:
@@ -277,15 +278,18 @@ CherrygroveCity_RivalComesBack:
 	step_end
 
 GuideGentIntroText:
+	; GSC-DE Dump
 	text "Du bist doch ein"
 	line "Anfänger, oder?"
-	para "Das ist o.k.! Es"
+
+	para "Das ist O.K.! Es"
 	line "ist noch kein"
 	cont "Meister vom Himmel"
 	cont "gefallen!"
+
 	para "Wenn du willst,"
-	line "zeige ich dir ein"
-	cont "paar Tricks."
+	line "bringe ich dir ein"
+	cont "paar Tricks bei."
 	done
 
 GuideGentPokeCenterText:
@@ -360,6 +364,7 @@ GuideGentGiftText:
 
 
 GotMapCardText:
+	; GSC-DE Dump
 	text "Der #COM von"
 	line "<PLAYER> verfügt"
 	cont "nun über eine"

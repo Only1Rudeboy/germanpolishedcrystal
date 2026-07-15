@@ -250,10 +250,11 @@ Route29TeacherText:
 	line "hinaufklettern,"
 	cont "aber"
 	cont "hinunterspringen!"
-	para "So kommst du nach"
-	line "Neuborkia, ohne"
-	para "durchs Gras zu"
-	line "laufen."
+	para "Du kannst nach"
+	line "NEUBORKIA gehen,"
+
+	para "ohne durch das"
+	line "Gras zu laufen."
 	done
 
 

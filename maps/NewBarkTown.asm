@@ -308,8 +308,10 @@ Text_YourMonIsAdorable:
 
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAYER>! Du"
-	line "gehst schon?"
+	; GSC-DE Dump
+	text "Hi, <PLAYER>!"
+	line "Du gehst schon?"
+
 	para "Gib deiner Mama"
 	line "Bescheid, wenn du"
 	cont "gehst."
@@ -322,11 +324,12 @@ Text_TellMomIfLeaving:
 
 
 Text_CallMomOnGear:
+	; GSC-DE Dump
 	text "Ruf deine Mama mit"
-	line "dem #Com"
-	para "an, damit sie"
-	line "weiß, was du"
-	cont "machst."
+	line "dem #COM an,"
+
+	para "damit sie weiß,"
+	line "was du machst."
 	done
 
 
@@ -352,9 +355,10 @@ Text_ElmDiscoveredNewMon:
 
 NewBarkTownRivalText1:
 	text "…"
+
 	para "Das ist also das"
-	line "berühmte Labor von"
-	cont "PROF. LIND …"
+	line "berühmte LIND-"
+	cont "#MON-LABOR…"
 	done
 
 
@@ -364,7 +368,7 @@ NewBarkTownRivalText1:
 
 
 NewBarkTownRivalText2:
-	text "… Was starrst du"
+	text "…Was starrst du"
 	line "so?"
 	done
 
@@ -458,7 +462,7 @@ PlayersHouseSignText:
 	text "Haus von <PLAYER>"
 	done
 ElmsLabSignText:
-	text "LIND-#mon-LABOR"
+	text "LIND-#MON-LABOR"
 	done
 LyrasHouseSignText:
 	text "LYRAs Haus"

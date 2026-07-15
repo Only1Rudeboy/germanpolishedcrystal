@@ -172,8 +172,8 @@ MomScript:
 	text "PROF. LIND wartet"
 	line "auf dich."
 
-	para "Beeil dich,"
-	line "Schatz!"
+	para "Beeile dich,"
+	line "Baby!"
 	done
 
 
@@ -195,34 +195,44 @@ if DEF(DEBUG)
 	cont "zu nutzen!"
 	done
 else
+	; Polished: LYRA-Erwähnung; sonst GSC-DE (Dump)
 	text "Ach, <PLAYER>! Du"
 	line "bist wach."
+
 	para "Deine Freundin"
 	line "LYRA war gerade"
 	cont "hier."
+
 	para "Sie sagte, unser"
 	line "Nachbar PROF. LIND"
 	cont "sucht nach dir."
+
 	para "Oh! Fast hätte ich"
 	line "es vergessen! Dein"
-	cont "#Com"
-	para "ist von der"
-	line "Reparatur zurück."
-	para "Hier, bitte sehr!"
+
+	para "#MON-COM ist"
+	line "von der Reparatur"
+	cont "zurück."
+
+	para "Da hast du ihn!"
 	done
 
 endc
 
 MomPokegearText:
-	text "Das ist dein"
-	line "#Com - dein"
-	cont "wichtigstes Gerät."
-	para "Du brauchst es auf"
-	line "deinem Weg als"
-	cont "Trainer."
+	; GSC-DE Dump
+	text "#MON-COM oder"
+	line "einfach nur"
+	cont "#COM."
+
+	para "Ein wichtiges Ge-"
+	line "rät auf deinem"
+	cont "Pfad als Trainer."
+
 	para "Oh, der Wochentag"
 	line "ist noch nicht"
 	cont "eingestellt."
+
 	para "Das darfst du"
 	line "nicht vergessen!"
 	done
@@ -233,10 +243,12 @@ MomDSTText:
 	done
 
 MomRunningShoesText:
-	text "Komm nach Hause,"
-	line "um die Uhr auf"
-	cont "Sommerzeit"
-	cont "einzustellen."
+	; GSC: Uhr SZ/WZ + Telefon; Polished: + Laufschuhe
+	text "Geh nach Hause, um"
+	line "deine Uhr auf SZ"
+	cont "oder WZ einzu-"
+	cont "stellen."
+
 	para "Weißt du, wie man"
 	line "die neuen"
 	cont "Laufschuhe"
@@ -246,9 +258,11 @@ MomRunningShoesText:
 MomInstructionsText:
 	text "Ich lese die"
 	line "Anleitung vor."
+
 	para "Halte B, um"
 	line "drinnen und"
 	cont "draußen zu laufen."
+
 	para "Oder stell die"
 	line "Option auf immer"
 	cont "laufen und halte B"
@@ -260,15 +274,22 @@ MomOutroText:
 	done
 
 MomErrandText:
-	text "Wie lautete PROF."
-	line "LINDs Auftrag?"
+	; GSC-DE Dump
+	text "Wie lautete der"
+	line "Auftrag von PROF."
+	cont "LIND?"
+
 	para "…"
+
 	para "Das klingt nach"
-	line "einer echten"
-	cont "Herausforderung."
-	para "Aber sei stolz,"
-	line "dass man sich auf"
-	cont "dich verlässt!"
+	line "einer wahren He-"
+	cont "rausforderung."
+
+	para "Aber du kannst"
+	line "stolz darauf sein,"
+	cont "dass sich die Leu-"
+	cont "te auf dich ver-"
+	cont "lassen!"
 	done
 
 MomDoItText:
