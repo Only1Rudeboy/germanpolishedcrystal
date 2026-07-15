@@ -204,24 +204,27 @@ _OakTimeQuestionMarkText::
 
 SECTION "_OakTimeOversleptText", ROMX
 _OakTimeOversleptText::
+; GSC-DE Crystal dump: "! / Ich habe / verschlafen!"
 ; printed after "Morgen/Tag … 10:00" on same line - only "!" here
 	text "!"
-	line "Verschlafen!"
+	line "Ich habe"
+	cont "verschlafen!"
 	done
 
 SECTION "_OakTimeYikesText", ROMX
 _OakTimeYikesText::
-; "Tag 10:00" + "!" then break - never put more on first line
+; GSC-DE Crystal dump: "! / Uah! Ich habe / verschlafen!"
 	text "!"
-	line "Huch! Ich hab"
+	line "Uah! Ich habe"
 	cont "verschlafen!"
 	done
 
 SECTION "ProfElmNappedText", ROMX
 ProfElmNappedText::
+; English PC: "I napped for too long!" — GSC-ton (kein „genickert“)
 	text "!"
-	line "Zu lang"
-	cont "genickert!"
+	line "Ich habe zu"
+	cont "lange geschlafen!"
 	done
 
 SECTION "_OakTimeSoDarkText", ROMX
