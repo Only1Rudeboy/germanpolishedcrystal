@@ -25,6 +25,7 @@ TradeCenter_MapScriptHeader:
 	const TRADECENTER_LINK_TRAINER2
 
 TradeCenterInitializeScene:
+	sdefer TradeCenter_Initialize
 	end
 
 

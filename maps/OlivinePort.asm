@@ -31,7 +31,7 @@ OlivinePort_MapScriptHeader:
 	const OLIVINEPORT_SAILOR3
 
 OlivinePortLeaveShipScene:
-	end
+	sdefer OlivinePortLeaveShipScript
 
 
 OlivinePortAskEnterShipScene:

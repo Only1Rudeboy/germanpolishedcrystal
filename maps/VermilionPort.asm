@@ -26,7 +26,7 @@ VermilionPort_MapScriptHeader:
 	const VERMILIONPORT_SAILOR2
 
 VermilionPortLeaveShipScene:
-	end
+	sdefer VermilionPortLeaveShipScript
 
 
 VermilionPortAskEnterShipScene:

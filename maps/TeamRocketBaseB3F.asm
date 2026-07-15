@@ -54,6 +54,7 @@ TeamRocketBaseB3F_MapScriptHeader:
 	const TEAMROCKETBASEB3F_RIVAL
 
 TeamRocketBaseB3FLanceGetsPasswordScene:
+	sdefer LanceGetPasswordScript
 	end
 
 

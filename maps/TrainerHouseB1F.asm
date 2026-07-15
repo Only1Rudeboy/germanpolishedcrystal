@@ -177,8 +177,9 @@ TrainerHouseB1FIntroText:
 
 
 TrainerHouseB1FYourOpponentIsText:
-	text "ist heute dein"
-	line "Gegner."
+	text_ram wStringBuffer3
+	text " ist heute"
+	line "dein Gegner."
 	done
 
 

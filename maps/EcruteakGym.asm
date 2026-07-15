@@ -75,6 +75,7 @@ EcruteakGym_MapScriptHeader:
 	const ECRUTEAKGYM_GRAMPS
 
 EcruteakGymForcedToLeaveScene:
+	sdefer EcruteakGymClosed
 	end
 
 

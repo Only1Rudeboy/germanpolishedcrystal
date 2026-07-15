@@ -361,7 +361,9 @@ GoldenrodGameCornerPrizeVendorWhichPrizeText:
 
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
-	text ". Ist das O.K.?"
+	text_ram wStringBuffer3
+	text "."
+	line "Ist das O.K.?"
 	done
 
 

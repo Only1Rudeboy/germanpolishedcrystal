@@ -420,8 +420,10 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	text "Geheimnisvolles"
 	line "#mon Name:"
 	cont "ICOGNITO"
-	para "26 verschiedene"
-	line "gefunden."
+
+	para "Insgesamt "
+	text_decimal hScriptVar, 1, 2
+	line "Arten gefunden."
 	done
 
 

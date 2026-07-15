@@ -144,7 +144,9 @@ GoldenrodHappinessRaterTeacherText:
 	para "werden sie dich"
 	line "regelrecht lieben."
 	para "Oh! Lass mich dein"
-	line "@ sehen …"
+	line ""
+	text_ram wStringBuffer3
+	text " sehen …"
 	done
 
 

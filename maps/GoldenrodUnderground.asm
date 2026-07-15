@@ -909,27 +909,21 @@ GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
 
 
 HaircutBrosText_SlightlyHappier:
-	text "sieht fröhlicher"
-	line "aus."
+	text_ram wStringBuffer3
+	text " sieht"
+	line "fröhlicher aus."
 	done
-
-
-
-
-
 
 HaircutBrosText_Happier:
-	text "sieht glücklich"
-	line "aus."
+	text_ram wStringBuffer3
+	text " sieht"
+	line "glücklich aus."
 	done
 
-
-
-
-
-
 HaircutBrosText_MuchHappier:
-	line "ist entzückt!"
+	text_ram wStringBuffer3
+	text " ist"
+	line "entzückt!"
 	done
 
 

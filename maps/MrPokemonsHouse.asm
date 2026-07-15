@@ -49,7 +49,7 @@ MrPokemonsHouseMeetMrPokemonScene:
 	verbosegivekeyitem MYSTERY_EGG
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 	blackoutmod CHERRYGROVE_CITY
-if!DEF(DEBUG)
+if !DEF(DEBUG)
 	writetext MrPokemonIntroText3
 	promptbutton
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, RIGHT

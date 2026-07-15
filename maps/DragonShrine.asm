@@ -24,6 +24,7 @@ DragonShrine_MapScriptHeader:
 	const DRAGONSHRINE_CLAIR
 
 DragonShrineTakeTestScene:
+	sdefer DragonShrineTestScript
 	end
 
 

@@ -1,0 +1,489 @@
+# @ inside text strings (terminates at runtime!)
+
+Total: 485
+
+- `maps\EcruteakPokeCenter1F.asm:169` `Evoli gut auf!@@`
+- `maps\GoldenrodHappinessRater.asm:147` `@ sehen …`
+- `maps\Route31.asm:387` `zu anderem Weg@`
+- `maps\Route35GoldenrodGate.asm:91` `zu anderem Weg@`
+- `maps\Route35NationalParkGate.asm:249` `Heute ist @. Das`
+- `maps\Route35NationalParkGate.asm:316` `Du musst @`
+- `maps\Route35NationalParkGate.asm:423` `Du hast noch @`
+- `data\credits_strings.asm:109` `   Satoshi Tajiri@`
+- `data\credits_strings.asm:110` `   Junichi Masuda@`
+- `data\credits_strings.asm:111` `  Tetsuya Watanabe@`
+- `data\credits_strings.asm:112` `  Shigeki Morimoto@`
+- `data\credits_strings.asm:113` `   Sousuke Tamada@`
+- `data\credits_strings.asm:114` `   Takenori Oota@`
+- `data\credits_strings.asm:115` `    Ken Sugimori@`
+- `data\credits_strings.asm:116` ` Motofumi Fujiwara@`
+- `data\credits_strings.asm:117` `   Atsuko Nishida@`
+- `data\credits_strings.asm:118` `    Muneo Saito@`
+- `data\credits_strings.asm:119` `    Satoshi Oota@`
+- `data\credits_strings.asm:120` `   Rena Yoshikawa@`
+- `data\credits_strings.asm:121` `    Jun Okutani@`
+- `data\credits_strings.asm:122` `  Hironobu Yoshida@`
+- `data\credits_strings.asm:123` `   Asuka Iwashita@`
+- `data\credits_strings.asm:124` `    Go Ichinose@`
+- `data\credits_strings.asm:125` `   Morikazu Aoki@`
+- `data\credits_strings.asm:126` `   Kohji Nishino@`
+- `data\credits_strings.asm:127` `  Kenji Matsushima@`
+- `data\credits_strings.asm:128` `Toshinobu Matsumiya@`
+- `data\credits_strings.asm:129` `    Satoru Iwata@`
+- `data\credits_strings.asm:130` `   Nobuhiro Seya@`
+- `data\credits_strings.asm:131` `  Kazuhito Sekine@`
+- `data\credits_strings.asm:132` `    Tetsuji Oota@`
+- `data\credits_strings.asm:133` `NCL Super Mario Club@`
+- `data\credits_strings.asm:134` `    Sarugakucho@`
+- `data\credits_strings.asm:135` `     Akito Mori@`
+- `data\credits_strings.asm:136` `  Takahiro Harada@`
+- `data\credits_strings.asm:137` `  Tohru Hashimoto@`
+- `data\credits_strings.asm:138` `  Noboru Matsumoto@`
+- `data\credits_strings.asm:139` `  Takehiro Izushi@`
+- `data\credits_strings.asm:140` ` Takashi Kawaguchi@`
+- `data\credits_strings.asm:141` ` Tsunekazu Ishihara@`
+- `data\credits_strings.asm:142` `  Hiroshi Yamauchi@`
+- `data\credits_strings.asm:143` `    Kenji Saiki@`
+- `data\credits_strings.asm:144` `    Atsushi Tada@`
+- `data\credits_strings.asm:145` `   Naoko Kawakami@`
+- `data\credits_strings.asm:146` `  Hiroyuki Zinnai@`
+- `data\credits_strings.asm:147` `  Kunimi Kawamura@`
+- `data\credits_strings.asm:148` `   Hisashi Sogabe@`
+- `data\credits_strings.asm:149` `    Keita Kagaya@`
+- `data\credits_strings.asm:150` ` Yoshinori Matsuda@`
+- `data\credits_strings.asm:151` `    Hitomi Sato@`
+- `data\credits_strings.asm:152` `     Toru Osawa@`
+- `data\credits_strings.asm:153` `    Takao Ohara@`
+- `data\credits_strings.asm:154` `    Yuichiro Ito@`
+- `data\credits_strings.asm:155` `   Takao Shimizu@`
+- `data\credits_strings.asm:158` ` & Entwicklung@`
+- `data\credits_strings.asm:159` `   Keita Nakamura@`
+- `data\credits_strings.asm:160` `  Hirotaka Uemura@`
+- `data\credits_strings.asm:161` `   Hiroaki Tamura@`
+- `data\credits_strings.asm:162` ` Noriaki Sakaguchi@`
+- `data\credits_strings.asm:163` `    Miyuki Sato@`
+- `data\credits_strings.asm:164` `   Gakuzi Nomoto@`
+- `data\credits_strings.asm:165` `     Ai Mashima@`
+- `data\credits_strings.asm:166` ` Mikihiro Ishikawa@`
+- `data\credits_strings.asm:167` ` Hideyuki Hashimoto@`
+- `data\credits_strings.asm:168` `   Satoshi Yamato@`
+- `data\credits_strings.asm:169` `  Shigeru Miyamoto@`
+- `data\credits_strings.asm:170` `        Ende@`
+- `data\credits_strings.asm:171` `      ????????@`
+- `data\credits_strings.asm:172` `    Gail Tilden@`
+- `data\credits_strings.asm:173` `   Nob Ogasawara@`
+- `data\credits_strings.asm:174` `   Seth McMahill@`
+- `data\credits_strings.asm:175` `  Hiroto Alexander@`
+- `data\credits_strings.asm:176` `  Teresa Lillygren@`
+- `data\credits_strings.asm:177` `   Thomas Hertzog@`
+- `data\credits_strings.asm:178` `    Erik Johnson@`
+- `data\credits_strings.asm:179` `   Hiro Nakamura@`
+- `data\credits_strings.asm:180` `  Teruki Murakawa@`
+- `data\credits_strings.asm:181` `  Kazuyoshi Osawa@`
+- `data\credits_strings.asm:182` `  Kimiko Nakamichi@`
+- `data\credits_strings.asm:185` `       Team@`
+- `data\credits_strings.asm:186` `      Regie@`
+- `data\credits_strings.asm:187` `    Co-Regie@`
+- `data\credits_strings.asm:188` ` Programmierung@`
+- `data\credits_strings.asm:189` `  Grafik-Regie@`
+- `data\credits_strings.asm:190` `  #mon-Design@`
+- `data\credits_strings.asm:191` ` Grafik-Design@`
+- `data\credits_strings.asm:192` `      Musik@`
+- `data\credits_strings.asm:193` ` Sound-Effekte@`
+- `data\credits_strings.asm:194` `  Spieldesign@`
+- `data\credits_strings.asm:195` `    Szenario@`
+- `data\credits_strings.asm:196` `Tool-Programmierung@`
+- `data\credits_strings.asm:197` `Parameter-Design@`
+- `data\credits_strings.asm:198` ` Script-Design@`
+- `data\credits_strings.asm:199` `Karten-Daten-Design@`
+- `data\credits_strings.asm:200` ` Karten-Design@`
+- `data\credits_strings.asm:201` `   Spieletest@`
+- `data\credits_strings.asm:202` `Besonderer Dank@`
+- `data\credits_strings.asm:203` `  Produzenten@`
+- `data\credits_strings.asm:204` `Executive-Produzent@`
+- `data\credits_strings.asm:205` ` #mon-Animation@`
+- `data\credits_strings.asm:206` `   #dex-Text@`
+- `data\credits_strings.asm:207` `Mobile-Projektleiter@`
+- `data\credits_strings.asm:208` `Mobile-System-Ber.@`
+- `data\credits_strings.asm:209` `Mobile-Stadion-Regie@`
+- `data\credits_strings.asm:210` ` Koordination@`
+- `data\credits_strings.asm:211` ` US-Version-Team@`
+- `data\credits_strings.asm:212` ` US-Koordination@`
+- `data\credits_strings.asm:213` ` Text-Übersetzung@`
+- `data\credits_strings.asm:214` `   PAAD-Test@`
+- `data\pokemon\dex_entries.asm:9` `rasch zu wachsen.@`
+- `data\pokemon\dex_entries.asm:19` `angenehmen Duft.@`
+- `data\pokemon\dex_entries.asm:29` `Aroma.@`
+- `data\pokemon\dex_entries.asm:39` `sie nass wird.@`
+- `data\pokemon\dex_entries.asm:49` `übergreifen.@`
+- `data\pokemon\dex_entries.asm:59` `Kampferfahrung.@`
+- `data\pokemon\dex_entries.asm:69` `Maul.@`
+- `data\pokemon\dex_entries.asm:79` `Menschen beliebt.@`
+- `data\pokemon\dex_entries.asm:89` `@`
+- `data\pokemon\dex_entries.asm:99` `entsprechen.@`
+- `data\pokemon\dex_entries.asm:109` `sich nicht.@`
+- `data\pokemon\dex_entries.asm:119` `Blüten erkennen.@`
+- `data\pokemon\dex_entries.asm:129` `zu schützen.@`
+- `data\pokemon\dex_entries.asm:139` `seine Entwicklung.@`
+- `data\pokemon\dex_entries.asm:149` `Stock trägt.@`
+- `data\pokemon\dex_entries.asm:159` `Versteck treibt.@`
+- `data\pokemon\dex_entries.asm:169` `@`
+- `data\pokemon\dex_entries.asm:179` `1000 m erkennen.@`
+- `data\pokemon\dex_entries.asm:189` `rasch.@`
+- `data\pokemon\dex_entries.asm:199` `se durchqueren.@`
+- `data\pokemon\dex_entries.asm:209` `Schreie aus.@`
+- `data\pokemon\dex_entries.asm:219` `Reichweite.@`
+- `data\pokemon\dex_entries.asm:229` `Beute am Stück.@`
+- `data\pokemon\dex_entries.asm:239` `sein Maul aus.@`
+- `data\pokemon\dex_entries.asm:249` `aufgespart hat.@`
+- `data\pokemon\dex_entries.asm:259` `sich aufzuladen.@`
+- `data\pokemon\dex_entries.asm:269` `zu schützen.@`
+- `data\pokemon\dex_entries.asm:279` `greifen.@`
+- `data\pokemon\dex_entries.asm:289` `Horn.@`
+- `data\pokemon\dex_entries.asm:299` `auf.@`
+- `data\pokemon\dex_entries.asm:309` `gegen Angriffe.@`
+- `data\pokemon\dex_entries.asm:319` `zu registrieren.@`
+- `data\pokemon\dex_entries.asm:329` `wahrnimmt.@`
+- `data\pokemon\dex_entries.asm:339` `seine Spezialität.@`
+- `data\pokemon\dex_entries.asm:349` `Vollmond scheint.@`
+- `data\pokemon\dex_entries.asm:359` `gesehen zu werden.@`
+- `data\pokemon\dex_entries.asm:369` `weicheres Fell.@`
+- `data\pokemon\dex_entries.asm:379` `inne hat.@`
+- `data\pokemon\dex_entries.asm:389` `jeden in Schlaf.@`
+- `data\pokemon\dex_entries.asm:399` `anzufassen.@`
+- `data\pokemon\dex_entries.asm:409` `oder Höhlen.@`
+- `data\pokemon\dex_entries.asm:419` `aus.@`
+- `data\pokemon\dex_entries.asm:429` `im Mondschein.@`
+- `data\pokemon\dex_entries.asm:439` `ohnmächtig wird.@`
+- `data\pokemon\dex_entries.asm:449` `verfärbt.@`
+- `data\pokemon\dex_entries.asm:459` `zu trinken.@`
+- `data\pokemon\dex_entries.asm:469` `Sporen.@`
+- `data\pokemon\dex_entries.asm:479` `es dunkel wird.@`
+- `data\pokemon\dex_entries.asm:489` `zu setzen.@`
+- `data\pokemon\dex_entries.asm:499` `nicht scheint.@`
+- `data\pokemon\dex_entries.asm:509` `aussieht.@`
+- `data\pokemon\dex_entries.asm:519` `an seinem Kopf.@`
+- `data\pokemon\dex_entries.asm:529` `fach aus Spaß.@`
+- `data\pokemon\dex_entries.asm:539` `fällig aufwachen.@`
+- `data\pokemon\dex_entries.asm:549` `aufhält.@`
+- `data\pokemon\dex_entries.asm:559` `samkeit zornig.@`
+- `data\pokemon\dex_entries.asm:569` `verfolgen muss.@`
+- `data\pokemon\dex_entries.asm:579` `zu vertreiben.@`
+- `data\pokemon\dex_entries.asm:589` `das Land rannte.@`
+- `data\pokemon\dex_entries.asm:599` `sind sie klarer.@`
+- `data\pokemon\dex_entries.asm:609` `kaum Gefahr droht.@`
+- `data\pokemon\dex_entries.asm:619` `Wasser laufen.@`
+- `data\pokemon\dex_entries.asm:629` `verspürt.@`
+- `data\pokemon\dex_entries.asm:639` `Alpha-Teilchen.@`
+- `data\pokemon\dex_entries.asm:649` `herauszuholen.@`
+- `data\pokemon\dex_entries.asm:659` `ein Leichtgewicht.@`
+- `data\pokemon\dex_entries.asm:669` `und größer.@`
+- `data\pokemon\dex_entries.asm:679` `ausführen.@`
+- `data\pokemon\dex_entries.asm:689` `@`
+- `data\pokemon\dex_entries.asm:699` `um sich herum.@`
+- `data\pokemon\dex_entries.asm:709` `hat.@`
+- `data\pokemon\dex_entries.asm:719` `berühren.@`
+- `data\pokemon\dex_entries.asm:729` `auf Beutejagd.@`
+- `data\pokemon\dex_entries.asm:739` `zu ermitteln.@`
+- `data\pokemon\dex_entries.asm:749` `Felsen rollt.@`
+- `data\pokemon\dex_entries.asm:759` `Haut hinterlässt.@`
+- `data\pokemon\dex_entries.asm:769` `gemacht.@`
+- `data\pokemon\dex_entries.asm:779` `seiner Mähne.@`
+- `data\pokemon\dex_entries.asm:789` `gebissen wird.@`
+- `data\pokemon\dex_entries.asm:799` `Rute strömt.@`
+- `data\pokemon\dex_entries.asm:809` `ker Magnet wird.@`
+- `data\pokemon\dex_entries.asm:819` `wellen zerstört.@`
+- `data\pokemon\dex_entries.asm:829` `züchten.@`
+- `data\pokemon\dex_entries.asm:839` `100 km/h davon.@`
+- `data\pokemon\dex_entries.asm:849` `er sofort gepickt.@`
+- `data\pokemon\dex_entries.asm:859` `Eismeeren.@`
+- `data\pokemon\dex_entries.asm:869` `nach Nahrung.@`
+- `data\pokemon\dex_entries.asm:879` `Gift.@`
+- `data\pokemon\dex_entries.asm:889` `verseucht ist.@`
+- `data\pokemon\dex_entries.asm:899` `lichen Notfällen.@`
+- `data\pokemon\dex_entries.asm:909` `seine Schale.@`
+- `data\pokemon\dex_entries.asm:919` `Gift injiziert.@`
+- `data\pokemon\dex_entries.asm:929` `auszuhauchen.@`
+- `data\pokemon\dex_entries.asm:939` `Menschen frieren.@`
+- `data\pokemon\dex_entries.asm:949` `Körper erhärten.@`
+- `data\pokemon\dex_entries.asm:959` `träumt.@`
+- `data\pokemon\dex_entries.asm:969` `Hypnose zu spüren.@`
+- `data\pokemon\dex_entries.asm:979` `stoffe heraus.@`
+- `data\pokemon\dex_entries.asm:989` `Quere.@`
+- `data\pokemon\dex_entries.asm:999` `natürlich sind.@`
+- `data\pokemon\dex_entries.asm:1009` `zu explodieren.@`
+- `data\pokemon\dex_entries.asm:1019` `wieder zusammen.@`
+- `data\pokemon\dex_entries.asm:1029` `OWEI.@`
+- `data\pokemon\dex_entries.asm:1039` `nie sein Gesicht.@`
+- `data\pokemon\dex_entries.asm:1049` `Knochen.@`
+- `data\pokemon\dex_entries.asm:1059` `denkbaren Tritt.@`
+- `data\pokemon\dex_entries.asm:1069` `seinen Armen.@`
+- `data\pokemon\dex_entries.asm:1079` `lecken.@`
+- `data\pokemon\dex_entries.asm:1089` `Inneren erkennen.@`
+- `data\pokemon\dex_entries.asm:1099` `noch schlimmer.@`
+- `data\pokemon\dex_entries.asm:1109` `vergessen warum.@`
+- `data\pokemon\dex_entries.asm:1119` `zerschmettern.@`
+- `data\pokemon\dex_entries.asm:1129` `selten zu finden.@`
+- `data\pokemon\dex_entries.asm:1139` `aufzuregen.@`
+- `data\pokemon\dex_entries.asm:1149` `es im Stehen.@`
+- `data\pokemon\dex_entries.asm:1159` `verheddern.@`
+- `data\pokemon\dex_entries.asm:1169` `um ihn abzuwehren.@`
+- `data\pokemon\dex_entries.asm:1179` `perfekten Partner.@`
+- `data\pokemon\dex_entries.asm:1189` `beschützen.@`
+- `data\pokemon\dex_entries.asm:1199` `Inneren blinkt.@`
+- `data\pokemon\dex_entries.asm:1209` `zu senden.@`
+- `data\pokemon\dex_entries.asm:1219` `Wand zu errichten.@`
+- `data\pokemon\dex_entries.asm:1229` `wer ihn trifft.@`
+- `data\pokemon\dex_entries.asm:1239` `Bedeutung hat.@`
+- `data\pokemon\dex_entries.asm:1249` `regungen aus.@`
+- `data\pokemon\dex_entries.asm:1259` `Lava taucht.@`
+- `data\pokemon\dex_entries.asm:1269` `unter Wurzeln.@`
+- `data\pokemon\dex_entries.asm:1279` `beweisen.@`
+- `data\pokemon\dex_entries.asm:1289` `gerissen.@`
+- `data\pokemon\dex_entries.asm:1299` `es passiert.@`
+- `data\pokemon\dex_entries.asm:1309` `bewegungsmittel.@`
+- `data\pokemon\dex_entries.asm:1319` `exakt nachzuahmen.@`
+- `data\pokemon\dex_entries.asm:1329` `perfekt anpassen.@`
+- `data\pokemon\dex_entries.asm:1339` `dem Wasser.@`
+- `data\pokemon\dex_entries.asm:1349` `kensprunggeräusch.@`
+- `data\pokemon\dex_entries.asm:1359` `Grad C erreichen.@`
+- `data\pokemon\dex_entries.asm:1369` `grammiert wurde.@`
+- `data\pokemon\dex_entries.asm:1379` `Fossilienfunde.@`
+- `data\pokemon\dex_entries.asm:1389` `ausgestorben sein.@`
+- `data\pokemon\dex_entries.asm:1399` `Rücken leuchten.@`
+- `data\pokemon\dex_entries.asm:1409` `einklappte.@`
+- `data\pokemon\dex_entries.asm:1419` `@`
+- `data\pokemon\dex_entries.asm:1429` `benes essen kann.@`
+- `data\pokemon\dex_entries.asm:1439` `schneit.@`
+- `data\pokemon\dex_entries.asm:1449` `Stürmen enden.@`
+- `data\pokemon\dex_entries.asm:1459` `Frühling fliegt.@`
+- `data\pokemon\dex_entries.asm:1469` `fall beschützt.@`
+- `data\pokemon\dex_entries.asm:1479` `sich das Wetter.@`
+- `data\pokemon\dex_entries.asm:1489` `sie leben dort.@`
+- `data\pokemon\dex_entries.asm:1499` `geschaffen wurde.@`
+- `data\pokemon\dex_entries.asm:1509` `#mon ist.@`
+- `data\pokemon\dex_entries.asm:1519` `warme Orte.@`
+- `data\pokemon\dex_entries.asm:1529` `Energien frei.@`
+- `data\pokemon\dex_entries.asm:1539` `entspannt hätte.@`
+- `data\pokemon\dex_entries.asm:1549` `seine Feinde ein.@`
+- `data\pokemon\dex_entries.asm:1559` `sein Feuer lodert.@`
+- `data\pokemon\dex_entries.asm:1569` `um ihn flimmert.@`
+- `data\pokemon\dex_entries.asm:1579` `zu.@`
+- `data\pokemon\dex_entries.asm:1589` `Entrinnen.@`
+- `data\pokemon\dex_entries.asm:1599` `schnell laufen.@`
+- `data\pokemon\dex_entries.asm:1609` `den Boden schlägt.@`
+- `data\pokemon\dex_entries.asm:1619` `zweigter ist er.@`
+- `data\pokemon\dex_entries.asm:1629` `Armbanduhren.@`
+- `data\pokemon\dex_entries.asm:1639` `Beute nähern kann.@`
+- `data\pokemon\dex_entries.asm:1649` `seinem Standort.@`
+- `data\pokemon\dex_entries.asm:1659` `tiefen Schlaf.@`
+- `data\pokemon\dex_entries.asm:1669` `der Nacht.@`
+- `data\pokemon\dex_entries.asm:1679` `Beutejagd.@`
+- `data\pokemon\dex_entries.asm:1689` `neue Flügel.@`
+- `data\pokemon\dex_entries.asm:1699` `negativ geladen.@`
+- `data\pokemon\dex_entries.asm:1709` `Beute anzulocken.@`
+- `data\pokemon\dex_entries.asm:1719` `Energie.@`
+- `data\pokemon\dex_entries.asm:1729` `Nähe.@`
+- `data\pokemon\dex_entries.asm:1739` `Körper.@`
+- `data\pokemon\dex_entries.asm:1749` `@`
+- `data\pokemon\dex_entries.asm:1759` `nem Trainer folgt.@`
+- `data\pokemon\dex_entries.asm:1769` `Triebe.@`
+- `data\pokemon\dex_entries.asm:1779` `wieder bewegt.@`
+- `data\pokemon\dex_entries.asm:1789` `im Winter warm.@`
+- `data\pokemon\dex_entries.asm:1799` `Fell speichern.@`
+- `data\pokemon\dex_entries.asm:1809` `scheinen.@`
+- `data\pokemon\dex_entries.asm:1819` `Geräusch.@`
+- `data\pokemon\dex_entries.asm:1829` `Wasser spielt.@`
+- `data\pokemon\dex_entries.asm:1839` `im Wasser ist.@`
+- `data\pokemon\dex_entries.asm:1849` `Regen schützt.@`
+- `data\pokemon\dex_entries.asm:1859` `und Fern.@`
+- `data\pokemon\dex_entries.asm:1869` `getragen werden.@`
+- `data\pokemon\dex_entries.asm:1879` `nass zu werden.@`
+- `data\pokemon\dex_entries.asm:1889` `gehen soll.@`
+- `data\pokemon\dex_entries.asm:1899` `von Ast zu Ast.@`
+- `data\pokemon\dex_entries.asm:1909` `heftig schüttelt.@`
+- `data\pokemon\dex_entries.asm:1919` `und lebhaft.@`
+- `data\pokemon\dex_entries.asm:1929` `und Beute wahr.@`
+- `data\pokemon\dex_entries.asm:1939` `der Schmerz.@`
+- `data\pokemon\dex_entries.asm:1949` `ist ihm egal.@`
+- `data\pokemon\dex_entries.asm:1959` `voraussagt.@`
+- `data\pokemon\dex_entries.asm:1969` `gelb auf.@`
+- `data\pokemon\dex_entries.asm:1979` `seitig die Beute.@`
+- `data\pokemon\dex_entries.asm:1989` `intelligenter.@`
+- `data\pokemon\dex_entries.asm:1999` `schreckt hat.@`
+- `data\pokemon\dex_entries.asm:2009` `dene Fähigkeiten.@`
+- `data\pokemon\dex_entries.asm:2019` `verläßt.@`
+- `data\pokemon\dex_entries.asm:2029` `Leib zu halten.@`
+- `data\pokemon\dex_entries.asm:2039` `de hinzuzufügen.@`
+- `data\pokemon\dex_entries.asm:2049` `seiner Schale.@`
+- `data\pokemon\dex_entries.asm:2059` `Bewegung.@`
+- `data\pokemon\dex_entries.asm:2069` `ins Nest zurück.@`
+- `data\pokemon\dex_entries.asm:2079` `Licht sehr gut.@`
+- `data\pokemon\dex_entries.asm:2089` `zu verbergen.@`
+- `data\pokemon\dex_entries.asm:2099` `Reißzähne zeigt.@`
+- `data\pokemon\dex_entries.asm:2109` `zu wirken.@`
+- `data\pokemon\dex_entries.asm:2119` `zermalmen.@`
+- `data\pokemon\dex_entries.asm:2129` `leckerer Saft.@`
+- `data\pokemon\dex_entries.asm:2139` `mühelos umwerfen.@`
+- `data\pokemon\dex_entries.asm:2149` `aufzulauern.@`
+- `data\pokemon\dex_entries.asm:2159` `sucht.@`
+- `data\pokemon\dex_entries.asm:2169` `in Baumkronen.@`
+- `data\pokemon\dex_entries.asm:2179` `sofort hart.@`
+- `data\pokemon\dex_entries.asm:2189` `Haus.@`
+- `data\pokemon\dex_entries.asm:2199` `kein Problem ist.@`
+- `data\pokemon\dex_entries.asm:2209` `gend Halt bieten.@`
+- `data\pokemon\dex_entries.asm:2219` `wasser leben.@`
+- `data\pokemon\dex_entries.asm:2229` `Flucht.@`
+- `data\pokemon\dex_entries.asm:2239` `anderen.@`
+- `data\pokemon\dex_entries.asm:2249` `Angreifer.@`
+- `data\pokemon\dex_entries.asm:2259` `Körper ist rauh.@`
+- `data\pokemon\dex_entries.asm:2269` `benutzten.@`
+- `data\pokemon\dex_entries.asm:2279` `beansprucht.@`
+- `data\pokemon\dex_entries.asm:2289` `in seinem Körper.@`
+- `data\pokemon\dex_entries.asm:2299` `Energie speichert.@`
+- `data\pokemon\dex_entries.asm:2309` `seinem Rüssel.@`
+- `data\pokemon\dex_entries.asm:2319` `ren hinterlässt.@`
+- `data\pokemon\dex_entries.asm:2329` `aktionen zeigen.@`
+- `data\pokemon\dex_entries.asm:2339` `gemahlen werden.@`
+- `data\pokemon\dex_entries.asm:2349` `vorgegeben.@`
+- `data\pokemon\dex_entries.asm:2359` `großen Kampfgeist.@`
+- `data\pokemon\dex_entries.asm:2369` `sich.@`
+- `data\pokemon\dex_entries.asm:2379` `fremde Objekte ab.@`
+- `data\pokemon\dex_entries.asm:2389` `auflädt.@`
+- `data\pokemon\dex_entries.asm:2399` `Vulkanausbruch.@`
+- `data\pokemon\dex_entries.asm:2409` `auf und ab bewegt.@`
+- `data\pokemon\dex_entries.asm:2419` `lich und froh.@`
+- `data\pokemon\dex_entries.asm:2429` `das Land streift.@`
+- `data\pokemon\dex_entries.asm:2439` `flüssiges Magma.@`
+- `data\pokemon\dex_entries.asm:2449` `Wasser.@`
+- `data\pokemon\dex_entries.asm:2459` `dieses #mon.@`
+- `data\pokemon\dex_entries.asm:2469` `Panzer.@`
+- `data\pokemon\dex_entries.asm:2479` `zerbröckeln kann.@`
+- `data\pokemon\dex_entries.asm:2489` `wenn es stürmt.@`
+- `data\pokemon\dex_entries.asm:2499` `Schwingen zeigen.@`
+- `data\pokemon\dex_entries.asm:2509` `gibt.@`
+- `data\pokemon\dex_entries.asm:2519` `braucht.@`
+- `data\pokemon\dex_entries.asm:2529` `trainieren.@`
+- `data\pokemon\dex_entries.asm:2539` `Unmöglichkeit.@`
+- `data\pokemon\dex_entries.asm:2548` `auftaucht.@`
+- `data\pokemon\dex_entries.asm:2558` `Fehler verzeihen.@`
+- `data\pokemon\dex_entries.asm:2568` `weinen.@`
+- `data\pokemon\dex_entries.asm:2578` `sich aus dem Staub@`
+- `data\pokemon\dex_entries.asm:2588` `seine Haarlocke.@`
+- `data\pokemon\dex_entries.asm:2598` `Happs.@`
+- `data\pokemon\dex_entries.asm:2608` `erspähen.@`
+- `data\pokemon\dex_entries.asm:2618` `in Rinde ritzen.@`
+- `data\pokemon\dex_entries.asm:2628` `MAGNEZONE.@`
+- `data\pokemon\dex_entries.asm:2638` `und zieht sie fort@`
+- `data\pokemon\dex_entries.asm:2648` `Vulkanausbrüche.@`
+- `data\pokemon\dex_entries.asm:2658` `einmal mehr sieht.@`
+- `data\pokemon\dex_entries.asm:2668` `und her.@`
+- `data\pokemon\dex_entries.asm:2678` `steht in Flammen.@`
+- `data\pokemon\dex_entries.asm:2688` `Wohltaten.@`
+- `data\pokemon\dex_entries.asm:2698` `große Bäume nieder@`
+- `data\pokemon\dex_entries.asm:2707` `synthese betreibt.@`
+- `data\pokemon\dex_entries.asm:2717` `Eiskristalle.@`
+- `data\pokemon\dex_entries.asm:2727` `saugt es sie aus.@`
+- `data\pokemon\dex_entries.asm:2737` `Population ab.@`
+- `data\pokemon\dex_entries.asm:2747` `was schief.@`
+- `data\pokemon\dex_entries.asm:2757` `können.@`
+- `data\pokemon\dex_entries.asm:2767` `Helm erinnert.@`
+- `data\pokemon\dex_entries.asm:2777` `Panzer los.@`
+- `data\pokemon\dex_entries.asm:2787` `es sich zurück.@`
+- `data\pokemon\dex_entries.asm:2797` `mit leichtem Fuß@`
+- `data\pokemon\dex_entries.asm:2807` `hervorragend.@`
+- `data\pokemon\dex_entries.asm:2817` `Stein schützt.@`
+- `data\pokemon\dex_entries.asm:2827` `Torf zu formen.@`
+- `data\pokemon\dex_entries.asm:2837` `es in den Bergen.@`
+- `data\pokemon\dex_entries.asm:2847` `zur Nahrung.@`
+- `data\pokemon\dex_entries.asm:2857` `lang werden.@`
+- `data\pokemon\dex_entries.asm:2867` `zehnmal stärker.@`
+- `data\pokemon\dex_entries.asm:2877` `mit allem.@`
+- `data\pokemon\dex_entries.asm:2887` `Grenzen.@`
+- `data\pokemon\dex_entries.asm:2897` `zerstörte.@`
+- `data\pokemon\dex_entries.asm:2907` `Experimentes.@`
+- `data\pokemon\dex_entries.asm:2917` `Essbarem.@`
+- `data\pokemon\dex_entries.asm:2927` `zernagen.@`
+- `data\pokemon\dex_entries.asm:2937` `kampflustiger.@`
+- `data\pokemon\dex_entries.asm:2947` `zusammen.@`
+- `data\pokemon\dex_entries.asm:2957` `eines Tages nach.@`
+- `data\pokemon\dex_entries.asm:2967` `aufspaltet.@`
+- `data\pokemon\dex_entries.asm:2977` `Jahre alt werden.@`
+- `data\pokemon\dex_entries.asm:2987` `an die Oberfläche.@`
+- `data\pokemon\dex_entries.asm:2997` `Richtung.@`
+- `data\pokemon\dex_entries.asm:3007` `glänzen.@`
+- `data\pokemon\dex_entries.asm:3017` `dreckige Dinge.@`
+- `data\pokemon\dex_entries.asm:3027` `man am Gestank.@`
+- `data\pokemon\dex_entries.asm:3037` `und streiten nie.@`
+- `data\pokemon\dex_entries.asm:3047` `es wild.@`
+- `data\pokemon\dex_entries.asm:3057` `glänzen.@`
+- `data\pokemon\dex_entries.asm:3067` `Haustier.@`
+- `data\pokemon\dex_entries.asm:3077` `aussieht.@`
+- `data\pokemon\dex_entries.asm:3087` `hinabrollt.@`
+- `data\pokemon\dex_entries.asm:3097` `fern.@`
+- `data\pokemon\dex_entries.asm:3107` `kräftiger.@`
+- `data\pokemon\dex_entries.asm:3117` `sie zu gewinnen.@`
+- `data\pokemon\dex_entries.asm:3127` `Rute angelt es.@`
+- `data\pokemon\dex_entries.asm:3141` `seiner Rute@`
+- `data\pokemon\dex_entries.asm:3151` `ein.@`
+- `data\pokemon\dex_entries.asm:3161` `Giftgas aus.@`
+- `data\pokemon\dex_entries.asm:3171` `Wand werden lässt.@`
+- `data\pokemon\dex_entries.asm:3181` `keit gefriert.@`
+- `data\pokemon\dex_entries.asm:3191` `schleudert.@`
+- `data\pokemon\dex_entries.asm:3201` `helles Feuermeer.@`
+- `data\pokemon\dex_entries.asm:3211` `und besonnen.@`
+- `data\pokemon\dex_entries.asm:3221` `Schönheit.@`
+- `data\pokemon\dex_entries.asm:3231` `es Gegner.@`
+- `data\pokemon\dex_entries.asm:3241` `wendig.@`
+- `data\pokemon\dex_entries.asm:3251` `Zusammenhang.@`
+- `data\pokemon\dex_entries.asm:3261` `Menschen.@`
+- `data\pokemon\dex_entries.asm:3271` `Flammen aufgeht.@`
+- `data\pokemon\dex_entries.asm:3281` `es 10 l trinkt.@`
+- `data\pokemon\dex_entries.asm:3291` `Krallen an.@`
+- `data\pokemon\dex_entries.asm:3301` `sucht Futter.@`
+- `data\pokemon\dex_entries.asm:3311` `auspeitschte, um@`
+- `data\pokemon\dex_entries.asm:3321` `sich anzustacheln.@`
+- `data\pokemon\dex_entries.asm:3331` `sich anzustacheln.@`
+- `data\pokemon\dex_entries.asm:3341` `Torf zu formen.@`
+- `data\text\common.asm:1795` ` erhält@`
+- `data\text\common.asm:1815` `Los! @`
+- `data\text\common.asm:1820` `Los, @`
+- `data\text\common.asm:1825` `Hau rein, @`
+- `data\text\common.asm:1831` `schwach! Los, @`
+- `data\text\common.asm:1843` `,@`
+- `data\text\common.asm:1849` `Komm zurück!@`
+- `data\text\common.asm:1855` `Komm zurück!@`
+- `data\text\common.asm:1861` `zurück!@`
+- `data\text\common.asm:2372` `<USER>@`
+- `data\text\common.asm:2393` `@`
+- `data\text\common.asm:2561` ` fing!@`
+- `data\text\common.asm:2581` ` fing!@`
+- `data\text\common.asm:2600` ` fing!@`
+- `data\text\common.asm:3167` `#mon nennen.@`
+- `engine\movie\bsod.asm:137` `rst 00h@`
+- `engine\movie\bsod.asm:138` `rst 38h@`
+- `engine\movie\bsod.asm:139` `Division durch 0@`
+- `engine\movie\bsod.asm:140` `<PK><MN>-Art ist Ei@`
+- `engine\movie\bsod.asm:141` `RAM ausgeführt@`
+- `engine\movie\bsod.asm:142` `Stack-Überlauf@`
+- `engine\movie\bsod.asm:143` `Stack-Unterlauf@`
+- `engine\movie\bsod.asm:144` `Alter Kampfturm@`
+- `engine\movie\bsod.asm:145` `Prüfsummenfehler@`
+- `engine\movie\bsod.asm:146` `Alte PC-Box@`
+- `engine\movie\bsod.asm:147` `PC-Box 0 genutzt@`
+- `engine\movie\bsod.asm:148` `PC-Box-Kollision@`
+- `engine\movie\bsod.asm:149` `Fenster-Überlauf@`
+- `engine\movie\bsod.asm:150` `Fenster-Unterlauf@`
+- `engine\movie\bsod.asm:151` `SRAM/WRAM-Fehler@`
+- `engine\movie\bsod.asm:152` `PEBKAC@`
+- `engine\movie\bsod.asm:153` `Unbekannt@`
+- `engine\movie\trade_animation.asm:910` `<ID>№.@`
+- `engine\movie\trade_animation.asm:915` `<ID>№.?????@`
+- `engine\pokedex\pokedex.asm:2212` `Region sortiert.@`
+- `engine\pokedex\pokedex.asm:2215` `Nummer sortiert.@`
+- `engine\pokedex\pokedex.asm:2218` `Informationen.@`
+- `engine\pokedex\pokedex.asm:2221` `<PK><MN>-Liste.@`
+- `engine\pokemon\mon_stats.asm:130` `@`
+- `engine\printer\printer.asm:234` ` Prüfe Verbindung…@`
+- `engine\printer\printer.asm:235` `  Übertrage…@`
+- `engine\printer\printer.asm:236` `    Drucke…@`

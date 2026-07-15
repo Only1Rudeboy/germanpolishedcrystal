@@ -19,7 +19,8 @@
 |---|---|
 | **2026-07-15** | **Bugfix:** „LYRA erhält“ ohne Pokémon-Name (frühes `done` vor `text_ram`). |
 | **2026-07-15** | **Bugfix (kritisch):** Intro in Prof. Linds Labor startete nicht – `ElmsLabMeetElmScene` endete sofort ohne `sdefer .Script`. Script-Ablauf + Intro-Text (LYRA) repariert. |
-| **2026-07-15** | **Globaler Script-Bug-Scan:** 11× fehlendes `sdefer .Script` (Hall of Fame, Top Vier, Fast Ship, Mahagonia-Mart, Alph-Ruinen, Nationalpark-Tore, …) und 68× vorzeitiges `done` vor `text_ram`/`text_decimal` (Maps + Phone) behoben; Leerzeichen vor dynamischen Namen ergänzt. ROM **3.2.3.009**. |
+| **2026-07-15** | **Globaler Script-Bug-Scan:** 11× fehlendes `sdefer .Script` + 68× vorzeitiges `done` vor `text_ram`/`text_decimal`. ROM **3.2.3.009**. |
+| **2026-07-15** | **Deep-Scan (ganzes Repo):** 8 weitere stubbed Scenes (Colosseum, Trade Center, Häfen, Zinnturm, Rocket B3F, Drachen-Schrein, Teak-Arena); fehlende `text_ram`/`text_decimal` (Game Corner, Happiness-Rater, Friseure, Käferturnier, Trainer House, Alph-Computer); `@`-Platzhalter in Texten ersetzt (bricht String ab!). Scanner: `tools/gsc_canon_setup/scan_script_bugs_deep*.py`. ROM **3.2.3.010**. |
 
 ---
 

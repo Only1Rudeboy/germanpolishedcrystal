@@ -26,6 +26,7 @@ Colosseum_MapScriptHeader:
 	const COLOSSEUM_LINK_TRAINER2
 
 ColosseumInitializeScene:
+	sdefer ColosseumScript_Initialize
 	end
 
 

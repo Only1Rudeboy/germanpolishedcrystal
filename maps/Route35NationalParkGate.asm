@@ -246,8 +246,10 @@ Route35NationalParkGateTutorCharmScript:
 	done
 
 Route35NationalParkGateOfficer1AskToParticipateText:
-	text "Heute ist @. Das"
-	line "heißt, heute"
+	text "Heute ist "
+	text_ram wStringBuffer3
+	text "."
+	line "Das heißt, heute"
 	para "findet das"
 	line "Käferturnier"
 	cont "statt."
@@ -313,10 +315,11 @@ Route35NationalParkGateOfficer1AskToUseFirstMonText:
 	para "Du hast mehr als"
 	line "ein #mon."
 
-	para "Du musst @"
-
-	para "auswählen - dein"
-	line "erstes #mon."
+	para "Du musst "
+	text_ram wStringBuffer3
+	text ","
+	line "dein erstes"
+	cont "#mon, einsetzen."
 
 	para "Bist du damit"
 	line "einverstanden?"
@@ -420,7 +423,8 @@ Route35NationalParkGateOfficer1EggAsFirstMonText:
 
 
 Route35NationalParkGateOfficer1WantToFinishText:
-	text "Du hast noch @"
+	text "Du hast noch "
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	line "Minute(n)."
 
 	para "Möchtest du jetzt"

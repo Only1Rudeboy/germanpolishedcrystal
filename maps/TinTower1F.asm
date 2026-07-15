@@ -38,6 +38,7 @@ TinTower1F_MapScriptHeader:
 	const TINTOWER1F_SAGE3
 
 TinTower1FSuicuneBattleScene:
+	sdefer TinTower1FSuicuneBattleScript
 	end
 
 
