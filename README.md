@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.039** | **JOHTO/KANTO CAPS** in Dialogen (Dump-Stil); Klarstellung: `{d:KONSTANTE}` = Assembler-Wert, Breite fest (z. B. 30 Punkte, 20 PARKBÄLLE) — alles ≤18. |
+| **ROM 3.2.3.040** | **Items + Attacken dump-nah:** ~117 Item-Beschreibungen + ~119 Attacken-Blöcke aus GSC-DE-Dump (`tools/_apply_*`); PC-only-Attacken/Items und **Fähigkeiten bleiben C**. |
+| **ROM 3.2.3.039** | **JOHTO/KANTO CAPS**; `{d:…}`-Breite dokumentiert. |
 | **ROM 3.2.3.038** | **Feinschliff:** over18-Reflow; Mon-Rufe CAPS; Scherzbuch-Autoren; „Total cool!“. |
 | **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW. |
 | **ROM 3.2.3.036** | **Namen-Konsistenz:** JUTTA/HANNES/SATORU; IVY/FAITH/CHERYL/REI; Trade/Wonder-OTs CAPS; KIRK/SILVER. |
@@ -93,6 +94,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 | **`{d:NAME}`** | Wird beim **Assemblieren** durch die Zahl der Konstante ersetzt (nicht zur Laufzeit). Beispiel: `{d:BUG_CONTEST_BALLS}` → `20`. Die sichtbare Zeilenbreite ist damit **fest** und prüfbar. |
 | **Verboten** | `<PLAY_G>` (unmapped); `;` in Textstrings; `@` mitten im String |
 | **Formulierungen** | `findet` / `erhält` · `PKMN-ARENA von …` · CAPS-Orte (NEUBORKIA, DUKATIA CITY, JOHTO, KANTO, …) |
+| **Items / Attacken** | GSC-Klassik **A** (Dump-Beschreibungen wo mappbar); PC-only **C**; **Fähigkeiten** immer **C** (nicht in GSC) |
 | **User-Override** | Mama: **Schatz** statt Dump „Baby“ |
 
 #### DE-Ortsnamen (Auswahl)
