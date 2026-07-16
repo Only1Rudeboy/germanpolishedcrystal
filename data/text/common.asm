@@ -56,7 +56,7 @@ _ApricornBoxIsFullText::
 
 SECTION "_PutAwayTheApricornText", ROMX
 _PutAwayTheApricornText::
-	text "<PLAYER> steckte"
+	text "<PLAYER> steckt"
 	line ""
 	text_ram wStringBuffer3
 	text " in die"
@@ -3501,10 +3501,12 @@ _GainedMultipleItemsText::
 
 SECTION "_PutItemInPocketText", ROMX
 _PutItemInPocketText::
-	; 2-Zeilen-Textbox + cont (NICHT 4× line — sonst
-	; Overflow / kaputte Anzeige, z.B. Assistenz-Trank).
-	; Zeile2: "ITEM in" (≤18); cont: "die FACH."
-	text "<PLAYER> steckte"
+	; GSC-nah, Präsens wie „findet“.
+	; Zeile1: "<PLAYER> steckt"
+	; Zeile2: "ITEM in"
+	; cont:   "die Medizintasche."  (Pocket-Name inkl. -tasche)
+	; Breite: "die Medizintasche." = 18
+	text "<PLAYER> steckt"
 	line ""
 	text_ram wStringBuffer1
 	text " in"

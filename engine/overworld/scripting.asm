@@ -644,11 +644,13 @@ Script_verbosegiveitemvar:
 Script_itemnotify:
 	call GetPocketName
 	call GetCurItemName
+	; Item-Icon überschreibt Font-Tiles → vor dem Text neu laden,
+	; sonst fehlen/korrumpieren Zeichen (z.B. „die …Tasche“).
+	farcall LoadFonts_NoOAMUpdate
 	ld b, BANK(_PutItemInPocketText)
 	ld hl, _PutItemInPocketText
 	call MapTextbox
-	; The item icon overwrites nine font tiles, including
-	; the "▶" needed by the right cursor arrow.
+	; Cursor-Pfeil „▶“ wiederherstellen
 	farjp LoadFonts_NoOAMUpdate
 
 Script_pocketisfull:
@@ -1872,11 +1874,10 @@ GiveKeyItemScript:
 Script_keyitemnotify:
 	call GetKeyItemPocketName
 	call GetCurKeyItemName
+	farcall LoadFonts_NoOAMUpdate
 	ld b, BANK(_PutItemInPocketText)
 	ld hl, _PutItemInPocketText
 	call MapTextbox
-	; The key item icon overwrites nine font tiles, including
-	; the "▶" needed by the right cursor arrow.
 	farjp LoadFonts_NoOAMUpdate
 
 Script_givemoney:
@@ -2511,11 +2512,10 @@ GiveTMHMScript:
 Script_tmhmnotify:
 	call GetTMHMPocketName
 	call GetCurTMHMName
+	farcall LoadFonts_NoOAMUpdate
 	ld b, BANK(_PutItemInPocketText)
 	ld hl, _PutItemInPocketText
 	call MapTextbox
-	; The tm/hm icon overwrites nine font tiles, including
-	; the "▶" needed by the right cursor arrow.
 	farjp LoadFonts_NoOAMUpdate
 
 Script_gettmhmname:

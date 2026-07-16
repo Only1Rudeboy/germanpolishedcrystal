@@ -8,17 +8,19 @@ ItemPocketNames:
 	dr .Key ; impossible
 	assert_table_length NUM_POCKETS
 
-; DE-Canon (GSC/Crystal-Stil + Polished-Taschen):
-; Items / Medizin / Bälle / TM/VM / Beeren / Basis-Items
+; GSC-DE-Stil (Dump: ITEM-TASCHE / BALL-TASCHE / TM-TASCHE)
+; + PC-Taschen. Kurz genug für:
+;   cont "die " + Name + "."  ≤ 18 Zeichen
+; z.B. "die Medizintasche." = 18
 .Item:
-	db "Items@"
+	db "Itemtasche@"
 .Medicine:
-	db "Medizin@"
+	db "Medizintasche@"
 .Ball:
-	db "Bälle@"
+	db "Balltasche@"
 .TM:
-	db "TM/VM@"
+	db "TM-Tasche@"
 .Berry:
-	db "Beeren@"
+	db "Beerentasche@"
 .Key:
-	db "Basis-Items@"
+	db "Basistasche@"
