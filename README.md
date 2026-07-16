@@ -53,6 +53,17 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 | **Bugfixes kritisch** · `2b9ba2e09` … `c96491575` | Lyra „erhält“ ohne Mon-Name; LIND-Labor-Intro (`sdefer`); 11× sdefer + 68× premature `done`; Deep-Scan stubbed Scenes + `@` mid-string; „genickert“→verschlafen. ROM **009–011+**. |
 | **Repo / Docs** | INSTALL.md DE; README WIP + Feedback; GitHub `Only1Rudeboy/germanpolishedcrystal` (main+master). |
 
+> **Detaillierte Früh-Historie ROM 001–015:** siehe [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)  
+> (Fundament-Übersetzung, kritische Softlocks 009–011, Early-Game Dump bis Viola.)
+
+#### ROM 3.2.3.001 – 015 (Kurz)
+
+| ROM | Inhalt (Kurz) |
+|---|---|
+| **001–008** | DE-Start: Maps/UI/Kampf/Dex-Text, 18-Zeichen-Reflow, `line`/`cont`-Fix, Proofreading, GSC-Canon-Marker, Docs |
+| **009–011** | Softlocks: Lyra `text_ram`, Elm `sdefer`, global 11× `sdefer` + 68× premature `done`, Deep-Scan Scenes, „verschlafen“ |
+| **012–015** | Early-Game Dump: Neuborkia/Cherrygrove/Route 29–31, Mama **Schatz**, Viola **FLÜGELORDEN** |
+
 #### Phase früher — Grundübersetzung & Proofreading (Git-Historie)
 
 | Commit-Schwerpunkt | Inhalt |
