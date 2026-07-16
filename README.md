@@ -22,6 +22,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
+| **ROM 3.2.3.042** | **Mail-/Key-Items Dump-Finish:** Briefe (Blumen/Surf/Cyan/…/Trug), UP-GRADE (SILPH CO.), restliche Key-Item-Texte final dump-nah; QC ~139 GSC-Item-Descs = Dump. |
 | **ROM 3.2.3.041** | **Items dump-nah erweitert:** Evoli-Steine, Hyperheiler/Wutkeks split, Beeren (Pecha/Cheri/…), King-Stein, Scope-Linse, Lauch, Rosa Band→Seide, Buntflügel, Schiggykanne; Moves safe re-apply. |
 | **ROM 3.2.3.040** | **Items + Attacken dump-nah (Basis):** ~117 Items + ~119 Move-Blöcke; Fähigkeiten **C**. |
 | **ROM 3.2.3.039** | **JOHTO/KANTO CAPS**; `{d:…}`-Breite dokumentiert. |

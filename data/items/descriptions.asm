@@ -1283,7 +1283,7 @@ DragonScaleDesc:
 
 UpgradeDesc:
 	text "Eine mysteriöse"
-	next "Silph-Co.-Box."
+	next "Box der SILPH CO."
 	done
 
 DubiousDiscDesc:
@@ -1418,18 +1418,18 @@ FlowerMailDesc:
 	done
 
 SurfMailDesc:
-	text "Post mit Lapras-"
-	next "Muster. (halten)"
+	text "Umschlag mit"
+	next "LAPRAS. (TRAGEN)"
 	done
 
 LiteBlueMailDesc:
-	text "Post mit Dratini-"
-	next "Muster. (halten)"
+	text "Umschlag mit"
+	next "DRATINI. (TRAGEN)"
 	done
 
 PortraitMailDesc:
-	text "Post mit dem Bild"
-	next "des Besitzers."
+	text "Umschlag mit"
+	next "Besitzerportrait."
 	done
 
 LovelyMailDesc:
@@ -1438,13 +1438,13 @@ LovelyMailDesc:
 	done
 
 EonMailDesc:
-	text "Post mit Evoli-"
-	next "Muster. (halten)"
+	text "Umschlag mit"
+	next "EVOLI. (TRAGEN)"
 	done
 
 MorphMailDesc:
-	text "Post mit Ditto-"
-	next "Muster. (halten)"
+	text "Umschlag mit"
+	next "DITTO. (TRAGEN)"
 	done
 
 BlueSkyMailDesc:
