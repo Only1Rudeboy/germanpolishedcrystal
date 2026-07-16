@@ -88,7 +88,7 @@ Route23NorthMineralBadgeTriggerScript:
 	sjumpfwd Route23OfficerHaveBadgeScript
 
 .MineralBadgeText:
-	db "Mineral Badge@"
+	db "Stahlorden@"
 
 Route23NorthGlacierBadgeOfficerScript:
 Route23NorthGlacierBadgeTriggerScript:
@@ -106,7 +106,7 @@ Route23NorthGlacierBadgeTriggerScript:
 	sjumpfwd Route23OfficerHaveBadgeScript
 
 .GlacierBadgeText:
-	db "Glacier Badge@"
+	db "Eisorden@"
 
 Route23NorthRisingBadgeOfficerScript:
 Route23NorthRisingBadgeTriggerScript:
@@ -124,7 +124,7 @@ Route23NorthRisingBadgeTriggerScript:
 	sjumpfwd Route23OfficerHaveBadgeScript
 
 .RisingBadgeText:
-	db "Rising Badge@"
+	db "Drachenorden@"
 
 Route23OfficerNoBadgeScript:
 	writetext .NoBadgeText

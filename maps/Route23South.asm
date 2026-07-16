@@ -62,7 +62,7 @@ Route23SouthZephyrBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .ZephyrBadgeText:
-	db "Zephyr Badge@"
+	db "Flügelorden@"
 
 Route23SouthHiveBadgeOfficerScript:
 Route23SouthHiveBadgeTriggerScript:
@@ -116,7 +116,7 @@ Route23SouthFogBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .FogBadgeText:
-	db "Fog Badge@"
+	db "Phantomorden@"
 
 Route23SouthStormBadgeOfficerScript:
 Route23SouthStormBadgeTriggerScript:
@@ -134,4 +134,4 @@ Route23SouthStormBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .StormBadgeText:
-	db "Storm Badge@"
+	db "Faustorden@"

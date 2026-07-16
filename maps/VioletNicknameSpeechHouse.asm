@@ -47,13 +47,13 @@ VioletNicknameSpeechHouseLassText:
 
 
 VioletNicknameSpeechHouseGrampsText:
-	text "Das"
-	line "Zephyr-Abzeichen"
-	cont "ist nach einem"
-	para "alten Gott des"
-	line "Westwinds benannt."
-	para "Passend für eine"
-	line "Flug-Arena."
+	; PC-Flavor, Orden-Name dump-konsistent
+	text "Der FLÜGELORDEN"
+	line "ist nach einem"
+	cont "alten Gott des"
+	para "Westwinds benannt."
+	line "Passend für eine"
+	cont "Flug-ARENA."
 	done
 
 VioletNicknameSpeechHouseBirdText:
