@@ -108,13 +108,13 @@ INCLUDE "gfx/stats/orange_page.pal"
 	ret
 
 .str_level
-	db "bei <LV>@"
+	db ", <LV>@"
 
 .str_hatched
-	db "aus Ei@"
+	db ", aus Ei@"
 
 .str_traded
-	db "getauscht@"
+	db ", getauscht@"
 
 .TN_PrintCharacteristics:
 	; b = value of best DV, c = index of best DV

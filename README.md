@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.049** (nach QWERTZ / v0.9) |
+| **Aktuell pure-DE** | **ROM 3.2.3.050** (Summary-Reiter DE) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
 
@@ -20,7 +20,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–049](#rom-übersicht-001049)
+3. [ROM-Übersicht 001–050](#rom-übersicht-001050)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -43,6 +43,11 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 ## Changelog (aktuell)
 
 Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001049) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+
+### 050 · 2026-07 — Summary-Reiter (PNG)
+
+- Status-Screen-Tabs (OAM-Sprites): **EP · Fähig. · Item · Att. · Ort · Ei** (statt Exp./Ability/Move/Met/Egg)
+- Fundort-Zeile: `Tag, Lv.15` statt `Tag bei Lv.15`
 
 ### 049 · 2026-07 — `#COM` / `#DEX`-Casing
 
@@ -96,7 +101,7 @@ Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersi
 
 ---
 
-## ROM-Übersicht 001–049
+## ROM-Übersicht 001–050
 
 | Block | Thema |
 |---|---|
@@ -110,9 +115,10 @@ Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersi
 | **040–045** | Items, Moves, Dex, Script-Stubs |
 | **046–048** | Optionen, QWERTZ / v0.9 |
 | **049** | `#COM` / `#DEX`-Casing (PokéCOM) |
+| **050** | Summary-Reiter DE (EP/Fähig./Att./Ort/Ei) |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · nächster Build: **050**
+Zähler: `tools/_rom_build_version.txt` · nächster Build: **051**
 
 ---
 
