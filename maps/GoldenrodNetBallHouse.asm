@@ -15,6 +15,8 @@ GoldenrodNetBallHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodNetBallHouseYoungsterScript, -1
 	object_event  6,  3, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodNetBallHouseBugCatcherText, -1
 
+; PC-only house: natural DE + CAPS
+
 GoldenrodNetBallHouseYoungsterScript:
 	checkevent EVENT_GOT_NET_BALL_FROM_GOLDENROD
 	iftrue_jumptextfaceplayer .Text2
@@ -31,7 +33,7 @@ GoldenrodNetBallHouseYoungsterScript:
 	text "Manchmal hast du"
 	line "echt Glück und"
 
-	para "fängst ein #mon"
+	para "fängst ein #MON"
 	line "mit vollen KP."
 
 	para "Ich liebe dieses"
@@ -39,11 +41,13 @@ GoldenrodNetBallHouseYoungsterScript:
 	done
 
 .Text1:
-	text "Ich habe Netzbälle"
+	text "Ich habe NETZBÄLLE"
 	line "gekauft, um"
-	para "ein Tannza zu"
+
+	para "ein TANNZA zu"
 	line "fangen, aber beim"
 	cont "ersten Wurf"
+
 	para "hat's geklappt!"
 	line "Den Rest brauch"
 	cont "ich nicht mehr."
@@ -52,8 +56,10 @@ GoldenrodNetBallHouseYoungsterScript:
 GoldenrodNetBallHouseBugCatcherText:
 	text "Im NATIONALPARK"
 	line "auf ROUTE 35"
+
 	para "gibt es Käferfang-"
 	line "Wettbewerbe."
+
 	para "Manchmal kämpft"
 	line "sogar KAI mit!"
 	done

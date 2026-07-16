@@ -40,14 +40,14 @@ RadioTower3FGymGuideScript:
 	iftrue_jumptextfaceplayer RadioTower3FGymGuideText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Für Trainer sind"
-	line "#mon geliebte"
-	cont "Partner."
-	para "Es ist"
-	line "schrecklich, wie"
-	cont "TEAM"
+	line "#MON wie"
+	cont "Lebenspartner."
+	para "Es ist schreck-"
+	line "lich, wie TEAM"
 	para "ROCKET versucht,"
-	line "#mon zu"
+	line "alle #MON zu"
 	cont "kontrollieren."
 	done
 
@@ -60,17 +60,18 @@ RadioTower3FCooltrainerFScript:
 	iftrue_jumptextfaceplayer RadioTower3FCooltrainerFIsDirectorSafeText
 	jumpthistextfaceplayer
 
-	text "Der Boss von TEAM"
-	line "ROCKET hat sich"
+	; GSC-DE Dump
+	text "Der Anführer von"
+	line "TEAM ROCKET hat"
+	cont "sich selbst"
 	cont "eingeschlossen."
-	para "Aber der"
-	line "INTEN-DANT kann"
-	cont "öffnen."
-	para "Er ist oben im"
-	line "fünften Stock."
+	para "Aber der INTENDANT"
+	line "besitzt einen"
+	cont "Schlüssel."
+	para "Du findest ihn"
+	line "im vierten Stock."
 	para "Bitte rette ihn!"
 	done
-
 
 .NoRockets:
 	faceplayer
@@ -88,10 +89,10 @@ RadioTower3FCooltrainerFScript:
 GenericTrainerGruntM7:
 	generictrainer GRUNTM, 7, EVENT_BEAT_ROCKET_GRUNTM_7, GruntM7SeenText, GruntM7BeatenText
 
+	; GSC-DE Dump
 	text "Ich bin meinen"
 	line "Pflichten nicht"
 	cont "nachgekommen…"
-
 	para "Ich werde dafür"
 	line "bezahlen müssen…"
 	done
@@ -99,16 +100,17 @@ GenericTrainerGruntM7:
 GenericTrainerGruntM8:
 	generictrainer GRUNTM, 8, EVENT_BEAT_ROCKET_GRUNTM_8, GruntM8SeenText, GruntM8BeatenText
 
+	; GSC-DE Dump
 	text "Verlieren macht"
 	line "mich mürrisch!"
-
 	para "Mist! Ich hasse"
-	line "unfähige #mon!"
+	line "unfähige #MON!"
 	done
 
 GenericTrainerGruntM9:
 	generictrainer GRUNTM, 9, EVENT_BEAT_ROCKET_GRUNTM_9, GruntM9SeenText, GruntM9BeatenText
 
+	; GSC-DE Dump
 	text "Was?! Du bist an"
 	line "unseren Männern im"
 	cont "UNTERGRUND"
@@ -120,8 +122,8 @@ GenericTrainerGruntM9:
 GenericTrainerRocketScientistMarc:
 	generictrainer ROCKET_SCIENTIST, MARC, EVENT_BEAT_ROCKET_SCIENTIST_MARC, RocketScientistMarcSeenText, RocketScientistMarcBeatenText
 
+	; GSC-DE Dump
 	text "Huahahaha…"
-
 	para "Ich kann Signale"
 	line "jeder Stärke von"
 	cont "hier aussenden."
@@ -151,157 +153,139 @@ CardKeySlotScript::
 	end
 
 RadioTower3FSuperNerdText:
+	; GSC-DE Dump
 	text "Wir haben die Rufe"
-	line "von allen"
-	cont "bekannten #mon"
-	cont "auf Tonband. Es"
-	cont "sind zirka 200."
+	line "von allen bekann-"
+	cont "ten #MON auf"
+	para "Tonband."
+	line "Es sind zirka 200."
 	done
-
-
 
 RadioTower3FGymGuideText:
-	text "Bei uns gibt es"
-	line "rund um die Uhr"
-	cont "Unterhaltungssend-"
-	cont "ungen."
-
-	para "Ich versuche auch,"
-	line "rund um die Uhr zu"
-	cont "arbeiten!"
+	; GSC-DE Dump
+	text "Bei uns gibt"
+	line "es rund um die Uhr"
+	para "Unterhaltungs-"
+	line "sendungen."
+	para "Ich versuche"
+	line "auch, rund um die"
+	cont "Uhr zu arbeiten!"
 	done
-
-
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
+	; GSC-DE Dump
 	text "Hast du den"
-	line "INTENDANTEN retten"
-	cont "können?"
+	line "INTENDANTEN"
+	cont "retten können?"
 	done
 
-
-
 RadioTower3FCooltrainerFYoureMyHeroText:
-	text "Danke! Du bist"
-	line "mein Held!"
-	para "Nimm das als"
+	; GSC-DE Dump
+	text "Danke!"
+	line "Du bist mein Held!"
+	para "Dies ist ein"
 	line "Zeichen meiner"
 	cont "Wertschätzung."
 	done
 
-
-
 RadioTower3FCooltrainerFItsAGBCSoundsText:
+	; PC-only (GBC Sounds)
 	text "Das sind GBC"
 	line "Sounds."
-
 	para "Voller Songs, die"
 	line "du überall"
-
 	para "hören kannst,"
 	line "sogar im Kampf."
-
 	para "Spezialfunktionen"
 	line "für Tonhöhe und"
-
 	para "Tempo - die"
 	line "Steuerung ist"
-
 	para "etwas knifflig."
-
 	para "Probiere einfach"
 	line "herum!"
 	done
 
 RadioTower3FCooltrainerFYouWereMarvelousText:
+	; GSC-DE Dump
 	text "Du warst einfach"
 	line "traumhaft!"
 	done
 
-
-
 GruntM7SeenText:
+	; GSC-DE Dump
 	text "Mir wurden strikte"
 	line "Befehle erteilt."
-	para "Jeden, der TEAM"
-	line "ROCKET"
+	para "Ich soll jeden,"
+	line "der TEAM ROCKET"
 	cont "herausfordert,"
-	cont "pulverisiere ich!"
+	cont "pulverisieren!"
 	done
 
-
-
 GruntM7BeatenText:
+	; GSC-DE Dump
 	text "Was?!"
 	done
 
-
-
 GruntM8SeenText:
-	text "Es fühlt sich toll"
-	line "an, #mon für"
-	cont "Verbrechen"
-	cont "einzusetzen!"
+	; GSC-DE Dump
+	text "Es ist ein tolles"
+	line "Gefühl, #MON"
+	cont "für Verbrechen"
+	cont "einzusetzen."
 	done
 
-
-
 GruntM8BeatenText:
+	; GSC-DE Dump
 	text "Machst du Witze?"
 	done
 
-
-
 GruntM9SeenText:
-	text "Warum ist der"
-	line "Rollladen offen?"
-	cont "Hast du etwas"
+	; GSC-DE Dump
+	text "Warum hat sich der"
+	line "Rollladen geöff-"
+	cont "net? Hast du etwas"
 	cont "damit zu tun?"
 	done
 
-
-
 GruntM9BeatenText:
+	; GSC-DE Dump
 	text "Ich bin erledigt!"
 	done
 
-
-
 RocketScientistMarcSeenText:
+	; GSC-DE Dump
 	text "Was macht ein"
 	line "fremdes Kind hier?"
 	para "Wer bist du?"
 	done
+
 RocketScientistMarcBeatenText:
-	text "Ts! Ich habe dich"
-	line "nicht ernst"
-	cont "genommen!"
+	; GSC-DE Dump
+	text "Ts! Ich habe"
+	line "dich nicht"
+	cont "ernst genommen!"
 	done
+
 RadioTower3FCardKeySlotText:
-	text "Hier steckt man"
-	line "den TÜRÖFFNER"
-	cont "hinein."
+	; GSC-DE Dump
+	text "Dies ist der"
+	line "Schlitz für"
+	cont "den TÜRÖFFNER."
 	done
-
-
 
 InsertedTheCardKeyText:
+	; GSC-DE Dump
 	text "<PLAYER> benutzt"
 	line "den TÜRÖFFNER."
 	done
 
-
-
 RadioTower3FPersonnelSignText:
+	; GSC-DE Dump
 	text "2S PERSONAL"
 	done
 
-
-
 RadioTower3FPokemonMusicSignText:
-	text "#mon-MUSIK mit"
+	; GSC-DE Dump
+	text "#MON-MUSIK mit"
 	line "DJ BEN"
 	done
-
-
-

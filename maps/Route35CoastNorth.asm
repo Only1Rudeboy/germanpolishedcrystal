@@ -20,9 +20,12 @@ Route35CoastNorth_MapScriptHeader:
 	def_object_events
 
 Route35CoastNorthAdvancedTipsSignText:
+	; PC-only
 	text "Profi-Tipps!"
+
 	para "Du kannst auch vom"
 	line "Rücken eines"
-	para "surfenden #mon"
+
+	para "surfenden #MON"
 	line "aus angeln!"
 	done

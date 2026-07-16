@@ -38,24 +38,27 @@ RadioTower2FTeacherScript:
 	iftrue_jumptextfaceplayer RadioTower2FTeacherText_Rockets
 	jumpthistextfaceplayer
 
-	text "Schlaflieder im"
-	line "Radio können"
-	cont "#-MON"
-	cont "einschläfern."
+	; GSC-DE Dump
+	text "Wenn #MON"
+	line "Schlaflieder im"
+	cont "Radio hören, "
+	cont "schlafen sie ein."
 	done
-
 
 GenericTrainerGruntM4:
 	generictrainer GRUNTM, 4, EVENT_BEAT_ROCKET_GRUNTM_4, GruntM4SeenText, GruntM4BeatenText
 
-	text "Wir lassen nicht"
-	line "zu, dass du unsere"
-	cont "Pläne durchkreuzt!"
+	; GSC-DE Dump
+	text "Wir lassen es"
+	line "nicht zu, dass du"
+	cont "unsere Pläne"
+	cont "durchkreuzt!"
 	done
 
 GenericTrainerGruntM5:
 	generictrainer GRUNTM, 5, EVENT_BEAT_ROCKET_GRUNTM_5, GruntM5SeenText, GruntM5BeatenText
 
+	; GSC-DE Dump
 	text "Wir sind nicht"
 	line "immer böse. Wir"
 	cont "tun nur, wonach"
@@ -65,22 +68,24 @@ GenericTrainerGruntM5:
 GenericTrainerGruntM6:
 	generictrainer GRUNTM, 6, EVENT_BEAT_ROCKET_GRUNTM_6, GruntM6SeenText, GruntM6BeatenText
 
+	; GSC-DE Dump
 	text "Unsere VORSTÄNDE"
 	line "wollen die Macht"
 	cont "an sich reißen."
 	para "Sie haben Großes"
 	line "vor. Ich frage"
-	cont "mich, was das wohl"
-	cont "ist?"
+	cont "mich, was das"
+	cont "wohl ist?"
 	done
 
 GenericTrainerGruntF2:
 	generictrainer GRUNTF, 2, EVENT_BEAT_ROCKET_GRUNTF_2, GruntF2SeenText, GruntF2BeatenText
 
+	; GSC-DE Dump
 	text "Du hast mich"
-	line "besiegt. Das"
-	cont "vergesse ich"
-	cont "nicht!"
+	line "besiegt. Das werde"
+	cont "ich nicht"
+	cont "vergessen!"
 	done
 
 Buena:
@@ -276,24 +281,20 @@ Buena:
 RadioTowerBuenaPrizeReceptionist:
 	end
 
-
-
-
 RadioTower2FPlayerWalksToMicrophoneMovement:
 	slow_step_down
 	slow_step_right
 	step_end
 
 RadioTower2FSuperNerdText:
+	; GSC-DE Dump
 	text "Du kannst überall"
 	line "Radio hören."
 	cont "Probier's mal aus!"
 	done
 
-
-
-
 RadioTower2FRockerText:
+	; PC-only
 	text "Gleich kommt ein"
 	line "Radio-Interview"
 	para "für meinen neuen"
@@ -306,23 +307,20 @@ RadioTower2FRockerText:
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Warum will TEAM"
-	line "ROCKET den"
-	cont "RADIOTURM"
+	; GSC-DE Dump
+	text "Warum möchten sie"
+	line "den RADIOTURM"
 	cont "besetzen?"
 	done
 
-
-
-
 RadioTowerJigglypuffText:
-	text "PUMMELUFF: Pummel…"
+	; GSC-DE Dump
+	text "PUMMELUFF:"
+	line "Pummel…"
 	done
 
-
-
-
 RadioTower2FBlackBelt1Text:
+	; GSC-DE Dump
 	text "Zutritt nur für"
 	line "autorisiertes"
 	cont "Personal."
@@ -333,93 +331,82 @@ RadioTower2FBlackBelt1Text:
 	cont "irgendetwas nicht…"
 	done
 
-
-
-
 RadioTower2FBlackBelt2Text:
-	text "Schau dich in Ruhe"
-	line "um."
+	; GSC-DE Dump
+	text "Schau dich in"
+	line "Ruhe um."
 	para "Der INTENDANT ist"
-	line "wieder nett - so"
-	cont "wie früher."
+	line "wieder nett. So,"
+	cont "wie er früher war."
 	done
 
-
-
-
 GruntM4SeenText:
+	; GSC-DE Dump
 	text "Vor drei Jahren"
-	line "musste sich TEAM"
-	cont "ROCKET auflösen."
-	para "Hier arbeiten wir"
-	line "an unserem"
+	line "war das TEAM"
+	cont "ROCKET gezwungen,"
+	cont "sich aufzulösen."
+	para "Wir arbeiten hier"
+	line "gerade an einem"
 	cont "Comeback!"
 	done
 
-
-
-
 GruntM4BeatenText:
+	; GSC-DE Dump
 	text "Pah! Keine Zeit"
-	line "für"
-	cont "Sentimentalitäten!"
+	line "für Sentimenta-"
+	cont "litäten!"
 	done
+
 GruntM5SeenText:
+	; GSC-DE Dump
 	text "Wir sind TEAM"
-	line "ROCKET - die"
-	cont "#mon-Ausbeuter!"
+	line "ROCKET, die #-"
+	cont "MON-Ausbeuter!"
 	para "Wir lieben es,"
-	line "Böses zu tun! Hast"
-	cont "du Angst?"
+	line "Böses zu tun! "
+	cont "Hast du Angst?"
 	done
-
-
-
 
 GruntM5BeatenText:
-	text "Du glaubst wohl,"
-	line "du bist ein Held?"
+	; GSC-DE Dump
+	text "Du glaubst, du"
+	line "bist ein Held?"
 	done
-
-
-
 
 GruntM6SeenText:
-	text "Hey! Halt dich aus"
-	line "unseren"
-	cont "Angelegenheiten"
-	cont "raus!"
+	; GSC-DE Dump
+	text "Hey! Halte dich"
+	line "aus unseren Ange-"
+	cont "legenheiten raus!"
 	done
-
-
-
 
 GruntM6BeatenText:
-	text "Uff… Ich gebe auf."
+	; GSC-DE Dump
+	text "Uff. Ich gebe auf."
 	done
 
-
-
-
 GruntF2SeenText:
+	; GSC-DE Dump
 	text "Hahaha!"
 	para "Wie langweilig."
-	line "Den Turm zu"
-	cont "übernehmen war"
-	cont "viel zu leicht!"
+	line "Es war viel zu"
+	para "leicht, hier das"
+	line "Ruder zu"
+	cont "übernehmen!"
 	para "Komm schon!"
 	line "Heitere mich auf!"
 	done
 
-
-
-
 GruntF2BeatenText:
+	; GSC-DE Dump
 	text "We-Wer bist du?"
 	done
+
 RadioTower2FBuenaShowIntroductionText:
-	text "BUENA: Hallo!"
-	line "Ich bin BUENA!"
+	; GSC-DE Dump
+	text "BUENA: Hi! Ich bin"
+	line "BUENA!"
 	para "Hast du schon von"
 	line "der Radiosendung"
 	cont "PASSWORT gehört?"
@@ -435,143 +422,113 @@ RadioTower2FBuenaShowIntroductionText:
 	para "gegen einen Preis"
 	line "deiner Wahl ein!"
 	para "Bitte schön!"
-	para "Das ist deine"
-	line "eigene"
-	cont "Punktekarte!"
+	para "Das ist deine ei-"
+	line "gene Punktekarte!"
 	done
-
-
-
 
 RadioTower2FBuenaTuneInToMyShowText:
+	; GSC-DE Dump
 	text "BUENA: Höre dir"
-	line "meine"
-	cont "PASSWORT-SENDUNG"
-	cont "an!"
+	line "meine PASSWORT-"
+	cont "SENDUNG an!"
 	done
 
-
-
-
 RadioTower2FBuenaDoYouKnowPasswordText:
-	text "BUENA: Hallo!"
-	line "Hast du meine"
-	cont "Sendung gehört?"
+	; GSC-DE Dump
+	text "BUENA: Hi!"
+	line "Hast du meine Sen-"
+	cont "dung gehört?"
 	para "Kannst du dich an"
 	line "das Passwort von"
 	cont "heute erinnern?"
 	done
 
-
-
-
 RadioTower2FBuenaJoinTheShowText:
+	; GSC-DE Dump
 	text "BUENA: Oh, wow!"
 	line "Danke!"
 	para "Wie war dein Name"
 	line "doch gleich?"
 	para "…<PLAYER>, O.K.!"
-	para "Auf, <PLAYER>. Mach"
-	line "bei der Sendung"
-	cont "mit!"
+	para "Auf, <PLAYER>."
+	line "Mach bei der"
+	cont "Sendung mit!"
 	done
-
-
-
 
 RadioTower2FBuenaEveryoneSayPasswordText:
+	; GSC-DE Dump
 	text "BUENA: Alle"
 	line "fertig?"
-	para "Schreit das"
-	line "heutige Passwort"
-	cont "für"
-	para "<PLAYER> laut"
-	line "heraus!"
+	para "Schreit das heuti-"
+	line "ge Passwort für"
+	para "<PLAYER>"
+	line "laut heraus!"
 	done
 
-
-
-
 RadioTower2FBuenaComeBackAfterListeningText:
+	; GSC-DE Dump
 	text "BUENA: Hör dir die"
 	line "Sendung an und"
 	para "komme dann wieder!"
 	line "Bis später!"
 	done
 
-
-
-
 RadioTower2FBuenaAlreadyPlayedText:
-	text "BUENA: Tut mir"
-	line "leid …"
+	; GSC-DE Dump
+	text "BUENA: Sorry…"
 	para "Du hast pro Tag"
 	line "nur einen Versuch."
 	para "Probiere morgen"
 	line "wieder dein Glück!"
 	done
 
-
-
-
 RadioTower2FBuenaCorrectAnswerText:
-	text "BUENA: Juhuu! Das"
-	line "ist richtig!"
+	; GSC-DE Dump
+	text "BUENA: Juhuu!"
+	line "Das ist richtig!"
 	para "Du hast zugehört!"
 	line "Ich bin glücklich!"
 	para "Du hast dir einen"
 	line "Punkt verdient!"
 	done
 
-
-
-
 RadioTower2FBuenaDidYouForgetText:
-	text "BUENA: Argh… Das"
-	line "ist falsch…"
-	para "Hast du das"
-	line "Passwort"
-	cont "vergessen?"
+	; GSC-DE Dump
+	text "BUENA: Argh…"
+	line "Das ist falsch…"
+	para "Hast du das Pass-"
+	line "wort vergessen?"
 	done
 
-
-
-
 RadioTower2FBuenaThanksForComingText:
-	text "BUENA: Yo! <PLAYER>"
+	; GSC-DE Dump
+	text "BUENA: Yo!"
+	line "<PLAYER>"
 	para "hat teilgenommen."
 	line "Danke dafür!"
 	para "Ich hoffe, dass"
 	line "alle Zuhörer auch"
-	para "teilnehmen! Ich"
-	line "warte!"
+	para "teilnehmen!"
+	line "Ich warte!"
 	done
 
-
-
-
 RadioTower2FBuenaPasswordIsHelpText:
+	; GSC-DE Dump
 	text "BUENA: Huh? Das"
 	line "heutige Passwort?"
-
 	para "HILFE, natürlich!"
 	done
 
-
-
-
 RadioTower2FBuenaCardIsFullText:
+	; GSC-DE Dump
 	text "BUENA: Deine BLAUE"
 	line "KARTE ist voll."
-	para "Hol dir einen"
-	line "fantastischen"
-	cont "Preis!"
+	para "Hol dir einen fan-"
+	line "tastischen Preis!"
 	done
 
-
-
-
 RadioTower2FBuenaTuneInAfterSixText:
+	; GSC-DE Dump
 	text "BUENA: Hört die"
 	line "PASSWORTSENDUNG"
 	para "täglich von sechs"
@@ -580,10 +537,8 @@ RadioTower2FBuenaTuneInAfterSixText:
 	line "besucht mich dann!"
 	done
 
-
-
-
 RadioTower2FBuenaNoBlueCardText:
+	; GSC-DE Dump
 	text "BUENA: Oh? Du hast"
 	line "deine BLAUE KARTE"
 	cont "vergessen?"
@@ -592,80 +547,62 @@ RadioTower2FBuenaNoBlueCardText:
 	cont "du sie nicht hast."
 	done
 
-
-
-
 RadioTower2FBuenaOfferPhoneNumberText:
+	; GSC-DE Dump (PC: {d:BLUE_CARD_POINT_CAP})
 	text "BUENA: Oh! Du hast"
-	line "{d:BLUE_CARD_POINT_CAP} Punkte auf"
-	cont "deiner BLAUEN"
-	cont "KARTE! Das ist"
-	cont "toll!"
-	para "Hmm … Es gibt zwar"
+	line "{d:BLUE_CARD_POINT_CAP} Punkte auf dei-"
+	cont "ner BLAUEN KARTE!"
+	cont "Das ist toll!"
+	para "Hmm… Es gibt zwar"
 	line "keinen Preis für"
 	cont "das Erreichen von"
-	cont "{d:BLUE_CARD_POINT_CAP} Punkten, aber …"
+	cont "{d:BLUE_CARD_POINT_CAP} Punkten, aber…"
 	para "Du hast mich so"
 	line "oft besucht,"
-	para "<PLAYER>. Ich mache"
-	line "dir ein"
-	cont "spezielles"
-	cont "Angebot!"
+	para "<PLAYER>. Ich"
+	line "mache dir ein spe-"
+	cont "zielles Angebot!"
 	para "Möchtest du meine"
 	line "Telefonnummer?"
 	done
 
-
-
-
 RadioTower2FBuenaOfferNumberAgainText:
+	; GSC-DE Dump
 	text "BUENA: <PLAYER>,"
 	line "möchtest du meine"
-
 	para "Telefonnummer"
 	line "haben?"
 	done
 
-
-
-
 RadioTower2FRegisteredBuenasNumberText:
+	; GSC-DE Dump
 	text "<PLAYER> speichert"
 	line "BUENAs Nummer."
 	done
 
-
-
-
 RadioTower2FBuenaCallMeText:
+	; GSC-DE Dump
 	text "BUENA: Ich freue"
 	line "mich auf deinen"
 	cont "Anruf!"
 	done
 
-
-
-
 RadioTower2FBuenaSadRejectedText:
+	; GSC-DE Dump
 	text "BUENA: Argh… Ein"
 	line "Spezialpreis…"
 	done
 
-
-
-
 RadioTower2FBuenaYourPhoneIsFullText:
-	text "BUENA: <PLAYER>, In"
-	line "deinem"
-	cont "Nummern-speicher"
-	cont "ist kein Platz für"
-	cont "mich …"
+	; GSC-DE Dump
+	text "BUENA: <PLAYER>,"
+	line "In deinem Nummern-"
+	cont "speicher ist kein"
+	cont "Platz für mich…"
 	done
 
-
-
-
 RadioTower2FBuenaReceptionistNoCardText:
+	; GSC-DE Dump
 	text "Ohne deine BLAUE"
 	line "KARTE kannst du"
 	cont "keine Punkte"
@@ -674,31 +611,21 @@ RadioTower2FBuenaReceptionistNoCardText:
 	line "BLAUE KARTE nicht!"
 	done
 
-
-
-
 RadioTower2FSalesSignText:
+	; GSC-DE Dump
 	text "1S VERKAUF"
 	done
 
-
-
-
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF. EICHs"
-	line "#-MON-TALK"
-	para "Die beste Show am"
-	line "Äther!"
+	; GSC-DE Dump
+	text "PROF. EICHs #-"
+	line "MON-TALK"
+	para "Die beste Show"
+	line "am Äther!"
 	done
-
-
-
 
 RadioTower2FPokemonRadioSignText:
+	; GSC-DE Dump
 	text "Überall, jederzeit"
-	line "#mon Radio"
+	line "#MON Radio"
 	done
-
-
-
-

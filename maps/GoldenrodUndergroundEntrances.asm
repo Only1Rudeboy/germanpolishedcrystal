@@ -40,12 +40,14 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 	jumpthisopenedtext
 
 .Text2:
+	; PC-only
 	text "Auf lange Sicht"
 	line "gewinnt immer das"
 	cont "Haus…"
 	done
 
 .Text1:
+	; PC-only
 	text "Ich wollte dieses"
 	line "Item in der"
 	para "SPIELHALLE nutzen,"
@@ -55,36 +57,42 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 	done
 
 GoldenrodUndergroundEntrances_TeacherText:
+	; GSC-DE Dump
 	text "Da unten gibt es"
-	line "Geschäfte …"
+	line "Geschäfte…"
 	para "Aber da unten sind"
 	line "auch Trainer. Ich"
 	para "traue mich nicht"
 	line "hinunter."
 	done
+
 GoldenrodUndergroundEntrances_SuperNerd1Text:
+	; PC-only polish
 	text "Dieser Tunnel"
 	line "wurde ursprünglich"
 	cont "für Lieferungen"
 	cont "zum"
-	para "Kaufhaus gebaut."
+	para "KAUFHAUS gebaut."
 	para "Er ist auch eine"
 	line "schöne Abkürzung"
 	cont "durch die Stadt."
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd2Text:
+	; GSC-DE Dump
 	text "Ich wurde da unten"
 	line "zu einem Kampf"
 	cont "herausgefordert."
 	para "Da unten herrschen"
-	line "raue Sitten. Sei"
+	line "rauhe Sitten. Sei"
 	cont "auf der Hut."
 	done
+
 GoldenrodUndergroundEntrances_BeautyText:
+	; PC-only polish (RADIOTURM)
 	text "Ich war auf einer"
 	line "Führung durch den"
-	para "FUNK-TURM. Ich sah"
+	para "RADIOTURM. Ich sah"
 	line "alle drei Studios"
 	para "und aß sogar im"
 	line "Café."

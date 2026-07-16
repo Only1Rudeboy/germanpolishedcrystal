@@ -98,7 +98,7 @@ Route23SouthPlainBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .PlainBadgeText:
-	db "Plain Badge@"
+	db "Basisorden@"
 
 Route23SouthFogBadgeOfficerScript:
 Route23SouthFogBadgeTriggerScript:

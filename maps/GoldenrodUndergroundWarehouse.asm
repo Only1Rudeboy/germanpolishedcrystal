@@ -25,9 +25,10 @@ GoldenrodUndergroundWarehouse_MapScriptHeader:
 GenericTrainerGruntM24:
 	generictrainer GRUNTM, 24, EVENT_BEAT_ROCKET_GRUNTM_24, GruntM24SeenText, GruntM24BeatenText
 
+	; GSC-DE Dump
 	text "TEAM ROCKET wird"
-	line "weitermachen. Sie"
-	cont "warten auf die"
+	line "weitermachen."
+	cont "Sie warten auf die"
 	cont "Rückkehr von"
 	cont "GIOVANNI."
 	para "Wir werden alles"
@@ -37,8 +38,8 @@ GenericTrainerGruntM24:
 GenericTrainerGruntM14:
 	generictrainer GRUNTM, 14, EVENT_BEAT_ROCKET_GRUNTM_14, GruntM14SeenText, GruntM14BeatenText
 
-	text "Ich habe verloren"
-	line "…"
+	; GSC-DE Dump
+	text "Ich habe verloren…"
 	para "Bitte vergib mir,"
 	line "GIOVANNI!"
 	done
@@ -46,7 +47,8 @@ GenericTrainerGruntM14:
 GenericTrainerGruntM15:
 	generictrainer GRUNTM, 15, EVENT_BEAT_ROCKET_GRUNTM_15, GruntM15SeenText, GruntM15BeatenText
 
-	text "Hiuck-hiuck-hiuck"
+	; GSC-DE Dump
+	text "Hiuck-hiuck-hiuck!"
 	line "Das war grandios!"
 	cont "Ich werde dich"
 	cont "nicht vergessen!"
@@ -69,110 +71,91 @@ GoldenrodUndergroundWarehouseDirectorScript:
 	jumpopenedtext DirectorAfterText
 
 GruntM24SeenText:
-	text "Wie bist du so"
-	line "weit gekommen?"
+	; GSC-DE Dump
+	text "Wie bist du"
+	line "so weit gekommen?"
 	para "Ich denke, es gibt"
 	line "keine andere"
 	cont "Lösung, um dich"
 	cont "loszuwerden."
 	done
 
-
-
 GruntM24BeatenText:
-	text "Er wurde mich los"
-	line "…"
+	; GSC-DE Dump
+	text "Er wurde mich los…"
 	done
 
-
-
 GruntM14SeenText:
-	text "Weiter kommst du"
-	line "nicht!"
+	; GSC-DE Dump
+	text "Weiter kommst"
+	line "du nicht!"
 	para "Ich habe niemals"
 	line "Mitleid mit meinen"
 	cont "Gegnern, auch"
 	cont "nicht mit Kindern!"
 	done
 
-
-
 GruntM14BeatenText:
+	; GSC-DE Dump
 	text "Verdammt!"
 	done
 
-
-
 GruntM15SeenText:
-	text "Hiuck-hiuck-hiuck"
+	; GSC-DE Dump
+	text "Hiuck-hiuck-hiuck!"
 	line "Ich kenne dich!"
-
 	para "Du hast mich in"
 	line "unserem Versteck"
-	cont "richtig"
+	cont "richtig vermöbelt!"
 	done
 
-
-
 GruntM15BeatenText:
-	text "Hiuck-hiuck-hiuck"
+	; GSC-DE Dump
+	text "Hiuck-hiuck-hiuck!"
 	line "So ist das also?"
 	done
 
-
-
 DirectorIntroText:
+	; GSC-DE Dump
 	text "INTENDANT: Wie?"
 	line "Was? Du willst"
 	cont "mich retten?"
-
 	para "Danke!"
-
 	para "Der RADIOTURM!"
-
 	para "Was geschieht"
 	line "dort?"
-
 	para "Von TEAM ROCKET"
 	line "besetzt?"
-
 	para "Hier, nimm diesen"
 	line "TÜRÖFFNER."
 	done
 
-
-
 DirectorCardKeyText:
+	; GSC-DE Dump
 	text "INTENDANT: Damit"
 	line "kannst du den"
 	cont "Rollladen im 2S"
 	cont "öffnen."
 	done
 
-
-
 DirectorAfterText:
+	; GSC-DE Dump
 	text "Ich flehe dich an,"
 	line "uns zu helfen."
 	para "Niemand weiß, was"
 	line "sie vorhaben, wenn"
 	para "sie erst Kontrolle"
-	line "über den"
-	cont "Trans-mitter"
-	cont "erlangen."
+	line "über den Trans-"
+	cont "mitter erlangen."
 	para "Sie könnten sogar"
-	line "mit einem"
-	cont "Spezial-signal"
-	cont "alle #mon"
-	cont "kontrollieren!"
-	para "Bitte hilf mir! Du"
-	line "bist meine letzte"
-	cont "Rettung."
+	line "mit einem Spezial-"
+	cont "signal alle #-"
+	cont "MON kontrollieren!"
+	para "Bitte hilf mir!"
+	line "Du bist meine"
+	cont "letzte Rettung."
 	para "Bitte rette den"
-	line "RADIOTURM …"
-	para "Und alle #mon"
+	line "RADIOTURM…"
+	para "Und alle #MON"
 	line "in diesem Land!"
 	done
-
-
-

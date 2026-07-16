@@ -34,6 +34,7 @@ NationalParkBugContest_MapScriptHeader:
 BugCatchingContestant1AScript:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "ULI: Ich werde"
 	line "gewinnen! Lass"
 	cont "mich in Ruhe."
@@ -42,97 +43,102 @@ BugCatchingContestant1AScript:
 BugCatchingContestant2AScript:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "ALAN: Mein PARASEK"
-	line "versetzt #mon"
-	cont "mit Sporo in"
-	cont "Schlaf."
+	line "versetzt #MON"
+	cont "mittels PILZSPORE"
+	cont "in den Schlaf."
 	done
 
 BugCatchingContestant3AScript:
 	jumpthistextfaceplayer
 
-	text "LARS: Ich"
-	line "trainiere schnelle"
-	cont "#mon für"
-	cont "Kämpfe."
+	; GSC-DE Dump
+	text "LARS: Ich trai-"
+	line "niere schnelle"
+	cont "#MON für"
+	cont "den Kampf."
 	done
 
 BugCatchingContestant4AScript:
 	jumpthistextfaceplayer
 
-	text "WILHELM: Mir"
-	line "geht's nicht ums"
-	cont "Gewinnen."
+	; GSC-DE Dump
+	text "WILHELM: Gewin-"
+	line "nen ist mir nicht"
+	cont "wichtig."
 
-	para "Ich suche nur"
-	line "seltene #mon."
+	para "Ich suche seltene"
+	line "#MON."
 	done
 
 BugCatchingContestant5AScript:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "AXEL: Pst! Du"
-	line "verscheuchst noch"
-	cont "SICHLOR."
-
-	para "Wir reden später."
+	line "hast SICHLOR ver-"
+	cont "schreckt. Ich rede"
+	cont "später mit dir."
 	done
 
 BugCatchingContestant6AScript:
 	jumpthistextfaceplayer
 
-	text "TILL: Du solltest"
-	line "Käfer-#mon"
+	; GSC-DE Dump
+	text "TILL: Schwäche"
+	line "Käfer-#MON, ehe"
 
-	para "zuerst schwächen,"
-	line "bevor du einen"
-	cont "Ball wirfst."
+	para "du einen #BALL"
+	line "wirfst."
 	done
 
 BugCatchingContestant7AScript:
 	jumpthistextfaceplayer
 
-	text "CINDY: Ich liebe"
-	line "Käfer-#mon."
+	; GSC-DE Dump
+	text "CINDY: Was ist"
+	line "los?"
 
-	para "Du magst sie"
-	line "bestimmt auch."
+	para "Du magst Käfer-"
+	line "#MON doch"
+	cont "auch, oder?"
 	done
 
 BugCatchingContestant8AScript:
 	jumpthistextfaceplayer
 
-	text "ENNO: Ich sammle"
-	line "Käfer-#mon"
-	cont "schon,"
+	; GSC-DE Dump
+	text "ENNO: Seit meiner"
+	line "Kindheit sammle"
 
-	para "seit ich klein"
-	line "war."
+	para "ich Käfer-"
+	line "#MON."
 
-	para "Ich werde auf"
-	line "keinen Fall"
-	cont "verlieren!"
+	para "Du kannst mich"
+	line "nicht besiegen!"
 	done
 
 BugCatchingContestant9AScript:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "GUIDO: Wenn du"
-	line "Zeit zum Reden"
+	line "Zeit für Gespräche"
 
-	para "hast, such lieber"
-	line "Käfer-#mon."
+	para "hast, solltest du"
+	line "lieber Käfer-"
+	cont "#MON suchen."
 	done
 
 BugCatchingContestant10AScript:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "MICHEL: Ich habe"
-	line "viel über"
-	cont "Käfer-#mon"
-	cont "gelernt."
-	para "Ich werde ganz"
-	line "sicher gewinnen."
+	line "Käfer-#MON"
+	cont "lange studiert."
+
+	para "Ich werde sicher-"
+	line "lich gewinnen."
 	done
-
-

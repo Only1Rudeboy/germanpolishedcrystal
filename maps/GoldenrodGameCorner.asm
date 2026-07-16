@@ -105,7 +105,7 @@ GoldenrodGameCornerTutorPayDayScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Pay Day bringt dir"
+	text "ZAHLTAG bringt dir"
 	line "nach einem Kampf"
 	cont "mehr Geld!"
 	para "Nutze es oft und"
@@ -186,12 +186,11 @@ GoldenrodGameCornerPrizeVendor_AlreadyHaveTMScript:
 GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript:
 	jumpthisopenedtext
 
-	text "Tut mir leid! Du"
-	line "brauchst mehr"
+	; GSC-DE Dump
+	text "Tut mir Leid, aber"
+	line "du brauchst mehr"
 	cont "Münzen."
 	done
-
-
 
 GoldenrodGameCornerTMVendorMenuData:
 	db MENU_BACKUP_TILES
@@ -205,7 +204,7 @@ GoldenrodGameCornerTMVendorMenuData:
 	db "TM35    {d:GOLDENRODGAMECORNER_TM35_COINS}@"
 	db "TM24    {d:GOLDENRODGAMECORNER_TM24_COINS}@"
 	db "TM13    {d:GOLDENRODGAMECORNER_TM13_COINS}@"
-	db "Cancel@"
+	db "ZURÜCK@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -285,10 +284,10 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Abra        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
-	db "Cubone      {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
-	db "Clefairy   {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
-	db "Cancel@"
+	db "ABRA        {d:GOLDENRODGAMECORNER_ABRA_COINS}@"
+	db "TRAGOSSO    {d:GOLDENRODGAMECORNER_CUBONE_COINS}@"
+	db "PIEPI      {d:GOLDENRODGAMECORNER_CLEFAIRY_COINS}@"
+	db "ZURÜCK@"
 
 GoldenrodGameCornerPharmacistScript:
 	showtextfaceplayer GoldenrodGameCornerPharmacistText
@@ -318,206 +317,164 @@ GoldenrodGameCornerGentlemanScript:
 GoldenrodGameCornerLeftTheirDrinkScript:
 	jumpthistext
 
+	; GSC-DE Dump
 	text "Jemand hat sein"
 	line "Getränk stehen"
-
 	para "lassen. Es riecht"
 	line "süß!"
 	done
+
 GoldenrodGameCornerSlotsMachineScript:
 	end
-
-
-
 
 GoldenrodGameCornerLuckySlotsMachineScript:
 	end
 
-
-
-
 GoldenrodGameCornerCardFlipMachineScript:
 	end
 
-
-
-
 GoldenrodGameCornerPrizeVendorIntroText:
+	; GSC-DE Dump
 	text "Willkommen!"
 	para "Wir tauschen deine"
 	line "Spielmünzen gegen"
 	cont "tolle Preise!"
 	done
 
-
-
-
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
+	; GSC-DE Dump
 	text "Welchen Preis"
 	line "möchtest du?"
 	done
 
-
-
-
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
+	; GSC-DE Dump
 	text_ram wStringBuffer3
 	text "."
 	line "Ist das O.K.?"
 	done
 
-
-
 GoldenrodGameCornerPrizeVendorHereYouGoText:
+	; GSC-DE Dump
 	text "Hier, bitte!"
 	done
 
-
-
-
 GoldenrodGameCornerPrizeVendorAlreadyHaveTMText:
 	text "Aber du hast diese"
-	line "VM schon!"
+	line "TM schon!"
 	done
 
-
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
+	; GSC-DE Dump
 	text "Du kannst nichts"
 	line "mehr tragen."
 	done
 
-
-
-
 GoldenrodGameCornerPrizeVendorQuitText:
+	; GSC-DE Dump
 	text "Sammle ein paar"
 	line "Münzen und komm"
 	cont "dann wieder!"
 	done
 
-
-
-
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
+	; GSC-DE Dump
 	text "Oh? Du hast keinen"
 	line "MÜNZKORB."
 	done
-
-
-
 
 GoldenrodGameCornerFisherText:
 	text "Heute ist Zahltag!"
 	line "Zeit zu feiern an"
 	cont "den Automaten!"
-	para "… Weißt du,"
-	line "#mon bekommen"
-	cont "auch Pay Day."
+	para "…Weißt du,"
+	line "#MON bekommen"
+	cont "auch ZAHLTAG."
 	done
 
 Text_GoldenrodGameCornerTutorPayDayQuestion:
 	text "Gibst du mir ein"
 	line "Silberblatt,"
-
 	para "bring ich deinem"
-	line "#mon Pay Day"
+	line "#MON ZAHLTAG"
 	cont "bei."
 	done
 
-
-
-
 GoldenrodGameCornerPharmacistText:
+	; GSC-DE Dump
 	text "Ich spiele nur an"
 	line "diesem Automaten."
-
 	para "Ich glaube, er"
 	line "spuckt mehr aus"
-
 	para "als die anderen."
 	done
 
-
-
-
 GoldenrodGameCornerPokefanM1Text:
+	; GSC-DE Dump
 	text "Ich liebe diesen"
 	line "neuen Automaten."
 	para "Er stellt eine"
-	line "größere"
-	cont "Herausfor-derung"
-	cont "dar als jene in"
-	cont "PRISMANIA CITY."
+	line "größere Herausfor-"
+	cont "derung dar als"
+	cont "jene in PRISMANIA"
+	cont "CITY."
 	done
 
-
-
-
 GoldenrodGameCornerCooltrainerMText:
+	; GSC-DE Dump
 	text "Das Leben ist ein"
 	line "Spiel. Ich werde"
 	cont "Karten spielen,"
 	cont "bis ich umfalle!"
 	done
 
-
-
-
 GoldenrodGameCornerPokefanFText:
-	text "Karten …"
+	; GSC-DE Dump
+	text "Karten…"
 	para "Ich ziehe sie den"
 	line "Automaten vor,"
 	para "weil man seine"
-	line "Chancen besser"
-	cont "abschätzen kann."
+	line "Chancen besser ab-"
+	cont "schätzen kann."
 	para "Aber der Gewinn"
 	line "ist viel geringer."
 	done
 
-
-
-
 GoldenrodGameCornerCooltrainerFText:
+	; GSC-DE Dump
 	text "Ich höre erst auf,"
 	line "wenn ich gewinne!"
 	done
 
-
-
-
 GoldenrodGameCornerGentlemanText:
+	; GSC-DE Dump
 	text "Ich habe meinen"
-	line "#mon BLIZZARD"
+	line "#MON BLIZZARD"
 	cont "beigebracht."
-	para "Es hat zwar"
-	line "gedauert, bis ich"
-	cont "genug"
+	para "Es hat zwar gedau-"
+	line "ert, bis ich genug"
 	para "Münzen hatte, aber"
-	line "es hat sich"
-	cont "gelohnt."
+	line "es hat sich ge-"
+	cont "lohnt."
 	done
 
-
-
-
 GoldenrodGameCornerPokefanM2Text:
+	; GSC-DE Dump
 	text "Ich hatte an den"
 	line "Automaten kein"
 	para "Glück. Bei den"
 	line "Karten sieht es"
 	para "auch nicht anders"
-	line "aus …"
+	line "aus…"
 	para "Ich war so zornig,"
 	line "dass ich meinen"
 	para "MÜNZKORB in den"
-	line "UNTERGRUND"
-	cont "geworfen habe."
+	line "UNTERGRUND gewor-"
+	cont "fen habe."
 	done
 
-
-
-
 GoldenrodGameCornerPokefanM3Text:
+	; GSC-DE Dump
 	text "Wahaha! Die Münzen"
 	line "fallen weiter!"
 	done

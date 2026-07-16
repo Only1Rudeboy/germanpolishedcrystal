@@ -73,8 +73,10 @@ OfficermKeithScript:
 GenericTrainerBugManiacLou:
 	generictrainer BUG_MANIAC, LOU, EVENT_BEAT_BUG_MANIAC_LOU, BugManiacLouSeenText, BugManiacLouBeatenText
 
+	; PC-only
 	text "Früher war ich nur"
 	line "ein Käfer-Sammler,"
+
 	para "doch ich hab mich"
 	line "zum Käfer-Maniac"
 	cont "entwickelt!"
@@ -83,16 +85,18 @@ GenericTrainerBugManiacLou:
 GenericTrainerSchoolgirlEliza:
 	generictrainer SCHOOLGIRL, ELIZA, EVENT_BEAT_SCHOOLGIRL_ELIZA, SchoolgirlElizaSeenText, SchoolgirlElizaBeatenText
 
+	; PC-only
 	text "Das ist mir egal!"
-	line "Ich liebe Myrapla"
+	line "Ich liebe MYRAPLA"
 	cont "trotzdem!"
 	done
 
 GenericTrainerSchoolboyJohnny:
 	generictrainer SCHOOLBOY, JOHNNY, EVENT_BEAT_SCHOOLBOY_JOHNNY, SchoolboyJohnnySeenText, SchoolboyJohnnyBeatenText
 
+	; PC-only
 	text "Na ja, ich mag"
-	line "Sonnkern trotzdem"
+	line "SONNKERN trotzdem"
 	cont "lieber!"
 	done
 
@@ -213,10 +217,11 @@ SchoolboyJack1Script:
 GenericTrainerPokefanmWilliam:
 	generictrainer POKEFANM, WILLIAM, EVENT_BEAT_POKEFANM_WILLIAM, PokefanmWilliamSeenText, PokefanmWilliamBeatenText
 
+	; GSC-DE Dump
 	text "Ich habe zwar den"
 	line "Kampf verloren,"
 
-	para "aber meine #mon"
+	para "aber meine #MON"
 	line "gewinnen den"
 	cont "Schönheitspreis."
 	done
@@ -264,13 +269,15 @@ PokefanfBeverly1Script:
 .NoMarill:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Mein Freund hat"
 	line "ein MARILL!"
+
 	para "Ich finde es"
 	line "liebenswert."
+
 	para "Ich hätte gerne"
-	line "selbst ein MARILL"
-	cont "…"
+	line "selbst ein MARILL…"
 	done
 
 .AskNumber1:
@@ -300,12 +307,14 @@ PokefanfBeverly1Script:
 GenericTrainerLassKrise:
 	generictrainer LASS, KRISE, EVENT_BEAT_LASS_KRISE, LassKriseSeenText, LassKriseBeatenText
 
+	; GSC-DE Dump
 	text "Ich dachte, du"
 	line "starrst mich an,"
 	cont "weil ich süß bin!"
 	done
 
 NationalParkLassText:
+	; GSC-DE Dump
 	text "Sieh dir meine"
 	line "Tasche an!"
 
@@ -317,18 +326,16 @@ NationalParkLassText:
 	cont "Tasche geklebt."
 	done
 
-
-
 NationalParkPokefanFText:
-	text "Das ist ein BRIEF"
-	line "von meiner"
+	; GSC-DE Dump
+	text "Das ist ein"
+	line "BRIEF von meiner"
 	cont "Tochter. Das macht"
 	cont "mir Freude."
 	done
 
-
-
 NationalParkTeacher1Text:
+	; GSC-DE Dump
 	text "Pass bitte auf!"
 
 	para "…Ohh, ich muss"
@@ -338,7 +345,7 @@ NationalParkTeacher1Text:
 	line "denken."
 
 	para "Du musst ein"
-	line "#mon-Trainer"
+	line "#MON-Trainer"
 	cont "sein."
 
 	para "Da du so hart"
@@ -348,60 +355,65 @@ NationalParkTeacher1Text:
 	line "überreichen."
 	done
 
-
-
 NationalParkTeacher1Text_GotQuickClaw:
+	; GSC-DE Dump
 	text "Gib die FLINKKLAUE"
-	line "einem #mon."
+	line "einem #MON."
+
 	para "Manchmal erhält es"
 	line "durch sie die"
 	cont "Initiative."
 	done
 
-
-
 SchoolgirlElizaSeenText:
-	text "Myrapla ist"
+	; PC-only
+	text "MYRAPLA ist"
 	line "einfach das"
 	cont "Süßeste!"
+
 	para "Findest du nicht"
 	line "auch?"
 	done
 
 SchoolgirlElizaBeatenText:
+	; PC-only
 	text "Mein armes"
-	line "Myrapla…"
+	line "MYRAPLA…"
 	done
 
 SchoolboyJohnnySeenText:
-	text "Sonnkern ist"
+	; PC-only
+	text "SONNKERN ist"
 	line "einfach das"
 	cont "Coolste!"
+
 	para "Habe ich recht?"
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "Sonnkern, nein…"
+	; PC-only
+	text "SONNKERN, nein…"
 	done
 
 NationalParkTeacher2Text:
-	text "Ich gehe oft im"
-	line "PARK spazieren,"
-	para "aber ich meide das"
-	line "hohe Gras."
+	; GSC-DE Dump
+	text "Ich gehe oft"
+	line "im PARK spazieren,"
+
+	para "aber ich meide"
+	line "das hohe Gras."
+
 	para "Trainer möchten"
-	line "immer kämpfen …"
+	line "immer kämpfen…"
 	done
 
-
-
 NationalParkPersianText:
+	; GSC-DE Dump
 	text "SNOBILIKAT: Fauch!"
 	done
 
-
-
 NationalParkGameboyKidText:
+	; GSC-DE Dump
 	text "Ich drucke meinen"
 	line "#DEX aus."
 
@@ -412,41 +424,42 @@ NationalParkGameboyKidText:
 	line "ausdrucken."
 	done
 
-
-
 SchoolboyJack1SeenText:
-	text "Die #mon-Welt"
+	; GSC-DE Dump
+	text "Die #MON-Welt"
 	line "bietet dir viel."
+
 	para "Es gibt noch viele"
 	line "Dinge, über die"
 	cont "wir nichts wissen."
-	para "Aber ich weiß mehr"
-	line "als du!"
+
+	para "Aber ich weiß"
+	line "mehr als du!"
 	done
 
-
-
 SchoolboyJack1BeatenText:
+	; GSC-DE Dump
 	text "Wa-Wa-Was?"
 	done
 
-
-
 SchoolboyJackTradeMonText:
-	text "Man kann noch viel"
-	line "lernen."
+	; GSC-DE Dump (PC: NUM_TMS)
+	text "Man kann noch"
+	line "viel lernen."
+
 	para "Zum Beispiel…"
+
 	para "Es gibt {d:NUM_TMS}"
 	line "verschiedene TMs."
-	para "Getauschte #mon"
+
+	para "Getauschte #MON"
 	line "erhalten mehr"
 	cont "Erfahrungspunkte."
 	done
 
-
-
 PokefanfBeverly1SeenText:
-	text "Meine #mon sind"
+	; GSC-DE Dump
+	text "Meine #MON sind"
 	line "entzückend."
 
 	para "Ich will dir"
@@ -454,116 +467,118 @@ PokefanfBeverly1SeenText:
 	cont "sie mich machen."
 	done
 
-
-
 PokefanfBeverly1BeatenText:
+	; GSC-DE Dump
 	text "Was Stolz angeht,"
 	line "kann ich dich"
 	cont "schlagen, aber…"
 	done
 
-
-
 PokefanBeverlyCuteMonText:
+	; GSC-DE Dump
 	text "Ich muss zugeben,"
-	line "dass deine #mon"
+	line "dass deine #MON"
 	cont "auch süß sind."
 	done
 
-
-
 PokefanmWilliamSeenText:
+	; GSC-DE Dump
 	text "Wir bewundern"
-	line "unsere #mon,"
+	line "unsere #MON,"
 	cont "auch wenn sie uns"
 	cont "nicht mögen."
+
 	para "Das macht eben den"
 	line "wahren FAN aus."
 	done
 
-
-
 PokefanmWilliamBeatenText:
-	text "Mei-Mein #mon!"
+	; GSC-DE Dump
+	text "Mei-Mein #MON!"
 	done
 
-
-
 LassKriseSeenText:
+	; GSC-DE Dump
 	text "Was ist? Warum"
-	line "starrst du mich so"
-	cont "an?"
+	line "starrst du mich"
+	cont "so an?"
+
 	para "Oh, ein Kampf?"
 	done
 
-
-
 LassKriseBeatenText:
+	; GSC-DE Dump
 	text "…Hmmm…"
 	done
 
-
-
 BugManiacLouSeenText:
+	; PC-only
 	text "Niemand toppt"
 	line "meine Liebe zu"
-	cont "Käfer-#mon!"
+	cont "Käfer-#MON!"
 	done
 
 BugManiacLouBeatenText:
+	; PC-only
 	text "Wie kann das"
 	line "sein?!"
 	done
 
 OfficermKeithSeenText:
+	; PC-only
 	text "Halt! Was machst"
 	line "du so spät"
 	cont "draußen?"
 	done
 
 OfficermKeithWinText:
+	; PC-only
 	text "Du kannst dich gut"
 	line "wehren!"
 	done
 
 OfficermKeithAfterText:
-	text "Der Park bleibt"
+	; PC-only
+	text "Der PARK bleibt"
 	line "nachts offen,"
+
 	para "weil Polizisten"
 	line "wie ich ihn sicher"
 	cont "halten!"
 	done
 
 OfficermKeithDaytimeText:
+	; PC-only
 	text "Genießt du den"
-	line "Park?"
+	line "PARK?"
 
 	para "Nimm immer ein"
-	line "#mon mit,"
+	line "#MON mit,"
 
 	para "wenn du ins hohe"
 	line "Gras gehst!"
 	done
 
 NationalParkRelaxationSquareText:
+	; GSC-DE Dump
 	text "ERHOLUNGSORT"
 	line "NATIONALPARK"
 	done
 
-
-
 NationalParkBattleNoticeText:
+	; GSC-DE Dump
 	text "Was steht denn"
 	line "hier?"
-	para "Kämpfe sind nur im"
-	line "Gras gestattet."
-	para "NATIONALPARK BÜRO"
-	line "DES WÄCHTERs"
+
+	para "Kämpfe sind nur"
+	line "im Gras gestattet."
+
+	para "NATIONALPARK"
+	line "BÜRO DES WÄCHTERs"
 	done
 
-
-
 NationalParkTrainerTipsText:
+	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 
 	para "Möchtest du deine"
@@ -571,6 +586,3 @@ NationalParkTrainerTipsText:
 	cont "öffne sie und"
 	cont "drücke START."
 	done
-
-
-

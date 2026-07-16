@@ -32,6 +32,7 @@ RadioTower1FReceptionistScript:
 	iftrue_jumptextfaceplayer RadioTower1FReceptionistNoToursText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Willkommen!"
 	done
 
@@ -77,6 +78,7 @@ RadioTower1FLuckyNumberManScript:
 	ifequalfwd 1, .FifthPlace
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Leider stimmt"
 	line "keine deiner"
 	cont "Ziffern überein."
@@ -124,9 +126,10 @@ RadioTower1FLuckyNumberManScript:
 	jumpthisopenedtext
 
 RadioTower1FLuckyNumberManComeAgainText:
+	; GSC-DE Dump
 	text "Versuche nächste"
-	line "Woche erneut dein"
-	cont "Glück bei der"
+	line "Woche erneut"
+	cont "dein Glück bei der"
 	cont "GLÜCKSZAHLSHOW."
 	done
 
@@ -191,19 +194,21 @@ RadioTower1FRadioCardWomanScript:
 	playsound SFX_WRONG
 	jumpthisopenedtext
 
-	text "Ach, nein. Das war"
-	line "leider"
+	; GSC-DE Dump
+	text "Oh, nein."
+	line "Das war leider"
 	para "falsch. Versuch's"
 	line "noch einmal!"
 	done
 GenericTrainerGruntM3:
 	generictrainer GRUNTM, 3, EVENT_BEAT_ROCKET_GRUNTM_3, GruntM3SeenText, GruntM3BeatenText
 
+	; GSC-DE Dump
 	text "Du bist zu stark."
 	para "Du könntest unsere"
 	line "Pläne zerstören."
 	cont "Ich muss die"
-	cont "anderen warnen …"
+	cont "anderen warnen…"
 	done
 
 RadioTower1FWhitneyScript:
@@ -242,6 +247,7 @@ RadioTower1FWhitneyLeaves2MovementData:
 
 
 RadioTower1FReceptionistNoToursText:
+	; GSC-DE Dump
 	text "Guten Tag! Leider"
 	line "bieten wir heute"
 	cont "keine Führungen"
@@ -254,14 +260,14 @@ RadioTower1FReceptionistNoToursText:
 
 
 RadioTower1FLuckyNumberManAskToPlayText:
+	; GSC-DE Dump
 	text "Hallo! Bist du"
-	line "wegen der"
-	cont "GLÜCKS-ZAHLSHOW"
-	cont "hier?"
+	line "wegen der GLÜCKS-"
+	cont "ZAHLSHOW hier?"
 	para "Soll ich die"
 	line "ID-Nummern deiner"
-	cont "#mon"
-	cont "überprüfen?"
+	cont "#MON über-"
+	cont "prüfen?"
 	para "Wenn du Glück"
 	line "hast, gewinnst du"
 	cont "einen Preis."
@@ -279,9 +285,10 @@ IntroduceFelicityText:
 	done
 
 ExplainLuckyNumberShowText:
-	text "Soll ich die"
-	line "IDNummern deiner"
-	cont "#mon prüfen?"
+	; PC-only (Felicity)
+	text "Soll ich die ID-"
+	line "Nummern deiner"
+	cont "#MON prüfen?"
 	para "Bei Glück gewinnst"
 	line "du einen Preis."
 	done
@@ -295,8 +302,9 @@ RadioTower1FLuckyNumberManTodayIdIsText:
 	done
 
 RadioTower1FLuckyNumberManCheckIfMatchText:
-	text "Mal sehen, ob du"
-	line "Glück hast."
+	; GSC-DE Dump
+	text "Mal sehen, ob"
+	line "du Glück hast."
 	done
 
 
@@ -314,62 +322,68 @@ RadioTower1FLuckyNumberManDotDotDotText:
 
 
 WonFirstPlaceText:
-	text "Toll! Alle fünf"
+	; GSC-DE Dump (PC: 5 Plätze)
+	text "Wow! Alle fünf"
 	line "Ziffern stimmen"
 	cont "überein!"
-
 	para "Du gewinnst den"
 	line "Hauptpreis!"
-
 	para "Du gewinnst einen"
 	line "MEISTERBALL!"
 	done
+
 WonSecondPlaceText:
-	text "Hey! Du hast die"
-	line "letzten vier"
-	cont "Ziffern getroffen!"
-	para "Du gewinnst den"
-	line "zweiten Preis:"
-	cont "einen KRONKORKEN!"
+	; GSC-DE Dump wording / PC-Preis
+	text "Hey! Die letzten"
+	line "vier Ziffern"
+	cont "stimmen überein!"
+	para "Du hast den"
+	line "zweiten Preis"
+	cont "gewonnen: einen"
+	cont "KRONKORKEN!"
 	done
 
 WonThirdPlaceText:
-	text "Hey! Du hast die"
-	line "letzten drei"
-	cont "Ziffern getroffen!"
-	para "Du gewinnst den"
-	line "dritten Preis:"
-	cont "einen AP-Max!"
+	; GSC-DE Dump wording / PC-Preis
+	text "Hey! Die letzten"
+	line "drei Ziffern"
+	cont "stimmen überein!"
+	para "Du hast den"
+	line "dritten Preis"
+	cont "gewonnen: einen"
+	cont "AP-Max!"
 	done
 
 WonFourthPlaceText:
-	text "Ach, du hast die"
-	line "letzten zwei"
-	cont "Ziffern getroffen."
-	para "Du gewinnst den"
-	line "vierten Preis:"
-	cont "einen AP-Plus!"
+	; GSC-DE Dump wording / PC-Preis
+	text "Ooh, die letzten"
+	line "beiden Ziffern"
+	cont "stimmen überein."
+	para "Du hast den"
+	line "vierten Preis"
+	cont "gewonnen: einen"
+	cont "AP-Plus!"
 	done
 
 WonFifthPlaceText:
-	text "Ach, du hast die"
-	line "letzte Ziffer"
-	cont "getroffen."
-
-	para "Du gewinnst den"
-	line "fünften Preis:"
-	cont "einen"
+	; GSC-DE Dump wording / PC-Preis
+	text "Ooh, die letzte"
+	line "Ziffer stimmt"
+	cont "überein."
+	para "Du hast den"
+	line "fünften Preis"
+	cont "gewonnen: einen"
 	cont "SONDERBONBON!"
 	done
 
-
 RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
+	; GSC-DE Dump
 	text "Du kannst den"
 	line "Preis nicht"
 	cont "tragen."
 	para "Schaffe Platz und"
-	line "komm gleich wieder"
-	cont "zurück."
+	line "komm gleich"
+	cont "wieder zurück."
 	done
 
 
@@ -378,14 +392,15 @@ RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
 
 
 RadioTower1FRadioCardWomanOfferQuizText:
+	; GSC-DE Dump
 	text "Bei uns läuft"
 	line "momentan ein"
 	cont "besonderes Quiz."
 	para "Beantworte die"
 	line "fünf Fragen"
 	cont "richtig, um ein"
-	cont "RADIO-MODUL zu"
-	cont "gewinnen."
+	cont "RADIO-MODUL"
+	cont "zu gewinnen."
 	para "Stecke es in den"
 	line "#COM, um"
 	para "überall und zu"
@@ -401,176 +416,123 @@ RadioTower1FRadioCardWomanOfferQuizText:
 
 
 RadioTower1FRadioCardWomanQuestion1Text:
+	; GSC-DE Dump
 	text "Frage 1:"
-
-	para "Gibt es #mon,"
-	line "die nur am"
-	cont "Vormittag"
-	cont "erscheinen?"
+	para "Gibt es ein #-"
+	line "MON, das nur VOR-"
+	cont "MITTAGs erscheint?"
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanQuestion2Text:
-	text "Korrekt! Frage 2:"
+	; GSC-DE Dump
+	text "Korrekt!"
+	line "Frage 2:"
 	para "Ist diese Aussage"
 	line "korrekt?"
 	para "Du kannst BEEREN"
-	line "nicht im"
-	cont "Supermarkt"
-	cont "erstehen."
+	line "nicht im SUPER-"
+	cont "MARKT erstehen."
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanQuestion3Text:
-	text "Richtig! Frage 3:"
+	; GSC-DE Dump
+	text "Richtig!"
+	line "Frage 3:"
 	para "Ist VM01 BLITZ?"
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanQuestion4Text:
-	text "Nicht übel! Frage"
-	line "4:"
+	; GSC-DE Dump
+	text "Nicht übel!"
+	line "Frage 4:"
 	para "Ist FALK der"
 	line "ARENALEITER von"
 	para "VIOLA CITY, der"
-	line "Vogel-#mon"
+	line "Vogel-#MON"
 	cont "einsetzt?"
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanQuestion5Text:
+	; GSC-DE Dump
 	text "Wieder richtig!"
 	line "Hier die letzte"
 	cont "Frage:"
-	para "Ist bei den"
-	line "Einarmigen"
-	cont "Banditen"
+	para "Ist bei den Ein-"
+	line "armigen Banditen"
 	para "in der SPIELHALLE"
 	line "von DUKATIA CITY"
 	para "ein GLUMANDA auf"
-	line "einer Rolle"
-	cont "abgebildet?"
+	line "einer Rolle abge-"
+	cont "bildet?"
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanYouWinText:
+	; GSC-DE Dump
 	text "Bingo! Richtig!"
 	line "Glückwunsch!"
 	para "Hier hast du"
-	line "deinen Preis: ein"
-	cont "RADIO-MODUL!"
+	line "deinen Preis:"
+	cont "ein RADIO-MODUL!"
 	done
-
-
-
-
-
 
 RadioTower1FPokegearIsARadioText:
+	; GSC-DE Dump
 	text "<PLAYER>s #COM"
 	line "kann jetzt auch"
-	cont "als Radio"
-	cont "verwendet werden!"
+	cont "als Radio ver-"
+	cont "wendet werden!"
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanTuneInText:
+	; GSC-DE Dump
 	text "Höre dir bitte"
 	line "unsere Shows an!"
 	done
 
-
-
-
-
-
 RadioTower1FRadioCardWomanNotTakingQuizText:
+	; GSC-DE Dump
 	text "Oh. Ich verstehe."
 	line "Komm wieder, wenn"
 	cont "du deine Meinung"
 	cont "geändert hast."
 	done
 
-
-
-
-
-
 RadioTower1FLassText:
+	; GSC-DE Dump
 	text "BEN ist ein"
 	line "großartiger DJ."
-
 	para "Seine sonore"
 	line "Stimme lässt mich"
 	cont "dahinschmelzen!"
 	done
 
-
-
-
-
-
 RadioTower1FYoungsterText:
+	; GSC-DE Dump
 	text "Ich liebe MARGIT"
-	line "vom #mon-TALK."
-	para "Ich kenne aber nur"
-	line "ihre Stimme."
+	line "vom #MON-TALK."
+	para "Ich kenne aber"
+	line "nur ihre Stimme."
 	done
-
-
-
-
-
 
 GruntM3SeenText:
-	text "Wir haben den"
-	line "RADIOTURM"
-	cont "übernommen!"
-	para "Jetzt verkünden"
-	line "wir der Welt die"
-	cont "Rückkehr von TEAM"
-	cont "ROCKET!"
+	; GSC-DE Dump
+	text "Endlich haben wir"
+	line "den RADIOTURM"
+	cont "besetzt!"
+	para "Nun wird jeder"
+	line "den TEAM ROCKET-"
+	para "Terrorapparat"
+	line "kennenlernen!"
+	para "Wir zeigen euch,"
+	line "wie böse wir sind!"
 	done
-
-
-
-
-
 
 GruntM3BeatenText:
-	text "Zu stark… Die"
-	line "Übernahme…"
-	cont "misslingt?"
+	; GSC-DE Dump
+	text "Zu stark! Wir"
+	line "müssen dich im"
+	cont "Auge behalten…"
 	done
-
-
-
-
-
 
 RadioTower1FWhitney1Text:
 	text "Hallo! Ich bin"
@@ -600,25 +562,22 @@ RadioTower1FWhitney2Text:
 	done
 
 RadioTower1FDirectoryText:
-	text "EG REZEPTION 1S"
-	line "VERKAUF"
-	para "2S PERSONAL 3S"
-	line "PRODUKTION"
+	; GSC-DE Dump
+	text "EG REZEPTION"
+	line "1S VERKAUF"
+	para "2S PERSONAL"
+	line "3S PRODUKTION"
 	para "4S BÜRO DES"
-	line "INTENDANTEN"
+	line "   INTENDANTEN"
 	done
 
-
-
-
-
-
 RadioTower1FLuckyChannelSignText:
+	; GSC-DE Dump
 	text "GLÜCKSKANAL!"
-	para "Gewinne mit"
-	line "#mon-IDNummern!"
-	para "Tausche deine"
-	line "#mon, um viele"
+	para "Gewinne mit #-"
+	line "MON-ID-Nummern!"
+	para "Tausche deine "
+	line "#MON, um viele"
 	cont "ID-Nummern zu"
 	cont "erhalten!"
 	done

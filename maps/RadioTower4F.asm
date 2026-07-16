@@ -36,12 +36,13 @@ RadioTower4FDJMaryScript:
 	iftruefwd .ClearedRockets
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "MARGIT: Warum?"
-	line "Warum muss ich das"
-	cont "durchmachen?"
+	line "Warum muss ich"
+	cont "das über mich"
+	cont "ergehen lassen?"
 	para "MAUZI, hilf mir!"
 	done
-
 
 .ClearedRockets:
 	writetext RadioTower4FDJMaryText_ClearedRockets
@@ -51,24 +52,27 @@ RadioTower4FDJMaryScript:
 	setevent EVENT_GOT_FAIRYFEATHER_FROM_MARY
 	jumpthisopenedtext
 
-	text "MARGIT: Perfekt"
-	line "für #mon mit"
-
-	para "Fee-Attacken,"
-	line "nicht wahr?"
+	; PC-only item (Fairyfeather), dump structure
+	text "MARGIT: Für #-"
+	line "MON mit Fee-At-"
+	cont "tacken ist das"
+	para "genau das"
+	line "Richtige."
 	done
 
 GenericTrainerGruntM10:
 	generictrainer GRUNTM, 10, EVENT_BEAT_ROCKET_GRUNTM_10, GruntM10SeenText, GruntM10BeatenText
 
+	; GSC-DE Dump
 	text "Ich kann es nicht"
-	line "glauben, ich wurde"
-	cont "besiegt!"
+	line "glauben, ich"
+	cont "wurde besiegt!"
 	done
 
 GenericTrainerProton1:
 	generictrainer PROTON, PROTON1, EVENT_BEAT_PROTON_1, Proton1SeenText, Proton1BeatenText
 
+	; GSC-DE Dump
 	text "Du hast dir meinen"
 	line "Respekt verdient."
 	cont "Hier ist ein Tipp"
@@ -78,154 +82,128 @@ GenericTrainerProton1:
 	cont "kannst du"
 	cont "umkehren."
 	done
+
 GenericTrainerGruntF4:
 	generictrainer GRUNTF, 4, EVENT_BEAT_ROCKET_GRUNTF_4, GruntF4SeenText, GruntF4BeatenText
 
+	; GSC-DE Dump
 	text "Ich liebe mein"
 	line "hübsches Äußeres!"
-	para "Wer schert sich um"
-	line "#mon?"
+	para "Wer schert sich"
+	line "um #MON?"
 	done
 
 GenericTrainerRocketScientistRich:
 	generictrainer ROCKET_SCIENTIST, RICH, EVENT_BEAT_ROCKET_SCIENTIST_RICH, RocketScientistRichSeenText, RocketScientistRichBeatenText
 
+	; GSC-DE Dump
 	text "Glaubst du allen"
 	line "Ernstes, TEAM"
 	cont "ROCKET aufhalten"
 	cont "zu können?"
 	done
+
 RadioTower4FFisherText:
-	text "Als ich bei den"
-	line "RUINEN war, hörte"
-	cont "ich Radio."
+	; GSC-DE Dump
+	text "Als ich bei"
+	line "den RUINEN war,"
+	cont "hörte ich Radio."
 	para "Ich empfing eine"
 	line "seltsame Sendung."
 	done
 
-
-
-
-
-
 RadioTower4FDJMaryText_ClearedRockets:
+	; GSC-DE Dump
 	text "MARGIT: Oh! Du"
-	line "hast mich"
-	cont "gerettet!"
-	para "Nimm dies als"
-	line "Zeichen meines"
-	cont "Dankes!"
+	line "hast mich geret-"
+	cont "tet! Nimm dies als"
+	para "Zeichen meines"
+	line "Dankes!"
 	done
-
-
-
-
-
 
 RadioTower4FDJMaryText_After:
+	; GSC-DE Dump
 	text "MARGIT: Wir hören"
-	line "uns in PROF. EICHs"
-	cont "#mon-TALKSHOW"
-	cont "wieder."
+	line "uns in PROF."
+	para "EICHs #MON-"
+	line "TALKSHOW wieder."
 	done
 
-
-
-
-
-
 RadioTowerMeowthText:
+	; GSC-DE Dump
 	text "MAUZI: Mauzi…"
 	done
 
-
-
-
-
-
 GruntM10SeenText:
-	text "Du willst den"
-	line "INTENDANTEN"
+	; GSC-DE Dump
+	text "Du hast vor, den"
+	line "INTENDANTEN zu"
 	cont "retten?"
-	para "Das wird dir nicht"
-	line "gelingen - ich"
-	cont "besiege dich!"
+	para "Dies wird nicht"
+	line "möglich sein, da"
+	cont "ich dich besiege!"
 	done
 
-
-
-
-
-
 GruntM10BeatenText:
+	; GSC-DE Dump
 	text "Nein! Unglaublich!"
 	done
 
-
-
-
-
-
 Proton1SeenText:
-	text "Stopp! Man nennt"
-	line "mich die Festung"
-	cont "von TEAM ROCKET!"
+	; GSC-DE Dump
+	text "Stopp! Ich bin als"
+	line "TEAM ROCKET-"
+	cont "Festung bekannt!"
 	para "Keinen Schritt"
 	line "weiter!"
 	done
+
 Proton1BeatenText:
-	text "Die Festung… wurde"
+	; GSC-DE Dump
+	text "Die Festung wurde"
 	line "gestürmt!"
 	done
+
 GruntF4SeenText:
-	text "Sind #mon nicht"
-	line "wirklich niedlich?"
-	para "Meine sind es"
-	line "-nachdem sie deine"
-	cont "besiegt haben!"
+	; GSC-DE Dump
+	text "Sind #MON"
+	line "nicht wirklich"
+	cont "niedlich?"
+	para "Ich denke, meine"
+	line "#MON sind"
+	para "niedlich - nachdem"
+	line "sie deine besiegt"
+	cont "haben!"
 	done
 
-
-
-
-
-
 GruntF4BeatenText:
-	text "Oh nein! Sie sind"
+	; GSC-DE Dump
+	text "Oh, nein! Sie sind"
 	line "absolut unnütz!"
 	done
 
-
-
-
-
-
 RocketScientistRichSeenText:
+	; GSC-DE Dump
 	text "Exzellent."
 	para "Mit dem RADIOTURM"
-	line "können wir unseren"
-	cont "Plan umsetzen."
+	line "können wir"
+	cont "unser Vorhaben in"
+	cont "die Tat umsetzen."
 	done
+
 RocketScientistRichBeatenText:
+	; GSC-DE Dump
 	text "Hmmm…"
 	para "Jeder große Plan"
 	line "hat einen Haken."
 	done
+
 RadioTower4FProductionSignText:
+	; GSC-DE Dump
 	text "3S PRODUKTION"
 	done
 
-
-
-
-
-
 RadioTower4FStudio2SignText:
+	; GSC-DE Dump
 	text "3S STUDIO 2"
 	done
-
-
-
-
-
-

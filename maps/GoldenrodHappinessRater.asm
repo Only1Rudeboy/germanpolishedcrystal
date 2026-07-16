@@ -43,13 +43,12 @@ GoldenrodHappinessRaterTeacherScript:
 	ifgreater 0, .NotUsedToYou                            ; 1-49
 	jumpthisopenedtext                                    ; 0
 
+	; GSC-DE Dump
 	text "Es scheint dich"
-	line "gar nicht zu"
-	cont "mögen. Es sieht"
-	cont "gemein aus."
+	line "gar nicht zu mö-"
+	cont "gen. Es sieht ge-"
+	cont "mein aus."
 	done
-
-
 
 .Egg:
 	jumpthisopenedtext
@@ -62,10 +61,12 @@ GoldenrodHappinessRaterTeacherScript:
 .AdoresYou:
 	jumpthisopenedtext
 
+	; PC-only tier
 	text "Es vergöttert"
 	line "dich! Es könnte"
 	cont "dich nicht mehr"
 	cont "lieben."
+
 	para "Schon beim Anblick"
 	line "werde ich"
 	cont "glücklich! ♥"
@@ -74,14 +75,17 @@ GoldenrodHappinessRaterTeacherScript:
 .LovesYouALot:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Es sieht sehr"
 	line "glücklich aus! Es"
 	cont "muss dich sehr"
 	cont "gern haben."
 	done
+
 .Affectionate:
 	jumpthisopenedtext
 
+	; PC-only tier
 	text "Es ist sehr"
 	line "anhänglich!"
 
@@ -93,35 +97,41 @@ GoldenrodHappinessRaterTeacherScript:
 .ReallyTrustsYou:
 	jumpthisopenedtext
 
-	text "Ich habe den"
-	line "Eindruck, dass es"
-	cont "dir wirklich"
-	cont "vertraut."
+	; GSC-DE Dump
+	text "Ich habe den Ein-"
+	line "druck, dass es dir"
+	cont "wirklich vertraut."
 	done
+
 .SortOfHappy:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Es verhält sich"
 	line "dir gegenüber sehr"
 	cont "freundlich. Es"
 	cont "muss glücklich"
 	cont "sein."
 	done
+
 .QuiteCute:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Es ist sehr süß."
 	done
 
 .NotUsedToYou:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Du solltest es"
 	line "besser behandeln."
 	cont "Es hat sich noch"
-	cont "nicht an dich"
-	cont "gewöhnt."
+	cont "nicht an dich ge-"
+	cont "wöhnt."
 	done
+
 .RefusedText:
 	text "Komm wieder, wenn"
 	line "du es dir anders"
@@ -129,59 +139,51 @@ GoldenrodHappinessRaterTeacherScript:
 	done
 
 GoldenrodHappinessRaterAskCheckText:
-	text "Wenn du deine"
-	line "#mon gut"
-	para "behandelst, lieben"
-	line "sie dich zurück."
+	; PC-only yes/no wrapper (Dump-Ton)
+	text "Behandelst du"
+	line "deine #MON gut,"
+
+	para "werden sie dich"
+	line "regelrecht lieben."
+
 	para "Soll ich die"
 	line "Zuneigung deines"
-	cont "#mon prüfen?"
+	cont "#MON prüfen?"
 	done
 
 GoldenrodHappinessRaterTeacherText:
+	; GSC-DE Dump
 	text "Behandelst du"
-	line "deine #mon gut,"
+	line "deine #MON gut,"
+
 	para "werden sie dich"
 	line "regelrecht lieben."
+
 	para "Oh! Lass mich dein"
 	line ""
 	text_ram wStringBuffer3
-	text " sehen …"
+	text " sehen…"
 	done
-
-
-
-
-
 
 GoldenrodHappinessRaterPokefanMText:
+	; GSC-DE Dump
 	text "Ständig verliere"
 	line "ich in Kämpfen und"
-	para "meine #mon"
-	line "werden immer"
-	cont "besiegt …"
+
+	para "meine #MON"
+	line "werden immer be-"
+	cont "siegt…"
+
 	para "Das mag der Grund"
 	line "sein, warum mich"
-	cont "meine #mon"
-	cont "nicht mögen …"
+	cont "meine #MON"
+	cont "nicht mögen…"
 	done
 
-
-
-
-
-
-
 GoldenrodHappinessRaterTwinText:
+	; GSC-DE Dump
 	text "Wenn ich meinem"
-	line "#mon ein Item"
+	line "#MON ein Item"
 	cont "gebe, dann freut"
 	cont "es sich!"
 	done
-
-
-
-
-
-
-

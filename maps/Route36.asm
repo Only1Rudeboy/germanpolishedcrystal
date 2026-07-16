@@ -131,26 +131,27 @@ Route36FloriaScript:
 	iftrue_jumptextfaceplayer FloriaTextAfterSquirtBottle
 	jumpthistextfaceplayer
 
-	text "Ich bin FLORA vom"
-	line "BLUMENLADEN!"
+	; GSC-DE Dump
+	text "Ich bin FLORA"
+	line "vom BLUMENLADEN!"
 	para "Stell dir vor:"
 	para "Als ich den"
 	line "wackeligen Baum"
-	cont "mit"
-	para "Wasser benetzte,"
-	line "ist er"
+	para "mit Wasser"
+	line "benetzte, ist er"
 	cont "hochgeschreckt!"
 	para "Es muss einfach"
-	line "ein #mon sein."
+	line "ein #MON sein."
 	para "Ich wette, es gibt"
 	line "seine Verkleidung"
 	para "auf, wenn man es"
 	line "gießt!"
 	para "Genau! Ich sage es"
 	line "meiner Schwester"
-	cont "und leihe mir ihre"
-	cont "Gießkanne!"
+	cont "und leihe mir"
+	cont "ihre Gießkanne!"
 	done
+
 Route36RockSmashGuyScript:
 	faceplayer
 	opentext
@@ -160,14 +161,15 @@ Route36RockSmashGuyScript:
 	iftruefwd .ClearedSudowoodo
 	jumpthisopenedtext
 
-	text "Ha!"
-	para "Ich wollte diesen"
-	line "Baum mit meinem"
-	para "geraden Schlag"
-	line "zerschmettern."
-	para "Aber ich konnte"
-	line "nicht! Ich bin ein"
-	cont "Versager!"
+	; GSC-DE Dump
+	text "Oje!"
+	para "Ich wollte den"
+	line "Baum mit einem"
+	para "mächtigen Hieb"
+	line "entzweibrechen."
+	para "Aber ich habe es"
+	line "nicht geschafft."
+	cont "Ich habe versagt!"
 	done
 
 .ClearedSudowoodo:
@@ -178,26 +180,27 @@ Route36RockSmashGuyScript:
 .AlreadyGotRockSmash:
 	jumpthisopenedtext
 
-	text "Das ist"
-	done
+	; GSC-DE Dump (+ FAITHFUL-Name)
+	text "Das ist der"
 if DEF(FAITHFUL)
 	line "ZERTRÜMMERER."
 else
 	line "Durchbruch."
 endc
-
 	para "Damit kannst du"
 	line "Felsen mit einem"
-
-	para "gezielten Schlag"
-	line "zertrümmern."
-
-	para "Wenn Felsen im"
-	line "sind, dann"
+	para "einzigen, gut"
+	line "gezielten Schlag"
+	cont "zertrümmern."
+	para "Sind dir irgend-"
+	line "welche Steine im"
+	cont "Weg, dann"
 if DEF(FAITHFUL)
-	cont "zertrümmere sie!"
+	cont "zertrümmere sie"
+	cont "einfach!"
 else
-	cont "brich sie auf!"
+	cont "brich sie einfach"
+	cont "auf!"
 endc
 	done
 
@@ -206,15 +209,15 @@ Route36LassScript:
 	iftrue_jumptextfaceplayer Route36LassText_ClearedSudowoodo
 	jumpthistextfaceplayer
 
-	text "Ein merkwürdiger"
-	line "Baum blockiert den"
-	cont "Weg nach DUKATIA"
-	cont "CITY."
+	; GSC-DE Dump
+	text "Ein alter Baum"
+	line "versperrt den Weg"
+	cont "nach DUKATIA CITY."
 	para "Ich wollte mir das"
-	line "riesige #mon-"
-	para "CENTER ansehen,"
-	line "das gerade"
-	cont "eröffnet wurde …"
+	line "riesige #MON-"
+	cont "CENTER, das vor"
+	cont "kurzem eröffnet"
+	cont "wurde, ansehen…"
 	done
 
 TrainerSchoolboyAlan1:
@@ -370,30 +373,33 @@ Route36CooltrainerfChiaraScript:
 	jumpthisopenedtext
 
 .AfterText2:
+	; PC-only
 	text "Mit deinem Können"
 	line "bist du nicht der"
-	cont "einzige"
-	cont "Top-Trainer, der"
-	cont "dich testen will."
+	cont "einzige Top-Trai-"
+	cont "ner, der dich"
+	cont "testen will."
 	done
 
 .IntroText:
+	; PC-only
 	text "Ich sah, wie du"
 	line "den Mogelbaum"
 	cont "aufgeweckt hast."
 	para "Klasse gemacht!"
 	para "Und du hast den"
-	line "Knirpsorden. Ich"
+	line "BASISORDEN. Ich"
 	cont "auch!"
 	para "Wie wär's: Besiege"
-	line "alle"
-	para "Trainer auf Route"
-	line "36 und 37."
+	line "alle Trainer auf"
+	para "ROUTE 36 und"
+	line "ROUTE 37."
 	para "Dann kämpfe ich"
 	line "gegen dich!"
 	done
 
 .QuestionText:
+	; PC-only
 	text "Du hast alle"
 	line "anderen in der"
 	cont "Gegend besiegt."
@@ -407,23 +413,27 @@ Route36CooltrainerfChiaraScript:
 	done
 
 .RefusedText:
+	; PC-only
 	text "Ich bin bereit,"
 	line "wann immer du"
 	cont "willst!"
 	done
 
 .SeenText:
+	; PC-only
 	text "Gegen meine"
 	line "Technik hältst du"
 	cont "nicht lange durch!"
 	done
 
 .BeatenText:
+	; PC-only
 	text "Ich war es, der"
 	line "nicht durchhielt?!"
 	done
 
 .AfterText1:
+	; PC-only
 	text "Du hast meine"
 	line "Technik beobachtet"
 	cont "und kontert."
@@ -435,6 +445,7 @@ Route36CooltrainerfChiaraScript:
 GenericTrainerPsychicMark:
 	generictrainer PSYCHIC_T, MARK, EVENT_BEAT_PSYCHIC_MARK, PsychicMarkSeenText, PsychicMarkBeatenText
 
+	; GSC-DE Dump
 	text "Ich wäre wirklich"
 	line "stark, wenn ich"
 	para "wüsste, was mein"
@@ -444,6 +455,7 @@ GenericTrainerPsychicMark:
 GenericTrainerSchoolgirlMolly:
 	generictrainer SCHOOLGIRL, MOLLY, EVENT_BEAT_SCHOOLGIRL_MOLLY, SchoolgirlMollySeenText, SchoolgirlMollyBeatenText
 
+	; PC-only
 	text "Ich muss noch viel"
 	line "lernen."
 	done
@@ -468,14 +480,13 @@ ArthurScript:
 	setevent EVENT_GOT_HARD_STONE_FROM_ARTHUR
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "DONATUS: Ein"
-	line "#mon, das"
-
+	line "#MON, das"
 	para "Gestein-Attacken"
 	line "benutzt, sollte"
 	cont "dies mit sich"
 	cont "tragen."
-
 	para "Es verstärkt"
 	line "Gestein-Attacken."
 	done
@@ -489,9 +500,10 @@ ArthurScript:
 ArthurNotThursdayScript:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "DONATUS: Heute ist"
 	line "nicht Donnerstag."
-	cont "Wie enttäuschend."
+	cont "Wie bedauerlich!"
 	done
 
 WeirdTreeMovement_Flee:
@@ -534,8 +546,9 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "Das ist ein"
-	line "merkwürdiger Baum."
+	; GSC-DE Dump
+	text "Das ist ein merk-"
+	line "würdiger Baum."
 	cont "Möchtest du die"
 	cont "SCHIGGYKANNE"
 	cont "benutzen?"
@@ -545,6 +558,7 @@ UseSquirtbottleText:
 
 
 UsedSquirtbottleText:
+	; GSC-DE Dump
 	text "<PLAYER> benutzt"
 	line "SCHIGGYKANNE."
 	done
@@ -553,11 +567,11 @@ UsedSquirtbottleText:
 
 
 SudowoodoAttackedText:
+	; GSC-DE Dump
 	text "Der merkwürdige"
 	line "Baum mag die"
 	cont "SCHIGGYKANNE"
 	cont "nicht!"
-
 	para "Der merkwürdige"
 	line "Baum greift an!"
 	done
@@ -566,49 +580,41 @@ SudowoodoAttackedText:
 
 
 FloriaTextAfterSquirtBottle:
-	text "Ich bin Floria vom"
-	line "BLUMENLADEN!"
-	para "Als ich meiner"
-	line "Schwester vom"
+	; GSC-DE Dump
+	text "Als ich meiner"
+	line "Schwester von dem"
 	para "wackeligen Baum"
 	line "erzählte, sagte"
 	para "sie, er sei"
 	line "gefährlich."
-	para "Ach, sie hat dir"
-	line "ihre Gießkanne"
-	cont "geliehen?"
-	para "Dann musst du ein"
-	line "guter Trainer"
-	cont "sein!"
-	para "Ich überlasse dir"
-	line "den merkwürdigen"
-	cont "Baum."
-	para "Tschüss!"
+	para "Wenn ich BIANKA"
+	line "besiege, gibt sie"
+	para "mir vielleicht die"
+	line "Gießkanne…"
 	done
 
 FloriaTextAfterSudowoodo:
+	; PC-only (kein Dump-Anker)
 	text "Ich wusste, der"
 	line "wackelige Baum ist"
-	cont "ein #mon!"
+	cont "ein #MON!"
 	para "Ich wollte ihn aus"
-	line "seiner"
-	para "Verkleidung"
-	line "schocken, aber du"
-	cont "warst schneller!"
+	line "seiner Verkleidung"
+	para "schocken, aber du"
+	line "warst schneller!"
 	para "Na gut, ich geh"
 	line "zurück zum"
 	cont "BLUMENLADEN."
 	para "Ich bin übrigens"
-	line "Floria."
+	line "FLORA."
 	para "Tschüss!"
 	done
 
-
 RockSmashGuyText2:
+	; GSC-DE Dump
 	text "Hast du diesen"
 	line "seltsamen Baum"
 	cont "weggeschafft?"
-
 	para "Ich bin"
 	line "beeindruckt! Ich"
 	cont "möchte dir dies"
@@ -628,18 +634,20 @@ Text_ReceivedTM08: ; unreferenced
 
 
 Route36LassText_ClearedSudowoodo:
+	; GSC-DE Dump
 	text "Dieser merkwürdige"
 	line "Baum ist spurlos"
 	cont "verschwunden."
 	para "Ach! Der Baum war"
 	line "in Wirklichkeit"
-	cont "ein #mon?"
+	cont "ein #MON?"
 	done
 
 
 
 
 PsychicMarkSeenText:
+	; GSC-DE Dump
 	text "Ich werde jetzt"
 	line "deine Gedanken"
 	cont "lesen!"
@@ -649,6 +657,7 @@ PsychicMarkSeenText:
 
 
 PsychicMarkBeatenText:
+	; GSC-DE Dump
 	text "Ich habe mich wohl"
 	line "bei dir verlesen!"
 	done
@@ -657,20 +666,23 @@ PsychicMarkBeatenText:
 
 
 SchoolgirlMollySeenText:
-	text "Mr. Earl hat mir"
+	; PC-only
+	text "EARL hat mir"
 	line "beigebracht, mit"
-	cont "#mon zu"
+	cont "#MON zu"
 	cont "kämpfen!"
 	done
 
 SchoolgirlMollyBeatenText:
+	; PC-only
 	text "Mein Lernen…"
 	done
 
 SchoolboyAlan1SeenText:
+	; GSC-DE Dump
 	text "Dank meiner"
 	line "Studien bin ich"
-	cont "für jedes #mon"
+	cont "für jedes #MON"
 	cont "bereit!"
 	done
 
@@ -678,18 +690,19 @@ SchoolboyAlan1SeenText:
 
 
 SchoolboyAlan1BeatenText:
-	text "Ups! Ein Fehler in"
-	line "der Berechnung?"
+	; GSC-DE Dump
+	text "Ups! Ein Fehler"
+	line "in der Berechnung?"
 	done
 
 
 
 
 SchoolboyAlanBooksText:
+	; GSC-DE Dump
 	text "Mist! Ich lerne"
 	line "auch fünf Stunden"
 	cont "am Tag."
-
 	para "Es gibt vieles,"
 	line "das du nicht aus"
 	cont "Büchern lernen"
@@ -700,9 +713,9 @@ SchoolboyAlanBooksText:
 
 
 MeetArthurText:
+	; GSC-DE Dump
 	text "DONATUS: Wer bist"
 	line "du?"
-
 	para "Ich bin DONATUS"
 	line "von Donnerstag."
 	done
@@ -711,6 +724,7 @@ MeetArthurText:
 
 
 ArthurGivesGiftText:
+	; GSC-DE Dump
 	text "Hier bitte. Das"
 	line "kannst du haben."
 	done
@@ -719,18 +733,20 @@ ArthurGivesGiftText:
 
 
 ArthurThursdayText:
+	; GSC-DE Dump
 	text "DONATUS: Ich bin"
 	line "DONATUS von"
 	para "Donnerstag. Ich"
 	line "bin der zweite"
-	para "Sohn von sieben"
-	line "Kindern."
+	para "Sohn von"
+	line "sieben Kindern."
 	done
 
 
 
 
 Route36SignText:
+	; GSC-DE Dump
 	text "ROUTE 36"
 	done
 
@@ -738,6 +754,7 @@ Route36SignText:
 
 
 RuinsOfAlphNorthSignText:
+	; GSC-DE Dump
 	text "ALPH-RUINEN"
 	line "NORDEINGANG"
 	done
@@ -746,21 +763,20 @@ RuinsOfAlphNorthSignText:
 
 
 Route36TrainerTips1Text:
+	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 	line "Der Status der"
-	para "#mon ist"
-	line "unterschiedlich,"
-	cont "sogar"
-	para "innerhalb"
-	line "derselben Spezies."
+	para "#MON ist unter-"
+	line "schiedlich, sogar"
+	para "innerhalb der-"
+	line "selben Spezies."
 	para "Zu Beginn ist er"
 	line "vielleicht noch"
 	cont "ähnlich."
-	para "Doch die"
-	line "Unterschiede"
-	cont "werden"
+	para "Doch die Unter-"
+	line "schiede werden"
 	para "deutlicher, wenn"
-	line "die #mon"
+	line "die #MON"
 	cont "heranwachsen."
 	done
 
@@ -768,40 +784,39 @@ Route36TrainerTips1Text:
 
 
 Route36TrainerTips2Text:
+	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 	line "Setze den"
 	para "SCHAUFLER ein, um"
 	line "an den Eingang"
 	para "eines Ortes"
 	line "zurückzugelangen."
-	para "Das ist sehr"
-	line "nütz-lich beim"
-	cont "Erkunden"
-	para "von Höhlen und"
-	line "anderen"
-	cont "Umgebungen."
+	para "Das ist sehr nütz-"
+	line "lich beim Erkunden"
+	para "von Höhlen und an-"
+	line "deren Umgebungen."
 	done
 
 
 
 
 Route36AdvancedTips1Text:
+	; PC-only
 	text "Prof-Tipps!"
-
 	para "In den Optionen"
 	line "kannst du aus 20"
 	cont "Rahmen und 8"
 	cont "Schriftarten"
-
 	para "wählen!"
 	done
 
 Route36AdvancedTips2Text:
+	; PC-only
 	text "Prof-Tipps!"
 	para "Haarschnitte,"
 	line "Segnungen oder"
 	para "Massagen erhöhen"
-	line "die Zuneigung"
-	cont "-deine #mon"
-	cont "kämpfen besser!"
+	line "die Zuneigung."
+	para "Deine #MON"
+	line "kämpfen besser!"
 	done

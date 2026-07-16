@@ -182,90 +182,99 @@ UndergroundRivalBattleScript2:
 	playmusic MUSIC_RIVAL_AFTER
 	jumpthistext
 
-	text "… Ich verstehe es"
-	line "nicht …"
+	; GSC-DE Dump
+	text "…Ich verstehe"
+	line "es nicht…"
 	para "Ist es wahr, was"
 	line "dieser SIEGFRIED"
 	cont "erzählt?"
 	para "Dass ich meine"
-	line "#mon nicht"
+	line "#MON nicht"
 	cont "richtig behandle?"
-	para "Liebe …"
-	para "Vertrauen …"
+	para "Liebe…"
+	para "Vertrauen…"
 	para "Fehlt mir das"
 	line "wirklich?"
 	para "Verhindern diese"
 	line "Mängel, dass ich"
 	cont "gewinne?"
-	para "Ich … ich verstehe"
+	para "Ich… ich verstehe"
 	line "es nicht."
-	para "Aber es wird hier"
-	line "nicht enden."
-	para "Nicht jetzt. Nicht"
-	line "deswegen."
+	para "Aber es wird"
+	line "hier nicht enden."
+	para "Nicht jetzt."
+	line "Nicht deswegen."
 	para "Ich werde meinen"
-	line "Traum, der"
-	cont "weltbeste"
-	cont "#mon-Trainer zu"
-	cont "sein, nicht"
-	cont "aufgeben!"
+	line "Traum, der welt-"
+	cont "beste #MON-"
+	cont "Trainer zu sein,"
+	cont "nicht aufgeben!"
 	done
+
 GenericTrainerGruntM11:
 	generictrainer GRUNTM, 11, EVENT_BEAT_ROCKET_GRUNTM_11, GruntM11SeenText, GruntM11BeatenText
 
-	text "Ich bin auch"
-	line "verwirrt… Der"
-	cont "grüne"
-	para "Schalter muss als"
-	line "letztes gedrückt"
-	cont "werden, aber…"
+	; GSC-DE Dump
+	text "Auch ich bin…"
+	line "verwirrt. Der"
+	para "letzte Schalter"
+	line "muss zuerst"
+	cont "betätigt werden,"
+	cont "aber…"
 	done
 
 GenericTrainerGruntM25:
 	generictrainer GRUNTM, 25, EVENT_BEAT_ROCKET_GRUNTM_25, GruntM25SeenText, GruntM25BeatenText
 
-	text "Also gut. Ein"
-	line "Tipp!"
-	para "Drückst du einen"
-	line "Farb-Schalter,"
-	para "öffnen oder"
-	line "schließen sich die"
-	cont "Jalousien in"
-	cont "dieser Farbe."
+	; GSC-DE Dump
+	text "O.K. Ein Hinweis!"
+	para "Betätige die"
+	line "Schalter in einer"
+	cont "anderen Reihen-"
+	cont "folge."
+	para "Dadurch wird das"
+	line "Öffnen und Schlie-"
+	cont "ßen der Rollläden"
+	cont "verändert."
 	done
 
 GenericTrainerBurglarDuncan:
 	generictrainer BURGLAR, DUNCAN, EVENT_BEAT_BURGLAR_DUNCAN, BurglarDuncanSeenText, BurglarDuncanBeatenText
 
+	; GSC-DE Dump
 	text "Stehlen und"
 	line "Hehlen! Das ist"
 	cont "die Basis aller"
 	cont "Verbrechen!"
 	done
+
 GenericTrainerBurglarOrson:
 	generictrainer BURGLAR, ORSON, EVENT_BEAT_BURGLAR_ORSON, BurglarOrsonSeenText, BurglarOrsonBeatenText
 
+	; GSC-DE Dump
 	text "UNTERGRUND"
 	line "LAGERHAUS?"
-
 	para "Warum möchtest du"
 	line "dorthin?"
-
-	para "Da unten wirst du"
-	line "nichts finden."
+	para "Da unten wirst"
+	line "du nichts finden."
 	done
+
 GenericTrainerGruntM13:
 	generictrainer GRUNTM, 13, EVENT_BEAT_ROCKET_GRUNTM_13, GruntM13SeenText, GruntM13BeatenText
 
+	; GSC-DE Dump
 	text "Durch deine Venen"
 	line "fließt wohl Eis,"
 	cont "da du TEAM ROCKET"
 	cont "nicht für bare"
 	cont "Münze nimmst."
 	done
+
 GenericTrainerGruntF3:
 	generictrainer GRUNTF, 3, EVENT_BEAT_ROCKET_GRUNTF_3, GruntF3SeenText, GruntF3BeatenText
 
+	; GSC-DE Dump
 	text "Geh nur! Verlaufe"
 	line "dich! Dann wirst"
 	cont "du feststellen,"
@@ -331,6 +340,7 @@ UndergroundRivalRetreatMovement:
 	step_end
 
 UndergroundRivalBeforeText:
+	; GSC-DE Dump
 	text "Stehen bleiben!"
 	para "Ich sah dich und"
 	line "bin dir gefolgt."
@@ -338,103 +348,124 @@ UndergroundRivalBeforeText:
 	line "nachzustellen, ich"
 	para "muss mich um TEAM"
 	line "ROCKET kümmern."
-	para "… Moment. Du hast"
-	line "mich schon"
+	para "…Moment."
+	line "Du hast mich schon"
 	cont "besiegt, oder?"
-	para "Das war nur Dusel."
+	para "Das war nur"
+	line "Dusel."
 	para "Ich begleiche"
 	line "meine Rechnungen!"
 	done
+
 UndergroundRivalWinText:
-	text "… Warum … Warum"
-	line "habe ich verloren?"
+	; GSC-DE Dump
+	text "…Warum…"
+	line "Warum habe ich"
+	cont "verloren?"
 	para "Ich habe die"
-	line "stärksten #mon"
+	line "stärksten #MON"
 	cont "zusammengetragen."
 	para "Ich habe mich so"
 	line "angestrengt."
 	para "Warum habe ich"
 	line "bloß verloren?"
 	done
-UndergroundRivalLossText:
-	text "Hm. Das ist meine"
-	line "wahre Stärke, du"
-	cont "Schwächling."
 
+UndergroundRivalLossText:
+	; GSC-DE Dump
+	text "Hm. Das ist meine"
+	line "wahre Stärke,"
+	cont "du Schwächling."
 	para "TEAM ROCKET wird"
 	line "dank mir nur noch"
 	cont "Geschichte sein."
-
 	para "Ich werde diesen"
 	line "SIEGFRIED wie"
 	cont "einen Wurm"
 	cont "zertreten."
 	done
-GruntM11SeenText:
-	text "Öffne einen"
-	line "Rollladen und ein"
-	cont "anderer schließt."
 
+GruntM11SeenText:
+	; GSC-DE Dump
+	text "Öffne einen Roll-"
+	line "laden und ein an-"
+	cont "derer schließt."
 	para "Ich wette, du"
 	line "kommst nicht so"
 	cont "weit, wie du es"
 	cont "dir vorstellst!"
 	done
+
 GruntM11BeatenText:
+	; GSC-DE Dump
 	text "Verflixt! Meine"
 	line "Unentschlossenheit"
 	cont "war mein Ruin!"
 	done
+
 GruntM25SeenText:
+	; GSC-DE Dump
 	text "Uff!"
-
 	para "Wir sind von den"
-	line "Rollläden"
-	cont "verwirrt!"
-
+	line "Rollläden ver-"
+	cont "wirrt!"
 	para "Ich verrate dir"
 	line "ein Geheimnis,"
 	cont "wenn du mich"
 	cont "besiegst!"
 	done
+
 GruntM25BeatenText:
-	text "Arghh… Ich hab's"
-	line "vermasselt."
+	; GSC-DE Dump
+	text "Arghh… Ich"
+	line "hab's vermasselt."
 	done
+
 BurglarDuncanSeenText:
-	text "Wirf deine Goodies"
-	line "herüber!"
+	; GSC-DE Dump
+	text "Wirf deine"
+	line "Goodies herüber!"
 	done
+
 BurglarDuncanBeatenText:
+	; GSC-DE Dump
 	text "Gnade!"
 	done
+
 BurglarOrsonSeenText:
+	; GSC-DE Dump
 	text "Sie haben das"
-	line "Projekt"
-	cont "abgebrochen, noch"
-	cont "ehe sie fertig"
-	cont "waren."
+	line "Projekt abge-"
+	cont "brochen, noch ehe"
+	cont "sie fertig waren."
 	para "Ich suche nach"
 	line "Überresten der"
 	cont "Beute."
 	done
+
 BurglarOrsonBeatenText:
+	; GSC-DE Dump
 	text "Das ist zu viel!"
 	done
+
 GruntM13SeenText:
+	; GSC-DE Dump
 	text "Es ist mir egal,"
 	line "wenn du dich"
 	cont "verläufst."
-
 	para "Du tauchst hier"
 	line "auf! Du bist nur"
 	cont "ein Opfer!"
 	done
+
 GruntM13BeatenText:
+	; GSC-DE Dump
 	text "Urk! Du glaubst,"
 	line "du bist cool, häh?"
 	done
+
 GruntF3SeenText:
+	; GSC-DE Dump
 	text "Hast du dich"
 	line "verirrt? Nein, das"
 	cont "kann nicht sein."
@@ -444,25 +475,32 @@ GruntF3SeenText:
 	line "etwas, das dir"
 	cont "Angst macht!"
 	done
+
 GruntF3BeatenText:
+	; GSC-DE Dump
 	text "Wie konntest du?"
 	done
+
 SwitchRoomText_RedSwitch:
+	; PC-only (Farb-Schalter)
 	text "Roten Schalter"
 	line "drücken?"
 	done
 
 SwitchRoomText_GreenSwitch:
+	; PC-only (Farb-Schalter)
 	text "Grünen Schalter"
 	line "drücken?"
 	done
 
 SwitchRoomText_BlueSwitch:
+	; PC-only (Farb-Schalter)
 	text "Blauen Schalter"
 	line "drücken?"
 	done
 
 SwitchRoomText_EmergencySwitch:
+	; PC-only (Farb-Schalter)
 	text "Notfall-Schalter"
 	line "drücken?"
 	done

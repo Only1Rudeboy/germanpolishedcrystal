@@ -29,19 +29,18 @@ GoldenrodDeptStore2FClerk2Script:
 	pokemart MARTTYPE_STANDARD, MART_GOLDENROD_2F_2_EEVEE
 
 GoldenrodDeptStore2FYoungsterText:
+	; GSC-DE Dump
 	text "Der #COM kann"
-	line "bis zu zehn"
-	cont "Nummern"
-	cont "speichern."
+	line "bis zu zehn Num-"
+	cont "mern speichern."
 	para "Es ist schwer zu"
-	line "entscheiden,"
-	cont "welche Nummer man"
-	cont "behalten soll."
+	line "entscheiden, wel-"
+	cont "che Nummer man be-"
+	cont "halten soll."
 	done
 
-
-
 GoldenrodDeptStore2FCooltrainerFText:
+	; GSC-DE Dump
 	text "Ich habe mein ABRA"
 	line "in der SPIELHALLE"
 	para "gewonnen. Jetzt"
@@ -49,9 +48,8 @@ GoldenrodDeptStore2FCooltrainerFText:
 	para "Partner."
 	done
 
-
-
 GoldenrodDeptStore2FGentlemanText:
+	; GSC-DE Dump
 	text "Dieses KAUFHAUS"
 	line "zeigt mir, dass"
 	para "DUKATIA CITY eine"
@@ -61,12 +59,10 @@ GoldenrodDeptStore2FGentlemanText:
 	line "unübertrefflich!"
 	done
 
-
-
 GoldenrodDeptStore2FDirectoryText:
-	text "Ihr Reisebegleiter"
-	para "1S TRAINER-MARKT"
+	; GSC-DE Dump
+	text "Ihr Reise-"
+	line "begleiter"
+	para "1S TRAINER-"
+	line "   MARKT"
 	done
-
-
-

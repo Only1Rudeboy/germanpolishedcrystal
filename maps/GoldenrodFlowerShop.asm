@@ -95,7 +95,7 @@ FlowerShopTeacherScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Ähm …"
+	text "Ähm…"
 	line "Entschuldige, aber"
 	cont "du hast nicht"
 	cont "genug Geld."
@@ -123,145 +123,134 @@ FlowerShopFloriaScript:
 	iftrue_jumptextfaceplayer DescribeMulchText
 	jumpthistextfaceplayer
 
-	text "Der wackelige Baum"
-	line "war also wirklich"
-	cont "ein #mon!"
+	; GSC-DE Dump
+	text "Es war tatsächlich"
+	line "ein #MON!"
 	done
 
-
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Hast du den"
-	line "wacke-ligen Baum"
-	cont "auf ROUTE 36"
-	cont "gesehen?"
+	; GSC-DE Dump
+	text "Hast du den wacke-"
+	line "ligen Baum auf"
+	cont "ROUTE 36 gesehen?"
+
 	para "Meine kleine"
-	line "Schwester war"
-	cont "aufgeregt und"
-	cont "wollte ihn sich"
-	cont "ansehen …"
-	para "Ich bin besorgt …"
+	line "Schwester war auf-"
+	cont "geregt und wollte"
+	cont "ihn sich ansehen…"
+
+	para "Ich bin besorgt…"
 	line "Ist das riskant?"
 	done
 
-
-
-
-
 GoldenrodFlowerShopTeacherStopMySisterText:
+	; PC-adjacent (kein exakter Dump)
 	text "Meine kleine"
 	line "Schwester war auf-"
+
 	para "geregt und wollte"
 	line "den wackeligen"
-	cont "Baum sehen …"
-	para "Ich bin besorgt …"
+	cont "Baum sehen…"
+
+	para "Ich bin besorgt…"
 	line "Kannst du sie"
+
 	para "bitte davor"
 	line "bewahren, verletzt"
 	cont "zu werden?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
+	; GSC-DE Dump
 	text "Möchtest du auch"
-	line "die Gießkanne"
-	cont "ausleihen? Ich"
-	cont "werde nicht"
-	cont "zulassen,"
-	para "dass du etwas"
-	line "Gefährliches damit"
+	line "die Gießkanne aus-"
+	cont "leihen? Ich werde"
+	cont "nicht zulassen,"
+
+	para "dass du etwas Ge-"
+	line "fährliches damit"
 	cont "anstellst."
 	done
 
-
-
-
-
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
-	text "Ach, du bist"
-	line "besser als BIANKA."
-	para "Kennst du den"
-	line "wackeligen Baum?"
-	para "Wenn du ihn mit"
-	line "einer Gießkanne"
-	cont "nässest, greift er"
-	cont "an."
-	para "Aber mit ein paar"
-	line "ORDEN solltest du"
-	cont "in Ordnung sein."
-	done
-
-GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
+	; GSC-DE Dump
 	text "Oh, du bist besser"
-	line "als BIANKA …"
+	line "als BIANKA…"
+
 	para "Dann bist du in"
 	line "Ordnung. Hier, die"
 	cont "SCHIGGYKANNE!"
 	done
 
+GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
+	; GSC-DE Dump
+	text "Oh, du bist besser"
+	line "als BIANKA…"
 
-
-
+	para "Dann bist du in"
+	line "Ordnung. Hier, die"
+	cont "SCHIGGYKANNE!"
+	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
+	; GSC-DE Dump
 	text "Unternimm nichts"
 	line "Gefährliches!"
 	done
 
-
-
-
-
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
+	; GSC-DE Dump
 	text "Als ich meiner"
 	line "Schwester von dem"
+
 	para "wackeligen Baum"
 	line "erzählte, sagte"
+
 	para "sie mir, dass er"
 	line "gefährlich sei."
+
 	para "Ich frage mich, ob"
-	line "sie mir ihre"
-	cont "Gießkanne leiht,"
-	cont "wenn ich BIANKA"
-	cont "besiege …"
+	line "sie mir ihre Gieß-"
+	cont "kanne leiht, wenn"
+	cont "ich BIANKA"
+	cont "besiege…"
 	done
 
-
-
-
-
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
+	; GSC-DE Dump
 	text "Wow, du hast gegen"
 	line "BIANKA gewonnen?"
 	done
 
-
-
-
-
 WoukdYouLikeMulchText:
+	; PC-only (Mulch-Shop)
 	text "Möchtest du Dünger"
 	line "kaufen?"
+
 	para "Er lässt Beeren"
 	line "schneller wachsen!"
 	done
 
-
-
-
 NoRoomForMulchText:
+	; PC-only
 	text "Ach nein, dein"
 	line "BEUTEL ist voll!"
 	done
 
 DescribeMulchText:
+	; PC-only
 	text "Unser Dünger ist"
 	line "eine Mischung aus"
+
 	para "hochwertiger Erde"
-	line "und #mon-… äh …"
+	line "und #MON-… äh…"
+
 	para "du weißt schon."
 	line "Voller Nährstoffe!"
 	done
 
 FlowerShopGentlemanText:
+	; PC-only
 	text "Ich arbeite in"
 	line "letzter Zeit oft"
 	cont "über, also kaufe"

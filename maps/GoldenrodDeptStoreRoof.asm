@@ -81,40 +81,43 @@ GoldenrodDeptStoreRoofSuperNerdScript:
 Binoculars1:
 	jumpthistext
 
-	text "Mit diesem"
-	line "Fernglas kann ich"
-	cont "weit"
+	; GSC-DE Dump
+	text "Mit diesem Fern-"
+	line "glas kann ich weit"
 	para "sehen. Vielleicht"
 	line "sogar mein Haus."
 	para "Ist es das mit dem"
 	line "grünen Dach?"
 	done
+
 Binoculars2:
 	jumpthistext
 
+	; GSC-DE Dump
 	text "Heh! Einige"
 	line "Trainer kämpfen"
 	cont "auf dem Weg!"
-	para "Ein #mon schoss"
+	para "Ein #MON schoss"
 	line "mit Blättern!"
 	para "Wenn ich das sehe,"
 	line "will ich sofort"
 	cont "kämpfen!"
 	done
+
 Binoculars3:
 	jumpthistext
 
+	; GSC-DE Dump
 	text "Ein ANGLER fing"
 	line "viele KARPADOR…"
-
 	para "Sie setzen alle"
 	line "gleichzeitig"
 	cont "PLATSCHER ein!"
-
 	para "Sieh nur wie das"
 	line "Wasser überall"
 	cont "hinspritzt!"
 	done
+
 PokeDollVendingMachine:
 	opentext
 	writetext PokeDollVendingMachineText
@@ -195,38 +198,29 @@ PokeDollVendingMachine:
 	db "Pummeluff   ¥2400@"
 	db "Ditto       ¥2400@"
 	db "Mauzi       ¥2400@"
-	db "Cancel@"
+	db "ZURÜCK@"
 
 GoldenrodDeptStoreRoofPokefanFText:
+	; GSC-DE Dump
 	text "Puh, bin ich müde."
 	para "Manchmal gehe ich"
-	line "auf die"
-	cont "Dachterrasse, um"
-	cont "eine"
+	line "auf die Dach-"
+	cont "terrasse, um eine"
 	para "Einkaufspause"
 	line "einzulegen."
 	done
 
-
-
-
-
 GoldenrodDeptStoreRoofFisherText:
+	; GSC-DE Dump
 	text "Bitte? Wer sagt,"
 	line "dass das nichts"
 	cont "für Erwachsene"
 	cont "ist?"
-
 	para "Ich komme jeden"
 	line "Tag, um wirklich"
-
 	para "alle Puppen zu"
 	line "bekommen!"
 	done
-
-
-
-
 
 GoldenrodDeptStoreRoofFisherDuplicateText:
 	text "Das ist ein"
@@ -252,47 +246,36 @@ GoldenrodDeptStoreRoofFisherCatchEmAllText:
 	done
 
 GoldenrodDeptStoreRoofTwinText:
+	; GSC-DE Dump
 	text "Oft gibt es hier"
 	line "Sonderangebote."
 	done
 
-
-
-
-
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
+	; GSC-DE Dump
 	text "Oh, wow!"
 	done
 
-
-
-
-
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
+	; GSC-DE Dump
 	text "Hörst du auf, mich"
 	line "zu belästigen?"
 	done
 
-
-
-
-
 GoldenrodDeptStoreRoofPokefanMText:
+	; GSC-DE Dump
 	text "Es gibt etwas, das"
 	line "ich unbedingt"
 	para "möchte, aber mir"
 	line "fehlt das nötige"
-	cont "Kleingeld …"
+	cont "Kleingeld…"
 	para "Soll ich meine"
 	line "gesammelten BEEREN"
-	cont "verkaufen …"
+	cont "verkaufen…"
 	done
 
-
-
-
-
 GoldenrodDeptStoreRoofTeacherText:
+	; GSC-DE Dump
 	text "Oh, alles ist so"
 	line "billig!"
 	para "Ich habe soviel"
@@ -300,16 +283,13 @@ GoldenrodDeptStoreRoofTeacherText:
 	cont "BEUTEL voll ist!"
 	done
 
-
-
-
-
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "Meine #mon sind"
-	line "immer paralysiert"
-	cont "oder vergiftet,"
-	cont "wenn es darauf"
-	cont "ankommt…"
+	; GSC-DE Dump
+	text "Meine #MON"
+	line "sind immer para-"
+	cont "lysiert oder ver-"
+	cont "giftet, wenn es"
+	cont "darauf ankommt…"
 	para "Daher möchte ich"
 	line "HYPERHEILER"
 	cont "kaufen."
@@ -317,23 +297,16 @@ GoldenrodDeptStoreRoofBugCatcherText:
 	line "es noch welche?"
 	done
 
-
-
-
-
 PokeDollVendingMachineText:
+	; GSC-DE Dump
 	text "Ein Automat, an"
-	line "dem man"
-	cont "#mon-Puppen"
-	cont "kaufen kann."
+	line "dem man #MON-"
+	cont "Puppen kaufen"
+	cont "kann."
 	para "Wirf Geld ein und"
 	line "dreh die Kurbel…"
 	para "Er ist fast leer…"
 	done
-
-
-
-
 
 PokeDollVendingMachineNoMoneyText:
 	text "Das kannst du dir"

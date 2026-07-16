@@ -19,37 +19,30 @@ GoldenrodDeptStore3F_MapScriptHeader:
 	object_event  2,  5, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore3FRockerText, -1
 
 GoldenrodDeptStore3FSuperNerdText:
+	; GSC-DE Dump
 	text "Ich, ich, ich bin"
 	line "so ungeduldig!"
-
 	para "Ich setze X-TEMPO"
 	line "im Kampf ein, um"
-
 	para "den INIT-Wert"
-	line "meiner #mon"
-
+	line "meiner #MON"
 	para "zu erhöhen."
 	done
 
-
-
 GoldenrodDeptStore3FRockerText:
+	; GSC-DE Dump
 	text "Hey! Setzt du im"
 	line "Kampf X-SPEZIAL"
 	cont "ein?"
-
 	para "Es ist toll. Es"
 	line "verstärkt alle"
 	cont "SPEZIALATTACKEN!"
 	done
 
-
-
 GoldenrodDeptStore3FDirectoryText:
-	text "Für Siegeshungrige"
-	para "2S"
-	line "KAMPF-KOLLEKTION"
+	; GSC-DE Dump
+	text "Für Sieges-"
+	line "hungrige"
+	para "2S KAMPF-"
+	line "   KOLLEKTION"
 	done
-
-
-

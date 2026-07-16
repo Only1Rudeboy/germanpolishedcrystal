@@ -424,6 +424,7 @@ OfficerfMaraScript:
 GenericTrainerBreederJulie:
 	generictrainer BREEDER, JULIE, EVENT_BEAT_BREEDER_JULIE, BreederJulieSeenText, BreederJulieBeatenText
 
+	; PC-only (class C)
 	text "Eines meiner"
 	line "#mon hat ein"
 
@@ -550,14 +551,17 @@ Route34RichBoyIrvingScript:
 GenericTrainerPokefanmBrandon:
 	generictrainer POKEFANM, BRANDON, EVENT_BEAT_POKEFANM_BRANDON, PokefanmBrandonSeenText, PokefanmBrandonBeatenText
 
-	text "Mein #mon"
+	; GSC-DE Dump
+	text "Mein #MON"
 	line "kannte Attacken,"
 	cont "von denen ich"
 	cont "nicht wusste, dass"
 	cont "es sie hat."
+
 	para "Das war überaus"
 	line "erstaunlich!"
 	done
+
 TrainerCooltrainerfIrene:
 	trainer COOLTRAINERF, IRENE, EVENT_BEAT_COOLTRAINERF_IRENE, CooltrainerfIreneSeenText, CooltrainerfIreneBeatenText, 0, .Script
 
@@ -567,11 +571,13 @@ TrainerCooltrainerfIrene:
 	iftrue_jumptext CooltrainerfIreneAfterText2
 	jumpthistext
 
+	; GSC-DE Dump
 	text "LOLA: Du wirst"
 	line "meine Schwester"
 	cont "EDNA noch"
 	cont "kennenlernen!"
 	done
+
 TrainerCooltrainerfJenn:
 	trainer COOLTRAINERF, JENN, EVENT_BEAT_COOLTRAINERF_JENN, CooltrainerfJennSeenText, CooltrainerfJennBeatenText, 0, .Script
 
@@ -581,12 +587,14 @@ TrainerCooltrainerfJenn:
 	iftrue_jumptext CooltrainerfJennAfterText2
 	jumpthistext
 
+	; GSC-DE Dump
 	text "ELSE: Bilde dir"
 	line "bloß nichts ein!"
 	cont "Meine Schwester"
 	cont "EDNA ist sehr"
 	cont "stark!"
 	done
+
 TrainerCooltrainerfKate:
 	trainer COOLTRAINERF, KATE, EVENT_BEAT_COOLTRAINERF_KATE, CooltrainerfKateSeenText, CooltrainerfKateBeatenText, 0, .Script
 
@@ -603,12 +611,15 @@ TrainerCooltrainerfKate:
 	jumpthisopenedtext
 
 CooltrainerfKateAfterText:
+	; GSC-DE Dump
 	text "EDNA: Bitte"
 	line "entschuldige, dass"
-	cont "wir dich"
-	cont "überfallen haben."
+	cont "wir dich über-"
+	cont "fallen haben."
+
 	para "Wir hätten nicht"
 	line "gedacht, dass uns"
+
 	para "hier jemand"
 	line "findet. Du hast"
 	cont "uns überrascht."
@@ -693,21 +704,25 @@ Route34LyraFollowMeText:
 	done
 
 BreederJulieSeenText:
+	; PC-only (class C)
 	text "Hier trainiere ich"
 	line "meine"
 	cont "Baby-#mon!"
 	done
 
 BreederJulieBeatenText:
+	; PC-only (class C)
 	text "Von einem"
 	line "vorbeikommenden"
 	cont "Fremden besiegt!"
 	done
 
 CamperTodd1SeenText:
+	; GSC-DE Dump
 	text "Ich weiß, dass ich"
-	line "#mon gut"
+	line "#MON gut"
 	cont "aufziehen kann."
+
 	para "Möchtest du dich"
 	line "davon überzeugen?"
 	done
@@ -720,6 +735,7 @@ CamperTodd1SeenText:
 
 
 CamperTodd1BeatenText:
+	; GSC-DE Dump
 	text "Habe ich falsch"
 	line "trainiert?"
 	done
@@ -732,6 +748,7 @@ CamperTodd1BeatenText:
 
 
 CamperTodd1AfterText:
+	; GSC-DE Dump
 	text "Vielleicht sollte"
 	line "ich eines in die"
 
@@ -749,10 +766,12 @@ CamperTodd1AfterText:
 
 
 CamperToddSaleText:
+	; GSC-DE Dump
 	text "Einkaufen unter"
 	line "freiem Himmel!"
-	para "Es ist schön auf"
-	line "einem Dach."
+
+	para "Es ist schön"
+	line "auf einem Dach."
 	done
 
 
@@ -763,8 +782,10 @@ CamperToddSaleText:
 
 
 PicnickerGina1SeenText:
-	text "Bist du ein"
-	line "Trainer?"
+	; GSC-DE Dump
+	text "Bist du"
+	line "ein Trainer?"
+
 	para "Hast du Lust auf"
 	line "einen Übungskampf?"
 	done
@@ -777,9 +798,9 @@ PicnickerGina1SeenText:
 
 
 PicnickerGina1BeatenText:
+	; GSC-DE Dump
 	text "Oh nein! Ich habe"
-	line "noch nie gewonnen"
-	cont "…"
+	line "noch nie gewonnen…"
 	done
 
 
@@ -790,10 +811,11 @@ PicnickerGina1BeatenText:
 
 
 PicnickerGina1AfterText:
+	; GSC-DE Dump
 	text "Du bist mir zu"
 	line "stark. Das ist"
-	cont "keine Übung für"
-	cont "mich."
+	cont "keine Übung"
+	cont "für mich."
 	done
 
 
@@ -804,36 +826,48 @@ PicnickerGina1AfterText:
 
 
 OfficerfMaraSeenText:
+	; GSC-DE Dump
 	text "Wer ist da? Was"
 	line "ist dein Begehr?"
 	done
+
 OfficerfMaraWinText:
+	; GSC-DE Dump
 	text "Du bist ein"
-	line "starker, junger"
-	cont "Gegner."
+	line "starker,"
+	cont "junger Gegner."
 	done
+
 OfficerfMaraAfterText:
-	text "Ja, heute sehe ich"
-	line "nichts"
-	cont "Verdächtiges."
-	para "Sei brav und mach"
-	line "keinen Ärger."
+	; GSC-DE Dump
+	text "Ja, heute scheint"
+	line "alles in Ordnung"
+
+	para "zu sein. Benimm"
+	line "dich und halte"
+	cont "dich aus"
+	cont "Schwierigkeiten"
+	cont "heraus."
 	done
 
 OfficerfMaraDaytimeText:
+	; GSC-DE Dump
 	text "Ich bin auf der"
-	line "Suche nach"
-	cont "verdächtigen"
+	line "Suche nach ver-"
+	cont "dächtigen"
 	cont "Individuen."
 	done
+
 PokefanmBrandonSeenText:
+	; GSC-DE Dump
 	text "Ich habe gerade"
-	line "mein #mon aus"
-	cont "der PENSION wieder"
-	cont "abgeholt."
-	para "Sehen wir mal, wie"
-	line "stark es geworden"
-	cont "ist!"
+	line "mein #MON"
+	cont "aus der PENSION"
+	cont "wieder abgeholt."
+
+	para "Sehen wir mal,"
+	line "wie stark es"
+	cont "geworden ist!"
 	done
 
 
@@ -844,6 +878,7 @@ PokefanmBrandonSeenText:
 
 
 PokefanmBrandonBeatenText:
+	; GSC-DE Dump
 	text "Warum muss es auf"
 	line "diese Weise enden?"
 	done
@@ -856,8 +891,9 @@ PokefanmBrandonBeatenText:
 
 
 CooltrainerfIreneSeenText:
-	text "LOLA: Uargh! Wir"
-	line "sind entdeckt!"
+	; GSC-DE Dump
+	text "LOLA: Uargh!"
+	line "Wir sind entdeckt!"
 	done
 
 
@@ -868,8 +904,9 @@ CooltrainerfIreneSeenText:
 
 
 CooltrainerfIreneBeatenText:
-	text "LOLA: Ohhh! Viel"
-	line "zu stark!"
+	; GSC-DE Dump
+	text "LOLA: Ohhh!"
+	line "Viel zu stark!"
 	done
 
 
@@ -880,11 +917,14 @@ CooltrainerfIreneBeatenText:
 
 
 CooltrainerfIreneAfterText2:
+	; GSC-DE Dump
 	text "LOLA: Ist dieser"
 	line "Strand nicht"
 	cont "herrlich?"
+
 	para "Er ist unsere"
-	line "geheime Zuflucht!"
+	line "geheime"
+	cont "Zuflucht!"
 	done
 
 
@@ -895,6 +935,7 @@ CooltrainerfIreneAfterText2:
 
 
 CooltrainerfJennSeenText:
+	; GSC-DE Dump
 	text "ELSE: Dein Sieg"
 	line "über LOLA muss"
 	cont "gesühnt werden!"
@@ -908,8 +949,9 @@ CooltrainerfJennSeenText:
 
 
 CooltrainerfJennBeatenText:
-	text "ELSE: Es tut mir"
-	line "so Leid,"
+	; GSC-DE Dump
+	text "ELSE: Es tut"
+	line "mir so Leid,"
 	cont "Schwesterchen!"
 	done
 
@@ -921,9 +963,10 @@ CooltrainerfJennBeatenText:
 
 
 CooltrainerfJennAfterText2:
-	text "ELSE: Sonnenlicht"
-	line "kräftigt deinen"
-	cont "Körper."
+	; GSC-DE Dump
+	text "ELSE: Sonnen-"
+	line "licht kräftigt"
+	cont "deinen Körper."
 	done
 
 
@@ -934,9 +977,10 @@ CooltrainerfJennAfterText2:
 
 
 CooltrainerfKateSeenText:
+	; GSC-DE Dump
 	text "EDNA: Du warst"
-	line "wirklich gemein zu"
-	cont "meinen kleinen"
+	line "wirklich gemein"
+	cont "zu meinen kleinen"
 	cont "Schwestern!"
 	done
 
@@ -948,6 +992,7 @@ CooltrainerfKateSeenText:
 
 
 CooltrainerfKateBeatenText:
+	; GSC-DE Dump
 	text "EDNA: Nein! Ich"
 	line "kann nicht"
 	cont "glauben, dass ich"
@@ -962,6 +1007,7 @@ CooltrainerfKateBeatenText:
 
 
 CooltrainerfKateOfferPowerHerbText:
+	; GSC-DE Dump
 	text "EDNA: Du bist zu"
 	line "stark. Ich hatte"
 	cont "keine Chance."
@@ -969,10 +1015,14 @@ CooltrainerfKateOfferPowerHerbText:
 	para "Hier. Das hast du"
 	line "dir verdient."
 	done
+
 Route34SignText:
+	; GSC-DE Dump
 	text "ROUTE 34"
-	para "DUKATIA CITY"
-	line "-AZALEA CITY"
+
+	para "DUKATIA CITY -"
+	line "AZALEA CITY"
+
 	para "STEINEICHENWALD"
 	line "Irgendwo"
 	cont "dazwischen"
@@ -986,6 +1036,7 @@ Route34SignText:
 
 
 Route34TrainerTipsText:
+	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 	line "Bäume mit BEEREN"
 
@@ -1005,6 +1056,7 @@ Route34TrainerTipsText:
 
 
 Route34AdvancedTipsSignText:
+	; PC-only (class C)
 	text "Profi-Tipps!"
 	para "Manche #mon"
 	line "haben von Natur"
@@ -1019,10 +1071,12 @@ Route34AdvancedTipsSignText:
 	done
 
 DayCareSignText:
+	; GSC-DE Dump
 	text "PENSION"
+
 	para "Wir Ziehen Dein"
-	line "#mon Für Dich"
-	cont "Auf!"
+	line "#MON Für"
+	cont "Dich Auf!"
 	done
 
 

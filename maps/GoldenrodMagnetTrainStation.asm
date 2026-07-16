@@ -30,17 +30,17 @@ GoldenrodMagnetTrainStationOfficerScript:
 	iftruefwd .MagnetTrainToSaffron
 	jumpthisopenedtext
 
-	text "Der Zug ist noch"
-	line "nicht"
-	cont "eingetroffen…"
+	; GSC-DE Dump
+	text "Der Zug ist nicht"
+	line "gekommen…"
 
-	para "Ich weiß! Ich"
-	line "trage die"
-	cont "Passagiere auf"
-	cont "meinem Rücken!"
+	para "Ich hab's! Ich"
+	line "werde die Passa-"
+	cont "giere auf dem"
+	cont "Rücken tragen!"
 
 	para "Das wird nicht"
-	line "klappen."
+	line "funktionieren."
 	done
 
 .MagnetTrainToSaffron:
@@ -70,13 +70,13 @@ Script_ArriveFromSaffron:
 	turnobject PLAYER, DOWN
 	end
 
-
 GoldenrodMagnetTrainStationCooltrainerfScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftruefwd .PowerRestored
 	jumpthistextfaceplayer
 
-	text "Der Magnetzug:"
+	; PC-only flavor
+	text "Der MAGNETZUG:"
 	line "zoooom, byun!"
 	cont "Shuuu!"
 
@@ -87,7 +87,8 @@ GoldenrodMagnetTrainStationCooltrainerfScript:
 .PowerRestored
 	jumpthistextfaceplayer
 
-	text "Der Magnetzug:"
+	; PC-only flavor
+	text "Der MAGNETZUG:"
 	line "zoooom, byun!"
 	cont "Shuuu!"
 
@@ -128,18 +129,17 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	turn_head_up
 	step_end
 
-
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "Wir werden in"
-	line "Kürze nach"
-	cont "SAFFRONIA CITY"
-	cont "abreisen."
+	; GSC-DE Dump
+	text "Wir werden in Kür-"
+	line "ze nach SAFFRONIA"
+	cont "CITY abreisen."
+
 	para "Kommst du mit?"
 	done
 
-
-
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
+	; GSC-DE Dump
 	text "Darf ich deinen"
 	line "FAHRSCHEIN sehen?"
 
@@ -147,49 +147,42 @@ GoldenrodMagnetTrainStationOfficerRightThisWayText:
 	line "entlang."
 	done
 
-
-
-
-
-
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
+	; GSC-DE Dump
 	text "Verzeihung, aber"
 	line "du hast keinen"
 	cont "FAHRSCHEIN."
 	done
 
-
-
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
+	; GSC-DE Dump
 	text "Besuche uns"
 	line "wieder!"
 	done
 
-
-
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "Wir sind in"
-	line "DUKA-TIA CITY"
-	cont "angekommen."
+	; GSC-DE Dump
+	text "Wir sind in DUKA-"
+	line "TIA CITY angekom-"
+	cont "men."
+
 	para "Beehre uns bald"
 	line "wieder!"
 	done
 
-
-
 GoldenrodMagnetTrainStationGentlemanText:
-	text "Ich bin der"
-	line "PRÄSI-DENT."
+	; GSC-DE Dump
+	text "Ich bin der PRÄSI-"
+	line "DENT."
+
 	para "Mein Traum war es,"
-	line "einen Zug zu"
-	cont "bauen, der"
-	cont "schneller"
+	line "einen Zug zu bau-"
+	cont "en, der schneller"
+
 	para "ist als jedes"
-	line "#mon."
+	line "#MON."
+
 	para "Dadurch würden"
 	line "JOHTO und KANTO"
 	cont "näher rücken."
 	done
-
-
-

@@ -138,9 +138,6 @@ Route35NationalParkGate_EnterContest:
 Route35NationalParkGate_FacingLeft:
 	end
 
-
-
-
 Route35NationalParkGate_LeaveTheRestBehind:
 	readvar VAR_PARTYCOUNT
 	ifless 6, Route35NationalParkGate_LessThanFullParty
@@ -178,6 +175,7 @@ Route35NationalParkGateOfficerScript:
 Route35NationalParkGate_NoContestToday:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Die Turniere"
 	line "werden regelmäßig"
 
@@ -186,6 +184,7 @@ Route35NationalParkGate_NoContestToday:
 	cont "doch auch daran"
 	cont "teil!"
 	done
+
 Route35NationalParkGatePlayerApproachOfficer1Movement:
 	step_down
 	turn_head_left
@@ -220,7 +219,8 @@ Route35NationalParkGateTutorCharmScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Ach, deine #mon"
+	; PC-only (Move Tutor)
+	text "Ach, deine #MON"
 	line "sind süß genug,"
 
 	para "aber sie könnten"
@@ -230,8 +230,10 @@ Route35NationalParkGateTutorCharmScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
+	; PC-only (Move Tutor)
 	text "Tut mir leid, aber"
 	line "ohne ein Silber-"
+
 	para "blatt kann ich die"
 	line "Attacke nicht"
 	cont "beibringen."
@@ -241,188 +243,191 @@ Route35NationalParkGateTutorCharmScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Dein #mon ist"
+	; PC-only (Move Tutor)
+	text "Dein #MON ist"
 	line "schon süßer!"
 	done
 
 Route35NationalParkGateOfficer1AskToParticipateText:
+	; GSC-DE Dump
 	text "Heute ist "
 	text_ram wStringBuffer3
 	text "."
 	line "Das heißt, heute"
-	para "findet das"
-	line "Käferturnier"
-	cont "statt."
+
+	para "findet das Käfer-"
+	line "turnier statt."
+
 	para "Die Regeln sind"
 	line "einfach."
-	para "Fange ein"
-	line "Käfer-#mon mit"
-	cont "einem deiner"
-	cont "eigenen #mon."
-	para "Das Käfer-#mon"
+
+	para "Fange ein Käfer-"
+	line "#MON mit einem"
+	cont "deiner eigenen"
+	cont "#MON."
+
+	para "Das Käfer-#MON"
 	line "wird dann von der"
 	cont "Jury bewertet."
+
 	para "Möchtest du es"
 	line "versuchen?"
 	done
 
-
-
 Route35NationalParkGateOfficer1GiveParkBallsText:
+	; GSC-DE Dump
 	text "Hier sind die"
 	line "PARKBÄLLE für das"
 	cont "Turnier."
 	done
 
-
-
-
 Route35NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> erhält {d:BUG_CONTEST_BALLS}"
-	line "PARKBÄLLE."
+	; GSC-DE Dump (PC: BUG_CONTEST_BALLS)
+	text "<PLAYER> erhält"
+	line "{d:BUG_CONTEST_BALLS} PARKBÄLLE."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1ExplainsRulesText:
+	; GSC-DE Dump (PC: BUG_CONTEST_MINUTES)
 	text "Wer das stärkste"
-	line "Käfer-#mon"
+	line "Käfer-#MON"
 	cont "fängt, hat"
 	cont "gewonnen."
-	para "Du hast {d:BUG_CONTEST_MINUTES} Minuten"
-	line "Zeit."
+
+	para "Du hast {d:BUG_CONTEST_MINUTES}"
+	line "Minuten Zeit."
+
 	para "Wenn du keine"
 	line "PARKBÄLLE mehr"
 	cont "hast, ist das"
 	cont "Turnier beendet."
+
 	para "Du darfst das"
-	line "letzte #mon,"
+	line "letzte #MON,"
 	cont "das du gefangen"
 	cont "hast, behalten."
+
 	para "Los! Fang das"
-	line "stärkste"
-	cont "Käfer-#mon, das"
-	cont "du finden kannst!"
+	line "stärkste Käfer-"
+	cont "#MON, das du"
+	cont "finden kannst!"
 	done
 
-
-
-
 Route35NationalParkGateOfficer1AskToUseFirstMonText:
-	text "Ach, ach…"
+	; GSC-DE Dump
+	text "Oh, oh…"
 
 	para "Du hast mehr als"
-	line "ein #mon."
+	line "ein #MON."
 
-	para "Du musst "
+	para "Du musst"
+	line "@"
 	text_ram wStringBuffer3
-	text ","
-	line "dein erstes"
-	cont "#mon, einsetzen."
+	text ""
+
+	para "auswählen - dein"
+	line "erstes #MON."
 
 	para "Bist du damit"
 	line "einverstanden?"
 	done
 
-
-
 Route35NationalParkGateOfficer1WellHoldYourMonText:
+	; GSC-DE Dump
 	text "Gut. Wir passen"
 	line "währenddessen auf"
 	cont "deine anderen"
-	cont "#mon auf."
+	cont "#MON auf."
 	done
 
-
-
-
 Route35NationalParkGatePlayersMonLeftWithHelperText:
-	text "Die #mon von"
-	line "<PLAYER> wurden dem"
-	cont "TURNIERHELFER"
+	; GSC-DE Dump (≤18 wrap)
+	text "Die #MON von"
+	line "<PLAYER> wurden"
+	cont "dem TURNIERHELFER"
 	cont "übergeben."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1ChooseMonAndComeBackText:
+	; GSC-DE Dump
 	text "Wähle bitte das"
-	line "#mon, mit dem"
+	line "#MON, mit dem"
+
 	para "du im Turnier"
 	line "antreten möchtest,"
 	cont "aus und komm dann"
 	cont "wieder."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1TakePartInFutureText:
+	; GSC-DE Dump
 	text "Na gut. Wir"
 	line "hoffen, dass du"
-	cont "später einmal am"
-	cont "Turnier"
-	cont "teilnimmst."
+	cont "später einmal"
+	cont "am Turnier teil-"
+	cont "nimmst."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1FirstMonCantBattleText:
-	text "Oh, oh … Das erste"
-	line "#mon"
+	; GSC-DE Dump
+	text "Oh, oh…"
+	line "Das erste #MON"
+
 	para "deines Teams kann"
 	line "nicht am Turnier"
 	cont "teilnehmen."
+
 	para "Tausche es bitte"
-	line "mit dem #mon"
+	line "mit dem #MON"
+
 	para "aus, das am"
 	line "Turnier teilnehmen"
+
 	para "soll und komm dann"
 	line "wieder."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1MakeRoomText:
-	text "Oh, oh… Dein Team"
-	line "und"
+	; GSC-DE Dump
+	text "Oh, oh…"
+	line "Dein Team und"
+
 	para "deine PC-BOX sind"
 	line "voll besetzt."
+
 	para "Du hast keinen"
 	line "Platz für ein"
-	cont "Käfer-#mon, das"
-	cont "du fängst."
+	cont "Käfer-#MON,"
+	cont "das du fängst."
+
 	para "Schaffe Platz in"
 	line "deinem Team oder"
+
 	para "in deiner PC-BOX"
 	line "und komm dann"
 	cont "wieder."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1EggAsFirstMonText:
-	text "Oh, oh … Ein EI"
-	line "ist an"
+	; GSC-DE Dump
+	text "Oh, oh…"
+	line "Ein EI ist an"
+
 	para "erster Stelle in"
 	line "deinem Team."
+
 	para "Tausche es bitte"
-	line "mit dem #mon,"
+	line "mit dem #MON,"
+
 	para "das du im Turnier"
 	line "einsetzen möchtest"
+
 	para "und komm dann"
 	line "wieder."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1WantToFinishText:
+	; GSC-DE Dump
 	text "Du hast noch "
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	line "Minute(n)."
@@ -431,9 +436,8 @@ Route35NationalParkGateOfficer1WantToFinishText:
 	line "aufhören?"
 	done
 
-
-
 Route35NationalParkGateOfficer1WaitAtNorthGateText:
+	; GSC-DE Dump
 	text "Gut. Warte bitte"
 	line "am Nordtor auf"
 
@@ -441,87 +445,87 @@ Route35NationalParkGateOfficer1WaitAtNorthGateText:
 	line "der Sieger."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1OkGoFinishText:
+	; GSC-DE Dump
 	text "Gut. Geh bitte"
 	line "wieder zurück nach"
 	cont "draußen und komm"
 	cont "zum Ende."
 	done
 
-
-
-
 Route35NationalParkGateOfficer1ContestIsOverText:
+	; GSC-DE Dump
 	text "Das heutige"
-	line "Turnier ist"
-	cont "beendet. Wir"
-	cont "hoffen,"
+	line "Turnier ist be-"
+	cont "endet. Wir hoffen,"
+
 	para "dass du wieder"
 	line "daran teilnehmen"
 	cont "wirst."
 	done
 
-
-
-
 Route35NationalParkGateYoungsterText:
+	; GSC-DE Dump
 	text "Wann findet das"
-	line "nächste"
-	cont "Käferturnier"
+	line "nächste Käfer-"
+	cont "turnier"
 	cont "statt?"
 	done
 
-
-
-
 BugCatchingContestExplanationText:
+	; GSC-DE Dump
 	text "Das Käferturnier"
 	line "findet jeden"
+
 	para "Dienstag,"
 	line "Donnerstag und"
 	cont "Samstag statt."
+
 	para "Du erhältst nicht"
 	line "nur einen Preis"
+
 	para "allein für die"
 	line "Teilnahme, sondern"
-	para "auch ein"
-	line "Käfer-#mon, das"
-	cont "du"
+
+	para "auch ein Käfer-"
+	line "#MON, das du"
+
 	para "dort fängst."
 	done
 
-
-
-
 Route35NationalParkGatePokefanFText:
-	text "Viele #mon"
+	; PC-only (Move Tutor intro)
+	text "Viele #MON"
 	line "kommen mit ihren"
 	cont "Trainern in den"
-	cont "Nationalpark."
+	cont "NATIONALPARK."
+
 	para "Und sie sind alle"
 	line "so, so süß!"
+
 	para "Ja, die"
-	line "Käfer-#mon"
+	line "Käfer-#MON"
 	cont "auch!"
 	done
 
 Text_Route35NationalParkGateTutorCharm:
+	; PC-only (Move Tutor)
 	text "Ich kann dein"
-	line "#mon mit der"
+	line "#MON mit der"
 	cont "Attacke Charme"
 	cont "noch süßer machen."
+
 	para "Gegnerische"
-	line "#mon treffen es"
+	line "#MON treffen es"
 	cont "danach auch"
 	cont "weniger hart!"
 	done
 
 Text_Route35NationalParkGateTutorQuestion:
+	; PC-only (Move Tutor)
 	text "Ich brauche nur"
 	line "ein Silberblatt,"
+
 	para "darf ich Charme"
 	line "beibringen? Bitte,"
 	cont "bitte?"

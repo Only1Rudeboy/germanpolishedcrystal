@@ -37,14 +37,15 @@ Route35_MapScriptHeader:
 GenericTrainerBreederTheresa:
 	generictrainer BREEDER, THERESA, EVENT_BEAT_BREEDER_THERESA, BreederTheresaSeenText, BreederTheresaBeatenText
 
+	; PC-only
 	text "Ich bringe meine"
-	line "#mon zum"
+	line "#MON zum"
 
 	para "Haarschnitt nach"
-	line "Dukatia City und"
+	line "DUKATIA CITY und"
 
 	para "zur Segnung nach"
-	line "Teak City."
+	line "TEAK CITY."
 
 	para "Sie sind so"
 	line "glücklich!"
@@ -79,98 +80,63 @@ TrainerJugglerIrwin:
 Route35AskNumber1M:
 	end
 
-
-
-
-
-
-
 Route35AskNumber2M:
 	end
-
-
-
-
-
-
 
 Route35RegisteredNumberM:
 	end
 
-
-
-
-
-
-
 Route35NumberAcceptedM:
 	end
-
-
-
-
-
-
 
 Route35NumberDeclinedM:
 	end
 
-
-
-
-
-
-
 Route35PhoneFullM:
 	end
-
-
-
-
-
-
 
 Route35RematchM:
 	end
 
-
-
-
-
-
-
 GenericTrainerCamperIvan:
 	generictrainer CAMPER, IVAN, EVENT_BEAT_CAMPER_IVAN, CamperIvanSeenText, CamperIvanBeatenText
 
+	; GSC-DE Dump
 	text "Die Musik aus dem"
 	line "Radio beeinflusst"
 	cont "die Stimmung von"
-	cont "wilden #mon."
+	cont "wilden #MON."
 	done
 
 GenericTrainerCoupleGailandeli1:
 	generictrainer COUPLE, GAILANDELI1, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli1SeenText, CoupleGailandeli1BeatenText
 
-	text "Eli: Ich wurde vor"
+	; GSC-DE Dump
+	text "Du hast mich vor"
 	line "meiner Freundin"
-	cont "blamiert …"
+	cont "lächerlich"
+	cont "gemacht…"
 	done
 
 GenericTrainerCoupleGailandeli2:
 	generictrainer COUPLE, GAILANDELI2, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli2SeenText, CoupleGailandeli2BeatenText
 
-	text "Gail: Auf meine"
-	line "#mon kann ich"
-	cont "mehr zählen als"
-	cont "auf meinen Freund."
+	; GSC-DE Dump
+	text "Auf meine"
+	line "#MON kann"
+	cont "ich mich eher"
+	cont "verlassen als auf"
+	cont "meinen Freund."
 	done
 
 GenericTrainerPicnickerKim:
 	generictrainer PICNICKER, KIM, EVENT_BEAT_PICNICKER_KIM, PicnickerKimSeenText, PicnickerKimBeatenText
 
-	text "Die ORDEN sind"
-	line "hübsch. Deshalb"
-	cont "sammle ich sie."
+	; GSC-DE Dump
+	text "Die ORDEN"
+	line "sind hübsch."
+	cont "Deshalb sammle ich"
+	cont "sie."
 	done
 
 TrainerBug_catcherArnie1:
@@ -267,19 +233,23 @@ TrainerBug_catcherArnie1:
 .YanmaSwarming:
 	jumpthisopenedtext
 
-	text "Wow … Sieh, all"
+	; GSC-DE Dump
+	text "Wow… Sieh, all"
 	line "die YANMA!"
-	para "Ich bin"
-	line "überwältigt und"
-	cont "kann mich nicht"
-	cont "rühren."
+
+	para "Ich bin über-"
+	line "wältigt und kann"
+	cont "mich nicht rühren."
 	done
+
 GenericTrainerFirebreatherWalt:
 	generictrainer FIREBREATHER, WALT, EVENT_BEAT_FIREBREATHER_WALT, FirebreatherWaltSeenText, FirebreatherWaltBeatenText
 
-	text "Der #mon-Marsch"
-	line "im Radio lockt"
-	cont "wilde #mon an."
+	; GSC-DE Dump
+	text "Der #MON-"
+	line "Marsch im Radio"
+	cont "lockt wilde"
+	cont "#MON an."
 	done
 
 TrainerOfficerDirk:
@@ -304,136 +274,114 @@ TrainerOfficerDirk:
 .AfterBattle:
 	jumpthisopenedtext
 
-	text "Du weißt, dass die"
-	line "Nacht auf ihre"
-	cont "Weise schön sein"
-	cont "kann."
-	para "Aber übertreibe es"
-	line "nicht, O.K.?"
+	; GSC-DE Dump
+	text "Du weißt, dass"
+	line "die Nacht auf"
+	cont "ihre Weise"
+	cont "schön sein kann."
+
+	para "Aber übertreibe"
+	line "es nicht, O.K.?"
 	done
+
 .NotNight:
 	jumpthisopenedtext
 
-	text "Deine #mon"
+	; GSC-DE Dump
+	text "Deine #MON"
 	line "sehen ziemlich"
 	cont "stark aus."
 
-	para "Du wärst überall"
-	line "sicher."
+	para "Du wärst über-"
+	line "all sicher."
 	done
+
 CamperIvanSeenText:
+	; GSC-DE Dump
 	text "Ich habe aus dem"
-	line "Radio"
-	cont "#mon-Daten"
-	cont "erhalten."
+	line "Radio #MON-"
+	cont "Daten erhalten."
+
 	para "Ich glaube, ich"
 	line "bin gut."
 	done
 
-
-
-
-
-
-
 CamperIvanBeatenText:
+	; GSC-DE Dump
 	text "Ich teile aus!"
 	done
 
-
-
-
-
-
-
 CoupleGailandeli1SeenText:
-	text "Eli: Ich zeige"
-	line "meiner Freundin,"
-	cont "was ich drauf"
-	cont "habe!"
+	; GSC-DE Dump
+	text "Ich werde meiner"
+	line "Freundin zeigen,"
+	cont "wie cool ich bin!"
 	done
 
 CoupleGailandeli1BeatenText:
-	text "Eli: Ich wünschte,"
-	line "du hättest für"
-	cont "mich verloren …"
+	; GSC-DE Dump
+	text "Ach, hättest du"
+	line "doch verloren…"
 	done
 
 CoupleGailandeli2SeenText:
-	text "Gail: Mein Freund"
-	line "ist schwach, also"
-	cont "kann ich mich"
-	cont "nicht auf ihn"
-	cont "verlassen."
+	; GSC-DE Dump
+	text "Mein Freund ist"
+	line "schwach. Er kann"
+	cont "mich nicht"
+	cont "beschützen."
 	done
 
 CoupleGailandeli2BeatenText:
-	text "Gail: Ach, du"
-	line "meine Güte! Du"
-	cont "bist so stark!"
+	; GSC-DE Dump
+	text "Meine Güte, bist"
+	line "du stark!"
 	done
 
 PicnickerKimSeenText:
-	text "Gehst du auch zur"
-	line "PKMN-ARENA?"
+	; GSC-DE Dump
+	text "Gehst du auch"
+	line "zur PKMN-ARENA?"
 	done
 
-
-
-
-
-
-
 PicnickerKimBeatenText:
+	; GSC-DE Dump
 	text "Oh, ich habe"
 	line "verloren…"
 	done
 
-
-
-
-
-
-
 BreederTheresaSeenText:
+	; PC-only
 	text "Wie versorgst du"
-	line "deine #mon?"
+	line "deine #MON?"
 	done
 
 BreederTheresaBeatenText:
+	; PC-only
 	text "Ah! Du kümmerst"
 	line "dich gut um sie!"
 	done
 
 JugglerIrwin1SeenText:
+	; GSC-DE Dump
 	text "Siehe meine"
 	line "Virtuosität, mit"
 	cont "der ich die BÄLLE"
 	cont "jongliere!"
 	done
 
-
-
-
-
-
-
 JugglerIrwin1BeatenText:
+	; GSC-DE Dump
 	text "Puh, das war ein"
 	line "Ruck!"
 	done
 
-
-
-
-
-
-
 JugglerIrwinAfterBattleText:
+	; GSC-DE Dump
 	text "Ich wollte dich"
 	line "mit meinen"
 
-	para "prämierten #mon"
+	para "prämierten #MON"
 	line "fritzeln."
 
 	para "Aber dein Können"
@@ -441,95 +389,66 @@ JugglerIrwinAfterBattleText:
 	cont "mich!"
 	done
 
-
-
-
-
-
-
 Bug_catcherArnie1SeenText:
-	text "Ich gehe"
-	line "überallhin, wo es"
-	cont "Käfer-#mon"
-	cont "gibt."
+	; GSC-DE Dump
+	text "Ich gehe überall-"
+	line "hin, wo es Käfer-"
+	cont "#MON gibt."
 	done
+
 Bug_catcherArnie1BeatenText:
+	; GSC-DE Dump
 	text "Ich hätte nicht"
 	line "verlieren dürfen…"
 	done
+
 BugCatcherArnieAfterBattleText:
+	; GSC-DE Dump
 	text "Mit meinem BLUZUK"
 	line "habe ich das"
-	para "Käferturnier im"
-	line "NATIONALPARK"
+
+	para "Käferturnier"
+	line "im NATIONALPARK"
 	cont "gewonnen."
 	done
 
-
-
-
-
-
-
 FirebreatherWaltSeenText:
+	; GSC-DE Dump
 	text "Ich übe mich im"
 	line "Feuerspucken."
 	done
 
-
-
-
-
-
-
 FirebreatherWaltBeatenText:
+	; GSC-DE Dump
 	text "Aua! Ich habe mir"
 	line "die Nasenspitze"
 	cont "verbrannt!"
 	done
 
-
-
-
-
-
-
 OfficerDirkSeenText:
+	; GSC-DE Dump
 	text "Bei Nacht lauern"
 	line "Gefahren!"
 	done
 
-
-
-
-
-
-
 OfficerDirkBeatenText:
+	; GSC-DE Dump
 	text "Schwupps!"
 	done
 
-
-
-
-
-
-
 Route35SignText:
+	; GSC-DE Dump
 	text "ROUTE 35"
 	done
 
-
-
-
-
-
-
 Route35AdvancedTipsSignText:
-	text "Prof-Tipps!"
+	; PC-only
+	text "Profi-Tipps!"
+
 	para "Registriere bis zu"
-	line "vier"
-	cont "Schlüssel-Items!"
+	line "vier Schlüssel-"
+	cont "Items!"
+
 	para "Über Select kannst"
 	line "du sie schnell"
 	cont "nutzen!"

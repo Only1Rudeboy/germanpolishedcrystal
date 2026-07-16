@@ -54,18 +54,22 @@ GenericTrainerSwimmerfJill:
 GenericTrainerBird_keeperBryan:
 	generictrainer BIRD_KEEPER, BRYAN, EVENT_BEAT_BIRD_KEEPER_BRYAN, Bird_keeperBryanSeenText, Bird_keeperBryanBeatenText
 
-	text "Manche #mon"
+	; GSC-DE Dump (Route 35 trainer block)
+	text "Manche #MON"
 	line "rennen sofort weg."
+
 	para "Versuche, sie mit"
 	line "KURTs TURBOBALL"
 	cont "einzufangen."
+
 	para "Sobald ich eine"
 	line "APRIKOKO WSS"
 	cont "finde, bringe ich"
 	cont "sie zu KURT."
+
 	para "Er macht dann"
-	line "daraus einen"
-	cont "maßgefertigten"
+	line "daraus einen maß-"
+	cont "gefertigten"
 	cont "#BALL."
 	done
 GenericTrainerSrandjrBeaandmay1:
@@ -101,10 +105,10 @@ GenericTrainerLassRose:
 	generictrainer LASS, ROSE, EVENT_BEAT_LASS_ROSE, LassRoseSeenText, LassRoseBeatenText
 
 	text "Du hast meine"
-	line "armen Welt-#mon"
+	line "armen Welt-#MON"
 	cont "verletzt!"
 	para "Heile sie in einem"
-	line "#mon-Center!"
+	line "#MON-Center!"
 	done
 
 SwimmermWalterSeenText:
@@ -144,22 +148,25 @@ SwimmerfJillBeatenText:
 	done
 
 Bird_keeperBryanSeenText:
+	; GSC-DE Dump
 	text "Welche Art von"
-	line "#BALL benutzt"
-	cont "du?"
+	line "#BALL"
+	cont "benutzt du?"
 	done
+
 Bird_keeperBryanBeatenText:
+	; GSC-DE Dump
 	text "Mist! Nicht"
 	line "schnell genug!"
 	done
 SrandjrBeaandmay1SeenText:
 	text "Bea: Starke"
-	line "#mon mag ich"
+	line "#MON mag ich"
 	cont "lieber als"
-	para "niedliche #mon."
+	para "niedliche #MON."
 	para "Zusammen haben wir"
 	line "aber niedliche und"
-	cont "starke #mon!"
+	cont "starke #MON!"
 	done
 
 SrandjrBeaandmay1BeatenText:
@@ -170,12 +177,12 @@ SrandjrBeaandmay1BeatenText:
 
 SrandjrBeaandmay2SeenText:
 	text "May: Niedliche"
-	line "#mon mag ich"
+	line "#MON mag ich"
 	para "lieber als starke"
-	line "#mon."
+	line "#MON."
 	para "Zusammen haben wir"
 	line "starke und"
-	cont "niedliche #mon!"
+	cont "niedliche #MON!"
 	done
 
 SrandjrBeaandmay2BeatenText:
@@ -185,7 +192,7 @@ SrandjrBeaandmay2BeatenText:
 	done
 
 SailorHarveySeenText:
-	text "Hah! Deine #mon"
+	text "Hah! Deine #MON"
 	line "sehen aus wie"
 	cont "Leichtgewichte!"
 	done
@@ -199,7 +206,7 @@ SailorHarveyBeatenText:
 	done
 
 LassRoseSeenText:
-	text "Diese #mon habe"
+	text "Diese #MON habe"
 	line "ich aus aller Welt"
 	cont "gesammelt!"
 	done

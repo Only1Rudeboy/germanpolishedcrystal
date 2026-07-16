@@ -191,6 +191,7 @@ DayCareMovementData_LyraLeaves:
 	step_end
 
 DayCareLyraHelloText:
+	; PC-only (class C)
 	text "LYRA: Oma!"
 
 	para "Lass mich dir"
@@ -210,6 +211,7 @@ DayCareLyraHelloText:
 	done
 
 DayCareLyraProtestText:
+	; PC-only (class C)
 	text "LYRA: Was? Oma …!"
 
 	para "Wovon redest du?"
@@ -231,12 +233,14 @@ DayCareLyraProtestText:
 	done
 
 DayCareLyraGoodbyeText:
+	; PC-only (class C)
 	text "LYRA: Ich sollte"
 	line "jetzt gehen…"
 	cont "Tschüss!"
 	done
 
 DayCareLyraForgotText:
+	; PC-only (class C)
 	text "LYRA: Ach! Fast"
 	line "vergessen!"
 	para "Hier! Das ist"
@@ -245,11 +249,13 @@ DayCareLyraForgotText:
 	done
 
 GotLyrasNumberText:
+	; PC-only (class C)
 	text "Du speicherst"
 	line "LYRAs Nummer."
 	done
 
 DayCareLyraHasInfoText:
+	; PC-only (class C)
 	text "Ruf mich an, wann"
 	line "du willst!"
 
@@ -264,6 +270,7 @@ DayCareLyraHasInfoText:
 	done
 
 DayCareLyraEmbarassedText:
+	; PC-only (class C)
 	text "LYRA: Oma!"
 
 	para "Hör auf damit!"
@@ -277,6 +284,7 @@ DayCareLyraEmbarassedText:
 	done
 
 Text_GrampsLookingForYou:
+	; GSC-DE Dump
 	text "Opa hat nach dir"
 	line "gesucht."
 	done
@@ -288,21 +296,29 @@ Text_GrampsLookingForYou:
 
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
+	; GSC-DE Dump
 	text "Ich bin der"
 	line "PENSIONSLEITER."
+
 	para "In DUKATIA CITY"
 	line "gibt es etwas"
+
 	para "Neues, das man"
 	line "TAUSCHECKE nennt."
+
 	para "Ich erhielt ein"
 	line "EI-TICKET, dass"
+
 	para "man gegen ein"
-	line "KURIOS-EI"
-	cont "eintauschen kann."
+	line "KURIOS-EI eintau-"
+	cont "schen kann."
+
 	para "Aber da wir eine"
 	line "PENSION leiten,"
+
 	para "brauchen wir es"
 	line "nicht. Du kannst"
+
 	para "es haben."
 	done
 
@@ -312,20 +328,27 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 
 
 DayCareManText_GiveOddEgg:
+	; GSC-DE Dump
 	text "Ich bin der"
 	line "PENSIONSLEITER."
-	para "Kennst du dich mit"
-	line "EIERN aus?"
-	para "Ich habe #mon"
-	line "mit meiner Frau"
-	cont "aufgezogen."
-	para "Wir waren"
-	line "entsetzt, als wir"
-	cont "ein EI fanden!"
+
+	para "Kennst du dich"
+	line "mit EIERN aus?"
+
+	para "Ich habe #MON"
+	line "mit meiner"
+	cont "Frau aufgezogen."
+
+	para "Wir waren ent-"
+	line "setzt, als wir ein"
+	cont "EI fanden!"
+
 	para "Das ist doch"
 	line "unglaublich, oder?"
+
 	para "Nun, möchtest du"
 	line "das EI? Gut, nimm"
+
 	para "es, du darfst es"
 	line "behalten!"
 	done
@@ -337,6 +360,7 @@ DayCareManText_GiveOddEgg:
 
 
 DayCareText_ComeAgain: ; unreferenced
+	; GSC-DE Dump
 	text "Komm wieder."
 	done
 
@@ -346,6 +370,7 @@ DayCareText_ComeAgain: ; unreferenced
 
 
 DayCareText_GotOddEgg:
+	; GSC-DE Dump
 	text "<PLAYER> erhält"
 	line "KURIOS-EI!"
 	done
@@ -356,12 +381,16 @@ DayCareText_GotOddEgg:
 
 
 DayCareText_DescribeOddEgg:
+	; GSC-DE Dump
 	text "Ich fand dies, als"
 	line "ich mich um ein"
-	para "#mon eines"
+
+	para "#MON eines"
 	line "anderen Trainers"
+
 	para "kümmerte. Aber der"
 	line "Trainer wollte das"
+
 	para "EI nicht, also"
 	line "habe ich es"
 	cont "behalten."
@@ -373,6 +402,7 @@ DayCareText_DescribeOddEgg:
 
 
 DayCareLadyText_GiveLyrasEgg:
+	; PC-only (class C)
 	text "Hallo, mein Kind."
 
 	para "LYRA hat mir"
@@ -382,6 +412,7 @@ DayCareLadyText_GiveLyrasEgg:
 	done
 
 DayCareLadyText_DescribeLyrasEgg:
+	; PC-only (class C)
 	text "Das EI stammt von"
 	line "ihrem ersten"
 	cont "#mon."
@@ -391,6 +422,7 @@ DayCareLadyText_DescribeLyrasEgg:
 	done
 
 DayCareText_PartyAndBoxFull:
+	; PC-only (class C; dump: "Du hast dafür keinen Platz.")
 	text "Du hast keinen"
 	line "Platz dafür, nicht"
 	cont "einmal in deiner"

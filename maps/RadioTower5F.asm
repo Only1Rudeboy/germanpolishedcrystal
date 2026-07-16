@@ -38,7 +38,6 @@ FakeDirectorScript:
 	waitbutton
 	end
 
-
 Petrel1Script:
 	checkevent EVENT_BEAT_PETREL_1
 	iftrue_jumptextfaceplayer FakeDirectorTextAfter
@@ -61,6 +60,7 @@ Petrel1Script:
 GenericTrainerAriana1:
 	generictrainer ARIANA, ARIANA1, EVENT_BEAT_ARIANA_1, Ariana1SeenText, Ariana1BeatenText
 
+	; GSC-DE Dump
 	text "<PLAYER>, oder?"
 	para "Ein Balg wie du"
 	line "weiß die Größe"
@@ -70,6 +70,7 @@ GenericTrainerAriana1:
 	line "Ich bewundere"
 	cont "deine Stärke."
 	done
+
 RadioTower5FRocketBossTrigger:
 	applymovement PLAYER, RadioTower5FPlayerTwoStepsLeftMovement
 	playmusic MUSIC_ROCKET_ENCOUNTER
@@ -180,204 +181,224 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
+	; GSC-DE Dump
 	text "D-Du! Bist du"
 	line "gekommen, um mich"
 	cont "zu retten?"
 	done
+
 FakeDirectorTextBefore2:
+	; GSC-DE Dump
 	text "Ist es das, was du"
 	line "erwartet hast?"
 	para "Falsch! Ich bin"
 	line "ein Betrüger!"
 	para "Ich gebe vor, der"
 	line "Echte zu sein, um"
-	cont "unsere Übernahme"
-	cont "vorzubereiten."
-	para "Willst du wissen,"
-	line "wo der echte"
-	cont "INTENDANT ist?"
-	para "Ich verrate es"
-	line "-wenn du mich"
-	cont "besiegst!"
+	para "unsere Übernahme"
+	line "vorzubereiten."
+	para "Möchtest du wis-"
+	line "sen, wo wir den"
+	cont "echten INTENDANTEN"
+	cont "versteckt haben?"
+	para "Ich werde es dir"
+	line "verraten, wenn"
+	cont "du mich besiegst!"
 	done
 
-
-
 FakeDirectorTextBefore3:
-	text "Ich gab vor, der"
+	; GSC-DE Dump (same reveal text; PC uses this path)
+	text "Ist es das, was du"
+	line "erwartet hast?"
+	para "Falsch! Ich bin"
+	line "ein Betrüger!"
+	para "Ich gebe vor, der"
 	line "Echte zu sein, um"
-	cont "unsere Übernahme"
-	cont "vorzubereiten."
-	para "Willst du wissen,"
-	line "wo wir den echten"
-	cont "INTENDANTEN"
+	para "unsere Übernahme"
+	line "vorzubereiten."
+	para "Möchtest du wis-"
+	line "sen, wo wir den"
+	cont "echten INTENDANTEN"
 	cont "versteckt haben?"
-	para "Klar, ich sag's"
-	line "dir - aber nur,"
-	cont "wenn du mich"
-	cont "besiegst!"
+	para "Ich werde es dir"
+	line "verraten, wenn"
+	cont "du mich besiegst!"
 	done
 
 FakeDirectorWinText:
-	text "O.K. Ich sage dir,"
-	line "wo er ist."
+	; GSC-DE Dump
+	text "O.K. Ich sage"
+	line "dir, wo er ist."
 	done
+
 FakeDirectorTextAfter:
+	; GSC-DE Dump
 	text "Wir haben den"
 	line "echten INTENDANTEN"
-	cont "ins UNTERGRUND-"
-	cont "LAGERHAUS"
+	para "in das UNTERGRUND-"
+	line "LAGERHAUS"
 	cont "verschleppt."
-	para "Es liegt am Ende"
-	line "des UNTERGRUNDS."
-	para "Aber ich"
-	line "bezweifle, dass du"
+	para "Es ist am Ende"
+	line "des UNTERGRUNDs."
+	para "Ich bezweifle"
+	line "aber, dass du"
 	cont "so weit kommst."
 	done
 
-
-
 Ariana1SeenText:
+	; GSC-DE Dump
 	text "Kennst du mich"
 	line "noch aus dem"
 	cont "VERSTECK in"
 	cont "MAHAGONIA CITY?"
 	para "Damals habe ich"
-	line "verloren - aber"
-	cont "das wird heute"
-	cont "nicht passieren."
+	line "verloren, aber das"
+	para "wird heute nicht"
+	line "passieren."
 	done
+
 Ariana1BeatenText:
+	; GSC-DE Dump
 	text "Das darf nicht"
 	line "wahr sein!"
 	para "Ich habe mich so"
 	line "angestrengt und"
-	cont "trotzdem verloren…"
+	cont "dennoch verloren…"
 	done
+
 RadioTower5FRocketBossBeforeText:
-	text "Oh? Du bist so"
-	line "weit gekommen?"
-	para "Du musst ein"
-	line "ausgezeichneter"
-	cont "Trainer sein."
-	para "Wir wollen den"
-	line "RADIOTURM"
-	cont "übernehmen und"
-	cont "unsere Rückkehr"
-	cont "verkünden."
-	para "Dann kehrt unser"
+	; GSC-DE Dump
+	text "Oh? Du bist"
+	line "so weit gekommen?"
+	para "Du musst ein aus-"
+	line "gezeichneter Trai-"
+	cont "ner sein."
+	para "Wir planen, die"
+	line "RADIOSTATION zu"
+	para "annektieren und"
+	line "unsere Rückkehr"
+	cont "bekanntzugeben."
+	para "Das sollte unseren"
 	line "Anführer GIOVANNI"
-	cont "aus seinem"
-	cont "Solo-Training"
-	cont "zurück."
-	para "Wir erlangen"
-	line "unseren früheren"
-	cont "Ruhm zurück!"
-	para "Ich lasse nicht"
-	line "zu, dass du unsere"
-	cont "Pläne durchkreuzt."
+	para "überzeugen, sein"
+	line "Solo-Training"
+	cont "abzubrechen und"
+	cont "zurückzukehren."
+	para "Wir werden unseren"
+	line "früheren Ruhm"
+	cont "wiedererlangen."
+	para "Ich werde nicht"
+	line "zulassen, dass du"
+	cont "unsere Pläne"
+	cont "durchkreuzt."
 	done
-
-
 
 RadioTower5FRocketBossWinText:
+	; GSC-DE Dump
 	text "Nein! Vergib mir,"
 	line "GIOVANNI!"
 	done
+
 RadioTower5FRocketBossAfterText:
+	; GSC-DE Dump
 	text "Wie kann das sein?"
-	para "Unsere Träume…"
-	line "wurden"
-	cont "zerschlagen."
+	para "Unsere Träume wur-"
+	line "den zerschlagen."
 	para "Ich konnte meine"
 	line "Aufgabe nicht"
 	cont "erfüllen."
-	para "Wie GIOVANNI löse"
-	line "ich TEAM ROCKET"
-	cont "hier und heute"
-	cont "auf."
+	para "Wie GIOVANNI"
+	line "werde ich TEAM"
+	para "ROCKET hier und"
+	line "heute auflösen."
 	para "Leb wohl."
 	done
 
-
-
 RadioTower5FDirectorThankYouText:
+	; GSC-DE Dump
 	text "INTENDANT:"
-	line "<PLAYER>! Vielen"
-	cont "Dank!"
-	para "Dein Mut hat die"
-	line "#mon im ganzen"
-	cont "Land gerettet."
-	para "Es ist nicht viel,"
-	line "aber bitte nimm"
-	cont "dies."
+	line "<PLAYER>!"
+	cont "Vielen Dank!"
+	para "Dein couragiertes"
+	line "Handeln hat die"
+	para "#MON im ganzen"
+	line "Land gerettet."
+	para "Ich weiß, es ist"
+	line "nicht viel, aber"
+	cont "nimm dies bitte."
 	done
-
-
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "Früher stand in"
-	line "DUKATIA CITY ein"
-	cont "alter Turm."
-	para "Er war baufällig"
-	line "-also bauten wir"
-	cont "diesen RADIOTURM."
-	para "Beim Bau fanden"
-	line "wir diese Glocke."
-	para "Man sagt, früher"
-	line "lebten viele"
-	cont "#mon in DUKATIA"
-	cont "CITY."
-	para "Vielleicht… hat"
-	line "diese Glocke mit"
-	cont "dem ZINNTURM in"
-	cont "TEAK CITY zu tun…"
-	para "Ah! Das erinnert"
-	line "mich…"
-	para "Ich hörte TEAM"
-	line "ROCKET flüstern."
-	para "Sie scheinen am"
-	line "ZINNTURM etwas im"
-	cont "Schilde zu führen."
-	para "Ich weiß nicht,"
-	line "was - vielleicht"
-	cont "solltest du"
-	cont "nachsehen."
-	para "O.K., ich gehe"
-	line "zurück in mein"
-	cont "BÜRO."
+	; GSC-DE Dump
+	text "Früher gab es hier"
+	line "einen Turm in"
+	cont "DUKATIA CITY."
+	para "Aber er war alt"
+	line "und baufällig."
+	para "Also haben wir ihn"
+	line "durch unseren"
+	cont "RADIOTURM ersetzt."
+	para "Beim Bau haben wir"
+	line "diese Glocke"
+	cont "gefunden."
+	para "Ich hörte, dass"
+	line "früher viele ver-"
+	cont "schiedene #MON"
+	para "in DUKATIA CITY"
+	line "lebten."
+	para "Vielleicht…"
+	para "…hat diese Glocke"
+	line "etwas mit dem"
+	para "ZINNTURM in TEAK"
+	line "CITY zu tun…"
+	para "Ah!"
+	para "Das erinnert mich…"
+	para "Ich habe TEAM"
+	line "ROCKET zufällig"
+	cont "flüstern hören."
+	para "Es scheint, als"
+	line "führten sie etwas"
+	cont "am ZINNTURM im"
+	cont "Schilde."
+	para "Ich habe keine"
+	line "Ahnung, was vor"
+	para "sich geht. Viel-"
+	line "leicht solltest du"
+	cont "es überprüfen."
+	para "O.K., ich gehe in"
+	line "mein BÜRO zurück."
 	done
 
-
-
 RadioTower5FDirectorText:
+	; GSC-DE Dump
 	text "INTENDANT: Hallo,"
 	line "<PLAYER>!"
 	para "Du weißt, ich"
-	line "liebe #mon."
+	line "liebe #MON."
 	para "Ich errichtete"
 	line "diesen RADIOTURM,"
-	cont "um meiner Liebe"
-	cont "Ausdruck zu geben."
+	para "um meiner Liebe zu"
+	line "#MON Ausdruck"
+	cont "zu verleihen."
 	para "Es wäre wunderbar,"
 	line "wenn die Menschen"
 	cont "unsere Sendungen"
 	cont "liebten."
 	done
 
-
-
 BenText:
+	; GSC-DE Dump
 	text "BEN: Hörst du dir"
 	line "unsere Musik an?"
 	done
 
-
-
 SignpostRadioTower5FOffice:
+	; GSC-DE Dump
 	text "4S BÜRO DES"
-	line "INTENDANTEN"
+	line "   INTENDANTEN"
 	done
+
 SignpostRadioTower5FStudio:
+	; GSC-DE Dump
 	text "4S STUDIO 1"
 	done

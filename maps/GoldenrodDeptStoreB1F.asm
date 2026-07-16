@@ -53,40 +53,35 @@ GoldenRodDeptStoreUnblockCallback:
 	endcallback
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hey! Du hältst uns"
-	line "auf!"
+	; GSC-DE Dump
+	text "Hey! Du"
+	line "hältst uns auf!"
 	para "Wir arbeiten stets"
 	line "im Hintergrund,"
 	para "damit uns niemand"
 	line "sieht!"
 	done
 
-
-
 GoldenrodDeptStoreB1FBlackBelt2Text:
+	; GSC-DE Dump
 	text "Ich verliere die"
 	line "Lust am Arbeiten,"
 	cont "wenn mir jemand"
 	cont "zusieht."
-	para "Hey, Gnom, zisch"
-	line "ab!"
+	para "Hey, Gnom,"
+	line "zisch ab!"
 	done
 
-
-
 GoldenrodDeptStoreB1FBlackBelt3Text:
+	; GSC-DE Dump
 	text "Oohah! Oohah!"
-	para "Das Zeug am Boden"
-	line "ist Plunder."
+	para "Das Zeug am"
+	line "Boden ist Plunder."
 	para "Nimm es dir, wenn"
 	line "du möchtest!"
 	done
 
-
-
 GoldenrodDeptStoreB1FMachokeText:
+	; GSC-DE Dump
 	text "MASCHOCK: Mascho!"
 	done
-
-
-

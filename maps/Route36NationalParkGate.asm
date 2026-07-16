@@ -251,9 +251,10 @@ BugCatchingContestant1BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant1BStillCompetingText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "ULI: Wow, du hast"
-	line "mich besiegt. Du"
-	cont "bist ziemlich gut."
+	line "mich besiegt! Du"
+	cont "bist sehr gut!"
 	done
 
 
@@ -282,6 +283,7 @@ BugCatchingContestant3BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant3BStillCompetingText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump-Wording
 	text "LARS: Gut gemacht!"
 	line "Ich werde meine"
 	cont "#MON besser"
@@ -325,10 +327,11 @@ BugCatchingContestant6BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant6BStillCompetingText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "TILL: Das #MON,"
 	line "das du gefangen"
-	cont "hast… ist der"
-	cont "Hammer!"
+	cont "hast… Das ist"
+	cont "cool!"
 	done
 
 
@@ -340,12 +343,13 @@ BugCatchingContestant7BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant7BStillCompetingText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump-Wording
 	text "CINDY: Du hast"
 	line "gewonnen? Das ist"
 	cont "toll!"
 	para "Hast du Lust, mit"
 	line "mir nach"
-	cont "Käfer-#mon zu"
+	cont "Käfer-#MON zu"
 	cont "suchen?"
 	done
 
@@ -408,10 +412,11 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
+	; GSC-DE Dump
 	text "Gut. Warte bitte"
 	line "hier auf die"
-	para "Bekanntgabe der"
-	line "Sieger."
+	para "Bekanntgabe"
+	line "der Sieger."
 	done
 
 
@@ -420,7 +425,8 @@ Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
 
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Manche #mon"
+	; GSC-DE Dump
+	text "Manche #MON"
 	line "kann man nur im"
 	cont "PARK antreffen."
 	done
@@ -431,11 +437,12 @@ Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
 
 
 BugCatchingContestant1BStillCompetingText:
+	; GSC-DE Dump
 	text "ULI: Glück spielt"
 	line "natürlich eine"
 	cont "große Rolle dabei."
 	para "Man weiß nie,"
-	line "welches #mon"
+	line "welches #MON"
 	cont "auftauchen wird."
 	done
 
@@ -445,9 +452,10 @@ BugCatchingContestant1BStillCompetingText:
 
 
 BugCatchingContestant2BStillCompetingText:
+	; GSC-DE Dump-Wording
 	text "ALAN: Du gewinnst"
 	line "vielleicht mit"
-	cont "großen #mon?"
+	cont "großen #MON?"
 	done
 
 
@@ -456,10 +464,11 @@ BugCatchingContestant2BStillCompetingText:
 
 
 BugCatchingContestant3BStillCompetingText:
+	; GSC-DE Dump-Wording
 	text "LARS: Vielleicht"
 	line "erhältst du eine"
 	para "höhere Wertung für"
-	line "ein #mon mit"
+	line "ein #MON mit"
 	cont "ungewöhnlicher"
 	cont "Farbe."
 	done
@@ -470,10 +479,11 @@ BugCatchingContestant3BStillCompetingText:
 
 
 BugCatchingContestant4BStillCompetingText:
+	; GSC-DE Dump-Wording
 	text "WILHELM: Also, ich"
 	line "bin zufrieden,"
 	para "denn ich habe ein"
-	line "#mon gefangen,"
+	line "#MON gefangen,"
 	cont "das ich haben"
 	cont "wollte."
 	done
@@ -497,8 +507,9 @@ BugCatchingContestant5BStillCompetingText:
 
 
 BugCatchingContestant6BStillCompetingText:
+	; GSC-DE Dump
 	text "TILL: Mit einem"
-	line "Käfer-#mon, das"
+	line "Käfer-#MON, das"
 	para "einen hohen Level"
 	line "hat, steigen deine"
 	cont "Gewinnchancen."
@@ -515,8 +526,9 @@ BugCatchingContestant6BStillCompetingText:
 
 
 BugCatchingContestant7BStillCompetingText:
+	; GSC-DE Dump
 	text "CINDY: Ich liebe"
-	line "Käfer-#mon!"
+	line "Käfer-#MON!"
 	done
 
 
@@ -525,6 +537,7 @@ BugCatchingContestant7BStillCompetingText:
 
 
 BugCatchingContestant8BStillCompetingText:
+	; GSC-DE Dump
 	text "ENNO: Ich hörte,"
 	line "dass jemand mit"
 	cont "einem RAUPY"
@@ -565,7 +578,7 @@ BugCatchingContestant10BStillCompetingText:
 UnusedSilphScope2Text: ; unreferenced
 	text "Ich habe gehört,"
 	line "dass es ein"
-	cont "#mon gibt, das"
+	cont "#MON gibt, das"
 	cont "aussieht wie ein"
 
 	para "Baum. Du kannst"
@@ -583,7 +596,7 @@ UnusedSilphScope2Text: ; unreferenced
 ; The SILPHSCOPE2 was later reworked into the SQUIRTBOTTLE.
 	text "Ich habe gehört,"
 	line "dass es ein"
-	cont "#mon gibt, das"
+	cont "#MON gibt, das"
 	cont "aussieht wie ein"
 
 	para "Baum. Du kannst"

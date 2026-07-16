@@ -18,30 +18,23 @@ Route36RuinsOfAlphGate_MapScriptHeader:
 	object_event  7,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 2, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route36RuinsOfAlphGateGrampsText, -1
 
 Route36RuinsOfAlphGateOfficerText:
+	; GSC-DE Dump
 	text "Fragst du dich"
 	line "nicht, wer so"
 	cont "etwas tun sollte"
 	cont "und warum?"
 	done
 
-
-
 Route36RuinsOfAlphGateGrampsText:
+	; GSC-DE Dump
 	text "Hast du diesen"
 	line "merkwürdigen Baum"
-
 	para "auf der Straße"
 	line "gesehen?"
-
 	para "Das könnte"
 	line "erklären, weshalb"
-
 	para "immer weniger"
 	line "Menschen die"
-
 	para "ALPH-RUINEN"
 	line "besuchen."
 	done
-
-
-

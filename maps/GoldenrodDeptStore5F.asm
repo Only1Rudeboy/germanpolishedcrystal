@@ -50,13 +50,12 @@ GoldenrodDeptStore5FReceptionistScript:
 	ifgreater FRIEND_BALL_HAPPINESS - 1, .VeryHappy
 	jumpthisopenedtext
 
-	text "Es ist entzückend!"
+	; GSC-DE Dump
+	text "Oh, wie süß!"
 	para "Du solltest ihm"
-	line "gute VM-Attacken"
+	line "gute TM-Attacken"
 	cont "beibringen."
 	done
-
-
 
 .VeryHappy:
 	writetext GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText
@@ -68,10 +67,12 @@ GoldenrodDeptStore5FReceptionistScript:
 .EventIsOver:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Es gibt für jedes"
-	line "#mon passende"
-	cont "TMs."
+	line "#MON passen-"
+	cont "de TMs."
 	done
+
 GoldenrodDeptStore5FTwinScript:
 	checkflag ENGINE_DAILY_MYSTERY_GIFT
 	iftrue_jumptextfaceplayer .ComeBackText
@@ -93,33 +94,26 @@ GoldenrodDeptStore5FTwinScript:
 	done
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
+	; GSC-DE Dump
 	text "Hallo! Oh, dein"
-	line "#mon…"
+	line "#MON…"
 	done
 
-
-
-
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
+	; GSC-DE Dump
 	text "Es hängt sehr an"
 	line "dir."
-
 	para "Diese Attacke"
 	line "passt genau zu"
 	cont "euch beiden."
 	done
 
-
-
-
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
+	; GSC-DE Dump
 	text "Die GEHEIMGABE"
 	line "erfordert einen"
 	cont "Game Boy Color."
 	done
-
-
-
 
 MysteryGiftGirl_NoRoomText:
 	text "Aber du kannst es"
@@ -127,40 +121,31 @@ MysteryGiftGirl_NoRoomText:
 	done
 
 GoldenrodDeptStore5FLassText:
+	; GSC-DE Dump
 	text "Sonntags kommt"
 	line "eine Dame, um nach"
-	cont "den #mon zu"
+	cont "den #MON zu"
 	cont "sehen."
 	para "Sie verteilt sogar"
 	line "TMs!"
 	done
 
-
-
-
 GoldenrodDeptStore5FPokefanMText:
-	text "Ein #mon, das"
+	; GSC-DE Dump
+	text "Ein #MON, das"
 	line "du durch Tausch"
 	cont "erhalten hast,"
 	cont "kannst du nicht"
 	cont "umbenennen."
-
 	para "Der Name spiegelt"
 	line "die Gefühle des"
-
 	para "Original-Trainers"
 	line "wieder."
 	done
 
-
-
-
 GoldenrodDeptStore5FDirectoryText:
-	text "Rüste deine"
-	line "#mon auf."
+	; GSC-DE Dump
+	text "Rüste deine #-"
+	line "MON auf."
 	para "4S TM-ECKE"
 	done
-
-
-
-

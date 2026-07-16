@@ -21,14 +21,14 @@ GoldenrodDeptStore1F_MapScriptHeader:
 	object_event 11,  5, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore1FGentlemanText, -1
 
 GoldenrodDeptStore1FReceptionistText:
+	; GSC-DE Dump
 	text "Willkommen im"
 	line "KAUFHAUS von"
 	cont "DUKATIA CITY."
 	done
 
-
-
 GoldenrodDeptStore1FGentlemanText:
+	; GSC-DE Dump
 	text "Das KAUFHAUS"
 	line "bietet eine große"
 	cont "Auswahl."
@@ -38,40 +38,34 @@ GoldenrodDeptStore1FGentlemanText:
 	line "SPIELHALLE."
 	done
 
-
-
 GoldenrodDeptStore1FPokefanFText:
+	; GSC-DE Dump
 	text "Ich freue mich"
 	line "heute schon wieder"
 	cont "aufs Einkaufen!"
 	done
 
-
-
 GoldenrodDeptStore1FBugCatcherText:
+	; GSC-DE Dump
 	text "Mama ist sehr gut"
-	line "im"
-	cont "Schnäppchenfinden."
+	line "im Schnäppchen-"
+	cont "finden."
 	para "Sie kauft ständig"
 	line "Waren unter dem"
 	cont "Normalpreis."
 	done
 
-
-
 GoldenrodDeptStore1FDirectoryText:
+	; GSC-DE Dump
 	text "EG INFO-SCHALTER"
-	para "1S TRAINER-MARKT"
-	para "2S"
-	line "KAMPF-KOLLEKTION"
+	para "1S TRAINER-"
+	line "   MARKT"
+	para "2S KAMPF-"
+	line "   KOLLEKTION"
 	para "3S ARZNEI"
 	para "4S TM-ECKE"
 	para "5S PLATZ DER"
-	line "EWIGEN STILLE"
+	line "   EWIGEN STILLE"
 	para "DACHTERRASSEN"
-	line "AUSSICHTSPLATTFO-"
-	cont "RM"
+	line "AUSSICHTSPLATTFORM"
 	done
-
-
-

@@ -17,32 +17,31 @@ GoldenrodPPSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPPSpeechHouseLassText, -1
 
 GoldenrodPPSpeechHouseFisherText:
+	; GSC-DE Dump
 	text "Als ich einmal"
 	line "kämpfte, konnte"
-	para "mein #mon"
-	line "keine Attacken"
-	cont "mehr ausführen."
-	para "Die"
-	line "ANGRIFFSPUNKTE,"
-	cont "oder AP, seiner"
-	cont "Attacken waren"
+
+	para "mein #MON kei-"
+	line "ne Attacken mehr"
+	cont "ausführen."
+
+	para "Die ANGRIFFSPUNK-"
+	line "TE, oder AP, sei-"
+	cont "ner Attacken waren"
 	cont "verbraucht."
 	done
 
-
-
 GoldenrodPPSpeechHouseLassText:
+	; GSC-DE Dump
 	text "Manchmal kann auch"
 	line "ein gesundes"
-	para "#mon nicht mehr"
+
+	para "#MON nicht mehr"
 	line "angreifen."
+
 	para "In diesem Fall"
-	line "musst du es in"
-	cont "einem"
-	cont "#mon-CENTER"
+	line "musst du es in ei-"
+	cont "nem #MON-CENTER"
 	cont "oder mit einem"
 	cont "Item heilen."
 	done
-
-
-

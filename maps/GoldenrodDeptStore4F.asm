@@ -25,26 +25,25 @@ GoldenrodDeptStore4FGameboyKidScript:
 	end
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey! Ich mag"
-	line "starke #mon."
+	; GSC-DE Dump
+	text "Hey! Ich mag star-"
+	line "ke #MON."
 	para "Ich füttere sie"
 	line "mit PROTEIN, um"
-	cont "ihren ANGR zu"
-	cont "verstärken."
+	cont "ihren ANGR zu ver-"
+	cont "stärken."
 	done
-
-
 
 GoldenrodDeptStore4FBugCatcherText:
+	; GSC-DE Dump
 	text "EISEN verstärkt"
 	line "die VERT deiner"
-	cont "#mon."
+	cont "#MON."
 	done
 
-
-
 GoldenrodDeptStore4FGameboyKidText:
-	text "Manche #mon"
+	; GSC-DE Dump
+	text "Manche #MON"
 	line "entwickeln sich"
 	cont "nur durch Tausch."
 	para "Ich kenne vier:"
@@ -55,13 +54,9 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "noch weitere."
 	done
 
-
-
 GoldenrodDeptStore4FDirectoryText:
+	; GSC-DE Dump
 	text "Wir kümmern uns um"
-	line "Ihre #mon!"
+	line "Ihre #MON!"
 	para "3S ARZNEI"
 	done
-
-
-

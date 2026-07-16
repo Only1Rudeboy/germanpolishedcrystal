@@ -41,59 +41,58 @@ GoldenrodBikeShopClerkScript:
 	jumpthisopenedtext
 
 GoldenrodBikeShopClerkFirstRateBikesText:
+	; GSC-DE Dump
 	text "Meine FAHRRÄDER"
 	line "sind erste Klasse!"
+
 	para "Du kannst sie"
 	line "überall fahren."
 	done
 
-
-
 GoldenrodBikeShopClerkIntroText:
-	text "… Seufz … Ich bin"
+	; GSC-DE Dump
+	text "…Seufz… Ich bin"
 	line "hierher gezogen,"
-	para "aber ich kann"
-	line "meine FAHRRÄDER"
-	cont "nicht"
+
+	para "aber ich kann mei-"
+	line "ne FAHRRÄDER nicht"
+
 	para "verkaufen. Warum"
 	line "nur?"
+
 	para "Würdest du ein"
 	line "FAHRRAD fahren und"
 	cont "so Werbung machen?"
 	done
 
-
-
 GoldenrodBikeShopClerkAgreedText:
+	; GSC-DE Dump
 	text "Ja? Großartig!"
+
 	para "Gib mir bitte"
 	line "Namen und Nummer."
+
 	para "Dann leihe ich dir"
 	line "ein FAHRRAD."
 	done
 
-
-
 GoldenrodBikeShopClerkRefusedText:
+	; GSC-DE Dump
 	text "…Seufz… Oh, für"
 	line "die Güte der"
 	cont "Menschen…"
 	done
 
-
-
 GoldenrodBikeShopBicycleText:
+	; GSC-DE Dump
 	text "Ein nagelneues"
 	line "FAHRRAD!"
 	done
 
-
-
 GoldenrodBikeShopJustReleasedCompactBikeText:
+	; GSC-DE Dump
 	text "Brandneu!"
-	para "Erste Klasse"
-	line "Kompakt-FAHRRÄDER!"
+
+	para "Erste Klasse Kom-"
+	line "pakt-FAHRRÄDER!"
 	done
-
-
-

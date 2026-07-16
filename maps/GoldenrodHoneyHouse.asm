@@ -15,6 +15,8 @@ GoldenrodHoneyHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodHoneyHousePokefanFScript, -1
 	pokemon_event  6,  3, BUTTERFREE, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, GoldenrodHoneyHouseButterfreeText, -1
 
+; PC-erweitert (Verkauf); Dump-Wurzeln wo passend
+
 GoldenrodHoneyHousePokefanFScript:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iftrue_jumptextfaceplayer .AfterText
@@ -31,41 +33,28 @@ GoldenrodHoneyHousePokefanFScript:
 	jumpthisopenedtext
 
 .AfterText:
-	text "Mein kleiner"
-	line "Bruder"
-	done
-if DEF(FAITHFUL)
-	line "nimmt Honig und"
+	; GSC-DE Dump
+	text "Mein kleiner Bru-"
+	line "der nimmt den HO-"
+	cont "NIG und bringt ihn"
+	cont "irgendwo hin."
 
-	para "streut ihn in"
-else
-	line "nimmt Süßen Honig"
-
-	para "und streut ihn in"
-endc
-	line "hohes Gras."
-
-	para "#mon werden"
-	line "dadurch"
-
-	para "Meist kommen"
-	line "#mon auf deinem"
-	cont "Level!"
+	para "Ich frage mich,"
+	line "was er vorhat?"
 	done
 
 .IntroText:
-	text "Mein #mon ist"
-	line "ein Experte beim"
-	para "Sammeln von"
-	done
+	; GSC-DE Dump (PC: ggf. Süßer Honig)
+	text "Mein #MON ist"
+	line "Meister im Sammeln"
 if DEF(FAITHFUL)
-	line "Honig."
+	cont "von HONIG."
 else
-	line "Süßem Honig."
+	cont "von Süßem Honig."
 endc
 
-	para "Ich teile etwas"
-	line "mit dir."
+	para "Ich gebe dir gerne"
+	line "etwas ab."
 	done
 
 .SellHoney:
@@ -116,17 +105,17 @@ endc
 	done
 
 .SellText:
+	; PC-only Verkauf
 	text "Möchtest du"
-	done
 if DEF(FAITHFUL)
-	line "Honig kaufen,"
+	line "HONIG kaufen,"
 
-	para "um #mon"
+	para "um #MON"
 	line "anzulocken?"
 else
 	line "Süßen Honig"
 
-	para "kaufen, um #mon"
+	para "kaufen, um #MON"
 	line "anzulocken?"
 endc
 	cont "Nur ¥1000 pro"
@@ -134,13 +123,17 @@ endc
 	done
 
 .GoodbyeText:
-	text "Bitte sehr!"
+	; GSC-DE Dump-Ton
+	text "Bitte schön! Nimm"
+	line "etwas HONIG!"
 	done
 
 .BagFullText:
-	text "Hoppla! Du hast"
-	line "keinen Platz"
-	cont "dafür."
+	; GSC-DE Dump-Ton
+	text "Ich würde dir ger-"
+	line "ne etwas HONIG ge-"
+	cont "ben, aber du hast"
+	cont "nicht genug Platz."
 	done
 
 .MenuDataHeader:
@@ -158,5 +151,6 @@ endc
 	db "Cancel@"
 
 GoldenrodHoneyHouseButterfreeText:
-	text "SMETTBO: Boh!"
+	; GSC-DE Dump
+	text "SMETTBO: Booh!"
 	done

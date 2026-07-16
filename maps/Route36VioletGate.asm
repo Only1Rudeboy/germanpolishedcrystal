@@ -24,28 +24,31 @@ Route36VioletGateOfficerScript:
 	iftruefwd .ClearedSudowoodo
 	jumpthisopenedtext
 
+	; kein Dump-Anker; CAPS-Orte
 	text "In letzter Zeit"
 	line "sehe ich kaum"
-
-	para "Leute aus Dukatia"
-	line "City."
+	para "Leute aus DUKATIA"
+	line "CITY."
 	done
 
 .ClearedSudowoodo
 	jumpthisopenedtext
 
+	; kein Dump-Anker; CAPS-Orte
 	text "In letzter Zeit"
 	line "ist viel los, weil"
 	para "viele Leute aus"
-	line "Dukatia und"
-	para "Viola City kommen!"
+	line "DUKATIA und"
+	para "VIOLA CITY kommen!"
 	done
 
-
-
 Route36VioletGateYoungsterText:
-	text "Pflanzen sind auch"
-	line "Lebewesen!"
-	para "Sie wollen sich"
-	line "auch mal bewegen!"
+	; GSC-DE Dump
+	text "Ich habe einen"
+	line "wackeligen Baum"
+	cont "gesehen!"
+	para "Wenn du ihn be-"
+	line "rührst, windet er"
+	cont "sich und tanzt!"
+	cont "Cool!"
 	done

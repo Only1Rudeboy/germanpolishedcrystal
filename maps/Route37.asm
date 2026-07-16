@@ -39,30 +39,32 @@ SunnyCallback:
 GenericTrainerTwinsToriandtil1:
 	generictrainer TWINS, ANNANDANNE1, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil1SeenText, TwinsToriandtil1BeatenText
 
-	text "Til: Ich kann"
-	line "lesen, was meine"
-	cont "Schwester und"
-
-	para "meine #mon"
-	line "denken."
+	; GSC-DE Dump (Namen: Til/Tori PC)
+	text "Til: Ich kenne"
+	line "die Gedanken"
+	para "meiner Schwester"
+	line "und die meiner"
+	cont "#MON."
 	done
 
 GenericTrainerTwinsToriandtil2:
 	generictrainer TWINS, ANNANDANNE2, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil2SeenText, TwinsToriandtil2BeatenText
 
+	; GSC-DE Dump (Namen: Til/Tori PC)
 	text "Tori: Wir fühlen"
-	line "das Gleiche wie"
-	cont "unsere #mon."
+	line "dasselbe wie"
+	cont "unsere #MON."
 	done
 
 GenericTrainerPsychicGreg:
 	generictrainer PSYCHIC_T, GREG, EVENT_BEAT_PSYCHIC_GREG, PsychicGregSeenText, PsychicGregBeatenText
 
-	text "Im Kampf stellt es"
-	line "eine gute Taktik"
-	cont "dar, die"
+	; GSC-DE Dump
+	text "Im Kampf stellt"
+	line "es eine gute"
+	cont "Taktik dar, die"
 	cont "gegnerischen"
-	cont "#mon in Schlaf"
+	cont "#MON in Schlaf"
 	cont "zu versetzen oder"
 	cont "sie zu"
 	cont "paralysieren."
@@ -88,50 +90,45 @@ SunnyScript:
 	setevent EVENT_GOT_MAGNET_FROM_SUNNY
 	jumpthisopenedtext
 
-	text "SONNFRIED: Das"
-	line "Ding …"
-	para "Ähm …"
-	para "… Was war das noch"
-	line "mal …"
+	; GSC-DE Dump
+	text "SONNFRIED: Dieses"
+	line "Ding…"
+	para "Äh…"
+	para "…Was war das"
+	line "nochmal…"
 	para "…"
-	para "Ach! Jetzt weiß"
-	line "ich wieder!"
-	para "Ein #mon, das"
+	para "Ah! Jetzt erinnere"
+	line "ich mich!"
+	para "Ein #MON, das"
 	line "Elektro-Attacken"
-	cont "kann,"
-	para "soll es tragen."
+	para "verwendet, sollte"
+	line "dies erhalten."
 	para "Meine Schwester"
-	line "MONJA sagte, es"
-	cont "verstärkt"
+	line "MONJA behauptet,"
+	cont "es verstärkt"
 	cont "Elektro-Attacken!"
 	done
 
 SunnySundayScript:
+	writetext SunnySundayText
 	waitbutton
 SunnyDoneScript:
-	end
-
-
-
-
-
-
+	endtext
 
 SunnyNotSundayScript:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "SONNFRIED: Ist"
-	line "heute nicht"
-	cont "Sonntag?"
-
-	para "Ähm… Ich hab's"
-	line "vergessen!"
+	line "heute nicht Sonn-"
+	cont "tag? Äh… Das habe"
+	cont "ich vergessen!"
 	done
-
 
 GenericTrainerBeautyCallie:
 	generictrainer BEAUTY, CALLIE, EVENT_BEAT_BEAUTY_CALLIE, BeautyCallieSeenText, BeautyCallieBeatenText
 
+	; PC-only
 	text "Wow, du bist süß"
 	line "und auch noch gut!"
 	done
@@ -143,80 +140,72 @@ TrainerBeautyCassandra:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; PC-only
 	text "Leute wie du sind"
 	line "gut, obwohl sie"
-
 	para "jung sind…"
 	done
 
 TwinsToriandtil1SeenText:
+	; GSC-DE Dump (Namen: Til/Tori PC)
 	text "Til: Tori und ich"
-	line "kämpfen zusammen!"
+	line "arbeiten immer"
+	cont "zusammen!"
 	done
 
 TwinsToriandtil1BeatenText:
 TwinsToriandtil2BeatenText:
-	text "Til & Tori: Nnn…"
-	line "Ein bisschen zu"
+	; GSC-DE Dump (Namen: Til/Tori PC)
+	text "Til & Tori: Nn…"
+	line "ein wenig zu"
 	cont "stark."
 	done
 
 TwinsToriandtil2SeenText:
+	; GSC-DE Dump (Namen: Til/Tori PC)
 	text "Tori: Til und ich"
-	line "kämpfen zusammen!"
+	line "arbeiten immer"
+	cont "zusammen!"
 	done
 
 PsychicGregSeenText:
-	text "#mon können"
+	; GSC-DE Dump
+	text "#MON können"
 	line "nicht agieren,"
-	cont "wenn sie schlafen."
-	para "Ich werde dir"
-	line "zeigen, wie"
-	cont "furcht-erregend"
-	cont "das ist!"
+	cont "wenn sie"
+	cont "schlafen."
+	para "Ich werde dir zei-"
+	line "gen, wie furcht-"
+	cont "erregend das ist!"
 	done
-
-
-
-
-
-
 
 PsychicGregBeatenText:
-	text "Ich habe verloren."
-	line "Wie betrüblich…"
+	; GSC-DE Dump
+	text "Ich habe"
+	line "verloren. Wie"
+	cont "betrüblich…"
 	done
 
-
-
-
-
-
-
 MeetSunnyText:
-	text "SONNFRIED: Hallo!"
-
+	; GSC-DE Dump
+	text "SONNFRIED: Hi!"
 	para "Ich bin SONNFRIED"
 	line "von Sonntag. Soll"
 	cont "heißen, heute ist"
 	cont "Sonntag!"
 	done
 
-
-
-
-
-
-
 SunnyGivesGiftText:
-	text "Mir wurde"
-	line "aufgetragen, dir"
-	cont "das"
+	; GSC-DE Dump
+	text "Mir wurde aufge-"
+	line "tragen, dir das"
 	para "zu überreichen,"
 	line "wenn ich dich"
 	cont "treffe!"
 	done
+
 SunnySundayText:
+	; GSC-DE Dump
 	text "SONNFRIED: Meine"
 	line "Geschwister heißen"
 	cont "MONJA, DIETLINDE,"
@@ -226,47 +215,37 @@ SunnySundayText:
 	line "älter als ich!"
 	done
 
-
-
-
-
-
-
 BeautyCallieSeenText:
+	; PC-only
 	text "Ach, du bist ein"
 	line "süßer kleiner"
 	cont "Trainer!"
-
 	para "Willst du nicht"
 	line "gegen mich"
 	cont "kämpfen?"
 	done
 
 BeautyCallieBeatenText:
+	; PC-only
 	text "Du bist gut…"
 	done
 
 BeautyCassandraSeenText:
+	; PC-only
 	text "Hey, hey, du"
 	line "junger Trainer!"
-
 	para "Willst du nicht"
 	line "gegen mich"
 	cont "kämpfen?"
 	done
 
 BeautyCassandraBeatenText:
+	; PC-only
 	text "Wow, du bist"
 	line "stark…"
 	done
 
 Route37SignText:
+	; GSC-DE Dump
 	text "ROUTE 37"
 	done
-
-
-
-
-
-
-

@@ -1,0 +1,300 @@
+===== route34_signs 2965-2975 =====
+2965: {text_start}Zum<CONT>STEINEICHENWALD<LINE>Durchschreite<CONT>das Tor<DONE>
+2966: {text_start}ROUTE 34<PARA>DUKATIA CITY -<LINE>AZALEA CITY<PARA>STEINEICHENWALD<LINE>Irgendwo<CONT>dazwischen<DONE>
+2967: {text_start}TIPPS für TRAINER<LINE>Bäume mit BEEREN<PARA>tragen jeden Tag<LINE>neue BEEREN.<PARA>Merke dir, welche<LINE>BEEREN an den<CONT>Bäumen wachsen.<DONE>
+2968: {text_start}PENSION<PARA>Wir Ziehen Dein<LINE>#MON Für<CONT>Dich Auf!<DONE>
+2969: {text_start}LIND: <PLAY_G>!<LINE>Da bist du ja!<PARA>Ich muss dich um<LINE>etwas bitten.<PARA>Ich führe gerade<LINE>neue #MON-<CONT>Forschungen durch.<PARA>Ich habe mich ge-<LINE>fragt, ob du mir<PARA>dabei hilfst,<LINE><PLAY_G>.<PARA>Verstehst du…<PARA>Ich schreibe an<LINE>etwas, das ich bei<PARA>einer Konferenz<LINE>vorlegen möchte.<PARA>Aber da sind noch<LINE>einige Dinge, die<PARA>ich nicht ganz<LINE>verstehe.<PARA>Darum!<PARA>Ich möchte, dass<LINE>du ein #MON<PARA>trainierst, dass<LINE>ich vor kurzem<CONT>gefangen habe.<DONE>
+2970: {text_start}Danke, <PLAY_G>!<PARA>Du bist mir eine<LINE>große Hilfe!<DONE>
+2971: {text_start}Aber… ich brauche<LINE>deine Hilfe!<DONE>
+2972: {text_start}Wenn ich meine Er-<LINE>gebnisse vorlege,<PARA>werden wir sicher<LINE>noch weiter in die<PARA>Geheimnisse der<LINE>#MON vorstoßen.<PARA>Darauf kannst du<LINE>dich verlassen!<DONE>
+2973: {text_start}Oh, heh! Ich habe<LINE>eine E-Mail!<PARA><……><……><……><LINE>Hm… Uh-huh…<PARA>Okay…<DONE>
+2974: {text_start}Hör gut zu!<PARA>Ich habe einen Be-<LINE>kannten namens MR.<CONT>#MON.<PARA>Ständig findet er<LINE>eigenartiges Zeugs<PARA>und fängt an, da-<LINE>rüber zu fanta-<CONT>sieren.<PARA>Aber jetzt hat er<LINE>mir eine E-Mail<PARA>geschickt, in der<LINE>steht, dass es<PARA>sich diesmal um<LINE>etwas Großes<CONT>handeln muss.<PARA>Das klingt zwar<LINE>faszinierend, aber<PARA>wir sind derzeit<LINE>mitten in unseren<PARA>eigenen #MON-<LINE>Forschungen.<PARA>Moment!<PARA>Ich hab's!<PARA><PLAY_G>, könntest<LINE>du der Sache<CONT>nachgehen?<DONE>
+2975: {text_start}Ich möchte, dass<LINE>du eines der<PARA>#MON aus<LINE>einem dieser BÄLLE<CONT>trainierst.<PARA>Du wirst der erste<LINE>Kamerad dieses<CONT>#MON sein,<CONT><PLAY_G>!<PARA>Such dir eins aus!<DONE>
+===== day_care 7988-8010 =====
+7988: {text_start}Gib immer dein<LINE>Bestes.<DONE>
+7989: {text_start}<DONE>
+7990: {text_start}Ich bin der<LINE>PENSIONSLEITER.<CONT>Soll ich eines<CONT>deiner #MON<CONT>aufziehen?<DONE>
+7991: {text_start}Ich bin der<LINE>PENSIONSLEITER.<CONT>Kennst du dich<CONT>mit EIERN aus?<PARA>Ich habe #MON<LINE>mit meiner<CONT>Frau aufgezogen.<PARA>Wir waren ent-<LINE>setzt, als wir ein<CONT>EI fanden!<PARA>Das ist doch<LINE>unglaublich, oder?<PARA>Soll ich ein<LINE>#MON aufziehen?<DONE>
+7992: {text_start}Ich bin die<LINE>PENSIONSLEITERIN.<PARA>Soll ich eines<LINE>deiner #MON<CONT>aufziehen?<DONE>
+7993: {text_start}Ich bin die<LINE>PENSIONSLEITERIN.<CONT>Kennst du dich<CONT>mit EIERN aus?<PARA>Mein Mann und ich<LINE>haben #MON<CONT>aufgezogen.<PARA>Wir waren er-<LINE>staunt, als wir<CONT>ein EI fanden!<PARA>Das ist doch<LINE>unglaublich, oder?<PARA>Soll ich eines<LINE>deiner #MON<CONT>aufziehen?<DONE>
+7994: {text_start}Welches soll<LINE>ich aufziehen?<PROMPT>
+7995: {text_start}Oh? Aber du hast<LINE>nur ein #MON.<PROMPT>
+7996: {text_start}Tut mir Leid, aber<LINE>ich kann kein EI<CONT>annehmen.<PROMPT>
+7997: {text_start}Entferne den<LINE>BRIEF, ehe du mich<CONT>aufsuchst.<PROMPT>
+7998: {text_start}Wenn du mir das<LINE>gibst, wer soll<CONT>dann kämpfen?<PROMPT>
+7999: {text_start}O.K. Ich kümmere<LINE>mich um dein<CONT>@{text_ram wStringBuffer1}{text_start}.<PROMPT>
+8000: {text_start}Hole es später<LINE>wieder ab.<DONE>
+8001: {text_start}Wir sind genial,<LINE>oder? Möchtest du<CONT>dein @{text_ram wStringBuffer1}{text_start}<CONT>sehen?<DONE>
+8002: {text_start}Dein @{text_ram wStringBuffer1}{text_start}<LINE>ist groß geworden.<PARA>Es ist um @{text_decimal wStringBuffer2 + 1, 1, 3}{text_start}<LINE>Level gestiegen.<PARA>Wenn du dein<LINE>#MON zurück<CONT>haben möchtest,<CONT>kostet dich das<CONT>¥@{text_decimal wStringBuffer2 + 2, 3, 4}{text_start}.<DONE>
+8003: {text_start}Perfekt! Hier ist<LINE>dein #MON.<PROMPT>
+8004: {text_start}<PLAYER> erhält<LINE>@{text_ram wStringBuffer1}{text_start}.<PROMPT>
+8005: {text_start}Huh? Schon zurück?<LINE>Dein @{text_ram wStringBuffer1}{text_start}<PARA>sollte noch ein<LINE>wenig hierbleiben.<PARA>Wenn du dein<LINE>#MON zurück-<CONT>haben möchtest,<CONT>zahle ¥100.<DONE>
+8006: {text_start}Du hast keinen<LINE>Platz mehr.<PROMPT>
+8007: {text_start}Du hast nicht<LINE>genügend Geld.<PROMPT>
+8008: {text_start}Oh, in Ordnung.<PROMPT>
+8009: {text_start}Komm wieder.<DONE>
+8010: {text_start}Noch nicht…<DONE>
+===== bianka 1644-1675 =====
+1644: {text_start}Ich bin BIANKA!<PARA>Jeder hat sich für<LINE>#MON inte-<CONT>ressiert, also<CONT>musste ich mit-<CONT>machen!<PARA>#MON sind<LINE>superniedlich!<PARA>Willst du kämpfen?<LINE>Sei gewarnt, ich<CONT>bin gut!<DONE>
+1645: {text_start}Schluchz…<PARA>…Waaaaaaah!<LINE>Du bist gemein!<PARA>Du solltest nicht<LINE>so ernst sein! Du,<CONT>du Kind, du!<DONE>
+1646: {text_start}Waaaaah!<PARA>Waaaaah!<PARA>…Schnüff, japs…<LINE>…Du bist gemein!<DONE>
+1647: {text_start}…Schnüff…<PARA>Was? Was willst<LINE>du? Einen ORDEN?<PARA>Oh, stimmt, ich<LINE>vergaß. Hier ist<CONT>der BASISORDEN.<DONE>
+1648: {text_start}<PLAYER> erhält<LINE>BASISORDEN.<DONE>
+1649: {text_start}Mit Hilfe des BA-<LINE>SISORDENs können<PARA>deine #MON<LINE>STÄRKE auch außer-<CONT>halb eines Kampfes<CONT>einsetzen.<PARA>Außerdem erhöht er<LINE>die INIT deiner<CONT>#MON.<PARA>Oh, das hier<LINE>kannst du auch<CONT>haben!<DONE>
+1650: {text_start}Es ist ANZIEHUNG!<LINE>Es bringt den<PARA>Charme eines<LINE>#MON voll zur<CONT>Geltung.<PARA>Passt das nicht<LINE>perfekt zu einem<CONT>süßen Ding wie<CONT>mir?<DONE>
+1651: {text_start}Ah, die Flennerei<LINE>hat gut getan! Be-<PARA>suche mich mal<LINE>wieder! Tschüssi!<DONE>
+1652: {text_start}Lass dich nicht<LINE>von dem netten<PARA>Äußeren meiner<LINE>#MON täuschen.<PARA>Sie können dich<LINE>platt machen.<DONE>
+1653: {text_start}Verflixt… Ich<LINE>dachte, du wärest<CONT>schwach…<DONE>
+1654: {text_start}Denken meine #-<LINE>MON, dass ich<CONT>niedlich bin?<DONE>
+1655: {text_start}Ich mag niedliche<LINE>#MON lieber<CONT>als starke.<PARA>Aber ich habe<LINE>starke und nied-<CONT>liche #MON!<DONE>
+1656: {text_start}Oh, nein, nein!<DONE>
+1657: {text_start}Ich trainiere, um<LINE>BIANKA zu besie-<CONT>gen… aber es ist<CONT>hoffnungslos.<PARA>Wenn ich verliere,<LINE>werde ich einfach<PARA>härter trainieren!<DONE>
+1658: {text_start}Oh nein. Du hast<LINE>BIANKA zum Weinen<CONT>gebracht.<PARA>Keine Sorge. Sie<LINE>beruhigt sich bald<PARA>wieder. Sie weint<LINE>immer, wenn sie<CONT>verloren hat.<DONE>
+1659: {text_start}Oh, du musst wohl<LINE>noch etwas<PARA>wachsen! Ich mag<LINE>dich, aber ich<PARA>werde mich nicht<LINE>zurückhalten!<DONE>
+1660: {text_start}Mal sehen… Ups,<LINE>schon vorbei?<DONE>
+1661: {text_start}Wow, du musst gut<LINE>sein, wenn du es<CONT>schaffst, mich zu<CONT>schlagen. Mach<CONT>weiter so!<DONE>
+1662: {text_start}Schlag ordentlich<LINE>zu, sonst werde<CONT>ich es tun!<DONE>
+1663: {text_start}Nein! Oh, MAUZI,<LINE>es tut mir Leid!<DONE>
+1664: {text_start}Ich habe MAUZI die<LINE>unterschiedlich-<CONT>sten Attacken bei-<CONT>gebracht…<DONE>
+1665: {text_start}Yo! CHAMP in spe!<PARA>In dieser PKMN-<LINE>ARENA warten Trai-<CONT>ner mit #MON<CONT>des Typs Normal<PARA>auf dich. Ich rate<LINE>dir, Kampf-#MON<CONT>einzusetzen.<DONE>
+1666: {text_start}Du hast gewonnen?<LINE>Toll! Ich war da-<CONT>mit beschäftigt,<CONT>die hübschen Damen<CONT>hier zu bewundern.<DONE>
+1667: {text_start}…Seufz… Ich bin<LINE>hierher gezogen,<PARA>aber ich kann mei-<LINE>ne FAHRRÄDER nicht<PARA>verkaufen. Warum<LINE>nur?<PARA>Würdest du ein<LINE>FAHRRAD fahren und<CONT>so Werbung machen?<DONE>
+1668: {text_start}Ja? Großartig!<PARA>Gib mir bitte<LINE>Namen und Nummer.<PARA>Dann leihe ich dir<LINE>ein FAHRRAD.<DONE>
+1669: {text_start}<PLAYER> leiht sich<LINE>ein FAHRRAD aus.<DONE>
+1670: {text_start}Meine FAHRRÄDER<LINE>sind erste Klasse!<PARA>Du kannst sie<LINE>überall fahren.<DONE>
+1671: {text_start}…Seufz… Oh, für<LINE>die Güte der<CONT>Menschen…<DONE>
+1672: {text_start}Brandneu!<PARA>Erste Klasse Kom-<LINE>pakt-FAHRRÄDER!<DONE>
+1673: {text_start}Ein nagelneues<LINE>FAHRRAD!<DONE>
+1674: [NULL]
+1675: {text_start}Behandelst du<LINE>deine #MON gut,<PARA>werden sie dich<LINE>regelrecht lieben.<PARA>Oh! Lass mich dein<LINE>@{text_ram wStringBuffer3}{text_start} sehen…<DONE>
+===== goldenrod_city 6305-6340 =====
+6305: {text_start}Der neue RADIOTURM<LINE>wurde erbaut, um<PARA>den alten zu er-<LINE>setzen.<DONE>
+6306: {text_start}Es soll einen neu-<LINE>en FAHRRADLADEN<PARA>geben, aber ich<LINE>kann ihn nirgends<CONT>finden.<DONE>
+6307: {text_start}Hat sich dieser<LINE>Mann in Schwarz<PARA>als Mitglied von<LINE>TEAM ROCKET ver-<CONT>kleidet? Wie däm-<CONT>lich!<DONE>
+6308: {text_start}Gehörte dieser<LINE>Mann in Schwarz<PARA>wirklich zu TEAM<LINE>ROCKET? Ich kann<PARA>es nicht glauben!<DONE>
+6309: {text_start}Der RADIOTURM in<LINE>DUKATIA CITY ist<CONT>ein Wahrzeichen.<PARA>Zurzeit läuft ge-<LINE>rade eine Werbe-<CONT>kampagne.<PARA>Sie können deinen<LINE>#COM modifi-<CONT>zieren, so dass er<CONT>auch als Radio<PARA>verwendet werden<LINE>kann.<DONE>
+6310: {text_start}Oh, dein #COM<LINE>ist auch ein<CONT>Radio!<DONE>
+6311: {text_start}E-he-he-he…<PARA>Ich habe Ärger be-<LINE>kommen, weil ich<PARA>im Keller des<LINE>KAUFHAUSes ge-<CONT>spielt habe.<DONE>
+6312: {text_start}Der Mann in diesem<LINE>Haus bewertet dei-<CONT>ne #MON-Namen.<PARA>Er kann deine<LINE>#MON auch<CONT>umbenennen.<DONE>
+6313: {text_start}Wow! Das ist eine<LINE>große Stadt. Ich<PARA>finde mich noch<LINE>gar nicht zurecht.<DONE>
+6314: {text_start}Das ist also der<LINE>RADIOTURM…<DONE>
+6315: {text_start}Was willst du, du<LINE>Nervensäge? Hau<CONT>ab!<DONE>
+6316: {text_start}Aus dem Weg! Ver-<LINE>schwinde!<DONE>
+6317: {text_start}Den RADIOTURM ein-<LINE>nehmen…<PARA>Was? Das geht dich<LINE>nichts an!<DONE>
+6318: {text_start}#MON? Sie sind<LINE>nicht mehr als<PARA>Werkzeuge zum<LINE>Geldscheffeln!<DONE>
+6319: {text_start}Bald wird sich un-<LINE>ser Traum er-<CONT>füllen…<PARA>So lange hat es<LINE>schon gedauert…<DONE>
+6320: {text_start}Hey, Grünschnabel!<LINE>Du hast hier<CONT>nichts zu suchen!<DONE>
+6321: {text_start}Komm und werde<LINE>Zeuge der Macht<CONT>von TEAM ROCKET!<DONE>
+6322: {text_start}DUKATIA CITY<LINE>BAHNHOF<DONE>
+6323: {text_start}DUKATIA CITY<LINE>RADIOTURM<DONE>
+6324: {text_start}Große Auswahl an<LINE>#MON-Artikeln!<PARA>DUKATIA CITY<LINE>KAUFHAUS<DONE>
+6325: {text_start}PKMN-ARENA von<LINE>DUKATIA CITY<CONT>LEITUNG: BIANKA<PARA>Ein unglaublich<LINE>hübsches Mädchen!<DONE>
+6326: {text_start}DUKATIA CITY<PARA>Die festliche<LINE>Stadt mit opulen-<CONT>tem Charme<DONE>
+6327: {text_start}Die Welt ist ein<LINE>Radweg!<CONT>FAHRRADLADEN<DONE>
+6328: {text_start}Dein Spielplatz!<PARA>DUKATIA CITY<LINE>SPIELHALLE<DONE>
+6329: {text_start}NAMEN-BEWERTER<PARA>Möchtest du deine<LINE>Spitznamen bewer-<CONT>ten lassen?<DONE>
+6330: {text_start}UNTERGRUND-<LINE>EINGANG<DONE>
+6331: {text_start}UNTERGRUND-<LINE>EINGANG<DONE>
+6332: {text_start}<DONE>
+6333: {text_start}Blühender<LINE>BLUMENLADEN<DONE>
+6334: {text_start}Wenn du möchtest,<LINE>kann ich deinen<PARA>#MON tolle<LINE>Attacken<CONT>beibringen.<PARA>Soll ich das<LINE>machen?<DONE>
+6335: {text_start}Das kostet dich<LINE>4000 Münzen. Okay?<DONE>
+6336: {text_start}Uah… aber sie sind<LINE>wirklich toll…<DONE>
+6337: {text_start}Wahahah! Das wirst<LINE>du nicht bereuen!<PARA>Welche Attacke<LINE>erlernen?<DONE>
+6338: {text_start}Hm, Mist. Ich muss<LINE>noch Geld von zu<CONT>Hause holen…<DONE>
+6339: {text_start}Wenn du verstehst,<LINE>was an dieser<PARA>Attacke so toll<LINE>ist, dann darfst<PARA>du dich einen<LINE>Trainer nennen.<DONE>
+6340: {text_start}Wahahah! Mach's<LINE>gut, Wicht!<DONE>
+===== dept_store 1720-1760 =====
+1720: {text_start}Hast du schon mal<LINE>HONIG an einen<CONT>Baum geschmiert?<PARA>Was ist dann ge-<LINE>schehen?<DONE>
+1721: {text_start}Hast du schon mal<LINE>HONIG an einen<CONT>Baum geschmiert?<PARA>Es dauert etwa ei-<LINE>nen Tag, bis #-<CONT>MON davon angezo-<CONT>gen werden.<DONE>
+1722: {text_start}SMETTBO: Booh!<DONE>
+1723: {text_start}Willkommen im<LINE>KAUFHAUS von<CONT>DUKATIA CITY.<DONE>
+1724: {text_start}Das KAUFHAUS<LINE>bietet eine große<CONT>Auswahl.<PARA>Aber einige Items<LINE>erhält man nur als<PARA>Preis in der<LINE>SPIELHALLE.<DONE>
+1725: {text_start}Ich freue mich<LINE>heute schon wieder<CONT>aufs Einkaufen!<DONE>
+1726: {text_start}Mama ist sehr gut<LINE>im Schnäppchen-<CONT>finden.<PARA>Sie kauft ständig<LINE>Waren unter dem<CONT>Normalpreis.<DONE>
+1727: {text_start}EG INFO-SCHALTER<PARA>1S TRAINER-<LINE>   MARKT<PARA>2S KAMPF-<LINE>   KOLLEKTION<PARA>3S ARZNEI<PARA>4S TM-ECKE<PARA>5S PLATZ DER<LINE>   EWIGEN STILLE<PARA>DACHTERRASSEN<LINE>AUSSICHTSPLATTFORM<DONE>
+1728: {text_start}Wir wollen Items<LINE>verkaufen, die von<CONT>#MON getragen<CONT>werden können.<PARA>Das ist ein Werbe-<LINE>Geschenk. Lass ein<CONT>#MON es tragen.<DONE>
+1729: {text_start}Trägt ein #MON<LINE>ein Item, könnte<CONT>das einen Kampf zu<CONT>deinen Gunsten<CONT>entscheiden.<DONE>
+1730: {text_start}Der #COM kann<LINE>bis zu zehn Num-<CONT>mern speichern.<PARA>Es ist schwer zu<LINE>entscheiden, wel-<CONT>che Nummer man be-<CONT>halten soll.<DONE>
+1731: {text_start}Ich habe mein ABRA<LINE>in der SPIELHALLE<PARA>gewonnen. Jetzt<LINE>ist es mein bester<PARA>Partner.<DONE>
+1732: {text_start}Dieses KAUFHAUS<LINE>zeigt mir, dass<PARA>DUKATIA CITY eine<LINE>sehr große Stadt<CONT>ist.<PARA>Dieses Angebot ist<LINE>unübertrefflich!<DONE>
+1733: {text_start}Ihr Reise-<LINE>begleiter<PARA>1S TRAINER-<LINE>   MARKT<DONE>
+1734: {text_start}Ich, ich, ich bin<LINE>so ungeduldig!<PARA>Ich setze X-TEMPO<LINE>im Kampf ein, um<PARA>den INIT-Wert<LINE>meiner #MON<PARA>zu erhöhen.<DONE>
+1735: {text_start}Hey! Setzt du im<LINE>Kampf X-SPEZIAL<CONT>ein?<PARA>Es ist toll. Es<LINE>verstärkt alle<CONT>SPEZIALATTACKEN!<DONE>
+1736: {text_start}Für Sieges-<LINE>hungrige<PARA>2S KAMPF-<LINE>   KOLLEKTION<DONE>
+1737: {text_start}Hey! Ich mag star-<LINE>ke #MON.<PARA>Ich füttere sie<LINE>mit PROTEIN, um<CONT>ihren ANGR zu ver-<CONT>stärken.<DONE>
+1738: {text_start}EISEN verstärkt<LINE>die VERT deiner<CONT>#MON.<DONE>
+1739: {text_start}Manche #MON<LINE>entwickeln sich<CONT>nur durch Tausch.<PARA>Ich kenne vier:<LINE>MASCHOCK, KADABRA,<PARA>ALPOLLO und<LINE>GEOROK.<PARA>Ich hörte, es gibt<LINE>noch weitere.<DONE>
+1740: {text_start}Wir kümmern uns um<LINE>Ihre #MON!<PARA>3S ARZNEI<DONE>
+1741: {text_start}Hallo! Oh, dein<LINE>#MON…<DONE>
+1742: {text_start}Es hängt sehr an<LINE>dir.<PARA>Diese Attacke<LINE>passt genau zu<CONT>euch beiden.<DONE>
+1743: {text_start}Oh, wie süß!<PARA>Du solltest ihm<LINE>gute TM-Attacken<CONT>beibringen.<DONE>
+1744: {text_start}Es sieht böse aus.<LINE>Wie wär's mit die-<CONT>ser TM?<DONE>
+1745: {text_start}Es gibt für jedes<LINE>#MON passen-<CONT>de TMs.<DONE>
+1746: {text_start}GEHEIMGABE.<PARA>Mit nur einem<LINE>kleinen Biep er-<CONT>hältst du ein Ge-<CONT>schenk.<DONE>
+1747: {text_start}Die GEHEIMGABE<LINE>erfordert einen<CONT>Game Boy Color.<DONE>
+1748: {text_start}Sonntags kommt<LINE>eine Dame, um nach<CONT>den #MON zu<CONT>sehen.<PARA>Sie verteilt sogar<LINE>TMs!<DONE>
+1749: {text_start}Ein #MON, das<LINE>du durch Tausch<CONT>erhalten hast,<CONT>kannst du nicht<CONT>umbenennen.<PARA>Der Name spiegelt<LINE>die Gefühle des<PARA>Original-Trainers<LINE>wieder.<DONE>
+1750: {text_start}Rüste deine #-<LINE>MON auf.<PARA>4S TM-ECKE<DONE>
+1751: TAFELWASSER  ¥200@SPRUDEL      ¥300@LIMONADE     ¥350@ZURÜCK@
+1752: {text_start}Ein Automat!<LINE>Hier ist das Ange-<CONT>bot.<DONE>
+1753: {text_start}Ding! Eine Dose<LINE>@{text_ram wStringBuffer3}{text_start}<CONT>fällt heraus!<DONE>
+1754: {text_start}Ups, nicht genug<LINE>Geld.<DONE>
+1755: {text_start}Du hast keinen<LINE>Platz mehr.<DONE>
+1756: {text_start}Hörst du den<LINE>GLÜCKSKANAL?<PARA>Möchtest du gewin-<LINE>nen, tausche #-<CONT>MON mit so vielen<PARA>Leuten wie mög-<LINE>lich, um verschie-<CONT>dene ID-Nummern zu<CONT>erhalten.<DONE>
+1757: {text_start}Wenn du müde bist,<LINE>dann hol dir ein<CONT>Getränk aus dem<CONT>Automaten.<PARA>Auch deine #MON<LINE>werden sie mögen.<DONE>
+1758: {text_start}Mach eine<LINE>Einkaufspause!<PARA>5S PLATZ DER<LINE>   EWIGEN STILLE<DONE>
+1759: {text_start}Puh, bin ich müde.<PARA>Manchmal gehe ich<LINE>auf die Dach-<CONT>terrasse, um eine<PARA>Einkaufspause<LINE>einzulegen.<DONE>
+1760: {text_start}Bitte? Wer sagt,<LINE>dass das nichts<CONT>für Erwachsene<CONT>ist?<PARA>Ich komme jeden<LINE>Tag, um wirklich<PARA>alle Puppen zu<LINE>bekommen!<DONE>
+===== national_park 1955-1985 =====
+1955: {text_start}Ich muss zugeben,<LINE>dass deine #MON<CONT>auch süß sind.<DONE>
+1956: {text_start}Wir bewundern<LINE>unsere #MON,<CONT>auch wenn sie uns<CONT>nicht mögen.<PARA>Das macht eben den<LINE>wahren FAN aus.<DONE>
+1957: {text_start}Mei-Mein #MON!<DONE>
+1958: {text_start}Ich habe zwar den<LINE>Kampf verloren,<PARA>aber meine #MON<LINE>gewinnen den<CONT>Schönheitspreis.<DONE>
+1959: {text_start}Mein Freund hat<LINE>ein MARILL!<PARA>Ich finde es<LINE>liebenswert.<PARA>Ich hätte gerne<LINE>selbst ein MARILL…<DONE>
+1960: {text_start}Was ist? Warum<LINE>starrst du mich<CONT>so an?<PARA>Oh, ein Kampf?<DONE>
+1961: {text_start}…Hmmm…<DONE>
+1962: {text_start}Ich dachte, du<LINE>starrst mich an,<CONT>weil ich süß bin!<DONE>
+1963: {text_start}ERHOLUNGSORT<LINE>NATIONALPARK<DONE>
+1964: {text_start}Was steht denn<LINE>hier?<PARA>Kämpfe sind nur<LINE>im Gras gestattet.<PARA>NATIONALPARK<LINE>BÜRO DES WÄCHTERs<DONE>
+1965: {text_start}TIPPS für TRAINER<PARA>Möchtest du deine<LINE>BRIEFE drucken,<CONT>öffne sie und<CONT>drücke START.<DONE>
+1966: {text_start}ULI: Ich werde<LINE>gewinnen! Lass<CONT>mich in Ruhe.<DONE>
+1967: {text_start}ALAN: Mein PARASEK<LINE>versetzt #MON<CONT>mittels PILZSPORE<CONT>in den Schlaf.<DONE>
+1968: {text_start}LARS: Ich trai-<LINE>niere schnelle<CONT>#MON für<CONT>den Kampf.<DONE>
+1969: {text_start}WILHELM: Gewin-<LINE>nen ist mir nicht<CONT>wichtig.<PARA>Ich suche seltene<LINE>#MON.<DONE>
+1970: {text_start}AXEL: Pst! Du<LINE>hast SICHLOR ver-<CONT>schreckt. Ich rede<CONT>später mit dir.<DONE>
+1971: {text_start}TILL: Schwäche<LINE>Käfer-#MON, ehe<PARA>du einen #BALL<LINE>wirfst.<DONE>
+1972: {text_start}CINDY: Was ist<LINE>los?<PARA>Du magst Käfer-<LINE>#MON doch<CONT>auch, oder?<DONE>
+1973: {text_start}ENNO: Seit meiner<LINE>Kindheit sammle<PARA>ich Käfer-<LINE>#MON.<PARA>Du kannst mich<LINE>nicht besiegen!<DONE>
+1974: {text_start}GUIDO: Wenn du<LINE>Zeit für Gespräche<PARA>hast, solltest du<LINE>lieber Käfer-<CONT>#MON suchen.<DONE>
+1975: {text_start}MICHEL: Ich habe<LINE>Käfer-#MON<CONT>lange studiert.<PARA>Ich werde sicher-<LINE>lich gewinnen.<DONE>
+1976: {text_start}ERHOLUNGSORT<LINE>NATIONALPARK<DONE>
+1977: {text_start}Was steht denn<LINE>hier?<PARA>Kämpfe sind nur<LINE>im Gras gestattet.<PARA>NATIONALPARK<LINE>BÜRO DES WÄCHTERs<DONE>
+1978: {text_start}TIPPS für TRAINER<PARA>Möchtest du deine<LINE>BRIEFE drucken,<CONT>öffne sie und<CONT>drücke START.<DONE>
+1979: RADIO-MODUL@
+1980: {text_start}Willkommen!<DONE>
+1981: {text_start}Guten Tag! Leider<LINE>bieten wir heute<CONT>keine Führungen<CONT>an.<DONE>
+1982: {text_start}Hallo! Bist du<LINE>wegen der GLÜCKS-<CONT>ZAHLSHOW hier?<PARA>Soll ich die<LINE>ID-Nummern deiner<CONT>#MON über-<CONT>prüfen?<PARA>Wenn du Glück<LINE>hast, gewinnst du<CONT>einen Preis.<DONE>
+1983: {text_start}Die ID-Nummer<LINE>dieser Woche<CONT>lautet @{text_ram wStringBuffer3}{text_start}.<DONE>
+1984: {text_start}Mal sehen, ob<LINE>du Glück hast.<DONE>
+1985: {text_start}<……><LINE><……><DONE>
+===== route35 6488-6520 =====
+6488: {text_start}Der #MON-<LINE>Marsch im Radio<CONT>lockt wilde<CONT>#MON an.<DONE>
+6489: {text_start}Bei Nacht lauern<LINE>Gefahren!<DONE>
+6490: {text_start}Schwupps!<DONE>
+6491: {text_start}Du weißt, dass<LINE>die Nacht auf<CONT>ihre Weise<CONT>schön sein kann.<PARA>Aber übertreibe<LINE>es nicht, O.K.?<DONE>
+6492: {text_start}Deine #MON<LINE>sehen ziemlich<CONT>stark aus.<PARA>Du wärst über-<LINE>all sicher.<DONE>
+6493: {text_start}ROUTE 35<DONE>
+6494: {text_start}Ich liebe #MON!<PARA>Deshalb habe ich<LINE>angefangen, #-<CONT>MON zu sammeln und<PARA>damit werde ich<LINE>auch nicht mehr<CONT>aufhören!<DONE>
+6495: {text_start}Wie konntest du<LINE>mir das antun?<DONE>
+6496: {text_start}Du fragst, was ich<LINE>außer #MON<CONT>noch mag?<PARA>MARGIT vom Radio!<LINE>Die ist bestimmt<CONT>süß!<DONE>
+6497: {text_start}Heh! Hast du<LINE>seltene #MON?<DONE>
+6498: {text_start}Meine armen #-<LINE>MON-Lieblinge!<DONE>
+6499: {text_start}Ich wäre schon<LINE>froh, wenn ich nur<CONT>ein einziges<CONT>seltenes #MON<CONT>hätte.<DONE>
+6500: {text_start}Stell dir mal vor!<PARA>So ein <RIVAL><LINE>hat sich über<CONT>mein #MON<CONT>lustig gemacht!<PARA>Unverschämtheit!<LINE>Mein #MON<CONT>ist toll!<DONE>
+6501: {text_start}Mein NIDOKING hat<LINE>sich wacker ge-<CONT>schlagen!<DONE>
+6502: {text_start}Für die meisten<LINE>Menschen ist es<PARA>ganz natürlich,<LINE>unterschiedliche<PARA>Arten von #MON<LINE>zu mögen.<PARA>Es geht bei<LINE>#MON nicht<PARA>darum, das<LINE>Stärkste von allen<CONT>zu haben.<DONE>
+6503: {text_start}Ich bin gerade<LINE>ziemlich am Boden.<PARA>Vielleicht liegt<LINE>das an dem Item,<CONT>das ich benutze.<PARA>Kämpfen wir! Das<LINE>hebt vielleicht<CONT>meine Laune!<DONE>
+6504: {text_start}Ich habe verloren,<LINE>aber ich fühle<CONT>mich trotzdem<CONT>besser.<DONE>
+6505: {text_start}KURTs KÖDERBALL<LINE>eignet sich am<PARA>besten, um #-<LINE>MON, die an der<CONT>Angel hängen,<CONT>einzufangen.<PARA>Er ist viel<LINE>effektiver als<CONT>der HYPERBALL.<DONE>
+6506: {text_start}Man kann so viel<LINE>unternehmen mit<CONT>seinen #MON -<CONT>das macht<CONT>unheimlich viel<CONT>Spaß!<DONE>
+6507: {text_start}Verlieren macht<LINE>überhaupt keinen<CONT>Spaß…<DONE>
+6508: {text_start}Was geht da vor<LINE>sich am<CONT>SEE DES ZORNS?<PARA>Wir wollen dort<LINE>zelten.<DONE>
+6509: {text_start}Gehst du auch zum<LINE>SEE DES ZORNS?<PARA>Spielen wir ein<LINE>bisschen!<DONE>
+6510: {text_start}Ich habe zu lange<LINE>gespielt!<DONE>
+6511: {text_start}Ich mache ein<LINE>Picknick mit<CONT>meinen #MON.<PARA>Setz dich doch zu<LINE>uns.<DONE>
+6512: {text_start}Ist mein PIEPI<LINE>nicht<CONT>herzallerliebst?<DONE>
+6513: {text_start}ROUTE 43<PARA>SEE DES ZORNS -<LINE>MAHAGONIA CITY<DONE>
+6514: {text_start}ROUTE 43<PARA>SEE DES ZORNS -<LINE>MAHAGONIA CITY<DONE>
+6515: {text_start}TIPPS für TRAINER<PARA>Alle #MON haben<LINE>Vor- und Nach-<PARA>teile. Das hängt<LINE>ganz davon ab,<CONT>welchem Element<CONT>sie angehören.<PARA>Sind zwei #MON<LINE>unterschiedlicher<PARA>Elemente, kann<LINE>sogar ein #MON<CONT>verlieren, das<CONT>einen höheren<CONT>Level hat.<PARA>Finde heraus,<LINE>welche Elemente<PARA>effektiv oder<LINE>ineffektiv gegen<CONT>deine #MON<CONT>sind.<DONE>
+6516: {text_start}Aah! Wegen dir<LINE>habe ich ein<CONT>QUAPSEL verloren!<PARA>Was wirst du<LINE>deswegen unter-<CONT>nehmen?<DONE>
+6517: {text_start}Vergiss es<LINE>einfach.<DONE>
+6518: {text_start}Dieses QUAPSEL,<LINE>das geflohen ist…<CONT>Das war riesig.<PARA>Ich könnte<LINE>schwören, dass es<CONT>5 Meter lang war!<DONE>
+6519: {text_start}Ich angle so<LINE>lange, bis ich<CONT>nicht mehr kann.<PARA>Und ich kämpfe<LINE>bis zum Umfallen.<PARA>So gehe ich<LINE>auch mit meinen<CONT>#MON um.<DONE>
+6520: {text_start}Hmm…<LINE>Das ist nicht<PARA>richtig.<DONE>
+===== route36 6145-6185 =====
+6145: {text_start}Die Verbindung<LINE>wird hergestellt…<DONE>
+6146: {text_start}Die Verbindung<LINE>wird hergestellt…<DONE>
+6147: {text_start}Deine #MON<LINE>werden vor dem<CONT>Kampf völlig<CONT>geheilt.<DONE>
+6148: {text_start}Das ist ein merk-<LINE>würdiger Baum.<CONT>Möchtest du die<CONT>SCHIGGYKANNE<CONT>benutzen?<DONE>
+6149: {text_start}<PLAYER> benutzt<LINE>SCHIGGYKANNE.<DONE>
+6150: {text_start}Der merkwürdige<LINE>Baum mag die<CONT>SCHIGGYKANNE<CONT>nicht!<PARA>Der merkwürdige<LINE>Baum greift an!<DONE>
+6151: {text_start}Ich bin FLORA<LINE>vom BLUMENLADEN!<PARA>Stell dir vor:<PARA>Als ich den wacke-<LINE>ligen Baum mit<PARA>Wasser benetzte,<LINE>ist er hoch-<CONT>geschreckt!<PARA>Es muss einfach<LINE>ein #MON sein.<PARA>Ich wette, es gibt<LINE>seine Verkleidung<PARA>auf, wenn man es<LINE>gießt!<PARA>Genau! Ich sage es<LINE>meiner Schwester<CONT>und leihe mir<CONT>ihre Gießkanne!<DONE>
+6152: {text_start}Als ich meiner<LINE>Schwester von dem<PARA>wackeligen Baum<LINE>erzählte, sagte<PARA>sie, er sei<LINE>gefährlich.<PARA>Wenn ich BIANKA<LINE>besiege, gibt sie<PARA>mir vielleicht die<LINE>Gießkanne…<DONE>
+6153: {text_start}Oje!<PARA>Ich wollte den<LINE>Baum mit einem<PARA>mächtigen Hieb<LINE>entzweibrechen.<PARA>Aber ich habe es<LINE>nicht geschafft.<CONT>Ich habe versagt!<DONE>
+6154: {text_start}Hast du diesen<LINE>seltsamen Baum<CONT>weggeschafft?<PARA>Ich bin<LINE>beeindruckt! Ich<CONT>möchte dir dies<CONT>geben.<DONE>
+6155: {text_start}<PLAYER> erhält<LINE>TM08.<DONE>
+6156: {text_start}Das ist der<LINE>ZERTRÜMMERER.<PARA>Damit kannst du<LINE>Felsen mit einem<PARA>einzigen, gut <LINE>gezielten Schlag<CONT>zertrümmern.<PARA>Sind dir irgend-<LINE>welche Steine im<CONT>Weg, dann<CONT>zertrümmere sie<CONT>einfach!<DONE>
+6157: {text_start}Ein alter Baum<LINE>versperrt den Weg<CONT>nach DUKATIA CITY.<PARA>Ich wollte mir das<LINE>riesige #MON-<CONT>CENTER, das vor<CONT>kurzem eröffnet<CONT>wurde, ansehen…<DONE>
+6158: {text_start}Ein merkwürdiger<LINE>Baum blockiert die<PARA>Straße nach<LINE>DUKATIA CITY.<PARA>Wegen dieses<LINE>Baumes kann ich<PARA>nicht Einkaufen<LINE>gehen. Man sollte<CONT>etwas dagegen tun.<DONE>
+6159: {text_start}Dieser merkwürdige<LINE>Baum ist spurlos<CONT>verschwunden.<PARA>Ach! Der Baum war<LINE>in Wirklichkeit<CONT>ein #MON?<DONE>
+6160: {text_start}Ich werde jetzt<LINE>deine Gedanken<CONT>lesen!<DONE>
+6161: {text_start}Ich habe mich wohl<LINE>bei dir verlesen!<DONE>
+6162: {text_start}Ich wäre wirklich<LINE>stark, wenn ich <PARA>wüsste, was mein<LINE>Gegner denkt.<DONE>
+6163: {text_start}Dank meiner<LINE>Studien bin ich<CONT>für jedes #MON<CONT>bereit!<DONE>
+6164: {text_start}Ups! Ein Fehler<LINE>in der Berechnung?<DONE>
+6165: {text_start}Mist! Ich lerne<LINE>auch fünf Stunden<CONT>am Tag.<PARA>Es gibt vieles,<LINE>das du nicht aus<CONT>Büchern lernen<CONT>kannst.<DONE>
+6166: {text_start}DONATUS: Wer bist<LINE>du?<PARA>Ich bin DONATUS<LINE>von Donnerstag.<DONE>
+6167: {text_start}Hier bitte. Das<LINE>kannst du haben.<DONE>
+6168: {text_start}DONATUS: Ein<LINE>#MON, das<PARA>Gestein-Attacken<LINE>benutzt, sollte<CONT>dies mit sich<CONT>tragen.<PARA>Es verstärkt<LINE>Gestein-Attacken.<DONE>
+6169: {text_start}DONATUS: Ich bin<LINE>DONATUS von<PARA>Donnerstag. Ich<LINE>bin der zweite<PARA>Sohn von<LINE>sieben Kindern.<DONE>
+6170: {text_start}DONATUS: Heute ist<LINE>nicht Donnerstag.<CONT>Wie bedauerlich!<DONE>
+6171: {text_start}ROUTE 36<DONE>
+6172: {text_start}ALPH-RUINEN<LINE>NORDEINGANG<DONE>
+6173: {text_start}TIPPS für TRAINER<LINE>Der Status der<PARA>#MON ist unter-<LINE>schiedlich, sogar<PARA>innerhalb der-<LINE>selben Spezies.<PARA>Zu Beginn ist er<LINE>vielleicht noch<CONT>ähnlich.<PARA>Doch die Unter-<LINE>schiede werden <PARA>deutlicher, wenn<LINE>die #MON<CONT>heranwachsen.<DONE>
+6174: {text_start}TIPPS für TRAINER<LINE>Setze den<PARA>SCHAUFLER ein, um<LINE>an den Eingang<PARA>eines Ortes<LINE>zurückzugelangen.<PARA>Das ist sehr nütz-<LINE>lich beim Erkunden<PARA>von Höhlen und an-<LINE>deren Umgebungen.<DONE>
+6175: {text_start}Einer der TOP VIER<LINE>war früher einmal<PARA>der ARENALEITER in<LINE>FUCHSANIA CITY.<DONE>
+6176: {text_start}KOGAs Tochter ist<LINE>jetzt ARENA-<CONT>LEITERIN, nachdem<PARA>ihr Vater den TOP<LINE>VIER beigetreten<CONT>ist.<DONE>
+6177: {text_start}Schade, dass die<LINE>SAFARI-ZONE<PARA>geschlossen ist…<LINE>Das ist schließ-<CONT>lich FUCHSANIAs<CONT>Hauptattraktion.<DONE>
+6178: {text_start}FUCHSANIA CITY<PARA>Sieh nur! Die<LINE>Rosarote<CONT>Lieblichkeit!<DONE>
+6179: {text_start}PKMN-ARENA von<LINE>FUCHSANIA CITY<CONT>LEITUNG: JANINA<PARA>Die Giftige<LINE>Ninja-Meisterin<DONE>
+6180: {text_start}Hier ist eine<LINE>Nachricht…<PARA>Bis auf weiteres<LINE>bleibt das BÜRO<PARA>der SAFARI-ZONE<LINE>geschlossen.<DONE>
+6181: {text_start}SAFARI-ZONE<LINE>HAUS DES WÄRTERs<DONE>
+6182: {text_start}Der WÄRTER ist<LINE>verreist. Deshalb<PARA>ist die SAFARI-<LINE>ZONE<CONT>geschlossen.<DONE>
+6183: {text_start}Verunreinigung des<LINE>Parks ist<CONT>verboten.<PARA>Hinterlasse<LINE>bitte keinen<CONT>Abfall.<DONE>
+6184: {text_start}Ich bin SANDRA.<PARA>Der beste Drachen-<LINE>meister der Welt.<PARA>Ich bestehe sogar<LINE>gegen die TOP VIER<CONT>der #MON LIGA.<PARA>Willst du immer<LINE>noch gegen mich<CONT>antreten?<PARA>…Gut.<LINE>Auf geht's!<PARA>Da ich eine ARENA-<LINE>LEITERIN bin,<PARA>bringe ich mein<LINE>ganzes Können ge-<CONT>gen jeden Gegner<CONT>auf!<DONE>
+6185: {text_start}Ich habe verloren?<PARA>Ich kann es nicht<LINE>glauben. Das muss<CONT>ein Irrtum sein…<DONE>
+===== route37 6950-6970 =====
+6950: {text_start}Ich habe<LINE>verloren. Wie<CONT>betrüblich…<DONE>
+6951: {text_start}Im Kampf stellt<LINE>es eine gute<CONT>Taktik dar, die<CONT>gegnerischen #-<CONT>MON in Schlaf zu<CONT>versetzen oder sie<CONT>zu paralysieren.<DONE>
+6952: {text_start}SONNFRIED: Hi!<PARA>Ich bin SONNFRIED<LINE>von Sonntag. Soll<CONT>heißen, heute ist<CONT>Sonntag!<DONE>
+6953: {text_start}Man hat mir auf-<LINE>getragen, dir das<CONT>zu geben, wenn ich<CONT>dich treffe!<DONE>
+6954: {text_start}Mir wurde aufge-<LINE>tragen, dir das<PARA>zu überreichen,<LINE>wenn ich dich<CONT>treffe!<DONE>
+6955: {text_start}SONNFRIED: Dieses<LINE>Ding…<PARA>Äh…<PARA>…Was war das<LINE>nochmal…<PARA>…<PARA>Ah! Jetzt erinnere<LINE>ich mich!<PARA>Ein #MON, das<LINE>Elektro-Attacken<PARA>verwendet, sollte<LINE>dies erhalten.<PARA>Meine Schwester<LINE>MONJA behauptet,<CONT>es verstärkt<CONT>Elektro-Attacken!<DONE>
+6956: {text_start}SONNFRIED: Meine<LINE>Geschwister heißen<CONT>MONJA, DIETLINDE,<CONT>MITKO, DONATUS,<CONT>FRIEDA und SAMSON.<PARA>Sie sind alle<LINE>älter als ich!<DONE>
+6957: {text_start}SONNFRIED: Ist<LINE>heute nicht Sonn-<CONT>tag? Äh… Das habe<CONT>ich vergessen!<DONE>
+6958: {text_start}ROUTE 37<DONE>
+6959: {text_start}Jetzt demonstriere<LINE>ich dir die Kraft<CONT>des #MON,<CONT>das ich gefangen<CONT>habe!<DONE>
+6960: {text_start}Was? Das kann<LINE>nicht sein.<DONE>
+6961: {text_start}Mit dem #MON,<LINE>das ich gefangen<PARA>habe, möchte ich<LINE>der CHAMP der<CONT>Trainer werden.<PARA>Das ist das Beste<LINE>am Angeln!<DONE>
+6962: {text_start}Ach, ist das<LINE>schön, im Freien<CONT>zu sein! Ich fühle<CONT>mich so frei!<DONE>
+6963: {text_start}Hahaha!<DONE>
+6964: {text_start}Schaut man auf,<LINE>in dieses überwäl-<CONT>tigend schöne Blau<PARA>des Himmels, dann<LINE>verliert eine<CONT>Niederlage völlig<CONT>an Bedeutung!<DONE>
+6965: {text_start}HEH!<PARA>Das ist mein<LINE>Geheimversteck!<CONT>Verschwinde, du<CONT>Außenseiter!<DONE>
+6966: {text_start}Ich hätte meinen<LINE>MONDSTEIN benutzen<CONT>sollen…<DONE>
+6967: {text_start}Du erstellst einen<LINE>#DEX?<PARA>Wow, du kennst<LINE>bestimmt einige<CONT>sehr seltene<CONT>#MON!<PARA>Darf ich bitte mal<LINE>eines sehen?<DONE>
+6968: {text_start}ROUTE 42<PARA>TEAK CITY -<LINE>MAHAGONIA CITY<DONE>
+6969: {text_start}KESSELBERG<PARA>WASSERFALL-HÖHLE<LINE>Geradeaus<DONE>
+6970: {text_start}KESSELBERG<PARA>WASSERFALL-HÖHLE<LINE>Voraus<DONE>
+===== radio_sample 2000-2020 =====
+2000: {text_start}Höre dir bitte<LINE>unsere Shows an!<DONE>
+2001: {text_start}Oh, nein.<LINE>Das war leider<PARA>falsch. Versuch's<LINE>noch einmal!<DONE>
+2002: {text_start}Oh. Ich verstehe.<LINE>Komm wieder, wenn<CONT>du deine Meinung<CONT>geändert hast.<DONE>
+2003: {text_start}BEN ist ein<LINE>großartiger DJ.<PARA>Seine sonore<LINE>Stimme lässt mich<CONT>dahinschmelzen!<DONE>
+2004: {text_start}Ich liebe MARGIT<LINE>vom #MON-TALK.<PARA>Ich kenne aber<LINE>nur ihre Stimme.<DONE>
+2005: {text_start}Endlich haben wir<LINE>den RADIOTURM<CONT>besetzt!<PARA>Nun wird jeder<LINE>den TEAM ROCKET-<PARA>Terrorapparat<LINE>kennenlernen!<PARA>Wir zeigen euch,<LINE>wie böse wir sind!<DONE>
+2006: {text_start}Zu stark! Wir<LINE>müssen dich im<CONT>Auge behalten…<DONE>
+2007: {text_start}Du bist zu stark.<PARA>Du könntest unsere<LINE>Pläne zerstören.<CONT>Ich muss die<CONT>anderen warnen…<DONE>
+2008: {text_start}EG REZEPTION<LINE>1S VERKAUF<PARA>2S PERSONAL<LINE>3S PRODUKTION<PARA>4S BÜRO DES<LINE>   INTENDANTEN<DONE>
+2009: {text_start}GLÜCKSKANAL!<PARA>Gewinne mit #-<LINE>MON-ID-Nummern!<PARA>Tausche deine <LINE>#MON, um viele<CONT>ID-Nummern zu<CONT>erhalten!<DONE>
+2010: {text_start}Du kannst überall<LINE>Radio hören.<CONT>Probier's mal aus!<DONE>
+2011: {text_start}Wenn #MON<LINE>Schlaflieder im<CONT>Radio hören, <CONT>schlafen sie ein.<DONE>
+2012: {text_start}Warum möchten sie<LINE>den RADIOTURM<CONT>besetzen?<DONE>
+2013: {text_start}PUMMELUFF:<LINE>Pummel…<DONE>
+2014: {text_start}Zutritt nur für<LINE>autorisiertes<CONT>Personal.<PARA>Das war nicht<LINE>immer so.<PARA>Mit unserem<LINE>INTENDANTEN stimmt<CONT>irgendetwas nicht…<DONE>
+2015: {text_start}Schau dich in<LINE>Ruhe um.<PARA>Der INTENDANT ist<LINE>wieder nett. So,<CONT>wie er früher war.<DONE>
+2016: {text_start}Vor drei Jahren<LINE>war das TEAM<CONT>ROCKET gezwungen,<CONT>sich aufzulösen.<PARA>Wir arbeiten hier<LINE>gerade an einem<CONT>Comeback!<DONE>
+2017: {text_start}Pah! Keine Zeit<LINE>für Sentimenta-<CONT>litäten!<DONE>
+2018: {text_start}Wir lassen es<LINE>nicht zu, dass du<CONT>unsere Pläne<CONT>durchkreuzt!<DONE>
+2019: {text_start}Wir sind TEAM<LINE>ROCKET, die #-<CONT>MON-Ausbeuter!<PARA>Wir lieben es,<LINE>Böses zu tun! <CONT>Hast du Angst?<DONE>
+2020: {text_start}Du glaubst, du<LINE>bist ein Held?<DONE>

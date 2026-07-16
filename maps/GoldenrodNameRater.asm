@@ -17,6 +17,8 @@ GoldenrodNameRater_MapScriptHeader:
 	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 2, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodNameRater, -1
 
 GoldenrodNameRater:
+	; Dialoge: engine SpecialNameRater / data/text/common.asm
+	; Dump 8021–8030 (NAMEN-BEWERTER) — außerhalb Map-Scope
 	faceplayer
 	opentext
 	special SpecialNameRater

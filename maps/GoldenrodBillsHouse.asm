@@ -277,30 +277,38 @@ BillsGrandpa:
 .WrongPokemon:
 	jumpthisopenedtext
 
+	; GSC-DE Dump (Kanto-Opa-Dialog, gleicher Wortlaut)
 	text "Hm?"
 
 	para "Das ist nicht das"
-	line "#mon, von dem"
+	line "#MON, von dem"
 	cont "ich gehört habe."
 	done
+
 BillsMom:
 	checkevent EVENT_NEVER_MET_BILL
 	iffalse_jumptextfaceplayer BillsMomText_AfterEcruteak
 	jumpthistextfaceplayer
 
-	text "Ach, du sammelst"
-	line "#mon? Mein Sohn"
+	; GSC-DE Dump
+	text "Oh, du sammelst"
+	line "#MON? Mein Sohn"
 	cont "BILL ist ein"
 	cont "Experte."
+
 	para "Er wurde gerade in"
-	line "das #mon-CENTER"
+	line "das #MON-CENTER"
+
 	para "von TEAK CITY"
 	line "gerufen."
+
 	para "Mein Mann ging in"
 	line "die SPIELHALLE,"
-	para "ohne angerufen zu"
-	line "werden …"
+
+	para "ohne angerufen"
+	line "zu werden…"
 	done
+
 BillsSister:
 	faceplayer
 	opentext
@@ -319,11 +327,12 @@ BillsSister:
 .GotBillsNumber:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Mein großer Bruder"
-	line "BILL hat"
-	para "das"
-	line "#mon-Lagerungs-"
-	para "System erfunden."
+	line "BILL hat das"
+	cont "PC-#MON-LAGER-"
+	cont "UNGS-SYSTEM erfun-"
+	cont "den."
 	done
 
 .NoRoom:
@@ -332,206 +341,243 @@ BillsSister:
 .Refused:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Mein Bruder hat"
-	line "das #-mon-"
-	cont "Lagerungssystem"
+	line "das PC-#MON-"
+	cont "LAGERUNGS-SYSTEM"
 	cont "erfunden."
-	para "Ich wollte dir"
-	line "gerade BILLs"
-	cont "Nummer geben…"
+
+	para "Ich wollte dir ge-"
+	line "rade BILLs Nummer"
+	cont "geben…"
 	done
 
 BillsGrandpaIntroText:
+	; Johto-Variante (Dump Kanto: JOHTO; hier KANTO)
 	text "Hm? Kennst du"
 	line "BILL? Er ist mein"
 	cont "Enkel."
 
-	para "Er ist in Kanto."
-	line "Er arbeitet mit"
+	para "Er ist in KANTO."
+	line "Er kümmert sich"
 
-	para "PCs, also passe"
-	line "ich hier auf das"
+	para "um PCs und ich"
+	line "passe auf das"
 	cont "Haus auf."
 	done
 
 BillsGrandpaAskToSeeMonText:
+	; GSC-DE Dump
 	text "Hast du dieses"
-	line "#mon? Darf ich"
+	line "#MON? Darf ich"
 	cont "es sehen?"
 	done
+
 BillsGrandpaExcitedToSeeText:
+	; GSC-DE Dump
 	text "Du zeigst es mir?"
 	line "Wie lieb von dir!"
 	done
+
 BillsGrandpaYouDontHaveItTextText:
+	; GSC-DE Dump
 	text "Du hast es nicht?"
 	line "Das ist schade…"
 	done
+
 BillsGrandpaShownPokemonText:
-	text "Ah, also das ist "
+	; GSC-DE Dump
+	text "Ah, das ist "
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Ist es nicht"
+	para "Ist das nicht"
 	line "niedlich!"
-
-	para "Das ist aber lieb"
-	line "von dir!"
+	cont "Das ist nett "
+	cont "von dir."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
+	; GSC-DE Dump
 	text "Danke!"
 
 	para "Das ist ein"
 	line "Zeichen meiner"
 	cont "Anerkennung."
 	done
+
 BillsGrandpaComeAgainText:
+	; GSC-DE Dump
 	text "Besuche mich bitte"
 	line "wieder."
 	done
+
 BillsGrandpaShownAllThePokemonText:
+	; GSC-DE Dump
 	text "Danke, dass du mir"
 	line "so viele niedliche"
-	cont "#mon gezeigt"
+	cont "#MON gezeigt"
 	cont "hast."
+
 	para "Ich habe mich"
 	line "wirklich amüsiert."
+
 	para "Ich bin froh, dass"
 	line "ich das noch"
 	cont "erleben durfte."
 	done
+
 BillsGrandpaSnubbullText:
+	; Johto-Quest (kein 1:1 Dump-Anker)
 	text "Mein Enkel BILL"
 	line "erzählte mir von"
 
 	para "einem kleinen,"
 	line "rosa hundartigen"
-	cont "#mon mit blauen"
+	cont "#MON mit blauen"
 	cont "Tupfen."
 	done
 
 BillsGrandpaTogepiText:
+	; Johto-Quest
 	text "Kennst du ein"
-	line "#mon mit einer"
+	line "#MON mit einer"
+
 	para "Schale voller"
 	line "roter und blauer"
 	cont "Dreiecke?"
+
 	para "Es soll ein Symbol"
 	line "für Glück sein."
 	done
 
 BillsGrandpaMurkrowText:
+	; Johto-Quest
 	text "Kennst du ein"
-	line "Vogel-#mon mit"
+	line "Vogel-#MON mit"
+
 	para "einem krummen"
 	line "gelben Schnabel"
 	cont "und schwarzem"
 	cont "Gefieder?"
+
 	para "Ich hörte, es"
 	line "erscheint NACHTs."
+
 	para "Ich würde es gerne"
 	line "sehen."
 	done
 
 BillsGrandpaOddishText:
+	; Dump-nah (Kanto-Variante grün→hier blau/Johto-Liste)
 	text "Ach, mein Enkel"
 	line "erwähnte ein"
 
 	para "rundes, blaues"
-	line "#mon mit"
+	line "#MON mit"
 	cont "Blättern auf dem"
 	cont "Kopf."
 	done
 
 BillsGrandpaJigglypuffText:
+	; Johto-Quest
 	text "BILL erzählte mir"
 	line "von einem rosa"
 
-	para "#mon mit einer"
+	para "#MON mit einer"
 	line "hypnotischen"
 	cont "Gesangsstimme."
 	done
 
 BillsGrandpaBellsproutText:
+	; Johto-Quest
 	text "Mein Enkel BILL"
 	line "erwähnte ein"
 
-	para "grünes #mon,"
+	para "grünes #MON,"
 	line "das auf seinen"
 	cont "Wurzeln läuft."
 	done
 
 BillsGrandpaStaryuText:
+	; GSC-DE Dump
 	text "Kennst du ein"
-	line "Wasser-#mon"
+	line "Wasser-#MON"
+
 	para "mit einer roten"
 	line "Kugel im Körper?"
+
 	para "Es sieht aus wie"
 	line "ein Stern!"
+
 	para "Ich hörte, es"
 	line "taucht NACHTs auf."
+
 	para "Ich würde es gerne"
 	line "sehen."
 	done
+
 BillsGrandpaGrowlitheText:
+	; GSC-DE Dump
 	text "BILL erzählte mir"
-	line "von einem #mon,"
+	line "von einem #MON,"
+
 	para "das seinem Trainer"
 	line "gegenüber sehr"
 	cont "loyal ist."
+
 	para "Es scheint ein"
 	line "guter BRÜLLER zu"
 	cont "sein."
 	done
+
 BillsGrandpaPichuText:
+	; GSC-DE Dump
 	text "Kennst du dieses"
 	line "sehr beliebte"
-	cont "#mon?"
-	para "Das #mon, mit"
+	cont "#MON?"
+
+	para "Das #MON, mit"
 	line "dem gelben Körper"
 	cont "und den roten"
 	cont "Wangen."
+
 	para "Ich würde gerne"
 	line "sehen, wie es vor"
+
 	para "seiner Entwicklung"
 	line "aussieht."
 	done
+
 BillsMomText_AfterEcruteak:
-	text "Mein Mann galt"
-	line "früher als"
+	; GSC-DE Dump
+	text "Mein Mann war als"
+	line "#MANIAC "
 
-	para "#Maniac. BILL"
-	line "hat wohl"
-
-	para "von seinem Vater"
-	line "geerbt."
-
-	para "Aber jetzt will"
-	line "mein Mann nicht"
-	cont "mehr arbeiten."
-
-	para "Er treibt den"
-	line "ganzen Tag nur"
-	cont "herum."
+	para "bekannt. BILL"
+	line "muss nach seinem"
+	cont "Vater kommen."
 	done
 
 BillsSisterUsefulNumberText:
+	; GSC-DE Dump
 	text "Bist du ein"
 	line "Trainer?"
 
 	para "Ich habe eine"
-	line "nützliche"
-	cont "Telefonnummer für"
-	cont "dich."
+	line "nützliche Telefon-"
+	cont "nummer für dich."
 	done
 
 RecordedBillsNumberText:
+	; GSC-DE Dump
 	text "<PLAYER> speichert"
 	line "BILLs Nummer."
 	done
+
 BillsSisterPhoneFullText:
+	; GSC-DE Dump
 	text "Du kannst keine"
-	line "weiteren Nummern"
-	cont "speichern."
+	line "Nummern mehr spei-"
+	cont "chern."
 	done

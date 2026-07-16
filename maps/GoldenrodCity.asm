@@ -184,8 +184,9 @@ MoveTutor:
 	special Special_DisplayCoinCaseBalance
 	jumpthisopenedtext
 
-	text "Wahahah! Guten"
-	line "Tag, Kind!"
+	; GSC-DE Dump
+	text "Wahahah! Mach's"
+	line "gut, Wicht!"
 	done
 
 .NotEnoughMoney:
@@ -195,35 +196,26 @@ MoveTutor:
 	line "genügend Münzen"
 	cont "dabei…"
 	done
+
 GoldenrodCityCooltrainerF1Script:
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftrue_jumptextfaceplayer GoldenrodCityCooltrainerF1Text_ClearedRadioTower
 	jumpthistextfaceplayer
 
-	text "Ist der Mann in"
-	line "Schwarz als"
-	para "TEAM-ROCKET-"
-	line "Mitglied"
-	cont "verkleidet? Wie"
-	cont "albern!"
+	; GSC-DE Dump
+	text "Hat sich dieser"
+	line "Mann in Schwarz"
+
+	para "als Mitglied von"
+	line "TEAM ROCKET ver-"
+	cont "kleidet? Wie däm-"
+	cont "lich!"
 	done
 
 GoldenrodCityCooltrainerF2Script:
 	checkflag ENGINE_RADIO_CARD
-	iffalse_jumptextfaceplayer GoldenrodCityCooltrainerF2Text
-	checkevent EVENT_RESTORED_POWER_TO_KANTO
-	iffalse_jumptextfaceplayer GoldenrodCityCooltrainerFOlivineText
-	jumpthistextfaceplayer
-
-	text "Ich bin mit dem"
-	line "MAGNETZUG"
-	cont "hergekommen."
-
-	para "Zeit zum"
-	line "Einkaufen!"
-	done
-
-
+	iftrue_jumptextfaceplayer GoldenrodCityCooltrainerF2Text_GotRadioCard
+	jumptextfaceplayer GoldenrodCityCooltrainerF2Text
 
 GoldenrodCityYoungster2Script:
 	faceplayer
@@ -232,6 +224,7 @@ GoldenrodCityYoungster2Script:
 	iftrue_jumpopenedtext GoldenrodCityYoungster2Text
 	jumpthisopenedtext
 
+	; PC-only (Museum)
 	text "Warst du schon im"
 	line "Museum?"
 
@@ -266,28 +259,26 @@ GoldenrodCityPanUpMovementData:
 	step_end
 
 GoldenrodCityPokefanMText:
+	; GSC-DE Dump
 	text "Der neue RADIOTURM"
 	line "wurde erbaut, um"
-	para "den alten zu"
-	line "ersetzen."
+
+	para "den alten zu er-"
+	line "setzen."
 	done
 
-
-
-
 GoldenrodCityYoungster1Text:
-	text "Es soll einen"
-	line "neuen"
-	cont "FAHRRADLADEN"
+	; GSC-DE Dump
+	text "Es soll einen neu-"
+	line "en FAHRRADLADEN"
+
 	para "geben, aber ich"
 	line "kann ihn nirgends"
 	cont "finden."
 	done
 
-
-
-
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
+	; GSC-DE Dump
 	text "Gehörte dieser"
 	line "Mann in Schwarz"
 
@@ -297,151 +288,127 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 	para "es nicht glauben!"
 	done
 
-
-
-
 GoldenrodCityCooltrainerF2Text:
+	; GSC-DE Dump
 	text "Der RADIOTURM in"
 	line "DUKATIA CITY ist"
 	cont "ein Wahrzeichen."
-	para "Zurzeit läuft"
-	line "gerade eine"
-	cont "Werbekampagne."
+
+	para "Zurzeit läuft ge-"
+	line "rade eine Werbe-"
+	cont "kampagne."
+
 	para "Sie können deinen"
-	line "#COM"
-	cont "modifizieren, so"
-	cont "dass er auch als"
-	cont "Radio"
+	line "#COM modifi-"
+	cont "zieren, so dass er"
+	cont "auch als Radio"
+
 	para "verwendet werden"
 	line "kann."
 	done
 
-
-
-
-GoldenrodCityCooltrainerFOlivineText:
-	text "Ich kam mit dem MS"
-	line "AQUA her."
-	para "Es ist langsamer"
-	line "als der MAGNETZUG,"
-	para "aber die Aussicht"
-	line "ist schöner."
+GoldenrodCityCooltrainerF2Text_GotRadioCard:
+	; GSC-DE Dump
+	text "Oh, dein #COM"
+	line "ist auch ein"
+	cont "Radio!"
 	done
-
-
 
 GoldenrodCityYoungster2Text:
-	text "E-he-he-he …"
-	para "Ich habe Ärger"
-	line "bekommen, weil"
-	cont "ich"
+	; GSC-DE Dump
+	text "E-he-he-he…"
+
+	para "Ich habe Ärger be-"
+	line "kommen, weil ich"
+
 	para "im Keller des"
-	line "KAUFHAUSes"
-	cont "gespielt habe."
+	line "KAUFHAUSes ge-"
+	cont "spielt habe."
 	done
 
-
-
-
 GoldenrodCityLassText:
+	; GSC-DE Dump
 	text "Der Mann in diesem"
-	line "Haus bewertet"
-	cont "deine"
-	cont "#mon-Namen."
+	line "Haus bewertet dei-"
+	cont "ne #MON-Namen."
+
 	para "Er kann deine"
-	line "#mon auch"
+	line "#MON auch"
 	cont "umbenennen."
 	done
 
-
-
-
 GoldenrodCityGrampsText:
-	text "Toll! Das ist eine"
+	; GSC-DE Dump
+	text "Wow! Das ist eine"
 	line "große Stadt. Ich"
+
 	para "finde mich noch"
 	line "gar nicht zurecht."
 	done
 
-
-
-
 GoldenrodCityRocketScoutText1:
+	; GSC-DE Dump
 	text "Das ist also der"
 	line "RADIOTURM…"
 	done
 
-
-
-
 GoldenrodCityRocketScoutText2:
+	; GSC-DE Dump
 	text "Was willst du, du"
 	line "Nervensäge? Hau"
 	cont "ab!"
 	done
 
-
-
-
 GoldenrodCityRocket1Text:
-	text "Aus dem Weg!"
-	line "Verschwinde!"
+	; GSC-DE Dump
+	text "Aus dem Weg! Ver-"
+	line "schwinde!"
 	done
 
-
-
-
 GoldenrodCityRocket2Text:
-	text "Den RADIOTURM"
-	line "einnehmen …"
+	; GSC-DE Dump
+	text "Den RADIOTURM ein-"
+	line "nehmen…"
+
 	para "Was? Das geht dich"
 	line "nichts an!"
 	done
 
-
-
-
 GoldenrodCityRocket3Text:
-	text "#mon? Sie sind"
+	; GSC-DE Dump
+	text "#MON? Sie sind"
 	line "nicht mehr als"
 
 	para "Werkzeuge zum"
 	line "Geldscheffeln!"
 	done
 
-
-
-
 GoldenrodCityRocket4Text:
-	text "Bald wird sich"
-	line "unser Traum"
-	cont "erfüllen …"
+	; GSC-DE Dump
+	text "Bald wird sich un-"
+	line "ser Traum er-"
+	cont "füllen…"
+
 	para "So lange hat es"
-	line "schon gedauert …"
+	line "schon gedauert…"
 	done
 
-
-
-
 GoldenrodCityRocket5Text:
+	; GSC-DE Dump
 	text "Hey, Grünschnabel!"
 	line "Du hast hier"
 	cont "nichts zu suchen!"
 	done
 
-
-
-
 GoldenrodCityRocket6Text:
+	; GSC-DE Dump
 	text "Komm und werde"
 	line "Zeuge der Macht"
 	cont "von TEAM ROCKET!"
 	done
 
-
-
-
 GoldenrodCityGymLassText:
+	; PC-only
 	text "BIANKA ist gerade"
 	line "nicht hier."
 
@@ -453,33 +420,28 @@ GoldenrodCityGymLassText:
 	done
 
 GoldenrodCityStationSignText:
+	; GSC-DE Dump
 	text "DUKATIA CITY"
 	line "BAHNHOF"
 	done
 
-
-
-
 GoldenrodCityRadioTowerSignText:
+	; GSC-DE Dump
 	text "DUKATIA CITY"
 	line "RADIOTURM"
 	done
 
-
-
-
 GoldenrodDeptStoreSignText:
+	; GSC-DE Dump
 	text "Große Auswahl an"
-	line "#mon-Artikeln!"
+	line "#MON-Artikeln!"
 
 	para "DUKATIA CITY"
 	line "KAUFHAUS"
 	done
 
-
-
-
 GoldenrodGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "DUKATIA CITY"
 	cont "LEITUNG: BIANKA"
@@ -488,77 +450,74 @@ GoldenrodGymSignText:
 	line "hübsches Mädchen!"
 	done
 
-
-
-
 GoldenrodCitySignText:
+	; GSC-DE Dump
 	text "DUKATIA CITY"
+
 	para "Die festliche"
-	line "Stadt mit"
-	cont "opulentem Charme"
+	line "Stadt mit opulen-"
+	cont "tem Charme"
 	done
 
-
-
-
 GoldenrodCityBikeShopSignText:
+	; GSC-DE Dump
 	text "Die Welt ist ein"
 	line "Radweg!"
 	cont "FAHRRADLADEN"
 	done
 
-
-
-
 GoldenrodCityGameCornerSignText:
+	; GSC-DE Dump
 	text "Dein Spielplatz!"
 
 	para "DUKATIA CITY"
 	line "SPIELHALLE"
 	done
 
-
-
-
 GoldenrodCityNameRaterSignText:
+	; GSC-DE Dump
 	text "NAMEN-BEWERTER"
+
 	para "Möchtest du deine"
-	line "Spitznamen"
-	cont "bewerten lassen?"
+	line "Spitznamen bewer-"
+	cont "ten lassen?"
 	done
-
-
-
 
 GoldenrodCityUndergroundSignText:
-	text "UNTERGRUND-EINGANG"
+	; GSC-DE Dump
+	text "UNTERGRUND-"
+	line "EINGANG"
 	done
+
 PokeComCenterSignText:
+	; PC-only
 	text "Vernetze die Welt!"
-	line "#Com Center"
+	line "#COM CENTER"
 	done
 
 GoldenrodCityFlowerShopSignText:
+	; GSC-DE Dump
 	text "Blühender"
 	line "BLUMENLADEN"
 	done
 
-
-
-
 GoldenrodMuseumSignText:
+	; PC-only
 	text "Museum von DUKATIA"
 	line "CITY"
+
 	para "Große Eröffnung!"
-	para "Entdecke Johtos"
+
+	para "Entdecke JOHTOs"
 	line "Geschichte!"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
+	; GSC-DE Dump
 	text "Wenn du möchtest,"
 	line "kann ich deinen"
 
-	para "#mon tolle"
+	para "#MON tolle"
 	line "Attacken"
 	cont "beibringen."
 
@@ -566,61 +525,46 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 	line "machen?"
 	done
 
-
-
-
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
+	; GSC-DE Dump
 	text "Das kostet dich"
 	line "4000 Münzen. Okay?"
 	done
 
-
-
-
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Uah … aber sie"
-	line "sind wirklich toll"
-	cont "…"
+	; GSC-DE Dump
+	text "Uah… aber sie sind"
+	line "wirklich toll…"
 	done
 
-
-
-
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
+	; GSC-DE Dump
 	text "Wahahah! Das wirst"
 	line "du nicht bereuen!"
+
 	para "Welche Attacke"
 	line "erlernen?"
 	done
 
-
-
-
 GoldenrodCityMoveTutorHmTooBadText:
+	; GSC-DE Dump
 	text "Hm, Mist. Ich muss"
 	line "noch Geld von zu"
-	cont "Hause holen …"
+	cont "Hause holen…"
 	done
 
-
-
-
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
+	; GSC-DE Dump
 	text "Wenn du verstehst,"
 	line "was an dieser"
+
 	para "Attacke so toll"
 	line "ist, dann darfst"
+
 	para "du dich einen"
 	line "Trainer nennen."
 	done
 
-
-
-
 GoldenrodCityMoveTutorBButText:
 	text "A-aber…"
 	done
-
-
-
-

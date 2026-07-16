@@ -18,38 +18,32 @@ GoldenrodDeptStore6F_MapScriptHeader:
 	object_event  8,  2, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore6FSuperNerdText, -1
 
 GoldenrodDeptStore6FLassText:
+	; GSC-DE Dump
 	text "Hörst du den"
 	line "GLÜCKSKANAL?"
-	para "Möchtest du"
-	line "gewinnen, tausche"
-	cont "#mon mit so"
-	cont "vielen"
-	para "Leuten wie"
-	line "möglich, um"
-	cont "verschie-dene"
-	cont "ID-Nummern zu"
+	para "Möchtest du gewin-"
+	line "nen, tausche #-"
+	cont "MON mit so vielen"
+	para "Leuten wie mög-"
+	line "lich, um verschie-"
+	cont "dene ID-Nummern zu"
 	cont "erhalten."
 	done
 
-
-
 GoldenrodDeptStore6FSuperNerdText:
+	; GSC-DE Dump
 	text "Wenn du müde bist,"
 	line "dann hol dir ein"
 	cont "Getränk aus dem"
 	cont "Automaten."
-	para "Auch deine #mon"
+	para "Auch deine #MON"
 	line "werden sie mögen."
 	done
 
-
-
 GoldenrodDeptStore6FDirectoryText:
+	; GSC-DE Dump
 	text "Mach eine"
 	line "Einkaufspause!"
 	para "5S PLATZ DER"
-	line "EWIGEN STILLE"
+	line "   EWIGEN STILLE"
 	done
-
-
-

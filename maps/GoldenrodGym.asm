@@ -50,6 +50,7 @@ GoldenrodGymWhitneyScript:
 	iffalsefwd .StoppedCrying
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Waaaaah!"
 
 	para "Waaaaah!"
@@ -73,17 +74,18 @@ GoldenrodGymWhitneyScript:
 	setevent EVENT_GOT_TM45_ATTRACT
 	jumpthisopenedtext
 
+	; GSC-DE Dump (ANZIEHUNG / Attract)
 	text "Es ist ANZIEHUNG!"
 	line "Es bringt den"
 
 	para "Charme eines"
-	line "#mon voll zur"
+	line "#MON voll zur"
 	cont "Geltung."
 
 	para "Passt das nicht"
 	line "perfekt zu einem"
 	cont "süßen Ding wie"
-	cont "mir? ♥"
+	cont "mir?"
 	done
 
 TrainerLassCathy:
@@ -93,10 +95,12 @@ TrainerLassCathy:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Denken meine"
-	line "#mon, dass ich"
+	; GSC-DE Dump
+	text "Denken meine #-"
+	line "MON, dass ich"
 	cont "niedlich bin?"
 	done
+
 WhitneyCriesScript:
 	showemote EMOTE_SHOCK, GOLDENRODGYM_LASS2, 15
 	applymovement GOLDENRODGYM_LASS2, JoWalksUpMovement
@@ -110,6 +114,7 @@ WhitneyCriesScript:
 GenericTrainerSrandjrJoandcath1:
 	generictrainer SR_AND_JR, JOANDCATH1, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath1SeenText, SrandjrJoandcath1BeatenText
 
+	; GSC-DE Dump (PC: Jo/Cath-Paar; Dump-Ton)
 	text "Jo: Ich helfe"
 	line "meiner Junior"
 	cont "Cath,"
@@ -124,21 +129,22 @@ GenericTrainerSrandjrJoandcath1:
 GenericTrainerSrandjrJoandcath2:
 	generictrainer SR_AND_JR, JOANDCATH2, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath2SeenText, SrandjrJoandcath2BeatenText
 
-	text "Cath: Ich verliere"
-	line "immer gegen"
-	cont "BIANKA."
-	para "Das ist"
-	line "deprimierend."
-	para "Schon gut! Wenn"
-	line "ich verliere,"
-	para "versuche ich es"
-	line "beim nächsten Mal"
-	cont "nochmal!"
+	; GSC-DE Dump (Carrie-Nachtext auf Cath)
+	text "Ich trainiere, um"
+	line "BIANKA zu besie-"
+	cont "gen… aber es ist"
+	cont "hoffnungslos."
+
+	para "Wenn ich verliere,"
+	line "werde ich einfach"
+
+	para "härter trainieren!"
 	done
 
 GenericTrainerBeautyVictoria:
 	generictrainer BEAUTY, VICTORIA, EVENT_BEAT_BEAUTY_VICTORIA, BeautyVictoriaSeenText, BeautyVictoriaBeatenText
 
+	; GSC-DE Dump
 	text "Wow, du musst gut"
 	line "sein, wenn du es"
 	cont "schaffst, mich zu"
@@ -149,10 +155,11 @@ GenericTrainerBeautyVictoria:
 GenericTrainerBeautySamantha:
 	generictrainer BEAUTY, SAMANTHA, EVENT_BEAT_BEAUTY_SAMANTHA, BeautySamanthaSeenText, BeautySamanthaBeatenText
 
+	; GSC-DE Dump
 	text "Ich habe MAUZI die"
-	line "unterschiedlichst-"
-	cont "en Attacken"
-	cont "beigebracht…"
+	line "unterschiedlich-"
+	cont "sten Attacken bei-"
+	cont "gebracht…"
 	done
 
 GoldenrodGymGuyScript:
@@ -160,19 +167,20 @@ GoldenrodGymGuyScript:
 	iftrue_jumptextfaceplayer GoldenrodGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo! Zukünftiger"
-	line "Champion!"
+	; GSC-DE Dump (+ PC: Fee-Hinweis)
+	text "Yo! CHAMP in spe!"
 
-	para "Diese ARENA ist"
-	line "die Heimat von"
-	cont "Normal-Trainern."
+	para "In dieser PKMN-"
+	line "ARENA warten Trai-"
+	cont "ner mit #MON"
+	cont "des Typs Normal"
 
-	para "Ich empfehle dir,"
-	line "Kampf-#mon"
+	para "auf dich. Ich rate"
+	line "dir, Kampf-#MON"
 	cont "einzusetzen."
 
 	para "Aber Vorsicht:"
-	line "Fee-#mon"
+	line "Fee-#MON"
 	cont "widerstehen"
 	cont "Kampf-Attacken,"
 
@@ -203,39 +211,37 @@ JoWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
+	; GSC-DE Dump
 	text "Ich bin BIANKA!"
+
 	para "Jeder hat sich für"
-	line "#mon"
-	cont "interessiert, also"
-	cont "musste ich"
-	cont "mitmachen!"
-	para "#mon sind"
+	line "#MON inte-"
+	cont "ressiert, also"
+	cont "musste ich mit-"
+	cont "machen!"
+
+	para "#MON sind"
 	line "superniedlich!"
+
 	para "Willst du kämpfen?"
 	line "Sei gewarnt, ich"
 	cont "bin gut!"
 	done
 
-
-
-
-
-
 WhitneyShouldntBeSoSeriousText:
+	; GSC-DE Dump
 	text "Schluchz…"
-	para "…Waaaaaaah! Du"
-	line "bist gemein!"
+
+	para "…Waaaaaaah!"
+	line "Du bist gemein!"
+
 	para "Du solltest nicht"
 	line "so ernst sein! Du,"
 	cont "du Kind, du!"
 	done
 
-
-
-
-
-
 WhitneyWhatDoYouWantText:
+	; GSC-DE Dump
 	text "…Schnüff…"
 
 	para "Was? Was willst"
@@ -243,95 +249,106 @@ WhitneyWhatDoYouWantText:
 
 	para "Oh, stimmt, ich"
 	line "vergaß. Hier ist"
-	cont "der PLANORDEN."
+	cont "der BASISORDEN."
 	done
 
-
-
-
-
-
 WhitneyPlainBadgeText:
-	text "Mit dem PLANORDEN"
-	line "können deine"
-	cont "#mon STÄRKE"
-	cont "auch außerhalb des"
-	cont "Kampfs einsetzen."
+	; GSC-DE Dump: BASISORDEN
+	text "Mit Hilfe des BA-"
+	line "SISORDENs können"
+
+	para "deine #MON"
+	line "STÄRKE auch außer-"
+	cont "halb eines Kampfes"
+	cont "einsetzen."
+
 	para "Außerdem erhöht er"
 	line "die INIT deiner"
-	cont "#mon."
+	cont "#MON."
+
 	para "Oh, das hier"
 	line "kannst du auch"
 	cont "haben!"
 	done
 
-
-
-
-
-
 WhitneyGoodCryText:
+	; GSC-DE Dump
 	text "Ah, die Flennerei"
-	line "hat gut getan!"
+	line "hat gut getan! Be-"
 
-	para "Besuche mich mal"
+	para "suche mich mal"
 	line "wieder! Tschüssi!"
 	done
 
-
-
-
-
-
 LassCathySeenText:
+	; GSC-DE Dump
 	text "Lass dich nicht"
 	line "von dem netten"
 
 	para "Äußeren meiner"
-	line "#mon täuschen."
+	line "#MON täuschen."
 
 	para "Sie können dich"
 	line "platt machen."
 	done
+
 LassCathyBeatenText:
+	; GSC-DE Dump
 	text "Verflixt… Ich"
 	line "dachte, du wärest"
 	cont "schwach…"
 	done
+
 SrandjrJoandcath1SeenText:
+	; GSC-DE Dump (PC: Jo/Cath-Paar)
 	text "Jo: Wenn du BIANKA"
 	line "willst,"
+
 	para "musst du erst an"
 	line "mir vorbei!"
+
 	para "Cath, klang das"
 	line "cool?"
 	done
+
 SrandjrJoandcath1BeatenText:
+	; GSC-DE Dump (PC: Jo/Cath-Paar)
 	text "Jo: Verlieren ist"
 	line "gar nicht cool!"
 	done
-SrandjrJoandcath2SeenText:
-	text "Cath: Ich will"
-	line "BIANKA besiegen,"
 
-	para "aber erst kämpfen"
-	line "wir gegen dich!"
+SrandjrJoandcath2SeenText:
+	; GSC-DE Dump (Carrie-Seen auf Cath)
+	text "Ich mag niedliche"
+	line "#MON lieber"
+	cont "als starke."
+
+	para "Aber ich habe"
+	line "starke und nied-"
+	cont "liche #MON!"
 	done
+
 SrandjrJoandcath2BeatenText:
-	text "Cath: Oh nein,"
-	line "nein, nein!"
+	; GSC-DE Dump
+	text "Oh, nein, nein!"
 	done
+
 JoWhitneyCriesText:
-	text "Ach nein. Du hast"
+	; GSC-DE Dump
+	text "Oh nein. Du hast"
 	line "BIANKA zum Weinen"
 	cont "gebracht."
+
 	para "Keine Sorge. Sie"
 	line "beruhigt sich bald"
+
 	para "wieder. Sie weint"
 	line "immer, wenn sie"
 	cont "verloren hat."
 	done
+
 BeautyVictoriaSeenText:
+	; GSC-DE Dump
 	text "Oh, du musst wohl"
 	line "noch etwas"
 
@@ -342,46 +359,30 @@ BeautyVictoriaSeenText:
 	line "zurückhalten!"
 	done
 
-
-
-
-
-
 BeautyVictoriaBeatenText:
+	; GSC-DE Dump
 	text "Mal sehen… Ups,"
 	line "schon vorbei?"
 	done
 
-
-
-
-
-
 BeautySamanthaSeenText:
+	; GSC-DE Dump
 	text "Schlag ordentlich"
 	line "zu, sonst werde"
 	cont "ich es tun!"
 	done
 
-
-
-
-
-
 BeautySamanthaBeatenText:
+	; GSC-DE Dump
 	text "Nein! Oh, MAUZI,"
 	line "es tut mir Leid!"
 	done
 
-
-
-
-
-
 GoldenrodGymGuyWinText:
+	; GSC-DE Dump
 	text "Du hast gewonnen?"
-	line "Toll! Ich war"
-	cont "damit beschäftigt,"
+	line "Toll! Ich war da-"
+	cont "mit beschäftigt,"
 	cont "die hübschen Damen"
 	cont "hier zu bewundern."
 	done

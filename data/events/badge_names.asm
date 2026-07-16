@@ -3,7 +3,7 @@ BadgeNames:
 	; Johto GSC-DE (Dump: FLÜGELORDEN / INSEKTORDEN → Kurznamen)
 	li "Flügel"
 	li "Insekt"
-	li "Plan"
+	li "Basis"
 	li "Nebel"
 	li "Sturm"
 	li "Mineral"

@@ -135,6 +135,7 @@ GoldenrodUndergroundCheckDayOfWeek:
 GenericTrainerSupernerdEric:
 	generictrainer SUPER_NERD, ERIC, EVENT_BEAT_SUPER_NERD_ERIC, SupernerdEricSeenText, SupernerdEricBeatenText
 
+	; GSC-DE Dump
 	text "Ich glaube, dass"
 	line "ich lieber fair"
 	cont "spielen sollte…"
@@ -143,21 +144,22 @@ GenericTrainerSupernerdEric:
 GenericTrainerSupernerdTeru:
 	generictrainer SUPER_NERD, TERU, EVENT_BEAT_SUPER_NERD_TERU, SupernerdTeruSeenText, SupernerdTeruBeatenText
 
+	; GSC-DE Dump
 	text "Ich kenne die"
 	line "Stärken und"
 	cont "Schwächen meiner"
-	cont "#mon."
+	cont "#MON."
 	para "Aber ich setze nur"
-	line "einen #mon-Typ"
+	line "einen #MON-Typ"
 	cont "ein."
 	done
 
 GenericTrainerPokemaniacIssac:
 	generictrainer POKEMANIAC, ISSAC, EVENT_BEAT_POKEMANIAC_ISSAC, PokemaniacIssacSeenText, PokemaniacIssacBeatenText
 
-	text "Deine #mon"
+	; GSC-DE Dump
+	text "Deine #MON"
 	line "mögen dich mehr,"
-
 	para "wenn du sie zum"
 	line "Coiffeur bringst."
 	done
@@ -165,16 +167,17 @@ GenericTrainerPokemaniacIssac:
 GenericTrainerPokemaniacDonald:
 	generictrainer POKEMANIAC, DONALD, EVENT_BEAT_POKEMANIAC_DONALD, PokemaniacDonaldSeenText, PokemaniacDonaldBeatenText
 
+	; GSC-DE Dump
 	text "Erstellst du einen"
 	line "#DEX? Ich habe"
-	cont "einen heißen Tipp"
-	cont "für dich."
+	cont "einen heißen"
+	cont "Tipp für dich."
 	para "WANDERER TOM auf"
 	line "ROUTE 33 ist sehr"
 	cont "freundlich."
 	para "Er ruft dich an,"
 	line "wenn er seltene"
-	cont "#mon sieht."
+	cont "#MON sieht."
 	done
 
 GenericTrainerCosplayerClara:
@@ -275,6 +278,7 @@ OlderHaircutBrotherScript:
 .Refused:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ist das wahr? Das"
 	line "ist eine Schande!"
 	done
@@ -282,6 +286,7 @@ OlderHaircutBrotherScript:
 .NotEnoughMoney:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Du hast nicht"
 	line "genügend Geld."
 	done
@@ -289,9 +294,10 @@ OlderHaircutBrotherScript:
 .AlreadyGotHaircut:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ich mache nur"
 	line "einen Haarschnitt"
-	cont "pro Tag und für"
+	cont "pro Tag, und für"
 	cont "heute bin ich"
 	cont "fertig."
 	done
@@ -363,23 +369,26 @@ YoungerHaircutBrotherScript:
 .Refused:
 	jumpthisopenedtext
 
-	text "Nein? Wie"
-	line "enttäuschend!"
+	; GSC-DE Dump
+	text "Nein? "
+	line "Schade!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Du hast nicht"
 	line "genügend Geld."
 	done
+
 .AlreadyGotHaircut:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ich mache nur"
 	line "einen Haarschnitt"
-
-	para "pro Tag und für"
+	para "pro Tag, und für"
 	line "heute bin ich"
 	cont "fertig."
 	done
@@ -650,13 +659,13 @@ PiersRematchBeatenText:
 	done
 
 SupernerdEricSeenText:
-	text "Ich wurde aus der"
-	line "SPIELHALLE"
+	; GSC-DE Dump
+	text "Ich wurde aus"
+	line "der SPIELHALLE"
 	cont "hinausgeworfen."
 	para "Ich habe versucht,"
 	line "mit Hilfe meines"
-	cont "#mon zu mogeln"
-	cont "…"
+	cont "#MON zu mogeln…"
 	done
 
 
@@ -676,12 +685,12 @@ SupernerdEricBeatenText:
 
 
 SupernerdTeruSeenText:
+	; GSC-DE Dump
 	text "Beschränkst du"
 	line "dich beim Kämpfen"
 	cont "nur auf einen Typ?"
-	para "Wenn du die"
-	line "Stärken deiner"
-	cont "Typen"
+	para "Wenn du die Stär-"
+	line "ken deiner Typen"
 	para "kennst, hast du im"
 	line "Kampf Vorteile."
 	done
@@ -703,7 +712,8 @@ SupernerdTeruBeatenText:
 
 
 PokemaniacIssacSeenText:
-	text "Meine #mon"
+	; GSC-DE Dump
+	text "Meine #MON"
 	line "kommen gerade vom"
 	cont "Coiffeur!"
 	para "Ich zeige dir, wie"
@@ -727,10 +737,10 @@ PokemaniacIssacBeatenText:
 
 
 PokemaniacDonaldSeenText:
+	; GSC-DE Dump
 	text "Ich glaube, du"
 	line "besitzt seltene"
-	cont "#mon."
-
+	cont "#MON."
 	para "Zeig sie mir!"
 	done
 
@@ -741,9 +751,10 @@ PokemaniacDonaldSeenText:
 
 
 PokemaniacDonaldBeatenText:
+	; GSC-DE Dump
 	text "Guah! Ich habe"
-	line "verloren! Ich dreh"
-	cont "durch!"
+	line "verloren! Ich"
+	cont "dreh durch!"
 	done
 
 
@@ -757,9 +768,9 @@ CosplayerClaraSeenText:
 	done
 
 CosplayerClaraBeatenText:
+	; PC-only
 	text "Du dachtest, ich"
-	line "wäre ein #mon?"
-
+	line "wäre ein #MON?"
 	para "Nein! Das ist nur"
 	line "gutes Cosplay."
 	done
@@ -787,10 +798,10 @@ GoldenrodUndergroundTheDoorIsOpenText:
 
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "Mit dem"
-	line "KELLER-ÖFFNER wird"
-	cont "die Tür"
-	cont "entriegelt."
+	; GSC-DE Dump
+	text "Mit dem KELLER-"
+	line "ÖFFNER wird die"
+	cont "Tür entriegelt."
 	done
 
 
@@ -800,15 +811,16 @@ GoldenrodUndergroundBasementKeyOpenedDoorText:
 
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
+	; GSC-DE Dump
 	text "Willkommen!"
 	para "Ich leite den"
-	line "#mon-SALON!"
+	line "#MON-SALON!"
 	para "Ich bin der ältere"
 	line "und bessere der"
-	cont "beiden"
-	cont "COIFFEUR-BRÜDER."
+	cont "beiden COIFFEUR-"
+	cont "BRÜDER."
 	para "Ich verleihe"
-	line "deinen #mon ein"
+	line "deinen #MON ein"
 	cont "schöneres Äußeres"
 	cont "für nur ¥500."
 	para "Soll ich damit"
@@ -822,8 +834,9 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
+	; GSC-DE Dump
 	text "Bei welchem"
-	line "#mon soll ich"
+	line "#MON soll ich"
 	cont "Hand anlegen?"
 	done
 
@@ -855,16 +868,17 @@ GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
 
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
+	; GSC-DE Dump
 	text "Willkommen im"
-	line "#mon-SALON!"
+	line "#MON-SALON!"
 	para "Ich bin der"
 	line "jüngere und"
 	cont "preiswertere der"
-	cont "beiden"
-	cont "COIFFEUR-BRÜDER."
+	cont "beiden COIFFEUR-"
+	cont "BRÜDER."
 	para "Ich verschönere"
-	line "deine #mon für"
-	cont "nur ¥300."
+	line "deine #MON"
+	cont "für nur ¥300."
 	para "Also? Wie wär's?"
 	done
 
@@ -875,9 +889,10 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "Welches #mon"
-	line "soll ich"
-	cont "bearbeiten?"
+	; GSC-DE Dump
+	text "Welches #MON"
+	line "soll ich be-"
+	cont "arbeiten?"
 	done
 
 
@@ -887,8 +902,9 @@ GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
 
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "O.K.! Es wird cool"
-	line "aussehen!"
+	; GSC-DE Dump
+	text "O.K.! Es wird"
+	line "cool aussehen!"
 	done
 
 
@@ -921,9 +937,10 @@ HaircutBrosText_Happier:
 	done
 
 HaircutBrosText_MuchHappier:
+	; GSC-DE Dump
 	text_ram wStringBuffer3
-	text " ist"
-	line "entzückt!"
+	text
+	line "ist entzückt!"
 	done
 
 
@@ -943,8 +960,9 @@ GoldenrodUndergroundWeAreNotOpenTodayText:
 
 
 GoldenrodUndergroundNoEntryText:
-	text "BIS HIERHER UND"
-	line "NICHT WEITER"
+	; GSC-DE Dump
+	text "BIS HIERHER"
+	line "UND NICHT WEITER"
 	done
 
 
