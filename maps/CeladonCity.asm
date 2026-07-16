@@ -140,12 +140,13 @@ Text_CeladonCityTutorQuestion:
 
 
 CeladonCityFisherText:
+	; PC-only Class C
 	text "Dieser Quappo ist"
 	line "mein Partner."
 	para "Er war früher"
 	line "Sanft, aber die"
-	cont "Verwalterin im"
-	para "Wohnkomplex hier"
+	cont "Verwalterin in der"
+	para "PRISMANIA-VILLA"
 	line "braute uns Tee mit"
 	cont "einem"
 	para "Minzblatt, das ihn"
@@ -189,52 +190,44 @@ CeladonCityGramps2Text:
 	done
 
 CeladonCityYoungster1Text:
-	text "Willst du ein"
-	line "Geheimnis wissen?"
-
-	para "Der Prismania-"
-	line "Wohnkomplex hat"
-	cont "eine versteckte"
-
-	para "Hintertür."
+	; GSC-DE Dump
+	text "Soll ich dir ein"
+	line "Geheimnis"
+	cont "erzählen?"
+	para "PRISMANIA-VILLA"
+	line "hat eine geheime"
+	cont "Hintertür."
 	done
 
 CeladonCityYoungster2Text:
 	text "Das Restaurant"
 	line "dort veranstaltet"
 	cont "einen Fress-"
-
 	para "wettbewerb."
-
 	para "Diesmal ist eine"
 	line "Teilnehmerin aus"
 	cont "der Sinnoh-Region"
-
 	para "dabei."
-
 	para "Ihr zuzusehen"
 	line "macht mich schon"
 	cont "vom Anschauen"
-
 	para "satt…"
 	done
 
 CeladonCityTeacher2Text:
-	text "Prismanias"
-	line "Kaufhaus hat die"
-	cont "größte und beste"
-
-	para "Auswahl an Waren."
-
-	para "Wenn du's dort"
-	line "nicht bekommst,"
-	cont "bekommst du's"
-
-	para "nirgends."
-
-	para "Puh… ich klinge"
-	line "wie eine"
-	cont "Verkäuferin."
+	; GSC-DE Dump
+	text "Das EINKAUFS-"
+	line "ZENTRUM in"
+	para "PRISMANIA CITY"
+	line "bietet die größte"
+	para "und beste Auswahl"
+	line "an Artikeln."
+	para "Was du da nicht"
+	line "findest, wirst"
+	para "du nirgends"
+	line "finden."
+	para "Herrje… Ich klinge"
+	line "wie ein Vertreter."
 	done
 
 CeladonCityLassText_PCC:
@@ -243,64 +236,70 @@ CeladonCityLassText_PCC:
 	cont "umgeben zu sein!"
 	para "Stimmt es, dass"
 	line "das #mon-Center"
-	cont "in Dukatia City"
+	cont "in DUKATIA CITY"
 	para "viel größer gebaut"
 	line "wurde?"
 	para "Das ist so toll!"
 	line "Ich wünschte, wir"
 	cont "hätten sowas auch"
-	para "in Kanto …"
+	para "in KANTO …"
 	done
 
 CeladonCityLassText:
 	text "#mon werden als"
 	line "Preise in der"
-	cont "Spielhalle"
-
+	cont "SPIELHALLE"
 	para "angeboten."
-
 	para "Die armen Wesen…"
 	done
 
 CeladonCitySignText:
+	; GSC-DE Dump
 	text "PRISMANIA CITY"
 	para "Die Stadt der"
 	line "Regenbogen-Träume"
 	done
+
 CeladonGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "PRISMANIA CITY"
-	cont "LEITUNG: ERIKA"
-	para "Die Prinzessin mit"
-	line "Herz für die Natur"
+	para "LEITUNG: ERIKA"
+	line "Die Prinzessin mit"
+	para "Herz für die Natur"
 	done
 
 CeladonUniversitySignText:
-	text "Prismania-"
+	; PC-only Class C
+	text "PRISMANIA-"
 	line "Universität"
-
 	para "'Wachstum durch"
 	line "Lernen'"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Finde alles, was"
-	line "du brauchst - im"
-	cont "PRISMANIA-"
-	cont "Kaufhaus!"
+	; GSC-DE Dump
+	text "Im EINKAUFSZENTRUM"
+	line "von PRISMANIA CITY"
+	cont "Findest Du Alles,"
+	cont "was Dein Herz"
+	cont "Begehrt!"
 	done
 
 CeladonCityHomeDecorStoreSignText:
-	text "PRISMANIA-Kaufhaus"
-	line "Wohndeko-Abt."
+	; PC-only Class C
+	text "PRISMANIA-"
+	line "EINKAUFSZENTRUM"
+	cont "Wohndeko-Abt."
 	done
 
 CeladonCityMansionSignText:
-	text "PRISMANIA-"
-	line "Wohnkomplex"
+	; GSC-DE Dump
+	text "PRISMANIA-VILLA"
 	done
 
 CeladonCityGameCornerSignText:
+	; GSC-DE Dump
 	text "Der Spielplatz"
 	line "Für Jedermann --"
 	para "SPIELHALLE von"
@@ -314,41 +313,37 @@ CeladonCityPrizeExchangeSignText:
 	done
 
 CeladonCityCafeSignText:
-	text "Prismania-Diner"
-
+	; PC-only Class C
+	text "PRISMANIA-Diner"
 	para "Heute den ganzen"
 	line "Tag"
 	cont "Fresswettbewerb!"
 	done
 
 CeladonCityHotelSignText:
-	text "Prismania-Hotel"
-
+	; PC-only Class C
+	text "PRISMANIA-Hotel"
 	para "Entspann dich in"
 	line "unserem Pool!"
 	done
 
 CeladonCityTrainerTips1Text:
-	text "Trainer-Tipps"
-	done
-
-if DEF(FAITHFUL)
-	para "Schutzplus"
-else
-	para "Schutzplus"
-endc
+	; GSC-DE Dump
+	text "TIPPS für TRAINER"
+	para "Der MEGABLOCK"
 	line "schützt #mon"
-
-	para "vor Statuswerte-"
-	line "Senkungen."
-
-	para "Kauf deine Items"
-	line "im Prismania-"
-	cont "Kaufhaus!"
+	para "vor SPEZIAL-"
+	line "Attacken wie z.B."
+	cont "Feuer und Wasser."
+	para "Hol dir deine"
+	line "Items im EINKAUFS-"
+	cont "ZENTRUM von"
+	cont "PRISMANIA CITY!"
 	done
 
 CeladonCityTrainerTips2Text:
-	text "Trainer-Tipps"
+	; PC-only Class C
+	text "TIPPS für TRAINER"
 	para "Evoli ist ein"
 	line "#mon voller"
 	cont "Potenzial."

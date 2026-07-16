@@ -20,26 +20,34 @@ CeladonDeptStore2F_MapScriptHeader:
 	object_event  6,  2, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore2FYoungsterText, -1
 
 CeladonDeptStore2FPokefanMText:
-	text "Ich bin erst"
-	line "kürzlich Trainer"
-	cont "geworden."
-	para "Mein Sohn hat mich"
-	line "dazu ermutigt."
-	para "Die Auswahl an"
-	line "praktischen Items"
-	cont "beeindruckt mich."
+	; GSC-DE Dump
+	text "Ich bin erst vor"
+	line "kurzem Trainer"
+	para "geworden. Mein"
+	line "Sohn hat mir dazu"
+	cont "geraten."
+	para "Dieses riesige"
+	line "Angebot an nütz-"
+	cont "lichen Items ist"
+	cont "überwältigend."
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "Mein Papa tut sich"
-	line "schwer, die Namen"
-	cont "der Items"
-	para "und ihre Nutzung"
-	line "zu lernen …"
+	; GSC-DE Dump
+	text "Mein Papa hat sich"
+	line "sehr schwer getan,"
+	para "die Bezeichnungen"
+	line "aller Items zu"
+	para "lernen und zu"
+	line "unterscheiden,"
+	para "wann man sie"
+	line "einsetzt…"
 	done
 
 CeladonDeptStore2FDirectoryText:
-	text "Erstklassige Items"
+	; GSC-DE Dump (PC 2F)
+	text "Nützliche Items"
 	line "für Trainer!"
-	para "2F: Trainer-Markt"
+	para "2F: ZUBEHÖR für"
+	line "    TRAINER"
 	done

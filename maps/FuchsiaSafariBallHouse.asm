@@ -60,17 +60,23 @@ FuchsiaSafariBallHouseOfficerScript:
 	text "Du hast nicht"
 	line "genug Geld."
 	done
+
+; PC-only (class C): SAFARI closed story + leftover balls
 .IntroText:
 	text "Früher leitete ich"
-	line "das Safari-Spiel."
+	line "das SAFARI-SPIEL."
+
 	para "Jetzt, wo es zu"
 	line "ist, muss ich auf"
+
 	para "andere Weise Geld"
 	line "verdienen."
+
 	para "Willst du übrig"
 	line "gebliebene"
-	cont "Safari-Bälle"
+	cont "SAFARI-BÄLLE"
 	cont "kaufen?"
+
 	para "Sie sind"
 	line "Sammlerstücke!"
 	done
@@ -95,4 +101,4 @@ FuchsiaSafariBallHouseOfficerScript:
 	db 3 ; items
 	db "× 1   ¥2000@"
 	db "×10  ¥20000@"
-	db "Cancel@"
+	db "Zurück@"

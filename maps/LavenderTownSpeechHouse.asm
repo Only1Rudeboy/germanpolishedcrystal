@@ -15,12 +15,16 @@ LavenderTownSpeechHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderSpeechHousePokefanFText, -1
 
 LavenderSpeechHousePokefanFText:
+	; GSC-DE Dump 3181
 	text "LAVANDIA ist eine"
 	line "ruhige, kleine"
+
 	para "Stadt am Fuße der"
 	line "Berge."
+
 	para "In letzter Zeit"
 	line "ist sie durch den"
+
 	para "Bau des RADIOTURMs"
 	line "etwas geschäftiger"
 	cont "geworden."

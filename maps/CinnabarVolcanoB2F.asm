@@ -112,20 +112,21 @@ MoltresText:
 	done
 
 CinnabarVolcanoB2FLawrenceSpeechText:
+	; PC (class C)
 	text "Lawrence: Hallo"
 	line "wieder, <PLAYER>."
 	para "Du suchst hier"
 	line "also auch nach"
 	cont "LAVADOS? Habe ich"
 	cont "dich inspiriert?"
-	para "… Was?! Du hast es"
+	para "…Was?! Du hast es"
 	line "schon gefangen?"
 	cont "Unmöglich."
 	para "Ich habe Jahre in"
-	line "der Siegesstraße"
+	line "der SIEGESSTRASSE"
 	cont "und auf"
 	para "den Inseln südlich"
-	line "von Kanto gejagt …"
+	line "von KANTO gejagt…"
 	para "Warum hast du"
 	line "Erfolg, wo ich"
 	cont "scheiterte?"
@@ -141,15 +142,16 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 	line "inakzeptabel."
 	para "Triff mich am"
 	line "zerstörten Schrein"
-	cont "auf"
-	cont "Shamouti-Insel."
+	cont "auf der"
+	cont "SHAMOUTI-INSEL."
 	para "Ich zeige dir,"
 	line "dass ich diese"
-	cont "#mon verdient"
+	cont "#MON verdient"
 	cont "habe."
 	done
 
 CinnabarVolcanoB2FLawrenceEscapeRopeText:
+	; PC (class C)
 	text "Lawrence benutzt"
 	line "FLUCHTSEIL!"
 	done

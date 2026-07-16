@@ -248,7 +248,7 @@ KabutopsFossilSignpostScript:
 	line "(Domfossil)"
 
 	para "Ein primitives,"
-	line "seltenes #mon."
+	line "seltenes #MON."
 	done
 
 OmastarFossilSignpostScript:
@@ -262,7 +262,7 @@ OmastarFossilSignpostScript:
 	line "(Helixfossil)"
 
 	para "Ein primitives,"
-	line "seltenes #mon."
+	line "seltenes #MON."
 	done
 
 AerodactylFossilSignpostScript:
@@ -275,7 +275,7 @@ AerodactylFossilSignpostScript:
 	text "Aerodactyl-Fossil"
 
 	para "Ein primitives,"
-	line "seltenes #mon."
+	line "seltenes #MON."
 	done
 
 Museum1FScientistText:
@@ -283,7 +283,7 @@ Museum1FScientistText:
 	line "drei Fossilien"
 	para "seltener,"
 	line "urzeitlicher"
-	cont "#mon."
+	cont "#MON."
 	para "Ich habe beim"
 	line "Zusammenbau"
 	cont "geholfen!"
@@ -292,7 +292,7 @@ Museum1FScientistText:
 Museum1FFossilScientistText:
 	text "Wusstest du, dass"
 	line "man aus Fossilien"
-	para "#mon herstellt?"
+	para "#MON herstellt?"
 	para "Wenn du das"
 	line "brauchst,"
 	cont "übernehme ich das!"
@@ -304,14 +304,15 @@ Museum1FGrampsText:
 	done
 
 Museum1FYoungsterText:
+	; PC-only (C)
 	text "Es gibt zwei Orte,"
 	line "die ich liebe!"
 	para "Einer sind die"
-	line "Ruinen von Alph in"
-	cont "Johto."
+	line "ALPH-RUINEN in"
+	cont "JOHTO."
 	para "Das andere ist das"
 	line "Museum von"
-	cont "Marmoria City!"
+	cont "MARMORIA CITY!"
 	para "Beide haben so"
 	line "viel Geschichte!"
 	done
@@ -321,8 +322,8 @@ Museum1FBookshelfSignpostText:
 	line "gelesene Bücher!"
 	para "Archäologie-"
 	line "Manual, Verlorene"
-	cont "#mon,"
-	cont "#mon-Vorfahren,"
+	cont "#MON,"
+	cont "#MON-Vorfahren,"
 	para "Pflege der"
 	line "Lehmschicht von"
 	cont "Kanto…"
@@ -350,13 +351,13 @@ AskOldAmberText:
 
 ResurrectingPokemonText:
 	text "O.K.! Ich reani-"
-	line "miere das #mon!"
+	line "miere das #MON!"
 	done
 
 NoRoomForFossilPokemonText:
 	text "Hey! Du kannst"
 	line "kein weiteres"
-	cont "#mon tragen,"
+	cont "#MON tragen,"
 	cont "und deine Box ist"
 	cont "auch voll!"
 	done

@@ -26,10 +26,13 @@ Route11Gate2FBinoculars1:
 Route11Gate2FBinoculars2:
 	jumpthistext
 
+	; CAPS dump-Orte
 	text "Durch das Fernglas"
 	line "geschaut."
+
 	para "Von AZURIA CITY"
 	line "nach LAVANDIA"
+
 	para "führt nur der"
 	line "FELSTUNNEL."
 	done

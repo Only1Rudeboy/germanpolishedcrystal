@@ -13,7 +13,7 @@ BadgeNames:
 	li "Fels"
 	li "Quell"
 	li "Donner"
-	li "Regenbogen"
+	li "Farbe"
 if DEF(FAITHFUL)
 	li "Seele"
 	li "Sumpf"

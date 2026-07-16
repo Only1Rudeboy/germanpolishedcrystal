@@ -243,74 +243,81 @@ endr
 
 
 CeladonGameCornerReceptionistText:
+	; GSC-DE Dump
 	text "Willkommen!"
-
 	para "Du kannst deine"
 	line "Münzen nebenan"
-	cont "gegen tolle"
-
-	para "Preise tauschen."
+	para "gegen fabelhafte"
+	line "Preise ein-"
+	cont "tauschen."
 	done
 
 CeladonGameCornerPokefanMText:
+	; GSC-DE Dump
 	text "Die Spielautomaten"
 	line "sind alle"
 	cont "hochmodern."
 	done
 
 CeladonGameCornerTeacherText:
-	text "Diesen Automaten"
-	line "will ich."
-
-	para "Gestern hat er"
-	line "mich leergeräumt,"
-	cont "heute zahlt er"
-
-	para "bestimmt aus."
+	; GSC-DE Dump
+	text "An diesem Automa-"
+	line "ten will ich"
+	cont "spielen."
+	para "An dem habe ich"
+	line "gestern haushoch"
+	para "verloren. Das will"
+	line "ich heute wieder-"
+	cont "haben."
 	done
 
 CeladonGameCornerFishingGuruText:
-	text "Ich glaub, dieser"
-	line "Automat zahlt aus"
-	cont "…"
-	para "Die Chancen"
-	line "variieren je"
-	cont "Automat."
+	; GSC-DE Dump
+	text "Ich glaube, an"
+	line "diesem Automaten"
+	cont "werde ich"
+	cont "gewinnen…"
+	para "Die Gewinnchancen"
+	line "sind bei jedem"
+	cont "Automaten anders."
 	done
 
 CeladonGameCornerFisherText1:
-	text "Gahahaha!"
-	para "Die Münzen"
-	line "sprudeln nur so"
-	cont "raus!"
-	para "Hm? Was, Kleiner?"
-	line "Willst du spielen?"
-	para "Ich teil mein"
+	; GSC-DE Dump
+	text "Guahahaha!"
+	para "Die Münzen kommen"
+	line "mir entgegen!"
+	para "Hm? Was, Zwerg?"
+	line "Du willst spielen?"
+	para "Ich teile mein"
 	line "Glück mit dir!"
 	done
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
-
-	para "Es fühlt sich gut"
-	line "an, Gutes für"
-	cont "andere zu tun!"
+	; GSC-DE Dump
+	text "Hahahaha!"
+	para "Ich fühle mich"
+	line "wohl, wenn ich"
+	para "anderen etwas"
+	line "Gutes tue!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, du hast"
-	line "keinen Münzkorb."
-
+	; GSC-DE Dump
+	text "Eh, du hast keinen"
+	line "MÜNZKORB."
 	para "Wie soll ich dir"
-	line "da Münzen geben,"
-	cont "Kleiner?"
+	line "denn so Münzen"
+	cont "geben, Zwerg?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Hey, dein Münzkorb"
-	line "ist voll, Kleiner."
+	; GSC-DE Dump
+	text "Heh, dein MÜNZKORB"
+	line "ist voll, Wicht."
 	para "Du hast wohl auch"
-	line "eine Glückssträhne"
+	line "eine Glücks-"
+	cont "strähne."
 	done
 
 CeladonGameCornerReceived18CoinsText:
@@ -319,45 +326,45 @@ CeladonGameCornerReceived18CoinsText:
 	done
 
 FisherOfferText:
-	text "Hm? Was, Kleiner?"
+	text "Hm? Was, Zwerg?"
 	line "Willst du immer"
 	cont "noch spielen?"
-
 	para "Ich weiß! Du"
 	line "kannst für 50"
 	cont "Münzen spielen."
-
 	para "Wie wär's?"
 	done
 
 FisherNotEnoughText:
-	text "Hey, dein Münzkorb"
+	text "Heh, dein MÜNZKORB"
 	line "ist fast leer,"
-	cont "Kleiner."
+	cont "Wicht."
 	para "Dein Glück scheint"
 	line "zu versiegen."
 	done
 
 CeladonGymGuyText:
-	text "Hey! Zukünftiger"
-	line "Champ!"
+	; GSC-DE Dump
+	text "He! Ein CHAMP"
+	line "in spe!"
 	para "Spielst du auch an"
 	line "den Automaten?"
-	para "Ich versuch genug"
-	line "Münzen für ein"
-	cont "Preis-#mon zu"
-	para "bekommen."
-	para "Aber ich hab noch"
-	line "nicht genug Münzen"
-	cont "…"
+	para "Ich möchte genug"
+	line "Münzen sammeln für"
+	cont "ein prämiertes"
+	cont "#mon."
+	para "Aber ich habe noch"
+	line "nicht genug"
+	cont "Münzen…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hmmm … Die Chancen"
-	line "sind sicher besser"
-	cont "bei Pikachus"
-	para "Reihe, aber … Was"
-	line "soll ich tun?"
+	; GSC-DE Dump
+	text "Hm… Die Chancen,"
+	line "eine PIKACHU-Reihe"
+	para "zu bekommen,"
+	line "stehen gut, aber…"
+	cont "Was nun?"
 	done
 
 CeladonGameCornerPosterScript:
@@ -390,16 +397,17 @@ CeladonGameCornerPosterScript:
 	done
 
 CeladonGameCornerLighterText:
-	text "Hier liegt ein"
+	; GSC-DE Dump
+	text "Da ist ein"
 	line "Feuerzeug."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "Eine Dose Limo…"
-
-	para "Da kommt wohl"
-	line "gleich jemand"
-	cont "zurück…"
-
-	para "Hä? Sie ist leer!"
+	; GSC-DE Dump
+	text "Eine Wasser-"
+	line "flasche…"
+	para "Die muss jemandem"
+	line "gehören, der sie"
+	cont "holen wird…"
+	para "Was? Sie ist leer!"
 	done

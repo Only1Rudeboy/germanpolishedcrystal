@@ -176,13 +176,15 @@ CopycatRetortScript:
 	special RefreshSprites
 	jumpthistext
 
+	; GSC-DE Dump 5847
 	text "NACHAHMERIN: Hm?"
 	line "Das Nachahmen"
 	cont "aufgeben?"
-	para "Aber das ist meine"
-	line "liebste"
+	para "Aber das ist"
+	line "meine liebste"
 	cont "Beschäftigung!"
 	done
+
 CopycatWorriedScript:
 	faceplayer
 	loadmem wObject1Palette, 1
@@ -191,16 +193,18 @@ CopycatWorriedScript:
 	setevent EVENT_MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM
 	jumpthistext
 
+	; GSC-DE Dump 5849
 	text "NACHAHMERIN:"
 	line "Bitte?"
 	para "Ich soll dir nicht"
 	line "sagen, was du zu"
 	cont "tun hast?"
 	para "Aber ich mache mir"
-	line "wirklich Sorgen …"
+	line "wirklich Sorgen…"
 	cont "Was, wenn jemand"
 	cont "sie findet?"
 	done
+
 CopycatFoundLostItemScript:
 	opentext
 	writetext .FoundDollText
@@ -211,15 +215,16 @@ CopycatFoundLostItemScript:
 	sjumpfwd CopycatGivePassScript
 
 .FoundDollText:
-
+	; GSC-DE Dump 5850
 	text "NACHAHMERIN: Jaa!"
 	line "Das ist meine"
 	cont "PIEPI-#PUPPE!"
-	para "Siehst du die Naht"
-	line "am rechten"
-	para "Bein? Das ist der"
-	line "Beweis!"
+	para "Siehst du die"
+	line "Naht am rechten"
+	para "Bein? Das ist"
+	line "der Beweis!"
 	done
+
 CopycatReturnedLostItemScript:
 	opentext
 CopycatGivePassScript:
@@ -230,23 +235,26 @@ CopycatGivePassScript:
 	setevent EVENT_GOT_PASS_FROM_COPYCAT
 	jumpthisopenedtext
 
+	; GSC-DE Dump 5852
 	text "NACHAHMERIN: Das"
 	line "ist der FAHRSCHEIN"
 	cont "für den MAGNETZUG."
 	para "Der Mann von der"
 	line "Eisenbahn gab mir"
 	para "das, als sie unser"
-	line "altes Haus"
-	cont "niederrissen, um"
-	cont "den BAHNHOF zu"
-	cont "bauen."
+	line "altes Haus nieder-"
+	cont "rissen, um den"
+	cont "BAHNHOF zu bauen."
 	done
+
 .GivePassText:
+	; GSC-DE Dump 5851
 	text "Also gut. Hier ist"
 	line "der FAHRSCHEIN für"
 	cont "den MAGNETZUG! Wie"
 	cont "versprochen."
 	done
+
 CopycatFinalScript:
 	faceplayer
 	loadmem wObject1Palette, 1
@@ -254,29 +262,34 @@ CopycatFinalScript:
 	special RefreshSprites
 	jumpthistext
 
-	text "NACHAHMERIN:"
+	; GSC-DE Dump 5854
+	text "NACHAHMERIN: "
 	line "Darauf kannst du"
 	cont "wetten!"
 	done
+
 CopycatGreeting1Text:
-	text "<PLAYER>: Hallo!"
-	line "Magst du #mon?"
+	; GSC-DE Dump 5846
+	text "<PLAYER>: Hi! Magst"
+	line "du #mon?"
 	para "<PLAYER>: Äh, nein,"
 	line "ich frage dich."
-	para "<PLAYER>: Was? Du"
-	line "bist komisch!"
+	para "<PLAYER>: Was?"
+	line "Du bist komisch!"
 	done
+
 CopycatLostDoll1Text:
-	text "<PLAYER>: Hallo!"
+	; GSC-DE Dump 5848
+	text "<PLAYER>: Hi!"
 	line "Ich habe gehört,"
 	para "dass du deine"
-	line "Lieblings- #"
-	cont "PUPPE verloren"
-	cont "hast."
+	line "Lieblings-"
+	cont "#PUPPE"
+	cont "verloren hast."
 	para "<PLAYER>: Gibst du"
-	line "mir einen"
-	cont "FAHR-SCHEIN, wenn"
-	cont "ich sie finde?"
+	line "mir einen FAHR-"
+	cont "SCHEIN, wenn ich"
+	cont "sie finde?"
 	para "<PLAYER>: Ich suche"
 	line "sie für dich."
 	para "Du glaubst, sie"
@@ -284,35 +297,39 @@ CopycatLostDoll1Text:
 	cont "ORANIA CITY"
 	cont "verloren zu haben?"
 	done
+
 CopycatThanks1Text:
-	text "<PLAYER>: Hallo!"
+	; GSC-DE Dump 5853
+	text "<PLAYER>: Hi!"
 	line "Vielen Dank für"
 	cont "den FAHRSCHEIN!"
-
 	para "<PLAYER>: Bitte?"
-
 	para "<PLAYER>: Ist es"
 	line "wirklich so toll,"
 	cont "jede Bewegung"
 	cont "nachzuahmen?"
 	done
+
 CopycatGreeting2Text:
+	; GSC-DE Dump 5855
 	text "<PLAYER>: Hi. Du"
 	line "musst #mon"
 	cont "mögen."
 	para "<PLAYER>: Nein,"
 	line "nicht ich. Ich"
 	cont "habe dich gefragt."
-	para "<PLAYER>: Bitte? Du"
-	line "bist seltsam!"
+	para "<PLAYER>: Bitte?"
+	line "Du bist seltsam!"
 	done
+
 CopycatLostDoll2Text:
-	text "<PLAYER>: Hi. Hast"
-	line "du wirklich deine"
-	cont "#PUPPE"
+	; GSC-DE Dump 5856
+	text "<PLAYER>: Hi."
+	line "Hast du wirklich"
+	cont "deine #PUPPE"
 	cont "verloren?"
-	para "<PLAYER>: Du gibst"
-	line "mir wirklich"
+	para "<PLAYER>: Du"
+	line "gibst mir wirklich"
 	para "einen FAHRSCHEIN,"
 	line "falls ich sie"
 	cont "finde?"
@@ -323,16 +340,18 @@ CopycatLostDoll2Text:
 	line "sie in ORANIA CITY"
 	cont "verloren?"
 	done
+
 CopycatThanks2Text:
+	; GSC-DE Dump 5857
 	text "<PLAYER>: Danke für"
 	line "den FAHRSCHEIN!"
-	para "<PLAYER>: … Bitte?"
-	para "<PLAYER>: Macht es"
-	line "wirklich so"
+	para "<PLAYER>: …Bitte?"
+	para "<PLAYER>: Macht"
+	line "es wirklich so"
 	para "viel Spaß mir"
-	line "alles"
-	cont "nachzusprechen und"
-	cont "alles nachzuahmen?"
+	line "alles nachzu-"
+	cont "sprechen und alles"
+	cont "nachzuahmen?"
 	done
 CopycatSpinMovement:
 rept 2
@@ -351,26 +370,31 @@ CopycatsDodrioScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "SPIEGLEIN,"
-	line "SPIEG-LEIN AN DER"
-	cont "WAND,"
+	; GSC-DE Dump 5859
+	text "SPIEGLEIN, SPIEG-"
+	line "LEIN AN DER WAND,"
 	para "WER IST DIE"
 	line "SCHÖNSTE IM GANZEN"
 	para "LAND?"
 	done
+
 .Text1:
+	; GSC-DE Dump 5858
 	text "DODRI: Gii giii!"
 	done
+
 CopycatsHouse2FDollScript:
 	jumpthistext
 
+	; GSC-DE Dump 5860
 	text "Das ist ein"
 	line "seltenes #mon!"
 	cont "Was?"
-
 	para "Es ist nur eine"
 	line "Puppe…"
 	done
+
 CopycatsHouse2FDittoText:
+	; PC-only
 	text "Ditto: Dii…"
 	done

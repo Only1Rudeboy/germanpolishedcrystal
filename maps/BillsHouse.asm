@@ -21,24 +21,26 @@ PokemonJournalBillScript:
 	setflag ENGINE_READ_BILL_JOURNAL
 	jumpthistext
 
-	text "#mon-Journal"
+	; PC-only Journal
+	text "#MON-Journal"
 	para "Spezialthema:"
-	line "#-Maniac BILL!"
+	line "#-MANIAC BILL!"
 	para "BILL erfand das"
-	line "#mon-"
+	line "#MON-"
 	cont "Lagersystem für"
 	cont "seine"
 	para "riesige"
-	line "#mon-Sammlung."
+	line "#MON-Sammlung."
 	para "Sein erstes"
-	line "gefangenes #mon"
-	para "war wohl ein Abra."
+	line "gefangenes #MON"
+	para "war wohl ein ABRA."
 	done
 
 BillsHousePCText:
+	; PC-only
 	text "Hier dreht sich"
 	line "ein 3D-Modell von"
-	cont "einem Porygon."
+	cont "einem PORYGON."
 	done
 
 BillsHouseBillScript:
@@ -61,33 +63,36 @@ BillsHouseBillScript:
 	jumpthistext
 
 .AfterText:
+	; PC-only (C)
 	text "Das war ein geiler"
 	line "Kampf!"
-	para "Jeder #-Maniac"
+	para "Jeder #-MANIAC"
 	line "wäre begeistert zu"
 	cont "sehen, was du"
 	para "gefangen hast."
 	done
 
 .IntroText:
-	text "BILL: Evoli ist so"
+	; PC-only (C) – GSC hat hier Opa
+	text "BILL: EVOLI ist so"
 	line "ein faszinierendes"
-	cont "#mon."
+	cont "#MON."
 	para "Manche sagen, die"
 	line "drei legendären"
-	para "Bestien Johtos"
+	para "Bestien JOHTO"
 	line "waren einst drei"
-	para "#mon, die sich"
-	line "aus Evoli"
+	para "#MON, die sich"
+	line "aus EVOLI"
 	cont "entwickeln."
 	para "Aber das könnte"
 	line "nur ein Gerücht"
 	cont "sein."
 	para "Trotzdem würd ich"
-	line "sie gern sehen …"
+	line "sie gern sehen…"
 	done
 
 .SeenText:
+	; PC-only (C)
 	text "Du hast alle drei"
 	line "legendären Bestien"
 	cont "gefangen?"
@@ -95,7 +100,7 @@ BillsHouseBillScript:
 	line "<PLAYER>!"
 	para "Denkst du, sie"
 	line "waren mal mit"
-	cont "Evoli verwandt?"
+	cont "EVOLI verwandt?"
 	para "Mann, jetzt muss"
 	line "ich dir mein Team"
 	cont "zeigen!"
@@ -103,7 +108,7 @@ BillsHouseBillScript:
 	line "Legenden, gegen"
 	cont "die du kämpftest,"
 	para "mit meinen eigenen"
-	line "#mon"
+	line "#MON"
 	cont "vergleichen!"
 	done
 

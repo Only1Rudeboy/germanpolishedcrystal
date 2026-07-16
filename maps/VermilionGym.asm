@@ -98,14 +98,17 @@ VermilionGymSurgeScript:
 GenericTrainerGentlemanGregory:
 	generictrainer GENTLEMAN, GREGORY, EVENT_BEAT_GENTLEMAN_GREGORY, GentlemanGregorySeenText, GentlemanGregoryBeatenText
 
+	; GSC-DE Dump 6098
 	text "Als ich noch bei"
 	line "der Armee war, hat"
+
 	para "MAJOR BOB mein"
 	line "Leben gerettet."
 	done
 GenericTrainerGuitaristmVincent:
 	generictrainer GUITARISTM, VINCENT, EVENT_BEAT_GUITARISTM_VINCENT, GuitaristmVincentSeenText, GuitaristmVincentBeatenText
 
+	; PC: Stromzäune (GSC Fallen)
 	text "MAJOR BOB ist von"
 	line "Stromzäunen"
 	cont "geschützt,"
@@ -118,15 +121,18 @@ GenericTrainerGuitaristmVincent:
 GenericTrainerJugglerHorton:
 	generictrainer JUGGLER, HORTON, EVENT_BEAT_JUGGLER_HORTON, JugglerHortonSeenText, JugglerHortonBeatenText
 
+	; GSC-DE Dump 6104
 	text "Lass dir den Sieg"
 	line "über mich nicht zu"
-	para "Kopf steigen …"
+
+	para "Kopf steigen…"
 	line "MAJOR BOB ist"
 	cont "stark."
 	done
 GenericTrainerGuitaristfJanet:
 	generictrainer GUITARISTF, JANET, EVENT_BEAT_GUITARISTF_JANET, GuitaristfJanetSeenText, GuitaristfJanetBeatenText
 
+	; PC: Schalter-Puzzle
 	text "MAJOR BOB hat"
 	line "beide Schalter"
 	para "für die Stromzäune"
@@ -138,20 +144,27 @@ VermilionGymGuyScript:
 	iftrue_jumptextfaceplayer VermilionGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo! Zukünftiger"
-	line "Champ!"
+	; GSC-DE Dump 6105
+	text "He! Du CHAMP"
+	line "in spe!"
+
+	para "Dieses Mal hattest"
+	line "du Glück."
+
 	para "MAJOR BOB ist sehr"
-	line "vorsichtig."
-	para "Er hat"
-	para "überall in der"
-	line "ARENA Fallen"
+	line "vorsichtig. Er"
+
+	para "hat überall in der"
+	line "PKMN-ARENA Fallen"
 	cont "aufgestellt."
-	para "Aber Arenarätsel"
-	line "sind dir doch"
-	cont "vertraut!"
-	para "Du kommst ohne"
-	line "Probleme zu MAJOR"
-	cont "BOB."
+
+	para "Aber, -- hihi --"
+	line "die Fallen funk-"
+	cont "tionieren nicht."
+
+	para "Du wirst MAJOR BOB"
+	line "problemlos"
+	cont "erreichen."
 	done
 
 VermilionGymTrashCanScript:
@@ -206,41 +219,70 @@ VermilionGymStatue:
 	jumpstd gymstatue2
 
 LtSurgeIntroText:
-	text "Hey! Schock dich!"
-	line "Ich bin MAJOR BOB!"
-	para "ARENALEITER von"
-	line "ORANIA CITY!"
-	para "Ich habe im Krieg"
-	line "mit"
-	cont "Elektro-#mon"
-	cont "trainiert!"
-	para "Ich werde dich"
-	line "elektrisieren!"
+	; GSC-DE Dump 6091
+	text "MAJOR BOB: Heh, du"
+	line "Windelpupser!"
+
+	para "Das muss ich dir"
+	line "lassen. Es ist"
+
+	para "nicht sehr weise,"
+	line "mich herauszufor-"
+	cont "dern, aber es ist"
+	cont "mutig!"
+
+	para "Wenn es um"
+	line "Elektro-#mon"
+	cont "geht, bin ich die"
+	cont "Nummer eins!"
+
+	para "Ich habe das"
+	line "Schlachtfeld nie"
+
+	para "als Verlierer"
+	line "verlassen."
+
+	para "Ich grille dich,"
+	line "wie ich es mit"
+
+	para "meinen Feinden im"
+	line "Krieg tat!"
 	done
 LtSurgeWinLossText:
-	text "Arrgh! Du bist"
-	line "stark!"
-	para "O.K., nimm den"
-	line "DONNERORDEN!"
+	; GSC-DE Dump 6092
+	text "MAJOR BOB: Arrrgh!"
+	line "Du bist stark!"
+
+	para "O.K., Wicht. Du"
+	line "erhältst den"
+	cont "DONNERORDEN!"
 	done
 LtSurgeThunderBadgeText:
-	text "Der DONNERORDEN"
-	line "erhöht das TEMPO"
-	cont "deiner #mon."
-	para "Außerdem können"
-	line "#mon FLIEGEN"
-	cont "jederzeit nutzen."
-	para "Und hier - TM"
-	line "DONNERBLITZ!"
+	; GSC-DE Dump 6094 (+ PC TM)
+	text "MAJOR BOB: Der"
+	line "DONNERORDEN erhöht"
+
+	para "den INIT-Wert"
+	line "deiner #mon."
+
+	para "Du darfst stolz"
+	line "darauf sein, mich"
+
+	para "besiegt zu haben,"
+	line "hörst du?"
 	done
 LtSurgeFightDoneText:
-	text "In der ganzen Welt"
-	line "gibt es starke"
-	cont "Trainer."
-	para "Trainiere weiter,"
-	line "Schockkopf!"
+	; GSC-DE Dump 6095
+	text "MAJOR BOB: Zwerg!"
+	line "Immer noch bei"
+	cont "der Sache?"
+
+	para "Meine #mon und"
+	line "ich sind noch"
+	cont "dabei!"
 	done
 GentlemanGregorySeenText:
+	; GSC-DE Dump 6096
 	text "Du willst MAJOR"
 	line "BOB besiegen?"
 
@@ -253,6 +295,7 @@ GentlemanGregorySeenText:
 
 
 GentlemanGregoryBeatenText:
+	; GSC-DE Dump 6097
 	text "Ich habe versagt,"
 	line "MAJOR BOB. Es tut"
 	cont "mir Leid!"
@@ -263,19 +306,24 @@ GentlemanGregoryBeatenText:
 
 
 GuitaristmVincentSeenText:
+	; GSC-DE Dump 6099
 	text "MAJOR BOB hat mein"
 	line "Talent für"
+
 	para "Elektro-#mon"
 	line "erkannt."
+
 	para "Glaubst du, du"
 	line "kannst mich"
 	cont "besiegen?"
 	done
 GuitaristmVincentBeatenText:
-	text "Ach, wie"
+	; GSC-DE Dump 6100
+	text "Oh, wie"
 	line "schockierend!"
 	done
 JugglerHortonSeenText:
+	; GSC-DE Dump 6102
 	text "Ich werde dich"
 	line "fertig machen! Du"
 	cont "wirst gleich einen"
@@ -287,6 +335,7 @@ JugglerHortonSeenText:
 
 
 JugglerHortonBeatenText:
+	; GSC-DE Dump 6103
 	text "Ahh! Ich stand zu"
 	line "sehr unter Strom…"
 	done
@@ -296,17 +345,20 @@ JugglerHortonBeatenText:
 
 
 GuitaristfJanetSeenText:
+	; PC-only
 	text "Ich bin leicht,"
 	line "aber gut mit"
 	cont "Elektrizität!"
 	done
 
 GuitaristfJanetBeatenText:
+	; PC-only
 	text "Fried!"
 	done
 
 
 VermilionGymGuyWinText:
+	; GSC-DE Dump 6106
 	text "Puh! Das war ein"
 	line "elektrisierendes"
 	cont "Erlebnis!"
@@ -316,6 +368,7 @@ VermilionGymGuyWinText:
 	cont "strapaziert."
 	done
 VermilionGymFoundSwitchText:
+	; PC: Schalter-Puzzle
 	text "Ein geheimer"
 	line "Schalter unter dem"
 	cont "Müll?"
@@ -343,8 +396,9 @@ VermilionGymResetSwitchesText:
 	done
 
 VermilionGymTrashCanText:
-	text "Nein! Hier ist nur"
-	line "Müll."
+	; GSC-DE Dump 6107
+	text "Nein! Hier ist"
+	line "nur Müll."
 	done
 
 

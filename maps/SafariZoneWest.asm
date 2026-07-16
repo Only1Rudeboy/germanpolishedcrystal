@@ -35,7 +35,7 @@ GenericTrainerLassDuplica:
 	line "imitieren!"
 
 	para "Eines Tages werde"
-	line "ich Arenaleiterin"
+	line "ich ARENALEITERIN"
 	cont "in FUCHSANIA und"
 
 	para "imitiere JANINA."

@@ -108,10 +108,12 @@ DiglettsCaveFossilManiacScript:
 GenericTrainerHikerGerard:
 	generictrainer HIKER, GERARD, EVENT_BEAT_HIKER_GERARD, .SeenText, .BeatenText
 
+	; PC-only (CAPS)
 	text "Dieser Ort macht"
 	line "mich so nervös."
+
 	para "Was, wenn ein"
-	line "Digda mich aus dem"
+	line "DIGDA mich aus dem"
 	cont "Nichts angreift?"
 	done
 
@@ -137,8 +139,10 @@ GenericTrainerHikerDent:
 	done
 
 .SeenText:
+	; PC-only (CAPS)
 	text "Ich gehe nach"
 	line "MARMORIA."
+
 	para "Die Gesteins-Arena"
 	line "ist perfekt für"
 	cont "einen Kerl wie"
@@ -175,13 +179,15 @@ GenericTrainerBlackbeltInigo:
 GenericTrainerEngineerSmith:
 	generictrainer ENGINEER, SMITH, EVENT_BEAT_ENGINEER_SMITH, .SeenText, .BeatenText
 
-	text "Diese Digda sind"
+	; PC-only (CAPS)
+	text "Diese DIGDA sind"
 	line "geborene"
 	cont "Ingenieure."
 	done
 
 .SeenText:
-	text "Wie hat Digda so"
+	; PC-only (CAPS)
+	text "Wie hat DIGDA so"
 	line "einen langen"
 	cont "Tunnel gegraben?"
 	done
@@ -191,8 +197,9 @@ GenericTrainerEngineerSmith:
 	done
 
 DiglettsCaveCooltrainerfText:
+	; PC-only (CAPS)
 	text "Schau dir all die"
-	line "süßen Digda an!"
+	line "süßen DIGDA an!"
 
 	para "Ich schwör, ich"
 	line "hab eins mit"
@@ -201,6 +208,7 @@ DiglettsCaveCooltrainerfText:
 	done
 
 DiglettsCavePokefanMText:
+	; PC-only (CAPS)
 	text "Einige DIGDA sind"
 	line "plötzlich vor mir"
 

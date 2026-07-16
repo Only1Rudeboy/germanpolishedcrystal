@@ -25,13 +25,14 @@ CeruleanGymBadgeSpeechHouseGentlemanScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Sammelst du die"
-	line "Orden der"
-	cont "Kanto-Arenen? Viel"
-	cont "Glück!"
+	; GSC-DE Dump
+	text "Sammelst du ORDEN"
+	line "der PKMN-ARENEN"
+	cont "von KANTO?"
 	done
 
 .Text1:
+	; PC-only Intro
 	text "Vor ein paar"
 	line "Jahren gab's viele"
 	para "Einbrüche, deshalb"

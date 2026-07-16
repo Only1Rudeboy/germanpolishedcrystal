@@ -289,10 +289,10 @@ Route3MeteoriteText:
 	done
 
 Route3MtMoonSquareSignText:
+	; GSC-DE Dump
 	text "MONDBERGPLATZ"
-
-	para "Schutt abladen"
-	line "verboten"
+	line "Schutt abladen"
+	cont "verboten"
 	done
 
 

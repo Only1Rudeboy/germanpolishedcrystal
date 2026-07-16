@@ -54,12 +54,13 @@ CeladonHotel1FGrampsText:
 	done
 
 CeladonHotel1FLadyText:
+	; PC-only Class C
 	text "Das ist meine"
 	line "erste Reise nach"
-	cont "Kanto."
+	cont "KANTO."
 	para "Es gibt so viel zu"
 	line "sehen in"
-	cont "Prismania!"
+	cont "PRISMANIA!"
 	done
 
 CeladonHotel1FCooltrainerFText:
@@ -104,8 +105,8 @@ RichBoyGeraldNoBattleText:
 	done
 
 CeladonHotel1FSignpost1Text:
-	text "Prismania-Hotel"
-
+	; PC-only Class C
+	text "PRISMANIA-Hotel"
 	para "Genieße deinen"
 	line "Aufenthalt!"
 	done

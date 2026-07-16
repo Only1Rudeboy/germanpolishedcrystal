@@ -17,27 +17,27 @@ CeruleanPoliceStation_MapScriptHeader:
 	pokemon_event  3,  5, DIGLETT, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, CeruleanDiglettText, -1
 
 CeruleanPoliceStationFishingGuruText:
+	; GSC-DE Dump
 	text "Ich habe gehört,"
-	line "dass ein"
-	cont "zwielichtiger Typ"
-	cont "herumschleichen"
-	cont "soll."
+	line "dass ein zwielich-"
+	cont "tiger Typ herum-"
+	cont "schleichen soll."
 	para "Ich werde nicht"
 	line "still halten, wenn"
 	cont "sich herausstellt,"
-	cont "dass er ein Dieb"
-	cont "ist."
+	cont "dass er ein"
+	cont "Dieb ist."
 	done
 
-
 CeruleanPoliceStationPokefanFText:
+	; GSC-DE Dump
 	text "Wir wurden von"
 	line "Räubern"
 	cont "aufgehalten."
 	done
 
-
 CeruleanDiglettText:
+	; GSC-DE Dump
 	text "DIGDA: Dig, Dig."
 	done
 

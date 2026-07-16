@@ -18,6 +18,7 @@ Route11Gate_MapScriptHeader:
 	object_event  5,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route11GateOfficerText, -1
 
 Route11GateOfficerText:
+	; CAPS LAVANDIA
 	text "Wenn du viele"
 	line "#mon fängst,"
 

@@ -44,29 +44,43 @@ LavenderPokeCenter1FYoungsterScript:
 	iffalse_jumptextfaceplayer .NoExorcismText
 	jumpthistextfaceplayer
 
-	text "Der Direktor des"
-	line "Funkturms war"
-	cont "sicher glücklich."
-	para "Er sagte, sie sind"
-	line "endlich wieder auf"
-	cont "Sendung!"
+	; GSC-DE Dump 3175
+	text "Der INTENDANT der"
+	line "RADIOSTATION war"
+	cont "hoch erfreut."
+
+	para "Er sagte, sie"
+	line "seien wieder auf"
+
+	para "Sendung, weil das"
+	line "KRAFTWERK wieder"
+	cont "einwandfrei"
+	cont "arbeite."
 	done
 
 .NoMachinePartText:
-	text "Wenn das Kraftwerk"
-	line "nicht läuft,"
-	para "fährt auch der"
-	line "Magnetzug nicht …"
-	para "Und der Funkturm"
-	line "kann nicht senden"
-	cont "…"
+	; GSC-DE Dump 3174
+	text "Wenn das KRAFTWERK"
+	line "nicht funktio-"
+	cont "niert, läuft der"
+
+	para "MAGNETZUG auch"
+	line "nicht…"
+
+	para "Das bedeutet, dass"
+	line "auch die RADIO-"
+	cont "STATION nicht"
+
+	para "auf Sendung"
+	line "gehen kann…"
 	done
 
 .NoExorcismText:
-	text "Das Kraftwerk"
+	; PC-only (CAPS)
+	text "Das KRAFTWERK"
 	line "läuft wieder,"
 
-	para "aber der Funkturm"
+	para "aber der RADIOTURM"
 	line "sendet immer noch"
 	cont "nicht."
 
@@ -74,6 +88,7 @@ LavenderPokeCenter1FYoungsterScript:
 	done
 
 LavenderPokeCenter1FGentlemanText:
+	; GSC-DE Dump 3172
 	text "Im Norden von"
 	line "LAVANDIA ist der"
 
@@ -82,10 +97,16 @@ LavenderPokeCenter1FGentlemanText:
 	cont "KRAFTWERK."
 	done
 LavenderPokeCenter1FTeacherText:
-	text "Es gibt ein"
-	line "Radioprogramm mit"
-	cont "#-Flöten-Musik."
-	para "Ach? Ah, dein"
-	line "Radio braucht eine"
-	cont "EP-Karte dafür."
+	; GSC-DE Dump 3173
+	text "Es gibt eine"
+	line "Musiksendung im"
+	cont "Radio, die Melo-"
+	cont "dien auf der #"
+	cont "floete sendet."
+
+	para "Ach ja? Ah, dein"
+	line "Radio braucht ein"
+	cont "ZUSATZSET, damit"
+	cont "du das empfangen"
+	cont "kannst."
 	done

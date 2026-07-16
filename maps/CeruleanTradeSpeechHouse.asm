@@ -18,27 +18,28 @@ CeruleanTradeSpeechHouse_MapScriptHeader:
 	pokemon_event  5,  6, IVYSAUR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_TEAL, CeruleanTradeSpeechHouseZubatText, -1
 
 CeruleanTradeSpeechHouseGrannyText:
+	; GSC-DE Dump
 	text "Mein Mann ist"
 	line "glücklich mit den"
-	cont "#mon, die er im"
+	cont "#MON, die er im"
 	cont "Tausch erhalten"
 	cont "hat."
 	done
 
-
 CeruleanTradeSpeechHouseGrampsText:
+	; GSC-DE Dump
 	text "Ach… Ich bin so"
 	line "glücklich…"
 	done
 
-
 CeruleanTradeSpeechHouseRhydonText:
+	; GSC-DE Dump
 	text "KANGAMA: Gamu"
 	line "gamu."
 	done
 
-
 CeruleanTradeSpeechHouseZubatText:
+	; GSC-DE Dump
 	text "ZUBAT: Zuba zuba."
 	done
 

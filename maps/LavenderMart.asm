@@ -17,14 +17,17 @@ LavenderMart_MapScriptHeader:
 	object_event  9,  2, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavenderMartRockerText, -1
 
 LavenderMartPokefanMText:
-	text "Es ist"
-	line "unabdingbar,"
-	cont "SCHUTZ bei"
+	; GSC-DE Dump 3182
+	text "Es ist unabding-"
+	line "bar, SCHUTZ bei"
+
 	para "sich zu haben,"
 	line "wenn man Höhlen"
 	cont "erkundet."
+
 	para "Obwohl ich Höhlen"
 	line "sehr gerne"
+
 	para "erforsche, habe"
 	line "ich noch nicht"
 	cont "alle erforscht."
@@ -32,14 +35,16 @@ LavenderMartPokefanMText:
 
 
 LavenderMartRockerText:
+	; GSC-DE Dump 3183
 	text "Ich habe von einem"
 	line "Kunstschmied"
-	para "gehört, der"
-	line "maßgefertigte"
-	cont "#-BÄLLE in"
-	cont "AZALEA"
-	para "in JOHTO"
-	line "herstellt. Ich"
+
+	para "gehört, der maß-"
+	line "gefertigte #-"
+	cont "BÄLLE in AZALEA"
+
+	para "in JOHTO her-"
+	line "stellt. Ich"
 	cont "wünschte, ich"
 	cont "hätte auch welche."
 	done

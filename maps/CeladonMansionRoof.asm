@@ -19,19 +19,22 @@ CeladonMansionRoof_MapScriptHeader:
 MapCeladonMansionRoofSignpost0Script:
 	jumpthistext
 
-	text "An der Wand ist"
-	line "Graffiti…"
-
-	para "<PLAYER> malte"
+	; GSC-DE Dump
+	text "Da ist ein Graffi-"
+	line "ti an der Wand…"
+	para "<PLAYER> fügte"
 	line "einen Schnurrbart"
-	cont "dazu!"
+	cont "hinzu!"
 	done
 
 CeladonMansionRoofFisherText:
-	text "Hohe Orte--ich"
-	line "liebe sie so sehr!"
-	para "Ich würd sagen,"
-	line "nur Rauch liebt"
-	para "Höhen genauso sehr"
-	line "wie ich!"
+	; GSC-DE Dump
+	text "Hohe Orte - Ich"
+	line "liebe sie sehr!"
+	para "Ich sage immer, es"
+	line "gibt nur eine"
+	para "Sache, welche die"
+	line "Höhe so sehr"
+	para "liebt, wie ich:"
+	line "Rauch!"
 	done

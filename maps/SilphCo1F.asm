@@ -37,17 +37,15 @@ SilphCoOfficerScript:
 	iftruefwd .OfficerScriptAfterPowerRestored
 	jumpthisopenedtext
 
+	; PC (power out)
 	text "Nur Mitarbeiter"
 	line "dürfen nach oben"
 	cont "gehen."
-
 	para "Der Strom fällt"
 	line "aus, und der Chef"
-
 	para "will für den"
 	line "Notfall hohe"
 	cont "Sicherheit."
-
 	para "Das haben wir vor"
 	line "drei Jahren"
 	cont "gelernt."
@@ -56,30 +54,28 @@ SilphCoOfficerScript:
 .OfficerScriptAfterPowerRestored
 	jumpthisopenedtext
 
+	; PC (after power; gift moved to 2F)
 	text "Du hast die"
 	line "Stromversorgung"
 	cont "wieder"
 	cont "hergestellt?"
-
 	para "Danke! Jetzt kann"
 	line "die Forschung"
 	cont "weitergehen."
-
 	para "Schau dich ruhig"
 	line "oben um."
 	done
 
 SilphCoReceptionistText:
+	; GSC-DE Dump 5839
 	text "Willkommen. Das"
-	line "ist das"
-	cont "BÜRO-GEBÄUDE der"
+	line "ist das BÜRO-"
+	cont "GEBÄUDE der"
 	cont "SILPH CO."
 	done
 
-
-
-
 SilphCo1FGentlemanText:
+	; PC-only
 	text "Ich habe einen"
 	line "Termin mit dem"
 	para "Chefingenieur hier"
@@ -87,6 +83,7 @@ SilphCo1FGentlemanText:
 	done
 
 SilphCo1FCooltrainerfText:
+	; PC-only
 	text "Ich versuche, den"
 	line "Mut aufzubringen,"
 	cont "die"
@@ -94,8 +91,8 @@ SilphCo1FCooltrainerfText:
 	line "nach einem Date zu"
 	cont "fragen."
 	para "Sobald sie mit dem"
-	line "Telefon fertig ist"
-	cont "…"
+	line "Telefon fertig"
+	cont "ist…"
 	done
 
 SilphCoElevatorText:

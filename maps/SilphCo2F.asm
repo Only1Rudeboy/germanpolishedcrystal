@@ -40,23 +40,28 @@ SilphCo2FEmployee1Script:
 	endtext
 
 .Text1:
-	text "Du bist aus Johto"
-	line "hierher gereist?"
-	para "Weil du so weit"
-	line "gekommen bist,"
-	para "nimm dieses kleine"
-	line "Andenken."
+	; GSC-DE Dump 5840 (gift moved to 2F)
+	text "Nur das Personal"
+	line "hat Zutritt zu den"
+	cont "oberen Geschossen."
+	para "Aber, da du nun"
+	line "schon mal da bist,"
+	para "gebe ich dir"
+	line "dieses hübsche"
+	cont "Souvenir."
 	done
 
 .Text2:
+	; GSC-DE Dump 5841
 	text "Das ist das"
 	line "neueste Produkt"
 	para "der SILPH CO. Das"
-	line "gibt es noch"
-	cont "nirgends zu"
-	cont "kaufen."
+	line "gibt es noch nir-"
+	cont "gends zu kaufen."
 	done
+
 SilphCo2FSilphEmployee2Text:
+	; PC-only
 	text "Früher nutzten wir"
 	line "Teleporter"
 	para "Hin- und Her-"
@@ -68,6 +73,7 @@ SilphCo2FSilphEmployee2Text:
 	done
 
 SilphCo2FScientist1Text:
+	; PC-only
 	text "Wir arbeiten"
 	line "ständig an neuen"
 	cont "TMs."
@@ -81,6 +87,7 @@ SilphCo2FScientist1Text:
 	done
 
 SilphCo2FScientist2Text:
+	; PC-only
 	text "Ich programmiere!"
 	line "Stör mich nicht!"
 	done

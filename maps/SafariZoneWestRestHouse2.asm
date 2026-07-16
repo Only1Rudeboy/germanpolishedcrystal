@@ -63,14 +63,18 @@ SafariZoneWestRestHouse2FlanneryScript:
 	para "Schön, jemanden"
 	line "anderen hier zu"
 	cont "treffen!"
-	para "Ich bin Flannery."
+	para "Ich bin FLANNERY."
+
 	para "Ich komme aus der"
 	line "HOENN-Region und"
 	cont "mag Feuchtigkeit"
+
 	para "und heiße Quellen."
+
 	para "Die SAFARI-ZONE"
 	line "fühlt sich wie zu"
 	cont "Hause an!"
+
 	para "Lass uns in einem"
 	line "Kampf heiße"
 	cont "Attacken"

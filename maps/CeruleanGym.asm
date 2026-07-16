@@ -89,10 +89,10 @@ CeruleanGymMistyScript:
 	setevent EVENT_GOT_TM63_WATER_PULSE
 	jumpthisopenedtext
 
+	; PC: TM63 Aquawelle
 	text "Sie enthält die"
-	line "Attacke Water"
-	cont "Pulse."
-
+	line "Attacke AQUA-"
+	cont "WELLE."
 	para "Sie kann den"
 	line "Gegner manchmal"
 	cont "verwirren."
@@ -101,13 +101,15 @@ CeruleanGymMistyScript:
 GenericTrainerSwimmerfDiana:
 	generictrainer SWIMMERF, DIANA, EVENT_BEAT_SWIMMERF_DIANA, SwimmerfDianaSeenText, SwimmerfDianaBeatenText
 
+	; GSC-DE Dump
 	text "Ich werde in Ruhe"
-	line "vor mich"
-	cont "hinschwimmen."
+	line "vor mich hin-"
+	cont "schwimmen."
 	done
 GenericTrainerSwimmerfViola:
 	generictrainer SWIMMERF, VIOLA, EVENT_BEAT_SWIMMERF_VIOLA, SwimmerfViolaSeenText, SwimmerfViolaBeatenText
 
+	; PC-only
 	text "Schwimmen ist gut"
 	line "für Schönheit und"
 	cont "Gesundheit!"
@@ -119,23 +121,23 @@ GenericTrainerSwimmerfViola:
 GenericTrainerSwimmerfBriana:
 	generictrainer SWIMMERF, BRIANA, EVENT_BEAT_SWIMMERF_BRIANA, SwimmerfBrianaSeenText, SwimmerfBrianaBeatenText
 
+	; GSC-DE Dump
 	text "Freue dich nicht"
 	line "zu sehr über"
 	cont "deinen Sieg."
 	para "MISTY wird dich"
 	line "fertig machen,"
-	para "wenn du"
-	line "selbstgefällig"
-	cont "wirst."
+	para "wenn du selbst-"
+	line "gefällig wirst."
 	done
 GenericTrainerSailorParker:
 	generictrainer SAILOR, PARKER, EVENT_BEAT_SAILOR_PARKER, SailorParkerSeenText, SailorParkerBeatenText
 
+	; GSC-DE Dump
 	text "MISTY ist in den"
 	line "letzten Jahren"
 	cont "immer besser"
 	cont "geworden."
-
 	para "Sei auf der Hut,"
 	line "sonst wirst du"
 	cont "platt gemacht!"
@@ -143,9 +145,9 @@ GenericTrainerSailorParker:
 GenericTrainerSailorEddie:
 	generictrainer SAILOR, EDDIE, EVENT_BEAT_SAILOR_EDDIE, SailorEddieSeenText, SailorEddieBeatenText
 
+	; PC-only
 	text "Hey, lass uns"
 	line "schwimmen gehen!"
-
 	para "Matrosen müssen"
 	line "schwimmen können!"
 	done
@@ -155,12 +157,11 @@ CeruleanGymGuyScript:
 	iftrue_jumptextfaceplayer CeruleanGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Du CHAMP in"
-	line "spe!"
-
+	; GSC-DE Dump
+	text "He! Du CHAMP"
+	line "in spe!"
 	para "Nachdem MISTY weg"
 	line "war, bin ich auch"
-
 	para "los, um Spaß zu"
 	line "haben. Hi-hi-hi."
 	done
@@ -184,10 +185,11 @@ CeruleanGymStatue1:
 	iffalsefwd CeruleanGymStatue
 	jumpthistext
 
-	text "Tut mir leid, ich"
-	line "bin eine Weile"
-	cont "weg. MISTY,"
-	cont "Arenaleiterin"
+	; GSC-DE Dump
+	text "Ich bin leider"
+	line "eine Zeit lang"
+	cont "unterwegs. ARENA-"
+	cont "LEITERIN, MISTY."
 	done
 
 CeruleanGymStatue2:
@@ -195,9 +197,11 @@ CeruleanGymStatue2:
 	iffalsefwd CeruleanGymStatue
 	jumpthistext
 
-	text "Da MISTY weg ist,"
-	line "sind wir auch weg."
-	cont "Arenatrainer"
+	; GSC-DE Dump
+	text "Nachdem MISTY"
+	line "nicht hier ist,"
+	cont "sind wir TRAINER"
+	cont "auch nicht da."
 	done
 
 CeruleanGymStatue:
@@ -239,6 +243,7 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
+	; GSC-DE Dump
 	text "Ups! Tut ja so"
 	line "Leid mir! Du nicht"
 	cont "verletzt, du O.K.?"
@@ -251,16 +256,17 @@ CeruleanGymGruntIntroText:
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Ach nein! Du mich"
-	line "schon hast"
-	cont "gesehen! Ich"
-	cont "großes Fehler"
-	cont "gemacht!"
+	; GSC-DE Dump
+	text "Oh nein! Du mich"
+	line "schon hast gese-"
+	cont "hen! Ich großes"
+	cont "Fehler gemacht!"
 	done
 
 CeruleanGymGruntByeText:
-	text "He, du! Du"
-	line "vergessen, dass du"
+	; GSC-DE Dump
+	text "He, du! Du ver-"
+	line "gessen, dass du"
 	para "mich gesehen, ja?"
 	line "Du nichts sehen,"
 	para "hören und wissen!"
@@ -269,74 +275,78 @@ CeruleanGymGruntByeText:
 	done
 
 MistyIntroText:
-	text "Ich bin MISTY!"
-	line "ARENALEITERIN von"
-	cont "AZURIA CITY!"
-	para "Meine Richtlinie:"
-	line "Angriff mit"
-	cont "Wasser-#mon!"
-	para "Du siehst stark"
-	line "aus… aber kannst"
-	cont "du gegen meine"
-	cont "Wellen bestehen?"
+	; GSC-DE Dump
+	text "MISTY: Ich habe"
+	line "dich erwartet, du"
+	cont "Nervensäge!"
+	para "Du hast zwar"
+	line "viele ORDEN von"
+	para "JOHTO, aber unter-"
+	line "schätze mich"
+	cont "lieber nicht!"
+	para "Meine Wasser-"
+	line "#MON sind hart!"
 	done
 MistyWinLossText:
-	text "Toll! Du bist"
-	line "stark!"
-	para "O.K. - hier ist"
-	line "der QUELLORDEN!"
+	; GSC-DE Dump
+	text "MISTY: Du bist"
+	line "wirklich gut…"
+	para "Ich gebe zu, dass"
+	line "du sehr geschickt"
+	cont "bist…"
+	para "Hier hast du den"
+	line "QUELLORDEN."
 	done
 MistyGiveTMText:
-	text "Der QUELLORDEN"
-	line "erhöht die"
-	cont "SPEZ-VERT deiner"
-	cont "#mon."
-	para "Außerdem können"
-	line "#mon, die"
-	cont "SURFER"
-	cont "beherrschen, ihn"
-	cont "außerhalb des"
-	cont "Kampfs nutzen."
-	para "Nimm auch diese"
+	; PC: TM-Intro nach QUELLORDEN
+	text "Nimm auch diese"
 	line "TM. Sie enthält"
 	cont "AQUAWELLE!"
 	done
 MistyFightDoneText:
-	text "Es gibt viele"
-	line "starke Trainer im"
-	cont "Land."
-	para "Ich werde weiter"
-	line "trainieren - und"
-	cont "du auch!"
+	; GSC-DE Dump
+	text "MISTY: Gibt es"
+	line "viele starke"
+	cont "Trainer wie dich"
+	cont "in JOHTO?"
+	para "Eines Tages werde"
+	line "ich mich aufmachen"
+	para "und gegen einige"
+	line "ausgebildete"
+	cont "Trainer kämpfen."
 	done
 SwimmerfDianaSeenText:
-	text "Es tut mir leid,"
+	; GSC-DE Dump
+	text "Es tut mir Leid,"
 	line "dass ich so lange"
 	cont "weg war. Lass uns"
 	cont "anfangen!"
 	done
 
 SwimmerfDianaBeatenText:
+	; GSC-DE Dump
 	text "Ich gebe auf! Du"
 	line "hast gewonnen!"
 	done
 
 SwimmerfViolaSeenText:
+	; PC-only
 	text "Schwimmen geht"
 	line "nicht nur ums"
 	cont "Tempo!"
-
 	para "Es geht auch um"
 	line "Anmut und"
 	cont "Schönheit!"
 	done
 
 SwimmerfViolaBeatenText:
+	; PC-only
 	text "Ich hab wunderbar"
 	line "verloren…"
 	done
 
 SwimmerfBrianaSeenText:
+	; GSC-DE Dump
 	text "Ich hoffe, meine"
 	line "elegante Art zu"
 	cont "schwimmen zermürbt"
@@ -344,21 +354,26 @@ SwimmerfBrianaSeenText:
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ach, du hast mich"
-	line "ohne viel"
-	cont "Aufhebens"
-	cont "erledigt…"
+	; GSC-DE Dump
+	text "Oh, du hast mich"
+	line "ohne viel Auf-"
+	cont "hebens erledigt…"
 	done
 
 SailorParkerSeenText:
-	text "Na los! Komm her!"
+	; GSC-DE Dump
+	text "Glugger…"
+	para "Erster! Fang"
+	line "mich doch!"
 	done
 
 SailorParkerBeatenText:
+	; GSC-DE Dump
 	text "Das darf nicht"
 	line "wahr sein…"
 	done
 SailorEddieSeenText:
+	; PC-only
 	text "Ich habe am Pool"
 	line "entspannt, also"
 	cont "habe ich genug"
@@ -366,6 +381,7 @@ SailorEddieSeenText:
 	done
 
 SailorEddieBeatenText:
+	; PC-only
 	text "Mit Kraft allein"
 	line "kann man nicht"
 	cont "gewinnen."
@@ -373,13 +389,14 @@ SailorEddieBeatenText:
 
 
 CeruleanGymGuyWinText:
-	text "Oje, du bist ganz"
-	line "schön hart."
-
+	; GSC-DE Dump
+	text "Oje, du bist"
+	line "ganz schön hart."
 	para "Das war wie immer"
 	line "ein super Kampf!"
 	done
 CeruleanGymFoundMachinePartText:
+	; system-style (Maschinenteil)
 	text "<PLAYER> findet"
 	line "Maschinenteil!"
 	done
@@ -387,10 +404,9 @@ CeruleanGymFoundMachinePartText:
 CeruleanGymSomethingUnderwaterText:
 	text "Unter dem Wasser"
 	line "ist etwas…"
-
 	para "Vielleicht redet"
-	line "der Rocket-Rüpel?"
-
+	line "der TEAM-ROCKET-"
+	cont "Rüpel?"
 	para "Wohin ist er"
 	line "gelaufen?"
 	done

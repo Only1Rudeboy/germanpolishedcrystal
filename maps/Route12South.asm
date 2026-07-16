@@ -49,42 +49,53 @@ FisherMartinBeatenText:
 GenericTrainerFisherStephen:
 	generictrainer FISHER, STEPHEN, EVENT_BEAT_FISHER_STEPHEN, FisherStephenSeenText, FisherStephenBeatenText
 
+	; GSC-DE Dump 6897
 	text "Kennst du schon"
 	line "die Radiosender"
+
 	para "aus KANTO? Es gibt"
 	line "viele hier."
 	done
 FisherStephenSeenText:
+	; GSC-DE Dump 6895
 	text "Wenn ich beim"
 	line "Angeln Radio hören"
 	cont "kann, bin ich"
 	cont "glücklich."
 	done
 FisherStephenBeatenText:
+	; GSC-DE Dump 6896
 	text "Das blöde Radio"
 	line "beunruhigt mich!"
 	done
 GenericTrainerFisherBarney:
 	generictrainer FISHER, BARNEY, EVENT_BEAT_FISHER_BARNEY, FisherBarneySeenText, FisherBarneyBeatenText
 
+	; GSC-DE Dump 6900
 	text "Meiner Meinung"
 	line "nach ist Strom"
-	para "das Wichtigste in"
-	line "unserem Leben."
+
+	para "das Wichtigste"
+	line "in unserem Leben."
+
 	para "Wenn dem nicht so"
 	line "wäre, hätten die"
+
 	para "Leute nicht so"
 	line "einen Aufstand"
+
 	para "fabriziert, als"
 	line "das KRAFTWERK"
 	cont "außer Betrieb war."
 	done
 FisherBarneySeenText:
+	; GSC-DE Dump 6898
 	text "Was ist in unserem"
 	line "alltäglichen Leben"
 	cont "am wichtigsten?"
 	done
 FisherBarneyBeatenText:
+	; GSC-DE Dump 6899
 	text "Die Antwort gibt"
 	line "es demnächst!"
 	done
@@ -191,6 +202,7 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 Route12SignText:
+	; GSC-DE Dump 6904
 	text "ROUTE 12"
 	line "NORDEN: LAVANDIA"
 	done

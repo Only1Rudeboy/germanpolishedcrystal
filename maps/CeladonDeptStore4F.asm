@@ -152,23 +152,26 @@ PikachuPosterSentText:
 	done
 
 CeladonDeptStore4FSuperNerdText:
-	text "Ich bin hier, um"
-	line "einen Herzbrief"
-	cont "für meine Freundin"
-	para "zu kaufen."
+	; GSC-DE Dump
+	text "Ich möchte hier"
+	line "einen SURFERBRIEF"
+	cont "an meine Freundin"
+	cont "schicken."
 	done
 
 CeladonDeptStore4FYoungsterText:
+	; GSC-DE Dump
 	text "Das ist der"
-	line "einzige Ort, wo"
-	cont "man Poster kauft."
-
-	para "Ich sammle sie!"
+	line "einzige Ort, an"
+	para "dem man einen"
+	line "HERZBRIEF ver-"
+	cont "schicken kann."
 	done
 
 CeladonDeptStore4FDirectoryText:
-	text "Drück dich mit"
-	line "Geschenken aus!"
-	para "4F:"
-	line "Weisen-Geschenke"
+	; GSC-DE Dump (PC 4F)
+	text "Lass Geschenke"
+	line "Für Dich Sprechen!"
+	para "4F: GESCHENK-"
+	line "    ARTIKEL"
 	done

@@ -42,24 +42,30 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "Vor DIGDAs HÖHLE"
-	line "liegt ein"
-	cont "schlafendes"
-	cont "#mon."
+	; GSC-DE Dump 6064
+	text "Vor DIGDAs"
+	line "HÖHLE liegt ein"
+	cont "schlafendes #-"
+	cont "mon."
+
 	para "Das wäre eine"
-	line "fantastische"
-	cont "Gelegenheit, es zu"
+	line "fantastische Gele-"
+	cont "genheit, es zu"
+
 	para "fangen! Aber wie"
 	line "weckt man es auf?"
 	done
 .SnorlaxText:
-	text "Vor DIGDAs HÖHLE"
-	line "lag ein"
-	cont "schlafendes"
-	cont "#mon."
+	; GSC-DE Dump 6065
+	text "Vor DIGDAs"
+	line "HÖHLE lag ein"
+
+	para "schlafendes #-"
+	line "mon."
+
 	para "Aber jetzt scheint"
-	line "es verschwunden zu"
-	cont "sein."
+	line "es verschwunden"
+	cont "zu sein."
 	done
 VermilionPokeCenter1FSailorText:
 	text "Auf dem"

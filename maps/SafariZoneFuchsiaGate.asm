@@ -16,14 +16,15 @@ SafariZoneFuchsiaGate_MapScriptHeader:
 	def_object_events
 	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, SafariZoneFuchsiaGateOfficerText, -1
 
+; PC open Safari + closed game (class B; dump tone)
 SafariZoneFuchsiaGateOfficerText:
 	text "Hallo!"
 
-	para "Der Wärter ist"
+	para "Der WÄRTER ist"
 	line "weg, also gibt es"
 
 	para "gerade kein"
-	line "Safari-Spiel."
+	line "SAFARI-SPIEL."
 
 	para "Du musst eigene"
 	line "#BÄLLE"

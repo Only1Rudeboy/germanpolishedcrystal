@@ -43,12 +43,12 @@ CinnabarIslandBlue:
 	ifgreater 14, .Ready
 	jumpthisopenedtext
 
+	; PC badge gate (class C)
 	text "Willst du gegen"
 	line "mich kämpfen, zeig"
 	cont "mir"
-	para "wie viele"
-	line "KANTO-Orden du"
-	cont "hast."
+	para "wie viele KANTO-"
+	line "ORDEN du hast."
 	para "Weniger als sieben"
 	line "… Du bist noch"
 	cont "nicht bereit für"
@@ -66,40 +66,93 @@ CinnabarIslandBlue:
 	end
 
 CinnabarIslandBlueText:
-	text "Yo! Ich bin BLAU,"
-	line "ARENALEITER von"
-	cont "VERTANIA!"
-	para "Die Arena hier ist"
-	line "im Vulkan…"
+	; GSC-DE Dump
+	text "Wer bist du?"
+	para "Na, du bist"
+	line "augenscheinlich"
+	cont "ein Trainer…"
+	para "Ich heiße BLAU."
+	para "Ich war einmal ein"
+	line "CHAMP, wenn auch"
+	para "nur für kurze"
+	line "Zeit…"
+	para "Dieser nervige ROT"
+	line "hat mich ganz"
+	para "schön fertig-"
+	line "gemacht…"
+	para "Wie dem auch sei,"
+	line "was willst du?"
+	para "Willst du gegen"
+	line "mich kämpfen?"
+	para "…Ich sage es nur"
+	line "ungern, aber ich"
+	para "habe gar keine"
+	line "Lust zu kämpfen."
+	para "Sieh dich gut um…"
+	para "Ein Vulkan bricht"
+	line "aus und vernichtet"
+	para "auf einen Schlag"
+	line "eine ganze Stadt."
+	para "Wir werden weiter-"
+	line "hin mit unseren"
+	para "#MON siegen"
+	line "oder verlieren."
+	para "Aber wenn sich die"
+	line "Natur erhebt, ist"
+	cont "alles im Nu dahin."
+	para "…"
+	para "So ist das eben…"
+	para "Trotz allem bin"
+	line "ich immer noch ein"
+	cont "Trainer."
 	done
+
 CinnabarIslandBlueBattleText:
-	text "Bereit für einen"
-	line "harten Kampf?"
+	; GSC-DE Dump
+	text "Wenn ich einen"
+	line "starken Gegner"
+	cont "treffe, möchte ich"
+	cont "gegen ihn kämpfen."
 	done
+
 CinnabarIslandBlueReadyText:
-	text "Komm nach"
-	line "VERTANIA, wenn du"
-	cont "mich herausfordern"
-	cont "willst!"
+	; GSC-DE Dump
+	text "Wenn du gegen mich"
+	line "kämpfen möchtest,"
+	para "dann besuche die"
+	line "PKMN-ARENA in"
+	cont "VERTANIA CITY."
+	para "Dort werde ich"
+	line "mich deiner"
+	cont "annehmen."
 	done
+
 CinnabarIslandGymSignText:
-	text "PKMN-ARENA von"
+	; GSC-DE Dump
+	text "Hier ist eine"
+	line "Nachricht…"
+	para "Die PKMN-ARENA der"
 	line "ZINNOBERINSEL"
-	para "Der Vulkan hält"
-	line "sie verborgen…"
+	para "wurde auf die"
+	line "SEESCHAUMINSELN"
+	cont "verlegt."
+	para "PYRO"
 	done
+
 CinnabarIslandSignText:
+	; GSC-DE Dump
 	text "ZINNOBERINSEL"
 	para "Die Feurige Stadt"
 	line "Brennender"
 	cont "Begierde"
 	done
+
 CinnabarIslandVolcanoWarningSignText:
+	; PC (class C)
 	text "ACHTUNG"
-	para "Der"
-	line "Zinnober-Vulkan"
-	cont "schläft, ist aber"
-	cont "aktiv!"
+	para "Der ZINNOBER-"
+	line "VULKAN schläft,"
+	cont "ist aber aktiv!"
 	para "Betritt ihn nicht"
 	line "ohne"
 	cont "Fluchtmöglichkeit!"

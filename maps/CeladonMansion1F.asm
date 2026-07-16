@@ -26,8 +26,9 @@ CeladonMansion1F_MapScriptHeader:
 CeladonMansionManagersSuiteSign:
 	jumpthistext
 
-	text "Prismania-Anlage"
-	line "Verwalterbüro"
+	; GSC-DE Dump
+	text "PRISMANIA-VILLA"
+	line "SUITE des MANAGERs"
 	done
 
 CeladonMansionManagerScript:
@@ -191,14 +192,18 @@ CeladonMansionManagerScript:
 	db "Bitter@" ; sdf
 
 CeladonMansion1FMeowthText:
-	text "Mauzi: Miau!"
+	; GSC-DE Dump
+	text "MAUZI: Mauz!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "Piepi: Pip piep!"
+	; GSC-DE Dump
+	text "PIEPI: Piep piep"
+	line "piep!"
 	done
 
 CeladonMansion1FNidoranFText:
-	text "Nidoran: Kya"
-	line "kyaoo!"
+	; GSC-DE Dump
+	text "NIDORAN: Nido"
+	line "nido!"
 	done

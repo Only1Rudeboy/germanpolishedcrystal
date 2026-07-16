@@ -44,7 +44,7 @@ CowgirlAprilBeatenText:
 	done
 
 SafariZoneEastAreaSignText:
-	text "Safari-Zone"
+	text "SAFARI-ZONE"
 	line "Ostbereich"
 	done
 
@@ -53,7 +53,7 @@ SafariZoneEastRestHouseSignText:
 	done
 
 SafariZoneEastTrainerTipsSignText:
-	text "Trainer-Tipps"
+	text "TIPPS für TRAINER"
 
 	para "Suche nachts oder"
 	line "morgens nach"

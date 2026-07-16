@@ -32,46 +32,45 @@ WardensGranddaughter:
 .AlreadyMet:
 	jumpthisopenedtext
 
+	; GSC-DE Dump 6245
 	text "Viele Leute waren"
 	line "traurig, dass die"
-	para "SAFARI-ZONE"
-	line "geschlossen wurde."
+
+	para "SAFARI-ZONE ge-"
+	line "schlossen wurde."
 	cont "Aber Großvater ist"
-	cont "so stur …"
+	cont "so stur…"
 	done
+
+; GSC-DE Dump 6244
 WardensGranddaughterText1:
 	text "Mein Großvater ist"
 	line "der WÄRTER in der"
 	cont "SAFARI-ZONE."
+
 	para "Zumindest war er"
-	line "das …"
-	para "Er hat sich"
-	line "entschieden,"
-	cont "Urlaub"
+	line "das…"
+
+	para "Er hat sich ent-"
+	line "schieden, Urlaub"
+
 	para "zu machen und ist"
 	line "verreist, ganz"
 	cont "allein."
-	para "Er hat einfach so"
-	line "die SAFARI-ZONE"
-	cont "verlassen."
+
+	para "Er hat einfach"
+	line "so die SAFARI-"
+	cont "ZONE verlassen."
 	done
 
-
-
-
-
-
+; GSC-DE Dump 6246–6247
 WardenPhotoText:
 	text "Das Foto zeigt"
 	line "einen lächelnden,"
+
 	para "alten Mann umgeben"
 	line "von #mon."
 	done
-
-
-
-
-
 
 SafariZonePhotoText:
 	text "Das Foto zeigt"
@@ -82,15 +81,11 @@ SafariZonePhotoText:
 	cont "herumtollen."
 	done
 
-
-
-
-
-
 WardensHouseCuriosText:
 	text "Eine Vitrine"
 	line "voller Fossilien"
 	cont "und"
+
 	para "alter"
 	line "#mon-Souvenirs."
 	done

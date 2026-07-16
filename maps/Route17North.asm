@@ -64,6 +64,7 @@ OfficerfJamieDaytimeText:
 	done
 
 CyclingRoadSignText:
+	; GSC-DE Dump
 	text "RADWEG"
 	para "Es geht den ganzen"
 	line "Weg nur bergab!"

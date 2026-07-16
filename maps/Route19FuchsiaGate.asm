@@ -21,27 +21,28 @@ Route19FuchsiaGateOfficerScript:
 	iftrue_jumptextfaceplayer Route19FuchsiaGateOfficerText_RocksCleared
 	jumpthistextfaceplayer
 
-	text "Der Vulkan der"
-	line "ZINNOBERINSEL ist"
-	cont "ausgebrochen."
-	para "Er schleuderte"
-	line "Felsbrocken, die"
-	para "ROUTE 19 auf"
-	line "unbestimmte Zeit"
-	cont "blockieren."
-	para "Ich hoffe, den"
-	line "Leuten auf der"
-	para "ZINNOBERINSEL geht"
-	line "es gut …"
+	; GSC-DE Dump 7068
+	text "Der Vulkan auf"
+	line "der ZINNOBERINSEL"
+	cont "ist ausgebrochen."
+
+	para "Durch die Eruption"
+	line "wurde die ROUTE 19"
+	cont "durch Felsbrocken"
+	cont "zugeschüttet."
+
+	para "Ich frage mich,"
+	line "ob die Einwohner"
+	cont "der ZINNOBERINSEL"
+	cont "in Sicherheit"
+	cont "sind…"
 	done
 
-
+; GSC-DE Dump 7069
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "Auf der"
-	line "ZINNOBER-INSEL"
-	cont "wurde"
+	text "Auf der ZINNOBER-"
+	line "INSEL wurde"
+
 	para "niemand verletzt."
 	line "Das ist großartig!"
 	done
-
-

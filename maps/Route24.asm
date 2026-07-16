@@ -118,14 +118,15 @@ Route24RocketScript:
 	end
 
 Route24RocketSeenText:
+	; GSC-DE Dump
 	text "Hey, Minimensch!"
 	line "Ich sein von TEAM"
 	cont "ROCKET."
 	para "Sein aus fremde"
 	line "Land, Trainer eins"
 	cont "ich sein!"
-	para "Geglaubt, wenn nix"
-	line "Energie mehr,"
+	para "Geglaubt, wenn"
+	line "nix Energie mehr,"
 	para "mache viel Panik"
 	line "bei Leute!"
 	para "Geheim mein"
@@ -139,28 +140,28 @@ Route24RocketSeenText:
 	line "lass uns!"
 	done
 
-
 Route24RocketBeatenText:
-	text "Uff! Nein, glauben"
-	line "nicht ich kann!"
+	; GSC-DE Dump
+	text "Uff! Nein,"
+	line "glauben nicht ich"
+	cont "kann!"
 	para "Stark sehr du"
 	line "sein! Ich nix"
 	cont "Gegner für dich!"
 	done
 
-
 Route24RocketAfterBattleText:
+	; GSC-DE Dump
 	text "O.K. Verraten dir"
 	line "meine Geheimnis."
 	para "SPULE, gestohlen"
 	line "von mir, versteckt"
-	para "in PKMN-ARENA"
-	line "der AZURIA CITY."
+	para "in PKMN-ARENA der"
+	line "AZURIA CITY."
 	para "Wasser sein gute"
 	line "Versteck. In"
-	para "Mitte von"
-	line "PKMN-ARENA"
-	cont "Wasser sein."
+	para "Mitte von PKMN-"
+	line "ARENA Wasser sein."
 	para "Kind, du mich"
 	line "vergessen nicht!"
 	para "Besiege dir wird"
@@ -171,19 +172,20 @@ Route24RocketAfterBattleText:
 	line "sie werden tun."
 	done
 
-
 Route24RocketDisappearsText:
+	; GSC-DE Dump
 	text "…"
 	para "Was du sagen? TEAM"
 	line "ROCKET nix mehr"
 	para "gibt? Kaputt"
 	line "gemacht, du sagen?"
-	para "Oh, nein! Was soll"
-	line "ich jetzt machen?"
+	para "Oh, nein! Ich"
+	line "tun was jetzt"
+	cont "machen?"
 	done
 
-
 Route24AdvancedTipsSignText:
+	; PC-only
 	text "Profi-Tipps!"
 	para "Die Fähigkeit Rohe"
 	line "Gewalt"

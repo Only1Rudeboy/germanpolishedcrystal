@@ -60,17 +60,19 @@ SaffronMagnetTrainStationGymGuideScript:
 	iftrue_jumptextfaceplayer SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "Der Magnetzug ist"
-	line "ein supermoderner"
-	para "Zug, der"
-	line "Elektrizität und"
-	cont "Magnete"
-	para "nutzt, um"
-	line "unglaubliche"
-	cont "Geschwindigkeit zu"
-	cont "erreichen."
-	para "Ohne Strom fährt"
-	line "er aber nicht …"
+	; GSC-DE Dump 5835 (before power)
+	text "Der MAGNETZUG"
+	line "ist mit modernster"
+	para "Technik ausge-"
+	line "stattet und"
+	para "erreicht durch die"
+	line "Nutzung von Elek-"
+	cont "trizität und"
+	para "Magneten unglaub-"
+	line "liche Geschwin-"
+	cont "digkeit."
+	para "Ohne Elektrizität"
+	line "allerdings…"
 	done
 
 SaffronMagnetTrainStationOfficerApproachTrainDoorMovement:
@@ -108,71 +110,79 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
-	text "Es tut mir leid,"
+	; GSC-DE Dump 5829
+	text "Es tut mir Leid,"
 	line "aber der MAGNETZUG"
 	cont "ist im Moment"
 	cont "nicht in Betrieb."
 	done
+
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
+	; GSC-DE Dump 5830
 	text "Abfahrt nach"
 	line "DUKATIA CITY in"
 	cont "wenigen Minuten."
-
 	para "Steigst du auch"
 	line "ein?"
 	done
+
 SaffronMagnetTrainStationOfficerRightThisWayText:
+	; GSC-DE Dump 5831
 	text "Darf ich bitte"
 	line "deinen FAHRSCHEIN"
 	cont "sehen?"
-
 	para "Danke sehr. Hier"
 	line "lang, bitte."
 	done
+
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
-	text "Es tut mir leid,"
+	; GSC-DE Dump 5832
+	text "Es tut mir Leid,"
 	line "aber du hast"
 	cont "keinen FAHRSCHEIN."
 	done
+
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "Beehre uns bald"
-	line "wieder."
+	; GSC-DE Dump 5833
+	text "Beehre uns"
+	line "bald wieder."
 	done
+
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
+	; GSC-DE Dump 5834
 	text "Ankunft in"
 	line "SAFFRONIA CITY."
-
-	para "Beehre uns bald"
-	line "wieder."
+	para "Beehre uns"
+	line "bald wieder."
 	done
-SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
-	text "Puh…"
 
+SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
+	; GSC-DE Dump 5836
+	text "Puh…"
 	para "Wie oft bin ich"
 	line "von KANTO nach"
-
 	para "JOHTO und zurück"
 	line "gefahren?"
 	done
+
 SaffronMagnetTrainStationTeacherText:
-	text "Bevor der"
-	line "MAGNET-ZUG-BAHNHOF"
-	cont "erbaut"
+	; GSC-DE Dump 5837
+	text "Bevor der MAGNET-"
+	line "ZUG-BAHNHOF erbaut"
 	para "wurde, stand dort"
 	line "ein Haus."
 	para "Ein kleines"
-	line "Mädchen,"
-	cont "NACH-AHMERIN"
-	cont "genannt, lebte"
-	cont "dort."
+	line "Mädchen, NACH-"
+	cont "AHMERIN genannt,"
+	cont "lebte dort."
 	done
+
 SaffronMagnetTrainStationLassText:
+	; GSC-DE Dump 5838
 	text "Hi. Hast du einen"
 	line "FAHRSCHEIN? Ich"
-
 	para "habe einen. Jeder"
 	line "in SAFFRONIA, der"
-
 	para "mit dem MAGNETZUG"
 	line "fährt, hat einen."
 	done

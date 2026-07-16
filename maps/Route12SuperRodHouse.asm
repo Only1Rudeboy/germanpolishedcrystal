@@ -30,14 +30,15 @@ Route12SuperRodHouseFishingGuruScript:
 	jumpthisopenedtext
 
 .GaveSuperRodText:
-
+	; GSC-DE Dump 3203
 	text "Wirf sie aus und"
-	line "angle, wo immer es"
-	cont "Wasser gibt."
+	line "angle, wo immer"
+	cont "es Wasser gibt."
+
 	para "Denk daran - du"
-	line "kannst mit"
-	cont "verschiedenen"
-	cont "Angeln"
+	line "kannst mit ver-"
+	cont "schiedenen Angeln"
+
 	para "auch verschiedene"
 	line "#mon fangen."
 	done
@@ -49,21 +50,27 @@ Route12SuperRodHouseFishingGuruScript:
 	endtext
 
 OfferSuperRodText:
+	; GSC-DE Dump 3201
 	text "Ich bin der"
 	line "jüngere Bruder des"
 	cont "PROFI-ANGLERs."
+
 	para "Wie ich sehe,"
 	line "macht dir Angeln"
+
 	para "Spaß. Darüber gibt"
 	line "es keinen Zweifel!"
+
 	para "Na? Das stimmt"
 	line "doch, oder?"
 	done
 
 
 GiveSuperRodText:
+	; GSC-DE Dump 3202
 	text "Jawohl! Genau, wie"
 	line "ich dachte!"
+
 	para "Hier, Angelfreak!"
 	line "Nimm dies - die"
 	cont "SUPERANGEL."
@@ -71,6 +78,7 @@ GiveSuperRodText:
 
 
 DontWantSuperRodText:
+	; GSC-DE Dump 3204
 	text "Hä? Meine Augen"
 	line "haben mich"
 	cont "getäuscht."

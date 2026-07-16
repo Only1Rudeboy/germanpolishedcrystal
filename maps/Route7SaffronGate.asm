@@ -22,20 +22,22 @@ Route7SaffronGuardScript:
 	iftrue_jumptextfaceplayer Route7SaffronGuardSeriousText
 	jumpthistextfaceplayer
 
-	text "Hast du von dem"
-	line "Unfall im"
-	cont "KRAFT-WERK gehört?"
-	para "Es liegt im Osten,"
-	line "in der Nähe von"
-	cont "AMARANT CITY."
+	; GSC-DE Dump
+	text "Hast du von"
+	line "dem Vorfall im"
+	cont "KRAFTWERK gehört?"
+	para "Es liegt östlich"
+	line "von hier, nahe"
+	cont "LAVANDIA."
 	done
 
 Route7SaffronGuardSeriousText:
+	; GSC-DE Dump
 	text "Ich nehme meinen"
-	line "Posten als Wache"
-	cont "ernst."
-	para "Hey! Du hast einen"
-	line "#dex."
+	line "Posten als"
+	cont "Wache ernst."
+	para "Hey! Du hast"
+	line "einen #dex."
 	para "O.K. Du darfst"
 	line "passieren."
 	done

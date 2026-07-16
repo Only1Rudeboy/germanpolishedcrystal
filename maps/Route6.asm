@@ -27,6 +27,7 @@ Route6_MapScriptHeader:
 GenericTrainerPokefanmRex:
 	generictrainer POKEFANM, REX, EVENT_BEAT_POKEFANM_REX, PokefanmRexSeenText, PokefanmRexBeatenText
 
+	; GSC-DE Dump 7172
 	text "Sieh, wie grazil"
 	line "sich mein PHANPY"
 	cont "bewegt!"
@@ -36,6 +37,7 @@ GenericTrainerPokefanmRex:
 	cont "dahinschmilzt."
 	done
 PokefanmRexSeenText:
+	; GSC-DE Dump 7170
 	text "Mein PHANPY ist"
 	line "das niedlichste"
 	cont "der ganzen Welt."
@@ -47,6 +49,7 @@ PokefanmRexSeenText:
 
 
 PokefanmRexBeatenText:
+	; GSC-DE Dump 7171
 	text "Mein PHANPY!"
 	done
 
@@ -58,6 +61,7 @@ PokefanmRexBeatenText:
 GenericTrainerPokefanmAllan:
 	generictrainer POKEFANM, ALLAN, EVENT_BEAT_POKEFANM_ALLAN, PokefanmAllanSeenText, PokefanmAllanBeatenText
 
+	; GSC-DE Dump 7175
 	text "Sieh, wie grazil"
 	line "sich mein"
 	cont "TEDDIURSA bewegt!"
@@ -67,6 +71,7 @@ GenericTrainerPokefanmAllan:
 	cont "dahinschmilzt."
 	done
 PokefanmAllanSeenText:
+	; GSC-DE Dump 7173
 	text "Mein TEDDIURSA ist"
 	line "das niedlichste"
 	cont "der ganzen Welt."
@@ -78,6 +83,7 @@ PokefanmAllanSeenText:
 
 
 PokefanmAllanBeatenText:
+	; GSC-DE Dump 7174
 	text "Mein TEDDIURSA!"
 	done
 
@@ -200,6 +206,7 @@ OfficerfJennyScript:
 	done
 
 Route6PokefanMText:
+	; GSC-DE Dump 7176
 	text "Die Straße zum"
 	line "KRAFTWERK bleibt"
 
@@ -214,7 +221,9 @@ Route6PokefanMText:
 
 
 Route6UndergroundPathSignText:
+	; GSC-DE Dump 7177
 	text "TUNNELPFAD"
+
 	para "AZURIA CITY -"
 	line "ORANIA CITY"
 	done

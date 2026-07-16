@@ -135,7 +135,7 @@ YoungsterTylerBeatenText:
 BeautyRachaelSeenText:
 	text "Mein Sommerkleid"
 	line "ist perfekt für"
-	cont "die Safari-Zone!"
+	cont "die SAFARI-ZONE!"
 	done
 
 BeautyRachaelBeatenText:
@@ -176,7 +176,7 @@ Text_SafariZoneNorthTutorQuestion:
 
 
 SafariZoneNorthAreaSignText:
-	text "Safari-Zone"
+	text "SAFARI-ZONE"
 	line "Nordbereich"
 	done
 
@@ -185,7 +185,8 @@ SafariZoneNorthRestHouseSignText:
 	done
 
 SafariZoneNorthTrainerTips1SignText:
-	text "Trainer-Tipps"
+	text "TIPPS für TRAINER"
+
 	para "Attacken desselben"
 	line "Typs können"
 	cont "physisch, speziell"
@@ -195,7 +196,7 @@ SafariZoneNorthTrainerTips1SignText:
 	done
 
 SafariZoneNorthTrainerTips2SignText:
-	text "Trainer-Tipps"
+	text "TIPPS für TRAINER"
 
 	para "#mon verstecken"
 	line "sich im hohen"
@@ -208,7 +209,7 @@ SafariZoneNorthTrainerTips2SignText:
 	done
 
 SafariZoneNorthTrainerTips3SignText:
-	text "Trainer-Tipps"
+	text "TIPPS für TRAINER"
 
 	para "Der Rest des"
 	line "Schilds ist"

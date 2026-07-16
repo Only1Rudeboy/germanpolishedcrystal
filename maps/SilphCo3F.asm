@@ -67,7 +67,8 @@ SilphCo3FSilphEmployeeScript:
 	done
 
 SilphCo3FScientist1Text:
-	text "Silph ist eine"
+	; PC-only
+	text "SILPH ist eine"
 	line "Partnerschaft mit"
 	cont "Devon eingegangen."
 	para "Wir haben Produkte"
@@ -76,6 +77,7 @@ SilphCo3FScientist1Text:
 	done
 
 SilphCo3FScientist2Text:
+	; PC-only
 	text "#Bälle"
 	line "funktionieren nach"
 	cont "dem gleichen"
@@ -91,6 +93,7 @@ SilphCo3FScientist2Text:
 	done
 
 SilphCo3FOfficerText:
+	; PC-only
 	text "Ich darf dich"
 	line "nicht in die"
 	cont "oberen Stockwerke"
@@ -104,6 +107,7 @@ SilphCo3FOfficerText:
 	done
 
 SilphCo3FGentlemanText:
+	; PC-only
 	text "Ich bin von der"
 	line "Devon Corporation"
 	cont "zu Besuch."
@@ -115,13 +119,14 @@ SilphCo3FGentlemanText:
 	done
 
 SilphCo3FDeptSignText:
-	text "SILPH CO. 3S #"
-	line "Ball Tech"
+	text "SILPH CO. 3S"
+	line "#BALL-Technik"
 	done
 
 SilphCo3FPhotoText:
+	; PC-only
 	text "Das ist ein Foto"
-	line "des Silph-Chefs."
+	line "des SILPH-Chefs."
 	para "Er sieht verärgert"
 	line "aus."
 	done

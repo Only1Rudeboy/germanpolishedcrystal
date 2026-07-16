@@ -46,6 +46,7 @@ PewterGymBrockScript:
 	setevent EVENT_GOT_TM48_ROCK_SLIDE
 	jumpthisopenedtext
 
+	; PC: TM48 Steinhagel
 	text "Manchmal lässt es"
 	line "den Gegner"
 	cont "zurückzucken."
@@ -54,6 +55,7 @@ PewterGymBrockScript:
 GenericTrainerCamperJerry:
 	generictrainer CAMPER, JERRY, EVENT_BEAT_CAMPER_JERRY, CamperJerrySeenText, CamperJerryBeatenText
 
+	; GSC-DE Dump
 	text "He, du da! Trainer"
 	line "aus JOHTO! ROCKO"
 	para "ist stark. Es wird"
@@ -64,11 +66,13 @@ GenericTrainerCamperJerry:
 GenericTrainerHikerEdwin:
 	generictrainer HIKER, EDWIN, EVENT_BEAT_HIKER_EDWIN, HikerEdwinSeenText, HikerEdwinBeatenText
 
+	; PC-only
 	text "Puh… Alles in"
 	line "Stücke."
 	done
 
 HikerEdwinSeenText:
+	; PC-only
 	text "Ich wollte mir die"
 	line "ARENA ansehen."
 	done
@@ -81,8 +85,9 @@ PewterGymGuyScript:
 	iftrue_jumptextfaceplayer PewterGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP in"
-	line "spe!"
+	; GSC-DE Dump
+	text "He! Ein CHAMP"
+	line "in spe!"
 	para "Das ist cool!"
 	line "Kämpfst du gegen"
 	para "die ARENALEITER in"
@@ -101,56 +106,74 @@ PewterGymStatue:
 	jumpstd gymstatue2
 
 BrockIntroText:
-	text "Ich bin ROCKO!"
+	; GSC-DE Dump
+	text "ROCKO: Wow, es"
+	line "kommt nicht oft"
+	para "vor, dass wir von"
+	line "einem Heraus-"
+	cont "forderer aus JOHTO"
+	cont "besucht werden."
+	para "Ich bin ROCKO, der"
 	line "ARENALEITER von"
-	cont "MARMORIA CITY!"
-	para "Ich glaube an"
-	line "Felsen-und"
-	cont "Boden-#monihre"
-	cont "Härte und"
-	cont "Ausdauer!"
-	para "Deshalb trainieren"
-	line "meine #mon so"
-	cont "hart!"
-	para "Zeig mir, was du"
-	line "kannst!"
+	para "MARMORIA. Ich habe"
+	line "mich auf Gestein-"
+	cont "#MON"
+	cont "spezialisiert."
+	para "Meine #MON sind"
+	line "gegen die meisten"
+	para "physischen Atta-"
+	line "cken immun. Es"
+	cont "wird dir schwer"
+	para "fallen, ihnen"
+	line "Schaden zuzufügen."
+	cont "Na los!"
 	done
 BrockWinLossText:
-	text "Ich habe"
-	line "unterschätzt, wie"
-	cont "stark deine"
-	cont "#mon sind…"
-	para "Als Beweis deiner"
-	line "Stärke nimm den"
-	cont "FELSORDEN!"
+	; GSC-DE Dump
+	text "ROCKO: Die mäch-"
+	line "tigen Attacken"
+	cont "deiner #MON"
+	cont "haben meine"
+	cont "felsenfeste"
+	cont "Verteidigung"
+	cont "überwunden…"
+	para "Du bist stärker,"
+	line "als ich dachte…"
+	para "Komm - Nimm dir"
+	line "diesen ORDEN."
 	done
 BrockBoulderBadgeText:
-	text "Der FELSORDEN"
-	line "macht #mon"
-	cont "gehorsamer."
-	para "Außerdem können"
-	line "#mon, die BLITZ"
-	cont "kennen, ihn"
-	cont "jederzeit nutzen."
-	para "Nimm auch diese"
-	line "TM. Sie enthält"
-	cont "STEINHAGEL!"
+	; GSC-DE Dump (<PLAYER>→<PLAYER>)
+	text "ROCKO: Danke,"
+	line "<PLAYER>. Es war"
+	para "eine Freude, gegen"
+	line "dich zu kämpfen."
+	para "Auch wenn ich ein"
+	line "bisschen beleidigt"
+	cont "bin."
+	para "Dieser FELSORDEN"
+	line "wird deine #-"
+	cont "MON noch stärker"
+	cont "machen."
 	done
 BrockFightDoneText:
-	text "In der Welt warten"
-	line "noch viele starke"
-	cont "Trainer."
-	para "Trainiere weiter"
-	line "-und werde der"
-	cont "Größte!"
+	; GSC-DE Dump
+	text "ROCKO: Die Welt"
+	line "ist groß. Es gibt"
+	para "immer noch viele"
+	line "starke Trainer wie"
+	cont "dich."
+	para "Warte nur ab. Ich"
+	line "werde auch noch"
+	cont "viel stärker."
 	done
 CamperJerrySeenText:
+	; GSC-DE Dump
 	text "Die Trainer dieser"
-	line "PKMN-ARENA"
-	cont "setzen"
-	cont "Gestein-#mon"
+	line "PKMN-ARENA setzen"
+	cont "Gestein-#MON"
 	cont "ein."
-	para "Gestein-#mon"
+	para "Gestein-#MON"
 	line "haben hohe"
 	cont "VERT-Werte."
 	para "Die Kämpfe können"
@@ -161,20 +184,22 @@ CamperJerrySeenText:
 
 
 CamperJerryBeatenText:
+	; GSC-DE Dump
 	text "Ich muss diese"
 	line "Kämpfe gewinnen…"
 	done
 
 
 PewterGymGuyWinText:
-	text "He! Ein CHAMP in"
-	line "spe!"
+	; GSC-DE Dump
+	text "He! Ein CHAMP"
+	line "in spe!"
 	para "Diese PKMN-ARENA"
 	line "stellte kein"
 	para "Problem für dich"
 	line "dar."
-	para "Dein Einsatz ist"
-	line "wirklich"
+	para "Dein Einsatz"
+	line "ist wirklich"
 	para "beeindruckend. Das"
 	line "meine ich ehrlich."
 	done

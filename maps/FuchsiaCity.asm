@@ -49,48 +49,43 @@ FuchsiaCityFlyPoint:
 	setflag ENGINE_FLYPOINT_FUCHSIA
 	endcallback
 
+; GSC-DE Dump 6175–6183, 6586, 7178
 FuchsiaCityYoungsterText:
 	text "Einer der TOP VIER"
 	line "war früher einmal"
+
 	para "der ARENALEITER in"
 	line "FUCHSANIA CITY."
 	done
 
-
-
-
 FuchsiaCityPokefanMText:
 	text "KOGAs Tochter ist"
-	line "jetzt"
-	cont "ARENA-LEITERIN,"
-	cont "nachdem"
+	line "jetzt ARENA-"
+	cont "LEITERIN, nachdem"
+
 	para "ihr Vater den TOP"
 	line "VIER beigetreten"
 	cont "ist."
 	done
 
-
-
-
 FuchsiaCityTeacherText:
 	text "Schade, dass die"
 	line "SAFARI-ZONE"
+
 	para "geschlossen ist…"
-	line "Das ist"
-	cont "schließlich"
-	cont "FUCHSANIAs"
+	line "Das ist schließ-"
+	cont "lich FUCHSANIAs"
 	cont "Hauptattraktion."
 	done
-
-
-
 
 FuchsiaCityPokefanFText:
 	text "Als der WÄRTER der"
 	line "SAFARI-ZONE weg"
 	cont "war,"
+
 	para "gab es keinen mehr"
 	line "für den Zoo."
+
 	para "Also wurden die"
 	line "#mon in die"
 	cont "Wildnis entlassen."
@@ -98,10 +93,12 @@ FuchsiaCityPokefanFText:
 
 FuchsiaCitySignText:
 	text "FUCHSANIA CITY"
+
 	para "Sieh nur! Die"
 	line "Rosarote"
 	cont "Lieblichkeit!"
 	done
+
 FuchsiaGymSignText:
 	text "PKMN-ARENA von"
 	line "FUCHSANIA CITY"
@@ -110,9 +107,6 @@ FuchsiaGymSignText:
 	para "Die Giftige"
 	line "Ninja-Meisterin"
 	done
-
-
-
 
 SafariZoneOfficeSignText:
 	text "Hier ist eine"
@@ -125,42 +119,33 @@ SafariZoneOfficeSignText:
 	line "geschlossen."
 	done
 
-
-
-
 SafariZoneOfficeClosedSignText:
-	text "Es ist verriegelt"
-	line "…"
+	text "Es ist verriegelt…"
 	done
+
 WardensHomeSignText:
-	text "SAFARI-ZONE HAUS"
-	line "DES WÄRTERs"
+	text "SAFARI-ZONE"
+	line "HAUS DES WÄRTERs"
 	done
-
-
-
 
 SafariZoneClosedSignText:
 	text "Der WÄRTER ist"
 	line "verreist. Deshalb"
-	para "ist die"
-	line "SAFARI-ZONE"
+
+	para "ist die SAFARI-"
+	line "ZONE"
 	cont "geschlossen."
 	done
-
-
-
 
 NoLitteringSignText:
 	text "Verunreinigung des"
 	line "Parks ist"
 	cont "verboten."
-	para "Hinterlasse bitte"
-	line "keinen Abfall."
+
+	para "Hinterlasse"
+	line "bitte keinen"
+	cont "Abfall."
 	done
-
-
-
 
 SafariZoneExhibitSignText:
 	text "Das Schild wurde"
@@ -169,10 +154,12 @@ SafariZoneExhibitSignText:
 
 HouseForSaleSignText:
 	text "Was ist das?"
-	para "Haus zu verkaufen"
-	line "… Hier wohnt"
+
+	para "Haus zu verkaufen…"
+	line "Hier wohnt"
 	cont "niemand."
 	done
+
 FuchsiaCityCarefulSwimmingSignText:
 	text "Sei auf der Hut,"
 	line "wenn du zu den"

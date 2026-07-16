@@ -15,10 +15,12 @@ VermilionHouseDiglettsCaveSpeechHouse_MapScriptHeader:
 	object_event  1,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionDiglettsCaveSpeechHouseGentlemanText, -1
 
 VermilionDiglettsCaveSpeechHouseGentlemanText:
+	; GSC-DE Dump 6090
 	text "Im Laufe vieler"
 	line "Jahre haben die"
 	cont "DIGDA einen langen"
 	cont "Tunnel gebaut."
+
 	para "Dieser Tunnel"
 	line "führt zu einer"
 	cont "weit entfernten"

@@ -160,13 +160,13 @@ TrainerSwimmermMalcolm:
 	jumpthistextfaceplayer
 
 	text "Du besuchst wohl"
-	line "viele #mon-"
+	line "viele #MON-"
 
 	para "ARENen, oder?"
 	done
 
 .SeenText:
-	text "Meine #mon und"
+	text "Meine #MON und"
 	line "ich schwimmen"
 	para "zusammen, aber wir"
 	line "kämpfen auch!"
@@ -185,7 +185,7 @@ GenericTrainerSwimmermArmand:
 	line "Ufer… Ihre Musik"
 	cont "ist gut, aber sie"
 
-	para "lenkt die #mon"
+	para "lenkt die #MON"
 	line "ab!"
 	done
 
@@ -237,9 +237,9 @@ GenericTrainerBeautyVeronica:
 	done
 
 .SeenText:
+	; PC-only (C)
 	text "Ich habe selten"
 	line "Dates, aber wenn,"
-
 	para "dann ist das KAP"
 	line "bei AZURIA der"
 	cont "perfekte Ort."
@@ -349,7 +349,7 @@ TrainerLadyJessica:
 
 .AfterText1:
 	text "Ich muss mir ein"
-	line "stärkeres #mon"
+	line "stärkeres #MON"
 	cont "kaufen … … … … … …"
 	cont "… Und ein neues"
 	cont "Kleid …"
@@ -376,7 +376,7 @@ GenericTrainerFisherLeroy:
 
 .SeenText:
 	text "Ich fange immer"
-	line "dieselben #mon…"
+	line "dieselben #MON…"
 
 	para "Vielleicht bringt"
 	line "ein Kampf eine"
@@ -422,19 +422,20 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Ach! Warum"
+	; GSC-DE Dump
+	text "MISTY: Aww! Warum"
 	line "musst du jetzt"
 	para "auftauchen und uns"
 	line "stören?"
-	para "Weißt du, wie man"
-	line "Menschen wie dich"
-	cont "nennt?"
+	para "Weißt du, wie"
+	line "man Menschen wie"
+	cont "dich nennt?"
 	para "Plage! Du hast"
 	line "richtig gehört,"
 	cont "Plage!"
 	para "…"
-	para "… Oh? Die ORDEN,"
-	line "die du hast … Sind"
+	para "…Oh? Die ORDEN,"
+	line "die du hast… Sind"
 	cont "das ARENA-ORDEN"
 	cont "aus JOHTO?"
 	para "Wenn du acht hast,"
@@ -450,11 +451,13 @@ Route25MistyDateText:
 	cont "AZURIA CITY."
 	done
 BillsHouseSignText:
-	text "Meereshaus BILLs"
-	line "Haus"
+	; GSC-DE Dump
+	text "KÜSTENHAUS"
+	line "BILLs HAUS"
 	done
 
 CeruleanCapeSailboatText:
+	; PC-only
 	text "Ein Segelboot mit"
 	line "dem Namen"
 	cont "Freund-Schiff."

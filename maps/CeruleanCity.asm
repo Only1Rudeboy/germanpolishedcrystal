@@ -59,17 +59,17 @@ CeruleanCityCooltrainerMScript:
 	iftrue_jumptextfaceplayer CeruleanCityCooltrainerMText2
 	jumpthistextfaceplayer
 
-	text "Kantos Kraftwerk?"
-
-	para "Es liegt am Ende"
-	line "der Route 9, der"
-
-	para "Straße, die hier"
-	line "nach Osten führt."
-
-	para "Ich glaube, dort"
-	line "gab es einen"
-	cont "Unfall."
+	; GSC-DE Dump
+	text "Das KRAFTWERK von"
+	line "KANTO?"
+	para "Es befindet"
+	line "sich am Ende von"
+	para "ROUTE 9, auf der"
+	line "Straße östlich"
+	cont "von hier."
+	para "Es muss dort einen"
+	line "Störfall gegeben"
+	cont "haben."
 	done
 
 CeruleanCityCooltrainerFScript:
@@ -120,17 +120,17 @@ CeruleanCityYoungsterScript:
 	turnobject CERULEANCITY_YOUNGSTER, LEFT
 	jumpthistext
 
-	text "Ha?"
-
-	para "Mein Detektor"
-	line "reagiert…"
+	; GSC-DE Dump
+	text "Ach ja?"
+	para "Mein DETEKTOR"
+	line "schlägt aus…"
 	done
 
 
 CeruleanCityCooltrainerMText2:
+	; GSC-DE Dump
 	text "Sammelst du jede"
-	line "Art von #mon?"
-
+	line "Art von #MON?"
 	para "Das ist bestimmt"
 	line "sehr schwer. Aber"
 	cont "Spaß macht es"
@@ -138,6 +138,7 @@ CeruleanCityCooltrainerMText2:
 	done
 
 CeruleanCitySuperNerdText:
+	; GSC-DE Dump
 	text "Am KAP im Norden"
 	line "treffen sich viele"
 	para "Pärchen. Gerade"
@@ -146,34 +147,39 @@ CeruleanCitySuperNerdText:
 	done
 
 CeruleanCitySlowbroText:
+	; GSC-DE Dump
 	text "LAHMUS: Jarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
+	; GSC-DE Dump
 	text "Mein LAHMUS und"
-	line "ich sind ein"
-	cont "unschlagbares"
-	cont "Team!"
+	line "ich sind ein un-"
+	cont "schlagbares Team!"
 	done
 
 CeruleanCityCooltrainerFText2:
+	; GSC-DE Dump
 	text "LAHMUS, mach deine"
 	line "KONFUSION vor!"
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
+	; GSC-DE Dump
 	text "…"
 	done
 
 CeruleanCityFisherText:
+	; GSC-DE Dump
 	text "Ich bin ein großer"
-	line "Fan von der"
-	cont "ARENA-LEITERIN in"
-	cont "AZURIA CITY. Ihr"
-	cont "Name ist MISTY."
+	line "Fan von der ARENA-"
+	cont "LEITERIN in AZURIA"
+	cont "CITY. Ihr Name ist"
+	cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
+	; GSC-DE Dump
 	text "Ich habe so einen"
 	line "zwielichtigen Typ"
 	cont "zum KAP bei AZURIA"
@@ -181,70 +187,69 @@ CeruleanCityFisherRocketTipText:
 	done
 
 CeruleanCityYoungsterText1:
+	; GSC-DE Dump
 	text "Hier soll es mal"
 	line "eine Höhle gegeben"
 	para "haben, in der"
 	line "mächtige und"
-	cont "grässliche #mon"
+	cont "grässliche #MON"
 	cont "gehaust haben."
 	done
 
 
 CeruleanCityYoungsterText:
+	; PC-only (nach DETEKTOR)
 	text "Mein DETEKTOR"
 	line "reagiert nicht"
-
 	para "mehr… Jemand war"
 	line "wohl schneller!"
 	done
 
 CeruleanCaveGuardText:
+	; PC-only (C)
 	text "Das ist…"
-
 	para "Die berüchtigte"
 	line "AZURIA-HÖHLE!"
-
 	para "Furchtbar starke"
-	line "#mon leben hier"
-
+	line "#MON leben hier"
 	para "Nur wer alle acht"
-	line "Kanto-Arenen"
-
+	line "KANTO-ARENEN"
 	para "besiegt hat, darf"
 	line "eintreten."
 	done
 
 CeruleanCitySignText:
+	; GSC-DE Dump
 	text "AZURIA CITY"
 	para "Umgeben Von Einer"
 	line "Mystischen Blauen"
 	cont "Aura"
 	done
 CeruleanGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "AZURIA CITY"
 	cont "LEITUNG: MISTY"
-
 	para "Die Jungenhafte"
 	line "Meerjungfrau"
 	done
 
 CeruleanBikeShopSignText:
+	; GSC-DE Dump
 	text "Hier ist eine"
 	line "Nachricht…"
-
 	para "Der FAHRRADLADEN"
 	line "ist jetzt in"
-	cont "JOHTO, in DUKATIA"
-	cont "CITY…"
+	cont "JOHTO, in"
+	cont "DUKATIA CITY…"
 	done
 
 CeruleanPoliceSignText:
+	; GSC-DE Dump
 	text "Hier ist eine"
-	line "Nachricht …"
-	para "Stoppt die"
-	line "Kriminalität und"
-	cont "macht"
+	line "Nachricht…"
+	para "Stoppt die Krimi-"
+	line "nalität und macht"
 	para "aus dieser Stadt"
 	line "einen Ort, an dem"
 	cont "man sicher ist und"
@@ -254,21 +259,22 @@ CeruleanPoliceSignText:
 	done
 
 CeruleanCapeSignText:
+	; GSC-DE Dump
 	text "KAP bei AZURIA"
 	line "CITY voraus"
 	done
 
 CeruleanBubblerText:
+	; PC-only
 	text "Das Wasser"
 	line "schmeckt gut!"
 	done
 
 CeruleanTrainerTipsText:
+	; PC-only
 	text "Profi-Tipps!"
-
 	para "Ohne DETEKTOR"
 	line "findest du Items"
-
 	para "in Bäumen, unter"
 	line "Steinen oder im"
 	cont "Wasser."

@@ -26,6 +26,7 @@ SeafoamGym_MapScriptHeader:
 GenericTrainerScientistLowell:
 	generictrainer SCIENTIST, LOWELL, EVENT_BEAT_SCIENTIST_LOWELL, ScientistLowellSeenText, ScientistLowellBeatenText
 
+	; PC (class C)
 	text "In einer Höhle,"
 	line "aber wir waschen"
 	cont "immer die Wäsche."
@@ -34,6 +35,7 @@ GenericTrainerScientistLowell:
 GenericTrainerScientistDennett:
 	generictrainer SCIENTIST, DENNETT, EVENT_BEAT_SCIENTIST_DENNETT, ScientistDennettSeenText, ScientistDennettBeatenText
 
+	; PC (class C)
 	text "Mit PYRO bauen wir"
 	line "unsere ARENA"
 	cont "wieder auf!"
@@ -42,6 +44,7 @@ GenericTrainerScientistDennett:
 GenericTrainerSupernerdCary:
 	generictrainer SUPER_NERD, CARY, EVENT_BEAT_SUPER_NERD_CARY, SupernerdCarySeenText, SupernerdCaryBeatenText
 
+	; PC (class C)
 	text "Bitterkeit führt"
 	line "zu Verbesserung."
 	done
@@ -53,6 +56,7 @@ TrainerScientistLinden:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; PC (class C)
 	text "Nicht alle"
 	line "Forscher helfen"
 	cont "den Bösen."
@@ -61,6 +65,7 @@ TrainerScientistLinden:
 GenericTrainerSupernerdWaldo:
 	generictrainer SUPER_NERD, WALDO, EVENT_BEAT_SUPER_NERD_WALDO, SupernerdWaldoSeenText, SupernerdWaldoBeatenText
 
+	; PC (class C)
 	text "Wer zum Teufel"
 	line "bist du?"
 	done
@@ -68,6 +73,7 @@ GenericTrainerSupernerdWaldo:
 GenericTrainerSupernerdMerle:
 	generictrainer SUPER_NERD, MERLE, EVENT_BEAT_SUPER_NERD_MERLE, SupernerdMerleSeenText, SupernerdMerleBeatenText
 
+	; PC (class C)
 	text "Ich hab deine"
 	line "Stärke nicht"
 	cont "gespürt."
@@ -107,21 +113,24 @@ SeafoamGymBlaineScript:
 	setevent EVENT_GOT_TM61_WILL_O_WISP
 	jumpthisopenedtext
 
+	; PC TM + GSC-DE Dump rematch
 	text "Die Attacke heißt"
 	line "Irrlicht!"
 	para "Sie schwächt den"
 	line "Gegner mit einer"
 	cont "Verbrennung."
-	para "Diesmal hab ich"
+	para "Diesmal habe ich"
 	line "verloren, aber"
-	cont "beim nächsten Mal"
-	cont "gewinne ich!"
-	para "Wenn ich meine"
-	line "ARENA auf der"
-	cont "ZINNOBERINSEL"
-	para "wieder aufbaue,"
-	line "müssen wir nochmal"
-	cont "kämpfen."
+	para "beim nächsten Mal"
+	line "werde ich"
+	cont "gewinnen."
+	para "Ich werde meine"
+	line "PKMN-ARENA auf der"
+	para "ZINNOBERINSEL"
+	line "wieder aufbauen"
+	cont "und dann wirst du"
+	cont "erneut gegen mich"
+	cont "antreten."
 	done
 
 SeafoamGymGuyScript:
@@ -130,23 +139,27 @@ SeafoamGymGuyScript:
 	setevent EVENT_TALKED_TO_SEAFOAM_GYM_GUY_ONCE
 	jumpthistextfaceplayer
 
-	text "Yo!"
-	para "… Hä? Schon"
-	line "vorbei?"
-	para "Entschuldigung!"
-	para "Die ARENA auf der"
-	line "ZINNOBERINSEL war"
-	cont "weg, also wusste"
-	para "ich nicht, wo ich"
-	line "dich finde."
-	para "Aber hey, du bist"
-	line "auch ohne meinen"
-	cont "Tipp stark."
-	para "Ich wusste, du"
-	line "gewinnst!"
+	; GSC-DE Dump
+	text "Jawohl!"
+	para "…Huh? Es ist"
+	line "schon vorüber?"
+	para "Sorry, Kumpel!"
+	para "Die PKMN-ARENA auf"
+	line "der ZINNOBERINSEL"
+	para "existiert nicht"
+	line "mehr und ich"
+	cont "wusste nicht, wo"
+	cont "du steckst."
+	para "Aber egal! Du"
+	line "bist auch ohne"
+	para "meinen Ratschlag"
+	line "zurechtgekommen."
+	cont "Ich wusste, du"
+	cont "würdest gewinnen."
 	done
 
 ScientistLowellSeenText:
+	; PC (class C)
 	text "Dieser Laborkittel"
 	line "macht mich"
 	cont "irgendwie"
@@ -154,12 +167,14 @@ ScientistLowellSeenText:
 	done
 
 ScientistLowellBeatenText:
+	; PC (class C)
 	text "Ein weißer Kittel"
 	line "ist das Leben"
 	cont "eines Forschers."
 	done
 
 ScientistDennettSeenText:
+	; PC (class C)
 	text "PYRO hat seine"
 	line "ARENA verloren,"
 	cont "aber er gibt nie"
@@ -167,11 +182,13 @@ ScientistDennettSeenText:
 	done
 
 ScientistDennettBeatenText:
-	text "Blaines Ausdauer"
+	; PC (class C)
+	text "PYROs Ausdauer"
 	line "motiviert mich!"
 	done
 
 SupernerdCarySeenText:
+	; PC (class C)
 	text "Wow, eine ARENA in"
 	line "so einer Höhle?"
 	para "Die würde ich gern"
@@ -179,11 +196,13 @@ SupernerdCarySeenText:
 	done
 
 SupernerdCaryBeatenText:
+	; PC (class C)
 	text "Eine bittere"
 	line "Niederlage…"
 	done
 
 ScientistLindenSeenText:
+	; PC (class C)
 	text "Wir verloren die"
 	line "ARENA auf der"
 	cont "ZINNOBERINSEL,"
@@ -191,41 +210,45 @@ ScientistLindenSeenText:
 	done
 
 ScientistLindenBeatenText:
+	; PC (class C)
 	text "Wir akzeptieren"
 	line "die Niederlage…"
 	done
 
 SupernerdWaldoSeenText:
+	; PC (class C)
 	text "Ich sammle"
 	line "Kampfberichte."
-
 	para "Hilfst du mir?"
 	done
 
 SupernerdWaldoBeatenText:
+	; PC (class C)
 	text "Ich hätte nicht"
 	line "gedacht, dass du"
 	cont "so gut bist!"
 	done
 
 SupernerdMerleSeenText:
+	; PC (class C)
 	text "Ooh! Du siehst"
 	line "leicht zu besiegen"
 	cont "aus!"
 	done
 
 SupernerdMerleBeatenText:
+	; PC (class C)
 	text "Entschuldigung!"
 	done
 
 BlaineIntroText:
+	; GSC-DE Dump
 	text "PYRO: Wuah!"
-	para "Meine"
-	line "PKMN-ARENA auf"
-	cont "der ZINNOBER-INSEL"
-	cont "ist abgebrannt."
-	cont "Meine"
-	para "Feuer-#mon und"
+	para "Meine PKMN-ARENA"
+	line "auf der ZINNOBER-"
+	cont "INSEL ist abge-"
+	cont "brannt. Meine"
+	para "Feuer-#MON und"
 	line "ich sind wegen des"
 	para "Vulkanausbruchs"
 	line "obdachlos."
@@ -238,77 +261,41 @@ BlaineIntroText:
 	para "Wenn du mich"
 	line "besiegst, bekommst"
 	cont "du einen ORDEN."
-	para "Es wäre besser, du"
-	line "hast FEUERHEILER!"
+	para "Es wäre besser,"
+	line "du hast"
+	cont "FEUERHEILER!"
 	done
 
-
-
-
-
-
-
-
 BlaineWinLossText:
+	; GSC-DE Dump
 	text "PYRO: Gut gemacht."
 	line "Ich bin"
-	cont "ausgebrannt …"
+	cont "ausgebrannt…"
 	para "Hier nimm den"
 	line "VULKANORDEN!"
 	done
 
-
-
-
-
-
-
-
 BlaineAfterBattleText:
-	text "PYRO: Diesmal habe"
-	line "ich verloren, aber"
-	para "beim nächsten Mal"
-	line "werde ich"
-	cont "gewinnen."
-	para "Ich werde meine"
-	line "PKMN-ARENA auf"
-	cont "der"
-	para "ZINNOBERINSEL"
-	line "wieder aufbauen"
-	cont "und dann wirst du"
-	cont "erneut gegen mich"
-	cont "antreten."
+	; PC TM lead-in (class C)
+	text "Hier, nimm auch"
+	line "das!"
 	done
 
-
-
-
-
-
-
-
 BlaineFightDoneText:
-	text "PYRO: Meine"
-	line "Feuer-#mon"
-	cont "werden"
+	; GSC-DE Dump
+	text "PYRO: Meine Feuer-"
+	line "#MON werden"
 	para "noch stärker sein."
 	line "Du wirst schon"
 	cont "sehen!"
 	done
 
-
-
-
-
-
-
-
 SeafoamGymGuyWinText2:
+	; GSC-DE Dump
 	text "Eine PKMN-ARENA"
 	line "kann überall sein,"
-	para "solange der"
-	line "ARENA-LEITER dort"
-	cont "ist."
+	para "solange der ARENA-"
+	line "LEITER dort ist."
 	para "Man braucht dafür"
 	line "kein Gebäude."
 	done

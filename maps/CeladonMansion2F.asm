@@ -21,29 +21,30 @@ CeladonMansion2F_MapScriptHeader:
 CeladonMansion2FSign:
 	jumpthistext
 
-	text "Game Freak"
-	line "Besprechungsraum"
+	; GSC-DE Dump
+	text "GAME FREAK"
+	line "KONFERENZRAUM"
 	done
 
 CeladonMansion2FComputerText:
-	text "<PLAYER> schaltete"
-	line "den PC ein."
+	; GSC-DE Dump
+	text "<PLAYER> hat den"
+	line "PC eingeschaltet."
 	para "…"
-	para "Jemand schrieb"
-	line "gerade an einer"
-	cont "E-Mail."
-	para "… Ich hoffe, du"
-	line "besuchst Kanto."
+	para "Jemand war gerade"
+	line "dabei, eine E-Mail"
+	cont "aufzusetzen."
+	para "…Ich hoffe, du"
+	line "kommst einmal nach"
+	cont "KANTO."
 	para "Ich glaube, du"
-	line "wirst überrascht"
-	para "sein, wie sehr"
-	line "sich hier alles"
-	cont "verändert hat."
-	para "Du wirst auch"
-	line "viele #mon"
-	cont "sehen, die"
-	para "nicht aus Johto"
+	line "wärst überrascht,"
+	para "wie viel sich hier"
+	line "verändert hat."
+	para "Man sieht auch"
+	line "viele #mon, die"
+	para "nicht aus JOHTO"
 	line "stammen."
-	para "An den Produzenten"
+	para "An den PRODUZENTEN"
 	para "…"
 	done

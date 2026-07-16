@@ -148,7 +148,8 @@ VermilionSnorlax:
 	iftruefwd .Awake
 	jumpthisopenedtext
 
-	text "RELAXO schnarcht"
+	; GSC-DE Dump 7035
+	text "RELAXO schläft"
 	line "friedlich…"
 	done
 
@@ -175,14 +176,17 @@ VermilionGymBadgeGuy:
 	ifgreater 9, .SomeBadges
 	jumpthistextfaceplayer
 
-	text "Erfahrene Trainer"
-	line "versammeln sich in"
-	cont "KANTO."
+	; GSC-DE Dump 7037
+	text "In KANTO treffen"
+	line "sich talentierte"
+	cont "Trainer."
+
 	para "ARENALEITER sind"
 	line "besonders stark."
-	para "Sie zu besiegen"
-	line "ist keine leichte"
-	cont "Aufgabe."
+
+	para "Es ist nicht"
+	line "leicht, sie zu"
+	cont "besiegen."
 	done
 
 
@@ -193,9 +197,11 @@ VermilionGymBadgeGuy:
 .SomeBadges:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 7038
 	text "Du sammelst ORDEN"
 	line "der ARENEN in"
 	cont "KANTO?"
+
 	para "Findest du nicht"
 	line "auch, dass die"
 	cont "Trainer hier stark"
@@ -204,11 +210,12 @@ VermilionGymBadgeGuy:
 .MostBadges:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 7039
 	text "Ich schätze, du"
-	line "hast diesen"
-	cont "Wettkampf der"
-	cont "ARENEN in KANTO"
-	cont "bald beendet."
+	line "hast diesen Wett-"
+	cont "kampf der ARENEN"
+	cont "in KANTO bald"
+	cont "beendet."
 
 	para "Lass mich wissen,"
 	line "wenn du alle acht"
@@ -257,13 +264,14 @@ VermilionCitySuperNerd2Script:
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Es ist"
-	line "vorteilhaft, wenn"
-	cont "du"
-	para "#mon"
-	line "verschiedener"
-	cont "Elemente kämpfen"
-	cont "lässt."
+	; GSC-DE Dump 7041
+	text "Es ist vorteil-"
+	line "haft, wenn du"
+
+	para "#mon verschie-"
+	line "dener Elemente"
+	cont "kämpfen lässt."
+
 	para "Ich bin sicher,"
 	line "dass die ORDEN der"
 	cont "ARENEN in KANTO"
@@ -323,13 +331,15 @@ LawrenceIntroText:
 	done
 
 VermilionCityTeacherText:
+	; GSC-DE Dump 7030
 	text "Der HAFEN von"
 	line "ORANIA CITY ist"
-	cont "das Tor KANTOs zum"
-	cont "Meer."
-	para "Hier legen"
-	line "Luxusdampfer aus"
-	cont "aller Welt an."
+	cont "das Tor KANTOs"
+	cont "zum Meer."
+
+	para "Hier legen Luxus-"
+	line "dampfer aus aller"
+	cont "Welt an."
 	done
 
 
@@ -353,18 +363,19 @@ VermilionMachokeOwnerText:
 	done
 
 VermilionMachokeText:
-	text "Machoke: Guooh"
+	; GSC-DE Dump 7032
+	text "MACHOLLO: Guooh"
 	line "gogogoh!"
 	done
 
 VermilionCitySuperNerdText:
+	; GSC-DE Dump 7034
 	text "Es gibt acht"
 	line "ARENEN in KANTO."
 
 	para "Das große Gebäude"
-	line "ist die"
-	cont "PKMN-ARENA von"
-	cont "ORANIA CITY."
+	line "ist die PKMN-ARENA"
+	cont "von ORANIA CITY."
 	done
 
 
@@ -410,12 +421,14 @@ VermilionCitySailorText:
 
 
 VermilionCityRadioNearSnorlaxText:
-	text "Der #Com wird"
+	; GSC-DE Dump 7036
+	text "Der #COM wird"
 	line "in der Nähe des"
 	cont "schlafenden"
-	cont "RELAXOs platziert"
-	cont "…"
+	cont "RELAXOs platziert…"
+
 	para "…"
+
 	para "RELAXO ist"
 	line "aufgewacht!"
 	done
@@ -426,10 +439,13 @@ VermilionCityRadioNearSnorlaxText:
 
 
 VermilionCityBadgeGuyAllBadgesText:
+	; GSC-DE Dump 7040
 	text "Gratuliere!"
+
 	para "Du hast alle ORDEN"
 	line "der ARENEN in"
 	cont "KANTO."
+
 	para "Ich habe hier eine"
 	line "Belohnung für"
 	cont "deine"
@@ -442,17 +458,22 @@ VermilionCityBadgeGuyAllBadgesText:
 
 
 VermilionCitySignText:
+	; GSC-DE Dump 7042
 	text "ORANIA CITY"
+
 	para "Der Hafen Der"
 	line "Stimmungsvollen"
 	cont "Sonnenuntergänge"
 	done
 VermilionGymSignText:
+	; GSC-DE Dump 7043
 	text "PKMN-ARENA von"
 	line "ORANIA CITY"
+
 	para "LEITUNG: MAJOR BOB"
 	line "Der Blitzschnelle"
-	cont "Amerikaner"
+
+	para "Amerikaner"
 	done
 
 

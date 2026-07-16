@@ -15,15 +15,18 @@ FuchsiaBillSpeechHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_MATRON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BillsBrotherText, -1
 	object_event  6,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BillsBrothersHouseYoungsterText, -1
 
+; GSC-DE Dump 6238–6239
 BillsBrotherText:
-	text "Mein Opa ist bei"
-	line "meinem Bruder BILL"
-	cont "in DUKATIA CITY."
+	text "Mein Großvater"
+	line "besucht meinen"
+	cont "Bruder BILL am KAP"
+	cont "bei AZURIA CITY."
 	done
 
 BillsBrothersHouseYoungsterText:
-	text "Ich hab seltsame,"
-	line "langsame #mon"
-	cont "auf dem Radweg"
+	text "Ich habe diese"
+	line "merkwürdigen,"
+	cont "langsamen #mon"
+	cont "auf dem RADWEG"
 	cont "gesehen."
 	done

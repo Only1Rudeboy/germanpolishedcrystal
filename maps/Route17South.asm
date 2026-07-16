@@ -72,9 +72,10 @@ BikerJoelBeatenText:
 GenericTrainerBikerGlenn:
 	generictrainer BIKER, GLENN, EVENT_BEAT_BIKER_GLENN, BikerGlennSeenText, BikerGlennBeatenText
 
+	; GSC-DE Dump
 	text "Freihändig fahren"
-	line "gilt als cool auf"
-	cont "dem RADWEG."
+	line "gilt als cool"
+	cont "auf dem RADWEG."
 	done
 BikerGlennSeenText:
 	text "Hey! Wie wäre es"

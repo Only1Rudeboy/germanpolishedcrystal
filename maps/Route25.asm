@@ -31,14 +31,16 @@ Route25_MapScriptHeader:
 GenericTrainerSchoolboyDudley:
 	generictrainer SCHOOLBOY, DUDLEY, EVENT_BEAT_SCHOOLBOY_DUDLEY, SchoolboyDudleySeenText, SchoolboyDudleyBeatenText
 
-	text "Ich habe alles"
-	line "gegeben. Ich kann"
+	; GSC-DE Dump
+	text "Ich gab mein"
+	line "Bestes. Ich habe"
 	cont "mir nichts"
-	cont "vorwerfen."
+	cont "vorzuwerfen."
 	done
 GenericTrainerLassEllen:
 	generictrainer LASS, ELLEN, EVENT_BEAT_LASS_ELLEN, LassEllenSeenText, LassEllenBeatenText
 
+	; GSC-DE Dump
 	text "Ich habe alles"
 	line "gegeben. Ich kann"
 	cont "mir nichts"
@@ -47,6 +49,7 @@ GenericTrainerLassEllen:
 GenericTrainerSchoolboyJoe:
 	generictrainer SCHOOLBOY, JOE, EVENT_BEAT_SCHOOLBOY_JOE, SchoolboyJoeSeenText, SchoolboyJoeBeatenText
 
+	; GSC-DE Dump
 	text "Ich habe alles"
 	line "gegeben. Ich kann"
 	cont "mir nichts"
@@ -55,31 +58,35 @@ GenericTrainerSchoolboyJoe:
 GenericTrainerLassLaura:
 	generictrainer LASS, LAURA, EVENT_BEAT_LASS_LAURA, LassLauraSeenText, LassLauraBeatenText
 
-	text "Ich habe alles"
-	line "gegeben. Ich kann"
+	; GSC-DE Dump
+	text "Ich gab mein"
+	line "Bestes. Ich habe"
 	cont "mir nichts"
-	cont "vorwerfen."
+	cont "vorzuwerfen."
 	done
 GenericTrainerCamperLloyd:
 	generictrainer CAMPER, LLOYD, EVENT_BEAT_CAMPER_LLOYD, CamperLloydSeenText, CamperLloydBeatenText
 
-	text "Ich habe alles"
-	line "gegeben. Ich kann"
+	; GSC-DE Dump
+	text "Ich gab mein"
+	line "Bestes. Ich habe"
 	cont "mir nichts"
-	cont "vorwerfen."
+	cont "vorzuwerfen."
 	done
 GenericTrainerLassShannon:
 	generictrainer LASS, SHANNON, EVENT_BEAT_LASS_SHANNON, LassShannonSeenText, LassShannonBeatenText
 
-	text "Ich habe alles"
-	line "gegeben. Ich kann"
+	; GSC-DE Dump
+	text "Ich gab mein"
+	line "Bestes. Ich habe"
 	cont "mir nichts"
-	cont "vorwerfen."
+	cont "vorzuwerfen."
 	done
 GenericTrainerSupernerdPat:
 	generictrainer SUPER_NERD, PAT, EVENT_BEAT_SUPER_NERD_PAT, SupernerdPatSeenText, SupernerdPatBeatenText
 
-	text "Tut mir leid… Ich"
+	; GSC-DE Dump
+	text "Tut mir Leid… Ich"
 	line "werde nicht mehr"
 	cont "mogeln…"
 	done
@@ -126,6 +133,7 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
+	; GSC-DE Dump
 	text "Besiege alle sechs"
 	line "Trainer und du"
 	cont "erhältst einen"
@@ -135,161 +143,117 @@ SchoolboyDudleySeenText:
 	cont "dazu?"
 	done
 
-
-
-
-
 SchoolboyDudleyBeatenText:
-	text "Toll! Gut gemacht."
+	; GSC-DE Dump
+	text "Wow! Gut gemacht."
 	done
 
-
-
-
-
 LassEllenSeenText:
+	; GSC-DE Dump
 	text "Ich bin Numero 2!"
 	line "Jetzt wird es"
 	cont "ernst!"
 	done
 
-
-
-
-
 LassEllenBeatenText:
-	text "Wie konnte ich nur"
-	line "verlieren?"
+	; GSC-DE Dump
+	text "Wie konnte ich"
+	line "nur verlieren?"
 	done
 
-
-
-
-
 SchoolboyJoeSeenText:
+	; GSC-DE Dump
 	text "Ich bin Nummer 3!"
 	line "Das wird nicht"
 	cont "leicht."
 	done
 
-
-
-
-
 SchoolboyJoeBeatenText:
-	text "Ach! Vermöbelt!"
+	; GSC-DE Dump
+	text "Oh! Vermöbelt!"
 	done
-
-
-
-
 
 LassLauraSeenText:
-	text "Der Vierte! Bist"
-	line "du müde?"
+	; GSC-DE Dump
+	text "Der Vierte!"
+	line "Bist du müde?"
 	done
 
-
-
-
-
 LassLauraBeatenText:
+	; GSC-DE Dump
 	text "Auch ich habe"
 	line "verloren…"
 	done
 
-
-
-
-
 CamperLloydSeenText:
+	; GSC-DE Dump
 	text "O.K.! Nummer 5."
 	line "Ich zermalme dich!"
 	done
 
-
-
-
-
 CamperLloydBeatenText:
+	; GSC-DE Dump
 	text "Uff! Zu stark."
 	done
 
-
-
-
-
 LassShannonSeenText:
+	; GSC-DE Dump
 	text "Ich bin der"
 	line "Letzte, aber ich"
 	cont "sage dir, ich bin"
 	cont "eine harte Nuss!"
 	done
 
-
-
-
-
 LassShannonBeatenText:
+	; GSC-DE Dump
 	text "Du machst Witze."
 	done
 
-
-
-
-
 SupernerdPatSeenText:
+	; GSC-DE Dump
 	text "Uffuffuff…"
-
 	para "Ich habe mit den"
 	line "sechs Trainern"
 	cont "nichts zu tun."
-
 	para "Ich habe hier auf"
 	line "dich gewartet, um"
-
 	para "dich zu besiegen,"
 	line "da du nach den"
 	cont "vielen Kämpfen"
 	cont "müde sein musst."
 	done
 
-
-
-
-
 SupernerdPatBeatenText:
+	; GSC-DE Dump
 	text "Bist du überhaupt"
 	line "nicht müde?"
 	done
 
-
-
-
-
 Route25MewYoungsterText:
+	; PC-only (C)
 	text "Ich hab hier mal"
-	line "ein Mew gesehen!"
-
+	line "ein MEW gesehen!"
 	para "Du glaubst mir"
-	line "nicht? Flegmon"
+	line "nicht? FLEGMON"
 	cont "hat's auch!"
 	done
 
 Route25SlowpokeText1:
-	text "Slowpoke: …"
-
+	; PC-only (C)
+	text "FLEGMON: …"
 	para "…… …… ……"
 	done
 
 Route25SlowpokeText2:
-	text "…… ……Yawn?"
+	; PC-only (C)
+	text "…… ……Gähn?"
 	done
 
 CooltrainermKevinNuggetText:
+	; GSC-DE Dump
 	text "Du hast einen"
-	line "Kampf mehr"
-	cont "bestritten, als du"
+	line "Kampf mehr be-"
+	cont "stritten, als du"
 	para "erwartet hast."
 	line "Dennoch hast du"
 	cont "gewonnen."
@@ -298,13 +262,10 @@ CooltrainermKevinNuggetText:
 	cont "Preis."
 	done
 
-
-
-
-
 CooltrainermKevinSeenText:
-	text "Nachdem ich"
-	line "gesehen habe, wie"
+	; GSC-DE Dump
+	text "Nachdem ich ge-"
+	line "sehen habe, wie"
 	para "du kämpfst, möchte"
 	line "ich sehen, wie es"
 	cont "mir ergeht."
@@ -313,51 +274,35 @@ CooltrainermKevinSeenText:
 	cont "heraus."
 	done
 
-
-
-
-
 CooltrainermKevinBeatenText:
+	; GSC-DE Dump
 	text "Das war der beste"
 	line "Kampf meines"
 	cont "Lebens!"
 	done
 
-
-
-
-
 CooltrainermKevinAfterBattleText:
+	; GSC-DE Dump
 	text "Der Kampf war"
 	line "großartig!"
-
-	para "Du und deine"
-	line "#mon seid ein"
+	para "Du und deine #-"
+	line "MON seid ein"
 	cont "perfektes Team!"
 	done
 
-
-
-
-
 NuggetBridgeNotClearedText:
+	; PC-only (C)
 	text "Hey du!"
-
 	para "Sechs Trainer und"
 	line "ich veranstalten"
-
 	para "eine Kampf-"
 	line "Herausforderung"
-
-	para "auf dieser Route."
-
+	para "auf dieser ROUTE."
 	para "Du kannst sie"
 	line "nicht"
 	cont "überspringen!"
-
 	para "Direkt unter uns"
 	line "führt ein Abkür-"
-
 	para "zung zurück nach"
-	line "Route 24."
+	line "ROUTE 24."
 	done

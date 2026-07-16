@@ -21,38 +21,38 @@ CeladonDeptStore5F_MapScriptHeader:
 	object_event  1,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore5FTeacherText, -1
 
 CeladonDeptStore5FGentlemanText:
-	text "Ich will Items"
-	line "kaufen, die"
-	cont "#mon-Werte"
-
-	para "erhöhen, aber ich"
-	line "hab nicht genug"
+	; GSC-DE Dump
+	text "Ich möchte Items"
+	line "kaufen, mit denen"
+	para "der Status meiner"
+	line "#mon verbessert"
+	cont "wird, aber ich"
+	cont "habe nicht genug"
 	cont "Geld…"
 	done
 
 CeladonDeptStore5FSailorText:
-	text "Ich will AP-Plus,"
-	line "um die AP von"
-	cont "Attacken zu"
-
-	para "erhöhen. Aber man"
-	line "kann's nicht"
-	cont "kaufen…"
+	; GSC-DE Dump
+	text "Ich möchte AP-PLUS"
+	line "kaufen, damit die"
+	para "AP der Attacken"
+	line "steigen, aber das"
+	para "kann man nicht"
+	line "kaufen…"
 	done
 
 CeladonDeptStore5FTeacherText:
-	text "Items an ihnen zu"
-	line "benutzen macht"
-	cont "#mon glücklich."
-
-	para "Manche Items"
-	line "hassen sie aber…"
+	; GSC-DE Dump
+	text "Es macht #mon"
+	line "glücklich, wenn"
+	cont "sie Items"
+	cont "benutzen dürfen."
+	para "Allerdings mögen"
+	line "sie manche Items"
+	cont "nicht…"
 	done
 
 CeladonDeptStore5FDirectoryText:
-	text "Entfalte das"
-	line "Potenzial von"
-	cont "#mon"
-
-	para "5F: Apotheke"
+	; GSC-DE Dump (PC 5F)
+	text "5F: DROGERIE"
 	done

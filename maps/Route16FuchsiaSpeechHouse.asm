@@ -17,9 +17,9 @@ Route16FuchsiaSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route16FuchsiaSpeechHouseLadyText, -1
 
 Route16FuchsiaSpeechHouseSuperNerdText:
+	; GSC-DE Dump
 	text "Am Ende des"
 	line "RADWEGs ist"
-
 	para "FUCHSANIA CITY."
 	done
 

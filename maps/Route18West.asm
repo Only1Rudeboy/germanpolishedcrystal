@@ -50,6 +50,6 @@ BikerCharlesBeatenText:
 	done
 Route18WestBikeWarningText:
 	text "Du brauchst ein"
-	line "Fahrrad für die"
-	cont "Radwanderstraße!"
+	line "FAHRRAD für den"
+	cont "RADWEG!"
 	done

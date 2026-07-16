@@ -67,8 +67,9 @@ Route16GateCannotPassMovement:
 	step_end
 
 Route1617GateOfficerText:
-	text "Der RADWEG fängt"
-	line "hier an."
+	; GSC-DE Dump
+	text "Der RADWEG"
+	line "fängt hier an."
 	para "Es geht nur"
 	line "bergab, darum ist"
 	cont "die Fahrt so"
@@ -78,11 +79,11 @@ Route1617GateOfficerText:
 	para "oder Zug"
 	line "vermitteln."
 	done
-Route16GateCannotPassText:
-	text "Hey! Boah! Stopp!"
 
+Route16GateCannotPassText:
+	; GSC-DE Dump
+	text "Hey! Boah! Stopp!"
 	para "Du darfst nicht"
 	line "ohne FAHRRAD"
-
 	para "auf den RADWEG."
 	done

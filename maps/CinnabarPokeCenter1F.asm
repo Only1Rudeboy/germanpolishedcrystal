@@ -22,7 +22,8 @@ PokemonJournalBlaineScript:
 	setflag ENGINE_READ_BLAINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	; PC (class C)
+	text "#MON-Journal"
 
 	para "Spezial: PYRO!"
 
@@ -36,15 +37,17 @@ PokemonJournalBlaineScript:
 	done
 
 CinnabarPokeCenter1FCooltrainerfText:
-	text "PYRO, der"
-	line "ARENA-LEITER auf"
-	cont "der"
+	; GSC-DE Dump
+	text "PYRO, der ARENA-"
+	line "LEITER auf der"
 	para "ZINNOBERINSEL,"
-	line "lebt in einer"
-	cont "Höhle auf den"
-	cont "SEE-SCHAUMINSELN …"
+	line "lebt in einer Höh-"
+	cont "le auf den SEE-"
+	cont "SCHAUMINSELN…"
 	done
+
 CinnabarPokeCenter1FFisherText:
+	; GSC-DE Dump
 	text "Der Vulkanausbruch"
 	line "ist jetzt ein Jahr"
 	cont "her."

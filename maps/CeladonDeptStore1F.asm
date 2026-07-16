@@ -20,42 +20,45 @@ CeladonDeptStore1F_MapScriptHeader:
 	object_event  5,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore1FTeacherText, -1
 
 CeladonDeptStore1FReceptionistText:
+	; GSC-DE Dump
 	text "Hallo! Willkommen"
-	line "im Prismania-"
-	cont "Kaufhaus!"
-
-	para "Der Wegweiser ist"
-	line "an der Wand."
+	line "im EINKAUFSZENTRUM"
+	cont "von PRISMANIA"
+	cont "CITY!"
+	para "Die Übersicht"
+	line "ist an der Wand."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "Dieses Kaufhaus"
-	line "gehört zur selben"
-	cont "Kette wie"
-
-	para "das in Dukatia"
-	line "City."
-
-	para "Beide wurden"
-	line "gleichzeitig"
+	; GSC-DE Dump
+	text "Dieses EINKAUFS-"
+	line "ZENTRUM gehört"
+	para "derselben Kette"
+	line "an, wie das in"
+	cont "DUKATIA CITY."
+	para "Sie wurden beide"
+	line "zur selben Zeit"
 	cont "renoviert."
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "Ich bin zum ersten"
-	line "Mal hier."
-	para "Es ist so groß …"
-	para "Ich fürchte, ich"
-	line "verlaufe mich."
+	; GSC-DE Dump
+	text "Ich bin zum"
+	line "ersten Mal hier."
+	para "Es ist so groß…"
+	para "Ich habe Angst,"
+	line "mich zu verlaufen."
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F:"
-	line "Serviceschalter"
-	para "2F: Trainer-Markt"
-	para "3F: Technik-Shop"
-	para "4F:"
-	line "Weisen-Geschenke"
-	para "5F: Apotheke"
-	para "6F: Dach-Atrium"
+	; GSC-DE Dump (PC-Etagen)
+	text "1F: KUNDEN-"
+	line "    INFORMATION"
+	para "2F: ZUBEHÖR für"
+	line "    TRAINER"
+	para "3F: TM-LADEN"
+	para "4F: GESCHENK-"
+	line "    ARTIKEL"
+	para "5F: DROGERIE"
+	para "6F: DACHTERRASSE"
 	done

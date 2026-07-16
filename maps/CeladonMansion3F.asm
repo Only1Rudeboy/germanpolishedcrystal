@@ -82,15 +82,18 @@ GameFreakGraphicArtistScript:
 MapCeladonMansion3FSignpost0Script:
 	jumpthistext
 
-	text "Game Freak"
-	line "Entwicklungsraum"
+	; GSC-DE Dump
+	text "GAME FREAK"
+	line "ENTWICKLUNGSRAUM"
 	done
 
 MapCeladonMansion3FSignpost1Script:
 	jumpthistext
 
-	text "Eine detaillierte"
-	line "Zeichnung eines"
+	; GSC-DE Dump
+	text "Das ist eine sehr"
+	line "detaillierte"
+	cont "Zeichnung eines"
 	cont "hübschen Mädchens."
 	done
 
@@ -112,118 +115,122 @@ MapCeladonMansion3FSignpost2Script:
 MapCeladonMansion3FSignpost3Script:
 	jumpthistext
 
-	text "Es steckt voller"
-	line "Referenzmaterial."
-	cont "Sogar eine #"
-	cont "Puppe ist dabei!"
+	; GSC-DE Dump
+	text "Es ist angefüllt"
+	line "mit Utensilien."
+	cont "Da ist sogar eine"
+	cont "#puppe."
 	done
 
 GameFreakGameDesignerText:
-	text "Ach, wirklich?"
-
+	; GSC-DE Dump
+	text "Ist das richtig?"
 	para "Ich bin der"
-	line "Spieledesigner!"
-
-	para "Den #dex zu"
-	line "füllen ist hart,"
-	cont "aber gib nicht"
-	cont "auf!"
+	line "SPIELDESIGNER!"
+	para "Es ist schwer,"
+	line "den #dex zu"
+	cont "erstellen, aber"
+	cont "gib nicht auf!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Toll! Exzellent!"
-	line "Du hast deinen"
-	cont "#dex komplett!"
-	para "Glückwunsch!"
+	; GSC-DE Dump
+	text "Wow! Hervorragend!"
+	line "Dein #dex ist"
+	cont "komplett!"
+	para "Gratuliere!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
-	text "Als Anerkennung"
-	line "deiner Leistung…"
-	cont "hier, bitte!"
-
-	para "Ein druckfrisches"
-	line "Diplom!"
+	; GSC-DE Dump
+	text "Der GRAFIKER wird"
+	line "dir ein DIPLOM"
+	cont "ausdrucken."
+	para "Gib ruhig damit"
+	line "an."
 	done
 
 GameFreakGameDesignerGiveDiplomaText:
 	text "<PLAYER> erhält"
-	line "ein Diplom!"
+	line "ein DIPLOM!"
 	done
 
 GameFreakGameDesignerDiplomaSentText:
-	text "Das Diplom kam"
+	text "Das DIPLOM kam"
 	line "nach Hause."
 	done
 
-
 GameFreakDesignerGaveDiplomaText:
-	text "Glückwunsch zum"
-	line "Abschluss deines"
-	cont "#dex!"
-
-	para "Zeig doch dein"
-	line "Diplom herum!"
+	; GSC-DE Dump
+	text "Der GRAFIKER wird"
+	line "dir ein DIPLOM"
+	cont "ausdrucken."
+	para "Gib ruhig damit"
+	line "an."
 	done
 
 GameFreakGraphicArtistText:
+	; GSC-DE Dump
 	text "Ich bin der"
-	line "Grafikdesigner."
-
-	para "Ich hab dich"
-	line "gezeichnet!"
+	line "GRAFIKER."
+	para "Ich habe eine"
+	line "Zeichnung von dir"
+	cont "angefertigt!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
+	; GSC-DE Dump
 	text "Ich bin der"
-	line "Grafikdesigner."
+	line "GRAFIKER."
 	para "Oh, du hast deinen"
-	line "#dex komplett?"
-	para "Soll ich dein"
-	line "Diplom drucken?"
+	line "#dex fertig"
+	cont "gestellt?"
+	para "Möchtest du, dass"
+	line "ich dir ein DIPLOM"
+	cont "ausdrucke?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Sag Bescheid, wenn"
-	line "dein Diplom"
-	cont "gedruckt sein"
+	; GSC-DE Dump
+	text "Gib mir Bescheid,"
+	line "wenn ich dir dein"
+	cont "DIPLOM ausdrucken"
 	cont "soll."
 	done
 
 GameFreakProgrammerText:
+	; GSC-DE Dump
 	text "Wer, ich? Ich bin"
-	line "der Programmierer."
-	para "Nutze das"
-	line "Wundertausch-"
-	cont "Terminal!"
+	line "der PROGRAMMIERER."
+	para "Probier die"
+	line "Spielautomaten"
+	cont "aus!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Ist LYRA nicht"
-	line "süß?"
-
+	; GSC-DE Dump + PC (LYRA)
+	text "Sind die ZWILLINGE"
+	line "nicht"
+	cont "anbetungswürdig?"
 	para "JASMIN ist auch"
-	line "hübsch."
-
-	para "Ich liebe die"
-	line "beiden!"
+	line "sehr hübsch."
+	para "Oh, ich bete"
+	line "sie an!"
 	done
 
-
-
 CeladonMansion3FGameProgramText:
-	text "Das ist das"
-	line "Spielprogramm."
-
-	para "Daran zu pfuschen"
-	line "könnte einen Bug"
-
-	para "verursachen!"
-	line "Willst du es"
-	cont "riskieren?"
+	; GSC-DE Dump + PC prompt
+	text "Das ist das Spiel-"
+	line "programm. Die"
+	para "falsche Handhabe"
+	line "könnte Fehler im"
+	cont "Spiel verursachen!"
+	para "Willst du es"
+	line "riskieren?"
 	done
 
 CeladonMansion3FAreYouSureText:
+	; PC-only Class C
 	text "Bist du sicher?"
 	line "Könnte abstürzen!"
 	done

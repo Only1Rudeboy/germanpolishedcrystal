@@ -42,15 +42,17 @@ SaffronPokeCenter1FFisherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 5824
 	text "Ich bin gerade"
-	line "durch den"
-	cont "FELS-TUNNEL"
-	cont "gekommen."
+	line "durch den FELS-"
+	cont "TUNNEL gekommen."
 	para "Da war irgendetwas"
 	line "im Gange beim"
 	cont "KRAFTWERK."
 	done
+
 .Text2:
+	; GSC-DE Dump 5825
 	text "Die Höhlen stürzen"
 	line "leicht ein."
 	para "In letzter Zeit"
@@ -58,23 +60,27 @@ SaffronPokeCenter1FFisherScript:
 	para "verschwunden. Wie"
 	line "die Höhle vor"
 	cont "AZURIA CITY."
-	para "Für einen"
-	line "Profi-WANDERER ist"
-	cont "das Grundwissen."
+	para "Für einen Profi-"
+	line "WANDERER ist das"
+	cont "Grundwissen."
 	done
+
 SaffronPokeCenter1FTeacherText:
+	; GSC-DE Dump 5822
 	text "Wie sehen die"
 	line "#mon-CENTER in"
 	cont "JOHTO aus?"
-	para "… Oh, aha. Sie"
+	para "…Oh, aha. Sie"
 	line "unterscheiden sich"
-	para "kaum von denen in"
-	line "KANTO."
+	para "kaum von denen"
+	line "in KANTO."
 	para "Ich kann also nach"
 	line "JOHTO gehen, ohne"
 	cont "mich zu sorgen!"
 	done
+
 SaffronPokeCenter1FYoungsterText:
+	; GSC-DE Dump 5826
 	text "Die ZENTRALE von"
 	line "SILPH CO. und der"
 	para "MAGNETZUG-BAHNHOF"

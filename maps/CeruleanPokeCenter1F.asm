@@ -22,13 +22,11 @@ PokemonJournalMistyScript:
 	setflag ENGINE_READ_MISTY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
-
+	; PC-only Journal
+	text "#MON-Journal"
 	para "Spezial: MISTY!"
-
 	para "Man sagt, MISTY"
 	line "verehre LORELEI,"
-
 	para "ein ehemaliges"
 	line "Mitglied der TOP"
 	cont "VIER."
@@ -39,9 +37,9 @@ CeruleanPokeCenter1FGymGuyScript:
 	iftrue_jumptextfaceplayer .MetricText
 	jumpthistextfaceplayer
 
-	text "Mit einer"
-	line "Geschwindigkeit"
-	cont "von"
+	; PC imperial (Dump metric-only)
+	text "Mit einer Ge-"
+	line "schwindigkeit von"
 	para "über 340 mph reist"
 	line "der MAGNETZUG in"
 	para "null Komma nichts"
@@ -51,27 +49,26 @@ CeruleanPokeCenter1FGymGuyScript:
 	line "ganz nah."
 	done
 .MetricText:
-	text "Der Magnetzug"
-	line "fährt über 550"
-	cont "km/h."
-	para "Er verbindet Kanto"
-	line "und"
-	para "Johto in kürzester"
-	line "Zeit."
-	para "Johto ist so gut"
-	line "erreichbar."
+	; GSC-DE Dump
+	text "Mit einer Ge-"
+	line "schwindigkeit von"
+	para "über 550km/h reist"
+	line "der MAGNETZUG in"
+	para "null Komma nichts"
+	line "zwischen KANTO und"
+	cont "JOHTO hin und her."
+	para "Dadurch ist JOHTO"
+	line "ganz nah."
 	done
 
 CeruleanPokeCenter1FSuperNerdText:
+	; GSC-DE Dump
 	text "Ich kämpfe lieber"
-	line "mit #mon, die"
-
+	line "mit #MON, die"
 	para "ich trainiert"
 	line "habe, auch wenn"
-
 	para "sie schwach sind,"
-	line "als mit #mon,"
-
+	line "als mit #MON,"
 	para "die ich neu"
 	line "gefangen habe."
 	done

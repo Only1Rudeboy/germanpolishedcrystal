@@ -86,29 +86,29 @@ SaffronGymSabrinaScript:
 	setevent EVENT_GOT_TM29_PSYCHIC
 	jumpthisopenedtext
 
-	text "TM29 ist Psychic."
-
-	para "Es kann die"
-	line "SP.-VERT des"
-	cont "Zieles senken."
-
-	para "Du wirst ein"
-	line "gefürchteter und"
-	cont "beliebter Champ!"
+	; GSC-DE Dump 5828
+	text "TM29 ist PSYCHO-"
+	line "KINESE."
+	para "Sie kann die"
+	line "SPEZ. VER des"
+	cont "Gegners senken."
 	done
 
 GenericTrainerMediumDoris:
 	generictrainer MEDIUM, DORIS, EVENT_BEAT_MEDIUM_DORIS, MediumDorisSeenText, MediumDorisBeatenText
 
+	; GSC-DE Dump 5814
 	text "Mist! Ich habe"
 	line "vergessen, dass"
-	cont "ich meine"
-	cont "Niederlage gegen"
-	cont "dich voraussah."
+	cont "ich meine Nieder-"
+	cont "lage gegen dich"
+	cont "voraussah."
 	done
+
 GenericTrainerPsychicLeon:
 	generictrainer PSYCHIC_T, LEON, EVENT_BEAT_PSYCHIC_LEON, PsychicLeonSeenText, PsychicLeonBeatenText
 
+	; PC-only
 	text "SABRINAs Kraft ist"
 	line "stärker als meine!"
 	done
@@ -116,23 +116,23 @@ GenericTrainerPsychicLeon:
 GenericTrainerPsychicJared:
 	generictrainer PSYCHIC_T, JARED, EVENT_BEAT_PSYCHIC_JARED, PsychicJaredSeenText, PsychicJaredBeatenText
 
-	text "Der"
-	line "KARATE-MEISTER,"
-	cont "Leiter"
+	; GSC-DE Dump 5817
+	text "Der KARATE-"
+	line "MEISTER, Leiter"
 	para "des KARATE DOJO,"
 	line "ist gerade von"
 	cont "SABRINA besiegt"
 	cont "worden."
 	done
+
 GenericTrainerHexManiacLuna:
 	generictrainer HEX_MANIAC, LUNA, EVENT_BEAT_HEX_MANIAC_LUNA, HexManiacLunaSeenText, HexManiacLunaBeatenText
 
+	; PC-only
 	text "ALAKAZAM ist ein"
 	line "mächtiges #mon,"
-
 	para "deshalb benutzen"
 	line "HEX MANIACS"
-
 	para "seinen Namen für"
 	line "starke Zauber."
 	done
@@ -140,44 +140,50 @@ GenericTrainerHexManiacLuna:
 GenericTrainerHexManiacNatalie:
 	generictrainer HEX_MANIAC, NATALIE, EVENT_BEAT_HEX_MANIAC_NATALIE, HexManiacNatalieSeenText, HexManiacNatalieBeatenText
 
+	; PC-only
 	text "Vielleicht bin ich"
 	line "nicht für Hex"
-	cont "Maniacs gemacht …"
+	cont "Maniacs gemacht…"
 	done
 
 GenericTrainerPsychicFranklin:
 	generictrainer PSYCHIC_T, FRANKLIN, EVENT_BEAT_PSYCHIC_FRANKLIN, PsychicFranklinSeenText, PsychicFranklinBeatenText
 
+	; GSC-DE Dump 5811
 	text "Du hast auch deine"
 	line "Seele gestärkt,"
 	cont "nicht nur deine"
 	cont "Fähigkeiten."
 	done
+
 GenericTrainerMediumRebecca:
 	generictrainer MEDIUM, REBECCA, EVENT_BEAT_MEDIUM_REBECCA, MediumRebeccaSeenText, MediumRebeccaBeatenText
 
+	; GSC-DE Dump 5808
 	text "Woher kommt deine"
 	line "Kraft?"
 	done
+
 SaffronGymGuyScript:
 	checkevent EVENT_BEAT_SABRINA
 	iftrue_jumptextfaceplayer SaffronGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP in"
-	line "spe!"
-	para "Ein Trainer deines"
-	line "Kalibers"
+	; GSC-DE Dump 5818
+	text "He! Ein CHAMP"
+	line "in spe!"
+	para "Ein Trainer"
+	line "deines Kalibers"
 	para "braucht sicher"
 	line "keine Anweisung,"
-	para "wie mit"
-	line "Psycho-#mon"
-	cont "umzugehen ist,"
-	cont "nicht wahr?"
-	para "Ich erwarte Großes"
-	line "von dir!"
+	para "wie mit Psycho-"
+	line "#mon umzugehen"
+	cont "ist, nicht wahr?"
+	para "Ich erwarte"
+	line "Großes von dir!"
 	para "Viel Glück!"
 	done
+
 SaffronGymStatue:
 	gettrainername SABRINA, 1, STRING_BUFFER_4
 	checkflag ENGINE_SOULBADGE
@@ -187,138 +193,161 @@ SaffronGymStatue:
 	jumpstd gymstatue2
 
 SabrinaIntroText:
-	text "Ich habe deine"
-	line "Ankunft"
-	cont "vorausgesehen…"
-	para "Ich bin SABRINA,"
-	line "ARENALEITERIN von"
-	cont "SAFFRONIA CITY."
-	para "Meine"
-	line "Psycho-#mon und"
-	cont "ich lesen"
-	cont "Gedanken."
-	para "Kämpfe hat für"
-	line "mich keinen Sinn"
-	cont "-aber Regeln sind"
-	cont "Regeln."
+	; GSC-DE Dump 5801
+	text "SABRINA: Ich"
+	line "wusste, dass du"
+	cont "kommen würdest…"
+	para "Vor drei Jahren"
+	line "sah ich dich in"
+	cont "einer Vision."
+	para "Du willst meinen"
+	line "ORDEN haben."
+	para "Ich habe keine"
+	line "Freude am Kämpfen,"
+	para "aber als LEITERIN"
+	line "ist es meine"
+	para "Pflicht, all denen"
+	line "einen ORDEN zu"
+	para "geben, die sich"
+	line "als würdig"
+	cont "erwiesen haben."
+	para "Da du es wünschst,"
+	line "werde ich dir"
+	cont "meine psychischen"
+	cont "Kräfte zeigen!"
 	done
+
 SabrinaWinLossText:
-	text "Diese Niederlage…"
-	line "ich habe sie nicht"
-	cont "vorausgesehen."
-	para "Nimm den"
-	line "SUMPFORDEN."
+	; GSC-DE Dump 5802
+	text "SABRINA: Deine"
+	line "Stärke…"
+	para "übertrifft meine"
+	line "Vorahnungen bei"
+	cont "weitem…"
+	para "Vielleicht ist es"
+	line "nicht möglich,"
+	para "alles vorherzu-"
+	line "sagen, was die"
+	cont "Zukunft bringt…"
+	para "Gut, du hast"
+	line "dir den SUMPFORDEN"
+	cont "verdient."
 	done
+
 SabrinaMarshBadgeText:
-	text "Der SUMPFORDEN"
-	line "erhöht die"
-	cont "SPEZ-VERT."
-	para "Außerdem können"
-	line "#mon KASKADE"
-	cont "nutzen."
-	para "Hier - TM"
-	line "PSYCHOKINESE."
+	; GSC-DE Dump 5804
+	text "SABRINA: Der"
+	line "SUMPFORDEN"
+	para "aktiviert deine"
+	line "unterbewussten"
+	cont "Kräfte…"
+	para "Obwohl ich nicht"
+	line "in der Lage war,"
+	cont "deine Stärke"
+	cont "vorauszusehen,"
+	cont "weiß ich das ganz"
+	cont "sicher."
+	para "Du wirst ein"
+	line "gefeierter und"
+	cont "beliebter CHAMP"
+	cont "werden!"
 	done
+
 SabrinaFightDoneText:
-	text "Die Kraft der"
-	line "Psycho-#mon ist"
-	cont "geheimnisvoll…"
-	para "Du hast dein"
-	line "eigenes Schicksal"
-	cont "in der Hand."
+	; GSC-DE Dump 5805
+	text "SABRINA: Deine Zu-"
+	line "neigung zu deinen"
+	para "#mon hat meine"
+	line "Psychostärke"
+	cont "übertroffen…"
+	para "Die Kraft der"
+	line "Liebe ist meiner"
+	para "Ansicht nach auch"
+	line "eine Art von"
+	cont "Psychostärke…"
 	done
+
 MediumDorisSeenText:
-	text "Hehehehe … Ich"
-	line "habe es deutlich"
-	cont "vor mir."
+	; GSC-DE Dump 5812
+	text "Hehehehe…"
+	line "Ich habe es"
+	cont "deutlich vor mir."
 	para "Ich kann in deine"
 	line "Seele blicken!"
 	done
 
-
-
-
-
 MediumDorisBeatenText:
+	; GSC-DE Dump 5813
 	text "Obwohl ich in dir"
 	line "lesen kann, habe"
 	cont "ich verloren…"
 	done
 
-
-
-
-
 PsychicLeonSeenText:
+	; PC-only
 	text "Du kannst meiner"
 	line "Psycho-Kraft nicht"
 	cont "widerstehen!"
 	done
 
 PsychicLeonBeatenText:
+	; PC-only
 	text "Meine Vorhersage"
 	line "war falsch…"
 	done
 
 PsychicJaredSeenText:
+	; GSC-DE Dump 5815
 	text "Das KARATE DOJO"
 	line "nebenan war früher"
-	cont "die PKMN-ARENA"
-	cont "der Stadt."
+	cont "die PKMN-ARENA der"
+	cont "Stadt."
 	done
-
-
-
-
 
 PsychicJaredBeatenText:
-	text "Ich war leicht zu"
-	line "besiegen…"
+	; GSC-DE Dump 5816
+	text "Ich war leicht"
+	line "zu besiegen…"
 	done
 
-
-
-
-
 HexManiacLunaSeenText:
+	; PC-only
 	text "Abra, Kadabra,"
 	line "Alakazam!"
 	done
 
 HexManiacLunaBeatenText:
+	; PC-only
 	text "Mein Fluch schlug"
 	line "fehl?"
 	done
 
 HexManiacNatalieSeenText:
+	; PC-only
 	text "Kämpfen wir!"
 	line "Mwahaha!"
 	done
 
 HexManiacNatalieBeatenText:
+	; PC-only
 	text "Mwaha--cough!"
 	done
 
 PsychicFranklinSeenText:
+	; GSC-DE Dump 5809
 	text "Psychische Stärke"
 	line "ist die Kraft"
 	cont "deiner Seele."
 	done
 
-
-
-
-
 PsychicFranklinBeatenText:
+	; GSC-DE Dump 5810
 	text "Deine Seele ist"
 	line "stärker als meine!"
 	done
 
-
-
-
-
 MediumRebeccaSeenText:
+	; GSC-DE Dump 5806
 	text "Die Kraft all"
 	line "derer, die du"
 	cont "besiegt hast,"
@@ -326,20 +355,14 @@ MediumRebeccaSeenText:
 	cont "mir!"
 	done
 
-
-
-
-
 MediumRebeccaBeatenText:
-	text "Stark… Viel zu"
-	line "stark…"
+	; GSC-DE Dump 5807
+	text "Stark…"
+	line "Viel zu stark…"
 	done
 
-
-
-
-
 SaffronGymGuyWinText:
+	; GSC-DE Dump 5819
 	text "Das war wieder ein"
 	line "fantastischer"
 	cont "Kampf!"

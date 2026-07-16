@@ -17,20 +17,19 @@ PewterMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, PewterMartSuperNerdText, -1
 
 PewterMartYoungsterText:
-	text "Hallo! Mach doch"
+	; GSC-DE Dump
+	text "Hi! Mach doch"
 	line "Bekanntschaft mit"
 	cont "meinem GARADOS!"
 	para "Ich habe es als"
-	line "KARPADOR"
-	cont "aufgezogen. Kaum"
-	cont "zu"
+	line "KARPADOR auf-"
+	cont "gezogen. Kaum zu"
 	para "glauben, wie stark"
 	line "es geworden ist."
 	done
 
-
-
 PewterMartSuperNerdText:
+	; GSC-DE Dump
 	text "Es gab mal einen"
 	line "komischen, alten"
 	cont "Mann, der KARPADOR"
@@ -41,6 +40,3 @@ PewterMartSuperNerdText:
 	line "seien"
 	cont "außergewöhnlich."
 	done
-
-
-

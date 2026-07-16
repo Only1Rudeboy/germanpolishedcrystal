@@ -16,23 +16,22 @@ CeladonDevelopmentSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDevelopmentSpeechHouseBeautyText, -1
 
 CeladonDevelopmentSpeechHouseCooltrainermText:
-	text "Prismania ist zu"
+	; PC-only Class C
+	text "PRISMANIA ist zu"
 	line "einem beliebten"
 	cont "Touristenort"
-
 	para "geworden."
-
 	para "Das Hotel ist"
 	line "immer voll"
 	cont "ausgebucht!"
 	done
 
 CeladonDevelopmentSpeechHouseBeautyText:
+	; PC-only Class C
 	text "Diese Stadt war"
-	line "mal ein"
-	cont "Zufluchts-ort für"
-	cont "Team"
-	para "Rocket."
+	line "mal ein Zufluchts-"
+	cont "ort für TEAM"
+	cont "ROCKET."
 	para "Ich hatte Angst,"
 	line "das Haus zu"
 	cont "verlassen, solange"

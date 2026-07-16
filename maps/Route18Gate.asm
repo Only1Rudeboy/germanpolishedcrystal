@@ -66,16 +66,20 @@ Route17Route18GateCannotPassMovement:
 	turn_head_left
 	step_end
 
+; GSC-DE Dump 2778–2779
 Route17Route18GateOfficerText:
-	text "Der Radweg führt"
-	line "hier bergauf."
+	text "RADWEG"
+	line "Ab hier geht's"
+	cont "bergauf."
 	done
 
 Route17Route18GateCannotPassText:
 	text "Warte! Hast du"
 	line "kein FAHRRAD?"
-	para "Der RADWEG beginnt"
-	line "da vorne."
+
+	para "Der RADWEG"
+	line "beginnt da vorne."
+
 	para "Ohne FAHRRAD"
 	line "darfst du ihn"
 	cont "nicht benutzen."

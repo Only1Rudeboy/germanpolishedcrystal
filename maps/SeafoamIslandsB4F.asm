@@ -127,13 +127,14 @@ ArticunoText:
 	done
 
 SeafoamIslandsB4FLawrenceSpeechText:
+	; PC (class C)
 	text "Lawrence: Hallo"
 	line "wieder, <PLAYER>."
 	para "Also sammelst du"
 	line "auch Legenden?"
 	cont "Habe ich dich"
 	cont "inspiriert?"
-	para "… Was?! Du hast"
+	para "…Was?! Du hast"
 	line "alle drei Vögel"
 	cont "gefangen?"
 	cont "Unmöglich."
@@ -141,7 +142,7 @@ SeafoamIslandsB4FLawrenceSpeechText:
 	line "meinem Wissen und"
 	para "meinen Mitteln"
 	line "habe LAVADOS nicht"
-	cont "gefunden …"
+	cont "gefunden…"
 	para "Warum hast du"
 	line "Erfolg, wo ich"
 	cont "scheiterte?"
@@ -157,15 +158,16 @@ SeafoamIslandsB4FLawrenceSpeechText:
 	line "inakzeptabel."
 	para "Triff mich am"
 	line "zerstörten Schrein"
-	cont "auf"
-	cont "Shamouti-Insel."
+	cont "auf der"
+	cont "SHAMOUTI-INSEL."
 	para "Ich zeige dir,"
 	line "dass ich diese"
-	cont "#mon verdient"
+	cont "#MON verdient"
 	cont "habe."
 	done
 
 SeafoamIslandsB4FLawrenceEscapeRopeText:
+	; PC (class C)
 	text "Lawrence benutzt"
 	line "FLUCHTSEIL!"
 	done

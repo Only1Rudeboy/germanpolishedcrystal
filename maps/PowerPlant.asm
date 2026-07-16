@@ -58,11 +58,6 @@ PowerPlantGuardPhoneScript:
 	setscene SCENE_POWERPLANT_NOOP
 	end
 
-
-
-
-
-
 PowerPlantOfficerScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer PowerPlantOfficer1HaveToBeefUpSecurityText
@@ -70,97 +65,75 @@ PowerPlantOfficerScript:
 	iftrue_jumptextfaceplayer PowerPlantOfficer1CouldIAskForYourCooperationText
 	jumpthistextfaceplayer
 
-	text "Ein Dieb brach ins"
-	line "Kraftwerk ein …"
-	para "Wohin soll das nur"
-	line "noch führen?"
+	; GSC-DE Dump
+	text "Ein Dieb ist in"
+	line "das KRAFTWERK"
+	cont "eingebrochen…"
+	para "Was geschieht nur"
+	line "mit dieser Welt?"
 	done
-
-
-
-
 
 PowerPlantGymGuide1Script:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer PowerPlantGymGuide1GeneratorUpAndRunningText
 	jumpthistextfaceplayer
 
-	text "Jemand hat ein"
-	line "wichtiges Teil für"
-	cont "den Generator"
-	cont "gestohlen."
+	; GSC-DE Dump
+	text "Ein wichtiges Teil"
+	line "des Generators"
+	para "wurde von dem Dieb"
+	line "entwendet."
 	para "Ohne dieses Teil"
-	line "ist der neue"
-	cont "Generator nutzlos!"
+	line "funktioniert der"
+	cont "neue Generator"
+	cont "nicht!"
 	done
-
-
-
-
 
 PowerPlantGymGuide2Script:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer PowerPlantGymGuide2GeneratorIsRunningAgainText
 	jumpthistextfaceplayer
 
-	text "Dieses Kraftwerk"
-	line "war früher außer"
-	cont "Betrieb."
-
+	; GSC-DE Dump
+	text "Das KRAFTWERK"
+	line "wurde vor langer"
+	cont "Zeit stillgelegt."
 	para "Wir haben es"
-	line "wieder in Gang"
-
-	para "gebracht, um den"
-	line "MAGNETZUG mit"
-	cont "Strom zu"
-	cont "versorgen."
+	line "wieder in Betrieb"
+	para "genommen und ver-"
+	line "sorgen den MAGNET-"
+	cont "ZUG mit Energie."
 	done
-
-
-
-
 
 PowerPlantOfficer2Script:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer PowerPlantOfficer2ManagerHasBeenCheerfulText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Der DIREKTOR des"
-	line "Kraftwerks ist"
-	cont "weiter vorne."
-
-	para "Aber seit jemand"
-	line "den Generator"
-	cont "demoliert hat,"
-
-	para "ist er sowohl"
-	line "traurig als auch"
-	cont "wütend…"
+	line "KRAFTWERKs sitzt"
+	cont "da vorne."
+	para "Seit jemand den"
+	line "Generator demo-"
+	cont "lierte, ist er"
+	cont "traurig und wütend"
+	cont "zugleich…"
 	done
-
-
-
-
 
 PowerPlantGymGuide4Script:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer PowerPlantGymGuide4WeCanGetMagnetTrainRunningText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Der MAGNETZUG"
 	line "verbraucht viel"
-	cont "Strom."
-
-	para "Er kann nicht"
-	line "fahren, wenn der"
-
-	para "neue Generator"
-	line "nicht läuft."
+	cont "Energie."
+	para "Ohne den neuen"
+	line "Generator fährt"
+	cont "er nicht."
 	done
-
-
-
-
 
 PowerPlantManager:
 	faceplayer
@@ -227,9 +200,10 @@ PowerPlantTutorZapCannonScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
+	; PC tutor (class C)
 	text "Ohne das Blatt"
-	line "kann ich Zap"
-	cont "Cannon nicht"
+	line "kann ich BLITZ-"
+	cont "KANONE nicht"
 	cont "beibringen!"
 	done
 
@@ -237,10 +211,10 @@ PowerPlantTutorZapCannonScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
+	; PC tutor (class C)
 	text "Jetzt kennt dein"
-	line "#mon Zap"
-	cont "Cannon!"
-
+	line "#MON BLITZ-"
+	cont "KANONE!"
 	para "Wahahah!"
 	done
 
@@ -259,8 +233,8 @@ PowerPlantOfficer1ReturnToPostMovement:
 	turn_head_down
 	step_end
 
-
 PowerPlantOfficer1CeruleanShadyCharacterText:
+	; GSC-DE Dump
 	text "Ich habe Nachricht"
 	line "aus AZURIA CITY."
 	para "Eine zwielichtige"
@@ -269,74 +243,52 @@ PowerPlantOfficer1CeruleanShadyCharacterText:
 	line "Umgebung herum."
 	done
 
-
-
-
-
 PowerPlantOfficer1CouldIAskForYourCooperationText:
+	; GSC-DE Dump
 	text "Kann ich mit"
-	line "deiner"
-	cont "Unterstützung"
-	cont "rechnen?"
+	line "deiner Unter-"
+	cont "stützung rechnen?"
 	done
 
-
-
-
-
 PowerPlantOfficer1HaveToBeefUpSecurityText:
+	; GSC-DE Dump
 	text "Wir müssen mehr"
 	line "Wachpersonal"
 	cont "einstellen."
 	done
 
-
-
-
-
 PowerPlantGymGuide1GeneratorUpAndRunningText:
+	; GSC-DE Dump
 	text "Der Generator"
-	line "funktioniert"
-	cont "wieder. Jetzt"
-	cont "erzeugen wir"
-	cont "genügend Energie."
+	line "funktioniert wie-"
+	cont "der. Jetzt erzeu-"
+	cont "gen wir genügend"
+	cont "Energie."
 	done
 
-
-
-
-
 PowerPlantGymGuide2GeneratorIsRunningAgainText:
+	; GSC-DE Dump
 	text "Der Generator"
 	line "läuft wieder!"
 	done
 
-
-
-
-
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
+	; GSC-DE Dump
 	text "Seit der Generator"
 	line "wieder läuft, ist"
 	para "der DIREKTOR"
 	line "wieder fröhlich."
 	done
 
-
-
-
-
 PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
-	text "O.K. Der"
-	line "MAGNET-ZUG fährt"
+	; GSC-DE Dump
+	text "O.K. Der MAGNET-"
+	line "ZUG fährt"
 	para "wieder."
 	done
 
-
-
-
-
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
+	; GSC-DE Dump
 	text "DIREKTOR: Ich, ich"
 	line "werde ihm nie"
 	cont "verzeihen!"
@@ -352,11 +304,8 @@ PowerPlantManagerWhoWouldRuinMyGeneratorText:
 	cont "kennen!"
 	done
 
-
-
-
-
 PowerPlantManagerIWontForgiveCulpritText:
+	; GSC-DE Dump
 	text "DIREKTOR: Das kann"
 	line "ich ihm nicht"
 	cont "verzeihen!"
@@ -368,13 +317,10 @@ PowerPlantManagerIWontForgiveCulpritText:
 	para "Uahahaha!"
 	done
 
-
-
-
-
 PowerPlantManagerThatsThePartText:
-	text "DIREKTOR: Ah! Oh"
-	line "ja!"
+	; GSC-DE Dump
+	text "DIREKTOR: Ah!"
+	line "Oh ja!"
 	para "Das ist die"
 	line "fehlende SPULE"
 	cont "meines geliebten"
@@ -382,48 +328,41 @@ PowerPlantManagerThatsThePartText:
 	cont "hast sie gefunden?"
 	done
 
-
-
-
-
 PowerPlantManagerYouDeserveARewardText:
-	text "Du hast eine"
-	line "Belohnung"
-	cont "verdient!"
+	; GSC-DE Dump lead-in (PC: tutor, not TM item)
+	text "Wahah! Danke!"
+	para "Als Belohnung…"
 	done
 
 Text_PowerPlantTutorZapCannon:
-	text "Manager: Ich kann"
-	line "deinem #mon"
-
-	para "meine Zap Cannon"
-	line "beibringen!"
-
-	para "Sie ist nicht"
-	line "gerade präzise,"
-
-	para "aber sie hat"
-	line "ordentlich Wucht!"
-
+	; PC tutor + GSC-DE Dump BLITZKANONE
+	text "DIREKTOR: BLITZ-"
+	line "KANONE ist eine"
+	para "sehr starke"
+	line "Attacke!"
+	para "Sie ist nicht sehr"
+	line "präzise, aber du"
+	para "kannst jemanden"
+	line "damit ordentlich"
+	cont "schmoren!"
 	para "Ich brauche nur"
 	line "ein Silberblatt."
 	done
 
-
 Text_PowerPlantTutorQuestion:
+	; PC tutor (class C)
 	text "Soll ich deinem"
-	line "#mon Zap Cannon"
-	cont "beibringen?"
+	line "#MON BLITZ-"
+	cont "KANONE beibringen?"
 	done
 
-
-
 PowerPlantForestText:
-	text "Magneton verhält"
-	line "sich im Felstunnel"
-	cont "seltsam."
+	; PC (class C)
+	text "MAGNETON verhält"
+	line "sich im FELS-"
+	cont "TUNNEL seltsam."
 	para "Haben die Turbinen"
-	line "des Kraftwerks"
+	line "des KRAFTWERKs"
 	para "damit etwas zu"
 	line "tun?"
 	done

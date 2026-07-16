@@ -77,9 +77,11 @@ CinnabarVolcano1FBouldersFall:
 	earthquake 80
 	jumpthistext
 
+	; PC (class C)
 	text "Der Felsen fiel"
 	line "hindurch!"
 	done
+
 CinnabarVolcano1FBuckScript:
 	faceplayer
 	checkevent EVENT_BEAT_BUCK

@@ -258,6 +258,7 @@ GenericTrainerGuitaristfRitsuko:
 	done
 
 Route11SignText:
+	; GSC-DE Dump 2378
 	text "ROUTE 11"
 	done
 

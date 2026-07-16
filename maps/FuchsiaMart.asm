@@ -16,14 +16,15 @@ FuchsiaMart_MapScriptHeader:
 	object_event  3,  2, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaMartFisherText, -1
 	object_event  7,  6, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FuchsiaMartCooltrainerFText, -1
 
+; GSC-DE Dump 6217–6218
 FuchsiaMartFisherText:
 	text "Ich wollte einen"
 	line "Geschenkartikel"
+
 	para "in der SAFARI-ZONE"
 	line "kaufen, aber sie"
-	cont "ist geschlossen …"
+	cont "ist geschlossen…"
 	done
-
 
 FuchsiaMartCooltrainerFText:
 	text "In dieser Stadt"
@@ -32,5 +33,3 @@ FuchsiaMartCooltrainerFText:
 	cont "WÄRTERs der"
 	cont "SAFARI-ZONE."
 	done
-
-

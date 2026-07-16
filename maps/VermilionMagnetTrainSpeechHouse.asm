@@ -16,17 +16,19 @@ VermilionMagnetTrainSpeechHouse_MapScriptHeader:
 	object_event  0,  3, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionMagnetTrainSpeechHouseYoungsterText, -1
 
 VermilionMagnetTrainSpeechHousePokefanFText:
+	; GSC-DE Dump 6086
 	text "Hast du schon von"
 	line "dem MAGNETZUG"
 	cont "gehört?"
 
 	para "Er fährt nach"
-	line "DUKATIA CITY in"
-	cont "JOHTO."
+	line "DUKATIA CITY"
+	cont "in JOHTO."
 	done
 
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
+	; GSC-DE Dump 6087
 	text "Ich möchte nach"
 	line "SAFFRONIA CITY, um"
 	cont "den MAGNETZUG zu"

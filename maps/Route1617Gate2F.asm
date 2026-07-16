@@ -63,11 +63,12 @@ Route1617Gate2FTutorTrickRoomScript:
 Route1617Gate2FBinoculars1:
 	jumpthistext
 
+	; GSC-DE style (PC binocs)
 	text "Durch das Fernglas"
 	line "geschaut."
 	para "Das ist das"
-	line "Kaufhaus in"
-	cont "Dukatia!"
+	line "KAUFHAUS in"
+	cont "DUKATIA!"
 	done
 
 Route1617Gate2FBinoculars2:

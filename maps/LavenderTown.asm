@@ -128,9 +128,10 @@ LavenderTownSharedExpositionScript:
 	applymovement LAVENDERTOWN_YOUNGSTER1, .BumpMovement
 	jumpthistext
 
+	; PC-only (CAPS RADIOTURM)
 	text "Aah! G-g-Geist!"
 
-	para "Im FUNK-TURM"
+	para "Im RADIOTURM"
 	line "wimmelt es nur so"
 	cont "von Monstern!"
 
@@ -168,17 +169,21 @@ LavenderTownFinishExpositionScript:
 	step_end
 
 LavenderTownSignText:
+	; GSC-DE Dump 7164
 	text "LAVANDIA"
+
 	para "Die Liebliche"
 	line "Lilafarbene Stadt"
 	done
 KantoRadioStationSignText:
+	; GSC-DE Dump 7165
 	text "KANTO RADIO-"
 	line "STATION"
+
 	para "Deine Lieblings-"
 	line "programme zu jeder"
-	cont "Tages- und"
-	cont "Nachtzeit!"
+	cont "Tages- und Nacht-"
+	cont "zeit!"
 	done
 
 
@@ -186,9 +191,10 @@ KantoRadioStationSignText:
 
 
 VolunteerPokemonHouseSignText:
+	; GSC-DE Dump 7166
 	text "WAISENHAUS für"
-	line "#mon von"
-	cont "LAVANDIA"
+	line "#mon"
+	cont "von LAVANDIA"
 	done
 
 
@@ -196,11 +202,12 @@ VolunteerPokemonHouseSignText:
 
 
 SoulHouseSignText:
+	; GSC-DE Dump 7167
 	text "RUHESTÄTTE"
 
 	para "Mögen die Seelen"
 	line "der #mon hier"
-	cont "in Frieden ruhen"
+	cont "in Frieden Ruhen"
 	done
 
 
@@ -208,12 +215,13 @@ SoulHouseSignText:
 
 
 LavenderTownPokefanMText:
-	text "Ein recht"
-	line "beeindruckendes"
+	; GSC-DE Dump 7160
+	text "Ein recht beein-"
+	line "druckendes"
 	cont "Gebäude, nicht?"
-	para "Das ist der"
-	line "RADIO-TURM von"
-	cont "KANTO."
+
+	para "Das ist der RADIO-"
+	line "TURM von KANTO."
 	done
 
 
@@ -221,9 +229,10 @@ LavenderTownPokefanMText:
 
 
 LavenderTownTeacherText:
+	; GSC-DE Dump 7161
 	text "In KANTO werden"
-	line "viele, gute"
-	cont "Radioprogramme"
+	line "viele, gute Radio-"
+	cont "programme"
 	cont "gesendet."
 	done
 
@@ -232,13 +241,14 @@ LavenderTownTeacherText:
 
 
 LavenderTownGrampsText:
+	; GSC-DE Dump 7162
 	text "Die Leute kommen"
 	line "von überall her,"
 
 	para "um den Seelen"
 	line "dahingegangener"
-	cont "#mon Respekt zu"
-	cont "erweisen."
+	cont "#mon Respekt"
+	cont "zu erweisen."
 	done
 
 
@@ -246,9 +256,12 @@ LavenderTownGrampsText:
 
 
 LavenderTownYoungsterText:
-	text "Mit #floete"
-	line "weckst du"
-	cont "schlafende #mon"
+	; GSC-DE Dump 7163
+	text "Mit einer #"
+	line "floete weckst du"
+	cont "schlafende"
+	cont "#mon."
+
 	para "Jeder Trainer muss"
 	line "das wissen!"
 	done
@@ -258,13 +271,15 @@ LavenderTownYoungsterText:
 
 
 LavenderTownSuperNerdText:
+	; PC-only (CAPS)
 	text "Noch mal in den"
-	line "FUNK-TURM?"
+	line "RADIOTURM?"
 
 	para "Bist du verrückt?"
 	done
 
 LavenderTownCooltrainerFText:
+	; PC-only
 	text "Der Turm ist"
 	line "verflucht, ich"
 	cont "weiß es einfach!"
@@ -274,8 +289,9 @@ LavenderTownCooltrainerFText:
 	done
 
 LavenderTownRockerText:
+	; PC-only (CAPS)
 	text "Ich dachte, ein"
-	line "Job im FUNK-TURM"
+	line "Job im RADIOTURM"
 
 	para "wäre mein großer"
 	line "Durchbruch, aber"

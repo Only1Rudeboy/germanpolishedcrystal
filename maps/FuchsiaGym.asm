@@ -63,9 +63,9 @@ FuchsiaGymJanineScript:
 	setevent EVENT_GOT_TM66_POISON_JAB
 	jumpthisopenedtext
 
-	text "Das ist Poison"
-	line "Jab, eine starke"
-	cont "Gift-"
+	; PC-only: TM is Gifthieb (POISON_JAB), not TOXIN
+	text "Das ist Gifthieb,"
+	line "eine starke Gift-"
 
 	para "Attacke, die das"
 	line "Ziel vergiften"
@@ -177,17 +177,21 @@ FuchsiaGymGuyScript:
 	iftrue_jumptextfaceplayer FuchsiaGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP in"
-	line "spe!"
+	; GSC-DE Dump 6236
+	text "He! Ein CHAMP"
+	line "in spe!"
+
 	para "Nanu! Sieh dich"
 	line "mal um. Alle"
+
 	para "Trainer sehen aus"
-	line "wie die"
-	cont "ARENA-LEITERIN"
-	cont "JANINA."
+	line "wie die ARENA-"
+	cont "LEITERIN JANINA."
+
 	para "Welche davon ist"
 	line "die echte JANINA?"
 	done
+
 FuchsiaGymStatue:
 	gettrainername JANINE, 1, STRING_BUFFER_4
 	checkflag ENGINE_MARSHBADGE
@@ -212,60 +216,89 @@ Movement_NinjaSpin:
 	turn_head_down
 	step_end
 
+; GSC-DE Dump 6219–6237
 JanineText_DisappointYou:
-	text "Fufufu… Ich bin"
-	line "JANINA,"
-	cont "ARENALEITERIN von"
-	cont "FUCHSANIA!"
-	para "Mein Vater KOGA"
-	line "ist bei den TOP"
-	cont "VIER…"
-	para "Aber ich bin auch"
-	line "stark! Bereit?"
+	text "Hehehehe…"
+
+	para "Es tut mir Leid,"
+	line "dich enttäuschen"
+	cont "zu müssen…"
+
+	para "Ich mache"
+	line "nur Witze!"
+
+	para "Jetzt geht es"
+	line "rund!"
+
+	para "Ich bin JANINA,"
+	line "ARENALEITERIN von"
+
+	para "FUCHSANIA CITY!"
 	done
+
 JanineText_ToughOne:
-	text "Wow… du bist gut!"
-	para "Hier, der"
-	line "SEELENORDEN!"
+	text "JANINA: Du bist"
+	line "recht stark. Ein"
+	cont "klarer Sieg für"
+	cont "dich…"
+
+	para "Nimm jetzt den"
+	line "SEELENORDEN."
 	done
+
 JanineText_ToxicSpeech:
-	text "Der SEELENORDEN"
-	line "lässt #mon"
-	cont "gehorsamer werden."
-	para "Nimm auch diese TM"
-	line "- TOXIN!"
+	text "JANINA: Du bist so"
+	line "stark! Ich habe"
+	cont "ein Geschenk für"
+	cont "dich!"
+
+	para "Es ist TOXIN, ein"
+	line "sehr starkes Gift,"
+
+	para "das dem Opfer"
+	line "ständig KP"
+	cont "entzieht."
 	done
+
 JanineText_ApplyMyself:
-	text "Ich werde noch"
-	line "härter trainieren!"
-	para "Besuche uns"
-	line "wieder, wenn du"
-	cont "magst!"
+	text "JANINA: Ich werde"
+	line "mich jetzt mehr"
+
+	para "anstrengen und"
+	line "meine Fähigkeiten"
+	cont "optimieren."
+
+	para "Ich möchte meinen"
+	line "Vater und dich"
+	cont "übertreffen!"
 	done
+
 LassAmandaBeforeText:
 	text "Hehehe!"
+
 	para "Ich bin JANINA,"
 	line "die ARENALEITERIN!"
+
 	para "Bin ich doch"
-	line "nicht!"
-	cont "Reingefallen,"
-	cont "Blödmann!"
+	line "nicht! Reinge-"
+	cont "fallen, Blödmann!"
 	done
+
 LassAmandaBeatenText:
 	text "Ich habe dich"
 	line "reingelegt…"
 	done
+
 LassAmandaAfterText:
 	text "Wie erkennst du"
 	line "die Echte"
 	cont "ARENALEITERIN?"
 	done
+
 LassLindaBeforeText:
 	text "Reingelegt!"
 	line "Hahaha!"
 	done
-
-
 
 LassLindaBeatenText:
 	text "Oh… Ich habe"
@@ -273,39 +306,31 @@ LassLindaBeatenText:
 	cont "kein Schwächling…"
 	done
 
-
-
 LassLindaAfterText:
 	text "Na, war meine"
 	line "Maskerade nicht"
 	cont "perfekt?"
 	done
 
-
-
 PicnickerCindyBeforeText:
 	text "Ich bin JANINA!"
+
 	para "Woher wusstest du,"
 	line "dass ich die Echte"
 	cont "bin?"
+
 	para "Auf in den Kampf!"
 	done
 
-
-
 PicnickerCindyBeatenText:
-	text "Mist! Ich wollte"
-	line "gewinnen!"
+	text "Mist! Ich"
+	line "wollte gewinnen!"
 	done
-
-
 
 PicnickerCindyAfterText:
 	text "Du musst langsam"
 	line "müde werden."
 	done
-
-
 
 CamperBarryBeforeText:
 	text "Hahahaha!"
@@ -316,14 +341,10 @@ CamperBarryBeforeText:
 	cont "bin!"
 	done
 
-
-
 CamperBarryBeatenText:
 	text "Meine Verkleidung"
 	line "hat funktioniert!"
 	done
-
-
 
 CamperBarryAfterText:
 	text "He, Holzkopf. War"
@@ -331,11 +352,9 @@ CamperBarryAfterText:
 	cont "nicht hübsch?"
 	done
 
-
-
 FuchsiaGymGuyWinText:
 	text "Das war ein"
 	line "hervorragender"
-	cont "Kampf, Trainer aus"
-	cont "JOHTO!"
+	cont "Kampf, Trainer"
+	cont "aus JOHTO!"
 	done

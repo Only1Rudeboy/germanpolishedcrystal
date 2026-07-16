@@ -17,18 +17,18 @@ SaffronMart_MapScriptHeader:
 	object_event  7,  6, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronMartCooltrainerFText, -1
 
 SaffronMartCooltrainerMText:
-	text "In LAVANDIA ist"
-	line "ein großer"
+	; GSC-DE Dump 5820
+	text "In LAVANDIA"
+	line "ist ein großer"
 	cont "RADIOTURM."
 	done
 
-
 SaffronMartCooltrainerFText:
+	; GSC-DE Dump 5821
 	text "Ich möchte noch"
 	line "stärker werden,"
 	cont "aber das bin ich"
 	cont "noch nicht…"
-
 	para "Kannst du mir"
 	line "zeigen, wie man"
 	cont "stärker wird?"

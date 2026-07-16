@@ -29,46 +29,51 @@ CeladonDeptStore3FGameboyKid2Script:
 	end
 
 CeladonDeptStore6FSuperNerdText:
-	text "Ein Automat mit"
-	line "Preis-Roulette…"
-
-	para "Sowas sieht man"
-	line "heute kaum noch."
+	; GSC-DE Dump
+	text "Ein Spielautomat"
+	line "mit einem"
+	cont "Roulette…"
+	para "Die gibt es schon"
+	line "lange nicht mehr."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "Ich spiel im"
-	line "dritten Stock,"
-	cont "dann komm ich"
-
-	para "her, wenn ich"
-	line "Durst hab!"
-
-	para "Dieser Laden ist"
-	line "toll!"
+	; GSC-DE Dump
+	text "Aww! Hier gibt es"
+	line "keine Spiele!"
+	para "Ich wollte doch"
+	line "spielen…"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "Ich tauschte mein"
-	line "#mon, als es"
-	cont "ein Up-Grade"
-
-	para "hielt."
+	; GSC-DE Dump
+	text "Oh, oh! Ich habe"
+	line "mein #mon"
+	para "getauscht, ohne"
+	line "ihm UP-GRADE"
+	cont "wegzunehmen."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Juhu! Endlich"
-	line "bekomme ich ein"
-	cont "Porygon!"
-	para "Ich bin schlecht"
-	line "an den Automaten,"
-	cont "drum reichten"
-	para "meine Münzen nie…"
-	para "Ich entwickle es"
-	line "mit einem UpGrade!"
+	; GSC-DE Dump
+	text "Ja! Endlich"
+	line "habe ich mein"
+	cont "PORYGON!"
+	para "Ich bin nicht sehr"
+	line "gut an den Spiel-"
+	cont "automaten. Deswe-"
+	cont "gen habe ich nie"
+	cont "genügend Münzen…"
+	para "…Was?"
+	para "Das getauschte"
+	line "PORYGON hat sich"
+	cont "in ein anderes"
+	cont "#mon"
+	cont "verwandelt!"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: Dach-Atrium"
-	line "Automaten"
+	; GSC-DE Dump (PC 6F)
+	text "6F: DACHTERRASSE"
+	line "SPIELAUTOMATEN"
 	done

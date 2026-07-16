@@ -16,6 +16,7 @@ VermilionSSAnneSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionSSAnneSpeechHouseBeautyText, -1
 
 VermilionSSAnneSpeechHouseGrampsText:
+	; PC-only (CAPS)
 	text "Einmal im Jahr"
 	line "legte ein"
 
@@ -38,8 +39,10 @@ VermilionSSAnneSpeechHouseGrampsText:
 	done
 
 VermilionSSAnneSpeechHouseBeautyText:
+	; PC-only
 	text "Ich hab ein Modell"
 	line "der M.S. Anne"
+
 	para "in einem"
 	line "Ozeanmuseum weit"
 	cont "weg gesehen."

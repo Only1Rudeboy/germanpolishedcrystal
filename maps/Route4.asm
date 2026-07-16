@@ -49,23 +49,23 @@ GenericTrainerLassJennifer:
 GenericTrainerBird_keeperHank:
 	generictrainer BIRD_KEEPER, HANK, EVENT_BEAT_BIRD_KEEPER_HANK, Bird_keeperHankSeenText, Bird_keeperHankBeatenText
 
-	text "Hast du ein"
-	line "spezielles"
-	cont "#mon,"
+	; GSC-DE Dump
+	text "Hast du ein spe-"
+	line "zielles #MON,"
 	para "das du trainieren"
 	line "möchtest, setze es"
-	para "an die erste"
-	line "Stelle und tausche"
-	cont "es sofort aus."
+	para "an die erste Stel-"
+	line "le und tausche es"
+	cont "sofort aus."
 	para "So funktioniert"
 	line "das."
 	done
 GenericTrainerPicnickerHope:
 	generictrainer PICNICKER, HOPE, EVENT_BEAT_PICNICKER_HOPE, PicnickerHopeSeenText, PicnickerHopeBeatenText
 
+	; GSC-DE Dump
 	text "Ich hörte, dass"
 	line "PIEPI am MONDBERG"
-
 	para "auftauchen. Aber"
 	line "wo soll das sein?"
 	done
@@ -296,21 +296,24 @@ Route4EngineerText1:
 	done
 
 Route4EngineerText2:
+	; PC-only (C)
 	text "Die Seilbahn ist"
 	line "gerade außer"
 	cont "Betrieb."
 	para "Bis wir sie"
 	line "repariert haben,"
 	para "ist der"
-	line "MONDBERG-PLATZ"
+	line "MONDBERGPLATZ"
 	cont "geschlossen."
 	done
 
 MtMoonSignText:
+	; PC-only
 	text "MONDBERG-TUNNEL"
 	done
 
 CableCarSignText:
+	; GSC-DE Dump (7205-style)
 	text "Seilbahn zum"
 	line "MONDBERGPLATZ"
 	done

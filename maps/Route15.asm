@@ -183,29 +183,30 @@ SchoolboyTommyBeatenText:
 
 
 
+; GSC-DE Dump 7023, 7027
 SchoolgirlFaithSeenText:
 	text "Wir machen einen"
-	line "Ausflug zum"
-	cont "RADIO-TURM in"
-	cont "LAVANDIA,"
+	line "Ausflug zum RADIO-"
+	cont "TURM in LAVANDIA,"
+
 	para "um dort etwas in"
 	line "Sozialkunde zu"
 	cont "lernen."
 	done
+
 SchoolgirlFaithBeatenText:
 	text "Du bist unheimlich"
 	line "stark!"
 	done
+
 SchoolboyBillySeenText:
 	text "Sport ist mein"
 	line "Lieblingsfach!"
 	done
 
-
-
 SchoolboyBillyBeatenText:
-	text "Ach, nein! Wie"
-	line "konnte ich nur"
+	text "Oh, nein!"
+	line "Wie konnte ich nur"
 
 	para "verlieren?"
 	done

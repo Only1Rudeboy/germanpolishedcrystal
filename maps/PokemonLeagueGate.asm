@@ -45,30 +45,32 @@ VictoryRoadGateBadgeCheckScript:
 	end
 
 VictoryRoadGateOfficerText:
+	; GSC-DE Dump + PC gate (class B)
 	text "Nur Trainer, die"
-	line "sich bewiesen"
-	cont "haben, dürfen"
-	cont "passieren."
-	para "Du hast die"
-	line "JOHTO-Arena-"
-	cont "Herausforderung"
-	cont "bestanden?"
+	line "sich als würdig"
+	cont "erwiesen haben,"
+	cont "dürfen eintreten."
+	para "Du hast die JOHTO-"
+	line "ARENA-Herausfor-"
+	cont "derung bestanden?"
 	para "Die Wachen prüfen"
 	line "deine ORDEN."
 	para "Geh weiter."
 	done
 
 VictoryRoadGateLeftBlackBeltText:
+	; GSC-DE Dump
 	text "Dieser Weg führt"
 	line "zum SILBERBERG."
-	para "Dir werden"
-	line "beängstigend"
-	cont "starke #mon"
-	cont "begegnen."
+	para "Dir werden be-"
+	line "ängstigend starke"
+	cont "#MON begegnen."
 	done
+
 VictoryRoadGateRightBlackBeltText:
+	; GSC-DE Dump
 	text "Du bist auf dem"
-	line "Weg zur #mon"
+	line "Weg zur #MON"
 	cont "LIGA, nicht wahr?"
 	para "Die TOP VIER sind"
 	line "so stark, dass es"

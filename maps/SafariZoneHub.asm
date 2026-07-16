@@ -53,7 +53,7 @@ Bug_maniacKaiBeatenText:
 	done
 
 SafariZoneHubAreaSignText:
-	text "Safari-Zone"
+	text "SAFARI-ZONE"
 	line "Zentralbereich"
 	done
 

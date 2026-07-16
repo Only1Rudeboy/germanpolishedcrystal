@@ -101,76 +101,84 @@ CeladonCafeFisher3:
 	end
 
 ChefText_Eatathon:
-	text "Hallo!"
-
-	para "Wir veranstalten"
-	line "gerade einen"
-	cont "Fresswettbewerb."
-
+	; GSC-DE Dump
+	text "Hi!"
+	para "Wir halten gerade"
+	line "ein Wettessen ab."
 	para "Wir können dich"
-	line "jetzt nicht"
-	cont "bedienen."
-	para "Tut mir leid."
+	line "im Moment leider"
+	cont "nicht bedienen."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Schmatz, mampf…"
+	; GSC-DE Dump
+	text "…Schlürf,"
+	line "schlabber…"
 	done
 
 Fisher1Text_Concentration:
-	text "Sprich mich nicht"
-	line "an!"
-
+	; GSC-DE Dump
+	text "Sprich mich"
+	line "nicht an!"
 	para "Du störst meine"
 	line "Konzentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Schluck… Mampf…"
+	; GSC-DE Dump
+	text "…Schluck…"
+	line "Schling…"
 	done
 
 Fisher2Text_Quantity:
-	text "Mir ist Menge"
+	; GSC-DE Dump
+	text "Quantität ist mir"
 	line "wichtiger als"
 	cont "Qualität!"
-	para "Ich bin glücklich,"
-	line "wenn ich satt bin!"
+	para "Ich bin erst"
+	line "glücklich, wenn"
+	cont "ich platze!"
 	done
 
 Fisher3Text_MunchMunch:
+	; GSC-DE Dump
 	text "Mampf, mampf…"
 	done
 
 Fisher3Text_GoldenrodIsBest:
+	; GSC-DE Dump
 	text "Das Essen hier ist"
 	line "gut, aber in"
-	cont "Dukatia City"
-	cont "gibt's"
-	para "das beste Essen"
-	line "überhaupt."
+	cont "DUKATIA CITY gibt"
+	cont "es die besten"
+	cont "Speisen der Welt."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Knabber… Knabber…"
+	; GSC-DE Dump
+	text "Krümel… Mampf…"
 	done
 
 TeacherText_NoCoinCase:
-	text "Hier gibt dir"
+	; GSC-DE Dump
+	text "Hier wird dir"
 	line "niemand einen"
-
-	para "Münzkorb. Schau"
-	line "lieber in Johto."
+	para "MÜNZKORB geben."
+	line "Den bekommst du"
+	cont "in JOHTO."
 	done
 
 TeacherText_KeepEating:
-	text "Knabber … Knabber"
-	line "…"
-	para "Ich kann noch mehr"
-	line "essen!"
+	; GSC-DE Dump
+	text "Krümel… Kau…"
+	para "Ich esse immer"
+	line "weiter!"
 	done
 
 TeacherText_MoreChef:
-	text "Mehr, Chef!"
+	; GSC-DE Dump
+	text "Nachschub,"
+	line "CHEFKOCH!"
 	done
 
 MayleneText1:
@@ -244,14 +252,13 @@ CeladonCafeBakerText:
 	done
 
 EatathonContestPosterText:
-	text "Fresswettbewerb!"
-	line "Kein Zeitlimit!"
-
-	para "Ein Kampf ohne"
-	line "Ende! Der größte"
-	cont "Vielfraß bekommt"
-
-	para "alles umsonst!"
+	; GSC-DE Dump
+	text "Wettessen! Essen"
+	line "bis zum Umfallen!"
+	para "Kein Zeitlimit!"
+	line "Der größte"
+	para "Vielfraß bekommt"
+	line "alles umsonst!"
 	done
 
 EatathonContestTrashCanText:

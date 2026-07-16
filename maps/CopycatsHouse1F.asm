@@ -18,28 +18,30 @@ CopycatsHouse1F_MapScriptHeader:
 	pokemon_event  4,  5, BLISSEY, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PINK, CopycatsHouse1FBlisseyText, -1
 
 CopycatsHouse1FPokefanMText:
+	; GSC-DE Dump 5842
 	text "Meine Tochter"
 	line "macht gerne"
 	cont "Menschen nach."
 	para "Dieses Hobby hat"
 	line "ihr den Spitznamen"
-	para "NACHAHMERIN"
-	line "eingebracht."
+	para "NACHAHMERIN einge-"
+	line "bracht."
 	done
-
 
 CopycatsHouse1FPokefanFScript:
 	checkevent EVENT_RESTORED_POWER_TO_KANTO
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 5843
 	text "Meine Tochter ist"
-	line "so egozentrisch …"
+	line "sehr ichbezogen…"
 	para "Sie hat nur wenige"
 	line "Freunde."
 	done
 
 .Text2:
+	; GSC-DE Dump 5844
 	text "Vor kurzem hat sie"
 	line "ihre #PUPPE,"
 	para "die ihr ein Junge"
@@ -49,10 +51,10 @@ CopycatsHouse1FPokefanFScript:
 	para "Ihre Nachahmerei"
 	line "ist seitdem sogar"
 	cont "noch besser"
-	cont "geworden …"
+	cont "geworden…"
 	done
+
 CopycatsHouse1FBlisseyText:
+	; GSC-DE Dump 5845
 	text "HEITEIRA: Teirii!"
 	done
-
-

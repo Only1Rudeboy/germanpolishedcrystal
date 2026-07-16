@@ -26,14 +26,18 @@ PokemonJournalJanineScript:
 	setflag ENGINE_READ_JANINE_JOURNAL
 	jumpthistext
 
+	; PC-only Journal (class C)
 	text "#mon Journal"
-	para "Spezial: Leiter"
+
+	para "Spezial: Leiterin"
 	line "JANINA!"
+
 	para "Man sagt, JANINA"
 	line "war als Kind ein"
-	para "Fan des"
-	line "#mon-Zoos in"
-	cont "FUCHSANIA CITY."
+
+	para "Fan des #mon-"
+	line "Zoos in FUCHSANIA"
+	cont "CITY."
 	done
 
 JanineImpersonatorScript:
@@ -49,16 +53,19 @@ JanineImpersonatorScript:
 	special RefreshSprites
 	end
 
+; GSC-DE Dump 6242–6243
 .Text1:
 	text "Ich bin JANINA!"
 	line "Hokus pokus…"
 	cont "Fidibus!"
 	done
+
 .Text2:
 	text "Siehst du! Jetzt"
 	line "sehe ich genauso"
 	cont "aus wie sie!"
 	done
+
 .SpinMovement:
 rept 3
 	turn_head_down
@@ -69,13 +76,16 @@ endr
 	turn_head_down
 	step_end
 
+; GSC-DE Dump 6240–6241
 FuchsiaPokeCenter1FCooltrainerMText:
 	text "He! Du hast einen"
 	line "völlig neuen"
 	cont "#dex!"
-	para "Hat PROF. EICH dir"
-	line "den gegeben?"
+
+	para "Hat PROF. EICH"
+	line "dir den gegeben?"
 	done
+
 FuchsiaPokeCenter1FCooltrainerFText:
 	text "Ich habe mich in"
 	line "der PKMN-ARENA"

@@ -57,27 +57,33 @@ Route19ClearRocks:
 .Done:
 	endcallback
 
+; GSC-DE Dump 6569–6586
 GenericTrainerSwimmerfDawn:
 	generictrainer SWIMMERF, DAWN, EVENT_BEAT_SWIMMERF_DAWN, SwimmerfDawnSeenText, SwimmerfDawnBeatenText
 
 	text "Es ist nur eine"
 	line "kurze Distanz"
+
 	para "zwischen FUCHSANIA"
 	line "CITY und den"
-	cont "SEESCHAUMINSELN …"
+	cont "SEESCHAUMINSELN…"
+
 	para "Uah, mein Freund"
 	line "ist so groß und"
+
 	para "dennoch ein"
 	line "Schwächling!"
 	done
+
 GenericTrainerSwimmermTucker:
 	generictrainer SWIMMERM, TUCKER, EVENT_BEAT_SWIMMERM_TUCKER, SwimmermTuckerSeenText, SwimmermTuckerBeatenText
 
-	text "Ich … bat meine"
+	text "Ich… bat meine"
 	line "Freundin nach"
-	cont "FUCHSANIA CITY …"
-	cont "zu schwimmen …"
+	cont "FUCHSANIA CITY…"
+	cont "zu schwimmen…"
 	done
+
 GenericTrainerSwimmermJerome:
 	generictrainer SWIMMERM, JEROME, EVENT_BEAT_SWIMMERM_JEROME, SwimmermJeromeSeenText, SwimmermJeromeBeatenText
 
@@ -87,6 +93,7 @@ GenericTrainerSwimmermJerome:
 	cont "liebe ich das"
 	cont "Meer."
 	done
+
 GenericTrainerSwimmermHarold:
 	generictrainer SWIMMERM, HAROLD, EVENT_BEAT_SWIMMERM_HAROLD, SwimmermHaroldSeenText, SwimmermHaroldBeatenText
 
@@ -97,6 +104,7 @@ GenericTrainerSwimmermHarold:
 	line "wollte es dich"
 	cont "verschlingen."
 	done
+
 GenericTrainerCosplayerBrooke:
 	generictrainer COSPLAYER, BROOKE, EVENT_BEAT_COSPLAYER_BROOKE, CosplayerBrookeSeenText, CosplayerBrookeBeatenText
 
@@ -104,6 +112,7 @@ GenericTrainerCosplayerBrooke:
 	line "Kostüm für eine"
 	cont "Maskerade gemacht,"
 	cont "aber ich"
+
 	para "liebe es so sehr,"
 	line "dass ich es auch"
 	cont "sonst trage."
@@ -114,9 +123,10 @@ Route19Fisher1Script:
 	iffalse_jumptextfaceplayer Route19Fisher1Text
 	jumpthistextfaceplayer
 
-	text "Ich bin ganz"
-	line "verschwitzt. Zeit"
-	cont "für ein Bad!"
+	text "Ich bin total"
+	line "verschwitzt. Es"
+	cont "ist Zeit zum"
+	cont "Schwimmen."
 	done
 
 Route19Fisher2Script:
@@ -125,56 +135,48 @@ Route19Fisher2Script:
 	jumpthistextfaceplayer
 
 	text "Die Bauarbeiten"
-	line "sind endlich"
-	cont "beendet."
+	line "sind beendet."
 
 	para "Jetzt kann ich"
-	line "wieder angeln"
-	cont "gehen."
+	line "wieder angeln."
 	done
-
 
 SwimmerfDawnSeenText:
 	text "Schwächlinge"
 	line "widern mich an!"
 	done
 
-
 SwimmerfDawnBeatenText:
 	text "Ich schlage dich"
 	line "beim Schwimmen…"
 	done
 
-
 SwimmermTuckerSeenText:
-	text "Uff, uff … Nur …"
-	line "noch … ein"
-	para "kleines Stück …"
-	line "bis … FUCHSANIA"
-	cont "CITY …"
-	done
+	text "Uff, uff…"
+	line "Nur… noch… ein"
 
+	para "kleines Stück… bis"
+	line "…FUCHSANIA CITY…"
+	done
 
 SwimmermTuckerBeatenText:
 	text "Ich ertrinke!"
 	done
 
-
 SwimmermJeromeSeenText:
 	text "Schwimmen? Ich bin"
 	line "ein miserabler"
 	cont "Schwimmer."
+
 	para "Ich plansche"
 	line "lieber in dieser"
 	cont "Riesenpfütze."
 	done
 
-
 SwimmermJeromeBeatenText:
 	text "Ich dachte, ich"
 	line "könnte gewinnen."
 	done
-
 
 SwimmermHaroldSeenText:
 	text "Warst du schon"
@@ -182,11 +184,9 @@ SwimmermHaroldSeenText:
 	cont "Meer?"
 	done
 
-
 SwimmermHaroldBeatenText:
 	text "Gulp…"
 	done
-
 
 CosplayerBrookeSeenText:
 	text "Verkleiden macht"
@@ -200,31 +200,31 @@ CosplayerBrookeBeatenText:
 	done
 
 Route19Fisher1Text:
-	text "Tut mir leid. Die"
-	line "Straße ist"
-	cont "aufgrund von"
-	cont "Bauarbeiten"
-	cont "gesperrt."
+	text "Tut mir Leid."
+	line "Die Straße ist"
+	cont "aufgrund von Bau-"
+	cont "arbeiten gesperrt."
+
 	para "Wenn du zu der"
 	line "ZINNOBERINSEL"
-	para "möchtest, gehst du"
-	line "von ALABASTIA gen"
-	cont "Süden."
-	done
 
+	para "möchtest, gehst"
+	line "du von ALABASTIA"
+	cont "gen Süden."
+	done
 
 Route19EngineerText1:
 	text "Es würde zu lange"
 	line "dauern, diesen"
-	cont "Felsen zu bewegen"
-	cont "…"
+	cont "Felsen zu bewegen…"
 	done
+
 Route19SignText:
 	text "ROUTE 19"
+
 	para "FUCHSANIA CITY -"
 	line "SEESCHAUMINSELN"
 	done
-
 
 CarefulSwimmingSignText:
 	text "Sei auf der Hut,"
@@ -235,5 +235,3 @@ CarefulSwimmingSignText:
 	para "ORDNUNGSAMT VON"
 	line "FUCHSANIA CITY"
 	done
-
-

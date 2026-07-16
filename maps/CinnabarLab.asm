@@ -362,30 +362,36 @@ CinnabarLabCelebiFloatsMovementData:
 	step_end
 
 CinnabarLabRoom1SignText:
+	; PC (class C)
 	text "Klon-Raum"
 	done
 
 CinnabarLabRoom2SignText:
+	; PC (class C)
 	text "Kybernetik-Raum"
 	done
 
 CinnabarLabRoom3SignText:
+	; PC (class C)
 	text "Lager-Raum"
 	done
 
 CinnabarLabRoom4SignText:
+	; PC (class C)
 	text "Projekt Amber"
 	line "Prüfraum"
-
 	para "KEIN ZUTRITT OHNE"
 	line "FREIGABE STUFE 5"
 	done
 
 CinnabarLabLockedDoorText:
+	; PC (class C)
 	text "Es ist verriegelt"
 	line "…"
 	done
+
 CinnabarLabContinueTestingText:
+	; PC (class C)
 	text "Setzt die Tests"
 	line "fort."
 	para "Eure Schöpfung hat"
@@ -395,6 +401,7 @@ CinnabarLabContinueTestingText:
 	done
 
 CinnabarLabGiovanniWhoAreYouText:
+	; PC (class C)
 	text "…Wer bist du?"
 	para "Ich bin GIOVANNI."
 	line "Früher Boss von"
@@ -403,28 +410,39 @@ CinnabarLabGiovanniWhoAreYouText:
 	line "ist nicht dein"
 	cont "Ort."
 	done
+
 CinnabarLabGiovanniAttackText:
+	; PC (class C)
 	text "Du willst kämpfen?"
 	line "Dann zeige ich dir"
 	cont "meine wahre Macht!"
 	done
+
 CinnabarLabGiovanniBeatenText:
+	; PC (class C)
 	text "Wieder… besiegt…"
 	done
+
 CinnabarLabGiovanniAfterText:
+	; PC (class C)
 	text "Ich werde im"
 	line "Schatten bleiben"
 	cont "und trainieren."
 	para "Eines Tages…"
 	done
+
 CinnabarLabMewtwoText:
+	; PC (class C)
 	text "???: Myuu!"
 	done
 
 CinnabarLabGiovanniStopText:
+	; PC (class C)
 	text "Halt! Nicht"
 	line "weiter!"
 	done
+
 CinnabarLabCelebiText:
+	; PC (class C)
 	text "Celebi: Biii!"
 	done

@@ -16,6 +16,7 @@ CeruleanWaterShowSpeechHouse_MapScriptHeader:
 	object_event  6,  3, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanWaterShowSpeechHouseSuperNerdText, -1
 
 CeruleanWaterShowSpeechHouseCooltrainerMText:
+	; PC-only (C)
 	text "MISTY tritt"
 	line "manchmal in"
 	cont "Wassershows in"
@@ -25,11 +26,12 @@ CeruleanWaterShowSpeechHouseCooltrainerMText:
 	done
 
 CeruleanWaterShowSpeechHouseSuperNerdText:
+	; PC-only (C)
 	text "Ich hab Graffiti"
 	line "auf das Dach der"
 	cont "PRISMANIA-ANLAGE"
 	cont "gemalt."
 	para "Hast du's gesehen?"
 	line "Es ist etwas"
-	cont "versteckt, hehe …"
+	cont "versteckt, hehe…"
 	done

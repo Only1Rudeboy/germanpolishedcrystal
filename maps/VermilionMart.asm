@@ -17,6 +17,7 @@ VermilionMart_MapScriptHeader:
 	object_event  8,  6, SPRITE_LADY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionMartBeautyText, -1
 
 VermilionMartSuperNerdText:
+	; GSC-DE Dump 6088
 	text "TEAM ROCKET ist"
 	line "nicht mehr in"
 	cont "KANTO."
@@ -28,6 +29,7 @@ VermilionMartSuperNerdText:
 
 
 VermilionMartBeautyText:
+	; GSC-DE Dump 6089
 	text "Ich habe vor, in"
 	line "SAFFRONIA CITY"
 	cont "einkaufen zu"

@@ -17,13 +17,14 @@ Route15FuchsiaGate_MapScriptHeader:
 	def_object_events
 	object_event  5,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route15FuchsiaGateOfficerText, -1
 
+; GSC-DE Dump 6248
 Route15FuchsiaGateOfficerText:
 	text "Du arbeitest an"
 	line "einem #dex? Das"
 
 	para "ist doch schon"
-	line "etwas. Gib nicht"
-	cont "auf!"
+	line "etwas."
+	cont "Gib nicht auf!"
 	done
 
 

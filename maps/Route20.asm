@@ -133,6 +133,7 @@ GenericTrainerSwimmermCameron:
 	line "in Teichen und"
 	cont "Flüssen."
 	done
+; GSC-DE Dump 7125
 SwimmermCameronSeenText:
 	text "Ich denke es ist"
 	line "unmöglich, den"
@@ -299,6 +300,7 @@ GenericTrainerBird_keeperErnie:
 	line "unglaublich."
 	done
 
+; GSC-DE Dump 7128
 CinnabarGymSignText:
 	text "Was steht auf"
 	line "diesem Schild?"

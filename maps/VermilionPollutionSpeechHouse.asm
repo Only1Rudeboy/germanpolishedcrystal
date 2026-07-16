@@ -16,8 +16,10 @@ VermilionPollutionSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionPollutionSpeechHouseCooltrainerMText, -1
 
 VermilionPollutionSpeechHouseBreederText:
-	text "Orania ist ein"
+	; PC-only (CAPS)
+	text "ORANIA ist ein"
 	line "wunderbarer Ort,"
+
 	para "aber in einem"
 	line "Hafen muss man auf"
 	cont "Verschmutzung"
@@ -25,8 +27,10 @@ VermilionPollutionSpeechHouseBreederText:
 	done
 
 VermilionPollutionSpeechHouseCooltrainerMText:
+	; PC-only
 	text "Dank all der"
 	line "Kreuzfahrtschiffe"
+
 	para "bekommen wir"
 	line "Besucher aus aller"
 	cont "Welt!"

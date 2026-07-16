@@ -18,19 +18,27 @@ Route12North_MapScriptHeader:
 GenericTrainerFisherKyle:
 	generictrainer FISHER, KYLE, EVENT_BEAT_FISHER_KYLE, FisherKyleSeenText, FisherKyleBeatenText
 
-	text "Der Ruck an der"
-	line "Angel, wenn du"
+	; GSC-DE Dump 6903
+	text "Das Reißen an der"
+	line "ANGEL, wenn du"
 
-	para "ein #mon gehakt"
-	line "hast…"
+	para "ein #mon"
+	line "fangen möchtest…"
+
+	para "Das ist das"
+	line "Schönste für einen"
+	cont "Angler wie mich."
 	done
 
 FisherKyleSeenText:
+	; GSC-DE Dump 6901
 	text "Erinnerst du dich?"
 	done
 FisherKyleBeatenText:
+	; GSC-DE Dump 6902
 	text "Du erinnerst dich?"
 	done
 FishingSpotSignText:
+	; GSC-DE Dump 6905
 	text "ANGELPLATZ"
 	done

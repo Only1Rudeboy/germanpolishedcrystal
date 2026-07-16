@@ -52,48 +52,53 @@ CeladonGymErikaScript:
 	setevent EVENT_GOT_TM19_GIGA_DRAIN
 	jumpthisopenedtext
 
-	text "Es ist Kraftsauger"
-	para "Es ist eine tolle"
-	line "Attacke, die die"
-	cont "Hälfte des"
-	para "Schadens nutzt, um"
-	line "dein #mon zu"
-	cont "heilen."
-	para "Nutze sie, wenn es"
-	line "dir gefällt …"
+	; GSC-DE Dump
+	text "Das ist eine"
+	line "schöne Attacke."
+	para "Die Hälfte des zu-"
+	line "gefügten Schadens"
+	cont "wird zur Heilung"
+	para "deines #mon"
+	line "verwendet."
+	para "Verwende sie,"
+	line "wann immer du"
+	cont "möchtest…"
 	done
 
 GenericTrainerLassMichelle:
 	generictrainer LASS, MICHELLE, EVENT_BEAT_LASS_MICHELLE, LassMichelleSeenText, LassMichelleBeatenText
 
-	text "Ich war einfach"
-	line "nur unachtsam!"
+	; GSC-DE Dump
+	text "Ich wurde nur"
+	line "unvorsichtig, das"
+	cont "ist alles!"
 	done
 
 GenericTrainerPicnickerTanya:
 	generictrainer PICNICKER, TANYA, EVENT_BEAT_PICNICKER_TANYA, PicnickerTanyaSeenText, PicnickerTanyaBeatenText
 
-	text "Oh, schau dir all"
-	line "deine Orden an."
-
-	para "Kein Wunder, dass"
-	line "ich verlor!"
+	; GSC-DE Dump
+	text "Oh, sieh nur, all"
+	line "die ORDEN. Kein"
+	para "Wunder, dass ich"
+	line "verloren habe!"
 	done
 
 GenericTrainerBeautyJulia:
 	generictrainer BEAUTY, JULIA, EVENT_BEAT_BEAUTY_JULIA, BeautyJuliaSeenText, BeautyJuliaBeatenText
 
+	; GSC-DE Dump
 	text "Wie werde ich nur"
-	line "so damenhaft wie"
-	cont "ERIKA?"
+	line "so damenhaft"
+	cont "wie ERIKA?"
 	done
 
 GenericTrainerAroma_ladyDahlia:
 	generictrainer AROMA_LADY, DAHLIA, EVENT_BEAT_AROMA_LADY_DAHLIA, Aroma_ladyDahliaSeenText, Aroma_ladyDahliaBeatenText
 
+	; PC-only Class C
 	text "Myrapla verströmt"
 	line "üblen Gestank,"
-
 	para "doch ERIKA macht"
 	line "daraus ein süßes"
 	cont "Parfüm."
@@ -102,15 +107,17 @@ GenericTrainerAroma_ladyDahlia:
 GenericTrainerTwinsJoandzoe1:
 	generictrainer TWINS, JOANDZOE1, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe1SeenText, TwinsJoandzoe1BeatenText
 
-	text "ERIKA wird sich"
-	line "für uns rächen!"
+	; GSC-DE Dump
+	text "ERIKA wird es dir"
+	line "heimzahlen!"
 	done
 
 GenericTrainerTwinsJoandzoe2:
 	generictrainer TWINS, JOANDZOE2, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe2SeenText, TwinsJoandzoe2BeatenText
 
-	text "ERIKA ist viel,"
-	line "viel stärker!"
+	; GSC-DE Dump
+	text "ERIKA ist viel"
+	line "stärker!"
 	done
 
 CeladonGymStatue:
@@ -122,100 +129,138 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Hallo… Schönes"
-	line "Wetter, nicht"
-	cont "wahr?"
-	para "Ich bin ERIKA,"
-	line "ARENALEITERIN von"
+	; GSC-DE Dump
+	text "ERIKA: Hallo…"
+	line "Schönes Wetter,"
+	para "nicht?"
+	line "Einfach herrlich…"
+	para "…Ich könnte gleich"
+	line "einschlafen…"
+	para "Ich heiße ERIKA."
+	line "Ich bin die ARENA-"
+	cont "LEITERIN von"
 	cont "PRISMANIA CITY."
-	para "Ich liebe Blumen"
-	line "und"
-	cont "Pflanzen-#mon…"
-	para "…Oh? Du willst"
-	line "kämpfen? Nun gut…"
+	para "…Wirklich? Den"
+	line "ganzen Weg von"
+	cont "JOHTO? Wie nett…"
+	para "Oh, entschuldige."
+	line "Ich wusste"
+	para "nicht, dass du"
+	line "gegen mich kämpfen"
+	cont "willst."
+	para "Nun gut. Ich werde"
+	line "jedenfalls nicht"
+	cont "verlieren."
 	done
+
 ErikaBeatenText:
-	text "Oh! Ich gebe mich"
-	line "geschlagen…"
-	para "Du bist"
-	line "bemerkenswert."
-	cont "Hier ist der"
-	cont "REGENBOGENORDEN."
+	; GSC-DE Dump
+	text "ERIKA: Oh!"
+	line "Ich gebe mich"
+	cont "geschlagen…"
+	para "Du bist außerge-"
+	line "wöhnlich stark…"
+	para "Ich gebe dir den"
+	line "FARBORDEN…"
 	done
+
 ErikaExplainTMText:
-	text "Der"
-	line "REGENBOGENORDEN"
-	cont "lässt #mon bis"
-	cont "LV 70 gehorchen."
-	para "Nimm auch diese TM"
-	line "- GIGASAUGER."
+	; GSC-DE Dump
+	text "ERIKA: Das war ein"
+	line "herrlicher Kampf."
+	para "Das spornt zu"
+	line "neuen Taten an."
+	para "Nimm bitte diese"
+	line "TM an."
+	para "Es ist GIGASAUGER."
 	done
+
 ErikaAfterBattleText:
-	text "Verlieren macht"
-	line "einen so"
-	cont "deprimiert…"
-	para "Aber der Duft der"
-	line "Blumen erheitert"
-	cont "mich wieder."
+	; GSC-DE Dump
+	text "ERIKA: Eine"
+	line "Niederlage ist"
+	para "nicht sehr"
+	line "angenehm…"
+	para "Aber es ist ein"
+	line "Ansporn, sich"
+	para "mehr anzustrengen,"
+	line "wenn man weiß,"
+	para "dass es starke"
+	line "Trainer gibt…"
 	done
+
 LassMichelleSeenText:
-	text "Findest du eine"
-	line "reine"
-	cont "Mädchen-Arena"
-	cont "selten?"
+	; GSC-DE Dump
+	text "Glaubst du, dass"
+	line "eine PKMN-ARENA"
+	cont "nur mit Mädchen"
+	cont "selten ist?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bäh!"
+	; GSC-DE Dump
+	text "Ach nee!"
 	done
 
 PicnickerTanyaSeenText:
+	; GSC-DE Dump
 	text "Oh, ein Kampf?"
-	line "Etwas gruselig,"
-	cont "aber O.K.!"
+	line "Das macht mir ein"
+	cont "bisschen Angst,"
+	cont "aber von mir aus!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, das war's?"
+	; GSC-DE Dump
+	text "Ach, das war es?"
 	done
 
 BeautyJuliaSeenText:
-	text "Schaust du die"
-	line "Blumen an oder"
-	cont "mich?"
+	; GSC-DE Dump
+	text "Hast du die"
+	line "Blumen betrachtet"
+	cont "oder mich?"
 	done
 
 BeautyJuliaBeatenText:
+	; GSC-DE Dump
 	text "Wie ärgerlich!"
 	done
 
 Aroma_ladyDahliaSeenText:
+	; PC-only Class C
 	text "Ein faszinierender"
-	line "Duft umgibt dich …"
+	line "Duft umgibt dich…"
 	done
 
 Aroma_ladyDahliaBeatenText:
+	; PC-only Class C
 	text "Der üble Duft der"
 	line "Niederlage…"
 	done
 
 TwinsJoandzoe1SeenText:
+	; GSC-DE Dump
 	text "Wir zeigen dir"
 	line "#mon-Attacken,"
-	cont "die uns ERIKA"
-
-	para "beigebracht hat!"
+	cont "die ERIKA uns"
+	cont "beigebracht hat!"
 	done
 
 TwinsJoandzoe1BeatenText:
-	text "Oh… Verloren…"
+	; GSC-DE Dump
+	text "Oh… Wir haben"
+	line "verloren…"
 	done
 
 TwinsJoandzoe2SeenText:
-	text "Wir beschützen"
-	line "ERIKA!"
+	; GSC-DE Dump
+	text "Wir werden ERIKA"
+	line "beschützen!"
 	done
 
 TwinsJoandzoe2BeatenText:
-	text "Wir verloren…"
+	; GSC-DE Dump
+	text "Wir hatten keine"
+	line "Chance…"
 	done

@@ -58,7 +58,8 @@ PewterCityYoungsterScript:
 	iffalse_endtext
 	jumpthisopenedtext
 
-	text "Du hast die Arena"
+	; PC-only (C)
+	text "Du hast die ARENA"
 	line "besiegt? Dann bist"
 	cont "du auch hart wie"
 	cont "Stein!"
@@ -86,10 +87,10 @@ PewterCityPokefanMScript:
 	endtext
 
 .Text1:
+	; PC-only (C)
 	text "MARMORIAS"
 	line "Spezialität--"
-	cont "Marmoria-Knusper!"
-
+	cont "MARMORIA-Knusper!"
 	para "Ich verkaufe dir"
 	line "eine Packung für"
 	cont "¥300!"
@@ -119,23 +120,19 @@ PewterCityPokefanMScript:
 	done
 
 PewterCityCooltrainerFText:
+	; GSC-DE Dump
 	text "Warst du schon in"
-	line "der PKMN-ARENA"
-	cont "von MARMORIA CITY?"
+	line "der PKMN-ARENA von"
+	cont "MARMORIA CITY?"
 	para "Der LEITER dort"
-	line "verwendet"
-	cont "Gestein-#mon."
+	line "verwendet Gestein-"
+	cont "#MON."
 	done
 
-
-
-
-
-
-
 PewterCityCooltrainermText:
+	; PC-only
 	text "Die denkt,"
-	line "Gesteins-#mon"
+	line "Gesteins-#MON"
 	cont "sind alles,"
 	para "aber sie hat die"
 	line "meisten Schwächen"
@@ -146,32 +143,27 @@ PewterCityCooltrainermText:
 	done
 
 PewterCityBugCatcherText:
+	; GSC-DE Dump
 	text "NACHTs spielen"
 	line "PIEPI beim"
 	cont "MONDBERG."
-
 	para "Aber nicht in"
 	line "jeder Nacht."
 	done
 
-
-
-
-
-
-
 PewterCityGrampsText:
-	text "Ach, du bist den"
-	line "ganzen Weg von"
-	cont "JOHTO bis hierher"
-	cont "gekommen?"
+	; GSC-DE Dump
+	text "Oh, du bist den"
+	line "ganzen Weg "
+	cont "von JOHTO bis"
+	cont "hierher gekommen?"
 	para "Das weckt"
 	line "Erinnerungen. Als"
 	para "ich noch jung war,"
 	line "habe ich in JOHTO"
 	cont "oft trainiert."
-	para "Du erinnerst mich"
-	line "an mich"
+	para "Du erinnerst"
+	line "mich an mich"
 	para "selbst als junger"
 	line "Mann."
 	para "Hier. Ich möchte,"
@@ -181,80 +173,61 @@ PewterCityGrampsText:
 	cont "behältst."
 	done
 
-
-
-
-
-
-
 PewterCityGrampsText_GotSilverWing:
-	text "Neue und"
-	line "unbekannte Orte zu"
+	; GSC-DE Dump
+	text "Neue und un-"
+	line "bekannte Orte zu"
 	cont "erforschen und"
 	cont "fremde Menschen"
-	cont "kennen zu lernen …"
+	cont "kennen zu lernen…"
 	para "Das ist das Schöne"
 	line "am Reisen."
 	done
 
-
-
-
-
-
-
 PewterCityYoungsterText1:
-	text "Die MARMORIA-Arena"
-	line "ist so rau und"
-	cont "hart wie Stein."
+	; PC-only (C)
+	text "Die MARMORIA-"
+	line "ARENA ist so rau"
+	cont "und hart wie"
+	cont "Stein."
 	para "Sei dort"
 	line "vorsichtig."
 	done
 
-
 PewterCitySignText:
+	; GSC-DE Dump
 	text "MARMORIA CITY"
 	line "Eine Steingraue"
 	cont "Stadt"
 	done
 PewterGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "MARMORIA CITY"
 	cont "LEITUNG: ROCKO"
-
 	para "Der Felsenharte"
-	line "#mon-Trainer"
+	line "#MON-Trainer"
 	done
 
-
-
-
-
-
-
 PewterMuseumOfScienceSignText:
+	; PC: Museum offen (GSC: geschlossen)
 	text "MARMORIAS MUSEUM"
 	line "DER WISSENSCHAFT"
 	done
 
 PewterCityMtMoonGiftShopSignText:
+	; GSC-DE Dump
 	text "Hier ist eine"
 	line "Nachricht…"
-
 	para "SOUVENIRLADEN AM"
-	line "MONDBERG Jetzt"
-	cont "geöffnet!"
+	line "MONDBERG"
+	cont "Jetzt geöffnet!"
 	done
 
-
-
-
-
-
-
 PewterCityTrainerTipsText:
+	; PC-only
 	text "Profi-Tipps!"
-	para "Ein #mon mit"
+	para "Ein #MON mit"
 	line "Fähigkeitskappe"
 	para "hat eher Nachwuchs"
 	line "mit einer seltenen"

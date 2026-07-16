@@ -66,7 +66,7 @@ Museum2FTutorSeismicTossScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
+	text "So! Dein #MON"
 	line "kennt jetzt"
 	cont "Geowurf!"
 	done
@@ -84,29 +84,25 @@ Museum2FMoonStoneSignpostScript:
 	done
 
 Museum2FScientistText:
+	; PC-only (C)
 	text "Meteoriten trafen"
 	line "den MONDBERG bei"
 	cont "MARMORIA CITY."
-
 	para "Wir haben einen"
 	line "zur Schau."
-
 	para "Er scheint"
 	line "seltsame Energie"
 	cont "abzustrahlen…"
 	done
 
-
 Museum2FLassText:
+	; PC-only (C)
 	text "Aus Fossilien"
 	line "wiederbelebte"
-
-	para "#mon sind alle"
+	para "#MON sind alle"
 	line "vom Typ Gestein."
-
 	para "Waren sie schon"
 	line "immer so, oder"
-
 	para "ist das ein"
 	line "Ergebnis der"
 	cont "Fossilisierung?"
@@ -158,7 +154,7 @@ Museum2FPokefanMMetricText:
 
 Text_Museum2FTutorSeismicToss:
 	text "Ich bringe deinem"
-	line "#mon Geowurf"
+	line "#MON Geowurf"
 
 	para "bei - für ein"
 	line "Silberblatt."
@@ -167,7 +163,7 @@ Text_Museum2FTutorSeismicToss:
 
 Text_Museum2FTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Geowurf"
+	line "#MON Geowurf"
 	cont "beibringen?"
 	done
 
@@ -182,7 +178,7 @@ PokemonJournalStevenScript:
 	setflag ENGINE_READ_STEVEN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Fels-Fan"
 	line "Steven!"
@@ -205,7 +201,7 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	setflag ENGINE_READ_CYNTHIA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial:"
 	line "Forscherin"
 	cont "Cynthia!"

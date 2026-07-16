@@ -81,13 +81,13 @@ SaffronCityPokefanMScript:
 	iftrue_jumptextfaceplayer SaffronCityPokefanMText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "Du kommst aus"
-	line "JOHTO?"
-	para "Du kannst schnell"
-	line "nach Hause"
-	cont "zurückkehren, wenn"
-	cont "der MAGNETZUG"
-	cont "fährt."
+	; GSC-DE Dump 6346
+	text "Du bist von JOHTO"
+	line "hergekommen?"
+	para "Wenn der MAGNETZUG"
+	line "läuft, bist du"
+	cont "ganz schnell"
+	cont "wieder zu Hause."
 	done
 
 
@@ -96,22 +96,24 @@ SaffronCityFisherScript:
 	iftrue_jumptextfaceplayer SaffronCityFisherText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "Mampf … Mampf …"
+	; GSC-DE Dump 6350
+	text "Mampf… Mampf…"
 	para "Wie ich höre,"
 	line "braut sich da"
 	cont "etwas im KRAFTWERK"
 	cont "zusammen."
-	para "Mampf … Mampf …"
+	para "Mampf… Mampf…"
 	done
 
 
 SaffronCityLass1Text_ReturnedMachinePart:
+	; GSC-DE Dump 6345
 	text "Die NACHAHMERIN"
 	line "sieht unglücklich"
 	para "aus. Sie hat ihre"
 	line "Lieblings-#-"
-	cont "PUPPE - PIEPI"
-	cont "-verloren."
+	cont "PUPPE - PIEPI -"
+	cont "verloren."
 	done
 
 
@@ -120,28 +122,23 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 
 SaffronCityPokefanMText_ReturnedMachinePart:
+	; GSC-DE Dump 6347
 	text "Du kommst aus"
 	line "JOHTO?"
-
 	para "Mit dem MAGNETZUG"
 	line "bist du ganz"
-	cont "schnell wieder zu"
-	cont "Hause."
+	cont "schnell wieder"
+	cont "zu Hause."
 	done
 
-
-
-
-
-
 SaffronCityCooltrainerMText:
-	text "Ich ging zur"
-	line "PKMN-ARENA,"
-	cont "weil ich unbedingt"
-	cont "kämpfen wollte …"
-	para "Wie sich"
-	line "herausstellte, bin"
-	cont "ich"
+	; GSC-DE Dump 6348
+	text "Ich ging zur PKMN-"
+	line "ARENA, weil ich"
+	cont "unbedingt kämpfen"
+	cont "wollte…"
+	para "Wie sich heraus-"
+	line "stellte, bin ich"
 	para "ausgerechnet in"
 	line "der verlassenen"
 	para "PKMN-ARENA"
@@ -150,34 +147,26 @@ SaffronCityCooltrainerMText:
 	line "peinlich!"
 	done
 
-
-
-
-
-
 SaffronCityCooltrainerFText:
+	; GSC-DE Dump 6349
 	text "Das ist die SILPH"
 	line "CO., berühmt für"
-	cont "ihre"
-	cont "#mon-Artikel."
+	cont "ihre #mon-"
+	cont "Artikel."
 	para "TEAM ROCKET wollte"
 	line "sie wegen dieser"
 	para "Waren für sich"
 	line "nutzen."
 	done
 
-
-
-
-
-
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Mampf … Mampf …"
+	; GSC-DE Dump 6351
+	text "Mampf… Mampf…"
 	para "Wie ich höre,"
 	line "braute sich da"
 	cont "etwas im KRAFTWERK"
 	cont "zusammen."
-	para "Mampf … Mampf …"
+	para "Mampf… Mampf…"
 	line "Aah, ich bin satt!"
 	done
 
@@ -287,57 +276,44 @@ SaffronCitySilphEmployeeText:
 	done
 
 SaffronCitySignText:
+	; GSC-DE Dump 6355
 	text "SAFFRONIA CITY"
 	para "Golden Schimmernde"
 	line "Stadt des Handels"
 	done
+
 SaffronGymSignText:
+	; GSC-DE Dump 6356
 	text "PKMN-ARENA von"
 	line "SAFFRONIA CITY"
 	cont "LEITUNG: SABRINA"
-
 	para "Die Meisterin der"
 	line "Psycho-#mon!"
 	done
 
-
-
-
-
-
 FightingDojoSignText:
-	text "Willkommen! KARATE"
-	line "DOJO"
+	; GSC-DE Dump 6357
+	text "Willkommen!"
+	line "KARATE DOJO"
 	done
 
-
-
-
-
-
 SilphCoSignText:
+	; GSC-DE Dump 6358
 	text "SILPH CO."
 	line "BÜROGEBÄUDE"
 	done
 
-
-
-
-
-
 MrPsychicsHouseSignText:
+	; GSC-DE Dump 6359
 	text "HAUS von"
 	line "MR. PSYCHO"
 	done
 
-
-
-
-
-
 SaffronCityMagnetTrainStationSignText:
+	; GSC-DE Dump 6360
 	text "SAFFRONIA CITY"
-	line "MAGNETZUG-BAHNHOF"
+	line "MAGNETZUG-"
+	cont "BAHNHOF"
 	done
 
 

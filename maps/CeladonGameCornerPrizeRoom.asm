@@ -103,6 +103,7 @@ CeladonPrizeRoom_alreadyhavetm:
 CeladonPrizeRoom_notenoughcoins:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Du hast nicht"
 	line "genug Münzen."
 	done
@@ -205,48 +206,57 @@ CeladonGameCornerPokemonVendor:
 	db "Abbrechen@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "Ich wollte"
-	line "Porygon, doch mir"
+	; GSC-DE Dump
+	text "Ich wollte ein"
+	line "PORYGON, aber mir"
 	cont "fehlten 100"
 	cont "Münzen…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
-	text "Puh …"
-	para "Ich muss ruhig und"
-	line "cool bleiben …"
-	para "Verlier ich die"
-	line "Fassung, verlier"
-	cont "ich all mein Geld"
-	cont "…"
+	; GSC-DE Dump
+	text "Puh…"
+	para "Ich muss ruhig"
+	line "Blut bewahren…"
+	para "Wenn ich nervös"
+	line "werde, könnte ich"
+	cont "mein ganzes Geld"
+	cont "verlieren…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
+	; GSC-DE Dump
 	text "Willkommen!"
 	para "Wir tauschen deine"
-	line "Münzen gegen tolle"
-	cont "Preise!"
+	line "Münzen ein gegen"
+	cont "fabelhafte Preise!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
+	; GSC-DE Dump
 	text "Welchen Preis"
-	line "möchtest du?"
+	line "hättest du gerne?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "Ach, du wolltest "
+	; GSC-DE Dump
+	text "Du willst also"
+	line "@"
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_ConfirmTMPurchaseText:
-	text "Ach, du wolltest "
+	; GSC-DE Dump
+	text "Du willst also"
+	line "@"
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_HereYouGoText:
-	text "Hier, bitte!"
+	; GSC-DE Dump
+	text "Hier, bitte sehr!"
 	done
 
 CeladonPrizeRoom_AlreadyHaveTMText:
@@ -254,21 +264,20 @@ CeladonPrizeRoom_AlreadyHaveTMText:
 	line "schon."
 	done
 
-
 CeladonPrizeRoom_NotEnoughRoomText:
-	text "Moment, du hast"
-	line "keinen Platz mehr."
-	para "Ich geb dir deine"
-	line "Münzen zurück."
+	; GSC-DE Dump
+	text "Du hast dafür"
+	line "keinen Platz."
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. Komm wieder,"
-	line "wenn du Münzen"
-	cont "hast!"
+	; GSC-DE Dump
+	text "Oh. Komm bitte"
+	line "mit Münzen wieder!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? Du hast keinen"
-	line "Münzkorb."
+	; GSC-DE Dump
+	text "Ach, du hast"
+	line "keinen MÜNZKORB?"
 	done

@@ -264,27 +264,26 @@ BoughtWiiText:
 
 
 CeladonDeptStore3FYoungsterText:
+	; GSC-DE Dump
 	text "Ich kann mich"
 	line "nicht entscheiden,"
-	cont "bei welchem"
-	cont "#mon"
-	para "ich diese VM"
-	line "einsetzen soll …"
-	para "Gut, dass sie"
-	line "nicht ausgeht."
+	para "welches #mon"
+	line "diese TM erhalten"
+	cont "soll…"
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "Der Technik-Shop"
-	line "verkauft coole"
-	cont "Spielsysteme."
+	; GSC-DE Dump
+	text "Im TM-LADEN erhält"
+	line "man seltene"
+	cont "Attacken."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "Mach dein #mon"
-	line "stärker!"
-
-	para "3F: Technik-Shop"
+	; GSC-DE Dump (PC 3F)
+	text "3F: TM-LADEN"
+	para "Mach Deine #mon"
+	line "Stärker!"
 	done
 
 CeladonDeptStore3FSnesText:

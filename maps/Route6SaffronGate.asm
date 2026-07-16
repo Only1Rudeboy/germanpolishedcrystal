@@ -21,28 +21,34 @@ Route6SaffronGuardScript:
 	iftrue_jumptextfaceplayer Route6SaffronGuardMagnetTrainText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 6108
 	text "Willkommen in"
 	line "SAFFRONIA CITY,"
 	cont "der Heimat des"
-	cont "MAGNETZUGS!"
+	cont "MAGNETZUGs!"
 
-	para "…So würde ich es"
-	line "normalerweise"
-	cont "sagen, aber der"
-	cont "MAGNETZUG fährt"
-	cont "gerade nicht."
+	para "…Das sage ich"
+	line "sonst immer, aber"
 
-	para "Er bekommt keinen"
-	line "Strom, weil im"
+	para "der MAGNETZUG"
+	line "fährt momentan"
+	cont "nicht."
 
-	para "KRAFTWERK etwas"
-	line "nicht stimmt."
+	para "Die Stromzufuhr"
+	line "ist unterbrochen,"
+
+	para "weil es im"
+	line "KRAFTWERK ein"
+
+	para "Problem gibt."
 	done
 
 
 Route6SaffronGuardMagnetTrainText:
+	; GSC-DE Dump 6109
 	text "Der MAGNETZUG ist"
 	line "das Aushängeschild"
+
 	para "von SAFFRONIA"
 	line "CITY."
 	done

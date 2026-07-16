@@ -70,6 +70,7 @@ CinnabarVolcanoB1FBouldersFall:
 	earthquake 80
 	jumpthistext
 
+	; PC (class C)
 	text "Der Felsen fiel"
 	line "hindurch!"
 	done

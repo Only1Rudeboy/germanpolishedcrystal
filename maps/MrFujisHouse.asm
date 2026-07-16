@@ -19,11 +19,12 @@ MrFujisHouse_MapScriptHeader:
 	pokemon_event  1,  3, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, MrFujisPidgeyText, -1
 
 MrFujisHouseSuperNerdText:
+	; GSC-DE Dump 3176
 	text "Hier wohnt MR."
 	line "FUJI, aber er ist"
 
-	para "jetzt nicht zu"
-	line "Hause."
+	para "jetzt nicht"
+	line "zu Hause."
 
 	para "Er müsste in der"
 	line "RUHESTÄTTE sein."
@@ -31,31 +32,34 @@ MrFujisHouseSuperNerdText:
 
 
 MrFujisHouseLassText:
-	text "Es gibt"
-	line "kaltherzige"
-	cont "Menschen, die"
-	cont "einfach ihre"
+	; GSC-DE Dump 3177
+	text "Es gibt kalt-"
+	line "herzige Menschen,"
+	cont "die einfach ihre"
 	cont "#mon im Stich"
 	cont "lassen."
+
 	para "Großvater nimmt"
-	line "die armen,"
-	cont "heimatlosen"
-	cont "#mon auf und"
-	cont "sorgt für sie."
+	line "die armen, heimat-"
+	cont "losen #mon auf"
+	cont "und sorgt für sie."
 	done
 
 
 MrFujisPsyduckText:
+	; GSC-DE Dump 3178
 	text "ENTON: Qua-qua?"
 	done
 
 
 MrFujisNidorinoText:
+	; GSC-DE Dump 3179
 	text "NIDORINO: Nido!"
 	done
 
 
 MrFujisPidgeyText:
+	; GSC-DE Dump 3180
 	text "TAUBSI: Gru gru!"
 	done
 

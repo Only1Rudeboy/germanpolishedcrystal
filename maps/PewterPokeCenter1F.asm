@@ -24,47 +24,44 @@ PokemonJournalBrockScript:
 	setflag ENGINE_READ_BROCK_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
-
+	; PC-only Journal
+	text "#MON-Journal"
 	para "Spezial: ROCKO!"
-
 	para "ROCKO lacht"
 	line "selten, aber man"
-
 	para "sagt, er könne"
 	line "nicht aufhören,"
-
 	para "wenn er einmal"
 	line "anfängt."
 	done
 
 PewterJigglypuffText:
+	; GSC-DE Dump
 	text "PUMMELUFF: Puu"
 	line "pupuu."
 	done
 
-
-
 PewterPokeCenter1FTeacherText:
-	text "… Ja, und die"
+	; GSC-DE Dump
+	text "…Ja, und die"
 	line "PKMN-ARENA auf der"
 	para "ZINNOBERINSEL ist"
 	line "verschwunden. Das"
 	para "finde ich"
 	line "merkwürdig."
-	para "… Ja? Ich"
-	line "telefoniere! Lass"
-	cont "mich in Ruhe!"
+	para "…Ja? Ich"
+	line "telefoniere!"
+	cont "Lass mich in Ruhe!"
 	done
+
 PewterPokeCenter1FChildText:
-	text "Die meisten"
-	line "#mon werden"
+	; GSC-DE Dump
+	text "Die meisten #-"
+	line "MON werden"
 	cont "schläfrig, wenn"
 	cont "PUMMELUFF singt."
-
 	para "Manche Attacken"
 	line "kann man nur an-"
-
 	para "wenden, wenn ein"
-	line "#mon schläft."
+	line "#MON schläft."
 	done

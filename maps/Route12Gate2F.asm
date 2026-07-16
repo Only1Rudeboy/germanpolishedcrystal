@@ -26,8 +26,10 @@ Route12Gate2FBinoculars1:
 Route12Gate2FBinoculars2:
 	jumpthistext
 
+	; PC-only (CAPS)
 	text "Durch das Fernglas"
 	line "geschaut."
+
 	para "Das ist der"
-	line "FUNKTURM!"
+	line "RADIOTURM!"
 	done

@@ -24,48 +24,44 @@ PokemonJournalErikaScript:
 	setflag ENGINE_READ_ERIKA_JOURNAL
 	jumpthistext
 
+	; PC-only Class C
 	text "#mon-Journal"
-
 	para "Sonderbericht:"
-	line "Arenaleiterin"
+	line "ARENALEITERIN"
 	cont "ERIKA!"
-
 	para "Gerüchten zufolge"
 	line "sieht man ERIKA"
 	cont "oft in der"
-
-	para "Prismania-Arena"
+	para "PRISMANIA-ARENA"
 	line "ein Nickerchen"
 	cont "machen."
 	done
 
 CeladonPokeCenter1FPharmacistText:
-	text "Team Rockets"
-	line "Versteck war im"
-
-	para "Keller der"
-	line "Spielhalle."
-
-	para "Ach halt, das war"
+	; GSC-DE Dump
+	text "Das Versteck von"
+	line "TEAM ROCKET befin-"
+	cont "det sich im Keller"
+	cont "der SPIELHALLE."
+	para "Oh, warte. Das war"
 	line "vor drei Jahren."
-
-	para "Was es wohl jetzt"
-	line "ist?"
 	done
 
 CeladonPokeCenter1FCooltrainerfText:
-	text "ERIKA ist"
-	line "Meisterin der"
-	cont "Pflanzen-#mon."
-
-	para "Sie lässt dich"
-	line "büßen, wenn du"
-	cont "nicht aufpasst."
+	; GSC-DE Dump
+	text "ERIKA versteht es"
+	line "meisterlich, mit"
+	para "Pflanzen-#mon"
+	line "umzugehen."
+	para "Eine Unachtsamkeit"
+	line "wird dir bei ihr"
+	cont "übel bekommen."
 	done
 
 CeladonPokeCenter1FLassText:
+	; PC-only Class C
 	text "ERIKA ist nicht"
-	line "nur Arenaleiterin."
+	line "nur ARENALEITERIN."
 	para "Sie hält auch"
 	line "Vorlesungen an der"
 	cont "Uni."

@@ -20,6 +20,7 @@ CeruleanBikeShopClerkScript:
 	end
 
 CeruleanBikeShopClerkText:
+	; PC-only (C)
 	text "Vor langer Zeit"
 	line "fuhr ein cooler"
 	cont "Junge"

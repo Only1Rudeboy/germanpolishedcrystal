@@ -27,20 +27,24 @@ Route9_MapScriptHeader:
 GenericTrainerCamperDean:
 	generictrainer CAMPER, DEAN, EVENT_BEAT_CAMPER_DEAN, CamperDeanSeenText, CamperDeanBeatenText
 
+	; GSC-DE Dump 7049
 	text "Meine #mon"
 	line "wurden verletzt,"
+
 	para "obwohl ich den"
 	line "FELSTUNNEL noch"
 	cont "nicht betreten"
 	cont "hatte."
+
 	para "Ich bringe sie"
 	line "besser sofort in"
-	cont "ein"
-	cont "#mon-CENTER."
+	cont "ein #mon-"
+	cont "CENTER."
 	done
 GenericTrainerPicnickerHeidi:
 	generictrainer PICNICKER, HEIDI, EVENT_BEAT_PICNICKER_HEIDI, PicnickerHeidiSeenText, PicnickerHeidiBeatenText
 
+	; GSC-DE Dump 7052
 	text "Wir backen viele"
 	line "gute Sachen, die"
 
@@ -51,12 +55,15 @@ GenericTrainerPicnickerHeidi:
 GenericTrainerCamperSid:
 	generictrainer CAMPER, SID, EVENT_BEAT_CAMPER_SID, CamperSidSeenText, CamperSidBeatenText
 
-	text "Entschuldige! Ich"
-	line "habe mich geirrt."
+	; GSC-DE Dump 7055
+	text "Entschuldige!"
+	line "Ich habe mich"
+	cont "geirrt."
 	done
 GenericTrainerPicnickerEdna:
 	generictrainer PICNICKER, EDNA, EVENT_BEAT_PICNICKER_EDNA, PicnickerEdnaSeenText, PicnickerEdnaBeatenText
 
+	; GSC-DE Dump 7058
 	text "Energiesparen ist"
 	line "wichtig, aber die"
 
@@ -66,6 +73,7 @@ GenericTrainerPicnickerEdna:
 GenericTrainerHikerTim:
 	generictrainer HIKER, TIM, EVENT_BEAT_HIKER_TIM, HikerTimSeenText, HikerTimBeatenText
 
+	; GSC-DE Dump 7061
 	text "Bei Kämpfen spielt"
 	line "Konzentration eine"
 	cont "wichtige Rolle."
@@ -73,13 +81,15 @@ GenericTrainerHikerTim:
 GenericTrainerHikerSidney:
 	generictrainer HIKER, SIDNEY, EVENT_BEAT_HIKER_SIDNEY, HikerSidneySeenText, HikerSidneyBeatenText
 
+	; GSC-DE Dump 7064
 	text "Du musst einen"
 	line "kleinen Fluss"
 	cont "durchqueren, um"
-	cont "zum KRAFTWERK zu"
-	cont "gelangen."
+	cont "zum KRAFTWERK"
+	cont "zu gelangen."
 	done
 CamperDeanSeenText:
+	; GSC-DE Dump 7047
 	text "Ich möchte den"
 	line "FELSTUNNEL"
 	cont "erforschen."
@@ -90,6 +100,7 @@ CamperDeanSeenText:
 
 
 CamperDeanBeatenText:
+	; GSC-DE Dump 7048
 	text "Boah! Vorsicht!"
 	done
 
@@ -98,6 +109,7 @@ CamperDeanBeatenText:
 
 
 PicnickerHeidiSeenText:
+	; GSC-DE Dump 7050
 	text "Warst du schon"
 	line "beim Picknicken?"
 
@@ -110,6 +122,7 @@ PicnickerHeidiSeenText:
 
 
 PicnickerHeidiBeatenText:
+	; GSC-DE Dump 7051
 	text "Ohhhh!"
 	done
 
@@ -118,9 +131,10 @@ PicnickerHeidiBeatenText:
 
 
 CamperSidSeenText:
-	text "Hey, du Lump! Wirf"
-	line "deinen Müll nicht"
-	cont "hier hin!"
+	; GSC-DE Dump 7053
+	text "Hey, du Lump!"
+	line "Wirf deinen Müll"
+	cont "nicht hier hin!"
 	done
 
 
@@ -128,9 +142,9 @@ CamperSidSeenText:
 
 
 CamperSidBeatenText:
+	; GSC-DE Dump 7054
 	text "Ich wollte nur"
-	line "klarstellen, dass"
-	cont "…"
+	line "klarstellen, dass…"
 	done
 
 
@@ -138,6 +152,7 @@ CamperSidBeatenText:
 
 
 PicnickerEdnaSeenText:
+	; GSC-DE Dump 7056
 	text "Die Leute sollten"
 	line "ihren Müll nicht"
 	cont "hier liegen"
@@ -149,6 +164,7 @@ PicnickerEdnaSeenText:
 
 
 PicnickerEdnaBeatenText:
+	; GSC-DE Dump 7057
 	text "Ohh… Ich habe"
 	line "verloren…"
 	done
@@ -158,9 +174,11 @@ PicnickerEdnaBeatenText:
 
 
 HikerTimSeenText:
+	; GSC-DE Dump 7059
 	text "Wenn sie kommt,"
 	line "kommt sie vom"
-	cont "SILBERBERG …"
+	cont "SILBERBERG…"
+
 	para "Der SILBERBERG ist"
 	line "in JOHTO, oder?"
 	done
@@ -170,6 +188,7 @@ HikerTimSeenText:
 
 
 HikerTimBeatenText:
+	; GSC-DE Dump 7060
 	text "Ich war zu sehr"
 	line "mit Singen"
 	cont "beschäftigt…"
@@ -180,8 +199,10 @@ HikerTimBeatenText:
 
 
 HikerSidneySeenText:
+	; GSC-DE Dump 7062
 	text "Ich verrate dir"
 	line "ein Geheimnis."
+
 	para "Aber zuerst müssen"
 	line "wir kämpfen!"
 	done
@@ -191,8 +212,9 @@ HikerSidneySeenText:
 
 
 HikerSidneyBeatenText:
-	text "Ach, Mist! Ich"
-	line "habe verloren…"
+	; GSC-DE Dump 7063
+	text "Oh, Mist!"
+	line "Ich habe verloren…"
 	done
 
 
@@ -200,7 +222,9 @@ HikerSidneyBeatenText:
 
 
 Route9SignText:
+	; GSC-DE Dump 7065
 	text "ROUTE 9"
+
 	para "AZURIA CITY -"
 	line "FELSTUNNEL"
 	done

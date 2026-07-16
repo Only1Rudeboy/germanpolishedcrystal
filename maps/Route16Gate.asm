@@ -19,8 +19,9 @@ Route16Gate_MapScriptHeader:
 	end
 
 Route16GateOfficerText:
-	text "Der RADWEG fängt"
-	line "hier an."
+	; GSC-DE Dump
+	text "Der RADWEG"
+	line "fängt hier an."
 	para "Es geht nur"
 	line "bergab, darum ist"
 	cont "die Fahrt so"

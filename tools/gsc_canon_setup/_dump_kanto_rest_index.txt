@@ -1,0 +1,229 @@
+598: MAJOR BOB@
+1705: {text_start}Hast du den wacke-<LINE>ligen Baum auf<CONT>ROUTE 36 gesehen?<PARA>Meine kleine<LINE>Schwester war auf-<CONT>geregt und wollte<CONT>ihn sich ansehen…<PARA>Ich bin 
+2249: {text_start}Hallo? Kommst du<LINE>oder nicht?<PARA>Du verpasst YANMA<LINE>zu sehen!<PARA>Komm sofort zu<LINE>ROUTE 35!<DONE>
+2310: {text_start}Wusstest du…?<LINE>BILL lebt wahr-<CONT>scheinlich auf<CONT>ROUTE 25 in KANTO.<DONE>
+2350: {text_start}Ich mache auf<LINE>ROUTE 45 Pause!<PARA>Komm vorbei, wenn<LINE>du Zeit hast!<DONE>
+2444: {text_start}Entschuldige,<LINE>bitte!<CONT>Könntest du mir<CONT>einen Gefallen<CONT>tun?<PARA>Könntest du dieses<LINE>#MON, das einen<CONT>BRIEF trägt,<CONT>zu meinem Freund<C
+2447: {text_start}Du darfst ihn le-<LINE>sen, aber verliere<CONT>ihn nicht!<CONT>ROUTE 31!<PARA>Stimmt! Ein<LINE>merkwürdiger<CONT>Baum hat die<CONT>Straße blockiert.<PARA>Ich frage
+2513: {text_start}Ich habe gehört,<LINE>dass es ein #-<CONT>MON gibt, das aus-<CONT>sieht wie ein<PARA>Baum. Du kannst<LINE>seine Identität<CONT>mit Hilfe eines<CONT>SILPHSCOPE 2<CO
+2597: {text_start}Früher arbeitete<LINE>ich für SILPH,<PARA>aber jetzt leite<LINE>ich TEAM ROCKETs<CONT>Forschungen.<PARA>Ein Kind wie du,<LINE>das sich überall<CONT>einmischt, muss
+2739: {text_start}ERIKA: Hallo…<LINE>Schönes Wetter,<PARA>nicht?<LINE>Einfach herrlich…<PARA>…Ich könnte gleich<LINE>einschlafen…<PARA>Ich heiße ERIKA.<LINE>Ich bin die ARENA-<CONT>
+2740: {text_start}ERIKA: Oh!<LINE>Ich gebe mich<CONT>geschlagen…<PARA>Du bist außerge-<LINE>wöhnlich stark…<PARA>Ich gebe dir den<LINE>FARBORDEN…<DONE>
+2742: {text_start}ERIKA: Das war ein<LINE>herrlicher Kampf.<PARA>Das spornt zu<LINE>neuen Taten an.<PARA>Nimm bitte diese<LINE>TM an.<PARA>Es ist GIGASAUGER.<PARA>Das ist eine<LINE>
+2743: {text_start}ERIKA: Eine<LINE>Niederlage ist<PARA>nicht sehr<LINE>angenehm…<PARA>Aber es ist ein<LINE>Ansporn, sich<PARA>mehr anzustrengen,<LINE>wenn man weiß,<PARA>dass es sta
+2773: {text_start}Am Ende des<LINE>RADWEGs ist<PARA>FUCHSANIA CITY.<DONE>
+2776: {text_start}Hast du von<LINE>dem Vorfall im<CONT>KRAFTWERK gehört?<PARA>Es liegt östlich<LINE>von hier, nahe<CONT>LAVANDIA.<DONE>
+2813: {text_start}Die M.S. AQUA ist<LINE>auf dem Weg nach<CONT>ORANIA CITY.<PARA>Wir machen eine<LINE>Durchsage, wenn<CONT>wir dort ankommen.<DONE>
+2820: {text_start}Die M.S. AQUA legt<LINE>in<PARA>ORANIA CITY an.<DONE>
+2853: {text_start}Ich wollte mein<LINE>Debut im DUELLTURM<CONT>geben…<PARA>Ich sollte nach<LINE>ORANIA CITY zu-<CONT>rückgehen und<CONT>härter trainieren…<DONE>
+2858: {text_start}Die M.S. AQUA legt<LINE>in<PARA>ORANIA CITY an.<DONE>
+2891: {text_start}Die M.S. AQUA legt<LINE>in<PARA>ORANIA CITY an.<DONE>
+2908: {text_start}Wir bringen unsere<LINE>Passagiere von<PARA>ORANIA CITY nach<LINE>OLIVIANA CITY.<DONE>
+2966: {text_start}ROUTE 34<PARA>DUKATIA CITY -<LINE>AZALEA CITY<PARA>STEINEICHENWALD<LINE>Irgendwo<CONT>dazwischen<DONE>
+3067: {text_start}Montag, MONJA<LINE>ROUTE 40<PARA>Dienstag,<LINE>DIETLINDE<CONT>ROUTE 29<PARA>Mittwoch, MITKO<LINE>SEE DES ZORNS<PARA>Donnerstag,<LINE>DONATUS<CONT>ROUTE 36<PARA>Fr
+3086: {text_start}Erstellst du einen<LINE>#DEX? Ich habe<CONT>einen heißen<CONT>Tipp für dich.<PARA>WANDERER TOM auf<LINE>ROUTE 33 ist sehr<CONT>freundlich.<PARA>Er ruft dich an,<LI
+3172: {text_start}Im Norden von<LINE>LAVANDIA ist der<PARA>FELSTUNNEL. Er<LINE>führt zum<CONT>KRAFTWERK.<DONE>
+3174: {text_start}Wenn das KRAFTWERK<LINE>nicht funktio-<CONT>niert, läuft der<PARA>MAGNETZUG auch<LINE>nicht…<PARA>Das bedeutet, dass<LINE>auch die RADIO-<CONT>STATION nicht<PARA>a
+3175: {text_start}Der INTENDANT der<LINE>RADIOSTATION war<CONT>hoch erfreut.<PARA>Er sagte, sie<LINE>seien wieder auf<PARA>Sendung, weil das<LINE>KRAFTWERK wieder<CONT>einwandfrei<C
+3181: {text_start}LAVANDIA ist eine<LINE>ruhige, kleine<PARA>Stadt am Fuße der<LINE>Berge.<PARA>In letzter Zeit<LINE>ist sie durch den<PARA>Bau des RADIOTURMs<LINE>etwas geschäftige
+3192: {text_start}Nein, nein, nein!<PARA>Wir sind nicht<LINE>mehr auf Sendung,<PARA>seit das KRAFTWERK<LINE>nicht mehr läuft.<PARA>Alle Bemühungen,<LINE>diese Station zum<PARA>Laufe
+3193: {text_start}Ah! Dann bist du<LINE><PLAY_G>. Du hast<PARA>das Problem mit<LINE>dem KRAFTWERK<CONT>gelöst?<PARA>Dir habe ich es zu<LINE>verdanken, dass<PARA>ich nicht arbeits-<L
+3200: {text_start}Warst du schon in<LINE>LAVANDIA?<PARA>Dort steht ein<LINE>hoher RADIOTURM.<DONE>
+3593: {text_start}BLAU: He! Hast du<LINE>es endlich hierher<CONT>geschafft?<PARA>Auf den ZINNOBER-<LINE>INSELN war mir<PARA>nicht danach, aber<LINE>jetzt können wir<CONT>kämpfen.<PA
+3594: {text_start}BLAU: Was?<PARA>Wie zum Teufel<LINE>konnte ich gegen<CONT>dich verlieren?<PARA>…<PARA>Also gut…<LINE>Hier, nimm das -<CONT>es ist der<CONT>ERDORDEN.<DONE>
+3595: {text_start}<PLAYER> erhält<LINE>ERDORDEN.<DONE>
+3596: {text_start}BLAU: …<PARA>In Ordnung. Ich<LINE>hatte Unrecht. Du<PARA>bist nicht aus<LINE>Watte, sondern ein<CONT>guter Trainer.<PARA>Aber eines Tages<LINE>werde ich dich<PARA>
+3597: {text_start}BLAU: Hör gut zu.<PARA>Es bekommt dir<LINE>besser, nicht zu<CONT>verlieren, bis ich<CONT>dich besiegt habe!<CONT>Klar?<DONE>
+3624: {text_start}Ich habe gehört,<LINE>dass die PKMN-<CONT>ARENA auf der<CONT>ZINNOBERINSEL<CONT>verschwunden ist.<PARA>Ich frage mich,<LINE>was aus PYRO, dem<CONT>ARENALEITER<CONT
+3811: {text_start}Weißt du? Jeder<LINE>Angestellte vom<PARA>RADIOTURM ist beim<LINE>Firmenausflug zum<PARA>RADIOTURM in<LINE>LAVANDIA dabei.<PARA>Wir verschwenden<LINE>unsere Urlaub
+5408: {text_start}Heh, was ist los<LINE>mit dir?<PARA>Bist du nicht ge-<LINE>kommen, um<CONT>BALDORFISH zu<CONT>angeln?<PARA>Ich warte auf<LINE>ROUTE 32, also<CONT>beeil dich!<DONE>
+5654: {text_start}Das KRAFTWERK von<LINE>KANTO?<PARA>Es befindet<LINE>sich am Ende von<PARA>ROUTE 9, auf der<LINE>Straße östlich<CONT>von hier.<PARA>Es muss dort einen<LINE>Störfall
+5665: {text_start}AZURIA CITY<PARA>Umgeben Von Einer<LINE>Mystischen Blauen<CONT>Aura<DONE>
+5666: {text_start}PKMN-ARENA von<LINE>AZURIA CITY<CONT>LEITUNG: MISTY<PARA>Die Jungenhafte<LINE>Meerjungfrau<DONE>
+5668: {text_start}Hier ist eine<LINE>Nachricht…<PARA>Stoppt die Krimi-<LINE>nalität und macht<PARA>aus dieser Stadt<LINE>einen Ort, an dem<CONT>man sicher ist und<CONT>gerne lebt!<P
+5744: {text_start}MISTY: Ich habe<LINE>dich erwartet, du<CONT>Nervensäge!<PARA>Du hast zwar<LINE>viele ORDEN von<PARA>JOHTO, aber unter-<LINE>schätze mich<CONT>lieber nicht!<PARA>Me
+5745: {text_start}MISTY: Du bist<LINE>wirklich gut…<PARA>Ich gebe zu, dass<LINE>du sehr geschickt<CONT>bist…<PARA>Hier hast du den<LINE>QUELLORDEN.<DONE>
+5746: {text_start}<PLAYER> erhält<LINE>QUELLORDEN.<DONE>
+5747: {text_start}MISTY: Gibt es<LINE>viele starke<CONT>Trainer wie dich<CONT>in JOHTO?<PARA>Eines Tages werde<LINE>ich mich aufmachen<PARA>und gegen einige<LINE>ausgebildete<CONT>T
+5759: {text_start}Du wirst auf dem<LINE>Weg zum KAP bei<PARA>AZURIA CITY viele<LINE>Trainer treffen.<PARA>Sie wollen heraus-<LINE>finden, welche<PARA>Chance sie gegen<LINE>andere Tr
+5760: {text_start}MISTY ist wahr-<LINE>scheinlich die<PARA>Einzige, die die<LINE>Trainer am KAP bei<CONT>AZURIA CITY<CONT>besiegen kann.<DONE>
+5762: {text_start}Der DIREKTOR des<LINE>KRAFTWERKs sucht<PARA>einen starken<LINE>#MON-Trainer.<PARA>Er braucht Hilfe<LINE>bei der Suche nach<PARA>einem gestohlenen<LINE>Gegenstand.<
+5764: {text_start}Wenn du das<LINE>Gebäude verlässt,<PARA>kannst du das Dach<LINE>eines großen<CONT>Hauses sehen.<PARA>Das ist das<LINE>KRAFTWERK.<DONE>
+5765: {text_start}Ein Dieb ist in<LINE>das KRAFTWERK<CONT>eingebrochen…<PARA>Was geschieht nur<LINE>mit dieser Welt?<DONE>
+5766: {text_start}Ich habe Nachricht<LINE>aus AZURIA CITY.<PARA>Eine zwielichtige<LINE>Figur treibt sich<PARA>dort in der<LINE>Umgebung herum.<DONE>
+5771: {text_start}Das KRAFTWERK<LINE>wurde vor langer<CONT>Zeit stillgelegt.<PARA>Wir haben es<LINE>wieder in Betrieb<PARA>genommen und ver-<LINE>sorgen den MAGNET-<CONT>ZUG mit Ene
+5773: {text_start}Der DIREKTOR des<LINE>KRAFTWERKs sitzt<CONT>da vorne.<PARA>Seit jemand den<LINE>Generator demo-<CONT>lierte, ist er<CONT>traurig und wütend<CONT>zugleich…<DONE>
+5801: {text_start}SABRINA: Ich<LINE>wusste, dass du<CONT>kommen würdest…<PARA>Vor drei Jahren<LINE>sah ich dich in<CONT>einer Vision.<PARA>Du willst meinen<LINE>ORDEN haben.<PARA>Ic
+5802: {text_start}SABRINA: Deine<LINE>Stärke…<PARA>übertrifft meine<LINE>Vorahnungen bei<CONT>weitem…<PARA>Vielleicht ist es<LINE>nicht möglich,<PARA>alles vorherzu-<LINE>sagen, was
+5803: {text_start}<PLAYER> erhält<LINE>SUMPFORDEN.<DONE>
+5804: {text_start}SABRINA: Der<LINE>SUMPFORDEN<PARA>aktiviert deine<LINE>unterbewussten<CONT>Kräfte…<PARA>Obwohl ich nicht<LINE>in der Lage war,<CONT>deine Stärke<CONT>vorauszusehen
+5805: {text_start}SABRINA: Deine Zu-<LINE>neigung zu deinen<PARA>#MON hat meine<LINE>Psychostärke<CONT>übertroffen…<PARA>Die Kraft der<LINE>Liebe ist meiner<PARA>Ansicht nach auch<L
+5820: {text_start}In LAVANDIA<LINE>ist ein großer<CONT>RADIOTURM.<DONE>
+5824: {text_start}Ich bin gerade<LINE>durch den FELS-<CONT>TUNNEL gekommen.<PARA>Da war irgendetwas<LINE>im Gange beim<CONT>KRAFTWERK.<DONE>
+5825: {text_start}Die Höhlen stürzen<LINE>leicht ein.<PARA>In letzter Zeit<LINE>sind einige Höhlen<PARA>verschwunden. Wie<LINE>die Höhle vor<CONT>AZURIA CITY.<PARA>Für einen Profi-<
+5826: {text_start}Die ZENTRALE von<LINE>SILPH CO. und der<PARA>MAGNETZUG-BAHNHOF<LINE>sind sehenswürdige<PARA>Orte in SAFFRONIA<LINE>CITY.<DONE>
+5834: {text_start}Ankunft in<LINE>SAFFRONIA CITY.<PARA>Beehre uns<LINE>bald wieder.<DONE>
+5839: {text_start}Willkommen. Das<LINE>ist das BÜRO-<CONT>GEBÄUDE der<CONT>SILPH CO.<DONE>
+5841: {text_start}Das ist das<LINE>neueste Produkt<PARA>der SILPH CO. Das<LINE>gibt es noch nir-<CONT>gends zu kaufen.<DONE>
+5848: {text_start}<PLAYER>: Hi!<LINE>Ich habe gehört,<PARA>dass du deine<LINE>Lieblings-<CONT>#PUPPE<CONT>verloren hast.<PARA><PLAYER>: Gibst du<LINE>mir einen FAHR-<CONT>SCHEIN, we
+5856: {text_start}<PLAYER>: Hi.<LINE>Hast du wirklich<CONT>deine #PUPPE<CONT>verloren?<PARA><PLAYER>: Du<LINE>gibst mir wirklich<PARA>einen FAHRSCHEIN,<LINE>falls ich sie<CONT>finde
+5866: {text_start}Warst du schon in<LINE>der PKMN-ARENA von<CONT>MARMORIA CITY?<PARA>Der LEITER dort<LINE>verwendet Gestein-<CONT>#MON.<DONE>
+5870: {text_start}MARMORIA CITY<LINE>Eine Steingraue<CONT>Stadt<DONE>
+5871: {text_start}PKMN-ARENA von<LINE>MARMORIA CITY<CONT>LEITUNG: ROCKO<PARA>Der Felsenharte<LINE>#MON-Trainer<DONE>
+5874: {text_start}Willkommen in<LINE>MARMORIA CITY!<DONE>
+5968: {text_start}Papa arbeitet für<LINE>SILPH CO., wo er<CONT>#BÄLLE analy-<CONT>siert.<PARA>Ich muss mit Groß-<LINE>vater und FLEGMON<CONT>zu Hause bleiben.<DONE>
+6059: {text_start}ROUTE 32<PARA>VIOLA CITY -<LINE>AZALEA CITY<DONE>
+6064: {text_start}Vor DIGDAs<LINE>HÖHLE liegt ein<CONT>schlafendes #-<CONT>MON.<PARA>Das wäre eine<LINE>fantastische Gele-<CONT>genheit, es zu<PARA>fangen! Aber wie<LINE>weckt man e
+6065: {text_start}Vor DIGDAs<LINE>HÖHLE lag ein<PARA>schlafendes #-<LINE>MON.<PARA>Aber jetzt scheint<LINE>es verschwunden<CONT>zu sein.<DONE>
+6087: {text_start}Ich möchte nach<LINE>SAFFRONIA CITY, um<CONT>den MAGNETZUG zu<CONT>sehen.<DONE>
+6089: {text_start}Ich habe vor, in<LINE>SAFFRONIA CITY<CONT>einkaufen zu<CONT>gehen.<DONE>
+6091: {text_start}MAJOR BOB: Heh, du<LINE>Windelpupser!<PARA>Das muss ich dir<LINE>lassen. Es ist<PARA>nicht sehr weise,<LINE>mich herauszufor-<CONT>dern, aber es ist<CONT>mutig!<PA
+6092: {text_start}MAJOR BOB: Arrrgh!<LINE>Du bist stark!<PARA>O.K., Wicht. Du<LINE>erhältst den<CONT>DONNERORDEN!<DONE>
+6093: {text_start}<PLAYER> erhält<LINE>DONNERORDEN.<DONE>
+6094: {text_start}MAJOR BOB: Der<LINE>DONNERORDEN erhöht<PARA>den INIT-Wert<LINE>deiner #MON.<PARA>Du darfst stolz<LINE>darauf sein, mich<PARA>besiegt zu haben,<LINE>hörst du?<DONE>
+6095: {text_start}MAJOR BOB: Zwerg!<LINE>Immer noch bei<CONT>der Sache?<PARA>Meine #MON und<LINE>ich sind noch<CONT>dabei!<DONE>
+6097: {text_start}Ich habe versagt,<LINE>MAJOR BOB. Es tut<CONT>mir Leid!<DONE>
+6098: {text_start}Als ich noch bei<LINE>der Armee war, hat<PARA>MAJOR BOB mein<LINE>Leben gerettet.<DONE>
+6099: {text_start}MAJOR BOB hat mein<LINE>Talent für<PARA>Elektro-#MON<LINE>erkannt.<PARA>Glaubst du, du<LINE>kannst mich<CONT>besiegen?<DONE>
+6104: {text_start}Lass dir den Sieg<LINE>über mich nicht zu<PARA>Kopf steigen…<LINE>MAJOR BOB ist<CONT>stark.<DONE>
+6105: {text_start}He! Du CHAMP<LINE>in spe!<PARA>Dieses Mal hattest<LINE>du Glück.<PARA>MAJOR BOB ist sehr<LINE>vorsichtig. Er<PARA>hat überall in der<LINE>PKMN-ARENA Fallen<CONT>au
+6108: {text_start}Willkommen in<LINE>SAFFRONIA CITY,<CONT>der Heimat des<CONT>MAGNETZUGs!<PARA>…Das sage ich<LINE>sonst immer, aber<PARA>der MAGNETZUG<LINE>fährt momentan<CONT>nicht
+6171: {text_start}ROUTE 36<DONE>
+6175: {text_start}Einer der TOP VIER<LINE>war früher einmal<PARA>der ARENALEITER in<LINE>FUCHSANIA CITY.<DONE>
+6177: {text_start}Schade, dass die<LINE>SAFARI-ZONE<PARA>geschlossen ist…<LINE>Das ist schließ-<CONT>lich FUCHSANIAs<CONT>Hauptattraktion.<DONE>
+6178: {text_start}FUCHSANIA CITY<PARA>Sieh nur! Die<LINE>Rosarote<CONT>Lieblichkeit!<DONE>
+6179: {text_start}PKMN-ARENA von<LINE>FUCHSANIA CITY<CONT>LEITUNG: JANINA<PARA>Die Giftige<LINE>Ninja-Meisterin<DONE>
+6180: {text_start}Hier ist eine<LINE>Nachricht…<PARA>Bis auf weiteres<LINE>bleibt das BÜRO<PARA>der SAFARI-ZONE<LINE>geschlossen.<DONE>
+6181: {text_start}SAFARI-ZONE<LINE>HAUS DES WÄRTERs<DONE>
+6182: {text_start}Der WÄRTER ist<LINE>verreist. Deshalb<PARA>ist die SAFARI-<LINE>ZONE<CONT>geschlossen.<DONE>
+6217: {text_start}Ich wollte einen<LINE>Geschenkartikel<PARA>in der SAFARI-ZONE<LINE>kaufen, aber sie<CONT>ist geschlossen…<DONE>
+6218: {text_start}In dieser Stadt<LINE>lebt auch die<CONT>Enkelin des<CONT>WÄRTERs der<CONT>SAFARI-ZONE.<DONE>
+6219: {text_start}Hehehehe…<PARA>Es tut mir Leid,<LINE>dich enttäuschen<CONT>zu müssen…<PARA>Ich mache<LINE>nur Witze!<PARA>Jetzt geht es<LINE>rund!<PARA>Ich bin JANINA,<LINE>ARENAL
+6220: {text_start}JANINA: Du bist<LINE>recht stark. Ein<CONT>klarer Sieg für<CONT>dich…<PARA>Nimm jetzt den<LINE>SEELENORDEN.<DONE>
+6221: {text_start}<PLAYER> erhält<LINE>SEELENORDEN.<DONE>
+6222: {text_start}JANINA: Du bist so<LINE>stark! Ich habe<CONT>ein Geschenk für<CONT>dich!<PARA>Es ist TOXIN, ein<LINE>sehr starkes Gift,<PARA>das dem Opfer<LINE>ständig KP<CONT>ent
+6223: {text_start}JANINA: Ich werde<LINE>mich jetzt mehr<PARA>anstrengen und<LINE>meine Fähigkeiten<CONT>optimieren.<PARA>Ich möchte meinen<LINE>Vater und dich<CONT>übertreffen!<DON
+6238: {text_start}Mein Großvater<LINE>besucht meinen<CONT>Bruder BILL am KAP<CONT>bei AZURIA CITY.<DONE>
+6244: {text_start}Mein Großvater ist<LINE>der WÄRTER in der<CONT>SAFARI-ZONE.<PARA>Zumindest war er<LINE>das…<PARA>Er hat sich ent-<LINE>schieden, Urlaub<PARA>zu machen und ist<LINE
+6245: {text_start}Viele Leute waren<LINE>traurig, dass die<PARA>SAFARI-ZONE ge-<LINE>schlossen wurde.<CONT>Aber Großvater ist<CONT>so stur…<DONE>
+6349: {text_start}Das ist die SILPH<LINE>CO., berühmt für<CONT>ihre #MON-<CONT>Artikel.<PARA>TEAM ROCKET wollte<LINE>sie wegen dieser<PARA>Waren für sich<LINE>nutzen.<DONE>
+6350: {text_start}Mampf… Mampf…<PARA>Wie ich höre,<LINE>braut sich da<CONT>etwas im KRAFTWERK<CONT>zusammen.<PARA>Mampf… Mampf…<DONE>
+6351: {text_start}Mampf… Mampf…<PARA>Wie ich höre,<LINE>braute sich da<CONT>etwas im KRAFTWERK<CONT>zusammen.<PARA>Mampf… Mampf…<LINE>Aah, ich bin satt!<DONE>
+6355: {text_start}SAFFRONIA CITY<PARA>Golden Schimmernde<LINE>Stadt des Handels<DONE>
+6356: {text_start}PKMN-ARENA von<LINE>SAFFRONIA CITY<CONT>LEITUNG: SABRINA<PARA>Die Meisterin der<LINE>Psycho-#MON!<DONE>
+6358: {text_start}SILPH CO.<LINE>BÜROGEBÄUDE<DONE>
+6360: {text_start}SAFFRONIA CITY<LINE>MAGNETZUG-<CONT>BAHNHOF<DONE>
+6445: {text_start}Zur ROUTE 30 geht<LINE>es hier entlang.<PARA>Du wirst dort auf<LINE>viele Trainer und<PARA>ihre #MON<LINE>treffen.<DONE>
+6493: {text_start}ROUTE 35<DONE>
+6513: {text_start}ROUTE 43<PARA>SEE DES ZORNS -<LINE>MAHAGONIA CITY<DONE>
+6514: {text_start}ROUTE 43<PARA>SEE DES ZORNS -<LINE>MAHAGONIA CITY<DONE>
+6538: {text_start}ROUTE 44<LINE>EISPFAD VORAUS<DONE>
+6539: {text_start}ROUTE 44<PARA>MAHAGONIA CITY -<LINE>EBENHOLZ CITY<DONE>
+6568: {text_start}ROUTE 45<LINE>BERGWEG VORAUS<DONE>
+6572: {text_start}Uff, uff…<LINE>Nur… noch… ein<PARA>kleines Stück… bis<LINE>…FUCHSANIA CITY…<DONE>
+6574: {text_start}Ich… bat meine<LINE>Freundin nach<CONT>FUCHSANIA CITY…<CONT>zu schwimmen…<DONE>
+6577: {text_start}Es ist nur eine<LINE>kurze Distanz<PARA>zwischen FUCHSANIA<LINE>CITY und den<CONT>SEESCHAUMINSELN…<PARA>Uah, mein Freund<LINE>ist so groß und<PARA>dennoch ein<LINE
+6581: {text_start}Tut mir Leid.<LINE>Die Straße ist<CONT>aufgrund von Bau-<CONT>arbeiten gesperrt.<PARA>Wenn du zu der<LINE>ZINNOBERINSEL<PARA>möchtest, gehst<LINE>du von ALABASTIA<
+6585: {text_start}ROUTE 19<PARA>FUCHSANIA CITY -<LINE>SEESCHAUMINSELN<DONE>
+6586: {text_start}Sei auf der Hut,<LINE>wenn du zu den<CONT>SEESCHAUMINSELN<CONT>schwimmst.<PARA>ORDNUNGSAMT VON<LINE>FUCHSANIA CITY<DONE>
+6587: {text_start}MISTY: Aww! Warum<LINE>musst du jetzt<PARA>auftauchen und uns<LINE>stören?<PARA>Weißt du, wie<LINE>man Menschen wie<CONT>dich nennt?<PARA>Plage! Du hast<LINE>richt
+6685: {text_start}ROUTE 30<PARA>VIOLA CITY -<LINE>ROSALIA CITY<DONE>
+6708: {text_start}ROUTE 38<PARA>OLIVIANA CITY -<LINE>TEAK CITY<DONE>
+6722: {text_start}Ich sollte zum<LINE>FELSTUNNEL gehen<CONT>und mir ein ONIX<CONT>fangen.<DONE>
+6727: {text_start}Nördlich nach<LINE>LAVANDIA<PARA>Westlich nach<LINE>FUCHSANIA CITY<DONE>
+6730: {text_start}ROCKO: Wow, es<LINE>kommt nicht oft<PARA>vor, dass wir von<LINE>einem Heraus-<CONT>forderer aus JOHTO<CONT>besucht werden.<PARA>Ich bin ROCKO, der<LINE>ARENALEITER
+6731: {text_start}ROCKO: Die mäch-<LINE>tigen Attacken<CONT>deiner #MON<CONT>haben meine<CONT>felsenfeste<CONT>Verteidigung<CONT>überwunden…<PARA>Du bist stärker,<LINE>als ich dacht
+6732: {text_start}<PLAYER> erhält<LINE>FELSORDEN.<DONE>
+6733: {text_start}ROCKO: Danke,<LINE><PLAY_G>. Es war<PARA>eine Freude, gegen<LINE>dich zu kämpfen.<PARA>Auch wenn ich ein<LINE>bisschen beleidigt<CONT>bin.<PARA>Dieser FELSORDEN<LI
+6734: {text_start}ROCKO: Die Welt<LINE>ist groß. Es gibt<PARA>immer noch viele<LINE>starke Trainer wie<CONT>dich.<PARA>Warte nur ab. Ich<LINE>werde auch noch<CONT>viel stärker.<DONE
+6742: {text_start}…Ja, und die<LINE>PKMN-ARENA auf der<PARA>ZINNOBERINSEL ist<LINE>verschwunden. Das<PARA>finde ich<LINE>merkwürdig.<PARA>…Ja? Ich<LINE>telefoniere!<CONT>Lass mich i
+6816: {text_start}ROUTE 31<PARA>VIOLA CITY -<LINE>ROSALIA CITY<DONE>
+6835: {text_start}Ich traf MAUZI<LINE>NACHTs, genau hier<CONT>auf ROUTE 39.<PARA>Ich weiß nicht<LINE>warum, aber es<PARA>scheint es zu<LINE>mögen, wenn ich<CONT>hier trainiere.<PARA
+6836: {text_start}ROUTE 39<PARA>OLIVIANA CITY -<LINE>TEAK CITY<DONE>
+6861: {text_start}ROUTE 40<PARA>ANEMONIA CITY -<LINE>OLIVIANA CITY<DONE>
+6900: {text_start}Meiner Meinung<LINE>nach ist Strom<PARA>das Wichtigste<LINE>in unserem Leben.<PARA>Wenn dem nicht so<LINE>wäre, hätten die<PARA>Leute nicht so<LINE>einen Aufstand<
+6904: {text_start}ROUTE 12<LINE>NORDEN: LAVANDIA<DONE>
+6958: {text_start}ROUTE 37<DONE>
+6968: {text_start}ROUTE 42<PARA>TEAK CITY -<LINE>MAHAGONIA CITY<DONE>
+6971: {text_start}ROUTE 42<PARA>TEAK CITY -<LINE>MAHAGONIA CITY<DONE>
+6982: {text_start}ROUTE 46<LINE>BERGWEG VORAUS<DONE>
+7002: {text_start}Das EINKAUFS-<LINE>ZENTRUM in<PARA>PRISMANIA CITY<LINE>bietet die größte<PARA>und beste Auswahl<LINE>an Artikeln.<PARA>Was du da nicht<LINE>findest, wirst<PARA>du 
+7005: {text_start}PRISMANIA CITY<PARA>Die Stadt der<LINE>Regenbogen-Träume<DONE>
+7006: {text_start}PKMN-ARENA von<LINE>PRISMANIA CITY<PARA>LEITUNG: ERIKA<LINE>Die Prinzessin mit<PARA>Herz für die Natur<DONE>
+7007: {text_start}Im EINKAUFSZENTRUM<LINE>von PRISMANIA CITY<CONT>Findest Du Alles,<CONT>was Dein Herz<CONT>Begehrt!<DONE>
+7010: {text_start}TIPPS für TRAINER<PARA>Der MEGABLOCK<LINE>schützt #MON<PARA>vor SPEZIAL-<LINE>Attacken wie z.B.<CONT>Feuer und Wasser.<PARA>Hol dir deine<LINE>Items im EINKAUFS-<C
+7023: {text_start}Wir machen einen<LINE>Ausflug zum RADIO-<CONT>TURM in LAVANDIA,<PARA>um dort etwas in<LINE>Sozialkunde zu<CONT>lernen.<DONE>
+7029: {text_start}ROUTE 15<PARA>FUCHSANIA CITY -<LINE>LAVANDIA<DONE>
+7030: {text_start}Der HAFEN von<LINE>ORANIA CITY ist<CONT>das Tor KANTOs<CONT>zum Meer.<PARA>Hier legen Luxus-<LINE>dampfer aus aller<CONT>Welt an.<DONE>
+7034: {text_start}Es gibt acht<LINE>ARENEN in KANTO.<PARA>Das große Gebäude<LINE>ist die PKMN-ARENA<CONT>von ORANIA CITY.<DONE>
+7042: {text_start}ORANIA CITY<PARA>Der Hafen Der<LINE>Stimmungsvollen<CONT>Sonnenuntergänge<DONE>
+7043: {text_start}PKMN-ARENA von<LINE>ORANIA CITY<PARA>LEITUNG: MAJOR BOB<LINE>Der Blitzschnelle<PARA>Amerikaner<DONE>
+7045: {text_start}DIGDAs HÖHLE<DONE>
+7046: {text_start}EINGANG zum HAFEN<LINE>von ORANIA CITY<DONE>
+7047: {text_start}Ich möchte den<LINE>FELSTUNNEL<CONT>erforschen.<DONE>
+7049: {text_start}Meine #MON<LINE>wurden verletzt,<PARA>obwohl ich den<LINE>FELSTUNNEL noch<CONT>nicht betreten<CONT>hatte.<PARA>Ich bringe sie<LINE>besser sofort in<CONT>ein #MON-<
+7064: {text_start}Du musst einen<LINE>kleinen Fluss<CONT>durchqueren, um<CONT>zum KRAFTWERK<CONT>zu gelangen.<DONE>
+7065: {text_start}ROUTE 9<PARA>AZURIA CITY -<LINE>FELSTUNNEL<DONE>
+7066: {text_start}PYRO, der ARENA-<LINE>LEITER auf der<PARA>ZINNOBERINSEL,<LINE>lebt in einer Höh-<CONT>le auf den SEE-<CONT>SCHAUMINSELN…<DONE>
+7068: {text_start}Der Vulkan auf<LINE>der ZINNOBERINSEL<CONT>ist ausgebrochen.<PARA>Durch die Eruption<LINE>wurde die ROUTE 19<CONT>durch Felsbrocken<CONT>zugeschüttet.<PARA>Ich fra
+7070: {text_start}PYRO: Wuah!<PARA>Meine PKMN-ARENA<LINE>auf der ZINNOBER-<CONT>INSEL ist abge-<CONT>brannt. Meine<PARA>Feuer-#MON und<LINE>ich sind wegen des<PARA>Vulkanausbruchs<L
+7071: {text_start}PYRO: Gut gemacht.<LINE>Ich bin<CONT>ausgebrannt…<PARA>Hier nimm den<LINE>VULKANORDEN!<DONE>
+7072: {text_start}<PLAYER> erhält<LINE>VULKANORDEN.<DONE>
+7073: {text_start}PYRO: Diesmal habe<LINE>ich verloren, aber<PARA>beim nächsten Mal<LINE>werde ich<CONT>gewinnen.<PARA>Ich werde meine<LINE>PKMN-ARENA auf der<PARA>ZINNOBERINSEL<LIN
+7074: {text_start}PYRO: Meine Feuer-<LINE>#MON werden<PARA>noch stärker sein.<LINE>Du wirst schon<CONT>sehen!<DONE>
+7075: {text_start}Jawohl!<PARA>…Huh? Es ist<LINE>schon vorüber?<PARA>Sorry, Kumpel!<PARA>Die PKMN-ARENA auf<LINE>der ZINNOBERINSEL<PARA>existiert nicht<LINE>mehr und ich<CONT>wusste
+7082: {text_start}ROUTE 33<DONE>
+7092: {text_start}ROUTE 2<PARA>VERTANIA CITY -<LINE>MARMORIA CITY<DONE>
+7093: {text_start}DIGDAs HÖHLE<DONE>
+7109: {text_start}Dieser arrogante<LINE>Typ war beim<CONT>Vulkan auf der<CONT>ZINNOBERINSEL.<DONE>
+7117: {text_start}Hier ist eine<LINE>Nachricht…<PARA>Die PKMN-ARENA der<LINE>ZINNOBERINSEL<PARA>wurde auf die<LINE>SEESCHAUMINSELN<CONT>verlegt.<PARA>PYRO<DONE>
+7118: {text_start}ZINNOBERINSEL<PARA>Die Feurige Stadt<LINE>Brennender<CONT>Begierde<DONE>
+7128: {text_start}Was steht auf<LINE>diesem Schild?<PARA>PKMN-ARENA der<LINE>ZINNOBERINSEL<PARA>LEITUNG: PYRO<DONE>
+7132: {text_start}Der RADWEG ist<LINE>eine schnelle<CONT>Abkürzung nach<CONT>PRISMANIA CITY.<DONE>
+7135: {text_start}ROUTE 18<PARA>PRISMANIA CITY -<LINE>FUCHSANIA CITY<DONE>
+7149: {text_start}Was steht auf dem<LINE>Flugblatt?<PARA>…Ruppige Trainer<LINE>tragen auf dem<PARA>TUNNELPFAD Kämpfe<LINE>aus.<PARA>Da sich die<LINE>Beschwerden der<CONT>Anwohner hä
+7164: {text_start}LAVANDIA<PARA>Die Liebliche<LINE>Lilafarbene Stadt<DONE>
+7166: {text_start}WAISENHAUS für<LINE>#MON<CONT>von LAVANDIA<DONE>
+7168: {text_start}Die Straße zum<LINE>KRAFTWERK bleibt<PARA>gesperrt, bis das<LINE>Problem gelöst<CONT>wurde.<DONE>
+7169: {text_start}TUNNELPFAD<PARA>AZURIA CITY -<LINE>ORANIA CITY<DONE>
+7176: {text_start}Die Straße zum<LINE>KRAFTWERK bleibt<PARA>gesperrt, bis das<LINE>Problem gelöst<CONT>wurde.<DONE>
+7177: {text_start}TUNNELPFAD<PARA>AZURIA CITY -<LINE>ORANIA CITY<DONE>
+7181: {text_start}O.K. Verraten dir<LINE>meine Geheimnis.<PARA>SPULE, gestohlen<LINE>von mir, versteckt<PARA>in PKMN-ARENA der<LINE>AZURIA CITY.<PARA>Wasser sein gute<LINE>Versteck.
+7212: {text_start}ROUTE 10<PARA>AZURIA CITY -<LINE>LAVANDIA<DONE>
+7347: {text_start}KRAFTWERK KANTO<DONE>
+8865: Ein Maschinenteil<NEXT>für das KRAFTWERK.@
+8909: Eine mysteriöse<NEXT>Box der SILPH CO.@
+9204: KRAFTWERK@
+9216: AZURIA CITY@
+9217: LAVANDIA@
+9218: ORANIA CITY@
+9226: FELSTUNNEL@
+9228: SILPH CO.@
+9229: SAFARI-ZONE@
+9235: ROUTE 3@
+9236: ROUTE 4@
+9237: ROUTE 5@
+9238: ROUTE 6@
+9239: ROUTE 7@
+9240: ROUTE 8@
+9241: ROUTE 9@
+9256: ROUTE 24@
+9257: ROUTE 25@
+9262: ROUTE 30@
+9263: ROUTE 31@
+9264: ROUTE 32@
+9265: ROUTE 33@
+9266: ROUTE 34@
+9267: ROUTE 35@
+9268: ROUTE 36@
+9269: ROUTE 37@
+9270: ROUTE 38@
+9271: ROUTE 39@
+9272: ROUTE 40@
+9273: ROUTE 41@
+9274: ROUTE 42@
+9275: ROUTE 43@
+9276: ROUTE 44@
+9277: ROUTE 45@
+9278: ROUTE 46@
+9284: DIGDAs<BSP>HÖHLE@

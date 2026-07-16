@@ -15,8 +15,9 @@ SaffronRichSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, SaffronRichSpeechHouseRichBoyText, -1
 
 SaffronRichSpeechHouseRichBoyText:
+	; PC-only; CAPS SAFFRONIA
 	text "Häuser sind teuer"
-	line "in Saffronia."
+	line "in SAFFRONIA."
 	para "Wer hier wohnen"
 	line "will, braucht"
 	para "viel Geld oder"
