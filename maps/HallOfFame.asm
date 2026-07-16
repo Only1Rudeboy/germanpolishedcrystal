@@ -106,62 +106,70 @@ HallOfFameEnterScene:
 	step_end
 
 .LanceText1:
-	text "SIEGFRIED: Es ist"
-	line "lange her, seit"
-	cont "ich zuletzt hier"
-	cont "war."
-	para "Hier ehren wir die"
-	line "LIGA-CHAMPs für"
-	cont "alle Ewigkeit."
-	para "Ihre mutigen"
-	line "#mon werden"
-	cont "ebenfalls"
-	cont "aufgenommen."
+	; GSC-DE Dump 5525 (Teil 1)
+	text "SIEGFRIED: Ich war"
+	line "schon lange nicht"
+	cont "mehr hier."
+	para "Hier werden die"
+	line "LIGA-CHAMPS"
+	para "für alle Ewigkeit"
+	line "gewürdigt."
+	para "Ihre mutigen #-"
+	line "MON sind auch"
+	cont "aufgeführt."
 	done
 .LanceTrophyText:
+	; PC-only DE
 	text "Nimm dies als"
 	line "Andenken an das,"
 	cont "was du heute"
 	cont "erreicht hast."
 	done
 .LanceText2:
-	text "Hier haben wir"
-	line "heute den Aufstieg"
-	cont "eines neuen"
-	cont "LIGA-CHAMPs erlebt"
-	cont "-"
-	para "eines Trainers,"
-	line "der Mitgefühl und"
-	cont "Vertrauen in alle"
-	cont "#mon hat."
-	para "Ein Trainer, der"
-	line "durch Ausdauer und"
-	cont "Entschlossenheit"
-	cont "triumphiert hat."
-	para "Der neue"
-	line "LIGA-CHAMP, der"
-	cont "alles in sich hat,"
-	cont "um groß zu werden!"
-	para "<PLAYER>, erlaube"
-	line "mir, dich und"
-	cont "deine Partner als"
-	cont "CHAMPs"
-	cont "einzutragen!"
+	; GSC-DE Dump 5525 (Teil 2)
+	text "Hier und heute"
+	line "wurden wir Zeuge"
+	para "des Aufstiegs ei-"
+	line "nes neuen LIGA-"
+	cont "CHAMPS -- eines"
+	cont "Trainers, der"
+	para "Leidenschaft für"
+	line "und Vertrauen in"
+	cont "seine #MON hat."
+	para "Ein Trainer,"
+	line "dessen Erfolg auf"
+	para "Ausdauer und"
+	line "Entschlossenheit"
+	cont "basiert."
+	para "Der neue LIGA-"
+	line "CHAMP, der"
+	para "alle Zeichen von"
+	line "Größe in sich"
+	cont "vereint!"
+	para "<PLAYER>, darf ich"
+	line "dich und deine"
+	para "Partner als"
+	line "CHAMPS"
+	cont "eintragen?"
 	done
 .GoldTrophyText:
+	; PC-only DE
 	text "<PLAYER> erhält"
 	line "Gold-Pokal."
 	done
 .GoldTrophySentText:
+	; PC-only DE
 	text "Gold-Pokal wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done
 .SilverTrophyText:
+	; PC-only DE
 	text "<PLAYER> erhält"
 	line "Silber-Pokal."
 	done
 .SilverTrophySentText:
+	; PC-only DE
 	text "Silber-Pokal wurde"
 	line "nach Hause"
 	cont "geschickt."

@@ -23,14 +23,14 @@ PokemonJournalBlueScript:
 	setflag ENGINE_READ_BLUE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
-	para "Spezial: Leiter"
+	text "#mon-Journal"
+	para "Spezial: LEITER"
 	line "BLAU!"
 	para "Man sagt, BLAU"
 	line "besucht jedes Jahr"
 	cont "seine liebsten"
 	cont "#mon im"
-	para "Seelenhaus."
+	para "SEELENHAUS."
 	done
 
 ViridianPokeCenter1FCooltrainermScript:
@@ -38,6 +38,7 @@ ViridianPokeCenter1FCooltrainermScript:
 	iftrue_jumptextfaceplayer .BlueText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 3622
 	text "Wo um Himmels"
 	line "Willen ist der"
 	para "ARENALEITER von"
@@ -45,19 +46,24 @@ ViridianPokeCenter1FCooltrainermScript:
 	cont "ihn herausfordern."
 	done
 .BlueText:
-	text "In der"
-	line "Orania-Arena gibt"
-	cont "es starke"
-	cont "Arena-Trainer."
-
-	para "Eines Tages werde"
-	line "ich dazugehören!"
+	; GSC-DE Dump 3623
+	text "In der PKMN-ARENA"
+	line "von VERTANIA gibt"
+	cont "es keine TRAINER."
+	para "Der ARENALEITER"
+	line "vertritt den"
+	para "Grundsatz, auch"
+	line "ohne die Hilfe von"
+	cont "Untergebenen"
+	cont "gewinnen"
+	cont "zu können."
 	done
 
 ViridianPokeCenter1FCooltrainerfText:
+	; GSC-DE Dump 3624
 	text "Ich habe gehört,"
-	line "dass die"
-	cont "PKMN-ARENA auf der"
+	line "dass die PKMN-"
+	cont "ARENA auf der"
 	cont "ZINNOBERINSEL"
 	cont "verschwunden ist."
 	para "Ich frage mich,"
@@ -65,9 +71,10 @@ ViridianPokeCenter1FCooltrainerfText:
 	cont "ARENALEITER"
 	cont "geworden ist."
 	done
+
 ViridianPokeCenter1FBugCatcherText:
+	; GSC-DE Dump 3625
 	text "Mein großer Traum"
-	line "ist es,"
-	cont "ARENA-LEITER zu"
-	cont "werden."
+	line "ist es, ARENA-"
+	cont "LEITER zu werden."
 	done

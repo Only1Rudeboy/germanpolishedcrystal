@@ -27,10 +27,13 @@ Route2North_MapScriptHeader:
 GenericTrainerBug_maniacEd:
 	generictrainer BUG_MANIAC, ED, EVENT_BEAT_BUG_MANIAC_ED, Bug_maniacEdSeenText, Bug_maniacEdBeatenText
 
-	text "Sie stechen, wenn"
-	line "du ein Bad nimmst."
+	; GSC-DE Dump 7088
+	text "Sie stechen,"
+	line "wenn du ein Bad"
+	cont "nimmst."
 	done
 Bug_maniacEdSeenText:
+	; GSC-DE Dump 7086
 	text "Wenn du mit Shorts"
 	line "in hohem Gras"
 	para "läufst, bekommst"
@@ -38,21 +41,21 @@ Bug_maniacEdSeenText:
 	cont "an deinen Beinen?"
 	done
 Bug_maniacEdBeatenText:
+	; GSC-DE Dump 7087
 	text "Au, Aua, Aua!"
 	done
 Route2NorthCooltrainermText:
 	text "DIGDAs HÖHLE ist"
 	line "eine Sackgasse."
-
 	para "Der Ausgang nach"
 	line "ORANIA CITY ist"
 	cont "blockiert"
-
 	para "von einem"
 	line "schlafenden"
-	cont "Relaxo."
+	cont "RELAXO."
 	done
 
 Route2DiglettsCaveSignText:
+	; GSC-DE Dump 7093
 	text "DIGDAs HÖHLE"
 	done

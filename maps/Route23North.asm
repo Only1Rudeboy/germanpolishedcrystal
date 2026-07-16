@@ -41,6 +41,7 @@ Route23North_MapScriptHeader:
 	const ROUTE23NORTH_OFFICER8
 
 VictoryRoadSignText:
+	; CAPS (PC outdoor)
 	text "SIEGESSTRASSE"
 	line "EINGANG"
 	done
@@ -56,7 +57,8 @@ Route23NorthHealOfficerScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "Die #mon-Liga"
+	; PC-only (C) CAPS
+	text "Die #MON LIGA"
 	line "erwartet dich!"
 
 	para "Gib einfach nicht"
@@ -64,9 +66,12 @@ Route23NorthHealOfficerScript:
 	done
 
 .IntroText:
+	; PC-only (C) CAPS
 	text "Du musst bereit"
 	line "sein für alles auf"
-	para "der Siegesstraße."
+
+	para "der SIEGESSTRASSE."
+
 	para "Lass mich dir ein"
 	line "wenig Mut"
 	cont "zusprechen!"
@@ -134,11 +139,15 @@ Route23OfficerNoBadgeScript:
 	end
 
 .NoBadgeText:
-	text "Du hast das "
+	; PC Route23 badge check (C) CAPS — badge on own line (≤18)
+	text "Du hast das"
+	line ""
 	text_ram wStringBuffer3
-	text "noch nicht!"
+	text ""
+	cont "noch nicht!"
+
 	para "Du brauchst es, um"
-	line "zur #mon-Liga"
+	line "zur #MON LIGA"
 	cont "zu gelangen!"
 	done
 
@@ -153,7 +162,8 @@ Route23OfficerHaveBadgeScript:
 	done
 
 .SeeBadgeText:
-	text "Ach! Das ist das "
+	text "Ach! Das ist das"
+	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
@@ -163,5 +173,6 @@ Route23OfficerNeedBadgeText:
 	line "passieren, wenn du"
 	cont "das "
 	text_ram wStringBuffer3
-	text "hast."
+	text ""
+	cont "hast."
 	done

@@ -67,9 +67,11 @@ FastShip1FSailor1Script:
 	iftrue_jumpopenedtext FastShip1FSailor1Text_ToOlivine
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Die M.S. AQUA ist"
 	line "auf dem Weg nach"
 	cont "ORANIA CITY."
+
 	para "Wir machen eine"
 	line "Durchsage, wenn"
 	cont "wir dort ankommen."
@@ -120,16 +122,18 @@ FastShip1FSailor2Script:
 	iftrue_jumptextfaceplayer FastShip1FSailor2Text
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Das ist deine"
 	line "Kabine."
 
-	para "Wenn deine #mon"
+	para "Wenn deine #MON"
 	line "verletzt sind,"
-	cont "mach ein"
-	cont "Nickerchen im"
-	cont "Bett."
 
-	para "Das heilt sie."
+	para "dann mach hier"
+	line "ein Nickerchen."
+
+	para "Dadurch werden"
+	line "sie geheilt."
 	done
 
 WorriedGrandpaTriggerRight:
@@ -205,9 +209,11 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToOlivine:
+	; GSC-DE Dump
 	text "Die M.S. AQUA ist"
 	line "auf dem Weg nach"
 	cont "OLIVIANA CITY."
+
 	para "Wir machen eine"
 	line "Durchsage, wenn"
 	cont "wir dort ankommen."
@@ -215,21 +221,24 @@ FastShip1FSailor1Text_ToOlivine:
 
 
 FastShip1FSailor2Text:
+	; GSC-DE Dump
 	text "Das ist deine"
 	line "Kabine."
+
 	para "Du kannst deine"
-	line "#mon heilen,"
+	line "#MON heilen,"
 	cont "indem du ein"
 	cont "Nickerchen machst."
+
 	para "Das Schiff wird,"
 	line "während du"
-	cont "schläfst, im"
-	cont "Zielhafen"
-	cont "einlaufen."
+	cont "schläfst, im Ziel-"
+	cont "hafen einlaufen."
 	done
 
 
 FastShip1FSailor3Text:
+	; GSC-DE Dump
 	text "Alle Passagiere"
 	line "sind Trainer."
 
@@ -238,8 +247,8 @@ FastShip1FSailor3Text:
 	cont "Herausforderer."
 	done
 
-
 FastShip1FGrandpaText:
+	; GSC-DE Dump
 	text "Entschuldigung."
 	line "Ich war in Eile!"
 
@@ -256,16 +265,18 @@ FastShip1FGrandpaText:
 
 
 FastShip1FSailor1Text_InOlivine:
+	; GSC-DE Dump
 	text "Die M.S. AQUA legt"
 	line "in"
+
 	para "OLIVIANA CITY an."
 	done
 
 
 FastShip1FSailor1Text_InVermilion:
+	; GSC-DE Dump
 	text "Die M.S. AQUA legt"
 	line "in"
+
 	para "ORANIA CITY an."
 	done
-
-

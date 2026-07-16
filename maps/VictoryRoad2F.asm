@@ -82,15 +82,17 @@ VictoryRoadRivalLeft:
 GenericTrainerVeteranfJoanne:
 	generictrainer VETERANF, JOANNE, EVENT_BEAT_VETERANF_JOANNE, VeteranfJoanneSeenText, VeteranfJoanneBeatenText
 
+	; PC-only (C) CAPS
 	text "Du hast dir das"
 	line "Recht auf die"
-	cont "Siegesstraße"
+	cont "SIEGESSTRASSE"
 	cont "verdient!"
 	done
 
 GenericTrainerVeteranfJonet:
 	generictrainer VETERANF, JONET, EVENT_BEAT_VETERANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
 
+	; PC-only (C)
 	text "Hat jemand Lavados"
 	line "schon gefangen?"
 	done
@@ -110,88 +112,119 @@ VictoryRoadRivalBattleExitMovement1:
 	step_end
 
 VictoryRoadRivalBeforeText:
+	; GSC-DE Dump 2785
 	text "Moment."
-	para "… Wirst du das"
-	line "#mon"
-	cont "LIGA-Abenteuer"
+
+	para "…Wirst du das"
+	line "#MON LIGA-"
+	cont "Abenteuer"
 	cont "bestreiten?"
-	para "… Bring mich nicht"
+
+	para "…Bring mich nicht"
 	line "zum Lachen."
+
 	para "Du bist viel"
 	line "schwächer als ich."
+
 	para "Ich bin nicht mehr"
 	line "so wie früher."
+
 	para "Nun habe ich die"
 	line "besten und"
-	para "stärksten #mon."
+
+	para "stärksten #MON."
 	line "Ich bin"
 	cont "unschlagbar!"
-	para "<PLAYER>! Ich"
-	line "fordere dich"
-	cont "heraus!"
+
+	para "<PLAYER>! Ich for-"
+	line "dere dich heraus!"
 	done
+
 VictoryRoadRivalDefeatText:
-	text "… Ich konnte nicht"
-	line "gewinnen …"
-	para "Ich habe alles"
-	line "gegeben …"
-	para "Was du besitzt und"
-	line "was mir fehlt …"
+	; GSC-DE Dump 2786
+	text "…Ich konnte nicht"
+	line "gewinnen…"
+
+	para "Ich habe"
+	line "alles gegeben…"
+
+	para "Was du besitzt"
+	line "und was mir fehlt…"
+
 	para "Langsam begreife"
 	line "ich, was der"
+
 	para "Drachenmeister zu"
-	line "mir sagte …"
+	line "mir sagte…"
 	done
+
 VictoryRoadRivalAfterText:
-	text "… Ich habe nicht"
+	; GSC-DE Dump 2787
+	text "…Ich habe nicht"
 	line "aufgegeben, der"
 	cont "weltbeste Trainer"
-	cont "zu werden …"
+	cont "zu werden…"
+
 	para "Ich werde"
 	line "herausfinden,"
+
 	para "warum ich nicht"
 	line "gewinnen kann und"
 	cont "dann werde ich"
-	cont "stärker …"
+	cont "stärker…"
+
 	para "Wenn ich soweit"
 	line "bin, fordere ich"
 	cont "dich heraus."
-	para "Dann werde ich dir"
-	line "die Leviten lesen."
-	para "… Humpf! Bleib bis"
-	line "dahin dabei."
+
+	para "Dann werde ich"
+	line "dir die Leviten"
+	cont "lesen."
+
+	para "…Humpf! Bleib"
+	line "bis dahin dabei."
 	done
+
 VictoryRoadRivalVictoryText:
-	text "… Humpf!"
+	; GSC-DE Dump 2788
+	text "…Humpf!"
+
 	para "Wenn es darauf"
 	line "ankommt, gibt es"
 	cont "nichts, was Stärke"
 	cont "Paroli bieten"
 	cont "kann."
+
 	para "Mehr brauche ich"
 	line "nicht."
 	done
+
 VeteranfJoanneSeenText:
-	text "Die Siegesstraße"
+	; PC-only (C) CAPS
+	text "Die SIEGESSTRASSE"
 	line "ist die letzte"
 	cont "Prüfung für"
 	cont "Trainer!"
 	done
 
 VeteranfJoanneBeatenText:
+	; PC-only (C)
 	text "Jippie!"
 	done
+
 VeteranfJonetSeenText:
+	; PC-only (C) — Lavados DE
 	text "Hier soll"
 	line "angeblich ein"
-	cont "Moltres haust."
+	cont "Lavados hausen."
 
 	para "Ich werde es"
 	line "fangen!"
 	done
 
 VeteranfJonetBeatenText:
+	; PC-only (C)
 	text "Ich hätte gewonnen"
 	line "mit einem"
-	cont "Legendär-#mon …"
+	cont "Legendär-#MON …"
 	done

@@ -27,8 +27,9 @@ Celebrity:
 	endtext
 
 CelebrityText1:
-	text "Ach, du hast mich"
-	line "gefunden."
+	; GSC-DE Dump 7215
+	text "Oh, du hast"
+	line "mich gefunden."
 	para "Bitte erzähl"
 	line "niemandem von mir."
 	para "Ich gebe dir dies,"
@@ -36,14 +37,16 @@ CelebrityText1:
 	cont "verrätst. Bitte?"
 	done
 CelebrityText2:
+	; GSC-DE Dump 7216
 	text "Es ist hart, so"
 	line "berühmt zu sein."
 	para "Wo immer ich auch"
 	line "hingehe, die Leute"
 	cont "folgen mir."
 	para "Ich möchte nur"
-	line "meine Ruhe haben …"
+	line "meine Ruhe haben…"
 	done
 CelebritysSkarmoryText:
-	text "Skarmory: Scree!"
+	; GSC-DE Dump 7217
+	text "IBITAK: Ibitaag!"
 	done

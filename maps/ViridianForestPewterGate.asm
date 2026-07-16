@@ -19,6 +19,6 @@ ViridianForestPewterGate_MapScriptHeader:
 ViridianForestPewterGateOfficerText:
 	text "Gehst du nach"
 	line "MARMORIA CITY?"
-	para "Schau unbedingt im"
-	line "Museum vorbei!"
+	para "Schau unbedingt"
+	line "im MUSEUM vorbei!"
 	done

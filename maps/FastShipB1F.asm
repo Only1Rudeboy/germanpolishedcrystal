@@ -55,11 +55,6 @@ FastShipB1FSailorBlocksRight:
 FastShipB1FAlreadyBlocked:
 	end
 
-
-
-
-
-
 FastShipB1FSailorScript:
 	checkevent EVENT_FAST_SHIP_FIRST_TIME
 	iftrue_jumptextfaceplayer FastShipB1FOnDutySailorDirectionsText
@@ -73,15 +68,19 @@ FastShipB1FSailorScript:
 	clearevent EVENT_FAST_SHIP_CABINS_NNW_NNE_NE_SAILOR
 	jumpthisopenedtext
 
-	text "Hey, du da."
-	line "Könntest du meinen"
-	cont "Kumpel suchen?"
-	para "Er treibt sich"
-	line "irgendwo rum,"
-	cont "dieser faule Sack!"
-	para "Ich würde ihn gern"
-	line "suchen, aber ich"
-	cont "hab Dienst."
+	; GSC-DE Dump
+	text "Heh, könntest"
+	line "du mal nach meinem"
+	cont "Kollegen suchen?"
+
+	para "Er faulenzt"
+	line "irgendwo. Dieser"
+	cont "Müßiggänger!"
+
+	para "Ich würde ihn"
+	line "selbst suchen,"
+	cont "aber ich bin"
+	cont "gerade im Dienst."
 	done
 
 .LazySailor:
@@ -94,45 +93,55 @@ FastShipB1FSailorScript:
 	promptbutton
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ein kleines"
 	line "Mädchen?"
 
 	para "Ich glaube, sie"
-	line "ist hier"
-	cont "vorbeigekommen."
+	line "ist hier vorbei-"
+	cont "gekommen."
 	done
+
 GenericTrainerSailorJeff:
 	generictrainer SAILOR, JEFF, EVENT_BEAT_SAILOR_JEFF, SailorJeffSeenText, SailorJeffBeatenText
 
+	; GSC-DE Dump
 	text "Ich denke, ich"
 	line "werde nie"
 	cont "gewinnen, wenn ich"
 	cont "die Sache nicht"
 	cont "ernst nehme."
 	done
+
 GenericTrainerPicnickerDebra:
 	generictrainer PICNICKER, DEBRA, EVENT_BEAT_PICNICKER_DEBRA, PicnickerDebraSeenText, PicnickerDebraBeatenText
 
+	; GSC-DE Dump
 	text "SAFFRONIA,"
-	line "PRISMANIA… Ich"
-	cont "habe gehört,"
+	line "PRISMANIA…"
+	cont "Ich habe gehört,"
 
 	para "es gibt viele"
-	line "große Städte in"
-	cont "KANTO."
+	line "große Städte"
+	cont "in KANTO."
 	done
+
 GenericTrainerJugglerFritz:
 	generictrainer JUGGLER, FRITZ, EVENT_BEAT_JUGGLER_FRITZ, JugglerFritzSeenText, JugglerFritzBeatenText
 
-	text "Ich reise nie mehr"
-	line "mit dem"
+	; GSC-DE Dump
+	text "Ich reise nie"
+	line "mehr mit dem"
+
 	para "Schiff. Das"
 	line "nächste Mal nehme"
 	cont "ich den MAGNETZUG."
 	done
+
 GenericTrainerBakerSharyn:
 	generictrainer BAKER, SHARYN, EVENT_BEAT_BAKER_SHARYN, BakerSharynSeenText, BakerSharynBeatenText
 
+	; PC-only
 	text "Ich bin vielleicht"
 	line "nicht der beste im"
 	para "Kampf, aber die"
@@ -143,26 +152,30 @@ GenericTrainerBakerSharyn:
 TrainerSailorGarrett:
 	trainer SAILOR, GARRETT, EVENT_BEAT_SAILOR_GARRETT, SailorGarrettSeenText, SailorGarrettBeatenText, 0, .Script, TRAINERPAL_DARK_SAILOR
 
-
-
 .Script:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Wir bringen unsere"
 	line "Passagiere von"
+
 	para "ORANIA CITY nach"
 	line "OLIVIANA CITY."
 	done
+
 GenericTrainerFisherJonah:
 	generictrainer FISHER, JONAH, EVENT_BEAT_FISHER_JONAH, FisherJonahSeenText, FisherJonahBeatenText
 
+	; GSC-DE Dump
 	text "Ich werde am Kai"
 	line "von ORANIA angeln."
 	done
+
 GenericTrainerBlackbeltWai:
 	generictrainer BLACKBELT_T, WAI, EVENT_BEAT_BLACKBELT_WAI, BlackbeltWaiSeenText, BlackbeltWaiBeatenText
 
+	; GSC-DE Dump
 	text "Ich konnte den"
 	line "KARATE-MEISTER in"
 	cont "JOHTO nicht"
@@ -172,41 +185,48 @@ GenericTrainerBlackbeltWai:
 	line "in einer Höhle"
 	cont "trainieren."
 	done
+
 GenericTrainerSailorKenneth:
 	generictrainer SAILOR, KENNETH, EVENT_BEAT_SAILOR_KENNETH, SailorKennethSeenText, SailorKennethBeatenText
 
-	text "Acht ORDEN! Das"
-	line "heißt, du"
-	para "hast die"
-	line "ARENA-LEITER"
-	cont "besiegt."
+	; GSC-DE Dump
+	text "Acht ORDEN!"
+	line "Das heißt, du"
+
+	para "hast die ARENA-"
+	line "LEITER besiegt."
+
 	para "Kein Wunder, dass"
 	line "du so stark bist!"
 	done
+
 GenericTrainerTeacherShirley:
 	generictrainer TEACHER_F, SHIRLEY, EVENT_BEAT_TEACHER_SHIRLEY, TeacherShirleySeenText, TeacherShirleyBeatenText
 
+	; GSC-DE Dump
 	text "Wir machen einen"
 	line "Ausflug zu den"
-	cont "RUINEN bei VIOLA"
-	cont "CITY."
+	cont "RUINEN bei"
+	cont "VIOLA CITY."
 	done
+
 GenericTrainerSchoolboyNate:
 	generictrainer SCHOOLBOY, NATE, EVENT_BEAT_SCHOOLBOY_NATE, SchoolboyNateSeenText, SchoolboyNateBeatenText
 
+	; GSC-DE Dump
 	text "In den RUINEN"
 	line "empfängt das Radio"
 	cont "seltsame Signale."
 	done
+
 GenericTrainerSchoolboyRicky:
 	generictrainer SCHOOLBOY, RICKY, EVENT_BEAT_SCHOOLBOY_RICKY, SchoolboyRickySeenText, SchoolboyRickyBeatenText
 
-	text "Im #mon Journal"
-	line "stand, dass es in"
-
-	para "den RUINEN vier"
-	line "solcher"
-	cont "Steintafeln gibt."
+	; GSC-DE Dump
+	text "Ich habe gelesen,"
+	line "dass es vier von"
+	cont "den Steinplatten"
+	cont "gibt."
 	done
 
 FastShipB1FSailorBlocksRightMovement:
@@ -223,249 +243,185 @@ FastShipB1FSailorBlocksLeftMovement:
 	turn_head_down
 	step_end
 
-
 FastShipB1FOnDutySailorRefusedText:
-	text "Ach, ach…"
+	; GSC-DE Dump
+	text "Oh, oh…"
 
-	para "Der KAPITÄN wird"
-	line "wütend sein…"
+	para "Der KAPITÄN"
+	line "wird wütend sein…"
 	done
 
-
-
-
-
 FastShipB1FOnDutySailorThanksText:
-	text "Danke! Ich habe"
-	line "mit ihm"
+	; GSC-DE Dump
+	text "Danke!"
+	line "Ich habe mit ihm"
 
 	para "geredet, er wird"
 	line "nicht mehr"
 	cont "faulenzen!"
 	done
 
-
-
-
-
 FastShipB1FOnDutySailorDirectionsText:
-	text "Der Speisesaal ist"
-	line "geradeaus."
+	; GSC-DE Dump
+	text "Der Speisesaal"
+	line "ist geradeaus."
+
 	para "Die Treppen am"
-	line "Ende führen in die"
-	cont "KAPITÄNS-KAJÜTE."
+	line "Ende führen in"
+	cont "die KAPITÄNS-"
+	cont "KAJÜTE."
 	done
-
-
-
-
 
 SailorJeffSeenText:
+	; GSC-DE Dump
 	text "In den Pausen ist"
 	line "Kämpfen meine"
-	cont "Lieblingsbeschäft-"
-	cont "igung."
+	cont "Lieblingsbeschäf-"
+	cont "tigung."
 	done
 
-
-
-
-
 SailorJeffBeatenText:
+	; GSC-DE Dump
 	text "Sieg oder"
 	line "Niederlage, meine"
 	cont "Pause ist vorüber!"
 	done
 
-
-
-
-
 PicnickerDebraSeenText:
-	text "Mir ist"
-	line "langweilig. Willst"
-	cont "du kämpfen?"
+	; GSC-DE Dump
+	text "Mir ist lang-"
+	line "weilig. Willst du"
+	cont "kämpfen?"
 	done
 
-
-
-
-
 PicnickerDebraBeatenText:
+	; GSC-DE Dump
 	text "Au! Du bist zu"
 	line "stark!"
 	done
 
-
-
-
-
 JugglerFritzSeenText:
-	text "Uff… Ich bin"
-	line "seekrank!"
+	; GSC-DE Dump
+	text "Uff…"
+	line "Ich bin seekrank!"
 	done
 
-
-
-
-
 JugglerFritzBeatenText:
+	; GSC-DE Dump
 	text "Ich kann mich"
 	line "nicht bewegen…"
 	done
 
-
-
-
-
 BakerSharynSeenText:
+	; PC-only
 	text "Während ich Brot"
 	line "backe, backe ich"
 
 	para "auch deine"
-	line "#mon!"
+	line "#MON!"
 	done
 
 BakerSharynBeatenText:
+	; PC-only
 	text "Zumindest ist mein"
 	line "Brot ein Sieger."
 	done
 
 SailorGarrettSeenText:
+	; GSC-DE Dump
 	text "Hier arbeiten wir"
 	line "Matrosen!"
 	done
 
-
-
-
-
 SailorGarrettBeatenText:
+	; GSC-DE Dump
 	text "Ich habe auf"
 	line "eigenem Terrain"
 	cont "verloren…"
 	done
 
-
-
-
-
 FisherJonahSeenText:
-	text "Auch wenn wir mit"
-	line "dem Schiff fahren,"
-	cont "kann ich nicht"
-	cont "angeln!"
+	; GSC-DE Dump
+	text "Auch wenn wir"
+	line "mit dem Schiff"
+	cont "fahren, kann ich"
+	cont "nicht angeln!"
+
 	para "Wie langweilig!"
 	line "Lass uns kämpfen!"
 	done
 
-
-
-
-
 FisherJonahBeatenText:
+	; GSC-DE Dump
 	text "M-mir ist nicht"
 	line "mehr langweilig…"
 	done
 
-
-
-
-
 BlackbeltWaiSeenText:
+	; GSC-DE Dump
 	text "Ich trainiere"
 	line "meine Beine, indem"
+
 	para "ich das Schaukeln"
 	line "des Schiffes"
 	cont "ausgleiche!"
 	done
 
-
-
-
-
 BlackbeltWaiBeatenText:
+	; GSC-DE Dump
 	text "Gestürzt und platt"
 	line "gemacht!"
 	done
 
-
-
-
-
 SailorKennethSeenText:
+	; GSC-DE Dump
 	text "Ich bin Matrose!"
+
 	para "Aber ich trainiere"
-	line "#mon, um der"
-	cont "CHAMP zu werden!"
+	line "#MON, um"
+	cont "der CHAMP zu"
+	cont "werden!"
 	done
 
-
-
-
-
 SailorKennethBeatenText:
-	text "Mein"
-	line "Trainingsrückstand"
-	cont "ist"
+	; GSC-DE Dump
+	text "Mein Trainings-"
+	line "rückstand ist"
 	cont "offensichtlich…"
 	done
 
-
-
-
-
 TeacherShirleySeenText:
+	; GSC-DE Dump
 	text "Lass die Finger"
 	line "von meinen"
 	cont "Schülern!"
 	done
 
-
-
-
-
 TeacherShirleyBeatenText:
+	; GSC-DE Dump
 	text "Ah!"
 	done
 
-
-
-
-
 SchoolboyNateSeenText:
+	; GSC-DE Dump
 	text "Kennst du die"
 	line "ALPH-RUINEN?"
 	done
 
-
-
-
-
 SchoolboyNateBeatenText:
+	; GSC-DE Dump
 	text "Ah!"
 	done
 
-
-
-
-
 SchoolboyRickySeenText:
+	; GSC-DE Dump
 	text "In den ALPH-RUINEN"
 	line "gibt es seltsame"
 	cont "Steinplatten."
 	done
 
-
-
-
-
 SchoolboyRickyBeatenText:
+	; GSC-DE Dump
 	text "Ich wurde"
 	line "vermöbelt!"
 	done
-
-
-
-
-

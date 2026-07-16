@@ -79,17 +79,18 @@ KarenScript:
 	end
 
 .SeenText:
+	; GSC-DE Dump 5514
 	text "Ich bin MELANIE."
-	line "Nummer 4 der TOP"
-	cont "VIER."
+	line "Nummer 4 der"
+	cont "TOP VIER."
 	para "Du heißt <PLAYER>?"
 	line "Sehr amüsant."
-	para "Ich liebe"
-	line "Unlicht-#mon."
+	para "Ich liebe #MON"
+	line "des Typs Unlicht."
 	para "Ihr wilder, harter"
 	line "Ruf gefällt mir."
-	cont "Und sie sind"
-	cont "wirklich stark."
+	para "Und sie sind"
+	line "wirklich stark."
 	para "Glaubst du, du"
 	line "kannst es mit uns"
 	cont "aufnehmen? Los,"
@@ -98,28 +99,33 @@ KarenScript:
 	para "Auf geht's."
 	done
 .BeatenText:
-	text "Nun, du bist gut."
-	line "Das gefällt mir an"
-	cont "einem Trainer."
+	; GSC-DE Dump 5515
+	text "Nun, du bist"
+	line "gut. Das gefällt"
+	cont "mir an einem"
+	cont "Trainer."
 	done
 .AfterText:
-	text "Starke #mon."
-	line "Schwache #mon."
+	; GSC-DE Dump 5516
+	text "Starke #MON."
+	para "Schwache #MON."
 	para "Das ist nur eine"
-	line "subjektive"
-	cont "Einschätzung"
-	cont "anderer Menschen."
+	line "subjektive Ein-"
+	cont "schätzung anderer"
+	cont "Menschen."
 	para "Wirklich begabte"
 	line "Trainer gewinnen"
-	cont "mit ihren"
-	cont "Lieblings-#mon."
+	para "mit ihren Lieb-"
+	line "lings-#MON."
 	para "Ich mag deinen"
 	line "Stil. Du weißt,"
 	cont "was wichtig ist."
 	para "Schreite voran!"
-	line "Der CHAMP wartet."
+	line "Der CHAMP"
+	cont "wartet."
 	done
 .SeenRematchText:
+	; PC-only DE
 	text "Du hast dich durch"
 	line "die Reihen"
 	cont "gekämpft, um mich"
@@ -132,6 +138,7 @@ KarenScript:
 	line "gut. Los geht's!"
 	done
 .AfterRematchText:
+	; PC-only DE
 	text "Ich werde nicht"
 	line "von meinem Weg"
 	cont "abweichen."

@@ -1,0 +1,100 @@
+243: TOP VIER@
+245: TOP VIER@
+246: TOP VIER@
+247: TOP VIER@
+2051: {text_start}PROF. EICHs #-<LINE>MON-TALK<PARA>Die beste Show<LINE>am Äther!<DONE>
+2268: {text_start}Seit kurzem beo-<LINE>bachte ich wilde<CONT>@{text_ram wStringBuffer4}{text_start}.<PARA>Ich lerne jede<LINE>Menge neue Dinge<PARA>durch meine<LINE>Beobachtungen.<PARA>Ich wünschte, ich<LI
+2273: {text_start}Kennst du BLAU?<PARA>Er ist der Enkel<LINE>von PROF. EICH und<PARA>ein ehemaliger<LINE>#MON LIGA-<CONT>CHAMPION!<PARA>Er ist ein super<LINE>#MON-Trainer!<DONE>
+2274: {text_start}PROF. EICH hat<LINE>eine Enkelin<CONT>namens SARAH.<PARA>Ist sie in der<LINE>Nähe, werden<PARA>selbst die wil-<LINE>desten #MON<CONT>zahm.<DONE>
+2275: {text_start}Jeder spricht<LINE>über PROF. LIND.<PARA>Er war früher ein<LINE>Assistent des<CONT>großartigen<CONT>PROF. EICH!<PARA>Das ist cool!<LINE>Ich beneide ihn!<DONE>
+2276: {text_start}Der Traum von<LINE>PROF. EICH ist<PARA>die Erstellung<LINE>eines verständ-<CONT>lichen #DEX.<PARA>Ich beneide dich,<LINE>weil du an diesem<CONT>Projekt teil-<CONT>nimmst…<DONE>
+2277: {text_start}Kennst du KURT,<LINE>den BALL-Schmied?<PARA>Er und PROF. EICH<LINE>kennen sich schon<CONT>eine Ewigkeit.<PARA>Ich denke, groß-<LINE>artige Menschen<CONT>ziehen einander<CONT>an!<DONE>
+2278: {text_start}Die #MON LIGA<LINE>ist der Ort, wo<CONT>sich alle Trainer,<PARA>die CHAMP werden<LINE>wollen, treffen.<PARA>PROF. EICH ist ein<LINE>Berater des<PARA>#MON LIGA-<LINE>Hauptquartiers.<PARA>Er
+2279: {text_start}PROF. EICHs #-<LINE>MON-TALK ist eine<CONT>beliebte Radio-<CONT>Show, richtig?<PARA>Wusstest du, dass<LINE>er anfangs die<PARA>Show nicht<LINE>moderieren wollte?<PARA>Aber MARIAs ener-<LIN
+2280: {text_start}PROF. EICH war<LINE>vor langer Zeit<CONT>ein Trainer.<PARA>Aber anstatt zu<LINE>kämpfen, fand er<PARA>#MON an sich<LINE>sehr interessant.<PARA>Also gab er das<LINE>Training auf und<PARA>ko
+2281: {text_start}PROF. EICH hat<LINE>eine Enkelin<CONT>namens SARAH.<PARA>Sie trinkt jeden<LINE>Tag ab 15 Uhr für<PARA>eine Stunde lang<LINE>Tee.<PARA>Ich wünschte, ich<LINE>könnte bei ihr<PARA>sein und mi
+2283: {text_start}Ich werde hart<LINE>arbeiten, um<PARA>ein Assistent von<LINE>PROF. EICH zu<CONT>werden!<DONE>
+2454: {text_start}Ich frage mich,<LINE>wie viele Arten<PARA>von #MON es<LINE>wohl geben mag.<PARA>Vor drei Jahren<LINE>hat PROF. EICH<PARA>verlautbart, dass<LINE>es 150 verschie-<CONT>dene Arten geben<CONT>
+2791: {text_start}Willkommen auf <LINE>dem SCHNELLBOOT<CONT>M.S. AQUA.<PARA>Trittst du heute<LINE>deine Reise an?<DONE>
+2800: {text_start}M.S. AQUA benutzt<LINE>Spezialdüsen,<CONT>um über die Wellen<CONT>zu gleiten!<DONE>
+2805: {text_start}Willkommen auf <LINE>dem SCHNELLBOOT<CONT>M.S. AQUA.<PARA>Trittst du heute<LINE>deine Reise an?<DONE>
+2813: {text_start}Die M.S. AQUA ist<LINE>auf dem Weg nach<CONT>ORANIA CITY.<PARA>Wir machen eine<LINE>Durchsage, wenn<CONT>wir dort ankommen.<DONE>
+2814: {text_start}Die M.S. AQUA ist<LINE>auf dem Weg nach<CONT>OLIVIANA CITY.<PARA>Wir machen eine<LINE>Durchsage, wenn<CONT>wir dort ankommen.<DONE>
+2819: {text_start}Die M.S. AQUA legt<LINE>in<PARA>OLIVIANA CITY an.<DONE>
+2820: {text_start}Die M.S. AQUA legt<LINE>in<PARA>ORANIA CITY an.<DONE>
+2853: {text_start}Ich wollte mein<LINE>Debut im DUELLTURM<CONT>geben…<PARA>Ich sollte nach<LINE>ORANIA CITY zu-<CONT>rückgehen und<CONT>härter trainieren…<DONE>
+2857: {text_start}Die M.S. AQUA<LINE>legt in<PARA>OLIVIANA CITY an.<DONE>
+2858: {text_start}Die M.S. AQUA legt<LINE>in<PARA>ORANIA CITY an.<DONE>
+2860: {text_start}Hat dir die Fahrt<LINE>mit der M.S. AQUA<CONT>gefallen?<PARA>Sie gleitet<LINE>regelrecht über<CONT>die Wellen.<DONE>
+2891: {text_start}Die M.S. AQUA legt<LINE>in<PARA>ORANIA CITY an.<DONE>
+2908: {text_start}Wir bringen unsere<LINE>Passagiere von<PARA>ORANIA CITY nach<LINE>OLIVIANA CITY.<DONE>
+2927: {text_start}Die M.S. AQUA<LINE>fährt immer<PARA>montags und<LINE>freitags nach<PARA>KANTO.<DONE>
+2996: {text_start}LIND: Wie?!?<PARA>PROF. EICH hat dir<LINE>einen #DEX<CONT>gegeben?<PARA><PLAY_G>, ist das<LINE>wahr? D-Das ist ja<CONT>unglaublich!<PARA>Kein anderer ist<LINE>wie er in der<PARA>Lage, das 
+3054: {text_start}PROF. EICHs #-<LINE>MON-TALK! Schalten<CONT>Sie auch das<CONT>nächste Mal wieder<CONT>ein!<DONE>
+3074: {text_start}#MON LIGA<PARA>SIEGESSTRASSE<LINE>EINGANG<DONE>
+3605: {text_start}VERTANIA CITY ist<LINE>dem INDIGO PLATEAU<CONT>am nächsten.<PARA>Man hat diesen Ort<LINE>erbaut, weil ihn<PARA>so viele Trainer<LINE>auf ihrem Weg zum<PARA>INDIGO PLATEAU <LINE>passieren.<
+3628: {text_start}Bist du <PLAY_G>?<PARA>Ich bin der<LINE>ASSISTENT von<CONT>PROF. EICH.<PARA>Ich wusste nicht,<LINE>dass du hier<CONT>bist.<PARA>PROF. EICHs LABOR<LINE>ist gleich hier<CONT>in ALABASTIA.<DO
+3632: {text_start}Dieser Weg führt<LINE>zum SILBERBERG.<PARA>Dir werden be-<LINE>ängstigend starke<CONT>#MON begegnen.<DONE>
+3633: {text_start}Du bist auf dem<LINE>Weg zur #MON<CONT>LIGA, nicht wahr?<PARA>Die TOP VIER sind<LINE>so stark, dass es<PARA>einem Angst macht.<LINE>Sie erwarten dich!<DONE>
+3804: {text_start}Gestern hat PROF.<LINE>EICH seine Show<PARA>im Studio aufge-<LINE>zeichnet.<PARA>Ich ging zu ihm<LINE>und stellte mich<CONT>vor.<PARA>Stell dir vor, er<LINE>hört sich meine<CONT>Show an!<P
+3865: {text_start}Oh? Ist dieses Ge-<LINE>rät ein #DEX?<CONT>Hast du PROF. EICH<CONT>kennengelernt?<PARA>Was? Wirklich? <LINE>Das ist großartig!<PARA>Ich träume davon,<LINE>ein #MON-<PARA>Forscher wie PROF.
+3866: {text_start}Gibst du mir bitte<LINE>deine Nummer?<PARA>Wir können über<LINE>PROF. EICH reden.<PARA>Das macht sicher<LINE>eine Menge Spaß!<DONE>
+5496: {text_start}In der #MON<LINE>LIGA stellen dich<PARA>die TOP VIER auf<LINE>eine harte Probe.<PARA>Du musst sie alle<LINE>schlagen. Wenn du<PARA>verlierst, musst<LINE>du ganz von vorne<CONT>anfangen!<DO
+5501: {text_start}Ah! Du forderst<LINE>also die TOP VIER<PARA>heraus? Bist du<LINE>wirklich bereit?<PARA>Wenn du mehr<LINE>trainieren willst,<PARA>kann dir mein<LINE>ABRA helfen.<PARA>Es kann dich<LINE>nach
+5505: {text_start}Willkommen in der<LINE>#MON LIGA,<CONT><PLAYER>.<PARA>Erlaube mir, mich<LINE>vorzustellen. Ich<CONT>bin WILLI.<PARA>Ich habe die ganze<LINE>Welt bereist, um<PARA>meine Psycho-#-<LINE>MON z
+5507: {text_start}Auch wenn ich<LINE>besiegt wurde,<CONT>werde ich an<CONT>meiner Überzeugung<CONT>festhalten.<PARA>Ich werde weiter<LINE>kämpfen, bis ich<PARA>besser bin, als<LINE>alle anderen<CONT>Trainer
+5511: {text_start}Ich bin BRUNO.<LINE>Ein weiteres<CONT>Mitglied der<CONT>TOP VIER.<PARA>Ich trainiere, bis<LINE>ich erschöpft bin,<CONT>da ich an mein<CONT>Potential glaube.<PARA>Auf diese Art bin<LINE>ich
+5514: {text_start}Ich bin MELANIE.<LINE>Nummer 4 der<CONT>TOP VIER.<PARA>Du heißt <PLAYER>?<LINE>Sehr amüsant.<PARA>Ich liebe #MON<LINE>des Typs Unlicht.<PARA>Ihr wilder, harter<LINE>Ruf gefällt mir.<PARA>U
+5520: {text_start}MARGIT: Oh, nein!<LINE>Alles ist vorbei!<PARA>PROF. EICH, wenn<LINE>du nicht so lang-<CONT>sam wärest…<DONE>
+5521: {text_start}PROF. EICH: Ah,<LINE><PLAY_G>!<PARA>Es ist schon<LINE>lange her.<PARA>Du siehst<LINE>erhabener aus.<PARA>Dein Sieg in der<LINE>LIGA ist einfach<CONT>fantastisch!<PARA>Deine Hingabe, das<LI
+5801: {text_start}SABRINA: Ich<LINE>wusste, dass du<CONT>kommen würdest…<PARA>Vor drei Jahren<LINE>sah ich dich in<CONT>einer Vision.<PARA>Du willst meinen<LINE>ORDEN haben.<PARA>Ich habe keine<LINE>Freude 
+5802: {text_start}SABRINA: Deine<LINE>Stärke…<PARA>übertrifft meine<LINE>Vorahnungen bei<CONT>weitem…<PARA>Vielleicht ist es<LINE>nicht möglich,<PARA>alles vorherzu-<LINE>sagen, was die<CONT>Zukunft bringt…
+5804: {text_start}SABRINA: Der<LINE>SUMPFORDEN<PARA>aktiviert deine<LINE>unterbewussten<CONT>Kräfte…<PARA>Obwohl ich nicht<LINE>in der Lage war,<CONT>deine Stärke<CONT>vorauszusehen,<CONT>weiß ich das ganz<
+5805: {text_start}SABRINA: Deine Zu-<LINE>neigung zu deinen<PARA>#MON hat meine<LINE>Psychostärke<CONT>übertroffen…<PARA>Die Kraft der<LINE>Liebe ist meiner<PARA>Ansicht nach auch<LINE>eine Art von<CONT>Psy
+5848: {text_start}<PLAYER>: Hi!<LINE>Ich habe gehört,<PARA>dass du deine<LINE>Lieblings-<CONT>#PUPPE<CONT>verloren hast.<PARA><PLAYER>: Gibst du<LINE>mir einen FAHR-<CONT>SCHEIN, wenn ich<CONT>sie finde?<PA
+5856: {text_start}<PLAYER>: Hi.<LINE>Hast du wirklich<CONT>deine #PUPPE<CONT>verloren?<PARA><PLAYER>: Du<LINE>gibst mir wirklich<PARA>einen FAHRSCHEIN,<LINE>falls ich sie<CONT>finde?<PARA><PLAYER>: Gewiss,<
+6175: {text_start}Einer der TOP VIER<LINE>war früher einmal<PARA>der ARENALEITER in<LINE>FUCHSANIA CITY.<DONE>
+6184: {text_start}Ich bin SANDRA.<PARA>Der beste Drachen-<LINE>meister der Welt.<PARA>Ich bestehe sogar<LINE>gegen die TOP VIER<CONT>der #MON LIGA.<PARA>Willst du immer<LINE>noch gegen mich<CONT>antreten?<P
+6240: {text_start}He! Du hast einen<LINE>völlig neuen<CONT>#DEX!<PARA>Hat PROF. EICH<LINE>dir den gegeben?<DONE>
+6267: {text_start}Sogar PROF. EICH<LINE>schätzt ihn sehr.<DONE>
+6272: {text_start}EICH: Aha! Du bist<LINE>also <PLAY_G>!<PARA>Mein Name<LINE>ist PROF. EICH!<CONT>Ich bin von Beruf<CONT>#MON-Forscher.<PARA>Ich besuche gerade<LINE>meinen alten<CONT>Freund MR. #-<CONT>MON.
+6275: {text_start}Hm? Diese HAUT!<LINE>Was ist das?<CONT>Ein rotes<CONT>GARADOS?<PARA>Das ist selten!<LINE>Ich muss es haben…<PARA><PLAY_G>, möchtest<LINE>du es tauschen?<PARA>Ich kann dir den<LINE>EP-TEILE
+6353: {text_start}In VERTANIA CITY<LINE>gibt es ein HAUS<PARA>für TRAINER. Dort<LINE>treffen sich<PARA>Trainer der ganzen<LINE>Welt.<DONE>
+6418: {text_start}SARAH: Hi! Mein<LINE>kleiner Bruder ist<PARA>ARENALEITER in<LINE>VERTANIA CITY.<PARA>Aber er verlässt<LINE>die Stadt so oft,<PARA>dass die Trainer<LINE>Schwierigkeiten<CONT>bekommen.<DONE>
+6430: {text_start}EICH: Wow! Das ist<LINE>hervorragend!<PARA>Du hast die ORDEN<LINE>der ARENALEITER in<CONT>KANTO erkämpft.<CONT>Gut gemacht!<PARA>Ich habe dich<LINE>richtig<CONT>eingeschätzt.<PARA>Weißt du
+6433: {text_start}PROF. EICHs #-<LINE>MON-TALK wird in<PARA>KANTO nicht im<LINE>Radio gesendet.<PARA>Das ist schade.<LINE>Ich würde es gerne<CONT>hören.<DONE>
+6435: {text_start}Erzähl es keinem,<LINE>aber PROF. EICHs<PARA>#MON-TALK wird<LINE>nicht live<CONT>gesendet.<DONE>
+6439: {text_start}Auf dem PC ist<LINE>eine E-Mail.<PARA>…<PARA>Wie kommen Sie<LINE>mit Ihren<CONT>Forschungen voran,<CONT>PROF. EICH?<PARA>Nun, ich ackere<LINE>weiter.<PARA>Ich habe Gerüchte<LINE>gehört, da
+6732: {text_start}<PLAYER> erhält<LINE>FELSORDEN.<DONE>
+6733: {text_start}ROCKO: Danke,<LINE><PLAY_G>. Es war<PARA>eine Freude, gegen<LINE>dich zu kämpfen.<PARA>Auch wenn ich ein<LINE>bisschen beleidigt<CONT>bin.<PARA>Dieser FELSORDEN<LINE>wird deine #-<CONT>MON
+6783: {text_start}Es ist sehr<LINE>schwer, in der<CONT>LIGA zu gewinnen.<PARA>Ich muss mehr<LINE>trainieren.<PARA>Ich habe gehört,<LINE>dass die TOP VIER<PARA>aus der LIGA noch<LINE>stärker sind als<CONT>di
+6786: {text_start}Um zur #MON<LINE>LIGA zu gelangen,<PARA>musst du die<LINE>SIEGESSTRASSE<CONT>passieren.<PARA>Die SIEGESSTRASSE<LINE>ist schwierig.<PARA>Eigentlich geht<LINE>niemand dorthin!<DONE>
+6799: {text_start}ROUTE 26<PARA>#MON LIGA<LINE>EMPFANG<DONE>
+6800: {text_start}ROUTE 28<DONE>
+6991: {text_start}VERTANIA CITY<PARA>Das Immergrüne<LINE>Paradies<DONE>
+6992: {text_start}PKMN-ARENA von<LINE>VERTANIA CITY<CONT>LEITUNG: …<PARA>Der Rest des Tex-<LINE>tes ist unlesbar…<DONE>
+6993: {text_start}Willkommen in<LINE>VERTANIA CITY,<PARA>dem Tor zum<LINE>INDIGO PLATEAU<DONE>
+7030: {text_start}Der HAFEN von<LINE>ORANIA CITY ist<CONT>das Tor KANTOs<CONT>zum Meer.<PARA>Hier legen Luxus-<LINE>dampfer aus aller<CONT>Welt an.<DONE>
+7034: {text_start}Es gibt acht<LINE>ARENEN in KANTO.<PARA>Das große Gebäude<LINE>ist die PKMN-ARENA<CONT>von ORANIA CITY.<DONE>
+7042: {text_start}ORANIA CITY<PARA>Der Hafen Der<LINE>Stimmungsvollen<CONT>Sonnenuntergänge<DONE>
+7043: {text_start}PKMN-ARENA von<LINE>ORANIA CITY<PARA>LEITUNG: MAJOR BOB<LINE>Der Blitzschnelle<PARA>Amerikaner<DONE>
+7046: {text_start}EINGANG zum HAFEN<LINE>von ORANIA CITY<DONE>
+7059: {text_start}Wenn sie kommt,<LINE>kommt sie vom<CONT>SILBERBERG…<PARA>Der SILBERBERG ist<LINE>in JOHTO, oder?<DONE>
+7092: {text_start}ROUTE 2<PARA>VERTANIA CITY -<LINE>MARMORIA CITY<DONE>
+7100: {text_start}ROUTE 1<PARA>ALABASTIA -<LINE>VERTANIA CITY<DONE>
+7105: {text_start}PROF. EICH<LINE>#MON LABOR<DONE>
+7116: {text_start}Wer bist du?<PARA>Na, du bist<LINE>augenscheinlich<CONT>ein Trainer…<PARA>Ich heiße BLAU.<PARA>Ich war einmal ein<LINE>CHAMP, wenn auch<PARA>nur für kurze<LINE>Zeit…<PARA>Dieser nervige RO
+7169: {text_start}TUNNELPFAD<PARA>AZURIA CITY -<LINE>ORANIA CITY<DONE>
+7177: {text_start}TUNNELPFAD<PARA>AZURIA CITY -<LINE>ORANIA CITY<DONE>
+7213: {text_start}INDIGO PLATEAU<PARA>Das Ultimative<LINE>Ziel Aller<CONT>Trainer!<PARA>HAUPTQUARTIER der<LINE>#MON LIGA<DONE>
+7346: {text_start}SILBERBERG<DONE>
+7796: {text_start}<LINE>MARGIT:<DONE>{text_start}<LINE>PROF. EICHs<DONE>
+8207: {text_start}Die Verbindung zu<LINE>PROF. EICHs PC<CONT>wurde hergestellt.<PARA>Du hast Zugriff<LINE>auf die #DEX-<CONT>BEWERTUNG.<PROMPT>
+8211: {text_start}Ges.: @{text_ram wStringBuffer3}{text_start} #MON<LINE>Bes.: @{text_ram wStringBuffer4}{text_start} #MON<PARA>PROF. EICHs<LINE>Bewertung:<DONE>
+8231: {text_start}Die Verbindung zu<LINE>PROF. EICHs PC<CONT>wurde getrennt.<DONE>
+8805: Ein Ticket für die<NEXT>M.S. AQUA.@
+9218: ORANIA CITY@
+9254: ROUTE 22@
+9258: ROUTE 26@
+9259: ROUTE 27@
+9260: ROUTE 28@

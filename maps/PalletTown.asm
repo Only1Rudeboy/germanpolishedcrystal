@@ -28,25 +28,25 @@ PalletTownFlyPoint:
 	endcallback
 
 PalletTownTeacherText:
+	; GSC-DE Dump 7101
 	text "Ich trainiere auch"
-	line "#mon. Sie"
+	line "#MON. Sie"
 	para "dienen mir als"
 	line "Leibwächter."
 	done
 
-
 PalletTownFisherText:
+	; GSC-DE Dump 7102
 	text "Die Technik ist"
 	line "unglaublich!"
-
 	para "Du kannst jetzt"
-	line "#mon durch die"
+	line "#MON durch die"
 	cont "Zeit senden, wie"
 	cont "E-Mails."
 	done
 
-
 PalletTownYoungsterText:
+	; PC-only (kein Dump-Anker)
 	text "Bis dann, Alter!"
 	para "… So redet man"
 	line "hier plötzlich,"
@@ -56,27 +56,25 @@ PalletTownYoungsterText:
 	done
 
 PalletTownSignText:
+	; GSC-DE Dump 7103
 	text "ALABASTIA"
-
 	para "Eine Stätte des"
 	line "Friedens und der"
 	cont "Reinheit"
 	done
 
-
 RedsHouseSignText:
+	; GSC-DE Dump 7104
 	text "HAUS von ROT"
 	done
 
-
 OaksLabSignText:
+	; GSC-DE Dump 7105
 	text "PROF. EICH"
-	line "#mon LABOR"
+	line "#MON LABOR"
 	done
-
 
 BluesHouseSignText:
+	; GSC-DE Dump 7106
 	text "HAUS von BLAU"
 	done
-
-

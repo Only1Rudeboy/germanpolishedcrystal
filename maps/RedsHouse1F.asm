@@ -22,22 +22,25 @@ RedsMom:
 	setevent EVENT_MET_REDS_MOM
 	jumpthistextfaceplayer
 
-	text "Hallo!"
-	para "ROT ist schon so"
-	line "lange weg."
+	; GSC-DE Dump 6413
+	text "Hi!"
+	para "ROT ist schon seit"
+	line "langem fort."
 	para "Er hat sich auch"
-	line "nicht gemeldet,"
-	para "also weiß ich"
-	line "nicht, wo er ist"
-	cont "oder was er macht."
-	para "Man sagt, keine"
-	line "Nachricht sei"
-	para "eine gute"
-	line "Nachricht, aber"
+	line "nicht gemeldet."
+	para "Ich habe keine"
+	line "Ahnung, wo er ist"
+	cont "oder was er tut."
+	para "Wenn man nichts"
+	line "hört, soll das ja"
+	para "heißen, dass es"
+	line "ihm gut geht. Aber"
 	cont "ich mache mir"
 	cont "Sorgen um ihn."
 	done
+
 .Text2:
+	; GSC-DE Dump 6414
 	text "Ich habe Angst,"
 	line "dass sich ROT"
 	para "verletzt oder"
@@ -47,11 +50,13 @@ RedsMom:
 	para "dass er macht, was"
 	line "ihm gefällt."
 	done
+
 RedsHouse1FTVScript:
 	jumpthistext
 
+	; GSC-DE Dump 6415
 	text "Sie haben"
 	line "Programme, die man"
 	cont "in JOHTO nicht"
-	cont "empfängt …"
+	cont "empfängt…"
 	done

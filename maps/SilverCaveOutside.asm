@@ -25,6 +25,7 @@ SilverCaveOutsideFlyPoint:
 	endcallback
 
 MtSilverSignText:
+	; GSC-DE Dump 7346
 	text "SILBERBERG"
 	done
 

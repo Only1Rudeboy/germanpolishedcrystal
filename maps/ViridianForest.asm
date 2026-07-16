@@ -89,7 +89,6 @@ GenericTrainerBug_maniacAbner:
 BugManiacDaneSeenText:
 	text "Willkommen im"
 	line "VERTANIA-WALD."
-
 	para "Genieß meine"
 	line "Käfer-#mon."
 	done
@@ -151,18 +150,16 @@ BugManiacAbnerBeatenText:
 	done
 
 ViridianForestSignText1:
+	; PC (Wald nicht in GSC-DE) + CAPS
 	text "VERTANIA-WALD"
-
 	para "Richtung MARMORIA"
 	line "CITY"
 	done
 
 ViridianForestSignText2:
 	text "TIPPS für TRAINER"
-
 	para "Behalte den"
 	line "Riesenpilz!"
-
 	para "Maniacs zahlen"
 	line "viel Geld für"
 	cont "nutzlose Items!"
@@ -170,23 +167,20 @@ ViridianForestSignText2:
 
 ViridianForestSignText3:
 	text "TIPPS für TRAINER"
-
 	para "Pflanzen-#mon"
 	line "sind immun gegen"
-
-	para "Pulver-und"
+	para "Pulver- und"
 	line "Sporen-Attacken!"
 	done
 
 ViridianForestSignText4:
 	text "Bei Gift hilft"
 	line "GEGENGIFT! Im"
-	cont "#-MARKT!"
+	cont "#mon-MARKT!"
 	done
 
 ViridianForestSignText5:
 	text "TIPPS für TRAINER"
-
 	para "Gift-#mon"
 	line "können nicht"
 	cont "vergiftet werden!"
@@ -194,10 +188,8 @@ ViridianForestSignText5:
 
 ViridianForestSignText6:
 	text "TIPPS für TRAINER"
-
 	para "Schwäche #mon"
 	line "vor dem Fangen!"
-
 	para "Gesunde #mon"
 	line "entkommen"
 	cont "leichter!"

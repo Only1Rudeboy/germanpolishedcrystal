@@ -20,8 +20,9 @@ PokemonJournalProfOakScript:
 	setflag ENGINE_READ_PROF_OAK_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
-	para "Spezial: #mon"
+	; PC-only Journal
+	text "#MON-Journal"
+	para "Spezial: #MON"
 	line "PROF. EICH!"
 	para "Samuel Eichs"
 	line "Enkelkinder BLAU"
@@ -30,13 +31,14 @@ PokemonJournalProfOakScript:
 	line "seines Labs in"
 	cont "ALABASTIA."
 	para "Sein Cousin Samson"
-	line "soll in"
+	line "soll in der"
 	para "weit entfernten"
 	line "Alola-Region"
 	cont "leben."
 	done
 
 RedsHouse2FPCText:
+	; GSC-DE Dump 6417
 	text "Es sieht aus, als"
 	line "wäre er seit"
 	cont "langer Zeit nicht"
@@ -44,10 +46,12 @@ RedsHouse2FPCText:
 	cont "worden…"
 	done
 
-
 RedsHouse2FSNESText:
-	text "<PLAYER> spielte am"
+	; GSC-DE Dump 6416 (N64→SNES PC)
+	text "<PLAYER> spielt"
 	line "SNES."
-	para "Los, los, keine"
-	line "Zeit zu verlieren!"
+	para "Mach besser"
+	line "weiter - du hast"
+	cont "keine Zeit zu"
+	cont "verlieren!"
 	done

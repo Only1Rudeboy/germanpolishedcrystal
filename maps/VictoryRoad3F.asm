@@ -19,14 +19,16 @@ VictoryRoad3F_MapScriptHeader:
 GenericTrainerVeteranmRemy:
 	generictrainer VETERANM, REMY, EVENT_BEAT_VETERANM_REMY, VeteranmRemySeenText, VeteranmRemyBeatenText
 
+	; PC-only (C)
 	text "In Sachen"
-	line "#mon-Wissen"
+	line "#MON-Wissen"
 
 	para "kann ich dich"
 	line "schlagen!"
 	done
 
 VeteranmRemySeenText:
+	; PC-only (C) CAPS
 	text "Wenn du hier"
 	line "durchkommst,"
 
@@ -36,6 +38,7 @@ VeteranmRemySeenText:
 	done
 
 VeteranmRemyBeatenText:
+	; PC-only (C)
 	text "Nein!"
 	line "Unvorstellbar!"
 	done

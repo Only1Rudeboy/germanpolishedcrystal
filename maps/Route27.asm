@@ -113,25 +113,32 @@ Route27VeteranfScript:
 	jumpthisopenedtext
 
 .AfterText2:
+	; PC-only (C) CAPS
 	text "Viel Glück! Grüß"
 	line "SIEGFRIED von mir."
 	done
 
 .IntroText:
+	; PC-only (C) CAPS
 	text "Hm! Wenn du hier"
 	line "bist, musst du"
-	para "zur #mon Liga"
+
+	para "zur #MON LIGA"
 	line "unterwegs sein."
+
 	para "Willst du mit mir"
 	line "trainieren?"
+
 	para "Dann besieg alle"
-	line "anderen auf Route"
+	line "anderen auf ROUTE"
 	cont "26 und 27."
+
 	para "Ich warte hier auf"
 	line "dich."
 	done
 
 .QuestionText:
+	; PC-only (C)
 	text "Hm. Du warst"
 	line "schneller als"
 
@@ -140,12 +147,14 @@ Route27VeteranfScript:
 	done
 
 .RefusedText:
+	; PC-only (C)
 	text "Schon gut. Ich"
 	line "kann warten."
 	done
 
 .SeenText:
-	text "Meine #mon"
+	; PC-only (C)
+	text "Meine #MON"
 	line "tragen alle"
 	cont "Wahlbrillen."
 
@@ -155,17 +164,19 @@ Route27VeteranfScript:
 	done
 
 .BeatenText:
+	; PC-only (C) CAPS
 	text "Du bist bereit für"
-	line "die #mon Liga,"
+	line "die #MON LIGA,"
 	cont "da bin ich sicher!"
 	done
 
 .AfterText1:
+	; PC-only (C)
 	text "Wahlbrillen"
 	line "erhöhen den"
 	cont "Spezial-Angriff"
 
-	para "eines #mon,"
+	para "eines #MON,"
 	line "aber es kann nur"
 	cont "eine Attacke"
 	cont "einsetzen."
@@ -177,10 +188,11 @@ Route27VeteranfScript:
 GenericTrainerPsychicGilbert:
 	generictrainer PSYCHIC_T, GILBERT, EVENT_BEAT_PSYCHIC_GILBERT, PsychicGilbertSeenText, PsychicGilbertBeatenText
 
+	; GSC-DE Dump 6648
 	text "Deine Fähigkeiten"
 	line "versprechen gute"
 	cont "Ergebnisse in der"
-	cont "#mon LIGA."
+	cont "#MON LIGA."
 
 	para "Ich spüre das."
 	done
@@ -291,12 +303,14 @@ Bird_keeperJose1Script:
 GenericTrainerCooltrainermBlake:
 	generictrainer COOLTRAINERM, BLAKE, EVENT_BEAT_COOLTRAINERM_BLAKE, CooltrainermBlakeSeenText, CooltrainermBlakeBeatenText
 
+	; GSC-DE Dump 6636
 	text "Wenn du das hier"
-	line "erfolgreich"
-	cont "überstehst, wirst"
-	cont "du"
+	line "erfolgreich über-"
+	cont "stehst, wirst du"
+
 	para "die Wahrheit"
 	line "erkennen!"
+
 	para "Entschuldigung,"
 	line "ich wollte nur"
 	cont "etwas Geistreiches"
@@ -306,16 +320,17 @@ GenericTrainerCooltrainermBlake:
 GenericTrainerAceDuoJakeandbri1:
 	generictrainer ACE_DUO, JAKEANDBRI1, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri1SeenText, AceDuoJakeandbri1BeatenText
 
+	; GSC-DE Dump 6639 (PC duo prefix)
 	text "Jake: Ein guter"
 	line "Trainer erkennt"
-
-	para "andere gute"
-	line "Trainer."
+	cont "andere gute"
+	cont "Trainer."
 	done
 
 GenericTrainerAceDuoJakeandbri2:
 	generictrainer ACE_DUO, JAKEANDBRI2, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri2SeenText, AceDuoJakeandbri2BeatenText
 
+	; PC-only duo (C)
 	text "Bri: Gute Trainer"
 	line "wissen auch,"
 
@@ -411,14 +426,17 @@ CooltrainerfReena1Script:
 GenericTrainerCooltrainerfMegan:
 	generictrainer COOLTRAINERF, MEGAN, EVENT_BEAT_COOLTRAINERF_MEGAN, CooltrainerfMeganSeenText, CooltrainerfMeganBeatenText
 
-	text "Ich teste #mon"
-	line "in deren"
+	; GSC-DE Dump 6645
+	text "Ich teste"
+	line "#MON in deren"
 	cont "verschiedenen"
-	cont "Entwicklungsstufe-"
-	cont "n."
+	cont "Entwicklungs-"
+	cont "stufen."
+
 	para "Entwickelte"
-	line "#mon sind"
+	line "#MON sind"
 	cont "stärker."
+
 	para "Sie lernen die"
 	line "Attacken aber erst"
 	cont "mit höherem Level."
@@ -431,106 +449,105 @@ Route27FisherStepLeftTwiceMovement:
 	step_end
 
 Route27FisherHeyText:
+	; GSC-DE Dump 6632
 	text "Heh!"
 	done
 
-
-
-
 Route27FisherText:
+	; GSC-DE Dump 6633
 	text "Weißt du, was du"
 	line "gerade getan hast?"
+
 	para "Du hast deinen"
 	line "ersten Schritt in"
 	cont "KANTO gemacht."
+
 	para "Sieh auf die KARTE"
 	line "in deinem #COM."
 	done
 
-
-
-
 CooltrainermBlakeSeenText:
+	; GSC-DE Dump 6634
 	text "Du siehst sehr"
 	line "stark aus. Ich"
 	cont "will gegen dich"
 	cont "kämpfen!"
 	done
 
-
-
-
 CooltrainermBlakeBeatenText:
+	; GSC-DE Dump 6635
 	text "Juhu!"
 	done
 
-
-
-
 AceDuoJakeandbri1SeenText:
+	; GSC-DE Dump 6637 (PC duo prefix)
 	text "Jake: Hm? Du bist"
-	line "gut, oder?"
+	line "gut, nicht wahr?"
 	done
 
 AceDuoJakeandbri1BeatenText:
+	; GSC-DE Dump 6638 (PC duo prefix)
 	text "Jake: Wie ich"
 	line "dachte!"
 	done
 
 AceDuoJakeandbri2SeenText:
+	; PC-only duo (C)
 	text "Bri: Zu zweit sind"
 	line "wir unaufhaltbar!"
 	done
 
 AceDuoJakeandbri2BeatenText:
+	; PC-only duo (C)
 	text "Bri: Unser"
 	line "Teamwork reichte"
 	cont "nicht…"
 	done
 
 CooltrainerfReena1SeenText:
+	; GSC-DE Dump 6640
 	text "Du solltest die"
-	line "wilden #mon,"
+	line "wilden #MON,"
 
 	para "die hier leben,"
-	line "nicht"
-	cont "unterschätzen."
+	line "nicht unter-"
+	cont "schätzen."
 	done
+
 CooltrainerfReena1BeatenText:
-	text "Ach! Du bist viel"
-	line "zu stark!"
+	; GSC-DE Dump 6641
+	text "Oh! Du bist"
+	line "viel zu stark!"
 	done
+
 CooltrainerfReenaAfterBattleText:
+	; GSC-DE Dump 6642
 	text "Du bist zwar nur"
 	line "ein Kind, aber man"
+
 	para "darf dich auch"
-	line "nicht"
-	cont "unterschätzen."
+	line "nicht unter-"
+	cont "schätzen."
 	done
 
-
-
-
 CooltrainerfMeganSeenText:
+	; GSC-DE Dump 6643
 	text "Hier kommen nur"
 	line "selten Menschen"
 	cont "vorbei."
+
 	para "Trainierst du"
 	line "vollkommen allein?"
 	done
 
-
-
-
 CooltrainerfMeganBeatenText:
+	; GSC-DE Dump 6644
 	text "Oh! Du bist"
 	line "wirklich stark!"
 	done
 
-
-
-
 PsychicGilbertSeenText:
+	; GSC-DE Dump 6646
 	text "Sag nichts!"
 
 	para "Lass mich raten,"
@@ -540,46 +557,42 @@ PsychicGilbertSeenText:
 
 	para "Ich weiß! Du"
 	line "denkst darüber"
-	cont "nach, zur #mon"
+	cont "nach, zur #MON"
 	cont "LIGA zu gehen!"
 	done
 
-
-
-
 PsychicGilbertBeatenText:
+	; GSC-DE Dump 6647
 	text "Das ist zuviel!"
 	done
 
-
-
-
 Bird_keeperJose1SeenText:
+	; GSC-DE Dump 6649
 	text "Zwitscher!"
 	line "Zwitscher!"
 	done
+
 Bird_keeperJose1BeatenText:
+	; GSC-DE Dump 6650
 	text "Zwitscher!"
 	done
+
 BirdKeeperJose2AfterBattleText:
+	; GSC-DE Dump 6651
 	text "VOGELFÄNGER wie"
 	line "ich, imitieren"
+
 	para "Vogelstimmen, um"
 	line "dadurch den"
-	cont "#mon Befehle zu"
-	cont "erteilen."
+	cont "#MON Befehle"
+	cont "zu erteilen."
 	done
-
-
-
 
 TohjoFallsSignText:
+	; GSC-DE Dump 6652
 	text "TOHJO-FÄLLE"
+
 	para "Die Verbindung"
-	line "zwischen KANTO und"
-	cont "JOHTO"
+	line "zwischen"
+	cont "KANTO und JOHTO"
 	done
-
-
-
-

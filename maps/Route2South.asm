@@ -23,43 +23,46 @@ Route2South_MapScriptHeader:
 GenericTrainerBug_maniacRob:
 	generictrainer BUG_MANIAC, ROB, EVENT_BEAT_BUG_MANIAC_ROB, Bug_maniacRobSeenText, Bug_maniacRobBeatenText
 
+	; GSC-DE Dump 7085
 	text "Ich werde mir"
-	line "stärkere"
-	cont "Käfer-#mon"
-	cont "suchen."
+	line "stärkere Käfer-"
+	cont "#mon suchen."
 	done
 GenericTrainerBug_maniacDoug:
 	generictrainer BUG_MANIAC, DOUG, EVENT_BEAT_BUG_MANIAC_DOUG, Bug_maniacDougSeenText, Bug_maniacDougBeatenText
 
+	; GSC-DE Dump 7091
 	text "Käfer-#mon"
 	line "zischen wie"
-
 	para "Plüschtiere, wenn"
 	line "du sie auf den"
 	cont "Bauch drückst."
-
 	para "Ich mag das"
 	line "Gefühl!"
 	done
 Bug_maniacRobSeenText:
-	text "Meine"
-	line "Käfer-#-MON"
-	cont "sind zäh. Du wirst"
-	cont "verlieren!"
+	; GSC-DE Dump 7083
+	text "Meine Käfer-#mon"
+	line "sind zäh. Du"
+	cont "wirst verlieren!"
 	done
 Bug_maniacRobBeatenText:
+	; GSC-DE Dump 7084
 	text "Ich wurde"
 	line "vermöbelt…"
 	done
 Bug_maniacDougSeenText:
+	; GSC-DE Dump 7089
 	text "Warum mögen"
 	line "Mädchen keine"
 	cont "Käfer-#mon?"
 	done
 Bug_maniacDougBeatenText:
+	; GSC-DE Dump 7090
 	text "Sinnlos!"
 	done
 Route2SignText:
+	; GSC-DE Dump 7092
 	text "ROUTE 2"
 	para "VERTANIA CITY -"
 	line "MARMORIA CITY"

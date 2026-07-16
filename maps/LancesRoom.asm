@@ -154,32 +154,35 @@ LanceScript:
 	end
 
 .SeenText:
+	; GSC-DE Dump 5517
 	text "SIEGFRIED: Ich"
 	line "habe dich"
 	cont "erwartet."
 	para "<PLAYER>!"
 	para "Ich wusste, dass"
 	line "du mir aufgrund"
-	cont "deiner Fähigkeiten"
-	cont "eines Tages"
+	para "deiner Fähigkeiten"
+	line "eines Tages"
 	cont "gegenüberstehen"
 	cont "würdest."
 	para "Worte sind hier"
-	line "fehl am Platz."
-	para "Ein Kampf zeigt,"
-	line "wer der Stärkere"
-	cont "von uns ist."
+	line "fehl am Platze."
+	para "Ein Kampf wird"
+	line "zeigen, wer"
+	para "der Stärkere von"
+	line "uns beiden ist."
 	para "Ich, der beste"
 	line "aller Trainer und"
-	cont "CHAMP der"
-	cont "#mon-Liga…"
-	para "Ich, SIEGFRIED der"
-	line "Drachenmeister,"
-	cont "nehme deine"
-	cont "Herausforderung"
-	cont "an!"
+	para "CHAMP der"
+	line "#MON LIGA…"
+	para "Ich, SIEGFRIED"
+	line "der Drachenmeis-"
+	cont "ter, nehme deine"
+	para "Herausforderung"
+	line "an!"
 	done
 .BeatenText:
+	; GSC-DE Dump 5518
 	text "Das ist ein"
 	line "seltsames Gefühl."
 	para "Ich bin nicht"
@@ -188,24 +191,28 @@ LanceScript:
 	cont "bin glücklich."
 	para "Glücklich, dass"
 	line "ich den Aufstieg"
-	cont "eines neuen CHAMPs"
-	cont "miterleben durfte."
+	para "eines neuen"
+	line "CHAMPs miterleben"
+	cont "durfte."
 	done
 .AfterText:
+	; GSC-DE Dump 5519
 	text "…Woa."
-	para "Du bist sehr stark"
-	line "geworden, <PLAYER>."
-	para "Deine #mon"
+	para "Du bist sehr"
+	line "stark geworden,"
+	cont "<PLAYER>."
+	para "Deine #MON"
 	line "haben deine starke"
-	cont "und aufrechte"
-	cont "Persönlichkeit"
+	para "und aufrechte"
+	line "Persönlichkeit"
 	cont "akzeptiert."
 	para "Auch du wirst"
 	line "zusammen mit"
-	cont "deinen #mon"
-	cont "stärker werden."
+	para "deinen #MON"
+	line "stärker werden."
 	done
 .SeenRematchText:
+	; PC-only DE
 	text "SIEGFRIED: Worte"
 	line "sind jetzt"
 	cont "überflüssig."
@@ -219,28 +226,31 @@ LanceScript:
 	cont "an!"
 	done
 .AfterRematchText:
+	; PC-only DE
 	text "Genau wie ich es"
 	line "erwartet habe."
 	para "Du und deine"
-	line "#mon seid ein"
+	line "#MON seid ein"
 	cont "tolles Team."
 	para "Als Trainer wirst"
 	line "du mit deinen"
-	cont "#mon noch"
+	cont "#MON noch"
 	cont "stärker werden."
 	done
 .MaryText1:
-	text "MARGIT: Ach nein!"
+	; GSC-DE Dump 5520
+	text "MARGIT: Oh, nein!"
 	line "Alles ist vorbei!"
 	para "PROF. EICH, wenn"
-	line "du nicht so"
-	cont "langsam wärest…"
+	line "du nicht so lang-"
+	cont "sam wärest…"
 	done
 .OakSpeechText:
+	; GSC-DE Dump 5521
 	text "PROF. EICH: Ah,"
 	line "<PLAYER>!"
-	para "Es ist schon lange"
-	line "her."
+	para "Es ist schon"
+	line "lange her."
 	para "Du siehst"
 	line "erhabener aus."
 	para "Dein Sieg in der"
@@ -248,19 +258,21 @@ LanceScript:
 	cont "fantastisch!"
 	para "Deine Hingabe, das"
 	line "Vertrauen und die"
-	cont "Liebe zu deinen"
-	cont "#mon haben dir"
-	cont "dies ermöglicht."
-	para "Auch deine #mon"
-	line "waren super."
+	para "Liebe zu deinen"
+	line "#MON haben"
+	cont "dir dies er-"
+	cont "möglicht."
+	para "Auch deine #-"
+	line "MON waren super."
 	para "Ihr Glaube an dich"
 	line "hat sie all das"
-	cont "durchstehen"
-	cont "lassen."
+	para "durchstehen"
+	line "lassen."
 	para "Glückwunsch,"
 	line "<PLAYER>!"
 	done
 .OakRematchSpeechText:
+	; PC-only DE
 	text "PROF. EICH: Ah,"
 	line "<PLAYER>!"
 	para "Dein Rückkampf in"
@@ -268,7 +280,7 @@ LanceScript:
 	cont "einfach"
 	cont "fantastisch!"
 	para "Mir ist klar, dass"
-	line "du #mon tief"
+	line "du #MON tief"
 	cont "verstehst, ihnen"
 	cont "vertraust und sie"
 	cont "liebst."
@@ -280,28 +292,32 @@ LanceScript:
 	line "bereit für den"
 	cont "SILBERBERG - dort"
 	cont "warten mächtige"
-	cont "#mon."
+	cont "#MON."
 	para "Aber sei"
 	line "vorsichtig."
 	cont "Glückwunsch"
 	cont "nochmals!"
 	done
 .MaryText2:
-	text "MARGIT: Wir sind"
-	line "zu spät…"
-	para "Aber was für ein"
-	line "unglaublicher"
-	cont "Kampf!"
+	; GSC-DE Dump 5522
+	text "MARGIT: Ein"
+	line "Interview mit dem"
+	cont "neuen CHAMP!"
 	done
 .LanceLeavingText:
-	text "SIEGFRIED: Komm"
-	line "mit. Die"
-	cont "RUHMESHALLE"
-	cont "wartet."
+	; GSC-DE Dump 5523
+	text "SIEGFRIED: Das"
+	line "wird mir alles"
+	cont "ein wenig zu laut…"
+	para "<PLAYER>, kommst"
+	line "du mit mir?"
 	done
 .MaryText3:
-	text "MARGIT: Wartet!"
-	line "Ich will auch mit!"
+	; GSC-DE Dump 5524
+	text "MARGIT: Moment!"
+	line "Wir haben das"
+	cont "Interview fast"
+	cont "vergessen!"
 	done
 .RushInMovement:
 	run_step_up

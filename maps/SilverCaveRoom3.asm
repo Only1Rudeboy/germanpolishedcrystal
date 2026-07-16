@@ -66,11 +66,12 @@ Red:
 	playmapmusic
 	end
 
-.Text1: ; text > text
-	text "…… …… ……"
+.Text1: ; GSC-DE Dump (ROT silent)
+	text "……"
+	line "……"
 	done
 
-.Text2: ; text > text
+.Text2: ; GSC-DE Dump (ROT silent)
 
 	text "…"
 	done

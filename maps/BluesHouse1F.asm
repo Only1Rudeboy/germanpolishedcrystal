@@ -23,14 +23,16 @@ DaisyScript:
 	iftrue .After
 	jumpthistextfaceplayer
 
-	text "Daisy: Hallo! Mein"
+	; GSC-DE Dump 6418
+	text "SARAH: Hi! Mein"
 	line "kleiner Bruder ist"
-	cont "der Arenaleiter"
-	para "in Vertania City."
-	para "Aber er ist so oft"
-	line "weg, das macht den"
-	cont "Trainern"
-	para "Probleme."
+	para "ARENALEITER in"
+	line "VERTANIA CITY."
+	para "Aber er verlässt"
+	line "die Stadt so oft,"
+	para "dass die Trainer"
+	line "Schwierigkeiten"
+	cont "bekommen."
 	done
 
 .Massage:
@@ -61,69 +63,84 @@ DaisyScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Daisy: So, fertig!"
-	para "Sieht's nicht toll"
-	line "aus?"
-	para "So ein süßes"
+	; GSC-DE Dump 6423
+	text "SARAH: Hier bitte."
+	line "Schon fertig."
+	para "Siehst du? Ist es"
+	line "jetzt nicht"
+	cont "wunderschön?"
+	para "Es ist so ein"
+	line "süßes #MON."
 	done
 
 .IntroText:
-	text "Daisy: Hallo! Gute"
-	line "Zeit. Ich trink"
-	cont "gerade Tee."
-
-	para "Möchtest du"
-	line "mitmachen?"
-
-	para "Oh, deine #mon"
-	line "sind etwas"
-	cont "schmutzig."
-
-	para "Soll ich eins"
-	line "pflegen?"
+	; GSC-DE Dump 6419
+	text "SARAH: Hi! Gutes"
+	line "Timing. Ich war"
+	cont "gerade dabei, Tee"
+	cont "zu machen."
+	para "Hättest du auch"
+	line "gern eine"
+	cont "Tasse Tee?"
+	para "Oh, deine #MON"
+	line "sehen ein bisschen"
+	cont "mitgenommen aus."
+	para "Möchtest du, dass"
+	line "ich eines für dich"
+	cont "verschönere?"
 	done
 
 .After:
 	jumpthistextfaceplayer
 
-	text "Daisy: Um diese"
-	line "Zeit trink ich"
-	cont "immer Tee."
-
-	para "Komm mit."
+	; GSC-DE Dump 6424
+	text "SARAH: Um diese"
+	line "Zeit trinke ich"
+	para "immer meinen Tee."
+	line "Möchtest du auch"
+	cont "eine Tasse Tee?"
 	done
 
 .NoMassage:
 	jumpthistext
 
-	text "Daisy: Willst du"
-	line "keins pflegen"
-	cont "lassen? Okay,"
-
-	para "dann trinken wir"
-	line "nur Tee."
+	; GSC-DE Dump 6425
+	text "SARAH: Möchtest du"
+	line "keines deiner"
+	para "#MON ver-"
+	line "schönern lassen?"
+	cont "Gut, dann trinken"
+	cont "wir eben nur Tee."
 	done
 
 .QuestionText:
-	text "Daisy: Welches"
-	line "soll ich pflegen?"
+	; GSC-DE Dump 6420
+	text "SARAH: Welches"
+	line "soll ich ver-"
+	cont "schönern?"
 	done
 
 .OkayText:
-	text "Daisy: Okay, im Nu"
-	line "sieht's toll aus."
+	; GSC-DE Dump 6421
+	text "SARAH: Gut. In"
+	line "kürzester Zeit"
+	cont "wird es hübsch und"
+	cont "adrett aussehen."
 	done
 
 .LooksContentText:
+	; GSC-DE Dump 6422
 	text_ram wStringBuffer3
-	text "sieht zufrieden"
-	line "aus."
+	text " sieht"
+	line "zufrieden aus."
 	done
 
 .EggMassage:
 	jumpthistext
 
-	text "Daisy: Oh, tut mir"
-	line "leid. Ein Ei kann"
-	cont "ich nicht pflegen."
+	; GSC-DE Dump 6426
+	text "SARAH: Es tut mir"
+	line "Leid, aber ich"
+	cont "kann wirklich kein"
+	cont "EI verschönern."
 	done

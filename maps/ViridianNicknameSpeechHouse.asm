@@ -18,35 +18,35 @@ ViridianNicknameSpeechHouse_MapScriptHeader:
 	pokemon_event  6,  3, RATTATA, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PURPLE, RatteyText, -1
 
 ViridianNicknameSpeechHousePokefanMText:
+	; GSC-DE Dump 3600
 	text "Machst du dir"
 	line "viele Gedanken"
-
 	para "darüber, wie du"
 	line "deine #mon"
 	cont "nennen sollst?"
-
 	para "Das Tauschen von"
 	line "#mon macht mehr"
-
 	para "Spaß, wenn sie"
 	line "Spitznamen haben."
 	done
 
 
 ViridianNicknameSpeechHouseLassText:
-	text "Das sind"
-	line "HABBI--ein"
-	cont "HABITAK--und"
+	; GSC-DE Dump 3601
+	text "Das sind HABBI--"
+	line "ein HABITAK--und"
 	cont "FRATZI--ein"
 	cont "RATTFRATZ."
 	done
 
 
 HootyText:
-	text "Hooty: Hoot!"
+	; GSC-DE Dump 3602 (PC: Hoothoot statt HABITAK)
+	text "HABBI: Kr-rrr!"
 	done
 
 RatteyText:
+	; GSC-DE Dump 3603
 	text "FRATZI: Kikiii!"
 	done
 

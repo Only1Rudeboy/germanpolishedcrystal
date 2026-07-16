@@ -21,17 +21,18 @@ Route1_MapScriptHeader:
 GenericTrainerSchoolboyDanny:
 	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
 
+	; GSC-DE Dump 7096
 	text "Es ist ein"
 	line "ungeschriebenes"
-
-	para "Gesetz, dass"
-	line "Trainer kämpfen,"
-	cont "wenn sie sich"
-	cont "begegnen."
+	para "Gesetz, dass Trai-"
+	line "ner kämpfen, wenn"
+	cont "sie sich begegnen."
 	done
+
 GenericTrainerSchoolboySherman:
 	generictrainer SCHOOLBOY, SHERMAN, EVENT_BEAT_SCHOOLBOY_SHERMAN, SchoolboyShermanSeenText, SchoolboyShermanBeatenText
 
+	; PC-only
 	text "Ich sollte alle"
 	line "Fehler von heute"
 	cont "aufzeichnen."
@@ -40,6 +41,7 @@ GenericTrainerSchoolboySherman:
 GenericTrainerCooltrainermFrench:
 	generictrainer COOLTRAINERM, FRENCH, EVENT_BEAT_COOLTRAINERM_FRENCH, CooltrainermFrenchSeenText, CooltrainermFrenchBeatenText
 
+	; PC-only
 	text "Das war ein toller"
 	line "Kampf! Findest du"
 	cont "nicht?"
@@ -48,84 +50,68 @@ GenericTrainerCooltrainermFrench:
 GenericTrainerCooltrainerfQuinn:
 	generictrainer COOLTRAINERF, QUINN, EVENT_BEAT_COOLTRAINERF_QUINN, CooltrainerfQuinnSeenText, CooltrainerfQuinnBeatenText
 
+	; GSC-DE Dump 7099
 	text "Du bist stark."
-
 	para "Du hast offenbar"
 	line "hart trainiert."
 	done
+
 SchoolboyDannySeenText:
+	; GSC-DE Dump 7094
 	text "Wenn sich zwei"
 	line "Trainer begegnen,"
 	cont "wollen sie sofort"
 	cont "kämpfen."
 	done
 
-
-
-
-
-
 SchoolboyDannyBeatenText:
-	text "Argh… Ich habe"
-	line "erneut verloren…"
+	; GSC-DE Dump 7095
+	text "Argh… Ich"
+	line "habe erneut"
+	cont "verloren…"
 	done
 
-
-
-
-
-
 SchoolboyShermanSeenText:
+	; PC-only
 	text "Direkt nach dem"
 	line "Unterricht gehe"
 	cont "ich raus und übe!"
 	done
 
 SchoolboyShermanBeatenText:
+	; PC-only
 	text "Ich muss dem"
 	line "Lehrbuch folgen."
 	done
 
 CooltrainermFrenchSeenText:
+	; PC-only
 	text "Du!"
-
 	para "Ich habe auf"
 	line "jemanden wie dich"
 	cont "gewartet!"
 	done
 
 CooltrainermFrenchBeatenText:
+	; PC-only
 	text "So stark wie"
 	line "erwartet!"
 	done
 
 CooltrainerfQuinnSeenText:
-	text "Du da! Willst du"
-	line "kämpfen?"
+	; GSC-DE Dump 7097
+	text "Du da!"
+	line "Willst du kämpfen?"
 	done
 
-
-
-
-
-
 CooltrainerfQuinnBeatenText:
+	; GSC-DE Dump 7098
 	text "Versagt und weg…"
 	done
 
-
-
-
-
-
 Route1SignText:
+	; GSC-DE Dump 7100
 	text "ROUTE 1"
 	para "ALABASTIA -"
 	line "VERTANIA CITY"
 	done
-
-
-
-
-
-

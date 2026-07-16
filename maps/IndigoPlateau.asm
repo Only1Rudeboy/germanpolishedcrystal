@@ -20,12 +20,13 @@ IndigoPlateauFlyPoint:
 	endcallback
 
 IndigoPlateauSignText:
-	text "INDIGO-PLATEAU"
+	; GSC-DE CAPS (PC outdoor sign)
+	text "INDIGO PLATEAU"
 
 	para "Das Ultimative"
 	line "Ziel Aller"
 	cont "Trainer!"
 
 	para "HAUPTQUARTIER der"
-	line "#mon LIGA"
+	line "#MON LIGA"
 	done

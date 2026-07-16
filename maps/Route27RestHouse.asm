@@ -31,15 +31,19 @@ Route27RestHouseGranny:
 	ifgreater FRIEND_BALL_HAPPINESS - 1, .Loyal
 	jumpthisopenedtext
 
+	; GSC-DE Dump 3071
 	text "Falls es dir nicht"
 	line "mehr Vertrauen"
+
 	para "schenkt, wird es"
 	line "schwer für dich."
+
 	para "Vertrauen ist der"
 	line "Bund zwischen"
-	cont "#mon und den"
+	cont "#MON und den"
 	cont "Trainern."
 	done
+
 .Loyal:
 	writetext .QuestionText
 	checkitem SILVER_LEAF
@@ -66,43 +70,58 @@ Route27RestHouseGranny:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Skill Swap ist"
+	; PC Wertewechsel (B); dump 3070 was SANDSTURM
+	text "Wertewechsel ist"
 	line "eine Attacke,"
-	para "die deine"
-	line "Fähigkeit mit der"
-	cont "deines Gegners"
+
+	para "die deine Fähig-"
+	line "keit mit der dei-"
+	cont "nes Gegners"
 	cont "tauscht."
-	para "Nur für erfahrene"
+
+	para "Nur erfahrene"
 	line "Trainer!"
+
 	para "Nutze sie, wenn du"
 	line "dich traust. Viel"
 	cont "Glück!"
 	done
 
 .IntroText:
-	text "Wohin geht die"
-	line "Reise mit #mon?"
-	para "Zur #mon-Liga?"
-	para "Sind deine #mon"
-	line "treu genug für den"
-	cont "Sieg?"
-	para "Mal sehen …"
+	; GSC-DE Dump 3068
+	text "Wohin möchtest du"
+	line "mit den #MON?"
+
+	para "Zur #MON LIGA?"
+
+	para "Sind deine #MON"
+	line "loyal genug, um"
+	cont "zu gewinnen?"
+
+	para "Ich werde das"
+	line "überprüfen…"
 	done
 
 .HeardIntroText:
 	text "Lass mich deine"
-	line "#mon sehen…"
+	line "#MON sehen…"
 	done
 
 .QuestionText:
-	text "Ah! Dein #mon"
-	line "vertraut dir sehr."
-	para "Schön, einen guten"
-	line "Trainer zu sehen."
+	; B: dump 3069 + PC Wertewechsel
+	text "Ah! Deine #MON"
+	line "vertrauen dir"
+	cont "blind."
+
+	para "Es ist schön, ei-"
+	line "nen guten Trainer"
+	cont "zu treffen."
+
 	para "Ich kann ihm meine"
 	line "Geheimtechnik"
-	cont "Skill Swap"
+	cont "Wertewechsel"
 	cont "beibringen."
+
 	para "Wenn du willst,"
 	line "natürlich."
 	done

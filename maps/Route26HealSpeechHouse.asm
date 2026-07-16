@@ -26,15 +26,18 @@ Route26HealHouseTeacherScript:
 	special RestartMapMusic
 	jumpthistext
 
+	; GSC-DE Dump 3064
 	text "Hier!"
 
-	para "Deine #mon"
+	para "Deine #MON"
 	line "sehen gut aus!"
 
 	para "Mach weiter so!"
 	done
+
 Route26HealHouseRestAWhileText:
-	text "Deine #mon"
+	; GSC-DE Dump 3063
+	text "Deine #MON"
 	line "sehen müde aus."
 
 	para "Gönne ihnen eine"

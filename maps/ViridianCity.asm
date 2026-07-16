@@ -45,12 +45,12 @@ ViridianCityCoffeeGramps:
 	iffalse_jumpopenedtext ViridianCityCoffeeGrampsDoubtedText
 	jumpthisopenedtext
 
-	text "Gut, gut. Ja, ich"
-	line "war früher schon"
-
-	para "etwas Besonderes,"
-	line "das kannst du mir"
-	cont "glauben!"
+	; GSC-DE Dump 6984
+	text "Also gut. Ja, ich"
+	line "war wirklich etwas"
+	para "Besonderes, das"
+	line "kann ich dir"
+	cont "sagen!"
 	done
 
 
@@ -63,14 +63,15 @@ ViridianCityGrampsNearGym:
 	iftrue_jumptextfaceplayer ViridianCityGrampsNearGymBlueReturnedText
 	jumpthistextfaceplayer
 
-	text "Diese ARENA hatte"
-	line "bis vor kurzem"
-	cont "keinen"
-	cont "ARENALEITER."
+	; GSC-DE Dump 6986
+	text "Bis vor kurzem"
+	line "gab es in dieser"
+	cont "PKMN-ARENA"
+	cont "keinen LEITER."
 	para "Ein junger Mann"
-	line "aus ALABASTIA"
-	para "wurde der neue"
-	line "LEITER, aber er"
+	line "aus ALABASTIA ist"
+	para "hier der LEITER"
+	line "geworden, aber er"
 	cont "ist oft unterwegs."
 	done
 
@@ -122,14 +123,15 @@ ViridianCityTutorDreamEaterScript:
 	done
 
 ViridianCityCoffeeGrampsQuestionText:
+	; GSC-DE Dump 6983
 	text "He, Kurzbein! Ich"
 	line "hatte gerade einen"
 	para "doppelten Espresso"
-	line "und ich bin total"
-	cont "aufgedreht!"
+	line "und ich bin"
+	cont "total aufgedreht!"
 	para "Ich brauche jetzt"
 	line "jemanden zum"
-	cont "Reden, und zwar"
+	cont "Reden und zwar"
 	cont "dich!"
 	para "Man sieht es mir"
 	line "jetzt vielleicht"
@@ -146,6 +148,7 @@ ViridianCityCoffeeGrampsQuestionText:
 
 
 ViridianCityCoffeeGrampsDoubtedText:
+	; GSC-DE Dump 6985
 	text "Was? Du kleiner"
 	line "Frechdachs!"
 	para "Wenn ich etwas"
@@ -161,6 +164,7 @@ ViridianCityCoffeeGrampsDoubtedText:
 
 
 ViridianCityGrampsNearGymBlueReturnedText:
+	; GSC-DE Dump 6987
 	text "Wirst du den"
 	line "ARENALEITER"
 	cont "herausfordern?"
@@ -174,24 +178,26 @@ ViridianCityGrampsNearGymBlueReturnedText:
 
 
 ViridianCityDreamEaterFisherText:
+	; GSC-DE Dump 6988
 	text "Gähn!"
 	para "Ich bin wohl in"
 	line "der Sonne"
 	cont "eingeschlafen."
-	para "… Ich hatte diesen"
+	para "…Ich hatte diesen"
 	line "Traum von einem"
 	para "TRAUMATO, das"
 	line "meinen Traum"
 	para "fressen wollte."
 	line "Das ist doch"
-	para "merkwürdig, nicht"
-	line "wahr?"
-	para "Nanu! Was ist das?"
+	para "merkwürdig,"
+	line "nicht wahr?"
+	para "Nanu!"
+	line "Was ist das?"
 	para "Wo ist diese TM"
 	line "hergekommen?"
-	para "Unheimlich! Hier,"
-	line "du kannst die TM"
-	cont "behalten."
+	para "Unheimlich!"
+	line "Hier, du kannst"
+	cont "die TM behalten."
 	done
 
 
@@ -221,11 +227,11 @@ Text_ViridianCityTutorRefused: ; text > text
 
 
 ViridianCityYoungsterText:
+	; GSC-DE Dump 6990
 	text "Ich habe gehört,"
 	line "dass man viele"
-	para "Items im"
-	line "VERTANIA-WALD"
-	cont "findet."
+	para "Items im VERTANIA-"
+	line "WALD findet."
 	done
 
 
@@ -238,7 +244,7 @@ ViridianCityYoungster2Text:
 	line "TEAM ROCKET war"
 
 	para "hier eine Zeit"
-	line "lang Arenaleiter,"
+	line "lang ARENALEITER,"
 
 	para "doch vor drei"
 	line "Jahren verschwand"
@@ -246,21 +252,23 @@ ViridianCityYoungster2Text:
 
 	para "Er war sowieso"
 	line "selten in der"
-	cont "Arena…"
+	cont "ARENA…"
 	done
 
 ViridianCitySignText:
+	; GSC-DE Dump 6991
 	text "VERTANIA CITY"
 	para "Das Immergrüne"
 	line "Paradies"
 	done
+
 ViridianGymSignText:
+	; GSC-DE Dump 6992
 	text "PKMN-ARENA von"
 	line "VERTANIA CITY"
 	cont "LEITUNG: …"
-	para "Der Rest des"
-	line "Textes ist"
-	cont "unlesbar…"
+	para "Der Rest des Tex-"
+	line "tes ist unlesbar…"
 	done
 
 
@@ -269,7 +277,7 @@ ViridianGymSignText:
 
 
 ViridianCityTrainerTips1Text:
-	text "Trainer-Tipps"
+	text "TIPPS für TRAINER"
 
 	para "Fang #mon und"
 	line "erweitere deine"
@@ -281,23 +289,16 @@ ViridianCityTrainerTips1Text:
 	done
 
 ViridianCityTrainerTips2Text:
-	text "Trainer-Tipps"
-
-	para "Die Welt ist"
-	line "riesig groß!"
-
-	para "Lauf nicht nur"
-	line "herum oder nutze"
-	cont "FLIEGEN - schau"
-	cont "dich um!"
-
-	para "Du findest neue,"
-	line "aufregende Dinge!"
+	; GSC-DE Dump 6993
+	text "Willkommen in"
+	line "VERTANIA CITY,"
+	para "dem Tor zum"
+	line "INDIGO PLATEAU"
 	done
 
 TrainerHouseSignText:
+	; GSC-DE Dump 6994
 	text "TRAINER-HAUS"
-
 	para "Der Club, in dem"
 	line "Top-Trainer"
 	cont "kämpfen"

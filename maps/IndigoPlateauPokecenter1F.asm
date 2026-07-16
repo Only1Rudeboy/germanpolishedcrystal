@@ -195,62 +195,49 @@ PlateauRivalBattleTrigger2:
 	end
 
 PlateauRivalText1:
+	; GSC-DE Dump 5497
 	text "Moment noch!"
 	para "Akzeptierst du die"
 	line "Herausforderung"
-	para "der #mon LIGA?"
+	para "der #MON LIGA?"
 	line "Das wird nicht"
 	cont "passieren."
 	para "Meine perfekt"
-	line "trainierten"
-	cont "#mon werden"
-	cont "dich zermalmen."
+	line "trainierten #-"
+	cont "MON werden dich"
+	cont "zermalmen."
 	para "<PLAYER>!"
 	para "Ich fordere dich"
 	line "heraus!"
 	done
 
-
-
-
-
-
-
-
 PlateauRivalWinText:
-	text "… O.K. - Ich habe"
+	; GSC-DE Dump 5498
+	text "…"
+	line "O.K. - Ich habe"
 	para "verloren…"
 	done
 
-
-
-
-
-
-
-
 PlateauRivalText2:
-	text "… Mist … Ich kann"
-	line "nicht gewinnen …"
-	para "Ich … ich muss"
-	line "mich mehr um meine"
-	cont "#mon kümmern …"
-	para "Versuche, nicht zu"
-	line "verlieren!"
+	; GSC-DE Dump 5499
+	text "…Mist… Ich"
+	line "kann nicht"
+	cont "gewinnen…"
+	para "Ich… ich muss mich"
+	line "mehr um meine"
+	cont "#MON kümmern…"
+	para "Versuche, nicht"
+	line "zu verlieren!"
 	done
 
-
-
-
-
-
-
-
 PlateauRivalLoseText:
+	; GSC-DE Dump 5500
 	text "…"
-	para "Wow… Mit meinen"
-	para "Partnern werde ich"
-	line "der CHAMP sein!"
+	para "Wow…"
+	line "Mit meinen"
+	para "Partnern werde"
+	line "ich der CHAMP"
+	cont "sein!"
 	done
 
 
@@ -261,9 +248,10 @@ PlateauRivalLoseText:
 
 
 PlateauLyraText1:
+	; PC-only DE
 	text "<PLAYER>!"
 	para "Ich bin durch"
-	line "Johto gereist,"
+	line "JOHTO gereist,"
 	para "habe Orden"
 	line "gesammelt und"
 	para "mich immer weiter"
@@ -272,7 +260,7 @@ PlateauLyraText1:
 	line "auch, <PLAYER>."
 	para "Und jetzt …"
 	para "bin ich hier am"
-	line "Indigo-Plateau."
+	line "INDIGO PLATEAU."
 	para "Weißt du, was das"
 	line "bedeutet?"
 	para "Ich darf dich"
@@ -281,30 +269,34 @@ PlateauLyraText1:
 	done
 
 PlateauLyraText2:
+	; PC-only DE
 	text "sondern als"
-	line "#mon-Liga-"
+	line "#MON LIGA-"
 	cont "Championin!"
 	done
 
 PlateauLyraWinText:
+	; PC-only DE
 	text "Du bist immer noch"
 	line "stärker als ich …"
 	done
 
 PlateauLyraLoseText:
+	; PC-only DE
 	text "…Ich habe"
 	line "gewonnen?"
 	done
 
 PlateauLyraText3:
+	; PC-only DE
 	text "Ich bin nicht"
 	line "sauer, dass ich"
 	cont "verloren habe."
-	para "Ich konnte Johto"
+	para "Ich konnte JOHTO"
 	line "erkunden, neue"
 	cont "Leute treffen,"
 	cont "meine"
-	para "#mon stärker"
+	para "#MON stärker"
 	line "machen, als ich"
 	para "gedacht hätte, sie"
 	line "werden könnten …"
@@ -315,7 +307,7 @@ PlateauLyraText3:
 	para "Du hast mich"
 	line "besiegt."
 	para "Besieg jetzt die"
-	line "#mon Liga!"
+	line "#MON LIGA!"
 	done
 
 PlateauRivalApproachesMovement:
@@ -338,7 +330,7 @@ PokemonJournalGiovanniScript:
 	setflag ENGINE_READ_GIOVANNI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Boss"
 	line "GIOVANNI!"
@@ -412,7 +404,7 @@ IndigoPlateauYellowScript:
 	text "YELLOW: Ach… Du"
 	line "kannst kein"
 
-	para "weiteres #mon"
+	para "weiteres #MON"
 	line "bei dir tragen…"
 
 	para "Und deine Box ist"
@@ -429,7 +421,7 @@ IndigoPlateauYellowScript:
 	line "… Und sie haben so"
 	cont "starke"
 	para "Bindungen zu ihren"
-	line "#mon …"
+	line "#MON …"
 	para "Eines Tages"
 	line "erreiche ich ihr"
 	cont "Niveau."
@@ -442,7 +434,7 @@ IndigoPlateauYellowScript:
 	cont "tun?"
 
 	para "Ich hab ein"
-	line "#mon, das ich"
+	line "#MON, das ich"
 	cont "nicht selbst"
 	cont "aufziehen kann,"
 	cont "und ich will"
@@ -463,7 +455,7 @@ IndigoPlateauYellowScript:
 .RefusedText:
 	text "YELLOW: Ach… Aber"
 	line "was ist mit dem"
-	cont "#mon?"
+	cont "#MON?"
 	done
 
 .GoodbyeText:
@@ -500,40 +492,44 @@ IndigoPlateauTeleportGuyScript:
 	end
 
 .Text:
+	; GSC-DE Dump 5501
 	text "Ah! Du forderst"
 	line "also die TOP VIER"
 	para "heraus? Bist du"
 	line "wirklich bereit?"
 	para "Wenn du mehr"
 	line "trainieren willst,"
-	para "kann dir mein ABRA"
-	line "helfen."
-	para "Es kann dich nach"
-	line "Hause"
+	para "kann dir mein"
+	line "ABRA helfen."
+	para "Es kann dich"
+	line "nach Hause"
 	cont "TELEPORTIEREN."
 	para "Möchtest du jetzt"
 	line "nach Hause?"
 	done
 .YesText:
-	text "O.K. Stell dir"
-	line "dein Haus vor…"
+	; GSC-DE Dump 5502
+	text "O.K. Stell"
+	line "dir dein Haus"
+	cont "vor…"
 	done
 .NoText:
-	text "O.K. Alles Gute!"
+	; GSC-DE Dump 5503
+	text "O.K. Alles"
+	line "Gute!"
 	done
 IndigoPlateauAbraText:
+	; GSC-DE Dump 5504
 	text "ABRA: Aabra…"
 	done
 IndigoPlateauCooltrainermText:
-	text "In der #mon"
+	; GSC-DE Dump 5496
+	text "In der #MON"
 	line "LIGA stellen dich"
-
 	para "die TOP VIER auf"
 	line "eine harte Probe."
-
 	para "Du musst sie alle"
 	line "schlagen. Wenn du"
-
 	para "verlierst, musst"
 	line "du ganz von vorne"
 	cont "anfangen!"

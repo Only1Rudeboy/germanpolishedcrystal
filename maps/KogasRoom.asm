@@ -79,46 +79,53 @@ KogaScript:
 	end
 
 .SeenText:
+	; GSC-DE Dump 5508
 	text "Fwahahahaha!"
 	para "Ich bin KOGA."
 	line "Einer der TOP"
-	cont "VIER."
-	para "Als Ninja lebe ich"
-	line "in der Dunkelheit."
-	para "Mein Stil wird"
-	line "dich verwirren und"
+	para "VIER. Da ich ein"
+	line "Ninja bin, lebe"
+	cont "ich in der Dunkel-"
+	cont "heit."
+	para "Mein komplizierter"
+	line "Stil wird dich"
+	cont "verwirren und"
 	cont "vernichten!"
 	para "Verwirrung,"
 	line "Schlaf, Gift…"
-	para "Auch du wirst"
+	para "Auch du wirst ein"
 	line "Opfer meiner"
 	cont "hinterhältigen"
 	cont "Strategie!"
 	para "Fwahahahaha!"
-	para "Bei #mon geht"
+	para "Bei #MON geht"
 	line "es nicht nur um"
-	cont "Kraft allein. Das"
-	cont "wirst du noch"
-	cont "merken!"
+	para "Kraft allein - das"
+	line "wirst du noch"
+	cont "herausfinden!"
 	done
 .BeatenText:
-	text "Ah! Du hast dich"
-	line "als würdig"
-	cont "erwiesen!"
+	; GSC-DE Dump 5509
+	text "Ah!"
+	line "Du hast dich als"
+	cont "würdig erwiesen!"
 	done
 .AfterText:
+	; GSC-DE Dump 5510
 	text "Ich habe alle"
-	line "Register gezogen."
-	cont "Alles umsonst."
-	para "Ich muss meine"
-	line "Fertigkeiten"
+	line "meine Register"
+	cont "gezogen."
+	para "Alles war umsonst."
+	line "Ich muss meine"
+	cont "Fertigkeiten"
 	cont "verbessern."
 	para "Betritt den"
 	line "nächsten Raum und"
-	cont "beweise dein"
-	cont "Können!"
+	cont "stelle dein Können"
+	cont "unter Beweis!"
 	done
 .SeenRematchText:
+	; PC-only DE
 	text "Deine Ankunft ist"
 	line "beeindruckend"
 	cont "-genauso wie dein"
@@ -132,6 +139,7 @@ KogaScript:
 	line "ich meine!"
 	done
 .AfterRematchText:
+	; PC-only DE
 	text "Noch nie habe ich"
 	line "jemanden wie dich"
 	cont "getroffen."

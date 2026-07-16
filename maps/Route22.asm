@@ -53,48 +53,65 @@ KukuiScript:
 	jumpthistext
 
 .AfterText:
+	; PC-only Kukui (C) CAPS
 	text "Krass! Ich bin mit"
 	line "voller Wucht auf"
 	cont "dich los,"
+
 	para "und du hast"
 	line "trotzdem gewonnen!"
+
 	para "Kein Wunder, dass"
-	line "du der Champ bist!"
+	line "du der CHAMP bist!"
+
 	para "Ich muss härter"
 	line "trainieren, bevor"
+
 	para "ich bereit für die"
-	line "Liga bin."
+	line "#MON LIGA bin."
+
 	para "Und dann fordere"
 	line "ich dich wieder"
 	cont "heraus! Juhu!"
 	done
 
 .IntroText:
+	; PC-only Kukui (C) CAPS
 	text "Hallo! Ich bin"
 	line "Kukui."
+
 	para "Du heißt also"
 	line "<PLAYER>? Alles"
 	cont "klar, Kumpel!"
+
 	para "Ich komme aus der"
 	line "fernen Region"
 	cont "Alola!"
+
 	para "Dort gibt's keine"
-	line "#mon-Liga, also"
-	para "bin ich nach Kanto"
+	line "#MON LIGA, also"
+
+	para "bin ich nach KANTO"
 	line "gekommen, um die"
-	cont "Top Vier"
+	cont "TOP VIER"
+
 	para "hier zu fordern,"
 	line "ja!"
+
 	para "Hä? Du bist der"
-	line "neue Champ?"
+	line "neue CHAMP?"
+
 	para "Juhu, kein Wunder,"
 	line "dass du so cool"
 	cont "aussiehst!"
+
 	para "Mein Team und ich"
 	line "sind bereit."
+
 	para "Wie wär's, wir"
-	line "lassen die Liga"
+	line "lassen die LIGA"
 	cont "aus und fordern"
+
 	para "dich gleich jetzt"
 	line "heraus?"
 	done
@@ -137,17 +154,19 @@ KukuiScript:
 	done
 
 Route22CooltrainerfText:
-	text "Der Name 'Kanto'"
+	; PC-only (C) CAPS
+	text "Der Name 'KANTO'"
 	line "bedeutet 'östlich"
 	cont "der Barriere'."
 
 	para "Die Barriere muss"
 	line "wohl der"
-	cont "Silberberg sein."
+	cont "SILBERBERG sein."
 	done
 
 VictoryRoadEntranceSignText:
-	text "#mon LIGA"
+	; GSC-DE Dump 3074
+	text "#MON LIGA"
 
 	para "SIEGESSTRASSE"
 	line "EINGANG"

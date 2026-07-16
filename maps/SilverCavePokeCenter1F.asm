@@ -111,15 +111,16 @@ SilverCavePokeCenterGrampsScript:
 	done
 
 SilverCavePokeCenter1FGrannyText:
+	; GSC-DE Dump 7214
 	text "Trainer, die nach"
 	line "Stärke streben,"
-	para "erklimmen den"
-	line "SIL-BERBERG trotz"
-	cont "seiner vielen"
-	cont "Gefahren …"
+	para "erklimmen den SIL-"
+	line "BERBERG trotz sei-"
+	cont "ner vielen Gefah-"
+	cont "ren…"
 	para "Durch ihre treuen"
-	line "#mon haben"
+	line "#MON haben"
 	para "sie das Gefühl,"
 	line "überall hinkommen"
-	para "zu können …"
+	para "zu können…"
 	done

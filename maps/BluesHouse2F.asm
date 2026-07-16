@@ -17,17 +17,20 @@ BluesHouse2F_MapScriptHeader:
 	def_object_events
 
 BluesHouse2FPCText:
+	; PC-only
 	text "Ein Programm"
 	line "simuliert einen"
 	cont "Kampf zwischen"
-
 	para "einem Turtok und"
 	line "einem Dragoran."
 	done
 
 BluesHouse2FSNESText:
-	text "<PLAYER> hat das"
-	line "SNES gespielt."
-	para "Besser los--keine"
-	line "Zeit zu verlieren!"
+	; PC-only (Dump-Ton 6416)
+	text "<PLAYER> spielt"
+	line "SNES."
+	para "Mach besser"
+	line "weiter - du hast"
+	cont "keine Zeit zu"
+	cont "verlieren!"
 	done

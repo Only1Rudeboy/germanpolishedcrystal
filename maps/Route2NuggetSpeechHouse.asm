@@ -27,6 +27,7 @@ Route2NuggetSpeechHouseFisherScript:
 	jumpthisopenedtext
 
 .Text2:
+	; GSC-DE Dump 3627
 	text "Das ist ein"
 	line "NUGGET."
 	para "Ich kann dir keine"
@@ -35,14 +36,13 @@ Route2NuggetSpeechHouseFisherScript:
 	line "muss ausreichen!"
 	done
 .Text1:
-	text "Hallo! Toll, dich"
-	line "zu sehen."
-
-	para "Du bist der erste"
-	line "Besucher seit"
-	cont "langer Zeit."
-
-	para "Ich bin super"
-	line "glücklich! Nimm"
-	cont "dieses Geschenk."
+	; GSC-DE Dump 3626
+	text "Hi! Ich bin froh"
+	line "dich zu sehen."
+	para "Mich hat schon"
+	line "lange Zeit niemand"
+	cont "mehr besucht."
+	para "Ich bin über-"
+	line "glücklich! Das"
+	cont "hier ist für dich."
 	done

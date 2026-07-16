@@ -17,6 +17,7 @@ ViridianMart_MapScriptHeader:
 	object_event  1,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, ViridianMartCooltrainerMText, -1
 
 ViridianMartLassText:
+	; GSC-DE Dump 3620
 	text "Der ARENALEITER"
 	line "hier ist total"
 	cont "cool."
@@ -24,12 +25,13 @@ ViridianMartLassText:
 
 
 ViridianMartCooltrainerMText:
+	; GSC-DE Dump 3621
 	text "Warst du schon auf"
-	line "der"
-	cont "ZINNOBER-INSEL?"
+	line "der ZINNOBER-"
+	cont "INSEL?"
 	para "Es ist gleich die"
-	line "nächste Insel"
-	cont "südlich von hier."
+	line "nächste Insel süd-"
+	cont "lich von hier."
 	done
 
 

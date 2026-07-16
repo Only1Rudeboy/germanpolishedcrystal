@@ -126,6 +126,7 @@ Oak:
 .NoShinyCharm
 	jumpthisopenedtext
 
+	; GSC-DE Dump 6429
 	text "Wenn du mal wieder"
 	line "in der Gegend"
 	cont "bist, dann schau"
@@ -193,12 +194,14 @@ EeveeDollScript:
 	waitbutton
 	jumpthisopenedtext
 
+	; PC-only
 	text "PROF. EICH: Stell"
 	line "es hin, wo du es"
 	cont "oft siehst!"
 	done
 
 OakWelcomeKantoText:
+	; GSC-DE Dump 6427 (<PLAYER>→<PLAYER>)
 	text "EICH: <PLAYER>!"
 	line "Schön, dass du"
 	para "den weiten Weg"
@@ -206,18 +209,15 @@ OakWelcomeKantoText:
 	cont "hast."
 	para "Was hältst du von"
 	line "den Trainern hier"
-	para "draußen? Ziemlich"
-	line "stark,"
+	para "draußen?"
+	line "Ziemlich stark,"
 	para "was?"
 	done
 
-
-
-
-
 OakLabGiveStarterText:
-	text "EICH: Ach, Prof."
-	line "Ivy lässt grüßen?"
+	; PC-only (Ivy)
+	text "EICH: Ach, PROF."
+	line "IVY lässt grüßen?"
 	para "Danke, dass du"
 	line "ihre Grüße"
 	cont "überbracht hast,"
@@ -225,14 +225,15 @@ OakLabGiveStarterText:
 	para "Sie ist eine gute"
 	line "Freundin von mir."
 	para "Wenn sie dir ein"
-	line "#mon gab, mach"
+	line "#MON gab, mach"
 	cont "ich dasselbe!"
-	para "Dieses #mon"
+	para "Dieses #MON"
 	line "sieht man in KANTO"
 	cont "und JOHTO selten."
 	done
 
 OakLabPartyAndBoxFullText:
+	; PC-only
 	text "Hm, du hast keinen"
 	line "Platz dafür und"
 	cont "deine Box ist"
@@ -240,30 +241,26 @@ OakLabPartyAndBoxFullText:
 	done
 
 OakLabDexCheckText:
+	; GSC-DE Dump 6428
 	text "Wie geht es mit"
-	line "dem #dex voran?"
-
+	line "dem #DEX voran?"
 	para "Mal sehen…"
 	done
 
-
-
-
-
 OakLabCatchMoreText:
+	; PC-only Charm
 	text "Ich möchte dir"
 	line "danken für deine"
-
 	para "Hilfe beim"
 	line "Ausfüllen des"
-	cont "#dex."
-
+	cont "#DEX."
 	para "Nimm das als"
 	line "Belohnung für"
 	cont "deine Arbeit!"
 	done
 
 OakLabCatchCharmText:
+	; PC-only Charm
 	text "Mit einem"
 	line "Fang-Glücksbringer"
 	para "steigt die Chance"
@@ -276,8 +273,9 @@ OakLabCatchCharmText:
 	done
 
 OakLabSeenAllText:
+	; PC-only Charm
 	text "Du triffst ständig"
-	line "neue #mon,"
+	line "neue #MON,"
 	para "nicht wahr?"
 	para "Nimm das als"
 	line "Belohnung für"
@@ -285,6 +283,7 @@ OakLabSeenAllText:
 	done
 
 OakLabOvalCharmText:
+	; PC-only Charm
 	text "Mit einem"
 	line "Oval-Glücksbringer"
 	para "steigt die Chance,"
@@ -293,30 +292,32 @@ OakLabOvalCharmText:
 	done
 
 OakLabCaughtAllText:
+	; PC-only Charm
 	text "Ich hatte recht,"
-	line "dir den #dex"
+	line "dir den #DEX"
 	para "zu geben."
 	para "Er zeugt von"
-	line "deinem Einsatz …"
+	line "deinem Einsatz…"
 	para "Und von der Hilfe"
-	line "vieler …"
+	line "vieler…"
 	para "Und von den Banden"
-	line "zu deinen #mon!"
+	line "zu deinen #MON!"
 	para "Nimm das als"
 	line "Belohnung für"
 	cont "deine Arbeit!"
 	done
 
 OakLabShinyCharmText:
+	; PC-only Charm
 	text "Mit einem Shiny-"
 	line "Glücksbringer"
 	para "steigt die Chance,"
 	line "ein schillerndes"
-	cont "#mon zu finden!"
+	cont "#MON zu finden!"
 	done
 
-
 OakMightBeReadyText:
+	; PC-only Battle Oak
 	text "EICH: Unglaublich,"
 	line "<PLAYER>!"
 	para "Du hast die TOP"
@@ -328,11 +329,12 @@ OakMightBeReadyText:
 	done
 
 OakChallengeText:
+	; PC-only Battle Oak
 	text "EICH: Der"
-	line "SILBER-BERG ist"
+	line "SILBERBERG ist"
 	cont "ein hoher"
 	para "Berg mit vielen"
-	line "wilden #mon."
+	line "wilden #MON."
 	para "Er ist zu"
 	line "gefährlich für"
 	para "normale Trainer"
@@ -345,27 +347,30 @@ OakChallengeText:
 	done
 
 OakRefusedText:
+	; PC-only Battle Oak
 	text "EICH: Komm wieder,"
 	line "wenn du bereit"
 	cont "bist."
 	done
 
 OakSeenText:
+	; PC-only Battle Oak
 	text "EICH: Gib in"
 	line "diesem Kampf"
 	cont "alles!"
 	done
 
 OakWinText:
+	; PC-only Battle Oak
 	text "Ich habe dich"
 	line "richtig"
 	cont "eingeschätzt!"
 	done
 
 OakOpenMtSilverText:
-	text "EICH: Toll!"
-	line "Das ist hervor-"
-	cont "ragend!"
+	; GSC-DE Dump 6430 (<PLAYER>→<PLAYER>)
+	text "EICH: Wow! Das ist"
+	line "hervorragend!"
 	para "Du hast die ORDEN"
 	line "der ARENALEITER in"
 	cont "KANTO erkämpft."
@@ -375,69 +380,62 @@ OakOpenMtSilverText:
 	cont "eingeschätzt."
 	para "Weißt du was,"
 	line "<PLAYER>? Ich"
-	para "werde es so"
-	line "einrichten, dass"
-	cont "du zum SILBERBERG"
+	para "werde es so ein-"
+	line "richten, dass du"
+	cont "zum SILBERBERG"
 	cont "gehen kannst."
 	para "Der SILBERBERG ist"
 	line "ein großes Habitat"
 	para "für viele wilde"
-	line "#mon."
+	line "#MON."
 	para "Es ist zu"
 	line "gefährlich für"
-	para "einen"
-	line "Durchschnittstrai-"
-	cont "ner."
+	para "einen Durch-"
+	line "schnittstrainer."
 	para "Deshalb ist es"
 	line "verboten. Aber für"
 	cont "dich, <PLAYER>,"
 	cont "können wir eine"
 	cont "Ausnahme machen."
 	para "Steige auf das"
-	line "INDIGO-PLATEAU."
-	para "Von dort kannst du"
-	line "den SILBERBERG"
+	line "INDIGO PLATEAU."
+	para "Von dort kannst"
+	line "du den SILBERBERG"
 	cont "erreichen."
 	done
 
-
-
-
-
 OakNoKantoBadgesText:
+	; GSC-DE Dump 6431
 	text "EICH: Hm? Du hast"
 	line "keine ORDEN der"
-	para "#mon-ARENEN in"
-	line "KANTO?"
+	para "PKMN-ARENEN"
+	line "in KANTO?"
 	para "Die ARENALEITER in"
 	line "KANTO sind genauso"
-	para "stark wie die in"
-	line "JOHTO."
+	para "stark wie die"
+	line "in JOHTO."
 	para "Ich schlage vor,"
 	line "du forderst sie"
 	cont "heraus."
 	done
 
-
-
-
-
 OakNoEliteFourRematchText:
-	text "EICH: Toll!"
-	line "Das ist hervor-"
-	cont "ragend!"
+	; PC-only (Rematch-Pfad)
+	text "EICH: Wow! Das ist"
+	line "hervorragend!"
 	para "Du hast die ORDEN"
 	line "der ARENALEITER in"
 	cont "KANTO."
 	para "Jetzt kannst du"
 	line "die TOP VIER mit"
 	cont "ihren besten"
-	cont "#mon fordern."
+	cont "#MON fordern."
 	para "Weiter so,"
 	line "<PLAYER>!"
 	done
 
 OakYesKantoBadgesText:
+	; GSC-DE Dump 6432
 	text "EICH: Ah, du"
 	line "sammelst ORDEN der"
 	cont "ARENALEITER von"
@@ -450,21 +448,17 @@ OakYesKantoBadgesText:
 	cont "Erfahrungen."
 	para "Besuche mich"
 	line "wieder, wenn du"
-	para "sie alle hast. Ich"
-	line "gebe dir dann ein"
-	cont "Geschenk."
+	para "sie alle hast."
+	line "Ich gebe dir dann"
+	cont "ein Geschenk."
 	para "Streng dich weiter"
 	line "so an, <PLAYER>!"
 	done
 
-
-
-
-
 OaksAssistant1Text:
-	text "PROF. EICHs"
-	line "#-MON-TALK wird"
-	cont "in"
+	; GSC-DE Dump 6433
+	text "PROF. EICHs #-"
+	line "MON-TALK wird in"
 	para "KANTO nicht im"
 	line "Radio gesendet."
 	para "Das ist schade."
@@ -472,46 +466,33 @@ OaksAssistant1Text:
 	cont "hören."
 	done
 
-
-
-
-
 OaksAssistant2Text:
+	; GSC-DE Dump 6434
 	text "Die Forschungen"
 	line "des PROFESSORs"
 	cont "kommen dank deiner"
-	para "Arbeit am #dex"
+	para "Arbeit am #DEX"
 	line "sehr gut voran."
 	done
 
-
-
-
-
 OaksAssistant3Text:
+	; GSC-DE Dump 6435
 	text "Erzähl es keinem,"
 	line "aber PROF. EICHs"
-
-	para "#mon-TALK wird"
+	para "#MON-TALK wird"
 	line "nicht live"
 	cont "gesendet."
 	done
 
-
-
-
-
 OaksLabPoster1Text:
+	; GSC-DE Dump 6436
 	text "Drücke START, um"
 	line "das MENÜ zu"
 	cont "öffnen."
 	done
 
-
-
-
-
 OaksLabPoster2Text:
+	; GSC-DE Dump 6437
 	text "Möchtest du deinen"
 	line "Spielstand von"
 	para "Zeit zu Zeit"
@@ -520,34 +501,29 @@ OaksLabPoster2Text:
 	cont "Option SICHERN."
 	done
 
-
-
-
-
 OaksLabPCText:
+	; GSC-DE Dump 6439 (<PLAYER>→<PLAYER>)
 	text "Auf dem PC ist"
 	line "eine E-Mail."
 	para "…"
-	para "Wie kommen Sie mit"
-	line "Ihren Forschungen"
-	cont "voran, PROF. EICH?"
+	para "Wie kommen Sie"
+	line "mit Ihren"
+	cont "Forschungen voran,"
+	cont "PROF. EICH?"
 	para "Nun, ich ackere"
 	line "weiter."
 	para "Ich habe Gerüchte"
 	line "gehört, dass"
-	para "sich <PLAYER> einen"
-	line "Namen macht."
+	para "sich <PLAYER>"
+	line "einen Namen macht."
 	para "Es freut mich, das"
 	line "zu hören."
 	para "PROF. LIND in"
-	line "Neuborkia"
+	line "NEUBORKIA"
 	done
 
-
-
-
-
 ProfOakEeveeDollTradeText:
+	; PC-only
 	text "EICH: Ach,"
 	line "bewunderst du"
 	cont "meine Evoli-Puppe?"
@@ -557,16 +533,19 @@ ProfOakEeveeDollTradeText:
 	done
 
 NoEverstoneText:
+	; PC-only
 	text "Aber du hast"
 	line "keinen davon…"
 	done
 
 WantToTradeText:
+	; PC-only
 	text "Möchtest du"
 	line "tauschen?"
 	done
 
 NoTradeText:
+	; PC-only
 	text "Es wird hier noch"
 	line "sein, wenn du es"
 	cont "dir anders"
@@ -574,18 +553,20 @@ NoTradeText:
 	done
 
 EeveeDollText:
+	; PC-only
 	text "<PLAYER> erhält"
 	line "Evoli-Puppe."
 	done
 
 EeveeDollSentText:
+	; PC-only
 	text "Evoli-Puppe wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done
 
-
 OaksLabPokedexText:
-	text "Das ist Prof."
-	line "Linds #dex."
+	; PC-only
+	text "Das ist PROF."
+	line "LINDs #DEX."
 	done

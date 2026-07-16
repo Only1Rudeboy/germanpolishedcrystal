@@ -26,6 +26,7 @@ FastShipCabins_SW_SSW_NW_MapScriptHeader:
 GenericTrainerFirebreatherLyle:
 	generictrainer FIREBREATHER, LYLE, EVENT_BEAT_FIREBREATHER_LYLE, FirebreatherLyleSeenText, FirebreatherLyleBeatenText
 
+	; GSC-DE Dump
 	text "Ich denke, Feuer"
 	line "ist schwach auf"
 	cont "hoher See."
@@ -33,16 +34,20 @@ GenericTrainerFirebreatherLyle:
 	para "Das ist egal?"
 	line "Wirklich?"
 	done
+
 GenericTrainerBug_catcherKen:
 	generictrainer BUG_CATCHER, KEN, EVENT_BEAT_BUG_CATCHER_KEN, Bug_catcherKenSeenText, Bug_catcherKenBeatenText
 
+	; GSC-DE Dump
 	text "In JOHTO findest"
-	line "du viele #mon"
+	line "du viele #MON"
 	cont "in den Bäumen!"
 	done
+
 GenericTrainerRichBoyWinston:
 	generictrainer RICH_BOY, WINSTON, EVENT_BEAT_RICH_BOY_WINSTON, RichBoyWinstonSeenText, RichBoyWinstonBeatenText
 
+	; PC-only
 	text "Dieses Schiff ist"
 	line "so öde."
 	done
@@ -50,16 +55,19 @@ GenericTrainerRichBoyWinston:
 GenericTrainerBeautyCassie:
 	generictrainer BEAUTY, CASSIE, EVENT_BEAT_BEAUTY_CASSIE, BeautyCassieSeenText, BeautyCassieBeatenText
 
+	; GSC-DE Dump
 	text "Eine Schiffsreise"
-	line "ist am besten, um"
-	cont "ein gebrochenes"
+	line "ist am besten,"
+	cont "um ein gebrochenes"
 	cont "Herz zu vergessen."
+
 	para "Aber eine Reise"
-	line "mit dem"
-	cont "SCHNELL-BOOT ist"
-	cont "für die Trauer zu"
+	line "mit dem SCHNELL-"
+	cont "BOOT ist für"
+	cont "die Trauer zu"
 	cont "kurz."
 	done
+
 TrainerGuitaristmClyde:
 	trainer GUITARISTM, CLYDE, EVENT_BEAT_GUITARISTM_CLYDE, GuitaristmClydeSeenText, GuitaristmClydeBeatenText, 0, GuitaristmClydeScript
 
@@ -70,24 +78,29 @@ GuitaristmClydeScript:
 	iffalsefwd .BattleTower
 	jumpthisopenedtext
 
-	text "Apropos"
-	line "RADIO-STATION: Wie"
+	; GSC-DE Dump
+	text "Apropos RADIO-"
+	line "STATION: Wie "
+
 	para "lauten die"
 	line "Glückszahlen für"
 	cont "diese Woche?"
 	done
+
 .BattleTower:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ich wollte mein"
 	line "Debut im DUELLTURM"
-	cont "geben …"
+	cont "geben…"
+
 	para "Ich sollte nach"
-	line "ORANIA CITY"
-	cont "zurückgehen und"
-	cont "härter trainieren"
-	cont "…"
+	line "ORANIA CITY zu-"
+	cont "rückgehen und"
+	cont "härter trainieren…"
 	done
+
 FastShipBed:
 	showtext FastShipBedText1
 	special Special_FadeBlackQuickly
@@ -123,35 +136,34 @@ FastShipBed:
 	end
 
 FirebreatherLyleSeenText:
+	; GSC-DE Dump
 	text "Ich gehe nach"
 	line "KANTO, um meine"
 	cont "Feuerspuck-Künste"
 	cont "vorzuführen!"
 	done
 
-
-
-
-
 FirebreatherLyleBeatenText:
-	text "Zisch… Die Flamme"
-	line "ist klein…"
+	; GSC-DE Dump
+	text "Zisch… Die"
+	line "Flamme ist klein…"
 	done
 
-
-
-
-
 Bug_catcherKenSeenText:
+	; GSC-DE Dump
 	text "Ich besuche meine"
 	line "Oma, um einige"
 	cont "Käfer zu fangen!"
 	done
+
 Bug_catcherKenBeatenText:
-	text "Ach, wow. Du bist"
-	line "stark!"
+	; GSC-DE Dump
+	text "Oh, wow."
+	line "Du bist stark!"
 	done
+
 RichBoyWinstonSeenText:
+	; PC-only
 	text "Du kannst dir kein"
 	line "Ticket leisten."
 	para "Sieht aus, als"
@@ -160,30 +172,26 @@ RichBoyWinstonSeenText:
 	done
 
 RichBoyWinstonBeatenText:
+	; PC-only
 	text "Toll! Wo hast du"
-	line "deine #mon her?"
+	line "deine #MON her?"
 	done
 
 BeautyCassieSeenText:
+	; GSC-DE Dump
 	text "Ich versuche,"
 	line "meine Leiden zu"
 	cont "vergessen. Lass"
 	cont "uns kämpfen!"
 	done
 
-
-
-
-
 BeautyCassieBeatenText:
+	; GSC-DE Dump
 	text "Mein Herz weint…"
 	done
 
-
-
-
-
 GuitaristmClydeSeenText:
+	; GSC-DE Dump
 	text "Ich werde meine"
 	line "Lieder bei der"
 
@@ -191,45 +199,37 @@ GuitaristmClydeSeenText:
 	line "DUKATIA CITY"
 	cont "vorspielen."
 	done
+
 GuitaristmClydeBeatenText:
-	text "Yowza! Total"
-	line "verzerrt!"
+	; GSC-DE Dump
+	text "Yowza!"
+	line "Total verzerrt!"
 	done
+
 FastShipBedText1:
+	; GSC-DE Dump
 	text "Ein weiches Bett!"
 	line "Schlafenszeit…"
 	done
 
-
-
-
-
 FastShipBedText2:
+	; GSC-DE Dump
 	text "Ah, ausgeruht und"
 	line "frisch!"
 	done
 
-
-
-
-
 FastShipArrivedOlivineText:
-	text "Die M.S. AQUA legt"
-	line "in"
+	; GSC-DE Dump
+	text "Die M.S. AQUA"
+	line "legt in"
+
 	para "OLIVIANA CITY an."
 	done
 
-
-
-
-
 FastShipArrivedVermilionText:
+	; GSC-DE Dump
 	text "Die M.S. AQUA legt"
 	line "in"
+
 	para "ORANIA CITY an."
 	done
-
-
-
-
-

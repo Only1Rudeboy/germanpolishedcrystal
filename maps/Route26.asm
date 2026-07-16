@@ -29,6 +29,7 @@ Route26_MapScriptHeader:
 GenericTrainerDragonTamerKazu:
 	generictrainer DRAGON_TAMER, KAZU, EVENT_BEAT_DRAGON_TAMER_KAZU, DragonTamerKazuSeenText, DragonTamerKazuBeatenText
 
+	; GSC-DE Dump 6783
 	text "Es ist sehr"
 	line "schwer, in der"
 	cont "LIGA zu gewinnen."
@@ -43,6 +44,7 @@ GenericTrainerDragonTamerKazu:
 	line "stärker sind als"
 	cont "die ARENALEITER."
 	done
+
 TrainerCooltrainermGaven1:
 	trainer COOLTRAINERM, GAVEN1, EVENT_BEAT_COOLTRAINERM_GAVEN, CooltrainermGaven1SeenText, CooltrainermGaven1BeatenText, 0, .Script
 
@@ -131,10 +133,13 @@ TrainerCooltrainermGaven1:
 GenericTrainerCooltrainerfJoyce:
 	generictrainer COOLTRAINERF, JOYCE, EVENT_BEAT_COOLTRAINERF_JOYCE, CooltrainerfJoyceSeenText, CooltrainerfJoyceBeatenText
 
+	; GSC-DE Dump 6789
 	text "Ich bezwang acht"
 	line "ARENALEITER, also"
+
 	para "hatte ich genug"
 	line "Selbstbewusstsein."
+
 	para "Das nächste Mal"
 	line "muss ich mich mehr"
 	cont "anstrengen."
@@ -228,23 +233,26 @@ TrainerCooltrainerfBeth1:
 GenericTrainerPsychicRichard:
 	generictrainer PSYCHIC_T, RICHARD, EVENT_BEAT_PSYCHIC_RICHARD, PsychicRichardSeenText, PsychicRichardBeatenText
 
-	text "Menschen und"
-	line "#mon wachsen"
-	cont "mit ihren"
-	cont "Erfahrungen."
+	; GSC-DE Dump 6795
+	text "Menschen und #-"
+	line "MON wachsen mit"
+	cont "ihren Erfahrungen."
+
 	para "Du darfst nicht"
-	line "faul und"
-	cont "selbstge-fällig"
-	cont "werden."
+	line "faul und selbstge-"
+	cont "fällig werden."
 	done
 
 GenericTrainerBattleGirlRonda:
 	generictrainer BATTLE_GIRL, RONDA, EVENT_BEAT_BATTLE_GIRL_RONDA, BattleGirlRondaSeenText, BattleGirlRondaBeatenText
 
+	; PC-only (B)
 	text "Hier kommen einige"
 	line "der stärksten"
+
 	para "Trainer der Welt"
 	line "vorbei."
+
 	para "Und ich darf gegen"
 	line "alle kämpfen!"
 	done
@@ -252,8 +260,9 @@ GenericTrainerBattleGirlRonda:
 GenericTrainerFisherScott:
 	generictrainer FISHER, SCOTT, EVENT_BEAT_FISHER_SCOTT, FisherScottSeenText, FisherScottBeatenText
 
+	; GSC-DE Dump 6798
 	text "Das Angeln und"
-	line "#mon sind sehr"
+	line "#MON sind sehr"
 
 	para "ähnlich. Wenn du"
 	line "aufgibst, ist es"
@@ -263,35 +272,46 @@ GenericTrainerFisherScott:
 GenericTrainerDragonTamerErick:
 	generictrainer DRAGON_TAMER, ERICK, EVENT_BEAT_DRAGON_TAMER_ERICK, DragonTamerErickSeenText, DragonTamerErickBeatenText
 
+	; PC-only (B) CAPS
 	text "Die SIEGESSTRASSE"
 	line "ist hart."
+
 	para "Jeder Trainer muss"
 	line "seinen eigenen Weg"
 	cont "durch sie finden."
 	done
 
 DragonTamerKazuSeenText:
+	; GSC-DE Dump 6781
 	text "Ich treffe die"
-	line "letzten"
-	cont "Vorbereitungen für"
-	cont "die #mon LIGA."
+	line "letzten Vorberei-"
+	cont "tungen für die"
+	cont "#MON LIGA."
 	done
+
 DragonTamerKazuBeatenText:
+	; GSC-DE Dump 6782
 	text "Ich habe es"
 	line "vermasselt!"
 	done
+
 CooltrainermGaven1SeenText:
+	; GSC-DE Dump 6784
 	text "Wenn du harte"
-	line "Kämpfe"
-	cont "bestreitest, wirst"
-	cont "du stärker."
+	line "Kämpfe bestrei-"
+	cont "test, wirst du"
+	cont "stärker."
 	done
+
 CooltrainermGaven1BeatenText:
+	; GSC-DE Dump 6785
 	text "Gah! Das Leben ist"
 	line "noch härter!"
 	done
+
 CooltrainermGavenAfterText:
-	text "Um zur #mon"
+	; GSC-DE Dump 6786
+	text "Um zur #MON"
 	line "LIGA zu gelangen,"
 
 	para "musst du die"
@@ -305,111 +325,87 @@ CooltrainermGavenAfterText:
 	line "niemand dorthin!"
 	done
 
-
-
-
-
-
 CooltrainerfJoyceSeenText:
+	; GSC-DE Dump 6787
 	text "Da du es bis"
 	line "hierher geschafft"
-	cont "hast, musst du gut"
-	cont "sein."
+	cont "hast, musst du"
+	cont "gut sein."
+
 	para "Ich werde in"
-	line "diesem Kampf alles"
-	cont "geben!"
+	line "diesem Kampf"
+	cont "alles geben!"
 	done
-
-
-
-
-
 
 CooltrainerfJoyceBeatenText:
-	text "Nein! Ich kann das"
-	line "nicht glauben!"
+	; GSC-DE Dump 6788
+	text "Nein! Ich kann"
+	line "das nicht glauben!"
 	done
 
-
-
-
-
-
 CooltrainerfBeth1SeenText:
+	; GSC-DE Dump 6790
 	text "Ich habe gegen"
 	line "einen Trainer"
 	cont "namens <RIVAL>"
 	cont "verloren."
-	para "Er war sehr stark,"
-	line "aber…"
-	para "Es schien, als sei"
-	line "er vom Siegen"
+
+	para "Er war sehr"
+	line "stark, aber…"
+
+	para "Es schien, als"
+	line "sei er vom Siegen"
 	cont "besessen."
-	para "Seine #mon"
+
+	para "Seine #MON"
 	line "taten mir Leid."
 	done
 
-
-
-
-
-
 CooltrainerfBeth1BeatenText:
-	text "#mon sind keine"
+	; GSC-DE Dump 6791
+	text "#MON sind keine"
 	line "Kriegswerkzeuge."
 	done
 
-
-
-
-
-
 CooltrainerfBethAfterText:
-	text "#mon sind"
+	; GSC-DE Dump 6792
+	text "#MON sind"
 	line "unschätzbare,"
 	cont "lebenslange"
 	cont "Partner."
 	done
 
-
-
-
-
-
 PsychicRichardSeenText:
+	; GSC-DE Dump 6793
 	text "Wow, sieh dir all"
 	line "die ORDEN an! Ich"
 	cont "bin beeindruckt."
+
 	para "Aber es reicht dir"
 	line "nicht, sie nur zu"
+
 	para "sammeln, oder?"
 	done
 
-
-
-
-
-
 PsychicRichardBeatenText:
+	; GSC-DE Dump 6794
 	text "Guter Kampf!"
 	done
 
-
-
-
-
-
 BattleGirlRondaSeenText:
+	; PC-only (B)
 	text "Halt! Ich fordere"
 	line "dich zum Duell"
 	cont "heraus!"
 	done
 
 BattleGirlRondaBeatenText:
+	; PC-only (B)
 	text "Der Sieg ist dein!"
 	done
 
 FisherScottSeenText:
+	; GSC-DE Dump 6796
 	text "Heute fühle ich"
 	line "mich grossartig!"
 
@@ -419,40 +415,28 @@ FisherScottSeenText:
 	cont "besiegen könnte!"
 	done
 
-
-
-
-
-
 FisherScottBeatenText:
+	; GSC-DE Dump 6797
 	text "Nein! Nicht in"
 	line "diesem Kampf!"
 	done
 
-
-
-
-
-
 DragonTamerErickSeenText:
+	; PC-only (B)
 	text "Hier leben"
 	line "Drachen!"
 	done
 
 DragonTamerErickBeatenText:
+	; PC-only (B)
 	text "Meine Drachen"
 	line "wurden besiegt…"
 	done
 
 Route26SignText:
+	; GSC-DE Dump 6799
 	text "ROUTE 26"
 
-	para "#mon LIGA"
+	para "#MON LIGA"
 	line "EMPFANG"
 	done
-
-
-
-
-
-

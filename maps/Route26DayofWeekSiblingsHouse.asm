@@ -28,38 +28,56 @@ DayOfWeekSiblingsHousePokedexScript:
 	endtext
 
 DayOfWeekSiblingsHousePokedexText1:
+	; GSC-DE Dump 3065
 	text "Hier steht etwas"
 	line "geschrieben."
 
 	para "Lesen?"
 	done
+
 DayOfWeekSiblingsHousePokedexText2:
+	; GSC-DE Dump 3066
 	text "An meine Brüder"
 	line "und Schwestern:"
+
 	para "Wir sind stolz"
-	line "darauf,"
-	cont "#mon-Trainern"
-	cont "zu dienen."
+	line "darauf, #MON-"
+	cont "Trainern zu"
+	cont "dienen."
+
 	para "Wenn ein Trainer"
 	line "mit dir spricht,"
 	cont "gib ihm etwas"
 	cont "Nützliches."
-	para "Eure MONJA"
+
+	para "Eure"
+	line "MONJA"
+
 	para "Weiterlesen?"
 	done
+
 DayOfWeekSiblingsHousePokedexText3:
+	; GSC-DE Dump 3067
 	text "Montag, MONJA"
 	line "ROUTE 40"
+
 	para "Dienstag,"
-	line "DIETLINDE ROUTE 29"
+	line "DIETLINDE"
+	cont "ROUTE 29"
+
 	para "Mittwoch, MITKO"
 	line "SEE DES ZORNS"
+
 	para "Donnerstag,"
-	line "DONATUS ROUTE 36"
+	line "DONATUS"
+	cont "ROUTE 36"
+
 	para "Freitag, FRIEDA"
 	line "ROUTE 32"
+
 	para "Samstag, SAMSON"
 	line "EBENHOLZ CITY"
+
 	para "Sonntag, SONNFRIED"
 	line "ROUTE 37"
 	done

@@ -83,9 +83,9 @@ VermilionPortSailorAtGangwayScript:
 VermilionPortAlreadyRodeScript:
 	jumpthisopenedtext
 
-	text "Tut mir leid. Du"
-	line "kannst jetzt nicht"
-	cont "an Bord gehen."
+	; GSC-DE Dump
+	text "Du kannst jetzt"
+	line "nicht an Bord."
 	done
 
 VermilionPortWalkUpToShipScript:
@@ -208,36 +208,42 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
+	; GSC-DE Dump
 	text "Wir legen bald ab."
-	line "Komm bitte an"
-	cont "Bord."
+	line "Komm bitte"
+	cont "an Bord."
 	done
 
 
 VermilionPortAskBoardingText:
-	text "Willkommen auf dem"
-	line "SCHNELLBOOT M.S."
-	cont "AQUA."
+	; GSC-DE Dump
+	text "Willkommen auf "
+	line "dem SCHNELLBOOT"
+	cont "M.S. AQUA."
+
 	para "Trittst du heute"
 	line "deine Reise an?"
 	done
 
 
 VermilionPortAskTicketText:
+	; GSC-DE Dump
 	text "Zeige mir bitte"
 	line "dein BOOTSTICKET!"
 	done
 
 
 VermilionPortComeAgainText:
+	; GSC-DE Dump
 	text "Komm jederzeit"
 	line "wieder vorbei!"
 	done
 
 
 VermilionPortSSTicketText:
-	text "<PLAYER> zeigt das"
-	line "BOOTSTICKET."
+	; GSC-DE Dump
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET."
 
 	para "In Ordnung."
 	line "Dankeschön!"
@@ -245,37 +251,42 @@ VermilionPortSSTicketText:
 
 
 VermilionPortNoTicketText:
-	text "<PLAYER> sucht das"
-	line "BOOTSTICKET…"
+	; GSC-DE Dump
+	text "<PLAYER> sucht"
+	line "das BOOTS-"
+	cont "TICKET…"
 
 	para "…Kein TICKET!"
 
-	para "Tut mir leid! Du"
-	line "darfst nur"
+	para "Tut mir Leid!"
+	line "Du darfst nur"
 
-	para "mit TICKET an"
-	line "Bord."
+	para "mit TICKET"
+	line "an Bord."
 	done
 
 
 VermilionPortSailMondayText:
+	; GSC-DE Dump
 	text "Wir legen nächsten"
 	line "Mittwoch ab."
 	done
 
 
 VermilionPortSailSundayText:
+	; GSC-DE Dump
 	text "Wir legen nächsten"
 	line "Sonntag ab."
 	done
 
 
 VermilionPortSuperNerdText:
+	; GSC-DE Dump
 	text "Du kommst aus"
 	line "JOHTO?"
 
 	para "Dort sollen viele"
-	line "seltene #mon"
+	line "seltene #MON"
 	cont "leben."
 	done
 

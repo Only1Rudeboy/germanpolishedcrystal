@@ -38,13 +38,15 @@ SSAquaCaptain:
 	iftrue_jumptextfaceplayer SSAquaCaptainHowDoYouLikeText
 	jumpthistextfaceplayer
 
-	text "Puh! Danke, dass"
+	; GSC-DE Dump
+	text "Wow! Danke, dass"
 	line "du mitgekommen"
 	cont "bist."
-	para "Das kleine Mädchen"
-	line "bei Laune zu"
-	cont "halten war"
-	cont "anstrengend."
+
+	para "Es war sehr"
+	line "schwer, das kleine"
+	cont "Mädchen bei Laune"
+	cont "zu halten."
 	done
 
 SSAquaGranddaughterBefore:
@@ -68,7 +70,13 @@ SSAquaGranddaughterBefore:
 	showemote EMOTE_SHOCK, FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_GENTLEMAN, 15
 	applymovement FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_TWIN1, SSAquaGranddaughterEntersCabinMovement
 	turnobject FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_GENTLEMAN, RIGHT
-	showtext SSAquaGranddaughterWasPlayingText
+	readvar VAR_PLAYERGENDER
+	ifequalfwd PLAYER_FEMALE, .FemalePlaying
+	showtext SSAquaGranddaughterWasPlayingMText
+	sjumpfwd .AfterPlaying
+.FemalePlaying:
+	showtext SSAquaGranddaughterWasPlayingFText
+.AfterPlaying:
 	turnobject FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_TWIN2, DOWN
 	applyonemovement FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_GENTLEMAN, step_down
 	opentext
@@ -114,6 +122,7 @@ SSAquaMachoBraceAndDocking:
 	endtext
 
 .NoRoomForMachoBrace:
+	; PC-only
 	text "Aber du kannst es"
 	line "nicht tragen! Ich"
 	cont "bewahre es für die"
@@ -131,60 +140,73 @@ SSAquaFoundGranddaughter:
 GenericTrainerPokefanmColin:
 	generictrainer POKEFANM, COLIN, EVENT_BEAT_POKEFANM_COLIN, PokefanmColinSeenText, PokefanmColinBeatenText
 
+	; GSC-DE Dump
 	text "Du reist ganz"
 	line "alleine?"
 
 	para "Ist deine Mutter"
 	line "nicht besorgt?"
 	done
+
 GenericTrainerTwinsMegandpeg1:
 	generictrainer TWINS, MEGANDPEG1, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg1SeenText, TwinsMegandpeg1BeatenText
 
-	text "'Baby' ist kein"
-	line "schöner Name für"
-	cont "Mädchen!"
+	; GSC-DE Dump
+	text "“Baby” ist kein"
+	line "schöner Name"
+	cont "für Mädchen!"
 	done
+
 GenericTrainerTwinsMegandpeg2:
 	generictrainer TWINS, MEGANDPEG2, EVENT_BEAT_TWINS_MEG_AND_PEG, TwinsMegandpeg2SeenText, TwinsMegandpeg2BeatenText
 
+	; GSC-DE Dump
 	text "Manchmal sind"
 	line "Kinder schlauer"
 	cont "als Erwachsene!"
 	done
+
 GenericTrainerPsychicRodney:
 	generictrainer PSYCHIC_T, RODNEY, EVENT_BEAT_PSYCHIC_RODNEY, PsychicRodneySeenText, PsychicRodneyBeatenText
 
+	; GSC-DE Dump
 	text "Ich verstehe! Man"
-	line "kann den"
-	cont "Radiosender aus"
-	cont "JOHTO auf dem"
-	cont "SCHNELL-BOOT"
-	cont "hören."
+	line "kann den Radio-"
+	cont "sender aus JOHTO"
+	cont "auf dem SCHNELL-"
+	cont "BOOT hören."
 	done
+
 GenericTrainerPokefanmJeremy:
 	generictrainer POKEFANM, JEREMY, EVENT_BEAT_POKEFANM_JEREMY, PokefanmJeremySeenText, PokefanmJeremyBeatenText
 
+	; GSC-DE Dump
 	text "Ich muss in den"
-	line "#mon-SALON, um"
+	line "#MON-SALON, um"
 	cont "sie zurechtmachen"
 	cont "zu lassen!"
 	done
+
 GenericTrainerPokefanfGeorgia:
 	generictrainer POKEFANF, GEORGIA, EVENT_BEAT_POKEFANF_GEORGIA, PokefanfGeorgiaSeenText, PokefanfGeorgiaBeatenText
 
-	text "Ach, ja! Ich muss"
-	line "meine #mon von"
+	; GSC-DE Dump
+	text "Oh, ja! Ich muss"
+	line "meine #MON von"
 	cont "der PENSION"
 	cont "abholen!"
 	done
+
 GenericTrainerSupernerdShawn:
 	generictrainer SUPER_NERD, SHAWN, EVENT_BEAT_SUPER_NERD_SHAWN, SupernerdShawnSeenText, SupernerdShawnBeatenText
 
+	; GSC-DE Dump
 	text "Der BALL, den du"
 	line "einsetzt, muss zu"
 	cont "der Situation"
 	cont "passen."
 	done
+
 SSAquaCaptainsCabinWarpsToGrandpasCabinMovement:
 	run_step_right
 	run_step_up
@@ -203,6 +225,7 @@ SSAquaGranddaughterEntersCabinMovement:
 
 
 SSAquaCaptainHowDoYouLikeText:
+	; GSC-DE Dump
 	text "Hat dir die Fahrt"
 	line "mit der M.S. AQUA"
 	cont "gefallen?"
@@ -212,18 +235,17 @@ SSAquaCaptainHowDoYouLikeText:
 	cont "die Wellen."
 	done
 
-
-
 SSAquaCantFindGranddaughterText:
-	text "Ach, hallo…"
+	; GSC-DE Dump
+	text "Oh, hallo…"
 
 	para "Ich kann meine"
 	line "Enkelin nirgendwo"
 	cont "finden."
 
 	para "Wenn sie an Bord"
-	line "ist, ist alles in"
-	cont "Ordnung."
+	line "ist, ist alles"
+	cont "in Ordnung."
 
 	para "Sie ist ein"
 	line "Energiebündel und"
@@ -234,52 +256,49 @@ SSAquaCantFindGranddaughterText:
 	cont "Sorgen…"
 	done
 
-
-
 SSAquaEntertainedGranddaughterText:
+	; GSC-DE Dump (<PLAYER> → <PLAYER>)
 	text "<PLAYER>, oder? Ich"
 	line "hörte, du hast"
 	cont "meine Enkelin bei"
 	cont "Laune gehalten."
+
 	para "Ich möchte dir"
 	line "dafür danken."
 	done
 
-
-
 SSAquaGrandpaHaveThisText:
+	; GSC-DE Dump
 	text "Ich möchte, dass"
 	line "du das nimmst!"
 	done
 
-
-
 SSAquaGrandpaTravellingText:
-	text "Wir reisen um die"
-	line "Welt."
+	; GSC-DE Dump
+	text "Wir reisen um"
+	line "die Welt."
 	done
 
-
-
 SSAquaGranddaughterCaptainPlayWithMeText:
+	; GSC-DE Dump
 	text "KAPITÄN, spielst"
 	line "du mit mir?"
 
-	para "Mir ist"
-	line "langweilig! Ich"
-	cont "möchte spielen!"
+	para "Mir ist langwei-"
+	line "lig! Ich möchte"
+	cont "spielen!"
 	done
 
-
-
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hallo! Willst du"
-	line "mit mir spielen?"
+	; GSC-DE Dump
+	text "Hi! Willst du"
+	line "mit mir"
+	cont "spielen?"
 
 	para "…Oh!"
 
-	para "Opa sorgt sich um"
-	line "mich?"
+	para "Opa sorgt sich"
+	line "um mich?"
 
 	para "Ich muss los!"
 
@@ -287,132 +306,128 @@ SSAquaGranddaughterHasToFindGrandpaText:
 	line "finden!"
 	done
 
+SSAquaGranddaughterWasPlayingMText:
+	; GSC-DE Dump
+	text "Hallo Opa, hier"
+	line "bin ich! Ich habe"
 
+	para "mit dem KAPITÄN"
+	line "und ihm hier"
+	cont "gespielt!"
+	done
 
-SSAquaGranddaughterWasPlayingText:
-	text "Opa, hier bin ich!"
-	line "Ich habe mit dem"
-	para "Kapitän und dem"
-	line "großen Kind"
+SSAquaGranddaughterWasPlayingFText:
+	; GSC-DE Dump
+	text "Hallo Opa, hier"
+	line "bin ich! Ich habe"
+
+	para "mit dem KAPITÄN"
+	line "und ihr hier"
 	cont "gespielt!"
 	done
 
 SSAquaGranddaughterHadFunText:
+	; GSC-DE Dump
 	text "Das Spielen hat"
 	line "mir Spaß gemacht!"
 	done
 
-
-
 PokefanmColinSeenText:
+	; GSC-DE Dump
 	text "Hey, Winzling!"
 	line "Möchtest du gegen"
 	cont "mich antreten?"
 	done
 
-
-
 PokefanmColinBeatenText:
+	; GSC-DE Dump
 	text "Du bist stark!"
 	done
 
-
-
 TwinsMegandpeg1SeenText:
-	text "Du denkst, ich bin"
-	line "noch ein Baby? Das"
-	cont "ist gemein!"
+	; GSC-DE Dump
+	text "Du denkst, ich"
+	line "bin noch ein Baby?"
+	cont "Das ist gemein!"
 	done
 
-
-
 TwinsMegandpeg1BeatenText:
-	text "Ach! Wir haben"
+	; GSC-DE Dump
+	text "Oh! Wir haben"
 	line "verloren!"
 	done
 
-
-
 TwinsMegandpeg2SeenText:
+	; GSC-DE Dump
 	text "Ich bin kein Baby!"
+
 	para "So etwas sagt man"
 	line "nicht zu einer"
 	cont "Dame!"
 	done
 
-
-
 TwinsMegandpeg2BeatenText:
-	text "Ach! Wir haben"
+	; GSC-DE Dump
+	text "Oh! Wir haben"
 	line "verloren!"
 	done
 
-
-
 PsychicRodneySeenText:
+	; GSC-DE Dump
 	text "Ssh! Mein Gehirn"
-	line "empfängt"
-	cont "Radiowellen!"
+	line "empfängt Radio-"
+	cont "wellen!"
 	done
 
-
-
 PsychicRodneyBeatenText:
+	; GSC-DE Dump
 	text "…Ich kann etwas"
 	line "hören!"
 	done
 
-
-
 PokefanmJeremySeenText:
+	; GSC-DE Dump
 	text "Was denkst du?"
-	line "Meine #mon sind"
+	line "Meine #MON sind"
 	cont "doch schön, oder?"
 	done
 
-
-
 PokefanmJeremyBeatenText:
-	text "Ach, nein! Meine"
-	line "schönen #mon!"
+	; GSC-DE Dump
+	text "Oh, nein! Meine"
+	line "schönen #MON!"
 	done
 
-
-
 PokefanfGeorgiaSeenText:
+	; GSC-DE Dump
 	text "Ich gehe ins"
 	line "EINKAUFSZENTRUM"
 	cont "und…"
 	done
 
-
-
 PokefanfGeorgiaBeatenText:
+	; GSC-DE Dump
 	text "Was wollte ich"
 	line "tun?"
 	done
 
-
-
 SupernerdShawnSeenText:
-	text "Was für #bälle"
-	line "hast du dabei?"
+	; GSC-DE Dump
+	text "Was für #-"
+	line "BÄLLE hast du"
+	cont "dabei?"
 	done
 
-
-
 SupernerdShawnBeatenText:
+	; GSC-DE Dump
 	text "Warte! Halt!"
 	line "Nicht! Bitte!"
 	done
 
-
-
 SSAquaHasArrivedVermilionText:
+	; GSC-DE Dump
 	text "Die M.S. AQUA legt"
 	line "in"
+
 	para "ORANIA CITY an."
 	done
-
-
-

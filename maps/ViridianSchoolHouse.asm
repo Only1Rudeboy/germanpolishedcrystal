@@ -114,10 +114,10 @@ PokemonJournalKiyoScript:
 	setflag ENGINE_READ_KIYO_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#mon-Journal"
 	para "Spezial:"
-	line "Karate-König Kiyo!"
-	para "Kiyo soll unter"
+	line "Karate-König KIYO!"
+	para "KIYO soll unter"
 	line "dem Meister aus"
 	cont "ANEMONIA CITY"
 	para "trainiert haben."

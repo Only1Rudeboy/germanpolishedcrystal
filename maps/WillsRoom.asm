@@ -78,47 +78,51 @@ WillScript:
 	end
 
 .SeenText:
+	; GSC-DE Dump 5505
 	text "Willkommen in der"
-	line "#mon-Liga,"
+	line "#MON LIGA,"
 	cont "<PLAYER>."
 	para "Erlaube mir, mich"
 	line "vorzustellen. Ich"
 	cont "bin WILLI."
-	para "Ich habe auf der"
-	line "ganzen Welt"
-	cont "trainiert und"
-	cont "meine"
-	cont "Psycho-#mon"
-	cont "gestärkt."
-	para "Endlich wurde ich"
-	line "in die TOP VIER"
-	cont "aufgenommen."
-	para "Ich kann nur noch"
-	line "stärker werden!"
+	para "Ich habe die ganze"
+	line "Welt bereist, um"
+	para "meine Psycho-#-"
+	line "MON zu verbessern."
+	para "Und schließlich"
+	line "habe ich es"
+	cont "in die TOP VIER"
+	cont "geschafft."
+	para "Ich werde ständig"
+	line "besser!"
 	para "Verlieren ist"
-	line "keine Option!"
+	line "keine Alternative!"
 	done
 .BeatenText:
-	text "Ich… ich kann es"
-	line "nicht glauben…"
+	; GSC-DE Dump 5506
+	text "Ich… ich kann…"
+	line "es nicht glauben…"
 	done
 .AfterText:
+	; GSC-DE Dump 5507
 	text "Auch wenn ich"
 	line "besiegt wurde,"
-	cont "halte ich an"
+	cont "werde ich an"
 	cont "meiner Überzeugung"
-	cont "fest."
-	para "Ich kämpfe weiter,"
-	line "bis ich besser bin"
-	cont "als alle anderen"
+	cont "festhalten."
+	para "Ich werde weiter"
+	line "kämpfen, bis ich"
+	para "besser bin, als"
+	line "alle anderen"
 	cont "Trainer!"
 	para "<PLAYER>, schreite"
 	line "voran und lerne"
-	cont "die Grausamkeit"
-	cont "der TOP VIER"
+	para "die Grausamkeit"
+	line "der TOP VIER"
 	cont "kennen."
 	done
 .SeenRematchText:
+	; PC-only DE
 	text "So, du bist"
 	line "endlich"
 	cont "erschienen."
@@ -131,6 +135,7 @@ WillScript:
 	cont "Kampf!"
 	done
 .AfterRematchText:
+	; PC-only DE
 	text "Ich habe all meine"
 	line "Kraft verbraucht."
 	para "Ich bereue nicht,"

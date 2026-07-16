@@ -18,16 +18,17 @@ Route1ViridianGate_MapScriptHeader:
 	object_event  6,  4, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route1ViridianGateRockerText, -1
 
 Route1ViridianGateOfficerText:
+	; PC-only Gate (CAPS)
 	text "Im Süden liegt"
 	line "ALABASTIA."
-	para "Dort wohnt Prof."
-	line "Eich."
+	para "Dort wohnt"
+	line "PROF. EICH."
 	done
 
 Route1ViridianGateRockerText:
+	; PC-only Gate (CAPS)
 	text "Wenn du genau"
 	line "nachdenkst,"
-
 	para "sind wir ALLE auf"
 	line "dem Weg nach"
 	cont "VERTANIA CITY?"

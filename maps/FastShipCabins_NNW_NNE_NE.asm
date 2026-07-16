@@ -28,6 +28,7 @@ FastShipCabins_NNW_NNE_NE_MapScriptHeader:
 GenericTrainerPILooker:
 	generictrainer PI, LOOKER, EVENT_BEAT_PI_LOOKER, PILookerSeenText, PILookerBeatenText
 
+	; PC-only
 	text "Mein Deckname ist"
 	line "Looker."
 
@@ -48,54 +49,70 @@ GenericTrainerPILooker:
 GenericTrainerCooltrainermSean:
 	generictrainer COOLTRAINERM, SEAN, EVENT_BEAT_COOLTRAINERM_SEAN, CooltrainermSeanSeenText, CooltrainermSeanBeatenText
 
+	; GSC-DE Dump
 	text "Trainer aus JOHTO"
 	line "können gegen die"
 
 	para "ARENALEITER aus"
 	line "KANTO antreten."
 	done
+
 GenericTrainerCooltrainerfCarol:
 	generictrainer COOLTRAINERF, CAROL, EVENT_BEAT_COOLTRAINERF_CAROL, CooltrainerfCarolSeenText, CooltrainerfCarolBeatenText
 
+	; GSC-DE Dump
 	text "Eines Tages werde"
 	line "ich dich besiegen!"
 	done
+
 GenericTrainerPokemaniacEthan:
 	generictrainer POKEMANIAC, ETHAN, EVENT_BEAT_POKEMANIAC_ETHAN, PokemaniacEthanSeenText, PokemaniacEthanBeatenText
 
+	; GSC-DE Dump
 	text "LILLY ist gut,"
 	line "aber MARGIT ist"
 	cont "die Beste!"
+
 	para "Ich möchte gerne"
 	line "alle Radiosender"
 	cont "von JOHTO anhören!"
 	done
+
 GenericTrainerHikerNoland:
 	generictrainer HIKER, NOLAND, EVENT_BEAT_HIKER_NOLAND, HikerNolandSeenText, HikerNolandBeatenText
 
+	; GSC-DE Dump
 	text "Ich frage mich, ob"
 	line "es in KANTO Berge"
+
 	para "gibt, die eine"
 	line "Besteigung wert"
 	cont "sind?"
 	done
+
 GenericTrainerGentlemanEdward:
 	generictrainer GENTLEMAN, EDWARD, EVENT_BEAT_GENTLEMAN_EDWARD, GentlemanEdwardSeenText, GentlemanEdwardBeatenText
 
+	; GSC-DE Dump
 	text "Ich gebe auf. Du"
 	line "musst nicht danach"
-	para "suchen. Vergiss es"
-	line "einfach!"
+
+	para "suchen. Vergiss"
+	line "es einfach!"
 	done
+
 GenericTrainerBurglarCorey:
 	generictrainer BURGLAR, COREY, EVENT_BEAT_BURGLAR_COREY, BurglarCoreySeenText, BurglarCoreyBeatenText
 
-	text "Ich habe hier eine"
-	line "tolle Münze"
+	; GSC-DE Dump
+	text "Ich habe hier"
+	line "eine tolle Münze"
+
 	para "gefunden. Jemand"
 	line "muss sie verloren"
-	cont "haben …"
+	cont "haben…"
 	done
+
 FastShipLazySailorScript:
 	special SaveMusic
 	playmusic MUSIC_HIKER_ENCOUNTER
@@ -142,6 +159,7 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 PILookerSeenText:
+	; PC-only
 	text "WAAAS?!"
 	para "…Wie hast du das"
 	line "gewusst?"
@@ -152,158 +170,115 @@ PILookerSeenText:
 	done
 
 PILookerBeatenText:
+	; PC-only
 	text "Sehr"
 	line "bewundernswert,"
 	cont "das musst du sein!"
 	done
 
 CooltrainermSeanSeenText:
+	; GSC-DE Dump
 	text "Ich werde mein"
 	line "Können in KANTO"
 	cont "testen."
 	done
 
-
-
-
-
 CooltrainermSeanBeatenText:
+	; GSC-DE Dump
 	text "Ich wollte"
 	line "gewinnen!"
 	done
 
-
-
-
-
 CooltrainerfCarolSeenText:
+	; GSC-DE Dump
 	text "Ich trainiere, um"
 	line "der CHAMP zu"
 	cont "werden!"
 	done
 
-
-
-
-
 CooltrainerfCarolBeatenText:
-	text "Worin"
-	line "unterscheiden wir"
-	cont "uns?"
+	; GSC-DE Dump
+	text "Worin unter-"
+	line "scheiden wir uns?"
 	done
 
-
-
-
-
 PokemaniacEthanSeenText:
+	; GSC-DE Dump
 	text "Kennst du LILLY?"
 	line "Sie ist ein klasse"
 	cont "DJ in KANTO."
 	done
 
-
-
-
-
 PokemaniacEthanBeatenText:
+	; GSC-DE Dump
 	text "Uargh!"
 	done
 
-
-
-
-
 HikerNolandSeenText:
+	; GSC-DE Dump
 	text "Bist du allein?"
 	line "Lass uns kämpfen!"
 	done
 
-
-
-
-
 HikerNolandBeatenText:
+	; GSC-DE Dump
 	text "Das ist zu viel"
 	line "für mich!"
 	done
 
-
-
-
-
 SailorStanlySeenText:
+	; GSC-DE Dump
 	text "Richtig, ich bin"
 	line "ein Matrose."
+
 	para "Ich habe nicht"
 	line "gefaulenzt!"
+
 	para "Die Kabine war"
 	line "frei, darum habe"
 	cont "ich ein Nickerchen"
 	cont "gemacht!"
-	para "Was soll's! Lass"
-	line "uns kämpfen!"
+
+	para "Was soll's!"
+	line "Lass uns kämpfen!"
 	done
 
-
-
-
-
 SailorStanlyBeatenText:
+	; GSC-DE Dump
 	text "Es war alles meine"
 	line "Schuld!"
 	done
 
-
-
-
-
 SailorStanlyAfterBattleText:
+	; GSC-DE Dump
 	text "Als Matrose muss"
 	line "man körperlich"
 	cont "arbeiten. Das ist"
 	cont "sehr anstrengend!"
 	done
 
-
-
-
-
 GentlemanEdwardSeenText:
-	text "Ach, nein. Ich"
+	; GSC-DE Dump
+	text "Oh, nein. Ich"
 	line "habe etwas sehr"
-	cont "Wichtiges"
-	cont "verloren."
+	cont "Wichtiges ver-"
+	cont "loren."
 	done
 
-
-
-
-
 GentlemanEdwardBeatenText:
+	; GSC-DE Dump
 	text "Ich… ich kann es"
 	line "nicht finden…"
 	done
 
-
-
-
-
 BurglarCoreySeenText:
-	text "Juhu! Was für ein"
-	line "Glück!"
+	; GSC-DE Dump
+	text "Juhu!"
+	line "Was für ein Glück!"
 	done
-
-
-
-
 
 BurglarCoreyBeatenText:
-	text "Pech gehabt! Ich"
-	line "habe verloren!"
+	; GSC-DE Dump
+	text "Pech gehabt!"
+	line "Ich habe verloren!"
 	done
-
-
-
-
-

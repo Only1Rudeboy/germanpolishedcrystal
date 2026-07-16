@@ -17,15 +17,17 @@ Route2Gate_MapScriptHeader:
 	object_event  6,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route2GateScientistText, -1
 
 Route2GateScientistText:
+	; GSC-DE Dump 3628 (<PLAYER>→<PLAYER>)
 	text "Bist du <PLAYER>?"
 	para "Ich bin der"
 	line "ASSISTENT von"
 	cont "PROF. EICH."
 	para "Ich wusste nicht,"
-	line "dass du hier bist."
+	line "dass du hier"
+	cont "bist."
 	para "PROF. EICHs LABOR"
-	line "ist gleich hier in"
-	cont "ALABASTIA."
+	line "ist gleich hier"
+	cont "in ALABASTIA."
 	done
 
 

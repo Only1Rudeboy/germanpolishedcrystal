@@ -16,7 +16,8 @@ Route28_MapScriptHeader:
 
 	def_object_events
 
-Route28SignText: ; text > text
+Route28SignText:
+	; GSC-DE Dump 6800 (SILBERBERG-Anfahrt; Gate 3632-3633 = PokemonLeagueGate)
 	text "ROUTE 28"
 	done
 

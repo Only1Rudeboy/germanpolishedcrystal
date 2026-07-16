@@ -86,9 +86,9 @@ OlivinePortSailorAtGangwayScript:
 OlivinePortAlreadyRodeScript:
 	jumpthisopenedtext
 
-	text "Tut mir leid. Du"
-	line "kannst jetzt nicht"
-	cont "an Bord gehen."
+	; GSC-DE Dump
+	text "Du darfst jetzt"
+	line "nicht an Bord."
 	done
 
 
@@ -263,23 +263,26 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "Wir legen bald ab!"
-	line "Geh an Bord."
+	; GSC-DE Dump
+	text "Wir legen bald"
+	line "ab! Geh an"
+	cont "Bord."
 	done
 
 
-
 OlivinePortAskBoardText:
-	text "Willkommen auf dem"
-	line "SCHNELLBOOT M.S."
-	cont "AQUA."
+	; GSC-DE Dump
+	text "Willkommen auf "
+	line "dem SCHNELLBOOT"
+	cont "M.S. AQUA."
+
 	para "Trittst du heute"
 	line "deine Reise an?"
 	done
 
 
-
 OlivinePortAskTicketText:
+	; GSC-DE Dump
 	text "Zeige mir bitte"
 	line "dein"
 
@@ -287,99 +290,103 @@ OlivinePortAskTicketText:
 	done
 
 
-
 OlivinePortComeAgainText:
+	; GSC-DE Dump
 	text "Komm jederzeit"
 	line "wieder vorbei!"
 	done
 
 
-
 OlivinePortFlashTicketText:
-	text "<PLAYER> zeigt das"
-	line "BOOTSTICKET."
-	para "In Ordnung. Danke"
-	line "schön!"
-	done
+	; GSC-DE Dump
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET."
 
+	para "In Ordnung."
+	line "Danke schön!"
+	done
 
 
 OlivinePortNoTicketText:
-	text "<PLAYER> sucht das"
-	line "BOOTS-TICKET…"
+	; GSC-DE Dump
+	text "<PLAYER> sucht"
+	line "das BOOTS-"
+	cont "TICKET…"
+
 	para "…Kein TICKET!"
-	para "Tut mir Leid! Du"
-	line "darfst nur"
-	para "mit TICKET an"
-	line "Bord."
+
+	para "Tut mir Leid!"
+	line "Du darfst nur"
+
+	para "mit TICKET"
+	line "an Bord."
 	done
 
 
-
 OlivinePortMondayShipText:
+	; GSC-DE Dump
 	text "Das SCHNELLBOOT"
 	line "legt nächsten"
 	cont "Montag ab."
 	done
 
 
-
 OlivinePortFridayShipText:
+	; GSC-DE Dump
 	text "Das SCHNELLBOOT"
 	line "legt nächsten"
 	cont "Freitag ab."
 	done
 
 
-
 OlivinePortFishingGuru1Text:
+	; GSC-DE Dump
 	text "Hier kannst du"
 	line "MUSCHAS leicht"
+
 	para "fangen. An anderen"
 	line "Orten sind sie"
 	cont "seltener."
 	done
 
 
-
 OlivinePortFishingGuru2Text:
+	; GSC-DE Dump
 	text "Wie viele ANGELN"
 	line "hast du?"
 
 	para "Mit verschiedenen"
 	line "ANGELN, fängst du"
 	cont "verschiedene"
-	cont "#mon."
+	cont "#MON."
 	done
-
 
 
 OlivinePortYoungsterText:
+	; GSC-DE Dump
 	text "M.S. AQUA benutzt"
-	line "Spezialdüsen, um"
-	cont "über die Wellen zu"
-	cont "gleiten!"
+	line "Spezialdüsen,"
+	cont "um über die Wellen"
+	cont "zu gleiten!"
 	done
 
 
-
 OlivinePortCooltrainerFText:
+	; GSC-DE Dump
 	text "In KANTO gibt es"
-	line "viele #mon."
+	line "viele #MON."
 
 	para "Ich wünschte, ich"
 	line "könnte dorthin…"
 	done
 
 
-
 OlivinePortSailorBeforeHOFText:
+	; GSC-DE Dump
 	text "Wir wollen nicht,"
 	line "dass du ins Wasser"
+
 	para "fällst. Darum"
 	line "lassen wir dich"
 	cont "nicht herein."
 	done
-
-
-

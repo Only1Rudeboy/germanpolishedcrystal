@@ -30,25 +30,23 @@ Route21_MapScriptHeader:
 GenericTrainerSwimmerfNikki:
 	generictrainer SWIMMERF, NIKKI, EVENT_BEAT_SWIMMERF_NIKKI, SwimmerfNikkiSeenText, SwimmerfNikkiBeatenText
 
-	text "Ich muss mich vor"
-	line "Hautreizungen in"
-	cont "Acht nehmen."
+	; GSC-DE Dump 7112
+	text "Ich muss mich"
+	line "vor Hautreizungen"
+	cont "in Acht nehmen."
 	done
 SwimmerfNikkiSeenText:
+	; GSC-DE Dump 7110
 	text "Falls ich gewinne,"
 	line "musst du mich mit"
 	cont "der Sonnencreme"
 	cont "einreiben!"
 	done
 
-
-
-
-
 SwimmerfNikkiBeatenText:
+	; GSC-DE Dump 7111
 	text "Ich habe Angst vor"
-	line "einem Sonnenbrand"
-	cont "…"
+	line "einem Sonnenbrand…"
 	done
 
 
@@ -144,20 +142,19 @@ GenericTrainerSwimmermDuane:
 GenericTrainerSwimmermSeth:
 	generictrainer SWIMMERM, SETH, EVENT_BEAT_SWIMMERM_SETH, SwimmermSethSeenText, SwimmermSethBeatenText
 
+	; GSC-DE Dump 7109
 	text "Dieser arrogante"
 	line "Typ war beim"
 	cont "Vulkan auf der"
 	cont "ZINNOBERINSEL."
 	done
 SwimmermSethSeenText:
+	; GSC-DE Dump 7107
 	text "Mach weiter so!"
 	done
 
-
-
-
-
 SwimmermSethBeatenText:
+	; GSC-DE Dump 7108
 	text "Gluck…"
 	done
 
@@ -191,20 +188,19 @@ GenericTrainerFisherMurphy:
 GenericTrainerFisherArnold:
 	generictrainer FISHER, ARNOLD, EVENT_BEAT_FISHER_ARNOLD, FisherArnoldSeenText, FisherArnoldBeatenText
 
+	; GSC-DE Dump 7115
 	text "Ich gehe zurück"
 	line "zum Angeln…"
 	done
 FisherArnoldSeenText:
+	; GSC-DE Dump 7113
 	text "Angeln langweilt"
 	line "mich. Lass uns"
 	cont "kämpfen!"
 	done
 
-
-
-
-
 FisherArnoldBeatenText:
+	; GSC-DE Dump 7114
 	text "Total versagt…"
 	done
 

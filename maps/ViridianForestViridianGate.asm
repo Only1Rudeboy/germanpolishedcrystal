@@ -19,7 +19,6 @@ ViridianForestViridianGate_MapScriptHeader:
 ViridianForestViridianGateOfficerText:
 	text "Sei vorsichtig,"
 	line "der VERTANIA-WALD"
-
 	para "ist ein"
 	line "natürliches"
 	cont "Labyrinth!"

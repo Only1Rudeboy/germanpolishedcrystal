@@ -52,19 +52,15 @@ ViridianGymBlueScript:
 	setevent EVENT_GOT_TM71_STONE_EDGE
 	jumpthisopenedtext
 
-	text "Er enthält Stone"
-	line "Edge. Nicht nur"
-	cont "für"
-	para "Gesteins-#mon,"
-	line "verstanden?"
-	para "…"
-	para "Okay, ich lag"
-	line "falsch. Du bist"
-	para "echt gut. Du bist"
-	line "ein guter Trainer."
-	para "Mit acht Orden aus"
-	line "Kanto kannst"
-	para "du die Top Vier"
+	; PC: TM71 Steinkante + Rematch-Hinweis
+	text "TM71 enthält"
+	line "Steinkante."
+	para "Nicht nur für"
+	line "Gesteins-#mon,"
+	cont "verstanden?"
+	para "Mit acht ORDEN aus"
+	line "KANTO kannst"
+	para "du die TOP VIER"
 	line "wieder"
 	cont "herausfordern."
 	para "Die gehen nicht"
@@ -72,16 +68,12 @@ ViridianGymBlueScript:
 	cont "der zwei Regionen"
 	cont "schlug."
 	para "Du kannst mit mir"
-	line "im Kampf-Dojo in"
-	para "Saffronia montags"
+	line "im KAMPFDOJO in"
+	para "SAFFRONIA montags"
 	line "trainieren."
-	para "Alle Arenaleiter"
+	para "Alle ARENALEITER"
 	line "sind dort zum"
 	cont "Trainieren."
-	para "Ich werde dich"
-	line "eines Tages"
-	cont "schlagen."
-	para "Vergiss das nicht!"
 	done
 
 ViridianGymGuyScript:
@@ -89,25 +81,21 @@ ViridianGymGuyScript:
 	iftrue_jumptextfaceplayer ViridianGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "He! Ein CHAMP in"
-	line "spe!"
-
+	; GSC-DE Dump 3598
+	text "He! Ein CHAMP"
+	line "in spe!"
 	para "Wie läuft es so?"
 	line "Du hast wohl"
 	cont "gerade eine"
 	cont "Glückssträhne."
-
 	para "Der ARENALEITER"
 	line "hat den CHAMP"
-
 	para "vor drei Jahren"
 	line "besiegt."
-
 	para "Das wird kein"
 	line "Kinderspiel!"
-
-	para "Gib alles, was du"
-	line "hast!"
+	para "Gib alles, was"
+	line "du hast!"
 	done
 GenericTrainerAceDuoAraandbela1:
 	generictrainer ACE_DUO, ARAANDBELA1, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela1SeenText, AceDuoAraandbela1BeatenText
@@ -171,43 +159,77 @@ ViridianGymStatue:
 	jumpstd gymstatue2
 
 LeaderBlueBeforeText:
-	text "Yo! Endlich bist"
-	line "du da!"
-	para "Ich bin BLAU - der"
-	line "ehemalige CHAMP!"
-	para "Und jetzt"
-	line "ARENALEITER von"
-	cont "VERTANIA CITY!"
-	para "Zeig mir, was du"
-	line "gelernt hast!"
+	; GSC-DE Dump 3593
+	text "BLAU: He! Hast du"
+	line "es endlich hierher"
+	cont "geschafft?"
+	para "Auf den ZINNOBER-"
+	line "INSELN war mir"
+	para "nicht danach, aber"
+	line "jetzt können wir"
+	cont "kämpfen."
+	para "…"
+	para "Willst du etwa"
+	line "behaupten, du"
+	para "hättest alle"
+	line "ARENALEITER in"
+	cont "JOHTO besiegt?"
+	para "He! Dann müssen"
+	line "die ARENALEITER in"
+	cont "JOHTO ziemliche"
+	cont "Jammerlappen sein."
+	para "Aber - nur"
+	line "keine Bange."
+	para "Ich werde dir"
+	line "sofort sagen, ob"
+	para "du ein guter"
+	line "Kämpfer bist."
+	para "Fertig, JOHTO-"
+	line "CHAMP?"
 	done
+
 LeaderBlueWinText:
-	text "Was? Wie konnte"
-	line "ich verlieren?"
-	para "…Naja. Nimm den"
-	line "ERDEORDEN!"
+	; GSC-DE Dump 3594
+	text "BLAU: Was?"
+	para "Wie zum Teufel"
+	line "konnte ich gegen"
+	cont "dich verlieren?"
+	para "…"
+	para "Also gut…"
+	line "Hier, nimm das -"
+	cont "es ist der"
+	cont "ERDORDEN."
 	done
+
 LeaderBlueAfterText:
-	text "Der ERDEORDEN… er"
-	line "macht #mon"
-	cont "gehorsamer."
-	para "Außerdem kannst du"
-	line "damit STRENGTH"
-	cont "außerhalb nutzen."
-	para "Hier, nimm auch"
-	line "diese TM!"
+	; GSC-DE Dump 3596
+	text "BLAU: …"
+	para "In Ordnung. Ich"
+	line "hatte Unrecht. Du"
+	para "bist nicht aus"
+	line "Watte, sondern ein"
+	cont "guter Trainer."
+	para "Aber eines Tages"
+	line "werde ich dich"
+	para "besiegen. Ich"
+	line "vergesse dich"
+	cont "nicht!"
 	done
+
 LeaderBlueEpilogueText:
-	text "Hör zu. Du bist"
-	line "stark, aber werde"
-	cont "nicht übermütig!"
-	para "Es gibt immer"
-	line "jemanden, der"
-	cont "stärker ist!"
+	; GSC-DE Dump 3597
+	text "BLAU: Hör gut zu."
+	para "Es bekommt dir"
+	line "besser, nicht zu"
+	cont "verlieren, bis ich"
+	cont "dich besiegt habe!"
+	cont "Klar?"
 	done
+
 ViridianGymGuyWinText:
+	; GSC-DE Dump 3599
 	text "Junge, Junge! Du"
-	line "bist sehr stark …"
+	line "bist sehr stark…"
 	para "Das war vielleicht"
 	line "ein erfrischender"
 	para "Kampf. Er hat mir"
