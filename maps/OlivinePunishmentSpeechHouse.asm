@@ -16,23 +16,22 @@ OlivinePunishmentSpeechHouse_MapScriptHeader:
 	object_event  5,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivinePunishmentSpeechHouseDaughterText, -1
 
 OlivinePunishmentSpeechHouseDadText:
+	; GSC-DE Dump
 	text "Auf dem Weg nach"
 	line "ANEMONIA CITY"
 	para "siehst du vier"
 	line "verlassene Inseln."
 	para "Ungezogene Kinder"
-	line "werden zur"
-	cont "Bestrafung auf"
-	cont "diese Inseln"
-	cont "geschickt!"
+	line "werden zur Bestra-"
+	cont "fung auf diese In-"
+	cont "seln geschickt!"
 	done
 
-
 OlivinePunishmentSpeechHouseDaughterText:
+	; GSC-DE Dump
 	text "Wenn ich ungezogen"
-	line "bin, macht mir"
-	cont "Papa mit"
-	cont "gruseligen"
+	line "bin, macht mir Pa-"
+	cont "pa mit gruseligen"
 	cont "Geschichten Angst."
 	done
 

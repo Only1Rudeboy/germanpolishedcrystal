@@ -26,20 +26,16 @@ OlivineLighthouse4F_MapScriptHeader:
 GenericTrainerLassConnie:
 	generictrainer LASS, CONNIE, EVENT_BEAT_LASS_CONNIE, LassConnieSeenText, LassConnieBeatenText
 
-	text "Klar. Jeder wäre"
-	line "besorgt,"
-
-	para "wenn sein eigenes"
-	line "#mon verletzt"
-	cont "wäre."
-
-	para "Ich bete für das"
-	line "#mon hier,"
-	cont "damit"
-
-	para "JASMIN wieder in"
-	line "die ARENA kommen"
-	cont "kann."
+	; GSC-DE Dump
+	text "O.K. Jeder wäre"
+	line "besorgt, wenn"
+	cont "seine #MON"
+	cont "verletzt sind."
+	para "Ich werde für das"
+	line "#MON beten,"
+	para "dann kann JASMIN"
+	line "in die PKMN-ARENA"
+	cont "zurückkehren."
 	done
 
 TrainerSailorKent:
@@ -51,6 +47,7 @@ SailorKentScript:
 	iftrue_jumptextfaceplayer SailorKentFinalText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Apropos krank: Mir"
 	line "ist zu Ohren"
 	para "gekommen, dass es"
@@ -58,34 +55,27 @@ SailorKentScript:
 	cont "eine gute APOTHEKE"
 	cont "geben soll."
 	done
+
 SailorKentSeenText:
+	; GSC-DE Dump
 	text "JASMIN muss krank"
 	line "vor Sorge um das"
-	cont "#mon hier sein."
-
+	cont "#MON hier sein."
 	para "Man sieht sie"
 	line "momentan nicht"
 	cont "einmal lächeln."
 	done
 
-
-
-
-
-
 SailorKentBeatenText:
-	text "Ich habe im Moment"
-	line "auch nichts zu"
-	cont "lachen …"
+	; GSC-DE Dump
+	text "Ich habe im"
+	line "Moment auch nichts"
+	cont "zu lachen…"
 	done
 
-
-
-
-
-
 SailorKentFinalText:
-	text "Das #mon hier"
+	; PC
+	text "Das #MON hier"
 	line "ist wieder gesund."
 	para "Die"
 	line "Anemonia-Apotheke"
@@ -94,19 +84,20 @@ SailorKentFinalText:
 	done
 
 LassConnieSeenText:
+	; GSC-DE Dump
 	text "JASMIN ist die"
 	line "ARENALEITERIN in"
 	cont "dieser Stadt."
-
 	para "Ich möchte, dass"
 	line "sie mit mir"
 	cont "zurückkommt."
-
 	para "Es ist besser,"
 	line "niemand stellt"
 	cont "sich mir in den"
 	cont "Weg!"
 	done
+
 LassConnieBeatenText:
-	text "Uh! Meine #mon!"
+	; GSC-DE Dump
+	text "Uh! Meine #MON!"
 	done

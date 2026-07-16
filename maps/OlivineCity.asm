@@ -140,8 +140,9 @@ OlivineCityYoungster1Script:
 	iffalse_jumptextfaceplayer OlivineCityStandingYoungsterPokedexText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Dieses Ding da ist"
-	line "doch ein #Com."
+	line "doch ein #COM."
 	cont "Wow, das ist cool!"
 	done
 OlivineCityPokefanMScript:
@@ -195,89 +196,99 @@ OlivineCityMovementData_RivalLeavesLighthouse:
 	step_end
 
 OlivineCityRivalGymText:
+	; GSC-DE Dump
 	text "…"
 	para "Du schon wieder?"
-	para "Kein Grund zur"
-	line "Panik. Mit"
-	cont "Verlierern wie dir"
-	cont "gebe ich mich"
-	cont "nicht ab."
+	para "Kein Grund zur Pa-"
+	line "nik. Mit Verlie-"
+	cont "rern wie dir gebe"
+	cont "ich mich nicht ab."
 	para "Apropos Verlierer:"
-	line "Die ARENALEITERIN"
-	cont "dieser Stadt ist"
-	cont "nicht hier."
+	line "die ARENALEITERIN"
+	para "dieser Stadt ist"
+	line "nicht hier."
 	para "Sie kümmert sich"
-	line "wohl um ein"
-	cont "krankes #mon im"
-	cont "LEUCHTTURM."
-	para "Hmpf! Bu-huu! Wozu"
-	line "soll das gut sein?"
-	para "Ein #mon, das"
+	line "wohl gerade um ein"
+	para "krankes #MON im"
+	line "LEUCHTTURM."
+	para "Hmpf! Bu-Huu!"
+	line "Wozu soll das nur"
+	cont "gut sein?"
+	para "Ein #MON, das"
 	line "nicht kämpfen"
 	cont "kann, ist wertlos!"
 	para "Warum trainierst"
 	line "du nicht im"
 	cont "LEUCHTTURM?"
-	para "Wer weiß"
-	line "-vielleicht wirst"
-	cont "du dadurch ein"
-	cont "wenig stärker!"
+	para "Wer weiß, viel-"
+	line "leicht wirst du"
+	cont "dadurch ein wenig"
+	cont "stärker!"
 	done
+
 OlivineCityRivalLighthouseText:
+	; GSC-DE Dump
 	text "…"
 	para "Du schon wieder?"
-	para "Kein Grund zur"
-	line "Panik. Mit"
-	cont "Verlierern wie dir"
-	cont "gebe ich mich"
-	cont "nicht ab."
+	para "Kein Grund zur Pa-"
+	line "nik. Mit Verlie-"
+	cont "rern wie dir gebe"
+	cont "ich mich nicht ab."
 	para "Apropos Verlierer:"
-	line "Die ARENALEITERIN"
-	cont "dieser Stadt ist"
-	cont "nicht hier."
+	line "die ARENALEITERIN"
+	para "dieser Stadt ist"
+	line "nicht hier."
 	para "Sie kümmert sich"
-	line "wohl um ein"
-	cont "krankes #mon im"
-	cont "LEUCHTTURM."
-	para "Hmpf! Bu-huu! Wozu"
-	line "soll das gut sein?"
-	para "Ein #mon, das"
+	line "wohl gerade um ein"
+	para "krankes #MON im"
+	line "LEUCHTTURM."
+	para "Hmpf! Bu-Huu!"
+	line "Wozu soll das nur"
+	cont "gut sein?"
+	para "Ein #MON, das"
 	line "nicht kämpfen"
 	cont "kann, ist wertlos!"
 	para "Warum trainierst"
 	line "du nicht im"
 	cont "LEUCHTTURM?"
-	para "Wer weiß"
-	line "-vielleicht wirst"
-	cont "du dadurch ein"
-	cont "wenig stärker!"
+	para "Wer weiß, viel-"
+	line "leicht wirst du"
+	cont "dadurch ein wenig"
+	cont "stärker!"
 	done
+
 OlivineCityStandingYoungsterPokedexText:
+	; GSC-DE Dump
 	text "Wow, du hast einen"
 	line "#DEX!"
 	para "Das ist so toll!"
 	done
+
 OlivineCitySailor1Text:
+	; GSC-DE Dump
 	text "Nachts sind dunkle"
-	line "Straßen"
-	cont "gefährlich."
+	line "Straßen gefähr-"
+	cont "lich."
 	para "Auch das Meer"
-	line "wirkt bedrohlicher"
-	cont "in pechschwarzer"
-	cont "Finsternis!"
+	line "wirkt viel bedroh-"
+	cont "licher in der"
+	para "pechschwarzen"
+	line "Finsternis!"
 	para "Ohne das Licht des"
 	line "LEUCHTTURMs könnte"
-	cont "kein Schiff das"
-	cont "Meer bereisen."
+	para "kein Schiff das"
+	line "Meer bereisen."
 	done
+
 OlivineCitySailor2Text:
+	; GSC-DE Dump
 	text "Die See ist schön!"
 	para "Sonnenuntergänge"
 	line "über dem Meer sind"
 	cont "wundervoll!"
 	para "Sing mit mir!"
 	line "Yo-ho! Seebären"
-	cont "sind so cool! …"
+	cont "sind so cool!…"
 	done
 
 
@@ -378,61 +389,43 @@ OlivineCityLass2Text:
 	done
 
 OlivineCitySignText:
+	; GSC-DE Dump
 	text "OLIVIANA CITY"
-
 	para "Das Tor zu einer"
 	line "neuen Welt"
 	done
 
-
-
-
-
-
 OlivineCityPortSignText:
+	; GSC-DE Dump
 	text "HAFEN von OLIVIANA"
 	line "CITY"
 	cont "SCHNELLBOOT-PIER"
 	done
 
-
-
-
-
-
 OlivineGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "OLIVIANA CITY"
 	cont "LEITUNG: JASMIN"
-
 	para "Ein stahlhartes"
 	line "Mädchen!"
 	done
 
-
-
-
-
-
 OlivineLighthouseSignText:
+	; GSC-DE Dump
 	text "LEUCHTTURM von"
 	line "OLIVIANA CITY,"
 	cont "auch bekannt als"
-	cont "GLITZER-LEUCHTTU-"
-	cont "RM"
+	cont "GLITZER-LEUCHTTURM"
 	done
-	
-	
-	
-	
-	
-	
+
 OlivineCityBattleTowerSignText:
-	text "DUELLTURM"
-	line "Geradeaus Jetzt"
-	cont "geöffnet!"
+	; GSC-DE Dump
+	text "DUELLTURM VORAUS"
+	line "Geöffnet!"
 	done
 
 OlivineCityCafeSignText:
+	; PC sign (no dump)
 	text "OLIVIANA CITY-CAFE"
 	done

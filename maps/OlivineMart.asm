@@ -17,28 +17,27 @@ OlivineMart_MapScriptHeader:
 	object_event  1,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineMartLassText, -1
 
 OlivineMartCooltrainerFText:
-	text "Können deine"
-	line "#mon schon"
-	cont "Leute"
-	para "übers Wasser"
-	line "tragen?"
+	; GSC-DE Dump
+	text "Können deine #-"
+	line "MON schon Leute"
+	para "übers Wasser tra-"
+	line "gen?"
 	done
 
-
-
 OlivineMartLassText:
+	; GSC-DE Dump
 	text "Ich habe mein"
 	line "SMETTBO von meinem"
 	cont "Freund aus Übersee"
 	cont "bekommen."
 	para "Es hatte einen"
-	line "BRIEF von ihm"
-	cont "dabei."
+	line "BRIEF von ihm da-"
+	cont "bei."
 	para "Willst du wissen,"
 	line "was er schreibt?"
-	para "Mal sehen … Oh!"
-	line "Das ist ein"
-	cont "Geheimnis!"
+	para "Mal sehen… Oh!"
+	line "Das ist ein Ge-"
+	cont "heimnis!"
 	done
 
 

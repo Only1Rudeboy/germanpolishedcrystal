@@ -124,7 +124,7 @@ EcruteakShrineInsideReiGreetingText:
 
 	para "Bist du gekommen,"
 	line "damit ich eines"
-	cont "deiner #mon"
+	cont "deiner #MON"
 	cont "segnen soll?"
 
 	para "Oder möchtest du"
@@ -133,7 +133,7 @@ EcruteakShrineInsideReiGreetingText:
 
 EcruteakShrineInsideReiBlessText:
 	text "Rei: O.K., welches"
-	line "#mon soll ich"
+	line "#MON soll ich"
 	cont "segnen?"
 	done
 
@@ -148,6 +148,7 @@ EcruteakShrineInsideHappinessText:
 	text "sieht zufrieden"
 	line "aus."
 	done
+
 EcruteakShrineInsideReiBattleText:
 	text "Rei: Sehr gut."
 	line "Böse Geister,"
@@ -157,8 +158,6 @@ EcruteakShrineInsideReiBattleText:
 EcruteakShrineInsideReiBeatenText:
 	text "Ich gebe auf!"
 	done
-
-
 
 EcruteakShrineInsideGrampsText:
 	text "Die Schreinjungfer"
@@ -170,21 +169,22 @@ EcruteakShrineInsideSageText:
 	text "Die meisten hier"
 	line "im Schrein"
 	cont "trainieren"
+
 	para "HOOTHOOT und"
 	line "WIESOR, um Geister"
 	cont "zu bekämpfen."
+
 	para "Rei ist besonders."
-	line "Sie setzt"
-	cont "Feuer-und"
-	cont "Psycho-#mon"
+	line "Sie setzt Feuer-"
+	cont "und Psycho-#MON"
 	cont "ein."
 	done
 
 EcruteakShrineInsideGrannyText:
 	text "Gott sei Dank gab"
-	line "es keinen"
-	cont "Magnetzug-Halt in"
-	cont "Viola City."
+	line "es keinen MAGNET-"
+	cont "ZUG-Halt in"
+	cont "VIOLA CITY."
 
 	para "Das hätte unsere"
 	line "traditionelle"

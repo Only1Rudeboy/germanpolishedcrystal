@@ -142,18 +142,20 @@ Route41MarlonScript:
 GenericTrainerSwimmerfKaylee:
 	generictrainer SWIMMERF, KAYLEE, EVENT_BEAT_SWIMMERF_KAYLEE, SwimmerfKayleeSeenText, SwimmerfKayleeBeatenText
 
-	text "Tief versteckt auf"
-	line "den STRUDEL-INSELN"
-	cont "soll ein großes"
-	cont "#mon leben."
-	para "Was für ein"
-	line "#mon das wohl"
-	cont "ist?"
+	; GSC-DE Dump
+	text "Tief versteckt"
+	line "auf den STRUDEL-"
+	cont "INSELN soll ein"
+	cont "großes #MON"
+	cont "leben."
+	para "Was für ein #-"
+	line "MON das wohl ist?"
 	done
 
 GenericTrainerSwimmerfSusie:
 	generictrainer SWIMMERF, SUSIE, EVENT_BEAT_SWIMMERF_SUSIE, SwimmerfSusieSeenText, SwimmerfSusieBeatenText
 
+	; GSC-DE Dump
 	text "Gab es da nicht"
 	line "einmal einen Hit,"
 	cont "der von einem"
@@ -165,6 +167,7 @@ GenericTrainerSwimmerfSusie:
 GenericTrainerSwimmerfDenise:
 	generictrainer SWIMMERF, DENISE, EVENT_BEAT_SWIMMERF_DENISE, SwimmerfDeniseSeenText, SwimmerfDeniseBeatenText
 
+	; GSC-DE Dump
 	text "Ein Sonnenbrand"
 	line "ist sehr schlecht"
 	cont "für die Haut."
@@ -187,8 +190,10 @@ GenericTrainerSwimmerfKara:
 GenericTrainerSwimmerfWendy:
 	generictrainer SWIMMERF, WENDY, EVENT_BEAT_SWIMMERF_WENDY, SwimmerfWendySeenText, SwimmerfWendyBeatenText
 
+	; GSC-DE Dump
 	text "In der Gruppe"
-	line "fangen STERNDU an"
+	line "fangen"
+	cont "STERNDU an"
 	cont "zu leuchten."
 	para "Das ist"
 	line "wunderschön und"
@@ -199,15 +204,18 @@ GenericTrainerSwimmerfWendy:
 GenericTrainerSwimmermCharlie:
 	generictrainer SWIMMERM, CHARLIE, EVENT_BEAT_SWIMMERM_CHARLIE, SwimmermCharlieSeenText, SwimmermCharlieBeatenText
 
-	text "Ist es nicht sehr"
-	line "entspannend, sich"
-	cont "auf dem Wasser"
-	cont "treiben zu lassen?"
+	; GSC-DE Dump
+	text "Ist es nicht"
+	line "sehr entspannend,"
+	cont "sich auf dem"
+	cont "Wasser treiben"
+	cont "zu lassen?"
 	done
 
 GenericTrainerSwimmermGeorge:
 	generictrainer SWIMMERM, GEORGE, EVENT_BEAT_SWIMMERM_GEORGE, SwimmermGeorgeSeenText, SwimmermGeorgeBeatenText
 
+	; GSC-DE Dump
 	text "ANEMONIA CITY ist"
 	line "noch so weit weg."
 	para "Aber der Rückweg"
@@ -220,15 +228,14 @@ GenericTrainerSwimmermGeorge:
 GenericTrainerSwimmermBerke:
 	generictrainer SWIMMERM, BERKE, EVENT_BEAT_SWIMMERM_BERKE, SwimmermBerkeSeenText, SwimmermBerkeBeatenText
 
+	; GSC-DE Dump
 	text "Die Nacht war"
 	line "dunkel und ein"
 	cont "Sturm wütete…"
-
 	para "Da sah ich dieses"
-	line "riesige #mon"
+	line "riesige #MON"
 	cont "über den Inseln"
 	cont "aufsteigen."
-
 	para "Aus seinen"
 	line "silbernen Flügeln"
 	cont "fielen ein paar"
@@ -247,11 +254,11 @@ GenericTrainerSwimmermKirk:
 GenericTrainerSwimmermMathew:
 	generictrainer SWIMMERM, MATHEW, EVENT_BEAT_SWIMMERM_MATHEW, SwimmermMathewSeenText, SwimmermMathewBeatenText
 
-	text "Ein Geheimnis der"
-	line "STRUDELINSELN …"
-	para "Es ist"
-	line "kohlrabenschwarz"
-	cont "darinnen!"
+	; GSC-DE Dump
+	text "Ein Geheimnis"
+	line "der STRUDELINSELN…"
+	para "Es ist kohlraben-"
+	line "schwarz darinnen!"
 	done
 
 GenericTrainerSwimmermLewis:
@@ -265,6 +272,7 @@ GenericTrainerSwimmermLewis:
 	done
 
 SwimmermCharlieSeenText:
+	; GSC-DE Dump
 	text "Das Wasser ist"
 	line "schön warm. Ich"
 	cont "bin also sehr"
@@ -380,13 +388,14 @@ SwimmermLewisBeatenText:
 	done
 
 SwimmerfKayleeSeenText:
+	; GSC-DE Dump
 	text "Ich bin auf dem"
 	line "Weg zu den"
 	cont "STRUDELINSELN."
 	para "Ich gehe mit"
 	line "meinen Kameraden"
-	cont "auf"
-	cont "Erkundungsreise."
+	cont "auf Erkundungs-"
+	cont "reise."
 	done
 
 
@@ -439,6 +448,7 @@ SwimmerfDeniseBeatenText:
 
 
 SwimmerfKaraSeenText:
+	; GSC-DE Dump
 	text "Wenn du eine Pause"
 	line "brauchst, dann"
 	cont "halte deinen Kopf"
@@ -456,9 +466,9 @@ SwimmerfKaraSeenText:
 
 
 SwimmerfKaraBeatenText:
-	text "Oh! Du bist"
-	line "ausgeruhter als"
-	cont "ich."
+	; GSC-DE Dump
+	text "Oh! Du bist aus-"
+	line "geruhter als ich."
 	done
 
 
@@ -466,10 +476,11 @@ SwimmerfKaraBeatenText:
 
 
 SwimmerfWendySeenText:
+	; GSC-DE Dump
 	text "NACHTs sammeln"
-	line "sich STERNDU nahe"
-	cont "der"
-	cont "Wasseroberfläche."
+	line "sich STERNDU"
+	cont "nahe der Wasser-"
+	cont "oberfläche."
 	done
 
 

@@ -85,6 +85,7 @@ TrainerPokefanmDerek1:
 .WantsPikachu:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "PIKACHU muss sein!"
 	line "Was meinst du?"
 	done
@@ -116,12 +117,13 @@ TrainerPokefanmDerek1:
 GenericTrainerPokefanfRuth:
 	generictrainer POKEFANF, RUTH, EVENT_BEAT_POKEFANF_RUTH, PokefanfRuthSeenText, PokefanfRuthBeatenText
 
+	; GSC-DE Dump
 	text "Weißt du über"
-	line "Baby-#mon"
+	line "Baby-#MON"
 	cont "Bescheid?"
 
 	para "Die sind bestimmt"
-	line "supersüß!"
+	line "super-süß!"
 	done
 
 Route39CowgirlAnnieScript:
@@ -175,42 +177,55 @@ Route39CowgirlAnnieScript:
 	jumpthisopenedtext
 
 .AfterText2:
+	; PC-only
 	text "Wir machen Käse"
 	line "und Joghurt aus"
 	cont "MILTANK-Milch."
 	done
 
 .IntroText:
+	; PC-only
 	text "Hey! Erschreck die"
 	line "MILTANK nicht!"
+
 	para "… Ach, du willst"
 	line "kämpfen?"
+
 	para "Ich arbeite gerade"
 	line "auf dem Hof …"
+
 	para "Pass auf: Besieg"
 	line "alle anderen von"
 	cont "TEAK CITY bis"
 	cont "OLIVIANA CITY,"
+
 	para "dann kämpfe ich"
 	line "gegen dich."
+
 	para "Manche wollen nur"
 	line "nachts kämpfen."
 	done
 
 .QuestionText:
+	; PC-only
 	text "Ich bin mit meinen"
 	line "Pflichten fertig,"
+
 	para "und du hast diese"
 	line "Routen geräumt."
+
 	para "Mein Team hat JENS"
 	line "besiegt,"
+
 	para "und ich glaube,"
 	line "wir schaffen es"
 	cont "auch gegen dich."
+
 	para "Was meinst du?"
 	done
 
 .RefusedText:
+	; PC-only
 	text "Schade. Dann"
 	line "kümmere ich mich"
 	cont "wieder um die"
@@ -218,16 +233,19 @@ Route39CowgirlAnnieScript:
 	done
 
 .SeenText:
+	; PC-only
 	text "Ich zeig dir, was"
 	line "eine Cowgirl kann!"
 	done
 
 .BeatenText:
+	; PC-only
 	text "Ich hab Milch"
 	line "verschüttet…"
 	done
 
 .AfterText1:
+	; PC-only
 	text "Puh! Das war eine"
 	line "heftige Pause!"
 
@@ -240,11 +258,13 @@ Route39CowgirlAnnieScript:
 GenericTrainerSailorEugene:
 	generictrainer SAILOR, EUGENE, EVENT_BEAT_SAILOR_EUGENE, SailorEugeneSeenText, SailorEugeneBeatenText
 
-	text "Meine #mon"
+	; GSC-DE Dump
+	text "Meine #MON"
 	line "wurden eingefangen"
-	cont "und sind im"
-	cont "Ausland"
-	cont "aufgezogen worden."
+	cont "und sind im Aus-"
+	cont "land aufgezogen"
+	cont "worden."
+
 	para "Sie begleiten mich"
 	line "auf meinen langen"
 	cont "Reisen."
@@ -253,9 +273,12 @@ GenericTrainerSailorEugene:
 GenericTrainerPsychicNorman:
 	generictrainer PSYCHIC_T, NORMAN, EVENT_BEAT_PSYCHIC_NORMAN, PsychicNormanSeenText, PsychicNormanBeatenText
 
+	; GSC-DE Dump
 	text "Du weißt von den"
 	line "unterschiedlichen"
-	cont "#-Fähigkeiten?"
+	cont "#MON-Fähig-"
+	cont "keiten?"
+
 	para "Bei den Menschen"
 	line "ist das ganz"
 	cont "ähnlich. Jeder hat"
@@ -283,29 +306,38 @@ TrainerPokefanfJaime:
 .Beaten:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ich traf MAUZI"
 	line "NACHTs, genau hier"
 	cont "auf ROUTE 39."
+
 	para "Ich weiß nicht"
 	line "warum, aber es"
+
 	para "scheint es zu"
 	line "mögen, wenn ich"
 	cont "hier trainiere."
+
 	para "Es scheint mich"
 	line "durch das Training"
+
 	para "hier mehr zu"
 	line "mögen, als wenn"
+
 	para "ich woanders"
 	line "trainiere."
 	done
+
 .NotNight:
 	jumpthisopenedtext
 
-	text "Ufu … Ich hoffe,"
-	line "es wird bald"
-	cont "dunkel."
+	; GSC-DE Dump
+	text "Ufu… Ich hoffe, es"
+	line "wird bald dunkel."
 	done
+
 Route39MiltankText:
+	; GSC-DE Dump
 	text "MILTANK: Muh!"
 	done
 
@@ -316,21 +348,22 @@ Route39MiltankText:
 
 
 SailorEugeneSeenText:
+	; GSC-DE Dump
 	text "Ich bin gerade"
 	line "wieder in OLIVIANA"
 	cont "angekommen."
+
 	para "Wie steht es nun"
-	line "mit dem"
-	cont "#mon-Kampf?"
+	line "mit dem #MON-"
+	cont "Kampf?"
 	done
 
 
 
 
 
-
-
 SailorEugeneBeatenText:
+	; GSC-DE Dump
 	text "Aah!"
 	done
 
@@ -339,23 +372,29 @@ SailorEugeneBeatenText:
 
 
 
-
 PokefanmDerek1SeenText:
+	; GSC-DE Dump
 	text "Genau der richtige"
 	line "Moment, um mit"
 	cont "PIKACHU anzugeben!"
 	done
+
 PokefanmDerek1BeatenText:
+	; GSC-DE Dump
 	text "Ich hatte keine"
 	line "Zeit, mit PIKACHU"
 	cont "zu prahlen…"
 	done
+
 PokefanMDerekText_NotBragging:
+	; GSC-DE Dump
 	text "Ich höre mir deine"
 	line "Prahlerei gar"
 	cont "nicht an!"
-	para "Wir # -FANS"
+
+	para "Wir #MON-FANS"
 	line "haben ein Gelübde,"
+
 	para "das uns verbietet,"
 	line "Leuten beim"
 	cont "Prahlen zuzuhören!"
@@ -368,10 +407,13 @@ PokefanMDerekText_NotBragging:
 
 
 PokefanfRuthSeenText:
+	; GSC-DE Dump
 	text "Was für süße"
+	line "#MON!"
+
 	para "Zeigen wir uns"
 	line "gegenseitig unsere"
-	cont "#mon, und zwar"
+	cont "#MON, und zwar"
 	cont "gleichzeitig!"
 	done
 
@@ -380,11 +422,11 @@ PokefanfRuthSeenText:
 
 
 
-
 PokefanfRuthBeatenText:
+	; GSC-DE Dump
 	text "Mir macht es"
-	line "nichts aus, zu"
-	cont "verlieren."
+	line "nichts aus,"
+	cont "zu verlieren."
 	done
 
 
@@ -392,10 +434,10 @@ PokefanfRuthBeatenText:
 
 
 
-
 PsychicNormanSeenText:
+	; GSC-DE Dump
 	text "Zeig doch mal, was"
-	line "deine #mon"
+	line "deine #MON"
 	cont "drauf haben."
 	done
 
@@ -406,7 +448,8 @@ PsychicNormanSeenText:
 
 
 PsychicNormanBeatenText:
-	text "He, deine #mon"
+	; GSC-DE Dump
+	text "He, deine #MON"
 	line "sind sehr fähig!"
 	done
 
@@ -417,6 +460,7 @@ PsychicNormanBeatenText:
 
 
 PokefanfJaimeSeenText:
+	; GSC-DE Dump
 	text "Du kommst gerade"
 	line "recht."
 
@@ -427,9 +471,8 @@ PokefanfJaimeSeenText:
 
 
 
-
-
 PokefanfJaimeBeatenText:
+	; GSC-DE Dump
 	text "Oh, wie"
 	line "ernüchternd…"
 	done
@@ -439,45 +482,56 @@ PokefanfJaimeBeatenText:
 
 
 
-
 Route39BeautyText:
+	; PC-only
 	text "Was ist höher: der"
-	line "Zinnturm in"
+	line "ZINNTURM in"
 	cont "TEAK CITY,"
+
 	para "oder der"
-	line "Leuchtturm in"
+	line "LEUCHTTURM in"
 	cont "OLIVIANA CITY?"
-	para "Der Zinnturm,"
+
+	para "Der ZINNTURM,"
 	line "ohne Zweifel!"
 	done
 
 Route39HikerText:
+	; PC-only
 	text "Nördlich von"
 	line "OLIVIANA CITY"
 	cont "liegt Johtos"
 	cont "Grenze!"
+
 	para "Ein harter Marsch"
 	line "durch raues"
 	cont "Gelände, dann"
+
 	para "einen eisigen Berg"
 	line "erklimmen …"
+
 	para "Ich hab gehört,"
-	line "manche #mon"
+	line "manche #MON"
+
 	para "haben sich an das"
 	line "raue Klima"
 	cont "angepasst."
+
 	para "Aber ohne"
 	line "Go-Brille zur"
 	cont "Sicherheit"
+
 	para "kann ich die"
 	line "Wanderung nicht"
 	cont "mal anfangen …"
 	done
 
 Route39SignText:
+	; GSC-DE Dump
 	text "ROUTE 39"
-	para "OLIVIANA CITY"
-	line "-TEAK CITY"
+
+	para "OLIVIANA CITY -"
+	line "TEAK CITY"
 	done
 
 
@@ -487,34 +541,45 @@ Route39SignText:
 
 
 Route39AdvancedTips1Text:
+	; PC-only
 	text "PROFI-TIPPS!"
+
 	para "Sandstürme erhöhen"
 	line "die Spezial-Vert."
-	cont "von Stein-#mon!"
+	cont "von Stein-#MON!"
+
 	para "Und Hagel erhöht"
 	line "die Verteidigung"
-	cont "von Eis-#mon!"
+	cont "von Eis-#MON!"
 	done
 
 Route39AdvancedTips2Text:
+	; PC-only
 	text "PROFI-TIPPS!"
-	para "Ein #mon mit"
+
+	para "Ein #MON mit"
 	line "Facettenauge"
+
 	para "oder einem"
 	line "Münzamulett trifft"
+
 	para "eher auf wilde"
-	line "#mon mit Item!"
+	line "#MON mit Item!"
 	done
 
 RuggedRoadAheadSignText:
+	; PC-only
 	text "Holprige Straße"
 	line "voraus"
+
 	para "Norden zum"
 	line "Schneegipfel"
 	done
 
 MoomooFarmSignText:
+	; GSC-DE Dump
 	text "KUHMUH-FARM"
+
 	para "Unsere Bekömmliche"
 	line "Milch Ist Sehr"
 	cont "Erfrischend"
@@ -527,19 +592,22 @@ MoomooFarmSignText:
 
 
 Route39TrainerTipsText:
+	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 	line "Benutze KOPFNUSS,"
-	para "um #mon aus den"
-	line "Bäumen zu"
-	cont "schütteln."
+
+	para "um #MON"
+	line "aus den Bäumen"
+	cont "zu schütteln."
+
 	para "Auf den Bäumen"
 	line "leben verschiedene"
-	cont "Arten von #mon."
+	cont "Arten von #MON."
+
 	para "Benutze KOPFNUSS"
 	line "an jedem Baum, den"
 	cont "du siehst!"
 	done
-
 
 
 

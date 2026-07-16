@@ -87,20 +87,17 @@ MahoganyMart1FPharmacistScript:
 MahoganyMart1FBlackBeltScript:
 	checkevent EVENT_DECIDED_TO_HELP_LANCE
 	iftrue_jumptextfaceplayer MahoganyMart1FBlackBeltText_LanceEntered
+	; GSC-DE Dump
 	jumpthistextfaceplayer
 
 	text "Heheh! Das"
-	line "Experiment hat wie"
-	cont "am Schnürchen"
-	cont "geklappt."
-	para "KARPADOR sind"
+	line "Experiment verlief"
+	cont "wie am Schnürchen."
+	para "KARPADOR ist"
 	line "wertlos, aber"
-	para "GARADOS bringen"
-	line "das große Geld."
+	para "GARADOS verkauft"
+	line "sich gut."
 	done
-
-
-
 
 MahoganyMart1FVeteranFScript:
 	faceplayer
@@ -193,56 +190,71 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… Du hast die"
-	line "Geheimtreppe"
+	; GSC-DE Dump
+	text "Arrgh… Du hast"
+	line "die Geheimtreppe"
 	cont "gefunden…"
 	done
+
 MahoganyMart1FBlackBeltText_LanceEntered:
+	; GSC-DE Dump
 	text "Urrgh…"
-	para "Seine"
-	line "Drachen-#mon"
-	cont "sind unschlagbar…"
+	para "Seine Drachen-"
+	line "#MON sind"
+	cont "stark…"
 	done
+
 MahoganyMart1FLanceDragoniteHyperBeamText:
+	; GSC-DE Dump
 	text "SIEGFRIED:"
 	line "DRAGORAN,"
-	cont "HYPERSTRAHL!"
+	para "HYPERSTRAHL!"
 	done
+
 MahoganyMart1FLanceRadioText:
+	; GSC-DE Dump
 	text "Wo bleibst du,"
 	line "<PLAYER>?"
 	para "Das habe ich mir"
-	line "gedacht. Die"
-	cont "Funkwellen, die"
-	cont "die #mon"
-	cont "verrückt machen,"
-	cont "kommen von hier!"
+	line "gleich gedacht."
+	para "Die merkwürdigen"
+	line "Radiowellen kommen"
+	cont "von hier."
 	done
+
 MahoganyMart1FLanceStairsText:
-	text "Die Treppe ist"
-	line "hier."
+	; GSC-DE Dump
+	text "Die Treppe"
+	line "ist hier."
 	done
+
 MahoganyMart1FLanceSplitUpText:
+	; GSC-DE Dump
 	text "SIEGFRIED:"
-	line "<PLAYER>, wir"
-	cont "sollten uns"
-	cont "trennen."
-	para "Ich nehme den"
-	line "einen Weg - du den"
-	cont "anderen."
+	line "<PLAYER>,"
+	para "wir sollten uns"
+	line "trennen, um diesen"
+	para "Ort zu erforschen."
+	line "Ich gehe zuerst."
 	done
+
 MahoganyMart1FVeteranFText:
+	; PC: Agility-Tutor Intro
 	text "Unser Keller war"
 	line "früher ein"
 	cont "Ninjaversteck."
-	para "Jetzt ist es still"
-	line "- zum Glück."
+	para "Einige ihrer"
+	line "Künste sind bis"
+	cont "heute erhalten."
+	para "Eine davon erhöht"
+	line "die Geschwindig-"
+	cont "keit enorm."
 	done
+
 Text_MahoganyMart1FTutorAgility:
 	text "Wenn du willst,"
 	line "bringe ich deinem"
-
-	para "#mon die"
+	para "#MON die"
 	line "Attacke Agility"
 	cont "bei."
 	done
@@ -254,6 +266,7 @@ Text_MahoganyMart1FTutorQuestion:
 
 PokemonJournalWillScript:
 	setflag ENGINE_READ_WILL_JOURNAL
+	; PC: #mon Journal
 	jumpthistext
 
 	text "#mon Journal"
@@ -265,8 +278,8 @@ PokemonJournalWillScript:
 	line "bevor er zu den"
 	cont "TOP VIER kam."
 	para "Manche sagen, er"
-	line "arbeitete für Team"
-	cont "Rocket."
+	line "arbeitete für TEAM"
+	cont "ROCKET."
 	para "Das #mon"
 	line "Journal spekuliert"
 	cont "nicht darüber."

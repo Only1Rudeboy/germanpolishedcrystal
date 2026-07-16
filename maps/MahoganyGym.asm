@@ -59,47 +59,50 @@ MahoganyGymPryceScript:
 	promptbutton
 	verbosegivetmhm TM_AVALANCHE
 	setevent EVENT_GOT_TM67_AVALANCHE
+	; PC: Avalanche (Dump: EISSTURM)
 	jumpthisopenedtext
 
-	text "Diese VM enthält"
+	text "Diese TM enthält"
 	line "Avalanche."
 	para "Sie richtet mehr"
 	line "Schaden an, wenn"
 	para "der Anwender"
 	line "zuerst getroffen"
 	cont "wurde."
-	para "So zeigt sie die"
-	line "Härte des Winters."
+	para "Sie stellt die"
+	line "Härte des Winters"
+	cont "dar."
 	done
 
 GenericTrainerSkierRoxanne:
 	generictrainer SKIER, ROXANNE, EVENT_BEAT_SKIER_ROXANNE, SkierRoxanneSeenText, SkierRoxanneBeatenText
 
-	text "Wenn du nicht"
-	line "genau rutschst,"
-	para "kommst du in"
-	line "dieser"
-	cont "PKMN-ARENA"
+	; GSC-DE Dump
+	text "Wenn du nicht ge-"
+	line "nau rutschst,"
+	para "kommst du in die-"
+	line "ser PKMN-ARENA"
 	cont "nicht weit."
 	done
 
 GenericTrainerSkierClarissa:
 	generictrainer SKIER, CLARISSA, EVENT_BEAT_SKIER_CLARISSA, SkierClarissaSeenText, SkierClarissaBeatenText
 
-	text "Ich hätte mit"
-	line "meinen"
-	cont "Ski-Künsten nicht"
-	cont "so angeben sollen"
-	cont "…"
+	; GSC-DE Dump
+	text "Ich hätte mit mei-"
+	line "nen Ski-Künsten"
+	cont "nicht so angeben"
+	cont "sollen…"
 	done
 
 GenericTrainerBoarderRonald:
 	generictrainer BOARDER, RONALD, EVENT_BEAT_BOARDER_RONALD, BoarderRonaldSeenText, BoarderRonaldBeatenText
 
+	; GSC-DE Dump
 	text "Ich glaube, es"
 	line "gibt eine Attacke,"
-	para "die #mon auch"
-	line "ausführen"
+	para "die #MON"
+	line "auch ausführen"
 	para "können, wenn sie"
 	line "gefroren sind."
 	done
@@ -107,22 +110,22 @@ GenericTrainerBoarderRonald:
 GenericTrainerBoarderBrad:
 	generictrainer BOARDER, BRAD, EVENT_BEAT_BOARDER_BRAD, BoarderBradSeenText, BoarderBradBeatenText
 
-	text "Diese"
-	line "PKMN-ARENA ist"
-	cont "toll. Ich liebe"
-	cont "es, mit meinen"
-	cont "#mon hier zu"
-	cont "snowboarden!"
+	; GSC-DE Dump
+	text "Diese PKMN-ARENA"
+	line "ist toll. Ich"
+	cont "liebe es, mit mei-"
+	cont "nen #MON hier"
+	cont "zu snowboarden!"
 	done
 
 GenericTrainerBoarderDouglas:
 	generictrainer BOARDER, DOUGLAS, EVENT_BEAT_BOARDER_DOUGLAS, BoarderDouglasSeenText, BoarderDouglasBeatenText
 
+	; GSC-DE Dump
 	text "Das Geheimnis von"
 	line "NORBERTs Kraft…"
-	para "Er meditiert"
-	line "täglich unter"
-	cont "einem"
+	para "Er meditiert täg-"
+	line "lich unter einem"
 	para "Wasserfall, um"
 	line "Geist und Körper"
 	cont "zu stärken."
@@ -131,22 +134,24 @@ GenericTrainerBoarderDouglas:
 MahoganyGymGuyScript:
 	checkevent EVENT_BEAT_PRYCE
 	iftrue_jumptextfaceplayer MahoganyGymGuyWinText
+	; GSC-DE Dump
 	jumpthistextfaceplayer
 
 	text "NORBERT ist ein"
 	line "Veteran, der seine"
-	para "#mon schon seit"
-	line "fast 50 Jahren"
-	cont "trainiert."
+	para "#MON schon"
+	line "seit fast 50 Jah-"
+	cont "ren trainiert."
 	para "Angeblich friert"
 	line "er seine Gegner"
-	para "gerne mit"
-	line "Eis-Attacken ein."
+	para "gerne mit Eis-"
+	line "Attacken ein."
 	para "Das heißt, du"
 	line "solltest ihn mit"
 	para "deinem brennenden"
 	line "Ehrgeiz schmelzen!"
 	done
+
 MahoganyGymStatue:
 	gettrainername PRYCE, 1, STRING_BUFFER_4
 	checkflag ENGINE_GLACIERBADGE
@@ -160,163 +165,159 @@ MahoganyGymStatue:
 	jumpstd gymstatue3
 
 PryceText_Intro:
-	text "#mon machen in"
+	; GSC-DE Dump
+	text "#MON machen in"
 	line "ihrem Leben viele"
-	cont "Erfahrungen. Genau"
-	cont "wie Menschen."
+	para "Erfahrungen. Genau"
+	line "wie Menschen."
 	para "Auch ich habe in"
 	line "meinem Leben viel"
-	cont "gesehen und"
-	cont "erlitten."
+	cont "gesehen und er-"
+	cont "litten."
 	para "Da ich der Ältere"
 	line "bin, lass mich dir"
 	cont "zeigen, was ich"
 	cont "meine."
 	para "Ich war schon mit"
-	line "#mon zusammen,"
-	cont "bevor du geboren"
-	cont "wurdest."
+	line "#MON zusammen,"
+	para "bevor du geboren"
+	line "wurdest."
 	para "Ich verliere nicht"
 	line "gerne."
 	para "Ich, NORBERT, der"
 	line "Wintertrainer,"
-	cont "werde meine Macht"
-	cont "demonstrieren!"
+	para "werde meine Macht"
+	line "demonstrieren!"
 	done
+
 PryceText_Impressed:
+	; GSC-DE Dump
 	text "Ich bin von deinem"
-	line "Können"
-	cont "beeindruckt."
+	line "Können beein-"
+	cont "druckt."
 	para "Mit deinem starken"
-	line "Willen wirst du"
-	cont "alle Widrigkeiten"
+	line "Willen, wirst du"
+	para "alle Widrigkeiten"
+	line "in deinem Leben"
 	cont "überstehen."
 	para "Du bist dieses"
-	line "ORDENs würdig!"
+	line "ORDENS würdig!"
 	done
+
 PryceText_GlacierBadgeSpeech:
-	text "Dieser"
-	line "GLETSCHERORDEN"
-	cont "hebt den SPEZ-Wert"
-	cont "deiner #mon."
+	; GSC-DE Dump: EISORDEN (engine GLACIERBADGE, badge_names unberührt)
+	text "Dieser ORDEN hebt"
+	line "den SPEZ-Wert dei-"
+	cont "ner #MON."
 	para "Außerdem können"
-	line "deine #mon"
-	cont "WHIRLPOOL"
-	cont "einsetzen, um"
-	cont "echte Strudel zu"
+	line "deine #MON"
+	cont "WHIRLPOOL einset-"
+	cont "zen, um echte"
+	cont "Strudel zu"
 	cont "überwinden."
 	para "Und dies… dies ist"
 	line "ein Geschenk von"
 	cont "mir!"
 	done
+
 PryceText_CherishYourPokemon:
+	; GSC-DE Dump
 	text "Wenn Eis und"
 	line "Schnee geschmolzen"
 	cont "sind, kehrt der"
 	cont "Frühling wieder."
 	para "Du und deine"
-	line "#mon werdet"
-	cont "noch viele Jahre"
-	cont "zusammen sein."
-	para "Genießt eure"
-	line "gemeinsame Zeit!"
+	line "#MON werden"
+	para "noch viele Jahre"
+	line "zusammen sein."
+	para "Genießt eure ge-"
+	line "meinsame Zeit!"
 	done
+
 BoarderRonaldSeenText:
+	; GSC-DE Dump
 	text "Ich werde deine"
-	line "#mon"
-	cont "einfrieren, so"
-	cont "dass sie sich"
-	cont "nicht bewegen"
+	line "#MON einfrie-"
+	cont "ren, so dass sie"
+	cont "sich nicht bewegen"
 	cont "können."
 	done
 
-
-
 BoarderRonaldBeatenText:
+	; GSC-DE Dump
 	text "Mist! Ich konnte"
 	line "nichts tun."
 	done
 
-
-
 BoarderBradSeenText:
-	text "Diese"
-	line "PKMN-ARENA hat"
-	cont "einen rutschigen"
-	cont "Boden. Das ist"
+	; GSC-DE Dump
+	text "Diese PKMN-ARENA"
+	line "hat einen rutschi-"
+	cont "gen Boden. Das ist"
 	cont "doch lustig, oder?"
 	para "Aber wir sind"
 	line "nicht hier, um zu"
 	cont "spielen!"
 	done
 
-
-
 BoarderBradBeatenText:
+	; GSC-DE Dump
 	text "Siehst du jetzt,"
 	line "wie ernst wir es"
 	cont "meinen?"
 	done
 
-
-
 BoarderDouglasSeenText:
+	; GSC-DE Dump
 	text "Ich kenne NORBERTs"
 	line "Geheimnis."
 	done
 
-
-
 BoarderDouglasBeatenText:
+	; GSC-DE Dump
 	text "O.K. Ich verrate"
-	line "dir NORBERTs"
-	cont "Geheimnis."
+	line "dir NORBERTs Ge-"
+	cont "heimnis."
 	done
 
-
-
 SkierRoxanneSeenText:
-	text "Um zu NORBERT,"
-	line "unserem"
-	cont "ARENALEITER,"
+	; GSC-DE Dump
+	text "Um zu NORBERT, un-"
+	line "serem ARENALEITER,"
 	para "zu gelangen, musst"
 	line "du denken, bevor"
 	cont "du loslegst."
 	done
 
-
-
 SkierRoxanneBeatenText:
+	; GSC-DE Dump
 	text "Beim Skifahren"
-	line "würde ich nie"
-	cont "gegen dich"
-	cont "verlieren."
+	line "würde ich nie ge-"
+	cont "gen dich verlie-"
+	cont "ren."
 	done
 
-
-
 SkierClarissaSeenText:
+	; GSC-DE Dump
 	text "Sieh dir meinen"
 	line "Parallelschwung"
 	cont "an!"
 	done
 
-
-
 SkierClarissaBeatenText:
+	; GSC-DE Dump
 	text "Nein! Jetzt bin"
 	line "ich weggerutscht!"
 	done
 
-
-
 MahoganyGymGuyWinText:
+	; GSC-DE Dump
 	text "NORBERT ist nicht"
-	line "übel, aber du bist"
-	cont "noch besser!"
+	line "übel, aber du"
+	cont "bist noch besser!"
 	para "Das war ein heißer"
 	line "Kampf, der die"
 	para "Kluft zwischen den"
-	line "Generationen"
-	cont "überwunden hat."
+	line "Generationen über-"
+	cont "wunden hat."
 	done

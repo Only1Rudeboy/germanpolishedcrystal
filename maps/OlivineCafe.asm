@@ -12,7 +12,8 @@ OlivineCafe_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  6,  2, SPRITE_BAKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeStrengthSailorScript, -1
+	; PC: Baker battle (STÄRKE-HM gibt's im #MON-CENTER ANEMONIA)
+	object_event  6,  2, SPRITE_BAKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeBakerScript, -1
 	object_event  4,  4, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeLyraScript, EVENT_GOT_AMULET_COIN_FROM_LYRA
 	object_event  9,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineCafeFishingGuruText, -1
 	object_event  9,  6, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlivineCafeSailorText, -1
@@ -24,7 +25,7 @@ OlivineCafe_MapScriptHeader:
 	const OLIVINECAFE_BAKER
 	const OLIVINECAFE_LYRA
 
-OlivineCafeStrengthSailorScript:
+OlivineCafeBakerScript:
 	faceplayer
 	opentext
 	checkevent EVENT_BEAT_BAKER_CHELSIE
@@ -45,12 +46,12 @@ OlivineCafeStrengthSailorScript:
 	jumpthisopenedtext
 
 BakerChelsieAfterText:
+	; PC-only
 	text "Ich gebe meinem"
 	line "Brot immer"
 	cont "Vitamine."
-
 	para "Sie machen meine"
-	line "#mon stärker."
+	line "#MON stärker."
 	done
 
 OlivineCafeLyraScript:
@@ -81,25 +82,22 @@ OlivineCafeMovementData_LyraLeaves:
 	step_end
 
 OlivineCafeFishingGuruText:
-	text "Im OLIVIANA"
-	line "CITY-CAFE gibt es"
-	cont "nur"
-	para "delikate"
-	line "Seemanns-kost für"
-	cont "MATROSEN"
+	; GSC-DE Dump
+	text "Im OLIVIANA CITY-"
+	line "CAFE gibt es nur"
+	para "delikate Seemanns-"
+	line "kost für MATROSEN"
 	para "auf dem"
 	line "Speiseplan!"
 	done
 
-
-
-
 OlivineCafeSailorText:
+	; GSC-DE Dump
 	text "Immer wenn ich in"
 	line "diese Stadt komme,"
 	para "gehe ich ins"
-	line "OLIVIANA"
-	cont "CITY-CAFE."
+	line "OLIVIANA CITY-"
+	cont "CAFE."
 	para "Jedes Gericht auf"
 	line "der Karte stärkt"
 	para "mich. Ich kann"
@@ -107,18 +105,14 @@ OlivineCafeSailorText:
 	cont "essen!"
 	done
 
-
-
-
 BakerChelsieGreetingText:
-	text "Meine #mon"
+	; PC-only
+	text "Meine #MON"
 	line "kommen in Form!"
-
 	para "Ich hab sie mit"
 	line "meinem"
 	cont "Spezialhefebrot"
 	cont "aufgezogen!"
-
 	para "Willst du gegen"
 	line "sie kämpfen?"
 	done
@@ -138,26 +132,23 @@ BakerChelsieBeatenText:
 BakerChelsieNoBattleText:
 	text "Mit meinen"
 	line "brotgezogenen"
-	cont "#mon bist du"
+	cont "#MON bist du"
 	cont "nicht fertig!"
 	done
 
 OlivineCafeLyraText1:
+	; PC-only
 	text "LYRA: Hallo,"
 	line "<PLAYER>! Probier"
 	cont "mal das Essen"
 	cont "hier."
-
 	para "Es ist echt"
 	line "lecker!"
-
 	para "Obwohl ich nicht"
 	line "zu viel essen"
 	cont "will…"
-
 	para "Ach, stimmt! Ich"
 	line "hab ein Item"
-
 	para "gefunden, das dir"
 	line "gefallen könnte."
 	cont "Hier!"
@@ -174,17 +165,16 @@ OlivineCafeLyraText2:
 	para "ANEMONIA CITY"
 	line "sehen, bevor ich"
 	cont "nach Hause geh."
-	para "Bis bald, <PLAYER>!"
+	para "Bis bald,"
+	line "<PLAYER>!"
 	done
 
 OlivineCafeOfficerText:
 	text "Ich weiß, es ist"
 	line "ein Klischee,"
-
 	para "aber ich komme"
 	line "immer hierher für"
 	cont "Donuts."
-
 	para "Ich kann nicht"
 	line "genug bekommen!"
 	done
@@ -202,7 +192,6 @@ OlivineCafeYoungsterText:
 OlivineCafeFisherText:
 	text "Ich würde joggen"
 	line "gehen, aber ich"
-
 	para "will meine Figur"
 	line "nicht ruinieren."
 	done

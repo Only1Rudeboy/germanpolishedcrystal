@@ -78,9 +78,10 @@ LakeOfRageFloodScript:
 	endcallback
 
 LakeOfRageSignText:
-	text "SEE DES ZORNS"
-	para "Auch bekannt als"
-	line "GARADOS-SEE"
+	; GSC-DE Dump
+	text "SEE DES ZORNS,"
+	line "auch bekannt als"
+	cont "GARADOS-SEE"
 	done
 LakeOfRageAdvancedTipsSignText:
 	text "Profi-Tipps!"
@@ -110,9 +111,9 @@ LakeOfRageFishingGuruSign:
 	endtext
 
 .Text:
-
-	text "HAUS DES"
-	line "PROFI-ANGLERs"
+	; GSC-DE Dump
+	text "HAUS DES PROFI-"
+	line "ANGLERs"
 	done
 LakeOfRageLanceScript:
 	checkevent EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
@@ -140,9 +141,10 @@ LakeOfRageLanceScript:
 	setevent EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Oh… Solltest du"
-	line "deine Meinung"
-	cont "ändern, dann hilf"
+	line "deine Meinung än-"
+	cont "dern, dann hilf"
 	cont "mir bitte."
 	done
 .AskForHelpAgain:
@@ -154,34 +156,63 @@ LakeOfRageLanceScript:
 	sjump .Agreed
 
 .OverheardText:
+	; GSC-DE Dump
 	text "Dieser See ist"
 	line "voller GARADOS."
-	para "Etwas stört sie…"
-	line "und ich vermute,"
-	cont "TEAM ROCKET steckt"
-	cont "dahinter."
+	cont "Aber sonst gibt es"
+	cont "hier nichts…"
+	para "Die KARPADOR wer-"
+	line "den also gezwun-"
+	cont "gen, sich zu ent-"
+	cont "wickeln…"
 	done
 .IntroText:
-	text "Bist du wegen des"
-	line "roten GARADOS"
-	cont "hier?"
-	para "Ich bin SIEGFRIED"
-	line "- ich untersuche,"
-	cont "was hier vor sich"
-	cont "geht."
-	para "Hilfst du mir?"
+	; GSC-DE Dump
+	text "Bist du wegen der"
+	line "Gerüchte hier?"
+	para "Du bist <PLAYER>?"
+	line "Ich bin SIEGFRIED,"
+	para "ein Trainer wie"
+	line "du."
+	para "Ich hörte einige"
+	line "Gerüchte. Also kam"
+	para "ich hierher, um"
+	line "einige Nachfor-"
+	cont "schungen anzustel-"
+	cont "len…"
+	para "Ich habe gesehen,"
+	line "wie du kämpfst,"
+	cont "<PLAYER>."
+	para "Man kann sagen,"
+	line "dass du ein Trai-"
+	cont "ner von bemerkens-"
+	cont "wertem Format"
+	cont "bist."
+	para "Würdest du mir bei"
+	line "meinen Nachfor-"
+	cont "schungen helfen?"
 	done
 .YesText:
-	text "SIEGFRIED: Gut!"
-	para "Dann treffen wir"
-	line "uns in MAHAGONIA"
-	cont "CITY im"
-	cont "Souvenirladen."
+	; GSC-DE Dump
+	text "SIEGFRIED: Exzel-"
+	line "lent!"
+	para "Es sieht so aus,"
+	line "als würde jemand"
+	para "die KARPADOR im"
+	line "SEE zwingen, sich"
+	cont "zu entwickeln."
+	para "Die Ursache ist"
+	line "das mysteriöse"
+	para "Radiosignal aus"
+	line "MAHAGONIA CITY."
+	para "Ich werde auf dich"
+	line "warten, <PLAYER>."
 	done
 .QuestionText:
+	; GSC-DE Dump
 	text "SIEGFRIED: Na?"
-	line "Hilfst du mir"
-	cont "jetzt?"
+	line "Wirst du mir hel-"
+	cont "fen?"
 	done
 LakeOfRageEngineerText:
 	text "Ich bin"
@@ -221,11 +252,13 @@ LakeOfRageRedGyaradosScript:
 	end
 
 .GyaradosText:
+	; GSC-DE Dump
 	text "GARADOS: Gashaa!"
 	done
 .RedScaleText:
-	text "<PLAYER> findet"
-	line "Rote Schuppe."
+	; GSC-DE Dump
+	text "<PLAYER> erhält"
+	line "ROTE HAUT."
 	done
 
 WesleyScript:

@@ -467,9 +467,10 @@ Route42OfficerText:
 	done
 
 Route42Sign1Text:
+	; GSC-DE Dump
 	text "ROUTE 42"
-	para "TEAK CITY"
-	line "-MAHAGONIA CITY"
+	para "TEAK CITY -"
+	line "MAHAGONIA CITY"
 	done
 
 
@@ -496,9 +497,10 @@ MtMortarSign2Text:
 
 
 Route42Sign2Text:
+	; GSC-DE Dump
 	text "ROUTE 42"
-	para "TEAK CITY"
-	line "-MAHAGONIA CITY"
+	para "TEAK CITY -"
+	line "MAHAGONIA CITY"
 	done
 
 

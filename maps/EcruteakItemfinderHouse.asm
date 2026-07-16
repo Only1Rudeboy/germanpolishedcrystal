@@ -31,30 +31,33 @@ EcruteakItemfinderGuy:
 	jumpthisopenedtext
 
 ItemfinderExplanationText:
+	; GSC-DE Dump
 	text "Manchmal liegen"
 	line "Items herum, die"
-	para "man leicht"
-	line "übersieht."
+
+	para "man leicht über-"
+	line "sieht."
+
 	para "Setze den DETEKTOR"
-	line "ein, um Items"
-	cont "aufzuspüren, die"
-	cont "sich"
-	para "in der Nähe"
-	line "befinden."
-	para "Den exakten"
-	line "Fundort musst du"
-	cont "aber"
-	para "selbst"
-	line "herausfinden."
+	line "ein, um Items auf-"
+	cont "zuspüren, die sich"
+
+	para "in der Nähe befin-"
+	line "den."
+
+	para "Den exakten Fund-"
+	line "ort musst du aber"
+
+	para "selbst herausfin-"
+	line "den."
+
 	para "Ich hörte auch,"
-	line "dass in der"
-	cont "TURM-RUINE von"
-	cont "TEAK"
-	para "CITY Items zu"
-	line "finden wären."
+	line "dass in der TURM-"
+	cont "RUINE von TEAK"
+
+	para "CITY Items zu fin-"
+	line "den wären."
 	done
-
-
 
 EcruteakHistoryBook:
 	opentext
@@ -66,81 +69,84 @@ EcruteakHistoryBook:
 	iffalse_endtext
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "TEAK CITY war auch"
-	line "die Heimat"
-	para "dreier #mon,"
+	line "die Heimat dreier"
+
+	para "#MON, die"
 	line "durch die Stadt"
-	cont "rasten."
-	para "Man sagt, sie"
-	line "wurden aus"
-	para "Wasser, Blitz und"
-	line "Feuer geboren."
-	para "Doch sie konnten"
-	line "ihre gewaltige"
-	cont "Kraft nicht"
-	cont "bändigen."
-	para "So rannten die"
-	line "drei, heißt es,"
-	para "wie der Wind"
-	line "hinaus ins"
-	cont "Grasland."
+	cont "rannten."
+
+	para "Es heißt, sie ent-"
+	line "standen durch Was-"
+	cont "ser, Blitz und"
+	cont "Feuer."
+
+	para "Doch konnten sie"
+	line "ihre Kräfte nicht"
+	cont "beherrschen."
+
+	para "Also sind sie wie"
+	line "der Wind ins offe-"
+	cont "ne Grasland ge-"
+	cont "rannt."
 	done
 
-
 EcruteakItemfinderAdventureText:
+	; GSC-DE Dump
 	text "Ah, suchst du mit"
-	line "deinen #mon"
+	line "deinen #MON"
 	cont "nach Abenteuern?"
-	para "Was wäre ein"
-	line "Abenteuer ohne"
-	cont "eine Schatzsuche?"
+
+	para "Was wäre ein Aben-"
+	line "teuer ohne eine"
+	cont "Schatzsuche?"
+
 	para "Hab ich Recht oder"
 	line "hab ich Recht?"
 	done
 
-
-
 EcruteakItemfinderTrueSpiritText:
+	; GSC-DE Dump
 	text "Gut! Du trägst den"
-	line "wahren"
-	cont "Abenteurer-geist"
-	cont "in dir."
+	line "wahren Abenteurer-"
+	cont "geist in dir."
+
 	para "Das mag ich! Nimm"
 	line "dies mit dir."
 	done
 
-
-
 EcruteakItemfinderToEachHisOwnText:
+	; GSC-DE Dump
 	text "Oh… Jedem das"
 	line "Seine…"
 	done
 
-
-
 EcruteakHistoryBookText:
+	; GSC-DE Dump
 	text "GESCHICHTE VON"
 	line "TEAK CITY"
 
 	para "Lesen?"
 	done
 
-
-
 EcruteakTwoTowersText:
+	; GSC-DE Dump
 	text "In TEAK CITY gab"
 	line "es zwei Türme."
+
 	para "Jeder Turm war das"
 	line "Zuhause mächtiger"
-	cont "fliegender #mon"
+	cont "fliegender #-"
+	cont "MON."
+
 	para "Doch einer der"
 	line "Türme brannte ab."
-	para "Die beiden #mon"
+
+	para "Die beiden #MON"
 	line "wurden seitdem"
-	cont "nicht mehr gesehen"
-	cont "…"
+	cont "nicht mehr gese-"
+	cont "hen…"
+
 	para "Weiterlesen?"
 	done
-
-
-

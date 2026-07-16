@@ -68,63 +68,59 @@ MagikarpLengthRaterScript:
 .TooShort:
 	jumpthisopenedtext
 
-	text "Toll! Das ist ja"
+	; GSC-DE Dump
+	text "Wow! Das ist ja"
 	line "riesig!"
-
 	para "…Zumindest würde"
-	line "ich das gerne"
-	cont "sagen, aber ich"
-	cont "habe"
-
-	para "schon größere"
-	line "gesehen."
+	line "ich das gerne sa-"
+	cont "gen, aber ich habe"
+	para "schon größere ge-"
+	line "sehen."
 	done
 .Refused:
 	jumpthisopenedtext
 
-	text "Oh … Du hast also"
+	; GSC-DE Dump
+	text "Oh… Du hast also"
 	line "keines, das es"
 	para "wert wäre, mir zu"
 	line "zeigen? Vielleicht"
 	cont "beim nächsten Mal."
 	done
 MagikarpLengthRaterText_LakeOfRageHistory:
+	; GSC-DE Dump
 	text "Der SEE DES ZORNS"
 	line "ist eigentlich ein"
 	para "Krater, der durch"
 	line "wütende GARADOS"
 	cont "erschaffen wurde."
 	para "Der Krater füllte"
-	line "sich mit"
-	cont "Regenwas-ser und"
-	cont "so entstand der"
-	cont "See."
+	line "sich mit Regenwas-"
+	cont "ser und so ent-"
+	cont "stand der See."
 	para "Diese Geschichte"
 	line "erzählte schon"
 	para "der Ur-Urgroßvater"
 	line "meines Großvaters."
 	para "Früher konnte man"
-	line "hier"
-	cont "quicklebendige"
-	cont "KARPADOR fangen,"
-	cont "aber …"
+	line "hier quicklebendi-"
+	cont "ge KARPADOR fan-"
+	cont "gen, aber…"
 	para "Ich verstehe"
 	line "nicht, was hier"
 	cont "geschieht."
 	done
 
-
-
 MagikarpLengthRaterText_MenInBlack:
+	; GSC-DE Dump
 	text "Der SEE hat sich"
 	line "verändert, seit"
 	para "diese Männer in"
 	line "Schwarz hier sind."
 	done
 
-
-
 MagikarpLengthRaterText_WorldsLargestMagikarp:
+	; GSC-DE Dump
 	text "Der SEE DES ZORNS"
 	line "ist wieder normal."
 	para "Die KARPADOR sind"
@@ -140,39 +136,34 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	cont "bitte!"
 	done
 
-
-
 MagikarpLengthRaterText_YouHaveAMagikarp:
+	; GSC-DE Dump
 	text "Ah, du hast ein"
 	line "KARPADOR! Lass uns"
 	para "sehen, wie groß"
 	line "das Kleine ist."
 	done
 
-
-
 MagikarpLengthRaterText_Memento:
-	text "Toll! Das ist ja"
+	; GSC-DE Dump
+	text "Wow! Das ist ja"
 	line "riesig!"
 	para "Ich ziehe meinen"
 	line "Hut vor dir!"
-	para "Nimm das als"
-	line "Andenken!"
+	para "Nimm das als An-"
+	line "denken!"
 	done
 
-
-
 MagikarpLengthRaterText_Bonus:
+	; GSC-DE Dump
 	text "Wichtig ist nur"
 	line "die Erinnerung."
-
 	para "Sieh es als eine"
 	line "Art Bonus!"
 	done
 
-
-
 MagikarpLengthRaterText_NotMagikarp:
+	; GSC-DE Dump
 	text "Was? Das ist kein"
 	line "KARPADOR!"
 	done

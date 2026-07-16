@@ -52,7 +52,8 @@ TinTowerHoOh:
 	end
 
 HoOhText:
-	text "Uah!"
+	; GSC-DE Dump
+	text "HO-OH: Shaoooh!"
 	done
 
 

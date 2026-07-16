@@ -31,30 +31,37 @@ OlivineLighthouse1FSailorScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Die Trainer hier"
-	line "wollen alle"
-	cont "kämpfen."
-
-	para "Sei bereit!"
+	; GSC-DE Dump (train at LEUCHTTURM)
+	text "Die Leute kommen"
+	line "zum LEUCHTTURM, um"
+	cont "zu trainieren."
+	para "Aufgrund der"
+	line "vielen Trainer"
+	cont "ist es nicht"
+	cont "einfach, sich bis"
+	cont "ganz nach oben"
+	cont "vorzukämpfen."
 	done
 
 .Text1:
-	text "Hier im Leuchtturm"
-	line "trainieren alle"
-	cont "hart."
+	; PC: Full Restore gift + Dump-Ton
+	text "Die Leute kommen"
+	line "zum LEUCHTTURM, um"
+	cont "zu trainieren."
 	para "Das solltest du"
 	line "nehmen."
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "Früher haben"
-	line "#mon nachts die"
+	; GSC-DE Dump
+	text "Früher haben #-"
+	line "MON nachts die"
 	para "Gewässer um"
-	line "OLIVIANA CITY"
-	cont "erhellt."
+	line "OLIVIANA CITY er-"
+	cont "hellt."
 	para "Der LEUCHTTURM"
 	line "wurde errichtet,"
-	cont "um diese #mon"
+	cont "um diese #MON"
 	cont "zu ehren."
 	done
 

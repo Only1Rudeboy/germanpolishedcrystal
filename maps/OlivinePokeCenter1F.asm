@@ -95,25 +95,26 @@ BeautyCharlotteScript:
 	done
 
 OlivinePokeCenter1FFisherText:
-	text "In Anemonia gibt"
-	line "es einen Typ, der"
-	cont "schwach aussieht,"
-	para "aber er hat meinem"
-	line "#mon STÄRKE"
-	cont "beigebracht."
-	para "Jetzt kann es"
-	line "große Felsen"
-	cont "bewegen."
+	; GSC-DE Dump
+	text "Der MATROSE im"
+	line "OLIVIANA CITY-CAFE"
+	cont "nebenan ist sehr"
+	cont "großzügig."
+	para "Er hat meinem"
+	line "#MON STÄRKE"
+	para "beigebracht. Jetzt"
+	line "kann es Felsen be-"
+	cont "wegen."
 	done
 
 OlivinePokeCenter1FTeacherText:
-	text "Da gibt es"
-	line "jemanden in"
-	cont "ANEMONIA CITY"
-	cont "jenseits des"
+	; GSC-DE Dump
+	text "Da gibt es jeman-"
+	line "den in ANEMONIA"
+	cont "CITY jenseits des"
 	cont "Meeres."
 	para "Ich habe gehört,"
 	line "wie er mit seinen"
-	cont "seltenen #mon"
+	cont "seltenen #MON"
 	cont "angegeben hat."
 	done

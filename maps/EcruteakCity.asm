@@ -61,11 +61,13 @@ EcruteakCityLass2Script:
 	iftrue_jumptextfaceplayer EcruteakCityLass2Text_ReleasedBeasts
 	jumpthistextfaceplayer
 
-	text "Der Turm, der hier"
-	line "mal stand …"
-	para "Meine Oma sagte,"
-	line "er war früher viel"
-	cont "höher."
+	; GSC-DE Dump
+	text "Der Turm, der"
+	line "früher hier stand…"
+
+	para "Meine Oma sagte"
+	line "mir, dass er"
+	cont "früher höher war."
 	done
 
 EcruteakCityFisherScript:
@@ -73,137 +75,181 @@ EcruteakCityFisherScript:
 	iftrue_jumptextfaceplayer EcruteakCityFisherText_JasmineReturned
 	jumpthistextfaceplayer
 
-	text "Ich hörte ein"
+	; GSC-DE Dump
+	text "Es kursiert ein"
 	line "Gerücht über den"
-	cont "LEUCHTTURM von"
-	cont "OLIVIANA CITY."
+	cont "LEUCHTTURM in OLI-"
+	cont "VIANA CITY."
 
-	para "Das #mon, das"
+	para "Das #MON, das"
 	line "als Leuchtfeuer"
 
-	para "dient, ist"
-	line "erkrankt. Klingt"
-	cont "nach Ärger."
+	para "dient, wurde"
+	line "krank. Sieht so"
+
+	para "aus, als wären sie"
+	line "in Schwierig-"
+	cont "keiten."
 	done
 
 EcruteakCityGramps1Text:
+	; GSC-DE Dump
 	text "Es gab zwei Türme"
-	line "in TEAK CITY."
-	cont "Einen im Osten,"
-	cont "einen im Westen."
+	line "in TEAK CITY. Ei-"
+	cont "nen im Osten, ei-"
+	cont "nen im Westen."
 	done
-
-
-
-
-
-
 
 EcruteakCityGramps2Text:
-	text "Na, Kröte? Hast du"
-	line "gelernt zu tanzen"
-	cont "wie die"
-	cont "KIMONO-GIRLS?"
-	para "Ein eigenartiger"
-	line "Mann gibt dir"
-	cont "etwas Nettes, wenn"
-	cont "du zum TANZTHEATER"
+	; GSC-DE Dump
+	text "Na, Kröte?"
+	line "Hast du gelernt zu"
+
+	para "tanzen wie die"
+	line "KIMONO-GIRLS?"
+
+	para "Ich habe gehört,"
+	line "dass dir ein ei-"
+	cont "genartiger Mann"
+	cont "etwas Nettes geben"
+
+	para "wird, wenn du zu"
+	line "ihrem TANZTHEATER"
 	cont "gehst."
 	done
+
 EcruteakCityLass1Text:
-	text "Ich will im"
-	line "TANZTHEATER üben."
+	; GSC-DE Dump
+	text "Ich will im TANZ-"
+	line "THEATER üben."
+
 	para "Kommst du mit?"
 	done
+
 EcruteakCityHexManiacText:
 	text "Geister von"
-	line "#mon spuken"
+	line "#MON spuken"
 	cont "hier…"
 	done
+
 EcruteakCitySightseerMText:
 	text "TEAK CITY hat eine"
 	line "unheimliche"
 	cont "Geschichte."
+
 	para "Farbeagle und ich"
 	line "sind hergekommen,"
 	cont "um sie zu"
 	cont "zeichnen."
 	done
+
 EcruteakCitySmeargleText:
 	text "FARBEAGLE: Smeer!"
 	done
+
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Drei große #mon"
-	line "sind in"
-	cont "verschiedene"
-	cont "Richtungen"
-	cont "davongelaufen!"
-	para "Was waren das für"
-	line "welche?"
+	; GSC-DE Dump
+	text "Drei große #MON"
+	line "sind in verschie-"
+	cont "dene Richtungen"
+	cont "davongelaufen! Was"
+	cont "waren das für"
+	cont "welche?"
 	done
+
 EcruteakCityFisherText_JasmineReturned:
-	text "Das #mon im"
+	; GSC-DE Dump
+	text "Das #MON im"
 	line "LEUCHTTURM von"
-	cont "OLIVIANA CITY"
-	cont "wurde geheilt."
-	para "Jetzt können"
-	line "Schiffe nachts"
-	cont "wieder gefahrlos"
-	cont "auslaufen."
+	cont "OLIVIANA CITY wur-"
+	cont "de geheilt."
+
+	para "Jetzt können die"
+	line "Schiffe wieder ge-"
+	cont "fahrlos nachts in"
+	cont "See stechen."
 	done
+
 EcruteakCityYoungsterText:
-	text "Ich hörte, #mon"
-	line "am SEE DES ZORNS"
-	cont "stiften Unruhe."
-	cont "Das würde ich"
+	; GSC-DE Dump
+	text "Ich hörte, dass"
+	line "#MON am SEE DES"
+
+	para "ZORNS Unruhe stif-"
+	line "ten. Das würde ich"
 	cont "gerne sehen."
 	done
+
 EcruteakCityGramps3Text:
+	; GSC-DE Dump
 	text "Vor langer Zeit…"
-	para "Dieser Turm"
-	line "brannte ab. Drei"
-	cont "namenlose #mon"
-	cont "kamen dabei um."
-	para "Ein"
-	line "regenbogenfarbenes"
-	cont "#mon kam herab"
-	cont "und hauchte ihnen"
-	cont "wieder Leben ein…"
-	para "Diese Legende gibt"
-	line "jeder ARENALEITER"
-	cont "von TEAK CITY an"
-	cont "den nächsten"
-	cont "weiter."
+
+	para "Dieser Turm ist"
+	line "abgebrannt. Drei"
+
+	para "namenlose #MON"
+	line "sind dabei"
+	cont "umgekommen."
+
+	para "Ein regenbogen-"
+	line "farbenes #MON"
+
+	para "kam herab und"
+	line "hauchte ihnen wie-"
+	cont "der Leben ein…"
+
+	para "Diese Legende wird"
+	line "von jedem LEITER"
+
+	para "der PKMN-ARENA von"
+	line "TEAK CITY an den"
+
+	para "nächsten"
+	line "weitergegeben."
+
 	para "Ich?"
-	para "Damals war ich ein"
-	line "Trainer. Hohoho!"
+
+	para "Damals war ich"
+	line "ein Trainer."
+	cont "Hohoho!"
 	done
+
 EcruteakCitySign:
+	; GSC-DE Dump
 	text "TEAK CITY"
-	para "Eine historische"
-	line "Stadt, wo"
-	cont "Vergangenheit und"
-	cont "Gegenwart"
-	cont "aufeinandertreffe-"
-	cont "n."
+	line "Eine historische"
+
+	para "Stadt, wo Vergan-"
+	line "genheit und Gegen-"
+	cont "wart aufeinander-"
+	cont "treffen"
 	done
+
 EcruteakGymSign:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "TEAK CITY"
 	cont "LEITUNG: JENS"
+
 	para "Der mystische Se-"
 	line "her der Zukunft"
 	done
+
 EcruteakCityAdvancedTips:
 	text "Profi-Tipps!"
-	para "Manche #mon, du"
+
+	para "Manche #MON, du"
 	line "triffst, haben"
+
 	para "eine seltene"
 	line "Fähigkeit, auch"
+
 	para "versteckte"
 	line "Fähigkeit genannt!"
+
 	para "Ein geschlüpftes"
-	line "#mon hat auch"
+	line "#MON hat auch"
+
 	para "eine geringe"
 	line "Chance auf eine"
 	cont "versteckte"
@@ -211,29 +257,37 @@ EcruteakCityAdvancedTips:
 	done
 
 EcruteakDanceTheaterSign:
+	; GSC-DE Dump
 	text "TANZTHEATER VON"
 	line "TEAK CITY"
 	done
+
 BurnedTowerSign:
+	; GSC-DE Dump
 	text "TURMRUINE"
 
-	para "Sie wurde durch"
-	line "ein mysteriöses"
-	cont "Feuer zerstört."
+	para "Er wurde durch ein"
+	line "mysteriöses Feuer"
+	cont "zerstört."
 
-	para "Bitte nicht"
-	line "betreten!"
+	para "Bitte nicht betre-"
+	line "ten!"
 	done
+
 EcruteakShrineSign:
 	text "TEAK-SCHREIN"
+
 	para "'Das Leben ist"
 	line "eine Lampe vor dem"
 	cont "Wind.'"
 	done
 
 EcruteakBarrierStationSign:
-	text "Barrierenstation"
-	line "zum Zinnturm"
-	para "Unwürdigen ist der"
-	line "Zutritt verboten!"
+	; GSC-DE Dump
+	text "ZINNTURM"
+
+	para "Man sagt, ein le-"
+	line "gendäres #MON"
+
+	para "soll dort sein."
 	done

@@ -27,11 +27,11 @@ OlivineLighthouse5F_MapScriptHeader:
 GenericTrainerBird_keeperDenis:
 	generictrainer BIRD_KEEPER, DENIS, EVENT_BEAT_BIRD_KEEPER_DENIS, Bird_keeperDenisSeenText, Bird_keeperDenisBeatenText
 
-	text "Mein #mon hat"
+	; GSC-DE Dump
+	text "Mein #MON hat"
 	line "das FLIEGEN in"
 	cont "ANEMONIA CITY"
 	cont "gelernt."
-
 	para "Da ich ein"
 	line "Verlierer bin,"
 	cont "fliege ich nun"
@@ -39,44 +39,43 @@ GenericTrainerBird_keeperDenis:
 	cont "Meer…"
 	done
 
-
 GenericTrainerSailorErnest:
 	generictrainer SAILOR, ERNEST, EVENT_BEAT_SAILOR_ERNEST, SailorErnestSeenText, SailorErnestBeatenText
 
+	; GSC-DE Dump
 	text "Ein ARENALEITER"
 	line "muss nicht nur"
 	para "stark sein. Auch"
-	line "Mitgefühl zeichnet"
-	cont "ihn aus."
+	line "Mitgefühl"
+	cont "zeichnet ihn aus."
 	done
 
 SailorErnestSeenText:
+	; GSC-DE Dump
 	text "Ich hatte vor,"
 	line "gegen JASMIN zu"
-
 	para "kämpfen, aber sie"
 	line "ist nicht da. Wie"
 	cont "wäre es mit dir?"
 	done
 
-
-
 SailorErnestBeatenText:
+	; GSC-DE Dump
 	text "Wow, du hast mich"
 	line "überwältigt!"
 	done
 
-
-
 Bird_keeperDenisSeenText:
+	; GSC-DE Dump
 	text "Wir fliegen"
 	line "ziemlich hoch."
-
-	para "Meine"
-	line "Vogel-#mon sind"
-	cont "in Bestform."
+	para "Meine Vogel-#-"
+	line "MON sind in"
+	cont "Bestform."
 	done
+
 Bird_keeperDenisBeatenText:
-	text "Ups… Sie sind"
-	line "abgestürzt…"
+	; GSC-DE Dump
+	text "Ups… Sie"
+	line "sind abgestürzt…"
 	done

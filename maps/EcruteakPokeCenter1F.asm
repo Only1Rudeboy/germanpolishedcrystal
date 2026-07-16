@@ -88,71 +88,81 @@ EcruteakPokeCenter1FBillScript:
 .NoRoom:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Moment! Du hast"
 	line "keinen Platz mehr"
 	cont "in deinem Team."
 	done
 .IntroText:
-	text "Hallo, ich bin"
-	line "BILL. Und wer bist"
-	cont "du?"
-	para "Hmm, <PLAYER>, hm?"
-	line "Du kommst gerade"
-	cont "recht."
+	; GSC-DE Dump (B: PC ZEITKAPSEL-Plot)
+	text "Hi, ich bin BILL."
+	line "Und wer bist du?"
+
+	para "Hmm, <PLAYER>?"
+	line "Du bist gerade zum"
+	cont "richtigen Zeit-"
+	cont "punkt gekommen."
+
 	para "Die ZEITKAPSELN"
 	line "sind total kaputt,"
+
 	para "und ich bräuchte"
 	line "deine Hilfe."
 	done
 
 .QuestionText:
+	; GSC-DE Dump (B: PC ZEITKAPSEL-Ausfall)
 	text "BILL: Dieses EVOLI"
-	line "kam kurz"
-	para "bevor die"
-	line "ZEIT-KAPSEL"
-	cont "ausfiel."
-	para "Jemand muss sich"
+	line "kam hierher, als"
+	cont "ich an der ZEIT-"
+	cont "KAPSEL arbeitete."
+
+	para "Jemand sollte sich"
 	line "darum kümmern,"
-	para "aber ich mag es"
-	line "nicht, draußen zu"
-	cont "sein."
-	para "Kann ich auf dich"
-	line "zählen, dass du"
-	cont "mit ihm spielst,"
+
+	para "aber ich gehe"
+	line "nicht gerne raus."
+
+	para "Wirst du für mich"
+	line "mit ihm spielen,"
 	cont "<PLAYER>?"
 	done
 
 .YesText:
+	; GSC-DE Dump
 	text "BILL: Ich wusste,"
 	line "dass du es"
+
 	para "schaffst! Noch ein"
 	line "kleines Stück! Du"
 	cont "bist einzigartig!"
+
 	para "O.K., ich zähle"
 	line "auf dich."
+
 	para "Pass auf dich auf!"
 	done
+
 .GoodbyeText:
+	; GSC-DE Dump (B: PC Abreise)
 	text "BILL: PROF. LIND"
-	line "behauptet, EVOLI"
+	line "sagt, EVOLI kann"
 
-	para "könnte sich auf"
-	line "neue, unbekannte"
-	cont "Weise entwickeln."
+	para "sich in neue, un-"
+	line "bekannte Arten"
+	cont "entwickeln."
 
-	para "Ich muss schnell"
-	line "nach DUKATIA CITY"
-	cont "zu meinen Eltern,"
+	para "Ich muss zurück"
+	line "nach DUKATIA CITY,"
+	cont "um meine Freunde"
+	cont "zu besuchen."
 
-	para "und dann geht's"
-	line "für mich zurück"
-	cont "nach KANTO."
-
-	para "Tschüss!"
+	para "Tschü-hüs!"
 	done
 
 .NoText:
-	text "Ach… Was soll ich"
+	; GSC-DE Dump
+	text "Oh… Was soll ich"
 	line "tun?"
 	done
 .LeaveMovement:
@@ -194,28 +204,34 @@ EcruteakPokeCenter1FPokefanMScript:
 	iftrue_jumptextfaceplayer .SurfText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Sowohl der Tanz"
 	line "der KIMONO-GIRLS"
 
 	para "als auch die Art,"
-	line "wie sie ihre"
-	cont "#mon einsetzen,"
-	cont "ist wunderbar!"
+	line "wie sie ihre #-"
+	cont "MON einsetzen, ist"
+	cont "wunderbar!"
 	done
+
 .SurfText:
+	; GSC-DE Dump
 	text "Du hoffst, hier"
-	line "mehr Kämpfe zu"
-	cont "erleben, nicht"
-	cont "wahr?"
-	para "Es gibt"
-	line "offensichtlich"
-	cont "einen"
+	line "mehr Kämpfe zu er-"
+	cont "leben, nicht wahr?"
+
+	para "Es gibt offen-"
+	line "sichtlich einen"
+
 	para "Ort, an dem sich"
 	line "Trainer treffen."
+
 	para "Wo, fragst du?"
-	para "Kurz nach OLIVIANA"
-	line "CITY."
+
+	para "Kurz nach"
+	line "OLIVIANA CITY."
 	done
+
 EcruteakPokeCenter1FLassScript:
 	faceplayer
 	opentext
@@ -228,9 +244,11 @@ EcruteakPokeCenter1FLassScript:
 
 	text "Ich hörte einmal,"
 	line "dass BILLs Mutter"
+
 	para "früher eine"
-	line "KIMO-NO-GIRL war."
+	line "KIMONO-GIRL war."
 	cont "Vielleicht deshalb"
+
 	para "besucht er diesen"
 	line "Ort so oft."
 	done
@@ -255,17 +273,23 @@ EcruteakPokeCenter1FLassScript:
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "JENS, der"
-	line "ARENA-LEITER, ist"
-	cont "soooo cool."
-	para "Auch seine #mon"
+	; GSC-DE Dump
+	text "JENS, der ARENA-"
+	line "LEITER, ist soooo"
+	cont "cool."
+
+	para "Auch seine #MON"
 	line "sind sehr stark."
 	done
+
 EcruteakPokeCenter1FGymGuyText:
+	; GSC-DE Dump
 	text "SEE DES ZORNS…"
-	para "Das Erscheinen"
-	line "eines"
-	cont "GARADOS-Schwarms…"
+
+	para "Das Erscheinen ei-"
+	line "nes GARADOS-"
+	cont "Schwarms…"
+
 	para "Das riecht nach"
 	line "Verschwörung!"
 	done

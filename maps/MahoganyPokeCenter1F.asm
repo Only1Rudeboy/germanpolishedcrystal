@@ -21,12 +21,13 @@ MahoganyPokeCenter1F_MapScriptHeader:
 
 PokemonJournalPryceScript:
 	setflag ENGINE_READ_PRYCE_JOURNAL
+	; PC: #mon Journal
 	jumpthistext
 
 	text "#mon Journal"
 	para "Spezial: Leiter"
 	line "NORBERT!"
-	para "Pryces zweiter"
+	para "NORBERTs zweiter"
 	line "Vorname lautet"
 	cont "Willow."
 	para "Sein Kampfstil"
@@ -36,30 +37,34 @@ PokemonJournalPryceScript:
 	cont "Winter."
 	para "Daher nennt man"
 	line "ihn den"
-	cont "Winter-Trainer."
+	cont "Wintertrainer."
 	done
 
 MahoganyPokeCenter1FPokefanmText:
+	; GSC-DE Dump
 	text "Wie? TEAM ROCKET"
 	line "ist wieder da?"
-
 	para "Ich sah einige"
 	line "Männer in Schwarz"
 	cont "am SEE DES ZORNS…"
 	done
+
 MahoganyPokeCenter1FYoungsterText:
+	; GSC-DE Dump
 	text "Ich verhindere,"
 	line "dass sich meine"
-	cont "#mon zu rasch"
-	cont "entwickeln."
+	cont "#MON zu"
+	cont "rasch entwickeln."
 	para "Ich bringe ihnen"
 	line "verschiedene"
-	cont "Attacken bei,"
-	cont "bevor ich sie sich"
+	cont "Attacken bei, be-"
+	cont "vor ich sie sich"
 	cont "entwickeln lasse."
 	done
+
 MahoganyPokeCenter1FCooltrainerfText:
-	text "#mon werden"
+	; GSC-DE Dump
+	text "#MON werden"
 	line "stärker, wenn sie"
 	para "sich entwickeln."
 	line "Aber sie erlernen"

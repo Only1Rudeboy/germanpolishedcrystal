@@ -17,31 +17,33 @@ EcruteakLugiaSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakLugiaSpeechHouseYoungsterText, -1
 
 EcruteakLugiaSpeechHouseGrampsText:
+	; GSC-DE Dump
 	text "Dies geschah, als"
 	line "ich jung war."
+
 	para "Der Himmel färbte"
 	line "sich schwarz. Ein"
-	para "riesiges,"
-	line "fliegendes"
-	cont "#mon"
+
+	para "riesiges, fliegen-"
+	line "des #MON"
+
 	para "verdunkelte die"
 	line "Sonne."
+
 	para "Ich frage mich,"
 	line "was das für ein"
-	para "#mon war. Es"
+
+	para "#MON war. Es"
 	line "war wie ein Vogel"
 	cont "und ein Drache."
 	done
 
-
-
 EcruteakLugiaSpeechHouseYoungsterText:
+	; GSC-DE Dump
 	text "Ob es wirklich ein"
-	line "so großes #mon"
+	line "so großes #MON"
+
 	para "gibt? Wenn ja, so"
 	line "muss es unfassbar"
 	cont "mächtig sein."
 	done
-
-
-

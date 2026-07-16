@@ -41,44 +41,55 @@ Route39RuggedRoadGateSwimmerScript:
 	setevent EVENT_GOT_RARE_CANDY_FROM_RUGGED_ROAD_GATE
 	jumpthisopenedtext
 
+	; PC-only
 	text "Behalte die"
 	line "Brille. Nochmal"
 	cont "danke!"
 	done
 
 .LovelyDay:
+	; PC-only
 	text "Schöner Tag heute,"
 	line "nicht wahr?"
+
 	para "Ich habe gehört,"
 	line "die Aussicht vom"
 	cont "Gipfel ist toll!"
 	done
 
 .BadDay:
+	; PC-only
 	text "Argh! Ein"
 	line "Bootswächter hat"
 	cont "mich vom"
+
 	para "Hafen vertrieben,"
 	line "als ich am Boot"
 	cont "vorbeischwamm."
+
 	para "Und ich habe meine"
 	line "Go-Brille verloren"
 	cont "…"
+
 	para "Mann, heute läuft"
 	line "einfach nichts!"
 	done
 
 .FoundGoggles:
+	; PC-only
 	text "Ach, du hast sie"
 	line "gefunden!"
+
 	para "Ich habe aber"
 	line "schon neue gekauft"
 	cont "…"
+
 	para "Hier, nimm das als"
 	line "Dankeschön!"
 	done
 
 .NoRoom:
+	; PC-only
 	text "Oh-oh, deine"
 	line "Tasche ist"
 	cont "ziemlich voll…"
@@ -126,12 +137,15 @@ Route39RuggedRoadGateCannotPassMovement:
 	step_end
 
 Route39RuggedRoadGateOfficerCannotPassText:
+	; PC-only
 	text "Huch, wohin willst"
 	line "du?"
+
 	para "Die Holprige"
 	line "Straße zum"
 	cont "Schneegipfel ist"
 	cont "wirklich hart!"
+
 	para "Ohne Go-Brille"
 	line "darf ich dich"
 	cont "nicht da"
@@ -139,10 +153,12 @@ Route39RuggedRoadGateOfficerCannotPassText:
 	done
 
 Route39RuggedRoadGateOfficerText:
+	; PC-only
 	text "Der Weg zum"
 	line "Schneegipfel kann"
 	cont "gefährlich sein!"
+
 	para "Deshalb wurde dort"
-	line "ein #mon-Center"
+	line "ein #MON-CENTER"
 	cont "gebaut."
 	done

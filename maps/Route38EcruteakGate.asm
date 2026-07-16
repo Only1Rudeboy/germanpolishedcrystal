@@ -39,14 +39,18 @@ ProfOaksAide2Script:
 .Explain
 	jumpthisopenedtext
 
+	; PC-only (Linking Cord)
 	text "Das Linking Cord"
 	line "gibt manchen"
-	para "#mon ein Gefühl"
+
+	para "#MON ein Gefühl"
 	line "der Verbundenheit,"
+
 	para "das bei der"
 	line "Entwicklung hilft."
+
 	para "Nutze es, um den"
-	line "#dex zu füllen!"
+	line "#DEX zu füllen!"
 	done
 
 .NoRoom
@@ -58,16 +62,21 @@ ProfOaksAide2Script:
 	done
 
 Route38EcruteakGateOfficerText:
+	; GSC-DE Dump
 	text "Wo sagtest du,"
 	line "kommst du her?"
+
 	para "NEUBORKIA?"
+
 	para "PROF. LIND wohnt"
-	line "dort, nicht wahr?"
+	line "dort,"
+	cont "nicht wahr?"
+
 	para "Du hast einen"
 	line "langen Weg auf"
 	cont "dich genommen, um"
-	cont "hierher zu"
-	cont "gelangen."
+	cont "hierher zu ge-"
+	cont "langen."
 	done
 
 
@@ -77,17 +86,22 @@ Route38EcruteakGateOfficerText:
 
 
 ProfOaksAide2HiText:
+	; PC-only (Aide)
 	text "Hallo! Ich bin"
 	line "PROF. LINDs"
 	cont "Gehilfe."
+
 	para "Wenn du 30"
-	line "#mon-Arten"
+	line "#MON-Arten"
 	cont "gefangen hast,"
+
 	para "soll ich dir ein"
 	line "Item geben."
+
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
-	para "30 #mon-Arten"
+
+	para "30 #MON-Arten"
 	line "gefangen?"
 	done
 

@@ -71,25 +71,31 @@ FarmerMScript_SellMilk:
 .Cancel:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Du hast kein"
 	line "Interesse? Komm"
 	cont "aber wieder, hörst"
 	cont "du?"
 	done
+
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Tut mir leid, mein"
+	; GSC-DE Dump
+	text "Tut mir Leid, mein"
 	line "Kind. Wenn du kein"
 	cont "Geld hast, kann"
 	cont "ich dir nichts"
 	cont "verkaufen!"
 	done
+
 .BagFull:
 	jumpthisopenedtext
 
-	text "Ich schätz, dein"
-	line "BEUTEL ist voll."
+	; GSC-DE Dump
+	text "Ich schätze,"
+	line "dein BEUTEL ist"
+	cont "voll."
 	done
 
 .MenuDataHeader:
@@ -103,14 +109,16 @@ FarmerMScript_SellMilk:
 	db 3 ; items
 	db "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
 	db "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
-	db "Cancel@"
+	db "Abbrechen@"
 
 .Milking:
 	jumpthisopenedtext
 
-	text "Dann melke ich mal"
-	line "weiter."
+	; GSC-DE Dump
+	text "Dann melke ich"
+	line "mal weiter."
 	done
+
 PokefanF_AcrobaticsFarmer:
 	faceplayer
 	opentext
@@ -120,6 +128,7 @@ PokefanF_AcrobaticsFarmer:
 	iftruefwd .GiveAcrobatics
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Unsere Milch wird"
 	line "sogar nach KANTO"
 	cont "geliefert."
@@ -131,6 +140,7 @@ PokefanF_AcrobaticsFarmer:
 	line "haben wir echte"
 	cont "Probleme."
 	done
+
 .GiveAcrobatics:
 	writetext FarmerFText_HealedMiltank
 	promptbutton
@@ -139,13 +149,14 @@ PokefanF_AcrobaticsFarmer:
 .GotAcrobatics:
 	jumpthisopenedtext
 
-	text "Das da ist"
-	line "Acrobatics."
+	; GSC-DE Dump-Wording (PC: Akrobatik / TM62)
+	text "Das hier ist"
+	line "Akrobatik."
 
 	para "Eine Attacke, die"
 	line "mehr schadet,"
 
-	para "wenn dein #mon"
+	para "wenn dein #MON"
 	line "kein Item hält."
 
 	para "Überlege dir gut,"
@@ -154,16 +165,22 @@ PokefanF_AcrobaticsFarmer:
 	done
 
 FarmerMText_SickCow:
+	; GSC-DE Dump
 	text "Mein MILTANK gibt"
-	line "keine Milch mehr."
+	line "keine Milch"
+	cont "mehr."
+
 	para "Diese FARM ist"
 	line "berühmt für die"
 	cont "Milch, die hier"
 	cont "produziert wird."
+
 	para "Fast jeder trinkt"
 	line "sie gern."
+
 	para "Es würde mir viel"
 	line "Milch geben, wenn"
+
 	para "ich es mit vielen"
 	line "BEEREN füttern"
 	cont "würde. Glaube ich"
@@ -176,14 +193,18 @@ FarmerMText_SickCow:
 
 
 FarmerMText_BuyMilk:
-	text "Wie findest du die"
-	line "MILCH von meinem"
-	cont "MILTANK?"
-	para "Sie ist mein"
-	line "ganzer Stolz."
+	; GSC-DE Dump (+ PC Preis-Var)
+	text "Wie findest du"
+	line "die MILCH von"
+	cont "meinem MILTANK?"
+
+	para "Sie ist mein gan-"
+	line "zer Stolz."
+
 	para "Gib sie einem"
-	line "#mon, um dessen"
+	line "#MON, um dessen"
 	cont "KP aufzufrischen!"
+
 	para "Ich gebe sie dir"
 	line "für nur ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
 	done
@@ -192,11 +213,11 @@ FarmerMText_BuyMilk:
 
 
 
-
 FarmerMText_GotMilk:
-	text "Bitte sehr! Trink"
-	line "aus und genieße"
-	cont "es!"
+	; GSC-DE Dump
+	text "Bitte sehr!"
+	line "Trink aus und"
+	cont "genieße es!"
 	done
 
 
@@ -205,6 +226,7 @@ FarmerMText_GotMilk:
 
 
 FarmerFText_HealedMiltank:
+	; GSC-DE Dump
 	text "Du hast unserem"
 	line "MILTANK geholfen!"
 
@@ -220,14 +242,11 @@ FarmerFText_HealedMiltank:
 
 
 
-
 Text_ReceivedTM13: ; unreferenced
+	; GSC-DE Dump (TM13 / unreferenced)
 	text "<PLAYER> erhält"
 	line "TM13."
 	done
-
-
-
 
 
 

@@ -52,6 +52,7 @@ GenericTrainerSwimmerfElaine:
 GenericTrainerSwimmerfPaula:
 	generictrainer SWIMMERF, PAULA, EVENT_BEAT_SWIMMERF_PAULA, SwimmerfPaulaSeenText, SwimmerfPaulaBeatenText
 
+	; GSC-DE Dump
 	text "Ich lasse mich im"
 	line "Wasser treiben und"
 	cont "von den Wellen"
@@ -61,9 +62,13 @@ GenericTrainerSwimmerfPaula:
 GenericTrainerSwimmermSimon:
 	generictrainer SWIMMERM, SIMON, EVENT_BEAT_SWIMMERM_SIMON, SwimmermSimonSeenText, SwimmermSimonBeatenText
 
-	text "ANEMONIA CITY ist"
-	line "ziemlich weit weg"
-	cont "von hier."
+	; GSC-DE Dump (+ PC after)
+	text "Du kannst es zwar"
+	line "nicht von hier"
+	para "sehen, aber ANEMO-"
+	line "NIA CITY liegt"
+	cont "jenseits des"
+	cont "Meeres."
 	done
 
 GenericTrainerSwimmermRandall:
@@ -80,11 +85,12 @@ Route40PokefanMScript:
 	iftrue_jumptextfaceplayer Route40PokefanMText2
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Hm! Das ist ein"
 	line "hohes Gebäude!"
-
 	para "Was ist das?"
 	done
+
 Route40BeachGuyScript:
 	checkevent EVENT_BATTLE_TOWER_OPEN
 	iftrue_jumptextfaceplayer Route40BeachGuyText2
@@ -92,10 +98,8 @@ Route40BeachGuyScript:
 
 	text "Der DUELLTURM ist"
 	line "fast fertig!"
-
 	para "Trainer aus aller"
 	line "Welt strömen nach"
-
 	para "OLIVIANA CITY, um"
 	line "ihre Stärke zu"
 	cont "testen."
@@ -128,7 +132,7 @@ Route40FisherScript:
 
 .IntroText:
 	text "Ich angelte, als"
-	line "plötzlich #mon"
+	line "plötzlich #MON"
 	cont "aufsprangen und"
 	para "meine Angel ins"
 	line "Wasser warfen!"
@@ -143,11 +147,9 @@ Route40FisherScript:
 .QuestionText:
 	text "Du gibst mir ein"
 	line "Silberblatt und"
-
 	para "ich bringe deinem"
-	line "#mon Abschlag"
+	line "#MON Abschlag"
 	cont "bei."
-
 	para "Wie klingt das?"
 	done
 
@@ -195,21 +197,25 @@ MonicaScript:
 	setevent EVENT_GOT_SHARP_BEAK_FROM_MONICA
 	jumpthisopenedtext
 
-	text "MONJA: Dieses Item"
-	line "verstärkt"
+	; GSC-DE Dump
+	text "MONJA: Dieses"
+	line "Item verstärkt"
 	para "Flug-Attacken."
 	para "Damit solltest du"
-	line "ein Vogel-#mon"
+	line "ein Vogel-#MON"
 	cont "ausstatten."
 	done
+
 MonicaNotMondayScript:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "MONJA: Ich"
 	line "fürchte, heute ist"
 	cont "nicht Montag. Wie"
-	cont "schade …"
+	cont "schade…"
 	done
+
 MonicaDoneScript:
 	end
 
@@ -222,127 +228,86 @@ SwimmermSimonSeenText:
 	line "Grundwissen."
 	done
 
-
-
-
-
-
 SwimmermSimonBeatenText:
 	text "O.K.! Onkel! Ich"
 	line "gebe auf!"
 	done
 
-
-
-
-
-
 SwimmermRandallSeenText:
 	text "Heh, du bist jung"
 	line "und fit!"
-
 	para "Surfe nicht auf"
-	line "deinem #mon!"
+	line "deinem #MON!"
 	cont "Schwimme!"
 	done
-
-
-
-
-
 
 SwimmermRandallBeatenText:
 	text "Oh, oh. Ich habe"
 	line "verloren…"
 	done
 
-
-
-
-
-
 SwimmerfElaineSeenText:
 	text "Gehst du nach"
 	line "ANEMONIA CITY?"
-
 	para "Wie wäre es erst"
 	line "mit einem kleinen"
 	cont "Kampftraining?"
 	done
-
-
-
-
-
 
 SwimmerfElaineBeatenText:
 	text "Diesmal habe ich"
 	line "verloren!"
 	done
 
-
-
-
-
-
 SwimmerfPaulaSeenText:
 	text "Ich habe keine"
 	line "Schwimmreifen."
 	para "Ich halte mich an"
 	line "einem"
-	cont "Wasser-#mon"
+	cont "Wasser-#MON"
 	cont "fest!"
 	done
-
-
-
-
-
 
 SwimmerfPaulaBeatenText:
 	text "Oh, ich fühle mich"
 	line "so schwindelig!"
 	done
 
-
-
-
-
-
 Route40BeachGirlText:
 	text "Ich hab gerade im"
-	line "OLIVIANA-Café"
+	line "OLIVIANA CITY-CAFE"
 	cont "gegessen, deshalb"
-
 	para "mache ich erst"
 	line "eine Pause, bevor"
 	cont "ich schwimme."
 	done
 
-
 Route40PokefanMText2:
+	; GSC-DE Dump
 	text "Hm! Sieh die"
 	line "entschlossenen"
 	cont "Trainer, die"
 	cont "hineingehen."
-
 	para "Was? Was?"
 	done
+
 Route40PicnickerText:
+	; GSC-DE Dump
 	text "Ich reiste mit dem"
 	line "Schiff nach"
 	para "OLIVIANA, um die"
 	line "Sehenswürdigkeiten"
 	para "und die Atmosphäre"
 	line "zu genießen."
-	para "Da es eine"
-	line "Hafenstadt ist,"
-	cont "unter-"
+	para "Da es eine Hafen-"
+	line "stadt ist, unter-"
 	para "scheidet sie sich"
-	line "von anderen großen"
-	cont "Städten."
+	line "von anderen"
+	cont "großen Städten."
 	done
+
 Route40BeachGuyText2:
+	; GSC-DE Dump
 	text "Warst du schon am"
 	line "DUELLTURM?"
 	para "Ich denke, dass"
@@ -354,55 +319,36 @@ Route40BeachGuyText2:
 	para "wirst du dich dort"
 	line "wacker schlagen."
 	done
+
 MeetMonicaText:
+	; GSC-DE Dump
 	text "MONJA: Es freut"
 	line "mich, dich kennen"
 	para "zu lernen. Ich bin"
 	line "MONJA von Montag."
 	done
 
-
-
-
-
-
 MonicaGivesGiftText:
+	; GSC-DE Dump (Breite ≤18)
 	text "Als Zeichen"
-	line "unserer"
-	cont "Freundschaft"
-	cont "schenke ich dir"
-	cont "dies!"
+	line "unserer Freund-"
+	cont "schaft schenke"
+	cont "ich dir dies!"
 	done
 
-
-
-
-
-
 MonicaMondayText:
+	; GSC-DE Dump
 	text "MONJA: Meine"
 	line "Geschwister"
-
 	para "findest du"
 	line "überall."
-
 	para "Du solltest sie"
 	line "alle finden!"
 	done
 
-
-
-
-
-
 Route40SignText:
+	; GSC-DE Dump
 	text "ROUTE 40"
-	para "ANEMONIA CITY"
-	line "-OLIVIANA CITY"
+	para "ANEMONIA CITY -"
+	line "OLIVIANA CITY"
 	done
-
-
-
-
-
-

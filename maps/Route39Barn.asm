@@ -150,24 +150,32 @@ MooMoo:
 	end
 
 Text_MoomooIsSick:
-	text "Moomoo ist krank…"
+	; GSC-DE Dump
+	text "MILTANK ist krank…"
 
-	para "Sie braucht viele"
-	line "gesunde Beeren."
+	para "Es braucht viele"
+	line "BEEREN."
 	done
 
 Text_WereFeedingMoomoo:
+	; GSC-DE Dump
 	text "Wir füttern"
 	line "MILTANK!"
 	done
+
 Text_WeakMoo:
+	; GSC-DE Dump
 	text "MILTANK: …Muh…"
 	done
+
 Text_ItsCryIsWeak:
+	; GSC-DE Dump
 	text "Sein Ruf ist"
 	line "schwach…"
 	done
+
 MoomooHappyMooText:
+	; GSC-DE Dump
 	text "MILTANK: MUH!"
 	done
 
@@ -176,42 +184,51 @@ MoomooHappyMooText:
 
 
 Text_AskGiveBerry:
-	text "MILTANK eine"
-	line "Oranbeere oder"
-	cont "Sitrusbeere geben?"
+	; GSC-DE Dump (+ PC Oran/Sitrus)
+	text "Gibst du MILTANK"
+	line "eine BEERE?"
 	done
 
 Text_GaveOranBerry:
+	; GSC-DE Dump-Wording (PC: Oran)
 	text "<PLAYER> gibt"
 	line "MILTANK eine"
-	cont "Oranbeere."
+	cont "BEERE."
 	done
 
 Text_GaveSitrusBerry:
+	; GSC-DE Dump-Wording (PC: Sitrus)
 	text "<PLAYER> gibt"
 	line "MILTANK eine"
-	cont "Sitrusbeere."
+	cont "BEERE."
 	done
 
 Text_LittleHealthier:
+	; GSC-DE Dump
 	text "MILTANK ist etwas"
 	line "gesünder geworden!"
 	done
+
 Text_QuiteHealthy:
+	; GSC-DE Dump
 	text "MILTANK ist viel"
 	line "gesünder geworden!"
 	done
+
 Text_TotallyHealthy:
+	; GSC-DE Dump
 	text "MILTANK ist völlig"
 	line "gesund geworden!"
 	done
+
 Text_NoBerries:
+	; GSC-DE Dump
 	text "<PLAYER> hat keine"
-	line "Oranbeere oder"
-	cont "Sitrusbeere…"
+	line "BEEREN…"
 	done
 
 Text_RefusedToGiveBerry:
+	; GSC-DE Dump
 	text "<PLAYER> möchte"
 	line "keine BEERE"
 	cont "verwenden."
@@ -219,6 +236,7 @@ Text_RefusedToGiveBerry:
 	para "MILTANK sieht"
 	line "traurig aus."
 	done
+
 Route39BarnBucketText:
 	text "Ein Eimer."
 	done

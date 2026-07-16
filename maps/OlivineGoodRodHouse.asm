@@ -32,12 +32,13 @@ GoodRodGuru:
 	end
 
 OfferGoodRodText:
+	; GSC-DE Dump
 	text "OLIVIANA CITY"
 	line "liegt am Meer!"
 	para "Daher sollte man"
 	line "dort auch jede"
-	cont "Menge Fische"
-	cont "finden!"
+	cont "Menge Fische fin-"
+	cont "den!"
 	para "Ich fische hier"
 	line "seit 30 Jahren."
 	para "Willst du das Meer"
@@ -45,37 +46,34 @@ OfferGoodRodText:
 	cont "sehen?"
 	done
 
-
-
 GiveGoodRodText:
-	text "Ah, hahah! Und da"
-	line "haben wir einen"
-	cont "neuen Angler!"
+	; GSC-DE Dump
+	text "Ah, hahah!"
+	line "Und da haben wir"
+	cont "einen neuen"
+	cont "Angler!"
 	done
 
-
-
 GaveGoodRodText:
+	; GSC-DE Dump
 	text "Fische findet man"
 	line "nicht nur im Meer."
 	para "Sie sind überall,"
 	line "wo es Wasser gibt."
 	done
 
-
-
 DontWantGoodRodText:
+	; GSC-DE Dump
 	text "Waaas? Du willst"
 	line "nicht fischen!?"
 	cont "Unfassbar!"
 	done
 
-
-
 HaveGoodRodText:
+	; GSC-DE Dump
 	text "Wie steht's? Den"
-	line "großen Fang"
-	cont "gemacht?"
+	line "großen Fang ge-"
+	cont "macht?"
 	done
 
 

@@ -150,35 +150,36 @@ Bird_keeperTheoScript:
 	iftrue_jumptextfaceplayer Bird_keeperTheoFinalText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Wie, zum Geier,"
 	line "bist du hier"
 	cont "hochgekommen?"
 	para "Ich möchte das"
-	line "kranke #mon"
+	line "kranke #MON"
 	para "besuchen, aber ich"
 	line "schaffe es nicht"
-	cont "bis nach oben …"
+	cont "bis nach oben…"
 	done
+
 GenericTrainerGentlemanPreston:
 	generictrainer GENTLEMAN, PRESTON, EVENT_BEAT_GENTLEMAN_PRESTON, GentlemanPrestonSeenText, GentlemanPrestonBeatenText
 
+	; GSC-DE Dump
 	text "JASMIN trainierte"
-	line "früher"
-	cont "Gestein-#mon"
-	cont "wie ONIX."
+	line "früher Gestein-"
+	cont "#MON wie ONIX."
 	done
 
 GenericTrainerSailorTerrell:
 	generictrainer SAILOR, TERRELL, EVENT_BEAT_SAILOR_TERRELL, SailorTerrellSeenText, SailorTerrellBeatenText
 
-	text "Jedes Mal wenn ich"
-	line "nach OLIVIANA"
+	; GSC-DE Dump
+	text "Jedes Mal wenn"
+	line "ich nach OLIVIANA"
 	para "CITY komme, gehe"
-	line "ich in die"
-	cont "#mon-"
-	para "ARENA. Der"
-	line "#mon-Typ der"
-	cont "ARENA-"
+	line "ich in die PKMN-"
+	para "ARENA. Der #-"
+	line "MON-Typ der ARENA-"
 	para "LEITERIN hat sich"
 	line "geändert, ohne"
 	para "dass ich es"
@@ -186,26 +187,28 @@ GenericTrainerSailorTerrell:
 	done
 
 Bird_keeperTheoSeenText:
+	; GSC-DE Dump
 	text "Warum bist du"
 	line "gekommen? Bist du"
-
 	para "zum Gaffen hier?"
 	line "Es ist besser, du"
 	cont "gehst!"
 	done
+
 Bird_keeperTheoBeatenText:
+	; GSC-DE Dump
 	text "Du sorgst dich"
 	line "wirklich…"
 	done
+
 Bird_keeperTheoFinalText:
+	; PC + Dump-Ton
 	text "Wie zum Geier"
 	line "kommt man nach"
 	cont "oben?"
-
 	para "Ich hörte, dem"
-	line "kranken #mon"
+	line "kranken #MON"
 	cont "geht"
-
 	para "es wieder besser,"
 	line "aber ich schaffe"
 	cont "es nicht nach"
@@ -213,9 +216,10 @@ Bird_keeperTheoFinalText:
 	done
 
 SailorTerrellSeenText:
-	text "Matrosen sind nett"
-	line "und stark. Wie"
-	cont "bist du?"
+	; GSC-DE Dump
+	text "Matrosen sind"
+	line "nett und stark."
+	cont "Wie bist du?"
 	done
 
 
@@ -224,6 +228,7 @@ SailorTerrellSeenText:
 
 
 SailorTerrellBeatenText:
+	; GSC-DE Dump
 	text "Du bist auch nett"
 	line "und stark…"
 	done
@@ -234,9 +239,10 @@ SailorTerrellBeatenText:
 
 
 GentlemanPrestonSeenText:
+	; GSC-DE Dump
 	text "Ich bereise die"
 	line "Welt, um meine"
-	cont "#mon zu"
+	cont "#MON zu"
 	cont "trainieren. Ich"
 	cont "möchte mit dir"
 	cont "kämpfen."
@@ -248,6 +254,7 @@ GentlemanPrestonSeenText:
 
 
 GentlemanPrestonBeatenText:
+	; GSC-DE Dump
 	text "…Seufz… Ich muss"
 	line "mehr trainieren…"
 	done

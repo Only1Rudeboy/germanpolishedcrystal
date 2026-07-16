@@ -86,15 +86,15 @@ EcruteakTinTowerEntranceSageScript:
 	iftrue_jumpopenedtext EcruteakTinTowerEntranceSageText_GotFogBadge
 	jumpthisopenedtext
 
-	text "Der Zinnturm"
-	line "ist für alle ohne"
+	; GSC-DE Dump
+	text "Wenn du nicht im"
+	line "Besitz des ORDENs"
 
-	para "den Orden der"
-	line "ARENA von TEAK"
-	cont "CITY tabu."
+	para "von TEAK CITY"
+	line "bist, darfst du"
 
-	para "Tut mir leid, du"
-	line "musst gehen."
+	para "den ZINNTURM nicht"
+	line "betreten."
 	done
 
 .CheckForClearBell:
@@ -106,19 +106,25 @@ EcruteakTinTowerEntranceSageScript:
 	iftruefwd .RingClearBell
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Ein denkwürdiger"
 	line "Augenblick."
+
 	para "Entschuldigung,"
 	line "aber ich muss dich"
 	cont "bitten zu gehen."
-	para "… Was lindert"
-	line "Seelenschmerzen …"
+
+	para "…Was lindert"
+	line "Seelenschmerzen…"
+
 	para "Das TRIO der"
 	line "WEISEN sagt stets"
+
 	para "Dinge, die sehr"
-	line "schwierig zu"
-	cont "verstehen sind …"
+	line "schwierig zu ver-"
+	cont "stehen sind…"
 	done
+
 .RingClearBell:
 	writetext EcruteakTinTowerEntranceSageText_HearsClearBell
 	waitbutton
@@ -134,14 +140,17 @@ EcruteakTinTowerEntranceWanderingSageScript:
 	iftrue_jumptextfaceplayer EcruteakTinTowerEntranceWanderingSageText_GotClearBell
 	jumpthistextfaceplayer
 
-	text "Der Zinnturm"
-	line "dort ist ein"
-	cont "neunstöckiger Turm"
-	para "von göttlicher"
-	line "Schönheit."
+	; GSC-DE Dump
+	text "Der ZINNTURM da"
+	line "vorne ist ein"
+
+	para "8-stöckiger Turm"
+	line "von göttlicher"
+	cont "Schönheit."
+
 	para "Er beruhigt die"
-	line "Seele aller, die"
-	cont "ihn sehen."
+	line "Seelen derer, die"
+	cont "ihn betrachten."
 	done
 
 EcruteakTinTowerEntranceSageBlocksLeftMovement:
@@ -158,83 +167,97 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	turn_head_down
 	step_end
 
-
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "Der Zinnturm"
-	line "ist für alle ohne"
-	para "den Orden der"
-	line "ARENA von TEAK"
-	cont "CITY tabu."
-	para "Ah!"
-	para "Der Orden von TEAK"
-	line "CITY! Bitte, geh"
-	cont "einfach durch."
+	; GSC-DE Dump
+	text "Wenn du nicht im"
+	line "Besitz des ORDENs"
+
+	para "von TEAK CITY"
+	line "bist, darfst du"
+
+	para "den ZINNTURM nicht"
+	line "betreten. Ah!"
+
+	para "Das ist der ORDEN"
+	line "von TEAK CITY! Du"
+	cont "darfst passieren."
 	done
 
-
 EcruteakTinTowerEntranceSageText_HearsClearBell:
+	; GSC-DE Dump
 	text "Ein denkwürdiger"
-	line "Moment ist"
-	para "eingetroffen."
-	para "Verzeihung, aber"
-	line "ich muss dich"
-	para "bitten zu gehen."
-	para "… … … … … …"
+	line "Augenblick."
+
+	para "Entschuldigung,"
+	line "aber ich muss dich"
+	cont "bitten zu gehen."
+
+	para "…… …… ……"
+
 	para "Ah!"
-	para "Der Klang der"
-	line "Klarglocke!"
-	para "Er … er ist"
-	line "erhaben!"
-	para "So einen"
-	line "wunderschönen"
-	cont "Klang hab"
-	para "ich noch nie"
-	line "gehört!"
-	para "Der Klang dieser"
-	line "Glocke spiegelt"
-	cont "die Seele des"
-	cont "Trägers wider."
-	para "Du …"
-	para "Du schaffst es"
-	line "vielleicht durch"
-	cont "den Zinnturm."
-	para "Bitte, geh weiter."
+
+	para "Das Läuten der"
+	line "KLARGLOCKE!"
+
+	para "Es… ist erhaben!"
+
+	para "Das schönste Läu-"
+	line "ten, das ich je"
+	cont "hörte!"
+
+	para "Dieser Ton sagt"
+	line "alles über die"
+	cont "Seele des Trägers"
+	cont "aus."
+
+	para "Du…"
+
+	para "Du könntest es"
+	line "durch den"
+	cont "ZINNTURM schaffen."
+
+	para "Schreite voran."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
+	; GSC-DE Dump
 	text "Schreite voran."
 	done
+
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "Der Klang dieser"
-	line "Glocke spiegelt"
-	cont "die Seele des"
-	cont "Trägers wider."
-	para "Du …"
-	para "Du schaffst es"
-	line "vielleicht durch"
-	cont "den Zinnturm."
-	para "Bitte, geh weiter."
+	; GSC-DE Dump
+	text "Dieser Ton sagt"
+	line "alles über die"
+	cont "Seele des Trägers"
+	cont "aus."
+
+	para "Du…"
+
+	para "Du könntest es"
+	line "durch den"
+	cont "ZINNTURM schaffen."
+
+	para "Schreite voran."
 	done
 
-
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "Der Zinnturm"
-	line "hat gebebt! Ein"
+	; GSC-DE Dump
+	text "Der ZINNTURM bebt!"
+	line "Ein #MON muss"
 
-	para "#mon muss oben"
-	line "zurückgekehrt"
-	cont "sein!"
+	para "auf der Spitze ge-"
+	line "landet sein!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Zwei Türme… Zwei"
-	line "#mon…"
+	; GSC-DE Dump
+	text "Zwei Türme…"
+	line "Zwei #MON…"
 
 	para "Aber als einer"
 	line "niederbrannte,"
 
-	para "flogen beide"
-	line "#mon fort und"
-	cont "kamen nie wieder"
-	cont "zurück."
+	para "flogen beide #-"
+	line "MON fort und kamen"
+	cont "nie wieder zurück."
 	done

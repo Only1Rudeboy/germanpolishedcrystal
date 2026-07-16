@@ -21,10 +21,8 @@ Route40BattleTowerGate_MapScriptHeader:
 Route40BattleTowerGateOfficer:
 	text "Gehst du zum"
 	line "DUELLTURM?"
-
 	para "Wenn du oft"
 	line "gewinnst, kannst"
-
 	para "du Kampfpunkte"
 	line "sammeln und gegen"
 	cont "spezielle Items"

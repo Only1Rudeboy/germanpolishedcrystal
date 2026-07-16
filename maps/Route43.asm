@@ -687,9 +687,10 @@ SrandjrIvyandamy2BeatenText:
 	done
 
 Route43Sign1Text:
+	; GSC-DE Dump
 	text "ROUTE 43"
-	para "SEE DES ZORNS"
-	line "-MAHAGONIA CITY"
+	para "SEE DES ZORNS -"
+	line "MAHAGONIA CITY"
 	done
 
 
@@ -699,9 +700,10 @@ Route43Sign1Text:
 
 
 Route43Sign2Text:
+	; GSC-DE Dump
 	text "ROUTE 43"
-	para "SEE DES ZORNS"
-	line "-MAHAGONIA CITY"
+	para "SEE DES ZORNS -"
+	line "MAHAGONIA CITY"
 	done
 
 

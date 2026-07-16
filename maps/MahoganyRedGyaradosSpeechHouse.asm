@@ -18,39 +18,32 @@ MahoganyRedGyaradosSpeechHouse_MapScriptHeader:
 MahoganyRedGyaradosSpeechHouseTeacherScript:
 	checkflag ENGINE_ROCKETS_IN_RADIO_TOWER
 	iftrue_jumptextfaceplayer MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower
+	; GSC-DE Dump
 	jumpthistextfaceplayer
 
-	text "Mein Lieblings-"
-	line "Radioprogramm? Ich"
-	cont "würde sagen"
-	cont "#mon-Musik."
+	text "Mein Lieblingspro-"
+	line "gramm im Radio?"
+	cont "Ich würde sagen"
+	cont "#MON-MUSIK."
 	done
 
-
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
+	; GSC-DE Dump
 	text "Ich hörte, dass"
 	line "ein rotes GARADOS"
-
 	para "am SEE erschienen"
 	line "sein soll."
-
 	para "Das ist seltsam,"
 	line "da schon normale"
-
 	para "GARADOS in diesem"
 	line "See sehr selten"
-
 	para "sind…"
 	done
 
-
-
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
+	; GSC-DE Dump
 	text "Ich habe Gelächter"
-	line "im Radio gehört …"
-	para "Das war"
-	line "unheimlich."
+	line "im Radio gehört…"
+	para "Das war unheim-"
+	line "lich."
 	done
-
-
-

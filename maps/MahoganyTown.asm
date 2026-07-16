@@ -64,40 +64,39 @@ RageCandyBarMerchantScript:
 	playsound SFX_TRANSACTION
 	takemoney YOUR_MONEY, 300
 	special PlaceMoneyTopRight
+	; GSC-DE Dump
 	jumpthisopenedtext
 
-	text "Gut! Genieße es!"
+	text "Gut! Genieße ihn!"
 	done
-
-
-
-
-
 
 .NotEnoughMoney:
+	; GSC-DE Dump
 	jumpthisopenedtext
 
-	text "Du hast nicht"
-	line "genug Geld."
+	text "Du hast nicht ge-"
+	line "nug Geld."
 	done
+
 MahoganyTownGrampsScript:
 	checkevent EVENT_CLEARED_ROCKET_HIDEOUT
 	iftrue_jumptextfaceplayer MahoganyTownGrampsText_ClearedRocketHideout
+	; GSC-DE Dump
 	jumpthistextfaceplayer
 
-	text "Willst du dir das"
-	line "wütende GARADOS am"
-	cont "See ansehen?"
+	text "Hast du vor, die"
+	line "GARADOS am SEE an-"
+	cont "zusehen?"
 	done
-
-
 
 MahoganyTownSouvenirShopSign:
 	checkevent EVENT_MAHOGANY_MART_OWNERS
 	iftrue_jumptext MahoganyTownSouvenirShopSignText1
+	; GSC-DE Dump
 	jumpthistext
 
-	text "Omas Souvenirladen"
+	text "Versuchen Sie den"
+	line "leckeren WUTKEKS!"
 	done
 
 MahoganyTownRageCandyBarMerchantBlocksYouMovement:
@@ -112,117 +111,94 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
+	; GSC-DE Dump
 	text "Hi, Zwerg!"
 	para "Ich sehe, du bist"
 	line "neu in MAHAGONIA."
 	para "Du musst unbedingt"
 	line "einen WUTKEKS"
 	cont "probieren!"
-	para "Ich habe einen"
-	line "dabei. Für nur"
-	cont "¥300 gehört er"
-	cont "dir."
+	para "Ich habe einen da-"
+	line "bei. Für nur ¥300"
+	cont "gehört er dir."
 	done
 
-
-
-
-
-
-
 RageCandyBarMerchantRefusedText:
+	; GSC-DE Dump
 	text "Dann eben nicht…"
 	done
 
-
-
-
-
-
-
 RageCandyBarMerchantNoRoomText:
+	; GSC-DE Dump
 	text "Du hast keinen"
 	line "Platz mehr."
 	done
 
-
-
-
-
-
-
 RageCandyBarMerchantSoldOutText:
+	; GSC-DE Dump
 	text "Die WUTKEKSE sind"
 	line "ausverkauft."
-
 	para "Ich verschwinde."
 	line "Stör mich nicht,"
 	cont "Kind."
 	done
 
-
-
-
-
-
-
-if DEF(FAITHFUL)
-	text "Die WUTKEKSE sind"
-	done
-else
-	text "Die WUTKEKSE sind"
-	done
-endc
-	line "ausverkauft."
-
-	para "Ich verschwinde."
-	line "Stör mich nicht,"
-	cont "Kind."
-	done
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "Die verdächtigen"
-	line "Männer sind"
-	cont "verschwunden…"
-	para "Vielleicht war es"
-	line "doch besser, dass"
-	cont "du dich"
-	cont "eingemischt hast."
+	; GSC-DE Dump
+	text "Die KARPADOR sind"
+	line "zum SEE DES ZORNS"
+	cont "zurückgekehrt."
+	para "Das sind gute Neu-"
+	line "igkeiten für die"
+	cont "Angler."
 	done
+
 MahoganyTownFisherText:
-	text "Bist du auf dem"
-	line "Weg zum SEE DES"
-	cont "ZORNS?"
-	para "Die Leute sagen,"
-	line "dort wütet ein"
-	cont "rotes GARADOS."
+	; GSC-DE Dump
+	text "Wenn du schon so"
+	line "weit gekommen"
+	para "bist, solltest du"
+	line "dir die Zeit neh-"
+	cont "men, um etwas"
+	para "Sightseeing zu un-"
+	line "ternehmen."
+	para "Geh nach Norden"
+	line "und sieh dir den"
+	para "SEE DES ZORNS an."
 	done
+
 MahoganyTownLassText:
-	text "Pass auf die"
-	line "Touristen auf, die"
-	cont "die"
-	cont "RAGECANDY-RIEGEL"
-	cont "verkaufen."
+	; GSC-DE Dump
+	text "Besuche Großmut-"
+	line "ters Laden. Sie"
+	para "verkauft Artikel,"
+	line "die du sonst nir-"
+	cont "gends bekommen"
+	cont "kannst."
 	done
+
 MahoganyTownSignText:
+	; GSC-DE Dump
 	text "MAHAGONIA CITY"
 	para "Willkommen in der"
 	line "Stadt der Ninja"
 	done
+
 MahoganyTownSouvenirShopSignText1:
+	; PC: Rocket-Cover-Schild
 	text "Nur ein"
 	line "Souvenirladen"
-
 	para "Hier ist nichts"
 	line "Verdächtiges"
-
 	para "Kein Grund zur"
 	line "Sorge"
 	done
 
 MahoganyGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "MAHAGONIA CITY"
-	cont "LEITUNG: NORBERT"
-	para "Der Lehrer der"
-	line "Härte des Winters"
+	para "LEITUNG: NORBERT"
+	line "Der Lehrer der"
+	para "Härte des Winters"
 	done

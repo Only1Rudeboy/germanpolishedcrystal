@@ -26,11 +26,13 @@ Route38_MapScriptHeader:
 GenericTrainerBird_keeperToby:
 	generictrainer BIRD_KEEPER, TOBY, EVENT_BEAT_BIRD_KEEPER_TOBY, Bird_keeperTobySeenText, Bird_keeperTobyBeatenText
 
-	text "Ich habe vor, in"
-	line "ANEMONIA CITY"
+	; GSC-DE Dump
+	text "Ich habe vor,"
+	line "in ANEMONIA CITY"
+
 	para "zu trainieren und"
-	line "meinen #mon das"
-	cont "Fliegen"
+	line "meinen #MON"
+	cont "das Fliegen"
 	cont "beizubringen."
 	done
 
@@ -42,13 +44,15 @@ TrainerSailorHarry:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Alle Menschen auf"
 	line "der ganzen Welt"
 
 	para "leben glücklich"
 	line "zusammen mit den"
-	cont "#mon."
+	cont "#MON."
 	done
+
 TrainerLassDana1:
 	trainer LASS, DANA1, EVENT_BEAT_LASS_DANA, LassDana1SeenText, LassDana1BeatenText, 0, .script
 
@@ -259,35 +263,46 @@ TrainerSchoolboyChad1:
 GenericTrainerBeautyValencia:
 	generictrainer BEAUTY, VALENCIA, EVENT_BEAT_BEAUTY_VALENCIA, BeautyValenciaSeenText, BeautyValenciaBeatenText
 
-	text "Wenn ich #mon"
-	line "sehe, scheint mich"
-	cont "das zu entspannen."
+	; GSC-DE Dump
+	text "Wenn ich #MON"
+	line "sehe, scheint"
+	cont "mich das zu"
+	cont "entspannen."
 	done
+
 GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
 
+	; GSC-DE Dump
 	text "KUHMUH-MLCH ist"
 	line "gut für Schönheit"
+
 	para "und Gesundheit,"
 	line "aber leider kann"
+
 	para "man immer nur eine"
 	line "Flasche kaufen."
 	done
 
 
 Bird_keeperTobySeenText:
+	; GSC-DE Dump
 	text "Fliege hoch in die"
 	line "Luft, mein"
 	cont "herrliches"
-	cont "Vogel-#mon!"
+	cont "Vogel-#MON!"
 	done
+
 Bird_keeperTobyBeatenText:
+	; GSC-DE Dump
 	text "Ich fühle mich,"
 	line "als würde ich mich"
 	cont "selbst in die"
 	cont "Lüfte erheben."
 	done
+
 SchoolboyChad1SeenText:
+	; GSC-DE Dump
 	text "Jetzt probiere ich"
 	line "etwas aus, das ich"
 	cont "heute gelernt"
@@ -298,6 +313,7 @@ SchoolboyChad1SeenText:
 
 
 SchoolboyChad1BeatenText:
+	; GSC-DE Dump
 	text "Ich fürchte, ich"
 	line "habe noch nicht"
 	cont "genug gelernt."
@@ -307,25 +323,29 @@ SchoolboyChad1BeatenText:
 
 
 SchoolboyChadSoManyTestsText:
+	; GSC-DE Dump
 	text "Ich habe so viele"
 	line "Prüfungen, dass"
+
 	para "ich nicht viel"
-	line "Zeit für #mon"
+	line "Zeit für #MON"
 	cont "habe."
+
 	para "Wenn ich also mal"
 	line "Zeit zum Spielen"
-	cont "habe, dann"
-	cont "konzen-triere ich"
-	cont "mich."
+	cont "habe, dann konzen-"
+	cont "triere ich mich."
 	done
 
 
 
 
 LassDana1SeenText:
+	; GSC-DE Dump
 	text "Du scheinst dich"
-	line "mit #mon"
+	line "mit #MON"
 	cont "auszukennen."
+
 	para "Gibst du mir bitte"
 	line "einige Ratschläge?"
 	done
@@ -334,16 +354,18 @@ LassDana1SeenText:
 
 
 LassDana1BeatenText:
+	; GSC-DE Dump
 	text "Ich verstehe. So"
 	line "kämpfst du also."
 	done
 
 
 
-
 LassDanaMoomooMilkText:
+	; GSC-DE Dump
 	text "Ich kenne etwas"
 	line "sehr Bekömmliches!"
+
 	para "Die Milch von der"
 	line "KUHMUH-FARM ist"
 	cont "bekannt für ihren"
@@ -354,77 +376,90 @@ LassDanaMoomooMilkText:
 
 
 BeautyValenciaSeenText:
+	; GSC-DE Dump
 	text "Hallo! Du bist"
 	line "bestimmt so nett"
 
 	para "und zeigst mir"
-	line "deine #mon?"
+	line "deine #MON?"
 	done
+
 BeautyValenciaBeatenText:
+	; GSC-DE Dump
 	text "Ich bin froh, dass"
-	line "ich deine #mon"
+	line "ich deine #MON"
 	cont "sehen durfte!"
 	done
+
 SailorHarrySeenText:
-	text "Ich war im"
-	line "Ausland. Deswegen"
+	; GSC-DE Dump
+	text "Ich war im Aus-"
+	line "land. Deswegen"
+
 	para "kenne ich alle"
-	line "#mon-Arten!"
+	line "#MON-Arten!"
 	done
 
 
 
 
 SailorHarryBeatenText:
+	; GSC-DE Dump
 	text "Deine Fähigkeiten"
-	line "sind"
-	cont "Spitzenklasse!"
+	line "sind Spitzen-"
+	cont "klasse!"
 	done
 
 
 
 
 BeautyOliviaSeenText:
-	text "Meine #mon und"
-	line "ich sind"
-	cont "wunderschön, nicht"
-	cont "wahr?"
+	; GSC-DE Dump
+	text "Meine #MON und"
+	line "ich sind wunder-"
+	cont "schön, nicht wahr?"
 	done
 
 
 
 
 BeautyOliviaBeatenText:
-	text "Wir trinken"
-	line "täglich"
-	cont "KUHMUH-MILCH."
+	; GSC-DE Dump
+	text "Wir trinken täg-"
+	line "lich KUHMUH-MILCH."
 	done
 
 
 
 
 Route38SignText:
+	; GSC-DE Dump
 	text "ROUTE 38"
-	para "OLIVIANA CITY"
-	line "-TEAK CITY"
+
+	para "OLIVIANA CITY -"
+	line "TEAK CITY"
 	done
 
 
 
 
 Route38TrainerTipsText:
+	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 	line "Wenn sich ein"
-	para "#mon"
-	line "weiterentwickelt,"
-	cont "kannst"
+
+	para "#MON weiter-"
+	line "entwickelt, kannst"
+
 	para "du diesen Prozess"
 	line "aufhalten."
-	para "Drücke während der"
-	line "Entwicklung den"
-	cont "B-Knopf."
+
+	para "Drücke während"
+	line "der Entwicklung"
+	cont "den B-Knopf."
+
 	para "So wird das"
-	line "#mon erschreckt"
+	line "#MON erschreckt"
 	cont "und es bricht die"
 	cont "Entwicklung ab."
 	done
@@ -433,18 +468,23 @@ Route38TrainerTipsText:
 
 
 Route38AdvancedTipsText:
+	; PC-only
 	text "Profi-Tipps!"
+
 	para "Drücke Start im"
-	line "#mon-Lager,"
+	line "#MON-Lager,"
+
 	para "um schnell den"
 	line "Box-Namen zu"
 	cont "fokussieren!"
+
 	para "Du kannst Name und"
 	line "Design jeder Box"
 	cont "ändern!"
+
 	para "Drücke Select, um"
 	line "die"
 	cont "A-Taste-Funktion"
-	cont "für #mon zu"
+	cont "für #MON zu"
 	cont "ändern!"
 	done

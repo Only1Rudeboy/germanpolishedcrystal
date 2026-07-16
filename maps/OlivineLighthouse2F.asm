@@ -28,17 +28,15 @@ GentlemanAlfredScript:
 	iftrue_jumptextfaceplayer GentlemanAlfredFinalText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Ganz oben ist ein"
-	line "#mon, das den"
+	line "#MON, das den"
 	cont "LEUCHTTURM"
 	cont "betreibt."
-
 	para "Ich habe gehört,"
 	line "dass es krank ist"
-
 	para "und dass normale"
 	line "Medizin nicht"
-
 	para "hilft."
 	done
 TrainerSailorHuey1:
@@ -166,31 +164,34 @@ SailorHuey1Script:
 	jumpstd rematchgiftm
 
 SailorHuey1SeenText:
+	; GSC-DE Dump
 	text "Seefahrer scheuen"
 	line "keine harten"
 	cont "Kämpfe!"
 	done
+
 SailorHuey1BeatenText:
-	text "Uff! Verloren!"
+	; GSC-DE Dump
+	text "Uff!"
+	line "Ich habe verloren!"
 	done
 
 GentlemanAlfredSeenText:
+	; GSC-DE Dump
 	text "Hm? Dies ist kein"
 	line "Ort für Spielchen."
 	done
 
-
-
 GentlemanAlfredBeatenText:
+	; GSC-DE Dump
 	text "Ah! Ich sehe, du"
 	line "meinst es ernst."
 	done
 
-
-
 GentlemanAlfredFinalText:
+	; GSC-DE Dump (+ PC: geheilt-Zweig)
 	text "Ganz oben ist ein"
-	line "#mon, das den"
+	line "#MON, das den"
 	cont "LEUCHTTURM"
 	cont "betreibt."
 	para "Du hast seine"
@@ -200,10 +201,11 @@ GentlemanAlfredFinalText:
 	done
 
 SailorHueyGiveProteinText:
-	text "Toll! Du bist"
+	; GSC-DE Dump
+	text "Wow! Du bist"
 	line "stark, wie immer!"
-	para "Egal, hier hast du"
-	line "die Medizin."
+	para "Egal, hier hast"
+	line "du die Medizin."
 	done
 
 

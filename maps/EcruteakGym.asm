@@ -111,14 +111,16 @@ EcruteakGymMortyScript:
 	setevent EVENT_GOT_TM30_SHADOW_BALL
 	jumpthisopenedtext
 
-	text "Schattenball."
-	line "Verursacht Schaden"
-	cont "und kann die"
-	cont "Spezial-Vert."
-	cont "senken."
-
-	para "Nutze es, wenn es"
-	line "dir gefällt."
+	; GSC-DE Dump (PC: Schattenball statt SPUKBALL)
+	text "Das ist Schatten-"
+	line "ball."
+	para "Er verursacht"
+	line "Schaden und ver-"
+	cont "ringert die SPE-"
+	cont "ZIAL-VERT."
+	para "Setze ihn ein,"
+	line "wenn er dir ge-"
+	cont "fällt."
 	done
 
 EcruteakGymClosed:
@@ -138,16 +140,17 @@ EcruteakGymClosed:
 GenericTrainerSageJeffrey:
 	generictrainer SAGE, JEFFREY, EVENT_BEAT_SAGE_JEFFREY, SageJeffreySeenText, SageJeffreyBeatenText
 
+	; GSC-DE Dump
 	text "Woher kommen"
-	line "#mon?"
+	line "#MON?"
 	done
 
 GenericTrainerSagePing:
 	generictrainer SAGE, PING, EVENT_BEAT_SAGE_PING, SagePingSeenText, SagePingBeatenText
 
+	; GSC-DE Dump
 	text "Wir setzen nur"
-	line "Geist-#mon ein."
-
+	line "Geist-#MON ein."
 	para "Normal-Attacken"
 	line "zeigen bei ihnen"
 	cont "keine Wirkung!"
@@ -156,6 +159,7 @@ GenericTrainerSagePing:
 GenericTrainerMediumMartha:
 	generictrainer MEDIUM, MARTHA, EVENT_BEAT_MEDIUM_MARTHA, MediumMarthaSeenText, MediumMarthaBeatenText
 
+	; GSC-DE Dump
 	text "Wer siegen will,"
 	line "wird es auch tun!"
 	done
@@ -163,12 +167,11 @@ GenericTrainerMediumMartha:
 GenericTrainerMediumGrace:
 	generictrainer MEDIUM, GRACE, EVENT_BEAT_MEDIUM_GRACE, MediumGraceSeenText, MediumGraceBeatenText
 
+	; GSC-DE Dump
 	text "Gut, ich verrate"
 	line "dir das Geheimnis"
-
 	para "des unsichtbaren"
 	line "Bodens."
-
 	para "Der Weg liegt vor"
 	line "unseren Augen!"
 	done
@@ -178,17 +181,17 @@ EcruteakGymGuyScript:
 	iftrue_jumptextfaceplayer EcruteakGymGuyWinText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Die Trainer hier"
-	line "haben geheime"
-	cont "Motive."
-
+	line "haben geheime Mo-"
+	cont "tive."
 	para "Gewinnst du, so"
 	line "verraten sie dir"
-
 	para "vielleicht ein"
 	line "paar Geheimnisse"
 	cont "über TEAK CITY."
 	done
+
 EcruteakGymStatue:
 	gettrainername MORTY, 1, STRING_BUFFER_4
 	checkflag ENGINE_FOGBADGE
@@ -208,145 +211,150 @@ EcruteakGymPlayerSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Gut, dass du"
-	line "gekommen bist."
+	; GSC-DE Dump
+	text "Gut, dass du ge-"
+	line "kommen bist."
 	para "Hier in TEAK CITY"
-	line "werden #mon"
+	line "werden #MON"
 	cont "verehrt."
-	para "Man sagt,"
-	line "legendäre #mon"
-	cont "erscheinen nur"
-	cont "wirklich starken"
-	cont "Trainern."
-	para "Ich glaube an"
-	line "diese Legende."
-	cont "Deshalb trainiere"
-	cont "ich seit jeher im"
-	cont "Geheimen."
-	para "Als Resultat sehe"
-	line "ich Dinge, die"
-	cont "andere nicht sehen"
-	cont "können."
+	para "Man sagt, dass le-"
+	line "gendäre #MON"
+	para "nur wahrlich star-"
+	line "ken Trainern er-"
+	cont "scheinen werden."
+	para "Ich glaube an die-"
+	line "se Legende. Daher"
+	para "habe ich mein gan-"
+	line "zes Leben lang im"
+	para "Geheimen trai-"
+	line "niert."
+	para "Als Resultat kann"
+	line "ich nun Dinge"
+	para "sehen, die andere"
+	line "nicht sehen kön-"
+	cont "nen."
 	para "Noch ein wenig…"
-	para "Mit etwas mehr"
-	line "Kraft sehe ich"
-	cont "vielleicht eine"
-	cont "Zukunft, in der"
-	cont "ich dem"
-	cont "regenbogenfarbenen"
-	cont "#mon begegne."
+	para "Mit ein wenig Mehr"
+	line "könnte ich eine"
+	para "Zukunft sehen, in"
+	line "der ich das legen-"
+	cont "däre regenbogen-"
+	cont "farbene #MON"
+	cont "treffe."
 	para "Du könntest mir"
 	line "dabei helfen!"
 	done
+
 MortyWinLossText:
+	; GSC-DE Dump
 	text "Ich bin noch nicht"
 	line "gut genug…"
 	para "Dieser ORDEN soll"
 	line "dir gehören."
 	done
+
 MortyText_FogBadgeSpeech:
-	text "Durch den"
-	line "NEBELORDEN"
-	cont "gehorchen dir"
-	cont "#mon bis LV 50."
+	; GSC-DE Dump: PHANTOMORDEN (engine FOGBADGE)
+	text "Durch den PHANTOM-"
+	line "ORDEN gehorchen"
+	para "dir #MON bis zu"
+	line "LV 50."
 	para "Außerdem können"
-	line "#mon, die"
-	cont "SURFER"
-	cont "beherrschen, ihn"
-	cont "auch außerhalb des"
-	cont "Kampfs einsetzen."
+	line "#MON, die SUR-"
+	cont "FER beherrschen,"
+	para "diesen auch außer-"
+	line "halb eines Kampfes"
+	cont "einsetzen."
 	para "Bitte nimm auch"
 	line "dies an."
 	done
+
 MortyFightDoneText:
+	; GSC-DE Dump
 	text "Ich verstehe…"
 	para "Deine Reise hat"
-	line "dich an die"
-	cont "entlegensten Orte"
-	cont "geführt."
+	line "dich an die ent-"
+	cont "legensten Orte ge-"
+	cont "führt."
 	para "Du hast viel mehr"
 	line "gesehen als ich."
 	para "Dafür beneide ich"
 	line "dich…"
 	done
+
 SageJeffreySeenText:
-	text "Ich habe den"
-	line "Frühling mit"
-	cont "meinen"
-	para "#mon verbracht."
+	; GSC-DE Dump
+	text "Ich habe den Früh-"
+	line "ling mit meinen"
+	para "#MON verbracht."
 	line "Dann den Sommer,"
 	para "den Herbst und den"
-	line "Winter …"
+	line "Winter…"
 	para "Dann kam wieder"
 	line "der Frühling. Wir"
 	para "haben viel Zeit"
-	line "miteinander"
-	cont "verbracht."
+	line "miteinander ver-"
+	cont "bracht."
 	done
-
-
 
 SageJeffreyBeatenText:
-	text "Siege und"
-	line "Niederlagen - ich"
-	cont "hatte beides."
+	; GSC-DE Dump
+	text "Siege und Nieder-"
+	line "lagen - ich hatte"
+	cont "beides."
 	done
-
-
 
 SagePingSeenText:
+	; GSC-DE Dump
 	text "Hältst du unseren"
-	line "#mon stand?"
+	line "#MON stand?"
 	done
 
-
-
 SagePingBeatenText:
+	; GSC-DE Dump
 	text "Ah! Gut gemacht!"
 	done
 
-
-
 MediumMarthaSeenText:
+	; GSC-DE Dump
 	text "Ich werde siegen!"
 	done
 
-
-
 MediumMarthaBeatenText:
+	; GSC-DE Dump
 	text "I-I-Ich habe"
 	line "verloren!"
 	done
 
-
-
 MediumGraceSeenText:
-	text "Verwirrt dich"
-	line "unser unsichtbarer"
+	; GSC-DE Dump
+	text "Verwirrt dich un-"
+	line "ser unsichtbarer"
 	para "Boden? Besiege"
 	line "mich und ich gebe"
 	cont "dir einen Tipp!"
 	done
 
-
-
 MediumGraceBeatenText:
+	; GSC-DE Dump
 	text "W-Was?"
 	done
 
-
-
 EcruteakGymGuyWinText:
-	text "Wow, <PLAYER>. Du"
-	line "warst großartig!"
+	; GSC-DE Dump
+	text "Wow, <PLAYER>."
+	line "Du warst großar-"
+	cont "tig!"
 	para "Vor lauter Angst"
 	line "habe ich mich in"
 	cont "die Ecke gekauert!"
 	done
+
 EcruteakGymClosedText:
-	text "JENS, der"
-	line "ARENA-LEITER ist"
-	cont "nicht hier."
+	; GSC-DE Dump
+	text "JENS, der ARENA-"
+	line "LEITER ist nicht"
+	cont "hier."
 	para "Du musst leider"
 	line "wieder gehen."
 	para "Hohohoho."

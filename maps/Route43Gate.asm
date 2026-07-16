@@ -184,43 +184,39 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
+	; GSC-DE Dump
 	text "Stehengeblieben!"
-
 	para "Der Wegzoll"
 	line "beträgt ¥1000."
 	done
 
-
-
 RocketText_ThankYou:
+	; GSC-DE Dump
 	text "Vielen Dank!"
 	done
 
-
-
 RocketText_AllYouGot:
+	; GSC-DE Dump
 	text "Dann zahle bitte,"
 	line "so viel du hast."
 	done
 
-
-
 RocketText_MakingABundle:
+	; GSC-DE Dump
 	text "Ha, ha, ha. Wir"
 	line "machen viel Geld."
 	para "Jeder möchte"
 	line "wissen, was los"
-	para "ist am SEE DES"
-	line "ZORNS."
+	para "ist am"
+	line "SEE DES ZORNS."
 	done
 
-
-
 OfficerText_FoundTM:
-	text "Diese"
-	line "Schlägertypen in"
-	cont "Schwarz haben mich"
-	cont "von meinem Posten"
+	; GSC-DE Dump
+	text "Diese Schläger-"
+	line "typen in Schwarz"
+	cont "haben mich von"
+	cont "meinem Posten"
 	cont "verjagt."
 	para "Sie haben das hier"
 	line "zurückgelassen."
@@ -231,17 +227,14 @@ OfficerText_FoundTM:
 	cont "mitnehmen?"
 	done
 
-
-
-
 Text_ReceivedTM30: ; unreferenced
+	; GSC-DE Dump
 	text "<PLAYER> erhält"
 	line "TM30."
 	done
 
-
-
 OfficerText_AvoidGrass:
+	; GSC-DE Dump
 	text "Gehe durch dieses"
 	line "Tor. Dann meidest"
 	cont "du das Gras."

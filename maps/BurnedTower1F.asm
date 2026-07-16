@@ -189,93 +189,111 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerRival_BeforeText:
-	text "………"
+	; GSC-DE Dump
+	text "…… …… ……"
 	para "…Oh, du bist es."
 	para "Ich suchte nach"
-	line "legendären"
-	cont "#mon, die"
-	cont "angeblich hier"
-	cont "leben."
+	line "legendären #-"
+	cont "MON, die angeblich"
+	cont "hier leben."
 	para "Aber hier ist"
 	line "nichts!"
 	para "Nichts, das den"
-	line "Weg hierher"
-	cont "rechtfertigt."
-	cont "Absolut nichts."
+	line "Aufwand hierher zu"
+	para "kommen, recht-"
+	line "fertigt! Absolut"
+	cont "nichts."
 	para "Das ist alles"
 	line "deine Schuld!"
 	done
+
 BurnedTowerRival_WinText:
+	; GSC-DE Dump
 	text "…Humpf!"
 	para "Darum hasse ich"
-	line "es, gegen"
-	cont "Schwächlinge"
-	cont "anzutreten."
+	line "es, gegen Schwäch-"
+	cont "linge anzutreten."
 	para "Es ist keine"
 	line "Herausforderung."
 	done
+
 BurnedTowerRival_AfterText1:
+	; GSC-DE Dump
 	text "…Ach, egal!"
 	para "Du wärst sowieso"
 	line "nicht fähig, ein"
-	cont "legendäres #mon"
-	cont "zu fangen."
+	para "legendäres #MON"
+	line "zu fangen."
 	done
+
 BurnedTowerRival_LossText:
+	; GSC-DE Dump
 	text "…Humpf!"
-	para "Ich hasse es,"
-	line "gegen Schwächlinge"
-	cont "anzutreten."
-	cont "Zeitverschwendung."
+	para "Ich hasse es, ge-"
+	line "gen Schwächlinge"
+	para "anzutreten. Es ist"
+	line "Zeitverschwendung."
 	done
+
 BurnedTowerRival_AfterText2:
+	; GSC-DE Dump
 	text "Humpf!"
 	para "Was hast du dir"
 	line "dabei gedacht,"
-	cont "einfach in ein"
-	cont "Loch zu fallen? Du"
-	cont "Genie!"
+	para "einfach in ein"
+	line "Loch zu fallen?"
+	cont "Du Genie!"
 	para "Das geschieht dir"
 	line "recht!"
 	done
+
 BurnedTower1FEusineIntroText:
+	; GSC-DE Dump
 	text "EUSIN: Ich heiße"
 	line "EUSIN."
-	para "Ich suche ein"
-	line "#mon namens"
+	para "Ich bin auf der"
+	line "Suche nach einem"
+	cont "#MON namens"
 	cont "SUICUNE."
-	para "Und wer bist du?"
-	line "<PLAYER>? Schön,"
-	cont "dich"
-	cont "kennenzulernen!"
-	para "Ich hörte, SUICUNE"
-	line "sei hier in der"
-	cont "TURMRUINE -deshalb"
-	cont "bin ich gekommen."
-	para "Aber wo genau ist"
-	line "es?"
-	done
-BurnedTower1FEusineText:
-	text "Ich hörte, SUICUNE"
-	line "sei hier in der"
-	cont "TURMRUINE -deshalb"
-	cont "wollte ich es"
+	para "Und wer bist du…?"
+	para "<PLAYER>? Schön,"
+	line "dich kennen"
+	cont "zu lernen!"
+	para "Ich hörte, dass"
+	line "SUICUNE hier in"
+	para "der TURMRUINE ist,"
+	line "also wollte ich es"
 	cont "sehen."
 	para "Aber wo genau ist"
 	line "es?"
 	done
+
+BurnedTower1FEusineText:
+	; GSC-DE Dump
+	text "Ich hörte, dass"
+	line "SUICUNE hier in"
+	para "der TURMRUINE ist,"
+	line "also wollte ich es"
+	cont "sehen."
+	para "Aber wo genau ist"
+	line "es?"
+	done
+
 BurnedTower1FMortyText:
-	text "JENS: Als"
-	line "ARENALEITER von"
-	cont "TEAK CITY muss ich"
-	cont "die legendären"
-	cont "#mon studieren"
-	cont "- SUICUNE, ENTEI"
-	cont "und RAIKOU."
-	para "EUSIN ist"
-	line "gekommen, also"
-	cont "untersuche ich den"
-	cont "TURM mit ihm."
+	; GSC-DE Dump
+	text "JENS: Der ARENA-"
+	line "LEITER von TEAK"
+	para "CITY, muss die"
+	line "sogenannten"
+	para "legendären #MON"
+	line "- SUICUNE, ENTEI"
+	cont "und RAIKOU -"
+	cont "studieren."
+	para "EUSIN ist ge-"
+	line "kommen, also habe"
+	para "ich beschlossen,"
+	line "den TURM mit ihm"
+	cont "zu untersuchen."
 	done
 HexManiacTamaraSeenText:
 	text "Eine seltsame"

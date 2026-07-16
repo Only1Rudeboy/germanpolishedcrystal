@@ -22,13 +22,13 @@ EcruteakShrineOutside_MapScriptHeader:
 	object_event  2, 14, SPRITE_SAGE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineOutsideSageText, -1
 
 EcruteakShrineOutsideTwinText:
-	text "Mein Hoothoots"
+	text "Mein HOOTHOOTs"
 	line "GESICHT verjagt"
 	cont "Geister."
 	done
 
 EcruteakShrineOutsideHoothootText:
-	text "Hoothoot: Huhu!"
+	text "HOOTHOOT: Huhu!"
 	done
 
 EcruteakShrineOutsideSageText:
@@ -43,7 +43,8 @@ EcruteakShrineOutsideSageText:
 
 EcruteakShrineOutsideStatueText:
 	text "Eine"
-	line "#mon-Statue…"
+	line "#MON-Statue…"
+
 	para "Sie wirkt sehr"
 	line "gelassen."
 	done

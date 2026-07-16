@@ -17,8 +17,9 @@ Route42EcruteakGate_MapScriptHeader:
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route42EcruteakGateOfficerText, -1
 
 Route42EcruteakGateOfficerText:
-	text "Der KESSELBERG ist"
-	line "wie ein"
+	; GSC-DE Dump
+	text "Der KESSELBERG"
+	line "ist wie ein"
 	para "Irrgarten, also"
 	line "verlaufe dich"
 	cont "nicht."

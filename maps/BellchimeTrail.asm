@@ -80,11 +80,11 @@ BellchimeTrailPanUpTrigger:
 	step_end
 
 TinTowerSignText:
-	text "Zinnturm"
-
-	para "Ein legendäres"
-	line "#mon soll hier"
-	cont "nisten."
+	; GSC-DE Dump
+	text "ZINNTURM"
+	para "Man sagt, ein le-"
+	line "gendäres #MON"
+	para "soll dort sein."
 	done
 
 BellchimeTrailValerieScript:

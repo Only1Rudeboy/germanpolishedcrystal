@@ -21,15 +21,16 @@ Route43MahoganyGateOfficer:
 	iftrue_jumptextfaceplayer Route43MahoganyGateOfficerRocketsClearedText
 	jumpthistextfaceplayer
 
-	text "Zuletzt sind hier"
-	line "nur Leute"
-	cont "durchgekommen, die"
-	cont "zum SEE DES ZORNS"
-	cont "wollten."
+	; GSC-DE Dump
+	text "Hier kamen nur"
+	line "Wanderer vorbei,"
+	para "die auf dem Weg"
+	line "zum SEE DES ZORNS"
+	cont "waren."
 	done
 
-
 Route43MahoganyGateOfficerRocketsClearedText:
+	; GSC-DE Dump
 	text "In letzter Zeit"
 	line "geht niemand mehr"
 	cont "zum SEE DES ZORNS."

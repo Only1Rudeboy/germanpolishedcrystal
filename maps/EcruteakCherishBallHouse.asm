@@ -30,16 +30,18 @@ EcruteakCherishBallHouseGrampsScript:
 
 .Text2:
 	text "Ich werde die Zeit"
-	line "mit #mon immer"
+	line "mit #MON immer"
 	cont "in Ehren halten."
 	done
 
 .Text1:
 	text "Ich hab ein langes"
 	line "Leben gelebt und"
+
 	para "Erinnerungen, die"
 	line "ich für immer"
 	cont "bewahren werde."
+
 	para "Nimm das und"
 	line "schaffe eine neue"
 	cont "Erinnerung!"

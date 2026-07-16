@@ -47,7 +47,7 @@ HiddenPowerGuy:
 	para "Dein "
 	text_ram wStringBuffer3
 	line "hat eine"
-	cont "Kraftreserve"
+	cont "KRAFTRESERVE"
 	cont "vom Typ "
 	text_ram wStringBuffer1
 	text "!"
@@ -57,51 +57,52 @@ HiddenPowerGuy:
 	jumpthisopenedtext
 
 	text "Ein EI hat noch"
-	line "keine Kraftreserve"
-	cont "entwickelt …"
+	line "keine KRAFTRESERVE"
+	cont "entwickelt…"
 	done
 
 .Text1:
-	text "…Du bist viel"
-	line "herumgekommen…"
-
-	para "Ich habe hier"
-	line "meditiert. In mir"
-
+	; GSC-DE Dump
+	text "…Du bist viel he-"
+	line "rumgekommen…"
+	para "Ich habe hier me-"
+	line "ditiert. In mir"
 	para "ist eine neue"
 	line "Kraft zum Leben"
 	cont "erwacht."
-
 	para "Lass mich meine"
 	line "Kraft mit deinen"
-
-	para "#mon teilen."
+	para "#MON teilen."
 	line "Nimm dies, Kind."
 	done
 .Text2:
-	text "Siehst du es? Das"
-	line "ist Kraftreserve!"
-	para "Sie nutzt die"
-	line "Kraft von #mon"
-	cont "für Angriffe."
-	para "Merke dir: Der Typ"
-	line "hängt vom #mon"
-	cont "ab, das sie"
-	cont "einsetzt."
+	; GSC-DE Dump
+	text "Siehst du? Das"
+	line "ist KRAFTRESERVE!"
+	para "Sie bringt die"
+	line "wahre Kraft der"
+	cont "#MON zum"
+	cont "Vorschein."
+	para "Vergiss nicht: Typ"
+	line "und Stärke der At-"
+	cont "tacke hängen vom"
+	cont "jeweiligen #MON"
+	cont "ab."
 	done
 
 .Text3:
 	text "Soll ich die"
-	line "Kraftreserve"
-	cont "deines #mon"
+	line "KRAFTRESERVE"
+	cont "deines #MON"
 	cont "ermitteln?"
 	done
 
 .Text4:
+	; GSC-DE Dump
 	text "Ich meditiere…"
 	done
 .Text5:
-	text "Welches #mon"
+	text "Welches #MON"
 	line "soll ich"
 	cont "untersuchen?"
 	done

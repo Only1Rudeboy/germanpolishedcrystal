@@ -29,11 +29,13 @@ GenericTrainerKimono_girlNaoko:
 	assert!DEF(TRAINERPAL_NAOKO) ; the default TRAINERPAL_KIMONO_GIRL is hers
 	generictrainer KIMONO_GIRL, NAOKO, EVENT_BEAT_KIMONO_GIRL_NAOKO, Kimono_girlNaokoSeenText, Kimono_girlNaokoBeatenText
 
+	; GSC-DE Dump
 	text "Das war ein toller"
 	line "Kampf. Ich würde"
 	cont "dich gerne mal"
 	cont "wieder sehen."
 	done
+
 GenericTrainerKimono_girlSayo:
 	trainer KIMONO_GIRL, SAYO, EVENT_BEAT_KIMONO_GIRL_SAYO, Kimono_girlSayoSeenText, Kimono_girlSayoBeatenText, 0, .Script, TRAINERPAL_SAYO
 
@@ -41,11 +43,13 @@ GenericTrainerKimono_girlSayo:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Rhythmus ist nicht"
 	line "nur zum Tanzen,"
 	para "sondern auch für"
-	line "#mon wichtig."
+	line "#MON wichtig."
 	done
+
 GenericTrainerKimono_girlZuki:
 	trainer KIMONO_GIRL, ZUKI, EVENT_BEAT_KIMONO_GIRL_ZUKI, Kimono_girlZukiSeenText, Kimono_girlZukiBeatenText, 0, .Script, TRAINERPAL_ZUKI
 
@@ -53,11 +57,13 @@ GenericTrainerKimono_girlZuki:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Jeden Monat stecke"
-	line "ich mir eine"
-	cont "andere Blume in"
-	cont "die Spange."
+	line "ich mir eine ande-"
+	cont "re Blume in die"
+	cont "Spange."
 	done
+
 GenericTrainerKimono_girlKuni:
 	trainer KIMONO_GIRL, KUNI, EVENT_BEAT_KIMONO_GIRL_KUNI, Kimono_girlKuniSeenText, Kimono_girlKuniBeatenText, 0, .Script, TRAINERPAL_KUNI
 
@@ -65,12 +71,14 @@ GenericTrainerKimono_girlKuni:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Ich habe viel"
 	line "trainiert. Also"
 	para "dachte ich, ich"
 	line "wäre gut. Aber ich"
 	cont "bin es wohl nicht."
 	done
+
 GenericTrainerKimono_girlMiki:
 	trainer KIMONO_GIRL, MIKI, EVENT_BEAT_KIMONO_GIRL_MIKI, Kimono_girlMikiSeenText, Kimono_girlMikiBeatenText, 0, .Script, TRAINERPAL_MIKI
 
@@ -78,16 +86,18 @@ GenericTrainerKimono_girlMiki:
 	endifjustbattled
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Ich werde nicht"
-	line "aufhören zu"
-	cont "tanzen, solange es"
+	line "aufhören zu tan-"
+	cont "zen, solange es"
 	cont "Leute gibt, denen"
 	para "ich dadurch Freude"
 	line "bereite."
-	para "Auch meine #mon"
+	para "Auch meine #MON"
 	line "unterstützen mich"
 	cont "dabei."
 	done
+
 DanceTheaterSurfGuy:
 	faceplayer
 	opentext
@@ -111,155 +121,199 @@ DanceTheaterSurfGuy:
 	setevent EVENT_GOT_HM03_SURF
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Das ist SURFER."
-
-	para "Damit können"
-	line "#mon jedes"
-	cont "Gewässer"
+	para "Damit können #-"
+	line "MON jedes Gewässer"
 	cont "überqueren."
 	done
+
 .KimonoGirlsUndefeated:
+	readvar VAR_PLAYERGENDER
+	ifequalfwd PLAYER_FEMALE, .Girl
 	jumpthisopenedtext
 
-	text "Hey, Kleiner! Wenn"
-	line "du alle"
-	para "Kimono Girls"
-	line "besiegst, schenke"
-	cont "ich dir ein"
-	cont "Geschenk."
+	; GSC-DE Dump
+	text "Junge! Wenn du"
+	line "alle KIMONO-GIRLS"
+	para "besiegst, gebe ich"
+	line "dir ein Geschenk."
+	done
+
+.Girl:
+	jumpthisopenedtext
+
+	; GSC-DE Dump
+	text "Kleine! Wenn du"
+	line "alle KIMONO-GIRLS"
+	para "besiegst, gebe ich"
+	line "dir ein Geschenk."
 	done
 
 MapDanceTheatreSignpost1Script:
 	jumpthistext
 
+	; GSC-DE Dump
 	text "Eine hübsche, mit"
 	line "Blumen dekorierte"
 	cont "Tafel."
 	done
+
 Kimono_girlNaokoSeenText:
+	; GSC-DE Dump
 	text "Du hast hübsche"
-	line "#mon. Darf ich"
+	line "#MON. Darf ich"
 	cont "sehen, wie sie"
 	cont "kämpfen?"
 	done
+
 Kimono_girlNaokoBeatenText:
-	text "Ach, du bist sehr"
+	; GSC-DE Dump
+	text "Oh, du bist sehr"
 	line "stark."
 	done
+
 Kimono_girlSayoSeenText:
+	; GSC-DE Dump
 	text "Ich tanze immer"
-	line "mit meinen"
-	cont "#mon. Natürlich"
-	cont "trainiere ich sie"
-	cont "auch."
+	line "mit meinen #-"
+	cont "MON. Natürlich"
+	para "trainiere ich sie"
+	line "auch."
 	done
+
 Kimono_girlSayoBeatenText:
-	text "Ach, beinahe! Fast"
-	line "hätte ich dich"
-	cont "gehabt."
+	; GSC-DE Dump
+	text "Oh, beinahe!"
+	line "Fast hätte ich"
+	cont "dich gehabt."
 	done
+
 Kimono_girlZukiSeenText:
-	text "Ist meine"
-	line "Haarspange nicht"
+	; GSC-DE Dump
+	text "Ist meine Haar-"
+	line "spange nicht"
 	cont "hübsch?"
-	para "Oh, ein"
-	line "#mon-Kampf?"
+	para "Oh, ein #MON-"
+	line "Kampf?"
 	done
+
 Kimono_girlZukiBeatenText:
+	; GSC-DE Dump
 	text "Ich habe keine"
-	line "#mon mehr"
+	line "#MON mehr"
 	cont "übrig…"
 	done
+
 Kimono_girlKuniSeenText:
-	text "Ach, du scheinst"
+	; GSC-DE Dump
+	text "Oh, du scheinst"
 	line "nett zu sein."
 	cont "Willst du kämpfen?"
 	done
+
 Kimono_girlKuniBeatenText:
+	; GSC-DE Dump
 	text "Du bist stärker"
 	line "als du aussiehst."
 	done
+
 Kimono_girlMikiSeenText:
+	; GSC-DE Dump
 	text "Gefällt dir mein"
 	line "Tanz? Ich kenne"
 	cont "mich auch gut mit"
-	cont "#mon aus."
+	cont "#MON aus."
 	done
+
 Kimono_girlMikiBeatenText:
+	; GSC-DE Dump
 	text "Ooh, du kennst"
 	line "dich auch gut mit"
-	cont "#mon aus."
+	cont "#MON aus."
 	done
+
 SurfGuyNeverLeftAScratchText:
+	; GSC-DE Dump
 	text "Die KIMONO-GIRLS"
 	line "sind nicht nur"
-	cont "großartige"
-	cont "Tänzerinnen, sie"
-	cont "sind auch starke"
-	cont "Trainer."
-	para "Ich forderte sie"
-	line "heraus, aber sie"
-	cont "haben mich nicht"
-	cont "einmal berührt…"
+	para "großartige Tänzer,"
+	line "sie sind auch gute"
+	cont "#MON-Trainer."
+	para "Ich fordere sie"
+	line "ständig heraus,"
+	para "konnte sie aber"
+	line "noch nie besiegen…"
 	done
+
 SurfGuyLikeADanceText:
-	text "Die Art, wie du"
+	; GSC-DE Dump
+	text "Die Art wie du"
 	line "kämpfst, ist wie"
 	cont "ein Tanz."
 	para "So etwas sieht man"
 	line "nicht oft!"
-	para "Ich möchte dir"
-	line "etwas geben. Nimm"
-	cont "dies!"
+	para "Ich möchte dir et-"
+	line "was geben. Nur zu!"
+	cont "Nimm es ruhig!"
 	done
+
 SurfGuyElegantKimonoGirlsText:
-	text "Ich wünschte,"
-	line "meine #mon"
-	cont "wären so elegant"
-	cont "wie die"
-	cont "KIMONO-GIRLS."
+	; GSC-DE Dump
+	text "Ich wünschte, mei-"
+	line "ne #MON wären"
+	cont "so elegant wie die"
+	cont "KIMONO-GIRLS…"
 	done
+
 RhydonText:
+	; GSC-DE Dump
 	text "RIZEROS: Gugooh"
 	line "gugogooh!"
 	done
+
 DanceTheatreCooltrainerMText:
+	; GSC-DE Dump
 	text "Dieser Mann hat"
 	line "immer sein RIZEROS"
 	cont "dabei."
 	para "Er sagt, dass er"
-	line "ein #mon haben"
+	line "ein #MON haben"
 	cont "will, das SURFEN"
 	cont "und tanzen kann."
 	para "Versucht er etwa,"
 	line "ein Mono-Synchron-"
-	cont "Schwimm-#mon zu"
+	cont "Schwimm-#MON zu"
 	cont "besitzen?"
 	done
+
 DanceTheatreGrannyText:
+	; GSC-DE Dump
 	text "Die KIMONO-GIRLS"
-	line "sind so hübsch …"
+	line "sind so hübsch…"
 	para "Aber sie müssen"
 	line "hart trainieren."
-	para "Und sie müssen so"
-	line "viele Dinge"
+	para "Und sie müssen"
+	line "so viele Dinge"
 	para "lernen, bevor sie"
-	line "öffentlich"
-	cont "auftreten."
+	line "öffentlich auftre-"
+	cont "ten."
 	para "Aber wenn du etwas"
 	line "liebst, ist alles"
 	cont "möglich."
 	done
+
 DanceTheatreLadyText:
-	text "Evoli kann sich zu"
-	line "Folipurba,"
-	para "Glaziola oder"
-	line "Feelinara"
-	cont "entwickeln,"
+	; PC-only (neue Evoli-Formen)
+	text "EVOLI kann sich zu"
+	line "FOLIPURBA,"
+	para "GLAZIOLA oder"
+	line "FEELINARA ent-"
+	cont "wickeln,"
 	para "aber ich sehe"
-	line "keins von ihnen"
+	line "keines von ihnen"
 	para "hier. Ob die"
-	line "Kimono Girls, die"
+	line "KIMONO-GIRLS, die"
 	para "sie nutzen, wohl"
 	line "woanders sind?"
 	done

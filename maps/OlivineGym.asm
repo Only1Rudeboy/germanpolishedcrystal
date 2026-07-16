@@ -45,12 +45,13 @@ OlivineGymJasmineScript:
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "…Mit dieser TM"
-	line "kannst du dein"
-	cont "#mon"
-	cont "Eisenschweif"
-	cont "lehren."
+	line "kannst du deinen"
+	cont "#MON EISEN-"
+	cont "SCHWEIF lehren."
 	done
+
 OlivineGymGuyScript:
 	checkevent EVENT_BEAT_JASMINE
 	iftrue_jumptextfaceplayer OlivineGymGuyWinText
@@ -58,6 +59,7 @@ OlivineGymGuyScript:
 	iffalse_jumptextfaceplayer OlivineGymGuyPreText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "JASMIN setzt den"
 	line "neu entdeckten Typ"
 	cont "Stahl ein."
@@ -139,77 +141,85 @@ OlivineGymStatue:
 	jumpstd gymstatue3
 
 Jasmine_SteelTypeIntro:
+	; GSC-DE Dump
 	text "…Danke für deine"
-	line "Hilfe beim"
-	cont "LEUCHTTURM…"
+	line "Hilfe beim LEUCHT-"
+	cont "TURM…"
 	para "Erlaube mir, mich"
-	line "vorzustellen!"
+	line "vorstellen zu dür-"
+	cont "fen!"
 	para "Ich bin JASMIN,"
-	line "eine"
-	cont "ARENALEITERIN. Ich"
-	cont "setze"
-	cont "STAHL-#mon ein."
-	para "…Hast du von"
-	line "diesem Typ schon"
-	cont "gehört?"
+	line "eine ARENALEITE-"
+	cont "RIN. Ich setze"
+	cont "STAHL-#MON ein."
+	para "…Hast du von die-"
+	line "sem Typ schon ge-"
+	cont "hört?"
 	para "Er wurde erst vor"
-	line "kurzer Zeit"
-	cont "entdeckt."
-	para "…Ähm… Darf ich"
-	line "beginnen?"
+	line "kurzer Zeit ent-"
+	cont "deckt."
+	para "…Ähm… Darf ich be-"
+	line "ginnen?"
 	done
+
 Jasmine_BetterTrainer:
-	text "…Du bist ein"
-	line "besserer Trainer"
-	cont "als ich."
-	para "Das gilt für"
-	line "Geschick und"
-	cont "Feingefühl."
-	para "Nach den Regeln"
-	line "der LIGA"
-	cont "überreiche ich dir"
-	cont "diesen ORDEN."
+	; GSC-DE Dump
+	text "…Du bist ein bes-"
+	line "serer Trainer als"
+	para "ich. Das betrifft"
+	line "sowohl Geschick,"
+	para "als auch Fein-"
+	line "gefühl."
+	para "In Übereinstimmung"
+	line "mit den Regeln der"
+	para "LIGA überreiche"
+	line "ich dir diesen"
+	cont "ORDEN."
 	done
+
 Jasmine_BadgeSpeech:
-	text "Der MINERALORDEN"
+	; GSC-DE Dump: STAHLORDEN (Engine: MINERALBADGE)
+	text "Der STAHLORDEN"
 	line "erhöht die VERT"
-	cont "deiner #mon."
+	cont "deiner #MON."
 	para "…Ähm… Bitte nimm"
 	line "auch das…"
 	done
+
 Text_ReceivedTM09: ; unreferenced
+	; GSC-DE Dump
 	text "<PLAYER> erhält"
 	line "TM09."
 	done
 
-
-
 Jasmine_GoodLuck:
-	text "Ähm … Ich weiß"
+	; GSC-DE Dump
+	text "Ähm… Ich weiß"
 	line "nicht, wie ich das"
-	cont "sagen soll, aber …"
+	cont "sagen soll, aber…"
 	cont "Viel Glück!"
 	done
 
-
-
 OlivineGymGuyWinText:
+	; GSC-DE Dump
 	text "Das war großartig!"
 	para "Der Typ Stahl,"
 	line "was?"
-	para "Das war eine"
-	line "unheimliche"
-	cont "Begegnung der"
-	cont "unbekannten Art."
+	para "Das war eine un-"
+	line "heimliche Begeg-"
+	cont "nung der unbe-"
+	cont "kannten Art."
 	done
+
 OlivineGymGuyPreText:
-	text "JASMIN, die"
-	line "ARE-NALEITERIN,"
-	cont "ist im LEUCHTTURM."
+	; GSC-DE Dump
+	text "JASMIN, die ARE-"
+	line "NALEITERIN, ist im"
+	cont "LEUCHTTURM."
 	para "Sie kümmert sich"
 	line "um ein krankes"
-	cont "#mon."
-	para "Ein starker"
-	line "Trainer muss auch"
-	cont "Mitgefühl zeigen."
+	cont "#MON."
+	para "Ein starker Trai-"
+	line "ner muss auch Mit-"
+	cont "gefühl zeigen."
 	done

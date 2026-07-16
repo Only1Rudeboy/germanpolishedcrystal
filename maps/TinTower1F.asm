@@ -186,6 +186,7 @@ TinTower1FSage4Script:
 	iftruefwd .FoughtHoOh
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Es scheint, als ob"
 	line "HO-OH vom ZINNTURM"
 	para "heruntergekommen"
@@ -195,17 +196,17 @@ TinTower1FSage4Script:
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Die legendären"
-	line "#mon sollen"
+	line "#MON sollen"
 	para "die drei Mächte"
-	line "verkörpern …"
+	line "verkörpern…"
 	para "Die Blitze, die im"
 	line "TURM einschlugen."
 	para "Das Feuer, das den"
 	line "TURM zerstörte."
 	para "Und den Regen, der"
-	line "das Feuer löschte"
-	cont "…"
+	line "das Feuer löschte…"
 	done
 
 TinTower1FSage5Script:
@@ -231,26 +232,27 @@ TinTower1FSage5Script:
 .GotRainbowWing:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Geh nun!"
 	done
 .FoughtHoOh:
 	jumpthisopenedtext
 
+	; GSC-DE Dump
 	text "Als das legendäre"
-	line "#mon erschien …"
+	line "#MON erschien…"
 	para "Diejenigen, die"
 	line "ihrem Aufstieg"
 	para "beiwohnten, wurden"
 	line "Zeugen ihres"
 	cont "Terrors."
-	para "Und …"
+	para "Und…"
 	para "Einige griffen zu"
 	line "sinnlosen"
 	cont "Attacken."
 	para "Die legendären"
-	line "#mon,"
-	cont "wohlwissend ob"
-	cont "ihrer"
+	line "#MON, wohl-"
+	cont "wissend ob ihrer"
 	para "Kraft, flohen und"
 	line "ignorierten die"
 	cont "geängstigten"
@@ -262,28 +264,29 @@ TinTower1FSage6Script:
 	iftruefwd .FoughtHoOh
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Ich glaube, du"
 	line "wirst geprüft."
 	para "Sprenge die Ketten"
 	line "der Unsicherheit"
-	cont "von deinem"
-	cont "Verstand und"
-	cont "schreite voran."
+	cont "von deinem Ver-"
+	cont "stand und schreite"
+	cont "voran."
 	done
 .FoughtHoOh:
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Von den legendären"
-	line "#mon soll"
+	line "#MON soll"
 	para "SUICUNE die"
 	line "stärkste Bindung"
 	cont "zu HO-OH haben."
 	para "Ich habe gehört,"
 	line "dass es auch eine"
-	para "Verbindung zu"
-	line "einem #mon"
-	cont "namens ICOGNITO"
-	cont "gibt."
+	para "Verbindung zu ei-"
+	line "nem #MON namens"
+	cont "ICOGNITO gibt."
 	para "ICOGNITO muss"
 	line "einen kooperativen"
 	para "Bund mit SUICUNE"
@@ -391,6 +394,7 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTowerEusineSuicuneText:
+	; GSC-DE Dump
 	text "EUSIN: Wahnsinn!"
 	line "Einfach Wahnsinn!"
 	para "Einen derartigen"
@@ -404,12 +408,12 @@ TinTowerEusineSuicuneText:
 	line "<PLAYER>."
 	para "Ich hörte, dass"
 	line "SUICUNEs mystische"
-	para "Kraft ein"
-	line "regenbogenfarbenes"
-	cont "#mon"
+	para "Kraft ein regen-"
+	line "bogenfarbenes"
+	cont "#MON anlockt."
 	para "Vielleicht zeigt"
-	line "sich #mon, nach"
-	cont "dem, was"
+	line "sich dieses #-"
+	cont "MON, nach dem, was"
 	para "sich heute"
 	line "ereignete."
 	para "Ich werde diese"
@@ -419,141 +423,88 @@ TinTowerEusineSuicuneText:
 	line "diesem Spitzen-"
 	para "kampf beiwohnen"
 	line "durfte."
-	para "Bis dann,"
+	para "Bis dann, <PLAYER>!"
 	done
+
 TinTower1FSage1Text:
+	; GSC-DE Dump
 	text "Die Legende besagt"
 	line "…"
 	para "Kommunizieren die"
-	line "Seelen von #mon"
+	line "Seelen von #MON"
 	para "und Menschen,"
-	line "kommt ein"
-	cont "regenbogenfarbenes"
-	para "#mon vom Himmel"
-	line "herab …"
-	para "Könnte das"
-	line "bedeuten, dass die"
-	para "legendären #mon"
+	line "kommt ein regen-"
+	cont "bogenfarbenes"
+	para "#MON vom Himmel"
+	line "herab…"
+	para "Könnte das bedeu-"
+	line "ten, dass die"
+	para "legendären #MON"
 	line "uns Menschen auf"
 	cont "die Probe stellen?"
 	done
 
-
-
 TinTower1FSage2Text:
+	; GSC-DE Dump
 	text "Als der BRONZETURM"
 	line "abbrannte, sollen"
 	para "drei namenlose"
-	line "#mon im Feuer"
+	line "#MON im Feuer"
 	para "umgekommen sein."
 	line "Eine Tragödie."
-	para "Jedoch …"
-	para "Ein"
-	line "regenbogenfarbenes"
-	cont "#mon …"
-	para "Genauer gesagt …"
+	para "Jedoch…"
+	para "Ein regenbogen-"
+	line "farbenes #MON…"
+	para "Genauer gesagt…"
 	para "HO-OH kam vom"
 	line "Himmel herab und"
 	para "erweckte die drei"
-	line "#mon wieder zum"
+	line "#MON wieder zum"
 	cont "Leben."
-	para "Es sind …"
+	para "Es sind…"
 	para "SUICUNE, ENTEI und"
 	line "RAIKOU."
 	para "So lautet die"
 	line "Legende."
 	done
 
-
-
-if DEF(FAITHFUL)
-	text "Als der BRONZE-"
-	done
-else
-	text "Als der GONG-"
-	done
-endc
-	line "TURM abbrannte,"
-	cont "sollen"
-
-	para "drei namenlose"
-	line "#mon im Feuer"
-
-	para "umgekommen sein."
-	line "Eine Tragödie."
-
-	para "Jedoch…"
-
-	para "Ein regenbogen-"
-	line "farbenes #mon…"
-
-	para "Genauer gesagt…"
-
-	para "HO-OH kam vom"
-	line "Himmel herab und"
-
-	para "erweckte die drei"
-	line "#mon wieder zum"
-	cont "Leben."
-
-	para "Es sind…"
-
-	para "SUICUNE, ENTEI"
-	line "RAIKOU."
-
-	para "So lautet die"
-	line "Legende."
-	done
 TinTower1FSage3Text:
+	; GSC-DE Dump
 	text "Die beiden TÜRME"
 	line "wurden errichtet,"
 	para "um Freundschaft"
 	line "und Hoffnung"
-	para "zwischen #mon"
+	para "zwischen #MON"
 	line "und den Menschen"
 	cont "zu festigen."
 	para "Das war vor 700"
-	line "Jahren, aber diese"
-	cont "Maxime ist noch"
+	line "Jahren, aber die-"
+	cont "se Maxime ist noch"
 	cont "heute gültig."
 	done
 
-
-
 TinTower1FSage5Text1:
+	; GSC-DE Dump
 	text "Dies wird dich"
 	line "schützen. Nimm es!"
 	done
 
-
-
 TinTowerEusineHoOhText:
-	text "EUSIN: Ich wusste"
-	line "es."
-	para "Ich wusste, du"
-	line "würdest das"
-	para "regenbogenfarbene"
-	line "#mon sehen,"
-	cont "<PLAYER>."
-	para "Es geschah genau"
-	line "so, wie ich es mir"
-	cont "vorgestellt habe."
+	; GSC-DE Dump
+	text "Ich wusste es."
+	para "Ich wusste, dass"
+	line "du das regenbogen-"
+	cont "farbene #MON"
+	para "sehen würdest,"
+	line "<PLAYER>."
+	para "Meine Vorhersehung"
+	line "ist eingetreten."
 	para "Meine Forschung"
-	line "ist gar nicht"
-	cont "schlecht, würde"
-	cont "ich sagen."
-	para "Ich werde #mon"
-	line "weiter studieren"
-	para "und ein berühmter"
-	line "#Maniac werden!"
-	para "Wenn du mal in"
-	line "PRISMANIA CITY"
-	para "bist, sagst du"
-	line "hallo zu meinem"
-	cont "Opa?"
-	para "Ihm würde die"
-	line "Gesellschaft gut"
-	cont "tun, während ich"
-	cont "weg bin."
-	para "Bis dann,"
+	line "ist nicht übel,"
+	cont "würde ich sagen."
+	para "Ich werde weiter-"
+	line "hin #MON stu-"
+	cont "dieren, um ein be-"
+	cont "rühmter #-"
+	cont "MANIAC zu werden!"
 	done
