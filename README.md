@@ -22,6 +22,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
+| **ROM 3.2.3.032** | **Optionals weiter:** Phone-Namen ANETTE/GUDRUN/ULI/DETLEV/IRMGARD/RUDOLF/MAIK/AXEL; Pokégear/Radio #MON-Kanal & EICHs Talk; Song/Landmark **Duellturm**; Buena-Passwörter (031). |
 | **ROM 3.2.3.031** | **Buena-Passwörter GSC-DE dump:** NEUBORKIA/ROSALIA CITY/AZALEA CITY; Typen FLUG/KÄFER/PFLANZE; Radios EICHs PKMN-Talk / #MON-Musik / Glückskanal. |
 | **ROM 3.2.3.030** | **Phone-Trainer-Anzeigenamen GSC-DE:** Joey→**REINHOLD**, Wade→**ALFONS**, Ralph→**RALF**, Anthony→**ANTON**, Chad→**UDO**, Tiffany→**TIFFY**, Erin→**LOTTE** (Dump-backed; weitere Phone-Namen folgen). |
 | **ROM 3.2.3.029** | **Optional-Batch (gleichwertig Story):** Alle Phone-**Caller** + **Overworld** dump-nah DE; **Buena**-Telefon + Radio-Blöcke in `common.asm`; **Lyra**-Phone; **Shamouti**-Inseln (Hotel/Restaurant/Küste/PC/Schrein/Tunnel/Tourist); **Faraway**/Valencia/DimCave3–4/Cliff/YellowForest; Erin→**LOTTE**; QC ohne PLAY_G/EN-Hotspots. (028 = Textstand vor LOTTE.) |
@@ -101,7 +102,7 @@ NEUBORKIA · ROSALIA CITY · VIOLA CITY · AZALEA CITY · DUKATIA CITY · TEAK C
 #### Bekannte Residuen / Feedback willkommen
 
 - Grafik-Text in manchen Tiles/Logos kann EN bleiben  
-- Weitere Phone-Trainer-**Anzeigenamen** (Liz/Gina/Todd/… teils noch EN; REINHOLD/ALFONS/RALF/ANTON/UDO/TIFFY/LOTTE bereits DE)  
+- Weitere Phone-Trainer-**Anzeigenamen** (Todd/Dana/Huey/Arnie/… teils noch EN; viele bereits DE: REINHOLD/ALFONS/RALF/ANTON/UDO/TIFFY/LOTTE/ANETTE/GUDRUN/ULI/DETLEV/IRMGARD/RUDOLF/MAIK/AXEL)  
 - PC-only-Ecken (Navel/Faraway-Jungle nur Schreie, Shamouti-Hotel-Stubs) und Feinschliff nach Playtest  
 - Spieler-Feedback zu Stil, Breite und Kanon-Namen ist erwünscht  
 

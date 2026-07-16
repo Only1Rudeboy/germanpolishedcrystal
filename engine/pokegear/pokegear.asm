@@ -1161,8 +1161,9 @@ NoRadioName:
 	ld bc, $412
 	jmp Textbox
 
-OaksPkmnTalkName:     db "Eichs <PK><MN>-Talk@"
-PokemonMusicName:     db "#mon-Musik@"
+; GSC-DE dump: EICHs <PKMN>-Talk / #MON-Musik / Glückskanal
+OaksPkmnTalkName:     db "EICHs <PK><MN>-Talk@"
+PokemonMusicName:     db "#MON-Musik@"
 LuckyChannelName:     db "Glückskanal@"
 UnknownStationName:   db "?????@"
 PlacesAndPeopleName:  db "Orte & Leute@"

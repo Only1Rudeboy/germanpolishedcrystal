@@ -2602,28 +2602,28 @@ SECTION "PicnickerGroup", ROMX
 PicnickerGroup:
 
 	def_trainer_class PICNICKER
-	def_trainer LIZ1, "Liz"
+	def_trainer LIZ1, "ANETTE"
 	tr_mon 10, NIDORAN_F
 	end_trainer
 
-	def_trainer LIZ2, "Liz"
+	def_trainer LIZ2, "ANETTE"
 	tr_mon 15, WEEPINBELL
 	tr_mon 15, NIDORINA
 	end_trainer
 
-	def_trainer LIZ3, "Liz"
+	def_trainer LIZ3, "ANETTE"
 	tr_mon 19, WEEPINBELL
 	tr_mon 19, NIDORINO
 	tr_mon 21, NIDOQUEEN
 	end_trainer
 
-	def_trainer LIZ4, "Liz"
+	def_trainer LIZ4, "ANETTE"
 	tr_mon 24, WEEPINBELL
 	tr_mon 26, NIDORINO
 	tr_mon 26, NIDOQUEEN
 	end_trainer
 
-	def_trainer LIZ5, "Liz"
+	def_trainer LIZ5, "ANETTE"
 	tr_mon 30, WEEPINBELL
 		tr_moves SLEEP_POWDER, POISONPOWDER, STUN_SPORE, SLUDGE_BOMB
 	tr_mon 32, NIDOKING
@@ -2632,31 +2632,31 @@ PicnickerGroup:
 		tr_moves EARTHQUAKE, DOUBLE_KICK, LEER, BODY_SLAM
 	end_trainer
 
-	def_trainer GINA1, "Gina"
+	def_trainer GINA1, "GUDRUN"
 	tr_mon 9, SUNKERN
 	tr_mon 9, HOPPIP
 	tr_mon 12, BULBASAUR
 	end_trainer
 
-	def_trainer GINA2, "Gina"
+	def_trainer GINA2, "GUDRUN"
 	tr_mon 14, SUNKERN
 	tr_mon 14, HOPPIP
 	tr_mon 17, IVYSAUR
 	end_trainer
 
-	def_trainer GINA3, "Gina"
+	def_trainer GINA3, "GUDRUN"
 	tr_mon 26, SUNFLORA
 	tr_mon 27, SKIPLOOM
 	tr_mon 29, IVYSAUR
 	end_trainer
 
-	def_trainer GINA4, "Gina"
+	def_trainer GINA4, "GUDRUN"
 	tr_mon 30, SUNFLORA
 	tr_mon 31, JUMPLUFF
 	tr_mon 32, IVYSAUR
 	end_trainer
 
-	def_trainer GINA5, "Gina"
+	def_trainer GINA5, "GUDRUN"
 	tr_mon 33, SUNFLORA
 if DEF(FAITHFUL)
 		tr_moves LEECH_SEED, GIGA_DRAIN, SUNNY_DAY, EARTH_POWER
@@ -2885,22 +2885,22 @@ FisherGroup:
 		tr_moves WATERFALL, AGILITY, FURY_STRIKES, POISON_JAB
 	end_trainer
 
-	def_trainer TULLY1, "Tully"
+	def_trainer TULLY1, "MAIK"
 	tr_mon 30, QWILFISH
 	end_trainer
 
-	def_trainer TULLY2, "Tully"
+	def_trainer TULLY2, "MAIK"
 	tr_mon 35, GOLDEEN
 	tr_mon 35, QWILFISH
 	end_trainer
 
-	def_trainer TULLY3, "Tully"
+	def_trainer TULLY3, "MAIK"
 	tr_mon 40, POLIWHIRL
 	tr_mon 40, SEAKING
 	tr_mon 40, QWILFISH
 	end_trainer
 
-	def_trainer TULLY4, "Tully"
+	def_trainer TULLY4, "MAIK"
 	tr_mon 43, POLIWRATH
 		tr_moves RAIN_DANCE, HYPNOSIS, WATERFALL, CLOSE_COMBAT
 	tr_mon 43, SEAKING
@@ -2909,19 +2909,19 @@ FisherGroup:
 		tr_moves ROLLOUT, WATERFALL, PIN_MISSILE, TAKE_DOWN
 	end_trainer
 
-	def_trainer WILTON1, "Wilton"
+	def_trainer WILTON1, "AXEL"
 	tr_mon 34, GOLDEEN
 	tr_mon 36, REMORAID
 	tr_mon 36, SEAKING
 	end_trainer
 
-	def_trainer WILTON2, "Wilton"
+	def_trainer WILTON2, "AXEL"
 	tr_mon 36, GOLDEEN
 	tr_mon 38, REMORAID
 	tr_mon 38, SEAKING
 	end_trainer
 
-	def_trainer WILTON3, "Wilton"
+	def_trainer WILTON3, "AXEL"
 	tr_mon 38, GOLDEEN
 		tr_moves WATERFALL, FURY_STRIKES, POISON_JAB, RAIN_DANCE
 	tr_mon 40, SEAKING
@@ -3082,17 +3082,17 @@ SECTION "BirdKeeperGroup", ROMX
 BirdKeeperGroup:
 
 	def_trainer_class BIRD_KEEPER
-	def_trainer VANCE1, "Vance"
+	def_trainer VANCE1, "RUDOLF"
 	tr_mon 36, PIDGEOTTO
 	tr_mon 36, PIDGEOTTO
 	end_trainer
 
-	def_trainer VANCE2, "Vance"
+	def_trainer VANCE2, "RUDOLF"
 	tr_mon 40, PIDGEOTTO
 	tr_mon 40, PIDGEOTTO
 	end_trainer
 
-	def_trainer VANCE3, "Vance"
+	def_trainer VANCE3, "RUDOLF"
 	tr_mon 45, PIDGEOT
 		tr_moves TOXIC, QUICK_ATTACK, ROAR, FLY
 	tr_mon 45, PIDGEOT
@@ -3679,19 +3679,19 @@ SECTION "PokefanMGroup", ROMX
 PokefanMGroup:
 
 	def_trainer_class POKEFANM
-	def_trainer DEREK1, "Derek"
+	def_trainer DEREK1, "DETLEV"
 	tr_mon 18, PIKACHU @ ORAN_BERRY
 	end_trainer
 
-	def_trainer DEREK2, "Derek"
+	def_trainer DEREK2, "DETLEV"
 	tr_mon 19, PIKACHU @ ORAN_BERRY
 	end_trainer
 
-	def_trainer DEREK3, "Derek"
+	def_trainer DEREK3, "DETLEV"
 	tr_mon 36, PIKACHU @ SITRUS_BERRY
 	end_trainer
 
-	def_trainer WILLIAM, "WILLIam"
+	def_trainer WILLIAM, "WILLIAM"
 	tr_mon 16, RAICHU @ ORAN_BERRY
 	end_trainer
 
@@ -3752,15 +3752,15 @@ SECTION "PokefanFGroup", ROMX
 PokefanFGroup:
 
 	def_trainer_class POKEFANF
-	def_trainer BEVERLY1, "Beverly"
+	def_trainer BEVERLY1, "IRMGARD"
 	tr_mon 16, SNUBBULL @ ORAN_BERRY
 	end_trainer
 
-	def_trainer BEVERLY2, "Beverly"
+	def_trainer BEVERLY2, "IRMGARD"
 	tr_mon 18, SNUBBULL @ ORAN_BERRY
 	end_trainer
 
-	def_trainer BEVERLY3, "Beverly"
+	def_trainer BEVERLY3, "IRMGARD"
 	tr_mon 30, GRANBULL @ SITRUS_BERRY
 	end_trainer
 
@@ -4212,7 +4212,7 @@ endc
 	tr_mon 54, AZUMARILL
 	end_trainer
 
-	def_trainer GINA, "Gina"
+	def_trainer GINA, "GUDRUN"
 	tr_mon 63, RAICHU @ LEFTOVERS
 		tr_moves THUNDERBOLT, SURF, THUNDER_WAVE, SUBSTITUTE
 	end_trainer
@@ -4557,28 +4557,28 @@ SECTION "SchoolboyGroup", ROMX
 SchoolboyGroup:
 
 	def_trainer_class SCHOOLBOY
-	def_trainer JACK1, "Jack"
+	def_trainer JACK1, "ULI"
 	tr_mon 12, ODDISH
 	tr_mon 15, VOLTORB
 	end_trainer
 
-	def_trainer JACK2, "Jack"
+	def_trainer JACK2, "ULI"
 	tr_mon 14, ODDISH
 	tr_mon 17, VOLTORB
 	end_trainer
 
-	def_trainer JACK3, "Jack"
+	def_trainer JACK3, "ULI"
 	tr_mon 28, GLOOM
 	tr_mon 31, ELECTRODE
 	end_trainer
 
-	def_trainer JACK4, "Jack"
+	def_trainer JACK4, "ULI"
 	tr_mon 30, GLOOM
 	tr_mon 33, GROWLITHE
 	tr_mon 33, ELECTRODE
 	end_trainer
 
-	def_trainer JACK5, "Jack"
+	def_trainer JACK5, "ULI"
 	tr_mon 35, ELECTRODE
 		tr_moves SCREECH, SONIC_BOOM, ROLLOUT, LIGHT_SCREEN
 	tr_mon 35, GROWLITHE
