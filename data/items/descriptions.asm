@@ -1699,7 +1699,7 @@ SilphScope2Desc:
 
 ApricornBoxDesc:
 	text "Fasst bis zu 99"
-	next "jeder Bogbeere."
+	next "jeder Aprikoko."
 	done
 
 TypeChartDesc:

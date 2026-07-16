@@ -662,7 +662,7 @@ SECTION "MachokePokedexEntry", ROMX
 MachokePokedexEntry::
 	db "Kraftprotz@"
 	text "Dieses starke"
-	next "#mon wird nie"
+	next "#MON wird nie"
 	next "müde. Seine"
 	page "Muskeln werden mit"
 	next "jedem Kampf dicker"
@@ -873,7 +873,7 @@ GrimerPlainPokedexEntry::
 	db "Schlamm@"
 	text "Kombiniert man"
 	next "zwei dieser"
-	next "#mon, so"
+	next "#MON, so"
 	page "entstehen völlig"
 	next "neue Arten von"
 	next "Gift.@"
@@ -992,7 +992,7 @@ SECTION "VoltorbPokedexEntry", ROMX
 VoltorbPokedexEntry::
 	db "Ball@"
 	text "Als man dieses"
-	next "#mon er-"
+	next "#MON er-"
 	next "forschte, fand man"
 	page "heraus, dass seine"
 	next "Teile nicht"
@@ -1272,7 +1272,7 @@ SECTION "TaurosPlainPokedexEntry", ROMX
 TaurosPlainPokedexEntry::
 	db "Wildbulle@"
 	text "Diese aggressiven"
-	next "#mon kämpfen"
+	next "#MON kämpfen"
 	next "mit anderen aus"
 	page "ihrer Herde, um"
 	next "ihre Stärke zu"
@@ -1283,7 +1283,7 @@ MagikarpPokedexEntry::
 	db "Fisch@"
 	text "Dieses schwache"
 	next "und lethargische"
-	next "#mon wird"
+	next "#MON wird"
 	page "leicht von Fluss-"
 	next "strömungen mit-"
 	next "gerissen.@"
@@ -1302,7 +1302,7 @@ SECTION "LaprasPokedexEntry", ROMX
 LaprasPokedexEntry::
 	db "Transport@"
 	text "Dieses gutmütige"
-	next "#mon nimmt"
+	next "#MON nimmt"
 	next "gerne Menschen mit"
 	page "und ist somit ein"
 	next "komfortables Fort-"
@@ -1351,7 +1351,7 @@ JolteonPokedexEntry::
 SECTION "FlareonPokedexEntry", ROMX
 FlareonPokedexEntry::
 	db "Feuer@"
-	text "Hat dieses #mon"
+	text "Hat dieses #MON"
 	next "genügend Wärme im"
 	next "Körper gesammelt,"
 	page "kann seine Körper-"
@@ -1361,7 +1361,7 @@ FlareonPokedexEntry::
 SECTION "PorygonPokedexEntry", ROMX
 PorygonPokedexEntry::
 	db "Virtuell@"
-	text "Dieses #mon ist"
+	text "Dieses #MON ist"
 	next "das Ergebnis vie-"
 	next "ler Forschungen."
 	page "Es beherrscht nur,"
@@ -1413,7 +1413,7 @@ AerodactylPokedexEntry::
 	db "Fossil@"
 	text "In der Urzeit"
 	next "flog dieses"
-	next "#mon frei"
+	next "#MON frei"
 	page "und furchtlos"
 	next "durch die Luft."
 	next "@"
@@ -1422,7 +1422,7 @@ SECTION "SnorlaxPokedexEntry", ROMX
 SnorlaxPokedexEntry::
 	db "Tagträumer@"
 	text "Der Magen dieses"
-	next "#mon ist so"
+	next "#MON ist so"
 	next "resistent, dass es"
 	page "sogar Verschimmel-"
 	next "tes oder Verdor-"
@@ -1432,7 +1432,7 @@ SECTION "ArticunoPlainPokedexEntry", ROMX
 ArticunoPlainPokedexEntry::
 	db "Eis@"
 	text "Ein legendäres"
-	next "Vogel-#mon."
+	next "Vogel-#MON."
 	next "Es kühlt die Luft"
 	page "beim Fliegen so"
 	next "stark ab, dass es"
@@ -1442,7 +1442,7 @@ SECTION "ZapdosPlainPokedexEntry", ROMX
 ZapdosPlainPokedexEntry::
 	db "Elektro@"
 	text "Ein legendäres"
-	next "Vogel-#mon,"
+	next "Vogel-#MON,"
 	next "dessen Flügel-"
 	page "schlag Gewitter"
 	next "entfacht, die in"
@@ -1452,7 +1452,7 @@ SECTION "MoltresPlainPokedexEntry", ROMX
 MoltresPlainPokedexEntry::
 	db "Feuer@"
 	text "Ein legendäres"
-	next "Vogel-#mon."
+	next "Vogel-#MON."
 	next "Man sagt, dass es"
 	page "vom Süden kommt"
 	next "und mit dem"
@@ -1472,7 +1472,7 @@ SECTION "DragonairPokedexEntry", ROMX
 DragonairPokedexEntry::
 	db "Drache@"
 	text "Man nennt es das"
-	next "göttliche #mon."
+	next "göttliche #MON."
 	next "Wenn sein gesamter"
 	page "Körper ein wenig"
 	next "leuchtet, ändert"
@@ -1506,7 +1506,7 @@ MewPokedexEntry::
 	next "glauben manche"
 	page "Menschen, dass es"
 	next "der Urvater aller"
-	next "#mon ist.@"
+	next "#MON ist.@"
 
 SECTION "ChikoritaPokedexEntry", ROMX
 ChikoritaPokedexEntry::
@@ -1701,7 +1701,7 @@ ChinchouPokedexEntry::
 SECTION "LanturnPokedexEntry", ROMX
 LanturnPokedexEntry::
 	db "Leuchte@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "nutzt das helle"
 	next "Licht, das aus"
 	page "einer Rückenflosse"
@@ -1724,7 +1724,7 @@ CleffaPokedexEntry::
 	text "Wenn man den Ein-"
 	next "schlagkrater eines"
 	next "Meteors findet,"
-	page "ist dieses #mon"
+	page "ist dieses #MON"
 	next "bestimmt in der"
 	next "Nähe.@"
 
@@ -1915,7 +1915,7 @@ SunfloraPokedexEntry::
 	next "bevor, werden die"
 	next "Blätter um das"
 	page "Gesicht dieses"
-	next "#mon aktiv"
+	next "#MON aktiv"
 	next "und lebhaft.@"
 
 SECTION "YanmaPokedexEntry", ROMX
@@ -2074,7 +2074,7 @@ SteelixPokedexEntry::
 	text "Die vielen Metall-"
 	next "teilchen, die den"
 	next "Körper dieses"
-	page "#mon bedecken,"
+	page "#MON bedecken,"
 	next "reflektieren das"
 	next "Licht sehr gut.@"
 
@@ -2092,7 +2092,7 @@ SECTION "GranbullPokedexEntry", ROMX
 GranbullPokedexEntry::
 	db "Fee@"
 	text "Es kann fast jedes"
-	next "#mon vertrei-"
+	next "#MON vertrei-"
 	next "ben, indem es sein"
 	page "Maul weit öffnet"
 	next "und seine scharfen"
@@ -2111,7 +2111,7 @@ QwilfishPokedexEntry::
 SECTION "ScizorPokedexEntry", ROMX
 ScizorPokedexEntry::
 	db "Schere@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "kann mit seinen"
 	next "stählernen Scheren"
 	page "jeden harten"
@@ -2142,7 +2142,7 @@ SECTION "SneaselPokedexEntry", ROMX
 SneaselPokedexEntry::
 	db "Stichklaue@"
 	text "Dieses hinterlis-"
-	next "tige #mon"
+	next "tige #MON"
 	next "nutzt den Schutz"
 	page "der Dunkelheit, um"
 	next "ahnungsloser Beute"
@@ -2312,7 +2312,7 @@ SECTION "DonphanPokedexEntry", ROMX
 DonphanPokedexEntry::
 	db "Panzertier@"
 	text "Die Haut dieses"
-	next "#mon ist so"
+	next "#MON ist so"
 	next "dick, dass eine"
 	page "normale Attacke"
 	next "bei ihm keine Spu-"
@@ -2321,7 +2321,7 @@ DonphanPokedexEntry::
 SECTION "Porygon2PokedexEntry", ROMX
 Porygon2PokedexEntry::
 	db "Virtuell@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "ist das Ergebnis"
 	next "neuester Technolo-"
 	page "gie. Es könnte un-"
@@ -2422,7 +2422,7 @@ SECTION "RaikouPokedexEntry", ROMX
 RaikouPokedexEntry::
 	db "Donner@"
 	text "Dieses aggressive"
-	next "#mon speichert"
+	next "#MON speichert"
 	next "Energie in seinem"
 	page "Körper und entlädt"
 	next "sie, wenn es über"
@@ -2432,7 +2432,7 @@ SECTION "EnteiPokedexEntry", ROMX
 EnteiPokedexEntry::
 	db "Vulkan@"
 	text "Dieses muskulöse"
-	next "#mon durch-"
+	next "#MON durch-"
 	next "streift das Land"
 	page "und spuckt Flam-"
 	next "men heißer als"
@@ -2442,7 +2442,7 @@ SECTION "SuicunePokedexEntry", ROMX
 SuicunePokedexEntry::
 	db "Polarlicht@"
 	text "Dieses göttliche"
-	next "#mon rennt"
+	next "#MON rennt"
 	next "über das Land. Es"
 	page "ist ständig auf"
 	next "Suche nach purem"
@@ -2456,7 +2456,7 @@ LarvitarPokedexEntry::
 	next "Hat es einen Berg"
 	page "Erde gefressen,"
 	next "verpuppt sich"
-	next "dieses #mon.@"
+	next "dieses #MON.@"
 
 SECTION "PupitarPokedexEntry", ROMX
 PupitarPokedexEntry::
@@ -2810,7 +2810,7 @@ SECTION "KleavorPokedexEntry", ROMX
 KleavorPokedexEntry::
 	db "Axt@"
 	text "Ein wildes"
-	next "#mon, das mit"
+	next "#MON, das mit"
 	next "groben Äxten hohe"
 	page "Bäume fällt und"
 	next "sich mit hartem"
@@ -2833,7 +2833,7 @@ SneaslerPokedexEntry::
 	next "und großer Kraft"
 	next "lebt es allein."
 	page "Kein anderes"
-	next "#mon bezwingt"
+	next "#MON bezwingt"
 	next "es in den Bergen.@"
 
 SECTION "OverqwilPokedexEntry", ROMX
@@ -2899,7 +2899,7 @@ GyaradosRedPokedexEntry::
 SECTION "MewtwoArmoredPokedexEntry", ROMX
 MewtwoArmoredPokedexEntry::
 	db "Genmutant.@"
-	text "Dieses #mon ist"
+	text "Dieses #MON ist"
 	next "das Resultat"
 	next "eines"
 	page "jahrelangen und"
@@ -2959,7 +2959,7 @@ SandslashAlolanPokedexEntry::
 SECTION "VulpixAlolanPokedexEntry", ROMX
 VulpixAlolanPokedexEntry::
 	db "Fuchs@"
-	text "Dieses #mon hat"
+	text "Dieses #MON hat"
 	next "bei seiner Geburt"
 	next "nur einen Schweif,"
 	page "der sich mit"
@@ -2980,7 +2980,7 @@ SECTION "DiglettAlolanPokedexEntry", ROMX
 DiglettAlolanPokedexEntry::
 	db "Maulwurf@"
 	text "Dieses"
-	next "#mon lebt 1"
+	next "#MON lebt 1"
 	next "m unter der Erde."
 	page "Es frisst Wurzeln"
 	next "und kommt selten"
@@ -3000,7 +3000,7 @@ SECTION "MeowthAlolanPokedexEntry", ROMX
 MeowthAlolanPokedexEntry::
 	db "Katzen@"
 	text "Nachtaktives"
-	next "#mon. Sieht es"
+	next "#MON. Sieht es"
 	next "etwas Schimmern-"
 	page "des, fangen seine"
 	next "Augen an zu"
@@ -3050,7 +3050,7 @@ SECTION "MeowthGalarianPokedexEntry", ROMX
 MeowthGalarianPokedexEntry::
 	db "Katzen@"
 	text "Ein nachtaktives"
-	next "#mon. Sieht es"
+	next "#MON. Sieht es"
 	next "etwas Schimmern-"
 	page "des, fangen seine"
 	next "Augen an zu"
@@ -3059,7 +3059,7 @@ MeowthGalarianPokedexEntry::
 SECTION "PersianAlolanPokedexEntry", ROMX
 PersianAlolanPokedexEntry::
 	db "Rassekatzen@"
-	text "Dieses #mon hat"
+	text "Dieses #MON hat"
 	next "sehr schönes"
 	next "Fell, ist jedoch"
 	page "ein schwer"
@@ -3072,7 +3072,7 @@ GeodudeAlolanPokedexEntry::
 	text "Wanderer stolpern"
 	next "in den Bergen"
 	next "häufig über dieses"
-	page "#mon, da es wie"
+	page "#MON, da es wie"
 	next "ein Stein"
 	next "aussieht.@"
 
@@ -3109,7 +3109,7 @@ PonytaGalarianPokedexEntry::
 SECTION "RapidashGalarianPokedexEntry", ROMX
 RapidashGalarianPokedexEntry::
 	db "Feuerpferd@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "verfolgt schnelle"
 	next "Objekte in der"
 	page "Hoffnung, ein"
@@ -3143,7 +3143,7 @@ endc
 SECTION "FarfetchDGalarianPokedexEntry", ROMX
 FarfetchDGalarianPokedexEntry::
 	db "Wildenten@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "nutzt eine Lauch-"
 	next "stange als Waffe."
 	page "Es setzt sie wie"
@@ -3174,7 +3174,7 @@ SECTION "ArticunoGalarianPokedexEntry", ROMX
 ArticunoGalarianPokedexEntry::
 	db "Eis@"
 	text "Ein Legendäres"
-	next "Vogel-#mon. Es"
+	next "Vogel-#MON. Es"
 	next "kann Blizzards"
 	page "verursachen, in-"
 	next "dem es Feuchtig-"
@@ -3184,7 +3184,7 @@ SECTION "ZapdosGalarianPokedexEntry", ROMX
 ZapdosGalarianPokedexEntry::
 	db "Elektro@"
 	text "Ein Legendäres"
-	next "Vogel-#mon, das"
+	next "Vogel-#MON, das"
 	next "im Sturzflug aus"
 	page "den Wolken bricht"
 	next "und Blitze"
@@ -3193,7 +3193,7 @@ ZapdosGalarianPokedexEntry::
 SECTION "MoltresGalarianPokedexEntry", ROMX
 MoltresGalarianPokedexEntry::
 	db "Flammen@"
-	text "Dieses #mon ist"
+	text "Dieses #MON ist"
 	next "der Legendäre"
 	next "Feuervogel. Sein"
 	page "Flügelschlag"
@@ -3233,7 +3233,7 @@ GrowlitheHisuianPokedexEntry::
 SECTION "ArcanineHisuianPokedexEntry", ROMX
 ArcanineHisuianPokedexEntry::
 	db "Legendär@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "trägt ein wunder-"
 	next "schönes Fell."
 	page "Es ist obendrein"
@@ -3293,7 +3293,7 @@ SneaselHisuianPokedexEntry::
 SECTION "WooperPaldeanPokedexEntry", ROMX
 WooperPaldeanPokedexEntry::
 	db "Fisch@"
-	text "Dieses #mon"
+	text "Dieses #MON"
 	next "lebt in Eiswasser."
 	next "Wird es an Land"
 	page "kalt, verlässt es"

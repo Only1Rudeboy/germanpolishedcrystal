@@ -50,7 +50,7 @@ _NoApricornBoxText::
 
 SECTION "_ApricornBoxIsFullText", ROMX
 _ApricornBoxIsFullText::
-	text "Die Kokonuss-Box"
+	text "Die Aprikoko-Box"
 	line "ist voll…"
 	done
 
@@ -60,7 +60,7 @@ _PutAwayTheApricornText::
 	line ""
 	text_ram wStringBuffer3
 	text " in die"
-	line "Kokonuss-Box."
+	line "Aprikoko-Box."
 	done
 
 SECTION "_NothingHereText", ROMX
@@ -84,8 +84,8 @@ _UsedMulchText::
 
 SECTION "_WhichApricornText", ROMX
 _WhichApricornText::
-	text "Welche Kokonuss"
-	line "soll ich nehmen?"
+	text "Welche APRIKOKO"
+	line "soll ich benutzen?"
 	done
 
 SECTION "_HowManyShouldIMakeText", ROMX

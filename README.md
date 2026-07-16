@@ -22,6 +22,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
+| **ROM 3.2.3.043** | **Optionals + Pokédex-QC:** Aprikoko-Box/Kurt-Texte (kein „Kokonuss“/„Bogbeere“); Dex #001–#251 dump-soft **251/251** + `#mon`→`#MON` (44); Parkball/EI-TICKET/SCHACHTEL dokumentiert (kein Desc-Slot / nicht verdrahtet). |
 | **ROM 3.2.3.042** | **Mail-/Key-Items Dump-Finish:** Briefe (Blumen/Surf/Cyan/…/Trug), UP-GRADE (SILPH CO.), restliche Key-Item-Texte final dump-nah; QC ~139 GSC-Item-Descs = Dump. |
 | **ROM 3.2.3.041** | **Items dump-nah erweitert:** Evoli-Steine, Hyperheiler/Wutkeks split, Beeren (Pecha/Cheri/…), King-Stein, Scope-Linse, Lauch, Rosa Band→Seide, Buntflügel, Schiggykanne; Moves safe re-apply. |
 | **ROM 3.2.3.040** | **Items + Attacken dump-nah (Basis):** ~117 Items + ~119 Move-Blöcke; Fähigkeiten **C**. |
