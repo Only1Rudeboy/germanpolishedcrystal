@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.040** | **Items + Attacken dump-nah:** ~117 Item-Beschreibungen + ~119 Attacken-Blöcke aus GSC-DE-Dump (`tools/_apply_*`); PC-only-Attacken/Items und **Fähigkeiten bleiben C**. |
+| **ROM 3.2.3.041** | **Items dump-nah erweitert:** Evoli-Steine, Hyperheiler/Wutkeks split, Beeren (Pecha/Cheri/…), King-Stein, Scope-Linse, Lauch, Rosa Band→Seide, Buntflügel, Schiggykanne; Moves safe re-apply. |
+| **ROM 3.2.3.040** | **Items + Attacken dump-nah (Basis):** ~117 Items + ~119 Move-Blöcke; Fähigkeiten **C**. |
 | **ROM 3.2.3.039** | **JOHTO/KANTO CAPS**; `{d:…}`-Breite dokumentiert. |
 | **ROM 3.2.3.038** | **Feinschliff:** over18-Reflow; Mon-Rufe CAPS; Scherzbuch-Autoren; „Total cool!“. |
 | **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW. |

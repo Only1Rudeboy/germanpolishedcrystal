@@ -478,10 +478,13 @@ IceHealDesc:
 	done
 
 FullHealDesc:
+	text "Beseitigt alle"
+	next "Statusprobleme."
+	done
 RageCandyBarDesc:
 PewterCrunchDesc:
-	text "Heilt alle"
-	next "Statusprobleme."
+	text "Füllt KP um"
+	next "20 auf."
 	done
 
 FullRestoreDesc:
@@ -625,7 +628,7 @@ XSpeedDesc:
 	done
 
 XSpAtkDesc:
-	text "Hebt den Sp.Ang."
+	text "Hebt SPEZ. ANG"
 	next "für 1 Kampf."
 	done
 
@@ -689,8 +692,8 @@ DuskStoneDesc:
 ShinyStoneDesc:
 IceStoneDesc:
 LinkingCordDesc:
-	text "Entwickelt gewisse"
-	next "#MON-Arten."
+	text "Entwickelt manche"
+	next "#MON."
 	done
 
 EverstoneDesc:
@@ -704,53 +707,53 @@ ExpShareDesc:
 	done
 
 CheriBerryDesc:
-	text "Heilt selbst"
-	next "Paralyse. (halten)"
+	text "Selbstheilung bei"
+	next "Paralyse. (TRAGEN)"
 	done
 
 ChestoBerryDesc:
-	text "Weckt sich selbst"
-	next "auf. (halten)"
+	text "Auto-Aufwecker bei"
+	next "Schlaf. (TRAGEN)"
 	done
 
 PechaBerryDesc:
-	text "Heilt selbst"
-	next "Vergift. (halten)"
+	text "Selbstheilung bei"
+	next "Gift. (TRAGEN)"
 	done
 
 RawstBerryDesc:
-	text "Heilt selbst"
-	next "Verbrenn. (halten)"
+	text "Selbstheilung bei"
+	next "Brand. (TRAGEN)"
 	done
 
 AspearBerryDesc:
-	text "Heilt selbst"
-	next "Erfr. (halten)"
+	text "Selbstheilung bei"
+	next "Frost. (TRAGEN)"
 	done
 
 LeppaBerryDesc:
-	text "Selbstheilung:"
-	next "10 AP (halten)"
+	text "Auto-Auffüllung"
+	next "der AP. (TRAGEN)"
 	done
 
 OranBerryDesc:
-	text "Selbstheilung:"
-	next "10KP (halten)"
+	text "Selbstheilung um"
+	next "10 KP. (TRAGEN)"
 	done
 
 PersimBerryDesc:
-	text "Heilt selbst"
-	next "Verwirr. (halten)"
+	text "Selbstheilung bei"
+	next "Verwirr. (TRAGEN)"
 	done
 
 LumBerryDesc:
-	text "Heilt alle"
-	next "Probleme. (halten)"
+	text "Setzt Status in"
+	next "Urzustand.(TRAGEN)"
 	done
 
 SitrusBerryDesc:
-	text "Selbstheilung."
-	next "(1/4 max.KP,Halt.)"
+	text "Selbstheilung um"
+	next "30 KP. (TRAGEN)"
 	done
 
 FigyBerryDesc:
@@ -860,7 +863,7 @@ BerryJuiceDesc:
 
 SilkScarfDesc:
 	text "Verstärkt Normal-"
-	next "Attacken. (halten)"
+	next "Attacken. (TRAGEN)"
 	done
 
 BlackBeltDesc:
@@ -954,10 +957,14 @@ BrightPowderDesc:
 	done
 
 ScopeLensDesc:
+	text "Hebt Volltreffer-"
+	next "quote. (TRAGEN)"
+	done
 RazorClawDesc:
 	text "Erhöht Volltref-"
 	next "ferquote. (halten)"
 	done
+
 
 QuickClawDesc:
 	text "Erhöht Erstschlag-"
@@ -965,10 +972,14 @@ QuickClawDesc:
 	done
 
 KingsRockDesc:
+	text "Feind flieht"
+	next "evtl. (TRAGEN)"
+	done
 RazorFangDesc:
 	text "Kann Gegner"
 	next "zurückschrecken."
 	done
+
 
 FocusBandDesc:
 	text "Könnte K.O. ver-"
@@ -1011,8 +1022,8 @@ LightBallDesc:
 	done
 
 LeekDesc:
-	text "Ein gewöhnlicher"
-	next "Lauch. Wenig wert."
+	text "Gemeiner Lauch."
+	next "Wert gering."
 	done
 
 ThickClubDesc:
@@ -1376,8 +1387,8 @@ StarPieceDesc:
 	done
 
 BrickPieceDesc:
-	text "Ein Stück Ziegel."
-	next "Wert: gering."
+	text "Ein seltenes Stück"
+	next "eines Ziegels."
 	done
 
 RareBoneDesc:
@@ -1422,8 +1433,8 @@ PortraitMailDesc:
 	done
 
 LovelyMailDesc:
-	text "Post mit Herz-"
-	next "Muster. (halten)"
+	text "Umschlag mit Herz-"
+	next "Aufdruck. (TRAGEN)"
 	done
 
 EonMailDesc:
@@ -1437,18 +1448,18 @@ MorphMailDesc:
 	done
 
 BlueSkyMailDesc:
-	text "Post mit Himmel-"
-	next "Muster. (halten)"
+	text "Himmelblauer"
+	next "Umschlag. (TRAGEN)"
 	done
 
 MusicMailDesc:
-	text "Post mit Natu-"
-	next "Muster. (halten)"
+	text "Umschlag mit NATU-"
+	next "Aufdruck. (TRAGEN)"
 	done
 
 MirageMailDesc:
-	text "Post mit Mew-"
-	next "Muster. (halten)"
+	text "Umschlag mit MEW-"
+	next "Aufdruck. (TRAGEN)"
 	done
 
 EjectButtonDesc:
@@ -1557,8 +1568,8 @@ MysteryEggDesc:
 	done
 
 SquirtBottleDesc:
-	text "Eine Flasche zum"
-	next "Pflanzengießen."
+	text "Eine Kanne, um"
+	next "Bäume zu wässern."
 	done
 
 GoGogglesDesc:
@@ -1606,8 +1617,8 @@ LostItemDesc:
 	done
 
 RainbowWingDesc:
-	text "Eine mystische"
-	next "Regenbogenfeder."
+	text "Mystische Regen-"
+	next "bogen-Feder."
 	done
 
 SilverWingDesc:

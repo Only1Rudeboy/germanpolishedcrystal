@@ -522,6 +522,7 @@ def main() -> None:
         if s.endswith("@"):
             s = s[:-1]
         s = s.replace("<PKMN>", "#MON").replace("<PK><MN>", "#MON")
+        s = s.replace(";", ",")  # unmapped in charmap
         parts = [p for p in s.split("<NEXT>") if p != ""]
         if not parts:
             parts = ["?"]
