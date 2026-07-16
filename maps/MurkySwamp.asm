@@ -74,7 +74,7 @@ MurkySwampCherylScript:
 
 .ChallengeText:
 	text "Hallo, ich heiße"
-	line "Cheryl. Und du"
+	line "CHERYL. Und du"
 	cont "bist …?"
 	para "O.K., du heißt"
 	line "<PLAYER>."

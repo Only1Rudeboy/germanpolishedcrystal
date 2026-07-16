@@ -25,7 +25,7 @@ CeladonUniversityClassroom2_MapScriptHeader:
 	object_event  3,  9, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonUniversityClassroom2CooltrainermScript, -1
 
 CeladonUniversityClassroom2BlancheText:
-	text "Ich bin Blanche."
+	text "Ich bin BLANCHE."
 	line "Ich unterrichte"
 	cont "hier Geschichte."
 	para "Wir müssen aus der"
@@ -36,7 +36,7 @@ CeladonUniversityClassroom2BlancheText:
 	done
 
 CeladonUniversityClassroom2TeacherText:
-	text "Blanche ist leider"
+	text "BLANCHE ist leider"
 	line "nicht da."
 	para "Sie unterrichtet"
 	line "nur tagsüber."

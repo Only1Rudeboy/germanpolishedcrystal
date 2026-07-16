@@ -76,7 +76,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	done
 
 .IntroText1:
-	text "Ich bin Corey!"
+	text "Ich bin COREY!"
 	line "Einer der vier"
 	cont "Toptrainer der"
 	cont "PRISMANIA-UNI."
@@ -92,7 +92,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	done
 
 .IntroText2:
-	text "Ich bin Corey!"
+	text "Ich bin COREY!"
 	line "Einer der"
 	cont "PRISMANIAS VIER!"
 	para "Du forderst uns"

@@ -103,7 +103,7 @@ RocketHideoutB1FScientistSanders:
 RocketHideoutB1FPicnickerZane:
 	generictrainer PICNICKER, ZANE, EVENT_BEAT_PICNICKER_ZANE, .SeenText, .BeatenText
 
-	text "Spark wäre"
+	text "SPARK wäre"
 	line "beeindruckt."
 
 	para "Mal sehen, ob du"
@@ -135,7 +135,7 @@ RocketHideoutB1FBattleGirlSasha:
 	text "Die Flamme von"
 	line "Valor brennt in"
 	cont "dir."
-	para "Candelas Prüfung"
+	para "CANDELAs Prüfung"
 	line "wird deine Grenzen"
 	cont "testen."
 	done
@@ -158,7 +158,7 @@ RocketHideoutB1FBattleGirlSasha:
 RocketHideoutB1FLassMavis:
 	generictrainer LASS, MAVIS, EVENT_BEAT_LASS_MAVIS, .SeenText, .BeatenText
 
-	text "Sparks Kämpfe sind"
+	text "SPARKs Kämpfe sind"
 	line "unberechenbar."
 	para "Deshalb mische ich"
 	line "es!"

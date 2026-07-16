@@ -292,7 +292,7 @@ GenericTrainerDragonTamerAdam:
 GenericTrainerAceDuoDanandcara1:
 	generictrainer ACE_DUO, DANANDCARA1, EVENT_BEAT_ACE_DUO_DAN_AND_CARA, .SeenText, .BeatenText
 
-	text "Dan: Bald bekomme"
+	text "DAN: Bald bekomme"
 	line "ich vom MEISTER"
 	para "die Erlaubnis,"
 	line "Drachen"
@@ -306,7 +306,7 @@ GenericTrainerAceDuoDanandcara1:
 	done
 
 .SeenText:
-	text "Dan: Ich darf zwar"
+	text "DAN: Ich darf zwar"
 	line "keine Drachen"
 	cont "nutzen,"
 	para "aber ich bin"
@@ -314,14 +314,14 @@ GenericTrainerAceDuoDanandcara1:
 	done
 
 .BeatenText:
-	text "Dan: Du warst noch"
+	text "DAN: Du warst noch"
 	line "stärker!"
 	done
 
 GenericTrainerAceDuoDanandcara2:
 	generictrainer ACE_DUO, DANANDCARA2, EVENT_BEAT_ACE_DUO_DAN_AND_CARA, .SeenText, .BeatenText
 
-	text "Cara: Drachen sind"
+	text "CARA: Drachen sind"
 	line "schwer zu"
 	para "erziehen und sehr"
 	line "stark."
@@ -330,13 +330,13 @@ GenericTrainerAceDuoDanandcara2:
 	done
 
 .SeenText:
-	text "Cara: Willst du"
+	text "CARA: Willst du"
 	line "auch Drachen"
 	cont "trainieren?"
 	done
 
 .BeatenText:
-	text "Cara: Ach, Mist,"
+	text "CARA: Ach, Mist,"
 	line "ich hab verloren!"
 	done
 

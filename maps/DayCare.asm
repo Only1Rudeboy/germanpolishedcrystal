@@ -200,7 +200,7 @@ DayCareLyraHelloText:
 
 	para "Das ist <PLAYER>!"
 
-	para "Oma: Aha."
+	para "OMA: Aha."
 
 	para "Das ist dein"
 	line ""
@@ -219,7 +219,7 @@ DayCareLyraProtestText:
 	para "<PLAYER> wohnt nur"
 	line "in der Nähe …"
 
-	para "Oma: Hahaha. Schon"
+	para "OMA: Hahaha. Schon"
 	line "gut, schon gut."
 
 	para ""

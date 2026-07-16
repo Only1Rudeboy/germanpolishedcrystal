@@ -123,7 +123,7 @@ ShuckieName:
 	rawchar "Shuckie@"
 
 ShuckieOTName:
-	rawchar "Kirk@"
+	rawchar "KIRK@"
 
 ManiaText_AskLookAfterShuckie:
 	text "Ich… ich bin"

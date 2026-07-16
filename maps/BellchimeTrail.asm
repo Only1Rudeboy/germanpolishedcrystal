@@ -166,7 +166,7 @@ BellchimeTrailValerieScript:
 	line "Trainer, der"
 	cont "Suicune gegen-"
 	para "überstand …"
-	para "Ich bin Valerie."
+	para "Ich bin JUTTA."
 	line "Ich komme hierher,"
 	para "um mich von seiner"
 	line "Schönheit"
@@ -186,7 +186,7 @@ BellchimeTrailValerieScript:
 	done
 
 .BattleText:
-	text "Valerie: Ich"
+	text "JUTTA: Ich"
 	line "trainiere den"
 	cont "schwer fassbaren"
 
@@ -203,11 +203,11 @@ BellchimeTrailValerieScript:
 	done
 
 .RefusedText:
-	text "Valerie: Ach…"
+	text "JUTTA: Ach…"
 	done
 
 .AcceptedText:
-	text "Valerie: Ich"
+	text "JUTTA: Ich"
 	line "hoffe, unser"
 
 	para "Kampf wird dir"
@@ -223,7 +223,7 @@ BellchimeTrailValerieScript:
 	done
 
 .RewardText:
-	text "Valerie: Ja… das"
+	text "JUTTA: Ja… das"
 	line "war ein feiner"
 	cont "Kampf."
 
@@ -239,7 +239,7 @@ BellchimeTrailValerieScript:
 	done
 
 .FarewellText:
-	text "Valerie: Oh? Was"
+	text "JUTTA: Oh? Was"
 	line "für ein seltsames"
 	cont "Gefühl …"
 	para "Ich kann mich"
@@ -259,7 +259,7 @@ BellchimeTrailValerieScript:
 	done
 
 .RematchText:
-	text "Valerie: Oh, sieh"
+	text "JUTTA: Oh, sieh"
 	line "an, mein junger"
 	cont "Trainer …"
 	para "Wie schön, dich so"

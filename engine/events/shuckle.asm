@@ -67,5 +67,5 @@ ReturnShuckie:
 	ret
 
 SpecialShuckleOTAndExtra:
-	rawchar "Kirk@@@@"
+	rawchar "KIRK@@@@"
 	db 0, 0, 0

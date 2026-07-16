@@ -63,7 +63,7 @@ CeladonUniversityPoolFergusScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "Ich bin Fergus!"
+	text "Ich bin FERGUS!"
 	line "Einer der vier"
 	cont "besten Trainer"
 	para "der PRISMANIA-UNI."
@@ -76,7 +76,7 @@ CeladonUniversityPoolFergusScript:
 	done
 
 .IntroText2:
-	text "Ich bin Fergus!"
+	text "Ich bin FERGUS!"
 	line "Einer der"
 	cont "PRISMANIAS VIER!"
 

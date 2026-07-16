@@ -55,7 +55,7 @@ ShamoutiPokeCenter1FIvyScript:
 	ifequalfwd $3, .Squirtle
 	jumpthisopenedtext
 
-	text "Ivy: Hm, ich"
+	text "IVY: Hm, ich"
 	line "dachte, du wärst"
 	cont "froh, ein seltenes"
 
@@ -120,14 +120,14 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .GreetingText:
-	text "Ivy: Ach! Du bist"
+	text "IVY: Ach! Du bist"
 	line "<PLAYER>, der neue"
 	cont "Champion!"
 
 	para "Freut mich, dich"
 	line "kennenzulernen!"
 
-	para "Ich bin Ivy,"
+	para "Ich bin IVY,"
 	line "#MON-Professor."
 
 	para "Ich erforsche"
@@ -158,7 +158,7 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .OfferText:
-	text "Ivy: Du machst"
+	text "IVY: Du machst"
 	line "also eine ganz"
 	cont "neue"
 
@@ -175,13 +175,13 @@ ShamoutiPokeCenter1FIvyScript:
 	done
 
 .ChoseKantoStarterText:
-	text "Ivy: Das finde ich"
+	text "IVY: Das finde ich"
 	line "auch ein tolles"
 	cont "#MON!"
 	done
 
 .GoodbyeText:
-	text "Ivy: PROF. LIND"
+	text "IVY: PROF. LIND"
 	line "hat dir ein"
 	cont "#MON anver-"
 	cont "traut, und"

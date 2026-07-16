@@ -25,7 +25,7 @@ CeladonUniversityClassroom3_MapScriptHeader:
 
 CeladonUniversityClassroom3SparkText:
 	text "Hey! Ich bin"
-	line "Spark. Ich lehre"
+	line "SPARK. Ich lehre"
 	cont "Wissenschaft--"
 	para "gerade"
 	line "#biologie."

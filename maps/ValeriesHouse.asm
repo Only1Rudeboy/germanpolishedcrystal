@@ -70,7 +70,7 @@ SetupFairyBookScript:
 	endcallback
 
 ValeriesHouseValerieText:
-	text "Valerie: Meine"
+	text "JUTTA: Meine"
 	line "Modendesigns"
 
 	para "gelten als"

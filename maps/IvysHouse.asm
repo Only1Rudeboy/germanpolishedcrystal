@@ -16,7 +16,7 @@ IvysHouse_MapScriptHeader:
 	object_event  6,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IvysHouseCharityText, -1
 
 IvysHouseFaithText:
-	text "Faith: Ich"
+	text "FAITH: Ich"
 	line "trainiere"
 	cont "Pflanzen-#MON"
 	para "mit PROF. IVY!"
@@ -24,7 +24,7 @@ IvysHouseFaithText:
 	done
 
 IvysHouseCharityText:
-	text "Charity: Faith ist"
+	text "CHARITY: Faith ist"
 	line "meine Schwester."
 	para "Wir sind im Urlaub"
 	line "bei PROF. IVY!"

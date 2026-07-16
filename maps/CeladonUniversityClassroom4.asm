@@ -151,7 +151,7 @@ CeladonUniversityClassroom4RaymondScript:
 
 CeladonUniversityClassroom4CandelaText:
 	text "Hallo! Ich bin"
-	line "Candela. Ich lehre"
+	line "CANDELA. Ich lehre"
 	cont "#MON-Kampf!"
 	para "Ich erforsche"
 	line "Wege, die natür-"
@@ -161,7 +161,7 @@ CeladonUniversityClassroom4CandelaText:
 	done
 
 CeladonUniversityClassroom4TeacherText:
-	text "Candela? Sie"
+	text "CANDELA? Sie"
 	line "unterrichtet nur"
 	cont "tagsüber."
 	done

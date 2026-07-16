@@ -182,7 +182,7 @@ TeacherText_MoreChef:
 	done
 
 MayleneText1:
-	text "Hilda: Mampf mampf"
+	text "HILDA: Mampf mampf"
 	line "mampf …"
 	done
 

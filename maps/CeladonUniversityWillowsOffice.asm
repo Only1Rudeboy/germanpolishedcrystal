@@ -24,7 +24,7 @@ CeladonUniversityWillowsOfficeWillowText:
 	text "Hallo! Ich bin"
 	line "PROF. WILLOW."
 	para "Ich betreue"
-	line "Candela, Blanche"
+	line "CANDELA, Blanche"
 	cont "und Spark bei"
 	para "Lehre und"
 	line "Forschung."

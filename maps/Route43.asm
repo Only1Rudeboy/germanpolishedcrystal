@@ -193,7 +193,7 @@ GenericTrainerBreederJody:
 GenericTrainerSrandjrIvyandamy1:
 	generictrainer SR_AND_JR, IVYANDAMY1, EVENT_BEAT_SR_AND_JR_IVY_AND_AMY, SrandjrIvyandamy1SeenText, SrandjrIvyandamy1BeatenText
 
-	text "Ivy: Meine Junior"
+	text "IVY: Meine Junior"
 	line "soll nicht denken,"
 	cont "ich"
 	para "könnte ihr nicht"
@@ -661,13 +661,13 @@ BreederJodyBeatenText:
 	done
 
 SrandjrIvyandamy1SeenText:
-	text "Ivy: Ich zeige"
+	text "IVY: Ich zeige"
 	line "meiner Junior,"
 	para "wie man das macht!"
 	done
 
 SrandjrIvyandamy1BeatenText:
-	text "Ivy: Du hast mich"
+	text "IVY: Du hast mich"
 	line "vor meiner Junior"
 
 	para "bloßgestellt…"

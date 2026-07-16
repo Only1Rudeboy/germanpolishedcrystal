@@ -98,7 +98,7 @@ ProfIvyScript:
 	jumpthisopenedtext
 
 .NoBerryText:
-	text "Ivy: Ich verstehe"
+	text "IVY: Ich verstehe"
 	line "…"
 	para "Du hast keine drei"
 	line "LIECHI-BEEREN zum"
@@ -106,7 +106,7 @@ ProfIvyScript:
 	done
 
 .RequestText:
-	text "Ivy: Hallo"
+	text "IVY: Hallo"
 	line "nochmal, <PLAYER>!"
 	para "Kann ich dich um"
 	line "einen Gefallen"
@@ -122,7 +122,7 @@ ProfIvyScript:
 	done
 
 .OkayText:
-	text "Ivy: Perfekt!"
+	text "IVY: Perfekt!"
 	line "Danke, <PLAYER>!"
 
 	para "Mal sehen, ob das"
@@ -130,7 +130,7 @@ ProfIvyScript:
 	done
 
 .ThanksText:
-	text "Ivy: Danke,"
+	text "IVY: Danke,"
 	line "<PLAYER>!"
 	para "Nidorino sieht"
 	line "viel gesünder aus!"
@@ -139,7 +139,7 @@ ProfIvyScript:
 	done
 
 .ChallengeText:
-	text "Ivy: Ich könnte"
+	text "IVY: Ich könnte"
 	line "eine Pause vom"
 	cont "Forschen"
 	cont "gebrauchen."
@@ -167,7 +167,7 @@ ProfIvyScript:
 	done
 
 .AfterText:
-	text "Ivy: Das war ein"
+	text "IVY: Das war ein"
 	line "aufregender Kampf!"
 	done
 

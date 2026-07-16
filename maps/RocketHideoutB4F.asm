@@ -118,7 +118,7 @@ RocketHideoutB4FMeetLeadersScript:
 
 
 .CandelaIntro1Text:
-	text "Candela: Ich sag"
+	text "CANDELA: Ich sag"
 	line "dir, rohe Kraft"
 	cont "gewinnt immer!"
 	para "Training soll hart"
@@ -127,7 +127,7 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .BlancheIntro1Text:
-	text "Blanche: Stärke"
+	text "BLANCHE: Stärke"
 	line "ist nutzlos ohne"
 	cont "Strategie."
 
@@ -136,7 +136,7 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .SparkIntro1Text:
-	text "Spark: Ihr beiden"
+	text "SPARK: Ihr beiden"
 	line "verpasst den"
 	cont "Punkt!"
 	para "Instinkt ist"
@@ -144,15 +144,15 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .CandelaIntro2Text:
-	text "Candela: Instinkt?"
+	text "CANDELA: Instinkt?"
 	line "Das ist nur Raten!"
 	para "Echte Trainer"
 	line "setzen auf Stärke!"
 	done
 
 .BlancheIntro2Text:
-	text "Blanche: Candela,"
-	line "Spark, das ist"
+	text "BLANCHE: Candela,"
+	line "SPARK, das ist"
 	cont "nicht der Moment!"
 
 	para "Was ist mit dem"
@@ -161,7 +161,7 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .SparkIntro2Text:
-	text "Spark: Stimmt! Der"
+	text "SPARK: Stimmt! Der"
 	line "große Kirschbaum--"
 	done
 
@@ -171,7 +171,7 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .CandelaIntro3Text:
-	text "Candela: Der da"
+	text "CANDELA: Der da"
 	line "hat echte Kraft!"
 
 	para "Da du so weit"
@@ -221,7 +221,7 @@ RocketHideoutB4FSparkScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Spark: Hey!"
+	text "SPARK: Hey!"
 	line "Bereit, deinem"
 	cont "Instinkt zu"
 	cont "vertrauen?"
@@ -241,7 +241,7 @@ RocketHideoutB4FSparkScript:
 	done
 
 .AfterText1:
-	text "Spark: Hier ist"
+	text "SPARK: Hier ist"
 	line "der Malign Lure."
 	done
 
@@ -295,7 +295,7 @@ RocketHideoutB4FCandelaScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Candela: Bereit,"
+	text "CANDELA: Bereit,"
 	line "deine Stärke zu"
 	cont "testen?"
 	done
@@ -315,12 +315,12 @@ RocketHideoutB4FCandelaScript:
 	done
 
 .AfterText1:
-	text "Candela: Hier ist"
+	text "CANDELA: Hier ist"
 	line "der Harsh Lure."
 	done
 
 .AfterText2:
-	text "Candela: Der Harsh"
+	text "CANDELA: Der Harsh"
 	line "Lure zieht wilde"
 	cont "Kraft an."
 	para "Das ist mein"
@@ -370,7 +370,7 @@ RocketHideoutB4FBlancheScript:
 	jumpopenedtext .RefusedText
 
 .GreetingText:
-	text "Blanche: Schätzt"
+	text "BLANCHE: Schätzt"
 	line "du Strategie?"
 
 	para "Sollen wir deine"
@@ -391,7 +391,7 @@ RocketHideoutB4FBlancheScript:
 	done
 
 .AfterText1:
-	text "Blanche: Das ist"
+	text "BLANCHE: Das ist"
 	line "der Potent Lure."
 	done
 
@@ -452,7 +452,7 @@ RocketHideoutB4FYoungsterArdenScript:
 .AfterText:
 	text "Ach nein, der"
 	line "Aufzugsschlüssel!"
-	para "Candela wird sauer"
+	para "CANDELA wird sauer"
 	line "sein!"
 	done
 
@@ -568,14 +568,14 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	end
 
 .FinalText:
-	text "Candela: Du bist"
+	text "CANDELA: Du bist"
 	line "stärker als ich"
 	cont "dachte."
 	para "Die Sprays, die"
 	line "wir dir gaben,"
 	cont "sind mehr als sie"
 	cont "wirken."
-	para "Blanche: Jeder"
+	para "BLANCHE: Jeder"
 	line "Lure enthält die"
 	para "Essenz eines"
 	line "legendären"
@@ -584,27 +584,27 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	line "erschaffen, um"
 	cont "andere ihrer Art"
 	cont "anzurufen."
-	para "Spark: Aber sie"
+	para "SPARK: Aber sie"
 	line "nützen nur am"
 	cont "richtigen Ort."
 	para "Deshalb ist der"
 	line "Große Baum so"
 	cont "wichtig."
-	para "Candela: Der Baum"
+	para "CANDELA: Der Baum"
 	line "ist uralt,"
 	para "ein heiliger Ort"
 	line "zum Schlafen."
 	para "Er ist verbunden"
 	line "mit der Energie"
 	cont "der Region."
-	para "Blanche: Mächtige"
+	para "BLANCHE: Mächtige"
 	line "Vögel haben sich"
 	para "dort seit"
 	line "Generationen"
 	cont "versammelt."
 	para "Der Baum verstärkt"
 	line "den Ruf der Lures."
-	para "Spark: Wenn du sie"
+	para "SPARK: Wenn du sie"
 	line "dort einsetzt,"
 	para "wer weiß, was"
 	line "erscheinen mag!"

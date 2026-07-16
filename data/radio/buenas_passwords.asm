@@ -36,4 +36,4 @@ BuenasPasswordTable:
 .Types:         password_group BUENA_STRING,  6, "FLUG@", "KÄFER@", "PFLANZE@"
 .Moves:         password_group BUENA_MOVE,   12, TACKLE, GROWL, MUD_SLAP
 .XItems:        password_group BUENA_ITEM,   12, X_ATTACK, X_DEFEND, X_SPEED
-.RadioStations: password_group BUENA_STRING, 13, "EICHs <PKMN>-Talk@", "#MON-Musik@", "Glückskanal@"
+.RadioStations: password_group BUENA_STRING, 13, "EICHs <PK><MN>-Talk@", "#MON-Musik@", "Glückskanal@"

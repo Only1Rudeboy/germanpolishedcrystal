@@ -90,7 +90,7 @@ endc
 
 .IntroText:
 	text "Hallo. Ich bin"
-	line "Larry."
+	line "SATORU."
 
 	para "Mein Chef hat mich"
 	line "geschäftlich"
@@ -126,7 +126,7 @@ endc
 	done
 
 .SeenText:
-	text "Ich, Larry, stehe"
+	text "Ich, SATORU, stehe"
 	line "zu deinen Diens-"
 	cont "ten."
 	done

@@ -85,14 +85,14 @@ EcruteakShrineInsideReiScript:
 .ReiDone
 	jumpthisopenedtext
 
-	text "Rei: Komm doch"
+	text "REI: Komm doch"
 	line "morgen wieder."
 	done
 
 .ReiCancel
 	jumpthisopenedtext
 
-	text "Rei: Komm wieder,"
+	text "REI: Komm wieder,"
 	line "wenn du deine"
 	cont "Meinung änderst."
 	done
@@ -100,7 +100,7 @@ EcruteakShrineInsideReiScript:
 .EggBlessing
 	jumpthisopenedtext
 
-	text "Rei: Ein EI kann"
+	text "REI: Ein EI kann"
 	line "ich nicht segnen."
 	done
 
@@ -118,7 +118,7 @@ EcruteakShrineInsideReiScript:
 	db "Zurück@"
 
 EcruteakShrineInsideReiGreetingText:
-	text "Rei: Ach, hallo."
+	text "REI: Ach, hallo."
 	line "Willkommen in"
 	cont "unserem Schrein."
 
@@ -132,13 +132,13 @@ EcruteakShrineInsideReiGreetingText:
 	done
 
 EcruteakShrineInsideReiBlessText:
-	text "Rei: O.K., welches"
+	text "REI: O.K., welches"
 	line "#MON soll ich"
 	cont "segnen?"
 	done
 
 EcruteakShrineInsideReiBlessingText:
-	text "Rei: Mögest du"
+	text "REI: Mögest du"
 	line "Ruhe und Frieden"
 	cont "finden."
 	done
@@ -150,7 +150,7 @@ EcruteakShrineInsideHappinessText:
 	done
 
 EcruteakShrineInsideReiBattleText:
-	text "Rei: Sehr gut."
+	text "REI: Sehr gut."
 	line "Böse Geister,"
 	cont "verschwindet!"
 	done
