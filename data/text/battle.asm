@@ -141,7 +141,7 @@ BattleText_PickedUpItem:
 	line "hebt"
 	cont ""
 	text_ram wStringBuffer2
-	line "auf!"
+	text " auf!"
 	prompt
 
 BattleText_UserRecoveredWithItem:
@@ -164,7 +164,7 @@ BattleText_UserHurtByItem:
 	text "<USER>"
 	line "wurde verletzt"
 	cont "durch"
-	line ""
+	cont ""
 	text_ram wStringBuffer1
 	text "."
 	prompt
@@ -173,7 +173,7 @@ BattleText_UserItemLetItMoveFirst::
 	text "<USER>s"
 	line ""
 	text_ram wStringBuffer1
-	line "macht es"
+	cont "macht es"
 	cont "schneller!"
 	prompt
 
@@ -182,7 +182,7 @@ BattleText_UserRecoveredPPUsing:
 	line "stellte AP von"
 	cont ""
 	text_ram wStringBuffer2
-	line "wieder her mit"
+	cont "wieder her mit"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"

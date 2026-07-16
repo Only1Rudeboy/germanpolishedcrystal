@@ -60,7 +60,7 @@ _PutAwayTheApricornText::
 	line ""
 	text_ram wStringBuffer3
 	text " in die"
-	line "Aprikoko-Box."
+	cont "Aprikoko-Box."
 	done
 
 SECTION "_NothingHereText", ROMX
@@ -1180,7 +1180,7 @@ _NPCTradeWrongText1::
 	line ""
 	text_ram wStringBuffer1
 	text ". Wie"
-	line "enttäuschend…"
+	cont "enttäuschend…"
 	done
 
 SECTION "_NPCTradeCompleteText1", ROMX
@@ -1231,7 +1231,7 @@ _NPCTradeWrongText2::
 	line ""
 	text_ram wStringBuffer1
 	text "? Dann ist das"
-	line "eben so."
+	cont "eben so."
 	done
 
 SECTION "_NPCTradeCompleteText2", ROMX
