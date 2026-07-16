@@ -1,20 +1,20 @@
-# Nächster Dump-Batch (Merker)
+# Dump-Status / nächster Batch
 
-## Erledigt (ROM 024, commit f5f0ab91c)
-- TOP VIER + Indigo + Hall of Fame
-- ALABASTIA / VERTANIA / Route 1–2
-- M.S. AQUA + Ports
-- SILBERBERG / ROT
-- Route 22/26/27 / SIEGESSTRASSE / Route 23-Dialog
+## Erledigt
+- Johto Story + Arenen (FLÜGEL…DRACHE)
+- Liga / TOP VIER / ALABASTIA / VERTANIA / M.S. AQUA / SILBERBERG (ROM 024)
+- **Rest-Kanto Städte+Arenen+Safari+Kraftwerk** (ROM 025, `77b90539c`)
 
-## Nächster sinnvoller 5×-Block
-1. **Rest-Kanto Städte** – Marmoria, Azuria, Orania-Stadt, Lavandia, Prismania, Fuchsania, Zinnober, Saffronia
-2. **Kanto-Arenen** dump-Feinschliff (ROCKO, MISTY, MAJOR BOB, ERIKA, …)
-3. **Kraftwerk / Zoo / Silph / Rocket Hideout Kanto**
-4. **PokemonLeagueGate** SILBERBERG-NPCs (Dump 3632–3633, noch ausstehend)
+## Badge-Kurznamen (komplett)
+**Johto:** Flügel Insekt Basis Phantom Stahl Faust Gletscher Drache  
+**Kanto:** Fels Quell Donner **Farbe** Seele/Sumpf Vulkan Erde
 
-## Regeln (weiterhin)
-- Dump: `tools/_gsc_de_crystal_msg.txt`
-- ≤18, CAPS, `<PLAYER>` nie `<PLAY_G>`, kein `;` in Text
-- DE-Orte: ALABASTIA=Pallet, VERTANIA=Viridian, ORANIA=Vermilion, MARMORIA=Pewter, …
+## Optional später
+- Celadon University (PC-only DE polish)
+- Weitere PC-only Hotels/Houses Feinschliff
+- ElmsLab `#mon`→`#MON` Stil-Pass
+- Phone/common.asm rest dump
+- Battle Tower / Factory DE polish
 
+## Regeln
+Dump `_gsc_de_crystal_msg.txt` · ≤18 · CAPS · `<PLAYER>` · kein `;` in Text
