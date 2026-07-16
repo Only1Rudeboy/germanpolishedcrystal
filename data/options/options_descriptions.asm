@@ -97,17 +97,18 @@ OptionsDescriptions:
 	prompt
 
 .ClockFormat:
-	text "Das Uhrenformat:"
+	text "Anzeige der Uhr:"
 	line "12-Stunden mit"
-	cont "AM/PM."
+	cont "AM/PM oder 24-"
+	cont "Stunden."
 	prompt
 
 .PokedexUnits:
 	text "#dex: Größe und"
 	line "Gewicht in:"
 
-	para "Anglo: Fuß, Zoll"
-	line "und Pfund."
+	para "Imperial: Fuß,"
+	line "Zoll, Pfund."
 
 	para "Metrisch: Meter"
 	line "und Kilogramm."

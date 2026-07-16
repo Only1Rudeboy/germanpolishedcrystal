@@ -16,10 +16,9 @@ InitialOptionDescriptions:
 	assert_table_length NUM_INITIAL_MENU_OPTIONS
 
 .Natures:
-	text "Wesen erhöhen"
-	line "einen Wert, senken"
-	cont "aber einen anderen"
-	cont "um 10%."
+	text "Wesen: +10% auf"
+	line "einen Wert, -10%"
+	cont "auf einen anderen."
 
 	para "Eingeführt in Gen."
 	line "3."
@@ -27,10 +26,8 @@ InitialOptionDescriptions:
 
 .Abilities:
 	text "Fähigkeiten wirken"
-	line "im Kampf und"
-
-	para "auch außerhalb"
-	line "davon."
+	line "im Kampf und oft"
+	cont "auch außerhalb."
 
 	para "Eingeführt in Gen."
 	line "3."
@@ -39,9 +36,8 @@ InitialOptionDescriptions:
 .PSS:
 	text "Attacken sind"
 	line "physisch oder"
-	cont "speziell"
-	cont "unabhängig vom"
-	cont "Typ."
+	cont "speziell - nicht"
+	cont "mehr nach Typ."
 
 	para "Eingeführt in Gen."
 	line "4."
@@ -49,132 +45,116 @@ InitialOptionDescriptions:
 
 .EVs:
 	assert MODERN_MAX_EV % 4 == 0
-	text "Basis-PS erhöhen"
-	line STRFMT("Werte um bis zu %d", MODERN_MAX_EV / 4) ; 252 / 4 == 63
-	cont "Punkte, je 4"
-	cont "Basis-PS einer."
+	text "Fleiß-Punkte (FP)"
+	line "aus Kämpfen er-"
+	cont "höhen Statuswerte."
+	cont "Je 4 FP geben +1."
 
-	para "Du kannst jeden"
-	line "Wert auf"
-	cont "{d:MODERN_MAX_EV}"
-	line "Basis-PS setzen,"
-	cont "wie früher die"
-	cont "Basis-PS-EP,"
+	para "Alle: pro Stat bis"
+	line STRFMT("%d FP.", MODERN_MAX_EV)
 
-	para "oder sie auf"
-	line "insgesamt"
-	cont "{d:MODERN_EV_LIMIT}"
-	cont "begrenzen."
+	para "{d:MODERN_EV_LIMIT}: max."
+	line "{d:MODERN_EV_LIMIT} FP"
+	cont "insgesamt."
 
-	para "Ersetzte die"
-	line "Basis-PS-EP in"
-	cont "Gen. 3."
+	para "Nein: keine FP."
+	line "Ersetzten KP-EP"
+	cont "ab Gen. 3."
 	prompt
 
 .Experience:
-	text "Die alte EP-"
-	line "Formel von Gen. 1"
-	cont "bis Gen. 4 war"
-	cont "unskaliert."
+	text "Alt: EP-Formel"
+	line "wie Gen. 1-4"
+	cont "(ohne Skalierung)."
 
-	para "Die neue Formel ab"
-	line "Gen. 5 (wieder in"
-	cont "Gen. 7) gibt mehr"
-	cont "EP für stärkere"
-	cont "Gegner und weniger"
-	cont "für schwächere."
+	para "Neu: ab Gen. 5"
+	line "mehr EP gegen"
+	cont "stärkere Gegner,"
+	cont "weniger gegen"
+	cont "schwächere."
 
-	para "EP-Zuwachs kann"
-	line "auch ausgeschaltet"
-	cont "werden, aber"
-
-	para "EP-Bonbons und"
-	line "Sonderbonbons"
-	cont "funktionieren"
-	cont "noch."
+	para "Nein: keine EP"
+	line "aus Kämpfen."
+	cont "Bonbons und"
+	cont "Sonderbonbons"
+	cont "wirken weiter."
 	prompt
 
 .AffectionBonus:
 	text "Deine #MON"
-	line "profitieren im"
-	cont "Kampf, wenn sie"
+	line "bekommen Kampf-"
+	cont "vorteile, wenn"
 
-	para "gute Freunde mit"
-	line "dir sind."
+	para "sie dich gut"
+	line "mögen (Zuneigung)."
 
 	para "Eingeführt in Gen."
 	line "6."
 	prompt
 
 .RTC:
-	text "Nutze die"
-	line "Echtzeituhr, um"
-	cont "die Zeit zu"
-	cont "verfolgen."
+	text "Echtzeituhr für"
+	line "Tageszeit und"
+	cont "Ereignisse."
 
-	para "Wenn dein Modul"
-	line "oder Emulator die"
-	cont "Echtzeituhr nicht"
-	cont "unterstützt,"
-
+	para "Ohne RTC im Emula-"
+	line "tor: abschalten,"
 	assert 24 % NO_RTC_SPEEDUP == 0
-	para "deaktiviere dies,"
-	line "damit ein Spieltag"
-	cont STRFMT("%d Stunden dauert.", 24 / NO_RTC_SPEEDUP) ; 24 / 6 == 4
+	cont "dann dauert ein"
+	cont "Spieltag"
+	cont STRFMT("%d Stunden.", 24 / NO_RTC_SPEEDUP)
 	prompt
 
 .PerfectIVs:
-	text "Werte werden so"
-	line "berechnet, als"
-	cont "wären die DVs"
-	cont "perfekt 15, für"
-	cont "deine #MON und"
-	cont "Gegner."
+	; Gen 2 DVs are 0-15; code forces DV=$F when on
+	text "Statuswerte so,"
+	line "als hätten alle"
+
+	para "#MON in jedem"
+	line "Wert den maxi-"
+	cont "malen DV (0-15:"
+	cont "hier immer 15)."
+
+	para "Gilt für dein Team"
+	line "und Gegner."
 	prompt
 
 .TradedMon:
 	text "Getauschte #MON"
 	line "gehorchen dir und"
-	cont "können Spitznamen"
-	cont "bekommen,"
+	cont "dürfen Spitznamen"
+	cont "bekommen."
 
-	para "aber EP werden"
-	line "nicht verstärkt."
+	para "Kein Extra-EP für"
+	line "Tausch-#MON."
 	prompt
 
 .EvolveInBattle:
 	text "Deine #MON"
-	line "können sich"
-	cont "während"
-	cont "Trainerkämpfen"
+	line "können sich im"
+	cont "Trainerkampf"
 	cont "entwickeln."
 
-	para "Inspiriert von"
-	line "Anime-Kämpfen."
+	para "Inspiriert vom"
+	line "Anime."
 	prompt
 
 .ColorVariation:
-	text "Einzelne #MON,"
-	line "normal und shiny,"
-	cont "erhalten leicht"
-	cont "abweichende"
-	cont "Farben."
+	text "Einzelne #MON"
+	line "(normal und shiny)"
+	cont "bekommen leicht"
+	cont "andere Farben."
 
-	para "Die Variation ist"
-	line "zufallsbasiert und"
+	para "Zufällig - nicht"
+	line "an DV-Qualität"
+	cont "gekoppelt."
 
-	para "nicht mit der"
-	line "Wertequalität"
-	cont "verbunden."
-
-	para "Inspiriert von"
-	line "Stadiums"
-	cont "Farbvariation"
-	cont "durch Spitznamen."
+	para "Idee: Stadium-"
+	line "Farbvariation."
 	prompt
 
 InitialOptionsDoneDescription:
-	text "Speichere deine"
-	line "Wahl und spiele"
-	cont "los!"
+	text "Einstellungen"
+	line "sichern und das"
+	cont "Spiel starten!"
 	prompt

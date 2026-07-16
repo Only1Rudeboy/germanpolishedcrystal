@@ -425,7 +425,7 @@ Options_PokedexUnits:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Imperial:
-	db "Anglo   @"
+	db "Imperial@"
 .Metric:
 	db "Metrisch@"
 

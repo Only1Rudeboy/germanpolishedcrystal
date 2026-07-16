@@ -18,17 +18,17 @@ InitialOptionNames:
 .Abilities:
 	db "Fähigkeiten@"
 .PSS:
-	db "Physik/Spezial@"
+	db "Phys./Spez.@"
 .EVs:
-	db "Basis-PS-Zuwachs@"
+	db "FP-Zuwachs@"
 .Experience:
 	db "EP-Zuwachs@"
 .Affection:
-	db "Zuneigungs-Bonus@"
+	db "Zuneigung@"
 .RTC:
 	db "Echtzeituhr@"
 .PerfectStats:
-	db "Perfekte Werte@"
+	db "Perfekte DVs@"
 .TradedMon:
 	db "Tausch-#MON@"
 .EvolveInBattle:
