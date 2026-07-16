@@ -1,20 +1,19 @@
-# Dump-Status / nächster Batch
+# Dump / DE-Status (nach ROM 026)
 
-## Erledigt
-- Johto Story + Arenen (FLÜGEL…DRACHE)
-- Liga / TOP VIER / ALABASTIA / VERTANIA / M.S. AQUA / SILBERBERG (ROM 024)
-- **Rest-Kanto Städte+Arenen+Safari+Kraftwerk** (ROM 025, `77b90539c`)
+## Groß erledigt
+- Johto Story + Arenen + Orden-Kurznamen
+- Liga / TOP VIER / ALABASTIA / VERTANIA / M.S. AQUA / SILBERBERG
+- Rest-Kanto Städte + Arenen + Safari + Kraftwerk
+- **Rest-Pass 026:** `#MON`-CAPS global, Uni/Hotel, Telefon-Dump, common/std, DUELLTURM/Kampffabrik, Misc-Maps
 
-## Badge-Kurznamen (komplett)
-**Johto:** Flügel Insekt Basis Phantom Stahl Faust Gletscher Drache  
-**Kanto:** Fels Quell Donner **Farbe** Seele/Sumpf Vulkan Erde
+## Optional-Mikro (falls je gewünscht)
+- `data/phone/*_caller.asm` / `*_overworld.asm` Feinschliff
+- Buena-Phone / Lyra-Phone voller Dump-Pass
+- Radio-Shows in common.asm
+- Celadon-Uni Hyper-Test weitere Edge-Cases
 
-## Optional später
-- Celadon University (PC-only DE polish)
-- Weitere PC-only Hotels/Houses Feinschliff
-- ElmsLab `#mon`→`#MON` Stil-Pass
-- Phone/common.asm rest dump
-- Battle Tower / Factory DE polish
+## ROM
+3.2.3.026 — MD5 siehe Desktop-Versionierung
 
 ## Regeln
-Dump `_gsc_de_crystal_msg.txt` · ≤18 · CAPS · `<PLAYER>` · kein `;` in Text
+Dump `_gsc_de_crystal_msg.txt` · ≤18 · CAPS · `<PLAYER>` · `#MON` · kein `;` in Text
