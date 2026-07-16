@@ -71,7 +71,7 @@ Route7Snorlax:
 
 
 .AwakeText:
-	text "Der #Com wird"
+	text "Der #COM wird"
 	line "in der Nähe des"
 	cont "schlafenden"
 	cont "RELAXOs platziert"

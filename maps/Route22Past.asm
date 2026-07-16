@@ -229,7 +229,7 @@ Route22PastLyraIlexForestDisappearedText:
 
 Route22PastLyraPokeGearText:
 	text "LYRA: <PLAYER>,"
-	line "mein #Com-Radio"
+	line "mein #COM-Radio"
 	para "zeigt ein Datum"
 	line "von vor drei"
 	cont "Jahren!"

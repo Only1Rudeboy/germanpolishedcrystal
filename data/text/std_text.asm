@@ -34,7 +34,7 @@ PokeComNurseMornText:
 	para "Dies ist das"
 	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
-	cont "#Com-Center."
+	cont "#COM-Center."
 	done
 
 PokeComNurseDayText:
@@ -43,7 +43,7 @@ PokeComNurseDayText:
 	para "Dies ist das"
 	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
-	cont "#Com-Center."
+	cont "#COM-Center."
 	done
 
 PokeComNurseEveText:
@@ -52,7 +52,7 @@ PokeComNurseEveText:
 	para "Dies ist das"
 	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
-	cont "#Com-Center."
+	cont "#COM-Center."
 	done
 
 PokeComNurseNiteText:
@@ -62,7 +62,7 @@ PokeComNurseNiteText:
 	para "Dies ist das"
 	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
-	cont "#Com-Center."
+	cont "#COM-Center."
 	done
 
 NurseAskHealText:

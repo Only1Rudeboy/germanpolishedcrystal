@@ -4471,7 +4471,7 @@ SECTION "_MomLostGearBookletText", ROMX
 _MomLostGearBookletText::
 	text "Ich verlor die"
 	line "Anleitung für das"
-	cont "#Com."
+	cont "#COM."
 
 	para "Komm später"
 	line "nochmal wieder."

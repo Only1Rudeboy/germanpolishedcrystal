@@ -90,7 +90,7 @@ LavRadioTower1FSuperNerd2Script:
 	line "Freund!"
 	para "Ich bin der tolle"
 	line "MUSIK-REDAKTEUR!"
-	para "Häh? Dein #Com"
+	para "Häh? Dein #COM"
 	line "kann meine"
 	para "Sendungen nicht"
 	line "empfangen. Wie"

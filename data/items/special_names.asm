@@ -1,8 +1,8 @@
 SpecialItemNames::
 	list_start
-	li "#dex"
+	li "#DEX"
 	li "Karte"
 	li "Radio"
 	li "EP-Karte"
-	li "#Com"
+	li "#COM"
 	assert_list_length NUM_SPECIAL_ITEMS
