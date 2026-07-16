@@ -616,7 +616,7 @@ Options_Keyboard:
 .ABC:
 	db "ABCDEF@"
 .QWERTY:
-	db "QWERTY@"
+	db "QWERTZ@"
 
 Options_Done:
 	ldh a, [hJoyPressed]

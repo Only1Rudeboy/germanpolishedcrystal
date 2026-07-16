@@ -40,9 +40,11 @@ OptionsDescriptions:
 	prompt
 
 .Keyboard:
-	text "Das Tastaturlayout"
-	line "zum Eingeben von"
-	cont "Namen und Post."
+	text "Layout für Namen"
+	line "und Post:"
+
+	para "ABCDEF oder"
+	line "deutsches QWERTZ."
 	prompt
 
 .Sound:

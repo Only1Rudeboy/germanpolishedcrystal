@@ -43,11 +43,12 @@ MailEntry_Lowercase:
 	rawchar "'''%↑↓№★♥♪"
 	assert_table_length 10 * 5
 
+; German QWERTZ (Y/Z swapped vs US QWERTY)
 NameInputLowerQwerty:
 	table_width 1
-	rawchar "qwertyuio"
+	rawchar "qwertzuio"
 	rawchar "asdfghjkl"
-	rawchar "zxcvbnmp-"
+	rawchar "yxcvbnmp-"
 	rawchar "äöüß'"
 	rawchar "l"
 	rawchar "0  "
@@ -56,27 +57,27 @@ NameInputLowerQwerty:
 
 NameInputUpperQwerty:
 	table_width 1
-	rawchar "QWERTYUIO"
+	rawchar "QWERTZUIO"
 	rawchar "ASDFGHJKL"
-	rawchar "ZXCVBNMP "
+	rawchar "YXCVBNMP "
 	rawchar "ÄÜ¥/<PK><MN>★♥♪"
 	rawchar "?!♂♀.,:&%"
 	assert_table_length 9 * 5
 
 MailEntryQwerty_Uppercase:
 	table_width 1
-	rawchar "QWERTYUIOP"
+	rawchar "QWERTZUIOP"
 	rawchar "ASDFGHJKL:"
-	rawchar "ZXCVBNM?!…"
+	rawchar "YXCVBNM?!…"
 	rawchar "1234567890"
 	rawchar "<PK><MN><PO><KE>&♂♀¥×/"
 	assert_table_length 10 * 5
 
 MailEntryQwerty_Lowercase:
 	table_width 1
-	rawchar "qwertyuiop"
+	rawchar "qwertzuiop"
 	rawchar "asdfghjkl-"
-	rawchar "zxcvbnm,. "
+	rawchar "yxcvbnm,. "
 	rawchar "äöüß()    "
 	rawchar "'''%↑↓№★♥♪"
 	assert_table_length 10 * 5

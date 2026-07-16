@@ -1,9 +1,9 @@
 DefaultOptions:
-; wOptions3
+; wOptions3 — DE-Fork: QWERTZ-Tastatur standard (Bit QWERTY_KEYBOARD_F)
 if DEF(DEBUG)
-	db 1 << NICKNAMES_NEVER
+	db (1 << NICKNAMES_NEVER) | (1 << QWERTY_KEYBOARD_F)
 else
-	db 0
+	db 1 << QWERTY_KEYBOARD_F
 endc
 ; wOptions1
 	db (1 << BATTLE_EFFECTS) | (1 << STEREO) | FAST_TEXT

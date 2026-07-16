@@ -22,6 +22,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
+| **ROM 3.2.3.048 / v0.9** | **QWERTZ-Tastatur** (DE-Layout statt QWERTY); Standard in Optionen QWERTZ. |
 | **ROM 3.2.3.045** | **Kritische Script-Stubs (Upstream-Restore):** `sdefer`/Bodies die nur noch `end` waren — u. a. Mr.#MON-Haus (Mystery-Ei Softlock), Route-43-Rocket-Maut, Sudowoodo+Flee, Dukatia-Spielhalle, Alph-Kammern, Phone-jumpstd, Rocket-Base, Buena-Preise. Nur 1:1 Rangi42-Logik, kein Feature-Umbau. |
 | **ROM 3.2.3.044** | **Schwachstellen-Pass:** restl. `#mon`→`#MON` (BT/UI/Engine); Phone „Sorry“→DE; Item `(halten)`→`(TRAGEN)`; over18 (Elm/NG+); tote EN-Kommentare raus. Optionals: Parkball=`NO_ITEM` (Name only), EI-TICKET/SCHACHTEL/Aprikoko-Einzel-Descs nicht verdrahtet (PC-Modell). |
 | **ROM 3.2.3.043** | **Optionals + Pokédex-QC:** Aprikoko-Box/Kurt-Texte (kein „Kokonuss“/„Bogbeere“); Dex #001–#251 dump-soft **251/251** + `#mon`→`#MON` (44); Parkball/EI-TICKET/SCHACHTEL dokumentiert (kein Desc-Slot / nicht verdrahtet). |
