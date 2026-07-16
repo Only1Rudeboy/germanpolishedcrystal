@@ -48,21 +48,32 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 | **ROM 3.2.3.021** · `ba14352a6` | **TEAK / See des Zorns / Oliviana:** JENS/**PHANTOMORDEN**; Brandturm/Zinnturm/Tanztheater; Route 38–39/KUHMUH; Mahagoni/NORBERT; SEE DES ZORNS; JASMIN/**STAHLORDEN**; Leuchtturm; Route 40–41. PC-Fix: STÄRKE bleibt Anemonia (nicht Café Oliviana). |
 | **ROM 3.2.3.020** · `0cccdff22` | **Mid-Johto:** Route 34–37, Pension, DUKATIA (Schilder, Kurt-Fluss, Arena BIANKA/**BASISORDEN**), Kaufhaus, Spielhalle, Radioturm, Untergrund, Nationalpark, Käferturnier. |
 | **ROM 3.2.3.019** · `38fcd9069` / `0fed834e9` | Route 32–33, Azalea, Flegmon-Brunnen, Holzkohle, Kurt, Ilex, Einheitstunnel; **INSEKTORDEN** (KAI). |
-| **ROM 3.2.3.015–018** | Route 31 / Viola / Knofensa / FALK **FLÜGELORDEN**; Gramps PKMN-ARENA; Folge-Builds. |
+| **ROM 3.2.3.015** | Route 31 / Viola / Knofensa / FALK **FLÜGELORDEN**. |
+| **ROM 3.2.3.016** | Viola Gramps / FALK / **PKMN-ARENA**-Wortlaut dump-nah. |
+| **ROM 3.2.3.017** | Zwischenbuild: Viola → Route-32-Übergang. |
+| **ROM 3.2.3.018** | Route 32 / Azalea-Eingang dump-align (Vorbereitung 019). |
 | **Mom / Start** · `255ed33fe` … | Baby→**Schatz** (User-Override); dump-align Neuborkia, ROSALIA, Route 29–30, Mr.#MON. |
 | **Bugfixes kritisch** · `2b9ba2e09` … `c96491575` | Lyra „erhält“ ohne Mon-Name; LIND-Labor-Intro (`sdefer`); 11× sdefer + 68× premature `done`; Deep-Scan stubbed Scenes + `@` mid-string; „genickert“→verschlafen. ROM **009–011+**. |
 | **Repo / Docs** | INSTALL.md DE; README WIP + Feedback; GitHub `Only1Rudeboy/germanpolishedcrystal` (main+master). |
 
-> **Detaillierte Früh-Historie ROM 001–015:** siehe [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)  
-> (Fundament-Übersetzung, kritische Softlocks 009–011, Early-Game Dump bis Viola.)
+> **Vollständige ROM-Historie 001–048 (eine Zeile pro Nummer):**  
+> [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
+> Frühphase detailliert: [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)
 
-#### ROM 3.2.3.001 – 015 (Kurz)
+#### ROM 3.2.3.001 – 048 (Kurz)
 
 | ROM | Inhalt (Kurz) |
 |---|---|
 | **001–008** | DE-Start: Maps/UI/Kampf/Dex-Text, 18-Zeichen-Reflow, `line`/`cont`-Fix, Proofreading, GSC-Canon-Marker, Docs |
 | **009–011** | Softlocks: Lyra `text_ram`, Elm `sdefer`, global 11× `sdefer` + 68× premature `done`, Deep-Scan Scenes, „verschlafen“ |
 | **012–015** | Early-Game Dump: Neuborkia/Cherrygrove/Route 29–31, Mama **Schatz**, Viola **FLÜGELORDEN** |
+| **016–018** | Viola Gramps/PKMN-ARENA; Übergang Route 32; Azalea-Eingang dump |
+| **019–023** | Azalea→Ebenholz (Insekt–Drache), Mid-Johto, Badge-QC |
+| **024–026** | Liga + Kanto + Rest-Pass (`#MON`, Uni, DUELLTURM, common) |
+| **027–033** | Optionals, Phone/Buena/Radio, alle Rematch-Phone-Namen DE |
+| **034–039** | Trainer-/Speaker-Namen, CAPS, Feinschliff, JOHTO/KANTO |
+| **040–045** | Items/Moves/Mail dump-nah, Dex 251/251, Script-Stubs restore |
+| **046–048** | Optionen-UI polish, **QWERTZ** / pure-DE **v0.9** (Zähler = 48; nächstes = **049**) |
 
 #### Phase früher — Grundübersetzung & Proofreading (Git-Historie)
 

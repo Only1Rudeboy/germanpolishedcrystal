@@ -1,5 +1,8 @@
 # ROM-Historie 3.2.3.001 – 3.2.3.015 (Frühphase)
 
+> **Vollständige Liste 001–048:** siehe [`docs/ROM_HISTORY.md`](ROM_HISTORY.md)  
+> (inkl. **016 / 017 / 018** und alles bis QWERTZ / v0.9).
+
 Dokumentation der **frühen Desktop-ROM-Builds** (`polishedcrystal-3.2.3.001` … `.015` und eng verwandte Builds).  
 Nummern beziehen sich auf lokale Builds mit `tools/save_rom_versioned.ps1` bzw. Session-ROMs; **ROMs liegen nicht im Repo**.
 
@@ -75,7 +78,7 @@ Dieselben Fehlerklasse wie der bekannte **LIND / Lyra**-Startbug: Szenen endeten
 
 ---
 
-## C · ROM **011–015** — Early-Game GSC-Dump + Story-Start
+## C · ROM **011–018** — Early-Game GSC-Dump + Story-Start
 
 Ab hier: Abgleich mit **offiziellem DE-Kristall-Dump** (`tools/_gsc_de_crystal_msg.txt`), nicht nur freie Übersetzung.
 
@@ -84,9 +87,13 @@ Ab hier: Abgleich mit **offiziellem DE-Kristall-Dump** (`tools/_gsc_de_crystal_m
 | **012** | `3213043cb` | Mama / Neuborkia / Cherrygrove dump-nah: #MON-COM, Mama-Auftrag, Laborschild, Route 29 **NEUBORKIA**, Anfänger-Guide. Polished **LYRA** bleibt. |
 | **012–013** | `a0bad05a7` | Route 30, Mr.#MON, Cherrygrove dump-align. |
 | **013–014** | `255ed33fe` | Mama: Dump „Baby“ → User-Override **Schatz**. Dump-align ROSALIA, Route 30, Mr.#MON; Guide Center/Mart, Rival, Eich-Abschied. |
-| **015–018** | `530c8902c` (+ Folge) | Route 31, **Viola**, Knofensa-Turm, FALK; Orden **FLÜGELORDEN** (nicht Zephyr); ARENALEITER CAPS; Arena-Guy/Schilder dump-nah; Badge-Kurz **Flügel**. |
+| **015** | `530c8902c` | Route 31, **Viola**, Knofensa-Turm, FALK; Orden **FLÜGELORDEN** (nicht Zephyr); ARENALEITER CAPS; Arena-Guy/Schilder dump-nah; Badge-Kurz **Flügel**. |
+| **016** | `d6aa5a2e1` | Viola-Feinschliff: Gramps / FALK / **PKMN-ARENA**-Wortlaut dump-nah. |
+| **017** | Zwischenbuild | Viola → Route-32-Übergang; Checkpoint vor Azalea-Batch. |
+| **018** | `0fed834e9` | Route 32 → Azalea-Eingang; Flegmon-Brunnen-Richtung, Ilex/Union-Vorbereitung. |
 
-**Ergebnis ~015:** Early-Johto (Start bis Viola / Flügelorden) **GSC-kanonisch** spürbar; Regelwerk A/B/C für Dump vs. PC-only etabliert.
+**Ergebnis ~015–018:** Early-Johto (Start bis Viola / Flügelorden und Richtung Azalea) **GSC-kanonisch** spürbar; Regelwerk A/B/C für Dump vs. PC-only etabliert.  
+**Fortsetzung ab 019:** siehe [`ROM_HISTORY.md`](ROM_HISTORY.md).
 
 ---
 
@@ -115,7 +122,9 @@ c96491575  Deep scan stubs + dynamic text → ROM 010
 1f403806e  verschlafen
 3213043cb  Early game dump + ROM 011/012
 255ed33fe  Mama Schatz
-530c8902c  Route 31 / Viola / FLÜGELORDEN  → ~015+
+530c8902c  Route 31 / Viola / FLÜGELORDEN  → ~015
+d6aa5a2e1  Violet gramps / PKMN-ARENA      → ~016
+0fed834e9  Route 32 / Azalea start         → ~018
 ```
 
 ---
