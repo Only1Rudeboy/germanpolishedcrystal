@@ -325,13 +325,23 @@ GoldenrodGameCornerLeftTheirDrinkScript:
 	done
 
 GoldenrodGameCornerSlotsMachineScript:
-	end
+	random 6
+	ifequalfwd 0, GoldenrodGameCornerLuckySlotsMachineScript
+	reanchormap
+	setval FALSE
+	special Special_SlotMachine
+	endtext
 
 GoldenrodGameCornerLuckySlotsMachineScript:
-	end
+	reanchormap
+	setval TRUE
+	special Special_SlotMachine
+	endtext
 
 GoldenrodGameCornerCardFlipMachineScript:
-	end
+	reanchormap
+	special Special_CardFlip
+	endtext
 
 GoldenrodGameCornerPrizeVendorIntroText:
 	; GSC-DE Dump

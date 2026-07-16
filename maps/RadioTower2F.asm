@@ -279,7 +279,9 @@ Buena:
 	end
 
 RadioTowerBuenaPrizeReceptionist:
-	end
+	checkkeyitem BLUE_CARD
+	iffalse_jumptextfaceplayer RadioTower2FBuenaReceptionistNoCardText
+	pokemart MARTTYPE_BLUECARD, 0
 
 RadioTower2FPlayerWalksToMicrophoneMovement:
 	slow_step_down

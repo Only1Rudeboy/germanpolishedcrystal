@@ -30,12 +30,8 @@ MrPokemonsHouse_MapScriptHeader:
 	const MRPOKEMONSHOUSE_POKEDEX
 
 MrPokemonsHouseMeetMrPokemonScene:
+	sdefer .MrPokemonEvent
 	end
-
-
-
-
-
 
 .MrPokemonEvent:
 	showemote EMOTE_SHOCK, MRPOKEMONSHOUSE_GENTLEMAN, 15

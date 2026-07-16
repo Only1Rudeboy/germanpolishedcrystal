@@ -27,9 +27,8 @@ Route43Gate_MapScriptHeader:
 	const ROUTE43GATE_ROCKET2
 
 Route43GateRocketShakedownScene:
+	sdefer .RocketTakeover
 	end
-
-
 
 .RocketTakeover:
 	playmusic MUSIC_ROCKET_ENCOUNTER

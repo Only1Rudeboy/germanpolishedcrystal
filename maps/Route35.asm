@@ -78,25 +78,25 @@ TrainerJugglerIrwin:
 	sjumpfwd Route35NumberAcceptedM
 
 Route35AskNumber1M:
-	end
+	jumpstd asknumber1m
 
 Route35AskNumber2M:
-	end
+	jumpstd asknumber2m
 
 Route35RegisteredNumberM:
-	end
+	jumpstd registerednumberm
 
 Route35NumberAcceptedM:
-	end
+	jumpstd numberacceptedm
 
 Route35NumberDeclinedM:
-	end
+	jumpstd numberdeclinedm
 
 Route35PhoneFullM:
-	end
+	jumpstd phonefullm
 
 Route35RematchM:
-	end
+	jumpstd rematchm
 
 GenericTrainerCamperIvan:
 	generictrainer CAMPER, IVAN, EVENT_BEAT_CAMPER_IVAN, CamperIvanSeenText, CamperIvanBeatenText

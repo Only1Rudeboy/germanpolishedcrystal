@@ -220,67 +220,31 @@ Bird_keeperVance1Script:
 	sjumpfwd Route44NumberAcceptedM
 
 Route44AskNumber1M:
-	end
-
-
-
-
+	jumpstd asknumber1m
 
 Route44AskNumber2M:
-	end
-
-
-
-
+	jumpstd asknumber2m
 
 Route44RegisteredNumberM:
-	end
-
-
-
-
+	jumpstd registerednumberm
 
 Route44NumberAcceptedM:
-	end
-
-
-
-
+	jumpstd numberacceptedm
 
 Route44NumberDeclinedM:
-	end
-
-
-
-
+	jumpstd numberdeclinedm
 
 Route44PhoneFullM:
-	end
-
-
-
-
+	jumpstd phonefullm
 
 Route44RematchM:
-	end
-
-
-
-
+	jumpstd rematchm
 
 Route44GiftM:
-	end
-
-
-
-
+	jumpstd giftm
 
 Route44PackFullM:
-	end
-
-
-
-
+	jumpstd packfullm
 
 VancePackFull:
 	setevent EVENT_VANCE_CARBOS
@@ -288,11 +252,7 @@ VancePackFull:
 	end
 
 Route44RematchGiftM:
-	end
-
-
-
-
+	jumpstd rematchgiftm
 
 GenericTrainerPsychicPhil:
 	generictrainer PSYCHIC_T, PHIL, EVENT_BEAT_PSYCHIC_PHIL, PsychicPhilSeenText, PsychicPhilBeatenText

@@ -162,12 +162,8 @@ RocketBaseBossFScript:
 	disappear TEAMROCKETBASEB2F_LANCE
 
 RocketBaseCantLeaveScript:
+	applymovement PLAYER, RocketBasePlayerCantLeaveElectrodesMovement
 	end
-
-
-
-
-
 
 RocketBaseLancesSideScript:
 	showtext RocketBaseLancesSideText
@@ -294,12 +290,8 @@ RocketElectrode3:
 	sjumpfwd RocketBaseElectrodeScript
 
 TeamRocketBaseB2FReloadMap:
+	reloadmapafterbattle
 	end
-
-
-
-
-
 
 RocketBaseElectrodeScript:
 	moveobject TEAMROCKETBASEB2F_LANCE, 18, 6

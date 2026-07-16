@@ -221,85 +221,31 @@ BlackbeltKenji1Script:
 	sjumpfwd Route45PackFullM
 
 Route45AskNumber1M:
-	end
-
-
-
-
-
-
+	jumpstd asknumber1m
 
 Route45AskNumber2M:
-	end
-
-
-
-
-
-
+	jumpstd asknumber2m
 
 Route45RegisteredNumberM:
-	end
-
-
-
-
-
-
+	jumpstd registerednumberm
 
 Route45NumberAcceptedM:
-	end
-
-
-
-
-
-
+	jumpstd numberacceptedm
 
 Route45NumberDeclinedM:
-	end
-
-
-
-
-
-
+	jumpstd numberdeclinedm
 
 Route45PhoneFullM:
-	end
-
-
-
-
-
-
+	jumpstd phonefullm
 
 Route45RematchM:
-	end
-
-
-
-
-
-
+	jumpstd rematchm
 
 Route45GiftM:
-	end
-
-
-
-
-
-
+	jumpstd giftm
 
 Route45PackFullM:
-	end
-
-
-
-
-
-
+	jumpstd packfullm
 
 HikerParryHasIron:
 	setevent EVENT_PARRY_IRON
@@ -307,13 +253,7 @@ HikerParryHasIron:
 	end
 
 Route45RematchGiftM:
-	end
-
-
-
-
-
-
+	jumpstd rematchgiftm
 
 GenericTrainerHikerErik:
 	generictrainer HIKER, ERIK, EVENT_BEAT_HIKER_ERIK, HikerErikSeenText, HikerErikBeatenText

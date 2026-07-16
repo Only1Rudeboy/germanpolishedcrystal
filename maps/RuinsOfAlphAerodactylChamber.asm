@@ -47,10 +47,16 @@ RuinsOfAlphAerodactylChamberHiddenDoorsCallback:
 	endcallback
 
 RuinsOfAlphAerodactylChamberWallOpenScript:
-	end
-
-
-
+	pause 30
+	earthquake 30
+	showemote EMOTE_SHOCK, PLAYER, 20
+	pause 30
+	playsound SFX_STRENGTH
+	changeblock 4, 0, $25
+	refreshmap
+	earthquake 50
+	setscene SCENE_RUINSOFALPHAERODACTYLCHAMBER_NOOP
+	endtext
 
 MapRuinsofAlphAerodactylChamberSignpost2Script:
 	reanchormap

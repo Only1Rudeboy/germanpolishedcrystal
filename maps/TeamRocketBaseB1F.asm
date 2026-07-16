@@ -321,9 +321,18 @@ TrainerCameraGrunt2:
 	end
 
 PlaySecurityCameraSounds:
+	playsound SFX_LICK
+	pause 10
+	playsound SFX_LICK
+	pause 10
+	playsound SFX_LICK
+	pause 10
+	playsound SFX_LICK
+	pause 10
+	playsound SFX_LICK
+	pause 10
+	playsound SFX_LICK
 	end
-
-
 
 ExplodingTrap1:
 	checkevent EVENT_EXPLODING_TRAP_1

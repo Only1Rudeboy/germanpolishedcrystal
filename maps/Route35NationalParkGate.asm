@@ -136,6 +136,7 @@ Route35NationalParkGate_EnterContest:
 	end
 
 Route35NationalParkGate_FacingLeft:
+	applyonemovement PLAYER, step_up
 	end
 
 Route35NationalParkGate_LeaveTheRestBehind:

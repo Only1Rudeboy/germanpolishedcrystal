@@ -165,67 +165,25 @@ PicnickerErin1Script:
 	sjumpfwd Route46NumberAcceptedF
 
 Route46AskNumber1F:
-	end
-
-
-
-
-
-
+	jumpstd asknumber1f
 
 Route46AskNumber2F:
-	end
-
-
-
-
-
-
+	jumpstd asknumber2f
 
 Route46RegisteredNumberF:
-	end
-
-
-
-
-
-
+	jumpstd registerednumberf
 
 Route46NumberAcceptedF:
-	end
-
-
-
-
-
-
+	jumpstd numberacceptedf
 
 Route46NumberDeclinedF:
-	end
-
-
-
-
-
-
+	jumpstd numberdeclinedf
 
 Route46PhoneFullF:
-	end
-
-
-
-
-
-
+	jumpstd phonefullf
 
 Route46RematchF:
-	end
-
-
-
-
-
-
+	jumpstd rematchf
 
 ErinNoRoomForCalcium:
 	setevent EVENT_ERIN_CALCIUM
@@ -233,13 +191,7 @@ ErinNoRoomForCalcium:
 	end
 
 Route46RematchGiftF:
-	end
-
-
-
-
-
-
+	jumpstd rematchgiftf
 
 GenericTrainerHikerBailey:
 	generictrainer HIKER, BAILEY, EVENT_BEAT_HIKER_BAILEY, HikerBaileySeenText, HikerBaileyBeatenText

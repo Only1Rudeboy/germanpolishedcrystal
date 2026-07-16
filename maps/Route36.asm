@@ -74,10 +74,12 @@ Route36SuicuneScript:
 	end
 
 SudowoodoScript:
+	checkkeyitem SQUIRTBOTTLE
+	iftruefwd .Fight
+	waitsfx
+	playsound SFX_SANDSTORM
+	applyonemovement ROUTE36_WEIRD_TREE, tree_shake
 	end
-
-
-
 
 .Fight:
 	opentext
@@ -105,6 +107,10 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	end
 
 DidntCatchSudowoodo:
+	reloadmapafterbattle
+	applymovement ROUTE36_WEIRD_TREE, WeirdTreeMovement_Flee
+	disappear ROUTE36_WEIRD_TREE
+	special RefreshSprites
 	end
 
 
