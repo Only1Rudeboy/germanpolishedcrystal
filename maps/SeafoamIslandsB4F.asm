@@ -128,7 +128,7 @@ ArticunoText:
 
 SeafoamIslandsB4FLawrenceSpeechText:
 	; PC (class C)
-	text "Lawrence: Hallo"
+	text "LAWRENCE: Hallo"
 	line "wieder, <PLAYER>."
 	para "Also sammelst du"
 	line "auch Legenden?"
@@ -168,7 +168,7 @@ SeafoamIslandsB4FLawrenceSpeechText:
 
 SeafoamIslandsB4FLawrenceEscapeRopeText:
 	; PC (class C)
-	text "Lawrence benutzt"
+	text "LAWRENCE benutzt"
 	line "FLUCHTSEIL!"
 	done
 

@@ -119,7 +119,7 @@ BattleTowerOutsideAnabelScript:
 
 .ChallengeText:
 	text "Sei gegrüßt… Mein"
-	line "Name ist Anabel."
+	line "Name ist ANABEL."
 	para "…Du bist <PLAYER>?"
 	line "Ich hörte einige"
 	cont "Gerüchte über"

@@ -571,12 +571,12 @@ PiersRematchAfterText:
 	done
 
 PiersIntroText:
-	text "Piers: Ein"
+	text "PIERS: Ein"
 	line "bescheidener"
 	cont "Sänger kann nur"
 	cont "bescheidene Lieder"
 	cont "singen … ♪"
-	para "Ich bin Piers. Ich"
+	para "Ich bin PIERS. Ich"
 	line "komme nicht aus"
 	cont "Johto,"
 	para "aber ich kam her,"
@@ -633,7 +633,7 @@ PiersRewardText:
 	done
 
 PiersRematchIntroAgainText:
-	text "Piers: Hallo,"
+	text "PIERS: Hallo,"
 	line "<PLAYER>."
 	done
 

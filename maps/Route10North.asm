@@ -246,7 +246,7 @@ Route10NorthElectrode:
 	end
 
 Route10NorthLawrenceGreetingText:
-	text "Lawrence: Wir"
+	text "LAWRENCE: Wir"
 	line "treffen uns"
 	cont "wieder,"
 
@@ -264,7 +264,7 @@ Route10NorthLawrenceGreetingText:
 	done
 
 Route10NorthLawrenceZapdosText:
-	text "Lawrence: Das ist"
+	text "LAWRENCE: Das ist"
 	line "ein Zapdos."
 
 	para "Es muss vom"
@@ -288,12 +288,12 @@ Route10NorthLawrenceZapdosText:
 	done
 
 Route10NorthLawrenceFlyText:
-	text "Lawrence: Zapdos,"
+	text "LAWRENCE: Zapdos,"
 	line "flieg!"
 	done
 
 Route10NorthLawrenceSpeechText:
-	text "Lawrence: Hallo"
+	text "LAWRENCE: Hallo"
 	line "wieder, <PLAYER>."
 	para "Du wolltest Zapdos"
 	line "also doch?"

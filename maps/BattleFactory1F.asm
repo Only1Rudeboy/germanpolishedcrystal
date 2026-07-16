@@ -15,7 +15,7 @@ BattleFactory1F_MapScriptHeader:
 	def_bg_events
 	bg_event 14,  5, BGEVENT_READ, BattleFactory1FRulesScript
 	bg_event 10,  5, BGEVENT_JUMPTEXT, BattleFactory1FStreakText
-	bg_event 25,  6, BGEVENT_READ, PokemonJournalThortonScript
+	bg_event 25,  6, BGEVENT_READ, PokemonJournalTHORTONScript
 
 	def_object_events
 	object_event 12,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BattleFactory1FReceptionistScript, -1
@@ -263,15 +263,15 @@ Script_ReturnToRentalChallenge:
 	step_up
 	step_end
 
-PokemonJournalThortonScript:
+PokemonJournalTHORTONScript:
 	setflag ENGINE_READ_THORTON_JOURNAL
 	jumpthistext
 
 	text "#MON-Journal"
 	para "Spezialthema:"
 	line "Fabrikleiter"
-	cont "Thorton!"
-	para "Thorton soll nur"
+	cont "THORTON!"
+	para "THORTON soll nur"
 	line "an das glauben,"
 	cont "was er mit seinen"
 	cont "Erfindungen"

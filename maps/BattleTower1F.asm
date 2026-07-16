@@ -16,7 +16,7 @@ BattleTower1F_MapScriptHeader:
 	def_bg_events
 	bg_event 11,  7, BGEVENT_READ, BattleTower1FRulesScript
 	bg_event  9,  7, BGEVENT_JUMPTEXT, BattleTower1FStreakText
-	bg_event 21,  8, BGEVENT_READ, PokemonJournalPalmerScript
+	bg_event 21,  8, BGEVENT_READ, PokemonJournalPALMERScript
 
 	def_object_events
 	object_event 10,  7, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BattleTower1FReceptionistScript, -1
@@ -376,14 +376,14 @@ Text_BattleTowerBugCatcher:
 	cont "Feuer-#MON…"
 	done
 
-PokemonJournalPalmerScript:
+PokemonJournalPALMERScript:
 	setflag ENGINE_READ_PALMER_JOURNAL
 	jumpthistext
 
 	text "#MON-Journal"
 	para "Spezialthema:"
-	line "Turmass Palmer!"
-	para "Palmer soll einen"
+	line "Turmass PALMER!"
+	para "PALMER soll einen"
 	line "Sohn in der"
 	cont "Sinnoh-Region"
 	para "haben, der auch"

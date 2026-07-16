@@ -4,7 +4,7 @@ SECTION "PsychicInverGroup", ROMX
 PsychicInverGroup:
 
 	def_trainer_class INVER
-	def_trainer 1, "Inver"
+	def_trainer 1, "INVER"
 	tr_mon 65, EXEGGUTOR @ FIGY_BERRY, MALE
 		tr_extra HARVEST, SATK_UP_ATK_DOWN
 		tr_moves PSYCHIC_M, SUNNY_DAY, HP_FIRE, SOLAR_BEAM

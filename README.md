@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.033** | **Phone-Anzeigenamen komplett (Dump-align):** Alle Phone-Rematch-Trainer DE (u. a. JULIAN, RAIMUND, LUTZ, ILONA, ROSEMARIE, NEPOMUK, ERICH, TOM, RANDALF, HOLGER, TARO, …). |
+| **ROM 3.2.3.035** | **Trainer-Namen-Block:** Vanilla-GSC-DE-Map (pret↔Dump) auf alle matchbaren `parties.asm`-Trainer; Rest **CAPS** (GSC-UI); `RÜPEL`; BT-OT-Namen CAPS; Guest-Speaker CAPS (STEVEN/CYNTHIA/LAWRENCE/…); Phone-Namen Dump-align korrigiert (z. B. WADE→**GREG**, RALPH→**ANGELO**). |
+| **ROM 3.2.3.033** | **Phone-Anzeigenamen komplett (Dump-align):** Alle Phone-Rematch-Trainer DE. |
 | **ROM 3.2.3.032** | **Optionals:** Phone-Namen-Teil; Pokégear/Radio #MON-Kanal & EICHs Talk; Song/Landmark **Duellturm**. |
 | **ROM 3.2.3.031** | **Buena-Passwörter GSC-DE dump:** NEUBORKIA/ROSALIA CITY/AZALEA CITY; Typen FLUG/KÄFER/PFLANZE; Radios EICHs PKMN-Talk / #MON-Musik / Glückskanal. |
 | **ROM 3.2.3.030** | **Phone-Trainer-Anzeigenamen GSC-DE:** Joey→**REINHOLD**, Wade→**ALFONS**, Ralph→**RALF**, Anthony→**ANTON**, Chad→**UDO**, Tiffany→**TIFFY**, Erin→**LOTTE** (Dump-backed; weitere Phone-Namen folgen). |

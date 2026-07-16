@@ -113,7 +113,7 @@ MoltresText:
 
 CinnabarVolcanoB2FLawrenceSpeechText:
 	; PC (class C)
-	text "Lawrence: Hallo"
+	text "LAWRENCE: Hallo"
 	line "wieder, <PLAYER>."
 	para "Du suchst hier"
 	line "also auch nach"
@@ -152,7 +152,7 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 
 CinnabarVolcanoB2FLawrenceEscapeRopeText:
 	; PC (class C)
-	text "Lawrence benutzt"
+	text "LAWRENCE benutzt"
 	line "FLUCHTSEIL!"
 	done
 

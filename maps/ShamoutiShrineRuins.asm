@@ -70,7 +70,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	end
 
 .SeenText:
-	text "Lawrence: Ich"
+	text "LAWRENCE: Ich"
 	line "durchzog viele"
 	cont "Regionen, um"
 
@@ -97,7 +97,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	done
 
 .AfterText:
-	text "Lawrence: Deine"
+	text "LAWRENCE: Deine"
 	line "#MON sind für"
 	cont "dich keine bloße"
 

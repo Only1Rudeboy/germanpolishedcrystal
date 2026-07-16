@@ -295,17 +295,17 @@ BattleTower2FMiraScript:
 	faceplayer
 	opentext
 	writethistext
-		text "<PLAYER>! Mira ist"
+		text "<PLAYER>! MIRA ist"
 		line "jetzt stärker!"
 		para "Bitte! Kämpf mit"
-		line "Mira!"
+		line "MIRA!"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_MIRA_DONE_TODAY
 	writethistext
-		text "Mira zeigt dir,"
-		line "dass Mira sich"
+		text "MIRA zeigt dir,"
+		line "dass MIRA sich"
 		cont "nicht mehr"
 		para "verirrt, <PLAYER>!"
 		done
@@ -330,19 +330,19 @@ BattleTower2FMiraScript:
 	cont "#MON."
 	para "So bist du so"
 	line "stark geworden."
-	para "Mira beginnt zu"
+	para "MIRA beginnt zu"
 	line "verstehen!"
 	done
 
 .BeatenText:
-	text "Mira fragt sich,"
+	text "MIRA fragt sich,"
 	line "ob sie es weit im"
 	cont "DUELLTURM"
 	cont "schafft."
 	done
 
 .RefuseText:
-	text "Mira ist etwas"
+	text "MIRA ist etwas"
 	line "traurig…"
 	done
 

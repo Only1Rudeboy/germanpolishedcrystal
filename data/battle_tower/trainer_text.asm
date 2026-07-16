@@ -648,7 +648,7 @@ _BTWinF15Text:
 
 BattleTowerText_GreetingTycoon:
 	text "Hallo! Ich heiße"
-	line "Palmer."
+	line "PALMER."
 
 	para "Du bist <PLAYER>"
 	line "aus Neuborkia,"
@@ -696,7 +696,7 @@ BattleFactoryText_GreetingHead:
 
 	para "Entschuldigung,"
 	line "ignorier mich. Ich"
-	cont "bin Thorton."
+	cont "bin THORTON."
 
 	para "Ich nutze meinen"
 	line "Daten-Analyse-"

@@ -294,14 +294,14 @@ LawrenceOverheardText:
 	done
 
 LawrenceIntroText:
-	text "Lawrence: Bitte"
+	text "LAWRENCE: Bitte"
 	line "entschuldige, dass"
 	cont "ich dich"
 	cont "angerempelt habe."
 	para "Ich eile, meine"
 	line "Sammlung zu"
 	cont "vervollständigen."
-	para "Ich bin Lawrence"
+	para "Ich bin LAWRENCE"
 	line "III."
 	para "Und du bist der"
 	line "Liga-Champion?"

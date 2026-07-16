@@ -70,7 +70,7 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "Ich bin Mira … Ich"
+	text "Ich bin MIRA … Ich"
 	line "habe #MON"
 	para "gefangen, aber"
 	line "diese Höhle ist"
@@ -84,16 +84,16 @@ ScaryCave1FMiraScript:
 	done
 
 .YesText:
-	text "Ja! Mira zeigt dir"
+	text "Ja! MIRA zeigt dir"
 	line "ihre #MON!"
 	done
 
 .NoText:
-	text "Mira ist traurig…"
+	text "MIRA ist traurig…"
 	done
 
 .BeatenText:
-	text "Mira möchte viel,"
+	text "MIRA möchte viel,"
 	line "viel stärker"
 	cont "werden, wie"
 	cont "<PLAYER>!"
@@ -110,17 +110,17 @@ ScaryCave1FMiraScript:
 	para "Ja! Das muss es"
 	line "sein!"
 
-	para "Mira fängt an, es"
+	para "MIRA fängt an, es"
 	line "zu verstehen!"
 
 	para "Danke, <PLAYER>!"
 
-	para "Mira möchte, dass"
+	para "MIRA möchte, dass"
 	line "du das hast!"
 	done
 
 .GoodbyeText:
-	text "Mira versucht es"
+	text "MIRA versucht es"
 	line "wie du, <PLAYER>!"
 	para "Ich werde im"
 	line "DUELLTURM stärker!"

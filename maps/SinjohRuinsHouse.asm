@@ -57,7 +57,7 @@ SinjohRuinsHouseCynthiaScript:
 	jumpthistext
 
 SinjohRuinsHouseCynthiaAfterText:
-	text "Cynthia: Was für"
+	text "CYNTHIA: Was für"
 	line "ein unglaublicher"
 	cont "Kampf!"
 	para "Du bist ein"
@@ -114,7 +114,7 @@ SinjohRuinsHouseAbraText:
 	text "ABRA: Aabra…"
 	done
 SinjohRuinsHouseCynthiaChallengeText:
-	text "Cynthia: Hallo,"
+	text "CYNTHIA: Hallo,"
 	line "<PLAYER>."
 	para "Bist du gut in"
 	line "Form geblieben?"
@@ -133,7 +133,7 @@ SinjohRuinsHouseCynthiaChallengeText:
 	done
 
 SinjohRuinsHouseCynthiaNoText:
-	text "Cynthia: Komm"
+	text "CYNTHIA: Komm"
 	line "jederzeit wieder,"
 
 	para "wenn du es dir"
@@ -141,7 +141,7 @@ SinjohRuinsHouseCynthiaNoText:
 	done
 
 SinjohRuinsHouseCynthiaYesText:
-	text "Cynthia: Bevor ich"
+	text "CYNTHIA: Bevor ich"
 	line "mein #MON"
 	cont "schicke,"
 	para "beginnt mein Herz"

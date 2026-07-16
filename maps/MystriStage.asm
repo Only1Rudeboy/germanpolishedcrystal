@@ -119,7 +119,7 @@ MystriStageBeatCynthiaScript:
 	pause 40
 	jumpthistextfaceplayer
 
-	text "Cynthia: Könnte"
+	text "CYNTHIA: Könnte"
 	line "das … ein Ei sein?"
 	para "Haben wir gerade"
 	line "den Moment"
@@ -151,7 +151,7 @@ MystriStageEggScript:
 
 MystriStageCynthiaIntroText:
 	text "Mein Name ist"
-	line "Cynthia. Ich bin"
+	line "CYNTHIA. Ich bin"
 	cont "#MON-Trainerin."
 	para "Und du?"
 	para "… Ich verstehe."
@@ -161,7 +161,7 @@ MystriStageCynthiaIntroText:
 	done
 
 MystriStageCynthiaSpeechText:
-	text "Cynthia: Das sind"
+	text "CYNTHIA: Das sind"
 	line "die Sinjoh-Ruinen."
 	para "Vor langer Zeit …"
 	line "kamen Menschen aus"
@@ -179,7 +179,7 @@ MystriStageCynthiaSpeechText:
 	para "Früher feierte man"
 	line "hier mit Musik und"
 	cont "Tanz."
-	para "Cynthia: Ich"
+	para "CYNTHIA: Ich"
 	line "erforsche Mythen"
 	para "über alte Orte wie"
 	line "die Sinjoh-Ruinen."
@@ -195,7 +195,7 @@ MystriStageCynthiaSpeechText:
 	done
 
 MystriStageCynthiaLeadText2:
-	text "Cynthia: Was? Du"
+	text "CYNTHIA: Was? Du"
 	line "hast diese"
 
 	para "Phrase in den"
@@ -211,7 +211,7 @@ MystriStageCynthiaLeadText2:
 	done
 
 MystriStageCynthiaIdeaText:
-	text "Cynthia: … Ich hab"
+	text "CYNTHIA: … Ich hab"
 	line "eine Idee. Nenn es"
 	para "Trainer-Intuition."
 	para "Wenn du und ich"
@@ -221,7 +221,7 @@ MystriStageCynthiaIdeaText:
 	done
 
 MystriStageCynthiaNotNowText:
-	text "Cynthia: Aber ich"
+	text "CYNTHIA: Aber ich"
 	line "denke nicht, dass"
 
 	para "wir jetzt kämpfen"
@@ -234,19 +234,19 @@ MystriStageCynthiaNotNowText:
 	done
 
 MystriStageCynthiaChallengeText:
-	text "Cynthia: Bist du"
+	text "CYNTHIA: Bist du"
 	line "bereit, mein"
 	cont "Gegner zu sein?"
 	done
 
 MystriStageCynthiaNoText:
-	text "Cynthia: Komm"
+	text "CYNTHIA: Komm"
 	line "wieder, wenn du"
 	cont "bereit bist."
 	done
 
 MystriStageCynthiaYesText:
-	text "Cynthia: Bevor ich"
+	text "CYNTHIA: Bevor ich"
 	line "mein #MON"
 	cont "schicke,"
 	para "beginnt mein Herz"
@@ -262,7 +262,7 @@ MystriStageCynthiaWinText:
 	done
 
 MystriStageCynthiaItemText:
-	text "Cynthia: Das war"
+	text "CYNTHIA: Das war"
 	line "über meine"
 	cont "Erwartungen!"
 
@@ -278,7 +278,7 @@ MystriStageCynthiaItemText:
 	done
 
 MystriStageCynthiaAfterText:
-	text "Cynthia: Hat unser"
+	text "CYNTHIA: Hat unser"
 	line "Kampf die"
 	cont "Mystri-Bühne"
 	cont "beeinflusst?"
@@ -286,7 +286,7 @@ MystriStageCynthiaAfterText:
 
 
 MystriStageCynthiaFinalText:
-	text "Cynthia: Ein Ei"
+	text "CYNTHIA: Ein Ei"
 	line "ist die Wiege"
 	cont "jedes Lebewesens."
 	para "Der Planet selbst"

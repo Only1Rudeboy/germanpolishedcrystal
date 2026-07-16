@@ -57,7 +57,7 @@ QuietCaveB3FMarleyScript:
 	end
 
 .ChallengeText:
-	text "…Ich bin Marley."
+	text "…Ich bin MARLEY."
 	line "…Du bist?"
 
 	para "Oh… <PLAYER>,"

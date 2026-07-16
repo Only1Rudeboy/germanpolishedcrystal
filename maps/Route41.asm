@@ -81,12 +81,12 @@ Route41MarlonScript:
 	end
 
 .IntroText:
-	text "Marlon: Uihaa!"
+	text "MARLON: Uihaa!"
 
 	para "Hey, du bist"
 	line "<PLAYER>!"
 
-	para "Ich bin Marlon,"
+	para "Ich bin MARLON,"
 	line "Mann des Meeres!"
 
 	para "Meine #MON und"

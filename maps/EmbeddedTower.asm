@@ -80,7 +80,7 @@ EmbeddedTowerSteven2Script:
 
 EmbeddedTowerSteven1IntroText:
 	text "Hallo! Ich bin"
-	line "Steven. Seltene"
+	line "STEVEN. Seltene"
 	cont "Steine sind meine"
 	cont "Leidenschaft."
 	para "Ich komme aus der"
@@ -95,7 +95,7 @@ EmbeddedTowerSteven1IntroText:
 	done
 
 EmbeddedTowerSteven1TowerText:
-	text "Steven: Ich bin"
+	text "STEVEN: Ich bin"
 	line "hier auf der Suche"
 	cont "nach Steinen für"
 	cont "meine Sammlung."
@@ -110,7 +110,7 @@ EmbeddedTowerSteven1TowerText:
 	done
 
 EmbeddedTowerSteven1NotNowText:
-	text "Steven: Deine"
+	text "STEVEN: Deine"
 	line "#MON sehen gut"
 	cont "aus."
 
@@ -123,7 +123,7 @@ EmbeddedTowerSteven1NotNowText:
 	done
 
 EmbeddedTowerSteven1ChallengeText:
-	text "Steven: Deine"
+	text "STEVEN: Deine"
 	line "#MON sehen gut"
 	cont "aus."
 	para "Da wir beide hier"
@@ -133,7 +133,7 @@ EmbeddedTowerSteven1ChallengeText:
 
 EmbeddedTowerSteven1NoText:
 EmbeddedTowerSteven2NoText:
-	text "Steven: Hmm. Wenn"
+	text "STEVEN: Hmm. Wenn"
 	line "du deine Meinung"
 	cont "änderst,"
 
@@ -143,7 +143,7 @@ EmbeddedTowerSteven2NoText:
 
 EmbeddedTowerSteven1YesText:
 EmbeddedTowerSteven2YesText:
-	text "Steven: Ich will,"
+	text "STEVEN: Ich will,"
 	line "dass du alles"
 	cont "gibst!"
 
@@ -159,7 +159,7 @@ EmbeddedTowerSteven2WinText:
 	done
 
 EmbeddedTowerSteven1ItemText:
-	text "Steven:"
+	text "STEVEN:"
 	line "Glückwunsch!"
 	para "Die Gefühle, die"
 	line "du für #MON"
@@ -180,13 +180,13 @@ EmbeddedTowerSteven1ItemText:
 	done
 
 EmbeddedTowerSteven1AfterText:
-	text "Steven: Mögen sich"
+	text "STEVEN: Mögen sich"
 	line "unsere Wege wieder"
 	cont "kreuzen."
 	done
 
 EmbeddedTowerSteven2ChallengeText:
-	text "Steven: Wir sehen"
+	text "STEVEN: Wir sehen"
 	line "uns wieder,"
 	cont "<PLAYER>!"
 	para "Ich hab tolle"
@@ -202,7 +202,7 @@ EmbeddedTowerSteven2ChallengeText:
 	done
 
 EmbeddedTowerSteven2AfterText:
-	text "Steven: Am Ende"
+	text "STEVEN: Am Ende"
 	line "bist du doch der"
 	cont "Stärkste."
 
