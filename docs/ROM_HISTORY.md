@@ -1,7 +1,7 @@
 # ROM-Historie — Polished Crystal DE (GSC-Kanon)
 
 Vollständige Liste der **lokal versionierten Builds**  
-`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.048`  
+`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.049`  
 (Zähler: `tools/save_rom_versioned.ps1` / `tools/_rom_build_version.txt`).
 
 **ROMs liegen nicht im Repo** (Copyright). Hier steht nur, **was** pro Nummer (bzw. Nummernblock) typischerweise gebaut und getestet wurde.
@@ -9,7 +9,7 @@ Vollständige Liste der **lokal versionierten Builds**
 Quellen: Git-Commits, README-Changelog, `CONTINUE.md`, Session-Notizen (2026-07).  
 Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuild markiert.
 
-**Aktueller Zähler:** **048** (nächster Build wäre **049**).  
+**Aktueller Zähler:** **049** (nächster Build wäre **050**).  
 **Spiel-Basis:** Polished Crystal **3.2.3** · Fork: [Only1Rudeboy/germanpolishedcrystal](https://github.com/Only1Rudeboy/germanpolishedcrystal)
 
 ---
@@ -27,7 +27,7 @@ Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuil
 | F | **027–033** | Optionals, Phone, Buena, Radio |
 | G | **034–039** | Namen, CAPS, Feinschliff |
 | H | **040–045** | Items/Moves/Dex-QC + Script-Stubs |
-| I | **046–048** | Optionen-UI, QWERTZ / v0.9 |
+| I | **046–049** | Optionen-UI, QWERTZ / v0.9, `#COM`-Casing |
 
 ---
 
@@ -151,22 +151,23 @@ Ab **`.001`** zählt `save_rom_versioned.ps1` fortlaufend.
 
 ---
 
-## Phase I — 046–048 · Optionen, QWERTZ / v0.9
+## Phase I — 046–049 · Optionen, QWERTZ / v0.9, Casing
 
 | ROM | Commit (u. a.) | Inhalt |
 |---|---|---|
 | **046** | `194c64ce7` | Kampf-Stil / Optionen-Menü GSC-DE-Polishing (`battle style` & Co.). |
 | **047** | `34ae9bd96` | Optionen-Menüs weiter: Perfect-DVs-Labels / Menü-Polishing. |
 | **048** | `99c599182` | **QWERTZ-Tastatur** (DE-Layout); Standard in Optionen **QWERTZ**. Entspricht pure-DE-Linie **v0.9**-Textstand (ohne Shiny-Arbeitskopie). |
+| **049** | `bf9876f7f` | **`#COM` / `#DEX`:** PokéCOM (nicht PokéCom) im Spezial-Item-Menü; Dialoge `#Com`→`#COM`. |
 
 **Desktop (typisch):**  
-`polishedcrystal-3.2.3.048.gbc` · Alias `…-de-v0.9.gbc` / `…-latest.gbc`
+`polishedcrystal-3.2.3.049.gbc` · früher `…048` / `…-de-v0.9.gbc` / `…-latest.gbc`
 
-**Nächster Zähler:** **049** (noch nicht gebaut, sofern Zähler = 48).
+**Nächster Zähler:** **050**.
 
 ---
 
-## Arbeitskopie (nicht in 001–048 pure-DE)
+## Arbeitskopie (nicht in 001–049 pure-DE)
 
 Separates Experimenten-Repo/Pfad `germanpolishedcrystal-ARBEITSKOPIE` (nicht main pure-DE):
 
@@ -175,7 +176,7 @@ Separates Experimenten-Repo/Pfad `germanpolishedcrystal-ARBEITSKOPIE` (nicht mai
 - Item **Glitzerbonbon** (SHINY_CANDY) ×6 Endgame-Orte  
 - ROM z. B. `polishedcrystal-ARBEITSKOPIE-shiny-maxdv.gbc` / `germanpolishedcrystal-v0.9.gbc` mit Experimenten  
 
-→ **nicht** Teil der reinen Lokalisierungs-Serie 001–048 auf `main`.
+→ **nicht** Teil der reinen Lokalisierungs-Serie 001–049 auf `main`.
 
 ---
 
@@ -231,7 +232,8 @@ Separates Experimenten-Repo/Pfad `germanpolishedcrystal-ARBEITSKOPIE` (nicht mai
 | **046** | Optionen Kampf-Stil polish |
 | **047** | Optionen-Menüs / Perfect-DVs-Labels |
 | **048** | **QWERTZ** / pure-DE v0.9 |
-| **049** | *(noch nicht — nächster Zähler)* |
+| **049** | `#COM` / `#DEX` Casing (PokéCOM) |
+| **050** | *(noch nicht — nächster Zähler)* |
 
 ---
 
@@ -279,14 +281,15 @@ fbee0f8a8  Script stubs upstream              → ~045
 194c64ce7  Options battle style               → ~046
 34ae9bd96  Options / perfect DVs labels       → ~047
 99c599182  QWERTZ keyboard                    → ~048
+bf9876f7f  #COM / #DEX casing                 → ~049
 ```
 
 ---
 
 ## Hinweis zu MD5s
 
-Einzelne Desktop-MD5s von `.001` … `.047` wurden nicht alle im Git archiviert.  
-**048** und Aliase liegen lokal auf dem Desktop des Maintainers; ROMs werden **nicht** auf GitHub hochgeladen.
+Einzelne Desktop-MD5s von `.001` … `.048` wurden nicht alle im Git archiviert.  
+**049** und Aliase liegen lokal auf dem Desktop des Maintainers; ROMs werden **nicht** auf GitHub hochgeladen.
 
 Siehe auch die ältere Detail-Datei nur für die Frühphase:  
 [`docs/ROM_HISTORY_001-015.md`](ROM_HISTORY_001-015.md) (wird von dieser Master-Liste abgedeckt und ergänzt).

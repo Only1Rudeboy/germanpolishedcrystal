@@ -1,208 +1,208 @@
 # Pokémon Polished Crystal — deutsche GSC-Kanon-Lokalisierung
 
-> **Hinweis: Dies ist eine Übersetzung / ein Übersetzungs-Fork.**  
-> Dieses Repository enthält **keine eigenständige Neuentwicklung von Polished Crystal**, sondern eine **deutsche Lokalisierung** von [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) (Version **3.2.3**).  
-> Spielinhalt, Mechanik und Features stammen vom Originalprojekt. Hier wurde der **spielbare Text-Layer** ins Deutsche gebracht — im Stil der offiziellen **Pokémon Kristall (GSC-DE)**-Lokalisierung, soweit das möglich und sinnvoll ist.
+Deutsche Lokalisierung von [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) **3.2.3**.  
+Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (GSC-DE)**.
 
-### Status: Work in Progress (WIP)
-
-> **Dieses Projekt ist noch WIP.**  
-> Die Lokalisierung wurde mit Unterstützung von **Grok 4.5** (xAI) erstellt und überarbeitet. Trotz umfangreicher QC-Scans und Rest-Passes können **weiterhin Fehler, unsaubere Zeilenumbrüche, Inkonsistenzen oder vereinzelte englische/unidiomatische Stellen** auftreten.  
->  
-> **Feedback ist ausdrücklich erwünscht** — gerne zu Tippfehlern, zu langen Zeilen, falschen Orts-/Attackennamen, stilistisch unpassenden Dialogen oder allem, was sich „nicht nach GSC-DE“ anfühlt. Issues und Pull Requests auf GitHub helfen sehr.
-
-**Original:** [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) · **Basis-Disassembly:** [pret/pokecrystal](https://github.com/pret/pokecrystal)
-
-### Updates / Changelog (Lokalisierung) — seit Projektbeginn
-
-Vollständige Historie der **deutschen GSC-Kanon-Lokalisierung** dieses Forks (neueste zuerst).  
-ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versioned.ps1`); ROMs liegen **nicht** im Repo.
-
-#### Phase 2026-07 — GSC-Dump-Abgleich, QC, Rest-Pass (aktuell)
-
-| Zeitraum / Commit-Schwerpunkt | Inhalt |
+| | |
 |---|---|
-| **ROM 3.2.3.048 / v0.9** | **QWERTZ-Tastatur** (DE-Layout statt QWERTY); Standard in Optionen QWERTZ. |
-| **ROM 3.2.3.045** | **Kritische Script-Stubs (Upstream-Restore):** `sdefer`/Bodies die nur noch `end` waren — u. a. Mr.#MON-Haus (Mystery-Ei Softlock), Route-43-Rocket-Maut, Sudowoodo+Flee, Dukatia-Spielhalle, Alph-Kammern, Phone-jumpstd, Rocket-Base, Buena-Preise. Nur 1:1 Rangi42-Logik, kein Feature-Umbau. |
-| **ROM 3.2.3.044** | **Schwachstellen-Pass:** restl. `#mon`→`#MON` (BT/UI/Engine); Phone „Sorry“→DE; Item `(halten)`→`(TRAGEN)`; over18 (Elm/NG+); tote EN-Kommentare raus. Optionals: Parkball=`NO_ITEM` (Name only), EI-TICKET/SCHACHTEL/Aprikoko-Einzel-Descs nicht verdrahtet (PC-Modell). |
-| **ROM 3.2.3.043** | **Optionals + Pokédex-QC:** Aprikoko-Box/Kurt-Texte (kein „Kokonuss“/„Bogbeere“); Dex #001–#251 dump-soft **251/251** + `#mon`→`#MON` (44); Parkball/EI-TICKET/SCHACHTEL dokumentiert (kein Desc-Slot / nicht verdrahtet). |
-| **ROM 3.2.3.042** | **Mail-/Key-Items Dump-Finish:** Briefe (Blumen/Surf/Cyan/…/Trug), UP-GRADE (SILPH CO.), restliche Key-Item-Texte final dump-nah; QC ~139 GSC-Item-Descs = Dump. |
-| **ROM 3.2.3.041** | **Items dump-nah erweitert:** Evoli-Steine, Hyperheiler/Wutkeks split, Beeren (Pecha/Cheri/…), King-Stein, Scope-Linse, Lauch, Rosa Band→Seide, Buntflügel, Schiggykanne; Moves safe re-apply. |
-| **ROM 3.2.3.040** | **Items + Attacken dump-nah (Basis):** ~117 Items + ~119 Move-Blöcke; Fähigkeiten **C**. |
-| **ROM 3.2.3.039** | **JOHTO/KANTO CAPS**; `{d:…}`-Breite dokumentiert. |
-| **ROM 3.2.3.038** | **Feinschliff:** over18-Reflow; Mon-Rufe CAPS; Scherzbuch-Autoren; „Total cool!“. |
-| **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW. |
-| **ROM 3.2.3.036** | **Namen-Konsistenz:** JUTTA/HANNES/SATORU; IVY/FAITH/CHERYL/REI; Trade/Wonder-OTs CAPS; KIRK/SILVER. |
-| **ROM 3.2.3.035** | **Trainer-Namen-Block:** GSC-DE-Map pret↔Dump; Rest CAPS; BT-OTs; Guest-Speaker CAPS; Phone Dump-align. |
-| **ROM 3.2.3.033** | **Phone-Anzeigenamen komplett (Dump-align):** Alle Phone-Rematch-Trainer DE. |
-| **ROM 3.2.3.032** | **Optionals:** Phone-Namen-Teil; Pokégear/Radio #MON-Kanal & EICHs Talk; Song/Landmark **Duellturm**. |
-| **ROM 3.2.3.031** | **Buena-Passwörter GSC-DE dump:** NEUBORKIA/ROSALIA CITY/AZALEA CITY; Typen FLUG/KÄFER/PFLANZE; Radios EICHs PKMN-Talk / #MON-Musik / Glückskanal. |
-| **ROM 3.2.3.030** | **Phone-Trainer-Anzeigenamen GSC-DE:** Joey→**REINHOLD**, Wade→**ALFONS**, Ralph→**RALF**, Anthony→**ANTON**, Chad→**UDO**, Tiffany→**TIFFY**, Erin→**LOTTE** (Dump-backed; weitere Phone-Namen folgen). |
-| **ROM 3.2.3.029** | **Optional-Batch (gleichwertig Story):** Alle Phone-**Caller** + **Overworld** dump-nah DE; **Buena**-Telefon + Radio-Blöcke in `common.asm`; **Lyra**-Phone; **Shamouti**-Inseln (Hotel/Restaurant/Küste/PC/Schrein/Tunnel/Tourist); **Faraway**/Valencia/DimCave3–4/Cliff/YellowForest; Erin→**LOTTE**; QC ohne PLAY_G/EN-Hotspots. (028 = Textstand vor LOTTE.) |
-| **ROM 3.2.3.027** | **Optional-Scan/PC-Pass:** EN-„Sorry“→DE; Telefon-Caller/Overworld `#MON`; DimCave/KRAFTWERK/AZURIA CAPS; GELBER WALD CAPS; Shamouti-Tunnel CAPS. |
-| **ROM 3.2.3.026** · `c014cc252` | **Rest-Pass / Optionals:** `#mon`→`#MON` global (Maps + data/text + Phone, ~700+ Treffer); Celadon-Universität + Hotel/Wohnaccessoires; **DUELLTURM** + Kampffabrik; Telefon (Mama, LIND, BILL, Trainer-Anrufe dump-nah); `common.asm`/`std_text` (Pension, Namen-Bewerter, VM-Feldtexte, Schwester); Misc (Earl-Akademie, Fanclub, Mania, Soul House, #COM-Center, Museum, Dojo, Yellow Forest, …). |
-| **ROM 3.2.3.025** · `77b90539c` | **Rest-Kanto:** MARMORIA, AZURIA, ORANIA, LAVANDIA, PRISMANIA, FUCHSANIA, SAFFRONIA, ZINNOBER; Arenen (FELS–ERDORDEN, **FARBORDEN**); SAFARI-ZONE; KRAFTWERK; SILPH; Liga-Tor (SILBERBERG/TOP VIER). Badge-Kurzname **Farbe**. |
-| **ROM 3.2.3.024** · `f5f0ab91c` | **Liga + Kanto-Start + M.S. AQUA + SILBERBERG:** TOP VIER (WILLI, KOGA, BRUNO, MELANIE, SIEGFRIED); Ruhmeshalle; ALABASTIA/VERTANIA/Route 1–2; PROF. EICH-Labor; Schiff + Häfen; ROT am SILBERBERG; Route 22/26/27/SIEGESSTRASSE. |
-| **ROM 3.2.3.023** · `6f9a69f11` | **Early-Game-QC:** Zephyr-Abzeichen→**FLÜGELORDEN** (Viola-Haus); Route-23-Badge-Checks alle DE (Flügel/Insekt/Basis/Phantom/Faust/Stahl/Eis/Drachen). |
-| **ROM 3.2.3.022** · `19cdfb0c6` | **Anemonia + Rocket-Base + Ebenholz:** HARTWIG/**FAUSTORDEN**; Passwörter FLEGMONRUTE/RATTIKARLRUTE/PREISET GIOVANNI; Weisen-Trio; Route 44–46/Eispfad; SANDRA/**DRACHENORDEN** + Drachenschrein-Quiz. |
-| **ROM 3.2.3.021** · `ba14352a6` | **TEAK / See des Zorns / Oliviana:** JENS/**PHANTOMORDEN**; Brandturm/Zinnturm/Tanztheater; Route 38–39/KUHMUH; Mahagoni/NORBERT; SEE DES ZORNS; JASMIN/**STAHLORDEN**; Leuchtturm; Route 40–41. PC-Fix: STÄRKE bleibt Anemonia (nicht Café Oliviana). |
-| **ROM 3.2.3.020** · `0cccdff22` | **Mid-Johto:** Route 34–37, Pension, DUKATIA (Schilder, Kurt-Fluss, Arena BIANKA/**BASISORDEN**), Kaufhaus, Spielhalle, Radioturm, Untergrund, Nationalpark, Käferturnier. |
-| **ROM 3.2.3.019** · `38fcd9069` / `0fed834e9` | Route 32–33, Azalea, Flegmon-Brunnen, Holzkohle, Kurt, Ilex, Einheitstunnel; **INSEKTORDEN** (KAI). |
-| **ROM 3.2.3.015** | Route 31 / Viola / Knofensa / FALK **FLÜGELORDEN**. |
-| **ROM 3.2.3.016** | Viola Gramps / FALK / **PKMN-ARENA**-Wortlaut dump-nah. |
-| **ROM 3.2.3.017** | Zwischenbuild: Viola → Route-32-Übergang. |
-| **ROM 3.2.3.018** | Route 32 / Azalea-Eingang dump-align (Vorbereitung 019). |
-| **Mom / Start** · `255ed33fe` … | Baby→**Schatz** (User-Override); dump-align Neuborkia, ROSALIA, Route 29–30, Mr.#MON. |
-| **Bugfixes kritisch** · `2b9ba2e09` … `c96491575` | Lyra „erhält“ ohne Mon-Name; LIND-Labor-Intro (`sdefer`); 11× sdefer + 68× premature `done`; Deep-Scan stubbed Scenes + `@` mid-string; „genickert“→verschlafen. ROM **009–011+**. |
-| **Repo / Docs** | INSTALL.md DE; README WIP + Feedback; GitHub `Only1Rudeboy/germanpolishedcrystal` (main+master). |
+| **Status** | WIP — spielbar, Feedback erwünscht |
+| **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
+| **Aktuell pure-DE** | **ROM 3.2.3.049** (nach QWERTZ / v0.9) |
+| **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
+| **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
 
-> **Vollständige ROM-Historie 001–048 (eine Zeile pro Nummer):**  
-> [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-> Frühphase detailliert: [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)
-
-#### ROM 3.2.3.001 – 048 (Kurz)
-
-| ROM | Inhalt (Kurz) |
-|---|---|
-| **001–008** | DE-Start: Maps/UI/Kampf/Dex-Text, 18-Zeichen-Reflow, `line`/`cont`-Fix, Proofreading, GSC-Canon-Marker, Docs |
-| **009–011** | Softlocks: Lyra `text_ram`, Elm `sdefer`, global 11× `sdefer` + 68× premature `done`, Deep-Scan Scenes, „verschlafen“ |
-| **012–015** | Early-Game Dump: Neuborkia/Cherrygrove/Route 29–31, Mama **Schatz**, Viola **FLÜGELORDEN** |
-| **016–018** | Viola Gramps/PKMN-ARENA; Übergang Route 32; Azalea-Eingang dump |
-| **019–023** | Azalea→Ebenholz (Insekt–Drache), Mid-Johto, Badge-QC |
-| **024–026** | Liga + Kanto + Rest-Pass (`#MON`, Uni, DUELLTURM, common) |
-| **027–033** | Optionals, Phone/Buena/Radio, alle Rematch-Phone-Namen DE |
-| **034–039** | Trainer-/Speaker-Namen, CAPS, Feinschliff, JOHTO/KANTO |
-| **040–045** | Items/Moves/Mail dump-nah, Dex 251/251, Script-Stubs restore |
-| **046–048** | Optionen-UI polish, **QWERTZ** / pure-DE **v0.9** (Zähler = 48; nächstes = **049**) |
-
-#### Phase früher — Grundübersetzung & Proofreading (Git-Historie)
-
-| Commit-Schwerpunkt | Inhalt |
-|---|---|
-| `65a2cf4f5` | **Initial upload** — deutsche Übersetzung gestartet |
-| `21b180fbf` | Checkpoint: bestätigter funktionierender DE-Build |
-| `b92c82d01` … `7fab35dd5` | Reflow auf max. **18** Zeichen; Fix massenhaft `line`/`line`→`line`/`cont`; DST; `#COM`/`#DEX`-Casing; Pokédex/Items/Attacken/Fähigkeiten reflow |
-| `641690175` … `86773d0df` | Native-Speaker- / Proofreading-Runden (Grammatik, UI, BSOD, New-Game-Optionen) |
-| `4370a1209` | Charmap: großes **Ö** für Umlaute |
-| `36578c8bc` / `485f8d4a0` | Title-Screen: DE-Credit + Lesbarkeit |
-| `fa38060bc` | Markierung als **German GSC-canon localization** für PC **3.2.3** |
-| `8e9c8a911` / `fa077c415` | Deutsche README, WIP-Hinweis, Feedback willkommen |
-
-#### Johto-Orden-Kurznamen (Dump → Trainerkarte)
-
-| Dump | Kurz |
-|---|---|
-| FLÜGELORDEN | Flügel |
-| INSEKTORDEN | Insekt |
-| BASISORDEN | Basis |
-| PHANTOMORDEN | Phantom |
-| STAHLORDEN | Stahl |
-| FAUSTORDEN | Faust |
-| EISORDEN | Gletscher *(Kurzname UI; Dialog oft EISORDEN)* |
-| DRACHENORDEN | Drache |
-
-#### Kanto-Orden-Kurznamen
-
-| Dump | Kurz |
-|---|---|
-| FELSORDEN | Fels |
-| QUELLORDEN | Quell |
-| DONNERORDEN | Donner |
-| FARBORDEN | Farbe |
-| SEELENORDEN / SUMPFORDEN | Seele / Sumpf *(FAITHFUL-Reihenfolge)* |
-| VULKANORDEN | Vulkan |
-| ERDORDEN | Erde |
-
-#### Qualitätsregeln (dauerhaft)
-
-| Regel | Detail |
-|---|---|
-| **A / B / C** | A = GSC-Dump 1:1 · B = Dump + PC-Mechanik · C = PC-only DE + CAPS |
-| **Breite** | TEXTBOX_INNERW **18**; `#MON`/`#BALL`/`#DEX`/`#COM` = 7; `<PLAYER>` = 7 |
-| **`{d:NAME}`** | Wird beim **Assemblieren** durch die Zahl der Konstante ersetzt (nicht zur Laufzeit). Beispiel: `{d:BUG_CONTEST_BALLS}` → `20`. Die sichtbare Zeilenbreite ist damit **fest** und prüfbar. |
-| **Verboten** | `<PLAY_G>` (unmapped); `;` in Textstrings; `@` mitten im String |
-| **Formulierungen** | `findet` / `erhält` · `PKMN-ARENA von …` · CAPS-Orte (NEUBORKIA, DUKATIA CITY, JOHTO, KANTO, …) |
-| **Items / Attacken** | GSC-Klassik **A** (Dump-Beschreibungen wo mappbar); PC-only **C**; **Fähigkeiten** immer **C** (nicht in GSC) |
-| **User-Override** | Mama: **Schatz** statt Dump „Baby“ |
-
-#### DE-Ortsnamen (Auswahl)
-
-NEUBORKIA · ROSALIA CITY · VIOLA CITY · AZALEA CITY · DUKATIA CITY · TEAK CITY · OLIVIANA CITY · ANEMONIA CITY · MAHAGONIA CITY · EBENHOLZ CITY · ALABASTIA · VERTANIA CITY · MARMORIA CITY · AZURIA CITY · ORANIA CITY · LAVANDIA · PRISMANIA CITY · FUCHSANIA CITY · SAFFRONIA CITY · ZINNOBERINSEL · INDIGO PLATEAU · SILBERBERG · SEE DES ZORNS · STEINEICHENWALD · KNOFENSA-TURM · M.S. AQUA · DUELLTURM
-
-#### Tools (Auswahl, im Repo)
-
-- `tools/save_rom_versioned.ps1` — versionierte ROM-Builds  
-- `tools/_gsc_de_crystal_msg.txt` — GSC-DE-Dump-Referenz  
-- `tools/gsc_canon_setup/` — Batch-Regeln, Extrakte, Scanner  
-- `tools/_fix_mon_caps.py` — `#mon`→`#MON` in Textstrings  
-
-#### Bekannte Residuen / Feedback willkommen
-
-- Grafik-Text in manchen Tiles/Logos kann EN bleiben  
-- Phone-Trainer-Anzeigenamen: **alle Rematch-Phone-Kontakte DE** (Dump-Rematch-Zählung + PICNICKER/BUG-Anker); Feinschliff nach Playtest willkommen  
-- PC-only-Ecken (Navel/Faraway-Jungle nur Schreie, Shamouti-Hotel-Stubs) und Feinschliff nach Playtest  
-- Spieler-Feedback zu Stil, Breite und Kanon-Namen ist erwünscht  
+> Mit **Grok 4.5** (xAI) unterstützt. Es können noch Fehler, Zeilenumbrüche oder einzelne EN-Stellen vorkommen.  
+> **Feedback willkommen** (Issues / PRs).
 
 ---
 
+## Inhaltsverzeichnis (Lokalisierung)
 
+1. [Schnellstart](#schnellstart)
+2. [Changelog (aktuell)](#changelog-aktuell)
+3. [ROM-Übersicht 001–049](#rom-übersicht-001049)
+4. [Was ist übersetzt?](#was-ist-übersetzt)
+5. [Qualitätsregeln](#qualitätsregeln)
+6. [Orden & Orte](#orden--orte)
+7. [Tools & Docs](#tools--docs)
+8. [Residuen](#residuen)
+9. [Credits](#credits-lokalisierung)
+10. *[Originalspiel-README (DE-Übersetzung)](#pokémon-polished-crystal)* — Features von Polished Crystal selbst
 
-## Was in diesem Übersetzungsprojekt gemacht wurde
+---
 
-Ziel war kein „irgendwie Deutsch“, sondern eine **GSC-kanonische** DE-Fassung von Polished Crystal 3.2.3: Ortsnamen, Systemmeldungen, Menüs und Dialoge sollen sich anfühlen wie die deutsche Kristall-Version — inklusive Textbox-Breite und typischer Formulierungen.
+## Schnellstart
 
-### Umfang der Lokalisierung
+1. Repo klonen / bauen → siehe [`INSTALL.md`](INSTALL.md)  
+2. Fertige **ROMs liegen nicht im Repo** (Copyright) — lokal mit `tools/save_rom_versioned.ps1` versionieren  
+3. **Vollständige ROM-Historie:** [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
+4. Frühphase 001–015: [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)
+
+---
+
+## Changelog (aktuell)
+
+Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001049) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+
+### 049 · 2026-07 — `#COM` / `#DEX`-Casing
+
+- **PokéCOM** statt „PokéCom“ im Beutel/Pokégear-Menü (`#COM`)
+- **`#DEX`** im Spezial-Item-Menü; Dialoge `#Com` → `#COM` (Center, Radio, …)
+
+### 046–048 · Optionen & QWERTZ (v0.9-Textstand)
+
+| ROM | Inhalt |
+|---|---|
+| **048** | **QWERTZ**-Tastatur (DE), Standard in Optionen |
+| **047** | Optionen-Menüs / Perfect-DVs-Labels |
+| **046** | Kampf-Stil / Optionen GSC-DE polish |
+
+### 040–045 · Items, Dex, Scripts
+
+| ROM | Inhalt |
+|---|---|
+| **045** | Kritische **Script-Stubs** 1:1 Upstream (Mr.#MON-Ei, Route 43, Sudowoodo, Spielhalle, Alph, Phone, Rocket, Buena, …) |
+| **044** | Schwachstellen: `#MON`, Phone „Sorry“, `(TRAGEN)`, over18, EN-Kommentare |
+| **043** | Dex **#001–#251** dump-soft; Aprikoko/Kurt; Optionals dokumentiert |
+| **042** | Mail- & Key-Items dump-Finish (~139 Item-Descs) |
+| **041** | Items erweitert (Steine, Beeren, King-Stein, Seide, …) |
+| **040** | Items + Attacken dump-Basis; Fähigkeiten bleiben **C** |
+
+### 027–039 · Phone, Namen, Feinschliff
+
+| ROM | Inhalt |
+|---|---|
+| **035–039** | Trainer-/Speaker-Namen, CAPS, JOHTO/KANTO, over18-Feinschliff |
+| **033–034** | Alle Phone-Rematch-Namen DE; Zwischenbuild |
+| **030–032** | Phone-Anzeigenamen (REINHOLD, ALFONS, …); Buena-Passwörter; Radio / Duellturm |
+| **027–029** | Optional-Scan, Phone/Buena/Shamouti, LOTTE |
+
+### 019–026 · Johto → Kanto → Rest-Pass
+
+| ROM | Inhalt |
+|---|---|
+| **026** | Rest-Pass: `#MON` global, Uni, **DUELLTURM**, Telefon, `common.asm` |
+| **024–025** | Liga + Kanto (TOP VIER, Städte, Arenen, **FARBORDEN**, …) |
+| **019–023** | Azalea→Ebenholz (Orden Insekt–Drache), Mid-Johto, Badge-QC |
+
+### 001–018 · Fundament & Early-Game
+
+| ROM | Inhalt |
+|---|---|
+| **016–018** | Viola Gramps / PKMN-ARENA; Route-32-Übergang; Azalea-Eingang |
+| **012–015** | Neuborkia→Viola dump; Mama **Schatz**; **FLÜGELORDEN** |
+| **009–011** | Softlocks: `sdefer`, `text_ram`, Deep-Scan, „verschlafen“ |
+| **001–008** | DE-Start, 18-Zeichen-Reflow, `line`/`cont`, Proofreading, GSC-Canon-Marker |
+
+---
+
+## ROM-Übersicht 001–049
+
+| Block | Thema |
+|---|---|
+| **001–008** | Fundament DE, Reflow, Proofreading |
+| **009–011** | Softlocks & Script-Fixes |
+| **012–018** | Early-Johto Dump (bis Azalea-Eingang) |
+| **019–023** | Mid-Johto + Badge-QC |
+| **024–026** | Liga, Kanto, Rest-Pass |
+| **027–033** | Phone / Buena / Radio |
+| **034–039** | Namen, CAPS, Feinschliff |
+| **040–045** | Items, Moves, Dex, Script-Stubs |
+| **046–048** | Optionen, QWERTZ / v0.9 |
+| **049** | `#COM` / `#DEX`-Casing (PokéCOM) |
+
+Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
+Zähler: `tools/_rom_build_version.txt` · nächster Build: **050**
+
+---
+
+## Was ist übersetzt?
 
 | Bereich | Inhalt |
 |---|---|
-| **Karten / NPCs** | Alle **607** Map-Skripte: Dialoge, Schilder, Items, Story |
-| **Telefon** | Anrufer-/Anruferinnen-Texte, Overworld-Telefon |
-| **Systemtexte** | `common.asm`, Kampftexte, Standard-Dialoge (Items finden/erhalten, Whiteout, EP, …) |
-| **Menüs & UI** | Startmenü, Beutel, Optionen, Party-Menü, PC, Zusammenfassungs-UI |
-| **Pokémon** | Deutsche Artnamen (CAPS), Pokédex-Einträge, Kategorien |
-| **Attacken** | Offizielle DE-Namen (≤12 Zeichen), Beschreibungen |
-| **Fähigkeiten** | DE-Namen und Beschreibungen (Gen-3+-System, offizielle Begriffe) |
-| **Wesen & Charakteristika** | z. B. Robust, Solo, Mutig … |
-| **Typen, Items, Orden** | Typennamen, Item-Namen/Beschreibungen, Orden, Trainerklassen |
-| **Orte / Landmarks** | GSC-DE-Glossar (Neuborkia, Dukatia City, Knofensa-Turm, …) |
-| **Battle Tower & Co.** | DE-Trainertexte und UI-Strings |
+| **Karten / NPCs** | ~607 Map-Skripte (Dialoge, Schilder, Story) |
+| **Telefon** | Caller, Overworld, Rematch-Namen |
+| **System / Kampf** | `common.asm`, Kampftexte, findet/erhält, Whiteout, … |
+| **UI** | Startmenü, Beutel, Optionen, Party, PC, Summary |
+| **Daten** | Artnamen, Dex, Attacken, Fähigkeiten, Wesen, Items, Orden, Typen |
+| **Orte** | GSC-DE-Glossar (NEUBORKIA, DUKATIA CITY, …) |
+| **BT & Co.** | Duellturm / Kampffabrik UI & Trainertexte |
 
-### Methode & Qualitätsregeln
+### Bewusst nicht 1:1 Kristall
 
-- **Klassen A / B / C**
-  - **A** — Original-GSC-Orte: wo möglich **1:1** zum deutschen Kristall-Dump  
-  - **B** — GSC + Polished-Zusatz: Originalteile am Dump, PC-Zusatz im GSC-Ton  
-  - **C** — nur Polished (z. B. Shamouti, neue Orte): DE + Glossar + Breite, kein Dump-Zwang  
-- **Textbox-Breite:** max. **18** Anzeigezeichen (mit Expandern wie `#MON` = 7, `<PLAYER>` = 7)  
-- **Systemformulierungen (GSC):**  
-  - `<PLAYER> findet …` · `<PLAYER> erhält …`  
-  - `PKMN-ARENA von …`  
-  - Whiteout: *kein kampffähiges #MON* / *fällt in Ohnmacht*  
-- **Glossar** für Johto/Kanto-Orte, Arenaleiter-Namen und feste Phrasen  
-- **Batch-Arbeit 0–6** + **GSC-Dump-Abgleich** (Johto → Liga → Kanto) + **Rest-Pass** (CAPS, `#MON`, Uni, Telefon, common, DUELLTURM)  
-- **QC-Scans** gegen EN-Reste, Script-Bugs (`sdefer`/`done`/`@`), Breite und Glossar-Konsistenz  
+- Polished-only-Inhalte (neue Orte, Features) → DE im **GSC-Stil**, kein Dump  
+- Gen-3+ (Fähigkeiten, Wesen, phys./spez. Split) → offizielle DE-Begriffe  
+- Grafik-Text in manchen Tiles/Logos kann EN bleiben  
 
-### Bewusst *nicht* „1:1 Kristall“
+---
 
-Polished Crystal ist **größer** als das Original von 2001. Deshalb:
+## Qualitätsregeln
 
-- **Neue Inhalte** (Polished-only-Karten, neue Pokémon, neue Dialoge) sind auf **DE im GSC-Stil**, haben aber keinen offiziellen Kristall-Dump.  
-- **Gen-3+-Systeme** (Wesen, Fähigkeiten, phys./spez. Split, …) nutzen **offizielle deutsche Namen**, die es in GSC so noch nicht gab.  
-- **Eigennamen** (z. B. Joey, Kurt) und **internationale Gleichnamen** (z. B. AZALEA CITY, Whirlpool, Pikachu) bleiben wie im DE-Kanon üblich.  
-- **Grafik-Text** in manchen Tiles/Logos kann weiterhin EN sein; der Fokus lag auf dem **Script-/Daten-Text**.
+| Regel | Detail |
+|---|---|
+| **A / B / C** | **A** Dump 1:1 · **B** Dump + PC-Mechanik · **C** PC-only DE + CAPS |
+| **Breite** | TEXTBOX **18**; `#MON` / `#BALL` / `#DEX` / `#COM` = 7; `<PLAYER>` = 7 |
+| **`{d:NAME}`** | Wird beim Assemblieren ersetzt (feste Breite) |
+| **Verboten** | `<PLAY_G>` · `;` in Strings · `@` mitten im String |
+| **Formulierungen** | `findet` / `erhält` · `PKMN-ARENA von …` · CAPS-Orte |
+| **Override** | Mama: **Schatz** (nicht Dump „Baby“) |
 
-### Build / ROM
+---
 
-- Zielversion: **Polished Crystal 3.2.3** mit dieser DE-Lokalisierung  
-- Fertige ROMs werden **nicht** in diesem Repo veröffentlicht (Copyright). Bitte selbst bauen — siehe Original-Anleitung im Upstream bzw. `INSTALL.md`.  
-- Upstream bleibt [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal); dieses Repo ist der **deutsche Lokalisierungs-Fork**.
+## Orden & Orte
 
-### Credits (Lokalisierung)
+### Johto (Dump → Kurzname UI)
 
-- **Originalspiel / Engine / Features:** Rangi42 und alle Polished-Crystal-Mitwirkenden  
-- **Disassembly-Basis:** pret / pokecrystal  
-- **Deutsche GSC-Kanon-Lokalisierung dieses Forks:** Only1Rudeboy  
-- **KI-Unterstützung:** Grok 4.5 (xAI) — WIP, Fehler möglich; Feedback willkommen  
+| Orden | Kurz | Orden | Kurz |
+|---|---|---|---|
+| FLÜGELORDEN | Flügel | STAHLORDEN | Stahl |
+| INSEKTORDEN | Insekt | FAUSTORDEN | Faust |
+| BASISORDEN | Basis | EISORDEN | Gletscher *(UI)* |
+| PHANTOMORDEN | Phantom | DRACHENORDEN | Drache |
+
+### Kanto
+
+| Orden | Kurz | Orden | Kurz |
+|---|---|---|---|
+| FELSORDEN | Fels | SEELEN-/SUMPFORDEN | Seele / Sumpf |
+| QUELLORDEN | Quell | VULKANORDEN | Vulkan |
+| DONNERORDEN | Donner | ERDORDEN | Erde |
+| FARBORDEN | Farbe | | |
+
+### Orte (Auswahl)
+
+NEUBORKIA · ROSALIA · VIOLA · AZALEA · DUKATIA · TEAK · OLIVIANA · ANEMONIA · MAHAGONIA · EBENHOLZ · ALABASTIA · VERTANIA · MARMORIA · AZURIA · ORANIA · LAVANDIA · PRISMANIA · FUCHSANIA · SAFFRONIA · ZINNOBERINSEL · INDIGO PLATEAU · SILBERBERG · SEE DES ZORNS · KNOFENSA-TURM · M.S. AQUA · DUELLTURM
+
+---
+
+## Tools & Docs
+
+| Datei / Ordner | Zweck |
+|---|---|
+| [`INSTALL.md`](INSTALL.md) | Bauen (DE) |
+| [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md) | ROM 001–049 Detail |
+| `tools/save_rom_versioned.ps1` | Desktop-ROM `.001`, `.002`, … |
+| `tools/_gsc_de_crystal_msg.txt` | GSC-DE-Dump-Referenz |
+| `tools/gsc_canon_setup/` | Batch-Regeln & Scanner |
+
+---
+
+## Residuen
+
+- Grafik-Text in manchen Tiles/Logos kann EN bleiben  
+- PC-only-Ecken (z. B. Navel/Faraway-Jungle, Shamouti-Stubs) — Feinschliff nach Playtest  
+- Stil, Breite, Kanon-Namen: Feedback erwünscht  
+
+---
+
+## Credits (Lokalisierung)
+
+| | |
+|---|---|
+| **Spiel / Engine** | Rangi42 & Polished-Crystal-Mitwirkende |
+| **Disassembly** | pret / pokecrystal |
+| **DE GSC-Kanon-Lokalisierung** | Only1Rudeboy |
+| **KI-Unterstützung** | Grok 4.5 (xAI) — WIP |
 
 ---
 
