@@ -1,6 +1,6 @@
 DanaAskNumber1Text:
 	text "Du bist echt gut"
-	line "mit #mon!"
+	line "mit #MON!"
 	para "Jungs geben mir"
 	line "nach Kämpfen"
 	cont "Items,"

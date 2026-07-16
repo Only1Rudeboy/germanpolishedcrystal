@@ -40,7 +40,7 @@ DerekLostAMonText:
 	para "Aber es war nicht"
 	line "süß, also ließ"
 	cont "ich"
-	para "es … #mon"
+	para "es … #MON"
 	line "müssen süß sein!"
 	done
 

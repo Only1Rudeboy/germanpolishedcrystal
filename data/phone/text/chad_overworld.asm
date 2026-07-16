@@ -7,7 +7,7 @@ ChadAskNumber1Text:
 	para "Wirklich? Cool!"
 
 	para "Ich träume davon,"
-	line "#mon-Forscher"
+	line "#MON-Forscher"
 	cont "wie PROF. EICH zu"
 	cont "werden."
 
@@ -30,7 +30,7 @@ ChadAskNumber2Text:
 ChadNumberAcceptedText:
 	text "Du hörst doch"
 	line "PROF. EICHs"
-	cont "#mon Talk,"
+	cont "#MON Talk,"
 	cont "oder?"
 	done
 

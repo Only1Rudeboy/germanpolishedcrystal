@@ -21,7 +21,7 @@ GavenDefeatedMonText:
 	cont "gesehen …"
 	para "Sei vorsichtig,"
 	line "auch bei"
-	cont "bekannten #mon!"
+	cont "bekannten #MON!"
 	done
 
 GavenLostAMonText:

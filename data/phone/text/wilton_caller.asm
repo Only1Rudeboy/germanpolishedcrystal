@@ -15,7 +15,7 @@ WiltonDefeatedMonText:
 
 	para "Angeln macht mir"
 	line "mehr Spaß als"
-	cont "wilde #mon"
+	cont "wilde #MON"
 	cont "schlagen."
 	done
 

@@ -51,7 +51,7 @@ LyraPhoneNextMoveQuestionText:
 
 	para "Soll ich dir"
 	line "sagen, wann dein"
-	cont "#mon"
+	cont "#MON"
 
 	para "seine nächste"
 	line "Attacke lernt?"

@@ -143,7 +143,7 @@ SeafoamGymGuyScript:
 	text "Jawohl!"
 	para "…Huh? Es ist"
 	line "schon vorüber?"
-	para "Sorry, Kumpel!"
+	para "Tut mir Leid, Kumpel!"
 	para "Die PKMN-ARENA auf"
 	line "der ZINNOBERINSEL"
 	para "existiert nicht"

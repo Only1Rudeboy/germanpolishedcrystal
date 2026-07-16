@@ -3,7 +3,7 @@ ArnieAskNumber1Text:
 	line "Gefühl, dass es"
 	cont "mehr"
 
-	para "seltene #mon"
+	para "seltene #MON"
 	line "gibt? Ich bin"
 
 	para "sicher und suche"
@@ -22,13 +22,13 @@ ArnieAskNumber2Text:
 	line "informieren, wenn"
 
 	para "ich seltene"
-	line "#mon sehe. Gib"
+	line "#MON sehe. Gib"
 	cont "mir deine Nummer!"
 	done
 
 ArnieNumberAcceptedText:
 	text "Wenn ich coole"
-	line "#mon sehe,"
+	line "#MON sehe,"
 
 	para "ruf ich dich an!"
 	done

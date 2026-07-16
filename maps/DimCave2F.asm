@@ -41,7 +41,7 @@ GenericTrainerEngineerLang:
 	generictrainer ENGINEER, LANG, EVENT_BEAT_ENGINEER_LANG, .SeenText, .BeatenText
 
 	text "Vor drei Jahren"
-	line "war das Kraftwerk"
+	line "war das KRAFTWERK"
 
 	para "eine Ruine. Wir"
 	line "haben es wieder"
@@ -59,7 +59,7 @@ GenericTrainerEngineerLang:
 	line "diesem Berg"
 
 	para "geborgen, um das"
-	line "Kraftwerk zu"
+	line "KRAFTWERK zu"
 	cont "renovieren!"
 	done
 

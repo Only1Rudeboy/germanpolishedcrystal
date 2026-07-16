@@ -49,6 +49,6 @@ ToddRematchText:
 	text "Ich hab gewartet!"
 	line "Weniger shoppen,"
 
-	para "mehr #mon"
+	para "mehr #MON"
 	line "trainiert!"
 	done

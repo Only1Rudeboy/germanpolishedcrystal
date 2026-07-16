@@ -59,7 +59,7 @@ ProfOaksAide3Script:
 GenericTrainerGruntM12:
 	generictrainer GRUNTM, 12, EVENT_BEAT_ROCKET_GRUNTM_12, GruntM12SeenText, GruntM12BeatenText
 
-	text "Im Gelben Wald"
+	text "Im GELBEN WALD"
 	line "gibt es viele"
 	cont "seltene #MON."
 
@@ -68,7 +68,7 @@ GenericTrainerGruntM12:
 	done
 
 CliffEdgeGateReceptionistText:
-	text "Der Gelbe Wald ist"
+	text "Der GELBE WALD ist"
 	line "hier entlang!"
 	para "Ein beliebtes"
 	line "Ausflugsziel!"

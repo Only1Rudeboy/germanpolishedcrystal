@@ -5,7 +5,7 @@ AnthonyAskNumber1Text:
 	para "Berge und Höhlen."
 	line "Manchmal sehe ich"
 
-	para "seltene #mon."
+	para "seltene #MON."
 	line "Ich könnte dich"
 
 	para "anrufen, wenn ich"
@@ -18,7 +18,7 @@ AnthonyAskNumber1Text:
 AnthonyAskNumber2Text:
 	text "Ich rufe an, wenn"
 	line "ich seltene"
-	cont "#mon sehe."
+	cont "#MON sehe."
 
 	para "Lust, Nummern"
 	line "auszutauschen?"
@@ -26,7 +26,7 @@ AnthonyAskNumber2Text:
 
 AnthonyNumberAcceptedText:
 	text "Geduld! Ich finde"
-	line "seltene #mon"
+	line "seltene #MON"
 	cont "für dich!"
 	done
 
@@ -46,6 +46,6 @@ AnthonyPhoneFullText:
 AnthonyRematchText:
 	text "Alles klar!"
 
-	para "Meine #mon und"
+	para "Meine #MON und"
 	line "ich sind bereit!"
 	done

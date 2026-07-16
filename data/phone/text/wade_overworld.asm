@@ -3,7 +3,7 @@ WadeAskNumber1Text:
 	line "mag dich!"
 
 	para "Ich suche hier"
-	line "täglich #mon."
+	line "täglich #MON."
 
 	para "Im Gras finde ich"
 	line "allerlei Beeren."

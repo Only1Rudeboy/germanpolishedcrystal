@@ -85,11 +85,11 @@ AnthonySwarmText:
 
 	para "scheu ist. Ich"
 	line "keine, wo starke"
-	cont "#mon sind."
+	cont "#MON sind."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Seltene #mon?"
+	text "Seltene #MON?"
 
 	para "Tut mir leid! Ich"
 	line "war zu sehr aufs"
@@ -120,6 +120,6 @@ AnthonyHurryText:
 	para "Wie schon gesagt:"
 	line "Dunsparce tauchen"
 	para "nicht auf, wenn"
-	line "starke #mon da"
+	line "starke #MON da"
 	cont "sind."
 	done

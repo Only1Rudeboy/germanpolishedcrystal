@@ -30,7 +30,7 @@ ToddLostAMonText:
 	text_ram wStringBuffer4
 	cont "knapp."
 
-	para "Meine #mon-"
+	para "Meine #MON-"
 	line "Level sind wohl"
 	cont "noch zu niedrig…"
 	done

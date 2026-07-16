@@ -1,6 +1,6 @@
 WadeAreYourMonGrowingText:
 	text "Wachsen deine"
-	line "#mon?"
+	line "#MON?"
 
 	para "Meine wachsen mir"
 	line "fast zu schnell."
@@ -44,7 +44,7 @@ WadeLostAMonText:
 
 WadeBattleRematchText:
 	text "Lust auf einen"
-	line "#mon-Kampf?"
+	line "#MON-Kampf?"
 	para "Diesmal anders"
 	line "als letztes Mal!"
 	text_ram wStringBuffer5

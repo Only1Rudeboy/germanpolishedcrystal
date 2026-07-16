@@ -11,7 +11,7 @@ ChadObservingWildText:
 	para "Ich wünschte, ich"
 	line "könnte bald ein"
 
-	para "#mon-Forscher"
+	para "#MON-Forscher"
 	line "wie PROF. EICH"
 	cont "werden."
 	done
@@ -76,7 +76,7 @@ ChadDaisyGossipText:
 	line "beruhigen sich"
 
 	para "selbst wildeste"
-	line "#mon."
+	line "#MON."
 	done
 
 ChadProfElmGossipText:
@@ -113,7 +113,7 @@ ChadKurtGossipText:
 	done
 
 ChadLeagueGossipText:
-	text "Die #mon-Liga"
+	text "Die #MON-Liga"
 	line "ist der große"
 	para "Treffpunkt aller"
 	line "Trainer, die"
@@ -121,14 +121,14 @@ ChadLeagueGossipText:
 	para "werden wollen."
 	line "PROF. EICH berät"
 	para "den Hauptsitz der"
-	line "#mon-Liga."
+	line "#MON-Liga."
 	para "Er ist wirklich"
 	line "großartig."
 	done
 
 ChadPokemonTalkGossipText:
 	text "PROF. EICHs"
-	line "#mon Talk ist"
+	line "#MON Talk ist"
 	para "beliebte Sendung,"
 	line "oder? Wusstest"
 	cont "du,"
@@ -145,7 +145,7 @@ ChadProfOakTrainerGossipText:
 	text "PROF. EICH war"
 	line "früher Trainer."
 
-	para "Aber #mon"
+	para "Aber #MON"
 	line "selbst"
 	cont "faszinierten"
 
@@ -178,7 +178,7 @@ ChadProfOakTravelingGossipText:
 	para "in seiner Jugend"
 	line "um die Welt."
 	para "Dabei lernte er"
-	line "viel über #mon."
+	line "viel über #MON."
 	para "Ich beneide ihn …"
 	line "Ich will auch"
 	cont "reisen und"

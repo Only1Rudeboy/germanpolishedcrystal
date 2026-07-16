@@ -57,7 +57,7 @@ HueyRematchGiftText:
 	line "gekämpft, aber"
 	cont "nie gewonnen."
 	para "Ich kaufte Items,"
-	line "um meine #mon"
+	line "um meine #MON"
 	para "stärker zu machen"
 	line "- nutzlos …"
 	para "Items allein"

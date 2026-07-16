@@ -660,7 +660,7 @@ RocketBaseLancePostBattleText:
 	done
 
 RocketBaseLancePowerOffText:
-	text "Sorry, <PLAYER>."
+	text "Tut mir Leid, <PLAYER>."
 	line "Ich habe beobach-"
 	cont "tet, wie geschickt"
 	cont "du bist. Daher"

@@ -170,7 +170,7 @@ GenericTrainerSightseermChester:
 	generictrainer SIGHTSEERM, CHESTER, EVENT_BEAT_SIGHTSEERM_CHESTER, .SeenText, .BeatenText
 
 	text "Du kommst aus"
-	line "Johto? Da war ich"
+	line "JOHTO? Da war ich"
 	cont "noch nicht!"
 
 	para "Vielleicht sehen"

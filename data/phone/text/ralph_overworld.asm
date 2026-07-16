@@ -2,7 +2,7 @@ RalphAskNumber1Text:
 	text "Angeln junge"
 	line "Leute nicht mehr?"
 	para "Ich sah seltene"
-	line "#mon beim"
+	line "#MON beim"
 	cont "Angeln…"
 	para "Das mögt ihr,"
 	line "oder? Tauschen"
@@ -14,13 +14,13 @@ RalphAskNumber1Text:
 RalphAskNumber2Text:
 	text "Hm? Soll ich"
 	line "anrufen, wenn ich"
-	cont "seltene #mon"
+	cont "seltene #MON"
 	cont "sehe?"
 	done
 
 RalphNumberAcceptedText:
 	text "O.K., ich ruf bei"
-	line "seltenen #mon"
+	line "seltenen #MON"
 	cont "an."
 
 	para "Keine Sorge, ich"

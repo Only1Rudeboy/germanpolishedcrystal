@@ -56,5 +56,5 @@ BrentPhoneFullText:
 BrentRematchText:
 	text "Ich hab gewartet."
 	line "Schau meine"
-	cont "#mon!"
+	cont "#MON!"
 	done

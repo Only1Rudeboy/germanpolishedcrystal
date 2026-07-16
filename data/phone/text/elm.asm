@@ -192,7 +192,7 @@ ElmPhoneRocketText:
 	line "das ist nicht"
 	cont "wahr."
 
-	para "Sorry für die"
+	para "Entschuldigung für die"
 	line "Belästigung. Pass"
 	cont "auf dich auf!"
 	done

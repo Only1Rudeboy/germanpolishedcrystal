@@ -3,7 +3,7 @@ BrentRareTradeText:
 	line "vor einiger Zeit"
 	cont "ein"
 	para "extrem seltenes"
-	line "#mon getauscht."
+	line "#MON getauscht."
 	para "Willst du wissen,"
 	line "welches? Hehe,"
 	cont "das bleibt mein"
@@ -27,7 +27,7 @@ BrentLostAMonText:
 	text "Oh ja, ich sah"
 	line "vor einer Stunde"
 	cont "ein"
-	para "seltenes #mon."
+	para "seltenes #MON."
 	line "Mein erster Fund!"
 	para "Aber ich hatte"
 	line "keine #Bälle …"
@@ -44,7 +44,7 @@ BrentBattleRematchText:
 	line "Kampf?"
 
 	para "Du siehst meine"
-	line "seltenen #mon."
+	line "seltenen #MON."
 
 	para "Es lohnt sich!"
 	line ""
@@ -87,7 +87,7 @@ BrentRoute25GossipText:
 BrentAbraGossipText:
 	text "Wusstest du …?"
 	line "Abra war BILLs"
-	para "erstes #mon,"
+	para "erstes #MON,"
 	line "sagt man."
 	done
 
@@ -143,7 +143,7 @@ BrentSorryImTooBusyText:
 
 BrentReminderText:
 	text "Du willst meine"
-	line "seltenen #mon"
+	line "seltenen #MON"
 
 	para "sehen. Beeil dich"
 	line "nach "

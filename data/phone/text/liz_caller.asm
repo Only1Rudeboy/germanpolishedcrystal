@@ -110,7 +110,7 @@ LizEarlGossipText:
 	para "Kennst du Earl,"
 	line "den Lehrer der"
 
-	para "#mon-Akademie"
+	para "#MON-Akademie"
 	line "in Viola City?"
 
 	para "Ich sah ihn"
@@ -122,7 +122,7 @@ LizEarlGossipText:
 LizSurfPikachuGossipText:
 	text "Hör mal, hör mal!"
 	para "Ich sammle"
-	line "#mon-Plüsch-"
+	line "#MON-Plüsch-"
 	cont "tiere."
 	para "Aber kein Surf-"
 	line "Pikachu-Puppe."
@@ -156,7 +156,7 @@ LizSalonGossipText:
 	text "Hör mal, hör mal!"
 	para "In Dukatia City"
 	line "gibt's einen"
-	cont "#mon-Salon mit"
+	cont "#MON-Salon mit"
 	cont "zwei Brüdern."
 	para "Der Ältere ist"
 	line "gut, der Jüngere"

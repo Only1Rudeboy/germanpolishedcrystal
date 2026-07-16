@@ -187,15 +187,15 @@ GenericTrainerEngineerHoward:
 	generictrainer ENGINEER, HOWARD, EVENT_BEAT_ENGINEER_HOWARD, .SeenText, .BeatenText
 
 	text "Das Wasser fließt"
-	line "vom Azuria-Kap"
+	line "vom AZURIA-KAP"
 	para "südwärts und endet"
-	line "im Kraftwerk."
+	line "im KRAFTWERK."
 	done
 
 .SeenText:
 	text "Dieser Wasserfall"
 	line "versorgt ganz"
-	cont "Kanto mit Energie!"
+	cont "KANTO mit Energie!"
 	done
 
 .BeatenText:

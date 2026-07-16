@@ -48,11 +48,11 @@ BeverlyFoundItemText:
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Sind deine #mon"
+	text "Sind deine #MON"
 	line "in Topform?"
 
 	para "Lass uns wieder"
-	line "über #mon"
+	line "über #MON"
 	cont "reden!"
 	done
 

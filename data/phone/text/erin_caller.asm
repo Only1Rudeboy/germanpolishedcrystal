@@ -14,7 +14,7 @@ ErinDefeatedMonText:
 	text " besiegt!"
 
 	para "Ich hab meine"
-	line "#mon gut"
+	line "#MON gut"
 	cont "trainiert!"
 	done
 
@@ -49,7 +49,7 @@ ErinHangUpText:
 ErinWorkingHardText:
 	text "Ich trainiere"
 	line "hart meine"
-	cont "#mon!"
+	cont "#MON!"
 	para "Komm wieder zum"
 	line "Kämpfen!"
 	done

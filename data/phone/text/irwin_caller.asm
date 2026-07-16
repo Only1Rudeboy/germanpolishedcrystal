@@ -33,7 +33,7 @@ IrwinJasmineReturnedGossipText:
 	text "Hey, ich hörte!"
 
 	para "Du hast das"
-	line "#mon im"
+	line "#MON im"
 	cont "Leuchtturm"
 	cont "gerettet, oder?"
 
@@ -226,7 +226,7 @@ IrwinSoMuchToChatAboutText:
 	line "Wie viel Geld?"
 
 	para "Wie geht's Mama?"
-	line "Viele #mon?"
+	line "Viele #MON?"
 
 	para "Wird morgen die"
 	line "Sonne scheinen?"

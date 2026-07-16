@@ -59,7 +59,7 @@ ParryRematchGiftText:
 	line "besonders."
 
 	para "Hätte ich früher"
-	line "mit #mon"
+	line "mit #MON"
 	cont "angefangen…"
 
 	para "Erfolg für uns"

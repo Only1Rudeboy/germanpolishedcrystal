@@ -46,7 +46,7 @@ GenericTrainerScientistDexter:
 	generictrainer SCIENTIST, DEXTER, EVENT_BEAT_SCIENTIST_DEXTER, .SeenText, .BeatenText
 
 	text "Ich arbeite im"
-	line "Kraftwerk."
+	line "KRAFTWERK."
 	para "Wir nutzen den"
 	line "Wasserfall aus"
 	para "dieser Höhle für"

@@ -88,7 +88,7 @@ RalphNoItemText:
 	text "Ja, ich weiß."
 
 	para "Du suchst seltene"
-	line "#mon."
+	line "#MON."
 
 	para "Ich fange nur"
 	line "Karpador…"

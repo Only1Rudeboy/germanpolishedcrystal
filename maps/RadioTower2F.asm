@@ -475,7 +475,7 @@ RadioTower2FBuenaComeBackAfterListeningText:
 
 RadioTower2FBuenaAlreadyPlayedText:
 	; GSC-DE Dump
-	text "BUENA: Sorry…"
+	text "BUENA: Tut mir Leid…"
 	para "Du hast pro Tag"
 	line "nur einen Versuch."
 	para "Probiere morgen"

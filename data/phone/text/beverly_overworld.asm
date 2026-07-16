@@ -2,7 +2,7 @@ BeverlyAskNumber1Text:
 	text "Dein Marill ist"
 	line "so süß und"
 	cont "niedlich!"
-	para "Du liebst #mon"
+	para "Du liebst #MON"
 	line "wie ich!"
 	para "Tauschen wir"
 	line "Nummern? Lass uns"
