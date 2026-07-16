@@ -284,15 +284,18 @@ AzaleaTownIlexForestSignText:
 
 AzaleaTownAdvancedTipsSignText:
 	text "Profi-Tipps!"
-	para "Der"
-	line "Wechsel-Kampfstil"
-	cont "zeigt, welches"
-	cont "#MON"
-	para "der Gegner als"
-	line "Nächstes schickt."
-	para "Der"
-	line "Vorhersage-Stil"
-	cont "zeigt das nicht!"
+
+	para "Kampfstil WECHSEL:"
+	line "Du darfst zuerst"
+	cont "tauschen und"
+
+	para "siehst, welches"
+	line "#MON als Näch-"
+	cont "stes kommt."
+
+	para "VORHERS. nennt den"
+	line "Namen nicht - du"
+	cont "musst raten!"
 	done
 
 AzaleaTownGrampsScript:

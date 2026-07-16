@@ -222,12 +222,13 @@ Options_BattleStyle:
 .Display:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
+; GSC-DE: FOLGEND / WECHSEL; third is PC-only (pad to 7 like EN)
 .Set:
-	db "Setzen @"
+	db "Folgend@"
 .Switch:
-	db "Wechsl.@"
+	db "Wechsel@"
 .Predict:
-	db "Vorher.@"
+	db "Vorhers@"
 
 Options_Nicknames:
 	ld hl, wOptions3

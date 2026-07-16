@@ -62,15 +62,18 @@ OptionsDescriptions:
 	text "Nach dem K.O."
 	line "eines Gegners:"
 
-	para "Fest: Der nächste"
-	line "Gegner kommt."
+	para "Folgend: Der näch-"
+	line "ste kommt sofort."
 
 	para "Wechsel: Du kannst"
-	line "zuerst wechseln."
+	line "zuerst wechseln"
+	cont "und siehst das"
+	cont "nächste #MON."
 
-	para "Vorhersage: Zeigt"
-	line "den nächsten"
-	cont "Gegner."
+	para "Vorhers.: Wechseln"
+	line "geht, aber ohne"
+	cont "den Namen des"
+	cont "nächsten #MON."
 	prompt
 
 .Nicknames:
