@@ -22,6 +22,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
+| **ROM 3.2.3.027** | **Optional-Scan/PC-Pass:** EN-„Sorry“→DE; Telefon-Caller/Overworld `#MON`; DimCave/KRAFTWERK/AZURIA CAPS; GELBER WALD CAPS; Shamouti-Tunnel CAPS. |
 | **ROM 3.2.3.026** · `c014cc252` | **Rest-Pass / Optionals:** `#mon`→`#MON` global (Maps + data/text + Phone, ~700+ Treffer); Celadon-Universität + Hotel/Wohnaccessoires; **DUELLTURM** + Kampffabrik; Telefon (Mama, LIND, BILL, Trainer-Anrufe dump-nah); `common.asm`/`std_text` (Pension, Namen-Bewerter, VM-Feldtexte, Schwester); Misc (Earl-Akademie, Fanclub, Mania, Soul House, #COM-Center, Museum, Dojo, Yellow Forest, …). |
 | **ROM 3.2.3.025** · `77b90539c` | **Rest-Kanto:** MARMORIA, AZURIA, ORANIA, LAVANDIA, PRISMANIA, FUCHSANIA, SAFFRONIA, ZINNOBER; Arenen (FELS–ERDORDEN, **FARBORDEN**); SAFARI-ZONE; KRAFTWERK; SILPH; Liga-Tor (SILBERBERG/TOP VIER). Badge-Kurzname **Farbe**. |
 | **ROM 3.2.3.024** · `f5f0ab91c` | **Liga + Kanto-Start + M.S. AQUA + SILBERBERG:** TOP VIER (WILLI, KOGA, BRUNO, MELANIE, SIEGFRIED); Ruhmeshalle; ALABASTIA/VERTANIA/Route 1–2; PROF. EICH-Labor; Schiff + Häfen; ROT am SILBERBERG; Route 22/26/27/SIEGESSTRASSE. |
