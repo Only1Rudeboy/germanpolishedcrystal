@@ -2252,20 +2252,20 @@ SECTION "YoungsterGroup", ROMX
 YoungsterGroup:
 
 	def_trainer_class YOUNGSTER
-	def_trainer JOEY1, "REINHOLD"
+	def_trainer JOEY1, "JULIAN"
 	tr_mon 5, RATTATA, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 	end_trainer
 
-	def_trainer JOEY2, "REINHOLD"
+	def_trainer JOEY2, "JULIAN"
 	tr_mon 15, RATTATA @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_evs 48 Atk, 48 Spe
 	end_trainer
 
-	def_trainer JOEY3, "REINHOLD"
+	def_trainer JOEY3, "JULIAN"
 	tr_mon 25, RATICATE @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -2273,7 +2273,7 @@ YoungsterGroup:
 		tr_moves LEER, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	end_trainer
 
-	def_trainer JOEY4, "REINHOLD"
+	def_trainer JOEY4, "JULIAN"
 	tr_mon 30, RATICATE @ SITRUS_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -2281,7 +2281,7 @@ YoungsterGroup:
 		tr_moves LEER, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	end_trainer
 
-	def_trainer JOEY5, "REINHOLD"
+	def_trainer JOEY5, "JULIAN"
 	tr_mon 40, RATICATE @ SITRUS_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -2366,28 +2366,28 @@ SECTION "BugCatcherGroup", ROMX
 BugCatcherGroup:
 
 	def_trainer_class BUG_CATCHER
-	def_trainer WADE1, "ALFONS"
+	def_trainer WADE1, "RAIMUND"
 	tr_mon 2, CATERPIE
 	tr_mon 2, CATERPIE
 	tr_mon 3, WEEDLE
 	tr_mon 2, CATERPIE
 	end_trainer
 
-	def_trainer WADE2, "ALFONS"
+	def_trainer WADE2, "RAIMUND"
 	tr_mon 9, METAPOD
 	tr_mon 9, METAPOD
 	tr_mon 10, KAKUNA
 	tr_mon 9, METAPOD
 	end_trainer
 
-	def_trainer WADE3, "ALFONS"
+	def_trainer WADE3, "RAIMUND"
 	tr_mon 14, BUTTERFREE
 	tr_mon 14, BUTTERFREE
 	tr_mon 15, BEEDRILL
 	tr_mon 14, BUTTERFREE
 	end_trainer
 
-	def_trainer WADE4, "ALFONS"
+	def_trainer WADE4, "RAIMUND"
 	tr_mon 24, BUTTERFREE
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, HEALINGLIGHT
 	tr_mon 24, BUTTERFREE
@@ -2398,7 +2398,7 @@ BugCatcherGroup:
 		tr_moves CONFUSION, SLEEP_POWDER, SUPERSONIC, HEALINGLIGHT
 	end_trainer
 
-	def_trainer WADE5, "ALFONS"
+	def_trainer WADE5, "RAIMUND"
 	tr_mon 30, BUTTERFREE
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, GUST
 	tr_mon 30, BUTTERFREE
@@ -2409,25 +2409,25 @@ BugCatcherGroup:
 		tr_moves PSYBEAM, SLEEP_POWDER, GUST, HEALINGLIGHT
 	end_trainer
 
-	def_trainer ARNIE1, "Arnie"
+	def_trainer ARNIE1, "RANDALF"
 	tr_mon 16, VENONAT
 	end_trainer
 
-	def_trainer ARNIE2, "Arnie"
+	def_trainer ARNIE2, "RANDALF"
 	tr_mon 20, VENONAT
 	end_trainer
 
-	def_trainer ARNIE3, "Arnie"
+	def_trainer ARNIE3, "RANDALF"
 	tr_mon 28, VENOMOTH
 		tr_moves DISABLE, SUPERSONIC, CONFUSION, LEECH_LIFE
 	end_trainer
 
-	def_trainer ARNIE4, "Arnie"
+	def_trainer ARNIE4, "RANDALF"
 	tr_mon 36, VENOMOTH
 		tr_moves GUST, SUPERSONIC, PSYBEAM, LEECH_LIFE
 	end_trainer
 
-	def_trainer ARNIE5, "Arnie"
+	def_trainer ARNIE5, "RANDALF"
 	tr_mon 40, VENOMOTH
 		tr_moves GUST, SUPERSONIC, PSYCHIC_M, TOXIC
 	end_trainer
@@ -2473,30 +2473,30 @@ SECTION "CamperGroup", ROMX
 CamperGroup:
 
 	def_trainer_class CAMPER
-	def_trainer TODD1, "Todd"
+	def_trainer TODD1, "TOM"
 	tr_mon 14, PSYDUCK
 	end_trainer
 
-	def_trainer TODD2, "Todd"
+	def_trainer TODD2, "TOM"
 	tr_mon 17, GEODUDE
 	tr_mon 17, GEODUDE
 	tr_mon 23, PSYDUCK
 	end_trainer
 
-	def_trainer TODD3, "Todd"
+	def_trainer TODD3, "TOM"
 	tr_mon 23, GEODUDE
 	tr_mon 23, GEODUDE
 	tr_mon 26, PSYDUCK
 	end_trainer
 
-	def_trainer TODD4, "Todd"
+	def_trainer TODD4, "TOM"
 	tr_mon 30, GRAVELER
 	tr_mon 30, GRAVELER
 	tr_mon 30, SLUGMA
 	tr_mon 32, PSYDUCK
 	end_trainer
 
-	def_trainer TODD5, "Todd"
+	def_trainer TODD5, "TOM"
 	tr_mon 34, GRAVELER
 		tr_moves MUD_SLAP, BULLDOZE, SANDSTORM, ROCK_SLIDE
 	tr_mon 34, GRAVELER
@@ -2688,22 +2688,22 @@ endc
 		tr_moves SLEEP_POWDER, ACID, HEALINGLIGHT, PETAL_DANCE
 	end_trainer
 
-	def_trainer TIFFANY1, "TIFFY"
+	def_trainer TIFFANY1, "ILONA"
 	tr_mon 31, CLEFAIRY
 		tr_moves ENCORE, SING, TRI_ATTACK, MINIMIZE
 	end_trainer
 
-	def_trainer TIFFANY2, "TIFFY"
+	def_trainer TIFFANY2, "ILONA"
 	tr_mon 40, CLEFAIRY
 		tr_moves REFLECT, TRI_ATTACK, MINIMIZE, METRONOME
 	end_trainer
 
-	def_trainer TIFFANY3, "TIFFY"
+	def_trainer TIFFANY3, "ILONA"
 	tr_mon 44, CLEFABLE
 		tr_moves METRONOME, ENCORE, HEALINGLIGHT, MINIMIZE
 	end_trainer
 
-	def_trainer TIFFANY4, "TIFFY"
+	def_trainer TIFFANY4, "ILONA"
 	tr_mon 49, CLEFABLE
 		tr_moves HEALINGLIGHT, TRI_ATTACK, MINIMIZE, METRONOME
 	end_trainer
@@ -2885,22 +2885,22 @@ FisherGroup:
 		tr_moves WATERFALL, AGILITY, FURY_STRIKES, POISON_JAB
 	end_trainer
 
-	def_trainer TULLY1, "MAIK"
+	def_trainer TULLY1, "AMADEUS"
 	tr_mon 30, QWILFISH
 	end_trainer
 
-	def_trainer TULLY2, "MAIK"
+	def_trainer TULLY2, "AMADEUS"
 	tr_mon 35, GOLDEEN
 	tr_mon 35, QWILFISH
 	end_trainer
 
-	def_trainer TULLY3, "MAIK"
+	def_trainer TULLY3, "AMADEUS"
 	tr_mon 40, POLIWHIRL
 	tr_mon 40, SEAKING
 	tr_mon 40, QWILFISH
 	end_trainer
 
-	def_trainer TULLY4, "MAIK"
+	def_trainer TULLY4, "AMADEUS"
 	tr_mon 43, POLIWRATH
 		tr_moves RAIN_DANCE, HYPNOSIS, WATERFALL, CLOSE_COMBAT
 	tr_mon 43, SEAKING
@@ -2909,19 +2909,19 @@ FisherGroup:
 		tr_moves ROLLOUT, WATERFALL, PIN_MISSILE, TAKE_DOWN
 	end_trainer
 
-	def_trainer WILTON1, "AXEL"
+	def_trainer WILTON1, "ALFRIED"
 	tr_mon 34, GOLDEEN
 	tr_mon 36, REMORAID
 	tr_mon 36, SEAKING
 	end_trainer
 
-	def_trainer WILTON2, "AXEL"
+	def_trainer WILTON2, "ALFRIED"
 	tr_mon 36, GOLDEEN
 	tr_mon 38, REMORAID
 	tr_mon 38, SEAKING
 	end_trainer
 
-	def_trainer WILTON3, "AXEL"
+	def_trainer WILTON3, "ALFRIED"
 	tr_mon 38, GOLDEEN
 		tr_moves WATERFALL, FURY_STRIKES, POISON_JAB, RAIN_DANCE
 	tr_mon 40, SEAKING
@@ -3082,32 +3082,32 @@ SECTION "BirdKeeperGroup", ROMX
 BirdKeeperGroup:
 
 	def_trainer_class BIRD_KEEPER
-	def_trainer VANCE1, "RUDOLF"
+	def_trainer VANCE1, "ARNO"
 	tr_mon 36, PIDGEOTTO
 	tr_mon 36, PIDGEOTTO
 	end_trainer
 
-	def_trainer VANCE2, "RUDOLF"
+	def_trainer VANCE2, "ARNO"
 	tr_mon 40, PIDGEOTTO
 	tr_mon 40, PIDGEOTTO
 	end_trainer
 
-	def_trainer VANCE3, "RUDOLF"
+	def_trainer VANCE3, "ARNO"
 	tr_mon 45, PIDGEOT
 		tr_moves TOXIC, QUICK_ATTACK, ROAR, FLY
 	tr_mon 45, PIDGEOT
 		tr_moves SWIFT, PROTECT, STEEL_WING, FLY
 	end_trainer
 
-	def_trainer JOSE1, "Jose"
+	def_trainer JOSE1, "ELMAR"
 	tr_mon 44, FARFETCH_D
 	end_trainer
 
-	def_trainer JOSE2, "Jose"
+	def_trainer JOSE2, "ELMAR"
 	tr_mon 48, FARFETCH_D
 	end_trainer
 
-	def_trainer JOSE3, "Jose"
+	def_trainer JOSE3, "ELMAR"
 	tr_mon 55, FARFETCH_D
 		tr_moves SWORDS_DANCE, NIGHT_SLASH, PROTECT, BRAVE_BIRD
 	end_trainer
@@ -3284,16 +3284,16 @@ HikerGroup:
 		tr_moves KARATE_CHOP, BULLET_PUNCH, HEADBUTT, DIG
 	end_trainer
 
-	def_trainer PARRY1, "Parry"
+	def_trainer PARRY1, "GÜNTER"
 	tr_mon 30, ONIX
 	end_trainer
 
-	def_trainer PARRY2, "Parry"
+	def_trainer PARRY2, "GÜNTER"
 	tr_mon 36, ONIX
 	tr_mon 35, PILOSWINE
 	end_trainer
 
-	def_trainer PARRY3, "Parry"
+	def_trainer PARRY3, "GÜNTER"
 	tr_mon 36, PILOSWINE
 		tr_moves EARTHQUAKE, AVALANCHE, REST, TAKE_DOWN
 	tr_mon 36, DUGTRIO
@@ -3679,15 +3679,15 @@ SECTION "PokefanMGroup", ROMX
 PokefanMGroup:
 
 	def_trainer_class POKEFANM
-	def_trainer DEREK1, "DETLEV"
+	def_trainer DEREK1, "SÖNCKE"
 	tr_mon 18, PIKACHU @ ORAN_BERRY
 	end_trainer
 
-	def_trainer DEREK2, "DETLEV"
+	def_trainer DEREK2, "SÖNCKE"
 	tr_mon 19, PIKACHU @ ORAN_BERRY
 	end_trainer
 
-	def_trainer DEREK3, "DETLEV"
+	def_trainer DEREK3, "SÖNCKE"
 	tr_mon 36, PIKACHU @ SITRUS_BERRY
 	end_trainer
 
@@ -3854,20 +3854,20 @@ SECTION "PokemaniacGroup", ROMX
 PokemaniacGroup:
 
 	def_trainer_class POKEMANIAC
-	def_trainer BRENT1, "Brent"
+	def_trainer BRENT1, "TARO"
 	tr_mon 32, LICKITUNG
 	end_trainer
 
-	def_trainer BRENT2, "Brent"
+	def_trainer BRENT2, "TARO"
 	tr_mon 37, KANGASKHAN
 	end_trainer
 
-	def_trainer BRENT3, "Brent"
+	def_trainer BRENT3, "TARO"
 	tr_mon 42, PORYGON
 		tr_moves RECOVER, PSYCHIC_M, CONVERSION, TRI_ATTACK
 	end_trainer
 
-	def_trainer BRENT4, "Brent"
+	def_trainer BRENT4, "TARO"
 	tr_mon 47, CHANSEY
 		tr_moves ROLLOUT, ATTRACT, RETURN, FRESH_SNACK
 	end_trainer
@@ -4078,28 +4078,28 @@ SECTION "LassGroup", ROMX
 LassGroup:
 
 	def_trainer_class LASS
-	def_trainer DANA1, "Dana"
+	def_trainer DANA1, "ROSEMARIE"
 	tr_mon 19, FLAAFFY
 		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
 	tr_mon 19, PSYDUCK
 		tr_moves SCRATCH, LEER, DISABLE, CONFUSION
 	end_trainer
 
-	def_trainer DANA2, "Dana"
+	def_trainer DANA2, "ROSEMARIE"
 	tr_mon 21, FLAAFFY
 		tr_moves TACKLE, GROWL, THUNDERSHOCK, THUNDER_WAVE
 	tr_mon 21, PSYDUCK
 		tr_moves SCRATCH, LEER, DISABLE, CONFUSION
 	end_trainer
 
-	def_trainer DANA3, "Dana"
+	def_trainer DANA3, "ROSEMARIE"
 	tr_mon 29, PSYDUCK
 		tr_moves SCRATCH, DISABLE, CONFUSION, SCREECH
 	tr_mon 29, FLAAFFY
 		tr_moves TACKLE, THUNDERSHOCK, THUNDER_WAVE, THUNDERBOLT
 	end_trainer
 
-	def_trainer DANA4, "Dana"
+	def_trainer DANA4, "ROSEMARIE"
 	tr_mon 32, PSYDUCK
 		tr_moves SCRATCH, DISABLE, CONFUSION, SCREECH
 if DEF(FAITHFUL)
@@ -4111,7 +4111,7 @@ else
 endc
 	end_trainer
 
-	def_trainer DANA5, "Dana"
+	def_trainer DANA5, "ROSEMARIE"
 	tr_mon 36, AMPHAROS
 		tr_moves SWIFT, THUNDERPUNCH, THUNDER_WAVE, THUNDERBOLT
 	tr_mon 36, GOLDUCK
@@ -4511,7 +4511,7 @@ SECTION "JugglerGroup", ROMX
 JugglerGroup:
 
 	def_trainer_class JUGGLER
-	def_trainer IRWIN1, "Irwin"
+	def_trainer IRWIN1, "ERICH"
 	tr_mon 2, VOLTORB
 	tr_mon 6, VOLTORB
 	tr_mon 10, VOLTORB
@@ -4519,21 +4519,21 @@ JugglerGroup:
 	end_trainer
 
 ;	; unused
-;	def_trainer IRWIN2, "Irwin"
+;	def_trainer IRWIN2, "ERICH"
 ;	tr_mon 6, VOLTORB
 ;	tr_mon 10, VOLTORB
 ;	tr_mon 14, VOLTORB
 ;	tr_mon 18, VOLTORB
 ;	end_trainer
 
-;	def_trainer IRWIN3, "Irwin"
+;	def_trainer IRWIN3, "ERICH"
 ;	tr_mon 18, VOLTORB
 ;	tr_mon 22, VOLTORB
 ;	tr_mon 26, VOLTORB
 ;	tr_mon 30, ELECTRODE
 ;	end_trainer
 
-;	def_trainer IRWIN4, "Irwin"
+;	def_trainer IRWIN4, "ERICH"
 ;	tr_mon 18, VOLTORB
 ;	tr_mon 22, VOLTORB
 ;	tr_mon 26, VOLTORB
@@ -4557,28 +4557,28 @@ SECTION "SchoolboyGroup", ROMX
 SchoolboyGroup:
 
 	def_trainer_class SCHOOLBOY
-	def_trainer JACK1, "ULI"
+	def_trainer JACK1, "JULIUS"
 	tr_mon 12, ODDISH
 	tr_mon 15, VOLTORB
 	end_trainer
 
-	def_trainer JACK2, "ULI"
+	def_trainer JACK2, "JULIUS"
 	tr_mon 14, ODDISH
 	tr_mon 17, VOLTORB
 	end_trainer
 
-	def_trainer JACK3, "ULI"
+	def_trainer JACK3, "JULIUS"
 	tr_mon 28, GLOOM
 	tr_mon 31, ELECTRODE
 	end_trainer
 
-	def_trainer JACK4, "ULI"
+	def_trainer JACK4, "JULIUS"
 	tr_mon 30, GLOOM
 	tr_mon 33, GROWLITHE
 	tr_mon 33, ELECTRODE
 	end_trainer
 
-	def_trainer JACK5, "ULI"
+	def_trainer JACK5, "JULIUS"
 	tr_mon 35, ELECTRODE
 		tr_moves SCREECH, SONIC_BOOM, ROLLOUT, LIGHT_SCREEN
 	tr_mon 35, GROWLITHE
@@ -4587,30 +4587,30 @@ SchoolboyGroup:
 		tr_moves SOLAR_BEAM, SLEEP_POWDER, ACID, HEALINGLIGHT
 	end_trainer
 
-	def_trainer ALAN1, "Alan"
+	def_trainer ALAN1, "HOLGER"
 	tr_mon 17, TANGELA
 	end_trainer
 
-	def_trainer ALAN2, "Alan"
+	def_trainer ALAN2, "HOLGER"
 	tr_mon 17, TANGELA
 	tr_mon 17, YANMA
 	end_trainer
 
-	def_trainer ALAN3, "Alan"
+	def_trainer ALAN3, "HOLGER"
 	tr_mon 20, NATU
 	tr_mon 22, TANGELA
 	tr_mon 20, QUAGSIRE
 	tr_mon 25, YANMA
 	end_trainer
 
-	def_trainer ALAN4, "Alan"
+	def_trainer ALAN4, "HOLGER"
 	tr_mon 27, NATU
 	tr_mon 27, TANGELA
 	tr_mon 30, QUAGSIRE
 	tr_mon 30, YANMA
 	end_trainer
 
-	def_trainer ALAN5, "Alan"
+	def_trainer ALAN5, "HOLGER"
 	tr_mon 35, XATU
 		tr_moves PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
 	tr_mon 38, TANGROWTH
@@ -4621,26 +4621,26 @@ SchoolboyGroup:
 		tr_moves LEER, HEADBUTT, AMNESIA, EARTHQUAKE
 	end_trainer
 
-	def_trainer CHAD1, "UDO"
+	def_trainer CHAD1, "LUTZ"
 	tr_mon 20, MR__MIME
 	end_trainer
 
-	def_trainer CHAD2, "UDO"
+	def_trainer CHAD2, "LUTZ"
 	tr_mon 20, MR__MIME
 	tr_mon 20, MAGNEMITE
 	end_trainer
 
-	def_trainer CHAD3, "UDO"
+	def_trainer CHAD3, "LUTZ"
 	tr_mon 27, MR__MIME
 	tr_mon 31, MAGNETON
 	end_trainer
 
-	def_trainer CHAD4, "UDO"
+	def_trainer CHAD4, "LUTZ"
 	tr_mon 30, MR__MIME
 	tr_mon 34, MAGNETON
 	end_trainer
 
-	def_trainer CHAD5, "UDO"
+	def_trainer CHAD5, "LUTZ"
 	tr_mon 34, MR__MIME
 		tr_moves PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
 	tr_mon 38, MAGNETON
@@ -5362,22 +5362,22 @@ SECTION "SailorGroup", ROMX
 SailorGroup:
 
 	def_trainer_class SAILOR
-	def_trainer HUEY1, "Huey"
+	def_trainer HUEY1, "NEPOMUK"
 	tr_mon 18, POLIWAG
 	tr_mon 20, POLIWHIRL
 	end_trainer
 
-	def_trainer HUEY2, "Huey"
+	def_trainer HUEY2, "NEPOMUK"
 	tr_mon 28, POLIWHIRL
 	tr_mon 28, POLIWHIRL
 	end_trainer
 
-	def_trainer HUEY3, "Huey"
+	def_trainer HUEY3, "NEPOMUK"
 	tr_mon 34, POLIWHIRL
 	tr_mon 34, POLIWRATH
 	end_trainer
 
-	def_trainer HUEY4, "Huey"
+	def_trainer HUEY4, "NEPOMUK"
 	tr_mon 38, POLITOED
 		tr_moves WHIRLPOOL, RAIN_DANCE, BODY_SLAM, PERISH_SONG
 	tr_mon 38, POLIWRATH
@@ -5999,19 +5999,19 @@ SECTION "BlackbeltGroup", ROMX
 BlackbeltGroup:
 
 	def_trainer_class BLACKBELT_T
-	def_trainer KENJI1, "Kenji"
+	def_trainer KENJI1, "KENJI"
 	tr_mon 39, MACHOKE
 	end_trainer
 
 ;	; unused
-;	def_trainer KENJI2, "Kenji"
+;	def_trainer KENJI2, "KENJI"
 ;	tr_mon 36, ONIX
 ;	tr_mon 38, HITMONLEE
 ;	tr_mon 36, ONIX
 ;	tr_mon 39, MACHOKE
 ;	end_trainer
 
-;	def_trainer KENJI3, "Kenji"
+;	def_trainer KENJI3, "KENJI"
 ;	tr_mon 33, ONIX
 ;		tr_moves WRAP, ROCK_THROW, TOXIC, DIG
 ;	tr_mon 38, MACHAMP
@@ -6685,7 +6685,7 @@ SECTION "CooltrainerMGroup", ROMX
 CooltrainerMGroup:
 
 	def_trainer_class COOLTRAINERM
-	def_trainer GAVEN1, "Gaven"
+	def_trainer GAVEN1, "MAIK"
 	tr_mon 39, VICTREEBEL
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
 	tr_mon 39, KINGLER
@@ -6694,7 +6694,7 @@ CooltrainerMGroup:
 		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
 	end_trainer
 
-	def_trainer GAVEN2, "Gaven"
+	def_trainer GAVEN2, "MAIK"
 	tr_mon 41, VICTREEBEL
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
 	tr_mon 41, KINGLER
@@ -6703,7 +6703,7 @@ CooltrainerMGroup:
 		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
 	end_trainer
 
-	def_trainer GAVEN3, "Gaven"
+	def_trainer GAVEN3, "MAIK"
 	tr_mon 45, VICTREEBEL
 		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
 	tr_mon 45, KINGLER @ KINGS_ROCK
@@ -6888,14 +6888,14 @@ SECTION "CooltrainerFGroup", ROMX
 CooltrainerFGroup:
 
 	def_trainer_class COOLTRAINERF
-	def_trainer BETH1, "Beth"
+	def_trainer BETH1, "DEA"
 	tr_mon 40, RAPIDASH
 		tr_moves STOMP, FIRE_SPIN, PLAY_ROUGH, AGILITY
 	tr_mon 39, FLAAFFY
 		tr_moves SWIFT, THUNDERSHOCK, THUNDER_WAVE, LIGHT_SCREEN
 	end_trainer
 
-	def_trainer BETH2, "Beth"
+	def_trainer BETH2, "DEA"
 	tr_mon 45, RAPIDASH
 		tr_moves STOMP, FIRE_SPIN, PLAY_ROUGH, AGILITY
 	tr_mon 44, AMPHAROS
@@ -6906,7 +6906,7 @@ else
 endc
 	end_trainer
 
-	def_trainer BETH3, "Beth"
+	def_trainer BETH3, "DEA"
 	tr_mon 49, RAPIDASH @ FOCUS_BAND
 		tr_moves STOMP, FIRE_SPIN, PLAY_ROUGH, FIRE_BLAST
 	tr_mon 48, AMPHAROS
@@ -6917,19 +6917,19 @@ else
 endc
 	end_trainer
 
-	def_trainer REENA1, "Reena"
+	def_trainer REENA1, "BEA"
 	tr_mon 37, ARCANINE
 	tr_mon 40, NIDOQUEEN
 	tr_mon 38, STARMIE
 	end_trainer
 
-	def_trainer REENA2, "Reena"
+	def_trainer REENA2, "BEA"
 	tr_mon 41, ARCANINE
 	tr_mon 44, NIDOQUEEN
 	tr_mon 42, STARMIE
 	end_trainer
 
-	def_trainer REENA3, "Reena"
+	def_trainer REENA3, "BEA"
 	tr_mon 45, ARCANINE
 		tr_moves BITE, LEER, TAKE_DOWN, FLAME_CHARGE
 	tr_mon 48, NIDOQUEEN @ SILK_SCARF
