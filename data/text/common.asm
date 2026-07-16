@@ -3482,6 +3482,7 @@ _SaveFileCorruptedText::
 
 SECTION "_GainedItemText", ROMX
 _GainedItemText::
+	; GSC-DE: "<PLAYER> erhält / ITEM."
 	text "<PLAYER> erhält"
 	line ""
 	text_ram wStringBuffer4
@@ -3500,13 +3501,14 @@ _GainedMultipleItemsText::
 
 SECTION "_PutItemInPocketText", ROMX
 _PutItemInPocketText::
-	; Item + Fach je eigene Zeile (sonst Overflow:
-	; "Oranbeere in die Beeren." u.ä. >> 18)
+	; 2-Zeilen-Textbox + cont (NICHT 4× line — sonst
+	; Overflow / kaputte Anzeige, z.B. Assistenz-Trank).
+	; Zeile2: "ITEM in" (≤18); cont: "die FACH."
 	text "<PLAYER> steckte"
 	line ""
 	text_ram wStringBuffer1
-	line "in die"
-	line ""
+	text " in"
+	cont "die "
 	text_ram wStringBuffer3
 	text "."
 	prompt
