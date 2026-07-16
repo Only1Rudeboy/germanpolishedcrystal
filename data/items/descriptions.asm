@@ -948,7 +948,7 @@ BlackGlassesDesc:
 
 FairyFeatherDesc:
 	text "Verstärkt Feen-"
-	next "Attacken. (halten)"
+	next "Attacken. (TRAGEN)"
 	done
 
 BrightPowderDesc:
@@ -962,7 +962,7 @@ ScopeLensDesc:
 	done
 RazorClawDesc:
 	text "Erhöht Volltref-"
-	next "ferquote. (halten)"
+	next "ferquote. (TRAGEN)"
 	done
 
 
@@ -1043,7 +1043,7 @@ MetalPowderDesc:
 
 QuickPowderDesc:
 	text "Erhöht Dittos"
-	next "Tempo. (halten)"
+	next "Tempo. (TRAGEN)"
 	done
 
 ArmorSuitDesc:
@@ -1063,17 +1063,17 @@ AssaultVestDesc:
 
 BigRootDesc:
 	text "Verstärkt Entzug-"
-	next "Attacken. (halten)"
+	next "Attacken. (TRAGEN)"
 	done
 
 BindingBandDesc:
 	text "Verstärkt Fessel-"
-	next "Attacken. (halten)"
+	next "Attacken. (TRAGEN)"
 	done
 
 DestinyKnotDesc:
 	text "Verliebt Gegner"
-	next "zurück. (halten)"
+	next "zurück. (TRAGEN)"
 	done
 
 ExpertBeltDesc:
@@ -1113,7 +1113,7 @@ ProtectPadsDesc:
 
 RockyHelmetDesc:
 	text "Schadet Gegner bei"
-	next "Kontakt. (halten)"
+	next "Kontakt. (TRAGEN)"
 	done
 
 SafeGogglesDesc:
@@ -1123,7 +1123,7 @@ SafeGogglesDesc:
 
 ShedShellDesc:
 	text "Ermöglicht Wechsel"
-	next "(halten)"
+	next "(TRAGEN)"
 	done
 
 ShellBellDesc:
@@ -1143,7 +1143,7 @@ WeakPolicyDesc:
 
 WideLensDesc:
 	text "Erhöht leicht die"
-	next "Genauigk. (halten)"
+	next "Genauigk. (TRAGEN)"
 	done
 
 ZoomLensDesc:
@@ -1158,7 +1158,7 @@ MentalHerbDesc:
 
 PowerHerbDesc:
 	text "Überspringt"
-	next "Aufladen. (halten)"
+	next "Aufladen. (TRAGEN)"
 	done
 
 WhiteHerbDesc:
@@ -1168,12 +1168,12 @@ WhiteHerbDesc:
 
 DampRockDesc:
 	text "Verlängert Regen."
-	next "(halten)"
+	next "(TRAGEN)"
 	done
 
 HeatRockDesc:
 	text "Verlängert Sonne."
-	next "(halten)"
+	next "(TRAGEN)"
 	done
 
 SmoothRockDesc:
@@ -1183,7 +1183,7 @@ SmoothRockDesc:
 
 IcyRockDesc:
 	text "Verlängert Hagel."
-	next "(halten)"
+	next "(TRAGEN)"
 	done
 
 ChoiceBandDesc:
@@ -1203,12 +1203,12 @@ ChoiceSpecsDesc:
 
 FlameOrbDesc:
 	text "Verursacht"
-	next "Verbren. (halten)"
+	next "Verbren. (TRAGEN)"
 	done
 
 ToxicOrbDesc:
 	text "Verursacht schwere"
-	next "Vergift. (halten)"
+	next "Vergift. (TRAGEN)"
 	done
 
 BlackSludgeDesc:
@@ -1464,17 +1464,17 @@ MirageMailDesc:
 
 EjectButtonDesc:
 	text "Wechselt bei"
-	next "Treffer. (halten)"
+	next "Treffer. (TRAGEN)"
 	done
 
 LaggingTailDesc:
 	text "Handelt immer"
-	next "zuletzt. (halten)"
+	next "zuletzt. (TRAGEN)"
 	done
 
 IronBallDesc:
 	text "Senkt Tempo, erdet"
-	next "#MON. (halten)"
+	next "#MON. (TRAGEN)"
 	done
 
 RedCardDesc:
@@ -1524,7 +1524,7 @@ ThroatSprayDesc:
 
 HeavyBootsDesc:
 	text "Schützt vor"
-	next "Fallen. (halten)"
+	next "Fallen. (TRAGEN)"
 	done
 
 LoadedDiceDesc:

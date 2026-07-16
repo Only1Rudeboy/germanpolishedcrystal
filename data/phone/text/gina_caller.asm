@@ -89,16 +89,17 @@ GinaFoundItemText:
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, ich habe"
-	line "noch nichts"
+	text "Tut mir leid!"
+	line "Ich habe noch"
 
-	para "Brauchbares gefun-"
-	line "den… ich ver-"
-	cont "spreche, dass du"
+	para "nichts Brauchbares"
+	line "gefunden… ich"
 
-	para "es haben kannst,"
-	line "wenn ich etwas"
-	cont "finde!"
+	para "verspreche, dass"
+	line "du es bekommst,"
+
+	para "wenn ich etwas"
+	line "finde!"
 	done
 
 GinaReminderText:

@@ -78,7 +78,7 @@ RalphHangUpText:
 RalphItemText:
 	text "Hör mal, ich…Aua!"
 
-	para "Sorry! Pass auf,"
+	para "Achtung! Pass auf,"
 	line ""
 	text_ram wStringBuffer4
 	text " beißen,"

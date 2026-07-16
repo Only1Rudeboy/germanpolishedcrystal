@@ -277,7 +277,7 @@ BT_PartySelect:
 	jmp .loop
 
 .too_many_mons_text
-	text "Nur mit 3 #mon"
+	text "Nur mit 3 #MON"
 	line "darfst du"
 	cont "eintreten!"
 	prompt
@@ -318,14 +318,14 @@ BTText_EnterBattle:
 	db "Kampf beginnen?@"
 
 BTText_SameSpecies:
-	text "Die #mon müssen"
+	text "Die #MON müssen"
 	line "verschiedene Arten"
 	cont "sein!"
 	prompt
 
 BTText_SameItem:
 	text "Die getragenen"
-	line "Items der #mon"
+	line "Items der #MON"
 	cont "müssen sich"
 	cont "unterscheiden!"
 	prompt
@@ -1298,7 +1298,7 @@ PartyMenuStrings:
 	assert_table_length NUM_PARTYMENUACTIONS
 
 ChooseAMonString:
-	db "Wähle ein #mon.@"
+	db "Wähle ein #MON.@"
 UseOnWhichPKMNString:
 	db "Bei welchem <PK><MN>?@"
 WhichPKMNString:

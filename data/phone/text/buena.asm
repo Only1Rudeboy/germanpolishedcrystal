@@ -208,7 +208,7 @@ BuenaPhoneStressedFromWorkText:
 	para "Ahh! M-MARIA!"
 
 	para "Uh… Ähm… Ich…"
-	line "Sorry, verwählt!"
+	line "Falsch verbunden!"
 	done
 
 BuenaPhoneProfessorOakText:

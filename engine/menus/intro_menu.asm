@@ -55,14 +55,14 @@ NewGamePlus:
 	jr _NewGame_FinishSetup
 
 .text
-	text "Neues Spiel+ behält"
-	line "dein bisheriges"
+	text "Neues Spiel+"
+	line "behält dein"
 
-	para "Geld, deine"
-	line "Kampfpunkte und"
+	para "bisheriges Geld,"
+	line "deine Kampfpunkte"
 
-	para "alle #mon im PC"
-	line "gespeichert!"
+	para "und alle #MON"
+	line "im PC!"
 
 	para "Willst du wirklich"
 	line "Neues Spiel+"

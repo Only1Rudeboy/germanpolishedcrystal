@@ -2848,7 +2848,7 @@ BillsPC_ReleaseAll:
 
 .CantRecallReleasedMons:
 	text "Freigelassene"
-	line "#mon kannst du"
+	line "#MON kannst du"
 	cont "nicht zurückholen."
 	cont "Bist du sicher?"
 	done
@@ -2859,7 +2859,7 @@ BillsPC_ReleaseAll:
 
 .NothingReleased:
 	text "Du kannst keine"
-	line "Eier oder #mon"
+	line "Eier oder #MON"
 	cont "mit VM-Attacken"
 	cont "freilassen."
 	prompt
@@ -2867,7 +2867,7 @@ BillsPC_ReleaseAll:
 .ReleasedXMon:
 	text "Freigelassen: "
 	text_decimal wTextDecimalByte, 1, 2
-	line "#mon."
+	line "#MON."
 	prompt
 
 .TheRestWasnt:
@@ -3436,7 +3436,7 @@ BillsPC_SwapStorage:
 BillsPC_LastPartyMon:
 	text "Das ist dein"
 	line "letztes gesundes"
-	cont "#mon!"
+	cont "#MON!"
 	prompt
 
 BillsPC_MustSaveToContinue:

@@ -74,7 +74,7 @@ OptionsDescriptions:
 	prompt
 
 .Nicknames:
-	text "Ob neue #mon"
+	text "Ob neue #MON"
 	line "Spitznamen"
 	cont "bekommen."
 	prompt

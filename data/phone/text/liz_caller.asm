@@ -72,7 +72,7 @@ LizWrongNumberText:
 	line "zu Tode!"
 
 	para "Huch… Verwählt?"
-	line "Ups! Sorry!"
+	line "Ups! Verzeihung!"
 	done
 
 LizHangUpText:

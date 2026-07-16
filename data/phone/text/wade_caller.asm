@@ -102,9 +102,9 @@ WadeFoundItemText:
 WadeNoBerriesText:
 	text "Huch? BEEREN?"
 
-	para "Sorry, ich habe"
-	line "noch keine ge-"
-	cont "funden."
+	para "Tut mir leid!"
+	line "Ich habe noch"
+	cont "keine gefunden."
 
 	para "Ich rufe an, wenn"
 	line "ich welche finde."

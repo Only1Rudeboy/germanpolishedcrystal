@@ -213,7 +213,7 @@ SummaryScreen_PinkPage:
 	ret
 
 .PlaceOTInfo:
-	; for rental mons, replace the whole thing with "Rental #mon"
+	; for rental mons, replace the whole thing with "Rental #MON"
 	farcall BT_InRentalMode
 	hlbgcoord 0, 4, wSummaryScreenWindowBuffer
 	jr nz, .not_rental_mon
@@ -258,7 +258,7 @@ INCLUDE "gfx/stats/pink_page.pal"
 
 .Rental_OT:
 	text "Leih-"
-	next1 "  #mon"
+	next1 "  #MON"
 	done
 
 .ExpPointStr:

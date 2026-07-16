@@ -76,7 +76,7 @@ INCLUDE "gfx/stats/orange_page.pal"
 	db "Kampffabrik@"
 
 .event
-	db "Event-#mon@"
+	db "Event-#MON@"
 
 .TN_PrintLV:
 	ld a, [wTempMonCaughtLevel]

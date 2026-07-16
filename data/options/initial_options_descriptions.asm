@@ -95,7 +95,7 @@ InitialOptionDescriptions:
 	prompt
 
 .AffectionBonus:
-	text "Deine #mon"
+	text "Deine #MON"
 	line "profitieren im"
 	cont "Kampf, wenn sie"
 
@@ -128,12 +128,12 @@ InitialOptionDescriptions:
 	line "berechnet, als"
 	cont "wären die DVs"
 	cont "perfekt 15, für"
-	cont "deine #mon und"
+	cont "deine #MON und"
 	cont "Gegner."
 	prompt
 
 .TradedMon:
-	text "Getauschte #mon"
+	text "Getauschte #MON"
 	line "gehorchen dir und"
 	cont "können Spitznamen"
 	cont "bekommen,"
@@ -143,7 +143,7 @@ InitialOptionDescriptions:
 	prompt
 
 .EvolveInBattle:
-	text "Deine #mon"
+	text "Deine #MON"
 	line "können sich"
 	cont "während"
 	cont "Trainerkämpfen"
@@ -154,7 +154,7 @@ InitialOptionDescriptions:
 	prompt
 
 .ColorVariation:
-	text "Einzelne #mon,"
+	text "Einzelne #MON,"
 	line "normal und shiny,"
 	cont "erhalten leicht"
 	cont "abweichende"

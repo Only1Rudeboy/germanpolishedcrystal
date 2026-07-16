@@ -150,8 +150,9 @@ BrentSorryImTooBusyText:
 	text "Du willst mehr"
 	line "über BILL wissen?"
 
-	para "Sorry, aber ich"
-	line "bin beschäftigt."
+	para "Tut mir leid!"
+	line "Ich bin be-"
+	cont "schäftigt."
 
 	para "Ich rufe zurück,"
 	line "wenn ich Zeit"

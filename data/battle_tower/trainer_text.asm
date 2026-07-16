@@ -50,7 +50,7 @@ _BTWinM3Text:
 	done
 
 _BTGreetingM4Text:
-	text "Heh, deine #mon"
+	text "Heh, deine #MON"
 	line "sehen cool aus."
 	done
 
@@ -66,7 +66,7 @@ _BTWinM4Text:
 	done
 
 _BTGreetingM5Text:
-	text "Jeden Tag #mon!"
+	text "Jeden Tag #MON!"
 	line "Ich lieb Kämpfe!"
 	done
 
@@ -222,13 +222,13 @@ _BTGreetingM14Text:
 	done
 
 _BTLossM14Text:
-	text "Diese #mon"
+	text "Diese #MON"
 	line "reichen nicht!"
 	done
 
 _BTWinM14Text:
 	text "Ich will deine"
-	line "#mon. Bitte?"
+	line "#MON. Bitte?"
 	done
 
 _BTGreetingM15Text:
@@ -263,7 +263,7 @@ _BTWinM16Text:
 	done
 
 _BTGreetingM17Text:
-	text "Meine #mon sind"
+	text "Meine #MON sind"
 	line "phänomenal!"
 	done
 
@@ -334,17 +334,17 @@ _BTGreetingM21Text:
 	text "Ich hab Angst vor"
 	line "dem, was passiert."
 
-	para "Meine #mon sind"
+	para "Meine #MON sind"
 	line "viel zu stark."
 	done
 
 _BTLossM21Text:
 	text "Siehst du? Meine"
-	line "#mon war stark."
+	line "#MON war stark."
 	done
 
 _BTWinM21Text:
-	text "Ha! Meine #mon"
+	text "Ha! Meine #MON"
 	line "waren totale"
 	cont "Schwächlinge!"
 	done
@@ -404,7 +404,7 @@ _BTGreetingM25Text:
 	done
 
 _BTLossM25Text:
-	text "Jo! Meine #mon"
+	text "Jo! Meine #MON"
 	line "sind die Besten!"
 	done
 
@@ -428,7 +428,7 @@ _BTWinF1Text:
 	done
 
 _BTGreetingF2Text:
-	text "Hey! Meine #mon"
+	text "Hey! Meine #MON"
 	line "sind echt süß!"
 	done
 
@@ -474,23 +474,23 @@ _BTWinF4Text:
 
 _BTGreetingF5Text:
 	text "Ach, du hast"
-	line "seltene #mon."
+	line "seltene #MON."
 	done
 
 _BTLossF5Text:
 	text "Darf ich eins"
-	line "deiner #mon?"
+	line "deiner #MON?"
 	done
 
 _BTWinF5Text:
 	text "…Ich will eins"
-	line "deiner #mon."
+	line "deiner #MON."
 	done
 
 _BTGreetingF6Text:
 	text "Willst du von"
 	line "meinen süßen"
-	cont "#mon hören?"
+	cont "#MON hören?"
 	done
 
 _BTLossF6Text:
@@ -659,7 +659,7 @@ BattleTowerText_GreetingTycoon:
 
 	para "Zeig mir die"
 	line "Bindung zu deinen"
-	cont "#mon."
+	cont "#MON."
 
 	para "Zeig mir, was du"
 	line "in Kämpfen gegen"

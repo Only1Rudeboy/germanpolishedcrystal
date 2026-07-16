@@ -43,7 +43,7 @@ JudgeMachine:
 
 NewsMachineOffText:
 	text "Das ist die"
-	line "#mon-"
+	line "#MON-"
 	cont "Bewertungs-"
 	cont "maschine!"
 
@@ -53,28 +53,28 @@ NewsMachineOffText:
 
 NewsMachineIntroText:
 	text "Das ist die"
-	line "#mon-"
+	line "#MON-"
 	cont "Bewertungs-"
 	cont "maschine!"
 
 	para "Soll ich die"
 	line "Gesamtstärke eines"
-	cont "#mon bewerten?"
+	cont "#MON bewerten?"
 	done
 
 NewsMachineWhichMonText:
 	text "Bitte wähle ein"
-	line "#mon."
+	line "#MON."
 	prompt
 
 NewsMachinePrepText:
 	text "Zeige die Stärke"
-	line "deines #mon…"
+	line "deines #MON…"
 	prompt
 
 NewsMachineContinueText:
 	text "Soll ich noch ein"
-	line "#mon bewerten?"
+	line "#MON bewerten?"
 	done
 
 NewsMachineCancelText:

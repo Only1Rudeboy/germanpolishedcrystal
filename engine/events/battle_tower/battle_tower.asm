@@ -470,18 +470,18 @@ Special_BattleTower_NextRentalBattle:
 
 .NewRentalsText:
 	text "Wir bewahren dein"
-	line "#mon sicher auf"
+	line "#MON sicher auf"
 	cont "und bieten dir 6"
-	cont "Leih-#mon an."
+	cont "Leih-#MON an."
 
-	para "Wähle #mon für"
+	para "Wähle #MON für"
 	line "den Kampf."
 	prompt
 
 .TradeBeforeBattle:
 	text "Möchtest du vor"
 	line "dem Kampf ein"
-	cont "#mon tauschen?"
+	cont "#MON tauschen?"
 	done
 
 .ExpectThese3:
@@ -519,7 +519,7 @@ Special_BattleTower_NextRentalBattle:
 
 .SomeMonUsingMove:
 	text "Erwarte ein"
-	line "#mon mit"
+	line "#MON mit"
 	cont ""
 	text_ram wStringBuffer1
 	text "."
@@ -536,7 +536,7 @@ Special_BattleTower_NextRentalBattle:
 	line "bevorzugt"
 	cont ""
 	text_ram wStringBuffer1
-	cont "-Typ-#mon."
+	cont "-Typ-#MON."
 	prompt
 
 Special_BattleTower_SelectParticipants:

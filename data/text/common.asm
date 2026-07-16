@@ -4504,20 +4504,7 @@ WonderTradeCantTradeSpikyEaredPichuText::
 	line "besser, wo es ist."
 	prompt
 
-;SECTION "WonderTradeCantTradeEggText", ROMX
-;WonderTradeCantTradeEggText::
-;	text "Sorry. We can't"
-;	line "accept an Egg."
-;	prompt
-
-;SECTION "WonderTradeCantAcceptAbnormalMonText", ROMX
-;WonderTradeCantAcceptAbnormalMonText::
-;	text "Sorry, but your"
-;	line "#MON appears to"
-;
-;	para "be abnormal. We"
-;	line "can't accept it."
-;	prompt
+; WonderTradeCantTradeEgg / AbnormalMon: unused EN stubs removed (PC uses other checks)
 
 SECTION "WonderTradeConfirmText", ROMX
 WonderTradeConfirmText::
