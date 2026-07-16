@@ -72,10 +72,10 @@ SinjohRuinsHousePokefanmText:
 	text "Vor langer Zeit"
 	line "hatten Menschen"
 	para "eine engere"
-	line "Bindung #mon."
+	line "Bindung #MON."
 	para "Mythen und"
 	line "Legenden über"
-	cont "mächtige #mon"
+	cont "mächtige #MON"
 	cont "entstanden,"
 	para "und diese Legenden"
 	line "verbreiteten sich"
@@ -142,7 +142,7 @@ SinjohRuinsHouseCynthiaNoText:
 
 SinjohRuinsHouseCynthiaYesText:
 	text "Cynthia: Bevor ich"
-	line "mein #mon"
+	line "mein #MON"
 	cont "schicke,"
 	para "beginnt mein Herz"
 	line "immer zu rasen …"

@@ -27,7 +27,7 @@ VioletNicknameSpeechHouseTeacherText:
 	line "Namen ihrer"
 	cont "Lieblingsspeisen,"
 	para "als Spitznamen für"
-	line "ihre #mon,"
+	line "ihre #MON,"
 	cont "meine ich."
 	done
 

@@ -67,7 +67,7 @@ BurglarLouisBeatenText:
 
 PokemonMansion1FMewtwoStatueText:
 	text "Eine"
-	line "#mon-Statue…"
+	line "#MON-Statue…"
 	para "Sie wirkt sehr"
 	line "bedrohlich."
 	done

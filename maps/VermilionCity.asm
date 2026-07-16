@@ -237,7 +237,7 @@ VermilionMachokeOwnerScript:
 	iftrue_jumptextfaceplayer VermilionMachokeOwnerText
 	jumpthistextfaceplayer
 
-	text "Meine #mon"
+	text "Meine #MON"
 	line "bereiteten das"
 	cont "Land"
 	para "für dieses riesige"
@@ -268,7 +268,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 	text "Es ist vorteil-"
 	line "haft, wenn du"
 
-	para "#mon verschie-"
+	para "#MON verschie-"
 	line "dener Elemente"
 	cont "kämpfen lässt."
 
@@ -285,7 +285,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 
 LawrenceOverheardText:
 	text "…Das legendäre"
-	line "#mon war nicht"
+	line "#MON war nicht"
 	cont "auf jener Insel…"
 
 	para "Ich muss meine"
@@ -307,7 +307,7 @@ LawrenceIntroText:
 	line "Liga-Champion?"
 	para "… Nun, der Schein"
 	line "trügt manchmal."
-	para "Legendäre #mon"
+	para "Legendäre #MON"
 	line "sind schon immer"
 	cont "meine"
 	cont "Leidenschaft."
@@ -318,7 +318,7 @@ LawrenceIntroText:
 	line "fand aber nicht,"
 	cont "was ich suchte."
 	para "Ach, du hast"
-	line "#mon aus JOHTOs"
+	line "#MON aus JOHTOs"
 	cont "Legenden"
 	cont "getroffen?"
 	para "Dann kreuzen sich"
@@ -348,7 +348,7 @@ VermilionCityTeacherText:
 
 
 VermilionMachokeOwnerText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "bereiteten das"
 	cont "Land"
 	para "für dieses riesige"
@@ -482,9 +482,9 @@ VermilionGymSignText:
 
 
 PokemonFanClubSignText:
-	text "#mon-FANCLUB"
+	text "#MON-FANCLUB"
 
-	para "Alle #mon-Fans"
+	para "Alle #MON-Fans"
 	line "sind willkommen!"
 	done
 
@@ -523,5 +523,5 @@ VermilionCityBattleFactorySignText:
 	text "KAMPF-FABRIK"
 
 	para "Gewinne alles mit"
-	line "Leih-#mon!"
+	line "Leih-#MON!"
 	done

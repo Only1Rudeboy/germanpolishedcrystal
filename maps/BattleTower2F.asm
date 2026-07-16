@@ -53,10 +53,8 @@ BattleTower2FCherylScript:
 	writethistext
 		text "Oh, hallo,"
 		line "<PLAYER>."
-
 		para "Es ist lange her…"
 		line "nicht wahr?"
-
 		para "Hättest du Lust,"
 		line "gegen mich zu"
 		cont "kämpfen?"
@@ -67,8 +65,7 @@ BattleTower2FCherylScript:
 	writethistext
 		text "Ich sollte dich"
 		line "warnen, meine"
-		cont "#mon können"
-
+		cont "#MON können"
 		para "recht wild sein."
 		done
 	waitbutton
@@ -99,28 +96,24 @@ BattleTower2FCherylScript:
 	cont "mehr entdeckst du."
 	para "Aber weißt du was?"
 	line "Genau dafür liebe"
-	cont "ich #mon auch!"
+	cont "ich #MON auch!"
 	done
 
 .BeatenText:
 	text "Die richtige"
 	line "Balance aus"
 	cont "Angriff und"
-
 	para "Verteidigung zu"
 	line "finden…"
-
 	para "Das ist nicht"
 	line "leicht."
 	done
 
 .RefuseText:
 	text "Kicher…"
-
-	para "Unsere #mon"
+	para "Unsere #MON"
 	line "wären ganz"
 	cont "erschöpft, wenn"
-
 	para "wir ständig"
 	line "kämpfen würden,"
 	cont "oder?"
@@ -132,9 +125,8 @@ BattleTower2FRileyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "Hi. Lange nicht"
+		text "Hallo. Lange nicht"
 		line "gesehen."
-
 		para "Dieser Blick… ich"
 		line "nehme an, du bist"
 		cont "kampfbereit?"
@@ -164,21 +156,21 @@ BattleTower2FRileyScript:
 .AfterText:
 	text "Wäre ich nicht in"
 	line "der Düsterhöhle"
-	cont "gewesen …"
+	cont "gewesen…"
 	para "wärst du nicht in"
 	line "der Düsterhöhle"
-	cont "gewesen …"
+	cont "gewesen…"
 	para "hätten wir uns nie"
 	line "getroffen."
 	para "Oder wären wir uns"
-	line "woanders begegnet?"
+	line "woanders"
+	cont "begegnet?"
 	done
 
 .BeatenText:
 	text "Manchmal kämpfen"
 	line "wir, manchmal tun"
 	cont "wir uns zusammen."
-
 	para "Toll, wie Trainer"
 	line "miteinander"
 	cont "umgehen können."
@@ -205,7 +197,7 @@ BattleTower2FBuckScript:
 	setflag ENGINE_BUCK_DONE_TODAY
 	writethistext
 		text "Ich spüre, wie"
-		line "meine #mon vor"
+		line "meine #MON vor"
 		cont "Vorfreude zittern!"
 		done
 	waitbutton
@@ -226,15 +218,14 @@ BattleTower2FBuckScript:
 .AfterText:
 	text "Puh! Das war"
 	line "heftig!"
-
 	para "Ich feile wohl"
 	line "weiter an meinem"
 	cont "Team."
 	done
 
 .BeatenText:
-	text "Heeheehee! Du bist"
-	line "heiß!"
+	text "Hehehe! Du bist"
+	line "der Hammer!"
 	done
 
 .RefuseText:
@@ -256,7 +247,7 @@ BattleTower2FMarleyScript:
 	iffalse_jumpopenedtext .RefuseText
 	setflag ENGINE_MARLEY_DONE_TODAY
 	writethistext
-		text "…Okay. Ich…"
+		text "…O.K. Ich…"
 		line "verliere nicht…!"
 		done
 	waitbutton
@@ -280,12 +271,12 @@ BattleTower2FMarleyScript:
 	jumpthistext
 
 .AfterText:
-	text "… Kämpfen mit dir"
+	text "…Kämpfen mit dir"
 	line "gefällt mir"
 	cont "vielleicht."
-	para "… Nur ein"
-	line "bisschen. Nur ganz"
-	cont "wenig."
+	para "…Nur ein"
+	line "bisschen. Nur"
+	cont "ganz wenig."
 	done
 
 .BeatenText:
@@ -293,7 +284,7 @@ BattleTower2FMarleyScript:
 	done
 
 .RefuseText:
-	text "… Ach, du. Ich mag"
+	text "…Ach, du. Ich mag"
 	line "dich langsam etwas"
 	cont "weniger."
 	done
@@ -306,7 +297,6 @@ BattleTower2FMiraScript:
 	writethistext
 		text "<PLAYER>! Mira ist"
 		line "jetzt stärker!"
-
 		para "Bitte! Kämpf mit"
 		line "Mira!"
 		done
@@ -317,7 +307,6 @@ BattleTower2FMiraScript:
 		text "Mira zeigt dir,"
 		line "dass Mira sich"
 		cont "nicht mehr"
-
 		para "verirrt, <PLAYER>!"
 		done
 	waitbutton
@@ -338,11 +327,9 @@ BattleTower2FMiraScript:
 .AfterText:
 	text "<PLAYER>, du bist"
 	line "immer bei deinen"
-	cont "#mon."
-
+	cont "#MON."
 	para "So bist du so"
 	line "stark geworden."
-
 	para "Mira beginnt zu"
 	line "verstehen!"
 	done
@@ -350,7 +337,8 @@ BattleTower2FMiraScript:
 .BeatenText:
 	text "Mira fragt sich,"
 	line "ob sie es weit im"
-	cont "Kampfturm schafft."
+	cont "DUELLTURM"
+	cont "schafft."
 	done
 
 .RefuseText:
@@ -367,11 +355,9 @@ BattleTower2FAnabelScript:
 		text "Du bist wirklich"
 		line "gekommen, um mich"
 		cont "zu sehen…"
-
 		para "Ich muss mich"
 		line "gegen dich nicht"
 		cont "zurückhalten…"
-
 		para "Bist du bereit?"
 		done
 	yesorno
@@ -392,11 +378,9 @@ BattleTower2FAnabelScript:
 .AfterText:
 	text "Das hat Spaß"
 	line "gemacht…"
-
 	para "Noch nie hat mir"
-	line "ein #mon-Kampf"
+	line "ein #MON-Kampf"
 	cont "so viel Freude"
-
 	para "bereitet…"
 	done
 
@@ -421,7 +405,7 @@ BattleTower2FLadyText:
 	text "Was macht mich als"
 	line "Trainerin am"
 	cont "glücklichsten?"
-	para "Dass #mon mir"
+	para "Dass #MON mir"
 	line "viele Freunde"
 	cont "bringen!"
 	done
@@ -430,10 +414,8 @@ BattleTower2FTwinText:
 	text "Manche wundern"
 	line "sich, ein kleines"
 	cont "Mädchen wie mich"
-
-	para "im Kampfturm zu"
+	para "im DUELLTURM zu"
 	line "sehen."
-
 	para "Ich muss ja nicht"
 	line "selbst kämpfen,"
 	cont "weißt du?"
@@ -443,7 +425,7 @@ BattleTower2FSuperNerdText:
 	text "Hehe! Alle Trainer"
 	line "hier wirken so"
 	para "erbärmlich!"
-	para "… Aber genau diese"
+	para "…Aber genau diese"
 	line "Einstellung lässt"
 	cont "dich mit einem"
 	para "Treffer verlieren!"
@@ -459,26 +441,23 @@ BattleTower2FYoungsterText:
 	text "Stark zu sein"
 	line "heißt schwach zu"
 	cont "sein."
-
 	para "Schwach zu sein"
 	line "heißt stark zu"
 	cont "sein."
-
 	para "Das hat mir mal"
 	line "jemand gesagt."
-
-	para "Ich versteh's"
+	para "Ich versteh es"
 	line "nicht, aber es"
 	cont "klingt"
 	cont "tiefgründig."
 	done
 
 BattleTower2FBlackbeltText:
-	text "Der Karate-Gi ist"
-	line "die Uniform der"
-	cont "Kämpfer!"
+	text "Der Karateanzug"
+	line "ist die Uniform"
+	cont "der Kämpfer!"
 	para "Nichts eignet sich"
 	line "besser für den"
-	cont "Kampfturm"
+	cont "DUELLTURM"
 	para "als das!"
 	done

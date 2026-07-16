@@ -160,7 +160,7 @@ EusineLeavesCeladonText:
 	line "Gerüchte über ein"
 
 	para "regenbogenfarbene"
-	line "#mon am"
+	line "#MON am"
 	cont "Zinnturm."
 
 	para "Mein Team wurde"
@@ -215,7 +215,7 @@ EusinesHouseGrampsEusineSearchingForSuicuneText:
 	line "überall."
 	para "Ich habe ihm alles"
 	line "über die"
-	cont "legendären #mon"
+	cont "legendären #MON"
 	cont "beigebracht!"
 	done
 

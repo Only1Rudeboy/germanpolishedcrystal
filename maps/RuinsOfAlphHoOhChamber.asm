@@ -106,7 +106,7 @@ MapRuinsofAlphHoOhChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "Ein #mon, das"
+	text "Ein #MON, das"
 	line "mittels"
 
 	para "regenbogenfarbene"

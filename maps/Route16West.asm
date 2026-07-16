@@ -110,13 +110,13 @@ GenericTrainerCooltrainerfSera:
 GenericTrainerBeautyNicole:
 	generictrainer BEAUTY, BEAUTY_NICOLE, EVENT_BEAT_BEAUTY_NICOLE, .SeenText, .BeatenText
 
-	text "Süße #mon"
+	text "Süße #MON"
 	line "können auch stark"
 	cont "sein!"
 	done
 
 .SeenText:
-	text "Sind meine #mon"
+	text "Sind meine #MON"
 	line "nicht die"
 	cont "süßesten?"
 	done

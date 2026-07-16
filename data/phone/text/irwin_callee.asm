@@ -1,39 +1,29 @@
 IrwinAnswerPhoneText:
-	text "Hallo? Hier "
+	text "Hallo? "
 	text_ram wStringBuffer3
-	text "…"
+	line "hier…"
 
-	para "Hey, <PLAYER>!"
+	para "Heh, <PLAYER>!"
 	done
 
 IrwinAnswerPhoneDayText:
-	text "Hallo? Hier "
+	text "Hallo? "
 	text_ram wStringBuffer3
-	text "…"
+	line "hier…"
 
 	para "Wow, <PLAYER>!"
 	done
 
 IrwinAnswerPhoneNiteText:
-	text "Hallo? Hier "
+	text "Hallo? "
 	text_ram wStringBuffer3
-	text "…"
+	line "hier…"
 
-	para "Juhu, <PLAYER>!"
+	para "Yippee, <PLAYER>!"
 	done
 
 IrwinGreetText:
-	text "Äh, hallo."
-	line "<PLAYER>?"
-
-	para "Dein Kumpel,"
-	line ""
-	text_ram wStringBuffer3
-	text "!"
-	done
-
-IrwinGreetDayText:
-	text "Äh, hallo,"
+	text "Uh, hallo."
 	line "<PLAYER>?"
 
 	para "Dein Freund,"
@@ -42,11 +32,21 @@ IrwinGreetDayText:
 	text "!"
 	done
 
-IrwinGreetNiteText:
-	text "Äh, hallo,"
+IrwinGreetDayText:
+	text "Uh, hallo,"
 	line "<PLAYER>?"
 
-	para "Dein Sidekick,"
+	para "Dein Kumpel,"
+	line ""
+	text_ram wStringBuffer3
+	text "!"
+	done
+
+IrwinGreetNiteText:
+	text "Uh, hallo,"
+	line "<PLAYER>?"
+
+	para "Dein Kamerad,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"

@@ -19,7 +19,7 @@ PokemonJournalBrunoScript:
 	setflag ENGINE_READ_BRUNO_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: TOP VIER"
 	line "BRUNO!"
 	para "BRUNO soll der TOP"

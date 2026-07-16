@@ -19,7 +19,7 @@ ValenciaHouseLassText:
 	line "echt cool!"
 
 	para "Sie hat meinen"
-	line "#mon geholfen,"
+	line "#MON geholfen,"
 	cont "als sie krank"
 	cont "waren!"
 	done 

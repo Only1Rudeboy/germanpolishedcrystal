@@ -1,68 +1,70 @@
 JoeyAnswerPhoneText:
-	text "Hi, hier ist "
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 
 	para "Oh, <PLAYER>?"
-	line "Geht's dir gut?"
+	line "Geht es dir gut?"
 	done
 
 JoeyAnswerPhoneDayText:
-	text "Hi, hier ist "
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 
 	para "Oh, <PLAYER>?"
-	line "Geht's dir gut?"
+	line "Geht es dir gut?"
 	done
 
 JoeyAnswerPhoneNiteText:
-	text "Hi, hier ist "
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 
 	para "Oh, <PLAYER>?"
-	line "Geht's dir gut?"
+	line "Geht es dir gut?"
 	done
 
 JoeyGreetText:
-	text "Yo, <PLAYER>! Wie"
-	line "läuft's?"
+	text "Yo, <PLAYER>!"
+	line "Wie geht es dir?"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ", hast du Zeit?"
+	text ","
+	line "hast du Zeit?"
 	done
 
 JoeyGreetDayText:
-	text "Yo, <PLAYER>! Wie"
-	line "geht's?"
+	text "Yo, <PLAYER>!"
+	line "Wie steht's?"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Hast du Zeit?"
+	text ", hallo!"
+	line "Hast du Zeit?"
 	done
 
 JoeyGreetNiteText:
-	text "Yo, <PLAYER>! Wie"
-	line "läuft's?"
+	text "Yo, <PLAYER>!"
+	line "Wie geht es dir?"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ", hast du Zeit?"
+	text ", hallo,"
+	line "hast du Zeit?"
 	done
 
 JoeyGenericText:
-	text "Wie gehen deine"
-	line "#mon?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " ist wie immer"
-	line "bereit!"
+	line "ist nicht zu hal-"
+	cont "ten, wie immer."
 
-	para "Es ist mein"
-	line "einziges. Damit"
-	cont "werde ich ein"
-	cont "großer Trainer!"
+	para "Es ist mein Ein"
+	line "und Alles. Ich"
+
+	para "werde mit ihm ein"
+	line "toller Trainer"
+	cont "sein!"
 	done

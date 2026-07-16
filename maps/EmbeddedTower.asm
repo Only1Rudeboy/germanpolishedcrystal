@@ -111,7 +111,7 @@ EmbeddedTowerSteven1TowerText:
 
 EmbeddedTowerSteven1NotNowText:
 	text "Steven: Deine"
-	line "#mon sehen gut"
+	line "#MON sehen gut"
 	cont "aus."
 
 	para "Wenn du die TOP"
@@ -124,7 +124,7 @@ EmbeddedTowerSteven1NotNowText:
 
 EmbeddedTowerSteven1ChallengeText:
 	text "Steven: Deine"
-	line "#mon sehen gut"
+	line "#MON sehen gut"
 	cont "aus."
 	para "Da wir beide hier"
 	line "sind, warum"
@@ -155,16 +155,16 @@ EmbeddedTowerSteven1WinText:
 EmbeddedTowerSteven2WinText:
 	text "Du bist ein"
 	line "wirklich edler"
-	cont "#mon-Trainer!"
+	cont "#MON-Trainer!"
 	done
 
 EmbeddedTowerSteven1ItemText:
 	text "Steven:"
 	line "Glückwunsch!"
 	para "Die Gefühle, die"
-	line "du für #mon"
+	line "du für #MON"
 	cont "hast …"
-	para "Und die #mon,"
+	para "Und die #MON,"
 	line "die mit aller"
 	para "Kraft auf diese"
 	line "Gefühle reagierten"
@@ -214,5 +214,5 @@ EmbeddedTowerSteven2AfterText:
 	line "wenn wir kämpfen,"
 
 	para "lerne ich mehr"
-	line "über #mon!"
+	line "über #MON!"
 	done

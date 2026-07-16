@@ -232,7 +232,7 @@ LtSurgeIntroText:
 	cont "mutig!"
 
 	para "Wenn es um"
-	line "Elektro-#mon"
+	line "Elektro-#MON"
 	cont "geht, bin ich die"
 	cont "Nummer eins!"
 
@@ -263,7 +263,7 @@ LtSurgeThunderBadgeText:
 	line "DONNERORDEN erhöht"
 
 	para "den INIT-Wert"
-	line "deiner #mon."
+	line "deiner #MON."
 
 	para "Du darfst stolz"
 	line "darauf sein, mich"
@@ -277,7 +277,7 @@ LtSurgeFightDoneText:
 	line "Immer noch bei"
 	cont "der Sache?"
 
-	para "Meine #mon und"
+	para "Meine #MON und"
 	line "ich sind noch"
 	cont "dabei!"
 	done
@@ -310,7 +310,7 @@ GuitaristmVincentSeenText:
 	text "MAJOR BOB hat mein"
 	line "Talent für"
 
-	para "Elektro-#mon"
+	para "Elektro-#MON"
 	line "erkannt."
 
 	para "Glaubst du, du"

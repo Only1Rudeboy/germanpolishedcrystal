@@ -91,13 +91,13 @@ MurkySwampCherylScript:
 
 .YesText:
 	text "Ich warne dich,"
-	line "meine #mon sind"
+	line "meine #MON sind"
 	cont "ziemlich wild."
 	done
 
 .NoText:
 	text "Ach, aber meine"
-	line "#mon wollten so"
+	line "#MON wollten so"
 	cont "gern kämpfen…"
 	done
 
@@ -173,18 +173,18 @@ MurkySwampNurseBeatriceScript:
 	text "Ich bin eine"
 	line "Schwester! Besiege"
 	cont "mich und ich heile"
-	cont "deine #mon!"
+	cont "deine #MON!"
 	done
 
 .BeatenText:
 	text "Aber zuerst muss"
 	line "ich meine eigenen"
-	cont "#mon heilen…"
+	cont "#MON heilen…"
 	done
 
 .AfterText:
 	text "Ich bin hier, um"
-	line "#mon wieder"
+	line "#MON wieder"
 	para "gesund zu"
 	line "machendas ist mein"
 	cont "Ziel!"
@@ -327,7 +327,7 @@ GenericTrainerPokemaniacEnzo:
 	cont "Licht"
 	para "in den Bäumen, als"
 	line "ich seltene"
-	cont "#mon suchte!"
+	cont "#MON suchte!"
 	done
 
 .BeatenText
@@ -341,7 +341,7 @@ MurkySwampPokemaniacText:
 	para "Land mit Wasser"
 	line "durchtränkt."
 	para "Aber die seltenen"
-	line "#mon hier"
+	line "#MON hier"
 	para "machen die"
 	line "Erkundung"
 	cont "lohnenswert!"

@@ -59,7 +59,7 @@ GenericTrainerBird_keeperJulian:
 .SeenText:
 	text "Ich trainiere hier"
 	line "meine"
-	cont "Flug-#mon."
+	cont "Flug-#MON."
 	para "Hilfst du mir?"
 	done
 
@@ -76,7 +76,7 @@ GenericTrainerCamperFelix:
 
 	para "Ich brauche nur"
 	line "noch Brennholz,"
-	cont "das mein #mon"
+	cont "das mein #MON"
 	cont "anzünden kann."
 	done
 

@@ -66,7 +66,7 @@ ShamoutiHotelRestaurantChallengeScript:
 	para "Hier kannst du"
 	line "nicht nur essen,"
 	para "sondern auch"
-	line "#mon-Kämpfe"
+	line "#MON-Kämpfe"
 	cont "bestreiten."
 	para "Jeden Tag gibt es"
 	line "ein neues Menü."

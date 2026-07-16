@@ -391,7 +391,7 @@ PokemonJournalProfWestwoodScript:
 	setflag ENGINE_READ_PROF_WESTWOOD_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Prof."
 	line "Westwood!"
 	para "PROF. WESTWOOD V."

@@ -32,37 +32,37 @@ BeverlyGreetText:
 	text "Hallo, <PLAYER>."
 	line "Guten Morgen."
 
-	para "Hier ist "
+	para ""
 	text_ram wStringBuffer3
-	text ". Warst du am"
-	line "Schlafen?"
+	text ", hallo."
+	line "Hast du"
+	cont "geschlafen?"
 	done
 
 BeverlyGreetDayText:
-	text "Hi, <PLAYER>. Hier"
-	line "ist "
+	text "Hi, <PLAYER>."
+	line ""
 	text_ram wStringBuffer3
-	text "."
+	text ", hallo."
 
-	para "Wie geht's dir?"
+	para "Wie geht es dir?"
 	done
 
 BeverlyGreetNiteText:
-	text "Hi, <PLAYER>. Hier"
-	line "ist "
+	text "Hi, <PLAYER>."
+	line ""
 	text_ram wStringBuffer3
-	text "."
+	text ", hallo!"
 
-	para "Warst du wach?"
+	para "Bist du wach?"
 	done
 
 BeverlyGenericText:
-	text "Sind deine #mon"
-	line "glücklich?"
+	text "Sorgst du gut für"
+	line "deine #MON?"
 
-	para "Mein "
+	para "Meinem "
 	text_ram wStringBuffer4
-	text " ist gesund. Es"
-	line "frisst täglich"
-	cont "viel."
+	line "geht es gut. Es"
+	cont "frisst viel."
 	done

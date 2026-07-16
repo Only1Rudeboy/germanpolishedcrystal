@@ -20,7 +20,7 @@ PokemonJournalProfWillowScript:
 	setflag ENGINE_READ_PROF_WILLOW_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Prof."
 	line "Willow!"
 	para "Man sagt, Prof."
@@ -29,7 +29,7 @@ PokemonJournalProfWillowScript:
 	para "unbekannte Länder"
 	line "zu erforschen und"
 	para "unentdeckte"
-	line "#mon-Arten in"
+	line "#MON-Arten in"
 	para "ihrem natürlichen"
 	line "Lebensraum zu"
 	cont "dokumentieren."

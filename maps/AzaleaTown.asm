@@ -142,10 +142,10 @@ AzaleaTownRivalBattleTrigger2:
 
 .WinText:
 	text "… Pah! Nutzlose"
-	line "#mon!"
+	line "#MON!"
 	para "Hör zu. Du hast"
 	line "nur gewonnen, weil"
-	cont "meine #mon"
+	cont "meine #MON"
 	cont "schwach waren."
 	done
 
@@ -157,7 +157,7 @@ AzaleaTownRivalBattleTrigger2:
 .AfterText:
 	text "Ich hasse"
 	line "Schwäche."
-	para "#mon, Trainer"
+	para "#MON, Trainer"
 	line "egal wer oder was."
 	para "Ich werde stark"
 	line "und lösche die"
@@ -287,7 +287,7 @@ AzaleaTownAdvancedTipsSignText:
 	para "Der"
 	line "Wechsel-Kampfstil"
 	cont "zeigt, welches"
-	cont "#mon"
+	cont "#MON"
 	para "der Gegner als"
 	line "Nächstes schickt."
 	para "Der"

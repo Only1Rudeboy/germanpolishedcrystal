@@ -27,10 +27,10 @@ CeladonUniversityClassroom3SparkText:
 	text "Hey! Ich bin"
 	line "Spark. Ich lehre"
 	cont "Wissenschaft--"
-	para "gerade #"
-	line "biologie."
+	para "gerade"
+	line "#biologie."
 	para "Wir erforschen,"
-	line "wie sich #mon"
+	line "wie sich #MON"
 	cont "fortpflanzen."
 	para "PROF. LIND hat das"
 	line "Feld begründet."
@@ -47,14 +47,14 @@ CeladonUniversityClassroom3TeacherText:
 	done
 
 CeladonUniversityClassroom3ChildText:
-	text "#mon in #"
-	line "Bällen werden zu"
-	cont "Lichtenergie,"
+	text "#MON im Ball"
+	line "werden zu Licht-"
+	cont "energie,"
 
 	para "dann zurück in"
-	line "Materie"
-	cont "verwandelt, wenn"
-	cont "sie rauskommen."
+	line "Materie verwan-"
+	cont "delt, wenn sie"
+	cont "rauskommen."
 
 	para "Keine Sorge, das"
 	line "tut ihnen kein"
@@ -74,7 +74,7 @@ CeladonUniversityClassroom3LassText:
 
 CeladonUniversityClassroom3Super_nerdText:
 	text "Kennst du das"
-	line "Elektro-#mon"
+	line "Elektro-#MON"
 	cont "Voltilamm?"
 
 	para "Sein englischer"
@@ -94,19 +94,19 @@ CeladonUniversityClassroom3BlackboardText:
 	line "steht an der"
 	cont "Tafel."
 
-	para "'…#mon lassen"
+	para "'…#MON lassen"
 	line "sich in 14"
 	cont "'Ei-Gruppen'"
 	cont "einteilen, plus"
 	cont "Ditto."
 
-	para "Baby-#mon"
+	para "Baby-#MON"
 	line "können sich nicht"
 	cont "fortpflanzen."
 
-	para "Legendäre #mon"
-	line "wurden nicht"
-	cont "erforscht.'"
+	para "Legendäre"
+	line "#MON wurden"
+	cont "nicht erforscht.'"
 	done
 
 CeladonUniversityClassroom3Bookshelf1Text:
@@ -117,7 +117,7 @@ CeladonUniversityClassroom3Bookshelf1Text:
 	line "Geräte."
 
 	para "Hey! Ein früher"
-	line "#Com-Entwurf"
+	line "#COM-Entwurf"
 	cont "ist hier drin!"
 	done
 
@@ -125,6 +125,6 @@ CeladonUniversityClassroom3Bookshelf2Text:
 	text "Ein Aufsatz von"
 	line "PROF. SILKTREE."
 	para "'Alph-Ruinen"
-	line "Untersuchungsberi-"
-	cont "cht'…"
+	line "Untersuchungs-"
+	cont "bericht'…"
 	done

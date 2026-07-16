@@ -28,14 +28,14 @@ GenericTrainerCowgirlApril:
 
 	text "Manchmal siehst du"
 	line "10 gleiche"
-	para "#mon"
+	para "#MON"
 	line "hintereinander!"
 	done
 
 CowgirlAprilSeenText:
 	text "Juhu! Ich habe"
 	line "gerade eine ganze"
-	cont "Herde #mon"
+	cont "Herde #MON"
 	cont "gefangen!"
 	done
 
@@ -57,5 +57,5 @@ SafariZoneEastTrainerTipsSignText:
 
 	para "Suche nachts oder"
 	line "morgens nach"
-	cont "seltenen #mon!"
+	cont "seltenen #MON!"
 	done

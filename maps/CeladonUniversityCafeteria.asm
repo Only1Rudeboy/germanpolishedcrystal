@@ -67,8 +67,8 @@ CeladonUniversityCafeteriaCoreyScript:
 
 .FinalText:
 	text "Du wärst ein"
-	line "Star-Student, wenn"
-	cont "du dich hier"
+	line "Musterstudent,"
+	cont "wenn du dich hier"
 	para "einschreibst."
 	para "Aber du hast"
 	line "andere Ziele,"
@@ -79,10 +79,10 @@ CeladonUniversityCafeteriaCoreyScript:
 	text "Ich bin Corey!"
 	line "Einer der vier"
 	cont "Toptrainer der"
-	cont "Prismania-Uni."
+	cont "PRISMANIA-UNI."
 
 	para "Man kennt uns als"
-	line "Prismanias Vier!"
+	line "PRISMANIAS VIER!"
 
 	para "Lass mich zeigen,"
 	line "wie wir den Titel"
@@ -94,7 +94,7 @@ CeladonUniversityCafeteriaCoreyScript:
 .IntroText2:
 	text "Ich bin Corey!"
 	line "Einer der"
-	cont "Prismanias Vier!"
+	cont "PRISMANIAS VIER!"
 	para "Du forderst uns"
 	line "alle vier heraus?"
 	para "Klar, ich bin hier"
@@ -123,7 +123,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	text "Du bist stark!"
 	para "Aber ich bin nur"
 	line "einer der"
-	cont "Prismanias Vier."
+	cont "PRISMANIAS VIER."
 	para "Sucht die anderen,"
 	line "um deine Stärke"
 	para "wirklich zu"
@@ -132,7 +132,7 @@ CeladonUniversityCafeteriaCoreyScript:
 
 .AfterText2:
 	text "Du hast alle vier"
-	line "Prismanias Vier"
+	line "PRISMANIAS VIER"
 	cont "besiegt?"
 
 	para "Glückwunsch!"
@@ -148,12 +148,10 @@ CeladonUni_NoRoomText:
 
 CeladonUniversityCafeteriaCooltrainerfText:
 	text "Hier gibt's die"
-	line "besten"
-	cont "Hamburger-Steaks"
-	cont "im"
-	para "Zinnober-Stil"
-	line "diesseits von"
-	cont "Kanto!"
+	line "besten Hacksteaks"
+	cont "im ZINNOBER-Stil"
+	para "diesseits von"
+	line "KANTO!"
 	para "Fühlt sich an wie"
 	line "zuhause."
 	done

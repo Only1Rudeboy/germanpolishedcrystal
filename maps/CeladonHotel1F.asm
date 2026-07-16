@@ -45,7 +45,7 @@ CeladonHotel1FRichBoyGeraldScript:
 	end
 
 CeladonHotel1FGrampsText:
-	text "#mon? Nein, das"
+	text "#MON? Nein, das"
 	line "ist ein Hotel für"
 	cont "Menschen."
 
@@ -60,7 +60,7 @@ CeladonHotel1FLadyText:
 	cont "KANTO."
 	para "Es gibt so viel zu"
 	line "sehen in"
-	cont "PRISMANIA!"
+	cont "PRISMANIA CITY!"
 	done
 
 CeladonHotel1FCooltrainerFText:
@@ -93,7 +93,7 @@ RichBoyGeraldBeatenText:
 RichBoyGeraldAfterText:
 	text "Nächstes Mal"
 	line "sollten wir nach"
-	cont "Oliviana City."
+	cont "OLIVIANA CITY."
 
 	para "Ich würd gern den"
 	line "Kampfturm"

@@ -172,7 +172,7 @@ LinkReceptionistScript_HasMail:
 		text "Es tut mir leid,"
 		line "aber wir können"
 
-		para "keine #mon mit"
+		para "keine #MON mit"
 		line "Brief tauschen."
 		done
 	waitbutton
@@ -274,7 +274,7 @@ Text_TradeReceptionistIntro:
 	cont "HANDELSCENTER."
 
 	para "Du kannst hier"
-	line "#mon mit einem"
+	line "#MON mit einem"
 	cont "Freund tauschen."
 
 	para "Möchtest du gerne"

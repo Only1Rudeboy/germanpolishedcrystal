@@ -60,7 +60,7 @@ ViridianSchoolHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "'Was ein #mon"
+	text "'Was ein #MON"
 	line "nicht K.O. macht,"
 	para "macht es stärker.'"
 	line "So wirkt die"
@@ -114,7 +114,7 @@ PokemonJournalKiyoScript:
 	setflag ENGINE_READ_KIYO_JOURNAL
 	jumpthistext
 
-	text "#mon-Journal"
+	text "#MON-Journal"
 	para "Spezial:"
 	line "Karate-König KIYO!"
 	para "KIYO soll unter"

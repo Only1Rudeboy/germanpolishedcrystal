@@ -73,7 +73,7 @@ GenericTrainerHikerDerrick:
 	text "Ohne Frage: Ich"
 	line "liebe Wandern mit"
 
-	para "meinen #mon."
+	para "meinen #MON."
 	done
 
 .SeenText:

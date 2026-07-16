@@ -83,7 +83,7 @@ CeladonMansionManagerScript:
 
 	para "Er kann die"
 	line "Wesensart eines"
-	cont "#mon verändern!"
+	cont "#MON verändern!"
 	done
 
 .Egg:
@@ -99,12 +99,12 @@ CeladonMansionManagerScript:
 	line "Schätzchen."
 	para "Ich trinke Tee mit"
 	line "meinem lieben"
-	cont "#mon."
+	cont "#MON."
 	para "Hättest du ein"
 	line "Minzblatt,"
 	para "lüde ich dich ein,"
 	line "mitzumachen."
-	para "#mon lieben"
+	para "#MON lieben"
 	line "Minze in ihrem"
 	cont "Tee."
 	para "Sie verändert"
@@ -122,7 +122,7 @@ CeladonMansionManagerScript:
 	para "Möchtest du, dass"
 	line "ich es in Tee für"
 
-	para "dein #mon"
+	para "dein #MON"
 	line "aufgieße?"
 	done
 
@@ -134,7 +134,7 @@ CeladonMansionManagerScript:
 
 .AcceptedText:
 	text "Welches deiner"
-	line "#mon möchte"
+	line "#MON möchte"
 	cont "Tee?"
 	done
 

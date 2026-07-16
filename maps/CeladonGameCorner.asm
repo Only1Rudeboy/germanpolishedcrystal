@@ -352,7 +352,7 @@ CeladonGymGuyText:
 	para "Ich möchte genug"
 	line "Münzen sammeln für"
 	cont "ein prämiertes"
-	cont "#mon."
+	cont "#MON."
 	para "Aber ich habe noch"
 	line "nicht genug"
 	cont "Münzen…"

@@ -345,7 +345,7 @@ MagnetTunnelInsideEngineerText2:
 	para "haben, hat sich"
 	line "die Zahl wilder"
 	cont "Elektro-"
-	para "#mon hier mehr"
+	para "#MON hier mehr"
 	line "als verdoppelt."
 	done
 

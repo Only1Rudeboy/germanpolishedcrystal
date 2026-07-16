@@ -35,7 +35,7 @@ GenericTrainerScientistBraydon:
 	text "Hier wurde einst"
 	line "ernsthafte"
 
-	para "#mon-Forschung"
+	para "#MON-Forschung"
 	line "betrieben."
 	done
 
@@ -53,10 +53,10 @@ PokemonMansionDiaryText:
 	text "Tagebuch: 5. Juli"
 	para "Tief im Dschungel"
 	line "wurde ein neues"
-	cont "#mon entdeckt."
+	cont "#MON entdeckt."
 	para "Tagebuch: 10. Juli"
 	para "Das neu entdeckte"
-	line "#mon wurde MEW"
+	line "#MON wurde MEW"
 	cont "getauft."
 	para "Tagebuch: 6. Feb."
 	para "MEW gebar ein"

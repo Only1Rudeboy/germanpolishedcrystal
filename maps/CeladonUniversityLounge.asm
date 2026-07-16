@@ -72,10 +72,10 @@ CeladonUniversityLoungeNeeshaScript:
 	cont "vier besten"
 
 	para "Trainer der"
-	line "Prismania-Uni."
+	line "PRISMANIA-UNI."
 
 	para "Wir sind die"
-	line "Prismanias Vier!"
+	line "PRISMANIAS VIER!"
 
 	para "Soll ich dir"
 	line "zeigen, warum wir"
@@ -88,7 +88,7 @@ CeladonUniversityLoungeNeeshaScript:
 .IntroText2:
 	text "Hallo! Ich bin"
 	line "Neesha! Eine der"
-	cont "Prismanias Vier!"
+	cont "PRISMANIAS VIER!"
 
 	para "Du hast von uns"
 	line "gehört, oder?"
@@ -120,7 +120,7 @@ CeladonUniversityLoungeNeeshaScript:
 	para "Aber du hast noch"
 	line "nicht alles von"
 
-	para "den Prismanias"
+	para "den PRISMANIAS"
 	line "Vier gesehen."
 
 	para "Such die anderen"
@@ -130,10 +130,10 @@ CeladonUniversityLoungeNeeshaScript:
 
 .AfterText2:
 	text "Du hast alle"
-	line "Prismanias Vier"
+	line "PRISMANIAS VIER"
 	cont "besiegt?"
 
-	para "So cool!"
+	para "So toll!"
 
 	para "Nimm das als"
 	line "Preis!"
@@ -142,7 +142,7 @@ CeladonUniversityLoungeNeeshaScript:
 .FinalText:
 	text "Selten fordert"
 	line "jemand uns"
-	para "Prismanias Vier so"
+	para "PRISMANIAS VIER so"
 	line "heraus."
 	para "Ich vergesse dich"
 	line "nicht, Trainer!"
@@ -151,7 +151,7 @@ CeladonUniversityLoungeNeeshaScript:
 CeladonUniversityLoungeLassText:
 	text "Nächsten Monat"
 	line "fahren wir zum"
-	cont "Mondberg."
+	cont "MONDBERG."
 
 	para "Vielleicht sehe"
 	line "ich ein Piepi!"
@@ -171,13 +171,13 @@ CeladonUniversityLoungeRichBoyText:
 	done
 
 CeladonUniversityLoungeCooltrainerfText:
-	text "#mon mit"
+	text "#MON mit"
 	line "geringerer"
 	para "körperlicher Kraft"
 	line "versuchen"
-	cont "instinktiv in"
-	cont "einen"
-	para "#Ball zu gehen."
+	cont "instinktiv, in"
+	cont "einen #BALL"
+	para "zu gehen."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:
@@ -200,7 +200,7 @@ CeladonUniversityLoungeSuper_nerd2Text:
 
 CeladonUniversityLoungeBookshelf1Text:
 	text "Vollgestopft mit"
-	line "#mon-Manga!"
+	line "#MON-Manga!"
 	done
 
 CeladonUniversityLoungeBookshelf2:
@@ -235,5 +235,5 @@ CeladonUniversityLoungeComputer:
 
 	text "Eine Spielfigur"
 	line "rennt durch eine"
-	para "2D-Prismania City."
+	para "2D-PRISMANIA CITY."
 	done

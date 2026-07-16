@@ -49,8 +49,8 @@ BattleTower1FContinueChallenge:
 	; We saved in-between rounds. Resume Battle Tower challenge.
 	opentext
 	writethistext
-		text "Wir haben auf dich"
-		line "gewartet."
+		text "Wir haben dich er-"
+		line "wartet."
 		prompt
 
 	sdefer Script_ReturnToBattleTowerChallenge
@@ -65,15 +65,15 @@ BattleTower1FContinueChallenge:
 .LeftWithoutSaving2:
 	opentext
 	writethistext
-		text "Entschuldige! Du"
-		line "hast nicht vor dem"
-		cont "Verlassen des"
-		para "Kampfraums"
-		line "gespeichert."
-		para "Es tut mir leid,"
-		line "aber dein Versuch"
-		para "wird für ungültig"
-		line "erklärt."
+		text "Entschuldigung!"
+		line "Du hast vor Ver-"
+		cont "lassen des KAMPF-"
+		cont "RAUMs vergessen"
+		cont "zu SICHERN."
+		para "Es tut mir Leid,"
+		line "aber deine Heraus-"
+		cont "forderung wird für"
+		cont "ungültig erklärt."
 		done
 	waitbutton
 	sjumpfwd Script_CommitBattleTowerResult
@@ -91,13 +91,10 @@ BattleTower1FContinueChallenge:
 	opentext
 	writethistext
 		text "Glückwunsch!"
-
-		para "Du hast alle"
-		line "Trainer besiegt!"
-
-		para "Dafür bekommst du"
-		line "diesen tollen"
-		cont "Preis!"
+		para "Du hast alle Trai-"
+		line "ner besiegt! Dafür"
+		para "erhältst du einen"
+		line "Preis!"
 		prompt
 	verbosegiveitem ABILITYPATCH
 	; fallthrough
@@ -107,8 +104,8 @@ Script_CommitBattleTowerResult:
 	setevent EVENT_BEAT_PALMER
 .WeHopeToServeYouAgain:
 	writethistext
-		text "Wir hoffen, dich"
-		line "bald wiederzusehen"
+		text "Wir stehen stets"
+		line "zu Diensten."
 		done
 	waitbutton
 	endtext
@@ -116,29 +113,24 @@ Script_CommitBattleTowerResult:
 BattleTower1FRulesScript:
 	opentext
 	writethistext
-		text "Die Regeln des"
-		line "Kampfturms stehen"
-		cont "hier geschrieben."
-
-		para "Regeln lesen?"
+		text "Hier stehen die"
+		line "Regeln des DUELL-"
+		cont "TURMs. Lesen?"
 		done
 	yesorno
 	iffalse_endtext
 	jumpthisopenedtext
-		text "Drei #mon"
-		line "dürfen kämpfen."
-
-		para "Alle drei müssen"
-		line "verschieden sein."
-
-		para "Auch ihre Items"
-		line "müssen sich"
-		cont "unterscheiden."
-
-		para "Eier oder manche"
-		line "Legendäre #mon"
-		cont "dürfen nicht"
-		cont "kämpfen."
+		text "Drei #MON"
+		line "dürfen am Kampf"
+		para "teilnehmen. Sie"
+		line "müssen unter-"
+		cont "schiedlich sein."
+		para "Ihre Items müssen"
+		line "auch verschieden"
+		para "sein. Eier und"
+		line "manche legendären"
+		cont "#MON dürfen"
+		cont "nicht kämpfen."
 		done
 
 BattleTower1FStreakText:
@@ -154,9 +146,9 @@ BattleTower1FReceptionistScript:
 	opentext
 	writethistext
 		text "Willkommen im"
-		line "Kampfturm!"
-		para "Ich zeige dir gern"
-		line "einen Kampfraum."
+		line "DUELLTURM!"
+		para "Ich führe dich in"
+		line "einen KAMPFRAUM."
 		done
 	promptbutton
 	checkevent EVENT_BATTLE_TOWER_INTRO
@@ -165,48 +157,48 @@ BattleTower1FReceptionistScript:
 	; only ask once, so set the flag regardless
 	setevent EVENT_BATTLE_TOWER_INTRO
 	writethistext
-		text "Möchtest du mehr"
-		line "über den Kampfturm"
-		cont "hören?"
+		text "Soll ich dich über"
+		line "den DUELLTURM"
+		cont "aufklären?"
 		done
 	yesorno
 	iffalsefwd .BattleTowerMenu
 
 .Explanation:
 	writethistext
-		text "Der Kampfturm ist"
+		text "Der DUELLTURM ist"
 		line "eine Stätte für"
-		cont "#mon-Kämpfe."
-		para "Zahllose"
-		line "#mon-Trainer"
-		cont "versammeln"
-		para "sich von überall"
-		line "zum Kämpfen in"
-		para "eigens gestalteten"
-		line "Kampfräumen."
-		para "Es gibt viele"
-		line "Kampfräume im"
-		cont "Kampfturm."
-		para "Jeder Raum hat"
+		cont "#MON-Kämpfe."
+		para "Unzählige #MON-"
+		line "Trainer von Nah"
+		para "und Fern kommen"
+		line "hier zusammen und"
+		para "duellieren sich in"
+		line "speziellen"
+		cont "KAMPFRÄUMEN."
+		para "Im DUELLTURM gibt"
+		line "es viele"
+		cont "KAMPFRÄUME."
+		para "In jedem RAUM sind"
 		line "sieben Trainer."
 		para "Besiege alle für"
 		line "Kampfpunkte."
-		para "Um eine Sitzung zu"
-		line "unterbrechen,"
-		para "musst du"
-		line "speichern. Sonst"
-		cont "kannst du"
-		para "deinen"
-		line "Raum-Durchgang"
-		cont "nicht fortsetzen."
+		para "Um eine Heraus-"
+		line "forderung zu"
+		para "unterbrechen,"
+		line "musst du SICHERN."
+		para "Falls nicht,"
+		line "kannst du den"
+		para "Kampf nicht"
+		line "fortsetzen."
 		prompt
 	; fallthrough
 .BattleTowerMenu:
 	; Setscene here in case the player aborted a quicksave prompted by challenge
 	setscene SCENE_BATTLETOWER1F_NOOP
 	writethistext
-		text "Willst du in einen"
-		line "Kampfraum?"
+		text "Möchtest du in"
+		line "einen KAMPFRAUM?"
 		done
 	loadmenu MenuDataHeader_BattleInfoCancel
 	verticalmenu
@@ -214,26 +206,24 @@ BattleTower1FReceptionistScript:
 	ifequalfwd $1, .Challenge
 	ifequal $2, .Explanation
 	writethistext
-		text "Wir hoffen, dich"
-		line "bald wiederzusehen"
+		text "Danke für deinen"
+		line "Besuch!"
 		prompt
 	endtext
 
 .Challenge:
 	writethistext
-		text "Wähle #mon zum"
+		text "Wähle #MON zum"
 		line "Kämpfen."
 		prompt
 	special Special_BattleTower_SelectParticipants
 	iffalse .BattleTowerMenu
 	writethistext
-		text "Bevor du den"
-		line "Kampfraum"
-		cont "betrittst,"
-
-		para "wird dein"
-		line "Fortschritt"
-		cont "gespeichert."
+		text "Ehe du einen"
+		line "KAMPFRAUM"
+		para "betrittst, wird"
+		line "der Spielstand"
+		cont "gesichert."
 		done
 	yesorno
 	iffalse .BattleTowerMenu
@@ -255,8 +245,8 @@ Script_ReturnToBattleTowerChallenge:
 
 	; Everything ready to go for challenge start
 	writethistext
-		text "Hier entlang zu"
-		line "deinem Kampfraum."
+		text "Hier entlang zum"
+		line "KAMPFRAUM."
 		done
 	waitbutton
 	closetext
@@ -306,19 +296,18 @@ BattleTowerPharmacistScript:
 		cont "Items ein."
 		para "Aber ich hab auch"
 		line "einen Trick auf"
-		cont "Lager--ich tausche"
-		para "ihre Items mit"
-		line "Täuscher gegen"
-		cont "meine!"
+		cont "Lager! Ich tau-"
+		para "sche ihre Items"
+		line "mit Täuscher"
+		cont "gegen meine!"
 		done
 	waitbutton
 	setevent EVENT_LISTENED_TO_TRICK_INTRO
 BattleTowerTutorTrickScript:
 	writethistext
 		text "Ich bringe deinem"
-		line "#mon Täuscher"
+		line "#MON Täuscher"
 		cont "bei…"
-
 		para "für ein"
 		line "Silberblatt."
 		done
@@ -327,7 +316,7 @@ BattleTowerTutorTrickScript:
 	iffalsefwd .NoSilverLeaf
 	writethistext
 		text "Soll ich deinem"
-		line "#mon Täuscher"
+		line "#MON Täuscher"
 		cont "beibringen?"
 		done
 	yesorno
@@ -339,7 +328,7 @@ BattleTowerTutorTrickScript:
 .TutorRefused
 	jumpthisopenedtext
 		text "Sprich mit mir,"
-		line "falls du's dir"
+		line "falls du es dir"
 		cont "anders überlegst."
 		done
 
@@ -353,57 +342,50 @@ BattleTowerTutorTrickScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 		text "Jetzt kann dein"
-		line "#mon auch"
+		line "#MON auch"
 		cont "Täuscher!"
-
 		para "Ist das nicht"
 		line "fies?"
 		done
 
 Text_BattleTowerCooltrainerF:
 	text "Es gibt viele"
-	line "Kampfräume, aber"
-
-	para "ich gewinne sie"
-	line "alle!"
+	line "KAMPFRÄUME, aber"
+	para "ich werde in allen"
+	line "gewinnen!"
 	done
 
 Text_BattleTowerGranny:
-	text "Es ist mühsam, im"
-	line "Kampf keine Items"
-	cont "nutzen zu dürfen."
-
-	para "Items an deine"
-	line "#mon zu hängen,"
-
-	para "ist der Schlüssel"
-	line "zum Sieg."
+	text "Es ist eine zer-"
+	line "mürbende Aufgabe,"
+	para "ohne Items kämpfen"
+	line "zu müssen."
+	para "Gib deinen #MON"
+	line "Items. Das ist der"
+	para "Schlüssel zum"
+	line "Erfolg."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "Ich will sehen,"
-	line "wie weit ich nur"
-	cont "mit Käfer-#mon"
-	para "komme."
-	para "Hoffentlich sind"
-	line "keine"
-	cont "Feuer-#mon"
-	cont "dabei…"
+	text "Ich probiere, wie"
+	line "weit ich nur mit"
+	cont "Käfer-#MON"
+	cont "komme."
+	para "Hoffentlich treffe"
+	line "ich nicht auf"
+	cont "Feuer-#MON…"
 	done
 
 PokemonJournalPalmerScript:
 	setflag ENGINE_READ_PALMER_JOURNAL
 	jumpthistext
 
-	text "#mon-Journal"
-
+	text "#MON-Journal"
 	para "Spezialthema:"
-	line "Turm-Ass Palmer!"
-
+	line "Turmass Palmer!"
 	para "Palmer soll einen"
 	line "Sohn in der"
 	cont "Sinnoh-Region"
-
 	para "haben, der auch"
 	line "Trainer werden"
 	cont "will."

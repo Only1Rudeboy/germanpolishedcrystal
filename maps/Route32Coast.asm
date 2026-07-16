@@ -134,7 +134,7 @@ TrainerBird_keeperPowell:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Meine #mon"
+	text "Meine #MON"
 	line "können Fliegen,"
 	cont "auch ohnmächtig,"
 
@@ -152,7 +152,7 @@ TrainerBird_keeperPowell:
 
 .BeatenText:
 	text "Ach nein! Meine"
-	line "#mon!"
+	line "#MON!"
 	done
 
 GenericTrainerCosplayerChloe:
@@ -181,7 +181,7 @@ GenericTrainerFisherKiley:
 	text "Du brauchst eine"
 	line "gute Angel, wenn"
 
-	para "du gute #mon"
+	para "du gute #MON"
 	line "fangen willst."
 	done
 
@@ -295,7 +295,7 @@ Route32CoastLassText:
 Route32CoastTrainerTipsText:
 	text "Trainer-Tipps"
 
-	para "Ein #mon mit"
+	para "Ein #MON mit"
 	line "Aufheber kann"
 
 	para "nach einem Kampf"

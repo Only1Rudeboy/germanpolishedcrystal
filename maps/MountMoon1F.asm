@@ -114,7 +114,7 @@ GenericTrainerSuperNerdJovan:
 
 	text "Ich habe noch"
 	line "keine stärkeren"
-	cont "#mon gefunden."
+	cont "#MON gefunden."
 
 	para "Wo könnten sie"
 	line "wohl sein?"
@@ -124,7 +124,7 @@ GenericTrainerBugManiacRobby:
 	generictrainer BUG_MANIAC, ROBBY, EVENT_BEAT_BUG_MANIAC_ROBBY, BugManiacRobbySeenText, BugManiacRobbyBeatenText
 
 	text "Früher fing ich"
-	line "nur Käfer-#mon"
+	line "nur Käfer-#MON"
 	cont "als Hobby,"
 
 	para "aber jetzt sind"
@@ -180,7 +180,7 @@ MountMoonRivalTextBefore:
 	line "dich verlor,"
 
 	para "hab ich überlegt,"
-	line "was meinen #mon"
+	line "was meinen #MON"
 	cont "fehlte…"
 
 	para "Und wir fanden"
@@ -196,7 +196,7 @@ MountMoonRivalTextWin:
 
 	para "Ich dachte, ich"
 	line "hätte meine"
-	cont "#mon bestens"
+	cont "#MON bestens"
 
 	para "trainiert…"
 
@@ -216,7 +216,7 @@ MountMoonRivalTextAfter:
 	cont "Drachenhöhle …"
 	para "werde ich der"
 	line "größte"
-	cont "#mon-Trainer"
+	cont "#MON-Trainer"
 	cont "aller Zeiten."
 	para "Denn diese hier"
 	line "stehen hinter mir."
@@ -233,7 +233,7 @@ MountMoonRivalTextLoss:
 	para "Ich habe meine"
 	line "Schuld bei dir"
 	cont "beglichen."
-	para "Mit meinen #mon"
+	para "Mit meinen #MON"
 	line "werde ich den"
 	para "Champ schlagen und"
 	line "der größte Trainer"
@@ -273,7 +273,7 @@ SuperNerdJovanSeenText:
 	done
 
 SuperNerdJovanBeatenText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "machen nicht mit!"
 	done
 

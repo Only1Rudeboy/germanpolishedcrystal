@@ -173,13 +173,13 @@ Route43SightseerfScript:
 	para "aber sei"
 	line "vorsichtig, wenn"
 	cont "du ihn einem"
-	cont "#mon gibst."
+	cont "#MON gibst."
 	done
 
 GenericTrainerBreederJody:
 	generictrainer BREEDER, JODY, EVENT_BEAT_BREEDER_JODY, BreederJodySeenText, BreederJodyBeatenText
 
-	text "Ein Baby-#mon"
+	text "Ein Baby-#MON"
 	line "kann manchmal"
 
 	para "eine Attacke vom"
@@ -225,7 +225,7 @@ GenericTrainerPokemaniacBen:
 	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, PokemaniacBenSeenText, PokemaniacBenBeatenText
 
 	text "Du fragst, was ich"
-	line "außer #mon noch"
+	line "außer #MON noch"
 	cont "mag?"
 	para "MARGIT vom Radio!"
 	line "Die ist bestimmt"
@@ -336,10 +336,10 @@ GenericTrainerPokemaniacRon:
 	line "Menschen ist es"
 	para "ganz natürlich,"
 	line "unterschiedliche"
-	para "Arten von #mon"
+	para "Arten von #MON"
 	line "zu mögen."
 	para "Es geht bei"
-	line "#mon nicht"
+	line "#MON nicht"
 	para "darum, das"
 	line "Stärkste von allen"
 	cont "zu haben."
@@ -351,7 +351,7 @@ GenericTrainerFisherMarvin:
 
 	text "KURTs KÖDERBALL"
 	line "eignet sich am"
-	para "besten, #mon,"
+	para "besten, #MON,"
 	line "die an der Angel"
 	cont "hängen,"
 	cont "einzufangen."
@@ -487,10 +487,10 @@ PicnickerTiffany1Script:
 	jumpstd packfullf
 
 PokemaniacBenSeenText:
-	text "Ich liebe #mon!"
+	text "Ich liebe #MON!"
 	para "Deshalb habe ich"
 	line "angefangen,"
-	cont "#mon zu sammeln"
+	cont "#MON zu sammeln"
 	cont "und"
 	para "damit werde ich"
 	line "auch nicht mehr"
@@ -516,17 +516,17 @@ PokemaniacBenBeatenText:
 
 PokemaniacBrent1SeenText:
 	text "Heh! Hast du"
-	line "seltene #mon?"
+	line "seltene #MON?"
 	done
 PokemaniacBrent1BeatenText:
 	text "Meine armen"
-	line "#mon-Lieblinge!"
+	line "#MON-Lieblinge!"
 	done
 PokemaniacBrentAfterBattleText:
 	text "Ich wäre schon"
 	line "froh, wenn ich nur"
 	cont "ein einziges"
-	cont "seltenes #mon"
+	cont "seltenes #MON"
 	cont "hätte."
 	done
 
@@ -540,10 +540,10 @@ PokemaniacRonSeenText:
 	text "Stell dir mal vor!"
 	para "So ein <RIVAL> hat"
 	line "sich über mein"
-	cont "#mon lustig"
+	cont "#MON lustig"
 	cont "gemacht!"
 	para "Unverschämtheit!"
-	line "Mein #mon ist"
+	line "Mein #MON ist"
 	cont "toll!"
 	done
 
@@ -598,7 +598,7 @@ FisherMarvinBeatenText:
 CamperSpencerSeenText:
 	text "Man kann so viel"
 	line "unternehmen mit"
-	cont "seinen #mondas"
+	cont "seinen #MON das"
 	cont "macht unheimlich"
 	cont "viel Spaß!"
 	done
@@ -636,7 +636,7 @@ PicnickerTiffany1BeatenText:
 PicnickerTiffanyWantsPicnicText:
 	text "Ich mache ein"
 	line "Picknick mit"
-	cont "meinen #mon."
+	cont "meinen #MON."
 
 	para "Setz dich doch zu"
 	line "uns."
@@ -649,7 +649,7 @@ PicnickerTiffanyWantsPicnicText:
 
 
 BreederJodySeenText:
-	text "Ich habe #mon"
+	text "Ich habe #MON"
 	line "gezüchtet, damit"
 
 	para "sie spezielle"
@@ -715,7 +715,7 @@ Route43Sign2Text:
 Route43TrainerTipsText:
 	text "TIPPS für TRAINER"
 
-	para "Alle #mon haben"
+	para "Alle #MON haben"
 	line "Vor- und Nach-"
 
 	para "teile. Das hängt"
@@ -723,11 +723,11 @@ Route43TrainerTipsText:
 	cont "welchem Element"
 	cont "sie angehören."
 
-	para "Sind zwei #mon"
+	para "Sind zwei #MON"
 	line "unterschiedlicher"
 
 	para "Elemente, kann"
-	line "sogar ein #mon"
+	line "sogar ein #MON"
 	cont "verlieren, das"
 	cont "einen höheren"
 	cont "Level hat."
@@ -737,7 +737,7 @@ Route43TrainerTipsText:
 
 	para "effektiv oder"
 	line "ineffektiv gegen"
-	cont "deine #mon"
+	cont "deine #MON"
 	cont "sind."
 	done
 
@@ -749,7 +749,7 @@ Route43TrainerTipsText:
 
 Route43AdvancedTipsText:
 	text "Profi-Tipps!"
-	para "Ein #mon kann"
+	para "Ein #MON kann"
 	line "sein Wesen per"
 	cont "Vererbung"
 	para "weitergeben, wenn"

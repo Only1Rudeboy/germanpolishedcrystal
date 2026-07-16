@@ -70,7 +70,7 @@ GenericTrainerAromaLadyHolly:
 
 WarmBeachCooltrainermText:
 	text "Hier gibt es ein"
-	line "#mon, das"
+	line "#MON, das"
 	cont "spricht!"
 	para "Ich würde es nicht"
 	line "glauben, wenn ich"

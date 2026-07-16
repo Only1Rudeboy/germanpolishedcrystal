@@ -29,24 +29,27 @@ TiffanyAnswerPhoneNiteText:
 	done
 
 TiffanyGreetText:
-	text "Bist du <PLAYER>?"
-	para "Guten Morgen."
-	line "Hier ist "
+	text "Spreche ich mit"
+	line "<PLAYER>?"
+
+	para "Guten Morgen. Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGreetDayText:
-	text "Bist du <PLAYER>?"
+	text "Spreche ich mit"
+	line "<PLAYER>?"
 
-	para "Hi, ich bin's,"
-	line ""
+	para ""
 	text_ram wStringBuffer3
-	text "."
+	text " hier."
 	done
 
 TiffanyGreetNiteText:
-	text "Bist du <PLAYER>?"
+	text "Spreche ich mit"
+	line "<PLAYER>?"
 
 	para "Guten Abend. Hier"
 	line "ist "
@@ -55,24 +58,23 @@ TiffanyGreetNiteText:
 	done
 
 TiffanyGenericText:
-	text "Geht es deinen"
-	line "#mon gut?"
+	text "Sind deine #MON"
+	line "in Ordnung?"
 
-	para "Bring sie täglich"
-	line "ins #mon-"
-	cont "Center."
+	para "Ich hoffe, du"
+	line "bringst sie täg-"
+	cont "lich in ein"
+	cont "#MON-CENTER."
 
-	para "Überanstrenge sie"
+	para "Übertreib es"
 	line "nicht."
 
-	para "Mein"
-	line ""
+	para "Mein "
 	text_ram wStringBuffer4
-	cont "ist niedlich"
-	cont "und munter,"
+	line "ist süß und leb-"
+	cont "haft, weil ich es"
 
-	para "weil ich es"
-	line "täglich ins"
-	cont "#mon-Center"
+	para "täglich in ein"
+	line "#MON-CENTER"
 	cont "bringe."
 	done

@@ -44,7 +44,7 @@ Route5AdvancedTipsSignText:
 	line "mächtiges Item,"
 	para "aber es verursacht"
 	line "Verwirrung."
-	para "Ein #mon mit"
+	para "Ein #MON mit"
 	line "der Fähigkeit"
 	cont "Gleichmut"
 	para "wird aber nicht"

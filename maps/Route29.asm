@@ -112,7 +112,7 @@ Route29CooltrainerMScript:
 	jumpthistextfaceplayer
 
 	text "Ich warte auf"
-	line "#mon, die nur"
+	line "#MON, die nur"
 	para "abends oder nachts"
 	line "auftauchen."
 	done
@@ -197,12 +197,12 @@ CatchingTutorialIntroText:
 	line "schon mehrmals"
 	cont "gesehen."
 
-	para "Wie viele #mon"
+	para "Wie viele #MON"
 	line "hast du gefangen?"
 
 	para "Soll ich dir"
 	line "zeigen, wie man"
-	cont "#mon fängt?"
+	cont "#MON fängt?"
 	done
 
 
@@ -232,7 +232,7 @@ CatchingTutorialGoodbyeText:
 	done
 Route29YoungsterText:
 	text "Yo. Wie geht es"
-	line "deinen #mon?"
+	line "deinen #MON?"
 	para "Sind sie schwach"
 	line "und nicht"
 	cont "kampfbereit, bleib"
@@ -275,14 +275,14 @@ Route29FisherText:
 
 Route29CoolTrainerMText_WaitingForDay: ; unreferenced
 	text "Ich warte auf"
-	line "#mon, die nur"
+	line "#MON, die nur"
 
 	para "tagsüber"
 	line "auftauchen."
 	done
 Text_WaitingForMorning:
 	text "Ich warte auf"
-	line "#mon, die"
+	line "#MON, die"
 
 	para "nur am VORMITTAG"
 	line "auftauchen."

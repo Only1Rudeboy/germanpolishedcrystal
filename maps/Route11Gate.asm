@@ -20,7 +20,7 @@ Route11Gate_MapScriptHeader:
 Route11GateOfficerText:
 	; CAPS LAVANDIA
 	text "Wenn du viele"
-	line "#mon fängst,"
+	line "#MON fängst,"
 
 	para "fällt es schwer,"
 	line "Namen zu finden,"

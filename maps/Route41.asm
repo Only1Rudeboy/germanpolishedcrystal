@@ -89,7 +89,7 @@ Route41MarlonScript:
 	para "Ich bin Marlon,"
 	line "Mann des Meeres!"
 
-	para "Meine #mon und"
+	para "Meine #MON und"
 	line "ich schwammen aus"
 	cont "der EINALL-REGION"
 	cont "her!"
@@ -298,7 +298,7 @@ SwimmermGeorgeSeenText:
 	text "Ich bin etwas"
 	line "müde. Wenn ich"
 	cont "gewinne, leihst du"
-	cont "mir dein #mon."
+	cont "mir dein #MON."
 	done
 
 
@@ -413,7 +413,7 @@ SwimmerfKayleeBeatenText:
 SwimmerfSusieSeenText:
 	text "Du gleitest so"
 	line "elegant auf deinem"
-	cont "#mon dahin."
+	cont "#MON dahin."
 	done
 
 

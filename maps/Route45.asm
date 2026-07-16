@@ -82,7 +82,7 @@ Route45Dragon_tamerScript:
 
 .AfterText2:
 	text "Die Kunst,"
-	line "Drachen-#mon zu"
+	line "Drachen-#MON zu"
 	cont "trainieren, ist"
 	cont "einfach toll."
 	para "Du solltest auch"
@@ -111,7 +111,7 @@ Route45Dragon_tamerScript:
 	line "bereit. Zeit für"
 	cont "ein Duell:"
 
-	para "deine #mon"
+	para "deine #MON"
 	line "gegen meine"
 	cont "Drachen."
 
@@ -136,7 +136,7 @@ Route45Dragon_tamerScript:
 
 .BeatenText:
 	text "Wie mächtig! Meine"
-	line "#mon waren dir"
+	line "#MON waren dir"
 	cont "nicht gewachsen."
 	done
 
@@ -333,7 +333,7 @@ GenericTrainerHikerMichael:
 	cont "liebe! Mm, lecker!"
 	para "Ich trinke immer"
 	line "die von meinen"
-	cont "#mon!"
+	cont "#MON!"
 	para "Ich kann nichts"
 	line "dagegen tun!"
 	done
@@ -426,7 +426,7 @@ HikerParry1Script:
 GenericTrainerHikerTimothy:
 	generictrainer HIKER, TIMOTHY, EVENT_BEAT_HIKER_TIMOTHY, HikerTimothySeenText, HikerTimothyBeatenText
 
-	text "#mon zu"
+	text "#MON zu"
 	line "entdecken, war das"
 	para "Beste, was mir"
 	line "passieren konnte."
@@ -437,7 +437,7 @@ GenericTrainerCooltrainermRyan:
 
 	text "Wie ich sehe,"
 	line "ziehst du deine"
-	cont "#mon mit"
+	cont "#MON mit"
 	cont "Sorgfalt auf."
 
 	para "Die Gemeinschaft,"
@@ -457,7 +457,7 @@ GenericTrainerCooltrainerfKelly:
 	para "Ich will gewinnen,"
 	line "aber ich möchte"
 	cont "dabei keine"
-	cont "#mon ver-"
+	cont "#MON ver-"
 	cont "letzen."
 	done
 
@@ -472,7 +472,7 @@ GenericTrainerCamperQuentin:
 
 BattleGirlNozomiSeenText:
 	text "Hier hat kein"
-	line "schwaches #mon"
+	line "schwaches #MON"
 	cont "etwas zu suchen!"
 	done
 
@@ -485,7 +485,7 @@ HikerErikSeenText:
 	line "vorbereitet!"
 	para "Lass mich mal"
 	line "sehen, wie gut"
-	cont "deine #mon"
+	cont "deine #MON"
 	cont "trainiert sind!"
 	done
 
@@ -522,7 +522,7 @@ HikerMichaelSeenText:
 
 
 HikerMichaelBeatenText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "waren leider nicht"
 	cont "couragiert genug!"
 	done
@@ -534,7 +534,7 @@ HikerMichaelBeatenText:
 
 
 HikerParry1SeenText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "sind voller"
 	cont "Energie!"
 	done
@@ -565,7 +565,7 @@ HikerTimothySeenText:
 	para "Weil es sie"
 	line "gibt."
 	para "Warum ich"
-	line "#mon trainiere?"
+	line "#MON trainiere?"
 	para "Weil es sie"
 	line "gibt!"
 	done
@@ -637,7 +637,7 @@ BlackbeltKenjiAfterBattleText:
 
 CooltrainermRyanSeenText:
 	text "Was hältst du vom"
-	line "#mon-Training?"
+	line "#MON-Training?"
 	done
 
 

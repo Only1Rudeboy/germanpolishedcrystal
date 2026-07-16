@@ -23,7 +23,7 @@ PokemonJournalLtSurgeScript:
 	setflag ENGINE_READ_LT_SURGE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Major"
 	line "Bob!"
 	para "Man munkelt, Major"
@@ -32,7 +32,7 @@ PokemonJournalLtSurgeScript:
 	line "Pilot."
 	para "Er nutzte die"
 	line "Elektrizität von"
-	para "#mon, um sein"
+	para "#MON, um sein"
 	line "Flugzeug"
 	cont "anzutreiben."
 	done

@@ -131,7 +131,7 @@ RuinsOfAlphInnerChamberScientistText:
 	para "so etwas wie"
 	line "Signale zu sein."
 	para "Ich glaube, sie"
-	line "lassen #mon"
+	line "lassen #MON"
 	para "erscheinen, aber"
 	line "das ist noch"
 	cont "unklar …"

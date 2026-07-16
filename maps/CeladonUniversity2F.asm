@@ -57,7 +57,7 @@ CeladonUniversity2FCooltrainerfScript:
 .Text5:
 	text "Gegengifte heilen"
 	line "Vergiftungen bei"
-	cont "#mon, aber ein"
+	cont "#MON, aber ein"
 	para "Mensch würde davon"
 	line "krank werden."
 	done
@@ -121,7 +121,7 @@ CeladonUniversity2FYoungster1Text:
 CeladonUniversity2FCowgirlText:
 	text "Meine Klasse macht"
 	line "einen Ausflug in"
-	cont "die Safari-Zone!"
+	cont "die SAFARI-ZONE!"
 	done
 
 CeladonUniversity2FBug_catcherText:
@@ -130,27 +130,28 @@ CeladonUniversity2FBug_catcherText:
 	cont "Assistenten los,"
 
 	para "um in der Stadt"
-	line "die #mon zu"
+	line "die #MON zu"
 	cont "erforschen."
 	done
 
 CeladonUniversity2FLassText:
 	text "Neben ihrem Amt"
-	line "als Prismania-"
-	cont "Arenaleiterin,"
+	line "als PRISMANIA-"
+	cont "Arenaleiterin"
 
 	para "war ERIKA hier an"
 	line "der Uni die Beste"
 	cont "ihrer Klasse."
 
 	para "Ich wünschte, ich"
-	line "wär so cool wie"
+	line "wär so toll wie"
 	cont "sie."
 	done
 
 CeladonUniversity2FYoungster2Text:
 	text "PROF. WESTWOOD ist"
-	line "etwas exzentrisch."
+	line "etwas exzen-"
+	cont "trisch."
 	para "Manchmal"
 	line "entschuldigt er"
 	cont "sich bei den"

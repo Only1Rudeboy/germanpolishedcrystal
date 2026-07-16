@@ -45,7 +45,7 @@ GenericTrainerBattleGirlPadma:
 GenericTrainerYoungsterTyler:
 	generictrainer YOUNGSTER, TYLER, EVENT_BEAT_YOUNGSTER_TYLER, YoungsterTylerSeenText, YoungsterTylerBeatenText
 
-	text "#mon springen"
+	text "#MON springen"
 	line "hervor, wenn du es"
 	cont "am wenigsten"
 	cont "erwartest."
@@ -100,7 +100,7 @@ SafariZoneNorthTutorDoubleEdgeScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
+	text "So! Dein #MON"
 	line "kennt jetzt"
 
 	para "Risikotackle!"
@@ -108,7 +108,7 @@ SafariZoneNorthTutorDoubleEdgeScript:
 
 BattleGirlPadmaSeenText:
 	text "Ich trainiere mit"
-	line "meinen #mon, um"
+	line "meinen #MON, um"
 	cont "als Team stärker"
 	cont "zu werden!"
 	done
@@ -119,7 +119,7 @@ BattleGirlPadmaBeatenText:
 	done
 
 YoungsterTylerSeenText:
-	text "Du findest #mon"
+	text "Du findest #MON"
 	line "überall!"
 
 	para "Im Gras, im"
@@ -158,7 +158,7 @@ SafariZoneNorthCooltrainerFText:
 
 Text_SafariZoneNorthTutorDoubleEdge:
 	text "Ich bringe deinem"
-	line "#mon"
+	line "#MON"
 	cont "Risikotackle"
 
 	para "bei - für ein"
@@ -168,7 +168,7 @@ Text_SafariZoneNorthTutorDoubleEdge:
 
 Text_SafariZoneNorthTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon"
+	line "#MON"
 	cont "Risikotackle"
 	cont "beibringen?"
 	done
@@ -198,7 +198,7 @@ SafariZoneNorthTrainerTips1SignText:
 SafariZoneNorthTrainerTips2SignText:
 	text "TIPPS für TRAINER"
 
-	para "#mon verstecken"
+	para "#MON verstecken"
 	line "sich im hohen"
 	cont "Gras!"
 

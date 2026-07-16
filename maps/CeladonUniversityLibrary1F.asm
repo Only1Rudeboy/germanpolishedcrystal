@@ -72,9 +72,10 @@ CeladonUniversityLibrary1FGameboyKidScript:
 	end
 
 .Text:
-	text "Mein #dex hat"
+	text "Mein #DEX hat"
 	line "ein Spiel-Upgrade."
-	para "Ich spiele Tetris!"
+	para "Ich spiele ein"
+	line "Puzzle darauf!"
 	done
 
 CeladonUniversityLibrary1FPokefan_fText:
@@ -82,7 +83,7 @@ CeladonUniversityLibrary1FPokefan_fText:
 	line "Leihvereinbarung"
 	para "mit der Bibliothek"
 	line "von Fleetburg in"
-	cont "Sinnoh."
+	cont "SINNOH."
 	done
 
 CeladonUniversityLibrary1FCooltrainermScript:
@@ -109,18 +110,16 @@ CeladonUniversityLibrary1FCooltrainermScript:
 	done
 
 .Text2:
-	text "Willst du, dass"
-	line "deine #mon"
-
-	para "durchhalten? Gib"
-	line "ihnen dieses"
-	cont "Fokusband."
+	text "Sollen deine"
+	line "#MON durch-"
+	cont "halten? Gib ihnen"
+	cont "dieses Fokusband."
 	done
 
 CeladonUniversityLibrary1FTeacherText:
 	text "Ich bin die"
-	line "Oberbibliothekari-"
-	cont "n."
+	line "Oberbibliotheka-"
+	cont "rin."
 	para "Wenn du etwas"
 	line "brauchst, sag"
 	cont "Bescheid."
@@ -131,8 +130,8 @@ CeladonUniversityLibrary1FTeacherText:
 
 CeladonUniversityLibrary1FBookText:
 	text "Ein Buch über"
-	line "Blumenarrangement-"
-	cont "s."
+	line "Blumenarrange-"
+	cont "ments."
 	para "Auf dem Cover ist"
 	line "ein Sonnflora."
 	done
@@ -167,7 +166,7 @@ CeladonUniversityLibrary1FBookshelf1Text:
 CeladonUniversityLibrary1FBookshelf2Text:
 	text "Ein Fotoalbum mit"
 	line "vielen"
-	cont "#mon-Bildern."
+	cont "#MON-Bildern."
 	para "'Todd Snaps"
 	line "Fotosammlung'"
 	cont "steht auf dem"
@@ -179,7 +178,7 @@ CeladonUniversityLibrary1FBookshelf3Text:
 	line "einen Mann, der"
 	cont "seinem"
 
-	para "#mon ein"
+	para "#MON ein"
 	line "Instrument"
 	cont "beibrachte."
 
@@ -189,7 +188,7 @@ CeladonUniversityLibrary1FBookshelf3Text:
 
 CeladonUniversityLibrary1FBookshelf4Text:
 	text "Ein Buch über"
-	line "#mon-"
+	line "#MON-"
 	cont "Palindrome."
 	para "Auf dem Cover sind"
 	line "Evoli und"
@@ -198,7 +197,7 @@ CeladonUniversityLibrary1FBookshelf4Text:
 
 CeladonUniversityLibrary1FBookshelf5Text:
 	text "Ein Buch über"
-	line "Spielzeug-#mon,"
+	line "Spielzeug-#MON,"
 	para "die durch einen"
 	line "Wunderschlüssel"
 	cont "lebendig werden."
@@ -207,7 +206,7 @@ CeladonUniversityLibrary1FBookshelf5Text:
 
 CeladonUniversityLibrary1FBookshelf6Text:
 	text "Ein Buch über eine"
-	line "#mon-"
+	line "#MON-"
 	cont "Marionette,"
 	para "die nicht lügen"
 	line "kann."
@@ -221,7 +220,7 @@ CeladonUniversityLibrary1FBookshelf7Text:
 	line "Videospiel!"
 	para "Auf der Verpackung"
 	line "ist ein"
-	cont "#mon-Flipper."
+	cont "#MON-Flipper."
 	done
 
 CeladonUniversityLibrary1FBookshelf8Text:
@@ -238,14 +237,14 @@ CeladonUniversityLibrary1FBookshelf8Text:
 
 CeladonUniversityLibrary1FBookshelf9Text:
 	text "Ein Handbuch zum"
-	line "#mon-"
+	line "#MON-"
 	cont "Sammelkartenspiel."
 	done
 
 CeladonUniversityLibrary1FBookshelf10Text:
 	text "Ein Kochbuch"
 	line "voller"
-	cont "#mon-Rezepte!"
+	cont "#MON-Rezepte!"
 
 	para "Pummeluff-Gelee,"
 	line "Glumanda-Chutney,"
@@ -257,7 +256,7 @@ CeladonUniversityLibrary1FBookshelf11Text:
 	line "Mischen von"
 	cont "Poffin."
 	para "Ein berühmter"
-	line "#mon-Züchter"
+	line "#MON-Züchter"
 	cont "ist auf dem Cover."
 	done
 

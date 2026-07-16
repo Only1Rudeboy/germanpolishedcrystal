@@ -362,8 +362,8 @@ PokemonJournalProfElmScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
-	para "Spezial: #mon"
+	text "#MON Journal"
+	para "Spezial: #MON"
 	line "PROF. LIND!"
 	para "PROF. LIND war der"
 	line "beste Schüler von"
@@ -384,13 +384,13 @@ PlayersHousePC:
 
 InitialRadioText1:
 	text "PROF. EICHs"
-	line "#mon-TALK!"
+	line "#MON-TALK!"
 	cont "Schalten Sie auch"
 	cont "das nächste Mal"
 	cont "wieder ein!"
 	done
 InitialRadioText2:
-	text "#mon-PROGRAMM!"
+	text "#MON-PROGRAMM!"
 	done
 InitialRadioText3:
 	text "Hier ist DJ"
@@ -398,6 +398,6 @@ InitialRadioText3:
 	cont "Co-Moderator!"
 	done
 InitialRadioText4:
-	text "#mon!"
-	line "#mon-PROGRAMM …"
+	text "#MON!"
+	line "#MON-PROGRAMM …"
 	done

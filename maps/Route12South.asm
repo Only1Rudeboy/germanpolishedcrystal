@@ -41,7 +41,7 @@ FisherMartinSeenText:
 	text "Geduld ist das"
 	line "Zauberwort. Das"
 	cont "gilt fürs Angeln"
-	cont "und für #mon."
+	cont "und für #MON."
 	done
 FisherMartinBeatenText:
 	text "Guaah!"
@@ -103,7 +103,7 @@ GenericTrainerFisherKyler:
 	generictrainer FISHER, KYLER, EVENT_BEAT_FISHER_KYLER, .SeenText, .BeatenText
 
 	text "Wirklich? Es ist"
-	line "besser, #mon zu"
+	line "besser, #MON zu"
 
 	para "trainieren, statt"
 	line "immer neue zu"
@@ -111,12 +111,12 @@ GenericTrainerFisherKyler:
 	done
 
 .SeenText:
-	text "#mon-Kämpfe"
+	text "#MON-Kämpfe"
 	line "locken Leute an!"
 	done
 
 .BeatenText:
-	text "Mein #mon-Eimer"
+	text "Mein #MON-Eimer"
 	line "ist leer!"
 	done
 

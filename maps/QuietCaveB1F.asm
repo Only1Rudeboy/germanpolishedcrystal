@@ -54,7 +54,7 @@ QuietCaveB1FNurseKeikoScript:
 	jumpthistext
 
 	text "Sieh mal, wie fit"
-	line "deine #mon"
+	line "deine #MON"
 	cont "wieder sind!"
 	done
 
@@ -73,7 +73,7 @@ QuietCaveB1FNurseKeikoScript:
 
 .AfterText:
 	text "Na gut… Zeit,"
-	line "deinen #mon"
+	line "deinen #MON"
 	cont "Energie zu geben!"
 	done
 
@@ -90,7 +90,7 @@ GenericTrainerPokemaniacAidan:
 	generictrainer POKEMANIAC, AIDAN, EVENT_BEAT_POKEMANIAC_AIDAN, PokemaniacAidanSeenText, PokemaniacAidanBeatenText
 
 	text "Manchmal kennt ein"
-	line "#mon in einer"
+	line "#MON in einer"
 	para "bestimmten Gegend"
 	line "eine seltene"
 	cont "Attacke."
@@ -126,12 +126,12 @@ BattleGirlKagamiBeatenText:
 	done
 
 PokemaniacAidanSeenText:
-	text "Meine #mon!"
+	text "Meine #MON!"
 	para "Ich zeige sie dir!"
 	done
 
 PokemaniacAidanBeatenText: ; text > text
-	text "Meine #mon…"
+	text "Meine #MON…"
 	done
 
 HikerSteveSeenText:

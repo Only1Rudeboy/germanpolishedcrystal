@@ -32,7 +32,7 @@ CeladonUniversityWillowsOfficeWillowText:
 	line "vielleicht im"
 	cont "Unterricht."
 	para "Ich erforsche auch"
-	line "#mon-"
+	line "#MON-"
 	cont "Lebensräume und"
 	cont "Verbreitung."
 	para "Ich bin sehr"
@@ -69,23 +69,24 @@ CeladonUniversityWillowsOfficeBookshelf1Text:
 	line "ökologische"
 	cont "Nischen"
 
-	para "und wie #mon in"
-	line "ihre Umgebung"
+	para "und wie #MON"
+	line "in ihre Umgebung"
 	cont "passen."
 	done
 
 CeladonUniversityWillowsOfficeBookshelf2Text:
 	text "Ein Werbe-Flyer"
 	line "für die"
-	cont "Safari-Zone."
+	cont "SAFARI-ZONE."
 	para "Viele exotische"
-	line "#mon zieren ihn"
+	line "#MON zieren"
+	cont "ihn."
 	done
 
 CeladonUniversityWillowsOfficeComputer:
 	jumpthistext
 
-	text "'#mon-Transfer-"
+	text "'#MON-Transfer-"
 	line "System' steht auf"
 	cont "dem Bildschirm."
 	done

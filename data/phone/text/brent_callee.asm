@@ -1,58 +1,58 @@
 BrentAnswerPhoneText:
-	text "Ja? Hier "
+	text "Ja? "
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Ah, <PLAYER>. Was"
-	line "kann ich für dich"
-	cont "tun?"
+	line "kann ich für"
+	cont "dich tun?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Ja? Hier "
+	text "Ja? "
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Ah, <PLAYER>. Was"
-	line "kann ich für dich"
-	cont "tun?"
+	line "kann ich für"
+	cont "dich tun?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Ja? Hier "
+	text "Ja? "
 	text_ram wStringBuffer3
 	text "…"
 
 	para "Ah, <PLAYER>. Was"
-	line "kann ich für dich"
-	cont "tun?"
+	line "kann ich für"
+	cont "dich tun?"
 	done
 
 BrentGreetText:
-	text "Hi, <PLAYER>. Wie"
-	line "geht's?"
+	text "Hiya, <PLAYER>."
+	line "Wie geht es dir?"
 
-	para "Hey! Ich bin's,"
+	para "Heh! Ich bin's,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hi, <PLAYER>, wie"
-	line "geht's?"
+	text "Hiya, <PLAYER>,"
+	line "wie geht es dir?"
 
-	para "Hey, ich bin's,"
+	para "Heh, ich bin's,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hi, <PLAYER>, wie"
-	line "geht's?"
+	text "Hiya, <PLAYER>,"
+	line "wie geht es dir?"
 
-	para "Hey, ich bin's,"
+	para "Heh, ich bin's,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
@@ -61,21 +61,21 @@ BrentGreetNiteText:
 BrentGenericText:
 	text "Oh ja, ich sah"
 	line "dich neulich aus"
-	cont "einem"
 
-	para "#mon-Center"
-	line "kommen."
+	para "einem #MON-"
+	line "CENTER kommen."
 
-	para "Du heilst deine"
-	line "#mon"
-	cont "regelmäßig."
+	para "Du lässt deine"
+	line "#MON regelmäßig"
 
-	para "Das beeindruckt"
-	line "mich. Heh, mein"
-	cont ""
+	para "heilen, oder? Ich"
+	line "bin beeindruckt."
+
+	para "Mein "
 	text_ram wStringBuffer4
+	line "ist so stark, dass"
 
-	para "ist so stark, es"
-	line "muss selten ins"
-	cont "#mon-Center!"
+	para "es nicht oft in"
+	line "ein #MON-CENTER"
+	cont "muss. Heheh!"
 	done

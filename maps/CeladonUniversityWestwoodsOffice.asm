@@ -62,7 +62,7 @@ endc
 CeladonUniversityWestwoodsOfficeBookText:
 	text "Liebes Tagebuch,"
 	para "Meine Arbeit am"
-	line "#dex wird gut"
+	line "#DEX wird gut"
 	para "aufgenommen."
 	para "Beweis, dass man"
 	line "nicht immer das"
@@ -87,8 +87,8 @@ CeladonUniversityWestwoodsOfficeSignpost2Text:
 
 CeladonUniversityWestwoodsOfficeBookshelfText:
 	text "Die Gesammelten"
-	line "Werke von Prof."
-	cont "Westwood."
+	line "Werke von PROF."
+	cont "WESTWOOD."
 
 	para "…Lieber nicht."
 	done

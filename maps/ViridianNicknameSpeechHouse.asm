@@ -22,10 +22,10 @@ ViridianNicknameSpeechHousePokefanMText:
 	text "Machst du dir"
 	line "viele Gedanken"
 	para "darüber, wie du"
-	line "deine #mon"
+	line "deine #MON"
 	cont "nennen sollst?"
 	para "Das Tauschen von"
-	line "#mon macht mehr"
+	line "#MON macht mehr"
 	para "Spaß, wenn sie"
 	line "Spitznamen haben."
 	done

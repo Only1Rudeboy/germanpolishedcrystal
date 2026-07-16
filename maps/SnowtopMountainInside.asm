@@ -157,7 +157,7 @@ SnowtopMountainInsideTutorIcyWindScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "O.K.! Dein #mon"
+	text "O.K.! Dein #MON"
 	line "kennt jetzt Icy"
 	cont "Wind!"
 	done
@@ -171,12 +171,12 @@ SnowtopMountainInsideSkierText:
 	cont "bist."
 	para "Das könnte eine"
 	line "gute Technik für"
-	cont "ein #mon sein!"
+	cont "ein #MON sein!"
 	done
 
 Text_SnowtopMountainInsideTutorIcyWind:
 	text "Ich bringe einem"
-	line "deiner #mon"
+	line "deiner #MON"
 	para "Icy Wind bei, wenn"
 	line "du mir ein"
 	para "Silberblatt gibst."
@@ -185,7 +185,7 @@ Text_SnowtopMountainInsideTutorIcyWind:
 
 Text_SnowtopMountainInsideTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Icy Wind"
+	line "#MON Icy Wind"
 	cont "beibringen?"
 	done
 

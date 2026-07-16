@@ -1,64 +1,67 @@
 DerekAnswerPhoneText:
 	text "Hi, <PLAYER>?"
 
-	para "Guten Morgen,"
-	line "pika. Was gibt's,"
-	cont "pika?"
+	para "Guten Morgen pika."
+	line "Was ist los pika?"
 	done
 
 DerekAnswerPhoneDayText:
 	text "Hi, <PLAYER>?"
 
-	para "Guten Tag, pika,"
-	line "was gibt's, pika?"
+	para "Guten Tag pika."
+	line "Was ist los pika?"
 	done
 
 DerekAnswerPhoneNiteText:
 	text "Hi, <PLAYER>?"
-	para "Guten Abend,"
-	line "pika, was gibt's,"
-	cont "pika?"
+
+	para "Guten Abend pika."
+	line "Was ist los pika?"
 	done
 
 DerekGreetText:
-	text "<PLAYER>, pika,"
+	text "<PLAYER> pika,"
 	line "guten Morgen!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ", wie geht's,"
-	line "pika?"
+	text " hier,"
+	line "wie pika bist du?"
 	done
 
 DerekGreetDayText:
-	text "<PLAYER>, pika,"
-	line "schöner Tag!"
+	text "<PLAYER> pika,"
+	line "guten pika Tag!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ", wie geht's,"
-	line "pika?"
+	text " hier,"
+	line "wie pika bist du?"
 	done
 
 DerekGreetNiteText:
-	text "<PLAYER>, pika,"
+	text "<PLAYER> pika,"
 	line "guten Abend!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Warst du wach,"
-	line "pika?"
+	text " hier."
+	line "Warst du wach?"
 	done
 
 DerekGenericText:
 	text "Das musst du"
-	line "hören! Mein"
-	cont "liebes "
+	line "hören! Mein lie-"
+	cont "benswürdiges"
+
+	para ""
 	text_ram wStringBuffer4
-	text "hat mich"
-	line "angesehen und"
-	cont "gegrinst!"
-	para "Unsere Herzen"
-	line "schlagen als"
-	cont "eins!"
+	text " sah"
+	line "mich an und"
+	cont "lachte!"
+
+	para "Es muss daran lie-"
+	line "gen, weil unsere"
+	cont "Herzen im Einklang"
+	cont "schlagen!"
 	done

@@ -57,7 +57,7 @@ Route40BattleTowerGateTwinScript:
 	jumpthistextfaceplayer
 
 	text "Ich trainiere"
-	line "meine #mon,"
+	line "meine #MON,"
 	cont "damit ich"
 	para "für den"
 	line "Kampfturm"
@@ -66,7 +66,7 @@ Route40BattleTowerGateTwinScript:
 
 .OpenText:
 	text "Die Level der"
-	line "#mon, die ich"
+	line "#MON, die ich"
 	para "einsetzen möchte,"
 	line "sind"
 	cont "unterschiedlich."

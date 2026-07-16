@@ -49,7 +49,7 @@ ShamoutiIslandAlolanExeggutorScript:
 	line "schläft… tief?"
 
 	para "Ist das ein"
-	line "#mon?"
+	line "#MON?"
 	done
 
 .Awake:
@@ -76,7 +76,7 @@ ShamoutiIslandAlolanExeggutorScript:
 	done
 
 .WokeUpText:
-	text "Das #mon ist"
+	text "Das #MON ist"
 	line "aufgewacht!"
 	done
 

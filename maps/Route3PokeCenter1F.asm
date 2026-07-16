@@ -23,11 +23,11 @@ PokemonJournalKarenScript:
 	setflag ENGINE_READ_KAREN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Top Vier"
 	line "MELANIE!"
 	para "MELANIE soll mit"
-	line "Unlicht-#mon"
+	line "Unlicht-#MON"
 	para "trainiert haben,"
 	line "um ihren düsteren"
 	para "Ruf zu überwinden."
@@ -49,7 +49,7 @@ Route3PokeCenter1FPokefanM1Text:
 	para "Es war ein"
 	line "seltenes"
 	cont "schillerndes"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "Ich hätte viel"
 	line "mehr Geld machen"
@@ -69,7 +69,7 @@ Route3PokeCenter1FYoungsterText:
 	text "Viele Trainer sind"
 	line "am Berg."
 	para "Und viele wilde"
-	line "#mon auch."
+	line "#MON auch."
 	para "Man weiß nie, wen"
 	line "oder was man"
 	cont "trifft."

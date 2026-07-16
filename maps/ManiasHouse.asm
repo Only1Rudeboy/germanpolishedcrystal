@@ -56,10 +56,9 @@ ManiaScript:
 .refusetotakeshuckie
 	jumpthisopenedtext
 
-	text "Ach nein … was"
-	line "soll ich nur tun,"
-	cont "wenn er"
-	cont "zurückkommt?"
+	text "Oh nein… was soll"
+	line "ich nur tun, wenn"
+	cont "er zurückkommt?"
 	done
 
 .returnshuckie
@@ -81,7 +80,7 @@ ManiaScript:
 	jumpthisopenedtext
 
 	text "Hey, du hast mein"
-	line "#mon gar nicht"
+	line "#MON gar nicht"
 	cont "dabei!"
 	done
 
@@ -95,7 +94,7 @@ ManiaScript:
 .refused
 	jumpthisopenedtext
 
-	text "Ach, nein, nein …"
+	text "Oh, nein, nein…"
 	line "das ist so, als"
 	cont "würde man beraubt."
 	done
@@ -104,21 +103,18 @@ ManiaScript:
 	jumpthisopenedtext
 
 	text "Wenn ich mein"
-	line "#mon"
-	cont "zurücknehme, wer"
-	cont "soll für dich"
-	cont "kämpfen?"
+	line "#MON zurück-"
+	cont "nehme, wer soll"
+	cont "für dich kämpfen?"
 	done
 
 .default_postevent
 	jumpthisopenedtext
 
-	text "Für #mon ist es"
-	line "das höchste"
-
+	text "Für #MON ist"
+	line "es das höchste"
 	para "Glück, wenn sie"
 	line "bei jemandem sein"
-
 	para "dürfen, der sie"
 	line "gut behandelt."
 	done
@@ -130,60 +126,57 @@ ShuckieOTName:
 	rawchar "Kirk@"
 
 ManiaText_AskLookAfterShuckie:
-	text "Ich … ich bin"
+	text "Ich… ich bin"
 	line "schockiert!"
-	para "Ein Junge in"
-	line "deinem Alter mit"
+	para "Ein Junge in dei-"
+	line "nem Alter mit"
 	para "stechenden Augen"
 	line "und langen Haaren"
 	cont "kam hier rein."
-	para "Er hat mich"
-	line "gezwungen, ihm"
-	cont "meine"
+	para "Er hat mich ge-"
+	line "zwungen, ihm meine"
 	cont "preisgekrönten"
-	cont "#mon zu geben!"
+	cont "#MON zu geben!"
 	para "Ich habe zwar noch"
 	line "eines übrig, aber"
 	cont "was soll ich tun,"
-	cont "wenn er"
-	cont "zurückkommt?"
+	cont "wenn er zurück-"
+	cont "kommt?"
 	para "Du siehst stark"
 	line "aus. Würdest du"
-	para "auf mein #mon"
+	para "auf mein #MON"
 	line "aufpassen?"
 	done
 ManiaText_TakeCareOfShuckie:
-	text "Ach, ich danke"
-	line "dir!"
-
-	para "Bitte pass gut"
-	line "darauf auf!"
+	text "Oh, ich danke dir!"
+	para "Bitte pass gut da-"
+	line "rauf auf!"
 	done
 ManiaText_GotShuckie:
 	text "<PLAYER> erhält ein"
-	line "#mon."
+	line "#MON."
 	done
 ManiaText_ShuckieSentToPC:
-	text "Das #mon wurde"
+	text "Das #MON wurde"
 	line "nach "
 	text_ram wStringBuffer1
 	text "geschickt."
 	done
 
 ManiaText_PartyAndBoxFull:
-	text "Dein #mon-Team"
+	text "Dein #MON-Team"
 	line "und die Box sind"
 	cont "voll."
 	done
 
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hallo! Wie geht"
-	line "es meinem #mon?"
+	text "Hi! Wie geht es"
+	line "meinem #MON?"
 	para "Ich glaube, ich"
 	line "bin jetzt sicher."
-	cont "Kann ich es zurück"
-	cont "haben?"
+	cont "Kann ich es zu-"
+	cont "rück haben?"
 	done
 
 
@@ -199,13 +192,12 @@ ManiaText_ThankYou:
 
 
 ManiaText_ShuckieLikesYou:
-	text "Mein #mon"
+	text "Mein #MON"
 	line "scheint dich zu"
 	cont "mögen."
-
 	para "Na gut, dann"
-	line "sollst du es"
-	cont "behalten. Aber"
-	cont "versprich mir, es"
-	cont "gut zu behandeln."
+	line "sollst du es be-"
+	cont "halten. Aber ver-"
+	cont "sprich mir, es gut"
+	cont "zu behandeln."
 	done

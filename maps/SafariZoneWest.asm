@@ -46,13 +46,13 @@ GenericTrainerCamperAmos:
 
 	text "Ich durchkämme"
 	line "Land und Meer nach"
-	cont "neuen #mon."
+	cont "neuen #MON."
 	done
 
 GenericTrainerTamerBrett:
 	generictrainer TAMER, BRETT, EVENT_BEAT_TAMER_BRETT, TamerBrettSeenText, TamerBrettBeatenText
 
-	text "Du musst #mon"
+	text "Du musst #MON"
 	line "mit"
 	cont "Selbstvertrauen"
 	cont "kommandieren."
@@ -63,7 +63,7 @@ GenericTrainerTamerBrett:
 LassDuplicaSeenText:
 	text "Um Ditto richtig"
 	line "zu nutzen, musst"
-	cont "du alle #mon"
+	cont "du alle #MON"
 	cont "kennen!"
 	done
 
@@ -75,7 +75,7 @@ LassDuplicaBeatenText:
 CamperAmosSeenText:
 	text "In der SAFARI-ZONE"
 	line "leben viele"
-	cont "#mon."
+	cont "#MON."
 	para "Ich will sie alle"
 	line "fangen!"
 	done
@@ -88,7 +88,7 @@ CamperAmosBeatenText:
 
 TamerBrettSeenText:
 	text "Weißt du, wie man"
-	line "aggressive #mon"
+	line "aggressive #MON"
 	cont "handhabt?"
 	done
 
@@ -108,14 +108,14 @@ SafariZoneWestRestHouseSignText:
 SafariZoneWestTrainerTips1SignText:
 	text "TIPPS für TRAINER"
 
-	para "Feuer-#mon"
+	para "Feuer-#MON"
 	line "können nicht"
 	cont "verbrennen,"
 
-	para "Elektro-#mon"
+	para "Elektro-#MON"
 	line "nicht paralysiert"
 
-	para "und Eis-#mon"
+	para "und Eis-#MON"
 	line "nicht eingefroren"
 	cont "werden."
 	done
@@ -124,7 +124,7 @@ SafariZoneWestTrainerTips2SignText:
 	text "TIPPS für TRAINER"
 	para "Bei einem"
 	line "Sandsturm erhalten"
-	para "Gestein-#mon"
+	para "Gestein-#MON"
 	line "einen Bonus auf"
 	cont "ihre Spezial-Vert."
 	done

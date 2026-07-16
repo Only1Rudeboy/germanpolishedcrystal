@@ -67,8 +67,8 @@ BattleTowerHallwayEnterScene:
 	end
 
 .PleaseStepThisWayText:
-	text "Bitte hier"
-	line "entlang."
+	text "Hier entlang"
+	line "bitte."
 	done
 
 MovementData_BattleTowerHallwayWalkTo1020Room:

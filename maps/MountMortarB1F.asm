@@ -61,7 +61,7 @@ MountMortarB1FTutorDefenseCurlScript:
 	jumpthisopenedtext
 
 	text "So! Jetzt kann"
-	line "dein #mon"
+	line "dein #MON"
 	cont "EINIGLER nutzen!"
 	done
 
@@ -89,10 +89,10 @@ MountMortarB1FKiyoScript:
 
 MountMortarB1FKiyoGotTyrogueText:
 	text "RABAUZ ist ein"
-	line "Kampf-#mon."
+	line "Kampf-#MON."
 	para "Es entwickelt sich"
 	line "zu einem stärkeren"
-	cont "#mon."
+	cont "#MON."
 	para "Arbeite so hart"
 	line "weiter. Ich werde"
 	cont "auch weiterhin"
@@ -104,7 +104,7 @@ MountMortarB1FKiyoGotTyrogueText:
 
 
 MountMortarB1FHikerText:
-	text "Mein #mon hat"
+	text "Mein #MON hat"
 	done
 if DEF(FAITHFUL)
 	line "Felsbrecher auf"
@@ -123,7 +123,7 @@ endc
 
 Text_MountMortarB1FTutorDefenseCurl:
 	text "Ich bringe deinem"
-	line "#mon"
+	line "#MON"
 	para "EINIGLER bei -für"
 	line "ein Silberblatt."
 	done
@@ -131,7 +131,7 @@ Text_MountMortarB1FTutorDefenseCurl:
 
 Text_MountMortarB1FTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon EINIGLER"
+	line "#MON EINIGLER"
 	cont "beibringen?"
 	done
 
@@ -172,7 +172,7 @@ MountMortarB1FTyrogueRewardText:
 	line "deinen Sieg gebe"
 	para "ich dir dieses"
 	line "seltene"
-	cont "Kampf-#mon."
+	cont "Kampf-#MON."
 	done
 
 

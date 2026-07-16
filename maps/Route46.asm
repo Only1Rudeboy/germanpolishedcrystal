@@ -63,7 +63,7 @@ Route46TutorRoute46Script:
 	jumpthisopenedtext
 
 	text "Fertig! Dein"
-	line "#mon hat"
+	line "#MON hat"
 	cont "Rollout gelernt!"
 	done
 
@@ -259,12 +259,12 @@ Route46HikerText:
 	para "Trotzdem lernte"
 	line "ich etwas …"
 	para "Sei vorsichtig bei"
-	line "wütenden #mon!"
+	line "wütenden #MON!"
 	done
 
 Text_Route46TutorRollout:
 	text "Ich bringe deinem"
-	line "#mon Rollout"
+	line "#MON Rollout"
 	cont "bei"
 
 	para "für ein"
@@ -274,7 +274,7 @@ Text_Route46TutorRollout:
 
 Text_Route46TutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Rollout"
+	line "#MON Rollout"
 	cont "beibringen?"
 	done
 
@@ -284,7 +284,7 @@ HikerBaileySeenText:
 	text "Also gut! Ich"
 	line "zeige dir die"
 	cont "Kraft von Berg-"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 
@@ -306,7 +306,7 @@ HikerBaileyBeatenText:
 
 CamperTedSeenText:
 	text "Ich trainiere auch"
-	line "#mon!"
+	line "#MON!"
 	para "Möchtest du gegen"
 	line "mich kämpfen?"
 	done
@@ -329,7 +329,7 @@ CamperTedBeatenText:
 
 PicnickerErin1SeenText:
 	text "Ich trainiere auch"
-	line "#mon!"
+	line "#MON!"
 	para "Trittst du gegen"
 	line "mich an?"
 	done

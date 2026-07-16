@@ -58,7 +58,7 @@ CeladonGymErikaScript:
 	para "Die Hälfte des zu-"
 	line "gefügten Schadens"
 	cont "wird zur Heilung"
-	para "deines #mon"
+	para "deines #MON"
 	line "verwendet."
 	para "Verwende sie,"
 	line "wann immer du"
@@ -242,7 +242,7 @@ Aroma_ladyDahliaBeatenText:
 TwinsJoandzoe1SeenText:
 	; GSC-DE Dump
 	text "Wir zeigen dir"
-	line "#mon-Attacken,"
+	line "#MON-Attacken,"
 	cont "die ERIKA uns"
 	cont "beigebracht hat!"
 	done

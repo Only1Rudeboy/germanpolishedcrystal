@@ -265,9 +265,9 @@ Route17SouthNotice1Text:
 
 Route17SouthTrainerTips1Text:
 	text "Trainer-Tipps"
-	para "Alle #mon sind"
+	para "Alle #MON sind"
 	line "einzigartig."
-	para "Zwei #mon"
+	para "Zwei #MON"
 	line "derselben Art und"
 	cont "Stufe können"
 	para "anders aussehen,"

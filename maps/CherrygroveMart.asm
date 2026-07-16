@@ -40,7 +40,7 @@ CherrygroveMartCooltrainerMText_PokeBallsInStock:
 	text "#BÄLLE sind"
 	line "wieder auf Lager!"
 	cont "Jetzt kann ich"
-	cont "#mon fangen!"
+	cont "#MON fangen!"
 	done
 
 
@@ -49,11 +49,11 @@ CherrygroveMartYoungsterText:
 	text "Als ich durch das"
 	line "Gras spazierte,"
 	para "hat ein"
-	line "Käfer-#mon mein"
-	para "#mon vergiftet!"
+	line "Käfer-#MON mein"
+	para "#MON vergiftet!"
 	para "Ich ging einfach"
 	line "weiter, aber dann"
-	cont "wurde mein #mon"
+	cont "wurde mein #MON"
 	cont "plötzlich besiegt."
 	para "Du solltest"
 	line "ständig ein"

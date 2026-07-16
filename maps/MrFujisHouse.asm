@@ -36,12 +36,12 @@ MrFujisHouseLassText:
 	text "Es gibt kalt-"
 	line "herzige Menschen,"
 	cont "die einfach ihre"
-	cont "#mon im Stich"
+	cont "#MON im Stich"
 	cont "lassen."
 
 	para "Großvater nimmt"
 	line "die armen, heimat-"
-	cont "losen #mon auf"
+	cont "losen #MON auf"
 	cont "und sorgt für sie."
 	done
 

@@ -30,35 +30,37 @@ ErinAnswerPhoneNiteText:
 ErinGreetText:
 	text "<PLAYER>!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text "! Guten Morgen!"
+	text " hier!"
+	line "Guten Morgen!"
 	done
 
 ErinGreetDayText:
 	text "<PLAYER>!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text "! Arbeitest du"
-	line "hart?"
+	text " hier!"
+	line "Hart am Arbeiten?"
 	done
 
 ErinGreetNiteText:
 	text "<PLAYER>!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text "! Warst du wach?"
+	text " hier!"
+	line "Bist du wach?"
 	done
 
 ErinGenericText:
-	text "Züchtest du deine"
-	line "#mon?"
+	text "Trainierst du"
+	line "deine #MON?"
 
-	para "Hey, "
-	text_ram wStringBuffer3
-	text "s "
+	para "Das "
 	text_ram wStringBuffer4
-	text " sieht gut aus!"
+	line "von "
+	text_ram wStringBuffer3
+	cont "sieht gut aus!"
 	done

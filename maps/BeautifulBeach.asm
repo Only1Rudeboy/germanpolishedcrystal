@@ -84,7 +84,7 @@ GenericTrainerSightseermJaska:
 GenericTrainerTamerVince:
 	generictrainer TAMER, VINCE, EVENT_BEAT_TAMER_VINCE, .SeenText, .BeatenText
 
-	text "Meine #mon sind"
+	text "Meine #MON sind"
 	line "bestens gezähmt,"
 
 	para "doch ich bleibe"
@@ -123,7 +123,7 @@ GenericTrainerSightseerfRosie:
 .BeatenText:
 	text "Ich schätze,"
 	line "zuerst zum"
-	cont "#mon-Center."
+	cont "#MON-Center."
 	done
 
 TrainerSwimmerfRachel:

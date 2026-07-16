@@ -156,27 +156,27 @@ GenericTrainerSightseersLiandsu1:
 .SeenText:
 	text "Li: Was war zuerst"
 	line "da?"
-	para "Das #mon oder"
+	para "Das #MON oder"
 	line "das Ei?"
 	done
 
 .BeatenText:
 	text "Li: Ich sage, das"
-	line "#mon!"
+	line "#MON!"
 	done
 
 GenericTrainerSightseersLiandsu2:
 	generictrainer SIGHTSEERS, LIANDSU2, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
 	text "Su: Gibt es"
-	line "#mon, die nicht"
+	line "#MON, die nicht"
 	cont "aus Eiern kommen?"
 	done
 
 .SeenText:
 	text "Su: Was war zuerst"
 	line "da?"
-	para "Das #mon oder"
+	para "Das #MON oder"
 	line "das Ei?"
 	done
 

@@ -17,7 +17,7 @@ GoldenrodHarborGate_MapScriptHeader:
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodHarborGateOfficerText, -1
 
 GoldenrodHarborGateOfficerText:
-	text "Wenn dein #mon"
+	text "Wenn dein #MON"
 	line "SURFER kann,"
 
 	para "kannst du nach"

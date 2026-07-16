@@ -66,7 +66,7 @@ SageChowSeenText:
 	para "In tiefster"
 	line "Dankbarkeit ehren"
 	cont "wir hier alle"
-	cont "#mon."
+	cont "#MON."
 	done
 
 
@@ -134,7 +134,7 @@ SproutTower1FTeacherText:
 
 SproutTower1FStatueText:
 	text "Eine"
-	line "#mon-Statue …"
+	line "#MON-Statue …"
 	para "Sie sieht sehr"
 	line "erhaben aus."
 	done
@@ -213,7 +213,7 @@ KimonoGirlMakoScript:
 	line "besiegt?"
 	para "Dann fordere ich"
 	line "dich und deine"
-	cont "#mon heraus!"
+	cont "#MON heraus!"
 	done
 
 .BeatenText:

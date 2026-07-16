@@ -67,7 +67,7 @@ GenericTrainerCamperClark:
 	line "Lass das Feuer"
 	cont "nicht ausgehen!"
 	para "Achtung vor wilden"
-	line "#mon!"
+	line "#MON!"
 	para "Los geht's,"
 	line "Campfire!"
 	done
@@ -80,7 +80,7 @@ GenericTrainerPicnickerGinger:
 	generictrainer PICNICKER, GINGER, EVENT_BEAT_PICNICKER_GINGER, .SeenText, .BeatenText
 
 	text "Du kannst mit"
-	line "#mon"
+	line "#MON"
 	cont "kommunizieren"
 
 	para "durch Pfeifen"
@@ -100,7 +100,7 @@ GenericTrainerPicnickerGinger:
 GenericTrainerBird_keeperPerry:
 	generictrainer BIRD_KEEPER, PERRY, EVENT_BEAT_BIRD_KEEPER_PERRY, Bird_keeperPerrySeenText, Bird_keeperPerryBeatenText
 
-	text "Deine #mon sind"
+	text "Deine #MON sind"
 	line "in der Tat sehr"
 	cont "gut trainiert."
 	done
@@ -108,7 +108,7 @@ Bird_keeperPerrySeenText:
 	text "Agilität ist die"
 	line "wichtigste"
 	cont "Eigenschaft von"
-	cont "Vogel-#mon."
+	cont "Vogel-#MON."
 	done
 Bird_keeperPerryBeatenText:
 	text "Du hast mich"
@@ -120,12 +120,12 @@ GenericTrainerBird_keeperBret:
 	generictrainer BIRD_KEEPER, BRET, EVENT_BEAT_BIRD_KEEPER_BRET, Bird_keeperBretSeenText, Bird_keeperBretBeatenText
 
 	text "Wenn du deine"
-	line "#mon pflegst,"
+	line "#MON pflegst,"
 	cont "sind sie fröhlich."
 	done
 Bird_keeperBretSeenText:
 	text "Schau dir meine"
-	line "#mon an. Sieh"
+	line "#MON an. Sieh"
 
 	para "ihre Farben und"
 	line "ihr Gefieder."
@@ -164,7 +164,7 @@ GenericTrainerPicnickerPiper:
 
 .SeenText:
 	text "Wie wäre es, deine"
-	line "#mon und meine"
+	line "#MON und meine"
 	para "für einen Kampf"
 	line "herauszuholen?"
 	done
@@ -229,7 +229,7 @@ GenericTrainerPokefanmAlex:
 PokefanmAlexSeenText:
 	text "Verbeuge dich vor"
 	line "meinen königlichen"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 
@@ -251,7 +251,7 @@ GenericTrainerPokefanmJoshua:
 	generictrainer POKEFANM, JOSHUA, EVENT_BEAT_POKEFANM_JOSHUA, PokefanmJoshuaSeenText, PokefanmJoshuaBeatenText
 
 	text "Es scheint, dass"
-	line "du viele #mon"
+	line "du viele #MON"
 	para "hast, aber PIKACHU"
 	line "ist immer noch das"
 	cont "Beste."
@@ -317,13 +317,13 @@ Route13TrainerTips1Text:
 	done
 Route13TrainerTips2Text:
 	text "TIPPS für TRAINER"
-	para "Manche #mon"
+	para "Manche #MON"
 	line "brauchen Items, um"
 	cont "sich zu"
 	cont "entwickeln."
 	para "Mit etwas Glück"
 	line "trägt ein wildes"
-	para "#mon sein"
+	para "#MON sein"
 	line "eigenes"
 	cont "Evoluti-onsitem"
 	cont "bei sich!"

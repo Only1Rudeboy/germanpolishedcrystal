@@ -39,7 +39,7 @@ GenericTrainerBird_keeperBob:
 
 Bird_keeperBorisSeenText:
 	text "Wenn du nach"
-	line "#mon suchst,"
+	line "#MON suchst,"
 
 	para "musst du ins"
 	line "hohe Gras gehen."

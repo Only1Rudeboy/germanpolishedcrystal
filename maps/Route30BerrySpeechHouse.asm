@@ -34,7 +34,7 @@ Route30BerryHousePokefanMScript:
 	done
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "Weißt du, #mon"
+	text "Weißt du, #MON"
 	line "essen Beeren."
 	para "Nach dem Pflücken"
 	line "brauchen sie Zeit,"

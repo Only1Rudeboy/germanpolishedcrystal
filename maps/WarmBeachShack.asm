@@ -63,7 +63,7 @@ WarmBeachShackBodySlamFisherText:
 
 Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
 	text "Soll ich einem"
-	line "deiner #mon"
+	line "deiner #MON"
 
 	para "Body Slam für ein"
 	line "Silberblatt"
@@ -119,7 +119,7 @@ WarmBeachShackEndureFisherText:
 
 Text_WarmBeachShackEndureTutorEndureQuestion:
 	text "Soll ich einem"
-	line "deiner #mon"
+	line "deiner #MON"
 
 	para "Endure für ein"
 	line "Silberblatt"

@@ -18,7 +18,7 @@ VioletMart_MapScriptHeader:
 
 VioletMartGrannyText:
 	text "Fängst du ein"
-	line "#mon, ist es"
+	line "#MON, ist es"
 	cont "vermutlich sehr"
 	cont "schwach."
 	para "Aber letztendlich"
@@ -26,14 +26,14 @@ VioletMartGrannyText:
 	cont "und stärker"
 	cont "werden."
 	para "Es ist wichtig,"
-	line "#mon sehr viel"
+	line "#MON sehr viel"
 	cont "Liebe zu schenken."
 	done
 
 
 
 VioletMartCooltrainerMText:
-	text "#mon können"
+	text "#MON können"
 	line "Items wie TRANK"
 	cont "und GEGENGIFT"
 	cont "tragen."

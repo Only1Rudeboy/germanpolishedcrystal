@@ -115,7 +115,7 @@ PsychicInverBeatenText:
 	text "Dieser Kampf hat"
 	line "mich wohl noch"
 	para "mehr erschöpft als"
-	line "meine #mon …"
+	line "meine #MON …"
 	done
 
 InverseBattle0PointRewardText:

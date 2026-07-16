@@ -276,7 +276,7 @@ GenericTrainerGruntF6:
 	generictrainer GRUNTF, 6, EVENT_BEAT_ROCKET_GRUNTF_6, GruntF6SeenText, GruntF6BeatenText
 
 	text "Wenn wir jedes"
-	line "#mon gut"
+	line "#MON gut"
 
 	para "behandeln, wie"
 	line "sollen wir dann"
@@ -295,7 +295,7 @@ GenericTrainerGruntM23:
 GenericTrainerGruntM26:
 	generictrainer GRUNTM, 26, EVENT_BEAT_ROCKET_GRUNTM_26, GruntM26SeenText, GruntM26BeatenText
 
-	text "Wie wir #mon"
+	text "Wie wir #MON"
 	line "behandeln, geht"
 	cont "dich nichts an!"
 	done
@@ -315,7 +315,7 @@ CamperGrantSeenText:
 
 	para "also campiere ich"
 	line "hier mit meinen"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 CamperGrantBeatenText:
@@ -384,7 +384,7 @@ CowgirlDanielaBeatenText:
 
 GruntF6SeenText:
 	text "Warum sollten wir"
-	line "#mon wie"
+	line "#MON wie"
 	cont "normale Trainer"
 	cont "aufziehen?"
 
@@ -399,7 +399,7 @@ GruntF6BeatenText:
 GruntM23SeenText:
 	text "Ach, willst du die"
 	line "niedlichen kleinen"
-	cont "#mon retten?"
+	cont "#MON retten?"
 	done
 
 GruntM23BeatenText:
@@ -442,7 +442,7 @@ Route47QuietCaveSignText:
 Route47AdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "Manche #mon in"
+	para "Manche #MON in"
 	line "bestimmten"
 	cont "Gebieten"
 

@@ -181,7 +181,7 @@ BellchimeTrailValerieScript:
 	line "gegen jemanden"
 	cont "antreten, der das"
 	para "Auge eines"
-	line "legendären #mon"
+	line "legendären #MON"
 	cont "auf sich zog."
 	done
 

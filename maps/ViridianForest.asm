@@ -46,7 +46,7 @@ GenericTrainerBug_maniacDane:
 GenericTrainerBug_maniacDion:
 	generictrainer BUG_MANIAC, DION, EVENT_BEAT_BUG_MANIAC_DION, BugManiacDionSeenText, BugManiacDionBeatenText
 
-	text "Käfer-#mon"
+	text "Käfer-#MON"
 	line "machen viele"
 	cont "verschiedene"
 	cont "Geräusche."
@@ -80,7 +80,7 @@ GenericTrainerBug_maniacAbner:
 	generictrainer BUG_MANIAC, ABNER, EVENT_BEAT_BUG_MANIAC_ABNER, BugManiacAbnerSeenText, BugManiacAbnerBeatenText
 
 	text "Egal welches"
-	line "#mon-"
+	line "#MON-"
 
 	para "wenn du es magst,"
 	line "sieht es süß aus."
@@ -90,7 +90,7 @@ BugManiacDaneSeenText:
 	text "Willkommen im"
 	line "VERTANIA-WALD."
 	para "Genieß meine"
-	line "Käfer-#mon."
+	line "Käfer-#MON."
 	done
 
 BugManiacDaneBeatenText:
@@ -100,7 +100,7 @@ BugManiacDaneBeatenText:
 
 BugManiacDionSeenText:
 	text "Pst! Sei leise!"
-	line "Die Käfer-#mon"
+	line "Die Käfer-#MON"
 	cont "laufen weg!"
 	done
 
@@ -110,7 +110,7 @@ BugManiacDionBeatenText:
 
 BugManiacStaceySeenText:
 	text "Wow, das ist ein"
-	line "RIESIGES #mon!"
+	line "RIESIGES #MON!"
 
 	para "… …Was für ein"
 	line "Trainer?!"
@@ -125,7 +125,7 @@ BugManiacEllisSeenText:
 	text "Nichts ist"
 	line "effektiver und"
 	cont "schöner als ein"
-	cont "Käfer-#mon."
+	cont "Käfer-#MON."
 	done
 
 BugManiacEllisBeatenText:
@@ -135,10 +135,10 @@ BugManiacEllisBeatenText:
 
 BugManiacAbnerSeenText:
 	text "Viele mögen harte"
-	line "Käfer-#mon"
+	line "Käfer-#MON"
 
 	para "lieber als weiche"
-	line "Käfer-#mon."
+	line "Käfer-#MON."
 	done
 
 BugManiacAbnerBeatenText:
@@ -146,7 +146,7 @@ BugManiacAbnerBeatenText:
 	line "harte Arbeit,"
 
 	para "meine lieben"
-	line "#mon…"
+	line "#MON…"
 	done
 
 ViridianForestSignText1:
@@ -167,7 +167,7 @@ ViridianForestSignText2:
 
 ViridianForestSignText3:
 	text "TIPPS für TRAINER"
-	para "Pflanzen-#mon"
+	para "Pflanzen-#MON"
 	line "sind immun gegen"
 	para "Pulver- und"
 	line "Sporen-Attacken!"
@@ -176,21 +176,21 @@ ViridianForestSignText3:
 ViridianForestSignText4:
 	text "Bei Gift hilft"
 	line "GEGENGIFT! Im"
-	cont "#mon-MARKT!"
+	cont "#MON-MARKT!"
 	done
 
 ViridianForestSignText5:
 	text "TIPPS für TRAINER"
-	para "Gift-#mon"
+	para "Gift-#MON"
 	line "können nicht"
 	cont "vergiftet werden!"
 	done
 
 ViridianForestSignText6:
 	text "TIPPS für TRAINER"
-	para "Schwäche #mon"
+	para "Schwäche #MON"
 	line "vor dem Fangen!"
-	para "Gesunde #mon"
+	para "Gesunde #MON"
 	line "entkommen"
 	cont "leichter!"
 	done

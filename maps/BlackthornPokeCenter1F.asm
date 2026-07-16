@@ -24,7 +24,7 @@ PokemonJournalClairScript:
 	setflag ENGINE_READ_CLAIR_JOURNAL
 	jumpthistext
 
-	text "#mon-Journal"
+	text "#MON-Journal"
 
 	para "Spezialthema:"
 	line "Leiterin SANDRA!"
@@ -53,7 +53,7 @@ ProfOaksAide4Script:
 	line "Du hast"
 	para "erst "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten von #mon"
+	text "Arten von #MON"
 	line "gefangen."
 	para "Komm wieder, wenn"
 	line "du 60 Arten"
@@ -71,7 +71,7 @@ ProfOaksAide4Script:
 .ExplainText:
 	text "Das Glücks-Ei"
 	line "hilft einem"
-	cont "#mon, mehr"
+	cont "#MON, mehr"
 	cont "Erfahrung"
 
 	para "als sonst zu"
@@ -87,14 +87,14 @@ ProfOaksAide4Script:
 	line "PROF. EICHs"
 	cont "Assistent."
 	para "Wenn du 60 Arten"
-	line "von #mon"
+	line "von #MON"
 	cont "gefangen hast,"
 	para "soll ich dir ein"
 	line "Item geben."
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
 	cont "60"
-	para "Arten von #mon"
+	para "Arten von #MON"
 	line "gefangen?"
 	done
 
@@ -103,7 +103,7 @@ ProfOaksAide4Script:
 	line "gemacht! Du hast"
 	para "gefangen "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten von #mon."
+	text "Arten von #MON."
 	para "Glückwunsch! Hier"
 	line "bitte!"
 	done

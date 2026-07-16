@@ -30,7 +30,7 @@ GenericTrainerPokefanmRobert:
 	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
 
 	text "Sieh nur, was du"
-	line "meinen #mon"
+	line "meinen #MON"
 	cont "angetan hast…"
 
 	para "Das werde ich dir"
@@ -63,7 +63,7 @@ HikerJimBeatenText:
 
 
 PokefanmRobertSeenText:
-	text "Du magst #mon,"
+	text "Du magst #MON,"
 	line "nicht wahr?"
 
 	para "Ich auch!"
@@ -87,11 +87,11 @@ PokefanmRobertBeatenText:
 HexManiacAmySeenText:
 	text "LAVANDIA …"
 	para "Wo die Geister der"
-	line "#mon schlafen …"
+	line "#MON schlafen …"
 	done
 
 HexManiacAmyBeatenText:
-	text "Deine #mon"
+	text "Deine #MON"
 	line "strahlen vor"
 	cont "Vitalität…"
 	done

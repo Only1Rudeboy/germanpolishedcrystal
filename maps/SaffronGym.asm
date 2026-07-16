@@ -130,7 +130,7 @@ GenericTrainerHexManiacLuna:
 
 	; PC-only
 	text "ALAKAZAM ist ein"
-	line "mächtiges #mon,"
+	line "mächtiges #MON,"
 	para "deshalb benutzen"
 	line "HEX MANIACS"
 	para "seinen Namen für"
@@ -177,7 +177,7 @@ SaffronGymGuyScript:
 	para "braucht sicher"
 	line "keine Anweisung,"
 	para "wie mit Psycho-"
-	line "#mon umzugehen"
+	line "#MON umzugehen"
 	cont "ist, nicht wahr?"
 	para "Ich erwarte"
 	line "Großes von dir!"
@@ -257,7 +257,7 @@ SabrinaFightDoneText:
 	; GSC-DE Dump 5805
 	text "SABRINA: Deine Zu-"
 	line "neigung zu deinen"
-	para "#mon hat meine"
+	para "#MON hat meine"
 	line "Psychostärke"
 	cont "übertroffen…"
 	para "Die Kraft der"

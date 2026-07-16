@@ -68,7 +68,7 @@ VioletGymFalknerScript:
 	jumpthisopenedtext
 
 	text "Mit einer TM kann"
-	line "ein #mon eine"
+	line "ein #MON eine"
 	cont "neue Attacke"
 	cont "lernen."
 	para "Eine TM kannst du"

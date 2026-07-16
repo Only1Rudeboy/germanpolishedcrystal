@@ -41,7 +41,7 @@ GenericTrainerYoungsterOliver:
 GenericTrainerLassJennifer:
 	generictrainer LASS, JENNIFER, EVENT_BEAT_LASS_JENNIFER, LassJenniferSeenText, LassJenniferBeatenText
 
-	text "#mon machen so"
+	text "#MON machen so"
 	line "viel Spaß. Findest"
 	cont "du nicht?"
 	done
@@ -110,7 +110,7 @@ Route4TutorIronHeadScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
+	text "So! Dein #MON"
 	line "kennt jetzt Iron"
 	cont "Head!"
 	done
@@ -149,7 +149,7 @@ Route4TutorAquaTailScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
+	text "So! Dein #MON"
 	line "kennt jetzt Aqua"
 	cont "Tail!"
 	done
@@ -176,7 +176,7 @@ LassJenniferSeenText:
 	line "immer ich kann,"
 
 	para "nur um Zeit mit"
-	line "meinen #mon zu"
+	line "meinen #MON zu"
 	cont "verbringen."
 	done
 
@@ -186,7 +186,7 @@ LassJenniferBeatenText:
 
 Bird_keeperHankSeenText:
 	text "Ich trainiere"
-	line "#mon. Trittst"
+	line "#MON. Trittst"
 	cont "du gegen mich an?"
 	done
 Bird_keeperHankBeatenText:
@@ -230,7 +230,7 @@ PicnickerSharonBeatenText:
 
 
 Route4SuperNerd1Text:
-	text "#mon mit harten"
+	text "#MON mit harten"
 	line "Köpfen sind top!"
 
 	para "Arcanine, Golem,"
@@ -240,7 +240,7 @@ Route4SuperNerd1Text:
 	done
 
 Route4SuperNerd2Text:
-	text "#mon mit langen"
+	text "#MON mit langen"
 	line "Schwänzen sind"
 	cont "top!"
 
@@ -255,7 +255,7 @@ Text_Route4TutorIronHead:
 	line "Silberblatt und"
 
 	para "ich bringe deinem"
-	line "#mon Iron Head"
+	line "#MON Iron Head"
 	cont "bei!"
 	done
 
@@ -264,7 +264,7 @@ Text_Route4TutorAquaTail:
 	line "Silberblatt und"
 
 	para "ich bringe deinem"
-	line "#mon Aqua Tail"
+	line "#MON Aqua Tail"
 	cont "bei!"
 	done
 
@@ -275,13 +275,13 @@ Text_Route4TutorsNoSilverLeaf:
 
 Text_Route4Tutor1Question:
 	text "Soll ich deinem"
-	line "#mon Iron Head"
+	line "#MON Iron Head"
 	cont "beibringen?"
 	done
 
 Text_Route4Tutor2Question:
 	text "Soll ich deinem"
-	line "#mon Aqua Tail"
+	line "#MON Aqua Tail"
 	cont "beibringen?"
 	done
 

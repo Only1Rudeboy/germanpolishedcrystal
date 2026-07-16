@@ -1,26 +1,26 @@
 AlanAnswerPhoneText:
-	text "Jup, "
+	text "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Bist du <PLAYER>?"
+	para "<PLAYER>, oder?"
 	line "Guten Morgen!"
 	done
 
 AlanAnswerPhoneDayText:
-	text "Jup, "
+	text "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Bist du <PLAYER>?"
+	para "<PLAYER>, oder?"
 	done
 
 AlanAnswerPhoneNiteText:
-	text "Jup, "
+	text "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Bist du <PLAYER>?"
+	para "<PLAYER>, oder?"
 	line "Guten Abend!"
 	done
 
@@ -46,14 +46,15 @@ AlanGreetNiteText:
 	done
 
 AlanGenericText:
-	text "<PLAYER>, züchtest"
-	line "du deine #mon"
+	text "<PLAYER>, trai-"
+	line "nierst du deine"
+	cont "#MON richtig?"
 
-	para "richtig? In einem"
-	line "Buch stand, man"
+	para "Ich habe gelesen,"
+	line "dass man die #-"
+	cont "MON, die man fängt"
+	cont "mit Liebe und"
 
-	para "soll jedes #mon"
-	line "mit Liebe und"
-	cont "Sorgfalt"
-	cont "aufziehen."
+	para "Umsicht trainieren"
+	line "soll."
 	done

@@ -352,6 +352,6 @@ NeighborScript:
 	line "unbedingt PROF."
 	cont "LINDs Assistentin"
 	cont "werden."
-	para "Sie liebt #mon"
+	para "Sie liebt #MON"
 	line "von ganzem Herzen!"
 	done

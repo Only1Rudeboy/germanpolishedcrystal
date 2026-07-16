@@ -266,10 +266,10 @@ Text_MahoganyMart1FTutorQuestion:
 
 PokemonJournalWillScript:
 	setflag ENGINE_READ_WILL_JOURNAL
-	; PC: #mon Journal
+	; PC: #MON Journal
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Top Vier"
 	line "WILLI!"
 	para "WILLI redet nicht"
@@ -280,7 +280,7 @@ PokemonJournalWillScript:
 	para "Manche sagen, er"
 	line "arbeitete für TEAM"
 	cont "ROCKET."
-	para "Das #mon"
+	para "Das #MON"
 	line "Journal spekuliert"
 	cont "nicht darüber."
 	done

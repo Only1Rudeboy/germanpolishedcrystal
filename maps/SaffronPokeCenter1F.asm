@@ -23,7 +23,7 @@ PokemonJournalSabrinaScript:
 	setflag ENGINE_READ_SABRINA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Leiter"
 	line "SABRINA!"
@@ -31,7 +31,7 @@ PokemonJournalSabrinaScript:
 	para "Man sagt, SABRINA"
 	line "kann im Kampf"
 
-	para "mit ihren #mon"
+	para "mit ihren #MON"
 	line "kommunizieren,"
 	cont "ohne ein Wort zu"
 	cont "sagen."
@@ -68,7 +68,7 @@ SaffronPokeCenter1FFisherScript:
 SaffronPokeCenter1FTeacherText:
 	; GSC-DE Dump 5822
 	text "Wie sehen die"
-	line "#mon-CENTER in"
+	line "#MON-CENTER in"
 	cont "JOHTO aus?"
 	para "…Oh, aha. Sie"
 	line "unterscheiden sich"

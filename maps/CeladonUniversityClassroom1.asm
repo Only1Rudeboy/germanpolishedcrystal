@@ -80,7 +80,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	cont "Geheimnis."
 
 	para "Hey, das klingt"
-	line "ziemlich cool!"
+	line "ziemlich toll!"
 
 	para "Vielleicht werd"
 	line "ich Dichter!"
@@ -94,13 +94,14 @@ CeladonUniversityClassroom1ImakuniScript:
 	para "Ich bin der super"
 	line "Musikstar,"
 	cont "Imakuni!"
-	para "Ich sing den #"
-	line "-Rap--du tanzt!"
+	para "Ich sing den"
+	line "#-Rap--"
+	cont "du tanzt!"
 	para "♪ La di da di da,"
-	line "La di da di da … ♪"
+	line "La di da di da… ♪"
 	para "Hey! Beweg die"
 	line "Füße!"
-	para "Was? #mon?"
+	para "Was? #MON?"
 	para "Du willst gegen"
 	line "mich kämpfen?"
 	done
@@ -145,10 +146,10 @@ CeladonUniversityClassroom1AndyText:
 	cont "siehst,"
 	para "nicht was du zu"
 	line "sehen glaubst."
-	para "Lass alte"
-	line "Vorstel-lungen"
-	cont "los, wie Dinge"
-	cont "aussehen."
+	para "Lass alte Vor-"
+	line "stellungen los,"
+	cont "wie Dinge aus-"
+	cont "sehen."
 	done
 
 CeladonUniversityClassroom1Dragon_tamerText:
@@ -175,10 +176,9 @@ CeladonUniversityClassroom1Artist1Text:
 
 CeladonUniversityClassroom1Artist2Text:
 	text "Hatschi!"
-	para "Ugh. Wir hatten"
-	line "einen"
-	cont "Blumensteckkurs,"
-	cont "aber"
+	para "Uff. Wir hatten"
+	line "einen Blumen-"
+	cont "steckkurs, aber"
 	para "jetzt muss ich"
 	line "ständig niesen."
 	para "Ich bin wohl"
@@ -205,7 +205,8 @@ CeladonUniversityClassroom1BlackboardText:
 CeladonUniversityClassroom1Bookshelf1Text:
 	text "Ein Buch über"
 	line "Farbeagle, einen"
-	cont "#mon-Künstler."
+	cont "#MON-"
+	cont "Künstler."
 
 	para "Voller schöner"
 	line "Zeichnungen."
@@ -214,6 +215,6 @@ CeladonUniversityClassroom1Bookshelf1Text:
 CeladonUniversityClassroom1Bookshelf2Text:
 	text "Eine Broschüre"
 	line "über Kunst aus dem"
-	cont "Seegrasulb-"
+	cont "SEEGRASULB-"
 	para "Museum."
 	done

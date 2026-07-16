@@ -28,14 +28,15 @@ PokemonJournalFalknerScript:
 	setflag ENGINE_READ_FALKNER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Leiter"
 	line "FALK!"
 	para "Man sagt, FALK"
 	line "verehrte seinen"
 	cont "Vater, der früher"
-	para "die ARENA in VIOLA"
-	line "CITY leitete."
+	para "die ARENA in"
+	line "VIOLA CITY"
+	cont "leitete."
 	done
 
 VioletPokeCenter1FElmsAideScript:
@@ -75,37 +76,33 @@ VioletPokeCenter1FElmsAideScript:
 	end
 
 .PartyAndBoxFull:
-	text "Ach nein. Du"
-	line "kannst keine"
-	cont "#mon mehr bei"
-	cont "dir tragen."
-
-	para "In deiner Box ist"
-	line "auch kein Platz."
-
+	text "Oh, du hast keinen"
+	line "Platz mehr für ein"
+	cont "weiteres #MON."
 	para "Ich warte hier,"
 	line "bis du Platz für"
-	cont "das Ei hast."
+	cont "das EI geschaffen"
+	cont "hast."
 	done
 
 .RefusedEgg:
 	setevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
 	jumpthisopenedtext
 
-	text "A-Aber … PROF."
+	text "A-Aber… PROF."
 	line "LIND hat nach dir"
-	cont "gefragt …"
+	cont "gefragt…"
 	done
 .IntroText:
 	text "<PLAYER>, lange"
 	line "nicht gesehen."
-	para "PROF.LIND hat mich"
-	line "gebeten, nach dir"
-	cont "zu suchen."
+	para "PROF. LIND hat"
+	line "mich gebeten, nach"
+	cont "dir zu suchen."
 	para "Er hat noch eine"
 	line "Bitte an dich."
 	para "Nimm bitte das"
-	line "#mon-EI!"
+	line "#MON-EI!"
 	done
 
 .QuestionText:
@@ -114,21 +111,20 @@ VioletPokeCenter1FElmsAideScript:
 	done
 
 .GoodbyeText:
-	text "Wir haben"
-	line "entdeckt, dass ein"
-	para "#mon erst"
+	text "Wir haben ent-"
+	line "deckt, dass ein"
+	para "#MON erst"
 	line "schlüpft, nachdem"
 	para "es im EI gewachsen"
 	line "ist."
 	para "Außerdem muss es"
 	line "sich in der Nähe"
-	para "anderer #mon"
+	para "anderer #MON"
 	line "befinden, um zu"
 	cont "schlüpfen."
 	para "<PLAYER>, du bist"
-	line "die einzige"
-	cont "Person, auf die"
-	cont "wir"
+	line "die einzige Per-"
+	cont "son, auf die wir"
 	para "uns verlassen"
 	line "können."
 	para "Bitte ruf PROF."
@@ -157,10 +153,11 @@ VioletPokeCenter1FElmsAideScript:
 	step_end
 
 VioletPokeCenter1FGameboyKidText:
-	text "Ein Typ namens"
+	text "Ein Kerl namens"
 	line "BILL hat das"
-	para "#mon-Lager-"
-	line "System gebaut."
+	para "#MON-PC-LAGE-"
+	line "RUNGS-SYSTEM"
+	para "erfunden."
 	done
 
 VioletPokeCenter1FGentlemanText:
@@ -168,30 +165,30 @@ VioletPokeCenter1FGentlemanText:
 	line "drei Jahren."
 	para "TEAM ROCKET hatte"
 	line "etwas Übles mit"
-	cont "den #mon vor."
-	para "Aber die"
-	line "Gerechtigkeit hat"
-	cont "gesiegt! Ein"
-	cont "junger Trainer hat"
-	cont "sie zerschlagen."
+	cont "den #MON vor."
+	para "Aber die Gerech-"
+	line "tigkeit hat ge-"
+	cont "siegt! Ein junger"
+	cont "Trainer hat sie"
+	cont "zerschlagen."
 	done
 VioletPokeCenter1FSageText:
-	text "Manche Sonnkern"
+	text "Manche SONNKERN"
 	line "tragen ein"
 	cont "Goldblatt."
-	para "Und manche Myrapla"
-	line "ein Silberblatt."
+	para "Und manche"
+	line "MYRAPLA ein"
+	cont "Silberblatt."
 	para "Das schätzen"
 	line "bestimmte Leute"
 	cont "sehr."
 	done
 
 VioletPokeCenter1FYoungsterText:
-	text "#mon sind"
-	line "schlau. Sie"
-	cont "gehorchen nur"
-	cont "Trainern, vor"
-	cont "denen sie auch"
+	text "#MON sind"
+	line "schlau. Sie gehor-"
+	cont "chen nur Trainern,"
+	cont "vor denen sie auch"
 	cont "Respekt haben."
 	para "Hat der Trainer"
 	line "nicht genug ORDEN,"

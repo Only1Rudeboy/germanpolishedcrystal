@@ -426,7 +426,7 @@ GenericTrainerBreederJulie:
 
 	; PC-only (class C)
 	text "Eines meiner"
-	line "#mon hat ein"
+	line "#MON hat ein"
 
 	para "hartes Wesen. Ein"
 	line "anderes ein"
@@ -486,7 +486,7 @@ Route34RichBoyIrvingScript:
 	text "Ich muss nicht um"
 	line "Münzen zocken."
 	para "Ich bin reich und"
-	line "habe meine #mon"
+	line "habe meine #MON"
 	cont "mit Bargeld"
 	cont "gekauft!"
 	para "Sie sind so stark,"
@@ -656,7 +656,7 @@ Route34LyraText_Grandpa:
 Route34LyraGoodWorkText:
 	text "LYRA: Gut gemacht,"
 	line "Opa!"
-	para "Die #mon, die"
+	para "Die #MON, die"
 	line "für mich"
 	cont "aufgezogen hast,"
 	cont "sind topfit!"
@@ -673,7 +673,7 @@ Route34LyraIntroductionText:
 	line "Freund!"
 
 	para "<PLAYER> kann"
-	line "#mon ziemlich"
+	line "#MON ziemlich"
 	cont "gut aufziehen."
 
 	para "Na ja, nicht so"
@@ -707,7 +707,7 @@ BreederJulieSeenText:
 	; PC-only (class C)
 	text "Hier trainiere ich"
 	line "meine"
-	cont "Baby-#mon!"
+	cont "Baby-#MON!"
 	done
 
 BreederJulieBeatenText:
@@ -1058,11 +1058,11 @@ Route34TrainerTipsText:
 Route34AdvancedTipsSignText:
 	; PC-only (class C)
 	text "Profi-Tipps!"
-	para "Manche #mon"
+	para "Manche #MON"
 	line "haben von Natur"
 	para "aus mehr Potenzial"
 	line "als andere!"
-	para "Aber alle #mon"
+	para "Aber alle #MON"
 	line "können im Kampf"
 	cont "Einsatz zeigen"
 	para "oder Vitamine"

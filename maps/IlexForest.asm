@@ -442,14 +442,14 @@ IlexForestTutorHeadbuttScript:
 	line "um Bäume zu"
 	cont "schütteln."
 	cont "Manchmal fallen"
-	cont "schlafende #mon"
+	cont "schlafende #MON"
 	cont "herunter."
 	done
 
 GenericTrainerBugCatcherWayne:
 	generictrainer BUG_CATCHER, WAYNE, EVENT_BEAT_BUG_CATCHER_WAYNE, BugCatcherWayneSeenText, BugCatcherWayneBeatenText
 
-	text "Ein #mon, das"
+	text "Ein #MON, das"
 	line "ich noch nie zuvor"
 	para "sah, fiel aus dem"
 	line "Baum, als ich"
@@ -1137,7 +1137,7 @@ BugCatcherWayneSeenText:
 	line "nicht an!"
 
 	para "Du hast ein"
-	line "#mon verjagt!"
+	line "#MON verjagt!"
 	done
 
 
@@ -1146,7 +1146,7 @@ BugCatcherWayneSeenText:
 
 
 BugCatcherWayneBeatenText:
-	text "Dieses #mon"
+	text "Dieses #MON"
 	line "habe ich noch nie"
 	cont "zuvor gesehen…"
 	done
@@ -1167,12 +1167,12 @@ else
 	cont "den Boden."
 endc
 
-	para "Das #mon meiner"
+	para "Das #MON meiner"
 	line "Schwester sammelt"
 	cont "ihn."
 
 	para "So lockt man"
-	line "#mon auf dem"
+	line "#MON auf dem"
 
 	para "gleichen Level"
 	line "ich an, für faire"

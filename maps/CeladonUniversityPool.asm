@@ -66,9 +66,9 @@ CeladonUniversityPoolFergusScript:
 	text "Ich bin Fergus!"
 	line "Einer der vier"
 	cont "besten Trainer"
-	para "der Prismania-Uni."
+	para "der PRISMANIA-UNI."
 	para "Man nennt uns die"
-	line "Prismanias Vier!"
+	line "PRISMANIAS VIER!"
 	para "Ich beweise dir"
 	line "mit einem Kampf,"
 	cont "dass ich es"
@@ -78,7 +78,7 @@ CeladonUniversityPoolFergusScript:
 .IntroText2:
 	text "Ich bin Fergus!"
 	line "Einer der"
-	cont "Prismanias Vier!"
+	cont "PRISMANIAS VIER!"
 
 	para "Du forderst alle"
 	line "vier heraus?"
@@ -114,12 +114,12 @@ CeladonUniversityPoolFergusScript:
 	line "solltest du die"
 
 	para "restlichen"
-	line "Prismanias Vier"
+	line "PRISMANIAS VIER"
 	cont "herausfordern!"
 	done
 
 .AfterText2:
-	text "Alle Prismanias"
+	text "Alle PRISMANIAS"
 	line "Vier verloren"
 	cont "gegen dich?"
 
@@ -131,7 +131,7 @@ CeladonUniversityPoolFergusScript:
 	done
 
 .FinalText:
-	text "Die Prismanias"
+	text "Die PRISMANIAS"
 	line "Vier sind hier"
 	cont "groß, aber du"
 
@@ -149,12 +149,11 @@ CeladonUniversityPoolLassText:
 
 CeladonUniversityPoolSwimmer_girlText:
 	text "Ich habe mich für"
-	line "ein"
-	cont "Spezialprogramm"
-	cont "beworben,"
+	line "ein Spezialpro-"
+	cont "gramm beworben,"
 	para "um auf den"
-	line "Seeschauminseln zu"
-	cont "studieren!"
+	line "SEESCHAUMINSELN"
+	cont "zu studieren!"
 	para "Ich muss mich auf"
 	line "hartes Schwimmen"
 	cont "vorbereiten."

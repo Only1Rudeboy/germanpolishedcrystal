@@ -21,7 +21,7 @@ PokemonJournalKogaScript:
 	setflag ENGINE_READ_KOGA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: TOP VIER"
 	line "KOGA!"
 	para "KOGA soll über"
@@ -31,6 +31,6 @@ PokemonJournalKogaScript:
 	cont "verfügen."
 	para "Er braut sogar"
 	line "Medizin, um seine"
-	para "#mon wieder"
+	para "#MON wieder"
 	line "gesund zu pflegen."
 	done

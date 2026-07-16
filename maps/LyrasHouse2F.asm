@@ -21,7 +21,7 @@ LyrasHouse2F_MapScriptHeader:
 LyrasHouseLyraText:
 	text "LYRA: Hi, <PLAYER>!"
 	para "Hmm … Meine"
-	line "#mon nehmen"
+	line "#MON nehmen"
 	cont "vielleicht"
 	para "in letzter Zeit"
 	line "etwas zu …"

@@ -116,7 +116,7 @@ CherrygroveBayGalarianBirdsScript:
 
 .GreatTreeText
 	text "Das ist der große"
-	line "Baum von Rosalia!"
+	line "Baum von ROSALIA!"
 	done
 
 .LikeToUseItemText
@@ -178,15 +178,15 @@ CherrygroveBayTutorEarthPowerScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
-	line "kennt jetzt Earth"
-	cont "Power!"
+	text "So! Dein #MON"
+	line "kennt jetzt"
+	cont "Erdkräfte!"
 	done
 
 GenericTrainerSwimmermThomas:
 	generictrainer SWIMMERM, THOMAS, EVENT_BEAT_SWIMMERM_THOMAS, .SeenText, .BeatenText
 
-	text "Mein #mon kann"
+	text "Mein #MON kann"
 	line "Surfen, aber ich"
 	cont "schwimme lieber."
 	done
@@ -206,7 +206,7 @@ GenericTrainerSwimmerfSally:
 	generictrainer SWIMMERF, SALLY, EVENT_BEAT_SWIMMERF_SALLY, .SeenText, .BeatenText
 
 	text "Ich treibe gern"
-	line "mit meinen #mon"
+	line "mit meinen #MON"
 	cont "auf den Wellen!"
 	done
 
@@ -233,12 +233,12 @@ TrainerSwimmerfTara:
 
 	text "Nördlich liegt der"
 	line "große Baum von"
-	cont "Rosalia."
+	cont "ROSALIA CITY."
 	para "Man sagt, seltene"
-	line "Vogel-#mon"
-	cont "kommen"
-	para "von weit her, um"
-	line "dort zu nisten."
+	line "Vogel-#MON"
+	cont "kommen von weit"
+	para "her, um dort zu"
+	line "nisten."
 	done
 
 .SeenText:
@@ -269,7 +269,7 @@ GenericTrainerHikerTony:
 	line "durch den Wald"
 	para "gewandert, nur um"
 	line "das legendäre"
-	cont "Vogel-#mon zu"
+	cont "Vogel-#MON zu"
 	cont "sehen!"
 	done
 
@@ -280,16 +280,12 @@ GenericTrainerHikerTony:
 
 CherrygroveBayFisherText:
 	text "Beim Angeln kann"
-	line "ich Rosalia City"
-
+	line "ich ROSALIA CITY"
 	para "in der Ferne"
 	line "betrachten."
-
 	para "Oh! Und neulich"
 	line "sah ich riesige"
-
 	para "Vögel."
-
 	para "Ich glaube, sie"
 	line "flogen zu dem"
 	cont "großen Baum dort"
@@ -298,23 +294,18 @@ CherrygroveBayFisherText:
 
 CherrygroveBayHikerText:
 	text "Ich glaube nicht"
-	line "an"
-	cont "Schöpfungsmythen"
-	cont "mit #mon."
-
-	para "Johto entstand"
+	line "an Schöpfungs-"
+	cont "mythen mit #MON."
+	para "JOHTO entstand"
 	line "über Millionen"
 	cont "Jahre"
-
 	para "durch die Kraft"
 	line "der Erde!"
 	done
 
 Text_CherrygroveBayTutorEarthPower:
 	text "Ich bringe deinem"
-	line "#mon Earth"
-	cont "Power"
-
+	line "#MON Erdkräfte"
 	para "bei - für ein"
 	line "Silberblatt."
 	done
@@ -322,6 +313,6 @@ Text_CherrygroveBayTutorEarthPower:
 
 Text_CherrygroveBayTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Earth"
-	cont "Power beibringen?"
+	line "#MON Erdkräfte"
+	cont "beibringen?"
 	done

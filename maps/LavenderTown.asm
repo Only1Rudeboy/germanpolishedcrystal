@@ -193,7 +193,7 @@ KantoRadioStationSignText:
 VolunteerPokemonHouseSignText:
 	; GSC-DE Dump 7166
 	text "WAISENHAUS für"
-	line "#mon"
+	line "#MON"
 	cont "von LAVANDIA"
 	done
 
@@ -206,7 +206,7 @@ SoulHouseSignText:
 	text "RUHESTÄTTE"
 
 	para "Mögen die Seelen"
-	line "der #mon hier"
+	line "der #MON hier"
 	cont "in Frieden Ruhen"
 	done
 
@@ -247,7 +247,7 @@ LavenderTownGrampsText:
 
 	para "um den Seelen"
 	line "dahingegangener"
-	cont "#mon Respekt"
+	cont "#MON Respekt"
 	cont "zu erweisen."
 	done
 
@@ -260,7 +260,7 @@ LavenderTownYoungsterText:
 	text "Mit einer #"
 	line "floete weckst du"
 	cont "schlafende"
-	cont "#mon."
+	cont "#MON."
 
 	para "Jeder Trainer muss"
 	line "das wissen!"

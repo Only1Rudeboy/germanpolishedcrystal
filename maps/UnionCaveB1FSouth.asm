@@ -135,7 +135,7 @@ GenericTrainerFirebreatherJay:
 	text "Feuer speien hab"
 	line "ich von meinen"
 
-	para "#mon gelernt!"
+	para "#MON gelernt!"
 	done
 
 .BeatenText:
@@ -177,7 +177,7 @@ GenericTrainerRuin_maniacGlyn:
 	done
 
 .SeenText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "wurden aus"
 	cont "Fossilien"
 

@@ -233,7 +233,7 @@ Text_ThisIsABigBattle:
 YoungsterJoey1SeenText:
 	text "Ich habe verloren!"
 	line "Ich versuche, mehr"
-	cont "#mon zu finden."
+	cont "#MON zu finden."
 	para "Halt! Du siehst"
 	line "schwach aus! Los,"
 	cont "lass uns kämpfen!"
@@ -253,7 +253,7 @@ YoungsterJoey1BeatenText:
 
 YoungsterJoey1AfterText:
 	text "Brauche ich noch"
-	line "mehr #mon, um"
+	line "mehr #MON, um"
 	cont "besser zu kämpfen?"
 	para "Nein! Ich behalte"
 	line "dieses, egal was"
@@ -265,7 +265,7 @@ YoungsterJoey1AfterText:
 
 YoungsterMikeySeenText:
 	text "Du bist ein"
-	line "#mon-Trainer,"
+	line "#MON-Trainer,"
 	cont "oder?"
 	para "Dann musst du"
 	line "kämpfen!"
@@ -340,7 +340,7 @@ MrPokemonsHouseDirectionsSignText:
 
 MrPokemonsHouseSignText:
 	text "Das HAUS von MR."
-	line "#mon"
+	line "#MON"
 	done
 
 
@@ -355,11 +355,11 @@ Route30TrainerTipsText:
 	text "TIPPS für TRAINER"
 
 	para "Du sollst keine"
-	line "#mon stehlen!"
+	line "#MON stehlen!"
 
 	para "#BÄLLE dürfen"
 	line "nur bei wilden"
-	cont "#mon eingesetzt"
+	cont "#MON eingesetzt"
 	cont "werden!"
 	done
 
@@ -370,7 +370,7 @@ Route30AdvancedTipsText:
 	text "Erweiterte Tipps!"
 	para "Drücke im Kampf"
 	line "SELECT, um das"
-	cont "#mon zu"
+	cont "#MON zu"
 	cont "wechseln!"
 	para "Drücke START, um"
 	line "ein Item erneut zu"

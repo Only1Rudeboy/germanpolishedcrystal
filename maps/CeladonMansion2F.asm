@@ -42,7 +42,7 @@ CeladonMansion2FComputerText:
 	para "wie viel sich hier"
 	line "verändert hat."
 	para "Man sieht auch"
-	line "viele #mon, die"
+	line "viele #MON, die"
 	para "nicht aus JOHTO"
 	line "stammen."
 	para "An den PRODUZENTEN"

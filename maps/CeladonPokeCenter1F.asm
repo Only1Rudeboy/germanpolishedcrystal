@@ -25,7 +25,7 @@ PokemonJournalErikaScript:
 	jumpthistext
 
 	; PC-only Class C
-	text "#mon-Journal"
+	text "#MON-Journal"
 	para "Sonderbericht:"
 	line "ARENALEITERIN"
 	cont "ERIKA!"
@@ -51,7 +51,7 @@ CeladonPokeCenter1FCooltrainerfText:
 	; GSC-DE Dump
 	text "ERIKA versteht es"
 	line "meisterlich, mit"
-	para "Pflanzen-#mon"
+	para "Pflanzen-#MON"
 	line "umzugehen."
 	para "Eine Unachtsamkeit"
 	line "wird dir bei ihr"

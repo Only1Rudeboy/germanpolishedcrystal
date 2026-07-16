@@ -18,7 +18,7 @@ IvysHouse_MapScriptHeader:
 IvysHouseFaithText:
 	text "Faith: Ich"
 	line "trainiere"
-	cont "Pflanzen-#mon"
+	cont "Pflanzen-#MON"
 	para "mit PROF. IVY!"
 	line "Willst du kämpfen?"
 	done

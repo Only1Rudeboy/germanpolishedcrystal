@@ -38,7 +38,7 @@ GoldenrodMuseum1FLodestoneSignpostScript:
 
 	text "Magnetstein aus"
 	line "dem Bau des"
-	cont "Magnetzug-Tunnels."
+	cont "MAGNETZUG-Tunnels."
 	done
 
 GoldenrodMuseum1FRocketScoutScript:
@@ -54,7 +54,7 @@ GoldenrodMuseum1FRocketScoutScript:
 
 GoldenrodMuseumReceptionistText:
 	text "Willkommen im"
-	line "Dukatia City"
+	line "DUKATIA CITY"
 	cont "Museum."
 	para "Zur Eröffnung ist"
 	line "der Eintritt"
@@ -92,7 +92,7 @@ GoldenrodMuseum1FHikerText:
 	line "benutzen, um den"
 
 	para "Tunnel für den"
-	line "Magnetzug zu"
+	line "MAGNETZUG zu"
 	cont "graben."
 	done
 
@@ -106,13 +106,13 @@ GoldenrodMuseum1FRadioDishText:
 
 GoldenrodMuseum1FHarborText:
 	text "Ein Aquarium"
-	line "voller Karpador!"
+	line "voller KARPADOR!"
 	done
 
 GoldenrodMuseum1FBigPearlText:
 	text "Eine riesige Perle"
 	line "aus dem Hafen von"
-	cont "Dukatia."
+	cont "DUKATIA CITY."
 	done
 
 GoldenrodMuseum1FRocketScoutText1:

@@ -82,7 +82,7 @@ BlackthornGymClairScript:
 	line "meister der Welt."
 	para "Ich bestehe sogar"
 	line "gegen die TOP VIER"
-	cont "der #mon LIGA."
+	cont "der #MON LIGA."
 	para "Willst du immer"
 	line "noch gegen mich"
 	cont "antreten?"
@@ -112,7 +112,7 @@ BlackthornGymClairScript:
 	line "haben, aber du"
 	para "bist noch nicht"
 	line "reif für die"
-	cont "#mon LIGA."
+	cont "#MON LIGA."
 	para "Ich weiß. Stelle"
 	line "dich der Drachen-"
 	cont "Trainer-Heraus-"
@@ -146,7 +146,7 @@ ClairPokemonLeagueDirectionsText:
 	; GSC-DE Dump 6192
 	text "Was ist los?"
 	para "Gehst du nicht zur"
-	line "#mon LIGA?"
+	line "#MON LIGA?"
 	para "Kennst du den"
 	line "Weg nicht?"
 	para "Gehe von hier nach"
@@ -156,7 +156,7 @@ ClairPokemonLeagueDirectionsText:
 	para "wird dann sehr be-"
 	line "schwerlich."
 	para "Wage es nicht, in"
-	line "der #mon"
+	line "der #MON"
 	cont "LIGA zu verlieren!"
 	para "Das würde meine"
 	line "Niederlage gegen"
@@ -179,7 +179,7 @@ BlackthornGymGuyScript:
 	para "SANDRA setzt die"
 	line "mythischen und"
 	cont "heiligen"
-	cont "Drachen-#mon"
+	cont "Drachen-#MON"
 	cont "ein."
 	para "So leicht sind die"
 	line "nicht zu besie-"
@@ -197,11 +197,11 @@ BlackthornGymGuyScript:
 	cont "Meisterleistung."
 	para "Alles was dir nun"
 	line "noch bevorsteht,"
-	cont "ist die #mon"
+	cont "ist die #MON"
 	cont "LIGA."
 	para "Du bist auf dem"
 	line "besten Weg, der"
-	cont "#mon-CHAMP"
+	cont "#MON-CHAMP"
 	cont "zu werden!"
 	done
 
@@ -228,7 +228,7 @@ GenericTrainerDragonTamerPaul:
 .BeatenText:
 	; GSC-DE Dump 6194
 	text "Mein Drachen-"
-	line "#mon hat"
+	line "#MON hat"
 	cont "verloren?"
 	done
 
@@ -267,7 +267,7 @@ GenericTrainerCooltrainerfLola:
 .SeenText:
 	; GSC-DE Dump 6199
 	text "Drachen sind hei-"
-	line "lige #mon."
+	line "lige #MON."
 	para "Sie sind voller"
 	line "Lebensenergie."
 	para "Wenn du es nicht"

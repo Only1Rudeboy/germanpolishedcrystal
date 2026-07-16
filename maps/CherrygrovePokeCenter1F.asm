@@ -24,15 +24,15 @@ PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial:"
-	line "#mon-Trainer"
+	line "#MON-Trainer"
 	cont "ROT!"
 	para "Man sagt, ROT hat"
 	line "seinen Rivalen"
 	para "BLAU besiegt und"
 	line "den Titel des"
-	para "#mon-Liga-"
+	para "#MON-Liga-"
 	line "Champions in"
 	cont "Rekordzeit"
 	cont "errungen."
@@ -59,13 +59,13 @@ CherrygrovePokeCenter1FTeacherScript:
 	cont "Stock ist gerade"
 	cont "fertig."
 	para "Ich habe schon"
-	line "#mon getauscht!"
+	line "#MON getauscht!"
 	done
 CherrygrovePokeCenter1FFisherText:
 	text "Das ist toll! Ich"
 	line "kann so viele"
 
-	para "#mon lagern,"
+	para "#MON lagern,"
 	line "wie ich will, und"
 	cont "das umsonst!"
 	done
@@ -76,12 +76,12 @@ CherrygrovePokeCenter1FGentlemanText:
 	cont "Verfügung."
 	done
 CherrygrovePokeCenter1FLadyText:
-	text "Das #mon"
+	text "Das #MON"
 	line "Journal hat so"
 	cont "faszinierende"
 	cont "Storys!"
 	para "Ich komme ins"
-	line "#mon-CENTER für"
+	line "#MON-CENTER für"
 	para "die neuesten"
 	line "Ausgaben, aber"
 	para "man kann es auch"

@@ -1,70 +1,71 @@
 ParryAnswerPhoneText:
-	text "Jup, jup! Hier "
+	text "Jepp!"
+	line "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Haha, und hier"
+	para "Hah, und da ist"
 	line "<PLAYER>!"
 	done
 
 ParryAnswerPhoneDayText:
-	text "Jup, jup! Hier "
+	text "Jepp!"
+	line ""
 	text_ram wStringBuffer3
-	text "!"
+	text " hier!"
 
-	para "Haha, und hier"
+	para "Hah, und da ist"
 	line "<PLAYER>!"
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Jup, jup! Hier "
+	text "Jepp!"
+	line "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Haha, und hier"
+	para "Hah, und da ist"
 	line "<PLAYER>!"
 	done
 
 ParryGreetText:
-	text "<PLAYER>, hier"
+	text "<PLAYER>, ich,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hast du richtig"
-	line "gefrühstückt?"
+	para "Hattest du ein"
+	line "großes Frühstück?"
 	done
 
 ParryGreetDayText:
-	text "<PLAYER>, hier"
+	text "<PLAYER>, ich,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
-	para "Hast du richtig"
-	line "zu Mittag"
-	cont "gegessen?"
+
+	para "Hattest du ein"
+	line "gutes Mittagessen?"
 	done
 
 ParryGreetNiteText:
-	text "<PLAYER>, hier"
+	text "<PLAYER>, ich,"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
-	para "Hast du richtig"
-	line "zu Abend"
-	cont "gegessen?"
+
+	para "Hattest du ein"
+	line "großes Abendessen?"
 	done
 
 ParryGenericText:
-	text "Sehen deine"
-	line "#mon gut aus?"
+	text "Sehen deine #-"
+	line "MON gut aus?"
 
-	para "Mein"
-	line ""
+	para "Mein "
 	text_ram wStringBuffer4
-	cont "und ich - wir"
-	cont "sehen"
+	line "und ich, wir sehen"
 
-	para "super aus!"
-	line "Hahahah!"
+	para "hervorragend aus!"
+	line "Hahaha!"
 	done

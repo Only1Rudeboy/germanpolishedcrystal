@@ -23,7 +23,7 @@ PokemonJournalMrFujiScript:
 	setflag ENGINE_READ_MR_FUJI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Redaktion: Der"
 	line "schüchterne MR."
 	cont "FUJI lehnte"

@@ -18,13 +18,13 @@ CeladonHotelRoom1_MapScriptHeader:
 
 CeladonHotelRoom1CooltrainerMText:
 	text "Wo ich herkomme,"
-	line "gibt es keine #"
-	cont "Bälle."
+	line "gibt es keine"
+	cont "#Bälle."
 
-	para "Man nutzt"
-	line "Fang-Styler, um"
-	cont "sich mit #mon"
-	cont "anzufreunden."
+	para "Man nutzt Fang-"
+	line "Styler, um sich"
+	cont "mit #MON anzu-"
+	cont "freunden."
 	done
 
 CeladonHotelRoom1LassText:
@@ -33,5 +33,6 @@ CeladonHotelRoom1LassText:
 	cont "Handtücher jeden"
 	cont "Tag zu Blumen."
 	para "Das sollte ich mir"
-	line "auch zeigen lassen"
+	line "auch zeigen"
+	cont "lassen."
 	done

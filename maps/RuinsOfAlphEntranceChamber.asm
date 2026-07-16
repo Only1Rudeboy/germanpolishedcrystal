@@ -18,5 +18,5 @@ RuinsOfAlphEntranceChamber_MapScriptHeader:
 RuinsofAlphStatueText:
 	text "Dies ist eine"
 	line "Nachbildung eines"
-	cont "antiken #mon."
+	cont "antiken #MON."
 	done

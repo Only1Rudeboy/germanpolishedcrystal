@@ -158,7 +158,7 @@ ProfElmScript:
 	cont "geschlüpft."
 
 	para "Wo ist das"
-	line "#mon?"
+	line "#MON?"
 	done
 ElmEggHatchedScript:
 	setmonval TOGEPI
@@ -191,8 +191,8 @@ ElmCheckGotEggAgain:
 	jumpthisopenedtext
 
 	text "Wenn ein wildes"
-	line "#mon auftaucht,"
-	cont "lass dein #mon"
+	line "#MON auftaucht,"
+	cont "lass dein #MON"
 	cont "kämpfen!"
 	done
 
@@ -494,7 +494,7 @@ ElmAskBattleScript:
 	cont "<PLAYER>."
 
 	para "Es war richtig,"
-	line "dir ein #mon"
+	line "dir ein #MON"
 	cont "anzuvertrauen!"
 	done
 
@@ -745,7 +745,7 @@ ElmsLabLyraScript:
 	iffalse_jumptextfaceplayer ElmsLabLyraWhichPokemonText
 	jumpthistextfaceplayer
 
-	text "Dein #mon sieht"
+	text "Dein #MON sieht"
 	line "auch süß aus!"
 	done
 
@@ -760,7 +760,7 @@ ElmsLabPC:
 	jumpthistext
 
 	text "AUFZEICHNUNGEN ZUR"
-	line "#mon-ENTWICK-"
+	line "#MON-ENTWICK-"
 	cont "LUNG"
 	para "… steht auf dem"
 	line "Bildschirm …"
@@ -968,7 +968,7 @@ ElmText_Intro:
 	para "Darum!"
 
 	para "Ich möchte, dass"
-	line "ihr #mon"
+	line "ihr #MON"
 	cont "trainiert, die ich"
 	cont "vor kurzem"
 	cont "gefangen habe."
@@ -1008,7 +1008,7 @@ ElmText_ResearchAmbitions:
 	cont "wir"
 	para "sicher noch tiefer"
 	line "in die Geheimnisse"
-	cont "der #mon vor."
+	cont "der #MON vor."
 	para "Darauf kannst du"
 	line "dich verlassen!"
 	done
@@ -1035,7 +1035,7 @@ ElmText_MissionFromMrPokemon:
 	text "Hör gut zu!"
 	para "Ich habe einen"
 	line "Bekannten namens"
-	cont "MR. #mon."
+	cont "MR. #MON."
 	para "Ständig findet er"
 	line "eigenartiges Zeug"
 	para "und fängt an,"
@@ -1051,7 +1051,7 @@ ElmText_MissionFromMrPokemon:
 	line "faszinierend, aber"
 	cont "wir"
 	para "sind mitten in der"
-	line "#mon-Forschung."
+	line "#MON-Forschung."
 	para "Moment! Ich hab's!"
 	para "<PLAYER>, könntest"
 	line "du der Sache"
@@ -1066,11 +1066,11 @@ ElmText_MissionFromMrPokemon:
 ElmText_ChooseAPokemon:
 	text "Ich möchte, dass"
 	line "du eines der"
-	cont "#mon aus diesen"
+	cont "#MON aus diesen"
 	cont "Bällen trainierst."
 	para "Du wirst der erste"
 	line "Partner dieses"
-	cont "#mon sein,"
+	cont "#MON sein,"
 	cont "<PLAYER>!"
 	para "Such dir eins aus!"
 	done
@@ -1093,7 +1093,7 @@ LabWhereGoingText:
 TakeCyndaquilText:
 	text "LIND: Willst du"
 	line "FEURIGEL, das"
-	cont "Feuer-#mon?"
+	cont "Feuer-#MON?"
 	done
 
 
@@ -1104,7 +1104,7 @@ TakeCyndaquilText:
 TakeTotodileText:
 	text "LIND: Wählst du"
 	line "KARNIMANI, das"
-	cont "Wasser-#mon?"
+	cont "Wasser-#MON?"
 	done
 
 
@@ -1116,7 +1116,7 @@ TakeChikoritaText:
 	text "LIND: Entscheidest"
 	line "du dich für"
 	para "ENDIVIE, das"
-	line "Pflanzen-#mon?"
+	line "Pflanzen-#MON?"
 	done
 
 
@@ -1140,7 +1140,7 @@ DidntChooseStarterText:
 
 ChoseStarterText:
 	text "LIND: Gute Wahl!"
-	line "Dieses #mon ist"
+	line "Dieses #MON ist"
 	cont "wirklich gut!"
 	done
 
@@ -1150,7 +1150,7 @@ ChoseStarterText:
 
 
 ElmDirectionsText1:
-	text "MR. #mon lebt"
+	text "MR. #MON lebt"
 	line "etwas nördlich"
 	para "von ROSALIA CITY,"
 	line "dem nächsten Ort."
@@ -1172,7 +1172,7 @@ ElmDirectionsText1:
 
 
 ElmDirectionsText2:
-	text "Ist dein #mon"
+	text "Ist dein #MON"
 	line "verletzt, solltest"
 	cont "du es mit"
 	para "dieser Maschine"
@@ -1207,7 +1207,7 @@ GotElmsNumberText:
 
 
 ElmDescribesMrPokemonText:
-	text "MR. #mon findet"
+	text "MR. #MON findet"
 	line "überall seltene"
 	cont "Dinge."
 	para "Es ist nur dumm,"
@@ -1223,7 +1223,7 @@ ElmDescribesMrPokemonText:
 
 ElmPokeBallText:
 	text "Darin ist ein"
-	line "#mon, das PROF."
+	line "#MON, das PROF."
 	cont "LIND gefangen hat."
 	done
 
@@ -1234,7 +1234,7 @@ ElmPokeBallText:
 
 ElmsLabHealingMachineText2:
 	text "Willst du deine"
-	line "#mon heilen?"
+	line "#MON heilen?"
 	done
 
 
@@ -1246,7 +1246,7 @@ ElmAfterTheftText1:
 	text "LIND: <PLAYER>, es"
 	line "ist schrecklich …"
 	para "Oh, was hat MR."
-	line "#mon denn"
+	line "#MON denn"
 	cont "Großes entdeckt?"
 	done
 
@@ -1278,7 +1278,7 @@ ElmAfterTheftText3:
 ElmAfterTheftText4:
 	text "Aber … ist das"
 	line "auch ein"
-	cont "#mon-EI?"
+	cont "#MON-EI?"
 	para "Falls ja, dann ist"
 	line "es in der Tat eine"
 	cont "große Entdeckung!"
@@ -1311,11 +1311,11 @@ ElmAfterTheftText5:
 	para "Es sieht auch so"
 	line "aus, als könntest"
 	para "du hervorragend"
-	line "mit #mon"
+	line "mit #MON"
 	cont "umgehen."
 	para "Du solltest die"
 	line "Herausforderung"
-	para "der #mon-ARENEN"
+	para "der #MON-ARENEN"
 	line "annehmen."
 	para "Die nächste"
 	line "PKMN-ARENA"
@@ -1352,7 +1352,7 @@ ElmAfterTheftText7:
 	para "Wenn du wissen"
 	line "willst, wie sich"
 
-	para "deine #mon"
+	para "deine #MON"
 	line "entwickeln,"
 
 	para "ist meine"
@@ -1381,7 +1381,7 @@ ElmAideHasEggText:
 	cont "getroffen?"
 	para "Er sollte mit dem"
 	line "EI im"
-	cont "#mon-CENTER von"
+	cont "#MON-CENTER von"
 	cont "VIOLA CITY warten."
 	para "Du musst ihn"
 	line "verpasst haben."
@@ -1418,7 +1418,7 @@ ShowElmTogepiText1:
 
 ShowElmTogepiText2:
 	text "Was? Dieses"
-	line "#mon!?!"
+	line "#MON!?!"
 	done
 
 
@@ -1430,11 +1430,11 @@ ShowElmTogepiText3:
 	text "Es ist aus dem EI"
 	line "geschlüpft! Also"
 	cont "schlüpfen alle"
-	cont "#mon aus EIERN"
+	cont "#MON aus EIERN"
 	cont "…"
 	para "Nein, vermutlich"
 	line "trifft das nicht"
-	cont "auf alle #mon"
+	cont "auf alle #MON"
 	cont "zu."
 	para "Es wartet wohl"
 	line "noch jede Menge"
@@ -1451,7 +1451,7 @@ ElmGiveOddSouvenirText1:
 	text "Danke, <PLAYER>! Du"
 	line "hilfst uns beim"
 	para "Aufklären vieler"
-	line "#mon-Mysterien!"
+	line "#MON-Mysterien!"
 	para "Bitte nimm dies"
 	line "als Zeichen"
 	cont "unserer"
@@ -1460,14 +1460,14 @@ ElmGiveOddSouvenirText1:
 ElmGiveOddSouvenirText2:
 	text "Das ist ein"
 	line "Souvenir von Herrn"
-	cont "#mon."
+	cont "#MON."
 	para "Er sagte, es sei"
 	line "ein Andenken von"
 	para "seiner Reise auf"
 	line "eine tropische"
 	cont "Insel."
 	para "Angeblich gibt es"
-	line "#mon-Arten, die"
+	line "#MON-Arten, die"
 	para "es gerne tragen."
 	done
 ElmText_CallYou:
@@ -1483,11 +1483,11 @@ ElmText_CallYou:
 
 AideText_AfterTheft:
 	text "… Seufz … Das"
-	line "gestohlene #mon"
+	line "gestohlene #MON"
 	para "Ich frage mich,"
 	line "wie es ihm geht."
 	para "Man sagt, dass ein"
-	line "#mon, das von"
+	line "#MON, das von"
 	para "einem bösen"
 	line "Menschen"
 	cont "aufgezogen wird,"
@@ -1504,16 +1504,16 @@ AideText_ThiefReturnedMon:
 	text "<PLAYER>! Rate mal!"
 	para "Der Junge, der"
 	line "PROF. LINDs"
-	cont "#mon gestohlen"
+	cont "#MON gestohlen"
 	cont "hat …"
 	para "… kam zurück, um"
 	line "es zurückzugeben!"
 	para "Aber PROF. LIND"
 	line "sagte zu ihm …"
 	para "Es scheint, als ob"
-	line "das #mon dich"
+	line "das #MON dich"
 	cont "sehr mag."
-	para "#mon geben ihr"
+	para "#MON geben ihr"
 	line "Bestes für"
 	cont "jemanden, den sie"
 	cont "lieben."
@@ -1555,11 +1555,11 @@ ElmGiveMasterBallText2:
 	para "Er ist der"
 	line "ultima-tive BALL!"
 	cont "Ihm"
-	para "kann kein #mon"
+	para "kann kein #MON"
 	line "entwischen."
 	para "Er wird nur"
 	line "anerkannten"
-	cont "#mon-Forschern"
+	cont "#MON-Forschern"
 	cont "überreicht."
 	para "Aber ich glaube,"
 	line "du hast bessere"
@@ -1583,7 +1583,7 @@ ElmGiveTicketText1:
 	line "ein BOOTSTICKET."
 	para "Jetzt kannst du"
 	line "auch in KANTO"
-	cont "#mon fangen."
+	cont "#MON fangen."
 	done
 
 
@@ -1598,7 +1598,7 @@ ElmGiveTicketText2:
 	line "ja schon, <PLAYER>."
 	para "Schließlich bist"
 	line "du mit deinen"
-	para "#mon schon viel"
+	para "#MON schon viel"
 	line "herumge-kommen."
 	para "Überbringe PROF."
 	line "EICH in KANTO"
@@ -1613,7 +1613,7 @@ ElmGiveTicketText2:
 
 ElmsLabMonEggText: ; unreferenced
 	text "Dies ist das"
-	line "#mon-EI, das"
+	line "#MON-EI, das"
 	cont "von PROF. LIND"
 	cont "untersucht wird."
 	done
@@ -1649,7 +1649,7 @@ LyraAnnouncesGymChallengeText:
 	para "Ich fordere alle"
 	line "Arenen in Johto"
 	cont "heraus und will in"
-	cont "die #mon-Liga!"
+	cont "die #MON-Liga!"
 	para "Wünsch mir Glück!"
 	line "Bis später!"
 	done
@@ -1666,7 +1666,7 @@ ElmAfterTicketText:
 ElmBeforeBattleText:
 	text "LIND: <PLAYER>! Wie"
 	line "läuft deine"
-	cont "#mon-Reise?"
+	cont "#MON-Reise?"
 	done
 ElmByTheWayText:
 	text "Da du schon hier"
@@ -1698,7 +1698,7 @@ ElmLoseText:
 	line "leicht gemacht?"
 	done
 ElmRefusedBattleText:
-	text "Wenn deine #mon"
+	text "Wenn deine #MON"
 	line "Heilung brauchen,"
 	para "benutze einfach"
 	line "die Maschine hier."
@@ -1725,18 +1725,18 @@ AideText_TheftTestimony:
 	cont "gehört …"
 	para "Als wir nach dem"
 	line "Rechten sahen,"
-	cont "wurde ein #mon"
+	cont "wurde ein #MON"
 	cont "gestohlen."
 	para "Ich kann nicht"
 	line "glauben, dass"
 	cont "jemand zu so etwas"
 	cont "fähig ist!"
 	para "… Seufz … Das"
-	line "gestohlene #mon"
+	line "gestohlene #MON"
 	para "Ich frage mich,"
 	line "wie es ihm geht."
 	para "Man sagt, dass ein"
-	line "#mon, das"
+	line "#MON, das"
 	para "von einem bösen"
 	line "Menschen"
 	cont "aufgezogen wird,"
@@ -1751,7 +1751,7 @@ AideText_TheftTestimony:
 
 ElmsLabOfficerText1:
 	text "Ich hörte, dass"
-	line "hier ein #mon"
+	line "hier ein #MON"
 	cont "gestohlen worden"
 	cont "sei …"
 	para "Ich habe von PROF."
@@ -1800,7 +1800,7 @@ ElmsLabOfficerText3:
 	cont "geholfen hast!"
 	done
 ElmsLabLyraWhichPokemonText:
-	text "Welches #mon"
+	text "Welches #MON"
 	line "nimmst du,"
 	cont "<PLAYER>?"
 	done
@@ -1829,7 +1829,7 @@ LyraNicknamedTotodileText:
 ElmsLabLyraChallengeText:
 	text "LYRA: <PLAYER>!"
 	line "Lass uns unsere"
-	cont "#mon in einem"
+	cont "#MON in einem"
 	cont "Kampf"
 	cont "kennenlernen!"
 	done
@@ -1848,7 +1848,7 @@ ElmsLabLyraText_YouLost:
 	done
 ElmsLabLyraThankYouText:
 	text "Danke für das"
-	line "#mon, PROF."
+	line "#MON, PROF."
 	cont "LIND!"
 	done
 ElmsLabLyraSeeYouText:
@@ -1873,7 +1873,7 @@ ElmsLabLyraTheftGoodbyeText:
 	line "erkannt hat."
 	para "Hoffentlich gibt"
 	line "der Dieb das"
-	cont "#mon zurück …"
+	cont "#MON zurück …"
 	para "Also, bis bald!"
 	done
 ElmsLabWindowText1:
@@ -1949,7 +1949,7 @@ ElmsLabTravelTip4Text:
 	para "Reise-Tipp 4:"
 	para "Verwalte die"
 	line "Attacken deiner"
-	cont "#mon. Drücke"
+	cont "#MON. Drücke"
 	cont "den A-Knopf, um"
 	cont "ihre Position zu"
 	cont "verändern."

@@ -32,7 +32,7 @@ GenericTrainerPokefanmTrevor:
 	line "einfache"
 	cont "Möglichkeit gäbe,"
 	para "herauszufinden, wo"
-	line "ich mein #mon"
+	line "ich mein #MON"
 	cont "gefangen habe …"
 	para "Ach! Ich kann ja"
 	line "seine Werte"
@@ -43,7 +43,7 @@ PokefanmTrevorSeenText:
 	text "Hallo. Wusstest"
 	line "du…,"
 
-	para "dass #mon dich"
+	para "dass #MON dich"
 	line "mehr mögen, wenn"
 
 	para "du sie an einem"
@@ -80,7 +80,7 @@ PokefanmCarterSeenText:
 	line "sagen! Es war"
 	para "harte Arbeit,"
 	line "meine prämierten"
-	cont "#mon zu fangen."
+	cont "#MON zu fangen."
 	done
 
 
@@ -100,7 +100,7 @@ PokefanmCarterBeatenText:
 GenericTrainerBird_keeperRoy:
 	generictrainer BIRD_KEEPER, ROY, EVENT_BEAT_BIRD_KEEPER_ROY, Bird_keeperRoySeenText, Bird_keeperRoyBeatenText
 
-	text "Du hast #mon,"
+	text "Du hast #MON,"
 	line "welche die VM"
 
 	para "FLIEGEN kennen?"
@@ -110,7 +110,7 @@ Bird_keeperRoySeenText:
 	text "Ich träume davon,"
 	line "mit meinen"
 	cont "geliebten"
-	cont "Vogel-#mon zu"
+	cont "Vogel-#MON zu"
 	cont "fliegen."
 	done
 Bird_keeperRoyBeatenText:
@@ -221,7 +221,7 @@ GenericTrainerTeacherClarice:
 .SeenText:
 	text "Gut, fangen wir"
 	line "mit dem"
-	cont "#monkampf an!"
+	cont "#MON-Kampf an!"
 	done
 
 .BeatenText:

@@ -147,7 +147,7 @@ CeladonHomeDecorStore2FAlreadyBoughtText:
 CeladonHomeDecorStore2FPokefanfText:
 	text "Markenartikel"
 	line "kosten mehr als"
-	cont "generische."
+	cont "No-Name-Ware."
 	para "Aber das"
 	line "Pikachu-Bett ist"
 	cont "so süß…"

@@ -245,7 +245,7 @@ DayCareLyraForgotText:
 	line "vergessen!"
 	para "Hier! Das ist"
 	line "meine"
-	cont "#Com-Nummer!"
+	cont "#COM-Nummer!"
 	done
 
 GotLyrasNumberText:
@@ -261,8 +261,8 @@ DayCareLyraHasInfoText:
 
 	para "Oma und Opa haben"
 	line "mir viel über"
-	cont "#mon"
-	cont "beigebracht,"
+	cont "#MON bei-"
+	cont "gebracht,"
 
 	para "und das geb ich"
 	line "gern an dich"
@@ -415,7 +415,7 @@ DayCareLadyText_DescribeLyrasEgg:
 	; PC-only (class C)
 	text "Das EI stammt von"
 	line "ihrem ersten"
-	cont "#mon."
+	cont "#MON."
 	para "Sie muss dir als"
 	line "Trainerin wirklich"
 	cont "vertrauen."

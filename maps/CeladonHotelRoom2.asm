@@ -44,39 +44,39 @@ MrHyperScript:
 
 .TextComeBackAnytime:
 	text "Komm jederzeit"
-	line "wieder! Mr."
-	cont "Super-Spezial"
-	cont "freut sich immer!"
+	line "wieder! MR. SUPER-"
+	cont "SPEZIAL freut sich"
+	cont "immer!"
 	done
 
 .TextIntro:
-	text "Ich bin Mr."
-	line "Super-Spezial!"
+	text "Ich bin MR. SUPER-"
+	line "SPEZIAL!"
 	para "Weißt du auch"
 	line "warum?"
-	para "Weil ich #mon"
+	para "Weil ich #MON"
 	line "beim Super-"
 	cont "Spezialtraining"
 	cont "helfe!"
 	para "Es lässt ein"
-	line "#mon, dessen"
-	cont "Fleiß-Werte"
-	cont "maximal sind, noch"
+	line "#MON, dessen"
+	cont "Fleiß-Werte maxi-"
+	cont "mal sind, noch"
 	cont "stärker werden!"
 	para "Dieses Training"
 	line "verbessert ihre"
 	cont "Statuswerte."
 	para "Wenn du willst,"
 	line "trainiere ich dein"
-	cont "#mon, mir ein"
-	cont "paar Kronkorken"
+	cont "#MON für ein"
+	cont "paar Kronkorken."
 	done
 
 .TextAskTrain:
 	text "Na, wie klingt's?"
 	line "Willst du mein"
-	cont "Super-"
-	cont "Spezialtraining"
+	cont "Super-Spezial-"
+	cont "training"
 	cont "probieren?"
 	done
 
@@ -89,18 +89,18 @@ MrHyperScript:
 	done
 
 .TextTrainWho:
-	text "Welches #mon"
+	text "Welches #MON"
 	line "soll ich stärken?"
 	done
 
 .TextGotStronger:
-	text "Fertig! Das"
-	line "Training steigerte "
+	text "Fertig! Die Werte"
+	line "von "
 	text_ram wStringBuffer1
-	text "s Werte!"
+	text " steigen!"
 	done
 
 .TextTrainSomeMore:
-	text "Noch ein #mon"
+	text "Noch ein #MON"
 	line "trainieren?"
 	done

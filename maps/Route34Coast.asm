@@ -23,7 +23,7 @@ GenericTrainerSwimmermFrank:
 	generictrainer SWIMMERM, FRANK, EVENT_BEAT_SWIMMERM_FRANK, .SeenText, .BeatenText
 
 	text "Meer, Sand, Sonne"
-	line "und #mon!"
+	line "und #MON!"
 
 	para "Was braucht man"
 	line "noch?"
@@ -50,7 +50,7 @@ TrainerSwimmermNadar:
 
 	text "Schwimmen üben"
 	line "oder mit meinen"
-	cont "#mon"
+	cont "#MON"
 	cont "trainieren?"
 
 	para "Was für ein"
@@ -60,7 +60,7 @@ TrainerSwimmermNadar:
 .SeenText:
 	text "Schwimmen ist"
 	line "meine Spezialität!"
-	para "#mon-Kämpfe"
+	para "#MON-Kämpfe"
 	line "auch!"
 	done
 
@@ -150,7 +150,7 @@ GenericTrainerFisherFrancis:
 
 .SeenText:
 	text "Ich angle gern"
-	line "nach #mon an"
+	line "nach #MON an"
 	cont "exotischen Orten."
 	done
 

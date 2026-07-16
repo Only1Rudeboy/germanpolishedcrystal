@@ -294,7 +294,7 @@ GenericTrainerPokemaniacShane:
 	para "Wow, du kennst"
 	line "bestimmt einige"
 	cont "sehr seltene"
-	cont "#mon!"
+	cont "#MON!"
 	para "Darf ich bitte mal"
 	line "eines sehen?"
 	done
@@ -342,7 +342,7 @@ Route42LyraGreetingText:
 	para "gerade die"
 	line "Auswirkungen der"
 	para "letzten Lawine auf"
-	line "wilde #mon"
+	line "wilde #MON"
 	cont "untersucht."
 	para "Du gehst nach"
 	line "MAHAGONIA CITY"
@@ -381,7 +381,7 @@ Route42LyraWhirlpoolText:
 	line "Strudel."
 
 	para "Bring es einem"
-	line "#mon bei, um"
+	line "#MON bei, um"
 	cont "wildes Wasser zu"
 	cont "überqueren."
 
@@ -395,7 +395,7 @@ Route42LyraWhirlpoolText:
 FisherTully1SeenText:
 	text "Jetzt demonstriere"
 	line "ich dir die Kraft"
-	cont "des #mon, das"
+	cont "des #MON, das"
 	cont "ich gefangen habe!"
 	done
 FisherTully1BeatenText:
@@ -403,7 +403,7 @@ FisherTully1BeatenText:
 	line "nicht sein."
 	done
 FisherTullyAfterBattleText:
-	text "Mit dem #mon,"
+	text "Mit dem #MON,"
 	line "das ich gefangen"
 
 	para "habe, möchte ich"

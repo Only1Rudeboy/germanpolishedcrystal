@@ -293,11 +293,11 @@ Route31MailRecipientScript:
 	para "Ich bin heute zu"
 	line "weit gelaufen, auf"
 	cont "der Suche nach"
-	cont "#mon."
+	cont "#MON."
 	para "Meine Füße tun weh"
 	line "und ich bin müde …"
 	para "Wäre ich ein"
-	line "wildes #mon,"
+	line "wildes #MON,"
 	cont "wäre ich leicht zu"
 	cont "fangen …"
 	para "… Zzzz …"
@@ -345,7 +345,7 @@ Route31MailRecipientScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
+	text "So! Dein #MON"
 	line "kennt jetzt"
 	cont "Schlafrede!"
 	done
@@ -361,7 +361,7 @@ Route31MailRecipientScript:
 
 	text "Was ist so"
 	line "besonders an"
-	cont "diesem #mon?"
+	cont "diesem #MON?"
 
 	para "Es trägt keinen"
 	line "BRIEF."
@@ -376,7 +376,7 @@ Route31MailRecipientScript:
 	jumpthisopenedtext
 
 	text "Wenn ich dir"
-	line "dieses #mon"
+	line "dieses #MON"
 	cont "wegnehme, womit"
 	cont "willst du dann"
 	cont "kämpfen?"
@@ -389,14 +389,14 @@ ReceivedSpearowMailText:
 
 Bug_catcherWade1SeenText:
 	text "Ich habe einige"
-	line "#mon gefangen."
+	line "#MON gefangen."
 	cont "Lass uns kämpfen!"
 	done
 Bug_catcherWade1BeatenText:
 	text "Awwwww …"
 	done
 Bug_catcherWade1AfterText:
-	text "Du kannst #mon"
+	text "Du kannst #MON"
 	line "fangen, auch wenn"
 
 	para "du bereits sechs"
@@ -420,7 +420,7 @@ Text_Route31SleepyManGotMail:
 
 Text_Route31HandOverMailMon:
 	text "<PLAYER> übergibt"
-	line "das #mon, das"
+	line "das #MON, das"
 	cont "den BRIEF trägt."
 	done
 
@@ -455,14 +455,14 @@ Text_Route31TutorSleepTalk:
 	line "Silberblatt"
 
 	para "bring ich deinem"
-	line "#mon bei, im"
+	line "#MON bei, im"
 	cont "Schlaf zu reden!"
 	done
 
 
 Text_Route31TutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Schlafrede"
+	line "#MON Schlafrede"
 	cont "beibringen?"
 	done
 
@@ -474,7 +474,7 @@ Text_Route31TutorQuestion:
 
 Route31YoungsterText:
 	text "Ich habe ein gutes"
-	line "#mon in der"
+	line "#MON in der"
 	cont "DUNKEL-HÖHLE"
 	cont "gefunden."
 	para "Ich ziehe es groß,"

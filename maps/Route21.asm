@@ -80,7 +80,7 @@ GenericTrainerSwimmerfKendra:
 
 	text "Ob irgendwo"
 	line "Badeanzüge für"
-	cont "#mon verkauft"
+	cont "#MON verkauft"
 	cont "werden?"
 	done
 
@@ -134,7 +134,7 @@ GenericTrainerSwimmermDuane:
 	done
 
 .BeatenText:
-	text "Meine #mon und"
+	text "Meine #MON und"
 	line "ich haben keine"
 	cont "Kraft…"
 	done
@@ -165,7 +165,7 @@ SwimmermSethBeatenText:
 GenericTrainerFisherMurphy:
 	generictrainer FISHER, MURPHY, EVENT_BEAT_FISHER_MURPHY, .SeenText, .BeatenText
 
-	text "Das #mon, das"
+	text "Das #MON, das"
 	line "mir entwischte,"
 	cont "war riesig."
 
@@ -176,7 +176,7 @@ GenericTrainerFisherMurphy:
 .SeenText:
 	text "Hä? Ich habe einen"
 	line "Trainer statt"
-	cont "eines #mon"
+	cont "eines #MON"
 	cont "gefangen!"
 	done
 
@@ -215,7 +215,7 @@ GenericTrainerFisherLiam:
 	line "bitten sollen zu"
 
 	para "warten, bis ich"
-	line "das #mon"
+	line "das #MON"
 	cont "eingeholt habe…"
 	done
 
@@ -229,7 +229,7 @@ GenericTrainerFisherLiam:
 
 .BeatenText:
 	text "Jagst du zwei"
-	line "#mon,"
+	line "#MON,"
 
 	para "fängst du keins!"
 	done
@@ -239,7 +239,7 @@ GenericTrainerFisherGideon:
 
 	text "Warum bist du"
 	line "eigentlich"
-	cont "#mon-Trainer"
+	cont "#MON-Trainer"
 	cont "geworden?"
 	done
 
@@ -268,7 +268,7 @@ GenericTrainerBird_keeperKinsley:
 	text "Vielleicht kann"
 	line "ich irgendwann wie"
 	cont "meine"
-	cont "Vogel-#mon"
+	cont "Vogel-#MON"
 	cont "fliegen!"
 	done
 
@@ -281,9 +281,9 @@ GenericTrainerBird_keeperEaston:
 	generictrainer BIRD_KEEPER, EASTON, EVENT_BEAT_BIRD_KEEPER_EASTON, .SeenText, .BeatenText
 
 	text "Wir glauben, wir"
-	line "nutzen #mon."
+	line "nutzen #MON."
 	para "Aber irgendwann"
-	line "haben die #mon"
+	line "haben die #MON"
 	cont "angefangen, uns zu"
 	cont "nutzen …"
 	done
@@ -291,7 +291,7 @@ GenericTrainerBird_keeperEaston:
 .SeenText:
 	text "Vogel-Profis sind"
 	line "so toll mit ihren"
-	cont "Vogel-#mon!"
+	cont "Vogel-#MON!"
 	done
 
 .BeatenText:

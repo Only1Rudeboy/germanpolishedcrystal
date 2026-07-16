@@ -15,7 +15,7 @@ TullyAnswerPhoneDayText:
 	text "…"
 
 	para "Diese Stimme…"
-	line "<PLAYER>, oder?"
+	line "<PLAYER>, richtig?"
 	done
 
 TullyAnswerPhoneNiteText:
@@ -24,8 +24,8 @@ TullyAnswerPhoneNiteText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Das muss <PLAYER>"
-	line "sein!"
+	para "Das muss"
+	line "<PLAYER> sein!"
 	done
 
 TullyGreetText:
@@ -34,34 +34,35 @@ TullyGreetText:
 	text_ram wStringBuffer3
 	text " hier…"
 
-	para "Guten Morgen!"
-	line "Tolles Wetter!"
+	para "Guten Morgen! Das"
+	line "Wetter ist toll!"
 	done
 
 TullyGreetDayText:
-	text "Hallo!"
+	text "Hallo! Hier ist"
 	line ""
 	text_ram wStringBuffer3
-	text " hier…"
+	text "…"
 
-	para "Perfekter Tag zum"
-	line "Angeln!"
+	para "Ein perfekter Tag"
+	line "zum Angeln!"
 	done
 
 TullyGreetNiteText:
-	text "Hallo!"
+	text "Hallo! Hier ist"
 	line ""
 	text_ram wStringBuffer3
-	text " hier…"
+	text "…"
 
-	para "Tolle Nacht zum"
-	line "Angeln!"
+	para "Die perfekte Nacht"
+	line "zum Angeln!"
 	done
 
 TullyGenericText:
-	text "Wie läuft deine"
-	line "Reise?"
+	text "Wie läuft es mit"
+	line "deinem Abenteuer?"
 
-	para "Beim Angeln kann"
-	line "ich nicht klagen!"
+	para "Ich kann mich über"
+	line "das Angeln nicht"
+	cont "beschweren!"
 	done

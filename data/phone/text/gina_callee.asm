@@ -14,8 +14,8 @@ GinaAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAYER>! Hi,"
-	line "wie geht's?"
+	para "Oh, <PLAYER>!"
+	line "Wie geht es dir?"
 	done
 
 GinaAnswerPhoneNiteText:
@@ -31,35 +31,36 @@ GinaAnswerPhoneNiteText:
 GinaGreetText:
 	text "<PLAYER>?"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Guten Morgen!"
+	text "."
+	line "Guten Morgen!"
 	done
 
 GinaGreetDayText:
 	text "<PLAYER>?"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Ungelegene"
-	line "Zeit?"
+	text "."
+	line "Hast du Zeit?"
 	done
 
 GinaGreetNiteText:
 	text "<PLAYER>?"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Zeit zum"
-	line "Quatschen?"
+	text "."
+	line "Zeit zum Plaudern?"
 	done
 
 GinaGenericText:
-	text "Sind deine #mon"
-	line "noch stark?"
+	text "Sind deine #MON"
+	line "noch immer stark?"
 
-	para "Ich trainiere"
-	line "täglich mit "
+	para "Ich trainiere mein"
+	line ""
 	text_ram wStringBuffer4
-	text "."
+	cont "täglich."
 	done

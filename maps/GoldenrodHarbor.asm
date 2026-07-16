@@ -68,17 +68,17 @@ GoldenrodHarborTutorHyperVoiceScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
-	line "kennt jetzt Hyper"
-	cont "Voice!"
+	text "So! Dein #MON"
+	line "kennt jetzt"
+	cont "Schallwelle!"
 	done
 
 GenericTrainerFisherPaton:
 	generictrainer FISHER, PATON, EVENT_BEAT_FISHER_PATON, FisherPatonSeenText, FisherPatonBeatenText
 
 	text "Du arbeitest an"
-	line "einem #dex?"
-	cont "Cool!"
+	line "einem #DEX?"
+	cont "Toll!"
 	done
 
 TrainerSwimmerfKatie:
@@ -110,7 +110,7 @@ GoldenrodHarborMagikarpScript:
 	jumpthistext
 
 	text "Das ist ein"
-	line "Fisch-#mon!"
+	line "Fisch-#MON!"
 	cont "Huh?"
 	para "Es ist nur eine"
 	line "Puppe …"
@@ -194,10 +194,10 @@ GoldenrodHarborPokefanmScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Magikarp    ¥1400@"
+	db "Karpador    ¥1400@"
 	db "Marill      ¥5600@"
 	db "Octillery  ¥11200@"
-	db "Cancel@"
+	db "Abbrechen@"
 
 GoldenrodHarborYoungsterScript:
 	faceplayer
@@ -277,10 +277,10 @@ GoldenrodHarborYoungsterScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Magna P.    ¥6400@"
-	db "Tropic P.   ¥9600@"
-	db "Jumbo P.   ¥12800@"
-	db "Cancel@"
+	db "Magna-Pfl.  ¥6400@"
+	db "Tropen-Pfl. ¥9600@"
+	db "Riesen-Pfl.¥12800@"
+	db "Abbrechen@"
 
 GoldenrodHarborSailboatScript:
 	readvar VAR_FACING
@@ -293,14 +293,14 @@ GoldenrodHarborSailboatScript:
 
 	text "Es ist ein"
 	line "Segelboot namens"
-	cont "SeaKing."
+	cont "Seekönig."
 	done
 
 GoldenrodHarborFisherText:
 	text "Beim Angeln muss"
 	line "man leise sein,"
 	para "damit man die"
-	line "#mon nicht"
+	line "#MON nicht"
 	cont "verscheucht."
 	para "Aber über die"
 	line "Wellen hinweg muss"
@@ -312,17 +312,16 @@ GoldenrodHarborFisherText:
 
 Text_GoldenrodHarborTutorHyperVoice:
 	text "Ich bringe deinem"
-	line "#mon Hyper"
-
-	para "Voice bei - für"
-	line "ein Silberblatt."
+	line "#MON Schallwelle"
+	para "bei - für ein"
+	line "Silberblatt."
 	done
 
 
 Text_GoldenrodHarborTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Hyper"
-	cont "Voice beibringen?"
+	line "#MON Schallwelle"
+	cont "beibringen?"
 	done
 
 
@@ -332,11 +331,11 @@ FisherPatonSeenText:
 	line "gefangen habe,"
 	cont "hing"
 	para "an einem anderen"
-	line "#mon!"
+	line "#MON!"
 	done
 
 FisherPatonBeatenText:
-	text "Sind #mon nicht"
+	text "Sind #MON nicht"
 	line "faszinierend?"
 	done
 
@@ -375,11 +374,11 @@ GoldenrodHarborDollVendorText:
 
 GoldenrodHarborMagikarpDollText:
 	text "<PLAYER> kaufte"
-	line "Magikarp-Puppe."
+	line "Karpador-Puppe."
 	done
 
 GoldenrodHarborMagikarpDollSentText:
-	text "Magikarp-Puppe"
+	text "Karpador-Puppe"
 	line "wurde nach Hause"
 	cont "geschickt."
 	done
@@ -468,7 +467,7 @@ GoldenrodHarborLass2Text:
 	done
 
 GoldenrodHarborSignText:
-	text "Dukatia-Hafen"
+	text "DUKATIA-Hafen"
 	done
 
 GoldenrodHarborAdvancedTipsSignText:

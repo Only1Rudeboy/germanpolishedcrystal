@@ -23,7 +23,7 @@ PokemonJournalKurtScript:
 	setflag ENGINE_READ_KURT_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Meister"
 	line "KURT!"
 	para "KURT lässt niemand"
@@ -109,7 +109,7 @@ Route32PokeCenter1FPokefanMScript:
 	jumpthisopenedtext
 
 	text "Dieser BALL fängt"
-	line "#mon am Köder"
+	line "#MON am Köder"
 	cont "leicht!"
 
 	para "KURT aus AZALEA"
@@ -155,7 +155,7 @@ Route32PokeCenter1FPokefanMScript:
 
 Route32Pokecenter1FCooltrainerFText:
 	text "Was soll mein"
-	line "#mon tragen?"
+	line "#MON tragen?"
 	para "Vielleicht ein"
 	line "Item, das seinen"
 	para "ANGR-Wert"

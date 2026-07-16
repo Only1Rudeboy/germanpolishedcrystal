@@ -28,7 +28,7 @@ GenericTrainerCamperDean:
 	generictrainer CAMPER, DEAN, EVENT_BEAT_CAMPER_DEAN, CamperDeanSeenText, CamperDeanBeatenText
 
 	; GSC-DE Dump 7049
-	text "Meine #mon"
+	text "Meine #MON"
 	line "wurden verletzt,"
 
 	para "obwohl ich den"
@@ -38,7 +38,7 @@ GenericTrainerCamperDean:
 
 	para "Ich bringe sie"
 	line "besser sofort in"
-	cont "ein #mon-"
+	cont "ein #MON-"
 	cont "CENTER."
 	done
 GenericTrainerPicnickerHeidi:
@@ -235,7 +235,7 @@ Route9SignText:
 
 Route9AdvancedTipsSignText:
 	text "Profi-Tipps!"
-	para "Ein #mon mit"
+	para "Ein #MON mit"
 	line "einem Toxik-Orb"
 	cont "wird vergiftet,"
 	para "eines mit einem"

@@ -108,11 +108,9 @@ GenericTrainerSchoolgirlIsabel:
 	generictrainer SCHOOLGIRL, ISABEL, EVENT_BEAT_SCHOOLGIRL_ISABEL, SchoolgirlIsabelSeenText, SchoolgirlIsabelBeatenText
 
 	text "Wir lernen, wie"
-	line "#mon in der"
-	cont "Wildnis"
-
-	para "zusammen"
-	line "überleben."
+	line "#MON in der"
+	cont "Wildnis zusammen"
+	para "überleben."
 	done
 
 GenericTrainerTeacherKathryn:
@@ -129,7 +127,7 @@ GenericTrainerBreederSophie:
 	generictrainer BREEDER, SOPHIE, EVENT_BEAT_BREEDER_SOPHIE, BreederSophieSeenText, BreederSophieBeatenText
 
 	text "Manchmal nutzen"
-	line "Pikachu ihre"
+	line "PIKACHU ihre"
 	para "Elektroschocks, um"
 	line "ohnmächtige"
 	para "Artgenossen zu"
@@ -252,9 +250,9 @@ YellowForestTutorSeedBombScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
-	line "kennt jetzt Seed"
-	cont "Bomb!"
+	text "So! Dein #MON"
+	line "kennt jetzt"
+	cont "Samenbomben!"
 	done
 
 YellowForestSurfPikachuDoll:
@@ -267,7 +265,7 @@ YellowForestSurfPikachuDoll:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Surf-Pikachu wurde"
+	text "Surf-PIKACHU wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done
@@ -284,13 +282,13 @@ SchoolgirlSarahBeatenText:
 
 SchoolgirlIsabelSeenText:
 	text "Hast du niedliche"
-	line "#mon wie die"
+	line "#MON wie die"
 	cont "hier?"
 	done
 
 SchoolgirlIsabelBeatenText:
 	text "Du hast wirklich"
-	line "starke #mon!"
+	line "starke #MON!"
 	done
 
 TeacherKathrynSeenText:
@@ -307,9 +305,9 @@ TeacherKathrynBeatenText:
 
 BreederSophieSeenText:
 	text "Wusstest du, dass"
-	line "Pikachu ein"
+	line "PIKACHU ein"
 	cont "entwickeltes"
-	cont "#mon ist?"
+	cont "#MON ist?"
 	done
 
 BreederSophieBeatenText:
@@ -320,16 +318,16 @@ YellowForestWalkerSeenText:
 	text "Hallo! Ich bin"
 	line "WALKER."
 	para "Früher war ich"
-	line "Arenaleiter von"
-	para "Viola City, aber"
+	line "ARENALEITER von"
+	para "VIOLA CITY, aber"
 	line "das überließ ich"
 	para "meinem Sohn."
 	para "Jetzt wandere ich"
-	line "durch Johto und"
+	line "durch JOHTO und"
 	para "genieße die"
 	line "Aussicht."
 	para "WALKER: Du"
-	line "sammelst Orden,"
+	line "sammelst ORDEN,"
 	cont "oder?"
 	para "Dann hat mein Sohn"
 	line "gegen dich"
@@ -338,7 +336,7 @@ YellowForestWalkerSeenText:
 	line "deine Stärke"
 	cont "selbst testen."
 	para "Ich hab keinen"
-	line "Orden, aber wenn"
+	line "ORDEN, aber wenn"
 	para "du gewinnst,"
 	line "bekommst du etwas"
 	cont "Schönes!"
@@ -346,18 +344,17 @@ YellowForestWalkerSeenText:
 
 YellowForestWalkerBeatenText:
 	text "Meine"
-	line "Vogel-#mon…"
+	line "Vogel-#MON…"
 	cont "Besiegt! Besiegt!"
 	done
 
 YellowForestWalkerAfterText:
 	text "WALKER: Ich"
 	line "verstehe, warum du"
-	cont "gegen"
-	para "FALK gewonnen"
-	line "hast."
+	cont "gegen FALK"
+	para "gewonnen hast."
 	para "Du kennst deine"
-	line "#mon inund"
+	line "#MON in- und"
 	cont "auswendig!"
 	para "Du hast dir diese"
 	line "VM verdient."
@@ -365,7 +362,7 @@ YellowForestWalkerAfterText:
 
 YellowForestWalkerFinalText:
 	text "WALKER:"
-	line "Vogel-#mon"
+	line "Vogel-#MON"
 	cont "fliegen durch den"
 
 	para "Himmel, weil sie"
@@ -393,22 +390,22 @@ YellowForestYellowGreetingText:
 	text "YELLOW: Hallo! Ich"
 	line "bin YELLOW!"
 	para "Dieser Wald voller"
-	line "Pikachu …"
+	line "PIKACHU…"
 	para "Er erinnert mich"
 	line "an meine Heimat in"
-	cont "Kanto."
+	cont "KANTO."
 	para "Dort hab ich mein"
-	line "erstes #mon"
+	line "erstes #MON"
 	para "gefangen."
 	para "Der Trainer, der"
 	line "mir half, sagte:"
 	para "Wenn du dich von"
-	line "Herzen um #mon"
+	line "Herzen um #MON"
 	para "kümmerst, bleiben"
 	line "sie immer deine"
 	cont "Freunde!"
 	para "Ich spüre, dass du"
-	line "deine #mon"
+	line "deine #MON"
 	para "liebst. Zeig mir,"
 	line "was deine Freunde"
 	cont "können!"
@@ -429,9 +426,8 @@ YellowForestYellowAfterText:
 
 YellowForestYellowGoodbyeText:
 	text "YELLOW: Gib den"
-	line "Knuddelball einem"
-
-	para "Pikachu - er"
+	line "Kugelblitz einem"
+	para "PIKACHU - er"
 	line "steigert seine"
 	cont "Kraft."
 	done
@@ -451,8 +447,7 @@ YellowForestCooltrainerMText:
 
 Text_YellowForestTutorSeedBomb:
 	text "Ich bringe deinem"
-	line "#mon Seed Bomb"
-
+	line "#MON Samenbomben"
 	para "bei - für ein"
 	line "Silberblatt."
 	done
@@ -460,7 +455,7 @@ Text_YellowForestTutorSeedBomb:
 
 Text_YellowForestTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Seed Bomb"
+	line "#MON Samenbomben"
 	cont "beibringen?"
 	done
 
@@ -475,11 +470,11 @@ YellowForestSuperNerdText:
 	para "Was hat den Namen"
 	line "inspiriert?"
 
-	para "Pikachu,"
+	para "PIKACHU,"
 	line "natürlich!"
 	done
 
 YellowForestSurfPikachuDollText:
 	text "<PLAYER> findet"
-	line "Surf-Pikachu."
+	line "Surf-PIKACHU."
 	done

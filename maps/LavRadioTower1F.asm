@@ -181,7 +181,7 @@ LavRadioTower1FDirectoryText:
 
 
 LavRadioTower1FPokeFluteSignText:
-	text "Mach deine #mon"
+	text "Mach deine #MON"
 	line "mit den Fröhlichen"
 	para "Melodien der"
 	line "#floete auf"
@@ -198,7 +198,7 @@ LavRadioTower1FPokeFluteSignText:
 LavRadioTower1FReferenceLibraryText:
 	text "Toll! Ein ganzes"
 	line "Regal voller"
-	cont "#mon CDs und"
+	cont "#MON CDs und"
 	cont "Videos."
 
 	para "Das muss die"

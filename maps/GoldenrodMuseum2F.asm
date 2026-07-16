@@ -82,7 +82,7 @@ KabutoPuzzleScript:
 	jumpthistext
 
 	text "Das fertige"
-	line "Kabuto-Panel!"
+	line "KABUTO-Panel!"
 	done
 
 OmanytePuzzleScript:
@@ -95,7 +95,7 @@ OmanytePuzzleScript:
 	jumpthistext
 
 	text "Das fertige"
-	line "Omanyte-Panel!"
+	line "AMONITAS-Panel!"
 	done
 
 AerodactylPuzzleScript:
@@ -108,7 +108,7 @@ AerodactylPuzzleScript:
 	jumpthistext
 
 	text "Das fertige"
-	line "Aerodactyl-Panel!"
+	line "AERODACTYL-Panel!"
 	done
 
 HoOhPuzzleScript:
@@ -121,7 +121,7 @@ HoOhPuzzleScript:
 	jumpthistext
 
 	text "Das fertige"
-	line "Ho-Oh-Panel!"
+	line "HO-OH-Panel!"
 	done
 
 EmptyDisplayText:
@@ -133,7 +133,7 @@ TowerRelicText:
 	text "Ein uraltes"
 	line "Wandgemälde mit"
 	cont "einem mysteriösen"
-	cont "#mon."
+	cont "#MON."
 	done
 
 GoldenrodMuseum2FSightseerMScript:
@@ -154,7 +154,7 @@ GoldenrodMuseum2FSightseerMScript:
 	done
 
 GoldenrodMuseum2FSightseerMNoPaintingText:
-	text "Ach …! Farbblatt"
+	text "Ach…! FARBEAGLE"
 	line "und ich kamen,"
 	cont "weil wir"
 	para "von einer"
@@ -170,7 +170,7 @@ GoldenrodMuseum2FSightseerMNoPaintingText:
 	done
 
 GoldenrodMuseum2FSmeargleText:
-	text "Smeargle: Smeer!"
+	text "FARBEAGLE: Farbee!"
 	done
 
 GoldenrodMuseum2FScientistScript:
@@ -246,14 +246,14 @@ GoldenrodMuseum2FTutorBatonPassScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "So! Dein #mon"
+	text "So! Dein #MON"
 	line "kennt jetzt"
 	cont "Stafette!"
 	done
 
 GoldenrodMuseum2FTutorIntroText:
 	text "Bevor der neue"
-	line "Funkturm gebaut"
+	line "RADIOTURM gebaut"
 	para "wurde, stand hier"
 	line "ein alter"
 	para "Holzturm."
@@ -263,9 +263,9 @@ GoldenrodMuseum2FTutorIntroText:
 	para "Es hierher zu"
 	line "bringen war nötig,"
 	para "um ein Stück"
-	line "Johtos Geschichte"
+	line "JOHTOs Geschichte"
 	cont "zu bewahren."
-	para "Sogar #mon"
+	para "Sogar #MON"
 	line "verstehen den"
 	para "Wert der"
 	line "Erhaltung!"
@@ -273,7 +273,7 @@ GoldenrodMuseum2FTutorIntroText:
 
 GoldenrodMuseum2FTutorBatonPassText:
 	text "Ich bringe deinem"
-	line "#mon Stafette"
+	line "#MON Stafette"
 
 	para "bei - für ein"
 	line "Silberblatt."
@@ -282,6 +282,6 @@ GoldenrodMuseum2FTutorBatonPassText:
 
 GoldenrodMuseum2FTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Stafette"
+	line "#MON Stafette"
 	cont "beibringen?"
 	done

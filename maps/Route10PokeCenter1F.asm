@@ -23,7 +23,7 @@ PokemonJournalAgathaScript:
 	setflag ENGINE_READ_AGATHA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Ex-TOP"
 	line "VIER Agatha!"
@@ -45,7 +45,7 @@ Route10PokeCenter1FGymGuyScript:
 	text "Der DIREKTOR des"
 	line "KRAFTWERKs sucht"
 	para "einen starken"
-	line "#mon-Trainer."
+	line "#MON-Trainer."
 	para "Er braucht Hilfe"
 	line "bei der Suche nach"
 	para "einem gestohlenen"
@@ -62,7 +62,7 @@ Route10PokeCenter1FGymGuyScript:
 	line "leider nichts."
 	done
 Route10PokeCenter1FGentlemanText:
-	text "Ein #mon-CENTER"
+	text "Ein #MON-CENTER"
 	line "neben einem"
 	cont "Tunnel?"
 

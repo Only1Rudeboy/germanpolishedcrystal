@@ -271,7 +271,7 @@ CopycatFinalScript:
 CopycatGreeting1Text:
 	; GSC-DE Dump 5846
 	text "<PLAYER>: Hi! Magst"
-	line "du #mon?"
+	line "du #MON?"
 	para "<PLAYER>: Äh, nein,"
 	line "ich frage dich."
 	para "<PLAYER>: Was?"
@@ -313,7 +313,7 @@ CopycatThanks1Text:
 CopycatGreeting2Text:
 	; GSC-DE Dump 5855
 	text "<PLAYER>: Hi. Du"
-	line "musst #mon"
+	line "musst #MON"
 	cont "mögen."
 	para "<PLAYER>: Nein,"
 	line "nicht ich. Ich"
@@ -388,7 +388,7 @@ CopycatsHouse2FDollScript:
 
 	; GSC-DE Dump 5860
 	text "Das ist ein"
-	line "seltenes #mon!"
+	line "seltenes #MON!"
 	cont "Was?"
 	para "Es ist nur eine"
 	line "Puppe…"

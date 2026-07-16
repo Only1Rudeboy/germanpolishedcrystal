@@ -1,7 +1,7 @@
 LizAnswerPhoneText:
 	text "Hallo, "
 	text_ram wStringBuffer3
-	text " am Apparat."
+	line "am Apparat."
 
 	para "Oh, <PLAYER>."
 	line "Guten Morgen."
@@ -10,16 +10,16 @@ LizAnswerPhoneText:
 LizAnswerPhoneDayText:
 	text "Hallo, "
 	text_ram wStringBuffer3
-	text " am Apparat."
+	line "ist dran."
 
-	para "Oh, <PLAYER>. Wie"
-	line "geht's?"
+	para "Oh, <PLAYER>."
+	line "Wie geht es dir?"
 	done
 
 LizAnswerPhoneNiteText:
 	text "Hallo, "
 	text_ram wStringBuffer3
-	text " am Apparat."
+	line "am Apparat."
 
 	para "Oh, <PLAYER>."
 	line "Guten Abend."
@@ -29,44 +29,50 @@ LizGreetText:
 	text "Guten Morgen,"
 	line "<PLAYER>."
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Warst du am"
-	line "Schlafen?"
+	text ", hallo!"
+	line "Bist du wach?"
 	done
 
 LizGreetDayText:
-	text "Hi, <PLAYER>. Ich"
-	line "bin's, "
+	text "Hi, <PLAYER>."
+	line ""
 	text_ram wStringBuffer3
-	text "."
+	text ", hallo!"
 
-	para "Wie läuft's bei"
-	line "dir?"
+	para "Wie ist es dir"
+	line "ergangen?"
 	done
 
 LizGreetNiteText:
 	text "Guten Abend,"
 	line "<PLAYER>."
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Bist du wach?"
+	text ", hallo!"
+	line "Bist du wach?"
 	done
 
 LizGenericText:
-	text "Ich hatte Zeit"
-	line "und rief dich an."
-	para "Wie gehen deine"
-	line "#mon?"
-	para "Ich bring mein "
+	text "Ich hatte Zeit,"
+	line "daher rufe ich an."
+
+	para "Wie geht es deinen"
+	line "#MON?"
+
+	para "Ich bringe mein"
+	line ""
 	text_ram wStringBuffer4
-	text "täglich"
-	para "ins #mon-Center"
-	line "in Viola City -"
-	para "es geht ihm"
-	line "super! Ich bin"
-	cont "mit der"
-	para "Rezeptionistin"
-	line "befreundet!"
+	text " täglich"
+
+	para "in das #MON-"
+	line "CENTER von VIOLA"
+
+	para "CITY, darum geht"
+	line "es ihm wunderbar!"
+
+	para "Die Rezeptionistin"
+	line "ist eine Freundin!"
 	done

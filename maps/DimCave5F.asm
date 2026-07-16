@@ -100,7 +100,7 @@ DimCave5FRileyScript:
 
 .YesText:
 	text "Wir geben alles,"
-	line "um deine #mon"
+	line "um deine #MON"
 
 	para "zu besiegen."
 	done
@@ -125,7 +125,7 @@ DimCave5FRileyScript:
 	line "Feind."
 
 	para "Wenn du die"
-	line "#mon und"
+	line "#MON und"
 	cont "Attacken des"
 
 	para "Gegners kennst,"
@@ -161,7 +161,7 @@ GenericTrainerSuper_nerdFoote:
 	text "Ein Leben retten"
 	line "oder fünf?"
 	para "Als"
-	line "#mon-Trainer"
+	line "#MON-Trainer"
 	cont "hast du vielleicht"
 	para "die Kraft, alle"
 	line "sechs zu retten!"
@@ -171,7 +171,7 @@ GenericTrainerSuper_nerdFoote:
 	text "Ich hab ein Rätsel"
 	line "für dich!"
 	para "Würdest du ein"
-	line "#mon vor einen"
+	line "#MON vor einen"
 	para "Lorenbahnwagen"
 	line "stoßen, um fünf zu"
 	cont "retten?"

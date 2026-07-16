@@ -29,44 +29,44 @@ ReenaAnswerPhoneNiteText:
 	done
 
 ReenaGreetText:
-	text "Du bist langsam!"
-	line "Schnell rangehen!"
+	text "Du bist lahm! Auf,"
+	line "antworte mir!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetDayText:
-	text "Du bist langsam!"
-	line "Schnell rangehen!"
+	text "Du bist lahm! Auf,"
+	line "antworte mir!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetNiteText:
-	text "Du bist langsam!"
-	line "Schnell rangehen!"
+	text "Du bist lahm! Auf,"
+	line "antworte mir!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGenericText:
-	text "Hey, wie gehen"
-	line "deine #mon?"
+	text "Heh, wie geht es"
+	line "deinen #MON?"
 
-	para "Was? Super? Ich"
-	line "verstehe…"
+	para "Was? Gut?"
+	line "Verstehe…"
 
-	para "Was? Meine"
-	line "#mon?"
+	para "Meinen #MON?"
 
-	para "Natürlich geht es"
-	line "ihnen super! Was"
+	para "Es geht ihnen sehr"
+	line "gut! Was stellst"
 
-	para "für eine Frage!"
+	para "du denn für"
+	line "Fragen?"
 	done

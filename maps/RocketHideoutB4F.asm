@@ -579,7 +579,7 @@ RocketHideoutB4FDefeatedAllLeadersScript:
 	line "Lure enthält die"
 	para "Essenz eines"
 	line "legendären"
-	cont "Vogel-#mon."
+	cont "Vogel-#MON."
 	para "Sie wurden"
 	line "erschaffen, um"
 	cont "andere ihrer Art"

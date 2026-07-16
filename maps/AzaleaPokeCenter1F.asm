@@ -24,7 +24,7 @@ PokemonJournalBugsyScript:
 	setflag ENGINE_READ_BUGSY_JOURNAL
 	jumpthistext
 
-	text "#mon-Journal"
+	text "#MON-Journal"
 	para "Spezialthema:"
 	line "Leiter KAI!"
 	para "Berichten zufolge"
@@ -49,7 +49,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	para "Trainer."
 
 	para "Er hat zwar ein"
-	line "#mon, aber"
+	line "#MON, aber"
 
 	para "er setzt es kaum"
 	line "ein."

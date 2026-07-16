@@ -42,7 +42,7 @@ ProfOaksAide1Script:
 
 	text "Der EP-Teiler"
 	line "hilft einem"
-	cont "#mon,"
+	cont "#MON,"
 
 	para "EP zu sammeln,"
 	line "ohne zu kämpfen."
@@ -94,13 +94,13 @@ ProfOaksAide1HiText:
 	line "PROF. LINDs"
 	cont "Gehilfe."
 	para "Wenn du 15"
-	line "#mon-Arten"
+	line "#MON-Arten"
 	cont "gefangen hast,"
 	para "soll ich dir ein"
 	line "Item geben."
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
-	para "15 #mon-Arten"
+	para "15 #MON-Arten"
 	line "gefangen?"
 	done
 

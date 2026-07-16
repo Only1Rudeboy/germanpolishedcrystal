@@ -26,7 +26,7 @@ RockTunnelB1F_MapScriptHeader:
 GenericTrainerFirebreatherCyd:
 	generictrainer FIREBREATHER, CYD, EVENT_BEAT_FIREBREATHER_CYD, FirebreatherCydSeenText, FirebreatherCydBeatenText
 
-	text "Ein #mon mit"
+	text "Ein #MON mit"
 	line "BLITZ ist"
 	para "hilfreich in"
 	line "dunklen Höhlen wie"

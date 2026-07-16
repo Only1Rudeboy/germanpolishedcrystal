@@ -21,7 +21,7 @@ GuideGentsHouseGuideGentText:
 	cont "Heißsporn!"
 	para "Ich gebe dir einen"
 	line "Rat: Fange viele"
-	cont "#mon!"
+	cont "#MON!"
 	para "Behandle sie alle"
 	line "mit"
 	cont "Freundlichkeit!"

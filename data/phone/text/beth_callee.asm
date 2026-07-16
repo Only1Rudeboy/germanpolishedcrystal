@@ -31,41 +31,49 @@ BethGreetText:
 	text "Guten Morgen,"
 	line "<PLAYER>!"
 
-	para "Hier ist "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Warst du am"
-	line "Schlafen?"
+	text "."
+	line "Bist du wach?"
 	done
 
 BethGreetDayText:
-	text "<PLAYER>, hi! Hier"
-	line "ist "
+	text "Hi, <PLAYER>!"
+	line "Ich, "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hast du Zeit?"
+	para "Hast du Zeit zum"
+	line "Reden?"
 	done
 
 BethGreetNiteText:
 	text "Hi, <PLAYER>."
 	line "Guten Abend."
 
-	para "Hier ist "
+	para "Ich, "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hoffentlich warst"
-	line "du wach."
+	para "Ich hoffe, du"
+	line "warst noch wach."
 	done
 
 BethGenericText:
-	text "Gehst du oft in"
-	line "#mon-Center?"
+	text "Gehörst du zu den"
+	line "Menschen, die oft"
+
+	para "in #MON-CENTER"
+	line "gehen?"
+
 	para "Ich gehe täglich."
-	line "Auf die"
-	cont "Gesundheit"
-	para "deiner #mon zu"
-	line "achten ist"
-	cont "Grundlage eines"
-	cont "Trainers."
+	line "Sich um das Wohl-"
+	cont "ergehen seiner"
+
+	para "#MON zu küm-"
+	line "mern, gehört zu"
+	cont "den Grundlagen"
+
+	para "eines #MON"
+	line "-Trainers."
 	done

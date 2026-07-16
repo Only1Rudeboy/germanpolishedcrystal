@@ -30,6 +30,6 @@ SafariZoneFuchsiaGateOfficerText:
 	line "#BÄLLE"
 
 	para "mitbringen, wenn"
-	line "du #mon fangen"
+	line "du #MON fangen"
 	cont "willst."
 	done

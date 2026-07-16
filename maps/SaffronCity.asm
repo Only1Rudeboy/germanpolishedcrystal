@@ -151,7 +151,7 @@ SaffronCityCooltrainerFText:
 	; GSC-DE Dump 6349
 	text "Das ist die SILPH"
 	line "CO., berühmt für"
-	cont "ihre #mon-"
+	cont "ihre #MON-"
 	cont "Artikel."
 	para "TEAM ROCKET wollte"
 	line "sie wegen dieser"
@@ -243,7 +243,7 @@ SaffronCitySuperNerdText:
 	text "Es gab eine Zeit,"
 	line "in der Psycho-"
 
-	para "#mon für die"
+	para "#MON für die"
 	line "stärksten galten"
 
 	para "und Käfer die"
@@ -288,7 +288,7 @@ SaffronGymSignText:
 	line "SAFFRONIA CITY"
 	cont "LEITUNG: SABRINA"
 	para "Die Meisterin der"
-	line "Psycho-#mon!"
+	line "Psycho-#MON!"
 	done
 
 FightingDojoSignText:
@@ -322,7 +322,7 @@ SaffronCityMagnetTrainStationSignText:
 
 
 PokemonTrainerFanClubSignText:
-	text "#mon-Trainer"
+	text "#MON-Trainer"
 	line "Fan-Club"
 
 	para "Viele Trainer"
@@ -337,7 +337,7 @@ SaffronTrainerTips1Text:
 	line "SILPH-SCOPE2"
 	cont "erkennt"
 	para "selbst perfekt"
-	line "getarnte #mon!"
+	line "getarnte #MON!"
 	done
 
 SaffronTrainerTips2Text:

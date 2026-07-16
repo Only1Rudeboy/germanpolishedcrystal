@@ -33,15 +33,16 @@ CeladonUniversityNursesOfficeNurseText:
 	text "Komm rein. Geht es"
 	line "dir gut?"
 	para "Oder sind deine"
-	line "#mon erschöpft?"
+	line "#MON er-"
+	cont "schöpft?"
 	para "Ruh dich hier"
 	line "etwas aus!"
 	done
 
 CeladonUniversityNursesOfficeSignText:
-	text "Ein #mon ist"
-	line "ein glückliches"
-	cont "#mon."
+	text "Gesunde #MON"
+	line "sind glückliche"
+	cont "#MON."
 	para "Lass deine Freunde"
 	line "im Kampf nicht"
 	cont "ohnmächtig werden!"

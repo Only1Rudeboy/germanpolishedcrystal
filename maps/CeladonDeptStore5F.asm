@@ -25,7 +25,7 @@ CeladonDeptStore5FGentlemanText:
 	text "Ich möchte Items"
 	line "kaufen, mit denen"
 	para "der Status meiner"
-	line "#mon verbessert"
+	line "#MON verbessert"
 	cont "wird, aber ich"
 	cont "habe nicht genug"
 	cont "Geld…"
@@ -43,7 +43,7 @@ CeladonDeptStore5FSailorText:
 
 CeladonDeptStore5FTeacherText:
 	; GSC-DE Dump
-	text "Es macht #mon"
+	text "Es macht #MON"
 	line "glücklich, wenn"
 	cont "sie Items"
 	cont "benutzen dürfen."

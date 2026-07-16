@@ -81,14 +81,14 @@ GoldenrodPokecenter1FGameboyKidText:
 
 GoldenrodPokecenter1FLassText:
 	text "Ein starkes"
-	line "#mon muss nicht"
+	line "#MON muss nicht"
 	cont "zwingend gewinnen."
 	para "Meist entscheidet"
 	line "der Vor- oder"
 	cont "Nachteil des Typs."
 	para "Ich glaube nicht,"
 	line "dass es ein"
-	cont "#mon gibt, das"
+	cont "#MON gibt, das"
 	cont "allen anderen"
 	cont "überlegen ist."
 	done
@@ -204,18 +204,18 @@ WonderTradeReceptionistScript:
 	done
 WonderTradeIntroText:
 	text "Hallo! Willkommen"
-	line "im #Com Center"
+	line "im #COM CENTER"
 	cont "Wunder-Tausch."
 	done
 
 IntroduceTealaText:
-	text "Ich bin Teala,"
-	line "deine"
-	cont "Tauschbegleiterin."
+	text "Ich bin TEALA,"
+	line "deine Tauschbe-"
+	cont "gleiterin."
 	done
 
 WonderTradeExplanationText:
-	text "Du kannst #mon"
+	text "Du kannst #MON"
 	line "mit fernen"
 	cont "Trainern tauschen."
 	done
@@ -236,7 +236,7 @@ WonderTradeForGSBallPichuText:
 	line "Maschine?"
 	para "Es sieht so aus,"
 	line "als hättest du"
-	para "gerade ein #mon"
+	para "gerade ein #MON"
 	line "mit dir selbst"
 	cont "getauscht."
 	para "Das kann nicht"
@@ -260,8 +260,8 @@ WonderTradeForGSBallPichuText:
 WonderTradeForGSBallPichuText2:
 	text "Es mag"
 	line "ungewöhnlich sein,"
-	cont "aber ein #mon"
-	cont "ist ein"
+	cont "aber ein #MON"
+	cont "ist ein #MON."
 	para "Bitte pass gut auf"
 	line "es auf."
 	done
@@ -269,7 +269,7 @@ WonderTradeForGSBallPichuText2:
 InfoSignScript:
 	jumpthistext
 
-	text "#Com Center 1F"
+	text "#COM CENTER 1F"
 	line "Informationen"
 	para "Links: Verwaltung"
 	para "Mitte:"
@@ -282,12 +282,10 @@ PokemonJournalWhitneyScript:
 	setflag ENGINE_READ_WHITNEY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
-
+	text "#MON Journal"
 	para "Spezial:"
-	line "Arenaleiterin"
+	line "ARENALEITERIN"
 	cont "BIANKA!"
-
 	para "Man sagt, BIANKA"
 	line "bewundere BRUNO"
 	cont "der TOP VIER."
@@ -300,12 +298,10 @@ JudgeMachineScript:
 
 GoldenrodPokecenter1FSuperNerdText:
 	text "Wow, dieses"
-	line "#mon Center ist"
+	line "#MON CENTER ist"
 	cont "riesig."
-
 	para "Es wurde gerade"
 	line "gebaut. Sie"
-
 	para "haben auch viele"
 	line "neue Maschinen"
 	cont "installiert."
@@ -361,12 +357,12 @@ JudgeMachineEngineerScript:
 
 JudgeMachineEngineerWorkingText:
 	text "Die"
-	line "#mon-Richter-"
-	cont "Maschine …"
+	line "#MON-Richter-"
+	cont "Maschine…"
 	para "Das ist mein Traum"
 	line "seit langem."
 	para "Mit dem Geld des"
-	line "#Com Centers"
+	line "#COM CENTERs"
 	para "kann er"
 	line "Wirklichkeit"
 	cont "werden,"
@@ -380,29 +376,29 @@ JudgeMachineEngineerWorkingText:
 	para "viele Eier"
 	line "ausbrüten!"
 	para "Ich bin fast"
-	line "fertig …"
+	line "fertig…"
 	done
 
 JudgeMachineEngineerFinishedText:
 	text "Die"
-	line "#mon-Richter-"
-	cont "Maschine …"
+	line "#MON-Richter-"
+	cont "Maschine…"
 	para "Sie ist fertig!"
 	line "Mein Traum wurde"
 	cont "Wirklichkeit!"
 	para "Was ist das? Eine"
 	line "Maschine, die"
 	para "die Werte jedes"
-	line "#mon bewertet!"
+	line "#MON bewertet!"
 	para "Sie nutzt moderne"
-	line "KI-Technik, um"
-	para "das angeborene"
-	line "Potenzial und"
-	para "den Einsatz eines"
-	line "#mon zu messen."
+	line "Technik, um das"
+	para "angeborene"
+	line "Potenzial und den"
+	para "Einsatz eines"
+	line "#MON zu messen."
 	para "Die perfekte Art,"
 	line "die Kraft eines"
-	cont "#mon zu prüfen!"
+	cont "#MON zu prüfen!"
 	para "Probiere sie aus."
 	line "Sie ist absolut"
 	cont "sicher."
@@ -422,10 +418,9 @@ GoldenrodPokecenter1FPokefanFText_Sunflora:
 	text "Ein Mädchen, das"
 	line "ich nicht kenne,"
 	cont "schickte mir ihr"
-	cont "Sonnflora."
-
+	cont "SONNFLORA."
 	para "Du solltest ein"
-	line "#mon tauschen,"
+	line "#MON tauschen,"
 	cont "das du willst."
 	done
 

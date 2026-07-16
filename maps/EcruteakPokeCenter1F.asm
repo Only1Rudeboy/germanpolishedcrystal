@@ -28,7 +28,7 @@ PokemonJournalMortyScript:
 	setflag ENGINE_READ_MORTY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial:"
 	line "ARENA-LEITER JENS!"
 	para "JENS behauptet,"

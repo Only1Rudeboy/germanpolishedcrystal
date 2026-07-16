@@ -150,7 +150,7 @@ RuinsOfAlphKabutoChamberReceptionistText:
 	cont "ein Bild entsteht."
 	para "Rechts findest du"
 	line "eine Beschreibung"
-	cont "des #mon."
+	cont "des #MON."
 	para "Die Forscher im"
 	line "Hintergrund"
 	cont "untersuchen neu"
@@ -200,7 +200,7 @@ RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
 	line "Signal zu sein."
 	para "Ich glaube, sie"
 	line "veranlassen"
-	cont "#mon sich zu"
+	cont "#MON sich zu"
 	cont "zeigen, aber das"
 	cont "ist noch nicht"
 	cont "sicher …"
@@ -208,7 +208,7 @@ RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
 
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "Ein #mon, das"
+	text "Ein #MON, das"
 	line "sich am"
 	cont "Meeresgrund"
 	cont "versteckte"

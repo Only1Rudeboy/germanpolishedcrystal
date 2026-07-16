@@ -48,7 +48,7 @@ CeladonDeptStore6FYoungsterText:
 CeladonDeptStore3FGameboyKid1Text:
 	; GSC-DE Dump
 	text "Oh, oh! Ich habe"
-	line "mein #mon"
+	line "mein #MON"
 	para "getauscht, ohne"
 	line "ihm UP-GRADE"
 	cont "wegzunehmen."
@@ -68,7 +68,7 @@ CeladonDeptStore3FGameboyKid2Text:
 	para "Das getauschte"
 	line "PORYGON hat sich"
 	cont "in ein anderes"
-	cont "#mon"
+	cont "#MON"
 	cont "verwandelt!"
 	done
 

@@ -2,8 +2,7 @@ MomPhoneGreetingText:
 	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Arbeitest du"
-	cont "fleißig?"
+	line "Hart am Arbeiten?"
 	done
 
 MomPhoneLandmarkText:
@@ -12,24 +11,25 @@ MomPhoneLandmarkText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ist das nicht der"
-	line "Ort, wo"
-
-	para ""
+	para "Ist da nicht"
+	line ""
 	text_ram wStringBuffer4
-	text " ist? Warst du"
-	line "dort?"
+	text "?"
+
+	para "Hast du das schon"
+	line "angesehen?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Wirklich, du bist"
-	line "in "
+	text "Wirklich? Du bist"
+	line "in"
+	cont ""
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Da war ich noch"
-	line "nie. Toll,"
-	cont "<PLAYER>!"
+	para "Ich war dort noch"
+	line "nie. Das ist sehr"
+	cont "nett, <PLAYER>."
 	done
 
 MomPhoneNewBarkText:
@@ -38,8 +38,8 @@ MomPhoneNewBarkText:
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Komm mal wieder"
-	line "vorbei, Schatz!"
+	para "Besuch doch mal"
+	line "deine MAMA!"
 	done
 
 MomPhoneCherrygroveText:
@@ -47,40 +47,41 @@ MomPhoneCherrygroveText:
 	line ""
 	text_ram wStringBuffer3
 	text "?"
-	para "Wie wär's, wenn"
-	line "du mal wieder"
-	cont "heimkommst?"
+
+	para "Du könntest ja mal"
+	line "nach Hause kommen."
 	done
 
 MomOtherAreaText:
-	text "Wow, du bist in"
+	text "Wow, du besuchst"
 	line ""
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Viel Glück auf"
-	line "deiner #mon-"
-	cont "Reise!"
+	para "Viel Glück bei"
+	line "deiner Suche nach"
+	cont "#MON!"
 	done
 
 MomDeterminedText:
-	text "Das klingt echt"
-	line "schwer."
+	text "Das klingt wirk-"
+	line "lich hart."
+
 	para "Aber, <PLAYER>,"
-	line "ich weiß, du bist"
-	para "sehr"
-	line "entschlossen. Du"
-	cont "schaffst das!"
+	line "ich weiß, dass du"
+
+	para "sehr ausdauernd"
+	line "bist. Du schaffst"
+	cont "das schon!"
 	done
 
 MomCheckBalanceText:
-	text "Übrigens, du hast"
+	text "Nebenbei, du hast"
 	line "¥"
 	text_ram wStringBuffer3
-	text " gespart."
 
-	para "Willst du weiter"
-	line "sparen?"
+	para "gespart. Willst du"
+	line "weitersparen?"
 	done
 
 MomImportantToSaveText:
@@ -89,84 +90,87 @@ MomImportantToSaveText:
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>, du"
-	line "sparst gar"
+	text "Oh, <PLAYER>,"
+	line "du sparst ja gar"
 
-	para "nichts. Willst du"
-	line "jetzt sparen?"
-	done
-
-MomYouveSavedText:
-	text "Übrigens, du hast"
-	line "¥"
-	text_ram wStringBuffer3
-	text " gespart."
-
-	para "Willst du wieder"
+	para "nicht. Möchtest du"
 	line "sparen?"
 	done
 
+MomYouveSavedText:
+	text "Nebenbei, du hast"
+	line "¥"
+	text_ram wStringBuffer3
+
+	para "gespart. Willst du"
+	line "wieder mit dem"
+
+	para "Sparen anfangen?"
+	done
+
 MomOKIllSaveText:
-	text "O.K.. Ich spare"
-	line "dein Geld für"
-	cont "dich."
+	text "O.K. Ich werde"
+	line "dein Geld sparen."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "O.K.. Ich spare"
-	line "dein Geld nicht."
+	text "O.K. Ich höre auf,"
+	line "dein Geld zu spa-"
+	cont "ren."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, weiter"
-	line "so! Ich feuere"
-	cont "dich an, Schatz!"
+	text "<PLAYER>, mach"
+	line "weiter so! Ich"
+	cont "drück dir die"
+	cont "Daumen!"
 	done
 
 MomPhoneNoPokemonText:
 	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Wartet PROF. LIND"
-	cont "nicht auf dich?"
+	line "Hat PROF. LIND"
+
+	para "nicht auf dich"
+	line "gewartet?"
 	done
 
 MomPhoneNoPokedexText:
 	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Du hast einen"
+	line "Du bist auf einer"
 
-	para "Auftrag von"
-	line "PROF. LIND? Sei"
-	cont "brav!"
+	para "Mission für PROF."
+	line "LIND? Mach's gut!"
 	done
 
 MomPhoneNoGymQuestText:
 	text "Hallo?"
 
-	para "Hi, <PLAYER>! Wenn"
-	line "dein Auftrag"
-	cont "fertig"
+	para "Hi, <PLAYER>!"
+	line "Ist deine Mission"
 
-	para "ist, komm nach"
-	line "Hause, Schatz."
+	para "erfüllt? Dann komm"
+	line "nach Hause."
 	done
 
 MomPhoneLectureText:
 	text "Hallo?"
 
 	para "……<PLAYER>?"
-	line "PROF. LIND sagte,"
+	line "PROF. LIND sagte"
 
-	para "du seist auf eine"
-	line "lange Reise."
+	para "mir, dass du auf"
+	line "eine lange Reise"
+	cont "gehst."
 
 	para "Ich wünschte, du"
-	line "hättest's mir"
+	line "hättest es mir"
+	cont "gesagt…"
 
-	para "gesagt… Was ist"
-	line "mit dem Geld?"
-
-	para "Soll ich sparen?"
+	para "Was ist mit Geld?"
+	line "Soll ich für dich"
+	cont "sparen?"
 	done

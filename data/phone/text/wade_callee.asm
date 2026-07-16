@@ -1,7 +1,6 @@
 WadeAnswerPhoneText:
-	text "Hallo? Hier"
-	line "spricht"
-	cont ""
+	text "Hallo? Hier ist"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 
@@ -10,9 +9,8 @@ WadeAnswerPhoneText:
 	done
 
 WadeAnswerPhoneDayText:
-	text "Hallo? Hier"
-	line "spricht"
-	cont ""
+	text "Hallo? Hier ist"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 
@@ -20,9 +18,8 @@ WadeAnswerPhoneDayText:
 	done
 
 WadeAnswerPhoneNiteText:
-	text "Hallo? Hier"
-	line "spricht"
-	cont ""
+	text "Hallo? Hier ist"
+	line ""
 	text_ram wStringBuffer3
 	text "."
 
@@ -31,43 +28,52 @@ WadeAnswerPhoneNiteText:
 	done
 
 WadeGreetText:
-	text "<PLAYER>, guten"
-	line "Morgen!"
+	text "<PLAYER>,"
+	line "guten Morgen!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Schönes Wetter!"
+	text ", hallo!"
+	line "Schön heute, oder?"
 	done
 
 WadeGreetDayText:
-	text "<PLAYER>, hi!"
+	text "<PLAYER>,"
+	line "alles senkrecht?"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Schönes Wetter!"
+	text "."
+	line "Schön heute, oder?"
 	done
 
 WadeGreetNiteText:
 	text "Guten Abend,"
 	line "<PLAYER>!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Warst du wach?"
+	text "."
+	line "Bist du wach?"
 	done
 
 WadeGenericText:
-	text "Wie gehen deine"
-	line "#mon?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
-	para "Meine haben zu"
-	line "viel Energie."
+	para "Meine #MON"
+	line "haben zu viel"
 
-	para "Besonders "
+	para "Energie. Das ist"
+	line "ein Problem."
+
+	para "Von all meinen"
+	line "#MON ist"
+	cont ""
 	text_ram wStringBuffer4
-	text " ist schwer zu"
-	line "handhaben."
+	text " am"
+	cont "schwierigsten."
 
-	para "Das ist"
-	line "anstrengend."
+	para "Mit ihm zu arbei-"
+	line "ten ist ermüdend."
 	done

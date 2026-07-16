@@ -97,8 +97,8 @@ CeladonUniversityLibrary2FSuper_nerdText:
 	para "Hmm, was soll ich"
 	line "schicken…"
 	para "'Gratis Pizza im"
-	line "Büro von Prof."
-	cont "Westwood!'"
+	line "Büro von PROF."
+	cont "WESTWOOD!'"
 	para "Hehehe."
 	done
 
@@ -110,16 +110,17 @@ CeladonUniversityLibrary2FCooltrainerfText:
 
 CeladonUniversityLibrary2FYoungsterText:
 	text "Ich lese über ein"
-	line "legendäres #mon"
+	line "legendäres"
+	cont "#MON"
 	para "mit der Kraft, den"
-	line "Raum zu"
-	para "verzerren. Echt"
-	line "gruselig …"
+	line "Raum zu ver-"
+	cont "zerren. Echt"
+	cont "gruselig…"
 	done
 
 CeladonUniversityLibrary2FBookshelf1Text:
 	text "Ein Buch mit"
-	line "#mon eines"
+	line "#MON eines"
 	para "uralten Alphabets."
 	para "Mit je einem von"
 	line "jeder Art können"
@@ -133,7 +134,7 @@ CeladonUniversityLibrary2FBookshelf2Text:
 	para "Der Titel ist"
 	line "nicht mehr lesbar,"
 	para "aber es zeigt ein"
-	line "#mon in"
+	line "#MON in"
 	cont "schwerer Rüstung."
 	done
 
@@ -163,7 +164,7 @@ CeladonUniversityLibrary2FBookshelf5Text:
 
 CeladonUniversityLibrary2FBookshelf6Text:
 	text "Ein Buch über"
-	line "#mon mit"
+	line "#MON mit"
 	para "regionalen"
 	line "Unterschieden."
 	para "Ein Raichu sieht"
@@ -173,7 +174,7 @@ CeladonUniversityLibrary2FBookshelf6Text:
 
 CeladonUniversityLibrary2FBookshelf7Text:
 	text "Ein Buch über"
-	line "#mon-"
+	line "#MON-"
 	cont "Wettbewerbe."
 
 	para "Auf dem Cover ist"
@@ -186,18 +187,19 @@ CeladonUniversityLibrary2FBookshelf8Text:
 	text "Auf dem Cover"
 	line "reitet ein Junge"
 
-	para "auf einem #mon."
+	para "auf einem"
+	line "#MON."
 
 	para "'Wie man sein"
-	line "Dragonite"
-	cont "dressiert' steht"
-	cont "fett drauf."
+	line "Dragoran dres-"
+	cont "siert' steht fett"
+	cont "drauf."
 	done
 
 CeladonUniversityLibrary2FBookshelf9Text:
 	text "Ein Buch über eine"
 	line "Welt voller"
-	cont "#mon!"
+	cont "#MON!"
 	para "'Pikachus"
 	line "Abenteuer im"
 	cont "#Park' steht"
@@ -207,8 +209,8 @@ CeladonUniversityLibrary2FBookshelf9Text:
 CeladonUniversityLibrary2FBookshelf10Text:
 	text "Ein Buch über eine"
 	line "Insel riesiger"
-	cont "#mon-Roboter."
-	para "' #mon-Robotik'"
+	cont "#MON-Roboter."
+	para "' #MON-Robotik'"
 	line "von Anne Droid …"
 	done
 
@@ -223,7 +225,7 @@ CeladonUniversityLibrary2FBookshelf11Text:
 	done
 
 CeladonUniversityLibrary2FBookshelf12Text:
-	text "'Schwerelosigkeit"
+	text "'Schwerelosigkeit'"
 	line "von Andy Gravity."
 	cont "Klingt luftig!"
 	done
@@ -231,7 +233,7 @@ CeladonUniversityLibrary2FBookshelf12Text:
 CeladonUniversityLibrary2FBookshelf13Text:
 	text "Ein Buch über die"
 	line "Biologie von"
-	cont "#mon."
+	cont "#MON."
 
 	para "Es ist riesig!"
 	done
@@ -246,7 +248,7 @@ CeladonUniversityLibrary2FBookshelf14Text:
 CeladonUniversityLibrary2FBookshelf15Text:
 	text "Ein Buch über ein"
 	line "furchterregendes"
-	cont "#mon."
+	cont "#MON."
 
 	para "'Absofusion und"
 	line "das Tao-Trio'"
@@ -258,11 +260,11 @@ CeladonUniversityLibrary2FBookshelf15Text:
 
 CeladonUniversityLibrary2FBookshelf16Text:
 	text "'Alte"
-	line "#monopolis:"
+	line "#MONopolis:"
 	cont "Geschichte"
 
 	para "ausgestorbener"
-	line "#mon'"
+	line "#MON'"
 
 	para "Klingt spannend!"
 	done
@@ -295,8 +297,8 @@ CeladonUniversityLibrary2FBookshelf19Text:
 
 	para "Eine geplante"
 	line "Station in TEAK"
-	cont "CITY ist"
-	cont "eingezeichnet."
+	cont "CITY ist ein-"
+	cont "gezeichnet."
 	done
 
 CeladonUniversityLibrary2FBookshelf20Text:
@@ -329,10 +331,9 @@ CeladonUniversityLibrary2FComputer3:
 	jumpthistext
 
 	text "Eine Geschichte"
-	line "voller"
-	cont "Grammatikund"
-	cont "Rechtschreibfehle-"
-	cont "r."
+	line "voller Grammatik-"
+	cont "und Rechtschreib-"
+	cont "fehler."
 	done
 
 CeladonUniversityLibrary2FComputer4:

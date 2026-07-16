@@ -463,7 +463,7 @@ _OPT_IntroText1::
 
 SECTION "_OPT_IntroText2", ROMX
 _OPT_IntroText2::
-	line "#mon-Talk!"
+	line "#MON-Talk!"
 	done
 
 SECTION "_OPT_IntroText3", ROMX
@@ -658,14 +658,14 @@ OPT_Speedy::
 
 SECTION "_OPT_PokemonChannelText", ROMX
 _OPT_PokemonChannelText::
-	text "#mon"
+	text "#MON"
 	done
 
 ; Pokémon Music Channel / Pokémusic
 
 SECTION "_BenIntroText1", ROMX
 _BenIntroText1::
-	line "Ben: #mon-Mus.-"
+	line "Ben: #MON-Mus.-"
 	done
 
 SECTION "_BenIntroText2", ROMX
@@ -707,12 +707,12 @@ _BenFernText2B::
 
 SECTION "_BenFernText3A", ROMX
 _BenFernText3A::
-	line "#mon-Marsch!"
+	line "#MON-Marsch!"
 	done
 
 SECTION "_BenFernText3B", ROMX
 _BenFernText3B::
-	line "#mon-Schlaflied"
+	line "#MON-Schlaflied"
 	done
 
 ; Lucky Channel
@@ -1157,7 +1157,7 @@ _NPCTradeFanfareText::
 
 SECTION "_NPCTradeIntroText1", ROMX
 _NPCTradeIntroText1::
-	text "Ich sammle #mon"
+	text "Ich sammle #MON"
 	line "Hast du"
 	cont ""
 	text_ram wStringBuffer1
@@ -1204,7 +1204,7 @@ _NPCTradeAfterText1::
 SECTION "_NPCTradeIntroText2", ROMX
 _NPCTradeIntroText2::
 	text "Hi, ich suche"
-	line "dieses #mon."
+	line "dieses #MON."
 
 	para "Wenn du"
 	line ""
@@ -1325,7 +1325,7 @@ _NPCTradeAfterText4::
 SECTION "_MomLeavingText1", ROMX
 _MomLeavingText1::
 	text "Wow, ein süßes"
-	line "#mon."
+	line "#MON."
 
 	para "Wo hast du es her?"
 
@@ -1362,7 +1362,7 @@ SECTION "_MomLeavingText3", ROMX
 _MomLeavingText3::
 	text "Sei vorsichtig."
 
-	para "#mon sind deine"
+	para "#MON sind deine"
 	line "Freunde. Ihr müsst"
 	cont "als Team arbeiten."
 
@@ -1460,113 +1460,132 @@ _MomJustDoWhatYouCanText::
 
 SECTION "_DayCareManIntroText", ROMX
 _DayCareManIntroText::
-	text "Ich bin der Hüter."
-	line "Soll ich ein"
-	cont "#mon"
-	cont "großziehen?"
+	; GSC-DE dump 7990
+	text "Ich bin der"
+	line "PENSIONSLEITER."
+	cont "Soll ich eines"
+	cont "deiner #MON"
+	cont "aufziehen?"
 	done
 
 SECTION "_DayCareManIntroEggText", ROMX
 _DayCareManIntroEggText::
-	text "Ich bin der Hüter."
-	line "Kennst du dich mit"
-	cont "Eiern aus?"
+	; GSC-DE dump 7991
+	text "Ich bin der"
+	line "PENSIONSLEITER."
+	cont "Kennst du dich"
+	cont "mit EIERN aus?"
 
-	para "Ich zog mit meiner"
-	line "Frau #mon groß."
+	para "Ich habe #MON"
+	line "mit meiner"
+	cont "Frau aufgezogen."
 
-	para "Wir waren"
-	line "geschockt: ein Ei!"
+	para "Wir waren ent-"
+	line "setzt, als wir ein"
+	cont "EI fanden!"
 
-	para "Ist das nicht"
-	line "unglaublich?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "Also, soll ich"
-	line "#mon"
-	cont "großziehen?"
+	para "Soll ich ein"
+	line "#MON aufziehen?"
 	done
 
 SECTION "_DayCareLadyIntroText", ROMX
 _DayCareLadyIntroText::
+	; GSC-DE dump 7992
 	text "Ich bin die"
-	line "Hüterin."
+	line "PENSIONSLEITERIN."
 
-	para "Soll ich #mon"
-	line "für dich"
-	cont "großziehen?"
+	para "Soll ich eines"
+	line "deiner #MON"
+	cont "aufziehen?"
 	done
 
 SECTION "_DayCareLadyIntroEggText", ROMX
 _DayCareLadyIntroEggText::
+	; GSC-DE dump 7993
 	text "Ich bin die"
-	line "Hüterin. Kennst du"
-	cont "dich mit Eiern"
-	cont "aus?"
+	line "PENSIONSLEITERIN."
+	cont "Kennst du dich"
+	cont "mit EIERN aus?"
 
 	para "Mein Mann und ich"
-	line "zogen ein paar"
-	cont "#mon groß."
+	line "haben #MON"
+	cont "aufgezogen."
 
-	para "Wir waren"
-	line "geschockt: ein Ei!"
+	para "Wir waren er-"
+	line "staunt, als wir"
+	cont "ein EI fanden!"
 
-	para "Wie unglaublich"
-	line "ist das denn?"
+	para "Das ist doch"
+	line "unglaublich, oder?"
 
-	para "Soll ich #mon"
-	line "für dich"
-	cont "großziehen?"
+	para "Soll ich eines"
+	line "deiner #MON"
+	cont "aufziehen?"
 	done
 
 SECTION "_WhatShouldIRaiseText", ROMX
 _WhatShouldIRaiseText::
-	text "Was soll ich für"
-	line "dich großziehen?"
+	; GSC-DE dump 7994
+	text "Welches soll"
+	line "ich aufziehen?"
 	prompt
 
 SECTION "_OnlyOneMonText", ROMX
 _OnlyOneMonText::
+	; GSC-DE dump 7995
 	text "Oh? Aber du hast"
-	line "nur ein #mon."
+	line "nur ein #MON."
 	prompt
 
 SECTION "_CantAcceptEggText", ROMX
 _CantAcceptEggText::
-	text "Schade, aber ich"
-	line "nehme kein Ei."
+	; GSC-DE dump 7996
+	text "Tut mir Leid, aber"
+	line "ich kann kein EI"
+	cont "annehmen."
 	prompt
 
 SECTION "_RemoveMailText", ROMX
 _RemoveMailText::
-	text "Entferne die Post,"
-	line "bevor du kommst."
+	; GSC-DE dump 7997
+	text "Entferne den"
+	line "BRIEF, ehe du mich"
+	cont "aufsuchst."
 	prompt
 
 SECTION "_LastHealthyMonText", ROMX
 _LastHealthyMonText::
+	; GSC-DE dump 7998
 	text "Wenn du mir das"
-	line "gibst, womit"
-	cont "kämpfst du dann?"
+	line "gibst, wer soll"
+	cont "dann kämpfen?"
 	prompt
 
 SECTION "_IllRaiseYourMonText", ROMX
 _IllRaiseYourMonText::
-	text "O.K. Ich ziehe"
-	line "dein "
+	; GSC-DE dump 7999
+	text "O.K. Ich kümmere"
+	line "mich um dein"
+	cont ""
 	text_ram wStringBuffer1
-	text " groß."
+	text "."
 	prompt
 
 SECTION "_ComeBackLaterText", ROMX
 _ComeBackLaterText::
-	text "Komm später"
-	line "wieder."
+	; GSC-DE dump 8000
+	text "Hole es später"
+	line "wieder ab."
 	done
 
 SECTION "_AreWeGeniusesText", ROMX
 _AreWeGeniusesText::
-	text "Sind wir nicht"
-	line "genial? Willst du"
+	; GSC-DE dump 8001
+	text "Wir sind genial,"
+	line "oder? Möchtest du"
 	cont "dein "
 	text_ram wStringBuffer1
 	text " sehen?"
@@ -1574,220 +1593,256 @@ _AreWeGeniusesText::
 
 SECTION "_YourMonHasGrownText", ROMX
 _YourMonHasGrownText::
+	; GSC-DE dump 8002
 	text "Dein "
 	text_ram wStringBuffer1
-	line "ist stark"
-	cont "gewachsen."
+	line "ist groß geworden."
 
-	para "Sein Level stieg"
-	line "um "
+	para "Es ist um "
 	text_decimal wStringBuffer2 + 1, 1, 3
-	text "."
+	line "Level gestiegen."
 
-	para "Willst du dein"
-	line "#mon zurück,"
-	cont "kostet es ¥"
+	para "Wenn du dein"
+	line "#MON zurück"
+	cont "haben möchtest,"
+	cont "kostet dich das"
+	cont "¥"
 	text_decimal wStringBuffer2 + 2, 3, 5
 	text "."
 	done
 
 SECTION "_PerfectHeresYourMonText", ROMX
 _PerfectHeresYourMonText::
+	; GSC-DE dump 8003
 	text "Perfekt! Hier ist"
-	line "dein #mon."
+	line "dein #MON."
 	prompt
 
 SECTION "_GotBackMonText", ROMX
 _GotBackMonText::
-	text "<PLAYER> bekam"
+	; GSC-DE dump 8004
+	text "<PLAYER> erhält"
 	line ""
 	text_ram wStringBuffer1
-	text " zurück."
+	text "."
 	prompt
 
 SECTION "_BackAlreadyText", ROMX
 _BackAlreadyText::
-	text "Was, schon zurück?"
+	; GSC-DE dump 8005
+	text "Huh? Schon zurück?"
 	line "Dein "
 	text_ram wStringBuffer1
 
-	para "braucht noch etwas"
-	line "Zeit bei uns."
+	para "sollte noch ein"
+	line "wenig hierbleiben."
 
-	para "Willst du dein"
-	line "#mon zurück,"
-	cont "kostet es ¥100."
+	para "Wenn du dein"
+	line "#MON zurück-"
+	cont "haben möchtest,"
+	cont "zahle ¥100."
 	done
 
 SECTION "_HaveNoRoomText", ROMX
 _HaveNoRoomText::
+	; GSC-DE dump 8006
 	text "Du hast keinen"
-	line "Platz dafür."
+	line "Platz mehr."
 	prompt
 
 SECTION "_NotEnoughMoneyText", ROMX
 _NotEnoughMoneyText::
+	; GSC-DE dump 8007
 	text "Du hast nicht"
-	line "genug Geld."
+	line "genügend Geld."
 	prompt
 
 SECTION "_OhFineThenText", ROMX
 _OhFineThenText::
-	text "Ach, gut dann."
+	; GSC-DE dump 8008
+	text "Oh, in Ordnung."
 	prompt
 
 SECTION "_ComeAgainText", ROMX
 _ComeAgainText::
+	; GSC-DE dump 8009
 	text "Komm wieder."
 	done
 
 SECTION "_NotYetText", ROMX
 _NotYetText::
+	; GSC-DE dump 8010
 	text "Noch nicht…"
 	done
 
 SECTION "_FoundAnEggAgainText", ROMX
 _FoundAnEggAgainText::
-	text "Ah, du bist es!"
+	; PC variant, dump-style (cf. 8011)
+	text "Ah, du bist's!"
 
-	para "Dein #mon hatte"
-	line "noch ein Ei!"
+	para "Dein #MON hatte"
+	line "noch ein EI!"
 
-	para "Willst du es?"
+	para "Möchtest du es?"
 	done
 
 SECTION "_FoundAnEggText", ROMX
 _FoundAnEggText::
-	text "Ah, du bist es!"
+	; GSC-DE dump 8011 (semicolon avoided)
+	text "Ah, du bist's!"
 
-	para "Wir zogen dein"
-	line "#mon groß, und"
+	para "Wir haben uns um"
+	line "dein #MON"
 
-	para "waren so"
-	line "überrascht!"
+	para "gekümmert und"
+	line "waren sehr"
+	cont "erstaunt!"
 
-	para "Dein #mon hatte"
-	line "ein Ei!"
+	para "Dein #MON hatte"
+	line "ein EI!"
 
 	para "Wir wissen nicht,"
-	line "woher es kam, aber"
+	line "wie es dahin"
 
-	para "dein #mon hatte"
-	line "es. Willst du es?"
+	para "gekommen ist. Dein"
+	line "#MON hat es."
+	cont "Möchtest du es?"
 	done
 
 SECTION "_ReceivedEggText", ROMX
 _ReceivedEggText::
+	; GSC-DE dump 8012
 	text "<PLAYER> erhält"
-	line "das Ei!"
+	line "das EI!"
 	done
 
 SECTION "_TakeGoodCareOfEggText", ROMX
 _TakeGoodCareOfEggText::
+	; GSC-DE dump 8013
 	text "Pass gut darauf"
 	line "auf."
 	done
 
 SECTION "_IllKeepItThanksText", ROMX
 _IllKeepItThanksText::
-	text "Na gut, ich"
-	line "behalte es. Danke!"
+	; GSC-DE dump 8014
+	text "Gut, ich passe"
+	line "darauf auf. Danke!"
 	done
 
 SECTION "_NoRoomForEggText", ROMX
 _NoRoomForEggText::
-	text "Kein Platz im Team"
-	line "oder in der Box."
-	cont "Komm später vorbei"
+	; GSC-DE dump 8015
+	text "Du kannst keine"
+	line "#MON mehr"
+	cont "tragen. Komm"
+	cont "später wieder."
 	done
 
 SECTION "_NameRaterHelloText", ROMX
 _NameRaterHelloText::
-	text "Hallo, hallo! Ich"
-	line "bin der Namensfux."
+	; GSC-DE dump 8021
+	text "Hallo! Ich bin der"
+	line "NAMEN-BEWERTER."
 
 	para "Ich bewerte die"
-	line "Namen von #mon."
+	line "Namen deiner"
+	cont "#MON."
 
-	para "Möchtest du, dass"
-	line "ich Namen bewerte?"
+	para "Soll ich einen"
+	line "Namen bewerten?"
 	done
 
 SECTION "_NameRaterWhichMonText", ROMX
 _NameRaterWhichMonText::
-	text "Welches #mon"
-	line "soll ich den Namen"
-	cont "bewerten?"
+	; GSC-DE dump 8022
+	text "Welchen #MON-"
+	line "Spitznamen soll"
+	cont "ich bewerten?"
 	prompt
 
 SECTION "_NameRaterBetterNameText", ROMX
 _NameRaterBetterNameText::
+	; GSC-DE dump 8023
 	text "Hm… "
 	text_ram wStringBuffer1
-	text "… ist ganz O.K.."
+	text "…"
+	line "Das ist kein"
+	cont "schlechter Name."
 
-	para "Aber wie wär's mit"
-	line "einem besseren"
-	cont "Namen?"
+	para "Aber überlege dir"
+	line "einen besseren"
+	cont "Spitznamen!"
 
 	para "Soll ich ihm einen"
-	line "besseren geben?"
+	line "neuen Namen geben?"
 	done
 
 SECTION "_NameRaterWhatNameText", ROMX
 _NameRaterWhatNameText::
-	text "Gut. Welchen Namen"
-	line "sollen wir ihm"
-	cont "denn geben?"
+	; GSC-DE dump 8024
+	text "O.K. Welchen"
+	line "Namen möchtest"
+	cont "du haben?"
 	prompt
 
 SECTION "_NameRaterFinishedText", ROMX
 _NameRaterFinishedText::
-	text "Das ist ein"
-	line "besserer Name!"
+	; GSC-DE dump 8025
+	text "Dieser Name"
+	line "ist besser!"
 
 	para "Gut gemacht!"
 	done
 
 SECTION "_NameRaterComeAgainText", ROMX
 _NameRaterComeAgainText::
-	text "O.K., dann. Komm"
-	line "mal wieder vorbei."
+	; GSC-DE dump 8026
+	text "O.K. Du kannst"
+	line "mich immer be-"
+	cont "suchen."
 	done
 
 SECTION "_NameRaterPerfectNameText", ROMX
 _NameRaterPerfectNameText::
+	; GSC-DE dump 8027
 	text "Hm… "
 	text_ram wStringBuffer1
-	text "? Toller Name! Er"
-	line "ist perfekt."
+	text "?"
+	line "Ein wirklich"
+	cont "tadelloser Name!"
 
-	para "Behandle es"
-	line "liebevoll."
+	para "Kümmere dich gut"
+	line "um "
+	text_ram wStringBuffer1
+	text "."
 	done
 
 SECTION "_NameRaterEggText", ROMX
 _NameRaterEggText::
-	text "Wow… das ist nur"
-	line "ein Ei."
+	; GSC-DE dump 8028
+	text "Wow… Das ist nur"
+	line "ein EI."
 	done
 
 SECTION "_NameRaterSameNameText", ROMX
 _NameRaterSameNameText::
-	text "Es sieht wohl"
-	line "gleich aus,"
+	; GSC-DE dump 8029
+	text "Er sieht genauso"
+	line "aus, wie der alte,"
 
-	para "aber der neue Name"
-	line "ist viel besser!"
+	para "aber er ist"
+	line "viel besser."
 
 	para "Gut gemacht!"
 	done
 
 SECTION "_NameRaterNamedText", ROMX
 _NameRaterNamedText::
-	text "Gut. Dies #mon"
-	line "heißt jetzt"
-	cont ""
+	; GSC-DE dump 8030
+	text "O.K. Der neue Name"
+	line "dieses #MON"
+	cont "ist "
 	text_ram wStringBuffer1
 	text "."
 	prompt
@@ -1886,7 +1941,7 @@ _ContainedMoveText::
 	text_ram wStringBuffer2
 	text "."
 
-	para "Einem #mon"
+	para "Einem #MON"
 	line ""
 	text_ram wStringBuffer2
 	cont "beibringen?"
@@ -1908,187 +1963,231 @@ _TMHMNotCompatibleText::
 
 SECTION "_BadgeRequiredText", ROMX
 _BadgeRequiredText::
-	text "Schade! Ein neuer"
-	line "Orden ist nötig."
+	; GSC-DE dump 8063
+	text "Du benötigst einen"
+	line "neuen ORDEN."
 	prompt
 
 SECTION "_CantUseItemText", ROMX
 _CantUseItemText::
-	text "Kann hier nicht"
-	line "benutzt werden."
+	; GSC-DE dump 8064
+	text "Du kannst das hier"
+	line "nicht benutzen."
 	prompt
 
 SECTION "_UseCutText", ROMX
 _UseCutText::
+	; GSC-DE dump 8065
 	text_ram wStringBuffer2
 	text " setzt"
-	line "Zerschneider ein!"
+	line "den ZERSCHNEIDER"
+	cont "ein!"
 	prompt
 
 SECTION "_CutNothingText", ROMX
 _CutNothingText::
-	text "Hier gibt's nichts"
-	line "zu zerschneiden."
+	; GSC-DE dump 8066
+	text "Hier kann"
+	line "man nichts"
+	cont "zerschneiden."
 	prompt
 
 SECTION "_AskFlashText", ROMX
 _AskFlashText::
+	; polished prompt (dump flash is auto)
 	text "Stockfinster hier."
-	line "Blitzlicht nutzen?"
+	line "BLITZ einsetzen?"
 	done
 
 SECTION "_BlindingFlashText", ROMX
 _BlindingFlashText::
-	text "Ein Blitzlicht"
-	line "erhellt den Ort!"
+	; GSC-DE dump 8067
+	text "Ein gleißender"
+	line "BLITZ erhellt"
+	cont "das Gebiet!"
 	text_promptbutton
 	text_end
 
 SECTION "_UsedSurfText", ROMX
 _UsedSurfText::
+	; GSC-DE dump 8068
 	text_ram wStringBuffer2
-	text " setzt Surfer ein!"
+	text " setzt"
+	line "SURFER ein!"
 	done
 
 SECTION "_CantSurfText", ROMX
 _CantSurfText::
-	text "Hier kannst du"
-	line "nicht surfen."
+	; GSC-DE dump 8069
+	text "SURFER kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	prompt
 
 SECTION "_AlreadySurfingText", ROMX
 _AlreadySurfingText::
-	text "Du surfst schon."
-	line ""
+	; GSC-DE dump 8070
+	text "SURFER ist bereits"
+	line "eingesetzt."
 	prompt
 
 SECTION "_AskSurfText", ROMX
 _AskSurfText::
-	text "Das Wasser ist"
-	line "ruhig. Surfen?"
+	; GSC-DE dump 8071
+	text "Die See ist ruhig."
+	line "Möchtest du SURFER"
+	cont "einsetzen?"
 	done
 
 SECTION "_UseWaterfallText", ROMX
 _UseWaterfallText::
+	; GSC-DE dump 8072
 	text_ram wStringBuffer2
-	text " setzt Wasserfall"
-	line "ein!"
+	text " setzt"
+	line "KASKADE ein!"
 	done
 
 SECTION "_HugeWaterfallText", ROMX
 _HugeWaterfallText::
-	text "Wow, ein riesiger"
-	line "Wasserfall."
+	; GSC-DE dump 8073
+	text "Wow, das ist ein"
+	line "großer Wasserfall."
 	done
 
 SECTION "_AskWaterfallText", ROMX
 _AskWaterfallText::
-	text "Willst du"
-	line "Wasserfall nutzen?"
+	; GSC-DE dump 8074
+	text "Möchtest du"
+	line "KASKADE einsetzen?"
 	done
 
 SECTION "_UseDigText", ROMX
 _UseDigText::
+	; GSC-DE dump 8075
 	text_ram wStringBuffer2
-	text " setzt Graben ein!"
+	text " setzt"
+	line "SCHAUFLER ein!"
 	done
 
 SECTION "_UseEscapeRopeText", ROMX
 _UseEscapeRopeText::
-	text "<PLAYER> nutzt ein"
-	line "Fluchtseil."
+	; GSC-DE dump 8076
+	text "<PLAYER> setzt"
+	line "FLUCHTSEIL ein."
 	done
 
 SECTION "_CantUseDigText", ROMX
 _CantUseDigText::
-	text "Kann hier nicht"
-	line "benutzt werden."
+	; GSC-DE dump 8077
+	text "Das kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	done
 
 SECTION "_CantUseTeleportText", ROMX
 _CantUseTeleportText::
-	text "Kann hier nicht"
-	line "benutzt werden."
-
-	para ""
+	; GSC-DE dump 8079
+	text "Das kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	done
 
 SECTION "_UseStrengthText", ROMX
 _UseStrengthText::
+	; GSC-DE dump 8081
 	text_ram wStringBuffer2
-	text " setzt Stärke ein!"
+	text " setzt"
+	line "STÄRKE ein!"
 	done
 
 SECTION "_MoveBoulderText", ROMX
 _MoveBoulderText::
+	; GSC-DE dump 8082
 	text_ram wStringBuffer1
-	text " kann Felsen"
-	line "bewegen."
+	text " kann"
+	line "Felsen bewegen."
 	prompt
 
 SECTION "_AskStrengthText", ROMX
 _AskStrengthText::
-	text "Ein #mon könnte"
-	line "das bewegen."
+	; GSC-DE dump 8083
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "bewegen."
 
-	para "Stärke benutzen?"
+	para "Möchtest du STÄRKE"
+	line "einsetzen?"
 	done
 
 SECTION "_BouldersMoveText", ROMX
 _BouldersMoveText::
-	text "Felsen können nun"
-	line "bewegt werden!"
+	; GSC-DE dump 8084
+	text "Du kannst jetzt"
+	line "Felsen bewegen!"
 	done
 
 SECTION "_BouldersMayMoveText", ROMX
 _BouldersMayMoveText::
-	text "Ein #mon könnte"
-	line "das bewegen."
+	; GSC-DE dump 8085
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "bewegen."
 	done
 
 SECTION "_UseWhirlpoolText", ROMX
 _UseWhirlpoolText::
+	; GSC-DE dump 8086
 	text_ram wStringBuffer2
-	text " setzt Whirlpool"
-	line "ein!"
+	text " setzt"
+	line "WHIRLPOOL ein!"
 	prompt
 
 SECTION "_MayPassWhirlpoolText", ROMX
 _MayPassWhirlpoolText::
-	text "Ein wilder"
-	line "Whirlpool!"
+	; GSC-DE dump 8087
+	text "Das ist ein"
+	line "teuflischer"
+	cont "Strudel!"
 
-	para "Ein #mon könnte"
-	line "hindurchkommen."
+	para "Ein #MON könnte"
+	line "den Strudel"
+	cont "durchqueren."
 	done
 
 SECTION "_AskWhirlpoolText", ROMX
 _AskWhirlpoolText::
-	text "Ein Whirlpool"
-	line "versperrt den Weg."
+	; GSC-DE dump 8088
+	text "Ein Strudel ist"
+	line "im Weg."
 
-	para "Whirlpool"
-	line "benutzen?"
+	para "Möchtest du"
+	line "WHIRLPOOL"
+	cont "einsetzen?"
 	done
 
 SECTION "_UseHeadbuttText", ROMX
 _UseHeadbuttText::
+	; GSC-DE dump 8089
 	text_ram wStringBuffer2
-	text " setzt Kopfnuss"
-	line "ein!"
+	text " setzt"
+	line "KOPFNUSS ein!"
 	prompt
 
 SECTION "_HeadbuttNothingText", ROMX
 _HeadbuttNothingText::
-	text "Nö. Nichts…"
+	; GSC-DE dump 8090
+	text "Nein. Nichts…"
 	done
 
 SECTION "_AskHeadbuttText", ROMX
 _AskHeadbuttText::
-	text "Ein #mon könnte"
-	line "im Baum sein."
+	; GSC-DE dump 8091
+	text "Vielleicht steckt"
+	line "ein #MON in"
+	cont "diesem Baum."
 
-	para "Kopfnuss benutzen?"
+	para "Möchtest du KOPF-"
+	line "NUSS einsetzen?"
 	done
 
 SECTION "_UseRockSmashText", ROMX
@@ -2104,53 +2203,64 @@ endc
 
 SECTION "_MaySmashText", ROMX
 _MaySmashText::
-	text "Ein #mon könnte"
-	line "dies zerbrechen."
+	; GSC-DE dump 8093
+	text "Ein #MON könnte"
+	line "ihn vielleicht"
+	cont "zerschmettern."
 	done
 
 SECTION "_AskRockSmashText", ROMX
 _AskRockSmashText::
-	text "Der Fels sieht"
+	; GSC-DE dump 8094
+	text "Dieser Fels sieht"
 	line "zerbrechlich aus."
 
 if DEF(FAITHFUL)
-	para "Gesteinshieb"
-	line "benutzen?"
+	para "Soll Gesteinshieb"
+	line "eingesetzt werden?"
 else
-	para "Mauerdurchbr."
-	line "benutzen?"
+	para "Soll Mauerdurchbr."
+	line "eingesetzt werden?"
 endc
 	done
 
 SECTION "_RodBiteText", ROMX
 _RodBiteText::
-	text "Oh! Ein Biss!"
+	; GSC-DE dump 8095
+	text "Uah!"
+	line "Da hat etwas"
+	cont "angebissen!"
 	prompt
 
 SECTION "_RodNothingText", ROMX
 _RodNothingText::
-	text "Nicht mal Zupfen!"
+	; GSC-DE dump 8096 (+ PC re-prompt)
+	text "Nicht einmal"
+	line "angeknabbert!"
 
 	para "Weiter angeln?"
 	done
 
 SECTION "_CantGetOffBikeText", ROMX
 _CantGetOffBikeText::
-	text "Hier kannst du"
+	; GSC-DE dump 8098
+	text "Du kannst hier"
 	line "nicht absteigen!"
 	done
 
 SECTION "_GotOnBikeText", ROMX
 _GotOnBikeText::
-	text "<PLAYER> stieg auf"
-	line "das "
+	; GSC-DE dump 8099
+	text "<PLAYER> steigt"
+	line "aufs "
 	text_ram wStringBuffer2
 	text "."
 	done
 
 SECTION "_GotOffBikeText", ROMX
 _GotOffBikeText::
-	text "<PLAYER> stieg vom"
+	; GSC-DE dump 8100
+	text "<PLAYER> steigt von"
 	line ""
 	text_ram wStringBuffer2
 	text " ab."
@@ -2158,17 +2268,23 @@ _GotOffBikeText::
 
 SECTION "_AskCutText", ROMX
 _AskCutText::
-	text "Dieser Baum kann"
-	line "gefällt werden!"
+	; GSC-DE dump 8101
+	text "Du kannst den"
+	line "ZERSCHNEIDER hier"
+	cont "einsetzen!"
 
-	para "Zerschneider"
-	line "benutzen?"
+	para "Möchtest du den"
+	line "ZERSCHNEIDER"
+
+	para "einsetzen?"
 	done
 
 SECTION "_CanCutText", ROMX
 _CanCutText::
-	text "Dieser Baum kann"
-	line "gefällt werden!"
+	; GSC-DE dump 8102
+	text "Der ZERSCHNEIDER"
+	line "kann hier"
+	cont "eingesetzt werden!"
 	done
 
 SECTION "_FoundItemText", ROMX
@@ -2189,8 +2305,9 @@ _GotTheItemText:
 
 SECTION "_ReceivedTheBadgeText", ROMX
 _ReceivedTheBadgeText:
+	; badge short name + ORDEN (GSC-DE style)
 	text "<PLAYER> erhält"
-	line "den Orden"
+	line "den ORDEN"
 	cont ""
 	text_ram wStringBuffer4
 	text "."
@@ -2200,7 +2317,7 @@ SECTION "WhiteoutText", ROMX
 WhiteoutText::
 	text "<PLAYER> hat kein"
 	line "kampffähiges"
-	cont "#mon mehr!"
+	cont "#MON mehr!"
 
 	para "<PLAYER> fällt"
 	line "in Ohnmacht!"
@@ -2210,7 +2327,7 @@ SECTION "WhiteoutToWildText", ROMX
 WhiteoutToWildText::
 	text "<PLAYER> hat kein"
 	line "kampffähiges"
-	cont "#mon mehr!"
+	cont "#MON mehr!"
 
 	para "<PLAYER> geriet in"
 	line "Panik und verlor ¥"
@@ -2227,7 +2344,7 @@ SECTION "WhiteoutToTrainerText", ROMX
 WhiteoutToTrainerText::
 	text "<PLAYER> hat kein"
 	line "kampffähiges"
-	cont "#mon mehr!"
+	cont "#MON mehr!"
 
 	para "<PLAYER> zahlte ¥"
 	text_decimal hMoneyTemp, 3, 7
@@ -2288,7 +2405,7 @@ _SquirtbottleNothingText::
 
 SECTION "_UseSacredAshText", ROMX
 _UseSacredAshText::
-	text "Alle #mon von"
+	text "Alle #MON von"
 	line "<PLAYER> geheilt!"
 	done
 
@@ -2331,7 +2448,7 @@ _OakThisIsntTheTimeText::
 SECTION "Text_YouDontHaveAPkmn", ROMX
 Text_YouDontHaveAPkmn::
 	text "Du hast kein"
-	line "#mon!"
+	line "#MON!"
 	prompt
 
 SECTION "_RegisteredItemText", ROMX
@@ -2407,101 +2524,119 @@ _BreedEggHatchText::
 
 SECTION "_BreedAskNicknameText", ROMX
 _BreedAskNicknameText::
-	text "Spitznamen geben"
-	line "für "
+	; GSC-DE dump 8153
+	text "Möchtest du"
+	line ""
 	text_ram wStringBuffer1
-	text "?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 SECTION "_LeftWithDayCareLadyText", ROMX
 _LeftWithDayCareLadyText::
-	text "Es ist "
+	; GSC-DE dump 8154
 	text_ram wBreedMon2Nickname
-	line ", das bei der"
-	cont "Hüterin blieb."
+	text " hast du"
+	line "der PENSIONSLEI-"
+	cont "TERIN anvertraut."
 	done
 
 SECTION "_LeftWithDayCareManText", ROMX
 _LeftWithDayCareManText::
-	text "Es ist "
+	; GSC-DE dump 8155
 	text_ram wBreedMon1Nickname
-	line ", das beim"
-	cont "Hüter blieb."
+	text " hast du"
+	line "dem PENSIONSLEITER"
+	cont "anvertraut."
 	done
 
 SECTION "_BreedNoInterestText", ROMX
 _BreedNoInterestText::
-	text "Kein Interesse an"
+	; GSC-DE dump 8157
+	text_ram wStringBuffer1
+	line "ist nicht"
+	cont "interessiert."
+	prompt
+
+SECTION "_BreedAppearsToCareForText", ROMX
+_BreedAppearsToCareForText::
+	; GSC-DE dump 8158
+	text "Es kümmert sich um"
 	line ""
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
-SECTION "_BreedAppearsToCareForText", ROMX
-_BreedAppearsToCareForText::
-	text "Scheint"
-	line ""
-	text_ram wStringBuffer1
-	cont "zu mögen."
-	prompt
-
 SECTION "_BreedFriendlyText", ROMX
 _BreedFriendlyText::
-	text "Ist freundlich zu"
-	line ""
+	; GSC-DE dump 8159
+	text "Es ist freundlich"
+	line "gegenüber"
+
+	para ""
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 SECTION "_BreedShowsInterestText", ROMX
 _BreedShowsInterestText::
-	text "Zeigt Interesse an"
-	line ""
+	; GSC-DE dump 8160
+	text "Es zeigt Interesse"
+	line "an "
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 SECTION "_EmptyMailboxText", ROMX
 _EmptyMailboxText::
-	text "Hier gibt es keine"
-	line "Post."
+	; GSC-DE dump 8161
+	text "Hier sind keine"
+	line "BRIEFE."
 	prompt
 
 SECTION "ClearedMailPutAwayText", ROMX
 ClearedMailPutAwayText::
-	text "Die geleerte Post"
-	line "wurde verstaut."
+	; GSC-DE dump 8162
+	text "Der leere BRIEF"
+	line "wurde eingesteckt."
 	prompt
 
 SECTION "MailPackFullText", ROMX
 MailPackFullText::
-	text "Die Tasche ist"
-	line "voll."
+	; GSC-DE dump 8163
+	text "Dein BEUTEL"
+	line "ist voll."
 	prompt
 
 SECTION "MailMessageLostText", ROMX
 MailMessageLostText::
-	text "Der Text der Post"
-	line "geht verloren."
-	cont "O.K.?"
+	; GSC-DE dump 8164
+	text "Soll der Inhalt"
+	line "des BRIEFes"
+	cont "gelöscht werden?"
 	done
 
 SECTION "MailAlreadyHoldingItemText", ROMX
 MailAlreadyHoldingItemText::
-	text "Es trägt schon ein"
-	line "Item."
+	; GSC-DE dump 8165
+	text "Es hat schon"
+	line "ein Item."
 	prompt
 
 SECTION "MailEggText", ROMX
 MailEggText::
-	text "Ein Ei kann keine"
-	line "Post halten."
+	; GSC-DE dump 8166
+	text "Du kannst einem EI"
+	line "keinen BRIEF"
+	cont "geben."
 	prompt
 
 SECTION "MailMovedFromBoxText", ROMX
 MailMovedFromBoxText::
-	text "Post wurde aus dem"
-	line "Postfach geholt."
+	; GSC-DE dump 8167
+	text "Der BRIEF wurde"
+	line "aus dem BRIEF-"
+	cont "KASTEN gelöscht."
 	prompt
 
 SECTION "_ReceivedGiftMonText", ROMX
@@ -2514,7 +2649,7 @@ _ReceivedGiftMonText::
 
 SECTION "_EggSentToPCText", ROMX
 _EggSentToPCText::
-	text "Das Ei wurde an"
+	text "Das EI wurde an"
 	line ""
 	text_ram wStringBuffer1
 	text " geschickt."
@@ -2522,8 +2657,9 @@ _EggSentToPCText::
 
 SECTION "_PCGottaHavePokemonText", ROMX
 _PCGottaHavePokemonText::
-	text "Du brauchst ein"
-	line "#mon zum Anruf!"
+	; GSC-DE dump 8173
+	text "Du benötigst"
+	line "#MON!"
 	prompt
 
 SECTION "_ContestCaughtMonText", ROMX
@@ -2536,7 +2672,7 @@ _ContestCaughtMonText::
 
 SECTION "_ContestAskSwitchText", ROMX
 _ContestAskSwitchText::
-	text "#mon wechseln?"
+	text "#MON wechseln?"
 	done
 
 SECTION "_ContestAlreadyCaughtText", ROMX
@@ -2669,7 +2805,7 @@ _CaughtAskNicknameText::
 SECTION "_PokecenterPCCantUseText", ROMX
 _PokecenterPCCantUseText::
 	text "Bzzzt! Du brauchst"
-	line "ein #mon dafür!"
+	line "ein #MON dafür!"
 	prompt
 
 SECTION "_PlayersPCTurnOnText", ROMX
@@ -2758,7 +2894,7 @@ _PokecenterBillsPCText::
 	text "Auf BILLs PC"
 	line "zugegriffen."
 
-	para "#mon-Lager-"
+	para "#MON-Lager-"
 	line "System geöffnet."
 	prompt
 
@@ -2800,10 +2936,10 @@ _OakPCText2::
 SECTION "_OakPCText3", ROMX
 _OakPCText3::
 	text_decimal wTempDexSeen, 2, 3
-	text " #mon gesehen"
+	text " #MON gesehen"
 	line ""
 	text_decimal wTempDexOwn, 2, 3
-	text " #mon besessen"
+	text " #MON besessen"
 
 	para "PROF. EICHs"
 	line "Bewertung:"
@@ -2811,7 +2947,7 @@ _OakPCText3::
 
 SECTION "_OakRating01", ROMX
 _OakRating01::
-	text "Such #mon in"
+	text "Such #MON in"
 	line "Grasgebieten!"
 	done
 
@@ -2837,7 +2973,7 @@ _OakRating04::
 	line "#dex weiter!"
 
 	para "Fang verschiedene"
-	line "Arten von #mon!"
+	line "Arten von #MON!"
 	done
 
 SECTION "_OakRating05", ROMX
@@ -2851,7 +2987,7 @@ _OakRating05::
 
 SECTION "_OakRating06", ROMX
 _OakRating06::
-	text "Manche #mon"
+	text "Manche #MON"
 	line "entwickeln sich"
 	cont "durch Wachsen,"
 
@@ -2864,7 +3000,7 @@ _OakRating07::
 	text "Hast du schon eine"
 	line "Angel? Damit"
 
-	para "kannst du #mon"
+	para "kannst du #MON"
 	line "angeln."
 	done
 
@@ -2877,7 +3013,7 @@ _OakRating08::
 
 SECTION "_OakRating09", ROMX
 _OakRating09::
-	text "Manche #mon"
+	text "Manche #MON"
 	line "erscheinen nur zu"
 
 	para "bestimmten"
@@ -2896,7 +3032,7 @@ _OakRating11::
 	text "Beeindruckend. Du"
 	line "entwickelst"
 
-	para "#mon, statt sie"
+	para "#MON, statt sie"
 	line "nur zu fangen."
 	done
 
@@ -2910,7 +3046,7 @@ _OakRating12::
 SECTION "_OakRating13", ROMX
 _OakRating13::
 	text "Wow. Du fandest"
-	line "mehr #mon als"
+	line "mehr #MON als"
 
 	para "das letzte"
 	line "#dex-Projekt."
@@ -2919,7 +3055,7 @@ _OakRating13::
 SECTION "_OakRating14", ROMX
 _OakRating14::
 	text "Tauschst du deine"
-	line "#mon?"
+	line "#MON?"
 
 	para "Allein ist das"
 	line "hart zu schaffen!"
@@ -2935,7 +3071,7 @@ _OakRating15::
 SECTION "_OakRating16", ROMX
 _OakRating16::
 	text "Du fandest so"
-	line "viele #mon!"
+	line "viele #MON!"
 
 	para "Du hast meinen"
 	line "Studien geholfen!"
@@ -2946,7 +3082,7 @@ _OakRating17::
 	text "Großartig! Du"
 	line "könntest jetzt"
 
-	para "ein #mon-"
+	para "ein #MON-"
 	line "Professor sein!"
 	done
 
@@ -3133,7 +3269,7 @@ _MayRegisterItemText::
 	text "Ein Item in deiner"
 	line "Tasche kann"
 
-	para "der Select-Taste"
+	para "der SELECT-Taste"
 	line "zugewiesen werden."
 	done
 
@@ -3152,13 +3288,13 @@ _ElmText1::
 
 if !DEF(DEBUG)
 	para "Willkommen in der"
-	line "Welt der #mon!"
+	line "Welt der #MON!"
 
 	para "Ich bin PROF."
 	line "LIND."
 
 	para "Man nennt mich den"
-	line "#mon-Professor."
+	line "#MON-Professor."
 endc
 	prompt
 
@@ -3167,20 +3303,20 @@ _ElmText2::
 	text "Diese Welt wird"
 	line "von Kreaturen"
 	cont "bewohnt, die wir"
-	cont "#mon nennen.@"
+	cont "#MON nennen.@"
 	text_end
 
 SECTION "_ElmText4", ROMX
 _ElmText4::
 	text "Menschen und"
-	line "#mon leben"
+	line "#MON leben"
 	cont "zusammen,"
 
 	para "indem sie sich"
 	line "unterstützen."
 
 	para "Manche spielen mit"
-	line "#mon, manche"
+	line "#MON, manche"
 	cont "kämpfen mit ihnen."
 	prompt
 
@@ -3188,13 +3324,13 @@ SECTION "_ElmText5", ROMX
 _ElmText5::
 	text "Aber wir wissen"
 	line "noch nicht alles"
-	cont "über #mon."
+	cont "über #MON."
 
 	para "Es gibt noch viele"
 	line "Rätsel zu lösen."
 
 	para "Darum erforsche"
-	line "ich #mon"
+	line "ich #MON"
 	cont "täglich."
 	prompt
 
@@ -3211,7 +3347,7 @@ _ElmText7::
 
 if !DEF(DEBUG)
 	para "Deine ganz eigene"
-	line "#mon-Geschichte"
+	line "#MON-Geschichte"
 	cont "beginnt jetzt."
 
 	para "Dich erwarten"
@@ -3222,7 +3358,7 @@ if !DEF(DEBUG)
 	line "Träume und"
 
 	para "Abenteuer und"
-	line "#mon warten auf"
+	line "#MON warten auf"
 	cont "dich! Los!"
 endc
 
@@ -3295,7 +3431,7 @@ _LinkTimeoutText::
 SECTION "_LinkTradeCantBattleText", ROMX
 _LinkTradeCantBattleText::
 	text "Tauschst du das"
-	line "#mon, kannst du"
+	line "#MON, kannst du"
 	cont "nicht kämpfen."
 	prompt
 
@@ -3447,7 +3583,7 @@ _HerbShopLadyIntroText::
 	para "Sie sind gut, aber"
 	line "etwas bitter."
 
-	para "Deinem #mon"
+	para "Deinem #MON"
 	line "schmecken sie"
 	cont "vielleicht nicht."
 
@@ -3988,7 +4124,7 @@ _BuenaComeAgainText::
 SECTION "_BallBrokeFreeText", ROMX
 _BallBrokeFreeText::
 	text "Oh nein! Das"
-	line "#mon riss sich"
+	line "#MON riss sich"
 	cont "los!"
 	prompt
 
@@ -4082,7 +4218,7 @@ _ItemStatRoseText::
 
 SECTION "_ItemCantUseOnMonText", ROMX
 _ItemCantUseOnMonText::
-	text "Bei diesem #mon"
+	text "Bei diesem #MON"
 	line "kann das nicht"
 	cont "benutzt werden."
 	prompt
@@ -4196,13 +4332,13 @@ _BallDatabaseFullText::
 
 SECTION "Text_MonIsHiddenFromBall", ROMX
 Text_MonIsHiddenFromBall::
-	text "Das #mon ist"
+	text "Das #MON ist"
 	line "nicht zu sehen!"
 	prompt
 
 SECTION "Text_MonCantBeCaught", ROMX
 Text_MonCantBeCaught::
-	text "Das #mon kann"
+	text "Das #MON kann"
 	line "nicht gefangen"
 	cont "werden!"
 	prompt
@@ -4226,7 +4362,7 @@ _KnowsMoveText::
 
 SECTION "_MoveKnowsOneText", ROMX
 _MoveKnowsOneText::
-	text "Das #mon kennt"
+	text "Das #MON kennt"
 	line "nur eine Attacke."
 	done
 
@@ -4240,7 +4376,7 @@ _AskDeleteMoveText::
 SECTION "_DeleterForgotMoveText", ROMX
 _DeleterForgotMoveText::
 	text "Fertig! Dein"
-	line "#mon vergaß die"
+	line "#MON vergaß die"
 	cont "Attacke."
 	done
 
@@ -4267,18 +4403,18 @@ _DeleterIntroText::
 	text "Ähm… Oh ja, ich"
 	line "bin der Vergesser."
 
-	para "Ich lasse #mon"
+	para "Ich lasse #MON"
 	line "Attacken"
 	cont "vergessen."
 
 	para "Soll ich ein"
-	line "#mon vergessen"
+	line "#MON vergessen"
 	cont "lassen?"
 	done
 
 SECTION "_DeleterAskWhichMonText", ROMX
 _DeleterAskWhichMonText::
-	text "Welches #mon?"
+	text "Welches #MON?"
 	prompt
 
 SECTION "Text_DSTIsThatOK", ROMX
@@ -4350,7 +4486,7 @@ WonderTradeQuestionText::
 
 SECTION "WonderTradePromptText", ROMX
 WonderTradePromptText::
-	text "Welches #mon"
+	text "Welches #MON"
 	line "willst du"
 	cont "tauschen?"
 	prompt
@@ -4378,7 +4514,7 @@ WonderTradeCantTradeSpikyEaredPichuText::
 ;SECTION "WonderTradeCantAcceptAbnormalMonText", ROMX
 ;WonderTradeCantAcceptAbnormalMonText::
 ;	text "Sorry, but your"
-;	line "#mon appears to"
+;	line "#MON appears to"
 ;
 ;	para "be abnormal. We"
 ;	line "can't accept it."
@@ -4469,7 +4605,7 @@ ItemCantBeSelectedText::
 
 SECTION "AlreadyInThatBallTextData", ROMX
 AlreadyInThatBallTextData::
-	text "Dein #mon ist"
+	text "Dein #MON ist"
 	line "schon in dem Ball."
 	prompt
 
@@ -4477,6 +4613,6 @@ SECTION "CantChangeTradedMonBallTextData", ROMX
 CantChangeTradedMonBallTextData::
 	text "Den Ball eines"
 	line "getauschten"
-	cont "#mon kannst du"
+	cont "#MON kannst du"
 	cont "nicht ändern."
 	prompt

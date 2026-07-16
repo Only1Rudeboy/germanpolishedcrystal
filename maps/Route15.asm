@@ -68,7 +68,7 @@ GenericTrainerSchoolboyTommy:
 GenericTrainerSchoolboyBilly:
 	generictrainer SCHOOLBOY, BILLY, EVENT_BEAT_SCHOOLBOY_BILLY, SchoolboyBillySeenText, SchoolboyBillyBeatenText
 
-	text "Wenn #mon ein"
+	text "Wenn #MON ein"
 	line "Unterrichtsfach"
 	cont "wäre, dann wäre"
 	cont "ich bestimmt der"
@@ -85,7 +85,7 @@ GenericTrainerPokefanfBoone:
 	generictrainer POKEFANF, BOONE, EVENT_BEAT_POKEFANF_BOONE, PokefanfBooneSeenText, PokefanfBooneBeatenText
 
 	text "Beim Kämpfen sieht"
-	line "man #mon,"
+	line "man #MON,"
 	para "man noch nie"
 	line "gesehen hat."
 	para "Das ist so toll!"
@@ -94,10 +94,10 @@ GenericTrainerPokefanfBoone:
 GenericTrainerPokefanfEleanor:
 	generictrainer POKEFANF, ELEANOR, EVENT_BEAT_POKEFANF_ELEANOR, PokefanfEleanorSeenText, PokefanfEleanorBeatenText
 
-	text "Meine #mon sind"
+	text "Meine #MON sind"
 	line "nicht schwach!"
 
-	para "Deine #mon sind"
+	para "Deine #MON sind"
 	line "zu stark!"
 	done
 
@@ -214,7 +214,7 @@ SchoolboyBillyBeatenText:
 
 
 PokefanfBooneSeenText:
-	text "Hey, deine #mon"
+	text "Hey, deine #MON"
 	line "…"
 	para "Zeig sie mir. Zeig"
 	line "sie mir!"
@@ -226,7 +226,7 @@ PokefanfBooneBeatenText:
 	done
 
 PokefanfEleanorSeenText:
-	text "Na gut, #mon,"
+	text "Na gut, #MON,"
 	line "Zeit für einen"
 	cont "Kampf!"
 	done

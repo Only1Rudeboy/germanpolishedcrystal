@@ -71,7 +71,7 @@ ScaryCave1FMiraScript:
 
 .ChallengeText:
 	text "Ich bin Mira … Ich"
-	line "habe #mon"
+	line "habe #MON"
 	para "gefangen, aber"
 	line "diese Höhle ist"
 	cont "mir zu gruselig …"
@@ -85,7 +85,7 @@ ScaryCave1FMiraScript:
 
 .YesText:
 	text "Ja! Mira zeigt dir"
-	line "ihre #mon!"
+	line "ihre #MON!"
 	done
 
 .NoText:
@@ -104,7 +104,7 @@ ScaryCave1FMiraScript:
 	line "so gut geworden,"
 
 	para "weil du immer bei"
-	line "deinen #mon"
+	line "deinen #MON"
 	cont "bist?"
 
 	para "Ja! Das muss es"

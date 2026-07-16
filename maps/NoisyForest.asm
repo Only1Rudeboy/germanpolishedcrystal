@@ -50,7 +50,7 @@ GenericTrainerBug_maniacPierre:
 	done
 
 .SeenText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "lieben diesen"
 	cont "Wald."
 
@@ -243,7 +243,7 @@ NoisyForestPikabluScript:
 	line "gerade nicht"
 	cont "tragen."
 	para "Komm zum"
-	line "#mon-Center,"
+	line "#MON-Center,"
 	cont "wenn du es willst."
 	done
 

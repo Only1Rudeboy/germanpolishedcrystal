@@ -20,18 +20,19 @@ PlayersNeighborsHouse_MapScriptHeader:
 PlayersNeighborsDaughterText:
 	text "PIKACHU ist ein"
 	line "entwickeltes"
+	cont "#MON."
 	para "PROF. LINDs"
-	line "Entdeckungen sind"
-	cont "wirklich"
+	line "Entdeckungen"
+	cont "sind wirklich"
 	cont "erstaunlich."
 	para "Er ist berühmt für"
 	line "seine Forschungen"
 	cont "auf dem Gebiet der"
-	cont "#mon-Evolution."
-	para "… Seufz …"
+	cont "#MON-Evolution."
+	para "…Seufz…"
 	para "Ich wünschte, ich"
 	line "wäre ein Forscher"
-	cont "wie er …"
+	cont "wie er…"
 	done
 
 
@@ -40,8 +41,7 @@ PlayersNeighborsDaughterText:
 PlayersNeighborsHusbandText:
 	text "Diese Stadt ist"
 	line "die südöstlichste"
-
-	para "in ganz Johto."
+	para "in ganz JOHTO."
 	done
 
 PlayersNeighborText:
@@ -49,7 +49,7 @@ PlayersNeighborText:
 	line "unbedingt PROF."
 	para "LINDs Assistentin"
 	line "werden."
-	para "Sie liebt #mon"
+	para "Sie liebt #MON"
 	line "von ganzem Herzen!"
 	para "Aber ich auch!"
 	done

@@ -52,7 +52,7 @@ MrPsychicsHouseTutorZenHeadbuttScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Dein #mon kann"
+	text "Dein #MON kann"
 	line "jetzt Zen Headbutt"
 	cont "einsetzen."
 	done
@@ -72,7 +72,7 @@ MrPsychicText:
 
 Text_MrPsychicsHouseTutorZenHeadbutt:
 	text "Ich bringe deinem"
-	line "#mon Zen"
+	line "#MON Zen"
 	para "Headbutt bei -für"
 	line "ein Silberblatt."
 	done
@@ -80,7 +80,7 @@ Text_MrPsychicsHouseTutorZenHeadbutt:
 
 Text_MrPsychicsHouseTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Zen"
+	line "#MON Zen"
 	cont "Headbutt"
 	cont "beibringen?"
 	done

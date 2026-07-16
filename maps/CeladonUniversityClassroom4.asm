@@ -77,10 +77,10 @@ CeladonUniversityClassroom4RaymondScript:
 	para "Ich bin einer der"
 	line "vier besten"
 	cont "Trainer der"
-	cont "Prismania-Uni."
+	cont "PRISMANIA-UNI."
 
 	para "Wir sind die"
-	line "Prismanias Vier!"
+	line "PRISMANIAS VIER!"
 
 	para "Willst du unsere"
 	line "Künste sehen?"
@@ -96,7 +96,7 @@ CeladonUniversityClassroom4RaymondScript:
 	line "Raymond! Ruf mich"
 	cont "Ray."
 	para "Ich bin einer der"
-	line "Prismanias Vier!"
+	line "PRISMANIAS VIER!"
 	para "Du willst uns alle"
 	line "herausfordern?"
 	para "Lass uns kämpfen!"
@@ -121,7 +121,7 @@ CeladonUniversityClassroom4RaymondScript:
 .AfterText1:
 	text "Wie kann das sein?"
 	line "Ich bin einer der"
-	cont "Prismanias Vier!"
+	cont "PRISMANIAS VIER!"
 	para "Ich hab zwar"
 	line "verloren, aber"
 	cont "meine drei Freunde"
@@ -131,7 +131,7 @@ CeladonUniversityClassroom4RaymondScript:
 
 .AfterText2:
 	text "Du hast alle"
-	line "Prismanias Vier"
+	line "PRISMANIAS VIER"
 	cont "besiegt?"
 
 	para "Unmöglich!"
@@ -142,21 +142,21 @@ CeladonUniversityClassroom4RaymondScript:
 
 .FinalText:
 	text "Wenn du die"
-	line "Prismanias Vier"
+	line "PRISMANIAS VIER"
 
 	para "besiegt hast,"
 	line "trägst du jede"
-	cont "Last."
+	cont "Last mit Bravour."
 	done
 
 CeladonUniversityClassroom4CandelaText:
 	text "Hallo! Ich bin"
 	line "Candela. Ich lehre"
-	cont "#mon-Kampf!"
+	cont "#MON-Kampf!"
 	para "Ich erforsche"
-	line "Wege, die"
-	para "natürliche Kraft"
-	line "von #mon zu"
+	line "Wege, die natür-"
+	cont "liche Kraft von"
+	cont "#MON zu"
 	cont "steigern."
 	done
 
@@ -169,7 +169,7 @@ CeladonUniversityClassroom4TeacherText:
 CeladonUniversityClassroom4Bug_catcherText:
 	text "Meine Dozentin"
 	line "sagte, mein"
-	cont "#mon"
+	cont "#MON"
 	para "könnte es mit den"
 	line "Besten aufnehmen."
 	para "Sein Potenzial war"
@@ -178,20 +178,20 @@ CeladonUniversityClassroom4Bug_catcherText:
 	done
 
 CeladonUniversityClassroom4FisherText:
-	text "Der Prof sagte,"
-	line "mein #mon ist"
-	cont "ein Wunder!"
-	para "Ein"
-	line "atemberaubendes"
-	cont "#mon."
+	text "Die Professorin"
+	line "sagte, mein"
+	cont "#MON sei ein"
+	cont "Wunder!"
+	para "Ein atemberau-"
+	line "bendes #MON."
 	done
 
 CeladonUniversityClassroom4LadyText:
 	text "Die Professorin"
 	line "sagte, mein"
-	cont "#mon"
+	cont "#MON"
 
-	para "hat sie einfach"
+	para "habe sie einfach"
 	line "verblüfft."
 
 	para "Es kann wohl"
@@ -214,7 +214,7 @@ CeladonUniversityClassroom4Rich_boyScript:
 
 .Text1:
 	text "Wir lernen über"
-	line "#mon-"
+	line "#MON-"
 	cont "Fähigkeiten."
 	para "Manche Arten haben"
 	line "mehr als eine"
@@ -234,7 +234,7 @@ CeladonUniversityClassroom4Rich_boyScript:
 	cont "nicht ändert."
 
 	para "Aber! Hat ein"
-	line "#mon mit einer"
+	line "#MON mit einer"
 
 	para "Fähigkeitskappe"
 	line "ein Ei, kann das"
@@ -246,16 +246,19 @@ CeladonUniversityClassroom4Rich_boyScript:
 
 CeladonUniversityClassroom4BlackboardText:
 	text "Beachte im Kampf:"
-	line "- Typen-Chart"
-	cont "-Attacken-Effekte"
-	cont "-Attacken-"
-	cont "Kategorien -Status"
+	line "- Typen-Tabelle"
+	cont "- Attacken-"
+	cont "Effekte"
+	cont "- Attacken-"
+	cont "Kategorien"
+	cont "- Status"
 	cont "- Getragene Items"
-	cont "-Basis-Werte"
-	cont "-EP-Werte - Wesen"
-	cont "-Fähigkeiten"
-	cont "-Wetter"
-	cont "-Sonstiges?"
+	cont "- Basis-Werte"
+	cont "- EP-Werte"
+	cont "- Wesen"
+	cont "- Fähigkeiten"
+	cont "- Wetter"
+	cont "- Sonstiges?"
 	done
 
 CeladonUniversityClassroom4Bookshelf1:
@@ -286,7 +289,7 @@ CeladonUniversityClassroom4Bookshelf1:
 
 CeladonUniversityClassroom4Bookshelf2Text:
 	text "Ein"
-	line "#mon-Malbuch."
+	line "#MON-Malbuch."
 	para "Was macht das"
 	line "hier?"
 	done

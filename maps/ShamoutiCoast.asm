@@ -59,7 +59,7 @@ TrainerSwimmerfMarina:
 	cont "gestrandet, würde"
 	cont "ich …"
 	para "natürlich meine"
-	line "#mon mitnehmen!"
+	line "#MON mitnehmen!"
 	done
 
 .SeenText:
@@ -100,7 +100,7 @@ GenericTrainerSightseerfPilar:
 	generictrainer SIGHTSEERF, PILAR, EVENT_BEAT_SIGHTSEERF_PILAR, .SeenText, .BeatenText
 
 	text "Wow, ist dein"
-	line "#mon aber"
+	line "#MON aber"
 	cont "stark!"
 
 	para "Du musst weit"

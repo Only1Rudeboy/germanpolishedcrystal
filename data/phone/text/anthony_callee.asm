@@ -1,70 +1,74 @@
 AnthonyAnswerPhoneText:
-	text "Ja, "
+	text "Yo, "
 	text_ram wStringBuffer3
-	text ", der Wanderer."
+	text " der"
+	line "WANDERER ist dran."
 
 	para "Ah, <PLAYER>!"
 	done
 
 AnthonyAnswerPhoneDayText:
-	text "Ja, "
+	text "Yo, "
 	text_ram wStringBuffer3
-	text ", der Wanderer."
+	text " der"
+	line "WANDERER ist dran."
 
 	para "Ah, <PLAYER>,"
-	line "stimmt's?"
+	line "nicht wahr?"
 	done
 
 AnthonyAnswerPhoneNiteText:
-	text "Ja, "
+	text "Yo, "
 	text_ram wStringBuffer3
-	text ", der Wanderer."
+	text " der"
+	line "WANDERER ist dran."
 
 	para "Ah, <PLAYER>,"
-	line "oder?"
+	line "nicht wahr?"
 	done
 
 AnthonyGreetText:
-	text "Yo, <PLAYER>?"
+	text "Ah, <PLAYER>!"
 
-	para "Hier ist "
+	para "Yo, "
 	text_ram wStringBuffer3
-	text ", der Wanderer!"
+	text " der"
+	line "WANDERER ist dran."
 	done
 
 AnthonyGreetDayText:
-	text "Hey, bist du"
+	text "Heh, ist das nicht"
 	line "<PLAYER>?"
 
-	para "Hier ist "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ", der Wanderer!"
+	text ","
+	line "der WANDERER!"
 	done
 
 AnthonyGreetNiteText:
 	text "<PLAYER>, bist du"
 	line "noch wach?"
 
-	para "Hier ist "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ", der Wanderer!"
+	text ","
+	line "der WANDERER!"
 	done
 
 AnthonyGenericText:
-	text "Sind deine #mon"
-	line "so munter wie"
-	cont "immer?"
+	text "Sind deine #MON"
+	line "immer noch wild?"
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " und ich - wir"
-	line "haben"
+	line "und ich, wir"
 
-	para "Energie im"
-	line "Überfluss. Wir"
-	cont "wandern"
+	para "strotzen vor Ener-"
+	line "gie. Wir wandern"
 
-	para "täglich auf"
-	line "Bergen, um uns"
-	cont "auszupowern."
+	para "täglich in den"
+	line "Bergen, um so"
+
+	para "Energie abzubauen."
 	done

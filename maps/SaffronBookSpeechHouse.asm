@@ -33,7 +33,7 @@ SaffronBookSpeechHouseBookText:
 	text "Ein Stapel"
 	line "Geschichtenbücher."
 	para "Die Prinzessin und"
-	line "das #mon,"
+	line "das #MON,"
 	para "Edward"
 	line "Scherengohands,"
 	cont "Dr. Jekyll & Mr."

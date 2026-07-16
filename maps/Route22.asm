@@ -187,6 +187,6 @@ Route22AdvancedTipsSignText:
 	para "altes Geld,"
 	line "Kampfpunkte und"
 
-	para "alle #mon im"
+	para "alle #MON im"
 	line "PC!"
 	done

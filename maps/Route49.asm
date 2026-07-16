@@ -47,7 +47,7 @@ GenericTrainerSightseermHari:
 
 	text "Ich reise viel, um"
 	line "jeden"
-	cont "#mon-Prof. zu"
+	cont "#MON-Prof. zu"
 	cont "treffen."
 	para "Willst du meine"
 	line "Fotos sehen?"
@@ -68,7 +68,7 @@ GenericTrainerTamerJordan:
 	generictrainer TAMER, JORDAN, EVENT_BEAT_TAMER_JORDAN, .SeenText, .BeatenText
 
 	text "Wie hast du deine"
-	line "#mon so gut"
+	line "#MON so gut"
 	cont "gezähmt?"
 
 	para "Sie sind stark,"
@@ -77,7 +77,7 @@ GenericTrainerTamerJordan:
 	done
 
 .SeenText:
-	text "Vorsicht! #mon"
+	text "Vorsicht! #MON"
 	line "hier können echt"
 	cont "wild sein!"
 	done

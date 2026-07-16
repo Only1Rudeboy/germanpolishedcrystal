@@ -26,7 +26,7 @@ BillsBrotherText:
 BillsBrothersHouseYoungsterText:
 	text "Ich habe diese"
 	line "merkwürdigen,"
-	cont "langsamen #mon"
+	cont "langsamen #MON"
 	cont "auf dem RADWEG"
 	cont "gesehen."
 	done

@@ -81,7 +81,7 @@ CooltrainermHenriSeenText:
 	text "Kannst du mit"
 	line "meinem"
 	cont "ausgewogenen"
-	cont "#mon-Team"
+	cont "#MON-Team"
 	cont "umgehen?"
 	done
 

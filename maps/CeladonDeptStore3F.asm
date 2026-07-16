@@ -66,7 +66,7 @@ CeladonDeptStore3FTutorCounterScript:
 	jumpthisopenedtext
 
 	text "Jetzt kennt dein"
-	line "#mon Konter."
+	line "#MON Konter."
 	done
 
 VideoGameClerkNoMoneyScript:
@@ -179,7 +179,7 @@ CeladonDeptStore3FClerk2Text:
 
 Text_CeladonDeptStore3FTutorCounter:
 	text "Ich bringe deinem"
-	line "#mon Konter"
+	line "#MON Konter"
 	cont "bei,"
 	para "wenn du mir ein"
 	line "Silberblatt gibst."
@@ -188,7 +188,7 @@ Text_CeladonDeptStore3FTutorCounter:
 
 Text_CeladonDeptStore3FTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon Konter"
+	line "#MON Konter"
 	cont "beibringen?"
 	done
 
@@ -267,7 +267,7 @@ CeladonDeptStore3FYoungsterText:
 	; GSC-DE Dump
 	text "Ich kann mich"
 	line "nicht entscheiden,"
-	para "welches #mon"
+	para "welches #MON"
 	line "diese TM erhalten"
 	cont "soll…"
 	done
@@ -282,7 +282,7 @@ CeladonDeptStore3FSuperNerdText:
 CeladonDeptStore3FDirectoryText:
 	; GSC-DE Dump (PC 3F)
 	text "3F: TM-LADEN"
-	para "Mach Deine #mon"
+	para "Mach Deine #MON"
 	line "Stärker!"
 	done
 

@@ -83,7 +83,7 @@ Route44VeteranmScript:
 	done
 
 .IntroText:
-	text "Meine #mon"
+	text "Meine #MON"
 	line "tragen Steinhüte."
 	para "Willst du sie"
 	line "herausfordern?"
@@ -97,7 +97,7 @@ Route44VeteranmScript:
 	text "Ich habe deine"
 	line "Kämpfe gesehen."
 
-	para "Deine #mon sind"
+	para "Deine #MON sind"
 	line "wirklich stark."
 
 	para "Bist du bereit?"
@@ -431,7 +431,7 @@ GenericTrainerCooltrainerfCybil:
 GenericTrainerPokemaniacZach:
 	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, PokemaniacZachSeenText, PokemaniacZachBeatenText
 
-	text "Ein #mon,"
+	text "Ein #MON,"
 	line "dessen Färbung"
 	para "sich von der"
 	line "normalen unter-"
@@ -508,7 +508,7 @@ FisherEdgarSeenText:
 	line "bis zum Umfallen."
 	para "So gehe ich"
 	line "auch mit meinen"
-	cont "#mon um."
+	cont "#MON um."
 	done
 
 
@@ -528,7 +528,7 @@ FisherEdgarBeatenText:
 Bird_keeperVance1SeenText:
 	text "Hast du schon von"
 	line "dem legendären"
-	cont "Vogel-#mon"
+	cont "Vogel-#MON"
 	cont "gehört?"
 	done
 Bird_keeperVance1BeatenText:
@@ -541,10 +541,10 @@ BirdKeeperVanceLegendaryBirdsText:
 	line "und LAVADOS sind"
 	para "die drei"
 	line "legendären Vogel-"
-	cont "#mon."
+	cont "#MON."
 	para "Es gibt aber auch"
 	line "andere legendäre"
-	cont "Vogel-#mon."
+	cont "Vogel-#MON."
 	done
 
 
@@ -587,7 +587,7 @@ PsychicPhilBeatenText:
 
 PokemaniacZachSeenText:
 	text "Ich tue alles,"
-	line "um seltene #mon"
+	line "um seltene #MON"
 	cont "in die Finger zu"
 	cont "bekommen!"
 	done
@@ -597,7 +597,7 @@ PokemaniacZachSeenText:
 
 
 PokemaniacZachBeatenText:
-	text "Ach, deine #mon"
+	text "Ach, deine #MON"
 	line "sind ja niedlich."
 	done
 
@@ -610,7 +610,7 @@ CooltrainermAllenSeenText:
 	line "dass du ein guter"
 	cont "Trainer bist."
 	para "Ich kenne mich gut"
-	line "mit #mon aus"
+	line "mit #MON aus"
 	cont "und ich sehe, dass"
 	cont "du das auch tust."
 	done

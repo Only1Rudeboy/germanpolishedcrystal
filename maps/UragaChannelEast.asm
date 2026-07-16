@@ -46,7 +46,7 @@ GenericTrainerCooltrainermKieran:
 	generictrainer COOLTRAINERM, KIERAN, EVENT_BEAT_COOLTRAINERM_KIERAN, .SeenText, .BeatenText
 
 	text "Ich konnte mein"
-	line "#mon nicht"
+	line "#MON nicht"
 	para "auf Linie bringen."
 	line "Ich muss mich"
 	cont "wieder"
@@ -55,7 +55,7 @@ GenericTrainerCooltrainermKieran:
 
 .SeenText:
 	text "Los geht's wie"
-	line "#mon!"
+	line "#MON!"
 	done
 
 .BeatenText:

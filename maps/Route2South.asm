@@ -26,13 +26,13 @@ GenericTrainerBug_maniacRob:
 	; GSC-DE Dump 7085
 	text "Ich werde mir"
 	line "stärkere Käfer-"
-	cont "#mon suchen."
+	cont "#MON suchen."
 	done
 GenericTrainerBug_maniacDoug:
 	generictrainer BUG_MANIAC, DOUG, EVENT_BEAT_BUG_MANIAC_DOUG, Bug_maniacDougSeenText, Bug_maniacDougBeatenText
 
 	; GSC-DE Dump 7091
-	text "Käfer-#mon"
+	text "Käfer-#MON"
 	line "zischen wie"
 	para "Plüschtiere, wenn"
 	line "du sie auf den"
@@ -42,7 +42,7 @@ GenericTrainerBug_maniacDoug:
 	done
 Bug_maniacRobSeenText:
 	; GSC-DE Dump 7083
-	text "Meine Käfer-#mon"
+	text "Meine Käfer-#MON"
 	line "sind zäh. Du"
 	cont "wirst verlieren!"
 	done
@@ -55,7 +55,7 @@ Bug_maniacDougSeenText:
 	; GSC-DE Dump 7089
 	text "Warum mögen"
 	line "Mädchen keine"
-	cont "Käfer-#mon?"
+	cont "Käfer-#MON?"
 	done
 Bug_maniacDougBeatenText:
 	; GSC-DE Dump 7090

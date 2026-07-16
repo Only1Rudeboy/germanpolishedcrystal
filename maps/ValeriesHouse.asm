@@ -80,7 +80,7 @@ ValeriesHouseValerieText:
 	cont "auch?"
 
 	para "Ich wollte schon"
-	line "immer ein #mon"
+	line "immer ein #MON"
 	cont "sein, weißt du."
 
 	para "Dieser Wunsch ist"
@@ -93,7 +93,7 @@ ValeriesHouseValerieText:
 	para "Und doch… nur im"
 	line "verzweifelten"
 
-	para "Kampf mit #mon"
+	para "Kampf mit #MON"
 	line "fühle ich mich"
 
 	para "wirklich eins mit"

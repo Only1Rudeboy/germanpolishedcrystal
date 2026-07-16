@@ -62,25 +62,24 @@ Script_BattleRoomLoop:
 	ifequalfwd BTCHALLENGE_FACILITYBRAIN, .WarnAboutTycoon
 .AskNextBattle:
 	writethistext
-		text "Nächster Gegner"
-		line "Nr. "
+		text "Als Nächstes kommt"
+		line "Gegner Nr."
 		text_decimal wStringBuffer3, 2, 5
-		text ". Bereit?"
+		text "."
 		done
 	sjumpfwd .ShownText
 .WarnAboutTycoon
 	writethistext
 		text "Glückwunsch zu"
-		line "deiner"
-		cont "Siegesserie,"
-		cont "Trainer!"
-		para "Das Turm-Ass lässt"
+		line "deiner Sieges-"
+		cont "serie, Trainer!"
+		para "Der Turmass lässt"
 		line "ausrichten, dass"
-		para "es von deinem"
-		line "Können beeindruckt"
-		cont "ist."
+		para "er von deinem"
+		line "Können beein-"
+		cont "druckt ist."
 		para "Bist du bereit,"
-		line "gegen das Turm-Ass"
+		line "gegen den Turmass"
 		cont "zu kämpfen?"
 		done
 .ShownText
@@ -93,8 +92,9 @@ Script_BattleRoomLoop:
 
 .DontBattleNextOpponent:
 	writethistext
-		text "Speichern und"
-		line "Sitzung beenden?"
+		text "SICHERN und die"
+		line "Herausforderung"
+		cont "beenden?"
 		done
 	yesorno
 	iffalsefwd .DontSaveAndEndTheSession
@@ -107,8 +107,8 @@ Script_BattleRoomLoop:
 	special SoftReset
 .DontSaveAndEndTheSession:
 	writethistext
-		text "Kampfraum-"
-		line "Durchgang"
+		text "Die KAMPFRAUM-"
+		line "Herausforderung"
 		cont "abbrechen?"
 		para "Achtung, das zählt"
 		line "als Niederlage."

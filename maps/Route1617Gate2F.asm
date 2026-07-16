@@ -85,7 +85,7 @@ Route1617Gate2FPsychicText:
 	line "hier gibt es einen"
 	cont "Psycho,"
 	para "der in einem"
-	line "#mon-Kampf"
+	line "#MON-Kampf"
 	cont "seine"
 	para "Umgebung verändern"
 	line "kann."
@@ -99,11 +99,11 @@ Route1617Gate2FPsychicText:
 
 Text_Route1617Gate2FTutorTrickRoom:
 	text "Ich kann deinem"
-	line "#mon die"
+	line "#MON die"
 	cont "Attacke Trick Room"
 	cont "beibringen."
 	para "Damit können"
-	line "langsamere #mon"
+	line "langsamere #MON"
 	para "für eine Weile"
 	line "schnellere"
 	cont "überholen."

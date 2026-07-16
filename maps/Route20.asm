@@ -110,7 +110,7 @@ GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
 	text "Deine"
-	line "#mon--folgst du"
+	line "#MON--folgst du"
 	cont "dem"
 	para "neuesten"
 	line "Team-Trend?"
@@ -120,7 +120,7 @@ GenericTrainerSwimmerfLeona:
 	text "Schau! Mein bester"
 	line "Badeanzug und mein"
 	cont "bestes"
-	para "#mon!"
+	para "#MON!"
 	done
 
 .BeatenText:
@@ -202,7 +202,7 @@ GenericTrainerSwimmermElmo:
 GenericTrainerPicnickerCheyenne:
 	generictrainer PICNICKER, CHEYENNE, EVENT_BEAT_PICNICKER_CHEYENNE, .SeenText, .BeatenText
 
-	text "Mit #mon"
+	text "Mit #MON"
 	line "verliere ich nicht"
 	cont "so schlimm!"
 	done
@@ -214,7 +214,7 @@ GenericTrainerPicnickerCheyenne:
 
 	para "Jetzt spiel ich"
 	line "gern draußen mit"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 .BeatenText:
@@ -245,13 +245,13 @@ GenericTrainerCamperPedro:
 	line "Decke, kannst du"
 	cont "dich an ein"
 
-	para "warmes #mon"
+	para "warmes #MON"
 	line "kuscheln!"
 	done
 
 .SeenText:
 	text "Warst du schon mal"
-	line "mit #mon"
+	line "mit #MON"
 	cont "campen?"
 	done
 

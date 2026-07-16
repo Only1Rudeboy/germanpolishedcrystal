@@ -1,51 +1,59 @@
 RalphAnswerPhoneText:
 	text "Ja? Ah, <PLAYER>."
 
-	para "Du sagst höflich"
-	line "deinen Namen beim"
-	cont "Anrufen."
+	para "Du bist wenigstens"
+	line "so höflich und"
+
+	para "meldest dich mit"
+	line "deinem Namen."
 	done
 
 RalphAnswerPhoneDayText:
 	text "Ja? Ah, <PLAYER>."
 
-	para "Du sagst höflich"
-	line "deinen Namen beim"
-	cont "Anrufen."
+	para "Du bist wenigstens"
+	line "so höflich und"
+
+	para "meldest dich mit"
+	line "deinem Namen."
 	done
 
 RalphAnswerPhoneNiteText:
 	text "Ja? Ah, <PLAYER>."
 
-	para "Du sagst höflich"
-	line "deinen Namen beim"
-	cont "Anrufen."
+	para "Du bist wenigstens"
+	line "so höflich und"
+
+	para "meldest dich mit"
+	line "deinem Namen."
 	done
 
 RalphGreetText:
-	text "Hi, Onkel "
+	text "Hier ist Onkel"
+	line ""
 	text_ram wStringBuffer3
-	text " hier."
+	text "."
 	done
 
 RalphGreetDayText:
-	text "Hi, Onkel "
+	text "Hier ist Onkel"
+	line ""
 	text_ram wStringBuffer3
-	text " hier."
+	text "."
 	done
 
 RalphGreetNiteText:
-	text "Hi, Onkel "
+	text "Hier ist Onkel"
+	line ""
 	text_ram wStringBuffer3
-	text " hier."
+	text "."
 	done
 
 RalphGenericText:
-	text "Kümmerst du dich"
-	line "gut um deine"
-	cont "#mon?"
+	text "Versorgst du deine"
+	line "#MON auch gut?"
 
-	para "Du musst gut zu"
-	line "deinen Partnern"
-	cont "sein!"
+	para "Behandle sie gut,"
+	line "sie sind deine"
+	cont "Kameraden!"
 	done

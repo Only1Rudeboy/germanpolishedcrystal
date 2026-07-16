@@ -25,10 +25,10 @@ ElmsWifeText:
 	line "hoffe, es geht ihm"
 	cont "gut."
 	para "Wenn er sich in"
-	line "seine #mon-"
-	cont "Forschungen"
-	cont "vertieft, vergisst"
-	cont "er sogar zu essen."
+	line "seine #MON-"
+	cont "Forschungen ver-"
+	cont "tieft, vergisst er"
+	cont "sogar zu essen."
 	done
 
 
@@ -41,8 +41,8 @@ ElmsSonText:
 	line "helfe ich meinem"
 	cont "Papa!"
 	para "Ich werde ein"
-	line "großartiger"
-	cont "#mon-Professor!"
+	line "großartiger #-"
+	cont "MON-Professor!"
 	done
 
 
@@ -66,7 +66,7 @@ ElmsHouseLabFoodText: ; unreferenced
 ElmsHousePokemonFoodText: ; unreferenced
 	text "Hier ist etwas zu"
 	line "essen. Es muss für"
-	cont "die #mon sein."
+	cont "die #MON sein."
 	done
 
 
@@ -77,22 +77,22 @@ ElmsHousePokemonFoodText: ; unreferenced
 ElmsHouseFridgeText:
 	text "Hier ist etwas zu"
 	line "essen. Es muss für"
-	cont "die #mon sein."
+	cont "die #MON sein."
 	done
 
 ElmsHousePCText:
-	text "#mon. Woher"
+	text "#MON. Woher"
 	line "kommen sie?"
 	para "Wohin gehen sie?"
 	para "Warum war noch nie"
 	line "jemand Zeuge der"
 	cont "Geburt eines"
-	cont "#mon?"
-	para "Ich will es"
-	line "wissen. Ich werde"
+	cont "#MON?"
+	para "Ich will es wis-"
+	line "sen. Ich werde"
 	para "mein Leben in den"
-	line "Dienst der"
-	cont "#mon-Forschung"
+	line "Dienst der #-"
+	cont "MON-Forschung"
 	cont "stellen!"
 	para "…"
 	para "Dies ist ein Teil"

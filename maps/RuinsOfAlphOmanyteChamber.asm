@@ -106,7 +106,7 @@ MapRuinsofAlphOmanyteChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "Dieses #mon"
+	text "Dieses #MON"
 	line "bewegte sich mit"
 
 	para "Hilfe seiner zehn"

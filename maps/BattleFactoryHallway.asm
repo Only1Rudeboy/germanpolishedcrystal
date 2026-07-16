@@ -60,27 +60,24 @@ BattleFactoryHallwayEnterScene:
 	ifequalfwd BTCHALLENGE_FACILITYBRAIN, .WarnAboutHead
 .AskNextBattle:
 	writethistext
-		text "Nächster Gegner"
-		line "Nr. "
+		text "Als Nächstes kommt"
+		line "Gegner Nr."
 		text_decimal wStringBuffer3, 2, 5
-		text ". Bereit?"
+		text "."
 		done
 	sjumpfwd .ShownText
 .WarnAboutHead:
 	writethistext
 		text "Glückwunsch zu"
-		line "deiner"
-		cont "Siegesserie,"
-		cont "Trainer!"
+		line "deiner Sieges-"
+		cont "serie, Trainer!"
 		para "Der Fabrikleiter"
 		line "lässt ausrichten,"
-		para "dass er einen"
-		line "Kampf mit dir"
-		cont "fordert."
+		para "dass er dich zum"
+		line "Kampf fordert."
 		para "Bist du bereit,"
-		line "gegen den"
-		cont "Fabrikleiter zu"
-		cont "kämpfen?"
+		line "gegen den Fabrik-"
+		cont "leiter zu kämpfen?"
 		done
 .ShownText
 	yesorno
@@ -91,8 +88,9 @@ BattleFactoryHallwayEnterScene:
 
 .DontBattleNextOpponent:
 	writethistext
-		text "Speichern und"
-		line "Sitzung beenden?"
+		text "SICHERN und die"
+		line "Herausforderung"
+		cont "beenden?"
 		done
 	yesorno
 	iffalsefwd .DontSaveAndEndTheSession
@@ -105,8 +103,8 @@ BattleFactoryHallwayEnterScene:
 	special SoftReset
 .DontSaveAndEndTheSession:
 	writethistext
-		text "Kampffeld-"
-		line "Durchgang"
+		text "Die Kampffeld-"
+		line "Herausforderung"
 		cont "abbrechen?"
 		para "Achtung, das zählt"
 		line "als Niederlage."
@@ -139,10 +137,9 @@ BattleFactoryHallwayEnterScene:
 	iftruefwd .Continue
 
 	writethistext
-		text "Deinen Durchgang"
+		text "Durchgang"
 		line "abbrechen? Das"
 		cont "zählt als"
-
 		para "Serienverlust."
 		done
 	yesorno
@@ -177,8 +174,8 @@ BattleFactoryHallwayEnterScene:
 	step_end
 
 .PleaseStepThisWayText:
-	text "Bitte hier"
-	line "entlang."
+	text "Hier entlang"
+	line "bitte."
 	prompt
 
 .StepAbovePlayerMovement:

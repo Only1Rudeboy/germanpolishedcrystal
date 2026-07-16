@@ -94,7 +94,7 @@ ShamoutiShrineRuinsLawrenceScript:
 
 .AfterText:
 	text "Lawrence: Deine"
-	line "#mon sind für"
+	line "#MON sind für"
 	cont "dich keine"
 	para "bloße Sammlung,"
 	line "oder?"
@@ -102,7 +102,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	line "fast wie Freunde."
 	para "War das der Grund,"
 	line "warum du meine"
-	cont "legendären #mon"
+	cont "legendären #MON"
 	cont "besiegtest?"
 	para "Nun, du hast dir"
 	line "das verdient."
@@ -130,7 +130,7 @@ ShamoutiShrineRuinsLawrenceScript:
 
 .GoodbyeText:
 	text "Mein Traum war,"
-	line "dieses #mon zu"
+	line "dieses #MON zu"
 	cont "besitzen,"
 	para "aber du hast dich"
 	line "als würdig"
@@ -156,7 +156,7 @@ ShamoutiShrineRuinsGrampsText:
 	cont "beschützt."
 	para "Jedes Jahr danke"
 	line "ich dem großen"
-	cont "#mon,"
+	cont "#MON,"
 	para "der uns"
 	line "beschützte."
 	done
@@ -172,5 +172,5 @@ ShamoutiShrineRuinsLadyText:
 	para "Angeblich gibt es"
 	line "hier irgendwo ein"
 	cont "sprechendes"
-	cont "#mon."
+	cont "#MON."
 	done

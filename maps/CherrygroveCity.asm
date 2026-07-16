@@ -159,7 +159,7 @@ CherrygroveYoungsterScript:
 
 	; GSC-DE Dump
 	text "Das Haus von"
-	line "MR. #mon ist"
+	line "MR. #MON ist"
 	cont "gleich da vorne!"
 	done
 
@@ -354,7 +354,7 @@ GuideGentSeaText:
 	para "wir uns hier am"
 	line "Meer."
 
-	para "Manche #mon"
+	para "Manche #MON"
 	line "findet man nur im"
 	cont "Wasser."
 	done
@@ -453,7 +453,7 @@ CherrygroveRivalTextAfter1:
 	line "wer ich bin?"
 	para "Ich werde der"
 	line "größte"
-	cont "#mon-Trainer"
+	cont "#MON-Trainer"
 	cont "der Welt."
 	done
 
@@ -471,7 +471,7 @@ CherrygroveTeacherText_HaveMapCard:
 	text "Du kannst gehen,"
 	line "wohin du willst"
 	cont "solange du mit"
-	cont "#mon unterwegs"
+	cont "#MON unterwegs"
 	cont "bist, wird es"
 	cont "immer lustig sein."
 	done
@@ -483,11 +483,11 @@ CherrygroveYoungsterText_HavePokedex:
 	text "Ich habe gegen die"
 	line "Trainer auf der"
 	cont "Straße gekämpft."
-	para "Meine #mon"
+	para "Meine #MON"
 	line "haben verloren!"
 	para "Ich muss sie rasch"
 	line "in ein"
-	cont "#mon-CENTER"
+	cont "#MON-CENTER"
 	cont "bringen."
 	done
 
@@ -496,7 +496,7 @@ CherrygroveYoungsterText_HavePokedex:
 
 MysticWaterGuyTextBefore:
 	text "Ich habe ein"
-	line "#mon gefangen,"
+	line "#MON gefangen,"
 	cont "das ein Item"
 	para "bei sich hatte."
 	line "Ich glaube, es war"
@@ -532,7 +532,7 @@ GuideGentsHouseSignText:
 
 CherrygroveCityAdvancedTipsSignText:
 	text "Erweiterte Tipps!"
-	para "In #mon-Märkten"
+	para "In #MON-Märkten"
 	line "bekommst du"
 	para "gratis einen"
 	line "Premierball, wenn"

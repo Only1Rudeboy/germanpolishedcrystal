@@ -14,8 +14,7 @@ JoseAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAYER>?"
-	line "Hallo!"
+	para "Oh, <PLAYER>? Hi!"
 	done
 
 JoseAnswerPhoneNiteText:
@@ -31,7 +30,7 @@ JoseAnswerPhoneNiteText:
 JoseGreetText:
 	text "Oh, <PLAYER>?"
 
-	para "Tweet! Ja, ich"
+	para "Tüüt! Yeah, ich"
 	line "bin's, "
 	text_ram wStringBuffer3
 	text "."
@@ -40,7 +39,7 @@ JoseGreetText:
 JoseGreetDayText:
 	text "Oh, <PLAYER>?"
 
-	para "Tweet! Ja, ich"
+	para "Tüüt! Yeah, ich"
 	line "bin's, "
 	text_ram wStringBuffer3
 	text "."
@@ -49,22 +48,22 @@ JoseGreetDayText:
 JoseGreetNiteText:
 	text "Oh, <PLAYER>?"
 
-	para "Tweet! Ja, ich"
+	para "Tüüt! Yeah, ich"
 	line "bin's, "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGenericText:
-	text "Sind deine #mon"
-	line "noch fit?"
+	text "Geht es deinen"
+	line "#MON gut?"
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text " hat zu viel"
-	line "Energie."
+	line "strotzt vor"
+	cont "Energie."
 
-	para "Wenn es losläuft,"
-	line "kommt es lange"
-	cont "nicht zurück."
+	para "Hebt es ab, kommt"
+	line "es für eine Weile"
+	cont "nicht wieder."
 	done

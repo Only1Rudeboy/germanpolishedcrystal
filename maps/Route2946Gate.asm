@@ -28,7 +28,7 @@ Route29Route46GateOfficerText:
 	done
 Route29Route46GateYoungsterText:
 	text "Verschiedene"
-	line "#mon tauchen"
+	line "#MON tauchen"
 	cont "hier auf."
 
 	para "Wenn du alle"

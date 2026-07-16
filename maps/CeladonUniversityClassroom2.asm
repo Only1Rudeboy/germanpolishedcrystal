@@ -52,9 +52,9 @@ CeladonUniversityClassroom2YoungsterText:
 CeladonUniversityClassroom2ChildText:
 	text "Wir hatten gerade"
 	line "eine Vorlesung"
-	para "über Prof."
-	line "Westwoods Beiträge"
-	cont "zum #dex."
+	para "über PROF."
+	line "WESTWOODs Bei-"
+	cont "träge zum #DEX."
 	para "Ich hörte, dass er"
 	line "gegen Ende"
 	para "faul wurde und"
@@ -64,7 +64,7 @@ CeladonUniversityClassroom2ChildText:
 
 CeladonUniversityClassroom2LadyText:
 	text "Du kommst aus"
-	line "Johto? Diese"
+	line "JOHTO? Diese"
 
 	para "Region hat so"
 	line "faszinierende"
@@ -88,10 +88,9 @@ CeladonUniversityClassroom2CooltrainermScript:
 	cont "erschreckt."
 	para "Ich war bis spät"
 	line "auf, um eine"
-	para "Aufgabe"
-	line "fertigzustellen,"
-	cont "drum bin ich"
-	cont "erschöpft."
+	para "Aufgabe fertig-"
+	line "zustellen, drum"
+	cont "bin ich erschöpft."
 	done
 
 CeladonUniversityClassroom2BlackboardText:
@@ -102,14 +101,15 @@ CeladonUniversityClassroom2BlackboardText:
 	line "Attacke Toxin"
 	cont "erfunden."
 	para "Vor 71 Jahren:"
-	line "moderner #Ball"
+	line "moderner #BALL"
 	cont "entwickelt."
 	para "Vor 27 Jahren:"
-	line "erste Mondlandung."
+	line "erste Mond-"
+	cont "landung."
 	para "Vor drei Jahren:"
 	line "erstes virtuelles"
-	cont "#mon"
-	cont "erschaffen."
+	cont "#MON er-"
+	cont "schaffen."
 	para "'Hypothese:"
 	line "Technik wächst"
 	cont "exponentiell.'"
@@ -117,7 +117,6 @@ CeladonUniversityClassroom2BlackboardText:
 
 CeladonUniversityClassroom2Bookshelf1Text:
 	text "Ein Buch darüber,"
-	done
 if DEF(FAITHFUL)
 	line "wie der Messing-"
 	cont "turm in TEAK"

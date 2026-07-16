@@ -115,7 +115,7 @@ ViridianCityTutorDreamEaterScript:
 	jumpthisopenedtext
 
 	text "Sieh nur! Dein"
-	line "#mon hat"
+	line "#MON hat"
 	cont "Traumfresser"
 	cont "gelernt!"
 
@@ -138,7 +138,7 @@ ViridianCityCoffeeGrampsQuestionText:
 	para "nicht mehr an,"
 	line "aber ich war ein"
 	cont "Experte im Fangen"
-	cont "von #mon."
+	cont "von #MON."
 	para "Glaubst du mir?"
 	done
 
@@ -207,7 +207,7 @@ ViridianCityDreamEaterFisherText:
 
 Text_ViridianCityTutorDreamEater:
 	text "Ich bringe deinem"
-	line "#mon bei,"
+	line "#MON bei,"
 	cont "Träume zu fressen."
 	para "Dafür will ich nur"
 	line "ein Silberblatt."
@@ -216,7 +216,7 @@ Text_ViridianCityTutorDreamEater:
 
 Text_ViridianCityTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon"
+	line "#MON"
 	cont "Traumfresser"
 	cont "beibringen?"
 	done
@@ -279,7 +279,7 @@ ViridianGymSignText:
 ViridianCityTrainerTips1Text:
 	text "TIPPS für TRAINER"
 
-	para "Fang #mon und"
+	para "Fang #MON und"
 	line "erweitere deine"
 	cont "Sammlung!"
 

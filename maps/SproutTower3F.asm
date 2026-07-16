@@ -85,14 +85,14 @@ ElderLiScript:
 	line "selbst die"
 	cont "dunkelsten Orte."
 	para "Du musst es deinem"
-	line "#mon nicht"
+	line "#MON nicht"
 	cont "beibringen, wenn"
 	para "du es nicht im"
 	line "Kampf nutzt."
 	para "Drücke einfach A"
 	line "in der Dunkelheit,"
 	cont "und ein"
-	para "#mon mit BLITZ"
+	para "#MON mit BLITZ"
 	line "wird es nutzen,"
 	cont "wenn es kann."
 	done
@@ -101,7 +101,7 @@ GenericTrainerSageJin:
 	generictrainer SAGE, JIN, EVENT_BEAT_SAGE_JIN, SageJinSeenText, SageJinBeatenText
 
 	text "Je stärker die"
-	line "#mon werden,"
+	line "#MON werden,"
 	cont "desto stärker wird"
 	cont "auch ihr Trainer."
 	para "Nein, warte! Je"
@@ -109,7 +109,7 @@ GenericTrainerSageJin:
 	cont "Trainer wird,"
 	cont "desto stärker"
 	cont "werden auch die"
-	cont "#mon."
+	cont "#MON."
 	done
 
 GenericTrainerSageTroy:
@@ -148,10 +148,10 @@ SproutTowerElderLecturesRivalText:
 	para "Eines gebe ich dir"
 	line "noch mit:"
 	para "Behandle deine"
-	line "#mon besser."
+	line "#MON besser."
 	para "Dein Kampfstil ist"
 	line "zu aggressiv."
-	para "#mon sind keine"
+	para "#MON sind keine"
 	line "Kampfspielzeuge …"
 	done
 
@@ -172,11 +172,11 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	line "gegen so einen"
 	cont "Narren verlieren,"
 	para "der mir rät, meine"
-	line "#mon gut zu"
+	line "#MON gut zu"
 	cont "behandeln."
 	para "Für mich zählen"
-	line "nur #mon."
-	para "Schwache #mon"
+	line "nur #MON."
+	para "Schwache #MON"
 	line "interessieren mich"
 	cont "gar nicht."
 	done
@@ -203,7 +203,7 @@ SageLiSeenText:
 	line "ist eine"
 	cont "Trainingsstätte."
 	para "Trainer und"
-	line "#mon prüfen"
+	line "#MON prüfen"
 	cont "hier ihre"
 	cont "Freundschaft,"
 	para "um gemeinsam eine"
@@ -214,7 +214,7 @@ SageLiSeenText:
 	para "Erlaube mir, die"
 	line "Freundschaft"
 	cont "zwischen dir und"
-	cont "deinen #mon zu"
+	cont "deinen #MON zu"
 	cont "prüfen!"
 	done
 
@@ -234,7 +234,7 @@ SageLiBeatenText:
 
 SageLiTakeThisFlashText:
 	text "Du und dein"
-	line "#mon dürften"
+	line "#MON dürften"
 	cont "keine Probleme mit"
 	cont "dieser Attacke"
 	cont "haben."
@@ -260,7 +260,7 @@ SageLiAfterBattleText:
 
 SageJinSeenText:
 	text "Ich trainiere, um"
-	line "durch #mon die"
+	line "durch #MON die"
 	cont "Erleuchtung zu"
 	cont "finden!"
 	done
@@ -283,7 +283,7 @@ SageJinBeatenText:
 SageTroySeenText:
 	text "Ich will sehen,"
 	line "wie sehr du deinen"
-	cont "#mon vertraust."
+	cont "#MON vertraust."
 	done
 
 
@@ -337,7 +337,7 @@ SproutTower3FPaintingText:
 
 SproutTower3FStatueText:
 	text "Eine"
-	line "#mon-Statue …"
+	line "#MON-Statue …"
 	para "Sie sieht sehr"
 	line "erhaben aus."
 	done

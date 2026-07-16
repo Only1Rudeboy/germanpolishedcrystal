@@ -309,7 +309,7 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	para "Trag es unbedingt"
 	line "bei dir. Ich bin"
 	para "so neugierig,"
-	line "welches #mon es"
+	line "welches #MON es"
 	cont "ist!"
 	done
 
@@ -320,7 +320,7 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	line "Lind es wollte."
 	para "Ich bin so"
 	line "neugierig, welches"
-	cont "#mon es ist!"
+	cont "#MON es ist!"
 	done
 
 .QuestionText:
@@ -380,7 +380,7 @@ Route32LyraIntroducesHiddenGrottoesOutroScript:
 	para "Vielleicht"
 	line "versteckt sich"
 	cont "dort ein tolles"
-	cont "#mon!"
+	cont "#MON!"
 	para "Ich wünschte, ich"
 	line "hätte Zeit zum"
 	cont "Stöbern,"
@@ -461,7 +461,7 @@ GenericTrainerFisherJustin:
 	text "Geduld … Die"
 	line "Voraussetzung"
 	para "für das Angeln und"
-	line "für #mon ist"
+	line "für #MON ist"
 	cont "dieselbe."
 	done
 TrainerFisherRalph1:
@@ -578,7 +578,7 @@ GenericTrainerFisherHenry:
 	generictrainer FISHER, HENRY, EVENT_BEAT_FISHER_HENRY, FisherHenrySeenText, FisherHenryBeatenText
 
 	text "Frisch gefangene"
-	line "#mon können"
+	line "#MON können"
 
 	para "gut trainierten"
 	line "nicht Paroli"
@@ -688,7 +688,7 @@ GenericTrainerYoungsterAlbert:
 	line "meinen Lieblingen"
 	cont "der Beste zu sein."
 	para "Ich setze nicht"
-	line "auf zähe #mon,"
+	line "auf zähe #MON,"
 	cont "wie die anderen."
 	done
 GenericTrainerYoungsterGordon:
@@ -727,7 +727,7 @@ FriedaScript:
 	jumpthisopenedtext
 
 	text "FRIEDA: Gib es"
-	line "einem #mon, das"
+	line "einem #MON, das"
 	cont "über Gift-Attacken"
 	cont "verfügt."
 	para "Oh!"

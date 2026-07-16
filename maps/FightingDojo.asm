@@ -232,24 +232,22 @@ MapFightingDojoSignpost2Script:
 	iftruefwd .saturday_agatha
 	jumpthisopenedtext
 
-	text "Saturday: BIANKA,"
+	text "Samstag: BIANKA,"
 	line "HARTWIG,???"
 	done
 .saturday_agatha
 	jumpthisopenedtext
 
-	text "Saturday: BIANKA,"
-	line "HARTWIG, Agatha"
+	text "Samstag: BIANKA,"
+	line "HARTWIG, AGATHA"
 	done
 
 BlackBeltText_ExplainsRematches:
-	text "Arenaleiter aus"
-	line "Kanto und Johto"
-
+	text "ARENALEITER aus"
+	line "KANTO und JOHTO"
 	para "kommen in dieses"
-	line "Kampf-DOJO zum"
+	line "KARATE DOJO zum"
 	cont "Training."
-
 	para "Du solltest dich"
 	line "anschließen!"
 	done
@@ -379,7 +377,7 @@ FightingDojoRematch3Script:
 
 BrockText_Greeting:
 	text "Ich mag"
-	line "Gesteins-#mon"
+	line "Gesteins-#MON"
 	cont "am meisten."
 	para "Sie sind hart und"
 	line "rau, aber trotzdem"
@@ -387,7 +385,7 @@ BrockText_Greeting:
 	para "Du wirst sehen,"
 	line "wie viel stärker"
 	para "meine"
-	line "Stein-#mon"
+	line "Stein-#MON"
 	cont "geworden sind!"
 	done
 
@@ -403,9 +401,7 @@ MistyText_Greeting:
 SurgeText_Greeting:
 	text "Ich spüre starke"
 	line "Elektro-Kraft um"
-
-	para "den Magnetzug!"
-
+	para "den MAGNETZUG!"
 	para "Ich bin heiß auf"
 	line "einen"
 	cont "elektrisierenden"
@@ -488,7 +484,7 @@ WhitneyText_Greeting:
 
 MortyText_Greeting:
 	text "Das legendäre"
-	line "#mon hat mich"
+	line "#MON hat mich"
 	cont "nicht gewählt …"
 	para "Aber das heißt"
 	line "nicht, dass mir"
@@ -516,7 +512,7 @@ JasmineText_Greeting:
 PryceText_Greeting:
 	text "Worte sind nicht"
 	line "nötig. Ein"
-	cont "#mon-Kampf ist"
+	cont "#MON-Kampf ist"
 
 	para "unser Weg, uns zu"
 	line "verständigen."
@@ -538,7 +534,7 @@ PalmerText_Greeting:
 	line "besten Trainer"
 	para "einander Respekt."
 	para "Indem sie als"
-	line "echte #mon-"
+	line "echte #MON-"
 	para "Schüler mit vollem"
 	line "Einsatz kämpfen!"
 	done
@@ -555,10 +551,10 @@ LoreleiText_Greeting:
 AgathaText_Greeting:
 	text "Hallo, Kind."
 	para "Füllst du noch"
-	line "einen #dex für"
-	para "den alten Prof."
-	line "Lind?"
-	para "#mon sind zum"
+	line "einen #DEX für"
+	para "den alten PROF."
+	line "LIND?"
+	para "#MON sind zum"
 	line "Kämpfen da!"
 	para "Zeig mir dein"
 	line "wahres Talent als"
@@ -568,8 +564,8 @@ AgathaText_Greeting:
 WalkerText_Greeting:
 	text "Hey, <PLAYER>!"
 	para "Mein Sohn FALK war"
-	line "wohl gerade"
-	para "nicht hier…"
+	line "wohl gerade nicht"
+	para "hier…"
 	para "Wie wär's, wenn"
 	line "wir stattdessen"
 	cont "kämpfen?"
@@ -577,10 +573,10 @@ WalkerText_Greeting:
 
 YellowText_Greeting:
 	text "Hallo, <PLAYER>!"
-	para "Mal sehen …"
+	para "Mal sehen…"
 	para "Ja! Du kümmerst"
 	line "dich noch gut um"
-	cont "deine #mon!"
+	cont "deine #MON!"
 	para "Du bist stärker"
 	line "geworden, aber ich"
 	cont "auch!"
@@ -637,10 +633,9 @@ BlaineText_WinLoss:
 BlueText_WinLoss:
 	text "Genau wie ich"
 	line "dachte!"
-
 	para "Kein Wunder, dass"
-	line "du Champion"
-	cont "geworden bist…"
+	line "du CHAMP geworden"
+	cont "bist…"
 	done
 
 FalknerText_WinLoss:
@@ -651,7 +646,7 @@ FalknerText_WinLoss:
 
 BugsyText_WinLoss:
 	text "Du hast dich wohl"
-	line "viel mit #mon"
+	line "viel mit #MON"
 	cont "beschäftigt!"
 	done
 

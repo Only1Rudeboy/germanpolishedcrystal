@@ -37,7 +37,7 @@ TrainerBikerDwayne:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Die #mon-"
+	text "Die #MON-"
 	line "TRAINERGILDE aus"
 	cont "KANTO wird immer"
 	cont "existieren!"
@@ -119,7 +119,7 @@ GenericTrainerLassMeadow:
 
 Route8BikerDwayneProtestText:
 	text "Wir sind die"
-	line "#mon-TRAINER-"
+	line "#MON-TRAINER-"
 	cont "GILDE aus KANTO."
 
 	para "Wir protestieren!"
@@ -127,7 +127,7 @@ Route8BikerDwayneProtestText:
 
 Route8BikerZekeProtestText:
 	text "Wir sind die"
-	line "#mon-TRAINER-"
+	line "#MON-TRAINER-"
 	cont "GILDE aus KANTO!"
 
 	para "Die Polizei kann"
@@ -139,7 +139,7 @@ Route8BikerZekeProtestText:
 
 BikerDwayneSeenText:
 	text "Wir repräsentieren"
-	line "die #mon-"
+	line "die #MON-"
 	cont "TRAINERGILDE aus"
 	cont "KANTO."
 	para "Hier kommst du"
@@ -181,7 +181,7 @@ BikerHarrisBeatenText:
 
 BikerZekeSeenText:
 	text "Wir sind die"
-	line "#mon-TRAINER-"
+	line "#MON-TRAINER-"
 	cont "GILDE aus KANTO!"
 	cont "Nimm dich in Acht!"
 	done

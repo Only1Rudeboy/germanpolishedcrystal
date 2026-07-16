@@ -170,7 +170,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	text "Ähem. Was war das?"
 	para "Du willst den"
 	line "Hyper-Test der"
-	cont "Prismania-Uni?"
+	cont "PRISMANIA-UNI?"
 	done
 
 .BeginText:
@@ -195,7 +195,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question1QuestionText:
-	text "Welches #mon"
+	text "Welches #MON"
 	line "hat diese"
 	cont "Silhouette?"
 	done
@@ -206,7 +206,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question2QuestionText:
-	text "Welches #mon"
+	text "Welches #MON"
 	line "macht diesen Ruf?"
 	done
 
@@ -224,7 +224,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	done
 
 .Question4QuestionText:
-	text "Welches #mon"
+	text "Welches #MON"
 	line "hat Trockenhaut?"
 	done
 
@@ -253,11 +253,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	para "Du hast den"
 	line "Hyper-Test mit"
 	cont "Bravour bestanden!"
-	para "Hier dein"
-	line "Preis-ein speziell"
-	para "gezüchteter"
-	line "Karpador mit"
-	cont "Drachenwut!"
+	para "Hier dein Preis--"
+	line "ein speziell ge-"
+	cont "züchteter Karpador"
+	cont "mit Drachenwut!"
 	done
 
 .TestOverText:
@@ -292,31 +291,31 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 
 .Question1MenuData:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 1, 11, 11
+	menu_coords 0, 1, 12, 11
 	dw .Question1MenuData2
 	db 1 ; default option
 
 .Question1MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Umbreon@"
-	db "Glaceon@"
-	db "Persian@"
+	db "Nachtara@"
+	db "Glaziola@"
+	db "Snobilikat@"
 	db "Girafarig@"
 
 .Question2MenuData:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 1, 10, 11
+	menu_coords 0, 1, 13, 11
 	dw .Question2MenuData2
 	db 1 ; default option
 
 .Question2MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Blissey@"
-	db "Qwilfish@"
-	db "Slowking@"
-	db "Venomoth@"
+	db "Heiteira@"
+	db "Baldorfish@"
+	db "Laschoking@"
+	db "Omot@"
 
 .Question3MenuData:
 	db MENU_BACKUP_TILES
@@ -327,10 +326,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question3MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Elixir@"
-	db "Calcium@"
-	db "Antidote@"
-	db "Heal Powder@"
+	db "Elixier@"
+	db "Kalzium@"
+	db "Gegengift@"
+	db "Heilpuder@"
 
 .Question4MenuData:
 	db MENU_BACKUP_TILES
@@ -341,24 +340,24 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question4MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Parasect@"
+	db "Parasek@"
 	db "Magmar@"
-	db "Sandslash@"
-	db "Victreebel@"
+	db "Sandamer@"
+	db "Sarzenia@"
 
 .Question5MenuData:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 1, 13, 11
+	menu_coords 0, 1, 14, 11
 	dw .Question5MenuData2
 	db 1 ; default option
 
 .Question5MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Cheri Berry@"
-	db "Lum Berry@"
-	db "Oran Berry@"
-	db "Pecha Berry@"
+	db "Cheribeere@"
+	db "Miraculbeere@"
+	db "Oranbeere@"
+	db "Pechabeere@"
 
 .Question6MenuData:
 	db MENU_BACKUP_TILES
@@ -379,7 +378,7 @@ CeladonUniversityHyperTestRoomScientistText:
 	line "ein Ritual für"
 	cont "alle"
 	para "Absolventen der"
-	line "Prismania-Uni."
+	line "PRISMANIA-UNI."
 	para "Er testet alle"
 	line "Fähigkeiten bis"
 	cont "zum Äußersten!"
@@ -432,7 +431,7 @@ CeladonUniversityHyperTestRoomComputer:
 
 	text "Auf dem Desktop"
 	line "liegt eine Datei"
-	cont "questions.txt."
+	cont "fragen.txt."
 
 	para "Besser nicht"
 	line "schummeln!"

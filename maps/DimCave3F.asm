@@ -93,7 +93,7 @@ GenericTrainerBlackbeltTakeo:
 .SeenText:
 	text "Ich trainiere hier"
 	line "allein mit meinen"
-	cont "#mon."
+	cont "#MON."
 	para "Verschwinde"
 	line "sofort!"
 	done

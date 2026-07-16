@@ -393,7 +393,7 @@ BattleText_PkmnFainted:
 	prompt
 
 BattleText_UseNextMon:
-	text "Nächstes #mon"
+	text "Nächstes #MON"
 	line "einsetzen?"
 	done
 
@@ -410,7 +410,7 @@ BattleText_EnemyIsAboutToUseWillPlayerSwitchPkmn:
 	text " ein."
 
 	para "Möchtest du dein"
-	line "#mon wechseln?"
+	line "#MON wechseln?"
 	done
 
 BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn:
@@ -421,25 +421,25 @@ BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn:
 	text " ein."
 
 	para "Möchtest du dein"
-	line "#mon wechseln?"
+	line "#MON wechseln?"
 	done
 
 BattleText_EnemyIsAboutToSwitchWillPlayerSwitchPkmn:
 	text "<ENEMY>"
 	line "wechselt gleich"
-	cont "das #mon."
+	cont "das #MON."
 
 	para "Möchtest du dein"
-	line "#mon wechseln?"
+	line "#MON wechseln?"
 	done
 
 BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn:
 	text "<ENEMY>"
 	line "wechseln gleich"
-	cont "das #mon."
+	cont "das #MON."
 
 	para "Möchtest du dein"
-	line "#mon wechseln?"
+	line "#MON wechseln?"
 	done
 
 BattleText_EnemySentOut:
@@ -1360,12 +1360,12 @@ IdentifiedText:
 	prompt
 
 StartPerishSongText:
-	text "Beide #mon in"
+	text "Beide #MON in"
 	line "3 Runden K.O.!"
 	prompt
 
 StartPerishBodyText:
-	text "Beide #mon in"
+	text "Beide #MON in"
 	line "3 Runden K.O.!"
 	prompt
 
@@ -1692,7 +1692,7 @@ CarrieFinalPkmnText:
 JackyFinalPkmnText:
 EunaFinalPkmnText:
 	text "Ich hab noch ein"
-	line "#mon!"
+	line "#MON!"
 	prompt
 
 FalknerFinalPkmnText:
@@ -1702,10 +1702,10 @@ FalknerFinalPkmnText:
 
 BugsyFinalPkmnText:
 	text "Auch wenn's mein"
-	line "letztes #mon"
+	line "letztes #MON"
 	cont "ist,"
 
-	para "Käfer-#mon sind"
+	para "Käfer-#MON sind"
 	line "zäh!"
 	prompt
 
@@ -1739,7 +1739,7 @@ PryceFinalPkmnText:
 	prompt
 
 ClairFinalPkmnText:
-	text "Nur noch #mon?"
+	text "Nur noch #MON?"
 	line "Jetzt beginnt der"
 	cont "wahre Kampf!"
 	prompt
@@ -1876,7 +1876,7 @@ Rival2_2FinalPkmnText:
 Lyra1_1FinalPkmnText:
 	text "Du hattest wohl"
 	line "noch nie einen"
-	cont "#mon-Kampf,"
+	cont "#MON-Kampf,"
 	cont "oder?"
 
 	para "Ich könnt's"
@@ -1897,7 +1897,7 @@ Lyra1_2FinalPkmnText:
 Lyra1_3FinalPkmnText:
 	text "O.K.! Zeit für"
 	line "mein letztes"
-	cont "#mon!"
+	cont "#MON!"
 	prompt
 
 Lyra1_4FinalPkmnText:
@@ -1909,7 +1909,7 @@ Lyra1_4FinalPkmnText:
 Lyra2_1FinalPkmnText:
 	text "Du hast mich auf"
 	line "mein letztes"
-	cont "#mon gebracht…"
+	cont "#MON gebracht…"
 	prompt
 
 Proton1FinalPkmnText:
@@ -1959,7 +1959,7 @@ Ariana2FinalPkmnText:
 	prompt
 
 Giovanni1FinalPkmnText:
-	text "Mein #mon ist"
+	text "Mein #MON ist"
 	line "unbesiegbar!"
 	prompt
 
@@ -2127,7 +2127,7 @@ PiersFinalPkmnText:
 
 	para "Keine Songs… Keine"
 	line "Attacken… Keine"
-	cont "#mon!"
+	cont "#MON!"
 	prompt
 
 LarryFinalPkmnText:
@@ -2146,7 +2146,7 @@ BillFinalPkmnText:
 
 YellowFinalPkmnText:
 	text "Mein letztes"
-	line "#mon… Leih mir"
+	line "#MON… Leih mir"
 	cont "deine Kraft!"
 	prompt
 

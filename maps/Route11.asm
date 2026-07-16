@@ -37,7 +37,7 @@ GenericTrainerYoungsterOwen:
 	line "nie bedauert."
 	done
 YoungsterOwenSeenText:
-	text "Bei #mon wird"
+	text "Bei #MON wird"
 	line "nicht gemogelt."
 
 	para "Immer fair"
@@ -61,7 +61,7 @@ GenericTrainerYoungsterJason:
 	generictrainer YOUNGSTER, JASON, EVENT_BEAT_YOUNGSTER_JASON, YoungsterJasonSeenText, YoungsterJasonBeatenText
 
 	text "Im Gras werde ich"
-	line "mehr #mon"
+	line "mehr #MON"
 	cont "fangen."
 	done
 YoungsterJasonSeenText:
@@ -135,7 +135,7 @@ GenericTrainerPsychicFidel:
 
 	para "Du bist stark,"
 	line "weil du an deine"
-	cont "#mon glaubst."
+	cont "#MON glaubst."
 	done
 PsychicFidelSeenText:
 	text "Ich kann es sehen"
@@ -200,7 +200,7 @@ GenericTrainerEngineerCamden:
 	generictrainer ENGINEER, CAMDEN, EVENT_BEAT_ENGINEER_CAMDEN, .SeenText, .BeatenText
 
 	text "Eine Brücke und"
-	line "ein #mon-Team"
+	line "ein #MON-Team"
 
 	para "brauchen beide"
 	line "Wissen und"

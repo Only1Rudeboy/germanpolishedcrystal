@@ -69,7 +69,7 @@ WardenPhotoText:
 	line "einen lächelnden,"
 
 	para "alten Mann umgeben"
-	line "von #mon."
+	line "von #MON."
 	done
 
 SafariZonePhotoText:
@@ -77,7 +77,7 @@ SafariZonePhotoText:
 	line "eine große Wiese,"
 
 	para "auf der seltene"
-	line "#mon"
+	line "#MON"
 	cont "herumtollen."
 	done
 
@@ -87,5 +87,5 @@ WardensHouseCuriosText:
 	cont "und"
 
 	para "alter"
-	line "#mon-Souvenirs."
+	line "#MON-Souvenirs."
 	done

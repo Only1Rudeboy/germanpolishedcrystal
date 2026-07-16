@@ -78,10 +78,9 @@ BattleTowerOutsidePanUpHelperScript:
 	step_end
 
 BattleTowerOutsideSignText:
-	text "Kampfturm"
+	text "DUELLTURM"
 	para "Die ultimative"
-	line "Trainer-"
-	cont "Herausforderung!"
+	line "Herausforderung!"
 	done
 
 BattleTowerOutsideAnabelScript:
@@ -121,12 +120,10 @@ BattleTowerOutsideAnabelScript:
 .ChallengeText:
 	text "Sei gegrüßt… Mein"
 	line "Name ist Anabel."
-
 	para "…Du bist <PLAYER>?"
 	line "Ich hörte einige"
 	cont "Gerüchte über"
 	cont "dich…"
-
 	para "Zeig mir dein"
 	line "volles Talent…"
 	done
@@ -141,14 +138,13 @@ BattleTowerOutsideAnabelScript:
 	done
 
 .BeatenText:
-	text "Okay, ich"
+	text "O.K., ich"
 	line "verstehe…"
 	done
 
 .ItemText:
-	text "Fufufu, gut"
+	text "Hmhm… Gut"
 	line "gemacht…"
-
 	para "Nimm das bitte…"
 	done
 
@@ -156,12 +152,12 @@ BattleTowerOutsideAnabelScript:
 	text "Ich bitte dich,"
 	line "weiter zu kämpfen"
 	cont "und zu siegen."
-	para "Ich werde hier im"
-	line "Kampfturm auf dich"
-	cont "warten."
+	para "Ich warte hier im"
+	line "DUELLTURM auf"
+	cont "dich."
 	para "Bis wir uns das"
 	line "nächste Mal"
-	cont "treffen …"
+	cont "treffen…"
 	done
 
 BattleTowerOutsideYoungsterScript:
@@ -169,18 +165,19 @@ BattleTowerOutsideYoungsterScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Wow, der Kampfturm"
+	text "Wow, der DUELLTURM"
 	line "ist riesig! Mein"
-	para "Nacken tut vom"
-	line "Hochschauen weh."
+	para "Nacken ist schon"
+	line "steif, weil ich"
+	para "ständig hinauf-"
+	line "schaue."
 	done
 
 .OpenText:
-	text "Wow, der Kampfturm"
+	text "Wow, der DUELLTURM"
 	line "ist riesig!"
-	para "Da drin müssen"
-	line "viele Arten von"
-	cont "#mon sein!"
+	para "Es muss dort viele"
+	line "#MON geben!"
 	done
 
 BattleTowerOutsideBeautyScript:
@@ -188,39 +185,35 @@ BattleTowerOutsideBeautyScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Was macht man hier"
-	line "bloß?"
-	para "Nach dem Namen zu"
-	line "urteilen, sind es"
-	cont "wohl"
-	cont "#mon-Kämpfe."
+	text "Was geht denn hier"
+	line "vor sich?"
+	para "Nomen est Omen:"
+	line "Hier muss es"
+	para "um #MON-Kämpfe"
+	line "gehen."
 	done
 
 .OpenText:
 	text "Du darfst nur drei"
-	line "#mon nutzen."
-	para "Es ist so schwer,"
-	line "die drei"
-	cont "auszuwählen, die"
-	para "kämpfen sollen …"
+	line "#MON einsetzen."
+	para "Es fällt einem"
+	line "nicht leicht, drei"
+	para "#MON für den"
+	line "Kampf auszuwählen…"
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, ich hab"
-	line "mich von der"
-	cont "Arbeit"
-	cont "geschlichen."
-
-	para "Ich kann nicht"
-	line "aufgeben, bis ich"
-	cont "gewonnen hab!"
-
-	para "Ich muss einfach"
-	line "alles gewinnen!"
+	text "Hehehe, ich drücke"
+	line "mich vor der Ar-"
+	cont "beit. Ich kann"
+	para "nicht zurück, bis"
+	line "ich siege. Ich"
+	para "muss alles gewin-"
+	line "nen. Es ist ein"
+	cont "Zwang!"
 	done
 
 BattleTowerOutsideDoorsClosedText:
-	text "Die Türen des"
-	line "Kampfturms sind"
-	cont "geschlossen…"
+	text "Der DUELLTURM"
+	line "ist geschlossen…"
 	done

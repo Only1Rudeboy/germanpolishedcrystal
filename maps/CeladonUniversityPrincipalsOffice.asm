@@ -43,10 +43,10 @@ CeladonUniversityPrincipalsOfficeMatsumotoScript:
 .Text1:
 	text "Hallo, junger"
 	line "Trainer!"
-	para "Ich bin Professor"
-	line "Matsumoto."
+	para "Ich bin PROF."
+	line "MATSUMOTO."
 	para "Ich bin Rektor der"
-	line "Prismania-Uni."
+	line "PRISMANIA-UNI."
 	para "Aber du kannst"
 	line "mich Kumpel"
 	cont "nennen!"
@@ -62,9 +62,9 @@ CeladonUniversityPrincipalsOfficeSignpost1Text:
 	done
 
 CeladonUniversityPrincipalsOfficeSignpost2Text:
-	text "Ein Foto von Prof."
-	line "Matsumoto vor"
-	para "einer"
+	text "Ein Foto von"
+	line "PROF. MATSUMOTO"
+	para "vor einer"
 	line "Abschlussklasse."
 	done
 
@@ -81,5 +81,5 @@ CeladonUniversityPrincipalsOfficeBookshelfText:
 	line "Sammlung der"
 
 	para "Enzyklopädie"
-	line "#monica."
+	line "#MONica."
 	done

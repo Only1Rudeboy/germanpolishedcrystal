@@ -66,7 +66,7 @@ AdminLunaText:
 	para "Ich habe das"
 	line "ursprüngliche"
 	cont "System direkt hier"
-	cont "in Dukatia gebaut!"
+	cont "in DUKATIA gebaut!"
 	done
 
 LunaComputerScript:
@@ -77,15 +77,15 @@ LunaComputerScript:
 	cont "Notizen und Karten"
 	para "unbekannter Orte"
 	line "und ein"
-	para "Bild von Johto,"
+	para "Bild von JOHTO,"
 	line "bedeckt mit"
 	cont "Schnee."
 	done
 
 AdminFredrikText:
 	text "Fredrik: BILLs"
-	line "PC-#mon-"
-	cont "Lagerungs-System"
+	line "PC-#MON-"
+	cont "LAGERUNGS-SYSTEM"
 	cont "ist quelloffen,"
 	para "also konnte ich"
 	line "seine Datenbank"
@@ -109,12 +109,12 @@ FredrikComputerScript:
 AdminEmiText:
 	text "Emi: Hast du schon"
 	line "die Daten deines"
-	cont "#mon gesehen?"
+	cont "#MON gesehen?"
 	para "Ich komme aus der"
 	line "Beria-Region"
 	para "und bringe solche"
 	line "Oberflächen nach"
-	cont "Johto!"
+	cont "JOHTO!"
 	para "Sag Hallo, wenn du"
 	line "mal in Amethyst"
 	cont "Town bist!"
@@ -131,11 +131,11 @@ EmiComputerScript:
 
 AdminAizawaText:
 	text "Aizawa: Dialoge,"
-	line "Karten-Designs,"
+	line "Karten-Entwürfe,"
 	cont "Charakter-Sprites,"
 	cont "Trainer-Teams…"
 	para "Game Freak in"
-	line "Kanto hat Glück,"
+	line "KANTO hat Glück,"
 	para "eine ganze Firma"
 	line "dafür zu haben!"
 	done
@@ -176,14 +176,14 @@ VulcanComputerScript:
 	cont "angezeigt."
 
 	para "Es regnet in"
-	line "Johto."
+	line "JOHTO."
 	done
 
 AdminSourText:
 	text "Sour: Wie gefallen"
-	line "dir die"
-	cont "Attack-Animationen"
-	cont "im Kampf?"
+	line "dir die Attacken-"
+	cont "Animationen im"
+	cont "Kampf?"
 	para "Ich will jede"
 	line "Attacke zum"
 	cont "Vergnügen machen!"
@@ -205,7 +205,7 @@ AdminEldredScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Ein freches Mauzi"
+	text "Ein freches MAUZI"
 	line "tappt mit den"
 	cont "Pfoten auf die"
 	cont "Tastatur."

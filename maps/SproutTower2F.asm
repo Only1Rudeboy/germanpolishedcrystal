@@ -74,7 +74,7 @@ SageEdmondBeatenText:
 
 SproutTower2FStatueText:
 	text "Eine"
-	line "#mon-Statue …"
+	line "#MON-Statue …"
 	para "Sie sieht sehr"
 	line "erhaben aus."
 	done

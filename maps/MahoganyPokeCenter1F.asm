@@ -21,10 +21,10 @@ MahoganyPokeCenter1F_MapScriptHeader:
 
 PokemonJournalPryceScript:
 	setflag ENGINE_READ_PRYCE_JOURNAL
-	; PC: #mon Journal
+	; PC: #MON Journal
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: Leiter"
 	line "NORBERT!"
 	para "NORBERTs zweiter"

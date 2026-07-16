@@ -1,33 +1,38 @@
 NurseMornText:
+	; GSC-DE dump 7218
 	text "Guten Morgen!"
 	line "Willkommen im"
-	cont "#mon-Center."
+	cont "#MON-CENTER!"
 	done
 
 NurseDayText:
-	text "Hallo! Willkommen"
-	line "im #mon-Center."
+	; GSC-DE dump 7219
+	text "Guten Tag!"
+	line "Willkommen im"
+	cont "#MON-CENTER."
 	done
 
 NurseEveText:
+	; evening variant (dump nite base)
 	text "Guten Abend!"
 	line "Willkommen im"
-	cont "#mon-Center."
+	cont "#MON-CENTER."
 	done
 
 NurseNiteText:
-	text "Guten Abend! Du"
-	line "bist spät dran."
+	; GSC-DE dump 7220
+	text "Guten Abend!"
+	line "Du bist spät dran."
 
 	para "Willkommen im"
-	line "#mon-Center."
+	line "#MON-CENTER."
 	done
 
 PokeComNurseMornText:
 	text "Guten Morgen!"
 
 	para "Dies ist das"
-	line "#mon-Kommunika-"
+	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
 	cont "#Com-Center."
 	done
@@ -36,7 +41,7 @@ PokeComNurseDayText:
 	text "Hallo!"
 
 	para "Dies ist das"
-	line "#mon-Kommunika-"
+	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
 	cont "#Com-Center."
 	done
@@ -45,7 +50,7 @@ PokeComNurseEveText:
 	text "Guten Abend!"
 
 	para "Dies ist das"
-	line "#mon-Kommunika-"
+	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
 	cont "#Com-Center."
 	done
@@ -55,35 +60,40 @@ PokeComNurseNiteText:
 	line "spät zu sehen."
 
 	para "Dies ist das"
-	line "#mon-Kommunika-"
+	line "#MON-Kommunika-"
 	cont "tionscenter - oder"
 	cont "#Com-Center."
 	done
 
 NurseAskHealText:
 	text "Wir heilen deine"
-	line "#mon voll."
+	line "#MON voll."
 	cont ""
 
 	para "Sollen wir deine"
-	line "#mon heilen?"
+	line "#MON heilen?"
 	done
 
 NurseTrainerStarText:
 	text "Wir heilen deine"
-	line "#mon voll."
+	line "#MON voll."
+
 	para "Sollen wir …"
-	para "Didieser"
+
+	para "Dieser"
 	line "Trainerausweis!"
+
 	para "Diese tolle"
 	line "Farbe! Und dieser"
 	cont "glänzende Stern!"
+
 	para "Du bist ein"
 	line "beeindruckender"
 	cont "Trainer."
+
 	para "Bitte, <PLAYER>,"
 	line "darf ich deine"
-	cont "#mon heilen?"
+	cont "#MON heilen?"
 	done
 
 NurseTheUsualText:
@@ -97,14 +107,14 @@ NurseTheUsualText:
 
 NurseTakePokemonText:
 	text "O.K., darf ich"
-	line "deine #mon"
+	line "deine #MON"
 	cont "sehen?"
 	done
 
 NurseReturnPokemonText:
 	text "Danke fürs"
 	line "Warten."
-	para "Deine #mon sind"
+	para "Deine #MON sind"
 	line "vollständig"
 	cont "geheilt."
 	done
@@ -115,27 +125,27 @@ NurseGoodbyeText:
 	done
 
 NursePokerusText:
-	text "Deine #mon"
+	text "Deine #MON"
 	line "scheinen von"
 	para "winzigen"
 	line "Lebewesen"
 	cont "befallen."
-	para "Deine #mon sind"
+	para "Deine #MON sind"
 	line "gesund und"
 	cont "scheinen fit."
 	para "Aber wir können"
 	line "dir in einem"
-	para "#mon-Center"
+	para "#MON-CENTER"
 	line "nicht mehr sagen."
 	done
 
 PokeComNursePokerusText:
-	text "Deine #mon"
+	text "Deine #MON"
 	line "scheinen von"
 	para "winzigen"
 	line "Lebewesen"
 	cont "befallen."
-	para "Deine #mon sind"
+	para "Deine #MON sind"
 	line "gesund und"
 	cont "scheinen fit."
 	para "Aber mehr können"
@@ -150,28 +160,28 @@ DifficultBookshelfText:
 
 PictureBookshelfText:
 	text "Eine ganze"
-	line "Sammlung #mon-"
+	line "Sammlung #MON-"
 	cont "Bilderbücher!"
 	done
 
 MagazineBookshelfText:
-	text "#mon-Magazine…"
-	line "#mon-Freund,"
+	text "#MON-Magazine…"
+	line "#MON-Freund,"
 
-	para "#mon-Handbuch,"
-	line "#mon-Graph…"
+	para "#MON-Handbuch,"
+	line "#MON-Graph…"
 	done
 
 TeamRocketOathText:
 	text "Team Rocket Eid"
 
-	para "Stiehl #mon für"
+	para "Stiehl #MON für"
 	line "Profit!"
 
-	para "Nutze #mon für"
+	para "Nutze #MON für"
 	line "Profit aus!"
 
-	para "Alle #mon leben"
+	para "Alle #MON leben"
 	line "für den Ruhm von"
 	cont "Team Rocket!"
 	done
@@ -181,8 +191,8 @@ IncenseBurnerText:
 	done
 
 MerchandiseShelfText:
-	text "Viel #mon-"
-	line "Merchandise!"
+	text "Viele #MON-"
+	line "Artikel!"
 	done
 
 TownMapText:
@@ -230,21 +240,24 @@ TrashCanText:
 	done
 
 PokeCenterSignText:
-	text "Heile dein #mon"
-	line "#mon Center"
+	; GSC-DE dump 7245-style
+	text "Lass deine"
+	line "#MON in einem"
+	cont "#MON-CENTER"
+	cont "heilen!"
 	done
 
 MartSignText:
 	text "Für alle deine"
-	line "#mon-"
+	line "#MON-"
 	cont "Bedürfnisse"
 
-	para "#mon Markt"
+	para "#MON-MARKT"
 	done
 
 ContestResults_ReadyToJudgeText:
 	text "Wir bewerten nun"
-	line "die #mon, die"
+	line "die #MON, die"
 	cont "du gefangen hast."
 
 	para "…… ……"
@@ -285,7 +298,7 @@ ContestResults_DidNotWinText:
 
 ContestResults_ReturnPartyText:
 	text "Wir geben dir das"
-	line "#mon zurück,"
+	line "#MON zurück,"
 
 	para "das wir hatten."
 	line "Hier, bitte!"
@@ -294,15 +307,15 @@ ContestResults_ReturnPartyText:
 ContestResults_PartyFullText:
 	text "Dein Team ist"
 	line "voll, also wurde"
-	cont "das #mon an"
+	cont "das #MON an"
 	cont "BILLs PC gesandt."
 	done
 
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
-	line "#mon-Arena"
+	line "PKMN-ARENA"
 
-	para "Leiter:"
+	para "LEITER:"
 	line ""
 	text_ram wStringBuffer4
 	done
@@ -383,12 +396,12 @@ BugContestPrizeNoRoomText:
 
 HappinessText3:
 	text "Toll! Du und dein"
-	line "#mon seid euch"
+	line "#MON seid euch"
 	cont "sehr nah!"
 	done
 
 HappinessText2:
-	text "#mon werden"
+	text "#MON werden"
 	line "freundlicher,"
 
 	para "wenn du Zeit mit"
@@ -397,7 +410,7 @@ HappinessText2:
 
 HappinessText1:
 	text "Du hast dein"
-	line "#mon nicht"
+	line "#MON nicht"
 	cont "gezähmt."
 	para "Bist du nicht"
 	line "nett, schmollt es."

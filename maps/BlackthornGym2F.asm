@@ -70,7 +70,7 @@ GenericTrainerCooltrainermCody:
 	text "Mitglieder unseres"
 	line "Drachenklans"
 	para "dürfen Drachen-"
-	line "#mon erst"
+	line "#MON erst"
 	para "einsetzen, wenn es"
 	line "unser MEISTER"
 	cont "erlaubt."
@@ -81,7 +81,7 @@ GenericTrainerCooltrainermCody:
 	text "Es ist nicht so,"
 	line "als würden wir"
 	cont "alle Drachen-"
-	cont "#mon einset-"
+	cont "#MON einset-"
 	cont "zen."
 	done
 

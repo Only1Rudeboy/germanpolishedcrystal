@@ -27,7 +27,7 @@ PokemonJournalJasmineScript:
 	setflag ENGINE_READ_JASMINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 	para "Spezial: JASMIN!"
 	para "Man munkelt,"
 	line "JASMIN und ERIKA"
@@ -60,7 +60,7 @@ BeautyCharlotteScript:
 .AfterText:
 	text "Wie cool ist es,"
 	line "so ein besonderes"
-	cont "#mon zu haben?"
+	cont "#MON zu haben?"
 	done
 
 .GreetingText:
@@ -70,11 +70,11 @@ BeautyCharlotteScript:
 	line "recht!"
 	para "Mein einzigartiges"
 	line "und schönes"
-	cont "#mon ist wieder"
+	cont "#MON ist wieder"
 	cont "fit."
 	para "Willst du kämpfen"
 	line "und von meinem"
-	cont "#mon begeistert"
+	cont "#MON begeistert"
 	cont "werden?"
 	done
 

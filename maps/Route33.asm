@@ -174,7 +174,7 @@ HikerAnthonyDunsparceText:
 
 SchoolgirlImogenSeenText:
 	text "Ich bin der"
-	line "#mon-Experte in"
+	line "#MON-Experte in"
 	cont "meiner Klasse."
 	done
 SchoolgirlImogenBeatenText:

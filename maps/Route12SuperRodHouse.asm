@@ -40,7 +40,7 @@ Route12SuperRodHouseFishingGuruScript:
 	cont "schiedenen Angeln"
 
 	para "auch verschiedene"
-	line "#mon fangen."
+	line "#MON fangen."
 	done
 
 .Refused:

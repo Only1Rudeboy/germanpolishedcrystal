@@ -359,7 +359,7 @@ DragonShrineElderGreetingText:
 DragonShrineQuestion1Text:
 	; GSC-DE Dump 5910
 	text "Was bedeuten dir"
-	line "#mon?"
+	line "#MON?"
 	done
 
 DragonShrineQuestion2Text:
@@ -379,14 +379,14 @@ DragonShrineQuestion4Text:
 	; GSC-DE Dump 5913
 	text "Was ist beim"
 	line "Trainieren von"
-	cont "#mon am"
+	cont "#MON am"
 	cont "wichtigsten?"
 	done
 
 DragonShrineQuestion5Text:
 	; GSC-DE Dump 5914
-	text "Starke #mon."
-	line "Schwache #mon."
+	text "Starke #MON."
+	line "Schwache #MON."
 	para "Was ist wichtiger?"
 	done
 
@@ -395,7 +395,7 @@ DragonShrinePassedTestText:
 	text "Hm… Ich verstehe…"
 	para "Du kümmerst dich"
 	line "von Herzen um"
-	cont "#mon."
+	cont "#MON."
 	para "Sehr löblich."
 	para "Überzeugung ist"
 	line "wichtig!"
@@ -403,7 +403,7 @@ DragonShrinePassedTestText:
 	line "weiter so."
 	para "Ich treffe dich"
 	line "dann bei der"
-	cont "#mon LIGA."
+	cont "#MON LIGA."
 	done
 
 DragonShrineMustIInformLanceText:
@@ -452,13 +452,13 @@ DragonShrineTakeThisDratiniText:
 
 DragonShrinePartyAndBoxFullText:
 	; GSC-DE Dump 5921
-	text "Hm? Dein #mon-"
+	text "Hm? Dein #MON-"
 	line "Team ist voll."
 	done
 
 DragonShrineSymbolicDragonText:
 	; GSC-DE Dump 5922
-	text "Drachen-#mon"
+	text "Drachen-#MON"
 	line "sind das Symbol"
 	cont "unseres Klans."
 	para "Du hast bewiesen,"
@@ -556,11 +556,11 @@ DragonShrineHereRisingBadgeText:
 DragonShrineRisingBadgeExplanationText:
 	; GSC-DE Dump 5936
 	text "Von nun an können"
-	line "deine #mon die"
+	line "deine #MON die"
 	para "Fähigkeit KASKADE"
 	line "einsetzen."
 	para "Ferner werden"
-	line "dich alle #mon"
+	line "dich alle #MON"
 	para "als Trainer"
 	line "anerkennen und dir"
 	para "bedingungslos"

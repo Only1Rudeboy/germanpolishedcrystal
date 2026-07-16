@@ -68,7 +68,7 @@ DiglettsCaveFossilManiacScript:
 	cont "Angebot für dich!"
 
 	para "Weißt du, wie"
-	line "#mon-Fossilien"
+	line "#MON-Fossilien"
 	cont "in Felsen"
 	cont "vorkommen?"
 

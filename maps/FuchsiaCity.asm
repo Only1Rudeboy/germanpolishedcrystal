@@ -87,7 +87,7 @@ FuchsiaCityPokefanFText:
 	line "für den Zoo."
 
 	para "Also wurden die"
-	line "#mon in die"
+	line "#MON in die"
 	cont "Wildnis entlassen."
 	done
 

@@ -14,7 +14,7 @@ JackAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Wie läuft's,"
+	para "Wie geht's"
 	line "<PLAYER>?"
 	done
 
@@ -29,40 +29,44 @@ JackAnswerPhoneNiteText:
 	done
 
 JackGreetText:
-	text "<PLAYER>, guten"
-	line "Morgen!"
+	text "<PLAYER>,"
+	line "guten Morgen!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text "."
+	line "Wie geht es dir?"
 	done
 
 JackGreetDayText:
-	text "<PLAYER>, hi!"
+	text "<PLAYER>, Tach!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Schönes Wetter!"
+	text "."
+	line "Ist es heute"
+	cont "nicht schön?"
 	done
 
 JackGreetNiteText:
-	text "<PLAYER>, guten"
-	line "Abend!"
+	text "<PLAYER>,"
+	line "guten Abend!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Hast du Zeit?"
+	text "."
+	line "Hast du Zeit?"
 	done
 
 JackGenericText:
-	text "Wie gehen deine"
-	line "#mon?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
 	para "Mein "
 	text_ram wStringBuffer4
-	text "ist so neugierig,"
-	line "das"
-	para "ist ein Problem."
-	line "Vielleicht wie"
-	cont "ich …"
+	line "ist so neugierig."
+
+	para "Das ist ein Pro-"
+	line "blem. Es ist"
+	cont "ein wenig wie ich…"
 	done

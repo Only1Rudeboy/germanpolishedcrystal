@@ -84,14 +84,14 @@ SaffronHitmontopKidHouseTeacherScript:
 .Text3:
 	text "Mein Sohn hat"
 	line "endlich sein"
-	cont "Lieblings-#mon"
+	cont "Lieblings-#MON"
 	cont "getroffen."
 	done
 
 .Text1:
 	text "Mein Sohn tut so,"
 	line "als wäre er ein"
-	cont "#mon."
+	cont "#MON."
 	para "Das ist manchmal"
 	line "echt peinlich."
 	para "Vielleicht würde"

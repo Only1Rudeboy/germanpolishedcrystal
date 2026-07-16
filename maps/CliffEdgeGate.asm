@@ -41,7 +41,7 @@ ProfOaksAide3Script:
 
 	text "Das Machoband"
 	line "hilft einem"
-	cont "#mon beim"
+	cont "#MON beim"
 	para "Kämpfen stärker zu"
 	line "werden,"
 	cont "verlangsamt es"
@@ -61,7 +61,7 @@ GenericTrainerGruntM12:
 
 	text "Im Gelben Wald"
 	line "gibt es viele"
-	cont "seltene #mon."
+	cont "seltene #MON."
 
 	para "Wir schnappen sie"
 	line "uns alle!"
@@ -79,13 +79,13 @@ ProfOaksAide3HiText:
 	line "PROF. LINDs"
 	cont "Gehilfe."
 	para "Wenn du 45"
-	line "#mon-Arten"
+	line "#MON-Arten"
 	cont "gefangen hast,"
 	para "soll ich dir ein"
 	line "Item geben."
 	para "Also, <PLAYER>,"
 	line "hast du mindestens"
-	para "45 #mon-Arten"
+	para "45 #MON-Arten"
 	line "gefangen?"
 	done
 

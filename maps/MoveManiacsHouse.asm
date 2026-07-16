@@ -45,7 +45,7 @@ MoveReminderIntroText::
 	line "Attacken-Maniac."
 
 	para "Ich bringe deinem"
-	line "#mon eine"
+	line "#MON eine"
 
 	para "Attacke wieder in"
 	line "Erinnerung,"
@@ -56,14 +56,14 @@ MoveReminderIntroText::
 
 MoveReminderPromptText::
 	text "Soll ich einem"
-	line "deiner #mon"
+	line "deiner #MON"
 	cont "eine Attacke"
 	cont "beibringen?"
 	done
 
 MoveReminderWhichMonText::
 	text "Juhu! Welches"
-	line "#mon braucht"
+	line "#MON braucht"
 	cont "Hilfe?"
 	done
 
@@ -81,13 +81,13 @@ MoveReminderNoMovesText::
 	line "gibt keine"
 
 	para "Attacke, die"
-	line "dieses #mon"
+	line "dieses #MON"
 	cont "lernen kann."
 	prompt
 
 MoveReminderCancelText::
 	text "Braucht dein"
-	line "#mon eine"
+	line "#MON eine"
 
 	para "Attacke, komm mit"
 	line "einem Goldblatt"

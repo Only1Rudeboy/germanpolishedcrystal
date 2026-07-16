@@ -15,7 +15,7 @@ NonTrainerCallerNames:
 	done
 .bill:
 	text "BILL:"
-	next1 "   #maniac"
+	next1 "   #MANIAC"
 	done
 .elm:
 	text "PROF. LIND:"

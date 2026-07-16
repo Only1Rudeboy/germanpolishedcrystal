@@ -109,12 +109,12 @@ LoreleiRematchAfterText:
 	para "Du kannst in KANTO"
 	line "mehr ORDEN"
 	cont "sammeln,"
-	para "neue #mon-Arten"
+	para "neue #MON-Arten"
 	line "fangen,"
 	para "dich und dein Team"
 	line "verbessern."
 	para "Ein"
-	line "#mon-Meister zu"
+	line "#MON-Meister zu"
 	cont "werden ist"
 	cont "Lebensarbeit."
 	done
@@ -145,7 +145,7 @@ LoreleiIntroText:
 LoreleiAfterIntroText:
 	text "LORELEI: Du nimmst"
 	line "an der"
-	para "#mon-Liga-"
+	para "#MON-Liga-"
 	line "Herausforderung"
 	cont "teil. Wie"
 	cont "ironisch."
@@ -204,7 +204,7 @@ LoreleiOneMoreBadgeText:
 	text "Geh nur weiter."
 	line "Mit einem ORDEN"
 	para "mehr kannst du die"
-	line "#mon-Liga"
+	line "#MON-Liga"
 	cont "herausfordern."
 	done
 
@@ -212,6 +212,6 @@ LoreleiAllBadgesText:
 	text "Geh nur weiter. Du"
 	line "hast genug ORDEN,"
 	para "um die"
-	line "#mon-Liga"
+	line "#MON-Liga"
 	cont "herauszufordern."
 	done

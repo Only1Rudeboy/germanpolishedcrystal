@@ -324,7 +324,7 @@ WesleyScript:
 GenericTrainerCooltrainermAaron:
 	generictrainer COOLTRAINERM, AARON, EVENT_BEAT_COOLTRAINERM_AARON, .SeenText, .BeatenText
 
-	text "#mon und ihre"
+	text "#MON und ihre"
 	line "Trainer werden"
 	cont "durch ständiges"
 	cont "Kämpfen immer"
@@ -333,7 +333,7 @@ GenericTrainerCooltrainermAaron:
 
 .SeenText:
 
-	text "#mon und ihre"
+	text "#MON und ihre"
 	line "Trainer werden"
 	cont "durch ständiges"
 	cont "Kämpfen immer"
@@ -343,7 +343,7 @@ GenericTrainerCooltrainermAaron:
 
 .BeatenText:
 
-	text "#mon und ihre"
+	text "#MON und ihre"
 	line "Trainer werden"
 	cont "durch ständiges"
 	cont "Kämpfen immer"
@@ -380,12 +380,12 @@ GenericTrainerFisherAndre:
 	text "Ich werde mich als"
 	line "Angler beweisen."
 	cont "Ich werde tagein,"
-	cont "tagaus #mon"
+	cont "tagaus #MON"
 	cont "fangen."
 	done
 
 FisherAndreSeenText:
-	text "Lass die #mon,"
+	text "Lass die #MON,"
 	line "die ich gerade"
 	cont "gefangen habe,"
 	cont "kämpfen!"
@@ -413,7 +413,7 @@ GenericTrainerFisherRaymond:
 
 	text "Warum kann ich"
 	line "keine guten"
-	cont "#mon fangen?"
+	cont "#MON fangen?"
 	done
 
 FisherRaymondSeenText:
@@ -421,7 +421,7 @@ FisherRaymondSeenText:
 	line "ich will. Ich"
 	cont "fange immer nur"
 	cont "die gleichen"
-	cont "#mon …"
+	cont "#MON …"
 	done
 
 

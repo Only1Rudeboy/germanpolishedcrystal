@@ -1,196 +1,213 @@
 ElmPhoneStartText:
 	text "Hallo, <PLAYER>?"
+
 	para "Übertreib es"
-	line "nicht zu sehr."
-	para "Heile deine"
-	line "#mon, wenn sie"
+	line "nicht."
+
+	para "Heile deine #-"
+	line "MON, falls sie"
 	cont "verletzt sind."
 	done
 
 ElmPhoneSawMrPokemonText:
 	text "Hallo, <PLAYER>?"
-	para "Hast du Mr."
-	line "#mon getroffen?"
-	cont "Toll!"
-	para "Komm sicher"
-	line "wieder zurück!"
+
+	para "Hast du MR. #-"
+	line "MON getroffen?"
+	cont "Komm heil wieder!"
 	done
 
 ElmPhonePokemonStolenText:
 	text "<PLAYER>? Ich bin"
-	line "sehr aufgebracht."
-	para "Ein #mon wurde"
-	line "von uns"
-	cont "gestohlen."
-	para "Wie kann jemand"
-	line "so etwas tun?"
+	line "sehr verärgert."
+
+	para "Uns wurde ein"
+	line "#MON gestohlen."
+
+	para "Wie kann man so"
+	line "etwas nur tun?"
 	prompt
 
 ElmPhoneCheckingEggText:
 	text "Hallo, <PLAYER>?"
 
-	para "Wir untersuchen"
-	line "das Ei gerade. Es"
+	para "Wir überprüfen das"
+	line "EI. Es scheint"
 
-	para "scheint wirklich"
-	line "ein #mon-Ei zu"
-	cont "sein."
+	para "ein #MON-EI"
+	line "zu sein."
 	prompt
 
 ElmPhoneAssistantText:
 	text "Hallo, <PLAYER>?"
+
 	para "Hast du meinen"
 	line "Assistenten"
-	cont "gesehen? Er ist"
-	cont "im"
-	para "#mon-Center in"
-	line "Viola City."
+
+	para "getroffen? Er ist"
+	line "im #MON-CENTER"
+	cont "in VIOLA CITY."
 	done
 
 ElmPhoneEggUnhatchedText:
 	text "Hallo, <PLAYER>?"
-	para "Wie geht's dem"
-	line "Ei? Hat sich was"
-	cont "geändert?"
-	para "Wenn was"
-	line "passiert, ruf"
-	cont "mich an."
+
+	para "Was macht das EI?"
+	line "Hat es sich"
+	cont "verändert?"
+
+	para "Ruf an, falls"
+	line "etwas passiert."
 	prompt
 
 ElmPhoneEggHatchedText:
 	text "Hallo, <PLAYER>?"
-	line "Wie geht's dem"
-	cont "Ei?"
-	para "Was? Es ist"
-	line "geschlüpft? Toll!"
-	cont "Was"
-	para "für ein #mon"
-	line "ist es? Komm und"
-	cont "zeig es mir!"
+	line "Was macht das EI?"
+
+	para "Wie? Es ist"
+	line "geschlüpft? Wow!"
+
+	para "Was für ein"
+	line "#MON ist es?"
+
+	para "Komm und zeige es"
+	line "mir bitte!"
 	prompt
 
 ElmPhoneDiscovery1Text:
 	text "Hallo, <PLAYER>?"
 
-	para "Ich habe gerade"
-	line "etwas Neues"
-	cont "entdeckt."
+	para "Ich habe soeben"
+	line "eine neue Ent-"
+	cont "deckung gemacht."
 
-	para "Die Zeit, bis ein"
-	line "Ei schlüpft,"
+	para "Die Zeit, bis es"
+	line "aus dem EI"
 
-	para "hängt vom #mon"
-	line "ab."
+	para "schlüpft, hängt"
+	line "vom #MON ab."
 	prompt
 
 ElmPhoneDiscovery2Text:
 	text "Hallo, <PLAYER>?"
 
-	para "Es ist noch ein"
-	line "Rätsel, welche"
+	para "Es ist noch nicht"
+	line "gelöst, welche"
 
-	para "Attacken"
-	line "geschlüpfte"
-	cont "#mon haben."
+	para "Attacken junge"
+	line "#MON haben."
 
-	para "Wir forschen"
-	line "gerade daran."
+	para "Das untersuchen"
+	line "wir jetzt."
 	prompt
 
 ElmPhonePokerusText:
 	text "Hallo, <PLAYER>?"
+
 	para "Ich habe etwas"
 	line "Seltsames"
 	cont "entdeckt."
-	para "Anscheinend gibt"
-	line "es etwas namens"
-	para "#rus, das"
-	line "#mon befällt."
-	para "Ja, wie ein"
-	line "Virus, daher"
-	cont "#rus."
+
+	para "Scheinbar gibt es"
+	line "einen sogenannten"
+
+	para "#RUS, der"
+	line "#MON infiziert."
+
+	para "Es ist eine Art"
+	line "Virus und wird"
+
+	para "daher #RUS"
+	line "genannt."
+
 	para "Es vermehrt sich"
-	line "schnell und"
-	cont "befällt"
-	para "andere #mon."
-	line "Aber das war's"
-	cont "auch."
-	para "Es scheint nichts"
-	line "zu tun und geht"
-	cont "mit"
-	para "der Zeit wieder"
-	line "weg."
+	line "rapide und infi-"
+	cont "ziert andere #-"
+	cont "MON. Das ist"
+	cont "alles."
+
+	para "Es scheint keine"
+	line "Auswirkungen zu"
+
+	para "haben und ver-"
+	line "schwindet nach"
+	cont "einiger Zeit."
+
 	para "Ich denke, man"
-	line "muss sich keine"
-	para "Sorgen machen."
-	line "Tschüss!"
+	line "braucht sich"
+
+	para "darüber keine"
+	line "Sorgen zu machen!"
 	done
 
 ElmPhoneDisasterText:
 	text "H-hallo? <PLAYER>?"
-	line "Das ist eine"
-	cont "Katastrophe!"
+	line "Welch Unglück!"
 
-	para "Äh, ähm, es ist"
+	para "Uh, um, es ist"
 	line "schrecklich!"
 
 	para "Was soll ich tun?"
-	line "Es… Oh nein…"
+	line "Es… oh, nein…"
 
-	para "Komm sofort"
+	para "Bitte komm schnell"
 	line "zurück!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hallo, <PLAYER>!"
+	text "Hallo, <PLAYER>?"
 	line "Wir haben etwas"
-	cont "über"
-	para "das Ei"
+
+	para "über das EI"
 	line "herausgefunden!"
-	para "Mein Assistent"
-	line "ist im #mon"
-	cont "-Center"
-	para "in Viola City."
-	line "Kannst du mit ihm"
-	cont "reden?"
+
+	para "Mein Assistent ist"
+	line "im #MON-CENTER"
+
+	para "von VIOLA CITY."
+	line "Sprich doch bitte"
+	cont "mit ihm?"
 	done
 
 ElmPhoneRocketText:
 	text "<PLAYER>, wie"
-	line "läuft es?"
+	line "stehen die Dinge?"
 
-	para "Ich rief an, weil"
-	line "etwas Seltsames"
-	cont "mit"
+	para "Ich rufe an, weil"
+	line "etwas Merkwürdiges"
 
-	para "den Radioübertra-"
-	line "gungen passiert."
+	para "mit den Radiosen-"
+	line "dungen geschieht."
 
-	para "Sie sprachen von"
-	line "Team Rocket."
+	para "Sie redeten über"
+	line "TEAM ROCKET."
 
-	para "<PLAYER>, weißt du"
-	line "etwas darüber?"
+	para "<PLAYER>, weißt"
+	line "du etwas darüber?"
 
-	para "Vielleicht ist"
-	line "Team Rocket"
-	cont "zurück. Nein,"
+	para "Vielleicht feiert"
+	line "TEAM ROCKET ein"
 
-	para "das kann nicht"
-	line "stimmen."
+	para "Comeback. Nein,"
+	line "das ist nicht"
+	cont "wahr."
 
-	para "Tut mir leid, dass"
-	line "ich nervte. Pass"
-	cont "auf!"
+	para "Sorry für die"
+	line "Belästigung. Pass"
+	cont "auf dich auf!"
 	done
 
 ElmPhoneGiftText:
 	text "Hallo, <PLAYER>?"
-	para "Ich habe etwas"
-	line "für dich."
-	para "Kannst du in mein"
-	line "Labor kommen?"
-	para "Bis bald!"
+
+	para "Ich habe hier"
+	line "etwas für dich."
+
+	para "Schaust du mal in"
+	line "meinem LABOR"
+	cont "vorbei?"
+
+	para "Bis später!"
 	done
 
 ElmPhoneEvolutionQuestionText:
@@ -199,7 +216,7 @@ ElmPhoneEvolutionQuestionText:
 	cont "du"
 
 	para "wissen, wie dein"
-	line "#mon sich"
+	line "#MON sich"
 	cont "entwickelt?"
 	done
 
@@ -566,6 +583,7 @@ ElmPhoneEvoText_DunsparceSegments:
 	text "Manche werden"
 	line "länger als"
 	cont "andere."
+
 	para "Das liegt einfach"
 	line "in ihren Genen."
 	prompt

@@ -1,7 +1,6 @@
 GavenAnswerPhoneText:
-	text "Hallo, hier"
-	line "spricht"
-	cont ""
+	text "Hallo, hier ist"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -10,9 +9,8 @@ GavenAnswerPhoneText:
 	done
 
 GavenAnswerPhoneDayText:
-	text "Hallo, hier"
-	line "spricht"
-	cont ""
+	text "Hallo, hier ist"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -20,9 +18,8 @@ GavenAnswerPhoneDayText:
 	done
 
 GavenAnswerPhoneNiteText:
-	text "Hallo, hier"
-	line "spricht"
-	cont ""
+	text "Hallo, hier ist"
+	line ""
 	text_ram wStringBuffer3
 	text "…"
 
@@ -31,42 +28,44 @@ GavenAnswerPhoneNiteText:
 	done
 
 GavenGreetText:
-	text "<PLAYER>, guten"
-	line "Morgen!"
+	text "<PLAYER>,"
+	line "guten Morgen!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text "."
+	line "Wie geht es dir?"
 	done
 
 GavenGreetDayText:
 	text "Hi, <PLAYER>!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text "."
+	line "Alles in Butter?"
 	done
 
 GavenGreetNiteText:
-	text "<PLAYER>, guten"
-	line "Abend!"
+	text "<PLAYER>,"
+	line "guten Abend!"
 
-	para "Ich bin's, "
+	para "Ich, "
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text "."
+	line "Alles paletti?"
 	done
 
 GavenGenericText:
-	text "Wie gehen deine"
-	line "#mon?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
-	para "Mein"
-	line ""
+	para "Meinem "
 	text_ram wStringBuffer4
-	cont "ist topfit wie"
-	cont "immer."
+	line "geht es wie immer"
+	cont "hervorragend."
 
-	para "Weiter so, bis"
-	line "#mon-Champs"
-	cont "sind!"
+	para "Lass uns am Ball"
+	line "bleiben und #-"
+	cont "MON-CHAMPS werden!"
 	done

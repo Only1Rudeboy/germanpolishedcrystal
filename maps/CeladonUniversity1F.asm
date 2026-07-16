@@ -50,7 +50,7 @@ CeladonUniversity1FSuperNerdText:
 	cont "unserem."
 	para "Heißt das, es gibt"
 	line "ein Universum ohne"
-	para "#mon?"
+	para "#MON?"
 	para "Das wäre tragisch!"
 	done
 
@@ -59,18 +59,18 @@ CeladonUniversity1FLassText:
 	line "in allem, von"
 	para "Blumenstecken bis"
 	line "hin zu"
-	para "#mon-"
+	para "#MON-"
 	line "Psychologie!"
 	done
 
 CeladonUniversity1FCooltrainermText:
 	text "Hier ist jeder ein"
-	line "#mon-Trainer."
+	line "#MON-Trainer."
 	para "Um hier"
 	line "aufgenommen zu"
 	cont "werden, muss man"
 	para "eine Reihe von"
-	line "#mon-Kämpfen"
+	line "#MON-Kämpfen"
 	cont "bestehen."
 	done
 
@@ -85,7 +85,7 @@ CeladonUniversity1FYoungsterText:
 	done
 
 CeladonUniversity1FChildText:
-	text "Ugh! Ich finde"
+	text "Argh! Ich finde"
 	line "meine Klasse"
 	cont "nicht…"
 
@@ -102,7 +102,7 @@ CeladonUniversity1FPokefanmText:
 
 CeladonUniversity1FReceptionistText:
 	text "Willkommen an der"
-	line "Prismania-Uni!"
+	line "PRISMANIA-UNI!"
 	para "Klassenzimmer und"
 	line "das Rektorat sind"
 	cont "den Flur entlang."
@@ -117,12 +117,13 @@ CeladonUniversity1FReceptionistText:
 
 CeladonUniversity1FCooltrainerfText:
 	text "Ich lerne, eine"
-	line "#mon-Schwester"
-	cont "zu werden."
+	line "#MON-"
+	cont "Schwester zu"
+	cont "werden."
 
 	para "Bei so vielen"
-	line "Spezies ist die"
-	cont "Lernkurve steil!"
+	line "Arten ist das"
+	cont "ganz schön viel!"
 	done
 
 CeladonUniversity1FPrincipalsOfficeSignText:

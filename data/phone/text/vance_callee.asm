@@ -1,78 +1,82 @@
 VanceAnswerPhoneText:
-	text "Ja, hallo?"
-	line ""
+	text "Ja, hallo? Hier"
+	line "ist "
 	text_ram wStringBuffer3
-	text " hier!"
+	text "!"
 
-	para "Morgen, <PLAYER>!"
+	para "Moin, <PLAYER>!"
 
-	para "Nutzt du Vogel-"
-	line "#mon?"
+	para "Setzt du Vogel-"
+	line "#MON ein?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Ja, hallo?"
-	line ""
+	text "Ja, hallo? Hier"
+	line "ist "
 	text_ram wStringBuffer3
-	text " hier!"
+	text "!"
 
-	para "Hi, <PLAYER>!"
+	para "Moin, <PLAYER>!"
 
 	para "Fliegen deine"
-	line "Vogel-#mon?"
+	line "Vogel-#MON?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Ja, hallo?"
-	line ""
+	text "Ja, hallo? Hier"
+	line "ist "
 	text_ram wStringBuffer3
-	text " hier!"
+	text "!"
 
-	para "Abend, <PLAYER>!"
-	line "Lässt du deine"
+	para "N'Abend, <PLAYER>!"
+	line "Dürfen sich deine"
 
-	para "Vogel-#mon"
-	line "fliegen?"
+	para "Vogel-#MON wil-"
+	line "de Sachen ansehen?"
 	done
 
 VanceGreetText:
 	text "Guten Morgen,"
 	line "<PLAYER>!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text "! Guten Morgen!"
+	text " hier!"
+	line "Guten Morgen!"
 	done
 
 VanceGreetDayText:
 	text "Hi, <PLAYER>!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text "! Erinnerst du"
-	line "dich?"
+	text " hier!"
+	line "Erinnerst du dich?"
 	done
 
 VanceGreetNiteText:
 	text "Guten Abend,"
 	line "<PLAYER>!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text "! Hast du Zeit?"
+	text " hier!"
+	line "Hast du Zeit?"
 	done
 
 VanceGenericText:
 	text "Geht es dir und"
-	line "deinen #mon"
+	line "deinen #MON"
 	cont "gut?"
 
-	para "Mein"
-	line ""
+	para "Mein "
 	text_ram wStringBuffer4
-	cont "wird stark"
-	cont "genug für die"
+	line "scheint so stark"
 
-	para "legendären Vogel-"
-	line "#mon!"
+	para "werden zu wollen,"
+	line "dass es das legen-"
+	cont "däre VOGEL-#MON"
+
+	para "herausfordern und"
+	line "besiegen möchte!"
 	done

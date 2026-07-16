@@ -107,7 +107,7 @@ ShamoutiHotel1FLadyText:
 	para "In Alola, woher"
 	line "ich komme, gibt es"
 	cont "einen Mann,"
-	para "der deinem #mon"
+	para "der deinem #MON"
 	line "Hyper-Training"
 	cont "geben kann--und"
 	para "so sein volles"

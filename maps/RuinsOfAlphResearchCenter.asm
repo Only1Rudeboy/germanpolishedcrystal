@@ -173,7 +173,7 @@ RuinsOfAlphResearchCenterScientist1Script:
 .UnownAppeared:
 	jumpthisopenedtext
 
-	text "Es gibt #mon in"
+	text "Es gibt #MON in"
 	line "den RUINEN?"
 	para "Das sind"
 	line "unfassbare"
@@ -186,7 +186,7 @@ RuinsOfAlphResearchCenterScientist1Script:
 	jumpthisopenedtext
 
 	text "Ich frage mich,"
-	line "wie viele #mon"
+	line "wie viele #MON"
 	cont "wohl in den RUINEN"
 	cont "leben?"
 	done
@@ -222,7 +222,7 @@ RuinsOfAlphResearchCenterScientist2Script:
 	jumpthisopenedtext
 
 	text "Die seltsamen"
-	line "#mon in den"
+	line "#MON in den"
 	cont "RUINEN?"
 
 	para "Sie ähneln den"
@@ -389,7 +389,7 @@ RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
 	para "Es scheint, als ob"
 	line "die RUINEN als"
 	para "Habitat für"
-	line "#mon gebaut"
+	line "#MON gebaut"
 	cont "wurden."
 	done
 
@@ -418,7 +418,7 @@ RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	text "Geheimnisvolles"
-	line "#mon Name:"
+	line "#MON Name:"
 	cont "ICOGNITO"
 
 	para "Insgesamt "

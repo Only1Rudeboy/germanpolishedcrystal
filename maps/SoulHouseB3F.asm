@@ -52,7 +52,7 @@ SoulHouseB3FMrFujiScript:
 .Text2:
 	text "Benutze es, um"
 	line "ruhelose"
-	cont "#mon-Seelen zu"
+	cont "#MON-Seelen zu"
 	cont "beruhigen."
 	done
 

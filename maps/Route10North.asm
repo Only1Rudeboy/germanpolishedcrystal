@@ -279,7 +279,7 @@ Route10NorthLawrenceZapdosText:
 	line "ich dir dieses"
 	cont "legen-"
 
-	para "däre #mon zum"
+	para "däre #MON zum"
 	line "Fangen."
 
 	para "Ich habe kein"
@@ -329,7 +329,7 @@ Route10NorthLawrenceSpeechText:
 	cont "Shamouti-Insel."
 	para "Ich zeige dir,"
 	line "dass ich diese"
-	cont "#mon verdient"
+	cont "#MON verdient"
 	cont "habe."
 	done
 

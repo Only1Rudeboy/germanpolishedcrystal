@@ -56,7 +56,7 @@ ViridianGymBlueScript:
 	text "TM71 enthält"
 	line "Steinkante."
 	para "Nicht nur für"
-	line "Gesteins-#mon,"
+	line "Gesteins-#MON,"
 	cont "verstanden?"
 	para "Mit acht ORDEN aus"
 	line "KANTO kannst"
@@ -279,7 +279,7 @@ CooltrainerfBonitaSeenText:
 	done
 
 CooltrainerfBonitaBeatenText:
-	text "All meine #mon…"
+	text "All meine #MON…"
 
 	para "Alle schwindelig"
 	line "und ohnmächtig…"

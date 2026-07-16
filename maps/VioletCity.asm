@@ -218,7 +218,7 @@ VioletCityLassText:
 	text "Man sagt, dass im"
 	line "KNOFENSA-TURM"
 	cont "Geister umgehen."
-	para "#mon-Attacken"
+	para "#MON-Attacken"
 	line "des Typs Normal"
 	cont "zeigen bei"
 	para "Geistern keine"
@@ -233,7 +233,7 @@ VioletCityLassText:
 
 VioletCityCooltrainerM1Text:
 	text "Hey, bist du ein"
-	line "#mon-Trainer?"
+	line "#MON-Trainer?"
 	para "Schlägst du den"
 	line "hiesigen"
 	cont "ARENA-LEITER, dann"
@@ -243,7 +243,7 @@ VioletCityCooltrainerM1Text:
 	done
 VioletCityCooltrainerFText:
 	text "Knofensa ist ein"
-	line "beliebtes #mon"
+	line "beliebtes #MON"
 	cont "in dieser Stadt."
 	para "Gegen unseren"
 	line "Arenaleiter"
@@ -305,7 +305,7 @@ VioletCityCooltrainerM2Text:
 	cont "hier."
 	para "Selbst der Markt"
 	line "und das"
-	cont "#mon-Center"
+	cont "#MON-Center"
 	cont "sind"
 	para "gedämpft bemalt,"
 	line "damit sie sich"

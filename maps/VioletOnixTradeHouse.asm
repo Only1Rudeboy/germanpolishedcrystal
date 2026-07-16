@@ -16,7 +16,7 @@ VioletOnixTradeHouse_MapScriptHeader:
 	object_event  6,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, trade, NPC_TRADE_KYLE, -1
 
 VioletKylesHousePokefanMText:
-	text "Ein #mon, das"
+	text "Ein #MON, das"
 	line "durch Tausch"
 	cont "erhalten hast,"
 	cont "wird schneller"

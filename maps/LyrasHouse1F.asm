@@ -42,7 +42,7 @@ LyrasDadScript:
 
 	para "Sie spielt wie"
 	line "immer mit ihren"
-	cont "#mon."
+	cont "#MON."
 	done
 
 .LyraTraining

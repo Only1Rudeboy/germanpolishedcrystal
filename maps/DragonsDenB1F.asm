@@ -126,7 +126,7 @@ DragonsDenB1FClairTrigger:
 DragonsDenShrineSignText:
 	text "DRACHENSCHREIN"
 	para "Der Schrein ehrt"
-	line "die #mon, die"
+	line "die #MON, die"
 	cont "früher"
 	para "in der"
 	line "DRACHEN-HÖHLE"
@@ -193,7 +193,7 @@ DragonsDenB1FRivalScript:
 
 .GiveEggText:
 	text "… Hör zu."
-	para "Das #mon, das"
+	para "Das #MON, das"
 	line "ich … aus dem"
 	cont "Labor …"
 	para "mitnahm, hatte ein"
@@ -221,7 +221,7 @@ DragonsDenB1FRivalScript:
 	para "…Nein, ich möchte"
 	line "jetzt nicht mit"
 	cont "dir kämpfen…"
-	para "Meine #mon sind"
+	para "Meine #MON sind"
 	line "noch nicht bereit,"
 	cont "dich zu schlagen."
 	para "Ich darf sie nicht"
@@ -231,7 +231,7 @@ DragonsDenB1FRivalScript:
 	line "disziplinierter"
 	cont "sein, wenn ich der"
 	cont "weltbeste"
-	cont "#mon-Trainer"
+	cont "#MON-Trainer"
 	cont "werden will…"
 	done
 .Training2Text:
@@ -459,7 +459,7 @@ KimonoGirlMinaScript:
 	cont "wenigsten!"
 
 	para "Ich fordere dich"
-	line "und deine #mon"
+	line "und deine #MON"
 	cont "heraus!"
 	done
 

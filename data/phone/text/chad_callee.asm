@@ -15,7 +15,7 @@ ChadAnswerPhoneDayText:
 	text "…"
 
 	para "Hi, <PLAYER>,"
-	line "schönen Tag!"
+	line "guten Tag!"
 	done
 
 ChadAnswerPhoneNiteText:
@@ -32,41 +32,48 @@ ChadGreetText:
 	text "Hi, <PLAYER>,"
 	line "guten Morgen!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text " hier."
+	line "Wie geht es dir?"
 	done
 
 ChadGreetDayText:
 	text "Hi, <PLAYER>,"
-	line "schönen Tag!"
+	line "guten Tag!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text " hier."
+	line "Wie geht es dir?"
 	done
 
 ChadGreetNiteText:
 	text "Hi, <PLAYER>,"
 	line "guten Abend!"
 
-	para "Ich bin's, "
+	para ""
 	text_ram wStringBuffer3
-	text ". Wie geht's?"
+	text " hier."
+	line "Wie geht es dir?"
 	done
 
 ChadGenericText:
-	text "Wie gehen deine"
-	line "#mon?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
-	para "Du kennst"
-	line "PROF. EICH, also"
-	cont "sind deine"
+	para "Du kennst PROF."
+	line "EICH, also geht es"
+	cont "deinen #MON"
+	cont "gut!"
 
-	para "#mon bestimmt"
-	line "top! Meine auch."
+	para "Meinen #MON"
+	line "geht es auch gut."
 
-	para "Ich will #mon-"
-	line "Professor werden,"
-	cont "also kein Wunder."
+	para "Aber ich möchte ja"
+	line "auch ein #MON-"
+	cont "Professor werden,"
+
+	para "also ist das keine"
+	line "Überraschung."
 	done

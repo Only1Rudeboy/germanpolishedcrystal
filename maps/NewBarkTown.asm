@@ -278,12 +278,12 @@ Text_WhatDoYouThinkYoureDoing:
 
 Text_ItsDangerousToGoAlone:
 	text "Es ist gefährlich,"
-	line "ohne #mon das"
+	line "ohne #MON das"
 	cont "Haus zu verlassen!"
 	para "Auf dem Weg zur"
 	line "nächsten Stadt"
 	para "können jederzeit"
-	line "wilde #mon"
+	line "wilde #MON"
 	cont "auftauchen."
 	done
 
@@ -294,7 +294,7 @@ Text_ItsDangerousToGoAlone:
 
 
 Text_YourMonIsAdorable:
-	text "Oh! Dein #mon"
+	text "Oh! Dein #MON"
 	line "ist bezaubernd!"
 
 	para "Ich wünschte, ich"
@@ -343,7 +343,7 @@ Text_ElmDiscoveredNewMon:
 
 	para "Ich habe gehört,"
 	line "PROF. LIND hat"
-	cont "neue #mon"
+	cont "neue #MON"
 	cont "entdeckt."
 	done
 
@@ -389,7 +389,7 @@ Text_LyraIntro:
 	line "LIND manchmal,"
 	cont "weißt du noch?"
 	para "Er startet neue"
-	line "#mon-Forschung"
+	line "#MON-Forschung"
 	para "und möchte, dass"
 	line "wir beide helfen."
 	para "Komm, wir schauen"
@@ -435,12 +435,12 @@ Text_LyraGoodbye2:
 	para "Man merkt, wie"
 	line "viel Arbeit und"
 	cont "Liebe du in deine"
-	cont "#mon gesteckt"
+	cont "#MON gesteckt"
 	cont "hast."
 	para "… Also, das ist"
 	line "Abschied."
 	para "Du schaffst die"
-	line "#mon-Liga!"
+	line "#MON-Liga!"
 	para "Du wirst ein"
 	line "großartiger"
 	cont "Champion!"

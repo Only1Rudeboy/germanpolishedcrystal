@@ -22,7 +22,7 @@ GenericTrainerFisherKyle:
 	text "Das Reißen an der"
 	line "ANGEL, wenn du"
 
-	para "ein #mon"
+	para "ein #MON"
 	line "fangen möchtest…"
 
 	para "Das ist das"

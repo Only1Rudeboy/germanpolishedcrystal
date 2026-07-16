@@ -1,44 +1,47 @@
 KenjiAnswerPhoneText:
+	text "Ich, "
 	text_ram wStringBuffer3
-	text " hier…"
+	text "…"
 
 	para "<PLAYER>! Schöner"
-	line "Morgen, was?"
+	line "Morgen, oder?"
 	done
 
 KenjiAnswerPhoneDayText:
+	text "Ich, "
 	text_ram wStringBuffer3
-	text " hier…"
+	text "…"
 
 	para "<PLAYER>! Schönes"
-	line "Wetter, was?"
+	line "Wetter, oder?"
 	done
 
 KenjiAnswerPhoneNiteText:
+	text "Ich, "
 	text_ram wStringBuffer3
-	text " hier…"
+	text "…"
 
-	para "<PLAYER>! Schönes"
-	line "Mondlicht, was?"
+	para "<PLAYER>! Schöner"
+	line "Mondschein, oder?"
 	done
 
 KenjiGreetText:
-	text "Hey, <PLAYER>! Ich"
-	line "bin's, "
+	text "Heh, <PLAYER>!"
+	line ""
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 	done
 
 KenjiGreetDayText:
-	text "Hey, <PLAYER>! Ich"
-	line "bin's, "
+	text "Heh, <PLAYER>!"
+	line ""
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 	done
 
 KenjiGreetNiteText:
-	text "Hey, <PLAYER>! Ich"
-	line "bin's, "
+	text "Heh, <PLAYER>!"
+	line ""
 	text_ram wStringBuffer3
-	text "!"
+	text ", hallo!"
 	done

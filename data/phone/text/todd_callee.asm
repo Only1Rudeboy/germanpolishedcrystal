@@ -4,7 +4,7 @@ ToddAnswerPhoneText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Hey, <PLAYER>!"
+	para "Heh, <PLAYER>!"
 	done
 
 ToddAnswerPhoneDayText:
@@ -13,8 +13,8 @@ ToddAnswerPhoneDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "Das muss <PLAYER>"
-	line "sein."
+	para "Wenn das nicht"
+	line "<PLAYER> ist!"
 	done
 
 ToddAnswerPhoneNiteText:
@@ -32,7 +32,7 @@ ToddGreetText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, oder?"
+	para "<PLAYER>, richtig?"
 	done
 
 ToddGreetDayText:
@@ -42,7 +42,7 @@ ToddGreetDayText:
 	text "."
 
 	para "<PLAYER>, was"
-	line "machst du?"
+	line "machst du gerade?"
 	done
 
 ToddGreetNiteText:
@@ -51,18 +51,21 @@ ToddGreetNiteText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, tut mir"
-	line "leid für den"
-	cont "späten Anruf."
+	para "<PLAYER>, ent-"
+	line "schuldige die"
+	cont "späte Störung."
 	done
 
 ToddGenericText:
-	text "Wie züchtest du"
-	line "deine #mon?"
+	text "Wie trainierst du"
+	line "deine #MON?"
 
-	para "Ich mache alles:"
-	line "Hort, Items zum"
+	para "Ich probiere alles"
+	line "Mögliche aus. Ich"
 
-	para "Stärken und so"
-	line "weiter."
+	para "gebe sie in die"
+	line "PENSION und stärke"
+
+	para "sie, indem ich"
+	line "Items einsetze."
 	done

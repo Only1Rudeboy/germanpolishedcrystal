@@ -22,7 +22,7 @@ PokemonJournalLanceScript:
 	setflag ENGINE_READ_LANCE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Champ"
 	line "Dragoran!"
@@ -61,7 +61,7 @@ SilverCavePokeCenterGrampsScript:
 
 	text "Du hast keine"
 	line "gelesen? Schade."
-	para "In #mon-Centern"
+	para "In #MON-Centern"
 	line "stehen die meisten"
 	para "im Regal, aber"
 	line "echte Fans wie ich"
@@ -82,7 +82,7 @@ SilverCavePokeCenterGrampsScript:
 	line "nicht nur Deko."
 
 	para "Er stärkt deine"
-	line "#mon, wenn sie"
+	line "#MON, wenn sie"
 	cont "ihn tragen."
 	done
 
@@ -92,7 +92,7 @@ SilverCavePokeCenterGrampsScript:
 	cont "talentierter"
 	cont "Trainer."
 	para "Heute lese ich nur"
-	line "im #mon Journal"
+	line "im #MON Journal"
 	cont "über andere."
 	para "Liest du auch das"
 	line "Journal?"

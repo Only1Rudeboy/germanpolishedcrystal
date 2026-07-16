@@ -44,8 +44,8 @@ BattleFactory1FContinueChallenge:
 	; We saved in-between rounds. Resume Battle Factory challenge.
 	opentext
 	writethistext
-		text "Wir haben auf dich"
-		line "gewartet."
+		text "Wir haben dich er-"
+		line "wartet."
 		prompt
 
 	sdefer Script_ReturnToRentalChallenge
@@ -59,15 +59,15 @@ BattleFactory1FContinueChallenge:
 .LeftWithoutSaving2:
 	opentext
 	writethistext
-		text "Entschuldige! Du"
-		line "hast nicht vor dem"
-		cont "Verlassen des"
-		para "Kampfraums"
-		line "gespeichert."
-		para "Es tut mir leid,"
-		line "aber dein Versuch"
-		para "wird für ungültig"
-		line "erklärt."
+		text "Entschuldigung!"
+		line "Du hast vor Ver-"
+		cont "lassen des Kampf-"
+		cont "felds vergessen"
+		cont "zu SICHERN."
+		para "Es tut mir Leid,"
+		line "aber deine Heraus-"
+		cont "forderung wird für"
+		cont "ungültig erklärt."
 		done
 	waitbutton
 	sjumpfwd Script_CommitBattleFactoryResult
@@ -84,13 +84,10 @@ BattleFactory1FContinueChallenge:
 	opentext
 	writethistext
 		text "Glückwunsch!"
-
-		para "Du hast alle"
-		line "Trainer besiegt!"
-
-		para "Dafür bekommst du"
-		line "diesen tollen"
-		cont "Preis!"
+		para "Du hast alle Trai-"
+		line "ner besiegt! Dafür"
+		para "erhältst du einen"
+		line "Preis!"
 		prompt
 	verbosegiveitem MINT_LEAF
 	; fallthrough
@@ -100,8 +97,8 @@ Script_CommitBattleFactoryResult:
 	setevent EVENT_BEAT_THORTON
 .WeHopeToServeYouAgain:
 	writethistext
-		text "Wir hoffen, dich"
-		line "bald wiederzusehen"
+		text "Wir stehen stets"
+		line "zu Diensten."
 		done
 	waitbutton
 	endtext
@@ -109,31 +106,26 @@ Script_CommitBattleFactoryResult:
 BattleFactory1FRulesScript:
 	opentext
 	writethistext
-		text "Die Regeln der"
-		line "Kampffabrik stehen"
-		cont "hier geschrieben."
-		para "Regeln lesen?"
+		text "Hier stehen die"
+		line "Regeln der Kampf-"
+		cont "fabrik. Lesen?"
 		done
 	yesorno
 	iffalse_endtext
 	jumpthisopenedtext
 		text "Du bekommst sechs"
-		line "Leih-#mon."
-
-		para "Drei #mon"
-		line "dürfen kämpfen."
-
-		para "Alle drei müssen"
-		line "verschieden sein."
-
-		para "Auch ihre Items"
-		line "müssen sich"
-		cont "unterscheiden."
-
-		para "Nach einem Sieg"
-		line "darfst du ein"
-		cont "#mon mit dem"
-		cont "Gegner tauschen."
+		line "Leih-#MON."
+		para "Drei #MON"
+		line "dürfen am Kampf"
+		para "teilnehmen. Sie"
+		line "müssen unter-"
+		cont "schiedlich sein."
+		para "Ihre Items müssen"
+		line "auch verschieden"
+		para "sein. Nach einem"
+		line "Sieg darfst du ein"
+		para "#MON mit dem"
+		line "Gegner tauschen."
 		done
 
 BattleFactory1FStreakText:
@@ -152,7 +144,7 @@ BattleFactory1FReceptionistScript:
 	writethistext
 		text "Willkommen in der"
 		line "Kampffabrik!"
-		para "Ich zeige dir gern"
+		para "Ich führe dich auf"
 		line "das Kampffeld."
 		done
 	promptbutton
@@ -162,9 +154,9 @@ BattleFactory1FReceptionistScript:
 	; only ask once, so set the flag regardless
 	setevent EVENT_BATTLE_FACTORY_INTRO
 	writethistext
-		text "Möchtest du mehr"
-		line "über diese"
-		cont "Einrichtung hören?"
+		text "Soll ich dich über"
+		line "die Kampffabrik"
+		cont "aufklären?"
 		done
 	yesorno
 	iffalsefwd .BattleFactoryMenu
@@ -173,34 +165,34 @@ BattleFactory1FReceptionistScript:
 	writethistext
 		text "Die Kampffabrik"
 		line "ist eine Stätte,"
-		cont "wo du mit"
-		cont "Leih-#mon"
-		cont "kämpfst."
-		para "Zahllose"
-		line "#mon-Trainer"
-		cont "versammeln"
-		para "sich von überall,"
-		line "um auf dem"
-		cont "Kampffeld zu"
-		cont "kämpfen."
+		cont "wo du mit Leih-"
+		cont "#MON kämpfst."
+		para "Unzählige #MON-"
+		line "Trainer von Nah"
+		para "und Fern kommen"
+		line "hier zusammen und"
+		para "duellieren sich"
+		line "auf dem Kampffeld."
 		para "Jeder Durchgang"
-		line "hat 7 Trainer."
+		line "hat sieben"
+		cont "Trainer."
 		para "Besiege alle für"
 		line "Kampfpunkte."
-		para "Um eine Sitzung zu"
-		line "unterbrechen,"
-		para "musst du"
-		line "speichern. Sonst"
-		cont "kannst du"
-		para "deinen Durchgang"
-		line "nicht fortsetzen."
+		para "Um eine Heraus-"
+		line "forderung zu"
+		para "unterbrechen,"
+		line "musst du SICHERN."
+		para "Falls nicht,"
+		line "kannst du den"
+		para "Kampf nicht"
+		line "fortsetzen."
 		prompt
 	; fallthrough
 .BattleFactoryMenu:
 	; Setscene here in case the player aborted a quicksave prompted by challenge
 	setscene SCENE_BATTLEFACTORY1F_NOOP
 	writethistext
-		text "Willst du zum"
+		text "Möchtest du aufs"
 		line "Kampffeld gehen?"
 		done
 	loadmenu MenuDataHeader_BattleInfoCancel
@@ -209,20 +201,18 @@ BattleFactory1FReceptionistScript:
 	ifequalfwd $1, .Challenge
 	ifequal $2, .Explanation
 	writethistext
-		text "Wir hoffen, dich"
-		line "bald wiederzusehen"
+		text "Danke für deinen"
+		line "Besuch!"
 		prompt
 	endtext
 
 .Challenge:
 	writethistext
-		text "Bevor du das"
+		text "Ehe du das"
 		line "Kampffeld"
-		cont "betrittst,"
-
-		para "wird dein"
-		line "Fortschritt"
-		cont "gespeichert."
+		para "betrittst, wird"
+		line "der Spielstand"
+		cont "gesichert."
 		done
 	yesorno
 	iffalse .BattleFactoryMenu
@@ -277,12 +267,10 @@ PokemonJournalThortonScript:
 	setflag ENGINE_READ_THORTON_JOURNAL
 	jumpthistext
 
-	text "#mon-Journal"
-
+	text "#MON-Journal"
 	para "Spezialthema:"
 	line "Fabrikleiter"
 	cont "Thorton!"
-
 	para "Thorton soll nur"
 	line "an das glauben,"
 	cont "was er mit seinen"

@@ -27,7 +27,7 @@ PokemonJournalJanineScript:
 	jumpthistext
 
 	; PC-only Journal (class C)
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Leiterin"
 	line "JANINA!"
@@ -35,7 +35,7 @@ PokemonJournalJanineScript:
 	para "Man sagt, JANINA"
 	line "war als Kind ein"
 
-	para "Fan des #mon-"
+	para "Fan des #MON-"
 	line "Zoos in FUCHSANIA"
 	cont "CITY."
 	done

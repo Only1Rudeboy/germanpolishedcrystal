@@ -101,7 +101,7 @@ CeladonCityTutorSwaggerScript:
 	jumpthisopenedtext
 
 	text "Siehe da! Dein"
-	line "#mon hat"
+	line "#MON hat"
 	cont "Angeberei gelernt!"
 	done
 
@@ -122,7 +122,7 @@ CeladonCityRichBoyText:
 
 Text_CeladonCityTutorSwagger:
 	text "Ich lehre dein"
-	line "#mon Angeberei"
+	line "#MON Angeberei"
 	cont "wie ich, nur für"
 
 	para "ein Silberblatt."
@@ -131,7 +131,7 @@ Text_CeladonCityTutorSwagger:
 
 Text_CeladonCityTutorQuestion:
 	text "Möchtest du, dass"
-	line "ich deinem #mon"
+	line "ich deinem #MON"
 	cont "Angeberei"
 
 	para "beibringe?"
@@ -235,7 +235,7 @@ CeladonCityLassText_PCC:
 	line "hohen Gebäuden"
 	cont "umgeben zu sein!"
 	para "Stimmt es, dass"
-	line "das #mon-Center"
+	line "das #MON-Center"
 	cont "in DUKATIA CITY"
 	para "viel größer gebaut"
 	line "wurde?"
@@ -246,7 +246,7 @@ CeladonCityLassText_PCC:
 	done
 
 CeladonCityLassText:
-	text "#mon werden als"
+	text "#MON werden als"
 	line "Preise in der"
 	cont "SPIELHALLE"
 	para "angeboten."
@@ -331,7 +331,7 @@ CeladonCityTrainerTips1Text:
 	; GSC-DE Dump
 	text "TIPPS für TRAINER"
 	para "Der MEGABLOCK"
-	line "schützt #mon"
+	line "schützt #MON"
 	para "vor SPEZIAL-"
 	line "Attacken wie z.B."
 	cont "Feuer und Wasser."
@@ -345,7 +345,7 @@ CeladonCityTrainerTips2Text:
 	; PC-only Class C
 	text "TIPPS für TRAINER"
 	para "Evoli ist ein"
-	line "#mon voller"
+	line "#MON voller"
 	cont "Potenzial."
 	para "Probier es an"
 	line "vielen Orten, zu"

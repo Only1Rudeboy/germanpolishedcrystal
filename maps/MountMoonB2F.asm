@@ -33,7 +33,7 @@ GenericTrainerYoungsterJosh:
 	generictrainer YOUNGSTER, YOUNGSTER_JOSH, EVENT_BEAT_YOUNGSTER_JOSH, YoungsterJoshSeenText, YoungsterJoshBeatenText
 
 	text "Mit so einem"
-	line "#mon-Team hast"
+	line "#MON-Team hast"
 
 	para "du sicher viele"
 	line "Orte erkundet."

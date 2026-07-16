@@ -1,31 +1,29 @@
 UnknownGenericText:
-	text "Wie geht's deinen"
-	line "#mon?"
+	text "Wie geht es deinen"
+	line "#MON?"
 
-	para "Meine #mon sind"
-	line "etwas zu munter."
+	para "Meine #MON sind"
+	line "zu dynamisch."
 
-	para ""
+	para "Besonders"
+	line ""
 	text_ram wStringBuffer4
-	text ", besonders."
+	text "."
 
-	para "Immer wenn es"
-	line "einen Trainer"
-	cont "sieht,"
+	para "Sieht es einen"
+	line "Trainer, will es"
+	cont "kämpfen."
 
-	para "will es kämpfen."
-	line "Das ist zu viel!"
-
-	para "Es wird mir echt"
-	line "zu viel!"
+	para "Das wird mir lang-"
+	line "sam zu viel!"
 	done
 
 UnknownTougherThanEverText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " sieht taffer aus"
-	line "als je."
+	line "ist so stark, wie"
+	cont "nie zuvor."
 
-	para "Sogar taffer als"
-	line "ich!"
+	para "Es ist sogar"
+	line "stärker als ich!"
 	done

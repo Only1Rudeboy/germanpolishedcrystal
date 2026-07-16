@@ -462,7 +462,7 @@ GoldenrodUndergroundCandyManScript:
 	cont "aufzubewahren."
 	para "Das erste geht auf"
 	line "mich! Probier es."
-	para "… Für #mon,"
+	para "… Für #MON,"
 	line "natürlich."
 	done
 
@@ -559,7 +559,7 @@ PiersRematchAfterText:
 	para "nicht, ob sie"
 	line "singen, Musik"
 	para "machen oder mit"
-	line "#mon kämpfen"
+	line "#MON kämpfen"
 	cont "will, oder was"
 	cont "ganz Neues."
 	para "Aber was auch"
@@ -608,7 +608,7 @@ PiersNoBattleText:
 PiersSeenText:
 	text "Ich mache dunkle"
 	line "Musik und nutze"
-	cont "Unlicht-#mon!"
+	cont "Unlicht-#MON!"
 
 	para "Zeit zu rocken!"
 	done
@@ -623,7 +623,7 @@ PiersRewardText:
 	text "Ich bin froh, dass"
 	line "wir kämpfen"
 	cont "konnten."
-	para "Meine #mon"
+	para "Meine #MON"
 	line "fühlen wohl"
 	cont "genauso."
 	para "Hier, etwas, damit"

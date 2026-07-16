@@ -24,7 +24,7 @@ PokemonJournalLoreleiScript:
 	setflag ENGINE_READ_LORELEI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "#MON Journal"
 
 	para "Spezial: Ex-TOP"
 	line "VIER LORELEI!"
@@ -34,7 +34,7 @@ PokemonJournalLoreleiScript:
 	cont "komplette"
 
 	para "Sammlung von"
-	line "#mon-Puppen."
+	line "#MON-Puppen."
 	done
 
 ShamoutiPokeCenter1FIvyScript:
@@ -58,7 +58,7 @@ ShamoutiPokeCenter1FIvyScript:
 	text "Ivy: Hm, ich"
 	line "dachte, du wärst"
 	cont "froh, ein seltenes"
-	para "#mon"
+	para "#MON"
 	line "großzuziehen …"
 	done
 
@@ -125,19 +125,19 @@ ShamoutiPokeCenter1FIvyScript:
 	para "Freut mich, dich"
 	line "kennenzulernen!"
 	para "Ich bin Ivy, ein"
-	line "#mon-Professor."
+	line "#MON-Professor."
 	para "Ich erforsche"
 	line "lokale Variationen"
 	cont "im Aussehen von"
 	para "Wusstest du, dass"
 	line "manche wilde"
-	cont "#mon"
+	cont "#MON"
 	para "Attacken kennen,"
 	line "die nur in ihrem"
 	cont "Lebensraum"
 	cont "vorkommen?"
 	para "Und selbst zwei"
-	line "#mon derselben"
+	line "#MON derselben"
 	para "Art in einem"
 	line "Gebiet können"
 	cont "verschiedene"
@@ -158,7 +158,7 @@ ShamoutiPokeCenter1FIvyScript:
 	cont "…"
 	para "Aha! Warum gebe"
 	line "ich dir nicht auch"
-	cont "ein neues #mon?"
+	cont "ein neues #MON?"
 	para "Welches möchtest"
 	line "du?"
 	done
@@ -166,13 +166,13 @@ ShamoutiPokeCenter1FIvyScript:
 .ChoseKantoStarterText:
 	text "Ivy: Das finde ich"
 	line "auch ein tolles"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 .GoodbyeText:
 	text "Ivy: PROF. LIND"
 	line "hat dir ein"
-	cont "#mon"
+	cont "#MON"
 	cont "anvertraut, und"
 	para "PROF. EICH hat dir"
 	line "einen #dex"

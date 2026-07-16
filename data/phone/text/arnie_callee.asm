@@ -1,65 +1,62 @@
 ArnieAnswerPhoneText:
-	text "Ja, hallo. Hier "
+	text "Yeah, hallo. Hier"
+	line "ist "
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Häh, <PLAYER>?"
-	line "Yo!"
+	para "…Huh, <PLAYER>? Yo!"
 	done
 
 ArnieAnswerPhoneDayText:
-	text "Ja, hallo, hier"
+	text "Yo, hallo, du hast"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Häh, <PLAYER>?"
-	line "Yo!"
+	para "…Huh, <PLAYER>? Yo!"
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Ja, hallo, hier"
+	text "Yo, hallo, du hast"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Häh, <PLAYER>?"
-	line "Yo!"
+	para "…Huh, <PLAYER>? Yo!"
 	done
 
 ArnieGreetText:
-	text "Ja, hallo?"
+	text "Yeah, hallo?"
 	line ""
 	text_ram wStringBuffer3
-	text " ruft an."
+	text " hier."
 
-	para "Was machst du,"
+	para "Was läuft bei dir,"
 	line "<PLAYER>?"
 	done
 
 ArnieGreetDayText:
-	text "Ja, hallo?"
+	text "Yeah, hallo?"
 	line ""
 	text_ram wStringBuffer3
-	text "ruft an."
-	para "Wo bist du"
-	line "gerade, <PLAYER>?"
+	text " hier."
+
+	para "Wo bist du,"
+	line "<PLAYER>?"
 	done
 
 ArnieGreetNiteText:
-	text "Ja, hallo?"
+	text "Yeah, hallo?"
 	line ""
 	text_ram wStringBuffer3
-	text " ruft an."
+	text " hier."
 
 	para "Bist du wach,"
 	line "<PLAYER>?"
 	done
 
 ArnieGenericText:
-	text "Deine #mon sind"
-	line "sicher viel"
-
-	para "stärker als"
-	line "früher."
+	text "Ich wette, deine"
+	line "#MON sind viel"
+	cont "stärker als zuvor."
 	done

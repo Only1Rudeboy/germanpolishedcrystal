@@ -127,10 +127,9 @@ CeladonHomeDecorStore1FClerkScript:
 
 CeladonHomeDecorStore1FReceptionistText:
 	text "Hallo! Willkommen"
-	line "im"
-	cont "Wohndeko-Bereich"
-	cont "des"
-	para "Prismania-"
+	line "im Wohndeko-"
+	cont "Bereich des"
+	para "PRISMANIA-"
 	line "Kaufhauses!"
 	para "Die Übersicht"
 	line "hängt an der Wand."
@@ -141,7 +140,7 @@ CeladonHomeDecorStore1FClerkText:
 	line "Möchtest du eine"
 	cont "Puppe als"
 
-	para "Prismania-"
+	para "PRISMANIA-"
 	line "Andenken?"
 	done
 
@@ -187,8 +186,8 @@ CeladonHomeDecorStore1FAlreadyBoughtText:
 CeladonHomeDecorStore1FCooltrainerfText:
 	text "Dieser neue Flügel"
 	line "wirkt edler als"
-	para "das"
-	line "Haupt-Kaufhaus."
+	para "das Haupt-"
+	line "Kaufhaus."
 	done
 
 CeladonHomeDecorStore1FDirectoryText:

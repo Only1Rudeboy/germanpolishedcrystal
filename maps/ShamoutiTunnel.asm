@@ -100,7 +100,7 @@ GenericTrainerTamerOswald:
 	para "am Anfang im"
 	line "Zirkus war ich in"
 
-	para "der #mon-"
+	para "der #MON-"
 	line "Trapeznummer."
 	done
 
@@ -114,7 +114,7 @@ GenericTrainerTamerOswald:
 
 .BeatenText:
 	text "Ich konnte deine"
-	line "#mon nicht"
+	line "#MON nicht"
 	cont "zähmen…"
 	done
 
@@ -152,7 +152,7 @@ GenericTrainerSightseerfNoelle:
 
 .SeenText:
 	text "Ach du meine Güte!"
-	line "Du hast #mon,"
+	line "Du hast #MON,"
 	para "die ich noch nie"
 	line "gesehen habe!"
 	para "Darf ich ein Foto"
