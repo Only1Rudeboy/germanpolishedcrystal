@@ -60,5 +60,5 @@ YellowForestGateNurseText:
 
 
 YellowForestGateChanseyText:
-	text "Chansey: Sii!"
+	text "CHANSEY: Sii!"
 	done

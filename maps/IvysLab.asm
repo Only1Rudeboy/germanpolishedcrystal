@@ -176,7 +176,7 @@ IvysLabHopeScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Hope: PROF. IVY"
+	text "HOPE: PROF. IVY"
 	line "kümmert sich um"
 
 	para "die #MON auf"
@@ -188,7 +188,7 @@ IvysLabHopeScript:
 	done
 
 .Text2:
-	text "Hope: Danke, dass"
+	text "HOPE: Danke, dass"
 	line "du bei dem"
 	cont "Nidorino geholfen"
 	cont "hast!"
@@ -254,8 +254,8 @@ PokemonJournalProfIvyScript:
 
 	text "#MON Journal"
 	para "Spezial: Prof."
-	line "Ivy!"
-	para "Philena Ivy"
+	line "IVY!"
+	para "PHILENA IVY"
 	line "arbeitete mit"
 	cont "ROCKO aus MARMORIA"
 	para "an einem"

@@ -132,36 +132,36 @@ GenericTrainerSightseerfPilar:
 GenericTrainerSightseersCyandvi1:
 	generictrainer SIGHTSEERS, CYANDVI1, EVENT_BEAT_SIGHTSEERS_CY_AND_VI, .SeenText, .BeatenText
 
-	text "Cy: Wir reisen"
+	text "CY: Wir reisen"
 	line "zusammen um die"
 	cont "Welt."
 	done
 
 .SeenText:
-	text "Cy: Lust auf einen"
+	text "CY: Lust auf einen"
 	line "kleinen Kampf?"
 	done
 
 .BeatenText:
-	text "Cy: Vi wird das"
+	text "CY: Vi wird das"
 	line "nicht gefallen…"
 	done
 
 GenericTrainerSightseersCyandvi2:
 	generictrainer SIGHTSEERS, CYANDVI2, EVENT_BEAT_SIGHTSEERS_CY_AND_VI, .SeenText, .BeatenText
 
-	text "Vi: Cy und ich"
+	text "VI: Cy und ich"
 	line "sehen uns die"
 	cont "Inseln an."
 	done
 
 .SeenText:
-	text "Vi: Wollen wir"
+	text "VI: Wollen wir"
 	line "kämpfen?"
 	done
 
 .BeatenText:
-	text "Vi: Tja, das war's"
+	text "VI: Tja, das war's"
 	line "dann wohl."
 	done
 

@@ -122,7 +122,7 @@ Route34IlexForestGateTeacher_ForestIsRestless:
 
 
 Route34IlexForestGateHeracrossText:
-	text "Heracross: Cross!"
+	text "HERACROSS: Cross!"
 	done
 
 Route34IlexForestGateLassText:

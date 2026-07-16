@@ -159,13 +159,13 @@ GenericTrainerBird_keeperGail:
 GenericTrainerCoupleVicandtara1:
 	generictrainer COUPLE, VICANDTARA1, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Vic: Tara hat mich"
+	text "VIC: Tara hat mich"
 	line "schon mal blamiert"
 	cont "gesehen …"
 	done
 
 .SeenText:
-	text "Vic: Alles klar!"
+	text "VIC: Alles klar!"
 	line "Jetzt kann ich"
 
 	para "mich vor Tara"
@@ -173,14 +173,14 @@ GenericTrainerCoupleVicandtara1:
 	done
 
 .BeatenText:
-	text "Vic: Oh nein, mein"
+	text "VIC: Oh nein, mein"
 	line "Plan!"
 	done
 
 GenericTrainerCoupleVicandtara2:
 	generictrainer COUPLE, VICANDTARA2, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Tara: Obwohl mein"
+	text "TARA: Obwohl mein"
 	line "Freund verlor,"
 
 	para "ist er immer noch"
@@ -188,7 +188,7 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 .SeenText:
-	text "Tara: Ich liebe"
+	text "TARA: Ich liebe"
 	line "es, das Gesicht"
 
 	para "meines Freundes"
@@ -197,7 +197,7 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 .BeatenText:
-	text "Tara: Oh nein, oh"
+	text "TARA: Oh nein, oh"
 	line "nein…"
 	done
 

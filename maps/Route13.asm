@@ -177,14 +177,14 @@ GenericTrainerPicnickerPiper:
 GenericTrainerCoupleTimandsue1:
 	generictrainer COUPLE, TIMANDSUE1, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Tim: Wenn du sie"
+	text "TIM: Wenn du sie"
 	line "besiegt hast,"
 	cont "musst du stark"
 	cont "sein!"
 	done
 
 .SeenText:
-	text "Tim: Ich geb dir"
+	text "TIM: Ich geb dir"
 	line "einen kleinen"
 	cont "Tipp."
 	para "Meine Freundin ist"
@@ -192,14 +192,14 @@ GenericTrainerCoupleTimandsue1:
 	done
 
 .BeatenText:
-	text "Tim: Du bist der"
+	text "TIM: Du bist der"
 	line "Stärkste!"
 	done
 
 GenericTrainerCoupleTimandsue2:
 	generictrainer COUPLE, TIMANDSUE2, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Sue: Diese Stärke"
+	text "SUE: Diese Stärke"
 	line "von dir… Ich"
 	cont "hab's!"
 
@@ -207,7 +207,7 @@ GenericTrainerCoupleTimandsue2:
 	done
 
 .SeenText:
-	text "Sue: Frauen, die"
+	text "SUE: Frauen, die"
 	line "die Liebe nicht"
 
 	para "ernst nehmen,"
@@ -216,7 +216,7 @@ GenericTrainerCoupleTimandsue2:
 	done
 
 .BeatenText:
-	text "Sue: Ha ha…"
+	text "SUE: Ha ha…"
 	done
 
 GenericTrainerPokefanmAlex:

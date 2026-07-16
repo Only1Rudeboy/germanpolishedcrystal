@@ -238,12 +238,12 @@ GenericTrainerHikerDwight:
 GenericTrainerAceDuoZacandjen1:
 	generictrainer ACE_DUO, ZACANDJEN1, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
-	text "Zac: Deine Zukunft"
+	text "ZAC: Deine Zukunft"
 	line "sieht gut aus."
 	done
 
 .SeenText:
-	text "Zac: Willst du"
+	text "ZAC: Willst du"
 	line "wirklich gegen uns"
 	cont "kämpfen?"
 	para "Du hast viel Mut"
@@ -252,14 +252,14 @@ GenericTrainerAceDuoZacandjen1:
 	done
 
 .BeatenText:
-	text "Zac: Du hast nicht"
+	text "ZAC: Du hast nicht"
 	line "geblufft …"
 	done
 
 GenericTrainerAceDuoZacandjen2:
 	generictrainer ACE_DUO, ZACANDJEN2, EVENT_BEAT_ACE_DUO_ZAC_AND_JEN, .SeenText, .BeatenText
 
-	text "Jen: Ich freue"
+	text "JEN: Ich freue"
 	line "mich darauf,"
 
 	para "zu sehen, was für"
@@ -268,13 +268,13 @@ GenericTrainerAceDuoZacandjen2:
 	done
 
 .SeenText:
-	text "Jen: Hä? Du willst"
+	text "JEN: Hä? Du willst"
 	line "gegen uns"
 	cont "antreten? Super!"
 	done
 
 .BeatenText:
-	text "Jen: Du bist viel"
+	text "JEN: Du bist viel"
 	line "stärker, als ich"
 	cont "dachte."
 	done

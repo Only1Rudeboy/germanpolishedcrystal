@@ -29,7 +29,7 @@ PokemonJournalPryceScript:
 	line "NORBERT!"
 	para "NORBERTs zweiter"
 	line "Vorname lautet"
-	cont "Willow."
+	cont "WILLOW."
 	para "Sein Kampfstil"
 	line "soll so flexibel"
 	para "sein wie ein"

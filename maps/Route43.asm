@@ -203,7 +203,7 @@ GenericTrainerSrandjrIvyandamy1:
 GenericTrainerSrandjrIvyandamy2:
 	generictrainer SR_AND_JR, IVYANDAMY2, EVENT_BEAT_SR_AND_JR_IVY_AND_AMY, SrandjrIvyandamy2SeenText, SrandjrIvyandamy2BeatenText
 
-	text "Amy: Ich hoffe,"
+	text "AMY: Ich hoffe,"
 	line "meine Senior hat"
 
 	para "gemerkt, wie hart"
@@ -674,7 +674,7 @@ SrandjrIvyandamy1BeatenText:
 	done
 
 SrandjrIvyandamy2SeenText:
-	text "Amy: Ein Trainer!"
+	text "AMY: Ein Trainer!"
 	line "Senior, bitte"
 
 	para "hilf mir beim"
@@ -682,7 +682,7 @@ SrandjrIvyandamy2SeenText:
 	done
 
 SrandjrIvyandamy2BeatenText:
-	text "Amy: Es hat nicht"
+	text "AMY: Es hat nicht"
 	line "geklappt…"
 	done
 

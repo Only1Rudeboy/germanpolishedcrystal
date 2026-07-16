@@ -115,7 +115,7 @@ GenericTrainerSrandjrJoandcath1:
 	generictrainer SR_AND_JR, JOANDCATH1, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath1SeenText, SrandjrJoandcath1BeatenText
 
 	; GSC-DE Dump (PC: Jo/Cath-Paar; Dump-Ton)
-	text "Jo: Ich helfe"
+	text "JO: Ich helfe"
 	line "meiner Junior"
 	cont "Cath,"
 
@@ -301,7 +301,7 @@ LassCathyBeatenText:
 
 SrandjrJoandcath1SeenText:
 	; GSC-DE Dump (PC: Jo/Cath-Paar)
-	text "Jo: Wenn du BIANKA"
+	text "JO: Wenn du BIANKA"
 	line "willst,"
 
 	para "musst du erst an"
@@ -313,7 +313,7 @@ SrandjrJoandcath1SeenText:
 
 SrandjrJoandcath1BeatenText:
 	; GSC-DE Dump (PC: Jo/Cath-Paar)
-	text "Jo: Verlieren ist"
+	text "JO: Verlieren ist"
 	line "gar nicht cool!"
 	done
 

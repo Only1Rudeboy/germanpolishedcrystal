@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.036** | **Namen-Konsistenz:** Dialoge **JUTTA**/ **HANNES**/ **SATORU** (Valerie/Riley/Larry); IVY/FAITH/CHERYL/REI CAPS; NPC-Trade-OTs + Wonder-Trade-OTs CAPS; KIRK/SILVER OT CAPS. |
+| **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW; FAITH-Reflow. |
+| **ROM 3.2.3.036** | **Namen-Konsistenz:** JUTTA/HANNES/SATORU; IVY/FAITH/CHERYL/REI; Trade/Wonder-OTs CAPS; KIRK/SILVER. |
 | **ROM 3.2.3.035** | **Trainer-Namen-Block:** GSC-DE-Map pret↔Dump; Rest CAPS; BT-OTs; Guest-Speaker CAPS; Phone Dump-align. |
 | **ROM 3.2.3.033** | **Phone-Anzeigenamen komplett (Dump-align):** Alle Phone-Rematch-Trainer DE. |
 | **ROM 3.2.3.032** | **Optionals:** Phone-Namen-Teil; Pokégear/Radio #MON-Kanal & EICHs Talk; Song/Landmark **Duellturm**. |

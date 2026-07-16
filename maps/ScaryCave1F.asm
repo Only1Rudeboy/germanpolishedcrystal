@@ -252,7 +252,7 @@ TrainerCoupleJoeandjo1:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Joe: Wir sind auf"
+	text "JOE: Wir sind auf"
 	line "Geisterjagd, aber"
 
 	para "mir ist nicht"
@@ -262,13 +262,13 @@ TrainerCoupleJoeandjo1:
 	done
 
 .SeenText:
-	text "Joe: Ein Geist!"
+	text "JOE: Ein Geist!"
 	line "Bleib nah bei mir,"
 	cont "meine liebe Jo!"
 	done
 
 .BeatenText:
-	text "Joe: Oh. Es war"
+	text "JOE: Oh. Es war"
 	line "nur ein Trainer."
 	done
 
@@ -279,7 +279,7 @@ TrainerCoupleJoeandjo2:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Jo: Ich hab so"
+	text "JO: Ich hab so"
 	line "viel Glück, dass"
 	cont "mein wunderbarer"
 	para "Joe alle"
@@ -288,12 +288,12 @@ TrainerCoupleJoeandjo2:
 	done
 
 .SeenText:
-	text "Jo: Eek! Halte"
+	text "JO: Eek! Halte"
 	line "mich fest, Joe!"
 	done
 
 .BeatenText:
-	text "Jo: Hast du keine"
+	text "JO: Hast du keine"
 	line "Angst?"
 	done
 

@@ -240,40 +240,40 @@ GenericTrainerLassLayla:
 GenericTrainerCoupleFoxandrae1:
 	generictrainer COUPLE, FOXANDRAE1, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Fox: Unser"
+	text "FOX: Unser"
 	line "Teamwork als Paar"
 	cont "reichte diesmal"
 	cont "nicht."
 	done
 
 .SeenText:
-	text "Fox: Komm schon,"
+	text "FOX: Komm schon,"
 	line "Rae, lass uns"
 	cont "kämpfen!"
 	done
 
 .BeatenText:
-	text "Fox: Du hast Rae"
+	text "FOX: Du hast Rae"
 	line "und mich…"
 	done
 
 GenericTrainerCoupleFoxandrae2:
 	generictrainer COUPLE, FOXANDRAE2, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Rae: Wir haben"
+	text "RAE: Wir haben"
 	line "verloren, aber wir"
 	cont "sind noch ein"
 	cont "glückliches Paar."
 	done
 
 .SeenText:
-	text "Rae: Hey Fox, wie"
+	text "RAE: Hey Fox, wie"
 	line "wär's mit einem"
 	cont "Kampf?"
 	done
 
 .BeatenText:
-	text "Rae: Wie konntest"
+	text "RAE: Wie konntest"
 	line "du Fox und mich"
 	cont "schlagen?"
 	done

@@ -30,7 +30,7 @@ CeladonHomeDecorStore4F_MapScriptHeader:
 BigDollClerkNoMoneyScript:
 	jumpthisopenedtext
 
-	text "Verkäufer: Das"
+	text "VERKÄUFER: Das"
 	line "kannst du dir"
 	cont "nicht leisten!"
 	done
@@ -111,13 +111,13 @@ BigDollClerkText:
 	done
 
 BigDollClerkNoSaleText:
-	text "Verkäufer: Nun,"
+	text "VERKÄUFER: Nun,"
 	line "wie du meinst."
 	done
 
 
 BigDollClerkSellLaprasText:
-	text "Verkäufer: Magst"
+	text "VERKÄUFER: Magst"
 	line "du die"
 	cont "Lapras-Puppe?"
 	para "Das kostet dich"
@@ -125,7 +125,7 @@ BigDollClerkSellLaprasText:
 	done
 
 BigDollClerkSellSnorlaxText:
-	text "Verkäufer: Magst"
+	text "VERKÄUFER: Magst"
 	line "du die"
 	cont "Relaxo-Puppe?"
 	para "Das kostet dich"
@@ -133,7 +133,7 @@ BigDollClerkSellSnorlaxText:
 	done
 
 BigDollClerkSellOnixText:
-	text "Verkäufer: Magst"
+	text "VERKÄUFER: Magst"
 	line "du die Onix-Puppe?"
 	para "Das kostet dich"
 	line "¥250.000."

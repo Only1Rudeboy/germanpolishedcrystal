@@ -393,7 +393,7 @@ PokemonJournalProfWestwoodScript:
 
 	text "#MON Journal"
 	para "Spezial: Prof."
-	line "Westwood!"
+	line "WESTWOOD!"
 	para "PROF. WESTWOOD V."
 	line "lehrt an der"
 	cont "Prismania-Uni."

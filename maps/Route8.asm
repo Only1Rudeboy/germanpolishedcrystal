@@ -94,7 +94,7 @@ GenericTrainerGentlemanMilton:
 GenericTrainerCoupleMoeandlulu1:
 	generictrainer COUPLE, MOEANDLULU1, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu1SeenText, CoupleMoeandlulu1BeatenText
 
-	text "Moe: Kurz gesagt,"
+	text "MOE: Kurz gesagt,"
 	line "du bist einfach zu"
 	cont "stark …"
 	done
@@ -102,7 +102,7 @@ GenericTrainerCoupleMoeandlulu1:
 GenericTrainerCoupleMoeandlulu2:
 	generictrainer COUPLE, MOEANDLULU2, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu2SeenText, CoupleMoeandlulu2BeatenText
 
-	text "Lulu: Nicht dass"
+	text "LULU: Nicht dass"
 	line "Moe schwach wäre,"
 	cont "du bist"
 
@@ -247,7 +247,7 @@ GentlemanMiltonBeatenText:
 	done
 
 CoupleMoeandlulu1SeenText:
-	text "Moe: Sehe ich"
+	text "MOE: Sehe ich"
 	line "schwach aus? Lach"
 	cont "mich nicht aus!"
 
@@ -258,11 +258,11 @@ CoupleMoeandlulu1SeenText:
 	done
 
 CoupleMoeandlulu1BeatenText:
-	text "Moe: Uwaaaahhh…"
+	text "MOE: Uwaaaahhh…"
 	done
 
 CoupleMoeandlulu2SeenText:
-	text "Lulu: Moe und ich"
+	text "LULU: Moe und ich"
 	line "sind ein tolles"
 	cont "Paar!"
 
@@ -271,7 +271,7 @@ CoupleMoeandlulu2SeenText:
 	done
 
 CoupleMoeandlulu2BeatenText:
-	text "Lulu: Eeek!"
+	text "LULU: Eeek!"
 	done
 
 LassMeadowSeenText:

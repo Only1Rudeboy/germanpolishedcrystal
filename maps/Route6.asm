@@ -95,33 +95,33 @@ PokefanmAllanBeatenText:
 GenericTrainerTwinsDayanddani1:
 	generictrainer TWINS, DAYANDDANI1, EVENT_BEAT_TWINS_DAY_AND_DANI, TwinsDayanddani1SeenText, TwinsDayanddani1BeatenText
 
-	text "Day: Du hast uns"
+	text "DAY: Du hast uns"
 	line "geschlagen…"
 	done
 
 TwinsDayanddani1SeenText:
-	text "Day: Willst du uns"
+	text "DAY: Willst du uns"
 	line "besiegen?"
 	done
 
 TwinsDayanddani1BeatenText:
-	text "Day: Waaah!"
+	text "DAY: Waaah!"
 	done
 
 GenericTrainerTwinsDayanddani2:
 	generictrainer TWINS, DAYANDDANI2, EVENT_BEAT_TWINS_DAY_AND_DANI, TwinsDayanddani2SeenText, TwinsDayanddani2BeatenText
 
-	text "Dani: Wir wurden"
+	text "DANI: Wir wurden"
 	line "abgeschlagen."
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: Wir hauen"
+	text "DANI: Wir hauen"
 	line "dich um!"
 	done
 
 TwinsDayanddani2BeatenText:
-	text "Dani: Eeeeh!"
+	text "DANI: Eeeeh!"
 	done
 
 GenericTrainerYoungsterChaz:

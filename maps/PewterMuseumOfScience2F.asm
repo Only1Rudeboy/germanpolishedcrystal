@@ -181,15 +181,15 @@ PokemonJournalStevenScript:
 	text "#MON Journal"
 
 	para "Spezial: Fels-Fan"
-	line "Steven!"
+	line "STEVEN!"
 
-	para "Steven Stone soll"
+	para "STEVEN STONE soll"
 	line "die Devon"
 	cont "Corporation"
 
 	para "unterstützen, die"
-	line "sein Vater Joseph"
-	cont "Stone leitet,"
+	line "sein Vater JOSEPH"
+	cont "STONE leitet,"
 
 	para "indem er seltene"
 	line "Mineralien und"
@@ -204,8 +204,8 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	text "#MON Journal"
 	para "Spezial:"
 	line "Forscherin"
-	cont "Cynthia!"
-	para "Cynthia soll viele"
+	cont "CYNTHIA!"
+	para "CYNTHIA soll viele"
 	line "Legenden und"
 	cont "Mythen von ihrer"
 	para "Großmutter in"

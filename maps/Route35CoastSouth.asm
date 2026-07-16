@@ -75,7 +75,7 @@ GenericTrainerBird_keeperBryan:
 GenericTrainerSrandjrBeaandmay1:
 	generictrainer SR_AND_JR, BEAANDMAY1, EVENT_BEAT_SR_AND_JR_BEA_AND_MAY, SrandjrBeaandmay1SeenText, SrandjrBeaandmay1BeatenText
 
-	text "Bea: Ich bringe"
+	text "BEA: Ich bringe"
 	line "May bei, stärker"
 	cont "zu werden."
 	done
@@ -83,7 +83,7 @@ GenericTrainerSrandjrBeaandmay1:
 GenericTrainerSrandjrBeaandmay2:
 	generictrainer SR_AND_JR, BEAANDMAY2, EVENT_BEAT_SR_AND_JR_BEA_AND_MAY, SrandjrBeaandmay2SeenText, SrandjrBeaandmay2BeatenText
 
-	text "May: Ich frage"
+	text "MAY: Ich frage"
 	line "Bea, wie ich"
 	cont "stärker werde."
 	done
@@ -160,7 +160,7 @@ Bird_keeperBryanBeatenText:
 	line "schnell genug!"
 	done
 SrandjrBeaandmay1SeenText:
-	text "Bea: Starke"
+	text "BEA: Starke"
 	line "#MON mag ich"
 	cont "lieber als"
 	para "niedliche #MON."
@@ -170,13 +170,13 @@ SrandjrBeaandmay1SeenText:
 	done
 
 SrandjrBeaandmay1BeatenText:
-	text "Bea: Stärke und"
+	text "BEA: Stärke und"
 	line "Niedlichkeit"
 	cont "reichten nicht!"
 	done
 
 SrandjrBeaandmay2SeenText:
-	text "May: Niedliche"
+	text "MAY: Niedliche"
 	line "#MON mag ich"
 	para "lieber als starke"
 	line "#MON."
@@ -186,7 +186,7 @@ SrandjrBeaandmay2SeenText:
 	done
 
 SrandjrBeaandmay2BeatenText:
-	text "May: Niedlichkeit"
+	text "MAY: Niedlichkeit"
 	line "und Stärke"
 	cont "reichten nicht!"
 	done

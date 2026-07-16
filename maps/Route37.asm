@@ -40,7 +40,7 @@ GenericTrainerTwinsToriandtil1:
 	generictrainer TWINS, ANNANDANNE1, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil1SeenText, TwinsToriandtil1BeatenText
 
 	; GSC-DE Dump (Namen: Til/Tori PC)
-	text "Til: Ich kenne"
+	text "TIL: Ich kenne"
 	line "die Gedanken"
 	para "meiner Schwester"
 	line "und die meiner"
@@ -51,7 +51,7 @@ GenericTrainerTwinsToriandtil2:
 	generictrainer TWINS, ANNANDANNE2, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil2SeenText, TwinsToriandtil2BeatenText
 
 	; GSC-DE Dump (Namen: Til/Tori PC)
-	text "Tori: Wir fühlen"
+	text "TORI: Wir fühlen"
 	line "dasselbe wie"
 	cont "unsere #MON."
 	done
@@ -148,7 +148,7 @@ TrainerBeautyCassandra:
 
 TwinsToriandtil1SeenText:
 	; GSC-DE Dump (Namen: Til/Tori PC)
-	text "Til: Tori und ich"
+	text "TIL: Tori und ich"
 	line "arbeiten immer"
 	cont "zusammen!"
 	done
@@ -163,7 +163,7 @@ TwinsToriandtil2BeatenText:
 
 TwinsToriandtil2SeenText:
 	; GSC-DE Dump (Namen: Til/Tori PC)
-	text "Tori: Til und ich"
+	text "TORI: Til und ich"
 	line "arbeiten immer"
 	cont "zusammen!"
 	done

@@ -100,7 +100,7 @@ ViridianGymGuyScript:
 GenericTrainerAceDuoAraandbela1:
 	generictrainer ACE_DUO, ARAANDBELA1, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela1SeenText, AceDuoAraandbela1BeatenText
 
-	text "Ara: Ich wäre ein"
+	text "ARA: Ich wäre ein"
 	line "ziemlich guter"
 	cont "Trainingspartner…"
 	done
@@ -108,7 +108,7 @@ GenericTrainerAceDuoAraandbela1:
 GenericTrainerAceDuoAraandbela2:
 	generictrainer ACE_DUO, ARAANDBELA2, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela2SeenText, AceDuoAraandbela2BeatenText
 
-	text "Bela: Unsere"
+	text "BELA: Unsere"
 	line "Übungskämpfe haben"
 	cont "uns nicht darauf"
 	cont "vorbereitet."
@@ -135,7 +135,7 @@ GenericTrainerCooltrainerfBonita:
 GenericTrainerAceDuoElanandida1:
 	generictrainer ACE_DUO, ELANANDIDA1, EVENT_BEAT_ACE_DUO_ELAN_AND_IDA, AceDuoElanandida1SeenText, AceDuoElanandida1BeatenText
 
-	text "Elan: Du bist"
+	text "ELAN: Du bist"
 	line "stärker als"
 	cont "erwartet!"
 	done
@@ -143,7 +143,7 @@ GenericTrainerAceDuoElanandida1:
 GenericTrainerAceDuoElanandida2:
 	generictrainer ACE_DUO, ELANANDIDA2, EVENT_BEAT_ACE_DUO_ELAN_AND_IDA, AceDuoElanandida2SeenText, AceDuoElanandida2BeatenText
 
-	text "Ida: Nur Stärke"
+	text "IDA: Nur Stärke"
 	line "allein reicht"
 	cont "nicht aus."
 	para "Strategie ist auch"
@@ -237,24 +237,24 @@ ViridianGymGuyWinText:
 	cont "Augen getrieben."
 	done
 AceDuoAraandbela1SeenText:
-	text "Ara: Komm schon,"
+	text "ARA: Komm schon,"
 	line "kämpf gegen uns"
 	cont "und sieh selbst!"
 	done
 
 AceDuoAraandbela1BeatenText:
-	text "Ara: Wir wurden"
+	text "ARA: Wir wurden"
 	line "getäuscht!"
 	done
 
 AceDuoAraandbela2SeenText:
-	text "Bela: Komm schon,"
+	text "BELA: Komm schon,"
 	line "kämpf gegen uns"
 	cont "und sieh selbst!"
 	done
 
 AceDuoAraandbela2BeatenText:
-	text "Bela: Wir wurden"
+	text "BELA: Wir wurden"
 	line "getäuscht!"
 	done
 
@@ -286,27 +286,27 @@ CooltrainerfBonitaBeatenText:
 	done
 
 AceDuoElanandida1SeenText:
-	text "Elan: Na gut,"
+	text "ELAN: Na gut,"
 	line "fangen wir den"
 	cont "Kampf an!"
 	done
 
 AceDuoElanandida1BeatenText:
-	text "Elan: Das ist"
+	text "ELAN: Das ist"
 	line "überraschend."
 	done
 
 AceDuoElanandida2SeenText:
-	text "Ida: Ich bin Ida!"
+	text "IDA: Ich bin IDA!"
 	line "Neben mir ist"
-	cont "Elan!"
+	cont "ELAN!"
 
 	para "Zusammen sind wir"
 	line "ein Ass-Duo!"
 	done
 
 AceDuoElanandida2BeatenText:
-	text "Ida: Wow. Du bist"
+	text "IDA: Wow. Du bist"
 	line "echt etwas"
 	cont "Besonderes."
 	done

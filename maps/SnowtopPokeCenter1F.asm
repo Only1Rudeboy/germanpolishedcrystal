@@ -22,9 +22,9 @@ PokemonJournalProfWillowScript:
 
 	text "#MON Journal"
 	para "Spezial: Prof."
-	line "Willow!"
+	line "WILLOW!"
 	para "Man sagt, Prof."
-	line "Willows Traum sei"
+	line "WILLOWs Traum sei"
 	cont "es,"
 	para "unbekannte Länder"
 	line "zu erforschen und"

@@ -130,5 +130,5 @@ Route19BeachHouseSurfingPikachuScript:
 	end
 
 .Text:
-	text "Puka: Pi-kaa!"
+	text "PUKA: Pi-kaa!"
 	done

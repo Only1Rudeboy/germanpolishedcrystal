@@ -29,7 +29,7 @@ GoldenrodPokecomCenterOffice_MapScriptHeader:
 	object_event  4,  1, SPRITE_MON_ICON, SPRITEMOVEDATA_ADMIN_MEOWTH, 0, MEOWTH, -1, PAL_MON_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, AdminEldredScript, -1
 
 AdminRangiText:
-	text "Rangi: Ich hoffe,"
+	text "RANGI: Ich hoffe,"
 	line "du hast Spaß"
 
 	para "auf deiner Reise"
@@ -56,7 +56,7 @@ RangiComputerScript:
 	done
 
 AdminLunaText:
-	text "Luna: Warst du"
+	text "LUNA: Warst du"
 	line "beim ersten Mal"
 	cont "per Wunder-Tausch"
 	para "mit jemand aus"
@@ -83,7 +83,7 @@ LunaComputerScript:
 	done
 
 AdminFredrikText:
-	text "Fredrik: BILLs"
+	text "FREDRIK: BILLs"
 	line "PC-#MON-"
 	cont "LAGERUNGS-SYSTEM"
 	cont "ist quelloffen,"
@@ -107,7 +107,7 @@ FredrikComputerScript:
 	done
 
 AdminEmiText:
-	text "Emi: Hast du schon"
+	text "EMI: Hast du schon"
 	line "die Daten deines"
 	cont "#MON gesehen?"
 	para "Ich komme aus der"
@@ -130,7 +130,7 @@ EmiComputerScript:
 	done
 
 AdminAizawaText:
-	text "Aizawa: Dialoge,"
+	text "AIZAWA: Dialoge,"
 	line "Karten-Entwürfe,"
 	cont "Charakter-Sprites,"
 	cont "Trainer-Teams…"
@@ -152,7 +152,7 @@ AizawaComputerScript:
 	done
 
 AdminVulcanText:
-	text "Vulcan: Wie ist"
+	text "VULCAN: Wie ist"
 	line "das Wetter?"
 
 	para "Das ist kein"
@@ -180,7 +180,7 @@ VulcanComputerScript:
 	done
 
 AdminSourText:
-	text "Sour: Wie gefallen"
+	text "SOUR: Wie gefallen"
 	line "dir die Attacken-"
 	cont "Animationen im"
 	cont "Kampf?"
@@ -212,5 +212,5 @@ AdminEldredScript:
 	done
 
 AdminMeowthText:
-	text "Eldred: Mauz!"
+	text "ELDRED: Mauz!"
 	done

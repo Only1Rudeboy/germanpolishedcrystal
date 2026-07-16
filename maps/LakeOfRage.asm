@@ -281,7 +281,7 @@ WesleyScript:
 	setevent EVENT_GOT_BLACK_BELT_FROM_WESLEY
 	jumpthisopenedtext
 
-	text "Wesley: Der"
+	text "WESLEY: Der"
 	line "Schwarzgurt"
 	para "verstärkt die"
 	line "Kraft von"

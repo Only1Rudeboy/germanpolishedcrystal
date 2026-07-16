@@ -77,12 +77,12 @@ CeladonUniversityWestwoodsOfficeBookText:
 
 CeladonUniversityWestwoodsOfficeSignpost1Text:
 	text "Ein Porträt von"
-	line "Westwood I."
+	line "WESTWOOD I."
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost2Text:
 	text "Ein Porträt von"
-	line "Westwood III."
+	line "WESTWOOD III."
 	done
 
 CeladonUniversityWestwoodsOfficeBookshelfText:

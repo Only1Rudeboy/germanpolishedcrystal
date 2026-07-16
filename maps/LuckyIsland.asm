@@ -148,40 +148,40 @@ GenericTrainerArtistAlina:
 GenericTrainerSightseersLiandsu1:
 	generictrainer SIGHTSEERS, LIANDSU1, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
-	text "Li: Su und ich"
+	text "LI: Su und ich"
 	line "streiten uns"
 	cont "ständig darüber."
 	done
 
 .SeenText:
-	text "Li: Was war zuerst"
+	text "LI: Was war zuerst"
 	line "da?"
 	para "Das #MON oder"
 	line "das Ei?"
 	done
 
 .BeatenText:
-	text "Li: Ich sage, das"
+	text "LI: Ich sage, das"
 	line "#MON!"
 	done
 
 GenericTrainerSightseersLiandsu2:
 	generictrainer SIGHTSEERS, LIANDSU2, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
-	text "Su: Gibt es"
+	text "SU: Gibt es"
 	line "#MON, die nicht"
 	cont "aus Eiern kommen?"
 	done
 
 .SeenText:
-	text "Su: Was war zuerst"
+	text "SU: Was war zuerst"
 	line "da?"
 	para "Das #MON oder"
 	line "das Ei?"
 	done
 
 .BeatenText:
-	text "Su: Ich glaube,"
+	text "SU: Ich glaube,"
 	line "das Ei war zuerst!"
 	done
 

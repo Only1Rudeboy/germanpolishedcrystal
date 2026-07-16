@@ -24,8 +24,9 @@ IvysHouseFaithText:
 	done
 
 IvysHouseCharityText:
-	text "CHARITY: Faith ist"
-	line "meine Schwester."
+	text "CHARITY: FAITH"
+	line "ist meine"
+	cont "Schwester."
 	para "Wir sind im Urlaub"
 	line "bei PROF. IVY!"
 	done

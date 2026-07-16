@@ -72,7 +72,7 @@ CeladonDeptStore3FTutorCounterScript:
 VideoGameClerkNoMoneyScript:
 	jumpthisopenedtext
 
-	text "Verkäufer: Das"
+	text "VERKÄUFER: Das"
 	line "kannst du dir"
 	cont "nicht leisten!"
 	done
@@ -203,13 +203,13 @@ VideoGameClerkText:
 	done
 
 VideoGameClerkNoSaleText:
-	text "Verkäufer: Na gut,"
+	text "VERKÄUFER: Na gut,"
 	line "wenn du meinst."
 	done
 
 
 VideoGameClerkSellSnesText:
-	text "Verkäufer: Das"
+	text "VERKÄUFER: Das"
 	line "SNES gehört dir"
 	cont "für nur ¥20.000!"
 
@@ -217,14 +217,14 @@ VideoGameClerkSellSnesText:
 	done
 
 VideoGameClerkSellN64Text:
-	text "Verkäufer: Das N64"
+	text "VERKÄUFER: Das N64"
 	line "gehört dir für nur"
 	cont "¥25.000!"
 	para "Willst du eins?"
 	done
 
 VideoGameClerkSellGameCubeText:
-	text "Verkäufer: Der"
+	text "VERKÄUFER: Der"
 	line "GameCube gehört"
 	cont "dir für"
 
@@ -233,7 +233,7 @@ VideoGameClerkSellGameCubeText:
 	done
 
 VideoGameClerkSellWiiText:
-	text "Verkäufer: Die Wii"
+	text "VERKÄUFER: Die Wii"
 	line "gehört dir für nur"
 	cont "¥40.000!"
 	para "Willst du eins?"

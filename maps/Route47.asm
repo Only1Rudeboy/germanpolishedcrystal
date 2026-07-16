@@ -231,14 +231,14 @@ TrainerCamperGrant:
 GenericTrainerAceDuoThomandkae1:
 	generictrainer ACE_DUO, THOMANDKAE1, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae1SeenText, AceDuoThomandkae1BeatenText
 
-	text "Thom: Deine Kraft"
+	text "THOM: Deine Kraft"
 	line "ist unberechenbar!"
 	done
 
 GenericTrainerAceDuoThomandkae2:
 	generictrainer ACE_DUO, THOMANDKAE2, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae2SeenText, AceDuoThomandkae2BeatenText
 
-	text "Kae: Ich dachte,"
+	text "KAE: Ich dachte,"
 	line "du bist ein"
 	cont "gewöhn-"
 	para "licher"
@@ -249,7 +249,7 @@ GenericTrainerAceDuoThomandkae2:
 GenericTrainerCoupleDuffandeda1:
 	generictrainer COUPLE, DUFFANDEDA1, EVENT_BEAT_COUPLE_DUFF_AND_EDA, CoupleDuffandeda1SeenText, CoupleDuffandeda1BeatenText
 
-	text "Duff: Danke für"
+	text "DUFF: Danke für"
 	line "den"
 	cont "beeindruckenden"
 	cont "Kampf!"
@@ -258,7 +258,7 @@ GenericTrainerCoupleDuffandeda1:
 GenericTrainerCoupleDuffandeda2:
 	generictrainer COUPLE, DUFFANDEDA2, EVENT_BEAT_COUPLE_DUFF_AND_EDA, CoupleDuffandeda2SeenText, CoupleDuffandeda2BeatenText
 
-	text "Eda: Du solltest"
+	text "EDA: Du solltest"
 	line "auch einen tollen"
 	cont "Partner finden."
 	done
@@ -324,7 +324,7 @@ CamperGrantBeatenText:
 	done
 
 AceDuoThomandkae1SeenText:
-	text "Thom: Eins plus"
+	text "THOM: Eins plus"
 	line "eins ist zwei."
 	para "Aber wir beide"
 	line "zusammen sind viel"
@@ -332,23 +332,23 @@ AceDuoThomandkae1SeenText:
 	done
 
 AceDuoThomandkae1BeatenText:
-	text "Thom: Das hatte"
+	text "THOM: Das hatte"
 	line "ich nicht"
 	cont "erwartet…"
 	done
 
 AceDuoThomandkae2SeenText:
-	text "Kae: Wir sind kein"
+	text "KAE: Wir sind kein"
 	line "langweiliges Paar!"
 	done
 
 AceDuoThomandkae2BeatenText:
-	text "Kae: Du bist auch"
+	text "KAE: Du bist auch"
 	line "ungewöhnlich!"
 	done
 
 CoupleDuffandeda1SeenText:
-	text "Duff: Auf meine"
+	text "DUFF: Auf meine"
 	line "Freundin aufzu-"
 
 	para "passen lässt mein"
@@ -356,19 +356,19 @@ CoupleDuffandeda1SeenText:
 	done
 
 CoupleDuffandeda1BeatenText:
-	text "Duff: Ich war kein"
+	text "DUFF: Ich war kein"
 	line "Match für dich …"
 	done
 
 CoupleDuffandeda2SeenText:
-	text "Eda: Meine Gefühle"
+	text "EDA: Meine Gefühle"
 	line "für meinen Freund"
 	para "sind so weit und"
 	line "tief wie das Meer."
 	done
 
 CoupleDuffandeda2BeatenText:
-	text "Eda: Du bist"
+	text "EDA: Du bist"
 	line "wirklich was"
 	cont "Besonderes…"
 	done

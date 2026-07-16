@@ -118,7 +118,7 @@ ShamoutiIslandWilhomenaScript:
 	done
 
 ShamoutiIslandPikabluText:
-	text "Pikablu: Rill!"
+	text "PIKABLU: Rill!"
 	done
 
 ShamoutiIslandFisherText:

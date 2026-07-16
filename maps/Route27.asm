@@ -321,7 +321,7 @@ GenericTrainerAceDuoJakeandbri1:
 	generictrainer ACE_DUO, JAKEANDBRI1, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri1SeenText, AceDuoJakeandbri1BeatenText
 
 	; GSC-DE Dump 6639 (PC duo prefix)
-	text "Jake: Ein guter"
+	text "JAKE: Ein guter"
 	line "Trainer erkennt"
 	cont "andere gute"
 	cont "Trainer."
@@ -331,7 +331,7 @@ GenericTrainerAceDuoJakeandbri2:
 	generictrainer ACE_DUO, JAKEANDBRI2, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri2SeenText, AceDuoJakeandbri2BeatenText
 
 	; PC-only duo (C)
-	text "Bri: Gute Trainer"
+	text "BRI: Gute Trainer"
 	line "wissen auch,"
 
 	para "wie man Seite an"
@@ -481,25 +481,25 @@ CooltrainermBlakeBeatenText:
 
 AceDuoJakeandbri1SeenText:
 	; GSC-DE Dump 6637 (PC duo prefix)
-	text "Jake: Hm? Du bist"
+	text "JAKE: Hm? Du bist"
 	line "gut, nicht wahr?"
 	done
 
 AceDuoJakeandbri1BeatenText:
 	; GSC-DE Dump 6638 (PC duo prefix)
-	text "Jake: Wie ich"
+	text "JAKE: Wie ich"
 	line "dachte!"
 	done
 
 AceDuoJakeandbri2SeenText:
 	; PC-only duo (C)
-	text "Bri: Zu zweit sind"
+	text "BRI: Zu zweit sind"
 	line "wir unaufhaltbar!"
 	done
 
 AceDuoJakeandbri2BeatenText:
 	; PC-only duo (C)
-	text "Bri: Unser"
+	text "BRI: Unser"
 	line "Teamwork reichte"
 	cont "nicht…"
 	done

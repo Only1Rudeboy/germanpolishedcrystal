@@ -212,7 +212,7 @@ NoisyForestPikabluScript:
 	sjump .Leave
 
 .PikabluText:
-	text "Marill: Rill!"
+	text "MARILL: Rill!"
 	done
 
 .OwnerText1:

@@ -93,7 +93,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	line "kennst mich nicht?"
 	para "Ich bin der super"
 	line "Musikstar,"
-	cont "Imakuni!"
+	cont "IMAKUNI!"
 	para "Ich sing den"
 	line "#-Rap--"
 	cont "du tanzt!"
