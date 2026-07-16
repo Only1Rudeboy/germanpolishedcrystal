@@ -22,6 +22,7 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
+| **ROM 3.2.3.031** | **Buena-Passwörter GSC-DE dump:** NEUBORKIA/ROSALIA CITY/AZALEA CITY; Typen FLUG/KÄFER/PFLANZE; Radios EICHs PKMN-Talk / #MON-Musik / Glückskanal. |
 | **ROM 3.2.3.030** | **Phone-Trainer-Anzeigenamen GSC-DE:** Joey→**REINHOLD**, Wade→**ALFONS**, Ralph→**RALF**, Anthony→**ANTON**, Chad→**UDO**, Tiffany→**TIFFY**, Erin→**LOTTE** (Dump-backed; weitere Phone-Namen folgen). |
 | **ROM 3.2.3.029** | **Optional-Batch (gleichwertig Story):** Alle Phone-**Caller** + **Overworld** dump-nah DE; **Buena**-Telefon + Radio-Blöcke in `common.asm`; **Lyra**-Phone; **Shamouti**-Inseln (Hotel/Restaurant/Küste/PC/Schrein/Tunnel/Tourist); **Faraway**/Valencia/DimCave3–4/Cliff/YellowForest; Erin→**LOTTE**; QC ohne PLAY_G/EN-Hotspots. (028 = Textstand vor LOTTE.) |
 | **ROM 3.2.3.027** | **Optional-Scan/PC-Pass:** EN-„Sorry“→DE; Telefon-Caller/Overworld `#MON`; DimCave/KRAFTWERK/AZURIA CAPS; GELBER WALD CAPS; Shamouti-Tunnel CAPS. |
