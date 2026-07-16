@@ -2252,20 +2252,20 @@ SECTION "YoungsterGroup", ROMX
 YoungsterGroup:
 
 	def_trainer_class YOUNGSTER
-	def_trainer JOEY1, "Joey"
+	def_trainer JOEY1, "REINHOLD"
 	tr_mon 5, RATTATA, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 	end_trainer
 
-	def_trainer JOEY2, "Joey"
+	def_trainer JOEY2, "REINHOLD"
 	tr_mon 15, RATTATA @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_evs 48 Atk, 48 Spe
 	end_trainer
 
-	def_trainer JOEY3, "Joey"
+	def_trainer JOEY3, "REINHOLD"
 	tr_mon 25, RATICATE @ ORAN_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -2273,7 +2273,7 @@ YoungsterGroup:
 		tr_moves LEER, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	end_trainer
 
-	def_trainer JOEY4, "Joey"
+	def_trainer JOEY4, "REINHOLD"
 	tr_mon 30, RATICATE @ SITRUS_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -2281,7 +2281,7 @@ YoungsterGroup:
 		tr_moves LEER, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	end_trainer
 
-	def_trainer JOEY5, "Joey"
+	def_trainer JOEY5, "REINHOLD"
 	tr_mon 40, RATICATE @ SITRUS_BERRY, MALE
 		tr_extra GUTS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
@@ -2366,28 +2366,28 @@ SECTION "BugCatcherGroup", ROMX
 BugCatcherGroup:
 
 	def_trainer_class BUG_CATCHER
-	def_trainer WADE1, "Wade"
+	def_trainer WADE1, "ALFONS"
 	tr_mon 2, CATERPIE
 	tr_mon 2, CATERPIE
 	tr_mon 3, WEEDLE
 	tr_mon 2, CATERPIE
 	end_trainer
 
-	def_trainer WADE2, "Wade"
+	def_trainer WADE2, "ALFONS"
 	tr_mon 9, METAPOD
 	tr_mon 9, METAPOD
 	tr_mon 10, KAKUNA
 	tr_mon 9, METAPOD
 	end_trainer
 
-	def_trainer WADE3, "Wade"
+	def_trainer WADE3, "ALFONS"
 	tr_mon 14, BUTTERFREE
 	tr_mon 14, BUTTERFREE
 	tr_mon 15, BEEDRILL
 	tr_mon 14, BUTTERFREE
 	end_trainer
 
-	def_trainer WADE4, "Wade"
+	def_trainer WADE4, "ALFONS"
 	tr_mon 24, BUTTERFREE
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, HEALINGLIGHT
 	tr_mon 24, BUTTERFREE
@@ -2398,7 +2398,7 @@ BugCatcherGroup:
 		tr_moves CONFUSION, SLEEP_POWDER, SUPERSONIC, HEALINGLIGHT
 	end_trainer
 
-	def_trainer WADE5, "Wade"
+	def_trainer WADE5, "ALFONS"
 	tr_mon 30, BUTTERFREE
 		tr_moves CONFUSION, POISONPOWDER, SUPERSONIC, GUST
 	tr_mon 30, BUTTERFREE
@@ -2688,22 +2688,22 @@ endc
 		tr_moves SLEEP_POWDER, ACID, HEALINGLIGHT, PETAL_DANCE
 	end_trainer
 
-	def_trainer TIFFANY1, "Tiffany"
+	def_trainer TIFFANY1, "TIFFY"
 	tr_mon 31, CLEFAIRY
 		tr_moves ENCORE, SING, TRI_ATTACK, MINIMIZE
 	end_trainer
 
-	def_trainer TIFFANY2, "Tiffany"
+	def_trainer TIFFANY2, "TIFFY"
 	tr_mon 40, CLEFAIRY
 		tr_moves REFLECT, TRI_ATTACK, MINIMIZE, METRONOME
 	end_trainer
 
-	def_trainer TIFFANY3, "Tiffany"
+	def_trainer TIFFANY3, "TIFFY"
 	tr_mon 44, CLEFABLE
 		tr_moves METRONOME, ENCORE, HEALINGLIGHT, MINIMIZE
 	end_trainer
 
-	def_trainer TIFFANY4, "Tiffany"
+	def_trainer TIFFANY4, "TIFFY"
 	tr_mon 49, CLEFABLE
 		tr_moves HEALINGLIGHT, TRI_ATTACK, MINIMIZE, METRONOME
 	end_trainer
@@ -2858,25 +2858,25 @@ SECTION "FisherGroup", ROMX
 FisherGroup:
 
 	def_trainer_class FISHER
-	def_trainer RALPH1, "Ralph"
+	def_trainer RALPH1, "RALF"
 	tr_mon 11, GOLDEEN
 	end_trainer
 
-	def_trainer RALPH2, "Ralph"
+	def_trainer RALPH2, "RALF"
 	tr_mon 17, GOLDEEN
 	end_trainer
 
-	def_trainer RALPH3, "Ralph"
+	def_trainer RALPH3, "RALF"
 	tr_mon 17, QWILFISH
 	tr_mon 19, GOLDEEN
 	end_trainer
 
-	def_trainer RALPH4, "Ralph"
+	def_trainer RALPH4, "RALF"
 	tr_mon 30, QWILFISH
 	tr_mon 32, SEAKING
 	end_trainer
 
-	def_trainer RALPH5, "Ralph"
+	def_trainer RALPH5, "RALF"
 	tr_mon 36, QWILFISH
 		tr_moves TOXIC, MINIMIZE, SURF, PIN_MISSILE
 	tr_mon 36, LANTURN
@@ -3253,29 +3253,29 @@ SECTION "HikerGroup", ROMX
 HikerGroup:
 
 	def_trainer_class HIKER
-	def_trainer ANTHONY1, "Anthony"
+	def_trainer ANTHONY1, "ANTON"
 	tr_mon 12, GEODUDE
 	tr_mon 12, MACHOP
 	end_trainer
 
-	def_trainer ANTHONY2, "Anthony"
+	def_trainer ANTHONY2, "ANTON"
 	tr_mon 16, GEODUDE
 	tr_mon 18, MACHOKE
 	end_trainer
 
-	def_trainer ANTHONY3, "Anthony"
+	def_trainer ANTHONY3, "ANTON"
 	tr_mon 25, GRAVELER
 	tr_mon 27, GRAVELER
 	tr_mon 29, MACHOKE
 	end_trainer
 
-	def_trainer ANTHONY4, "Anthony"
+	def_trainer ANTHONY4, "ANTON"
 	tr_mon 30, GRAVELER
 	tr_mon 30, GRAVELER
 	tr_mon 32, MACHOKE
 	end_trainer
 
-	def_trainer ANTHONY5, "Anthony"
+	def_trainer ANTHONY5, "ANTON"
 	tr_mon 34, GRAVELER
 		tr_moves MAGNITUDE, MUD_SLAP, SANDSTORM, ROCK_SLIDE
 	tr_mon 36, GOLEM
@@ -4621,26 +4621,26 @@ SchoolboyGroup:
 		tr_moves LEER, HEADBUTT, AMNESIA, EARTHQUAKE
 	end_trainer
 
-	def_trainer CHAD1, "Chad"
+	def_trainer CHAD1, "UDO"
 	tr_mon 20, MR__MIME
 	end_trainer
 
-	def_trainer CHAD2, "Chad"
+	def_trainer CHAD2, "UDO"
 	tr_mon 20, MR__MIME
 	tr_mon 20, MAGNEMITE
 	end_trainer
 
-	def_trainer CHAD3, "Chad"
+	def_trainer CHAD3, "UDO"
 	tr_mon 27, MR__MIME
 	tr_mon 31, MAGNETON
 	end_trainer
 
-	def_trainer CHAD4, "Chad"
+	def_trainer CHAD4, "UDO"
 	tr_mon 30, MR__MIME
 	tr_mon 34, MAGNETON
 	end_trainer
 
-	def_trainer CHAD5, "Chad"
+	def_trainer CHAD5, "UDO"
 	tr_mon 34, MR__MIME
 		tr_moves PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
 	tr_mon 38, MAGNETON

@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.029** | **Optional-Batch (gleichwertig Story):** Alle Phone-**Caller** + **Overworld** dump-nah DE; **Buena**-Telefon + Radio-Blöcke in `common.asm`; **Lyra**-Phone; **Shamouti**-Inseln (Hotel/Restaurant/Küste/PC/Schrein/Tunnel/Tourist); **Faraway**/Valencia/DimCave3–4/Cliff/YellowForest; Erin-Anzeigename → **LOTTE**; QC ohne PLAY_G/EN-Hotspots in Phone+Optionals. (028 = gleicher Textstand vor LOTTE-Anzeigename.) |
+| **ROM 3.2.3.030** | **Phone-Trainer-Anzeigenamen GSC-DE:** Joey→**REINHOLD**, Wade→**ALFONS**, Ralph→**RALF**, Anthony→**ANTON**, Chad→**UDO**, Tiffany→**TIFFY**, Erin→**LOTTE** (Dump-backed; weitere Phone-Namen folgen). |
+| **ROM 3.2.3.029** | **Optional-Batch (gleichwertig Story):** Alle Phone-**Caller** + **Overworld** dump-nah DE; **Buena**-Telefon + Radio-Blöcke in `common.asm`; **Lyra**-Phone; **Shamouti**-Inseln (Hotel/Restaurant/Küste/PC/Schrein/Tunnel/Tourist); **Faraway**/Valencia/DimCave3–4/Cliff/YellowForest; Erin→**LOTTE**; QC ohne PLAY_G/EN-Hotspots. (028 = Textstand vor LOTTE.) |
 | **ROM 3.2.3.027** | **Optional-Scan/PC-Pass:** EN-„Sorry“→DE; Telefon-Caller/Overworld `#MON`; DimCave/KRAFTWERK/AZURIA CAPS; GELBER WALD CAPS; Shamouti-Tunnel CAPS. |
 | **ROM 3.2.3.026** · `c014cc252` | **Rest-Pass / Optionals:** `#mon`→`#MON` global (Maps + data/text + Phone, ~700+ Treffer); Celadon-Universität + Hotel/Wohnaccessoires; **DUELLTURM** + Kampffabrik; Telefon (Mama, LIND, BILL, Trainer-Anrufe dump-nah); `common.asm`/`std_text` (Pension, Namen-Bewerter, VM-Feldtexte, Schwester); Misc (Earl-Akademie, Fanclub, Mania, Soul House, #COM-Center, Museum, Dojo, Yellow Forest, …). |
 | **ROM 3.2.3.025** · `77b90539c` | **Rest-Kanto:** MARMORIA, AZURIA, ORANIA, LAVANDIA, PRISMANIA, FUCHSANIA, SAFFRONIA, ZINNOBER; Arenen (FELS–ERDORDEN, **FARBORDEN**); SAFARI-ZONE; KRAFTWERK; SILPH; Liga-Tor (SILBERBERG/TOP VIER). Badge-Kurzname **Farbe**. |
@@ -99,7 +100,7 @@ NEUBORKIA · ROSALIA CITY · VIOLA CITY · AZALEA CITY · DUKATIA CITY · TEAK C
 #### Bekannte Residuen / Feedback willkommen
 
 - Grafik-Text in manchen Tiles/Logos kann EN bleiben  
-- Weitere Phone-Trainer-**Anzeigenamen** (Joey/Wade/… noch EN in `parties.asm`; Dialoge bereits DE)  
+- Weitere Phone-Trainer-**Anzeigenamen** (Liz/Gina/Todd/… teils noch EN; REINHOLD/ALFONS/RALF/ANTON/UDO/TIFFY/LOTTE bereits DE)  
 - PC-only-Ecken (Navel/Faraway-Jungle nur Schreie, Shamouti-Hotel-Stubs) und Feinschliff nach Playtest  
 - Spieler-Feedback zu Stil, Breite und Kanon-Namen ist erwünscht  
 
