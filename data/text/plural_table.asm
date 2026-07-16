@@ -55,5 +55,6 @@ endc
 	plural "el",        "eln"        ; Sprudel
 	plural "s",         "s"          ; Carbon, Protein, Eisen, Kalzium, Zink, Nugget, etc.
 	plural "",          "s"          ; alles andere (Nuggets, Evolithe, etc.)
+PluralTableEnd:
 
 	setcharmap default

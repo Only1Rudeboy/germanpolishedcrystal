@@ -24,8 +24,9 @@ PickBerryScript:
 	getitemname USE_SCRIPT_VAR, STRING_BUFFER_3
 	farwritetext _HeyItsFruitText
 	callasm GetFruitTreeCount
-	setquantity
-	pluralize wStringBuffer3
+	; DE texts use "2x/3x erhalten:" — no English-style name plural needed.
+	; (setquantity+pluralize right after HeyItsFruit could rst 38h via PlaceString
+	;  while bankswitched to PluralTable.)
 	ifequalfwd $1, .try_one
 	ifequalfwd $2, .try_two
 	readmem wCurFruit

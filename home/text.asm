@@ -433,6 +433,10 @@ TextCommand_PLURAL:
 	ret z
 
 	; Try to pattern match the previous string with the plural table below.
+	; PluralTable lives in ROMX (not home): bankswitch to read it, then copy the
+	; replacement with a raw loop. Do NOT use PlaceString here — that can fire
+	; PrintLetterDelay / text controls while the ROM bank is still PluralTable,
+	; which has caused rst 38h crashes (e.g. fruit-tree pick after HeyItsFruit).
 	push hl
 	push bc
 
@@ -468,17 +472,19 @@ TextCommand_PLURAL:
 	jr nz, .no_match
 
 .match
-	; We have a match. Print out the adjusted string.
+	; Match: hl = replacement in PluralTable bank, bc = write pos in string.
 	inc bc
-	ld d, h
-	ld e, l
-	ld h, b
-	ld l, c
-	pop bc
-	rst PlaceString
+.copy_repl
+	ld a, [hli]
+	ld [bc], a
+	inc bc
+	cp '@'
+	jr nz, .copy_repl
+	; fallthrough to restore bank and return
+.restore
 	pop af
-	ldh [hROMBank], a
-	ld [rROMB], a
+	rst Bankswitch
+	pop bc
 	pop hl
 	ret
 
@@ -490,6 +496,12 @@ TextCommand_PLURAL:
 	jr nz, .no_match_loop
 	dec b
 	jr nz, .no_match_loop
+	; Safety: past end of table (no catch-all) → abort without hanging
+	ld a, l
+	cp LOW(PluralTableEnd)
+	ld a, h
+	sbc HIGH(PluralTableEnd)
+	jr nc, .restore
 	pop bc
 	push bc
 	jr .check_match_loop
