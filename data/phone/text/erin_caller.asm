@@ -3,62 +3,67 @@ ErinMonIsMuchStrongerText:
 	text "s "
 	text_ram wStringBuffer4
 	line "ist viel stärker"
-	cont "als früher!"
+	cont "als zuvor!"
 	done
 
 ErinDefeatedMonText:
-	text "Und, und… ich hab"
-	line "gerade ein wildes"
-	cont ""
+	text "Und, und…"
+	line "Ich habe gerade"
+	cont "ein "
 	text_ram wStringBuffer4
-	text " besiegt!"
+	cont "besiegt!"
 
-	para "Ich hab meine"
-	line "#MON gut"
-	cont "trainiert!"
+	para "Ich trainiere"
+	line "meine #MON"
+	cont "intensiv!"
 	done
 
 ErinLostAMonText:
-	text "Aber, aber… ein"
-	line "wildes "
-	text_ram wStringBuffer4
+	text "Aber, aber…"
 
-	para "ist mir wieder"
-	line "entkommen. Das"
-	cont "nicht fair!"
+	para "Ein wildes"
+	line ""
+	text_ram wStringBuffer4
+	text " ent-"
+	cont "kam mir erneut."
+	cont "Wie unfair!"
 	done
 
 ErinBattleRematchText:
-	text "Ich bin Erin."
-	line "Willst du wieder"
-	cont "kämpfen?"
+	text "Ich bin LOTTE."
+	line "Willst du erneut"
+
+	para "gegen mich"
+	line "kämpfen?"
 
 	para "Diesmal verliere"
 	line "ich nicht!"
 
-	para "Ich warte auf"
+	para "Ich warte hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ErinHangUpText:
-	text "Tschüss!"
+	text "Bis denn. Tschüss!"
 	done
 
 ErinWorkingHardText:
-	text "Ich trainiere"
-	line "hart meine"
+	text "Ich arbeite hart"
+	line "an meinen"
 	cont "#MON!"
-	para "Komm wieder zum"
-	line "Kämpfen!"
+
+	para "Komme für einen"
+	line "Rückkampf zurück!"
 	done
 
 ErinComeBattleText:
 	text "Oh, <PLAYER>!"
-	line "Kämpf mit Erin!"
+	line "Komm und kämpfe"
+	cont "gegen LOTTE!"
 
-	para "Ich warte auf"
+	para "Ich warte hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

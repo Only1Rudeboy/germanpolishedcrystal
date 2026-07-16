@@ -1,265 +1,326 @@
 LizMonAlwaysWantsToNuzzleText:
+	; GSC-DE Dump
 	text "Oh, das musst du"
 	line "hören."
 
-	para "Mein"
-	line ""
+	para "Mein "
 	text_ram wStringBuffer4
-	cont "ist so"
-	cont "niedlich!"
+	line "ist so bezaubernd!"
 
-	para "Es will immer an"
-	line "mich schmiegen!"
+	para "Es kuschelt sich"
+	line "ständig an mich!"
 	done
 
 LizDefeatedMonText:
 	text "Und, und! Ähm…"
 
-	para "Wir besiegten ein"
-	line "wildes"
-	cont ""
-	text_ram wStringBuffer4
-	cont "mit"
+	para "Wir besiegten vor"
+	line "geraumer Zeit ein"
 
-	para "einem Treffer vor"
-	line "kurzem. Schade"
-	cont "drum."
+	para "wildes "
+	text_ram wStringBuffer4
+	line "mit nur einem"
+	cont "Schlag."
+
+	para "Aber, wir hatten"
+	line "Mitleid mit ihm."
 	done
 
 LizLostAMonText:
-	text "Und, und! Äh…"
+	text "Und, und! Uh…"
 
-	para "Wir sahen ein"
-	line "wunderschönes"
+	para "Wir haben ein"
+	line "wirklich tolles"
 	cont ""
 	text_ram wStringBuffer4
-	text "."
+	cont "gesehen."
 
-	para "Ich war am"
-	line "Telefon, es"
-	cont "entkam. Das"
+	para "Aber ich telefo-"
+	line "nierte und es ist"
 
-	para "machte uns echt"
-	line "wütend!"
+	para "geflohen. Das"
+	line "machte uns wütend!"
 	done
 
 LizBattleRematchText:
-	text "Hallo! Hast du"
+	text "Hi! Hast du etwas"
 	line "Zeit?"
 
-	para "Ich hab jede"
-	line "Menge. Lust auf"
-	cont "einen Kampf?"
+	para "Ich habe sehr viel"
+	line "Zeit. Wenn auch du"
 
-	para "Ich warte auf"
+	para "Zeit hast, dann"
+	line "komme zum Kämpfen?"
+
+	para "Ich bin hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
-	para "Sag Bescheid,"
-	line "wenn du da bist!"
+
+	para "Ruf an, wenn du"
+	line "vorbeikommst!"
 	done
 
 LizWrongNumberText:
-	text "Hi, Tania. Wie"
-	line "geht's? Ich"
-	cont "bin's, Liz."
-	para "Mir geht's gut,"
-	line "aber mir ist"
-	cont "langweilig!"
-	para "Häh … Falsche"
-	line "Nummer? Ups! Tut"
-	cont "mir leid!"
+	text "Hi, TANJA. Wie"
+	line "geht es dir? Hier"
+
+	para "ist ANETTE. Mir"
+	line "geht es gut, aber"
+
+	para "ich langweile mich"
+	line "zu Tode!"
+
+	para "Huch… Verwählt?"
+	line "Ups! Sorry!"
 	done
 
 LizHangUpText:
-	text "Na, ich ruf"
+	text "O.K., ich rufe"
 	line "später an!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Hör mal, hör mal!"
-	para "In den"
-	line "Alph-Ruinen hörte"
-	cont "ich Radio,"
-	para "da kam plötzlich"
-	line "eine seltsame"
-	cont "Sendung."
-	para "Was war das? So"
-	line "merkwürdig!"
+	text "Hör mal!"
+
+	para "Ich hörte in den"
+	line "ALPH-RUINEN Radio,"
+
+	para "als das Programm"
+	line "durch eine selt-"
+	cont "same Sendung un-"
+	cont "terbrochen wurde."
+
+	para "Ich frage mich,"
+	line "was das war? Sehr"
+	cont "merkwürdig!"
 	done
 
 LizFalknerGossipText:
-	text "Hör mal, hör mal!"
-	para "Findest du"
-	line "FALK von Viola"
-	cont "City nicht"
-	para "cool und hübsch?"
-	line "Sein Vater, der"
-	para "unterwegs"
-	line "trainiert, soll"
-	cont "noch cooler und"
-	cont "hübscher sein!"
-	para "Ich wünschte, ich"
-	line "könnte ihn"
-	cont "treffen!"
+	text "Hör zu!"
+
+	para "Denkst du nicht"
+	line "auch, dass FALK,"
+
+	para "der ARENALEITER"
+	line "von VIOLA CITY,"
+
+	para "cool und schön"
+	line "ist?"
+
+	para "Aber, man sagt,"
+	line "dass sein Vater,"
+
+	para "der im Freien"
+	line "trainiert, noch"
+
+	para "cooler und schöner"
+	line "als FALK ist."
+
+	para "Ich würde ihn ger-"
+	line "ne kennen lernen!"
 	done
 
 LizEarlGossipText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
 
-	para "Kennst du Earl,"
-	line "den Lehrer der"
+	para "Kennst du EARL,"
+	line "den Lehrer von der"
 
-	para "#MON-Akademie"
-	line "in Viola City?"
+	para "#MON-AKADEMIE"
+	line "in VIOLA?"
 
-	para "Ich sah ihn"
-	line "Pirouetten drehen"
-	cont "beim Joggen. So"
-	cont "lustig!"
+	para "Ich sah, wie er"
+	line "Pirouetten machte,"
+
+	para "als er rannte. Das"
+	line "war sehr komisch!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
+
 	para "Ich sammle"
-	line "#MON-Plüsch-"
-	cont "tiere."
-	para "Aber kein Surf-"
-	line "Pikachu-Puppe."
-	cont "Keiner"
-	para "meiner Freunde"
-	line "hat eine. Total"
-	cont "selten!"
-	para "Damit könntest du"
-	line "prahlen!"
+	line "#MON-Puppen"
+	cont "aus Plüsch."
+
+	para "Aber ich habe"
+	line "keine SURFER-"
+
+	para "PIKACHU-PUPPE."
+	line "Auch keiner meiner"
+
+	para "Freunde hat eine!"
+	line "Sie ist eine"
+	cont "Seltenheit!"
+
+	para "Du könntest wirk-"
+	line "lich damit ange-"
+	cont "ben, wenn du eine"
+	cont "hättest!"
 	done
 
 LizMooMooMilkGossipText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
 
-	para "Kennst du Kuhmuh-"
-	line "Milch?"
+	para "Weißt du Bescheid"
+	line "über die KUHMUH-"
+	cont "MILCH? Du kannst"
 
-	para "Man kauft sie auf"
-	line "der Kuhmuh-Farm."
+	para "sie auf der KUH-"
+	line "MUH-FARM kaufen."
 
 	para "Sie soll gut für"
-	line "Gesundheit und"
+	line "die Gesundheit und"
 
 	para "Schönheit sein."
-	line "Ich will sie"
-	cont "unbedingt"
-	cont "probieren!"
+	line "Ich möchte sie"
+
+	para "probieren. Ich"
+	line "wette, sie ist"
+	cont "köstlich!"
 	done
 
 LizSalonGossipText:
-	text "Hör mal, hör mal!"
-	para "In Dukatia City"
-	line "gibt's einen"
-	cont "#MON-Salon mit"
-	cont "zwei Brüdern."
+	text "Hör zu!"
+
+	para "In DUKATIA gibt es"
+	line "einen #MON-"
+	cont "SALON, der von"
+	cont "zwei Brüdern"
+	cont "geleitet wird."
+
 	para "Der Ältere ist"
 	line "gut, der Jüngere"
-	cont "nicht."
-	para "Manchmal macht"
-	line "der Jüngere es"
-	cont "besser."
-	para "Ich kann mich nie"
-	line "entscheiden, wen"
-	cont "ich nehmen soll …"
+
+	para "ist nicht ganz"
+	line "so gut."
+
+	para "Aber manchmal er-"
+	line "ledigt der Jüngere"
+
+	para "die Aufgabe bes-"
+	line "ser als sein"
+	cont "Bruder."
+
+	para "Bei jedem Besuch"
+	line "fällt es mir"
+
+	para "schwer, einen"
+	line "auszuwählen…"
 	done
 
 LizWhitneyGossipText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
 
-	para "BIANKA von"
-	line "Dukatia kämpft"
-	cont "erst seit"
+	para "BIANKA, die ARENA-"
+	line "LEITERIN von"
 
-	para "kurzem! Trotzdem"
-	line "wählte die Liga"
-	cont "sie als"
-	cont "Arenaleiterin!"
+	para "DUKATIA CITY hat"
+	line "erst vor kurzem"
 
-	para "Sie muss sehr"
-	line "talentiert sein."
+	para "mit dem Training"
+	line "begonnen!"
+
+	para "Aber die #MON"
+	line "LIGA hat sie zur"
+	cont "ARENALEITERIN"
+	cont "gewählt!"
+
+	para "Ich wette, sie hat"
+	line "sehr viel Talent."
 	done
 
 LizBugCatchingContestGossipText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
 
-	para "Warst du schon"
-	line "beim Käferturnier"
-	cont "im Nationalpark?"
+	para "Hast du je am"
+	line "Käferturnier im"
 
-	para "Ich fing nur ein"
-	line "Raupy. Aber damit"
-	cont "hab ich gewonnen!"
+	para "NATIONALPARK teil-"
+	line "genommen?"
 
-	para "Ist das nicht"
-	line "toll?"
+	para "Ich nahm ein Mal"
+	line "teil, aber ich"
+	cont "fing nur ein"
+	cont "RAUPY."
+
+	para "Aber, tata!"
+
+	para "Ich habe mit dem"
+	line "RAUPY gewonnen."
+	cont "Ist das nicht"
+	cont "großartig?"
 	done
 
 LizBeautifulMonGossipText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
 
-	para "Ich sah ein"
-	line "wunderschönes"
-	cont ""
+	para ""
 	text_ram wStringBuffer4
-	text "!"
+	line "begegnete mir!"
 
 	para "Ich wünschte, ich"
-	line "wäre auch so ein"
+	line "wäre wie"
 	cont ""
 	text_ram wStringBuffer4
 	text "."
 	done
 
 LizForgotGossipText:
-	text "Hör mal, hör mal!"
-	para "Äh … Ähm … Ups!"
-	para "Ich hab"
-	line "vergessen, was"
-	cont "ich sagen wollte!"
+	text "Hör zu!"
+
+	para "Uh… Ähm… Ups!"
+
+	para "Ich vergaß, was"
+	line "ich sagen wollte!"
 	done
 
 LizFawningOverMonText:
-	text "Hör mal, hör mal!"
+	text "Hör zu!"
 
-	para "Mein"
-	line ""
+	para "Mein "
 	text_ram wStringBuffer4
-	cont "… so hübsch…"
-	cont "und…"
+	text "…"
+	line "es… ist so schön…"
 
-	para "kicher… so toll…"
-	line "ja… aber… sehr…"
+	para "und… kicher… so"
+	line "toll… ja… aber…"
 
-	para "lieblich… Oh! Zu"
-	line "viel!"
+	para "sehr… ieeek!"
+	line "Und… liebenswert…"
 
-	para "…Kuscheln…"
-	line "schlafen…"
+	para "Einfach wunderbar…"
+	line "Oh, zu viel!"
 
-	para "hübsch… seufz… So"
-	line "schön… Süß…"
+	para "…Umarme es…"
+	line "wenn es schläft…"
+	cont "Jawohl…"
 
-	para "…Ups! Schau die"
-	line "Zeit! Zu lang"
-	cont "gequatscht!"
+	para "schön… seufz… so"
+	line "schön… niedlich…"
 
-	para "Entschuldigung"
-	line "die Zeit! Ich"
-	cont "liebe Quatschen!"
+	para "…Ups! Sieh auf die"
+	line "Uhr! Ich plauderte"
+	cont "zu lang!"
+
+	para "Entschuldigung,"
+	line "dass ich so viel"
+
+	para "deiner Zeit in"
+	line "Anspruch nahm!"
+
+	para "Ich liebe es zu"
+	line "plaudern!"
 	done
 
 LizReminderText:
-	text "Ich hab zu viel"
-	line "Zeit!"
-	para "Lass uns sofort"
-	line "kämpfen! Ich"
-	cont "warte auf "
+	text "Ich habe zu viel"
+	line "Zeit! Lass uns"
+	cont "sofort kämpfen!"
+
+	para "Hier warte ich:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done

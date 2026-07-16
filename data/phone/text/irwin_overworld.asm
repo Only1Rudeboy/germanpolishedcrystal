@@ -1,44 +1,44 @@
 IrwinAskNumber1Text:
-	text "Du bist der"
-	line "Beste, den ich je"
-	cont "bekämpft habe!"
-	para "Häh? Du hast alle"
-	line "Flegmon gerettet?"
-	para "Kein Wunder, dass"
-	line "ich verlor!"
-	para "Darf ich deine"
-	line "Nummer? Ich will"
-	para "nichts von dir"
-	line "verpassen!"
+	text "Du warst mein"
+	line "stärkster Gegner!"
+	para "Du hast also die"
+	line "FLEGMON gerettet?"
+	para "Darum konnte ich"
+	line "nicht siegen!"
+	para "Könnte ich deine"
+	line "Nummer bekommen?"
+	para "Ich möchte über"
+	line "alles, was dir"
+	cont "widerfährt,"
+	cont "informiert sein!"
 	done
 
 IrwinAskNumber2Text:
-	text "Gibst du mir"
+	text "Verrätst du mir"
 	line "deine Nummer?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Toll! Danke! Jetzt"
-	line "kann ich dich"
-	para "jederzeit"
-	line "anrufen, ob was"
-	cont "los ist oder"
-	cont "nicht!"
+	text "Wow! Yo! Danke!"
+	line "Jetzt kann ich"
+	para "dich jederzeit an-"
+	line "rufen, egal, ob es"
+	para "wichtig ist oder"
+	line "nur zum Plaudern!"
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, aber… ich bin"
+	text "Oh… ich bin"
 	line "nicht gefährlich!"
-
-	para "Ich will nur"
-	line "quatschen - über"
-	cont "alles und nichts!"
+	para "Ich möchte nur mit"
+	line "dir am Telefon"
+	para "über dies und"
+	line "jenes schwatzen!"
 	done
 
 IrwinPhoneFullText:
-	text "Deine Liste ist"
-	line "schon voll…"
-
-	para "Du bist wohl sehr"
-	line "beliebt…"
+	text "Dein Nummern-"
+	line "speicher ist voll…"
+	para "Du musst sehr"
+	line "beliebt sein…"
 	done

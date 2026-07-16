@@ -1,85 +1,103 @@
 BethExhilaratingRideText:
+	; GSC-DE Dump
 	text "Erinnerst du dich"
-	line "an mein süßes "
+	line "an mein süßes"
+	cont ""
 	text_ram wStringBuffer4
 	text "?"
 
 	para ""
 	text_ram wStringBuffer4
-	text " rennt sehr"
-	line "schnell."
+	text " rennt"
+	line "sehr schnell."
 
-	para "Auf seinem Rücken"
-	line "zu reiten ist ein"
-	cont "echtes Erlebnis!"
+	para "Es ist wahrlich"
+	line "berauschend auf"
+
+	para "ihm zu reiten,"
+	line "wenn es loslegt."
 	done
 
 BethDefeatedMonText:
 	text "Oh, hast du schon"
-	line "mal ein "
+	line "je ein "
 	text_ram wStringBuffer4
 	cont "gesehen?"
 
-	para "Ich hab eins"
-	line "besiegt… Es war"
+	para "Ich habe gerade"
+	line "gegen eines"
+	cont "gekämpft…"
 
-	para "viel schneller"
-	line "erwartet. Ich war"
+	para "Es war schneller,"
+	line "als ich dachte."
 
-	para "etwas schockiert."
-	line "Aber ich hab"
-	cont "natürlich"
-	cont "gewonnen."
+	para "Ich war ein wenig"
+	line "perplex."
+
+	para "Natürlich habe ich"
+	line "dennoch gewonnen."
 	done
 
 BethLostAMonText:
-	text "Oh, ich sah ein"
-	line "wildes "
+	text "Oh, ich habe"
+	line "soeben ein wildes"
+
+	para ""
 	text_ram wStringBuffer4
-	text "."
+	line "gesehen."
 
 	para "Ich wollte es"
 	line "fangen, aber ich"
 
-	para "hatte keine #"
-	line "Bälle mehr."
+	para "musste feststel-"
+	line "len, dass ich"
 
-	para "Prüf deine Items,"
-	line "sonst fehlen sie"
+	para "keine #BÄLLE"
+	line "mehr hatte."
 
-	para "im schlimmsten"
-	line "Moment. Lern aus"
-	cont "meinem Fehler!"
+	para "Wenn du deinen"
+	line "Item-Bestand nicht"
+
+	para "kennst, kann es"
+	line "dir ähnlich erge-"
+	cont "hen! Lerne aus"
+	cont "meinem Fehler."
 	done
 
 BethBattleRematchText:
-	text "Willst du"
-	line "kämpfen? Diesmal"
-	cont "gewinne ich!"
-	para "Ich warte auf "
-	text_ram wStringBuffer5
-	text "."
+	text "Willst du kämpfen?"
+	line "Dieses Mal gewinne"
+	cont "ich!"
 
-	para "Such mich, O.K.?"
-	done
-
-BethHangUpText:
-	text "O.K., tschüss!"
-	done
-
-BethLetsBattleAgainSometimeText:
-	text "Lass uns bald"
-	line "wieder kämpfen!"
-	done
-
-BethReminderText:
-	text "Ähm… <PLAYER>? Was"
-	line "ist los?"
-
-	para "Hast du unseren"
-	line "Deal vergessen?"
+	para "Hier erwarte ich"
+	line "dich:"
 
 	para ""
 	text_ram wStringBuffer5
-	text ". Da warte ich."
+	text "."
+	line "Komm vorbei, O.K.?"
+	done
+
+BethHangUpText:
+	text "O.K., bye-bye!"
+	done
+
+BethLetsBattleAgainSometimeText:
+	text "Lass uns wieder"
+	line "mal kämpfen!"
+	done
+
+BethReminderText:
+	text "Ähm… <PLAYER>?"
+	line "Was ist los?"
+
+	para "Hast du unsere Ab-"
+	line "machung vergessen?"
+
+	para ""
+	text_ram wStringBuffer5
+	text "."
+
+	para "Genau dort warte"
+	line "ich auf dich."
 	done

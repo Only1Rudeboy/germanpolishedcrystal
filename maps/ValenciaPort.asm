@@ -46,7 +46,7 @@ ValenciaPortSailorScript:
 
 .QuestionText:
 	text "Zurück zur"
-	line "Shamouti-Insel?"
+	line "SHAMOUTI-INSEL?"
 	done
 
 .DepartText:

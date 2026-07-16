@@ -1,95 +1,94 @@
 AlanGettingStrongerText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " wird stärker,"
-	line "genau wie"
-
-	para "ich berechnet"
-	line "habe!"
+	line "wird immer stär-"
+	cont "ker, womit ich"
+	cont "gerechnet habe!"
 	done
 
 AlanDefeatedMonText:
-	text "Übrigens haben"
-	line "wir ein wildes "
+	text "Apropos, wir"
+	line "besiegten neulich"
+
+	para "ein wildes"
+	line ""
 	text_ram wStringBuffer4
-	text "vor ein paar"
-	line "Tagen"
-	para "besiegt. Vorher"
-	line "zu lernen hat"
-	cont "sich gelohnt!"
+	text "."
+
+	para "Die richtige Vor-"
+	line "bereitung lohnt!"
 	done
 
 AlanLostAMonText:
-	text "Übrigens ist mir"
-	line "ein wildes"
-	cont ""
+	text "Übrigens, gestern"
+	line "entkam mir ein"
+	cont "wildes "
 	text_ram wStringBuffer4
-	text " gestern"
+	text "."
 
-	para "entkommen. Ein"
-	line "Rechenfehler…"
+	para "Ein Berechnungs-"
+	line "fehler von mir…"
 	done
 
 AlanBattleRematchText:
-	text "Seitdem habe ich"
-	line "viel gelernt und"
+	text "Ich habe seitdem"
+	line "einiges gelernt"
 
-	para "bin viel besser!"
-	line "Ich bin auf"
+	para "und ich wurde viel"
+	line "besser!"
 
-	para ""
+	para "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
-	text ". Kommst du zum"
-	line "Kampf?"
+	text "."
+
+	para "Schau doch auf ei-"
+	line "nen Kampf vorbei?"
 	done
 
 AlanHangUpText:
-	text "Bis bald!"
+	text "Bis später!"
 	done
 
 AlanFoundItemText:
-	text "Hehehe, ich hab"
-	line "was Nettes"
-	cont "gefunden!"
+	text "Hehehe, ich fand"
+	line "etwas Schönes!"
 
-	para "Du kannst es"
-	line "haben! Komm nach"
-
-	para ""
+	para "Es gehört dir!"
+	line "Hole es dir hier:"
+	cont ""
 	text_ram wStringBuffer5
-	text " und hol es ab!"
+	text "!"
 	done
 
 AlanHaventPickedUpAnythingText:
-	text "Ich hab noch"
+	text "Ich habe noch"
 	line "nichts gefunden."
 
-	para "Ich ruf an, wenn"
-	line "ich was finde."
+	para "Ich rufe an, wenn"
+	line "ich etwas finde."
 	done
 
 AlanReminderText:
-	text "Wenn wir nicht"
-	line "bald kämpfen,"
+	text "Falls wir nicht"
+	line "bald kämpfen, ver-"
+	cont "gesse ich meine"
+	cont "Strategie!"
 
-	para "vergess ich meine"
-	line "Strategie! Ich"
-
-	para "warte auf"
+	para "Ich warte hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 AlanComePickUpGiftText:
-	text "Ich muss"
+	text "Ich muss meine"
 	line "Hausaufgaben"
-	cont "machen, also"
 
-	para "hol dein Geschenk"
-	line "gleich ab! Ich"
+	para "machen, kannst du"
+	line "gleich herkommen?"
 
-	para "warte auf"
+	para "Ich warte hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

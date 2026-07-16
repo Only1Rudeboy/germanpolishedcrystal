@@ -1,125 +1,145 @@
 AnthonyMonAteSomeBerriesText:
+	; GSC-DE Dump
 	text "Neulich sah ich,"
 	line "wie mein"
 
 	para ""
 	text_ram wStringBuffer4
-	text "Beeren aß."
-	para "Es schien die"
-	line "Mahlzeit zu"
-	cont "genießen, also"
-	cont "probierte"
-	para "ich auch welche."
-	line "Lecker, obwohl"
-	cont "ich"
-	para "nicht sicher bin,"
-	line "ob Menschen die"
-	cont "essen sollten!"
+	text " einige"
+	line "BEEREN fraß."
+
+	para "Es schien das Mahl"
+	line "zu genießen. Also"
+
+	para "aß ich auch"
+	line "welche."
+
+	para "Ich weiß nicht, ob"
+	line "die Leute sie es-"
+	cont "sen sollten, aber"
+	cont "sie schmecken gut!"
 	done
 
 AnthonyDefeatedMonText:
 	text "In letzter Zeit"
-	line "traf ich oft auf"
+	line "sind mir viele"
 
 	para "wilde "
 	text_ram wStringBuffer4
-	text ". Die waren"
-	line "leicht zu"
-	cont "besiegen."
+	line "begegnet."
+
+	para "Sie sind kein"
+	line "großes Problem."
 	done
 
 AnthonyLostAMonText:
-	text "Oh ja, ich"
-	line "kämpfte gegen ein"
-	cont "wildes "
+	text "Oh yo, ich kämpfte"
+	line "neulich gegen"
+	cont "dieses "
 	text_ram wStringBuffer4
-	text "… Es entkam, als"
-	line "ich"
+	text "…"
 
-	para "von einer"
-	line "Schönheit"
-	cont "abgelenkt wurde."
+	para "Es ist mir ent-"
+	line "wischt, als ich"
 
-	para "Lerne aus meinem"
-	line "Fehler - bleib"
-	cont "konzentriert!"
+	para "einer vorbeilau-"
+	line "fenden SCHÖNHEIT"
+	cont "nachsah."
+
+	para "Lerne von meinem"
+	line "Fehler - konzen-"
+	cont "triere dich immer"
+	cont "auf die Aufgabe"
+	cont "vor dir!"
 	done
 
 AnthonyBattleRematchText:
-	text "Komm - lass uns"
-	line "jetzt kämpfen!"
+	text "Komm schon, lass"
+	line "uns jetzt kämpfen!"
 
-	para "Ich bin auf"
+	para "Ich warte hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Komm vorbei, wenn"
+	para "Schau vorbei, wenn"
 	line "du Lust hast!"
 	done
 
 AnthonyHangUpText:
-	text "Alles klar!"
-	line "Mach's gut!"
+	text "In Ordnung!"
+	line "Bleib sauber!"
 	done
 
 AnthonySwarmText:
-	text "<PLAYER>!"
-	line "Unglaublich!"
+	text "<PLAYER>! Es ist"
+	line "nicht zu fassen!"
 
 	para "Gestern wanderte"
-	line "ich auf"
-
-	para ""
+	line "ich hier:"
+	cont ""
 	text_ram wStringBuffer5
-	text "… Da waren jede"
+	text "."
 
-	para "Menge "
+	para "Nun, da waren"
+	line "viele "
 	text_ram wStringBuffer4
-	text "! Das musst du"
+	text "!"
+
+	para "Das musst du"
 	line "sehen!"
 
-	para "Ich hab das"
-	line "Gefühl, dass "
-	text_ram wStringBuffer4
+	para "Ich habe das Ge-"
+	line "fühl, dass"
 
-	para "scheu ist. Ich"
-	line "keine, wo starke"
-	cont "#MON sind."
+	para ""
+	text_ram wStringBuffer4
+	line "schüchtern sind."
+
+	para "Ich habe sie nie"
+	line "in der Nähe von"
+
+	para "starken #MON"
+	line "gesehen."
 	done
 
 AnthonyWasntPayingAttentionText:
 	text "Seltene #MON?"
 
-	para "Tut mir leid! Ich"
-	line "war zu sehr aufs"
+	para "Entschuldige! Ich"
+	line "war zu sehr mit"
 
-	para "Wandern fixiert"
-	line "und hab nicht"
-	cont "aufgepasst."
+	para "Wandern beschäf-"
+	line "tigt, um darauf"
+	cont "zu achten."
 	done
 
 AnthonyReminderText:
-	text "Hallo! Du hast"
-	line "unseren Kampf"
-	cont "nicht"
+	text "Hallo! Du hast un-"
+	line "seren Kampf nicht"
 
-	para "vergessen, oder?"
-	line ""
+	para "vergessen, oder"
+	line "etwa doch?"
+
+	para ""
 	text_ram wStringBuffer5
 	text "!"
-
-	para "Ich warte!"
+	line "Ich warte!"
 	done
 
 AnthonyHurryText:
 	text "Hallo? Was? Wo"
-	line "ist Dunsparce?"
-	para "Dunkelhöhle!"
-	line "Beeil dich!"
-	para "Wie schon gesagt:"
-	line "Dunsparce tauchen"
-	para "nicht auf, wenn"
-	line "starke #MON da"
+	line "DUMMISEL sind?"
+
+	para "DUNKELHÖHLE! Auf!"
+
+	para "Ich weiß, ich habe"
+	line "es schon erwähnt,"
+
+	para "aber DUMMISEL"
+	line "tauchen nicht auf,"
+
+	para "wenn starke #-"
+	line "MON in der Nähe"
 	cont "sind."
 	done

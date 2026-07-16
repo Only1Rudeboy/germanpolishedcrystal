@@ -1,152 +1,170 @@
 BrentRareTradeText:
-	text "Oh ja, ich hab"
-	line "vor einiger Zeit"
-	cont "ein"
-	para "extrem seltenes"
-	line "#MON getauscht."
-	para "Willst du wissen,"
-	line "welches? Hehe,"
-	cont "das bleibt mein"
-	cont "Geheimnis!"
+	text "Oh yo, ich habe"
+	line "vor geraumer Zeit"
+
+	para "ein sehr seltenes"
+	line "#MON in einem"
+	cont "Tausch erhalten."
+
+	para "Möchtest du wissen"
+	line "welches?"
+
+	para "Hehe, das verrate"
+	line "ich dir nicht!"
 	done
 
 BrentDefeatedMonText:
-	text "Oh ja, ich hab"
-	line "ein"
-	cont "wildes"
-	cont ""
-	text_ram wStringBuffer4
-	text " besiegt."
+	text "Yo, ich besiegte"
+	line "dieses wilde"
 
-	para "Es war nicht"
-	line "selten genug zum"
-	cont "Fangen."
+	para ""
+	text_ram wStringBuffer4
+	text "."
+	line "Es war nicht sel-"
+	cont "ten, daher habe"
+	cont "ich es nicht"
+	cont "gefangen."
 	done
 
 BrentLostAMonText:
-	text "Oh ja, ich sah"
-	line "vor einer Stunde"
-	cont "ein"
-	para "seltenes #MON."
-	line "Mein erster Fund!"
-	para "Aber ich hatte"
-	line "keine #Bälle …"
-	para "Würde BILL über"
-	line "meine Fehler"
-	cont "lachen?"
+	text "Oh yo, ich sah ein"
+	line "seltenes #MON"
+	cont "vor einer Stunde."
+
+	para "Ich sah es zum"
+	line "ersten Mal, aber"
+
+	para "ich hatte keine"
+	line "#BÄLLE dabei…"
+
+	para "Würde sich BILL ob"
+	line "meiner Fehler"
+	cont "amüsieren?"
 	done
 
 BrentBattleRematchText:
-	text "Du hast Zeit wie"
+	text "Du hast Zeit, wie"
 	line "immer, oder?"
 
-	para "Lust auf einen"
-	line "Kampf?"
+	para "Hast du Lust zu"
+	line "kämpfen?"
 
-	para "Du siehst meine"
-	line "seltenen #MON."
+	para "Es wäre eine"
+	line "Chance, meine sel-"
+	cont "tenen #MON zu"
+	cont "sehen! Es wäre die"
+	cont "Zeit wert!"
 
-	para "Es lohnt sich!"
+	para "Ich bin hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 BrentHangUpText:
-	text "Also, das war's."
+	text "Das war es also."
 	done
 
 BrentFatherGossipText:
 	text "Wusstest du…?"
 	line "BILLs Vater soll"
 
-	para "ein großer"
-	line "#Maniac sein."
+	para "ein wahrer"
+	line "#MANIAC sein."
 	done
 
 BrentGrandpaGossipText:
-	text "Wusstest du …?"
-	line "BILLs Großvater"
-	para "ist angeblich"
-	line "kein #Maniac."
+	text "Wusstest du…?"
+	line "Offensichtlich ist"
+
+	para "BILLs Opa kein"
+	line "#MANIAC."
 	done
 
 BrentGoldenrodGossipText:
-	text "Wusstest du …?"
-	line "BILL kommt aus"
-	cont "Dukatia City."
+	text "Wusstest du…?"
+	line "BILL kommt"
+
+	para "ursprünglich aus"
+	line "DUKATIA CITY."
 	done
 
 BrentRoute25GossipText:
-	text "Wusstest du …?"
-	line "BILL wohnt auf"
-	para "Route 25 in"
-	line "Kanto."
+	text "Wusstest du…?"
+	line "BILL lebt wahr-"
+	cont "scheinlich auf"
+	cont "ROUTE 25 in KANTO."
 	done
 
 BrentAbraGossipText:
-	text "Wusstest du …?"
-	line "Abra war BILLs"
-	para "erstes #MON,"
-	line "sagt man."
+	text "Wusstest du…?"
+	line "ABRA war angeblich"
+
+	para "BILLs erstes"
+	line "#MON."
 	done
 
 BrentSisterGossipText:
 	text "Wusstest du…?"
 	line "BILLs jüngere"
 
-	para "Schwester kann"
-	line "angeblich nicht"
+	para "Schwester kann of-"
+	line "fensichtlich nicht"
 	cont "zwinkern."
 	done
 
 BrentMilkGossipText:
-	text "Wusstest du …?"
-	line "BILL hasst Milch"
-	para "und kann sie"
-	line "nicht trinken."
+	text "Wusstest du…?"
+	line "BILL hasst angeb-"
+	cont "lich Milch und"
+
+	para "kann sie nicht"
+	line "trinken."
 	done
 
 BrentBattlingGossipText:
-	text "Wusstest du …?"
-	line "BILL ist"
-	cont "angeblich"
-	para "nicht gut im"
-	line "Kämpfen."
+	text "Wusstest du…?"
+	line "Offenbar ist BILL"
+
+	para "kein wirklich"
+	line "guter Kämpfer."
 	done
 
 BrentFlowerShopGossipText:
-	text "Wusstest du …?"
-	line "BILL mag die Dame"
-	para "im Blumenladen."
+	text "Wusstest du…?"
+	line "BILL scheint die"
+
+	para "Frau vom BLUMEN-"
+	line "LADEN zu mögen."
 	done
 
 BrentKimonoGirlGossipText:
 	text "Wusstest du…?"
 	line "BILLs Mutter soll"
 
-	para "eine Kimono-"
-	line "Tänzerin gewesen"
-	cont "sein."
+	para "ein KIMONO-GIRL"
+	line "gewesen sein."
 	done
 
 BrentSorryImTooBusyText:
-	text "Du wolltest von"
-	line "BILL hören?"
+	text "Du willst mehr"
+	line "über BILL wissen?"
 
-	para "Tut mir leid, ich"
-	line "hab keine Zeit."
+	para "Sorry, aber ich"
+	line "bin beschäftigt."
 
-	para "Ich ruf an, wenn"
-	line "ich Zeit habe."
+	para "Ich rufe zurück,"
+	line "wenn ich Zeit"
+	cont "habe."
 	done
 
 BrentReminderText:
 	text "Du willst meine"
 	line "seltenen #MON"
+	cont "sehen."
 
-	para "sehen. Beeil dich"
-	line "nach "
+	para "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
-	text "!"
+	text "."
 	done

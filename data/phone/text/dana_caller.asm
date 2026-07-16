@@ -1,95 +1,114 @@
 DanaTakingPhotosText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " wird immer"
-	line "hübscher!"
+	line "wird immer süßer!"
 
-	para "Ich mache jede"
-	line "Menge Fotos!"
+	para "Ich habe schon"
+	line "viele Fotos"
+	cont "gemacht!"
 	done
 
 DanaDefeatedMonText:
-	text "Es dauerte nur"
-	line "einen Moment, ein"
-	cont "wildes "
+	text "Im Handumdrehen"
+	line "war das wilde"
+	cont ""
 	text_ram wStringBuffer4
-	text "zu"
-	para "besiegen. Wohl"
-	line "wegen deiner"
-	cont "Kampftipps"
-	cont "letztes Mal."
+	text " K.O."
+
+	para "Das kommt bestimmt"
+	line "davon, dass du mir"
+
+	para "Kampftipps gegeben"
+	line "hast."
 	done
 
 DanaLostAMonText:
-	text "Weißt du was?"
-	line "Ein wildes"
-	cont ""
+	text "Weißt du? Ein"
+	line "wildes "
 	text_ram wStringBuffer4
 
-	para "ist mir wieder"
-	line "entkommen. Es war"
+	para "ist mir erneut"
+	line "entkommen."
 
-	para "so nah! Nur ein"
-	line "bisschen mehr…"
+	para "Es war so knapp!"
+	line "Wirklich, noch ein"
+
+	para "bisschen mehr und"
+	line "ich hätte…"
 	done
 
 DanaBattleRematchText:
-	text "Gerade bin ich"
-	line "auf"
-	cont ""
+	text "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "."
-	para "Wenn du in der"
-	line "Nähe bist,"
-	cont "kämpfen"
-	para "wir! Ich warte!"
+
+	para "Bist du in der"
+	line "Nähe, dann lass"
+
+	para "uns kämpfen! Ich"
+	line "erwarte dich!"
 	done
 
 DanaHangUpText:
-	text "Tschüss!"
+	text "Bis dann!"
 	done
 
 DanaFoundItemText:
-	text "Weißt du was? Ich"
-	line "hab ein tolles"
-	cont "Geschenk!"
+	text "Weißt du?"
+	line "Ich habe ein gutes"
+	cont "Geschenk für dich!"
+
 	para "Wie versprochen,"
-	line "ist es deins!"
-	para "Du wirst es"
-	line "mögen. Hol es auf "
+	line "es gehört dir!"
+
+	para "Ich bin sicher,"
+	line "du wirst es mögen."
+
+	para "Hole es dir hier:"
+	line ""
 	text_ram wStringBuffer5
-	text " ab!"
+	text "!"
 	done
 
 DanaCanYouWaitABitLongerText:
 	text "Oh! Du wolltest"
 	line "ein Geschenk?"
-	para "Ich hab eins,"
+
+	para "Ich habe eines,"
 	line "aber ich will es"
-	cont "behalten. Kannst"
-	cont "du warten?"
+	cont "behalten."
+
+	para "Gedulde dich noch"
+	line "ein wenig!"
 	done
 
 DanaReminderText:
-	text "Hallo! Du hast"
-	line "unseren Kampf"
-	cont "nicht"
+	text "Hi! Du hast dein"
+	line "Versprechen, gegen"
 
-	para "vergessen, oder?"
-	line "Ich warte auf"
-	cont ""
+	para "mich zu kämpfen"
+	line "nicht vergessen,"
+	cont "oder?"
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaComePickUpText:
 	text "Hallo?"
-	para "Wenn du dein"
-	line "Geschenk nicht"
-	para "bald holst, geb"
-	line "ich's jemand"
-	para "anderem. Ich"
-	line "warte auf "
+
+	para "Wenn du nicht bald"
+	line "hier auftauchst"
+
+	para "und dein Geschenk"
+	line "abholst, gebe ich"
+	cont "es jemand anderem."
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done

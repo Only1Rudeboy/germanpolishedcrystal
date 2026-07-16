@@ -1,94 +1,64 @@
 JoeyAskNumber1Text:
-	text "Hör mal, darf ich"
-	line "deine Nummer?"
-
-	para "Ich ruf dich zum"
-	line "Kämpfen an."
-
-	para "Ich bin auch"
-	line "Anfänger - gute"
-	cont "Motivation!"
+	text "Gibst du mir deine"
+	line "Telefonnummer?"
+	para "Ich melde mich,"
+	line "wenn ich kämpfen"
+	cont "möchte."
+	para "Ich bin auch ein"
+	line "Anfänger, also"
+	para "wäre ich ein guter"
+	line "Motivator."
 	done
 
 JoeyAskNumber2Text:
-	text "Darf ich deine"
-	line "Nummer?"
-
-	para "Ich will nicht"
-	line "wieder verlieren!"
-
-	para "Wir müssen wieder"
-	line "kämpfen, O.K.?"
+	text "Bekomme ich deine"
+	line "Telefonnummer?"
+	para "Ich möchte nicht"
+	line "gegen dich"
+	cont "verlieren!"
+	para "Wir müssen noch"
+	line "einmal kämpfen!"
 	done
 
 JoeyNumberAcceptedText:
-	text "Ich ruf an, wenn"
-	line "ich Lust zum"
-	cont "Kämpfen hab!"
+	text "Ich rufe dich an,"
+	line "wenn ich unbedingt"
+	cont "kämpfen möchte!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, na gut…"
-
-	para "Aber ich verliere"
-	line "nicht wieder!"
+	text "Oh, in Ordnung…"
+	para "Du besiegst mich"
+	line "nicht noch einmal!"
 	done
 
 JoeyPhoneFullText:
-	text "Häh? Dein Telefon"
-	line "ist voll."
-	done
-
-JoeyTopPercentageText:
-	text "Hey, erinnerst du"
-	line "dich an mein"
-	cont "super cooles "
-	text_ram wStringBuffer4
-	text "?"
-
-	para "Mein "
-	text_ram wStringBuffer4
-	text " ist"
-	line "anders als"
-	cont "normale"
-	cont ""
-	text_ram wStringBuffer4
-	text "."
-
-	para "Es gehört zu den"
-	line "besten "
-	text_ram wStringBuffer4
-	text "."
-
-	para "Verstehst du?"
+	text "Wie? Dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 JoeyRematchText:
-	text "Ich hab gewartet!"
-	line "Lass uns kämpfen!"
+	text "Ich warte bereits!"
+	line "Auf in den Kampf!"
 	done
 
 JoeyPackFullText:
-	text "Hey, warte! Deine"
-	line "Tasche ist voll!"
-	para "Dann beim"
+	text "Halt! Dein BEUTEL"
+	line "ist randvoll!"
+	para "Hole es dir beim"
 	line "nächsten Mal."
 	done
 
 JoeyRematchGiftText:
-	text "Und wieder"
+	text "Und dennoch wieder"
 	line "verloren…"
-
-	para "Kein Zweifel - du"
-	line "bist stark."
-
-	para "So oft zu"
-	line "verlieren fühlt"
-	cont "sich gut an!"
-
-	para "Nimm das. Werde"
-	line "noch stärker -"
-
-	para "das macht mich"
-	line "auch stärker!"
+	para "Du bist stark - so"
+	line "viel steht fest."
+	para "Oft zu verlieren"
+	line "ist eigentlich"
+	cont "kein übles Gefühl!"
+	para "Nimm dies! Werde"
+	line "damit noch besser."
+	para "Dadurch werde auch"
+	line "ich stärker!"
 	done

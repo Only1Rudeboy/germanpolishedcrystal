@@ -1,42 +1,42 @@
 ReenaAskNumber1Text:
-	text "Nicht schlecht…"
+	text "Nicht übel…"
 	line "Mich zu schlagen,"
-
-	para "selbst aus"
-	line "Versehen… Du"
-	cont "gefällst mir!"
-
-	para "Gib mir deine"
-	line "Nummer! Du wirst"
-	cont "mein Sparpartner!"
+	para "dazu gehört schon"
+	line "was, auch wenn es"
+	cont "nur Dusel war…"
+	para "Ich mag dich! Kann"
+	line "ich deine Nummer"
+	cont "haben?"
+	para "Du wirst mein"
+	line "Sparringspartner!"
 	done
 
 ReenaAskNumber2Text:
 	text "Gib mir deine"
-	line "Nummer!"
-
+	line "Telefonnummer!"
 	para "Du wirst mein"
-	line "Sparpartner!"
+	line "zukünftiger"
+	cont "Sparringspartner!"
 	done
 
 ReenaNumberAcceptedText:
-	text "Sei nicht stolz"
-	line "wegen des Sieges!"
-
-	para "Das war Glück!"
+	text "Sei nicht zu stolz"
+	line "auf deinen Sieg!"
+	para "Das war nur Dusel!"
 	done
 
 ReenaNumberDeclinedText:
-	text "Unfassbar! Du"
-	line "wirst es bereuen!"
+	text "Das kann nicht"
+	line "sein! Das wirst du"
+	cont "noch bereuen!"
 	done
 
 ReenaPhoneFullText:
-	text "Was? Deine Liste"
-	line "hat keinen Platz!"
+	text "Was! Dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 ReenaRematchText:
-	text "Was hat so lang"
-	line "gedauert? Los!"
+	text "Was hat dich auf-"
+	line "gehalten? Los!"
 	done

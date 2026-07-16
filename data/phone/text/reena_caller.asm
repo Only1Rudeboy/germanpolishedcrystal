@@ -1,81 +1,90 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Hör mal, Liebling"
-	line "…"
+	; GSC-DE Dump
+	text "Hör zu…"
+
 	para "Erinnerst du dich"
-	line "an mein "
+	line "an mein"
+	cont ""
 	text_ram wStringBuffer4
 	text "?"
 
 	para "Ja, genau. Das"
-	line "liebliche "
+	line "süße "
 	text_ram wStringBuffer4
 	text "."
 
-	para "Findest du nicht,"
-	line "es passt perfekt"
-	cont "zu mir?"
+	para "Meinst du nicht"
+	line "auch, dass es per-"
+	cont "fekt zu mir passt?"
 	done
 
 ReenaDefeatedMonText:
-	text "Hab ich je ein"
-	line "wildes "
+	text "Ob mir schon ein-"
+	line "mal ein wildes"
+	cont ""
 	text_ram wStringBuffer4
-	text " bekämpft?"
+	cont "begegnet ist?"
 
-	para "Musst du fragen?"
-	line "Ich hab "
+	para "Du stellst Fragen!"
+
+	para ""
 	text_ram wStringBuffer4
-
-	para "oft besiegt!"
+	text " habe"
+	line "ich schon oft"
+	cont "besiegt!"
 	done
 
 ReenaLostAMonText:
-	text "Bin ich je beim"
-	line "Fangen"
-	cont "gescheitert?"
+	text "Ob mir je ein wil-"
+	line "des #MON"
+	cont "entwischt ist?"
 
-	para "Musst du fragen?"
-	line "Ich würde nie"
+	para "Du stellst Fragen!"
 
-	para "ein wildes "
+	para "Mir würde nie ein"
+	line "wildes "
 	text_ram wStringBuffer4
-	text " verpassen… Oh!"
-	line "Vergiss es!"
+
+	para "entkommen…"
+	line "Oh! Kein Problem!"
 	done
 
 ReenaBattleRematchText:
-	text "Wir kämpfen!"
+	text "Wir werden gegen-"
+	line "einander kämpfen!"
 
-	para "Der Ort ist"
+	para "Und zwar hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 
 	para "Lass mich nicht"
-	line "warten!"
-	cont "Verstanden?"
+	line "warten! O.K.?"
 	done
 
 ReenaHangUpText:
-	text "Gut, du darfst"
-	line "gehen."
+	text "Du darfst gehen."
 	done
 
 ReenaForwardText:
 	text "Sei nicht zu"
-	line "stolz, nur weil"
-	cont "du mich"
-	para "besiegt hast …"
-	line "Das war Glück!"
+	line "stolz, dass du"
+
+	para "mich zufällig ge-"
+	line "schlagen hast…"
+
+	para "Das war Dusel!"
 	done
 
 ReenaHurryText:
-	text "Was machst du?"
-	para "Ich sagte, der"
-	line "Ort ist "
+	text "Was machst du"
+	line "gerade?"
+
+	para "Ich sagte doch,"
+	line "ich bin hier:"
+
+	para ""
 	text_ram wStringBuffer5
 	text "!"
-
-	para "Versuch nicht,"
-	line "wegzulaufen!"
+	line "Lauf nicht weg!"
 	done

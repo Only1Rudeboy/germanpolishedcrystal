@@ -1,68 +1,64 @@
 AlanAskNumber1Text:
-	text "Bücher lesen"
-	line "lohnt sich ab und"
-	cont "zu."
-	para "Beim Lesen und"
-	line "Gehen muss ich"
-	para "nach unten"
-	line "schauen. So finde"
-	cont "ich Items"
-	para "am Boden. Wenn"
-	line "ich was finde,"
-	cont "geb ich's"
-	para "dir. Darf ich"
-	line "deine Nummer"
-	cont "haben?"
+	text "Hin und wieder ein"
+	line "Buch zu lesen,"
+	cont "kann helfen."
+	para "Wenn ich während"
+	line "des Laufens lese,"
+	cont "schaue ich nach"
+	cont "unten."
+	para "Darum sehe ich"
+	line "Items am Boden."
+	para "Das nächste Item,"
+	line "das ich finde,"
+	cont "gehört dir."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 AlanAskNumber2Text:
-	text "Wenn ich was"
-	line "finde, ist es"
-	cont "deins."
-
-	para "Darf ich deine"
-	line "Nummer haben?"
+	text "Finde ich etwas,"
+	line "gehört es dir."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 AlanNumberAcceptedText:
-	text "Ich ruf an,"
-	line "sobald ich was"
-	cont "finde."
-	para "Darauf kannst du"
-	line "zählen!"
+	text "Ich rufe an, wenn"
+	line "ich etwas für dich"
+	para "habe. Du kannst"
+	line "auf mich zählen!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… Ich dachte,"
-	line "ein Anruf beim"
-
-	para "Lernen wäre eine"
-	line "gute Pause…"
+	text "Oh… ich dachte,"
+	line "ein Anruf wäre"
+	para "eine willkommene"
+	line "Lernpause…"
 	done
 
 AlanPhoneFullText:
-	text "Kein Platz für"
-	line "meine Nummer."
+	text "Du kannst meine"
+	line "Nummer nicht"
+	cont "speichern."
 	done
 
 AlanRematchText:
-	text "Ich hab auf dich"
-	line "gewartet!"
-
-	para "Heute bin ich gut"
-	line "vorbereitet!"
+	text "Ich habe bereits"
+	line "auf dich gewartet!"
+	para "Ich habe mich"
+	line "heute gründlich"
+	cont "vorbereitet!"
 	done
 
 AlanGiftText:
-	text "Das, das! Das ist"
-	line "deins! Ta-da!"
+	text "Dies ist für dich!"
+	line "Nimm es! Ta-da!"
 	done
 
 AlanPackFullText:
 	text "Ups!"
 	para "Du kannst keine"
-	line "Items mehr"
-	cont "tragen!"
-	para "Ich behalte es"
-	line "bis nächstes Mal."
+	line "Items mehr tragen!"
+	para "Ich bewahre es für"
+	line "dich auf."
 	done

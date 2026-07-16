@@ -1,51 +1,54 @@
 RalphAskNumber1Text:
-	text "Angeln junge"
-	line "Leute nicht mehr?"
+	text "Angeln junge Leute"
+	line "heute nicht mehr?"
 	para "Ich sah seltene"
-	line "#MON beim"
-	cont "Angeln…"
-	para "Das mögt ihr,"
-	line "oder? Tauschen"
-	cont "wir Nummern?"
-	para "Ich ruf an, wenn"
-	line "ich was sehe."
+	line "#MON, als ich"
+	cont "geangelt habe…"
+	para "Ihr Jungspunde"
+	line "mögt das, oder?"
+	para "Tauschen wir"
+	line "Telefonnummern?"
+	para "Ich lasse es dich"
+	line "wissen, wenn ich"
+	cont "etwas entdecke."
 	done
 
 RalphAskNumber2Text:
-	text "Hm? Soll ich"
+	text "Ich soll dich also"
 	line "anrufen, wenn ich"
-	cont "seltene #MON"
-	cont "sehe?"
+	para "seltene #MON"
+	line "sehe?"
 	done
 
 RalphNumberAcceptedText:
-	text "O.K., ich ruf bei"
-	line "seltenen #MON"
-	cont "an."
-
-	para "Keine Sorge, ich"
-	line "vergess nicht!"
+	text "Yo, ich rufe an,"
+	line "wenn ich seltene"
+	cont "#MON sehe."
+	para "Keine Panik! Ich"
+	line "vergesse es nicht!"
 	done
 
 RalphNumberDeclinedText:
-	text "Oh… Sogar meine"
-	line "Kinder geben mir"
-
-	para "keine Nummer… So"
-	line "sind junge Leute"
-	cont "heute?"
+	text "Oh…"
+	line "Nicht einmal meine"
+	para "Kinder geben mir"
+	line "ihre Nummern…"
+	para "Ist das typisch"
+	line "für junge Leute"
+	cont "von heute?"
 	done
 
 RalphPhoneFullText:
-	text "Dein Telefon ist"
-	line "voll."
-
-	para "Junge Leute haben"
-	line "alle #Com."
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	para "Es scheint, als ob"
+	line "alle jungen Leute"
+	para "einen #COM"
+	line "haben."
 	done
 
 RalphRematchText:
-	text "Hey, Kind!"
-	para "Heute verliere"
-	line "ich nicht!"
+	text "Heh, Wicht!"
+	para "Heute werde ich"
+	line "nicht verlieren!"
 	done

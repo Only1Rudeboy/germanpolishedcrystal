@@ -1,25 +1,29 @@
 IrwinHangUpText:
+	; GSC-DE Dump
 	text "Ich hasse es,"
-	line "auflegen zu"
-	cont "müssen!"
-	para "Ich ruf später"
-	line "an!"
+	line "bei dir auflegen"
+	cont "zu müssen!"
+
+	para "Bis später!"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAYER>, hast du"
-	line "es gehört?"
-	para "Dukatias Funkturm"
-	line "wurde von Team"
-	cont "Rocket"
-	cont "übernommen!"
-	para "… Ähm … Was ist"
-	line "Team Rocket?"
+	text "<PLAYER>, hast"
+	line "du gehört?"
+
+	para "Der RADIOTURM von"
+	line "DUKATIA CITY wurde"
+
+	para "von TEAM ROCKET"
+	line "annektiert!"
+
+	para "…Ähm… Was ist"
+	line "TEAM ROCKET?"
 	done
 
 IrwinPlainBadgeGossipText:
 	text "<PLAYER>, ich"
-	line "hörte!"
+	line "hörte davon!"
 
 	para "Du hast BIANKA"
 	line "besiegt?"
@@ -30,210 +34,276 @@ IrwinPlainBadgeGossipText:
 	done
 
 IrwinJasmineReturnedGossipText:
-	text "Hey, ich hörte!"
+	text "Heh, ich hörte von"
+	line "dir!"
 
-	para "Du hast das"
-	line "#MON im"
-	cont "Leuchtturm"
-	cont "gerettet, oder?"
+	para "Du hast das #-"
+	line "MON im LEUCHTTURM"
 
-	para "<PLAYER>, komm"
-	line "mich besuchen,"
-	cont "wenn"
+	para "gerettet, nicht"
+	line "wahr?"
 
-	para "ich mit Erkältung"
-	line "im Bett liege!"
+	para "<PLAYER>, ich"
+	line "wünschte du wür-"
+	cont "dest mich be-"
+	cont "suchen, wenn ich"
+
+	para "mit einer Er-"
+	line "kältung im Bett"
+	cont "liege!"
 	done
 
 IrwinRocketHideoutGossipText:
-	text "Ich hörte, hörte,"
-	line "hörte!"
+	text "Ich hörte, ich"
+	line "hörte, ich hörte!"
 
-	para "Du hast Team"
-	line "Rockets Versteck"
-	cont "zerschlagen!"
+	para "Du hast TEAM"
+	line "ROCKETs-Versteck"
+	cont "ausgehoben!"
 
-	para "Du bist wie ein"
-	line "Filmheld! Aber…"
+	para "Du bist ein Film-"
+	line "star, genau!"
 
-	para "Was war Team"
-	line "Rocket?"
+	para "Aber äh… Was war"
+	line "TEAM ROCKET?"
 	done
 
 IrwinRadioTowerGossipText:
-	text "Ich hörte, hörte,"
-	line "hörte!"
+	text "Ich hörte, ich"
+	line "hörte, ich hörte!"
 
-	para "Du hast den"
-	line "Funkturm befreit!"
+	para "Von deiner helden-"
+	line "haften Befreiung"
 
-	para "Du rockst total!"
+	para "des RADIOTURMs! Du"
+	line "bist klasse!"
 	done
 
 IrwinRisingBadgeGossipText:
-	text "Ich sah, ich sah!"
-	para "Du gingst in die"
-	line "Drachenhöhle!"
-	para "Du hast"
-	line "bestanden! Kein"
-	cont "Grund, bescheiden"
-	cont "zu sein!"
+	text "Ich sah, ich sah…"
+
+	para "Ich sah, wie du in"
+	line "die DRACHENHÖHLE"
+	cont "gingst!"
+
+	para "Ich bin sicher, du"
+	line "hast bestanden!"
+
+	para "Nur keine falsche"
+	line "Bescheidenheit! Du"
+
+	para "kannst nicht"
+	line "scheitern!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Gestern war ich"
-	line "in Neuborkia. Da"
-	cont "war"
-	para "eine Dame, die"
-	line "dir ähnlich sah,"
+	text "Gestern ging ich"
+	line "nach NEUBORKIA."
+
+	para "Ich sah eine Dame,"
+	line "die dir sehr ähn-"
+	cont "lich sah,"
 	cont "<PLAYER>."
-	para "Was? Das war"
+
+	para "Was? Die Dame war"
 	line "deine Mama?"
-	para "Ich hätte mich"
-	line "vorstellen"
-	cont "sollen!"
-	para "Deine Mama ist"
-	line "sicher stolz auf"
-	para "alles, was du"
-	line "geschafft hast."
-	para "Ich wäre auch"
-	line "stolz, wenn ich"
-	cont "deine Mama wäre!"
+
+	para "Ah, ich hätte mich"
+	line "vorstellen sollen!"
+
+	para "Ich wette, deine"
+	line "Mama ist sehr"
+
+	para "stolz auf dich,"
+	line "nachdem, was du"
+	cont "erreicht hast."
+
+	para "Anders gesagt,"
+	line "ich wäre stolz,"
+
+	para "wenn ich deine"
+	line "Mama wäre!"
 	done
 
 IrwinVermilionCityGossipText:
-	text "Ich sah, ich sah,"
-	line "ich sah!"
-	para "Du gingst auf ein"
-	line "Schiff, <PLAYER>!"
-	para "Du siehst toll"
-	line "aus vor dem Meer!"
+	text "Ich sah, ich sah"
+	line "ich sah…"
+
+	para "Du bist an Bord"
+	line "eines Schiffes ge-"
+	cont "gangen, <PLAYER>!"
+
+	para "Ich kann nicht"
+	line "genug von deinem"
+
+	para "Anblick mit dem"
+	line "Meer im Hinter-"
+	cont "grund bekommen, so"
+	cont "gut sieht das aus!"
 	done
 
 IrwinTrainPassGossipText:
-	text "Ich hörte, hörte!"
-	para "Du hast eine"
-	line "Magnetbahn-Karte!"
-	para "Als du aufs"
-	line "Schiff gingst,"
-	cont "war ich"
-	para "traurig, dich"
-	line "nicht mehr zu"
-	cont "sehen."
-	para "Mit der Karte"
-	line "kannst du"
-	cont "jederzeit zurück!"
+	text "Ich hörte!"
+
+	para "Du hast einen"
+	line "FAHRSCHEIN für"
+	cont "den MAGNETZUG!"
+
+	para "Als ich dich an"
+	line "Bord gehen sah,"
+
+	para "war ich traurig,"
+	line "dass ich dich eine"
+
+	para "Weile nicht sehen"
+	line "würde."
+
+	para "Aber da du den"
+	line "FAHRSCHEIN hast,"
+
+	para "kannst du jeder-"
+	line "zeit zurückkommen!"
+	cont "Ein tolles Gefühl!"
+
 	para "Was? Du kannst"
-	line "mit Fly zurück?"
-	cont "Was ist Fly?"
+	line "jederzeit zurück-"
+	cont "FLIEGEN?"
+
+	para "Was meinst du mit"
+	line "FLIEGEN?"
 	done
 
 IrwinSnorlaxGossipText:
-	text "Ich sah, ich sah!"
+	text "Ich sah, ich sah…"
 
-	para "Du wecktest"
-	line "Relaxo!"
+	para "Du hast RELAXO"
+	line "geweckt!"
 
-	para "Ich schaute von"
-	line "weitem zu. Was"
-	cont "hast"
+	para "Ich habe dich aus"
+	line "der Ferne beo-"
+	cont "bachtet, daher"
+	cont "weiß ich nicht,"
+	cont "was du getan hast."
 
-	para "du gemacht? Eine"
-	line "Flöte? Wie Magie!"
+	para "Hast du eine Flöte"
+	line "gespielt, um es"
+	cont "aufzuwecken?"
+
+	para "Wow! Das muss"
+	line "Magie sein!"
 	done
 
 IrwinMtSilverGossipText:
-	text "Ich höre Gerüchte"
-	line "über dich"
-	cont "überall."
-	para "Das macht mich"
-	line "seufzen,"
+	text "Ich hörte überall"
+	line "Gerüchte über"
+	cont "dich."
+
+	para "Sie entlockten mir"
+	line "ein Seufzen,"
 	cont "<PLAYER>."
+
 	para "Wie wurdest du so"
 	line "stark?"
-	para "Streb die Welt-"
-	line "meisterschaft an!"
-	para "Ich feuere dich"
-	line "immer an!"
+
+	para "Greife nach der"
+	line "Weltmeisterschaft!"
+
+	para "Ich werde dich"
+	line "immer anfeuern!"
 	done
 
 IrwinCalledRightAwayText:
-	text "Hehe, ich rief"
-	line "sofort an!"
+	text "Hehe, ich habe"
+	line "gleich angerufen!"
 
-	para "Wir werden gute"
-	line "Freunde!"
+	para "Ich denke, wir"
+	line "werden sehr gute"
+	cont "Kameraden!"
 	done
 
 IrwinFogBadgeGossipText:
-	text "Ich sah, ich"
-	line "hörte!"
+	text "Ich sah, ich sah…"
 
-	para "Du besiegtest"
-	line "JENS in Teak"
-	cont "City!"
+	para "Du hast JENS, den"
+	line "ARENALEITER von"
 
-	para "Unglaublich! Ich"
-	line "war an der Arena,"
+	para "TEAK CITY besiegt!"
+	line "Das ist unfassbar!"
 
-	para "um dich"
-	line "anzufeuern. Aber"
-	cont "alle schwebten"
+	para "Ich bin zur PKMN-"
+	line "ARENA gegangen, um"
 
-	para "und Geister waren"
-	line "überall! Ich bin"
-	cont "nach Hause"
-	cont "gerannt…"
+	para "dich anzufeuern."
+	line "Wusstest du das?"
+
+	para "Aber alle schweb-"
+	line "ten und überall"
+
+	para "waren Geister!"
+	line "Also bin ich ver-"
+	cont "duftet und nach"
+	cont "Hause gegangen…"
 	done
 
 IrwinMarshBadgeGossipText:
 	text "<PLAYER>, ich"
-	line "hörte!"
-	para "Du machst in"
-	line "Kanto ordentlich"
-	cont "Ärger!"
-	para "Was für ein"
-	line "Spektakel!"
-	para "Du rockst!"
+	line "weiß!"
+
+	para "Du hast ganz schön"
+	line "für Aufregung ge-"
+	cont "sorgt in KANTO!"
+
+	para "Du hast recht viel"
+	line "Staub aufgewir-"
+	cont "belt!"
+
+	para "Du bist gut!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "Von deinen"
-	line "Abenteuern zu"
-	cont "hören rockt meine"
-	cont "Seele!"
+	text "Als ich deine"
+	line "Geschichten hörte,"
+
+	para "weinte meine"
+	line "Seele! Wirklich!"
 	done
 
 IrwinGoodMatchText:
-	text "Ich freu mich,"
-	line "dass du angerufen"
-	cont "hast!"
+	text "Ich bin froh, dass"
+	line "du anrufst!"
 
 	para "Ich wollte dich"
-	line "auch anrufen!"
-
-	para "Wir passen gut"
-	line "zusammen!"
+	line "auch gerade an-"
+	cont "rufen! Wir passen"
+	cont "gut zusammen!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "Wie geht's?"
+	text "Wie geht es dir?"
 
-	para "Was machst du? Wo"
-	line "bist du?"
+	para "Was machst du"
+	line "gerade?"
 
-	para "Wie viele Orden?"
-	line "Wie viel Geld?"
+	para "Wo bist du?"
 
-	para "Wie geht's Mama?"
-	line "Viele #MON?"
+	para "Wie viele ORDEN"
+	line "hast du jetzt?"
 
-	para "Wird morgen die"
-	line "Sonne scheinen?"
+	para "Wie viel Geld hast"
+	line "du gespart?"
 
-	para "Arrgh, so viel"
-	line "will ich reden!"
+	para "Wie geht es deiner"
+	line "Mama?"
 
-	para "Das führt zu"
-	line "nichts!"
+	para "Hast du viele"
+	line "#MON?"
+
+	para "Scheint morgen die"
+	line "Sonne?"
+
+	para "Arrgh, es gibt so"
+	line "viel, über das ich"
+
+	para "reden möchte! Das"
+	line "führt zu nichts!"
 	done

@@ -1,75 +1,96 @@
 JoeyMonLookingSharperText:
+	; GSC-DE Dump
 	text "Mein "
 	text_ram wStringBuffer4
-	text " sieht schärfer"
-	line "aus als"
+	line "sieht entschlos-"
+	cont "sener aus!"
 
-	para "früher! So cool"
-	line "gibt's keins in"
-	cont "deinem Team!"
+	para "Ich bezweifle,"
+	line "dass du auch so"
+
+	para "ein cooles #MON"
+	line "in deinem Team"
+	cont "hast!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh ja, ich"
-	line "besiegte ein"
-	cont "wildes "
+	text "Hossa, neulich"
+	line "besiegte ich ein"
+
+	para ""
 	text_ram wStringBuffer4
+	line "in der Wildnis."
 
-	para "neulich. Ein"
-	line "Kinder-Spiel."
+	para "Es war ein Kinder-"
+	line "spiel. Nun, wir"
 
-	para "Wir sind halt so"
-	line "stark, was"
+	para "sind eben so"
+	line "stark."
 	done
 
 JoeyLostAMonText:
-	text "Oh ja, ich sah"
-	line "ein wildes "
+	text "Oh, ich sah ein"
+	line "wildes "
 	text_ram wStringBuffer4
 	text "!"
-	para "Ich dachte dran,"
-	line "es zu fangen,"
-	cont "aber"
-	para "ich trainiere nur"
-	line "mein Ein und"
-	cont "Alles bis zum"
-	cont "Limit."
+
+	para "Ich wollte es zu-"
+	line "erst fangen, aber"
+
+	para "ich besann mich"
+	line "eines Besseren und"
+
+	para "beschloss, mit"
+	line "meinem Ein und"
+	cont "Alles zu arbeiten."
 	done
 
 JoeyBattleRematchText:
-	text "Lass uns kämpfen!"
-	line "Diesmal anders!"
+	text "Treffen wir uns"
+	line "für einen Kampf!"
 
-	para ""
+	para "Ich verspreche, es"
+	line "wird anders!"
+
+	para "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
-	text " - da bin ich."
+	text "."
 
-	para "Ruf an, wenn du"
-	line "kommst."
+	para "Ruf an, wenn du in"
+	line "der Nähe bist."
 	done
 
 JoeyHangUpText:
-	text "Alles klar. Bis"
-	line "dann!"
+	text "Gut, bis später!"
 	done
 
 JoeyDevisingStrategiesText:
-	text "Ich schau mir"
+	text "Ich experimentiere"
+	line "gerade mit den"
+
+	para "Attacken von"
 	line ""
 	text_ram wStringBuffer4
-	text "s Attacken"
-	para "an und überlege"
-	line "Strategien."
-	para "Wenn ich eine"
-	line "hab, kämpfen wir!"
+	text ", um"
+
+	para "eine Strategie"
+	line "zu finden."
+
+	para "Finde ich eine"
+	line "gute, dann müssen"
+	cont "wir kämpfen!"
 	done
 
 JoeyReminderText:
-	text "Was hält dich"
-	line "auf, <PLAYER>!"
+	text "Was hält dich auf,"
+	line "<PLAYER>!"
+
 	para "Lass uns endlich"
-	line "kämpfen! Ich"
-	cont "warte auf "
+	line "anfangen!"
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done

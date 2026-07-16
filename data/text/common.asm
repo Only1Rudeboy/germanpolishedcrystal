@@ -454,32 +454,34 @@ _ForYourMonWillTradeText::
 	text "."
 	done
 
-; Oak's Pokémon Talk
+; Oak's Pokémon Talk — GSC-DE dump 7796–7835
 
 SECTION "_OPT_IntroText1", ROMX
 _OPT_IntroText1::
-	line "MARY: PROF. EICHs"
+	; dump 7796–7798: MARGIT: / PROF. EICHs / #MON-TALK! / Mit MARGIT!
+	; 4 dump lines → 3 radio slots, ≤18 (#MON=7)
+	line "MARGIT: PROF."
 	done
 
 SECTION "_OPT_IntroText2", ROMX
 _OPT_IntroText2::
-	line "#MON-Talk!"
+	line "EICHs #MON-"
 	done
 
 SECTION "_OPT_IntroText3", ROMX
 _OPT_IntroText3::
-	line "Mit mir, MARY!"
+	line "TALK! Mit MARGIT!"
 	done
 
 SECTION "_OPT_OakText1", ROMX
 _OPT_OakText1::
-	line "Eich: "
+	line "EICH: "
 	text_ram wMonOrItemNameBuffer
 	done
 
 SECTION "_OPT_OakText2", ROMX
 _OPT_OakText2::
-	line "ist zu sehen bei"
+	line "wurde gesehen auf"
 	done
 
 SECTION "_OPT_OakText3", ROMX
@@ -491,169 +493,168 @@ _OPT_OakText3::
 
 SECTION "_OPT_MaryText1", ROMX
 _OPT_MaryText1::
-	line "MARY: "
+	line "MARGIT: "
 	text_ram wStringBuffer1
-	text " ist"
 	done
 
 SECTION "OPT_SweetAdorably", ROMX
 OPT_SweetAdorably::
-	line "süß und richtig"
+	line "Wie bezaubernd."
 	done
 
 SECTION "OPT_WigglySlickly", ROMX
 OPT_WigglySlickly::
-	line "wibbelig und"
+	line "Wie smart."
 	done
 
 SECTION "OPT_AptlyNamed", ROMX
 OPT_AptlyNamed::
-	line "treffend benannt"
+	line "Wie reizend."
 	done
 
 SECTION "OPT_UndeniablyKindOf", ROMX
 OPT_UndeniablyKindOf::
-	line "irgendwie schon"
+	line "Wie freundlich."
 	done
 
 SECTION "OPT_Unbearably", ROMX
 OPT_Unbearably::
-	line "so, so unfassbar"
+	line "Nicht zu ertragen…"
 	done
 
 SECTION "OPT_WowImpressively", ROMX
 OPT_WowImpressively::
-	line "wow, beeindruck."
+	line "Wow, faszinierend."
 	done
 
 SECTION "OPT_AlmostPoisonously", ROMX
 OPT_AlmostPoisonously::
-	line "fast schon giftig"
+	line "Fast giftig."
 	done
 
 SECTION "OPT_Sensually", ROMX
 OPT_Sensually::
-	line "ooh, so sinnlich"
+	line "Wie einfühlsam."
 	done
 
 SECTION "OPT_Mischievously", ROMX
 OPT_Mischievously::
-	line "so schelmisch"
+	line "So schelmisch."
 	done
 
 SECTION "OPT_Topically", ROMX
 OPT_Topically::
-	line "so aktuell"
+	line "Sehr aktuell."
 	done
 
 SECTION "OPT_Addictively", ROMX
 OPT_Addictively::
-	line "echt suchterreg."
+	line "Suchterregend."
 	done
 
 SECTION "OPT_LooksInWater", ROMX
 OPT_LooksInWater::
-	line "im Wasser wirkt"
+	line "Schaut ins Wasser."
 	done
 
 SECTION "OPT_EvolutionMustBe", ROMX
 OPT_EvolutionMustBe::
-	line "Entwicklung ist"
+	line "Entwicklung, ja."
 	done
 
 SECTION "OPT_Provocatively", ROMX
 OPT_Provocatively::
-	line "provozierend"
+	line "Wie provozierend."
 	done
 
 SECTION "OPT_FlippedOut", ROMX
 OPT_FlippedOut::
-	line "so durchgedreht"
+	line "Wie ausgeflippt."
 	done
 
 SECTION "OPT_HeartMeltingly", ROMX
 OPT_HeartMeltingly::
-	line "herzschmelzend"
+	line "Wie wunderbar."
 	done
 
 SECTION "OPT_Cute", ROMX
 OPT_Cute::
-	line "süß."
+	line "Wie niedlich."
 	done
 
 SECTION "OPT_Weird", ROMX
 OPT_Weird::
-	line "seltsam."
+	line "Wie verrückt."
 	done
 
 SECTION "OPT_Pleasant", ROMX
 OPT_Pleasant::
-	line "angenehm."
+	line "Wie angenehm."
 	done
 
 SECTION "OPT_BoldSortOf", ROMX
 OPT_BoldSortOf::
-	line "irgendwie mutig."
+	line "Wie dreist."
 	done
 
 SECTION "OPT_Frightening", ROMX
 OPT_Frightening::
-	line "furchteinfl."
+	line "Furchterregend."
 	done
 
 SECTION "OPT_SuaveDebonair", ROMX
 OPT_SuaveDebonair::
-	line "schick & lässig!"
+	line "Wie weltmännisch!"
 	done
 
 SECTION "OPT_Powerful", ROMX
 OPT_Powerful::
-	line "kraftvoll."
+	line "Wie stark."
 	done
 
 SECTION "OPT_Exciting", ROMX
 OPT_Exciting::
-	line "aufregend."
+	line "Wie aufregend."
 	done
 
 SECTION "OPT_Groovy", ROMX
 OPT_Groovy::
-	line "groovy!"
+	line "Jetzt!"
 	done
 
 SECTION "OPT_Inspiring", ROMX
 OPT_Inspiring::
-	line "inspirierend."
+	line "Wie inspirierend."
 	done
 
 SECTION "OPT_Friendly", ROMX
 OPT_Friendly::
-	line "freundlich."
+	line "Wie freundlich."
 	done
 
 SECTION "OPT_HotHotHot", ROMX
 OPT_HotHotHot::
-	line "heiß, heiß, heiß!"
+	line "Wie interessant!"
 	done
 
 SECTION "OPT_Stimulating", ROMX
 OPT_Stimulating::
-	line "anregend."
+	line "Wie anregend."
 	done
 
 SECTION "OPT_Guarded", ROMX
 OPT_Guarded::
-	line "vorsichtig."
+	line "Gut geschützt."
 	done
 
 SECTION "OPT_Lovely", ROMX
 OPT_Lovely::
-	line "lieblich."
+	line "Wie lieblich."
 	done
 
 SECTION "OPT_Speedy", ROMX
 OPT_Speedy::
-	line "schnell."
+	line "Wie rasant."
 	done
 
 SECTION "_OPT_PokemonChannelText", ROMX
@@ -661,48 +662,48 @@ _OPT_PokemonChannelText::
 	text "#MON"
 	done
 
-; Pokémon Music Channel / Pokémusic
+; Pokémon Music Channel — GSC-DE dump 7837–7846
 
 SECTION "_BenIntroText1", ROMX
 _BenIntroText1::
-	line "Ben: #MON-Mus.-"
+	line "BEN: #MON-MUSIK"
 	done
 
 SECTION "_BenIntroText2", ROMX
 _BenIntroText2::
-	line "Kanal! ♪"
+	line "PROGRAMM!"
 	done
 
 SECTION "_BenIntroText3", ROMX
 _BenIntroText3::
-	line "Hier DJ Ben! ♪"
+	line "Ich bin's, DJ BEN!"
 	done
 
 SECTION "_FernIntroText1", ROMX
 _FernIntroText1::
-	line "Fern: #musik! ♪"
+	line "FABIAN: #MUSIK!"
 	done
 
 SECTION "_FernIntroText2", ROMX
 _FernIntroText2::
-	line "Mit DJ Fern! ♪"
+	line "Mit DJ FABIAN!"
 	done
 
 SECTION "_BenFernText1", ROMX
 _BenFernText1::
-	line "Heute ist "
+	line "Es ist "
 	text_today
-	text ","
+	text "!"
 	done
 
 SECTION "_BenFernText2A", ROMX
 _BenFernText2A::
-	line "lasst uns zu"
+	line "Mach mit beim"
 	done
 
 SECTION "_BenFernText2B", ROMX
 _BenFernText2B::
-	line "entspannt zu"
+	line "Entspann dich beim"
 	done
 
 SECTION "_BenFernText3A", ROMX
@@ -712,49 +713,49 @@ _BenFernText3A::
 
 SECTION "_BenFernText3B", ROMX
 _BenFernText3B::
-	line "#MON-Schlaflied"
+	line "PKMN-Schlaflied!"
 	done
 
-; Lucky Channel
+; Lucky Channel — GSC-DE dump 7847–7859
 
 SECTION "_LC_Text1", ROMX
 _LC_Text1::
-	line "Reed: Juhu! Wie"
+	line "BASTIAN: Yeah! Wie"
 	done
 
 SECTION "_LC_Text2", ROMX
 _LC_Text2::
-	line "geht's euch so?"
+	line "geht es euch nun?"
 	done
 
 SECTION "_LC_Text3", ROMX
 _LC_Text3::
-	line "Ob's euch gut geht"
+	line "Geht es gut, oder"
 	done
 
 SECTION "_LC_Text4", ROMX
 _LC_Text4::
-	line "oder mies dran,"
+	line "geht es nicht,"
 	done
 
 SECTION "_LC_Text5", ROMX
 _LC_Text5::
-	line "verpasst nicht die"
+	line "die GLÜCKSZAHLSHOW"
 	done
 
 SECTION "_LC_Text6", ROMX
 _LC_Text6::
-	line "Glückszahl-Show!"
+	line "ist immer Pflicht!"
 	done
 
 SECTION "_LC_Text7", ROMX
 _LC_Text7::
-	line "Die heutige"
+	line "Die Glückszahl ist"
 	done
 
 SECTION "_LC_Text8", ROMX
 _LC_Text8::
-	line "Glückszahl ist "
+	line ""
 	text_pause
 	text_ram wStringBuffer1
 	text "!"
@@ -762,44 +763,44 @@ _LC_Text8::
 
 SECTION "_LC_Text9", ROMX
 _LC_Text9::
-	line "Ich sag's nochmal!"
+	line "Ich wiederhole!"
 	done
 
 SECTION "_LC_Text10", ROMX
 _LC_Text10::
-	line "Trefft sie und ab"
+	line "Gewonnen? Kommt"
 	done
 
 SECTION "_LC_Text11", ROMX
 _LC_Text11::
-	line "zum Radioturm!"
+	line "zum RADIOTURM!"
 	done
 
 SECTION "_LC_DragText1", ROMX
 _LC_DragText1::
-	line "…Mich zu wieder-"
+	line "…Die Wiederholung"
 	done
 
 SECTION "_LC_DragText2", ROMX
 _LC_DragText2::
-	line "holen ist zäh…"
+	line "verzögert alles…"
 	done
 
-; Places and People
+; Places and People — GSC-DE dump 7860–7880
 
 SECTION "_PnP_Text1", ROMX
 _PnP_Text1::
-	line "Orte und Leute!"
+	line "ORTE UND PERSONEN!"
 	done
 
 SECTION "_PnP_Text2", ROMX
 _PnP_Text2::
-	line "Präsentiert von"
+	line "Moderiert von"
 	done
 
 SECTION "_PnP_Text3", ROMX
 _PnP_Text3::
-	line "mir, DJ Lily!"
+	line "DJ LILLY!"
 	done
 
 SECTION "_PnP_Text4", ROMX
@@ -812,22 +813,22 @@ _PnP_Text4::
 
 SECTION "_PnP_cute", ROMX
 _PnP_cute::
-	line "ist süß."
+	line "ist niedlich."
 	done
 
 SECTION "_PnP_lazy", ROMX
 _PnP_lazy::
-	line "ist etwas faul."
+	line "irgendwie faul."
 	done
 
 SECTION "_PnP_happy", ROMX
 _PnP_happy::
-	line "ist immer froh."
+	line "ist immer heiter."
 	done
 
 SECTION "_PnP_noisy", ROMX
 _PnP_noisy::
-	line "ist recht laut."
+	line "ist ziemlich laut."
 	done
 
 SECTION "_PnP_precocious", ROMX
@@ -837,7 +838,7 @@ _PnP_precocious::
 
 SECTION "_PnP_bold", ROMX
 _PnP_bold::
-	line "ist etwas kühn."
+	line "ist wohl dreist."
 	done
 
 SECTION "_PnP_picky", ROMX
@@ -847,17 +848,17 @@ _PnP_picky::
 
 SECTION "_PnP_sortofok", ROMX
 _PnP_sortofok::
-	line "ist so lala."
+	line "ist O.K."
 	done
 
 SECTION "_PnP_soso", ROMX
 _PnP_soso::
-	line "ist einfach soso."
+	line "geht so."
 	done
 
 SECTION "_PnP_great", ROMX
 _PnP_great::
-	line "ist echt super."
+	line "ist großartig."
 	done
 
 SECTION "_PnP_mytype", ROMX
@@ -867,7 +868,7 @@ _PnP_mytype::
 
 SECTION "_PnP_cool", ROMX
 _PnP_cool::
-	line "ist cool, oder?"
+	line "ist so cool, oder?"
 	done
 
 SECTION "_PnP_inspiring", ROMX
@@ -877,17 +878,17 @@ _PnP_inspiring::
 
 SECTION "_PnP_weird", ROMX
 _PnP_weird::
-	line "ist etwas seltsam."
+	line "ist verrückt."
 	done
 
 SECTION "_PnP_rightforme", ROMX
 _PnP_rightforme::
-	line "passt das zu mir?"
+	line "ist genau richtig?"
 	done
 
 SECTION "_PnP_odd", ROMX
 _PnP_odd::
-	line "ist echt komisch!"
+	line "ist merkwürdig!"
 	done
 
 SECTION "_PnP_Text5", ROMX
@@ -903,7 +904,7 @@ _RocketRadioText1::
 
 SECTION "_RocketRadioText2", ROMX
 _RocketRadioText2::
-	line "Team Rocket!"
+	line "TEAM ROCKET!"
 	done
 
 SECTION "_RocketRadioText3", ROMX
@@ -918,26 +919,24 @@ _RocketRadioText4::
 
 SECTION "_RocketRadioText5", ROMX
 _RocketRadioText5::
-	line "wir wieder aus der"
+	line "wir bereit für"
 	done
 
 SECTION "_RocketRadioText6", ROMX
 _RocketRadioText6::
-	line "Asche erstanden!"
+	line "unser Comeback!"
 	done
 
 SECTION "_RocketRadioText7", ROMX
 _RocketRadioText7::
 	line "GIOVANNI! "
 	text_pause
-	text "Kannst du"
+	text "Hörst"
 	done
 
 SECTION "_RocketRadioText8", ROMX
 _RocketRadioText8::
-	line "uns hören?"
-	text_pause
-	text " Wir haben's!"
+	line "du uns? Geschafft!"
 	done
 
 SECTION "_RocketRadioText9", ROMX
@@ -951,12 +950,12 @@ SECTION "_RocketRadioText10", ROMX
 _RocketRadioText10::
 	line ""
 	text_pause
-	text "Hört er uns zu?"
+	text "Hört er zu?"
 	done
 
 SECTION "_BuenaRadioText1", ROMX
 _BuenaRadioText1::
-	line "BUENA: Hier BUENA!"
+	line "BUENA: BUENA hier!"
 	done
 
 SECTION "_BuenaRadioText2", ROMX
@@ -966,7 +965,7 @@ _BuenaRadioText2::
 
 SECTION "_BuenaRadioText3", ROMX
 _BuenaRadioText3::
-	line "Mal überlegen… Es"
+	line "Moment… es lautet"
 	done
 
 SECTION "_BuenaRadioText4", ROMX
@@ -978,62 +977,62 @@ _BuenaRadioText4::
 
 SECTION "_BuenaRadioText5", ROMX
 _BuenaRadioText5::
-	line "Vergiss es nicht!"
+	line "Vergesst es nicht!"
 	done
 
 SECTION "_BuenaRadioText6", ROMX
 _BuenaRadioText6::
-	line "Ich bin im Radio-"
+	line "Ich bin im RADIO-"
 	done
 
 SECTION "_BuenaRadioText7", ROMX
 _BuenaRadioText7::
-	line "turm von Dukatia!"
+	line "TURM von DUKATIA!"
 	done
 
 SECTION "_BuenaRadioMidnightText1", ROMX
 _BuenaRadioMidnightText1::
-	line "BUENA: Oh je…"
+	line "BUENA: Oh, es ist…"
 	done
 
 SECTION "_BuenaRadioMidnightText2", ROMX
 _BuenaRadioMidnightText2::
-	line "Es ist Mitternacht"
+	line "Mitternacht!"
 	done
 
 SECTION "_BuenaRadioMidnightText3", ROMX
 _BuenaRadioMidnightText3::
-	line "ich muss aufhören!"
+	line "Ich muss aufhören!"
 	done
 
 SECTION "_BuenaRadioMidnightText4", ROMX
 _BuenaRadioMidnightText4::
-	line "Danke fürs"
+	line "Danke, Zuhörer!"
 	done
 
 SECTION "_BuenaRadioMidnightText5", ROMX
 _BuenaRadioMidnightText5::
-	line "Zuhören bis zum"
+	line "Das Ende naht!"
 	done
 
 SECTION "_BuenaRadioMidnightText6", ROMX
 _BuenaRadioMidnightText6::
-	line "Schluss! Bleibt"
+	line "Bleibt nicht zu"
 	done
 
 SECTION "_BuenaRadioMidnightText7", ROMX
 _BuenaRadioMidnightText7::
-	line "nicht zu lang wach"
+	line "lange auf! Euer"
 	done
 
 SECTION "_BuenaRadioMidnightText8", ROMX
 _BuenaRadioMidnightText8::
-	line "Von DJ BUENA!"
+	line "DJ BUENA!"
 	done
 
 SECTION "_BuenaRadioMidnightText9", ROMX
 _BuenaRadioMidnightText9::
-	text "Ich bin dann weg!"
+	text "Ich muss weg!"
 	done
 
 SECTION "_BuenaRadioMidnightText10", ROMX

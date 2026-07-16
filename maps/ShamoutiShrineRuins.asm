@@ -73,12 +73,16 @@ ShamoutiShrineRuinsLawrenceScript:
 	text "Lawrence: Ich"
 	line "durchzog viele"
 	cont "Regionen, um"
-	para "ARKTOS, Zapdos und"
+
+	para "ARKTOS, ZAPDOS und"
 	line "LAVADOS zu fangen."
+
 	para "Ohne das komplette"
 	line "Set kann ich den"
 	cont "Wächter des Meeres"
-	para "nicht erwecken …"
+
+	para "nicht erwecken…"
+
 	para "Du wirst mir"
 	line "helfen, meine"
 	cont "Sammlung zu"
@@ -87,43 +91,50 @@ ShamoutiShrineRuinsLawrenceScript:
 
 .BeatenText:
 	text "Unfassbar. Du"
-	line "schlugst meine"
-	cont "legendäre"
-	cont "Sammlung…"
+	line "hast meine legen-"
+	cont "däre Sammlung"
+	cont "geschlagen…"
 	done
 
 .AfterText:
 	text "Lawrence: Deine"
 	line "#MON sind für"
-	cont "dich keine"
-	para "bloße Sammlung,"
-	line "oder?"
+	cont "dich keine bloße"
+
+	para "Sammlung, oder?"
+
 	para "Du behandelst sie"
 	line "fast wie Freunde."
+
 	para "War das der Grund,"
-	line "warum du meine"
-	cont "legendären #MON"
-	cont "besiegtest?"
+	line "dass du meine le-"
+	cont "gendären #MON"
+	cont "besiegt hast?"
+
 	para "Nun, du hast dir"
 	line "das verdient."
 	done
 
 .SilverWingText:
-	text "Diese"
-	line "Silberflügelfeder"
-	cont "stammt vom"
-	para "Wächter des"
-	line "Meeres."
+	text "Dieser SILBER-"
+	line "FLÜGEL stammt vom"
+	cont "Wächter des"
+
+	para "Meeres."
+
 	para "Der Duft sollte es"
 	line "anlocken,"
+
 	para "aber nur, wenn du"
-	line "die drei"
-	cont "geflügelten"
-	para "Trugbilder, die"
-	line "Vögel aus Feuer,"
-	para "Eis und"
-	line "Blitz--gemeistert"
-	cont "hast."
+	line "die drei geflü-"
+	cont "gelten Trugbilder"
+
+	para "gemeistert hast--"
+	line "die Vögel aus"
+
+	para "Feuer, Eis und"
+	line "Blitz."
+
 	para "So sagen es die"
 	line "Legenden."
 	done
@@ -132,11 +143,14 @@ ShamoutiShrineRuinsLawrenceScript:
 	text "Mein Traum war,"
 	line "dieses #MON zu"
 	cont "besitzen,"
+
 	para "aber du hast dich"
-	line "als würdig"
-	cont "erwiesen. Nimm es."
+	line "als würdig erwie-"
+	cont "sen. Nimm es."
+
 	para "Ich beginne meine"
 	line "Sammlung von vorn."
+
 	para "Leb wohl."
 	done
 
@@ -144,20 +158,25 @@ ShamoutiShrineRuinsGrampsText:
 	text "Dieser Schrein war"
 	line "prächtig, als ich"
 	cont "ein Kind war."
+
 	para "Doch leider wurde"
 	line "er vor vielen"
 	cont "Jahren von einem"
 	cont "Sturm zerstört."
+
 	para "Der Sturm bedrohte"
 	line "die ganze Insel,"
 	cont "doch"
+
 	para "wir wurden vom"
 	line "Wächter der Meere"
 	cont "beschützt."
+
 	para "Jedes Jahr danke"
 	line "ich dem großen"
 	cont "#MON,"
-	para "der uns"
+
+	para "das uns"
 	line "beschützte."
 	done
 
@@ -166,7 +185,7 @@ ShamoutiShrineRuinsLadyText:
 	line "meiner Welttour"
 	cont "unbedingt auf"
 
-	para "Shamouti-Insel"
+	para "SHAMOUTI-INSEL"
 	line "anhalten."
 
 	para "Angeblich gibt es"

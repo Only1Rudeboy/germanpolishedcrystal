@@ -1,60 +1,65 @@
 VanceMonHasBecomeTougherText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist stärker"
-	line "geworden."
+	line "wurde stärker."
 
-	para "Wir heben ab!"
+	para "Wir sind"
+	line "abgehoben!"
 	done
 
 VanceDefeatedMonText:
-	text "Wir besiegen "
+	text "Wir können"
+	line ""
 	text_ram wStringBuffer4
-	text "leicht!"
-	para "… Häh? Du auch?"
-	line "Ist das nicht"
-	cont "toll?"
+	cont "leicht besiegen!"
+
+	para "…Huh? Du auch?"
+	line "Das ist doch toll?"
 	done
 
 VanceLostAMonText:
-	text "Aber ein wildes"
-	line ""
-	text_ram wStringBuffer4
+	text "Aber, stell dir"
+	line "vor, ein wildes"
 
-	para "entkam uns knapp."
-	line "Ich wollte Fly"
-	cont "hinterher…"
+	para ""
+	text_ram wStringBuffer4
+	text " entkam"
+	line "uns nur knapp."
+
+	para "Ich wollte ihm"
+	line "nachFLIEGEN…"
 	done
 
 VanceBattleRematchText:
-	text "Gerade bin ich"
-	line "auf"
-	cont ""
+	text "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Weißt du, wo wir"
-	line "uns trafen?"
+	para "Du weißt, wo wir"
+	line "uns zum ersten Mal"
+	cont "sahen?"
 
-	para "Lust zu kämpfen?"
-	line "Ich warte."
+	para "Willst du kämpfen?"
+	line "Ich warte dort."
 	done
 
 VanceHangUpText:
-	text "O.K., tschüss!"
+	text "O.K., mach's gut!"
 	done
 
 VanceLookingForwardText:
-	text "Ich freu mich auf"
+	text "Ich freue mich auf"
 	line "unseren nächsten"
 	cont "Kampf!"
 	done
 
 VanceHurryHurryText:
 	text "Oh, <PLAYER>!"
-	line "Schnell, schnell!"
+	line "Beeilung!"
 
 	para ""
 	text_ram wStringBuffer5
-	text "! Fly her!"
+	text "!"
+	line "FLIEGE zu mir!"
 	done

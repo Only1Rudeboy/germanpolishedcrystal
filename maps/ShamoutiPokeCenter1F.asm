@@ -58,8 +58,9 @@ ShamoutiPokeCenter1FIvyScript:
 	text "Ivy: Hm, ich"
 	line "dachte, du wärst"
 	cont "froh, ein seltenes"
-	para "#MON"
-	line "großzuziehen …"
+
+	para "#MON großzu-"
+	line "ziehen…"
 	done
 
 .Bulbasaur:
@@ -111,54 +112,64 @@ ShamoutiPokeCenter1FIvyScript:
 	end
 
 .NoRoomText:
-	text "Schade, es scheint"
-	line "keinen Platz zu"
-	cont "geben -weder in"
-	cont "deinem Team noch"
-	cont "in deiner Box …"
+	text "Schade, es gibt"
+	line "keinen Platz--"
+	cont "weder in deinem"
+	cont "Team noch in der"
+	cont "BOX…"
 	done
 
 .GreetingText:
 	text "Ivy: Ach! Du bist"
 	line "<PLAYER>, der neue"
 	cont "Champion!"
+
 	para "Freut mich, dich"
 	line "kennenzulernen!"
-	para "Ich bin Ivy, ein"
+
+	para "Ich bin Ivy,"
 	line "#MON-Professor."
+
 	para "Ich erforsche"
-	line "lokale Variationen"
-	cont "im Aussehen von"
+	line "lokale Variatio-"
+	cont "nen im Aussehen"
+	cont "von #MON."
+
 	para "Wusstest du, dass"
 	line "manche wilde"
 	cont "#MON"
+
 	para "Attacken kennen,"
-	line "die nur in ihrem"
-	cont "Lebensraum"
-	cont "vorkommen?"
+	line "die es nur in"
+	cont "ihrem Lebensraum"
+	cont "gibt?"
+
 	para "Und selbst zwei"
 	line "#MON derselben"
+
 	para "Art in einem"
 	line "Gebiet können"
 	cont "verschiedene"
-	cont "Farben haben …"
-	para "Ach,"
-	line "Entschuldigung,"
-	cont "ich schweife oft"
-	cont "ab."
+	cont "Farben haben…"
+
+	para "Ach, Entschuldi-"
+	line "gung, ich schweife"
+	cont "oft ab."
 	done
 
 .OfferText:
 	text "Ivy: Du machst"
 	line "also eine ganz"
 	cont "neue"
-	para "Arena-"
-	line "Herausforderung in"
-	cont "einer neuen Region"
-	cont "…"
+
+	para "ARENA-Herausfor-"
+	line "derung in einer"
+	cont "neuen Region…"
+
 	para "Aha! Warum gebe"
 	line "ich dir nicht auch"
 	cont "ein neues #MON?"
+
 	para "Welches möchtest"
 	line "du?"
 	done
@@ -172,21 +183,26 @@ ShamoutiPokeCenter1FIvyScript:
 .GoodbyeText:
 	text "Ivy: PROF. LIND"
 	line "hat dir ein"
-	cont "#MON"
-	cont "anvertraut, und"
+	cont "#MON anver-"
+	cont "traut, und"
+
 	para "PROF. EICH hat dir"
-	line "einen #dex"
+	line "einen #DEX"
 	cont "gegeben, also"
-	para "weiß ich, dass du"
-	line "gut auf "
+
+	para "weiß ich: Du küm-"
+	line "merst dich gut um"
+	cont ""
 	text_ram wStringBuffer3
-	text "."
+	text "!"
+
 	para "Na ja, ich muss"
-	line "zurück mit der"
-	cont "Fähre"
-	para "in mein Labor auf"
-	line "der"
-	cont "Valencia-Insel."
+	line "mit der Fähre"
+
+	para "zurück in mein"
+	line "Labor auf der"
+	cont "VALENCIA-INSEL."
+
 	para "Grüß PROF. EICH"
 	line "von mir!"
 	done
@@ -207,7 +223,7 @@ ShamoutiPokeCenter1FIvyScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Bulbasaur@"
-	db "Charmander@"
-	db "Squirtle@"
+	db "Bisasam@"
+	db "Glumanda@"
+	db "Schiggy@"
 	db "Zurück@"

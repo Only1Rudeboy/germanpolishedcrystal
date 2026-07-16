@@ -1,54 +1,57 @@
 ToddAskNumber1Text:
-	text "Von hier sieht"
-	line "man das Kaufhaus"
-	para "Dukatia. Auf dem"
-	line "Dach gibt's ab"
-	cont "und"
-	para "zu"
-	line "Schlussverkäufe."
-	cont "Darf ich deine"
-	cont "Nummer?"
-	para "Ich ruf an beim"
-	line "nächsten Sale."
+	text "Von hier kann ich"
+	line "das KAUFHAUS von"
+	para "DUKATIA CITY"
+	line "sehen. Sie ver-"
+	para "kaufen hin und"
+	line "wieder Sonderan-"
+	cont "gebote auf dem"
+	cont "Dach."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
+	para "Ich melde mich,"
+	line "wenn sie wieder"
+	cont "Angebote haben."
 	done
 
 ToddAskNumber2Text:
-	text "Gib mir deine"
-	line "Nummer, ich ruf"
-
-	para "an beim nächsten"
-	line "Schlussverkauf."
+	text "Wenn du mir deine"
+	line "Nummer gibst, rufe"
+	para "ich an, wenn sie"
+	line "Angebote haben."
 	done
 
 ToddNumberAcceptedText:
-	text "Ich checke das"
-	line "Kaufhaus täglich"
-	cont "-"
-	para "ich weiß, wann"
-	line "Sale ist."
+	text "Ich gehe täglich"
+	line "in das KAUFHAUS"
+	para "von DUKATIA CITY."
+	line "Daher weiß ich,"
+	para "wann sie Angebote"
+	line "haben."
 	done
 
 ToddNumberDeclinedText:
-	text "Jedenfalls…"
-
-	para "Wenn du knapp bei"
-	line "Kasse bist, nimm"
+	text "Egal…"
+	para "Bist du knapp bei"
+	line "Kasse, notiere"
 	cont "meine Nummer."
-
-	para "Ich ruf beim Sale"
-	line "an."
+	para "Ich rufe dich an,"
+	line "wenn sie Angebote"
+	cont "haben."
 	done
 
 ToddPhoneFullText:
 	text "Dein Telefon hat"
-	line "keinen Platz"
+	line "keinen freien"
+	cont "Speicherplatz"
 	cont "mehr."
 	done
 
 ToddRematchText:
-	text "Ich hab gewartet!"
-	line "Weniger shoppen,"
-
-	para "mehr #MON"
-	line "trainiert!"
+	text "Ich erwartete"
+	line "dich! Ich war"
+	para "nicht mehr so"
+	line "oft Einkaufen, um"
+	para "mein #MON bes-"
+	line "ser zu trainieren!"
 	done

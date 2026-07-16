@@ -30,9 +30,11 @@ ValenciaIslandCooltrainermText:
 	text "In diesem Haus"
 	line "wohnen ein paar"
 	cont "starke Trainer."
+
 	para "Eine Mutter und"
-	line "ihre Tochter …"
+	line "ihre Tochter…"
 	cont "Oder ihr Sohn?"
+
 	para "Jedenfalls sind"
 	line "sie im Urlaub."
 	done
@@ -54,7 +56,7 @@ ValenciaIslandYoungsterScript:
 	done
 
 ValenciaIslandSignText:
-	text "Valencia-Insel"
+	text "VALENCIA-INSEL"
 
 	para "Bittere Orangen"
 	line "und süße Brisen"
@@ -64,18 +66,19 @@ ValenciaIslandGoneFishingSignText:
 	text "Bin angeln"
 
 	para "(Im Urlaub in"
-	line "Alola!)"
+	line "ALOLA!)"
 	done
 
 ValenciaIslandLockedDoorText:
-	text "Es ist verriegelt"
-	line "…"
+	text "Es ist"
+	line "verriegelt…"
 	done
+
 IvysLabSignText:
-	text "Ivy-Forschung"
+	text "IVY-Forschung"
 	line "Nr. 2"
 	done
 
 IvysHouseSignText:
-	text "Ivys Haus"
+	text "IVYs Haus"
 	done

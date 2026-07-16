@@ -2669,17 +2669,17 @@ endc
 		tr_moves SOLAR_BEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
 	end_trainer
 
-	def_trainer ERIN1, "Erin"
+	def_trainer ERIN1, "LOTTE"
 	tr_mon 18, PONYTA
 	tr_mon 16, ODDISH
 	end_trainer
 
-	def_trainer ERIN2, "Erin"
+	def_trainer ERIN2, "LOTTE"
 	tr_mon 32, PONYTA
 	tr_mon 32, GLOOM
 	end_trainer
 
-	def_trainer ERIN3, "Erin"
+	def_trainer ERIN3, "LOTTE"
 	tr_mon 36, RAPIDASH
 		tr_moves DOUBLE_TEAM, STOMP, FIRE_SPIN, SUNNY_DAY
 	tr_mon 34, RAICHU

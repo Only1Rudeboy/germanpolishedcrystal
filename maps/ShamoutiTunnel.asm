@@ -45,17 +45,16 @@ OreManiacScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "Geschäft"
-	line "abgeschlossen! Ein"
-	cont "Erz, das ich"
-	cont "verehr!"
+	text "Geschäft gemacht!"
+	line "Ein Erz, das ich"
+	cont "verehre!"
 	done
 
 .GreetingText:
 	text "Erz, Erz, Erz…"
 	line "Erze, die ich"
 
-	para "verehr! Ich zahle"
+	para "verehre! Ich zahle"
 	line "gut für seltene"
 	cont "Erze."
 
@@ -65,8 +64,9 @@ OreManiacScript:
 	done
 
 .OfferText:
-	text "Dieses Erz - es"
+	text "Dieses Erz--es"
 	line "erschüttert mich!"
+
 	para "Verkaufst du es"
 	line "für ¥"
 	text_decimal hMoneyTemp, 3, 7
@@ -74,9 +74,12 @@ OreManiacScript:
 	done
 
 .WrongItemText:
-	text "Huh? Was ist das"
-	para "denn? Mit so einem"
-	line "minderwertigen Erz"
+	text "Hä? Was ist das"
+	line "denn?"
+
+	para "Mit so einem min-"
+	line "derwertigen Erz"
+
 	para "bringst du mein"
 	line "Herz nicht zum"
 	cont "Beben!"
@@ -107,6 +110,7 @@ GenericTrainerTamerOswald:
 .SeenText:
 	text "Als Zirkusmensch"
 	line "geboren."
+
 	para "Jetzt bin ich auch"
 	line "ein wilder"
 	cont "Kämpfer."
@@ -121,11 +125,11 @@ GenericTrainerTamerOswald:
 GenericTrainerFirebreatherTala:
 	generictrainer FIREBREATHER, TALA, EVENT_BEAT_FIREBREATHER_TALA, .SeenText, .BeatenText
 
-	text "Meine"
-	line "Feuerspucknummer"
-	cont "ist"
-	para "bei Touristen sehr"
-	line "beliebt."
+	text "Meine Feuerspuck-"
+	line "nummer ist bei"
+	cont "Touristen sehr be-"
+	cont "liebt."
+
 	para "Manche spenden"
 	line "sogar!"
 	done
@@ -146,6 +150,7 @@ GenericTrainerSightseerfNoelle:
 	text "Ich mache ein"
 	line "Fotoalbum für"
 	cont "meine Eltern."
+
 	para "Hey, nicht gucken!"
 	line "Das ist privat!"
 	done
@@ -153,8 +158,10 @@ GenericTrainerSightseerfNoelle:
 .SeenText:
 	text "Ach du meine Güte!"
 	line "Du hast #MON,"
+
 	para "die ich noch nie"
 	line "gesehen habe!"
+
 	para "Darf ich ein Foto"
 	line "machen?"
 	done
@@ -163,7 +170,7 @@ GenericTrainerSightseerfNoelle:
 	text "Ach… verloren?"
 	line "Kein Problem!"
 
-	para "Selfie! ♥ Klick!"
+	para "Foto! ♥ Klick!"
 	done
 
 GenericTrainerSightseermChester:
@@ -175,12 +182,13 @@ GenericTrainerSightseermChester:
 
 	para "Vielleicht sehen"
 	line "wir uns im"
-	cont "Kampfturm."
+	cont "DUELLTURM."
 	done
 
 .SeenText:
 	text "Ich reise um die"
 	line "Welt."
+
 	para "Welche Region soll"
 	line "ich als Nächstes"
 	cont "besuchen?"

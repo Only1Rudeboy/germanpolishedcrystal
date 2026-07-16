@@ -1,12 +1,16 @@
 RalphNeglectingKidsText:
-	text "Ich verbringe"
-	line "mehr Zeit mit "
-	text_ram wStringBuffer4
+	; GSC-DE Dump
+	text "Ich habe mehr Zeit"
+	line "mit meinem"
 
-	para "als mit meinen"
-	line "Kindern. Etwas"
-	cont "traurig,"
-	cont "eigentlich."
+	para ""
+	text_ram wStringBuffer4
+	text " ver-"
+	line "bracht, als mit"
+	cont "meinen Kindern."
+
+	para "Das ist in der Tat"
+	line "schade."
 	done
 
 RalphDefeatedMonText:
@@ -14,103 +18,126 @@ RalphDefeatedMonText:
 	line "wildes "
 	text_ram wStringBuffer4
 	text "."
-	para "Mein Kind lachte,"
-	line "es könnte das"
-	cont "auch leicht"
-	cont "schaffen."
-	para "Es wird echt"
-	line "frech …"
+
+	para "Ich erzählte es"
+	line "meinem Sohn, aber"
+
+	para "er sagte, er könne"
+	line "das auch leicht"
+	cont "tun."
+
+	para "Er ist sehr auf-"
+	line "sässig geworden…"
 	done
 
 RalphLostAMonText:
-	text "Gestern entkam"
-	line "ein wildes "
+	text "Gestern ist mir"
+	line "ein wildes"
+
+	para ""
 	text_ram wStringBuffer4
+	text " direkt"
+	line "vor den Augen"
 
-	para "vor meinem Kind."
-	line "Ich war niederge-"
-	cont "schlagen, aber es"
+	para "meines Sohnes"
+	line "entwischt."
 
-	para "teilte seine #"
-	line "Bälle mit mir."
+	para "Ich war darüber"
+	line "verärgert, bis er"
 
-	para "Haha, das hat"
-	line "meinen Tag"
-	cont "gerettet!"
+	para "seine #BÄLLE"
+	line "mit mir geteilt"
+	cont "hat."
+
+	para "Haha, das hat mir"
+	line "den Tag gerettet!"
 	done
 
 RalphBattleRematchText:
-	text "Wie wär's mit"
-	line "einem Kampf?"
+	text "Würdest du gegen"
+	line "mich kämpfen?"
 
-	para "Gut, du machst"
-	line "mit! Für ein Kind"
-	cont "bist"
+	para "Gut, so soll es"
+	line "denn geschehen!"
 
-	para "du ziemlich"
-	line "einsichtig."
+	para "Du bist umgänglich"
+	line "für ein Kind."
 
 	para ""
 	text_ram wStringBuffer5
-	text " - da treffen wir"
-	line "uns!"
+	text ","
+	line "dort bin ich!"
 	done
 
 RalphHangUpText:
-	text "Ruf auch mal"
-	line "deine Mama an!"
+	text "Rufst du auch"
+	line "manchmal deine"
+	cont "Mama an?"
 	done
 
 RalphItemText:
-	text "Hör mal, ich…"
-	line "Autsch!"
+	text "Hör mal, ich…Aua!"
 
-	para "Tut mir leid!"
-	line "Sieh mal,"
-	cont ""
+	para "Sorry! Pass auf,"
+	line ""
 	text_ram wStringBuffer4
+	text " beißen,"
 
-	para "beißen wie"
-	line "verrückt auf "
+	para "als gäbe es kein"
+	line "Morgen und zwar"
+
+	para "genau hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
-	para "Aua! Eins hat"
-	line "mich! Gestochen!"
-	para "Die sind richtig"
-	line "wild! <PLAYER>,"
-	para "du musst das"
-	line "sehen! Mach dich"
-	cont "bereit zum"
-	cont "Angeln!"
+
+	para "Autsch! Oje!"
+	line "Eines biss mich!"
+
+	para "Heh, sie sind sehr"
+	line "lebhaft!"
+
+	para "<PLAYER>, das musst"
+	line "du dir ansehen!"
+
+	para "Mach deine Angel"
+	line "fertig!"
 	done
 
 RalphNoItemText:
-	text "Ja, ich weiß."
+	text "Yo, ich weiß."
 
 	para "Du suchst seltene"
 	line "#MON."
 
-	para "Ich fange nur"
-	line "Karpador…"
+	para "In letzter Zeit"
+	line "habe ich nur"
+	cont "KARPADOR gefangen…"
 	done
 
 RalphReminderText:
-	text "Wo bist du? Ich"
-	line "warte auf"
+	text "Wo bist du?"
+	line "Ich warte, dass du"
 
-	para ""
+	para "hier auftauchst:"
+	line ""
 	text_ram wStringBuffer5
-	text ". Ältere nicht"
-	line "warten lassen!"
+	text "."
+
+	para "Lass die Älteren"
+	line "nicht warten!"
 	done
 
 RalphHurryText:
-	text "Hey, was ist los?"
+	text "Heh, was ist los"
+	line "mit dir?"
 
-	para "Kommst du nicht"
-	line "zum Qwilfish-"
-	cont "Angeln?"
+	para "Bist du nicht ge-"
+	line "kommen, um"
+	cont "BALDORFISH zu"
+	cont "angeln?"
 
-	para "Ich bin auf Route"
-	line "32, beeil dich!"
+	para "Ich warte auf"
+	line "ROUTE 32, also"
+	cont "beeil dich!"
 	done

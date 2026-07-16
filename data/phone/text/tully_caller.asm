@@ -1,101 +1,109 @@
 TullyMonHasGrownText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text "ist wieder"
-	line "gewachsen."
-	para "Beim Fangen war"
-	line "es so klein,"
-	cont "jetzt viel"
-	cont "größer."
+	line "ist erneut"
+	cont "gewachsen."
+
+	para "Es war groß, als"
+	line "ich es fing, aber"
+
+	para "jetzt ist es noch"
+	line "größer."
 	done
 
 TullyDefeatedMonText:
-	text "Oh ja, ich"
-	line "besiegte ein"
-	cont "wildes "
+	text "Oh yo, ich schlug"
+	line "ein wildes"
+	cont ""
 	text_ram wStringBuffer4
-	text "."
+	text " K.O."
 
-	para "Es war riesig, so"
-	line "groß ungefähr."
+	para "Es war riesig,"
+	line "ungefähr soo groß."
 
-	para "Heh, am Telefon"
-	line "sieht man das"
-	cont "nicht…"
+	para "He, ich glaube, "
+	line "man kann das am"
+	cont "Telefon nicht"
+	cont "beschreiben…"
 	done
 
 TullyLostAMonText:
-	text "Oh ja, ein wildes"
-	line ""
+	text "Oh yo, ich verlor"
+	line "gegen ein wildes"
+	cont ""
 	text_ram wStringBuffer4
-	text " entkam."
+	text "."
 
-	para "Es war riesig, so"
-	line "groß ungefähr."
+	para "Es war riesig,"
+	line "ungefähr soo groß."
 
-	para "Heh, am Telefon"
-	line "sieht man das"
-	cont "nicht…"
+	para "He, ich glaube, "
+	line "man kann das am"
+	cont "Telefon nicht"
+	cont "beschreiben…"
 	done
 
 TullyBattleRematchText:
-	text "Lass uns kämpfen!"
+	text "Wir sollten end-"
+	line "lich kämpfen!"
 
-	para "Ich angle auf"
+	para "Ich angle hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Komm vorbei, wenn"
-	line "du Zeit hast."
+	para "Schau mal vorbei,"
+	line "wenn du Zeit hast."
 	done
 
 TullyHangUpText:
-	text "Na dann, bis"
-	line "bald."
+	text "Nun, ich werde"
+	line "dich treffen."
 	done
 
 TullyFoundItemText:
-	text "Ich fand was"
-	line "Nettes am Wasser."
+	text "Ich fand etwas"
+	line "Kleines am Ufer."
 
 	para "Wie versprochen,"
-	line "ist es deins."
+	line "es gehört dir."
 
-	para "Ich warte auf"
+	para "Ich warte hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyNoItemText:
-	text "Schon was"
-	line "gefunden?"
+	text "Ob ich etwas Gutes"
+	line "gefunden habe?"
 
-	para "Nein, noch nicht."
+	para "Nö, noch nicht."
 
-	para "Wie beim Angeln:"
-	line "Geduld!"
+	para "Es ist wie beim"
+	line "Angeln, du"
+	cont "brauchst Geduld."
 	done
 
 TullyForwardText:
-	text "Jup, Tully hier…"
+	text "Yo, AMADEUS hier…"
 
-	para "<PLAYER>? Was? Du"
-	line "bist verloren?"
+	para "<PLAYER>? Was?"
+	line "Du hast dich"
+	cont "verirrt?"
 
-	para "Unser Kampf ist"
-	line "auf "
+	para "Wir kämpfen hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyHurryText:
-	text "Ich hab was Gutes"
-	line "für dich."
+	text "Ich habe etwas"
+	line "Tolles für dich."
 
-	para "Komm schnell nach"
+	para "Ich bin hier:"
 	line ""
 	text_ram wStringBuffer5
-	text "!"
+	text "."
 	done

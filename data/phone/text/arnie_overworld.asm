@@ -1,55 +1,54 @@
 ArnieAskNumber1Text:
-	text "Hast du das"
-	line "Gefühl, dass es"
-	cont "mehr"
-
-	para "seltene #MON"
-	line "gibt? Ich bin"
-
-	para "sicher und suche"
-	line "ständig."
-
-	para "Wenn ich eins"
-	line "finde, will ich's"
-	cont "allen"
-
-	para "erzählen. Gib mir"
-	line "deine Nummer!"
+	text "Spürst du die"
+	line "Gegenwart von"
+	para "weiteren seltenen"
+	line "#MON hier?"
+	para "Ich kann sie"
+	line "fühlen, daher"
+	cont "halte ich die"
+	cont "Augen offen."
+	para "Finde ich eines,"
+	line "teile ich diese"
+	para "Information mit"
+	line "allen Bekannten."
+	para "Gib du mir doch"
+	line "auch deine Nummer."
 	done
 
 ArnieAskNumber2Text:
-	text "Ich will Leute"
-	line "informieren, wenn"
-
-	para "ich seltene"
-	line "#MON sehe. Gib"
-	cont "mir deine Nummer!"
+	text "Ich möchte mich"
+	line "mitteilen, wenn"
+	cont "ich seltene"
+	cont "#MON sehe."
+	para "Gib mir bitte"
+	line "deine Nummer!"
 	done
 
 ArnieNumberAcceptedText:
-	text "Wenn ich coole"
-	line "#MON sehe,"
-
-	para "ruf ich dich an!"
+	text "Sollte ich ein"
+	line "außergewöhnliches"
+	para "#MON sehen,"
+	line "melde ich mich!"
 	done
 
 ArnieNumberDeclinedText:
-	text "Ach! Ich will"
-	line "jemandem von"
-	cont "meinen Funden"
-	cont "erzählen!"
+	text "Argh! Ich möchte"
+	line "meine Entdeckungen"
+	cont "jemandem sagen!"
 	done
 
 ArniePhoneFullText:
-	text "Kein Platz für"
-	line "meine Nummer."
-
-	para "Mach Platz und"
-	line "trag mich ein!"
+	text "Du hast keinen"
+	line "Platz für meine"
+	cont "Nummer."
+	para "Wenn du Platz"
+	line "schaffst, kannst"
+	cont "du mich eintragen!"
 	done
 
 ArnieRematchText:
-	text "Jetzt bin ich"
-	line "dran zu gewinnen!"
-	para "Ich fang neu an!"
+	text "Dieses Mal siege"
+	line "ich!"
+	para "Ich habe mich"
+	line "geändert!"
 	done

@@ -1,65 +1,64 @@
 TullyAskNumber1Text:
-	text "Hey, du willst"
-	line "auch der"
-	cont "Ultimative"
-	para "werden? Dann sind"
-	line "wir Kameraden!"
-	para "Wenn ich am"
-	line "Wasser Items"
-	cont "finde,"
-	para "geb ich dir"
-	line "welche. Gib mir"
-	cont "deine Nummer."
+	text "Heh, du möchtest"
+	line "auch der beste"
+	para "Trainer sein? Dann"
+	line "bist du mein"
+	cont "Kamerad!"
+	para "Wenn ich am Wasser"
+	line "noch mehr Items"
+	para "finde, gebe ich"
+	line "dir welche ab."
+	para "Gib mir doch deine"
+	line "Telefonnummer."
 	done
 
 TullyAskNumber2Text:
-	text "Wenn ich am"
-	line "Wasser Items"
-	cont "finde,"
-	para "geb ich dir"
-	line "welche. Gib mir"
-	cont "deine Nummer."
+	text "Wenn ich am Wasser"
+	line "noch mehr Items"
+	para "finde, gebe ich"
+	line "dir welche ab."
+	para "Gib mir doch deine"
+	line "Telefonnummer."
 	done
 
 TullyNumberAcceptedText:
-	text "Ich melde mich,"
-	line "wenn ich was"
-	cont "Gutes finde."
+	text "Ich rufe dich an,"
+	line "wenn ich etwas"
+	cont "Nützliches finde."
 	done
 
 TullyNumberDeclinedText:
-	text "Ach so? Dann"
-	line "behalte ich sie"
-	cont "selbst."
+	text "Wirklich? Dann"
+	line "habe ich alles nur"
+	cont "für mich."
 	done
 
 TullyPhoneFullText:
-	text "Deine Liste ist"
-	line "voll."
-
-	para "Komm wieder, wenn"
-	line "Platz ist."
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	para "Schaffe Platz und"
+	line "komme wieder."
 	done
 
 TullyRematchText:
 	text "Seit unserem"
-	line "Treffen hab ich"
-	cont "mehr als"
-
-	para "nur geangelt."
-	line "Überraschung!"
+	line "letzten Treffen"
+	para "habe ich nicht"
+	line "nur geangelt."
+	para "Überzeuge dich"
+	line "selbst!"
 	done
 
 TullyGiftText:
-	text "Hey, da bist du!"
-
-	para "Hier, wie"
-	line "versprochen!"
+	text "Ah! Da bist du"
+	line "endlich!"
+	para "Wie versprochen,"
+	line "dein Geschenk!"
 	done
 
 TullyPackFullText:
-	text "Tasche voll?"
-
-	para "Komm später"
-	line "wieder."
+	text "Dein BEUTEL"
+	line "ist voll?"
+	para "Komm später,"
+	line "in Ordnung?"
 	done

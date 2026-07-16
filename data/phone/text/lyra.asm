@@ -14,8 +14,9 @@ LyraPhoneGreetingText_Eve:
 	prompt
 
 LyraPhoneGreetingText_Nite:
-	text "… <PLAYER>! Guten"
-	line "Abend!"
+	text "… <PLAYER>!"
+	line "Guten Abend!"
+
 	para "Du bist spät"
 	line "wach."
 	prompt
@@ -23,7 +24,8 @@ LyraPhoneGreetingText_Nite:
 LyraPhoneLandmarkText:
 	text "Wo bist du"
 	line "gerade?"
-	cont ""
+
+	para ""
 	text_ram wStringBuffer4
 	text "?"
 	prompt
@@ -79,9 +81,9 @@ LyraPhoneNextMoveLevelText:
 LyraPhoneNoNextMoveText:
 	text_ram wStringBuffer3
 	line "lernt keine"
-	cont "weiter"
+	cont "weiteren"
 
-	para "en Attacken nur"
+	para "Attacken nur"
 	line "durch"
 	cont "Levelaufstieg."
 	prompt
@@ -92,10 +94,11 @@ LyraPhoneNoEggMovesText:
 	prompt
 
 LyraPhoneEndText:
-	text "Jedenfalls …"
+	text "Jedenfalls…"
 	line "Schön, mal wieder"
 	cont "mit dir zu reden,"
 	cont "<PLAYER>."
+
 	para "Ruf mich wieder"
 	line "an!"
 	done
@@ -103,21 +106,29 @@ LyraPhoneEndText:
 LyraPhoneSpecialText_YellowForest:
 	text "Hi, <PLAYER>! Wie"
 	line "geht's?"
+
 	para "Warst du schon im"
 	line "Gelben Wald?"
+
 	para "Ich wollte hin,"
 	line "aber ich hörte,"
-	para "Team Rocket"
+
+	para "TEAM ROCKET"
 	line "treibt da Unfug."
+
 	para "Ich will mich da"
 	line "nicht"
 	cont "reinmischen!"
-	para "Du hast Team"
-	line "Rocket schon mal"
+
+	para "Du hast TEAM"
+	line "ROCKET schon mal"
+
 	para "besiegt, oder"
 	line "<PLAYER>?"
+
 	para "Das ist so mutig"
 	line "von dir!"
+
 	para "Viel Glück auf"
 	line "deiner Reise!"
 	done
@@ -128,7 +139,7 @@ LyraPhoneSpecialText_FirstBadge:
 	para "Ich habe meinen"
 	line "ersten Orden!"
 
-	para "FALKs Tauboss"
+	para "FALKs TAUBOSS"
 	line "ist stark, aber"
 
 	para "meins hat"
@@ -167,7 +178,7 @@ LyraPhoneSpecialText_LyrasEgg:
 
 	para "und Opa gelassen,"
 	line "und sie fanden"
-	cont "Ei!"
+	cont "ein EI!"
 
 	para "Ist das nicht"
 	line "toll?"
@@ -179,14 +190,15 @@ LyraPhoneSpecialText_LyrasEgg:
 	line "willst…"
 
 	para "Jedenfalls hab"
-	line "das Ei im Hort"
+	line "ich das EI im"
 
-	para "gelassen, falls"
-	line "es willst!"
+	para "Hort gelassen,"
+	line "falls du es"
+	cont "willst!"
 
 	para "Ich weiß, du"
-	line "gut darauf"
-	cont "aufpassen,"
+	line "passt gut darauf"
+	cont "auf,"
 	cont "<PLAYER>."
 
 	para "Tschüss!"

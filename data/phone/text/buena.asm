@@ -1,421 +1,582 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, hier ist"
-	line "BUENA…"
+	; GSC-DE dump 3791
+	text "Hier ist BUENA…"
 
 	para "Oh! Guten Morgen,"
 	line "<PLAYER>!"
 
-	para "Morgens bin ich"
-	line "etwas benommen…"
+	para "Ich bin noch"
+	line "schläfrig früh"
+	cont "am Morgen…"
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, hier ist"
-	line "BUENA… Oh! Hi,"
-	cont "<PLAYER>!"
+	; GSC-DE dump 3792
+	text "Hier ist BUENA…"
+	line "Oh! Hi, <PLAYER>!"
 
-	para "Hörst du BUENAs"
-	line "Show im Radio?"
+	para "Hörst du die"
+	line "BUENA-Show?"
 	done
 
 BuenaPhoneMidnightAnswerText:
+	; GSC-DE dump 3793
 	text "Hier ist BUENA."
-	line "Ich kann gerade"
-	para "nicht ans"
-	line "Telefon. Wenn du"
-	cont "quatschen"
-	para "willst, hör"
-	line "BUENAs Passwort"
-	cont "im Radio"
-	para "und ruf mich nach"
-	line "Mitternacht an!"
+	line "Ich kann jetzt"
+
+	para "nicht ans Telefon."
+
+	para "Wenn du plaudern"
+	line "möchtest, dann"
+
+	para "hör dir BUENAs"
+	line "PASSWORTSENDUNG"
+
+	para "im Radio an und"
+	line "melde dich nach"
+	cont "Mitternacht!"
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, hier ist"
-	line "BUENA… Oh! Hi,"
-	cont "<PLAYER>!"
+	; GSC-DE dump 3794
+	text "Hier ist BUENA…"
+	line "Oh! Hi, <PLAYER>!"
 
-	para "Ich komme gerade"
-	line "von der Arbeit."
+	para "Ich bin gerade mit"
+	line "der Arbeit fertig."
 
-	para "Ich bin total"
+	para "Ich bin vielleicht"
 	line "erschöpft!"
 	done
 
 BuenaPhoneMorningText:
-	text "<PLAYER>! Hi, ich"
-	line "bin's, BUENA!"
+	; GSC-DE dump 3795
+	text "<PLAYER>!"
+	line "Hier ist BUENA!"
 
-	para "Ich bin früh auf,"
-	line "deswegen ruf ich"
-	cont "an!"
+	para "Ich bin früh auf-"
+	line "gestanden und"
+
+	para "dachte, ich rufe"
+	line "dich an."
 	done
 
 BuenaPhoneDayText:
-	text "<PLAYER>! Hi, ich"
-	line "bin's, BUENA!"
+	; GSC-DE dump 3796
+	text "<PLAYER>!"
+	line "Hier ist BUENA!"
 
-	para "Ich brauchte"
-	line "jemand zum"
-	cont "Quatschen!"
+	para "Ich musste mit"
+	line "jemandem reden!"
 	done
 
 BuenaPhoneMidnightText:
-	text "<PLAYER>! Hi, ich"
-	line "bin's, BUENA!"
+	; GSC-DE dump 3797
+	text "<PLAYER>!"
+	line "Hier ist BUENA!"
 
-	para "Ich hab gerade"
+	para "Ich habe gerade"
 	line "Pause."
 	done
 
 BuenaPhoneNiteText:
-	text "<PLAYER>! Hi, ich"
-	line "bin's, BUENA!"
+	; GSC-DE dump 3798
+	text "<PLAYER>!"
+	line "Hier ist BUENA!"
 
 	para "Ich konnte nicht"
-	line "schlafen, also"
-	cont "rief ich an."
+	line "schlafen, darum"
+	cont "rufe ich an."
 	done
 
 BuenaPhoneRocketText:
+	; GSC-DE dump 3799
 	text "Oh. Hi, <PLAYER>!"
 
-	para "Wie geht's dir?"
+	para "Wie geht es dir?"
 
-	para "Aiyee! Jetzt ist"
-	line "keine Zeit für"
+	para "Hey! Das ist"
+	line "nicht die Zeit für"
 
-	para "alberne"
-	line "Begrüßungen! Der"
-	cont "Funkturm ist"
+	para "dämliche und"
+	line "komische Grüße!"
 
-	para "in großer Gefahr!"
-	line "<PLAYER>, pass"
-	cont "auf!"
+	para "Der RADIOTURM ist"
+	line "in Gefahr!"
+
+	para "<PLAYER>, du bist"
+	line "besser vorsichtig!"
 	done
 
 BuenaPhoneWentOutWithBenText:
-	text "Neulich ging ich"
-	line "essen mit DJ Ben!"
-	para "Ist das nicht"
-	line "toll? Er fand die"
-	cont "Musik"
-	para "in meiner Show"
-	line "cool!"
-	para "Oh wow! Was soll"
-	line "ich nur tun?"
-	para "… Ups, ich muss"
-	line "mich für meine"
-	para "Show"
-	line "fertigmachen! Bis"
-	cont "später!"
-	done
+	; GSC-DE dump 3800
+	text "Neulich war ich"
+	line "mit DJ BEN beim"
 
-BuenaPhoneReceptionistText:
-	text "Kennst du die"
-	line "Rezeptionistin im"
-	cont "Funkturm?"
+	para "Essen! Ist das"
+	line "nicht großartig?"
 
-	para "'Willkommen' sagt"
-	line "sie immer."
+	para "Nicht nur das, er"
+	line "sagte auch, dass"
 
-	para "Aber sie ist die"
-	line "redseligste im"
-	cont "Funkturm."
+	para "meine Sendung cool"
+	line "ist!"
 
-	para "Sie hält sich nur"
-	line "zurück."
+	para "Oh, wow! Was soll"
+	line "ich jetzt tun?"
 
-	para "Ist das nicht"
-	line "lustig? Bis"
-	cont "später!"
-	done
-
-BuenaPhoneLuckyNumberShowText:
-	text "Sag mal, <PLAYER>."
-	line "Hast du schon mal"
-
-	para "bei der"
-	line "Glückszahlen-Show"
-	cont "gewonnen?"
-
-	para "Reed jammert, er"
-	line "hätte nie"
-	cont "gewonnen,"
-
-	para "und will die Show"
-	line "weitermachen, bis"
-	cont "er gewinnt."
-
-	para "Reden wir wieder!"
-	done
-
-BuenaPhoneStressedFromWorkText:
-	text "Weißt du, letzte"
-	line "Nacht …"
-	para "War ich so"
-	line "gestresst von der"
-	cont "Arbeit,"
-	para "dass ich Unmengen"
-	line "Junkfood fraß!"
-	para "MARY und ich"
-	line "wollen abnehmen …"
-	para "Das geht nicht …"
-	para "Häh? Wie viel?"
-	line "Das ist geheim!"
-	para "MARY wiegt …"
-	para "Aiyee! M-MARY!"
-	para "Äh … Ähm … Ich …"
-	line "Tut mir leid,"
-	cont "falsche Nummer!"
-	done
-
-BuenaPhoneProfessorOakText:
-	text "Gestern war Prof."
-	line "Eich im Studio"
-	cont "für"
-	para "seine Show. Ich"
-	line "stellte mich vor."
-	para "Er hört meine"
-	line "Sendung!"
-	para "Oh! PROF. EICH"
-	line "kommt wieder!"
-	para "Ich quatsche"
-	line "wieder mit ihm!"
+	para "…Ups, ich muss"
+	line "mich auf die Sen-"
+	cont "dung vorbereiten."
 	cont "Bis später!"
 	done
 
+BuenaPhoneReceptionistText:
+	; GSC-DE dump 3801
+	text "Kennst du die"
+	line "Rezeptionistin"
+	cont "im RADIOTURM?"
+
+	para "“Willkommen”, ist"
+	line "alles, was sie"
+	cont "sagt."
+
+	para "Aber sie ist wirk-"
+	line "lich die größte"
+
+	para "Plaudertasche im"
+	line "RADIOTURM."
+
+	para "Sie muss sich"
+	line "zurückhalten."
+
+	para "Ist das nicht"
+	line "lustig, wenn man"
+	cont "es weiß?"
+
+	para "Bis später!"
+	done
+
+BuenaPhoneLuckyNumberShowText:
+	; GSC-DE dump 3802
+	text "Sag mal, <PLAYER>."
+	line "Hast du je einen"
+
+	para "Preis bei der"
+	line "GLÜCKSZAHLSHOW"
+	cont "gewonnen?"
+
+	para "BASTIAN beschwert"
+	line "sich, dass er nie"
+
+	para "gewonnen hat, also"
+	line "hört er so lange"
+
+	para "zu, bis er"
+	line "gewinnt."
+
+	para "Wir plaudern"
+	line "später weiter!"
+	done
+
+BuenaPhoneStressedFromWorkText:
+	; GSC-DE dump 3803
+	text "Du weißt, letzte"
+	line "Nacht…"
+
+	para "Ich war so müde"
+	line "von der Arbeit und"
+
+	para "aß jede Menge"
+	line "Fast Food!"
+
+	para "MARIA und ich hab-"
+	line "en diese Wette"
+	cont "mit dem Abnehmen…"
+
+	para "Das wird nicht"
+	line "reichen…"
+
+	para "Hä? Wie hoch ist"
+	line "das Gewicht?"
+
+	para "Das muss geheim"
+	line "bleiben!"
+
+	para "MARIA wiegt…"
+
+	para "Ahh! M-MARIA!"
+
+	para "Uh… Ähm… Ich…"
+	line "Sorry, verwählt!"
+	done
+
+BuenaPhoneProfessorOakText:
+	; GSC-DE dump 3804
+	text "Gestern hat PROF."
+	line "EICH seine Show"
+
+	para "im Studio aufge-"
+	line "zeichnet."
+
+	para "Ich ging zu ihm"
+	line "und stellte mich"
+	cont "vor."
+
+	para "Stell dir vor, er"
+	line "hört sich meine"
+	cont "Show an!"
+
+	para "Oh! Da kommt"
+	line "PROF. EICH!"
+
+	para "Ich muss wieder"
+	line "mit ihm reden!"
+
+	para "Bis später!"
+	done
+
 BuenaPhoneGotAColdText:
-	text "… Hust, hust!"
-	para "Ähm, tut mir leid,"
-	line "ich hab ä"
-	cont "Schnupfen."
-	para "Aber ich muss"
-	line "weiter"
-	cont "moderieren,"
-	para "damit's keiner"
-	line "merkt."
-	para "Meine Stimme ist"
-	line "komisch jetzt."
-	para "Bis bald. Das war"
-	line "BUENA!"
+	; GSC-DE dump 3805
+	text "…Hust, röchel!"
+
+	para "Uhm sorry uh ich"
+	line "uh bin erkältet."
+
+	para "Aba ich bin ein"
+	line "Profi und muss uh"
+
+	para "verheimlichen, da-"
+	line "mit niemand merkt."
+
+	para "Uh meine uh hust"
+	line "Stimme."
+
+	para "Ich rufe dich von"
+	line "unterwegs an. Das"
+	cont "war BUENA!"
 	done
 
 BuenaPhoneRadioCardQuestionsText:
-	text "Hey, <PLAYER>. Du"
-	line "hast die Radio-"
-	para "Karte beim Quiz"
-	line "am Empfang"
-	cont "gewonnen,"
-	para "oder? Rate mal!"
-	line "Ich hab die"
-	cont "Fragen"
-	para "geschrieben! …"
-	line "Waren sie zu"
-	cont "leicht?"
-	para "Reden wir wieder!"
+	; GSC-DE dump 3806
+	text "Heh, <PLAYER>."
+	line "Du hast die RADIO-"
+	cont "KARTE gewonnen, da"
+
+	para "du das Quiz an der"
+	line "Rezeption gewonnen"
+	cont "hast, nicht wahr?"
+
+	para "Rate mal? Ich habe"
+	line "die Fragen"
+	cont "ausgedacht!"
+
+	para "…Waren sie dir"
+	line "zu leicht?"
+
+	para "Nun, lass uns spä-"
+	line "ter weiterreden!"
 	done
 
 BuenaPhonePikachuFanClubText:
-	text "Ich freu mich,"
-	line "dass mehr Leute"
-	cont "bei"
-	para "meiner"
-	line "Passwort-Show"
-	cont "mitmachen."
-	para "Als Pikachu das"
-	line "Passwort war …"
-	cont "puh …"
-	para "überwältigend."
-	line "Fanclub-Leute"
-	cont "kamen"
-	para "in Scharen und"
-	line "schrien 'Pikachu'"
-	cont "-"
-	para "so laut! Wer"
-	line "gerade"
-	cont "einschaltete, war"
-	para "sicher"
-	line "schockiert!"
-	cont "Zurück zur"
-	cont "Arbeit!"
-	para "Reden wir wieder!"
+	; GSC-DE dump 3807
+	text "Ich bin entzückt,"
+	line "dass immer mehr"
+
+	para "Menschen an meiner"
+	line "PASSWORTSENDUNG"
+	cont "teilnehmen."
+
+	para "Aber als “PIKACHU”"
+	line "das Passwort war,"
+
+	para "war es einfach…"
+	line "überwältigend…"
+
+	para "Mitglieder vom"
+	line "FANCLUB kamen in"
+
+	para "Strömen und riefen"
+	line "immer wieder"
+
+	para "“PIKACHU!”. Sie"
+	line "waren sehr laut."
+
+	para "Jeder, der die"
+	line "Show gehört hat,"
+
+	para "muss von dem Krach"
+	line "schockiert gewesen"
+	cont "sein!"
+
+	para "Egal, zurück an"
+	line "die Arbeit!"
+
+	para "Wir reden später!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Rate mal? Der"
-	line "Funkturm-"
-	para "Direktor ist ein"
+	; GSC-DE dump 3808
+	text "Weißt du was?"
+	line "Der INTENDANT vom"
+
+	para "RADIOTURM ist ein"
 	line "großer TV-Fan!"
-	para "In einer Mode-"
-	line "sendung hieß es,"
-	para "schwarze Anzüge"
-	line "sind in. Jetzt"
-	cont "trägt"
-	para "er nur noch"
-	line "schwarz. Geheim,"
-	cont "dass er TV"
-	para "mag - erwähne es"
-	line "nicht, wenn du"
-	cont "ihn"
-	para "siehst! Oh, er"
-	line "kommt gleich! Bis"
-	cont "später!"
-	para "Hör meine Show!"
+
+	para "Vor geraumer Zeit,"
+	line "sagte man in einer"
+
+	para "Modenschau im TV,"
+	line "dass schwarze"
+	cont "Anzüge in wären."
+
+	para "Seitdem trägt er"
+	line "nur schwarze"
+	cont "Anzüge."
+
+	para "Es ist aber ein"
+	line "Geheimnis, dass"
+
+	para "unser INTENDANT"
+	line "ein TV-Fan ist."
+
+	para "Wenn du ihm begeg-"
+	line "nest, erwähne es"
+	cont "bitte nicht!"
+
+	para "Der INTENDANT wird"
+	line "bald hier sein!"
+
+	para "Bis später! Hör"
+	line "dir meine Show an!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
-	text "<PLAYER>, sag"
-	line "mal."
-	para "Wann entspannst"
-	line "du dich am"
-	cont "meisten?"
-	para "Für mich nach der"
-	line "Show im Studio"
-	cont "mit"
-	para "einer Tasse Tee."
-	line "So angenehm, dass"
-	para "ich müde werde …"
-	line "… … … … … …"
-	para "… … … … … … Zzz"
-	para "Ups,"
-	line "eingeschlafen"
-	cont "beim Nachdenken!"
-	para "Wie peinlich!"
-	line "Vergiss das!"
-	cont "Tschüss!"
+	; GSC-DE dump 3809
+	text "<PLAYER>, sag mir:"
+
+	para "Wann entspannst du"
+	line "dich am besten?"
+
+	para "Bei mir hilft es,"
+	line "wenn ich nach der"
+
+	para "Show im Studio"
+	line "bleibe und eine"
+
+	para "Tasse Tee trinke."
+	line "Es ist so ange-"
+	cont "nehm, dass ich"
+
+	para "davon manchmal"
+	line "schläfrig werde…"
+
+	para "… … …"
+
+	para "… … … zzz"
+
+	para "Ups, ich war kurz"
+	line "woanders, nur weil"
+
+	para "ich daran dachte!"
+	line "Wie… äh, peinlich!"
+
+	para "Bitte vergiss das!"
+	line "Bis später!"
 	done
 
 BuenaPhoneStarterPokemonText:
+	; GSC-DE dump 3810
 	text "<PLAYER>, welches"
 	line "#MON hast du"
+
 	para "als Erstes"
-	line "gefangen? … Oh,"
-	cont "wirklich?"
-	para "Ich sehe viele"
-	line "#MON, hab aber"
-	para "nie eins"
-	line "gefangen. Sollte"
-	cont "ich mal."
-	para "Wusstest du,"
-	line "MARYs erstes"
-	cont "#MON war"
-	para "ein Traumato?"
-	line "Passt gar nicht"
-	cont "zu ihr."
-	para "Ihr Traumato ließ"
-	line "sie bei der"
-	cont "Arbeit"
-	para "einschlafen, also"
-	line "tauschte sie mit"
-	para "einem Fan gegen"
-	line "Mauzi."
-	para "Reden wir wieder"
-	line "über #MON!"
+	line "gefangen?"
+
+	para "…Oh, tatsächlich?"
+
+	para "Ich sah schon vie-"
+	line "le #MON, aber"
+
+	para "ich habe nie eines"
+	line "gefangen."
+
+	para "Manchmal sollte"
+	line "ich es probieren."
+
+	para "Wusstest du, dass"
+	line "TRAUMATO MARIAs"
+
+	para "erstes #MON"
+	line "war?"
+
+	para "Das passt nicht"
+	line "zu ihr, oder?"
+
+	para "MARIAs TRAUMATO"
+	line "ließ sie während"
+
+	para "der Arbeit immer"
+	line "einschlafen, also"
+
+	para "tauschte sie es"
+	line "mit einem Fan"
+	cont "gegen ein MAUZI."
+
+	para "Lass uns bald"
+	line "wieder über #-"
+	cont "MON plaudern!"
+
 	para "Tschüss!"
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Rate mal? Wir vom"
-	line "Funkturm machen"
+	; GSC-DE dump 3811
+	text "Weißt du? Jeder"
+	line "Angestellte vom"
 
-	para "Betriebsausflug"
-	line "zum Funkturm in"
-	cont "Lavandia."
+	para "RADIOTURM ist beim"
+	line "Firmenausflug zum"
 
-	para "Urlaub in einem"
-	line "anderen Funkturm?"
+	para "RADIOTURM in"
+	line "LAVANDIA dabei."
 
-	para "Lieber ans Meer!"
-	line "<PLAYER>, hab Spaß"
+	para "Wir verschwenden"
+	line "unsere Urlaubstage"
 
-	para "für uns beide auf"
-	line "deiner Reise!"
+	para "für einen anderen"
+	line "RADIOTURM?"
+
+	para "Ich wäre viel lie-"
+	line "ber am Strand!"
+
+	para "<PLAYER>, ich"
+	line "hoffe, du hast ge-"
+	cont "nügend Spaß für"
+	cont "uns beide!"
 
 	para "Tschüss!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Wusstest du …?"
-	para "Ben und Fern"
-	line "telefonieren"
-	cont "stunden-"
-	para "lang über #MON"
-	line "-Musik für"
-	para "verschiedene"
-	line "Wochentage."
-	para "Ferns"
-	line "Rap-Rhythmus"
-	cont "wirkte seltsam"
-	cont "auf"
-	para "Ben. Wir mussten"
-	line "Bens albernen,"
-	cont "coolen"
-	para "Gerede eine Weile"
-	line "ertragen."
-	para "Reden wir wieder!"
+	; GSC-DE dump 3812
+	text "Wusstest du…?"
+
+	para "BEN und FABIAN"
+	line "telefonieren stun-"
+	cont "denlang und disku-"
+	cont "tieren, welche Art"
+
+	para "#MON-Musik sie"
+	line "an den unter-"
+
+	para "schiedlichen"
+	line "Wochentagen"
+	cont "spielen sollen."
+
+	para "Eines Tages ist"
+	line "FABIANs Rap Style"
+
+	para "seltsamerweise"
+	line "auf BEN"
+	cont "übergegangen."
+
+	para "Wir mussten einige"
+	line "Zeit lang BENs"
+
+	para "locker-flockiges,"
+	line "derbe-deftiges,"
+	cont "fett rockendes"
+	cont "Zeugs anhören."
+
+	para "Wir reden später!"
 	done
 
 BuenaPhoneGoingShoppingText:
-	text "Ich gehe bald mit"
-	line "MARY und Lily"
-	para "shoppen. Toll,"
-	line "wenn im Kaufhaus"
-	cont "Dukatia"
-	para "Sale ist …"
-	line "<PLAYER>,"
-	cont "vielleicht"
-	para "kommst du mit!"
-	line "Bis später!"
+	; GSC-DE dump 3813
+	text "Bald gehe ich mit"
+	line "MARIA und LILLY"
+	cont "zum Einkaufen."
+
+	para "Es wäre toll, wenn"
+	line "es dann viele An-"
+	cont "gebote im"
+
+	para "KAUFHAUS von"
+	line "DUKATIA geben"
+	cont "würde…"
+
+	para "<PLAYER>,"
+	line "vielleicht treffen"
+	cont "wir uns dort!"
+
+	para "Bis später!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "Ich überlege,"
-	line "morgen ins Casino"
-	cont "zu gehen."
+	; GSC-DE dump 3814
+	text "Ich denke darüber"
+	line "nach, morgen in"
 
-	para "Schon lange nicht"
-	line "mehr da. Ich hab"
+	para "die SPIELHALLE zu"
+	line "gehen. Ich war"
+	cont "lange nicht dort."
 
-	para "meinen Lieblings-"
-	line "Automaten…"
+	para "Weißt du, ich"
+	line "habe meinen Lieb-"
+	cont "lingsautomaten…"
 
-	para "Der zahlt viel"
-	line "aus! Häh? Geheim!"
+	para "Es lohnt sich,"
+	line "ohne Witz!"
 
-	para "Finde ihn selbst!"
-	line "Bis später!"
+	para "Hu? Nanu, es ist"
+	line "mein Geheimnis!"
+
+	para "Das musst du"
+	line "selbst"
+	cont "herausfinden!"
+
+	para "Bis später!"
 	done
 
 BuenaPhonePokegearAnswerText:
-	text "Hey, <PLAYER>. Du"
-	line "nutzt #Com fürs"
-	cont "Radio,"
+	; GSC-DE dump 3815
+	text "Heh, <PLAYER>. Du"
+	line "hörst mit deinem"
 
-	para "oder? Man kann"
-	line "damit auch"
+	para "#COM RADIO,"
+	line "nicht wahr?"
 
-	para "Stadtkarten"
-	line "zeigen. Ich hab"
-	cont "keinen Sinn"
+	para "Ich hörte, dass"
+	line "man sich sogar"
 
-	para "für Richtung…"
-	line "#Com wäre"
+	para "Karten mit dem"
+	line "#COM ansehen"
+	cont "kann."
+
+	para "Ich habe ein"
+	line "schlechtes Orien-"
+	cont "tierungsvermögen."
+	cont "Ein #COM wäre"
 	cont "praktisch…"
 
-	para "Danke fürs"
-	line "Anrufen! Tschüss!"
+	para "Danke für den"
+	line "Anruf! Tschüss!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "Scheint die"
-	line "Sonne? Im"
-	cont "Funkturm verliert"
-	para "man den Bezug zur"
-	line "Außenwelt. Es"
-	cont "kann"
-	para "langweilig"
-	line "werden. Ruf"
-	cont "wieder an!"
+	; GSC-DE dump 3816
+	text "Scheint heute die"
+	line "Sonne?"
+
+	para "Wenn du im RADIO-"
+	line "TURM so beschäf-"
+	cont "tigt bist wie ich,"
+	cont "dann verlierst du"
+
+	para "den Kontakt nach"
+	line "Außen. Das kann"
+	cont "dich langweilen."
+
+	para "Bis später!"
 	done

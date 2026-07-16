@@ -1,108 +1,129 @@
 GinaGettingInSyncWithMonText:
+	; GSC-DE Dump
 	text "Mein "
 	text_ram wStringBuffer4
-	text " und ich"
-	line "harmonieren"
+	line "und ich stimmen"
 
-	para "immer besser."
+	para "uns immer besser"
+	line "aufeinander ab."
 	done
 
 GinaDefeatedMonText:
-	text "Wir kämpften"
-	line "gegen"
-	cont "ein wildes"
-	cont ""
+	text "Wir kämpften gegen"
+	line "ein wildes"
+
+	para ""
 	text_ram wStringBuffer4
 	text " und"
+	line "gewannen knapp."
 
-	para "besiegten es"
-	line "knapp. Wir finden"
-	cont "unseren Rhythmus!"
+	para "Wir kommen jetzt"
+	line "in Schwung!"
 	done
 
 GinaLostAMonText:
-	text "Aber weißt du?"
+	text "Aber, weißt du?"
 
-	para "Ich hab "
+	para "Ich habe immer"
+	line "noch kein"
+
+	para ""
 	text_ram wStringBuffer4
-	text " noch nicht"
-	line "gefangen."
+	line "gefangen. Das wird"
 
-	para "Das wird echt"
+	para "langsam"
 	line "frustrierend…"
 	done
 
 GinaBattleRematchText:
-	text "Willst du wieder"
-	line "mein"
-	cont "Übungspartner"
+	text "Möchtest du mein"
+	line "Trainings-Kamerad"
 	cont "sein?"
-	para "Ich warte auf "
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "."
-	para "… Könntest du"
-	line "mich nächstes Mal"
-	cont "etwas schonen?"
+
+	para "…Kannst du mich"
+	line "das nächste Mal"
+
+	para "etwas schonender"
+	line "behandeln?"
 	done
 
 GinaHangUpText:
-	text "Tschüss! Reden"
-	line "wir wieder!"
+	text "Tschüss! Wir"
+	line "plaudern wieder!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Hast du von Team"
-	line "Rocket gehört?"
+	text "Hast du von TEAM"
+	line "ROCKET gehört?"
 
-	para "Sie haben den"
-	line "Funkturm in"
-	cont "Dukatia"
-	cont "übernommen."
+	para "Sie annektierten"
+	line "den RADIOTURM in"
+	cont "DUKATIA CITY."
 
-	para "Sind die Leute"
-	line "drin in"
+	para "Sind die Menschen"
+	line "im TURM in"
 	cont "Sicherheit?"
 	done
 
 GinaFoundItemText:
-	text "Ich hab heute was"
-	line "Nettes gefunden."
+	text "Ich habe heute et-"
+	line "was Tolles"
+	cont "gefunden."
 
-	para "Du sollst es"
-	line "haben, deshalb"
-	cont "rief ich an!"
+	para "Ich möchte es dir"
+	line "geben, darum rufe"
+	cont "ich an!"
 
-	para "Du kommst doch?"
+	para "Du holst es dir"
+	line "doch, oder?"
+
+	para "Ich bin hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Tut mir leid, noch"
-	line "nichts Nützliches"
-	cont "gefunden …"
-	para "Wenn ich was"
-	line "finde, bekommst"
-	cont "du es!"
+	text "Sorry, ich habe"
+	line "noch nichts"
+
+	para "Brauchbares gefun-"
+	line "den… ich ver-"
+	cont "spreche, dass du"
+
+	para "es haben kannst,"
+	line "wenn ich etwas"
+	cont "finde!"
 	done
 
 GinaReminderText:
-	text "Oh, <PLAYER>! Wann"
-	line "kommst du zum"
-	cont "Kampf?"
+	text "Oh, <PLAYER>!"
+	line "Wann kann ich mit"
 
-	para "Vergiss nicht"
+	para "dir und unserem"
+	line "Kampf rechnen?"
+
+	para "Vergiss es nicht,"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 GinaComePickUpText:
-	text "Ich werde"
-	line "ungeduldig mit"
-	cont "dem Geschenk!"
-	para "Beeil dich nach "
+	text "Ich werde wirklich"
+	line "ungeduldig, ich"
+
+	para "möchte dir endlich"
+	line "dein Geschenk"
+	cont "geben!"
+
+	para "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done

@@ -1,65 +1,69 @@
 VanceAskNumber1Text:
-	text "Du bist echt"
-	line "stark."
-	para "Aber ich will"
-	line "nicht einfach"
-	para "weggehen … Darf"
-	line "ich deine Nummer?"
-	para "Lass uns öfter"
-	line "kämpfen!"
+	text "Du weißt, dass"
+	line "du stark bist."
+	para "Ich wollte mich"
+	line "nicht verdrücken…"
+	para "Ich weiß! Gibst"
+	line "du mir deine Num-"
+	cont "mer? Wir werden"
+	cont "uns wiedersehen!"
 	done
 
 VanceAskNumber2Text:
-	text "Ich will oft"
-	line "gegen starke"
-	cont "Trainer"
-	para "kämpfen! Darf ich"
-	line "deine Nummer?"
-	para "Lass uns öfter"
-	line "kämpfen!"
+	text "Ich will so oft es"
+	line "geht gegen starke"
+	cont "Trainer antreten!"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
+	para "Dann können wir"
+	line "öfter kämpfen!"
 	done
 
 VanceNumberAcceptedText:
-	text "Vergiss nicht,"
-	line "vorbeizukommen,"
-	cont "wenn ich fordere!"
+	text "Vergiss nicht mich"
+	line "aufzusuchen, wenn"
+	cont "ich dich"
+	cont "herausfordere!"
 	done
 
 VanceNumberDeclinedText:
-	text "Ein"
-	line "Vogel-Trainer-"
-	cont "Freund wäre nicht"
-	cont "schlecht …"
-	para "Überlegst du's"
-	line "nochmal?"
+	text "Ein Freund, der"
+	line "mit Vogel-#MON"
+	cont "kämpft, ist nicht"
+	cont "übel, denke ich…"
+	para "Wie denkst du"
+	line "darüber?"
 	done
 
 VancePhoneFullText:
-	text "Dein Telefon ist"
-	line "voll. Lösch eine"
-	cont "Nummer für mich!"
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	cont "Schaffe Platz für"
+	cont "meine Nummer!"
 	done
 
 VanceRematchText:
-	text "Schön, dich zu"
-	line "sehen! Ich"
-	cont "verliere nicht!"
+	text "Ich freue mich,"
+	line "dich zu sehen. Ich"
+	cont "werde siegen!"
 	done
 
 VancePackFullText:
-	text "Oh, schade. Kein"
-	line "Platz."
-	para "Beim nächsten"
-	line "Mal!"
+	text "Schade. Du hast"
+	line "keinen Platz mehr."
+	para "Ich gebe es dir"
+	line "beim nächsten Mal!"
 	done
 
 VanceRematchGiftText:
-	text "Du bist echt,"
-	line "echt stark!"
-	para "Danke für die"
-	line "vielen Kämpfe -"
-	cont "ich hab"
-	para "viel gelernt."
-	line "Nimm das als"
-	cont "Dank!"
+	text "Du bist wirklich"
+	line "sehr stark!"
+	para "Danke, dass du so"
+	line "oft mit mir ge-"
+	cont "kämpft hast. Ich"
+	para "habe viel von dir"
+	line "gelernt."
+	para "Nimm dies als"
+	line "Zeichen meiner"
+	cont "Wertschätzung!"
 	done

@@ -1,90 +1,112 @@
 WadeAreYourMonGrowingText:
+	; GSC-DE Dump
 	text "Wachsen deine"
 	line "#MON?"
 
-	para "Meine wachsen mir"
-	line "fast zu schnell."
+	para "Meine #MON"
+	line "wachsen mir zu"
+
+	para "schnell. Es ist"
+	line "überwältigend!"
 
 	para ""
 	text_ram wStringBuffer4
-	text " wächst besonders"
-	line "schnell."
+	text " wächst"
+	line "besonders schnell."
 
-	para "Es wird bestimmt"
+	para "Ich denke, es wird"
 	line "stark."
 	done
 
 WadeDefeatedMonText:
-	text "Oh ja, wir"
-	line "besiegten ein"
-	cont "wildes "
+	text "Yo, wir haben ein"
+	line "wildes "
 	text_ram wStringBuffer4
 
-	para "mit einem"
-	line "Es ging so"
+	para "mit nur einem"
+	line "Schlag besiegt."
 
-	para "mir tat es fast"
-	line "leid."
+	para "Es ging so hart"
+	line "zu Boden, dass"
+
+	para "ich fast schon"
+	line "Mitleid hatte."
 	done
 
 WadeLostAMonText:
-	text "Oh ja, ein wildes"
+	text "Yo, ein wildes"
 	line ""
 	text_ram wStringBuffer4
-	text " entkam"
 
-	para "in letzter"
-	line "Sekunde. Es ist"
-	cont "zwar"
+	para "entkam mir nur"
+	line "ganz knapp."
 
-	para "häufig… aber es"
-	line "ärgert mich"
-	cont "trotzdem."
+	para "Ich weiß, dass es"
+	line "kein seltenes"
+	cont "#MON ist…"
+
+	para "Aber es ärgert"
+	line "mich, dass es ent-"
+	cont "kam, obwohl ich es"
+	cont "schon fast hatte."
 	done
 
 WadeBattleRematchText:
 	text "Lust auf einen"
-	line "#MON-Kampf?"
-	para "Diesmal anders"
-	line "als letztes Mal!"
+	line "#MON-Kampf? Es"
+
+	para "wird nicht so wie"
+	line "das letzte Mal!"
+
+	para "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
-	text "- da bin ich."
-	para "Sag Bescheid,"
-	line "wenn du da bist."
+	text "."
+
+	para "Ruf an, wenn du"
+	line "da bist."
 	done
 
 WadeHangUpText:
-	text "Bis bald!"
+	text "Bis später!"
 	done
 
 WadeBugCatchingContestText:
-	text "Heute ist das"
-	line "Käferturnier im"
-	cont "Nationalpark."
+	text "Das Käferturnier"
+	line "findet heute im"
 
-	para "Kommst du,"
-	line "<PLAYER>? Ich"
-	cont "überlege noch."
+	para "NATIONALPARK"
+	line "statt."
+
+	para "Gehst du hin,"
+	line "<PLAYER>?"
+
+	para "Ich weiß es noch"
+	line "nicht sicher."
 	done
 
 WadeFoundItemText:
-	text "Ich fand jede"
-	line "Menge Beeren."
-	cont "Wenn du"
+	text "Ich habe alle mög-"
+	line "lichen BEEREN ge-"
+	cont "funden. Wenn du"
+
 	para "willst, teile"
-	line "ich. Ich warte"
-	cont "auf "
+	line "ich mit dir."
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WadeNoBerriesText:
-	text "Häh? Beeren?"
+	text "Huch? BEEREN?"
 
-	para "Tut mir leid, noch"
-	line "keine gefunden."
+	para "Sorry, ich habe"
+	line "noch keine ge-"
+	cont "funden."
 
-	para "Ich ruf an, wenn"
+	para "Ich rufe an, wenn"
 	line "ich welche finde."
 	cont "Bitte warte!"
 	done
@@ -93,20 +115,24 @@ WadeQuickBattleText:
 	text "Lass uns endlich"
 	line "kämpfen!"
 
-	para ""
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
-	text " - da bin ich."
+	text "."
 
-	para "Komm so schnell"
-	line "wie möglich!"
+	para "Komm bitte schnell"
+	line "hierher!"
 	done
 
 WadeComeQuickText:
-	text "Warum bist du"
-	line "noch nicht da?"
-	text_ram wStringBuffer5
-	text " - da bin ich."
+	text "Wieso bist du noch"
+	line "nicht hier?"
 
-	para "Komm so schnell"
-	line "wie möglich!"
+	para "Ich bin hier:"
+	line ""
+	text_ram wStringBuffer5
+	text "."
+
+	para "Komm bitte schnell"
+	line "hierher!"
 	done

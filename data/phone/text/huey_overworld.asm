@@ -1,69 +1,71 @@
 HueyAskNumber1Text:
-	text "Cool! Das erste"
-	line "Mal, dass ich"
-
-	para "verloren hab! Gib"
-	line "mir deine Nummer."
-
-	para "Mit dir kämpfen"
-	line "macht Spaß. Ich"
-	cont "ruf"
-
-	para "an, wenn ich"
-	line "stärker bin!"
+	text "Cool! Ich habe"
+	line "schon lange nicht"
+	cont "mehr verloren!"
+	para "Heh, gib mir deine"
+	line "Telefonnummer."
+	para "Es macht Spaß,"
+	line "dich herauszufor-"
+	cont "dern. Ich rufe an,"
+	para "wenn ich stärker"
+	line "geworden bin!"
 	done
 
 HueyAskNumber2Text:
-	text "Gib mir deine"
-	line "Nummer."
-
-	para "Mit dir kämpfen"
-	line "macht Spaß. Ich"
-	cont "ruf"
-
-	para "an, wenn ich"
-	line "stärker bin!"
+	text "Heh, gib mir deine"
+	line "Telefonnummer."
+	para "Es macht Spaß,"
+	line "dich herauszufor-"
+	para "dern. Ich rufe an,"
+	line "wenn ich stärker"
+	cont "geworden bin!"
 	done
 
 HueyNumberAcceptedText:
-	text "Hey, lass uns"
-	line "wieder kämpfen!"
+	text "Lass uns wieder"
+	line "kämpfen!"
 	done
 
 HueyNumberDeclinedText:
 	text "Du bist wohl ein"
-	line "Weichei…"
+	line "Feigling…"
 	done
 
 HueyPhoneFullText:
-	text "Hey! Dein Telefon"
-	line "ist schon voll!"
+	text "Oh, dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 HueyRematchText:
-	text "Hey! Ich hab"
-	line "genug gewartet!"
+	text "Ich habe dich"
+	line "bereits erwartet!"
 	done
 
 HueyPackFullText:
-	text "Oh… Deine Tasche"
-	line "ist voll. Später!"
+	text "Oh… Dein BEUTEL"
+	line "ist voll. Ich gebe"
+	cont "es dir später."
 	done
 
 HueyRematchGiftText:
-	text "Mann! Du bist so"
-	line "stark wie immer!"
-	para "Ich hab so oft"
-	line "gekämpft, aber"
-	cont "nie gewonnen."
-	para "Ich kaufte Items,"
-	line "um meine #MON"
-	para "stärker zu machen"
-	line "- nutzlos …"
-	para "Items allein"
-	line "reichen nicht."
-	para "Nimm das,"
-	line "<PLAYER>. Ich"
-	cont "brauch es nicht"
-	cont "mehr …"
+	text "Wow! Du bist stark"
+	line "wie noch nie!"
+	para "Ich habe immer"
+	line "wieder gegen dich"
+	para "gekämpft, <PLAYER>,"
+	line "doch nie gewonnen."
+	para "Ich kaufte unzäh-"
+	line "lige Items, um"
+	para "meine #MON zu"
+	line "stärken, aber al-"
+	cont "les war vergebens…"
+	para "Items alleine sind"
+	line "nicht der Schlüs-"
+	cont "sel zum Erfolg."
+	para "Das muss es wohl"
+	line "sein…"
+	para "Bitte nimm das,"
+	line "<PLAYER>."
+	para "Ich benötige es"
+	line "nicht mehr…"
 	done

@@ -15,11 +15,12 @@ ValenciaHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, ValenciaHouseLassText, -1
 
 ValenciaHouseLassText:
-	text "Professor Ivy ist"
-	line "echt cool!"
+	text "PROF. IVY ist"
+	line "echt toll!"
 
 	para "Sie hat meinen"
 	line "#MON geholfen,"
 	cont "als sie krank"
 	cont "waren!"
-	done 
+	done
+

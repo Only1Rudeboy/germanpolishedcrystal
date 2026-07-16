@@ -1,60 +1,59 @@
 KenjiAskNumber1Text:
 	text "Unser Kampf war"
-	line "bemerkenswert!"
-	para "Ich will etwas"
-	line "zur Erinnerung!"
-	para "Vielleicht deine"
-	line "Nummer? Training"
-	para "lässt wenig Zeit"
-	line "zum Quatschen,"
-	cont "aber …"
+	line "großartig!"
+	para "Ich möchte ein"
+	line "Andenken an dich!"
+	para "Deine Telefonnum-"
+	line "mer würde genügen!"
+	para "Mein intensives"
+	line "Training lässt mir"
+	cont "nur wenig Zeit zum"
+	cont "Plaudern, aber…"
 	done
 
 KenjiAskNumber2Text:
-	text "Training macht"
-	line "Quatschen schwer,"
-
-	para "aber nimmst du"
-	line "meine Nummer?"
+	text "Mein Training er-"
+	line "laubt mir kein"
+	para "Telefonieren, aber"
+	line "nimm meine Nummer."
 	done
 
 KenjiNumberAcceptedText:
 	text "Ich muss härter"
 	line "trainieren, um"
-	cont "der Stärkste zu"
+	cont "der Beste zu"
 	cont "werden!"
 	done
 
 KenjiNumberDeclinedText:
 	text "Wenn du meine"
-	line "Nummer willst,"
-	cont "komm vorbei."
+	line "Nummer möchtest,"
+	cont "komm wieder."
 	done
 
 KenjiPhoneFullText:
-	text "Dein Telefon ist"
-	line "voll. Komm"
-	cont "später!"
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	para "Komm später"
+	line "wieder!"
 	done
 
 KenjiGiftText:
-	text "Ich danke dir,"
-	line "<PLAYER>!"
-
-	para "Ich trainierte"
-	line "allein…"
-
-	para "Es freute mich,"
-	line "dass du anriefst…"
-
-	para "Nimm das!"
+	text "Ich möchte dir"
+	line "danken, <PLAYER>!"
+	para "Ich habe stets"
+	line "alleine trainiert…"
+	para "Ich war froh, dass"
+	line "du angerufen hast…"
+	para "Ich möchte dir das"
+	line "überreichen!"
 	done
 
 KenjiPackFullText:
-	text "Deine Stärke"
-	line "lässt dich nichts"
-	cont "mehr tragen!"
-	para "Ich behalte es,"
-	line "bis du Platz"
-	cont "hast!"
+	text "Deine Kraft reicht"
+	line "nicht aus, noch"
+	para "mehr zu tragen!"
+	line "Ich bewahre das"
+	para "auf, bis dein"
+	line "BEUTEL leerer ist!"
 	done

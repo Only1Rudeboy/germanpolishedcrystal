@@ -1,162 +1,208 @@
 JackIntelligenceKeepsRisingText:
+	; GSC-DE Dump
 	text "Die Intelligenz"
-	line "meines "
-	text_ram wStringBuffer4
-	text " steigt."
+	line "von meinem"
 
-	para "Vielleicht ist es"
-	line "schlauer als"
-	cont "deins!"
+	para ""
+	text_ram wStringBuffer4
+	text " steigt"
+	line "und steigt. Es"
+
+	para "könnte intelligen-"
+	line "ter als deines"
+	cont "sein!"
 	done
 
 JackDefeatedMonText:
-	text "Neulich besiegte"
-	line "ich leicht ein"
-	cont "wildes "
+	text "Neulich habe ich"
+	line "mit Leichtigkeit"
+	cont "ein "
 	text_ram wStringBuffer4
-	text "."
+	cont "besiegt."
 
-	para "Tipps von dir"
-	line "helfen wohl."
+	para "Ich denke, wenn"
+	line "wir uns gegensei-"
+	cont "tig Tipps geben,"
+	cont "hilft uns das."
 	done
 
 JackLostAMonText:
-	text "Oh, und hör mal."
-	line "Ich verpasste ein"
-	cont ""
-	text_ram wStringBuffer4
-	text " knapp."
+	text "Oh, und hör zu."
+	line "Ich habe es nur"
 
-	para "Mit mehr Wissen"
-	line "hätte ich es"
-	cont "gefangen…"
+	para "knapp verpasst,"
+	line "ein "
+	text_ram wStringBuffer4
+	cont "zu fangen."
+
+	para "Wäre ich besser"
+	line "informiert gewe-"
+	cont "sen, hätte ich es"
+	cont "bestimmt gefangen…"
 	done
 
 JackBattleRematchText:
-	text "Lust zu kämpfen?"
-	line "Ich zeige dir"
-	para "logisches"
-	line "Kämpfen. Ich bin"
-	cont "auf "
+	text "Willst du kämpfen?"
+	line "Ich zeige dir, wie"
+
+	para "man logisch"
+	line "kämpft."
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
-	text ". Ruf, wenn du da"
-	line "bist."
+	text "."
+
+	para "Melde dich, wenn"
+	line "du in der Nähe"
+	cont "bist."
 	done
 
 JackHangUpText:
-	text "Bis bald!"
+	text "Bis später!"
 	done
 
 JackThunderTriviaText:
-	text "Wusstest du?"
+	text "Hast du gewusst?"
 
-	para "Bei Regen trifft"
-	line "Donner sicher."
+	para "Wenn es regnet,"
+	line "gibt es bestimmt"
+	cont "auch DONNER."
 	done
 
 JackRolloutTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Mit Einigler wird"
-	line "Walzer viel"
-	cont "stärker."
+	para "Wenn du EINIGLER"
+	line "einsetzt, steigt"
+
+	para "die Stärke von"
+	line "WALZER überdurch-"
+	cont "schnittlich an."
 	done
 
 JackSolarbeamTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Bei starkem"
-	line "Sonnenlicht"
-	cont "braucht"
-	cont "Solarstrahl keine"
-	cont "Aufladung."
+	para "Wenn das Sonnen-"
+	line "licht stark ist,"
+
+	para "muss SOLARSTRAHL"
+	line "nicht aufgeladen"
+	cont "werden."
 	done
 
 JackStompTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Gegen Minimieren"
-	line "wird Stampfer"
-	cont "stärker."
+	para "Setzt der Gegner"
+	line "KOMPRIMATOR ein,"
+
+	para "wird STAMPFER"
+	line "noch stärker."
 	done
 
 JackGustTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Gegen fliegende"
-	line "Gegner wird"
-	cont "Windstoß viel"
-	cont "stärker."
+	para "Setzt dein Gegner"
+	line "FLIEGEN ein, wird"
+
+	para "WINDSTOSS viel"
+	line "stärker."
 	done
 
 JackKnockOffTriviaText:
-	text "Wusstest du …?"
-	para "Wenn der Gegner"
-	line "ein Item trägt,"
-	cont "das"
-	para "Abschlag"
-	line "entfernen kann,"
-	cont "wird Abschlag"
-	cont "stärker."
+	; Polished-only (GSC: Windhose)
+	text "Hast du gewusst…?"
+
+	para "Trägt der Gegner"
+	line "ein Item, wird"
+
+	para "ABSCHLAG viel"
+	line "stärker."
 	done
 
 JackEarthquakeTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Gegen Schaufler"
-	line "wird Erdbeben"
-	cont "stärker."
+	para "Setzt dein Gegner"
+	line "SCHAUFLER ein,"
+
+	para "wird ERDBEBEN"
+	line "viel stärker."
 	done
 
 JackMagnitudeTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Gegen Schaufler"
-	line "wird Magnitude"
-	cont "stärker."
+	para "Setzt dein Gegner"
+	line "SCHAUFLER ein,"
+
+	para "wird INTENSITÄT"
+	line "viel stärker."
 	done
 
 JackSandstormTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Stein, Boden und"
-	line "Stahl werden vom"
-	cont "Sandsturm nicht"
-	cont "verletzt."
+	para "#MON der Ele-"
+	line "mentklassen Boden,"
+
+	para "Gestein und Stahl"
+	line "werden von"
+
+	para "SANDSTURM nicht"
+	line "verletzt."
 	done
 
 JackSunnyDayTriviaText:
-	text "Wusstest du …?"
-	para "Bei starkem"
-	line "Sonnenlicht"
-	cont "werden"
-	cont "Wasser-Attacken"
-	cont "schwächer."
+	text "Hast du gewusst…?"
+
+	para "Wenn das Sonnen-"
+	line "licht stark ist,"
+
+	para "sind Wasser-"
+	line "Attacken viel"
+
+	para "schwächer."
 	done
 
 JackRainDanceTriviaText:
-	text "Wusstest du…?"
+	text "Hast du gewusst…?"
 
-	para "Bei Regen werden"
+	para "Bei Regen sind"
 	line "Feuer-Attacken"
-	cont "viel schwächer."
+
+	para "viel schwächer"
+	line "als gewöhnlich."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "Mein Freund hörte"
-	line "tolle Tipps."
+	text "Mein Kamerad er-"
+	line "hielt einige"
+	cont "gute Tipps."
 
-	para "Er erzählt sie"
-	line "mir. Dann ruf ich"
+	para "Er verrät mir auch"
+	line "einige."
+
+	para "Wenn er sie mir"
+	line "sagt, rufe ich"
 	cont "dich sofort an."
 	done
 
 JackReminderText:
-	text "Hey, <PLAYER>!"
-	para "Erinnerst du"
-	line "dich? Wir wollten"
-	cont "kämpfen!"
-	para "Ich bin auf "
+	text "Heh, <PLAYER>!"
+
+	para "Erinnerst du dich"
+	line "an dein Ver-"
+	cont "sprechen? Wir"
+
+	para "müssen bald"
+	line "kämpfen!"
+
+	para "Ich warte hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "."
 	done

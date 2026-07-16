@@ -28,9 +28,11 @@ ShamoutiHotel1FRestaurantTrigger:
 
 ShamoutiHotel1FReceptionistText:
 	text "Willkommen im"
-	line "Shamouti Hotel."
+	line "SHAMOUTI-HOTEL."
+
 	para "Leider sind alle"
 	line "Zimmer belegt,"
+
 	para "aber besuche unser"
 	line "Oasis-Restaurant."
 	done
@@ -66,6 +68,7 @@ ShamoutiHotel1FArtistScript:
 .Text2:
 	text "Was?! <TRENDY> ist"
 	line "nicht das Coolste?"
+
 	para "Na, was ist denn"
 	line "heutzutage das"
 	cont "Coolste?"
@@ -95,32 +98,35 @@ ShamoutiHotel1FArtistScript:
 
 ShamoutiHotel1FCooltrainermText:
 	text "Also, <TRENDY> ist"
-	line "das neue Ding? Das"
-	cont "ist echt cool!"
+	line "das neue Ding?"
+
+	para "Das ist echt cool!"
 	done
 
 ShamoutiHotel1FLadyText:
 	text "Hast du beim"
 	line "Angeln schon mal"
-	cont "einen Bottle Cap"
+	cont "einen Kronkorken"
 	cont "gefunden?"
-	para "In Alola, woher"
+
+	para "In ALOLA, woher"
 	line "ich komme, gibt es"
 	cont "einen Mann,"
-	para "der deinem #MON"
-	line "Hyper-Training"
-	cont "geben kann--und"
-	para "so sein volles"
-	line "Potenzial"
-	cont "ausschöpft--nur"
-	cont "für einen Bottle"
-	cont "Cap."
+
+	para "der dein #MON"
+	line "beim Super-Spezi-"
+	cont "altraining stärkt"
+
+	para "und so sein volles"
+	line "Potenzial weckt--"
+	cont "nur für einen"
+	cont "Kronkorken."
 	done
 
 ShamoutiHotel1FYoungsterText:
 	text "Ich hab gehört,"
 	line "<TRENDY> ist"
-	cont "gerade 'in'!"
+	cont "gerade total in!"
 	done
 
 ShamoutiHotelRestaurantSignText:

@@ -1,48 +1,49 @@
 JackAskNumber1Text:
 	text "Dein Wissen ist"
-	line "beeindruckend!"
-	para "Das gefällt mir!"
-	line "Tauschen wir"
-	cont "Kampftipps?"
-	para "Ich ruf an bei"
-	line "guten Infos."
-	para "Gibst du mir"
-	line "deine Nummer?"
+	line "bemerkenswert!"
+	para "Ich mag das!"
+	para "Sollen wir Tipps"
+	line "austauschen?"
+	para "Ich rufe an, wenn"
+	line "ich etwas"
+	cont "herausfinde."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 JackAskNumber2Text:
-	text "Tauschen wir"
-	line "Kampftipps?"
-	para "Ich ruf an bei"
-	line "guten Infos."
-	para "Gibst du mir"
-	line "deine Nummer?"
+	text "Sollen wir Tipps"
+	line "austauschen?"
+	para "Ich rufe an, wenn"
+	line "ich etwas"
+	cont "herausfinde."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 JackNumberAcceptedText:
-	text "Ich ruf an, wenn"
-	line "ich was höre!"
+	text "Ich rufe an, wenn"
+	line "ich etwas erfahre!"
 	done
 
 JackNumberDeclinedText:
-	text "Oh, O.K.. Schade…"
-
+	text "O.K. Dann nicht…"
 	para "Wenn du meine"
-	line "Nummer willst,"
+	line "Nummer möchtest,"
 	cont "komm vorbei!"
 	done
 
 JackPhoneFullText:
-	text "Oh? Dein Telefon"
-	line "ist voll."
-	para "Meine Nummer"
-	line "passt nicht rein."
+	text "Oh? Dein Nummern-"
+	line "speicher ist voll."
+	para "Du kannst die"
+	line "Nummer nicht"
+	cont "speichern."
 	done
 
 JackRematchText:
-	text "Hi, ich hab auf"
+	text "Ich habe schon auf"
 	line "dich gewartet!"
-
-	para "Los, legen wir"
-	line "los!"
+	para "Also, worauf war-"
+	line "test du noch?"
 	done

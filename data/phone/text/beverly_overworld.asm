@@ -1,48 +1,51 @@
 BeverlyAskNumber1Text:
-	text "Dein Marill ist"
-	line "so süß und"
-	cont "niedlich!"
-	para "Du liebst #MON"
-	line "wie ich!"
-	para "Tauschen wir"
-	line "Nummern? Lass uns"
-	cont "quatschen!"
+	text "Dein MARILL ist so"
+	line "niedlich und süß!"
+	para "Du liebst #MON,"
+	line "genau wie ich!"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
+	para "Dann können wir"
+	line "ein wenig plau-"
+	cont "dern! Wie spaßig!"
 	done
 
 BeverlyAskNumber2Text:
-	text "Dein Marill ist"
-	line "so süß! Wir"
-	cont "sollten"
-	para "quatschen. Darf"
-	line "ich deine Nummer?"
+	text "Dein MARILL ist so"
+	line "niedlich und süß!"
+	para "Wir sollten öfter"
+	line "miteinander reden,"
+	cont "das wäre toll!"
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 BeverlyNumberAcceptedText:
-	text "Ehrlich gesagt"
-	line "will ich ein"
-	cont "Marill."
-
-	para "Aber mein süßes"
-	line "Snubbull reicht."
+	text "Ehrlich gesagt,"
+	line "hätte ich gerne"
+	cont "ein MARILL."
+	para "Aber ich muss mit"
+	line "meinem niedlichen"
+	para "SNUBBULL"
+	line "auskommen."
 	done
 
 BeverlyNumberDeclinedText:
-	text "Oh… Schade…"
-	line "Tschüss, Marill…"
+	text "Oh… Das ist"
+	line "enttäuschend…"
+	para "Leb wohl, MARILL…"
 	done
 
 BeverlyPhoneFullText:
-	text "Oh? Dein Telefon"
-	line "ist voll."
+	text "Oh? Dein Nummern-"
+	line "speicher ist voll."
 	done
 
 BeverlyGiftText:
-	text "Oh? <PLAYER>? Ich"
-	line "hab auf dich"
-
-	para "gewartet. Ich hab"
-	line "ein kleines"
-	cont "Geschenk."
+	text "Oh? <PLAYER>?"
+	line "Ich habe dich er-"
+	cont "wartet und dir"
+	cont "etwas mitgebracht."
 	done
 
 BeverlyPackFullText:

@@ -1,72 +1,98 @@
 GavenMonGreaterThanImaginedText:
+	; GSC-DE Dump
 	text "Mein "
 	text_ram wStringBuffer4
-	line "ist vielleicht"
+	line "könnte stärker"
+	cont "sein, als ich"
+	cont "dachte."
 
-	para "stärker als ich"
-	line "dachte. Besser"
-	cont "jedes andere "
+	para "Ich bezweifle,"
+	line "dass ich ein"
+
+	para ""
 	text_ram wStringBuffer4
-	text "."
+	text " sehe,"
+	line "das besser als"
+
+	para "meines ist."
 	done
 
 GavenDefeatedMonText:
-	text "Oh, und ich hab"
-	line "knapp ein wildes"
-	cont ""
+	text "Oh, ich habe vor"
+	line "kurzem knapp gegen"
+
+	para "ein "
 	text_ram wStringBuffer4
-	text "besiegt."
-	para "So stark hab ich"
-	line "noch keins"
-	cont "gesehen …"
-	para "Sei vorsichtig,"
-	line "auch bei"
-	cont "bekannten #MON!"
+	line "gewonnen."
+
+	para "Ich habe noch nie"
+	line "so ein starkes"
+
+	para ""
+	text_ram wStringBuffer4
+	line "gesehen…"
+
+	para "Du solltest deine"
+	line "Verteidigung nicht"
+
+	para "vernachlässigen,"
+	line "auch wenn du die-"
+	cont "ses #MON öfter"
+	cont "siehst."
 	done
 
 GavenLostAMonText:
-	text "Vor einer Weile"
-	line "wollte ich ein"
-	cont "wildes "
+	text "Vor geraumer Zeit,"
+	line "versuchte ich ein"
+
+	para "wildes "
 	text_ram wStringBuffer4
-	text " fangen."
+	line "zu fangen."
 
-	para "Es entkam mir."
-	line "Eine falsche"
+	para "Aber es ist mir"
+	line "entkommen."
 
-	para "Entscheidung kann"
-	line "alles ruinieren…"
-	cont "Pass auch auf!"
+	para "Eine einzige fal-"
+	line "sche Entscheidung"
+
+	para "kann über Sieg"
+	line "oder Niederlage"
+
+	para "entscheiden…"
+	line "Auch du solltest"
+
+	para "vorsichtig sein!"
 	done
 
 GavenBattleRematchText:
-	text "Lass uns kämpfen!"
+	text "Auf in den Kampf!"
 
-	para "Ich warte auf"
+	para "Hier warte ich:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ruf, wenn du in"
+	para "Ruf an, wenn du in"
 	line "der Nähe bist."
 	done
 
 GavenHangUpText:
-	text "O.K., wir reden"
-	line "bald wieder!"
+	text "O.K., ich melde"
+	line "mich bald!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "Ich grüble, wie"
-	line "ich dich schlage."
+	text "Ich bin davon"
+	line "besessen, dich"
+	cont "zu besiegen."
 	done
 
 GavenReminderText:
-	text "<PLAYER>, warum"
-	line "bist du nicht da?"
+	text "<PLAYER>, wo"
+	line "bist du?"
 
-	para "Ich schlage dich"
-	line "auf "
+	para "Ich mache dich auf"
+	line ""
 	text_ram wStringBuffer5
-	text "!"
+	text " fertig!"
 	done

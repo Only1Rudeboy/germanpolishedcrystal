@@ -1,28 +1,37 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Hör mal, der"
-	line "Stock meines "
-	text_ram wStringBuffer4
+	; GSC-DE Dump
+	text "Sperr die Ohren"
+	line "auf, die Stange"
 
-	para "riecht so lecker."
-	line "Der Duft macht"
-	cont "mich hungrig!"
+	para "meines "
+	text_ram wStringBuffer4
+	text "s"
+	line "riecht verlockend."
+
+	para "Der Duft bringt"
+	line "meine Geschmacks-"
+	cont "nerven in Ekstase!"
 	done
 
 JoseDefeatedMonText:
-	text "Vor einer Weile"
-	line "besiegte"
-	cont "Farfetch'd ein"
-	cont "wildes "
+	text "Vor geraumer Zeit"
+	line "schlug mein"
+
+	para "PORENTA ein"
+	line ""
 	text_ram wStringBuffer4
-	text "."
+	text " K.O."
+
 	para "Du hättest sehen"
-	line "sollen, wie es"
-	cont "den Stock"
-	cont "schwang!"
+	line "sollen, wie grazil"
+
+	para "PORENTA mit seiner"
+	line "Stange umgeht!"
+	cont "Einfach unfassbar!"
 	done
 
 JoseLostAMonText:
-	text "Ich traf ein"
+	text "Mir begegnete ein"
 	line "wildes "
 	text_ram wStringBuffer4
 	text "…"
@@ -30,68 +39,83 @@ JoseLostAMonText:
 	para "Ich wollte es"
 	line "fangen, aber es"
 
-	para "entkam schneller"
-	line "als gedacht."
-	cont "Schade."
+	para "floh schneller,"
+	line "als ich dachte."
+
+	para "Es war ein wenig"
+	line "enttäuschend."
 	done
 
 JoseBattleRematchText:
-	text "Nochmal kämpfen?"
+	text "Willst du erneut"
+	line "kämpfen?"
 
-	para "Farfetch'd ist"
-	line "aufgedreht und"
-	cont "kampfbereit."
+	para "Aus irgendeinem"
+	line "Grund ist mein"
 
-	para ""
-	text_ram wStringBuffer5
-	text "- da bin ich."
-	para "Pass auf mich"
-	line "auf!"
-	done
+	para "PORENTA hitzig und"
+	line "kampfbereit."
 
-JoseHangUpText:
-	text "Bis bald!"
-	done
-
-JoseFoundItemText:
-	text "Farfetch'd hatte"
-	line "was Hübsches im"
-	cont "Schnabel."
-
-	para "Wie versprochen,"
-	line "ist es deins."
-
-	para "Triff mich auf"
+	para "Ich bin hier:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
+
+	para "Schau doch einmal"
+	line "vorbei, O.K.?"
+	done
+
+JoseHangUpText:
+	text "Wir sehen uns!"
+	done
+
+JoseFoundItemText:
+	text "Mein PORENTA hatte"
+	line "etwas Schönes"
+	cont "im Schnabel."
+
+	para "Wie versprochen,"
+	line "gehört es dir."
+
+	para "Besuche mich hier:"
+	line ""
+	text_ram wStringBuffer5
+	text ","
+
+	para "und hole es dir"
+	line "bei mir ab."
 	done
 
 JoseHaventGottenItemYetText:
-	text "Ich hab dein"
-	line "Versprechen noch"
-	cont "nicht erfüllt."
-	para "Ich ruf an,"
-	line "sobald ich was"
-	cont "habe."
-	para "Kannst du noch"
-	line "warten?"
+	text "Ich habe noch"
+	line "nicht, was ich"
+	cont "dir versprach."
+
+	para "Ich melde mich,"
+	line "alsbald ich es"
+
+	para "habe. Kannst du"
+	line "noch ein wenig"
+	cont "warten?"
 	done
 
 JoseReminderText:
-	text "<PLAYER>, kannst"
-	line "du schnell"
-	cont "kommen?"
-	para "Farfetch'd ist"
+	text "<PLAYER>, kommst"
+	line "du schnell zu mir?"
+
+	para "PORENTA ist"
 	line "aufgeregt."
-	para "Wenn du nicht"
-	line "kommst, schlägt"
-	cont "es"
-	para "mich mit dem"
-	line "Stock!"
+
+	para "Wenn du nicht bald"
+	line "kommst, schlägt es"
+
+	para "mich noch mit"
+	line "seiner Stange!"
+
+	para ""
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Komm bitte"
-	line "schnell!"
+	para "Bitte, komm so"
+	line "schnell du kannst!"
 	done

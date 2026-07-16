@@ -62,17 +62,21 @@ ShamoutiHotelRestaurantChallengeScript:
 
 .GreetingText:
 	text "Willkommen im"
-	line "Oasis Restaurant."
+	line "Oasis-Restaurant."
+
 	para "Hier kannst du"
 	line "nicht nur essen,"
+
 	para "sondern auch"
 	line "#MON-Kämpfe"
 	cont "bestreiten."
+
 	para "Jeden Tag gibt es"
 	line "ein neues Menü."
+
 	para "Der Preis ist"
-	line "¥5000. Möchtest du"
-	cont "reinkommen?"
+	line "¥5000. Willst du"
+	cont "eintreten?"
 	done
 
 .AlreadyAteText:
@@ -122,6 +126,7 @@ ShamoutiHotelRestaurantLeavingTrigger1:
 .GoodbyeText:
 	text "Danke für deinen"
 	line "Besuch."
+
 	para "Komm morgen wieder"
 	line "vorbei!"
 	done

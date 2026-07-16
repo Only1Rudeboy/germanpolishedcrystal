@@ -1,27 +1,24 @@
 AnthonyAskNumber1Text:
-	text "Ich bin Wanderer"
-	line "und gehe oft in"
-
-	para "Berge und Höhlen."
-	line "Manchmal sehe ich"
-
-	para "seltene #MON."
-	line "Ich könnte dich"
-
-	para "anrufen, wenn ich"
-	line "eins sehe."
-
-	para "Lust, Nummern"
-	line "auszutauschen?"
+	text "Ich bin übrigens"
+	line "WANDERER. Ich gehe"
+	para "oft in die Berge"
+	line "und in Höhlen."
+	para "Manchmal sehe ich"
+	line "seltene #MON."
+	para "Ich könnte dich"
+	line "anrufen, wenn mir"
+	cont "eines begegnet."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 AnthonyAskNumber2Text:
-	text "Ich rufe an, wenn"
-	line "ich seltene"
-	cont "#MON sehe."
-
-	para "Lust, Nummern"
-	line "auszutauschen?"
+	text "Ich könnte dich"
+	line "anrufen, wenn ich"
+	para "ein seltenes"
+	line "#MON sehe."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 AnthonyNumberAcceptedText:
@@ -31,21 +28,21 @@ AnthonyNumberAcceptedText:
 	done
 
 AnthonyNumberDeclinedText:
-	text "Du bist kalt."
-	line "Dann geh ich in"
-	cont "die Berge …"
+	text "Du bist kühl. Ich"
+	line "könnte auch in die"
+	cont "Berge gehen…"
 	done
 
 AnthonyPhoneFullText:
-	text "Dein Telefon ist"
-	line "voll."
-	para "Meine Nummer"
-	line "passt nicht rein."
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	para "Du kannst keine"
+	line "Nummer mehr"
+	cont "speichern."
 	done
 
 AnthonyRematchText:
-	text "Alles klar!"
-
+	text "In Ordnung!"
 	para "Meine #MON und"
 	line "ich sind bereit!"
 	done

@@ -69,10 +69,9 @@ ShamoutiIslandAlolanExeggutorScript:
 	end
 
 .PokeFluteText:
-	text "Das #Com wurde"
-	line "neben den"
-	cont "seltsamen Baum"
-	cont "gelegt…"
+	text "Das #COM wurde"
+	line "neben dem seltsa-"
+	cont "men Baum gelegt…"
 	done
 
 .WokeUpText:
@@ -113,8 +112,9 @@ ShamoutiIslandWilhomenaScript:
 	done
 
 .Text1:
-	text "Hallo wieder! Nimm"
-	line "dieses Andenken."
+	text "Hallo wieder!"
+	line "Nimm dieses"
+	cont "Andenken."
 	done
 
 ShamoutiIslandPikabluText:
@@ -133,19 +133,19 @@ ShamoutiIslandFisherText:
 	line "blockieren den"
 	cont "Weg?"
 
-	para "Das wäre"
-	line "unhöflich!"
+	para "Das wäre unhöf-"
+	line "lich!"
 	done
 
 ShamoutiIslandSignText:
-	text "Shamouti-Insel"
+	text "SHAMOUTI-INSEL"
 	done
 
 ShamoutiHotelSignText:
-	text "Shamouti-Hotel"
+	text "SHAMOUTI-HOTEL"
 	done
 
 ShamoutiTouristCenterSignText:
-	text "Shamouti"
+	text "SHAMOUTI"
 	line "Touristen-Info"
 	done

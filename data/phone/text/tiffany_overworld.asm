@@ -1,59 +1,55 @@
 TiffanyAskNumber1Text:
-	text "Hey! Du magst"
-	line "Piepi auch?"
-
-	para "So süß, oder? Wir"
-	line "werden Freunde!"
-
-	para "Ich will deine"
-	line "Nummer! Reden wir"
-	cont "über Piepi!"
+	text "Hi! Du magst PIEPI"
+	line "auch?"
+	para "Sie sind so"
+	line "niedlich, oder?"
+	para "Ich denke wir wer-"
+	line "den gute Freunde!"
+	para "Gib mir doch deine"
+	line "Telefonnummer!"
+	para "Wir können über"
+	line "PIEPI reden!"
 	done
 
 TiffanyAskNumber2Text:
-	text "Ich will deine"
-	line "Nummer!"
-
-	para "Reden wir über"
-	line "Piepi!"
+	text "Gib mir doch deine"
+	line "Telefonnummer!"
+	para "Wir können über"
+	line "PIEPI reden!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Ist mein Piepi"
-	line "nicht super"
-	cont "niedlich?"
+	text "Ist mein PIEPI"
+	line "nicht wunderbar?"
 	done
 
 TiffanyNumberDeclinedText:
-	text "Ach… Na gut. Such"
-	line "mich, wenn du"
-
-	para "über Piepi reden"
-	line "willst."
+	text "Argh… Oh, nun."
+	line "Melde dich, wenn"
+	para "du über PIEPI"
+	line "reden möchtest."
 	done
 
 TiffanyPhoneFullText:
-	text "Oh? Dein Telefon"
-	line "ist voll."
+	text "Oh? Dein Nummern-"
+	line "speicher ist voll."
 	done
 
 TiffanyRematchText:
-	text "Da bist du!"
-
-	para "Piepi, gib dein"
+	text "Bitte schön!"
+	para "PIEPI, gib dein"
 	line "Bestes!"
 	done
 
 TiffanyGiftText:
-	text "Du hast lang"
-	line "gebraucht. Schau!"
-
-	para "Niedlich, oder?"
-	line "Piepis"
-	cont "FairyFeather."
+	text "Du hast lange"
+	line "gebraucht. Sieh!"
+	para "Ist das nicht"
+	line "toll, ein"
+	cont "ROSA BAND."
 	done
 
 TiffanyPackFullText:
-	text "Oh-oh. Deine"
-	line "Tasche ist voll."
+	text "Oh-oh. Dein Beutel"
+	line "platzt gleich."
 	done

@@ -60,6 +60,7 @@ DimCave3FSetUpStoneTable:
 	text "Der Fels ist"
 	line "heruntergefallen."
 	done
+
 GenericTrainerEngineerHugo:
 	generictrainer ENGINEER, HUGO, EVENT_BEAT_ENGINEER_HUGO, .SeenText, .BeatenText
 
@@ -94,6 +95,7 @@ GenericTrainerBlackbeltTakeo:
 	text "Ich trainiere hier"
 	line "allein mit meinen"
 	cont "#MON."
+
 	para "Verschwinde"
 	line "sofort!"
 	done

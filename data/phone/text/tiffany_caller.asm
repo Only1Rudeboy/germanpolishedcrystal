@@ -1,119 +1,141 @@
 TiffanyMonIsAdorableText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text " ist niedlich,"
-	line "findest"
+	line "ist so bezaubernd,"
 
-	para "du nicht? Ich"
-	line "schlafe immer"
+	para "nicht wahr?"
+	line "Ich schlafe immer"
 
-	para "damit - so"
-	line "flauschig und"
-	cont "warm!"
+	para "mit ihm - es ist"
+	line "so weich und warm!"
 	done
 
 TiffanyDefeatedMonText:
 	text "Oh, wir mussten"
-	line "gegen ein wildes"
-	cont ""
+	line "vor kurzem gegen"
+
+	para "ein wildes"
+	line ""
 	text_ram wStringBuffer4
-	text " kämpfen…"
+	cont "kämpfen…"
 
-	para "Mein Piepi war"
-	line "fast ohnmächtig!"
+	para "Mein PIEPI war"
+	line "fast besiegt!"
 
-	para "Schrecklich! Ich"
-	line "hasse diese"
-	cont ""
+	para "Schrecklich, oder?"
+
+	para "Ich hasse diese"
+	line ""
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 TiffanyLostAMonText:
 	text "Oh, wir mussten"
-	line "gegen ein wildes"
-	cont ""
+	line "vor kurzem gegen"
+
+	para "ein wildes"
+	line ""
 	text_ram wStringBuffer4
-	text "kämpfen …"
-	para "Mein Piepi hatte"
-	line "Angst, wir"
-	cont "rannten weg!"
+	cont "kämpfen…"
+
+	para "Mein PIEPI hat"
+	line "sich erschrocken"
+
+	para "und wir flohen so"
+	line "schnell wie wir"
+	cont "konnten!"
+
 	para "Ich muss mein"
-	line "Piepi beschützen."
+	line "PIEPI einfach"
+	cont "beschützen."
 	done
 
 TiffanyBattleRematchText:
-	text "Das überrascht"
-	line "dich vielleicht,"
+	text "Ich weiß, das"
+	line "überrascht dich,"
 
-	para "aber willst du"
-	line "kämpfen?"
+	para "aber ich möchte"
+	line "kämpfen!"
 
-	para "Ich warte mit"
-	line "Piepi auf "
+	para "Ich und mein PIEPI"
+	line "sind hier:"
+	cont ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TiffanyItsAwfulText:
 	text_ram wStringBuffer4
-	text "! Es ist"
-	line "schrecklich."
+	text "!"
 
-	para "Mein Piepi… Häh?"
-	line "<PLAYER>?"
+	para "Es ist furchtbar."
+	line "Mein PIEPI…"
 
-	para "Oh, tut mir leid!"
-	line "Ich hatte es"
-	cont "eilig…"
+	para "Hu? <PLAYER>?"
 
-	para "Ich muss los!"
-	line "Tschüss!"
+	para "Oh, sorry! Ich war"
+	line "in Eile und ich…"
+
+	para "Ich muss weg!"
+	line "Und tschüß!"
 	done
 
 TiffanyHangUpText:
-	text "Tschüss!"
+	text "Bye-bye!"
 	done
 
 TiffanyFoundItemText:
-	text "Ich kaufte Pink"
-	line "Bows in Dukatia"
-	para "für mein Piepi."
-	line "Zu viele - eins"
-	para "für dich! Hol es"
-	line "auf "
+	text "Ich kaufte einige"
+	line "ROSA BÄNDER im"
+
+	para "KAUFHAUS von"
+	line "DUKATIA CITY"
+	cont "für PIEPI."
+
+	para "Ich habe zu viele,"
+	line "darum gebe ich dir"
+	cont "eines."
+
+	para "Hole es dir hier:"
+	line ""
 	text_ram wStringBuffer5
-	text " ab."
+	text "."
 	done
 
 TiffanyNoItemText:
-	text "Ich liebe es,"
-	line "mein Piepi zu"
-	cont "verzieren!"
+	text "Ich liebe es mein"
+	line "PIEPI anzuziehen!"
 	done
 
 TiffanyAsleepText:
 	text "Was ist los?"
 	line "Kannst du nicht"
+	cont "kommen?"
 
-	para "kommen? Piepi ist"
-	line "müde und schläft."
+	para "PIEPI wurde müde"
+	line "und schlief ein."
 
-	para "Ich weck es kaum…"
-	line "Beeil dich nach"
-	cont ""
+	para "Ich bin nicht"
+	line "sicher, ob ich es"
+	cont "aufwecken kann…"
+
+	para "Komme hierher:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 TiffanyHurryText:
 	text "Was ist los?"
-	line "Kannst du nicht"
+	line "Kommst du nicht"
+	cont "vorbei?"
 
-	para "kommen? Das steht"
-	line "deinem Piepi gut."
+	para "Ich bin sicher,"
+	line "es sieht gut an"
+	cont "deinem PIEPI aus."
 
-	para "Beeil dich nach"
+	para "Komme hierher:"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

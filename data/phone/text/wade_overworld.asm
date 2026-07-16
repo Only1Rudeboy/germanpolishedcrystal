@@ -1,65 +1,62 @@
 WadeAskNumber1Text:
-	text "Du bist toll! Ich"
-	line "mag dich!"
-
-	para "Ich suche hier"
-	line "täglich #MON."
-
+	text "Eh, du bist gut!"
+	line "Das mag ich!"
+	para "Ich such hier täg-"
+	line "lich nach #MON."
 	para "Im Gras finde ich"
-	line "allerlei Beeren."
-
-	para "Ich teile gern."
-	line "Darf ich deine"
-	cont "Nummer?"
+	line "alle Arten von"
+	cont "BEEREN."
+	para "Wenn du möchtest,"
+	line "teile ich mit dir."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 WadeAskNumber2Text:
 	text "Im Gras finde ich"
-	line "allerlei Beeren."
-
-	para "Ich teile gern."
-	line "Darf ich deine"
-	cont "Nummer?"
+	line "alle Arten von"
+	cont "BEEREN."
+	para "Wenn du möchtest,"
+	line "teile ich mit dir."
+	para "Gibst du mir deine"
+	line "Telefonnummer?"
 	done
 
 WadeNumberAcceptedText:
 	text "Ich melde mich,"
-	line "sobald ich was"
-
-	para "finde, das dir"
-	line "gefällt."
+	line "sobald ich etwas"
+	para "finde, das dir ge-"
+	line "fallen könnte."
 	done
 
 WadeNumberDeclinedText:
-	text "Na gut. Sag"
-	line "Bescheid, wenn du"
-	cont "meine Nummer"
-	cont "willst."
+	text "Du kannst mich"
+	line "gerne nach meiner"
+	cont "Nummer fragen."
 	done
 
 WadePhoneFullText:
-	text "Deine Liste hat"
-	line "keinen Platz für"
-	cont "meine Nummer."
+	text "In deinem Nummern-"
+	line "speicher ist kein"
+	cont "Platz mehr."
 	done
 
 WadeRematchText:
-	text "Ich hab gewartet."
-	line "Lass uns kämpfen!"
+	text "Ich habe schon auf"
+	line "dich gewartet."
+	cont "Los geht's!"
 	done
 
 WadeGiftText:
-	text "Schön dich zu"
-	line "sehen! Schau, das"
-	cont "hab ich"
-
-	para "gefunden. Für"
-	line "dich!"
+	text "Schön dich zu se-"
+	line "hen! Hier, das"
+	para "habe ich gefunden."
+	line "Nimm es bitte!"
 	done
 
 WadePackFullText:
-	text "Ups, Tasche voll."
-	line "Schade."
-
-	para "Hol es später ab."
+	text "Dein BEUTEL ist"
+	line "voll. Schade!"
+	para "Hole es dir"
+	line "später ab."
 	done

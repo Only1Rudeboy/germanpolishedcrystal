@@ -1,10 +1,12 @@
 WiltonMonHasGrownText:
 	text "Mein "
 	text_ram wStringBuffer4
-	text "ist beeindruckend"
-	para "gewachsen! Meine"
-	line "Angelfähigkeiten"
-	cont "auch!"
+	line "ist sehr gewach-"
+	cont "sen! Meine Angel-"
+	cont "fähigkeiten haben"
+
+	para "sich auch"
+	line "verbessert!"
 	done
 
 WiltonDefeatedMonText:
@@ -13,76 +15,90 @@ WiltonDefeatedMonText:
 	text_ram wStringBuffer4
 	text "…"
 
-	para "Angeln macht mir"
-	line "mehr Spaß als"
-	cont "wilde #MON"
-	cont "schlagen."
+	para "Du weißt, dass mir"
+	line "Angeln mehr Spaß"
+
+	para "macht, als wilde"
+	line "#MON zu"
+	cont "besiegen."
 	done
 
 WiltonLostAMonText:
-	text "Vor einer Weile"
-	line "entkam uns knapp"
-	cont "ein wildes "
-	text_ram wStringBuffer4
-	text "."
+	text "Aber vor geraumer"
+	line "Zeit hätten wir"
 
-	para "Es war riesig."
-	line "Glaub mir."
+	para "fast ein wildes"
+	line ""
+	text_ram wStringBuffer4
+	cont "gefangen."
+
+	para "Ich sage dir, es"
+	line "war riesig. Oja!"
 	done
 
 WiltonBattleRematchText:
-	text "Ich angle auf"
+	text "Ich angle hier:"
 	line ""
 	text_ram wStringBuffer5
 	text ","
 
 	para "aber heute beißt"
-	line "nichts."
+	line "nichts an."
 
-	para "Vertreib mir die"
-	line "Zeit - komm zum"
-	cont "Kampf."
+	para "Komm und vertreib"
+	line "meine Langeweile"
+	cont "mit einem Kampf."
 	done
 
 WiltonHangUpText:
-	text "Alles klar, bis"
-	line "dann."
+	text "O.K., bis später."
 	done
 
 WiltonFoundItemText:
-	text "Ich fing ein Item"
-	line "beim Angeln."
+	text "Ich habe beim"
+	line "Angeln ein Item"
+	cont "gefunden."
 
-	para "Hol es auf"
+	para "Komm hierher:"
 	line ""
 	text_ram wStringBuffer5
-	text " ab."
+	text "."
 	done
 
 WiltonHaventFoundAnythingText:
-	text "Nein, noch nichts"
-	line "gefunden, das"
-	cont "sich"
-	para "lohnt. Geduld ist"
-	line "nötig."
+	text "Uh, ich habe noch"
+	line "nichts Brauch-"
+	cont "bares gefunden."
+
+	para "Du musst Geduld"
+	line "haben."
 	done
 
 WiltonNotBitingText:
-	text "Seufz… Sie beißen"
-	line "nicht"
+	text "Seufz…"
+	line "Sie beißen nicht"
 
-	para "mehr auf "
+	para "wie sonst! Hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "…"
 
-	para "Komm zum Kampf!"
+	para "Komm auf einen"
+	line "Kampf vorbei!"
 	done
 
 WiltonWantThisText:
-	text "Willst du das"
-	line "Item nicht?"
-	para "Häh? Wo?"
+	text "Möchtest du das"
+	line "Item nicht? Ha!"
+
+	para "Du weißt nicht,"
+	line "wo es ist?"
+
+	para ""
 	text_ram wStringBuffer5
-	text "… Von Mahagonia"
-	line "Richtung Eispfad!"
+	text "…"
+	line "Gehe von MAHAGONIA"
+
+	para "CITY nach EBENHOLZ"
+	line "CITY!"
 	done

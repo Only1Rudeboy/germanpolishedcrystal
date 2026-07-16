@@ -1,89 +1,107 @@
 ArnieMonIsSoCuteText:
-	text "Ich bin immer mit"
-	line "meinem "
+	; GSC-DE Dump
+	text "Mein "
 	text_ram wStringBuffer4
-	text "!"
+	line "ist immer dabei!"
+
 	para "Es ist so süß!"
 	line "Ich liebe es!"
 	done
 
 ArnieDefeatedMonText:
-	text "Apropos, ich sah"
-	line "zum ersten Mal"
+	text "Themawechsel! Ich"
+	line "sah zum ersten Mal"
 	cont "ein "
 	text_ram wStringBuffer4
-	text ". Es war leicht"
-	line "zu besiegen."
+	text "."
+
+	para "Es war einfach zu"
+	line "besiegen."
 	done
 
 ArnieLostAMonText:
-	text "Ich frag mich,"
-	line "hast du zufällig"
-
-	para ""
+	text "Ich fragte mich,"
+	line "ob du zufällig ein"
+	cont ""
 	text_ram wStringBuffer4
-	text "? Ich kann keins"
+	text " hast?"
 
-	para "fangen. Was ist"
-	line "seine Schwäche?"
+	para "Ich kann keines"
+	line "fangen. Was ist"
+
+	para "wohl seine"
+	line "Schwäche?"
 	done
 
 ArnieBattleRematchText:
-	text "Hey, lass uns"
+	text "Heh, lass unsere"
 	line "#MON kämpfen!"
-	para "Ich verliere"
-	line "nicht im Kampf"
-	cont "oder im"
-	para "Käferturnier! Ich"
-	line "bin auf "
+
+	para "Ich verliere weder"
+	line "im Kampf noch im"
+
+	para "Käferturnier"
+	line "gegen dich!"
+
+	para "Ich bin hier:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ArnieHangUpText:
-	text "Lass uns wieder"
-	line "reden, ja?"
+	text "Lass uns erneut"
+	line "plaudern?"
 	done
 
 ArnieSwarmText:
-	text "Mann, bin ich"
-	line "froh, dich"
-	cont "erwischt zu"
+	text "Bin ich froh, dass"
+	line "ich dich noch"
+	cont "erwische!"
 
-	para "haben! Eine ganze"
-	line "Menge "
+	para "Ein ganzer Schwarm"
+	line ""
 	text_ram wStringBuffer4
+	text " ist"
 
-	para "sind bei "
+	para "hier aufgetaucht:"
+	line ""
 	text_ram wStringBuffer5
-	text "! Das musst du"
-	line "sehen!"
+	text "!"
+
+	para "Das musst du dir"
+	line "ansehen!"
 	done
 
 ArnieHaventSeenRareMonText:
-	text "Ich hatte kein"
-	line "Glück mit"
-	cont "seltenen #MON …"
+	text "In letzter Zeit"
+	line "hatte ich kein"
+
+	para "Glück, seltene"
+	line "#MON zu sehen…"
+
 	para "Aber ich weiß,"
-	line "sie sind da"
-	cont "draußen!"
+	line "dass sie da sind!"
 	done
 
 ArnieReminderText:
-	text "Hey, wo bist du?"
-	line "Lass uns kämpfen."
+	text "Heh, wo bist du"
+	line "jetzt?"
 
-	para "Ich warte auf"
-	line ""
+	para "Lass uns kämpfen."
+	line "Ich warte hier:"
+	cont ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ArnieHurryText:
 	text "Hallo? Kommst du"
-	line "oder was?"
-	para "Du verpasst"
-	line "Yanma! Komm"
-	cont "sofort auf"
-	para "Route 35!"
+	line "oder nicht?"
+
+	para "Du verpasst YANMA"
+	line "zu sehen!"
+
+	para "Komm sofort zu"
+	line "ROUTE 35!"
 	done

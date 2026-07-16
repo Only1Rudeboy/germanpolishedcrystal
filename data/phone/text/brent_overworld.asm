@@ -1,60 +1,54 @@
 BrentAskNumber1Text:
 	text "Du bist ein"
-	line "#Maniac, das"
-
-	para "merk ich. Aber"
-	line "dein Wissen ist"
-	cont "noch"
-
-	para "oberflächlich!"
-	line "Kennst du BILL?"
-
-	para "Er ist ein toller"
-	line "#Maniac. Ich"
-
-	para "verehr ihn. Ich"
-	line "lehre dich alles"
-
-	para "über BILL - gib"
-	line "mir deine Nummer."
+	line "#MANIAC…"
+	para "Ich spüre das."
+	line "Ja, du bist einer."
+	para "Aber dein Wissen"
+	line "ist noch klein!"
+	para "Kennst du BILL? Er"
+	line "ist ein wahrer"
+	para "#MANIAC. Ich"
+	line "verehre ihn."
+	para "Ich gebe dir mein"
+	line "Wissen über BILL"
+	para "weiter, wenn du"
+	line "mir deine Nummer"
+	cont "gibst."
 	done
 
 BrentAskNumber2Text:
-	text "Ich lehre dich"
-	line "alles über BILL."
-
-	para "Gib mir deine"
-	line "Nummer."
+	text "Ich gebe dir mein"
+	line "Wissen über BILL"
+	para "weiter, wenn du"
+	line "mir deine Nummer"
+	cont "gibst."
 	done
 
 BrentNumberAcceptedText:
 	text "BILL - er ist"
-	line "unglaublich!"
-
-	para "Eines Tages will"
-	line "ich so ein"
-	cont "#Maniac sein!"
+	line "unbeschreiblich!"
+	para "Ein #MANIAC,"
+	line "wie er zu werden…"
+	para "ist mein Traum."
 	done
 
 BrentNumberDeclinedText:
-	text "Du wirst es"
+	text "Das wirst du noch"
 	line "bereuen…"
-
-	para "Und mir ist es"
-	line "egal…"
+	para "Aber, das ist mir"
+	line "völlig gleich…"
 	done
 
 BrentPhoneFullText:
-	text "Häh? Deine Liste"
-	line "ist voll."
-
-	para "Ein #Maniac"
+	text "Dein Nummern-"
+	line "speicher ist voll."
+	para "Ein #MANIAC"
 	line "muss ordentlicher"
 	cont "sein!"
 	done
 
 BrentRematchText:
-	text "Ich hab gewartet."
-	line "Schau meine"
-	cont "#MON!"
+	text "Ich warte."
+	para "Sieh, das sind"
+	line "meine #MON!"
 	done

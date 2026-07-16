@@ -1,61 +1,56 @@
 WiltonAskNumber1Text:
-	text "Unser Kampf war"
-	line "spaßig…"
-
+	text "Ich denke, unser"
+	line "Kampf war klasse…"
 	para "Beim Angeln finde"
-	line "ich manchmal"
-
-	para "verlorene Items."
-	line "Willst du sie?"
-
-	para "Wie lautet deine"
-	line "Nummer?"
+	line "ich oft Items, die"
+	para "einfach weg-"
+	line "geworfen wurden."
+	para "Möchtest du sie?"
+	line "Gib mir deine"
+	cont "Nummer."
 	done
 
 WiltonAskNumber2Text:
-	text "Wenn ich beim"
-	line "Angeln was finde,"
-
-	para "ist es deins."
-	line "Deine Nummer?"
+	text "Finde ich beim"
+	line "Angeln ein Item,"
+	para "gehört es dir. Gib"
+	line "mir deine Nummer?"
 	done
 
 WiltonNumberAcceptedText:
-	text "Wenn ich was"
-	line "Gutes fange, sag"
-	cont "ich Bescheid."
+	text "Ich melde mich,"
+	line "falls ich etwas"
+	cont "finde."
 	done
 
 WiltonNumberDeclinedText:
-	text "Alles klar … Komm"
-	line "wieder, wenn du"
-	cont "es dir anders"
-	cont "überlegst."
+	text "Gut… Komme wieder,"
+	line "wenn du anders"
+	cont "darüber denkst."
 	done
 
 WiltonPhoneFullText:
-	text "Du kannst keine"
-	line "weitere Nummer"
-	cont "speichern."
+	text "Dein Nummern-"
+	line "speicher ist voll."
 	done
 
 WiltonRematchText:
-	text "Argh! Du hast"
-	line "Quapsel wieder"
-	cont "verscheucht!"
+	text "Uah! Wegen dir ist"
+	line "QUAPSEL schon"
+	cont "wieder geflohen!"
 	done
 
 WiltonGiftText:
-	text "Da bist du."
-
-	para "Schau! Gerade"
-	line "gefangen. Für"
-	cont "dich."
+	text "Ah, da bist du ja."
+	para "Siehst du das?"
+	line "Ich habe es vor"
+	para "kurzem geangelt."
+	line "Es gehört dir."
 	done
 
 WiltonPackFullText:
-	text "Tasche voll?"
-
-	para "Ich geb's dir"
+	text "Dein BEUTEL ist"
+	line "voll?"
+	para "Ich gebe es dir"
 	line "später."
 	done

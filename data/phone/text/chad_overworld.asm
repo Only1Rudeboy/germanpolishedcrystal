@@ -1,51 +1,50 @@
 ChadAskNumber1Text:
-	text "Häh? Ist das ein"
-	line "#dex? Hast du"
-	cont "PROF. EICH"
-	cont "getroffen?"
-
-	para "Wirklich? Cool!"
-
+	text "Oh? Ist dieses Ge-"
+	line "rät ein #DEX?"
+	cont "Hast du PROF. EICH"
+	cont "kennengelernt?"
+	para "Was? Wirklich?"
+	line "Das ist großartig!"
 	para "Ich träume davon,"
-	line "#MON-Forscher"
-	cont "wie PROF. EICH zu"
-	cont "werden."
-
-	para "Darf ich deine"
-	line "Nummer? Wir reden"
-
-	para "über PROF. EICH."
-	line "Das wird toll!"
+	line "ein #MON-"
+	para "Forscher wie PROF."
+	line "EICH zu werden."
+	para "Gibst du mir bitte"
+	line "deine Nummer?"
+	para "Wir können über"
+	line "PROF. EICH reden."
+	para "Das macht sicher"
+	line "eine Menge Spaß!"
 	done
 
 ChadAskNumber2Text:
-	text "Darf ich deine"
-	line "Nummer?"
-
-	para "Wir reden über"
-	line "PROF. EICH. Das"
-	cont "wird toll!"
+	text "Gibst du mir bitte"
+	line "deine Nummer?"
+	para "Wir können über"
+	line "PROF. EICH reden."
+	para "Das macht sicher"
+	line "eine Menge Spaß!"
 	done
 
 ChadNumberAcceptedText:
-	text "Du hörst doch"
-	line "PROF. EICHs"
-	cont "#MON Talk,"
-	cont "oder?"
+	text "Du musst PROF."
+	line "EICHs #MON-"
+	cont "TALK einschalten,"
+	cont "nicht wahr?"
 	done
 
 ChadNumberDeclinedText:
-	text "Oh… Ich wünschte,"
-	line "ich könnte Prof."
-	cont "Eich treffen…"
+	text "Oh… ich wünschte,"
+	line "ich könnte PROF."
+	cont "EICH treffen…"
 	done
 
 ChadPhoneFullText:
-	text "Deine Liste ist"
-	line "komplett voll!"
+	text "Dein Nummern-"
+	line "speicher ist voll!"
 	done
 
 ChadRematchText:
-	text "Ich hab gewartet!"
-	line "Lass uns kämpfen!"
+	text "Ich warte schon!"
+	line "Ich zermalme dich!"
 	done

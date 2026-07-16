@@ -1,67 +1,67 @@
 ParryAskNumber1Text:
-	text "Mann, wie du"
-	line "angriffst! Das"
-	cont "war"
-	para "was! Wir sollten"
-	line "uns wieder"
-	cont "treffen!"
-	para "Gib mir deine"
-	line "Nummer?"
+	text "Yeah! Wie du mich"
+	line "angegriffen hast,"
+	para "das war gut! Wir"
+	line "müssen uns wieder-"
+	cont "sehen!"
+	para "Gib mir doch bitte"
+	line "deine Nummer!"
 	done
 
 ParryAskNumber2Text:
-	text "Du willst meine"
-	line "Nummer für ein"
-	cont "Rematch?"
+	text "Du möchtest meine"
+	line "Nummer speichern,"
+	para "um erneut gegen"
+	line "mich zu kämpfen?"
 	done
 
 ParryNumberAcceptedText:
-	text "Ich ruf an, wenn"
-	line "ich Lust zum"
-	cont "Kämpfen hab!"
+	text "Ich rufe an, wenn"
+	line "mir der Sinn nach"
+	cont "Kämpfen ist!"
 	done
 
 ParryNumberDeclinedText:
-	text "Nein? Ist O.K.."
+	text "Nein? In Ordnung."
 	para "Ein klares Nein"
-	line "kann man"
+	line "ist leicht zu"
 	cont "verkraften!"
-	para "Ich bin hier,"
-	line "wenn du bereit"
-	cont "bist."
+	para "Ich bin hier, wenn"
+	line "du erneut kämpfen"
+	cont "möchtest."
 	done
 
 ParryPhoneFullText:
-	text "Oh? Kein Platz"
-	line "für meine Nummer."
+	text "Du kannst keine"
+	line "weitere Nummer"
+	cont "mehr speichern."
 	done
 
 ParryRematchText:
-	text "Hey, da kommt das"
-	line "Kind! Los!"
-
-	para "Bereit für meinen"
-	line "üblichen Vollgas-"
-	cont "Angriff?"
+	text "Platz, jetzt komme"
+	line "ich! Und los!"
+	para "Mach dich bereit"
+	line "für meine Hals"
+	cont "über Kopf-Attacke!"
 	done
 
 ParryPackFullText:
-	text "Deine Tasche ist"
-	line "voll!"
-
+	text "Es scheint, dein"
+	line "BEUTEL ist voll!"
 	para "Du kannst das"
-	line "jetzt nicht"
-	cont "nehmen."
+	line "jetzt nicht haben."
 	done
 
 ParryRematchGiftText:
-	text "Du bist echt"
-	line "besonders."
-
-	para "Hätte ich früher"
-	line "mit #MON"
-	cont "angefangen…"
-
-	para "Erfolg für uns"
-	line "beide. Nimm das!"
+	text "Gut, du bist an-"
+	line "ders, in Ordnung."
+	para "Hätte ich mich"
+	line "doch früher mit"
+	cont "#MON befasst…"
+	para "Ich möchte, dass"
+	line "du in unser beider"
+	para "Namen arbei-"
+	line "test und erfolg-"
+	cont "reich bist. Also"
+	cont "nimm dies!"
 	done

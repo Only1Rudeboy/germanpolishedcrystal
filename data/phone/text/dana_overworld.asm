@@ -1,62 +1,63 @@
 DanaAskNumber1Text:
-	text "Du bist echt gut"
-	line "mit #MON!"
-	para "Jungs geben mir"
-	line "nach Kämpfen"
-	cont "Items,"
-	para "manchmal zu"
-	line "viele. Nächstes"
-	cont "Mal teile"
-	para "ich mit dir. Gib"
-	line "mir deine Nummer."
+	text "Du kennst dich gut"
+	line "mit #MON aus!"
+	para "Nach den Kämpfen"
+	line "bekomme ich Items."
+	para "Und manchmal sind"
+	line "es viel zu viele."
+	para "Wenn du möchtest,"
+	line "kann ich mit dir"
+	para "teilen. Gib mir"
+	line "deine Nummer."
 	done
 
 DanaAskNumber2Text:
 	text "Ich teile meine"
-	line "Geschenke mit"
-	cont "dir."
-	para "Gib mir deine"
-	line "Nummer."
+	line "Geschenke mit dir."
+	para "Verrate mir deine"
+	line "Telefonnummer."
 	done
 
 DanaNumberAcceptedText:
-	text "Wenn ein Junge"
-	line "mir nach einem"
-	cont "Kampf was gibt,"
-	para "teile ich! Ist"
-	line "das schlimm?"
+	text "Wenn ich das"
+	line "nächste Mal etwas"
+	para "nach einem Kampf"
+	line "bekomme, teile ich"
+	cont "mit dir!"
+	para "Bin ich ein"
+	line "schlechter Mensch?"
 	done
 
 DanaNumberDeclinedText:
-	text "Ach… Du willst"
-	line "nichts? Aber es"
-	cont "ist kostenlos…"
+	text "Argh, du möchtest"
+	line "es nicht?"
+	para "Aber es ist"
+	line "kostenlos…"
 	done
 
 DanaPhoneFullText:
-	text "Aber dein Telefon"
-	line "ist voll!"
+	text "Du kannst keine"
+	line "Nummer mehr"
+	cont "speichern!"
 	done
 
 DanaRematchText:
-	text "Du bist echt"
-	line "spät! Ich will"
-	cont "loslegen!"
+	text "Du kommst sehr"
+	line "spät!"
+	para "Ich möchte endlich"
+	line "beginnen!"
 	done
 
 DanaGiftText:
-	text "Hallo! Bist du"
-	line "wegen deinem"
-	cont "Geschenk da?"
-
-	para "Das wird dir"
-	line "gefallen!"
+	text "Hi! Kommst du we-"
+	line "gen dem Geschenk?"
+	para "Es wird deinen Tag"
+	line "retten!"
 	done
 
 DanaPackFullText:
-	text "Wo willst du das"
-	line "hinpacken?"
-
-	para "Ich behalte es,"
-	line "hol es später ab!"
+	text "Wo möchtest du"
+	line "es verstauen?"
+	para "Du kannst es dir"
+	line "später abholen."
 	done
