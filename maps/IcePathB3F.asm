@@ -65,8 +65,8 @@ LoreleiAfterScript:
 
 	text "Wenn du sie"
 	line "besiegst, triff"
-	cont "mich hier für ein"
-	cont "Rematch."
+	cont "mich hier für"
+	cont "einen Rückkampf."
 	done
 
 LoreleiRematchScript:
@@ -106,8 +106,8 @@ LoreleiGiveIcyRock:
 LoreleiRematchAfterText:
 	text "Deine Reise ist"
 	line "noch nicht vorbei."
-	para "Du kannst in Kanto"
-	line "mehr Orden"
+	para "Du kannst in KANTO"
+	line "mehr ORDEN"
 	cont "sammeln,"
 	para "neue #mon-Arten"
 	line "fangen,"
@@ -134,13 +134,14 @@ Text_IcePathB3FIceRock:
 
 LoreleiIntroText:
 	text "LORELEI: Oh? Ein"
-	line "Trainer aus Johto?"
+	line "Trainer aus JOHTO?"
 	para "Ich bin LORELEI"
 	line "von der TOP VIER…"
 	cont "im Urlaub."
 	para "Aber ein Kampf"
 	line "schadet nie!"
 	done
+
 LoreleiAfterIntroText:
 	text "LORELEI: Du nimmst"
 	line "an der"
@@ -155,7 +156,6 @@ LoreleiAfterIntroText:
 LoreleiNoBattleText:
 	text "Wenn du mir nicht"
 	line "standhalten"
-
 	para "kannst, wirst du"
 	line "den CHAMP nie"
 	cont "besiegen."
@@ -165,13 +165,16 @@ LoreleiSeenText:
 	text "Zeig mir deine"
 	line "Eis-Strategie!"
 	done
+
 LoreleiBeatenText:
 	text "Beeindruckend…"
 	done
+
 LoreleiRewardText:
 	text "Nimm das. Du hast"
 	line "es verdient."
 	done
+
 LoreleiRematchIntroAgainText:
 	text "LORELEI: Hallo"
 	line "wieder, <PLAYER>."
@@ -179,12 +182,12 @@ LoreleiRematchIntroAgainText:
 
 LoreleiRematchSeenText:
 	text "Du hast also die"
-	line "Top Vier"
+	line "TOP VIER"
 	para "besiegt? Ich"
 	line "hoffe, MELANIE"
 	cont "hast du auch"
 	cont "besiegt."
-	para "… … … … Du bist"
+	para "……… Du bist"
 	line "der neue CHAMP."
 	cont "Beeindruckend."
 	para "Dann muss ich mich"
@@ -199,7 +202,7 @@ LoreleiRematchBeatenText:
 
 LoreleiOneMoreBadgeText:
 	text "Geh nur weiter."
-	line "Mit einem Orden"
+	line "Mit einem ORDEN"
 	para "mehr kannst du die"
 	line "#mon-Liga"
 	cont "herausfordern."
@@ -207,8 +210,8 @@ LoreleiOneMoreBadgeText:
 
 LoreleiAllBadgesText:
 	text "Geh nur weiter. Du"
-	line "hast genug Orden,"
+	line "hast genug ORDEN,"
 	para "um die"
 	line "#mon-Liga"
-	cont "herausfordern."
+	cont "herauszufordern."
 	done

@@ -110,15 +110,16 @@ CianwoodCityChucksWife:
 	iftrue_jumptextfaceplayer ChucksWifeChubbyText
 	jumpthistextfaceplayer
 
-	text "Du bist übers Meer"
-	line "gekommen, um"
-	cont "herzukommen?"
-	para "Das muss hart"
-	line "gewesen sein."
-	para "Es wäre viel"
-	line "einfacher, wenn"
-	para "dein #mon"
-	line "Fliegen könnte …"
+	; GSC-DE Dump
+	text "Du hast das Meer"
+	line "überquert, um"
+	para "hierher zu kommen?"
+	line "Das war sicher"
+	cont "nicht einfach."
+	para "Es wäre viel ein-"
+	line "facher, wenn deine"
+	para "#MON FLIEGEN"
+	line "einsetzen könnten…"
 	done
 
 CianwoodCitySuicuneApproachMovement:
@@ -152,128 +153,193 @@ CianwoodCityEusineDepartMovement:
 
 
 ChucksWifeChubbyText:
-	text "Mein Mann hat"
-	line "gegen dich"
-	cont "verloren. Also"
-	cont "muss er härter"
-	cont "trainieren."
+	; GSC-DE Dump
+	text "Mein Mann hat ge-"
+	line "gen dich verloren."
+	cont "Also muss er här-"
+	cont "ter trainieren."
 	para "Das ist auch gut"
 	line "so. Er hat in"
 	cont "letzter Zeit etwas"
 	cont "Speck angesetzt."
 	done
 
-
-
-
 CianwoodCityYoungsterText:
-	text "Wenn du krank"
-	line "bist, geh zur"
-	cont "APOTHEKE."
-	para "Sie hat Medizin"
-	line "für alles!"
+	; GSC-DE Dump
+	text "Setzt du FLIEGEN"
+	line "ein, kannst du di-"
+	cont "rekt von hier aus"
+	cont "nach OLIVIANA CITY"
+	cont "reisen."
 	done
+
 CianwoodCityPokefanMText:
-	text "Die Felsen um die"
-	line "Stadt… Die"
-	cont "ARENALEITER räumen"
-	cont "sie manchmal mit"
-	cont "roher Kraft"
-	cont "beiseite!"
+	; GSC-DE Dump
+	text "Die Felsen nörd-"
+	line "lich der Stadt"
+	cont "können zerschmet-"
+	cont "tert werden."
+	para "Vielleicht findest"
+	line "du etwas unter"
+	cont "ihnen."
+	para "Deine #MON"
+	line "können ZERTRÜMME-"
+	cont "RER einsetzen, um"
+	cont "sie aus dem Weg zu"
+	cont "räumen."
 	done
+
 CianwoodCityLassText:
-	text "HAST du schon"
-	line "HARTWIG in der"
-	cont "ARENA getroffen?"
-	para "Er ist so laut…"
+	; GSC-DE Dump
+	text "HARTWIG, der ARE-"
+	line "NALEITER steigt"
+	para "gerne mit seinen"
+	line "#MON in den"
+	cont "Ring."
 	done
+
 CianwoodCityRocketText:
+	; PC
 	text "Hier ist der Weg"
 	line "gesperrt!"
-
 	para "Warum? Kümmere"
 	line "dich um deine"
 	cont "eigenen Sachen!"
 	done
 
 CianwoodCitySailorText:
+	; PC
 	text "Der LEUCHTTURM von"
 	line "OLIVIANA CITY"
 	cont "leuchtet über das"
 	cont "ganze Meer."
 	done
+
 CianwoodCityFisherText:
+	; PC
 	text "Der Ozean ist"
 	line "rauh. Nimm genug"
 	cont "Items mit!"
 	done
+
 EusineSuicuneText:
-	text "EUSIN: SUICUNE…"
-	line "Ich habe es"
-	cont "verfolgt."
-	para "Aber du hast es"
-	line "gesehen, nicht"
-	cont "wahr? Erzähl mir"
-	cont "davon!"
+	; GSC-DE Dump
+	text "EUSIN: Yo,"
+	line "<PLAYER>."
+	para "War das eben nicht"
+	line "SUICUNE?"
+	para "Ich habe nur einen"
+	line "Blick riskiert,"
+	para "aber ich dachte,"
+	line "ich hätte SUICUNE"
+	para "auf den Wellen"
+	line "rennen sehen."
+	para "SUICUNE ist schön"
+	line "und fabelhaft."
+	para "Und es rennt durch"
+	line "Städte und Straßen"
+	para "mit wahnsinniger"
+	line "Geschwindigkeit."
+	para "Es ist wundervoll…"
+	para "Ich möchte SUICUNE"
+	line "von nahem sehen…"
+	para "Ich habe mich"
+	line "entschieden."
+	para "Ich kämpfe wie ein"
+	line "Trainer, um mir"
+	para "SUICUNEs Respekt"
+	line "zu verdienen!"
+	para "Auf, <PLAYER>."
+	line "Lass uns kämpfen!"
 	done
+
 EusineBeatenText:
-	text "Unglaublich… Du"
-	line "bist stark!"
+	; GSC-DE Dump
+	text "Ich hasse es, das"
+	line "zuzugeben, aber du"
+	cont "hast gewonnen."
 	done
+
 EusineLossText:
+	; PC
 	text "Haha! SUICUNE"
 	line "bleibt mein Ziel!"
 	done
+
 EusineAfterText:
-	text "EUSIN: Ich werde"
-	line "SUICUNE weiter"
-	cont "folgen."
-	para "Wir sehen uns,"
+	; GSC-DE Dump
+	text "Du bist Wahnsinn,"
 	line "<PLAYER>!"
+	para "Darum sind dir"
+	line "#MON so"
+	cont "zugetan."
+	para "Jetzt weiß ich's."
+	para "Ich werde weiter"
+	line "nach SUICUNE"
+	cont "suchen."
+	para "Ich bin sicher,"
+	line "dass ich ihm eines"
+	cont "Tages begegne."
+	para "Man sieht sich!"
 	done
+
 CianwoodCitySignText:
+	; GSC-DE Dump
 	text "ANEMONIA CITY"
 	para "Eine Hafenstadt"
 	line "Umgeben von Stür-"
 	cont "mischer See"
 	done
+
 CianwoodGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "ANEMONIA CITY"
-	cont "LEITUNG: HARTWIG"
-	para "Er spricht durch"
-	line "seine Fäuste"
+	para "LEITUNG: HARTWIG"
+	line "Er spricht durch"
+	para "seine Fäuste"
 	done
-CianwoodPharmacySignText:
-	text "APOTHEKE von"
-	line "ANEMONIA CITY"
-	para "Für alle deine"
-	line "medizinischen"
-	cont "Bedürfnisse"
-	done
-CianwoodPhotoStudioSignText:
-	text "FOTO-STUDIO"
-	para "Nimm eine"
-	line "Erinnerung mit!"
-	done
-CianwoodCliffEdgeGateSignText:
-	text "Steilklippen-Tor"
 
+CianwoodPharmacySignText:
+	; GSC-DE Dump
+	text "500 Jahre voller"
+	line "Tradition."
+	para "APOTHEKE von"
+	line "ANEMONIA CITY"
+	para "Gerne erwarten wir"
+	line "Ihre medizinischen"
+	cont "Fragen"
+	done
+
+CianwoodPhotoStudioSignText:
+	; GSC-DE Dump
+	text "FOTOSTUDIO von"
+	line "ANEMONIA CITY"
+	para "Machen Sie einen"
+	line "Schnappschuss zur"
+	cont "Erinnerung!"
+	done
+
+CianwoodCliffEdgeGateSignText:
+	; PC
+	text "Steilklippen-Tor"
 	para "Der Gelbe Wald"
 	line "liegt direkt"
 	cont "voraus!"
 	done
 
 CianwoodMoveManiacSignText:
+	; PC
 	text "Attacken-Maniac"
 	line "voraus"
 	done
 
 CianwoodAdvancedTipsSignText:
+	; PC
 	text "Profi-Tipps!"
 	para "Du kannst einen"
 	line "#-Ball auf ein"
-	para "gefangenes #mon"
+	para "gefangenes #MON"
 	line "anwenden, um"
 	cont "seinen Ball zu"
 	cont "ändern!"

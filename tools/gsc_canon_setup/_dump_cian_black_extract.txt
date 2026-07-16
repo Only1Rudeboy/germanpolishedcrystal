@@ -1,0 +1,316 @@
+===== hartwig 3695-3730 =====
+3695: {text_start}Für #MON ist<LINE>es das höchste<PARA>Glück, wenn sie<LINE>bei jemandem sein<PARA>dürfen, der sie<LINE>gut behandelt.<DONE>
+3696: {text_start}Wenn ich mein<LINE>#MON zurück-<CONT>nehme, wer soll<CONT>für dich kämpfen?<DONE>
+3697: {text_start}WAHAHAH!<PARA>Du hast es also<LINE>bis hierher ge-<CONT>schafft!<PARA>Lass dir gesagt<LINE>sein, dass ich ein<CONT>harter Brocken<CONT>bin.<PARA>Meine #MON<LINE>werden dich in<CONT>Grund und Boden<CONT>rammen!<PARA>Pass auf!<DONE>
+3698: {text_start}HARTWIG: Urggh!<LINE>…<PARA>Oooarrgh!<DONE>
+3699: {text_start}Da! Jetzt hast du<LINE>dich erschreckt!<PARA>Wie?<LINE>Es hat nichts mit<PARA>#MON zu tun?<LINE>Das ist wahr!<PARA>Komm her. Lass uns<LINE>kämpfen!<DONE>
+3700: {text_start}Wa…? Huch?<LINE>Ich habe verloren?<PARA>Wie wär's damit?<LINE>Du bist des FAUST-<CONT>ORDENs würdig!<DONE>
+3701: {text_start}<PLAYER> erhält<LINE>FAUSTORDEN.<DONE>
+3702: {text_start}Durch den FAUSTOR-<LINE>DEN gehorchen dir<PARA>alle #MON<LINE>bis LV 70. Dies<PARA>gilt auch für Ge-<LINE>tauschte.<PARA>Außerdem können<LINE>deine #MON<PARA>FLIEGEN auch<LINE>außerhalb eines<CONT>Kampfes einsetzen.<PARA>Hier, nimm auch<LINE>dies!<DONE>
+3703: {text_start}Das ist WUCHT-<LINE>SCHLAG.<PARA>Er trifft zwar<LINE>nicht immer, aber<PARA>wenn er es tut,<LINE>verwirrt er den<CONT>Gegner!<DONE>
+3704: {text_start}WAHAHAH! Es hat<LINE>Spaß gemacht, ge-<CONT>gen dich zu kämp-<CONT>fen.<PARA>Aber eine Nieder-<LINE>lage bleibt eine<CONT>Niederlage!<PARA>Von jetzt an werde<LINE>ich 24 Stunden am<CONT>Tag trainieren!<DONE>
+3705: {text_start}Meine #MON und<LINE>mich verbindet un-<CONT>sere Freundschaft.<PARA>Dieses Band wird<LINE>nie zerreißen!<DONE>
+3706: {text_start}Das ist unmöglich!<DONE>
+3707: {text_start}Es scheint, als<LINE>stündest auch du<CONT>deinen #MON<CONT>sehr nahe!<DONE>
+3708: {text_start}Wir Meister der<LINE>Kampfkunst haben<CONT>vor nichts Angst!<DONE>
+3709: {text_start}Schockierend!<DONE>
+3710: {text_start}Kampf-#MON<LINE>fürchten sich vor<CONT>Psycho-Attacken…<DONE>
+3711: {text_start}Worte sind nutz-<LINE>los. Lass deine<CONT>Fäuste sprechen!<DONE>
+3712: {text_start}…<DONE>
+3713: {text_start}Ich habe verloren!<LINE>Ich bin sprachlos!<DONE>
+3714: {text_start}Gegen die Wut mei-<LINE>ner Fäuste können<CONT>deine #MON<CONT>nichts ausrichten!<DONE>
+3715: {text_start}Ich wurde zer-<LINE>schmettert!<DONE>
+3716: {text_start}Meine #MON ha-<LINE>ben verloren…<CONT>Mein Stolz ist<CONT>zerstört…<DONE>
+3717: {text_start}Hast du schon den<LINE>#MANIAC getrof-<CONT>fen?<PARA>Er gibt immer mit<LINE>seinen seltenen<CONT>#MON an.<DONE>
+3718: {text_start}Die Trainer in<LINE>der PKMN-ARENA<PARA>sind richtige<LINE>Schlägertypen.<PARA>Wenn ich dort rum-<LINE>stehe, schnappen<CONT>sie mich.<PARA>Ein Tipp: Der LEI-<LINE>TER setzt gerne<PARA>Kampf-#MON<LINE>ein.<PARA>Du solltest ihn<LINE>mit Psycho-#-<CONT>MON überraschen.<PARA>Besiege seine<LINE>#MON, bevor sie<PARA>ihre Kraft ein-<LINE>setzen können.<PARA>Und die Felsen<LINE>in der Mitte der<CONT>PKMN-ARENA?<PARA>Räume sie aus dem<LINE>Weg, denn sonst<PARA>wirst du den<LINE>ARENALEITER nie<CONT>erreichen.<PARA>Hast du dich ver-<LINE>schoben, verlasse<CONT>die PKMN-ARENA.<DONE>
+3719: {text_start}<PLAYER>! Du hast<LINE>gewonnen! Das habe<CONT>ich dir gleich an-<CONT>gesehen!<DONE>
+3720: {text_start}Überkommt dich<LINE>manchmal auch das<PARA>Verlangen, deine<LINE>#MON deinen<PARA>Freunden zeigen zu<LINE>müssen?<PARA>Ich wünschte, ich<LINE>könnte meine #-<CONT>MON meinem Kame-<CONT>raden in VIOLA<CONT>CITY zeigen.<DONE>
+3721: {text_start}<DONE>
+3722: {text_start}Ich liebe es, mit<LINE>meinen trainierten<PARA>#MON anzugeben.<LINE>Du etwa nicht?<PARA>Ich werde einige<LINE>Kämpfe bestreiten,<PARA>um mit meinen<LINE>#MON anzugeben!<DONE>
+3723: {text_start}Deinen #MON<LINE>scheint es gut zu<PARA>gehen. Bedrückt<LINE>dich etwas?<PARA>…<PARA>Dem #MON vom<LINE>LEUCHTTURM geht es<CONT>nicht gut?<PARA>Ich hab's!<PARA>Das sollte das<LINE>Problem lösen.<DONE>
+3724: {text_start}<PLAYER> erhält<LINE>GEHEIMTRANK.<DONE>
+3725: {text_start}Mein GEHEIMTRANK<LINE>ist sehr stark.<PARA>Ich biete ihn nur<LINE>in Notfällen an.<DONE>
+3726: {text_start}Deine #MON sind<LINE>großartig!<PARA>Wie wär's mit ei-<LINE>nem Foto als Sou-<CONT>venir?<DONE>
+3727: {text_start}O.K.! Und jetzt<LINE>sag: CHEESE!<DONE>
+3728: {text_start}Oh, schade. Ich<LINE>dachte, das wäre<PARA>ein schönes Anden-<LINE>ken…<DONE>
+3729: {text_start}Du kommst von<LINE>OLIVIANA CITY?<PARA>Hast du auf dem<LINE>Weg hierher die<CONT>vier Inseln ge-<CONT>sehen?<PARA>Ich habe gehört,<LINE>dass sich dort ein<CONT>mythisches Wesen<CONT>verstecken soll.<DONE>
+3730: {text_start}Man sagt auch,<LINE>dass man es nur<PARA>sehen kann, wenn<LINE>man einen SILBER-<CONT>FLÜGEL hat.<PARA>Er muss denselben<LINE>Geruch wie diese<CONT>Kreatur haben.<DONE>
+===== cianwood_signs 6615-6640 =====
+6615: {text_start}Du hast das Meer<LINE>überquert, um<PARA>hierher zu kommen?<LINE>Das war sicher<CONT>nicht einfach.<PARA>Es wäre viel ein-<LINE>facher, wenn deine<PARA>#MON FLIEGEN<LINE>einsetzen könnten…<DONE>
+6616: {text_start}Ohne den ORDEN<LINE>dieser Stadt ist<CONT>FLIEGEN nutzlos.<PARA>Wenn du den ARENA-<LINE>LEITER geschlagen<CONT>hast, besuche mich<CONT>wieder.<PARA>Ich werde dir dann<LINE>ein Geschenk über-<CONT>reichen.<DONE>
+6617: {text_start}Das ist der ORDEN<LINE>der PKMN-ARENA von<CONT>ANEMONIA CITY!<PARA>Dann soll dir<LINE>diese VM gehören.<DONE>
+6618: {text_start}Bring deinen #-<LINE>MON FLIEGEN bei.<PARA>Du kannst dann so-<LINE>fort in jede Stadt<PARA>FLIEGEN, die du<LINE>bereits besucht<CONT>hast.<DONE>
+6619: {text_start}Mein Mann hat ge-<LINE>gen dich verloren.<CONT>Also muss er här-<CONT>ter trainieren.<PARA>Das ist auch gut<LINE>so. Er hat in<CONT>letzter Zeit etwas<CONT>Speck angesetzt.<DONE>
+6620: {text_start}Setzt du FLIEGEN<LINE>ein, kannst du di-<CONT>rekt von hier aus<CONT>nach OLIVIANA CITY<CONT>reisen.<DONE>
+6621: {text_start}Die Felsen nörd-<LINE>lich der Stadt<CONT>können zerschmet-<CONT>tert werden.<PARA>Vielleicht findest<LINE>du etwas unter<CONT>ihnen.<PARA>Deine #MON<LINE>können ZERTRÜMME-<CONT>RER einsetzen, um<CONT>sie aus dem Weg zu<CONT>räumen.<DONE>
+6622: {text_start}HARTWIG, der ARE-<LINE>NALEITER steigt<PARA>gerne mit seinen<LINE>#MON in den<CONT>Ring.<DONE>
+6623: {text_start}Es gibt mehrere<LINE>Inseln zwischen<CONT>hier und OLIVIANA<CONT>CITY.<PARA>Man sagt, dass<LINE>dort ein my-<CONT>thisches Wesen<CONT>leben soll.<DONE>
+6624: {text_start}EUSIN: Yo,<LINE><PLAYER>.<PARA>War das eben nicht<LINE>SUICUNE?<PARA>Ich habe nur einen<LINE>Blick riskiert,<PARA>aber ich dachte,<LINE>ich hätte SUICUNE<PARA>auf den Wellen<LINE>rennen sehen.<PARA>SUICUNE ist schön<LINE>und fabelhaft.<PARA>Und es rennt durch<LINE>Städte und Straßen<PARA>mit wahnsinniger<LINE>Geschwindigkeit.<PARA>Es ist wundervoll…<PARA>Ich möchte SUICUNE<LINE>von nahem sehen…<PARA>Ich habe mich<LINE>entschieden.<PARA>Ich kämpfe wie ein<LINE>Trainer, um mir<PARA>SUICUNEs Respekt<LINE>zu verdienen!<PARA>Auf, <PLAYER>.<LINE>Lass uns kämpfen!<DONE>
+6625: {text_start}Ich hasse es, das<LINE>zuzugeben, aber du<CONT>hast gewonnen.<DONE>
+6626: {text_start}Du bist Wahnsinn,<LINE><PLAYER>!<PARA>Darum sind dir<LINE>#MON so<CONT>zugetan.<PARA>Jetzt weiß ich's.<PARA>Ich werde weiter<LINE>nach SUICUNE<CONT>suchen.<PARA>Ich bin sicher,<LINE>dass ich ihm eines<CONT>Tages begegne.<PARA>Man sieht sich!<DONE>
+6627: {text_start}ANEMONIA CITY<PARA>Eine Hafenstadt<LINE>Umgeben von Stür-<CONT>mischer See<DONE>
+6628: {text_start}PKMN-ARENA von<LINE>ANEMONIA CITY<PARA>LEITUNG: HARTWIG<LINE>Er spricht durch<PARA>seine Fäuste<DONE>
+6629: {text_start}500 Jahre voller<LINE>Tradition.<PARA>APOTHEKE von<LINE>ANEMONIA CITY<PARA>Gerne erwarten wir<LINE>Ihre medizinischen<CONT>Fragen<DONE>
+6630: {text_start}FOTOSTUDIO von<LINE>ANEMONIA CITY<PARA>Machen Sie einen<LINE>Schnappschuss zur<CONT>Erinnerung!<DONE>
+6631: {text_start}#-ORAKEL<LINE>VORAUS<DONE>
+6632: {text_start}Heh!<DONE>
+6633: {text_start}Weißt du, was du<LINE>gerade getan hast?<PARA>Du hast deinen<LINE>ersten Schritt in<CONT>KANTO gemacht.<PARA>Sieh auf die KARTE<LINE>in deinem #COM.<DONE>
+6634: {text_start}Du siehst sehr<LINE>stark aus. Ich<CONT>will gegen dich<CONT>kämpfen!<DONE>
+6635: {text_start}Juhu!<DONE>
+6636: {text_start}Wenn du das hier<LINE>erfolgreich über-<CONT>stehst, wirst du<PARA>die Wahrheit<LINE>erkennen!<PARA>Entschuldigung,<LINE>ich wollte nur<CONT>etwas Geistreiches<CONT>sagen.<DONE>
+6637: {text_start}Hm? Du bist gut,<LINE>nicht wahr?<DONE>
+6638: {text_start}Wie ich dachte!<DONE>
+6639: {text_start}Ein guter Trainer<LINE>erkennt andere<CONT>gute Trainer.<DONE>
+6640: {text_start}Du solltest die<LINE>wilden #MON,<PARA>die hier leben,<LINE>nicht unter-<CONT>schätzen.<DONE>
+===== rocket_pass 2588-2620 =====
+2588: {text_start}Ich… ich konnte<LINE>nichts machen…<PARA>Bitte vergib<LINE>mir, GIOVANNI…<DONE>
+2589: {text_start}Das darf mich<LINE>nicht belasten.<PARA>Ich muss es den<LINE>anderen sagen…<DONE>
+2590: {text_start}KRAMURX: Das<LINE>Passwort lautet…<PARA>PREISET GIOVANNI.<DONE>
+2591: {text_start}Ob ich das<LINE>Passwort weiß?<PARA>Vielleicht.<PARA>Schwächlinge<LINE>werden es nie<CONT>erfahren!<DONE>
+2592: {text_start}O.K. Genug.<LINE>Ich verrate es<CONT>dir.<DONE>
+2593: {text_start}Das Passwort zum<LINE>Büro vom Boss<CONT>lautet<PARA>FLEGMONRUTE.<PARA>Es ist aber<LINE>nutzlos, denn du<CONT>benötigst zwei<CONT>Passwörter.<DONE>
+2594: {text_start}Hiuck-hiuck-hiuck!<PARA>Du forderst mich<LINE>zu einem Kampf<PARA>heraus? Pah! Du<LINE>bist dumm, aber du<CONT>hast Mumm!<PARA>Das mag ich!<PARA>Falls du mich<LINE>besiegst, verrate<PARA>ich dir ein<LINE>Passwort für das<CONT>Büro vom Boss!<DONE>
+2595: {text_start}Hiuck-hiuck-hiuck!<LINE>Du bist gut!<DONE>
+2596: {text_start}Hiuck-hiuck-hiuck!<PARA>Das Passwort für<LINE>das Büro vom Boss…<PARA>Uh… ich glaube,<LINE>es lautet<CONT>RATTIKARLRUTE.<DONE>
+2597: {text_start}Früher arbeitete<LINE>ich für SILPH,<PARA>aber jetzt leite<LINE>ich TEAM ROCKETs<CONT>Forschungen.<PARA>Ein Kind wie du,<LINE>das sich überall<CONT>einmischt, muss<CONT>bestraft werden.<DONE>
+2598: {text_start}Nur wegen eines<LINE>kleinen taktischen<CONT>Fehlers…<DONE>
+2599: {text_start}Ein Radiosignal,<LINE>das #MON um den<CONT>Verstand bringt…<PARA>Mein Experiment<LINE>war ein voller<CONT>Erfolg.<PARA>Meine Beförderung<LINE>ist gewiss. Dieser<PARA>Verlust bedeutet<LINE>nichts.<DONE>
+2600: {text_start}Es ist mir egal,<LINE>dass #MON bei<CONT>unserem Experiment<CONT>Schmerzen<CONT>zugefügt werden.<DONE>
+2601: {text_start}Meine Stärke ist<LINE>das Denken, nicht<CONT>das Kämpfen.<DONE>
+2602: {text_start}Wenn wir das<LINE>Radiosignal ver-<CONT>stärken, könnte<PARA>man es im ganzen<LINE>Land empfangen…<PARA>Allein der Gedanke<LINE>entzückt mich!<DONE>
+2603: {text_start}Die Tür ist<LINE>verschlossen…<PARA>Zum Öffnen werden<LINE>zwei Passwörter<CONT>benötigt.<DONE>
+2604: {text_start}Die Tür ist<LINE>verschlossen…<PARA><PLAYER> gibt beide<LINE>Passwörter ein.<PARA>Die Tür wird<LINE>entriegelt!<DONE>
+2605: {text_start}Oh, Mist… Mein<LINE>Boss wird sauer<CONT>sein…<PARA>Das PORENTA, das<LINE>mit dem ZER-<CONT>SCHNEIDER Bäume<PARA>fällt, um nach<LINE>Holzkohle zu<PARA>suchen, ist<LINE>abgehauen.<PARA>Ich traue mich<LINE>nicht in den<CONT>STEINEICHENWALD,<CONT>um nach ihm<CONT>zu suchen.<PARA>Er ist so groß,<LINE>dunkel und<CONT>unheimlich…<DONE>
+2606: {text_start}Wow! Vielen Dank<LINE>auch!<PARA>Die #MON von<LINE>meinem Boss<CONT>gehorchen mir<CONT>nicht, da ich<CONT>keinen ORDEN<CONT>besitze.<DONE>
+2607: {text_start}Das ist das<LINE>verschollene<CONT>#MON!<DONE>
+2608: {text_start}PORENTA: Quack!<DONE>
+2609: {text_start}Ah! Mein PORENTA!<PARA>Du hast es für uns<LINE>gefunden?<PARA>Wir können ohne<LINE>es nicht den<PARA>ZERSCHNEIDER<LINE>einsetzen, mit dem<CONT>wir Bäume fällen,<CONT>um Holzkohle zu<CONT>finden.<PARA>Danke!<PARA>Wie kann ich<LINE>dir danken…<PARA>Ah genau! Nimm<LINE>dies.<DONE>
+2610: {text_start}Diese VM enthält<LINE>ZERSCHNEIDER.<PARA>Bring sie einem<LINE>#MON bei, um<CONT>kleine Sträucher<CONT>zu zerschneiden.<PARA>Du benötigst noch<LINE>den ORDEN aus der<PARA>PKMN-ARENA von<LINE>AZALEA CITY, um<CONT>sie einzusetzen.<DONE>
+2611: {text_start}Soll ich dich<LINE>lehren, wie man<PARA>ein Köhler wird?<PARA>In zehn Jahren<LINE>wirst du ein<CONT>Meister sein!<DONE>
+2612: {text_start}Was ich mache?<LINE>Ich setze<PARA>KOPFNUSS ein, um<LINE>Bäume zu<PARA>schütteln.<LINE>Das macht Spaß!<PARA>Probier es doch<LINE>auch einmal!<DONE>
+2613: {text_start}Benutze KOPFNUSS,<LINE>um Bäume zu<CONT>schütteln. Manch-<CONT>mal fallen schla-<CONT>fende #MON<CONT>herunter.<DONE>
+2614: {text_start}Ist dem Waldpatron<LINE>etwas zugestoßen?<DONE>
+2615: {text_start}Der STEINEICHEN-<LINE>WALD ist so dicht,<PARA>dass man den<LINE>Himmel nicht sehen<CONT>kann.<PARA>Halte Ausschau<LINE>nach verlorenen<CONT>Gegenständen.<DONE>
+2616: {text_start}STEINEICHENWALD-<LINE>SCHREIN…<PARA>Er wurde zu Ehren<LINE>des Waldpatrons<CONT>aufgestellt…<DONE>
+2617: {text_start}STEINEICHENWALD-<LINE>SCHREIN…<PARA>Er wurde zu Ehren<LINE>des Waldpatrons<CONT>aufgestellt…<PARA>Oh? Was ist das?<PARA>Ein Loch. Es<LINE>scheint, als ob<PARA>der GS-BALL genau<LINE>hier hinein passt.<PARA>Den GS-BALL hier<LINE>hineinlegen?<DONE>
+2618: {text_start}<PLAYER> legt den<LINE>GS-BALL hinein.<DONE>
+2619: {text_start}Wow, das war doch<LINE>schon etwas!<PARA><PLAYER>, das war<LINE>klasse. Danke!<PARA>Die Legenden um<LINE>diesen SCHREIN<CONT>waren doch wahr.<PARA>Ich fühle mich<LINE>dadurch beflügelt.<PARA>Es spornt mich an,<LINE>bessere BÄLLE zu<CONT>fertigen!<PARA>Ich gehe!<DONE>
+2620: {text_start}Schleich dich<LINE>nicht an!<PARA>Du hast ein<LINE>#MON verjagt!<DONE>
+===== route44 6535-6565 =====
+6535: {text_start}Du siehst sehr<LINE>stark aus.<PARA>Gute Trainer<LINE>suchen instinktiv<CONT>nach starken<CONT>Gegnern.<DONE>
+6536: {text_start}Nein! So geht das<LINE>auf gar keinen<CONT>Fall.<DONE>
+6537: {text_start}Mit den Kämpfen<LINE>steigen unsere<CONT>Erfahrungen und<CONT>wir werden besser.<PARA>Ich habe viele<LINE>Kämpfe ausge-<CONT>tragen, um das zu<CONT>werden, was ich<CONT>heute bin - ein<CONT>Profi.<DONE>
+6538: {text_start}ROUTE 44<LINE>EISPFAD VORAUS<DONE>
+6539: {text_start}ROUTE 44<PARA>MAHAGONIA CITY -<LINE>EBENHOLZ CITY<DONE>
+6540: {text_start}Sei auf alles<LINE>vorbereitet!<PARA>Lass mich mal<LINE>sehen, wie gut<CONT>deine #MON<CONT>trainiert sind!<DONE>
+6541: {text_start}Oh, ich habe<LINE>verloren!<DONE>
+6542: {text_start}Ich gehe zum<LINE>EISPFAD bei<PARA>EBENHOLZ CITY,<LINE>um etwas mehr<CONT>zu trainieren.<DONE>
+6543: {text_start}He! Du hast Mumm<LINE>in den Knochen!<CONT>Aber weißt du was?<PARA>Wenn es um echte<LINE>Courage geht, bin<CONT>ich der Mann!<DONE>
+6544: {text_start}Meine #MON<LINE>waren leider nicht<CONT>couragiert genug!<DONE>
+6545: {text_start}Mensch, wie ich<LINE>diese KP-PLUS<CONT>liebe! Mm, lecker!<PARA>Ich trinke immer<LINE>die von meinen<CONT>#MON!<PARA>Ich kann nichts<LINE>dagegen tun!<DONE>
+6546: {text_start}Meine #MON<LINE>sind voller<CONT>Energie!<DONE>
+6547: {text_start}Ojemine! Ich bin<LINE>der große<CONT>Verlierer!<DONE>
+6548: {text_start}Ich bin eher<LINE>langsam, was das<CONT>Denken betrifft,<CONT>weißt du?<PARA>Deswegen setze ich<LINE>alles auf Kraft.<DONE>
+6549: {text_start}Warum ich auf<LINE>Berge klettere?<PARA>Weil es sie<LINE>gibt.<PARA>Warum ich<LINE>#MON trainiere?<PARA>Weil es sie<LINE>gibt!<DONE>
+6550: {text_start}Niederlagen…<LINE>Die gibt es auch!<DONE>
+6551: {text_start}#MON zu<LINE>entdecken, war das<PARA>Beste, was mir<LINE>passieren konnte.<DONE>
+6552: {text_start}Ich weiß nicht,<LINE>wie ich gewinnen<CONT>kann!<PARA>Mach weiter!<PARA>Oh, und nimm dies<LINE>- dies ist das<PARA>Geschenk, das du<LINE>beim letzten Mal<PARA>nicht mitnehmen<LINE>konntest.<DONE>
+6553: {text_start}Ich habe hier<LINE>ganz allein<CONT>trainiert.<PARA>Sieh die Früchte<LINE>meiner Arbeit!<DONE>
+6554: {text_start}Aahh!<DONE>
+6555: {text_start}Das schreit nach<LINE>extremen<CONT>Maßnahmen.<PARA>Ich ziehe mich<LINE>zurück in die<CONT>Berge, um mich im<CONT>Alleinsein zu<CONT>üben.<DONE>
+6556: {text_start}Ich trainiere noch<LINE>ein wenig bis zur<CONT>Mittagspause.<DONE>
+6557: {text_start}Wir hatten alle<LINE>eine ausgedehnte<PARA>Mittagspause und<LINE>sind wieder fit!<PARA>Wir setzen das<LINE>Training fort!<DONE>
+6558: {text_start}Was hältst du vom<LINE>#MON-Training?<DONE>
+6559: {text_start}Du verdienst meine<LINE>ganze Hochachtung.<DONE>
+6560: {text_start}Wie ich sehe,<LINE>ziehst du deine<CONT>#MON mit<CONT>Sorgfalt auf.<PARA>Die Gemeinschaft,<LINE>die du bildest,<CONT>wird dich in<CONT>gefährlichen<CONT>Situationen<CONT>retten.<DONE>
+6561: {text_start}Welche Kampf-<LINE>technik verwendest<CONT>du?<PARA>Setze starke<LINE>Attacken nicht<CONT>völlig willkürlich<CONT>ein!<DONE>
+6562: {text_start}Gut. Dann habe ich<LINE>eben verloren.<DONE>
+6563: {text_start}Ich mag keine<LINE>übermäßig starken<CONT>Attacken.<PARA>Ich will gewinnen,<LINE>aber ich möchte<CONT>dabei keine #-<CONT>MON verletzen.<DONE>
+6564: {text_start}Ich bin wirklich<LINE>stark!<PARA>Gibt es hier<LINE>die Möglichkeit<CONT>meine Stärke zu<CONT>beweisen?<DONE>
+6565: {text_start}Ich bin wirklich<LINE>stark!<DONE>
+===== route45 6565-6600 =====
+6565: {text_start}Ich bin wirklich<LINE>stark!<DONE>
+6566: {text_start}Ich habe im DUELL-<LINE>TURM gut gekämpft…<DONE>
+6567: {text_start}Warst du schon im<LINE>DUELLTURM?<PARA>Ich verliere dort<LINE>niemals, aber…<DONE>
+6568: {text_start}ROUTE 45<LINE>BERGWEG VORAUS<DONE>
+6569: {text_start}Warst du schon<LINE>einmal nachts im<CONT>Meer?<DONE>
+6570: {text_start}Gulp…<DONE>
+6571: {text_start}Nachts wird das<LINE>Meer schwarz. Es<PARA>scheint, als<LINE>wollte es dich<CONT>verschlingen.<DONE>
+6572: {text_start}Uff, uff…<LINE>Nur… noch… ein<PARA>kleines Stück… bis<LINE>…FUCHSANIA CITY…<DONE>
+6573: {text_start}Ich ertrinke!<DONE>
+6574: {text_start}Ich… bat meine<LINE>Freundin nach<CONT>FUCHSANIA CITY…<CONT>zu schwimmen…<DONE>
+6575: {text_start}Schwächlinge<LINE>widern mich an!<DONE>
+6576: {text_start}Ich schlage dich<LINE>beim Schwimmen…<DONE>
+6577: {text_start}Es ist nur eine<LINE>kurze Distanz<PARA>zwischen FUCHSANIA<LINE>CITY und den<CONT>SEESCHAUMINSELN…<PARA>Uah, mein Freund<LINE>ist so groß und<PARA>dennoch ein<LINE>Schwächling!<DONE>
+6578: {text_start}Schwimmen? Ich bin<LINE>ein miserabler<CONT>Schwimmer.<PARA>Ich plansche<LINE>lieber in dieser<CONT>Riesenpfütze.<DONE>
+6579: {text_start}Ich dachte, ich<LINE>könnte gewinnen.<DONE>
+6580: {text_start}Schwimmen mag<LINE>nicht meine Stärke<CONT>sein, dennoch<CONT>liebe ich das<CONT>Meer.<DONE>
+6581: {text_start}Tut mir Leid.<LINE>Die Straße ist<CONT>aufgrund von Bau-<CONT>arbeiten gesperrt.<PARA>Wenn du zu der<LINE>ZINNOBERINSEL<PARA>möchtest, gehst<LINE>du von ALABASTIA<CONT>gen Süden.<DONE>
+6582: {text_start}Ich bin total<LINE>verschwitzt. Es<CONT>ist Zeit zum<CONT>Schwimmen.<DONE>
+6583: {text_start}Es würde zu lange<LINE>dauern, diesen<CONT>Felsen zu bewegen…<DONE>
+6584: {text_start}Die Bauarbeiten<LINE>sind beendet.<PARA>Jetzt kann ich<LINE>wieder angeln.<DONE>
+6585: {text_start}ROUTE 19<PARA>FUCHSANIA CITY -<LINE>SEESCHAUMINSELN<DONE>
+6586: {text_start}Sei auf der Hut,<LINE>wenn du zu den<CONT>SEESCHAUMINSELN<CONT>schwimmst.<PARA>ORDNUNGSAMT VON<LINE>FUCHSANIA CITY<DONE>
+6587: {text_start}MISTY: Aww! Warum<LINE>musst du jetzt<PARA>auftauchen und uns<LINE>stören?<PARA>Weißt du, wie<LINE>man Menschen wie<CONT>dich nennt?<PARA>Plage! Du hast<LINE>richtig gehört,<CONT>Plage!<PARA>…<PARA>…Oh? Die ORDEN,<LINE>die du hast… Sind<CONT>das ARENA-ORDEN<CONT>aus JOHTO?<PARA>Wenn du acht hast,<LINE>musst du gut sein.<PARA>O.K. Komm in die<LINE>PKMN-ARENA von<CONT>AZURIA CITY.<PARA>Ich freue mich,<LINE>gegen dich zu<CONT>kämpfen.<PARA>Ich bin MISTY, die<LINE>ARENALEITERIN von<CONT>AZURIA CITY.<DONE>
+6588: {text_start}Besiege alle sechs<LINE>Trainer und du<CONT>erhältst einen<CONT>wunderbaren Preis!<PARA>Glaubst du, du<LINE>hast das Zeug<CONT>dazu?<DONE>
+6589: {text_start}Wow! Gut gemacht.<DONE>
+6590: {text_start}Ich gab mein<LINE>Bestes. Ich habe<CONT>mir nichts<CONT>vorzuwerfen.<DONE>
+6591: {text_start}Ich bin Numero 2!<LINE>Jetzt wird es<CONT>ernst!<DONE>
+6592: {text_start}Wie konnte ich<LINE>nur verlieren?<DONE>
+6593: {text_start}Ich habe alles<LINE>gegeben. Ich kann<CONT>mir nichts<CONT>vorwerfen.<DONE>
+6594: {text_start}Ich bin Nummer 3!<LINE>Das wird nicht<CONT>leicht.<DONE>
+6595: {text_start}Oh! Vermöbelt!<DONE>
+6596: {text_start}Ich habe alles<LINE>gegeben. Ich kann<CONT>mir nichts<CONT>vorwerfen.<DONE>
+6597: {text_start}Der Vierte!<LINE>Bist du müde?<DONE>
+6598: {text_start}Auch ich habe<LINE>verloren…<DONE>
+6599: {text_start}Ich gab mein<LINE>Bestes. Ich habe<CONT>mir nichts<CONT>vorzuwerfen.<DONE>
+6600: {text_start}O.K.! Nummer 5.<LINE>Ich zermalme dich!<DONE>
+===== route46 6978-7000 =====
+6978: {text_start}Ich trainiere auch<LINE>#MON!<PARA>Trittst du gegen<LINE>mich an?<DONE>
+6979: {text_start}Oh, Mistkerle!<DONE>
+6980: {text_start}Ich war in vielen<LINE>PKMN-ARENEN, aber<PARA>die PKMN-ARENA in<LINE>DUKATIA CITY<CONT>ist am schönsten.<PARA>Dort sind wunder-<LINE>schöne Blumen!<DONE>
+6981: {text_start}Arg… Ständig<LINE>verliere ich! Ich<PARA>muss es noch<LINE>härter probieren!<PARA>Egal, danke, dass<LINE>du immer wieder<PARA>gegen mich<LINE>kämpfst. Hier ist<CONT>das Geschenk vom<CONT>letzen Mal.<DONE>
+6982: {text_start}ROUTE 46<LINE>BERGWEG VORAUS<DONE>
+6983: {text_start}He, Kurzbein! Ich<LINE>hatte gerade einen<PARA>doppelten Espresso<LINE>und ich bin<CONT>total aufgedreht!<PARA>Ich brauche jetzt<LINE>jemanden zum<CONT>Reden und zwar<CONT>dich!<PARA>Man sieht es mir<LINE>jetzt vielleicht<PARA>nicht mehr an,<LINE>aber ich war ein<CONT>Experte im Fangen<CONT>von #MON.<PARA>Glaubst du mir?<DONE>
+6984: {text_start}Also gut. Ja, ich<LINE>war wirklich etwas<PARA>Besonderes, das<LINE>kann ich dir<CONT>sagen!<DONE>
+6985: {text_start}Was? Du kleiner<LINE>Frechdachs!<PARA>Wenn ich etwas<LINE>jünger wäre, würde<PARA>ich dir schon das<LINE>eine oder andere<CONT>zeigen! Grummel.<DONE>
+6986: {text_start}Bis vor kurzem<LINE>gab es in dieser<CONT>PKMN-ARENA<CONT>keinen LEITER.<PARA>Ein junger Mann<LINE>aus ALABASTIA ist<PARA>hier der LEITER<LINE>geworden, aber er<CONT>ist oft unterwegs.<DONE>
+6987: {text_start}Wirst du den<LINE>ARENALEITER<CONT>herausfordern?<PARA>Viel Glück! Du<LINE>wirst es brauchen.<DONE>
+6988: {text_start}Gähn!<PARA>Ich bin wohl in<LINE>der Sonne<CONT>eingeschlafen.<PARA>…Ich hatte diesen<LINE>Traum von einem<PARA>TRAUMATO, das<LINE>meinen Traum<PARA>fressen wollte.<LINE>Das ist doch<PARA>merkwürdig,<LINE>nicht wahr?<PARA>Nanu!<LINE>Was ist das?<PARA>Wo ist diese TM<LINE>hergekommen?<PARA>Unheimlich!<LINE>Hier, du kannst<CONT>die TM behalten.<DONE>
+6989: {text_start}TM42 enthält<LINE>TRAUMFRESSER…<PARA>…Zzzzz…<DONE>
+6990: {text_start}Ich habe gehört,<LINE>dass man viele<PARA>Items im VERTANIA-<LINE>WALD findet.<DONE>
+6991: {text_start}VERTANIA CITY<PARA>Das Immergrüne<LINE>Paradies<DONE>
+6992: {text_start}PKMN-ARENA von<LINE>VERTANIA CITY<CONT>LEITUNG: …<PARA>Der Rest des Tex-<LINE>tes ist unlesbar…<DONE>
+6993: {text_start}Willkommen in<LINE>VERTANIA CITY,<PARA>dem Tor zum<LINE>INDIGO PLATEAU<DONE>
+6994: {text_start}TRAINER-HAUS<PARA>Der Club, in dem<LINE>Top-Trainer<CONT>kämpfen<DONE>
+6995: {text_start}Dieses QUAPPO ist<LINE>mein Partner.<PARA>Ich frage mich, ob<LINE>es sich wohl je in<CONT>ein Frosch-#MON<CONT>weiterentwickelt.<DONE>
+6996: {text_start}QUAPPO: Quaak!<DONE>
+6997: {text_start}Ich habe schon<LINE>wieder bei dem<PARA>Spielautomaten<LINE>verloren…<PARA>Wir Mädchen<LINE>spielen auch an<PARA>den Automaten.<LINE>Versuche es doch<CONT>selbst mal.<DONE>
+6998: {text_start}Hier sind vor<LINE>kurzem SLEIMA<CONT>aufgetaucht.<PARA>Siehst du den<LINE>Teich da vor dem<PARA>Haus? Dort leben<LINE>jetzt SLEIMA.<PARA>Wo kommen sie her?<LINE>Das ist ein<CONT>echtes Problem…<DONE>
+6999: {text_start}Hihihi! Diese<LINE>PKMN-ARENA ist<PARA>toll! Sie ist nur<LINE>für Mädchen!<DONE>
+7000: {text_start}Soll ich dir ein<LINE>Geheimnis<CONT>erzählen?<PARA>PRISMANIA-VILLA<LINE>hat eine geheime<CONT>Hintertür.<DONE>
+===== sandra 6180-6215 =====
+6180: {text_start}Hier ist eine<LINE>Nachricht…<PARA>Bis auf weiteres<LINE>bleibt das BÜRO<PARA>der SAFARI-ZONE<LINE>geschlossen.<DONE>
+6181: {text_start}SAFARI-ZONE<LINE>HAUS DES WÄRTERs<DONE>
+6182: {text_start}Der WÄRTER ist<LINE>verreist. Deshalb<PARA>ist die SAFARI-<LINE>ZONE<CONT>geschlossen.<DONE>
+6183: {text_start}Verunreinigung des<LINE>Parks ist<CONT>verboten.<PARA>Hinterlasse<LINE>bitte keinen<CONT>Abfall.<DONE>
+6184: {text_start}Ich bin SANDRA.<PARA>Der beste Drachen-<LINE>meister der Welt.<PARA>Ich bestehe sogar<LINE>gegen die TOP VIER<CONT>der #MON LIGA.<PARA>Willst du immer<LINE>noch gegen mich<CONT>antreten?<PARA>…Gut.<LINE>Auf geht's!<PARA>Da ich eine ARENA-<LINE>LEITERIN bin,<PARA>bringe ich mein<LINE>ganzes Können ge-<CONT>gen jeden Gegner<CONT>auf!<DONE>
+6185: {text_start}Ich habe verloren?<PARA>Ich kann es nicht<LINE>glauben. Das muss<CONT>ein Irrtum sein…<DONE>
+6186: {text_start}Ich gestehe das<LINE>nicht ein.<PARA>Ich mag verloren<LINE>haben, aber du<PARA>bist noch nicht<LINE>reif für die<CONT>#MON LIGA.<PARA>Ich weiß. Stelle<LINE>dich der Drachen-<CONT>Trainer-Heraus-<CONT>forderung.<PARA>Hinter der PKMN-<LINE>ARENA liegt die<CONT>DRACHENHÖHLE.<PARA>In deren Mitte ist<LINE>ein Schrein. Gehe<CONT>dorthin.<PARA>Falls du beweisen<LINE>kannst, dass du<PARA>deine faulen<LINE>Ideale aufgegeben<PARA>hast, werde ich<LINE>dich als einen<PARA>Trainer ansehen,<LINE>der würdig ist,<PARA>einen ORDEN<LINE>zu erhalten!<DONE>
+6187: {text_start}Was ist los?<PARA>Erwarte ich etwa<LINE>zu viel von dir?<DONE>
+6188: {text_start}Du hast mich war-<LINE>ten lassen!<PARA>Hier! Nimm dies!<DONE>
+6189: {text_start}<PLAYER> erhält<LINE>TM24.<DONE>
+6190: {text_start}Sie enthält<LINE>FEUERODEM.<PARA>Nein, das hat<LINE>nichts mit<CONT>schlechtem Atem<CONT>zu tun.<PARA>Wenn du sie nicht<LINE>willst, musst du<CONT>sie nicht nehmen.<DONE>
+6191: {text_start}Was ist das? Du<LINE>hast keinen Platz?<DONE>
+6192: {text_start}Was ist los?<PARA>Gehst du nicht zur<LINE>#MON LIGA?<PARA>Kennst du den<LINE>Weg nicht?<PARA>Gehe von hier nach<LINE>NEUBORKIA.<PARA>SURFE dann nach<LINE>Osten. Der Weg<PARA>wird dann sehr be-<LINE>schwerlich.<PARA>Wage es nicht, in<LINE>der #MON<CONT>LIGA zu verlieren!<PARA>Das würde meine<LINE>Niederlage gegen<PARA>dich noch ver-<LINE>schlimmern!<PARA>Gib dein Bestes!<DONE>
+6193: {text_start}Ist das dein ers-<LINE>ter Kampf gegen<CONT>Drachen?<PARA>Ich zeige dir, wie<LINE>stark sie sind!<DONE>
+6194: {text_start}Mein Drachen-<LINE>#MON hat<CONT>verloren?<DONE>
+6195: {text_start}SIEGFRIED sagte<LINE>dir, er möchte<PARA>dich noch einmal<LINE>sehen? Das kann<CONT>nicht sein!<DONE>
+6196: {text_start}Die Chancen, gegen<LINE>dich zu verlieren?<CONT>Nicht mal ein Pro-<CONT>zent!<DONE>
+6197: {text_start}Hm, eigenartig.<DONE>
+6198: {text_start}Ich kenne jetzt<LINE>meine Schwachstel-<CONT>len. Danke für den<CONT>Hinweis!<DONE>
+6199: {text_start}Drachen sind hei-<LINE>lige #MON.<PARA>Sie sind voller<LINE>Lebensenergie.<PARA>Wenn du es nicht<LINE>ernst meinst, dann<PARA>wirst du sie nicht<LINE>besiegen können.<DONE>
+6200: {text_start}Großartig!<DONE>
+6201: {text_start}Drachen sind<LINE>schwach gegen Dra-<CONT>chen-Attacken.<DONE>
+6202: {text_start}Yo! CHAMP in spe!<PARA>Es war eine lange<LINE>Reise, aber bald<PARA>sind wir da! Zähle<LINE>auf mich!<PARA>SANDRA setzt die<LINE>mythischen und<CONT>heiligen<CONT>Drachen-#MON<CONT>ein.<PARA>So leicht sind die<LINE>nicht zu besiegen.<PARA>Aber angeblich<LINE>sind sie anfällig<PARA>gegen Eis-<LINE>Attacken.<DONE>
+6203: {text_start}Gegen SANDRA zu<LINE>gewinnen ist eine<CONT>Meisterleistung.<PARA>Alles was dir nun<LINE>noch bevorsteht,<CONT>ist die #MON<CONT>LIGA.<PARA>Du bist auf dem<LINE>besten Weg, der<CONT>#MON-CHAMP<CONT>zu werden!<DONE>
+6204: {text_start}Es ist nicht so,<LINE>als würden wir<CONT>alle Drachen-<CONT>#MON einsetzen.<DONE>
+6205: {text_start}Mist! Wenn ich<LINE>doch nur einen<CONT>Drachen hätte!<DONE>
+6206: {text_start}Mitglieder unseres<LINE>Drachenklans<PARA>dürfen Drachen-<LINE>#MON erst<PARA>einsetzen, wenn es<LINE>unser MEISTER<CONT>erlaubt.<DONE>
+6207: {text_start}Ich kann es nicht<LINE>zulassen, dass ein<PARA>unwichtiger Trai-<LINE>ner an mir vorbei-<CONT>kommt!<PARA>SANDRA wäre außer<LINE>sich, wenn ich<CONT>dies zulasse!<DONE>
+6208: {text_start}Awww… verloren…<DONE>
+6209: {text_start}Oh-oh… SANDRA<LINE>wird durchdrehen…<DONE>
+6210: {text_start}Der Felsen fiel<LINE>hindurch!<DONE>
+6211: {text_start}Es gibt hier in<LINE>EBENHOLZ CITY<PARA>einen Trainerklan,<LINE>der Drachen nach<PARA>freien Stücken<LINE>Befehle erteilt.<PARA>Daher gibt es in<LINE>dieser Stadt so<PARA>viele Legenden<LINE>über Drachen.<DONE>
+6212: {text_start}DRATINI: Draa!<DONE>
+6213: {text_start}Du kannst TOP-BE-<LINE>LEBER zwar nicht<PARA>kaufen, aber er<LINE>füllt die KP be-<CONT>siegter #MON<PARA>wieder vollständig<LINE>auf.<PARA>Vorsicht! Die AP,<LINE>oder ANGRIFFSPUNK-<CONT>TE, werden nicht<CONT>aufgefüllt.<DONE>
+6214: {text_start}TOP-SCHUTZ hält<LINE>dir schwache #-<CONT>MON vom Leib.<PARA>Von allen SCHUTZ-<LINE>Sprays hält es am<CONT>längsten an.<DONE>
+6215: {text_start}Tief im Inneren<LINE>des fernen INDIGO<PARA>PLATEAUs befindet<LINE>sich die #MON<CONT>LIGA.<PARA>Ich hörte, die<LINE>besten Trainer des<PARA>Landes versammeln<LINE>sich dort.<DONE>
+===== blackthorn 6758-6790 =====
+6758: {text_start}PKMN-ARENA von<LINE>TEAK CITY<CONT>LEITUNG: JENS<PARA>Der mystische Se-<LINE>her der Zukunft<DONE>
+6759: {text_start}TANZTHEATER VON<LINE>TEAK CITY<DONE>
+6760: {text_start}TURMRUINE<PARA>Er wurde durch ein<LINE>mysteriöses Feuer<CONT>zerstört.<PARA>Bitte nicht betre-<LINE>ten!<DONE>
+6761: {text_start}Tut mir Leid.<PARA>SANDRA, unsere<LINE>ARENALEITERIN,<PARA>ist in die<LINE>DRACHENHÖHLE<PARA>hinter der PKMN-<LINE>ARENA gegangen.<PARA>Ich weiß nicht,<LINE>wann sie wieder-<CONT>kommt.<DONE>
+6762: {text_start}SANDRA, unsere<LINE>ARENALEITERIN,<CONT>erwartet dich.<PARA>Für einen gewöhn-<LINE>lichen Trainer<PARA>ist es jedoch un-<LINE>möglich zu siegen.<DONE>
+6763: {text_start}Du hast SANDRA<LINE>besiegt?<PARA>Wie erstaunlich!<PARA>Soweit ich weiß,<LINE>hat sie bis jetzt<PARA>nur gegen<LINE>SIEGFRIED<CONT>verloren.<DONE>
+6764: {text_start}Nein. Nur auser-<LINE>wählte Trainer<PARA>dürfen hier<LINE>trainieren.<CONT>Gehe hinfort.<DONE>
+6765: {text_start}Wenn SANDRA es dir<LINE>gestattet, dann<PARA>wird auch ihr Opa<LINE>- unser MEISTER -<CONT>zustimmen.<PARA>Tritt ein.<DONE>
+6766: {text_start}Mein Radio ist im<LINE>Eimer. Seit kurzem<CONT>empfange ich nur<CONT>dieses eigenartige<CONT>Signal.<DONE>
+6767: {text_start}Aruuu! Stimmen in<LINE>meinem Kopf!<PARA>Häh? Ich höre<LINE>Radio!<DONE>
+6768: {text_start}Willst du, dass<LINE>deine #MON ei-<CONT>nige Attacken ver-<CONT>gessen?<DONE>
+6769: {text_start}Alle Drachen-<LINE>meister kommen aus<CONT>EBENHOLZ CITY.<DONE>
+6770: {text_start}SAMSON: …<PARA>Heute ist Samstag…<PARA>Ich bin SAMSON von<LINE>Samstag…<DONE>
+6771: {text_start}Du kannst das<LINE>haben…<DONE>
+6772: {text_start}SAMSON: …<PARA>BANNSTICKER…<PARA>Geist-Attacken<LINE>werden stärker…<PARA>Es ist geradezu<LINE>beängstigend…<DONE>
+6773: {text_start}SAMSON: …<PARA>Wir sehen uns an<LINE>einem anderen<CONT>Samstag wieder…<PARA>Aber ich werde<LINE>dann keine Ge-<CONT>schenke mehr<CONT>haben…<DONE>
+6774: {text_start}SAMSON: Heute ist<LINE>nicht Samstag…<DONE>
+6775: {text_start}Wow, du bist über<LINE>den EISPFAD gekom-<CONT>men?<PARA>Du musst ein rich-<LINE>tiger Heißsporn<CONT>sein!<DONE>
+6776: {text_start}EBENHOLZ CITY<PARA>Ein ruhiger Ort in<LINE>den Bergen<DONE>
+6777: {text_start}PKMN-ARENA von<LINE>EBENHOLZ CITY<PARA>LEITUNG: SANDRA<LINE>Die gesegnete Dra-<CONT>chen-#MON-<CONT>Trainerin<DONE>
+6778: {text_start}HAUS DES ATTACKEN-<LINE>VERLERNERs<DONE>
+6779: {text_start}DRACHENHÖHLE<LINE>GERADEAUS<DONE>
+6780: {text_start}TIPPS FÜR TRAINER<PARA>Ein #MON, das<LINE>eine WUNDERBEERE<PARA>trägt, kann von<LINE>sich aus Status-<CONT>veränderungen hei-<CONT>len.<DONE>
+6781: {text_start}Ich treffe die<LINE>letzten Vorberei-<CONT>tungen für die<CONT>#MON LIGA.<DONE>
+6782: {text_start}Ich habe es<LINE>vermasselt!<DONE>
+6783: {text_start}Es ist sehr<LINE>schwer, in der<CONT>LIGA zu gewinnen.<PARA>Ich muss mehr<LINE>trainieren.<PARA>Ich habe gehört,<LINE>dass die TOP VIER<PARA>aus der LIGA noch<LINE>stärker sind als<CONT>die ARENALEITER.<DONE>
+6784: {text_start}Wenn du harte<LINE>Kämpfe bestrei-<CONT>test, wirst du<CONT>stärker.<DONE>
+6785: {text_start}Gah! Das Leben ist<LINE>noch härter!<DONE>
+6786: {text_start}Um zur #MON<LINE>LIGA zu gelangen,<PARA>musst du die<LINE>SIEGESSTRASSE<CONT>passieren.<PARA>Die SIEGESSTRASSE<LINE>ist schwierig.<PARA>Eigentlich geht<LINE>niemand dorthin!<DONE>
+6787: {text_start}Da du es bis<LINE>hierher geschafft<CONT>hast, musst du<CONT>gut sein.<PARA>Ich werde in<LINE>diesem Kampf<CONT>alles geben!<DONE>
+6788: {text_start}Nein! Ich kann<LINE>das nicht glauben!<DONE>
+6789: {text_start}Ich bezwang acht<LINE>ARENALEITER, also<PARA>hatte ich genug<LINE>Selbstbewusstsein.<PARA>Das nächste Mal<LINE>muss ich mich mehr<CONT>anstrengen.<DONE>
+6790: {text_start}Ich habe gegen<LINE>einen Trainer<CONT>namens <RIVAL><CONT>verloren.<PARA>Er war sehr<LINE>stark, aber…<PARA>Es schien, als<LINE>sei er vom Siegen<CONT>besessen.<PARA>Seine #MON<LINE>taten mir Leid.<DONE>
+===== dragon_den 5905-5940 =====
+5905: Strategie@Training@Mogeln@
+5906: Schwächling@Muskelprotz@Jeder@
+5907: Liebe@Gewalt@Wissen@
+5908: Stark@Beides@Schwach@
+5909: {text_start}Hm… Schön, dass<LINE>du da bist.<PARA>Du musst nicht er-<LINE>klären, warum du<CONT>hier bist.<PARA>SANDRA hat dich<LINE>geschickt, oder?<PARA>Sie ist ein<LINE>wirklich…<PARA>Tut mir Leid, aber<LINE>ich muss dich<CONT>prüfen.<PARA>Keine Angst, du<LINE>musst nur einige<CONT>Fragen<CONT>beantworten.<PARA>Fertig?<DONE>
+5910: {text_start}Was bedeuten dir<LINE>#MON?<DONE>
+5911: {text_start}Was hilft dir im<LINE>Kampf zu gewinnen?<DONE>
+5912: {text_start}Gegen welche Art<LINE>Trainer möchtest<CONT>du kämpfen?<DONE>
+5913: {text_start}Was ist beim<LINE>Trainieren von<CONT>#MON am<CONT>wichtigsten?<DONE>
+5914: {text_start}Starke #MON.<LINE>Schwache #MON.<PARA>Was ist wichtiger?<DONE>
+5915: {text_start}Hm… Ich verstehe…<PARA>Du kümmerst dich<LINE>von Herzen um<CONT>#MON.<PARA>Sehr löblich.<PARA>Überzeugung ist<LINE>wichtig!<PARA><PLAYER>, mach<LINE>weiter so.<PARA>Ich treffe dich<LINE>dann bei der<CONT>#MON LIGA.<DONE>
+5916: {text_start}SANDRA!<PARA>Dieses Kind ist<LINE>tadellos, in Geist<CONT>und Talent!<PARA>Gestehe deine<LINE>Niederlage und<CONT>übergib den<CONT>DRACHENORDEN!<PARA>…Oder soll ich das<LINE>SIEGFRIED<CONT>erzählen?<DONE>
+5917: {text_start}SANDRA…<PARA>Dieses Kind spie-<LINE>gelt das wider,<PARA>was dir noch<LINE>fehlt.<DONE>
+5918: {text_start}Komme wieder, wenn<LINE>du möchtest.<DONE>
+5919: {text_start}Hm… Schön, dass du<LINE>hier bist.<PARA>Du kommst zur<LINE>richtigen Zeit.<PARA>Ich habe etwas für<LINE>dich.<PARA>Nimm dieses<LINE>DRATINI als<PARA>Zeichen meiner<LINE>Wertschätzung.<DONE>
+5920: {text_start}<PLAYER> erhält<LINE>DRATINI!<DONE>
+5921: {text_start}Hm? Dein #MON-<LINE>Team ist voll.<DONE>
+5922: {text_start}Drachen-#MON<LINE>sind das Symbol<CONT>unseres Klans.<PARA>Du hast bewiesen,<LINE>dass man dir eines<PARA>anvertrauen kann.<DONE>
+5923: {text_start}SANDRA scheint<LINE>eine wertvolle<PARA>Lektion von dir<LINE>gelernt zu haben.<PARA>Ich bin ihr Groß-<LINE>vater und<CONT>danke dir dafür.<DONE>
+5924: {text_start}Ein Junge deines<LINE>Alters trainiert<CONT>hier.<PARA>Er ähnelt SANDRA,<LINE>als sie jünger<PARA>war. Es besorgt<LINE>mich ein wenig…<DONE>
+5925: {text_start}Hah? Das habe ich<LINE>nicht mitbekommen…<DONE>
+5926: {text_start}Was hast du<LINE>gesagt?<DONE>
+5927: {text_start}Oh, ich verstehe…<DONE>
+5928: {text_start}Es ist schon lange<LINE>her, seit ein<PARA>Trainer die Aner-<LINE>kennung unseres<CONT>MEISTERs bekam.<PARA>Der letzte war<LINE>Meister SIEGFRIED.<DONE>
+5929: {text_start}Kennst du den<LINE>jungen Meister<CONT>SIEGFRIED?<PARA>Er ähnelt so<LINE>unserem MEISTER in<CONT>dessen Jugend.<PARA>Es liegt ihnen im<LINE>Blut.<DONE>
+5930: {text_start}Wie ist es<LINE>gelaufen?<PARA>Ich muss nicht<LINE>danach fragen.<PARA>Du hast versagt?<PARA><……><……><……><……><……><……><PARA>…Wie? Bestanden?<DONE>
+5931: {text_start}Das kann nicht<LINE>sein!<DONE>
+5932: {text_start}Du lügst!<PARA>Sogar ich habe es<LINE>nicht geschafft!<DONE>
+5933: {text_start}I-ich verstehe…<DONE>
+5934: {text_start}Hier das ist der<LINE>DRACHENORDEN…<PARA>Jetzt nimm schon!<DONE>
+5935: {text_start}<PLAYER> erhält<LINE>den DRACHENORDEN.<DONE>
+5936: {text_start}Von nun an können<LINE>deine #MON die<PARA>Fähigkeit KASKADE<LINE>einsetzen.<PARA>Ferner werden<LINE>dich alle #MON<PARA>als Trainer<LINE>anerkennen und dir<PARA>bedingungslos<LINE>gehorchen.<DONE>
+5937: {text_start}<……><……><……><……><……><……><DONE>
+5938: {text_start}Beherrschen deine<LINE>#MON VM-<CONT>Attacken?<PARA>Diese Attacken<LINE>können auch einge-<CONT>setzt werden, wenn<PARA>dein #MON be-<LINE>siegt worden ist.<DONE>
+5939: {text_start}Dieser BILL hat<LINE>das #MON-<CONT>LAGERUNGS-SYSTEM<CONT>für PC entwickelt.<PARA>Auf BILLs PC kön-<LINE>nen bis zu 20<CONT>#MON pro BOX<CONT>gelagert werden.<DONE>
+5940: {text_start}Auf BILLs PC kön-<LINE>nen bis zu 20<PARA>#MON pro BOX<LINE>gelagert werden.<DONE>
+===== pharmacy 3685-3700 =====
+3685: {text_start}Ich… ich bin<LINE>schockiert!<PARA>Ein Junge in dei-<LINE>nem Alter mit<PARA>stechenden Augen<LINE>und langen Haaren<CONT>kam hier rein.<PARA>Er hat mich ge-<LINE>zwungen, ihm meine<CONT>preisgekrönten<CONT>#MON zu geben!<PARA>Ich habe zwar noch<LINE>eines übrig, aber<CONT>was soll ich tun,<CONT>wenn er zurück-<CONT>kommt?<PARA>Du siehst stark<LINE>aus. Würdest du<PARA>auf mein #MON<LINE>aufpassen?<DONE>
+3686: {text_start}Oh, ich danke dir!<PARA>Bitte pass gut da-<LINE>rauf auf!<DONE>
+3687: {text_start}<PLAYER> erhält ein<LINE>#MON.<DONE>
+3688: {text_start}Du hast keinen<LINE>Platz mehr in dei-<CONT>nem Team.<DONE>
+3689: {text_start}Oh nein… was soll<LINE>ich nur tun, wenn<CONT>er zurückkommt?<DONE>
+3690: {text_start}Hi! Wie geht es<LINE>meinem #MON?<PARA>Ich glaube, ich<LINE>bin jetzt sicher.<CONT>Kann ich es zu-<CONT>rück haben?<DONE>
+3691: {text_start}Danke!<DONE>
+3692: {text_start}Hey, du hast mein<LINE>#MON gar nicht<CONT>dabei!<DONE>
+3693: {text_start}Mein #MON<LINE>scheint dich zu<CONT>mögen.<PARA>Na gut, dann<LINE>sollst du es be-<CONT>halten. Aber ver-<CONT>sprich mir, es gut<CONT>zu behandeln.<DONE>
+3694: {text_start}Oh, nein, nein…<LINE>das ist so, als<CONT>würde man beraubt.<DONE>
+3695: {text_start}Für #MON ist<LINE>es das höchste<PARA>Glück, wenn sie<LINE>bei jemandem sein<PARA>dürfen, der sie<LINE>gut behandelt.<DONE>
+3696: {text_start}Wenn ich mein<LINE>#MON zurück-<CONT>nehme, wer soll<CONT>für dich kämpfen?<DONE>
+3697: {text_start}WAHAHAH!<PARA>Du hast es also<LINE>bis hierher ge-<CONT>schafft!<PARA>Lass dir gesagt<LINE>sein, dass ich ein<CONT>harter Brocken<CONT>bin.<PARA>Meine #MON<LINE>werden dich in<CONT>Grund und Boden<CONT>rammen!<PARA>Pass auf!<DONE>
+3698: {text_start}HARTWIG: Urggh!<LINE>…<PARA>Oooarrgh!<DONE>
+3699: {text_start}Da! Jetzt hast du<LINE>dich erschreckt!<PARA>Wie?<LINE>Es hat nichts mit<PARA>#MON zu tun?<LINE>Das ist wahr!<PARA>Komm her. Lass uns<LINE>kämpfen!<DONE>
+3700: {text_start}Wa…? Huch?<LINE>Ich habe verloren?<PARA>Wie wär's damit?<LINE>Du bist des FAUST-<CONT>ORDENs würdig!<DONE>

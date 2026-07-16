@@ -163,32 +163,39 @@ CianwoodGymChuckScript:
 	setevent EVENT_GOT_TM01_DYNAMICPUNCH
 	jumpthisopenedtext
 
-	text "Das ist"
-	line "WUCHT-SCHLAG."
+	; GSC-DE Dump 3703
+	text "Das ist WUCHT-"
+	line "SCHLAG."
 	para "Er trifft zwar"
 	line "nicht immer, aber"
 	para "wenn er es tut,"
 	line "verwirrt er den"
 	cont "Gegner!"
 	done
+
 GenericTrainerBlackbeltYoshi:
 	generictrainer BLACKBELT_T, YOSHI, EVENT_BEAT_BLACKBELT_YOSHI, BlackbeltYoshiSeenText, BlackbeltYoshiBeatenText
 
+	; GSC-DE Dump 3707
 	text "Es scheint, als"
 	line "stündest auch du"
-	cont "deinen #mon"
+	cont "deinen #MON"
 	cont "sehr nahe!"
 	done
+
 GenericTrainerBlackbeltLao:
 	generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
 
-	text "Kampf-#mon"
+	; GSC-DE Dump 3710
+	text "Kampf-#MON"
 	line "fürchten sich vor"
 	cont "Psycho-Attacken…"
 	done
+
 GenericTrainerBlackbeltNob:
 	generictrainer BLACKBELT_T, NOB, EVENT_BEAT_BLACKBELT_NOB, BlackbeltNobSeenText, BlackbeltNobBeatenText
 
+	; GSC-DE Dump 3713
 	text "Ich habe verloren!"
 	line "Ich bin sprachlos!"
 	done
@@ -196,11 +203,13 @@ GenericTrainerBlackbeltNob:
 GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
-	text "Meine #mon"
-	line "haben verloren…"
+	; GSC-DE Dump 3716
+	text "Meine #MON ha-"
+	line "ben verloren…"
 	cont "Mein Stolz ist"
 	cont "zerstört…"
 	done
+
 CianwoodGymStatue:
 	gettrainername CHUCK, 1, STRING_BUFFER_4
 	checkflag ENGINE_STORMBADGE
@@ -224,149 +233,157 @@ CianwoodGymMovement_ChuckChucksBoulder:
 	step_end
 
 ChuckIntroText1:
+	; GSC-DE Dump 3697
 	text "WAHAHAH!"
 	para "Du hast es also"
-	line "bis hierher"
-	cont "geschafft!"
+	line "bis hierher ge-"
+	cont "schafft!"
 	para "Lass dir gesagt"
-	line "sein: Ich bin ein"
-	cont "harter Brocken."
-	para "Meine #mon"
+	line "sein, dass ich ein"
+	cont "harter Brocken"
+	cont "bin."
+	para "Meine #MON"
 	line "werden dich in"
 	cont "Grund und Boden"
 	cont "rammen!"
 	para "Pass auf!"
 	done
+
 ChuckIntroText2:
-	text "HARTWIG: Urggh! …"
+	; GSC-DE Dump 3698
+	text "HARTWIG: Urggh!"
+	line "…"
 	para "Oooarrgh!"
 	done
+
 ChuckIntroText3:
+	; GSC-DE Dump 3699
 	text "Da! Jetzt hast du"
 	line "dich erschreckt!"
-	para "Wie? Es hat nichts"
-	line "mit #mon zu"
-	cont "tun? Das ist wahr!"
+	para "Wie?"
+	line "Es hat nichts mit"
+	para "#MON zu tun?"
+	line "Das ist wahr!"
 	para "Komm her. Lass uns"
 	line "kämpfen!"
 	done
+
 ChuckLossText:
-	text "Wa…? Huch? Ich"
-	line "habe verloren?"
+	; GSC-DE Dump 3700: FAUSTORDEN (Engine: STORMBADGE)
+	text "Wa…? Huch?"
+	line "Ich habe verloren?"
 	para "Wie wär's damit?"
-	line "Du bist des"
-	cont "STURMORDENs"
-	cont "würdig!"
+	line "Du bist des FAUST-"
+	cont "ORDENs würdig!"
 	done
+
 ChuckExplainBadgeText:
-	text "Durch den"
-	line "STURMORDEN"
-	cont "gehorchen dir alle"
-	cont "#mon bis LV 70"
-	cont "- auch getauschte."
+	; GSC-DE Dump 3702: FAUSTORDEN (Engine: STORMBADGE)
+	text "Durch den FAUSTOR-"
+	line "DEN gehorchen dir"
+	para "alle #MON"
+	line "bis LV 70. Dies"
+	para "gilt auch für Ge-"
+	line "tauschte."
 	para "Außerdem können"
-	line "deine #mon"
-	cont "FLIEGEN auch"
-	cont "außerhalb des"
-	cont "Kampfs einsetzen."
+	line "deine #MON"
+	para "FLIEGEN auch"
+	line "außerhalb eines"
+	cont "Kampfes einsetzen."
 	para "Hier, nimm auch"
 	line "dies!"
 	done
+
 ChuckAfterText:
+	; GSC-DE Dump 3704
 	text "WAHAHAH! Es hat"
-	line "Spaß gemacht,"
-	cont "gegen dich zu"
-	cont "kämpfen."
-	para "Aber eine"
-	line "Niederlage bleibt"
-	cont "eine Niederlage!"
-	para "Von jetzt an"
-	line "trainiere ich 24"
-	cont "Stunden am Tag!"
+	line "Spaß gemacht, ge-"
+	cont "gen dich zu kämp-"
+	cont "fen."
+	para "Aber eine Nieder-"
+	line "lage bleibt eine"
+	cont "Niederlage!"
+	para "Von jetzt an werde"
+	line "ich 24 Stunden am"
+	cont "Tag trainieren!"
 	done
+
 BlackbeltYoshiSeenText:
-	text "Meine #mon und"
-	line "mich verbindet"
-	cont "unsere"
-	cont "Freundschaft."
+	; GSC-DE Dump 3705
+	text "Meine #MON und"
+	line "mich verbindet un-"
+	cont "sere Freundschaft."
 	para "Dieses Band wird"
 	line "nie zerreißen!"
 	done
 
-
-
 BlackbeltYoshiBeatenText:
+	; GSC-DE Dump 3706
 	text "Das ist unmöglich!"
 	done
 
-
-
 BlackbeltLaoSeenText:
+	; GSC-DE Dump 3708
 	text "Wir Meister der"
 	line "Kampfkunst haben"
 	cont "vor nichts Angst!"
 	done
 
-
-
 BlackbeltLaoBeatenText:
+	; GSC-DE Dump 3709
 	text "Schockierend!"
 	done
 
-
-
 BlackbeltNobSeenText:
-	text "Worte sind"
-	line "nutzlos. Lass"
-	cont "deine Fäuste"
-	cont "sprechen!"
+	; GSC-DE Dump 3711
+	text "Worte sind nutz-"
+	line "los. Lass deine"
+	cont "Fäuste sprechen!"
 	done
 
-
-
 BlackbeltNobBeatenText:
+	; GSC-DE Dump 3712
 	text "…"
 	done
 
-
-
 BlackbeltLungSeenText:
-	text "Gegen die Wut"
-	line "meiner Fäuste"
-	cont "können deine"
-	cont "#mon nichts"
-	cont "ausrichten!"
+	; GSC-DE Dump 3714
+	text "Gegen die Wut mei-"
+	line "ner Fäuste können"
+	cont "deine #MON"
+	cont "nichts ausrichten!"
 	done
-
-
 
 BlackbeltLungBeatenText:
-	text "Ich wurde"
-	line "zerschmettert!"
+	; GSC-DE Dump 3715
+	text "Ich wurde zer-"
+	line "schmettert!"
 	done
 
-
-
+; PC-only (Gym-Guy sitzt im Center; Dump 3718 dort)
 CianwoodGymBlackBeltText:
 	text "Der ARENA-Guide"
 	line "hat zu viel Angst"
 	cont "vor uns, um zu"
 	cont "bleiben."
-
 	para "Was für ein"
 	line "Weichling!"
 	done
+
+; PC-only boulder/training
 CianwoodGymChuckTrainingText:
 	text "Er ist so in sein"
 	line "Training vertieft,"
 	para "dass er dich nicht"
 	line "bemerkt."
 	done
+
 CianwoodGymBoulderText:
 	text "Der Felsen"
 	line "blockiert den"
 	cont "Wasserfall."
 	done
+
 CianwoodGymChucksBoulderText:
 	text "Der Felsen ist zu"
 	line "schwer zum"

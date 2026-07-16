@@ -283,8 +283,8 @@ Text_Route46TutorQuestion:
 HikerBaileySeenText:
 	text "Also gut! Ich"
 	line "zeige dir die"
-	cont "Kraft von"
-	cont "Berg-#mon!"
+	cont "Kraft von Berg-"
+	cont "#mon!"
 	done
 
 
@@ -352,14 +352,12 @@ PicnickerErin1BeatenText:
 
 PicnickerErinAfterBattleText:
 	text "Ich war in vielen"
-	line "#mon-ARENEN,"
-	cont "aber"
-	para "die PKMN-ARENA"
-	line "in DUKATIA CITY"
+	line "PKMN-ARENEN, aber"
+	para "die PKMN-ARENA in"
+	line "DUKATIA CITY"
 	cont "ist am schönsten."
-	para "Dort sind"
-	line "wunderschöne"
-	cont "Blumen!"
+	para "Dort sind wunder-"
+	line "schöne Blumen!"
 	done
 
 
@@ -371,13 +369,10 @@ PicnickerErinAfterBattleText:
 PicnickerErin2BeatenText:
 	text "Arg… Ständig"
 	line "verliere ich! Ich"
-
 	para "muss es noch"
 	line "härter probieren!"
-
 	para "Egal, danke, dass"
 	line "du immer wieder"
-
 	para "gegen mich"
 	line "kämpfst. Hier ist"
 	cont "das Geschenk vom"
@@ -391,8 +386,8 @@ PicnickerErin2BeatenText:
 
 
 Route46SignText:
-	text "ROUTE 46 BERGWEG"
-	line "VORAUS"
+	text "ROUTE 46"
+	line "BERGWEG VORAUS"
 	done
 
 

@@ -58,61 +58,62 @@ BlackthornGym2FBoulders:
 	earthquake 80
 	jumpthistext
 
-	text "Der Felsbrocken"
-	line "ist durchgefallen!"
+	; GSC-DE Dump 6210
+	text "Der Felsen fiel"
+	line "hindurch!"
 	done
 
 GenericTrainerCooltrainermCody:
 	generictrainer COOLTRAINERM, CODY, EVENT_BEAT_COOLTRAINERM_CODY, .SeenText, .BeatenText
 
+	; GSC-DE Dump 6206
 	text "Mitglieder unseres"
 	line "Drachenklans"
-	para "dürfen"
-	line "Drachen-#mon"
-	cont "erst"
+	para "dürfen Drachen-"
+	line "#mon erst"
 	para "einsetzen, wenn es"
 	line "unser MEISTER"
 	cont "erlaubt."
 	done
 
-
 .SeenText:
+	; GSC-DE Dump 6204
 	text "Es ist nicht so,"
 	line "als würden wir"
-	cont "alle"
-	cont "Drachen-#mon"
-	cont "einsetzen."
+	cont "alle Drachen-"
+	cont "#mon einset-"
+	cont "zen."
 	done
 
-
 .BeatenText:
+	; GSC-DE Dump 6205
 	text "Mist! Wenn ich"
 	line "doch nur einen"
 	cont "Drachen hätte!"
 	done
 
-
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Oh-oh… SANDRA wird"
-	line "durchdrehen…"
+	; GSC-DE Dump 6209
+	text "Oh-oh… SANDRA"
+	line "wird durchdrehen…"
 	done
 
-
 .SeenText:
+	; GSC-DE Dump 6207
 	text "Ich kann es nicht"
 	line "zulassen, dass ein"
-	para "unwichtiger"
-	line "Trainer an mir"
+	para "unwichtiger Trai-"
+	line "ner an mir"
 	cont "vorbei-kommt!"
 	para "SANDRA wäre außer"
 	line "sich, wenn ich"
 	cont "dies zulasse!"
 	done
 
-
 .BeatenText:
+	; GSC-DE Dump 6208
 	text "Awww… verloren…"
 	done
 

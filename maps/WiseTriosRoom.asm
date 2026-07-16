@@ -75,16 +75,22 @@ TrainerElderGaku:
 
 	text "Ah, du behauptest"
 	line "also, SUICUNE,"
+
 	para "ENTEI und RAIKOU"
 	line "während sie"
-	para "schliefen gesehen"
-	line "zu haben?"
+
+	para "schliefen"
+	line "gesehen zu haben?"
+
 	para "Unglaublich!"
+
 	para "Der Legende nach"
 	line "können sie während"
+
 	para "des Schlafs nicht"
-	line "gesehen werden …"
+	line "gesehen werden…"
 	done
+
 TrainerElderMasa:
 	trainer ELDER, MASA, EVENT_BEAT_ELDER_MASA, ElderMasaSeenText, ElderMasaBeatenText, 0, .Script, TRAINERPAL_MASA
 
@@ -92,68 +98,57 @@ TrainerElderMasa:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Früher gab es hier"
-	line "zwei neunstöckige"
-	cont "Türme."
-	done
+	text "Es gab früher zwei"
+	line "8-stöckige"
+	cont "Türme hier."
 
-if DEF(FAITHFUL)
-	para "Der eine war der"
-	line "Kupferturm, der"
-else
-	para "Der eine war der"
-	line "Gongturm, der"
-endc
+	para "Den BRONZETURM,"
+	line "der die #MON"
 
-	para "#mon aus dem"
-	line "Schlaf wecken"
-	cont "sollte."
+	para "erwecken sollte,"
+	line "und den ZINNTURM,"
 
-	para "Der andere war"
-	line "Zinnturm,"
-
-	para "in dem #mon"
-	line "Ruhe fanden."
+	para "in dem die #MON"
+	line "ruhen sollten."
 
 	para "Die Aussicht von"
-	line "den Türmspitzen"
+	line "den beiden Spitzen"
 
-	para "muss großartig"
-	line "gewesen sein."
+	para "der TÜRME muss"
+	line "atemberaubend"
+	cont "gewesen sein."
 
-	para "Zu jener Zeit"
-	line "ein riesiges,"
+	para "Zu dieser Zeit"
+	line "soll sich ein"
 
-	para "silberfarbenes"
-	line "#mon auf dem"
-if DEF(FAITHFUL)
-	line "Kupferturm sein"
-else
-	line "Gongturm sein"
-endc
+	para "gigantisches, sil-"
+	line "bernes #MON auf"
 
-	para "Nest gehabt"
+	para "der Spitze des"
+	line "BRONZETURMs"
 
-	para "Doch…"
+	para "niedergelassen"
+	line "haben."
 
-	para "Vor etwa 150"
-	line "Jahren wurde"
+	para "Jedoch…"
 
-	para "einer der Türme"
-	line "vom Blitz"
-	cont "getroffen."
+	para "Vor 150 Jahren"
+	line "schlug ein Blitz"
 
-	para "Er brannte drei"
-	line "Tage lang."
+	para "in einen der"
+	line "beiden TÜRME ein."
+
+	para "Die Flammen"
+	line "wüteten für ganze"
+	cont "drei Tage."
 
 	para "Ein plötzlicher"
-	line "Regenguss löschte"
+	line "Platzregen löschte"
+	cont "das Feuer."
 
-	para "schließlich das"
-	line "Feuer."
-
-	para "So entstand die"
-	line "TURMRUINE."
+	para "Und so ist die"
+	line "TURMRUINE"
+	cont "entstanden."
 	done
 
 TrainerElderKoji:
@@ -192,167 +187,151 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Erstaunlich …"
+	text "Erstaunlich…"
+
 	para "SUICUNE, ENTEI und"
 	line "RAIKOU sind aus"
-	cont "dem Schlaf erwacht"
-	cont "…"
+	cont "dem Schlaf"
+	cont "erwacht…"
+
 	para "Wird die Legende"
 	line "wahr?"
 	done
 
-
-
-
-
-
-
-
 WiseTriosRoomSage2Text:
 	text "Wir trainieren bei"
 	line "der TURMRUINE,"
+
 	para "aber wir haben nie"
-	line "von einem Loch"
-	cont "gehört, das sich"
+	line "von einem Loch ge-"
+	cont "hört, das sich"
 	cont "dort geöffnet"
+
 	para "haben soll. Jemand"
-	line "muss das"
-	cont "absicht-lich getan"
-	cont "haben."
+	line "muss das absicht-"
+	cont "lich getan haben."
 	done
 
-
-
-
-
-
-
-
 WiseTriosRoomSage3BlocksExitText:
-	text "Zutritt zum"
-	line "ZINN-TURM haben"
-	cont "jene,"
+	text "Zutritt zum ZINN-"
+	line "TURM haben jene,"
+
 	para "die den ORDEN der"
 	line "PKMN-ARENA von"
 	cont "TEAK CITY tragen."
+
 	para "Da SUICUNE, RAIKOU"
 	line "und ENTEI jetzt"
+
 	para "aber erwacht sind,"
 	line "muss ich dich"
+
 	para "bitten, nicht"
 	line "einzutreten!"
 	done
 
-
-
-
-
-
-
-
 WiseTriosRoomSage3Text:
 	text "Wir, das TRIO der"
 	line "WEISEN, sind die"
-	para "Hüter der"
-	line "legendären"
-	cont "#mon."
+
+	para "Hüter der legen-"
+	line "dären #MON."
 	done
 
-
-
-
-
-
-
-
 ElderGakuSeenText:
-	text "Die Legende"
-	line "besagt, dass bei"
-	cont "einem"
-	para "Trainer, der die"
-	line "Seelen der #mon"
-	para "berühren kann, ein"
-	line "#mon erscheint,"
-	para "um diesen Trainer"
-	line "auf die Probe zu"
-	para "stellen am"
-	line "Zinnturm."
+	text "Die Legende be-"
+	line "sagt, dass beim"
+
+	para "Erscheinen eines"
+	line "Trainers, der die"
+
+	para "Fähigkeit besitzt,"
+	line "die Seelen der"
+
+	para "#MON zu be-"
+	line "rühren, ein #-"
+	cont "MON kommt, das ihn"
+
+	para "beim ZINNTURM auf"
+	line "die Probe stellt."
+
 	para "Die Legende ist"
-	line "wahr geworden!"
+	line "wahr!"
+
 	para "Das legendäre"
-	line "#mon SUICUNE"
-	cont "ist erschienen!"
+	line "#MON SUICUNE"
+	cont "ist gekommen!"
+
 	para "Wir, das TRIO der"
 	line "WEISEN, werden"
-	cont "prüfen, ob du"
-	para "würdig bist,"
-	line "einzutreten!"
+
+	para "prüfen, ob du"
+	line "würdig bist,"
+	cont "einzutreten!"
 	done
 
 ElderGakuBeatenText:
 	text "Stärker als wir"
-	line "dachten? Wer weiß"
-	cont "…"
+	line "dachten? Wer weiß…"
 	done
+
 ElderMasaSeenText:
 	text "Kann man dir die"
 	line "Wahrheit"
 	cont "anvertrauen?"
+
 	para "Ich muss prüfen,"
 	line "ob du würdig bist."
 	done
+
 ElderMasaBeatenText:
-	text "…Ich sage dir die"
-	line "Wahrheit…"
+	text "…Ich sage dir"
+	line "die Wahrheit…"
 	done
+
 ElderKojiSeenText:
 	text "Beweise mir deine"
 	line "Kraft!"
 	done
+
 ElderKojiBeatenText:
-	text "Zu stark! Warum?"
+	text "Zu stark!"
+	line "Warum?"
 	done
+
 SageKojiAfterBattleQuestionText:
 	text "Du… bist du der"
 	line "Trainer, der von"
 
 	para "dem legendären"
-	line "#mon erwartet"
+	line "#MON erwartet"
 	cont "wird?"
 	done
 
-
-
-
-
-
-
-
 SageKojiAfterBattleSpeechText:
-	text "Ich verstehe …"
+	text "Ich verstehe…"
+
 	para "Wir, das TRIO der"
-	line "WEISEN, sind"
-	cont "verantwortlich für"
+	line "WEISEN, sind ver-"
+	cont "antwortlich für"
 	cont "den Schutz der"
-	para "legendären #mon"
-	line "Wir gestatten"
+
+	para "legendären #-"
+	line "MON. Wir gestatten"
+
 	para "nur jenen Zutritt,"
 	line "die eine reine"
+
 	para "Seele und wahre"
 	line "Kraft besitzen."
+
 	para "Schreite voran und"
 	line "betritt den"
 	cont "ZINNTURM."
+
 	para "SUICUNE wird dich"
 	line "prüfen."
 	done
-
-
-
-
-
-
-
 
 SageKojiAfterBattleFinalText:
 	text "Schreite voran!"
@@ -360,11 +339,3 @@ SageKojiAfterBattleFinalText:
 	para "SUICUNE wird dich"
 	line "prüfen."
 	done
-
-
-
-
-
-
-
-

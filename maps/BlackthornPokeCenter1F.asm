@@ -115,25 +115,33 @@ ProfOaksAide4Script:
 	done
 
 BlackthornPokeCenter1FGentlemanText:
-	text "Tief im fernen"
-	line "Indigo-Plateau"
-	cont "liegt die #mon-"
-	para "Liga."
+	; GSC-DE Dump 6215
+	text "Tief im Inneren"
+	line "des fernen INDIGO"
+
+	para "PLATEAUs befindet"
+	line "sich die #MON"
+	cont "LIGA."
+
 	para "Ich hörte, die"
-	line "besten Trainer aus"
-	cont "dem ganzen Land"
-	para "versammeln sich"
-	line "dort."
+	line "besten Trainer des"
+
+	para "Landes versammeln"
+	line "sich dort."
 	done
 
 BlackthornPokeCenter1FTwinText:
-	text "Da gab's diese"
-	line "Attacke, die mein"
-	cont "#mon unbedingt"
-	para "lernen musste."
-	para "Also ließ ich vom"
-	line "Attacken-Verlerner"
-	cont "eine"
-	para "VM-Attacke"
-	line "vergessen."
+	; GSC-DE Dump 6216
+	text "Es gibt da eine"
+	line "Attacke, die ich"
+
+	para "unbedingt meinen"
+	line "#MON beibrin-"
+	cont "gen musste."
+
+	para "Also ging ich zum"
+	line "ATTACKEN-VERLER-"
+	cont "NER, um eine VM-"
+	cont "Attacke vergessen"
+	cont "zu lassen."
 	done

@@ -320,9 +320,9 @@ GenericTrainerHikerErik:
 
 	text "Ich gehe zum"
 	line "EISPFAD bei"
-	para "EBENHOLZ CITY, um"
-	line "etwas mehr zu"
-	cont "trainieren."
+	para "EBENHOLZ CITY,"
+	line "um etwas mehr"
+	cont "zu trainieren."
 	done
 
 GenericTrainerHikerMichael:
@@ -457,7 +457,8 @@ GenericTrainerCooltrainerfKelly:
 	para "Ich will gewinnen,"
 	line "aber ich möchte"
 	cont "dabei keine"
-	cont "#mon verletzen."
+	cont "#mon ver-"
+	cont "letzen."
 	done
 
 GenericTrainerCamperQuentin:
@@ -465,7 +466,6 @@ GenericTrainerCamperQuentin:
 
 	text "Warst du schon im"
 	line "DUELLTURM?"
-
 	para "Ich verliere dort"
 	line "niemals, aber…"
 	done
@@ -483,7 +483,6 @@ BattleGirlNozomiBeatenText:
 HikerErikSeenText:
 	text "Sei auf alles"
 	line "vorbereitet!"
-
 	para "Lass mich mal"
 	line "sehen, wie gut"
 	cont "deine #mon"
@@ -535,9 +534,11 @@ HikerMichaelBeatenText:
 
 
 HikerParry1SeenText:
-	text "Meine #mon sind"
-	line "voller Energie!"
+	text "Meine #mon"
+	line "sind voller"
+	cont "Energie!"
 	done
+
 HikerParry1BeatenText:
 	text "Ojemine! Ich bin"
 	line "der große"
@@ -561,10 +562,12 @@ HikerParryAfterBattleText:
 HikerTimothySeenText:
 	text "Warum ich auf"
 	line "Berge klettere?"
-	para "Weil es sie gibt."
-	para "Warum ich #mon"
-	line "trainiere?"
-	para "Weil es sie gibt!"
+	para "Weil es sie"
+	line "gibt."
+	para "Warum ich"
+	line "#mon trainiere?"
+	para "Weil es sie"
+	line "gibt!"
 	done
 
 
@@ -574,8 +577,8 @@ HikerTimothySeenText:
 
 
 HikerTimothyBeatenText:
-	text "Niederlagen… Die"
-	line "gibt es auch!"
+	text "Niederlagen…"
+	line "Die gibt es auch!"
 	done
 
 
@@ -588,15 +591,11 @@ HikerParryGivesIronText:
 	text "Ich weiß nicht,"
 	line "wie ich gewinnen"
 	cont "kann!"
-
 	para "Mach weiter!"
-
 	para "Oh, und nimm dies"
 	line "- dies ist das"
-
 	para "Geschenk, das du"
 	line "beim letzten Mal"
-
 	para "nicht mitnehmen"
 	line "konntest."
 	done
@@ -608,19 +607,21 @@ HikerParryGivesIronText:
 
 
 BlackbeltKenji1SeenText:
-	text "Ich habe hier ganz"
-	line "allein trainiert."
+	text "Ich habe hier"
+	line "ganz allein"
+	cont "trainiert."
 	para "Sieh die Früchte"
 	line "meiner Arbeit!"
 	done
+
 BlackbeltKenji1BeatenText:
 	text "Aahh!"
 	done
+
 BlackbeltKenjiAfterBattleText:
 	text "Das schreit nach"
 	line "extremen"
 	cont "Maßnahmen."
-
 	para "Ich ziehe mich"
 	line "zurück in die"
 	cont "Berge, um mich im"
@@ -657,9 +658,9 @@ CooltrainermRyanBeatenText:
 
 
 CooltrainerfKellySeenText:
-	text "Welche"
-	line "Kampftechnik"
-	cont "verwendest du?"
+	text "Welche Kampf-"
+	line "technik verwendest"
+	cont "du?"
 	para "Setze starke"
 	line "Attacken nicht"
 	cont "völlig willkürlich"
@@ -686,6 +687,10 @@ CooltrainerfKellyBeatenText:
 CamperQuentinSeenText:
 	text "Ich bin wirklich"
 	line "stark!"
+	para "Gibt es hier"
+	line "die Möglichkeit"
+	cont "meine Stärke zu"
+	cont "beweisen?"
 	done
 
 
@@ -695,9 +700,8 @@ CamperQuentinSeenText:
 
 
 CamperQuentinBeatenText:
-	text "Ich habe im"
-	line "DUELL-TURM gut"
-	cont "gekämpft …"
+	text "Ich habe im DUELL-"
+	line "TURM gut gekämpft…"
 	done
 
 
@@ -707,8 +711,8 @@ CamperQuentinBeatenText:
 
 
 Route45SignText:
-	text "ROUTE 45 BERGWEG"
-	line "VORAUS"
+	text "ROUTE 45"
+	line "BERGWEG VORAUS"
 	done
 
 

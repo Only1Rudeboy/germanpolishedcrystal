@@ -32,23 +32,22 @@ CianwoodHouseBlackBeltScript:
 	jumpopenedtext CianwoodHouseBlackBeltText2
 
 CianwoodHouseBlackBeltText1:
+	; PC
 	text "Ich ging in die"
 	line "ARENA in dieser"
 	cont "Weste,"
-
 	para "aber man hat mich"
 	line "ausgelacht und"
 	cont "rausgeworfen!"
-
 	para "Ich kann sie dort"
 	line "nicht mehr"
 	cont "tragen--"
-
 	para "du kannst sie"
 	line "haben."
 	done
 
 CianwoodHouseBlackBeltText2:
+	; PC
 	text "Gut. Ich werde"
 	line "hart trainieren"
 	para "und mir einen"
@@ -57,34 +56,33 @@ CianwoodHouseBlackBeltText2:
 	done
 
 CianwoodLugiaSpeechHouseTeacherText:
+	; GSC-DE Dump
 	text "Du kommst von"
 	line "OLIVIANA CITY?"
 	para "Hast du auf dem"
 	line "Weg hierher die"
-	cont "vier Inseln"
-	cont "gesehen?"
+	cont "vier Inseln ge-"
+	cont "sehen?"
 	para "Ich habe gehört,"
 	line "dass sich dort ein"
 	cont "mythisches Wesen"
 	cont "verstecken soll."
 	done
 
-
-
 CianwoodLugiaSpeechHouseLassText:
+	; GSC-DE Dump
 	text "Man sagt auch,"
 	line "dass man es nur"
 	para "sehen kann, wenn"
-	line "man einen"
-	cont "SILBER-FLÜGEL hat."
+	line "man einen SILBER-"
+	cont "FLÜGEL hat."
 	para "Er muss denselben"
 	line "Geruch wie diese"
 	cont "Kreatur haben."
 	done
 
-
-
 CianwoodLugiaSpeechHouseTwinText:
+	; PC
 	text "Ich hörte, dass"
 	line "die Strudel um die"
 	para "Inseln von der"

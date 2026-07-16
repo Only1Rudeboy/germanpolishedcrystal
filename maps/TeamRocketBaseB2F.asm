@@ -215,13 +215,16 @@ GenericTrainerGruntM18:
 	line "Mission wurde auch"
 	cont "von einem Kind"
 	cont "vereitelt."
-	para "Als wir #mon"
+
+	para "Als wir #MON"
 	line "entführten,"
+
 	para "tauchte ein Kind"
 	line "mit roten Haaren"
+
 	para "und fiesem Blick"
-	line "auf und hat mich"
-	cont "vermöbelt …"
+	line "auf und hat"
+	cont "mich vermöbelt…"
 	done
 
 GenericTrainerGruntM19:
@@ -230,9 +233,10 @@ GenericTrainerGruntM19:
 	text "Heh, nur der Boss"
 	line "kennt das Passwort"
 	cont "für diese Tür."
-	para "Wo er ist? Wer"
-	line "weiß? Schau doch"
-	cont "selbst nach."
+
+	para "Wo er ist?"
+	line "Wer weiß? Schau"
+	cont "doch selbst nach."
 	done
 
 RocketElectrode1:
@@ -349,23 +353,23 @@ TeamRocketBaseB2FTransmitterScript:
 	iftrue_jumptext .DeactivateTransmitterText
 	jumpthistext
 
-	text "Das ist der"
-	line "Radiotransmitter,"
-	cont "der"
-	para "das unheimliche"
-	line "Signal aussendet."
-	para "Er arbeitet mit"
-	line "voller Kraft."
+	text "Der Radiotrans-"
+	line "mitter sendet das"
+
+	para "unheimliche"
+	line "Signal aus."
+
+	para "Er läuft auf"
+	line "vollen Touren."
 	done
-
-
 
 .DeactivateTransmitterText:
 	text "Endlich wurde der"
-	line "unheimliche"
-	cont "Radiotransmitter"
+	line "unheimliche Radio-"
+	cont "transmitter"
 	cont "abgeschaltet."
 	done
+
 RocketBaseLanceLeavesAfterHealMovement:
 	step_right
 RocketBaseLanceLeavesAfterHealRightMovement:
@@ -549,88 +553,157 @@ RocketBasePlayerLeavesElectrodesMovement3:
 	step_end
 
 RocketBaseExecutiveFHoldItText:
-	text "Halt! Nicht so"
-	line "schnell!"
+	text "Bleib stehen, wo"
+	line "du bist!"
 	done
+
 RocketBaseBossFThrashText:
-	text "Wir können dich"
-	line "nicht weiter"
-	cont "gewähren lassen!"
-	para "Du und SIEGFRIED"
-	line "-ihr zahlt dafür,"
-	cont "uns in die Quere"
-	cont "zu kommen!"
+	text "Wir können es"
+	line "nicht zulassen,"
+	cont "dass ein Balg"
+	cont "hier herumläuft."
+
+	para "Das schadet"
+	line "TEAM ROCKETs"
+	cont "Stolz."
+
+	para "Wie stark du auch"
+	line "bist, du kannst"
+
+	para "es nicht mit uns"
+	line "beiden aufnehmen."
+
+	para "Tut uns Leid,"
+	line "Winzling! Jetzt"
+	cont "wirst du zermalmt."
 	done
+
 RocketBaseLanceShareFunText:
-	text "SIEGFRIED: Heh."
-	line "Zwei gegen einen?"
-	cont "Das nenne ich"
-	cont "feige."
-	para "Aber gut - teilen"
-	line "wir uns den Spaß,"
-	cont "<PLAYER>!"
+	text "Heh! Sei nicht so"
+	line "egoistisch."
+	cont "Teile den Spaß."
 	done
+
 RocketBaseBossDontMeddleText:
-	text "Wie könnt ihr"
-	line "wagen, euch in die"
-	cont "Pläne von TEAM"
-	cont "ROCKET"
-	cont "einzumischen?"
-	para "Wir werden euch"
-	line "zeigen, was es"
-	cont "bedeutet, uns zu"
-	cont "stören!"
+	text "Wie? Du hattest"
+	line "einen Komplizen?"
+
+	para "Wo ist dein"
+	line "Ehrgefühl?"
+
+	para "Ich, GIOVANNIs"
+	line "Stellvertreter,"
+
+	para "werde dir zeigen,"
+	line "was es bedeutet,"
+
+	para "sich mit TEAM"
+	line "ROCKET anzulegen!"
 	done
+
 RocketBaseBossWinText:
-	text "Unmöglich… Wie"
-	line "konnten wir"
-	cont "verlieren?"
+	text "Ts, du bist"
+	line "wirklich gut."
+
+	para "So ein Mist."
+
+	para "Wenn du bei TEAM"
+	line "ROCKET einsteigen"
+
+	para "würdest, wärest"
+	line "du sofort im"
+	cont "VORSTAND."
 	done
+
 RocketBaseBossRetreatText:
-	text "Argh… TEAM ROCKET"
-	line "zieht sich zurück!"
-	para "Aber das ist noch"
-	line "nicht das Ende!"
+	text "…Dieses Versteck"
+	line "ist gesäubert…"
+
+	para "Das ist gut. Das"
+	line "Sende-Experiment"
+	cont "war ein voller"
+	cont "Erfolg."
+
+	para "Es ist egal,"
+	line "was aus dem"
+	cont "Versteck wird."
+
+	para "Wir haben höhere"
+	line "Ziele."
+
+	para "Schon bald wirst"
+	line "du die wahre Macht"
+
+	para "von TEAM ROCKET"
+	line "würdigen."
+
+	para "Amüsiere dich,"
+	line "so lange du noch"
+	cont "kannst…"
+
+	para "Fufufufu…"
 	done
+
 RocketBaseLancePostBattleText:
-	text "SIEGFRIED: Wir"
-	line "haben es"
-	cont "geschafft!"
-	para "TEAM ROCKET ist"
-	line "hier erledigt."
+	text "SIEGFRIED: Genug!"
+	line "Wir haben hier"
+
+	para "alle Anhänger von"
+	line "TEAM ROCKET"
+	cont "besiegt."
+
+	para "Aber der Junge,"
+	line "auf den ich traf,"
+
+	para "macht mir wirklich"
+	line "Sorgen…"
 	done
+
 RocketBaseLancePowerOffText:
-	text "SIEGFRIED: Jetzt"
-	line "schalten wir die"
-	cont "Maschine ab, die"
-	cont "die #mon"
-	cont "verrückt macht."
-	para "Hilf mir, die"
-	line "LECTROBOLDs zu"
-	cont "besiegen!"
+	text "Sorry, <PLAYER>."
+	line "Ich habe beobach-"
+	cont "tet, wie geschickt"
+	cont "du bist. Daher"
+	cont "habe ich mich"
+	cont "zurückgehalten."
+
+	para "Jetzt müssen wir"
+	line "nur noch dieses"
+
+	para "merkwürdige Signal"
+	line "abschalten."
 	done
+
 RockerBaseLanceElectrodeFaintText:
-	text "Diese Maschine ist"
-	line "die Wurzel allen"
-	cont "Übels."
+	text "Diese Maschine"
+	line "ist die Wurzel"
+	cont "allen Übels."
+
 	para "Ich sehe leider"
 	line "keinen Schalter…"
+
 	para "Uns bleibt keine"
 	line "andere Wahl. Wir"
+
 	para "müssen alle"
 	line "LEKTROBAL"
 	cont "besiegen."
+
 	para "Das sollte"
 	line "genügen, um die"
+
 	para "Maschine"
 	line "abzuschalten."
-	para "Die #mon trifft"
+
+	para "Die #MON trifft"
 	line "keine Schuld,"
+
 	para "daher fühle ich"
 	line "mich schuldig."
-	para "<PLAYER>, wir"
-	line "sollten uns besser"
-	cont "trennen."
+
+	para "<PLAYER>,"
+	line "wir sollten uns"
+	cont "besser trennen."
 	done
 
 
@@ -650,78 +723,168 @@ RocketBaseLancesSideText:
 
 
 RocketBaseLanceElectrodeDoneText:
-	text "SIEGFRIED: Gut"
-	line "gemacht!"
-	para "Damit sollte die"
-	line "Störung enden."
+	text "SIEGFRIED: Das"
+	line "merkwürdige Signal"
+	cont "ist verschwunden."
+
+	para "Der SEE sollte"
+	line "sich wieder"
+	cont "normalisiert"
+	cont "haben."
+
+	para "Du bist ein Held!"
+	line "Ich möchte dir im"
+
+	para "Namen aller"
+	line "#MON danken."
+
+	para "Ja. Du solltest"
+	line "das annehmen."
+
+	para "Ich habe es hier"
+	line "gefunden, kann es"
+	cont "aber nicht"
+	cont "gebrauchen."
 	done
-RocketBaseReceivedHM06Text: ; unreferenced
+
+RocketBaseReceivedHM06Text:
 	text "<PLAYER> erhält"
 	line "VM06."
 	done
 
-
-
-
-
-
 RocketBaseLanceWhirlpoolText:
-	text "SIEGFRIED: Nimm"
-	line "das - die VM"
-	cont "WHIRLPOOL."
-	para "Damit kommst du"
-	line "durch Strudel im"
-	cont "Wasser."
+	text "Das ist WHIRLPOOL."
+	line "Gib dies einem"
+
+	para "#MON, um"
+	line "reißende Strudel"
+	cont "zu durchqueren."
+
+	para "Aber vergiss"
+	line "nicht:"
+
+	para "Du benötigst den"
+	line "ORDEN der PKMN-"
+	cont "ARENA in MAHAGONIA"
+
+	para "CITY, um die VM"
+	line "außerhalb eines"
+
+	para "Kampfes"
+	line "einzusetzen."
 	done
+
 RocketBaseLanceMonMasterText:
-	text "SIEGFRIED: Ein"
-	line "#mon-Meister"
-	cont "muss stark und"
-	cont "gütig sein."
-	para "Du hast das Zeug"
-	line "dazu. Wir sehen"
-	cont "uns wieder!"
+	text "<PLAYER>…"
+
+	para "Es ist ein langer"
+	line "und steiniger Weg"
+
+	para "bis zum"
+	line "#MON-MEISTER."
+
+	para "Bist du bereit,"
+	line "diesen Weg"
+	cont "zu beschreiten?"
+
+	para "…"
+
+	para "Ich verstehe. Du"
+	line "hast Recht."
+
+	para "Wenn du die Flinte"
+	line "so schnell ins"
+
+	para "Korn wirfst,"
+	line "hattest du nie"
+
+	para "vor, diesen Traum"
+	line "zu verwirklichen."
+
+	para "Ich freue mich"
+	line "darauf, dich"
+	cont "wieder zu sehen!"
 	done
+
 LanceHealsText1:
-	text "SIEGFRIED: Deine"
-	line "#mon sehen müde"
-	cont "aus."
-	para "Hier, lass mich"
-	line "sie heilen."
+	text "SIEGFRIED: Bist du"
+	line "in Ordnung?"
+
+	para "Deine #MON sind"
+	line "müde und verletzt."
+
+	para "Gib ihnen"
+	line "ein wenig von"
+	cont "meiner Medizin."
 	done
+
 LanceHealsText2:
-	text "SIEGFRIED: So."
-	line "Deine #mon sind"
-	cont "wieder topfit."
+	text "SIEGFRIED:"
+	line "<PLAYER>,"
+
+	para "lass uns für die"
+	line "#MON unser"
+
+	para "Bestes geben."
 	done
+
 GruntM17SeenText:
-	text "Was? Ein Kind?"
-	line "Verschwinde aus"
-	cont "unserem VERSTECK!"
+	text "Die Türe öffnet"
+	line "sich nicht?"
+
+	para "Nun, oh."
+	line "Sie ist passwort-"
+	cont "geschützt. Nur"
+
+	para "TEAM ROCKET hat"
+	line "Zugriff."
 	done
+
 GruntM17BeatenText:
-	text "Uff… zu stark…"
+	text "Was? Ich habe"
+	line "verloren?"
 	done
+
 GruntM18SeenText:
-	text "Heh, heh, heh! Du"
-	line "bist in der Falle!"
+	text "Oh, ein Kind? Ich"
+	line "mag das zwar"
+
+	para "nicht, aber ich"
+	line "muss dich aus-"
+	cont "schalten."
 	done
+
 GruntM18BeatenText:
-	text "Arrgh!"
+	text "Ich wusste, ich"
+	line "würde verlieren…"
 	done
+
 GruntM19SeenText:
-	text "Du kommst an mir"
-	line "nicht vorbei!"
+	text "Du miese, kleine"
+	line "Ratte!"
 	done
+
 GruntM19BeatenText:
-	text "Unmöglich!"
+	text "Grrrr…"
 	done
+
 RocketBaseDoorNoPasswordText:
 	text "Die Tür ist"
 	line "verschlossen…"
-	para "Sie braucht ein"
-	line "Passwort."
+
+	para "Sie lässt sich nur"
+	line "mit einem Passwort"
+	cont "öffnen."
 	done
+
 RocketBaseDoorKnowPasswordText:
-	text "Die Tür ist offen."
+	text "Die Tür ist"
+	line "verschlossen…"
+
+	para "<PLAYER> gibt das"
+	line "Passwort ein."
+
+	para "Die Tür ist"
+	line "entriegelt!"
 	done
+

@@ -56,37 +56,47 @@ BlackthornCitySantosCallback:
 	endcallback
 
 BlackthornCitySignText:
+	; GSC-DE Dump 6776
 	text "EBENHOLZ CITY"
-	para "Ein ruhiger Ort"
-	line "in den Bergen"
+
+	para "Ein ruhiger Ort in"
+	line "den Bergen"
 	done
+
 BlackthornGymSignText:
+	; GSC-DE Dump 6777
 	text "PKMN-ARENA von"
 	line "EBENHOLZ CITY"
-	cont "LEITUNG: SANDRA"
-	para "Die gesegnete Dra-"
-	line "chen-#mon-"
+
+	para "LEITUNG: SANDRA"
+	line "Die gesegnete Dra-"
+	cont "chen-#MON-"
 	cont "Trainerin"
 	done
+
 MoveDeletersHouseSignText:
-	text "ATTACKEN-VERLERNER"
-	para "Die"
-	line "#mon-Attacken-"
-	cont "Klinik"
+	; GSC-DE Dump 6778
+	text "HAUS DES ATTACKEN-"
+	line "VERLERNERs"
 	done
+
 DragonDensSignText:
+	; GSC-DE Dump 6779
 	text "DRACHENHÖHLE"
-	para "Vorsicht -Drachen-"
-	line "Territorium!"
+	line "GERADEAUS"
 	done
+
 BlackthornCityTrainerTipsText:
+	; GSC-DE Dump 6780
 	text "TIPPS FÜR TRAINER"
-	para "Ein #mon, das"
+
+	para "Ein #MON, das"
 	line "eine WUNDERBEERE"
+
 	para "trägt, kann von"
-	line "sich aus"
-	cont "Statusveränderung-"
-	cont "en heilen."
+	line "sich aus Status-"
+	cont "veränderungen hei-"
+	cont "len."
 	done
 
 
@@ -110,44 +120,54 @@ SantosScript:
 	setevent EVENT_GOT_SPELL_TAG_FROM_SANTOS
 	jumpthisopenedtext
 
-	text "Santos: …"
+	; GSC-DE Dump 6772
+	text "SAMSON: …"
 
-	para "Bannsticker…"
+	para "BANNSTICKER…"
 
-	para "Geister-Attacken"
+	para "Geist-Attacken"
 	line "werden stärker…"
 
-	para "Er wird dich"
-	line "erschrecken…"
+	para "Es ist geradezu"
+	line "beängstigend…"
 	done
 
 .NotSaturday:
 	jumpthistextfaceplayer
 
-	text "Santos: Heute ist"
+	; GSC-DE Dump 6774
+	text "SAMSON: Heute ist"
 	line "nicht Samstag…"
 	done
 
 .MeetText:
-	text "Santos: …"
-	para "Es ist Samstag …"
-	para "Ich bin Santos vom"
-	line "Samstag …"
+	; GSC-DE Dump 6770
+	text "SAMSON: …"
+
+	para "Heute ist Samstag…"
+
+	para "Ich bin SAMSON von"
+	line "Samstag…"
 	done
 
 .GivesGiftText:
-	text "Das kannst du"
+	; GSC-DE Dump 6771
+	text "Du kannst das"
 	line "haben…"
 	done
 
 .SaturdayText:
-	text "Santos: …"
+	; GSC-DE Dump 6773
+	text "SAMSON: …"
 
-	para "Bis zum nächsten"
-	line "Samstag…"
+	para "Wir sehen uns an"
+	line "einem anderen"
+	cont "Samstag wieder…"
 
-	para "Ich hab keine"
-	line "Geschenke mehr…"
+	para "Aber ich werde"
+	line "dann keine Ge-"
+	cont "schenke mehr"
+	cont "haben…"
 	done
 
 BlackthornDragonTamer1Script:
@@ -157,47 +177,49 @@ BlackthornDragonTamer1Script:
 	iftrue_jumptextfaceplayer .ClairIsInText
 	jumpthistextfaceplayer
 
-	text "Es tut mir leid."
+	; GSC-DE Dump 6761
+	text "Tut mir Leid."
 
 	para "SANDRA, unsere"
-	line "Arenaleiterin,"
-	cont "betrat die"
+	line "ARENALEITERIN,"
 
-	para "Drachenhöhle"
-	line "hinter der Arena."
+	para "ist in die"
+	line "DRACHENHÖHLE"
+
+	para "hinter der PKMN-"
+	line "ARENA gegangen."
 
 	para "Ich weiß nicht,"
-	line "wann unsere"
-	cont "Leiterin"
-
-	para "zurückkommt."
+	line "wann sie wieder-"
+	cont "kommt."
 	done
 
 .ClairIsInText:
+	; GSC-DE Dump 6762
 	text "SANDRA, unsere"
-	line "Arenaleiterin,"
-	cont "wartet auf dich."
+	line "ARENALEITERIN,"
+	cont "erwartet dich."
 
-	para "Doch für einen"
-	line "gewöhnlichen"
-	cont "Trainer wäre ein"
+	para "Für einen gewöhn-"
+	line "lichen Trainer"
 
-	para "Sieg unmöglich."
+	para "ist es jedoch un-"
+	line "möglich zu siegen."
 	done
 
 .ClairIsBeatenText:
+	; GSC-DE Dump 6763
 	text "Du hast SANDRA"
 	line "besiegt?"
 
-	para "Das ist"
-	line "erstaunlich!"
+	para "Wie erstaunlich!"
 
-	para "Ich hörte noch"
-	line "nie, dass sie"
-	cont "außer gegen ihren"
+	para "Soweit ich weiß,"
+	line "hat sie bis jetzt"
 
-	para "Cousin SIEGFRIED"
-	line "verlor."
+	para "nur gegen"
+	line "SIEGFRIED"
+	cont "verloren."
 	done
 
 BlackthornBlackbeltScript:
@@ -205,87 +227,96 @@ BlackthornBlackbeltScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Ist mein Radio"
-	line "kaputt? Ich"
-	cont "empfange nur noch"
-
-	para "dieses komische"
-	line "Signal."
+	; GSC-DE Dump 6766
+	text "Mein Radio ist im"
+	line "Eimer. Seit kurzem"
+	cont "empfange ich nur"
+	cont "dieses eigenartige"
+	cont "Signal."
 	done
 
 .Text2:
-	text "Aroo! Stimmen in"
+	; GSC-DE Dump 6767
+	text "Aruuu! Stimmen in"
 	line "meinem Kopf!"
-	para "Hä? Ich hör ja nur"
+
+	para "Häh? Ich höre"
 	line "Radio!"
 	done
 
 BlackthornGramps1Text:
-	text "Nein. Nur"
-	line "auserwählte"
-	cont "Trainer dürfen"
+	; GSC-DE Dump 6764
+	text "Nein. Nur auser-"
+	line "wählte Trainer"
 
-	para "hier trainieren."
-
-	para "Bitte geh."
+	para "dürfen hier"
+	line "trainieren."
+	cont "Gehe hinfort."
 	done
 
 BlackthornGramps2Text:
-	text "Wenn SANDRA es"
-	line "erlaubt, erlaubt"
-	cont "es auch ihr"
+	; GSC-DE Dump 6765
+	text "Wenn SANDRA es dir"
+	line "gestattet, dann"
 
-	para "Großvater, unser"
-	line "Meister."
+	para "wird auch ihr Opa"
+	line "- unser MEISTER -"
+	cont "zustimmen."
 
-	para "Du darfst"
-	line "eintreten."
+	para "Tritt ein."
 	done
 
 BlackthornLassText:
-	text "Wirst du deinem"
-	line "#mon Attacken"
-	cont "vergessen lassen?"
+	; GSC-DE Dump 6768
+	text "Willst du, dass"
+	line "deine #MON ei-"
+	cont "nige Attacken ver-"
+	cont "gessen?"
 	done
 
 BlackthornYoungsterText:
-	text "Alle"
-	line "Drachenmeister"
-	cont "kommen aus"
+	; GSC-DE Dump 6769
+	text "Alle Drachen-"
+	line "meister kommen aus"
 	cont "EBENHOLZ CITY."
 	done
 
-
 BlackthornCooltrainerF1Text:
-	text "Willst du, dass"
-	line "deine #mon"
-	cont "einige Attacken"
-	cont "vergessen?"
-	done
+	; GSC-DE Dump 6775 (Eispfad, Osten)
+	text "Wow, du bist über"
+	line "den EISPFAD gekom-"
+	cont "men?"
 
+	para "Du musst ein rich-"
+	line "tiger Heißsporn"
+	cont "sein!"
+	done
 
 BlackthornCooltrainerF2Text:
-	text "Wow, du bist über"
-	line "den EISPFAD"
-	cont "gekommen?"
-	para "Du musst ein"
-	line "rich-tiger"
-	cont "Heißsporn sein!"
+	; PC-only (Fee-Typ)
+	text "Der Fee-Typ wurde"
+	line "erst kürzlich"
+	cont "entdeckt."
+
+	para "Er schaltet"
+	line "Drachen-Typen"
+	cont "komplett aus."
 	done
 
-
 BlackthornDragonTamer2Text:
-	text "Als unsere"
-	line "Arenaleiterin noch"
-	cont "ein junges"
-	para "Mädchen war,"
-	line "trainierte sie"
-	cont "ständig in der"
-	para "Drachenhöhle."
+	; PC-only
+	text "Als unsere ARENA-"
+	line "LEITERIN noch ein"
+	cont "junges Mädchen"
+
+	para "war, trainierte"
+	line "sie ständig in der"
+	cont "DRACHENHÖHLE."
 	done
 
 BlackthornDragonTamer3Text:
-	text "Ebenholz City ist"
+	; PC-only
+	text "EBENHOLZ CITY ist"
 	line "die Heimat vieler"
 	cont "berühmter"
 
@@ -293,8 +324,6 @@ BlackthornDragonTamer3Text:
 	line "wie SIEGFRIED."
 
 	para "Er ist der Cousin"
-	line "unserer"
-	cont "Arenaleiterin,"
-
-	para "weißt du!"
+	line "unserer ARENA-"
+	cont "LEITERIN!"
 	done

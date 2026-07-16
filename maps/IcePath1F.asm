@@ -25,7 +25,6 @@ GenericTrainerSkierMaria:
 
 	text "Es hat eine Weile"
 	line "gedauert, bis ich"
-
 	para "mit Skiern"
 	line "vertraut war."
 	done
@@ -44,12 +43,11 @@ SkierMariaSeenText:
 
 SkierMariaBeatenText:
 	text "Deine Kampftechnik"
-	line "ist"
-	cont "bewundernswert!"
+	line "ist bewundernswert!"
 	done
 
 BoarderStefanSeenText:
-	text "Brrr … So kalt!"
+	text "Brrr… So kalt!"
 	para "Lass uns mit einem"
 	line "#mon-Kampf"
 	cont "aufwärmen!"

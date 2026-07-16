@@ -43,19 +43,22 @@ CianwoodPharmacist:
 	pokemart MARTTYPE_PHARMACY, MART_CIANWOOD
 
 PharmacistGiveSecretpotionText:
-	text "Deinen #mon"
+	; GSC-DE Dump
+	text "Deinen #MON"
 	line "scheint es gut zu"
-	cont "gehen. Bedrückt"
-	cont "dich etwas?"
+	para "gehen. Bedrückt"
+	line "dich etwas?"
 	para "…"
-	para "Dem #mon vom"
+	para "Dem #MON vom"
 	line "LEUCHTTURM geht es"
 	cont "nicht gut?"
 	para "Ich hab's!"
 	para "Das sollte das"
 	line "Problem lösen."
 	done
+
 PharmacistDescribeSecretpotionText:
+	; GSC-DE Dump
 	text "Mein GEHEIMTRANK"
 	line "ist sehr stark."
 	para "Ich biete ihn nur"

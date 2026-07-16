@@ -62,84 +62,88 @@ CianwoodGymGuyScript:
 	waitendtext
 
 .Text:
-	text "Die Trainer in der"
-	line "PKMN-ARENA"
+	; GSC-DE Dump
+	text "Die Trainer in"
+	line "der PKMN-ARENA"
 	para "sind richtige"
 	line "Schlägertypen."
-	para "Wenn ich dort"
-	line "rumstehe,"
-	cont "schnappen sie"
-	cont "mich."
-	para "Ein Tipp: Der"
-	line "LEI-TER setzt"
-	cont "gerne"
-	para "Kampf-#mon ein."
+	para "Wenn ich dort rum-"
+	line "stehe, schnappen"
+	cont "sie mich."
+	para "Ein Tipp: Der LEI-"
+	line "TER setzt gerne"
+	para "Kampf-#MON"
+	line "ein."
 	para "Du solltest ihn"
-	line "mit Psycho-#mon"
-	cont "überraschen."
+	line "mit Psycho-#-"
+	cont "MON überraschen."
 	para "Besiege seine"
-	line "#mon, bevor sie"
-	para "ihre Kraft"
-	line "einsetzen können."
-	para "Und die Felsen in"
-	line "der Mitte der"
+	line "#MON, bevor sie"
+	para "ihre Kraft ein-"
+	line "setzen können."
+	para "Und die Felsen"
+	line "in der Mitte der"
 	cont "PKMN-ARENA?"
 	para "Räume sie aus dem"
 	line "Weg, denn sonst"
 	para "wirst du den"
 	line "ARENALEITER nie"
 	cont "erreichen."
-	para "Hast du dich"
-	line "verschoben,"
-	cont "verlasse die"
-	cont "PKMN-ARENA."
+	para "Hast du dich ver-"
+	line "schoben, verlasse"
+	cont "die PKMN-ARENA."
 	done
+
 .StrengthText1:
+	; PC: STÄRKE-HM bleibt hier
 	text "Du kannst die"
 	line "Felsen nicht"
 	cont "wegstoßen?"
 	para "Nimm das und bring"
-	line "deinem #mon"
-	cont "Strength bei!"
+	line "deinem #MON"
+	cont "STÄRKE bei!"
 	done
 
 .StrengthText2:
+	; PC
 	text "Viel Glück!"
 	done
 
 .WinText:
+	; GSC-DE Dump
 	text "<PLAYER>! Du hast"
-	line "gewonnen!"
-
-	para "Das sah ich dir"
-	line "schon von weitem"
-	cont "an!"
+	line "gewonnen! Das habe"
+	cont "ich dir gleich an-"
+	cont "gesehen!"
 	done
 
 CianwoodPokeCenter1FLassText:
+	; GSC-DE Dump
 	text "Hast du schon den"
-	line "#MANIAC"
-	cont "getroffen?"
-
+	line "#MANIAC getrof-"
+	cont "fen?"
 	para "Er gibt immer mit"
 	line "seinen seltenen"
-	cont "#mon an."
+	cont "#MON an."
 	done
+
 CianwoodPokeCenter1FSuperNerdText:
+	; GSC-DE Dump
 	text "Ich liebe es, mit"
 	line "meinen trainierten"
-	para "#mon anzugeben."
+	para "#MON anzugeben."
 	line "Du etwa nicht?"
 	para "Ich werde einige"
 	line "Kämpfe bestreiten,"
 	para "um mit meinen"
-	line "#mon anzugeben!"
+	line "#MON anzugeben!"
 	done
+
 CianwoodPokeCenter1FRichBoyText:
+	; PC
 	text "In dieser Stadt"
 	line "gibt es keinen"
 	cont "Markt,"
-
 	para "deshalb"
 	line "importieren wir"
 	cont "Waren über das"

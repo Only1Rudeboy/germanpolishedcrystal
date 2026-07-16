@@ -89,20 +89,25 @@ DragonsDenB1FClairTrigger:
 	end
 
 .WaitText:
-	text "Moment!"
+	; GSC-DE Dump 6188 (a)
+	text "Du hast mich war-"
+	line "ten lassen!"
 	done
 .GiveTMText:
-	text "SANDRA: Das tut"
-	line "mir Leid."
-	para "Hier, nimm das als"
-	line "Entschuldigung."
+	; GSC-DE Dump 6188 (b)
+	text "Hier! Nimm dies!"
 	done
 .DescribeDragonPulseText:
-	text "Darin ist"
+	; GSC-DE Dump 6190 (PC: Drachenpuls statt FEUERODEM)
+	text "Sie enthält"
 	line "Drachenpuls."
-	para "Wenn du es nicht"
+	para "Nein, das hat"
+	line "nichts mit"
+	cont "schlechtem Atem"
+	cont "zu tun."
+	para "Wenn du sie nicht"
 	line "willst, musst du"
-	cont "es nicht nehmen."
+	cont "sie nicht nehmen."
 	done
 .WalksToYouMovement:
 	slow_step_right

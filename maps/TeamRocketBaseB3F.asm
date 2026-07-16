@@ -152,27 +152,34 @@ GenericTrainerRocketScientistRoss:
 	generictrainer ROCKET_SCIENTIST, ROSS, EVENT_BEAT_ROCKET_SCIENTIST_ROSS, RocketScientistRossSeenText, RocketScientistRossBeatenText
 
 	text "Ein Radiosignal,"
-	line "das #mon um den"
-	cont "Verstand bringt …"
+	line "das #MON um den"
+	cont "Verstand bringt…"
+
 	para "Mein Experiment"
 	line "war ein voller"
 	cont "Erfolg."
+
 	para "Meine Beförderung"
 	line "ist gewiss. Dieser"
+
 	para "Verlust bedeutet"
 	line "nichts."
 	done
+
 GenericTrainerRocketScientistMitch:
 	generictrainer ROCKET_SCIENTIST, MITCH, EVENT_BEAT_ROCKET_SCIENTIST_MITCH, RocketScientistMitchSeenText, RocketScientistMitchBeatenText
 
 	text "Wenn wir das"
-	line "Radiosignal"
-	cont "verstärken, könnte"
+	line "Radiosignal ver-"
+	cont "stärken, könnte"
+
 	para "man es im ganzen"
-	line "Land empfangen …"
+	line "Land empfangen…"
+
 	para "Allein der Gedanke"
 	line "entzückt mich!"
 	done
+
 BossDoor:
 	dw EVENT_OPENED_DOOR_TO_GIOVANNIS_OFFICE
 	opentext
@@ -298,83 +305,169 @@ RocketBaseRivalShovesPlayerMovement:
 LanceGetPasswordText:
 	text "SIEGFRIED: Man"
 	line "benötigt zwei"
-	cont "Passwörter, um zum"
-	cont "Boss zu gelangen."
-	para "Hol sie dir von"
-	line "den"
-	cont "TEAM-ROCKET-Leuten"
-	cont "hier!"
+
+	para "Passwörter, um Zu-"
+	line "tritt zum Quartier"
+	cont "des Bosses zu"
+	cont "bekommen."
+
+	para "Nur ein paar Mit-"
+	line "glieder von TEAM"
+	cont "ROCKET kennen sie."
+
+	para "Diese Auskunft hat"
+	line "mir dieser"
+	cont "ROCKET gegeben."
+
+	para "<PLAYER>, los!"
+	line "Holen wir uns"
+	cont "die Passwörter."
 	done
+
 TeamRocketBaseB3FRocketText:
 	text "Urrggh… Der Typ"
 	line "mit dem Umhang ist"
-	cont "unglaublich stark…"
+	cont "furchtbar stark…"
 	done
+
 RocketBaseRivalText:
 	text "…"
+
 	para "Habe ich dir nicht"
 	line "gesagt, dass ich"
-	cont "dich hasse?"
-	para "Aber… diese TEAM"
-	line "ROCKET-Typen sind"
-	cont "noch schlimmer."
-	para "Sie machen #mon"
-	line "zu Werkzeugen. Das"
-	cont "ertrage ich nicht!"
-	para "Ich werde sie"
-	line "fertigmachen. Du"
-	cont "-misch dich nicht"
-	cont "ein!"
+
+	para "TEAM ROCKET"
+	line "zerschlage?"
+
+	para "…Sag mir, wer war"
+	line "der Typ mit dem"
+
+	para "Umhang, der die"
+	line "Drachen-#MON"
+	cont "einsetzte?"
+
+	para "Meine #MON"
+	line "waren keine Gegner"
+	cont "für ihn."
+
+	para "Die Niederlage"
+	line "macht mir nichts"
+
+	para "aus. Mit stärkeren"
+	line "#MON kann ich"
+	cont "ihn besiegen."
+
+	para "Was mich wurmt"
+	line "ist, was er zu"
+	cont "mir gesagt hat…"
+
+	para "Er sagte, dass ich"
+	line "meine #MON"
+
+	para "nicht ausreichend"
+	line "liebe und ihnen"
+	cont "nicht vertraue."
+
+	para "Ich bin wütend,"
+	line "dass ich gegen so"
+	cont "ein Großmaul"
+	cont "verloren habe."
+
+	para "…Humpf! Für Typen"
+	line "wie dich habe"
+	cont "ich keine Zeit!"
 	done
+
 ExecutiveM4BeforeText:
 	text "Was? Wer bist du?"
 	line "Dies ist das Büro"
-	cont "unseres Bosses!"
-	para "Verschwinde, bevor"
-	line "es wehtut!"
+
+	para "unseres Anführers"
+	line "GIOVANNI."
+
+	para "Er trainiert, seit"
+	line "das TEAM ROCKET"
+
+	para "vor drei Jahren"
+	line "zerschlagen wurde."
+
+	para "Wir sind sicher,"
+	line "dass er eines"
+
+	para "Tages zurückkehren"
+	line "wird, um das"
+	cont "Kommando wieder"
+	cont "zu übernehmen."
+
+	para "Darum halten wir"
+	line "Wache."
+
+	para "Ich lasse nicht"
+	line "zu, dass es"
+	cont "hier laut wird!"
 	done
+
 ExecutiveM4BeatenText:
 	text "Ich… ich konnte"
 	line "nichts machen…"
-	para "Bitte… nimm das"
-	line "Passwort: RACHE!"
+
+	para "Bitte vergib"
+	line "mir, GIOVANNI…"
 	done
+
 ExecutiveM4AfterText:
 	text "Das darf mich"
 	line "nicht belasten."
-	para "Ich muss dem Boss"
-	line "berichten…"
+
+	para "Ich muss es den"
+	line "anderen sagen…"
 	done
+
 RocketBaseMurkrowText:
 	text "KRAMURX: Das"
 	line "Passwort lautet…"
-	para "PREISGÜNSTIG!"
+
+	para "PREISET GIOVANNI."
 	done
+
 GruntF5SeenText:
 	text "Ob ich das"
 	line "Passwort weiß?"
+
 	para "Vielleicht."
-	line "Besiege mich, dann"
-	cont "rede ich!"
+
+	para "Schwächlinge"
+	line "werden es nie"
+	cont "erfahren!"
 	done
+
 GruntF5BeatenText:
-	text "O.K. Genug. Ich"
-	line "verrate es dir."
+	text "O.K. Genug."
+	line "Ich verrate es"
+	cont "dir."
 	done
+
 GruntF5AfterBattleText:
 	text "Das Passwort zum"
 	line "Büro vom Boss"
 	cont "lautet"
-	cont "PREISGÜNSTIG."
+
+	para "FLEGMONRUTE."
+
+	para "Es ist aber"
+	line "nutzlos, denn du"
+	cont "benötigst zwei"
+	cont "Passwörter."
 	done
+
 GruntM28SeenText:
-	text "Hiuck-hiuck-hiuck"
+	text "Hiuck-hiuck-hiuck!"
 
 	para "Du forderst mich"
 	line "zu einem Kampf"
 
 	para "heraus? Pah! Du"
-	line "bist dumm, aber"
+	line "bist dumm, aber du"
 	cont "hast Mumm!"
 
 	para "Das mag ich!"
@@ -387,25 +480,21 @@ GruntM28SeenText:
 	cont "Büro vom Boss!"
 	done
 
-
-
 GruntM28BeatenText:
-	text "Hiuck-hiuck-hiuck"
+	text "Hiuck-hiuck-hiuck!"
 	line "Du bist gut!"
 	done
 
-
-
 GruntM28AfterBattleText:
-	text "Hiuck-hiuck-hiuck"
+	text "Hiuck-hiuck-hiuck!"
+
 	para "Das Passwort für"
-	line "das Büro vom"
-	para "Uh… ich glaube, es"
-	line "lautet"
+	line "das Büro vom Boss…"
+
+	para "Uh… ich glaube,"
+	line "es lautet"
 	cont "RATTIKARLRUTE."
 	done
-
-
 
 RocketScientistRossSeenText:
 	text "Früher arbeitete"
@@ -420,24 +509,34 @@ RocketScientistRossSeenText:
 	cont "einmischt, muss"
 	cont "bestraft werden."
 	done
+
 RocketScientistRossBeatenText:
 	text "Nur wegen eines"
 	line "kleinen taktischen"
-	cont "Fehlers …"
+	cont "Fehlers…"
 	done
+
 RocketScientistMitchSeenText:
 	text "Es ist mir egal,"
-	line "dass #mon bei"
+	line "dass #MON bei"
 	cont "unserem Experiment"
-	cont "Schmerzen zugefügt"
-	cont "werden."
+	cont "Schmerzen"
+	cont "zugefügt werden."
 	done
+
 RocketScientistMitchBeatenText:
 	text "Meine Stärke ist"
 	line "das Denken, nicht"
 	cont "das Kämpfen."
 	done
+
 TeamRocketBaseB3FLockedDoorOpenSesameText:
-	text "Die Tür öffnet"
-	line "sich…"
+	text "Die Tür ist"
+	line "verschlossen…"
+
+	para "<PLAYER> gibt beide"
+	line "Passwörter ein."
+
+	para "Die Tür wird"
+	line "entriegelt!"
 	done

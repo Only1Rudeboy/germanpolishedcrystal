@@ -76,188 +76,198 @@ BlackthornGymClairScript:
 	end
 
 .IntroText:
+	; GSC-DE Dump 6184
 	text "Ich bin SANDRA."
-	para "Die weltbeste"
-	line "Drachen-Trainerin!"
-	para "Ich kann mich als"
-	line "ARENALEITERIN von"
-	cont "EBENHOLZ CITY"
-	cont "sehen lassen."
-	para "…Soll ich dir"
-	line "etwas erzählen?"
-	para "Drachen-#mon"
-	line "sind heilig. Sie"
-	cont "sind schwer zu"
-	cont "fangen und zu"
-	cont "erziehen."
-	para "Bist du sicher,"
-	line "dass du bereit"
-	cont "bist?"
-	para "Nun gut. Ich zeige"
-	line "dir die Kraft der"
-	cont "Drachen!"
+	para "Der beste Drachen-"
+	line "meister der Welt."
+	para "Ich bestehe sogar"
+	line "gegen die TOP VIER"
+	cont "der #mon LIGA."
+	para "Willst du immer"
+	line "noch gegen mich"
+	cont "antreten?"
+	para "…Gut."
+	line "Auf geht's!"
+	para "Da ich eine ARENA-"
+	line "LEITERIN bin,"
+	para "bringe ich mein"
+	line "ganzes Können ge-"
+	cont "gen jeden Gegner"
+	cont "auf!"
 	done
+
 .WinText:
+	; GSC-DE Dump 6185
 	text "Ich habe verloren?"
-	para "Das… das darf"
-	line "nicht sein. Das"
-	cont "muss ein Irrtum"
-	cont "sein…"
+	para "Ich kann es nicht"
+	line "glauben. Das muss"
+	cont "ein Irrtum sein…"
 	done
+
 .GoToDragonsDenText:
-	text "Das gebe ich nicht"
-	line "zu."
-	para "Ich habe"
-	line "vielleicht"
-	cont "verloren, aber du"
-	cont "bist noch nicht"
-	cont "bereit für die"
-	cont "#mon-Liga."
-	para "Ich weiß: Du"
-	line "solltest die"
-	cont "Drachenmeister-"
-	cont "Prüfung wagen."
-	para "Hinter dieser"
-	line "Arena liegt die"
+	; GSC-DE Dump 6186
+	text "Ich gestehe das"
+	line "nicht ein."
+	para "Ich mag verloren"
+	line "haben, aber du"
+	para "bist noch nicht"
+	line "reif für die"
+	cont "#mon LIGA."
+	para "Ich weiß. Stelle"
+	line "dich der Drachen-"
+	cont "Trainer-Heraus-"
+	cont "forderung."
+	para "Hinter der PKMN-"
+	line "ARENA liegt die"
 	cont "DRACHENHÖHLE."
-	para "In ihrer Mitte"
-	line "steht ein kleiner"
-	cont "Schrein."
-	para "Geh dorthin."
-	para "Wenn du beweist,"
-	line "dass du deine"
-	cont "faulen Ideale"
-	cont "abgelegt hast,"
-	cont "erkenne ich dich"
-	cont "als würdigen"
-	cont "Trainer für einen"
-	cont "Arenaorden an!"
+	para "In deren Mitte ist"
+	line "ein Schrein. Gehe"
+	cont "dorthin."
+	para "Falls du beweisen"
+	line "kannst, dass du"
+	para "deine faulen"
+	line "Ideale aufgegeben"
+	para "hast, werde ich"
+	line "dich als einen"
+	para "Trainer ansehen,"
+	line "der würdig ist,"
+	para "einen ORDEN"
+	line "zu erhalten!"
 	done
+
 .TooMuchToExpectText:
+	; GSC-DE Dump 6187
 	text "Was ist los?"
-	para "Ist das zu viel"
-	line "von dir verlangt?"
+	para "Erwarte ich etwa"
+	line "zu viel von dir?"
 	done
+
 ClairPokemonLeagueDirectionsText:
+	; GSC-DE Dump 6192
 	text "Was ist los?"
-	para "Willst du nicht"
-	line "zur #mon-Liga?"
-	para "Weißt du, wie man"
-	line "dahin kommt?"
-	para "Von hier aus geh"
-	line "nach NEUBORKIA."
-	cont "Dann surf nach"
-	cont "Osten."
-	para "Der Weg dorthin"
-	line "ist sehr hart."
-	para "Wag es ja nicht,"
-	line "bei der"
-	cont "#mon-Liga zu"
-	cont "verlieren!"
-	para "Sonst fühle ich"
-	line "mich noch"
-	cont "schlechter, dass"
-	cont "ich gegen dich"
-	cont "verloren habe!"
-	para "Gib alles, was du"
-	line "hast."
+	para "Gehst du nicht zur"
+	line "#mon LIGA?"
+	para "Kennst du den"
+	line "Weg nicht?"
+	para "Gehe von hier nach"
+	line "NEUBORKIA."
+	para "SURFE dann nach"
+	line "Osten. Der Weg"
+	para "wird dann sehr be-"
+	line "schwerlich."
+	para "Wage es nicht, in"
+	line "der #mon"
+	cont "LIGA zu verlieren!"
+	para "Das würde meine"
+	line "Niederlage gegen"
+	para "dich noch ver-"
+	line "schlimmern!"
+	para "Gib dein Bestes!"
 	done
+
 BlackthornGymGuyScript:
 	checkevent EVENT_BEAT_CLAIR
 	iftrue_jumptextfaceplayer .WinText
 	jumpthistextfaceplayer
 
-	text "Yo! Zukünftiger"
-	line "Champ!"
+	; GSC-DE Dump 6202
+	text "Yo! CHAMP in spe!"
 	para "Es war eine lange"
-	line "Reise, aber wir"
-	cont "sind fast fertig!"
-	para "Verlass dich auf"
-	line "mich!"
-	para "SANDRA nutzt"
-	line "mythische, heilige"
-	cont "Drachen-#mon."
-	para "Denen kann man"
-	line "nicht leicht"
-	cont "schaden."
-	para "Aber weißt du -sie"
-	line "sollen schwach"
-	cont "gegen Eis-Attacken"
-	cont "sein."
+	line "Reise, aber bald"
+	para "sind wir da! Zähle"
+	line "auf mich!"
+	para "SANDRA setzt die"
+	line "mythischen und"
+	cont "heiligen"
+	cont "Drachen-#mon"
+	cont "ein."
+	para "So leicht sind die"
+	line "nicht zu besie-"
+	cont "gen."
+	para "Aber angeblich"
+	line "sind sie anfällig"
+	para "gegen Eis-"
+	line "Attacken."
 	done
 
 .WinText:
-	text "Toll, dass du"
-	line "SANDRA besiegt"
-	cont "hast!"
-	para "Übrig bleibt nur"
-	line "noch die"
-	cont "#mon-Liga."
+	; GSC-DE Dump 6203
+	text "Gegen SANDRA zu"
+	line "gewinnen ist eine"
+	cont "Meisterleistung."
+	para "Alles was dir nun"
+	line "noch bevorsteht,"
+	cont "ist die #mon"
+	cont "LIGA."
 	para "Du bist auf dem"
-	line "Weg,"
-	cont "#mon-Champion"
+	line "besten Weg, der"
+	cont "#mon-CHAMP"
 	cont "zu werden!"
 	done
 
 GenericTrainerDragonTamerPaul:
 	generictrainer DRAGON_TAMER, PAUL, EVENT_BEAT_DRAGON_TAMER_PAUL, .SeenText, .BeatenText
 
-	text "SIEGFRIED sagte,"
-	line "er würde dich gern"
-	cont "wiedersehen?"
-	para "Auf keinen Fall!"
+	; GSC-DE Dump 6195
+	text "SIEGFRIED sagte"
+	line "dir, er möchte"
+	para "dich noch einmal"
+	line "sehen? Das kann"
+	cont "nicht sein!"
 	done
 
 .SeenText:
-	text "Dein erster Kampf"
-	line "gegen Drachen?"
-
-	para "Ich zeig dir, wie"
-	line "hart sie sind!"
+	; GSC-DE Dump 6193
+	text "Ist das dein ers-"
+	line "ter Kampf gegen"
+	cont "Drachen?"
+	para "Ich zeige dir, wie"
+	line "stark sie sind!"
 	done
 
 .BeatenText:
-	text "Meine"
-	line "Drachen-#mon"
-	cont "haben verloren?"
+	; GSC-DE Dump 6194
+	text "Mein Drachen-"
+	line "#mon hat"
+	cont "verloren?"
 	done
 
 GenericTrainerCooltrainermMike:
 	generictrainer COOLTRAINERM, MIKE, EVENT_BEAT_COOLTRAINERM_MIKE, .SeenText, .BeatenText
 
+	; GSC-DE Dump 6198
 	text "Ich kenne jetzt"
-	line "meine"
-	cont "Schwachstel-len."
-	cont "Danke für den"
+	line "meine Schwachstel-"
+	cont "len. Danke für den"
 	cont "Hinweis!"
 	done
 
-
 .SeenText:
+	; GSC-DE Dump 6196
 	text "Die Chancen, gegen"
 	line "dich zu verlieren?"
-	cont "Nicht mal ein"
-	cont "Prozent!"
+	cont "Nicht mal ein Pro-"
+	cont "zent!"
 	done
-
 
 .BeatenText:
+	; GSC-DE Dump 6197
 	text "Hm, eigenartig."
 	done
-
 
 GenericTrainerCooltrainerfLola:
 	generictrainer COOLTRAINERF, LOLA, EVENT_BEAT_COOLTRAINERF_LOLA, .SeenText, .BeatenText
 
+	; GSC-DE Dump 6201
 	text "Drachen sind"
-	line "schwach gegen"
-	cont "Drachen-Attacken."
+	line "schwach gegen Dra-"
+	cont "chen-Attacken."
 	done
 
-
 .SeenText:
-	text "Drachen sind"
-	line "heilige #mon."
+	; GSC-DE Dump 6199
+	text "Drachen sind hei-"
+	line "lige #mon."
 	para "Sie sind voller"
 	line "Lebensenergie."
 	para "Wenn du es nicht"
@@ -266,8 +276,8 @@ GenericTrainerCooltrainerfLola:
 	line "besiegen können."
 	done
 
-
 .BeatenText:
+	; GSC-DE Dump 6200
 	text "Großartig!"
 	done
 

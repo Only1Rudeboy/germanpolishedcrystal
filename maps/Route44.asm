@@ -421,10 +421,10 @@ GenericTrainerCooltrainerfCybil:
 	cont "Erfahrungen und"
 	cont "wir werden besser."
 	para "Ich habe viele"
-	line "Kämpfe"
-	cont "ausgetragen, um"
-	cont "das zu werden, was"
-	cont "ich heute bin -ein"
+	line "Kämpfe ausge-"
+	cont "tragen, um das zu"
+	cont "werden, was ich"
+	cont "heute bin - ein"
 	cont "Profi."
 	done
 
@@ -432,10 +432,10 @@ GenericTrainerPokemaniacZach:
 	generictrainer POKEMANIAC, ZACH, EVENT_BEAT_POKEMANIAC_ZACH, PokemaniacZachSeenText, PokemaniacZachBeatenText
 
 	text "Ein #mon,"
-	line "Färbung"
+	line "dessen Färbung"
 	para "sich von der"
-	line "normalen"
-	cont "unterscheidet, ist"
+	line "normalen unter-"
+	cont "scheidet, ist"
 	cont "wertvoller."
 	para "Was? Willst du"
 	line "behaupten, das sei"
@@ -445,12 +445,12 @@ GenericTrainerPokemaniacZach:
 GenericTrainerCooltrainermAllen:
 	generictrainer COOLTRAINERM, ALLEN, EVENT_BEAT_COOLTRAINERM_ALLEN, CooltrainermAllenSeenText, CooltrainermAllenBeatenText
 
-	text "Toll! Du hast ja"
+	text "Wow! Du hast ja"
 	line "viele ORDEN!"
 	para "Kein Wunder, dass"
 	line "du so stark bist."
-	para "Ich frage mich, ob"
-	line "JENS, der"
+	para "Ich frage mich,"
+	line "ob JENS, der"
 	para "ARENALEITER von"
 	line "TEAK CITY, noch"
 	cont "immer trainiert?"
@@ -464,8 +464,8 @@ FisherWilton1SeenText:
 	line "habe ich ein"
 	cont "QUAPSEL verloren!"
 	para "Was wirst du"
-	line "deswegen"
-	cont "unternehmen?"
+	line "deswegen unter-"
+	cont "nehmen?"
 	done
 
 
@@ -504,11 +504,11 @@ FisherEdgarSeenText:
 	text "Ich angle so"
 	line "lange, bis ich"
 	cont "nicht mehr kann."
-	para "Und ich kämpfe bis"
-	line "zum Umfallen."
-	para "So gehe ich auch"
-	line "mit meinen #mon"
-	cont "um."
+	para "Und ich kämpfe"
+	line "bis zum Umfallen."
+	para "So gehe ich"
+	line "auch mit meinen"
+	cont "#mon um."
 	done
 
 
@@ -516,7 +516,8 @@ FisherEdgarSeenText:
 
 
 FisherEdgarBeatenText:
-	text "Hmm… Das ist nicht"
+	text "Hmm…"
+	line "Das ist nicht"
 	para "richtig."
 	done
 
@@ -536,11 +537,11 @@ Bird_keeperVance1BeatenText:
 	cont "Eltern."
 	done
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARKTOS, ZAPDOS und"
-	line "LAVADOS sind"
+	text "ARKTOS, ZAPDOS"
+	line "und LAVADOS sind"
 	para "die drei"
-	line "legendären"
-	cont "Vogel-#mon."
+	line "legendären Vogel-"
+	cont "#mon."
 	para "Es gibt aber auch"
 	line "andere legendäre"
 	cont "Vogel-#mon."
@@ -554,7 +555,7 @@ BirdKeeperVance2BeatenText:
 	text "Warum kann ich"
 	line "dich nicht"
 	cont "besiegen?"
-	para "Ach ja, hier. Das"
+	para "Oh yeah, hier. Das"
 	line "ist das Geschenk,"
 	para "das ich dir das"
 	line "letzte Mal nicht"
@@ -575,9 +576,9 @@ PsychicPhilSeenText:
 
 
 PsychicPhilBeatenText:
-	text "Aah … Das ist eine"
-	line "schockierende"
-	cont "Niederlage …"
+	text "Aah… Das ist"
+	line "eine schockierende"
+	cont "Niederlage…"
 	done
 
 
@@ -585,9 +586,9 @@ PsychicPhilBeatenText:
 
 
 PokemaniacZachSeenText:
-	text "Ich tue alles, um"
-	line "seltene #mon in"
-	cont "die Finger zu"
+	text "Ich tue alles,"
+	line "um seltene #mon"
+	cont "in die Finger zu"
 	cont "bekommen!"
 	done
 
@@ -653,8 +654,8 @@ CooltrainerfCybilBeatenText:
 
 
 Route44Sign1Text:
-	text "ROUTE 44 EISPFAD"
-	line "VORAUS"
+	text "ROUTE 44"
+	line "EISPFAD VORAUS"
 	done
 
 
@@ -663,8 +664,8 @@ Route44Sign1Text:
 
 Route44Sign2Text:
 	text "ROUTE 44"
-	para "MAHAGONIA CITY"
-	line "-EBENHOLZ CITY"
+	para "MAHAGONIA CITY -"
+	line "EBENHOLZ CITY"
 	done
 
 

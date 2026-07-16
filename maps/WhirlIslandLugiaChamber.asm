@@ -52,7 +52,7 @@ Lugia:
 	end
 
 LugiaText:
-	text "Uargh!"
+	text "LUGIA: Gyaaan!"
 	done
 
 

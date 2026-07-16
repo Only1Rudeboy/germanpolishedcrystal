@@ -18,33 +18,36 @@ BlackthornMart_MapScriptHeader:
 	object_event 11,  3, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BlackthornMartSuperNerdText, -1
 
 BlackthornMartCooltrainermText:
-	text "Top-Genesung"
-	line "gibt's hier nicht"
-	cont "zu kaufen, aber"
+	; GSC-DE Dump 6213
+	text "Du kannst TOP-BE-"
+	line "LEBER zwar nicht"
 
-	para "sie belebt ein"
-	line "besiegtes #mon"
-	cont "voll."
+	para "kaufen, aber er"
+	line "füllt die KP be-"
+	cont "siegter #MON"
 
-	para "Achtung--sie"
-	line "stellt keine AP"
-	cont "wieder her, die"
+	para "wieder vollständig"
+	line "auf."
 
-	para "für Attacken"
-	line "nötigen"
-	cont "Attackenpunkte."
+	para "Vorsicht! Die AP,"
+	line "oder ANGRIFFSPUNK-"
+	cont "TE, werden nicht"
+	cont "aufgefüllt."
 	done
 
 BlackthornMartBlackbeltText:
-	text "Top-Schutz hält"
-	line "schwache #mon"
-	cont "von dir fern."
-	para "Er wirkt am"
-	line "längsten von allen"
-	para "Schutzsprays."
+	; GSC-DE Dump 6214
+	text "TOP-SCHUTZ hält"
+	line "dir schwache #-"
+	cont "MON vom Leib."
+
+	para "Von allen SCHUTZ-"
+	line "Sprays hält es am"
+	cont "längsten an."
 	done
 
 BlackthornMartSuperNerdText:
+	; PC-only
 	text "Alle Städte in"
 	line "Johto sind nach"
 	cont "Pflanzen benannt."

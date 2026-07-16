@@ -560,25 +560,27 @@ GenericTrainerRocketScientistJed:
 GenericTrainerGruntM16:
 	generictrainer GRUNTM, 16, EVENT_BEAT_ROCKET_GRUNTM_16, GruntM16SeenText, GruntM16BeatenText
 
-	text "Ich weiß nicht, wo"
-	line "die Fallen"
+	text "Ich weiß nicht,"
+	line "wo die Fallen"
 	cont "aufgestellt sind."
+
 	para "Du musst deinen"
 	line "ganzen Mut"
-	cont "zusammennehmen und"
-	cont "weitergehen."
+	cont "zusammennehmen"
+	cont "und weitergehen."
 	done
 
 TeamRocketBaseB1FSecurityCamera:
 	jumpthistext
 
 	text "Das ist eine"
-	line "SNOBILIKAT-Statue"
-	cont "…"
+	line "SNOBILIKAT-Statue…"
+
 	para "Es ist ein"
-	line "seltsamer Glanz in"
-	cont "ihren Augen."
+	line "seltsamer Glanz"
+	cont "in ihren Augen."
 	done
+
 TeamRocketBaseB1FSecretSwitch:
 	opentext
 	checkevent EVENT_TURNED_OFF_SECURITY_CAMERAS
@@ -598,9 +600,10 @@ TeamRocketBaseB1FSecretSwitch:
 .SecretSwitchOff:
 	jumpthisopenedtext
 
-	text "Der Schalter steht"
-	line "auf AUS."
+	text "Der Schalter"
+	line "steht auf AUS."
 	done
+
 SecurityCameraMovement1:
 	run_step_right
 	run_step_right
@@ -709,33 +712,32 @@ CameraGrunt2SeenText:
 	cont "Entkommen!"
 	done
 
-
-
 CameraGrunt2BeatenText:
-	text "In den"
-	line "#mon-Statuen"
-	cont "sind"
-	cont "Überwachungskamer-"
-	cont "as installiert."
+	text "In den #MON-"
+	line "Statuen sind Über-"
+	cont "wachungskameras"
+	cont "installiert."
+
 	para "Wir greifen weiter"
 	line "an, bis du einen"
 	cont "Geheimschalter"
 	cont "betätigst."
 	done
 
-
-
 RocketScientistJedSeenText:
 	text "Dies war einmal"
 	line "ein Ninjaversteck."
+
 	para "Es wurden Fallen"
 	line "aufgestellt, um"
 	cont "Eindringlinge wie"
 	cont "dich zu verwirren."
 	done
+
 RocketScientistJedBeatenText:
 	text "Ich hab's…"
 	done
+
 GruntM16SeenText:
 	text "Hehe. Bist du"
 	line "glücklich, Punk?"
@@ -748,18 +750,13 @@ GruntM16SeenText:
 	cont "eingebaut!"
 	done
 
-
-
 GruntM16BeatenText:
 	text "Kawumm!"
 	done
 
-
-
 TeamRocketBaseB1FSecretSwitchText:
-	text "Ein"
-	line "Geheimschalter!"
-	cont "Betätige ihn!"
+	text "Ein Geheimschal-"
+	line "ter! Betätige ihn!"
 	done
 
 

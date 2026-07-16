@@ -69,30 +69,31 @@ CianwoodPhotoStudioFishingGuruScript:
 	done
 
 PhotoStudioGreetingText:
-	text "Ich bin Cameron"
-	line "der Fotograf."
-	para "Du hast wunderbare"
-	line "#mon bei dir."
-	para "Wie wäre es mit"
-	line "einem Foto als"
-	cont "Andenken?"
+	; GSC-DE Dump (+ PC: #MON-Wahl)
+	text "Deine #MON sind"
+	line "großartig!"
+	para "Wie wär's mit ei-"
+	line "nem Foto als Sou-"
+	cont "venir?"
 	done
 
 PhotoStudioWhichMonText:
-	text "O.K.! Größtes"
-	line "Lächeln!"
-
-	para "Welches #mon"
+	; GSC-DE Dump / PC
+	text "O.K.! Und jetzt"
+	line "sag: CHEESE!"
+	para "Welches #MON"
 	line "soll ich"
 	cont "fotografieren?"
 	done
 
 PhotoStudioHoldStillText:
+	; PC
 	text "Alles klar. Bleib"
 	line "kurz ganz still."
 	done
 
 PhotoStudioPrestoText:
+	; PC
 	text "Presto! Fertig!"
 	para "Dein "
 	text_ram wStringBuffer3
@@ -101,6 +102,7 @@ PhotoStudioPrestoText:
 	done
 
 PhotoStudioAlreadyDoneText:
+	; PC
 	text "Ich habe dir heute"
 	line "schon ein Foto"
 	cont "gemacht."
@@ -109,9 +111,9 @@ PhotoStudioAlreadyDoneText:
 	done
 
 PhotoStudioRefusedText:
-	text "Ach, schade. Ich"
+	; GSC-DE Dump
+	text "Oh, schade. Ich"
 	line "dachte, das wäre"
-
-	para "ein schönes"
-	line "Andenken…"
+	para "ein schönes Anden-"
+	line "ken…"
 	done

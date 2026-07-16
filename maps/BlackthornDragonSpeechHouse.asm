@@ -17,20 +17,25 @@ BlackthornDragonSpeechHouse_MapScriptHeader:
 	pokemon_event  5,  5, DRATINI, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, BlackthornDragonSpeechHouseDratiniText, -1
 
 BlackthornDragonSpeechHouseGrannyText:
+	; GSC-DE Dump 6211
 	text "Es gibt hier in"
 	line "EBENHOLZ CITY"
+
 	para "einen Trainerklan,"
 	line "der Drachen nach"
+
 	para "freien Stücken"
 	line "Befehle erteilt."
+
 	para "Daher gibt es in"
 	line "dieser Stadt so"
+
 	para "viele Legenden"
 	line "über Drachen."
 	done
 
-
 BlackthornDragonSpeechHouseDratiniText:
+	; GSC-DE Dump 6212
 	text "DRATINI: Draa!"
 	done
 

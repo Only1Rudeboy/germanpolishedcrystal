@@ -6,9 +6,9 @@ BadgeNames:
 	li "Basis"
 	li "Phantom"
 	li "Stahl"
-	li "Mineral"
+	li "Faust"
 	li "Gletscher"
-	li "Legende"
+	li "Drache"
 	; Kanto
 	li "Fels"
 	li "Quell"

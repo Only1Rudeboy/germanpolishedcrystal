@@ -27,11 +27,6 @@ DragonShrineTakeTestScene:
 	sdefer DragonShrineTestScript
 	end
 
-
-
-
-
-
 DragonShrineTestScript:
 	applymovement PLAYER, DragonShrinePlayerWalkInMovement
 	applyonemovement DRAGONSHRINE_ELDER1, slow_step_down
@@ -87,9 +82,10 @@ DragonShrineTestScript:
 	loadmenu DragonShrineQuestion5_MenuHeader
 	verticalmenu
 	closewindow
+	; Dump order: Stark@Beides@Schwach — Beides ($2) richtig
 	ifequalfwd $1, .WrongAnswer
-	ifequalfwd $2, .WrongAnswer
-	ifequalfwd $3, .RightAnswer
+	ifequalfwd $2, .RightAnswer
+	ifequalfwd $3, .WrongAnswer
 .RightAnswer:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_6
 	iftruefwd .PassedTheTest
@@ -183,15 +179,14 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump 5923
 	text "SANDRA scheint"
 	line "eine wertvolle"
-
 	para "Lektion von dir"
 	line "gelernt zu haben."
-
-	para "Als ihr Großvater"
-	line "danke ich dir"
-	cont "dafür."
+	para "Ich bin ihr Groß-"
+	line "vater und"
+	cont "danke dir dafür."
 	done
 
 .GiveDratini:
@@ -220,22 +215,24 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Partner@"
-	db "Diener@"
-	db "Freund@"
+	; GSC-DE Dump: Kumpel@Untertan@Kamerad@
+	db "Kumpel@"
+	db "Untertan@"
+	db "Kamerad@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 9, 4, 19, 11
+	menu_coords 8, 4, 19, 11
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Taktik@"
+	; GSC-DE Dump: Strategie@Training@Mogeln@
+	db "Strategie@"
 	db "Training@"
-	db "Betrug@"
+	db "Mogeln@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES
@@ -246,8 +243,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
+	; GSC-DE Dump: Schwächling@Muskelprotz@Jeder@
 	db "Schwächling@"
-	db "Harter Typ@"
+	db "Muskelprotz@"
 	db "Jeder@"
 
 DragonShrineQuestion4_MenuHeader:
@@ -259,6 +257,7 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
+	; GSC-DE Dump: Liebe@Gewalt@Wissen@
 	db "Liebe@"
 	db "Gewalt@"
 	db "Wissen@"
@@ -272,9 +271,10 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
+	; GSC-DE Dump: Stark@Beides@Schwach@
 	db "Stark@"
-	db "Schwach@"
 	db "Beides@"
+	db "Schwach@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step_up
@@ -336,10 +336,11 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Schön, dass du"
-	line "da bist."
-	para "Du musst nicht"
-	line "erklären, warum du"
+	; GSC-DE Dump 5909
+	text "Hm… Schön, dass"
+	line "du da bist."
+	para "Du musst nicht er-"
+	line "klären, warum du"
 	cont "hier bist."
 	para "SANDRA hat dich"
 	line "geschickt, oder?"
@@ -348,65 +349,97 @@ DragonShrineElderGreetingText:
 	para "Tut mir Leid, aber"
 	line "ich muss dich"
 	cont "prüfen."
+	para "Keine Angst, du"
+	line "musst nur einige"
+	cont "Fragen"
+	cont "beantworten."
+	para "Fertig?"
 	done
+
 DragonShrineQuestion1Text:
-	text "Was sind #mon"
-	line "für dich?"
+	; GSC-DE Dump 5910
+	text "Was bedeuten dir"
+	line "#mon?"
 	done
+
 DragonShrineQuestion2Text:
-	text "Was brauchst du,"
-	line "um zu gewinnen?"
+	; GSC-DE Dump 5911
+	text "Was hilft dir im"
+	line "Kampf zu gewinnen?"
 	done
+
 DragonShrineQuestion3Text:
-	text "Gegen wen kämpfst"
-	line "du?"
+	; GSC-DE Dump 5912
+	text "Gegen welche Art"
+	line "Trainer möchtest"
+	cont "du kämpfen?"
 	done
+
 DragonShrineQuestion4Text:
-	text "Was ist für einen"
-	line "Trainer am"
+	; GSC-DE Dump 5913
+	text "Was ist beim"
+	line "Trainieren von"
+	cont "#mon am"
 	cont "wichtigsten?"
 	done
+
 DragonShrineQuestion5Text:
+	; GSC-DE Dump 5914
 	text "Starke #mon."
 	line "Schwache #mon."
-	cont "Welche sind"
-	cont "wichtiger?"
+	para "Was ist wichtiger?"
 	done
+
 DragonShrinePassedTestText:
-	text "Hm… Du bist"
-	line "würdig."
-	para "Du verstehst den"
-	line "Geist der Drachen."
-	para "Nimm dieses"
-	line "DRATINI. Es soll"
-	cont "dich begleiten."
+	; GSC-DE Dump 5915
+	text "Hm… Ich verstehe…"
+	para "Du kümmerst dich"
+	line "von Herzen um"
+	cont "#mon."
+	para "Sehr löblich."
+	para "Überzeugung ist"
+	line "wichtig!"
+	para "<PLAYER>, mach"
+	line "weiter so."
+	para "Ich treffe dich"
+	line "dann bei der"
+	cont "#mon LIGA."
 	done
+
 DragonShrineMustIInformLanceText:
-	text "MEISTER: SANDRA!"
-	line "Genug!"
-	para "Muss ich SIEGFRIED"
-	line "davon berichten?"
+	; GSC-DE Dump 5916
+	text "SANDRA!"
+	para "Dieses Kind ist"
+	line "tadellos, in Geist"
+	cont "und Talent!"
+	para "Gestehe deine"
+	line "Niederlage und"
+	cont "übergib den"
+	cont "DRACHENORDEN!"
+	para "…Oder soll ich das"
+	line "SIEGFRIED"
+	cont "erzählen?"
 	done
+
 DragonShrineElderScoldsClairText:
-	text "MEISTER: SANDRA,"
-	line "lerne Demut."
-	para "Dieser Trainer hat"
-	line "die Prüfung fair"
-	cont "bestanden."
+	; GSC-DE Dump 5917
+	text "SANDRA…"
+	para "Dieses Kind spie-"
+	line "gelt das wider,"
+	para "was dir noch"
+	line "fehlt."
 	done
+
 DragonShrineComeAgainText:
+	; GSC-DE Dump 5918
 	text "Komme wieder, wenn"
 	line "du möchtest."
 	done
 
-
-
-
-
-
 DragonShrineTakeThisDratiniText:
-	text "Hm … Schön, dass"
-	line "du hier bist."
+	; GSC-DE Dump 5919
+	text "Hm… Schön, dass du"
+	line "hier bist."
 	para "Du kommst zur"
 	line "richtigen Zeit."
 	para "Ich habe etwas für"
@@ -417,61 +450,63 @@ DragonShrineTakeThisDratiniText:
 	line "Wertschätzung."
 	done
 
-
-
-
-
-
 DragonShrinePartyAndBoxFullText:
-	text "Du hast keinen"
-	line "Platz im Team und"
-	cont "in der Box."
+	; GSC-DE Dump 5921
+	text "Hm? Dein #mon-"
+	line "Team ist voll."
 	done
+
 DragonShrineSymbolicDragonText:
-	text "Dieses DRATINI ist"
-	line "ein Symbol unserer"
-	cont "Anerkennung."
-	para "Behandle es gut."
+	; GSC-DE Dump 5922
+	text "Drachen-#mon"
+	line "sind das Symbol"
+	cont "unseres Klans."
+	para "Du hast bewiesen,"
+	line "dass man dir eines"
+	para "anvertrauen kann."
 	done
+
 DragonShrineSilverIsInTrainingText:
+	; GSC-DE Dump 5924
 	text "Ein Junge deines"
 	line "Alters trainiert"
 	cont "hier."
-
 	para "Er ähnelt SANDRA,"
 	line "als sie jünger"
-
 	para "war. Es besorgt"
 	line "mich ein wenig…"
 	done
+
 DragonShrineWrongAnswerText1:
-	text "…"
+	; GSC-DE Dump 5925
+	text "Hah? Das habe ich"
+	line "nicht mitbekommen…"
 	done
+
 DragonShrineWrongAnswerText2:
-	text "Das war nicht die"
-	line "Antwort, die ich"
-	cont "erwartet habe."
+	; GSC-DE Dump 5926
+	text "Was hast du"
+	line "gesagt?"
 	done
+
 DragonShrineRightAnswerText:
-	text "Hm… Ich verstehe…"
+	; GSC-DE Dump 5927
+	text "Oh, ich verstehe…"
 	done
+
 DragonShrineElder2Text:
+	; GSC-DE Dump 5928
 	text "Es ist schon lange"
 	line "her, seit ein"
-	para "Trainer die"
-	line "Anerkennung"
-	cont "unseres MEISTERs"
-	cont "bekam."
+	para "Trainer die Aner-"
+	line "kennung unseres"
+	cont "MEISTERs bekam."
 	para "Der letzte war"
 	line "Meister SIEGFRIED."
 	done
 
-
-
-
-
-
 DragonShrineElder3Text:
+	; GSC-DE Dump 5929
 	text "Kennst du den"
 	line "jungen Meister"
 	cont "SIEGFRIED?"
@@ -482,48 +517,57 @@ DragonShrineElder3Text:
 	line "Blut."
 	done
 
-
-
-
-
-
 DragonShrineClairYouPassedText:
-	text "SANDRA: Wie? Du"
-	line "hast die Prüfung"
-	cont "bestanden?!"
+	; GSC-DE Dump 5930
+	text "Wie ist es"
+	line "gelaufen?"
+	para "Ich muss nicht"
+	line "danach fragen."
+	para "Du hast versagt?"
+	para "………………"
+	para "…Wie? Bestanden?"
 	done
+
 DragonShrineClairThatCantBeText:
-	text "Das… das kann"
-	line "nicht sein!"
+	; GSC-DE Dump 5931
+	text "Das kann nicht"
+	line "sein!"
 	done
+
 DragonShrineClairYoureLyingText:
-	text "Du lügst! Der"
-	line "MEISTER hat dich"
-	cont "nur geschont!"
+	; GSC-DE Dump 5932
+	text "Du lügst!"
+	para "Sogar ich habe es"
+	line "nicht geschafft!"
 	done
+
 DragonShrineIUnderstandText:
-	text "SANDRA: …Ich"
-	line "verstehe."
+	; GSC-DE Dump 5933
+	text "I-ich verstehe…"
 	done
+
 DragonShrineHereRisingBadgeText:
-	text "Hier. Nimm den"
-	line "LEGENDENORDEN."
-	para "Du hast ihn dir"
-	line "verdient… auch"
-	cont "wenn es mir nicht"
-	cont "passt."
+	; GSC-DE Dump 5934 (engine: RISINGBADGE)
+	text "Hier das ist der"
+	line "DRACHENORDEN…"
+	para "Jetzt nimm schon!"
 	done
+
 DragonShrineRisingBadgeExplanationText:
-	text "Mit dem"
-	line "LEGENDENORDEN"
-	cont "steigen alle"
-	cont "#mon bis LV 100"
-	cont "dir zur Seite."
-	para "Außerdem gehorchen"
-	line "sie dir besser."
-	para "…Du hast ihn dir"
-	line "verdient. Geh nun."
+	; GSC-DE Dump 5936
+	text "Von nun an können"
+	line "deine #mon die"
+	para "Fähigkeit KASKADE"
+	line "einsetzen."
+	para "Ferner werden"
+	line "dich alle #mon"
+	para "als Trainer"
+	line "anerkennen und dir"
+	para "bedingungslos"
+	line "gehorchen."
 	done
+
 DragonShrineSpeechlessText:
-	text "SANDRA: …"
+	; GSC-DE Dump 5937
+	text "………………"
 	done
