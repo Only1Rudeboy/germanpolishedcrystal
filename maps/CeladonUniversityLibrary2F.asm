@@ -211,13 +211,13 @@ CeladonUniversityLibrary2FBookshelf10Text:
 	line "Insel riesiger"
 	cont "#MON-Roboter."
 	para "' #MON-Robotik'"
-	line "von Anne Droid …"
+	line "von ANNE DROID …"
 	done
 
 CeladonUniversityLibrary2FBookshelf11Text:
 	text "'Vergib und"
-	line "vergiss' von Saul"
-	cont "Goode."
+	line "vergiss' von SAUL"
+	cont "GOODE."
 
 	para "Ein Mann mit"
 	line "breitem Grinsen"
@@ -226,7 +226,7 @@ CeladonUniversityLibrary2FBookshelf11Text:
 
 CeladonUniversityLibrary2FBookshelf12Text:
 	text "'Schwerelosigkeit'"
-	line "von Andy Gravity."
+	line "von ANDY GRAVITY."
 	cont "Klingt luftig!"
 	done
 

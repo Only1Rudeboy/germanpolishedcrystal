@@ -396,5 +396,5 @@ CopycatsHouse2FDollScript:
 
 CopycatsHouse2FDittoText:
 	; PC-only
-	text "Ditto: Dii…"
+	text "DITTO: Dii…"
 	done

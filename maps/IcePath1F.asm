@@ -42,8 +42,9 @@ SkierMariaSeenText:
 	done
 
 SkierMariaBeatenText:
-	text "Deine Kampftechnik"
-	line "ist bewundernswert!"
+	text "Deine"
+	line "Kampftechnik ist"
+	cont "bewundernswert!"
 	done
 
 BoarderStefanSeenText:

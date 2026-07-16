@@ -312,7 +312,8 @@ GoldenrodHarborFisherText:
 
 Text_GoldenrodHarborTutorHyperVoice:
 	text "Ich bringe deinem"
-	line "#MON Schallwelle"
+	line "#MON"
+	cont "Schallwelle"
 	para "bei - für ein"
 	line "Silberblatt."
 	done
@@ -320,7 +321,8 @@ Text_GoldenrodHarborTutorHyperVoice:
 
 Text_GoldenrodHarborTutorQuestion:
 	text "Soll ich deinem"
-	line "#MON Schallwelle"
+	line "#MON"
+	cont "Schallwelle"
 	cont "beibringen?"
 	done
 

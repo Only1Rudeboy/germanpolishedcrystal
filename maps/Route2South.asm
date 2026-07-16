@@ -42,9 +42,10 @@ GenericTrainerBug_maniacDoug:
 	done
 Bug_maniacRobSeenText:
 	; GSC-DE Dump 7083
-	text "Meine Käfer-#MON"
-	line "sind zäh. Du"
-	cont "wirst verlieren!"
+	text "Meine"
+	line "Käfer-#MON sind"
+	cont "zäh. Du wirst"
+	cont "verlieren!"
 	done
 Bug_maniacRobBeatenText:
 	; GSC-DE Dump 7084

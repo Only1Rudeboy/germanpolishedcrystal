@@ -660,9 +660,10 @@ RocketBaseLancePostBattleText:
 	done
 
 RocketBaseLancePowerOffText:
-	text "Tut mir Leid, <PLAYER>."
-	line "Ich habe beobach-"
-	cont "tet, wie geschickt"
+	text "Tut mir Leid,"
+	line "<PLAYER>."
+	para "Ich habe beobach-"
+	line "tet, wie geschickt"
 	cont "du bist. Daher"
 	cont "habe ich mich"
 	cont "zurückgehalten."

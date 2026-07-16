@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW; FAITH-Reflow. |
+| **ROM 3.2.3.038** | **Feinschliff:** over18-Reflow (Hafen/Eispfad/Radioturm/…); Mon-Rufe CAPS; Scherzbuch-Autoren CAPS; „Total cool!“; Saul/Anne/Andy. |
+| **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW. |
 | **ROM 3.2.3.036** | **Namen-Konsistenz:** JUTTA/HANNES/SATORU; IVY/FAITH/CHERYL/REI; Trade/Wonder-OTs CAPS; KIRK/SILVER. |
 | **ROM 3.2.3.035** | **Trainer-Namen-Block:** GSC-DE-Map pret↔Dump; Rest CAPS; BT-OTs; Guest-Speaker CAPS; Phone Dump-align. |
 | **ROM 3.2.3.033** | **Phone-Anzeigenamen komplett (Dump-align):** Alle Phone-Rematch-Trainer DE. |

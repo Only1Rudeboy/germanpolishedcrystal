@@ -186,16 +186,16 @@ EusineNoBeastsText:
 	done
 
 EusineShowsRaikouText:
-	text "Das ist Raikou:"
+	text "Das ist RAIKOU:"
 	done
 
 EusineShowsEnteiText:
-	text "Das ist Entei:"
+	text "Das ist ENTEI:"
 	done
 
 EusineShowsSuicuneText:
 	text "Das ist natürlich"
-	line "Suicune:"
+	line "SUICUNE:"
 	done
 
 

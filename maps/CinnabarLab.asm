@@ -444,5 +444,5 @@ CinnabarLabGiovanniStopText:
 
 CinnabarLabCelebiText:
 	; PC (class C)
-	text "Celebi: Biii!"
+	text "CELEBI: Biii!"
 	done

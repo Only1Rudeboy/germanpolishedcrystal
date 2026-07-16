@@ -434,7 +434,7 @@ BattleTower2FSuperNerdText:
 	done
 
 BattleTower2FPikachuText:
-	text "Pikachu: Pichuu!"
+	text "PIKACHU: Pichuu!"
 	done
 
 BattleTower2FYoungsterText:

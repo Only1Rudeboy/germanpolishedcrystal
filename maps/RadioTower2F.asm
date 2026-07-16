@@ -475,7 +475,8 @@ RadioTower2FBuenaComeBackAfterListeningText:
 
 RadioTower2FBuenaAlreadyPlayedText:
 	; GSC-DE Dump 2034 (Sorry → Tut mir Leid already fixed)
-	text "BUENA: Tut mir Leid…"
+	text "BUENA: Tut mir"
+	line "Leid…"
 	para "Du hast pro Tag"
 	line "nur einen Versuch."
 	para "Probiere morgen"

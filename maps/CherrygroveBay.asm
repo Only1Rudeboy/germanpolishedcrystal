@@ -295,7 +295,8 @@ CherrygroveBayFisherText:
 CherrygroveBayHikerText:
 	text "Ich glaube nicht"
 	line "an Schöpfungs-"
-	cont "mythen mit #MON."
+	cont "mythen mit"
+	cont "#MON."
 	para "JOHTO entstand"
 	line "über Millionen"
 	cont "Jahre"

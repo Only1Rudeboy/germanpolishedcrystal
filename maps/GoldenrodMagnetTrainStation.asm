@@ -92,7 +92,7 @@ GoldenrodMagnetTrainStationCooltrainerfScript:
 	line "zoooom, byun!"
 	cont "Shuuu!"
 
-	para "So cool!"
+	para "Total cool!"
 	done
 
 GoldenrodMagnetTrainStationOfficerApproachTrainDoorMovement:

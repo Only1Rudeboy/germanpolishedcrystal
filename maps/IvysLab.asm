@@ -208,7 +208,7 @@ IvysLabNidorinoScript:
 	line "schwach…"
 	done
 .WeakCry:
-	text "Nidorino: Gyun…"
+	text "NIDORINO: Gyun…"
 	done
 
 .Healed:
