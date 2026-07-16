@@ -170,7 +170,7 @@ GenericTrainerBlackbeltAnder:
 	generictrainer BLACKBELT_T, ANDER, EVENT_BEAT_BLACKBELT_ANDER, .SeenText, .BeatenText
 
 	text "Du bist den ganzen"
-	line "Weg aus Johto"
+	line "Weg aus JOHTO"
 	cont "gekommen?"
 	para "Du musst sehr"
 	line "hartnäckig sein!"

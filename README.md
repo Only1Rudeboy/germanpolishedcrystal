@@ -22,7 +22,8 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 
 | Zeitraum / Commit-Schwerpunkt | Inhalt |
 |---|---|
-| **ROM 3.2.3.038** | **Feinschliff:** over18-Reflow (Hafen/Eispfad/Radioturm/…); Mon-Rufe CAPS; Scherzbuch-Autoren CAPS; „Total cool!“; Saul/Anne/Andy. |
+| **ROM 3.2.3.039** | **JOHTO/KANTO CAPS** in Dialogen (Dump-Stil); Klarstellung: `{d:KONSTANTE}` = Assembler-Wert, Breite fest (z. B. 30 Punkte, 20 PARKBÄLLE) — alles ≤18. |
+| **ROM 3.2.3.038** | **Feinschliff:** over18-Reflow; Mon-Rufe CAPS; Scherzbuch-Autoren; „Total cool!“. |
 | **ROM 3.2.3.037** | **Speaker-Feinschliff:** Zwillinge/Guests/Devs CAPS; VERKÄUFER; Journal PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW. |
 | **ROM 3.2.3.036** | **Namen-Konsistenz:** JUTTA/HANNES/SATORU; IVY/FAITH/CHERYL/REI; Trade/Wonder-OTs CAPS; KIRK/SILVER. |
 | **ROM 3.2.3.035** | **Trainer-Namen-Block:** GSC-DE-Map pret↔Dump; Rest CAPS; BT-OTs; Guest-Speaker CAPS; Phone Dump-align. |
@@ -89,8 +90,9 @@ ROM-Versionen beziehen sich auf lokal versionierte Builds (`tools/save_rom_versi
 |---|---|
 | **A / B / C** | A = GSC-Dump 1:1 · B = Dump + PC-Mechanik · C = PC-only DE + CAPS |
 | **Breite** | TEXTBOX_INNERW **18**; `#MON`/`#BALL`/`#DEX`/`#COM` = 7; `<PLAYER>` = 7 |
+| **`{d:NAME}`** | Wird beim **Assemblieren** durch die Zahl der Konstante ersetzt (nicht zur Laufzeit). Beispiel: `{d:BUG_CONTEST_BALLS}` → `20`. Die sichtbare Zeilenbreite ist damit **fest** und prüfbar. |
 | **Verboten** | `<PLAY_G>` (unmapped); `;` in Textstrings; `@` mitten im String |
-| **Formulierungen** | `findet` / `erhält` · `PKMN-ARENA von …` · CAPS-Orte (NEUBORKIA, DUKATIA CITY, …) |
+| **Formulierungen** | `findet` / `erhält` · `PKMN-ARENA von …` · CAPS-Orte (NEUBORKIA, DUKATIA CITY, JOHTO, KANTO, …) |
 | **User-Override** | Mama: **Schatz** statt Dump „Baby“ |
 
 #### DE-Ortsnamen (Auswahl)

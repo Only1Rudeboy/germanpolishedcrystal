@@ -32,7 +32,7 @@ LyraPhoneLandmarkText:
 
 LyraPhoneKantoText:
 	text "Du bist ganz in"
-	line "Kanto!"
+	line "KANTO!"
 	prompt
 
 LyraPhoneIslandsText:
@@ -151,7 +151,7 @@ LyraPhoneSpecialText_FirstBadge:
 	cont "deinen"
 
 	para "ersten Orden in"
-	line "Kanto? Super!"
+	line "KANTO? Super!"
 
 	para "Lass uns beide"
 	line "weiter Orden"

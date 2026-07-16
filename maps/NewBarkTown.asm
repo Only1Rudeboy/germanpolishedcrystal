@@ -399,7 +399,7 @@ Text_LyraGoodbye1:
 	text "LYRA: <PLAYER>!"
 	para "Ich habe gehört,"
 	line "du hast alle Orden"
-	cont "in Johto."
+	cont "in JOHTO."
 	para "… Du bist wirklich"
 	line "etwas Besonderes,"
 	cont "<PLAYER>."

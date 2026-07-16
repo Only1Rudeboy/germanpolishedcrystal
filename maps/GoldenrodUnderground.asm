@@ -578,7 +578,7 @@ PiersIntroText:
 	cont "singen … ♪"
 	para "Ich bin PIERS. Ich"
 	line "komme nicht aus"
-	cont "Johto,"
+	cont "JOHTO,"
 	para "aber ich kam her,"
 	line "um im Radio"
 	para "zu singen und alle"

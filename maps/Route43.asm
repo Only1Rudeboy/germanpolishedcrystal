@@ -115,7 +115,7 @@ Route43SightseerfScript:
 
 .IntroText:
 	text "Ich suche starke"
-	line "Trainer in Johto,"
+	line "Trainer in JOHTO,"
 	para "aber ich habe noch"
 	line "keinen gefunden."
 	para "Hmmm … Du siehst"

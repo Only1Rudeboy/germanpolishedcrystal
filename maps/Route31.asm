@@ -86,7 +86,7 @@ TrainerCooltrainermFinch:
 	cont "Kampf gesehen."
 	para "Vielleicht triffst"
 	line "du andere Trainer"
-	para "wie mich in Johto."
+	para "wie mich in JOHTO."
 	line "Sie suchen Stärke."
 	para "Fordere sie am"
 	line "besten heraus!"

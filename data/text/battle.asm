@@ -1864,7 +1864,7 @@ Rival1_5FinalPkmnText:
 
 Rival2_1FinalPkmnText:
 	text "Aha. Du kamst"
-	line "nicht nach Kanto,"
+	line "nicht nach KANTO,"
 	cont "nur um anzugeben…"
 	prompt
 

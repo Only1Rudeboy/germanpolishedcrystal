@@ -1647,7 +1647,7 @@ LyraAnnouncesGymChallengeText:
 	para "hier nicht mehr"
 	line "helfen kann."
 	para "Ich fordere alle"
-	line "Arenen in Johto"
+	line "Arenen in JOHTO"
 	cont "heraus und will in"
 	cont "die #MON-Liga!"
 	para "Wünsch mir Glück!"
@@ -1661,7 +1661,7 @@ ElmAfterTicketText:
 	para "Ob sie die Liga"
 	line "zuerst erreicht?"
 	para "Grüß PROF. EICH in"
-	line "Kanto von mir!"
+	line "KANTO von mir!"
 	done
 ElmBeforeBattleText:
 	text "LIND: <PLAYER>! Wie"

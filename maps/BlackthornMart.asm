@@ -49,7 +49,7 @@ BlackthornMartBlackbeltText:
 BlackthornMartSuperNerdText:
 	; PC-only
 	text "Alle Städte in"
-	line "Johto sind nach"
+	line "JOHTO sind nach"
 	cont "Pflanzen benannt."
 
 	para "Ist dir das schon"

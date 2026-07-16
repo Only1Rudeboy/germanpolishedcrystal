@@ -491,7 +491,7 @@ Route34RichBoyIrvingScript:
 	cont "gekauft!"
 	para "Sie sind so stark,"
 	line "dass wir die"
-	cont "Azalea-Arena"
+	cont "AZALEA-Arena"
 	cont "besiegten!"
 	para "Du willst gegen"
 	line "sie kämpfen? Na"

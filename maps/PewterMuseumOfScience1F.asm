@@ -326,7 +326,7 @@ Museum1FBookshelfSignpostText:
 	cont "#MON-Vorfahren,"
 	para "Pflege der"
 	line "Lehmschicht von"
-	cont "Kanto…"
+	cont "KANTO…"
 	done
 
 AskHelixFossilText:

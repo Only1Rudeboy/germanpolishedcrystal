@@ -84,7 +84,7 @@ SinjohRuinsHousePokefanmText:
 	para "Die Ruinen hier"
 	line "wurden von den"
 	para "Ureinwohnern von"
-	line "Alph in Johto und"
+	line "Alph in JOHTO und"
 	para "der Lanzen-Säule"
 	line "in Sinnoh"
 	cont "beeinflusst."
