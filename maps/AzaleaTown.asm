@@ -226,9 +226,10 @@ AzaleaTown_CelebiTrigger:
 	step_end
 
 AzaleaTownSignText:
+	; GSC-DE Dump
 	text "AZALEA CITY"
 	line "Hier leben Men-"
-	cont "schen und #mon"
+	cont "schen und #MON"
 	cont "in Harmonie"
 	done
 
@@ -239,11 +240,12 @@ KurtsHouseSignText:
 
 
 AzaleaGymSignText:
+	; GSC-DE Dump
 	text "PKMN-ARENA von"
 	line "AZALEA CITY"
 	cont "LEITUNG: KAI"
 	para "Die lebende Käfer-"
-	line "#mon-Enzyklo-"
+	line "#MON-Enzyklo-"
 	cont "pädie"
 	done
 
@@ -298,22 +300,22 @@ AzaleaTownGrampsScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Die FLEGMON sind"
-	line "aus der Stadt"
-	cont "verschwunden …"
-	para "Ich hörte, ihre"
-	line "Schwänze werden"
-	cont "irgendwo verkauft."
+	; GSC-DE Dump
+	text "Alle FLEGMON sind"
+	line "aus der Stadt ver-"
+	cont "schwunden…"
+	para "Ich hörte, dass"
+	line "ihre RUTEN ver-"
+	cont "kauft werden."
 	done
 
 .Text2:
+	; GSC-DE Dump
 	text "Die FLEGMON sind"
-	line "zurück."
-
-	para "Typisch für sie."
-	line "Sie haben wohl"
-	cont "irgendwo nur"
-	cont "rumgetrödelt."
+	line "zurückgekehrt."
+	para "Vermutlich haben"
+	line "sie wieder irgend-"
+	cont "wo gefaulenzt."
 	done
 
 AzaleaTownTeacherScript:
@@ -369,26 +371,27 @@ AzaleaTownWoosterText:
 	done
 
 AzaleaTownYoungsterText:
-	text "Geh durch AZALEA"
-	line "CITY und du"
-	cont "landest im"
-	cont "STEINEICHENWALD."
+	; GSC-DE Dump
+	text "Gehe durch AZALEA"
+	line "CITY und du lan-"
+	cont "dest im STEINEI-"
+	cont "CHENWALD."
 	para "Aber diese dürren"
 	line "Bäume machen es"
-	cont "unmöglich,"
-	cont "weiterzukommen."
-	para "Die #mon des"
-	line "KÖHLERS können die"
-	cont "Bäume mit"
-	cont "Zerschneider"
-	cont "fällen."
+	para "unmöglich, weiter-"
+	line "zukommen."
+	para "Die #MON des"
+	line "KÖHLERs können die"
+	cont "Bäume mit dem ZER-"
+	cont "SCHNEIDER fällen."
 	done
 
 
 AzaleaTownRocket1Text:
+	; GSC-DE Dump
 	text "Es ist gefährlich,"
 	line "da hineinzugehen."
-	cont "Darum stehe ich"
+	cont "Deshalb stehe ich"
 	cont "hier Wache."
 	para "Bin ich nicht ein"
 	line "barmherziger"
@@ -426,9 +429,9 @@ AzaleaTownKurtScript:
 	end
 
 AzaleaTownKurtText:
-	text "Könntest du"
-	line "nachsehen, warum"
-	cont "der"
-	cont "STEINEICHENWALD so"
-	cont "unruhig ist?"
+	; GSC-DE Dump
+	text "Könntest du nach-"
+	line "sehen, was im"
+	cont "STEINEICHENWALD"
+	cont "los ist?"
 	done

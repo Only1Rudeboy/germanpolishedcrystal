@@ -64,60 +64,64 @@ AzaleaGymBugsyScript:
 	setevent EVENT_BEAT_BUG_CATCHER_BENNY
 	setevent EVENT_BEAT_BUG_CATCHER_AL
 	setevent EVENT_BEAT_BUG_CATCHER_JOSH
+	; GSC-DE Dump: INSEKTORDEN (+ PC: getauschte #MON)
 	writethistext
-		text "Kennst du die"
-		line "Vorteile des"
-		cont "Hornissordens?"
-		para "So gehorchen dir"
-		line "#mon bis <LV> 30,"
+		text "Kennst du die Vor-"
+		line "züge des INSEKT-"
+		cont "ORDENs?"
+		para "Durch ihn gehor-"
+		line "chen dir #MON"
+		cont "bis zu Level 30,"
 		cont "auch getauschte."
-		para "#mon, die"
-		line "Zerschneider"
-		cont "können, dürfen ihn"
-		cont "auch außerhalb von"
-		cont "Kämpfen nutzen."
-		para "Hier, ich habe"
-		line "noch etwas für"
-		cont "dich."
+		para "Deine #MON"
+		line "können ZERSCHNEI-"
+		cont "DER nun auch"
+		cont "außerhalb des"
+		cont "Kampfes anwenden."
+		para "Bitte nimm auch"
+		line "dies!"
 		done
 	promptbutton
 	verbosegivetmhm TM_U_TURN
 	setevent EVENT_GOT_TM69_U_TURN
 	jumpthisopenedtext
 
+	; PC: TM69 Kehrtwende (statt Dump TM49 ZORNKLINGE)
 	text "TM69 enthält"
 	line "Kehrtwende."
-
-	para "Dein #mon"
+	para "Dein #MON"
 	line "greift an und"
 	cont "wechselt dann"
 	cont "sofort aus."
-
 	para "Ist das nicht"
-	line "toll? Hab ich"
-	cont "entdeckt!"
+	line "toll? Ich selbst"
+	cont "habe diese Ent-"
+	cont "deckung gemacht!"
 	done
 
 .SeenText:
-	text "Ich bin KAI! Bei"
-	line "Käfer-#mon"
-	cont "verliere ich nie."
-	para "Meine Forschung"
-	line "macht mich zur"
-	cont "Autorität auf"
+	; GSC-DE Dump
+	text "Ich bin KAI!"
+	line "Ich verliere nie,"
+	para "wenn es um Käfer-"
+	line "#MON geht."
+	para "Meine Forschungen"
+	line "machen mich zu ei-"
+	cont "ner Autorität auf"
 	cont "diesem Gebiet!"
-	para "Lass mich zeigen,"
-	line "was ich gelernt"
-	cont "habe!"
+	para "Lass mich demonst-"
+	line "rieren, was ich"
+	cont "gelernt habe!"
 	done
 
 
 .BeatenText:
-	text "Erstaunlich! Du"
-	line "bist ein wahrer"
-	cont "#mon-Experte!"
-	para "Meine Forschung"
-	line "ist noch nicht"
+	; GSC-DE Dump
+	text "Erstaunlich!"
+	line "Du bist ein wahrer"
+	cont "#MON-Experte!"
+	para "Meine Forschungen"
+	line "sind noch nicht"
 	cont "abgeschlossen."
 	para "O.K., du gewinnst."
 	line "Nimm diesen ORDEN."
@@ -125,14 +129,16 @@ AzaleaGymBugsyScript:
 
 
 .AfterText:
-	text "Käfer-#mon sind"
-	line "ein weites Feld."
-	cont "Es gibt noch viele"
-	cont "Geheimnisse zu"
-	cont "ergründen."
+	; GSC-DE Dump
+	text "Käfer-#MON"
+	line "sind ein weites"
+	para "Gebiet. Es gibt"
+	line "noch viele Geheim-"
+	cont "nisse zu er-"
+	cont "gründen."
 	para "Studiere deine"
-	line "Lieblinge"
-	cont "gründlich!"
+	line "Lieblinge gründ-"
+	cont "lich!"
 	done
 
 
@@ -141,30 +147,35 @@ AzaleaGymGuyScript:
 	iftrue_jumptextfaceplayer .WinText
 	jumpthistextfaceplayer
 
-	text "Yo,"
-	line "Herausforderer!"
-	para "KAI ist jung, aber"
-	line "sein Wissen über"
-	cont "Käfer-#mon ist"
-	cont "echt."
-	para "Ohne meinen Rat"
-	line "wird es schwer."
-	para "Mal sehen …"
-	line "Käfer-#mon"
-	cont "mögen kein Feuer."
-	para "Flug-Attacken sind"
-	line "auch sehr"
-	cont "effektiv."
+	; GSC-DE Dump
+	text "Yo, Herausfor-"
+	line "derer!"
+	para "KAI ist zwar jung,"
+	line "aber sein Wissen"
+	para "über Käfer-#-"
+	line "MON ist unüber-"
+	cont "trefflich."
+	para "Ohne meine Tipps"
+	line "wird der Kampf für"
+	cont "dich sehr hart."
+	para "Mal sehen… Käfer-"
+	line "#MON mögen kein"
+	cont "Feuer."
+	para "Auch Flug-Attacken"
+	line "sind sehr effek-"
+	cont "tiv."
 	done
 
 .WinText:
+	; GSC-DE Dump
 	text "Gut gemacht! Das"
-	line "war ein"
-	cont "Musterkampf zweier"
-	cont "junger Trainer."
+	line "war ein Muster-"
+	cont "kampf zweier ta-"
+	cont "lentierter, junger"
+	cont "Trainer."
 	para "Mit Leuten wie dir"
 	line "sieht die Zukunft"
-	cont "der #mon rosig"
+	cont "der #MON rosig"
 	cont "aus!"
 	done
 
@@ -172,7 +183,8 @@ AzaleaGymGuyScript:
 GenericTrainerBug_catcherBenny:
 	generictrainer BUG_CATCHER, BENNY, EVENT_BEAT_BUG_CATCHER_BENNY, .SeenText, .BeatenText
 
-	text "#mon werden"
+	; GSC-DE Dump
+	text "#MON werden"
 	line "stärker, wenn sie"
 	cont "sich entwickeln."
 	cont "Wirklich!"
@@ -180,12 +192,13 @@ GenericTrainerBug_catcherBenny:
 
 
 .SeenText:
-	text "Käfer-#mon"
+	; GSC-DE Dump
+	text "Käfer-#MON"
 	line "entwickeln sich"
-	cont "sehr früh. Das"
-	cont "heißt, sie werden"
-	cont "auch schnell"
-	cont "stärker."
+	para "sehr früh. Das"
+	line "heißt, dass sie"
+	para "auch schnell stär-"
+	line "ker werden."
 	done
 
 
@@ -198,50 +211,52 @@ GenericTrainerBug_catcherBenny:
 GenericTrainerBug_catcherAl:
 	generictrainer BUG_CATCHER, AL, EVENT_BEAT_BUG_CATCHER_AL, .SeenText, .BeatenText
 
+	; GSC-DE Dump
 	text "Sie sind so cool,"
 	line "aber die meisten"
-	cont "Mädchen mögen"
-	cont "keine"
-	cont "Käfer-#mon."
+	para "Mädchen mögen kei-"
+	line "ne Käfer-#MON."
 	para "Ich weiß nicht,"
 	line "wieso…"
 	done
 
 
 .SeenText:
-	text "Käfer-#mon sind"
-	line "cool und tough!"
-	cont "Ich beweise es"
-	cont "dir!"
+	; GSC-DE Dump
+	text "Käfer-#MON"
+	line "sind cool und"
+	para "tough! Ich beweise"
+	line "es dir!"
 	done
 
 
 .BeatenText:
+	; GSC-DE Dump
 	text "Du hast bewiesen,"
-	line "wie tough du bist"
-	cont "…"
+	line "wie tough du bist…"
 	done
 
 
 GenericTrainerBug_catcherJosh:
 	generictrainer BUG_CATCHER, JOSH, EVENT_BEAT_BUG_CATCHER_JOSH, .SeenText, .BeatenText
 
+	; GSC-DE Dump
 	text "Vielleicht sollte"
 	line "ich sie ein wenig"
-	cont "besser trainieren"
-	cont "…"
+	cont "besser trainieren…"
 	done
 
 
 .SeenText:
-	text "Du hast die"
-	line "FLEGMON gerettet?"
-	cont "Oh Mann, bist du"
+	; GSC-DE Dump
+	text "Du hast die FLEG-"
+	line "MON gerettet? Oh"
+	cont "Mann, bist du"
 	cont "stark!"
-	para "Aber meine"
-	line "ausgewachsenen"
-	cont "#mon sind auch"
-	cont "sehr stark!"
+	para "Aber meine ausge-"
+	line "wachsenen #MON"
+	cont "sind auch sehr"
+	cont "stark!"
 	done
 
 
@@ -253,31 +268,33 @@ GenericTrainerBug_catcherJosh:
 GenericTrainerTwinsAmyandmimi1:
 	generictrainer TWINS, AMYANDMIMI1, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
+	; GSC-DE Dump
 	text "EVA: Du bist"
 	line "wirklich stark!"
 	done
 
 
 .SeenText:
-	text "EVA: Hallo!"
-	line "Forderst du den"
-	cont "LEITER heraus?"
-	cont "Unmöglich!"
+	; GSC-DE Dump
+	text "EVA: Hi! Forderst"
+	line "du den LEITER"
+	cont "heraus? Unmöglich!"
 	done
 
 
 GenericTrainerTwinsAmyandmimi2:
 	generictrainer TWINS, AMYANDMIMI2, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
-	text "UTE: Unsere"
-	line "Käfer-#mon"
-	cont "haben verloren!"
-	cont "Was für eine"
-	cont "Schande!"
+	; GSC-DE Dump
+	text "UTE: Unsere Käfer-"
+	line "#MON haben ver-"
+	cont "loren! Was für ei-"
+	cont "ne Schande!"
 	done
 
 
 .SeenText:
+	; GSC-DE Dump
 	text "UTE: Du möchtest"
 	line "zum LEITER? Erst"
 	cont "sind wir dran!"
@@ -285,6 +302,7 @@ GenericTrainerTwinsAmyandmimi2:
 
 
 TrainerTwinsAmyandmimiBeatenText:
+	; GSC-DE Dump
 	text "EVA & UTE: Oh, um"
 	line "Himmels Willen!"
 	done

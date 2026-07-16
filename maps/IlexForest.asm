@@ -133,20 +133,25 @@ IlexForestCharcoalApprenticeScript:
 	setscene SCENE_ILEXFOREST_FARFETCHD_QUEST
 	jumpthistextfaceplayer
 
-	text "Oh nein… Mein Chef"
-	line "wird stinksauer"
+	; GSC-DE Dump
+	text "Oh, Mist… Mein"
+	line "Boss wird sauer"
 	cont "sein…"
 	para "Das PORENTA, das"
-	line "für die Holzkohle"
-	cont "Bäume"
-	cont "zerschneidet, ist"
-	cont "mir abgehauen."
-	para "Im STEINEICHENWALD"
-	line "kann ich nicht"
-	cont "nach ihm suchen."
-	para "Er ist mir zu"
-	line "groß, dunkel und"
-	cont "gruselig…"
+	line "mit dem ZER-"
+	cont "SCHNEIDER Bäume"
+	para "fällt, um nach"
+	line "Holzkohle zu"
+	para "suchen, ist"
+	line "abgehauen."
+	para "Ich traue mich"
+	line "nicht in den"
+	cont "STEINEICHENWALD,"
+	cont "um nach ihm"
+	cont "zu suchen."
+	para "Er ist so groß,"
+	line "dunkel und"
+	cont "unheimlich…"
 	done
 
 
@@ -857,18 +862,24 @@ MovementData_IlexForestLyraLeaves:
 
 
 IlexForestApprenticeAfterText:
-	text "Toll! Vielen Dank!"
-	para "Die #mon meines"
-	line "Chefs gehorchen"
-	cont "mir nicht - ich"
-	cont "habe keinen ORDEN."
+	; GSC-DE Dump
+	text "Wow! Vielen Dank"
+	line "auch!"
+	para "Die #MON von"
+	line "meinem Boss"
+	cont "gehorchen mir"
+	cont "nicht, da ich"
+	cont "keinen ORDEN"
+	cont "besitze."
 	done
 Text_ItsTheMissingPokemon:
+	; GSC-DE Dump
 	text "Das ist das"
 	line "verschollene"
-	cont "#mon!"
+	cont "#MON!"
 	done
 Text_Kwaaaa:
+	; GSC-DE Dump
 	text "PORENTA: Quack!"
 	done
 
@@ -878,38 +889,42 @@ Text_Kwaaaa:
 
 
 Text_CharcoalMasterIntro:
+	; GSC-DE Dump
 	text "Ah! Mein PORENTA!"
 	para "Du hast es für uns"
 	line "gefunden?"
-	para "Ohne es können wir"
-	line "ZERSCHNEIDER nicht"
-	cont "nutzen, um Bäume"
-	cont "zu fällen."
+	para "Wir können ohne"
+	line "es nicht den"
+	para "ZERSCHNEIDER"
+	line "einsetzen, mit dem"
+	cont "wir Bäume fällen,"
+	cont "um Holzkohle zu"
+	cont "finden."
 	para "Danke!"
-	para "Wie kann ich dir"
-	line "danken…"
-	para "Ah, genau! Nimm"
+	para "Wie kann ich"
+	line "dir danken…"
+	para "Ah genau! Nimm"
 	line "dies."
 	done
 Text_CharcoalMasterOutro:
+	; GSC-DE Dump
 	text "Diese VM enthält"
 	line "ZERSCHNEIDER."
 	para "Bring sie einem"
-	line "#mon bei, um"
+	line "#MON bei, um"
 	cont "kleine Sträucher"
 	cont "zu zerschneiden."
-	para "Du brauchst den"
-	line "ORDEN aus der"
-	cont "PKMN-ARENA von"
-	cont "AZALEA CITY, um"
+	para "Du benötigst noch"
+	line "den ORDEN aus der"
+	para "PKMN-ARENA von"
+	line "AZALEA CITY, um"
 	cont "sie einzusetzen."
 	done
 Text_CharcoalMasterTalkAfter:
+	; GSC-DE Dump
 	text "Soll ich dich"
 	line "lehren, wie man"
-
 	para "ein Köhler wird?"
-
 	para "In zehn Jahren"
 	line "wirst du ein"
 	cont "Meister sein!"
@@ -921,12 +936,13 @@ Text_CharcoalMasterTalkAfter:
 
 
 Text_HeadbuttIntro:
-	text "Was ich mache? Ich"
-	line "setze"
+	; GSC-DE Dump
+	text "Was ich mache?"
+	line "Ich setze"
 	para "KOPFNUSS ein, um"
 	line "Bäume zu"
-	para "schütteln. Das"
-	line "macht Spaß!"
+	para "schütteln."
+	line "Das macht Spaß!"
 	para "Probier es doch"
 	line "auch einmal!"
 	done
@@ -939,16 +955,14 @@ Text_HeadbuttIntro:
 Text_HeadbuttIntro2:
 	text "Ach, und wenn"
 	line "keins deiner"
-	cont "#mon KOPFNUSS"
+	cont "#MON KOPFNUSS"
 	cont "kann?"
-
 	para "Kein Problem!"
 	done
 
 Text_IlexForestTutorHeadbutt:
 	text "Ich bringe deinem"
-	line "#mon KOPFNUSS"
-
+	line "#MON KOPFNUSS"
 	para "bei, wenn du mir"
 	line "ein Silberblatt"
 	cont "gibst."
@@ -957,7 +971,7 @@ Text_IlexForestTutorHeadbutt:
 
 Text_IlexForestTutorQuestion:
 	text "Soll ich deinem"
-	line "#mon KOPFNUSS"
+	line "#MON KOPFNUSS"
 	cont "beibringen?"
 	done
 
@@ -981,20 +995,22 @@ Text_IlexForestMossRock:
 	done
 
 IlexForestSignpost:
-	text "Der"
-	line "STEINEICHENWALD"
-	cont "ist so dicht, dass"
-	cont "man den Himmel"
-	cont "nicht sieht."
+	; GSC-DE Dump
+	text "Der STEINEICHEN-"
+	line "WALD ist so dicht,"
+	para "dass man den"
+	line "Himmel nicht sehen"
+	cont "kann."
 	para "Halte Ausschau"
 	line "nach verlorenen"
 	cont "Gegenständen."
 	done
 IlexForestTrainerTips:
+	; PC: VM ohne Beibringen
 	text "Trainer-Tipps"
 	para "Solange du eine VM"
 	line "im Beutel hast und"
-	cont "ein #mon im"
+	cont "ein #MON im"
 	cont "Team, das sie"
 	cont "einsetzen kann,"
 	para "kannst du sie auch"
@@ -1005,6 +1021,7 @@ IlexForestTrainerTips:
 	cont "beibringen!"
 	done
 Text_IlexForestShrine:
+	; GSC-DE Dump
 	text "STEINEICHENWALD-"
 	line "SCHREIN…"
 	para "Er wurde zu Ehren"
@@ -1012,25 +1029,29 @@ Text_IlexForestShrine:
 	cont "aufgestellt…"
 	done
 Text_ShrineCelebiEvent:
+	; GSC-DE Dump
 	text "STEINEICHENWALD-"
 	line "SCHREIN…"
 	para "Er wurde zu Ehren"
 	line "des Waldpatrons"
 	cont "aufgestellt…"
 	para "Oh? Was ist das?"
-	para "Ein Loch. Der"
-	line "GS-BALL passt"
-	cont "genau hinein."
+	para "Ein Loch. Es"
+	line "scheint, als ob"
+	para "der GS-BALL genau"
+	line "hier hinein passt."
 	para "Den GS-BALL hier"
 	line "hineinlegen?"
 	done
 Text_InsertGSBall:
+	; GSC-DE Dump
 	text "<PLAYER> legt den"
 	line "GS-BALL hinein."
 	done
 Text_KurtCaughtCelebi:
-	text "Wow, das war schon"
-	line "etwas!"
+	; GSC-DE Dump
+	text "Wow, das war doch"
+	line "schon etwas!"
 	para "<PLAYER>, das war"
 	line "klasse. Danke!"
 	para "Die Legenden um"
@@ -1038,6 +1059,10 @@ Text_KurtCaughtCelebi:
 	cont "waren doch wahr."
 	para "Ich fühle mich"
 	line "dadurch beflügelt."
+	para "Es spornt mich an,"
+	line "bessere BÄLLE zu"
+	cont "fertigen!"
+	para "Ich gehe!"
 	done
 Text_CelebiDancedBeautifully:
 	text "CELEBI hat"

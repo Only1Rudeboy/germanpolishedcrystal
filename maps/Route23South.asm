@@ -80,7 +80,7 @@ Route23SouthHiveBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .HiveBadgeText:
-	db "Hive Badge@"
+	db "Insektorden@"
 
 Route23SouthPlainBadgeOfficerScript:
 Route23SouthPlainBadgeTriggerScript:

@@ -361,10 +361,11 @@ KurtsGranddaughter1:
 	iftrue_jumptext KurtsGranddaughterLonelyText
 	jumpthistext
 
+	; GSC-DE Dump
 	text "Die FLEGMON sind"
-	line "weg … Wurden sie"
-	para "von bösen Menschen"
-	line "mitgenommen?"
+	line "verschwunden… Wur-"
+	cont "den sie von bösen"
+	cont "Leuten gestohlen?"
 	done
 
 KurtsGranddaughter2:
@@ -440,6 +441,7 @@ KurtsHouseStepAwayFromKurt_MovementData:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
+	; GSC-DE Dump
 	text "Hm? Wer bist du?"
 	para "<PLAYER>, was? Du"
 	line "willst, dass ich"
@@ -449,23 +451,23 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	line "muss warten."
 	para "Kennst du TEAM"
 	line "ROCKET? Egal, ich"
-	cont "erzähle dir"
-	cont "ohnehin darüber."
+	para "erzähle dir ohne-"
+	line "hin darüber."
 	para "TEAM ROCKET ist"
 	line "eine üble Bande,"
-	cont "die #mon für"
-	cont "ihre Zwecke"
-	cont "einsetzt."
-	para "Man sagt, sie"
-	line "hätten sich vor"
-	cont "drei Jahren"
-	cont "aufgelöst."
+	para "die #MON für"
+	line "ihre Zwecke ein-"
+	cont "setzt."
+	para "Man sagt, dass sie"
+	line "sich vor drei Jah-"
+	cont "ren aufgelöst"
+	cont "haben."
 	para "Aber jetzt sind"
 	line "sie am BRUNNEN"
-	para "und schneiden den"
-	line "FLEGMON die Ruten"
-	cont "ab, um sie zu"
-	cont "verkaufen!"
+	para "und schneiden die"
+	line "RUTEN von FLEGMON"
+	para "ab, um sie zu ver-"
+	line "kaufen!"
 	para "Also werde ich"
 	line "ihnen eine Lektion"
 	cont "erteilen!"
@@ -478,18 +480,19 @@ KurtsHouseKurtMakingBallsMustWaitText:
 
 
 KurtsHouseKurtHonoredToMakeBallsText:
+	; GSC-DE Dump
 	text "KURT: Hi, <PLAYER>!"
 	para "Du hast dich am"
-	line "BRUNNEN wie ein"
-	cont "wahrer Held"
+	line "BRUNNEN wie"
+	cont "ein wahrer Held"
 	cont "benommen."
 	para "Ich mag deinen"
 	line "Stil!"
 	para "Es wäre mir eine"
 	line "Ehre, für einen"
-	cont "Trainer wie dich"
-	cont "BÄLLE"
-	cont "anzufertigen."
+	para "Trainer wie dich"
+	line "BÄLLE anzuferti-"
+	cont "gen."
 	para "Das ist alles, was"
 	line "ich habe. Aber"
 	cont "bitte nimm es!"
@@ -498,9 +501,10 @@ KurtsHouseKurtHonoredToMakeBallsText:
 
 
 KurtsHouseKurtBallsFromApricornsText:
+	; GSC-DE Dump
 	text "KURT: Ich mache"
-	line "BÄLLE aus"
-	cont "APRIKOKOS."
+	line "BÄLLE aus APRIKO-"
+	cont "KOS."
 	para "Pflücke sie von"
 	line "Bäumen und bring"
 	cont "sie zu mir."
@@ -562,12 +566,12 @@ KurtsHouseKurtJustFinishedYourBallText:
 
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: Er ist"
-	line "groß-artig"
-	cont "geworden."
+	; GSC-DE Dump
+	text "KURT: Er ist groß-"
+	line "artig geworden."
 	para "Versuche, ein"
-	line "#mon damit zu"
-	cont "fangen."
+	line "#MON damit"
+	cont "zu fangen."
 	done
 
 

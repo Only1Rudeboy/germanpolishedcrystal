@@ -24,41 +24,39 @@ CharcoalKilnBoss:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
+	; GSC-DE Dump
 	text "Alle FLEGMON sind"
-	line "aus der Stadt"
-	cont "verschwunden."
-	para "Der Wächter des"
-	line "Waldes ist"
-	cont "vielleicht böse"
-	cont "auf uns …"
-	para "Das könnte ein"
-	line "schlechtes Omen"
-	cont "sein. Wir sollten"
-	cont "drinnen bleiben."
+	line "aus der Stadt ver-"
+	cont "schwunden."
+	para "Vielleicht ist der"
+	line "Patron des Waldes"
+	cont "zornig auf uns…"
+	para "Es kann ein böses"
+	line "Omen sein. Besser,"
+	cont "wir bleiben zu"
+	cont "Hause."
 	done
 
 .Text2:
-
+	; GSC-DE Dump
 	text "Die FLEGMON sind"
-	line "zurückgekehrt …"
-	para "Aber mein"
-	line "LEHR-LING kam noch"
-	cont "nicht aus dem"
-	cont "STEINEICHENWALD"
-	cont "zurück."
+	line "zurückgekehrt."
+	para "Aber mein LEHRLING"
+	line "kam noch nicht aus"
+	cont "dem STEINEICHEN-"
+	cont "WALD zurück."
 	para "Wo in aller Welt"
 	line "steckt der faule"
 	cont "Kerl?"
 	done
 
 .Text3:
-
+	; GSC-DE Dump
 	text "Du hast TEAM"
 	line "ROCKET vertrieben"
 	para "und bist allein in"
-	line "den"
-	cont "STEIN-EICHENWALD"
-	cont "gegangen?"
+	line "den STEINEICHEN-"
+	cont "WALD gegangen?"
 	para "Du hast ja Mut!"
 	line "Das mag ich! Komm,"
 	cont "trainiere mit uns."
@@ -79,31 +77,32 @@ CharcoalKilnApprentice:
 	endtext
 
 .Text1:
+	; GSC-DE Dump
 	text "Wo sind nur all"
 	line "die FLEGMON hin?"
-
 	para "Sind sie irgendwo"
-	line "zum Spielen"
-	cont "hingegangen?"
+	line "zum Spielen hinge-"
+	cont "gangen?"
 	done
 .Text2:
-	text "Es tut mir leid."
+	; GSC-DE Dump
+	text "Es tut mir Leid."
 	line "Ich habe dir noch"
 	cont "nicht gedankt."
-	para "Das ist"
-	line "HOLZ-KOHLE, die"
-	cont "ich selbst gemacht"
-	cont "habe."
-	para "Feuer-#mon"
-	line "wären froh, so"
-	cont "etwas zu halten."
+	para "Das ist HOLZKOHLE,"
+	line "die ich selbst ge-"
+	cont "macht habe."
+	para "Feuer-#MON"
+	line "wären froh, so et-"
+	cont "was halten zu"
+	cont "dürfen."
 	done
 .Text3:
+	; GSC-DE Dump
 	text "Die FLEGMON sind"
 	line "wieder da, und du"
 	cont "hast auch PORENTA"
 	cont "gefunden."
-
 	para "Du bist der"
 	line "Coolste!"
 	done
@@ -113,8 +112,8 @@ CharcoalKilnFarfetchdScript:
 	end
 
 .Text:
-
-	text "PORENTA: Quack!"
+	; GSC-DE Dump
+	text "PORENTA: Kwaa!"
 	done
 CharcoalKilnBucketText:
 	text "Ein Eimer."

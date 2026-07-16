@@ -139,6 +139,7 @@ TrainerSchoolgirlImogen:
 	cont "Klasse bin."
 	done
 HikerAnthony1SeenText:
+	; GSC-DE Dump
 	text "Ich bin durch den"
 	line "Tunnel gegangen,"
 	cont "aber ich habe noch"
@@ -146,23 +147,24 @@ HikerAnthony1SeenText:
 	line "übrig."
 	done
 HikerAnthony1BeatenText:
-	text "Toll! Du hast mehr"
+	; GSC-DE Dump
+	text "Wow! Du hast mehr"
 	line "Mumm als ich!"
 	done
 HikerAnthony1AfterText:
+	; GSC-DE Dump
 	text "In den Bergen sind"
-	line "wir WANDERER in"
-	cont "unserem Element."
+	line "wir WANDERER"
+	cont "in unserem"
+	cont "Element."
 	done
 HikerAnthonyDunsparceText:
+	; GSC-DE Dump
 	text "Heh, hast du ein"
 	line "DUMMISEL?"
-
 	para "Ich habe eines."
-
 	para "Sieh es dir im"
 	line "Licht an. Es hat"
-
 	para "ein lustiges"
 	line "Gesicht!"
 	done

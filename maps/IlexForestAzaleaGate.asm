@@ -60,6 +60,7 @@ ProfOaksAide1Script:
 	done
 
 IlexForestAzaleaGateOfficerText:
+	; GSC-DE Dump
 	text "Vorsicht! Verlaufe"
 	line "dich nicht! Der"
 	cont "STEINEICHENWALD"

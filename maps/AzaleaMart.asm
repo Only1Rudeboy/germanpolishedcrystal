@@ -19,21 +19,25 @@ AzaleaMart_MapScriptHeader:
 	object_event  8,  6, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaMartRockerText, -1
 
 AzaleaMartCooltrainermText:
+	; GSC-DE Dump
 	text "Hier gibt es keine"
-	line "Superbälle. #"
-	para "Bälle müssen"
-	line "reichen."
+	line "SUPERBÄLLE. Ich"
+	para "werde mit #-"
+	line "BÄLLEN auskommen"
+	cont "müssen."
 	para "Ich wünschte, KURT"
-	line "gäbe mir einige"
-	cont "seiner Bälle."
+	line "würde mir einen"
+	cont "seiner BÄLLE"
+	cont "machen."
 	done
 
 AzaleaMartBugCatcherText:
-	text "Ein SUPERBALL"
-	line "eignet sich"
-	cont "besser zum Fangen"
-	cont "von #mon als"
-	cont "ein #BALL."
+	; GSC-DE Dump
+	text "Ein SUPERBALL eig-"
+	line "net sich besser"
+	cont "zum Fangen von"
+	cont "#MON als ein"
+	cont "#BALL."
 	para "Aber manchmal sind"
 	line "KURTs BÄLLE"
 	cont "besser."

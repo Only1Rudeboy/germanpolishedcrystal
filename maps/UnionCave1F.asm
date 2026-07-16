@@ -31,48 +31,50 @@ UnionCave1F_MapScriptHeader:
 GenericTrainerPokemaniacLarry:
 	generictrainer POKEMANIAC, POKEMANIAC_LARRY, EVENT_BEAT_POKEMANIAC_LARRY, PokemaniacLarrySeenText, PokemaniacLarryBeatenText
 
+	; GSC-DE Dump
 	text "Jeden Freitag"
-	line "kannst du #mon"
-
+	line "kannst du #MON"
 	para "in dieser Höhle"
 	line "brüllen hören."
 	done
 GenericTrainerHikerRussell:
 	generictrainer HIKER, RUSSELL, EVENT_BEAT_HIKER_RUSSELL, HikerRussellSeenText, HikerRussellBeatenText
 
+	; GSC-DE Dump
 	text "O.K.! Ich habe"
 	line "mich entschieden."
-
 	para "Ich gehe erst,"
-	line "wenn meine #mon"
+	line "wenn meine #MON"
 	cont "stärker sind!"
 	done
 GenericTrainerHikerDaniel:
 	generictrainer HIKER, DANIEL, EVENT_BEAT_HIKER_DANIEL, HikerDanielSeenText, HikerDanielBeatenText
 
-	text "Ich wurde"
-	line "genötigt, eine"
+	; GSC-DE Dump
+	text "Ich wurde ge-"
+	line "nötigt, eine"
 	cont "FLEGMONRUTE zu"
 	cont "kaufen."
-
 	para "Mir tut das arme"
-	line "#mon Leid."
+	line "#MON Leid."
 	done
 GenericTrainerFirebreatherBill:
 	generictrainer FIREBREATHER, BILL, EVENT_BEAT_FIREBREATHER_BILL, FirebreatherBillSeenText, FirebreatherBillBeatenText
 
+	; GSC-DE Dump
 	text "Am Wochenende"
-	line "kannst du #mon"
-
+	line "kannst du #MON"
 	para "in dieser Höhle"
 	line "brüllen hören."
 	done
 GenericTrainerFirebreatherRay:
 	generictrainer FIREBREATHER, RAY, EVENT_BEAT_FIREBREATHER_RAY, FirebreatherRaySeenText, FirebreatherRayBeatenText
 
+	; GSC-DE Dump
 	text "Das Feuer meines"
-	line "#mon erleuchtet"
-	cont "diese Höhle."
+	line "#MON"
+	cont "erleuchtet diese"
+	cont "Höhle."
 	done
 GenericTrainerRuin_maniacJones:
 	generictrainer RUIN_MANIAC, JONES, EVENT_BEAT_RUIN_MANIAC_JONES, Ruin_maniacJonesSeenText, Ruin_maniacJonesBeatenText
@@ -83,12 +85,13 @@ GenericTrainerRuin_maniacJones:
 	done
 
 HikerRussellSeenText:
+	; GSC-DE Dump
 	text "Du bist auf dem"
 	line "Weg nach AZALEA"
 	cont "CITY, nicht wahr?"
-	para "Lass meine #mon"
-	line "entscheiden, ob du"
-	cont "eines Kampfes"
+	para "Lass meine #MON"
+	line "entscheiden, ob"
+	cont "du eines Kampfes"
 	cont "würdig bist."
 	done
 
@@ -97,7 +100,8 @@ HikerRussellSeenText:
 
 
 HikerRussellBeatenText:
-	text "Ach, ach, ach!"
+	; GSC-DE Dump
+	text "Oh, oh, oh!"
 	done
 
 
@@ -105,16 +109,15 @@ HikerRussellBeatenText:
 
 
 PokemaniacLarrySeenText:
-	text "Um #mon zu"
+	; GSC-DE Dump
+	text "Um #MON zu"
 	line "finden, wandere"
 	cont "ich durch das"
 	cont "Land."
-
 	para "Suchst du auch"
-	line "nach #mon?"
-
-	para "Dann bist du mein"
-	line "Rivale!"
+	line "nach #MON?"
+	para "Dann bist du"
+	line "mein Rivale!"
 	done
 
 
@@ -122,8 +125,9 @@ PokemaniacLarrySeenText:
 
 
 PokemaniacLarryBeatenText:
+	; GSC-DE Dump
 	text "Uff. Mein armes"
-	line "#mon …"
+	line "#MON…"
 	done
 
 
@@ -131,8 +135,9 @@ PokemaniacLarryBeatenText:
 
 
 HikerDanielSeenText:
-	text "Huch! Was für eine"
-	line "Überraschung!"
+	; GSC-DE Dump
+	text "Whoa! Was für"
+	line "eine Überraschung!"
 	para "Ich habe nicht"
 	line "erwartet, hier auf"
 	cont "jemanden zu"
@@ -144,8 +149,9 @@ HikerDanielSeenText:
 
 
 HikerDanielBeatenText:
-	text "Huch! Du hast es"
-	line "mir gegeben!"
+	; GSC-DE Dump
+	text "Whoa! Du hast"
+	line "es mir gegeben!"
 	done
 
 
@@ -153,9 +159,10 @@ HikerDanielBeatenText:
 
 
 FirebreatherBillSeenText:
+	; GSC-DE Dump
 	text "ZUBATs SUPERSCHALL"
 	line "verwirrt mein"
-	cont "#mon noch"
+	cont "#MON noch"
 	cont "immer."
 	para "Das ärgert mich"
 	line "wirklich sehr!"
@@ -174,13 +181,13 @@ FirebreatherBillBeatenText:
 
 
 FirebreatherRaySeenText:
+	; GSC-DE Dump
 	text "Mit Licht jagt"
 	line "einem eine Höhle"
 	cont "keine Angst ein."
-
 	para "Bist du stark"
 	line "genug, jagen dir"
-	cont "#mon keine"
+	cont "#MON keine"
 	cont "Angst ein."
 	done
 

@@ -35,36 +35,40 @@ UnionCaveB1FSouth_MapScriptHeader:
 GenericTrainerPokemaniacAndrew:
 	generictrainer POKEMANIAC, ANDREW, EVENT_BEAT_POKEMANIAC_ANDREW, PokemaniacAndrewSeenText, PokemaniacAndrewBeatenText
 
+	; GSC-DE Dump
 	text "Nur ich und meine"
-	line "#mon. Ich bin"
-	cont "überglücklich."
+	line "#MON. Ich"
+	cont "bin überglücklich."
 	done
 PokemaniacAndrewSeenText:
+	; GSC-DE Dump
 	text "Wer ist da?"
-
 	para "Lass mich und"
-	line "meine #mon in"
-	cont "Frieden!"
+	line "meine #MON"
+	cont "in Frieden!"
 	done
 PokemaniacAndrewBeatenText:
-	text "Verschwinde… Geh"
-	line "weg!!"
+	; GSC-DE Dump
+	text "Verschwinde…"
+	line "Geh weg!!"
 	done
 GenericTrainerPokemaniacCalvin:
 	generictrainer POKEMANIAC, CALVIN, EVENT_BEAT_POKEMANIAC_CALVIN, PokemaniacCalvinSeenText, PokemaniacCalvinBeatenText
 
+	; GSC-DE Dump
 	text "Ich sollte meine"
 	line "Ergebnisse sammeln"
 	cont "und anschließend"
 	cont "veröffentlichen."
 	para "Vielleicht werde"
-	line "ich so berühmt wie"
-	cont "PROF. LIND."
+	line "ich so berühmt"
+	cont "wie PROF. LIND."
 	done
 PokemaniacCalvinSeenText:
+	; GSC-DE Dump
 	text "Ich bin hierher"
-	line "gekommen, um meine"
-	cont "#mon-"
+	line "gekommen, um"
+	cont "meine #MON-"
 	cont "Forschungen"
 	cont "durchzuführen."
 	para "Ich zeige dir"
@@ -78,16 +82,18 @@ PokemaniacCalvinBeatenText:
 GenericTrainerHikerPhillip:
 	generictrainer HIKER, PHILLIP, EVENT_BEAT_HIKER_PHILLIP, HikerPhillipSeenText, HikerPhillipBeatenText
 
+	; GSC-DE Dump
 	text "Ich bin lange"
-	line "herumgeirrt …"
+	line "herumgeirrt…"
 	para "Das hier macht mir"
 	line "nichts aus, aber"
 	cont "ich bin hungrig!"
 	done
 HikerPhillipSeenText:
+	; GSC-DE Dump
 	text "Mir ist schon"
-	line "lange niemand mehr"
-	cont "begegnet."
+	line "lange niemand"
+	cont "mehr begegnet."
 	para "Hab keine Angst."
 	line "Lass uns kämpfen!"
 	done
@@ -97,13 +103,12 @@ HikerPhillipBeatenText:
 GenericTrainerHikerLeonard:
 	generictrainer HIKER, LEONARD, EVENT_BEAT_HIKER_LEONARD, HikerLeonardSeenText, HikerLeonardBeatenText
 
+	; GSC-DE Dump
 	text "Ich wohne hier"
 	line "unten."
-
 	para "Wenn du möchtest,"
-	line "kannst du bei mir"
-	cont "einziehen."
-
+	line "kannst du bei"
+	cont "mir einziehen."
 	para "Es ist noch"
 	line "genügend Platz."
 	done

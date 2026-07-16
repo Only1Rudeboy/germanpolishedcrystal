@@ -161,8 +161,9 @@ GruntM29SeenText:
 	line "erschrocken, dass"
 	cont "ich hier hinunter"
 	cont "gefallen bin."
-	para "Ich lasse meine"
-	line "Wut an dir aus!"
+	para "Ich glaube, ich"
+	line "lasse meine Wut"
+	cont "an dir aus!"
 	done
 
 
@@ -203,10 +204,11 @@ Proton2BeatenText:
 	cont "alles anders!"
 	done
 TrainerProton2WhenTalkText:
-	text "Ja, TEAM ROCKET"
+	; GSC-DE Dump
+	text "Yeah, TEAM ROCKET"
 	line "wurde vor drei"
-	cont "Jahren"
-	cont "zerschlagen."
+	cont "Jahren zer-"
+	cont "schlagen."
 	para "Aber wir haben"
 	line "unsere Arbeit im"
 	cont "Untergrund"
@@ -216,10 +218,11 @@ TrainerProton2WhenTalkText:
 	cont "für Unruhe sorgen!"
 	done
 GruntM2SeenText:
-	text "Wir sollen"
-	line "aufhören, den"
-	cont "FLEGMON die Ruten"
-	cont "abzutrennen?"
+	; GSC-DE Dump
+	text "Wir sollen auf-"
+	line "hören, den"
+	cont "FLEGMON ihre"
+	cont "RUTEN abzutrennen?"
 	para "Wenn wir auf dich"
 	line "hören würden, wäre"
 	cont "der Ruf von TEAM"
@@ -227,15 +230,10 @@ GruntM2SeenText:
 	done
 
 
-
-
-
-
-
-
 GruntM2BeatenText:
-	text "Du bist … zu stark"
-	line "…"
+	; GSC-DE Dump
+	text "Du bist…"
+	line "zu stark…"
 	done
 
 
@@ -246,10 +244,11 @@ GruntM2BeatenText:
 
 
 GruntF1SeenText:
-	text "Wir sollen"
-	line "aufhören, den"
-	cont "FLEGMON die Ruten"
-	cont "abzutrennen?"
+	; GSC-DE Dump
+	text "Wir sollen auf-"
+	line "hören, den"
+	cont "FLEGMON ihre"
+	cont "RUTEN abzutrennen?"
 	para "Ja, versuche, uns"
 	line "alle zu besiegen!"
 	done

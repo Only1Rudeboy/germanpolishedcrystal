@@ -1,8 +1,8 @@
 BadgeNames:
 	list_start
-	; Johto GSC-DE (Dump: FLÜGELORDEN → Kurzname Flügel)
+	; Johto GSC-DE (Dump: FLÜGELORDEN / INSEKTORDEN → Kurznamen)
 	li "Flügel"
-	li "Horniss"
+	li "Insekt"
 	li "Plan"
 	li "Nebel"
 	li "Sturm"

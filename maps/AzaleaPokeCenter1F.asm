@@ -71,42 +71,44 @@ AzaleaPokeCenter1FCooltrainermScript:
 	done
 
 AzaleaPokeCenter1FGentlemanText:
-	text "Kennen deine"
-	line "#mon"
-	cont "VM-Attacken?"
-
+	; GSC-DE Dump
+	text "Beherrschen deine"
+	line "#MON VM-"
+	cont "Attacken?"
 	para "Diese Attacken"
-	line "kann man selbst"
-
-	para "einsetzen, wenn"
-	line "dein #mon"
-	cont "erschöpft ist."
+	line "können auch einge-"
+	cont "setzt werden, wenn"
+	para "dein #MON be-"
+	line "siegt worden ist."
 	done
 
 AzaleaPokeCenter1FSightseermText:
+	; GSC-DE Dump
 	text "Dieser BILL hat"
-	line "das System zum"
-
-	para "Aufbewahren von"
-	line "#mon in einem"
-	cont "PC entwickelt."
-
-	para "BILLs PC kann bis"
-	line "zu 20 #mon pro"
-	cont "Box lagern."
+	line "das #MON-"
+	cont "LAGERUNGS-SYSTEM"
+	cont "für PC entwickelt."
+	para "Auf BILLs PC kön-"
+	line "nen bis zu 20"
+	cont "#MON pro BOX"
+	cont "gelagert werden."
 	done
 
 AzaleaPokeCenter1FPokefanfText:
-	text "Kennst du dich mit"
-	line "Aprikokos aus?"
-	para "Man knackt eine"
-	line "auf, höhlt sie aus"
-	para "und baut ein"
-	line "Spezialgerät ein."
-	para "Damit kann man"
-	line "#mon fangen."
-	para "Bevor #BÄLLE"
-	line "erfunden wurden,"
-	para "benutzte jeder"
-	line "Aprikokos."
+	; GSC-DE Dump
+	text "Weißt du über"
+	line "APRIKOKOS Be-"
+	cont "scheid?"
+	para "Brich eine auf,"
+	line "höhle sie aus und"
+	para "verbinde sie mit"
+	line "einer speziellen"
+	cont "Vorrichtung."
+	para "Dann kannst du"
+	line "#MON damit"
+	cont "fangen."
+	para "Vor der Erfindung"
+	line "von #BÄLLEN hat"
+	para "jeder APRIKOKOS"
+	line "verwendet."
 	done

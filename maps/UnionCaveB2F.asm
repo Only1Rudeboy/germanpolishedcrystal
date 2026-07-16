@@ -51,7 +51,8 @@ UnionCaveLapras:
 GenericTrainerCooltrainermNick:
 	generictrainer COOLTRAINERM, NICK, EVENT_BEAT_COOLTRAINERM_NICK, CooltrainermNickSeenText, CooltrainermNickBeatenText
 
-	text "Dein #mon-Stil"
+	; GSC-DE Dump
+	text "Dein #MON-Stil"
 	line "ist imposant und"
 	cont "abwechslungsreich,"
 	cont "das gebe ich zu."
@@ -68,21 +69,22 @@ GenericTrainerCooltrainerfGwen:
 GenericTrainerCooltrainerfEmma:
 	generictrainer COOLTRAINERF, EMMA, EVENT_BEAT_COOLTRAINERF_EMMA, CooltrainerfEmmaSeenText, CooltrainerfEmmaBeatenText
 
-	text "Nur einmal in der"
-	line "Woche kommt ein"
-	cont "#mon ans"
-	cont "Wasser."
-
-	para "Dieses #mon"
+	; GSC-DE Dump
+	text "Nur einmal in"
+	line "der Woche kommt"
+	cont "ein #MON"
+	cont "ans Wasser."
+	para "Dieses #MON"
 	line "hätte ich gerne"
 	cont "gesehen…"
 	done
 CooltrainermNickSeenText:
+	; GSC-DE Dump
 	text "Es gibt zwei"
 	line "verschiedene Arten"
 	cont "von Menschen."
-	para "Jene mit Stil und"
-	line "jene ohne."
+	para "Jene mit Stil"
+	line "und jene ohne."
 	para "Zu welcher zählst"
 	line "du dich?"
 	done
@@ -111,7 +113,8 @@ CooltrainerfGwenSeenText:
 
 
 CooltrainerfGwenBeatenText:
-	text "Ach, nein! Du bist"
+	; GSC-DE Dump
+	text "Oh, nein! Du bist"
 	line "zu gut für mich."
 	done
 
@@ -120,8 +123,9 @@ CooltrainerfGwenBeatenText:
 
 
 CooltrainerfEmmaSeenText:
-	text "Für meine"
-	line "Lieblings-#mon"
+	; GSC-DE Dump
+	text "Für meine Lieb-"
+	line "lings-#MON"
 	cont "würde ich überall"
 	cont "hingehen."
 	para "Das würde jeder"
