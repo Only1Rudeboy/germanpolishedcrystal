@@ -41,7 +41,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	jumpthistextfaceplayer
 
 	text "Für einen Mann,"
-	line "der #Bälle"
+	line "der #BÄLLE"
 
 	para "herstellt, ist"
 	line "KURT kein großer"

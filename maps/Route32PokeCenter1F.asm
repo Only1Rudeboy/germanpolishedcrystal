@@ -29,7 +29,7 @@ PokemonJournalKurtScript:
 	para "KURT lässt niemand"
 	line "näher,"
 	para "wenn er"
-	para "#Bälle fertigt"
+	para "#BÄLLE fertigt"
 	line "- außer seiner"
 	para "Enkelin Maizie."
 	done

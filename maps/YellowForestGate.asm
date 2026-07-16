@@ -42,7 +42,7 @@ YellowForestGateOfficerText:
 	cont "#MON!"
 
 	para "Vergiss nicht,"
-	line "#bälle"
+	line "#BÄLLE"
 	cont "mitzunehmen!"
 
 	para "Der Typ dort"

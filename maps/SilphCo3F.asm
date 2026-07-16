@@ -39,7 +39,7 @@ SilphCo3FSilphEmployeeScript:
 .Text2:
 	text "Das ist ein sehr"
 	line "seltener"
-	cont "#ball-Typ."
+	cont "#BALL-Typ."
 
 	para "Verschwende ihn"
 	line "nicht!"
@@ -48,7 +48,7 @@ SilphCo3FSilphEmployeeScript:
 .Text1:
 	text "Ich komme aus"
 	line "einer Familie von"
-	cont "#-ball-"
+	cont "#BALL-"
 	cont "Herstellern."
 	para "Mein Vater KURT"
 	line "lehrt meine"
@@ -78,7 +78,7 @@ SilphCo3FScientist1Text:
 
 SilphCo3FScientist2Text:
 	; PC-only
-	text "#Bälle"
+	text "#BÄLLE"
 	line "funktionieren nach"
 	cont "dem gleichen"
 	cont "Prinzip"
@@ -113,7 +113,7 @@ SilphCo3FGentlemanText:
 	cont "zu Besuch."
 	para "Wir arbeiten"
 	line "zusammen, um die"
-	cont "#ball-Technik"
+	cont "#BALL-Technik"
 	cont "weiterzuentwickel-"
 	cont "n!"
 	done

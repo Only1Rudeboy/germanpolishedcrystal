@@ -289,5 +289,5 @@ Route17SouthNotice2Text:
 
 	para "Wirf nicht das"
 	line "Spiel, sondern"
-	cont "#bälle!"
+	cont "#BÄLLE!"
 	done

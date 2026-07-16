@@ -3244,7 +3244,7 @@ SECTION "VoltorbHisuianPokedexEntry", ROMX
 VoltorbHisuianPokedexEntry::
 	db "Ball@"
 	text "Es wurde entdeckt,"
-	next "als man Pokebälle"
+	next "als man #BÄLLE"
 	next "einführte. Es"
 	page "scheint, als gäbe"
 	next "es da einen"

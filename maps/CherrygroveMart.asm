@@ -29,14 +29,17 @@ CherrygroveMartCooltrainerMScript:
 	iftrue_jumptextfaceplayer CherrygroveMartCooltrainerMText_PokeBallsInStock
 	jumpthistextfaceplayer
 
-	text "Die #Bälle sind"
-	line "gerade"
-	cont "ausverkauft!"
-	para "Wann bekommen sie"
-	line "wohl neue?"
+	; GSC-DE Dump (ROSALIA Markt)
+	text "Die #BÄLLE"
+	line "sind leider aus-"
+	cont "verkauft!"
+	para "Hoffentlich kommt"
+	line "bald eine neue"
+	cont "Lieferung!"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
+	; GSC-DE Dump
 	text "#BÄLLE sind"
 	line "wieder auf Lager!"
 	cont "Jetzt kann ich"
