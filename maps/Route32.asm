@@ -129,6 +129,7 @@ Route32CooltrainerMTrigger:
 	jumpthisopenedtext
 
 .AfterText2:
+	; GSC-DE Dump
 	text "Die Erfahrungen"
 	line "von VIOLA CITY"
 
@@ -138,19 +139,19 @@ Route32CooltrainerMTrigger:
 	cont "sein."
 	done
 .IntroText:
-	text "Du hast gute"
-	line "#mon dabei."
-	para "Das muss vom"
-	line "Training in"
-	para "VIOLA CITY kommen."
-	para "Du solltest alle"
-	line "Trainer auf dieser"
-	para "Route problemlos"
-	line "besiegen können."
-	para "Wenn du das"
-	line "schaffst, kämpfe"
-	cont "ich selbst gegen"
-	cont "dich."
+	; PC-Kampf + Dump-Stil
+	text "Du besitzt einige"
+	line "gute #MON."
+	para "Sie sind bestimmt"
+	line "wegen der vielen"
+	para "Kämpfe, die du mit"
+	line "ihnen bei VIOLA"
+	cont "CITY absolviert"
+	cont "hast, so gut."
+	para "Wenn du alle"
+	line "Trainer hier be-"
+	cont "siegt hast, kämpfe"
+	cont "ich gegen dich."
 	done
 
 .QuestionText:
@@ -163,7 +164,7 @@ Route32CooltrainerMTrigger:
 	para "besonders geholfen"
 	line "haben."
 	para "Ich habe auch den"
-	line "Zephyr-Orden."
+	line "FLÜGELORDEN."
 	para "Willst du gegen"
 	line "mich kämpfen?"
 	done
@@ -191,13 +192,17 @@ Route32CooltrainerMTrigger:
 	done
 
 .AfterText1:
-	text "Dein Training war"
-	line "besser als meins."
-	para "Als Andenken an"
-	line "unseren Kampf,"
-	cont "nimm das."
-	para "Es verstärkt"
-	line "Pflanzen-Attacken."
+	; GSC-DE Dump (Wunderkern-Gabe)
+	text "Das Training in"
+	line "der PKMN-ARENA"
+	para "muss von großem"
+	line "Nutzen gewesen"
+	para "sein. Nimm dies"
+	line "als Andenken an"
+	cont "VIOLA CITY."
+	para "Damit werden"
+	line "Pflanzen-Attacken"
+	cont "verstärkt."
 	done
 
 Route32CooltrainerMStopsYou:
@@ -753,8 +758,9 @@ Movement_Route32CooltrainerMReset:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Warte! Warum die"
-	line "Eile?"
+	; GSC-DE Dump
+	text "Warte!"
+	line "Warum die Eile?"
 	done
 
 
@@ -763,14 +769,15 @@ Route32CooltrainerMText_WhatsTheHurry:
 
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, oder? Ein"
-	line "Typ mit einer"
+	; GSC-DE Dump
+	text "<PLAYER>, oder?"
+	line "Ein Typ mit einer"
 	para "Brille hat nach"
 	line "dir gefragt."
 	para "Kümmere dich um"
 	line "ihn. Er erwartet"
-	para "dich im"
-	line "#mon-CENTER."
+	para "dich im #MON-"
+	line "CENTER."
 	done
 
 
@@ -779,10 +786,11 @@ Route32CooltrainerMText_AideIsWaiting:
 
 
 Route32CooltrainerMText_VioletGym:
+	; GSC-DE Dump
 	text "Warst du schon in"
 	line "der PKMN-ARENA?"
 	para "Dort kannst du"
-	line "deine #mon und"
+	line "deine #MON und"
 	cont "dich auf die Probe"
 	cont "stellen."
 	para "Es ist eine Art"
@@ -812,10 +820,11 @@ Text_MillionDollarSlowpokeTail:
 
 
 FisherJustinSeenText:
-	text "Toll!"
+	; GSC-DE Dump
+	text "Wow!"
 	para "Wegen dir habe ich"
-	line "den Fisch"
-	cont "verloren!"
+	line "den Fisch ver-"
+	cont "loren!"
 	done
 
 
@@ -833,9 +842,10 @@ FisherJustinBeatenText:
 
 
 FisherRalph1SeenText:
+	; GSC-DE Dump
 	text "Ich beherrsche"
 	line "beides, Angeln und"
-	cont "#mon."
+	cont "#MON."
 	para "Darum werde ich"
 	line "nicht verlieren!"
 	done
@@ -857,11 +867,12 @@ FisherRalph1BeatenText:
 
 
 FisherRalphAfterText:
+	; GSC-DE Dump
 	text "Angeln ist eine"
 	line "Leidenschaft für"
 
 	para "das ganze Leben."
-	line "#mon sind"
+	line "#MON sind"
 	cont "Kameraden fürs"
 	cont "Leben!"
 	done
@@ -872,7 +883,8 @@ FisherRalphAfterText:
 
 
 FisherHenrySeenText:
-	text "Meine #mon?"
+	; GSC-DE Dump
+	text "Meine #MON?"
 	line "Frisch gefangen!"
 	done
 
@@ -912,12 +924,13 @@ YoungsterAlbertBeatenText:
 
 
 YoungsterGordonSeenText:
+	; GSC-DE Dump
 	text "Ich habe gute"
-	line "#mon im Gras"
-	cont "gefunden!"
+	line "#MON im"
+	cont "Gras gefunden!"
 	para "Ich denke, sie"
-	line "passen ganz gut zu"
-	cont "mir!"
+	line "passen ganz gut"
+	cont "zu mir!"
 	done
 
 
@@ -1021,9 +1034,10 @@ Text_RoarIntro: ; text > text
 
 
 Text_RoarOutro: ; text > text
+	; GSC-DE Dump
 	text "BRÜLL! ES IST"
 	line "BRÜLLER!"
-	para "SOGAR #mon"
+	para "SOGAR #MON"
 	line "LAUFEN DAVON, WENN"
 	cont "DU IHN EINSETZT!"
 	done
@@ -1077,9 +1091,10 @@ FriedaFridayText:
 
 
 Route32SignText:
+	; GSC-DE Dump
 	text "ROUTE 32"
-	para "VIOLA CITY -AZALEA"
-	line "CITY"
+	para "VIOLA CITY -"
+	line "AZALEA CITY"
 	done
 
 
