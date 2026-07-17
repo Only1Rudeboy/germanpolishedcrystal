@@ -35,7 +35,8 @@ GhostAppearedText:
 	prompt
 
 SilphScopeRevealText:
-	text "Silph Scope 2"
+	; GSC-near DE
+	text "SILPH SCOPE 2"
 	line "enthüllt den"
 	cont "Geist!"
 	prompt
@@ -340,18 +341,21 @@ BattleText_ReflectFaded:
 	prompt
 
 BattleText_TheRainStopped:
-	text "Der Regen hört"
-	line "auf!"
+	; GSC
+	text "Es hat aufgehört"
+	line "zu regnen."
 	prompt
 
 BattleText_TheSunlightFaded:
-	text "Sonnenlicht"
-	line "lässt nach!"
+	; GSC
+	text "Das Sonnenlicht"
+	line "schwindet."
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "Sandsturm legt"
-	line "sich!"
+	; GSC
+	text "Der SANDSTURM"
+	line "lässt nach."
 	prompt
 
 BattleText_TheHailStopped:
@@ -475,7 +479,8 @@ BattleText_EnemySentOut:
 	done
 
 BattleText_TheresNoWillToBattle:
-	text "Es will nicht"
+	; GSC: Es kann nicht kämpfen!
+	text "Es kann nicht"
 	line "kämpfen!"
 	prompt
 
@@ -487,7 +492,8 @@ BattleText_AnEGGCantBattle:
 
 ; GSC-DE: "Flucht unmöglich!"
 BattleText_CantEscape:
-	text "Flucht unmöglich!"
+	text "Flucht"
+	line "unmöglich!"
 	prompt
 
 BattleText_AskForfeitTrainerBattle:
@@ -539,19 +545,23 @@ BattleText_UsersStringBuffer1Activated:
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
-	text "Hier keine Items"
-	line "benutzbar!"
+	; GSC
+	text "Items können hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	prompt
 
 BattleText_PkmnIsAlreadyOut:
+	; GSC: kämpft bereits.
 	text_ram wBattleMonNickname
-	line "kämpft schon!"
+	line "kämpft bereits."
 	prompt
 
 BattleText_PkmnCantBeRecalled:
+	; GSC: kann nicht ausgetauscht werden!
 	text_ram wBattleMonNickname
-	line "kann nicht"
-	cont "zurück!"
+	line "kann nicht aus-"
+	cont "getauscht werden!"
 	prompt
 
 BattleText_PkmnCantBeRecalledAbility:
@@ -593,8 +603,9 @@ BattleText_ItemPreventsStatusMoves: ; assault vest
 	prompt
 
 BattleText_TheMoveIsDisabled:
-	text "Attacke ist"
-	line "gesperrt!"
+	; GSC: Die Attacke ist BLOCKIERT!
+	text "Die Attacke ist"
+	line "BLOCKIERT!"
 	prompt
 
 BattleText_PkmnHasNoMovesLeft:
@@ -643,8 +654,9 @@ BattleText_ThrewBait:
 	prompt
 
 FastAsleepText:
+	; GSC: schläft tief!
 	text "<USER>"
-	line "schläft!"
+	line "schläft tief!"
 	done
 
 WokeUpText:
@@ -658,8 +670,9 @@ WasFrozenText:
 	prompt
 
 FrozenSolidText:
+	; GSC: ist tiefgefroren!
 	text "<USER>"
-	line "ist eingefroren!"
+	line "ist tiefgefroren!"
 	done
 
 FlinchedText:
@@ -668,8 +681,10 @@ FlinchedText:
 	prompt
 
 MustRechargeText:
+	; GSC: muss sich wieder aufladen!
 	text "<USER>"
-	line "muss sich erholen!"
+	line "muss sich wieder"
+	cont "aufladen!"
 	prompt
 
 DisabledNoMoreText:
@@ -685,9 +700,10 @@ IsConfusedText:
 	prompt
 
 HurtItselfText:
-	text "Es verletzt sich"
-	line "vor Verwirrung"
-	cont "selbst!"
+	; GSC: Es hat sich vor Verwirrung selbst verletzt!
+	text "Es hat sich vor"
+	line "Verwirrung selbst"
+	cont "verletzt!"
 	prompt
 
 ConfusedNoMoreText:
@@ -697,8 +713,9 @@ ConfusedNoMoreText:
 	prompt
 
 BecameConfusedText:
+	; GSC: ist verwirrt!
 	text "<TARGET>"
-	line "wurde verwirrt!"
+	line "ist verwirrt!"
 	prompt
 
 BecameConfusedDueToFatigueText:
@@ -731,13 +748,15 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	prompt
 
 WhirlpoolTrapText:
+	; GSC: ging in die Falle!
 	text "<TARGET>"
-	line "wurde gefangen!"
+	line "ging in die Falle!"
 	prompt
 
 FireSpinTrapText:
+	; GSC: ging in die Falle!
 	text "<TARGET>"
-	line "wurde gefangen!"
+	line "ging in die Falle!"
 	prompt
 
 WrappedByText:
@@ -748,30 +767,33 @@ WrappedByText:
 	prompt
 
 HungOnText:
+	; GSC: klammert sich an ITEM!
 	text "<TARGET>"
-	line "hielt durch mit"
+	line "klammert sich an"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 EnduredText:
-	text "<TARGET>"
-	line "hielt stand!"
+	; GSC: AUSDAUER mindert die Attacke!
+	text "<TARGET>s"
+	line "AUSDAUER mindert"
+	cont "die Attacke!"
 	prompt
 
 InLoveWithText:
+	; GSC: verliebt sich in TARGET!
 	text "<USER>"
-	line "hat sich in"
-	cont "<TARGET>"
-	cont "verliebt!"
+	line "verliebt sich in"
+	cont "<TARGET>!"
 	prompt
 
 InfatuationText:
+	; GSC: ist zu verliebt, um anzugreifen!
 	text "<USER>"
-	line "ist verliebt!"
-	cont "Kann nicht"
-	cont "angreifen!"
+	line "ist zu verliebt,"
+	cont "um anzugreifen!"
 	prompt
 
 NoLongerInfatuatedText:
@@ -826,29 +848,34 @@ UsedMoveInsteadText:
 	done
 
 LoafingAroundText:
+	; GSC: faulenzt.
 	text_ram wBattleMonNickname
-	line "faulenzt herum!"
+	line "faulenzt."
 	prompt
 
 BeganToNapText:
+	; GSC: macht ein Nickerchen!
 	text_ram wBattleMonNickname
-	line "schläft ein!"
+	line "macht ein"
+	cont "Nickerchen!"
 	prompt
 
 WontObeyText:
+	; GSC: ist ungehorsam!
 	text_ram wBattleMonNickname
-	line "gehorcht nicht!"
+	line "ist ungehorsam!"
 	prompt
 
 TurnedAwayText:
+	; GSC: wendet sich ab!
 	text_ram wBattleMonNickname
-	line "dreht sich um!"
+	line "wendet sich ab!"
 	prompt
 
 IgnoredOrdersText:
+	; GSC: ignoriert Befehl!
 	text_ram wBattleMonNickname
-	line "ignoriert den"
-	cont "Befehl!"
+	line "ignoriert Befehl!"
 	prompt
 
 IgnoredSleepingText:
@@ -872,14 +899,16 @@ HasNoPPLeftText:
 	prompt
 
 WentToSleepText:
+	; GSC: schläft ein!
 	text "<USER>"
-	line "ist eingeschlafen!"
+	line "schläft ein!"
 	done
 
 RestedText:
+	; GSC: schläft und erholt sich!
 	text "<USER>"
-	line "schlief ein und"
-	cont "wurde gesund!"
+	line "schläft und"
+	cont "erholt sich!"
 	done
 
 ; GSC-DE: "<USER>" / "erholt sich!"
@@ -1001,23 +1030,25 @@ InvalidTypeChangeText:
 	prompt
 
 SketchedText:
+	; GSC: erlernt MOVE!
 	text "<USER>"
-	line "skizziert"
-	cont ""
+	line "erlernt "
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 DestinyBondEffectText:
+	; GSC: versucht ein beidseitiges K.O.!
 	text "<USER>"
-	line "versucht, den"
-	cont "Gegner mitzu-"
-	cont "reißen!"
+	line "versucht ein"
+	cont "beidseitiges"
+	cont "K.O.!"
 	prompt
 
 BellChimedText:
+	; GSC: erklingt!
 	text "Eine Glocke"
-	line "läutet!"
+	line "erklingt!"
 	prompt
 
 ; GSC-DE: schläft / schläft bereits
@@ -1141,19 +1172,22 @@ StatSeverelyFellText:
 	prompt
 
 FledFromBattleText::
+	; GSC: flieht!
 	text "<USER>"
-	line "floh!"
+	line "flieht!"
 	prompt
 
 FledInFearText:
+	; GSC: flieht vor Angst!
 	text "<TARGET>"
-	line "floh vor Angst!"
+	line "flieht vor Angst!"
 	prompt
 
 HitNTimesText:
-	text "Traf "
+	; GSC: Erleidet N Treffer!
+	text "Erleidet "
 	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text "-mal!"
+	line "Treffer!"
 	prompt
 
 MistText:
@@ -1179,45 +1213,48 @@ ProtectedByMistText:
 	prompt
 
 GettingPumpedText:
+	; GSC: pumpt sich auf!
 	text_pause
 	text "<USER>"
-	line "putscht sich auf!"
+	line "pumpt sich auf!"
 	prompt
 
 RecoilText:
+	; GSC: wird verletzt!
 	text "<USER>"
-	line "wird durch"
-	cont "Rückstoß verletzt!"
+	line "wird verletzt!"
 	prompt
 
 MadeSubstituteText:
+	; GSC: DELEGATOR
 	text "<USER>"
-	line "stellte ein"
-	cont "Abbild her!"
+	line "generiert einen"
+	cont "DELEGATOR!"
 	prompt
 
 HasSubstituteText:
 	text "<USER>"
-	line "hat schon ein"
-	cont "Abbild!"
+	line "hat schon einen"
+	cont "DELEGATOR!"
 	prompt
 
 TooWeakSubText:
-	text "Zu schwach für"
-	line "ein Abbild!"
+	text "Keine Energie für"
+	line "den DELEGATOR!"
 	prompt
 
 SubTookDamageText:
-	text "Abbild fängt"
+	text "Der DELEGATOR"
 	line "für"
 	cont "<TARGET>"
 	cont "ab!"
 	prompt
 
 SubFadedText:
-	text "Abbild von"
+	; GSC DELEGATOR
+	text "Der DELEGATOR von"
 	line "<TARGET>"
-	cont "verschwindet!"
+	cont "lässt nach!"
 	prompt
 
 WasSeededText:
@@ -1226,8 +1263,9 @@ WasSeededText:
 	prompt
 
 EvadedText:
+	; GSC: ist ausgewichen!
 	text "<TARGET>"
-	line "wich aus!"
+	line "ist ausgewichen!"
 	prompt
 
 WasDisabledText:
@@ -1239,8 +1277,9 @@ WasDisabledText:
 	prompt
 
 CoinsScatteredText:
-	text "Münzen rollen"
-	line "überall hin!"
+	; GSC
+	text "Es liegen überall"
+	line "Münzen verstreut!"
 	prompt
 
 TransformedTypeText:
@@ -1316,9 +1355,9 @@ HPIsFullText:
 	prompt
 
 DraggedOutText:
+	; GSC: wurde auserwählt!
 	text "<USER>"
-	line "wird raus-"
-	cont "gezogen!"
+	line "wurde auserwählt!"
 	prompt
 
 ; GSC-DE: ist paralysiert! (ohne Evtl.-Zusatz — Platz)
@@ -1383,11 +1422,11 @@ CuredDisableWithItem:
 	prompt
 
 StoleText:
+	; GSC: raubt ITEM vom Gegner!
 	text "<USER>"
-	line "stiehlt"
-	cont ""
+	line "raubt "
 	text_ram wStringBuffer1
-	text "!"
+	cont "vom Gegner!"
 	prompt
 
 KnockedOffItemText:
@@ -1433,7 +1472,8 @@ ProtectingItselfText:
 	done
 
 SpikesText:
-	text "Stacheln um"
+	; GSC: STACHLER umgibt TARGET!
+	text "STACHLER umgibt"
 	line "<TARGET>!"
 	prompt
 
@@ -1460,8 +1500,9 @@ StartPerishBodyText:
 	prompt
 
 SandstormBrewedText:
-	text "Ein Sandsturm"
-	line "zieht auf!"
+	; GSC: Ein SANDSTURM entsteht!
+	text "Ein SANDSTURM"
+	line "entsteht!"
 	prompt
 
 HailStartedText:
@@ -1469,14 +1510,15 @@ HailStartedText:
 	prompt
 
 BracedItselfText:
+	; GSC: macht sich bereit!
 	text "<USER>"
-	line "wappnet sich!"
+	line "macht sich bereit!"
 	prompt
 
 FellInLoveText:
+	; GSC: verliebt sich!
 	text "<TARGET>"
-	line "hat sich"
-	cont "verliebt!"
+	line "verliebt sich!"
 	prompt
 
 CoveredByVeilText:
@@ -1506,15 +1548,17 @@ ReleasedByText:
 	prompt
 
 ShedLeechSeedText:
+	; GSC: befreit sich von EGELSAMEN!
 	text "<USER>"
-	line "warf Egelsamen"
-	cont "ab!"
+	line "befreit sich von"
+	cont "EGELSAMEN!"
 	prompt
 
 BlewSpikesText:
+	; GSC: entfernt STACHLER!
 	text "<USER>"
-	line "blies Stacheln"
-	cont "weg!"
+	line "entfernt"
+	cont "STACHLER!"
 	prompt
 
 BlewToxicSpikesText:
@@ -1524,11 +1568,15 @@ BlewToxicSpikesText:
 	prompt
 
 DownpourText:
-	text "Es regnet!"
+	; GSC: Ein Platzregen setzt ein!
+	text "Ein Platzregen"
+	line "setzt ein!"
 	prompt
 
 SunGotBrightText:
-	text "Die Sonne brennt!"
+	; GSC: Die Sonne scheint hell!
+	text "Die Sonne scheint"
+	line "hell!"
 	prompt
 
 BellyDrumText:
@@ -1546,9 +1594,9 @@ BellyDrumContraryText:
 	prompt
 
 ForesawAttackText:
+	; GSC: erahnt Attacke!
 	text "<USER>"
-	line "ahnt einen Angriff"
-	cont "voraus!"
+	line "erahnt Attacke!"
 	prompt
 
 IgnoredOrders2Text:

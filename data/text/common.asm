@@ -2824,7 +2824,7 @@ _PokecenterPCCantUseText::
 
 SECTION "_PlayersPCTurnOnText", ROMX
 _PlayersPCTurnOnText::
-	text "<PLAYER> schaltete"
+	text "<PLAYER> schaltet"
 	line "den PC ein."
 	prompt
 
@@ -2893,7 +2893,7 @@ _PlayersPCNoRoomDepositText::
 
 SECTION "_PokecenterPCTurnOnText", ROMX
 _PokecenterPCTurnOnText::
-	text "<PLAYER> schaltete"
+	text "<PLAYER> schaltet"
 	line "den PC ein."
 	prompt
 
@@ -2917,7 +2917,7 @@ _PokecenterPlayersPCText::
 	text "Auf deinen PC"
 	line "zugegriffen."
 
-	para "Item-Lager-System"
+	para "ITEM-LAGERUNGS-SYSTEM"
 	line "geöffnet."
 	prompt
 
@@ -3205,7 +3205,7 @@ _PokemonNotHoldingText::
 SECTION "_ItemStorageFullText", ROMX
 _ItemStorageFullText::
 	text "Kein Platz mehr"
-	line "im Item-Lager!"
+	line "im ITEM-LAGER!"
 	prompt
 
 SECTION "_PokemonTookItemText", ROMX
@@ -3468,14 +3468,16 @@ _LinkAskTradeForText::
 
 SECTION "_WouldYouLikeToSaveTheGameText", ROMX
 _WouldYouLikeToSaveTheGameText::
-	text "Möchtest du dein"
-	line "Spiel speichern?"
+	; GSC: SICHERN
+	text "Möchtest du das"
+	line "Spiel SICHERN?"
 	done
 
 SECTION "_SavedTheGameText", ROMX
 _SavedTheGameText::
-	text "<PLAYER> speicherte"
-	line "das Spiel."
+	; GSC
+	text "<PLAYER> hat das"
+	line "Spiel gesichert."
 	done
 
 SECTION "_AnotherSaveFileText", ROMX

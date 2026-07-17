@@ -66,9 +66,11 @@ PokeComNurseNiteText:
 	done
 
 NurseAskHealText:
+	; GSC: Wir heilen deine #MON und machen sie wieder fit!
 	text "Wir heilen deine"
-	line "#MON voll."
-	cont ""
+	line "#MON und"
+	cont "machen sie wieder"
+	cont "fit!"
 
 	para "Sollen wir deine"
 	line "#MON heilen?"
@@ -76,7 +78,9 @@ NurseAskHealText:
 
 NurseTrainerStarText:
 	text "Wir heilen deine"
-	line "#MON voll."
+	line "#MON und"
+	cont "machen sie wieder"
+	cont "fit!"
 
 	para "Sollen wir …"
 
@@ -106,22 +110,22 @@ NurseTheUsualText:
 	done
 
 NurseTakePokemonText:
-	text "O.K., darf ich"
-	line "deine #MON"
-	cont "sehen?"
+	; GSC
+	text "O.K. Wir benötigen"
+	line "deine #MON."
 	done
 
 NurseReturnPokemonText:
-	text "Danke fürs"
-	line "Warten."
-	para "Deine #MON sind"
-	line "vollständig"
-	cont "geheilt."
+	; GSC: topfit
+	text "Danke! Deine"
+	line "#MON sind"
+	cont "wieder topfit!"
 	done
 
 NurseGoodbyeText:
-	text "Wir hoffen, dich"
-	line "wiederzusehen."
+	; GSC
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 NursePokerusText:

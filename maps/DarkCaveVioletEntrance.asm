@@ -83,7 +83,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	cry PIDGEOTTO
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_PidgeottoAttack
+	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_TAUBOGAAttack
 	waitsfx
 	pause 30
 	cry URSARING
@@ -100,7 +100,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
 
-DarkCaveVioletEntranceMovementData_PidgeottoAttack:
+DarkCaveVioletEntranceMovementData_TAUBOGAAttack:
 	run_step_right
 	run_step_left
 	step_end
@@ -123,12 +123,12 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 DarkCaveVioletEntranceFalknerAttackText:
 	text "FALK: Setz"
 	line "Flügelschlag ein,"
-	cont "Pidgeotto!"
+	cont "TAUBOGA!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
 	text "Gut gemacht,"
-	line "Pidgeotto."
+	line "TAUBOGA."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:
@@ -145,8 +145,8 @@ DarkCaveVioletEntranceFalknerDarkIntroText:
 
 DarkCaveVioletEntranceFalknerExplanationText:
 	text "Ich bin FALK, der"
-	line "Arenaleiter von"
-	cont "Viola City."
+	line "ARENALEITER von"
+	cont "VIOLA CITY."
 	para "Ich erkunde Höhlen"
 	line "nicht zum Spaß,"
 	para "aber dieses"
@@ -164,7 +164,7 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	line "einen Orden?"
 	para "Dann triff mich in"
 	line "der PKMN-ARENA"
-	cont "in Viola City."
+	cont "in VIOLA CITY."
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:

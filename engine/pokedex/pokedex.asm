@@ -1617,7 +1617,7 @@ Pokedex_Main:
 	jmp Pokedex_ScheduleScreenUpdateWithHBlank
 
 .ResultString:
-	db " Results/  @"
+	db " Treffer/  @"
 
 Pokedex_Bio:
 	ld a, DEXDISP_BIO
@@ -2540,7 +2540,7 @@ _Pokedex_Search:
 	dr .byNameString
 
 .byNameString:
-	db "by Name  @"
+	db "n. Name  @"
 
 .BlankDefaultString:
 	; Blanks the default "----" string.
