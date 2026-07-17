@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.051** (GSC-Kanon-Feinschliff-Batch) |
+| **Aktuell pure-DE** | **ROM 3.2.3.054** (Stadt-Landmarks GSC-CAPS + Startmenü `#COM`/`FERTIG`) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–051](#rom-übersicht-001051)
+3. [ROM-Übersicht 001–054](#rom-übersicht-001054)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -38,13 +38,43 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 1. Repo klonen / bauen → siehe [`INSTALL.md`](INSTALL.md)  
 2. Fertige **ROMs liegen nicht im Repo** (Copyright) — lokal mit `tools/save_rom_versioned.ps1` versionieren  
 3. **Vollständige ROM-Historie:** [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-4. Frühphase 001–015: [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)
+4. Frühphase 001–015: [`docs/ROM_HISTORY_001-015.md`](docs/ROM_HISTORY_001-015.md)  
+5. **Nach jedem pure-DE-Build:** README-Changelog + ROM-Übersicht + `tools/_rom_build_version.txt` mitziehen (Tag = ROM-Nummer **.0xx**)
 
 ---
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001051) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001054) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+
+> **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block (was geändert wurde) und einen Eintrag in der ROM-Übersicht. Git-Commit-Hash optional in Klammern.
+
+### 054 · 2026-07-17 — Stadt-Landmarks GSC-CAPS + Startmenü
+
+Commit: `80e31e3c9`
+
+- **Fly-/Karten-Landmarks:** alle GSC-Städte und Routen auf Dump-**CAPS**  
+  (`NEUBORKIA`, `ROSALIA CITY`, `VIOLA CITY`, `DUKATIA CITY`, … · `ROUTE 1`–`46`)  
+- Weitere Orte CAPS (u. a. `DUNKELHÖHLE`, `STEINEICHEN-WALD`, `SCHNELLBOOT`, `VERTANIA-WALD`, `DUELLTURM`, PC-Orte)
+- **Startmenü** (Dump 91–99): `#COM@` statt `<PO><KE>Com@`; Käferturnier-Ende **`FERTIG@`** (statt „Beenden“)
+- Rest-Startmenü bereits Dump-treu: `#DEX` · `#MON` · `BEUTEL` · `SICHERN` · `OPTION` · `ZURÜCK`
+
+### 053 · 2026-07-17 — LEUCHTTURM / EISPFAD + Lind-Phone
+
+Commit: `88ba9d755`
+
+- Dialog **LEUCHTTURM** (Olivine Lighthouse) statt Title-Case „Leuchtturm“
+- Phone PROF. LIND: **EISPFAD**; Grammatik *„soll es einen geben“*
+- Music-Player-Songtitel CAPS (EISPFAD, DRACHENHÖHLE, MONDBERG, …)
+
+### 052 · 2026-07-17 — Landmark-Gebäude CAPS + Shop-over18
+
+Commit: `7a24f7949` (inkl. voriger Continue-/Mega-Batch-Commits auf `master`)
+
+- Landmarks Gebäude: **RADIOTURM**, **ZINNTURM**, **TURMRUINE**, **ALPH-RUINEN**, **KNOFENSA-TURM**, **NATIONAL PARK**, **INDIGO PLATEAU**, …
+- GiovannisCave / Eusine: RADIOTURM · ZINNTURM
+- Celadon-Shop: over18-Splits (PIKACHU-Poster, Teppiche, Riesen-ONIX)
+- Vorlauf auf `master` (vor .052-Build): Mega-Batch NPC-GSC (6-Agent), Continue-Pass Shops/Phone/CAPS, Dialog-Doppelstrich → `…`
 
 ### 051 · 2026-07 — GSC-Kanon-Feinschliff (großer Pass)
 
@@ -157,7 +187,7 @@ Wow / Hey / Yeah / O.K. / Cool / Items / Earl — wie im DE-Kristall-Dump.
 
 ---
 
-## ROM-Übersicht 001–051
+## ROM-Übersicht 001–054
 
 | Block | Thema |
 |---|---|
@@ -173,9 +203,12 @@ Wow / Hey / Yeah / O.K. / Cool / Items / Earl — wie im DE-Kristall-Dump.
 | **049** | `#COM` / `#DEX`-Casing (PokéCOM) |
 | **050** | Summary-Reiter DE (EP/Fähig./Att./Ort/Ei) |
 | **051** | GSC-Kanon-Feinschliff (Kampf/UI/Items/Tutoren/CI) |
+| **052** | Landmark-Gebäude CAPS + Shop-over18 + Mega-/Continue-Batch |
+| **053** | LEUCHTTURM / EISPFAD + Lind-Phone-Grammatik |
+| **054** | Stadt-/Routen-Landmarks CAPS + Startmenü `#COM` / `FERTIG` |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · nächster Build: **052**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 054** · nächster Build: **055**
 
 ---
 
@@ -243,7 +276,7 @@ NEUBORKIA · ROSALIA · VIOLA · AZALEA · DUKATIA · TEAK · OLIVIANA · ANEMON
 | Datei / Ordner | Zweck |
 |---|---|
 | [`INSTALL.md`](INSTALL.md) | Bauen (DE) |
-| [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md) | ROM 001–049 Detail |
+| [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md) | ROM 001–054 Detail / Historie |
 | `tools/save_rom_versioned.ps1` | Desktop-ROM `.001`, `.002`, … |
 | `tools/_gsc_de_crystal_msg.txt` | GSC-DE-Dump-Referenz |
 | `tools/gsc_canon_setup/` | Batch-Regeln & Scanner |
@@ -256,6 +289,8 @@ NEUBORKIA · ROSALIA · VIOLA · AZALEA · DUKATIA · TEAK · OLIVIANA · ANEMON
 - PC-only-Ecken (z. B. Navel/Faraway-Jungle, Shamouti-Stubs) — Feinschliff nach Playtest  
 - Polished-only-Dialoge / restliche EN-Sätze nach Playtest  
 - Stil, Breite, Kanon-Namen: Feedback erwünscht  
+- ~~Stadt-Landmarks Title Case~~ → erledigt in **054**  
+- ~~Startmenü `PokéCom` / Beenden~~ → erledigt in **054** (`#COM` / `FERTIG`)  
 
 ---
 

@@ -1,7 +1,7 @@
 # ROM-Historie — Polished Crystal DE (GSC-Kanon)
 
 Vollständige Liste der **lokal versionierten Builds**  
-`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.049`  
+`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.054`  
 (Zähler: `tools/save_rom_versioned.ps1` / `tools/_rom_build_version.txt`).
 
 **ROMs liegen nicht im Repo** (Copyright). Hier steht nur, **was** pro Nummer (bzw. Nummernblock) typischerweise gebaut und getestet wurde.
@@ -9,8 +9,8 @@ Vollständige Liste der **lokal versionierten Builds**
 Quellen: Git-Commits, README-Changelog, `CONTINUE.md`, Session-Notizen (2026-07).  
 Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuild markiert.
 
-**Aktueller Zähler:** **049** (nächster Build wäre **050**).  
-**Spiel-Basis:** Polished Crystal **3.2.3** · Fork: [Only1Rudeboy/germanpolishedcrystal](https://github.com/Only1Rudeboy/germanpolishedcrystal)
+**Aktueller Zähler:** **054** (nächster Build wäre **055**).  
+**Spiel-Basis:** Polished Crystal **3.2.3** · Fork: [Only1Rudeboy/germanpolishedcrystal](https://github.com/Only1Rudeboy/germanpolishedcrystal) · Branch **`master`**
 
 ---
 
@@ -28,6 +28,7 @@ Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuil
 | G | **034–039** | Namen, CAPS, Feinschliff |
 | H | **040–045** | Items/Moves/Dex-QC + Script-Stubs |
 | I | **046–049** | Optionen-UI, QWERTZ / v0.9, `#COM`-Casing |
+| J | **050–054** | Summary-Tabs, GSC-Feinschliff, Landmark-CAPS, Startmenü |
 
 ---
 
@@ -163,20 +164,35 @@ Ab **`.001`** zählt `save_rom_versioned.ps1` fortlaufend.
 **Desktop (typisch):**  
 `polishedcrystal-3.2.3.049.gbc` · früher `…048` / `…-de-v0.9.gbc` / `…-latest.gbc`
 
-**Nächster Zähler:** **050**.
+---
+
+## Phase J — 050–054 · Summary, Feinschliff, Landmark-CAPS, Startmenü
+
+| ROM | Commit (u. a.) | Inhalt |
+|---|---|---|
+| **050** | *(Summary-Tabs)* | Status-Screen-Tabs DE: **EP · Fähig. · Item · Att. · Ort · Ei**; Fundort `Tag, Lv.15`. |
+| **051** | `f7490fae4` u. a. | **GSC-Kanon-Feinschliff:** Kampf/UI/Items/Tutoren, Beeren-Crash, Premierball, CI (kein Glitzerbonbon in pure), Mega-Batch-Vorbereitung. |
+| **052** | `7a24f7949` | Landmark-**Gebäude** CAPS (RADIOTURM, ZINNTURM, …); Celadon-Shop over18; GiovannisCave/Eusine; Mega-/Continue-Batch auf `master`. |
+| **053** | `88ba9d755` | Dialog **LEUCHTTURM** / Phone **EISPFAD**; Lind-Phone-Grammatik; Music-Player CAPS. |
+| **054** | `80e31e3c9` | **Stadt-/Routen-Landmarks** Dump-CAPS (`ROSALIA CITY`, `ROUTE n`, …); Startmenü **`#COM@`** + Käferturnier **`FERTIG@`**. |
+
+**Desktop (typisch):**  
+`polishedcrystal-3.2.3.054.gbc` · `…-latest.gbc` · Kopie unter `pokemon polished crystal roms\original\`
+
+**Nächster Zähler:** **055**.
 
 ---
 
-## Arbeitskopie (nicht in 001–049 pure-DE)
+## Arbeitskopie (nicht in pure-DE-Serie)
 
-Separates Experimenten-Repo/Pfad `germanpolishedcrystal-ARBEITSKOPIE` (nicht main pure-DE):
+Separates Experimenten-Pfad `germanpolishedcrystal-ARBEITSKOPIE` / Shiny-Builds (**nicht** im Git-Repo):
 
 - Shiny: max DVs, Fangrate /4  
 - Legendaries stärker (+10 % / +20 % Hierarchy)  
 - Item **Glitzerbonbon** (SHINY_CANDY) ×6 Endgame-Orte  
-- ROM z. B. `polishedcrystal-ARBEITSKOPIE-shiny-maxdv.gbc` / `germanpolishedcrystal-v0.9.gbc` mit Experimenten  
+- ROM z. B. `polishedcrystal-ARBEITSKOPIE-shiny-maxdv.gbc`  
 
-→ **nicht** Teil der reinen Lokalisierungs-Serie 001–049 auf `main`.
+→ **nicht** Teil der reinen Lokalisierungs-Serie 001–054 auf **`master`**.
 
 ---
 
@@ -233,7 +249,12 @@ Separates Experimenten-Repo/Pfad `germanpolishedcrystal-ARBEITSKOPIE` (nicht mai
 | **047** | Optionen-Menüs / Perfect-DVs-Labels |
 | **048** | **QWERTZ** / pure-DE v0.9 |
 | **049** | `#COM` / `#DEX` Casing (PokéCOM) |
-| **050** | *(noch nicht — nächster Zähler)* |
+| **050** | Summary-Reiter DE (EP/Fähig./Att./Ort/Ei) |
+| **051** | GSC-Kanon-Feinschliff (Kampf/UI/Items/Tutoren/CI) |
+| **052** | Landmark-Gebäude CAPS + Shop-over18 + Mega-/Continue |
+| **053** | LEUCHTTURM / EISPFAD + Lind-Phone |
+| **054** | Stadt-/Routen-CAPS + Startmenü `#COM` / `FERTIG` |
+| **055** | *(noch nicht — nächster Zähler)* |
 
 ---
 
