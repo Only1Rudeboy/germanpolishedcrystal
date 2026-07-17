@@ -40,17 +40,18 @@ SilphScopeRevealText:
 	cont "Geist!"
 	prompt
 
+; GSC-DE: "Das gefangene" / "NAME" / "greift an!"
 HookedPokemonAttackedText:
-	text "Das geangelte"
+	text "Das gefangene"
 	line ""
 	text_ram wEnemyMonNickname
 	cont "greift an!"
 	prompt
 
+; GSC-DE: "fällt vom Baum!"
 PokemonFellFromTreeText:
 	text_ram wEnemyMonNickname
-	line "fiel aus dem"
-	cont "Baum!"
+	line "fällt vom Baum!"
 	prompt
 
 WantsToBattleText::
@@ -63,20 +64,21 @@ WantToBattleText::
 	line "möchten kämpfen!"
 	prompt
 
+; GSC-DE: "Das wilde" / "NAME" / "ist geflohen!"
 BattleText_WildFled:
 	text "Das wilde"
 	line ""
 	stop_compressing_text ; fallthrough
 BattleText_LegendaryFled:
 	text_ram wEnemyMonNickname
-	cont "floh!"
+	cont "ist geflohen!"
 	prompt
 
+; GSC-DE: "Gegn. NAME" / "ist geflohen!"
 BattleText_EnemyFled:
-	text "Gegnerisches"
-	line ""
+	text "Gegn. "
 	text_ram wEnemyMonNickname
-	cont "floh!"
+	line "ist geflohen!"
 	prompt
 
 BattleText_EnemyCantEscape:
@@ -93,31 +95,35 @@ DealtXDamageText:
 	prompt
 endc
 
+; GSC-DE: "Das Gift schadet" / "<USER>!"
 HurtByPoisonText:
-	text "<USER>"
-	line "leidet unter"
-	cont "Gift!"
+	text "Das Gift schadet"
+	line "<USER>!"
 	done
 
+; GSC-DE: "Die Verbrennung" / "schadet" / "<USER>!"
 HurtByBurnText:
-	text "<USER>"
-	line "leidet unter der"
-	cont "Verbrennung!"
+	text "Die Verbrennung"
+	line "schadet"
+	cont "<USER>!"
 	done
 
+; GSC-DE: "Die EGELSAMEN-" / "ATTACKE schadet" / "<USER>!"
 LeechSeedSapsText:
-	text "Egelsamen schadet"
+	text "Die EGELSAMEN-"
+	line "ATTACKE schadet"
+	cont "<USER>!"
+	prompt
+
+; GSC-DE: "FLUCH schadet" / "<USER>!"
+HurtByCurseText:
+	text "FLUCH schadet"
 	line "<USER>!"
 	prompt
 
-HurtByCurseText:
-	text "<USER>"
-	line "leidet unter dem"
-	cont "Fluch!"
-	prompt
-
+; GSC-DE: "SANDSTURM trifft" / "<USER>!"
 SandstormHitsText:
-	text "Sandsturm trifft"
+	text "SANDSTURM trifft"
 	line "<USER>!"
 	prompt
 
@@ -126,17 +132,19 @@ HailHitsText:
 	line "<USER>!"
 	prompt
 
+; GSC-DE: "<USER>:" / "ABGESANG steht bei" / "N!"
 PerishCountText:
-	text "Ende von"
-	line "<USER>"
-	cont "in "
+	text "<USER>:"
+	line "ABGESANG steht bei"
+	cont ""
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
+; (z.B. Liquid Ooze / 10%-Schaden; GSC-nah)
 BattleText_UserLostSomeOfItsHP:
 	text "<USER>"
-	line "verlor KP!"
+	line "hat KP verloren!"
 	prompt
 
 BattleText_PickedUpItem:
@@ -351,11 +359,11 @@ BattleText_TheHailStopped:
 	line "auf!"
 	prompt
 
+; GSC-DE: "Gegn. NAME" / "wurde besiegt!"
 BattleText_EnemyPkmnFainted:
-	text "Gegnerisches"
-	line ""
+	text "Gegn. "
 	text_ram wEnemyMonNickname
-	cont "wurde besiegt!"
+	line "wurde besiegt!"
 	prompt
 
 GotMoneyForWinningText:
@@ -375,29 +383,31 @@ BattleText_EnemyWereDefeated:
 	line "wurden besiegt!"
 	prompt
 
+; GSC-DE: "Spielt Remis gegen" / "<ENEMY>!"
 TiedAgainstText:
-	text "Unentschieden"
-	line "gegen"
-	cont "<ENEMY>!"
+	text "Spielt Remis gegen"
+	line "<ENEMY>!"
 	prompt
 
+; GSC-DE: erhält + schickt einen Teil nach Hause
 SentSomeToMomText:
 	text "<PLAYER>"
 	line "erhält ¥"
 	text_decimal wBattleReward, 3, 6
-	text "!"
-	cont "Etwas an Mama"
-	cont "geschickt!"
+	text " und schickt"
+	cont "einen Teil nach"
+	cont "Hause!"
 	prompt
 
 SentHalfToMomText:
-	text "Die Hälfte ging"
-	line "an Mama!"
+	text "Die Hälfte wurde"
+	line "nach Hause"
+	cont "geschickt!"
 	prompt
 
 SentAllToMomText:
-	text "Alles ging an"
-	line "Mama!"
+	text "Alles wurde nach"
+	line "Hause geschickt!"
 	prompt
 
 BattleText_PkmnFainted:
@@ -410,8 +420,9 @@ BattleText_UseNextMon:
 	line "einsetzen?"
 	done
 
+; GSC-DE: "Verlor gegen" / "<ENEMY>!"
 LostAgainstText:
-	text "Verloren gegen"
+	text "Verlor gegen"
 	line "<ENEMY>!"
 	prompt
 
@@ -468,37 +479,40 @@ BattleText_TheresNoWillToBattle:
 	line "kämpfen!"
 	prompt
 
+; GSC-DE: "Ein EI kann" / "nicht kämpfen!"
 BattleText_AnEGGCantBattle:
-	text "Ein Ei kann nicht"
-	line "kämpfen!"
+	text "Ein EI kann"
+	line "nicht kämpfen!"
 	prompt
 
+; GSC-DE: "Flucht unmöglich!"
 BattleText_CantEscape:
-	text "Flucht"
-	line "unmöglich!"
+	text "Flucht unmöglich!"
 	prompt
 
 BattleText_AskForfeitTrainerBattle:
 	text "Kampf aufgeben?"
 	done
 
+; GSC-DE: "Du bist entkommen!"
 BattleText_GotAwaySafely:
-	text "Du bist"
-	line "entkommen!"
+	text "Du bist entkommen!"
 	prompt
 
+; GSC-DE: floh durch den Einsatz von ITEM
 BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
-	line "floh mit"
+	line "floh durch"
+	cont "den Einsatz von"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
+; GSC-DE: "STACHLER schadet" / "<USER>!"
 BattleText_UserHurtBySpikes:
-	text "<USER>"
-	line "leidet unter"
-	cont "Stacheln!"
+	text "STACHLER schadet"
+	line "<USER>!"
 	prompt
 
 RecoveredUsingText:
@@ -867,6 +881,7 @@ RestedText:
 	cont "wurde gesund!"
 	done
 
+; GSC-DE: "<USER>" / "erholt sich!"
 RegainedHealthText:
 	text "<USER>"
 	line "erholt sich!"
@@ -874,7 +889,7 @@ RegainedHealthText:
 
 IsHurtText:
 	text "<USER>"
-	line "ist verletzt!"
+	line "wird verletzt!"
 	prompt
 
 IsTormentedText:
@@ -882,22 +897,24 @@ IsTormentedText:
 	line "wird gefoltert!"
 	prompt
 
+; GSC-DE: "<USER>s" / "Attacke ging" / "daneben!"
 AttackMissedText:
-	text "Attacke von"
-	line "<USER>"
-	cont "ging daneben!"
+	text "<USER>s"
+	line "Attacke ging"
+	cont "daneben!"
 	prompt
 
+; GSC-DE: macht weiter und fällt hin
 CrashedText:
 	text "<USER>"
-	line "fiel hin und"
-	cont "verletzt sich!"
+	line "macht weiter und"
+	cont "fällt hin!"
 	prompt
 
+; GSC-DE: "Es hat keine" / "Wirkung!"  /  "…auf TARGET"
 UnaffectedText:
-	text "Keine Wirkung"
-	line "auf"
-	cont "<TARGET>!"
+	text "<TARGET>"
+	line "ist unversehrt!"
 	prompt
 
 DoesntAffectText:
@@ -911,41 +928,47 @@ CriticalHitText:
 	prompt
 
 ExtremelyEffectiveText:
-	text "Das ist extrem"
-	line "effektiv!"
+	text "Die Attacke ist"
+	line "sehr effektiv!"
 	prompt
 
+; GSC-DE: "Die Attacke ist" / "sehr effektiv!"
 SuperEffectiveText:
-	text "Das ist sehr"
-	line "effektiv!"
+	text "Die Attacke ist"
+	line "sehr effektiv!"
 	prompt
 
+; GSC-DE: "Die Attacke ist" / "nicht sehr" / "effektiv…"
 NotVeryEffectiveText:
-	text "Das ist nicht"
-	line "sehr effektiv…"
+	text "Die Attacke ist"
+	line "nicht sehr"
+	cont "effektiv…"
 	prompt
 
 MostlyIneffectiveText:
-	text "Das ist kaum"
-	line "effektiv…"
+	text "Die Attacke ist"
+	line "kaum effektiv…"
 	prompt
 
+; GSC-DE: K.O. für beide TARGET, USER
 TookDownWithItText:
-	text "<TARGET>"
-	line "reißt"
-	cont "<USER>"
-	cont "mit!"
+	text "K.O. für beide"
+	line "<TARGET>,"
+	cont "<USER>!"
 	prompt
 
+; GSC-DE: verfällt in RASEREI
 RageBuildingText:
-	text "Wut von"
-	line "<USER>"
-	cont "steigt!"
+	text "<USER>"
+	line "verfällt in"
+	cont "RASEREI!"
 	prompt
 
+; GSC-DE: setzt ZUGABE ein
 GotAnEncoreText:
 	text "<TARGET>"
-	line "bekam Zugabe!"
+	line "setzt"
+	cont "ZUGABE ein!"
 	prompt
 
 SharedPainText:
@@ -996,14 +1019,15 @@ BellChimedText:
 	line "läutet!"
 	prompt
 
+; GSC-DE: schläft / schläft bereits
 FellAsleepText:
 	text "<TARGET>"
-	line "ist eingeschlafen!"
+	line "schläft!"
 	prompt
 
 AlreadyAsleepText:
 	text "<TARGET>"
-	line "schläft schon!"
+	line "schläft bereits!"
 	prompt
 
 WasPoisonedText:
@@ -1011,33 +1035,36 @@ WasPoisonedText:
 	line "wurde vergiftet!"
 	prompt
 
+; GSC-DE: ist schwer vergiftet
 BadlyPoisonedText:
 	text "<TARGET>"
-	line "wurde schwer"
+	line "ist schwer"
 	cont "vergiftet!"
 	prompt
 
 AlreadyPoisonedText:
 	text "<TARGET>"
-	line "ist schon"
+	line "ist bereits"
 	cont "vergiftet!"
 	prompt
 
+; GSC-DE: "<TARGET>" / "hat KP verloren!"
+; (nicht "KP von … abgesaugt!" — overflow mit Gegn. NAME)
 SuckedHealthText:
-	text "KP von"
-	line "<TARGET>"
-	cont "abgesaugt!"
+	text "<TARGET>"
+	line "hat KP verloren!"
 	prompt
 
+; GSC-DE: "<TARGET>s" / "Traum gefressen!"
 DreamEatenText:
-	text "Traum von"
-	line "<TARGET>"
-	cont "gefressen!"
+	text "<TARGET>s"
+	line "Traum gefressen!"
 	prompt
 
+; GSC-DE: brennt!
 WasBurnedText:
 	text "<TARGET>"
-	line "wurde verbrannt!"
+	line "brennt!"
 	prompt
 
 AlreadyBurnedText:
@@ -1263,9 +1290,9 @@ ReflectEffectText:
 	cont "steigt!"
 	prompt
 
+; GSC-DE: "Nichts geschieht."
 NothingHappenedText:
-	text "Es geschieht"
-	line "nichts…"
+	text "Nichts geschieht."
 	prompt
 
 ButItFailedText:
@@ -1278,10 +1305,13 @@ DidntAffectText:
 	cont "<TARGET>!"
 	prompt
 
+; GSC-DE: "Die KP von" / "<USER>" / "wurden ganz" / "aufgefüllt!"
 HPIsFullText:
-	text "KP von"
+	text "Die KP von"
 	line "<USER>"
-	cont "sind voll!"
+
+	para "wurden ganz"
+	line "aufgefüllt!"
 	prompt
 
 DraggedOutText:
@@ -1290,18 +1320,15 @@ DraggedOutText:
 	cont "gezogen!"
 	prompt
 
+; GSC-DE: ist paralysiert! (ohne Evtl.-Zusatz — Platz)
 ParalyzedText:
 	text "<TARGET>"
-	line "wurde"
-	cont "paralysiert!"
-	cont "Evtl. handlungs-"
-	cont "unfähig!"
+	line "ist paralysiert!"
 	prompt
 
 FullyParalyzedText:
 	text "<USER>"
-	line "ist total"
-	cont "paralysiert!"
+	line "ist paralysiert!"
 	done
 
 AlreadyParalyzedText:
@@ -1376,21 +1403,27 @@ CantEscapeNowText:
 	cont "fliehen!"
 	prompt
 
+; GSC-DE: wurde aufgetaut
 WasDefrostedText:
 	text "<USER>"
-	line "taute auf!"
+	line "wurde aufgetaut!"
 	prompt
 
+; GSC-DE: zieht sich KP ab und belegt TARGET mit einem FLUCH
 PutACurseText:
 	text "<USER>"
-	line "opfert KP und"
-	cont "verflucht"
-	cont "<TARGET>!"
+	line "zieht sich KP ab"
+
+	para "und belegt"
+	line "<TARGET>"
+	cont "mit einem FLUCH!"
 	prompt
 
+; GSC-DE: schützt sich selbst
 ProtectedItselfText:
 	text "<USER>"
-	line "schützt sich!"
+	line "schützt sich"
+	cont "selbst!"
 	prompt
 
 ProtectingItselfText:
