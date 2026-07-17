@@ -28,9 +28,9 @@ SafariZoneHub_MapScriptHeader:
 GenericTrainerBug_maniacKai:
 	generictrainer BUG_MANIAC, KAI, EVENT_BEAT_BUG_MANIAC_KAI, Bug_maniacKaiSeenText, Bug_maniacKaiBeatenText
 
-	text "Bluzuk ist so"
+	text "BLUZUK ist so"
 	line "ähnlich wie"
-	cont "Smettbo!"
+	cont "SMETTBO!"
 
 	para "Gewicht, Augen,"
 	line "Fähigkeiten…"
@@ -40,15 +40,15 @@ GenericTrainerBug_maniacKai:
 	done
 
 Bug_maniacKaiSeenText:
-	text "Mein Bluzuk"
+	text "Mein BLUZUK"
 	line "entwickelte sich"
-	cont "zu Omot?!"
+	cont "zu OMOT?!"
 	done
 
 Bug_maniacKaiBeatenText:
 	text "Ich dachte, es"
 	line "wird sich sicher"
-	cont "zu Smettbo"
+	cont "zu SMETTBO"
 	cont "entwickeln!"
 	done
 

@@ -237,9 +237,9 @@ Route22PastLyraPokeGearText:
 
 Route22PastLyraExplainsTimeTravelText:
 	text "Ist das … sehe ich"
-	line "da … Celebi?"
+	line "da … CELEBI?"
 	para "Das erklärt alles!"
-	line "Celebi muss seine"
+	line "CELEBI muss seine"
 	para "Kraft genutzt"
 	line "haben, um uns in"
 	cont "die Vergangenheit"
@@ -367,5 +367,5 @@ Route22PastLyraConclusionText:
 Route22PastLyraOhNoText:
 	text "LYRA: Ach nein! Es"
 	line "passiert wieder …!"
-	para "Celebis Zeitreise!"
+	para "CELEBIs Zeitreise!"
 	done

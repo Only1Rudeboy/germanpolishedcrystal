@@ -1110,8 +1110,9 @@ BellyDrumDescription:
 	done
 
 ForesightDescription:
-	text "Schützt vor"
-	next "Präzisionssenkung."
+	; GSC Gesichte: Geist/Flucht erkennen
+	text "Erkennt Geist und"
+	next "hohe Fluchtwerte."
 	done
 
 DestinyBondDescription:

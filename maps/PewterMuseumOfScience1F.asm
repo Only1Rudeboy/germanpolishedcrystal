@@ -222,7 +222,7 @@ Museum1FReceptionistScript:
 	text "Willkommen!"
 	para "Dank einer"
 	line "großzügigen Spende"
-	cont "von Silph Co.,"
+	cont "von SILPH CO.,"
 	para "ist der Eintritt"
 	line "frei!"
 	para "Bitte schau dich"

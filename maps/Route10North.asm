@@ -265,7 +265,7 @@ Route10NorthLawrenceGreetingText:
 
 Route10NorthLawrenceZapdosText:
 	text "LAWRENCE: Das ist"
-	line "ein Zapdos."
+	line "ein ZAPDOS."
 
 	para "Es muss vom"
 	line "Generator"
@@ -288,14 +288,14 @@ Route10NorthLawrenceZapdosText:
 	done
 
 Route10NorthLawrenceFlyText:
-	text "LAWRENCE: Zapdos,"
+	text "LAWRENCE: ZAPDOS,"
 	line "flieg!"
 	done
 
 Route10NorthLawrenceSpeechText:
 	text "LAWRENCE: Hallo"
 	line "wieder, <PLAYER>."
-	para "Du wolltest Zapdos"
+	para "Du wolltest ZAPDOS"
 	line "also doch?"
 	para "Ich dachte schon,"
 	line "die"

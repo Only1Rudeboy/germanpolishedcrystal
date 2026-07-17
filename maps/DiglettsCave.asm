@@ -143,7 +143,7 @@ GenericTrainerHikerDent:
 	text "Ich gehe nach"
 	line "MARMORIA."
 
-	para "Die Gesteins-Arena"
+	para "Die Gesteins-ARENA"
 	line "ist perfekt für"
 	cont "einen Kerl wie"
 	cont "mich!"

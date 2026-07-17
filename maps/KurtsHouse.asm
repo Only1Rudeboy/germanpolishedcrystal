@@ -396,7 +396,7 @@ PokemonJournalProfWestwoodScript:
 	line "WESTWOOD!"
 	para "PROF. WESTWOOD V."
 	line "lehrt an der"
-	cont "Prismania-Uni."
+	cont "PRISMANIA-UNI."
 	para "Die Forschung"
 	line "seines Urahnen im"
 	cont "Jahr 1925"

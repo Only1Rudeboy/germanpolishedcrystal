@@ -171,7 +171,7 @@ GenericTrainerPsychicUri:
 	text "Eines Morgens"
 	line "wachte ein Junge"
 	cont "mit ESP als"
-	cont "Kadabra auf!"
+	cont "KADABRA auf!"
 	done
 
 .BeatenText:

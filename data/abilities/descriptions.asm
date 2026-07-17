@@ -733,7 +733,7 @@ HarvestDescription:
 
 MoodyDescription:
 	text "Erhöht einen Wert,"
-	next "senkt den andren."
+	next "senkt den anderen."
 	done
 
 OvercoatDescription:

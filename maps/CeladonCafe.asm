@@ -196,7 +196,7 @@ MayleneText2:
 	para "Nach strenger Diät"
 	line "im Training kann"
 	cont "ich wie ein"
-	para "Relaxo essen."
+	para "RELAXO essen."
 	para "Die Gewinnerin"
 	line "isst auch noch"
 	cont "umsonst."

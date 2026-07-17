@@ -24,10 +24,10 @@ MountMoonB1F_MapScriptHeader:
 
 MountMoonB1FPokefanmText:
 	text "Ich grabe hier"
-	line "unter dem Mondberg"
+	line "unter dem MONDBERG"
 	cont "nach Fossilien."
 	para "Manchmal hilft"
 	line "ROCKO von der"
-	cont "Marmoria-Arena"
+	cont "MARMORIA-ARENA"
 	cont "mit."
 	done

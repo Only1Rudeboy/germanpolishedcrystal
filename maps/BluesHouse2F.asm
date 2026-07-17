@@ -21,8 +21,8 @@ BluesHouse2FPCText:
 	text "Ein Programm"
 	line "simuliert einen"
 	cont "Kampf zwischen"
-	para "einem Turtok und"
-	line "einem Dragoran."
+	para "einem TURTOK und"
+	line "einem DRAGORAN."
 	done
 
 BluesHouse2FSNESText:

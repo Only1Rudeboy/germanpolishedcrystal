@@ -1926,7 +1926,7 @@ WillFinalPkmnText:
 	prompt
 
 KogaFinalPkmnText:
-	text "Fwahaha! Auf"
+	text "Hahaha! Auf"
 	line "dieses hier"
 
 	para "hab ich von Anfang"
@@ -2024,7 +2024,7 @@ Rival1_3FinalPkmnText:
 	prompt
 
 Rival1_4FinalPkmnText:
-	text "Hey, hey! Warum so"
+	text "He, he! Warum so"
 	line "ernst?"
 	prompt
 
@@ -2104,7 +2104,7 @@ Petrel1FinalPkmnText:
 	prompt
 
 Petrel2FinalPkmnText:
-	text "Hey, du bist gut!"
+	text "He, du bist gut!"
 	prompt
 
 Archer1FinalPkmnText:
@@ -2128,7 +2128,7 @@ Ariana1FinalPkmnText:
 	prompt
 
 Ariana2FinalPkmnText:
-	text "Hey, was glaubst"
+	text "He, was glaubst"
 	line "du, was du da"
 	cont "tust?!"
 	prompt
@@ -2158,21 +2158,23 @@ ProfElmFinalPkmnText:
 	prompt
 
 ProfIvyFinalPkmnText:
-	text "Ich bin unten,"
-	line "aber nicht raus!"
+	text "Ich liege hinten,"
+	line "aber geb noch"
+	cont "nicht auf!"
 	prompt
 
 MysticalManFinalPkmnText:
-	text "Zeit für ein"
-	line "dramat. Comeback!"
+	text "Zeit für eine"
+	line "dramatische"
+	cont "Wende!"
 	prompt
 
 KarateKingFinalPkmnText:
-	text "Yaaarggh!"
+	text "Hiiiyah!"
 	prompt
 
 PalmerFinalPkmnText:
-	text "Bravo!"
+	text "Hervorragend!"
 	prompt
 
 ThortonFinalPkmnText:
@@ -2218,12 +2220,12 @@ CherylFinalPkmnText:
 
 RileyFinalPkmnText:
 	text "Dein Team! Ich"
-	line "spür deine Aura!"
+	line "spür deine Kraft!"
 	prompt
 
 BuckFinalPkmnText:
 	text "Jetzt aber! Es ist"
-	line "eine brandheiße"
+	line "eine heiße"
 	cont "Situation!"
 	prompt
 
@@ -2245,12 +2247,12 @@ AnabelFinalPkmnText:
 
 DarachFinalPkmnText:
 	text "Mein letzter"
-	line "Stand! Allez!"
+	line "Stand! Los jetzt!"
 	prompt
 
 CaitlinFinalPkmnText:
 	text "Auch jetzt sollte"
-	line "ich cool und"
+	line "ich ruhig und"
 	cont "gefasst bleiben…"
 	prompt
 
@@ -2280,11 +2282,11 @@ MayleneFinalPkmnText:
 	prompt
 
 MarlonFinalPkmnText:
-	text "Awww, Mann…"
+	text "Ach, Mann…"
 
 	para "Ich weiß, ich bin"
 	line "fast fertig, aber"
-	cont "voll aufgedreht!"
+	cont "voll motiviert!"
 	prompt
 
 ValerieFinalPkmnText:
@@ -2298,7 +2300,7 @@ KukuiFinalPkmnText:
 
 PiersFinalPkmnText:
 	text "Ich mach keine"
-	line "Zugaben, klar?"
+	line "Zugabe, klar?"
 
 	para "Keine Songs… Keine"
 	line "Attacken… Keine"
@@ -2315,7 +2317,7 @@ LarryFinalPkmnText:
 	prompt
 
 BillFinalPkmnText:
-	text "Yeehah! Was für"
+	text "Juhu! Was für"
 	line "ein Kampf!"
 	prompt
 

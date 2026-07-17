@@ -526,7 +526,7 @@ ProfOakEeveeDollTradeText:
 	; PC-only
 	text "EICH: Ach,"
 	line "bewunderst du"
-	cont "meine Evoli-Puppe?"
+	cont "meine EVOLI-Puppe?"
 	para "Ich tausche sie"
 	line "gegen einen"
 	cont "Ewigstein."
@@ -555,12 +555,12 @@ NoTradeText:
 EeveeDollText:
 	; PC-only
 	text "<PLAYER> erhält"
-	line "Evoli-Puppe."
+	line "EVOLI-Puppe."
 	done
 
 EeveeDollSentText:
 	; PC-only
-	text "Evoli-Puppe wurde"
+	text "EVOLI-Puppe wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done

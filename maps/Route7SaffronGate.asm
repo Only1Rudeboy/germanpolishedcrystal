@@ -53,7 +53,7 @@ Route7SaffronGateSilphEmployeeText:
 	text "BRUNO von der Top"
 	line "Vier hat früher"
 
-	para "in Saffronia"
+	para "in SAFFRONIA"
 	line "trainiert."
 
 	para "Er trainierte mit"

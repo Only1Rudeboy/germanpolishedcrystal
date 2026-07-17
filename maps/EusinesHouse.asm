@@ -135,11 +135,11 @@ EusinesHouseGrampsScript:
 
 ReceivedAbraDollText:
 	text "<PLAYER> erhält"
-	line "Abra-Puppe."
+	line "ABRA-Puppe."
 	done
 
 AbraDollSentHomeText:
-	text "Abra-Puppe wurde"
+	text "ABRA-Puppe wurde"
 	line "nach Hause"
 	cont "geschickt."
 	done

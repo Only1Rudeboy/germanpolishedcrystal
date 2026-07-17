@@ -100,7 +100,7 @@ Route4TutorIronHeadScript:
 	jumpthisopenedtext
 
 	text "Aber es ist besser"
-	line "als Aqua Tail!"
+	line "als Nassschweif!"
 	done
 
 .NoSilverLeaf
@@ -139,7 +139,7 @@ Route4TutorAquaTailScript:
 	jumpthisopenedtext
 
 	text "Aber es ist besser"
-	line "als Iron Head!"
+	line "als Eisenschädel!"
 	done
 
 .NoSilverLeaf
@@ -233,8 +233,8 @@ Route4SuperNerd1Text:
 	text "#MON mit harten"
 	line "Köpfen sind top!"
 
-	para "Arcanine, Golem,"
-	line "Snorlax!"
+	para "ARKANI, GEOWAZ,"
+	line "RELAXO!"
 
 	para "Findest du nicht?"
 	done
@@ -244,8 +244,8 @@ Route4SuperNerd2Text:
 	line "Schwänzen sind"
 	cont "top!"
 
-	para "Slowbro, Golduck,"
-	line "Feraligatr!"
+	para "LAHMUS, ENTORON,"
+	line "IMPERGATOR!"
 
 	para "Findest du nicht?"
 	done
@@ -255,7 +255,7 @@ Text_Route4TutorIronHead:
 	line "Silberblatt und"
 
 	para "ich bringe deinem"
-	line "#MON Iron Head"
+	line "#MON Eisenschädel"
 	cont "bei!"
 	done
 
@@ -264,7 +264,7 @@ Text_Route4TutorAquaTail:
 	line "Silberblatt und"
 
 	para "ich bringe deinem"
-	line "#MON Aqua Tail"
+	line "#MON Nassschweif"
 	cont "bei!"
 	done
 
@@ -275,13 +275,13 @@ Text_Route4TutorsNoSilverLeaf:
 
 Text_Route4Tutor1Question:
 	text "Soll ich deinem"
-	line "#MON Iron Head"
+	line "#MON Eisenschädel"
 	cont "beibringen?"
 	done
 
 Text_Route4Tutor2Question:
 	text "Soll ich deinem"
-	line "#MON Aqua Tail"
+	line "#MON Nassschweif"
 	cont "beibringen?"
 	done
 

@@ -141,7 +141,7 @@ Text_CeladonCityTutorQuestion:
 
 CeladonCityFisherText:
 	; PC-only Class C
-	text "Dieser Quappo ist"
+	text "Dieser QUAPPO ist"
 	line "mein Partner."
 	para "Er war früher"
 	line "Sanft, aber die"
@@ -344,7 +344,7 @@ CeladonCityTrainerTips1Text:
 CeladonCityTrainerTips2Text:
 	; PC-only Class C
 	text "TIPPS für TRAINER"
-	para "Evoli ist ein"
+	para "EVOLI ist ein"
 	line "#MON voller"
 	cont "Potenzial."
 	para "Probier es an"

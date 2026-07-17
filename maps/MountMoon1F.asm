@@ -103,7 +103,7 @@ GenericTrainerBugManiacKenta:
 GenericTrainerLassMiriam:
 	generictrainer LASS, MIRIAM, EVENT_BEAT_LASS_MIRIAM, LassMiriamSeenText, LassMiriamBeatenText
 
-	text "Der Mondberg ist"
+	text "Der MONDBERG ist"
 	line "groß, aber du"
 	cont "gewöhnst dich bald"
 	cont "dran."
@@ -137,7 +137,7 @@ GenericTrainerLassIris:
 
 	text "Ich komme jeden"
 	line "Tag her, um ein"
-	cont "Piepi zu fangen,"
+	cont "PIEPI zu fangen,"
 
 	para "aber ich hab noch"
 	line "keins gesehen…"
@@ -213,7 +213,7 @@ MountMoonRivalTextAfter:
 	cont "Ende."
 	para "Nach mehr Training"
 	line "in der"
-	cont "Drachenhöhle …"
+	cont "DRACHENHÖHLE …"
 	para "werde ich der"
 	line "größte"
 	cont "#MON-Trainer"
@@ -290,7 +290,7 @@ BugManiacRobbyBeatenText:
 	line "…"
 	done
 LassIrisSeenText:
-	text "Hast du ein Piepi"
+	text "Hast du ein PIEPI"
 	line "gesehen?"
 
 	para "Die sind so süß!"

@@ -51,11 +51,11 @@ _BTWinM3Text:
 
 _BTGreetingM4Text:
 	text "Heh, deine #MON"
-	line "sehen cool aus."
+	line "sehn klasse aus."
 	done
 
 _BTLossM4Text:
-	text "Hey, hey, nein! Du"
+	text "He, he, nein! Du"
 	line "kannst nicht"
 	cont "gewinnen!"
 	done
@@ -112,13 +112,13 @@ _BTWinM7Text:
 	done
 
 _BTGreetingM8Text:
-	text "Hey, lass uns"
+	text "He, lass uns"
 	line "kämpfen. Ich bin"
 	cont "dein Gegner."
 	done
 
 _BTLossM8Text:
-	text "Wow, du nimmst das"
+	text "Oh, du nimmst das"
 	line "nicht ernst!"
 	done
 
@@ -350,7 +350,7 @@ _BTWinM21Text:
 	done
 
 _BTGreetingM22Text:
-	text "Hey, du! Ich nehm"
+	text "He, du! Ich nehm"
 	line "dich!"
 	done
 
@@ -428,7 +428,7 @@ _BTWinF1Text:
 	done
 
 _BTGreetingF2Text:
-	text "Hey! Meine #MON"
+	text "He! Meine #MON"
 	line "sind echt süß!"
 	done
 

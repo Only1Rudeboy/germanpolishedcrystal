@@ -129,10 +129,10 @@ GenericTrainerHexManiacLuna:
 	generictrainer HEX_MANIAC, LUNA, EVENT_BEAT_HEX_MANIAC_LUNA, HexManiacLunaSeenText, HexManiacLunaBeatenText
 
 	; PC-only
-	text "ALAKAZAM ist ein"
+	text "SIMSALA ist ein"
 	line "mächtiges #MON,"
 	para "deshalb benutzen"
-	line "HEX MANIACS"
+	line "HEXENMEISTER"
 	para "seinen Namen für"
 	line "starke Zauber."
 	done
@@ -312,8 +312,8 @@ PsychicJaredBeatenText:
 
 HexManiacLunaSeenText:
 	; PC-only
-	text "Abra, Kadabra,"
-	line "Alakazam!"
+	text "ABRA, KADABRA,"
+	line "SIMSALA!"
 	done
 
 HexManiacLunaBeatenText:

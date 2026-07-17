@@ -93,7 +93,7 @@ GenericTrainerVeteranfJonet:
 	generictrainer VETERANF, JONET, EVENT_BEAT_VETERANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
 
 	; PC-only (C)
-	text "Hat jemand Lavados"
+	text "Hat jemand LAVADOS"
 	line "schon gefangen?"
 	done
 
@@ -216,7 +216,7 @@ VeteranfJonetSeenText:
 	; PC-only (C) — Lavados DE
 	text "Hier soll"
 	line "angeblich ein"
-	cont "Lavados hausen."
+	cont "LAVADOS hausen."
 
 	para "Ich werde es"
 	line "fangen!"
