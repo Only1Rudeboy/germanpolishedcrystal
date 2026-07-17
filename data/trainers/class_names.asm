@@ -13,10 +13,10 @@ TrainerClassNames::
 	li "Arenaleiterin"     ; JASMINE
 	li "Arenaleiter"       ; PRYCE
 	li "Arenaleiterin"     ; CLAIR
-	li "Top Vier"          ; WILL
-	li "Top Vier"          ; KOGA
-	li "Top Vier"          ; BRUNO
-	li "Top Vier"          ; KAREN
+	li "TOP VIER"          ; WILL
+	li "TOP VIER"          ; KOGA
+	li "TOP VIER"          ; BRUNO
+	li "TOP VIER"          ; KAREN
 	li "Champ"             ; CHAMPION
 	li "Arenaleiter"       ; BROCK
 	li "Arenaleiterin"     ; MISTY
@@ -120,8 +120,8 @@ TrainerClassNames::
 	li "Turm-Tycoon"       ; TOWERTYCOON
 	li "Fabrikchef"        ; FACTORYHEAD
 	li "Jessie"            ; JESSIE_JAMES
-	li "Ex-Top Vier"       ; LORELEI
-	li "Ex-Top Vier"       ; AGATHA
+	li "Ex-TOP VIER"       ; LORELEI
+	li "Ex-TOP VIER"       ; AGATHA
 	li "Fels-Fan"          ; STEVEN
 	li "Forscherin"        ; CYNTHIA
 	li "Medium"            ; INVER

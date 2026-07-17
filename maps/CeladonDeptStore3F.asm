@@ -240,14 +240,14 @@ VideoGameClerkSellWiiText:
 	done
 
 BoughtSnesText:
-	text "<PLAYER> kaufte ein"
-	line "Super NES."
+	text "<PLAYER> kaufte"
+	line "ein Super NES."
 	done
 
 
 BoughtN64Text:
-	text "<PLAYER> kaufte ein"
-	line "Nintendo 64."
+	text "<PLAYER> kaufte"
+	line "ein Nintendo 64."
 	done
 
 

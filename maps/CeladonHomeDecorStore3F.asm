@@ -158,8 +158,8 @@ CeladonHomeDecorStore3FClerk2NoText:
 	done
 
 BoughtRedCarpetText:
-	text "<PLAYER> kaufte den"
-	line "roten Teppich."
+	text "<PLAYER> kaufte"
+	line "den roten Teppich."
 	done
 
 RedCarpetSentText:
@@ -168,8 +168,8 @@ RedCarpetSentText:
 	done
 
 BoughtBlueCarpetText:
-	text "<PLAYER> kaufte den"
-	line "blauen Teppich."
+	text "<PLAYER> kaufte"
+	line "den blauen Teppich."
 	done
 
 BlueCarpetSentText:
@@ -178,8 +178,8 @@ BlueCarpetSentText:
 	done
 
 BoughtYellowCarpetText:
-	text "<PLAYER> kaufte den"
-	line "gelben Teppich."
+	text "<PLAYER> kaufte"
+	line "den gelben Teppich."
 	done
 
 YellowCarpetSentText:
@@ -188,8 +188,8 @@ YellowCarpetSentText:
 	done
 
 BoughtGreenCarpetText:
-	text "<PLAYER> kaufte den"
-	line "grünen Teppich."
+	text "<PLAYER> kaufte"
+	line "den grünen Teppich."
 	done
 
 GreenCarpetSentText:

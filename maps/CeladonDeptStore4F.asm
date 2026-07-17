@@ -119,8 +119,8 @@ PosterClerkAlreadyBoughtText:
 	done
 
 BoughtMarillPosterText:
-	text "<PLAYER> kaufte ein"
-	line "Marill-Poster."
+	text "<PLAYER> kaufte"
+	line "ein Marill-Poster."
 	done
 
 MarillPosterSentText:
@@ -130,8 +130,8 @@ MarillPosterSentText:
 	done
 
 BoughtClefairyPosterText:
-	text "<PLAYER> kaufte ein"
-	line "Pixi-Poster."
+	text "<PLAYER> kaufte"
+	line "ein Pixi-Poster."
 	done
 
 ClefairyPosterSentText:
@@ -141,8 +141,8 @@ ClefairyPosterSentText:
 	done
 
 BoughtPikachuPosterText:
-	text "<PLAYER> kaufte ein"
-	line "PIKACHU-Poster."
+	text "<PLAYER> kaufte"
+	line "ein PIKACHU-Poster."
 	done
 
 PikachuPosterSentText:

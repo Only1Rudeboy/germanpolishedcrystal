@@ -11,7 +11,8 @@ NonTrainerCallerNames:
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .mom:
-	text "Mama:"
+	; GSC-DE Dump: MAMA
+	text "MAMA:"
 	done
 .bill:
 	text "BILL:"
@@ -22,7 +23,8 @@ NonTrainerCallerNames:
 	next1 "   #-Prof."
 	done
 .bikeshop:
-	text "Wunder-Radladen:"
+	; GSC-DE Dump: FAHRRADLADEN
+	text "FAHRRADLADEN:"
 	done
 .lyra:
 	text "LYRA:"
@@ -30,5 +32,6 @@ NonTrainerCallerNames:
 	done
 .buena:
 	text "BUENA:"
-	next1 "   Moderatorin"
+	; GSC-DE Dump: DISC JOCKEY (loanword)
+	next1 "   DISC JOCKEY"
 	done

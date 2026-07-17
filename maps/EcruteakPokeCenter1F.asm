@@ -30,7 +30,7 @@ PokemonJournalMortyScript:
 
 	text "#MON Journal"
 	para "Spezial:"
-	line "ARENA-LEITER JENS!"
+	line "ARENALEITER JENS!"
 	para "JENS behauptet,"
 	line "ENTEI einmal"
 	para "gesehen zu haben."

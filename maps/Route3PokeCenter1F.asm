@@ -24,7 +24,7 @@ PokemonJournalKarenScript:
 	jumpthistext
 
 	text "#MON Journal"
-	para "Spezial: Top Vier"
+	para "Spezial: TOP VIER"
 	line "MELANIE!"
 	para "MELANIE soll mit"
 	line "Unlicht-#MON"

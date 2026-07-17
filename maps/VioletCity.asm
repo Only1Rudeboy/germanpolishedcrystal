@@ -236,7 +236,7 @@ VioletCityCooltrainerM1Text:
 	line "#MON-Trainer?"
 	para "Schlägst du den"
 	line "hiesigen"
-	cont "ARENA-LEITER, dann"
+	cont "ARENALEITER, dann"
 	cont "darfst du dich"
 	para "bald zur Elite"
 	line "zählen!"

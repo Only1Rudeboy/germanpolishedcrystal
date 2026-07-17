@@ -116,8 +116,8 @@ AdminEmiText:
 	line "Oberflächen nach"
 	cont "JOHTO!"
 	para "Sag Hallo, wenn du"
-	line "mal in Amethyst"
-	cont "Town bist!"
+	line "mal in AMETHYST"
+	cont "CITY bist!"
 	done
 
 EmiComputerScript:

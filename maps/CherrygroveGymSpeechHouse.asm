@@ -34,7 +34,7 @@ CherrygroveGymSpeechHouseBugCatcherText:
 	text "Wenn ich älter"
 	line "bin, werde ich"
 	cont "auch ein"
-	cont "ARENA-LEITER!"
+	cont "ARENALEITER!"
 	para "Ich werde meine"
 	line "#MON gegen"
 	para "die meiner Freunde"

@@ -98,12 +98,14 @@ BillPhoneNewlyFullText:
 
 	para "mehr #MON fan-"
 	line "gen willst."
+
+	para "Bis dann!"
 	prompt
 
 BillWholePCFullText:
 	text "Wow, du hast"
 	line "einen ganzen"
-	cont "Server voll."
+	cont "PC voll."
 
 	para "Du musst #MON"
 	line "freilassen, um"
@@ -131,7 +133,7 @@ BillFlushBySaving:
 BillThankYouText:
 	text "Danke, dass du"
 	line "das"
-	cont "PC-Lagersystem"
+	cont "LAGERUNGS-SYSTEM"
 	cont "benutzt!"
 	done
 

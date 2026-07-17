@@ -140,22 +140,22 @@ BigDollClerkSellOnixText:
 	done
 
 BoughtBigLaprasDollText:
-	text "<PLAYER> kaufte die"
-	line "Riesen-LAPRAS-"
+	text "<PLAYER> kaufte"
+	line "die Riesen-LAPRAS-"
 	cont "Puppe."
 	done
 
 
 BoughtBigSnorlaxDollText:
-	text "<PLAYER> kaufte die"
-	line "Riesen-RELAXO-"
+	text "<PLAYER> kaufte"
+	line "die Riesen-RELAXO-"
 	cont "Puppe."
 	done
 
 
 BoughtBigOnixDollText:
-	text "<PLAYER> kaufte die"
-	line "Riesen-ONIX-Puppe."
+	text "<PLAYER> kaufte"
+	line "die Riesen-ONIX-Puppe."
 	done
 
 

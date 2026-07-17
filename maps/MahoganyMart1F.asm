@@ -270,7 +270,7 @@ PokemonJournalWillScript:
 	jumpthistext
 
 	text "#MON Journal"
-	para "Spezial: Top Vier"
+	para "Spezial: TOP VIER"
 	line "WILLI!"
 	para "WILLI redet nicht"
 	line "über seine"
