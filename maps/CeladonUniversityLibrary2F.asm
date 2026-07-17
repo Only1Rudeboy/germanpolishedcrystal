@@ -191,7 +191,7 @@ CeladonUniversityLibrary2FBookshelf8Text:
 	line "#MON."
 
 	para "'Wie man sein"
-	line "Dragoran dres-"
+	line "DRAGORAN dres-"
 	cont "siert' steht fett"
 	cont "drauf."
 	done
@@ -200,7 +200,7 @@ CeladonUniversityLibrary2FBookshelf9Text:
 	text "Ein Buch über eine"
 	line "Welt voller"
 	cont "#MON!"
-	para "'Pikachus"
+	para "'PIKACHUs"
 	line "Abenteuer im"
 	cont "#Park' steht"
 	para "auf dem Cover."

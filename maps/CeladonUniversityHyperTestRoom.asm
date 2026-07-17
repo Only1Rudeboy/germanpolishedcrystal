@@ -301,7 +301,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db "Nachtara@"
 	db "Glaziola@"
 	db "Snobilikat@"
-	db "Girafarig@"
+	db "GIRAFARIG@"
 
 .Question2MenuData:
 	db MENU_BACKUP_TILES
@@ -423,7 +423,7 @@ CeladonUniversityHyperTestRoomBookshelf2Text:
 
 	para "Auf dem Cover ist"
 	line "ein großes"
-	cont "Pikachu."
+	cont "PIKACHU."
 	done
 
 CeladonUniversityHyperTestRoomComputer:

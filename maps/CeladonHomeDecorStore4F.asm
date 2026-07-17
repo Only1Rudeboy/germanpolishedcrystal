@@ -53,7 +53,7 @@ BigLaprasDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Der Riesen-Lapras"
+	text "Der Riesen-LAPRAS"
 	line "kam nach Hause."
 	done
 
@@ -75,7 +75,7 @@ BigSnorlaxDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Der Riesen-Relaxo"
+	text "Der Riesen-RELAXO"
 	line "kam nach Hause."
 	done
 
@@ -97,7 +97,7 @@ BigOnixDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Der Riesen-Onix"
+	text "Der Riesen-ONIX"
 	line "kam nach Hause."
 	done
 
@@ -119,7 +119,7 @@ BigDollClerkNoSaleText:
 BigDollClerkSellLaprasText:
 	text "VERKÄUFER: Magst"
 	line "du die"
-	cont "Lapras-Puppe?"
+	cont "LAPRAS-Puppe?"
 	para "Das kostet dich"
 	line "¥300.000."
 	done
@@ -127,51 +127,51 @@ BigDollClerkSellLaprasText:
 BigDollClerkSellSnorlaxText:
 	text "VERKÄUFER: Magst"
 	line "du die"
-	cont "Relaxo-Puppe?"
+	cont "RELAXO-Puppe?"
 	para "Das kostet dich"
 	line "¥200.000."
 	done
 
 BigDollClerkSellOnixText:
 	text "VERKÄUFER: Magst"
-	line "du die Onix-Puppe?"
+	line "du die ONIX-Puppe?"
 	para "Das kostet dich"
 	line "¥250.000."
 	done
 
 BoughtBigLaprasDollText:
 	text "<PLAYER> kaufte die"
-	line "Riesen-Lapras-"
+	line "Riesen-LAPRAS-"
 	cont "Puppe."
 	done
 
 
 BoughtBigSnorlaxDollText:
 	text "<PLAYER> kaufte die"
-	line "Riesen-Relaxo-"
+	line "Riesen-RELAXO-"
 	cont "Puppe."
 	done
 
 
 BoughtBigOnixDollText:
 	text "<PLAYER> kaufte die"
-	line "Riesen-Onix-Puppe."
+	line "Riesen-ONIX-Puppe."
 	done
 
 
 BigLaprasDollText:
 	text "Eine riesige"
-	line "Lapras-Puppe!"
+	line "LAPRAS-Puppe!"
 	done
 
 BigSnorlaxDollText:
 	text "Eine riesige"
-	line "Relaxo-Puppe!"
+	line "RELAXO-Puppe!"
 	done
 
 BigOnixDollText:
 	text "Eine riesige"
-	line "Onix-Puppe!"
+	line "ONIX-Puppe!"
 	done
 
 CeladonHomeDecorStore4FDirectoryText:

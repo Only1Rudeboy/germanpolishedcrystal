@@ -61,8 +61,8 @@ _BTLossM4Text:
 	done
 
 _BTWinM4Text:
-	text "Ernsthaft? Das war"
-	line "brutal!"
+	text "Im Ernst? Das war"
+	line "hart!"
 	done
 
 _BTGreetingM5Text:
@@ -526,7 +526,7 @@ _BTGreetingF8Text:
 	done
 
 _BTLossF8Text:
-	text "Wow, danke! Du"
+	text "Oh, danke! Du"
 	line "bist so nett!"
 	done
 

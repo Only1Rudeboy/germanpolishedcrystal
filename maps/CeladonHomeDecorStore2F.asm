@@ -96,7 +96,7 @@ CeladonHomeDecorStore2FClerkScript:
 	db 4 ; items
 	db "Rosa      ¥62000@"
 	db "Punkte    ¥94000@"
-	db "Pikachu  ¥126000@"
+	db "PIKACHU  ¥126000@"
 	db "Abbrechen@"
 
 CeladonHomeDecorStore2FClerkText:
@@ -127,11 +127,11 @@ PolkaDotBedSentText:
 
 BoughtPikachuBedText:
 	text "<PLAYER> kaufte das"
-	line "Pikachu-Bett."
+	line "PIKACHU-Bett."
 	done
 
 PikachuBedSentText:
-	text "Das Pikachu-Bett"
+	text "Das PIKACHU-Bett"
 	line "kam nach Hause."
 	done
 
@@ -149,7 +149,7 @@ CeladonHomeDecorStore2FPokefanfText:
 	line "kosten mehr als"
 	cont "No-Name-Ware."
 	para "Aber das"
-	line "Pikachu-Bett ist"
+	line "PIKACHU-Bett ist"
 	cont "so süß…"
 	done
 

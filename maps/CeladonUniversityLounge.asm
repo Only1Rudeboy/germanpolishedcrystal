@@ -154,7 +154,7 @@ CeladonUniversityLoungeLassText:
 	cont "MONDBERG."
 
 	para "Vielleicht sehe"
-	line "ich ein Piepi!"
+	line "ich ein PIEPI!"
 	done
 
 CeladonUniversityLoungeRichBoyText:

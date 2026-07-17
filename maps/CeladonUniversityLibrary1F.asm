@@ -191,8 +191,8 @@ CeladonUniversityLibrary1FBookshelf4Text:
 	line "#MON-"
 	cont "Palindrome."
 	para "Auf dem Cover sind"
-	line "Evoli und"
-	cont "Girafarig."
+	line "EVOLI und"
+	cont "GIRAFARIG."
 	done
 
 CeladonUniversityLibrary1FBookshelf5Text:

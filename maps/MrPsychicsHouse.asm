@@ -53,7 +53,7 @@ MrPsychicsHouseTutorZenHeadbuttScript:
 	jumpthisopenedtext
 
 	text "Dein #MON kann"
-	line "jetzt Zen Headbutt"
+	line "jetzt Zen-Kopfstoß"
 	cont "einsetzen."
 	done
 
@@ -66,21 +66,22 @@ MrPsychicText:
 
 	para "…Verstanden!"
 
-	para "Du willst Zen"
-	line "Headbutt lernen!"
+	para "Du willst Zen-"
+	line "Kopfstoß lernen!"
 	done
 
 Text_MrPsychicsHouseTutorZenHeadbutt:
 	text "Ich bringe deinem"
-	line "#MON Zen"
-	para "Headbutt bei -für"
-	line "ein Silberblatt."
+	line "#MON Zen-"
+	cont "Kopfstoß bei"
+	cont "für ein"
+	cont "Silberblatt."
 	done
 
 
 Text_MrPsychicsHouseTutorQuestion:
 	text "Soll ich deinem"
-	line "#MON Zen"
-	cont "Headbutt"
+	line "#MON Zen-"
+	cont "Kopfstoß"
 	cont "beibringen?"
 	done

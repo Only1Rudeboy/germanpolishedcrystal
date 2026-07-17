@@ -99,7 +99,7 @@ PosterClerkScript:
 	db 4 ; items
 	db "Marill      ¥3200@"
 	db "Pixi        ¥4800@"
-	db "Pikachu     ¥6400@"
+	db "PIKACHU     ¥6400@"
 	db "Abbrechen@"
 
 PosterClerkText:
@@ -142,11 +142,11 @@ ClefairyPosterSentText:
 
 BoughtPikachuPosterText:
 	text "<PLAYER> kaufte ein"
-	line "Pikachu-Poster."
+	line "PIKACHU-Poster."
 	done
 
 PikachuPosterSentText:
-	text "Das Pikachu-Poster"
+	text "Das PIKACHU-Poster"
 	line "wurde nach Hause"
 	cont "geschickt."
 	done

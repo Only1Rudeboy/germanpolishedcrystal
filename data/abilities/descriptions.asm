@@ -251,12 +251,12 @@ PastelVeilDescription:
 	done
 
 FlashFireDescription:
-	text "Erhöht Feuer bei"
-	next "Feuer-Treffern."
+	text "Absorbiert Feuer"
+	next "und stärkt es."
 	done
 
 ShieldDustDescription:
-	text "Blockt"
+	text "Verhindert gegn."
 	next "Zusatzeffekte."
 	done
 
@@ -287,7 +287,7 @@ LevitateDescription:
 
 EffectSporeDescription:
 	text "Berührung kann"
-	next "Status verleihen."
+	next "Schlaf/Gift/Para."
 	done
 
 SynchronizeDescription:
@@ -327,8 +327,8 @@ ChlorophyllDescription:
 	done
 
 IlluminateDescription:
-	text "Erhöht die Rate"
-	next "wilder #MON."
+	text "Mehr Begegnungen"
+	next "mit wilden #MON."
 	done
 
 TraceDescription:
@@ -372,8 +372,8 @@ SoundproofDescription:
 	done
 
 RainDishDescription:
-	text "Heilt nach und"
-	next "nach KP bei Regen."
+	text "Heilt KP nach und"
+	next "nach bei Regen."
 	done
 
 SandStreamDescription:
@@ -457,23 +457,23 @@ LiquidOozeDescription:
 	done
 
 OvergrowDescription:
-	text "Erhöht Pflanze bei"
-	next "wenig eigenen KP."
+	text "Stärkt Pflanzen-"
+	next "Att. bei wenig KP."
 	done
 
 BlazeDescription:
-	text "Erhöht Feuer bei"
-	next "wenig eigenen KP."
+	text "Stärkt Feuer-Att."
+	next "bei wenig KP."
 	done
 
 TorrentDescription:
-	text "Erhöht Wasser bei"
-	next "wenig eigenen KP."
+	text "Stärkt Wasser-Att."
+	next "bei wenig KP."
 	done
 
 SwarmDescription:
-	text "Erhöht Käfer bei"
-	next "wenig eigenen KP."
+	text "Stärkt Käfer-Att."
+	next "bei wenig KP."
 	done
 
 RockHeadDescription:
@@ -547,8 +547,8 @@ IronFistDescription:
 	done
 
 PoisonHealDescription:
-	text "Heilt KP bei"
-	next "eigner Vergiftung."
+	text "Heilt KP, wenn"
+	next "selbst vergiftet."
 	done
 
 AdaptabilityDescription:
@@ -557,8 +557,8 @@ AdaptabilityDescription:
 	done
 
 SkillLinkDescription:
-	text "Erhöht Trefferzahl"
-	next "bei Mehrfachhits."
+	text "Mehrfach-Att. mit"
+	next "max. Trefferzahl."
 	done
 
 HydrationDescription:
@@ -587,8 +587,8 @@ MagicGuardDescription:
 	done
 
 NoGuardDescription:
-	text "Jede Attacke"
-	next "trifft garantiert."
+	text "Eigene+gegn. Att."
+	next "treffen stets."
 	done
 
 TechnicianDescription:
@@ -638,8 +638,8 @@ TintedLensDescription:
 
 FilterDescription:
 SolidRockDescription:
-	text "Senkt Schaden von"
-	next "starken Treffern."
+	text "Senkt Schaden sehr"
+	next "effektiver Att."
 	done
 
 ScrappyDescription:
@@ -648,8 +648,8 @@ ScrappyDescription:
 	done
 
 IceBodyDescription:
-	text "Heilt nach und"
-	next "nach KP bei Hagel."
+	text "Heilt KP nach und"
+	next "nach bei Hagel."
 	done
 
 SnowWarningDescription:
@@ -687,8 +687,8 @@ PickpocketDescription:
 	done
 
 SheerForceDescription:
-	text "Entf. Zusatzeffekt"
-	next "für mehr Schaden."
+	text "Kein Zusatzeffekt,"
+	next "mehr Schaden."
 	done
 
 ContraryDescription:
@@ -697,8 +697,8 @@ ContraryDescription:
 	done
 
 UnnerveDescription:
-	text "Hindert Gegner am"
-	next "Beeren essen."
+	text "Hindert Gegner,"
+	next "Beeren zu essen."
 	done
 
 DefiantDescription:
@@ -732,8 +732,8 @@ HarvestDescription:
 	done
 
 MoodyDescription:
-	text "Erhöht einen Wert,"
-	next "senkt den anderen."
+	text "Ein Wert steigt,"
+	next "ein andrer sinkt."
 	done
 
 OvercoatDescription:
@@ -787,8 +787,8 @@ MoxieDescription:
 	done
 
 JustifiedDescription:
-	text "Erhöht Angriff bei"
-	next "Unlicht-Treffern."
+	text "Unlicht-Attacken"
+	next "erhöhen Angriff."
 	done
 
 RattledDescription:
@@ -802,13 +802,13 @@ MagicBounceDescription:
 	done
 
 SapSipperDescription:
-	text "Erhöht Angriff bei"
-	next "Pflanzen-Treffern."
+	text "Pflanzen-Attacken"
+	next "erhöhen Angriff."
 	done
 
 PranksterDescription:
-	text "Gibt Status-Atta-"
-	next "cken Prio."
+	text "Status-Attacken"
+	next "haben Vorrang."
 	done
 
 SandForceDescription:
@@ -848,17 +848,17 @@ ToughClawsDescription:
 
 PixilateDescription:
 	text "Normal-Attacken"
-	next "werden zu Fee."
+	next "werden Feen-Typ."
 	done
 
 ParentalBondDescription:
-	text "Elter und Kind"
+	text "Eltern und Kind"
 	next "greifen zusammen."
 	done
 
 BerserkDescription:
-	text "Erhöht Sp.Ang. bei"
-	next "über 50% Schaden."
+	text "Erhöht Sp.Ang.,"
+	next "wenn KP unter 50%."
 	done
 
 SlushRushDescription:
@@ -877,8 +877,8 @@ CorrosionDescription:
 	done
 
 FluffyDescription:
-	text "Schwächt Berührung"
-	next "schwach gg. Feuer."
+	text "Halbiert Kontakt,"
+	next "Feuer trifft hart."
 	done
 
 TanglingHairDescription:
@@ -913,7 +913,7 @@ SteelySpiritDescription:
 
 PerishBodyDescription:
 	text "Berührung löst"
-	next "Klagelied aus."
+	next "Abgangsbund aus."
 	done
 
 ScreenCleanerDescription:
@@ -932,8 +932,8 @@ SharpnessDescription:
 	done
 
 ArmorTailDescription:
-	text "Verhindert gegn."
-	next "Prio-Attacken."
+	text "Stoppt gegner."
+	next "Vorrang-Attacken."
 	done
 
 MindsEyeDescription:
@@ -942,6 +942,6 @@ MindsEyeDescription:
 	done
 
 MegaSolDescription:
-	text "Nutzt Attacken wie"
-	next "bei extr. Sonne."
+	text "Attacken wie bei"
+	next "starker Sonne."
 	done
