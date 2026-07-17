@@ -45,9 +45,10 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001054) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**054 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
-> **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block (was geändert wurde) und einen Eintrag in der ROM-Übersicht. Git-Commit-Hash optional in Klammern.
+> **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
+> **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
 
 ### 054 · 2026-07-17 — Stadt-Landmarks GSC-CAPS + Startmenü
 
@@ -76,114 +77,365 @@ Commit: `7a24f7949` (inkl. voriger Continue-/Mega-Batch-Commits auf `master`)
 - Celadon-Shop: over18-Splits (PIKACHU-Poster, Teppiche, Riesen-ONIX)
 - Vorlauf auf `master` (vor .052-Build): Mega-Batch NPC-GSC (6-Agent), Continue-Pass Shops/Phone/CAPS, Dialog-Doppelstrich → `…`
 
-### 051 · 2026-07 — GSC-Kanon-Feinschliff (großer Pass)
+### 051 · 2026-07-16 / 2026-07-17 — GSC-Kanon-Feinschliff (großer Pass)
+
+Commits u. a.: `97c2fcee8` (16.), `f7490fae4` / `aa1749c40` / Tutor- & Kampf-Batch (17.)
 
 System-, Kampf-, Item- und Dialog-Fixes im **Kristall-DE-Stil** (TEXTBOX ≤18). Multi-Agent-Scans + gezielte Fixes. CI wieder grün.
 
-#### Stabilität / Engine-Text
-- Beeren-Crash behoben (`rst $38` / Pluralize-`PlaceString`-Bank)
-- Item-Namen: Terminator / 12-Zeichen-Grenze; Fonts nach Item-Icons
-- Ability-Kampfzeilen: **`Gegn. NAME` / `hat Ability`** ≤18
-- `battle.asm`: USER/TARGET-Zeilen für 18-Kachel-DE reflowed
-- PC-Menü verbreitert: **PROF. EICHs PC** passt
-- Dex-Eintrag `NewDexDataText`: GSC-Zeilenumbrüche (kein EN-Possessiv)
-- Wochentage DE im Beutel-Uhr (`PrintDayOfWeek`)
-- Party-Status GSC-DE: **GIF / PAR / SLF / BRT / GFR / TOX / K.O** (statt Psn/Fnt)
-- Unbeabsichtigter Shiny-Code aus pure entfernt (nur Status-K.O. bleibt)
+- **Stabilität:** Beeren-Crash (`rst $38` / Pluralize-Bank); Item-Terminator; Ability-Zeilen `Gegn. NAME` / `hat Ability`; battle USER/TARGET reflow; PC **PROF. EICHs PC**; Dex-Zeilen GSC; Wochentage DE; Status **GIF/PAR/SLF/BRT/GFR/TOX/K.O**; Shiny-Code aus pure entfernt  
+- **Items:** Premierball, Luftballon, ~57 Namen GSC/offiziell, Fangtexte **„Toll!“**, CI ohne Glitzerbonbon  
+- **UI/Dex:** **GR./GEW.**, NPC-Tausch-Reflow, **DUNKELHÖHLE**+Ö-Glyph, Arealiste DE, **Durchbruch**  
+- **Story:** Route-31 „Tach auch!“, Rivale **`???`**, Telefon „speichert …s Nummer“, Kampftexte GSC, Map-CAPS, Ability-Descs ≤18  
+- **Tutoren EN→DE:** Bodyslam, Ausdauer, Tiefschlag, Lawine, Bizarroraum, Abschlag, Agilität, Trickbetrug, Nachahmer, Zen-Kopfstoß  
+- **Anglizismen behalten:** Wow / Hey / Yeah / O.K. / Cool / Items / Earl  
 
-#### Items & Beutel
-- **Premierball** (offiziell DE, nicht „Bonusball“)
-- **Luftballon** (nicht Ballonschw./Ballon-Mischformen)
-- ~57 Item-Namen GSC/offiziell DE (u. a. Jubelball, Held-Items)
-- Fangtexte GSC: **„Toll!“** u. a. (nicht „Fang geglückt“)
-- CI-Fix: unvollständiges „Glitzerbonbon“-Item (Name ohne Konstante) aus pure entfernt
+### 050 · 2026-07-16 — Summary-Reiter (PNG)
 
-#### UI / Pokedex / Orte
-- Pokédex **GR. / GEW.** statt Ht/Wt
-- NPC-Tausch: GSC-Zeilenumbruch (**GR.** / VOLTOBAL …)
-- **DUNKELHÖHLE**: GSC-Label + fehlendes **Ö**-Font-Glyph
-- Pokédex-**Arealiste** DE: Morgen/Tag/Nacht, Angel/Profi-/Superangel, Kopfnuss, Durchbruch, Käferturnier, Wandernd
-- Attackenname non-faithful: **Durchbruch** (Brick Break)
+Commits: `398f3827a`, `b2b3c3476`, `8542fede6`, …
 
-#### Story / Dialoge (GSC-Dump-nah)
-- Route-31-Tor Officer: **„Tach auch!“** / GSC-Wortlaut
-- Rivale vor Naming: **`???`** (nicht „Fremder BOY“ / „Rivale“)
-- Telefon-Registrierung: **„speichert …s Nummer“** (GSC)
-- Kampftexte GSC-DE: KP-Absaugen, Status, Effektivität, Flucht, Final-Mon, DELEGATOR/STACHLER/SEHER-CAPS u. a.
-- Johto/Kanto-Map-**CAPS** (Arenen, Städte, Landmarks)
-- Ability-Beschreibungen gekürzt/GSC-nah (≤18)
+- Status-Screen-Tabs (OAM): **EP · Fähig. · Item · Att. · Ort · Ei** (statt Exp./Ability/Move/Met/Egg)  
+- Fundort-Zeile: `Tag, Lv.15` statt `Tag bei Lv.15`  
+- Pixel-Feinschliff Tabs (Fähig. / Gefund. / Ort); Ability-Tab-Label-Iterationen  
 
-#### Tutoren / TMs (EN-Attackennamen → DE)
-| EN | DE |
-|---|---|
-| Body Slam / Endure | **Bodyslam** / **Ausdauer** |
-| Sucker Punch | **Tiefschlag** |
-| Avalanche | **Lawine** |
-| Trick Room | **Bizarroraum** |
-| Knock Off | **Abschlag** |
-| Agility | **Agilität** |
-| Trick | **Trickbetrug** |
-| Sketch | **Nachahmer** |
-| Zen Headbutt (Tutor) | **Zen-Kopfstoß** |
+### 049 · 2026-07-16 — `#COM` / `#DEX`-Casing
 
-#### Bewusst GSC-Anglizismen (beibehalten)
-Wow / Hey / Yeah / O.K. / Cool / Items / Earl — wie im DE-Kristall-Dump.
+Commit: `bf9876f7f`
 
-### 050 · 2026-07 — Summary-Reiter (PNG)
+- **PokéCOM** statt „PokéCom“ im Spezial-Item-/Pokégear-Kontext (`#COM`)  
+- **`#DEX`** im Menü; Dialoge `#Com` → `#COM` (Center, Radio, …)  
 
-- Status-Screen-Tabs (OAM-Sprites): **EP · Fähig. · Item · Att. · Ort · Ei** (statt Exp./Ability/Move/Met/Egg)
-- Fundort-Zeile: `Tag, Lv.15` statt `Tag bei Lv.15`
-- Pixel-Feinschliff Tabs (Fähig. / Gefund. / Ort)
+### 048 · 2026-07-16 — QWERTZ / pure-DE v0.9
 
-### 049 · 2026-07 — `#COM` / `#DEX`-Casing
+Commit: `99c599182`
 
-- **PokéCOM** statt „PokéCom“ im Beutel/Pokégear-Menü (`#COM`)
-- **`#DEX`** im Spezial-Item-Menü; Dialoge `#Com` → `#COM` (Center, Radio, …)
+- **QWERTZ**-Tastatur (DE-Layout), Standard in Optionen  
+- Textstand pure-DE **v0.9** (ohne Shiny-Arbeitskopie)  
 
-### 046–048 · Optionen & QWERTZ (v0.9-Textstand)
+### 047 · 2026-07-16 — Optionen-Menüs / Perfect-DVs
 
-| ROM | Inhalt |
-|---|---|
-| **048** | **QWERTZ**-Tastatur (DE), Standard in Optionen |
-| **047** | Optionen-Menüs / Perfect-DVs-Labels |
-| **046** | Kampf-Stil / Optionen GSC-DE polish |
+Commit: `34ae9bd96`
 
-### 040–045 · Items, Dex, Scripts
+- Optionen-Menüs weiter poliert  
+- Perfect-DVs-Labels / Menü-Overflow-Feinschliff  
 
-| ROM | Inhalt |
-|---|---|
-| **045** | Kritische **Script-Stubs** 1:1 Upstream (Mr.#MON-Ei, Route 43, Sudowoodo, Spielhalle, Alph, Phone, Rocket, Buena, …) |
-| **044** | Schwachstellen: `#MON`, Phone „Sorry“, `(TRAGEN)`, over18, EN-Kommentare |
-| **043** | Dex **#001–#251** dump-soft; Aprikoko/Kurt; Optionals dokumentiert |
-| **042** | Mail- & Key-Items dump-Finish (~139 Item-Descs) |
-| **041** | Items erweitert (Steine, Beeren, King-Stein, Seide, …) |
-| **040** | Items + Attacken dump-Basis; Fähigkeiten bleiben **C** |
+### 046 · 2026-07-16 — Kampf-Stil / Optionen GSC-DE
 
-### 027–039 · Phone, Namen, Feinschliff
+Commit: `194c64ce7`
 
-| ROM | Inhalt |
-|---|---|
-| **035–039** | Trainer-/Speaker-Namen, CAPS, JOHTO/KANTO, over18-Feinschliff |
-| **033–034** | Alle Phone-Rematch-Namen DE; Zwischenbuild |
-| **030–032** | Phone-Anzeigenamen (REINHOLD, ALFONS, …); Buena-Passwörter; Radio / Duellturm |
-| **027–029** | Optional-Scan, Phone/Buena/Shamouti, LOTTE |
+- Kampf-Stil & Optionen-Texte GSC-DE (`battle style` & Co.)  
 
-### 019–026 · Johto → Kanto → Rest-Pass
+### 045 · 2026-07-16 — Script-Stubs Upstream-Restore
 
-| ROM | Inhalt |
-|---|---|
-| **026** | Rest-Pass: `#MON` global, Uni, **DUELLTURM**, Telefon, `common.asm` |
-| **024–025** | Liga + Kanto (TOP VIER, Städte, Arenen, **FARBORDEN**, …) |
-| **019–023** | Azalea→Ebenholz (Orden Insekt–Drache), Mid-Johto, Badge-QC |
+Commit: `fbee0f8a8`
 
-### 001–018 · Fundament & Early-Game
+- Kritische **Script-Stubs 1:1** Upstream: Mr.#MON-Ei, Route-43-Maut, Sudowoodo+Flee, Spielhalle, Alph, Phone-`jumpstd`, Rocket-Base, Buena-Preise  
 
-| ROM | Inhalt |
-|---|---|
-| **016–018** | Viola Gramps / PKMN-ARENA; Route-32-Übergang; Azalea-Eingang |
-| **012–015** | Neuborkia→Viola dump; Mama **Schatz**; **FLÜGELORDEN** |
-| **009–011** | Softlocks: `sdefer`, `text_ram`, Deep-Scan, „verschlafen“ |
-| **001–008** | DE-Start, 18-Zeichen-Reflow, `line`/`cont`, Proofreading, GSC-Canon-Marker |
+### 044 · 2026-07-16 — Schwachstellen-Pass
+
+Commit: `51443e17f`
+
+- Restliches `#MON`, Phone „Sorry“, Item `(TRAGEN)`, over18 Elm/NG+, tote EN-Kommentare  
+
+### 043 · 2026-07-16 — Dex QC + Aprikoko
+
+Commit: `966573762`
+
+- Dex **#001–#251** dump-soft (**251/251**)  
+- Aprikoko-Box/Kurt; `#mon`→`#MON`; Parkball/EI-TICKET dokumentiert  
+
+### 042 · 2026-07-16 — Mail- & Key-Items Finish
+
+Commit: `bde6c87ea`
+
+- Briefe, UP-GRADE (SILPH CO.), Key-Item-Texte  
+- QC ~139 GSC-Item-Descs = Dump  
+
+### 041 · 2026-07-16 — Items erweitert (Steine/Beeren)
+
+Commit: `7ed6cea99`
+
+- Evoli-Steine, Hyperheiler/Wutkeks, Beeren, King-Stein, Scope-Linse, Lauch, Seide, Buntflügel, Schiggykanne  
+- Moves safe re-apply  
+
+### 040 · 2026-07-16 — Items + Moves dump-Basis
+
+Commit: `37edaa097`
+
+- ~117 Item- + ~119 Move-Beschreibungen dump-nah  
+- Fähigkeiten bleiben Regel **C** (PC-only DE)  
+
+### 039 · 2026-07-16 — JOHTO/KANTO CAPS + `{d:}`-Docs
+
+Commit: `77a071215`
+
+- Dialog-CAPS **JOHTO** / **KANTO**  
+- Dynamische Breite `{d:…}` dokumentiert  
+
+### 038 · 2026-07-16 — over18 / Rufe / Scherzbuch
+
+Commit: `17d564b25`
+
+- over18-Reflow; Mon-Rufe CAPS; Scherzbuch-Autoren; „Total cool!“  
+
+### 037 · 2026-07-16 — Speaker / Journal / VERKÄUFER
+
+Commit: `6430b8bc7`
+
+- Zwillinge/Guests/Devs CAPS; **VERKÄUFER**  
+- Journal: PHILENA IVY / STEVEN / CYNTHIA / WESTWOOD / WILLOW  
+
+### 036 · 2026-07-16 — Namen-Konsistenz (JUTTA/HANNES/…)
+
+Commit: `12fe0274e`
+
+- JUTTA / HANNES / SATORU; IVY / FAITH / CHERYL / REI  
+- Trade/Wonder-OTs CAPS; KIRK / SILVER  
+
+### 035 · 2026-07-16 — Trainer-Namen GSC-Map + CAPS
+
+Commit: `8357b0cd4`
+
+- Trainer-Namen pret↔Dump-Map; Rest CAPS  
+- BT-OTs; Guest-Speaker CAPS; Phone Dump-align  
+
+### 034 · 2026-07-16 — Zwischenbuild (Phone → Trainer-Namen)
+
+- Übergang Phone-fertig → Trainer-Namen-Block  
+- Rebuild / Teilpass ohne eigenen großen Feature-Commit  
+
+### 033 · 2026-07-16 — Alle Phone-Rematch-Namen DE
+
+Commit: `6af12bbc5`
+
+- **Alle** Phone-Rematch-Trainer-Anzeigenamen DE (Dump-align)  
+
+### 032 · 2026-07-16 — Radio / Pokégear / Duellturm
+
+Commit: `b7be4c76f`
+
+- Phone-Namen-Teil; #MON-Kanal & EICHs Talk  
+- Song/Landmark **Duellturm**  
+
+### 031 · 2026-07-16 — Buena-Passwörter GSC-DE
+
+Commit: `f7150d7cb`
+
+- Passwörter: NEUBORKIA / ROSALIA / AZALEA  
+- Typen FLUG / KÄFER / PFLANZE; Radio EICH / #MON-Musik / Glückskanal  
+
+### 030 · 2026-07-16 — Phone-Anzeigenamen (REINHOLD …)
+
+Commit: `1cbc2ecd0`
+
+- Joey→**REINHOLD**, Wade→**ALFONS**, Ralph→**RALF**, Anthony→**ANTON**, Chad→**UDO**, Tiffany→**TIFFY**, Erin→**LOTTE**  
+
+### 029 · 2026-07-16 — Phone/Buena/Shamouti/LOTTE
+
+Commit: `f022783a4`
+
+- Phone Caller+Overworld dump-nah; Buena-Telefon + Radio in `common.asm`  
+- Lyra-Phone; Shamouti/Faraway; Erin→**LOTTE**  
+
+### 028 · 2026-07-16 — Zwischenstand vor LOTTE
+
+- Textstand **vor** Erin→LOTTE; Basis für 029  
+
+### 027 · 2026-07-16 — Optional-Scan (Sorry / CAPS)
+
+Commit: `a81bcb44d`
+
+- EN-„Sorry“→DE; Phone `#MON`  
+- DimCave / KRAFTWERK / AZURIA / GELBER WALD / Shamouti CAPS  
+
+### 026 · 2026-07-16 — Rest-Pass (`#MON` / Uni / Turm / common)
+
+Commit: `c014cc252`
+
+- `#mon`→`#MON` global (~700+)  
+- Celadon-Uni/Hotel; **DUELLTURM** + Kampffabrik  
+- Telefon Mama/LIND/BILL; `common.asm` / `std_text`; Fanclub, Dojo, Yellow Forest, …  
+
+### 025 · 2026-07-16 — Rest-Kanto + FARBORDEN
+
+Commit: `77b90539c`
+
+- MARMORIA … ZINNOBER; Arenen FELS–ERDORDEN, **FARBORDEN**  
+- Safari, Kraftwerk, SILPH; Liga-Tor; Badge-Kurz **Farbe**  
+
+### 024 · 2026-07-16 — Liga + Kanto-Start + M.S. AQUA + Silberberg
+
+Commit: `f5f0ab91c`
+
+- **TOP VIER:** WILLI, KOGA, BRUNO, MELANIE, SIEGFRIED; Ruhmeshalle  
+- ALABASTIA / VERTANIA; PROF. EICH; ROT am Silberberg  
+- Route 22/26/27 / SIEGESSTRASSE  
+
+### 023 · 2026-07-16 — Badge-String-QC (Flügel + Route 23)
+
+Commit: `6f9a69f11`
+
+- Zephyr→**FLÜGELORDEN** (Viola-Haus)  
+- Route-23-Badge-Checks alle DE (Flügel/Insekt/Basis/Phantom/Faust/Stahl/Eis/Drachen)  
+
+### 022 · 2026-07-16 — Anemonia / Rocket / Ebenholz (Faust + Drache)
+
+Commit: `19cdfb0c6`
+
+- HARTWIG/**FAUSTORDEN**; Rocket-Passwörter FLEGMONRUTE / RATTIKARLRUTE / PREISET GIOVANNI  
+- SANDRA/**DRACHENORDEN**; Drachenschrein-Quiz; Route 44–46 / Eispfad  
+
+### 021 · 2026-07-16 — Teak / See / Oliviana (Phantom + Stahl)
+
+Commit: `ba14352a6`
+
+- JENS/**PHANTOMORDEN**; Brand-/Zinnturm; Tanztheater; Route 38–39  
+- Mahagoni/NORBERT; JASMIN/**STAHLORDEN**; Leuchtturm; STÄRKE-Fix (Anemonia)  
+
+### 020 · 2026-07-16 — Mid-Johto (Route 34–37 / BASISORDEN)
+
+Commit: `0cccdff22`
+
+- Route 34–37, Pension, **DUKATIA**, BIANKA/**BASISORDEN**  
+- Kaufhaus, Spielhalle, Radioturm, Untergrund, Nationalpark, Käferturnier  
+
+### 019 · 2026-07-16 — Azalea / Ilex / Union / INSEKTORDEN
+
+Commit: `38fcd9069` (+ `0fed834e9`-Linie)
+
+- Route 32–33, **Azalea**, Flegmon-Brunnen, Holzkohle, Kurt, Ilex, Einheitstunnel  
+- **INSEKTORDEN** (KAI)  
+
+### 018 · 2026-07-16 — Route 32 → Azalea-Eingang
+
+Commit: `0fed834e9`
+
+- Route 32 dump-align; Richtung Flegmon-Brunnen / Ilex / Union  
+- Azalea-Eingang  
+
+### 017 · 2026-07-15 / 2026-07-16 — Zwischenbuild Viola → Route 32
+
+- Viola-Umfeld & Übergang Route 32  
+- Arena-/Schild-Texte; Checkpoint vor Azalea-Batch  
+
+### 016 · 2026-07-15 — Viola-Feinschliff (Gramps / FALK / PKMN-ARENA)
+
+Commit: `d6aa5a2e1`
+
+- Gramps / FALK / **PKMN-ARENA**-Wortlaut dump-nah  
+
+### 015 · 2026-07-15 — Route 31 / Viola / Knofensa / FLÜGELORDEN
+
+Commit: `530c8902c`
+
+- Route 31, **Viola**, Knofensa-Turm, **FALK**  
+- Orden **FLÜGELORDEN** (nicht Zephyr); ARENALEITER CAPS; Badge-Kurz **Flügel**  
+
+### 014 · 2026-07-15 — Mama „Schatz“ + Rosalia-Dump
+
+Commit: `255ed33fe`
+
+- Mama: Dump „Baby“ → Override **Schatz**  
+- ROSALIA, Rival, Eich-Abschied, Guide Center/Mart  
+
+### 013 · 2026-07-15 — Route 30 / Mr.#MON / Cherrygrove
+
+Commit: `a0bad05a7`
+
+- Route 30, Mr.#MON, Cherrygrove weiter dump-align  
+
+### 012 · 2026-07-15 — Early-Game Dump (Mama / Neuborkia / Rosalia)
+
+Commit: `3213043cb`
+
+- Mama / **NEUBORKIA** / Cherrygrove dump-nah  
+- #MON-COM, Mama-Auftrag, Route 29, Anfänger-Guide; Polished **LYRA** bleibt  
+
+### 011 · 2026-07-15 — Intro „verschlafen“
+
+Commit: `1f403806e`
+
+- Intro-Text **verschlafen** (statt „genickert“)  
+
+### 010 · 2026-07-15 — Deep-Scan stubbed Scenes + dynamic text
+
+Commit: `c96491575`
+
+- Weitere stubbed Scenes (Häfen, Cable Club, Zinnturm, Drachenschrein, Teak-Arena, Rocket B3F, …)  
+- Dynamischer Text Spielhalle/Friseure/Käferturnier/Alph; mid-`@`-String-Abbrüche  
+
+### 009 · 2026-07-15 — Softlocks: `sdefer` + premature `done`
+
+Commits: `27988389d`, `086d10d70`, `2b9ba2e09`
+
+- **11×** fehlende `sdefer`; **68×** premature `done` vor `text_ram`/`text_decimal`  
+- Elm MeetElm-Cutscene; Lyra Starter-Mon-Name; DayCare-Lyra-Pronomen  
+
+### 008 · 2026-07-12 / 2026-07-15 — GSC-Canon-Marker + Overflow-Fixes
+
+Commits: `da787a836` (12.), `fa38060bc` (15.), …
+
+- Markierung **German GSC-canon localization**  
+- Kampftext-Overflow / Datei-Korruption gefixt  
+- README/WIP-Hinweise  
+
+### 007 · 2026-07-12 — Title-Screen DE-Credit + Docs
+
+Commits: `36578c8bc`, `485f8d4a0`, `8e9c8a911`, …
+
+- Title-Screen DE-Credit + Lesbarkeit (uppercase/spacing)  
+- README/INSTALL DE; WIP-Hinweis  
+
+### 006 · 2026-07-11 / 2026-07-12 — Proofreading + Charmap Ö
+
+Commits: `4370a1209` (Ö), `641690175`, `74185b56d` … `7e1af432e`
+
+- Großes **Ö** im Charmap  
+- Proofreading-Runden (Grammatik, UI, Party, PC, BSOD)  
+- EN-Reste; New-Game-Optionen-Labels gekürzt  
+
+### 005 · 2026-07-11 — Proofreading Runde 1–2
+
+Commits: `641690175`, `74185b56d`
+
+- Native-Speaker-Pass: ~97 Issues / 72 Dateien  
+- Zweite Runde: 29 Grammar/Spelling-Fixes  
+
+### 004 · 2026-07-10 — Reflow Dex/Items/Moves + Casing
+
+Commits: `7fab35dd5`, `d2209750d`, `4ba4f1b9a`, …
+
+- Dex-/Item-/Move-/Ability-Reflow fortgesetzt  
+- `#COM`/`#DEX`-Casing-Korrekturen; Rest-`line`/`line`-Bugs  
+
+### 003 · 2026-07-10 — Massiver 18-Zeichen-Reflow
+
+Commit: `b92c82d01`
+
+- Dialoge auf **≤18** Anzeigezeichen  
+- **~1736×** `line`/`line` → `line`/`cont` (Rendering-Bug)  
+- DST-Overflow; Grammar `dass`→`das`; `#COM`-Casing  
+
+### 002 · 2026-07-10 — Checkpoint funktionierender DE-Build
+
+Commit: `21b180fbf`
+
+- Bestätigter spielbarer deutscher Build (Checkpoint)  
+
+### 001 · 2026-07-09 — Erster versionierter DE-Build
+
+Commit: `65a2cf4f5`
+
+- Initial upload: **Deutsche Übersetzung gestartet**  
+- Erster versionierter pure-DE-Text-Layer (Polished Crystal 3.2.3)  
+
+### 000 · vor 2026-07-09 — Phase 0 (keine ROM-Nummer)
+
+Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht Repo):
+
+- Phase 1 UI · Phase 2 Kampf · Phase 3 Namen · Phase 4 Descs · Phase 5a Start-Johto  
+- Desktop-Labels z. B. `phase1-ui.gbc`, `phase2-battle.gbc`, `p4p5a.gbc`, `5a-viola.gbc`, …  
+- Ab **001** beginnt die nummerierte pure-DE-Serie (`tools/save_rom_versioned.ps1`)  
 
 ---
 
