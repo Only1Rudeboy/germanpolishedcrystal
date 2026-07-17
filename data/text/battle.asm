@@ -202,16 +202,17 @@ BattleText_UserRecoveredPPUsing:
 	prompt
 
 BrokeLightScreenText:
+	; GSC-near CAPS
 	text "<USER>"
 	line "zerstörte den"
-	cont "Lichtschild des"
+	cont "LICHTSCHILD des"
 	cont "Ziels!"
 	prompt
 
 BrokeReflectText:
 	text "<USER>"
 	line "zerstörte den"
-	cont "Reflektor des"
+	cont "REFLEKTOR des"
 	cont "Ziels!"
 	prompt
 
@@ -277,7 +278,7 @@ BattleText_ItemDrasticallyRaised:
 
 BattleText_ItemRaisedCrit:
 	text "<USER>"
-	line "putscht sich auf"
+	line "pumpt sich auf"
 	cont "mit "
 	text_ram wStringBuffer1
 	text "!"
@@ -299,45 +300,47 @@ BattleText_UserChargedWithItem:
 BattleText_UsersFutureSightMissed:
 ; used when Future Sight can't hit anything because there was
 ; no target (so <TARGET> is undefined)
-	text "Die Zukunftssicht"
-	line "traf ein!"
-
-	para "Doch sie schlug"
+	; GSC-near SEHER
+	text "SEHER schlug"
 	line "fehl!"
 	prompt
 
 BattleText_TargetWasHitByFutureSight:
+	; GSC-near: SEHER trifft TARGET (grammar fix)
 	text "<TARGET>"
-	line "traf die"
-	cont "Zukunftssicht!"
+	line "wurde von"
+	cont "SEHER"
+	cont "erfasst!"
 	prompt
 
 BattleText_MistFaded:
-	text "Weißnebel von"
+	; GSC CAPS
+	text "WEISSNEBEL von"
 	line ""
 	text_ram wStringBuffer1
-	cont "verschwindet!"
+	cont "schwindet!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "Bodyguard von"
+	; GSC: Der BODYGUARD von NAME schwindet!
+	text "Der BODYGUARD von"
 	line ""
 	text_ram wStringBuffer1
-	cont "verschwindet!"
+	cont "schwindet!"
 	prompt
 
 BattleText_LightScreenFell:
-	text "Lichtschild von"
-	line ""
+	; GSC: NAME / LICHTSCHILD / schwindet!
 	text_ram wStringBuffer1
-	cont "fällt!"
+	line "LICHTSCHILD"
+	cont "schwindet!"
 	prompt
 
 BattleText_ReflectFaded:
-	text "Reflektor von"
-	line ""
+	; GSC
 	text_ram wStringBuffer1
-	cont "verschwindet!"
+	line "REFLEKTOR"
+	cont "schwindet!"
 	prompt
 
 BattleText_TheRainStopped:
@@ -537,10 +540,10 @@ AirBalloonPoppedText:
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
-	text ""
+	; GSC: USER's ITEM aktiviert!
+	text "<USER>s"
+	line ""
 	text_ram wStringBuffer1
-	line "von"
-	cont "<USER>"
 	cont "aktiviert!"
 	prompt
 
@@ -615,32 +618,32 @@ BattleText_PkmnHasNoMovesLeft:
 	done
 
 BattleText_UserEncoreEnded:
-	text "Zugabe von"
-	line "<USER>"
-	cont "endet!"
+	; GSC: ZUGABE hört auf!
+	text "<USER>s"
+	line "ZUGABE hört auf!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
+	; GSC: erreicht LV N!
 	text_ram wStringBuffer1
-	line "erreicht"
-	cont "Level "
+	line "erreicht LV "
 	text_decimal wCurPartyLevel, 1, 3
 	text "!"
 	text_sound SFX_DEX_FANFARE_50_79
 	text_end
 
 BattleText_WildPkmnIsEating:
-	text "Das wilde"
-	line ""
+	; GSC: Wildes NAME frisst!
+	text "Wildes "
 	text_ram wEnemyMonNickname
-	cont "frisst!"
+	line "frisst!"
 	prompt
 
 BattleText_WildPkmnIsAngry:
-	text "Das wilde"
-	line ""
+	; GSC: Wildes NAME ist wütend!
+	text "Wildes "
 	text_ram wEnemyMonNickname
-	cont "ist wütend!"
+	line "ist wütend!"
 	prompt
 
 BattleText_ThrewRock:
@@ -688,10 +691,10 @@ MustRechargeText:
 	prompt
 
 DisabledNoMoreText:
-	text "Attacke von"
-	line "<USER>"
-	cont "ist nicht mehr"
-	cont "gesperrt!"
+	; GSC: wird nicht mehr blockiert!
+	text "<USER>"
+	line "wird nicht"
+	cont "mehr blockiert!"
 	prompt
 
 IsConfusedText:
@@ -825,11 +828,11 @@ DestinyKnotInfatuatedUser:
 	prompt
 
 DisabledMoveText:
-	text ""
+	; GSC: wird BLOCKIERT!
+	text "<USER>s"
+	line ""
 	text_ram wStringBuffer1
-	line "von"
-	cont "<USER>"
-	cont "ist gesperrt!"
+	cont "wird BLOCKIERT!"
 	prompt
 
 UsedMoveText:
@@ -1106,21 +1109,21 @@ AlreadyBurnedText:
 	prompt
 
 WontRiseAnymoreText:
+	; GSC: steigt nicht mehr!
 	text ""
 	text_ram wStringBuffer2
 	line "von"
 	cont "<USER>"
-	cont "steigt nicht"
-	cont "weiter!"
+	cont "steigt nicht mehr!"
 	prompt
 
 WontDropAnymoreText:
+	; GSC: sinkt nicht mehr!
 	text ""
 	text_ram wStringBuffer2
 	line "von"
 	cont "<USER>"
-	cont "sinkt nicht"
-	cont "weiter!"
+	cont "sinkt nicht mehr!"
 	prompt
 
 StatRoseText:
@@ -1191,9 +1194,11 @@ HitNTimesText:
 	prompt
 
 MistText:
-	text "Team von"
-	line "<USER>"
-	cont "im Weißnebel!"
+	; GSC: USER's ist von WEISSNEBEL umgeben!
+	text "<USER>s"
+	line "ist von"
+	cont "WEISSNEBEL"
+	cont "umgeben!"
 	prompt
 
 ProtectedByItemText:
@@ -1206,10 +1211,9 @@ ProtectedByItemText:
 	prompt
 
 ProtectedByMistText:
-	text "<TARGET>"
-	line "wird durch"
-	cont "Weißnebel"
-	cont "geschützt!"
+	; GSC: WEISSNEBEL schützt TARGET (split for Gegn.)
+	text "WEISSNEBEL schützt"
+	line "<TARGET>."
 	prompt
 
 GettingPumpedText:
@@ -1244,10 +1248,10 @@ TooWeakSubText:
 	prompt
 
 SubTookDamageText:
+	; GSC: nimmt Schaden für TARGET!
 	text "Der DELEGATOR"
-	line "für"
-	cont "<TARGET>"
-	cont "ab!"
+	line "nimmt Schaden für"
+	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
@@ -1269,11 +1273,12 @@ EvadedText:
 	prompt
 
 WasDisabledText:
+	; GSC: wird blockiert!
 	text ""
 	text_ram wStringBuffer2
 	line "von"
 	cont "<TARGET>"
-	cont "wurde gesperrt!"
+	cont "wird blockiert!"
 	prompt
 
 CoinsScatteredText:
@@ -1283,22 +1288,28 @@ CoinsScatteredText:
 	prompt
 
 TransformedTypeText:
+	; GSC: wird zu einem #MON des Typs X!
 	text "<USER>"
-	line "wurde zum"
+	line "wird zu einem"
+	cont "#MON des Typs"
 	cont ""
 	text_ram wStringBuffer1
-	text "-Typ!"
+	text "!"
 	prompt
 
 EliminatedStatsText:
-	text "Alle Werte"
-	line "neutralisiert!"
+	; GSC
+	text "Alle Status-"
+	line "änderungen werden"
+	cont "aufgehoben!"
 	prompt
 
 TransformedText:
+	; GSC: ben. VERWANDLER und wird zu X!
 	text "<USER>"
-	line "verwandelt sich"
-	cont "in "
+	line "ben. VERWANDLER"
+	cont "und wird zu"
+	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	prompt
@@ -1318,15 +1329,15 @@ TrickRoomEndedText:
 	prompt
 
 LightScreenEffectText:
-	text "Sp.Vert. von"
-	line "<USER>"
-	cont "steigt!"
+	; GSC: USER's SPEZ. VER steigt!
+	text "<USER>s"
+	line "SPEZ. VER steigt!"
 	prompt
 
 ReflectEffectText:
-	text "Verteidigung"
-	line "von"
-	cont "<USER>"
+	; GSC: Die VERT von USER steigt!
+	text "Die VERT von"
+	line "<USER>"
 	cont "steigt!"
 	prompt
 
@@ -1378,9 +1389,9 @@ AlreadyParalyzedText:
 	prompt
 
 ProtectedByText:
+	; GSC: geschützt durch ITEM!
 	text "<TARGET>"
-	line "wird geschützt"
-	cont "durch"
+	line "geschützt durch"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"
@@ -1405,7 +1416,7 @@ CuredInfatuationWithItem:
 
 CuredEncoreWithItem:
 	text "<USER>"
-	line "heilte Zugabe"
+	line "heilte ZUGABE"
 	cont "mit"
 	cont ""
 	text_ram wStringBuffer1
@@ -1467,8 +1478,10 @@ ProtectedItselfText:
 	prompt
 
 ProtectingItselfText:
-	text "<TARGET>"
-	line "schützt sich!"
+	; GSC: Der Schutz wendet Schaden ab von TARGET!
+	text "Der Schutz wendet"
+	line "Schaden ab von"
+	cont "<TARGET>!"
 	done
 
 SpikesText:
@@ -1490,13 +1503,16 @@ IdentifiedText:
 	prompt
 
 StartPerishSongText:
-	text "Beide #MON in"
-	line "3 Runden K.O.!"
+	; GSC
+	text "Beide #MON"
+	line "werden in 3 Runden"
+	cont "K.O. gehen!"
 	prompt
 
 StartPerishBodyText:
-	text "Beide #MON in"
-	line "3 Runden K.O.!"
+	text "Beide #MON"
+	line "werden in 3 Runden"
+	cont "K.O. gehen!"
 	prompt
 
 SandstormBrewedText:
@@ -1522,16 +1538,16 @@ FellInLoveText:
 	prompt
 
 CoveredByVeilText:
+	; GSC: wird verschleiert!
 	text "<USER>"
-	line "ist von einem"
-	cont "Schleier bedeckt!"
+	line "wird verschleiert!"
 	prompt
 
 SafeguardProtectText:
+	; GSC: wird von BODYGUARD beschützt!
 	text "<TARGET>"
-	line "wird durch"
-	cont "Bodyguard"
-	cont "geschützt!"
+	line "wird von BODYGUARD"
+	cont "beschützt!"
 	prompt
 
 MagnitudeText:
@@ -1580,10 +1596,11 @@ SunGotBrightText:
 	prompt
 
 BellyDrumText:
+	; GSC
 	text "<USER>"
-	line "senkt die KP und"
-	cont "maximiert den"
-	cont "Angriff!"
+	line "zieht sich KP ab,"
+	cont "um den ANGRIFFS-"
+	cont "WERT zu erhöhen!"
 	prompt
 
 BellyDrumContraryText:

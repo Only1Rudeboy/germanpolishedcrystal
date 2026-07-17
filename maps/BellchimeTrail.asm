@@ -164,7 +164,7 @@ BellchimeTrailValerieScript:
 .IntroText:
 	text "Sieh an, der"
 	line "Trainer, der"
-	cont "Suicune gegen-"
+	cont "SUICUNE gegen-"
 	para "überstand …"
 	para "Ich bin JUTTA."
 	line "Ich komme hierher,"

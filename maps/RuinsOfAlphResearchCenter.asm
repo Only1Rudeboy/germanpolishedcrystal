@@ -403,8 +403,8 @@ RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
 	line "geheimnisvollen"
 	cont "Muster,"
 
-	para "als das #-Com"
-	line "Center gebaut"
+	para "als das #COM"
+	line "CENTER gebaut"
 	cont "wurde."
 
 	para "Das bedeutet,"

@@ -108,7 +108,7 @@ GenericTrainerLassRose:
 	line "armen Welt-#MON"
 	cont "verletzt!"
 	para "Heile sie in einem"
-	line "#MON-Center!"
+	line "#MON-CENTER!"
 	done
 
 SwimmermWalterSeenText:

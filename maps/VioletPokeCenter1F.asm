@@ -29,8 +29,8 @@ PokemonJournalFalknerScript:
 	jumpthistext
 
 	text "#MON Journal"
-	para "Spezial: Leiter"
-	line "FALK!"
+	para "Spezial:"
+	line "ARENALEITER FALK!"
 	para "Man sagt, FALK"
 	line "verehrte seinen"
 	cont "Vater, der früher"

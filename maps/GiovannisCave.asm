@@ -189,7 +189,7 @@ GiovannisCaveGiovanniMemoriesText:
 	para "…"
 
 	para "Ich bin auf dem"
-	line "Weg nach Dukatia"
+	line "Weg nach DUKATIA"
 	cont "City,"
 
 	para "um dem Ruf zu"
@@ -205,7 +205,7 @@ GiovannisCaveGiovanniMemoriesText:
 
 GiovannisCaveLyraQuestionsText:
 	text "LYRA: Vor drei"
-	line "Jahren…? Dukatia"
+	line "Jahren…? DUKATIA"
 	cont "City…?"
 	done
 

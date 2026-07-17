@@ -83,7 +83,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	cry PIDGEOTTO
 	waitsfx
 	playsound SFX_TACKLE
-	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_TAUBOGAAttack
+	applymovement DARKCAVEVIOLETENTRANCE_PIDGEOTTO, DarkCaveVioletEntranceMovementData_PidgeottoAttack
 	waitsfx
 	pause 30
 	cry URSARING
@@ -100,7 +100,7 @@ DarkCaveVioletEntranceFalknerTrigger:
 	applyonemovement DARKCAVEVIOLETENTRANCE_FALKNER, step_left
 	end
 
-DarkCaveVioletEntranceMovementData_TAUBOGAAttack:
+DarkCaveVioletEntranceMovementData_PidgeottoAttack:
 	run_step_right
 	run_step_left
 	step_end
@@ -150,12 +150,12 @@ DarkCaveVioletEntranceFalknerExplanationText:
 	para "Ich erkunde Höhlen"
 	line "nicht zum Spaß,"
 	para "aber dieses"
-	line "Ursaring hat"
+	line "URSARING hat"
 	cont "Trainer"
 	cont "angegriffen,"
 	para "die sich nicht"
 	line "wehren konnten."
-	para "Als Arenaleiter"
+	para "Als ARENALEITER"
 	line "ist es meine"
 	cont "Pflicht,"
 	para "so etwas zu"

@@ -1688,7 +1688,7 @@ ElmAskBattleText:
 ElmSeenText:
 	text "Zeig mir, wie weit"
 	line "du gekommen bist"
-	para "seit Neuborkia!"
+	para "seit NEUBORKIA!"
 	done
 ElmWinText:
 	text "Erstaunlich!"

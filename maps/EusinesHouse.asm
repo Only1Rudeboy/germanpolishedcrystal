@@ -211,7 +211,7 @@ EusinesHouseGrampsGrandsonHomeText:
 EusinesHouseGrampsEusineSearchingForSuicuneText:
 	text "Mein Enkel EUSIN"
 	line "ist in JOHTO"
-	para "und sucht Suicune"
+	para "und sucht SUICUNE"
 	line "überall."
 	para "Ich habe ihm alles"
 	line "über die"

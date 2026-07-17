@@ -1092,7 +1092,7 @@ Text_IlexForestLyraWorried:
 	line "bist wirklich"
 	cont "zurück?"
 	para "Ich hab dich so"
-	line "vermisst! Celebi"
+	line "vermisst! CELEBI"
 	para "hat mich hierher"
 	line "geschickt und du"
 	cont "warst weg…"
@@ -1114,7 +1114,7 @@ Text_IlexForestLyraArmorSuit:
 	cont "Abenteuer hattest"
 	cont "du allein?"
 	para "Das hast du fallen"
-	line "lassen, als Celebi"
+	line "lassen, als CELEBI"
 	cont "dich zurückbrachte"
 	cont "…"
 	done

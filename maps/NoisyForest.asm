@@ -243,7 +243,7 @@ NoisyForestPikabluScript:
 	line "gerade nicht"
 	cont "tragen."
 	para "Komm zum"
-	line "#MON-Center,"
+	line "#MON-CENTER,"
 	cont "wenn du es willst."
 	done
 

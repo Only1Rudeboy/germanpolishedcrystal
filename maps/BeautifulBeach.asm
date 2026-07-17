@@ -123,7 +123,7 @@ GenericTrainerSightseerfRosie:
 .BeatenText:
 	text "Ich schätze,"
 	line "zuerst zum"
-	cont "#MON-Center."
+	cont "#MON-CENTER."
 	done
 
 TrainerSwimmerfRachel:

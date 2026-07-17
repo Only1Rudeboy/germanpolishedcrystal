@@ -235,7 +235,7 @@ CeladonCityLassText_PCC:
 	line "hohen Gebäuden"
 	cont "umgeben zu sein!"
 	para "Stimmt es, dass"
-	line "das #MON-Center"
+	line "das #MON-CENTER"
 	cont "in DUKATIA CITY"
 	para "viel größer gebaut"
 	line "wurde?"

@@ -97,6 +97,15 @@ BattleTower1FContinueChallenge:
 		line "Preis!"
 		prompt
 	verbosegiveitem ABILITYPATCH
+	checkevent EVENT_GOT_SHINY_CANDY_3
+	iftruefwd Script_CommitBattleTowerResult
+	writethistext
+		text "…und noch etwas"
+		line "ganz Seltenes."
+		prompt
+	verbosegiveitem SHINY_CANDY
+	iffalsefwd Script_CommitBattleTowerResult
+	setevent EVENT_GOT_SHINY_CANDY_3
 	; fallthrough
 Script_CommitBattleTowerResult:
 	special Special_BattleTower_CommitChallengeResult

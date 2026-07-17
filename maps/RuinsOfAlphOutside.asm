@@ -153,7 +153,7 @@ RuinsOfAlphOutsideYoungster1Script:
 
 	text "Es gibt viele"
 	line "Arten von"
-	cont "Icognito,"
+	cont "ICOGNITO,"
 	para "darum benutzen wir"
 	line "sie für unsere"
 	cont "Geheimcodes."

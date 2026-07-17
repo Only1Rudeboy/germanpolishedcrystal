@@ -29,8 +29,8 @@ Route30BerryHousePokefanMScript:
 
 	text "Ich kaufe"
 	line "erstklassigen"
-	cont "Dünger in Dukatia"
-	cont "City."
+	cont "Dünger in DUKATIA"
+	cont "CITY."
 	done
 
 Route30BerrySpeechHouseMonEatBerriesText:

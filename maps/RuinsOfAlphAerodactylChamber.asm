@@ -128,7 +128,7 @@ RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
 
 RuinsOfAlphChambersItsUnownText:
 	text "Das ist"
-	line "Unown-Schrift!"
+	line "ICOGNITO-Schrift!"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:

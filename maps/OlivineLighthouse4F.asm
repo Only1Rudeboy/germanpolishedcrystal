@@ -78,7 +78,7 @@ SailorKentFinalText:
 	text "Das #MON hier"
 	line "ist wieder gesund."
 	para "Die"
-	line "Anemonia-Apotheke"
+	line "ANEMONIA-Apotheke"
 	cont "hat ihren Ruf"
 	cont "bestätigt!"
 	done

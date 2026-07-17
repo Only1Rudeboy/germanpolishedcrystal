@@ -137,7 +137,7 @@ CeladonUniversity2FBug_catcherText:
 CeladonUniversity2FLassText:
 	text "Neben ihrem Amt"
 	line "als PRISMANIA-"
-	cont "Arenaleiterin"
+	cont "ARENALEITERIN"
 
 	para "war ERIKA hier an"
 	line "der Uni die Beste"

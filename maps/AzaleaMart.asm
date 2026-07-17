@@ -46,12 +46,12 @@ AzaleaMartBugCatcherText:
 
 AzaleaMartLadyText:
 	text "Ich kann in"
-	line "Dukatia City viele"
+	line "DUKATIA CITY viele"
 	cont "Items kaufen, aber"
 	cont "für"
 	para "Feuer-Attacken ist"
 	line "nichts besser"
-	para "als Azaleas"
+	para "als AZALEAs"
 	line "Holzkohle!"
 	done
 
@@ -59,11 +59,11 @@ AzaleaMartRockerText:
 	text "Die Prototypen von"
 	line "KURTs Bällen"
 	para "hatten Probleme."
-	line "Sympabälle fingen"
+	line "SYMPABÄLLE fingen"
 	cont "nur"
 	cont "gleichgeschlechtl."
 	cont "#MON, und"
-	cont "Turbobälle"
+	cont "TURBOBÄLLE"
 	para "funktionierten nur"
 	line "für drei"
 	cont "#MON-Arten."

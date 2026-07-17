@@ -154,6 +154,14 @@ DragonShrineTestScript:
 	setmapscene DRAGONS_DEN_B1F, SCENE_DRAGONSDENB1F_CLAIR_GIVES_TM
 	writetext DragonShrineRisingBadgeExplanationText
 	waitbutton
+	checkevent EVENT_GOT_SHINY_CANDY_1
+	iftruefwd .SkipShinyCandy1
+	writetext DragonShrineShinyCandyText
+	waitbutton
+	verbosegiveitem SHINY_CANDY
+	iffalsefwd .SkipShinyCandy1
+	setevent EVENT_GOT_SHINY_CANDY_1
+.SkipShinyCandy1
 	closetext
 	applymovement DRAGONSHRINE_ELDER1, DragonShrineElderWalkAway1Movement
 	turnobject DRAGONSHRINE_CLAIR, UP
@@ -570,4 +578,10 @@ DragonShrineRisingBadgeExplanationText:
 DragonShrineSpeechlessText:
 	; GSC-DE Dump 5937
 	text "………………"
+	done
+
+DragonShrineShinyCandyText:
+	text "Für acht ORDEN…"
+	line "ein seltenes"
+	cont "Glitzerbonbon."
 	done

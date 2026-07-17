@@ -61,7 +61,7 @@ SilverCavePokeCenterGrampsScript:
 
 	text "Du hast keine"
 	line "gelesen? Schade."
-	para "In #MON-Centern"
+	para "In #MON-CENTERn"
 	line "stehen die meisten"
 	para "im Regal, aber"
 	line "echte Fans wie ich"

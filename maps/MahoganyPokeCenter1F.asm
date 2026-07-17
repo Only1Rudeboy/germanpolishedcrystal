@@ -25,8 +25,8 @@ PokemonJournalPryceScript:
 	jumpthistext
 
 	text "#MON Journal"
-	para "Spezial: Leiter"
-	line "NORBERT!"
+	para "Spezial:"
+	line "ARENALEITER NORBERT!"
 	para "NORBERTs zweiter"
 	line "Vorname lautet"
 	cont "WILLOW."

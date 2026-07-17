@@ -26,7 +26,7 @@ PokemonJournalBugsyScript:
 
 	text "#MON-Journal"
 	para "Spezialthema:"
-	line "Leiter KAI!"
+	line "ARENALEITER KAI!"
 	para "Berichten zufolge"
 	line "gewann KAI den"
 	para "Käferfänger-"
@@ -64,7 +64,7 @@ AzaleaPokeCenter1FCooltrainermScript:
 	para "Sie sind auch eng"
 	line "befreundet mit"
 
-	para "Agatha, einem"
+	para "AGATHA, einem"
 	line "ehemaligen"
 	cont "Mitglied der Top"
 	cont "Vier."

@@ -242,11 +242,11 @@ VioletCityCooltrainerM1Text:
 	line "zählen!"
 	done
 VioletCityCooltrainerFText:
-	text "Knofensa ist ein"
+	text "KNOFENSA ist ein"
 	line "beliebtes #MON"
 	cont "in dieser Stadt."
 	para "Gegen unseren"
-	line "Arenaleiter"
+	line "ARENALEITER"
 	para "kommt er aber"
 	line "nicht gut an …"
 	done
@@ -305,7 +305,7 @@ VioletCityCooltrainerM2Text:
 	cont "hier."
 	para "Selbst der Markt"
 	line "und das"
-	cont "#MON-Center"
+	cont "#MON-CENTER"
 	cont "sind"
 	para "gedämpft bemalt,"
 	line "damit sie sich"

@@ -367,7 +367,7 @@ Route30TrainerTipsText:
 
 
 Route30AdvancedTipsText:
-	text "Erweiterte Tipps!"
+	text "Profi-Tipps!"
 	para "Drücke im Kampf"
 	line "SELECT, um das"
 	cont "#MON zu"

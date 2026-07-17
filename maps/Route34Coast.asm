@@ -98,7 +98,7 @@ GenericTrainerSwimmerfCaroline:
 	generictrainer SWIMMERF, CAROLINE, EVENT_BEAT_SWIMMERF_CAROLINE, .SeenText, .BeatenText
 
 	text "Wir wohnen in"
-	line "Dukatia, aber"
+	line "DUKATIA, aber"
 
 	para "diese Route ist"
 	line "ein wunderbarer"

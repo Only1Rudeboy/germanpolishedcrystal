@@ -304,7 +304,7 @@ OlivineCityFisherText:
 	line "weg, als ihr"
 	para "Vater in einer"
 	line "anderen Region"
-	cont "Arenaleiter wurde."
+	cont "ARENALEITER wurde."
 	done
 
 OlivineCitySailor3Text:

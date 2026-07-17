@@ -32,7 +32,7 @@ PokemonJournalJasmineScript:
 	para "Man munkelt,"
 	line "JASMIN und ERIKA"
 	para "von der"
-	line "Dukatia-ARENA"
+	line "DUKATIA-ARENA"
 	cont "tauschen"
 	para "sich über Mode"
 	line "aus."

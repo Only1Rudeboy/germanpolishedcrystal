@@ -345,7 +345,7 @@ PokemonJournalGiovanniScript:
 	line "heraus, dass"
 	cont "GIOVANNI,"
 
-	para "der Arenaleiter,"
+	para "der ARENALEITER,"
 	line "auch der Boss von"
 	cont "TEAM ROCKET war."
 	done

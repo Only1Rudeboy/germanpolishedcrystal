@@ -338,7 +338,7 @@ GuideGentRoute30Text:
 
 
 GuideGentAdvancedTipsText:
-	text "Erweiterte Tipps!"
+	text "Profi-Tipps!"
 	line "Schilder sehen so"
 	cont "ungewöhnlich aus."
 
@@ -531,7 +531,7 @@ GuideGentsHouseSignText:
 
 
 CherrygroveCityAdvancedTipsSignText:
-	text "Erweiterte Tipps!"
+	text "Profi-Tipps!"
 	para "In #MON-Märkten"
 	line "bekommst du"
 	para "gratis einen"
