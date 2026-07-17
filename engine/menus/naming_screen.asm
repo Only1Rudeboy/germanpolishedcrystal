@@ -188,8 +188,9 @@ INCLUDE "data/player/sprite_anims.asm"
 .PlayerNameString:
 	db "Wie heißt du?@"
 
+; GSC-DE: vor Namensvergabe "???", nicht "Rivale"
 .RivalNameString:
-	db "Wie heißt Rivale?@"
+	db "Wie heißt ???@"
 
 .TrendyPhraseString:
 	db "Trendwort?@"

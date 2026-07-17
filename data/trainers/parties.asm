@@ -1514,18 +1514,19 @@ end_trainer
 SECTION "Rival0Group", ROMX
 Rival0Group:
 
+	; GSC-DE: Klasse "???", leerer Name → Anzeige "???" (nicht "Fremder BOY")
 	def_trainer_class RIVAL0
-	def_trainer 1, "BOY"
+	def_trainer 1, ""
 	tr_mon 4, RATTATA
 	tr_mon 5, CHIKORITA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 2, "BOY"
+	def_trainer 2, ""
 	tr_mon 4, RATTATA
 	tr_mon 5, CYNDAQUIL @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 3, "BOY"
+	def_trainer 3, ""
 	tr_mon 4, RATTATA
 	tr_mon 5, TOTODILE @ ORAN_BERRY
 	end_trainer

@@ -1777,27 +1777,21 @@ ElmsLabOfficerText1:
 
 
 
+; vor SpecialNameRival — Name noch unbekannt
 ElmsLabOfficerText2:
-	text "O.K.! Sein Name"
-	line "war also <RIVAL>."
-	para "Danke, dass du mir"
-	line "bei den"
-	cont "Ermitt-lungen"
-	cont "geholfen hast!"
+	text "Dann sag mir,"
+	line "wie er heißt!"
 	done
 
-
-
-
-
-
+; GSC-DE nach Naming
 ElmsLabOfficerText3:
 	text "O.K.! Sein Name"
 	line "war also <RIVAL>."
+
 	para "Danke, dass du mir"
-	line "bei den"
-	cont "Ermittlungen"
-	cont "geholfen hast!"
+	line "bei den Ermitt-"
+	cont "lungen geholfen"
+	cont "hast!"
 	done
 ElmsLabLyraWhichPokemonText:
 	text "Welches #MON"

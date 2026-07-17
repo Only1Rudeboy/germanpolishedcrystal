@@ -28,7 +28,8 @@ TrainerClassNames::
 	li "Arenaleiter"       ; BLUE
 	li "<PK><MN>-Trainer" ; RED
 	li "<PK><MN>-Trainer" ; LEAF
-	li "Fremder"           ; RIVAL0
+	; RIVAL0: GSC-Anzeige "???" (kein "Fremder BOY")
+	li "???"               ; RIVAL0
 	li "Rivale"            ; RIVAL1
 	li "Rivale"            ; RIVAL2
 	li "<PK><MN>-Trainer" ; LYRA1

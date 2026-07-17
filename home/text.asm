@@ -405,6 +405,14 @@ PlaceEnemysName::
 	rst PlaceString
 	ld h, b
 	ld l, c
+	; Bei leerem Trainernamen (RIVAL0: Klasse "???", Name "")
+	; kein Space/CONT — GSC zeigt nur "???"
+	push hl
+	farcall Battle_GetTrainerName
+	pop hl
+	ld a, [wStringBuffer1]
+	cp '@'
+	jr z, .skip_sep
 	ld a, [wTextboxFlags]
 	bit NEWLINE_ENEMY_F, a
 	ld de, SpaceText
@@ -412,9 +420,9 @@ PlaceEnemysName::
 	ld de, ContChar
 .no_wordwrap
 	rst PlaceString
-	push bc
-	farcall Battle_GetTrainerName
-	pop hl
+	ld h, b
+	ld l, c
+.skip_sep
 	ld de, wStringBuffer1
 	; fallthrough
 
