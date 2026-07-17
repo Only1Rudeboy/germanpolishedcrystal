@@ -43,13 +43,6 @@ ViridianGymBlueScript:
 	opentext
 	givebadge EARTHBADGE, KANTO_REGION
 	setevent EVENT_FINAL_BATTLE_WITH_LYRA
-	checkevent EVENT_GOT_SHINY_CANDY_2
-	iftruefwd .FightDone
-	writetext ViridianGymShinyCandyText
-	promptbutton
-	verbosegiveitem SHINY_CANDY
-	iffalsefwd .FightDone
-	setevent EVENT_GOT_SHINY_CANDY_2
 .FightDone:
 	checkevent EVENT_GOT_TM71_STONE_EDGE
 	iftrue_jumpopenedtext LeaderBlueEpilogueText
@@ -318,9 +311,3 @@ AceDuoElanandida2BeatenText:
 	cont "Besonderes."
 	done
 
-ViridianGymShinyCandyText:
-	text "Sechzehn ORDEN…"
-	line "Dann nimm das."
-	para "Ein Glitzerbonbon."
-	line "Nutze es weise."
-	done

@@ -90,15 +90,6 @@ BattleFactory1FContinueChallenge:
 		line "Preis!"
 		prompt
 	verbosegiveitem MINT_LEAF
-	checkevent EVENT_GOT_SHINY_CANDY_4
-	iftruefwd Script_CommitBattleFactoryResult
-	writethistext
-		text "Zusätzlich: ein"
-		line "Glitzerbonbon!"
-		prompt
-	verbosegiveitem SHINY_CANDY
-	iffalsefwd Script_CommitBattleFactoryResult
-	setevent EVENT_GOT_SHINY_CANDY_4
 	; fallthrough
 Script_CommitBattleFactoryResult:
 	special Special_BattleTower_CommitChallengeResult

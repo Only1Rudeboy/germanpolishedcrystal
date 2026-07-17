@@ -312,7 +312,6 @@ endc
 	li "Helixfossil"
 	li "Domfossil"
 	li "Altbernstein"
-	li "Glitzerbonb."
 
 	li "Blumenbrief"
 	li "Surferbrief"

@@ -53,14 +53,6 @@ Red:
 	verbosegivekeyitem MYSTICTICKET
 	setevent EVENT_GOT_MYSTICTICKET_FROM_RED
 .AlreadyHaveMysticTicket
-	checkevent EVENT_GOT_SHINY_CANDY_5
-	iftruefwd .AfterCandy
-	writetext .ShinyCandyText
-	promptbutton
-	verbosegiveitem SHINY_CANDY
-	iffalsefwd .AfterCandy
-	setevent EVENT_GOT_SHINY_CANDY_5
-.AfterCandy
 	closetext
 	special Special_FadeBlackQuickly
 	special Special_ReloadSpritesNoPalettes
@@ -73,13 +65,6 @@ Red:
 	setevent EVENT_BEAT_RED
 	playmapmusic
 	end
-
-.ShinyCandyText:
-	text "……"
-	line "……"
-	para "(Er gibt dir ein"
-	line "Glitzerbonbon.)"
-	done
 
 .Text1: ; GSC-DE Dump (ROT silent)
 	text "……"

@@ -106,14 +106,6 @@ BattleTowerOutsideAnabelScript:
 	promptbutton
 	verbosegiveitem POWER_BAND
 	iffalse_endtext
-	checkevent EVENT_GOT_SHINY_CANDY_6
-	iftruefwd .AfterCandy
-	writetext .ShinyCandyText
-	promptbutton
-	verbosegiveitem SHINY_CANDY
-	iffalsefwd .AfterCandy
-	setevent EVENT_GOT_SHINY_CANDY_6
-.AfterCandy
 	writetext .GoodbyeText
 	waitbutton
 	closetext
@@ -124,13 +116,6 @@ BattleTowerOutsideAnabelScript:
 	special Special_FadeInQuickly
 	clearevent EVENT_BATTLE_TOWER_ANABEL
 	end
-
-.ShinyCandyText:
-	text "…Noch etwas."
-	line "Ein Glitzerbonbon."
-	para "Nur für Trainer"
-	line "wie dich…"
-	done
 
 .ChallengeText:
 	text "Sei gegrüßt… Mein"
