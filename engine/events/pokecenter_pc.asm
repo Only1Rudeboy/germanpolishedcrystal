@@ -27,7 +27,9 @@ PokemonCenterPC:
 
 .TopMenu:
 	db MENU_BACKUP_TILES | MENU_NO_CLICK_SFX
-	menu_coords 0, 0, 15, 12
+	; DE "PROF. EICHs PC" is longer than EN "Prof.Oak's PC" → widen box
+	; (cursor + 14 chars + borders; was x2=15 and clipped the PC)
+	menu_coords 0, 0, 17, 12
 	dw .MenuData2
 	db 1 ; default option
 
