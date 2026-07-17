@@ -4,7 +4,7 @@ name: "Dev Rolling Release"
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
   # Uncomment to enable scheduled runs, if desired:
   # schedule:

@@ -8,7 +8,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
 | **Aktuell pure-DE** | **ROM 3.2.3.051** (GSC-Kanon-Feinschliff-Batch) |
-| **Branches** | **`main` und `master` gleich** (CI + Default) |
+| **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
 
@@ -259,14 +259,10 @@ NEUBORKIA · ROSALIA · VIOLA · AZALEA · DUKATIA · TEAK · OLIVIANA · ANEMON
 
 ---
 
-## Branches
+## Branch
 
-| Branch | Rolle |
-|---|---|
-| **`main`** | Aktuelle pure-DE-Entwicklung (CI: Dev Rolling Release) |
-| **`master`** | Gleicher Stand wie `main` (Default auf GitHub / `origin/HEAD`) |
-
-Beide Branches werden **gemeinsam fortgeschrieben** (Fast-Forward). Shiny-/ARBEITSKOPIE-Gameplay gehört **nicht** ins Repo.
+Nur **`master`** — Default auf GitHub, CI (`build.yml` + Dev Rolling Release) und Entwicklung.  
+Shiny-/ARBEITSKOPIE-Gameplay gehört **nicht** ins Repo.
 
 ---
 
