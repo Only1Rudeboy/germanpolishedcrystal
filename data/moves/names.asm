@@ -251,7 +251,7 @@ MoveNames::
 if DEF(FAITHFUL)
 	li "Zertrümmerer"
 else
-	li "Zertrümmerer"
+	li "Durchbruch"
 endc
 	li "Whirlpool"
 	li "Finsteraura"

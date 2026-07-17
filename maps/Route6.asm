@@ -245,7 +245,8 @@ Route6AdvancedTipsSignText:
 	cont "Wahl-Schal."
 
 	para "Aber mit der"
-	line "Attacke Trick"
+	line "Attacke Trick-"
+	cont "betrug"
 
 	para "kann der Träger"
 	line "sein Item mit dem"

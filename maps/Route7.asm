@@ -25,7 +25,7 @@ GenericTrainerBreederCarlene:
 	generictrainer BREEDER, CARLENE, EVENT_BEAT_BREEDER_CARLENE, .SeenText, .BeatenText
 
 	text "Ich lasse mein"
-	line "Picto Sketch"
+	line "Picto Nachahmer"
 
 	para "nutzen und züchte"
 	line "dann weiter,"

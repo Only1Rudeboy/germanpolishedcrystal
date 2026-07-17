@@ -1,21 +1,21 @@
 Pokedex_AreaTypeLists:
 	list_start
 	setcharmap no_ngrams
-	li "Morning"
-	li "Day"
-	li "Night"
-	li "Surfing"
-	li "Old Rod"
-	li "Good Rod"
-	li "Super Rod"
-	li "Headbutt"
+	li "Morgen"
+	li "Tag"
+	li "Nacht"
+	li "Surfen"
+	li "Angel"
+	li "Profiangel"
+	li "Superangel"
+	li "Kopfnuss"
 if DEF(FAITHFUL)
-	li "Rock Smash"
+	li "Zertrümmerer"
 else
-	li "Brick Break"
+	li "Durchbruch"
 endc
-	li "Bug Contest"
-	li "Roaming"
+	li "Käferturnier"
+	li "Wandernd"
 	setcharmap default
 	assert_list_length NUM_DEXAREAS
 

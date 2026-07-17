@@ -255,7 +255,7 @@ Text_MahoganyMart1FTutorAgility:
 	text "Wenn du willst,"
 	line "bringe ich deinem"
 	para "#MON die"
-	line "Attacke Agility"
+	line "Attacke Agilität"
 	cont "bei."
 	done
 
