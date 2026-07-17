@@ -1053,12 +1053,13 @@ ArmorSuitDesc:
 	done
 
 AirBalloonDesc:
-	; Air Balloon — DE kurzname "Ballon"
+	; Offiziell: Luftballon
 	text "Schwebt: immun"
 	next "gg. Boden, platzt."
 	done
 
 AssaultVestDesc:
+	; Offiziell: Offensivweste
 	text "Erhöht Sp.Vert.,"
 	next "verbietet Status."
 	done

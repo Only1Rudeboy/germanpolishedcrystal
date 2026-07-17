@@ -30,11 +30,18 @@ endc
 	plural "brief",     "briefe"     ; Blumenbrief, Wellenbrief, etc.
 	plural "fossil",    "fossilien"  ; Helixfossil, Domfossil
 	plural "klaue",     "klauen"     ; Flinkklaue, Griffklaue, Scharfklaue
-	plural "kette",     "ketten"     ; Perlenkette, Kraftkette
-	plural "glas",      "gläser"     ; Schattenglas, Kraftglas
-	plural "gurt",      "gurte"      ; Schwarzgurt, Fokusgurt, Expertengurt, Kraftgurt
-	plural "schal",     "schals"     ; Seidenschal, Wahl-Schal
+	plural "kette",     "ketten"     ; Perlenkette, Machtkette
+	plural "hülle",     "hüllen"     ; Wechselhülle
+	plural "knopf",     "knöpfe"     ; Fluchtknopf
+	plural "helm",      "helme"      ; Beulenhelm
+	plural "glas",      "gläser"     ; Schattenglas
+	plural "brille",    "brillen"    ; Wahlbrille, Schutzbrille
+	plural "gurt",      "gurte"      ; Schwarzgurt, Fokusgurt, Expertengurt, Machtgurt
+	plural "schal",     "schals"     ; Seidenschal, Wahlschal
 	plural "seil",      "seile"      ; Fluchtseil
+	plural "band",      "bänder"     ; Klammerband, Machoband, Wahlband, Machtband
+	plural "tasche",    "taschen"    ; Fluchttasche
+	plural "brocken",   "brocken"    ; Nass-/Heiß-/Glatt-/Eisbrocken
 	plural "ohle",      "ohlen"      ; Holzkohle
 	plural "amen",      "amen"       ; Mystosamen
 	plural "löffel",    "löffel"     ; Krümmlöffel
