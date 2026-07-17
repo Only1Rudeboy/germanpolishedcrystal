@@ -7,12 +7,14 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.050** (Summary-Reiter DE) |
+| **Aktuell pure-DE** | **ROM 3.2.3.051** (GSC-Kanon-Feinschliff-Batch) |
+| **Branches** | **`main` und `master` gleich** (CI + Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
 
 > Mit **Grok 4.5** (xAI) unterstützt. Es können noch Fehler, Zeilenumbrüche oder einzelne EN-Stellen vorkommen.  
-> **Feedback willkommen** (Issues / PRs).
+> **Feedback willkommen** (Issues / PRs).  
+> **Nur pure DE-Lokalisierung** in diesem Repo — keine Shiny-/ARBEITSKOPIE-Gameplay-Mods.
 
 ---
 
@@ -20,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–050](#rom-übersicht-001050)
+3. [ROM-Übersicht 001–051](#rom-übersicht-001051)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -42,12 +44,66 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001049) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersicht-001051) bzw. [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+
+### 051 · 2026-07 — GSC-Kanon-Feinschliff (großer Pass)
+
+System-, Kampf-, Item- und Dialog-Fixes im **Kristall-DE-Stil** (TEXTBOX ≤18). Multi-Agent-Scans + gezielte Fixes. CI wieder grün.
+
+#### Stabilität / Engine-Text
+- Beeren-Crash behoben (`rst $38` / Pluralize-`PlaceString`-Bank)
+- Item-Namen: Terminator / 12-Zeichen-Grenze; Fonts nach Item-Icons
+- Ability-Kampfzeilen: **`Gegn. NAME` / `hat Ability`** ≤18
+- `battle.asm`: USER/TARGET-Zeilen für 18-Kachel-DE reflowed
+- PC-Menü verbreitert: **PROF. EICHs PC** passt
+- Dex-Eintrag `NewDexDataText`: GSC-Zeilenumbrüche (kein EN-Possessiv)
+- Wochentage DE im Beutel-Uhr (`PrintDayOfWeek`)
+- Party-Status GSC-DE: **GIF / PAR / SLF / BRT / GFR / TOX / K.O** (statt Psn/Fnt)
+- Unbeabsichtigter Shiny-Code aus pure entfernt (nur Status-K.O. bleibt)
+
+#### Items & Beutel
+- **Premierball** (offiziell DE, nicht „Bonusball“)
+- **Luftballon** (nicht Ballonschw./Ballon-Mischformen)
+- ~57 Item-Namen GSC/offiziell DE (u. a. Jubelball, Held-Items)
+- Fangtexte GSC: **„Toll!“** u. a. (nicht „Fang geglückt“)
+- CI-Fix: unvollständiges „Glitzerbonbon“-Item (Name ohne Konstante) aus pure entfernt
+
+#### UI / Pokedex / Orte
+- Pokédex **GR. / GEW.** statt Ht/Wt
+- NPC-Tausch: GSC-Zeilenumbruch (**GR.** / VOLTOBAL …)
+- **DUNKELHÖHLE**: GSC-Label + fehlendes **Ö**-Font-Glyph
+- Pokédex-**Arealiste** DE: Morgen/Tag/Nacht, Angel/Profi-/Superangel, Kopfnuss, Durchbruch, Käferturnier, Wandernd
+- Attackenname non-faithful: **Durchbruch** (Brick Break)
+
+#### Story / Dialoge (GSC-Dump-nah)
+- Route-31-Tor Officer: **„Tach auch!“** / GSC-Wortlaut
+- Rivale vor Naming: **`???`** (nicht „Fremder BOY“ / „Rivale“)
+- Telefon-Registrierung: **„speichert …s Nummer“** (GSC)
+- Kampftexte GSC-DE: KP-Absaugen, Status, Effektivität, Flucht, Final-Mon, DELEGATOR/STACHLER/SEHER-CAPS u. a.
+- Johto/Kanto-Map-**CAPS** (Arenen, Städte, Landmarks)
+- Ability-Beschreibungen gekürzt/GSC-nah (≤18)
+
+#### Tutoren / TMs (EN-Attackennamen → DE)
+| EN | DE |
+|---|---|
+| Body Slam / Endure | **Bodyslam** / **Ausdauer** |
+| Sucker Punch | **Tiefschlag** |
+| Avalanche | **Lawine** |
+| Trick Room | **Bizarroraum** |
+| Knock Off | **Abschlag** |
+| Agility | **Agilität** |
+| Trick | **Trickbetrug** |
+| Sketch | **Nachahmer** |
+| Zen Headbutt (Tutor) | **Zen-Kopfstoß** |
+
+#### Bewusst GSC-Anglizismen (beibehalten)
+Wow / Hey / Yeah / O.K. / Cool / Items / Earl — wie im DE-Kristall-Dump.
 
 ### 050 · 2026-07 — Summary-Reiter (PNG)
 
 - Status-Screen-Tabs (OAM-Sprites): **EP · Fähig. · Item · Att. · Ort · Ei** (statt Exp./Ability/Move/Met/Egg)
 - Fundort-Zeile: `Tag, Lv.15` statt `Tag bei Lv.15`
+- Pixel-Feinschliff Tabs (Fähig. / Gefund. / Ort)
 
 ### 049 · 2026-07 — `#COM` / `#DEX`-Casing
 
@@ -101,7 +157,7 @@ Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersi
 
 ---
 
-## ROM-Übersicht 001–050
+## ROM-Übersicht 001–051
 
 | Block | Thema |
 |---|---|
@@ -116,9 +172,10 @@ Neueste pure-DE-Builds zuerst. Ältere Nummern → [ROM-Übersicht](#rom-übersi
 | **046–048** | Optionen, QWERTZ / v0.9 |
 | **049** | `#COM` / `#DEX`-Casing (PokéCOM) |
 | **050** | Summary-Reiter DE (EP/Fähig./Att./Ort/Ei) |
+| **051** | GSC-Kanon-Feinschliff (Kampf/UI/Items/Tutoren/CI) |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · nächster Build: **051**
+Zähler: `tools/_rom_build_version.txt` · nächster Build: **052**
 
 ---
 
@@ -197,7 +254,19 @@ NEUBORKIA · ROSALIA · VIOLA · AZALEA · DUKATIA · TEAK · OLIVIANA · ANEMON
 
 - Grafik-Text in manchen Tiles/Logos kann EN bleiben  
 - PC-only-Ecken (z. B. Navel/Faraway-Jungle, Shamouti-Stubs) — Feinschliff nach Playtest  
+- Polished-only-Dialoge / restliche EN-Sätze nach Playtest  
 - Stil, Breite, Kanon-Namen: Feedback erwünscht  
+
+---
+
+## Branches
+
+| Branch | Rolle |
+|---|---|
+| **`main`** | Aktuelle pure-DE-Entwicklung (CI: Dev Rolling Release) |
+| **`master`** | Gleicher Stand wie `main` (Default auf GitHub / `origin/HEAD`) |
+
+Beide Branches werden **gemeinsam fortgeschrieben** (Fast-Forward). Shiny-/ARBEITSKOPIE-Gameplay gehört **nicht** ins Repo.
 
 ---
 
