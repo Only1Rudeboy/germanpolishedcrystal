@@ -124,7 +124,7 @@ endc
 Text_MountMortarB1FTutorDefenseCurl:
 	text "Ich bringe deinem"
 	line "#MON"
-	para "EINIGLER bei -für"
+	para "EINIGLER bei - für"
 	line "ein Silberblatt."
 	done
 

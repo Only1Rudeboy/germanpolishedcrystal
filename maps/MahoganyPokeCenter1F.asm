@@ -26,7 +26,8 @@ PokemonJournalPryceScript:
 
 	text "#MON Journal"
 	para "Spezial:"
-	line "ARENALEITER NORBERT!"
+	line "ARENALEITER"
+	cont "NORBERT!"
 	para "NORBERTs zweiter"
 	line "Vorname lautet"
 	cont "WILLOW."

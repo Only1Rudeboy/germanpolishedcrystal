@@ -255,8 +255,8 @@ Text_Route4TutorIronHead:
 	line "Silberblatt und"
 
 	para "ich bringe deinem"
-	line "#MON Eisenschädel"
-	cont "bei!"
+	line "#MON"
+	cont "Eisenschädel bei!"
 	done
 
 Text_Route4TutorAquaTail:
@@ -264,8 +264,8 @@ Text_Route4TutorAquaTail:
 	line "Silberblatt und"
 
 	para "ich bringe deinem"
-	line "#MON Nassschweif"
-	cont "bei!"
+	line "#MON"
+	cont "Nassschweif bei!"
 	done
 
 Text_Route4TutorsNoSilverLeaf:
@@ -275,13 +275,15 @@ Text_Route4TutorsNoSilverLeaf:
 
 Text_Route4Tutor1Question:
 	text "Soll ich deinem"
-	line "#MON Eisenschädel"
+	line "#MON"
+	cont "Eisenschädel"
 	cont "beibringen?"
 	done
 
 Text_Route4Tutor2Question:
 	text "Soll ich deinem"
-	line "#MON Nassschweif"
+	line "#MON"
+	cont "Nassschweif"
 	cont "beibringen?"
 	done
 

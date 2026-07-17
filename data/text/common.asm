@@ -2918,8 +2918,10 @@ _PokecenterPlayersPCText::
 	text "Auf deinen PC"
 	line "zugegriffen."
 
-	para "ITEM-LAGERUNGS-SYSTEM"
-	line "geöffnet."
+	; GSC-DE: ITEM- / LAGERUNGS-SYSTEM (≤18)
+	para "ITEM-"
+	line "LAGERUNGS-SYSTEM"
+	cont "geöffnet."
 	prompt
 
 SECTION "_PokecenterOaksPCText", ROMX

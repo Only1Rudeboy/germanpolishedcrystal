@@ -260,9 +260,9 @@ OakLabCatchMoreText:
 	done
 
 OakLabCatchCharmText:
-	; PC-only Charm
+	; PC-only Charm — key item: Fangamulett
 	text "Mit einem"
-	line "Fang-Glücksbringer"
+	line "Fangamulett"
 	para "steigt die Chance"
 	line "auf einen"
 	cont "Volltreffer-Fang."
@@ -283,9 +283,9 @@ OakLabSeenAllText:
 	done
 
 OakLabOvalCharmText:
-	; PC-only Charm
+	; PC-only Charm — key item: Ovalpin
 	text "Mit einem"
-	line "Oval-Glücksbringer"
+	line "Ovalpin"
 	para "steigt die Chance,"
 	line "in der ZUCHT ein"
 	cont "Ei zu finden."
@@ -308,9 +308,9 @@ OakLabCaughtAllText:
 	done
 
 OakLabShinyCharmText:
-	; PC-only Charm
-	text "Mit einem Shiny-"
-	line "Glücksbringer"
+	; PC-only Charm — key item: Glanzamulett
+	text "Mit einem"
+	line "Glanzamulett"
 	para "steigt die Chance,"
 	line "ein schillerndes"
 	cont "#MON zu finden!"

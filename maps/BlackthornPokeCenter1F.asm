@@ -27,7 +27,8 @@ PokemonJournalClairScript:
 	text "#MON-Journal"
 
 	para "Spezialthema:"
-	line "ARENALEITERIN SANDRA!"
+	line "ARENALEITERIN"
+	cont "SANDRA!"
 
 	para "SANDRAs leuchtend"
 	line "blaues Outfit und"
