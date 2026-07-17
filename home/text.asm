@@ -781,14 +781,15 @@ PrintDayOfWeek::
 	dr .Fri
 	dr .Satur
 
-.Sun:    db "Sun@"
-.Mon:    db "Mon@"
-.Tues:   db "Tues@"
-.Wednes: db "Wednes@"
-.Thurs:  db "Thurs@"
-.Fri:    db "Fri@"
-.Satur:  db "Satur@"
-.Day:    db "day@"
+; Full DE names (GSC: Sonntag…Samstag). .Day was EN "day" suffix → empty.
+.Sun:    db "Sonntag@"
+.Mon:    db "Montag@"
+.Tues:   db "Dienstag@"
+.Wednes: db "Mittwoch@"
+.Thurs:  db "Donnerstag@"
+.Fri:    db "Freitag@"
+.Satur:  db "Samstag@"
+.Day:    db "@"
 
 DecompressString::
 	; save starting coords
