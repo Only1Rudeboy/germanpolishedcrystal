@@ -82,29 +82,36 @@ TrainerCooltrainermFinch:
 .AfterText2:
 	text "Du hast die"
 	line "Wirkung eines"
-	cont "Luftballons im"
-	cont "Kampf gesehen."
+	cont "Ballons im Kampf"
+	cont "gesehen."
+
 	para "Vielleicht triffst"
 	line "du andere Trainer"
-	para "wie mich in JOHTO."
-	line "Sie suchen Stärke."
-	para "Fordere sie am"
-	line "besten heraus!"
+	cont "wie mich in JOHTO."
+
+	para "Sie suchen Stärke."
+	line "Fordere sie am"
+	cont "besten heraus!"
 	done
+
 .IntroText:
 	text "Ich bin ein"
 	line "Trainer, der"
-	cont "Luftballons im"
-	cont "Kampf nutzt."
+	cont "Ballons im Kampf"
+	cont "nutzt."
+
 	para "Ich will von"
 	line "deiner Stärke"
-	cont "überzeugt werden …"
+	cont "überzeugt werden…"
+
 	para "Besiege alle"
 	line "Trainer auf Route"
 	cont "30 und 31,"
+
 	para "dann tritt mir"
 	line "gegenüber!"
 	done
+
 .QuestionText:
 	text "Du hast alle"
 	line "Trainer hier"
@@ -116,37 +123,40 @@ TrainerCooltrainermFinch:
 
 	para "Kämpfen wir?"
 	done
+
 .RefusedText:
 	text "Du willst deine"
 	line "Stärke nicht mit"
 	cont "meiner messen?"
+
 	para "Ich gebe dir mein"
 	line "Spezial-Item, wenn"
-	cont "du gewinnst …"
+	cont "du gewinnst…"
 	done
+
 .SeenText:
 	text "Freut mich! Ich"
 	line "stehe dir als"
-
-	para "Luftballon-Nutzer"
-	line "entgegen!"
+	cont "Ballon-Nutzer"
+	cont "entgegen!"
 	done
+
 .BeatenText:
 	text "Du hast mich zu"
-	line "Boden gebracht …"
+	line "Boden gebracht…"
 	done
+
 .AfterText1:
 	text "Ein toller Kampf!"
 	line "Du bist ein"
-
-	para "aufstrebender"
-	line "Trainer!"
+	cont "aufstrebender"
+	cont "Trainer!"
 
 	para "Hier ist ein"
 	line "Beweis unseres"
 	cont "Kampfes."
 
-	para "Ein Luftballon!"
+	para "Ein Ballon!"
 	line "Nimm ihn, mein"
 	cont "starker Freund!"
 	done

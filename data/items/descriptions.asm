@@ -244,6 +244,7 @@ ItemDescriptions:
 	dw HelixFossilDesc
 	dw DomeFossilDesc
 	dw OldAmberDesc
+	dw ShinyCandyDesc
 	dw FlowerMailDesc
 	dw SurfMailDesc
 	dw LiteBlueMailDesc
@@ -1052,8 +1053,9 @@ ArmorSuitDesc:
 	done
 
 AirBalloonDesc:
-	text "Immun geg. Boden,"
-	next "bis es platzt."
+	; Air Balloon — DE kurzname "Ballon"
+	text "Schwebt: immun"
+	next "gg. Boden, platzt."
 	done
 
 AssaultVestDesc:
@@ -1725,3 +1727,9 @@ ExpCandyXLDesc:
 	text "Ein Bonbon, das"
 	next "EP-Punkte gibt."
 	done
+
+ShinyCandyDesc:
+	text "Macht ein #MON"
+	next "shiny. Sehr selten!"
+	done
+

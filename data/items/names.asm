@@ -218,7 +218,7 @@ endc
 
 	li "Evolith"
 	li "Wehrstein"
-	li "Ballonschw"
+	li "Ballon"
 	li "Rote Karte"
 	li "Bindeband"
 	li "Auswechsler"

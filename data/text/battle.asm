@@ -523,10 +523,11 @@ RecoveredUsingText:
 	text "!"
 	prompt
 
+; GSC-nah: Item-Name "Ballon"
 AirBalloonPoppedText:
 	text "Ballon von"
 	line "<TARGET>"
-	cont "platzte!"
+	cont "platzt!"
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
