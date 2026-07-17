@@ -185,35 +185,53 @@ PerformAbilityGFX:
 	ret
 
 GetAbilityNameAndPkmn:
-	; Get ability name
-	ld de, wAbilityName
+; DE slideout lines:
+;   player:  NAME          / hat FÄHIGKEIT
+;   enemy:   Gegn. NAME    / hat FÄHIGKEIT
+; (English was "NAME's" / "Ability")
+
+	; "hat " + ability name → wAbilityName
+	ld hl, wAbilityName
+	ld a, 'h'
+	ld [hli], a
+	ld a, 'a'
+	ld [hli], a
+	ld a, 't'
+	ld [hli], a
+	ld a, ' '
+	ld [hli], a
+	ld d, h
+	ld e, l
 	farcall _BufferAbility
 
-	; Blank existing nickname
+	; Blank mon line buffer
 	ld hl, wAbilityPkmn
-	ld bc, MON_NAME_LENGTH
+	ld bc, 18
 	ld a, '@'
 	rst ByteFill
 
-	; Get user nickname (post-processed with n-grams)
 	ldh a, [hBattleTurn]
 	and a
-	ld de, wBattleMonNickname
-	jr z, .got_pkmn_name
-	ld de, wEnemyMonNickname
-.got_pkmn_name
-	ld hl, wAbilityPkmn
-	rst PlaceString
+	jr z, .player_name
 
-	; Append 's
+	; Enemy: "Gegn. " + nickname
 	ld hl, wAbilityPkmn
-.name_loop
-	ld a, [hli]
-	cp '@'
-	jr nz, .name_loop
-	ld [hld], a
-	ld [hl], '\'s'
+	ld de, .GegnPrefix
+	rst PlaceString
+	ld h, b
+	ld l, c
+	ld de, wEnemyMonNickname
+	rst PlaceString
 	ret
+
+.player_name
+	ld hl, wAbilityPkmn
+	ld de, wBattleMonNickname
+	rst PlaceString
+	ret
+
+.GegnPrefix:
+	db "Gegn. @"
 
 ResetAbilityTilemap:
 ; Sets tilemap data depending on which overlays are active.

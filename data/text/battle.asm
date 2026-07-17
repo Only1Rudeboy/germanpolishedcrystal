@@ -1543,7 +1543,8 @@ TraceActivationText:
 	prompt
 
 BattleText_IntimidateResisted:
-	text "<TARGET>s"
+	; not "<TARGET>s" (EN possessive + overflow with Gegn.)
+	text "<TARGET>"
 	line ""
 	text_ram wStringBuffer1
 
@@ -1605,8 +1606,10 @@ HarvestedItemText:
 	prompt
 
 FirePoweredUpText:
+	; "von Gegn. NAME" overflows 18 — keep mon name on its own line
 	text "Feuer-Attacken"
-	line "von <USER>"
+	line "von"
+	cont "<USER>"
 	cont "sind stärker!"
 	prompt
 
@@ -1632,7 +1635,10 @@ ShudderedText:
 	prompt
 
 ForewarnText:
-	text "<TARGET> hat "
+	; "Gegn. NAME" already uses up to 16 tiles — never put "hat …" on same line.
+	; GSC 2-line box: Gegn. POKEMON / hat FÄHIGKEIT!
+	text "<TARGET>"
+	line "hat "
 	text_ram wStringBuffer1
 	text "!"
 	prompt

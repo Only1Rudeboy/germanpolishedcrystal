@@ -1928,9 +1928,10 @@ wScratchTileMap:: ds TILEMAP_AREA
 wScratchAttrMap:: ds TILEMAP_AREA
 NEXTU
 wAbilityTiles:: ds 22 tiles
-; + 1 to include the "'s"
-wAbilityPkmn:: ds MON_NAME_LENGTH + 1
-wAbilityName:: ds 20
+; DE: "Gegn. " + nick + @  (not English "'s")
+wAbilityPkmn:: ds 18
+; DE: "hat " + ability + @  (longest name 16 → 21 bytes)
+wAbilityName:: ds 24
 wAbilityFlags:: db
 wAbilityDisplaySpeed:: db ; (Characters - 1) per DelayFrame
 NEXTU
