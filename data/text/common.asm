@@ -1085,14 +1085,15 @@ _BugCatchingContestIsOverText::
 
 SECTION "_RepelWoreOffText", ROMX
 _RepelWoreOffText::
-	text "Der Fernhalter hat"
-	line "nachgelassen."
+	; GSC-DE Dump: SCHUTZ wirkt nicht mehr.
+	text "SCHUTZ wirkt"
+	line "nicht mehr."
 	done
 
 SECTION "UseAnotherRepelText", ROMX
 UseAnotherRepelText::
-	text "Der Fernhalter hat"
-	line "nachgelassen."
+	text "SCHUTZ wirkt"
+	line "nicht mehr."
 
 	para "Noch einen nutzen?"
 	done
@@ -4257,7 +4258,7 @@ _ItemCantUseOnMonText::
 SECTION "Text_RepelUsedEarlierIsStillInEffect", ROMX
 Text_RepelUsedEarlierIsStillInEffect::
 	text "Das zuvor benutzte"
-	line "Repel wirkt noch."
+	line "SCHUTZ wirkt noch."
 	prompt
 
 SECTION "_BlueCardBalanceText", ROMX

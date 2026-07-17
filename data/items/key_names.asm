@@ -14,7 +14,7 @@ KeyItemNames::
 	li "GBC-Sounds"
 	li "Blaue Karte"
 	li "Schiggykanne"
-	li "SilphScope2"
+	li "Silph-Scope2"
 	li "Rätsel-Ei"
 	li "Geheimtrank"
 	li "Suchbrille"

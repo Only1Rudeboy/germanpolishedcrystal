@@ -23,7 +23,7 @@ UragaChannelWestEngineerText:
 	line "einem"
 	cont "Metalldetektor"
 	cont "versteckte Items."
-	para "Ein Itemfinder"
+	para "Ein Detektor"
 	line "wäre besser …"
 	done
 

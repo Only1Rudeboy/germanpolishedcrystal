@@ -68,8 +68,8 @@ Route39RuggedRoadGateSwimmerScript:
 	cont "vorbeischwamm."
 
 	para "Und ich habe meine"
-	line "Go-Brille verloren"
-	cont "…"
+	line "Suchbrille"
+	cont "verloren …"
 
 	para "Mann, heute läuft"
 	line "einfach nichts!"
@@ -146,7 +146,7 @@ Route39RuggedRoadGateOfficerCannotPassText:
 	cont "Schneegipfel ist"
 	cont "wirklich hart!"
 
-	para "Ohne Go-Brille"
+	para "Ohne Suchbrille"
 	line "darf ich dich"
 	cont "nicht da"
 	cont "durchlassen."

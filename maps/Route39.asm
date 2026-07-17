@@ -518,7 +518,7 @@ Route39HikerText:
 	cont "angepasst."
 
 	para "Aber ohne"
-	line "Go-Brille zur"
+	line "Suchbrille zur"
 	cont "Sicherheit"
 
 	para "kann ich die"

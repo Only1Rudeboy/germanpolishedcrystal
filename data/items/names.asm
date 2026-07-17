@@ -244,7 +244,7 @@ endc
 	li "Kugelblitz"
 	li "Lauchstange"
 	li "Kampfknochen"
-	li "Lucky Punch"
+	li "Pointerfaust"
 	li "Metallstaub"
 	li "Flottstaub"
 	li "Rüstung"
