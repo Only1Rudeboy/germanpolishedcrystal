@@ -249,8 +249,8 @@ DayCareLyraForgotText:
 	done
 
 GotLyrasNumberText:
-	; PC-only (class C)
-	text "Du speicherst"
+	; PC-only (class C) — GSC-Formel wie RegisteredNumber*
+	text "<PLAYER> speichert"
 	line "LYRAs Nummer."
 	done
 

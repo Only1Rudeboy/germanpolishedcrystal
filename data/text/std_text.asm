@@ -416,20 +416,20 @@ HappinessText1:
 	line "nett, schmollt es."
 	done
 
+; GSC-DE: "<PLAYER> speichert" / "NAMEs Nummer."
 RegisteredNumber1Text:
-	text "<PLAYER> trug"
-	line "die Nummer von"
-	cont ""
+	text "<PLAYER> speichert"
+	line ""
 	text_ram wStringBuffer3
-	text " ein."
+	text "s Nummer."
 	done
 
+; GSC-DE: gleiche Formel (m/f)
 RegisteredNumber2Text:
-	text "<PLAYER> trug"
-	line "die Nummer von"
-	cont ""
+	text "<PLAYER> speichert"
+	line ""
 	text_ram wStringBuffer3
-	text " ein."
+	text "s Nummer."
 	done
 
 VendingMachineText:
