@@ -4181,10 +4181,16 @@ _MonSentToPCText::
 
 SECTION "_NewDexDataText", ROMX
 _NewDexDataText::
+	; GSC-DE: kein EN-Possessiv „NAMEs …“ (überläuft 18 Zeichen)
+	;  Die Daten von
+	;  KNOFENSA
+	;  wurden neu dem
+	;  #DEX ergänzt.
+	text "Die Daten von"
+	line ""
 	text_ram wEnemyMonNickname
-	text "s Daten wurden neu"
-	line "zum #dex"
-	cont "ergänzt."
+	cont "wurden neu dem"
+	cont "#DEX ergänzt."
 	text_sound SFX_SLOT_MACHINE_START
 	text_promptbutton
 	text_end
