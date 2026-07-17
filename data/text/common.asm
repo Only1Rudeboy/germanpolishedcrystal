@@ -1156,62 +1156,68 @@ _NPCTradeFanfareText::
 
 SECTION "_NPCTradeIntroText1", ROMX
 _NPCTradeIntroText1::
-	text "Ich sammle #MON"
-	line "Hast du"
+	; GSC: Ich sammle #- / MON. Hast du ein / [want]?
+	;      Möchtest du es / gegen mein / [give] / tauschen?
+	text "Ich sammle #-"
+	line "MON. Hast du ein"
 	cont ""
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Willst du gegen"
-	line "mein "
+	para "Möchtest du es"
+	line "gegen mein"
+
+	para ""
 	text_ram wStringBuffer2
-	text " tauschen?"
+	line "tauschen?"
 	done
 
 SECTION "_NPCTradeCancelText1", ROMX
 _NPCTradeCancelText1::
-	text "Du willst nicht"
+	text "Du möchtest nicht"
 	line "tauschen? Schade…"
 	done
 
 SECTION "_NPCTradeWrongText1", ROMX
 _NPCTradeWrongText1::
-	text "Huch? Das ist kein"
+	text "Häh? Das ist kein"
 	line ""
 	text_ram wStringBuffer1
-	text ". Wie"
-	cont "enttäuschend…"
+	text "."
+	cont "Wie enttäuschend…"
 	done
 
 SECTION "_NPCTradeCompleteText1", ROMX
 _NPCTradeCompleteText1::
-	text "Juhu! Hab jetzt"
+	text "Yo! Ich habe mir"
 	line ""
 	text_ram wStringBuffer1
-	text "! Danke!"
+	cont "besorgt! Danke!"
 	done
 
 SECTION "_NPCTradeAfterText1", ROMX
 _NPCTradeAfterText1::
-	text "Hi, wie geht's"
-	line "meinem alten"
-	cont ""
+	text "Hi, wie geht es"
+	line "meinem "
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 SECTION "_NPCTradeIntroText2", ROMX
 _NPCTradeIntroText2::
+	; GSC: Hi, ich suche / ein #MON. / Wenn du ein / [want] hast,
+	;      tauschst du es / gegen mein / [give]?
 	text "Hi, ich suche"
-	line "dieses #MON."
+	line "ein #MON."
 
-	para "Wenn du"
+	para "Wenn du ein"
 	line ""
 	text_ram wStringBuffer1
 	text " hast,"
 
-	para "tauschst du dann"
-	line "gegen "
+	para "tauschst du es"
+	line "gegen mein"
+	cont ""
 	text_ram wStringBuffer2
 	text "?"
 	done
@@ -1219,10 +1225,10 @@ _NPCTradeIntroText2::
 SECTION "_NPCTradeCancelText2", ROMX
 _NPCTradeCancelText2::
 	text "Du hast auch"
-	line "keins?"
+	line "keines?"
 
-	para "Menno, das ist"
-	line "echt enttäuschend…"
+	para "Das ist wirklich"
+	line "enttäuschend…"
 	done
 
 SECTION "_NPCTradeWrongText2", ROMX
@@ -1230,49 +1236,56 @@ _NPCTradeWrongText2::
 	text "Du hast kein"
 	line ""
 	text_ram wStringBuffer1
-	text "? Dann ist das"
-	cont "eben so."
+	text "? Das"
+	cont "ist schade, na ja."
 	done
 
 SECTION "_NPCTradeCompleteText2", ROMX
 _NPCTradeCompleteText2::
-	text "Super! Danke dir!"
+	text "Großartig! Danke!"
 
-	para "Endlich hab ich"
-	line ""
+	para "Endlich habe ich"
+	line "ein "
 	text_ram wStringBuffer1
 	text "."
 	done
 
 SECTION "_NPCTradeAfterText2", ROMX
 _NPCTradeAfterText2::
-	text "Hallo! "
+	text "Dem "
 	text_ram wMonOrItemNameBuffer
-	line "vom Tausch geht"
-	cont "es super!"
+	text ","
+	line "das du mit mir"
+	cont "getauscht hast,"
+	cont "geht es gut!"
 	done
 
 SECTION "_NPCTradeIntroText3", ROMX
 _NPCTradeIntroText3::
+	; GSC: [nick] ist / niedlich, aber ich / habe keines. Hast
+	;      du ein [want]? / Möchtest du es / gegen mein /
+	;      [give] / tauschen?
 	text_ram wMonOrItemNameBuffer
-	line "ist süß, aber ich"
-	cont "habe keins."
+	text " ist"
+	line "niedlich, aber ich"
 
-	para "Hast du"
-	line ""
+	para "habe keines. Hast"
+	line "du ein "
 	text_ram wStringBuffer1
 	text "?"
 
-	para "Willst du gegen"
-	line "mein "
+	para "Möchtest du es"
+	line "gegen mein"
+
+	para ""
 	text_ram wStringBuffer2
-	text " tauschen?"
+	line "tauschen?"
 	done
 
 SECTION "_NPCTradeCancelText3", ROMX
 _NPCTradeCancelText3::
-	text "Du willst nicht"
-	line "tauschen? Ach je…"
+	text "Du möchtest nicht"
+	line "tauschen? Schade…"
 	done
 
 SECTION "_NPCTradeWrongText3", ROMX
@@ -1282,14 +1295,15 @@ _NPCTradeWrongText3::
 	text_ram wStringBuffer1
 	text "."
 
-	para "Tausch mit mir,"
-	line "wenn du eins hast."
+	para "Komm wieder, wenn"
+	line "du tauschen"
+	cont "möchtest."
 	done
 
 SECTION "_NPCTradeCompleteText3", ROMX
 _NPCTradeCompleteText3::
-	text "Toll! Danke dir!"
-	line "Ich wollte immer"
+	text "Danke! Ich wollte"
+	line "immer schon ein"
 	cont ""
 	text_ram wMonOrItemNameBuffer
 	text "!"
@@ -1297,24 +1311,25 @@ _NPCTradeCompleteText3::
 
 SECTION "_NPCTradeAfterText3", ROMX
 _NPCTradeAfterText3::
-	text "Wie geht's dem"
-	line ""
+	text "Wie geht es dem"
+	line "getauschten"
+	cont ""
 	text_ram wStringBuffer2
-	text ", das ich dir gab?"
+	text "?"
 
 	para "Dein "
 	text_ram wMonOrItemNameBuffer
-	line "ist so süß!"
+	line "ist so niedlich!"
 	done
 
 SECTION "_NPCTradeCompleteText4", ROMX
 _NPCTradeCompleteText4::
-	text "Hä? Was ist los?"
+	text "Was ist passiert?"
 	done
 
 SECTION "_NPCTradeAfterText4", ROMX
 _NPCTradeAfterText4::
-	text "Tauschen ist so"
+	text "Tauschen ist"
 	line "seltsam…"
 
 	para "Ich muss noch viel"
