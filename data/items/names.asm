@@ -33,7 +33,7 @@ ItemNames::
 	li "Finsterball"
 	li "Traumball"
 
-	li "Bonusball"
+	li "Premierball" ; EN Premier Ball / DE-offiziell (nicht „Bonusball“)
 	li "Erinnerball"
 
 	li "Trank"
@@ -312,6 +312,7 @@ endc
 	li "Helixfossil"
 	li "Domfossil"
 	li "Bernstein"
+	li "Glitzerbonbon"
 
 	li "Blumenbrief"
 	li "Surferbrief"
