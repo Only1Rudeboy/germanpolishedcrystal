@@ -656,9 +656,12 @@ Script_itemnotify:
 Script_pocketisfull:
 	call GetPocketName
 	call GetCurItemName
+	; Same as itemnotify: icon may have overwritten font tiles.
+	farcall LoadFonts_NoOAMUpdate
 	ld b, BANK(_PocketIsFullText)
 	ld hl, _PocketIsFullText
-	jmp MapTextbox
+	call MapTextbox
+	farjp LoadFonts_NoOAMUpdate
 
 Script_specialsound:
 	ld de, SFX_ITEM

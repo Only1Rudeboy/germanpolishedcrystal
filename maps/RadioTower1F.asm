@@ -120,6 +120,8 @@ RadioTower1FLuckyNumberManScript:
 .Finish:
 	waitsfx
 	promptbutton
+	; Icon already drawn; reload fonts before either pocket-full or itemnotify text.
+	callasm LoadFonts_NoOAMUpdate
 	iffalse_jumpopenedtext RadioTower1FLuckyNumberManNoRoomForYourPrizeText
 	itemnotify
 	setflag ENGINE_LUCKY_NUMBER_SHOW

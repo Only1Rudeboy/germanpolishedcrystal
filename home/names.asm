@@ -173,6 +173,12 @@ GetName:
 	call GetNthString
 	ld bc, ITEM_NAME_LENGTH
 	rst CopyBytes
+	; Always force a terminator. Names of length ITEM_NAME_LENGTH (e.g.
+	; "Glitzerbonbon", "Rote Aprikoko") fill all 13 bytes with no '@'.
+	; PlaceString / Pluralize then walk forever → hang or rst 38h.
+	dec de
+	ld a, '@'
+	ld [de], a
 	pop af
 	rst Bankswitch
 	jmp PopBCDEHL

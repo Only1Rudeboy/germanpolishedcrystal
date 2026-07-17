@@ -105,6 +105,8 @@ PickApricornScript:
 .continue
 	callasm PickedFruitTree
 	specialsound
+	; Icon overwrites font tiles (berry path uses itemnotify which reloads).
+	callasm LoadFonts_NoOAMUpdate
 	jumpthisopenedtext
 
 	text_farend _PutAwayTheApricornText

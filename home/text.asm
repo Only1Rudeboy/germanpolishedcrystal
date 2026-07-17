@@ -502,8 +502,13 @@ TextCommand_PLURAL:
 	ld a, h
 	sbc HIGH(PluralTableEnd)
 	jr nc, .restore
-	pop bc
+	; Stack is [hl_orig][bc_string_end][af_bank]. Must restore the
+	; string-end pointer under the bank — not pop the bank into bc
+	; (that broke multi-entry DE plurals after the bankswitch was added).
+	pop de ; de = saved af (d = bank)
+	pop bc ; bc = original string terminator
 	push bc
+	push de
 	jr .check_match_loop
 
 TextScroll::
