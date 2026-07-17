@@ -59,11 +59,11 @@ MahoganyGymPryceScript:
 	promptbutton
 	verbosegivetmhm TM_AVALANCHE
 	setevent EVENT_GOT_TM67_AVALANCHE
-	; PC: Avalanche (Dump: EISSTURM)
+	; PC: Avalanche → Lawine (offiziell DE)
 	jumpthisopenedtext
 
 	text "Diese TM enthält"
-	line "Avalanche."
+	line "Lawine."
 	para "Sie richtet mehr"
 	line "Schaden an, wenn"
 	para "der Anwender"

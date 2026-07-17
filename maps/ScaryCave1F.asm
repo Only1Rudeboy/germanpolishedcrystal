@@ -161,13 +161,12 @@ ScaryCave1FPharmacistScript:
 	line "zuerst treffen!"
 
 	para "Verpasse ihnen"
-	line "einen Sucker"
-	cont "Punch!"
+	line "einen Tiefschlag!"
 	done
 
 .QuestionText:
 	text "Ich bringe dir"
-	line "Sucker Punch bei,"
+	line "Tiefschlag bei,"
 
 	para "aber ich will ein"
 	line "Silberblatt."
@@ -186,7 +185,7 @@ ScaryCave1FPharmacistScript:
 	jumpthisopenedtext
 
 	text "Jetzt kannst du"
-	line "Sucker Punch"
+	line "Tiefschlag"
 	cont "nutzen!"
 
 	para "Greift ein Gegner"

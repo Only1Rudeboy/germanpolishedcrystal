@@ -100,8 +100,8 @@ Route1617Gate2FPsychicText:
 Text_Route1617Gate2FTutorTrickRoom:
 	text "Ich kann deinem"
 	line "#MON die"
-	cont "Attacke Trick Room"
-	cont "beibringen."
+	cont "Attacke Bizarro-"
+	cont "raum beibringen."
 	para "Damit können"
 	line "langsamere #MON"
 	para "für eine Weile"

@@ -56,16 +56,17 @@ WarmBeachShackBodySlamFisherText:
 
 	para "zuerst aufgibt."
 
-	para "Ich nutze Body"
-	line "Slam, und er hält"
-	cont "mit Endure durch!"
+	para "Ich nutze Body-"
+	line "slam, und er hält"
+	cont "mit Ausdauer"
+	cont "durch!"
 	done
 
 Text_WarmBeachShackBodySlamTutorBodySlamQuestion:
 	text "Soll ich einem"
 	line "deiner #MON"
 
-	para "Body Slam für ein"
+	para "Bodyslam für ein"
 	line "Silberblatt"
 	cont "beibringen?"
 	done
@@ -111,17 +112,17 @@ WarmBeachShackEndureFisherText:
 
 	para "zuerst aufgibt."
 
-	para "Er nutzt Body"
-	line "Slam, und ich"
-	cont "halte mit Endure"
-	cont "durch!"
+	para "Er nutzt Body-"
+	line "slam, und ich"
+	cont "halte mit Aus-"
+	cont "dauer durch!"
 	done
 
 Text_WarmBeachShackEndureTutorEndureQuestion:
 	text "Soll ich einem"
 	line "deiner #MON"
 
-	para "Endure für ein"
+	para "Ausdauer für ein"
 	line "Silberblatt"
 	cont "beibringen?"
 	done

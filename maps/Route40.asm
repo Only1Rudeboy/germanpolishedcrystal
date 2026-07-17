@@ -167,7 +167,7 @@ Route40FisherScript:
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Knock Off schlägt"
+	text "Abschlag schlägt"
 	line "ein getragenes"
 	cont "Item weg,"
 	para "sodass es im Kampf"
