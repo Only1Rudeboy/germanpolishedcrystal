@@ -369,7 +369,7 @@ RuinsofAlphResearchCenterScientistRewardText:
 	done
 
 RuinsofAlphResearchCenterScientistInterruptedText:
-	text "Du kannst--"
+	text "Du kannst…"
 	done
 
 RuinsofAlphResearchCenterScientistShockedText:

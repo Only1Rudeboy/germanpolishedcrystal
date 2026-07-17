@@ -95,7 +95,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	line "Musikstar,"
 	cont "IMAKUNI!"
 	para "Ich sing den"
-	line "#-Rap--"
+	line "#-Rap…"
 	cont "du tanzt!"
 	para "♪ La di da di da,"
 	line "La di da di da… ♪"

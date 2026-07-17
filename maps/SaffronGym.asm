@@ -330,7 +330,7 @@ HexManiacNatalieSeenText:
 
 HexManiacNatalieBeatenText:
 	; PC-only
-	text "Mwaha--cough!"
+	text "Mwaha…cough!"
 	done
 
 PsychicFranklinSeenText:

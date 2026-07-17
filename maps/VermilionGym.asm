@@ -158,7 +158,7 @@ VermilionGymGuyScript:
 	line "PKMN-ARENA Fallen"
 	cont "aufgestellt."
 
-	para "Aber, -- hihi --"
+	para "Aber, … hihi …"
 	line "die Fallen funk-"
 	cont "tionieren nicht."
 

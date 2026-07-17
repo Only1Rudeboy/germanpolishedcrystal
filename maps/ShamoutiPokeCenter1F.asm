@@ -113,7 +113,7 @@ ShamoutiPokeCenter1FIvyScript:
 
 .NoRoomText:
 	text "Schade, es gibt"
-	line "keinen Platz--"
+	line "keinen Platz…"
 	cont "weder in deinem"
 	cont "Team noch in der"
 	cont "BOX…"

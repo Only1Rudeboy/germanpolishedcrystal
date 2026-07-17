@@ -64,7 +64,7 @@ OreManiacScript:
 	done
 
 .OfferText:
-	text "Dieses Erz--es"
+	text "Dieses Erz…es"
 	line "erschüttert mich!"
 
 	para "Verkaufst du es"

@@ -397,7 +397,7 @@ CinnabarLabContinueTestingText:
 	para "Eure Schöpfung hat"
 	line "sich bisher sehr"
 	cont "gut bewährt, Dr."
-	cont "Fu--"
+	cont "Fu…"
 	done
 
 CinnabarLabGiovanniWhoAreYouText:

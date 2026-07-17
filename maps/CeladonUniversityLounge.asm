@@ -226,7 +226,7 @@ CeladonUniversityLoungeBookshelf2:
 	done
 
 .Text2:
-	text "Schade--es ist"
+	text "Schade…es ist"
 	line "leer."
 	done
 

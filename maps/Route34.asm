@@ -495,7 +495,7 @@ Route34RichBoyIrvingScript:
 	cont "besiegten!"
 	para "Du willst gegen"
 	line "sie kämpfen? Na"
-	cont "gut--"
+	cont "gut…"
 	para "besiege zuerst"
 	line "alle anderen hier!"
 	para "Selbst die"

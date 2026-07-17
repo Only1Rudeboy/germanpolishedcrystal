@@ -96,7 +96,7 @@ GenericTrainerFisherDallas:
 	done
 
 .BeatenText:
-	text "Hm? Oh, nicht du--"
+	text "Hm? Oh, nicht du…"
 	line "mit dir ist alles"
 	cont "in Ordnung."
 	done

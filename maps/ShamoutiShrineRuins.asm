@@ -129,7 +129,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	line "die drei geflü-"
 	cont "gelten Trugbilder"
 
-	para "gemeistert hast--"
+	para "gemeistert hast…"
 	line "die Vögel aus"
 
 	para "Feuer, Eis und"

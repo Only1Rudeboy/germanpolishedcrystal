@@ -253,7 +253,7 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	para "Du hast den"
 	line "Hyper-Test mit"
 	cont "Bravour bestanden!"
-	para "Hier dein Preis--"
+	para "Hier dein Preis…"
 	line "ein speziell ge-"
 	cont "züchteter Karpador"
 	cont "mit Drachenwut!"

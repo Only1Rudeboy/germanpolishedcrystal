@@ -110,7 +110,7 @@ GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
 	text "Deine"
-	line "#MON--folgst du"
+	line "#MON…folgst du"
 	cont "dem"
 	para "neuesten"
 	line "Team-Trend?"

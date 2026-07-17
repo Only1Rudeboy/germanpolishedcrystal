@@ -81,7 +81,7 @@ CamperAmosSeenText:
 	done
 
 CamperAmosBeatenText:
-	text "Ich verlor--ich"
+	text "Ich verlor…ich"
 	line "muss sie"
 	cont "trainieren!"
 	done

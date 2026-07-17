@@ -115,13 +115,13 @@ endc
 	line "<PLAYER>."
 
 	para "Du hast mich schon"
-	line "besiegt--dieser"
+	line "besiegt…dieser"
 
 	para "Kampf wird wohl"
 	line "keinen großen"
 	cont "Eindruck machen."
 
-	para "Trotzdem--sollen"
+	para "Trotzdem…sollen"
 	line "wir?"
 	done
 

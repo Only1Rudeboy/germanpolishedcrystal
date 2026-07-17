@@ -118,7 +118,7 @@ ShamoutiHotel1FLadyText:
 	cont "altraining stärkt"
 
 	para "und so sein volles"
-	line "Potenzial weckt--"
+	line "Potenzial weckt…"
 	cont "nur für einen"
 	cont "Kronkorken."
 	done

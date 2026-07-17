@@ -89,7 +89,7 @@ PewterCityPokefanMScript:
 .Text1:
 	; PC-only (C)
 	text "MARMORIAS"
-	line "Spezialität--"
+	line "Spezialität…"
 	cont "MARMORIA-Knusper!"
 	para "Ich verkaufe dir"
 	line "eine Packung für"

@@ -140,7 +140,7 @@ Route40FisherScript:
 	line "noch was?"
 	para "… Na gut, kann ich"
 	line "halt nicht"
-	cont "angeln--ich bring"
+	cont "angeln…ich bring"
 	cont "halt bei."
 	done
 

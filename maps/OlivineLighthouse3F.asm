@@ -79,7 +79,7 @@ OlivineLighthouse3FBattleGirlEmy:
 	line "VIER ist ein"
 	cont "Kämpfer wie ich."
 	para "So stark wie er"
-	line "werden--mein Ziel!"
+	line "werden…mein Ziel!"
 	done
 
 .IntroText:
@@ -88,7 +88,7 @@ OlivineLighthouse3FBattleGirlEmy:
 	cont "täglich hart."
 
 	para "An dir ist etwas"
-	line "Besonderes--"
+	line "Besonderes…"
 
 	para "Kannst du alle"
 	line "Trainer in diesem"

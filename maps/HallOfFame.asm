@@ -131,7 +131,7 @@ HallOfFameEnterScene:
 	line "wurden wir Zeuge"
 	para "des Aufstiegs ei-"
 	line "nes neuen LIGA-"
-	cont "CHAMPS -- eines"
+	cont "CHAMPS … eines"
 	cont "Trainers, der"
 	para "Leidenschaft für"
 	line "und Vertrauen in"

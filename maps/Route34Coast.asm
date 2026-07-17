@@ -32,7 +32,7 @@ GenericTrainerSwimmermFrank:
 .SeenText:
 	text "Ich mache Urlaub"
 	line "mit meiner Frau,"
-	cont "aber O.K.-- ich"
+	cont "aber O.K.… ich"
 	cont "kämpfe mit dir."
 	done
 

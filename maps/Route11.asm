@@ -94,7 +94,7 @@ GenericTrainerYoungsterAlfie:
 
 .SeenText:
 	text "Drei, zwei,"
-	line "eins--LOS!"
+	line "eins…LOS!"
 	done
 
 .BeatenText:

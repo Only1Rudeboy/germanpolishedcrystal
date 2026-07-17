@@ -41,7 +41,7 @@ CianwoodHouseBlackBeltText1:
 	cont "rausgeworfen!"
 	para "Ich kann sie dort"
 	line "nicht mehr"
-	cont "tragen--"
+	cont "tragen…"
 	para "du kannst sie"
 	line "haben."
 	done

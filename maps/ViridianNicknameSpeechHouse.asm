@@ -33,9 +33,9 @@ ViridianNicknameSpeechHousePokefanMText:
 
 ViridianNicknameSpeechHouseLassText:
 	; GSC-DE Dump 3601
-	text "Das sind HABBI--"
-	line "ein HABITAK--und"
-	cont "FRATZI--ein"
+	text "Das sind HABBI…"
+	line "ein HABITAK…und"
+	cont "FRATZI…ein"
 	cont "RATTFRATZ."
 	done
 

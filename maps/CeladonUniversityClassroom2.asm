@@ -45,7 +45,7 @@ CeladonUniversityClassroom2TeacherText:
 CeladonUniversityClassroom2YoungsterText:
 	text "Ich blätter durch"
 	line "meine Notizen so"
-	cont "schnell--AU!"
+	cont "schnell…AU!"
 	cont "Papierschnitt…"
 	done
 
@@ -83,7 +83,7 @@ CeladonUniversityClassroom2CooltrainermScript:
 
 .Text2:
 	text "Ähem."
-	para "Entschuldige--du"
+	para "Entschuldige…du"
 	line "hast mich"
 	cont "erschreckt."
 	para "Ich war bis spät"

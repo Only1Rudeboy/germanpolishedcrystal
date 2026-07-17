@@ -162,7 +162,7 @@ RocketHideoutB4FMeetLeadersScript:
 
 .SparkIntro2Text:
 	text "SPARK: Stimmt! Der"
-	line "große Kirschbaum--"
+	line "große Kirschbaum…"
 	done
 
 .SparkIntro3Text:
@@ -437,7 +437,7 @@ RocketHideoutB4FYoungsterArdenScript:
 .GreetingText
 	text "Team Valor ist…"
 
-	para "Moment--nein!"
+	para "Moment…nein!"
 
 	para "Ich meine, ich"
 	line "glaube, ich bin"

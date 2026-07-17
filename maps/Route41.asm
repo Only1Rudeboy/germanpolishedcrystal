@@ -383,7 +383,7 @@ SwimmermLewisSeenText:
 	done
 
 SwimmermLewisBeatenText:
-	text "Besiegt--in meiner"
+	text "Besiegt…in meiner"
 	line "Heimat?"
 	done
 

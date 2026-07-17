@@ -301,7 +301,7 @@ CeladonCityMansionSignText:
 CeladonCityGameCornerSignText:
 	; GSC-DE Dump
 	text "Der Spielplatz"
-	line "Für Jedermann --"
+	line "Für Jedermann …"
 	para "SPIELHALLE von"
 	line "PRISMANIA"
 	done
