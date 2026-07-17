@@ -4126,35 +4126,40 @@ _BuenaComeAgainText::
 
 SECTION "_BallBrokeFreeText", ROMX
 _BallBrokeFreeText::
-	text "Oh nein! Das"
-	line "#MON riss sich"
-	cont "los!"
+	; GSC-DE Dump: "Mist! Das #MON / hat sich befreit!"
+	text "Mist! Das #MON"
+	line "hat sich befreit!"
 	prompt
 
 SECTION "_BallAppearedCaughtText", ROMX
 _BallAppearedCaughtText::
-	text "Ohh! Es sah aus,"
-	line "als wär's"
-	cont "gefangen!"
+	; GSC-DE Dump: "Fast hätte es / geklappt!"
+	text "Fast hätte es"
+	line "geklappt!"
 	prompt
 
 SECTION "_BallAlmostHadItText", ROMX
 _BallAlmostHadItText::
-	text "Aargh! So knapp!"
+	; GSC-DE Dump: "Mist! / Das war knapp!"
+	text "Mist!"
+	line "Das war knapp!"
 	prompt
 
 SECTION "_BallSoCloseText", ROMX
 _BallSoCloseText::
-	text "Mist! War auch so"
-	line "knapp dran!"
+	; GSC-DE Dump: "Verflixt! Es / hätte beinahe / geklappt!"
+	text "Verflixt! Es"
+	line "hätte beinahe"
+	cont "geklappt!"
 	prompt
 
 SECTION "Text_BallCaught", ROMX
 Text_BallCaught::
-	text "Fang geglückt!"
-	line ""
+	; GSC-DE Dump: "Toll! NAME / wurde gefangen!"
+	; (nicht Fan-„Fang geglückt!“)
+	text "Toll! "
 	text_ram wEnemyMonNickname
-	cont "wurde gefangen!"
+	line "wurde gefangen!"
 	text_sound SFX_CAUGHT_MON
 	text_end
 
