@@ -710,6 +710,22 @@ CalcPkmnStatC:
 	bit PERFECT_IVS_OPT, a
 	ld a, $f
 	jr nz, .GotDV
+	; Arbeitskopie: shiny OR legendary → max DV for stats
+	push hl
+	push bc
+	ld bc, MON_SHINY - MON_DVS
+	add hl, bc
+	ld a, [hl]
+	and SHINY_MASK
+	pop bc
+	pop hl
+	jr nz, .force_max_dv
+	call CheckCurSpeciesLegendary
+	jr nc, .not_forced_max_dv
+.force_max_dv
+	ld a, $f
+	jr .GotDV
+.not_forced_max_dv
 	ld a, d
 	push bc
 .hyper_training_loop
@@ -878,7 +894,77 @@ CalcPkmnStatC:
 	ldh [hMultiplicand + 1], a
 	ldh a, [hQuotient + 2]
 	ldh [hMultiplicand + 2], a
+	; Arbeitskopie: legendaries stronger than shinies;
+	; shiny legendaries strongest (extra boost).
+	call CheckCurSpeciesLegendary
+	jr nc, .no_legendary_boost
+	xor a
+	ldh [hMultiplicand + 0], a
+	push hl
+	push bc
+	ld bc, MON_SHINY - MON_DVS
+	add hl, bc
+	ld a, [hl]
+	and SHINY_MASK
+	pop bc
+	pop hl
+	ld a, 12 ; legendary shiny: *12/10 = +20%
+	jr nz, .apply_legendary_boost
+	ld a, 11 ; legendary: *11/10 = +10%
+.apply_legendary_boost
+	ldh [hMultiplier], a
+	farcall Multiply
+	ldh a, [hProduct + 1]
+	ldh [hDividend + 0], a
+	ldh a, [hProduct + 2]
+	ldh [hDividend + 1], a
+	ldh a, [hProduct + 3]
+	ldh [hDividend + 2], a
+	ld a, 10
+	ldh [hDivisor], a
+	ld a, 3
+	ld b, a
+	farcall Divide
+	ldh a, [hQuotient + 1]
+	ldh [hMultiplicand + 1], a
+	ldh a, [hQuotient + 2]
+	ldh [hMultiplicand + 2], a
+	; cap again at 999
+	ldh a, [hMultiplicand + 1]
+	cp HIGH(1000)
+	jr c, .no_legendary_boost
+	jr nz, .cap_legendary
+	ldh a, [hMultiplicand + 2]
+	cp LOW(1000)
+	jr c, .no_legendary_boost
+.cap_legendary
+	ld a, HIGH(999)
+	ldh [hMultiplicand + 1], a
+	ld a, LOW(999)
+	ldh [hMultiplicand + 2], a
+.no_legendary_boost
 	jmp PopBCDEHL
+
+CheckCurSpeciesLegendary:
+; Return carry if current mon is in LegendaryMons (incl. Ubers).
+	push hl
+	push bc
+	push de
+	ld a, [wCurSpecies]
+	and a
+	jr nz, .got_species
+	ld a, [wCurPartySpecies]
+.got_species
+	ld c, a
+	ld a, [wCurForm]
+	and SPECIESFORM_MASK
+	ld b, a
+	ld hl, LegendaryMons
+	call GetSpeciesAndFormIndexFromHL
+	pop de
+	pop bc
+	pop hl
+	ret
 
 GetNatureStatMultiplier::
 ; a points to Nature
@@ -1001,15 +1087,17 @@ PlaceStatusString:
 	ret
 
 StatusStrings:
+; GSC-DE party/summary status (exactly 3 tiles each)
+; Dump: SLF/GIF/BRT/GFR/PAR; fainted = K.O (not EN "Fnt")
 	table_width 3
 	rawchar "OK "
-	rawchar "Psn"
-	rawchar "Par"
-	rawchar "Slp"
-	rawchar "Brn"
-	rawchar "Frz"
-	rawchar "Tox"
-	rawchar "Fnt"
+	rawchar "GIF"
+	rawchar "PAR"
+	rawchar "SLF"
+	rawchar "BRT"
+	rawchar "GFR"
+	rawchar "TOX"
+	rawchar "K.O"
 	assert_table_length 8
 
 ListMoves:
