@@ -3,9 +3,10 @@
 
 Tile index = char_code - 0x80 (see constants/charmap.asm).
 
-Target slots (PC DE charmap):
-  $C1 (65) Ü   $C9 (73) ß   $CA (74) ä   $CC (76) ü
-  $CD (77) ö   $CE (78) Ä   $CF (79) Ö
+Target slots (PC DE charmap) — FIXED Ö SLOT:
+  Ö=$c7 (tile $47)  ä=$c9  ö=$ca  ü=$cc
+  ß=$cd  Ä=$ce  Ü=$cf
+  (see tools/_fix_oe_glyph.py if Ö is garbage)
 
 Reference: pret/pokecrystal gfx/font/french_german.png (official DE/FR glyphs).
 """

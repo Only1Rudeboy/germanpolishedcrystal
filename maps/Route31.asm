@@ -382,9 +382,10 @@ Route31MailRecipientScript:
 	cont "kämpfen?"
 	done
 ReceivedSpearowMailText:
+	; GSC-DE: "DUNKELHÖHLE" / "ist ein Pfad"  (Mail-Text)
 	setcharmap no_ngrams
-	db   "DUNKELHÖHLE führt"
-	next "zu anderem Weg@"
+	db   "DUNKELHÖHLE"
+	next "ist ein Pfad@"
 	setcharmap default
 
 Bug_catcherWade1SeenText:
@@ -428,20 +429,27 @@ Text_Route31HandOverMailMon:
 
 
 Text_Route31ReadingMail:
-	text "Mal sehen …"
-	para "… die DUNKELHÖHLE"
+	; GSC-DE Dump
+	text "Mal sehen…"
+
+	para "…die DUNKELHÖHLE"
 	line "führt zu einem"
-	cont "anderen Weg …"
+	cont "anderen Weg…"
+
 	para "Gut zu wissen."
+
 	para "Danke, dass du mir"
 	line "den BRIEF"
 	cont "brachtest."
+
 	para "Mein Freund ist"
 	line "ein netter Mensch,"
 	cont "genau wie du!"
+
 	para "Ich möchte mich"
 	line "bei dir dafür"
 	cont "revanchieren!"
+
 	para "Ich hab's! Ich"
 	line "möchte dir das"
 	cont "hier geben!"
@@ -473,16 +481,19 @@ Text_Route31TutorQuestion:
 
 
 Route31YoungsterText:
+	; GSC-DE: DUNKELHÖHLE (ohne Bindestrich, mit Ö)
 	text "Ich habe ein gutes"
 	line "#MON in der"
-	cont "DUNKEL-HÖHLE"
+	cont "DUNKELHÖHLE"
 	cont "gefunden."
+
 	para "Ich ziehe es groß,"
 	line "um später gegen"
 	cont "FALK anzutreten."
-	para "Er ist der"
-	line "Arenaleiter von"
-	cont "VIOLA CITY."
+
+	para "Er ist der ARENA-"
+	line "LEITER von VIOLA"
+	cont "CITY."
 	done
 
 

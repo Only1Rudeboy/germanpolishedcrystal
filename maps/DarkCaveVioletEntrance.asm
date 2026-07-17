@@ -183,7 +183,7 @@ DarkCaveVioletEntranceFalknerProgressAnywayText:
 	line "jemand?"
 
 	para "Ohne Licht die"
-	line "Dunkelhöhle zu"
+	line "DUNKELHÖHLE zu"
 	cont "erkunden ist"
 	cont "leichtsinnig!"
 
