@@ -328,7 +328,7 @@ ChlorophyllDescription:
 
 IlluminateDescription:
 	text "Mehr Begegnungen"
-	next "mit wilden #MON."
+	next "mit Wild-#MON."
 	done
 
 TraceDescription:
