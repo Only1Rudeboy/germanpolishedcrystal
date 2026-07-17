@@ -92,7 +92,7 @@ OlivineLighthouse3FBattleGirlEmy:
 
 	para "Kannst du alle"
 	line "Trainer in diesem"
-	cont "Leuchtturm"
+	cont "LEUCHTTURM"
 	cont "besiegen?"
 
 	para "Wenn ja, kämpfe"

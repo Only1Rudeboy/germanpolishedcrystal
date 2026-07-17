@@ -525,7 +525,7 @@ ElmPhoneEvoText_Eevee:
 	line "Steineichenwald"
 	cont "und"
 
-	para "Eispfad soll es"
+	para "EISPFAD soll es"
 	line "sie geben. Aber"
 	cont "EVOLI"
 
@@ -548,8 +548,8 @@ ElmPhoneEvoText_MimeJr:
 	para "aufstieg bei"
 	line "Eisfelsen."
 
-	para "Im Eispfad soll"
-	line "einen geben."
+	para "Im EISPFAD soll"
+	line "es einen geben."
 	prompt
 
 ElmPhoneEvoText_Stantler:
