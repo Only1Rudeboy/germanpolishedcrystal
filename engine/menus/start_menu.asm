@@ -178,8 +178,9 @@ StartMenu::
 .SaveString:     db "SICHERN@"
 .OptionString:   db "OPTION@"
 .ExitString:     db "ZURÜCK@"
-.PokegearString: db "<PO><KE>Com@"
-.QuitString:     db "Beenden@"
+; GSC-DE Dump: #COM@ (Startmenü); FERTIG@ (Käferturnier-Ende)
+.PokegearString: db "#COM@"
+.QuitString:     db "FERTIG@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
