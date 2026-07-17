@@ -1171,20 +1171,24 @@ ChoseStarterText:
 
 
 ElmDirectionsText1:
+	; GSC-DE Dump
 	text "MR. #MON lebt"
-	line "etwas nördlich"
+	line "ein wenig nördlich"
+
 	para "von ROSALIA CITY,"
 	line "dem nächsten Ort."
+
 	para "Der Weg führt dich"
-	line "fast direkt"
-	cont "dorthin."
-	para "Du kannst es nicht"
-	line "verfehlen."
+	line "fast direkt dort-"
+	cont "hin, du kannst es"
+	cont "nicht verfehlen."
+
 	para "Aber nur für den"
-	line "Fall … hier ist"
-	cont "meine Nummer."
-	para "Ruf an, wenn es"
-	line "etwas gibt!"
+	line "Fall, dass… hier"
+
+	para "ist meine Nummer."
+	line "Ruf an, wenn es"
+	cont "etwas gibt!"
 	done
 
 
@@ -1336,7 +1340,7 @@ ElmAfterTheftText5:
 	cont "umgehen."
 	para "Du solltest die"
 	line "Herausforderung"
-	para "der #MON-ARENEN"
+	para "der PKMN-ARENEN"
 	line "annehmen."
 	para "Die nächste"
 	line "PKMN-ARENA"

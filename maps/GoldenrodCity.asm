@@ -170,10 +170,10 @@ MoveTutor:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Fire Punch@"
-	db "ThunderPunch@"
-	db "Ice Punch@"
-	db "Cancel@"
+	db "Feuerschlag@"
+	db "Donnerschlag@"
+	db "Eishieb@"
+	db "Abbrechen@"
 
 .TeachMove:
 	writetext GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText

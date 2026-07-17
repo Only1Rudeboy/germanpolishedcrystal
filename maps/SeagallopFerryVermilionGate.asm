@@ -139,9 +139,9 @@ OrangeMysticMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "OrangeTicket@"
-	db "MysticTicket@"
-	db "Cancel@"
+	db "Orange-Karte@"
+	db "Mystik-Karte@"
+	db "Abbrechen@"
 
 MysticOldSeaMapMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -152,9 +152,9 @@ MysticOldSeaMapMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "MysticTicket@"
-	db "Old Sea Map@"
-	db "Cancel@"
+	db "Mystik-Karte@"
+	db "Alte Karte@"
+	db "Abbrechen@"
 
 OrangeOldSeaMapMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -165,9 +165,9 @@ OrangeOldSeaMapMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "OrangeTicket@"
-	db "Old Sea Map@"
-	db "Cancel@"
+	db "Orange-Karte@"
+	db "Alte Karte@"
+	db "Abbrechen@"
 
 ThreeTicketsMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -178,10 +178,10 @@ ThreeTicketsMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "OrangeTicket@"
-	db "MysticTicket@"
-	db "Old Sea Map@"
-	db "Cancel@"
+	db "Orange-Karte@"
+	db "Mystik-Karte@"
+	db "Alte Karte@"
+	db "Abbrechen@"
 
 SeagallopFerryDepartureScript:
 	writetext SeagallopFerryDepartureText
@@ -242,7 +242,7 @@ SeagallopFerryGiveOrangeTicketText:
 
 
 SeagallopFerryOrangeTicketQuestionText:
-	text "Das OrangeTicket"
+	text "Die Orange-Karte"
 	line "ist für die Fahrt"
 	cont "zur"
 	cont "Shamouti-Insel."
@@ -253,17 +253,18 @@ SeagallopFerryOrangeTicketQuestionText:
 	done
 
 SeagallopFerryMysticTicketQuestionText:
-	text "Ach! Das ist ein"
-	line "MysticTicket! Das"
-	cont "ist selten."
+	text "Ach! Das ist eine"
+	line "Mystik-Karte!"
+	cont "Die ist selten."
 	para "Wir bringen dich"
 	line "jederzeit gern zum"
-	cont "Navel Rock."
+	cont "Nabelfelsen."
 	done
 
 SeagallopFerryOldSeaMapQuestionText:
-	text "Ach! Diese Old Sea"
-	line "Map, die du hast …"
+	text "Ach! Diese Alte"
+	line "Karte, die du"
+	cont "hast…"
 	para "Sie zeigt eine"
 	line "ferne Insel."
 	para "Wir bringen dich"

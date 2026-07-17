@@ -300,7 +300,7 @@ Route22PastGiovanniRivalArgumentText:
 	para "Aber eines Tages"
 	line "wirst du die"
 	para "Wiederkehr von mir"
-	line "und Team Rocket"
+	line "und TEAM ROCKET"
 	cont "erleben!"
 	done
 

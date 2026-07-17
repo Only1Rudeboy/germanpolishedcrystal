@@ -56,8 +56,8 @@ AzaleaPokeCenter1FCooltrainermScript:
 	done
 
 .NiteText:
-	text "KURT und Prof."
-	line "Eich sind alte"
+	text "KURT und PROF."
+	line "EICH sind alte"
 
 	para "Freunde."
 
@@ -66,8 +66,8 @@ AzaleaPokeCenter1FCooltrainermScript:
 
 	para "AGATHA, einem"
 	line "ehemaligen"
-	cont "Mitglied der Top"
-	cont "Vier."
+	cont "Mitglied der TOP"
+	cont "VIER."
 	done
 
 AzaleaPokeCenter1FGentlemanText:

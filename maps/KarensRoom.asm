@@ -142,7 +142,7 @@ KarenScript:
 	text "Ich werde nicht"
 	line "von meinem Weg"
 	cont "abweichen."
-	para "DRAGORAN freut"
+	para "Der CHAMP freut"
 	line "sich schon auf ein"
 	cont "Wiedersehen mit"
 	cont "dir."

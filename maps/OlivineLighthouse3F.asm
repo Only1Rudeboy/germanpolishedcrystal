@@ -104,7 +104,7 @@ OlivineLighthouse3FBattleGirlEmy:
 	line "ganzen Turm"
 	cont "gemeistert?"
 	para "Dann bleibt nur"
-	line "noch einer--Chucks"
+	line "noch HARTWIGs"
 	cont "Schülerin: ich!"
 	para "Bereit zum Kampf?"
 	done

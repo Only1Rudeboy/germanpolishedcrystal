@@ -149,8 +149,8 @@ BillPhoneSecondBadgeText:
 	line "bin's, BILL!"
 
 	para "Ich rufe an, um"
-	line "euch vor Wonder"
-	cont "Trading zu"
+	line "euch vor dem"
+	cont "Wunder-Tausch zu"
 	cont "warnen."
 
 	para "Die Maschine war"
@@ -167,8 +167,8 @@ BillPhoneSecondBadgeText:
 	cont "bist,"
 
 	para "sei vorsichtig"
-	line "mit Wonder"
-	cont "Trading."
+	line "mit dem Wunder-"
+	cont "Tausch."
 
 	para "Du könntest ein"
 	line "seltsames #MON"

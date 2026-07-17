@@ -158,8 +158,8 @@ SnowtopMountainInsideTutorIcyWindScript:
 	jumpthisopenedtext
 
 	text "O.K.! Dein #MON"
-	line "kennt jetzt Icy"
-	cont "Wind!"
+	line "kennt jetzt"
+	cont "Eissturm!"
 	done
 
 SnowtopMountainInsideSkierText:
@@ -177,7 +177,7 @@ SnowtopMountainInsideSkierText:
 Text_SnowtopMountainInsideTutorIcyWind:
 	text "Ich bringe einem"
 	line "deiner #MON"
-	para "Icy Wind bei, wenn"
+	para "Eissturm bei, wenn"
 	line "du mir ein"
 	para "Silberblatt gibst."
 	done
@@ -185,7 +185,8 @@ Text_SnowtopMountainInsideTutorIcyWind:
 
 Text_SnowtopMountainInsideTutorQuestion:
 	text "Soll ich deinem"
-	line "#MON Icy Wind"
+	line "#MON"
+	cont "Eissturm"
 	cont "beibringen?"
 	done
 

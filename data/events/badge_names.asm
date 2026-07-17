@@ -7,7 +7,7 @@ BadgeNames:
 	li "Phantom"
 	li "Stahl"
 	li "Faust"
-	li "Gletscher"
+	li "Eis"
 	li "Drache"
 	; Kanto
 	li "Fels"

@@ -190,7 +190,7 @@ GiovannisCaveGiovanniMemoriesText:
 
 	para "Ich bin auf dem"
 	line "Weg nach DUKATIA"
-	cont "City,"
+	cont "CITY,"
 
 	para "um dem Ruf zu"
 	line "folgen und mein"
@@ -211,7 +211,7 @@ GiovannisCaveLyraQuestionsText:
 
 GiovannisCaveLyraRecognizesGiovanniText:
 	text "Das ist der, den"
-	line "Team Rocket"
+	line "TEAM ROCKET"
 	para "erreichen wollte!"
 	para "Ihr Boss,"
 	line "GIOVANNI!"
@@ -222,7 +222,7 @@ GiovannisCaveLyraRecognizesGiovanniText:
 
 GiovannisCaveBroadcastText:
 	text "' … … Ähem, wir"
-	line "sind Team Rocket!"
+	line "sind TEAM ROCKET!"
 	cont "Nach drei Jahren"
 	cont "Vorbereitung sind"
 	cont "wir aus der Asche"
@@ -232,7 +232,7 @@ GiovannisCaveBroadcastText:
 	cont "geschafft! Wo ist"
 	cont "unser Boss? Hört"
 	cont "er zu?'"
-	para "LYRA: Team Rocket"
+	para "LYRA: TEAM ROCKET"
 	line "hat gerade den"
 	para "Funkturm besetzt …"
 	para "Du bist dort, aber"
@@ -247,7 +247,7 @@ GiovannisCaveGiovanniIMustGoText:
 	line "Fehler von vor"
 	cont "drei Jahren nicht"
 	cont "wiederholen!"
-	para "Team Rocket wird"
+	para "TEAM ROCKET wird"
 	line "wiedergeboren!"
 	para "LYRA: Hah! <PLAYER>"
 	line "hat dich schon"

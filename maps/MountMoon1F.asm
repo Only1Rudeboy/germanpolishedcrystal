@@ -91,7 +91,7 @@ MountMoon1FRivalBattleScene:
 GenericTrainerBugManiacKenta:
 	generictrainer BUG_MANIAC, KENTA, EVENT_BEAT_BUG_MANIAC_KENTA, BugManiacKentaSeenText, BugManiacKentaBeatenText
 
-	text "Team Rocket hat"
+	text "TEAM ROCKET hat"
 	line "hier früher"
 	cont "herumgelungert."
 	para "Ich frage mich, ob"

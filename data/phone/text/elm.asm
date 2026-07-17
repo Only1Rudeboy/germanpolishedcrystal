@@ -527,7 +527,7 @@ ElmPhoneEvoText_Eevee:
 
 	para "Eispfad soll es"
 	line "die geben. Aber"
-	cont "Eevee"
+	cont "EVOLI"
 
 	para "entwickelt sich"
 	line "auch bei Sonne"

@@ -25,9 +25,9 @@ PokemonJournalLanceScript:
 	text "#MON Journal"
 
 	para "Spezial: Champ"
-	line "Dragoran!"
+	line "SIEGFRIED!"
 
-	para "Dragoran wurde"
+	para "SIEGFRIED wurde"
 	line "beim Einkaufen"
 
 	para "seiner Umhänge im"

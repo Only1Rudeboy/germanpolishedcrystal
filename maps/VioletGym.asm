@@ -247,10 +247,11 @@ Bird_keeperAbeBeatenText:
 	line "wahr sein!"
 	done
 VioletGymGuyWinText:
+	; GSC-DE Dump
 	text "Netter Kampf! Mach"
-	line "weiter so bald"
-	cont "wirst du der Champ"
-	cont "sein!"
+	line "weiter so und bald"
+	cont "schon wirst du der"
+	cont "CHAMP sein!"
 	done
 VioletGymGuyFalknerAwayText:
 	text "Hey! Du kannst"

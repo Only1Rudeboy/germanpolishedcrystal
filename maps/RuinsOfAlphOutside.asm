@@ -341,12 +341,12 @@ RuinsOfAlphResearchCenterSignText:
 RuinsOfAlphAdvancedTipsSignText:
 	text "Profi-Tipps!"
 
-	para "Der #dex ist"
-	line "ein mächtiges"
-	cont "Tool!"
+	para "Der #DEX ist"
+	line "sehr nützlich!"
 
 	para "Die Karte zeigt"
-	line "ein gelbes Icon,"
+	line "ein gelbes"
+	cont "Symbol,"
 
 	para "wenn #MON genau"
 	line "hier zu finden"

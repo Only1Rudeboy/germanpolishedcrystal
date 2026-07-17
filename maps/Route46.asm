@@ -64,7 +64,7 @@ Route46TutorRoute46Script:
 
 	text "Fertig! Dein"
 	line "#MON hat"
-	cont "Rollout gelernt!"
+	cont "Walzer gelernt!"
 	done
 
 GenericTrainerCamperTed:
@@ -216,7 +216,7 @@ Route46HikerText:
 
 Text_Route46TutorRollout:
 	text "Ich bringe deinem"
-	line "#MON Rollout"
+	line "#MON Walzer"
 	cont "bei"
 
 	para "für ein"
@@ -226,7 +226,7 @@ Text_Route46TutorRollout:
 
 Text_Route46TutorQuestion:
 	text "Soll ich deinem"
-	line "#MON Rollout"
+	line "#MON Walzer"
 	cont "beibringen?"
 	done
 

@@ -298,7 +298,7 @@ BattleTowerPharmacistScript:
 		line "einen Trick auf"
 		cont "Lager! Ich tau-"
 		para "sche ihre Items"
-		line "mit Täuscher"
+		line "mit Trickbetrug"
 		cont "gegen meine!"
 		done
 	waitbutton
@@ -306,8 +306,8 @@ BattleTowerPharmacistScript:
 BattleTowerTutorTrickScript:
 	writethistext
 		text "Ich bringe deinem"
-		line "#MON Täuscher"
-		cont "bei…"
+		line "#MON"
+		cont "Trickbetrug bei…"
 		para "für ein"
 		line "Silberblatt."
 		done
@@ -316,7 +316,8 @@ BattleTowerTutorTrickScript:
 	iffalsefwd .NoSilverLeaf
 	writethistext
 		text "Soll ich deinem"
-		line "#MON Täuscher"
+		line "#MON"
+		cont "Trickbetrug"
 		cont "beibringen?"
 		done
 	yesorno
@@ -343,7 +344,7 @@ BattleTowerTutorTrickScript:
 	jumpthisopenedtext
 		text "Jetzt kann dein"
 		line "#MON auch"
-		cont "Täuscher!"
+		cont "Trickbetrug!"
 		para "Ist das nicht"
 		line "fies?"
 		done
