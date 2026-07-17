@@ -160,6 +160,7 @@ NewBarkTownTeacherScript:
 	iftrue_jumptextfaceplayer Text_YourMonIsAdorable
 	jumpthistextfaceplayer
 
+	; GSC-nah (Ortseindruck NEUBORKIA)
 	text "Hier weht immer so"
 	line "eine erfrischende"
 	cont "Brise."
@@ -446,10 +447,12 @@ Text_LyraGoodbye2:
 	cont "Champion!"
 	done
 NewBarkTownSignText:
+	; GSC-DE Dump
 	text "NEUBORKIA"
+
 	para "Die Stadt, in der"
-	line "der Wind der"
-	cont "Erneuerung weht"
+	line "der Wind der Er-"
+	cont "neuerung weht"
 	done
 
 

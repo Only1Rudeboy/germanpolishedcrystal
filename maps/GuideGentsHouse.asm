@@ -15,16 +15,19 @@ GuideGentsHouse_MapScriptHeader:
 	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, GuideGentsHouseGuideGentText, EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
 
 GuideGentsHouseGuideGentText:
+	; GSC-DE Dump
 	text "Als ich noch ein"
 	line "Junge war, war ich"
 	cont "ein richtiger"
 	cont "Heißsporn!"
+
 	para "Ich gebe dir einen"
 	line "Rat: Fange viele"
 	cont "#MON!"
+
 	para "Behandle sie alle"
-	line "mit"
-	cont "Freundlichkeit!"
+	line "mit Freundlich-"
+	cont "keit!"
 	done
 
 

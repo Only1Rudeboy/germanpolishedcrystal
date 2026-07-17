@@ -105,11 +105,14 @@ MomEventScript:
 	end
 
 PlayersHouse1FFridgeText:
+	; GSC-DE Dump
 	text "Mal sehen, was da"
 	line "im Kühlschrank zu"
-	cont "finden ist …"
-	para "TAFELWASSER und"
-	line "leckere LIMO-NADE!"
+	cont "finden ist…"
+
+	para "TAFELWASSER"
+	line "und leckere LIMO-"
+	cont "NADE!"
 	done
 
 
@@ -169,6 +172,7 @@ MomScript:
 	iftrue_jumpopenedtext MomErrandText
 	jumpthisopenedtext
 
+	; GSC-Dump „Baby!“ → Projekt-Override: Schatz
 	text "PROF. LIND wartet"
 	line "auf dich."
 

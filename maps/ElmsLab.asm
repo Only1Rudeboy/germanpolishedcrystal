@@ -1032,27 +1032,43 @@ ElmText_GotAnEmail:
 
 
 ElmText_MissionFromMrPokemon:
+	; GSC-DE Dump
 	text "Hör gut zu!"
+
 	para "Ich habe einen"
 	line "Bekannten namens"
 	cont "MR. #MON."
+
 	para "Ständig findet er"
 	line "eigenartiges Zeug"
+
 	para "und fängt an,"
 	line "darüber zu"
 	cont "fantasieren."
+
 	para "Aber jetzt hat er"
 	line "mir eine E-Mail"
-	cont "geschickt."
-	para "Diesmal soll es um"
-	line "etwas wirklich"
-	cont "Großes gehen."
-	para "Das klingt"
+
+	para "geschickt, in der"
+	line "steht, dass es"
+
+	para "sich diesmal um"
+	line "etwas Großes"
+	cont "handeln muss."
+
+	para "Das klingt zwar"
 	line "faszinierend, aber"
-	cont "wir"
-	para "sind mitten in der"
-	line "#MON-Forschung."
-	para "Moment! Ich hab's!"
+
+	para "wir sind derzeit"
+	line "mitten in unseren"
+
+	para "eigenen #MON-"
+	line "Forschungen."
+
+	para "Moment!"
+
+	para "Ich hab's!"
+
 	para "<PLAYER>, könntest"
 	line "du der Sache"
 	cont "nachgehen?"
@@ -1064,14 +1080,19 @@ ElmText_MissionFromMrPokemon:
 
 
 ElmText_ChooseAPokemon:
+	; GSC-DE Dump
 	text "Ich möchte, dass"
 	line "du eines der"
-	cont "#MON aus diesen"
-	cont "Bällen trainierst."
+
+	para "#MON aus"
+	line "einem dieser BÄLLE"
+	cont "trainierst."
+
 	para "Du wirst der erste"
-	line "Partner dieses"
+	line "Kamerad dieses"
 	cont "#MON sein,"
 	cont "<PLAYER>!"
+
 	para "Such dir eins aus!"
 	done
 
