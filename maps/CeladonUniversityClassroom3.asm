@@ -124,7 +124,7 @@ CeladonUniversityClassroom3Bookshelf1Text:
 CeladonUniversityClassroom3Bookshelf2Text:
 	text "Ein Aufsatz von"
 	line "PROF. SILKTREE."
-	para "'Alph-Ruinen"
+	para "'ALPH-RUINEN"
 	line "Untersuchungs-"
 	cont "bericht'…"
 	done

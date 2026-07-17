@@ -142,7 +142,8 @@ ClefairyPosterSentText:
 
 BoughtPikachuPosterText:
 	text "<PLAYER> kaufte"
-	line "ein PIKACHU-Poster."
+	line "ein PIKACHU-"
+	cont "Poster."
 	done
 
 PikachuPosterSentText:

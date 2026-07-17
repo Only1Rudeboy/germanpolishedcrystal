@@ -433,7 +433,7 @@ Route47SealedCaveSign:
 	done
 
 Route47QuietCaveSignText:
-	text "Route 47"
+	text "ROUTE 47"
 
 	para "Westen: Stille"
 	line "Höhle"

@@ -114,7 +114,7 @@ EusinesHouseGrampsScript:
 	para "neuen Abenteuer."
 	line "Er ging zum"
 
-	para "Zinnturm in"
+	para "ZINNTURM in"
 	line "TEAK CITY."
 	done
 
@@ -161,7 +161,7 @@ EusineLeavesCeladonText:
 
 	para "regenbogenfarbene"
 	line "#MON am"
-	cont "Zinnturm."
+	cont "ZINNTURM."
 
 	para "Mein Team wurde"
 	line "gerade geheilt,"

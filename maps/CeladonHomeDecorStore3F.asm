@@ -169,7 +169,8 @@ RedCarpetSentText:
 
 BoughtBlueCarpetText:
 	text "<PLAYER> kaufte"
-	line "den blauen Teppich."
+	line "den blauen"
+	cont "Teppich."
 	done
 
 BlueCarpetSentText:
@@ -179,7 +180,8 @@ BlueCarpetSentText:
 
 BoughtYellowCarpetText:
 	text "<PLAYER> kaufte"
-	line "den gelben Teppich."
+	line "den gelben"
+	cont "Teppich."
 	done
 
 YellowCarpetSentText:
@@ -189,7 +191,8 @@ YellowCarpetSentText:
 
 BoughtGreenCarpetText:
 	text "<PLAYER> kaufte"
-	line "den grünen Teppich."
+	line "den grünen"
+	cont "Teppich."
 	done
 
 GreenCarpetSentText:

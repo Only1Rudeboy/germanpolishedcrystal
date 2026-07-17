@@ -155,7 +155,8 @@ BoughtBigSnorlaxDollText:
 
 BoughtBigOnixDollText:
 	text "<PLAYER> kaufte"
-	line "die Riesen-ONIX-Puppe."
+	line "die Riesen-ONIX-"
+	cont "Puppe."
 	done
 
 

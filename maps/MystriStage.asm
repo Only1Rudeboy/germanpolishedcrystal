@@ -199,7 +199,7 @@ MystriStageCynthiaLeadText2:
 	line "hast diese"
 
 	para "Phrase in den"
-	line "Alph-Ruinen"
+	line "ALPH-RUINEN"
 	cont "gelesen?"
 
 	para "Das ist sehr"

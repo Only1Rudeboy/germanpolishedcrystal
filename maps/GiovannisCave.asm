@@ -234,7 +234,8 @@ GiovannisCaveBroadcastText:
 	cont "er zu?'"
 	para "LYRA: TEAM ROCKET"
 	line "hat gerade den"
-	para "Funkturm besetzt …"
+	cont "RADIOTURM"
+	cont "besetzt …"
 	para "Du bist dort, aber"
 	line "auch hier …"
 	done
