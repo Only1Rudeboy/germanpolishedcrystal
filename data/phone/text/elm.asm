@@ -526,7 +526,7 @@ ElmPhoneEvoText_Eevee:
 	cont "und"
 
 	para "Eispfad soll es"
-	line "die geben. Aber"
+	line "sie geben. Aber"
 	cont "EVOLI"
 
 	para "entwickelt sich"
