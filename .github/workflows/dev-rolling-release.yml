@@ -29,7 +29,8 @@ env:
 jobs:
   build:
     name: "Dev Rolling Release Build"
-    uses: Rangi42/polishedcrystal/.github/workflows/build.yml@master
+    # Fork: eigenes build.yml (nicht Rangi42) — gleiche Codebasis + RGBDS-Pin für DE-Tree
+    uses: ./.github/workflows/build.yml
 
   release:
     name: "Dev Rolling Release / Release"

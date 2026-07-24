@@ -41,7 +41,13 @@ int main (int argc, char ** argv) {
   }
   MapSection * sections = get_sections_from_map_file(filename);
   if (!sections) {
-    fprintf(stderr, "error: could not retrieve section data from %s\n", filename);
+    /* Map-Format kann je nach rgbds-Version abweichen; CI/Make soll nicht
+       am optionalen Freespace-Report scheitern (quiet: nur Hinweis). */
+    fprintf(stderr, "warning: could not retrieve section data from %s\n", filename);
+    if (quiet) {
+      printf("Free space: (map unreadable)\n");
+      return 0;
+    }
     return 2;
   }
   unsigned short bank_ends[BANKS];

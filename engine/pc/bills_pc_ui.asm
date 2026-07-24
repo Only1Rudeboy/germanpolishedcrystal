@@ -2716,7 +2716,7 @@ BillsPC_CanReleaseMon:
 
 	; Allow release of Bad Eggs (DE: "Schl. Ei"; normal eggs are "Ei").
 	ld a, [wTempMonNickname]
-	cp "S" ; "Schl. Ei" (Canon); normal egg nickname starts with "E"
+	cp #"S" ; "Schl. Ei" (Canon); normal egg nickname starts with "E"
 	ld a, RELEASE_EGG
 	ret nz
 
