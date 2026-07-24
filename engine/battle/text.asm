@@ -58,21 +58,11 @@ _StdBattleTextbox:
 	ret
 
 .EnemyLinebreakTable:
+	; Nur Texte, bei denen Klasse+Name in EINER Zeile stehen und
+	; CONT-Trennung sinnvoll ist. Zu viele Einträge → extra A-Drücke
+	; mitten in Standard-Kampftexten (fühlt sich „verbuggt“ an).
 	dw TiedAgainstText
 	dw LostAgainstText
 	dw BattleText_WentBackToEnemy
 	dw EnemyAffectionEvasionText
-	; GSC-DE: Klasse+Name kann laenger sein als EN (z.B. "Arenaleiterin BIANKA",
-	; "Ass-Trainerin CHIARA", "Schoenheit CASSANDRA"), daher fuer ALLE Texte,
-	; die mit <ENEMY> beginnen, automatischen Zeilenumbruch erlauben
-	dw WantsToBattleText
-	dw WantToBattleText
-	dw BattleText_EnemySentOut
-	dw BattleText_EnemyWithdrew
-	dw BattleText_EnemyWasDefeated
-	dw BattleText_EnemyWereDefeated
-	dw BattleText_EnemyIsAboutToUseWillPlayerSwitchPkmn
-	dw BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn
-	dw BattleText_EnemyIsAboutToSwitchWillPlayerSwitchPkmn
-	dw BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn
 	dw -1

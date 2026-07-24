@@ -763,9 +763,9 @@ FireSpinTrapText:
 	prompt
 
 WrappedByText:
-	; GSC-nah: TARGET wurde von USER umschlungen!
+	; GSC-DE Dump-Stil (kurz, 2-Zeilen-Box)
 	text "<TARGET>"
-	line "wurde von"
+	line "von"
 	cont "<USER>"
 	cont "umschlungen!"
 	prompt
@@ -833,7 +833,8 @@ DisabledMoveText:
 	text "<USER>s"
 	line ""
 	text_ram wStringBuffer1
-	cont "wird BLOCKIERT!"
+	text " wird"
+	cont "BLOCKIERT!"
 	prompt
 
 UsedMoveText:
@@ -1188,11 +1189,10 @@ FledInFearText:
 	prompt
 
 HitNTimesText:
-	; GSC: Erleidet N Treffer! (Zahl + Einheit gleiche Zeile)
-	text "Erleidet"
-	line ""
+	; GSC: Erleidet N Treffer!
+	text "Erleidet "
 	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text " Treffer!"
+	line "Treffer!"
 	prompt
 
 MistText:

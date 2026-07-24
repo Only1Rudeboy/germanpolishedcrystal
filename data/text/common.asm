@@ -1059,11 +1059,10 @@ Text_EnemyUsed::
 
 SECTION "Text_EnemyUsedOn", ROMX
 Text_EnemyUsedOn::
-	; Item-Zeile, dann Ziel-Zeile (kein mid-cont „an“)
 	text "<ENEMY>"
 	line "ben. "
 	text_ram wMonOrItemNameBuffer
-	line "an "
+	cont "an "
 	text_ram wEnemyMonNickname
 	text "!"
 	prompt

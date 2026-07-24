@@ -186,15 +186,20 @@ PerformAbilityGFX:
 
 GetAbilityNameAndPkmn:
 ; DE slideout lines:
-;   player:  NAME          / FÄHIGKEIT
-;   enemy:   Gegn. NAME    / FÄHIGKEIT
+;   player:  NAME          / hat FÄHIGKEIT
+;   enemy:   Gegn. NAME    / hat FÄHIGKEIT
 ; (English was "NAME's" / "Ability")
-; HINWEIS: Die Box hat eine feste Breite (SLIDEOUT_TEXT_WIDTH, kein Scrollen/
-; Umbruch). Ein vorangestelltes "hat " lief bei langen Faehigkeitsnamen
-; (z.B. "Feuerfaenger", "Unheilskoerper") ueber die Boxbreite hinaus und
-; korrumpierte den Tile-Puffer. Daher wie im EN-Original ohne Verb, nur
-; der reine Name.
+
+	; "hat " + ability name → wAbilityName
 	ld hl, wAbilityName
+	ld a, 'h'
+	ld [hli], a
+	ld a, 'a'
+	ld [hli], a
+	ld a, 't'
+	ld [hli], a
+	ld a, ' '
+	ld [hli], a
 	ld d, h
 	ld e, l
 	farcall _BufferAbility
