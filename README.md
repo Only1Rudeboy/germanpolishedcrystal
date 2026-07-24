@@ -7,14 +7,14 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.058** (Pass-2: common.asm-Ketten + EN-Gfx ENDE/Judge/Diplom) |
+| **Aktuell pure-DE** | **ROM 3.2.3.059** (Kampftext-Hotfix) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
 
 > Mit **Grok 4.5** (xAI) und **Claude** (Anthropic) unterstützt. Es können noch Fehler, Zeilenumbrüche oder einzelne EN-Stellen vorkommen.  
 > **Feedback willkommen** (Issues / PRs).  
-> **Nur pure DE-Lokalisierung** 
+> **Nur pure DE-Lokalisierung** in diesem Repo — keine Shiny-/ARBEITSKOPIE-Gameplay-Mods.
 
 ---
 
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–058](#rom-übersicht-001058)
+3. [ROM-Übersicht 001–059](#rom-übersicht-001059)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,10 +45,19 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**058 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**059 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
+
+### 059 · 2026-07-24 — Kampftext-Hotfix
+
+Commit: `4771b246a`
+
+- **EnemyLinebreak-Tabelle** wieder nur 4 sichere Einträge (zu viele mid-CONT → extra A-Drücke / kaputte Flüsse)
+- **Ability-Slideout:** wieder **„hat FÄHIGKEIT“**
+- **HitNTimes / EnemyUsedOn / Wrap / DisabledMove:** stabiler GSC-Flow
+- Zurückrufen: weiter **ohne Doppelkomma**
 
 ### 058 · 2026-07-24 — Pass-2: Systemtext-Ketten + EN-Grafiken
 
@@ -536,7 +545,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–058
+## ROM-Übersicht 001–059
 
 | Block | Thema |
 |---|---|
@@ -559,9 +568,10 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **056** | Claude-055 auf GitHub-`master` integriert + verified rebuild |
 | **057** | Multi-Agent P0: ISSO/AMBIDIFFEL, Zwillinge, Waiting, Maps |
 | **058** | Pass-2: common-Ketten + ENDE/Judge/Diplom-Gfx |
+| **059** | Kampftext-Hotfix (Ability hat / Enemy-CONT / HitNTimes) |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 058** · nächster Build: **059**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 059** · nächster Build: **060**
 
 ---
 
