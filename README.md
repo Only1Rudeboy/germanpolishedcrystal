@@ -14,7 +14,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 > Mit **Grok 4.5** (xAI) und **Claude** (Anthropic) unterstützt. Es können noch Fehler, Zeilenumbrüche oder einzelne EN-Stellen vorkommen.  
 > **Feedback willkommen** (Issues / PRs).  
-> **Nur pure DE-Lokalisierung** in diesem Repo — keine Shiny-/ARBEITSKOPIE-Gameplay-Mods.
+> **Nur pure DE-Lokalisierung** 
 
 ---
 
