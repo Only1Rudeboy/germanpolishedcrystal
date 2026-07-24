@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.057** (Multi-Agent P0-Bugfixes: Namen/UI/Kampf/Maps) |
+| **Aktuell pure-DE** | **ROM 3.2.3.058** (Pass-2: common.asm-Ketten + EN-Gfx ENDE/Judge/Diplom) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–057](#rom-übersicht-001057)
+3. [ROM-Übersicht 001–058](#rom-übersicht-001058)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,10 +45,34 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**057 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**058 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
+
+### 058 · 2026-07-24 — Pass-2: Systemtext-Ketten + EN-Grafiken
+
+#### common.asm / battle.asm / std_text
+- Heilung: „wurde von der Vergiftung/Verbrennung geheilt“ (kein EN-Calque)
+- Tausch: Mon → OT ohne leeres `text ""` / mid-scroll
+- Enemy-Item-on-Mon: Item- und Ziel-Zeile getrennt
+- TM/HM: `beibringen?` / `nicht lernen` ohne extra A-Druck mittendrin
+- Schnäppchen: Komma + Preis mit Punkt, dann Frage
+- Markt: `erhalten.` auf Item-Zeile
+- Move-Forget / Daycare-„sehen?“: mon auf eigener Zeile
+- AP maximiert: **„wurden maximiert.“**
+- Wrap: **„wurde von USER umschlungen!“**
+- Käferturnier 2./3. Platz: `line` statt extra `para` nach Namen
+- MistText: Dump-treu wieder `<USER>s` (GSC-DE)
+
+#### Grafik (1-bit Pixel)
+- `gfx/credits/theend.png`: **ENDE** (statt THE END)
+- `gfx/stats/judge_stats.png`: DE-Kurzlabels KP/ANGR/VERT/INIT/SPAN/SPVE
+- `gfx/diploma/diploma.png`: **GRATULATION** / **DIPLOM**
+- Status-Icons (GIF/PAR/…) bereits DE (Claude-055) — bestätigt
+
+#### Klassen
+- Candela/Blanche/Spark: `Arena-Leiter` → **Arenaleiter**
 
 ### 057 · 2026-07-24 — Multi-Agent P0-Bugfixes (Namen / UI / Kampf / Maps)
 
@@ -512,7 +536,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–057
+## ROM-Übersicht 001–058
 
 | Block | Thema |
 |---|---|
@@ -533,10 +557,11 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **054** | Stadt-/Routen-Landmarks CAPS + Startmenü `#COM` / `FERTIG` |
 | **055** | Grafik-DE + Artnamen-Audit + Rocket-Vorstand + Überlauf-Fixes *(Claude)* |
 | **056** | Claude-055 auf GitHub-`master` integriert + verified rebuild |
-| **057** | Multi-Agent P0: ISSO/AMBIDIFFEL, Zwillinge, MistText, Waiting, Maps |
+| **057** | Multi-Agent P0: ISSO/AMBIDIFFEL, Zwillinge, Waiting, Maps |
+| **058** | Pass-2: common-Ketten + ENDE/Judge/Diplom-Gfx |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 057** · nächster Build: **058**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 058** · nächster Build: **059**
 
 ---
 

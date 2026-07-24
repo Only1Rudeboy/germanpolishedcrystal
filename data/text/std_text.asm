@@ -276,7 +276,7 @@ ContestResults_ReadyToJudgeText:
 ContestResults_PlayerWonAPrizeText:
 	text "<PLAYER>, Platz "
 	text_ram wStringBuffer3
-	cont "gewinnt"
+	line "gewinnt"
 	cont ""
 	text_ram wStringBuffer4
 	text "!"
@@ -454,7 +454,7 @@ VendingMachineScoreText:
 	line "extra"
 	cont ""
 	text_ram wStringBuffer3
-	cont "fiel heraus."
+	line "fiel heraus."
 	done
 
 VendingMachineNoMoneyText:

@@ -1,7 +1,7 @@
 # ROM-Historie — Polished Crystal DE (GSC-Kanon)
 
 Vollständige Liste der **lokal versionierten Builds**  
-`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.057`  
+`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.058`  
 (Zähler: `tools/save_rom_versioned.ps1` / `tools/_rom_build_version.txt`).
 
 **ROMs liegen nicht im Repo** (Copyright). Hier steht nur, **was** pro Nummer (bzw. Nummernblock) typischerweise gebaut und getestet wurde.
@@ -9,7 +9,7 @@ Vollständige Liste der **lokal versionierten Builds**
 Quellen: Git-Commits, README-Changelog, `CONTINUE.md`, Session-Notizen (2026-07).  
 Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuild markiert.
 
-**Aktueller Zähler:** **057** (nächster Build wäre **058**).  
+**Aktueller Zähler:** **058** (nächster Build wäre **059**).  
 **Spiel-Basis:** Polished Crystal **3.2.3** · Fork: [Only1Rudeboy/germanpolishedcrystal](https://github.com/Only1Rudeboy/germanpolishedcrystal) · Branch **`master`**
 
 ---
@@ -30,7 +30,7 @@ Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuil
 | I | **046–049** | Optionen-UI, QWERTZ / v0.9, `#COM`-Casing |
 | J | **050–054** | Summary-Tabs, GSC-Feinschliff, Landmark-CAPS, Startmenü |
 | K | **055–056** | Grafik-Übersetzung, Namens-Audit, Claude-Merge auf GitHub-`master` |
-| L | **057** | Multi-Agent P0-Bugfixes (Namen/UI/Kampf/Maps) |
+| L | **057–058** | Multi-Agent P0 + Pass-2 Systemtext/Gfx |
 
 ---
 
@@ -193,12 +193,13 @@ Ab **`.001`** zählt `save_rom_versioned.ps1` fortlaufend.
 
 | ROM | Commit | Inhalt |
 |---|---|---|
-| **057** | *(dieser Build)* | 6-Agenten-Scan → Fixes: ISSO/AMBIDIFFEL; Zwillinge EVA&UTE/NORA&JO/LEA&IDA; Klassen Vogelfänger/Feuerspucker/Snowboarder; MistText/ProtectedByText; Warte…!/Ei/Nichts; Memory-HUD; Facade-Status; Map text_ram/Geld/#MON-Reflows. |
+| **057** | `e876af027` | 6-Agenten-Scan → ISSO/AMBIDIFFEL; Zwillinge; Klassen; Warte…!/Ei/Nichts; Maps. |
+| **058** | *(dieser Build)* | Pass-2: common.asm mid-cont/Grammatik; Wrap/AP; Käferturnier-Flow; Gfx **ENDE**/Judge/Diplom; Arenaleiter-Konsistenz. |
 
 **Desktop (typisch):**  
-`polishedcrystal-3.2.3.057.gbc` · `…-latest.gbc` · Kopie unter `pokemon polished crystal roms\original\`
+`polishedcrystal-3.2.3.058.gbc` · `…-latest.gbc` · Kopie unter `pokemon polished crystal roms\original\`
 
-**Nächster Zähler:** **058**.
+**Nächster Zähler:** **059**.
 
 ---
 
@@ -276,7 +277,8 @@ Separates Experimenten-Pfad `germanpolishedcrystal-ARBEITSKOPIE` / Shiny-Builds 
 | **055** | Grafik-DE + Artnamen-Audit + Rocket-Vorstand + Überlauf-Fixes *(Claude)* |
 | **056** | Claude-055 auf GitHub-`master` + verified rebuild |
 | **057** | Multi-Agent P0: Namen/UI/Kampf/Maps |
-| **058** | *(noch nicht — nächster Zähler)* |
+| **058** | Pass-2: common-Ketten + ENDE/Judge/Diplom-Gfx |
+| **059** | *(noch nicht — nächster Zähler)* |
 
 ---
 

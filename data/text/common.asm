@@ -111,8 +111,9 @@ _RecoveredSomeHPText::
 SECTION "_CuredOfPoisonText", ROMX
 _CuredOfPoisonText::
 	text_ram wStringBuffer1
-	line "wurde geheilt"
-	cont "von Vergiftung."
+	line "wurde von der"
+	cont "Vergiftung"
+	cont "geheilt."
 	done
 
 SECTION "_RidOfParalysisText", ROMX
@@ -125,8 +126,9 @@ _RidOfParalysisText::
 SECTION "_BurnWasHealedText", ROMX
 _BurnWasHealedText::
 	text_ram wStringBuffer1
-	line "wurde geheilt"
-	cont "von Verbrennung."
+	line "wurde von der"
+	cont "Verbrennung"
+	cont "geheilt."
 	done
 
 SECTION "_WasDefrostedText", ROMX
@@ -392,9 +394,9 @@ _MomItsInYourRoomText::
 SECTION "_MonWasSentToText", ROMX
 _MonWasSentToText::
 	text_ram wPlayerTrademonSpeciesName
-	line "wurde zu "
+	line "wurde zu"
+	cont ""
 	text_ram wOTTrademonSenderName
-	text ""
 	cont "geschickt."
 	done
 
@@ -1057,10 +1059,11 @@ Text_EnemyUsed::
 
 SECTION "Text_EnemyUsedOn", ROMX
 Text_EnemyUsedOn::
+	; Item-Zeile, dann Ziel-Zeile (kein mid-cont „an“)
 	text "<ENEMY>"
 	line "ben. "
 	text_ram wMonOrItemNameBuffer
-	cont "an "
+	line "an "
 	text_ram wEnemyMonNickname
 	text "!"
 	prompt
@@ -1604,7 +1607,8 @@ _AreWeGeniusesText::
 	; GSC-DE dump 8001
 	text "Wir sind genial,"
 	line "oder? Möchtest du"
-	cont "dein "
+	cont "dein"
+	cont ""
 	text_ram wStringBuffer1
 	cont "sehen?"
 	done
@@ -1964,7 +1968,8 @@ _ContainedMoveText::
 	para "Einem #MON"
 	line ""
 	text_ram wStringBuffer2
-	cont "beibringen?"
+	text " bei-"
+	cont "bringen?"
 	done
 
 SECTION "_TMHMNotCompatibleText", ROMX
@@ -1976,9 +1981,10 @@ _TMHMNotCompatibleText::
 	text_ram wStringBuffer1
 	text "."
 
-	para "Kann nicht"
+	para "Kann"
 	line ""
 	text_ram wStringBuffer2
+	text " nicht"
 	cont "lernen."
 	prompt
 
@@ -2741,8 +2747,8 @@ ContestJudging_SecondPlaceText::
 	line ""
 	text_ram wBugContestWinnerName
 	text ","
-	para "der ein"
-	line ""
+	line "der ein"
+	cont ""
 	text_ram wStringBuffer1
 	text " fing!@"
 	text_end
@@ -2761,8 +2767,8 @@ ContestJudging_ThirdPlaceText::
 	line ""
 	text_ram wBugContestWinnerName
 	text ","
-	para "der ein"
-	line ""
+	line "der ein"
+	cont ""
 	text_ram wStringBuffer1
 	text " fing!@"
 	text_end
@@ -3673,7 +3679,7 @@ _BargainShopIntroText::
 	para "Ich verkaufe"
 	line "seltene Items, die"
 
-	para "sonst niemand hat"
+	para "sonst niemand hat,"
 	line "aber nur je eins."
 	done
 
@@ -3683,7 +3689,8 @@ _BargainShopFinalPriceText::
 	text " kostet"
 	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	cont "Willst du's?"
+	text "."
+	para "Willst du's?"
 	done
 
 SECTION "_BargainShopThanksText", ROMX
@@ -3824,7 +3831,7 @@ _MartBoughtText::
 	line ""
 	text_ram wStringBuffer2
 	text_plural
-	cont "erhalten."
+	text " erhalten."
 	done
 
 SECTION "_SlotsBetHowManyCoinsText", ROMX
@@ -4022,9 +4029,11 @@ _AskForgetMoveText::
 
 	para "Soll eine andere"
 	line "Attacke zugunsten"
-	cont "von "
+	cont "von"
+	cont ""
 	text_ram wStringBuffer2
-	cont "vergessen werden?"
+	cont "vergessen"
+	cont "werden?"
 	done
 
 SECTION "Text_MoveForgetCount", ROMX
@@ -4337,7 +4346,7 @@ SECTION "Text_PPsMaximized", ROMX
 Text_PPsMaximized::
 	text_ram wStringBuffer2
 	text "s AP"
-	line "maximiert."
+	line "wurden maximiert."
 	prompt
 
 SECTION "_PPRestoredText", ROMX

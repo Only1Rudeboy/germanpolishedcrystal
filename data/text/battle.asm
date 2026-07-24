@@ -763,8 +763,9 @@ FireSpinTrapText:
 	prompt
 
 WrappedByText:
+	; GSC-nah: TARGET wurde von USER umschlungen!
 	text "<TARGET>"
-	line "von"
+	line "wurde von"
 	cont "<USER>"
 	cont "umschlungen!"
 	prompt
@@ -1195,8 +1196,8 @@ HitNTimesText:
 	prompt
 
 MistText:
-	; GSC-DE: USER ist von WEISSNEBEL umgeben! (kein EN-Genitiv -s)
-	text "<USER>"
+	; GSC-DE Dump: <USER>s / ist von / WEISSNEBEL / umgeben!
+	text "<USER>s"
 	line "ist von"
 	cont "WEISSNEBEL"
 	cont "umgeben!"
@@ -1390,10 +1391,9 @@ AlreadyParalyzedText:
 	prompt
 
 ProtectedByText:
-	; GSC-DE: TARGET ist geschützt durch ITEM!
+	; GSC-DE Dump: TARGET / geschützt durch / ITEM!
 	text "<TARGET>"
-	line "ist geschützt"
-	cont "durch"
+	line "geschützt durch"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"

@@ -133,9 +133,9 @@ TrainerClassNames::
 	li "<PK><MN>-Trainer" ; ANABEL
 	li "Kammerdiener"      ; DARACH
 	li "Lady"              ; CAITLIN
-	li "Arena-Leiter"      ; CANDELA
-	li "Arena-Leiter"      ; BLANCHE
-	li "Arena-Leiter"      ; SPARK_T
+	li "Arenaleiter"       ; CANDELA
+	li "Arenaleiter"       ; BLANCHE
+	li "Arenaleiter"       ; SPARK_T
 	li "Trainer"           ; FLANNERY
 	li "Kämpferin"         ; MAYLENE
 	li "Schwimmer"         ; MARLON
