@@ -1187,15 +1187,16 @@ FledInFearText:
 	prompt
 
 HitNTimesText:
-	; GSC: Erleidet N Treffer!
-	text "Erleidet "
+	; GSC: Erleidet N Treffer! (Zahl + Einheit gleiche Zeile)
+	text "Erleidet"
+	line ""
 	text_decimal wItemQuantityChangeBuffer, 1, 2
-	line "Treffer!"
+	text " Treffer!"
 	prompt
 
 MistText:
-	; GSC: USER's ist von WEISSNEBEL umgeben!
-	text "<USER>s"
+	; GSC-DE: USER ist von WEISSNEBEL umgeben! (kein EN-Genitiv -s)
+	text "<USER>"
 	line "ist von"
 	cont "WEISSNEBEL"
 	cont "umgeben!"
@@ -1389,9 +1390,10 @@ AlreadyParalyzedText:
 	prompt
 
 ProtectedByText:
-	; GSC: geschützt durch ITEM!
+	; GSC-DE: TARGET ist geschützt durch ITEM!
 	text "<TARGET>"
-	line "geschützt durch"
+	line "ist geschützt"
+	cont "durch"
 	cont ""
 	text_ram wStringBuffer1
 	text "!"

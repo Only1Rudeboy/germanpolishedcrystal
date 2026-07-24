@@ -145,8 +145,8 @@ EcruteakShrineInsideReiBlessingText:
 
 EcruteakShrineInsideHappinessText:
 	text_ram wStringBuffer3
-	text "sieht zufrieden"
-	line "aus."
+	text " sieht"
+	line "zufrieden aus."
 	done
 
 EcruteakShrineInsideReiBattleText:

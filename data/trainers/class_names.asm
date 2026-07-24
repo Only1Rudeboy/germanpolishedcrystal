@@ -40,7 +40,7 @@ TrainerClassNames::
 	li "Picknicker"        ; PICNICKER
 	li "Zwillinge"         ; TWINS
 	li "Angler"            ; FISHER
-	li "Vogelprofi"        ; BIRD_KEEPER
+	li "Vogelfänger"       ; BIRD_KEEPER
 	li "Wanderer"          ; HIKER
 	li "Rocket"            ; GRUNTM  — GSC-DE Kanon: Klasse "ROCKET" + Name "RÜPEL"
 	li "Rocket"            ; GRUNTF
@@ -56,7 +56,7 @@ TrainerClassNames::
 	li "Schönheit"         ; BEAUTY
 	li "Käfer-Profi"       ; BUG_MANIAC
 	li "Ruinenmaniac"      ; RUIN_MANIAC
-	li "Feuerspeier"       ; FIREBREATHER
+	li "Feuerspucker"      ; FIREBREATHER
 	li "Jongleur"          ; JUGGLER
 	li "Schüler"           ; SCHOOLBOY
 	li "Schülerin"         ; SCHOOLGIRL
@@ -81,7 +81,7 @@ TrainerClassNames::
 	li "Detektiv"          ; PI
 	li "Forscher"          ; SCIENTIST
 	li "Forscher"          ; ROCKET_SCIENTIST
-	li "Boarder"           ; BOARDER
+	li "Snowboarder"       ; BOARDER
 	li "Skifahrerin"       ; SKIER
 	li "Schwarzgurt"       ; BLACKBELT_T
 	li "Kämpferin"         ; BATTLE_GIRL
@@ -150,5 +150,5 @@ TrainerClassNames::
 	li "Schüler"           ; IMAKUNI
 	li "Sammler"           ; LAWRENCE
 	li "Schrein"           ; REI
-	li "Feuerspeier"       ; FIREBREATHER_ASHES
+	li "Feuerspucker"      ; FIREBREATHER_ASHES
 	assert_list_length NUM_TRAINER_CLASSES

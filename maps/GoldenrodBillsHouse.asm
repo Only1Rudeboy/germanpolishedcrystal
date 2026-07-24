@@ -386,8 +386,9 @@ BillsGrandpaYouDontHaveItTextText:
 	done
 
 BillsGrandpaShownPokemonText:
-	; GSC-DE Dump
-	text "Ah, das ist "
+	; GSC-DE Dump (Mon auf eigener Zeile)
+	text "Ah, das ist"
+	line ""
 	text_ram wStringBuffer3
 	text "?"
 

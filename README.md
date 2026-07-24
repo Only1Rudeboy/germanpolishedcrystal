@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.056** (Claude-055 auf `master` integriert + verified rebuild) |
+| **Aktuell pure-DE** | **ROM 3.2.3.057** (Multi-Agent P0-Bugfixes: Namen/UI/Kampf/Maps) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–056](#rom-übersicht-001056)
+3. [ROM-Übersicht 001–057](#rom-übersicht-001057)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,10 +45,39 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**056 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**057 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
+
+### 057 · 2026-07-24 — Multi-Agent P0-Bugfixes (Namen / UI / Kampf / Maps)
+
+6 parallele Explore-Agenten (Claude-ähnliche Bugklassen) → gezielter Fix-Batch.
+
+#### Artnamen / Trainer
+- **WYNAUT**→**ISSO**, **AMBIPOM**→**AMBIDIFFEL** (`data/pokemon/names.asm`)
+- Zwillinge GSC-DE: **EVA & UTE**, **NORA & JO**, **LEA & IDA**
+- Klassen: **Vogelfänger**, **Feuerspucker**, **Snowboarder**
+
+#### Kampf / System-Text
+- **MistText:** EN-Genitiv `USER>s` entfernt → `USER ist von WEISSNEBEL…`
+- **ProtectedByText:** `ist geschützt durch …`
+- Multi-Hit / Daycare-Level / Käferturnier-Punkte: Zahl + Einheit ohne harte `line`-Trennung
+
+#### EN-UI-Reste
+- Link: `Waiting…!` → **`Warte…!`**
+- Ei-Nickname: **`Ei@`** (statt Egg)
+- Trendy-Phrase Default: **`Nichts@`**
+- Memory-Game: **№.Karten** / **№.Züge**
+- Optionen: **US-Maß** (statt Imperial)
+- Facade: **GIF/BRT/PAR** (statt Psn/Brn/Prz)
+
+#### Maps
+- Leerzeichen nach `text_ram` (Celadon-Villa, Teak-Schrein, Mania)
+- Geld-Angebote reflow (Digda-Höhle, Route-32-Haus)
+- `gefangenes #MON` ≤18 (Bill / Anemonia)
+- Mon/Wochentag auf eigener Zeile (Bills Opa, Käferturnier-Gate)
+- Hotel/Indigo/Trainer-Haus: mon-Name-Reflows
 
 ### 056 · 2026-07-24 — Claude-055 auf GitHub-`master` integriert
 
@@ -483,7 +512,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–056
+## ROM-Übersicht 001–057
 
 | Block | Thema |
 |---|---|
@@ -504,9 +533,10 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **054** | Stadt-/Routen-Landmarks CAPS + Startmenü `#COM` / `FERTIG` |
 | **055** | Grafik-DE + Artnamen-Audit + Rocket-Vorstand + Überlauf-Fixes *(Claude)* |
 | **056** | Claude-055 auf GitHub-`master` integriert + verified rebuild |
+| **057** | Multi-Agent P0: ISSO/AMBIDIFFEL, Zwillinge, MistText, Waiting, Maps |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 056** · nächster Build: **057**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 057** · nächster Build: **058**
 
 ---
 

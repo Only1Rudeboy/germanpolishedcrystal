@@ -178,8 +178,8 @@ TrainerHouseB1FIntroText:
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3
-	text " ist heute"
-	line "dein Gegner."
+	line "ist heute dein"
+	cont "Gegner."
 	done
 
 

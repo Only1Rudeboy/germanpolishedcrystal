@@ -250,14 +250,14 @@ Route35NationalParkGateTutorCharmScript:
 	done
 
 Route35NationalParkGateOfficer1AskToParticipateText:
-	; GSC-DE Dump
-	text "Heute ist "
+	; GSC-DE Dump (Wochentag eigene Zeile)
+	text "Heute ist"
+	line ""
 	text_ram wStringBuffer3
 	text "."
-	line "Das heißt, heute"
-
-	para "findet das Käfer-"
-	line "turnier statt."
+	para "Das heißt, heute"
+	line "findet das Käfer-"
+	cont "turnier statt."
 
 	para "Die Regeln sind"
 	line "einfach."

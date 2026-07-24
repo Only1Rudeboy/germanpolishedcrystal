@@ -460,9 +460,10 @@ IndigoPlateauYellowScript:
 
 .GoodbyeText:
 	text "YELLOW: Pass gut"
-	line "auf "
+	line "auf"
+	cont ""
 	text_ram wStringBuffer3
-	text ", <PLAYER>!"
+	cont ", <PLAYER>!"
 
 	para "Ich hoffe, wir"
 	line "sehen uns wieder."

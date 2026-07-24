@@ -425,7 +425,7 @@ Options_PokedexUnits:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Imperial:
-	db "Imperial@"
+	db "US-Maß@"
 .Metric:
 	db "Metrisch@"
 

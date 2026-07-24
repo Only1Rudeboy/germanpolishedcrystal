@@ -60,7 +60,8 @@ GourmetManiacScript:
 .OfferText:
 	text "Ach, das riecht so"
 	line "gut!"
-	para "Nimmst du ¥"
+	para "Nimmst du"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
 	text " dafür?"
 	done

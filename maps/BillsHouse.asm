@@ -32,8 +32,9 @@ PokemonJournalBillScript:
 	para "riesige"
 	line "#MON-Sammlung."
 	para "Sein erstes"
-	line "gefangenes #MON"
-	para "war wohl ein ABRA."
+	line "gefangenes"
+	cont "#MON war wohl"
+	cont "ein ABRA."
 	done
 
 BillsHousePCText:

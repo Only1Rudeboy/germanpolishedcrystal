@@ -2776,36 +2776,36 @@ SECTION "TwinsGroup", ROMX
 TwinsGroup:
 
 	def_trainer_class TWINS
-	def_trainer AMYANDMIMI1, "AMY & MIMI"
+	def_trainer AMYANDMIMI1, "EVA & UTE"
 	tr_mon 13, SPINARAK
 	tr_mon 13, LEDYBA
 	end_trainer
 
-	def_trainer AMYANDMIMI2, "AMY & MIMI"
+	def_trainer AMYANDMIMI2, "EVA & UTE"
 	tr_mon 13, LEDYBA
 	tr_mon 13, SPINARAK
 	end_trainer
 
-	def_trainer ANNANDANNE1, "TORI & TIL"
+	def_trainer ANNANDANNE1, "NORA & JO"
 	tr_mon 16, MARILL
 		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	end_trainer
 
-	def_trainer ANNANDANNE2, "TORI & TIL"
+	def_trainer ANNANDANNE2, "NORA & JO"
 	tr_mon 16, MAREEP
 		tr_moves GROWL, THUNDER_WAVE, THUNDERSHOCK, MUD_SLAP
 	tr_mon 16, MARILL
 		tr_moves DEFENSE_CURL, ROLLOUT, BUBBLE_BEAM, DIZZY_PUNCH
 	end_trainer
 
-	def_trainer JOANDZOE1, "LO & ZOE"
+	def_trainer JOANDZOE1, "LEA & IDA"
 	tr_mon 59, VICTREEBEL
 	tr_mon 59, VILEPLUME
 	end_trainer
 
-	def_trainer JOANDZOE2, "LO & ZOE"
+	def_trainer JOANDZOE2, "LEA & IDA"
 	tr_mon 59, VILEPLUME
 	tr_mon 59, VICTREEBEL
 	end_trainer

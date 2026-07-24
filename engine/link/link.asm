@@ -2746,7 +2746,7 @@ PlaceWaitingText::
 	jmp DelayFrames
 
 .Waiting:
-	db "Waiting…!@"
+	db "Warte…!@"
 
 Serial_SyncAndExchangeNybble::
 	vc_hook Wireless_WaitLinkTransfer

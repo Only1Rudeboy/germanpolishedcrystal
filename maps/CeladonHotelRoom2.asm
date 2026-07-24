@@ -95,9 +95,10 @@ MrHyperScript:
 
 .TextGotStronger:
 	text "Fertig! Die Werte"
-	line "von "
+	line "von"
+	cont ""
 	text_ram wStringBuffer1
-	text " steigen!"
+	cont "steigen!"
 	done
 
 .TextTrainSomeMore:

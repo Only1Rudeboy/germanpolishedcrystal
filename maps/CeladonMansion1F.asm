@@ -140,7 +140,8 @@ CeladonMansionManagerScript:
 
 .LikedFlavorText:
 	text "Was für einen"
-	line "Geschmack mag "
+	line "Geschmack mag"
+	cont ""
 	text_ram wStringBuffer1
 	cont "wohl?"
 	done
@@ -155,7 +156,8 @@ CeladonMansionManagerScript:
 	line "Wunsch, aber ich"
 	cont "brau ihn!"
 	para "Eine Tasse für"
-	line "dich, eine für "
+	line "dich, eine für"
+	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	done
@@ -164,15 +166,17 @@ CeladonMansionManagerScript:
 	text "Okay! Hier ist"
 	line "dein Tee."
 	para "Eine Tasse für"
-	line "dich, eine für "
+	line "dich, eine für"
+	cont ""
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 .MonLooksDifferentText:
 	text_ram wStringBuffer1
-	text "sieht irgendwie"
-	line "anders aus!"
+	text " sieht"
+	line "irgendwie anders"
+	cont "aus!"
 	done
 
 .MenuDataHeader:

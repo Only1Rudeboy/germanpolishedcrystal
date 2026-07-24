@@ -1616,9 +1616,11 @@ _YourMonHasGrownText::
 	text_ram wStringBuffer1
 	line "ist groß geworden."
 
-	para "Es ist um "
+	para "Es ist um"
+	line ""
 	text_decimal wStringBuffer2 + 1, 1, 3
-	line "Level gestiegen."
+	text " Level"
+	cont "gestiegen."
 
 	para "Wenn du dein"
 	line "#MON zurück"
@@ -2747,9 +2749,10 @@ ContestJudging_SecondPlaceText::
 
 SECTION "ContestJudging_SecondPlaceScoreText", ROMX
 ContestJudging_SecondPlaceScoreText::
-	para "Die Zahl war "
+	para "Die Zahl war"
+	line ""
 	text_decimal wBugContestSecondPlaceScore, 2, 3
-	line "Punkte!"
+	text " Punkte!"
 	prompt
 
 SECTION "ContestJudging_ThirdPlaceText", ROMX
@@ -2766,9 +2769,10 @@ ContestJudging_ThirdPlaceText::
 
 SECTION "ContestJudging_ThirdPlaceScoreText", ROMX
 ContestJudging_ThirdPlaceScoreText::
-	para "Die Zahl war "
+	para "Die Zahl war"
+	line ""
 	text_decimal wBugContestThirdPlaceScore, 2, 3
-	line "Punkte!"
+	text " Punkte!"
 	prompt
 
 SECTION "_MagikarpGuruMeasureText", ROMX

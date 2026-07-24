@@ -1076,7 +1076,7 @@ ThiefDescription:
 
 FacadeDescription:
 	text "Doppelter Schaden"
-	next "bei Psn/Brn/Prz."
+	next "bei GIF/BRT/PAR."
 	done
 
 HyperVoiceDescription:

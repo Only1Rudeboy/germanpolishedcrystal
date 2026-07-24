@@ -83,10 +83,11 @@ DiglettsCaveFossilManiacScript:
 .OfferText:
 	text "Hey, super! Mal"
 	line "sehen."
-	para "Ich geb dir ¥"
+	para "Ich geb dir"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text " dafür."
-	line "Einverstanden?"
+	text "."
+	para "Einverstanden?"
 	done
 
 .WrongItemText:

@@ -160,7 +160,7 @@ ManiaText_ShuckieSentToPC:
 	text "Das #MON wurde"
 	line "nach "
 	text_ram wStringBuffer1
-	text "geschickt."
+	cont "geschickt."
 	done
 
 ManiaText_PartyAndBoxFull:
