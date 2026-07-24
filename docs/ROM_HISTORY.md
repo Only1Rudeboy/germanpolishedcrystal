@@ -1,7 +1,7 @@
 # ROM-Historie — Polished Crystal DE (GSC-Kanon)
 
 Vollständige Liste der **lokal versionierten Builds**  
-`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.055`  
+`polishedcrystal-3.2.3.001` … `polishedcrystal-3.2.3.056`  
 (Zähler: `tools/save_rom_versioned.ps1` / `tools/_rom_build_version.txt`).
 
 **ROMs liegen nicht im Repo** (Copyright). Hier steht nur, **was** pro Nummer (bzw. Nummernblock) typischerweise gebaut und getestet wurde.
@@ -9,7 +9,7 @@ Vollständige Liste der **lokal versionierten Builds**
 Quellen: Git-Commits, README-Changelog, `CONTINUE.md`, Session-Notizen (2026-07).  
 Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuild markiert.
 
-**Aktueller Zähler:** **055** (nächster Build wäre **056**).  
+**Aktueller Zähler:** **056** (nächster Build wäre **057**).  
 **Spiel-Basis:** Polished Crystal **3.2.3** · Fork: [Only1Rudeboy/germanpolishedcrystal](https://github.com/Only1Rudeboy/germanpolishedcrystal) · Branch **`master`**
 
 ---
@@ -29,7 +29,7 @@ Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuil
 | H | **040–045** | Items/Moves/Dex-QC + Script-Stubs |
 | I | **046–049** | Optionen-UI, QWERTZ / v0.9, `#COM`-Casing |
 | J | **050–054** | Summary-Tabs, GSC-Feinschliff, Landmark-CAPS, Startmenü |
-| K | **055** | Grafik-Übersetzung, Namens-Audit, Zeilenumbruch-/Überlauf-Fixes |
+| K | **055–056** | Grafik-Übersetzung, Namens-Audit, Claude-Merge auf GitHub-`master` |
 
 ---
 
@@ -179,16 +179,17 @@ Ab **`.001`** zählt `save_rom_versioned.ps1` fortlaufend.
 
 ---
 
-## Phase K — 055 · Grafik-Übersetzung, Namens-Audit, Zeilenumbruch-Fixes
+## Phase K — 055–056 · Grafik-Übersetzung, Namens-Audit, Claude-Merge
 
 | ROM | Commit | Inhalt |
 |---|---|---|
-| **055** | Claude `4befb80` → `master` | **Grafiken DE:** Typ-Badges, Status-Icons, Type-Chart-Basisitem (inkl. GHOST/STEEL-Overlay), U-Glyph/Font-Fix — eigenes 3×5-Pixelfont-System. **Namens-Audit:** Pokémon-Artnamen #1–251 gegen GSC-Dump (10 Fixes, u. a. Sneasel/Qwilfish-Tausch-Bug), #252–294 online verifiziert; Team-Rocket-Vorstand Apollo/Athena/Lance/Lambda. **Zeilenumbruch-/Überlauf-Fixes:** Landmark-Namen (Klippenhöhle, Azuria-Höhle, Magnettunnel, Schneegipfel, Pokémon-Liga/-Villa/-Labor), Doppelkomma-Bug beim Zurückrufen, 10 Eigenart-Texte, Ecruteak-Schrein, Lorelei, Rocket-Grunt-/Jessie&James-Klasse, Fähigkeiten-Slideout-Box, diverse Map-Dialoge. Weiterarbeit mit **Claude** (lokal `germanpolishedcrystal-master-claude`), in pure-DE-`master` gemergt. |
+| **055** | Claude `4befb80` (lokal) | **Grafiken DE:** Typ-Badges, Status-Icons, Type-Chart-Basisitem (inkl. GHOST/STEEL-Overlay), U-Glyph/Font-Fix. **Namens-Audit:** #1–251 GSC-Dump (10 Fixes, u. a. Sneasel/Qwilfish), #252–294 verifiziert; Rocket-Vorstand Apollo/Athena/Lance/Lambda. **Überläufe:** Landmarks, Doppelkomma-Rückruf, Eigenarten, Map-Dialoge, Ability-Slideout. |
+| **056** | `cfe8d2bf0` | Claude-055 in pure-DE-**`master`** integriert (Historie 001–054 erhalten) + verified rebuild. |
 
 **Desktop (typisch):**  
-`polishedcrystal-3.2.3.055.gbc` · `…-latest.gbc` · Kopie unter `pokemon polished crystal roms\original\`
+`polishedcrystal-3.2.3.056.gbc` · `…-latest.gbc` · Kopie unter `pokemon polished crystal roms\original\`
 
-**Nächster Zähler:** **056**.
+**Nächster Zähler:** **057**.
 
 ---
 
@@ -264,7 +265,8 @@ Separates Experimenten-Pfad `germanpolishedcrystal-ARBEITSKOPIE` / Shiny-Builds 
 | **053** | LEUCHTTURM / EISPFAD + Lind-Phone |
 | **054** | Stadt-/Routen-CAPS + Startmenü `#COM` / `FERTIG` |
 | **055** | Grafik-DE + Artnamen-Audit + Rocket-Vorstand + Überlauf-Fixes *(Claude)* |
-| **056** | *(noch nicht — nächster Zähler)* |
+| **056** | Claude-055 auf GitHub-`master` + verified rebuild |
+| **057** | *(noch nicht — nächster Zähler)* |
 
 ---
 

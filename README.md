@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.055** (Grafik-Übersetzung + Namens-Audit + Zeilenumbruch-Fixes) |
+| **Aktuell pure-DE** | **ROM 3.2.3.056** (Claude-055 auf `master` integriert + verified rebuild) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–055](#rom-übersicht-001055)
+3. [ROM-Übersicht 001–056](#rom-übersicht-001056)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,15 +45,23 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**055 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**056 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
 
+### 056 · 2026-07-24 — Claude-055 auf GitHub-`master` integriert
+
+Commit: `cfe8d2bf0` (+ Docs-Follow-up)
+
+- Claude-Arbeit aus `Desktop\germanpolishedcrystal-master-claude` (ROM **055**) in die pure-DE-Historie auf **`master`** gemergt (kein History-Rewrite)
+- Verified rebuild (`make crystal`); Desktop-ROM **3.2.3.056**
+- README/ROM_HISTORY: Claude-Fixes dokumentiert
+
 ### 055 · 2026-07-23 — Grafik-Übersetzung + Namens-Audit + Zeilenumbruch-Fixes *(Claude)*
 
 Quelle: lokale Weiterarbeit in `germanpolishedcrystal-master-claude` (Commit dort: `4befb80`).  
-Übernommen nach `master` und auf GitHub gepusht (Git-Historie 001–054 bleibt erhalten).
+Inhalt = Feature-Stand **055**; auf GitHub als **056**-Rebuild unter voller Historie 001–054.
 
 #### Grafiken auf Deutsch
 - Typ-Badges: `gfx/battle/types.png`
@@ -475,7 +483,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–055
+## ROM-Übersicht 001–056
 
 | Block | Thema |
 |---|---|
@@ -495,9 +503,10 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **053** | LEUCHTTURM / EISPFAD + Lind-Phone-Grammatik |
 | **054** | Stadt-/Routen-Landmarks CAPS + Startmenü `#COM` / `FERTIG` |
 | **055** | Grafik-DE + Artnamen-Audit + Rocket-Vorstand + Überlauf-Fixes *(Claude)* |
+| **056** | Claude-055 auf GitHub-`master` integriert + verified rebuild |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 055** · nächster Build: **056**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 056** · nächster Build: **057**
 
 ---
 
