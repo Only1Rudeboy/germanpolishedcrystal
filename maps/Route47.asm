@@ -419,8 +419,9 @@ GruntM26BeatenText:
 	done
 
 Route47RocketGirlText:
+	; GSC-DE: "brat" = "Balg" (neutral), nicht "Göre" (weiblich)
 	text "Was willst du"
-	line "hier, du Göre?"
+	line "hier, du Balg?"
 	done
 
 Route47SealedCaveSign:

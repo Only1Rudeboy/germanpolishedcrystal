@@ -79,8 +79,9 @@ GenericTrainerFirebreatherRay:
 GenericTrainerRuin_maniacJones:
 	generictrainer RUIN_MANIAC, JONES, EVENT_BEAT_RUIN_MANIAC_JONES, Ruin_maniacJonesSeenText, Ruin_maniacJonesBeatenText
 
-	text "Die Ruinen"
-	line "verbergen etwas …"
+	; GSC-DE Stil: Ortsname in CAPS ("RUINEN")
+	text "Die RUINEN"
+	line "verbergen etwas…"
 	para "Das spüre ich!"
 	done
 
@@ -204,9 +205,9 @@ FirebreatherRayBeatenText:
 
 
 Ruin_maniacJonesSeenText:
-	text "Hast du die Ruinen"
-	line "von Alph"
-	cont "erforscht?"
+	; GSC-DE Dump 2921
+	text "Kennst du die"
+	line "ALPH-RUINEN?"
 	done
 
 Ruin_maniacJonesBeatenText:

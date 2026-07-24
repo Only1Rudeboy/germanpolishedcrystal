@@ -164,8 +164,7 @@ RuinsOfAlphKabutoChamberScientistCrypticText:
 	cont "aufgetaucht."
 	para "Es ist merkwürdig."
 	line "Vor kurzem waren"
-	cont "sie noch nicht da"
-	cont "…"
+	cont "sie noch nicht da…"
 	para "Wirf einen Blick"
 	line "auf die Wände."
 	done

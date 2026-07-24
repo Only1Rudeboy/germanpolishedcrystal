@@ -62,7 +62,7 @@ GourmetManiacScript:
 	line "gut!"
 	para "Nimmst du ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "dafür?"
+	text " dafür?"
 	done
 
 .WrongItemText:

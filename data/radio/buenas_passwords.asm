@@ -33,7 +33,7 @@ BuenasPasswordTable:
 .Pokemon2:      password_group BUENA_MON,    10, HOOTHOOT, SPINARAK, DROWZEE
 ; GSC-DE dump 3944–3946
 .JohtoTowns:    password_group BUENA_STRING, 16, "NEUBORKIA@", "ROSALIA CITY@", "AZALEA CITY@"
-.Types:         password_group BUENA_STRING,  6, "FLUG@", "KÄFER@", "PFLANZE@"
+.Types:         password_group BUENA_STRING,  7, "FLUG@", "KÄFER@", "PFLANZE@" ; Breite 7: "PFLANZE" (EN "Flying" = 6)
 .Moves:         password_group BUENA_MOVE,   12, TACKLE, GROWL, MUD_SLAP
 .XItems:        password_group BUENA_ITEM,   12, X_ATTACK, X_DEFEND, X_SPEED
 .RadioStations: password_group BUENA_STRING, 13, "EICHs <PK><MN>-Talk@", "#MON-Musik@", "Glückskanal@"

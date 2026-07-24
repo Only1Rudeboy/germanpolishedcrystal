@@ -122,10 +122,10 @@ EcruteakShrineInsideReiGreetingText:
 	line "Willkommen in"
 	cont "unserem Schrein."
 
-	para "Bist du gekommen,"
-	line "damit ich eines"
-	cont "deiner #MON"
-	cont "segnen soll?"
+	para "Bist du"
+	line "gekommen, damit"
+	cont "ich eines deiner"
+	cont "#MON segnen soll?"
 
 	para "Oder möchtest du"
 	line "kämpfen?"

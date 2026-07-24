@@ -85,7 +85,7 @@ DiglettsCaveFossilManiacScript:
 	line "sehen."
 	para "Ich geb dir ¥"
 	text_decimal hMoneyTemp, 3, 7
-	text "dafür."
+	text " dafür."
 	line "Einverstanden?"
 	done
 

@@ -317,8 +317,9 @@ RuinsOfAlphOutsideMysteriousHallSignText:
 	done
 
 RuinsOfAlphSignText:
-	text "ALPH-RUINEN Fremde"
-	line "willkommen!"
+	; GSC-DE Dump 1798
+	text "ALPH-RUINEN"
+	line "Fremde willkommen!"
 	done
 
 

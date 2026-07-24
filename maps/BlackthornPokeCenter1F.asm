@@ -54,8 +54,8 @@ ProfOaksAide4Script:
 	line "Du hast"
 	para "erst "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten von #MON"
-	line "gefangen."
+	text " Arten von"
+	line "#MON gefangen."
 	para "Komm wieder, wenn"
 	line "du 60 Arten"
 	cont "gefangen hast."
@@ -104,7 +104,8 @@ ProfOaksAide4Script:
 	line "gemacht! Du hast"
 	para "gefangen "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten von #MON."
+	text " Arten"
+	line "von #MON."
 	para "Glückwunsch! Hier"
 	line "bitte!"
 	done

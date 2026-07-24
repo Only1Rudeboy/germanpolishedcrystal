@@ -49,6 +49,7 @@ endc
 	plural "ift",       "ifte"       ; Gegengift
 	plural "ade",       "aden"       ; Limonade
 	plural "sand",      "sand"       ; Pudersand
+	plural "utz",       "utz"        ; Schutz, Superschutz, Top-Schutz (kein Plural-s)
 	plural "stats",     "stats"      ; Schutzstats
 	plural "block",     "blöcke"     ; Megablock
 	plural "puder",     "puder"      ; Heilpuder

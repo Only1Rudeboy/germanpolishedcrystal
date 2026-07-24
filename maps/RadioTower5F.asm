@@ -34,10 +34,18 @@ RadioTower5F_MapScriptHeader:
 	const RADIOTOWER5F_ARIANA
 
 FakeDirectorScript:
-	waitbutton
-	waitbutton
-	end
-
+	turnobject RADIOTOWER5F_DIRECTOR, UP
+	showemote EMOTE_SHOCK, RADIOTOWER5F_DIRECTOR, 15
+	showtext FakeDirectorTextBefore1
+	applymovement RADIOTOWER5F_DIRECTOR, FakeDirectorMovement
+	special SaveMusic
+	playmusic MUSIC_ROCKET_ENCOUNTER
+	showtext FakeDirectorTextBefore2
+	applymovement RADIOTOWER5F_DIRECTOR, FakeDirectorSpinMovement
+	appear RADIOTOWER5F_PETREL
+	disappear RADIOTOWER5F_DIRECTOR
+	turnobject RADIOTOWER5F_PETREL, UP
+	pause 10
 Petrel1Script:
 	checkevent EVENT_BEAT_PETREL_1
 	iftrue_jumptextfaceplayer FakeDirectorTextAfter

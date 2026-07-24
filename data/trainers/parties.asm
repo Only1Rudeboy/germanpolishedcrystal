@@ -7295,7 +7295,7 @@ SECTION "ProtonGroup", ROMX
 ProtonGroup:
 
 	def_trainer_class PROTON
-	def_trainer PROTON1, "PROTON"
+	def_trainer PROTON1, "LANCE"
 	tr_mon 39, GOLBAT @ KINGS_ROCK, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 252 Spe
@@ -7314,7 +7314,7 @@ ProtonGroup:
 		tr_moves FIRE_BLAST, EXPLOSION, SLUDGE_BOMB, SMOKESCREEN
 	end_trainer
 
-def_trainer PROTON2, "PROTON"
+def_trainer PROTON2, "LANCE"
 	tr_mon 11, ZUBAT, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 32 Spe
@@ -7331,7 +7331,7 @@ SECTION "PetrelGroup", ROMX
 PetrelGroup:
 
 	def_trainer_class PETREL
-	def_trainer PETREL1, "PETREL"
+	def_trainer PETREL1, "LAMBDA"
 	tr_mon 39, DITTO @ CHOICE_SCARF, MALE
 		tr_extra IMPOSTER
 		tr_evs 252 HP
@@ -7354,7 +7354,7 @@ PetrelGroup:
 		tr_moves QUICK_ATTACK, SCREECH, CRUNCH, SUPER_FANG
 	end_trainer
 
-	def_trainer PETREL2, "PETREL"
+	def_trainer PETREL2, "LAMBDA"
 	tr_mon 34, GOLBAT @ EVIOLITE, MALE
 		tr_extra INNER_FOCUS
 		tr_evs 216 Atk
@@ -7378,7 +7378,7 @@ SECTION "ArcherGroup", ROMX
 ArcherGroup:
 
 	def_trainer_class ARCHER
-	def_trainer ARCHER1, "ARCHER"
+	def_trainer ARCHER1, "APOLLO"
 	tr_mon 41, HOUNDOUR @ EVIOLITE, MALE
 		tr_extra FLASH_FIRE
 		tr_evs 252 HP
@@ -7401,7 +7401,7 @@ ArcherGroup:
 		tr_moves SMOKESCREEN, SUPER_FANG, FEINT_ATTACK, FLAMETHROWER
 	end_trainer
 
-	def_trainer ARCHER2, "ARCHER"
+	def_trainer ARCHER2, "APOLLO"
 	tr_mon 28, HAUNTER @ SPELL_TAG, MALE
 		tr_extra LEVITATE
 		tr_evs 88 SAt, 88 Spe
@@ -7425,7 +7425,7 @@ SECTION "ArianaGroup", ROMX
 ArianaGroup:
 
 	def_trainer_class ARIANA
-	def_trainer ARIANA1, "ARIANA"
+	def_trainer ARIANA1, "ATHENA"
 	tr_mon 40, ARBOK @ POISON_BARB, FEMALE | ARBOK_ARIANA_FORM
 		tr_extra INTIMIDATE
 		tr_evs 252 Atk
@@ -7440,7 +7440,7 @@ ArianaGroup:
 		tr_moves WING_ATTACK, NIGHT_SHADE, CONFUSE_RAY, FEINT_ATTACK
 	end_trainer
 
-	def_trainer ARIANA2, "ARIANA"
+	def_trainer ARIANA2, "ATHENA"
 	tr_mon 35, ARBOK @ BLACKGLASSES, FEMALE | ARBOK_ARIANA_FORM
 		tr_extra INTIMIDATE
 		tr_evs 216 Atk

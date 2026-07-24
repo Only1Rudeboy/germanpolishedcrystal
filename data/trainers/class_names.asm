@@ -42,8 +42,8 @@ TrainerClassNames::
 	li "Angler"            ; FISHER
 	li "Vogelprofi"        ; BIRD_KEEPER
 	li "Wanderer"          ; HIKER
-	li "Rüpel"             ; GRUNTM
-	li "Rüpel"             ; GRUNTF
+	li "Rocket"            ; GRUNTM  — GSC-DE Kanon: Klasse "ROCKET" + Name "RÜPEL"
+	li "Rocket"            ; GRUNTF
 	li "#fan"              ; POKEFANM  → Pokéfan
 	li "#fan"              ; POKEFANF
 	li "Polizist"          ; OFFICERM
@@ -119,7 +119,7 @@ TrainerClassNames::
 	li "Karate-König"      ; KARATE_KING
 	li "Turm-Tycoon"       ; TOWERTYCOON
 	li "Fabrikchef"        ; FACTORYHEAD
-	li "Jessie"            ; JESSIE_JAMES
+	li "JESSIE"            ; JESSIE_JAMES — Name-Paar: Klasse "JESSIE" + Name "& JAMES"
 	li "Ex-TOP VIER"       ; LORELEI
 	li "Ex-TOP VIER"       ; AGATHA
 	li "Fels-Fan"          ; STEVEN

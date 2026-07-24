@@ -39,8 +39,8 @@ ProfOaksAide2Script:
 .Explain
 	jumpthisopenedtext
 
-	; PC-only (Linking Cord)
-	text "Das Linking Cord"
+	; PC-only (Linking Cord = BINDESCHNUR, siehe data/items/names.asm)
+	text "Die BINDESCHNUR"
 	line "gibt manchen"
 
 	para "#MON ein Gefühl"
@@ -109,7 +109,7 @@ ProfOaksAide2UhOhText:
 	text "Mal sehen… Oh! Du"
 	line "hast nur "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten"
+	text " Arten"
 	para "gefangen."
 	para "Komm wieder, wenn"
 	line "du 30 Arten hast."
@@ -119,7 +119,7 @@ ProfOaksAide2HereYouGoText:
 	text "Mal sehen… Super!"
 	line "Du hast "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten"
+	text " Arten"
 	para "gefangen."
 	para "Glückwunsch! Hier,"
 	line "bitte!"

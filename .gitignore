@@ -83,3 +83,4 @@ build_*.log
 *.gbc.pass*
 *.gbc.superseded*
 translation_progress.json
+.aider*

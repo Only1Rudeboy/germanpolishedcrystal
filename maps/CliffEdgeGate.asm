@@ -93,7 +93,7 @@ ProfOaksAide3UhOhText:
 	text "Mal sehen… Oh! Du"
 	line "hast nur "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten"
+	text " Arten"
 	para "gefangen."
 	para "Komm wieder, wenn"
 	line "du 45 Arten hast."
@@ -103,7 +103,7 @@ ProfOaksAide3HereYouGoText:
 	text "Mal sehen… Super!"
 	line "Du hast "
 	text_decimal wTempDexOwn, 2, 3
-	text "Arten"
+	text " Arten"
 	para "gefangen."
 	para "Glückwunsch! Hier,"
 	line "bitte!"

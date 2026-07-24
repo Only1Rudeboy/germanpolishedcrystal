@@ -415,7 +415,7 @@ MrPokemonText_SentToPC:
 	text "Das #MON wurde"
 	line "nach "
 	text_ram wStringBuffer1
-	text "."
+	cont "geschickt."
 	done
 
 MrPokemonText_PartyAndBoxFull:

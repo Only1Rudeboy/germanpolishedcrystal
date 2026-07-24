@@ -121,18 +121,17 @@ RuinsOfAlphInnerChamberGrampsText:
 
 
 RuinsOfAlphInnerChamberScientistText:
+	; GSC-DE Dump 1814
 	text "Die Muster an der"
-	line "Wand sehen aus wie"
-	cont "Worte!"
-	para "Und diese"
-	line "schiebenden"
-	cont "Steinplatten"
-	cont "scheinen"
-	para "so etwas wie"
-	line "Signale zu sein."
-	para "Ich glaube, sie"
-	line "lassen #MON"
-	para "erscheinen, aber"
-	line "das ist noch"
-	cont "unklar …"
+	line "Wand sind tatsäch-"
+	cont "lich Worte!"
+	para "Und die verschieb-"
+	line "baren Steinplatten"
+	para "scheinen ein"
+	line "Signal zu sein."
+	para "Ich glaube sie"
+	line "veranlassen #-"
+	cont "MON sich zu zei-"
+	cont "gen, aber das ist"
+	cont "noch nicht sicher…"
 	done

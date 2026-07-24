@@ -62,4 +62,17 @@ _StdBattleTextbox:
 	dw LostAgainstText
 	dw BattleText_WentBackToEnemy
 	dw EnemyAffectionEvasionText
+	; GSC-DE: Klasse+Name kann laenger sein als EN (z.B. "Arenaleiterin BIANKA",
+	; "Ass-Trainerin CHIARA", "Schoenheit CASSANDRA"), daher fuer ALLE Texte,
+	; die mit <ENEMY> beginnen, automatischen Zeilenumbruch erlauben
+	dw WantsToBattleText
+	dw WantToBattleText
+	dw BattleText_EnemySentOut
+	dw BattleText_EnemyWithdrew
+	dw BattleText_EnemyWasDefeated
+	dw BattleText_EnemyWereDefeated
+	dw BattleText_EnemyIsAboutToUseWillPlayerSwitchPkmn
+	dw BattleText_EnemyAreAboutToUseWillPlayerSwitchPkmn
+	dw BattleText_EnemyIsAboutToSwitchWillPlayerSwitchPkmn
+	dw BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn
 	dw -1

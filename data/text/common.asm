@@ -59,7 +59,7 @@ _PutAwayTheApricornText::
 	text "<PLAYER> steckt"
 	line ""
 	text_ram wStringBuffer3
-	text " in die"
+	cont "in die"
 	cont "Aprikoko-Box."
 	done
 
@@ -105,7 +105,7 @@ _RecoveredSomeHPText::
 	text_ram wStringBuffer1
 	line "erholte "
 	text_decimal wCurHPAnimDeltaHP, 2, 3
-	text "KP!"
+	text " KP!"
 	done
 
 SECTION "_CuredOfPoisonText", ROMX
@@ -156,7 +156,8 @@ _RevitalizedText::
 SECTION "_GrewToLevelText", ROMX
 _GrewToLevelText::
 	text_ram wStringBuffer1
-	text " kam auf Level "
+	text " kam auf"
+	line "Level "
 	text_decimal wCurPartyLevel, 1, 3
 	text "!"
 	text_sound SFX_DEX_FANFARE_50_79
@@ -1271,7 +1272,9 @@ _NPCTradeIntroText3::
 	line "niedlich, aber ich"
 
 	para "habe keines. Hast"
-	line "du ein "
+	line "du ein"
+
+	para ""
 	text_ram wStringBuffer1
 	text "?"
 
@@ -1603,7 +1606,7 @@ _AreWeGeniusesText::
 	line "oder? Möchtest du"
 	cont "dein "
 	text_ram wStringBuffer1
-	text " sehen?"
+	cont "sehen?"
 	done
 
 SECTION "_YourMonHasGrownText", ROMX
@@ -1918,25 +1921,25 @@ Text_BattleMonNickComma::
 
 SECTION "Text_ThatsEnoughComeBack", ROMX
 Text_ThatsEnoughComeBack::
-	text ", genug!"
+	text " genug!"
 	line "Komm zurück!@"
 	text_end
 
 SECTION "Text_OKComeBack", ROMX
 Text_OKComeBack::
-	text ", O.K.!"
+	text " O.K.!"
 	line "Komm zurück!@"
 	text_end
 
 SECTION "Text_GoodComeBack", ROMX
 Text_GoodComeBack::
-	text ", gut! Komm"
+	text " gut! Komm"
 	line "zurück!@"
 	text_end
 
 SECTION "Text_ComeBack", ROMX
 Text_ComeBack::
-	text ", komm zurück!"
+	text " komm zurück!"
 	done
 
 SECTION "_BootedTMText", ROMX
@@ -1965,15 +1968,16 @@ _ContainedMoveText::
 SECTION "_TMHMNotCompatibleText", ROMX
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2
-	text " ist nicht"
-	line "kompatibel mit "
+	text " ist"
+	line "nicht kompatibel"
+	cont "mit "
 	text_ram wStringBuffer1
 	text "."
 
 	para "Kann nicht"
 	line ""
 	text_ram wStringBuffer2
-	text " lernen."
+	cont "lernen."
 	prompt
 
 SECTION "_BadgeRequiredText", ROMX
@@ -2344,8 +2348,9 @@ WhiteoutToWildText::
 	line "kampffähiges"
 	cont "#MON mehr!"
 
-	para "<PLAYER> geriet in"
-	line "Panik und verlor ¥"
+	para "<PLAYER> geriet"
+	line "in Panik und"
+	cont "verlor ¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "…"
 
@@ -2361,9 +2366,11 @@ WhiteoutToTrainerText::
 	line "kampffähiges"
 	cont "#MON mehr!"
 
-	para "<PLAYER> zahlte ¥"
+	para "<PLAYER> zahlte"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text " an den Sieger…"
+	cont "an den"
+	cont "Sieger…"
 
 	para "……………… ………………"
 
@@ -2376,9 +2383,11 @@ ForfeitToTrainerText::
 	text "<PLAYER> gab den"
 	line "Kampf auf…"
 
-	para "<PLAYER> zahlte ¥"
+	para "<PLAYER> zahlte"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text " an den Sieger…"
+	cont "an den"
+	cont "Sieger…"
 
 	para "……………… ………………"
 
@@ -2530,9 +2539,10 @@ Text_BreedHuh::
 
 SECTION "_BreedEggHatchText", ROMX
 _BreedEggHatchText::
+	; GSC-DE Dump Z.8152: "<NAME>" / "schlüpft aus dem" / <CONT> "EI!"
 	text_ram wStringBuffer1
-	text " schlüpfte aus dem"
-	line "Ei!"
+	line "schlüpft aus dem"
+	cont "EI!"
 	text_sound SFX_CAUGHT_MON
 	text_promptbutton
 	text_end
@@ -2667,7 +2677,7 @@ _EggSentToPCText::
 	text "Das EI wurde an"
 	line ""
 	text_ram wStringBuffer1
-	text " geschickt."
+	cont "geschickt."
 	prompt
 
 SECTION "_PCGottaHavePokemonText", ROMX
@@ -2777,7 +2787,8 @@ _KarpGuruRecordText::
 	text "Aktueller Rekord"
 	para ""
 	text_ram wStringBuffer1
-	text ", gefangen von "
+	text ", gefangen"
+	line "von "
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
 	text_end
@@ -2791,7 +2802,8 @@ _LuckyNumberMatchPartyText::
 
 	para "von "
 	text_ram wStringBuffer2
-	text " in deinem Team."
+	text " in"
+	line "deinem Team."
 	prompt
 
 SECTION "_LuckyNumberMatchPCText", ROMX
@@ -2803,7 +2815,8 @@ _LuckyNumberMatchPCText::
 
 	para "von "
 	text_ram wStringBuffer2
-	text " in Box '"
+	text " in Box"
+	line "'"
 	text_ram wStringBuffer1
 	text "'."
 	prompt
@@ -3151,7 +3164,7 @@ _ItemsTossOutHowManyText::
 	line ""
 	text_ram wStringBuffer2
 	text_plural
-	text " wegwerfen?"
+	cont "wegwerfen?"
 	done
 
 SECTION "_ItemsDiscardedText", ROMX
@@ -3663,9 +3676,10 @@ _BargainShopIntroText::
 SECTION "_BargainShopFinalPriceText", ROMX
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " kostet ¥"
+	text " kostet"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text ". Willst du's?"
+	cont "Willst du's?"
 	done
 
 SECTION "_BargainShopThanksText", ROMX
@@ -3749,7 +3763,8 @@ _MartSellHowManyText::
 
 SECTION "_MartSellPriceText", ROMX
 _MartSellPriceText::
-	text "Ich zahle dir ¥"
+	text "Ich zahle dir"
+	line "¥"
 	text_decimal hMoneyTemp, 3, 7
 	text "."
 
@@ -3805,7 +3820,7 @@ _MartBoughtText::
 	line ""
 	text_ram wStringBuffer2
 	text_plural
-	text " erhalten."
+	cont "erhalten."
 	done
 
 SECTION "_SlotsBetHowManyCoinsText", ROMX
@@ -3951,8 +3966,9 @@ ResetInitialOptionsText::
 
 SECTION "_LearnedMoveText", ROMX
 _LearnedMoveText::
+	; GSC-DE Dump Z.8390: "<NAME> erlernt / <MOVE>!"
 	text_ram wMonOrItemNameBuffer
-	text " lernte"
+	text " erlernt"
 	line ""
 	text_ram wStringBuffer2
 	text "!"
@@ -3962,39 +3978,48 @@ _LearnedMoveText::
 
 SECTION "_MoveAskForgetText", ROMX
 _MoveAskForgetText::
+	; GSC-DE Dump Z.8391: "Welche Attacke / soll vergessen / werden?"
 	text "Welche Attacke"
-	next "vergessen?"
-
-	para ""
+	next "soll vergessen"
+	cont "werden?"
 	done
 
 SECTION "_StopLearningMoveText", ROMX
 _StopLearningMoveText::
-	text "Erlernen von"
-	line ""
+	; GSC-DE Dump Z.8392: "<MOVE> / nicht erlernen?" (statt "Erlernen von X abbrechen?")
 	text_ram wStringBuffer2
-	text " abbrechen?"
+	line "nicht erlernen?"
 	done
 
 SECTION "_DidNotLearnMoveText", ROMX
 _DidNotLearnMoveText::
+	; GSC-DE Dump Z.8393: "<NAME> / hat <MOVE>" / <CONT> "nicht erlernt."
 	text_ram wMonOrItemNameBuffer
-	line "lernte"
-	cont ""
+	line "hat "
 	text_ram wStringBuffer2
-	text " nicht."
+	cont "nicht erlernt."
 	prompt
 
 SECTION "_AskForgetMoveText", ROMX
 _AskForgetMoveText::
+	; GSC-DE Dump Z.8394
 	text_ram wMonOrItemNameBuffer
-	line "will lernen:"
+	line "versucht,"
 	cont ""
 	text_ram wStringBuffer2
-	text "!"
+	text " zu"
+	cont "erlernen!"
 
-	para "Soll dafür eine"
-	line "alte Attacke"
+	para "Aber "
+	text_ram wMonOrItemNameBuffer
+	line "kann nicht mehr"
+	cont "als vier Attacken"
+	cont "erlernen."
+
+	para "Soll eine andere"
+	line "Attacke zugunsten"
+	cont "von "
+	text_ram wStringBuffer2
 	cont "vergessen werden?"
 	done
 
@@ -4118,7 +4143,8 @@ _BuenaAskWhichPrizeText::
 SECTION "_BuenaIsThatRightText", ROMX
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
-	text "? Ist das richtig?"
+	text "?"
+	line "Ist das richtig?"
 	done
 
 SECTION "_BuenaHereYouGoText", ROMX
@@ -4197,8 +4223,7 @@ _CurBoxFullText::
 SECTION "_MonSentToPCText", ROMX
 _MonSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " wurde"
-	line "geschickt an"
+	line "wurde geschickt an"
 	cont ""
 	text_ram wStringBuffer1
 	text "."
@@ -4293,20 +4318,22 @@ Text_RestoreThePPOfWhichMove::
 SECTION "Text_PPIsMaxedOut", ROMX
 Text_PPIsMaxedOut::
 	text_ram wStringBuffer2
-	text " hat maximale AP."
+	text " hat"
+	line "maximale AP."
 	prompt
 
 SECTION "Text_PPsIncreased", ROMX
 Text_PPsIncreased::
 	text_ram wStringBuffer2
-	text "s AP erhöhten"
-	line "sich."
+	text "s AP"
+	line "erhöhten sich."
 	prompt
 
 SECTION "Text_PPsMaximized", ROMX
 Text_PPsMaximized::
 	text_ram wStringBuffer2
-	text "s AP maximiert."
+	text "s AP"
+	line "maximiert."
 	prompt
 
 SECTION "_PPRestoredText", ROMX

@@ -492,7 +492,9 @@ ScrollingMenu_IsTerminator:
 	ret
 
 ScrollingMenu_CancelString:
-	db "Abbrechen@"
+	; GSC-DE Kanon fuer Listenmenues: "ZURÜCK" (6 Zeichen wie EN "Cancel");
+	; "Abbrechen" (9) laeuft in schmalen Boxen ueber (z.B. EP-Bonbon-Menue)
+	db "Zurück@"
 
 ScrollingMenu_CallFunctions1and2:
 	push hl

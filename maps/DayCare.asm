@@ -98,10 +98,12 @@ DayCare_MeetGrandma:
 	ld hl, wStringBuffer4
 	jmp CopyName2
 
+	; Buffer3: kompletter Scherz-Satzteil ("Junge… Freund."), Text haengt nichts mehr an.
+	; Buffer4: nur Pronomen, Text ergaenzt "hat bestimmt Talent."
 .boy:  db "Junge… Freund.@"
 .girl: db "Mädchen… Freundin.@"
-.she:  db "Sie ist doch talentiert.@"
-.he:   db "Er ist doch talentiert.@"
+.she:  db "Sie@"
+.he:   db "Er@"
 
 DayCareManScript_Inside:
 	faceplayer
@@ -205,7 +207,6 @@ DayCareLyraHelloText:
 	para "Das ist dein"
 	line ""
 	text_ram wStringBuffer3
-	text "-Freund."
 
 	para "Verstehe. Hmm."
 	done

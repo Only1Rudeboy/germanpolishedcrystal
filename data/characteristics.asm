@@ -38,7 +38,7 @@ Characteristics:
 	done
 .Chara_HP1:
 	text "Macht gern"
-	next1 "ein Nickerchen"
+	next1 "Nickerchen"
 	done
 .Chara_HP2:
 	text "Nickt gern"
@@ -55,15 +55,15 @@ Characteristics:
 
 .Chara_Atk0:
 	text "Stolz auf"
-	next1 "seine Stärke"
+	next1 "seine Kraft"
 	done
 .Chara_Atk1:
-	text "Prügelt sich"
-	next1 "gern"
+	text "Prügelt"
+	next1 "sich gern"
 	done
 .Chara_Atk2:
-	text "Erzürnt sich"
-	next1 "schnell"
+	text "Wird oft"
+	next1 "zornig"
 	done
 .Chara_Atk3:
 	text "Liebt"
@@ -78,8 +78,8 @@ Characteristics:
 	next1 "Körper"
 	done
 .Chara_Def1:
-	text "Kann Treffer"
-	next1 "gut wegstecken"
+	text "Steckt viel"
+	next1 "weg"
 	done
 .Chara_Def2:
 	text "Sehr"
@@ -98,7 +98,7 @@ Characteristics:
 	next1 "neugierig"
 	done
 .Chara_SAt1:
-	text "Hinterhältig"
+	text "Verschlagen"
 	done
 .Chara_SAt2:
 	text "Raffiniert"
@@ -107,17 +107,20 @@ Characteristics:
 	text "Versponnen"
 	done
 .Chara_SAt4:
-	text "Müffelt gern"
+	text "Müffelt"
+	next1 "gern"
 	done
 
 .Chara_SDf0:
-	text "Willensstark"
+	text "Willens-"
+	next1 "stark"
 	done
 .Chara_SDf1:
 	text "Etwas eitel"
 	done
 .Chara_SDf2:
-	text "Sehr trotzig"
+	text "Sehr"
+	next1 "trotzig"
 	done
 .Chara_SDf3:
 	text "Hasst"
@@ -139,7 +142,8 @@ Characteristics:
 	next1 "und albern"
 	done
 .Chara_Spe3:
-	text "Etwas albern"
+	text "Etwas"
+	next1 "albern"
 	done
 .Chara_Spe4:
 	text "Flüchtet"

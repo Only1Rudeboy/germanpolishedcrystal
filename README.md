@@ -7,12 +7,12 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.054** (Stadt-Landmarks GSC-CAPS + Startmenü `#COM`/`FERTIG`) |
+| **Aktuell pure-DE** | **ROM 3.2.3.055** (Grafik-Übersetzung + Namens-Audit + Zeilenumbruch-Fixes) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
 
-> Mit **Grok 4.5** (xAI) unterstützt. Es können noch Fehler, Zeilenumbrüche oder einzelne EN-Stellen vorkommen.  
+> Mit **Grok 4.5** (xAI) und **Claude** (Anthropic) unterstützt. Es können noch Fehler, Zeilenumbrüche oder einzelne EN-Stellen vorkommen.  
 > **Feedback willkommen** (Issues / PRs).  
 > **Nur pure DE-Lokalisierung** in diesem Repo — keine Shiny-/ARBEITSKOPIE-Gameplay-Mods.
 
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–054](#rom-übersicht-001054)
+3. [ROM-Übersicht 001–055](#rom-übersicht-001055)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,10 +45,46 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**054 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**055 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
+
+### 055 · 2026-07-23 — Grafik-Übersetzung + Namens-Audit + Zeilenumbruch-Fixes *(Claude)*
+
+Quelle: lokale Weiterarbeit in `germanpolishedcrystal-master-claude` (Commit dort: `4befb80`).  
+Übernommen nach `master` und auf GitHub gepusht (Git-Historie 001–054 bleibt erhalten).
+
+#### Grafiken auf Deutsch
+- Typ-Badges: `gfx/battle/types.png`
+- Status-Icons: Kampf / Stats / Gegner (`gfx/battle/status*.png`, `gfx/stats/status.png`)
+- Type-Chart „Basisitem“: `gfx/type_chart/bg.png` + `ob.png` (inkl. GHOST/STEEL-Zeile & ATK/DEF-Achse)
+- U-Glyph- und Font-Fix: `gfx/font/vwf.png` (3×5-Pixelfont für Icon-Grafiken)
+
+#### Pokémon-Artnamen-Audit
+- **#001–#251** gegen GSC-DE-Dump geprüft; **10 echte Fehler** korrigiert, u. a.:
+  - Tausch-Bug **Sneasel/Qwilfish** (SNIEBEL / BALDORFISH)
+  - ALPUMA→**ALPOLLO**, AIPOM→**GRIFFEL**, WOOPER→**FELINO**, ESPEON→**PSIANA**
+  - SLOWKING→**LASCHOKING**, DUNSPARCE→**DUMMISEL**, SCIZOR→**SCHEROX**, KINGDRA→**SEEDRAKING**
+- Namen **#252–294** (Polished-exklusiv) gegen offizielle DE-Quellen verifiziert
+
+#### Team-Rocket-Vorstand (offizielle DE-Namen)
+| EN | DE |
+|---|---|
+| Archer | **Apollo** |
+| Ariana | **Athena** |
+| Proton | **Lance** |
+| Petrel | **Lambda** |
+
+#### Bugfixes / Überläufe
+- **Landmark-Zeilenumbruch** (Pokégear-Kartenname, 12-Zeichen): Klippenhöhle, Azuria-Höhle, Magnettunnel, Schneegipfel, Pokémon-Liga/-Villa/-Labor
+- **Doppelkomma-Bug** beim Zurückrufen im Kampf: `NAME,, komm zurück!` → `NAME, komm zurück!`
+- **10 Eigenart-Text-Überläufe** im Summary (u. a. „Sehr trotzig“, „Hinterhältig“, „Willensstark“)
+- Weitere Zeilenumbruch-/Überlauf-Fixes: Ecruteak-Schrein-Segnung, Lorelei (Eispfad), Rocket-Grunt-Klasse (**Rüpel**→**Rocket** GSC-Kanon), Jessie&James-Klasse, Fähigkeiten-Slideout-Box (Tile-Korruption bei langen Namen wie „Feuerfänger“)
+- Map-Dialoge: Blackthorn-PC, Klippenrand-Pass, Tagespflege, Digda-Höhle, Ilex-Tor, Mr.#MON-Haus, Radioturm, Route 32/38/47, Alph-Ruinen, Einheitstunnel
+
+#### Tooling (Claude-Nebencommits 2026-07-20)
+- `tools/apply_gsc_dump_items_moves.py`: ROOT-Variable, Imports (`Path`/`re`), Script-Erweiterung für `descriptions.asm`
 
 ### 054 · 2026-07-17 — Stadt-Landmarks GSC-CAPS + Startmenü
 
@@ -439,7 +475,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–054
+## ROM-Übersicht 001–055
 
 | Block | Thema |
 |---|---|
@@ -458,9 +494,10 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **052** | Landmark-Gebäude CAPS + Shop-over18 + Mega-/Continue-Batch |
 | **053** | LEUCHTTURM / EISPFAD + Lind-Phone-Grammatik |
 | **054** | Stadt-/Routen-Landmarks CAPS + Startmenü `#COM` / `FERTIG` |
+| **055** | Grafik-DE + Artnamen-Audit + Rocket-Vorstand + Überlauf-Fixes *(Claude)* |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 054** · nächster Build: **055**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 055** · nächster Build: **056**
 
 ---
 
@@ -528,7 +565,7 @@ NEUBORKIA · ROSALIA · VIOLA · AZALEA · DUKATIA · TEAK · OLIVIANA · ANEMON
 | Datei / Ordner | Zweck |
 |---|---|
 | [`INSTALL.md`](INSTALL.md) | Bauen (DE) |
-| [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md) | ROM 001–054 Detail / Historie |
+| [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md) | ROM 001–055 Detail / Historie |
 | `tools/save_rom_versioned.ps1` | Desktop-ROM `.001`, `.002`, … |
 | `tools/_gsc_de_crystal_msg.txt` | GSC-DE-Dump-Referenz |
 | `tools/gsc_canon_setup/` | Batch-Regeln & Scanner |
@@ -560,7 +597,7 @@ Shiny-/ARBEITSKOPIE-Gameplay gehört **nicht** ins Repo.
 | **Spiel / Engine** | Rangi42 & Polished-Crystal-Mitwirkende |
 | **Disassembly** | pret / pokecrystal |
 | **DE GSC-Kanon-Lokalisierung** | Only1Rudeboy |
-| **KI-Unterstützung** | Grok 4.5 (xAI) — WIP |
+| **KI-Unterstützung** | Grok 4.5 (xAI); Claude (Anthropic) ab ROM **055** — WIP |
 
 ---
 

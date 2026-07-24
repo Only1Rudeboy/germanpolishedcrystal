@@ -511,8 +511,8 @@ _UpdateMewtwoForm:
 
 GiveTakeItemMenuData:
 	db MENU_BACKUP_TILES | MENU_SPRITE_ANIMS
-	; slightly wider for "Tausch"
-	menu_coords 12, 10, 19, 17
+	; breiter fuer "Tausch": Innenbreite = Cursor + 6 Zeichen (EN "Give" = 4)
+	menu_coords 11, 10, 19, 17
 	dw .Items
 	db 1 ; default option
 

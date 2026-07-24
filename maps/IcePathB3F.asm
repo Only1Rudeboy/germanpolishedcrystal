@@ -154,8 +154,9 @@ LoreleiAfterIntroText:
 	done
 
 LoreleiNoBattleText:
-	text "Wenn du mir nicht"
-	line "standhalten"
+	text "Wenn du"
+	line "mir nicht"
+	cont "standhalten"
 	para "kannst, wirst du"
 	line "den CHAMP nie"
 	cont "besiegen."

@@ -19,32 +19,35 @@ Route32RuinsOfAlphGate_MapScriptHeader:
 	object_event  1,  6, SPRITE_CAMPER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route32RuinsOfAlphGateYoungsterText, -1
 
 Route32RuinsOfAlphGateOfficerText:
+	; GSC-DE Dump 2432
 	text "ALPH-RUINEN"
-	para "Eine"
-	line "Besichtigungsstät-"
-	cont "te für Touristen."
+	para "Eine Besichti-"
+	line "gungsstätte"
+	cont "für Touristen."
 	para "Versuche, die"
 	line "schwenkbaren"
-	para "Steintafeln zu"
-	line "bewegen!"
+	para "Steintafeln"
+	line "zu bewegen!"
 	done
 
 
 Route32RuinsOfAlphGatePokefanMText:
-	text "Du untersuchst die"
-	line "RUINEN?"
+	; GSC-DE Dump 2433
+	text "Du untersuchst"
+	line "die RUINEN?"
 	para "Ich sehe einen"
-	line "Wissenschaftler in"
-	cont "spe."
+	line "Wissenschaftler"
+	cont "in spe."
 	done
 
 
 Route32RuinsOfAlphGateYoungsterText:
+	; GSC-DE Dump 2434
 	text "Auf den"
-	line "Steintafeln sind"
-	cont "Zeichnungen."
-	para "Ich versuchte, sie"
-	line "zu bewegen."
+	line "Steintafeln"
+	cont "sind Zeichnungen."
+	para "Ich versuchte,"
+	line "sie zu bewegen."
 	para "Ich frage mich,"
 	line "was sie"
 	cont "darstellen."
