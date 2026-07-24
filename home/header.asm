@@ -125,7 +125,10 @@ ItemIsMail_a::
 
 SECTION "lcd", ROM0[$0048]
 	push af
-	jr hLCDInterruptFunction
+	; hLCDInterruptFunction is at $FFxx; $FFxx-$0048 >> 128, so RGBLINK
+	; v1.0.2 treats a plain `jr hLCDInterruptFunction` as invalid.
+	; Subtract $10000 so the relative offset is in -128..127 (same as upstream).
+	jr hLCDInterruptFunction - $10000
 
 GetMemCGBLayout::
 	xor a ; CGB_RAM
