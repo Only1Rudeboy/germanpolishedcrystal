@@ -52,6 +52,8 @@ Neueste pure-DE-Builds zuerst (**060 → 000**). Detail-Historie: [`docs/ROM_HIS
 
 ### 060 · 2026-07-26 — GSC-DE-Pass: Kampf-/Rückruf-Texte
 
+Commit: `edd315daf`
+
 Workflow `gsc-de-pass` (Scan → Verify → Plan, dry-run) → manuell 8 bestätigte Fixes.
 
 - **Wrap:** `wurde von` (nicht nur `von`)
