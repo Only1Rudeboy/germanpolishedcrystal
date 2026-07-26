@@ -1574,17 +1574,17 @@ ElmGiveMasterBallText1:
 
 
 ElmGiveMasterBallText2:
+	; GSC-DE dump 3010 (Silbentrennung „ultima- / tive“ ist offiziell)
 	text "Der MEISTERBALL"
 	line "ist der Beste von"
 	cont "allen!"
-	para "Er ist der"
-	line "ultima-tive BALL!"
-	cont "Ihm"
+	para "Er ist der ultima-"
+	line "tive BALL! Ihm"
 	para "kann kein #MON"
 	line "entwischen."
-	para "Er wird nur"
-	line "anerkannten"
-	cont "#MON-Forschern"
+	para "Er wird nur aner-"
+	line "kannten #MON-"
+	cont "Forschern"
 	cont "überreicht."
 	para "Aber ich glaube,"
 	line "du hast bessere"
