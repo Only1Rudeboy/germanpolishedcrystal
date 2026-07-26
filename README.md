@@ -52,6 +52,8 @@ Neueste pure-DE-Builds zuerst (**061 → 000**). Detail-Historie: [`docs/ROM_HIS
 
 ### 061 · 2026-07-26 — Mama-Geld-Text Overflow + Workflow-Regel
 
+Commit: `4c2b543f9`
+
 - **SentSomeToMomText:** dump-nah (`<PLAYER> erhält` / `¥N und schickt` / para / `einen Teil nach Hause.`) — kein mid-word `sc|hickt` bei ¥2100+
 - **Workflow `gsc-de-pass`:** harte LINE-WRAP-Regeln (max 18, kein Wort-Mittenbruch, worst-case bei `text_decimal`/`<PLAYER>`)
 
