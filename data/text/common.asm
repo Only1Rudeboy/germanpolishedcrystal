@@ -2333,10 +2333,10 @@ _GotTheItemText:
 
 SECTION "_ReceivedTheBadgeText", ROMX
 _ReceivedTheBadgeText:
-	; badge short name + ORDEN (GSC-DE style)
+	; GSC-DE Dump (meiste Arenen): "<PLAYER> erhält / XXXORDEN."
+	; BadgeNames sind volle Namen (DRACHENORDEN, BASISORDEN, …) — nicht „ORDEN“+Kurzform.
 	text "<PLAYER> erhält"
-	line "den ORDEN"
-	cont ""
+	line ""
 	text_ram wStringBuffer4
 	text "."
 	done

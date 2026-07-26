@@ -2729,10 +2729,14 @@ Script_givebadge:
 	jmp ScriptCall
 
 GiveBadgeScript:
+	; Text zuerst + A-Bestätigung, bevor Badge-GFX die Font-Tiles überschreibt
+	; (sonst sieht man Müll wie „steckt Orden Dracke in die Tasche“).
 	farwritetext _ReceivedTheBadgeText
+	waitbutton
 	callasm ShowBadgeIcon
 	playsound SFX_GET_BADGE
 	waitsfx
+	waitbutton
 	writetext ClearText
 	special LoadMapPalettes
 	callasm SetDefaultBGPAndOBP
