@@ -134,9 +134,18 @@ if !valid_scope {
 let HARD_RULES = "";
 HARD_RULES += "PROJECT: germanpolishedcrystal (Polished Crystal 3.2.3 DE GSC-canon). Branch master only. ";
 HARD_RULES += "STYLE: pure German, GSC DE Crystal fidelity. Canon dump: tools/_gsc_de_crystal_msg.txt. ";
-HARD_RULES += "Also read CANON_STYLE.md. Anrede du. ~TEXTBOX_INNERW 18 (max ~18 tiles per line). ";
+HARD_RULES += "Also read CANON_STYLE.md. Anrede du. TEXTBOX_INNERW = 18 tiles max per line (hard). ";
 HARD_RULES += "Macros: #MON/#BALL/#DEX/#COM use 7 tiles. Keep GSC anglicisms that exist in DE Crystal. Mama says Schatz. ";
 HARD_RULES += "City/route landmarks often CAPS where already established. ARENALEITER CAPS. ";
+HARD_RULES += "LINE-WRAP / OVERFLOW (all domains: battle, maps NPC, system — P0/P1): ";
+HARD_RULES += "(W1) NEVER split a German word mid-word across line/cont (e.g. schickt -> sc|hickt is a bug). ";
+HARD_RULES += "(W2) Soft hyphen only at natural syllable breaks with '-', and only if dump/GSC style needs it. ";
+HARD_RULES += "(W3) DYNAMIC WIDTH: any line with text_decimal, text_ram, <PLAYER>, <USER>, nicknames, money (¥) must fit ";
+HARD_RULES += "WORST CASE (long name + max digits). Count tiles, leave headroom; move static words to next line/para. ";
+HARD_RULES += "(W4) Known pitfall: SentSomeToMomText — dump is '<PLAYER> erhält' / '¥N und schickt' / para / 'einen Teil nach' / 'Hause.' ";
+HARD_RULES += "Do NOT put 'erhält ¥N und schickt' on one line. ";
+HARD_RULES += "(W5) Overflow that draws past the box bottom is P0/P1 — fix reflow, do not ignore. ";
+HARD_RULES += "(W6) Prefer dump layout (line/cont/para) over cramming; one intentional para is better than mid-word wrap. ";
 HARD_RULES += "BATTLE SAFETY (critical regressions): ";
 HARD_RULES += "(1) Do NOT expand EnemyLinebreakTable / mid-battle cont linebreaks — extra cont causes extra A-press and feels bugged. ";
 HARD_RULES += "(2) Ability slideout must keep grammar 'hat NAME' (do not remove 'hat '). ";
@@ -175,15 +184,19 @@ for d in domains {
         p += "engine/battle/ability_gfx.asm (or similar ability text), any EnemyLinebreak table. ";
         p += "Hunt: English leftovers, missing 'hat ', extra cont mid-enemy text, empty HitNTimes lines, ";
         p += "double commas on recall, over-expanded EnemyLinebreakTable entries. ";
+        p += "Also hunt MONEY/MOM payout lines (GotMoneyForWinningText, SentSomeToMomText, SentHalf/AllToMomText) for overlong lines ";
+        p += "with text_decimal wBattleReward — mid-word wrap is P0. ";
         p += "Do NOT propose expanding EnemyLinebreaks as a 'fix' for width unless absolutely necessary; prefer shorter wording. ";
     }
     if d == "maps" {
-        p += "FOCUS: maps/*.asm dialogues. Hunt EN leftovers, non-GSC place names, overlong lines, mid-@ breaks, text_ram/money bugs. ";
+        p += "FOCUS: maps/*.asm NPC dialogues. Hunt EN leftovers, non-GSC place names, overlong lines (>18 tiles), ";
+        p += "mid-word wraps, mid-@ breaks, text_ram/money bugs. ";
+        p += "Lines with text_ram / player name / item name must fit worst-case width. ";
         p += "Compare against tools/_gsc_de_crystal_msg.txt when a known Crystal line exists. Sample, do not claim full coverage of all maps. ";
     }
     if d == "system" {
         p += "FOCUS: data/text/*.asm, engine/menus/*.asm, start menu (#COM/FERTIG), options, PC strings, common chains, diploma/judge if DE. ";
-        p += "Hunt EN menus, wrong casing, overlong labels. ";
+        p += "Hunt EN menus, wrong casing, overlong labels, dynamic money/name strings that overflow the box. ";
     }
     if d == "names" {
         p += "FOCUS: data/pokemon names, trainer class_names, landmarks.asm CAPS, item/move names vs GSC DE. ";
@@ -252,8 +265,9 @@ for f in to_verify {
     vp += "severity=" + json_encode(f.severity) + " fix_hint=" + json_encode(f.fix_hint) + " risk=" + json_encode(f.risk) + ". ";
     vp += "Set real=true only if the defect exists in shipped code. ";
     vp += "Set safe_to_apply=true only if a minimal fix will NOT: ";
-    vp += "(a) add mid-battle cont/EnemyLinebreak A-presses, (b) remove ability 'hat ', (c) break scripts/text_ram, ";
-    vp += "(d) invent non-GSC names, (e) rewrite large unrelated text. ";
+    vp += "(a) add mid-battle cont/EnemyLinebreak A-presses (except intentional dump para for multi-box texts), ";
+    vp += "(b) remove ability 'hat ', (c) break scripts/text_ram, ";
+    vp += "(d) invent non-GSC names, (e) rewrite large unrelated text, (f) leave mid-word wraps or >18 tile lines. ";
     vp += "battle_risk: none|low|high — high if battle text/ability/EnemyLinebreak involved. ";
     vp += "If fix_hint proposes expanding EnemyLinebreaks, set safe_to_apply=false unless you prove no extra A-press. ";
     vp += "evidence must quote path + what you saw. reason explains verdict.";
@@ -385,7 +399,8 @@ if dry_run || skip_apply {
     sp += HARD_RULES;
     sp += "TASK: SAFETY RECHECK after localization edits. Read real files. ";
     sp += "Check: EnemyLinebreakTable not over-expanded; ability text still has 'hat '; ";
-    sp += "no double-comma recall; no empty critical battle lines; no accidental EN reintroduced in touched files. ";
+    sp += "no double-comma recall; no empty critical battle lines; no accidental EN reintroduced in touched files; ";
+    sp += "no mid-word wraps; SentSomeToMom / money lines still dump-safe under long player names + 6-digit rewards. ";
     sp += "files_touched JSON: " + json_encode(files_touched) + ". ";
     sp += "ok=true only if no P0 battle regressions found. List issues if any.";
     let safety_r = agent(sp, #{

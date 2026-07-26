@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.060** (GSC-DE-Pass Kampftexte) |
+| **Aktuell pure-DE** | **ROM 3.2.3.061** (Mama-Geld Zeilenumbruch) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–060](#rom-übersicht-001060)
+3. [ROM-Übersicht 001–061](#rom-übersicht-001061)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,10 +45,15 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**060 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**061 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
+
+### 061 · 2026-07-26 — Mama-Geld-Text Overflow + Workflow-Regel
+
+- **SentSomeToMomText:** dump-nah (`<PLAYER> erhält` / `¥N und schickt` / para / `einen Teil nach Hause.`) — kein mid-word `sc|hickt` bei ¥2100+
+- **Workflow `gsc-de-pass`:** harte LINE-WRAP-Regeln (max 18, kein Wort-Mittenbruch, worst-case bei `text_decimal`/`<PLAYER>`)
 
 ### 060 · 2026-07-26 — GSC-DE-Pass: Kampf-/Rückruf-Texte
 
@@ -559,7 +564,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–060
+## ROM-Übersicht 001–061
 
 | Block | Thema |
 |---|---|
@@ -584,9 +589,10 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **058** | Pass-2: common-Ketten + ENDE/Judge/Diplom-Gfx |
 | **059** | Kampftext-Hotfix (Ability hat / Enemy-CONT / HitNTimes) |
 | **060** | GSC-DE-Pass: Wrap/Ungehorsam/Rückruf/Item/Send-out dump-nah |
+| **061** | SentSomeToMom Overflow + Workflow LINE-WRAP-Regeln |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 060** · nächster Build: **061**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 061** · nächster Build: **062**
 
 ---
 

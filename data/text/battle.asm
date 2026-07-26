@@ -396,14 +396,15 @@ TiedAgainstText:
 	line "<ENEMY>!"
 	prompt
 
-; GSC-DE: erhält + schickt einen Teil nach Hause
+; GSC-DE dump: "<PLAYER> erhält / ¥XXXX und schickt / PARA / einen Teil nach / Hause."
+; Nicht "erhält ¥XXXX und schickt" auf einer Zeile — bei 4+ Ziffern Overflow (sc|hickt).
 SentSomeToMomText:
-	text "<PLAYER>"
-	line "erhält ¥"
+	text "<PLAYER> erhält"
+	line "¥"
 	text_decimal wBattleReward, 3, 6
 	text " und schickt"
-	cont "einen Teil nach"
-	cont "Hause!"
+	para "einen Teil nach"
+	line "Hause."
 	prompt
 
 SentHalfToMomText:
