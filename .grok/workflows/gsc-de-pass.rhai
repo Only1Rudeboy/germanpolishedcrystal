@@ -146,6 +146,8 @@ HARD_RULES += "(W4) Known pitfall: SentSomeToMomText — dump is '<PLAYER> erhä
 HARD_RULES += "Do NOT put 'erhält ¥N und schickt' on one line. ";
 HARD_RULES += "(W5) Overflow that draws past the box bottom is P0/P1 — fix reflow, do not ignore. ";
 HARD_RULES += "(W6) Prefer dump layout (line/cont/para) over cramming; one intentional para is better than mid-word wrap. ";
+HARD_RULES += "(W7) CHOICE MENUS: menu_coords width must fit longest label. With STATICMENU_CURSOR, max tiles = x2-x1-2. ";
+HARD_RULES += "Example: Schwach=7 needs x1<=10 when x2=19 (DragonShrine Q5). Run tools/audit_menu_box_widths.py after DE menu renames. ";
 HARD_RULES += "BATTLE SAFETY (critical regressions): ";
 HARD_RULES += "(1) Do NOT expand EnemyLinebreakTable / mid-battle cont linebreaks — extra cont causes extra A-press and feels bugged. ";
 HARD_RULES += "(2) Ability slideout must keep grammar 'hat NAME' (do not remove 'hat '). ";

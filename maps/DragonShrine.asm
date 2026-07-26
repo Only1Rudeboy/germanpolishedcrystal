@@ -264,7 +264,8 @@ DragonShrineQuestion4_MenuHeader:
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 11, 4, 19, 11
+	; DE: „Schwach“=7; mit Cursor max_fit=x2-x1-2 → x1≤10 (EN Weak=4 passte in 11)
+	menu_coords 10, 4, 19, 11
 	dw .MenuData
 	db 1 ; default option
 

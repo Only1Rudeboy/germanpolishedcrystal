@@ -7,7 +7,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 |---|---|
 | **Status** | WIP — spielbar, Feedback erwünscht |
 | **Basis** | Polished Crystal 3.2.3 · pret/pokecrystal |
-| **Aktuell pure-DE** | **ROM 3.2.3.062** (MEISTERBALL-Dump-Layout) |
+| **Aktuell pure-DE** | **ROM 3.2.3.063** (Menü-Box-Breiten) |
 | **Branch** | **`master`** (einziger Entwicklungs-Branch / GitHub-Default) |
 | **Upstream** | [Rangi42/polishedcrystal](https://github.com/Rangi42/polishedcrystal) |
 | **Disassembly** | [pret/pokecrystal](https://github.com/pret/pokecrystal) |
@@ -22,7 +22,7 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 1. [Schnellstart](#schnellstart)
 2. [Changelog (aktuell)](#changelog-aktuell)
-3. [ROM-Übersicht 001–062](#rom-übersicht-001062)
+3. [ROM-Übersicht 001–063](#rom-übersicht-001063)
 4. [Was ist übersetzt?](#was-ist-übersetzt)
 5. [Qualitätsregeln](#qualitätsregeln)
 6. [Orden & Orte](#orden--orte)
@@ -45,10 +45,16 @@ Kein eigenes Spiel — nur der **Text-Layer** im Stil von **Pokémon Kristall (G
 
 ## Changelog (aktuell)
 
-Neueste pure-DE-Builds zuerst (**062 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
+Neueste pure-DE-Builds zuerst (**063 → 000**). Detail-Historie: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md).
 
 > **Pflicht:** Jede neue Desktop-/`original\`-ROM **3.2.3.0xx** bekommt hier einen Changelog-Block mit **Datum**, **Commit-Hash** und Inhalt, plus Eintrag in der ROM-Übersicht.  
 > **Datum** = Git-Commit-Datum des zugehörigen Feature-Commits (UTC/lokal laut Repo). Mehrere ROMs am selben Tag = mehrere Feature-Batches hintereinander. Zwischenbuilds ohne eigenen Commit sind markiert.
+
+### 063 · 2026-07-26 — Menü-Box-Breiten (Schwach + Full-Audit)
+
+- **DragonShrine Q5:** `menu_coords` 11→**10** damit **Schwach** (7) mit Cursor passt
+- Full-Audit `tools/audit_menu_box_widths.py` über maps/engine/data/home: 7 Treffer gefixt (Battle Tower Eintreten/Ja-Nein, Hyper-Test PROF. WESTWOOD, Spielhalle-Preise, Milch-Menü)
+- Audit-Report: 0 Overflows; Workflow-Regel W7 ergänzt
 
 ### 062 · 2026-07-26 — MEISTERBALL-Text dump-Layout (LIND)
 
@@ -570,7 +576,7 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 
 ---
 
-## ROM-Übersicht 001–062
+## ROM-Übersicht 001–063
 
 | Block | Thema |
 |---|---|
@@ -597,9 +603,10 @@ Keine fortlaufende `.000`-ROM. Session-Phasen-Builds ohne Zähler (lokal, nicht 
 | **060** | GSC-DE-Pass: Wrap/Ungehorsam/Rückruf/Item/Send-out dump-nah |
 | **061** | SentSomeToMom Overflow + Workflow LINE-WRAP-Regeln |
 | **062** | MEISTERBALL Lind: dump-Layout ultima-/tive |
+| **063** | Menü-Box-Breiten (Schwach + Full-Audit 0 remaining) |
 
 Detail pro Nummer: [`docs/ROM_HISTORY.md`](docs/ROM_HISTORY.md)  
-Zähler: `tools/_rom_build_version.txt` · **aktuell 062** · nächster Build: **063**
+Zähler: `tools/_rom_build_version.txt` · **aktuell 063** · nächster Build: **064**
 
 ---
 
