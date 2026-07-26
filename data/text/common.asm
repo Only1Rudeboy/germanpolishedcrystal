@@ -1059,12 +1059,13 @@ Text_EnemyUsed::
 
 SECTION "Text_EnemyUsedOn", ROMX
 Text_EnemyUsedOn::
+	; GSC dump: setzt ITEM bei NICK ein! (ohne PARA → kein Extra-A)
 	text "<ENEMY>"
-	line "ben. "
+	line "setzt "
 	text_ram wMonOrItemNameBuffer
-	cont "an "
+	cont "bei "
 	text_ram wEnemyMonNickname
-	text "!"
+	text " ein!"
 	prompt
 
 SECTION "_AskFloorElevatorText", ROMX
@@ -1903,13 +1904,13 @@ Text_DoItPkmn::
 
 SECTION "Text_GoForItPkmn", ROMX
 Text_GoForItPkmn::
-	text "Hau rein, @"
+	text "Los, @"
 	text_end
 
 SECTION "Text_YourFoesWeakGetmPkmn", ROMX
 Text_YourFoesWeakGetmPkmn::
-	text "Der Gegner ist"
-	line "schwach! Los, @"
+	text "Mach es fertig!"
+	line "Los, @"
 	text_end
 
 SECTION "Text_BattleMonNick01", ROMX
@@ -1938,13 +1939,14 @@ Text_OKComeBack::
 
 SECTION "Text_GoodComeBack", ROMX
 Text_GoodComeBack::
-	text " gut! Komm"
-	line "zurück!@"
+	text " super!"
+	line "Komm zurück!@"
 	text_end
 
 SECTION "Text_ComeBack", ROMX
 Text_ComeBack::
-	text " komm zurück!"
+	text " komm"
+	line "zurück!"
 	done
 
 SECTION "_BootedTMText", ROMX

@@ -763,9 +763,9 @@ FireSpinTrapText:
 	prompt
 
 WrappedByText:
-	; GSC-DE Dump-Stil (kurz, 2-Zeilen-Box)
+	; GSC-DE: „wurde von USER umschlungen!“ (gleiche cont-Anzahl)
 	text "<TARGET>"
-	line "von"
+	line "wurde von"
 	cont "<USER>"
 	cont "umschlungen!"
 	prompt
@@ -846,10 +846,11 @@ UsedMoveText:
 	done
 
 UsedMoveInsteadText:
+	; Ungehorsam: dump-nah „ben. MOVE / stattdessen!“ (kein EnemyLinebreak)
 	text "<USER>"
 	line "ben. "
 	text_ram wStringBuffer2
-	text "!"
+	cont "stattdessen!"
 	done
 
 LoafingAroundText:
@@ -884,9 +885,11 @@ IgnoredOrdersText:
 	prompt
 
 IgnoredSleepingText:
+	; GSC dump: „NAME igno- / riert den Befehl / …es schläft!“
 	text_ram wBattleMonNickname
-	line "schläft und"
-	cont "gehorcht nicht!"
+	text " igno-"
+	line "riert den Befehl"
+	cont "…es schläft!"
 	prompt
 
 NoPPLeftText:

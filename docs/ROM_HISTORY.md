@@ -9,7 +9,7 @@ Vollständige Liste der **lokal versionierten Builds**
 Quellen: Git-Commits, README-Changelog, `CONTINUE.md`, Session-Notizen (2026-07).  
 Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuild markiert.
 
-**Aktueller Zähler:** **058** (nächster Build wäre **059**).  
+**Aktueller Zähler:** **060** (nächster Build wäre **061**).  
 **Spiel-Basis:** Polished Crystal **3.2.3** · Fork: [Only1Rudeboy/germanpolishedcrystal](https://github.com/Only1Rudeboy/germanpolishedcrystal) · Branch **`master`**
 
 ---
@@ -31,6 +31,7 @@ Wo eine Nummer **kein** eigener Feature-Commit war, ist das als Zwischen-/Rebuil
 | J | **050–054** | Summary-Tabs, GSC-Feinschliff, Landmark-CAPS, Startmenü |
 | K | **055–056** | Grafik-Übersetzung, Namens-Audit, Claude-Merge auf GitHub-`master` |
 | L | **057–058** | Multi-Agent P0 + Pass-2 Systemtext/Gfx |
+| M | **059–060** | Kampftext-Hotfix + GSC-DE-Pass Workflow-Batch |
 
 ---
 
